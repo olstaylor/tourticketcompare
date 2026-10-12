@@ -1,6 +1,6 @@
 # StubHub International event sync log
 
-Generated: 2026-10-11T14:00:35.637Z
+Generated: 2026-10-12T09:01:04.528Z
 
 Written by `scripts/sync-impact-marketplace-events.mjs`. One Impact catalog
 fetch per registry-verified artist; a link is written only for one
@@ -10,16 +10,17 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 ## Run summary
 
 - Mode: apply
-- Events selected: 2692
-- API calls made: 257
+- Filtered run (missing-link recovery from fresh narrowed catalogs; no clears): its rows replace their previous rows; 2664 row(s) carried over from the previous log
+- Events selected: 81
+- API calls made: 0
 - Verified provenance written: 0
-- URLs added: 54
+- URLs added: 81
 - URLs corrected: 0
 - URLs cleared: 0
-- Provenance un-verified: 9
-- Conflicts (ambiguous, untouched): 43
-- No qualifying listing (complete catalog): 1549
-- Not checked (catalog incomplete): 214
+- Provenance un-verified: 0
+- Conflicts (ambiguous, untouched): 0
+- No qualifying listing (complete catalog): 0
+- Not checked (catalog incomplete): 0
 
 ## Outcomes
 
@@ -1827,7 +1828,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-the-red-clay-strays-2026-las-vegas-z7r9jz1a70pzp | The Red Clay Strays | none | 107198216 | https://www.stubhub.ie/the-red-clay-strays-las-vegas-tickets-12-5-2026/event/107198216 | - |
 | tm-the-red-clay-strays-2027-raleigh-g5evz_kwmllt1 | The Red Clay Strays | none | - | - | not checked: catalog incomplete (pagination_cap) |
 | tm-the-red-clay-strays-2027-columbia-g5evz_ksmjps3 | The Red Clay Strays | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-the-red-clay-strays-2027-rosemont-vv178z_kgksozism | The Red Clay Strays | none | - | - | not checked: catalog incomplete (pagination_cap) |
+| tm-the-red-clay-strays-2027-rosemont-vv178z_kgksozism | The Red Clay Strays | add (applied) | 107671538 | https://www.stubhub.ie/the-red-clay-strays-rosemont-tickets-1-28-2027/event/107671538 | - |
 | tm-the-red-clay-strays-2027-saint-louis-vv17bz_3gkxtmyfx | The Red Clay Strays | none | - | - | not checked: catalog incomplete (pagination_cap) |
 | tm-the-red-clay-strays-2027-omaha-vv17bz_kgks0gmzs | The Red Clay Strays | none | - | - | not checked: catalog incomplete (pagination_cap) |
 | tm-the-red-clay-strays-2027-indianapolis-vv17fz_kgks5i1ir | The Red Clay Strays | none | - | - | not checked: catalog incomplete (pagination_cap) |
@@ -1850,7 +1851,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-the-red-clay-strays-2027-boise-g5vzz_kjqef3d | The Red Clay Strays | none | - | - | not checked: catalog incomplete (pagination_cap) |
 | tm-the-red-clay-strays-2027-rogers-g5viz_kuooawu | The Red Clay Strays | none | - | - | not checked: catalog incomplete (pagination_cap) |
 | tm-the-red-clay-strays-2027-corpus-christi-g5diz_ksvr9iw | The Red Clay Strays | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-the-red-clay-strays-2027-austin-g5diz_kmbauv1 | The Red Clay Strays | none | - | - | not checked: catalog incomplete (pagination_cap) |
+| tm-the-red-clay-strays-2027-austin-g5diz_kmbauv1 | The Red Clay Strays | add (applied) | 107671555 | https://www.stubhub.ie/the-red-clay-strays-austin-tickets-9-19-2027/event/107671555 | - |
 | tm-daughtry-2026-troy-k7vgf_grfdn3c | Daughtry | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-daughtry-2026-beverly-z7r9jz1a7pyjj | Daughtry | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-daughtry-2026-uncasville-g5vvz_gld3qfv | Daughtry | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2099,19 +2100,19 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-the-red-clay-strays-2027-lubbock-z7r9jz1aaef4t | The Red Clay Strays | none | - | - | not checked: catalog incomplete (pagination_cap) |
 | tm-pink-martini-2027-liverpool-g5vhz_fpr6w_w | Pink Martini | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-pink-martini-2027-edinburgh-1auzk4agkdmo6dj | Pink Martini | none | 107671926 | https://www.stubhub.ie/pink-martini-tickets-edinburgh-usher-hall-4-7-2027/event/107671926 | - |
-| tm-the-neighbourhood-2026-atlanta-vvg1zz_73eik7i | The Neighbourhood | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-the-neighbourhood-2026-orlando-1axzkoogkembvjl | The Neighbourhood | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-the-neighbourhood-2026-miami-vvg1vz_7e0samz | The Neighbourhood | none | - | - | not checked: catalog incomplete (pagination_cap) |
+| tm-the-neighbourhood-2026-atlanta-vvg1zz_73eik7i | The Neighbourhood | add (applied) | 107121123 | https://www.stubhub.ie/the-neighbourhood-atlanta-tickets-11-10-2026/event/107121123 | - |
+| tm-the-neighbourhood-2026-orlando-1axzkoogkembvjl | The Neighbourhood | add (applied) | 107121124 | https://www.stubhub.ie/the-neighbourhood-orlando-tickets-11-11-2026/event/107121124 | - |
+| tm-the-neighbourhood-2026-miami-vvg1vz_7e0samz | The Neighbourhood | add (applied) | 107121125 | https://www.stubhub.ie/the-neighbourhood-miami-tickets-11-12-2026/event/107121125 | - |
 | tm-the-neighbourhood-2026-nashville-g5viz_kmzyt_i | The Neighbourhood | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-the-neighbourhood-2026-kansas-city-vv17bz_7gkr3ru0p | The Neighbourhood | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-the-neighbourhood-2026-chicago-vv1a7zkoagkdxvkbx | The Neighbourhood | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-the-neighbourhood-2026-detroit-vv17oz_7gkwiaino | The Neighbourhood | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-the-neighbourhood-2026-brooklyn-1ayzkoagkdftezg | The Neighbourhood | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-the-neighbourhood-2026-brooklyn-15dzz_aozvwft | The Neighbourhood | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-the-neighbourhood-2026-phoenix-16v0z_ac6g7w4dv | The Neighbourhood | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-the-neighbourhood-2026-san-francisco-g5vyz_a2kv6-_ | The Neighbourhood | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-the-neighbourhood-2026-inglewood-vv1aazkodgkdu9feo | The Neighbourhood | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-the-neighbourhood-2026-inglewood-vv1k0z_a8dg7vtxb | The Neighbourhood | none | - | - | not checked: catalog incomplete (pagination_cap) |
+| tm-the-neighbourhood-2026-kansas-city-vv17bz_7gkr3ru0p | The Neighbourhood | add (applied) | 107121127 | https://www.stubhub.ie/the-neighbourhood-kansas-city-tickets-11-16-2026/event/107121127 | - |
+| tm-the-neighbourhood-2026-chicago-vv1a7zkoagkdxvkbx | The Neighbourhood | add (applied) | 107148374 | https://www.stubhub.ie/the-neighbourhood-chicago-tickets-11-18-2026/event/107148374 | - |
+| tm-the-neighbourhood-2026-detroit-vv17oz_7gkwiaino | The Neighbourhood | add (applied) | 107121126 | https://www.stubhub.ie/the-neighbourhood-detroit-tickets-11-19-2026/event/107121126 | - |
+| tm-the-neighbourhood-2026-brooklyn-1ayzkoagkdftezg | The Neighbourhood | add (applied) | 107121128 | https://www.stubhub.ie/the-neighbourhood-brooklyn-tickets-11-21-2026/event/107121128 | - |
+| tm-the-neighbourhood-2026-brooklyn-15dzz_aozvwft | The Neighbourhood | add (applied) | 107165138 | https://www.stubhub.ie/the-neighbourhood-brooklyn-tickets-11-22-2026/event/107165138 | - |
+| tm-the-neighbourhood-2026-phoenix-16v0z_ac6g7w4dv | The Neighbourhood | add (applied) | 107123113 | https://www.stubhub.ie/the-neighbourhood-phoenix-tickets-11-30-2026/event/107123113 | - |
+| tm-the-neighbourhood-2026-san-francisco-g5vyz_a2kv6-_ | The Neighbourhood | add (applied) | 107123114 | https://www.stubhub.ie/the-neighbourhood-san-francisco-tickets-12-2-2026/event/107123114 | - |
+| tm-the-neighbourhood-2026-inglewood-vv1aazkodgkdu9feo | The Neighbourhood | add (applied) | 107123115 | https://www.stubhub.ie/the-neighbourhood-inglewood-tickets-12-4-2026/event/107123115 | - |
+| tm-the-neighbourhood-2026-inglewood-vv1k0z_a8dg7vtxb | The Neighbourhood | add (applied) | 107164092 | https://www.stubhub.ie/the-neighbourhood-inglewood-tickets-12-5-2026/event/107164092 | - |
 | tm-staind-2026-ontario-vv170z_dgkwr0_z6 | Staind | unverify (applied) | 107098205 | https://www.stubhub.ie/staind-ontario-tickets-10-10-2026/event/107098205 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-staind-2026-phoenix-1av0z_dgku63v-5 | Staind | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-staind-2026-albuquerque-g5vzz_dsirnej | Staind | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2212,7 +2213,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-morat-2026-pamplona-iruna-z698xz2qz16voojza6 | Morat | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-pink-martini-2027-london-g5vhz_fqbbwez | Pink Martini | none | 107671924 | https://www.stubhub.ie/pink-martini-tickets-london-london-royal-albert-hall-2-7-2027/event/107671924 | - |
 | tm-haiden-henderson-2027-salt-lake-city-z7r9jz1aaeefa | Haiden Henderson | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-red-clay-strays-2027-los-angeles-z7r9jz1aaek0t | The Red Clay Strays | none | - | - | not checked: catalog incomplete (pagination_cap) |
+| tm-the-red-clay-strays-2027-los-angeles-z7r9jz1aaek0t | The Red Clay Strays | add (applied) | 107672795 | https://www.stubhub.ie/the-red-clay-strays-los-angeles-tickets-8-17-2027/event/107672795 | - |
 | tm-carly-rae-jepsen-2027-toronto-1a8zk47gkd65fpy | Carly Rae Jepsen | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-flans-2027-grand-prairie-z7r9jz1aaeaoe | Flans | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-charli-xcx-2027-amsterdam-z698xzbpz16v-igd-s | Charli xcx | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2239,17 +2240,17 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-dancing-with-the-stars-2027-minneapolis-vv1akzkfzgkdjnlsm | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
 | tm-dancing-with-the-stars-2027-milwaukee-vv1a6zkfzgkemf4pv | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
 | tm-dancing-with-the-stars-2027-allentown-1kgzvp8fgagolc1 | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-dancing-with-the-stars-2027-philadelphia-1ayzk4vgkepepvt | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-dancing-with-the-stars-2027-new-york-g5diz_f1zup-t | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-dancing-with-the-stars-2027-washington-1a4zkfsgkew-uk5 | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
+| tm-dancing-with-the-stars-2027-philadelphia-1ayzk4vgkepepvt | Dancing With The Stars | add (applied) | 107672823 | https://www.stubhub.ie/dancing-with-the-stars-philadelphia-tickets-2-4-2027/event/107672823 | - |
+| tm-dancing-with-the-stars-2027-new-york-g5diz_f1zup-t | Dancing With The Stars | add (applied) | 107672247 | https://www.stubhub.ie/dancing-with-the-stars-new-york-tickets-2-5-2027/event/107672247 | - |
+| tm-dancing-with-the-stars-2027-washington-1a4zkfsgkew-uk5 | Dancing With The Stars | add (applied) | 107672824 | https://www.stubhub.ie/dancing-with-the-stars-washington-tickets-2-7-2027/event/107672824 | - |
 | tm-dancing-with-the-stars-2027-baltimore-1a4zk4vgkewzdyv | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
 | tm-dancing-with-the-stars-2027-pittsburgh-1apzkfygkdqrluc | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-dancing-with-the-stars-2027-boston-vv177z_kgks9d4wi | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
+| tm-dancing-with-the-stars-2027-boston-vv177z_kgks9d4wi | Dancing With The Stars | add (applied) | 107672248 | https://www.stubhub.ie/dancing-with-the-stars-boston-tickets-2-11-2027/event/107672248 | - |
 | tm-dancing-with-the-stars-2027-albany-k7vgf_km48smn | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-dancing-with-the-stars-2027-newark-vv17fz_kgkbxwhxi | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
+| tm-dancing-with-the-stars-2027-newark-vv17fz_kgkbxwhxi | Dancing With The Stars | add (applied) | 107672825 | https://www.stubhub.ie/dancing-with-the-stars-newark-tickets-2-13-2027/event/107672825 | - |
 | tm-dancing-with-the-stars-2027-hershey-vv1aezk4egkd_54wn | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
 | tm-dancing-with-the-stars-2027-columbus-vv1kv8vp83gacza6r | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-dancing-with-the-stars-2027-rosemont-vv178z_kgku4hpsc | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
+| tm-dancing-with-the-stars-2027-rosemont-vv178z_kgku4hpsc | Dancing With The Stars | add (applied) | 107672249 | https://www.stubhub.ie/dancing-with-the-stars-rosemont-tickets-2-19-2027/event/107672249 | - |
 | tm-dancing-with-the-stars-2027-moline-vv17bz_kgkbyihs4 | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
 | tm-dancing-with-the-stars-2027-omaha-vv1akzk4egkdjg6nb | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
 | tm-dancing-with-the-stars-2027-kansas-city-vv1kbz_fk9g7ylk6 | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
@@ -2262,19 +2263,19 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-dancing-with-the-stars-2027-tampa-vvg1vz_kbbl4rs | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
 | tm-dancing-with-the-stars-2027-birmingham-1aezz_kgkwr4ecx | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
 | tm-dancing-with-the-stars-2027-new-orleans-g5viz_kxwz34h | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-dancing-with-the-stars-2027-austin-g5diz_knamopo | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-dancing-with-the-stars-2027-san-antonio-g5diz_kdu_auv | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
+| tm-dancing-with-the-stars-2027-austin-g5diz_knamopo | Dancing With The Stars | add (applied) | 107672826 | https://www.stubhub.ie/dancing-with-the-stars-austin-tickets-3-12-2027/event/107672826 | - |
+| tm-dancing-with-the-stars-2027-san-antonio-g5diz_kdu_auv | Dancing With The Stars | add (applied) | 107672827 | https://www.stubhub.ie/dancing-with-the-stars-san-antonio-tickets-3-13-2027/event/107672827 | - |
 | tm-dancing-with-the-stars-2027-dallas-vvg1yz_ke4gsnj | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
 | tm-dancing-with-the-stars-2027-tulsa-1aezz_kgkslhpir | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
 | tm-dancing-with-the-stars-2027-denver-g5vzz_kbv0118 | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-dancing-with-the-stars-2027-seattle-vvg1hz_f63jugd | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
+| tm-dancing-with-the-stars-2027-seattle-vvg1hz_f63jugd | Dancing With The Stars | add (applied) | 107672828 | https://www.stubhub.ie/dancing-with-the-stars-seattle-tickets-3-22-2027/event/107672828 | - |
 | tm-dancing-with-the-stars-2027-abbotsford-1aozkfygkejjqyp | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
 | tm-dancing-with-the-stars-2027-portland-vvg1hz_kxomi0l | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-dancing-with-the-stars-2027-sacramento-g5vyz_kzd-r6s | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
+| tm-dancing-with-the-stars-2027-sacramento-g5vyz_kzd-r6s | Dancing With The Stars | add (applied) | 107672250 | https://www.stubhub.ie/dancing-with-the-stars-sacramento-tickets-3-26-2027/event/107672250 | - |
 | tm-dancing-with-the-stars-2027-san-jose-g5vyz_kxgynut | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
 | tm-dancing-with-the-stars-2027-san-diego-vvg1iz_kxrbyxe | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-dancing-with-the-stars-2027-anaheim-vv170z_kgkbh3n6- | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
-| tm-dancing-with-the-stars-2027-los-angeles-g5eyz_fk9yzip | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
+| tm-dancing-with-the-stars-2027-anaheim-vv170z_kgkbh3n6- | Dancing With The Stars | add (applied) | 107672252 | https://www.stubhub.ie/dancing-with-the-stars-anaheim-tickets-4-1-2027/event/107672252 | - |
+| tm-dancing-with-the-stars-2027-los-angeles-g5eyz_fk9yzip | Dancing With The Stars | add (applied) | 107672829 | https://www.stubhub.ie/dancing-with-the-stars-los-angeles-tickets-4-2-2027/event/107672829 | - |
 | tm-dancing-with-the-stars-2027-phoenix-1av0z_kgkb3yfyn | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
 | tm-dancing-with-the-stars-2027-mobile-g5viz_f1cm1bo | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
 | tm-dancing-with-the-stars-2027-greenville-g5evz_kdpl_8w | Dancing With The Stars | none | - | - | not checked: catalog incomplete (pagination_cap) |
@@ -2641,7 +2642,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-eros-ramazzotti-2027-miami-vvg1vzbicfi7sa | Eros Ramazzotti | add (applied) | 106747122 | https://www.stubhub.ie/eros-ramazzotti-miami-tickets-10-8-2027/event/106747122 | - |
 | tm-eros-ramazzotti-2027-sugar-land-z7r9jz1a74uo8 | Eros Ramazzotti | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-eros-ramazzotti-2027-inglewood-vvg1izbiyf5ko0 | Eros Ramazzotti | add (applied) | 106747124 | https://www.stubhub.ie/eros-ramazzotti-inglewood-tickets-10-16-2027/event/106747124 | - |
-| tm-the-warning-2027-ciudad-de-mexico-1afzkf4gkenopd9 | The Warning | none | - | - | not checked: catalog incomplete (pagination_cap) |
+| tm-the-warning-2027-ciudad-de-mexico-1afzkf4gkenopd9 | The Warning | add (applied) | 107665621 | https://www.stubhub.ie/the-warning-tickets-mexico-city-estadio-gnp-seguros-5-2-2027/event/107665621 | - |
 | tm-hilary-duff-2026-auckland-1ae8z_7gkmdmw55 | Hilary Duff | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-hilary-duff-2027-ciudad-de-mexico-1afzko6gkdoa5fw | Hilary Duff | add (applied) | 107102490 | https://www.stubhub.ie/hilary-duff-tickets-mexico-city-palacio-de-los-deportes-12-2-2027/event/107102490 | - |
 | tm-hilary-duff-2027-ciudad-de-mexico-1afzko6gkdomhcz | Hilary Duff | add (applied) | 107116077 | https://www.stubhub.ie/hilary-duff-tickets-mexico-city-palacio-de-los-deportes-13-2-2027/event/107116077 | - |
@@ -2717,3 +2718,56 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-mico-2027-praha-1-z698xzu0z16vxkonfi | Mico | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mico-2027-k-benhavn-v-z698xzc4z16vj9j7ev | Mico | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mico-2027-cleveland-rz7hnez1afut40 | Mico | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-rod-wave-2026-washington-17a8v0g6uelkuww | Rod Wave | add (applied) | 107447265 | https://www.stubhub.ie/rod-wave-washington-tickets-10-16-2026/event/107447265 | - |
+| tm-rod-wave-2026-detroit-vvg1oz_udpjh0t | Rod Wave | add (applied) | 107666069 | https://www.stubhub.ie/rod-wave-detroit-tickets-10-19-2026/event/107666069 | - |
+| tm-rod-wave-2026-boston-vvg17z_uerk22e | Rod Wave | add (applied) | 107447268 | https://www.stubhub.ie/rod-wave-boston-tickets-10-25-2026/event/107447268 | - |
+| tm-rod-wave-2026-brooklyn-17gzv0g6uz2i9rf | Rod Wave | add (applied) | 107417589 | https://www.stubhub.ie/rod-wave-brooklyn-tickets-10-27-2026/event/107417589 | - |
+| tm-rod-wave-2026-brooklyn-17gzv0g6uhl8aq4 | Rod Wave | add (applied) | 107469130 | https://www.stubhub.ie/rod-wave-brooklyn-tickets-10-28-2026/event/107469130 | - |
+| tm-rod-wave-2026-chicago-vvg18z_udha5ep | Rod Wave | add (applied) | 107447269 | https://www.stubhub.ie/rod-wave-chicago-tickets-10-31-2026/event/107447269 | - |
+| tm-rod-wave-2026-chicago-vvg18z_uqcj0ym | Rod Wave | add (applied) | 107469469 | https://www.stubhub.ie/rod-wave-chicago-tickets-11-1-2026/event/107469469 | - |
+| tm-rod-wave-2026-orlando-17fov0g6u6bzp82 | Rod Wave | add (applied) | 107447270 | https://www.stubhub.ie/rod-wave-orlando-tickets-11-9-2026/event/107447270 | - |
+| tm-rod-wave-2026-orlando-17fov0g6uhspnas | Rod Wave | add (applied) | 107472165 | https://www.stubhub.ie/rod-wave-orlando-tickets-11-10-2026/event/107472165 | - |
+| tm-rod-wave-2026-sunrise-z7r9jz1a7ppag | Rod Wave | add (applied) | 107447271 | https://www.stubhub.ie/rod-wave-sunrise-tickets-11-14-2026/event/107447271 | - |
+| tm-rod-wave-2026-sunrise-z7r9jz1aazfq4 | Rod Wave | add (applied) | 107554704 | https://www.stubhub.ie/rod-wave-sunrise-tickets-11-15-2026/event/107554704 | - |
+| tm-rod-wave-2026-atlanta-vvg1zz_uzryhlw | Rod Wave | add (applied) | 107554705 | https://www.stubhub.ie/rod-wave-atlanta-tickets-11-18-2026/event/107554705 | - |
+| tm-rod-wave-2026-atlanta-vvg1zz_uqszfce | Rod Wave | add (applied) | 107554706 | https://www.stubhub.ie/rod-wave-atlanta-tickets-11-19-2026/event/107554706 | - |
+| tm-uicideboy-2026-austin-g5diz_6rfioeh | $uicideboy$ | add (applied) | 107156169 | https://www.stubhub.ie/uicideboy-austin-tickets-10-13-2026/event/107156169 | - |
+| tm-uicideboy-2026-new-orleans-g5viz_6roljgm | $uicideboy$ | add (applied) | 107156171 | https://www.stubhub.ie/uicideboy-new-orleans-tickets-10-14-2026/event/107156171 | - |
+| tm-uicideboy-2026-atlanta-vvg1zz_6rspgk8 | $uicideboy$ | add (applied) | 107155129 | https://www.stubhub.ie/uicideboy-atlanta-tickets-10-16-2026/event/107155129 | - |
+| tm-uicideboy-2026-sunrise-z7r9jz1a7xzpd | $uicideboy$ | add (applied) | 107156173 | https://www.stubhub.ie/uicideboy-sunrise-tickets-10-18-2026/event/107156173 | - |
+| tm-steve-lacy-2026-boston-vv1avzkfwgkdcqwfa | Steve Lacy | add (applied) | 107669095 | https://www.stubhub.ie/steve-lacy-boston-tickets-10-12-2026/event/107669095 | - |
+| tm-steve-lacy-2026-boston-vvg17z_2dy9pyk | Steve Lacy | add (applied) | 107482314 | https://www.stubhub.ie/steve-lacy-boston-tickets-10-13-2026/event/107482314 | - |
+| tm-steve-lacy-2026-washington-1a4zkfdgkeiyeai | Steve Lacy | add (applied) | 107482315 | https://www.stubhub.ie/steve-lacy-washington-tickets-10-18-2026/event/107482315 | - |
+| tm-steve-lacy-2026-miami-vvg1vz_8pw-pfe | Steve Lacy | add (applied) | 107486078 | https://www.stubhub.ie/steve-lacy-miami-tickets-10-26-2026/event/107486078 | - |
+| tm-steve-lacy-2026-tampa-vvg1vz_8uxpnex | Steve Lacy | add (applied) | 107486079 | https://www.stubhub.ie/steve-lacy-tampa-tickets-10-28-2026/event/107486079 | - |
+| tm-steve-lacy-2026-irving-vvg1yz_8n-3vdr | Steve Lacy | add (applied) | 107482316 | https://www.stubhub.ie/steve-lacy-irving-tickets-11-5-2026/event/107482316 | - |
+| tm-steve-lacy-2026-austin-g5diz_8pb91k2 | Steve Lacy | add (applied) | 107486080 | https://www.stubhub.ie/steve-lacy-austin-tickets-11-7-2026/event/107486080 | - |
+| tm-steve-lacy-2026-morrison-z7r9jz1aazj84 | Steve Lacy | add (applied) | 107482322 | https://www.stubhub.ie/steve-lacy-morrison-tickets-11-11-2026/event/107482322 | - |
+| tm-steve-lacy-2026-las-vegas-169zkfdovza26a51 | Steve Lacy | add (applied) | 107482317 | https://www.stubhub.ie/steve-lacy-las-vegas-tickets-11-13-2026/event/107482317 | - |
+| tm-steve-lacy-2026-san-diego-vvg1iz_8prddbi | Steve Lacy | add (applied) | 107482318 | https://www.stubhub.ie/steve-lacy-san-diego-tickets-11-19-2026/event/107482318 | - |
+| tm-steve-lacy-2026-hollywood-vvg1iz_8f-wifq | Steve Lacy | add (applied) | 107484106 | https://www.stubhub.ie/steve-lacy-hollywood-tickets-11-21-2026/event/107484106 | - |
+| tm-steve-lacy-2026-san-francisco-g5vyz_8boyp-m | Steve Lacy | add (applied) | 107482319 | https://www.stubhub.ie/steve-lacy-san-francisco-tickets-11-24-2026/event/107482319 | - |
+| tm-steve-lacy-2026-san-francisco-g5vyz_8bk7kme | Steve Lacy | add (applied) | 107672773 | https://www.stubhub.ie/steve-lacy-san-francisco-tickets-11-25-2026/event/107672773 | - |
+| tm-steve-lacy-2026-seattle-vvg1hz_8pk8e2l | Steve Lacy | add (applied) | 107482320 | https://www.stubhub.ie/steve-lacy-seattle-tickets-11-28-2026/event/107482320 | - |
+| tm-the-smashing-pumpkins-2026-chicago-vvg18z_1daahef | The Smashing Pumpkins | add (applied) | 107185107 | https://www.stubhub.ie/the-smashing-pumpkins-chicago-tickets-10-14-2026/event/107185107 | - |
+| tm-the-smashing-pumpkins-2026-charlotte-g5evz_1dw8jew | The Smashing Pumpkins | add (applied) | 107289099 | https://www.stubhub.ie/the-smashing-pumpkins-charlotte-tickets-10-16-2026/event/107289099 | - |
+| tm-the-smashing-pumpkins-2026-jacksonville-17fov0g61t4w29c | The Smashing Pumpkins | add (applied) | 107185108 | https://www.stubhub.ie/the-smashing-pumpkins-jacksonville-tickets-10-17-2026/event/107185108 | - |
+| tm-the-smashing-pumpkins-2026-tampa-vvg1vz_1xbgmwh | The Smashing Pumpkins | add (applied) | 107185109 | https://www.stubhub.ie/the-smashing-pumpkins-tampa-tickets-10-18-2026/event/107185109 | - |
+| tm-the-smashing-pumpkins-2026-oklahoma-city-vvg1yz_1hjjehy | The Smashing Pumpkins | add (applied) | 107289100 | https://www.stubhub.ie/the-smashing-pumpkins-oklahoma-city-tickets-10-24-2026/event/107289100 | - |
+| tm-the-smashing-pumpkins-2026-austin-g5diz_1txjp-0 | The Smashing Pumpkins | add (applied) | 107185113 | https://www.stubhub.ie/the-smashing-pumpkins-austin-tickets-10-25-2026/event/107185113 | - |
+| tm-the-smashing-pumpkins-2026-denver-g5vzz_1xqviwv | The Smashing Pumpkins | add (applied) | 107185114 | https://www.stubhub.ie/the-smashing-pumpkins-denver-tickets-10-27-2026/event/107185114 | - |
+| tm-the-smashing-pumpkins-2026-las-vegas-z7r9jz1a70x-e | The Smashing Pumpkins | add (applied) | 107186117 | https://www.stubhub.ie/the-smashing-pumpkins-las-vegas-tickets-10-30-2026/event/107186117 | - |
+| tm-the-smashing-pumpkins-2026-vancouver-1778v0g61badswr | The Smashing Pumpkins | add (applied) | 107185115 | https://www.stubhub.ie/the-smashing-pumpkins-tickets-vancouver-rogers-arena-11-5-2026/event/107185115 | - |
+| tm-the-smashing-pumpkins-2026-seattle-vvg1hz_1wymaop | The Smashing Pumpkins | add (applied) | 107186118 | https://www.stubhub.ie/the-smashing-pumpkins-seattle-tickets-11-6-2026/event/107186118 | - |
+| tm-the-smashing-pumpkins-2026-phoenix-17k8v0g61xa1k9d | The Smashing Pumpkins | add (applied) | 107185111 | https://www.stubhub.ie/the-smashing-pumpkins-phoenix-tickets-11-11-2026/event/107185111 | - |
+| tm-the-smashing-pumpkins-2026-inglewood-vvg10z_1t5e4o_ | The Smashing Pumpkins | add (applied) | 107185110 | https://www.stubhub.ie/the-smashing-pumpkins-inglewood-tickets-11-12-2026/event/107185110 | - |
+| tm-fuerza-regida-2026-morrison-z7r9jz1aazpuz | Fuerza Regida | add (applied) | 107665240 | https://www.stubhub.ie/fuerza-regida-morrison-tickets-11-2-2026/event/107665240 | - |
+| tm-fuerza-regida-2026-morrison-z7r9jz1aazt0f | Fuerza Regida | add (applied) | 107665241 | https://www.stubhub.ie/fuerza-regida-morrison-tickets-11-3-2026/event/107665241 | - |
+| tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4egkdlzcpt | Fuerza Regida | add (applied) | 107672800 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-29-1-2027/event/107672800 | - |
+| tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4egkdowrar | Fuerza Regida | add (applied) | 107672234 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-30-1-2027/event/107672234 | - |
+| tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4vgkdxsfp_ | Fuerza Regida | add (applied) | 107671608 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-31-1-2027/event/107671608 | - |
+| tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacn3ld | Fuerza Regida | add (applied) | 107670793 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-3-2-2027/event/107670793 | - |
+| tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgauwxey | Fuerza Regida | add (applied) | 107670885 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-4-2-2027/event/107670885 | - |
+| tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacnxl1 | Fuerza Regida | add (applied) | 107670794 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-5-2-2027/event/107670794 | - |
+| tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacnwlg | Fuerza Regida | add (applied) | 107670886 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-6-2-2027/event/107670886 | - |
+| tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgaclelp | Fuerza Regida | add (applied) | 107670887 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-7-2-2027/event/107670887 | - |

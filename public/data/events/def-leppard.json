@@ -475,7 +475,7 @@
     "ticketmaster_event_id": "10006542DE7542BD",
     "ticketmaster_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-toronto-ontario-03-09-2027/event/10006542DE7542BD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-toronto-scotiabank-arena-3-9-2027--concerts-rock/production/7671856",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-toronto-ontario-03-09-2027/event/10006542DE7542BD",
     "last_verified_at": "2026-10-11",
@@ -497,11 +497,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7671856,
+        "url": "https://www.vividseats.com/def-leppard-tickets-toronto-scotiabank-arena-3-9-2027--concerts-rock/production/7671856",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -3124,7 +3124,7 @@
     "ticketmaster_event_id": "11006545C3E090B1",
     "ticketmaster_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-vancouver-british-columbia-05-14-2027/event/11006545C3E090B1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-vancouver-rogers-arena-5-14-2027--concerts-rock/production/7672358",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-vancouver-british-columbia-05-14-2027/event/11006545C3E090B1",
     "last_verified_at": "2026-10-11",
@@ -3146,11 +3146,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7672358,
+        "url": "https://www.vividseats.com/def-leppard-tickets-vancouver-rogers-arena-5-14-2027--concerts-rock/production/7672358",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

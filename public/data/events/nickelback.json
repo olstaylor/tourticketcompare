@@ -2830,7 +2830,7 @@
     "ticketmaster_event_id": "11006545D6F8A665",
     "ticketmaster_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-vancouver-british-columbia-04-09-2027/event/11006545D6F8A665",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-vancouver-rogers-arena-4-9-2027/production/7678928",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-vancouver-british-columbia-04-09-2027/event/11006545D6F8A665",
     "last_verified_at": "2026-10-11",
@@ -2852,11 +2852,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7678928,
+        "url": "https://www.vividseats.com/nickelback-tickets-vancouver-rogers-arena-4-9-2027/production/7678928",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

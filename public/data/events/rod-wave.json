@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "1B0064D1D297D9E5",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-nashville-tennessee-10-14-2026/event/1B0064D1D297D9E5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-nashville-bridgestone-arena-10-14-2026/production/7185483",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-nashville-tennessee-10-14-2026/event/1B0064D1D297D9E5",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7185483,
+        "url": "https://www.vividseats.com/rod-wave-tickets-nashville-bridgestone-arena-10-14-2026/production/7185483",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -99,11 +99,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8063447",
+        "url": "https://www.ticketnetwork.com/en/p/8063447",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8063447",
+        "url": "https://www.ticketliquidator.com/tickets/8063447/Rod-Wave-tickets-Wed-Oct-14-2026-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_u63PWEP",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8063447",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8063447/Rod-Wave-tickets-Wed-Oct-14-2026-Bridgestone-Arena"
   },
   {
     "id": "tm-rod-wave-2026-washington-17a8v0g6uelkuww",
@@ -118,7 +134,7 @@
     "ticketmaster_event_id": "150064D09F1B6CBD",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-washington-district-of-columbia-10-16-2026/event/150064D09F1B6CBD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-washington-capital-one-arena-10-16-2026--concerts-rap-hip-hop/production/7185739",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-washington-district-of-columbia-10-16-2026/event/150064D09F1B6CBD",
     "last_verified_at": null,
@@ -140,11 +156,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7185739,
+        "url": "https://www.vividseats.com/rod-wave-tickets-washington-capital-one-arena-10-16-2026--concerts-rap-hip-hop/production/7185739",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -152,11 +168,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8063448",
+        "url": "https://www.ticketnetwork.com/en/p/8063448",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8063448",
+        "url": "https://www.ticketliquidator.com/tickets/8063448/Rod-Wave-tickets-Fri-Oct-16-2026-Capital-One-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447265",
+        "url": "https://www.stubhub.ie/rod-wave-washington-tickets-10-16-2026/event/107447265",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6ueLkUwW",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8063448",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8063448/Rod-Wave-tickets-Fri-Oct-16-2026-Capital-One-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/rod-wave-washington-tickets-10-16-2026/event/107447265"
   },
   {
     "id": "tm-rod-wave-2026-detroit-vvg1oz_udpjh0t",
@@ -171,7 +211,7 @@
     "ticketmaster_event_id": "080064D0D671B929",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-detroit-michigan-10-19-2026/event/080064D0D671B929",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-detroit-little-caesars-arena-10-19-2026--concerts-rap-hip-hop/production/7185743",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-detroit-michigan-10-19-2026/event/080064D0D671B929",
     "last_verified_at": null,
@@ -193,11 +233,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7185743,
+        "url": "https://www.vividseats.com/rod-wave-tickets-detroit-little-caesars-arena-10-19-2026--concerts-rap-hip-hop/production/7185743",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -205,11 +245,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8063449",
+        "url": "https://www.ticketnetwork.com/en/p/8063449",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8063449",
+        "url": "https://www.ticketliquidator.com/tickets/8063449/Rod-Wave-tickets-Mon-Oct-19-2026-Little-Caesars-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666069",
+        "url": "https://www.stubhub.ie/rod-wave-detroit-tickets-10-19-2026/event/107666069",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_udpjh0t",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8063449",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8063449/Rod-Wave-tickets-Mon-Oct-19-2026-Little-Caesars-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/rod-wave-detroit-tickets-10-19-2026/event/107666069"
   },
   {
     "id": "tm-rod-wave-2026-columbus-vvg1fz_u68l-x-",
@@ -224,7 +288,7 @@
     "ticketmaster_event_id": "050064D1D0AE1FA1",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-columbus-ohio-10-22-2026/event/050064D1D0AE1FA1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-columbus-value-city-arena-at-schottenstein-center-10-22-2026--concerts-rap-hip-hop/production/7185749",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-columbus-ohio-10-22-2026/event/050064D1D0AE1FA1",
     "last_verified_at": null,
@@ -246,11 +310,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7185749,
+        "url": "https://www.vividseats.com/rod-wave-tickets-columbus-value-city-arena-at-schottenstein-center-10-22-2026--concerts-rap-hip-hop/production/7185749",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -258,11 +322,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8063450",
+        "url": "https://www.ticketnetwork.com/en/p/8063450",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8063450",
+        "url": "https://www.ticketliquidator.com/tickets/8063450/Rod-Wave-tickets-Thu-Oct-22-2026-Value-City-Arena-at-The-Schottenstein-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_u68l-X-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8063450",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8063450/Rod-Wave-tickets-Thu-Oct-22-2026-Value-City-Arena-at-The-Schottenstein-Center"
   },
   {
     "id": "tm-rod-wave-2026-pittsburgh-17aov0g6uky4i7y",
@@ -277,7 +357,7 @@
     "ticketmaster_event_id": "160064D1B956C130",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-pittsburgh-pennsylvania-10-23-2026/event/160064D1B956C130",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-pittsburgh-ppg-paints-arena-10-23-2026--concerts-rap-hip-hop/production/7185759",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-pittsburgh-pennsylvania-10-23-2026/event/160064D1B956C130",
     "last_verified_at": null,
@@ -299,11 +379,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7185759,
+        "url": "https://www.vividseats.com/rod-wave-tickets-pittsburgh-ppg-paints-arena-10-23-2026--concerts-rap-hip-hop/production/7185759",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -311,11 +391,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8063451",
+        "url": "https://www.ticketnetwork.com/en/p/8063451",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8063451",
+        "url": "https://www.ticketliquidator.com/tickets/8063451/Rod-Wave-tickets-Fri-Oct-23-2026-PPG-Paints-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AOv0G6uky4i7Y",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8063451",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8063451/Rod-Wave-tickets-Fri-Oct-23-2026-PPG-Paints-Arena"
   },
   {
     "id": "tm-rod-wave-2026-boston-vvg17z_uerk22e",
@@ -330,7 +426,7 @@
     "ticketmaster_event_id": "010064D0AF18F3E7",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-boston-massachusetts-10-25-2026/event/010064D0AF18F3E7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-boston-td-garden-10-25-2026--concerts-rap-hip-hop/production/7185765",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-boston-massachusetts-10-25-2026/event/010064D0AF18F3E7",
     "last_verified_at": null,
@@ -352,11 +448,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7185765,
+        "url": "https://www.vividseats.com/rod-wave-tickets-boston-td-garden-10-25-2026--concerts-rap-hip-hop/production/7185765",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -364,11 +460,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8063452",
+        "url": "https://www.ticketnetwork.com/en/p/8063452",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8063452",
+        "url": "https://www.ticketliquidator.com/tickets/8063452/Rod-Wave-tickets-Sun-Oct-25-2026-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447268",
+        "url": "https://www.stubhub.ie/rod-wave-boston-tickets-10-25-2026/event/107447268",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_ueRk22E",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8063452",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8063452/Rod-Wave-tickets-Sun-Oct-25-2026-TD-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/rod-wave-boston-tickets-10-25-2026/event/107447268"
   },
   {
     "id": "tm-rod-wave-2026-brooklyn-17gzv0g6uz2i9rf",
@@ -383,7 +503,7 @@
     "ticketmaster_event_id": "300064D00FB17794",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-brooklyn-new-york-10-27-2026/event/300064D00FB17794",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-brooklyn-barclays-center-10-27-2026--concerts-rap-hip-hop/production/7185769",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-brooklyn-new-york-10-27-2026/event/300064D00FB17794",
     "last_verified_at": null,
@@ -405,11 +525,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7185769,
+        "url": "https://www.vividseats.com/rod-wave-tickets-brooklyn-barclays-center-10-27-2026--concerts-rap-hip-hop/production/7185769",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -417,11 +537,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8063453",
+        "url": "https://www.ticketnetwork.com/en/p/8063453",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8063453",
+        "url": "https://www.ticketliquidator.com/tickets/8063453/Rod-Wave-tickets-Tue-Oct-27-2026-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107417589",
+        "url": "https://www.stubhub.ie/rod-wave-brooklyn-tickets-10-27-2026/event/107417589",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G6uZ2i9rf",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8063453",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8063453/Rod-Wave-tickets-Tue-Oct-27-2026-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/rod-wave-brooklyn-tickets-10-27-2026/event/107417589"
   },
   {
     "id": "tm-rod-wave-2026-brooklyn-17gzv0g6uhl8aq4",
@@ -436,7 +580,7 @@
     "ticketmaster_event_id": "300064D6DF405755",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-brooklyn-new-york-10-28-2026/event/300064D6DF405755",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-brooklyn-barclays-center-10-28-2026/production/7367116",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-brooklyn-new-york-10-28-2026/event/300064D6DF405755",
     "last_verified_at": null,
@@ -458,11 +602,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7367116,
+        "url": "https://www.vividseats.com/rod-wave-tickets-brooklyn-barclays-center-10-28-2026/production/7367116",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -470,11 +614,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8173375",
+        "url": "https://www.ticketnetwork.com/en/p/8173375",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8173375",
+        "url": "https://www.ticketliquidator.com/tickets/8173375/Rod-Wave-tickets-Wed-Oct-28-2026-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107469130",
+        "url": "https://www.stubhub.ie/rod-wave-brooklyn-tickets-10-28-2026/event/107469130",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G6uhL8Aq4",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173375",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173375/Rod-Wave-tickets-Wed-Oct-28-2026-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/rod-wave-brooklyn-tickets-10-28-2026/event/107469130"
   },
   {
     "id": "tm-rod-wave-2026-chicago-vvg18z_udha5ep",
@@ -489,7 +657,7 @@
     "ticketmaster_event_id": "040064D0DB24B9E5",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-chicago-illinois-10-31-2026/event/040064D0DB24B9E5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-chicago-united-center-10-31-2026--concerts-rap-hip-hop/production/7185771",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-chicago-illinois-10-31-2026/event/040064D0DB24B9E5",
     "last_verified_at": null,
@@ -511,11 +679,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7185771,
+        "url": "https://www.vividseats.com/rod-wave-tickets-chicago-united-center-10-31-2026--concerts-rap-hip-hop/production/7185771",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -523,11 +691,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8063454",
+        "url": "https://www.ticketnetwork.com/en/p/8063454",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8063454",
+        "url": "https://www.ticketliquidator.com/tickets/8063454/Rod-Wave-tickets-Sat-Oct-31-2026-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447269",
+        "url": "https://www.stubhub.ie/rod-wave-chicago-tickets-10-31-2026/event/107447269",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_udha5EP",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8063454",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8063454/Rod-Wave-tickets-Sat-Oct-31-2026-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/rod-wave-chicago-tickets-10-31-2026/event/107447269"
   },
   {
     "id": "tm-rod-wave-2026-chicago-vvg18z_uqcj0ym",
@@ -542,7 +734,7 @@
     "ticketmaster_event_id": "040064D68E724E6E",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-chicago-illinois-11-01-2026/event/040064D68E724E6E",
     "seatgeek_url": "https://seatgeek.com/rod-wave-tickets/chicago-illinois-united-center-2026-11-01-8-pm/concert/18414825",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-chicago-united-center-11-1-2026/production/7367131",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-chicago-illinois-11-01-2026/event/040064D68E724E6E",
     "last_verified_at": null,
@@ -564,11 +756,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7367131,
+        "url": "https://www.vividseats.com/rod-wave-tickets-chicago-united-center-11-1-2026/production/7367131",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -576,11 +768,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8173160",
+        "url": "https://www.ticketnetwork.com/en/p/8173160",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8173160",
+        "url": "https://www.ticketliquidator.com/tickets/8173160/Rod-Wave-tickets-Sun-Nov-1-2026-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107469469",
+        "url": "https://www.stubhub.ie/rod-wave-chicago-tickets-11-1-2026/event/107469469",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_uQCj0ym",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173160",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173160/Rod-Wave-tickets-Sun-Nov-1-2026-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/rod-wave-chicago-tickets-11-1-2026/event/107469469"
   },
   {
     "id": "tm-rod-wave-2026-charlotte-g5evz_uk3_hwq",
@@ -595,7 +811,7 @@
     "ticketmaster_event_id": "2D0064D19265BC9A",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-charlotte-north-carolina-11-03-2026/event/2D0064D19265BC9A",
     "seatgeek_url": "https://seatgeek.com/rod-wave-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-11-03-8-30-pm/concert/18320066",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-charlotte-spectrum-center-11-3-2026--concerts-rap-hip-hop/production/7185775",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-charlotte-north-carolina-11-03-2026/event/2D0064D19265BC9A",
     "last_verified_at": null,
@@ -617,11 +833,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7185775,
+        "url": "https://www.vividseats.com/rod-wave-tickets-charlotte-spectrum-center-11-3-2026--concerts-rap-hip-hop/production/7185775",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -629,11 +845,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8063455",
+        "url": "https://www.ticketnetwork.com/en/p/8063455",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8063455",
+        "url": "https://www.ticketliquidator.com/tickets/8063455/Rod-Wave-tickets-Tue-Nov-3-2026-Spectrum-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_uk3_hwQ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8063455",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8063455/Rod-Wave-tickets-Tue-Nov-3-2026-Spectrum-Center"
   },
   {
     "id": "tm-rod-wave-2026-columbia-g5evz_udquqas",
@@ -648,7 +880,7 @@
     "ticketmaster_event_id": "2D0064D0DAD9D273",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-columbia-south-carolina-11-06-2026/event/2D0064D0DAD9D273",
     "seatgeek_url": "https://seatgeek.com/rod-wave-tickets/columbia-south-carolina-colonial-life-arena-2026-11-06-8-30-pm/concert/18320065",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-columbia-colonial-life-arena-11-6-2026--concerts-rap-hip-hop/production/7185779",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-columbia-south-carolina-11-06-2026/event/2D0064D0DAD9D273",
     "last_verified_at": null,
@@ -670,11 +902,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7185779,
+        "url": "https://www.vividseats.com/rod-wave-tickets-columbia-colonial-life-arena-11-6-2026--concerts-rap-hip-hop/production/7185779",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -682,11 +914,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8063456",
+        "url": "https://www.ticketnetwork.com/en/p/8063456",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8063456",
+        "url": "https://www.ticketliquidator.com/tickets/8063456/Rod-Wave-tickets-Fri-Nov-6-2026-Colonial-Life-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_udQUqaS",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8063456",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8063456/Rod-Wave-tickets-Fri-Nov-6-2026-Colonial-Life-Arena"
   },
   {
     "id": "tm-rod-wave-2026-orlando-17fov0g6u6bzp82",
@@ -701,7 +949,7 @@
     "ticketmaster_event_id": "220064D1D802540F",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-orlando-florida-11-09-2026/event/220064D1D802540F",
     "seatgeek_url": "https://seatgeek.com/rod-wave-tickets/orlando-florida-kia-center-2026-11-09-8-30-pm/concert/18320069",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-orlando-kia-center-11-9-2026--concerts-rap-hip-hop/production/7185781",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-orlando-florida-11-09-2026/event/220064D1D802540F",
     "last_verified_at": null,
@@ -723,11 +971,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7185781,
+        "url": "https://www.vividseats.com/rod-wave-tickets-orlando-kia-center-11-9-2026--concerts-rap-hip-hop/production/7185781",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -735,11 +983,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8063457",
+        "url": "https://www.ticketnetwork.com/en/p/8063457",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8063457",
+        "url": "https://www.ticketliquidator.com/tickets/8063457/Rod-Wave-tickets-Mon-Nov-9-2026-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447270",
+        "url": "https://www.stubhub.ie/rod-wave-orlando-tickets-11-9-2026/event/107447270",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G6u6bZP82",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8063457",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8063457/Rod-Wave-tickets-Mon-Nov-9-2026-Kia-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/rod-wave-orlando-tickets-11-9-2026/event/107447270"
   },
   {
     "id": "tm-rod-wave-2026-orlando-17fov0g6uhspnas",
@@ -754,7 +1026,7 @@
     "ticketmaster_event_id": "220064D6F3963271",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-orlando-florida-11-10-2026/event/220064D6F3963271",
     "seatgeek_url": "https://seatgeek.com/rod-wave-tickets/orlando-florida-kia-center-2026-11-10-8-pm/concert/18414835",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-orlando-kia-center-11-10-2026--concerts-rap-hip-hop/production/7367259",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-orlando-florida-11-10-2026/event/220064D6F3963271",
     "last_verified_at": null,
@@ -776,11 +1048,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7367259,
+        "url": "https://www.vividseats.com/rod-wave-tickets-orlando-kia-center-11-10-2026--concerts-rap-hip-hop/production/7367259",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -788,11 +1060,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8173585",
+        "url": "https://www.ticketnetwork.com/en/p/8173585",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8173585",
+        "url": "https://www.ticketliquidator.com/tickets/8173585/Rod-Wave-tickets-Tue-Nov-10-2026-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107472165",
+        "url": "https://www.stubhub.ie/rod-wave-orlando-tickets-11-10-2026/event/107472165",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G6uhSPNas",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173585",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173585/Rod-Wave-tickets-Tue-Nov-10-2026-Kia-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/rod-wave-orlando-tickets-11-10-2026/event/107472165"
   },
   {
     "id": "tm-rod-wave-2026-sunrise-z7r9jz1a7ppag",
@@ -807,7 +1103,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PPag",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PPag",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-sunrise-amerant-bank-arena-11-14-2026--concerts-rap-hip-hop/production/7185783",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PPag",
     "last_verified_at": null,
@@ -829,11 +1125,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7185783,
+        "url": "https://www.vividseats.com/rod-wave-tickets-sunrise-amerant-bank-arena-11-14-2026--concerts-rap-hip-hop/production/7185783",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -841,11 +1137,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8063458",
+        "url": "https://www.ticketnetwork.com/en/p/8063458",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8063458",
+        "url": "https://www.ticketliquidator.com/tickets/8063458/Rod-Wave-tickets-Sat-Nov-14-2026-Amerant-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447271",
+        "url": "https://www.stubhub.ie/rod-wave-sunrise-tickets-11-14-2026/event/107447271",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PPag",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8063458",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8063458/Rod-Wave-tickets-Sat-Nov-14-2026-Amerant-Bank-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/rod-wave-sunrise-tickets-11-14-2026/event/107447271"
   },
   {
     "id": "tm-rod-wave-2026-sunrise-z7r9jz1aazfq4",
@@ -860,7 +1180,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZfq4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZfq4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-sunrise-amerant-bank-arena-11-15-2026/production/7367635",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZfq4",
     "last_verified_at": null,
@@ -882,11 +1202,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7367635,
+        "url": "https://www.vividseats.com/rod-wave-tickets-sunrise-amerant-bank-arena-11-15-2026/production/7367635",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -894,11 +1214,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8173479",
+        "url": "https://www.ticketnetwork.com/en/p/8173479",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8173479",
+        "url": "https://www.ticketliquidator.com/tickets/8173479/Rod-Wave-tickets-Sun-Nov-15-2026-Amerant-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107554704",
+        "url": "https://www.stubhub.ie/rod-wave-sunrise-tickets-11-15-2026/event/107554704",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZfq4",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173479",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173479/Rod-Wave-tickets-Sun-Nov-15-2026-Amerant-Bank-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/rod-wave-sunrise-tickets-11-15-2026/event/107554704"
   },
   {
     "id": "tm-rod-wave-2026-atlanta-vvg1zz_uzryhlw",
@@ -913,7 +1257,7 @@
     "ticketmaster_event_id": "0E0064D01EE7C7F2",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-atlanta-georgia-11-18-2026/event/0E0064D01EE7C7F2",
     "seatgeek_url": "https://seatgeek.com/rod-wave-tickets/atlanta-georgia-state-farm-arena-1-2026-11-18-8-30-pm/concert/18320070",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-atlanta-state-farm-arena-11-18-2026--concerts-rap-hip-hop/production/7185786",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-atlanta-georgia-11-18-2026/event/0E0064D01EE7C7F2",
     "last_verified_at": null,
@@ -935,11 +1279,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7185786,
+        "url": "https://www.vividseats.com/rod-wave-tickets-atlanta-state-farm-arena-11-18-2026--concerts-rap-hip-hop/production/7185786",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -947,11 +1291,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8063459",
+        "url": "https://www.ticketnetwork.com/en/p/8063459",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8063459",
+        "url": "https://www.ticketliquidator.com/tickets/8063459/Rod-Wave-tickets-Wed-Nov-18-2026-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107554705",
+        "url": "https://www.stubhub.ie/rod-wave-atlanta-tickets-11-18-2026/event/107554705",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_uZryHLw",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8063459",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8063459/Rod-Wave-tickets-Wed-Nov-18-2026-State-Farm-Arena-GA",
+    "stubhub_international_url": "https://www.stubhub.ie/rod-wave-atlanta-tickets-11-18-2026/event/107554705"
   },
   {
     "id": "tm-rod-wave-2026-atlanta-vvg1zz_uqszfce",
@@ -966,7 +1334,7 @@
     "ticketmaster_event_id": "0E0064D6B1008B42",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-atlanta-georgia-11-19-2026/event/0E0064D6B1008B42",
     "seatgeek_url": "https://seatgeek.com/rod-wave-tickets/atlanta-georgia-state-farm-arena-1-2026-11-19-8-pm/concert/18414834",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-atlanta-state-farm-arena-11-19-2026/production/7367127",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-atlanta-georgia-11-19-2026/event/0E0064D6B1008B42",
     "last_verified_at": null,
@@ -988,11 +1356,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7367127,
+        "url": "https://www.vividseats.com/rod-wave-tickets-atlanta-state-farm-arena-11-19-2026/production/7367127",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1000,10 +1368,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8172951",
+        "url": "https://www.ticketnetwork.com/en/p/8172951",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8172951",
+        "url": "https://www.ticketliquidator.com/tickets/8172951/Rod-Wave-tickets-Thu-Nov-19-2026-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107554706",
+        "url": "https://www.stubhub.ie/rod-wave-atlanta-tickets-11-19-2026/event/107554706",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_uQsZFce",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8172951",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8172951/Rod-Wave-tickets-Thu-Nov-19-2026-State-Farm-Arena-GA",
+    "stubhub_international_url": "https://www.stubhub.ie/rod-wave-atlanta-tickets-11-19-2026/event/107554706"
   }
 ]

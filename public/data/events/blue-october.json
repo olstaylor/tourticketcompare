@@ -122,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7828051",
+        "url": "https://www.ticketliquidator.com/tickets/7828051/Blue-October-tickets-Fri-Oct-23-2026-Helen-DeVitt-Jones-Theater-At-The-Buddy-Holly-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70v8t",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828051"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828051",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7828051/Blue-October-tickets-Fri-Oct-23-2026-Helen-DeVitt-Jones-Theater-At-The-Buddy-Holly-Hall"
   },
   {
     "id": "tm-blue-october-2026-tulsa-z7r9jz1a7-v0_",
@@ -305,12 +313,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7828054",
+        "url": "https://www.ticketliquidator.com/tickets/7828054/Blue-October-tickets-Wed-Oct-28-2026-Pabst-Theater",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-V04",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828054"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828054",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7828054/Blue-October-tickets-Wed-Oct-28-2026-Pabst-Theater"
   },
   {
     "id": "tm-blue-october-2026-grand-rapids-vv1kezv0_8ga1aqp6",
@@ -366,12 +382,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7827963",
+        "url": "https://www.ticketliquidator.com/tickets/7827963/Blue-October-tickets-Thu-Oct-29-2026-GLC-Live-at-20-Monroe",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1keZv0_8GA1aqp6",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827963"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827963",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827963/Blue-October-tickets-Thu-Oct-29-2026-GLC-Live-at-20-Monroe"
   },
   {
     "id": "tm-blue-october-2026-detroit-vv17oz_kgkmvfl46",
@@ -563,13 +587,21 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7827988",
+        "url": "https://www.ticketliquidator.com/tickets/7827988/Blue-October-tickets-Sun-Nov-1-2026-MTelus",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZkowGke-YPTc",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827988",
-    "stubhub_international_url": "https://www.stubhub.ie/blue-october-tickets-montreal-mtelus-11-1-2026/event/107148355"
+    "stubhub_international_url": "https://www.stubhub.ie/blue-october-tickets-montreal-mtelus-11-1-2026/event/107148355",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827988/Blue-October-tickets-Sun-Nov-1-2026-MTelus"
   },
   {
     "id": "tm-blue-october-2026-portland-vv177z_kgkuvxsds",
@@ -625,12 +657,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7827964",
+        "url": "https://www.ticketliquidator.com/tickets/7827964/Blue-October-tickets-Tue-Nov-3-2026-State-Theatre-ME",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_kGkUVXSDs",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827964"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827964",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827964/Blue-October-tickets-Tue-Nov-3-2026-State-Theatre-ME"
   },
   {
     "id": "tm-blue-october-2026-new-york-city-k7v17_67ag7rfqz",
@@ -739,12 +779,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7828055",
+        "url": "https://www.ticketliquidator.com/tickets/7828055/Blue-October-tickets-Fri-Nov-6-2026-Hart-Theatre-At-The-Egg",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-V0O",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828055"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828055",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7828055/Blue-October-tickets-Fri-Nov-6-2026-Hart-Theatre-At-The-Egg"
   },
   {
     "id": "tm-blue-october-2026-cleveland-z7r9jz1a7-z0p",
@@ -800,12 +848,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7828056",
+        "url": "https://www.ticketliquidator.com/tickets/7828056/Blue-October-tickets-Sat-Nov-7-2026-Agora-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-z0p",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828056"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828056",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7828056/Blue-October-tickets-Sat-Nov-7-2026-Agora-Theatre"
   },
   {
     "id": "tm-blue-october-2026-nashville-vv1aazkosgkezrhqm",
@@ -861,12 +917,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7827966",
+        "url": "https://www.ticketliquidator.com/tickets/7827966/Blue-October-tickets-Sun-Nov-8-2026-Brown-County-Music-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZkoSGkezrhqM",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827966"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827966",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827966/Blue-October-tickets-Sun-Nov-8-2026-Brown-County-Music-Center"
   },
   {
     "id": "tm-blue-october-2026-north-tonawanda-z7r9jz1aazwby",
@@ -975,12 +1039,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7827967",
+        "url": "https://www.ticketliquidator.com/tickets/7827967/Blue-October-tickets-Thu-Nov-12-2026-Hackensack-Meridian-Health-Theatre-at-the-Count-Basie-Center-for-the-Arts",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_kUDTUSM",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827967"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827967",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827967/Blue-October-tickets-Thu-Nov-12-2026-Hackensack-Meridian-Health-Theatre-at-the-Count-Basie-Center-for-the-Arts"
   },
   {
     "id": "tm-blue-october-2026-boston-vv177z_kgkw31n77",
@@ -1326,12 +1398,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7827972",
+        "url": "https://www.ticketliquidator.com/tickets/7827972/Blue-October-tickets-Thu-Nov-19-2026-FIVE",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-V03",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827972"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827972",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827972/Blue-October-tickets-Thu-Nov-19-2026-FIVE"
   },
   {
     "id": "tm-blue-october-2026-clearwater-z7r9jz1a7-v0f",
@@ -1387,12 +1467,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7828058",
+        "url": "https://www.ticketliquidator.com/tickets/7828058/Blue-October-tickets-Fri-Nov-20-2026-Ruth-Eckerd-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-V0f",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828058"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828058",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7828058/Blue-October-tickets-Fri-Nov-20-2026-Ruth-Eckerd-Hall"
   },
   {
     "id": "tm-blue-october-2026-orlando-1aefz_kgknmxmnk",
@@ -1578,6 +1666,13 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7808857",
+        "url": "https://www.ticketliquidator.com/tickets/7808857/Blue-October-tickets-Wed-Nov-25-2026-The-Truth",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_kSkLTsV",
@@ -1590,7 +1685,8 @@
         "start": "2026-03-27T15:00:00Z",
         "end": "2026-10-26T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808857/Blue-October-tickets-Wed-Nov-25-2026-The-Truth"
   },
   {
     "id": "tm-blue-october-2026-irving-vvg1yz_6kcyhkx",
@@ -1714,13 +1810,21 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7827976",
+        "url": "https://www.ticketliquidator.com/tickets/7827976/Blue-October-tickets-Sat-Nov-28-2026-The-Pavilion-at-Toyota-Music-Factory",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_68KDxNx",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827976",
-    "stubhub_international_url": "https://www.stubhub.ie/blue-october-irving-tickets-11-28-2026/event/107151195"
+    "stubhub_international_url": "https://www.stubhub.ie/blue-october-irving-tickets-11-28-2026/event/107151195",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827976/Blue-October-tickets-Sat-Nov-28-2026-The-Pavilion-at-Toyota-Music-Factory"
   },
   {
     "id": "tm-blue-october-2026-kansas-city-z7r9jz1a7xk4-",
@@ -1776,12 +1880,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7828059",
+        "url": "https://www.ticketliquidator.com/tickets/7828059/Blue-October-tickets-Thu-Dec-3-2026-The-Midland-Theatre-MO",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xk4-",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828059"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828059",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7828059/Blue-October-tickets-Thu-Dec-3-2026-The-Midland-Theatre-MO"
   },
   {
     "id": "tm-blue-october-2026-minneapolis-vv1akzkowgkdjzvr0",
@@ -2019,12 +2131,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7827981",
+        "url": "https://www.ticketliquidator.com/tickets/7827981/Blue-October-tickets-Thu-Dec-10-2026-Jefferson-Theatre-TX",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_kmBOj7T",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827981"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827981",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827981/Blue-October-tickets-Thu-Dec-10-2026-Jefferson-Theatre-TX"
   },
   {
     "id": "tm-blue-october-2026-austin-z7r9jz1a7-v0k",
@@ -2080,12 +2200,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7828061",
+        "url": "https://www.ticketliquidator.com/tickets/7828061/Blue-October-tickets-Fri-Dec-11-2026-Bass-Concert-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-V0K",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828061"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828061",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7828061/Blue-October-tickets-Fri-Dec-11-2026-Bass-Concert-Hall"
   },
   {
     "id": "tm-blue-october-2026-hidalgo-g5diz_6r53fc7",
@@ -2141,12 +2269,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7827983",
+        "url": "https://www.ticketliquidator.com/tickets/7827983/Blue-October-tickets-Sun-Dec-13-2026-Payne-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_6r53fc7",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827983"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827983",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827983/Blue-October-tickets-Sun-Dec-13-2026-Payne-Arena"
   },
   {
     "id": "tm-blue-october-2026-corpus-christi-g5diz_65ljyy0",
@@ -2202,12 +2338,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7827984",
+        "url": "https://www.ticketliquidator.com/tickets/7827984/Blue-October-tickets-Thu-Dec-17-2026-Selena-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_65ljYy0",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827984"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827984",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827984/Blue-October-tickets-Thu-Dec-17-2026-Selena-Auditorium"
   },
   {
     "id": "tm-blue-october-2026-houston-g5diz_65lrohi",
@@ -2270,13 +2414,21 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7827985",
+        "url": "https://www.ticketliquidator.com/tickets/7827985/Blue-October-tickets-Fri-Dec-18-2026-713-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_65lROHi",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827985",
-    "stubhub_international_url": "https://www.stubhub.ie/blue-october-houston-tickets-12-18-2026/event/107148358"
+    "stubhub_international_url": "https://www.stubhub.ie/blue-october-houston-tickets-12-18-2026/event/107148358",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827985/Blue-October-tickets-Fri-Dec-18-2026-713-Music-Hall"
   },
   {
     "id": "tm-blue-october-2026-houston-g5diz_65lyohs",
@@ -2339,13 +2491,21 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7827986",
+        "url": "https://www.ticketliquidator.com/tickets/7827986/Blue-October-tickets-Sat-Dec-19-2026-713-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_65lYOHs",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827986",
-    "stubhub_international_url": "https://www.stubhub.ie/blue-october-houston-tickets-12-19-2026/event/107152094"
+    "stubhub_international_url": "https://www.stubhub.ie/blue-october-houston-tickets-12-19-2026/event/107152094",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827986/Blue-October-tickets-Sat-Dec-19-2026-713-Music-Hall"
   },
   {
     "id": "tm-blue-october-2026-houston-g5diz_1sa9wed",
@@ -2408,13 +2568,21 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7969786",
+        "url": "https://www.ticketliquidator.com/tickets/7969786/Blue-October-tickets-Sun-Dec-20-2026-713-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1SA9WEd",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7969786",
-    "stubhub_international_url": "https://www.stubhub.ie/blue-october-houston-tickets-12-20-2026/event/107447944"
+    "stubhub_international_url": "https://www.stubhub.ie/blue-october-houston-tickets-12-20-2026/event/107447944",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7969786/Blue-October-tickets-Sun-Dec-20-2026-713-Music-Hall"
   },
   {
     "id": "tm-blue-october-2027-midland-z7r9jz1a70pjo",
@@ -2470,12 +2638,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957476",
+        "url": "https://www.ticketliquidator.com/tickets/7957476/Blue-October-tickets-Fri-Jan-29-2027-Wagner-Noel-Performing-Arts-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70PJo",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957476"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957476",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957476/Blue-October-tickets-Fri-Jan-29-2027-Wagner-Noel-Performing-Arts-Center"
   },
   {
     "id": "tm-blue-october-2027-el-paso-vvg1yz_1msxe0e",
@@ -2584,12 +2760,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957486",
+        "url": "https://www.ticketliquidator.com/tickets/7957486/Blue-October-tickets-Sun-Jan-31-2027-Globe-News-Center-For-The-Performing-Arts",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PxAU",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957486"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957486",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957486/Blue-October-tickets-Sun-Jan-31-2027-Globe-News-Center-For-The-Performing-Arts"
   },
   {
     "id": "tm-blue-october-2027-tucson-17k8v0g61r3fg2b",
@@ -2714,6 +2898,13 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957263",
+        "url": "https://www.ticketliquidator.com/tickets/7957263/Blue-October-tickets-Fri-Feb-5-2027-The-Van-Buren",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G61Lto1CB",
@@ -2726,7 +2917,8 @@
         "start": "2026-05-15T17:00:00Z",
         "end": "2027-01-06T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957263/Blue-October-tickets-Fri-Feb-5-2027-The-Van-Buren"
   },
   {
     "id": "tm-blue-october-2027-phoenix-17k8v0g61ltk12k",
@@ -2782,6 +2974,13 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957264",
+        "url": "https://www.ticketliquidator.com/tickets/7957264/Blue-October-tickets-Sat-Feb-6-2027-The-Van-Buren",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G61LtK12k",
@@ -2794,7 +2993,8 @@
         "start": "2026-05-15T17:00:00Z",
         "end": "2027-01-07T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957264/Blue-October-tickets-Sat-Feb-6-2027-The-Van-Buren"
   },
   {
     "id": "tm-blue-october-2027-los-angeles-vvg10z_1ri5jq_",
@@ -2850,6 +3050,13 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957265",
+        "url": "https://www.ticketliquidator.com/tickets/7957265/Blue-October-tickets-Sun-Feb-7-2027-The-Wiltern",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1rI5jQ_",
@@ -2862,7 +3069,8 @@
         "start": "2026-05-15T17:00:00Z",
         "end": "2027-01-08T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957265/Blue-October-tickets-Sun-Feb-7-2027-The-Wiltern"
   },
   {
     "id": "tm-blue-october-2027-san-luis-obispo-z7r9jz1a70_f7",
@@ -2918,12 +3126,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957493",
+        "url": "https://www.ticketliquidator.com/tickets/7957493/Blue-October-tickets-Wed-Feb-10-2027-Fremont-Theater-CA",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_f7",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957493"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957493",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957493/Blue-October-tickets-Wed-Feb-10-2027-Fremont-Theater-CA"
   },
   {
     "id": "tm-blue-october-2027-valley-center-vvg1iz_1qjyqty",
@@ -3185,12 +3401,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957495",
+        "url": "https://www.ticketliquidator.com/tickets/7957495/Blue-October-tickets-Thu-Feb-18-2027-The-Regency-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_4z",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957495"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957495",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957495/Blue-October-tickets-Thu-Feb-18-2027-The-Regency-Ballroom"
   },
   {
     "id": "tm-blue-october-2027-sacramento-g5vyz_1kgjhjj",
@@ -3246,12 +3470,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7987108",
+        "url": "https://www.ticketliquidator.com/tickets/7987108/Blue-October-tickets-Fri-Feb-19-2027-Channel-24",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1KgJHJJ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7987108"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7987108",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7987108/Blue-October-tickets-Fri-Feb-19-2027-Channel-24"
   },
   {
     "id": "tm-blue-october-2027-sacramento-g5vyz_1kvkgjw",
@@ -3307,12 +3539,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957274",
+        "url": "https://www.ticketliquidator.com/tickets/7957274/Blue-October-tickets-Sat-Feb-20-2027-Channel-24",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1KVKGjw",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957274"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957274",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957274/Blue-October-tickets-Sat-Feb-20-2027-Channel-24"
   },
   {
     "id": "tm-blue-october-2027-reno-17c8v0g61lh4py0",
@@ -3498,12 +3738,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957283",
+        "url": "https://www.ticketliquidator.com/tickets/7957283/Blue-October-tickets-Thu-Feb-25-2027-Commodore-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G61pgTl-U",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957283"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957283",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957283/Blue-October-tickets-Thu-Feb-25-2027-Commodore-Ballroom"
   },
   {
     "id": "tm-blue-october-2027-seattle-vvg1hz_1rxwtla",
@@ -3559,12 +3807,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957277",
+        "url": "https://www.ticketliquidator.com/tickets/7957277/Blue-October-tickets-Fri-Feb-26-2027-Moore-Theatre-WA",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_1rxwtLa",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957277"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957277",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957277/Blue-October-tickets-Fri-Feb-26-2027-Moore-Theatre-WA"
   },
   {
     "id": "tm-blue-october-2027-portland-z7r9jz1a70_-u",
@@ -3620,12 +3876,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957496",
+        "url": "https://www.ticketliquidator.com/tickets/7957496/Blue-October-tickets-Sat-Feb-27-2027-Roseland-Theater",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_-U",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957496"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957496",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957496/Blue-October-tickets-Sat-Feb-27-2027-Roseland-Theater"
   },
   {
     "id": "tm-blue-october-2027-portland-z7r9jz1a70of9",
@@ -3681,12 +3945,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957497",
+        "url": "https://www.ticketliquidator.com/tickets/7957497/Blue-October-tickets-Sun-Feb-28-2027-Roseland-Theater",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70OF9",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957497"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957497",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957497/Blue-October-tickets-Sun-Feb-28-2027-Roseland-Theater"
   },
   {
     "id": "tm-blue-october-2027-boise-g5vzz_1rcvq7p",
@@ -3848,12 +4120,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957244",
+        "url": "https://www.ticketliquidator.com/tickets/7957244/Blue-October-tickets-Sat-Mar-6-2027-The-Mission-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_-g",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957244"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957244",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957244/Blue-October-tickets-Sat-Mar-6-2027-The-Mission-Ballroom"
   },
   {
     "id": "tm-blue-october-2027-colorado-springs-z7r9jz1a70_p7",
@@ -3909,12 +4189,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957499",
+        "url": "https://www.ticketliquidator.com/tickets/7957499/Blue-October-tickets-Sun-Mar-7-2027-Pikes-Peak-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_P7",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957499"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957499",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957499/Blue-October-tickets-Sun-Mar-7-2027-Pikes-Peak-Center"
   },
   {
     "id": "tm-blue-october-2027-chicago-z7r9jz1a70_-s",
@@ -3970,12 +4258,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957500",
+        "url": "https://www.ticketliquidator.com/tickets/7957500/Blue-October-tickets-Thu-Mar-11-2027-Riviera-Theatre-IL",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_-s",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957500"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957500",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957500/Blue-October-tickets-Thu-Mar-11-2027-Riviera-Theatre-IL"
   },
   {
     "id": "tm-blue-october-2027-des-moines-vvg1bz_1xphcoz",
@@ -4031,12 +4327,20 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957280",
+        "url": "https://www.ticketliquidator.com/tickets/7957280/Blue-October-tickets-Fri-Mar-12-2027-Hoyt-Sherman-Place-Theater",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_1xPhcOz",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957280"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957280",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957280/Blue-October-tickets-Fri-Mar-12-2027-Hoyt-Sherman-Place-Theater"
   },
   {
     "id": "tm-blue-october-2027-rockford-17f8v0g61mnfk5g",
@@ -4214,12 +4518,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7827982",
+        "url": "https://www.ticketliquidator.com/tickets/7827982/Blue-October-tickets-Sat-Dec-12-2026-Boeing-Center-at-Tech-Port",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-VZ7",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827982"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827982",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827982/Blue-October-tickets-Sat-Dec-12-2026-Boeing-Center-at-Tech-Port"
   },
   {
     "id": "tm-blue-october-2027-albuquerque-z7r9jz1a70pgn",
@@ -4275,12 +4587,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957262",
+        "url": "https://www.ticketliquidator.com/tickets/7957262/Blue-October-tickets-Thu-Feb-4-2027-Revel-Entertainment-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70pGN",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957262"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957262",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957262/Blue-October-tickets-Thu-Feb-4-2027-Revel-Entertainment-Center"
   },
   {
     "id": "tm-blue-october-2026-little-rock-rz7hnez1afr4pn",
@@ -4295,7 +4615,7 @@
     "ticketmaster_event_id": "14795963",
     "ticketmaster_url": "https://www.ticketweb.com/event/blue-october-the-hall-tickets/14795963",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/blue-october-tickets-little-rock-the-hall---little-rock-12-9-2026--concerts-rock/production/6823271",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/blue-october-the-hall-tickets/14795963",
     "last_verified_at": null,
@@ -4317,11 +4637,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6823271,
+        "url": "https://www.vividseats.com/blue-october-tickets-little-rock-the-hall---little-rock-12-9-2026--concerts-rock/production/6823271",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -4348,7 +4668,7 @@
     "ticketmaster_event_id": "14911223",
     "ticketmaster_url": "https://www.ticketweb.com/event/blue-october-ventura-theater-tickets/14911223",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/blue-october-tickets-ventura-the-majestic-ventura-theater-2-12-2027/production/7022712",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/blue-october-ventura-theater-tickets/14911223",
     "last_verified_at": null,
@@ -4370,11 +4690,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7022712,
+        "url": "https://www.vividseats.com/blue-october-tickets-ventura-the-majestic-ventura-theater-2-12-2027/production/7022712",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

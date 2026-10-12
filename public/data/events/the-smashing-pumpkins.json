@@ -152,11 +152,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107185107",
+        "url": "https://www.stubhub.ie/the-smashing-pumpkins-chicago-tickets-10-14-2026/event/107185107",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1DaaHeF",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-chicago-tickets-10-14-2026/event/107185107"
   },
   {
     "id": "tm-the-smashing-pumpkins-2026-charlotte-g5evz_1dw8jew",
@@ -205,11 +213,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107289099",
+        "url": "https://www.stubhub.ie/the-smashing-pumpkins-charlotte-tickets-10-16-2026/event/107289099",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_1Dw8JeW",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-charlotte-tickets-10-16-2026/event/107289099"
   },
   {
     "id": "tm-the-smashing-pumpkins-2026-jacksonville-17fov0g61t4w29c",
@@ -258,11 +274,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107185108",
+        "url": "https://www.stubhub.ie/the-smashing-pumpkins-jacksonville-tickets-10-17-2026/event/107185108",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G61T4W29c",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-jacksonville-tickets-10-17-2026/event/107185108"
   },
   {
     "id": "tm-the-smashing-pumpkins-2026-tampa-vvg1vz_1xbgmwh",
@@ -311,11 +335,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107185109",
+        "url": "https://www.stubhub.ie/the-smashing-pumpkins-tampa-tickets-10-18-2026/event/107185109",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_1XbGMWH",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-tampa-tickets-10-18-2026/event/107185109"
   },
   {
     "id": "tm-the-smashing-pumpkins-2026-indianapolis-vvg1fz_1xmuiok",
@@ -470,11 +502,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107289100",
+        "url": "https://www.stubhub.ie/the-smashing-pumpkins-oklahoma-city-tickets-10-24-2026/event/107289100",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1HJjEhY",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-oklahoma-city-tickets-10-24-2026/event/107289100"
   },
   {
     "id": "tm-the-smashing-pumpkins-2026-austin-g5diz_1txjp-0",
@@ -523,11 +563,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107185113",
+        "url": "https://www.stubhub.ie/the-smashing-pumpkins-austin-tickets-10-25-2026/event/107185113",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1TXJP-0",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-austin-tickets-10-25-2026/event/107185113"
   },
   {
     "id": "tm-the-smashing-pumpkins-2026-denver-g5vzz_1xqviwv",
@@ -576,11 +624,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107185114",
+        "url": "https://www.stubhub.ie/the-smashing-pumpkins-denver-tickets-10-27-2026/event/107185114",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1XQVIWV",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-denver-tickets-10-27-2026/event/107185114"
   },
   {
     "id": "tm-the-smashing-pumpkins-2026-salt-lake-city-z7r9jz1a70x_g",
@@ -682,11 +738,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107186117",
+        "url": "https://www.stubhub.ie/the-smashing-pumpkins-las-vegas-tickets-10-30-2026/event/107186117",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70x-e",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-las-vegas-tickets-10-30-2026/event/107186117"
   },
   {
     "id": "tm-the-smashing-pumpkins-2026-portland-vvg1hz_1meesxh",
@@ -841,11 +905,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107185115",
+        "url": "https://www.stubhub.ie/the-smashing-pumpkins-tickets-vancouver-rogers-arena-11-5-2026/event/107185115",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G61BaDSWR",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-tickets-vancouver-rogers-arena-11-5-2026/event/107185115"
   },
   {
     "id": "tm-the-smashing-pumpkins-2026-seattle-vvg1hz_1wymaop",
@@ -894,11 +966,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107186118",
+        "url": "https://www.stubhub.ie/the-smashing-pumpkins-seattle-tickets-11-6-2026/event/107186118",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_1WyMAoP",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-seattle-tickets-11-6-2026/event/107186118"
   },
   {
     "id": "tm-the-smashing-pumpkins-2026-san-jose-g5vyz_1dhcziz",
@@ -1000,11 +1080,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107185111",
+        "url": "https://www.stubhub.ie/the-smashing-pumpkins-phoenix-tickets-11-11-2026/event/107185111",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G61XA1K9D",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-phoenix-tickets-11-11-2026/event/107185111"
   },
   {
     "id": "tm-the-smashing-pumpkins-2026-inglewood-vvg10z_1t5e4o_",
@@ -1053,10 +1141,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107185110",
+        "url": "https://www.stubhub.ie/the-smashing-pumpkins-inglewood-tickets-11-12-2026/event/107185110",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1T5e4O_",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-inglewood-tickets-11-12-2026/event/107185110"
   }
 ]

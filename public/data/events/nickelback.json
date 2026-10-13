@@ -871,7 +871,7 @@
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-nashville-bridgestone-arena-2-21-2027/production/7678926",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-nashville-tennessee-02-21-2027/event/1B006547B014F139",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -932,6 +932,11 @@
       },
       {
         "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
         "start": "2026-10-13T15:00:00Z",
         "end": "2026-10-16T03:00:00Z"
       },
@@ -4464,7 +4469,7 @@
     "city": "Hannover",
     "country": "Germany",
     "venue": "ZAG Arena",
-    "datetime_iso": "2027-06-11T18:00:00Z",
+    "datetime_iso": "2027-06-11T16:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1874929301",
     "ticketmaster_url": "https://www.ticketmaster.de/event/nickelback-everything-under-the-sun-tour-tickets/1874929301?language=en-us",
@@ -4472,7 +4477,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/nickelback-everything-under-the-sun-tour-tickets/1874929301?language=en-us",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-13",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -4561,7 +4566,7 @@
     "city": "Munich",
     "country": "Germany",
     "venue": "Olympiahalle",
-    "datetime_iso": "2027-06-19T18:00:00Z",
+    "datetime_iso": "2027-06-19T16:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "853192859",
     "ticketmaster_url": "https://www.ticketmaster.de/event/nickelback-everything-under-the-sun-tour-tickets/853192859?language=en-us",
@@ -4569,7 +4574,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/nickelback-everything-under-the-sun-tour-tickets/853192859?language=en-us",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-13",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -4788,7 +4793,7 @@
     "city": "Zürich",
     "country": "Switzerland",
     "venue": "Hallenstadion",
-    "datetime_iso": "2027-06-20T18:00:00Z",
+    "datetime_iso": "2027-06-20T16:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "729296386",
     "ticketmaster_url": "https://www.ticketmaster.ch/event/nickelback-everything-under-the-sun-tour-tickets/729296386?language=en-us",
@@ -4796,7 +4801,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ch/event/nickelback-everything-under-the-sun-tour-tickets/729296386?language=en-us",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-13",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -4890,7 +4895,7 @@
     "city": "Vienna",
     "country": "Austria",
     "venue": "Wiener Stadthalle - Halle D",
-    "datetime_iso": "2027-06-25T17:30:00Z",
+    "datetime_iso": "2027-06-25T16:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1015417081",
     "ticketmaster_url": "https://www.ticketmaster.at/event/nickelback-everything-under-the-sun-tour-tickets/1015417081?language=en-us",
@@ -4898,7 +4903,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.at/event/nickelback-everything-under-the-sun-tour-tickets/1015417081?language=en-us",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-13",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -5250,7 +5255,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/nickelback-everything-under-the-sun-tour-waurn-ponds-09-10-2027/event/13006548AF496C65",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -5286,7 +5291,44 @@
     "ticketmaster_discovery_event_id": "1AKZk4FGkeR3psP",
     "timezone": "Australia/Melbourne",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T23:00:00Z"
+    "public_onsale_at": "2026-10-15T23:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-12T23:00:00Z",
+        "end": "2026-10-15T11:00:00Z"
+      },
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-10-13T23:00:00Z",
+        "end": "2026-10-15T11:00:00Z"
+      },
+      {
+        "name": "Face To Face Presale",
+        "start": "2026-10-14T23:00:00Z",
+        "end": "2026-10-15T11:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-10-14T23:00:00Z",
+        "end": "2026-10-15T11:00:00Z"
+      },
+      {
+        "name": "MG Presale",
+        "start": "2026-10-14T23:00:00Z",
+        "end": "2026-10-15T11:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-14T23:00:00Z",
+        "end": "2026-10-15T11:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-15T01:00:00Z",
+        "end": "2026-10-15T11:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-nickelback-2027-pokolbin-1akzk46gkdiziaq",
@@ -5304,7 +5346,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/nickelback-everything-under-the-sun-tour-pokolbin-16-10-2027/event/13006547ECE2C15A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -5340,6 +5382,33 @@
     "ticketmaster_discovery_event_id": "1AKZk46GkdiziAQ",
     "timezone": "Australia/Sydney",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T23:00:00Z"
+    "public_onsale_at": "2026-10-15T23:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-12T23:00:00Z",
+        "end": "2026-10-15T11:00:00Z"
+      },
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-10-13T23:00:00Z",
+        "end": "2026-10-15T11:00:00Z"
+      },
+      {
+        "name": "Face to Face Touring Presale",
+        "start": "2026-10-14T23:00:00Z",
+        "end": "2026-10-15T11:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-10-14T23:00:00Z",
+        "end": "2026-10-15T11:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-15T01:00:00Z",
+        "end": "2026-10-15T11:00:00Z"
+      }
+    ]
   }
 ]

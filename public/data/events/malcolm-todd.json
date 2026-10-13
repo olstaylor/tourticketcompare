@@ -787,7 +787,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-seattle-paramount-theatre-seattle-10-15-2026/production/7132642",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-seattle-washington-10-15-2026/event/0F0064C4A326A7BB",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -838,14 +838,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034340",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034340/Malcolm-Todd-tickets-Thu-Oct-15-2026-Paramount-Theatre-Seattle",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-11T17:00:00Z",
-        "end": "2026-10-11T19:00:00Z"
-      }
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034340/Malcolm-Todd-tickets-Thu-Oct-15-2026-Paramount-Theatre-Seattle"
   },
   {
     "id": "tm-malcolm-todd-2026-seattle-vvg1hz_g3n1blo",
@@ -863,7 +856,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-seattle-paramount-theatre-seattle-10-16-2026--concerts-pop/production/7139906",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-seattle-washington-10-16-2026/event/0F0064C4A32BA7D1",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -914,14 +907,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038478",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038478/Malcolm-Todd-tickets-Fri-Oct-16-2026-Paramount-Theatre-Seattle",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-11T17:00:00Z",
-        "end": "2026-10-12T19:00:00Z"
-      }
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038478/Malcolm-Todd-tickets-Fri-Oct-16-2026-Paramount-Theatre-Seattle"
   },
   {
     "id": "tm-malcolm-todd-2026-vancouver-z7r9jz1a7p87i",

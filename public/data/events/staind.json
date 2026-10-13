@@ -490,7 +490,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-austin-moody-center-atx-10-19-2026--concerts-rock/production/6614465",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-austin-texas-10-19-2026/event/3A00643C063099B5",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -547,13 +547,6 @@
     "ticketmaster_discovery_event_id": "G5dIZ_dYkGaJg",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-02-06T16:00:00Z",
-        "end": "2026-10-13T04:59:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718212",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718212/Staind-tickets-Mon-Oct-19-2026-Moody-Center-ATX",
     "stubhub_international_url": "https://www.stubhub.ie/staind-austin-tickets-10-19-2026/event/107098202"

@@ -3590,7 +3590,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/niall-horan-ciudad-de-mexico-08-05-2027/event/14006527E578AF1A",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3628,16 +3628,6 @@
     "status": "announced",
     "public_onsale_at": "2026-10-13T17:00:00Z",
     "presales": [
-      {
-        "name": "Preventa Banamex",
-        "start": "2026-10-12T17:00:00Z",
-        "end": "2026-10-13T05:59:00Z"
-      },
-      {
-        "name": "Preventa Banamex Paquetes VIP",
-        "start": "2026-10-12T17:00:00Z",
-        "end": "2026-10-13T05:59:00Z"
-      },
       {
         "name": "Venta General Paquetes VIP",
         "start": "2026-10-13T17:00:00Z",

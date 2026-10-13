@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-dallas-the-bomb-factory-10-15-2026/production/7231636",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSep",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": ""
+    "ticketliquidator_url": "",
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-dylan-scott-2026-milwaukee-z7r9jz1aavse9",
@@ -1339,7 +1340,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-kennewick-toyota-center---kennewick-3-4-2027/production/7564587",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-kennewick-washington-03-04-2027/event/0F00652A8CEE53BC",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1396,6 +1397,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-09-25T17:00:00Z",
         "end": "2027-02-26T06:00:00Z"
+      },
+      {
+        "name": "Celebrate Dylan Scott's Birthday",
+        "start": "2026-10-22T07:00:00Z",
+        "end": "2026-10-23T06:59:00Z"
       }
     ]
   },

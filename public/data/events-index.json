@@ -23726,7 +23726,7 @@
     "country": "Great Britain",
     "city": "Edinburgh",
     "venue": "The Queen's Hall",
-    "datetime_iso": "2026-10-17T18:00:00Z",
+    "datetime_iso": "2026-10-17T17:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "The Wake World Tour",
     "status": "on-sale"
@@ -33650,7 +33650,7 @@
     "country": "Germany",
     "city": "Hannover",
     "venue": "ZAG Arena",
-    "datetime_iso": "2027-06-11T18:00:00Z",
+    "datetime_iso": "2027-06-11T16:30:00Z",
     "timezone": "Europe/Berlin",
     "tour_name": "",
     "status": "announced"
@@ -33662,7 +33662,7 @@
     "country": "Germany",
     "city": "Munich",
     "venue": "Olympiahalle",
-    "datetime_iso": "2027-06-19T18:00:00Z",
+    "datetime_iso": "2027-06-19T16:30:00Z",
     "timezone": "Europe/Berlin",
     "tour_name": "",
     "status": "announced"
@@ -37790,7 +37790,7 @@
     "country": "Switzerland",
     "city": "Zürich",
     "venue": "Hallenstadion",
-    "datetime_iso": "2027-06-20T18:00:00Z",
+    "datetime_iso": "2027-06-20T16:30:00Z",
     "timezone": "Europe/Zurich",
     "tour_name": "",
     "status": "announced"
@@ -37802,7 +37802,7 @@
     "country": "Austria",
     "city": "Vienna",
     "venue": "Wiener Stadthalle - Halle D",
-    "datetime_iso": "2027-06-25T17:30:00Z",
+    "datetime_iso": "2027-06-25T16:30:00Z",
     "timezone": "Europe/Vienna",
     "tour_name": "",
     "status": "announced"

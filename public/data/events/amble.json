@@ -579,7 +579,7 @@
         "event_id": 18475220,
         "url": "https://seatgeek.com/amble-tickets/seattle-washington-the-showbox-2026-10-26-8-pm/concert/18475220",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1158,7 +1158,7 @@
         "event_id": 18322791,
         "url": "https://seatgeek.com/amble-tickets/atlanta-georgia-terminal-west-2026-11-13-8-pm/concert/18322791",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2374,7 +2374,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "14195054",
     "ticketmaster_url": "https://www.ticketweb.com/event/amble-crescent-ballroom-tickets/14195054",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/amble-tickets/phoenix-arizona-crescent-ballroom-2026-10-22-8-pm/concert/18631381",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/amble-crescent-ballroom-tickets/14195054",
@@ -2390,11 +2390,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18631381,
+        "url": "https://seatgeek.com/amble-tickets/phoenix-arizona-crescent-ballroom-2026-10-22-8-pm/concert/18631381",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

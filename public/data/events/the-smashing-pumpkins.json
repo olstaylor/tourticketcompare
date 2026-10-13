@@ -83,7 +83,7 @@
         "event_id": 18250147,
         "url": "https://seatgeek.com/the-smashing-pumpkins-tickets/saint-paul-minnesota-grand-casino-arena-2026-10-13-8-pm/concert/18250147",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -745,7 +745,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70x-e",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70x-e",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-smashing-pumpkins-tickets/las-vegas-nevada-mgm-grand-garden-arena-2026-10-30-8-pm/concert/18250163",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70x-e",
@@ -761,11 +761,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18250163,
+        "url": "https://seatgeek.com/the-smashing-pumpkins-tickets/las-vegas-nevada-mgm-grand-garden-arena-2026-10-30-8-pm/concert/18250163",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -882,11 +882,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18250182,
+        "url": "https://seatgeek.com/the-smashing-pumpkins-tickets/calgary-canada-scotiabank-saddledome-2026-11-03-8-pm/concert/18250182",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -942,11 +942,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18250183,
+        "url": "https://seatgeek.com/the-smashing-pumpkins-tickets/vancouver-canada-rogers-arena-2026-11-05-8-pm/concert/18250183",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

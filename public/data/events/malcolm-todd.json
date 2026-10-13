@@ -645,7 +645,7 @@
     "tour_name": "Do That Again Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7PK4I",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PK4I",
-    "seatgeek_url": "https://seatgeek.com/malcolm-todd-tickets/denver-colorado-mission-ballroom-2026-10-12-7-pm/concert/18296767",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-denver-mission-ballroom-10-12-2026--concerts-pop/production/7139415",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PK4I",
@@ -661,11 +661,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18296767,
-        "url": "https://seatgeek.com/malcolm-todd-tickets/denver-colorado-mission-ballroom-2026-10-12-7-pm/concert/18296767",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7139415,
@@ -940,7 +940,7 @@
         "event_id": 18292574,
         "url": "https://seatgeek.com/malcolm-todd-tickets/vancouver-canada-pne-forum-vancouver-2026-10-18-8-pm/concert/18292574",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1009,7 +1009,7 @@
         "event_id": 18292564,
         "url": "https://seatgeek.com/malcolm-todd-tickets/portland-oregon-arlene-schnitzer-concert-hall-2026-10-19-8-pm/concert/18292564",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {

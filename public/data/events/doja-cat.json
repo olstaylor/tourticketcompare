@@ -992,7 +992,7 @@
     "tour_name": "Tour Ma Vie World Tour",
     "ticketmaster_event_id": "1900633A9B863640",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-phoenix-arizona-10-29-2026/event/1900633A9B863640",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/doja-cat-tickets/phoenix-arizona-mortgage-matchup-center-2026-10-29-7-30-pm/concert/17769324",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-phoenix-arizona-10-29-2026/event/1900633A9B863640",
@@ -1008,11 +1008,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17769324,
+        "url": "https://seatgeek.com/doja-cat-tickets/phoenix-arizona-mortgage-matchup-center-2026-10-29-7-30-pm/concert/17769324",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1347,7 +1347,7 @@
         "event_id": 17769336,
         "url": "https://seatgeek.com/doja-cat-tickets/houston-texas-toyota-center-2026-11-07-7-30-pm/concert/17769336",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1810,7 +1810,7 @@
     "tour_name": "Tour Ma Vie World Tour",
     "ticketmaster_event_id": "1500633A88BC22BE",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-baltimore-maryland-11-20-2026/event/1500633A88BC22BE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/doja-cat-tickets/baltimore-maryland-cfg-bank-arena-2026-11-20-7-30-pm/concert/17769349",
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-baltimore-cfg-bank-arena-11-20-2026--concerts-rap-hip-hop/production/6091577",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-baltimore-maryland-11-20-2026/event/1500633A88BC22BE",
@@ -2382,7 +2382,7 @@
         "event_id": 17769328,
         "url": "https://seatgeek.com/doja-cat-tickets/las-vegas-nevada-t-mobile-arena-2026-10-31-7-30-pm/concert/17769328",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {

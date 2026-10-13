@@ -80,7 +80,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0A00650B8F9579D4",
     "ticketmaster_url": "https://www.ticketmaster.com/missio-san-diego-california-10-30-2026/event/0A00650B8F9579D4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/san-diego-california-voodoo-room-at-the-house-of-blues-san-diego-2-2026-10-30-6-30-pm/concert/18493234",
     "vividseats_url": "https://www.vividseats.com/missio-tickets-san-diego-voodoo-room-at-the-house-of-blues-san-diego-10-30-2026/production/7424701",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/missio-san-diego-california-10-30-2026/event/0A00650B8F9579D4",
@@ -96,11 +96,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18493234,
+        "url": "https://seatgeek.com/missio-tickets/san-diego-california-voodoo-room-at-the-house-of-blues-san-diego-2-2026-10-30-6-30-pm/concert/18493234",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7424701,
@@ -156,7 +156,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0900650B02842801",
     "ticketmaster_url": "https://www.ticketmaster.com/sean-healy-presents-missio-love-heartbreak-los-angeles-california-11-01-2026/event/0900650B02842801",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/los-angeles-california-teragram-ballroom-2026-11-01-7-30-pm/concert/18492941",
     "vividseats_url": "https://www.vividseats.com/missio-tickets-los-angeles-teragram-ballroom-11-1-2026/production/7425741",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sean-healy-presents-missio-love-heartbreak-los-angeles-california-11-01-2026/event/0900650B02842801",
@@ -172,11 +172,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18492941,
+        "url": "https://seatgeek.com/missio-tickets/los-angeles-california-teragram-ballroom-2026-11-01-7-30-pm/concert/18492941",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7425741,
@@ -290,7 +290,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1E00650AE1043A95",
     "ticketmaster_url": "https://www.ticketmaster.com/missio-denver-colorado-11-11-2026/event/1E00650AE1043A95",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/denver-colorado-marquis-theater-denver-2026-11-11-7-pm/concert/18492221",
     "vividseats_url": "https://www.vividseats.com/missio-tickets-denver-marquis-theater---co-11-11-2026/production/7424526",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/missio-denver-colorado-11-11-2026/event/1E00650AE1043A95",
@@ -701,7 +701,7 @@
         "event_id": 18646946,
         "url": "https://seatgeek.com/missio-tickets/vancouver-canada-the-pearl-bc-2026-12-12-6-pm/concert/18646946",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1889,7 +1889,7 @@
         "event_id": 18492778,
         "url": "https://seatgeek.com/missio-tickets/san-francisco-california-brick-and-mortar-music-hall-2026-11-03-8-30-pm/concert/18492778",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {

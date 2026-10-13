@@ -545,7 +545,7 @@
         "event_id": 18175618,
         "url": "https://seatgeek.com/sombr-tickets/san-diego-california-pechanga-arena-san-diego-2026-10-13-7-pm/concert/18175618",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -614,7 +614,7 @@
         "event_id": 18175621,
         "url": "https://seatgeek.com/sombr-tickets/glendale-arizona-desert-diamond-arena-2026-10-14-7-pm/concert/18175621",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -691,7 +691,7 @@
         "event_id": 18175623,
         "url": "https://seatgeek.com/sombr-tickets/oklahoma-city-oklahoma-paycom-center-2026-10-16-7-pm/concert/18175623",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -760,7 +760,7 @@
         "event_id": 18175625,
         "url": "https://seatgeek.com/sombr-tickets/houston-texas-toyota-center-2026-10-17-7-pm/concert/18175625",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1060,7 +1060,7 @@
         "event_id": 18164919,
         "url": "https://seatgeek.com/sombr-tickets/sunrise-florida-amerant-bank-arena-2026-10-24-7-pm/concert/18164919",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1414,7 +1414,7 @@
     "tour_name": "You Are The Reason Tour",
     "ticketmaster_event_id": "0600648988F67FDC",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-kansas-city-missouri-10-31-2026/event/0600648988F67FDC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sombr-tickets/kansas-city-missouri-t-mobile-center-2026-10-31-7-pm/concert/18175588",
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-kansas-city-t-mobile-center-10-31-2026--concerts-alternative/production/6897945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-kansas-city-missouri-10-31-2026/event/0600648988F67FDC",
@@ -1430,11 +1430,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18175588,
+        "url": "https://seatgeek.com/sombr-tickets/kansas-city-missouri-t-mobile-center-2026-10-31-7-pm/concert/18175588",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6897945,
@@ -1490,7 +1490,7 @@
     "tour_name": "You Are The Reason Tour",
     "ticketmaster_event_id": "06006489AC06E087",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-minneapolis-minnesota-11-01-2026/event/06006489AC06E087",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sombr-tickets/minneapolis-minnesota-target-center-2026-11-01-7-pm/concert/18175591",
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-minneapolis-target-center-11-1-2026--concerts-alternative/production/6897954",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-minneapolis-minnesota-11-01-2026/event/06006489AC06E087",
@@ -1506,11 +1506,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18175591,
+        "url": "https://seatgeek.com/sombr-tickets/minneapolis-minnesota-target-center-2026-11-01-7-pm/concert/18175591",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6897954,
@@ -1566,7 +1566,7 @@
     "tour_name": "You Are The Reason Tour",
     "ticketmaster_event_id": "07006488DF476E7D",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-milwaukee-wisconsin-11-03-2026/event/07006488DF476E7D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sombr-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-03-7-pm/concert/18175592",
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-milwaukee-fiserv-forum-11-3-2026--concerts-alternative/production/6897964",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-milwaukee-wisconsin-11-03-2026/event/07006488DF476E7D",
@@ -1582,11 +1582,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18175592,
+        "url": "https://seatgeek.com/sombr-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-03-7-pm/concert/18175592",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6897964,
@@ -1726,7 +1726,7 @@
     "tour_name": "You Are The Reason Tour",
     "ticketmaster_event_id": "05006489958259FC",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-indianapolis-indiana-11-06-2026/event/05006489958259FC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sombr-tickets/indianapolis-indiana-gainbridge-fieldhouse-2026-11-06-7-pm/concert/18175596",
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-indianapolis-gainbridge-fieldhouse-11-6-2026--concerts-alternative/production/6897982",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-indianapolis-indiana-11-06-2026/event/05006489958259FC",
@@ -1742,11 +1742,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18175596,
+        "url": "https://seatgeek.com/sombr-tickets/indianapolis-indiana-gainbridge-fieldhouse-2026-11-06-7-pm/concert/18175596",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6897982,
@@ -1886,7 +1886,7 @@
     "tour_name": "You Are The Reason Tour",
     "ticketmaster_event_id": "050064898B1143E1",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-columbus-ohio-11-08-2026/event/050064898B1143E1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sombr-tickets/columbus-ohio-nationwide-arena-2026-11-08-7-pm/concert/18175600",
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-columbus-nationwide-arena-11-8-2026--concerts-alternative/production/6897990",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-columbus-ohio-11-08-2026/event/050064898B1143E1",
@@ -2046,7 +2046,7 @@
     "tour_name": "You Are The Reason Tour",
     "ticketmaster_event_id": "160064888B1E4D69",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-pittsburgh-pennsylvania-11-12-2026/event/160064888B1E4D69",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sombr-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-11-12-7-pm/concert/18175603",
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-pittsburgh-ppg-paints-arena-11-12-2026--concerts-alternative/production/6898000",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-pittsburgh-pennsylvania-11-12-2026/event/160064888B1E4D69",
@@ -2141,7 +2141,7 @@
         "event_id": 18157641,
         "url": "https://seatgeek.com/sombr-tickets/cleveland-ohio-rocket-arena-2026-11-13-7-30-pm/concert/18157641",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {

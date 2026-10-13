@@ -64,7 +64,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "060064A8BF6D2D36",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-columbia-missouri-11-05-2026/event/060064A8BF6D2D36",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/columbia-missouri-mizzou-arena-2026-11-05-7-pm/concert/18238532",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-columbia-mizzou-arena-11-5-2026--concerts-adult-contemporary/production/7024059",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-columbia-missouri-11-05-2026/event/060064A8BF6D2D36",
@@ -80,11 +80,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18238532,
+        "url": "https://seatgeek.com/tobymac-tickets/columbia-missouri-mizzou-arena-2026-11-05-7-pm/concert/18238532",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7024059,
@@ -133,7 +133,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "050064AA2551F782",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-evansville-indiana-11-06-2026/event/050064AA2551F782",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/evansville-indiana-ford-center-in-2026-11-06-7-pm/concert/18239020",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-evansville-ford-center-evansville-11-6-2026--concerts-adult-contemporary/production/7024067",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-evansville-indiana-11-06-2026/event/050064AA2551F782",
@@ -149,11 +149,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18239020,
+        "url": "https://seatgeek.com/tobymac-tickets/evansville-indiana-ford-center-in-2026-11-06-7-pm/concert/18239020",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7024067,
@@ -255,7 +255,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D0064A8C9C06569",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-greensboro-north-carolina-11-08-2026/event/2D0064A8C9C06569",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/greensboro-north-carolina-first-horizon-coliseum-2026-11-08-7-pm/concert/18238331",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-greensboro-first-horizon-coliseum-at-greensboro-complex-11-8-2026--concerts-adult-contemporary/production/7024078",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-greensboro-north-carolina-11-08-2026/event/2D0064A8C9C06569",
@@ -690,7 +690,7 @@
         "event_id": 18527954,
         "url": "https://seatgeek.com/tobymac-tickets/sunrise-florida-amerant-bank-arena-2027-02-05-7-pm/concert/18527954",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -990,7 +990,7 @@
         "event_id": 18548802,
         "url": "https://seatgeek.com/tobymac-tickets/sugar-land-texas-smart-financial-centre-2027-02-12-7-pm/concert/18548802",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1043,7 +1043,7 @@
         "event_id": 18548804,
         "url": "https://seatgeek.com/tobymac-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-02-13-7-pm/concert/18548804",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1188,7 +1188,7 @@
         "event_id": 18548806,
         "url": "https://seatgeek.com/tobymac-tickets/norfolk-virginia-chartway-arena-2027-02-21-6-30-pm/concert/18548806",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1692,7 +1692,7 @@
         "event_id": 18548872,
         "url": "https://seatgeek.com/tobymac-tickets/cape-girardeau-missouri-show-me-center-2027-03-06-7-pm/concert/18548872",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1914,7 +1914,7 @@
         "event_id": 18548874,
         "url": "https://seatgeek.com/tobymac-tickets/lubbock-texas-united-supermarkets-arena-2027-03-13-7-pm/concert/18548874",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {

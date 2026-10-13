@@ -168,7 +168,7 @@
         "event_id": 18259838,
         "url": "https://seatgeek.com/mico-tickets/san-francisco-california-the-regency-ballroom-2026-10-13-8-pm/concert/18259838",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -237,7 +237,7 @@
         "event_id": 18259845,
         "url": "https://seatgeek.com/mico-tickets/los-angeles-california-the-fonda-theatre-2026-10-15-8-pm/concert/18259845",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -306,7 +306,7 @@
         "event_id": 18259846,
         "url": "https://seatgeek.com/mico-tickets/los-angeles-california-the-fonda-theatre-2026-10-16-7-pm/concert/18259846",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -513,7 +513,7 @@
         "event_id": 18259203,
         "url": "https://seatgeek.com/mico-tickets/tucson-arizona-la-rosa-tucson-2026-10-20-8-pm/concert/18259203",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -968,7 +968,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70U7_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70U7_",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mico-tickets/new-york-new-york-webster-hall-2026-10-30-7-30-pm/concert/18259847",
     "vividseats_url": "https://www.vividseats.com/mico-tickets-new-york-webster-hall-10-30-2026--concerts-rock/production/7049299",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70U7_",
@@ -984,11 +984,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18259847,
+        "url": "https://seatgeek.com/mico-tickets/new-york-new-york-webster-hall-2026-10-30-7-30-pm/concert/18259847",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7049299,
@@ -1037,7 +1037,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70UeZ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UeZ",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mico-tickets/brooklyn-new-york-music-hall-of-williamsburg-2026-10-31-8-pm/concert/18259849",
     "vividseats_url": "https://www.vividseats.com/mico-tickets-brooklyn-music-hall-of-williamsburg-10-31-2026/production/7049601",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UeZ",
@@ -1053,11 +1053,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18259849,
+        "url": "https://seatgeek.com/mico-tickets/brooklyn-new-york-music-hall-of-williamsburg-2026-10-31-8-pm/concert/18259849",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7049601,
@@ -1122,11 +1122,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18251753,
+        "url": "https://seatgeek.com/mico-tickets/boston-massachusetts-paradise-rock-club-2026-11-02-7-pm/concert/18251753",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7049127,
@@ -1175,7 +1175,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7P0b9",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0b9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mico-tickets/providence-rhode-island-fete-music-hall-2026-11-03-8-pm/concert/18345103",
     "vividseats_url": "https://www.vividseats.com/mico-tickets-providence-fete-music-hall-11-3-2026/production/7165689",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0b9",
@@ -1191,11 +1191,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18345103,
+        "url": "https://seatgeek.com/mico-tickets/providence-rhode-island-fete-music-hall-2026-11-03-8-pm/concert/18345103",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7165689,
@@ -1244,11 +1244,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18472169,
+        "url": "https://seatgeek.com/mico-tickets/montreal-canada-mtelus-2026-11-05-8-pm/concert/18472169",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7411491,
@@ -1313,11 +1313,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18252202,
+        "url": "https://seatgeek.com/mico-tickets/toronto-canada-the-danforth-music-hall-2026-11-06-7-pm/concert/18252202",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

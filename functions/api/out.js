@@ -1779,6 +1779,90 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-backstreet-boys",
     redirectUrl: "https://seatgeek.com/backstreet-boys-tickets",
     verified: true
+  },
+  "twenty-one-pilots:ticketmaster": {
+    artistSlug: "twenty-one-pilots",
+    provider: "ticketmaster",
+    linkId: "tm-artist-twenty-one-pilots",
+    redirectUrl: "https://www.ticketmaster.com/twenty-one-pilots-tickets/artist/1495843",
+    verified: true
+  },
+  "twenty-one-pilots:seatgeek": {
+    artistSlug: "twenty-one-pilots",
+    provider: "seatgeek",
+    linkId: "sg-artist-twenty-one-pilots",
+    redirectUrl: "https://seatgeek.com/twenty-one-pilots-tickets",
+    verified: true
+  },
+  "rod-stewart:ticketmaster": {
+    artistSlug: "rod-stewart",
+    provider: "ticketmaster",
+    linkId: "tm-artist-rod-stewart",
+    redirectUrl: "https://www.ticketmaster.com/rod-stewart-tickets/artist/736200",
+    verified: true
+  },
+  "rod-stewart:seatgeek": {
+    artistSlug: "rod-stewart",
+    provider: "seatgeek",
+    linkId: "sg-artist-rod-stewart",
+    redirectUrl: "https://seatgeek.com/rod-stewart-tickets",
+    verified: true
+  },
+  "guns-n-roses:ticketmaster": {
+    artistSlug: "guns-n-roses",
+    provider: "ticketmaster",
+    linkId: "tm-artist-guns-n-roses",
+    redirectUrl: "https://www.ticketmaster.com/guns-n-roses-tickets/artist/735218",
+    verified: true
+  },
+  "guns-n-roses:seatgeek": {
+    artistSlug: "guns-n-roses",
+    provider: "seatgeek",
+    linkId: "sg-artist-guns-n-roses",
+    redirectUrl: "https://seatgeek.com/guns-n-roses-tickets",
+    verified: true
+  },
+  "bring-me-the-horizon:ticketmaster": {
+    artistSlug: "bring-me-the-horizon",
+    provider: "ticketmaster",
+    linkId: "tm-artist-bring-me-the-horizon",
+    redirectUrl: "https://www.ticketmaster.com/bring-me-the-horizon-tickets/artist/1153598",
+    verified: true
+  },
+  "bring-me-the-horizon:seatgeek": {
+    artistSlug: "bring-me-the-horizon",
+    provider: "seatgeek",
+    linkId: "sg-artist-bring-me-the-horizon",
+    redirectUrl: "https://seatgeek.com/bring-me-the-horizon-tickets",
+    verified: true
+  },
+  "leon-bridges:ticketmaster": {
+    artistSlug: "leon-bridges",
+    provider: "ticketmaster",
+    linkId: "tm-artist-leon-bridges",
+    redirectUrl: "https://www.ticketmaster.com/leon-bridges-tickets/artist/2075742",
+    verified: true
+  },
+  "leon-bridges:seatgeek": {
+    artistSlug: "leon-bridges",
+    provider: "seatgeek",
+    linkId: "sg-artist-leon-bridges",
+    redirectUrl: "https://seatgeek.com/leon-bridges-tickets",
+    verified: true
+  },
+  "lionel-richie:ticketmaster": {
+    artistSlug: "lionel-richie",
+    provider: "ticketmaster",
+    linkId: "tm-artist-lionel-richie",
+    redirectUrl: "https://www.ticketmaster.com/lionel-richie-tickets/artist/735972",
+    verified: true
+  },
+  "lionel-richie:seatgeek": {
+    artistSlug: "lionel-richie",
+    provider: "seatgeek",
+    linkId: "sg-artist-lionel-richie",
+    redirectUrl: "https://seatgeek.com/lionel-richie-tickets",
+    verified: true
   }
 };
 

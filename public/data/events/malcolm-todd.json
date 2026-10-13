@@ -689,18 +689,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8038488",
-        "url": "https://www.ticketliquidator.com/tickets/8038488/Malcolm-Todd-tickets-Mon-Oct-12-2026-The-Mission-Ballroom",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PK4I",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038488",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038488/Malcolm-Todd-tickets-Mon-Oct-12-2026-The-Mission-Ballroom"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-malcolm-todd-2026-salt-lake-city-g5vzz_g2farap",

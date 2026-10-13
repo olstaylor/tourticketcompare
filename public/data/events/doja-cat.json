@@ -714,11 +714,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": "7457622",
+        "url": "https://www.ticketliquidator.com/tickets/7457622/Doja-Cat-tickets-Sun-Oct-25-2026-Chase-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbS0uA9TW",
@@ -726,7 +726,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "stubhub_international_url": "",
-    "ticketliquidator_url": "",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457622/Doja-Cat-tickets-Sun-Oct-25-2026-Chase-Center",
     "presales": [
       {
         "name": "VIP Package Onsale",

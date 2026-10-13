@@ -55,11 +55,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8288767",
-        "url": "https://www.ticketliquidator.com/tickets/8288767/Steve-Lacy-tickets-Mon-Oct-12-2026-MGM-Music-Hall-at-Fenway-Park",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107669095",
@@ -73,7 +73,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8288767",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8288767/Steve-Lacy-tickets-Mon-Oct-12-2026-MGM-Music-Hall-at-Fenway-Park",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-boston-tickets-10-12-2026/event/107669095"
   },
   {

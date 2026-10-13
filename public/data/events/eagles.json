@@ -46,6 +46,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7930155",
+        "url": "https://www.ticketliquidator.com/tickets/7930155/The-Eagles-tickets-Fri-Nov-13-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk37GkdXVozi",
@@ -57,7 +64,8 @@
         "start": "2026-05-15T17:00:00Z",
         "end": "2026-11-04T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930155/The-Eagles-tickets-Fri-Nov-13-2026-Sphere"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk37gkdxg-zv",
@@ -106,6 +114,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7930156",
+        "url": "https://www.ticketliquidator.com/tickets/7930156/The-Eagles-tickets-Sat-Nov-14-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk37GkdXg-zV",
@@ -117,7 +132,8 @@
         "start": "2026-05-15T17:00:00Z",
         "end": "2026-11-05T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930156/The-Eagles-tickets-Sat-Nov-14-2026-Sphere"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk37gkdxusyv",
@@ -166,6 +182,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7930157",
+        "url": "https://www.ticketliquidator.com/tickets/7930157/The-Eagles-tickets-Fri-Nov-27-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk37GkdXUsyv",
@@ -177,7 +200,8 @@
         "start": "2026-05-15T17:00:00Z",
         "end": "2026-11-18T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930157/The-Eagles-tickets-Fri-Nov-27-2026-Sphere"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk37gkdxzvy5",
@@ -226,6 +250,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7930158",
+        "url": "https://www.ticketliquidator.com/tickets/7930158/The-Eagles-tickets-Sat-Nov-28-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk37GkdXzvy5",
@@ -237,7 +268,8 @@
         "start": "2026-05-15T17:00:00Z",
         "end": "2026-11-19T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930158/The-Eagles-tickets-Sat-Nov-28-2026-Sphere"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk3dgkdpxlsb",
@@ -286,6 +318,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113664",
+        "url": "https://www.ticketliquidator.com/tickets/8113664/The-Eagles-tickets-Fri-Dec-4-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXLsb",
@@ -297,7 +336,8 @@
         "start": "2026-07-17T17:00:00Z",
         "end": "2026-11-25T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113664/The-Eagles-tickets-Fri-Dec-4-2026-Sphere"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk3dgkdpxrsr",
@@ -346,6 +386,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113665",
+        "url": "https://www.ticketliquidator.com/tickets/8113665/The-Eagles-tickets-Sat-Dec-5-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXRsr",
@@ -357,7 +404,8 @@
         "start": "2026-07-17T17:00:00Z",
         "end": "2026-11-26T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113665/The-Eagles-tickets-Sat-Dec-5-2026-Sphere"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk3dgkdpxrso",
@@ -406,6 +454,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113666",
+        "url": "https://www.ticketliquidator.com/tickets/8113666/The-Eagles-tickets-Fri-Dec-11-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXRsO",
@@ -417,7 +472,8 @@
         "start": "2026-07-17T17:00:00Z",
         "end": "2026-12-02T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113666/The-Eagles-tickets-Fri-Dec-11-2026-Sphere"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk3dgkdbgzr6",
@@ -466,6 +522,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113667",
+        "url": "https://www.ticketliquidator.com/tickets/8113667/The-Eagles-tickets-Sat-Dec-12-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdbGZR6",
@@ -477,7 +540,8 @@
         "start": "2026-07-17T17:00:00Z",
         "end": "2026-12-03T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113667/The-Eagles-tickets-Sat-Dec-12-2026-Sphere"
   },
   {
     "id": "tm-eagles-2027-las-vegas-1a9zk3dgkdpxrs0",
@@ -526,6 +590,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180169",
+        "url": "https://www.ticketliquidator.com/tickets/8180169/The-Eagles-tickets-Fri-Jan-15-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXRs0",
@@ -537,7 +608,8 @@
         "start": "2026-08-14T17:00:00Z",
         "end": "2027-01-06T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180169/The-Eagles-tickets-Fri-Jan-15-2027-Sphere"
   },
   {
     "id": "tm-eagles-2027-las-vegas-1a9zk3dgkdpxtsj",
@@ -586,6 +658,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180170",
+        "url": "https://www.ticketliquidator.com/tickets/8180170/The-Eagles-tickets-Sat-Jan-16-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXTsJ",
@@ -597,7 +676,8 @@
         "start": "2026-08-14T17:00:00Z",
         "end": "2027-01-07T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180170/The-Eagles-tickets-Sat-Jan-16-2027-Sphere"
   },
   {
     "id": "tm-eagles-2027-las-vegas-1a9zk3dgkdpxtsi",
@@ -646,6 +726,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180171",
+        "url": "https://www.ticketliquidator.com/tickets/8180171/The-Eagles-tickets-Fri-Jan-22-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXTsi",
@@ -657,7 +744,8 @@
         "start": "2026-08-14T17:00:00Z",
         "end": "2027-01-13T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180171/The-Eagles-tickets-Fri-Jan-22-2027-Sphere"
   },
   {
     "id": "tm-eagles-2027-las-vegas-1a9zk3dgkdpt2sm",
@@ -706,6 +794,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180172",
+        "url": "https://www.ticketliquidator.com/tickets/8180172/The-Eagles-tickets-Sat-Jan-23-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdpT2sm",
@@ -717,6 +812,7 @@
         "start": "2026-08-14T17:00:00Z",
         "end": "2027-01-14T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180172/The-Eagles-tickets-Sat-Jan-23-2027-Sphere"
   }
 ]

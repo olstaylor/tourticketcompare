@@ -99,6 +99,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956771",
+        "url": "https://www.ticketliquidator.com/tickets/7956771/Journey-tickets-Tue-Oct-13-2026-Legacy-Arena-at-The-BJCC",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FZv0G61p_lKaY",
@@ -110,7 +117,8 @@
         "start": "2026-09-11T15:00:00Z",
         "end": "2026-10-13T15:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956771/Journey-tickets-Tue-Oct-13-2026-Legacy-Arena-at-The-BJCC"
   },
   {
     "id": "tm-journey-2026-sunrise-z7r9jz1a70_73",
@@ -159,11 +167,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956850",
+        "url": "https://www.ticketliquidator.com/tickets/7956850/Journey-tickets-Fri-Oct-16-2026-Amerant-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_73",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956850/Journey-tickets-Fri-Oct-16-2026-Amerant-Bank-Arena"
   },
   {
     "id": "tm-journey-2026-orlando-17fov0g613pzs04",
@@ -212,6 +228,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956772",
+        "url": "https://www.ticketliquidator.com/tickets/7956772/Journey-tickets-Sat-Oct-17-2026-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G613PzS04",
@@ -223,7 +246,8 @@
         "start": "2026-08-28T17:00:00Z",
         "end": "2026-10-17T20:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956772/Journey-tickets-Sat-Oct-17-2026-Kia-Center"
   },
   {
     "id": "tm-journey-2026-atlanta-vvg1zz_1p_clel",
@@ -272,11 +296,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956773",
+        "url": "https://www.ticketliquidator.com/tickets/7956773/Journey-tickets-Mon-Oct-19-2026-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_1p_clEl",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956773/Journey-tickets-Mon-Oct-19-2026-State-Farm-Arena-GA"
   },
   {
     "id": "tm-journey-2026-nashville-g5viz_141b_9f",
@@ -325,11 +357,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956774",
+        "url": "https://www.ticketliquidator.com/tickets/7956774/Journey-tickets-Wed-Oct-21-2026-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_141B_9F",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956774/Journey-tickets-Wed-Oct-21-2026-Bridgestone-Arena"
   },
   {
     "id": "tm-journey-2026-louisville-z7r9jz1a70f_w",
@@ -378,11 +418,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956851",
+        "url": "https://www.ticketliquidator.com/tickets/7956851/Journey-tickets-Thu-Oct-22-2026-KFC-Yum-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70f_w",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956851/Journey-tickets-Thu-Oct-22-2026-KFC-Yum-Center"
   },
   {
     "id": "tm-journey-2026-baltimore-17a8v0g61kp2ris",
@@ -431,6 +479,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956775",
+        "url": "https://www.ticketliquidator.com/tickets/7956775/Journey-tickets-Sat-Oct-24-2026-CFG-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61Kp2rIs",
@@ -442,7 +497,8 @@
         "start": "2026-10-14T14:00:00Z",
         "end": "2026-10-18T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956775/Journey-tickets-Sat-Oct-24-2026-CFG-Bank-Arena"
   },
   {
     "id": "tm-journey-2026-newark-vvg1fz_197dnkr",
@@ -491,11 +547,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956776",
+        "url": "https://www.ticketliquidator.com/tickets/7956776/Journey-tickets-Sun-Oct-25-2026-Prudential-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_197DNKR",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956776/Journey-tickets-Sun-Oct-25-2026-Prudential-Center"
   },
   {
     "id": "tm-journey-2026-philadelphia-17gzv0g61p0-ppk",
@@ -544,6 +608,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956777",
+        "url": "https://www.ticketliquidator.com/tickets/7956777/Journey-tickets-Wed-Oct-28-2026-Xfinity-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G61p0-pPK",
@@ -560,7 +631,8 @@
         "start": "2026-10-14T14:00:00Z",
         "end": "2026-10-18T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956777/Journey-tickets-Wed-Oct-28-2026-Xfinity-Mobile-Arena"
   },
   {
     "id": "tm-journey-2026-providence-vvg17z_1fuwpyc",
@@ -609,11 +681,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956778",
+        "url": "https://www.ticketliquidator.com/tickets/7956778/Journey-tickets-Thu-Oct-29-2026-Amica-Mutual-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1fuWPyc",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956778/Journey-tickets-Thu-Oct-29-2026-Amica-Mutual-Pavilion"
   },
   {
     "id": "tm-journey-2026-detroit-vvg1oz_13slngw",
@@ -662,6 +742,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956779",
+        "url": "https://www.ticketliquidator.com/tickets/7956779/Journey-tickets-Mon-Nov-2-2026-Little-Caesars-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_13SlnGw",
@@ -673,7 +760,8 @@
         "start": "2026-08-28T17:00:00Z",
         "end": "2026-11-02T21:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956779/Journey-tickets-Mon-Nov-2-2026-Little-Caesars-Arena"
   },
   {
     "id": "tm-journey-2026-toronto-177zv0g6110gajo",
@@ -835,6 +923,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956780",
+        "url": "https://www.ticketliquidator.com/tickets/7956780/Journey-tickets-Sat-Nov-7-2026-Nassau-Veterans-Memorial-Coliseum",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_1KA_zPh",
@@ -851,7 +946,8 @@
         "start": "2026-08-28T14:00:00Z",
         "end": "2026-11-07T21:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956780/Journey-tickets-Sat-Nov-7-2026-Nassau-Veterans-Memorial-Coliseum"
   },
   {
     "id": "tm-journey-2026-boston-vvg17z_19ipadt",
@@ -900,6 +996,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956781",
+        "url": "https://www.ticketliquidator.com/tickets/7956781/Journey-tickets-Tue-Nov-10-2026-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_19IPaDt",
@@ -916,7 +1019,8 @@
         "start": "2026-08-28T14:00:00Z",
         "end": "2026-11-10T21:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956781/Journey-tickets-Tue-Nov-10-2026-TD-Garden"
   },
   {
     "id": "tm-journey-2026-cleveland-z7r9jz1a70_7k",
@@ -965,11 +1069,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956853",
+        "url": "https://www.ticketliquidator.com/tickets/7956853/Journey-tickets-Thu-Nov-12-2026-Rocket-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_7K",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956853/Journey-tickets-Thu-Nov-12-2026-Rocket-Arena"
   },
   {
     "id": "tm-journey-2026-greenville-g5evz_1k1vuwb",
@@ -1018,6 +1130,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956782",
+        "url": "https://www.ticketliquidator.com/tickets/7956782/Journey-tickets-Sat-Nov-14-2026-Bon-Secours-Wellness-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_1K1vuwb",
@@ -1029,7 +1148,8 @@
         "start": "2026-05-15T14:00:00Z",
         "end": "2026-10-24T21:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956782/Journey-tickets-Sat-Nov-14-2026-Bon-Secours-Wellness-Arena"
   },
   {
     "id": "tm-journey-2026-saint-louis-vvg1bz_1qqkifj",
@@ -1138,11 +1258,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956854",
+        "url": "https://www.ticketliquidator.com/tickets/7956854/Journey-tickets-Wed-Nov-18-2026-Toyota-Center-TX",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_fz",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956854/Journey-tickets-Wed-Nov-18-2026-Toyota-Center-TX"
   },
   {
     "id": "tm-journey-2026-dallas-vvg1yz_14w7vrn",
@@ -1191,6 +1319,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956784",
+        "url": "https://www.ticketliquidator.com/tickets/7956784/Journey-tickets-Fri-Nov-20-2026-American-Airlines-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_14W7VrN",
@@ -1207,7 +1342,8 @@
         "start": "2026-08-28T12:00:00Z",
         "end": "2026-10-30T22:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956784/Journey-tickets-Fri-Nov-20-2026-American-Airlines-Center"
   },
   {
     "id": "tm-journey-2026-denver-g5vzz_1kxjfbe",
@@ -1256,6 +1392,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956785",
+        "url": "https://www.ticketliquidator.com/tickets/7956785/Journey-tickets-Sun-Nov-22-2026-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1Kxjfbe",
@@ -1272,7 +1415,8 @@
         "start": "2026-08-28T17:00:00Z",
         "end": "2026-11-22T23:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956785/Journey-tickets-Sun-Nov-22-2026-Ball-Arena"
   },
   {
     "id": "tm-journey-2026-anaheim-vvg10z_1q4chn3",
@@ -1321,6 +1465,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956786",
+        "url": "https://www.ticketliquidator.com/tickets/7956786/Journey-tickets-Tue-Nov-24-2026-Honda-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1Q4chn3",
@@ -1342,7 +1493,8 @@
         "start": "2026-08-28T17:00:00Z",
         "end": "2026-11-25T00:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956786/Journey-tickets-Tue-Nov-24-2026-Honda-Center"
   },
   {
     "id": "tm-journey-2026-las-vegas-z7r9jz1a70_7f",
@@ -1391,11 +1543,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956855",
+        "url": "https://www.ticketliquidator.com/tickets/7956855/Journey-tickets-Fri-Nov-27-2026-MGM-Grand-Garden-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_7f",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956855/Journey-tickets-Fri-Nov-27-2026-MGM-Grand-Garden-Arena"
   },
   {
     "id": "tm-journey-2026-san-francisco-g5vyz_aeock9c",
@@ -1444,6 +1604,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956787",
+        "url": "https://www.ticketliquidator.com/tickets/7956787/Journey-tickets-Sat-Nov-28-2026-Chase-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_aEOcK9c",
@@ -1455,6 +1622,7 @@
         "start": "2026-05-15T17:00:00Z",
         "end": "2026-11-08T01:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956787/Journey-tickets-Sat-Nov-28-2026-Chase-Center"
   }
 ]

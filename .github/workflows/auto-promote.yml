@@ -27,7 +27,7 @@ concurrency:
 jobs:
   promote:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 59
     steps:
       - name: Switch
         id: switch
@@ -45,6 +45,12 @@ jobs:
       - name: Checkout
         if: steps.switch.outputs.on == 'true'
         uses: actions/checkout@v5
+
+      - name: Wait for older shared-data writer runs
+        if: steps.switch.outputs.on == 'true'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 4
 
       - name: Setup Node.js
         if: steps.switch.outputs.on == 'true'

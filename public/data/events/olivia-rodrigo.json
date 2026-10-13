@@ -747,11 +747,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7921656",
-        "url": "https://www.ticketliquidator.com/tickets/7921656/Olivia-Rodrigo-tickets-Mon-Oct-12-2026-United-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107165390",
@@ -766,7 +766,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv178Z_aGkMlEBGy",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921656",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921656/Olivia-Rodrigo-tickets-Mon-Oct-12-2026-United-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-chicago-tickets-10-12-2026/event/107165390"
   },
   {

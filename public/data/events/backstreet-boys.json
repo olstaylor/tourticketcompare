@@ -46,6 +46,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8223803",
+        "url": "https://www.ticketliquidator.com/tickets/8223803/Backstreet-Boys-tickets-Sat-Dec-26-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62TQWIR3",
@@ -57,7 +64,8 @@
         "start": "2026-08-21T17:00:00Z",
         "end": "2026-12-20T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8223803/Backstreet-Boys-tickets-Sat-Dec-26-2026-Sphere"
   },
   {
     "id": "tm-backstreet-boys-2026-las-vegas-17ayv0g62tqtbry",
@@ -106,6 +114,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8223802",
+        "url": "https://www.ticketliquidator.com/tickets/8223802/Backstreet-Boys-tickets-Sun-Dec-27-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62TQTbRy",
@@ -117,7 +132,8 @@
         "start": "2026-08-21T17:00:00Z",
         "end": "2026-12-21T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8223802/Backstreet-Boys-tickets-Sun-Dec-27-2026-Sphere"
   },
   {
     "id": "tm-backstreet-boys-2027-las-vegas-17ayv0g62th2fwx",
@@ -166,6 +182,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8194445",
+        "url": "https://www.ticketliquidator.com/tickets/8194445/Backstreet-Boys-tickets-Thu-Dec-31-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62Th2Fwx",
@@ -177,7 +200,8 @@
         "start": "2026-08-21T17:00:00Z",
         "end": "2026-12-25T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194445/Backstreet-Boys-tickets-Thu-Dec-31-2026-Sphere"
   },
   {
     "id": "tm-backstreet-boys-2027-las-vegas-17ayv0g62thois9",
@@ -226,6 +250,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8194446",
+        "url": "https://www.ticketliquidator.com/tickets/8194446/Backstreet-Boys-tickets-Fri-Jan-1-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62ThoIS9",
@@ -237,7 +268,8 @@
         "start": "2026-08-21T17:00:00Z",
         "end": "2026-12-26T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194446/Backstreet-Boys-tickets-Fri-Jan-1-2027-Sphere"
   },
   {
     "id": "tm-backstreet-boys-2027-las-vegas-17ayv0g62th3iss",
@@ -286,6 +318,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8194447",
+        "url": "https://www.ticketliquidator.com/tickets/8194447/Backstreet-Boys-tickets-Sat-Jan-2-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62Th3ISS",
@@ -297,7 +336,8 @@
         "start": "2026-08-21T17:00:00Z",
         "end": "2026-12-27T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194447/Backstreet-Boys-tickets-Sat-Jan-2-2027-Sphere"
   },
   {
     "id": "tm-backstreet-boys-2027-toronto-1avzz_kgkz7jcq4",

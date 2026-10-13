@@ -8977,11 +8977,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7921656",
-        "url": "https://www.ticketliquidator.com/tickets/7921656/Olivia-Rodrigo-tickets-Mon-Oct-12-2026-United-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107165390",
@@ -8996,7 +8996,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv178Z_aGkMlEBGy",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921656",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921656/Olivia-Rodrigo-tickets-Mon-Oct-12-2026-United-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-chicago-tickets-10-12-2026/event/107165390"
   },
   {
@@ -35822,11 +35822,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": "7457622",
+        "url": "https://www.ticketliquidator.com/tickets/7457622/Doja-Cat-tickets-Sun-Oct-25-2026-Chase-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbS0uA9TW",
@@ -35834,7 +35834,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "stubhub_international_url": "",
-    "ticketliquidator_url": "",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457622/Doja-Cat-tickets-Sun-Oct-25-2026-Chase-Center",
     "presales": [
       {
         "name": "VIP Package Onsale",
@@ -85985,11 +85985,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8043796",
-        "url": "https://www.ticketliquidator.com/tickets/8043796/Sylvan-Esso-tickets-Mon-Oct-12-2026-Franklin-Music-Hall",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "8043796",
@@ -86002,7 +86002,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pxvf",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043796/Sylvan-Esso-tickets-Mon-Oct-12-2026-Franklin-Music-Hall",
+    "ticketliquidator_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8043796"
   },
   {
@@ -122521,11 +122521,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277984",
+        "url": "https://www.ticketliquidator.com/tickets/8277984/Atmosphere-tickets-Sat-Jan-30-2027-The-Depot-Salt-Lake-City",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KL2vYwj",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277984/Atmosphere-tickets-Sat-Jan-30-2027-The-Depot-Salt-Lake-City"
   },
   {
     "id": "tm-oasis-2027-barcelona-z698xz2qz1kosq3xa",
@@ -125538,18 +125546,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8038488",
-        "url": "https://www.ticketliquidator.com/tickets/8038488/Malcolm-Todd-tickets-Mon-Oct-12-2026-The-Mission-Ballroom",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PK4I",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038488",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038488/Malcolm-Todd-tickets-Mon-Oct-12-2026-The-Mission-Ballroom"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-malcolm-todd-2026-salt-lake-city-g5vzz_g2farap",
@@ -160080,18 +160088,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8056795",
-        "url": "https://www.ticketliquidator.com/tickets/8056795/Daughtry-tickets-Mon-Oct-12-2026-Troy-Savings-Bank-Music-Hall",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_GRFdN3C",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056795",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056795/Daughtry-tickets-Mon-Oct-12-2026-Troy-Savings-Bank-Music-Hall"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-daughtry-2026-beverly-z7r9jz1a7pyjj",
@@ -186093,11 +186101,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8086310",
-        "url": "https://www.ticketliquidator.com/tickets/8086310/Warren-Zeiders-tickets-Mon-Oct-12-2026-O2-Academy-Leeds",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107672176",
@@ -186118,7 +186126,7 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8086310",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8086310/Warren-Zeiders-tickets-Mon-Oct-12-2026-O2-Academy-Leeds",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-leeds-o2-academy-leeds-12-10-2026/event/107672176"
   },
   {
@@ -228355,11 +228363,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8288767",
-        "url": "https://www.ticketliquidator.com/tickets/8288767/Steve-Lacy-tickets-Mon-Oct-12-2026-MGM-Music-Hall-at-Fenway-Park",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107669095",
@@ -228373,7 +228381,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8288767",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8288767/Steve-Lacy-tickets-Mon-Oct-12-2026-MGM-Music-Hall-at-Fenway-Park",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-boston-tickets-10-12-2026/event/107669095"
   },
   {
@@ -234233,11 +234241,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294333",
+        "url": "https://www.ticketliquidator.com/tickets/8294333/Slipknot-tickets-Sat-Jul-3-2027-Wembley-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZkfgGkdhUZzD",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294333/Slipknot-tickets-Sat-Jul-3-2027-Wembley-Stadium"
   },
   {
     "id": "tm-slipknot-2027-washington-1a4zkfmgkdgza4s",
@@ -234286,6 +234302,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293109",
+        "url": "https://www.ticketliquidator.com/tickets/8293109/Slipknot-tickets-Fri-Jul-16-2027-Nationals-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfMGkdGza4s",
@@ -234297,7 +234320,8 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-07-10T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293109/Slipknot-tickets-Fri-Jul-16-2027-Nationals-Park"
   },
   {
     "id": "tm-slipknot-2027-queens-g5vvz_kci8xei",
@@ -234406,6 +234430,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293126",
+        "url": "https://www.ticketliquidator.com/tickets/8293126/Slipknot-tickets-Wed-Jul-21-2027-Parc-Jean-Drapeau",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_3GklN01oc",
@@ -234417,7 +234448,8 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-07-18T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293126/Slipknot-tickets-Wed-Jul-21-2027-Parc-Jean-Drapeau"
   },
   {
     "id": "tm-slipknot-2027-toronto-1k7zvpczgauvkjd",
@@ -234531,6 +234563,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293111",
+        "url": "https://www.ticketliquidator.com/tickets/8293111/Slipknot-tickets-Sun-Jul-25-2027-Soldier-Field",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv167ZkfMPFZA26Gu7",
@@ -234547,7 +234586,8 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-07-22T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293111/Slipknot-tickets-Sun-Jul-25-2027-Soldier-Field"
   },
   {
     "id": "tm-slipknot-2027-hershey-vv1aezkfzgkdcrpxj",
@@ -234596,6 +234636,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293112",
+        "url": "https://www.ticketliquidator.com/tickets/8293112/Slipknot-tickets-Wed-Jul-28-2027-Hersheypark-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfzGkdCrPxj",
@@ -234607,7 +234654,8 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-07-25T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293112/Slipknot-tickets-Wed-Jul-28-2027-Hersheypark-Stadium"
   },
   {
     "id": "tm-slipknot-2027-boston-z7r9jz1aavzbi",
@@ -234656,11 +234704,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293113",
+        "url": "https://www.ticketliquidator.com/tickets/8293113/Slipknot-tickets-Sat-Jul-31-2027-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzbI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293113/Slipknot-tickets-Sat-Jul-31-2027-Fenway-Park"
   },
   {
     "id": "tm-slipknot-2027-nashville-z7r9jz1aaeazk",
@@ -234709,11 +234765,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293196",
+        "url": "https://www.ticketliquidator.com/tickets/8293196/Slipknot-tickets-Tue-Aug-3-2027-FirstBank-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeaZk",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293196/Slipknot-tickets-Tue-Aug-3-2027-FirstBank-Stadium"
   },
   {
     "id": "tm-slipknot-2027-houston-g5diz_kx0z68q",
@@ -234762,6 +234826,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293114",
+        "url": "https://www.ticketliquidator.com/tickets/8293114/Slipknot-tickets-Fri-Aug-6-2027-Daikin-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_Kx0Z68q",
@@ -234773,7 +234844,8 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-07-31T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293114/Slipknot-tickets-Fri-Aug-6-2027-Daikin-Park"
   },
   {
     "id": "tm-slipknot-2027-commerce-city-g5vzz_kofjm9p",
@@ -234822,6 +234894,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293115",
+        "url": "https://www.ticketliquidator.com/tickets/8293115/Slipknot-tickets-Mon-Aug-9-2027-Dicks-Sporting-Goods-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KOfJM9P",
@@ -234833,7 +234912,8 @@
         "start": "2026-10-02T16:00:00Z",
         "end": "2027-08-06T04:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293115/Slipknot-tickets-Mon-Aug-9-2027-Dicks-Sporting-Goods-Park"
   },
   {
     "id": "tm-slipknot-2027-inglewood-vvg1iz_k9by2hw",
@@ -234882,6 +234962,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293118",
+        "url": "https://www.ticketliquidator.com/tickets/8293118/Slipknot-tickets-Fri-Aug-13-2027-SoFi-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_K9by2hW",
@@ -234893,7 +234980,8 @@
         "start": "2026-10-02T17:00:00Z",
         "end": "2027-08-07T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293118/Slipknot-tickets-Fri-Aug-13-2027-SoFi-Stadium"
   },
   {
     "id": "tm-slipknot-2027-san-francisco-g5vyz_khsbrlp",
@@ -234942,11 +235030,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293120",
+        "url": "https://www.ticketliquidator.com/tickets/8293120/Slipknot-tickets-Sun-Aug-15-2027-Golden-Gate-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KhSbRlP",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293120/Slipknot-tickets-Sun-Aug-15-2027-Golden-Gate-Park"
   },
   {
     "id": "tm-slipknot-2027-phoenix-1a_zkfggkdfoifq",
@@ -234995,6 +235091,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293122",
+        "url": "https://www.ticketliquidator.com/tickets/8293122/Slipknot-tickets-Wed-Aug-18-2027-Chase-Field",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkfgGkdFOIFq",
@@ -235011,7 +235114,8 @@
         "start": "2026-10-02T17:00:00Z",
         "end": "2027-08-15T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293122/Slipknot-tickets-Wed-Aug-18-2027-Chase-Field"
   },
   {
     "id": "tm-noah-kahan-2026-glasgow-1adbz_fgkn7svza",
@@ -235060,11 +235164,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874793",
+        "url": "https://www.ticketliquidator.com/tickets/7874793/Noah-Kahan-tickets-Thu-Nov-5-2026-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdbZ_FGkn7svza",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874793/Noah-Kahan-tickets-Thu-Nov-5-2026-OVO-Hydro"
   },
   {
     "id": "tm-noah-kahan-2026-glasgow-1auzk3agkdn-buh",
@@ -235113,11 +235225,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874794",
+        "url": "https://www.ticketliquidator.com/tickets/7874794/Noah-Kahan-tickets-Fri-Nov-6-2026-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZk3aGkdn-bUh",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874794/Noah-Kahan-tickets-Fri-Nov-6-2026-OVO-Hydro"
   },
   {
     "id": "tm-noah-kahan-2026-manchester-g5vhz_gxilkd5",
@@ -235166,11 +235286,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874795",
+        "url": "https://www.ticketliquidator.com/tickets/7874795/Noah-Kahan-tickets-Mon-Nov-9-2026-AO-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_GxiLkd5",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874795/Noah-Kahan-tickets-Mon-Nov-9-2026-AO-Arena"
   },
   {
     "id": "tm-noah-kahan-2026-manchester-g5vhz_gxiljdj",
@@ -235219,11 +235347,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874796",
+        "url": "https://www.ticketliquidator.com/tickets/7874796/Noah-Kahan-tickets-Tue-Nov-10-2026-AO-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_GxiLJdJ",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874796/Noah-Kahan-tickets-Tue-Nov-10-2026-AO-Arena"
   },
   {
     "id": "tm-noah-kahan-2026-london-1ku8v0x_gag10y_",
@@ -235378,11 +235514,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7885145",
+        "url": "https://www.ticketliquidator.com/tickets/7885145/Noah-Kahan-tickets-Thu-Nov-19-2026-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvOZ_FGkn52BxO",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7885145/Noah-Kahan-tickets-Thu-Nov-19-2026-3Arena-Dublin"
   },
   {
     "id": "tm-noah-kahan-2026-dublin-1kkzv0x9ga2yvxh",
@@ -235431,11 +235575,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7879571",
+        "url": "https://www.ticketliquidator.com/tickets/7879571/Noah-Kahan-tickets-Sat-Nov-21-2026-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kkZv0x9GA2YVXh",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7879571/Noah-Kahan-tickets-Sat-Nov-21-2026-3Arena-Dublin"
   },
   {
     "id": "tm-noah-kahan-2026-dublin-1abzk3agkdihdnu",
@@ -235484,11 +235636,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7885279",
+        "url": "https://www.ticketliquidator.com/tickets/7885279/Noah-Kahan-tickets-Sun-Nov-22-2026-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AbZk3aGkdiHDNU",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7885279/Noah-Kahan-tickets-Sun-Nov-22-2026-3Arena-Dublin"
   },
   {
     "id": "tm-noah-kahan-2026-munich-z698xzc2z1k3fveos",
@@ -235537,11 +235697,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877198",
+        "url": "https://www.ticketliquidator.com/tickets/7877198/Noah-Kahan-tickets-Fri-Dec-4-2026-Kleine-Olympiahalle-Munich",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1k3Fveos",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877198/Noah-Kahan-tickets-Fri-Dec-4-2026-Kleine-Olympiahalle-Munich"
   },
   {
     "id": "tm-noah-kahan-2027-glasgow-1adbz_8gkufqoce",
@@ -235749,11 +235917,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8224894",
+        "url": "https://www.ticketliquidator.com/tickets/8224894/Noah-Kahan-tickets-Fri-Jul-23-2027-Wembley-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZkf3Gkd7-B4S",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8224894/Noah-Kahan-tickets-Fri-Jul-23-2027-Wembley-Stadium"
   },
   {
     "id": "tm-noah-kahan-2027-london-1anzkf4gkexwogg",
@@ -235802,11 +235978,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8233856",
+        "url": "https://www.ticketliquidator.com/tickets/8233856/Noah-Kahan-tickets-Sat-Jul-24-2027-Wembley-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZkf4GkeXwOgG",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8233856/Noah-Kahan-tickets-Sat-Jul-24-2027-Wembley-Stadium"
   },
   {
     "id": "tm-noah-kahan-2027-london-1anzkf4gkddlzu_",
@@ -235855,11 +236039,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8244107",
+        "url": "https://www.ticketliquidator.com/tickets/8244107/Noah-Kahan-tickets-Sun-Jul-25-2027-Wembley-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZkf4GkddLZU_",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244107/Noah-Kahan-tickets-Sun-Jul-25-2027-Wembley-Stadium"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk37gkdxvozi",
@@ -235908,6 +236100,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7930155",
+        "url": "https://www.ticketliquidator.com/tickets/7930155/The-Eagles-tickets-Fri-Nov-13-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk37GkdXVozi",
@@ -235919,7 +236118,8 @@
         "start": "2026-05-15T17:00:00Z",
         "end": "2026-11-04T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930155/The-Eagles-tickets-Fri-Nov-13-2026-Sphere"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk37gkdxg-zv",
@@ -235968,6 +236168,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7930156",
+        "url": "https://www.ticketliquidator.com/tickets/7930156/The-Eagles-tickets-Sat-Nov-14-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk37GkdXg-zV",
@@ -235979,7 +236186,8 @@
         "start": "2026-05-15T17:00:00Z",
         "end": "2026-11-05T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930156/The-Eagles-tickets-Sat-Nov-14-2026-Sphere"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk37gkdxusyv",
@@ -236028,6 +236236,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7930157",
+        "url": "https://www.ticketliquidator.com/tickets/7930157/The-Eagles-tickets-Fri-Nov-27-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk37GkdXUsyv",
@@ -236039,7 +236254,8 @@
         "start": "2026-05-15T17:00:00Z",
         "end": "2026-11-18T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930157/The-Eagles-tickets-Fri-Nov-27-2026-Sphere"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk37gkdxzvy5",
@@ -236088,6 +236304,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7930158",
+        "url": "https://www.ticketliquidator.com/tickets/7930158/The-Eagles-tickets-Sat-Nov-28-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk37GkdXzvy5",
@@ -236099,7 +236322,8 @@
         "start": "2026-05-15T17:00:00Z",
         "end": "2026-11-19T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930158/The-Eagles-tickets-Sat-Nov-28-2026-Sphere"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk3dgkdpxlsb",
@@ -236148,6 +236372,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113664",
+        "url": "https://www.ticketliquidator.com/tickets/8113664/The-Eagles-tickets-Fri-Dec-4-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXLsb",
@@ -236159,7 +236390,8 @@
         "start": "2026-07-17T17:00:00Z",
         "end": "2026-11-25T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113664/The-Eagles-tickets-Fri-Dec-4-2026-Sphere"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk3dgkdpxrsr",
@@ -236208,6 +236440,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113665",
+        "url": "https://www.ticketliquidator.com/tickets/8113665/The-Eagles-tickets-Sat-Dec-5-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXRsr",
@@ -236219,7 +236458,8 @@
         "start": "2026-07-17T17:00:00Z",
         "end": "2026-11-26T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113665/The-Eagles-tickets-Sat-Dec-5-2026-Sphere"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk3dgkdpxrso",
@@ -236268,6 +236508,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113666",
+        "url": "https://www.ticketliquidator.com/tickets/8113666/The-Eagles-tickets-Fri-Dec-11-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXRsO",
@@ -236279,7 +236526,8 @@
         "start": "2026-07-17T17:00:00Z",
         "end": "2026-12-02T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113666/The-Eagles-tickets-Fri-Dec-11-2026-Sphere"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk3dgkdbgzr6",
@@ -236328,6 +236576,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113667",
+        "url": "https://www.ticketliquidator.com/tickets/8113667/The-Eagles-tickets-Sat-Dec-12-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdbGZR6",
@@ -236339,7 +236594,8 @@
         "start": "2026-07-17T17:00:00Z",
         "end": "2026-12-03T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113667/The-Eagles-tickets-Sat-Dec-12-2026-Sphere"
   },
   {
     "id": "tm-eagles-2027-las-vegas-1a9zk3dgkdpxrs0",
@@ -236388,6 +236644,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180169",
+        "url": "https://www.ticketliquidator.com/tickets/8180169/The-Eagles-tickets-Fri-Jan-15-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXRs0",
@@ -236399,7 +236662,8 @@
         "start": "2026-08-14T17:00:00Z",
         "end": "2027-01-06T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180169/The-Eagles-tickets-Fri-Jan-15-2027-Sphere"
   },
   {
     "id": "tm-eagles-2027-las-vegas-1a9zk3dgkdpxtsj",
@@ -236448,6 +236712,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180170",
+        "url": "https://www.ticketliquidator.com/tickets/8180170/The-Eagles-tickets-Sat-Jan-16-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXTsJ",
@@ -236459,7 +236730,8 @@
         "start": "2026-08-14T17:00:00Z",
         "end": "2027-01-07T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180170/The-Eagles-tickets-Sat-Jan-16-2027-Sphere"
   },
   {
     "id": "tm-eagles-2027-las-vegas-1a9zk3dgkdpxtsi",
@@ -236508,6 +236780,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180171",
+        "url": "https://www.ticketliquidator.com/tickets/8180171/The-Eagles-tickets-Fri-Jan-22-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXTsi",
@@ -236519,7 +236798,8 @@
         "start": "2026-08-14T17:00:00Z",
         "end": "2027-01-13T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180171/The-Eagles-tickets-Fri-Jan-22-2027-Sphere"
   },
   {
     "id": "tm-eagles-2027-las-vegas-1a9zk3dgkdpt2sm",
@@ -236568,6 +236848,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180172",
+        "url": "https://www.ticketliquidator.com/tickets/8180172/The-Eagles-tickets-Sat-Jan-23-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdpT2sm",
@@ -236579,7 +236866,8 @@
         "start": "2026-08-14T17:00:00Z",
         "end": "2027-01-14T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180172/The-Eagles-tickets-Sat-Jan-23-2027-Sphere"
   },
   {
     "id": "tm-journey-2026-biloxi-g5viz_19l6he3",
@@ -236681,6 +236969,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956771",
+        "url": "https://www.ticketliquidator.com/tickets/7956771/Journey-tickets-Tue-Oct-13-2026-Legacy-Arena-at-The-BJCC",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FZv0G61p_lKaY",
@@ -236692,7 +236987,8 @@
         "start": "2026-09-11T15:00:00Z",
         "end": "2026-10-13T15:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956771/Journey-tickets-Tue-Oct-13-2026-Legacy-Arena-at-The-BJCC"
   },
   {
     "id": "tm-journey-2026-sunrise-z7r9jz1a70_73",
@@ -236741,11 +237037,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956850",
+        "url": "https://www.ticketliquidator.com/tickets/7956850/Journey-tickets-Fri-Oct-16-2026-Amerant-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_73",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956850/Journey-tickets-Fri-Oct-16-2026-Amerant-Bank-Arena"
   },
   {
     "id": "tm-journey-2026-orlando-17fov0g613pzs04",
@@ -236794,6 +237098,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956772",
+        "url": "https://www.ticketliquidator.com/tickets/7956772/Journey-tickets-Sat-Oct-17-2026-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G613PzS04",
@@ -236805,7 +237116,8 @@
         "start": "2026-08-28T17:00:00Z",
         "end": "2026-10-17T20:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956772/Journey-tickets-Sat-Oct-17-2026-Kia-Center"
   },
   {
     "id": "tm-journey-2026-atlanta-vvg1zz_1p_clel",
@@ -236854,11 +237166,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956773",
+        "url": "https://www.ticketliquidator.com/tickets/7956773/Journey-tickets-Mon-Oct-19-2026-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_1p_clEl",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956773/Journey-tickets-Mon-Oct-19-2026-State-Farm-Arena-GA"
   },
   {
     "id": "tm-journey-2026-nashville-g5viz_141b_9f",
@@ -236907,11 +237227,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956774",
+        "url": "https://www.ticketliquidator.com/tickets/7956774/Journey-tickets-Wed-Oct-21-2026-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_141B_9F",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956774/Journey-tickets-Wed-Oct-21-2026-Bridgestone-Arena"
   },
   {
     "id": "tm-journey-2026-louisville-z7r9jz1a70f_w",
@@ -236960,11 +237288,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956851",
+        "url": "https://www.ticketliquidator.com/tickets/7956851/Journey-tickets-Thu-Oct-22-2026-KFC-Yum-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70f_w",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956851/Journey-tickets-Thu-Oct-22-2026-KFC-Yum-Center"
   },
   {
     "id": "tm-journey-2026-baltimore-17a8v0g61kp2ris",
@@ -237013,6 +237349,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956775",
+        "url": "https://www.ticketliquidator.com/tickets/7956775/Journey-tickets-Sat-Oct-24-2026-CFG-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61Kp2rIs",
@@ -237024,7 +237367,8 @@
         "start": "2026-10-14T14:00:00Z",
         "end": "2026-10-18T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956775/Journey-tickets-Sat-Oct-24-2026-CFG-Bank-Arena"
   },
   {
     "id": "tm-journey-2026-newark-vvg1fz_197dnkr",
@@ -237073,11 +237417,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956776",
+        "url": "https://www.ticketliquidator.com/tickets/7956776/Journey-tickets-Sun-Oct-25-2026-Prudential-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_197DNKR",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956776/Journey-tickets-Sun-Oct-25-2026-Prudential-Center"
   },
   {
     "id": "tm-journey-2026-philadelphia-17gzv0g61p0-ppk",
@@ -237126,6 +237478,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956777",
+        "url": "https://www.ticketliquidator.com/tickets/7956777/Journey-tickets-Wed-Oct-28-2026-Xfinity-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G61p0-pPK",
@@ -237142,7 +237501,8 @@
         "start": "2026-10-14T14:00:00Z",
         "end": "2026-10-18T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956777/Journey-tickets-Wed-Oct-28-2026-Xfinity-Mobile-Arena"
   },
   {
     "id": "tm-journey-2026-providence-vvg17z_1fuwpyc",
@@ -237191,11 +237551,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956778",
+        "url": "https://www.ticketliquidator.com/tickets/7956778/Journey-tickets-Thu-Oct-29-2026-Amica-Mutual-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1fuWPyc",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956778/Journey-tickets-Thu-Oct-29-2026-Amica-Mutual-Pavilion"
   },
   {
     "id": "tm-journey-2026-detroit-vvg1oz_13slngw",
@@ -237244,6 +237612,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956779",
+        "url": "https://www.ticketliquidator.com/tickets/7956779/Journey-tickets-Mon-Nov-2-2026-Little-Caesars-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_13SlnGw",
@@ -237255,7 +237630,8 @@
         "start": "2026-08-28T17:00:00Z",
         "end": "2026-11-02T21:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956779/Journey-tickets-Mon-Nov-2-2026-Little-Caesars-Arena"
   },
   {
     "id": "tm-journey-2026-toronto-177zv0g6110gajo",
@@ -237417,6 +237793,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956780",
+        "url": "https://www.ticketliquidator.com/tickets/7956780/Journey-tickets-Sat-Nov-7-2026-Nassau-Veterans-Memorial-Coliseum",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_1KA_zPh",
@@ -237433,7 +237816,8 @@
         "start": "2026-08-28T14:00:00Z",
         "end": "2026-11-07T21:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956780/Journey-tickets-Sat-Nov-7-2026-Nassau-Veterans-Memorial-Coliseum"
   },
   {
     "id": "tm-journey-2026-boston-vvg17z_19ipadt",
@@ -237482,6 +237866,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956781",
+        "url": "https://www.ticketliquidator.com/tickets/7956781/Journey-tickets-Tue-Nov-10-2026-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_19IPaDt",
@@ -237498,7 +237889,8 @@
         "start": "2026-08-28T14:00:00Z",
         "end": "2026-11-10T21:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956781/Journey-tickets-Tue-Nov-10-2026-TD-Garden"
   },
   {
     "id": "tm-journey-2026-cleveland-z7r9jz1a70_7k",
@@ -237547,11 +237939,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956853",
+        "url": "https://www.ticketliquidator.com/tickets/7956853/Journey-tickets-Thu-Nov-12-2026-Rocket-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_7K",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956853/Journey-tickets-Thu-Nov-12-2026-Rocket-Arena"
   },
   {
     "id": "tm-journey-2026-greenville-g5evz_1k1vuwb",
@@ -237600,6 +238000,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956782",
+        "url": "https://www.ticketliquidator.com/tickets/7956782/Journey-tickets-Sat-Nov-14-2026-Bon-Secours-Wellness-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_1K1vuwb",
@@ -237611,7 +238018,8 @@
         "start": "2026-05-15T14:00:00Z",
         "end": "2026-10-24T21:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956782/Journey-tickets-Sat-Nov-14-2026-Bon-Secours-Wellness-Arena"
   },
   {
     "id": "tm-journey-2026-saint-louis-vvg1bz_1qqkifj",
@@ -237720,11 +238128,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956854",
+        "url": "https://www.ticketliquidator.com/tickets/7956854/Journey-tickets-Wed-Nov-18-2026-Toyota-Center-TX",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_fz",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956854/Journey-tickets-Wed-Nov-18-2026-Toyota-Center-TX"
   },
   {
     "id": "tm-journey-2026-dallas-vvg1yz_14w7vrn",
@@ -237773,6 +238189,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956784",
+        "url": "https://www.ticketliquidator.com/tickets/7956784/Journey-tickets-Fri-Nov-20-2026-American-Airlines-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_14W7VrN",
@@ -237789,7 +238212,8 @@
         "start": "2026-08-28T12:00:00Z",
         "end": "2026-10-30T22:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956784/Journey-tickets-Fri-Nov-20-2026-American-Airlines-Center"
   },
   {
     "id": "tm-journey-2026-denver-g5vzz_1kxjfbe",
@@ -237838,6 +238262,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956785",
+        "url": "https://www.ticketliquidator.com/tickets/7956785/Journey-tickets-Sun-Nov-22-2026-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1Kxjfbe",
@@ -237854,7 +238285,8 @@
         "start": "2026-08-28T17:00:00Z",
         "end": "2026-11-22T23:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956785/Journey-tickets-Sun-Nov-22-2026-Ball-Arena"
   },
   {
     "id": "tm-journey-2026-anaheim-vvg10z_1q4chn3",
@@ -237903,6 +238335,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956786",
+        "url": "https://www.ticketliquidator.com/tickets/7956786/Journey-tickets-Tue-Nov-24-2026-Honda-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1Q4chn3",
@@ -237924,7 +238363,8 @@
         "start": "2026-08-28T17:00:00Z",
         "end": "2026-11-25T00:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956786/Journey-tickets-Tue-Nov-24-2026-Honda-Center"
   },
   {
     "id": "tm-journey-2026-las-vegas-z7r9jz1a70_7f",
@@ -237973,11 +238413,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956855",
+        "url": "https://www.ticketliquidator.com/tickets/7956855/Journey-tickets-Fri-Nov-27-2026-MGM-Grand-Garden-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_7f",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956855/Journey-tickets-Fri-Nov-27-2026-MGM-Grand-Garden-Arena"
   },
   {
     "id": "tm-journey-2026-san-francisco-g5vyz_aeock9c",
@@ -238026,6 +238474,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956787",
+        "url": "https://www.ticketliquidator.com/tickets/7956787/Journey-tickets-Sat-Nov-28-2026-Chase-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_aEOcK9c",
@@ -238037,7 +238492,8 @@
         "start": "2026-05-15T17:00:00Z",
         "end": "2026-11-08T01:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956787/Journey-tickets-Sat-Nov-28-2026-Chase-Center"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-11ayvpu8jkxpvc",
@@ -238086,6 +238542,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294204",
+        "url": "https://www.ticketliquidator.com/tickets/8294204/John-Mayer-tickets-Thu-Apr-8-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "11AYvPu8JKxpvC",
@@ -238102,7 +238565,8 @@
         "start": "2026-10-09T17:00:00Z",
         "end": "2027-04-02T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294204/John-Mayer-tickets-Thu-Apr-8-2027-Sphere"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7ucku",
@@ -238151,6 +238615,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294205",
+        "url": "https://www.ticketliquidator.com/tickets/8294205/John-Mayer-tickets-Sat-Apr-10-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7UcKU",
@@ -238167,7 +238638,8 @@
         "start": "2026-10-09T17:00:00Z",
         "end": "2027-04-04T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294205/John-Mayer-tickets-Sat-Apr-10-2027-Sphere"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7uckz",
@@ -238216,6 +238688,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294206",
+        "url": "https://www.ticketliquidator.com/tickets/8294206/John-Mayer-tickets-Sun-Apr-11-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7UcKz",
@@ -238232,7 +238711,8 @@
         "start": "2026-10-09T17:00:00Z",
         "end": "2027-04-05T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294206/John-Mayer-tickets-Sun-Apr-11-2027-Sphere"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7uwkb",
@@ -238281,6 +238761,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294208",
+        "url": "https://www.ticketliquidator.com/tickets/8294208/John-Mayer-tickets-Thu-Apr-15-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7UWKB",
@@ -238297,7 +238784,8 @@
         "start": "2026-10-09T17:00:00Z",
         "end": "2027-04-09T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294208/John-Mayer-tickets-Thu-Apr-15-2027-Sphere"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mukw",
@@ -238346,6 +238834,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294209",
+        "url": "https://www.ticketliquidator.com/tickets/8294209/John-Mayer-tickets-Sat-Apr-17-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7MuKW",
@@ -238362,7 +238857,8 @@
         "start": "2026-10-09T17:00:00Z",
         "end": "2027-04-11T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294209/John-Mayer-tickets-Sat-Apr-17-2027-Sphere"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mukt",
@@ -238411,6 +238907,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294211",
+        "url": "https://www.ticketliquidator.com/tickets/8294211/John-Mayer-tickets-Sun-Apr-18-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7MuKT",
@@ -238427,7 +238930,8 @@
         "start": "2026-10-09T17:00:00Z",
         "end": "2027-04-12T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294211/John-Mayer-tickets-Sun-Apr-18-2027-Sphere"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_fp3g7i6pt",
@@ -238476,6 +238980,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8310915",
+        "url": "https://www.ticketliquidator.com/tickets/8310915/John-Mayer-tickets-Wed-Apr-28-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_fp3G7I6PT",
@@ -238492,7 +239003,8 @@
         "start": "2026-10-09T19:00:00Z",
         "end": "2027-04-22T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310915/John-Mayer-tickets-Wed-Apr-28-2027-Sphere"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_fp3g7w9n5",
@@ -238541,6 +239053,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8310917",
+        "url": "https://www.ticketliquidator.com/tickets/8310917/John-Mayer-tickets-Fri-Apr-30-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_fp3G7w9n5",
@@ -238557,7 +239076,8 @@
         "start": "2026-10-09T19:00:00Z",
         "end": "2027-04-24T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310917/John-Mayer-tickets-Fri-Apr-30-2027-Sphere"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_fp3g7dmck",
@@ -238606,6 +239126,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8310918",
+        "url": "https://www.ticketliquidator.com/tickets/8310918/John-Mayer-tickets-Sat-May-1-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_fp3G7DMck",
@@ -238622,7 +239149,8 @@
         "start": "2026-10-09T19:00:00Z",
         "end": "2027-04-25T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310918/John-Mayer-tickets-Sat-May-1-2027-Sphere"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mqfv",
@@ -238671,6 +239199,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8310919",
+        "url": "https://www.ticketliquidator.com/tickets/8310919/John-Mayer-tickets-Wed-May-5-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7Mqfv",
@@ -238687,7 +239222,8 @@
         "start": "2026-10-09T19:00:00Z",
         "end": "2027-04-29T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310919/John-Mayer-tickets-Wed-May-5-2027-Sphere"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mcfd",
@@ -238736,6 +239272,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8310920",
+        "url": "https://www.ticketliquidator.com/tickets/8310920/John-Mayer-tickets-Fri-May-7-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7Mcfd",
@@ -238752,7 +239295,8 @@
         "start": "2026-10-09T19:00:00Z",
         "end": "2027-05-01T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310920/John-Mayer-tickets-Fri-May-7-2027-Sphere"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mwfa",
@@ -238801,6 +239345,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8310921",
+        "url": "https://www.ticketliquidator.com/tickets/8310921/John-Mayer-tickets-Sat-May-8-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7MWfA",
@@ -238817,7 +239368,8 @@
         "start": "2026-10-09T19:00:00Z",
         "end": "2027-05-02T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310921/John-Mayer-tickets-Sat-May-8-2027-Sphere"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mwf6",
@@ -238866,6 +239418,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8311171",
+        "url": "https://www.ticketliquidator.com/tickets/8311171/John-Mayer-tickets-Wed-May-12-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7MWf6",
@@ -238882,7 +239441,8 @@
         "start": "2026-10-09T21:00:00Z",
         "end": "2027-05-06T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311171/John-Mayer-tickets-Wed-May-12-2027-Sphere"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zufa",
@@ -238931,6 +239491,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8311172",
+        "url": "https://www.ticketliquidator.com/tickets/8311172/John-Mayer-tickets-Fri-May-14-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7zufa",
@@ -238947,7 +239514,8 @@
         "start": "2026-10-09T21:00:00Z",
         "end": "2027-05-08T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311172/John-Mayer-tickets-Fri-May-14-2027-Sphere"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zqf5",
@@ -238996,6 +239564,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8311173",
+        "url": "https://www.ticketliquidator.com/tickets/8311173/John-Mayer-tickets-Sat-May-15-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7zqf5",
@@ -239012,7 +239587,8 @@
         "start": "2026-10-09T21:00:00Z",
         "end": "2027-05-09T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311173/John-Mayer-tickets-Sat-May-15-2027-Sphere"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zqfu",
@@ -239061,6 +239637,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8311174",
+        "url": "https://www.ticketliquidator.com/tickets/8311174/John-Mayer-tickets-Wed-Jun-2-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7zqfu",
@@ -239077,7 +239660,8 @@
         "start": "2026-10-09T21:00:00Z",
         "end": "2027-05-27T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311174/John-Mayer-tickets-Wed-Jun-2-2027-Sphere"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zcf2",
@@ -239126,6 +239710,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8311175",
+        "url": "https://www.ticketliquidator.com/tickets/8311175/John-Mayer-tickets-Fri-Jun-4-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7zcf2",
@@ -239142,7 +239733,8 @@
         "start": "2026-10-09T21:00:00Z",
         "end": "2027-05-29T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311175/John-Mayer-tickets-Fri-Jun-4-2027-Sphere"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zwf4",
@@ -239191,6 +239783,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8311176",
+        "url": "https://www.ticketliquidator.com/tickets/8311176/John-Mayer-tickets-Sat-Jun-5-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7zWf4",
@@ -239207,7 +239806,8 @@
         "start": "2026-10-09T21:00:00Z",
         "end": "2027-05-30T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311176/John-Mayer-tickets-Sat-Jun-5-2027-Sphere"
   },
   {
     "id": "tm-backstreet-boys-2026-las-vegas-17ayv0g62tqwir3",
@@ -239256,6 +239856,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8223803",
+        "url": "https://www.ticketliquidator.com/tickets/8223803/Backstreet-Boys-tickets-Sat-Dec-26-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62TQWIR3",
@@ -239267,7 +239874,8 @@
         "start": "2026-08-21T17:00:00Z",
         "end": "2026-12-20T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8223803/Backstreet-Boys-tickets-Sat-Dec-26-2026-Sphere"
   },
   {
     "id": "tm-backstreet-boys-2026-las-vegas-17ayv0g62tqtbry",
@@ -239316,6 +239924,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8223802",
+        "url": "https://www.ticketliquidator.com/tickets/8223802/Backstreet-Boys-tickets-Sun-Dec-27-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62TQTbRy",
@@ -239327,7 +239942,8 @@
         "start": "2026-08-21T17:00:00Z",
         "end": "2026-12-21T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8223802/Backstreet-Boys-tickets-Sun-Dec-27-2026-Sphere"
   },
   {
     "id": "tm-backstreet-boys-2027-las-vegas-17ayv0g62th2fwx",
@@ -239376,6 +239992,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8194445",
+        "url": "https://www.ticketliquidator.com/tickets/8194445/Backstreet-Boys-tickets-Thu-Dec-31-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62Th2Fwx",
@@ -239387,7 +240010,8 @@
         "start": "2026-08-21T17:00:00Z",
         "end": "2026-12-25T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194445/Backstreet-Boys-tickets-Thu-Dec-31-2026-Sphere"
   },
   {
     "id": "tm-backstreet-boys-2027-las-vegas-17ayv0g62thois9",
@@ -239436,6 +240060,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8194446",
+        "url": "https://www.ticketliquidator.com/tickets/8194446/Backstreet-Boys-tickets-Fri-Jan-1-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62ThoIS9",
@@ -239447,7 +240078,8 @@
         "start": "2026-08-21T17:00:00Z",
         "end": "2026-12-26T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194446/Backstreet-Boys-tickets-Fri-Jan-1-2027-Sphere"
   },
   {
     "id": "tm-backstreet-boys-2027-las-vegas-17ayv0g62th3iss",
@@ -239496,6 +240128,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8194447",
+        "url": "https://www.ticketliquidator.com/tickets/8194447/Backstreet-Boys-tickets-Sat-Jan-2-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62Th3ISS",
@@ -239507,7 +240146,8 @@
         "start": "2026-08-21T17:00:00Z",
         "end": "2026-12-27T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194447/Backstreet-Boys-tickets-Sat-Jan-2-2027-Sphere"
   },
   {
     "id": "tm-backstreet-boys-2027-toronto-1avzz_kgkz7jcq4",
@@ -240271,11 +240911,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284340",
+        "url": "https://www.ticketliquidator.com/tickets/8284340/Haiden-Henderson-tickets-Sat-May-15-2027-Troubadour",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeexF",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284340/Haiden-Henderson-tickets-Sat-May-15-2027-Troubadour"
   },
   {
     "id": "tm-hazlett-2027-glasgow-1auzkfggkeyhp7l",

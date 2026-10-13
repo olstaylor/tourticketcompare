@@ -139,11 +139,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107672176",
-        "url": "https://www.stubhub.ie/warren-zeiders-tickets-leeds-o2-academy-leeds-12-10-2026/event/107672176",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbUbYjRUs",
@@ -158,7 +158,7 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8086310",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-leeds-o2-academy-leeds-12-10-2026/event/107672176"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-warren-zeiders-2026-manchester-g5vhzbgtrzaec",

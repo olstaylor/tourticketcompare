@@ -3881,6 +3881,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672260",
+        "url": "https://www.stubhub.ie/nickelback-tickets-london-the-o2-arena-25-5-2027/event/107672260",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk46GkdJR1bv",
@@ -3903,7 +3910,8 @@
         "start": "2026-10-15T11:00:00Z",
         "end": "2026-10-16T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-london-the-o2-arena-25-5-2027/event/107672260"
   },
   {
     "id": "tm-nickelback-2027-birmingham-1kfyvp3_gagcomu",
@@ -3966,6 +3974,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672835",
+        "url": "https://www.stubhub.ie/nickelback-tickets-birmingham-utilita-arena-birmingham-28-5-2027/event/107672835",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kFYvP3_GAGcOMU",
@@ -3995,7 +4010,8 @@
         "start": "2026-10-15T11:00:00Z",
         "end": "2026-10-16T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-birmingham-utilita-arena-birmingham-28-5-2027/event/107672835"
   },
   {
     "id": "tm-nickelback-2027-dublin-1abzkfmgkepnjt6",
@@ -4150,6 +4166,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672836",
+        "url": "https://www.stubhub.ie/nickelback-tickets-glasgow-ovo-hydro-arena-glasgow-1-6-2027/event/107672836",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZk46GkeXEkqZ",
@@ -4189,7 +4212,8 @@
         "start": "2026-10-15T11:00:00Z",
         "end": "2026-10-16T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-glasgow-ovo-hydro-arena-glasgow-1-6-2027/event/107672836"
   },
   {
     "id": "tm-nickelback-2027-manchester-1amzk46gkdgpim1",
@@ -4252,6 +4276,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672261",
+        "url": "https://www.stubhub.ie/nickelback-tickets-manchester-co-op-live-2-6-2027/event/107672261",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk46GkdGpIM1",
@@ -4286,7 +4317,8 @@
         "start": "2026-10-15T11:00:00Z",
         "end": "2026-10-16T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-manchester-co-op-live-2-6-2027/event/107672261"
   },
   {
     "id": "tm-nickelback-2027-forest-brussels-z698xzg2z1kppuzf3",

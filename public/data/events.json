@@ -8984,11 +8984,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107165390",
-        "url": "https://www.stubhub.ie/olivia-rodrigo-chicago-tickets-10-12-2026/event/107165390",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/Chicago",
@@ -8997,7 +8997,7 @@
     "ticketmaster_discovery_event_id": "vv178Z_aGkMlEBGy",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921656",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-chicago-tickets-10-12-2026/event/107165390"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-olivia-rodrigo-2026-boston-vv177z_agksbtqpc",
@@ -35815,11 +35815,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "106972097",
+        "url": "https://www.stubhub.ie/doja-cat-san-francisco-tickets-10-19-2026/event/106972097",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7457622",
@@ -35833,7 +35833,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-san-francisco-tickets-10-19-2026/event/106972097",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457622/Doja-Cat-tickets-Sun-Oct-25-2026-Chase-Center",
     "presales": [
       {
@@ -186108,11 +186108,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107672176",
-        "url": "https://www.stubhub.ie/warren-zeiders-tickets-leeds-o2-academy-leeds-12-10-2026/event/107672176",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbUbYjRUs",
@@ -186127,7 +186127,7 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8086310",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-leeds-o2-academy-leeds-12-10-2026/event/107672176"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-warren-zeiders-2026-manchester-g5vhzbgtrzaec",
@@ -201503,6 +201503,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672260",
+        "url": "https://www.stubhub.ie/nickelback-tickets-london-the-o2-arena-25-5-2027/event/107672260",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk46GkdJR1bv",
@@ -201525,7 +201532,8 @@
         "start": "2026-10-15T11:00:00Z",
         "end": "2026-10-16T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-london-the-o2-arena-25-5-2027/event/107672260"
   },
   {
     "id": "tm-nickelback-2027-birmingham-1kfyvp3_gagcomu",
@@ -201588,6 +201596,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672835",
+        "url": "https://www.stubhub.ie/nickelback-tickets-birmingham-utilita-arena-birmingham-28-5-2027/event/107672835",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kFYvP3_GAGcOMU",
@@ -201617,7 +201632,8 @@
         "start": "2026-10-15T11:00:00Z",
         "end": "2026-10-16T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-birmingham-utilita-arena-birmingham-28-5-2027/event/107672835"
   },
   {
     "id": "tm-nickelback-2027-dublin-1abzkfmgkepnjt6",
@@ -201772,6 +201788,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672836",
+        "url": "https://www.stubhub.ie/nickelback-tickets-glasgow-ovo-hydro-arena-glasgow-1-6-2027/event/107672836",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZk46GkeXEkqZ",
@@ -201811,7 +201834,8 @@
         "start": "2026-10-15T11:00:00Z",
         "end": "2026-10-16T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-glasgow-ovo-hydro-arena-glasgow-1-6-2027/event/107672836"
   },
   {
     "id": "tm-nickelback-2027-manchester-1amzk46gkdgpim1",
@@ -201874,6 +201898,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672261",
+        "url": "https://www.stubhub.ie/nickelback-tickets-manchester-co-op-live-2-6-2027/event/107672261",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk46GkdGpIM1",
@@ -201908,7 +201939,8 @@
         "start": "2026-10-15T11:00:00Z",
         "end": "2026-10-16T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-manchester-co-op-live-2-6-2027/event/107672261"
   },
   {
     "id": "tm-nickelback-2027-forest-brussels-z698xzg2z1kppuzf3",
@@ -209066,6 +209098,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672844",
+        "url": "https://www.stubhub.ie/niall-horan-tickets-mexico-city-palacio-de-los-deportes-8-5-2027/event/107672844",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZkfEGkdPr1HQ",
@@ -209078,7 +209117,8 @@
         "start": "2026-10-13T17:00:00Z",
         "end": "2027-05-09T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-mexico-city-palacio-de-los-deportes-8-5-2027/event/107672844"
   },
   {
     "id": "tm-niall-horan-2027-tlajomulco-de-zuniga-g5dvz_31eksvx",
@@ -228370,11 +228410,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107669095",
-        "url": "https://www.stubhub.ie/steve-lacy-boston-tickets-10-12-2026/event/107669095",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfwGkdCQWFa",
@@ -228382,7 +228422,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8288767",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-boston-tickets-10-12-2026/event/107669095"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-steve-lacy-2026-boston-vvg17z_2dy9pyk",
@@ -234248,12 +234288,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670588",
+        "url": "https://www.stubhub.ie/slipknot-tickets-london-wembley-stadium-3-7-2027/event/107670588",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZkfgGkdhUZzD",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294333/Slipknot-tickets-Sat-Jul-3-2027-Wembley-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294333/Slipknot-tickets-Sat-Jul-3-2027-Wembley-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-tickets-london-wembley-stadium-3-7-2027/event/107670588"
   },
   {
     "id": "tm-slipknot-2027-washington-1a4zkfmgkdgza4s",
@@ -234309,6 +234357,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669315",
+        "url": "https://www.stubhub.ie/slipknot-washington-tickets-7-16-2027/event/107669315",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfMGkdGza4s",
@@ -234321,7 +234376,8 @@
         "end": "2027-07-10T02:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293109/Slipknot-tickets-Fri-Jul-16-2027-Nationals-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293109/Slipknot-tickets-Fri-Jul-16-2027-Nationals-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-washington-tickets-7-16-2027/event/107669315"
   },
   {
     "id": "tm-slipknot-2027-queens-g5vvz_kci8xei",
@@ -234437,6 +234493,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669317",
+        "url": "https://www.stubhub.ie/slipknot-tickets-montreal-parc-jean-drapeau-7-21-2027/event/107669317",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_3GklN01oc",
@@ -234449,7 +234512,8 @@
         "end": "2027-07-18T02:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293126/Slipknot-tickets-Wed-Jul-21-2027-Parc-Jean-Drapeau"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293126/Slipknot-tickets-Wed-Jul-21-2027-Parc-Jean-Drapeau",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-tickets-montreal-parc-jean-drapeau-7-21-2027/event/107669317"
   },
   {
     "id": "tm-slipknot-2027-toronto-1k7zvpczgauvkjd",
@@ -234570,6 +234634,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669318",
+        "url": "https://www.stubhub.ie/slipknot-chicago-tickets-7-25-2027/event/107669318",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv167ZkfMPFZA26Gu7",
@@ -234587,7 +234658,8 @@
         "end": "2027-07-22T02:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293111/Slipknot-tickets-Sun-Jul-25-2027-Soldier-Field"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293111/Slipknot-tickets-Sun-Jul-25-2027-Soldier-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-chicago-tickets-7-25-2027/event/107669318"
   },
   {
     "id": "tm-slipknot-2027-hershey-vv1aezkfzgkdcrpxj",
@@ -234643,6 +234715,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670828",
+        "url": "https://www.stubhub.ie/slipknot-hershey-tickets-7-28-2027/event/107670828",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfzGkdCrPxj",
@@ -234655,7 +234734,8 @@
         "end": "2027-07-25T02:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293112/Slipknot-tickets-Wed-Jul-28-2027-Hersheypark-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293112/Slipknot-tickets-Wed-Jul-28-2027-Hersheypark-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-hershey-tickets-7-28-2027/event/107670828"
   },
   {
     "id": "tm-slipknot-2027-boston-z7r9jz1aavzbi",
@@ -234711,12 +234791,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671319",
+        "url": "https://www.stubhub.ie/slipknot-boston-tickets-7-31-2027/event/107671319",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzbI",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293113/Slipknot-tickets-Sat-Jul-31-2027-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293113/Slipknot-tickets-Sat-Jul-31-2027-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-boston-tickets-7-31-2027/event/107671319"
   },
   {
     "id": "tm-slipknot-2027-nashville-z7r9jz1aaeazk",
@@ -234833,6 +234921,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671320",
+        "url": "https://www.stubhub.ie/slipknot-houston-tickets-8-6-2027/event/107671320",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_Kx0Z68q",
@@ -234845,7 +234940,8 @@
         "end": "2027-07-31T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293114/Slipknot-tickets-Fri-Aug-6-2027-Daikin-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293114/Slipknot-tickets-Fri-Aug-6-2027-Daikin-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-houston-tickets-8-6-2027/event/107671320"
   },
   {
     "id": "tm-slipknot-2027-commerce-city-g5vzz_kofjm9p",
@@ -234969,6 +235065,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671321",
+        "url": "https://www.stubhub.ie/slipknot-inglewood-tickets-8-13-2027/event/107671321",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_K9by2hW",
@@ -234981,7 +235084,8 @@
         "end": "2027-08-07T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293118/Slipknot-tickets-Fri-Aug-13-2027-SoFi-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293118/Slipknot-tickets-Fri-Aug-13-2027-SoFi-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-inglewood-tickets-8-13-2027/event/107671321"
   },
   {
     "id": "tm-slipknot-2027-san-francisco-g5vyz_khsbrlp",
@@ -235037,12 +235141,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671342",
+        "url": "https://www.stubhub.ie/slipknot-san-francisco-tickets-8-15-2027/event/107671342",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KhSbRlP",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293120/Slipknot-tickets-Sun-Aug-15-2027-Golden-Gate-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293120/Slipknot-tickets-Sun-Aug-15-2027-Golden-Gate-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-san-francisco-tickets-8-15-2027/event/107671342"
   },
   {
     "id": "tm-slipknot-2027-phoenix-1a_zkfggkdfoifq",
@@ -235098,6 +235210,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671322",
+        "url": "https://www.stubhub.ie/slipknot-phoenix-tickets-8-18-2027/event/107671322",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkfgGkdFOIFq",
@@ -235115,7 +235234,8 @@
         "end": "2027-08-15T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293122/Slipknot-tickets-Wed-Aug-18-2027-Chase-Field"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293122/Slipknot-tickets-Wed-Aug-18-2027-Chase-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-phoenix-tickets-8-18-2027/event/107671322"
   },
   {
     "id": "tm-noah-kahan-2026-glasgow-1adbz_fgkn7svza",
@@ -235171,12 +235291,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155374",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-glasgow-ovo-hydro-arena-glasgow-5-11-2026/event/107155374",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdbZ_FGkn7svza",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874793/Noah-Kahan-tickets-Thu-Nov-5-2026-OVO-Hydro"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874793/Noah-Kahan-tickets-Thu-Nov-5-2026-OVO-Hydro",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-glasgow-ovo-hydro-arena-glasgow-5-11-2026/event/107155374"
   },
   {
     "id": "tm-noah-kahan-2026-glasgow-1auzk3agkdn-buh",
@@ -235232,12 +235360,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155375",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-glasgow-ovo-hydro-arena-glasgow-6-11-2026/event/107155375",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZk3aGkdn-bUh",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874794/Noah-Kahan-tickets-Fri-Nov-6-2026-OVO-Hydro"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874794/Noah-Kahan-tickets-Fri-Nov-6-2026-OVO-Hydro",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-glasgow-ovo-hydro-arena-glasgow-6-11-2026/event/107155375"
   },
   {
     "id": "tm-noah-kahan-2026-manchester-g5vhz_gxilkd5",
@@ -235293,12 +235429,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155376",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-manchester-manchester-ao-arena-9-11-2026/event/107155376",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_GxiLkd5",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874795/Noah-Kahan-tickets-Mon-Nov-9-2026-AO-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874795/Noah-Kahan-tickets-Mon-Nov-9-2026-AO-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-manchester-manchester-ao-arena-9-11-2026/event/107155376"
   },
   {
     "id": "tm-noah-kahan-2026-manchester-g5vhz_gxiljdj",
@@ -235354,12 +235498,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155377",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-manchester-manchester-ao-arena-10-11-2026/event/107155377",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_GxiLJdJ",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874796/Noah-Kahan-tickets-Tue-Nov-10-2026-AO-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874796/Noah-Kahan-tickets-Tue-Nov-10-2026-AO-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-manchester-manchester-ao-arena-10-11-2026/event/107155377"
   },
   {
     "id": "tm-noah-kahan-2026-london-1ku8v0x_gag10y_",
@@ -235408,11 +235560,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107155378",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-london-the-o2-arena-13-11-2026/event/107155378",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ku8v0x_GAG10Y_",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-london-the-o2-arena-13-11-2026/event/107155378"
   },
   {
     "id": "tm-noah-kahan-2026-london-1ku8v0x_gag57yq",
@@ -235461,11 +235621,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107155379",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-london-the-o2-arena-14-11-2026/event/107155379",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ku8v0x_GAG57Yq",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-london-the-o2-arena-14-11-2026/event/107155379"
   },
   {
     "id": "tm-noah-kahan-2026-dublin-1avoz_fgkn52bxo",
@@ -235704,12 +235872,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107156345",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-munich-olympiahalle-munich-4-12-2026/event/107156345",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1k3Fveos",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877198/Noah-Kahan-tickets-Fri-Dec-4-2026-Kleine-Olympiahalle-Munich"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877198/Noah-Kahan-tickets-Fri-Dec-4-2026-Kleine-Olympiahalle-Munich",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-munich-olympiahalle-munich-4-12-2026/event/107156345"
   },
   {
     "id": "tm-noah-kahan-2027-glasgow-1adbz_8gkufqoce",
@@ -235924,12 +236100,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107499079",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-london-wembley-stadium-23-7-2027/event/107499079",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZkf3Gkd7-B4S",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8224894/Noah-Kahan-tickets-Fri-Jul-23-2027-Wembley-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8224894/Noah-Kahan-tickets-Fri-Jul-23-2027-Wembley-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-london-wembley-stadium-23-7-2027/event/107499079"
   },
   {
     "id": "tm-noah-kahan-2027-london-1anzkf4gkexwogg",
@@ -235985,12 +236169,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482950",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-london-wembley-stadium-24-7-2027/event/107482950",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZkf4GkeXwOgG",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8233856/Noah-Kahan-tickets-Sat-Jul-24-2027-Wembley-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8233856/Noah-Kahan-tickets-Sat-Jul-24-2027-Wembley-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-london-wembley-stadium-24-7-2027/event/107482950"
   },
   {
     "id": "tm-noah-kahan-2027-london-1anzkf4gkddlzu_",
@@ -236046,12 +236238,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666382",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-london-wembley-stadium-25-7-2027/event/107666382",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZkf4GkddLZU_",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244107/Noah-Kahan-tickets-Sun-Jul-25-2027-Wembley-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244107/Noah-Kahan-tickets-Sun-Jul-25-2027-Wembley-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-london-wembley-stadium-25-7-2027/event/107666382"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk37gkdxvozi",
@@ -236107,6 +236307,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162527",
+        "url": "https://www.stubhub.ie/eagles-las-vegas-tickets-11-13-2026/event/107162527",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk37GkdXVozi",
@@ -236119,7 +236326,8 @@
         "end": "2026-11-04T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930155/The-Eagles-tickets-Fri-Nov-13-2026-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930155/The-Eagles-tickets-Fri-Nov-13-2026-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/eagles-las-vegas-tickets-11-13-2026/event/107162527"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk37gkdxg-zv",
@@ -236175,6 +236383,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162528",
+        "url": "https://www.stubhub.ie/eagles-las-vegas-tickets-11-14-2026/event/107162528",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk37GkdXg-zV",
@@ -236187,7 +236402,8 @@
         "end": "2026-11-05T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930156/The-Eagles-tickets-Sat-Nov-14-2026-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930156/The-Eagles-tickets-Sat-Nov-14-2026-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/eagles-las-vegas-tickets-11-14-2026/event/107162528"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk37gkdxusyv",
@@ -236243,6 +236459,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162529",
+        "url": "https://www.stubhub.ie/eagles-las-vegas-tickets-11-27-2026/event/107162529",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk37GkdXUsyv",
@@ -236255,7 +236478,8 @@
         "end": "2026-11-18T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930157/The-Eagles-tickets-Fri-Nov-27-2026-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930157/The-Eagles-tickets-Fri-Nov-27-2026-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/eagles-las-vegas-tickets-11-27-2026/event/107162529"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk37gkdxzvy5",
@@ -236311,6 +236535,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162530",
+        "url": "https://www.stubhub.ie/eagles-las-vegas-tickets-11-28-2026/event/107162530",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk37GkdXzvy5",
@@ -236323,7 +236554,8 @@
         "end": "2026-11-19T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930158/The-Eagles-tickets-Sat-Nov-28-2026-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930158/The-Eagles-tickets-Sat-Nov-28-2026-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/eagles-las-vegas-tickets-11-28-2026/event/107162530"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk3dgkdpxlsb",
@@ -236379,6 +236611,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107449339",
+        "url": "https://www.stubhub.ie/eagles-las-vegas-tickets-12-4-2026/event/107449339",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXLsb",
@@ -236391,7 +236630,8 @@
         "end": "2026-11-25T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113664/The-Eagles-tickets-Fri-Dec-4-2026-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113664/The-Eagles-tickets-Fri-Dec-4-2026-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/eagles-las-vegas-tickets-12-4-2026/event/107449339"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk3dgkdpxrsr",
@@ -236447,6 +236687,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107450172",
+        "url": "https://www.stubhub.ie/eagles-las-vegas-tickets-12-5-2026/event/107450172",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXRsr",
@@ -236459,7 +236706,8 @@
         "end": "2026-11-26T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113665/The-Eagles-tickets-Sat-Dec-5-2026-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113665/The-Eagles-tickets-Sat-Dec-5-2026-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/eagles-las-vegas-tickets-12-5-2026/event/107450172"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk3dgkdpxrso",
@@ -236515,6 +236763,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107450173",
+        "url": "https://www.stubhub.ie/eagles-las-vegas-tickets-12-11-2026/event/107450173",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXRsO",
@@ -236527,7 +236782,8 @@
         "end": "2026-12-02T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113666/The-Eagles-tickets-Fri-Dec-11-2026-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113666/The-Eagles-tickets-Fri-Dec-11-2026-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/eagles-las-vegas-tickets-12-11-2026/event/107450173"
   },
   {
     "id": "tm-eagles-2026-las-vegas-1a9zk3dgkdbgzr6",
@@ -236583,6 +236839,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107449340",
+        "url": "https://www.stubhub.ie/eagles-las-vegas-tickets-12-12-2026/event/107449340",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdbGZR6",
@@ -236595,7 +236858,8 @@
         "end": "2026-12-03T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113667/The-Eagles-tickets-Sat-Dec-12-2026-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113667/The-Eagles-tickets-Sat-Dec-12-2026-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/eagles-las-vegas-tickets-12-12-2026/event/107449340"
   },
   {
     "id": "tm-eagles-2027-las-vegas-1a9zk3dgkdpxrs0",
@@ -236651,6 +236915,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107469467",
+        "url": "https://www.stubhub.ie/eagles-las-vegas-tickets-1-15-2027/event/107469467",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXRs0",
@@ -236663,7 +236934,8 @@
         "end": "2027-01-06T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180169/The-Eagles-tickets-Fri-Jan-15-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180169/The-Eagles-tickets-Fri-Jan-15-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/eagles-las-vegas-tickets-1-15-2027/event/107469467"
   },
   {
     "id": "tm-eagles-2027-las-vegas-1a9zk3dgkdpxtsj",
@@ -236719,6 +236991,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107472163",
+        "url": "https://www.stubhub.ie/eagles-las-vegas-tickets-1-16-2027/event/107472163",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXTsJ",
@@ -236731,7 +237010,8 @@
         "end": "2027-01-07T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180170/The-Eagles-tickets-Sat-Jan-16-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180170/The-Eagles-tickets-Sat-Jan-16-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/eagles-las-vegas-tickets-1-16-2027/event/107472163"
   },
   {
     "id": "tm-eagles-2027-las-vegas-1a9zk3dgkdpxtsi",
@@ -236787,6 +237067,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107469468",
+        "url": "https://www.stubhub.ie/eagles-las-vegas-tickets-1-22-2027/event/107469468",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXTsi",
@@ -236799,7 +237086,8 @@
         "end": "2027-01-13T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180171/The-Eagles-tickets-Fri-Jan-22-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180171/The-Eagles-tickets-Fri-Jan-22-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/eagles-las-vegas-tickets-1-22-2027/event/107469468"
   },
   {
     "id": "tm-eagles-2027-las-vegas-1a9zk3dgkdpt2sm",
@@ -236855,6 +237143,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107472164",
+        "url": "https://www.stubhub.ie/eagles-las-vegas-tickets-1-23-2027/event/107472164",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdpT2sm",
@@ -236867,7 +237162,8 @@
         "end": "2027-01-14T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180172/The-Eagles-tickets-Sat-Jan-23-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180172/The-Eagles-tickets-Sat-Jan-23-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/eagles-las-vegas-tickets-1-23-2027/event/107472164"
   },
   {
     "id": "tm-journey-2026-biloxi-g5viz_19l6he3",
@@ -237044,12 +237340,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107169157",
+        "url": "https://www.stubhub.ie/journey-sunrise-tickets-10-16-2026/event/107169157",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_73",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956850/Journey-tickets-Fri-Oct-16-2026-Amerant-Bank-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956850/Journey-tickets-Fri-Oct-16-2026-Amerant-Bank-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/journey-sunrise-tickets-10-16-2026/event/107169157"
   },
   {
     "id": "tm-journey-2026-orlando-17fov0g613pzs04",
@@ -237105,6 +237409,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107169156",
+        "url": "https://www.stubhub.ie/journey-orlando-tickets-10-17-2026/event/107169156",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G613PzS04",
@@ -237117,7 +237428,8 @@
         "end": "2026-10-17T20:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956772/Journey-tickets-Sat-Oct-17-2026-Kia-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956772/Journey-tickets-Sat-Oct-17-2026-Kia-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/journey-orlando-tickets-10-17-2026/event/107169156"
   },
   {
     "id": "tm-journey-2026-atlanta-vvg1zz_1p_clel",
@@ -237173,12 +237485,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107169153",
+        "url": "https://www.stubhub.ie/journey-atlanta-tickets-10-19-2026/event/107169153",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_1p_clEl",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956773/Journey-tickets-Mon-Oct-19-2026-State-Farm-Arena-GA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956773/Journey-tickets-Mon-Oct-19-2026-State-Farm-Arena-GA",
+    "stubhub_international_url": "https://www.stubhub.ie/journey-atlanta-tickets-10-19-2026/event/107169153"
   },
   {
     "id": "tm-journey-2026-nashville-g5viz_141b_9f",
@@ -237424,12 +237744,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107170302",
+        "url": "https://www.stubhub.ie/journey-newark-tickets-10-25-2026/event/107170302",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_197DNKR",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956776/Journey-tickets-Sun-Oct-25-2026-Prudential-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956776/Journey-tickets-Sun-Oct-25-2026-Prudential-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/journey-newark-tickets-10-25-2026/event/107170302"
   },
   {
     "id": "tm-journey-2026-philadelphia-17gzv0g61p0-ppk",
@@ -237485,6 +237813,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107169150",
+        "url": "https://www.stubhub.ie/journey-philadelphia-tickets-10-28-2026/event/107169150",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G61p0-pPK",
@@ -237502,7 +237837,8 @@
         "end": "2026-10-18T02:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956777/Journey-tickets-Wed-Oct-28-2026-Xfinity-Mobile-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956777/Journey-tickets-Wed-Oct-28-2026-Xfinity-Mobile-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/journey-philadelphia-tickets-10-28-2026/event/107169150"
   },
   {
     "id": "tm-journey-2026-providence-vvg17z_1fuwpyc",
@@ -237619,6 +237955,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107170300",
+        "url": "https://www.stubhub.ie/journey-detroit-tickets-11-2-2026/event/107170300",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_13SlnGw",
@@ -237631,7 +237974,8 @@
         "end": "2026-11-02T21:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956779/Journey-tickets-Mon-Nov-2-2026-Little-Caesars-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956779/Journey-tickets-Mon-Nov-2-2026-Little-Caesars-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/journey-detroit-tickets-11-2-2026/event/107170300"
   },
   {
     "id": "tm-journey-2026-toronto-177zv0g6110gajo",
@@ -237873,6 +238217,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107169149",
+        "url": "https://www.stubhub.ie/journey-boston-tickets-11-10-2026/event/107169149",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_19IPaDt",
@@ -237890,7 +238241,8 @@
         "end": "2026-11-10T21:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956781/Journey-tickets-Tue-Nov-10-2026-TD-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956781/Journey-tickets-Tue-Nov-10-2026-TD-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/journey-boston-tickets-11-10-2026/event/107169149"
   },
   {
     "id": "tm-journey-2026-cleveland-z7r9jz1a70_7k",
@@ -238196,6 +238548,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107170294",
+        "url": "https://www.stubhub.ie/journey-dallas-tickets-11-20-2026/event/107170294",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_14W7VrN",
@@ -238213,7 +238572,8 @@
         "end": "2026-10-30T22:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956784/Journey-tickets-Fri-Nov-20-2026-American-Airlines-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956784/Journey-tickets-Fri-Nov-20-2026-American-Airlines-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/journey-dallas-tickets-11-20-2026/event/107170294"
   },
   {
     "id": "tm-journey-2026-denver-g5vzz_1kxjfbe",
@@ -238342,6 +238702,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107625088",
+        "url": "https://www.stubhub.ie/journey-anaheim-tickets-11-24-2026/event/107625088",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1Q4chn3",
@@ -238364,7 +238731,8 @@
         "end": "2026-11-25T00:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956786/Journey-tickets-Tue-Nov-24-2026-Honda-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956786/Journey-tickets-Tue-Nov-24-2026-Honda-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/journey-anaheim-tickets-11-24-2026/event/107625088"
   },
   {
     "id": "tm-journey-2026-las-vegas-z7r9jz1a70_7f",
@@ -238420,12 +238788,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107170293",
+        "url": "https://www.stubhub.ie/journey-las-vegas-tickets-11-27-2026/event/107170293",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_7f",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956855/Journey-tickets-Fri-Nov-27-2026-MGM-Grand-Garden-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956855/Journey-tickets-Fri-Nov-27-2026-MGM-Grand-Garden-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/journey-las-vegas-tickets-11-27-2026/event/107170293"
   },
   {
     "id": "tm-journey-2026-san-francisco-g5vyz_aeock9c",
@@ -238481,6 +238857,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107169142",
+        "url": "https://www.stubhub.ie/journey-san-francisco-tickets-11-28-2026/event/107169142",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_aEOcK9c",
@@ -238493,7 +238876,8 @@
         "end": "2026-11-08T01:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956787/Journey-tickets-Sat-Nov-28-2026-Chase-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956787/Journey-tickets-Sat-Nov-28-2026-Chase-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/journey-san-francisco-tickets-11-28-2026/event/107169142"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-11ayvpu8jkxpvc",
@@ -238549,6 +238933,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670707",
+        "url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-8-2027/event/107670707",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "11AYvPu8JKxpvC",
@@ -238566,7 +238957,8 @@
         "end": "2027-04-02T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294204/John-Mayer-tickets-Thu-Apr-8-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294204/John-Mayer-tickets-Thu-Apr-8-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-8-2027/event/107670707"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7ucku",
@@ -238622,6 +239014,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670708",
+        "url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-10-2027/event/107670708",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7UcKU",
@@ -238639,7 +239038,8 @@
         "end": "2027-04-04T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294205/John-Mayer-tickets-Sat-Apr-10-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294205/John-Mayer-tickets-Sat-Apr-10-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-10-2027/event/107670708"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7uckz",
@@ -238695,6 +239095,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670709",
+        "url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-11-2027/event/107670709",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7UcKz",
@@ -238712,7 +239119,8 @@
         "end": "2027-04-05T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294206/John-Mayer-tickets-Sun-Apr-11-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294206/John-Mayer-tickets-Sun-Apr-11-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-11-2027/event/107670709"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7uwkb",
@@ -238768,6 +239176,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670710",
+        "url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-15-2027/event/107670710",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7UWKB",
@@ -238785,7 +239200,8 @@
         "end": "2027-04-09T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294208/John-Mayer-tickets-Thu-Apr-15-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294208/John-Mayer-tickets-Thu-Apr-15-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-15-2027/event/107670710"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mukw",
@@ -238841,6 +239257,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670714",
+        "url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-17-2027/event/107670714",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7MuKW",
@@ -238858,7 +239281,8 @@
         "end": "2027-04-11T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294209/John-Mayer-tickets-Sat-Apr-17-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294209/John-Mayer-tickets-Sat-Apr-17-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-17-2027/event/107670714"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mukt",
@@ -238914,6 +239338,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670715",
+        "url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-18-2027/event/107670715",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7MuKT",
@@ -238931,7 +239362,8 @@
         "end": "2027-04-12T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294211/John-Mayer-tickets-Sun-Apr-18-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294211/John-Mayer-tickets-Sun-Apr-18-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-18-2027/event/107670715"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_fp3g7i6pt",
@@ -238987,6 +239419,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672216",
+        "url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-28-2027/event/107672216",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_fp3G7I6PT",
@@ -239004,7 +239443,8 @@
         "end": "2027-04-22T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310915/John-Mayer-tickets-Wed-Apr-28-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310915/John-Mayer-tickets-Wed-Apr-28-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-28-2027/event/107672216"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_fp3g7w9n5",
@@ -239060,6 +239500,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672217",
+        "url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-30-2027/event/107672217",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_fp3G7w9n5",
@@ -239077,7 +239524,8 @@
         "end": "2027-04-24T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310917/John-Mayer-tickets-Fri-Apr-30-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310917/John-Mayer-tickets-Fri-Apr-30-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-30-2027/event/107672217"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_fp3g7dmck",
@@ -239133,6 +239581,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672790",
+        "url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-1-2027/event/107672790",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_fp3G7DMck",
@@ -239150,7 +239605,8 @@
         "end": "2027-04-25T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310918/John-Mayer-tickets-Sat-May-1-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310918/John-Mayer-tickets-Sat-May-1-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-1-2027/event/107672790"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mqfv",
@@ -239206,6 +239662,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672218",
+        "url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-5-2027/event/107672218",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7Mqfv",
@@ -239223,7 +239686,8 @@
         "end": "2027-04-29T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310919/John-Mayer-tickets-Wed-May-5-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310919/John-Mayer-tickets-Wed-May-5-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-5-2027/event/107672218"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mcfd",
@@ -239279,6 +239743,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672792",
+        "url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-7-2027/event/107672792",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7Mcfd",
@@ -239296,7 +239767,8 @@
         "end": "2027-05-01T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310920/John-Mayer-tickets-Fri-May-7-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310920/John-Mayer-tickets-Fri-May-7-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-7-2027/event/107672792"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mwfa",
@@ -239352,6 +239824,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672219",
+        "url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-8-2027/event/107672219",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7MWfA",
@@ -239369,7 +239848,8 @@
         "end": "2027-05-02T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310921/John-Mayer-tickets-Sat-May-8-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310921/John-Mayer-tickets-Sat-May-8-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-8-2027/event/107672219"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mwf6",
@@ -239425,6 +239905,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672220",
+        "url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-12-2027/event/107672220",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7MWf6",
@@ -239442,7 +239929,8 @@
         "end": "2027-05-06T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311171/John-Mayer-tickets-Wed-May-12-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311171/John-Mayer-tickets-Wed-May-12-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-12-2027/event/107672220"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zufa",
@@ -239498,6 +239986,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672221",
+        "url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-14-2027/event/107672221",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7zufa",
@@ -239515,7 +240010,8 @@
         "end": "2027-05-08T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311172/John-Mayer-tickets-Fri-May-14-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311172/John-Mayer-tickets-Fri-May-14-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-14-2027/event/107672221"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zqf5",
@@ -239571,6 +240067,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672222",
+        "url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-15-2027/event/107672222",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7zqf5",
@@ -239588,7 +240091,8 @@
         "end": "2027-05-09T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311173/John-Mayer-tickets-Sat-May-15-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311173/John-Mayer-tickets-Sat-May-15-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-15-2027/event/107672222"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zqfu",
@@ -239644,6 +240148,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672793",
+        "url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-2-2027/event/107672793",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7zqfu",
@@ -239661,7 +240172,8 @@
         "end": "2027-05-27T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311174/John-Mayer-tickets-Wed-Jun-2-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311174/John-Mayer-tickets-Wed-Jun-2-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-2-2027/event/107672793"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zcf2",
@@ -239717,6 +240229,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672224",
+        "url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-4-2027/event/107672224",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7zcf2",
@@ -239734,7 +240253,8 @@
         "end": "2027-05-29T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311175/John-Mayer-tickets-Fri-Jun-4-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311175/John-Mayer-tickets-Fri-Jun-4-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-4-2027/event/107672224"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zwf4",
@@ -239790,6 +240310,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672794",
+        "url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-5-2027/event/107672794",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7zWf4",
@@ -239807,7 +240334,8 @@
         "end": "2027-05-30T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311176/John-Mayer-tickets-Sat-Jun-5-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311176/John-Mayer-tickets-Sat-Jun-5-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-5-2027/event/107672794"
   },
   {
     "id": "tm-backstreet-boys-2026-las-vegas-17ayv0g62tqwir3",
@@ -239863,6 +240391,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107524102",
+        "url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-26-2026/event/107524102",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62TQWIR3",
@@ -239875,7 +240410,8 @@
         "end": "2026-12-20T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8223803/Backstreet-Boys-tickets-Sat-Dec-26-2026-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8223803/Backstreet-Boys-tickets-Sat-Dec-26-2026-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-26-2026/event/107524102"
   },
   {
     "id": "tm-backstreet-boys-2026-las-vegas-17ayv0g62tqtbry",
@@ -239931,6 +240467,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107524103",
+        "url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-27-2026/event/107524103",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62TQTbRy",
@@ -239943,7 +240486,8 @@
         "end": "2026-12-21T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8223802/Backstreet-Boys-tickets-Sun-Dec-27-2026-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8223802/Backstreet-Boys-tickets-Sun-Dec-27-2026-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-27-2026/event/107524103"
   },
   {
     "id": "tm-backstreet-boys-2027-las-vegas-17ayv0g62th2fwx",
@@ -239999,6 +240543,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107484115",
+        "url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-31-2026/event/107484115",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62Th2Fwx",
@@ -240011,7 +240562,8 @@
         "end": "2026-12-25T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194445/Backstreet-Boys-tickets-Thu-Dec-31-2026-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194445/Backstreet-Boys-tickets-Thu-Dec-31-2026-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-31-2026/event/107484115"
   },
   {
     "id": "tm-backstreet-boys-2027-las-vegas-17ayv0g62thois9",
@@ -240067,6 +240619,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107484116",
+        "url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-1-1-2027/event/107484116",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62ThoIS9",
@@ -240079,7 +240638,8 @@
         "end": "2026-12-26T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194446/Backstreet-Boys-tickets-Fri-Jan-1-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194446/Backstreet-Boys-tickets-Fri-Jan-1-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-1-1-2027/event/107484116"
   },
   {
     "id": "tm-backstreet-boys-2027-las-vegas-17ayv0g62th3iss",
@@ -240135,6 +240695,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107484117",
+        "url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-1-2-2027/event/107484117",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62Th3ISS",
@@ -240147,7 +240714,8 @@
         "end": "2026-12-27T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194447/Backstreet-Boys-tickets-Sat-Jan-2-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194447/Backstreet-Boys-tickets-Sat-Jan-2-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-1-2-2027/event/107484117"
   },
   {
     "id": "tm-backstreet-boys-2027-toronto-1avzz_kgkz7jcq4",

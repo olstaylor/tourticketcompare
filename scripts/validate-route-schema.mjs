@@ -34,6 +34,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { hasSchemaProperty } from "./lib/schema-properties.mjs";
+import { eventLifecycleHeld } from "../functions/_route-indexability.js";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const failures = [];
@@ -121,6 +122,9 @@ function types(graph) {
 // functions/api/out.js) so this check fails if the schema builder ever drifts
 // from it.
 function eventPublishable(event) {
+  // Parent boards withhold every lifecycle hold, even with verified URLs.
+  // Held event pages have their own factual cancelled/postponed schema gate.
+  if (eventLifecycleHeld(event)) return false;
   // Mirrors the router: a date not yet on public sale gets no MusicEvent node.
   const onsaleAt = Date.parse(String(event?.public_onsale_at || ""));
   if (Number.isFinite(onsaleAt) && onsaleAt > Date.now()) return false;
@@ -134,9 +138,9 @@ const events = JSON.parse(await fs.readFile(path.join(root, "public/data/events.
 // The publishable schema board for an artist: the events whose MusicEvent
 // nodes the page emits. Shared by the count check and the schema-offers
 // scenario candidate picker.
-function schemaBoardEvents(artistSlug) {
+function schemaBoardEvents(artistSlug, sourceEvents = events) {
   const now = Date.now();
-  return events
+  return sourceEvents
     .filter((event) => event?.artist_slug === artistSlug)
     .filter((event) => {
       const iso = String(event?.dateTimeISO || event?.datetime_iso || "").trim();
@@ -999,6 +1003,7 @@ function expectedMusicEventCount(artistSlug) {
     const SCHEDULED = fixture("schema-fixture-scheduled", at(30));
     const RESCHEDULED = fixture("schema-fixture-rescheduled", at(31), { ticketmaster_status_code: "rescheduled" });
     const CANCELLED = fixture("schema-fixture-cancelled", at(32), { ticketmaster_status_code: "cancelled" });
+    const CANCELED = fixture("schema-fixture-canceled", at(32), { ticketmaster_status_code: " CANCELED " });
     const POSTPONED = fixture("schema-fixture-postponed", at(33), { ticketmaster_status_code: "postponed" });
     const UNRECOGNISED = fixture("schema-fixture-unrecognised", at(34), { ticketmaster_status_code: "paused" });
     const PRE_ONSALE = fixture("schema-fixture-pre-onsale", at(35), { status: "announced", public_onsale_at: new Date(Date.now() + 5 * day).toISOString() }, { vivid: false });
@@ -1055,7 +1060,21 @@ function expectedMusicEventCount(artistSlug) {
         }
       };
     }
-    const fenv = fixtureEnv(FIXTURES);
+    const boardFixtures = [...FIXTURES, CANCELED];
+    const fenv = fixtureEnv(boardFixtures);
+    const boardPath = `/artists/${artist.slug}`;
+    const boardHtml = await (await render(boardPath, "tourticketcompare.com", fenv)).text();
+    const boardGraph = extractGraph(boardHtml, boardPath) || [];
+    const expectedBoard = schemaBoardEvents(artist.slug, boardFixtures);
+    const boardNodes = boardGraph.filter((node) => node["@type"] === "MusicEvent");
+    const heldIds = [CANCELLED, CANCELED, POSTPONED, UNRECOGNISED, HELD_ELSEWHERE].map((event) => event.id);
+    if (heldIds.some((id) => expectedBoard.some((event) => event.id === id))
+      || boardNodes.length !== expectedBoard.length
+      || heldIds.some((id) => boardNodes.some((node) => String(node.url).endsWith(`#show-${id}`)))) {
+      fail("parent board fixture: lifecycle holds must be absent from both expected and rendered MusicEvent nodes");
+    } else {
+      ok("parent board fixture: cancelled spellings, postponed and unknown statuses are withheld; scheduled and rescheduled dates retain their schema");
+    }
     const check = (event, label) => checkEventPage(event, artistName, fenv, `event fixture ${label}`);
     const jsonLdIn = (html) => /application\/ld\+json/.test(html);
 

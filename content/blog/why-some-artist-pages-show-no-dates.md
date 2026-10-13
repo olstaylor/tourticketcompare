@@ -1,10 +1,10 @@
 ---
 title: Why some artist pages here show no dates
 seo_title: Why some artist pages show no dates
-description: An artist page with no upcoming shows is usually a finished tour, not a data gap. Here is what an empty board means and what the page does instead.
-summary: At any moment a good share of the artist pages here have no upcoming dates. That is the calendar working correctly rather than a broken page, and the page changes what it offers when it happens.
+description: An artist page with no upcoming shows usually means the tour has finished. Here's what an empty page means and what it offers instead.
+summary: At any time, plenty of artist pages here have no upcoming dates. That's usually just a finished tour, and the page changes what it offers when it happens.
 date: 2026-08-01
-updated: 2026-09-24
+updated: 2026-10-11
 status: published
 tags:
   - how-we-work
@@ -14,34 +14,34 @@ related_guides:
   - when-is-the-best-time-to-buy-concert-tickets
 ---
 
-If you land on an artist page here and find no tour dates, the most likely explanation is the boring one: the tour finished and the last tracked date has passed. The page does not hide that or pad itself out to look busier. It says so, and then it changes what it offers you.
+If you land on an artist page here and there are no tour dates, the most likely reason is the boring one: the tour has finished and the last date has passed. The page doesn't hide that or pad itself out. It says so, and then it gives you something else to do.
 
-## An empty board is a state, not an error
+## An empty page isn't a broken page
 
-Every artist page is built from its event records. When the final upcoming date passes, those records don't disappear. They stop being upcoming, and the board empties. Nothing is deleted and nothing is invented to fill the space.
+Each artist page is built from that artist's show dates. When the last upcoming date passes, it isn't deleted. It just stops being upcoming, and the list empties. Nothing is removed and nothing is made up to fill the gap.
 
-What changes is what the page claims. The heading drops its promise of tour dates, the description search engines see changes to one that matches a page with none, and the board is replaced by a plain statement that there are no verified upcoming dates on file and no way to say yet whether more are coming. The recently passed dates stay listed underneath for reference, clearly labelled as gone.
+What changes is what the page says. The heading stops promising tour dates, the summary shown in search changes to match, and the dates are replaced by a plain note: there are no confirmed upcoming dates yet, and no way to know yet whether more are coming. The dates that just passed stay underneath for reference, clearly marked as over.
 
-The page itself stays in the index and in the sitemap. (An artist that has never had a date listed here is the exception: its page is kept out of search until the first date lands.) Keeping it is deliberate: the URL is a durable destination, it fills again the moment a new verified date lands, and cycling a page in and out of the index every time a tour ends would be worse for everyone than keeping one honest page at a stable address.
+The page itself stays up and stays in search, so it's there the moment new dates are announced. (The one exception is an artist who has never had a date on the site: their page stays out of search until their first date arrives.) One honest page at the same address beats a page that keeps vanishing and coming back.
 
-## The date buttons go too
+## The ticket buttons go too
 
-When the board is empty there are no date cards, so there are no per-date ticket buttons either. The most the page offers is one plainly labelled link to the artist's own page on a ticket site ("See the artist on SeatGeek", for example), where one has been checked. It goes to the artist, not to a show, and it doesn't pretend to be a date. The per-date buttons come back with the dates.
+With no dates, there are no date cards, so there are no buttons for individual shows. At most, the page offers one clearly labelled link to the artist's page on a ticket site ("See the artist on SeatGeek", for example), if that link has been checked. It goes to the artist, not a show, and it doesn't pretend to be a date. The show buttons come back with the dates.
 
-Around it you get the empty state, the recent dates for context, and a form to leave your email so you can be told once confirmed dates are listed for that artist.
+Next to it you'll find the recent dates and a form to leave your email, so you hear as soon as confirmed dates go up for that artist.
 
-## The listings stop promising too
+## Artist lists don't oversell it either
 
-It is not enough for the page to be honest if every link pointing at it implies otherwise. So the artist listings across the site run the same test the page does. An artist with no upcoming dates is badged "No dates currently listed", its card offers a date alert rather than a ticket link, and it sorts into a second group below the artists that do have shows.
+An honest page isn't much use if every link to it suggests otherwise. So the artist lists across the site follow the same rule. An artist with no upcoming dates is marked "No dates currently listed", offers a date alert instead of a ticket link, and sits in a second group below the artists who do have shows.
 
-Those links stay followable, because the pages are still real and still useful. They just stop occupying the prominent slots. The intent is that you never click through from a grid of tour dates to a page that has none.
+You can still click through, because the page is still useful. It just doesn't take up a spot meant for artists with shows. You should never click from a list of tour dates to a page that has none.
 
-## What an empty board is not evidence of
+## What an empty page doesn't mean
 
-It doesn't mean the artist has no tour. It means this site has no date on file for one. Coverage here is selective and built artist by artist. Dates arrive from Ticketmaster's listings through a daily check, and each ticket button goes up only once its destination has passed its own checks. If you know a date is missing, the [contact page](/contact) is the fastest way to flag it.
+It doesn't mean the artist has no tour. It means this site doesn't have a date for them yet. The site covers artists one by one, dates come in from Ticketmaster's listings through a daily check, and each ticket button only goes up once its link has been checked. If you know a date is missing, the [contact page](/contact) is the quickest way to flag it.
 
-Nor is it a comment on the artist. Empty boards cluster in the gap between one tour ending and the next being announced, which is simply where most acts spend a good part of any year.
+It isn't a comment on the artist either. Empty pages mostly show up between one tour ending and the next being announced, which is where most acts spend a good chunk of any year.
 
-## If you are waiting on an onsale
+## If you're waiting for tickets to go on sale
 
-That gap is also where ticket scams cluster, because there is demand and nothing legitimate to buy yet. Two things worth reading in that window: [how to prepare for an onsale](/guides/how-to-prepare-for-a-ticket-onsale), and [how to spot fake listings](/guides/how-to-avoid-ticket-scams) before the real dates arrive.
+That gap is also when ticket scams spike, because people want tickets and there's nothing real to buy yet. Two things worth reading while you wait: [how to prepare for an on-sale](/guides/how-to-prepare-for-a-ticket-onsale), and [how to spot fake listings](/guides/how-to-avoid-ticket-scams) before the real dates arrive.

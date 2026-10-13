@@ -96,6 +96,6 @@ assert(html.includes("Just went on sale"), "the recent window renders when it ha
 assert(!/cheapest|lowest price|sold out|selling fast/i.test(html), "the page makes no banned price or availability claim");
 
 const empty = renderOnsaleCalendarBody({ path: "/on-sale", calendar: deriveOnsaleCalendar([]), breadcrumb: [] });
-assert(empty.includes("No tracked date has a public on-sale") && !empty.includes("Just went on sale"), "an empty calendar renders a short empty state");
+assert(empty.includes("Nothing here goes on general sale") && !empty.includes("Just went on sale"), "an empty calendar renders a short empty state");
 
 console.log(`onsale-calendar: ${passed} assertions passed.`);

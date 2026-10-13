@@ -166,6 +166,55 @@ Page-backed restatement (Sep 2026 to 9 Oct 2026, raw vs page-backed redirects):
 | 29 Sep-5 Oct | 5,577 | 134 | 93 | 359 |
 | 6-9 Oct (to 16:00 UTC) | 3,024 | 202 | 113 | 327 |
 
+## Ranking existing pages by commercial opportunity
+
+Use the existing commercial-funnel and affiliate-performance reports together.
+Raw redirects, page-backed redirects and client intent are separate signals;
+none establishes a human visitor or a booking conversion denominator. The plan
+scoreboard now labels its receipt series as page-backed redirects and withholds
+visitor click rates, matching this contract. Its stored plan targets remain
+unchanged. The show-priority report is an owner-approved planning model using
+assumed order rates, basket sizes and some commission rates. Its estimated
+pounds are not earned commission or a measured page-profit ranking.
+
+The minimum owner inputs for a defensible review are:
+
+- **Search Console performance:** one completed 28-day window for the Domain
+  property `tourticketcompare.com`, Search type Web, with the exact start/end
+  dates and every country, device and search-appearance filter recorded. Export
+  **query × canonical page** rows with clicks, impressions, CTR and average
+  position (Search Console API dimensions `query`, `page` if the UI export
+  separates those tables). Also export page totals for that window; anonymised
+  queries and row limits mean query rows may not sum to page totals. Retain the
+  reporting timezone; do not equate GSC dates with UTC receipt days silently.
+- **Search Console indexing:** the Page Indexing export, including reason and
+  affected example URLs, and sitemap submission/last-read status. For shortlisted
+  pages, supply URL Inspection indexing status and Google-selected canonical
+  where it differs from the site's canonical. Example exports are samples, not
+  complete indexing inventories.
+- **Existing TTC reports:** read-only JSON from `report:commercial-funnel` and
+  `report:affiliate-performance` for that same stated window. Keep raw,
+  page-backed, joined client-intent and blocked counts separate. Include the
+  intent-join coverage/rejections and Impact attribution coverage. D1 needs its
+  existing Cloudflare credentials; the Impact reader needs its documented
+  account/token pair and verified campaign IDs. Missing access remains unknown.
+- **Impact evidence:** Action Listing export with action ID/date, campaign,
+  status, payout, currency and SubId1; and the dashboard click export by provider
+  and day with its date range, timezone and Raw Click/Click definitions. Include
+  refunds/reversals and pending state. Identify internal controlled test IDs
+  separately; never count those as customer performance. Retained unmatched
+  orders can reflect another source or an earlier click window.
+
+Compare existing canonical pages on observed ticket-buying queries, indexing,
+joined CTA activity, upcoming exact-event coverage, verified affiliate lanes
+and sourced approved payout, keeping currencies separate. A page with relevant
+search impressions and verified dates is a demand candidate; a unique eligible
+SubId1 order match is stronger evidence of commission for its recorded source
+page. Missing matches are unknown, not zero revenue. Fix a confirmed destination,
+coverage or indexing problem before adding content or roster breadth. No new
+analytics store, inferred purchase rate or raw-redirect revenue forecast is
+needed for this review.
+
 ## Lizzy McAlpine price-guide measurement baseline
 
 Reviewed **2026-10-02**; compare again around **2026-10-30**, allowing about

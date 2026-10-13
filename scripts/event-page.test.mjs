@@ -285,7 +285,7 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
   assert(!/\bnow:/.test(prices), "a cached price is never labelled as current");
   assert(/30-day low \$150 · Vivid Seats/.test(prices), "the recorded 30-day low is stated");
   assert(text(parent.html).includes("30-day low $150 · Vivid Seats"), "the parent price answer states the same low");
-  assert(/Latest recorded change: Vivid Seats down \$18: \$200 when recorded/.test(prices), "the latest recorded move is stated");
+  assert(/Latest price change: Vivid Seats down \$18: was \$200 on/.test(prices), "the latest recorded move is stated");
 
   // public/shell.js reads this to credit the page view to the artist (Codex, #1195).
   assert(page.html.includes(`data-page-artist="${ARTIST.slug}"`), "the event page names its artist for analytics");
@@ -299,7 +299,7 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
   // Per-show context: schedule position, neighbouring dates, other dates in the
   // city. Held (cancelled, postponed, unconfirmed) dates are never listed.
   const tour = text(meta(page.html, /(<section[^>]*aria-labelledby="eventTourTitle"[\s\S]*?<\/section>)/));
-  assert(/This is date 2 of 6 upcoming dates on the tour listed as \u201cFixture Tour\u201d that TourTicketCompare tracks/.test(tour), `the schedule position is stated (got ${tour.slice(0, 240)})`);
+  assert(/This is date 2 of 6 upcoming dates on the \u201cFixture Tour\u201d listed here/.test(tour), `the schedule position is stated (got ${tour.slice(0, 240)})`);
   assert(/in 2 cities across 2 countries, between Aug 30, 2026 and Sep 17, 2026/.test(tour), "the schedule's span is stated");
   assert(/Merkur Spiel-Arena, Düsseldorf \(date before\)/.test(tour) && /\(date after\)/.test(tour), "the dates either side are listed");
   const sameCity = text(meta(page.html, /(<section[^>]*aria-labelledby="eventSameCityTitle"[\s\S]*?<\/section>)/));
@@ -363,7 +363,7 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
 
   const rescheduledPage = await render(pathOf(RESCHEDULED));
   assert(rescheduledPage.status === 200 && outLinks(rescheduledPage.html, RESCHEDULED.id) > 0, "a rescheduled date keeps its page and buttons");
-  assert(/Rescheduled, per Ticketmaster/.test(text(rescheduledPage.html)) && /Rescheduled: this is the date Ticketmaster now lists/.test(text(rescheduledPage.html)), "a rescheduled date says so");
+  assert(/Rescheduled, per Ticketmaster/.test(text(rescheduledPage.html)) && /Date changed: this is the new date/.test(text(rescheduledPage.html)), "a rescheduled date says so");
   const [rescheduledNode] = musicEventOf(rescheduledPage.html);
   assert(rescheduledNode?.eventStatus === "https://schema.org/EventRescheduled" && !("previousStartDate" in rescheduledNode), "a rescheduled date is EventRescheduled, with no invented previousStartDate");
   const newDate = { ...RESCHEDULED, datetime_iso: "2026-10-02T01:00:00Z" };

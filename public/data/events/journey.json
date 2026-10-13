@@ -1,0 +1,1327 @@
+[
+  {
+    "id": "tm-journey-2026-biloxi-g5viz_19l6he3",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Biloxi",
+    "country": "United States Of America",
+    "venue": "Mississippi Coast Coliseum",
+    "datetime_iso": "2026-10-13T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064A5EB1FC9D2",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-biloxi-mississippi-10-12-2026/event/1B0064A5EB1FC9D2",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/biloxi-mississippi-mississippi-coast-coliseum-2026-10-12-7-30-pm/concert/18237101",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-biloxi-mississippi-10-12-2026/event/1B0064A5EB1FC9D2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064A5EB1FC9D2",
+        "discovery_event_id": "G5viZ_19l6HE3",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-biloxi-mississippi-10-12-2026/event/1B0064A5EB1FC9D2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_19l6HE3",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-birmingham-17fzv0g61p_lkay",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Legacy Arena at the BJCC",
+    "datetime_iso": "2026-10-14T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "200064A599AD3270",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-birmingham-alabama-10-13-2026/event/200064A599AD3270",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/birmingham-alabama-legacy-arena-at-the-bjcc-2026-10-13-7-30-pm/concert/18237104",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-birmingham-alabama-10-13-2026/event/200064A599AD3270",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "200064A599AD3270",
+        "discovery_event_id": "17FZv0G61p_lKaY",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-birmingham-alabama-10-13-2026/event/200064A599AD3270",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17FZv0G61p_lKaY",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-sunrise-z7r9jz1a70_73",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "Journey",
+    "city": "Sunrise",
+    "country": "United States Of America",
+    "venue": "Amerant Bank Arena",
+    "datetime_iso": "2026-10-16T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70_73",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_73",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_73",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70_73",
+        "discovery_event_id": "Z7r9jZ1A70_73",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_73",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70_73",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-orlando-17fov0g613pzs04",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Kia Center",
+    "datetime_iso": "2026-10-17T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "220064A4A5E33915",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-orlando-florida-10-17-2026/event/220064A4A5E33915",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/orlando-florida-kia-center-2026-10-17-7-30-pm/concert/18237106",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-orlando-florida-10-17-2026/event/220064A4A5E33915",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "220064A4A5E33915",
+        "discovery_event_id": "17FOv0G613PzS04",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-orlando-florida-10-17-2026/event/220064A4A5E33915",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17FOv0G613PzS04",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-atlanta-vvg1zz_1p_clel",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "State Farm Arena",
+    "datetime_iso": "2026-10-19T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0064A599B6B9EB",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-atlanta-georgia-10-19-2026/event/0E0064A599B6B9EB",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/atlanta-georgia-state-farm-arena-1-2026-10-19-7-30-pm/concert/18237108",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-atlanta-georgia-10-19-2026/event/0E0064A599B6B9EB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0064A599B6B9EB",
+        "discovery_event_id": "vvG1zZ_1p_clEl",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-atlanta-georgia-10-19-2026/event/0E0064A599B6B9EB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_1p_clEl",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-nashville-g5viz_141b_9f",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2026-10-22T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064A54AE995C8",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-nashville-tennessee-10-21-2026/event/1B0064A54AE995C8",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/nashville-tennessee-bridgestone-arena-2026-10-21-7-30-pm/concert/18237111",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-nashville-tennessee-10-21-2026/event/1B0064A54AE995C8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064A54AE995C8",
+        "discovery_event_id": "G5viZ_141B_9F",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-nashville-tennessee-10-21-2026/event/1B0064A54AE995C8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_141B_9F",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-louisville-z7r9jz1a70f_w",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "Journey",
+    "city": "Louisville",
+    "country": "United States Of America",
+    "venue": "KFC Yum! Center",
+    "datetime_iso": "2026-10-22T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70f_w",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70f_w",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70f_w",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70f_w",
+        "discovery_event_id": "Z7r9jZ1A70f_w",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70f_w",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70f_w",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-baltimore-17a8v0g61kp2ris",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Baltimore",
+    "country": "United States Of America",
+    "venue": "CFG Bank Arena",
+    "datetime_iso": "2026-10-24T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064A4D63DEA31",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-baltimore-maryland-10-24-2026/event/150064A4D63DEA31",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/baltimore-maryland-cfg-bank-arena-2026-10-24-7-30-pm/concert/18237112",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-baltimore-maryland-10-24-2026/event/150064A4D63DEA31",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064A4D63DEA31",
+        "discovery_event_id": "17A8v0G61Kp2rIs",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-baltimore-maryland-10-24-2026/event/150064A4D63DEA31",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G61Kp2rIs",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-newark-vvg1fz_197dnkr",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Newark",
+    "country": "United States Of America",
+    "venue": "Prudential Center",
+    "datetime_iso": "2026-10-25T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020064A5C4EE34EF",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-newark-new-jersey-10-25-2026/event/020064A5C4EE34EF",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/newark-new-jersey-prudential-center-2026-10-25-7-30-pm/concert/18237088",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-newark-new-jersey-10-25-2026/event/020064A5C4EE34EF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020064A5C4EE34EF",
+        "discovery_event_id": "vvG1FZ_197DNKR",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-newark-new-jersey-10-25-2026/event/020064A5C4EE34EF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1FZ_197DNKR",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-philadelphia-17gzv0g61p0-ppk",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Xfinity Mobile Arena",
+    "datetime_iso": "2026-10-28T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "300064A5A4856953",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-philadelphia-pennsylvania-10-28-2026/event/300064A5A4856953",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-10-28-7-30-pm/concert/18237115",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-philadelphia-pennsylvania-10-28-2026/event/300064A5A4856953",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "300064A5A4856953",
+        "discovery_event_id": "17GZv0G61p0-pPK",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-philadelphia-pennsylvania-10-28-2026/event/300064A5A4856953",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17GZv0G61p0-pPK",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-providence-vvg17z_1fuwpyc",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Providence",
+    "country": "United States Of America",
+    "venue": "Amica Mutual Pavilion",
+    "datetime_iso": "2026-10-29T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064A50DF65E6D",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-providence-rhode-island-10-29-2026/event/010064A50DF65E6D",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/providence-rhode-island-amica-mutual-pavilion-2026-10-29-7-30-pm/concert/18237117",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-providence-rhode-island-10-29-2026/event/010064A50DF65E6D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064A50DF65E6D",
+        "discovery_event_id": "vvG17Z_1fuWPyc",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-providence-rhode-island-10-29-2026/event/010064A50DF65E6D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_1fuWPyc",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-detroit-vvg1oz_13slngw",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Little Caesars Arena",
+    "datetime_iso": "2026-11-03T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "080064A4B3AEA332",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-detroit-michigan-11-02-2026/event/080064A4B3AEA332",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/detroit-michigan-little-caesars-arena-2026-11-02-7-30-pm/concert/18237116",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-detroit-michigan-11-02-2026/event/080064A4B3AEA332",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "080064A4B3AEA332",
+        "discovery_event_id": "vvG1OZ_13SlnGw",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-detroit-michigan-11-02-2026/event/080064A4B3AEA332",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1OZ_13SlnGw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-toronto-177zv0g6110gajo",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Scotiabank Arena",
+    "datetime_iso": "2026-11-05T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100064A2A4D49720",
+    "ticketmaster_url": "https://www.ticketmaster.ca/journey-final-frontier-tour-an-evening-toronto-ontario-11-04-2026/event/100064A2A4D49720",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/journey-final-frontier-tour-an-evening-toronto-ontario-11-04-2026/event/100064A2A4D49720",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100064A2A4D49720",
+        "discovery_event_id": "177Zv0G6110gajO",
+        "url": "https://www.ticketmaster.ca/journey-final-frontier-tour-an-evening-toronto-ontario-11-04-2026/event/100064A2A4D49720",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Zv0G6110gajO",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-wilkes-barre-z7r9jz1a70abw",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "Journey",
+    "city": "Wilkes Barre",
+    "country": "United States Of America",
+    "venue": "Mohegan Sun Arena at Casey Plaza",
+    "datetime_iso": "2026-11-07T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70abw",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70abw",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70abw",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70abw",
+        "discovery_event_id": "Z7r9jZ1A70abw",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70abw",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70abw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-uniondale-k7vgf_1ka_zph",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Uniondale",
+    "country": "United States Of America",
+    "venue": "Nassau Veterans Memorial Coliseum",
+    "datetime_iso": "2026-11-08T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064A4C567895B",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-uniondale-new-york-11-07-2026/event/000064A4C567895B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-uniondale-new-york-11-07-2026/event/000064A4C567895B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064A4C567895B",
+        "discovery_event_id": "k7vGF_1KA_zPh",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-uniondale-new-york-11-07-2026/event/000064A4C567895B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_1KA_zPh",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-boston-vvg17z_19ipadt",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "TD Garden",
+    "datetime_iso": "2026-11-11T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064A5E8949EE9",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-boston-massachusetts-11-10-2026/event/010064A5E8949EE9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-boston-massachusetts-11-10-2026/event/010064A5E8949EE9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064A5E8949EE9",
+        "discovery_event_id": "vvG17Z_19IPaDt",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-boston-massachusetts-11-10-2026/event/010064A5E8949EE9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_19IPaDt",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-cleveland-z7r9jz1a70_7k",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "Journey",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "Rocket Arena",
+    "datetime_iso": "2026-11-13T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70_7K",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_7K",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_7K",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70_7K",
+        "discovery_event_id": "Z7r9jZ1A70_7K",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_7K",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70_7K",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-greenville-g5evz_1k1vuwb",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Greenville",
+    "country": "United States Of America",
+    "venue": "Bon Secours Wellness Arena",
+    "datetime_iso": "2026-11-15T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0064A4CA04DC98",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-greenville-south-carolina-11-14-2026/event/2D0064A4CA04DC98",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-greenville-south-carolina-11-14-2026/event/2D0064A4CA04DC98",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0064A4CA04DC98",
+        "discovery_event_id": "G5eVZ_1K1vuwb",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-greenville-south-carolina-11-14-2026/event/2D0064A4CA04DC98",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_1K1vuwb",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-saint-louis-vvg1bz_1qqkifj",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Enterprise Center",
+    "datetime_iso": "2026-11-17T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060064A69A4EC226",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-saint-louis-missouri-11-16-2026/event/060064A69A4EC226",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-saint-louis-missouri-11-16-2026/event/060064A69A4EC226",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060064A69A4EC226",
+        "discovery_event_id": "vvG1bZ_1QQKiFJ",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-saint-louis-missouri-11-16-2026/event/060064A69A4EC226",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1bZ_1QQKiFJ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-houston-z7r9jz1a70_fz",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "Journey",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2026-11-19T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70_fz",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_fz",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_fz",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70_fz",
+        "discovery_event_id": "Z7r9jZ1A70_fz",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_fz",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70_fz",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-dallas-vvg1yz_14w7vrn",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "American Airlines Center",
+    "datetime_iso": "2026-11-21T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064A57D1347A3",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-dallas-texas-11-20-2026/event/0C0064A57D1347A3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-dallas-texas-11-20-2026/event/0C0064A57D1347A3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064A57D1347A3",
+        "discovery_event_id": "vvG1YZ_14W7VrN",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-dallas-texas-11-20-2026/event/0C0064A57D1347A3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_14W7VrN",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-denver-g5vzz_1kxjfbe",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ball Arena",
+    "datetime_iso": "2026-11-23T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E0064A4E2714602",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-denver-colorado-11-22-2026/event/1E0064A4E2714602",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-denver-colorado-11-22-2026/event/1E0064A4E2714602",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E0064A4E2714602",
+        "discovery_event_id": "G5vzZ_1Kxjfbe",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-denver-colorado-11-22-2026/event/1E0064A4E2714602",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_1Kxjfbe",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-anaheim-vvg10z_1q4chn3",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "Honda Center",
+    "datetime_iso": "2026-11-25T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064A695B5BA92",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-anaheim-california-11-24-2026/event/090064A695B5BA92",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-anaheim-california-11-24-2026/event/090064A695B5BA92",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064A695B5BA92",
+        "discovery_event_id": "vvG10Z_1Q4chn3",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-anaheim-california-11-24-2026/event/090064A695B5BA92",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_1Q4chn3",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-las-vegas-z7r9jz1a70_7f",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "Journey",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "MGM Grand Garden Arena",
+    "datetime_iso": "2026-11-28T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70_7f",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_7f",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_7f",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70_7f",
+        "discovery_event_id": "Z7r9jZ1A70_7f",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_7f",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70_7f",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-san-francisco-g5vyz_aeock9c",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Chase Center",
+    "datetime_iso": "2026-11-29T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006499E0B535ED",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-san-francisco-california-11-28-2026/event/1C006499E0B535ED",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-san-francisco-california-11-28-2026/event/1C006499E0B535ED",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006499E0B535ED",
+        "discovery_event_id": "G5vYZ_aEOcK9c",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-san-francisco-california-11-28-2026/event/1C006499E0B535ED",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_aEOcK9c",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

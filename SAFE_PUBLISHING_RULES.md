@@ -145,7 +145,7 @@ Pages become indexable and conversion-led only after completing the phase gates 
 - Do not say "sold out" or "available" based on unverified inventory data.
 - Do not publish scraped, invented, manually entered, stale, or mismatched prices.
 - A provider lane may display a listed-price snapshot only when explicit display rights, the approved source, exact-event provenance, a matching verified URL, provider flags, currency, observation time, and expiry all pass.
-- Comparisons require eligible snapshots for the same local event and currency. Any lower-price statement must call them provider-supplied listed-price snapshots.
+- Comparisons require eligible snapshots for the same local event and currency. Any lower-price statement must make clear the figures are each ticket site's listed price at the time it was checked, not a live price or a final total (plain wording such as "each ticket site's listed price when it was last checked" satisfies this; public copy avoids jargon like "snapshot", owner request 2026-10-11).
 - Fees, taxes, availability, delivery, and final checkout totals remain provider-controlled and must be clearly qualified.
 - Ticketmaster remains a verification/link source, not a public comparison lane, unless a separately approved source and feature gate are explicitly activated.
 

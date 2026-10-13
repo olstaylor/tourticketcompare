@@ -1,0 +1,638 @@
+[
+  {
+    "id": "tm-eagles-2026-las-vegas-1a9zk37gkdxvozi",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-11-14T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006484FED11E2C",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-13-2026/event/17006484FED11E2C",
+    "seatgeek_url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-11-13-8-30-pm/concert/18219945",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-13-2026/event/17006484FED11E2C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006484FED11E2C",
+        "discovery_event_id": "1A9Zk37GkdXVozi",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-13-2026/event/17006484FED11E2C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk37GkdXVozi",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2026-las-vegas-1a9zk37gkdxg-zv",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-11-15T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006484FED61E34",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-14-2026/event/17006484FED61E34",
+    "seatgeek_url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-11-14-8-30-pm/concert/18219946",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-14-2026/event/17006484FED61E34",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006484FED61E34",
+        "discovery_event_id": "1A9Zk37GkdXg-zV",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-14-2026/event/17006484FED61E34",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk37GkdXg-zV",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2026-las-vegas-1a9zk37gkdxusyv",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-11-28T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006484FEDB1E41",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-27-2026/event/17006484FEDB1E41",
+    "seatgeek_url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-11-27-8-30-pm/concert/18219952",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-27-2026/event/17006484FEDB1E41",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006484FEDB1E41",
+        "discovery_event_id": "1A9Zk37GkdXUsyv",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-27-2026/event/17006484FEDB1E41",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk37GkdXUsyv",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2026-las-vegas-1a9zk37gkdxzvy5",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-11-29T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006484FEE01E4B",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-28-2026/event/17006484FEE01E4B",
+    "seatgeek_url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-11-28-8-30-pm/concert/18219951",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-28-2026/event/17006484FEE01E4B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006484FEE01E4B",
+        "discovery_event_id": "1A9Zk37GkdXzvy5",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-28-2026/event/17006484FEE01E4B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk37GkdXzvy5",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2026-las-vegas-1a9zk3dgkdpxlsb",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-12-05T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006483D6F9FC58",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-04-2026/event/17006483D6F9FC58",
+    "seatgeek_url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-12-04-8-30-pm/concert/18355049",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-04-2026/event/17006483D6F9FC58",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006483D6F9FC58",
+        "discovery_event_id": "1A9Zk3dGkdpXLsb",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-04-2026/event/17006483D6F9FC58",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXLsb",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2026-las-vegas-1a9zk3dgkdpxrsr",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-12-06T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006483D6FAFC5E",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-05-2026/event/17006483D6FAFC5E",
+    "seatgeek_url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-12-05-8-30-pm/concert/18355050",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-05-2026/event/17006483D6FAFC5E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006483D6FAFC5E",
+        "discovery_event_id": "1A9Zk3dGkdpXRsr",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-05-2026/event/17006483D6FAFC5E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXRsr",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2026-las-vegas-1a9zk3dgkdpxrso",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-12-12T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006483D6FAFC60",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-11-2026/event/17006483D6FAFC60",
+    "seatgeek_url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-12-11-8-30-pm/concert/18355052",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-11-2026/event/17006483D6FAFC60",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006483D6FAFC60",
+        "discovery_event_id": "1A9Zk3dGkdpXRsO",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-11-2026/event/17006483D6FAFC60",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXRsO",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2026-las-vegas-1a9zk3dgkdbgzr6",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-12-13T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006483D8300BC7",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-12-2026/event/17006483D8300BC7",
+    "seatgeek_url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-12-12-8-30-pm/concert/18355051",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-12-2026/event/17006483D8300BC7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006483D8300BC7",
+        "discovery_event_id": "1A9Zk3dGkdbGZR6",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-12-2026/event/17006483D8300BC7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk3dGkdbGZR6",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2027-las-vegas-1a9zk3dgkdpxrs0",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-01-16T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006483D6FAFC64",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-15-2027/event/17006483D6FAFC64",
+    "seatgeek_url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2027-01-15-8-30-pm/concert/18421044",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-15-2027/event/17006483D6FAFC64",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006483D6FAFC64",
+        "discovery_event_id": "1A9Zk3dGkdpXRs0",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-15-2027/event/17006483D6FAFC64",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXRs0",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2027-las-vegas-1a9zk3dgkdpxtsj",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-01-17T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006483D6FBFC66",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-16-2027/event/17006483D6FBFC66",
+    "seatgeek_url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2027-01-16-8-30-pm/concert/18421045",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-16-2027/event/17006483D6FBFC66",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006483D6FBFC66",
+        "discovery_event_id": "1A9Zk3dGkdpXTsJ",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-16-2027/event/17006483D6FBFC66",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXTsJ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2027-las-vegas-1a9zk3dgkdpxtsi",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-01-23T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006483D6FBFC6C",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-22-2027/event/17006483D6FBFC6C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-22-2027/event/17006483D6FBFC6C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006483D6FBFC6C",
+        "discovery_event_id": "1A9Zk3dGkdpXTsi",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-22-2027/event/17006483D6FBFC6C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXTsi",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2027-las-vegas-1a9zk3dgkdpt2sm",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-01-24T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006483D6FCFC6E",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-23-2027/event/17006483D6FCFC6E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-23-2027/event/17006483D6FCFC6E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006483D6FCFC6E",
+        "discovery_event_id": "1A9Zk3dGkdpT2sm",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-23-2027/event/17006483D6FCFC6E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk3dGkdpT2sm",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

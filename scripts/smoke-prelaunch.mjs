@@ -89,7 +89,7 @@ assert(Number.isFinite(SMOKE_TEST_NOW_MS), "smoke test clock must be a valid ISO
 Date.now = () => SMOKE_TEST_NOW_MS;
 const routeMarkers = new Map([
   ["/artists", "Choose an artist, then pick the date you want to compare ticket prices for."],
-  ["/cities", "at least four upcoming reviewed shows across at least two artists"],
+  ["/cities", "at least four upcoming shows from at least two artists"],
   ["/on-sale", "Presales from Ticketmaster"],
   ["/guides", "Compare the total at checkout for that exact ticket"],
   ["/guides/vivid-seats-vs-ticketmaster", "A like-for-like purchase checklist"],
@@ -612,7 +612,7 @@ const expectedClientMetadata = [
   "Compare Concert Tickets & Tour Dates | TourTicketCompare",
   homepageDescription,
   "Compare Concert Ticket Prices by Site | TourTicketCompare",
-  "Compare prices for the same checked concert across ticket sites where listed-price snapshots are eligible, then confirm fees and the total with the provider.",
+  "Compare ticket prices for the same concert across ticket sites, then check the fees and final total before you buy.",
   "How to Compare Concert Ticket Prices | TourTicketCompare"
   // Guide title/h1/description parity is asserted field-by-field against
   // GUIDE_ROUTES further down — see "guide client metadata parity".
@@ -1569,7 +1569,7 @@ const renderedMorganSeatGeekCtas = (serverMorganWithSeatGeek.text.match(/provide
 assert(renderedMorganSeatGeekCtas > 0 && renderedMorganSeatGeekCtas <= expectedMorganSeatGeekCtas, "server-rendered Morgan Wallen page should show SeatGeek CTAs only for rendered shows with event-level SeatGeek URLs when configured");
 assert(serverMorganWithSeatGeek.text.includes(RENDERED_SG_EVENT_OUT_HREF), "server-rendered SeatGeek CTA should route the controlled show through /api/out");
 assert(!serverMorganWithSeatGeek.text.includes(CONTROLLED_SEATGEEK_URL), "server-rendered SeatGeek CTA must not expose the raw affiliate URL; it routes through /api/out");
-assert(serverMorganWithSeatGeek.text.includes("<strong>How this site makes money:</strong> Affiliate partners are listed before Ticketmaster. If you buy through an affiliate link, TourTicketCompare may earn a commission at no extra cost to you.") && !serverMorganWithSeatGeek.text.includes("never affects your price"), "server-rendered show board should include the one How-we-make-money disclosure (P4) and no unverifiable no-effect claim");
+assert(serverMorganWithSeatGeek.text.includes("<strong>How this site makes money:</strong> Some ticket sites pay TourTicketCompare a commission if you buy through their links, at no extra cost to you. Those sites are listed first, and Ticketmaster last.") && !serverMorganWithSeatGeek.text.includes("never affects your price"), "server-rendered show board should include the one How-we-make-money disclosure (P4) and no unverifiable no-effect claim");
 assert(!serverMorganWithSeatGeek.text.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "server-rendered cards should not repeat provider caution copy per SeatGeek link");
 // CTA order: SeatGeek (primary affiliate) renders first, before the plain
 // (unmonetized) Ticketmaster link, inside the same provider-cta-group.
@@ -1684,7 +1684,7 @@ assert(seatGeekGateFunction[0].includes('if (!providerEventPublishable(show, "se
 assert(seatGeekGateFunction[0].includes("return show.provider_ctas.seatgeek === true && hasValidSeatGeekEventUrl;"), "SeatGeek CTA gate should require both the provider flag and a valid stored SeatGeek event URL");
 assert(!seatGeekGateFunction[0].includes("return show.provider_ctas.seatgeek === true;"), "SeatGeek CTA gate should not trust the provider flag on its own");
 assert(appJs.includes('name: "SeatGeek"'), "hydration should preserve the SeatGeek CTA for the controlled event when configured");
-assert(appJs.includes("Affiliate partners are listed before Ticketmaster. If you buy through an affiliate link, TourTicketCompare may earn a commission at no extra cost to you.") && appJs.includes("renderMoneyDisclosure()"), "hydration should preserve the how-this-site-makes-money show-board disclosure (P4)");
+assert(appJs.includes("Some ticket sites pay TourTicketCompare a commission if you buy through their links, at no extra cost to you. Those sites are listed first, and Ticketmaster last.") && appJs.includes("renderMoneyDisclosure()"), "hydration should preserve the how-this-site-makes-money show-board disclosure (P4)");
 assert(!appJs.includes("Event last checked:"), "hydration should rely on the consolidated verification panel instead of repeating check dates on every show card");
 assert(!appJs.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every SeatGeek card");
 assert(!appJs.includes("Vivid Seats controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every Vivid Seats card");
@@ -1722,7 +1722,7 @@ assert(boardPriceFetch[0].includes('priceProviders: "approved-marketplaces"'), "
 const boardPriceHydration = appJs.match(/async function hydrateShowBoardPriceSnapshots\(shows, cardOptions\) \{[\s\S]*?\n\}/);
 assert(boardPriceHydration && !boardPriceHydration[0].includes(".slice(0, 6)"), "board price hydration must not cap approved snapshots to the first six cards");
 assert(!appJs.match(/lowest\s+overall\s+price|cheapest/i), "hydration must not label SeatGeek snapshots as lowest overall or cheapest");
-assert(appJs.includes("No checked ticket link for this date yet."), "event cards should have a safe unavailable state that says no link has been checked yet");
+assert(appJs.includes("No ticket link for this date yet."), "event cards should have a safe unavailable state that says no link has been checked yet");
 assert(!appJs.includes("renderProviderButtons(artist, \"artist_hero\")"), "artist pages should not render a separate generic provider panel");
 assert(appJs.includes('text(relatedGuides, "h2", "Related guides")'), "artist hydration should preserve the server-rendered related-guide cluster");
 assert(appJs.includes('link("Compare concert ticket prices", "/compare-concert-ticket-prices", "mini-link")'), "artist hydration should preserve a descriptive internal link to the comparison hub");
@@ -1785,11 +1785,11 @@ const pathSource = await read("functions/[[path]].js");
 // is verified, what is not, and that some links pay a commission.
 const absoluteNoPriceCopy = "We do not display ticket prices or guarantee availability";
 assert(
-  pathSource.includes("<strong>What's verified:</strong>") && pathSource.includes("<strong>What isn't verified:</strong>"),
+  pathSource.includes("<strong>What's checked:</strong>") && pathSource.includes("<strong>What isn't checked:</strong>"),
   "server-rendered trust copy should state both what is and is not verified"
 );
 assert(
-  pathSource.includes("Some outbound links earn TourTicketCompare a commission — see the"),
+  pathSource.includes("Some ticket links earn TourTicketCompare a commission. See the"),
   "server-rendered trust copy should keep the affiliate-commission disclosure"
 );
 assert(
@@ -3781,7 +3781,7 @@ const weakBoard = await renderSyntheticArtistBoard([
 ]);
 assert(weakBoard.html.includes("1 of the 3 have a checked ticket link"), "partial provider coverage must be stated in the lead");
 assert(
-  (weakBoard.html.match(/No checked ticket link for this date yet/g) || []).length === 2,
+  (weakBoard.html.match(/No ticket link for this date yet/g) || []).length === 2,
   "dates without a checked link must render the safe no-link state"
 );
 
@@ -3857,9 +3857,9 @@ assert(
 // disclosure; empty boards omit it so no stale link-check claim is shown.
 for (const [label, page] of [["many", manyBoard.html]]) {
   assert(page.includes("data-artist-trust"), `artist page (${label}) should carry the provenance block`);
-  assert(page.includes("<strong>Data checked:</strong>"), `artist page (${label}) provenance should state when the data was checked`);
-  assert(page.includes("<strong>What's verified:</strong>"), `artist page (${label}) provenance should state what is verified`);
-  assert(page.includes("<strong>What isn't verified:</strong>"), `artist page (${label}) provenance should state what is not verified`);
+  assert(page.includes("<strong>Last checked:</strong>"), `artist page (${label}) provenance should state when the data was checked`);
+  assert(page.includes("<strong>What's checked:</strong>"), `artist page (${label}) provenance should state what is verified`);
+  assert(page.includes("<strong>What isn't checked:</strong>"), `artist page (${label}) provenance should state what is not verified`);
   assert(page.includes('href="/affiliate-disclosure"'), `artist page (${label}) provenance should link the affiliate disclosure`);
   assert(page.includes('href="/contact"'), `artist page (${label}) provenance should link a corrections route`);
   assert(
@@ -3883,16 +3883,16 @@ assert(
   "empty artist pages should carry the site byline"
 );
 assert(
-  !beyonceEmptyStatePage.text.includes("<strong>Data checked:</strong>"),
+  !beyonceEmptyStatePage.text.includes("<strong>Last checked:</strong>"),
   "empty artist pages should omit dated provenance claims"
 );
 assert(
   !beyonceEmptyStatePage.text.includes("<strong>What we don't verify:</strong>"),
   "empty artist pages should not describe date-card checks they render no cards for"
 );
-assert(!beyonceEmptyStatePage.text.includes("Data checked:"), "empty artist pages should omit last-checked claims");
+assert(!beyonceEmptyStatePage.text.includes("Last checked:"), "empty artist pages should omit last-checked claims");
 assert(
-  manyBoard.html.includes("by an automated check rather than a human review"),
+  manyBoard.html.includes("by an automatic check rather than by hand"),
   "the provenance block should distinguish automated checks from human review"
 );
 // The event-record date range (derived from mixed-semantics event
@@ -3924,14 +3924,14 @@ assert(!beyonceEmptyStatePage.text.includes("event records"), "empty-board artis
     "an empty artist page should still carry the provenance block for its byline"
   );
   assert(
-    !noVerifiedDatePage.text.includes("<strong>Data checked:</strong>"),
+    !noVerifiedDatePage.text.includes("<strong>Last checked:</strong>"),
     "an empty artist page must not render a generic 'Data checked' filler line"
   );
 }
 // Artist-level provider buttons land on the artist's page, not on one date, so
 // neither the provenance block nor the shared help may claim otherwise.
 assert(
-  manyBoard.html.includes("every button on a date card opens that exact event"),
+  manyBoard.html.includes("every button on a date card opens that exact show"),
   "the provenance block should scope the exact-event claim to date-card buttons"
 );
 assert(

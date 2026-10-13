@@ -1,7 +1,7 @@
 ---
 title: How to Compare Concert Ticket Prices
 h1: How to Compare Concert Ticket Prices Safely
-description: 'A practical method for comparing the same concert: match the listing, use timestamped snapshots to shortlist providers, then verify the final total and terms.'
+description: 'A practical method for comparing the same concert: match the listing, use checked prices to shortlist ticket sites, then verify the final total and terms.'
 status: published
 date_published: 2026-06-11
 sources:
@@ -27,12 +27,12 @@ sources:
     last_checked: 2026-09-21
 howto:
   name: How to Compare Concert Ticket Prices Safely
-  description: A step-by-step guide to comparing concert ticket options using verified event details, timestamped price snapshots, like-for-like ticket checks, final totals, and provider terms.
+  description: A step-by-step guide to comparing concert ticket options using verified event details, prices with the time they were checked, like-for-like ticket checks, final totals, and provider terms.
   steps:
     - name: Confirm the exact show
       text: Check that the artist, date, venue, city, ticket type, and seat details match the show you intend to attend on every page you compare.
-    - name: Use timestamped snapshots as a shortlist
-      text: Check when each listed-price snapshot was taken and which site it came from, then use it only as a shortlist before opening both ticket sites.
+    - name: Use checked prices as a shortlist
+      text: Check when each price was checked and which site it came from, then use it only as a shortlist before opening both ticket sites.
     - name: Compare like-for-like ticket details
       text: Match ticket category, section, row, seat range, quantity, view restrictions, and delivery method before treating a price difference as a like-for-like comparison.
     - name: Check the final amount payable
@@ -45,7 +45,7 @@ howto:
 
 Pin down the show first: artist, local date and venue. Then compare each ticket site's listed price for that date, open the ones worth a look, and decide on the total at each site's order screen. Two prices for "the same show" often turn out to be a different night, a different section, or resale against primary.
 
-Where a ticket site supplies one, TourTicketCompare shows its listed-price snapshot for a date, with when it was checked. Go to an [artist page](/artists) and pick a date to start.
+Where a ticket site supplies one, TourTicketCompare shows its listed price for a date, with when it was checked. Go to an [artist page](/artists) and pick a date to start.
 
 ## Where can you compare prices for different concert venues?
 
@@ -68,7 +68,7 @@ If any of these differ, you've found another option, not a cheaper version of th
 
 ## 2. Use listed prices to decide where to look next
 
-Each price on a TourTicketCompare date is one ticket site's listed-price snapshot for that date, with how long ago it was checked. It drops off the page once it is more than 24 hours old. When two sites have a price for the same date in the same currency, the lower one is marked.
+Each price on a TourTicketCompare date is one ticket site's listed price for that date, with how long ago it was checked. It drops off the page once it is more than 24 hours old. When two sites have a price for the same date in the same currency, the lower one is marked.
 
 That tells you which pages to open first. It doesn't tell you the seats are equivalent, that they're still there, or which order will cost less. Open both listings before you choose.
 

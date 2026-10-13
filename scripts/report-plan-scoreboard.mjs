@@ -130,11 +130,11 @@ export function renderScoreboard(board) {
     "",
     `Updated ${board.generatedAt}. Weekly numbers against the revenue plan's targets for the 19 January 2027 launch. Weeks run Monday to Sunday (UTC).`,
     "",
-    "| Week of | Search visits | Real ticket clicks |",
+    "| Week of | Search visits | Page-backed redirects |",
     "|---|---:|---:|",
     ...board.weeks.map((w) => `| ${w.week} | ${fmt(w.searchVisits)} | ${fmt(w.realClicks)} |`),
     "",
-    "| Mid-January target | Search visits | Real ticket clicks |",
+    "| Mid-January target | Search visits | Page-backed redirects |",
     "|---|---:|---:|",
     `| Starting point (plan, Oct) | ${PLAN.baseline.searchVisits} | ${PLAN.baseline.realClicks} |`,
     ...["low", "base", "high"].map((k) => `| ${k[0].toUpperCase()}${k.slice(1)} | ${PLAN.targets[k].searchVisits} | ${PLAN.targets[k].realClicks} |`),
@@ -142,14 +142,14 @@ export function renderScoreboard(board) {
   ];
   if (board.latest) {
     lines.push(
-      `**Last full week:** search visits ${band(board.latest.searchVisits, "searchVisits")}, real clicks ${band(board.latest.realClicks, "realClicks")} of the January targets.`
+      `**Last full week:** search visits ${band(board.latest.searchVisits, "searchVisits")}, page-backed redirects ${band(board.latest.realClicks, "realClicks")} of the January targets.`
     );
   }
   const floorCheck = PLAN.checkpoints.find((c) => c.floor);
   if (board.latest && floorCheck) {
     const ok = (key) => board.latest[key] >= floorCheck.floor[key];
     lines.push(
-      `**${floorCheck.label} bar** (search visits ${floorCheck.floor.searchVisits}, real clicks ${floorCheck.floor.realClicks}): search visits ${ok("searchVisits") ? "met" : "not yet met"}, real clicks ${ok("realClicks") ? "met" : "not yet met"}.`
+      `**${floorCheck.label} bar** (search visits ${floorCheck.floor.searchVisits}, page-backed redirects ${floorCheck.floor.realClicks}): search visits ${ok("searchVisits") ? "met" : "not yet met"}, page-backed redirects ${ok("realClicks") ? "met" : "not yet met"}.`
     );
   }
   if (board.next) lines.push(`**Next checkpoint, ${board.next.label}:** ${board.next.text}`);
@@ -160,27 +160,27 @@ export function renderScoreboard(board) {
       "",
       `## Funnel, week of ${board.latest?.week || "last week"}`,
       "",
-      "| Page type | Visitors | Clickers | Click rate | Ticket clicks |",
-      "|---|---:|---:|---:|---:|",
-      ...pages.map((r) => `| ${r.pageType} | ${fmt(r.visitors)} | ${fmt(r.clickers)} | ${pct(r.clickers, r.visitors)} | ${fmt(r.clicks)} |`)
+      "| Page type | View visitor-days | CTA intent visitor-days | CTA intent events |",
+      "|---|---:|---:|---:|",
+      ...pages.map((r) => `| ${r.pageType} | ${fmt(r.visitors)} | ${fmt(r.clickers)} | ${fmt(r.clicks)} |`)
     );
     const providers = board.funnel.providers || [];
     const total = providers.reduce((sum, r) => sum + r.clicks, 0);
     if (providers.length) {
       lines.push(
         "",
-        "| Provider | Clickers | Ticket clicks | Share of clicks |",
+        "| Provider | CTA intent visitor-days | CTA intent events | Share of intent |",
         "|---|---:|---:|---:|",
         ...providers.map((r) => `| ${r.provider} | ${fmt(r.clickers)} | ${fmt(r.clicks)} | ${pct(r.clicks, total)} |`)
       );
     }
-    lines.push("", "Visitors and clickers are visitor-days. Clickers can come from a page type with few page views when a visitor clicked from a page loaded the day before.");
+    lines.push("", "Views and CTA intent remain separate recorded populations. Visitor-days are not verified people. Visitor CTR and CTA-to-redirect completion rates are withheld; neither a visitor-day association nor equal counts establishes a reliable intent/receipt join.");
   }
   lines.push(
     "",
-    "**Orders and commission are not counted here.** They come from the Impact Action Listing CSV, and StubHub International clicks can't be tied to a sale until its tracking URL is set in Cloudflare.",
+    "**Orders and commission are not counted here.** Read sourced action state, payout and currency from report:affiliate-performance or the Impact Action Listing export. Per-order attribution requires a unique eligible TTC SubId1 and a matching campaign/provider; unmatched actions remain unattributed.",
     "",
-    "How the numbers are counted: search visits are visitor-days that landed on a page from a search engine. Real ticket clicks are ticket redirects from a visitor who also loaded a page that day, which removes the direct-hit crawler (see `scripts/lib/human-clicks.mjs`). Both come from the site's own analytics in D1, written by `scripts/report-plan-scoreboard.mjs`."
+    "How the numbers are counted: search visits are visitor-days that landed on a page from a search engine. Page-backed redirects are qualified server redirect receipts associated with a browser event on the same UTC day. Browser automation can still qualify; these are not verified human clicks or purchases (see `scripts/lib/human-clicks.mjs`). Both come from the site's own analytics in D1, written by `scripts/report-plan-scoreboard.mjs`."
   );
   return lines.join("\n");
 }
@@ -238,8 +238,8 @@ function selfTest() {
   assert.equal(board.next.label, "31 Oct");
   const md = renderScoreboard(board);
   assert.ok(md.includes("| 2026-10-05 | 210 | 260 |"));
-  assert.ok(md.includes("search visits between low and base, real clicks between low and base"));
-  assert.ok(md.includes("search visits met, real clicks met"));
+  assert.ok(md.includes("search visits between low and base, page-backed redirects between low and base"));
+  assert.ok(md.includes("search visits met, page-backed redirects met"));
   assert.ok(md.includes("Orders and commission are not counted here"));
   assert.deepEqual(statements.map((s) => s.key), ["search", "clicks", "funnelPages", "funnelProviders"]);
   assert.ok(statements[2].sql.includes("created_at >= '2026-10-05T00:00:00.000Z'"), "funnel covers only the last full week");
@@ -249,7 +249,10 @@ function selfTest() {
     new Date("2026-10-17T12:00:00Z")
   );
   const funnelMd = renderScoreboard(funnelBoard);
-  assert.ok(funnelMd.includes("| artist_price_guide | 40 | 20 | 50% | 50 |"), "page types sorted by clicks with click rate");
+  assert.ok(funnelMd.includes("| artist_price_guide | 40 | 20 | 50 |"), "page types show separate counts without a visitor rate");
+  assert.ok(!/Click rate|Real ticket clicks/.test(funnelMd), "the scoreboard cannot claim a human denominator");
+  assert.ok(funnelMd.includes("rates are withheld"));
+  assert.ok(funnelMd.includes("Browser automation can still qualify"));
   assert.ok(funnelMd.includes("| stubhub-international | 30 | 60 | 75% |"));
   assert.ok(!renderScoreboard(board).includes("## Funnel"), "no funnel section without funnel rows");
   assert.equal(buildScoreboard({}, range, new Date("2027-02-01T00:00:00Z")).next, null, "no checkpoint after the launch");

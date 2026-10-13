@@ -269,7 +269,7 @@ for (const city of cities) {
   // and the name are separated by the opening tag in the raw HTML.
   const requiredCopy = [
     ">TourTicketCompare</a>",
-    `Selected verified tour dates — not a complete ${city.city} events calendar.`,
+    `Checked tour dates only, not every event in ${city.city}.`,
     "Upcoming dates",
     `Compare tickets for a ${city.city} concert`
   ];
@@ -297,7 +297,7 @@ for (const city of cities) {
 }
 
 const cityIndexPage = pages.get("/cities");
-if (!cityIndexPage?.mainHtml.includes("What makes a city page useful?")) {
+if (!cityIndexPage?.mainHtml.includes("How city pages work")) {
   problems.push("city quality: /cities is missing its visible inclusion-method explanation");
 }
 
@@ -327,7 +327,7 @@ for (const venue of venues) {
   // Same contract as the city loop above.
   for (const marker of [
     ">TourTicketCompare</a>",
-    `Selected verified tour dates — not the full ${venue.venue} calendar.`,
+    `Checked tour dates only, not every event at ${venue.venue}.`,
     "Upcoming dates",
     `Getting tickets at ${venue.venue}`
   ]) {
@@ -363,7 +363,7 @@ for (const record of [
 }
 
 const venueIndexPage = pages.get("/venues");
-if (!venueIndexPage?.mainHtml.includes("Why the coverage threshold matters")) {
+if (!venueIndexPage?.mainHtml.includes("How venue pages work")) {
   problems.push("venue quality: /venues is missing its visible inclusion-method explanation");
 }
 

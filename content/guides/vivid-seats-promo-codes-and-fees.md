@@ -70,7 +70,7 @@ So a credit earned on ten cheap tickets is worth a cheap ticket, not an expensiv
 
 Coupon searches attract lookalike sites. Enter codes only on vividseats.com or the Vivid Seats app, and never on a page that asks you to sign in to "unlock" a discount. A code that arrives by direct message, or that asks for card details before you have chosen tickets, is not worth testing. [How to avoid ticket scams](/guides/how-to-avoid-ticket-scams) has the full checklist.
 
-On TourTicketCompare, the Vivid Seats button on a date opens the matched event on Vivid Seats. When its feed supplies one, the button shows Vivid Seats' lowest listed price with how long ago it was checked. That figure is a snapshot, not the checkout total.
+On TourTicketCompare, the Vivid Seats button on a date opens the matched event on Vivid Seats. When Vivid Seats shares one, the button shows its lowest listed price and how long ago it was checked. That price isn't your checkout total.
 
 ## FAQ
 

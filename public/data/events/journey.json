@@ -68,7 +68,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-birmingham-alabama-10-13-2026/event/200064A599AD3270",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -103,7 +103,14 @@
     },
     "ticketmaster_discovery_event_id": "17FZv0G61p_lKaY",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "AARP Member Offer",
+        "start": "2026-09-11T15:00:00Z",
+        "end": "2026-10-13T15:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-journey-2026-sunrise-z7r9jz1a70_73",
@@ -174,7 +181,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-orlando-florida-10-17-2026/event/220064A4A5E33915",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -209,7 +216,14 @@
     },
     "ticketmaster_discovery_event_id": "17FOv0G613PzS04",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "AARP Member Offer",
+        "start": "2026-08-28T17:00:00Z",
+        "end": "2026-10-17T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-journey-2026-atlanta-vvg1zz_1p_clel",
@@ -386,7 +400,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-baltimore-maryland-10-24-2026/event/150064A4D63DEA31",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421,7 +435,14 @@
     },
     "ticketmaster_discovery_event_id": "17A8v0G61Kp2rIs",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Halloween BOGO Offer",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-18T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-journey-2026-newark-vvg1fz_197dnkr",
@@ -492,7 +513,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-philadelphia-pennsylvania-10-28-2026/event/300064A5A4856953",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -527,7 +548,19 @@
     },
     "ticketmaster_discovery_event_id": "17GZv0G61p0-pPK",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "AARP Memeber Offer",
+        "start": "2026-08-28T11:00:00Z",
+        "end": "2026-10-28T20:00:00Z"
+      },
+      {
+        "name": "Halloween BOGO",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-18T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-journey-2026-providence-vvg17z_1fuwpyc",
@@ -598,7 +631,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-detroit-michigan-11-02-2026/event/080064A4B3AEA332",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -633,7 +666,14 @@
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_13SlnGw",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "AARP Member Offer",
+        "start": "2026-08-28T17:00:00Z",
+        "end": "2026-11-02T21:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-journey-2026-toronto-177zv0g6110gajo",
@@ -651,7 +691,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/journey-final-frontier-tour-an-evening-toronto-ontario-11-04-2026/event/100064A2A4D49720",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -686,7 +726,14 @@
     },
     "ticketmaster_discovery_event_id": "177Zv0G6110gajO",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2026-10-14T21:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-journey-2026-wilkes-barre-z7r9jz1a70abw",
@@ -757,7 +804,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-uniondale-new-york-11-07-2026/event/000064A4C567895B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -792,7 +839,19 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_1KA_zPh",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2026-10-17T21:00:00Z"
+      },
+      {
+        "name": "AARP Member Offer",
+        "start": "2026-08-28T14:00:00Z",
+        "end": "2026-11-07T21:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-journey-2026-boston-vvg17z_19ipadt",
@@ -810,7 +869,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-boston-massachusetts-11-10-2026/event/010064A5E8949EE9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -845,7 +904,19 @@
     },
     "ticketmaster_discovery_event_id": "vvG17Z_19IPaDt",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2026-10-20T21:00:00Z"
+      },
+      {
+        "name": "AARP Discount",
+        "start": "2026-08-28T14:00:00Z",
+        "end": "2026-11-10T21:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-journey-2026-cleveland-z7r9jz1a70_7k",
@@ -916,7 +987,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-greenville-south-carolina-11-14-2026/event/2D0064A4CA04DC98",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -951,7 +1022,14 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_1K1vuwb",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2026-10-24T21:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-journey-2026-saint-louis-vvg1bz_1qqkifj",
@@ -969,7 +1047,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-saint-louis-missouri-11-16-2026/event/060064A69A4EC226",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1004,7 +1082,14 @@
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_1QQKiFJ",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-15T15:00:00Z",
+        "end": "2026-10-26T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-journey-2026-houston-z7r9jz1a70_fz",
@@ -1075,7 +1160,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-dallas-texas-11-20-2026/event/0C0064A57D1347A3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1110,7 +1195,19 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_14W7VrN",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-05-15T15:00:00Z",
+        "end": "2026-10-30T22:00:00Z"
+      },
+      {
+        "name": "AARP Member Offer",
+        "start": "2026-08-28T12:00:00Z",
+        "end": "2026-10-30T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-journey-2026-denver-g5vzz_1kxjfbe",
@@ -1128,7 +1225,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-denver-colorado-11-22-2026/event/1E0064A4E2714602",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1163,7 +1260,19 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1Kxjfbe",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-05-15T16:00:00Z",
+        "end": "2026-11-02T00:00:00Z"
+      },
+      {
+        "name": "AARP Member Offer",
+        "start": "2026-08-28T17:00:00Z",
+        "end": "2026-11-22T23:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-journey-2026-anaheim-vvg10z_1q4chn3",
@@ -1181,7 +1290,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-anaheim-california-11-24-2026/event/090064A695B5BA92",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1216,7 +1325,24 @@
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1Q4chn3",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-05-15T17:00:00Z",
+        "end": "2026-11-04T01:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-15T17:00:00Z",
+        "end": "2026-11-25T03:30:00Z"
+      },
+      {
+        "name": "AARP Member Offer",
+        "start": "2026-08-28T17:00:00Z",
+        "end": "2026-11-25T00:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-journey-2026-las-vegas-z7r9jz1a70_7f",
@@ -1287,7 +1413,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-san-francisco-california-11-28-2026/event/1C006499E0B535ED",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1322,6 +1448,13 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_aEOcK9c",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-05-15T17:00:00Z",
+        "end": "2026-11-08T01:00:00Z"
+      }
+    ]
   }
 ]

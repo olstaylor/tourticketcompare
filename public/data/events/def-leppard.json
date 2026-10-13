@@ -1098,7 +1098,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-washington-capital-one-arena-3-21-2027--concerts-rock/production/7671886",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-washington-district-of-columbia-03-21-2027/event/150064F5B46D9E79",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1203,11 +1203,6 @@
       {
         "name": "LIVE NATION PRESALE",
         "start": "2026-10-14T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
-        "name": "Local/Venue/Radio Presale",
-        "start": "2026-10-15T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
       },
       {
@@ -2552,7 +2547,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-los-angeles-hollywood-bowl-5-1-2027/production/7671952",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-hollywood-california-05-01-2027/event/0B0065410242AA13",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2666,6 +2661,11 @@
       },
       {
         "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-04-04T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-04-04T05:00:00Z"
       },
@@ -2852,7 +2852,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-sacramento-golden-1-center-5-7-2027/production/7672006",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-sacramento-california-05-07-2027/event/1C006542DB0C6A51",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2915,12 +2915,12 @@
     "stubhub_international_url": "https://www.stubhub.ie/def-leppard-sacramento-tickets-5-7-2027/event/107672240",
     "presales": [
       {
-        "name": "VIP Packages Presale",
+        "name": "Def Leppard Fan Club Presale",
         "start": "2026-10-12T17:00:00Z",
-        "end": "2026-10-13T16:45:00Z"
+        "end": "2026-10-16T05:00:00Z"
       },
       {
-        "name": "Def Leppard Fan Club Presale",
+        "name": "VIP Packages Presale",
         "start": "2026-10-12T17:00:00Z",
         "end": "2026-10-16T05:00:00Z"
       },
@@ -4028,7 +4028,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-savannah-enmarket-arena-6-11-2027--concerts-rock/production/7672135",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-savannah-georgia-06-11-2027/event/0E006546962D8CA3",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4088,11 +4088,6 @@
         "end": "2026-10-16T02:00:00Z"
       },
       {
-        "name": "Def Leppard Fan Club Platinum Presale",
-        "start": "2026-10-12T14:00:00Z",
-        "end": "2026-10-13T13:45:00Z"
-      },
-      {
         "name": "Def Leppard Fan Club Presale",
         "start": "2026-10-12T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
@@ -4128,17 +4123,17 @@
         "end": "2026-10-16T02:00:00Z"
       },
       {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-05-15T02:00:00Z"
+      },
+      {
         "name": "VIP Packages Onsale",
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-06-05T02:00:00Z"
       },
       {
         "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-10-16T14:00:00Z",
-        "end": "2027-06-12T02:00:00Z"
-      },
-      {
-        "name": "Verizon Shine Select Seats",
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-06-12T02:00:00Z"
       }

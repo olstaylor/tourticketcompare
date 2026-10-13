@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-08-2027/event/170065350993896D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,7 +50,19 @@
     },
     "ticketmaster_discovery_event_id": "11AYvPu8JKxpvC",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-09T17:00:00Z",
+        "end": "2026-10-24T05:00:00Z"
+      },
+      {
+        "name": "On The List VIP Packages Onsale",
+        "start": "2026-10-09T17:00:00Z",
+        "end": "2027-04-02T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7ucku",
@@ -68,7 +80,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-10-2027/event/1700653837DAD4F6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -103,7 +115,19 @@
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7UcKU",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-09T17:00:00Z",
+        "end": "2026-10-24T05:00:00Z"
+      },
+      {
+        "name": "On The List VIP Packages Onsale",
+        "start": "2026-10-09T17:00:00Z",
+        "end": "2027-04-04T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7uckz",
@@ -121,7 +145,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-11-2027/event/1700653837DAD4F8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156,7 +180,19 @@
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7UcKz",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-09T17:00:00Z",
+        "end": "2026-10-24T05:00:00Z"
+      },
+      {
+        "name": "On The List VIP Packages Onsale",
+        "start": "2026-10-09T17:00:00Z",
+        "end": "2027-04-05T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7uwkb",
@@ -174,7 +210,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-15-2027/event/1700653837DBD4FA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -209,7 +245,19 @@
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7UWKB",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-09T17:00:00Z",
+        "end": "2026-10-24T05:00:00Z"
+      },
+      {
+        "name": "On The List VIP Packages Onsale",
+        "start": "2026-10-09T17:00:00Z",
+        "end": "2027-04-09T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mukw",
@@ -227,7 +275,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-17-2027/event/1700653837DCD4FD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -262,7 +310,19 @@
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7MuKW",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-09T17:00:00Z",
+        "end": "2026-10-24T05:00:00Z"
+      },
+      {
+        "name": "On The List VIP Packages Onsale",
+        "start": "2026-10-09T17:00:00Z",
+        "end": "2027-04-11T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mukt",
@@ -280,7 +340,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-18-2027/event/1700653837DCD4FF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -315,7 +375,19 @@
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7MuKT",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-09T17:00:00Z",
+        "end": "2026-10-24T05:00:00Z"
+      },
+      {
+        "name": "On The List VIP Packages Onsale",
+        "start": "2026-10-09T17:00:00Z",
+        "end": "2027-04-12T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_fp3g7i6pt",
@@ -333,7 +405,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-28-2027/event/1700654592A0797F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -368,7 +440,19 @@
     },
     "ticketmaster_discovery_event_id": "16vjZ_fp3G7I6PT",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-09T19:00:00Z",
+        "end": "2026-10-24T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-09T19:00:00Z",
+        "end": "2027-04-22T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_fp3g7w9n5",
@@ -386,7 +470,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-30-2027/event/1700654592C97A8B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421,7 +505,19 @@
     },
     "ticketmaster_discovery_event_id": "16vjZ_fp3G7w9n5",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-09T19:00:00Z",
+        "end": "2026-10-24T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-09T19:00:00Z",
+        "end": "2027-04-24T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_fp3g7dmck",
@@ -439,7 +535,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-01-2027/event/1700654592EF7B46",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -474,7 +570,19 @@
     },
     "ticketmaster_discovery_event_id": "16vjZ_fp3G7DMck",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-09T19:00:00Z",
+        "end": "2026-10-24T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-09T19:00:00Z",
+        "end": "2027-04-25T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mqfv",
@@ -492,7 +600,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-05-2027/event/1700653837DDD501",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -527,7 +635,19 @@
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7Mqfv",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-09T19:00:00Z",
+        "end": "2026-10-24T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-09T19:00:00Z",
+        "end": "2027-04-29T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mcfd",
@@ -545,7 +665,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-07-2027/event/1700653837DED503",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -580,7 +700,19 @@
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7Mcfd",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-09T19:00:00Z",
+        "end": "2026-10-24T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-09T19:00:00Z",
+        "end": "2027-05-01T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mwfa",
@@ -598,7 +730,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-08-2027/event/1700653837DFD505",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -633,7 +765,19 @@
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7MWfA",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-09T19:00:00Z",
+        "end": "2026-10-24T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-09T19:00:00Z",
+        "end": "2027-05-02T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mwf6",
@@ -651,7 +795,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-12-2027/event/1700653837DFD507",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -686,7 +830,19 @@
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7MWf6",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-09T21:00:00Z",
+        "end": "2026-10-24T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-09T21:00:00Z",
+        "end": "2027-05-06T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zufa",
@@ -704,7 +860,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-14-2027/event/1700653837E0D509",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -739,7 +895,19 @@
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7zufa",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-09T21:00:00Z",
+        "end": "2026-10-24T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-09T21:00:00Z",
+        "end": "2027-05-08T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zqf5",
@@ -757,7 +925,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-15-2027/event/1700653837E1D50B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -792,7 +960,19 @@
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7zqf5",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-09T21:00:00Z",
+        "end": "2026-10-24T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-09T21:00:00Z",
+        "end": "2027-05-09T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zqfu",
@@ -810,7 +990,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-02-2027/event/1700653837E1D50D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -845,7 +1025,19 @@
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7zqfu",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-09T21:00:00Z",
+        "end": "2026-10-24T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-09T21:00:00Z",
+        "end": "2027-05-27T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zcf2",
@@ -863,7 +1055,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-04-2027/event/1700653837E2D50F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -898,7 +1090,19 @@
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7zcf2",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-09T21:00:00Z",
+        "end": "2026-10-24T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-09T21:00:00Z",
+        "end": "2027-05-29T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zwf4",
@@ -916,7 +1120,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-05-2027/event/1700653837E3D515",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -951,6 +1155,18 @@
     },
     "ticketmaster_discovery_event_id": "16vjZ_KOMG7zWf4",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-09T21:00:00Z",
+        "end": "2026-10-24T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-09T21:00:00Z",
+        "end": "2027-05-30T05:00:00Z"
+      }
+    ]
   }
 ]

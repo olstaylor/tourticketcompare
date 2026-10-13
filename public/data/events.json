@@ -217546,7 +217546,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "14223024",
     "ticketmaster_url": "https://www.ticketweb.com/event/vnv-nation-an-exitin-tickets/14223024",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/vnv-nation-tickets/nashville-tennessee-exit-in-2027-03-09-8-pm/concert/18659523",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/vnv-nation-an-exitin-tickets/14223024",
@@ -217562,11 +217562,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18659523,
+        "url": "https://seatgeek.com/vnv-nation-tickets/nashville-tennessee-exit-in-2027-03-09-8-pm/concert/18659523",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -217669,7 +217669,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7qp8U",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qp8U",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/vnv-nation-tickets/mesa-arizona-nile-theater-mesa-2027-03-18-8-pm/concert/18165972",
     "vividseats_url": "https://www.vividseats.com/vnv-nation-tickets-mesa-nile-theater---mesa-3-18-2027--concerts-rock/production/7235020",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qp8U",
@@ -217685,11 +217685,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18165972,
+        "url": "https://seatgeek.com/vnv-nation-tickets/mesa-arizona-nile-theater-mesa-2027-03-18-8-pm/concert/18165972",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7235020,
@@ -217723,7 +217723,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0A00634AB6C469D2",
     "ticketmaster_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-san-diego-california-03-19-2027/event/0A00634AB6C469D2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/vnv-nation-tickets/san-diego-california-house-of-blues-san-diego-2027-03-19-7-pm/concert/18150796",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-san-diego-california-03-19-2027/event/0A00634AB6C469D2",
@@ -217739,11 +217739,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18150796,
+        "url": "https://seatgeek.com/vnv-nation-tickets/san-diego-california-house-of-blues-san-diego-2027-03-19-7-pm/concert/18150796",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -217847,7 +217847,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C00634EC8F3AEF3",
     "ticketmaster_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-san-francisco-california-03-21-2027/event/1C00634EC8F3AEF3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/vnv-nation-tickets/san-francisco-california-august-hall-2027-03-21-7-30-pm/concert/18150870",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-san-francisco-california-03-21-2027/event/1C00634EC8F3AEF3",
@@ -217863,11 +217863,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18150870,
+        "url": "https://seatgeek.com/vnv-nation-tickets/san-francisco-california-august-hall-2027-03-21-7-30-pm/concert/18150870",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -217924,7 +217924,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F00634AD284799A",
     "ticketmaster_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-seattle-washington-03-24-2027/event/0F00634AD284799A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/vnv-nation-tickets/seattle-washington-neptune-theatre-wa-2027-03-24-8-pm/concert/18149562",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-seattle-washington-03-24-2027/event/0F00634AD284799A",
@@ -217940,11 +217940,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18149562,
+        "url": "https://seatgeek.com/vnv-nation-tickets/seattle-washington-neptune-theatre-wa-2027-03-24-8-pm/concert/18149562",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -217994,7 +217994,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7q0ef",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q0ef",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/vnv-nation-tickets/omaha-nebraska-slowdown-2027-03-29-8-pm/concert/18357653",
     "vividseats_url": "https://www.vividseats.com/vnv-nation-tickets-omaha-slowdown-3-29-2027/production/7234213",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q0ef",
@@ -218010,11 +218010,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18357653,
+        "url": "https://seatgeek.com/vnv-nation-tickets/omaha-nebraska-slowdown-2027-03-29-8-pm/concert/18357653",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7234213,
@@ -218249,7 +218249,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3100634ADE4D87A9",
     "ticketmaster_url": "https://www.ticketmaster.ca/vnv-nation-montreal-quebec-04-06-2027/event/3100634ADE4D87A9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/vnv-nation-tickets/montreal-canada-beanfield-theatre-2027-04-06-8-pm/concert/18543174",
     "vividseats_url": "https://www.vividseats.com/vnv-nation-tickets-montreal-beanfield-theatre-4-6-2027/production/7237583",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/vnv-nation-montreal-quebec-04-06-2027/event/3100634ADE4D87A9",
@@ -218265,11 +218265,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18543174,
+        "url": "https://seatgeek.com/vnv-nation-tickets/montreal-canada-beanfield-theatre-2027-04-06-8-pm/concert/18543174",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7237583,
@@ -218529,7 +218529,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "14609973",
     "ticketmaster_url": "https://www.ticketweb.com/event/rescheduled-an-evening-mr-smalls-theatre-tickets/14609973",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/vnv-nation-tickets/millvale-pennsylvania-mr-smalls-theatre-2027-04-11-9-pm/concert/18516864",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/rescheduled-an-evening-mr-smalls-theatre-tickets/14609973",
@@ -218545,11 +218545,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18516864,
+        "url": "https://seatgeek.com/vnv-nation-tickets/millvale-pennsylvania-mr-smalls-theatre-2027-04-11-9-pm/concert/18516864",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

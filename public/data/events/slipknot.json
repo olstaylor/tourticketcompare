@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670588",
+        "url": "https://www.stubhub.ie/slipknot-tickets-london-wembley-stadium-3-7-2027/event/107670588",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZkfgGkdhUZzD",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294333/Slipknot-tickets-Sat-Jul-3-2027-Wembley-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294333/Slipknot-tickets-Sat-Jul-3-2027-Wembley-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-tickets-london-wembley-stadium-3-7-2027/event/107670588"
   },
   {
     "id": "tm-slipknot-2027-washington-1a4zkfmgkdgza4s",
@@ -114,6 +122,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669315",
+        "url": "https://www.stubhub.ie/slipknot-washington-tickets-7-16-2027/event/107669315",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfMGkdGza4s",
@@ -126,7 +141,8 @@
         "end": "2027-07-10T02:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293109/Slipknot-tickets-Fri-Jul-16-2027-Nationals-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293109/Slipknot-tickets-Fri-Jul-16-2027-Nationals-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-washington-tickets-7-16-2027/event/107669315"
   },
   {
     "id": "tm-slipknot-2027-queens-g5vvz_kci8xei",
@@ -242,6 +258,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669317",
+        "url": "https://www.stubhub.ie/slipknot-tickets-montreal-parc-jean-drapeau-7-21-2027/event/107669317",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_3GklN01oc",
@@ -254,7 +277,8 @@
         "end": "2027-07-18T02:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293126/Slipknot-tickets-Wed-Jul-21-2027-Parc-Jean-Drapeau"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293126/Slipknot-tickets-Wed-Jul-21-2027-Parc-Jean-Drapeau",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-tickets-montreal-parc-jean-drapeau-7-21-2027/event/107669317"
   },
   {
     "id": "tm-slipknot-2027-toronto-1k7zvpczgauvkjd",
@@ -375,6 +399,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669318",
+        "url": "https://www.stubhub.ie/slipknot-chicago-tickets-7-25-2027/event/107669318",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv167ZkfMPFZA26Gu7",
@@ -392,7 +423,8 @@
         "end": "2027-07-22T02:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293111/Slipknot-tickets-Sun-Jul-25-2027-Soldier-Field"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293111/Slipknot-tickets-Sun-Jul-25-2027-Soldier-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-chicago-tickets-7-25-2027/event/107669318"
   },
   {
     "id": "tm-slipknot-2027-hershey-vv1aezkfzgkdcrpxj",
@@ -448,6 +480,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670828",
+        "url": "https://www.stubhub.ie/slipknot-hershey-tickets-7-28-2027/event/107670828",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfzGkdCrPxj",
@@ -460,7 +499,8 @@
         "end": "2027-07-25T02:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293112/Slipknot-tickets-Wed-Jul-28-2027-Hersheypark-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293112/Slipknot-tickets-Wed-Jul-28-2027-Hersheypark-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-hershey-tickets-7-28-2027/event/107670828"
   },
   {
     "id": "tm-slipknot-2027-boston-z7r9jz1aavzbi",
@@ -516,12 +556,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671319",
+        "url": "https://www.stubhub.ie/slipknot-boston-tickets-7-31-2027/event/107671319",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzbI",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293113/Slipknot-tickets-Sat-Jul-31-2027-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293113/Slipknot-tickets-Sat-Jul-31-2027-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-boston-tickets-7-31-2027/event/107671319"
   },
   {
     "id": "tm-slipknot-2027-nashville-z7r9jz1aaeazk",
@@ -638,6 +686,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671320",
+        "url": "https://www.stubhub.ie/slipknot-houston-tickets-8-6-2027/event/107671320",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_Kx0Z68q",
@@ -650,7 +705,8 @@
         "end": "2027-07-31T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293114/Slipknot-tickets-Fri-Aug-6-2027-Daikin-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293114/Slipknot-tickets-Fri-Aug-6-2027-Daikin-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-houston-tickets-8-6-2027/event/107671320"
   },
   {
     "id": "tm-slipknot-2027-commerce-city-g5vzz_kofjm9p",
@@ -774,6 +830,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671321",
+        "url": "https://www.stubhub.ie/slipknot-inglewood-tickets-8-13-2027/event/107671321",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_K9by2hW",
@@ -786,7 +849,8 @@
         "end": "2027-08-07T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293118/Slipknot-tickets-Fri-Aug-13-2027-SoFi-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293118/Slipknot-tickets-Fri-Aug-13-2027-SoFi-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-inglewood-tickets-8-13-2027/event/107671321"
   },
   {
     "id": "tm-slipknot-2027-san-francisco-g5vyz_khsbrlp",
@@ -842,12 +906,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671342",
+        "url": "https://www.stubhub.ie/slipknot-san-francisco-tickets-8-15-2027/event/107671342",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KhSbRlP",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293120/Slipknot-tickets-Sun-Aug-15-2027-Golden-Gate-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293120/Slipknot-tickets-Sun-Aug-15-2027-Golden-Gate-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-san-francisco-tickets-8-15-2027/event/107671342"
   },
   {
     "id": "tm-slipknot-2027-phoenix-1a_zkfggkdfoifq",
@@ -903,6 +975,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671322",
+        "url": "https://www.stubhub.ie/slipknot-phoenix-tickets-8-18-2027/event/107671322",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkfgGkdFOIFq",
@@ -920,6 +999,7 @@
         "end": "2027-08-15T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293122/Slipknot-tickets-Wed-Aug-18-2027-Chase-Field"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293122/Slipknot-tickets-Wed-Aug-18-2027-Chase-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-phoenix-tickets-8-18-2027/event/107671322"
   }
 ]

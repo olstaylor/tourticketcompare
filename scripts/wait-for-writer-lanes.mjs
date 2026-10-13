@@ -33,9 +33,9 @@
 // actions/checkout pinned the commit that was `main` when the run was
 // *created*, and whatever it waited for has merged since.
 //
-// This is an ordering aid, not a gate: every failure (API error, budget
-// exhausted, fast-forward refused) warns and carries on from the checkout it
-// already has, which is exactly the behaviour before this script existed.
+// An exhausted wait, unreadable run list or failed checkout refresh stops
+// before any data is generated or a PR is published. The next scheduled run
+// retries from current main rather than creating a predictably stale PR.
 
 import { execFileSync } from "node:child_process";
 import { readFileSync, readdirSync } from "node:fs";
@@ -46,6 +46,7 @@ import { pathToFileURL } from "node:url";
 // derives the same set from the workflow files, so a new writer cannot ship
 // without being listed here.
 export const WRITER_LANES = [
+  "daily-audit.yml",
   "nightly-data-sync.yml",
   "tm-new-shows-pr.yml",
   "tm-data-refresh-pr.yml",
@@ -57,10 +58,13 @@ export const WRITER_LANES = [
   "work-queue-repair.yml",
 ];
 
-// The lanes that wait. The others are still waited FOR; they just have no
-// headroom under the < 60 minute job cap (configure-automation-identity.mjs)
-// to spend queueing, and none of them has lost a race yet.
+// Daily audit writes shared status figures even though it does not write
+// events. Its two publishing jobs wait separately, after the read-only audit.
 export const WAITING_LANES = [
+  "auto-promote.yml",
+  "autopublish-health.yml",
+  "tm-data-refresh-pr.yml",
+  "daily-audit.yml",
   "work-queue-repair.yml",
   "nightly-data-sync.yml",
   "tm-new-shows-pr.yml",
@@ -70,8 +74,7 @@ export const WAITING_LANES = [
 ];
 
 // A SeatGeek sync takes ~15 minutes end to end, a Vivid Seats sync ~7; 14
-// minutes covers the observed collisions and keeps every waiting job under
-// its 59-minute cap. Past it we proceed exactly as before this script.
+// minutes is a bounded scheduling budget under the job's 59-minute cap.
 export const DEFAULT_MAX_WAIT_MINUTES = 14;
 export const POLL_MS = 30_000;
 const ACTIVE_STATUSES = ["in_progress", "queued", "pending"];
@@ -80,6 +83,14 @@ const ACTIVE_STATUSES = ["in_progress", "queued", "pending"];
 // start while our run holds that group, even if it was created before us:
 // GitHub does not promise FIFO ordering for concurrency groups.
 export const SHARED_WRITER_GROUPS = {
+  "tm-new-shows-pr.yml": "tm-new-shows-pr",
+  "tm-data-refresh-pr.yml": "tm-data-refresh-pr",
+  "impact-marketplace-provider-sync.yml": "impact-marketplace-provider-sync",
+  "auto-promote.yml": "auto-promote",
+  "autopublish-health.yml": "autopublish-health",
+  "work-queue-repair.yml": "work-queue-repair",
+  "daily-audit.yml": "ticketmaster-api",
+  "nightly-data-sync.yml": "ticketmaster-api",
   "seatgeek-cta-sync.yml": "resale-cta-sync",
   "vividseats-cta-sync.yml": "resale-cta-sync",
 };
@@ -89,6 +100,9 @@ const workflowFile = (run) => String(run?.path || "").split("@")[0].split("/").p
 // The older, still-active writer runs `self` must wait for. Pure.
 export function findBlockers({ runs, self, lanes = WRITER_LANES }) {
   const selfAt = Date.parse(self.created_at);
+  if (!Number.isFinite(selfAt) || !self.id || !workflowFile(self) || !Array.isArray(runs)) {
+    throw new Error("Invalid writer run metadata");
+  }
   const seen = new Set();
   return (runs || []).filter((run) => {
     if (!run || run.id === self.id || seen.has(run.id)) return false;
@@ -99,6 +113,7 @@ export function findBlockers({ runs, self, lanes = WRITER_LANES }) {
     if (group && group === SHARED_WRITER_GROUPS[workflowFile(run)]
       && ["queued", "pending"].includes(run.status)) return false;
     const at = Date.parse(run.created_at);
+    if (!Number.isFinite(at)) throw new Error("Invalid competing writer timestamp");
     // Ties go to the lower id, so two runs created in the same second still
     // order themselves one way round and never wait on each other.
     return at < selfAt || (at === selfAt && run.id < self.id);
@@ -123,7 +138,7 @@ export async function waitForWriterLanes({
     try {
       blockers = findBlockers({ runs: await listActiveRuns(), self });
     } catch (err) {
-      warn(`::warning::Could not list workflow runs (${err.message}); continuing without waiting.`);
+      warn(`::error::Could not list workflow runs (${err.message}); withholding this writer.`);
       return { outcome: "api-error", waitedMs: now() - start };
     }
     if (blockers.length === 0) {
@@ -132,12 +147,16 @@ export async function waitForWriterLanes({
     }
     const names = blockers.map((r) => `${workflowFile(r)} #${r.run_number ?? r.id} (${r.status})`).join(", ");
     if (now() - start + pollMs > maxWaitMs) {
-      warn(`::warning::Still behind ${names} after ${Math.round((now() - start) / 60_000)} min; continuing anyway. A merge conflict on this run's PR is the likely result.`);
+      warn(`::error::Still behind ${names} after ${Math.round((now() - start) / 60_000)} min; withholding this writer. Retry from current main on the next run.`);
       return { outcome: "timeout", waitedMs: now() - start, blockers };
     }
     log(`Waiting for older writer run(s): ${names}`);
     await sleep(pollMs);
   }
+}
+
+export function requireClearQueue(result) {
+  if (result?.outcome !== "clear") throw new Error(`Writer ordering ${result?.outcome || "unknown"}; no data or PR will be produced.`);
 }
 
 async function github(path, token) {
@@ -148,16 +167,15 @@ async function github(path, token) {
   return res.json();
 }
 
-// Moves the checkout to the current branch tip, fast-forward only. Never throws.
-function fastForward({ ref, git, log, warn }) {
+// Moves the checkout to the current branch tip, fast-forward only.
+export function fastForward({ ref, git, log }) {
   if (!ref.startsWith("refs/heads/")) {
     log(`${ref} is not a branch; leaving the checkout where it is.`);
     return;
   }
   try {
     if (git(["status", "--porcelain"]).trim()) {
-      warn("::warning::Working tree is not clean; not fast-forwarding.");
-      return;
+      throw new Error("Working tree is not clean");
     }
     const before = git(["rev-parse", "HEAD"]).trim();
     git(["fetch", "--no-tags", "origin", ref]);
@@ -165,7 +183,7 @@ function fastForward({ ref, git, log, warn }) {
     const after = git(["rev-parse", "HEAD"]).trim();
     log(before === after ? `Checkout is already the tip of ${ref} (${after.slice(0, 7)}).` : `Fast-forwarded ${ref} ${before.slice(0, 7)} -> ${after.slice(0, 7)}.`);
   } catch (err) {
-    warn(`::warning::Could not fast-forward to the tip of ${ref} (${err.message.split("\n")[0]}); continuing from the original checkout.`);
+    throw new Error(`Could not fast-forward to the tip of ${ref} (${err.message.split("\n")[0]}); withholding this writer.`);
   }
 }
 
@@ -177,28 +195,33 @@ async function main(argv) {
   const git = (args) => execFileSync("git", args, { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] });
 
   if (!token || !repo || !runId) {
-    console.warn("::warning::GITHUB_TOKEN, GITHUB_REPOSITORY or GITHUB_RUN_ID missing; not waiting.");
+    throw new Error("GITHUB_TOKEN, GITHUB_REPOSITORY or GITHUB_RUN_ID missing; withholding this writer.");
   } else {
     let self = null;
     try {
       self = await github(`/repos/${repo}/actions/runs/${runId}`, token);
     } catch (err) {
-      console.warn(`::warning::Could not read this run (${err.message}); not waiting.`);
+      throw new Error(`Could not read this run (${err.message}); withholding this writer.`);
     }
-    if (self) {
-      await waitForWriterLanes({
+    if (!self) throw new Error("Missing writer run metadata; withholding this writer.");
+    {
+      const result = await waitForWriterLanes({
         self,
         maxWaitMs: maxWaitMinutes * 60_000,
         listActiveRuns: async () => {
           const pages = await Promise.all(
             ACTIVE_STATUSES.map((status) => github(`/repos/${repo}/actions/runs?status=${status}&per_page=100`, token))
           );
-          return pages.flatMap((page) => page.workflow_runs || []);
+          if (pages.some((page) => !Array.isArray(page?.workflow_runs) || page.workflow_runs.length >= 100)) {
+            throw new Error("Workflow run listing is malformed or truncated");
+          }
+          return pages.flatMap((page) => page.workflow_runs);
         },
       });
+      requireClearQueue(result);
     }
   }
-  fastForward({ ref, git, log: console.log, warn: console.warn });
+  fastForward({ ref, git, log: console.log });
 }
 
 async function selfTest() {
@@ -222,6 +245,9 @@ async function selfTest() {
   assert.deepEqual(findBlockers({ runs: [{ ...older, status: "completed" }], self }), [], "a completed run is not in flight");
   assert.deepEqual(findBlockers({ runs: [run(41, "prelaunch-validation.yml", "2026-09-27T10:30:00Z")], self }), [], "non-writer workflows are ignored");
   assert.deepEqual(findBlockers({ runs: [older, older], self }).length, 1, "a run listed under two statuses counts once");
+  assert.throws(() => findBlockers({ runs: [], self: { ...self, created_at: "invalid" } }), /Invalid/);
+  assert.throws(() => findBlockers({ runs: null, self }), /Invalid/);
+  assert.throws(() => findBlockers({ runs: [{ ...older, created_at: "invalid" }], self }), /Invalid/);
   for (const status of ["queued", "pending"]) {
     assert.deepEqual(findBlockers({ runs: [{ ...older, status }], self }), [],
       `a ${status} peer in our concurrency group cannot start until we finish`);
@@ -266,7 +292,18 @@ async function selfTest() {
 
   c = clock();
   verdict = await waitForWriterLanes({ self, listActiveRuns: async () => { throw new Error("503"); }, ...c, log: quiet, warn: quiet });
-  assert.equal(verdict.outcome, "api-error", "an API failure proceeds instead of failing the lane");
+  assert.equal(verdict.outcome, "api-error", "an unreadable run list is not a clear queue");
+  for (const outcome of ["timeout", "api-error", "unknown"]) {
+    assert.throws(() => requireClearQueue({ outcome }), /no data or PR/, `${outcome} stops the writer`);
+  }
+  assert.doesNotThrow(() => requireClearQueue({ outcome: "clear" }));
+  assert.equal(findBlockers({ runs: [run(39, "daily-audit.yml", older.created_at)], self }).length, 1,
+    "daily audit's shared status writers must block an event writer");
+  const nightly = run(50, "nightly-data-sync.yml", self.created_at);
+  assert.equal(findBlockers({ runs: [run(39, "daily-audit.yml", older.created_at, "queued")], self: nightly }).length, 0,
+    "a queued audit cannot start while nightly holds their API group");
+  assert.throws(() => fastForward({ ref: "refs/heads/main", git: () => { throw new Error("fetch failed"); }, log: quiet }), /withholding/);
+  assert.throws(() => fastForward({ ref: "refs/heads/main", git: () => " M events.json", log: quiet }), /Working tree is not clean/);
 
   // --- workflow wiring -------------------------------------------------
   const workflows = Object.fromEntries(
@@ -276,29 +313,45 @@ async function selfTest() {
   );
   const writes = (wf) =>
     Object.values(wf.jobs || {}).some((job) =>
-      (job.steps || []).some((s) => /git add[^\n]*public\/data\/events|sync-tm-events-write-pr\.mjs|node scripts\/run-work-queue-repair\.mjs(?! --self-test)/.test(s.run || ""))
+      (job.steps || []).some((s) => /git add[^\n]*(?:public\/data\/events|PROJECT_STATUS\.md)|sync-tm-events-write-pr\.mjs|node scripts\/run-work-queue-repair\.mjs(?! --self-test)/.test(s.run || ""))
     );
   for (const [file, group] of Object.entries(SHARED_WRITER_GROUPS)) {
     assert.equal(workflows[file].concurrency?.group, group, `${file}: shared group must match the workflow`);
     assert.equal(workflows[file].concurrency?.["cancel-in-progress"], false, `${file}: running writer must hold its group`);
   }
   const derived = Object.keys(workflows).filter((f) => writes(workflows[f])).sort();
-  assert.deepEqual(derived, [...WRITER_LANES].sort(), "WRITER_LANES must list exactly the workflows that commit event data");
+  assert.deepEqual(derived, [...WRITER_LANES].sort(), "WRITER_LANES must list exactly the workflows that commit events or shared status data");
   for (const file of WAITING_LANES) {
     assert(WRITER_LANES.includes(file), `${file}: a waiting lane must also be a writer`);
-    const jobs = Object.values(workflows[file].jobs);
-    assert.equal(jobs.length, 1, `${file}: expected one job`);
-    const [job] = jobs;
-    const steps = job.steps || [];
-    const checkoutAt = steps.findIndex((s) => /^actions\/checkout@/.test(s.uses || ""));
-    const wait = steps[checkoutAt + 1];
-    assert(/node scripts\/wait-for-writer-lanes\.mjs/.test(wait?.run || ""), `${file}: the wait must directly follow checkout, before dependencies are installed`);
-    assert.equal(wait.env?.GITHUB_TOKEN, "${{ github.token }}", `${file}: the wait reads runs with the job token`);
-    const budget = Number((/--max-wait-minutes (\d+)/.exec(wait.run) || [])[1] ?? DEFAULT_MAX_WAIT_MINUTES);
-    assert(job["timeout-minutes"] >= 30 + budget, `${file}: timeout-minutes must leave the lane its usual time on top of the ${budget}-minute wait`);
-    const perms = workflows[file].permissions || job.permissions || {};
-    assert(["read", "write"].includes(perms.actions), `${file}: listing runs needs actions: read`);
+    const jobs = Object.values(workflows[file].jobs).filter((job) => writes({ jobs: { job } }));
+    for (const job of jobs) {
+      const steps = job.steps || [];
+      const checkoutAt = steps.findIndex((s) => /^actions\/checkout@/.test(s.uses || ""));
+      const wait = steps[checkoutAt + 1];
+      assert.equal(wait?.if, steps[checkoutAt]?.if, `${file}: a skipped checkout must also skip the wait`);
+      assert(/node scripts\/wait-for-writer-lanes\.mjs/.test(wait?.run || ""), `${file}: the wait must directly follow checkout, before dependencies are installed`);
+      assert.equal(wait.env?.GITHUB_TOKEN, "${{ github.token }}", `${file}: the wait reads runs with the job token`);
+      const budget = Number((/--max-wait-minutes (\d+)/.exec(wait.run) || [])[1] ?? DEFAULT_MAX_WAIT_MINUTES);
+      assert(job["timeout-minutes"] >= 30 + budget, `${file}: timeout-minutes must leave the lane its usual time on top of the ${budget}-minute wait`);
+      const perms = workflows[file].permissions || job.permissions || {};
+      assert(["read", "write"].includes(perms.actions), `${file}: listing runs needs actions: read`);
+    }
   }
+
+  // Regression: timestamps must never be applied from reports generated
+  // before this checkout's current artist/event data revision.
+  const auditSteps = workflows["daily-audit.yml"].jobs.audit.steps || [];
+  const auditWait = auditSteps.findIndex((step) => /node scripts\/wait-for-writer-lanes\.mjs/.test(step.run || ""));
+  const firstProbe = auditSteps.findIndex((step) => /scripts\/verify-outbound-links\.mjs/.test(step.run || ""));
+  assert(auditWait > 0 && auditWait < firstProbe, "audit waits and refreshes main before generating evidence");
+  const verificationSteps = workflows["daily-audit.yml"].jobs["verification-dates"].steps || [];
+  const download = verificationSteps.findIndex((step) => /actions\/download-artifact@/.test(step.uses || ""));
+  const check = verificationSteps.findIndex((step) => step.name === "Check audit evidence revision");
+  const bump = verificationSteps.findIndex((step) => /scripts\/bump-verified-dates\.mjs/.test(step.run || ""));
+  assert(check > download && check < bump, "verification compares audit revision before stamping artists");
+  assert(/source-commit\.txt/.test(verificationSteps[check]?.run || "")
+    && /git rev-parse HEAD/.test(verificationSteps[check]?.run || ""),
+    "verification checks evidence commit against current checkout");
 
   console.log("wait-for-writer-lanes self-test passed.");
 }

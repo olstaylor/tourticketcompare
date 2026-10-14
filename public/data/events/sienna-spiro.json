@@ -55,11 +55,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8038346",
-        "url": "https://www.ticketliquidator.com/tickets/8038346/Sienna-Spiro-tickets-Tue-Oct-13-2026-Ryman-Auditorium",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107382077",
@@ -73,7 +73,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038346",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038346/Sienna-Spiro-tickets-Tue-Oct-13-2026-Ryman-Auditorium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-nashville-tickets-10-13-2026/event/107382077"
   },
   {

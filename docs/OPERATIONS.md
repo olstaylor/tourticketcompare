@@ -6,6 +6,22 @@ Workflow schedules, secrets/bindings reference, and known infrastructure inciden
 
 All times UTC. What each lane may write, and the gated auto-merge contract every write-capable lane now publishes through, are defined in [DEPLOYMENT.md → Repository write capability](DEPLOYMENT.md#repository-write-capability); this table is only the schedule and current behavior.
 
+SeatGeek, Vivid Seats and Impact CTA writers wait up to 60 minutes for older
+shared-data writers, then refresh to current main before generating changes.
+Their job limits reserve a further 75 minutes for SeatGeek/Vivid Seats and 90
+minutes for Impact, including in-job validation and the canonical exact-head
+publishing check. Exhaustion or an unreadable queue still stops before writes;
+it is not an unchanged-data success. These larger limits address the 2026-10-13
+SeatGeek cancellation during publishing and the 2026-10-14 wait expiry behind
+nightly sync; completed schedules must still prove recovery after deployment.
+
+Verification-date publishing checks the audit source commit against checkout
+and current main before stamping, before commit, and again against live main
+after the head-validation wait. If main moves, the PR stays withheld for a fresh
+scheduled audit; never rebase old observations onto changed data. The 2026-10-14
+audit passed evidence equality and validation, then conflicted after the premium
+cleanup merged (#1566). That is a publishing race, not a URL-liveness finding.
+
 | Workflow | Schedule | Behavior |
 |---|---|---|
 | `daily-audit.yml` | 03:00 + dispatch | URL liveness + Ticketmaster Discovery diff to the rolling `automation:daily-audit` issue; publishes `last_verified_at` bumps for clean artists through an auto-merged PR. A `status-figures` job also runs daily and publishes the generated blocks in `PROJECT_STATUS.md` (route surface, empty boards) the same way, regardless of the audit job's own outcome. |

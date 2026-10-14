@@ -84,7 +84,12 @@ function selfTest() {
         assert.equal(identity?.uses, './.github/actions/automation-identity', file);
         assert.equal(identity.if, step.if, `${file}: preserve the publisher gate`);
         assert.equal(step.env.GITHUB_TOKEN, '${{ steps.publishing-identity.outputs.token }}', file);
-        assert(job['timeout-minutes'] < 60, `${file}: job must fit token lifetime`);
+        // The token is minted immediately before publication, after queueing,
+        // ingestion and in-job validation. A long job is safe only when its
+        // publishing step has a shorter explicit cap within that lifetime.
+        const publishingLimit = Number(step['timeout-minutes'] ?? job['timeout-minutes']);
+        assert(Number.isFinite(publishingLimit) && publishingLimit > 0 && publishingLimit < 60,
+          `${file}: publication after token minting must fit token lifetime`);
         // Matches the push however it is spelled: the literal `git push` and the
         // retrying wrapper that replaced it. Without the second alternative this
         // guard silently stopped guarding the moment the pushes moved into a script.

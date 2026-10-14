@@ -1863,6 +1863,90 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-lionel-richie",
     redirectUrl: "https://seatgeek.com/lionel-richie-tickets",
     verified: true
+  },
+  "earth-wind-fire:ticketmaster": {
+    artistSlug: "earth-wind-fire",
+    provider: "ticketmaster",
+    linkId: "tm-artist-earth-wind-fire",
+    redirectUrl: "https://www.ticketmaster.com/earth-wind-fire-tickets/artist/734980",
+    verified: true
+  },
+  "earth-wind-fire:seatgeek": {
+    artistSlug: "earth-wind-fire",
+    provider: "seatgeek",
+    linkId: "sg-artist-earth-wind-fire",
+    redirectUrl: "https://seatgeek.com/earth-wind-fire-tickets",
+    verified: true
+  },
+  "santana:ticketmaster": {
+    artistSlug: "santana",
+    provider: "ticketmaster",
+    linkId: "tm-artist-santana",
+    redirectUrl: "https://www.ticketmaster.com/santana-tickets/artist/741473",
+    verified: true
+  },
+  "santana:seatgeek": {
+    artistSlug: "santana",
+    provider: "seatgeek",
+    linkId: "sg-artist-santana",
+    redirectUrl: "https://seatgeek.com/santana-tickets",
+    verified: true
+  },
+  "simple-minds:ticketmaster": {
+    artistSlug: "simple-minds",
+    provider: "ticketmaster",
+    linkId: "tm-artist-simple-minds",
+    redirectUrl: "https://www.ticketmaster.com/simple-minds-tickets/artist/736120",
+    verified: true
+  },
+  "simple-minds:seatgeek": {
+    artistSlug: "simple-minds",
+    provider: "seatgeek",
+    linkId: "sg-artist-simple-minds",
+    redirectUrl: "https://seatgeek.com/simple-minds-tickets",
+    verified: true
+  },
+  "thirty-seconds-to-mars:ticketmaster": {
+    artistSlug: "thirty-seconds-to-mars",
+    provider: "ticketmaster",
+    linkId: "tm-artist-thirty-seconds-to-mars",
+    redirectUrl: "https://www.ticketmaster.com/thirty-seconds-to-mars-tickets/artist/833240",
+    verified: true
+  },
+  "thirty-seconds-to-mars:seatgeek": {
+    artistSlug: "thirty-seconds-to-mars",
+    provider: "seatgeek",
+    linkId: "sg-artist-thirty-seconds-to-mars",
+    redirectUrl: "https://seatgeek.com/thirty-seconds-to-mars-tickets",
+    verified: true
+  },
+  "stray-kids:ticketmaster": {
+    artistSlug: "stray-kids",
+    provider: "ticketmaster",
+    linkId: "tm-artist-stray-kids",
+    redirectUrl: "https://www.ticketmaster.com/stray-kids-tickets/artist/2593788",
+    verified: true
+  },
+  "stray-kids:seatgeek": {
+    artistSlug: "stray-kids",
+    provider: "seatgeek",
+    linkId: "sg-artist-stray-kids",
+    redirectUrl: "https://seatgeek.com/stray-kids-tickets",
+    verified: true
+  },
+  "kylie-minogue:ticketmaster": {
+    artistSlug: "kylie-minogue",
+    provider: "ticketmaster",
+    linkId: "tm-artist-kylie-minogue",
+    redirectUrl: "https://www.ticketmaster.com/kylie-minogue-tickets/artist/1055633",
+    verified: true
+  },
+  "kylie-minogue:seatgeek": {
+    artistSlug: "kylie-minogue",
+    provider: "seatgeek",
+    linkId: "sg-artist-kylie-minogue",
+    redirectUrl: "https://seatgeek.com/kylie-minogue-tickets",
+    verified: true
   }
 };
 

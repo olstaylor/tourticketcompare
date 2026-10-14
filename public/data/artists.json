@@ -1690,5 +1690,89 @@
     "last_verified_at": "2026-10-13",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-13"
+  },
+  {
+    "slug": "earth-wind-fire",
+    "name": "Earth, Wind & Fire",
+    "short_description": "R&B act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-14",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-14"
+  },
+  {
+    "slug": "santana",
+    "name": "Santana",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-14",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-14"
+  },
+  {
+    "slug": "simple-minds",
+    "name": "Simple Minds",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-14",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-14"
+  },
+  {
+    "slug": "thirty-seconds-to-mars",
+    "name": "Thirty Seconds to Mars",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-14",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-14"
+  },
+  {
+    "slug": "stray-kids",
+    "name": "Stray Kids",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-14",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-14"
+  },
+  {
+    "slug": "kylie-minogue",
+    "name": "Kylie Minogue",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-14",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-14"
   }
 ]

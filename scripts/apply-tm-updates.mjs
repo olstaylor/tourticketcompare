@@ -11,6 +11,9 @@
 //     Ticketmaster Discovery id (explicit field preferred; a legacy
 //     ticketmaster_event_id is used only when it is Discovery-format):
 //       * date / time  (datetime_iso, timezone)
+//         A confirmed reschedule also keeps the previously verified date and
+//         timezone (previous_start_date, previous_start_timezone) for schema
+//         and the visible original-date line; first-seen dates have no history.
 //       * venue / city / country
 //       * official listing title (event_name, verbatim Discovery API `name` —
 //         owner-approved 2026-07-07; NOT tour_name, which stays human-gated)
@@ -57,6 +60,7 @@ import { includePastFromEnv, skipInSweep, PAST_RECHECK_DAYS } from './lib/tm-swe
 import { normalizePresaleWindows } from '../functions/_presales.js';
 import { PROVIDER_LANES } from './lib/event-link-coverage.mjs';
 import { eventLocalDate, urlDateConflicts } from './sync-impact-marketplace-events.mjs';
+import { validPreviousStartDate, previousStartDateFromEvent } from '../functions/_event-reschedule.js';
 
 const DEFAULT_BASE = 'https://app.ticketmaster.com/discovery/v2';
 const DEFAULT_EVENTS_PATH = new URL('../public/data/events.json', import.meta.url);
@@ -715,7 +719,24 @@ export function planEventSync(event, remote, discoveryId) {
   if (lifecycleChange && (recordsHold ? identitySafe : blockers.length === 0)) {
     applied.push(lifecycleChange);
   }
-  if (!blockers.length) applied.push(...intendedChanges, ...wrongNightLinkChanges(event, intendedChanges));
+  if (!blockers.length) {
+    applied.push(...intendedChanges, ...wrongNightLinkChanges(event, intendedChanges));
+    // Keep the verified date we previously published when Discovery confirms
+    // a reschedule. A first-seen rescheduled record has no known previous date.
+    // Repeated syncs preserve the original date; cosmetic UTC/local changes
+    // do not reach intendedChanges and therefore cannot manufacture history.
+    if (clean(remote?.data?.dates?.status?.code).toLowerCase() === 'rescheduled'
+      && intendedChanges.some((change) => change.field === 'datetime_iso')
+      && !validPreviousStartDate(event.previous_start_date)
+      && event.source_type === 'ticketmaster'
+      && ['human_verified', 'machine_high_confidence'].includes(event.verification_status)) {
+      const previous = previousStartDateFromEvent(event);
+      if (previous) {
+        applied.push({ field: 'previous_start_date', from: event.previous_start_date || null, to: previous });
+        if (clean(event.timezone)) applied.push({ field: 'previous_start_timezone', from: event.previous_start_timezone || null, to: clean(event.timezone) });
+      }
+    }
+  }
 
   const reviewItems = [...blockers];
   const heldCode = applied.some((change) => change.field === LIFECYCLE_FIELD)
@@ -922,6 +943,20 @@ async function runSelfTest() {
   assert('the "canceled" spelling is recorded as supplied', lifecycleOf(plan(clean_(), full('canceled')))?.to === 'canceled');
   assert('postponed is recorded', lifecycleOf(plan(clean_(), full('postponed')))?.to === 'postponed');
   assert('rescheduled is recorded', lifecycleOf(plan(clean_(), full('rescheduled')))?.to === 'rescheduled');
+  {
+    const old = clean_({ source_type: 'ticketmaster', verification_status: 'machine_high_confidence' });
+    const moved = full('rescheduled', { dates: { status: { code: 'rescheduled' }, start: { dateTime: '2026-10-08T00:00:00Z' }, timezone: 'America/New_York' } });
+    const previousOf = (row, response = moved) => plan(row, response).applied.find((c) => c.field === 'previous_start_date');
+    assert('a confirmed reschedule retains the verified previous date', previousOf(old)?.to === old.datetime_iso);
+    assert('a reschedule retains the OLD timezone', plan(old, moved).applied.find((c) => c.field === 'previous_start_timezone')?.to === old.timezone);
+    assert('a cosmetic date representation does not create history', !previousOf(old, full('rescheduled')));
+    assert('a date correction without a rescheduled status does not create history', !previousOf(old, full('onsale', { dates: { status: { code: 'onsale' }, start: { dateTime: '2026-10-08T00:00:00Z' }, timezone: 'America/New_York' } })));
+    assert('a previously unverified date is not claimed as history', !previousOf({ ...old, verification_status: 'needs_recheck' }));
+    assert('an identity mismatch creates no history', !previousOf(old, { data: { ...moved.data, name: 'Someone Else Entirely' } }));
+    assert('repeat reschedules preserve recorded history', !previousOf({ ...old, ticketmaster_status_code: 'rescheduled', previous_start_date: '2026-09-01T00:00:00Z' }));
+    assert('history survives an intervening on-sale status', !previousOf({ ...old, previous_start_date: '2026-09-01T00:00:00Z' }));
+    assert('offset-only history keeps its original wall date', previousOf({ ...old, datetime_iso: '2026-09-30T20:30:00-07:00', timezone: '' })?.to === '2026-09-30T20:30:00-07:00');
+  }
   {
     // Doja Cat, San Francisco (2026-10-10): rescheduled from Mon 19 Oct to Sun
     // 25 Oct while the Ticket Liquidator URL still named the 19th.

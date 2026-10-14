@@ -2361,6 +2361,9 @@ function renderShowCard(show, options = {}) {
   // Keep in sync with rescheduledHtml in renderShowCardServerHtml.
   if (String(show.ticketmaster_status_code || "").trim().toLowerCase() === "rescheduled") {
     text(body, "p", "Date changed: this is the new date.", "show-card-sub muted");
+    if (show.previous_start_date && Number.isFinite(Date.parse(show.previous_start_date))) {
+      text(body, "p", `Previously scheduled: ${formatShowDate(show.previous_start_date, show.previous_start_timezone)}.`, "show-card-sub muted");
+    }
   }
 
   if (options.reviewGated) {

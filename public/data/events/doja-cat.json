@@ -727,7 +727,9 @@
         "end": "2026-10-21T19:00:00Z"
       }
     ],
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "previous_start_date": "2026-10-20T02:30:00Z",
+    "previous_start_timezone": "America/Los_Angeles"
   },
   {
     "id": "tm-doja-cat-2026-sacramento-g5vyzbsnj9ve1",

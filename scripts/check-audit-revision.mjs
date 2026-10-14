@@ -2,7 +2,9 @@
 // Audit observations belong to one commit. Never transplant date stamps onto
 // a refreshed checkout, or publish them after main has moved past that commit.
 import { execFileSync, spawnSync } from "node:child_process";
-import { readFileSync } from "node:fs";
+import { readFileSync, mkdtempSync, writeFileSync, rmSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
 import { pathToFileURL } from "node:url";
 
 export function assertAuditRevision({ audited, checkout, main }) {
@@ -10,13 +12,48 @@ export function assertAuditRevision({ audited, checkout, main }) {
     throw new Error("Missing or malformed audit revision; withholding verification-date writes and publishing.");
   }
   if (audited !== checkout || audited !== main) {
-    throw new Error(`Audit reports describe ${audited}, but checkout is ${checkout} and main is ${main}. Withholding verification dates; the next scheduled audit must gather fresh evidence. Do not rebase these stamps.`);
+    throw Object.assign(new Error(`Audit reports describe ${audited}, but checkout is ${checkout} and main is ${main}. Withholding verification dates; the next scheduled audit must gather fresh evidence. Do not rebase these stamps.`), { code: "STALE_AUDIT" });
   }
 }
 
 export async function checkAuditMergeRevision({ audited, repo, request }) {
   const commit = await request("GET", `/repos/${repo}/commits/main`);
   assertAuditRevision({ audited, checkout: audited, main: commit?.sha });
+}
+
+// The audit head must be a direct child of its evidence commit. A non-forced
+// ref update can then advance main only from that parent: any competing commit
+// is a sibling, and GitHub atomically rejects it as a non-fast-forward. Existing
+// required checks still apply to the exact head; no new unvalidated commit is
+// constructed. GitHub recognises that PR head in main as a fast-forward merge.
+export async function mergeAuditedPr({ audited, repo, head, number, request, sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms)) }) {
+  assertAuditRevision({ audited, checkout: audited, main: audited });
+  const pr = await request("GET", `/repos/${repo}/pulls/${number}`);
+  if (pr.state !== "open" || pr.head?.sha !== head || pr.base?.ref !== "main") {
+    throw new Error("Audit PR head or target changed; fresh evidence and validation are required.");
+  }
+  const commit = await request("GET", `/repos/${repo}/git/commits/${head}`);
+  if (commit.sha !== head || commit.parents?.length !== 1 || commit.parents[0]?.sha !== audited) {
+    throw Object.assign(new Error("Audit PR is not a direct child of the audited revision; its evidence is invalidated."), { code: "STALE_AUDIT" });
+  }
+  await checkAuditMergeRevision({ audited, repo, request });
+  try {
+    const updated = await request("PATCH", `/repos/${repo}/git/refs/heads/main`, { sha: head, force: false });
+    if (updated.object?.sha !== head) throw new Error("GitHub did not confirm the validated audit head in main.");
+  } catch (err) {
+    // A lost response may follow a successful integration. Recognise only
+    // GitHub's merged PR with this exact head; otherwise expose the failure.
+    const latest = await request("GET", `/repos/${repo}/pulls/${number}`);
+    if (latest.merged && latest.merge_commit_sha === head) return;
+    await checkAuditMergeRevision({ audited, repo, request });
+    throw err;
+  }
+  for (let attempt = 0; attempt < 5; attempt++) {
+    const latest = await request("GET", `/repos/${repo}/pulls/${number}`);
+    if (latest.merged && latest.merge_commit_sha === head) return;
+    await sleep(2000);
+  }
+  throw new Error("Validated audit head reached main, but GitHub has not confirmed its PR merge. Inspect the PR; do not replay the stamps.");
 }
 
 async function selfTest() {
@@ -42,44 +79,99 @@ async function selfTest() {
   await assert.rejects(checkAuditMergeRevision({ audited, repo: "owner/repo", request: async () => ({}) }), /malformed/);
   await assert.rejects(checkAuditMergeRevision({ audited, repo: "owner/repo", request: async () => { throw new Error("503"); } }), /503/);
 
+  // Exercise the native fast-forward constraint, not just an HTTP mock: main
+  // advances AFTER it was observed clean, so the old direct-child audit head
+  // must be rejected. A new head based on fresh main must integrate normally.
+  const fixture = mkdtempSync(join(tmpdir(), "audit-fast-forward-"));
+  try {
+    const origin = join(fixture, "origin.git");
+    const auditRepo = join(fixture, "audit");
+    const competingRepo = join(fixture, "competing");
+    const git = (cwd, args) => execFileSync("git", args, { cwd, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] }).trim();
+    git(fixture, ["init", "--bare", "--initial-branch=main", origin]);
+    git(fixture, ["clone", origin, auditRepo]);
+    for (const [key, value] of [["user.name", "Fixture"], ["user.email", "fixture@localhost"]]) git(auditRepo, ["config", key, value]);
+    writeFileSync(join(auditRepo, "facts"), "audited\n");
+    git(auditRepo, ["add", "facts"]);
+    git(auditRepo, ["commit", "-m", "audited base"]);
+    git(auditRepo, ["push", "origin", "main"]);
+    const base = git(origin, ["rev-parse", "main"]);
+    git(auditRepo, ["checkout", "-b", "audit"]);
+    writeFileSync(join(auditRepo, "stamps"), "old audit\n");
+    git(auditRepo, ["add", "stamps"]);
+    git(auditRepo, ["commit", "-m", "validated audit head"]);
+    const auditHead = git(auditRepo, ["rev-parse", "HEAD"]);
+    assert.equal(git(auditRepo, ["rev-parse", "HEAD^"]), base);
+    assertAuditRevision({ audited: base, checkout: base, main: git(origin, ["rev-parse", "main"]) });
+    git(fixture, ["clone", origin, competingRepo]);
+    for (const [key, value] of [["user.name", "Fixture"], ["user.email", "fixture@localhost"]]) git(competingRepo, ["config", key, value]);
+    writeFileSync(join(competingRepo, "facts"), "main advanced after check\n");
+    git(competingRepo, ["commit", "-am", "competing writer"]);
+    git(competingRepo, ["push", "origin", "main"]);
+    const advanced = git(origin, ["rev-parse", "main"]);
+    assert.throws(() => git(auditRepo, ["push", "origin", `${auditHead}:refs/heads/main`]), /rejected|non-fast-forward/);
+    assert.equal(git(origin, ["rev-parse", "main"]), advanced, "a last-moment base move cannot be overwritten");
+    writeFileSync(join(competingRepo, "stamps"), "fresh audit\n");
+    git(competingRepo, ["add", "stamps"]);
+    git(competingRepo, ["commit", "-m", "fresh validated audit head"]);
+    const freshHead = git(competingRepo, ["rev-parse", "HEAD"]);
+    assert.equal(git(competingRepo, ["rev-parse", "HEAD^"]), advanced);
+    git(competingRepo, ["push", "origin", `${freshHead}:refs/heads/main`]);
+    assert.equal(git(origin, ["rev-parse", "main"]), freshHead);
+  } finally { rmSync(fixture, { recursive: true, force: true }); }
+
   // Run the real opener offline. A main move during a successful head check
   // must leave the PR open, never call merge, and never refresh its branch.
   const mockFetch = `
-    const calls = []; let mainReads = 0;
+    const calls = []; let mainReads = 0; let integrated = false;
     process.on('exit', () => console.log('MOCK_CALLS ' + JSON.stringify(calls)));
     globalThis.fetch = async (url, options = {}) => {
       const path = new URL(url).pathname + new URL(url).search;
       const method = options.method || 'GET';
-      calls.push({method, path, sha: options.body ? JSON.parse(options.body).sha : undefined});
-      const pr = {number: 1, html_url: 'https://github.com/owner/repo/pull/1', head: {sha: '${"c".repeat(40)}'}};
+      calls.push({method, path, body: options.body ? JSON.parse(options.body) : undefined});
+      const pr = {number: 1, state: 'open', base: {ref: 'main'}, html_url: 'https://github.com/owner/repo/pull/1', head: {sha: '${"c".repeat(40)}'}, merged: integrated, merge_commit_sha: integrated ? '${"c".repeat(40)}' : null};
       let body = {}, status = 200;
       if (path.includes('/actions/variables/')) status = 404;
       else if (path.endsWith('/commits/main')) {
-        const value = process.env.MOCK_MAIN_SEQUENCE[Math.min(mainReads++, 1)];
+        const values = process.env.MOCK_MAIN_SEQUENCE;
+        const value = values[Math.min(mainReads++, values.length - 1)];
         if (value === 'x') status = 503; else body = {sha: value.repeat(40)};
       } else if (path.includes('/pulls?')) body = [pr];
       else if (path.endsWith('/pulls/1')) body = pr;
+      else if (path.includes('/git/commits/')) body = {sha: '${"c".repeat(40)}', parents: [{sha: (process.env.MOCK_BAD_PARENT ? 'b' : 'a').repeat(40)}]};
       else if (path.includes('/check-runs?')) body = {check_runs: [{status: 'completed', conclusion: 'success'}]};
       else if (path.includes('/actions/runs?')) body = {workflow_runs: []};
       else if (method === 'POST' && ['/labels', '/comments', '/dispatches'].some(s => path.endsWith(s))) body = {};
       else if (method === 'PUT' && path.endsWith('/merge')) body = {merged: true};
+      else if (method === 'PATCH' && path.endsWith('/git/refs/heads/main')) {
+        if (JSON.parse(options.body).force !== false) throw new Error('Audit integration must never force a ref');
+        if (process.env.MOCK_MAIN_SEQUENCE === 'aaab') status = 422;
+        else {integrated = true; body = {object: {sha: '${"c".repeat(40)}'}};}
+      }
+      else if (method === 'PATCH' && path.endsWith('/pulls/1')) body = {state: 'closed'};
       else if (method === 'DELETE' && path.includes('/git/refs/heads/')) body = {};
       else throw new Error('Unexpected offline request: ' + method + ' ' + path);
       return new Response(JSON.stringify(body), {status});
     };
   `;
-  for (const [sequence, auditEnabled, expectedExit] of [["aa", true, 0], ["bb", true, 1], ["ab", true, 1], ["xx", true, 1], ["ab", false, 0]]) {
+  for (const [sequence, auditEnabled, expectedExit, badParent] of [["aaa", true, 0], ["bb", true, 1], ["ab", true, 1], ["xx", true, 1], ["ab", false, 0], ["aaab", true, 1], ["aaa", true, 1, true]]) {
     const env = { PATH: process.env.PATH, GITHUB_TOKEN: "offline-test-only", GITHUB_REPOSITORY: "owner/repo", BRANCH: "automation/test", PR_TITLE: "fixture", PR_AUTO_MERGE: "true", REQUIRED_CHECK_POLL_MS: "1", REQUIRED_CHECK_TIMEOUT_MS: "1000", MOCK_MAIN_SEQUENCE: sequence };
     if (auditEnabled) env.PR_AUDIT_SOURCE_COMMIT = audited;
+    if (badParent) env.MOCK_BAD_PARENT = "true";
     const result = spawnSync(process.execPath, ["--import", `data:text/javascript,${encodeURIComponent(mockFetch)}`, "scripts/open-automation-pr.mjs"], { env, encoding: "utf8", timeout: 5000 });
     assert.equal(result.status, expectedExit, result.stderr);
     const calls = JSON.parse(result.stdout.split("\n").find((line) => line.startsWith("MOCK_CALLS ")).slice(11));
-    const merges = calls.filter((call) => call.method === "PUT");
-    assert.equal(merges.length, expectedExit === 0 ? 1 : 0);
-    if (merges.length) assert.equal(merges[0].sha, "c".repeat(40), "merge stays bound to the validated head");
+    const merges = calls.filter((call) => call.method === "PUT" || (call.method === "PATCH" && call.path.endsWith("/git/refs/heads/main")));
+    assert.equal(merges.length, expectedExit === 0 || sequence === "aaab" ? 1 : 0);
+    if (merges.length) assert.equal(merges[0].body.sha, "c".repeat(40), "merge stays bound to the validated head");
+    if (merges.length && auditEnabled) {
+      assert.equal(merges[0].method, "PATCH");
+      assert.equal(merges[0].body.force, false, "atomic audit integration cannot force main");
+    }
     if (expectedExit === 1) assert(calls.some((call) => call.path.endsWith("/comments")), "a withheld PR gets an actionable explanation");
     if (auditEnabled && sequence === "ab") assert(calls.some((call) => call.path.includes("/check-runs?")), "main movement after a green head check is caught");
     if (!auditEnabled) assert(!calls.some((call) => call.path.endsWith("/commits/main")), "other writer lanes retain their publishing contract");
+    if ((auditEnabled && ["bb", "ab", "aaab"].includes(sequence)) || badParent) assert(calls.some((call) => call.method === "PATCH" && call.path.endsWith("/pulls/1") && call.body.state === "closed"), "invalidated audit PRs close instead of inviting a manual merge");
   }
 
   const workflow = parse(readFileSync(".github/workflows/daily-audit.yml", "utf8"));
@@ -94,7 +186,7 @@ async function selfTest() {
   assert(validation < finalCheck && finalCheck < publish);
   assert.match(steps[finalCheck].run, /check-audit-revision\.mjs --check-main/);
   assert.match(steps[publish].run, /PR_AUDIT_SOURCE_COMMIT="\$\(cat \.audit\/source-commit\.txt\)"/);
-  console.log("audit-revision self-test passed: stale evidence, moved main and unreadable revisions all withhold publishing.");
+  console.log("audit-revision self-test passed: atomic fast-forward race, stale-PR closure, fresh integration and unreadable evidence.");
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {

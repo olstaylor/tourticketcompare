@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "170064F4CBE0D992",
     "ticketmaster_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-11-2026/event/170064F4CBE0D992",
     "seatgeek_url": "https://seatgeek.com/lionel-richie-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-11-11-8-pm/concert/18405684",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lionel-richie-tickets-las-vegas-encore-theater-at-wynn-las-vegas-11-11-2026/production/7349331",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-11-2026/event/170064F4CBE0D992",
     "last_verified_at": "2026-10-14",
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7349331,
+        "url": "https://www.vividseats.com/lionel-richie-tickets-las-vegas-encore-theater-at-wynn-las-vegas-11-11-2026/production/7349331",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -72,7 +72,7 @@
     "ticketmaster_event_id": "170064F4CBE2D997",
     "ticketmaster_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-13-2026/event/170064F4CBE2D997",
     "seatgeek_url": "https://seatgeek.com/lionel-richie-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-11-13-8-pm/concert/18405685",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lionel-richie-tickets-las-vegas-encore-theater-at-wynn-las-vegas-11-13-2026/production/7349329",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-13-2026/event/170064F4CBE2D997",
     "last_verified_at": "2026-10-14",
@@ -94,11 +94,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7349329,
+        "url": "https://www.vividseats.com/lionel-richie-tickets-las-vegas-encore-theater-at-wynn-las-vegas-11-13-2026/production/7349329",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -132,7 +132,7 @@
     "ticketmaster_event_id": "170064F4CBE5D99B",
     "ticketmaster_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-14-2026/event/170064F4CBE5D99B",
     "seatgeek_url": "https://seatgeek.com/lionel-richie-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-11-14-8-pm/concert/18405683",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lionel-richie-tickets-las-vegas-encore-theater-at-wynn-las-vegas-11-14-2026/production/7349335",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-14-2026/event/170064F4CBE5D99B",
     "last_verified_at": "2026-10-14",
@@ -154,11 +154,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7349335,
+        "url": "https://www.vividseats.com/lionel-richie-tickets-las-vegas-encore-theater-at-wynn-las-vegas-11-14-2026/production/7349335",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -314,7 +314,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAv_-z",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv_-z",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lionel-richie-tickets-thackerville-lucas-oil-live-at-winstar-world-casino-1-30-2027/production/7474309",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv_-z",
     "last_verified_at": null,
@@ -336,11 +336,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7474309,
+        "url": "https://www.vividseats.com/lionel-richie-tickets-thackerville-lucas-oil-live-at-winstar-world-casino-1-30-2027/production/7474309",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

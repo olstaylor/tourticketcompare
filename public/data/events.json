@@ -35823,7 +35823,9 @@
         "end": "2026-10-21T19:00:00Z"
       }
     ],
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "previous_start_date": "2026-10-20T02:30:00Z",
+    "previous_start_timezone": "America/Los_Angeles"
   },
   {
     "id": "tm-doja-cat-2026-sacramento-g5vyzbsnj9ve1",
@@ -77283,7 +77285,7 @@
     "ticketmaster_event_id": "11006518D9D6ECD7",
     "ticketmaster_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-vancouver-british-columbia-05-12-2027/event/11006518D9D6ECD7",
     "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/vancouver-canada-malkin-bowl-2027-05-12-6-pm/concert/18551643",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/saint-levant-tickets-vancouver-malkin-bowl---stanley-park-5-12-2027--concerts-pop/production/7505908",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-vancouver-british-columbia-05-12-2027/event/11006518D9D6ECD7",
     "last_verified_at": "2026-10-07",
@@ -77305,11 +77307,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7505908,
+        "url": "https://www.vividseats.com/saint-levant-tickets-vancouver-malkin-bowl---stanley-park-5-12-2027--concerts-pop/production/7505908",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -99064,7 +99066,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "16006514CCD7E77F",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-cincinnati-ohio-11-21-2026/event/16006514CCD7E77F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/cincinnati-ohio-heritage-bank-center-2026-11-21-3-pm/concert/18573352",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-cincinnati-ohio-11-21-2026/event/16006514CCD7E77F",
@@ -99080,11 +99082,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573352,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/cincinnati-ohio-heritage-bank-center-2026-11-21-3-pm/concert/18573352",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -99134,7 +99136,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "1E006511C7C2B996",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-denver-colorado-11-21-2026/event/1E006511C7C2B996",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/denver-colorado-ball-arena-2026-11-21-3-pm/concert/18573356",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-denver-colorado-11-21-2026/event/1E006511C7C2B996",
@@ -99150,11 +99152,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573356,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/denver-colorado-ball-arena-2026-11-21-3-pm/concert/18573356",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -99473,7 +99475,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "1E006507D287756D",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-boise-idaho-11-27-2026/event/1E006507D287756D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/boise-idaho-extramile-arena-2026-11-27-2-pm/concert/18573377",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-boise-idaho-11-27-2026/event/1E006507D287756D",
@@ -99489,11 +99491,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573377,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/boise-idaho-extramile-arena-2026-11-27-2-pm/concert/18573377",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -99548,7 +99550,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "01006504C76593A1",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-worcester-massachusetts-11-28-2026/event/01006504C76593A1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/worcester-massachusetts-dcu-center-2026-11-28-3-pm/concert/18573384",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-worcester-massachusetts-11-28-2026/event/01006504C76593A1",
@@ -99564,11 +99566,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573384,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/worcester-massachusetts-dcu-center-2026-11-28-3-pm/concert/18573384",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -99969,7 +99971,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "1600650CA03760B5",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charleston-west-virginia-12-03-2026/event/1600650CA03760B5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/charleston-west-virginia-charleston-coliseum-convention-center-2026-12-03-7-30-pm/concert/18573402",
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-charleston-charleston-coliseum-and-convention-center-12-3-2026/production/7536609",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charleston-west-virginia-12-03-2026/event/1600650CA03760B5",
@@ -99985,11 +99987,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573402,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/charleston-west-virginia-charleston-coliseum-convention-center-2026-12-03-7-30-pm/concert/18573402",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536609,
@@ -100196,7 +100198,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "0500650DA86C688D",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-columbus-ohio-12-05-2026/event/0500650DA86C688D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/columbus-ohio-nationwide-arena-2026-12-05-3-pm/concert/18573412",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-columbus-ohio-12-05-2026/event/0500650DA86C688D",
@@ -100212,11 +100214,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573412,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/columbus-ohio-nationwide-arena-2026-12-05-3-pm/concert/18573412",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -100314,7 +100316,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "0800650CD46A85A3",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-grand-rapids-michigan-12-06-2026/event/0800650CD46A85A3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/grand-rapids-michigan-van-andel-arena-2026-12-06-3-pm/concert/18573423",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-grand-rapids-michigan-12-06-2026/event/0800650CD46A85A3",
@@ -100330,11 +100332,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573423,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/grand-rapids-michigan-van-andel-arena-2026-12-06-3-pm/concert/18573423",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -100520,7 +100522,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "3A006510C43173A4",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-austin-texas-12-09-2026/event/3A006510C43173A4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/austin-texas-moody-center-atx-2026-12-09-7-pm/concert/18573433",
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-austin-moody-center-atx-12-9-2026/production/7536643",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-austin-texas-12-09-2026/event/3A006510C43173A4",
@@ -100536,11 +100538,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573433,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/austin-texas-moody-center-atx-2026-12-09-7-pm/concert/18573433",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536643,
@@ -100784,7 +100786,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "2D006513F33FA1B5",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-greenville-south-carolina-12-11-2026/event/2D006513F33FA1B5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/greenville-south-carolina-bon-secours-wellness-arena-2026-12-11-3-pm/concert/18573437",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-greenville-south-carolina-12-11-2026/event/2D006513F33FA1B5",
@@ -100800,11 +100802,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573437,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/greenville-south-carolina-bon-secours-wellness-arena-2026-12-11-3-pm/concert/18573437",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -100897,7 +100899,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "2D006511DF4864ED",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charlotte-north-carolina-12-12-2026/event/2D006511DF4864ED",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-12-12-3-pm/concert/18573447",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charlotte-north-carolina-12-12-2026/event/2D006511DF4864ED",
@@ -100913,11 +100915,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573447,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-12-12-3-pm/concert/18573447",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -101027,7 +101029,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "0E00650786114C1D",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-duluth-georgia-12-13-2026/event/0E00650786114C1D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/duluth-georgia-gas-south-arena-2026-12-13-3-pm/concert/18573455",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-duluth-georgia-12-13-2026/event/0E00650786114C1D",
@@ -101043,11 +101045,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573455,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/duluth-georgia-gas-south-arena-2026-12-13-3-pm/concert/18573455",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -101092,7 +101094,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "0C00650E8C60591D",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-dallas-texas-12-13-2026/event/0C00650E8C60591D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/dallas-texas-american-airlines-center-2026-12-13-3-pm/concert/18573458",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-dallas-texas-12-13-2026/event/0C00650E8C60591D",
@@ -101108,11 +101110,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573458,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/dallas-texas-american-airlines-center-2026-12-13-3-pm/concert/18573458",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -101248,7 +101250,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "2000651393381D8C",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-birmingham-alabama-12-16-2026/event/2000651393381D8C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/birmingham-alabama-legacy-arena-at-the-bjcc-2026-12-16-7-pm/concert/18573466",
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-birmingham-legacy-arena-at-the-bjcc-12-16-2026/production/7536607",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-birmingham-alabama-12-16-2026/event/2000651393381D8C",
@@ -101264,11 +101266,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573466,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/birmingham-alabama-legacy-arena-at-the-bjcc-2026-12-16-7-pm/concert/18573466",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536607,
@@ -101499,7 +101501,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "020065188D2D8218",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-hershey-pennsylvania-12-18-2026/event/020065188D2D8218",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/hershey-pennsylvania-giant-center-2026-12-18-3-pm/concert/18573472",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-hershey-pennsylvania-12-18-2026/event/020065188D2D8218",
@@ -101515,11 +101517,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573472,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/hershey-pennsylvania-giant-center-2026-12-18-3-pm/concert/18573472",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -102034,7 +102036,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "0800650C01D5B80D",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-detroit-michigan-12-23-2026/event/0800650C01D5B80D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/detroit-michigan-little-caesars-arena-2026-12-23-3-pm/concert/18573495",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-detroit-michigan-12-23-2026/event/0800650C01D5B80D",
@@ -102050,11 +102052,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573495,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/detroit-michigan-little-caesars-arena-2026-12-23-3-pm/concert/18573495",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -102304,7 +102306,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "150064F6326AC910",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-washington-district-of-columbia-12-27-2026/event/150064F6326AC910",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/washington-district-of-columbia-capital-one-arena-2026-12-27-3-pm/concert/18573509",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-washington-district-of-columbia-12-27-2026/event/150064F6326AC910",
@@ -102320,11 +102322,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573509,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/washington-district-of-columbia-capital-one-arena-2026-12-27-3-pm/concert/18573509",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -187497,7 +187499,7 @@
     "ticketmaster_event_id": "10006544C72C8970",
     "ticketmaster_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-toronto-ontario-05-26-2027/event/10006544C72C8970",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-toronto-history-toronto-5-26-2027--concerts-pop/production/7661633",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-toronto-ontario-05-26-2027/event/10006544C72C8970",
     "last_verified_at": "2026-10-09",
@@ -187519,11 +187521,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7661633,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-toronto-history-toronto-5-26-2027--concerts-pop/production/7661633",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -199274,7 +199276,7 @@
     "ticketmaster_event_id": "10006544F4EAD977",
     "ticketmaster_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-toronto-ontario-03-21-2027/event/10006544F4EAD977",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-toronto-scotiabank-arena-3-21-2027/production/7678919",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-toronto-ontario-03-21-2027/event/10006544F4EAD977",
     "last_verified_at": "2026-10-11",
@@ -199296,11 +199298,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7678919,
+        "url": "https://www.vividseats.com/nickelback-tickets-toronto-scotiabank-arena-3-21-2027/production/7678919",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -205932,7 +205934,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1000650DC30A3737",
     "ticketmaster_url": "https://www.ticketmaster.ca/transsiberian-orchestra-the-ghosts-of-christmas-toronto-ontario-12-29-2026/event/1000650DC30A3737",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/toronto-canada-scotiabank-arena-2026-12-29-3-pm/concert/18573520",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/transsiberian-orchestra-the-ghosts-of-christmas-toronto-ontario-12-29-2026/event/1000650DC30A3737",
@@ -205948,11 +205950,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573520,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/toronto-canada-scotiabank-arena-2026-12-29-3-pm/concert/18573520",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -205985,7 +205987,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "060065198EC83CB6",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-kansas-city-missouri-12-29-2026/event/060065198EC83CB6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/kansas-city-missouri-t-mobile-center-2026-12-29-3-pm/concert/18573521",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-kansas-city-missouri-12-29-2026/event/060065198EC83CB6",
@@ -206001,11 +206003,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573521,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/kansas-city-missouri-t-mobile-center-2026-12-29-3-pm/concert/18573521",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -206060,7 +206062,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "00006514DBEFF80C",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-buffalo-new-york-12-30-2026/event/00006514DBEFF80C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/buffalo-new-york-keybank-center-2026-12-30-3-pm/concert/18573528",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-buffalo-new-york-12-30-2026/event/00006514DBEFF80C",
@@ -206076,11 +206078,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573528,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/buffalo-new-york-keybank-center-2026-12-30-3-pm/concert/18573528",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -206120,7 +206122,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "06006518DECC3331",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-saint-louis-missouri-12-30-2026/event/06006518DECC3331",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/saint-louis-missouri-enterprise-center-2026-12-30-3-pm/concert/18573529",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-saint-louis-missouri-12-30-2026/event/06006518DECC3331",
@@ -206136,11 +206138,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573529,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/saint-louis-missouri-enterprise-center-2026-12-30-3-pm/concert/18573529",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -221347,7 +221349,7 @@
     "ticketmaster_event_id": "14367194",
     "ticketmaster_url": "https://www.ticketweb.com/event/josiah-queen-the-damascus-road-calvary-community-church-tickets/14367194",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/josiah-queen-tickets-westlake-village-calvary-community-church---westlake-village-10-24-2026--concerts-world-music/production/7680360",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/josiah-queen-the-damascus-road-calvary-community-church-tickets/14367194",
     "last_verified_at": "2026-10-13",
@@ -221369,11 +221371,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7680360,
+        "url": "https://www.vividseats.com/josiah-queen-tickets-westlake-village-calvary-community-church---westlake-village-10-24-2026--concerts-world-music/production/7680360",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -241424,7 +241426,7 @@
     "ticketmaster_event_id": "050064AD9DFD765E",
     "ticketmaster_url": "https://www.ticketmaster.com/twenty-one-pilots-ohio-stadium-columbus-ohio-10-17-2026/event/050064AD9DFD765E",
     "seatgeek_url": "https://seatgeek.com/twenty-one-pilots-tickets/columbus-ohio-ohio-stadium-2026-10-17-6-pm/concert/18243148",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/twenty-one-pilots-tickets-columbus-ohio-stadium-10-17-2026--concerts-rock/production/7034787",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/twenty-one-pilots-ohio-stadium-columbus-ohio-10-17-2026/event/050064AD9DFD765E",
     "last_verified_at": null,
@@ -241446,11 +241448,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7034787,
+        "url": "https://www.vividseats.com/twenty-one-pilots-tickets-columbus-ohio-stadium-10-17-2026--concerts-rock/production/7034787",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -241477,7 +241479,7 @@
     "ticketmaster_event_id": "0200653CC47EC202",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-stewart-reading-pennsylvania-03-02-2027/event/0200653CC47EC202",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-reading-santander-arena-3-2-2027/production/7653344",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-reading-pennsylvania-03-02-2027/event/0200653CC47EC202",
     "last_verified_at": null,
@@ -241499,11 +241501,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653344,
+        "url": "https://www.vividseats.com/rod-stewart-tickets-reading-santander-arena-3-2-2027/production/7653344",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -241584,7 +241586,7 @@
     "ticketmaster_event_id": "0E006530BE302E91",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-stewart-savannah-georgia-03-08-2027/event/0E006530BE302E91",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-savannah-enmarket-arena-3-8-2027/production/7587733",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-savannah-georgia-03-08-2027/event/0E006530BE302E91",
     "last_verified_at": null,
@@ -241606,11 +241608,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7587733,
+        "url": "https://www.vividseats.com/rod-stewart-tickets-savannah-enmarket-arena-3-8-2027/production/7587733",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -241637,7 +241639,7 @@
     "ticketmaster_event_id": "1B0065398C6A8C3E",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-stewart-biloxi-mississippi-03-10-2027/event/1B0065398C6A8C3E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-biloxi-mississippi-coast-coliseum-3-10-2027/production/7620617",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-biloxi-mississippi-03-10-2027/event/1B0065398C6A8C3E",
     "last_verified_at": null,
@@ -241659,11 +241661,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7620617,
+        "url": "https://www.vividseats.com/rod-stewart-tickets-biloxi-mississippi-coast-coliseum-3-10-2027/production/7620617",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -241690,7 +241692,7 @@
     "ticketmaster_event_id": "0D006529970A6595",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-stewart-hollywood-florida-03-12-2027/event/0D006529970A6595",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-3-12-2027/production/7553115",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-hollywood-florida-03-12-2027/event/0D006529970A6595",
     "last_verified_at": null,
@@ -241712,11 +241714,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7553115,
+        "url": "https://www.vividseats.com/rod-stewart-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-3-12-2027/production/7553115",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -241796,7 +241798,7 @@
     "ticketmaster_event_id": "1D006547C8F973C3",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-stewart-uncasville-connecticut-03-19-2027/event/1D006547C8F973C3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-uncasville-mohegan-sun-arena-ct-3-19-2027/production/7696637",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-uncasville-connecticut-03-19-2027/event/1D006547C8F973C3",
     "last_verified_at": "2026-10-14",
@@ -241818,11 +241820,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7696637,
+        "url": "https://www.vividseats.com/rod-stewart-tickets-uncasville-mohegan-sun-arena-ct-3-19-2027/production/7696637",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -241978,7 +241980,7 @@
     "ticketmaster_event_id": "38006539CC7920F1",
     "ticketmaster_url": "https://www.ticketmaster.ie/rod-stewart-premium-priced-seating-belfast-27-04-2027/event/38006539CC7920F1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-belfast-the-o2---belfast-4-27-2027/production/7623208",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/rod-stewart-premium-priced-seating-belfast-27-04-2027/event/38006539CC7920F1",
     "last_verified_at": null,
@@ -242000,11 +242002,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7623208,
+        "url": "https://www.vividseats.com/rod-stewart-tickets-belfast-the-o2---belfast-4-27-2027/production/7623208",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -242031,7 +242033,7 @@
     "ticketmaster_event_id": "36006537F733A9B3",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/venue-premium-rod-stewart-the-final-glasgow-29-04-2027/event/36006537F733A9B3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-glasgow-ovo-hydro-4-29-2027/production/7623210",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/venue-premium-rod-stewart-the-final-glasgow-29-04-2027/event/36006537F733A9B3",
     "last_verified_at": null,
@@ -242053,11 +242055,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7623210,
+        "url": "https://www.vividseats.com/rod-stewart-tickets-glasgow-ovo-hydro-4-29-2027/production/7623210",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -242084,7 +242086,7 @@
     "ticketmaster_event_id": "36006539FC07E883",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-glasgow-01-05-2027/event/36006539FC07E883",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-glasgow-ovo-hydro-5-1-2027/production/7657693",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-glasgow-01-05-2027/event/36006539FC07E883",
     "last_verified_at": null,
@@ -242106,11 +242108,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7657693,
+        "url": "https://www.vividseats.com/rod-stewart-tickets-glasgow-ovo-hydro-5-1-2027/production/7657693",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -242137,7 +242139,7 @@
     "ticketmaster_event_id": "230065388F0C0AC1",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-birmingham-04-05-2027/event/230065388F0C0AC1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-birmingham-utilita-arena-birmingham-5-4-2027/production/7623212",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-birmingham-04-05-2027/event/230065388F0C0AC1",
     "last_verified_at": null,
@@ -242159,11 +242161,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7623212,
+        "url": "https://www.vividseats.com/rod-stewart-tickets-birmingham-utilita-arena-birmingham-5-4-2027/production/7623212",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -242190,7 +242192,7 @@
     "ticketmaster_event_id": "37006536B3613C04",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/rod-stewart-manchester-06-05-2027/event/37006536B3613C04",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-manchester-co-op-live-5-6-2027--concerts-adult-contemporary/production/7619870",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rod-stewart-manchester-06-05-2027/event/37006536B3613C04",
     "last_verified_at": null,
@@ -242212,11 +242214,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619870,
+        "url": "https://www.vividseats.com/rod-stewart-tickets-manchester-co-op-live-5-6-2027--concerts-adult-contemporary/production/7619870",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -242243,7 +242245,7 @@
     "ticketmaster_event_id": "37006538E6F78934",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/rod-stewart-manchester-08-05-2027/event/37006538E6F78934",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-manchester-co-op-live-5-8-2027/production/7657691",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rod-stewart-manchester-08-05-2027/event/37006538E6F78934",
     "last_verified_at": null,
@@ -242265,11 +242267,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7657691,
+        "url": "https://www.vividseats.com/rod-stewart-tickets-manchester-co-op-live-5-8-2027/production/7657691",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -242296,7 +242298,7 @@
     "ticketmaster_event_id": "35006538C14B8214",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-london-11-05-2027/event/35006538C14B8214",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-london-the-o2---london-5-11-2027/production/7621510",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-london-11-05-2027/event/35006538C14B8214",
     "last_verified_at": null,
@@ -242318,11 +242320,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7621510,
+        "url": "https://www.vividseats.com/rod-stewart-tickets-london-the-o2---london-5-11-2027/production/7621510",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -242349,7 +242351,7 @@
     "ticketmaster_event_id": "35006538F4DEA720",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-london-14-05-2027/event/35006538F4DEA720",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-london-the-o2---london-5-14-2027/production/7657633",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-london-14-05-2027/event/35006538F4DEA720",
     "last_verified_at": null,
@@ -242371,11 +242373,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7657633,
+        "url": "https://www.vividseats.com/rod-stewart-tickets-london-the-o2---london-5-14-2027/production/7657633",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -242508,7 +242510,7 @@
     "ticketmaster_event_id": "1441424309",
     "ticketmaster_url": "https://www.ticketmaster.de/event/rod-stewart-the-final-encore-tickets/1441424309?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-berlin-uber-arena-6-1-2027/production/7623204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/rod-stewart-the-final-encore-tickets/1441424309?language=en-us",
     "last_verified_at": null,
@@ -242530,11 +242532,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7623204,
+        "url": "https://www.vividseats.com/rod-stewart-tickets-berlin-uber-arena-6-1-2027/production/7623204",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -243517,7 +243519,7 @@
     "ticketmaster_event_id": "17006531A23DD202",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-las-vegas-nevada-04-07-2027/event/17006531A23DD202",
     "seatgeek_url": "https://seatgeek.com/leon-bridges-tickets/las-vegas-nevada-the-cosmopolitan-of-las-vegas-2027-04-07-8-pm/concert/18662693",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-las-vegas-cosmopolitan-of-las-vegas-4-7-2027--concerts-pop/production/7673661",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-las-vegas-nevada-04-07-2027/event/17006531A23DD202",
     "last_verified_at": "2026-10-14",
@@ -243539,11 +243541,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7673661,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-las-vegas-cosmopolitan-of-las-vegas-4-7-2027--concerts-pop/production/7673661",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -243588,7 +243590,7 @@
     "ticketmaster_event_id": "0C006545EE0EAECE",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-fort-worth-texas-04-23-2027/event/0C006545EE0EAECE",
     "seatgeek_url": "https://seatgeek.com/leon-bridges-tickets/fort-worth-texas-dickies-arena-2027-04-23-7-pm/concert/18662691",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-fort-worth-dickies-arena-4-23-2027/production/7673588",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-fort-worth-texas-04-23-2027/event/0C006545EE0EAECE",
     "last_verified_at": "2026-10-14",
@@ -243610,11 +243612,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7673588,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-fort-worth-dickies-arena-4-23-2027/production/7673588",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -243664,7 +243666,7 @@
     "ticketmaster_event_id": "10006547B38C703E",
     "ticketmaster_url": "https://www.ticketmaster.ca/leon-bridges-presents-the-happiness-anytime-toronto-ontario-04-27-2027/event/10006547B38C703E",
     "seatgeek_url": "https://seatgeek.com/leon-bridges-tickets/toronto-canada-scotiabank-arena-2027-04-27-7-pm/concert/18662696",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-toronto-scotiabank-arena-4-27-2027--concerts-pop/production/7673720",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/leon-bridges-presents-the-happiness-anytime-toronto-ontario-04-27-2027/event/10006547B38C703E",
     "last_verified_at": "2026-10-14",
@@ -243686,11 +243688,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7673720,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-toronto-scotiabank-arena-4-27-2027--concerts-pop/production/7673720",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -243745,7 +243747,7 @@
     "ticketmaster_event_id": "3B006546A82E4535",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-new-york-new-york-05-01-2027/event/3B006546A82E4535",
     "seatgeek_url": "https://seatgeek.com/leon-bridges-tickets/new-york-new-york-madison-square-garden-2027-05-01-7-pm/concert/18662692",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-new-york-madison-square-garden-5-1-2027/production/7673638",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-new-york-new-york-05-01-2027/event/3B006546A82E4535",
     "last_verified_at": "2026-10-14",
@@ -243767,11 +243769,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7673638,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-new-york-madison-square-garden-5-1-2027/production/7673638",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -243836,7 +243838,7 @@
     "ticketmaster_event_id": "2D00653CCF38F718",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-charlotte-north-carolina-07-16-2027/event/2D00653CCF38F718",
     "seatgeek_url": "https://seatgeek.com/leon-bridges-tickets/charlotte-north-carolina-skyla-credit-union-amphitheatre-2027-07-16-7-30-pm/concert/18662695",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-charlotte-skyla-credit-union-amphitheatre-7-16-2027--concerts-pop/production/7673673",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-charlotte-north-carolina-07-16-2027/event/2D00653CCF38F718",
     "last_verified_at": "2026-10-14",
@@ -243858,11 +243860,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7673673,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-charlotte-skyla-credit-union-amphitheatre-7-16-2027--concerts-pop/production/7673673",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -243912,7 +243914,7 @@
     "ticketmaster_event_id": "0E0065310787F624",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-alpharetta-georgia-07-17-2027/event/0E0065310787F624",
     "seatgeek_url": "https://seatgeek.com/leon-bridges-tickets/alpharetta-georgia-ameris-bank-amphitheatre-2027-07-17-8-pm/concert/18662694",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-alpharetta-ameris-bank-amphitheatre-7-17-2027/production/7673667",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-alpharetta-georgia-07-17-2027/event/0E0065310787F624",
     "last_verified_at": "2026-10-14",
@@ -243934,11 +243936,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7673667,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-alpharetta-ameris-bank-amphitheatre-7-17-2027/production/7673667",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -243993,7 +243995,7 @@
     "ticketmaster_event_id": "2D00653C8FFC652C",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-wilmington-north-carolina-07-21-2027/event/2D00653C8FFC652C",
     "seatgeek_url": "https://seatgeek.com/leon-bridges-tickets/wilmington-north-carolina-live-oak-bank-pavilion-2027-07-21-7-pm/concert/18662705",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-wilmington-live-oak-bank-pavilion-7-21-2027/production/7673675",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-wilmington-north-carolina-07-21-2027/event/2D00653C8FFC652C",
     "last_verified_at": "2026-10-14",
@@ -244015,11 +244017,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7673675,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-wilmington-live-oak-bank-pavilion-7-21-2027/production/7673675",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -244064,7 +244066,7 @@
     "ticketmaster_event_id": "1500654777682AF6",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-columbia-maryland-07-23-2027/event/1500654777682AF6",
     "seatgeek_url": "https://seatgeek.com/leon-bridges-tickets/columbia-maryland-merriweather-post-pavilion-2027-07-23-7-pm/concert/18662706",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-columbia-merriweather-post-pavilion-7-23-2027/production/7673671",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-columbia-maryland-07-23-2027/event/1500654777682AF6",
     "last_verified_at": "2026-10-14",
@@ -244086,11 +244088,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7673671,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-columbia-merriweather-post-pavilion-7-23-2027/production/7673671",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -244130,7 +244132,7 @@
     "ticketmaster_event_id": "0100653A130EF7AC",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-boston-massachusetts-07-24-2027/event/0100653A130EF7AC",
     "seatgeek_url": "https://seatgeek.com/leon-bridges-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-07-24-8-pm/concert/18662708",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-boston-mgm-music-hall-at-fenway-7-24-2027--concerts-pop/production/7673604",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-boston-massachusetts-07-24-2027/event/0100653A130EF7AC",
     "last_verified_at": "2026-10-14",
@@ -244152,11 +244154,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7673604,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-boston-mgm-music-hall-at-fenway-7-24-2027--concerts-pop/production/7673604",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -244201,7 +244203,7 @@
     "ticketmaster_event_id": "0200653EAA31A9CF",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-philadelphia-pennsylvania-07-28-2027/event/0200653EAA31A9CF",
     "seatgeek_url": "https://seatgeek.com/leon-bridges-tickets/philadelphia-pennsylvania-td-pavilion-at-the-mann-center-2027-07-28-7-30-pm/concert/18662710",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-philadelphia-td-pavilion-at-the-mann-7-28-2027--concerts-pop/production/7673687",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-philadelphia-pennsylvania-07-28-2027/event/0200653EAA31A9CF",
     "last_verified_at": "2026-10-14",
@@ -244223,11 +244225,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7673687,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-philadelphia-td-pavilion-at-the-mann-7-28-2027--concerts-pop/production/7673687",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -244272,7 +244274,7 @@
     "ticketmaster_event_id": "0F00653CC4E5C395",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-bend-oregon-08-12-2027/event/0F00653CC4E5C395",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-bend-hayden-homes-amphitheater-8-12-2027--concerts-pop/production/7673616",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-bend-oregon-08-12-2027/event/0F00653CC4E5C395",
     "last_verified_at": "2026-10-14",
@@ -244294,11 +244296,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7673616,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-bend-hayden-homes-amphitheater-8-12-2027--concerts-pop/production/7673616",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -244358,7 +244360,7 @@
     "ticketmaster_event_id": "0F006546BF749849",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-seattle-washington-08-13-2027/event/0F006546BF749849",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-seattle-climate-pledge-arena-8-13-2027/production/7673679",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-seattle-washington-08-13-2027/event/0F006546BF749849",
     "last_verified_at": "2026-10-14",
@@ -244380,11 +244382,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7673679,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-seattle-climate-pledge-arena-8-13-2027/production/7673679",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -244429,7 +244431,7 @@
     "ticketmaster_event_id": "11006528DE3D9AAB",
     "ticketmaster_url": "https://www.ticketmaster.ca/leon-bridges-presents-the-happiness-anytime-edmonton-alberta-08-17-2027/event/11006528DE3D9AAB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-edmonton-northern-alberta-jubilee-auditorium-8-17-2027--concerts-pop/production/7673730",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/leon-bridges-presents-the-happiness-anytime-edmonton-alberta-08-17-2027/event/11006528DE3D9AAB",
     "last_verified_at": "2026-10-14",
@@ -244451,11 +244453,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7673730,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-edmonton-northern-alberta-jubilee-auditorium-8-17-2027--concerts-pop/production/7673730",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -244642,7 +244644,7 @@
     "ticketmaster_event_id": "1E006546E67AD312",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-bonner-montana-08-21-2027/event/1E006546E67AD312",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-bonner-kettlehouse-amphitheater-8-21-2027--concerts-pop/production/7673614",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-bonner-montana-08-21-2027/event/1E006546E67AD312",
     "last_verified_at": "2026-10-14",
@@ -244664,11 +244666,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7673614,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-bonner-kettlehouse-amphitheater-8-21-2027--concerts-pop/production/7673614",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -244708,7 +244710,7 @@
     "ticketmaster_event_id": "21006538CAEAAA57",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-waukee-iowa-08-25-2027/event/21006538CAEAAA57",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-waukee-vibrant-music-hall-8-25-2027--concerts-pop/production/7673610",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-waukee-iowa-08-25-2027/event/21006538CAEAAA57",
     "last_verified_at": "2026-10-14",
@@ -244730,11 +244732,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7673610,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-waukee-vibrant-music-hall-8-25-2027--concerts-pop/production/7673610",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -244789,7 +244791,7 @@
     "ticketmaster_event_id": "0500653D96EF6236",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-indianapolis-indiana-08-26-2027/event/0500653D96EF6236",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-indianapolis-everwise-amphitheater-at-white-river-state-park-8-26-2027/production/7673691",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-indianapolis-indiana-08-26-2027/event/0500653D96EF6236",
     "last_verified_at": "2026-10-14",
@@ -244811,11 +244813,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7673691,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-indianapolis-everwise-amphitheater-at-white-river-state-park-8-26-2027/production/7673691",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -244875,7 +244877,7 @@
     "ticketmaster_event_id": "0700653EB9C18B89",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-milwaukee-wisconsin-09-15-2027/event/0700653EB9C18B89",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-milwaukee-landmark-credit-union-live-9-15-2027--concerts-pop/production/7673622",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-milwaukee-wisconsin-09-15-2027/event/0700653EB9C18B89",
     "last_verified_at": "2026-10-14",
@@ -244897,11 +244899,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7673622,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-milwaukee-landmark-credit-union-live-9-15-2027--concerts-pop/production/7673622",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -244941,7 +244943,7 @@
     "ticketmaster_event_id": "0600654617002F28",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-minneapolis-minnesota-09-17-2027/event/0600654617002F28",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-minneapolis-armory---minneapolis-9-17-2027--concerts-pop/production/7673608",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-minneapolis-minnesota-09-17-2027/event/0600654617002F28",
     "last_verified_at": "2026-10-14",
@@ -244963,11 +244965,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7673608,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-minneapolis-armory---minneapolis-9-17-2027--concerts-pop/production/7673608",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -245017,7 +245019,7 @@
     "ticketmaster_event_id": "1B006535A5C4A6AE",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-rogers-arkansas-09-23-2027/event/1B006535A5C4A6AE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-rogers-walmart-amp-9-23-2027--concerts-pop/production/7673626",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-rogers-arkansas-09-23-2027/event/1B006535A5C4A6AE",
     "last_verified_at": "2026-10-14",
@@ -245039,11 +245041,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7673626,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-rogers-walmart-amp-9-23-2027--concerts-pop/production/7673626",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -245098,7 +245100,7 @@
     "ticketmaster_event_id": "3A006547C6CE4717",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-austin-texas-09-24-2027/event/3A006547C6CE4717",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-austin-moody-center-atx-9-24-2027/production/7673695",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-austin-texas-09-24-2027/event/3A006547C6CE4717",
     "last_verified_at": "2026-10-14",
@@ -245120,11 +245122,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7673695,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-austin-moody-center-atx-9-24-2027/production/7673695",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -245174,7 +245176,7 @@
     "ticketmaster_event_id": "3A00653EA429BF88",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-houston-texas-09-25-2027/event/3A00653EA429BF88",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-houston-713-music-hall-9-25-2027--concerts-pop/production/7673606",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-houston-texas-09-25-2027/event/3A00653EA429BF88",
     "last_verified_at": "2026-10-14",
@@ -245196,11 +245198,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7673606,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-houston-713-music-hall-9-25-2027--concerts-pop/production/7673606",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -245240,7 +245242,7 @@
     "ticketmaster_event_id": "19006546DFE1C745",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-phoenix-arizona-09-29-2027/event/19006546DFE1C745",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-phoenix-arizona-financial-theatre-9-29-2027--concerts-pop/production/7673714",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-phoenix-arizona-09-29-2027/event/19006546DFE1C745",
     "last_verified_at": "2026-10-14",
@@ -245262,11 +245264,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7673714,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-phoenix-arizona-financial-theatre-9-29-2027--concerts-pop/production/7673714",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -245316,7 +245318,7 @@
     "ticketmaster_event_id": "170064F4CBE0D992",
     "ticketmaster_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-11-2026/event/170064F4CBE0D992",
     "seatgeek_url": "https://seatgeek.com/lionel-richie-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-11-11-8-pm/concert/18405684",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lionel-richie-tickets-las-vegas-encore-theater-at-wynn-las-vegas-11-11-2026/production/7349331",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-11-2026/event/170064F4CBE0D992",
     "last_verified_at": "2026-10-14",
@@ -245338,11 +245340,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7349331,
+        "url": "https://www.vividseats.com/lionel-richie-tickets-las-vegas-encore-theater-at-wynn-las-vegas-11-11-2026/production/7349331",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -245376,7 +245378,7 @@
     "ticketmaster_event_id": "170064F4CBE2D997",
     "ticketmaster_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-13-2026/event/170064F4CBE2D997",
     "seatgeek_url": "https://seatgeek.com/lionel-richie-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-11-13-8-pm/concert/18405685",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lionel-richie-tickets-las-vegas-encore-theater-at-wynn-las-vegas-11-13-2026/production/7349329",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-13-2026/event/170064F4CBE2D997",
     "last_verified_at": "2026-10-14",
@@ -245398,11 +245400,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7349329,
+        "url": "https://www.vividseats.com/lionel-richie-tickets-las-vegas-encore-theater-at-wynn-las-vegas-11-13-2026/production/7349329",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -245436,7 +245438,7 @@
     "ticketmaster_event_id": "170064F4CBE5D99B",
     "ticketmaster_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-14-2026/event/170064F4CBE5D99B",
     "seatgeek_url": "https://seatgeek.com/lionel-richie-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-11-14-8-pm/concert/18405683",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lionel-richie-tickets-las-vegas-encore-theater-at-wynn-las-vegas-11-14-2026/production/7349335",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-14-2026/event/170064F4CBE5D99B",
     "last_verified_at": "2026-10-14",
@@ -245458,11 +245460,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7349335,
+        "url": "https://www.vividseats.com/lionel-richie-tickets-las-vegas-encore-theater-at-wynn-las-vegas-11-14-2026/production/7349335",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -245618,7 +245620,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAv_-z",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv_-z",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lionel-richie-tickets-thackerville-lucas-oil-live-at-winstar-world-casino-1-30-2027/production/7474309",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv_-z",
     "last_verified_at": null,
@@ -245640,11 +245642,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7474309,
+        "url": "https://www.vividseats.com/lionel-richie-tickets-thackerville-lucas-oil-live-at-winstar-world-casino-1-30-2027/production/7474309",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

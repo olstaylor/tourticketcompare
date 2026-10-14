@@ -25,7 +25,7 @@ export function snapshotFields(data) {
     promoters: list(data.promoters, (p) => ({ name: raw(p?.name) })),
     dates: {
       timezone: raw(data.dates?.timezone),
-      end: { dateTime: raw(data.dates?.end?.dateTime) },
+      end: { dateTime: raw(data.dates?.end?.dateTime), approximate: raw(data.dates?.end?.approximate), noSpecificTime: raw(data.dates?.end?.noSpecificTime) },
       start: { dateTime: raw(data.dates?.start?.dateTime), localDate: raw(data.dates?.start?.localDate), timeZone: raw(data.dates?.start?.timeZone) },
       status: { code: raw(data.dates?.status?.code) }
     },

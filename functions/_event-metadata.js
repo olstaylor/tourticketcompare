@@ -15,6 +15,9 @@ export function eventEndDate(event) {
 
 export function officialEventMetadata(data) {
   const names = organizerNames((Array.isArray(data?.promoters) && data.promoters.length ? data.promoters : [data?.promoter]).map((p) => p?.name));
-  const end = eventEndDate({ datetime_iso: data?.dates?.start?.dateTime, end_datetime_iso: data?.dates?.end?.dateTime });
+  // An estimated or time-TBA end is not an exact clock time. Older snapshots
+  // lack these qualifiers, so wait for a fresh, explicitly precise response.
+  const precise = data?.dates?.end?.approximate === false && data?.dates?.end?.noSpecificTime === false;
+  const end = precise ? eventEndDate({ datetime_iso: data?.dates?.start?.dateTime, end_datetime_iso: data?.dates?.end?.dateTime }) : '';
   return { ...(names.length ? { organizer_names: names } : {}), ...(end ? { end_datetime_iso: end } : {}) };
 }

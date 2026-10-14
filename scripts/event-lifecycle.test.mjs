@@ -109,7 +109,7 @@ function fixtureEvent(id, iso, extra = {}) {
 }
 
 const SCHEDULED = fixtureEvent("fixture-scheduled", "2026-09-11T01:00:00Z");
-const RESCHEDULED = fixtureEvent("fixture-rescheduled", "2026-09-12T01:00:00Z", { ticketmaster_status_code: "rescheduled", previous_start_date: "2026-09-04T21:00:00-04:00", organizer_names: ["Official Fixture Promoter"], end_datetime_iso: "2026-09-12T04:00:00Z" });
+const RESCHEDULED = fixtureEvent("fixture-rescheduled", "2026-09-12T01:00:00Z", { ticketmaster_status_code: "rescheduled", previous_start_date: "2026-09-04T21:00:00-04:00", organizer_names: ["Official Fixture Promoter"], end_datetime_iso: "2026-09-12T05:00:00Z" });
 const CANCELLED = fixtureEvent("fixture-cancelled", "2026-09-13T01:00:00Z", { ticketmaster_status_code: "cancelled" });
 const CANCELED = fixtureEvent("fixture-canceled", "2026-09-14T01:00:00Z", { ticketmaster_status_code: "canceled" });
 const POSTPONED = fixtureEvent("fixture-postponed", "2026-09-15T01:00:00Z", { ticketmaster_status_code: "postponed" });
@@ -436,6 +436,7 @@ for (const pathname of PAGES) {
     assert(scheduledNode.eventStatus === "https://schema.org/EventScheduled", `${pathname}: a scheduled node stays EventScheduled`);
     assert(rescheduledNode?.organizer?.[0]?.name === "Official Fixture Promoter", `${pathname}: official organizer survives board mapping`);
     assert(Date.parse(rescheduledNode?.endDate) === Date.parse(RESCHEDULED.end_datetime_iso), `${pathname}: official event end survives board mapping`);
+    assert(/Ends:.*12:00 AM/.test(card(html, RESCHEDULED.id)), `${pathname}: an explicit midnight end stays visible`);
     assert(html.includes("Official Fixture Promoter"), `${pathname}: organizer is visible`);
     assert(rescheduledNode?.eventStatus === "https://schema.org/EventRescheduled", `${pathname}: the rescheduled node says EventRescheduled`);
     assert(Date.parse(rescheduledNode.previousStartDate) === Date.parse(RESCHEDULED.previous_start_date), `${pathname}: the recorded previousStartDate survives the board mapping`);
@@ -551,6 +552,7 @@ async function out(showId, provider) {
   const rescheduled = await render(eventPages.eventPath(RESCHEDULED));
   const [rescheduledNode] = jsonLd(rescheduled.html).filter((node) => node?.["@type"] === "MusicEvent");
   assert(rescheduledNode?.organizer?.[0]?.name === "Official Fixture Promoter" && rescheduled.html.includes("Official Fixture Promoter"), "event page states visible official organizer");
+  assert(/Ends<\/dt><dd>[^<]*12:00 AM/.test(rescheduled.html), "event details retain the explicit midnight end time");
   assert(Date.parse(rescheduledNode?.endDate) === Date.parse(RESCHEDULED.end_datetime_iso), "event page states official event end");
   assert(rescheduledNode?.eventStatus === "https://schema.org/EventRescheduled" && Date.parse(rescheduledNode.previousStartDate) === Date.parse(RESCHEDULED.previous_start_date), "a rescheduled event page states its recorded previousStartDate");
   assert(/Previously scheduled/.test(text(rescheduled.html)), "the event page shows the recorded previous date");

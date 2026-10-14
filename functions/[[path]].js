@@ -1429,7 +1429,7 @@ function musicEventName(show, artistName) {
 function renderOfficialMetadata(show) {
   const names = organizerNames(show.organizer_names);
   const end = eventEndDate(show);
-  const parts = [names.length ? `Organizer: ${escapeHtml(names.join(", "))}` : "", end ? `Ends: <time datetime="${escapeAttr(end)}">${escapeHtml(formatShowDateServer(end, show.timezone))} ${escapeHtml(showLocalTimeServer(end, show.timezone))}</time>` : ""].filter(Boolean);
+  const parts = [names.length ? `Organizer: ${escapeHtml(names.join(", "))}` : "", end ? `Ends: <time datetime="${escapeAttr(end)}">${escapeHtml(formatShowDateServer(end, show.timezone))} ${escapeHtml(showLocalTimeServer(end, show.timezone, true))}</time>` : ""].filter(Boolean);
   return parts.length ? `<p class="show-card-sub muted">${parts.join(" · ")}</p>` : "";
 }
 
@@ -5092,7 +5092,7 @@ function formatShortDateServer(iso, timezone) {
 // time lands exactly on midnight is a date-only record, and printing "12:00 AM"
 // for it would invent a start time the source never gave us.
 // Keep in sync with showLocalTime in public/app.js.
-function showLocalTimeServer(iso, timezone) {
+function showLocalTimeServer(iso, timezone, includeMidnight = false) {
   const parts = venueDateParts(iso, timezone);
   if (!parts) return "";
   try {
@@ -5103,7 +5103,7 @@ function showLocalTimeServer(iso, timezone) {
     const hour = Number(dateFormatter({ hour: "numeric", hourCycle: "h23" }, parts.timeZone).format(parts.date));
     const minute = Number(dateFormatter({ minute: "numeric" }, parts.timeZone).format(parts.date));
     if (!Number.isFinite(hour) || !Number.isFinite(minute)) return "";
-    if ((hour === 0 || hour === 24) && minute === 0) return "";
+    if (!includeMidnight && (hour === 0 || hour === 24) && minute === 0) return "";
     return dateFormatter({ hour: "numeric", minute: "2-digit" }, parts.timeZone).format(parts.date);
   } catch (error) {
     return "";
@@ -6928,7 +6928,7 @@ function renderEventPageBody(route, events, env) {
     eventName && eventName.toLowerCase() !== artist.name.toLowerCase() ? ["Billed as", escapeHtml(eventName)] : null,
     show.tour_name ? ["Tour", escapeHtml(show.tour_name)] : null,
     organizerNames(show.organizer_names).length ? ["Organizer", escapeHtml(organizerNames(show.organizer_names).join(", "))] : null,
-    eventEndDate(show) ? ["Ends", escapeHtml(`${formatShowDateServer(show.end_datetime_iso, show.timezone)} ${showLocalTimeServer(show.end_datetime_iso, show.timezone)}`)] : null,
+    eventEndDate(show) ? ["Ends", escapeHtml(`${formatShowDateServer(show.end_datetime_iso, show.timezone)} ${showLocalTimeServer(show.end_datetime_iso, show.timezone, true)}`)] : null,
     ["Venue", escapeHtml(show.venue)],
     ["City", escapeHtml([show.city, show.country ? normalizeCountry(show.country) : ""].filter(Boolean).join(", "))],
     ["Date", `<time datetime="${escapeAttr(show.dateTimeISO)}">${escapeHtml(dateLabel)}</time>`],

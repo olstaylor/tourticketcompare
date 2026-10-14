@@ -476,7 +476,8 @@ function computeIntendedUpdates(event, remote, now = Date.now()) {
   }
 
   // A moved start invalidates an old end unless this response supplies a new one.
-  if (changes.some((change) => change.field === 'datetime_iso') && event.end_datetime_iso && !officialEventMetadata(data).end_datetime_iso) {
+  const qualifiedEnd = data?.dates?.end?.approximate === true || data?.dates?.end?.noSpecificTime === true;
+  if (event.end_datetime_iso && (qualifiedEnd || (changes.some((change) => change.field === 'datetime_iso') && !officialEventMetadata(data).end_datetime_iso))) {
     changes.push({ field: 'end_datetime_iso', from: event.end_datetime_iso, to: null });
   }
 
@@ -844,6 +845,8 @@ async function runSelfTest() {
   const ev = (o) => ({ datetime_iso: '', timezone: '', venue: '', city: '', country: '', ticketmaster_event_id: 'X', ticketmaster_url: '', ...o });
   const remote = (o) => ({ data: { id: 'X', dates: { start: {}, timezone: '' }, _embedded: { venues: [{ name: '', city: { name: '' }, country: { name: '' } }] }, ...o } });
   const fieldsOf = (e, r) => computeIntendedUpdates(e, r).map((c) => c.field);
+
+  assert('a newly qualified end clears an old exact end', computeIntendedUpdates(ev({ datetime_iso: '2026-10-01T18:00:00Z', end_datetime_iso: '2026-10-01T21:00:00Z' }), remote({ dates: { start: { dateTime: '2026-10-01T18:00:00Z' }, end: { dateTime: '2026-10-01T21:00:00Z', approximate: true, noSpecificTime: false } } })).some((c) => c.field === 'end_datetime_iso' && c.to === null));
 
   assert('official promoter names are stored', fieldsOf(ev({}), remote({ promoters: [{ name: 'Official Promoter' }] })).includes('organizer_names'));
   assert('old snapshots do not erase organizers', !fieldsOf(ev({ organizer_names: ['Official Promoter'] }), remote({})).includes('organizer_names'));

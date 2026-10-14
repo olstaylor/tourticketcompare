@@ -677,7 +677,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-omaha-chi-health-center-omaha-2-13-2027/production/7642102",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-omaha-nebraska-02-13-2027/event/0600653DCC02D8E5",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -740,11 +740,6 @@
         "name": "VIP Packages Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-15T03:00:00Z"
-      },
-      {
-        "name": "GVF Fan Presale",
-        "start": "2026-10-13T15:00:00Z",
-        "end": "2026-10-14T03:00:00Z"
       },
       {
         "name": "Reserved by Spotify",

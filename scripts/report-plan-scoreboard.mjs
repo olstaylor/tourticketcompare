@@ -152,7 +152,12 @@ export function renderScoreboard(board) {
       `**${floorCheck.label} bar** (search visits ${floorCheck.floor.searchVisits}, plan realClicks ${floorCheck.floor.realClicks}): search visits ${ok("searchVisits") ? "met" : "not yet met"}; redirect verdict withheld.`
     );
   }
-  if (board.next) lines.push(`**Next checkpoint, ${board.next.label}:** ${board.next.text}`);
+  if (board.next) {
+    const checkpointText = board.next.floor
+      ? `Search visits at or above ${board.next.floor.searchVisits} a week; redirect checkpoint withheld until the owner recalibrates its basis.`
+      : board.next.text;
+    lines.push(`**Next checkpoint, ${board.next.label}:** ${checkpointText}`);
+  }
   const pages = board.funnel?.pages || [];
   if (pages.length) {
     const pct = (a, b) => (b ? `${Math.round((a / b) * 100)}%` : "–");
@@ -241,6 +246,9 @@ function selfTest() {
   assert.ok(md.includes("search visits between low and base, redirect target comparison withheld"));
   assert.ok(md.includes("search visits met; redirect verdict withheld"));
   assert.ok(md.includes("Orders and commission are not counted here"));
+  const november = renderScoreboard({ ...board, next: PLAN.checkpoints.find((c) => c.floor) });
+  assert.ok(november.includes("redirect checkpoint withheld"));
+  assert.ok(!november.includes("real clicks at or above 250"));
   assert.deepEqual(statements.map((s) => s.key), ["search", "clicks", "funnelPages", "funnelProviders"]);
   assert.ok(statements[2].sql.includes("created_at >= '2026-10-05T00:00:00.000Z'"), "funnel covers only the last full week");
   const funnelBoard = buildScoreboard(

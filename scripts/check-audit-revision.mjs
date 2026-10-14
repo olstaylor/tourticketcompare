@@ -29,9 +29,10 @@ export async function checkAuditMergeRevision({ audited, repo, request }) {
 export async function mergeAuditedPr({ audited, repo, head, number, request, sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms)) }) {
   assertAuditRevision({ audited, checkout: audited, main: audited });
   const pr = await request("GET", `/repos/${repo}/pulls/${number}`);
-  if (pr.state !== "open" || pr.head?.sha !== head || pr.base?.ref !== "main") {
-    throw new Error("Audit PR head or target changed; fresh evidence and validation are required.");
+  if (pr.head?.sha !== head || pr.base?.ref !== "main") {
+    throw Object.assign(new Error("Audit PR head or target changed; fresh evidence and validation are required."), { code: "STALE_AUDIT" });
   }
+  if (pr.state !== "open") throw new Error("Audit PR is no longer open; publication is withheld.");
   const commit = await request("GET", `/repos/${repo}/git/commits/${head}`);
   if (commit.sha !== head || commit.parents?.length !== 1 || commit.parents[0]?.sha !== audited) {
     throw Object.assign(new Error("Audit PR is not a direct child of the audited revision; its evidence is invalidated."), { code: "STALE_AUDIT" });
@@ -45,8 +46,21 @@ export async function mergeAuditedPr({ audited, repo, head, number, request, sle
     // GitHub's merged PR with this exact head; otherwise expose the failure.
     const latest = await request("GET", `/repos/${repo}/pulls/${number}`);
     if (latest.merged && latest.merge_commit_sha === head) return;
-    await checkAuditMergeRevision({ audited, repo, request });
-    throw err;
+    const live = await request("GET", `/repos/${repo}/commits/main`);
+    if (live?.sha !== head) {
+      let includesHead = false;
+      if (/^[0-9a-f]{40}$/.test(live?.sha || "")) {
+        const comparison = await request("GET", `/repos/${repo}/compare/${head}...${live.sha}`);
+        includesHead = comparison.status === "ahead" && comparison.merge_base_commit?.sha === head;
+      }
+      if (!includesHead) {
+        assertAuditRevision({ audited, checkout: audited, main: live?.sha });
+        throw err;
+      }
+    }
+    // The write reached main even though its response was lost. PR merge
+    // metadata is asynchronous; continue confirmation below, never invalidate
+    // an already published, validated head as stale evidence.
   }
   for (let attempt = 0; attempt < 5; attempt++) {
     const latest = await request("GET", `/repos/${repo}/pulls/${number}`);
@@ -121,24 +135,27 @@ async function selfTest() {
   } finally { rmSync(fixture, { recursive: true, force: true }); }
 
   // Run the real opener offline. A main move during a successful head check
-  // must leave the PR open, never call merge, and never refresh its branch.
+  // must close the invalidated PR and never refresh its branch.
   const mockFetch = `
-    const calls = []; let mainReads = 0; let integrated = false;
+    const calls = []; let mainReads = 0; let integrated = false; let mergeReads = 0;
     process.on('exit', () => console.log('MOCK_CALLS ' + JSON.stringify(calls)));
     globalThis.fetch = async (url, options = {}) => {
       const path = new URL(url).pathname + new URL(url).search;
       const method = options.method || 'GET';
       calls.push({method, path, body: options.body ? JSON.parse(options.body) : undefined});
-      const pr = {number: 1, state: 'open', base: {ref: 'main'}, html_url: 'https://github.com/owner/repo/pull/1', head: {sha: '${"c".repeat(40)}'}, merged: integrated, merge_commit_sha: integrated ? '${"c".repeat(40)}' : null};
+      const merged = integrated && (!process.env.MOCK_LOST_RESPONSE || ++mergeReads > 1);
+      const changed = path.endsWith('/pulls/1') && process.env.MOCK_CHANGED_PR;
+      const pr = {number: 1, state: 'open', base: {ref: changed === 'base' ? 'other' : 'main'}, html_url: 'https://github.com/owner/repo/pull/1', head: {sha: (changed === 'head' ? 'd' : 'c').repeat(40)}, merged, merge_commit_sha: merged ? '${"c".repeat(40)}' : null};
       let body = {}, status = 200;
       if (path.includes('/actions/variables/')) status = 404;
       else if (path.endsWith('/commits/main')) {
         const values = process.env.MOCK_MAIN_SEQUENCE;
         const value = values[Math.min(mainReads++, values.length - 1)];
-        if (value === 'x') status = 503; else body = {sha: value.repeat(40)};
+        if (value === 'x') status = 503; else body = {sha: integrated ? (process.env.MOCK_ADVANCED_AFTER_WRITE ? 'd' : 'c').repeat(40) : value.repeat(40)};
       } else if (path.includes('/pulls?')) body = [pr];
       else if (path.endsWith('/pulls/1')) body = pr;
       else if (path.includes('/git/commits/')) body = {sha: '${"c".repeat(40)}', parents: [{sha: (process.env.MOCK_BAD_PARENT ? 'b' : 'a').repeat(40)}]};
+      else if (path.includes('/compare/')) body = {status: process.env.MOCK_ADVANCED_AFTER_WRITE ? 'ahead' : 'diverged', merge_base_commit: {sha: (process.env.MOCK_ADVANCED_AFTER_WRITE ? 'c' : 'a').repeat(40)}};
       else if (path.includes('/check-runs?')) body = {check_runs: [{status: 'completed', conclusion: 'success'}]};
       else if (path.includes('/actions/runs?')) body = {workflow_runs: []};
       else if (method === 'POST' && ['/labels', '/comments', '/dispatches'].some(s => path.endsWith(s))) body = {};
@@ -146,7 +163,7 @@ async function selfTest() {
       else if (method === 'PATCH' && path.endsWith('/git/refs/heads/main')) {
         if (JSON.parse(options.body).force !== false) throw new Error('Audit integration must never force a ref');
         if (process.env.MOCK_MAIN_SEQUENCE === 'aaab') status = 422;
-        else {integrated = true; body = {object: {sha: '${"c".repeat(40)}'}};}
+        else {integrated = true; body = {object: {sha: '${"c".repeat(40)}'}}; if (process.env.MOCK_LOST_RESPONSE) throw new Error('Lost successful response');}
       }
       else if (method === 'PATCH' && path.endsWith('/pulls/1')) body = {state: 'closed'};
       else if (method === 'DELETE' && path.includes('/git/refs/heads/')) body = {};
@@ -154,10 +171,13 @@ async function selfTest() {
       return new Response(JSON.stringify(body), {status});
     };
   `;
-  for (const [sequence, auditEnabled, expectedExit, badParent] of [["aaa", true, 0], ["bb", true, 1], ["ab", true, 1], ["xx", true, 1], ["ab", false, 0], ["aaab", true, 1], ["aaa", true, 1, true]]) {
+  for (const [sequence, auditEnabled, expectedExit, badParent, changedPr, lostResponse, advancedAfterWrite] of [["aaa", true, 0], ["bb", true, 1], ["ab", true, 1], ["xx", true, 1], ["ab", false, 0], ["aaab", true, 1], ["aaa", true, 1, true], ["aaa", true, 1, false, "head"], ["aaa", true, 1, false, "base"], ["aaa", true, 0, false, undefined, true], ["aaa", true, 0, false, undefined, true, true]]) {
     const env = { PATH: process.env.PATH, GITHUB_TOKEN: "offline-test-only", GITHUB_REPOSITORY: "owner/repo", BRANCH: "automation/test", PR_TITLE: "fixture", PR_AUTO_MERGE: "true", REQUIRED_CHECK_POLL_MS: "1", REQUIRED_CHECK_TIMEOUT_MS: "1000", MOCK_MAIN_SEQUENCE: sequence };
     if (auditEnabled) env.PR_AUDIT_SOURCE_COMMIT = audited;
     if (badParent) env.MOCK_BAD_PARENT = "true";
+    if (changedPr) env.MOCK_CHANGED_PR = changedPr;
+    if (lostResponse) env.MOCK_LOST_RESPONSE = "true";
+    if (advancedAfterWrite) env.MOCK_ADVANCED_AFTER_WRITE = "true";
     const result = spawnSync(process.execPath, ["--import", `data:text/javascript,${encodeURIComponent(mockFetch)}`, "scripts/open-automation-pr.mjs"], { env, encoding: "utf8", timeout: 5000 });
     assert.equal(result.status, expectedExit, result.stderr);
     const calls = JSON.parse(result.stdout.split("\n").find((line) => line.startsWith("MOCK_CALLS ")).slice(11));
@@ -171,7 +191,8 @@ async function selfTest() {
     if (expectedExit === 1) assert(calls.some((call) => call.path.endsWith("/comments")), "a withheld PR gets an actionable explanation");
     if (auditEnabled && sequence === "ab") assert(calls.some((call) => call.path.includes("/check-runs?")), "main movement after a green head check is caught");
     if (!auditEnabled) assert(!calls.some((call) => call.path.endsWith("/commits/main")), "other writer lanes retain their publishing contract");
-    if ((auditEnabled && ["bb", "ab", "aaab"].includes(sequence)) || badParent) assert(calls.some((call) => call.method === "PATCH" && call.path.endsWith("/pulls/1") && call.body.state === "closed"), "invalidated audit PRs close instead of inviting a manual merge");
+    if ((auditEnabled && ["bb", "ab", "aaab"].includes(sequence)) || badParent || changedPr) assert(calls.some((call) => call.method === "PATCH" && call.path.endsWith("/pulls/1") && call.body.state === "closed"), "invalidated audit PRs close instead of inviting a manual merge");
+    if (lostResponse) assert(!calls.some((call) => call.method === "PATCH" && call.path.endsWith("/pulls/1")), "a published head with delayed merge metadata must not be closed as stale");
   }
 
   const workflow = parse(readFileSync(".github/workflows/daily-audit.yml", "utf8"));

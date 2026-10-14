@@ -1553,6 +1553,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672867",
+        "url": "https://www.stubhub.ie/mico-tickets-manchester-manchester-academy-1-2-2027/event/107672867",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_fLMNkJc",
@@ -1575,7 +1582,8 @@
         "start": "2026-10-15T09:00:00Z",
         "end": "2026-10-16T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/mico-tickets-manchester-manchester-academy-1-2-2027/event/107672867"
   },
   {
     "id": "tm-mico-2027-london-g5vhz_fjlqa3s",
@@ -1624,6 +1632,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672270",
+        "url": "https://www.stubhub.ie/mico-tickets-london-the-roundhouse-4-2-2027/event/107672270",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_fjlQa3s",
@@ -1641,7 +1656,8 @@
         "start": "2026-10-15T09:00:00Z",
         "end": "2026-10-16T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/mico-tickets-london-the-roundhouse-4-2-2027/event/107672270"
   },
   {
     "id": "tm-mico-2027-dublin-1abzk46gkd9elri",

@@ -881,6 +881,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672226",
+        "url": "https://www.stubhub.ie/leon-bridges-boston-tickets-7-24-2027/event/107672226",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_KGkIKdRri",
@@ -904,7 +911,8 @@
         "end": "2026-10-16T02:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313666/Leon-Bridges-tickets-Sat-Jul-24-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313666/Leon-Bridges-tickets-Sat-Jul-24-2027-MGM-Music-Hall-at-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/leon-bridges-boston-tickets-7-24-2027/event/107672226"
   },
   {
     "id": "tm-leon-bridges-2027-philadelphia-vv17fz_kgkbngqe2",
@@ -1125,6 +1133,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672227",
+        "url": "https://www.stubhub.ie/leon-bridges-seattle-tickets-8-13-2027/event/107672227",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_fQTqa-a",
@@ -1148,7 +1163,8 @@
         "end": "2026-10-16T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313669/Leon-Bridges-tickets-Fri-Aug-13-2027-Climate-Pledge-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313669/Leon-Bridges-tickets-Fri-Aug-13-2027-Climate-Pledge-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/leon-bridges-seattle-tickets-8-13-2027/event/107672227"
   },
   {
     "id": "tm-leon-bridges-2027-edmonton-1aozkfigkdr2_nl",
@@ -1929,6 +1945,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672228",
+        "url": "https://www.stubhub.ie/leon-bridges-austin-tickets-9-24-2027/event/107672228",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fLkS0j9",
@@ -1957,7 +1980,8 @@
         "end": "2026-10-16T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313676/Leon-Bridges-tickets-Fri-Sep-24-2027-Moody-Center-ATX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313676/Leon-Bridges-tickets-Fri-Sep-24-2027-Moody-Center-ATX",
+    "stubhub_international_url": "https://www.stubhub.ie/leon-bridges-austin-tickets-9-24-2027/event/107672228"
   },
   {
     "id": "tm-leon-bridges-2027-houston-g5diz_kb01hxf",
@@ -2013,6 +2037,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672229",
+        "url": "https://www.stubhub.ie/leon-bridges-houston-tickets-9-25-2027/event/107672229",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KB01hXF",
@@ -2031,7 +2062,8 @@
         "end": "2026-10-16T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313677/Leon-Bridges-tickets-Sat-Sep-25-2027-713-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313677/Leon-Bridges-tickets-Sat-Sep-25-2027-713-Music-Hall",
+    "stubhub_international_url": "https://www.stubhub.ie/leon-bridges-houston-tickets-9-25-2027/event/107672229"
   },
   {
     "id": "tm-leon-bridges-2027-phoenix-1a_zk4kgkdlzjqa",

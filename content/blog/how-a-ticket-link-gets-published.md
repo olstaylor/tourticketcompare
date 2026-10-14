@@ -1,10 +1,10 @@
 ---
 title: How a ticket link gets published on TourTicketCompare
 seo_title: How a ticket link gets published
-description: What has to be true before a ticket button appears here: the checks a person makes, the checks automation makes, and what happens when a link stops working.
-summary: Some of the checking behind a ticket button here is done by a person in a browser, and some by named automated lanes running under strict gates. Here is which is which, and what happens when a destination breaks.
+description: What has to be true before a ticket button appears here, which checks a person does and which are automatic, and what happens when a link stops working.
+summary: Some of the checking behind a ticket button here is done by a person, and some is done automatically under strict rules. Here's which is which, and what happens when a link breaks.
 date: 2026-08-01
-updated: 2026-09-24
+updated: 2026-10-11
 status: published
 tags:
   - how-we-work
@@ -14,34 +14,34 @@ related_guides:
   - primary-vs-resale-concert-tickets
 ---
 
-A ticket button here appears only once something has confirmed where it leads. Where there's no checked destination, the page shows an empty state instead of a link. Plenty of ticket sites work the other way round, so here's what actually stands behind a button, because "verified" is a word worth pinning down before you trust it.
+A ticket button only appears here once its link has been checked. If a link can't be checked, the page shows no button rather than a guess. Plenty of sites work the other way round, so here's what actually sits behind a button. "Verified" is a word worth pinning down before you trust it.
 
-## An artist starts with no buttons at all
+## A new artist starts with no buttons
 
-When an artist is added here, the page is deliberately inert. It carries the name, a short factual summary, and nothing else: no ticket buttons, no provider logos, no dates. Internally that is a "review required" state, and the page is marked noindex while it is incomplete.
+When an artist is first added, their page is bare on purpose: a name, a short summary, and nothing else. No ticket buttons, no ticket-site logos, no dates. The page is also kept out of search results until it's ready.
 
-There are two ways out of that state. On the manual path, a person opens the proposed destination in a browser and confirms three things: that it loads, that it's the right artist rather than a same-name act, and that it's the ticket site's own page rather than a redirect chain pointing somewhere else. On the automatic path, an artist is promoted only when both SeatGeek's and Ticketmaster's APIs return an exact match for the name, Ticketmaster classifies the act as music and not a tribute, the name isn't on the site's deny list, and both artist pages exist. That path is capped at five artists a day, and one command reverses any of them. Either way, only then does the artist get an entry in the verified-link registry the redirect service reads.
+There are two ways an artist gets their buttons. Either a person opens the link in a browser and checks three things: it loads, it's the right artist (not someone with the same name), and it's the ticket site's own page rather than a chain of redirects. Or it happens automatically, but only when both SeatGeek and Ticketmaster return an exact match for the name, Ticketmaster lists the act as music and not a tribute act, the name isn't on a block list, and both artist pages exist. No more than five artists a day go through that way, and any of them can be undone in one step.
 
-## Individual dates are a different pipeline, and machines do publish them
+## Show dates are added automatically
 
-Artist-level links and show dates are separate problems, and it would be dishonest to describe the second the way the first is described. Dates, and most event-level ticket links, are published by a small set of named automated lanes: new shows discovered from the official listing API, a nightly sync of factual corrections to shows already on file, and one link lane per resale provider.
+Checking an artist and checking a show date are different jobs. Dates, and most links to individual shows, are added automatically: new shows from Ticketmaster's official listings, a nightly pass that fixes details on shows already listed, and a separate check for each resale site.
 
-What makes those lanes safe is not a person at the end of them. It is that each one only writes an unambiguous exact-event match, runs the full validation suite in the same job on exactly the content it is about to publish, and lands the change only if that passes. A match that is ambiguous is reported rather than written. An incomplete fetch from a provider leaves the existing data alone instead of clearing it. What counts as unambiguous is spelled out per provider: for the SeatGeek lane, the instant of the show, the city, the venue and the shape of the destination URL all have to agree with the provider's own record of that event.
+What keeps that safe isn't a person at the end. It's that each check only adds a show when it's an exact match, runs the site's full set of tests on exactly what it's about to publish, and only goes ahead if they all pass. If a match isn't certain, it's flagged instead of added. If a ticket site doesn't answer properly, the existing details are left alone rather than wiped. For SeatGeek, for example, the show's time, city, venue and link all have to match SeatGeek's own listing.
 
-The split is deliberate. Deciding that a page belongs to the right artist is a judgement call, so either a person makes it or the automatic path demands exact agreement between two independent sources before it acts. Deciding that a listing is the same show as one already on file is a checkable rule, so a machine applies it, consistently, every night, across far more dates than anyone would re-read by hand.
+That split is on purpose. Deciding a page belongs to the right artist is a judgement call, so either a person makes it or two separate sources have to agree exactly. Deciding a listing is the same show as one already on the site is a clear rule, so it's applied automatically, the same way every night, across far more dates than anyone could re-read by hand.
 
-## Nothing is trusted just because it was published
+## Every link is checked again when you click
 
-A stored destination is not a permanent licence to render a button. Every outbound link is rebuilt at request time and put through host, protocol, event-ID and allowlist checks before it is offered, and again when it is followed. If any of that fails, the button does not appear. There's no fallback to a generic search page and no quietly substituted destination. The honest output is no button.
+A saved link isn't trusted forever. Every time a button is shown, and again when you click it, the link is checked to make sure it still goes to the right site and the right show. If anything fails, the button doesn't appear. There's no fallback to a search page and no swapped-in link. No button is the honest answer.
 
-That is also why one provider's link failing does not take the others down with it. Each provider publishes on its own evidence, so a date can carry a checked link from one site, a plain listing link from another, and nothing at all from a third. That asymmetry is the data being reported rather than tidied up.
+It also means one ticket site's broken link doesn't take the others down. Each site's link stands on its own, so a date might have a checked link from one site, a plain link from another, and nothing from a third.
 
-## Links break, and the site is built to notice
+## Links break, and the site notices
 
-A verified link is a claim about the past, so it gets rechecked. A daily audit walks every stored destination and reports what no longer resolves. It is careful about what counts: a provider's bot protection returning a block is recorded as blocked, not as dead, because an anti-bot response proves nothing about the page. Confirmed failures are written up for a person to act on.
+A checked link was right when it was checked, so it gets checked again. A daily check runs through every saved link and reports any that stop working. It's careful about it: if a ticket site blocks the check (which some do to stop bots), that's noted as blocked, not broken, because it doesn't prove anything about the page. Real failures go to a person to fix.
 
-Restoring or clearing a link needs positive evidence in the same way. A stored link is only cleared on a confirmed record from the ticket site saying the event is gone or doesn't match. Never on a failed fetch, an auth error, or an empty response that could just be a bad night.
+A link is only removed when the ticket site clearly confirms the show is gone or doesn't match. Never because of one failed check, a login error or an empty reply that could just be a bad night.
 
-## What this does not cover
+## What a checked link doesn't promise
 
-Checked means the destination is real and specific to that show. It doesn't mean the price is good, the seats are there, or the terms suit you. Those belong to the ticket site and change constantly. If a link here is broken or points at the wrong thing, the [contact page](/contact) is the fastest way to say so, and the [editorial policy](/editorial-policy) sets out what gets corrected and how.
+Checked means the link is real and goes to that exact show. It doesn't mean the price is good, the seats are there, or the terms suit you. The ticket site sets all of that, and it changes all the time. If a link here is broken or goes to the wrong place, the [contact page](/contact) is the quickest way to flag it, and the [editorial policy](/editorial-policy) explains what gets fixed and how.

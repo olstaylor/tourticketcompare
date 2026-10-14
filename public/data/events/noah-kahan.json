@@ -1,0 +1,1018 @@
+[
+  {
+    "id": "tm-noah-kahan-2026-glasgow-1adbz_fgkn7svza",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: the Great Divide Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2026-11-05T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600648A84C41E09",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-glasgow-05-11-2026/event/3600648A84C41E09",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-glasgow-ovo-hydro-11-5-2026--concerts-pop/production/6888785",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-glasgow-05-11-2026/event/3600648A84C41E09",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600648A84C41E09",
+        "discovery_event_id": "1AdbZ_FGkn7svza",
+        "url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-glasgow-05-11-2026/event/3600648A84C41E09",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6888785,
+        "url": "https://www.vividseats.com/noah-kahan-tickets-glasgow-ovo-hydro-11-5-2026--concerts-pop/production/6888785",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874793",
+        "url": "https://www.ticketliquidator.com/tickets/7874793/Noah-Kahan-tickets-Thu-Nov-5-2026-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155374",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-glasgow-ovo-hydro-arena-glasgow-5-11-2026/event/107155374",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_FGkn7svza",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874793/Noah-Kahan-tickets-Thu-Nov-5-2026-OVO-Hydro",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-glasgow-ovo-hydro-arena-glasgow-5-11-2026/event/107155374"
+  },
+  {
+    "id": "tm-noah-kahan-2026-glasgow-1auzk3agkdn-buh",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: the Great Divide Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2026-11-06T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006489EA858D9B",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-glasgow-06-11-2026/event/36006489EA858D9B",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-glasgow-ovo-hydro-11-6-2026--concerts-pop/production/6888789",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-glasgow-06-11-2026/event/36006489EA858D9B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006489EA858D9B",
+        "discovery_event_id": "1AUZk3aGkdn-bUh",
+        "url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-glasgow-06-11-2026/event/36006489EA858D9B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6888789,
+        "url": "https://www.vividseats.com/noah-kahan-tickets-glasgow-ovo-hydro-11-6-2026--concerts-pop/production/6888789",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874794",
+        "url": "https://www.ticketliquidator.com/tickets/7874794/Noah-Kahan-tickets-Fri-Nov-6-2026-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155375",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-glasgow-ovo-hydro-arena-glasgow-6-11-2026/event/107155375",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZk3aGkdn-bUh",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874794/Noah-Kahan-tickets-Fri-Nov-6-2026-OVO-Hydro",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-glasgow-ovo-hydro-arena-glasgow-6-11-2026/event/107155375"
+  },
+  {
+    "id": "tm-noah-kahan-2026-manchester-g5vhz_gxilkd5",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan - The Great Divide Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "AO Arena",
+    "datetime_iso": "2026-11-09T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064C8AC7C60CB",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-manchester-09-11-2026/event/1F0064C8AC7C60CB",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-manchester-ao-arena-11-9-2026--concerts-pop/production/6888793",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-manchester-09-11-2026/event/1F0064C8AC7C60CB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064C8AC7C60CB",
+        "discovery_event_id": "G5vHZ_GxiLkd5",
+        "url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-manchester-09-11-2026/event/1F0064C8AC7C60CB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6888793,
+        "url": "https://www.vividseats.com/noah-kahan-tickets-manchester-ao-arena-11-9-2026--concerts-pop/production/6888793",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874795",
+        "url": "https://www.ticketliquidator.com/tickets/7874795/Noah-Kahan-tickets-Mon-Nov-9-2026-AO-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155376",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-manchester-manchester-ao-arena-9-11-2026/event/107155376",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_GxiLkd5",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874795/Noah-Kahan-tickets-Mon-Nov-9-2026-AO-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-manchester-manchester-ao-arena-9-11-2026/event/107155376"
+  },
+  {
+    "id": "tm-noah-kahan-2026-manchester-g5vhz_gxiljdj",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan - The Great Divide Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "AO Arena",
+    "datetime_iso": "2026-11-10T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064C8AC7E60E6",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-manchester-10-11-2026/event/1F0064C8AC7E60E6",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-manchester-ao-arena-11-10-2026--concerts-pop/production/6888795",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-manchester-10-11-2026/event/1F0064C8AC7E60E6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064C8AC7E60E6",
+        "discovery_event_id": "G5vHZ_GxiLJdJ",
+        "url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-manchester-10-11-2026/event/1F0064C8AC7E60E6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6888795,
+        "url": "https://www.vividseats.com/noah-kahan-tickets-manchester-ao-arena-11-10-2026--concerts-pop/production/6888795",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874796",
+        "url": "https://www.ticketliquidator.com/tickets/7874796/Noah-Kahan-tickets-Tue-Nov-10-2026-AO-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155377",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-manchester-manchester-ao-arena-10-11-2026/event/107155377",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_GxiLJdJ",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874796/Noah-Kahan-tickets-Tue-Nov-10-2026-AO-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-manchester-manchester-ao-arena-10-11-2026/event/107155377"
+  },
+  {
+    "id": "tm-noah-kahan-2026-london-1ku8v0x_gag10y_",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan - The Great Divide Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2026-11-13T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064899C2A4C19",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-london-13-11-2026/event/350064899C2A4C19",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-london-the-o2---london-11-13-2026--concerts-pop/production/6888807",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-london-13-11-2026/event/350064899C2A4C19",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064899C2A4C19",
+        "discovery_event_id": "1ku8v0x_GAG10Y_",
+        "url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-london-13-11-2026/event/350064899C2A4C19",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6888807,
+        "url": "https://www.vividseats.com/noah-kahan-tickets-london-the-o2---london-11-13-2026--concerts-pop/production/6888807",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107155378",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-london-the-o2-arena-13-11-2026/event/107155378",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ku8v0x_GAG10Y_",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-london-the-o2-arena-13-11-2026/event/107155378"
+  },
+  {
+    "id": "tm-noah-kahan-2026-london-1ku8v0x_gag57yq",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan - The Great Divide Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2026-11-14T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064899C2C4C1D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-london-14-11-2026/event/350064899C2C4C1D",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-london-the-o2---london-11-14-2026--concerts-pop/production/6888809",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-london-14-11-2026/event/350064899C2C4C1D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064899C2C4C1D",
+        "discovery_event_id": "1ku8v0x_GAG57Yq",
+        "url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-london-14-11-2026/event/350064899C2C4C1D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6888809,
+        "url": "https://www.vividseats.com/noah-kahan-tickets-london-the-o2---london-11-14-2026--concerts-pop/production/6888809",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107155379",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-london-the-o2-arena-14-11-2026/event/107155379",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ku8v0x_GAG57Yq",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-london-the-o2-arena-14-11-2026/event/107155379"
+  },
+  {
+    "id": "tm-noah-kahan-2026-dublin-1avoz_fgkn52bxo",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan - The Great Divide Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2026-11-19T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800648A8B3FA8A0",
+    "ticketmaster_url": "https://www.ticketmaster.ie/noah-kahan-the-great-divide-tour-dublin-19-11-2026/event/1800648A8B3FA8A0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/noah-kahan-the-great-divide-tour-dublin-19-11-2026/event/1800648A8B3FA8A0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800648A8B3FA8A0",
+        "discovery_event_id": "1AvOZ_FGkn52BxO",
+        "url": "https://www.ticketmaster.ie/noah-kahan-the-great-divide-tour-dublin-19-11-2026/event/1800648A8B3FA8A0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7885145",
+        "url": "https://www.ticketliquidator.com/tickets/7885145/Noah-Kahan-tickets-Thu-Nov-19-2026-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_FGkn52BxO",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7885145/Noah-Kahan-tickets-Thu-Nov-19-2026-3Arena-Dublin"
+  },
+  {
+    "id": "tm-noah-kahan-2026-dublin-1kkzv0x9ga2yvxh",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan - The Great Divide Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2026-11-21T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064897FC34F9B",
+    "ticketmaster_url": "https://www.ticketmaster.ie/noah-kahan-the-great-divide-tour-dublin-21-11-2026/event/180064897FC34F9B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/noah-kahan-the-great-divide-tour-dublin-21-11-2026/event/180064897FC34F9B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064897FC34F9B",
+        "discovery_event_id": "1kkZv0x9GA2YVXh",
+        "url": "https://www.ticketmaster.ie/noah-kahan-the-great-divide-tour-dublin-21-11-2026/event/180064897FC34F9B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7879571",
+        "url": "https://www.ticketliquidator.com/tickets/7879571/Noah-Kahan-tickets-Sat-Nov-21-2026-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kkZv0x9GA2YVXh",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7879571/Noah-Kahan-tickets-Sat-Nov-21-2026-3Arena-Dublin"
+  },
+  {
+    "id": "tm-noah-kahan-2026-dublin-1abzk3agkdihdnu",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan - The Great Divide Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2026-11-22T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006489ECF3B8F6",
+    "ticketmaster_url": "https://www.ticketmaster.ie/noah-kahan-the-great-divide-tour-dublin-22-11-2026/event/18006489ECF3B8F6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/noah-kahan-the-great-divide-tour-dublin-22-11-2026/event/18006489ECF3B8F6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006489ECF3B8F6",
+        "discovery_event_id": "1AbZk3aGkdiHDNU",
+        "url": "https://www.ticketmaster.ie/noah-kahan-the-great-divide-tour-dublin-22-11-2026/event/18006489ECF3B8F6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7885279",
+        "url": "https://www.ticketliquidator.com/tickets/7885279/Noah-Kahan-tickets-Sun-Nov-22-2026-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZk3aGkdiHDNU",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7885279/Noah-Kahan-tickets-Sun-Nov-22-2026-3Arena-Dublin"
+  },
+  {
+    "id": "tm-noah-kahan-2026-munich-z698xzc2z1k3fveos",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan - The Great Divide Tour",
+    "city": "Munich",
+    "country": "Germany",
+    "venue": "Olympiahalle",
+    "datetime_iso": "2026-12-04T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "488042471",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/noah-kahan-the-great-divide-tour-tickets/488042471?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/noah-kahan-the-great-divide-tour-tickets/488042471?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "488042471",
+        "discovery_event_id": "Z698xZC2Z1k3Fveos",
+        "url": "https://www.ticketmaster.de/event/noah-kahan-the-great-divide-tour-tickets/488042471?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877198",
+        "url": "https://www.ticketliquidator.com/tickets/7877198/Noah-Kahan-tickets-Fri-Dec-4-2026-Kleine-Olympiahalle-Munich",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107156345",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-munich-olympiahalle-munich-4-12-2026/event/107156345",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1k3Fveos",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877198/Noah-Kahan-tickets-Fri-Dec-4-2026-Kleine-Olympiahalle-Munich",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-munich-olympiahalle-munich-4-12-2026/event/107156345"
+  },
+  {
+    "id": "tm-noah-kahan-2027-glasgow-1adbz_8gkufqoce",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: The Last of the Bugs Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "Barclays Hampden",
+    "datetime_iso": "2027-07-13T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600650D94751B67",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-glasgow-13-07-2027/event/3600650D94751B67",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-glasgow-13-07-2027/event/3600650D94751B67",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600650D94751B67",
+        "discovery_event_id": "1AdbZ_8GkUfqocE",
+        "url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-glasgow-13-07-2027/event/3600650D94751B67",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_8GkUfqocE",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-noah-kahan-2027-dublin-1abzkffgkeyrrov",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: The Last of the Bugs Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "Aviva Stadium",
+    "datetime_iso": "2027-07-17T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006514B0BDE441",
+    "ticketmaster_url": "https://www.ticketmaster.ie/noah-kahan-the-last-of-the-dublin-17-07-2027/event/18006514B0BDE441",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/noah-kahan-the-last-of-the-dublin-17-07-2027/event/18006514B0BDE441",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006514B0BDE441",
+        "discovery_event_id": "1AbZkffGkeYRrov",
+        "url": "https://www.ticketmaster.ie/noah-kahan-the-last-of-the-dublin-17-07-2027/event/18006514B0BDE441",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkffGkeYRrov",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-noah-kahan-2027-dublin-1abzkfbgkd7h5py",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: The Last of the Bugs Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "Aviva Stadium",
+    "datetime_iso": "2027-07-18T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006518C46CB979",
+    "ticketmaster_url": "https://www.ticketmaster.ie/noah-kahan-the-last-of-the-dublin-18-07-2027/event/18006518C46CB979",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/noah-kahan-the-last-of-the-dublin-18-07-2027/event/18006518C46CB979",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006518C46CB979",
+        "discovery_event_id": "1AbZkfbGkd7h5Py",
+        "url": "https://www.ticketmaster.ie/noah-kahan-the-last-of-the-dublin-18-07-2027/event/18006518C46CB979",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkfbGkd7h5Py",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-noah-kahan-2027-london-1anzkf3gkd7-b4s",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan - The Last of the Bugs Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2027-07-23T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "23006512C487A573",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-23-07-2027/event/23006512C487A573",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-london-wembley-stadium-7-23-2027--concerts-pop/production/7461173",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-23-07-2027/event/23006512C487A573",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "23006512C487A573",
+        "discovery_event_id": "1ANZkf3Gkd7-B4S",
+        "url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-23-07-2027/event/23006512C487A573",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7461173,
+        "url": "https://www.vividseats.com/noah-kahan-tickets-london-wembley-stadium-7-23-2027--concerts-pop/production/7461173",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8224894",
+        "url": "https://www.ticketliquidator.com/tickets/8224894/Noah-Kahan-tickets-Fri-Jul-23-2027-Wembley-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107499079",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-london-wembley-stadium-23-7-2027/event/107499079",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ANZkf3Gkd7-B4S",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8224894/Noah-Kahan-tickets-Fri-Jul-23-2027-Wembley-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-london-wembley-stadium-23-7-2027/event/107499079"
+  },
+  {
+    "id": "tm-noah-kahan-2027-london-1anzkf4gkexwogg",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan - The Last of the Bugs Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2027-07-24T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "23006515BECA0D4C",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-24-07-2027/event/23006515BECA0D4C",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-london-wembley-stadium-7-24-2027/production/7464529",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-24-07-2027/event/23006515BECA0D4C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "23006515BECA0D4C",
+        "discovery_event_id": "1ANZkf4GkeXwOgG",
+        "url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-24-07-2027/event/23006515BECA0D4C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7464529,
+        "url": "https://www.vividseats.com/noah-kahan-tickets-london-wembley-stadium-7-24-2027/production/7464529",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8233856",
+        "url": "https://www.ticketliquidator.com/tickets/8233856/Noah-Kahan-tickets-Sat-Jul-24-2027-Wembley-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482950",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-london-wembley-stadium-24-7-2027/event/107482950",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ANZkf4GkeXwOgG",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8233856/Noah-Kahan-tickets-Sat-Jul-24-2027-Wembley-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-london-wembley-stadium-24-7-2027/event/107482950"
+  },
+  {
+    "id": "tm-noah-kahan-2027-london-1anzkf4gkddlzu_",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan - The Last of the Bugs Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2027-07-25T15:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "23006515C37C0D99",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-25-07-2027/event/23006515C37C0D99",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-london-wembley-stadium-7-25-2027--concerts-pop/production/7506432",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-25-07-2027/event/23006515C37C0D99",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "23006515C37C0D99",
+        "discovery_event_id": "1ANZkf4GkddLZU_",
+        "url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-25-07-2027/event/23006515C37C0D99",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7506432,
+        "url": "https://www.vividseats.com/noah-kahan-tickets-london-wembley-stadium-7-25-2027--concerts-pop/production/7506432",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8244107",
+        "url": "https://www.ticketliquidator.com/tickets/8244107/Noah-Kahan-tickets-Sun-Jul-25-2027-Wembley-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666382",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-london-wembley-stadium-25-7-2027/event/107666382",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ANZkf4GkddLZU_",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244107/Noah-Kahan-tickets-Sun-Jul-25-2027-Wembley-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-london-wembley-stadium-25-7-2027/event/107666382"
+  }
+]

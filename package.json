@@ -8,7 +8,7 @@
     "build": "npm run test:mvp",
     "deploy:pages": "wrangler pages deploy public",
     "deploy:pages:safe": "npm run test:mvp && wrangler pages deploy public",
-    "test:mvp": "node scripts/run-test-lane.mjs mvp",
+    "test:mvp": "npm run test:lanes && node scripts/run-test-lane.mjs mvp",
     "test:lanes": "node scripts/validate-test-lanes.mjs",
     "test:quick": "npm run test:lanes && node scripts/run-test-lane.mjs quick",
     "test:units": "npm run test:lanes && node scripts/run-test-lane.mjs units",
@@ -206,7 +206,7 @@
     "test:price-timing": "node scripts/price-timing.test.mjs"
   },
   "devDependencies": {
-    "sharp": "^0.35.4",
+    "sharp": "^0.35.5",
     "wrangler": "^4.106.0",
     "yaml": "2.9.0"
   },

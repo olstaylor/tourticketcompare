@@ -482,7 +482,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-greenville-bon-secours-wellness-arena-10-18-2026--concerts-country-and-folk/production/6948981",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-greenville-south-carolina-10-18-2026/event/2D006492DFD3DA64",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -533,13 +533,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906850",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-05-01T13:00:00Z",
-        "end": "2026-10-12T02:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7906850/The-Red-Clay-Strays-tickets-Sun-Oct-18-2026-Bon-Secours-Wellness-Arena"
   },
   {
@@ -3556,7 +3549,7 @@
         "event_id": 7652773,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-green-bay-resch-center-8-5-2027/production/7652773",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3625,7 +3618,7 @@
         "event_id": 7637038,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-fresno-save-mart-center-8-13-2027/production/7637038",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3763,7 +3756,7 @@
         "event_id": 7637426,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-huntsville-orion-amphitheater-9-11-2027/production/7637426",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3832,7 +3825,7 @@
         "event_id": 7637040,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-oklahoma-city-paycom-center-9-16-2027/production/7637040",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {

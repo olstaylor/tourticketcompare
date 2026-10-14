@@ -172,7 +172,7 @@
         {
           "type": "section",
           "title": "What the ticket comparison can tell you",
-          "content": "The [Bruno Mars page](/artists/bruno-mars) lists the verified dates with provider links checked for each event. Any displayed price is a provider’s listed-price snapshot, with its observation time; it does not include a promise about installation access, a particular seat or your final checkout total.\n\nOpen the button for your chosen date and check the provider’s event, seating and delivery details. Keep that ticket check separate from the Academy’s access instructions: completing one does not establish that the other is complete. The [delivery and transfer guide](/guides/ticket-delivery-and-transfer-timing) explains what to check when tickets will reach your account later."
+          "content": "The [Bruno Mars page](/artists/bruno-mars) lists the verified dates with provider links checked for each event. Any price shown is one ticket site’s listed price, with when it was checked. It doesn’t include a promise about installation access, a particular seat or your final checkout total.\n\nOpen the button for your chosen date and check the provider’s event, seating and delivery details. Keep that ticket check separate from the Academy’s access instructions: completing one does not establish that the other is complete. The [delivery and transfer guide](/guides/ticket-delivery-and-transfer-timing) explains what to check when tickets will reach your account later."
         }
       ],
       "sources": [
@@ -421,11 +421,11 @@
       "relatedArtists": [
         "hilary-duff"
       ],
-      "wordCount": 606,
+      "wordCount": 610,
       "sections": [
         {
           "type": "intro",
-          "content": "**Update, October 5, 2026:** the public on-sale described below took place on Friday, October 2. The table is kept as a record of how the sale ran. If you are buying now, start with the \"Buying after the on-sale\" section below.\n\n[Find your Hilary Duff date and compare ticket options](/artists/hilary-duff). Choose the exact night before comparing listings. Any displayed price is a provider's checked snapshot, not a final checkout total; confirm the ticket quantity, fees and delivery terms on the ticket site.\n\nTicketmaster listed twenty new dates on Hilary Duff's lucky me tour with a public on-sale of Friday, October 2, 2026. Four are in Europe in May 2027 and sixteen are in the United States in October and November 2027. Every one opened at 10:00 in the venue's local time. Written down, that looked like a single sale. In practice it was a rolling sale that started in Europe and finished in California nine hours later."
+          "content": "**Update, October 5, 2026:** the public on-sale described below took place on Friday, October 2. The table is kept as a record of how the sale ran. If you are buying now, start with the \"Buying after the on-sale\" section below.\n\n[Find your Hilary Duff date and compare ticket options](/artists/hilary-duff). Choose the exact night before comparing listings. Any price shown is one ticket site's listed price when it was checked, not your final total. Check the number of tickets, fees and delivery on the ticket site.\n\nTicketmaster listed twenty new dates on Hilary Duff's lucky me tour with a public on-sale of Friday, October 2, 2026. Four are in Europe in May 2027 and sixteen are in the United States in October and November 2027. Every one opened at 10:00 in the venue's local time. Written down, that looked like a single sale. In practice it was a rolling sale that started in Europe and finished in California nine hours later."
         },
         {
           "type": "section",
@@ -628,17 +628,17 @@
         {
           "type": "section",
           "title": "Compare prices for the date you want",
-          "content": "[See Oasis resale ticket prices by date](/artists/oasis/ticket-prices) for the lowest listed snapshot on each priced night, the ticket site supplying it and when it was checked. The table also marks dates without a displayed price. These are resale snapshots, not an official face-value price list or a final checkout total.\n\n[Choose your city and concert night on the Oasis date board](/artists/oasis), then open the checked ticket links for that exact show. Where a card shows current listed prices, use them to decide which listings to inspect first. Keep the date, ticket quantity and seated or standing area fixed when comparing providers; a lower starting price for a different night or ticket type is a different purchase. Confirm the final total and current availability on the provider before paying."
+          "content": "[See Oasis resale ticket prices by date](/artists/oasis/ticket-prices) for the lowest listed price on each night, the ticket site listing it and when it was checked. The table also marks dates with no price yet. These are resale prices, not an official face-value price list or a final checkout total.\n\n[Choose your city and concert night on the Oasis date board](/artists/oasis), then open the checked ticket links for that exact show. Where a card shows current listed prices, use them to decide which listings to inspect first. Keep the date, ticket quantity and seated or standing area fixed when comparing providers; a lower starting price for a different night or ticket type is a different purchase. Confirm the final total and current availability on the provider before paying."
         },
         {
           "type": "section",
-          "title": "A price here is a resale snapshot, not the ticket's price",
+          "title": "A price here is a resale price, not what the ticket cost",
           "content": "Where an Oasis date on this site carries a figure, it comes from a resale provider: Vivid Seats, TicketNetwork or StubHub International, each only for a listing checked against that exact date. The figure is that one provider's listed price at the time printed beside it. It is not the face value, it is not what a code-holder paid, and it does not establish the final total for the tickets you select.\n\nDo not assume mandatory fees will always be added later. In the US, the FTC's live-event ticket fee rule requires mandatory fees in the upfront total; government charges, shipping and optional add-ons may be shown separately before payment. Other countries have their own rules. Check what the actual listing includes, then compare the final amount for your quantity, currency and selected extras. The [guide to ticket fees](/guides/concert-ticket-fees-explained) provides the checkout checklist.\n\nA date with no figure is not a date with no tickets. It means no provider had a checked, current figure for it when the page was built. StubHub International links open stubhub.ie, whichever country the show is in, and the [StubHub International guide](/guides/stubhub-international-explained) explains why.\n\nThis post deliberately gives no face-value price list. The official sale is where those prices are set, and a number copied from elsewhere would be one more figure to check rather than one you can rely on."
         },
         {
           "type": "section",
           "title": "Every night is its own market",
-          "content": "The tour stays put for long runs: eleven nights at the Etihad Stadium in Manchester, five at Celtic Park in Glasgow, six at Knebworth. The artist, tour and stadium are identical across each run, but resale prices are not. Each night has its own sellers and its own buyers, so a figure for one night tells you nothing about the next.\n\nThat is why the [Oasis page](/artists/oasis) prices each date on its own card, and why priced cards have a \"Show price history\" button. The history lists earlier snapshots recorded for that date, so you can see whether today's figure is typical of what that night has shown or out of line with it. It is still a record of listed prices from one provider at a time, not a forecast. The [guide to how resale pricing works](/guides/how-resale-ticket-pricing-works) covers why asking prices move the way they do."
+          "content": "The tour stays put for long runs: eleven nights at the Etihad Stadium in Manchester, five at Celtic Park in Glasgow, six at Knebworth. The artist, tour and stadium are identical across each run, but resale prices are not. Each night has its own sellers and its own buyers, so a figure for one night tells you nothing about the next.\n\nThat is why the [Oasis page](/artists/oasis) prices each date on its own card, and why priced cards have a \"Show price history\" button. The history lists earlier prices checked for that date, so you can see whether today's figure is typical of what that night has shown or out of line with it. It is still a record of listed prices from one provider at a time, not a forecast. The [guide to how resale pricing works](/guides/how-resale-ticket-pricing-works) covers why asking prices move the way they do."
         },
         {
           "type": "section",
@@ -720,7 +720,7 @@
         {
           "type": "section",
           "title": "Silver Star: check the request status",
-          "content": "Silver Star uses a request-and-allocation process rather than an immediate purchase, and its windows are short. Ticketmaster’s help page gave the request window as closing on 2 September 2026, with successful requests confirmed by 9 September. Both of those dates have passed, so treat the process below as an explanation of how Silver Star works rather than a route that is open today, and check the official tour help page for any later release.\n\nTickets were offered in pairs, with a limit of two per person. Submitting a request did not guarantee an allocation. Ticketmaster says the card is charged only when a request can be fulfilled, and unsuccessful applicants can check their request status even if they receive no further email.\n\nUse the official tour help page for the current country-specific instructions and any future release. Security checks during a request do not establish a resale or transfer policy, so do not infer that a second-hand Silver Star listing is permitted or prohibited from those checks alone. Confirm the terms attached to the actual ticket before paying.\n\nNo Silver Star price is repeated here: it is a separate official programme, not one of the provider-listed snapshots on the date board."
+          "content": "Silver Star uses a request-and-allocation process rather than an immediate purchase, and its windows are short. Ticketmaster’s help page gave the request window as closing on 2 September 2026, with successful requests confirmed by 9 September. Both of those dates have passed, so treat the process below as an explanation of how Silver Star works rather than a route that is open today, and check the official tour help page for any later release.\n\nTickets were offered in pairs, with a limit of two per person. Submitting a request did not guarantee an allocation. Ticketmaster says the card is charged only when a request can be fulfilled, and unsuccessful applicants can check their request status even if they receive no further email.\n\nUse the official tour help page for the current country-specific instructions and any future release. Security checks during a request do not establish a resale or transfer policy, so do not infer that a second-hand Silver Star listing is permitted or prohibited from those checks alone. Confirm the terms attached to the actual ticket before paying.\n\nNo Silver Star price is repeated here: it is a separate official programme, not one of the ticket-site prices on the date list."
         },
         {
           "type": "section",
@@ -748,10 +748,10 @@
       "path": "/blog/why-a-price-here-disappears",
       "title": "Why a price on this site disappears",
       "seoTitle": "Why a price disappears | TourTicketCompare",
-      "description": "A price shown here has an expiry stamped on it and several gates behind it. When any one of them fails the figure vanishes rather than going stale. Here is why.",
-      "summary": "A figure that was on an event card an hour ago can be gone now. That is the price system working as designed: snapshots expire, the gates fail closed, and a blank space is the honest output.",
+      "description": "Saw a price on a ticket button earlier and now it's gone? Here's why that happens, and why the button still works.",
+      "summary": "A price that was on a ticket button an hour ago can be gone now. That's on purpose. A price only shows while it's fresh and checked, and a blank is better than an old number that looks current.",
       "datePublished": "2026-08-19",
-      "dateModified": "2026-09-24",
+      "dateModified": "2026-10-11",
       "status": "published",
       "author": "TourTicketCompare",
       "tags": [
@@ -764,36 +764,36 @@
         "how-resale-ticket-pricing-works"
       ],
       "relatedArtists": [],
-      "wordCount": 682,
+      "wordCount": 543,
       "sections": [
         {
           "type": "intro",
-          "content": "You opened an event card this morning and a ticket button carried a figure. You've come back to book and the figure has gone: same show, same button, no number. Nothing broke. The price either passed its 24-hour limit or failed one of the checks behind it, and a blank is better than a stale figure that looks current."
+          "content": "You looked at a show this morning and a ticket button had a price on it. You've come back to buy and the price has gone: same show, same button, no number. Nothing is broken. The price got too old, or it stopped passing one of the checks behind it, and a blank is better than an old number that looks current."
         },
         {
           "type": "section",
-          "title": "A snapshot has an expiry stamped on it",
-          "content": "A price here is one provider's listed figure for one verified show, captured at a recorded moment. It is written with a hard expiry 24 hours out, and the capture jobs are scheduled hourly, well inside that window, so an ordinary run keeps the figure current. When a run can't fetch, or the feed stops carrying that event, no new observation lands. The figure already on the card stays, with the note under the buttons saying how long ago it was checked. Past 24 hours the observation is too old to stand behind, and it stops showing.\n\nNothing is refreshed in place, and nothing is left unlabelled. The figure was true when it was checked, the card says how long ago that was, and once it expires there's no evidence left for it, so it goes. [What a price snapshot actually is](/blog/what-a-price-snapshot-actually-is) covers the shape of the underlying claim in more detail."
+          "title": "Prices only last a day",
+          "content": "A price here is what one ticket site was asking for one show, at the time it was checked. Prices are re-checked through the day, and each card says how long ago its price was checked (\"Checked 5 hours ago\"). If a ticket site stops sending a price for that show, the last one stays up for a while with its age showing. Once it's more than 24 hours old, it comes down.\n\nNothing is quietly updated or left without a time. The price was right when it was checked, the card tells you when that was, and once it's too old to trust, it goes. [What a price on this site actually is](/blog/what-a-price-snapshot-actually-is) explains more."
         },
         {
           "type": "section",
-          "title": "The gate has more than one door, and all of them fail closed",
-          "content": "Expiry is only one of the conditions. Before any figure renders, the provider must have display rights, the row must map to that exact show rather than a nearby date, the destination URL must carry its own verified provenance, the provider's display flag must be on, and the stored figure must be a plausible number in a real currency. A single failure hides the figure. None of them degrade into a partial answer.\n\nThat produces one consequence worth knowing about: a price can disappear because something changed about the *event record*, not about the price. If a show's provenance gets re-flagged for checking, or its provider link is cleared after a confirmed mismatch, the figure attached to that lane goes with it. The number is downstream of the link, and the link is downstream of the evidence."
+          "title": "Every price has to pass a few checks",
+          "content": "Age isn't the only thing. A price only shows if the ticket site allows it to be shown, it's for that exact show (not a nearby date), the link to that show has been checked, and the number itself looks like a real price. If any one of those fails, the price is hidden. There's no half-answer.\n\nSo a price can disappear because something changed about the show's link, not the price. If a link gets flagged for another look, or it turns out to point at the wrong show, any price attached to it comes down too."
         },
         {
           "type": "section",
-          "title": "Some providers never show a figure at all",
-          "content": "If a provider on a card has never carried a price for you, that is structural rather than a gap in coverage. SeatGeek has no pricing lane here: its API returns no prices to this site, so its button is a checked link and nothing more. Ticket Liquidator's catalogue carries no numeric listed price, so its lane stays price-disabled while its links stay live. Ticketmaster is a verification and link source rather than a price lane.\n\nTheir silence tells you about the feed behind them, not about the show or its demand."
+          "title": "Some ticket sites never show a price",
+          "content": "If a ticket site's button never has a price on it, that's down to the site, not the show. SeatGeek doesn't share its prices with this site, so its button is a checked link and nothing more. Ticket Liquidator doesn't share a price either, so it's link-only too. Ticketmaster is a plain link here.\n\nA button with no price says nothing about how popular the show is."
         },
         {
           "type": "section",
-          "title": "What does not happen when a snapshot lapses",
-          "content": "No last-known value is held over. No \"from\" estimate is generated. Nothing is averaged across providers, filled in from a different date, or borrowed from another seat. No site moves up the card because it still has a figure and its neighbours don't. The order is fixed (sites that pay a commission first, Ticketmaster last) and is not a ranking. A blank beats a stale number that reads as current, and it beats an invented one by a wider margin still."
+          "title": "What doesn't happen when a price comes down",
+          "content": "No old price is kept up. No \"from\" price is made up. Nothing is averaged across sites, copied from another date or borrowed from another seat. And no site moves up the list because it still has a price: the order is always the same (sites that pay a commission first, Ticketmaster last), and it isn't a ranking. A blank beats an old number, and it beats a made-up one by a mile."
         },
         {
           "type": "section",
-          "title": "What the blank actually leaves you",
-          "content": "The link. The expiry removes the figure, not the destination: the button is still there, still checked, and still goes to that exact show. The provider's own page is the only place a current figure and a final total are settled anyway, once fees, delivery and tax are added, so a card that has lost its snapshot has lost a starting point rather than the answer.\n\nWhere a card does have a current price, it also carries a price history: up to ninety days of what that site's listed figure has been for that show, which is a better guide to whether today's number is unusual than any single reading, present or missing."
+          "title": "What you're left with",
+          "content": "The link. When a price comes down, the button stays, still checked, still going to that exact show. The ticket site is the only place to see the real, up-to-date total once fees, delivery and tax are added, so a missing price only costs you a starting point.\n\nWhen a card does have a price, it also has a price history: up to 90 days of what that site was asking for that show. That's a better way to tell if today's price is unusual than any single number."
         }
       ]
     },
@@ -802,10 +802,10 @@
       "path": "/blog/how-a-ticket-link-gets-published",
       "title": "How a ticket link gets published on TourTicketCompare",
       "seoTitle": "How a ticket link gets published | TourTicketCompare",
-      "description": "What has to be true before a ticket button appears here: the checks a person makes, the checks automation makes, and what happens when a link stops working.",
-      "summary": "Some of the checking behind a ticket button here is done by a person in a browser, and some by named automated lanes running under strict gates. Here is which is which, and what happens when a destination breaks.",
+      "description": "What has to be true before a ticket button appears here, which checks a person does and which are automatic, and what happens when a link stops working.",
+      "summary": "Some of the checking behind a ticket button here is done by a person, and some is done automatically under strict rules. Here's which is which, and what happens when a link breaks.",
       "datePublished": "2026-08-01",
-      "dateModified": "2026-09-24",
+      "dateModified": "2026-10-11",
       "status": "published",
       "author": "TourTicketCompare",
       "tags": [
@@ -817,48 +817,48 @@
         "primary-vs-resale-concert-tickets"
       ],
       "relatedArtists": [],
-      "wordCount": 854,
+      "wordCount": 718,
       "sections": [
         {
           "type": "intro",
-          "content": "A ticket button here appears only once something has confirmed where it leads. Where there's no checked destination, the page shows an empty state instead of a link. Plenty of ticket sites work the other way round, so here's what actually stands behind a button, because \"verified\" is a word worth pinning down before you trust it."
+          "content": "A ticket button only appears here once its link has been checked. If a link can't be checked, the page shows no button rather than a guess. Plenty of sites work the other way round, so here's what actually sits behind a button. \"Verified\" is a word worth pinning down before you trust it."
         },
         {
           "type": "section",
-          "title": "An artist starts with no buttons at all",
-          "content": "When an artist is added here, the page is deliberately inert. It carries the name, a short factual summary, and nothing else: no ticket buttons, no provider logos, no dates. Internally that is a \"review required\" state, and the page is marked noindex while it is incomplete.\n\nThere are two ways out of that state. On the manual path, a person opens the proposed destination in a browser and confirms three things: that it loads, that it's the right artist rather than a same-name act, and that it's the ticket site's own page rather than a redirect chain pointing somewhere else. On the automatic path, an artist is promoted only when both SeatGeek's and Ticketmaster's APIs return an exact match for the name, Ticketmaster classifies the act as music and not a tribute, the name isn't on the site's deny list, and both artist pages exist. That path is capped at five artists a day, and one command reverses any of them. Either way, only then does the artist get an entry in the verified-link registry the redirect service reads."
+          "title": "A new artist starts with no buttons",
+          "content": "When an artist is first added, their page is bare on purpose: a name, a short summary, and nothing else. No ticket buttons, no ticket-site logos, no dates. The page is also kept out of search results until it's ready.\n\nThere are two ways an artist gets their buttons. Either a person opens the link in a browser and checks three things: it loads, it's the right artist (not someone with the same name), and it's the ticket site's own page rather than a chain of redirects. Or it happens automatically, but only when both SeatGeek and Ticketmaster return an exact match for the name, Ticketmaster lists the act as music and not a tribute act, the name isn't on a block list, and both artist pages exist. No more than five artists a day go through that way, and any of them can be undone in one step."
         },
         {
           "type": "section",
-          "title": "Individual dates are a different pipeline, and machines do publish them",
-          "content": "Artist-level links and show dates are separate problems, and it would be dishonest to describe the second the way the first is described. Dates, and most event-level ticket links, are published by a small set of named automated lanes: new shows discovered from the official listing API, a nightly sync of factual corrections to shows already on file, and one link lane per resale provider.\n\nWhat makes those lanes safe is not a person at the end of them. It is that each one only writes an unambiguous exact-event match, runs the full validation suite in the same job on exactly the content it is about to publish, and lands the change only if that passes. A match that is ambiguous is reported rather than written. An incomplete fetch from a provider leaves the existing data alone instead of clearing it. What counts as unambiguous is spelled out per provider: for the SeatGeek lane, the instant of the show, the city, the venue and the shape of the destination URL all have to agree with the provider's own record of that event.\n\nThe split is deliberate. Deciding that a page belongs to the right artist is a judgement call, so either a person makes it or the automatic path demands exact agreement between two independent sources before it acts. Deciding that a listing is the same show as one already on file is a checkable rule, so a machine applies it, consistently, every night, across far more dates than anyone would re-read by hand."
+          "title": "Show dates are added automatically",
+          "content": "Checking an artist and checking a show date are different jobs. Dates, and most links to individual shows, are added automatically: new shows from Ticketmaster's official listings, a nightly pass that fixes details on shows already listed, and a separate check for each resale site.\n\nWhat keeps that safe isn't a person at the end. It's that each check only adds a show when it's an exact match, runs the site's full set of tests on exactly what it's about to publish, and only goes ahead if they all pass. If a match isn't certain, it's flagged instead of added. If a ticket site doesn't answer properly, the existing details are left alone rather than wiped. For SeatGeek, for example, the show's time, city, venue and link all have to match SeatGeek's own listing.\n\nThat split is on purpose. Deciding a page belongs to the right artist is a judgement call, so either a person makes it or two separate sources have to agree exactly. Deciding a listing is the same show as one already on the site is a clear rule, so it's applied automatically, the same way every night, across far more dates than anyone could re-read by hand."
         },
         {
           "type": "section",
-          "title": "Nothing is trusted just because it was published",
-          "content": "A stored destination is not a permanent licence to render a button. Every outbound link is rebuilt at request time and put through host, protocol, event-ID and allowlist checks before it is offered, and again when it is followed. If any of that fails, the button does not appear. There's no fallback to a generic search page and no quietly substituted destination. The honest output is no button.\n\nThat is also why one provider's link failing does not take the others down with it. Each provider publishes on its own evidence, so a date can carry a checked link from one site, a plain listing link from another, and nothing at all from a third. That asymmetry is the data being reported rather than tidied up."
+          "title": "Every link is checked again when you click",
+          "content": "A saved link isn't trusted forever. Every time a button is shown, and again when you click it, the link is checked to make sure it still goes to the right site and the right show. If anything fails, the button doesn't appear. There's no fallback to a search page and no swapped-in link. No button is the honest answer.\n\nIt also means one ticket site's broken link doesn't take the others down. Each site's link stands on its own, so a date might have a checked link from one site, a plain link from another, and nothing from a third."
         },
         {
           "type": "section",
-          "title": "Links break, and the site is built to notice",
-          "content": "A verified link is a claim about the past, so it gets rechecked. A daily audit walks every stored destination and reports what no longer resolves. It is careful about what counts: a provider's bot protection returning a block is recorded as blocked, not as dead, because an anti-bot response proves nothing about the page. Confirmed failures are written up for a person to act on.\n\nRestoring or clearing a link needs positive evidence in the same way. A stored link is only cleared on a confirmed record from the ticket site saying the event is gone or doesn't match. Never on a failed fetch, an auth error, or an empty response that could just be a bad night."
+          "title": "Links break, and the site notices",
+          "content": "A checked link was right when it was checked, so it gets checked again. A daily check runs through every saved link and reports any that stop working. It's careful about it: if a ticket site blocks the check (which some do to stop bots), that's noted as blocked, not broken, because it doesn't prove anything about the page. Real failures go to a person to fix.\n\nA link is only removed when the ticket site clearly confirms the show is gone or doesn't match. Never because of one failed check, a login error or an empty reply that could just be a bad night."
         },
         {
           "type": "section",
-          "title": "What this does not cover",
-          "content": "Checked means the destination is real and specific to that show. It doesn't mean the price is good, the seats are there, or the terms suit you. Those belong to the ticket site and change constantly. If a link here is broken or points at the wrong thing, the [contact page](/contact) is the fastest way to say so, and the [editorial policy](/editorial-policy) sets out what gets corrected and how."
+          "title": "What a checked link doesn't promise",
+          "content": "Checked means the link is real and goes to that exact show. It doesn't mean the price is good, the seats are there, or the terms suit you. The ticket site sets all of that, and it changes all the time. If a link here is broken or goes to the wrong place, the [contact page](/contact) is the quickest way to flag it, and the [editorial policy](/editorial-policy) explains what gets fixed and how."
         }
       ]
     },
     {
       "slug": "what-a-price-snapshot-actually-is",
       "path": "/blog/what-a-price-snapshot-actually-is",
-      "title": "What a price snapshot actually is (and what it is not)",
-      "seoTitle": "What a price snapshot actually is | TourTicketCompare",
-      "description": "A price here is one provider's listed figure for one exact show, captured at a stated time and expiring 24 hours later, not live inventory.",
-      "summary": "When a figure appears on an event card here it is a snapshot: one provider's listed price for that exact show, captured at a stated moment and expiring within a day. That is a narrower claim than it looks, and the difference matters at checkout.",
+      "title": "What a price on this site actually means",
+      "seoTitle": "What a price on this site means | TourTicketCompare",
+      "description": "A price on a ticket button here is one ticket site's listed price for one show, with the time it was checked. Here's what that does and doesn't tell you.",
+      "summary": "When a ticket button here shows a price, it's one ticket site's listed price for that exact show, at the time shown. It's a handy starting point, not the price you'll pay at checkout.",
       "datePublished": "2026-08-01",
-      "dateModified": "2026-09-24",
+      "dateModified": "2026-10-11",
       "status": "published",
       "author": "TourTicketCompare",
       "tags": [
@@ -871,31 +871,31 @@
         "how-to-compare-concert-ticket-prices"
       ],
       "relatedArtists": [],
-      "wordCount": 685,
+      "wordCount": 483,
       "sections": [
         {
           "type": "intro",
-          "content": "When a figure appears on a ticket button here, it is one ticket site's lowest listed price for that one show, with the time it was checked. That's a narrower claim than \"price\" usually makes. On ticket sites the word can mean a starting figure, a per-ticket figure before fees, a figure for a section with two seats left, or the number you actually pay."
+          "content": "When a ticket button here shows a price, it's the lowest listed price one ticket site had for that show, at the time it was checked. That's a smaller promise than \"price\" usually means. On ticket sites, \"price\" can mean a starting figure, a price before fees, the price of the last two seats in a section, or what you actually pay."
         },
         {
           "type": "section",
-          "title": "One provider, one show, one moment",
-          "content": "A snapshot is the lowest listed figure a single provider's approved feed carried for a single verified show, recorded with the time it was captured. It is stored, displayed with that timestamp, and expires. It isn't an average, a market rate, a calculated figure, or the total you'll pay. Mandatory fees may already be included in that figure. Confirm the total for your ticket quantity, applicable taxes, selected delivery and optional extras on the ticket site's own checkout.\n\nSeveral conditions all have to hold before it renders at all: the provider must have granted display rights, the record must map to that exact show rather than a nearby one, the destination URL must carry its own verified provenance, the provider's display flag must be on, and the observation must not have expired. If any one of those fails, no figure appears. The absence of a price on a card is a real output, not a rendering bug."
+          "title": "One site, one show, one moment",
+          "content": "Each price comes from one ticket site, for one show, at one time. It isn't an average, a market rate, or your final total. Some fees may already be included. Check the full price for the number of tickets you want, with taxes, delivery and any extras, on the ticket site before you pay.\n\nA price only shows if the ticket site allows it, it's for that exact show (not a nearby date), the link to the show has been checked, and it's recent enough. If any of those fails, there's no price on the button. A missing price is the site being careful, not a glitch."
         },
         {
           "type": "section",
-          "title": "Why snapshots expire",
-          "content": "Listed prices move, and a figure with no expiry quietly becomes a claim nobody is standing behind. So each snapshot is written with a hard expiry 24 hours out, and the jobs that capture them are scheduled hourly. The gap between those two numbers is deliberate. If a capture run fails, or a feed goes quiet, the figure already on the card stays rather than the card going blank, and the note under the buttons always says how long ago it was checked (\"Checked 5 hours ago\"). Past 24 hours there's no longer enough evidence behind it, and it stops showing.\n\nThat's why every price here comes with its age. The timestamp isn't a disclaimer bolted on afterwards; it's the part that makes the number honest."
+          "title": "Why prices don't stay up forever",
+          "content": "Prices move. A number with no time on it soon becomes a promise nobody can keep. So prices are re-checked through the day, each one shows how long ago it was checked (\"Checked 5 hours ago\"), and once one is more than 24 hours old it comes down.\n\nThat's why every price here has its age next to it. The time isn't small print. It's what makes the number trustworthy."
         },
         {
           "type": "section",
-          "title": "Not every provider has one",
-          "content": "Providers differ in what their feeds expose, and the gaps are not filled by guessing. Vivid Seats, TicketNetwork and StubHub International supply numeric listed prices under agreements that permit displaying them, so their buttons can carry a figure. SeatGeek has no price lane here and never will: its API returns no prices to this site, so it stays a checked link. Ticket Liquidator's catalogue carries no numeric listed price, so its lane is link-only too. Ticketmaster is a verification and link source here rather than a price lane.\n\nThe visible consequence is asymmetry: one show may display a figure from two providers and a plain link from three more. That is the data being reported accurately rather than flattened into a tidier-looking table."
+          "title": "Not every ticket site has a price",
+          "content": "Ticket sites share different things. Vivid Seats, TicketNetwork and StubHub International share their listed prices and allow them to be shown, so their buttons can carry one. SeatGeek doesn't share prices with this site, so its button is always a plain checked link. Ticket Liquidator doesn't share a price either. Ticketmaster is a plain link here.\n\nSo one show might have prices from two sites and plain links to three more. That's an honest picture, not a messy one."
         },
         {
           "type": "section",
-          "title": "What the ordering is, and is not",
-          "content": "Buttons appear in a fixed order: sites that pay the site a commission first, the unpaid Ticketmaster link last. The page says so next to the buttons. The order is the same whether or not any figure is present. It isn't a ranking, and nothing on the card sorts by price or points at a \"best\" option.\n\nThe reason is that per-provider snapshots captured at different moments are not like-for-like offers, and ordering them as if they were would imply a comparison the underlying data cannot support. Calling one figure lower than another is only defensible with current figures for both sides, described for what they are: provider-supplied listed-price snapshots, each with its own timestamp. Nothing here claims availability either. There's no stock feed behind this site, and inventing one would be worse than saying nothing.\n\nWhat a snapshot is genuinely good for is narrowing the field before you open two or three tabs. The final number is the provider's order summary after fees, delivery and tax, and [the guide to ticket fees](/guides/concert-ticket-fees-explained) covers what tends to get added between the headline and the total."
+          "title": "What the button order means",
+          "content": "Buttons always appear in the same order: sites that pay this site a commission first, Ticketmaster (which pays nothing) last. The page says so next to the buttons. It isn't a ranking, and nothing sorts by price or points at a \"best\" option.\n\nThat's because prices checked at different times aren't a fair head-to-head. One price is only called lower than another when both are fresh and for the same show. And nothing here claims tickets are still available: the site can't see how many are left, and it won't pretend to.\n\nWhat a price here is good for is a quick shortlist before you open two or three tabs. Your real total is on the ticket site's order screen, after fees, delivery and tax. [The guide to ticket fees](/guides/concert-ticket-fees-explained) explains what usually gets added along the way."
         }
       ]
     },
@@ -904,10 +904,10 @@
       "path": "/blog/why-some-artist-pages-show-no-dates",
       "title": "Why some artist pages here show no dates",
       "seoTitle": "Why some artist pages show no dates | TourTicketCompare",
-      "description": "An artist page with no upcoming shows is usually a finished tour, not a data gap. Here is what an empty board means and what the page does instead.",
-      "summary": "At any moment a good share of the artist pages here have no upcoming dates. That is the calendar working correctly rather than a broken page, and the page changes what it offers when it happens.",
+      "description": "An artist page with no upcoming shows usually means the tour has finished. Here's what an empty page means and what it offers instead.",
+      "summary": "At any time, plenty of artist pages here have no upcoming dates. That's usually just a finished tour, and the page changes what it offers when it happens.",
       "datePublished": "2026-08-01",
-      "dateModified": "2026-09-24",
+      "dateModified": "2026-10-11",
       "status": "published",
       "author": "TourTicketCompare",
       "tags": [
@@ -919,36 +919,36 @@
         "when-is-the-best-time-to-buy-concert-tickets"
       ],
       "relatedArtists": [],
-      "wordCount": 646,
+      "wordCount": 585,
       "sections": [
         {
           "type": "intro",
-          "content": "If you land on an artist page here and find no tour dates, the most likely explanation is the boring one: the tour finished and the last tracked date has passed. The page does not hide that or pad itself out to look busier. It says so, and then it changes what it offers you."
+          "content": "If you land on an artist page here and there are no tour dates, the most likely reason is the boring one: the tour has finished and the last date has passed. The page doesn't hide that or pad itself out. It says so, and then it gives you something else to do."
         },
         {
           "type": "section",
-          "title": "An empty board is a state, not an error",
-          "content": "Every artist page is built from its event records. When the final upcoming date passes, those records don't disappear. They stop being upcoming, and the board empties. Nothing is deleted and nothing is invented to fill the space.\n\nWhat changes is what the page claims. The heading drops its promise of tour dates, the description search engines see changes to one that matches a page with none, and the board is replaced by a plain statement that there are no verified upcoming dates on file and no way to say yet whether more are coming. The recently passed dates stay listed underneath for reference, clearly labelled as gone.\n\nThe page itself stays in the index and in the sitemap. (An artist that has never had a date listed here is the exception: its page is kept out of search until the first date lands.) Keeping it is deliberate: the URL is a durable destination, it fills again the moment a new verified date lands, and cycling a page in and out of the index every time a tour ends would be worse for everyone than keeping one honest page at a stable address."
+          "title": "An empty page isn't a broken page",
+          "content": "Each artist page is built from that artist's show dates. When the last upcoming date passes, it isn't deleted. It just stops being upcoming, and the list empties. Nothing is removed and nothing is made up to fill the gap.\n\nWhat changes is what the page says. The heading stops promising tour dates, the summary shown in search changes to match, and the dates are replaced by a plain note: there are no confirmed upcoming dates yet, and no way to know yet whether more are coming. The dates that just passed stay underneath for reference, clearly marked as over.\n\nThe page itself stays up and stays in search, so it's there the moment new dates are announced. (The one exception is an artist who has never had a date on the site: their page stays out of search until their first date arrives.) One honest page at the same address beats a page that keeps vanishing and coming back."
         },
         {
           "type": "section",
-          "title": "The date buttons go too",
-          "content": "When the board is empty there are no date cards, so there are no per-date ticket buttons either. The most the page offers is one plainly labelled link to the artist's own page on a ticket site (\"See the artist on SeatGeek\", for example), where one has been checked. It goes to the artist, not to a show, and it doesn't pretend to be a date. The per-date buttons come back with the dates.\n\nAround it you get the empty state, the recent dates for context, and a form to leave your email so you can be told once confirmed dates are listed for that artist."
+          "title": "The ticket buttons go too",
+          "content": "With no dates, there are no date cards, so there are no buttons for individual shows. At most, the page offers one clearly labelled link to the artist's page on a ticket site (\"See the artist on SeatGeek\", for example), if that link has been checked. It goes to the artist, not a show, and it doesn't pretend to be a date. The show buttons come back with the dates.\n\nNext to it you'll find the recent dates and a form to leave your email, so you hear as soon as confirmed dates go up for that artist."
         },
         {
           "type": "section",
-          "title": "The listings stop promising too",
-          "content": "It is not enough for the page to be honest if every link pointing at it implies otherwise. So the artist listings across the site run the same test the page does. An artist with no upcoming dates is badged \"No dates currently listed\", its card offers a date alert rather than a ticket link, and it sorts into a second group below the artists that do have shows.\n\nThose links stay followable, because the pages are still real and still useful. They just stop occupying the prominent slots. The intent is that you never click through from a grid of tour dates to a page that has none."
+          "title": "Artist lists don't oversell it either",
+          "content": "An honest page isn't much use if every link to it suggests otherwise. So the artist lists across the site follow the same rule. An artist with no upcoming dates is marked \"No dates currently listed\", offers a date alert instead of a ticket link, and sits in a second group below the artists who do have shows.\n\nYou can still click through, because the page is still useful. It just doesn't take up a spot meant for artists with shows. You should never click from a list of tour dates to a page that has none."
         },
         {
           "type": "section",
-          "title": "What an empty board is not evidence of",
-          "content": "It doesn't mean the artist has no tour. It means this site has no date on file for one. Coverage here is selective and built artist by artist. Dates arrive from Ticketmaster's listings through a daily check, and each ticket button goes up only once its destination has passed its own checks. If you know a date is missing, the [contact page](/contact) is the fastest way to flag it.\n\nNor is it a comment on the artist. Empty boards cluster in the gap between one tour ending and the next being announced, which is simply where most acts spend a good part of any year."
+          "title": "What an empty page doesn't mean",
+          "content": "It doesn't mean the artist has no tour. It means this site doesn't have a date for them yet. The site covers artists one by one, dates come in from Ticketmaster's listings through a daily check, and each ticket button only goes up once its link has been checked. If you know a date is missing, the [contact page](/contact) is the quickest way to flag it.\n\nIt isn't a comment on the artist either. Empty pages mostly show up between one tour ending and the next being announced, which is where most acts spend a good chunk of any year."
         },
         {
           "type": "section",
-          "title": "If you are waiting on an onsale",
-          "content": "That gap is also where ticket scams cluster, because there is demand and nothing legitimate to buy yet. Two things worth reading in that window: [how to prepare for an onsale](/guides/how-to-prepare-for-a-ticket-onsale), and [how to spot fake listings](/guides/how-to-avoid-ticket-scams) before the real dates arrive."
+          "title": "If you're waiting for tickets to go on sale",
+          "content": "That gap is also when ticket scams spike, because people want tickets and there's nothing real to buy yet. Two things worth reading while you wait: [how to prepare for an on-sale](/guides/how-to-prepare-for-a-ticket-onsale), and [how to spot fake listings](/guides/how-to-avoid-ticket-scams) before the real dates arrive."
         }
       ]
     }

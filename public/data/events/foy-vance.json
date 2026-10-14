@@ -7,7 +7,7 @@
     "city": "Edinburgh",
     "country": "Great Britain",
     "venue": "The Queen's Hall",
-    "datetime_iso": "2026-10-17T18:00:00Z",
+    "datetime_iso": "2026-10-17T17:30:00Z",
     "tour_name": "The Wake World Tour",
     "ticketmaster_event_id": "3600643EE8D37FED",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-celebrating-the-edinburgh-17-10-2026/event/3600643EE8D37FED",
@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-celebrating-the-edinburgh-17-10-2026/event/3600643EE8D37FED",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -561,7 +561,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvFFZ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvFFZ",
     "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/portland-oregon-aladdin-theater-2026-11-10-7-pm/concert/18085699",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-portland-aladdin-theater-11-10-2026/production/6685300",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvFFZ",
     "last_verified_at": null,
@@ -583,11 +583,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 6685300,
+        "url": "https://www.vividseats.com/foy-vance-tickets-portland-aladdin-theater-11-10-2026/production/6685300",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

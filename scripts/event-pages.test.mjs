@@ -28,6 +28,7 @@ import {
   RECOGNISER_PREMIUM_SEATS_NAME_RE,
   RECOGNISER_PREMIUM_SEATS_VENUE_SUFFIX,
   RECOGNISER_TRAVEL_PACKAGE_MARKERS,
+  TICKET_NOT_INCLUDED_RE,
   assertUniqueEventKeys,
   buildEventKeyIndex,
   deriveEventRouteStates,
@@ -310,6 +311,8 @@ assert("keys are fixed-length lowercase hex", GOLDEN_KEYS.every(([id]) => new Re
   assert("loge venue suffix matches the recogniser", pySuffix === RECOGNISER_PREMIUM_SEATS_VENUE_SUFFIX);
   const pyBox = python.match(/^BOX_SEAT_NAME_RE = re\.compile\(r"([^"]+)", re\.IGNORECASE\)/m)?.[1] || "";
   assert("box-seat pattern matches the recogniser", pyBox === BOX_SEAT_NAME_RE.source && BOX_SEAT_NAME_RE.flags === "i");
+  const pyNotIncluded = python.match(/^TICKET_NOT_INCLUDED_RE = re\.compile\(r"([^"]+)", re\.IGNORECASE\)/m)?.[1] || "";
+  assert("ticket-not-included pattern matches the recogniser", pyNotIncluded === TICKET_NOT_INCLUDED_RE.source && TICKET_NOT_INCLUDED_RE.flags === "i");
 }
 
 // ── Event-page structured data decision ─────────────────────────────────────

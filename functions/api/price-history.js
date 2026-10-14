@@ -29,7 +29,7 @@ const MAX_POINTS_PER_PROVIDER = 240;
 const MIN_POINTS_PER_PROVIDER = 2;
 
 const SNAPSHOT_FRAMING =
-  "Provider-supplied listed-price snapshots, not live inventory, availability, or final checkout totals. Fees, taxes, delivery and availability are controlled by the provider and may change.";
+  "Each ticket site's listed price when it was checked. Not live availability or your final total: the ticket site sets fees, taxes and delivery, and they can change.";
 
 // Approved numeric-price lanes keyed by their public display name, mapping to
 // the history table's `provider` column value and approved `source`. SeatGeek

@@ -1,0 +1,320 @@
+[
+  {
+    "id": "tm-lionel-richie-2026-las-vegas-17ayv0g62k5zuj3",
+    "artist_slug": "lionel-richie",
+    "artist_name": "Lionel Richie",
+    "event_name": "Lionel Richie - King of Hearts",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Encore Theater at Wynn Las Vegas",
+    "datetime_iso": "2026-11-12T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064F4CBE0D992",
+    "ticketmaster_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-11-2026/event/170064F4CBE0D992",
+    "seatgeek_url": "https://seatgeek.com/lionel-richie-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-11-11-8-pm/concert/18405684",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-11-2026/event/170064F4CBE0D992",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064F4CBE0D992",
+        "discovery_event_id": "17AYv0G62K5zuJ3",
+        "url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-11-2026/event/170064F4CBE0D992",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G62K5zuJ3",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lionel-richie-2026-las-vegas-17ayv0g62k5zcj9",
+    "artist_slug": "lionel-richie",
+    "artist_name": "Lionel Richie",
+    "event_name": "Lionel Richie - King of Hearts",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Encore Theater at Wynn Las Vegas",
+    "datetime_iso": "2026-11-14T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064F4CBE2D997",
+    "ticketmaster_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-13-2026/event/170064F4CBE2D997",
+    "seatgeek_url": "https://seatgeek.com/lionel-richie-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-11-13-8-pm/concert/18405685",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-13-2026/event/170064F4CBE2D997",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064F4CBE2D997",
+        "discovery_event_id": "17AYv0G62K5zcJ9",
+        "url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-13-2026/event/170064F4CBE2D997",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G62K5zcJ9",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lionel-richie-2026-las-vegas-17ayv0g62k5yqjh",
+    "artist_slug": "lionel-richie",
+    "artist_name": "Lionel Richie",
+    "event_name": "Lionel Richie - King of Hearts",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Encore Theater at Wynn Las Vegas",
+    "datetime_iso": "2026-11-15T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064F4CBE5D99B",
+    "ticketmaster_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-14-2026/event/170064F4CBE5D99B",
+    "seatgeek_url": "https://seatgeek.com/lionel-richie-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-11-14-8-pm/concert/18405683",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-14-2026/event/170064F4CBE5D99B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064F4CBE5D99B",
+        "discovery_event_id": "17AYv0G62K5yqJh",
+        "url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-14-2026/event/170064F4CBE5D99B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G62K5yqJh",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lionel-richie-2027-las-vegas-17ayv0g62k5uqjk",
+    "artist_slug": "lionel-richie",
+    "artist_name": "Lionel Richie",
+    "event_name": "Lionel Richie - King of Hearts",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Encore Theater at Wynn Las Vegas",
+    "datetime_iso": "2027-01-09T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064F4CBD9D986",
+    "ticketmaster_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-01-08-2027/event/170064F4CBD9D986",
+    "seatgeek_url": "https://seatgeek.com/lionel-richie-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2027-01-08-8-pm/concert/18405682",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-01-08-2027/event/170064F4CBD9D986",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064F4CBD9D986",
+        "discovery_event_id": "17AYv0G62K5UqJk",
+        "url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-01-08-2027/event/170064F4CBD9D986",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G62K5UqJk",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lionel-richie-2027-las-vegas-17ayv0g62k5muj2",
+    "artist_slug": "lionel-richie",
+    "artist_name": "Lionel Richie",
+    "event_name": "Lionel Richie - King of Hearts",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Encore Theater at Wynn Las Vegas",
+    "datetime_iso": "2027-01-10T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064F4CBDCD98F",
+    "ticketmaster_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-01-09-2027/event/170064F4CBDCD98F",
+    "seatgeek_url": "https://seatgeek.com/lionel-richie-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2027-01-09-8-pm/concert/18405681",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-01-09-2027/event/170064F4CBDCD98F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064F4CBDCD98F",
+        "discovery_event_id": "17AYv0G62K5MuJ2",
+        "url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-01-09-2027/event/170064F4CBDCD98F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G62K5MuJ2",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lionel-richie-2027-thackerville-z7r9jz1aav_-z",
+    "artist_slug": "lionel-richie",
+    "artist_name": "Lionel Richie",
+    "event_name": "Lionel Richie",
+    "city": "Thackerville",
+    "country": "United States Of America",
+    "venue": "Lucas Oil Live at WinStar World Casino",
+    "datetime_iso": "2027-01-31T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv_-z",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv_-z",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv_-z",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv_-z",
+        "discovery_event_id": "Z7r9jZ1AAv_-z",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv_-z",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv_-z",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  }
+]

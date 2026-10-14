@@ -144,9 +144,12 @@ Missing credentials must cause a safe no-op or explicit failure, never guessed d
 
 ### Repository write capability
 
-No workflow pushes to `main`. Every write-capable lane publishes the same way:
-commit to a branch, push it, open a PR, earn the `test-mvp` check on that PR
-head, squash-merge. **Widening what any of these may write is an owner
+Every write-capable lane commits to a branch, opens a PR and earns `test-mvp`
+on that exact head after in-job validation. They squash-merge except the
+verification-date writer: it integrates that validated PR head with a protected
+non-forced fast-forward, whose sole parent is the audited commit. A main change
+rejects the integration atomically; GitHub must confirm the PR as merged.
+No unvalidated commit is pushed to main. **Widening what any of these may write is an owner
 decision, not a maintenance change.**
 
 How the check is earned matters. A PR opened with the **Actions token** gets no

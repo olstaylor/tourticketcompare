@@ -234,3 +234,9 @@ git diff --check
 ```
 
 If event data changed, inspect the diff for unexpected changes to `verification_status`, Ticketmaster fields, provider URLs/provenance, and `tour_name`. A provider tool must only touch the fields documented for its lane.
+
+### Official organizer and event end
+
+The tracked-event snapshot preserves only the official `promoter.name` / `promoters[].name` and `dates.end.dateTime` fields for metadata enrichment. The identity-checked, blocker-free nightly sync stores names as `organizer_names` and an explicit event end after the start as `end_datetime_iso`. Both appear visibly on cards and event pages and in their MusicEvent nodes. Missing fields leave existing facts intact; a changed start clears an old end unless the same response supplies a valid replacement. Sales-window end dates are never event ends. Older snapshots remain compatible and enrichment arrives as fresh snapshots are collected.
+
+Public Ticketmaster sale dates are not resale-offer `validFrom` dates. No stock claim or offer is generated from a ticket link, lifecycle status, or price observation. Those warnings remain until the corresponding approved provider supplies exact-offer evidence.

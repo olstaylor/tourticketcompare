@@ -2358,6 +2358,11 @@ function renderShowCard(show, options = {}) {
     runLine.append(chip, document.createTextNode(" at this venue"));
     body.append(runLine);
   }
+  const organizers = Array.isArray(show.organizer_names) ? show.organizer_names.filter((name) => typeof name === "string" && name.trim()) : [];
+  if (organizers.length) text(body, "p", `Organizer: ${organizers.join(", ")}`, "show-card-sub muted");
+  if (show.end_datetime_iso && Date.parse(show.end_datetime_iso) > Date.parse(show.dateTimeISO || show.datetime_iso)) {
+    text(body, "p", `Ends: ${formatShowDate(show.end_datetime_iso, show.timezone)} ${showLocalTime(show.end_datetime_iso, show.timezone)}`, "show-card-sub muted");
+  }
   // Keep in sync with rescheduledHtml in renderShowCardServerHtml.
   if (String(show.ticketmaster_status_code || "").trim().toLowerCase() === "rescheduled") {
     text(body, "p", "Date changed: this is the new date.", "show-card-sub muted");

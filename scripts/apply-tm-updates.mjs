@@ -60,6 +60,7 @@ import { includePastFromEnv, skipInSweep, PAST_RECHECK_DAYS } from './lib/tm-swe
 import { normalizePresaleWindows } from '../functions/_presales.js';
 import { PROVIDER_LANES } from './lib/event-link-coverage.mjs';
 import { eventLocalDate, urlDateConflicts } from './sync-impact-marketplace-events.mjs';
+import { officialEventMetadata } from '../functions/_event-metadata.js';
 import { validPreviousStartDate, previousStartDateFromEvent } from '../functions/_event-reschedule.js';
 
 const DEFAULT_BASE = 'https://app.ticketmaster.com/discovery/v2';
@@ -459,6 +460,11 @@ function computeIntendedUpdates(event, remote, now = Date.now()) {
   const data = remote?.data;
   if (!data) return changes;
 
+  // Missing fields in older snapshots are not evidence for deleting facts.
+  for (const [field, value] of Object.entries(officialEventMetadata(data))) {
+    if (JSON.stringify(event[field]) !== JSON.stringify(value)) changes.push({ field, from: event[field] ?? null, to: value });
+  }
+
   // --- date / time -----------------------------------------------------------
   // Only a genuine instant move is a change; differing representations of the
   // same moment (venue-local wall time vs the API's UTC) are not.
@@ -467,6 +473,11 @@ function computeIntendedUpdates(event, remote, now = Date.now()) {
   const tz = clean(event.timezone) || clean(data?.dates?.timezone);
   if (remoteDateTime && datetimeGenuinelyChanged(localDateTime, remoteDateTime, tz)) {
     changes.push({ field: 'datetime_iso', from: localDateTime, to: remoteDateTime });
+  }
+
+  // A moved start invalidates an old end unless this response supplies a new one.
+  if (changes.some((change) => change.field === 'datetime_iso') && event.end_datetime_iso && !officialEventMetadata(data).end_datetime_iso) {
+    changes.push({ field: 'end_datetime_iso', from: event.end_datetime_iso, to: null });
   }
 
   // Only fill a missing timezone; never rewrite a present one (avoids churn
@@ -833,6 +844,10 @@ async function runSelfTest() {
   const ev = (o) => ({ datetime_iso: '', timezone: '', venue: '', city: '', country: '', ticketmaster_event_id: 'X', ticketmaster_url: '', ...o });
   const remote = (o) => ({ data: { id: 'X', dates: { start: {}, timezone: '' }, _embedded: { venues: [{ name: '', city: { name: '' }, country: { name: '' } }] }, ...o } });
   const fieldsOf = (e, r) => computeIntendedUpdates(e, r).map((c) => c.field);
+
+  assert('official promoter names are stored', fieldsOf(ev({}), remote({ promoters: [{ name: 'Official Promoter' }] })).includes('organizer_names'));
+  assert('old snapshots do not erase organizers', !fieldsOf(ev({ organizer_names: ['Official Promoter'] }), remote({})).includes('organizer_names'));
+  assert('a changed start clears an unsupported old event end', computeIntendedUpdates(ev({ datetime_iso: '2026-10-01T18:00:00Z', end_datetime_iso: '2026-10-01T21:00:00Z' }), remote({ dates: { start: { dateTime: '2026-10-02T18:00:00Z' } } })).some((c) => c.field === 'end_datetime_iso' && c.to === null));
 
   assert('explicit Discovery id is accepted',
     ticketmasterDiscoveryEventId({ ticketmaster_discovery_event_id: 'vv1AaZkoVGkdF4iwr' }) === 'vv1AaZkoVGkdF4iwr');

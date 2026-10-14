@@ -21,8 +21,11 @@ export function snapshotFields(data) {
   const list = (value, pick) => Array.isArray(value) ? value.map(pick) : null;
   return {
     id: raw(data.id), name: raw(data.name), url: raw(data.url),
+    promoter: { name: raw(data.promoter?.name) },
+    promoters: list(data.promoters, (p) => ({ name: raw(p?.name) })),
     dates: {
       timezone: raw(data.dates?.timezone),
+      end: { dateTime: raw(data.dates?.end?.dateTime) },
       start: { dateTime: raw(data.dates?.start?.dateTime), localDate: raw(data.dates?.start?.localDate), timeZone: raw(data.dates?.start?.timeZone) },
       status: { code: raw(data.dates?.status?.code) }
     },

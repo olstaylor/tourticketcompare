@@ -606,7 +606,7 @@
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-inglewood-kia-forum-10-17-2026--concerts-pop/production/7132070",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-inglewood-california-10-17-2026/event/090064C5EF12A97C",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -614,7 +614,7 @@
         "discovery_event_id": "vvG10Z_G9R7nPH",
         "url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-inglewood-california-10-17-2026/event/090064C5EF12A97C",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-14",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -667,11 +667,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034404/Charli-XCX-tickets-Sat-Oct-17-2026-The-Kia-Forum",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-inglewood-tickets-10-17-2026/event/107325084",
     "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-12T20:00:00Z",
-        "end": "2026-10-13T19:00:00Z"
-      },
       {
         "name": "Charity Tickets Onsale",
         "start": "2026-06-12T20:00:00Z",

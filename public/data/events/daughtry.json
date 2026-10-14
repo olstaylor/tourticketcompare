@@ -397,7 +397,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-huntington-the-paramount-in-concert-with-northwell-10-20-2026--concerts-rock/production/7169991",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-huntington-new-york-10-20-2026/event/000064C9EC38CDF1",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -434,11 +434,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-19T14:00:00Z",
-        "end": "2026-10-14T02:00:00Z"
-      },
       {
         "name": "$20 Ticket Discount",
         "start": "2026-10-07T14:00:00Z",

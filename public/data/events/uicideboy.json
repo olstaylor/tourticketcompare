@@ -251,7 +251,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-tampa-florida-10-17-2026/event/0D00647BD39CF0A6",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -286,14 +286,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_6RKE2eJ",
     "timezone": "America/New_York",
-    "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-03T14:00:00Z",
-        "end": "2026-10-13T16:00:00Z"
-      }
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-uicideboy-2026-sunrise-z7r9jz1a7xzpd",

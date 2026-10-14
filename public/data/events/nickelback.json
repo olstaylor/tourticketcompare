@@ -1715,7 +1715,7 @@
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-boston-td-garden-3-10-2027--concerts-rock/production/7678980",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-boston-massachusetts-03-10-2027/event/01006542F8709C2C",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1788,11 +1788,6 @@
         "name": "Reserved by Spotify",
         "start": "2026-10-13T16:00:00Z",
         "end": "2026-10-14T15:59:00Z"
-      },
-      {
-        "name": "Front Of The Line Presale",
-        "start": "2026-10-13T16:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
       },
       {
         "name": "Bandsintown Presale",
@@ -2042,7 +2037,7 @@
     "ticketmaster_event_id": "10006544F4EAD977",
     "ticketmaster_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-toronto-ontario-03-21-2027/event/10006544F4EAD977",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-toronto-scotiabank-arena-3-21-2027/production/7678919",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-toronto-ontario-03-21-2027/event/10006544F4EAD977",
     "last_verified_at": "2026-10-11",
@@ -2064,11 +2059,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7678919,
+        "url": "https://www.vividseats.com/nickelback-tickets-toronto-scotiabank-arena-3-21-2027/production/7678919",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2497,7 +2492,7 @@
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-saskatoon-sasktel-centre-4-2-2027/production/7678911",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-saskatoon-saskatchewan-04-02-2027/event/1100654504CBDA72",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2562,14 +2557,14 @@
         "end": "2026-10-16T04:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-13T18:00:00Z",
-        "end": "2026-10-14T17:59:00Z"
-      },
-      {
         "name": "Front Of The Line Amex Presale Tickets",
         "start": "2026-10-13T18:00:00Z",
         "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T19:00:00Z",
+        "end": "2026-10-14T17:59:00Z"
       },
       {
         "name": "Bandsintown Presale",
@@ -4121,7 +4116,7 @@
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-glasgow-ovo-hydro-6-1-2027--concerts-rock/production/7679018",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-glasgow-01-06-2027/event/36006547BE9C6740",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4189,6 +4184,11 @@
       },
       {
         "name": "OVO Presale",
+        "start": "2026-10-14T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
         "start": "2026-10-14T09:00:00Z",
         "end": "2026-10-16T08:00:00Z"
       },

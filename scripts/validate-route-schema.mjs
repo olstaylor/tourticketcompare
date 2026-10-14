@@ -35,6 +35,7 @@ import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { hasSchemaProperty } from "./lib/schema-properties.mjs";
 import { eventLifecycleHeld } from "../functions/_route-indexability.js";
+import { organizerNames, eventEndDate } from "../functions/_event-metadata.js";
 import { eventPreviousStartDate } from "../functions/_event-reschedule.js";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -676,8 +677,8 @@ function expectedMusicEventCount(artistSlug) {
   const artistsMeta = JSON.parse(await fs.readFile(path.join(root, "public/data/artists.json"), "utf8"));
   const catalog = JSON.parse(await fs.readFile(path.join(root, "public/data/catalog.json"), "utf8"));
 
-  // The only properties an event-page MusicEvent may carry. Anything else —
-  // organizer, endDate — is a claim the page does not make.
+  // The core properties an event-page MusicEvent may carry.
+  // Organizer and endDate are optional, checked against official stored facts.
   // previousStartDate is optional, backed by recorded rescheduling history.
   // `description` restates the page's lead (artist, venue, city, date).
   const EVENT_NODE_KEYS = ["@id", "@type", "description", "eventAttendanceMode", "eventStatus", "image", "location", "name", "performer", "startDate", "url"].join(",");
@@ -824,7 +825,11 @@ function expectedMusicEventCount(artistSlug) {
     const problems = [];
     // `offers` is optional: present only where the page's ticket buttons show
     // a gated price (the same musicEventOffersSchema the parent boards use).
-    const { offers: nodeOffers, previousStartDate, ...nodeCore } = node;
+    const { offers: nodeOffers, previousStartDate, organizer, endDate, ...nodeCore } = node;
+    const expectedOrganizers = organizerNames(event.organizer_names).map((name) => ({ "@type": "Organization", name }));
+    if (JSON.stringify(organizer ?? []) !== JSON.stringify(expectedOrganizers)) problems.push("organizer differs from recorded official names");
+    const expectedEnd = eventEndDate(event);
+    if (expectedEnd ? Date.parse(endDate) !== Date.parse(expectedEnd) : endDate !== undefined) problems.push("endDate differs from recorded event end");
     const expectedPrevious = eventPreviousStartDate(event);
     if (expectedPrevious ? (!previousStartDate || Date.parse(previousStartDate) !== Date.parse(expectedPrevious)) : previousStartDate !== undefined) problems.push(`previousStartDate ${previousStartDate} != recorded ${expectedPrevious || "none"}`);
     if (Object.keys(nodeCore).sort().join(",") !== EVENT_NODE_KEYS) problems.push(`properties are [${Object.keys(node).sort()}], expected [${EVENT_NODE_KEYS}] plus optional offers`);

@@ -355,6 +355,9 @@ def run_self_test() -> int:
     }]
     script_path = Path(__file__).resolve()
     test_cases = [
+        {"name": "unsafe organizer", "mutate": lambda event: event.__setitem__("organizer_names", ["<script>"]), "expect": "organizer_names: must contain plain official organization names"},
+        {"name": "event end before start", "mutate": lambda event: event.__setitem__("end_datetime_iso", "2026-06-01T19:00:00Z"), "expect": "end_datetime_iso: requires an explicit event end after the known event start"},
+        {"name": "naive event end", "mutate": lambda event: event.__setitem__("end_datetime_iso", "2026-06-01T23:00:00"), "expect": "end_datetime_iso: requires an explicit event end after the known event start"},
         {
             "name": "ambiguous previous start datetime",
             "mutate": lambda event: event.__setitem__("previous_start_date", "2026-05-01T20:00:00"),
@@ -481,6 +484,8 @@ def run_self_test() -> int:
         },
     ]
     positive_cases = [
+        {"name": "official organizer and event end", "mutate": lambda event: event.update(organizer_names=["Official Promoter"], end_datetime_iso="2026-06-01T23:00:00Z")},
+        {"name": "event end with venue local start", "mutate": lambda event: event.update(datetime_iso="2026-06-01T20:00:00", timezone="America/New_York", end_datetime_iso="2026-06-02T03:00:00Z")},
         {
             "name": "recorded Ticketmaster lifecycle status",
             "mutate": lambda event: event.__setitem__("ticketmaster_status_code", "cancelled"),
@@ -846,8 +851,27 @@ def main() -> int:
             elif (status or "").strip() != "announced":
                 errors.append(f"{prefix}.public_onsale_at: only allowed on an 'announced' event")
 
-        # Rescheduling history is optional: first-seen rescheduled events often
-        # have no known original date. Never accept a naive previous datetime.
+        # Optional official organizer and event-end facts.
+        organizers = event.get("organizer_names")
+        if organizers is not None and (not isinstance(organizers, list) or not organizers or any(
+            not isinstance(name, str) or not name.strip() or len(name) > 200 or re.search(r"[<>\r\n]|https?://", name, re.I)
+            for name in organizers
+        )):
+            errors.append(f"{prefix}.organizer_names: must contain plain official organization names")
+        end_value = event.get("end_datetime_iso")
+        if end_value is not None:
+            end = parse_iso_datetime(end_value)
+            start_value = event.get("datetime_iso")
+            start = parse_iso_datetime(start_value) if isinstance(start_value, str) and "T" in start_value else None
+            if start and not start.tzinfo:
+                try:
+                    start = start.replace(tzinfo=ZoneInfo(event.get("timezone", "")))
+                except (ValueError, KeyError, TypeError):
+                    start = None
+            if not isinstance(end_value, str) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(?::\d{2}(?:\.\d+)?)?(?:Z|[+-]\d{2}:?\d{2})", end_value) or not end or not end.tzinfo or not start or not start.tzinfo or end <= start:
+                errors.append(f"{prefix}.end_datetime_iso: requires an explicit event end after the known event start")
+
+        # Rescheduling history may be unknown; never accept naive datetimes.
         previous_start_date = event.get("previous_start_date")
         if previous_start_date is not None:
             previous = parse_iso_datetime(previous_start_date)

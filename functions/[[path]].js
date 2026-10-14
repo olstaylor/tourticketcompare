@@ -54,6 +54,7 @@ import { CARD_PRICE_TAIL, MONEY_DISCLOSURE, NO_PRICE_NOTE, PRICE_DISCLOSURE, PRI
 import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventKey, eventPageLinker, eventPageSchemaDecision, nonPerformanceMarkers, resolveEventRoute } from "./_event-pages.js";
 import { deriveEventContext, EVENT_CITY_NEIGHBOUR_DAYS, EVENT_VENUE_NEIGHBOUR_DAYS } from "./_event-context.js";
 import { EVENT_INDEXED_COHORT_KEYS, deriveEventIndexingPilot, eventPagesIndexingEnabled } from "./_event-indexability.js";
+import { organizerNames, eventEndDate } from "./_event-metadata.js";
 import { eventPreviousStartDate } from "./_event-reschedule.js";
 import {
   BLOG_INDEX_PATH,
@@ -1382,9 +1383,8 @@ function artistSchema(route, origin, describes = true) {
 // (see musicEventOffersSchema below). Availability is never emitted under any
 // flag. `description` and `image` are composed only from already-verified
 // facts (name/venue/city/date) and the page's own social card, so
-// they add Search Console coverage without inventing data. `organizer` and
-// `endDate` stay omitted: we hold no verified promoter or event end time, and
-// fabricating either would violate the never-invent rule.
+// they add Search Console coverage without inventing data. Organizer and end
+// time are optional facts collected from the exact official event record.
 // Absolute URL of the route's social card: its per-page card from the generated
 // OG_CARDS manifest, or the shared brand card when none has been built yet. The
 // og:image/twitter:image meta and MusicEvent.image both read this, so they
@@ -1426,6 +1426,22 @@ function musicEventName(show, artistName) {
 // invariant holds identically on every page type. `performer` is a reference to
 // the page's Person/MusicGroup node on artist pages and an inline
 // Person/MusicGroup on venue/city pages, which aggregate multiple artists.
+function renderOfficialMetadata(show) {
+  const names = organizerNames(show.organizer_names);
+  const end = eventEndDate(show);
+  const parts = [names.length ? `Organizer: ${escapeHtml(names.join(", "))}` : "", end ? `Ends: <time datetime="${escapeAttr(end)}">${escapeHtml(formatShowDateServer(end, show.timezone))} ${escapeHtml(showLocalTimeServer(end, show.timezone, true))}</time>` : ""].filter(Boolean);
+  return parts.length ? `<p class="show-card-sub muted">${parts.join(" · ")}</p>` : "";
+}
+
+function eventMetadataSchema(show) {
+  const names = organizerNames(show.organizer_names);
+  const end = eventEndDate(show);
+  return {
+    ...(names.length ? { organizer: names.map((name) => ({ "@type": "Organization", name })) } : {}),
+    ...(end ? { endDate: venueLocalIso(end, show.timezone) } : {})
+  };
+}
+
 function musicEventNode(show, origin, { displayName, performer, image, offers = [], identity = null }) {
   const name = displayName || show.artist_name || show.artist_slug;
   const { url, id } = identity || showSchemaIdentity(null, show, origin);
@@ -1439,6 +1455,7 @@ function musicEventNode(show, origin, { displayName, performer, image, offers = 
     description: `${name} live at ${show.venue} in ${show.city}${displayDate ? ` on ${displayDate}` : ""}.`,
     image: image || `${origin}/og-image.png`,
     startDate: venueLocalIso(show.dateTimeISO, show.timezone),
+    ...eventMetadataSchema(show),
     // Only publishable shows reach this node, so a held (cancelled/postponed)
     // show never does. Rescheduled is stated only when Ticketmaster's own
     // status says so. An original date is included only when recorded.
@@ -1530,8 +1547,8 @@ function venueLocalIso(iso, timezone) {
 // a node at all and which eventStatus it carries. `offers` follow the same
 // gates as the parent boards (SCHEMA_OFFERS_ENABLED, then
 // musicEventOffersSchema over the copy onRequest priced), so an Offer exists
-// only where the page's own ticket button shows that price. There is no
-// organizer or endDate: neither is a verified fact the page holds.
+// only where the page's own ticket button shows that price.
+// Organizer and endDate are included only when verified source facts exist.
 // previousStartDate is optional and mirrors the visible original-date line.
 function eventPageSchema(route, origin, catalog, events = [], env = {}, now = Date.now()) {
   const decision = eventPageSchemaDecision(route.event, { now });
@@ -1562,6 +1579,7 @@ function eventPageSchema(route, origin, catalog, events = [], env = {}, now = Da
       // Composed from the same verified facts as the listing nodes' description.
       description: `${artist.name} live at ${show.venue} in ${show.city} on ${formatShowDateServer(show.dateTimeISO, show.timezone)}.`,
       startDate,
+      ...eventMetadataSchema(show),
       eventStatus: decision.eventStatus,
       ...(eventPreviousStartDate(show) ? { previousStartDate: venueLocalIso(eventPreviousStartDate(show), show.previous_start_timezone) } : {}),
       // Every tracked show is an in-person concert at a named venue, as on the
@@ -4892,6 +4910,8 @@ function enrichEventAsShow(ev) {
     event_name: String(ev.event_name || ev.name || "").trim(),
     tour_name: String(ev.tour_name || "").trim(),
     dateTimeISO: String(ev.dateTimeISO || ev.datetime_iso || "").trim(),
+    organizer_names: organizerNames(ev.organizer_names),
+    end_datetime_iso: eventEndDate(ev),
     previous_start_date: eventPreviousStartDate(ev),
     previous_start_timezone: String(ev.previous_start_timezone || "").trim(),
     // Required to render dateTimeISO at the venue rather than in UTC — see
@@ -5072,7 +5092,7 @@ function formatShortDateServer(iso, timezone) {
 // time lands exactly on midnight is a date-only record, and printing "12:00 AM"
 // for it would invent a start time the source never gave us.
 // Keep in sync with showLocalTime in public/app.js.
-function showLocalTimeServer(iso, timezone) {
+function showLocalTimeServer(iso, timezone, includeMidnight = false) {
   const parts = venueDateParts(iso, timezone);
   if (!parts) return "";
   try {
@@ -5083,7 +5103,7 @@ function showLocalTimeServer(iso, timezone) {
     const hour = Number(dateFormatter({ hour: "numeric", hourCycle: "h23" }, parts.timeZone).format(parts.date));
     const minute = Number(dateFormatter({ minute: "numeric" }, parts.timeZone).format(parts.date));
     if (!Number.isFinite(hour) || !Number.isFinite(minute)) return "";
-    if ((hour === 0 || hour === 24) && minute === 0) return "";
+    if (!includeMidnight && (hour === 0 || hour === 24) && minute === 0) return "";
     return dateFormatter({ hour: "numeric", minute: "2-digit" }, parts.timeZone).format(parts.date);
   } catch (error) {
     return "";
@@ -6290,7 +6310,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   const rescheduledHtml = eventLifecycle(show) === EVENT_LIFECYCLE.RESCHEDULED
     ? `<p class="show-card-sub muted" data-event-lifecycle="rescheduled">Date changed: this is the new date.${previousDateHtml}</p>`
     : "";
-  return `<article class="info-card show-card${run ? " show-card-run-night" : ""}"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""}${show.id ? ` data-event-id="${escapeAttr(String(show.id))}"` : ""} data-show-json="${showJson}">${badgeHtml}<div class="show-card-body">${artistHtml}<h3 class="show-card-title">${escapeHtml(title)}</h3>${metaHtml}${subHtml}${rescheduledHtml}${runHtml}</div><div class="show-card-actions">${ctaHtml}${copyLinkHtml}${supplementalHtml}</div></article>`;
+  return `<article class="info-card show-card${run ? " show-card-run-night" : ""}"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""}${show.id ? ` data-event-id="${escapeAttr(String(show.id))}"` : ""} data-show-json="${showJson}">${badgeHtml}<div class="show-card-body">${artistHtml}<h3 class="show-card-title">${escapeHtml(title)}</h3>${metaHtml}${subHtml}${renderOfficialMetadata(show)}${rescheduledHtml}${runHtml}</div><div class="show-card-actions">${ctaHtml}${copyLinkHtml}${supplementalHtml}</div></article>`;
 }
 
 // Zero-event board state. The primary CTA is the artist-level page of the
@@ -6907,6 +6927,8 @@ function renderEventPageBody(route, events, env) {
     ["Artist", anchor(artist.name, `/artists/${artist.slug}`, "text-link")],
     eventName && eventName.toLowerCase() !== artist.name.toLowerCase() ? ["Billed as", escapeHtml(eventName)] : null,
     show.tour_name ? ["Tour", escapeHtml(show.tour_name)] : null,
+    organizerNames(show.organizer_names).length ? ["Organizer", escapeHtml(organizerNames(show.organizer_names).join(", "))] : null,
+    eventEndDate(show) ? ["Ends", escapeHtml(`${formatShowDateServer(show.end_datetime_iso, show.timezone)} ${showLocalTimeServer(show.end_datetime_iso, show.timezone, true)}`)] : null,
     ["Venue", escapeHtml(show.venue)],
     ["City", escapeHtml([show.city, show.country ? normalizeCountry(show.country) : ""].filter(Boolean).join(", "))],
     ["Date", `<time datetime="${escapeAttr(show.dateTimeISO)}">${escapeHtml(dateLabel)}</time>`],

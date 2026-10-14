@@ -2694,13 +2694,13 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-17-2026--concerts-pop/production/6564691",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-17-2026/event/3B00643506808378",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-14",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3B00643506808378",
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-17-2026/event/3B00643506808378",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-14",
         "availability_status": "on_sale",
         "discovery_event_id": "G5diZ_dfkOFuz"
       },
@@ -2751,14 +2751,7 @@
     "ticketmaster_discovery_event_id": "G5diZ_dfkOFuz",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695889",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-17-2026/event/107082340",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695889/Harry-Styles-tickets-Sat-Oct-17-2026-Madison-Square-Garden",
-    "presales": [
-      {
-        "name": "VIP Packages",
-        "start": "2026-02-04T16:00:00Z",
-        "end": "2026-10-13T16:00:00Z"
-      }
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695889/Harry-Styles-tickets-Sat-Oct-17-2026-Madison-Square-Garden"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b0064350690838a",
@@ -21178,7 +21171,7 @@
     "city": "Charlotte",
     "country": "United States Of America",
     "venue": "Bank of America Stadium",
-    "datetime_iso": "2026-10-17T21:30:00Z",
+    "datetime_iso": "2026-10-17T22:00:00Z",
     "tour_name": "The Loop Tour",
     "ticketmaster_event_id": "2D006331AAC349EB",
     "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-charlotte-north-carolina-10-17-2026/event/2D006331AAC349EB",
@@ -21186,7 +21179,7 @@
     "vividseats_url": "https://www.vividseats.com/ed-sheeran-tickets-charlotte-bank-of-america-stadium-10-17-2026--concerts-pop/production/6049740",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-charlotte-north-carolina-10-17-2026/event/2D006331AAC349EB",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-10-14",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2D006331AAC349EB",
@@ -24010,7 +24003,7 @@
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-inglewood-kia-forum-10-17-2026--concerts-pop/production/7132070",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-inglewood-california-10-17-2026/event/090064C5EF12A97C",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -24018,7 +24011,7 @@
         "discovery_event_id": "vvG10Z_G9R7nPH",
         "url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-inglewood-california-10-17-2026/event/090064C5EF12A97C",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-14",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -24071,11 +24064,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034404/Charli-XCX-tickets-Sat-Oct-17-2026-The-Kia-Forum",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-inglewood-tickets-10-17-2026/event/107325084",
     "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-12T20:00:00Z",
-        "end": "2026-10-13T19:00:00Z"
-      },
       {
         "name": "Charity Tickets Onsale",
         "start": "2026-06-12T20:00:00Z",
@@ -35699,7 +35687,7 @@
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-portland-moda-center-10-17-2026--concerts-rap-hip-hop/production/6091546",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-portland-oregon-10-17-2026/event/0F00633A89A82A33",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -35750,14 +35738,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457620",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457620/Doja-Cat-tickets-Sat-Oct-17-2026-Moda-Center-at-the-Rose-Quarter",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2025-10-10T17:00:00Z",
-        "end": "2026-10-13T19:00:00Z"
-      }
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457620/Doja-Cat-tickets-Sat-Oct-17-2026-Moda-Center-at-the-Rose-Quarter"
   },
   {
     "id": "tm-doja-cat-2026-san-francisco-g5vyzbs0ua9tw",
@@ -59938,7 +59919,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-vancouver-rogers-arena-11-7-2026/production/7394177",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/pentatonix-christmas-in-the-city-tour-vancouver-british-columbia-11-07-2026/event/110065058A055491",
-    "last_verified_at": "2026-10-08",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -60008,11 +59989,6 @@
         "name": "VIP Packages Onsale",
         "start": "2026-08-14T17:00:00Z",
         "end": "2026-11-01T05:00:00Z"
-      },
-      {
-        "name": "Thanksgiving Deal",
-        "start": "2026-10-09T17:00:00Z",
-        "end": "2026-10-14T05:00:00Z"
       }
     ]
   },
@@ -99997,7 +99973,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-charleston-charleston-coliseum-and-convention-center-12-3-2026/production/7536609",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charleston-west-virginia-12-03-2026/event/1600650CA03760B5",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -100059,6 +100035,11 @@
         "name": "T-Mobile Offer",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Scary Good TSO Deal",
+        "start": "2026-10-13T19:30:00Z",
+        "end": "2026-11-01T02:00:00Z"
       }
     ]
   },
@@ -145194,7 +145175,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-albuquerque-new-mexico-02-25-2027/event/1E00652BA02E740F",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -145235,6 +145216,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-09-25T16:00:00Z",
         "end": "2027-02-19T05:00:00Z"
+      },
+      {
+        "name": "Birthday",
+        "start": "2026-10-22T06:00:00Z",
+        "end": "2026-10-23T05:59:00Z"
       }
     ]
   },
@@ -160377,7 +160363,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-huntington-the-paramount-in-concert-with-northwell-10-20-2026--concerts-rock/production/7169991",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-huntington-new-york-10-20-2026/event/000064C9EC38CDF1",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -160414,11 +160400,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-19T14:00:00Z",
-        "end": "2026-10-14T02:00:00Z"
-      },
       {
         "name": "$20 Ticket Discount",
         "start": "2026-10-07T14:00:00Z",
@@ -167050,7 +167031,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-omaha-chi-health-center-omaha-2-13-2027/production/7642102",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-omaha-nebraska-02-13-2027/event/0600653DCC02D8E5",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -167113,11 +167094,6 @@
         "name": "VIP Packages Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-15T03:00:00Z"
-      },
-      {
-        "name": "GVF Fan Presale",
-        "start": "2026-10-13T15:00:00Z",
-        "end": "2026-10-14T03:00:00Z"
       },
       {
         "name": "Reserved by Spotify",
@@ -192330,7 +192306,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-montreal-bell-centre-3-5-2027--concerts-rock/production/7671848",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-montreal-quebec-03-05-2027/event/31006545D45D7EA8",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -192384,11 +192360,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312100",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312100/Def-Leppard-tickets-Fri-Mar-5-2027-Centre-Bell",
     "presales": [
-      {
-        "name": "Def Leppard - Offre Bord d'Allé",
-        "start": "2026-10-12T14:00:00Z",
-        "end": "2026-10-13T13:45:00Z"
-      },
       {
         "name": "Prévente Def Leppard Fan Club Presale",
         "start": "2026-10-12T14:00:00Z",
@@ -192447,7 +192418,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-detroit-little-caesars-arena-3-7-2027--concerts-rock/production/7671850",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-detroit-michigan-03-07-2027/event/08006542AB5B5889",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -192512,16 +192483,6 @@
         "end": "2026-10-16T02:00:00Z"
       },
       {
-        "name": "Citi® Cardmember Aisle Presale",
-        "start": "2026-10-12T16:00:00Z",
-        "end": "2026-10-13T13:45:00Z"
-      },
-      {
-        "name": "Verizon Shine Aisle Presale",
-        "start": "2026-10-12T16:00:00Z",
-        "end": "2026-10-13T13:45:00Z"
-      },
-      {
         "name": "Citi® Cardmember Presale",
         "start": "2026-10-12T16:00:00Z",
         "end": "2026-10-16T02:00:00Z"
@@ -192548,7 +192509,7 @@
       },
       {
         "name": "Venue Presale",
-        "start": "2026-10-15T14:00:00Z",
+        "start": "2026-10-14T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
       },
       {
@@ -192584,7 +192545,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-toronto-scotiabank-arena-3-9-2027--concerts-rock/production/7671856",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-toronto-ontario-03-09-2027/event/10006542DE7542BD",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -192622,11 +192583,6 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "presales": [
-      {
-        "name": "Preferred Seating Presale",
-        "start": "2026-10-12T14:00:00Z",
-        "end": "2026-10-13T13:45:00Z"
-      },
       {
         "name": "Def Leppard Fan Club Presale",
         "start": "2026-10-12T14:00:00Z",
@@ -193204,7 +193160,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-washington-capital-one-arena-3-21-2027--concerts-rock/production/7671886",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-washington-district-of-columbia-03-21-2027/event/150064F5B46D9E79",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -193309,6 +193265,11 @@
       {
         "name": "LIVE NATION PRESALE",
         "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Local/Venue/Radio Presale",
+        "start": "2026-10-15T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
       },
       {
@@ -194653,7 +194614,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-los-angeles-hollywood-bowl-5-1-2027/production/7671952",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-hollywood-california-05-01-2027/event/0B0065410242AA13",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -194726,11 +194687,6 @@
         "end": "2026-10-16T05:00:00Z"
       },
       {
-        "name": "Verizon Shine Aisle Offer",
-        "start": "2026-10-12T19:00:00Z",
-        "end": "2026-10-13T17:00:00Z"
-      },
-      {
         "name": "Citi® Cardmember Presale",
         "start": "2026-10-12T19:00:00Z",
         "end": "2026-10-16T05:00:00Z"
@@ -194798,7 +194754,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-san-francisco-chase-center-5-5-2027--concerts-rock/production/7672000",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-san-francisco-california-05-05-2027/event/1C006542E044887E",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -194869,11 +194825,6 @@
         "name": "VIP Packages Presale",
         "start": "2026-10-12T17:00:00Z",
         "end": "2026-10-16T05:00:00Z"
-      },
-      {
-        "name": "Verizon Shine Aisle Offer",
-        "start": "2026-10-12T19:00:00Z",
-        "end": "2026-10-13T17:00:00Z"
       },
       {
         "name": "Citi® Cardmember Presale",
@@ -195881,7 +195832,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-saint-louis-missouri-06-07-2027/event/060065429AA3953F",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -195928,11 +195879,6 @@
         "name": "VIP Packages Presale",
         "start": "2026-10-12T15:00:00Z",
         "end": "2026-10-16T03:00:00Z"
-      },
-      {
-        "name": "Citi® Cardmember Preferred Seat Presale",
-        "start": "2026-10-12T17:00:00Z",
-        "end": "2026-10-14T03:00:00Z"
       },
       {
         "name": "Citi® Cardmember Presale",
@@ -196261,7 +196207,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-tampa-benchmark-international-arena-6-13-2027--concerts-rock/production/7672149",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-tampa-florida-06-13-2027/event/0D006545BD90A0E8",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -196332,11 +196278,6 @@
         "name": "VIP Packages Presale",
         "start": "2026-10-12T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
-      },
-      {
-        "name": "Verizon Shine Aisle Offer",
-        "start": "2026-10-12T16:00:00Z",
-        "end": "2026-10-13T14:00:00Z"
       },
       {
         "name": "Citi® Cardmember Presale",
@@ -197184,7 +197125,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-indianapolis-gainbridge-fieldhouse-7-2-2027--concerts-rock/production/7672228",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-indianapolis-indiana-07-02-2027/event/050065419ABA5D79",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -197247,11 +197188,6 @@
         "name": "VIP Packages Presale",
         "start": "2026-10-12T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
-      },
-      {
-        "name": "Citi® Cardmember Aisle Offer",
-        "start": "2026-10-12T16:00:00Z",
-        "end": "2026-10-13T14:00:00Z"
       },
       {
         "name": "Citi® Cardmember Presale",
@@ -199016,7 +198952,7 @@
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-boston-td-garden-3-10-2027--concerts-rock/production/7678980",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-boston-massachusetts-03-10-2027/event/01006542F8709C2C",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -199089,11 +199025,6 @@
         "name": "Reserved by Spotify",
         "start": "2026-10-13T16:00:00Z",
         "end": "2026-10-14T15:59:00Z"
-      },
-      {
-        "name": "Front Of The Line Presale",
-        "start": "2026-10-13T16:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
       },
       {
         "name": "Bandsintown Presale",
@@ -199798,7 +199729,7 @@
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-saskatoon-sasktel-centre-4-2-2027/production/7678911",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-saskatoon-saskatchewan-04-02-2027/event/1100654504CBDA72",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -199863,14 +199794,14 @@
         "end": "2026-10-16T04:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-13T18:00:00Z",
-        "end": "2026-10-14T17:59:00Z"
-      },
-      {
         "name": "Front Of The Line Amex Presale Tickets",
         "start": "2026-10-13T18:00:00Z",
         "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T19:00:00Z",
+        "end": "2026-10-14T17:59:00Z"
       },
       {
         "name": "Bandsintown Presale",
@@ -201422,7 +201353,7 @@
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-glasgow-ovo-hydro-6-1-2027--concerts-rock/production/7679018",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-glasgow-01-06-2027/event/36006547BE9C6740",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -201490,6 +201421,11 @@
       },
       {
         "name": "OVO Presale",
+        "start": "2026-10-14T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
         "start": "2026-10-14T09:00:00Z",
         "end": "2026-10-16T08:00:00Z"
       },
@@ -208746,7 +208682,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/niall-horan-ciudad-de-mexico-08-05-2027/event/14006527E578AF1A",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -208788,8 +208724,7 @@
     },
     "ticketmaster_discovery_event_id": "1AfZkfEGkdPr1HQ",
     "timezone": "America/Mexico_City",
-    "status": "announced",
-    "public_onsale_at": "2026-10-13T17:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Venta General Paquetes VIP",
@@ -213648,7 +213583,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-sioux-falls-south-dakota-03-16-2027/event/06006319C4C95295",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -213700,7 +213635,14 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7376289",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7376289/TobyMac-tickets-Tue-Mar-16-2027-Denny-Sanford-Premier-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7376289/TobyMac-tickets-Tue-Mar-16-2027-Denny-Sanford-Premier-Center",
+    "presales": [
+      {
+        "name": "Friends & Family",
+        "start": "2026-10-05T05:01:00Z",
+        "end": "2026-10-18T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-saint-levant-2026-k-benhavn-v-z698xzc4z16ez9zpo4",
@@ -224621,7 +224563,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-san-francisco-california-06-01-2027/event/1C0064CBAD9F0CBD",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -224672,13 +224614,6 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "presales": [
-      {
-        "name": "Hazlett Preshow Speakeasy Experience",
-        "start": "2026-07-29T17:00:00Z",
-        "end": "2026-10-14T05:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054861",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054861/Hazlett-tickets-Tue-Jun-1-2027-August-Hall"
   },
@@ -227779,7 +227714,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-tampa-florida-10-17-2026/event/0D00647BD39CF0A6",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -227814,14 +227749,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_6RKE2eJ",
     "timezone": "America/New_York",
-    "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-03T14:00:00Z",
-        "end": "2026-10-13T16:00:00Z"
-      }
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-uicideboy-2026-sunrise-z7r9jz1a7xzpd",
@@ -230113,7 +230041,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-smashing-pumpkins-the-rats-in-indianapolis-indiana-10-20-2026/event/050064AFB7DAC453",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -230148,14 +230076,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_1XMUioK",
     "timezone": "America/Indiana/Indianapolis",
-    "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-21T14:00:00Z",
-        "end": "2026-10-14T02:00:00Z"
-      }
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-the-smashing-pumpkins-2026-nashville-g5viz_1bbgqqs",
@@ -230940,7 +230861,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-smashing-pumpkins-the-rats-in-inglewood-california-11-12-2026/event/090064AFCB095819",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -230985,16 +230906,6 @@
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-inglewood-tickets-11-12-2026/event/107185110",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-05-21T17:00:00Z",
-        "end": "2026-10-14T05:00:00Z"
-      },
-      {
-        "name": "Verizon Access Select Seats",
-        "start": "2026-05-21T17:00:00Z",
-        "end": "2026-10-14T05:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-05-21T17:00:00Z",
@@ -231140,7 +231051,7 @@
     "vividseats_url": "https://www.vividseats.com/fuerza-regida-tickets-albuquerque-first-financial-credit-union-amphitheater-10-17-2026/production/7412169",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fuerza-regida-this-is-our-dream-albuquerque-new-mexico-10-17-2026/event/1E006503AADFA370",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -231191,14 +231102,7 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194522",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194522/Fuerza-Regida-tickets-Sat-Oct-17-2026-First-Financial-Credit-Union-Amphitheater",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-14T16:00:00Z",
-        "end": "2026-10-13T18:00:00Z"
-      }
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194522/Fuerza-Regida-tickets-Sat-Oct-17-2026-First-Financial-Credit-Union-Amphitheater"
   },
   {
     "id": "tm-fuerza-regida-2026-wheatland-g5vyz_81rrfk3",
@@ -241629,7 +241533,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/rod-stewart-niagara-falls-ontario-03-04-2027/event/1000637389BA4757",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -241664,7 +241568,8 @@
     },
     "ticketmaster_discovery_event_id": "16vZZbMCaG7m0q9",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-rod-stewart-2027-savannah-vvg1zz_kexgebo",
@@ -241894,7 +241799,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-uncasville-connecticut-03-19-2027/event/1D006547C8F973C3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -241930,7 +241835,29 @@
     "ticketmaster_discovery_event_id": "G5vVZ_fLFX92d",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Rod Stewart Fan Club Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Ticket + Rod Stewart Fan Club Membership",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Mohegan Sun Presale",
+        "start": "2026-10-15T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rod-stewart-2027-dublin-1abzkfygkdqi3oq",
@@ -242955,7 +242882,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qU14",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -242990,7 +242917,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7qU14",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-rod-stewart-2027-morrison-z7r9jz1a7r6o4",
@@ -243008,7 +242936,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r6o4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -243043,7 +242971,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r6o4",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-guns-n-roses-2026-adelaide-1aefzbygkb-e0bz",
@@ -243591,7 +243520,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-las-vegas-nevada-04-07-2027/event/17006531A23DD202",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -243627,7 +243556,24 @@
     "ticketmaster_discovery_event_id": "1A9ZkfsGkex2qFe",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T17:00:00Z"
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "MGM Rewards Presale",
+        "start": "2026-10-15T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-fort-worth-vvg1yz_f9mdndc",
@@ -243645,7 +243591,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-fort-worth-texas-04-23-2027/event/0C006545EE0EAECE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -243681,7 +243627,29 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_f9mdnDC",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "AEG Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-toronto-1a8zk46gkesn6zx",
@@ -243699,7 +243667,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/leon-bridges-presents-the-happiness-anytime-toronto-ontario-04-27-2027/event/10006547B38C703E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -243735,7 +243703,34 @@
     "ticketmaster_discovery_event_id": "1A8Zk46GkeSN6ZX",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Front of the Line Amex Presale Tickets",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "PSS Additional Access Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Live INSIDER Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-new-york-g5diz_fqi50fg",
@@ -243753,7 +243748,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-new-york-new-york-05-01-2027/event/3B006546A82E4535",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -243789,7 +243784,44 @@
     "ticketmaster_discovery_event_id": "G5diZ_fQI50fg",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "AEG Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2026-10-31T02:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-05-02T00:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-charlotte-g5evz_ks2c2jb",
@@ -243807,7 +243839,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-charlotte-north-carolina-07-16-2027/event/2D00653CCF38F718",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -243843,7 +243875,29 @@
     "ticketmaster_discovery_event_id": "G5eVZ_KS2C2jb",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-26T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-alpharetta-vvg1zz_k76-tb0",
@@ -243861,7 +243915,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-alpharetta-georgia-07-17-2027/event/0E0065310787F624",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -243897,7 +243951,34 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_K76-Tb0",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Ameris Bank Sponsor Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-18T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-wilmington-g5evz_kw2tkfi",
@@ -243915,7 +243996,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-wilmington-north-carolina-07-21-2027/event/2D00653C8FFC652C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -243951,7 +244032,24 @@
     "ticketmaster_discovery_event_id": "G5eVZ_Kw2Tkfi",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Live Oak Bank Local Sponsor Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-columbia-1avfz_fqmqezd586",
@@ -243969,7 +244067,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-columbia-maryland-07-23-2027/event/1500654777682AF6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -244005,7 +244103,19 @@
     "ticketmaster_discovery_event_id": "1avfZ_fqMQeZd586",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "I.M.P. Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-boston-vv177z_kgkikdrri",
@@ -244023,7 +244133,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-boston-massachusetts-07-24-2027/event/0100653A130EF7AC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -244059,7 +244169,24 @@
     "ticketmaster_discovery_event_id": "vv177Z_KGkIKdRri",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citizens Bank Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-philadelphia-vv17fz_kgkbngqe2",
@@ -244077,7 +244204,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-philadelphia-pennsylvania-07-28-2027/event/0200653EAA31A9CF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -244113,7 +244240,24 @@
     "ticketmaster_discovery_event_id": "vv17FZ_KGkBnGQE2",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "TD Bank Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-bend-vvg1hz_ks7yjc4",
@@ -244131,7 +244275,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-bend-oregon-08-12-2027/event/0F00653CC4E5C395",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -244167,7 +244311,39 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_KS7yjC4",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T17:00:00Z"
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Hayden Homes Sponsor Presale",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-07-16T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-seattle-vvg1hz_fqtqa-a",
@@ -244185,7 +244361,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-seattle-washington-08-13-2027/event/0F006546BF749849",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -244221,7 +244397,24 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_fQTqa-a",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T17:00:00Z"
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "AEG/Venue/Radio Presale",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-edmonton-1aozkfigkdr2_nl",
@@ -244239,7 +244432,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/leon-bridges-presents-the-happiness-anytime-edmonton-alberta-08-17-2027/event/11006528DE3D9AAB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -244275,7 +244468,14 @@
     "ticketmaster_discovery_event_id": "1AoZkfIGkdr2_nl",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T16:00:00Z"
+    "public_onsale_at": "2026-10-16T16:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-calgary-1aozkfygkeskgd1",
@@ -244293,7 +244493,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/leon-bridges-presents-the-happiness-anytime-calgary-alberta-08-18-2027/event/11006539B14CC0CA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -244329,7 +244529,29 @@
     "ticketmaster_discovery_event_id": "1AoZkfyGkesKGd1",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T16:00:00Z"
+    "public_onsale_at": "2026-10-16T16:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-10-14T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-15T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-calgary-1aozkfygkesvjka",
@@ -244347,7 +244569,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/leon-bridges-presents-the-happiness-anytime-calgary-alberta-08-19-2027/event/11006539B1D1C185",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -244383,7 +244605,29 @@
     "ticketmaster_discovery_event_id": "1AoZkfyGkesVjkA",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T16:00:00Z"
+    "public_onsale_at": "2026-10-16T16:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-10-14T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-15T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-bonner-g5vzz_fhjrcg3",
@@ -244401,7 +244645,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-bonner-montana-08-21-2027/event/1E006546E67AD312",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -244437,7 +244681,19 @@
     "ticketmaster_discovery_event_id": "G5vzZ_fhJrcG3",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T16:00:00Z"
+    "public_onsale_at": "2026-10-16T16:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale - Leon Bridges",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Groove Presale",
+        "start": "2026-10-14T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-waukee-1a-zkfzgkd1bnt9",
@@ -244455,7 +244711,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-waukee-iowa-08-25-2027/event/21006538CAEAAA57",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -244491,7 +244747,34 @@
     "ticketmaster_discovery_event_id": "1A-ZkfzGkd1Bnt9",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Leon Bridges Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-07-29T03:00:00Z"
+      },
+      {
+        "name": "T-Mobile Offer + Fast Lane",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-08-23T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-indianapolis-vv17fz_kgkupdufu",
@@ -244509,7 +244792,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-indianapolis-indiana-08-26-2027/event/0500653D96EF6236",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -244545,7 +244828,39 @@
     "ticketmaster_discovery_event_id": "vv17fZ_KGkUpDUFU",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Everwise Employee Offer",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-07-30T02:00:00Z"
+      },
+      {
+        "name": "T-Mobile® Concert Perks + Fast Lane",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-08-24T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-milwaukee-vv17jz_kgkbyybma",
@@ -244563,7 +244878,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-milwaukee-wisconsin-09-15-2027/event/0700653EB9C18B89",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -244599,7 +244914,19 @@
     "ticketmaster_discovery_event_id": "vv17jZ_KGkByYbma",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-minneapolis-vv1fbz_fb9zezd8da",
@@ -244617,7 +244944,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-minneapolis-minnesota-09-17-2027/event/0600654617002F28",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -244653,7 +244980,29 @@
     "ticketmaster_discovery_event_id": "vv1FbZ_fb9ZeZd8da",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "AEG Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-rogers-g5viz_kpps1qm",
@@ -244671,7 +245020,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-rogers-arkansas-09-23-2027/event/1B006535A5C4A6AE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -244707,7 +245056,34 @@
     "ticketmaster_discovery_event_id": "G5viZ_KpPs1Qm",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "First Right of Refusal Program",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Promoter Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Walmart AMP Venue Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-austin-g5diz_flks0j9",
@@ -244725,7 +245101,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-austin-texas-09-24-2027/event/3A006547C6CE4717",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -244761,7 +245137,29 @@
     "ticketmaster_discovery_event_id": "G5dIZ_fLkS0j9",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "AEG/Venue/Radio Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Partner Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-houston-g5diz_kb01hxf",
@@ -244779,7 +245177,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-houston-texas-09-25-2027/event/3A00653EA429BF88",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -244815,7 +245213,19 @@
     "ticketmaster_discovery_event_id": "G5dIZ_KB01hXF",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-phoenix-1a_zk4kgkdlzjqa",
@@ -244833,7 +245243,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-phoenix-arizona-09-29-2027/event/19006546DFE1C745",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -244869,7 +245279,29 @@
     "ticketmaster_discovery_event_id": "1A_Zk4kGkdLzjqA",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T17:00:00Z"
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-09-02T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lionel-richie-2026-las-vegas-17ayv0g62k5zuj3",
@@ -244887,7 +245319,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-11-2026/event/170064F4CBE0D992",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -244922,7 +245354,14 @@
     },
     "ticketmaster_discovery_event_id": "17AYv0G62K5zuJ3",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-31T17:00:00Z",
+        "end": "2026-11-12T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lionel-richie-2026-las-vegas-17ayv0g62k5zcj9",
@@ -244940,7 +245379,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-13-2026/event/170064F4CBE2D997",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -244975,7 +245414,14 @@
     },
     "ticketmaster_discovery_event_id": "17AYv0G62K5zcJ9",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-31T17:00:00Z",
+        "end": "2026-11-14T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lionel-richie-2026-las-vegas-17ayv0g62k5yqjh",
@@ -244993,7 +245439,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-14-2026/event/170064F4CBE5D99B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -245028,7 +245474,14 @@
     },
     "ticketmaster_discovery_event_id": "17AYv0G62K5yqJh",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-31T17:00:00Z",
+        "end": "2026-11-15T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lionel-richie-2027-las-vegas-17ayv0g62k5uqjk",
@@ -245046,7 +245499,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-01-08-2027/event/170064F4CBD9D986",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -245081,7 +245534,15 @@
     },
     "ticketmaster_discovery_event_id": "17AYv0G62K5UqJk",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-31T17:00:00Z",
+        "end": "2026-10-17T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lionel-richie-2027-las-vegas-17ayv0g62k5muj2",
@@ -245099,7 +245560,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-01-09-2027/event/170064F4CBDCD98F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -245134,7 +245595,15 @@
     },
     "ticketmaster_discovery_event_id": "17AYv0G62K5MuJ2",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-31T17:00:00Z",
+        "end": "2026-10-18T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lionel-richie-2027-thackerville-z7r9jz1aav_-z",

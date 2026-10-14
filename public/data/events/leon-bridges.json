@@ -174,7 +174,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-las-vegas-nevada-04-07-2027/event/17006531A23DD202",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -210,7 +210,24 @@
     "ticketmaster_discovery_event_id": "1A9ZkfsGkex2qFe",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T17:00:00Z"
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "MGM Rewards Presale",
+        "start": "2026-10-15T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-fort-worth-vvg1yz_f9mdndc",
@@ -228,7 +245,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-fort-worth-texas-04-23-2027/event/0C006545EE0EAECE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -264,7 +281,29 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_f9mdnDC",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "AEG Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-toronto-1a8zk46gkesn6zx",
@@ -282,7 +321,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/leon-bridges-presents-the-happiness-anytime-toronto-ontario-04-27-2027/event/10006547B38C703E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -318,7 +357,34 @@
     "ticketmaster_discovery_event_id": "1A8Zk46GkeSN6ZX",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Front of the Line Amex Presale Tickets",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "PSS Additional Access Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Live INSIDER Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-new-york-g5diz_fqi50fg",
@@ -336,7 +402,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-new-york-new-york-05-01-2027/event/3B006546A82E4535",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -372,7 +438,44 @@
     "ticketmaster_discovery_event_id": "G5diZ_fQI50fg",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "AEG Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2026-10-31T02:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-05-02T00:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-charlotte-g5evz_ks2c2jb",
@@ -390,7 +493,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-charlotte-north-carolina-07-16-2027/event/2D00653CCF38F718",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -426,7 +529,29 @@
     "ticketmaster_discovery_event_id": "G5eVZ_KS2C2jb",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-26T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-alpharetta-vvg1zz_k76-tb0",
@@ -444,7 +569,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-alpharetta-georgia-07-17-2027/event/0E0065310787F624",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -480,7 +605,34 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_K76-Tb0",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Ameris Bank Sponsor Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-18T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-wilmington-g5evz_kw2tkfi",
@@ -498,7 +650,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-wilmington-north-carolina-07-21-2027/event/2D00653C8FFC652C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -534,7 +686,24 @@
     "ticketmaster_discovery_event_id": "G5eVZ_Kw2Tkfi",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Live Oak Bank Local Sponsor Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-columbia-1avfz_fqmqezd586",
@@ -552,7 +721,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-columbia-maryland-07-23-2027/event/1500654777682AF6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -588,7 +757,19 @@
     "ticketmaster_discovery_event_id": "1avfZ_fqMQeZd586",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "I.M.P. Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-boston-vv177z_kgkikdrri",
@@ -606,7 +787,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-boston-massachusetts-07-24-2027/event/0100653A130EF7AC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -642,7 +823,24 @@
     "ticketmaster_discovery_event_id": "vv177Z_KGkIKdRri",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citizens Bank Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-philadelphia-vv17fz_kgkbngqe2",
@@ -660,7 +858,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-philadelphia-pennsylvania-07-28-2027/event/0200653EAA31A9CF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -696,7 +894,24 @@
     "ticketmaster_discovery_event_id": "vv17FZ_KGkBnGQE2",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "TD Bank Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-bend-vvg1hz_ks7yjc4",
@@ -714,7 +929,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-bend-oregon-08-12-2027/event/0F00653CC4E5C395",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -750,7 +965,39 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_KS7yjC4",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T17:00:00Z"
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Hayden Homes Sponsor Presale",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-07-16T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-seattle-vvg1hz_fqtqa-a",
@@ -768,7 +1015,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-seattle-washington-08-13-2027/event/0F006546BF749849",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -804,7 +1051,24 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_fQTqa-a",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T17:00:00Z"
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "AEG/Venue/Radio Presale",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-edmonton-1aozkfigkdr2_nl",
@@ -822,7 +1086,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/leon-bridges-presents-the-happiness-anytime-edmonton-alberta-08-17-2027/event/11006528DE3D9AAB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -858,7 +1122,14 @@
     "ticketmaster_discovery_event_id": "1AoZkfIGkdr2_nl",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T16:00:00Z"
+    "public_onsale_at": "2026-10-16T16:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-calgary-1aozkfygkeskgd1",
@@ -876,7 +1147,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/leon-bridges-presents-the-happiness-anytime-calgary-alberta-08-18-2027/event/11006539B14CC0CA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -912,7 +1183,29 @@
     "ticketmaster_discovery_event_id": "1AoZkfyGkesKGd1",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T16:00:00Z"
+    "public_onsale_at": "2026-10-16T16:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-10-14T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-15T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-calgary-1aozkfygkesvjka",
@@ -930,7 +1223,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/leon-bridges-presents-the-happiness-anytime-calgary-alberta-08-19-2027/event/11006539B1D1C185",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -966,7 +1259,29 @@
     "ticketmaster_discovery_event_id": "1AoZkfyGkesVjkA",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T16:00:00Z"
+    "public_onsale_at": "2026-10-16T16:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-10-14T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-15T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-bonner-g5vzz_fhjrcg3",
@@ -984,7 +1299,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-bonner-montana-08-21-2027/event/1E006546E67AD312",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1020,7 +1335,19 @@
     "ticketmaster_discovery_event_id": "G5vzZ_fhJrcG3",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T16:00:00Z"
+    "public_onsale_at": "2026-10-16T16:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale - Leon Bridges",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Groove Presale",
+        "start": "2026-10-14T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-waukee-1a-zkfzgkd1bnt9",
@@ -1038,7 +1365,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-waukee-iowa-08-25-2027/event/21006538CAEAAA57",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1074,7 +1401,34 @@
     "ticketmaster_discovery_event_id": "1A-ZkfzGkd1Bnt9",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Leon Bridges Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-07-29T03:00:00Z"
+      },
+      {
+        "name": "T-Mobile Offer + Fast Lane",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-08-23T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-indianapolis-vv17fz_kgkupdufu",
@@ -1092,7 +1446,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-indianapolis-indiana-08-26-2027/event/0500653D96EF6236",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1128,7 +1482,39 @@
     "ticketmaster_discovery_event_id": "vv17fZ_KGkUpDUFU",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Everwise Employee Offer",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-07-30T02:00:00Z"
+      },
+      {
+        "name": "T-Mobile® Concert Perks + Fast Lane",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-08-24T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-milwaukee-vv17jz_kgkbyybma",
@@ -1146,7 +1532,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-milwaukee-wisconsin-09-15-2027/event/0700653EB9C18B89",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1182,7 +1568,19 @@
     "ticketmaster_discovery_event_id": "vv17jZ_KGkByYbma",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-minneapolis-vv1fbz_fb9zezd8da",
@@ -1200,7 +1598,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-minneapolis-minnesota-09-17-2027/event/0600654617002F28",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1236,7 +1634,29 @@
     "ticketmaster_discovery_event_id": "vv1FbZ_fb9ZeZd8da",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "AEG Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-rogers-g5viz_kpps1qm",
@@ -1254,7 +1674,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-rogers-arkansas-09-23-2027/event/1B006535A5C4A6AE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1290,7 +1710,34 @@
     "ticketmaster_discovery_event_id": "G5viZ_KpPs1Qm",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "First Right of Refusal Program",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Promoter Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Walmart AMP Venue Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-austin-g5diz_flks0j9",
@@ -1308,7 +1755,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-austin-texas-09-24-2027/event/3A006547C6CE4717",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1344,7 +1791,29 @@
     "ticketmaster_discovery_event_id": "G5dIZ_fLkS0j9",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "AEG/Venue/Radio Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Partner Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-houston-g5diz_kb01hxf",
@@ -1362,7 +1831,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-houston-texas-09-25-2027/event/3A00653EA429BF88",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1398,7 +1867,19 @@
     "ticketmaster_discovery_event_id": "G5dIZ_KB01hXF",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-phoenix-1a_zk4kgkdlzjqa",
@@ -1416,7 +1897,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-phoenix-arizona-09-29-2027/event/19006546DFE1C745",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1452,6 +1933,28 @@
     "ticketmaster_discovery_event_id": "1A_Zk4kGkdLzjqA",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T17:00:00Z"
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-09-02T05:00:00Z"
+      }
+    ]
   }
 ]

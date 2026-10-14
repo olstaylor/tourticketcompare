@@ -54,6 +54,7 @@ import { CARD_PRICE_TAIL, MONEY_DISCLOSURE, NO_PRICE_NOTE, PRICE_DISCLOSURE, PRI
 import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventKey, eventPageLinker, eventPageSchemaDecision, nonPerformanceMarkers, resolveEventRoute } from "./_event-pages.js";
 import { deriveEventContext, EVENT_CITY_NEIGHBOUR_DAYS, EVENT_VENUE_NEIGHBOUR_DAYS } from "./_event-context.js";
 import { EVENT_INDEXED_COHORT_KEYS, deriveEventIndexingPilot, eventPagesIndexingEnabled } from "./_event-indexability.js";
+import { eventPreviousStartDate } from "./_event-reschedule.js";
 import {
   BLOG_INDEX_PATH,
   derivePosts as deriveBlogPosts,
@@ -1440,10 +1441,11 @@ function musicEventNode(show, origin, { displayName, performer, image, offers = 
     startDate: venueLocalIso(show.dateTimeISO, show.timezone),
     // Only publishable shows reach this node, so a held (cancelled/postponed)
     // show never does. Rescheduled is stated only when Ticketmaster's own
-    // status says so; no previousStartDate, because the old date is not kept.
+    // status says so. An original date is included only when recorded.
     eventStatus: eventLifecycle(show) === EVENT_LIFECYCLE.RESCHEDULED
       ? "https://schema.org/EventRescheduled"
       : "https://schema.org/EventScheduled",
+    ...(eventPreviousStartDate(show) ? { previousStartDate: venueLocalIso(eventPreviousStartDate(show), show.previous_start_timezone) } : {}),
     // Every tracked show is an in-person concert at a named venue; there is no
     // streamed or hybrid lane, so this is a constant, not a per-event claim.
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
@@ -1529,8 +1531,8 @@ function venueLocalIso(iso, timezone) {
 // gates as the parent boards (SCHEMA_OFFERS_ENABLED, then
 // musicEventOffersSchema over the copy onRequest priced), so an Offer exists
 // only where the page's own ticket button shows that price. There is no
-// description, organizer, endDate or previousStartDate: none is a fact the
-// page holds beyond what the other fields already say.
+// organizer or endDate: neither is a verified fact the page holds.
+// previousStartDate is optional and mirrors the visible original-date line.
 function eventPageSchema(route, origin, catalog, events = [], env = {}, now = Date.now()) {
   const decision = eventPageSchemaDecision(route.event, { now });
   if (!decision.eligible) return [];
@@ -1561,6 +1563,7 @@ function eventPageSchema(route, origin, catalog, events = [], env = {}, now = Da
       description: `${artist.name} live at ${show.venue} in ${show.city} on ${formatShowDateServer(show.dateTimeISO, show.timezone)}.`,
       startDate,
       eventStatus: decision.eventStatus,
+      ...(eventPreviousStartDate(show) ? { previousStartDate: venueLocalIso(eventPreviousStartDate(show), show.previous_start_timezone) } : {}),
       // Every tracked show is an in-person concert at a named venue, as on the
       // parent nodes.
       eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
@@ -4889,6 +4892,8 @@ function enrichEventAsShow(ev) {
     event_name: String(ev.event_name || ev.name || "").trim(),
     tour_name: String(ev.tour_name || "").trim(),
     dateTimeISO: String(ev.dateTimeISO || ev.datetime_iso || "").trim(),
+    previous_start_date: eventPreviousStartDate(ev),
+    previous_start_timezone: String(ev.previous_start_timezone || "").trim(),
     // Required to render dateTimeISO at the venue rather than in UTC — see
     // venueDateParts. Dropping it here is what silently sent every Z-suffixed
     // date back to the UTC fallback.
@@ -6277,9 +6282,13 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   const runHtml = run
     ? `<p class="show-card-run"><span class="show-run-chip">Night ${run.position} of ${run.total}</span> at this venue</p>`
     : "";
-  // Stated only on Ticketmaster's own word; the previous date is not known.
+  // Stated only on Ticketmaster's own word, with recorded history if known.
+  const previousDate = eventPreviousStartDate(show);
+  const previousDateHtml = previousDate
+    ? ` Previously scheduled: <time datetime="${escapeAttr(previousDate)}">${escapeHtml(formatShowDateServer(previousDate, show.previous_start_timezone))}</time>.`
+    : "";
   const rescheduledHtml = eventLifecycle(show) === EVENT_LIFECYCLE.RESCHEDULED
-    ? `<p class="show-card-sub muted" data-event-lifecycle="rescheduled">Date changed: this is the new date.</p>`
+    ? `<p class="show-card-sub muted" data-event-lifecycle="rescheduled">Date changed: this is the new date.${previousDateHtml}</p>`
     : "";
   return `<article class="info-card show-card${run ? " show-card-run-night" : ""}"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""}${show.id ? ` data-event-id="${escapeAttr(String(show.id))}"` : ""} data-show-json="${showJson}">${badgeHtml}<div class="show-card-body">${artistHtml}<h3 class="show-card-title">${escapeHtml(title)}</h3>${metaHtml}${subHtml}${rescheduledHtml}${runHtml}</div><div class="show-card-actions">${ctaHtml}${copyLinkHtml}${supplementalHtml}</div></article>`;
 }
@@ -6893,6 +6902,7 @@ function renderEventPageBody(route, events, env) {
   const eventName = String(show.event_name || "").trim();
   const verified = formatVerificationDate(show.last_verified_at);
   const status = eventStatusFact(show);
+  const previousDate = eventPreviousStartDate(show);
   const facts = [
     ["Artist", anchor(artist.name, `/artists/${artist.slug}`, "text-link")],
     eventName && eventName.toLowerCase() !== artist.name.toLowerCase() ? ["Billed as", escapeHtml(eventName)] : null,
@@ -6902,6 +6912,7 @@ function renderEventPageBody(route, events, env) {
     ["Date", `<time datetime="${escapeAttr(show.dateTimeISO)}">${escapeHtml(dateLabel)}</time>`],
     localTime ? ["Start time", `${escapeHtml(localTime)} local time`] : null,
     status ? ["Status", escapeHtml(status)] : null,
+    previousDate ? ["Previously scheduled", `<time datetime="${escapeAttr(previousDate)}">${escapeHtml(formatShowDateServer(previousDate, show.previous_start_timezone))}</time>`] : null,
     verified ? ["Details last checked", escapeHtml(verified)] : null
   ].filter(Boolean);
   const factsHtml = `<section class="nested-panel" aria-labelledby="eventFactsTitle"><h2 id="eventFactsTitle">Event details</h2><dl class="event-facts">${facts

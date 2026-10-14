@@ -35,6 +35,7 @@ import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { hasSchemaProperty } from "./lib/schema-properties.mjs";
 import { eventLifecycleHeld } from "../functions/_route-indexability.js";
+import { eventPreviousStartDate } from "../functions/_event-reschedule.js";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const failures = [];
@@ -76,6 +77,7 @@ function assertMusicEventImages(html, pathname, musicEvents) {
   if (ogImage !== expected) fail(`${pathname}: og:image is "${ogImage}", expected "${expected}"`);
   for (const node of musicEvents) {
     if (node.image !== expected) fail(`${pathname}: MusicEvent.image is "${node.image}", expected the page's og:image "${expected}"`);
+    if (typeof node.description !== "string" || !node.description.trim()) fail(`${pathname}: MusicEvent.description is missing or empty`);
   }
 }
 
@@ -675,8 +677,9 @@ function expectedMusicEventCount(artistSlug) {
   const catalog = JSON.parse(await fs.readFile(path.join(root, "public/data/catalog.json"), "utf8"));
 
   // The only properties an event-page MusicEvent may carry. Anything else —
-  // organizer, endDate, previousStartDate — is a claim the page does not
-  // make. `description` restates the page's lead (artist, venue, city, date).
+  // organizer, endDate — is a claim the page does not make.
+  // previousStartDate is optional, backed by recorded rescheduling history.
+  // `description` restates the page's lead (artist, venue, city, date).
   const EVENT_NODE_KEYS = ["@id", "@type", "description", "eventAttendanceMode", "eventStatus", "image", "location", "name", "performer", "startDate", "url"].join(",");
   const STATUS_URL = {
     scheduled: "https://schema.org/EventScheduled",
@@ -821,7 +824,9 @@ function expectedMusicEventCount(artistSlug) {
     const problems = [];
     // `offers` is optional: present only where the page's ticket buttons show
     // a gated price (the same musicEventOffersSchema the parent boards use).
-    const { offers: nodeOffers, ...nodeCore } = node;
+    const { offers: nodeOffers, previousStartDate, ...nodeCore } = node;
+    const expectedPrevious = eventPreviousStartDate(event);
+    if (expectedPrevious ? (!previousStartDate || Date.parse(previousStartDate) !== Date.parse(expectedPrevious)) : previousStartDate !== undefined) problems.push(`previousStartDate ${previousStartDate} != recorded ${expectedPrevious || "none"}`);
     if (Object.keys(nodeCore).sort().join(",") !== EVENT_NODE_KEYS) problems.push(`properties are [${Object.keys(node).sort()}], expected [${EVENT_NODE_KEYS}] plus optional offers`);
     if (nodeOffers !== undefined) {
       const offerList = Array.isArray(nodeOffers) ? nodeOffers : [];

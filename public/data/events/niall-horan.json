@@ -3590,7 +3590,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/niall-horan-ciudad-de-mexico-08-05-2027/event/14006527E578AF1A",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3621,6 +3621,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672844",
+        "url": "https://www.stubhub.ie/niall-horan-tickets-mexico-city-palacio-de-los-deportes-8-5-2027/event/107672844",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZkfEGkdPr1HQ",
@@ -3629,21 +3636,12 @@
     "public_onsale_at": "2026-10-13T17:00:00Z",
     "presales": [
       {
-        "name": "Preventa Banamex",
-        "start": "2026-10-12T17:00:00Z",
-        "end": "2026-10-13T05:59:00Z"
-      },
-      {
-        "name": "Preventa Banamex Paquetes VIP",
-        "start": "2026-10-12T17:00:00Z",
-        "end": "2026-10-13T05:59:00Z"
-      },
-      {
         "name": "Venta General Paquetes VIP",
         "start": "2026-10-13T17:00:00Z",
         "end": "2027-05-09T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-mexico-city-palacio-de-los-deportes-8-5-2027/event/107672844"
   },
   {
     "id": "tm-niall-horan-2027-tlajomulco-de-zuniga-g5dvz_31eksvx",

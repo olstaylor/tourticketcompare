@@ -108,18 +108,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8056795",
-        "url": "https://www.ticketliquidator.com/tickets/8056795/Daughtry-tickets-Mon-Oct-12-2026-Troy-Savings-Bank-Music-Hall",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_GRFdN3C",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056795",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056795/Daughtry-tickets-Mon-Oct-12-2026-Troy-Savings-Bank-Music-Hall"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-daughtry-2026-beverly-z7r9jz1a7pyjj",
@@ -3095,7 +3095,7 @@
         "event_id": 7625242,
         "url": "https://www.vividseats.com/daughtry-tickets-ventura-the-majestic-ventura-theater-2-6-2027--concerts-rock/production/7625242",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {

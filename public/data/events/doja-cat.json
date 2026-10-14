@@ -514,7 +514,7 @@
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-seattle-climate-pledge-arena-10-15-2026--concerts-rap-hip-hop/production/6091545",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-seattle-washington-10-15-2026/event/0F00633ADD435829",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -573,14 +573,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457615",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-seattle-tickets-10-15-2026/event/106969172",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457615/Doja-Cat-tickets-Thu-Oct-15-2026-Climate-Pledge-Arena",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2025-10-10T17:00:00Z",
-        "end": "2026-10-11T19:00:00Z"
-      }
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457615/Doja-Cat-tickets-Thu-Oct-15-2026-Climate-Pledge-Arena"
   },
   {
     "id": "tm-doja-cat-2026-portland-vvg1hzbsnaneis",
@@ -714,26 +707,26 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "106972097",
+        "url": "https://www.stubhub.ie/doja-cat-san-francisco-tickets-10-19-2026/event/106972097",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": "7457622",
+        "url": "https://www.ticketliquidator.com/tickets/7457622/Doja-Cat-tickets-Sun-Oct-25-2026-Chase-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbS0uA9TW",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "",
-    "ticketliquidator_url": "",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-san-francisco-tickets-10-19-2026/event/106972097",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457622/Doja-Cat-tickets-Sun-Oct-25-2026-Chase-Center",
     "presales": [
       {
         "name": "VIP Package Onsale",

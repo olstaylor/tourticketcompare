@@ -1663,7 +1663,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/hazlett-dublin-18-03-2027/event/18006537EBE99B47",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1699,7 +1699,19 @@
     "ticketmaster_discovery_event_id": "1AbZkfMGkdlB_c6",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T09:00:00Z"
+    "public_onsale_at": "2026-10-16T09:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-15T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-hazlett-2027-london-g5dzz_3nl_fgq",
@@ -1717,7 +1729,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/hazlett-london-20-03-2027/event/3E006528EB654D5A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1753,6 +1765,18 @@
     "ticketmaster_discovery_event_id": "G5dzZ_3Nl_fgQ",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T09:00:00Z"
+    "public_onsale_at": "2026-10-16T09:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-10-13T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      }
+    ]
   }
 ]

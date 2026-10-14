@@ -2137,7 +2137,7 @@
     "ticketmaster_event_id": "3E006531A74E45C7",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-birmingham-07-04-2027/event/3E006531A74E45C7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-birmingham-o2-academy---birmingham-4-7-2027--concerts-alternative/production/7606720",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-birmingham-07-04-2027/event/3E006531A74E45C7",
     "last_verified_at": null,
@@ -2159,11 +2159,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7606720,
+        "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-birmingham-o2-academy---birmingham-4-7-2027--concerts-alternative/production/7606720",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

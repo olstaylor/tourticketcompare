@@ -40,6 +40,7 @@
 import { execFileSync } from "node:child_process";
 import { readFileSync, readdirSync } from "node:fs";
 import { pathToFileURL } from "node:url";
+import { DEFAULT_TIMEOUT_MS as REQUIRED_CHECK_TIMEOUT_MS } from "./lib/required-check.mjs";
 
 // Every workflow that commits event data. A run of any of these that is older
 // than ours and not yet completed is something to wait for. The self-test
@@ -73,8 +74,8 @@ export const WAITING_LANES = [
   "impact-marketplace-provider-sync.yml",
 ];
 
-// A SeatGeek sync takes ~15 minutes end to end, a Vivid Seats sync ~7; 14
-// minutes is a bounded scheduling budget under the job's 59-minute cap.
+// The default is short; resale and Impact explicitly reserve 60 minutes of
+// ordering plus separate time for work and both validation gates.
 export const DEFAULT_MAX_WAIT_MINUTES = 14;
 export const POLL_MS = 30_000;
 const ACTIVE_STATUSES = ["in_progress", "queued", "pending"];
@@ -338,6 +339,24 @@ async function selfTest() {
     }
   }
 
+  // Replay an older writer that clears after 32 minutes (the 2026-10-14
+  // nightly run still held SeatGeek after its former 14-minute allowance).
+  // Read the workflow budget so a wiring regression fails this replay.
+  for (const file of ["seatgeek-cta-sync.yml", "vividseats-cta-sync.yml", "impact-marketplace-provider-sync.yml"]) {
+    const job = Object.values(workflows[file].jobs)[0];
+    const wait = job.steps.find((s) => /node scripts\/wait-for-writer-lanes\.mjs/.test(s.run || ""));
+    const budget = Number((/--max-wait-minutes (\d+)/.exec(wait.run) || [])[1] ?? DEFAULT_MAX_WAIT_MINUTES);
+    c = clock();
+    const lane = run(50, file, self.created_at);
+    const earlier = run(39, "nightly-data-sync.yml", older.created_at);
+    verdict = await waitForWriterLanes({ self: lane, listActiveRuns: async () => c.now() < 32 * 60_000 ? [earlier] : [], maxWaitMs: budget * 60_000, ...c, log: quiet, warn: quiet });
+    assert.equal(verdict.outcome, "clear", `${file}: a 32-minute predecessor must not starve this lane`);
+    assert(job["timeout-minutes"] - budget >= 75, `${file}: queueing must leave time for generation and both validation gates`);
+    const publish = job.steps.find((s) => /node scripts\/open-automation-pr\.mjs/.test(s.run || ""));
+    assert(publish["timeout-minutes"] >= REQUIRED_CHECK_TIMEOUT_MS / 60_000 + 5 && publish["timeout-minutes"] < 60,
+      `${file}: publication must fit the fresh App token and the 25-minute head-check budget`);
+  }
+
   // Regression: timestamps must never be applied from reports generated
   // before this checkout's current artist/event data revision.
   const auditSteps = workflows["daily-audit.yml"].jobs.audit.steps || [];
@@ -349,8 +368,7 @@ async function selfTest() {
   const check = verificationSteps.findIndex((step) => step.name === "Check audit evidence revision");
   const bump = verificationSteps.findIndex((step) => /scripts\/bump-verified-dates\.mjs/.test(step.run || ""));
   assert(check > download && check < bump, "verification compares audit revision before stamping artists");
-  assert(/source-commit\.txt/.test(verificationSteps[check]?.run || "")
-    && /git rev-parse HEAD/.test(verificationSteps[check]?.run || ""),
+  assert(/check-audit-revision\.mjs --check-main/.test(verificationSteps[check]?.run || ""),
     "verification checks evidence commit against current checkout");
 
   console.log("wait-for-writer-lanes self-test passed.");

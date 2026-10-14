@@ -25,6 +25,7 @@ import {
   DEFAULT_POLL_MS,
 } from "./lib/required-check.mjs";
 import { checkAutopublish, heldComment, HELD_LABEL, LEDGER_LABEL } from "./lib/autopublish-guard.mjs";
+import { checkAuditMergeRevision } from "./check-audit-revision.mjs";
 
 const token = process.env.GITHUB_TOKEN;
 const repo = process.env.GITHUB_REPOSITORY;
@@ -34,6 +35,7 @@ const body = process.env.PR_BODY || "";
 const label = process.env.PR_LABEL || "";
 const base = process.env.PR_BASE || "main";
 const autoMerge = process.env.PR_AUTO_MERGE === "true";
+const auditedCommit = process.env.PR_AUDIT_SOURCE_COMMIT;
 const owner = (repo || "").split("/")[0];
 const checkTimeoutMs = Number(process.env.REQUIRED_CHECK_TIMEOUT_MS || DEFAULT_TIMEOUT_MS);
 const checkPollMs = Number(process.env.REQUIRED_CHECK_POLL_MS || DEFAULT_POLL_MS);
@@ -125,6 +127,16 @@ if (autoMerge) {
   };
   await holdIfSwitchedOff();
 
+  const checkAuditedMain = async () => {
+    if (auditedCommit === undefined) return;
+    try {
+      await checkAuditMergeRevision({ audited: auditedCommit, repo, request: gh });
+    } catch (err) {
+      await leaveForHuman(err.message);
+    }
+  };
+  await checkAuditedMain();
+
   const verdict = await earnRequiredCheck({
     request: gh,
     repo,
@@ -154,6 +166,9 @@ if (autoMerge) {
     await leaveForHuman(`could not record the ${LEDGER_LABEL} ledger label: ${err.message}`);
   }
 
+  // A green head check cannot make observations of an older main current.
+  // Re-read after the minutes-long wait, immediately before publishing.
+  await checkAuditedMain();
   try {
     await gh("PUT", `/repos/${repo}/pulls/${pr.number}/merge`, {
       merge_method: "squash",

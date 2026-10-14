@@ -1132,18 +1132,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7676519",
-        "url": "https://www.ticketliquidator.com/tickets/7676519/Five-Finger-Death-Punch-tickets-Tue-Oct-13-2026-Ameris-Bank-Amphitheatre",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_eQ2KN-d",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676519",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676519/Five-Finger-Death-Punch-tickets-Tue-Oct-13-2026-Ameris-Bank-Amphitheatre"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-five-finger-death-punch-2026-raleigh-g5evz_ejp-tdn",

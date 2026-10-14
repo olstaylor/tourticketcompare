@@ -47,7 +47,9 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 59
+    # Up to 60 minutes of ordering, plus the 35-minute ingestion cap, full
+    # validation and the 25-minute exact-head publishing check.
+    timeout-minutes: 150
     env:
       IMPACT_CATALOG_PROXY_URL: https://tourticketcompare.com/api/impact/products
       # /api/impact/products is token-gated; without this the proxy returns 404.
@@ -81,7 +83,7 @@ jobs:
         # their merges. See scripts/wait-for-writer-lanes.mjs.
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 14
+        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 60
 
       - uses: actions/setup-node@v5
         with:
@@ -148,8 +150,8 @@ jobs:
           PRIORITY_ARTISTS: ${{ steps.priority.outputs.artists }}
         run: |
           set -euo pipefail
-          # The runtime limit keeps the sync inside the 59-minute job, leaving room for
-          # the validation steps; the artist order rotates daily, so a run cut short
+          # The runtime limit reserves time for validation after ordering;
+          # the artist order rotates daily, so a run cut short
           # by it does not leave the same artists unchecked every night.
           args=(--provider "$PROVIDER" --max-api-calls 1200 --max-runtime-minutes 35 --delay-ms 1000)
           if [ -n "$ARTIST" ]; then args+=(--artist "$ARTIST"); fi
@@ -207,6 +209,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Open validated provider PR
+        timeout-minutes: 30
         if: steps.config.outputs.mode == 'apply' && (steps.diff.outputs.changed == 'true' || steps.diff.outputs.log_changed == 'true')
         env:
           PROVIDER: ${{ steps.config.outputs.provider }}

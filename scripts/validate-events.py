@@ -371,6 +371,16 @@ def run_self_test() -> int:
             "expect": "previous_start_timezone: requires previous_start_date",
         },
         {
+            "name": "Python-only compact previous date",
+            "mutate": lambda event: event.__setitem__("previous_start_date", "20260501T20:00:00+00:00"),
+            "expect": "previous_start_date: must be an ISO date or datetime with a UTC offset",
+        },
+        {
+            "name": "previous offset minute overflow",
+            "mutate": lambda event: event.__setitem__("previous_start_date", "2026-05-01T20:00:00+0060"),
+            "expect": "previous_start_date: must be an ISO date or datetime with a UTC offset",
+        },
+        {
             "name": "protocol-relative top-level provider URL",
             "mutate": lambda event: event.__setitem__("ticketmaster_url", "//ticketmaster.com/event/ABC123"),
             "expect": "ticketmaster_url: must be http(s) URL or empty",
@@ -498,6 +508,11 @@ def run_self_test() -> int:
             "expect_failure": "STRICT TOUR_NAME CHECK FAILED:",
         },
     ]
+
+    positive_cases.extend({
+        "name": f"supported previous date {iso}",
+        "mutate": lambda event, value=iso: event.__setitem__("previous_start_date", value),
+    } for iso in ["2026-05-01", "2026-05-01T20:00+00:00", "2026-05-01T20:00:00+0000", "2026-10-19T20:30:00-07:00"])
 
     with tempfile.TemporaryDirectory(prefix="ttc-validate-events-self-test-") as tmp_dir:
         tmp = Path(tmp_dir)
@@ -836,9 +851,18 @@ def main() -> int:
         previous_start_date = event.get("previous_start_date")
         if previous_start_date is not None:
             previous = parse_iso_datetime(previous_start_date)
-            if not is_iso_date(previous_start_date) and (
+            # Same explicit storage grammar as validPreviousStartDate in the
+            # renderer: do not validate a Python-only ISO form that JS omits.
+            supported_previous_format = isinstance(previous_start_date, str) and re.fullmatch(
+                r"\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2}(?::\d{2}(?:\.\d+)?)?(?:Z|[+-]\d{2}:?\d{2}))?",
+                previous_start_date.strip(),
+                flags=re.ASCII,
+            )
+            offset = re.search(r"[+-](\d{2}):?(\d{2})$", previous_start_date.strip()) if supported_previous_format else None
+            invalid_offset = offset and (int(offset[1]) > 23 or int(offset[2]) > 59)
+            if not supported_previous_format or invalid_offset or (not is_iso_date(previous_start_date) and (
                 previous is None or previous.tzinfo is None
-            ):
+            )):
                 errors.append(f"{prefix}.previous_start_date: must be an ISO date or datetime with a UTC offset")
         previous_start_timezone = event.get("previous_start_timezone")
         if previous_start_timezone is not None:

@@ -60,7 +60,7 @@ import { includePastFromEnv, skipInSweep, PAST_RECHECK_DAYS } from './lib/tm-swe
 import { normalizePresaleWindows } from '../functions/_presales.js';
 import { PROVIDER_LANES } from './lib/event-link-coverage.mjs';
 import { eventLocalDate, urlDateConflicts } from './sync-impact-marketplace-events.mjs';
-import { eventPreviousStartDate, previousStartDateFromEvent } from '../functions/_event-reschedule.js';
+import { validPreviousStartDate, previousStartDateFromEvent } from '../functions/_event-reschedule.js';
 
 const DEFAULT_BASE = 'https://app.ticketmaster.com/discovery/v2';
 const DEFAULT_EVENTS_PATH = new URL('../public/data/events.json', import.meta.url);
@@ -727,7 +727,7 @@ export function planEventSync(event, remote, discoveryId) {
     // do not reach intendedChanges and therefore cannot manufacture history.
     if (clean(remote?.data?.dates?.status?.code).toLowerCase() === 'rescheduled'
       && intendedChanges.some((change) => change.field === 'datetime_iso')
-      && !eventPreviousStartDate(event)
+      && !validPreviousStartDate(event.previous_start_date)
       && event.source_type === 'ticketmaster'
       && ['human_verified', 'machine_high_confidence'].includes(event.verification_status)) {
       const previous = previousStartDateFromEvent(event);
@@ -947,13 +947,15 @@ async function runSelfTest() {
     const old = clean_({ source_type: 'ticketmaster', verification_status: 'machine_high_confidence' });
     const moved = full('rescheduled', { dates: { status: { code: 'rescheduled' }, start: { dateTime: '2026-10-08T00:00:00Z' }, timezone: 'America/New_York' } });
     const previousOf = (row, response = moved) => plan(row, response).applied.find((c) => c.field === 'previous_start_date');
-    assert('a confirmed reschedule retains the verified previous date', previousOf(old)?.to === '2026-10-01T00:00:00.000Z');
+    assert('a confirmed reschedule retains the verified previous date', previousOf(old)?.to === old.datetime_iso);
     assert('a reschedule retains the OLD timezone', plan(old, moved).applied.find((c) => c.field === 'previous_start_timezone')?.to === old.timezone);
     assert('a cosmetic date representation does not create history', !previousOf(old, full('rescheduled')));
     assert('a date correction without a rescheduled status does not create history', !previousOf(old, full('onsale', { dates: { status: { code: 'onsale' }, start: { dateTime: '2026-10-08T00:00:00Z' }, timezone: 'America/New_York' } })));
     assert('a previously unverified date is not claimed as history', !previousOf({ ...old, verification_status: 'needs_recheck' }));
     assert('an identity mismatch creates no history', !previousOf(old, { data: { ...moved.data, name: 'Someone Else Entirely' } }));
     assert('repeat reschedules preserve recorded history', !previousOf({ ...old, ticketmaster_status_code: 'rescheduled', previous_start_date: '2026-09-01T00:00:00Z' }));
+    assert('history survives an intervening on-sale status', !previousOf({ ...old, previous_start_date: '2026-09-01T00:00:00Z' }));
+    assert('offset-only history keeps its original wall date', previousOf({ ...old, datetime_iso: '2026-09-30T20:30:00-07:00', timezone: '' })?.to === '2026-09-30T20:30:00-07:00');
   }
   {
     // Doja Cat, San Francisco (2026-10-10): rescheduled from Mon 19 Oct to Sun

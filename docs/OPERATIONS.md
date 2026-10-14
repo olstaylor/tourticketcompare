@@ -6,13 +6,17 @@ Workflow schedules, secrets/bindings reference, and known infrastructure inciden
 
 All times UTC. What each lane may write, and the gated auto-merge contract every write-capable lane now publishes through, are defined in [DEPLOYMENT.md → Repository write capability](DEPLOYMENT.md#repository-write-capability); this table is only the schedule and current behavior.
 
-SeatGeek, Vivid Seats and Impact CTA writers wait up to 60 minutes for older
-shared-data writers, then refresh to current main before generating changes.
-Their job limits reserve a further 75 minutes for SeatGeek/Vivid Seats and 90
-minutes for Impact, including in-job validation and the canonical exact-head
+SeatGeek and Vivid Seats wait up to 60 minutes for older shared-data writers.
+Impact reserves cumulative wait budgets of 60/150/240 minutes for TicketNetwork,
+Ticket Liquidator and StubHub International, with whole-job caps of 150/240/330
+minutes. Each later provider can outlast the preceding provider’s entire job cap,
+even if all jobs start together, and retains 90 minutes for its own work.
+SeatGeek/Vivid Seats retain 75 minutes after waiting. All refresh current main
+before generating changes and run in-job validation plus the canonical exact-head
 publishing check. Impact uses the writer helper's ordered queue without a
-workflow concurrency group, preserving all three providers even when the first
-run overruns the later crons. Exhaustion or an unreadable queue stops before writes;
+workflow concurrency group, retaining all three providers when the first run overruns the later crons.
+Arbitrarily delayed runner starts or other writers can still exhaust these
+bounded budgets; a timeout is visible and needs fresh scheduled evidence. Exhaustion or an unreadable queue stops before writes;
 it is not an unchanged-data success. These larger limits address the 2026-10-13
 SeatGeek cancellation during publishing and the 2026-10-14 wait expiry behind
 nightly sync; completed schedules must still prove recovery after deployment.
@@ -23,7 +27,12 @@ after the head-validation wait. The validated PR head must have the audited
 commit as its sole parent and is integrated with a protected, non-forced
 fast-forward; a main change rejects that update atomically. GitHub must confirm
 the PR as merged. Invalidated audit PRs close for fresh scheduled evidence;
-unreadable evidence leaves an explicitly blocked PR. Never rebase old
+unreadable evidence leaves an explicitly blocked PR. A lost update response
+with the validated head already on main continues PR-merge confirmation rather
+than invalidating published evidence. The current active ruleset has no
+pull-request-only rule; a future protection that rejects direct ref updates
+will block this transport and requires a supported atomic PR mechanism, never
+a bypass or squash fallback (see [DEPLOYMENT.md](DEPLOYMENT.md#repository-write-capability)). Never rebase old
 observations onto changed data. The 2026-10-14
 audit passed evidence equality and validation, then conflicted after the premium
 cleanup merged (#1566). That is a publishing race, not a URL-liveness finding.
@@ -96,7 +105,7 @@ Storm protection is two fixed caps: at most 5 new issues per run and at most 25 
 
 **Cron times are request times, not start times.** GitHub can run these queues significantly late; the relative order the schedule encodes holds even when absolute times drift. Missing credentials make every scheduled lane no-op safely (no rows, no PR); auth/config failures in the SeatGeek lane abort with no writes.
 
-**Late starts use bounded writer ordering.** All event-data lanes and all three daily-audit jobs run `scripts/wait-for-writer-lanes.mjs` before generating data. It includes daily audit because its status and verification jobs modify shared generated figures. The audit job now waits and refreshes its checkout before gathering evidence; the verification-dates job compares the audit artifact's source commit with its refreshed checkout and withholds timestamps if main advanced in between. A run waits for older writers by creation time, then fast-forwards its clean checkout to the branch tip. Queued peers in the same static concurrency group are skipped because they cannot start until the current run releases that group; active peers still block. An unreadable run list, exhausted budget or failed refresh now stops before generation and publication. The next scheduled run retries from current `main`; do not proceed from a stale checkout or force a conflicted PR. Wait budgets remain bounded: 60 minutes for SeatGeek, Vivid Seats and Impact, 14 by default, 8 for work queue repair and 4 for auto-promote. Impact has no workflow concurrency group; all three providers remain in the helper queue. The daily-audit publishing jobs have 49-minute caps; the newly waiting promotion, demotion and manual-refresh jobs remain capped at 59 minutes. This ordering covers automation runs, not human merges or long-lived review PRs: those may still need a reviewed branch update and complete validation. No repository-wide concurrency group is used, because GitHub cancels all but one pending run. `writer-lanes:self-test` derives the shared-data writer set and checks the publishing jobs' wiring.
+**Late starts use bounded writer ordering.** All event-data lanes and all three daily-audit jobs run `scripts/wait-for-writer-lanes.mjs` before generating data. It includes daily audit because its status and verification jobs modify shared generated figures. The audit job now waits and refreshes its checkout before gathering evidence; the verification-dates job compares the audit artifact's source commit with its refreshed checkout and withholds timestamps if main advanced in between. A run waits for older writers by creation time, then fast-forwards its clean checkout to the branch tip. Queued peers in the same static concurrency group are skipped because they cannot start until the current run releases that group; active peers still block. An unreadable run list, exhausted budget or failed refresh now stops before generation and publication. The next scheduled run retries from current `main`; do not proceed from a stale checkout or force a conflicted PR. Wait budgets remain bounded: 60 minutes for SeatGeek/Vivid Seats, 60/150/240 for the three Impact providers, 14 by default, 8 for work queue repair and 4 for auto-promote. Impact has no workflow concurrency group; all three providers remain in the helper queue. The daily-audit publishing jobs have 49-minute caps; the newly waiting promotion, demotion and manual-refresh jobs remain capped at 59 minutes. This ordering covers automation runs, not human merges or long-lived review PRs: those may still need a reviewed branch update and complete validation. No repository-wide concurrency group is used, because GitHub cancels all but one pending run. `writer-lanes:self-test` derives the shared-data writer set and checks the publishing jobs' wiring.
 
 **Provider URL coverage (`event_needs_provider_url`, P2, amber, agent-ready).** `generated-freshness.yml` also runs `scripts/report-provider-url-work.mjs` on data pushes and daily at 04:40. This read-only sensor identifies upcoming, time-resolvable events with missing or inconsistent SeatGeek URL/provenance, excluding cancelled and postponed dates. It groups exact event IDs into batches of at most 20 for one artist, anchored to that artist's registry-verified performer ID. Batches without verified identity remain in the complete report, preserve existing findings, and open no new agent task. Tour labels and historical `needs_recheck` counts are reported, never inferred or changed. The complete JSON is retained as the `provider-url-coverage` Actions artifact, including findings withheld by the queue caps.
 

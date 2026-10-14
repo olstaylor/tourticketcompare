@@ -25,9 +25,9 @@ not this table.
 event data. Since 2026-09-11 they all land the same way — a branch and a PR the
 run squash-merges itself. That shape came from a repository ruleset requiring
 the `test-mvp` status check on whatever commit is published, which a commit
-built on a runner carries none of; the ruleset is disabled as of 2026-09-12 but
-the shape stays, because it is what makes the merge conditional on a verdict
-GitHub can read (see [DEPLOYMENT.md → Repository write capability](docs/DEPLOYMENT.md#repository-write-capability)).
+built on a runner carries none of. Ruleset `20115269` is active again, with
+`test-mvp` required and no bypass actors (connected read 2026-10-14). The
+PR shape makes the merge conditional on a verdict GitHub can read (see [DEPLOYMENT.md → Repository write capability](docs/DEPLOYMENT.md#repository-write-capability)).
 What every path shares is `test:mvp` passing in the same job on exactly the
 content it is about to publish, and then again as a `test-mvp` check earned on
 that exact PR head before the merge. **Both are mandatory regardless of what

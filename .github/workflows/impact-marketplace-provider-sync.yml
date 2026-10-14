@@ -48,10 +48,13 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    # Up to 60 minutes of ordering, plus the 35-minute ingestion cap, full
-    # validation and the 25-minute exact-head publishing check.
-    timeout-minutes: 150
+    # Reserve cumulative queue time for all three runs, even when their jobs
+    # start together: 60/150/240 minutes waiting, then 90 minutes of work.
+    # The preceding job's whole cap bounds the next run's wait; all stay
+    # below GitHub's six-hour hosted-job maximum. Manual runs use the first cap.
+    timeout-minutes: ${{ fromJSON('{"0 6 * * *":150,"30 6 * * *":240,"0 7 * * *":330}')[github.event.schedule] || 150 }}
     env:
+      WRITER_WAIT_MINUTES: ${{ fromJSON('{"0 6 * * *":60,"30 6 * * *":150,"0 7 * * *":240}')[github.event.schedule] || 60 }}
       IMPACT_CATALOG_PROXY_URL: https://tourticketcompare.com/api/impact/products
       # /api/impact/products is token-gated; without this the proxy returns 404.
       IMPACT_CATALOG_PROXY_TOKEN: ${{ secrets.DEBUG_API_TOKEN }}
@@ -84,7 +87,7 @@ jobs:
         # their merges. See scripts/wait-for-writer-lanes.mjs.
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 60
+        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes "$WRITER_WAIT_MINUTES"
 
       - uses: actions/setup-node@v5
         with:

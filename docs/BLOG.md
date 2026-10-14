@@ -161,7 +161,12 @@ After the implementation PR is reviewed and merged:
    CI automatically. No merge endpoint is used.
 4. Run **Blog article draft** with `mode: preview`, issue **1538**. Preview reads
    the current managed issue and current trusted `main`, selects at most one
-   candidate and spends nothing. This rolling issue must describe the current
+   candidate and makes no Claude calls. When `TICKETMASTER_API_KEY` is configured,
+   preview also performs the same free current-event checks as live mode, without
+   reserving the weekly slot. Mismatch errors identify the stored event and fields
+   (not raw API response values). Fix or investigate those discrepancies before
+   attempting live mode. Preview can run even while a failed live reservation exists.
+   This rolling issue must describe the current
    UTC week; rerun discovery if it is stale. The workflow ignores a dispatch's
    selected branch and always checks out `main`.
 5. Run `mode: mock` for a repeatable historical integration test of #1538. This

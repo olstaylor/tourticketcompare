@@ -47,7 +47,10 @@ export async function draftOnce({ source, issue, gh, mode, snapshot, rules, apiK
   const prs = mode === 'live' ? await listEditorialPrs(gh) : [];
   const selection = selectArticle(source, issue, { now, prs });
   if (!selection.selected) return { mode, outcome: 'no-worthy-opportunity', ...selection };
-  if (mode === 'preview') return { mode, outcome: 'selected-without-generation', ...selection };
+  if (mode === 'preview') {
+    const evidence = await researchEvidence(buildEvidence(selection.selected, { now, snapshot }), { apiKey: tmKey, fetchImpl, now });
+    return { mode, outcome: 'selected-without-generation', ...selection, evidence };
+  }
   // Missing credentials must not consume the slot or make a provider call.
   const client = mode === 'live' ? anthropicClient({ apiKey, fetchImpl }) : mockClient;
   if (!client) throw new Error('Mock client required');

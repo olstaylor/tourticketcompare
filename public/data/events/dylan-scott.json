@@ -1128,7 +1128,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-albuquerque-new-mexico-02-25-2027/event/1E00652BA02E740F",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1169,6 +1169,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-09-25T16:00:00Z",
         "end": "2027-02-19T05:00:00Z"
+      },
+      {
+        "name": "Birthday",
+        "start": "2026-10-22T06:00:00Z",
+        "end": "2026-10-23T05:59:00Z"
       }
     ]
   },

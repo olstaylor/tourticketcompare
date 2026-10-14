@@ -68,7 +68,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/rod-stewart-niagara-falls-ontario-03-04-2027/event/1000637389BA4757",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -103,7 +103,8 @@
     },
     "ticketmaster_discovery_event_id": "16vZZbMCaG7m0q9",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-rod-stewart-2027-savannah-vvg1zz_kexgebo",
@@ -333,7 +334,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-uncasville-connecticut-03-19-2027/event/1D006547C8F973C3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -369,7 +370,29 @@
     "ticketmaster_discovery_event_id": "G5vVZ_fLFX92d",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Rod Stewart Fan Club Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Ticket + Rod Stewart Fan Club Membership",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Mohegan Sun Presale",
+        "start": "2026-10-15T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rod-stewart-2027-dublin-1abzkfygkdqi3oq",
@@ -1394,7 +1417,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qU14",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1429,7 +1452,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7qU14",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-rod-stewart-2027-morrison-z7r9jz1a7r6o4",
@@ -1447,7 +1471,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r6o4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-14",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1482,6 +1506,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r6o4",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   }
 ]

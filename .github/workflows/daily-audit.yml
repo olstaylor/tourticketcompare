@@ -206,11 +206,10 @@ jobs:
       # the next scheduled audit will check the refreshed revision.
       - name: Check audit evidence revision
         run: |
-          audited="$(cat .audit/source-commit.txt)"
-          current="$(git rev-parse HEAD)"
-          if [ "$audited" != "$current" ]; then
-            echo "::error::Audit reports describe $audited, but checkout is $current. Withholding verification-date writes."
-            exit 1
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            node scripts/check-audit-revision.mjs
+          else
+            node scripts/check-audit-revision.mjs --check-main
           fi
 
       - name: Bump verified dates for clean artists
@@ -313,30 +312,16 @@ jobs:
           public/data/guides-content.json
           PROJECT_STATUS.md
 
-      # The publishing App has no `workflows` permission, so GitHub refuses any
-      # branch whose workflow files differ from `main`'s. A run checked out
-      # before a workflow change merged builds exactly such a branch: on
-      # 2026-10-02 #1262 merged six minutes into the run and the push was
-      # rejected, failing the run. Rebasing here would publish content the
-      # suite above never saw, so the run withholds today's bump instead and
-      # the next scheduled run, checked out on the new main, publishes it.
-      - name: Withhold publishing if main's workflows moved during this run
-        id: base
+      # Check every main change, not only workflow files. Old observations must
+      # never be rebased onto changed artist/event data or stale status figures.
+      # The opener checks again after earning the exact-head validation check.
+      - name: Check audited revision before publishing
         if: steps.diff.outputs.changed == 'true' && inputs.dry_run != true
-        run: |
-          git fetch --no-tags --quiet origin main
-          if git diff --quiet HEAD origin/main -- .github/workflows/; then
-            echo "current=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "current=false" >> "$GITHUB_OUTPUT"
-            MSG="Workflow files on main changed after this run checked out ${GITHUB_SHA::8}; GitHub would refuse the branch, so today's verification-date bump is withheld and the next scheduled run publishes it."
-            echo "::warning::${MSG}"
-            echo "${MSG}" >> "$GITHUB_STEP_SUMMARY"
-          fi
+        run: node scripts/check-audit-revision.mjs --check-main
 
       - name: Prepare publishing identity
         id: publishing-identity
-        if: steps.diff.outputs.changed == 'true' && inputs.dry_run != true && steps.base.outputs.current == 'true'
+        if: steps.diff.outputs.changed == 'true' && inputs.dry_run != true
         uses: ./.github/actions/automation-identity
         with:
           enabled: ${{ vars.AUTOMATION_APP_ENABLED }}
@@ -345,7 +330,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish through a validated, auto-merged PR
-        if: steps.diff.outputs.changed == 'true' && inputs.dry_run != true && steps.base.outputs.current == 'true'
+        if: steps.diff.outputs.changed == 'true' && inputs.dry_run != true
         env:
           GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -363,6 +348,7 @@ jobs:
           PR_TITLE="Bump verification timestamps (${TODAY})" \
           PR_LABEL="automation:verified-dates" \
           PR_AUTO_MERGE=true \
+          PR_AUDIT_SOURCE_COMMIT="$(cat .audit/source-commit.txt)" \
           PR_BODY=$'## What this PR does\n- Moves `last_verified_at` forward in `public/data/artists.json` for artists whose URL liveness check and Ticketmaster Discovery diff both came back clean in this run. Nothing else in the record is touched.\n- Records the day each guide\'s cited source URL was last confirmed to resolve (`data/guide-source-link-checks.json`) and rebuilds `public/data/guides-content.json` from it. 401/403/429 counts as blocked, not verified.\n- Refreshes the generated per-artist table in `PROJECT_STATUS.md` so it keeps step with the timestamps above.\n\n## Explicit non-changes\n- No event, provider, price or affiliate data. No `content/**`.\n- No published or updated date moves: the run asserts `functions/_guide-routes.generated.js` and `data/content-provenance.json` are untouched before this PR is opened.\n\n## Validation\n- `npm run test:mvp` and `git diff --check` passed in-job on exactly this content, and Prelaunch Validation runs again on this branch before the merge.\n' \
           node scripts/open-automation-pr.mjs
 

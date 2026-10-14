@@ -461,10 +461,21 @@ async function build({ write = true, paths = [] } = {}) {
     seen.set(name, card.path);
   }
 
-  const [serifBold, sans] = await Promise.all([measureAdvances(sharp, SERIF, 700), measureAdvances(sharp, SANS, 400)]);
+  const selectedCards = selectCards(cards, requestedPaths);
+  // A targeted editorial build needs metrics only for the characters it will
+  // actually fit. Measuring the whole alphabet (including unused accents) for
+  // one card repeats hundreds of expensive 8000x400 rasterisations. Each used
+  // glyph is still measured with the same font, size and algorithm; full builds
+  // retain the original alphabet and output contract.
+  const charsFor = (field) => requestedPaths.size
+    ? [...new Set(selectedCards.map((card) => String(card[field] || '').replace(/\s+/g, ' ')).join(''))].filter((char) => char !== ' ').join('')
+    : MEASURED_CHARS;
+  const [serifBold, sans] = await Promise.all([
+    measureAdvances(sharp, SERIF, 700, charsFor('headline')),
+    measureAdvances(sharp, SANS, 400, charsFor('sub'))
+  ]);
 
   await fs.mkdir(OG_DIR, { recursive: true });
-  const selectedCards = selectCards(cards, requestedPaths);
   const entries = [];
   for (const card of selectedCards) {
     const headline = fitHeadline(card.headline, { advances: serifBold });

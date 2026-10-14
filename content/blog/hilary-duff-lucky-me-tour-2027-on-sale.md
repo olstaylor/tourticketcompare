@@ -25,7 +25,7 @@ sources:
 
 **Update, October 5, 2026:** the public on-sale described below took place on Friday, October 2. The table is kept as a record of how the sale ran. If you are buying now, start with the "Buying after the on-sale" section below.
 
-[Find your Hilary Duff date and compare ticket options](/artists/hilary-duff). Choose the exact night before comparing listings. Any displayed price is a provider's checked snapshot, not a final checkout total; confirm the ticket quantity, fees and delivery terms on the ticket site.
+[Find your Hilary Duff date and compare ticket options](/artists/hilary-duff). Choose the exact night before comparing listings. Any price shown is one ticket site's listed price when it was checked, not your final total. Check the number of tickets, fees and delivery on the ticket site.
 
 Ticketmaster listed twenty new dates on Hilary Duff's lucky me tour with a public on-sale of Friday, October 2, 2026. Four are in Europe in May 2027 and sixteen are in the United States in October and November 2027. Every one opened at 10:00 in the venue's local time. Written down, that looked like a single sale. In practice it was a rolling sale that started in Europe and finished in California nine hours later.
 

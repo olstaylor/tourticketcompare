@@ -413,8 +413,8 @@ for (const pathname of PAGES) {
 
   assert(outLinksFor(html, SCHEDULED.id) > 0, `${pathname}: the scheduled date keeps its buttons`);
   assert(outLinksFor(html, RESCHEDULED.id) > 0, `${pathname}: the rescheduled date keeps its buttons`);
-  assert(/Rescheduled: this is the date Ticketmaster now lists/.test(text(card(html, RESCHEDULED.id))), `${pathname}: the rescheduled date says so`);
-  assert(!/Rescheduled/.test(card(html, SCHEDULED.id)), `${pathname}: a scheduled date says nothing about rescheduling`);
+  assert(/Date changed: this is the new date/.test(text(card(html, RESCHEDULED.id))), `${pathname}: the rescheduled date says so`);
+  assert(!/Rescheduled|Date changed/.test(card(html, SCHEDULED.id)), `${pathname}: a scheduled date says nothing about rescheduling`);
 
   const scheduledNode = musicEventFor(nodes, SCHEDULED.id);
   const rescheduledNode = musicEventFor(nodes, RESCHEDULED.id);
@@ -505,7 +505,7 @@ async function out(showId, provider) {
   for (const event of HELD) {
     assert(text(card(boardHtml, event.id)).includes(clientLabel(event)), `public/app.js states the server's line for ${event.id}`);
   }
-  assert(appJs.includes('"Rescheduled: this is the date Ticketmaster now lists."'), "public/app.js labels a rescheduled date like the server");
+  assert(appJs.includes('"Date changed: this is the new date."'), "public/app.js labels a rescheduled date like the server");
   assert(/function providerEventPublishable\(event, provider\) \{\n  if \(eventLifecycleHeld\(event\)\) return false;/.test(appJs), "public/app.js checks the hold in providerEventPublishable");
 }
 

@@ -443,7 +443,7 @@
         "event_id": 7457212,
         "url": "https://www.vividseats.com/dinosaur-jr-tickets-menlo-park-the-guild-theatre-10-19-2026/production/7457212",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -791,7 +791,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PU0P",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU0P",
     "seatgeek_url": "https://seatgeek.com/dinosaur-jr-tickets/denver-colorado-ogden-theatre-2026-10-29-8-pm/concert/18345755",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-denver-ogden-theatre-10-29-2026--concerts-rock/production/7234825",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU0P",
     "last_verified_at": null,
@@ -813,11 +813,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7234825,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-denver-ogden-theatre-10-29-2026--concerts-rock/production/7234825",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

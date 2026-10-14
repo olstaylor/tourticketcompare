@@ -1,0 +1,373 @@
+[
+  {
+    "id": "tm-guns-n-roses-2026-adelaide-1aefzbygkb-e0bz",
+    "artist_slug": "guns-n-roses",
+    "artist_name": "Guns N' Roses",
+    "event_name": "Guns N' Roses - The Jungle Zone",
+    "city": "Adelaide",
+    "country": "Australia",
+    "venue": "Adelaide Street Circuit",
+    "datetime_iso": "2026-11-28T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500639EA19E4638",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/guns-n-roses-the-jungle-zone-adelaide-29-11-2026/event/2500639EA19E4638",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/guns-n-roses-the-jungle-zone-adelaide-29-11-2026/event/2500639EA19E4638",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500639EA19E4638",
+        "discovery_event_id": "1AefZbyGkB-E0bz",
+        "url": "https://www.ticketmaster.com.au/guns-n-roses-the-jungle-zone-adelaide-29-11-2026/event/2500639EA19E4638",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZbyGkB-E0bz",
+    "timezone": "Australia/Adelaide",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-guns-n-roses-2026-townsville-1ka8vpzuga26zyk",
+    "artist_slug": "guns-n-roses",
+    "artist_name": "Guns N' Roses",
+    "event_name": "Guns N' Roses: World Tour 2026",
+    "city": "Townsville",
+    "country": "Australia",
+    "venue": "Queensland Country Bank Stadium",
+    "datetime_iso": "2026-12-02T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "250065036F1C0E53",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/guns-n-roses-world-tour-2026-townsville-02-12-2026/event/250065036F1C0E53",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/guns-n-roses-world-tour-2026-townsville-02-12-2026/event/250065036F1C0E53",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "250065036F1C0E53",
+        "discovery_event_id": "1ka8vPZUGA26ZyK",
+        "url": "https://www.ticketmaster.com.au/guns-n-roses-world-tour-2026-townsville-02-12-2026/event/250065036F1C0E53",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ka8vPZUGA26ZyK",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-guns-n-roses-2026-milton-1akzko_gken_ac7",
+    "artist_slug": "guns-n-roses",
+    "artist_name": "Guns N' Roses",
+    "event_name": "Guns N' Roses: World Tour 2026",
+    "city": "Milton",
+    "country": "Australia",
+    "venue": "Suncorp Stadium",
+    "datetime_iso": "2026-12-05T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006459AA649B44",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/guns-n-roses-world-tour-2026-milton-05-12-2026/event/13006459AA649B44",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/guns-n-roses-world-tour-2026-milton-05-12-2026/event/13006459AA649B44",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006459AA649B44",
+        "discovery_event_id": "1AKZko_Gken_ac7",
+        "url": "https://www.ticketmaster.com.au/guns-n-roses-world-tour-2026-milton-05-12-2026/event/13006459AA649B44",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZko_Gken_ac7",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-guns-n-roses-2026-newcastle-1avgz_agknobybx",
+    "artist_slug": "guns-n-roses",
+    "artist_name": "Guns N' Roses",
+    "event_name": "Guns N' Roses: World Tour 2026",
+    "city": "Newcastle",
+    "country": "Australia",
+    "venue": "McDonald Jones Stadium",
+    "datetime_iso": "2026-12-08T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300645AA0EB963E",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/guns-n-roses-world-tour-2026-newcastle-08-12-2026/event/1300645AA0EB963E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/guns-n-roses-world-tour-2026-newcastle-08-12-2026/event/1300645AA0EB963E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300645AA0EB963E",
+        "discovery_event_id": "1AvGZ_AGknOBybX",
+        "url": "https://www.ticketmaster.com.au/guns-n-roses-world-tour-2026-newcastle-08-12-2026/event/1300645AA0EB963E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_AGknOBybX",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-guns-n-roses-2026-docklands-1apzkobgkex5mpi",
+    "artist_slug": "guns-n-roses",
+    "artist_name": "Guns N' Roses",
+    "event_name": "Guns N' Roses: World Tour 2026",
+    "city": "Docklands",
+    "country": "Australia",
+    "venue": "Marvel Stadium",
+    "datetime_iso": "2026-12-11T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "25006458A22F75AC",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/guns-n-roses-world-tour-2026-docklands-11-12-2026/event/25006458A22F75AC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/guns-n-roses-world-tour-2026-docklands-11-12-2026/event/25006458A22F75AC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "25006458A22F75AC",
+        "discovery_event_id": "1APZkobGkex5Mpi",
+        "url": "https://www.ticketmaster.com.au/guns-n-roses-world-tour-2026-docklands-11-12-2026/event/25006458A22F75AC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1APZkobGkex5Mpi",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-guns-n-roses-2026-olympic-park-1akzko_gkexzdnf",
+    "artist_slug": "guns-n-roses",
+    "artist_name": "Guns N' Roses",
+    "event_name": "Guns N' Roses: World Tour 2026",
+    "city": "Olympic Park",
+    "country": "Australia",
+    "venue": "ENGIE Stadium",
+    "datetime_iso": "2026-12-14T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006459BEE3B8C8",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/guns-n-roses-world-tour-2026-olympic-park-14-12-2026/event/13006459BEE3B8C8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/guns-n-roses-world-tour-2026-olympic-park-14-12-2026/event/13006459BEE3B8C8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006459BEE3B8C8",
+        "discovery_event_id": "1AKZko_GkeXzDNF",
+        "url": "https://www.ticketmaster.com.au/guns-n-roses-world-tour-2026-olympic-park-14-12-2026/event/13006459BEE3B8C8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZko_GkeXzDNF",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-guns-n-roses-2026-auckland-15e8z_axausjz",
+    "artist_slug": "guns-n-roses",
+    "artist_name": "Guns N' Roses",
+    "event_name": "Guns N' Roses: World Tour 2026",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Eden Park",
+    "datetime_iso": "2026-12-17T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2400645889371980",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/guns-n-roses-world-tour-2026-auckland-17-12-2026/event/2400645889371980",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/guns-n-roses-world-tour-2026-auckland-17-12-2026/event/2400645889371980",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2400645889371980",
+        "discovery_event_id": "15e8Z_AxausJZ",
+        "url": "https://www.ticketmaster.co.nz/guns-n-roses-world-tour-2026-auckland-17-12-2026/event/2400645889371980",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "15e8Z_AxausJZ",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  }
+]

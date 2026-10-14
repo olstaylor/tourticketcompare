@@ -282,7 +282,7 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   // Owner review 2026-10-06: the summary comes straight after the lead, then
   // the per-date tables, then the supporting explanation.
   assert(page.main.indexOf('id="priceGuideGlanceTitle"') < page.main.indexOf('id="priceGuideDatesTitle"') && page.main.indexOf('id="priceGuideDatesTitle"') < page.main.indexOf('id="priceGuideFaceTitle"'), "the summary precedes the date tables, which precede supporting explanation");
-  assert(/Ticket sites covered/.test(page.main) && /Recent movement/.test(page.main), "the summary covers sites and recent movement");
+  assert(/Where to buy/.test(page.main) && /Recent price changes/.test(page.main), "the summary covers sites and recent movement");
   assert((page.main.match(/>Compare this show<\/a>/g) || []).length === 6, "every date, including a priced date, links to all its exact-show ticket options");
   assert(page.main.includes('href="/artists/oasis#show-pg-man-1"'), "exact-show comparison goes to the artist card anchor");
 
@@ -299,8 +299,8 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert(body.includes("2 of 6 dates show a listed resale price right now"), "the at-a-glance count covers the checked dates");
 
   // Moves: one per priced date, attributed, newest change first.
-  assert(body.includes("Vivid Seats down £58: £240 when recorded Aug 1, 2026, now £182 since Aug 5, 2026"), "a fall is stated with its provider, size, previous figure and dates");
-  assert(body.includes("TicketNetwork up £45: £350 when recorded Jul 30, 2026, now £395"), "a rise is stated the same way");
+  assert(body.includes("Vivid Seats down £58: was £240 on Aug 1, 2026, now £182 since Aug 5, 2026"), "a fall is stated with its provider, size, previous figure and dates");
+  assert(body.includes("TicketNetwork up £45: was £350 on Jul 30, 2026, now £395"), "a rise is stated the same way");
   assert(body.indexOf("TicketNetwork up £45") < body.indexOf("Vivid Seats down £58"), "moves are ordered by when the price changed");
   assert(body.includes("1 lower and 1 higher"), "the summary counts per-date moves");
 

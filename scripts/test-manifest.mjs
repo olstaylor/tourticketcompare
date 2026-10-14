@@ -96,6 +96,7 @@ export const STEPS = [
   { id: "test:event-local-date",                  lane: "quick",  run: "npm run test:event-local-date" },
   { id: "test:event-pages",                       lane: "quick",  run: "npm run test:event-pages" },
   { id: "test:event-lifecycle",                   lane: "quick",  run: "npm run test:event-lifecycle" },
+  { id: "schema:validate",                        lane: "units",  run: "npm run schema:validate" },
   { id: "test:event-page",                        lane: "quick",  run: "npm run test:event-page" },
   { id: "test:event-indexability",                lane: "quick",  run: "npm run test:event-indexability" },
   { id: "test:event-indexing-pilot-report",       lane: "units",  run: "npm run test:event-indexing-pilot-report" },

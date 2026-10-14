@@ -53,7 +53,7 @@ Tickets were offered in pairs, with a limit of two per person. Submitting a requ
 
 Use the official tour help page for the current country-specific instructions and any future release. Security checks during a request do not establish a resale or transfer policy, so do not infer that a second-hand Silver Star listing is permitted or prohibited from those checks alone. Confirm the terms attached to the actual ticket before paying.
 
-No Silver Star price is repeated here: it is a separate official programme, not one of the provider-listed snapshots on the date board.
+No Silver Star price is repeated here: it is a separate official programme, not one of the ticket-site prices on the date list.
 
 ## What the artist page shows, and what it does not
 

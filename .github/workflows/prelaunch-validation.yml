@@ -43,9 +43,8 @@ jobs:
       - name: Validate guide route / content / sitemap sync
         run: npm run guides:validate
 
-      - name: Validate rendered head + JSON-LD schema contract
-        run: npm run schema:validate
-
+      # Includes the rendered head + JSON-LD contract in the shared manifest,
+      # so automation's in-job gate and this head check run the same suite.
       - name: Run canonical prelaunch validation
         run: npm run test:mvp
 

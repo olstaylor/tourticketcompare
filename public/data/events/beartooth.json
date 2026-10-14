@@ -1391,7 +1391,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-dallas-south-side-ballroom-12-10-2026--concerts-hard-rock/production/7052880",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-dallas-texas-12-10-2026/event/0C0064ADF719EBA8",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1461,6 +1461,11 @@
         "name": "Spooky Season 2 Pack Offer",
         "start": "2026-10-07T15:00:00Z",
         "end": "2026-10-15T03:00:00Z"
+      },
+      {
+        "name": "Halloween 2-Pack Ticket Offer",
+        "start": "2026-10-16T13:00:00Z",
+        "end": "2026-11-01T04:59:00Z"
       }
     ]
   },

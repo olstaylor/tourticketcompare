@@ -83,7 +83,7 @@ const guidePages = [
   {
     slug: "how-to-compare-concert-ticket-prices",
     title: "How to Compare Concert Ticket Prices | TourTicketCompare",
-    description: "A practical method for comparing the same concert: match the listing, use timestamped snapshots to shortlist providers, then verify the final total and terms.",
+    description: "A practical method for comparing the same concert: match the listing, use checked prices to shortlist ticket sites, then verify the final total and terms.",
     h1: "How to Compare Concert Ticket Prices Safely",
     serverRendered: true
   },
@@ -250,7 +250,7 @@ const routeMeta = {
   "/compare-concert-ticket-prices": {
     title: "Compare Concert Ticket Prices by Site | TourTicketCompare",
     description:
-      "Compare prices for the same checked concert across ticket sites where listed-price snapshots are eligible, then confirm fees and the total with the provider."
+      "Compare ticket prices for the same concert across ticket sites, then check the fees and final total before you buy."
   },
   "/artists": {
     title: "Artists | TourTicketCompare",
@@ -1166,7 +1166,7 @@ const SEARCH_PANEL_PROMPT_TITLE = "Start with a search";
 const SEARCH_PANEL_PROMPT_INTRO =
   "Enter an artist, city, venue, or tour above to see matching checked dates and guides.";
 const SEARCH_PANEL_RESULTS_TITLE = "Search results";
-const SEARCH_PANEL_RESULTS_INTRO = "Matches from checked artists, upcoming dates, and buying guides.";
+const SEARCH_PANEL_RESULTS_INTRO = "Artists, upcoming dates and buying guides.";
 
 function setSearchPanelHeading(hasQuery) {
   const title = document.getElementById("searchSectionTitle");
@@ -1767,7 +1767,7 @@ function lifecycleHoldLabel(event) {
   const code = String((event && event.ticketmaster_status_code) || "").trim().toLowerCase();
   if (code === "cancelled" || code === "canceled") return "Ticketmaster lists this date as cancelled, so no ticket links are shown for it.";
   if (code === "postponed") return "Ticketmaster lists this date as postponed, so no ticket links are shown until it is back on sale.";
-  return "This date's Ticketmaster status is being checked, so no ticket links are shown for it.";
+  return "This date's status is being checked, so ticket links are hidden for now.";
 }
 
 function eventLinkPublishable(event) {
@@ -2056,7 +2056,7 @@ function displayCountry(value) {
 // Price vocabulary: mirrors functions/_price-wording.js (this classic script
 // cannot import it). scripts/price-wording.test.mjs fails if they drift.
 const PRICE_DISCLOSURE =
-  "Prices are listed-price snapshots from each ticket site, checked at the time shown. They can change and aren't your final total. Listed prices may already include mandatory fees. Confirm the final total for your ticket quantity, taxes, delivery and selected extras on the ticket site.";
+  "Prices are each ticket site's listed price when it was last checked, at the time shown. They change often and aren't your final total. Some prices may already include fees. You'll see the full price, with taxes and delivery, on the ticket site before you pay.";
 const CARD_PRICE_TAIL = "not the final total";
 const PRICE_UNAVAILABLE_NOTE = "No listed price yet.";
 const PRICE_HISTORY_LABEL = "Show price history";
@@ -2131,7 +2131,7 @@ function relativeCheckAge(fetchedAt, now = Date.now()) {
 // Keep in sync with MONEY_DISCLOSURE_TEXT / renderMoneyDisclosureHtml in
 // functions/[[path]].js.
 const MONEY_DISCLOSURE_TEXT =
-  "Affiliate partners are listed before Ticketmaster. If you buy through an affiliate link, TourTicketCompare may earn a commission at no extra cost to you.";
+  "Some ticket sites pay TourTicketCompare a commission if you buy through their links, at no extra cost to you. Those sites are listed first, and Ticketmaster last.";
 function renderMoneyDisclosure() {
   const note = document.createElement("p");
   note.className = "disclosure-note money-disclosure";
@@ -2199,7 +2199,7 @@ function renderPriceAlertInterest(artistSlug, eventId) {
   form.className = "price-alert-interest";
   form.dataset.priceAlertInterest = slug;
   form.dataset.eventId = id;
-  text(form, "p", "Want an email if this price drops? Price emails aren't sent yet — leave an address to register interest and help decide whether alerts get built.", "muted");
+  text(form, "p", "Want an email when this price drops? Price-drop emails aren't ready yet. Leave your email if you'd use them, and it helps decide whether to build them.", "muted");
   const row = document.createElement("div");
   row.className = "price-alert-interest-row";
   const inputId = `price-alert-email-${slugify(id)}`;
@@ -2224,7 +2224,7 @@ function renderPriceAlertInterest(artistSlug, eventId) {
   const submit = document.createElement("button");
   submit.className = "button button-secondary";
   submit.type = "submit";
-  submit.textContent = "Register interest";
+  submit.textContent = "I'd use this";
   row.append(email, honeypot, submit);
   form.append(label, row);
   const status = text(form, "p", "", "disclosure-note");
@@ -2282,17 +2282,17 @@ function renderPriceHistoryContent(panel, wrap, data) {
     const firstAsOf = formatSnapshotTime(first.observedAt);
     const lastAsOf = formatSnapshotTime(last.observedAt);
     const caption = latest && firstAsOf && lastAsOf
-      ? `${points.length} listed-price snapshots · ${firstAsOf} – ${lastAsOf}. Most recent: ${latest}.`
-      : `${points.length} listed-price snapshots.`;
+      ? `${points.length} price checks · ${firstAsOf} – ${lastAsOf}. Latest: ${latest}.`
+      : `${points.length} price checks.`;
     text(block, "p", caption, "price-history-caption muted");
     panel.append(block);
     rendered.push(series);
   }
 
   if (!rendered.length) {
-    text(panel, "p", "Not enough snapshots have been recorded yet to show a history for this event.", "disclosure-note");
+    text(panel, "p", "There aren't enough price checks for this date to show a history yet.", "disclosure-note");
   } else {
-    text(panel, "p", String(data?.framing || "Provider-supplied listed-price snapshots, not live inventory, availability, or final checkout totals."), "disclosure-note");
+    text(panel, "p", String(data?.framing || "Each ticket site's listed price when it was checked. Not live availability or your final total."), "disclosure-note");
   }
 
   const interest = renderPriceAlertInterest(wrap?.dataset?.priceHistoryArtist, wrap?.dataset?.priceHistory);
@@ -2360,11 +2360,11 @@ function renderShowCard(show, options = {}) {
   }
   // Keep in sync with rescheduledHtml in renderShowCardServerHtml.
   if (String(show.ticketmaster_status_code || "").trim().toLowerCase() === "rescheduled") {
-    text(body, "p", "Rescheduled: this is the date Ticketmaster now lists.", "show-card-sub muted");
+    text(body, "p", "Date changed: this is the new date.", "show-card-sub muted");
   }
 
   if (options.reviewGated) {
-    text(body, "p", "Ticket links for this artist are still being reviewed. Buy buttons appear once the destination has been checked.", "disclosure-note");
+    text(body, "p", "Ticket links for this artist are still being checked. Buy buttons appear once they're ready.", "disclosure-note");
   } else if (options.showEventCta) {
     const ticketmasterUrl = safeVerifiedEventUrl(show.ticketmaster_url);
     const showId = String(show.id || "").trim();
@@ -2446,7 +2446,7 @@ function renderShowCard(show, options = {}) {
           ? lifecycleHoldLabel(show)
           : publicOnsalePending(show)
             ? publicOnsaleLabel(show)
-            : "No checked ticket link for this date yet.",
+            : "No ticket link for this date yet.",
         "disclosure-note"
       );
     }
@@ -4151,7 +4151,7 @@ function renderComparisonHub() {
   text(
     panel,
     "p",
-    "Compare prices for the same checked concert across ticket sites where listed-price snapshots are eligible, then confirm fees, availability, and ticket terms on the provider site before buying.",
+    "Compare ticket prices for the same concert across ticket sites, then check the fees, seats and final total before you buy.",
     "lead"
   );
   const actions = document.createElement("div");
@@ -4631,7 +4631,7 @@ document.addEventListener("click", async (event) => {
     renderPriceHistoryContent(panel, wrap, data);
   } catch (error) {
     panel.replaceChildren();
-    text(panel, "p", "Price snapshot history isn't available right now.", "disclosure-note");
+    text(panel, "p", "Price history isn't available right now.", "disclosure-note");
     wrap.dataset.priceHistoryLoaded = "";
   }
 });
@@ -4653,7 +4653,7 @@ document.addEventListener("submit", async (event) => {
   };
   if (honeypot) return;
   if (!email) {
-    setStatus("Enter an email address to register interest.");
+    setStatus("Enter your email address first.");
     return;
   }
   setStatus("Recording your interest…");

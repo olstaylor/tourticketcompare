@@ -346,7 +346,7 @@
     "ticketmaster_event_id": "3E0064CCED5FD99E",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/polyphia-be-not-afraid-world-tour-birmingham-11-12-2026/event/3E0064CCED5FD99E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/polyphia-tickets-birmingham-o2-academy---birmingham-12-11-2026--concerts-hard-rock/production/7169269",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/polyphia-be-not-afraid-world-tour-birmingham-11-12-2026/event/3E0064CCED5FD99E",
     "last_verified_at": null,
@@ -368,11 +368,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7169269,
+        "url": "https://www.vividseats.com/polyphia-tickets-birmingham-o2-academy---birmingham-12-11-2026--concerts-hard-rock/production/7169269",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -484,7 +484,7 @@
     "ticketmaster_event_id": "3E0064CAD7C191E9",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/polyphia-be-not-afraid-world-tour-leeds-15-12-2026/event/3E0064CAD7C191E9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/polyphia-tickets-leeds-o2-academy---leeds-12-15-2026--concerts-hard-rock/production/7169275",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/polyphia-be-not-afraid-world-tour-leeds-15-12-2026/event/3E0064CAD7C191E9",
     "last_verified_at": null,
@@ -506,11 +506,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7169275,
+        "url": "https://www.vividseats.com/polyphia-tickets-leeds-o2-academy---leeds-12-15-2026--concerts-hard-rock/production/7169275",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

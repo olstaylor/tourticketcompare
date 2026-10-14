@@ -58,10 +58,18 @@ concurrency:
 jobs:
   audit:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    # Includes bounded ordering before audit observations are captured.
+    timeout-minutes: 59
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Wait before gathering audit evidence
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 14
 
       - name: Setup Node.js
         uses: actions/setup-node@v5
@@ -72,8 +80,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Prepare report directory
-        run: mkdir -p .audit
+      - name: Prepare report directory and record audited revision
+        run: |
+          mkdir -p .audit
+          git rev-parse HEAD > .audit/source-commit.txt
 
       - name: URL liveness check
         id: links
@@ -164,12 +174,17 @@ jobs:
     # Covers the wait for the dispatched Prelaunch Validation run on the pushed
     # branch (~5 minutes warm, capped at 25 in the helper) on top of this job's
     # own work.
-    timeout-minutes: 35
+    timeout-minutes: 49
     steps:
       - name: Checkout
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
+
+      - name: Wait for older shared-data writer runs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/wait-for-writer-lanes.mjs
 
       - name: Setup Node.js
         uses: actions/setup-node@v5
@@ -185,6 +200,18 @@ jobs:
         with:
           name: daily-audit-${{ github.run_id }}
           path: .audit
+
+      # Never stamp records introduced or changed after the actual audit.
+      # A writer merging between audit and publication invalidates the evidence;
+      # the next scheduled audit will check the refreshed revision.
+      - name: Check audit evidence revision
+        run: |
+          audited="$(cat .audit/source-commit.txt)"
+          current="$(git rev-parse HEAD)"
+          if [ "$audited" != "$current" ]; then
+            echo "::error::Audit reports describe $audited, but checkout is $current. Withholding verification-date writes."
+            exit 1
+          fi
 
       - name: Bump verified dates for clean artists
         id: bump
@@ -356,12 +383,17 @@ jobs:
     if: always() && inputs.dry_run != true
     # As above: room for the dispatched Prelaunch Validation run this job waits
     # on before its PR can merge.
-    timeout-minutes: 35
+    timeout-minutes: 49
     steps:
       - name: Checkout
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
+
+      - name: Wait for older shared-data writer runs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/wait-for-writer-lanes.mjs
 
       - name: Setup Node.js
         uses: actions/setup-node@v5

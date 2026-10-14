@@ -86,7 +86,6 @@ const ACTIVE_STATUSES = ["in_progress", "queued", "pending"];
 export const SHARED_WRITER_GROUPS = {
   "tm-new-shows-pr.yml": "tm-new-shows-pr",
   "tm-data-refresh-pr.yml": "tm-data-refresh-pr",
-  "impact-marketplace-provider-sync.yml": "impact-marketplace-provider-sync",
   "auto-promote.yml": "auto-promote",
   "autopublish-health.yml": "autopublish-health",
   "work-queue-repair.yml": "work-queue-repair",
@@ -322,6 +321,17 @@ async function selfTest() {
   }
   const derived = Object.keys(workflows).filter((f) => writes(workflows[f])).sort();
   assert.deepEqual(derived, [...WRITER_LANES].sort(), "WRITER_LANES must list exactly the workflows that commit events or shared status data");
+  assert.equal(workflows["impact-marketplace-provider-sync.yml"].concurrency, undefined,
+    "Impact's three provider runs must not share GitHub's single pending slot");
+  const impactRuns = [60, 61, 62].map((id, index) => run(id, "impact-marketplace-provider-sync.yml", `2026-10-14T0${6 + (index === 2 ? 1 : 0)}:${index === 1 ? "30" : "00"}:00Z`, "queued"));
+  assert.deepEqual(findBlockers({ runs: impactRuns, self: impactRuns[0] }), []);
+  assert.deepEqual(findBlockers({ runs: impactRuns, self: impactRuns[1] }).map((r) => r.id), [60]);
+  assert.deepEqual(findBlockers({ runs: impactRuns, self: impactRuns[2] }).map((r) => r.id), [60, 61]);
+  impactRuns[0].status = "completed";
+  assert.deepEqual(findBlockers({ runs: impactRuns, self: impactRuns[1] }), []);
+  assert.deepEqual(findBlockers({ runs: impactRuns, self: impactRuns[2] }).map((r) => r.id), [61]);
+  impactRuns[1].status = "completed";
+  assert.deepEqual(findBlockers({ runs: impactRuns, self: impactRuns[2] }), []);
   for (const file of WAITING_LANES) {
     assert(WRITER_LANES.includes(file), `${file}: a waiting lane must also be a writer`);
     const jobs = Object.values(workflows[file].jobs).filter((job) => writes({ jobs: { job } }));

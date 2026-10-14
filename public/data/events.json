@@ -246179,5 +246179,3980 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8237289/Lionel-Richie-tickets-Sat-Jan-30-2027-Lucas-Oil-Live-At-WinStar-Casino"
+  },
+  {
+    "id": "tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdlk3fc",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth, Wind & Fire",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Venetian Theatre at The Venetian Resort",
+    "datetime_iso": "2026-10-17T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006465DF19250E",
+    "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-16-2026/event/17006465DF19250E",
+    "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-16-8-30-pm/concert/18138584",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-16-2026/event/17006465DF19250E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006465DF19250E",
+        "discovery_event_id": "1A9ZkoPGkdLk3fC",
+        "url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-16-2026/event/17006465DF19250E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9ZkoPGkdLk3fC",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdl6xfl",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth, Wind & Fire",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Venetian Theatre at The Venetian Resort",
+    "datetime_iso": "2026-10-18T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006465DF1E251F",
+    "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-17-2026/event/17006465DF1E251F",
+    "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-17-8-30-pm/concert/18138586",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-17-2026/event/17006465DF1E251F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006465DF1E251F",
+        "discovery_event_id": "1A9ZkoPGkdL6xfL",
+        "url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-17-2026/event/17006465DF1E251F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9ZkoPGkdL6xfL",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdlfwft",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth, Wind & Fire",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Venetian Theatre at The Venetian Resort",
+    "datetime_iso": "2026-10-19T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006465DF232529",
+    "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-18-2026/event/17006465DF232529",
+    "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-18-8-30-pm/concert/18138583",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-18-2026/event/17006465DF232529",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006465DF232529",
+        "discovery_event_id": "1A9ZkoPGkdLFwft",
+        "url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-18-2026/event/17006465DF232529",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9ZkoPGkdLFwft",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdlawfd",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth, Wind & Fire",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Venetian Theatre at The Venetian Resort",
+    "datetime_iso": "2026-10-22T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006465DF27253B",
+    "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-21-2026/event/17006465DF27253B",
+    "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-21-8-30-pm/concert/18138582",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-21-2026/event/17006465DF27253B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006465DF27253B",
+        "discovery_event_id": "1A9ZkoPGkdLawfD",
+        "url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-21-2026/event/17006465DF27253B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9ZkoPGkdLawfD",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdl5e46",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth, Wind & Fire",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Venetian Theatre at The Venetian Resort",
+    "datetime_iso": "2026-10-24T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006465DF2C2547",
+    "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-23-2026/event/17006465DF2C2547",
+    "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-23-8-30-pm/concert/18138585",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-23-2026/event/17006465DF2C2547",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006465DF2C2547",
+        "discovery_event_id": "1A9ZkoPGkdL5e46",
+        "url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-23-2026/event/17006465DF2C2547",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9ZkoPGkdL5e46",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdlge4b",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth, Wind & Fire",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Venetian Theatre at The Venetian Resort",
+    "datetime_iso": "2026-10-25T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006465DF302558",
+    "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-24-2026/event/17006465DF302558",
+    "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-24-8-30-pm/concert/18138587",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-24-2026/event/17006465DF302558",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006465DF302558",
+        "discovery_event_id": "1A9ZkoPGkdLGe4b",
+        "url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-24-2026/event/17006465DF302558",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9ZkoPGkdLGe4b",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdlu34n",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth, Wind & Fire",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Venetian Theatre at The Venetian Resort",
+    "datetime_iso": "2026-10-29T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006465DF352563",
+    "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-28-2026/event/17006465DF352563",
+    "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-28-8-30-pm/concert/18138592",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-28-2026/event/17006465DF352563",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006465DF352563",
+        "discovery_event_id": "1A9ZkoPGkdLu34N",
+        "url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-28-2026/event/17006465DF352563",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9ZkoPGkdLu34N",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdlc34z",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth, Wind & Fire",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Venetian Theatre at The Venetian Resort",
+    "datetime_iso": "2026-10-31T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006465DF392578",
+    "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-30-2026/event/17006465DF392578",
+    "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-30-8-30-pm/concert/18138594",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-30-2026/event/17006465DF392578",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006465DF392578",
+        "discovery_event_id": "1A9ZkoPGkdLC34z",
+        "url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-30-2026/event/17006465DF392578",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9ZkoPGkdLC34z",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdl23po",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth, Wind & Fire",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Venetian Theatre at The Venetian Resort",
+    "datetime_iso": "2026-11-01T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006465DF3D2591",
+    "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-31-2026/event/17006465DF3D2591",
+    "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-31-8-30-pm/concert/18138595",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-31-2026/event/17006465DF3D2591",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006465DF3D2591",
+        "discovery_event_id": "1A9ZkoPGkdL23po",
+        "url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-31-2026/event/17006465DF3D2591",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9ZkoPGkdL23po",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-earth-wind-fire-2026-atlantic-city-vv1aezkfagkd-8nc-",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth, Wind & Fire",
+    "city": "Atlantic City",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live at Etess Arena",
+    "datetime_iso": "2026-12-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006505E1423B61",
+    "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-atlantic-city-new-jersey-12-11-2026/event/02006505E1423B61",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/earth-wind-fire-atlantic-city-new-jersey-12-11-2026/event/02006505E1423B61",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006505E1423B61",
+        "discovery_event_id": "vv1AeZkfAGkd-8Nc-",
+        "url": "https://www.ticketmaster.com/earth-wind-fire-atlantic-city-new-jersey-12-11-2026/event/02006505E1423B61",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkfAGkd-8Nc-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-earth-wind-fire-2026-atlantic-city-vv1aezkfagkd-okcm",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth, Wind & Fire",
+    "city": "Atlantic City",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live at Etess Arena",
+    "datetime_iso": "2026-12-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006505E1453B6E",
+    "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-atlantic-city-new-jersey-12-12-2026/event/02006505E1453B6E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/earth-wind-fire-atlantic-city-new-jersey-12-12-2026/event/02006505E1453B6E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006505E1453B6E",
+        "discovery_event_id": "vv1AeZkfAGkd-oKcm",
+        "url": "https://www.ticketmaster.com/earth-wind-fire-atlantic-city-new-jersey-12-12-2026/event/02006505E1453B6E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkfAGkd-oKcm",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-earth-wind-fire-2027-thackerville-z7r9jz1aazwqd",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth Wind & Fire",
+    "city": "Thackerville",
+    "country": "United States Of America",
+    "venue": "Lucas Oil Live at WinStar World Casino",
+    "datetime_iso": "2027-01-01T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZwqd",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwqd",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwqd",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZwqd",
+        "discovery_event_id": "Z7r9jZ1AAZwqd",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwqd",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZwqd",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-earth-wind-fire-2027-west-palm-beach-z7r9jz1aaea-g",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth Wind & Fire",
+    "city": "West Palm Beach",
+    "country": "United States Of America",
+    "venue": "Kravis Center - Dreyfoos Hall",
+    "datetime_iso": "2027-03-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAea-g",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAea-g",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAea-g",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAea-g",
+        "discovery_event_id": "Z7r9jZ1AAea-g",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAea-g",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAea-g",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-earth-wind-fire-2027-brandon-g5viz_kuehuto",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth, Wind & Fire",
+    "city": "Brandon",
+    "country": "United States Of America",
+    "venue": "Brandon Amphitheater",
+    "datetime_iso": "2027-04-18T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00653DA76CDFE0",
+    "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-brandon-mississippi-04-17-2027/event/1B00653DA76CDFE0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/earth-wind-fire-brandon-mississippi-04-17-2027/event/1B00653DA76CDFE0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00653DA76CDFE0",
+        "discovery_event_id": "G5viZ_KUEhuTO",
+        "url": "https://www.ticketmaster.com/earth-wind-fire-brandon-mississippi-04-17-2027/event/1B00653DA76CDFE0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_KUEhuTO",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-earth-wind-fire-2027-southaven-g5viz_f7otpyl",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth, Wind & Fire",
+    "city": "Southaven",
+    "country": "United States Of America",
+    "venue": "BankPlus Amphitheater at Snowden Grove",
+    "datetime_iso": "2027-04-21T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00654111A56E6B",
+    "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-southaven-mississippi-04-20-2027/event/1B00654111A56E6B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/earth-wind-fire-southaven-mississippi-04-20-2027/event/1B00654111A56E6B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00654111A56E6B",
+        "discovery_event_id": "G5viZ_f7otpyl",
+        "url": "https://www.ticketmaster.com/earth-wind-fire-southaven-mississippi-04-20-2027/event/1B00654111A56E6B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_f7otpyl",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-earth-wind-fire-2027-huntsville-z7r9jz1aaeb18",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth Wind & Fire",
+    "city": "Huntsville",
+    "country": "United States Of America",
+    "venue": "Orion Amphitheater",
+    "datetime_iso": "2027-04-22T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeb18",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb18",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb18",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeb18",
+        "discovery_event_id": "Z7r9jZ1AAeb18",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb18",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeb18",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-earth-wind-fire-2027-atlanta-vvg1zz_33xgiy_",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth, Wind & Fire",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Synovus Bank Amphitheater at Chastain Park",
+    "datetime_iso": "2027-04-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006524BE32CE59",
+    "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-atlanta-georgia-04-23-2027/event/0E006524BE32CE59",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/earth-wind-fire-atlanta-georgia-04-23-2027/event/0E006524BE32CE59",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006524BE32CE59",
+        "discovery_event_id": "vvG1zZ_33XGiy_",
+        "url": "https://www.ticketmaster.com/earth-wind-fire-atlanta-georgia-04-23-2027/event/0E006524BE32CE59",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_33XGiy_",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-earth-wind-fire-2027-savannah-vvg1zz_3cl5hyq",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "An Evening with Earth, Wind & Fire",
+    "city": "Savannah",
+    "country": "United States Of America",
+    "venue": "Enmarket Arena",
+    "datetime_iso": "2027-04-24T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006523AB2DBC1D",
+    "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-earth-wind-fire-savannah-georgia-04-24-2027/event/0E006523AB2DBC1D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/an-evening-with-earth-wind-fire-savannah-georgia-04-24-2027/event/0E006523AB2DBC1D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006523AB2DBC1D",
+        "discovery_event_id": "vvG1zZ_3Cl5hYq",
+        "url": "https://www.ticketmaster.com/an-evening-with-earth-wind-fire-savannah-georgia-04-24-2027/event/0E006523AB2DBC1D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_3Cl5hYq",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-earth-wind-fire-2027-columbia-g5evz_kl2875x",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "An Evening with Earth, Wind & Fire",
+    "city": "Columbia",
+    "country": "United States Of America",
+    "venue": "Township Auditorium",
+    "datetime_iso": "2027-04-27T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006537CF4042FE",
+    "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-earth-wind-fire-columbia-south-carolina-04-27-2027/event/2D006537CF4042FE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/an-evening-with-earth-wind-fire-columbia-south-carolina-04-27-2027/event/2D006537CF4042FE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006537CF4042FE",
+        "discovery_event_id": "G5eVZ_KL2875X",
+        "url": "https://www.ticketmaster.com/an-evening-with-earth-wind-fire-columbia-south-carolina-04-27-2027/event/2D006537CF4042FE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_KL2875X",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-earth-wind-fire-2027-knoxville-g5viz_35urusm",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth, Wind & Fire",
+    "city": "Knoxville",
+    "country": "United States Of America",
+    "venue": "Tennessee Theatre",
+    "datetime_iso": "2027-04-28T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006522CD78DCF7",
+    "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-knoxville-tennessee-04-28-2027/event/1B006522CD78DCF7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/earth-wind-fire-knoxville-tennessee-04-28-2027/event/1B006522CD78DCF7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006522CD78DCF7",
+        "discovery_event_id": "G5viZ_35uruSM",
+        "url": "https://www.ticketmaster.com/earth-wind-fire-knoxville-tennessee-04-28-2027/event/1B006522CD78DCF7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_35uruSM",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-earth-wind-fire-2027-charlotte-g5evz_kmaoltm",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth, Wind & Fire",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Skyla Credit Union Amphitheatre",
+    "datetime_iso": "2027-05-01T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00653DC545FA77",
+    "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-charlotte-north-carolina-04-30-2027/event/2D00653DC545FA77",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/earth-wind-fire-charlotte-north-carolina-04-30-2027/event/2D00653DC545FA77",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00653DC545FA77",
+        "discovery_event_id": "G5eVZ_KMAoLtM",
+        "url": "https://www.ticketmaster.com/earth-wind-fire-charlotte-north-carolina-04-30-2027/event/2D00653DC545FA77",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_KMAoLtM",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-earth-wind-fire-2027-durham-g5evz_f5p7r9-",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth, Wind & Fire",
+    "city": "Durham",
+    "country": "United States Of America",
+    "venue": "DPAC",
+    "datetime_iso": "2027-05-02T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006542D612F5E1",
+    "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-durham-north-carolina-05-01-2027/event/2D006542D612F5E1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/earth-wind-fire-durham-north-carolina-05-01-2027/event/2D006542D612F5E1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006542D612F5E1",
+        "discovery_event_id": "G5eVZ_f5p7R9-",
+        "url": "https://www.ticketmaster.com/earth-wind-fire-durham-north-carolina-05-01-2027/event/2D006542D612F5E1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_f5p7R9-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2026-las-vegas-17ayv0g6ck11zds",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2026-11-05T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064E18A2B80F1",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-04-2026/event/170064E18A2B80F1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-04-2026/event/170064E18A2B80F1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064E18A2B80F1",
+        "discovery_event_id": "17AYv0G6Ck11zds",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-04-2026/event/170064E18A2B80F1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G6Ck11zds",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2026-las-vegas-17ayv0g6ck1gfdb",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2026-11-06T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064E18A3080FA",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-05-2026/event/170064E18A3080FA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-05-2026/event/170064E18A3080FA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064E18A3080FA",
+        "discovery_event_id": "17AYv0G6Ck1GFdB",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-05-2026/event/170064E18A3080FA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G6Ck1GFdB",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2026-las-vegas-17ayv0g6ck1ub7d",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2026-11-08T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064E18A358103",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-07-2026/event/170064E18A358103",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-07-2026/event/170064E18A358103",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064E18A358103",
+        "discovery_event_id": "17AYv0G6Ck1ub7d",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-07-2026/event/170064E18A358103",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G6Ck1ub7d",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2026-las-vegas-17ayv0g6ck1cz73",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2026-11-09T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064E18A3B8112",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-08-2026/event/170064E18A3B8112",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-08-2026/event/170064E18A3B8112",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064E18A3B8112",
+        "discovery_event_id": "17AYv0G6Ck1Cz73",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-08-2026/event/170064E18A3B8112",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G6Ck1Cz73",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2026-las-vegas-17ayv0g6ck18f79",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2026-11-12T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064E18A408117",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-11-2026/event/170064E18A408117",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-11-2026/event/170064E18A408117",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064E18A408117",
+        "discovery_event_id": "17AYv0G6Ck18F79",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-11-2026/event/170064E18A408117",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G6Ck18F79",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2026-las-vegas-17ayv0g6ck1oi7r",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2026-11-13T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064E18A46811E",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-12-2026/event/170064E18A46811E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-12-2026/event/170064E18A46811E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064E18A46811E",
+        "discovery_event_id": "17AYv0G6Ck1oI7r",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-12-2026/event/170064E18A46811E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G6Ck1oI7r",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2026-las-vegas-17ayv0g6ck13z7p",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2026-11-15T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064E18A4B8125",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-14-2026/event/170064E18A4B8125",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-14-2026/event/170064E18A4B8125",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064E18A4B8125",
+        "discovery_event_id": "17AYv0G6Ck13z7P",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-14-2026/event/170064E18A4B8125",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G6Ck13z7P",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2026-las-vegas-17ayv0g6ck1fb7i",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2026-11-16T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064E18A51812C",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-15-2026/event/170064E18A51812C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-15-2026/event/170064E18A51812C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064E18A51812C",
+        "discovery_event_id": "17AYv0G6Ck1fb7i",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-15-2026/event/170064E18A51812C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G6Ck1fb7i",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2027-las-vegas-1kayvpa0gau5vmo",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2027-01-21T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065264D2C1DD1",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-20-2027/event/170065264D2C1DD1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-20-2027/event/170065264D2C1DD1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065264D2C1DD1",
+        "discovery_event_id": "1kAYvPa0GAu5vMo",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-20-2027/event/170065264D2C1DD1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvPa0GAu5vMo",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2027-las-vegas-1kayvpa0gaugomb",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2027-01-22T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065264D311DFA",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-21-2027/event/170065264D311DFA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-21-2027/event/170065264D311DFA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065264D311DFA",
+        "discovery_event_id": "1kAYvPa0GAuGoMB",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-21-2027/event/170065264D311DFA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvPa0GAuGoMB",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2027-las-vegas-1kayvpa0gauu-zk",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2027-01-24T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065264D361E06",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-23-2027/event/170065264D361E06",
+    "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-01-23-7-pm/concert/18628821",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-23-2027/event/170065264D361E06",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065264D361E06",
+        "discovery_event_id": "1kAYvPa0GAuu-zk",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-23-2027/event/170065264D361E06",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvPa0GAuu-zk",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2027-las-vegas-1kayvpa0gaucsz4",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2027-01-25T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065264D3B1E15",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-24-2027/event/170065264D3B1E15",
+    "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-01-24-7-pm/concert/18628822",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-24-2027/event/170065264D3B1E15",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065264D3B1E15",
+        "discovery_event_id": "1kAYvPa0GAuCsz4",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-24-2027/event/170065264D3B1E15",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvPa0GAuCsz4",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2027-las-vegas-1kayvpa0gau8vze",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2027-01-28T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065264D401E27",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-27-2027/event/170065264D401E27",
+    "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-01-27-7-pm/concert/18628823",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-27-2027/event/170065264D401E27",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065264D401E27",
+        "discovery_event_id": "1kAYvPa0GAu8vzE",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-27-2027/event/170065264D401E27",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvPa0GAu8vzE",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2027-las-vegas-1kayvpa0gauoozw",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2027-01-29T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065264D451E32",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-28-2027/event/170065264D451E32",
+    "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-01-28-7-pm/concert/18628824",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-28-2027/event/170065264D451E32",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065264D451E32",
+        "discovery_event_id": "1kAYvPa0GAuoozw",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-28-2027/event/170065264D451E32",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvPa0GAuoozw",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2027-las-vegas-1kayvpa0gau3-y4",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2027-01-31T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065264D4A1E55",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-30-2027/event/170065264D4A1E55",
+    "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-01-30-7-pm/concert/18628831",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-30-2027/event/170065264D4A1E55",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065264D4A1E55",
+        "discovery_event_id": "1kAYvPa0GAu3-y4",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-30-2027/event/170065264D4A1E55",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvPa0GAu3-y4",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2027-las-vegas-1kayvpa0gauksyx",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2027-02-01T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065264D4F1E62",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-31-2027/event/170065264D4F1E62",
+    "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-01-31-7-pm/concert/18628832",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-31-2027/event/170065264D4F1E62",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065264D4F1E62",
+        "discovery_event_id": "1kAYvPa0GAuKsyx",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-31-2027/event/170065264D4F1E62",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvPa0GAuKsyx",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2027-las-vegas-1kayvpa0gau4vyt",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2027-05-13T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065264D541E69",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-12-2027/event/170065264D541E69",
+    "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-05-12-7-pm/concert/18628833",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-12-2027/event/170065264D541E69",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065264D541E69",
+        "discovery_event_id": "1kAYvPa0GAu4vyt",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-12-2027/event/170065264D541E69",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvPa0GAu4vyt",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2027-las-vegas-1kayvpa0gaupoyr",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2027-05-14T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065264D591E6F",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-13-2027/event/170065264D591E6F",
+    "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-05-13-7-pm/concert/18628834",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-13-2027/event/170065264D591E6F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065264D591E6F",
+        "discovery_event_id": "1kAYvPa0GAupoyR",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-13-2027/event/170065264D591E6F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvPa0GAupoyR",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2027-las-vegas-1kayvpa0gau9-ys",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2027-05-16T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065264D5E1E73",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-15-2027/event/170065264D5E1E73",
+    "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-05-15-7-pm/concert/18628836",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-15-2027/event/170065264D5E1E73",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065264D5E1E73",
+        "discovery_event_id": "1kAYvPa0GAu9-yS",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-15-2027/event/170065264D5E1E73",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvPa0GAu9-yS",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2027-las-vegas-1kayvpa0gaubsyw",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2027-05-17T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065264D631E7D",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-16-2027/event/170065264D631E7D",
+    "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-05-16-7-pm/concert/18628837",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-16-2027/event/170065264D631E7D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065264D631E7D",
+        "discovery_event_id": "1kAYvPa0GAubsyW",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-16-2027/event/170065264D631E7D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvPa0GAubsyW",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2027-las-vegas-1kayvpa0gauq-b9",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2027-05-20T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065264D6A1E97",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-19-2027/event/170065264D6A1E97",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-19-2027/event/170065264D6A1E97",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065264D6A1E97",
+        "discovery_event_id": "1kAYvPa0GAuQ-B9",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-19-2027/event/170065264D6A1E97",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvPa0GAuQ-B9",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2027-las-vegas-1kayvpa0gaujvbi",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2027-05-21T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065264D701EAC",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-20-2027/event/170065264D701EAC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-20-2027/event/170065264D701EAC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065264D701EAC",
+        "discovery_event_id": "1kAYvPa0GAujvBi",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-20-2027/event/170065264D701EAC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvPa0GAujvBi",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2027-las-vegas-1kayvpa0gauq-bb",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2027-05-23T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065264D761EBA",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-22-2027/event/170065264D761EBA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-22-2027/event/170065264D761EBA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065264D761EBA",
+        "discovery_event_id": "1kAYvPa0GAuq-BB",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-22-2027/event/170065264D761EBA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvPa0GAuq-BB",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2027-las-vegas-1kayvpa0gaursdv",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "SiriusXM Presents An Intimate Evening with SANTANA Greatest Hits Live",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2027-05-24T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065264D7B1EC1",
+    "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-23-2027/event/170065264D7B1EC1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-23-2027/event/170065264D7B1EC1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065264D7B1EC1",
+        "discovery_event_id": "1kAYvPa0GAursDv",
+        "url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-23-2027/event/170065264D7B1EC1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvPa0GAursDv",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-minds-2027-auckland-17azv0g6g9-xfc0",
+    "artist_slug": "simple-minds",
+    "artist_name": "Simple Minds",
+    "event_name": "Simple Minds",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Spark Arena",
+    "datetime_iso": "2027-02-25T05:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "240064C5E1894B64",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/simple-minds-auckland-25-02-2027/event/240064C5E1894B64",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/simple-minds-auckland-25-02-2027/event/240064C5E1894B64",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "240064C5E1894B64",
+        "discovery_event_id": "17aZv0G6G9-xfc0",
+        "url": "https://www.ticketmaster.co.nz/simple-minds-auckland-25-02-2027/event/240064C5E1894B64",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17aZv0G6G9-xfc0",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-minds-2027-wellington-17azv0g6gjon-by",
+    "artist_slug": "simple-minds",
+    "artist_name": "Simple Minds",
+    "event_name": "Simple Minds",
+    "city": "Wellington",
+    "country": "New Zealand",
+    "venue": "TSB Arena",
+    "datetime_iso": "2027-02-27T05:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "240064C991AA1639",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/simple-minds-wellington-27-02-2027/event/240064C991AA1639",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/simple-minds-wellington-27-02-2027/event/240064C991AA1639",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "240064C991AA1639",
+        "discovery_event_id": "17aZv0G6GJon-by",
+        "url": "https://www.ticketmaster.co.nz/simple-minds-wellington-27-02-2027/event/240064C991AA1639",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17aZv0G6GJon-by",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-minds-2027-christchurch-17azv0g6gjwt3e9",
+    "artist_slug": "simple-minds",
+    "artist_name": "Simple Minds",
+    "event_name": "Simple Minds",
+    "city": "Christchurch",
+    "country": "New Zealand",
+    "venue": "Wolfbrook Arena",
+    "datetime_iso": "2027-03-01T06:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "240064C9B2FD29D7",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/simple-minds-christchurch-01-03-2027/event/240064C9B2FD29D7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/simple-minds-christchurch-01-03-2027/event/240064C9B2FD29D7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "240064C9B2FD29D7",
+        "discovery_event_id": "17aZv0G6GJwT3E9",
+        "url": "https://www.ticketmaster.co.nz/simple-minds-christchurch-01-03-2027/event/240064C9B2FD29D7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17aZv0G6GJwT3E9",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-minds-2027-assago-zg9rmiynyzdf1v",
+    "artist_slug": "simple-minds",
+    "artist_name": "Simple Minds",
+    "event_name": "SIMPLE MINDS",
+    "city": "Assago",
+    "country": "Italy",
+    "venue": "Unipol Forum",
+    "datetime_iso": "2027-04-16T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "pwaco2rhpt0w",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/simple-minds-assago-16-04-2027/event/pwaco2rhpt0w",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/simple-minds-assago-16-04-2027/event/pwaco2rhpt0w",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "pwaco2rhpt0w",
+        "discovery_event_id": "ZG9rmIYnyZdF1v",
+        "url": "https://www.ticketmaster.it/biglietti/simple-minds-assago-16-04-2027/event/pwaco2rhpt0w",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZdF1v",
+    "timezone": "Europe/Rome",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-minds-2027-casalecchio-di-reno-bologna-zg9rmiynyzdfaa",
+    "artist_slug": "simple-minds",
+    "artist_name": "Simple Minds",
+    "event_name": "SIMPLE MINDS",
+    "city": "Casalecchio di Reno (Bologna)",
+    "country": "Italy",
+    "venue": "Unipol Arena",
+    "datetime_iso": "2027-04-17T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "v5y2m3rak98m",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/simple-minds-casalecchio-di-reno-bologna-17-04-2027/event/v5y2m3rak98m",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/simple-minds-casalecchio-di-reno-bologna-17-04-2027/event/v5y2m3rak98m",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "v5y2m3rak98m",
+        "discovery_event_id": "ZG9rmIYnyZdFaa",
+        "url": "https://www.ticketmaster.it/biglietti/simple-minds-casalecchio-di-reno-bologna-17-04-2027/event/v5y2m3rak98m",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZdFaa",
+    "timezone": "Europe/Rome",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-minds-2027-munich-z698xzc2z16vqkpa7j",
+    "artist_slug": "simple-minds",
+    "artist_name": "Simple Minds",
+    "event_name": "Simple Minds - European Tour - Live 2027",
+    "city": "Munich",
+    "country": "Germany",
+    "venue": "Olympiahalle",
+    "datetime_iso": "2027-04-20T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1693585126",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/simple-minds-european-tour-live-2027-tickets/1693585126?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/simple-minds-european-tour-live-2027-tickets/1693585126?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1693585126",
+        "discovery_event_id": "Z698xZC2Z16vQKpA7J",
+        "url": "https://www.ticketmaster.de/event/simple-minds-european-tour-live-2027-tickets/1693585126?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vQKpA7J",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-minds-2027-berlin-z698xzc2z1kbdpf-d",
+    "artist_slug": "simple-minds",
+    "artist_name": "Simple Minds",
+    "event_name": "Simple Minds - European Tour - Live 2027",
+    "city": "Berlin",
+    "country": "Germany",
+    "venue": "Uber Arena",
+    "datetime_iso": "2027-04-21T17:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "603594843",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/simple-minds-european-tour-live-2027-tickets/603594843?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/simple-minds-european-tour-live-2027-tickets/603594843?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "603594843",
+        "discovery_event_id": "Z698xZC2Z1kbdpf-d",
+        "url": "https://www.ticketmaster.de/event/simple-minds-european-tour-live-2027-tickets/603594843?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1kbdpf-d",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-minds-2027-hamburg-z698xzc2z1k0n7tj3",
+    "artist_slug": "simple-minds",
+    "artist_name": "Simple Minds",
+    "event_name": "Simple Minds - European Tour - Live 2027",
+    "city": "Hamburg",
+    "country": "Germany",
+    "venue": "Barclays Arena",
+    "datetime_iso": "2027-04-27T17:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "923129992",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/simple-minds-european-tour-live-2027-tickets/923129992?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/simple-minds-european-tour-live-2027-tickets/923129992?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "923129992",
+        "discovery_event_id": "Z698xZC2Z1k0N7tJ3",
+        "url": "https://www.ticketmaster.de/event/simple-minds-european-tour-live-2027-tickets/923129992?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1k0N7tJ3",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-minds-2027-amsterdam-z698xzbpz16v_t_v7k",
+    "artist_slug": "simple-minds",
+    "artist_name": "Simple Minds",
+    "event_name": "Simple Minds - V Tour 2027",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-04-30T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1669641106",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/simple-minds-v-tour-2027-tickets/1669641106?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/simple-minds-v-tour-2027-tickets/1669641106?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1669641106",
+        "discovery_event_id": "Z698xZbpZ16v_t_v7k",
+        "url": "https://www.ticketmaster.nl/event/simple-minds-v-tour-2027-tickets/1669641106?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16v_t_v7k",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-minds-2027-amsterdam-z698xzbpz1k8banaf",
+    "artist_slug": "simple-minds",
+    "artist_name": "Simple Minds",
+    "event_name": "Simple Minds - V Tour 2027",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-05-01T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "418263154",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/simple-minds-v-tour-2027-tickets/418263154?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/simple-minds-v-tour-2027-tickets/418263154?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "418263154",
+        "discovery_event_id": "Z698xZbpZ1k8baNAf",
+        "url": "https://www.ticketmaster.nl/event/simple-minds-v-tour-2027-tickets/418263154?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1k8baNAf",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-minds-2027-london-16dfz_313g7wgmr",
+    "artist_slug": "simple-minds",
+    "artist_name": "Simple Minds",
+    "event_name": "Simple Minds",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-05-06T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500652292F75B9E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/simple-minds-london-06-05-2027/event/3500652292F75B9E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/simple-minds-london-06-05-2027/event/3500652292F75B9E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500652292F75B9E",
+        "discovery_event_id": "16dfZ_313G7Wgmr",
+        "url": "https://www.ticketmaster.co.uk/simple-minds-london-06-05-2027/event/3500652292F75B9E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16dfZ_313G7Wgmr",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-minds-2027-manchester-1amzkfxgkdzwjhm",
+    "artist_slug": "simple-minds",
+    "artist_name": "Simple Minds",
+    "event_name": "Simple Minds",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-05-07T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006522C0F666EE",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/simple-minds-manchester-07-05-2027/event/37006522C0F666EE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/simple-minds-manchester-07-05-2027/event/37006522C0F666EE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006522C0F666EE",
+        "discovery_event_id": "1AMZkfxGkdZWJhm",
+        "url": "https://www.ticketmaster.co.uk/simple-minds-manchester-07-05-2027/event/37006522C0F666EE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZkfxGkdZWJhm",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-minds-2027-birmingham-1aegz_31ka4zdg5d",
+    "artist_slug": "simple-minds",
+    "artist_name": "Simple Minds",
+    "event_name": "Simple Minds",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Birmingham",
+    "datetime_iso": "2027-05-08T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2300652293155BA2",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/simple-minds-birmingham-08-05-2027/event/2300652293155BA2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/simple-minds-birmingham-08-05-2027/event/2300652293155BA2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2300652293155BA2",
+        "discovery_event_id": "1aeGZ_31KA4ZdG5d",
+        "url": "https://www.ticketmaster.co.uk/simple-minds-birmingham-08-05-2027/event/2300652293155BA2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1aeGZ_31KA4ZdG5d",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-minds-2027-nottingham-1adfz_31k14zduv5",
+    "artist_slug": "simple-minds",
+    "artist_name": "Simple Minds",
+    "event_name": "Simple Minds",
+    "city": "Nottingham",
+    "country": "Great Britain",
+    "venue": "Motorpoint Arena Nottingham",
+    "datetime_iso": "2027-05-10T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500652293295C0A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/simple-minds-nottingham-10-05-2027/event/3500652293295C0A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/simple-minds-nottingham-10-05-2027/event/3500652293295C0A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500652293295C0A",
+        "discovery_event_id": "1adfZ_31K14Zduv5",
+        "url": "https://www.ticketmaster.co.uk/simple-minds-nottingham-10-05-2027/event/3500652293295C0A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1adfZ_31K14Zduv5",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-minds-2027-leeds-g5vhz_31k8si9",
+    "artist_slug": "simple-minds",
+    "artist_name": "Simple Minds",
+    "event_name": "Simple Minds",
+    "city": "Leeds",
+    "country": "Great Britain",
+    "venue": "Leeds First Direct Bank Arena",
+    "datetime_iso": "2027-05-11T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00652293431A17",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/simple-minds-leeds-11-05-2027/event/1F00652293431A17",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/simple-minds-leeds-11-05-2027/event/1F00652293431A17",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00652293431A17",
+        "discovery_event_id": "G5vHZ_31K8sI9",
+        "url": "https://www.ticketmaster.co.uk/simple-minds-leeds-11-05-2027/event/1F00652293431A17",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_31K8sI9",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-minds-2027-newcastle-upon-tyne-g5vhz_31k4viz",
+    "artist_slug": "simple-minds",
+    "artist_name": "Simple Minds",
+    "event_name": "Simple Minds",
+    "city": "Newcastle Upon Tyne",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Newcastle",
+    "datetime_iso": "2027-05-13T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00652293541A38",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/simple-minds-newcastle-upon-tyne-13-05-2027/event/1F00652293541A38",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/simple-minds-newcastle-upon-tyne-13-05-2027/event/1F00652293541A38",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00652293541A38",
+        "discovery_event_id": "G5vHZ_31K4vIz",
+        "url": "https://www.ticketmaster.co.uk/simple-minds-newcastle-upon-tyne-13-05-2027/event/1F00652293541A38",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_31K4vIz",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-minds-2027-glasgow-1auzkfxgkd0xdr8",
+    "artist_slug": "simple-minds",
+    "artist_name": "Simple Minds",
+    "event_name": "Simple Minds",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-05-14T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006522E48BBBD0",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/simple-minds-glasgow-14-05-2027/event/36006522E48BBBD0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/simple-minds-glasgow-14-05-2027/event/36006522E48BBBD0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006522E48BBBD0",
+        "discovery_event_id": "1AUZkfxGkd0xDR8",
+        "url": "https://www.ticketmaster.co.uk/simple-minds-glasgow-14-05-2027/event/36006522E48BBBD0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkfxGkd0xDR8",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-minds-2027-dublin-1kkzvpk_ga2vkuc",
+    "artist_slug": "simple-minds",
+    "artist_name": "Simple Minds",
+    "event_name": "Simple Minds",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-05-17T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180065199F046D8E",
+    "ticketmaster_url": "https://www.ticketmaster.ie/simple-minds-dublin-17-05-2027/event/180065199F046D8E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/simple-minds-dublin-17-05-2027/event/180065199F046D8E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180065199F046D8E",
+        "discovery_event_id": "1kkZvPk_GA2vkUC",
+        "url": "https://www.ticketmaster.ie/simple-minds-dublin-17-05-2027/event/180065199F046D8E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kkZvPk_GA2vkUC",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-madrid-z698xz2qz1kvp4xag",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Movistar Arena",
+    "datetime_iso": "2027-04-08T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "65562275",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/65562275?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/65562275?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "65562275",
+        "discovery_event_id": "Z698xZ2qZ1kvP4xag",
+        "url": "https://www.ticketmaster.es/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/65562275?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kvP4xag",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-valencia-z698xz2qz16vuf8kq4",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Valencia",
+    "country": "Spain",
+    "venue": "Roig Arena",
+    "datetime_iso": "2027-04-09T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1354406695",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1354406695?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1354406695?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1354406695",
+        "discovery_event_id": "Z698xZ2qZ16vuf8kQ4",
+        "url": "https://www.ticketmaster.es/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1354406695?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vuf8kQ4",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-assago-zg9rmiynyzeadk",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Assago",
+    "country": "Italy",
+    "venue": "Unipol Forum",
+    "datetime_iso": "2027-04-11T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "ffzf8mag7ggv",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/thirty-seconds-to-mars-assago-11-04-2027/event/ffzf8mag7ggv",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/thirty-seconds-to-mars-assago-11-04-2027/event/ffzf8mag7ggv",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "ffzf8mag7ggv",
+        "discovery_event_id": "ZG9rmIYnyZeAdk",
+        "url": "https://www.ticketmaster.it/biglietti/thirty-seconds-to-mars-assago-11-04-2027/event/ffzf8mag7ggv",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZeAdk",
+    "timezone": "Europe/Rome",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-munich-z698xzc2z16vfvofpp",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Munich",
+    "country": "Germany",
+    "venue": "Olympiahalle",
+    "datetime_iso": "2027-04-12T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1534454956",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1534454956?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1534454956?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1534454956",
+        "discovery_event_id": "Z698xZC2Z16vfVofPp",
+        "url": "https://www.ticketmaster.de/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1534454956?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vfVofPp",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-vienna-z698xz5rz1k-suw-g",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Vienna",
+    "country": "Austria",
+    "venue": "Wiener Stadthalle - Halle D",
+    "datetime_iso": "2027-04-14T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "873372875",
+    "ticketmaster_url": "https://www.ticketmaster.at/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/873372875?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.at/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/873372875?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "873372875",
+        "discovery_event_id": "Z698xZ5rZ1k-Suw-g",
+        "url": "https://www.ticketmaster.at/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/873372875?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ5rZ1k-Suw-g",
+    "timezone": "Europe/Vienna",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-krakow-z698xzqpz1ke8f3ad",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Krakow",
+    "country": "Poland",
+    "venue": "TAURON Arena Kraków",
+    "datetime_iso": "2027-04-15T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "90512143",
+    "ticketmaster_url": "https://www.ticketmaster.pl/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/90512143?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.pl/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/90512143?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "90512143",
+        "discovery_event_id": "Z698xZQpZ1ke8f3Ad",
+        "url": "https://www.ticketmaster.pl/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/90512143?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZQpZ1ke8f3Ad",
+    "timezone": "Europe/Warsaw",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-hannover-z698xzc2z16vqp_xfz",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Hannover",
+    "country": "Germany",
+    "venue": "ZAG Arena",
+    "datetime_iso": "2027-04-20T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1765662538",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1765662538?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1765662538?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1765662538",
+        "discovery_event_id": "Z698xZC2Z16vqP_xfz",
+        "url": "https://www.ticketmaster.de/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1765662538?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vqP_xfz",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-merksem-antwerpen-z698xzg2z1k-8asf4",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Merksem (Antwerpen)",
+    "country": "Belgium",
+    "venue": "Lotto Arena Antwerpen",
+    "datetime_iso": "2027-04-23T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "850171215",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/850171215",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/850171215",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "850171215",
+        "discovery_event_id": "Z698xZG2Z1k-8AsF4",
+        "url": "https://www.ticketmaster.be/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/850171215",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1k-8AsF4",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-london-1agzk3agkdevn9u",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-04-28T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006489E7D2A5CD",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-london-28-04-2027/event/35006489E7D2A5CD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-london-28-04-2027/event/35006489E7D2A5CD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006489E7D2A5CD",
+        "discovery_event_id": "1AgZk3aGkdEVn9u",
+        "url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-london-28-04-2027/event/35006489E7D2A5CD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk3aGkdEVn9u",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-manchester-1amzk3agkeyexfs",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-04-29T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006489B09E2233",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-manchester-29-04-2027/event/37006489B09E2233",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-manchester-29-04-2027/event/37006489B09E2233",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006489B09E2233",
+        "discovery_event_id": "1AMZk3aGkeYExFS",
+        "url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-manchester-29-04-2027/event/37006489B09E2233",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZk3aGkeYExFS",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-dublin-1abzk36gkeuawhf",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-05-01T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006487B617DF14",
+    "ticketmaster_url": "https://www.ticketmaster.ie/thirty-seconds-to-mars-presents-a-dublin-01-05-2027/event/18006487B617DF14",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/thirty-seconds-to-mars-presents-a-dublin-01-05-2027/event/18006487B617DF14",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006487B617DF14",
+        "discovery_event_id": "1AbZk36GkeUAWHf",
+        "url": "https://www.ticketmaster.ie/thirty-seconds-to-mars-presents-a-dublin-01-05-2027/event/18006487B617DF14",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZk36GkeUAWHf",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

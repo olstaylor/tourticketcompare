@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-13",
+  "updated_at": "2026-10-14",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -1393,6 +1393,72 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-10-13 (sanctioned path D): SeatGeek performer 2478 and Ticketmaster attraction K8vZ91715SV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "earth-wind-fire",
+      "ticketmaster_attraction_id": "K8vZ91711UV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/earth-wind-fire-tickets/artist/734980",
+      "seatgeek_performer_id": 56,
+      "seatgeek_artist_url": "https://seatgeek.com/earth-wind-fire-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-14 (sanctioned path D): SeatGeek performer 56 and Ticketmaster attraction K8vZ91711UV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "santana",
+      "ticketmaster_attraction_id": "K8vZ91718pf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/santana-tickets/artist/741473",
+      "seatgeek_performer_id": 1582,
+      "seatgeek_artist_url": "https://seatgeek.com/santana-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-14 (sanctioned path D): SeatGeek performer 1582 and Ticketmaster attraction K8vZ91718pf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "simple-minds",
+      "ticketmaster_attraction_id": "K8vZ91712mV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/simple-minds-tickets/artist/736120",
+      "seatgeek_performer_id": 8940,
+      "seatgeek_artist_url": "https://seatgeek.com/simple-minds-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-14 (sanctioned path D): SeatGeek performer 8940 and Ticketmaster attraction K8vZ91712mV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "thirty-seconds-to-mars",
+      "ticketmaster_attraction_id": "K8vZ9175GpV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/thirty-seconds-to-mars-tickets/artist/833240",
+      "seatgeek_performer_id": 2232,
+      "seatgeek_artist_url": "https://seatgeek.com/thirty-seconds-to-mars-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-14 (sanctioned path D): SeatGeek performer 2232 and Ticketmaster attraction K8vZ9175GpV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "stray-kids",
+      "ticketmaster_attraction_id": "K8vZ9179Vpf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/stray-kids-tickets/artist/2593788",
+      "seatgeek_performer_id": 703924,
+      "seatgeek_artist_url": "https://seatgeek.com/stray-kids-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-14 (sanctioned path D): SeatGeek performer 703924 and Ticketmaster attraction K8vZ9179Vpf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "kylie-minogue",
+      "ticketmaster_attraction_id": "K8vZ9175tSf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/kylie-minogue-tickets/artist/1055633",
+      "seatgeek_performer_id": 1076,
+      "seatgeek_artist_url": "https://seatgeek.com/kylie-minogue-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-14 (sanctioned path D): SeatGeek performer 1076 and Ticketmaster attraction K8vZ9175tSf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

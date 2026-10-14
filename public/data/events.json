@@ -35580,11 +35580,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7457660",
-        "url": "https://www.ticketliquidator.com/tickets/7457660/Doja-Cat-tickets-Tue-Oct-13-2026-Rogers-Arena",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkGyGkdOSIGy",
@@ -35592,7 +35592,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457660",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-tickets-vancouver-rogers-arena-10-13-2026/event/106969173",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457660/Doja-Cat-tickets-Tue-Oct-13-2026-Rogers-Arena"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-doja-cat-2026-seattle-vvg1hzbslq8got",
@@ -38013,18 +38013,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7874854",
-        "url": "https://www.ticketliquidator.com/tickets/7874854/sombr-tickets-Tue-Oct-13-2026-Pechanga-Arena-San-Diego",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8Gw",
     "status": "on-sale",
     "timezone": "America/Los_Angeles",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874854",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874854/sombr-tickets-Tue-Oct-13-2026-Pechanga-Arena-San-Diego"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-sombr-2026-glendale-z7r9jz1a7x8gy",
@@ -46630,11 +46630,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7883102",
-        "url": "https://www.ticketliquidator.com/tickets/7883102/Teddy-Swims-tickets-Tue-Oct-13-2026-Capital-One-Arena",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107154939",
@@ -46648,7 +46648,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883102",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883102/Teddy-Swims-tickets-Tue-Oct-13-2026-Capital-One-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-washington-tickets-10-13-2026/event/107154939"
   },
   {
@@ -50318,18 +50318,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7676519",
-        "url": "https://www.ticketliquidator.com/tickets/7676519/Five-Finger-Death-Punch-tickets-Tue-Oct-13-2026-Ameris-Bank-Amphitheatre",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_eQ2KN-d",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676519",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676519/Five-Finger-Death-Punch-tickets-Tue-Oct-13-2026-Ameris-Bank-Amphitheatre"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-five-finger-death-punch-2026-raleigh-g5evz_ejp-tdn",
@@ -122828,11 +122828,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8038346",
-        "url": "https://www.ticketliquidator.com/tickets/8038346/Sienna-Spiro-tickets-Tue-Oct-13-2026-Ryman-Auditorium",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107382077",
@@ -122846,7 +122846,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038346",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038346/Sienna-Spiro-tickets-Tue-Oct-13-2026-Ryman-Auditorium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-nashville-tickets-10-13-2026/event/107382077"
   },
   {
@@ -125598,18 +125598,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8034336",
-        "url": "https://www.ticketliquidator.com/tickets/8034336/Malcolm-Todd-tickets-Tue-Oct-13-2026-The-Union-Event-Center",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_G2faRap",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034336",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034336/Malcolm-Todd-tickets-Tue-Oct-13-2026-The-Union-Event-Center"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-malcolm-todd-2026-seattle-vvg1hz_g3nanrd",
@@ -133447,11 +133447,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7831757",
+        "url": "https://www.ticketliquidator.com/tickets/7831757/Niall-Horan-tickets-Sun-Nov-15-2026-The-O2-Belfast",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdOZ_kGkUHawCY",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831757/Niall-Horan-tickets-Sun-Nov-15-2026-The-O2-Belfast"
   },
   {
     "id": "tm-niall-horan-2026-belfast-1adoz_6gkmwqvwh",
@@ -133500,11 +133508,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7846501",
+        "url": "https://www.ticketliquidator.com/tickets/7846501/Niall-Horan-tickets-Mon-Nov-16-2026-The-O2-Belfast",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdOZ_6GkmWqvwH",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7846501/Niall-Horan-tickets-Mon-Nov-16-2026-The-O2-Belfast"
   },
   {
     "id": "tm-niall-horan-2027-hartford-z7r9jz1a709uz",
@@ -160145,18 +160161,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8057257",
-        "url": "https://www.ticketliquidator.com/tickets/8057257/Daughtry-tickets-Tue-Oct-13-2026-The-Cabot-Cabot-Performing-Arts-Center",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PYjJ",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8057257",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8057257/Daughtry-tickets-Tue-Oct-13-2026-The-Cabot-Cabot-Performing-Arts-Center"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-daughtry-2026-uncasville-g5vvz_gld3qfv",
@@ -165206,6 +165222,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8318327",
+        "url": "https://www.ticketliquidator.com/tickets/8318327/Tommy-Emmanuel-tickets-Sun-Mar-14-2027-Southern-Alberta-Jubilee-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPuEGA13dcP",
@@ -165217,7 +165240,8 @@
         "start": "2026-10-02T17:00:00Z",
         "end": "2027-03-08T04:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318327/Tommy-Emmanuel-tickets-Sun-Mar-14-2027-Southern-Alberta-Jubilee-Auditorium"
   },
   {
     "id": "tm-tommy-emmanuel-2027-winnipeg-1k78vpupga1vvti",
@@ -180427,18 +180451,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7718203",
-        "url": "https://www.ticketliquidator.com/tickets/7718203/Staind-tickets-Tue-Oct-13-2026-Talking-Stick-Resort-Amphitheatre",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_dGkU63V-5",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718203",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718203/Staind-tickets-Tue-Oct-13-2026-Talking-Stick-Resort-Amphitheatre"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-staind-2026-albuquerque-g5vzz_dsirnej",
@@ -203616,18 +203640,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7977876",
-        "url": "https://www.ticketliquidator.com/tickets/7977876/Mico-tickets-Tue-Oct-13-2026-The-Regency-Ballroom",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70I80",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977876",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977876/Mico-tickets-Tue-Oct-13-2026-The-Regency-Ballroom"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-mico-2026-los-angeles-z7r9jz1a70uao",
@@ -228012,11 +228036,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8199794",
-        "url": "https://www.ticketliquidator.com/tickets/8199794/Steve-Lacy-tickets-Tue-Oct-13-2026-MGM-Music-Hall-at-Fenway-Park",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107482314",
@@ -228030,7 +228054,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199794",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199794/Steve-Lacy-tickets-Tue-Oct-13-2026-MGM-Music-Hall-at-Fenway-Park",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-boston-tickets-10-13-2026/event/107482314"
   },
   {
@@ -231024,18 +231048,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8194521",
-        "url": "https://www.ticketliquidator.com/tickets/8194521/Fuerza-Regida-tickets-Tue-Oct-13-2026-Coca-Cola-Amphitheater-at-the-BJCC",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfdGkeytw9Q",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194521",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194521/Fuerza-Regida-tickets-Tue-Oct-13-2026-Coca-Cola-Amphitheater-at-the-BJCC"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-fuerza-regida-2026-albuquerque-g5vzz_8cnmbuy",
@@ -236775,11 +236799,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7956771",
-        "url": "https://www.ticketliquidator.com/tickets/7956771/Journey-tickets-Tue-Oct-13-2026-Legacy-Arena-at-The-BJCC",
-        "verified": true,
-        "last_verified_at": "2026-10-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FZv0G61p_lKaY",
@@ -236792,7 +236816,7 @@
         "end": "2026-10-13T15:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956771/Journey-tickets-Tue-Oct-13-2026-Legacy-Arena-at-The-BJCC"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-journey-2026-sunrise-z7r9jz1a70_73",
@@ -241460,11 +241484,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7965455",
+        "url": "https://www.ticketliquidator.com/tickets/7965455/Twenty-One-Pilots-tickets-Sat-Oct-17-2026-Ohio-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_1UqT9_r",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7965455/Twenty-One-Pilots-tickets-Sat-Oct-17-2026-Ohio-Stadium"
   },
   {
     "id": "tm-rod-stewart-2027-reading-vv17fz_kgks7life",
@@ -241620,11 +241652,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277059",
+        "url": "https://www.ticketliquidator.com/tickets/8277059/Rod-Stewart-tickets-Mon-Mar-8-2027-Enmarket-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KeXGeBo",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277059/Rod-Stewart-tickets-Mon-Mar-8-2027-Enmarket-Arena"
   },
   {
     "id": "tm-rod-stewart-2027-biloxi-g5viz_kjgqiyx",
@@ -241673,11 +241713,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294731",
+        "url": "https://www.ticketliquidator.com/tickets/8294731/Rod-Stewart-tickets-Wed-Mar-10-2027-Mississippi-Coast-Coliseum",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KJGQIYX",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294731/Rod-Stewart-tickets-Wed-Mar-10-2027-Mississippi-Coast-Coliseum"
   },
   {
     "id": "tm-rod-stewart-2027-hollywood-vvg1vz_3j9ejp4",
@@ -241726,11 +241774,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266994",
+        "url": "https://www.ticketliquidator.com/tickets/8266994/Rod-Stewart-tickets-Fri-Mar-12-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3J9eJp4",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266994/Rod-Stewart-tickets-Fri-Mar-12-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood"
   },
   {
     "id": "tm-rod-stewart-2027-saint-augustine-z7r9jz1aavybs",
@@ -241832,6 +241888,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8319868",
+        "url": "https://www.ticketliquidator.com/tickets/8319868/Rod-Stewart-tickets-Fri-Mar-19-2027-Mohegan-Sun-Arena-CT",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_fLFX92d",
@@ -241859,7 +241922,8 @@
         "start": "2026-10-15T16:00:00Z",
         "end": "2026-10-16T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319868/Rod-Stewart-tickets-Fri-Mar-19-2027-Mohegan-Sun-Arena-CT"
   },
   {
     "id": "tm-rod-stewart-2027-dublin-1abzkfygkdqi3oq",
@@ -241908,11 +241972,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307232",
+        "url": "https://www.ticketliquidator.com/tickets/8307232/Rod-Stewart-tickets-Fri-Apr-23-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AbZkfyGkdqi3Oq",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307232/Rod-Stewart-tickets-Fri-Apr-23-2027-3Arena-Dublin"
   },
   {
     "id": "tm-rod-stewart-2027-dublin-1avoz_kgkw68xnf",
@@ -241961,11 +242033,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307235",
+        "url": "https://www.ticketliquidator.com/tickets/8307235/Rod-Stewart-tickets-Sat-Apr-24-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvOZ_KGkw68xnf",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307235/Rod-Stewart-tickets-Sat-Apr-24-2027-3Arena-Dublin"
   },
   {
     "id": "tm-rod-stewart-2027-belfast-1azzkfygkdgr3ds",
@@ -242067,11 +242147,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8299954",
+        "url": "https://www.ticketliquidator.com/tickets/8299954/Rod-Stewart-tickets-Thu-Apr-29-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkfMGkdMGBJS",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8299954/Rod-Stewart-tickets-Thu-Apr-29-2027-OVO-Hydro"
   },
   {
     "id": "tm-rod-stewart-2027-glasgow-1auzkfygkdhvxxd",
@@ -242120,11 +242208,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308633",
+        "url": "https://www.ticketliquidator.com/tickets/8308633/Rod-Stewart-tickets-Sat-May-1-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkfyGkdHvXxd",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308633/Rod-Stewart-tickets-Sat-May-1-2027-OVO-Hydro"
   },
   {
     "id": "tm-rod-stewart-2027-birmingham-1kfyvpcfga2dzlv",
@@ -242173,11 +242269,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8297144",
+        "url": "https://www.ticketliquidator.com/tickets/8297144/Rod-Stewart-tickets-Tue-May-4-2027-Utilita-Arena-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kFYvPCFGA2dZlv",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297144/Rod-Stewart-tickets-Tue-May-4-2027-Utilita-Arena-Birmingham"
   },
   {
     "id": "tm-rod-stewart-2027-manchester-1amzkfugkesbky7",
@@ -242226,11 +242330,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293090",
+        "url": "https://www.ticketliquidator.com/tickets/8293090/Rod-Stewart-tickets-Thu-May-6-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkfUGkeSbKY7",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293090/Rod-Stewart-tickets-Thu-May-6-2027-Co-Op-Live"
   },
   {
     "id": "tm-rod-stewart-2027-manchester-1amzkfzgkdjwz0v",
@@ -242279,11 +242391,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308591",
+        "url": "https://www.ticketliquidator.com/tickets/8308591/Rod-Stewart-tickets-Sat-May-8-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkfzGkdJWz0V",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308591/Rod-Stewart-tickets-Sat-May-8-2027-Co-Op-Live"
   },
   {
     "id": "tm-rod-stewart-2027-london-1agzkfzgkdv3zff",
@@ -242438,11 +242558,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8299870",
+        "url": "https://www.ticketliquidator.com/tickets/8299870/Rod-Stewart-tickets-Fri-May-28-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kbF3oo4",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8299870/Rod-Stewart-tickets-Fri-May-28-2027-Ziggo-Dome"
   },
   {
     "id": "tm-rod-stewart-2027-merksem-antwerpen-z698xzg2z1kq_k_u9",
@@ -242915,12 +243043,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7548018",
+        "url": "https://www.ticketliquidator.com/tickets/7548018/Rod-Stewart-tickets-Thu-Sep-2-2027-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7qU14",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7548018/Rod-Stewart-tickets-Thu-Sep-2-2027-Red-Rocks-Amphitheatre"
   },
   {
     "id": "tm-rod-stewart-2027-morrison-z7r9jz1a7r6o4",
@@ -242969,12 +243105,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7566556",
+        "url": "https://www.ticketliquidator.com/tickets/7566556/Rod-Stewart-tickets-Fri-Sep-3-2027-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r6o4",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7566556/Rod-Stewart-tickets-Fri-Sep-3-2027-Red-Rocks-Amphitheatre"
   },
   {
     "id": "tm-guns-n-roses-2026-adelaide-1aefzbygkb-e0bz",
@@ -243553,6 +243697,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313659",
+        "url": "https://www.ticketliquidator.com/tickets/8313659/Leon-Bridges-tickets-Wed-Apr-7-2027-The-Chelsea-The-Cosmopolitan-of-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9ZkfsGkex2qFe",
@@ -243575,7 +243726,8 @@
         "start": "2026-10-15T17:00:00Z",
         "end": "2026-10-16T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313659/Leon-Bridges-tickets-Wed-Apr-7-2027-The-Chelsea-The-Cosmopolitan-of-Las-Vegas"
   },
   {
     "id": "tm-leon-bridges-2027-fort-worth-vvg1yz_f9mdndc",
@@ -243624,6 +243776,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313660",
+        "url": "https://www.ticketliquidator.com/tickets/8313660/Leon-Bridges-tickets-Fri-Apr-23-2027-Dickies-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_f9mdnDC",
@@ -243651,7 +243810,8 @@
         "start": "2026-10-14T15:00:00Z",
         "end": "2026-10-16T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313660/Leon-Bridges-tickets-Fri-Apr-23-2027-Dickies-Arena"
   },
   {
     "id": "tm-leon-bridges-2027-toronto-1a8zk46gkesn6zx",
@@ -243781,6 +243941,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313661",
+        "url": "https://www.ticketliquidator.com/tickets/8313661/Leon-Bridges-tickets-Sat-May-1-2027-Madison-Square-Garden",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_fQI50fg",
@@ -243823,7 +243990,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-05-02T00:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313661/Leon-Bridges-tickets-Sat-May-1-2027-Madison-Square-Garden"
   },
   {
     "id": "tm-leon-bridges-2027-charlotte-g5evz_ks2c2jb",
@@ -243872,6 +244040,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313662",
+        "url": "https://www.ticketliquidator.com/tickets/8313662/Leon-Bridges-tickets-Fri-Jul-16-2027-Skyla-Credit-Union-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KS2C2jb",
@@ -243899,7 +244074,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-06-26T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313662/Leon-Bridges-tickets-Fri-Jul-16-2027-Skyla-Credit-Union-Amphitheatre"
   },
   {
     "id": "tm-leon-bridges-2027-alpharetta-vvg1zz_k76-tb0",
@@ -243948,6 +244124,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313663",
+        "url": "https://www.ticketliquidator.com/tickets/8313663/Leon-Bridges-tickets-Sat-Jul-17-2027-Ameris-Bank-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_K76-Tb0",
@@ -243980,7 +244163,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-06-18T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313663/Leon-Bridges-tickets-Sat-Jul-17-2027-Ameris-Bank-Amphitheatre"
   },
   {
     "id": "tm-leon-bridges-2027-wilmington-g5evz_kw2tkfi",
@@ -244029,6 +244213,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313664",
+        "url": "https://www.ticketliquidator.com/tickets/8313664/Leon-Bridges-tickets-Wed-Jul-21-2027-Live-Oak-Bank-Pavilion-At-Riverfront-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Kw2Tkfi",
@@ -244051,7 +244242,8 @@
         "start": "2026-10-14T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313664/Leon-Bridges-tickets-Wed-Jul-21-2027-Live-Oak-Bank-Pavilion-At-Riverfront-Park"
   },
   {
     "id": "tm-leon-bridges-2027-columbia-1avfz_fqmqezd586",
@@ -244100,6 +244292,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313665",
+        "url": "https://www.ticketliquidator.com/tickets/8313665/Leon-Bridges-tickets-Fri-Jul-23-2027-Merriweather-Post-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1avfZ_fqMQeZd586",
@@ -244117,7 +244316,8 @@
         "start": "2026-10-15T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313665/Leon-Bridges-tickets-Fri-Jul-23-2027-Merriweather-Post-Pavilion"
   },
   {
     "id": "tm-leon-bridges-2027-boston-vv177z_kgkikdrri",
@@ -244166,6 +244366,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313666",
+        "url": "https://www.ticketliquidator.com/tickets/8313666/Leon-Bridges-tickets-Sat-Jul-24-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_KGkIKdRri",
@@ -244188,7 +244395,8 @@
         "start": "2026-10-14T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313666/Leon-Bridges-tickets-Sat-Jul-24-2027-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-leon-bridges-2027-philadelphia-vv17fz_kgkbngqe2",
@@ -244308,6 +244516,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313668",
+        "url": "https://www.ticketliquidator.com/tickets/8313668/Leon-Bridges-tickets-Thu-Aug-12-2027-Hayden-Homes-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KS7yjC4",
@@ -244345,7 +244560,8 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-07-16T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313668/Leon-Bridges-tickets-Thu-Aug-12-2027-Hayden-Homes-Amphitheater"
   },
   {
     "id": "tm-leon-bridges-2027-seattle-vvg1hz_fqtqa-a",
@@ -244394,6 +244610,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313669",
+        "url": "https://www.ticketliquidator.com/tickets/8313669/Leon-Bridges-tickets-Fri-Aug-13-2027-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_fQTqa-a",
@@ -244416,7 +244639,8 @@
         "start": "2026-10-14T17:00:00Z",
         "end": "2026-10-16T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313669/Leon-Bridges-tickets-Fri-Aug-13-2027-Climate-Pledge-Arena"
   },
   {
     "id": "tm-leon-bridges-2027-edmonton-1aozkfigkdr2_nl",
@@ -244465,6 +244689,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313680",
+        "url": "https://www.ticketliquidator.com/tickets/8313680/Leon-Bridges-tickets-Tue-Aug-17-2027-Northern-Alberta-Jubilee-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkfIGkdr2_nl",
@@ -244477,7 +244708,8 @@
         "start": "2026-10-13T16:00:00Z",
         "end": "2026-10-16T04:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313680/Leon-Bridges-tickets-Tue-Aug-17-2027-Northern-Alberta-Jubilee-Auditorium"
   },
   {
     "id": "tm-leon-bridges-2027-calgary-1aozkfygkeskgd1",
@@ -244678,6 +244910,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313670",
+        "url": "https://www.ticketliquidator.com/tickets/8313670/Leon-Bridges-tickets-Sat-Aug-21-2027-KettleHouse-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_fhJrcG3",
@@ -244695,7 +244934,8 @@
         "start": "2026-10-14T16:00:00Z",
         "end": "2026-10-16T04:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313670/Leon-Bridges-tickets-Sat-Aug-21-2027-KettleHouse-Amphitheater"
   },
   {
     "id": "tm-leon-bridges-2027-waukee-1a-zkfzgkd1bnt9",
@@ -244744,6 +244984,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313671",
+        "url": "https://www.ticketliquidator.com/tickets/8313671/Leon-Bridges-tickets-Wed-Aug-25-2027-Vibrant-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A-ZkfzGkd1Bnt9",
@@ -244776,7 +245023,8 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-08-23T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313671/Leon-Bridges-tickets-Wed-Aug-25-2027-Vibrant-Music-Hall"
   },
   {
     "id": "tm-leon-bridges-2027-indianapolis-vv17fz_kgkupdufu",
@@ -244825,6 +245073,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313672",
+        "url": "https://www.ticketliquidator.com/tickets/8313672/Leon-Bridges-tickets-Thu-Aug-26-2027-Everwise-Amphitheater-at-White-River-State-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_KGkUpDUFU",
@@ -244862,7 +245117,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-08-24T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313672/Leon-Bridges-tickets-Thu-Aug-26-2027-Everwise-Amphitheater-at-White-River-State-Park"
   },
   {
     "id": "tm-leon-bridges-2027-milwaukee-vv17jz_kgkbyybma",
@@ -244911,6 +245167,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313673",
+        "url": "https://www.ticketliquidator.com/tickets/8313673/Leon-Bridges-tickets-Wed-Sep-15-2027-Landmark-Credit-Union-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_KGkByYbma",
@@ -244928,7 +245191,8 @@
         "start": "2026-10-14T15:00:00Z",
         "end": "2026-10-16T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313673/Leon-Bridges-tickets-Wed-Sep-15-2027-Landmark-Credit-Union-Live"
   },
   {
     "id": "tm-leon-bridges-2027-minneapolis-vv1fbz_fb9zezd8da",
@@ -244977,6 +245241,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313674",
+        "url": "https://www.ticketliquidator.com/tickets/8313674/Leon-Bridges-tickets-Fri-Sep-17-2027-The-Armory-Minneapolis",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1FbZ_fb9ZeZd8da",
@@ -245004,7 +245275,8 @@
         "start": "2026-10-14T15:00:00Z",
         "end": "2026-10-16T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313674/Leon-Bridges-tickets-Fri-Sep-17-2027-The-Armory-Minneapolis"
   },
   {
     "id": "tm-leon-bridges-2027-rogers-g5viz_kpps1qm",
@@ -245053,6 +245325,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313675",
+        "url": "https://www.ticketliquidator.com/tickets/8313675/Leon-Bridges-tickets-Thu-Sep-23-2027-Walmart-AMP",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KpPs1Qm",
@@ -245085,7 +245364,8 @@
         "start": "2026-10-14T15:00:00Z",
         "end": "2026-10-16T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313675/Leon-Bridges-tickets-Thu-Sep-23-2027-Walmart-AMP"
   },
   {
     "id": "tm-leon-bridges-2027-austin-g5diz_flks0j9",
@@ -245134,6 +245414,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313676",
+        "url": "https://www.ticketliquidator.com/tickets/8313676/Leon-Bridges-tickets-Fri-Sep-24-2027-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fLkS0j9",
@@ -245161,7 +245448,8 @@
         "start": "2026-10-14T15:00:00Z",
         "end": "2026-10-16T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313676/Leon-Bridges-tickets-Fri-Sep-24-2027-Moody-Center-ATX"
   },
   {
     "id": "tm-leon-bridges-2027-houston-g5diz_kb01hxf",
@@ -245210,6 +245498,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313677",
+        "url": "https://www.ticketliquidator.com/tickets/8313677/Leon-Bridges-tickets-Sat-Sep-25-2027-713-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KB01hXF",
@@ -245227,7 +245522,8 @@
         "start": "2026-10-14T15:00:00Z",
         "end": "2026-10-16T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313677/Leon-Bridges-tickets-Sat-Sep-25-2027-713-Music-Hall"
   },
   {
     "id": "tm-leon-bridges-2027-phoenix-1a_zk4kgkdlzjqa",
@@ -245276,6 +245572,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313678",
+        "url": "https://www.ticketliquidator.com/tickets/8313678/Leon-Bridges-tickets-Wed-Sep-29-2027-Arizona-Financial-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_Zk4kGkdLzjqA",
@@ -245303,7 +245606,8 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-09-02T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313678/Leon-Bridges-tickets-Wed-Sep-29-2027-Arizona-Financial-Theatre"
   },
   {
     "id": "tm-lionel-richie-2026-las-vegas-17ayv0g62k5zuj3",
@@ -245654,10 +245958,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8237289",
+        "url": "https://www.ticketliquidator.com/tickets/8237289/Lionel-Richie-tickets-Sat-Jan-30-2027-Lucas-Oil-Live-At-WinStar-Casino",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv_-z",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8237289/Lionel-Richie-tickets-Sat-Jan-30-2027-Lucas-Oil-Live-At-WinStar-Casino"
   }
 ]

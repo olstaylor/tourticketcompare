@@ -484,11 +484,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7457660",
-        "url": "https://www.ticketliquidator.com/tickets/7457660/Doja-Cat-tickets-Tue-Oct-13-2026-Rogers-Arena",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkGyGkdOSIGy",
@@ -496,7 +496,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457660",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-tickets-vancouver-rogers-arena-10-13-2026/event/106969173",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457660/Doja-Cat-tickets-Tue-Oct-13-2026-Rogers-Arena"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-doja-cat-2026-seattle-vvg1hzbslq8got",

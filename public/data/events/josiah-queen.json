@@ -1132,7 +1132,7 @@
     "ticketmaster_event_id": "14367194",
     "ticketmaster_url": "https://www.ticketweb.com/event/josiah-queen-the-damascus-road-calvary-community-church-tickets/14367194",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/josiah-queen-tickets-westlake-village-calvary-community-church---westlake-village-10-24-2026--concerts-world-music/production/7680360",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/josiah-queen-the-damascus-road-calvary-community-church-tickets/14367194",
     "last_verified_at": "2026-10-13",
@@ -1154,11 +1154,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7680360,
+        "url": "https://www.vividseats.com/josiah-queen-tickets-westlake-village-calvary-community-church---westlake-village-10-24-2026--concerts-world-music/production/7680360",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

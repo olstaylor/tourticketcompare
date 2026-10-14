@@ -12,6 +12,7 @@ from datetime import datetime
 from urllib.parse import unquote, urlparse
 from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
@@ -355,6 +356,31 @@ def run_self_test() -> int:
     script_path = Path(__file__).resolve()
     test_cases = [
         {
+            "name": "ambiguous previous start datetime",
+            "mutate": lambda event: event.__setitem__("previous_start_date", "2026-05-01T20:00:00"),
+            "expect": "previous_start_date: must be an ISO date or datetime with a UTC offset",
+        },
+        {
+            "name": "impossible previous start date",
+            "mutate": lambda event: event.__setitem__("previous_start_date", "2026-02-30"),
+            "expect": "previous_start_date: must be an ISO date or datetime with a UTC offset",
+        },
+        {
+            "name": "previous timezone without date",
+            "mutate": lambda event: event.__setitem__("previous_start_timezone", "America/New_York"),
+            "expect": "previous_start_timezone: requires previous_start_date",
+        },
+        {
+            "name": "Python-only compact previous date",
+            "mutate": lambda event: event.__setitem__("previous_start_date", "20260501T20:00:00+00:00"),
+            "expect": "previous_start_date: must be an ISO date or datetime with a UTC offset",
+        },
+        {
+            "name": "previous offset minute overflow",
+            "mutate": lambda event: event.__setitem__("previous_start_date", "2026-05-01T20:00:00+0060"),
+            "expect": "previous_start_date: must be an ISO date or datetime with a UTC offset",
+        },
+        {
             "name": "protocol-relative top-level provider URL",
             "mutate": lambda event: event.__setitem__("ticketmaster_url", "//ticketmaster.com/event/ABC123"),
             "expect": "ticketmaster_url: must be http(s) URL or empty",
@@ -482,6 +508,11 @@ def run_self_test() -> int:
             "expect_failure": "STRICT TOUR_NAME CHECK FAILED:",
         },
     ]
+
+    positive_cases.extend({
+        "name": f"supported previous date {iso}",
+        "mutate": lambda event, value=iso: event.__setitem__("previous_start_date", value),
+    } for iso in ["2026-05-01", "2026-05-01T20:00+00:00", "2026-05-01T20:00:00+0000", "2026-10-19T20:30:00-07:00"])
 
     with tempfile.TemporaryDirectory(prefix="ttc-validate-events-self-test-") as tmp_dir:
         tmp = Path(tmp_dir)
@@ -814,6 +845,36 @@ def main() -> int:
                 errors.append(f"{prefix}.public_onsale_at: must be an ISO datetime if present")
             elif (status or "").strip() != "announced":
                 errors.append(f"{prefix}.public_onsale_at: only allowed on an 'announced' event")
+
+        # Rescheduling history is optional: first-seen rescheduled events often
+        # have no known original date. Never accept a naive previous datetime.
+        previous_start_date = event.get("previous_start_date")
+        if previous_start_date is not None:
+            previous = parse_iso_datetime(previous_start_date)
+            # Same explicit storage grammar as validPreviousStartDate in the
+            # renderer: do not validate a Python-only ISO form that JS omits.
+            supported_previous_format = isinstance(previous_start_date, str) and re.fullmatch(
+                r"\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2}(?::\d{2}(?:\.\d+)?)?(?:Z|[+-]\d{2}:?\d{2}))?",
+                previous_start_date.strip(),
+                flags=re.ASCII,
+            )
+            offset = re.search(r"[+-](\d{2}):?(\d{2})$", previous_start_date.strip()) if supported_previous_format else None
+            invalid_offset = offset and (int(offset[1]) > 23 or int(offset[2]) > 59)
+            if not supported_previous_format or invalid_offset or (not is_iso_date(previous_start_date) and (
+                previous is None or previous.tzinfo is None
+            )):
+                errors.append(f"{prefix}.previous_start_date: must be an ISO date or datetime with a UTC offset")
+        previous_start_timezone = event.get("previous_start_timezone")
+        if previous_start_timezone is not None:
+            if previous_start_date is None:
+                errors.append(f"{prefix}.previous_start_timezone: requires previous_start_date")
+            if not isinstance(previous_start_timezone, str) or not previous_start_timezone.strip():
+                errors.append(f"{prefix}.previous_start_timezone: must be a non-empty IANA timezone")
+            else:
+                try:
+                    ZoneInfo(previous_start_timezone)
+                except (ZoneInfoNotFoundError, ValueError):
+                    errors.append(f"{prefix}.previous_start_timezone: unknown IANA timezone")
 
         # Named Ticketmaster presale windows (nightly field-sync, owner-approved
         # 2026-10-02): verbatim name/start/end only, never a code or a link.

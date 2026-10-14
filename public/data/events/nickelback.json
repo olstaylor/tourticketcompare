@@ -4462,6 +4462,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672932",
+        "url": "https://www.stubhub.ie/nickelback-tickets-amsterdam-ziggo-dome-7-6-2027/event/107672932",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k-Uqgjg",
@@ -4491,7 +4498,8 @@
         "start": "2026-10-15T10:00:00Z",
         "end": "2026-10-16T07:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-amsterdam-ziggo-dome-7-6-2027/event/107672932"
   },
   {
     "id": "tm-nickelback-2027-hannover-z698xzc2z16v-v0tgv",
@@ -4554,6 +4562,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672924",
+        "url": "https://www.stubhub.ie/nickelback-tickets-hannover-zag-arena-11-6-2027/event/107672924",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16v-V0tGv",
@@ -4588,7 +4603,8 @@
         "start": "2026-10-15T10:00:00Z",
         "end": "2026-10-16T07:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-hannover-zag-arena-11-6-2027/event/107672924"
   },
   {
     "id": "tm-nickelback-2027-munich-z698xzc2z1k-kk3-_",
@@ -4651,6 +4667,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672318",
+        "url": "https://www.stubhub.ie/nickelback-tickets-munich-olympiahalle-munich-19-6-2027/event/107672318",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1k-Kk3-_",
@@ -4685,7 +4708,8 @@
         "start": "2026-10-15T10:00:00Z",
         "end": "2026-10-16T07:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-munich-olympiahalle-munich-19-6-2027/event/107672318"
   },
   {
     "id": "tm-nickelback-2027-assago-zg9rmiynyza161",
@@ -4788,6 +4812,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672927",
+        "url": "https://www.stubhub.ie/nickelback-tickets-lodz-atlas-arena-1-7-2027/event/107672927",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ1kvw7Fvb",
@@ -4815,7 +4846,8 @@
         "start": "2026-10-15T10:00:00Z",
         "end": "2026-10-16T07:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-lodz-atlas-arena-1-7-2027/event/107672927"
   },
   {
     "id": "tm-nickelback-2027-zurich-z698xzu3z1kjt1pck",
@@ -4878,6 +4910,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672925",
+        "url": "https://www.stubhub.ie/nickelback-tickets-zurich-hallenstadion-zurich-20-6-2027/event/107672925",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZu3Z1kjt1pCk",
@@ -4917,7 +4956,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314986",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314986/Nickelback-tickets-Sun-Jun-20-2027-Hallenstadion-Zurich"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314986/Nickelback-tickets-Sun-Jun-20-2027-Hallenstadion-Zurich",
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-zurich-hallenstadion-zurich-20-6-2027/event/107672925"
   },
   {
     "id": "tm-nickelback-2027-vienna-z698xz5rz16vz489ev",

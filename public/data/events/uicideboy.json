@@ -101,17 +101,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107156169",
-        "url": "https://www.stubhub.ie/uicideboy-austin-tickets-10-13-2026/event/107156169",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_6RFioeH",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/uicideboy-austin-tickets-10-13-2026/event/107156169"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-uicideboy-2026-new-orleans-g5viz_6roljgm",

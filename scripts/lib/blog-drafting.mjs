@@ -84,13 +84,21 @@ export function buildEvidence(selected, { now = Date.now(), snapshot }) {
 export function verifyRemoteEvent(event, data, now) {
   const venue = data?._embedded?.venues;
   const attractions = data?._embedded?.attractions || [];
-  if (data?.id !== event.discoveryId || venue?.length !== 1
-    || !attractions.some((a) => normalize(a.name) === normalize(event.artist))
-    || normalize(venue[0].name) !== normalize(event.venue) || normalize(venue[0].city?.name) !== normalize(event.city)
-    || data.dates?.start?.localDate !== event.date || data.url !== event.sourceUrl
-    || data.dates?.status?.code !== 'onsale'
-    || event.date < new Date(now).toISOString().slice(0, 10)) fail('current Ticketmaster evidence disagrees with artist/date/venue/city/status/source');
-  if (event.timezone && (data.dates.timezone || venue[0].timezone) !== event.timezone) fail('current event timezone disagrees');
+  const mismatches = [
+    ['discoveryId', data?.id !== event.discoveryId],
+    ['venueCount', venue?.length !== 1],
+    ['artist', !attractions.some((a) => normalize(a.name) === normalize(event.artist))],
+    ['venue', normalize(venue?.[0]?.name) !== normalize(event.venue)],
+    ['city', normalize(venue?.[0]?.city?.name) !== normalize(event.city)],
+    ['localDate', data?.dates?.start?.localDate !== event.date],
+    ['sourceUrl', data?.url !== event.sourceUrl],
+    ['status', data?.dates?.status?.code !== 'onsale'],
+    ['expiredDate', event.date < new Date(now).toISOString().slice(0, 10)],
+    ['timezone', Boolean(event.timezone) && (data?.dates?.timezone || venue?.[0]?.timezone) !== event.timezone],
+  ].filter(([, differs]) => differs).map(([field]) => field);
+  // Log field names only: remote values/URLs must not expose credentials or
+  // untrusted response text. Identify the record by its trusted repository ID.
+  if (mismatches.length) fail(`current Ticketmaster evidence disagrees for ${event.id}: ${mismatches.join(', ')}`);
   // Stored public/presale timestamps are not independently verified by this
   // projection; no article is allowed to assert them as current windows.
   return { kind: 'current-ticketmaster-api', checkedAt: new Date(now).toISOString(), status: data.dates.status.code,

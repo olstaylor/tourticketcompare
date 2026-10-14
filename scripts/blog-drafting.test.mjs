@@ -172,6 +172,36 @@ test('fresh official API verifies local identity/date/venue/city/status, not inv
   assert(result.events.every((e) => e.date === remote(e).dates.start.localDate));
 });
 
+test('preview checks current external evidence without reserving a week or calling Claude', async () => {
+  let requests = 0;
+  const options = { source: fixture, issue, mode: 'preview', now, snapshot, tmKey: 'mock-tm',
+    gh: () => { throw new Error('Preview must not reserve or publish'); },
+    fetchImpl: async (url) => {
+      requests++;
+      assert.equal(new URL(url).hostname, 'app.ticketmaster.com');
+      const id = new URL(url).pathname.split('/').at(-1).replace('.json', '');
+      return { ok: true, json: async () => remote(evidence.events.find(e => e.discoveryId === id)) };
+    } };
+  const result = await draftOnce(options);
+  assert.equal(result.outcome, 'selected-without-generation');
+  assert.equal(requests, evidence.events.length);
+  assert(result.evidence.events.every(e => e.external.kind === 'current-ticketmaster-api'));
+  await assert.rejects(draftOnce({ ...options, fetchImpl: async () => {
+    const data = remote(evidence.events[0]); data.url = 'https://example.com/?apikey=never-log-this';
+    return { ok: true, json: async () => data };
+  } }), error => error.message.includes('sourceUrl') && !error.message.includes('never-log-this'));
+  const skipped = await draftOnce({ ...options, tmKey: null, fetchImpl: noNetwork });
+  assert(skipped.evidence.events.every(e => e.external.kind === 'not-checked'));
+});
+
+test('remote mismatch diagnostics identify fields and safely handle missing venues', () => {
+  const e = evidence.events[0];
+  const data = remote(e); data.dates.start.localDate = '1900-01-01'; data.dates.status.code = 'cancelled';
+  assert.throws(() => verifyRemoteEvent(e, data, now), /localDate, status/);
+  delete data._embedded.venues;
+  assert.throws(() => verifyRemoteEvent(e, data, now), /venueCount, venue, city/);
+});
+
 test('official API mismatch, lifecycle hold, redirect/failure and unavailable credentials fail safely', async () => {
   const e = evidence.events[0];
   assert(!verifyRemoteEvent({ ...e, timezone: '' }, remote(e), now).fields.includes('timezone'), 'unknown stored timezone is not claimed as independently compared');

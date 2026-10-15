@@ -1774,5 +1774,89 @@
     "last_verified_at": "2026-10-14",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-14"
+  },
+  {
+    "slug": "lewis-capaldi",
+    "name": "Lewis Capaldi",
+    "short_description": "Alternative act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-15",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-15"
+  },
+  {
+    "slug": "mumford-sons",
+    "name": "Mumford & Sons",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-15",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-15"
+  },
+  {
+    "slug": "hayley-williams",
+    "name": "Hayley Williams",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-15",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-15"
+  },
+  {
+    "slug": "blink-182",
+    "name": "blink-182",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-15",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-15"
+  },
+  {
+    "slug": "janet-jackson",
+    "name": "Janet Jackson",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-15",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-15"
+  },
+  {
+    "slug": "gorillaz",
+    "name": "Gorillaz",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-15",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-15"
   }
 ]

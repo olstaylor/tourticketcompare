@@ -1,0 +1,373 @@
+[
+  {
+    "id": "tm-hayley-williams-2026-ciudad-de-mexico-g5dvz_1q0q4bc",
+    "artist_slug": "hayley-williams",
+    "artist_name": "Hayley Williams",
+    "event_name": "\"The Hayley Williams Show\" (Numerado)",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Auditorio Nacional",
+    "datetime_iso": "2026-11-27T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D0064A6A4695E8E",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-numerado-ciudad-de-mexico-26-11-2026/event/3D0064A6A4695E8E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-numerado-ciudad-de-mexico-26-11-2026/event/3D0064A6A4695E8E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D0064A6A4695E8E",
+        "discovery_event_id": "G5dVZ_1Q0Q4BC",
+        "url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-numerado-ciudad-de-mexico-26-11-2026/event/3D0064A6A4695E8E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_1Q0Q4BC",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hayley-williams-2027-ciudad-de-mexico-g5dvz_5u9jpc7",
+    "artist_slug": "hayley-williams",
+    "artist_name": "Hayley Williams",
+    "event_name": "\"The Hayley Williams Show\"",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Auditorio Nacional",
+    "datetime_iso": "2027-01-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D0064BD97725384",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-ciudad-de-mexico-13-01-2027/event/3D0064BD97725384",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-ciudad-de-mexico-13-01-2027/event/3D0064BD97725384",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D0064BD97725384",
+        "discovery_event_id": "G5dVZ_5U9jPC7",
+        "url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-ciudad-de-mexico-13-01-2027/event/3D0064BD97725384",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_5U9jPC7",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hayley-williams-2027-monterrey-17azv0g65m2hkin",
+    "artist_slug": "hayley-williams",
+    "artist_name": "Hayley Williams",
+    "event_name": "\"The Hayley Williams Show\"",
+    "city": "Monterrey",
+    "country": "Mexico",
+    "venue": "Auditorio Banamex",
+    "datetime_iso": "2027-01-16T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "140064BDCF6D3A23",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-monterrey-15-01-2027/event/140064BDCF6D3A23",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-monterrey-15-01-2027/event/140064BDCF6D3A23",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "140064BDCF6D3A23",
+        "discovery_event_id": "17AZv0G65M2hKIN",
+        "url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-monterrey-15-01-2027/event/140064BDCF6D3A23",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AZv0G65M2hKIN",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hayley-williams-2027-zapopan-17azv0g65ulwtlf",
+    "artist_slug": "hayley-williams",
+    "artist_name": "Hayley Williams",
+    "event_name": "\"The Hayley Williams Show\"",
+    "city": "Zapopan",
+    "country": "Mexico",
+    "venue": "Auditorio Telmex",
+    "datetime_iso": "2027-01-18T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "140064BDABF697D4",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-zapopan-17-01-2027/event/140064BDABF697D4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-zapopan-17-01-2027/event/140064BDABF697D4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "140064BDABF697D4",
+        "discovery_event_id": "17AZv0G65UlWtLf",
+        "url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-zapopan-17-01-2027/event/140064BDABF697D4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AZv0G65UlWtLf",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hayley-williams-2027-forest-brussels-z698xzg2z1kopjxf_",
+    "artist_slug": "hayley-williams",
+    "artist_name": "Hayley Williams",
+    "event_name": "Hayley Williams",
+    "city": "Forest (Brussels)",
+    "country": "Belgium",
+    "venue": "Vorst Nationaal/Forest National",
+    "datetime_iso": "2027-06-14T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "456722519",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/hayley-williams-tickets/456722519",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/hayley-williams-tickets/456722519",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "456722519",
+        "discovery_event_id": "Z698xZG2Z1kopjxf_",
+        "url": "https://www.ticketmaster.be/event/hayley-williams-tickets/456722519",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1kopjxf_",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hayley-williams-2027-glasgow-1auzkf-gkd-5zto",
+    "artist_slug": "hayley-williams",
+    "artist_name": "Hayley Williams",
+    "event_name": "The Hayley Williams Show",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-06-23T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006521E12F8A60",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/the-hayley-williams-show-glasgow-23-06-2027/event/36006521E12F8A60",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/the-hayley-williams-show-glasgow-23-06-2027/event/36006521E12F8A60",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006521E12F8A60",
+        "discovery_event_id": "1AUZkf-Gkd-5ztO",
+        "url": "https://www.ticketmaster.co.uk/the-hayley-williams-show-glasgow-23-06-2027/event/36006521E12F8A60",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkf-Gkd-5ztO",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hayley-williams-2027-cardiff-1adbz_ogkwuumuk",
+    "artist_slug": "hayley-williams",
+    "artist_name": "Hayley Williams",
+    "event_name": "The Hayley Williams Show",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Cardiff",
+    "datetime_iso": "2027-06-30T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600651C8DDB7D86",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/the-hayley-williams-show-cardiff-30-06-2027/event/3600651C8DDB7D86",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/the-hayley-williams-show-cardiff-30-06-2027/event/3600651C8DDB7D86",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600651C8DDB7D86",
+        "discovery_event_id": "1AdbZ_oGkwuUMUk",
+        "url": "https://www.ticketmaster.co.uk/the-hayley-williams-show-cardiff-30-06-2027/event/3600651C8DDB7D86",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_oGkwuUMUk",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

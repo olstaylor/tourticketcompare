@@ -318,9 +318,11 @@ if (SELF_TEST) {
   // The outcome comment marker is per finding AND per outcome, so a re-run that
   // reaches the same conclusion says nothing twice.
   const marker = commentMarkerFor(plan.fingerprint, OUTCOMES.NEEDS_HUMAN);
+  const noMatchMarker = commentMarkerFor(plan.fingerprint, OUTCOMES.NO_PROVIDER_MATCH);
   assert.ok(alreadyReported([{ body: `${marker}\nprose` }], marker));
   assert.equal(alreadyReported([{ body: commentMarkerFor(plan.fingerprint, OUTCOMES.BLOCKED) }], marker), false);
   assert.equal(alreadyReported([], marker), false);
+  assert.ok(alreadyReported([{ body: noMatchMarker }], noMatchMarker), "a known provider no-match is recorded once");
 
   // One run takes one item, deterministically the lowest-numbered eligible one.
   const two = [queueIssue({ number: 980 }), queueIssue({ number: 971 })];
@@ -368,6 +370,7 @@ if (SELF_TEST) {
   assert.ok(FAILING_OUTCOMES.has(OUTCOMES.NEEDS_HUMAN) && FAILING_OUTCOMES.has(OUTCOMES.BLOCKED));
   assert.equal(FAILING_OUTCOMES.has(OUTCOMES.FIXED), false);
   assert.equal(FAILING_OUTCOMES.has(OUTCOMES.NO_SAFE_WORK), false);
+  assert.equal(FAILING_OUTCOMES.has(OUTCOMES.NO_PROVIDER_MATCH), false, "complete no-match is not an automation fault");
   // Every step must be observed before FIXED is reachable: a missing observation
   // is `pending`, never success.
   assert.equal(repairVerdict({}).outcome, "pending");
@@ -655,7 +658,8 @@ async function main() {
     // do not let it monopolise every daily run. Explicit dispatch may retry it.
     if (assessment.eligible && assessment.plan.type === PROVIDER_URL_TYPE && !requestedIssue) {
       const comments = await github("GET", `/issues/${issue.number}/comments?per_page=100`);
-      if (alreadyReported(comments, commentMarkerFor(assessment.plan.fingerprint, OUTCOMES.NEEDS_HUMAN))) continue;
+      if (alreadyReported(comments, commentMarkerFor(assessment.plan.fingerprint, OUTCOMES.NEEDS_HUMAN))
+        || alreadyReported(comments, commentMarkerFor(assessment.plan.fingerprint, OUTCOMES.NO_PROVIDER_MATCH))) continue;
     }
     available.push(issue);
   }

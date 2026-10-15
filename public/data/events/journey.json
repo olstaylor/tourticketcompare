@@ -181,13 +181,21 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7956850",
+        "url": "https://www.ticketnetwork.com/en/p/7956850",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_73",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956850/Journey-tickets-Fri-Oct-16-2026-Amerant-Bank-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/journey-sunrise-tickets-10-16-2026/event/107169157"
+    "stubhub_international_url": "https://www.stubhub.ie/journey-sunrise-tickets-10-16-2026/event/107169157",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956850"
   },
   {
     "id": "tm-journey-2026-orlando-17fov0g613pzs04",
@@ -250,6 +258,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7956772",
+        "url": "https://www.ticketnetwork.com/en/p/7956772",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G613PzS04",
@@ -264,6 +279,7 @@
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956772/Journey-tickets-Sat-Oct-17-2026-Kia-Center",
     "stubhub_international_url": "https://www.stubhub.ie/journey-orlando-tickets-10-17-2026/event/107169156",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956772",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -329,6 +345,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7956773",
+        "url": "https://www.ticketnetwork.com/en/p/7956773",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_1p_clEl",
@@ -336,6 +359,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956773/Journey-tickets-Mon-Oct-19-2026-State-Farm-Arena-GA",
     "stubhub_international_url": "https://www.stubhub.ie/journey-atlanta-tickets-10-19-2026/event/107169153",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956773",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -394,12 +418,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7956774",
+        "url": "https://www.ticketnetwork.com/en/p/7956774",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_141B_9F",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956774/Journey-tickets-Wed-Oct-21-2026-Bridgestone-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956774",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -458,12 +490,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7956851",
+        "url": "https://www.ticketnetwork.com/en/p/7956851",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70f_w",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956851/Journey-tickets-Thu-Oct-22-2026-KFC-Yum-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956851/Journey-tickets-Thu-Oct-22-2026-KFC-Yum-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956851"
   },
   {
     "id": "tm-journey-2026-baltimore-17a8v0g61kp2ris",
@@ -519,6 +559,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7956775",
+        "url": "https://www.ticketnetwork.com/en/p/7956775",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61Kp2rIs",
@@ -532,6 +579,7 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956775/Journey-tickets-Sat-Oct-24-2026-CFG-Bank-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956775",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -597,6 +645,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7956776",
+        "url": "https://www.ticketnetwork.com/en/p/7956776",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_197DNKR",
@@ -604,6 +659,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956776/Journey-tickets-Sun-Oct-25-2026-Prudential-Center",
     "stubhub_international_url": "https://www.stubhub.ie/journey-newark-tickets-10-25-2026/event/107170302",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956776",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -669,6 +725,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7956777",
+        "url": "https://www.ticketnetwork.com/en/p/7956777",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G61p0-pPK",
@@ -688,6 +751,7 @@
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956777/Journey-tickets-Wed-Oct-28-2026-Xfinity-Mobile-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/journey-philadelphia-tickets-10-28-2026/event/107169150",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956777",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -746,12 +810,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7956778",
+        "url": "https://www.ticketnetwork.com/en/p/7956778",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1fuWPyc",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956778/Journey-tickets-Thu-Oct-29-2026-Amica-Mutual-Pavilion",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956778",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -817,6 +889,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7956779",
+        "url": "https://www.ticketnetwork.com/en/p/7956779",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_13SlnGw",
@@ -831,6 +910,7 @@
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956779/Journey-tickets-Mon-Nov-2-2026-Little-Caesars-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/journey-detroit-tickets-11-2-2026/event/107170300",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956779",
     "organizer_names": [
       "AEG PRESENTS"
     ]
@@ -998,6 +1078,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7956780",
+        "url": "https://www.ticketnetwork.com/en/p/7956780",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_1KA_zPh",
@@ -1016,6 +1103,7 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956780/Journey-tickets-Sat-Nov-7-2026-Nassau-Veterans-Memorial-Coliseum",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956780",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -1081,6 +1169,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7956781",
+        "url": "https://www.ticketnetwork.com/en/p/7956781",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_19IPaDt",
@@ -1100,6 +1195,7 @@
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956781/Journey-tickets-Tue-Nov-10-2026-TD-Garden",
     "stubhub_international_url": "https://www.stubhub.ie/journey-boston-tickets-11-10-2026/event/107169149",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956781",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -1158,12 +1254,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7956853",
+        "url": "https://www.ticketnetwork.com/en/p/7956853",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_7K",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956853/Journey-tickets-Thu-Nov-12-2026-Rocket-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956853/Journey-tickets-Thu-Nov-12-2026-Rocket-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956853"
   },
   {
     "id": "tm-journey-2026-greenville-g5evz_1k1vuwb",
@@ -1219,6 +1323,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7956782",
+        "url": "https://www.ticketnetwork.com/en/p/7956782",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_1K1vuwb",
@@ -1232,6 +1343,7 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956782/Journey-tickets-Sat-Nov-14-2026-Bon-Secours-Wellness-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956782",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -1353,12 +1465,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7956854",
+        "url": "https://www.ticketnetwork.com/en/p/7956854",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_fz",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956854/Journey-tickets-Wed-Nov-18-2026-Toyota-Center-TX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956854/Journey-tickets-Wed-Nov-18-2026-Toyota-Center-TX",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956854"
   },
   {
     "id": "tm-journey-2026-dallas-vvg1yz_14w7vrn",
@@ -1421,6 +1541,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7956784",
+        "url": "https://www.ticketnetwork.com/en/p/7956784",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_14W7VrN",
@@ -1440,6 +1567,7 @@
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956784/Journey-tickets-Fri-Nov-20-2026-American-Airlines-Center",
     "stubhub_international_url": "https://www.stubhub.ie/journey-dallas-tickets-11-20-2026/event/107170294",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956784",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -1498,6 +1626,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7956785",
+        "url": "https://www.ticketnetwork.com/en/p/7956785",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1Kxjfbe",
@@ -1516,6 +1651,7 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956785/Journey-tickets-Sun-Nov-22-2026-Ball-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956785",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -1581,6 +1717,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7956786",
+        "url": "https://www.ticketnetwork.com/en/p/7956786",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1Q4chn3",
@@ -1605,6 +1748,7 @@
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956786/Journey-tickets-Tue-Nov-24-2026-Honda-Center",
     "stubhub_international_url": "https://www.stubhub.ie/journey-anaheim-tickets-11-24-2026/event/107625088",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956786",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -1670,13 +1814,21 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7956855",
+        "url": "https://www.ticketnetwork.com/en/p/7956855",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_7f",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956855/Journey-tickets-Fri-Nov-27-2026-MGM-Grand-Garden-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/journey-las-vegas-tickets-11-27-2026/event/107170293"
+    "stubhub_international_url": "https://www.stubhub.ie/journey-las-vegas-tickets-11-27-2026/event/107170293",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956855"
   },
   {
     "id": "tm-journey-2026-san-francisco-g5vyz_aeock9c",
@@ -1739,6 +1891,13 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7956787",
+        "url": "https://www.ticketnetwork.com/en/p/7956787",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_aEOcK9c",
@@ -1753,6 +1912,7 @@
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956787/Journey-tickets-Sat-Nov-28-2026-Chase-Center",
     "stubhub_international_url": "https://www.stubhub.ie/journey-san-francisco-tickets-11-28-2026/event/107169142",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956787",
     "organizer_names": [
       "AEG PRESENTS"
     ]

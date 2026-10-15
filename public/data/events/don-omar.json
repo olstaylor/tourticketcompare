@@ -673,7 +673,7 @@
     "ticketmaster_event_id": "2D0064AED07FC966",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-charlotte-north-carolina-10-14-2026/event/2D0064AED07FC966",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-charlotte-spectrum-center-10-14-2026/production/7047276",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-charlotte-north-carolina-10-14-2026/event/2D0064AED07FC966",
     "last_verified_at": "2026-10-08",
@@ -695,11 +695,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7047276,
-        "url": "https://www.vividseats.com/don-omar-tickets-charlotte-spectrum-center-10-14-2026/production/7047276",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -709,33 +709,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7976483",
-        "url": "https://www.ticketnetwork.com/en/p/7976483",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7976483",
-        "url": "https://www.ticketliquidator.com/tickets/7976483/Don-Omar-tickets-Wed-Oct-14-2026-Spectrum-Center",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107185218",
-        "url": "https://www.stubhub.ie/don-omar-charlotte-tickets-10-14-2026/event/107185218",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_1D8LHPJ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976483",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976483/Don-Omar-tickets-Wed-Oct-14-2026-Spectrum-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-charlotte-tickets-10-14-2026/event/107185218"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-don-omar-2026-washington-17a8v0g61wbnb9b",
@@ -775,7 +775,7 @@
         "event_id": 7047566,
         "url": "https://www.vividseats.com/don-omar-tickets-washington-capital-one-arena-10-15-2026/production/7047566",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -855,7 +855,7 @@
         "event_id": 7047576,
         "url": "https://www.vividseats.com/don-omar-tickets-atlanta-state-farm-arena-10-17-2026/production/7047576",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -935,7 +935,7 @@
         "event_id": 7049058,
         "url": "https://www.vividseats.com/don-omar-tickets-san-antonio-frost-bank-center-10-22-2026--concerts-world-music/production/7049058",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1023,7 +1023,7 @@
         "event_id": 7048010,
         "url": "https://www.vividseats.com/don-omar-tickets-houston-toyota-center---tx-10-23-2026/production/7048010",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1092,7 +1092,7 @@
         "event_id": 7047681,
         "url": "https://www.vividseats.com/don-omar-tickets-el-paso-don-haskins-center-10-25-2026/production/7047681",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1179,7 +1179,7 @@
         "event_id": 7047716,
         "url": "https://www.vividseats.com/don-omar-tickets-ontario-toyota-arena---ca-10-29-2026/production/7047716",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1266,7 +1266,7 @@
         "event_id": 7047951,
         "url": "https://www.vividseats.com/don-omar-tickets-las-vegas-michelob-ultra-arena-at-mandalay-bay-resort-and-casino-10-30-2026/production/7047951",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1343,7 +1343,7 @@
         "event_id": 7047578,
         "url": "https://www.vividseats.com/don-omar-tickets-salt-lake-city-delta-center-11-1-2026/production/7047578",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1475,7 +1475,7 @@
         "event_id": 7047724,
         "url": "https://www.vividseats.com/don-omar-tickets-inglewood-kia-forum-11-6-2026/production/7047724",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1562,7 +1562,7 @@
         "event_id": 7047748,
         "url": "https://www.vividseats.com/don-omar-tickets-phoenix-mortgage-matchup-center-11-8-2026/production/7047748",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1649,7 +1649,7 @@
         "event_id": 7198540,
         "url": "https://www.vividseats.com/don-omar-tickets-denver-ball-arena-2-3-2027/production/7198540",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1728,7 +1728,7 @@
         "event_id": 7198548,
         "url": "https://www.vividseats.com/don-omar-tickets-sacramento-golden-1-center-2-5-2027/production/7198548",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1815,7 +1815,7 @@
         "event_id": 7198538,
         "url": "https://www.vividseats.com/don-omar-tickets-seattle-climate-pledge-arena-2-7-2027/production/7198538",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1895,14 +1895,14 @@
         "event_id": 18333383,
         "url": "https://seatgeek.com/don-omar-tickets/san-diego-california-pechanga-arena-san-diego-2027-02-10-8-pm/concert/18333383",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7198606,
         "url": "https://www.vividseats.com/don-omar-tickets-san-diego-pechanga-arena-2-10-2027/production/7198606",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1971,7 +1971,7 @@
         "event_id": 7198544,
         "url": "https://www.vividseats.com/don-omar-tickets-fresno-save-mart-center-2-11-2027/production/7198544",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2058,7 +2058,7 @@
         "event_id": 7198550,
         "url": "https://www.vividseats.com/don-omar-tickets-inglewood-intuit-dome-2-12-2027/production/7198550",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2138,14 +2138,14 @@
         "event_id": 18325165,
         "url": "https://seatgeek.com/don-omar-tickets/toronto-canada-scotiabank-arena-2027-02-17-8-pm/concert/18325165",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7201125,
         "url": "https://www.vividseats.com/don-omar-tickets-toronto-scotiabank-arena-2-17-2027/production/7201125",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2208,7 +2208,7 @@
         "event_id": 7198935,
         "url": "https://www.vividseats.com/don-omar-tickets-montreal-bell-centre-2-21-2027/production/7198935",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2287,7 +2287,7 @@
         "event_id": 7198546,
         "url": "https://www.vividseats.com/don-omar-tickets-rosemont-allstate-arena-2-26-2027/production/7198546",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2374,7 +2374,7 @@
         "event_id": 7198512,
         "url": "https://www.vividseats.com/don-omar-tickets-elmont-ubs-arena-2-28-2027/production/7198512",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2437,7 +2437,7 @@
         "event_id": 7198530,
         "url": "https://www.vividseats.com/don-omar-tickets-newark-prudential-center-3-3-2027/production/7198530",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2524,7 +2524,7 @@
         "event_id": 7198516,
         "url": "https://www.vividseats.com/don-omar-tickets-baltimore-cfg-bank-arena-3-4-2027/production/7198516",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2603,7 +2603,7 @@
         "event_id": 7198522,
         "url": "https://www.vividseats.com/don-omar-tickets-fort-worth-dickies-arena-3-6-2027/production/7198522",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2690,7 +2690,7 @@
         "event_id": 7198526,
         "url": "https://www.vividseats.com/don-omar-tickets-austin-moody-center-atx-3-7-2027/production/7198526",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2777,7 +2777,7 @@
         "event_id": 7198528,
         "url": "https://www.vividseats.com/don-omar-tickets-tampa-benchmark-international-arena-3-10-2027/production/7198528",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2864,7 +2864,7 @@
         "event_id": 7198520,
         "url": "https://www.vividseats.com/don-omar-tickets-miami-kaseya-center-3-12-2027/production/7198520",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2951,7 +2951,7 @@
         "event_id": 7198514,
         "url": "https://www.vividseats.com/don-omar-tickets-orlando-kia-center-3-14-2027/production/7198514",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {

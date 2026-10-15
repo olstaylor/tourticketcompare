@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "65562275",
     "ticketmaster_url": "https://www.ticketmaster.es/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/65562275?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-madrid-movistar-arena---madrid-4-8-2027--concerts-rock/production/6900043",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/65562275?language=en-us",
     "last_verified_at": "2026-10-15",
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6900043,
+        "url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-madrid-movistar-arena---madrid-4-8-2027--concerts-rock/production/6900043",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -46,11 +46,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7877280",
+        "url": "https://www.ticketnetwork.com/en/p/7877280",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877280",
+        "url": "https://www.ticketliquidator.com/tickets/7877280/Thirty-Seconds-To-Mars-tickets-Thu-Apr-8-2027-Movistar-Arena-Madrid",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154484",
+        "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-madrid-movistar-arena-palacio-de-los-deportes-8-4-2027/event/107154484",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kvP4xag",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877280",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877280/Thirty-Seconds-To-Mars-tickets-Thu-Apr-8-2027-Movistar-Arena-Madrid",
+    "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-madrid-movistar-arena-palacio-de-los-deportes-8-4-2027/event/107154484",
     "organizer_names": [
       "Live Nation España Blue Lane, SL"
     ]
@@ -68,7 +92,7 @@
     "ticketmaster_event_id": "1354406695",
     "ticketmaster_url": "https://www.ticketmaster.es/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1354406695?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-valencia-roig-arena-4-9-2027--concerts-rock/production/6900059",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1354406695?language=en-us",
     "last_verified_at": "2026-10-15",
@@ -90,11 +114,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6900059,
+        "url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-valencia-roig-arena-4-9-2027--concerts-rock/production/6900059",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -102,11 +126,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7877281",
+        "url": "https://www.ticketnetwork.com/en/p/7877281",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877281",
+        "url": "https://www.ticketliquidator.com/tickets/7877281/Thirty-Seconds-To-Mars-tickets-Fri-Apr-9-2027-Roig-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154485",
+        "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-valencia-roig-arena-9-4-2027/event/107154485",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vuf8kQ4",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877281",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877281/Thirty-Seconds-To-Mars-tickets-Fri-Apr-9-2027-Roig-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-valencia-roig-arena-9-4-2027/event/107154485",
     "organizer_names": [
       "Live Nation España Blue Lane, SL"
     ]
@@ -211,11 +259,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7877284",
+        "url": "https://www.ticketnetwork.com/en/p/7877284",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877284",
+        "url": "https://www.ticketliquidator.com/tickets/7877284/Thirty-Seconds-To-Mars-tickets-Mon-Apr-12-2027-Kleine-Olympiahalle-Munich",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107156408",
+        "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-munich-olympiahalle-munich-12-4-2027/event/107156408",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vfVofPp",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877284",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877284/Thirty-Seconds-To-Mars-tickets-Mon-Apr-12-2027-Kleine-Olympiahalle-Munich",
+    "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-munich-olympiahalle-munich-12-4-2027/event/107156408",
     "organizer_names": [
       "Live Nation GmbH"
     ]
@@ -267,11 +339,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7877285",
+        "url": "https://www.ticketnetwork.com/en/p/7877285",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877285",
+        "url": "https://www.ticketliquidator.com/tickets/7877285/Thirty-Seconds-To-Mars-tickets-Wed-Apr-14-2027-Wiener-Stadthalle-Halle-D",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ5rZ1k-Suw-g",
     "timezone": "Europe/Vienna",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877285",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877285/Thirty-Seconds-To-Mars-tickets-Wed-Apr-14-2027-Wiener-Stadthalle-Halle-D",
     "organizer_names": [
       "Live Nation Austria GmbH"
     ]
@@ -379,11 +467,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7877291",
+        "url": "https://www.ticketnetwork.com/en/p/7877291",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877291",
+        "url": "https://www.ticketliquidator.com/tickets/7877291/Thirty-Seconds-To-Mars-tickets-Tue-Apr-20-2027-ZAG-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107156422",
+        "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-hannover-zag-arena-20-4-2027/event/107156422",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vqP_xfz",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877291",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877291/Thirty-Seconds-To-Mars-tickets-Tue-Apr-20-2027-ZAG-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-hannover-zag-arena-20-4-2027/event/107156422",
     "organizer_names": [
       "Live Nation GmbH"
     ]
@@ -457,7 +569,7 @@
     "ticketmaster_event_id": "35006489E7D2A5CD",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-london-28-04-2027/event/35006489E7D2A5CD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-london-the-o2---london-4-28-2027--concerts-rock/production/6899989",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-london-28-04-2027/event/35006489E7D2A5CD",
     "last_verified_at": "2026-10-15",
@@ -479,11 +591,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6899989,
+        "url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-london-the-o2---london-4-28-2027--concerts-rock/production/6899989",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -491,11 +603,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107158077",
+        "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-london-the-o2-arena-28-4-2027/event/107158077",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk3aGkdEVn9u",
     "timezone": "Europe/London",
     "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-london-the-o2-arena-28-4-2027/event/107158077",
     "organizer_names": [
       "S.J.M. LTD"
     ]
@@ -513,7 +633,7 @@
     "ticketmaster_event_id": "37006489B09E2233",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-manchester-29-04-2027/event/37006489B09E2233",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-manchester-co-op-live-4-29-2027--concerts-rock/production/6892010",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-manchester-29-04-2027/event/37006489B09E2233",
     "last_verified_at": "2026-10-15",
@@ -535,11 +655,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6892010,
+        "url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-manchester-co-op-live-4-29-2027--concerts-rock/production/6892010",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -547,11 +667,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7870156",
+        "url": "https://www.ticketnetwork.com/en/p/7870156",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7870156",
+        "url": "https://www.ticketliquidator.com/tickets/7870156/Thirty-Seconds-To-Mars-tickets-Thu-Apr-29-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155347",
+        "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-manchester-co-op-live-29-4-2027/event/107155347",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk3aGkeYExFS",
     "timezone": "Europe/London",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7870156",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7870156/Thirty-Seconds-To-Mars-tickets-Thu-Apr-29-2027-Co-Op-Live",
+    "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-manchester-co-op-live-29-4-2027/event/107155347",
     "organizer_names": [
       "CO-OP LIVE",
       "S.J.M. LTD",
@@ -605,11 +749,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7877303",
+        "url": "https://www.ticketnetwork.com/en/p/7877303",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877303",
+        "url": "https://www.ticketliquidator.com/tickets/7877303/Thirty-Seconds-To-Mars-tickets-Sat-May-1-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AbZk36GkeUAWHf",
     "timezone": "Europe/London",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877303",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877303/Thirty-Seconds-To-Mars-tickets-Sat-May-1-2027-3Arena-Dublin",
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"

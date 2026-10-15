@@ -46,6 +46,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8165327",
+        "url": "https://www.ticketnetwork.com/en/p/8165327",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62K5zuJ3",
@@ -58,6 +65,7 @@
         "end": "2026-11-12T04:00:00Z"
       }
     ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165327",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -109,6 +117,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8165328",
+        "url": "https://www.ticketnetwork.com/en/p/8165328",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62K5zcJ9",
@@ -121,6 +136,7 @@
         "end": "2026-11-14T04:00:00Z"
       }
     ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165328",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -172,6 +188,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8165329",
+        "url": "https://www.ticketnetwork.com/en/p/8165329",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62K5yqJh",
@@ -184,6 +207,7 @@
         "end": "2026-11-15T04:00:00Z"
       }
     ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165329",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -235,6 +259,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8165325",
+        "url": "https://www.ticketnetwork.com/en/p/8165325",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62K5UqJk",
@@ -248,6 +279,7 @@
         "end": "2026-10-17T03:00:00Z"
       }
     ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165325",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -299,6 +331,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8165326",
+        "url": "https://www.ticketnetwork.com/en/p/8165326",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62K5MuJ2",
@@ -312,6 +351,7 @@
         "end": "2026-10-18T03:00:00Z"
       }
     ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165326",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -370,11 +410,19 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8237289",
+        "url": "https://www.ticketnetwork.com/en/p/8237289",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv_-z",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8237289/Lionel-Richie-tickets-Sat-Jan-30-2027-Lucas-Oil-Live-At-WinStar-Casino"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8237289/Lionel-Richie-tickets-Sat-Jan-30-2027-Lucas-Oil-Live-At-WinStar-Casino",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8237289"
   }
 ]

@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "170064E18A2B80F1",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-04-2026/event/170064E18A2B80F1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-4-2026/production/7256784",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-04-2026/event/170064E18A2B80F1",
     "last_verified_at": "2026-10-15",
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7256784,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-4-2026/production/7256784",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -46,11 +46,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8113675",
+        "url": "https://www.ticketnetwork.com/en/p/8113675",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113675",
+        "url": "https://www.ticketliquidator.com/tickets/8113675/Santana-tickets-Wed-Nov-4-2026-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107469464",
+        "url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-4-2026/event/107469464",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck11zds",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113675",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113675/Santana-tickets-Wed-Nov-4-2026-House-Of-Blues-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-4-2026/event/107469464",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -75,7 +99,7 @@
     "ticketmaster_event_id": "170064E18A3080FA",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-05-2026/event/170064E18A3080FA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-5-2026/production/7256820",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-05-2026/event/170064E18A3080FA",
     "last_verified_at": "2026-10-15",
@@ -97,11 +121,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7256820,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-5-2026/production/7256820",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -109,11 +133,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8113676",
+        "url": "https://www.ticketnetwork.com/en/p/8113676",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113676",
+        "url": "https://www.ticketliquidator.com/tickets/8113676/Santana-tickets-Thu-Nov-5-2026-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107472158",
+        "url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-5-2026/event/107472158",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1GFdB",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113676",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113676/Santana-tickets-Thu-Nov-5-2026-House-Of-Blues-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-5-2026/event/107472158",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -138,7 +186,7 @@
     "ticketmaster_event_id": "170064E18A358103",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-07-2026/event/170064E18A358103",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-7-2026/production/7256822",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-07-2026/event/170064E18A358103",
     "last_verified_at": "2026-10-15",
@@ -160,11 +208,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7256822,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-7-2026/production/7256822",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -172,11 +220,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8113677",
+        "url": "https://www.ticketnetwork.com/en/p/8113677",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113677",
+        "url": "https://www.ticketliquidator.com/tickets/8113677/Santana-tickets-Sat-Nov-7-2026-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107469465",
+        "url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-7-2026/event/107469465",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1ub7d",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113677",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113677/Santana-tickets-Sat-Nov-7-2026-House-Of-Blues-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-7-2026/event/107469465",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -201,7 +273,7 @@
     "ticketmaster_event_id": "170064E18A3B8112",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-08-2026/event/170064E18A3B8112",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-8-2026/production/7256798",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-08-2026/event/170064E18A3B8112",
     "last_verified_at": "2026-10-15",
@@ -223,11 +295,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7256798,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-8-2026/production/7256798",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -235,11 +307,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8113678",
+        "url": "https://www.ticketnetwork.com/en/p/8113678",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113678",
+        "url": "https://www.ticketliquidator.com/tickets/8113678/Santana-tickets-Sun-Nov-8-2026-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107472159",
+        "url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-8-2026/event/107472159",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1Cz73",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113678",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113678/Santana-tickets-Sun-Nov-8-2026-House-Of-Blues-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-8-2026/event/107472159",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -264,7 +360,7 @@
     "ticketmaster_event_id": "170064E18A408117",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-11-2026/event/170064E18A408117",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-11-2026/production/7256786",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-11-2026/event/170064E18A408117",
     "last_verified_at": "2026-10-15",
@@ -286,11 +382,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7256786,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-11-2026/production/7256786",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -298,11 +394,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8113679",
+        "url": "https://www.ticketnetwork.com/en/p/8113679",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113679",
+        "url": "https://www.ticketliquidator.com/tickets/8113679/Santana-tickets-Wed-Nov-11-2026-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107472160",
+        "url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-11-2026/event/107472160",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck18F79",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113679",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113679/Santana-tickets-Wed-Nov-11-2026-House-Of-Blues-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-11-2026/event/107472160",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -327,7 +447,7 @@
     "ticketmaster_event_id": "170064E18A46811E",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-12-2026/event/170064E18A46811E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-12-2026/production/7256808",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-12-2026/event/170064E18A46811E",
     "last_verified_at": "2026-10-15",
@@ -349,11 +469,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7256808,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-12-2026/production/7256808",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -361,11 +481,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8113680",
+        "url": "https://www.ticketnetwork.com/en/p/8113680",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113680",
+        "url": "https://www.ticketliquidator.com/tickets/8113680/Santana-tickets-Thu-Nov-12-2026-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107469466",
+        "url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-12-2026/event/107469466",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1oI7r",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113680",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113680/Santana-tickets-Thu-Nov-12-2026-House-Of-Blues-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-12-2026/event/107469466",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -390,7 +534,7 @@
     "ticketmaster_event_id": "170064E18A4B8125",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-14-2026/event/170064E18A4B8125",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-14-2026/production/7256792",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-14-2026/event/170064E18A4B8125",
     "last_verified_at": "2026-10-15",
@@ -412,11 +556,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7256792,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-14-2026/production/7256792",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -424,11 +568,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8113681",
+        "url": "https://www.ticketnetwork.com/en/p/8113681",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113681",
+        "url": "https://www.ticketliquidator.com/tickets/8113681/Santana-tickets-Sat-Nov-14-2026-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107472161",
+        "url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-14-2026/event/107472161",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck13z7P",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113681",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113681/Santana-tickets-Sat-Nov-14-2026-House-Of-Blues-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-14-2026/event/107472161",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -453,7 +621,7 @@
     "ticketmaster_event_id": "170064E18A51812C",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-15-2026/event/170064E18A51812C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-15-2026/production/7256832",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-15-2026/event/170064E18A51812C",
     "last_verified_at": "2026-10-15",
@@ -475,11 +643,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7256832,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-15-2026/production/7256832",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -487,11 +655,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8113682",
+        "url": "https://www.ticketnetwork.com/en/p/8113682",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113682",
+        "url": "https://www.ticketliquidator.com/tickets/8113682/Santana-tickets-Sun-Nov-15-2026-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107472162",
+        "url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-15-2026/event/107472162",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1fb7i",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113682",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113682/Santana-tickets-Sun-Nov-15-2026-House-Of-Blues-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-15-2026/event/107472162",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -515,8 +707,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "170065264D2C1DD1",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-20-2027/event/170065264D2C1DD1",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-01-20-7-pm/concert/18628819",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-20-2027/production/7619530",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-20-2027/event/170065264D2C1DD1",
     "last_verified_at": "2026-10-15",
@@ -538,11 +730,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619530,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-20-2027/production/7619530",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -550,11 +742,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294011",
+        "url": "https://www.ticketnetwork.com/en/p/8294011",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294011",
+        "url": "https://www.ticketliquidator.com/tickets/8294011/Santana-tickets-Wed-Jan-20-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAu5vMo",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294011",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294011/Santana-tickets-Wed-Jan-20-2027-House-Of-Blues-Las-Vegas",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -578,8 +786,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "170065264D311DFA",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-21-2027/event/170065264D311DFA",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-01-21-7-pm/concert/18628820",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-21-2027/production/7619678",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-21-2027/event/170065264D311DFA",
     "last_verified_at": "2026-10-15",
@@ -601,11 +809,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619678,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-21-2027/production/7619678",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -613,11 +821,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294012",
+        "url": "https://www.ticketnetwork.com/en/p/8294012",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294012",
+        "url": "https://www.ticketliquidator.com/tickets/8294012/Santana-tickets-Thu-Jan-21-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuGoMB",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294012",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294012/Santana-tickets-Thu-Jan-21-2027-House-Of-Blues-Las-Vegas",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -642,7 +866,7 @@
     "ticketmaster_event_id": "170065264D361E06",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-23-2027/event/170065264D361E06",
     "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-01-23-7-pm/concert/18628821",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-23-2027/production/7619574",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-23-2027/event/170065264D361E06",
     "last_verified_at": "2026-10-15",
@@ -664,11 +888,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619574,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-23-2027/production/7619574",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -676,11 +900,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294013",
+        "url": "https://www.ticketnetwork.com/en/p/8294013",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294013",
+        "url": "https://www.ticketliquidator.com/tickets/8294013/Santana-tickets-Sat-Jan-23-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuu-zk",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294013",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294013/Santana-tickets-Sat-Jan-23-2027-House-Of-Blues-Las-Vegas",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -705,7 +945,7 @@
     "ticketmaster_event_id": "170065264D3B1E15",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-24-2027/event/170065264D3B1E15",
     "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-01-24-7-pm/concert/18628822",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-24-2027/production/7619550",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-24-2027/event/170065264D3B1E15",
     "last_verified_at": "2026-10-15",
@@ -727,11 +967,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619550,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-24-2027/production/7619550",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -739,11 +979,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294014",
+        "url": "https://www.ticketnetwork.com/en/p/8294014",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294014",
+        "url": "https://www.ticketliquidator.com/tickets/8294014/Santana-tickets-Sun-Jan-24-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuCsz4",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294014",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294014/Santana-tickets-Sun-Jan-24-2027-House-Of-Blues-Las-Vegas",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -768,7 +1024,7 @@
     "ticketmaster_event_id": "170065264D401E27",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-27-2027/event/170065264D401E27",
     "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-01-27-7-pm/concert/18628823",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-27-2027/production/7619552",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-27-2027/event/170065264D401E27",
     "last_verified_at": "2026-10-15",
@@ -790,11 +1046,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619552,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-27-2027/production/7619552",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -802,11 +1058,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294015",
+        "url": "https://www.ticketnetwork.com/en/p/8294015",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294015",
+        "url": "https://www.ticketliquidator.com/tickets/8294015/Santana-tickets-Wed-Jan-27-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAu8vzE",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294015",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294015/Santana-tickets-Wed-Jan-27-2027-House-Of-Blues-Las-Vegas",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -831,7 +1103,7 @@
     "ticketmaster_event_id": "170065264D451E32",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-28-2027/event/170065264D451E32",
     "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-01-28-7-pm/concert/18628824",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-28-2027/production/7619586",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-28-2027/event/170065264D451E32",
     "last_verified_at": "2026-10-15",
@@ -853,11 +1125,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619586,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-28-2027/production/7619586",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -865,11 +1137,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294016",
+        "url": "https://www.ticketnetwork.com/en/p/8294016",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294016",
+        "url": "https://www.ticketliquidator.com/tickets/8294016/Santana-tickets-Thu-Jan-28-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuoozw",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294016",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294016/Santana-tickets-Thu-Jan-28-2027-House-Of-Blues-Las-Vegas",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -894,7 +1182,7 @@
     "ticketmaster_event_id": "170065264D4A1E55",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-30-2027/event/170065264D4A1E55",
     "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-01-30-7-pm/concert/18628831",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-30-2027/production/7619548",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-30-2027/event/170065264D4A1E55",
     "last_verified_at": "2026-10-15",
@@ -916,11 +1204,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619548,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-30-2027/production/7619548",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -928,11 +1216,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294018",
+        "url": "https://www.ticketnetwork.com/en/p/8294018",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294018",
+        "url": "https://www.ticketliquidator.com/tickets/8294018/Santana-tickets-Sat-Jan-30-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAu3-y4",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294018",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294018/Santana-tickets-Sat-Jan-30-2027-House-Of-Blues-Las-Vegas",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -957,7 +1261,7 @@
     "ticketmaster_event_id": "170065264D4F1E62",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-31-2027/event/170065264D4F1E62",
     "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-01-31-7-pm/concert/18628832",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-31-2027/production/7619584",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-31-2027/event/170065264D4F1E62",
     "last_verified_at": "2026-10-15",
@@ -979,11 +1283,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619584,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-31-2027/production/7619584",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -991,11 +1295,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294019",
+        "url": "https://www.ticketnetwork.com/en/p/8294019",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294019",
+        "url": "https://www.ticketliquidator.com/tickets/8294019/Santana-tickets-Sun-Jan-31-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuKsyx",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294019",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294019/Santana-tickets-Sun-Jan-31-2027-House-Of-Blues-Las-Vegas",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -1020,7 +1340,7 @@
     "ticketmaster_event_id": "170065264D541E69",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-12-2027/event/170065264D541E69",
     "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-05-12-7-pm/concert/18628833",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-12-2027/production/7619572",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-12-2027/event/170065264D541E69",
     "last_verified_at": "2026-10-15",
@@ -1042,11 +1362,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619572,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-12-2027/production/7619572",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1054,11 +1374,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294020",
+        "url": "https://www.ticketnetwork.com/en/p/8294020",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294020",
+        "url": "https://www.ticketliquidator.com/tickets/8294020/Santana-tickets-Wed-May-12-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAu4vyt",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294020",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294020/Santana-tickets-Wed-May-12-2027-House-Of-Blues-Las-Vegas",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -1083,7 +1419,7 @@
     "ticketmaster_event_id": "170065264D591E6F",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-13-2027/event/170065264D591E6F",
     "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-05-13-7-pm/concert/18628834",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-13-2027/production/7619528",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-13-2027/event/170065264D591E6F",
     "last_verified_at": "2026-10-15",
@@ -1105,11 +1441,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619528,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-13-2027/production/7619528",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1117,11 +1453,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294021",
+        "url": "https://www.ticketnetwork.com/en/p/8294021",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294021",
+        "url": "https://www.ticketliquidator.com/tickets/8294021/Santana-tickets-Thu-May-13-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAupoyR",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294021",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294021/Santana-tickets-Thu-May-13-2027-House-Of-Blues-Las-Vegas",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -1146,7 +1498,7 @@
     "ticketmaster_event_id": "170065264D5E1E73",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-15-2027/event/170065264D5E1E73",
     "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-05-15-7-pm/concert/18628836",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-15-2027/production/7619680",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-15-2027/event/170065264D5E1E73",
     "last_verified_at": "2026-10-15",
@@ -1168,11 +1520,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619680,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-15-2027/production/7619680",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1180,11 +1532,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294022",
+        "url": "https://www.ticketnetwork.com/en/p/8294022",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294022",
+        "url": "https://www.ticketliquidator.com/tickets/8294022/Santana-tickets-Sat-May-15-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAu9-yS",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294022",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294022/Santana-tickets-Sat-May-15-2027-House-Of-Blues-Las-Vegas",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -1209,7 +1577,7 @@
     "ticketmaster_event_id": "170065264D631E7D",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-16-2027/event/170065264D631E7D",
     "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-05-16-7-pm/concert/18628837",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-16-2027/production/7619532",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-16-2027/event/170065264D631E7D",
     "last_verified_at": "2026-10-15",
@@ -1231,11 +1599,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619532,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-16-2027/production/7619532",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1243,11 +1611,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294023",
+        "url": "https://www.ticketnetwork.com/en/p/8294023",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294023",
+        "url": "https://www.ticketliquidator.com/tickets/8294023/Santana-tickets-Sun-May-16-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAubsyW",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294023",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294023/Santana-tickets-Sun-May-16-2027-House-Of-Blues-Las-Vegas",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -1272,7 +1656,7 @@
     "ticketmaster_event_id": "170065264D6A1E97",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-19-2027/event/170065264D6A1E97",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-19-2027/production/7619660",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-19-2027/event/170065264D6A1E97",
     "last_verified_at": "2026-10-15",
@@ -1294,11 +1678,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619660,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-19-2027/production/7619660",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1306,11 +1690,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294024",
+        "url": "https://www.ticketnetwork.com/en/p/8294024",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294024",
+        "url": "https://www.ticketliquidator.com/tickets/8294024/Santana-tickets-Wed-May-19-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuQ-B9",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294024",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294024/Santana-tickets-Wed-May-19-2027-House-Of-Blues-Las-Vegas",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -1335,7 +1735,7 @@
     "ticketmaster_event_id": "170065264D701EAC",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-20-2027/event/170065264D701EAC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-20-2027/production/7619638",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-20-2027/event/170065264D701EAC",
     "last_verified_at": "2026-10-15",
@@ -1357,11 +1757,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619638,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-20-2027/production/7619638",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1369,11 +1769,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294025",
+        "url": "https://www.ticketnetwork.com/en/p/8294025",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294025",
+        "url": "https://www.ticketliquidator.com/tickets/8294025/Santana-tickets-Thu-May-20-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAujvBi",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294025",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294025/Santana-tickets-Thu-May-20-2027-House-Of-Blues-Las-Vegas",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -1398,7 +1814,7 @@
     "ticketmaster_event_id": "170065264D761EBA",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-22-2027/event/170065264D761EBA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-22-2027/production/7619526",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-22-2027/event/170065264D761EBA",
     "last_verified_at": "2026-10-15",
@@ -1420,11 +1836,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619526,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-22-2027/production/7619526",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1432,11 +1848,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294026",
+        "url": "https://www.ticketnetwork.com/en/p/8294026",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294026",
+        "url": "https://www.ticketliquidator.com/tickets/8294026/Santana-tickets-Sat-May-22-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuq-BB",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294026",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294026/Santana-tickets-Sat-May-22-2027-House-Of-Blues-Las-Vegas",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -1461,7 +1893,7 @@
     "ticketmaster_event_id": "170065264D7B1EC1",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-23-2027/event/170065264D7B1EC1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-23-2027/production/7619556",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-23-2027/event/170065264D7B1EC1",
     "last_verified_at": "2026-10-15",
@@ -1483,11 +1915,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619556,
+        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-23-2027/production/7619556",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1495,11 +1927,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294027",
+        "url": "https://www.ticketnetwork.com/en/p/8294027",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294027",
+        "url": "https://www.ticketliquidator.com/tickets/8294027/Santana-tickets-Sun-May-23-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAursDv",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294027",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294027/Santana-tickets-Sun-May-23-2027-House-Of-Blues-Las-Vegas",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],

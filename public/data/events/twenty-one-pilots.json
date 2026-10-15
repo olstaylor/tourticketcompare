@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7965455",
+        "url": "https://www.ticketnetwork.com/en/p/7965455",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_1UqT9_r",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7965455/Twenty-One-Pilots-tickets-Sat-Oct-17-2026-Ohio-Stadium",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7965455",
     "organizer_names": [
       "PROMOTED BY VENUE"
     ]

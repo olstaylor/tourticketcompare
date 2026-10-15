@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "17006465DF19250E",
     "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-16-2026/event/17006465DF19250E",
     "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-16-8-30-pm/concert/18138584",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-16-2026/production/6818296",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-16-2026/event/17006465DF19250E",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6818296,
+        "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-16-2026/production/6818296",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "17006465DF1E251F",
     "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-17-2026/event/17006465DF1E251F",
     "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-17-8-30-pm/concert/18138586",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-17-2026/production/6818320",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-17-2026/event/17006465DF1E251F",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6818320,
+        "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-17-2026/production/6818320",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "17006465DF232529",
     "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-18-2026/event/17006465DF232529",
     "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-18-8-30-pm/concert/18138583",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-18-2026/production/6818302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-18-2026/event/17006465DF232529",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6818302,
+        "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-18-2026/production/6818302",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "17006465DF27253B",
     "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-21-2026/event/17006465DF27253B",
     "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-21-8-30-pm/concert/18138582",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-21-2026/production/6818332",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-21-2026/event/17006465DF27253B",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6818332,
+        "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-21-2026/production/6818332",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "17006465DF2C2547",
     "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-23-2026/event/17006465DF2C2547",
     "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-23-8-30-pm/concert/18138585",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-23-2026/production/6818308",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-23-2026/event/17006465DF2C2547",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6818308,
+        "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-23-2026/production/6818308",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "17006465DF302558",
     "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-24-2026/event/17006465DF302558",
     "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-24-8-30-pm/concert/18138587",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-24-2026/production/6818363",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-24-2026/event/17006465DF302558",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6818363,
+        "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-24-2026/production/6818363",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "17006465DF352563",
     "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-28-2026/event/17006465DF352563",
     "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-28-8-30-pm/concert/18138592",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-28-2026/production/6818379",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-28-2026/event/17006465DF352563",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6818379,
+        "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-28-2026/production/6818379",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "17006465DF392578",
     "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-30-2026/event/17006465DF392578",
     "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-30-8-30-pm/concert/18138594",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-30-2026/production/6818361",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-30-2026/event/17006465DF392578",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6818361,
+        "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-30-2026/production/6818361",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "17006465DF3D2591",
     "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-31-2026/event/17006465DF3D2591",
     "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-31-8-30-pm/concert/18138595",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-31-2026/production/6818352",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-31-2026/event/17006465DF3D2591",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6818352,
+        "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-31-2026/production/6818352",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "02006505E1423B61",
     "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-atlantic-city-new-jersey-12-11-2026/event/02006505E1423B61",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-12-11-2026/production/7415962",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-atlantic-city-new-jersey-12-11-2026/event/02006505E1423B61",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7415962,
+        "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-12-11-2026/production/7415962",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "02006505E1453B6E",
     "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-atlantic-city-new-jersey-12-12-2026/event/02006505E1453B6E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-12-12-2026/production/7415944",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-atlantic-city-new-jersey-12-12-2026/event/02006505E1453B6E",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7415944,
+        "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-12-12-2026/production/7415944",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZwqd",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwqd",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-thackerville-lucas-oil-live-at-winstar-world-casino-12-31-2026/production/7375754",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwqd",
     "last_verified_at": null,
@@ -617,11 +617,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7375754,
+        "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-thackerville-lucas-oil-live-at-winstar-world-casino-12-31-2026/production/7375754",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -701,7 +701,7 @@
     "ticketmaster_event_id": "1B00653DA76CDFE0",
     "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-brandon-mississippi-04-17-2027/event/1B00653DA76CDFE0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-brandon-brandon-amphitheater-4-17-2027/production/7653292",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-brandon-mississippi-04-17-2027/event/1B00653DA76CDFE0",
     "last_verified_at": null,
@@ -723,11 +723,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653292,
+        "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-brandon-brandon-amphitheater-4-17-2027/production/7653292",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -754,7 +754,7 @@
     "ticketmaster_event_id": "1B00654111A56E6B",
     "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-southaven-mississippi-04-20-2027/event/1B00654111A56E6B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-southaven-bankplus-amphitheater-at-snowden-grove-4-20-2027/production/7653362",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-southaven-mississippi-04-20-2027/event/1B00654111A56E6B",
     "last_verified_at": null,
@@ -776,11 +776,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653362,
+        "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-southaven-bankplus-amphitheater-at-snowden-grove-4-20-2027/production/7653362",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -807,7 +807,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAeb18",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb18",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-huntsville-orion-amphitheater-4-21-2027/production/7653342",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb18",
     "last_verified_at": null,
@@ -829,11 +829,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653342,
+        "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-huntsville-orion-amphitheater-4-21-2027/production/7653342",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -860,7 +860,7 @@
     "ticketmaster_event_id": "0E006524BE32CE59",
     "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-atlanta-georgia-04-23-2027/event/0E006524BE32CE59",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-atlanta-synovus-bank-amphitheater-at-chastain-park-4-23-2027/production/7653609",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-atlanta-georgia-04-23-2027/event/0E006524BE32CE59",
     "last_verified_at": null,
@@ -882,11 +882,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653609,
+        "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-atlanta-synovus-bank-amphitheater-at-chastain-park-4-23-2027/production/7653609",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -966,7 +966,7 @@
     "ticketmaster_event_id": "2D006537CF4042FE",
     "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-earth-wind-fire-columbia-south-carolina-04-27-2027/event/2D006537CF4042FE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-columbia-township-auditorium-4-27-2027/production/7653384",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-earth-wind-fire-columbia-south-carolina-04-27-2027/event/2D006537CF4042FE",
     "last_verified_at": null,
@@ -988,11 +988,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653384,
+        "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-columbia-township-auditorium-4-27-2027/production/7653384",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1072,7 +1072,7 @@
     "ticketmaster_event_id": "2D00653DC545FA77",
     "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-charlotte-north-carolina-04-30-2027/event/2D00653DC545FA77",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-charlotte-skyla-credit-union-amphitheatre-4-30-2027/production/7653448",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-charlotte-north-carolina-04-30-2027/event/2D00653DC545FA77",
     "last_verified_at": null,
@@ -1094,11 +1094,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653448,
+        "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-charlotte-skyla-credit-union-amphitheatre-4-30-2027/production/7653448",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

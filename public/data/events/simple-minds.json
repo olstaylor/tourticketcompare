@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "603594843",
     "ticketmaster_url": "https://www.ticketmaster.de/event/simple-minds-european-tour-live-2027-tickets/603594843?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-minds-tickets-berlin-uber-arena-4-21-2027/production/7536923",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/simple-minds-european-tour-live-2027-tickets/603594843?language=en-us",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7536923,
+        "url": "https://www.vividseats.com/simple-minds-tickets-berlin-uber-arena-4-21-2027/production/7536923",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "923129992",
     "ticketmaster_url": "https://www.ticketmaster.de/event/simple-minds-european-tour-live-2027-tickets/923129992?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-minds-tickets-hamburg-barclays-arena---hamburg-4-27-2027/production/7536939",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/simple-minds-european-tour-live-2027-tickets/923129992?language=en-us",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7536939,
+        "url": "https://www.vividseats.com/simple-minds-tickets-hamburg-barclays-arena---hamburg-4-27-2027/production/7536939",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "3500652292F75B9E",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/simple-minds-london-06-05-2027/event/3500652292F75B9E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-minds-tickets-london-the-o2---london-5-6-2027--concerts-alternative/production/7531538",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simple-minds-london-06-05-2027/event/3500652292F75B9E",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7531538,
+        "url": "https://www.vividseats.com/simple-minds-tickets-london-the-o2---london-5-6-2027--concerts-alternative/production/7531538",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "37006522C0F666EE",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/simple-minds-manchester-07-05-2027/event/37006522C0F666EE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-minds-tickets-manchester-co-op-live-5-7-2027--concerts-alternative/production/7514733",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simple-minds-manchester-07-05-2027/event/37006522C0F666EE",
     "last_verified_at": null,
@@ -617,11 +617,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7514733,
+        "url": "https://www.vividseats.com/simple-minds-tickets-manchester-co-op-live-5-7-2027--concerts-alternative/production/7514733",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -648,7 +648,7 @@
     "ticketmaster_event_id": "2300652293155BA2",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/simple-minds-birmingham-08-05-2027/event/2300652293155BA2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-minds-tickets-birmingham-utilita-arena-birmingham-5-8-2027--concerts-alternative/production/7531540",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simple-minds-birmingham-08-05-2027/event/2300652293155BA2",
     "last_verified_at": null,
@@ -670,11 +670,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7531540,
+        "url": "https://www.vividseats.com/simple-minds-tickets-birmingham-utilita-arena-birmingham-5-8-2027--concerts-alternative/production/7531540",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -701,7 +701,7 @@
     "ticketmaster_event_id": "3500652293295C0A",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/simple-minds-nottingham-10-05-2027/event/3500652293295C0A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-minds-tickets-nottingham-motorpoint-arena---nottingham-5-10-2027--concerts-alternative/production/7531544",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simple-minds-nottingham-10-05-2027/event/3500652293295C0A",
     "last_verified_at": null,
@@ -723,11 +723,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7531544,
+        "url": "https://www.vividseats.com/simple-minds-tickets-nottingham-motorpoint-arena---nottingham-5-10-2027--concerts-alternative/production/7531544",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -754,7 +754,7 @@
     "ticketmaster_event_id": "1F00652293431A17",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/simple-minds-leeds-11-05-2027/event/1F00652293431A17",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-minds-tickets-leeds-first-direct-arena---leeds-5-11-2027--concerts-alternative/production/7531552",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simple-minds-leeds-11-05-2027/event/1F00652293431A17",
     "last_verified_at": null,
@@ -776,11 +776,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7531552,
+        "url": "https://www.vividseats.com/simple-minds-tickets-leeds-first-direct-arena---leeds-5-11-2027--concerts-alternative/production/7531552",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -807,7 +807,7 @@
     "ticketmaster_event_id": "1F00652293541A38",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/simple-minds-newcastle-upon-tyne-13-05-2027/event/1F00652293541A38",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-minds-tickets-newcastle-upon-tyne-utilita-arena-newcastle-5-13-2027--concerts-alternative/production/7531554",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simple-minds-newcastle-upon-tyne-13-05-2027/event/1F00652293541A38",
     "last_verified_at": null,
@@ -829,11 +829,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7531554,
+        "url": "https://www.vividseats.com/simple-minds-tickets-newcastle-upon-tyne-utilita-arena-newcastle-5-13-2027--concerts-alternative/production/7531554",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -860,7 +860,7 @@
     "ticketmaster_event_id": "36006522E48BBBD0",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/simple-minds-glasgow-14-05-2027/event/36006522E48BBBD0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-minds-tickets-glasgow-ovo-hydro-5-14-2027--concerts-alternative/production/7531556",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simple-minds-glasgow-14-05-2027/event/36006522E48BBBD0",
     "last_verified_at": null,
@@ -882,11 +882,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7531556,
+        "url": "https://www.vividseats.com/simple-minds-tickets-glasgow-ovo-hydro-5-14-2027--concerts-alternative/production/7531556",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

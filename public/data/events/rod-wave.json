@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "1B0064D1D297D9E5",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-nashville-tennessee-10-14-2026/event/1B0064D1D297D9E5",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-nashville-bridgestone-arena-10-14-2026/production/7185483",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-nashville-tennessee-10-14-2026/event/1B0064D1D297D9E5",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7185483,
-        "url": "https://www.vividseats.com/rod-wave-tickets-nashville-bridgestone-arena-10-14-2026/production/7185483",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -159,7 +159,7 @@
         "event_id": 7185739,
         "url": "https://www.vividseats.com/rod-wave-tickets-washington-capital-one-arena-10-16-2026--concerts-rap-hip-hop/production/7185739",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -236,7 +236,7 @@
         "event_id": 7185743,
         "url": "https://www.vividseats.com/rod-wave-tickets-detroit-little-caesars-arena-10-19-2026--concerts-rap-hip-hop/production/7185743",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -320,7 +320,7 @@
         "event_id": 7185749,
         "url": "https://www.vividseats.com/rod-wave-tickets-columbus-value-city-arena-at-schottenstein-center-10-22-2026--concerts-rap-hip-hop/production/7185749",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -396,7 +396,7 @@
         "event_id": 7185759,
         "url": "https://www.vividseats.com/rod-wave-tickets-pittsburgh-ppg-paints-arena-10-23-2026--concerts-rap-hip-hop/production/7185759",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -472,7 +472,7 @@
         "event_id": 7185765,
         "url": "https://www.vividseats.com/rod-wave-tickets-boston-td-garden-10-25-2026--concerts-rap-hip-hop/production/7185765",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -556,7 +556,7 @@
         "event_id": 7185769,
         "url": "https://www.vividseats.com/rod-wave-tickets-brooklyn-barclays-center-10-27-2026--concerts-rap-hip-hop/production/7185769",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -640,7 +640,7 @@
         "event_id": 7367116,
         "url": "https://www.vividseats.com/rod-wave-tickets-brooklyn-barclays-center-10-28-2026/production/7367116",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -724,7 +724,7 @@
         "event_id": 7185771,
         "url": "https://www.vividseats.com/rod-wave-tickets-chicago-united-center-10-31-2026--concerts-rap-hip-hop/production/7185771",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -808,7 +808,7 @@
         "event_id": 7367131,
         "url": "https://www.vividseats.com/rod-wave-tickets-chicago-united-center-11-1-2026/production/7367131",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -892,7 +892,7 @@
         "event_id": 7185775,
         "url": "https://www.vividseats.com/rod-wave-tickets-charlotte-spectrum-center-11-3-2026--concerts-rap-hip-hop/production/7185775",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -968,7 +968,7 @@
         "event_id": 7185779,
         "url": "https://www.vividseats.com/rod-wave-tickets-columbia-colonial-life-arena-11-6-2026--concerts-rap-hip-hop/production/7185779",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1044,7 +1044,7 @@
         "event_id": 7185781,
         "url": "https://www.vividseats.com/rod-wave-tickets-orlando-kia-center-11-9-2026--concerts-rap-hip-hop/production/7185781",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1128,7 +1128,7 @@
         "event_id": 7367259,
         "url": "https://www.vividseats.com/rod-wave-tickets-orlando-kia-center-11-10-2026--concerts-rap-hip-hop/production/7367259",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1212,7 +1212,7 @@
         "event_id": 7185783,
         "url": "https://www.vividseats.com/rod-wave-tickets-sunrise-amerant-bank-arena-11-14-2026--concerts-rap-hip-hop/production/7185783",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1289,7 +1289,7 @@
         "event_id": 7367635,
         "url": "https://www.vividseats.com/rod-wave-tickets-sunrise-amerant-bank-arena-11-15-2026/production/7367635",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1366,7 +1366,7 @@
         "event_id": 7185786,
         "url": "https://www.vividseats.com/rod-wave-tickets-atlanta-state-farm-arena-11-18-2026--concerts-rap-hip-hop/production/7185786",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1450,7 +1450,7 @@
         "event_id": 7367127,
         "url": "https://www.vividseats.com/rod-wave-tickets-atlanta-state-farm-arena-11-19-2026/production/7367127",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {

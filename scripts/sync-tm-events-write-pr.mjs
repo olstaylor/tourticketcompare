@@ -68,6 +68,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
 import { slugify } from "./lib/slugify.mjs";
+import { deriveEventDuplicateGroups, EVENT_DUPLICATE_CLASS } from "../functions/_event-indexability.js";
 import { reportStrandedPrValidation, earnRequiredCheck } from "./lib/required-check.mjs";
 import { checkAutopublish, heldComment, HELD_LABEL, LEDGER_LABEL } from "./lib/autopublish-guard.mjs";
 import { pushWithRetry } from "./push-automation-branch.mjs";
@@ -273,6 +274,56 @@ function buildApplyReport(usedArtists) {
     generated_at: new Date().toISOString(),
     accepted: usedArtists.map((a) => ({ proposed_slug: a.slug, confidence: 1 })),
   };
+}
+
+// The recogniser can propose a valid, new Ticketmaster ID that overlaps an
+// existing performance (or another proposal) on the same artist/city/local day.
+// Preserve the indexing policy's ambiguity verdict: withhold ONLY the new
+// candidates involved, never alter existing events and never let one collision
+// abort publication of other validated dates. Exact-ID duplicates are already
+// handled by apply-artists; they do not become ambiguity findings here.
+function withholdAmbiguousCandidates(report, existingEvents, namesBySlug) {
+  const initial = partitionReport(report, namesBySlug);
+  const existingIds = new Set(existingEvents.map((event) => clean(event.id)));
+  const candidates = initial.proposedRows.filter((row) => !existingIds.has(row.id));
+  const newIds = new Set(candidates.map((row) => row.id));
+  const unresolved = new Set([
+    EVENT_DUPLICATE_CLASS.SAME_PERFORMANCE,
+    EVENT_DUPLICATE_CLASS.AMBIGUOUS,
+    EVENT_DUPLICATE_CLASS.SHARED_PROVIDER_LISTING,
+  ]);
+  const blocked = new Map();
+  for (const group of deriveEventDuplicateGroups([...existingEvents, ...candidates])) {
+    if (!unresolved.has(group.classification)) continue;
+    for (const id of group.excludedIds) {
+      if (newIds.has(id)) blocked.set(id, `${group.classification}: ${group.key}`);
+    }
+  }
+  if (!blocked.size) return { report, blocked };
+  const screened = {
+    ...report,
+    artists: (report.artists || []).map((artist) => {
+      const slug = clean(artist.artist_slug);
+      const name = namesBySlug.get(slug) || slug;
+      return {
+        ...artist,
+        rows: (artist.rows || []).map((row) => {
+          if (row.disposition !== "proposed") return row;
+          const candidate = buildCsvRow(row, slug, name);
+          const evidence = blocked.get(candidate.id);
+          if (!evidence) return row;
+          return {
+            ...row,
+            disposition: "withheld",
+            withheld_reason_codes: [...(row.withheld_reason_codes || []), "candidate_duplicate_ambiguity"],
+            withheld_reasons: [...(row.withheld_reasons || []),
+              `Potential duplicate performance (${evidence}); human event-identity review required.`],
+          };
+        }),
+      };
+    }),
+  };
+  return { report: screened, blocked };
 }
 
 function buildWithheldMarkdown(withheld) {
@@ -567,6 +618,37 @@ function selfTest() {
     part.proposedIdByKey.size === 1
   );
 
+  // Regression: a plausible second Sylvan Esso Chicago listing must be
+  // reviewed, not written, while an unrelated Ticketmaster date proceeds.
+  const existingChicago = {
+    id: "existing-chicago", artist_slug: "sylvan-esso", city: "Chicago",
+    country: "United States Of America", venue: "The Salt Shed Indoors",
+    datetime_iso: "2026-10-23T01:00:00Z", timezone: "America/Chicago",
+    event_name: "Sylvan Esso", ticketmaster_event_id: "EXISTING_CHICAGO",
+  };
+  const chicagoRow = {
+    ...longRow, ticketmaster_discovery_event_id: "NEW_CHICAGO",
+    ticketmaster_event_id: "NEW_CHICAGO", city: "Chicago",
+    country: "United States Of America", venue: "Other Chicago Venue",
+    datetime_iso: "2026-10-23T02:00:00Z", timezone: "America/Chicago",
+    event_name: "Sylvan Esso", disposition: "proposed",
+  };
+  const mixedReport = { artists: [
+    { artist_slug: "sylvan-esso", eligible: true, live_lookup: "ok", rows: [chicagoRow] },
+    { artist_slug: "raye", eligible: true, live_lookup: "ok", rows: [longRow] },
+  ] };
+  const mixed = withholdAmbiguousCandidates(mixedReport, [existingChicago], new Map([["sylvan-esso", "Sylvan Esso"], ["raye", "RAYE"]]));
+  const mixedPart = partitionReport(mixed.report, new Map([["sylvan-esso", "Sylvan Esso"], ["raye", "RAYE"]]));
+  assert("ambiguous Chicago candidate withheld, safe RAYE date kept", mixed.blocked.size === 1 && mixedPart.proposedRows.length === 1 && mixedPart.proposedRows[0].artist_slug === "raye");
+  assert("candidate withheld with review reason, not a claimed duplicate", mixedPart.withheld[0]?.row?.withheld_reason_codes?.includes("candidate_duplicate_ambiguity"));
+  assert("source report is unchanged and existing record is never rewritten", mixedReport.artists[0].rows[0].disposition === "proposed" && existingChicago.id === "existing-chicago");
+  const sameVenueMatinee = { ...chicagoRow, datetime_iso: "2026-10-22T20:00:00Z", venue: existingChicago.venue };
+  const distinct = withholdAmbiguousCandidates({ artists: [{ artist_slug: "sylvan-esso", eligible: true, live_lookup: "ok", rows: [sameVenueMatinee] }] }, [existingChicago], new Map([["sylvan-esso", "Sylvan Esso"]]));
+  assert("distinct same-venue performances 5h apart are not withheld", distinct.blocked.size === 0);
+  const twin = { ...chicagoRow, ticketmaster_discovery_event_id: "ANOTHER_CHICAGO", ticketmaster_event_id: "ANOTHER_CHICAGO", venue: "Third Chicago Venue" };
+  const batchConflict = withholdAmbiguousCandidates({ artists: [{ artist_slug: "sylvan-esso", eligible: true, live_lookup: "ok", rows: [chicagoRow, twin] }] }, [], new Map([["sylvan-esso", "Sylvan Esso"]]));
+  assert("ambiguous same-date candidates in one batch are BOTH withheld", batchConflict.blocked.size === 2 && partitionReport(batchConflict.report, new Map([["sylvan-esso", "Sylvan Esso"]])).proposedRows.length === 0);
+
   const applyReport = buildApplyReport(part.usedArtists);
   assert("apply report mode is dry-run (apply-artists write precondition)", applyReport.mode === "dry-run");
   assert("apply report sets confidence 1 for every used slug", applyReport.accepted.every((a) => a.confidence === 1));
@@ -642,12 +724,17 @@ async function main() {
     return 2;
   }
 
-  const report = options.report ? await readJson(path.resolve(REPO_ROOT, options.report)) : runRecogniser(targets);
+  const rawReport = options.report ? await readJson(path.resolve(REPO_ROOT, options.report)) : runRecogniser(targets);
 
   const artists = await readJson(ARTISTS_PATH);
   const namesBySlug = new Map(artists.map((a) => [clean(a.slug), clean(a.name)]));
-
+  const existingEvents = await readJson(EVENTS_PATH);
+  const screened = withholdAmbiguousCandidates(rawReport, existingEvents, namesBySlug);
+  const report = screened.report;
   const { proposedRows, withheld, skippedArtists, usedArtists, proposedIdByKey } = partitionReport(report, namesBySlug);
+  if (screened.blocked.size) {
+    console.log(`Withheld ${screened.blocked.size} ambiguous candidate ID(s) for human review; other valid proposals remain eligible.`);
+  }
   const eventIdsBefore = await readEventIds();
 
   console.log(`Recognised report: ${proposedRows.length} proposed row(s), ${withheld.length} withheld, ${skippedArtists.length} artist(s) skipped.`);

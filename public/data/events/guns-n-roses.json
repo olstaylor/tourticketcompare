@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/guns-n-roses-the-jungle-zone-adelaide-29-11-2026/event/2500639EA19E4638",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,7 +50,11 @@
     },
     "ticketmaster_discovery_event_id": "1AefZbyGkB-E0bz",
     "timezone": "Australia/Adelaide",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "SOUTH AUSTRALIAN MOTOR SPORT BOARD",
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-guns-n-roses-2026-townsville-1ka8vpzuga26zyk",
@@ -68,7 +72,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/guns-n-roses-world-tour-2026-townsville-02-12-2026/event/250065036F1C0E53",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -103,7 +107,10 @@
     },
     "ticketmaster_discovery_event_id": "1ka8vPZUGA26ZyK",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-guns-n-roses-2026-milton-1akzko_gken_ac7",
@@ -121,7 +128,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/guns-n-roses-world-tour-2026-milton-05-12-2026/event/13006459AA649B44",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156,7 +163,10 @@
     },
     "ticketmaster_discovery_event_id": "1AKZko_Gken_ac7",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-guns-n-roses-2026-newcastle-1avgz_agknobybx",
@@ -174,7 +184,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/guns-n-roses-world-tour-2026-newcastle-08-12-2026/event/1300645AA0EB963E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -209,7 +219,10 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_AGknOBybX",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-guns-n-roses-2026-docklands-1apzkobgkex5mpi",
@@ -227,7 +240,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/guns-n-roses-world-tour-2026-docklands-11-12-2026/event/25006458A22F75AC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -262,7 +275,10 @@
     },
     "ticketmaster_discovery_event_id": "1APZkobGkex5Mpi",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-guns-n-roses-2026-olympic-park-1akzko_gkexzdnf",
@@ -280,7 +296,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/guns-n-roses-world-tour-2026-olympic-park-14-12-2026/event/13006459BEE3B8C8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -315,7 +331,10 @@
     },
     "ticketmaster_discovery_event_id": "1AKZko_GkeXzDNF",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-guns-n-roses-2026-auckland-15e8z_axausjz",

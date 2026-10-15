@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-16-2026/production/6818296",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-16-2026/event/17006465DF19250E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,7 +50,17 @@
     },
     "ticketmaster_discovery_event_id": "1A9ZkoPGkdLk3fC",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-03-27T17:00:00Z",
+        "end": "2026-10-17T02:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdl6xfl",
@@ -68,7 +78,7 @@
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-17-2026/production/6818320",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-17-2026/event/17006465DF1E251F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -103,7 +113,17 @@
     },
     "ticketmaster_discovery_event_id": "1A9ZkoPGkdL6xfL",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-03-27T17:00:00Z",
+        "end": "2026-10-18T02:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdlfwft",
@@ -121,7 +141,7 @@
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-18-2026/production/6818302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-18-2026/event/17006465DF232529",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156,7 +176,17 @@
     },
     "ticketmaster_discovery_event_id": "1A9ZkoPGkdLFwft",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-03-27T17:00:00Z",
+        "end": "2026-10-19T02:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdlawfd",
@@ -174,7 +204,7 @@
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-21-2026/production/6818332",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-21-2026/event/17006465DF27253B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -209,7 +239,17 @@
     },
     "ticketmaster_discovery_event_id": "1A9ZkoPGkdLawfD",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-03-27T17:00:00Z",
+        "end": "2026-10-22T02:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdl5e46",
@@ -227,7 +267,7 @@
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-23-2026/production/6818308",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-23-2026/event/17006465DF2C2547",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -262,7 +302,17 @@
     },
     "ticketmaster_discovery_event_id": "1A9ZkoPGkdL5e46",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-03-27T17:00:00Z",
+        "end": "2026-10-24T02:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdlge4b",
@@ -280,7 +330,7 @@
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-24-2026/production/6818363",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-24-2026/event/17006465DF302558",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -315,7 +365,17 @@
     },
     "ticketmaster_discovery_event_id": "1A9ZkoPGkdLGe4b",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-03-27T17:00:00Z",
+        "end": "2026-10-25T02:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdlu34n",
@@ -333,7 +393,7 @@
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-28-2026/production/6818379",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-28-2026/event/17006465DF352563",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -368,7 +428,17 @@
     },
     "ticketmaster_discovery_event_id": "1A9ZkoPGkdLu34N",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-03-27T17:00:00Z",
+        "end": "2026-10-29T02:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdlc34z",
@@ -386,7 +456,7 @@
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-30-2026/production/6818361",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-30-2026/event/17006465DF392578",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421,7 +491,17 @@
     },
     "ticketmaster_discovery_event_id": "1A9ZkoPGkdLC34z",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-03-27T17:00:00Z",
+        "end": "2026-10-31T02:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdl23po",
@@ -439,7 +519,7 @@
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-31-2026/production/6818352",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-31-2026/event/17006465DF3D2591",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -474,7 +554,17 @@
     },
     "ticketmaster_discovery_event_id": "1A9ZkoPGkdL23po",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-03-27T17:00:00Z",
+        "end": "2026-11-01T02:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-earth-wind-fire-2026-atlantic-city-vv1aezkfagkd-8nc-",
@@ -492,7 +582,7 @@
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-12-11-2026/production/7415962",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-atlantic-city-new-jersey-12-11-2026/event/02006505E1423B61",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -551,7 +641,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8196638",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8196638/Earth-Wind-and-Fire-tickets-Fri-Dec-11-2026-Hard-Rock-Live-At-Etess-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-atlantic-city-tickets-12-11-2026/event/107672592"
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-atlantic-city-tickets-12-11-2026/event/107672592",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-earth-wind-fire-2026-atlantic-city-vv1aezkfagkd-okcm",
@@ -569,7 +662,7 @@
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-12-12-2026/production/7415944",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-atlantic-city-new-jersey-12-12-2026/event/02006505E1453B6E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -628,7 +721,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8196639",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8196639/Earth-Wind-and-Fire-tickets-Sat-Dec-12-2026-Hard-Rock-Live-At-Etess-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-atlantic-city-tickets-12-12-2026/event/107672603"
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-atlantic-city-tickets-12-12-2026/event/107672603",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-earth-wind-fire-2027-thackerville-z7r9jz1aazwqd",
@@ -776,7 +872,7 @@
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-brandon-brandon-amphitheater-4-17-2027/production/7653292",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-brandon-mississippi-04-17-2027/event/1B00653DA76CDFE0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -835,7 +931,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307212",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307212/Earth-Wind-and-Fire-tickets-Sat-Apr-17-2027-Brandon-Amphitheater",
-    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-brandon-tickets-4-17-2027/event/107672596"
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-brandon-tickets-4-17-2027/event/107672596",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-04-11T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-earth-wind-fire-2027-southaven-g5viz_f7otpyl",
@@ -853,7 +959,7 @@
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-southaven-bankplus-amphitheater-at-snowden-grove-4-20-2027/production/7653362",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-southaven-mississippi-04-20-2027/event/1B00654111A56E6B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -896,7 +1002,17 @@
     "ticketmaster_discovery_event_id": "G5viZ_f7otpyl",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-southaven-tickets-4-20-2027/event/107672610"
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-southaven-tickets-4-20-2027/event/107672610",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-04-14T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-earth-wind-fire-2027-huntsville-z7r9jz1aaeb18",
@@ -983,7 +1099,7 @@
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-atlanta-synovus-bank-amphitheater-at-chastain-park-4-23-2027/production/7653609",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-atlanta-georgia-04-23-2027/event/0E006524BE32CE59",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1034,7 +1150,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307214",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307214/Earth-Wind-and-Fire-tickets-Fri-Apr-23-2027-Synovus-Bank-Amphitheater-at-Chastain-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307214/Earth-Wind-and-Fire-tickets-Fri-Apr-23-2027-Synovus-Bank-Amphitheater-at-Chastain-Park",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2027-04-17T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-earth-wind-fire-2027-savannah-vvg1zz_3cl5hyq",
@@ -1052,7 +1178,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-earth-wind-fire-savannah-georgia-04-24-2027/event/0E006523AB2DBC1D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1103,7 +1229,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307215",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307215/Earth-Wind-and-Fire-tickets-Sat-Apr-24-2027-Enmarket-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307215/Earth-Wind-and-Fire-tickets-Sat-Apr-24-2027-Enmarket-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-09T04:00:00Z",
+        "end": "2027-04-17T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-earth-wind-fire-2027-columbia-g5evz_kl2875x",
@@ -1121,7 +1257,7 @@
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-columbia-township-auditorium-4-27-2027/production/7653384",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-earth-wind-fire-columbia-south-carolina-04-27-2027/event/2D006537CF4042FE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1180,7 +1316,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307216",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307216/Earth-Wind-and-Fire-tickets-Tue-Apr-27-2027-Township-Auditorium",
-    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-columbia-tickets-4-27-2027/event/107672599"
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-columbia-tickets-4-27-2027/event/107672599",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2027-04-21T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-earth-wind-fire-2027-knoxville-g5viz_35urusm",
@@ -1198,7 +1344,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-knoxville-tennessee-04-28-2027/event/1B006522CD78DCF7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1257,7 +1403,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307217",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307217/Earth-Wind-and-Fire-tickets-Wed-Apr-28-2027-Tennessee-Theatre",
-    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-knoxville-tickets-4-28-2027/event/107672591"
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-knoxville-tickets-4-28-2027/event/107672591",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2027-04-22T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-earth-wind-fire-2027-charlotte-g5evz_kmaoltm",
@@ -1275,7 +1428,7 @@
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-charlotte-skyla-credit-union-amphitheatre-4-30-2027/production/7653448",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-charlotte-north-carolina-04-30-2027/event/2D00653DC545FA77",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1334,7 +1487,22 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307218",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307218/Earth-Wind-and-Fire-tickets-Fri-Apr-30-2027-Skyla-Credit-Union-Amphitheatre",
-    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-charlotte-tickets-4-30-2027/event/107672619"
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-charlotte-tickets-4-30-2027/event/107672619",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2027-04-03T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2027-04-24T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-earth-wind-fire-2027-durham-g5evz_f5p7r9-",
@@ -1352,7 +1520,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-durham-north-carolina-05-01-2027/event/2D006542D612F5E1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1387,6 +1555,17 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_f5p7R9-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "FRANK PRODUCTIONS",
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2027-04-25T02:00:00Z"
+      }
+    ]
   }
 ]

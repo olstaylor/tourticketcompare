@@ -44,3 +44,14 @@ try {
   else process.env.TZ = savedTimezone;
 }
 console.log('PASS qualified ends, Pacific viewer rendering and explicit midnight endings');
+
+for (const name of ['PROMOTED BY VENUE', 'promoter not defined', ' MISCELLANEOUS   PROMOTER ', 'DO NOT USE', 'MONDIAL PRICE 1', 'CHARLI XCX OFFICIAL MAILING LIST (WARNER MUSIC GROUP)', 'LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS']) {
+  assert.deepEqual(officialEventMetadata(snapshotFields({ promoters: [{ name }] })), {}, `withhold account label ${name}`);
+  assert.deepEqual(organizerNames([name, 'Live Nation']), ['Live Nation'], 'retain independently named co-organizers');
+}
+console.log('PASS anonymous/internal promoter labels never become organizations');
+
+const artistVenueSource = snapshotFields({ promoters: [{ name: 'FONTAINES D.C.' }, { name: 'CO-OP LIVE' }, { name: 'SJM LIMITED' }], _embedded: { attractions: [{ name: 'Fontaines D.C.' }], venues: [{ name: 'Co-op Live' }] } });
+assert.deepEqual(officialEventMetadata(artistVenueSource, { artist_name: 'Fontaines D.C.', venue: 'Co-op Live' }), { organizer_names: ['SJM LIMITED'] });
+assert.deepEqual(organizerNames(['OASIS', 'Melkweg', 'SJM'], ['Oasis', 'Mélkweg']), ['SJM']);
+console.log('PASS artist/venue identities are withheld while independent co-organizers remain');

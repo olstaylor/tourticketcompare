@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/nothing-but-thieves-the-stray-dogs-world-tour-tickets/543674571?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -74,7 +74,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090592",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090592/Nothing-But-Thieves-tickets-Fri-Jan-15-2027-Ziggo-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-tickets-amsterdam-ziggo-dome-15-1-2027/event/107202079"
+    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-tickets-amsterdam-ziggo-dome-15-1-2027/event/107202079",
+    "organizer_names": [
+      "Mojo Concerts"
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-amsterdam-z698xzbpz1k86ab8e",
@@ -92,7 +95,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/nothing-but-thieves-the-stray-dogs-world-tour-tickets/407158402?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -151,7 +154,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090593",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090593/Nothing-But-Thieves-tickets-Sat-Jan-16-2027-Ziggo-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-tickets-amsterdam-ziggo-dome-16-1-2027/event/107198102"
+    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-tickets-amsterdam-ziggo-dome-16-1-2027/event/107198102",
+    "organizer_names": [
+      "Mojo Concerts"
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-assago-zg9rmiynyzefv7",
@@ -222,7 +228,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/nothing-but-thieves-the-stray-dogs-world-tour-tickets/1676404023",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -257,7 +263,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z16v_U87ZN",
     "timezone": "Europe/Brussels",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation"
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-nottingham-17u8v0g65hxepmr",
@@ -275,7 +284,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-nottingham-motorpoint-arena---nottingham-2-4-2027/production/7114101",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-nottingham-04-02-2027/event/350064B6E20A5DEF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -334,7 +343,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090588",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090588/Nothing-But-Thieves-tickets-Thu-Feb-4-2027-Motorpoint-Arena-Nottingham",
-    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-tickets-nottingham-motorpoint-arena-nottingham-4-2-2027/event/107198108"
+    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-tickets-nottingham-motorpoint-arena-nottingham-4-2-2027/event/107198108",
+    "organizer_names": [
+      "COMMUNION ONE LTD"
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-london-17u8v0g65h5y7dp",
@@ -352,7 +364,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-london-the-o2---london-2-5-2027/production/7096146",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-london-05-02-2027/event/350064B6CBC04ED6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -413,7 +425,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-cardiff-utilita-arena-cardiff-2-8-2027/production/7096152",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-the-stray-dogs-cardiff-08-02-2027/event/360064B6A5CCB2E0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -456,7 +468,11 @@
     "ticketmaster_discovery_event_id": "17uOv0G65QPS55O",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-tickets-cardiff-utilita-arena-cardiff-8-2-2027/event/107274077"
+    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-tickets-cardiff-utilita-arena-cardiff-8-2-2027/event/107274077",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "LIVE NATION MUSIC (VENUES) LTD (NEW)"
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-glasgow-17uov0g65qojiik",
@@ -474,7 +490,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-glasgow-ovo-hydro-2-10-2027/production/7096154",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-the-stray-dogs-glasgow-10-02-2027/event/360064B691728A06",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -533,7 +549,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090594",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090594/Nothing-But-Thieves-tickets-Wed-Feb-10-2027-OVO-Hydro",
-    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-tickets-glasgow-ovo-hydro-arena-glasgow-10-2-2027/event/107198110"
+    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-tickets-glasgow-ovo-hydro-arena-glasgow-10-2-2027/event/107198110",
+    "organizer_names": [
+      "DF CONCERTS LIMITED",
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-manchester-17uyv0g65hofvrj",
@@ -551,7 +571,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-manchester-co-op-live-2-12-2027--concerts-alternative/production/7079257",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-manchester-12-02-2027/event/370064B6E02347A6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -610,7 +630,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996760",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996760/Nothing-But-Thieves-tickets-Fri-Feb-12-2027-Co-Op-Live",
-    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-tickets-manchester-co-op-live-12-2-2027/event/107198111"
+    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-tickets-manchester-co-op-live-12-2-2027/event/107198111",
+    "organizer_names": [
+      "S.J.M. LTD"
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-birmingham-17fyv0g65h43oux",
@@ -628,7 +651,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-2-13-2027/production/7096158",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-birmingham-13-02-2027/event/230064B6D5491DBE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -705,7 +728,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-vancouver-queen-elizabeth-theatre---vancouver-3-30-2027/production/7078839",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/nothing-but-thieves-the-stray-dogs-vancouver-british-columbia-03-30-2027/event/110064B5BA4388A6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -764,7 +787,13 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996252",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996252/Nothing-But-Thieves-tickets-Tue-Mar-30-2027-Queen-Elizabeth-Theatre-Vancouver",
-    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-tickets-vancouver-queen-elizabeth-theatre-vancouver-3-30-2027/event/107257081"
+    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-tickets-vancouver-queen-elizabeth-theatre-vancouver-3-30-2027/event/107257081",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-seattle-vvg1hz_59quyyu",
@@ -782,7 +811,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-seattle-paramount-theatre-seattle-3-31-2027/production/7078867",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-seattle-washington-03-31-2027/event/0F0064B5DDDB0C0D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -841,7 +870,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996241",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996241/Nothing-But-Thieves-tickets-Wed-Mar-31-2027-Paramount-Theatre-Seattle",
-    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-seattle-tickets-3-31-2027/event/107257082"
+    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-seattle-tickets-3-31-2027/event/107257082",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-portland-z7r9jz1a70gfm",
@@ -928,7 +960,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-oakland-fox-theater-oakland-4-3-2027/production/7078822",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-oakland-california-04-03-2027/event/1C0064B4F1E3F09A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -987,7 +1019,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996242",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996242/Nothing-But-Thieves-tickets-Sat-Apr-3-2027-Fox-Theater-Oakland",
-    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-oakland-tickets-4-3-2027/event/107258748"
+    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-oakland-tickets-4-3-2027/event/107258748",
+    "organizer_names": [
+      "ANOTHER PLANET"
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-hollywood-vvg10z_5blnvha",
@@ -1005,7 +1040,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-los-angeles-hollywood-palladium-4-4-2027/production/7078830",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-hollywood-california-04-04-2027/event/090064B61FAB46C9",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1071,6 +1106,9 @@
         "start": "2026-06-05T17:00:00Z",
         "end": "2027-03-15T06:59:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1089,7 +1127,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-phoenix-the-van-buren-4-7-2027/production/7078824",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-phoenix-arizona-04-07-2027/event/190064B5C9A084A3",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1147,6 +1185,9 @@
         "start": "2026-06-05T17:00:00Z",
         "end": "2027-03-09T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1242,7 +1283,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-minneapolis-minnesota-04-11-2027/event/060064B511729383",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1300,6 +1341,9 @@
         "start": "2026-06-05T15:00:00Z",
         "end": "2027-03-15T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1318,7 +1362,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-chicago-illinois-04-12-2027/event/040064B836E9D942",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1353,7 +1397,10 @@
     },
     "ticketmaster_discovery_event_id": "vvG18Z_5OUBqPe",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-detroit-vvg1oz_5qme6mi",
@@ -1371,7 +1418,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-detroit-the-fillmore-detroit-4-13-2027/production/7078820",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wdzh-presents-nothing-but-thieves-the-detroit-michigan-04-13-2027/event/080064B6B7087DE8",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1437,6 +1484,9 @@
         "start": "2026-06-05T14:00:00Z",
         "end": "2027-03-24T03:59:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1455,7 +1505,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-mckees-rocks-pennsylvania-04-15-2027/event/160064B6AFA59683",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1490,7 +1540,10 @@
     },
     "ticketmaster_discovery_event_id": "17AOv0G65QRt_Qd",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-philadelphia-vvg1fz_5qfmzvi",
@@ -1508,7 +1561,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-philadelphia-the-fillmore-philadelphia-4-16-2027/production/7078845",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-philadelphia-pennsylvania-04-16-2027/event/020064B694BB806C",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1566,6 +1619,9 @@
         "start": "2026-06-05T14:00:00Z",
         "end": "2027-03-27T03:59:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1584,7 +1640,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-brooklyn-brooklyn-paramount-4-17-2027/production/7078849",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-brooklyn-new-york-04-17-2027/event/000064B6B86ED7C4",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1650,6 +1706,9 @@
         "start": "2026-06-05T14:00:00Z",
         "end": "2027-03-28T03:59:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1668,7 +1727,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-boston-citizens-house-of-blues-boston-4-19-2027/production/7078828",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-boston-massachusetts-04-19-2027/event/010064B6AFBE085C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1727,7 +1786,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996251",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996251/Nothing-But-Thieves-tickets-Mon-Apr-19-2027-Citizens-House-Of-Blues-Boston",
-    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-boston-tickets-4-19-2027/event/107289101"
+    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-boston-tickets-4-19-2027/event/107289101",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-montreal-17g8v0g65q_kpje",
@@ -1745,7 +1807,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-montreal-mtelus-4-20-2027/production/7078855",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/nothing-but-thieves-the-stray-dogs-montreal-quebec-04-20-2027/event/310064B6991A5982",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1811,6 +1873,11 @@
         "start": "2026-06-05T14:00:00Z",
         "end": "2027-04-21T00:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "EVENKO CO-PRO WITH LIVE NATION",
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1829,7 +1896,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-toronto-massey-hall---allied-music-centre-4-21-2027/production/7078826",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/nothing-but-thieves-the-stray-dogs-toronto-ontario-04-21-2027/event/100064B6B65D232B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1864,7 +1931,13 @@
     },
     "ticketmaster_discovery_event_id": "177Zv0G65QU93Gl",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-dublin-17kzv0g654xs6b3",
@@ -1882,7 +1955,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/nothing-but-thieves-the-stray-dogs-dublin-02-02-2027/event/180064B57EC47E92",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1917,7 +1990,11 @@
     },
     "ticketmaster_discovery_event_id": "17kZv0G654Xs6B3",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AMPHITHEATRE IRELAND",
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-praha-9-z698xzu0z16vba7mjv",
@@ -1935,7 +2012,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/nothing-but-thieves--the-stray-dogs-world-tour-tickets/1605137981?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1970,7 +2047,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZu0Z16vbA7MJv",
     "timezone": "Europe/Prague",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Fource Entertainment s.r.o."
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-san-diego-rz7hnez1afpvcd",

@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-dallas-the-echo-lounge-and-music-hall-3-2-2027--concerts-pop/production/7600460",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-dallas-texas-03-02-2027/event/0C00653319761B3C",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -73,6 +73,9 @@
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-02-03T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -91,7 +94,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-atlanta-buckhead-theatre-3-4-2027--concerts-pop/production/7600468",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-atlanta-georgia-03-04-2027/event/0E0065331C5F83C2",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -154,6 +157,9 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-03-02T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -172,7 +178,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-tampa-the-ritz-theater---ybor-city-3-5-2027--concerts-pop/production/7600476",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-tampa-florida-03-05-2027/event/0D006535B2B76A74",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -231,7 +237,11 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286280/Lukas-Graham-tickets-Fri-Mar-5-2027-The-Ritz-Ybor",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286280",
-    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-tampa-tickets-3-5-2027/event/107669267"
+    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-tampa-tickets-3-5-2027/event/107669267",
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "NO CLUBS"
+    ]
   },
   {
     "id": "tm-lukas-graham-2027-charlotte-g5evz_kpbekzf",
@@ -249,7 +259,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-charlotte-the-fillmore-charlotte-3-7-2027/production/7600972",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-charlotte-north-carolina-03-07-2027/event/2D00653598086E14",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -308,7 +318,10 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286281/Lukas-Graham-tickets-Sun-Mar-7-2027-The-Fillmore-Charlotte",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286281",
-    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-charlotte-tickets-3-7-2027/event/107669270"
+    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-charlotte-tickets-3-7-2027/event/107669270",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-lukas-graham-2027-silver-spring-1a4zkfwgkdu1_zg",
@@ -326,7 +339,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-silver-spring-the-fillmore-silver-spring-3-9-2027--concerts-pop/production/7600510",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-silver-spring-maryland-03-09-2027/event/15006532F6299035",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -392,6 +405,9 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-02-11T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -410,7 +426,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-new-york-new-york-03-10-2027/event/00006536A19D9C08",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -452,6 +468,9 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-02-11T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -470,7 +489,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-boston-citizens-house-of-blues-boston-4-2-2027--concerts-pop/production/7600525",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-boston-massachusetts-04-02-2027/event/0100653422A1B958",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -529,7 +548,10 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286284/Lukas-Graham-tickets-Fri-Apr-2-2027-Citizens-House-Of-Blues-Boston",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286284",
-    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-boston-tickets-4-2-2027/event/107670525"
+    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-boston-tickets-4-2-2027/event/107670525",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-lukas-graham-2027-philadelphia-vv1aovpuf-zf9v5",
@@ -547,7 +569,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-philadelphia-theatre-of-living-arts-4-3-2027--concerts-pop/production/7600529",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-philadelphia-pennsylvania-04-03-2027/event/020065354840217A",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -597,6 +619,9 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-03-04T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -615,7 +640,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-toronto-the-danforth-music-hall-4-6-2027/production/7600952",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/lukas-graham-toronto-ontario-04-06-2027/event/100065322260F657",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -650,7 +675,13 @@
     },
     "ticketmaster_discovery_event_id": "1F7ZvPGxaOZ786kF",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ]
   },
   {
     "id": "tm-lukas-graham-2027-detroit-vv1afzkfwgkddfuvd",
@@ -668,7 +699,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-detroit-michigan-04-07-2027/event/08006532FB50D043",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -710,6 +741,9 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-04-05T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -728,7 +762,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-4-8-2027--concerts-pop/production/7600581",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-indianapolis-indiana-04-08-2027/event/050065341D764CEA",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -779,7 +813,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286290/Lukas-Graham-tickets-Thu-Apr-8-2027-Egyptian-Room-At-Old-National-Centre",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286290"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286290",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-lukas-graham-2027-minneapolis-vv11bz_kf-ovb0",
@@ -797,7 +834,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-minneapolis-uptown-theater-minneapolis-4-10-2027--concerts-pop/production/7600599",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-minneapolis-minnesota-04-10-2027/event/0600653221834624",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -839,6 +876,9 @@
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-03-14T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -857,7 +897,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-chicago-house-of-blues-chicago-4-11-2027--concerts-pop/production/7600614",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-chicago-illinois-04-11-2027/event/04006536B5EEC907",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -923,6 +963,10 @@
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-03-14T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "HOUSE OF BLUES CONCERTS (HOB)"
     ]
   }
 ]

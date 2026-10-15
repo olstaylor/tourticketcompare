@@ -259,7 +259,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-spokane-numerica-veterans-arena-4-1-2027/production/7618130",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZrp",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -310,7 +310,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293121",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293121/Riley-Green-tickets-Thu-Apr-1-2027-Numerica-Veterans-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293121/Riley-Green-tickets-Thu-Apr-1-2027-Numerica-Veterans-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-riley-green-2027-seattle-vvg1hz_keoq4yp",
@@ -328,7 +331,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-seattle-climate-pledge-arena-4-2-2027/production/7618128",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-seattle-washington-04-02-2027/event/0F00653091695C25",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -399,6 +402,9 @@
         "start": "2026-10-02T17:00:00Z",
         "end": "2027-03-29T19:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -417,7 +423,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-eugene-matthew-knight-arena-4-3-2027/production/7618132",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-eugene-oregon-04-03-2027/event/0F00652EEC07B4E4",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -490,6 +496,9 @@
         "start": "2026-10-02T17:00:00Z",
         "end": "2027-03-30T19:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION GLOBAL TOURING"
     ]
   },
   {
@@ -508,7 +517,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-edmonton-rogers-place-4-8-2027--concerts-country-and-folk/production/7618682",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-edmonton-alberta-04-08-2027/event/1100652F758E4625",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -566,6 +575,12 @@
         "start": "2026-10-02T16:00:00Z",
         "end": "2027-04-04T18:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
     ]
   },
   {
@@ -584,7 +599,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-calgary-scotiabank-saddledome-4-9-2027/production/7618664",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-calgary-alberta-04-09-2027/event/11006530C279C9F7",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -642,6 +657,12 @@
         "start": "2026-10-02T16:00:00Z",
         "end": "2027-04-05T18:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
     ]
   },
   {
@@ -660,7 +681,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-saskatoon-sasktel-centre-4-10-2027/production/7618680",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-saskatoon-saskatchewan-04-10-2027/event/1100652EECF81F28",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -718,6 +739,12 @@
         "start": "2026-10-02T16:00:00Z",
         "end": "2027-04-06T18:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
     ]
   },
   {
@@ -736,7 +763,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-raleigh-coastal-credit-union-music-park-at-walnut-creek-4-29-2027/production/7618134",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-raleigh-north-carolina-04-29-2027/event/2D006530A13ED53D",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -799,6 +826,9 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-04-25T16:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -817,7 +847,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-knoxville-thompson-boling-arena-at-food-city-center-4-30-2027/production/7618136",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-knoxville-tennessee-04-30-2027/event/1B00652F68092865",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -890,6 +920,9 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-04-26T16:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -908,7 +941,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-greenville-bon-secours-wellness-arena-5-1-2027/production/7618144",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-greenville-south-carolina-05-01-2027/event/2D006532954EBB06",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -971,6 +1004,9 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-04-28T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -989,7 +1025,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-fort-worth-dickies-arena-5-6-2027/production/7618146",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-fort-worth-texas-05-06-2027/event/0C00653096616571",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1060,6 +1096,9 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-05-02T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1078,7 +1117,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-wichita-intrust-bank-arena-5-7-2027/production/7618142",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-wichita-kansas-05-07-2027/event/06006532E8ADD534",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1141,6 +1180,9 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-05-03T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1159,7 +1201,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-rogers-walmart-amp-5-8-2027/production/7618170",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-rogers-arkansas-05-08-2027/event/1B006532D4A476C1",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1222,6 +1264,9 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-05-04T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1240,7 +1285,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-tulsa-bok-center-5-20-2027/production/7618172",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-tulsa-oklahoma-05-20-2027/event/20006531A26F4123",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1303,6 +1348,9 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-05-16T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1321,7 +1369,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-dallas-dos-equis-pavilion-5-21-2027/production/7618204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-dallas-texas-05-21-2027/event/0C0065329B928968",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1389,6 +1437,9 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-05-19T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1407,7 +1458,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-lafayette-louisiana-05-22-2027/event/1B00652BD77C4C44",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1454,6 +1505,9 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-05-18T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1472,7 +1526,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-brandon-brandon-amphitheater-6-3-2027/production/7618192",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-brandon-mississippi-06-03-2027/event/1B00652FD275369E",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1535,6 +1589,9 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-05-30T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1553,7 +1610,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-orange-beach-amphitheater-at-the-wharf-6-4-2027/production/7618180",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-orange-beach-alabama-06-04-2027/event/1B0065306D8F3D37",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1600,6 +1657,9 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-05-31T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1618,7 +1678,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-orange-beach-amphitheater-at-the-wharf-6-5-2027--concerts-country-and-folk/production/7636580",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-orange-beach-alabama-06-05-2027/event/1B006532E8A6BD25",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1665,6 +1725,9 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-05-31T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1752,7 +1815,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-toronto-rbc-amphitheatre-6-11-2027/production/7618686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-toronto-ontario-06-11-2027/event/10006532CB6CEB0B",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1794,6 +1857,12 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-06-07T16:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
     ]
   },
   {
@@ -1812,7 +1881,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-toronto-rbc-amphitheatre-6-12-2027--concerts-country-and-folk/production/7636602",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-toronto-ontario-06-12-2027/event/10006532CB6FEB16",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1854,6 +1923,12 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-06-08T16:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
     ]
   },
   {
@@ -1872,7 +1947,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-gilford-banknh-pavilion-6-18-2027/production/7618196",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-gilford-new-hampshire-06-18-2027/event/01006531A109FD2C",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1924,6 +1999,9 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-06-14T16:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1942,7 +2020,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-gilford-banknh-pavilion-6-19-2027--concerts-country-and-folk/production/7636582",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-gilford-new-hampshire-06-19-2027/event/01006531A85A2C19",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1989,6 +2067,9 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-06-15T16:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2007,7 +2088,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-clarkston-pine-knob-music-theatre-6-25-2027/production/7618228",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/995-wycd-hoedown-featuring-riley-green-clarkston-michigan-06-25-2027/event/08006532F265C396",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2070,6 +2151,9 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-06-21T16:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2088,7 +2172,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-clarkston-pine-knob-music-theatre-6-26-2027--concerts-country-and-folk/production/7637034",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/995-wycd-hoedown-featuring-riley-green-clarkston-michigan-06-26-2027/event/08006539A3D3574A",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2151,6 +2235,9 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-06-22T16:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2169,7 +2256,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-syracuse-empower-federal-credit-union-amphitheater-at-lakeview-7-15-2027/production/7618652",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-syracuse-new-york-07-15-2027/event/000065329EF7E9B0",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2232,6 +2319,9 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-07-11T16:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2250,7 +2340,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-allentown-ppl-center-7-16-2027/production/7618240",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-allentown-pennsylvania-07-16-2027/event/3000652EFDC5C164",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2318,6 +2408,9 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-07-12T16:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2336,7 +2429,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-columbia-merriweather-post-pavilion-7-22-2027/production/7618186",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-columbia-maryland-07-22-2027/event/15006532C998EA06",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2399,6 +2492,9 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-07-18T16:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2417,7 +2513,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-bethel-bethel-woods-center-for-the-arts-7-23-2027/production/7618250",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-bethel-new-york-07-23-2027/event/00006531A2071A60",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2480,6 +2576,9 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-07-23T23:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2498,7 +2597,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-mansfield-xfinity-center---ma-7-24-2027/production/7618226",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-mansfield-massachusetts-07-24-2027/event/01006532A46F08EE",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2569,6 +2668,9 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-07-20T16:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2587,7 +2689,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-evansville-ford-center-evansville-7-29-2027/production/7618220",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-evansville-indiana-07-29-2027/event/05006532896F4DB0",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2650,6 +2752,9 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-07-25T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2668,7 +2773,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-maryland-heights-missouri-07-30-2027/event/060065329769AA44",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2720,6 +2825,9 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-07-26T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2738,7 +2846,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-milwaukee-henry-maier-festival-park---american-family-insurance-amphitheater-7-31-2027/production/7618510",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-milwaukee-wisconsin-07-31-2027/event/07006532DCEF96FC",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2785,6 +2893,10 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-07-27T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "FRANK PRODUCTIONS",
+      "LIVE NATION MUSIC"
     ]
   }
 ]

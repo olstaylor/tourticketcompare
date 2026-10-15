@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/lionel-richie-tickets-las-vegas-encore-theater-at-wynn-las-vegas-11-11-2026/production/7349331",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-11-2026/event/170064F4CBE0D992",
-    "last_verified_at": "2026-10-14",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -65,7 +65,10 @@
         "end": "2026-11-12T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165327"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165327",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-lionel-richie-2026-las-vegas-17ayv0g62k5zcj9",
@@ -83,7 +86,7 @@
     "vividseats_url": "https://www.vividseats.com/lionel-richie-tickets-las-vegas-encore-theater-at-wynn-las-vegas-11-13-2026/production/7349329",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-13-2026/event/170064F4CBE2D997",
-    "last_verified_at": "2026-10-14",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -133,7 +136,10 @@
         "end": "2026-11-14T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165328"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165328",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-lionel-richie-2026-las-vegas-17ayv0g62k5yqjh",
@@ -151,7 +157,7 @@
     "vividseats_url": "https://www.vividseats.com/lionel-richie-tickets-las-vegas-encore-theater-at-wynn-las-vegas-11-14-2026/production/7349335",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-14-2026/event/170064F4CBE5D99B",
-    "last_verified_at": "2026-10-14",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -201,7 +207,10 @@
         "end": "2026-11-15T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165329"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165329",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-lionel-richie-2027-las-vegas-17ayv0g62k5uqjk",
@@ -219,7 +228,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-01-08-2027/event/170064F4CBD9D986",
-    "last_verified_at": "2026-10-14",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -270,7 +279,10 @@
         "end": "2026-10-17T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165325"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165325",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-lionel-richie-2027-las-vegas-17ayv0g62k5muj2",
@@ -288,7 +300,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-01-09-2027/event/170064F4CBDCD98F",
-    "last_verified_at": "2026-10-14",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -339,7 +351,10 @@
         "end": "2026-10-18T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165326"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165326",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-lionel-richie-2027-thackerville-z7r9jz1aav_-z",

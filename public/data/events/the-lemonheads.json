@@ -137,7 +137,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-boston-massachusetts-02-10-2027/event/0100652A99F0DC61",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -172,7 +172,10 @@
     },
     "ticketmaster_discovery_event_id": "vv177Z_3Gkn_Hus-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-the-lemonheads-2027-brooklyn-k7vgf_3rtiqkk",
@@ -190,7 +193,7 @@
     "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-brooklyn-brooklyn-bowl---ny-2-11-2027/production/7559479",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-lemonheads-brooklyn-new-york-02-11-2027/event/0000652BE9A1A186",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -267,7 +270,7 @@
     "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-atlanta-the-masquerade---hell-2-20-2027/production/7559509",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-atlanta-georgia-02-20-2027/event/0E00652BC8661CC6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -320,7 +323,7 @@
     "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-houston-white-oak-music-hall---upstairs-2-22-2027--concerts-rock/production/7561053",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-houston-texas-02-22-2027/event/3A00652BB95B1FC2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -389,7 +392,7 @@
     "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-los-angeles-teragram-ballroom-3-4-2027/production/7559491",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-los-angeles-california-03-04-2027/event/090065292BDC8BBD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -458,7 +461,7 @@
     "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-san-francisco-august-hall-3-7-2027--concerts-rock/production/7561057",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-san-francisco-california-03-07-2027/event/1C00652AAC82BF11",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -516,7 +519,10 @@
         "end": "2027-02-08T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266224/The-Lemonheads-tickets-Sun-Mar-7-2027-August-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266224/The-Lemonheads-tickets-Sun-Mar-7-2027-August-Hall",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-the-lemonheads-2027-madison-vv17jz_3gkbfxvrj",
@@ -534,7 +540,7 @@
     "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-madison-majestic-theatre---madison-3-19-2027/production/7558847",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-madison-wisconsin-03-19-2027/event/0700652E94881BE6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -585,7 +591,11 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266231",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266231/The-Lemonheads-tickets-Fri-Mar-19-2027-Majestic-Theatre-Madison"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266231/The-Lemonheads-tickets-Fri-Mar-19-2027-Majestic-Theatre-Madison",
+    "organizer_names": [
+      "FRANK PRODUCTIONS",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-the-lemonheads-2027-detroit-vv17oz_3gklkn916",
@@ -603,7 +613,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-detroit-michigan-03-25-2027/event/0800652AC6A97287",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -645,6 +655,9 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2027-01-11T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -663,7 +676,7 @@
     "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-cincinnati-ludlow-garage-3-26-2027/production/7559499",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-lemonheads-cincinnati-ohio-03-26-2027/event/1600652BB0616516",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1220,7 +1233,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-rumba-cafe-tickets/14316964",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1271,6 +1284,9 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266237",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266237/The-Lemonheads-tickets-Sat-Mar-27-2027-Rumba-Cafe"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266237/The-Lemonheads-tickets-Sat-Mar-27-2027-Rumba-Cafe",
+    "organizer_names": [
+      "CELEBRITY ETC PRESENTS"
+    ]
   }
 ]

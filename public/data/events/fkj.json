@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fkj-london-29-10-2026/event/1F0064C292DC3FD8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,7 +50,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_G13MdTb",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-fkj-2026-london-g5vhz_g1bafoo",
@@ -68,7 +71,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fkj-london-30-10-2026/event/1F0064C298154811",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -103,7 +106,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_G1bAfOo",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-fkj-2027-portland-z7r9jz1a7pdgd",
@@ -259,7 +265,7 @@
     "vividseats_url": "https://www.vividseats.com/fkj-tickets-vancouver-commodore-ballroom-4-25-2027/production/7092911",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fkj-tyber-tour-vancouver-british-columbia-04-25-2027/event/110064B98B113F04",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -318,7 +324,11 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012944/FKJ-tickets-Sun-Apr-25-2027-Commodore-Ballroom",
     "stubhub_international_url": "https://www.stubhub.ie/fkj-tickets-vancouver-commodore-ballroom-4-25-2027/event/107447309",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012944"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012944",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-fkj-2027-vancouver-1778v0g6g4hh0bi",
@@ -336,7 +346,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fkj-tyber-tour-vancouver-british-columbia-04-26-2027/event/110064C57CF24EAC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -395,7 +405,11 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8045995/FKJ-tickets-Mon-Apr-26-2027-Commodore-Ballroom",
     "stubhub_international_url": "https://www.stubhub.ie/fkj-tickets-vancouver-commodore-ballroom-4-26-2027/event/107447310",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8045995"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8045995",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-fkj-2027-denver-z7r9jz1a7pk0s",
@@ -482,7 +496,7 @@
     "vividseats_url": "https://www.vividseats.com/fkj-tickets-chicago-salt-shed---outdoor-fairgrounds-5-27-2027/production/7105295",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-chicago-illinois-05-27-2027/event/040064BDB06AB5DC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -535,7 +549,7 @@
     "vividseats_url": "https://www.vividseats.com/fkj-tickets-toronto-history-toronto-5-28-2027--concerts-pop/production/7105596",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fkj-tyber-tour-toronto-ontario-05-28-2027/event/100064BD8F8F9F99",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -570,7 +584,11 @@
     },
     "ticketmaster_discovery_event_id": "177Zv0G65U2NyX_",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-fkj-2027-montreal-17g8v0g65rqmwty",
@@ -588,7 +606,7 @@
     "vividseats_url": "https://www.vividseats.com/fkj-tickets-montreal-mtelus-5-31-2027--concerts-pop/production/7105592",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fkj-tyber-tour-montreal-quebec-05-31-2027/event/310064BBDDBBDFF9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -647,7 +665,10 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012965/FKJ-tickets-Mon-May-31-2027-MTelus",
     "stubhub_international_url": "https://www.stubhub.ie/fkj-tickets-montreal-mtelus-5-31-2027/event/107447311",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012965"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012965",
+    "organizer_names": [
+      "EVENKO CO-PRO NON-LN"
+    ]
   },
   {
     "id": "tm-fkj-2027-boston-vvg17z_5ryet2j",
@@ -665,7 +686,7 @@
     "vividseats_url": "https://www.vividseats.com/fkj-tickets-boston-mgm-music-hall-at-fenway-6-1-2027--concerts-pop/production/7105233",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-boston-massachusetts-06-01-2027/event/010064BBF09E93E6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -724,7 +745,10 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012958/FKJ-tickets-Tue-Jun-1-2027-MGM-Music-Hall-at-Fenway-Park",
     "stubhub_international_url": "https://www.stubhub.ie/fkj-boston-tickets-6-1-2027/event/107447312",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012958"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012958",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-fkj-2027-philadelphia-vvg1fz_5rrowhv",
@@ -742,7 +766,7 @@
     "vividseats_url": "https://www.vividseats.com/fkj-tickets-philadelphia-the-fillmore-philadelphia-6-3-2027/production/7105319",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-philadelphia-pennsylvania-06-03-2027/event/020064BBEF472F34",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -800,6 +824,9 @@
         "start": "2026-06-05T14:00:00Z",
         "end": "2027-05-07T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -818,7 +845,7 @@
     "vividseats_url": "https://www.vividseats.com/fkj-tickets-brooklyn-brooklyn-paramount-6-4-2027/production/7105323",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-brooklyn-new-york-06-04-2027/event/000064BBEC98A526",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -884,6 +911,9 @@
         "start": "2026-06-05T14:00:00Z",
         "end": "2027-05-15T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -902,7 +932,7 @@
     "vividseats_url": "https://www.vividseats.com/fkj-tickets-washington-dc-the-anthem-6-7-2027/production/7105325",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-washington-district-of-columbia-06-07-2027/event/150064BAAABB8CD2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -979,7 +1009,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-atlanta-georgia-06-09-2027/event/0E0064B5F658B622",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1021,6 +1051,9 @@
         "start": "2026-06-05T14:00:00Z",
         "end": "2027-06-07T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1039,7 +1072,7 @@
     "vividseats_url": "https://www.vividseats.com/fkj-tickets-houston-bayou-music-center-6-11-2027/production/7105334",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-houston-texas-06-11-2027/event/3A0064BBB304D513",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1098,7 +1131,10 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012943/FKJ-tickets-Fri-Jun-11-2027-Bayou-Music-Center",
     "stubhub_international_url": "https://www.stubhub.ie/fkj-houston-tickets-6-11-2027/event/107447314",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012943"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012943",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-fkj-2027-austin-z7r9jz1a7pdvn",
@@ -1177,7 +1213,7 @@
     "vividseats_url": "https://www.vividseats.com/fkj-tickets-dallas-south-side-ballroom-6-14-2027/production/7105336",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-dallas-texas-06-14-2027/event/0C0064BBF0136C3D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1236,7 +1272,10 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012963/FKJ-tickets-Mon-Jun-14-2027-South-Side-Ballroom-at-Gilleys",
     "stubhub_international_url": "https://www.stubhub.ie/fkj-dallas-tickets-6-14-2027/event/107447315",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012963"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012963",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-fkj-2027-brisbane-177yv0g6ckieecd",
@@ -1254,7 +1293,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/fkj-tyber-tour-brisbane-23-02-2027/event/130064E1A80A73BB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1289,7 +1328,10 @@
     },
     "ticketmaster_discovery_event_id": "177Yv0G6CkIeECD",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-fkj-2027-salt-lake-city-z7r9jz1a7pk0m",
@@ -1429,7 +1471,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.dk/event/fkj-tickets/1056094928?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1464,7 +1506,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC4Z16vvpef0I",
     "timezone": "Europe/Copenhagen",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation / Vega"
+    ]
   },
   {
     "id": "tm-fkj-2026-praha-1-z698xzu0z16v7kp8r6",
@@ -1482,7 +1527,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/fkj-support-richie-griner-tickets/1106590787?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1517,7 +1562,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZu0Z16v7kp8r6",
     "timezone": "Europe/Prague",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Fource Entertainment s.r.o."
+    ]
   },
   {
     "id": "tm-fkj-2027-auckland-17azv0g6cklgovf",
@@ -1535,7 +1583,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/fkj-auckland-20-02-2027/event/240064E19F311D08",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1570,6 +1618,10 @@
     },
     "ticketmaster_discovery_event_id": "17aZv0G6CkLGoVF",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AUCKLAND LIVE",
+      "LIVE NATION AUSTRALIA"
+    ]
   }
 ]

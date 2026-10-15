@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-madison-the-sylvee-1-15-2027/production/7588955",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-madison-wisconsin-01-15-2027/event/07006530B12859EE",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,11 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277969",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277969/Atmosphere-tickets-Fri-Jan-15-2027-The-Sylvee-WI"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277969/Atmosphere-tickets-Fri-Jan-15-2027-The-Sylvee-WI",
+    "organizer_names": [
+      "FRANK PRODUCTIONS",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-atmosphere-2027-boise-g5vzz_kkmetdo",
@@ -84,7 +88,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-boise-idaho-01-22-2027/event/1E006531B79E9ED1",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -137,7 +141,7 @@
     "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-bozeman-the-elm---mt-1-23-2027--concerts-rap-hip-hop/production/7588971",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-bozeman-montana-01-23-2027/event/1E006531D646C637",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -188,7 +192,10 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277971",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277971/Atmosphere-tickets-Sat-Jan-23-2027-The-Elm-Bozeman"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277971/Atmosphere-tickets-Sat-Jan-23-2027-The-Elm-Bozeman",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-atmosphere-2027-spokane-g5vzz_kkyknfe",
@@ -206,7 +213,7 @@
     "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-spokane-knitting-factory-concert-house-spokane-1-24-2027/production/7589267",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-spokane-washington-01-24-2027/event/1E006531B91AA202",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -275,7 +282,7 @@
     "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-vancouver-commodore-ballroom-1-26-2027--concerts-rap-hip-hop/production/7588977",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/atmosphere-the-winter-carnival-tour-2027-vancouver-british-columbia-01-26-2027/event/1100652F902D7B36",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -326,7 +333,13 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277978",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277978/Atmosphere-tickets-Tue-Jan-26-2027-Commodore-Ballroom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277978/Atmosphere-tickets-Tue-Jan-26-2027-Commodore-Ballroom",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ]
   },
   {
     "id": "tm-atmosphere-2027-eugene-z7r9jz1aaez3b",
@@ -413,7 +426,7 @@
     "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-reno-grand-theatre-at-grand-sierra-resort-1-29-2027/production/7589656",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/atmospherethe-winter-carnival-tour-2027-reno-nevada-01-29-2027/event/17006532C3EA6B88",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -466,7 +479,7 @@
     "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-tucson-rialto-theatre-tucson-2-1-2027--concerts-rap-hip-hop/production/7588975",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-tucson-arizona-02-01-2027/event/190065328F4C549A",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -535,7 +548,7 @@
     "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-kansas-city-voodoo-at-harrahs-kansas-city-2-4-2027--concerts-rap-hip-hop/production/7588973",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-kansas-city-missouri-02-04-2027/event/0600653100933766",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -596,7 +609,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-joliet-illinois-02-05-2027/event/0700652A81FB1FC4",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -649,7 +662,7 @@
     "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-rockford-hard-rock-live---rockford-2-6-2027/production/7589664",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-rockford-illinois-02-06-2027/event/2100652ACB275364",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -718,7 +731,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rise-up-select-presents-atmosphere-the-salt-lake-city-utah-01-30-2027/event/1E006537CF070C9C",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -769,7 +782,10 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277984/Atmosphere-tickets-Sat-Jan-30-2027-The-Depot-Salt-Lake-City",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277984"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277984",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-atmosphere-2027-green-bay-z7r9jz1aavz-e",

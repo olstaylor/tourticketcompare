@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/the-warning-everythings-falling-world-tour-tickets/664115608?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -58,7 +58,10 @@
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k_074bF",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-madrid-palacio-vistalegre-9-3-2027/event/107668442"
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-madrid-palacio-vistalegre-9-3-2027/event/107668442",
+    "organizer_names": [
+      "Live Nation España Blue Lane, SL"
+    ]
   },
   {
     "id": "tm-the-warning-2027-barcelona-z698xz2qz16vgvavjf",
@@ -76,7 +79,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/the-warning-everythings-falling-world-tour-tickets/1301141988?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -119,7 +122,10 @@
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vGvAvJF",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-barcelona-sant-jordi-club-10-3-2027/event/107668069"
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-barcelona-sant-jordi-club-10-3-2027/event/107668069",
+    "organizer_names": [
+      "Live Nation España Blue Lane, SL"
+    ]
   },
   {
     "id": "tm-the-warning-2027-birmingham-g5dzz_3jthdkp",
@@ -137,7 +143,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-warning-birmingham-29-03-2027/event/3E006529A9F03196",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -196,7 +202,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265893",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265893/The-Warning-tickets-Mon-Mar-29-2027-O2-Academy-Birmingham",
-    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-birmingham-o2-academy-birmingham-29-3-2027/event/107668114"
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-birmingham-o2-academy-birmingham-29-3-2027/event/107668114",
+    "organizer_names": [
+      "S.J.M. LTD",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY BIRMINGHAM)"
+    ]
   },
   {
     "id": "tm-the-warning-2027-glasgow-g5dzz_3cmwwj3",
@@ -214,7 +224,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-glasgow-o2-academy-glasgow-3-30-2027--concerts-pop/production/7560890",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-warning-glasgow-30-03-2027/event/3E006523AECB2992",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -273,7 +283,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267822",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267822/The-Warning-tickets-Tue-Mar-30-2027-O2-Academy-Glasgow",
-    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-glasgow-o2-academy-glasgow-30-3-2027/event/107668115"
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-glasgow-o2-academy-glasgow-30-3-2027/event/107668115",
+    "organizer_names": [
+      "DF CONCERTS",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY GLASGOW)"
+    ]
   },
   {
     "id": "tm-the-warning-2027-manchester-g5dzz_3jr_df6",
@@ -291,7 +305,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-warning-manchester-01-04-2027/event/3E006529AF643507",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -326,7 +340,11 @@
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3JR_df6",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "S.J.M. LTD",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY VICTORIA WAREHOUSE MANCHESTER)"
+    ]
   },
   {
     "id": "tm-the-warning-2027-phoenix-1av0z_3gkl3jytk",
@@ -344,7 +362,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-phoenix-the-van-buren-4-18-2027/production/7553211",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-phoenix-arizona-04-18-2027/event/1900652AD29B9FD3",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -415,7 +433,10 @@
         "end": "2027-04-12T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264649/The-Warning-tickets-Sun-Apr-18-2027-The-Van-Buren"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264649/The-Warning-tickets-Sun-Apr-18-2027-The-Van-Buren",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-the-warning-2027-san-francisco-z7r9jz1aavtgn",
@@ -571,7 +592,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-seattle-moore-theatre-4-23-2027/production/7553067",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-seattle-washington-04-23-2027/event/0F00652BDDA8EC99",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -724,7 +745,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-denver-fillmore-auditorium-denver-4-28-2027/production/7553189",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-denver-colorado-04-28-2027/event/1E00652BAAD0873B",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -779,6 +800,9 @@
         "start": "2026-09-18T16:00:00Z",
         "end": "2027-04-22T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -850,7 +874,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-houston-bayou-music-center-5-2-2027/production/7553247",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-houston-texas-05-02-2027/event/3A006529119E8C6E",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -916,7 +940,10 @@
         "end": "2027-04-25T17:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264650/The-Warning-tickets-Sun-May-2-2027-Bayou-Music-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264650/The-Warning-tickets-Sun-May-2-2027-Bayou-Music-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-the-warning-2027-atlanta-z7r9jz1aavtgj",
@@ -1003,7 +1030,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-detroit-the-fillmore-detroit-5-6-2027/production/7553223",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wrif-presents-the-warning-everythings-falling-detroit-michigan-05-06-2027/event/0800652AD3728646",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1074,6 +1101,9 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2027-04-30T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1092,7 +1122,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-ottawa-history-ottawa-5-8-2027/production/7553145",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-ottawa-ontario-05-08-2027/event/3100652AEE6FACD0",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1134,6 +1164,10 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2027-05-02T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1152,7 +1186,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-montreal-quebec-05-09-2027/event/3100652A94F13753",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1210,7 +1244,12 @@
         "end": "2027-05-03T02:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270802/The-Warning-tickets-Sun-May-9-2027-MTelus"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270802/The-Warning-tickets-Sun-May-9-2027-MTelus",
+    "organizer_names": [
+      "EVENKO CO-PRO WITH LIVE NATION",
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-the-warning-2027-toronto-1avzz_3gkltrh3z",
@@ -1228,7 +1267,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-toronto-history-toronto-5-11-2027/production/7553111",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-toronto-ontario-05-11-2027/event/1000652AFFBFC4B8",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1270,6 +1309,10 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2027-05-05T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1288,7 +1331,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-pittsburgh-citizens-live-at-the-wylie-5-15-2027/production/7553269",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/presented-by-wxdx-the-warning-everythings-pittsburgh-pennsylvania-05-15-2027/event/1600652ABC919A4A",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1346,7 +1389,10 @@
         "end": "2027-05-09T02:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264652/The-Warning-tickets-Sat-May-15-2027-Citizens-Live-at-The-Wylie"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264652/The-Warning-tickets-Sat-May-15-2027-Citizens-Live-at-The-Wylie",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-the-warning-2027-brooklyn-k7vgf_3iu7xhd",
@@ -1364,7 +1410,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-brooklyn-brooklyn-paramount-5-18-2027/production/7553227",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wwsk-presents-the-warning-everythings-falling-brooklyn-new-york-05-18-2027/event/0000652B0D1226C3",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1430,6 +1476,9 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2027-05-12T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1448,7 +1497,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-boston-mgm-music-hall-at-fenway-5-23-2027--concerts-pop/production/7552850",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-boston-massachusetts-05-23-2027/event/0100652ADA331C76",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1514,7 +1563,10 @@
         "end": "2027-05-17T02:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264653/The-Warning-tickets-Sun-May-23-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264653/The-Warning-tickets-Sun-May-23-2027-MGM-Music-Hall-at-Fenway-Park",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-the-warning-2027-las-vegas-z7r9jz1aavtgx",
@@ -1609,7 +1661,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-san-antonio-boeing-center-at-tech-port-4-30-2027/production/7553319",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtF4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1668,7 +1720,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264193",
     "stubhub_international_url": "https://www.stubhub.ie/the-warning-san-antonio-tickets-4-30-2027/event/107668180",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264193/The-Warning-tickets-Fri-Apr-30-2027-Boeing-Center-at-Tech-Port"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264193/The-Warning-tickets-Fri-Apr-30-2027-Boeing-Center-at-Tech-Port",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-the-warning-2027-london-1adjz_3gknpoval",
@@ -1686,7 +1741,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-london-ovo-arena-wembley-4-2-2027--concerts-pop/production/7560894",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-warning-london-02-04-2027/event/3700652A9683415F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1745,7 +1800,10 @@
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-london-ovo-arena-wembley-2-4-2027/event/107668110",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8309065",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8309065/The-Warning-tickets-Fri-Apr-2-2027-OVO-Arena-Wembley"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8309065/The-Warning-tickets-Fri-Apr-2-2027-OVO-Arena-Wembley",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-the-warning-2027-ciudad-de-mexico-1afzkf4gkenopd9",
@@ -1763,7 +1821,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/the-warning-everythings-falling-world-tour-ciudad-de-mexico-05-02-2027/event/14006515AA456ED7",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1829,6 +1887,9 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8280935",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8280935/The-Warning-tickets-Fri-Feb-5-2027-Estadio-GNP-Seguros-Mexico-City",
-    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-mexico-city-estadio-gnp-seguros-5-2-2027/event/107665621"
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-mexico-city-estadio-gnp-seguros-5-2-2027/event/107665621",
+    "organizer_names": [
+      "OCESA"
+    ]
   }
 ]

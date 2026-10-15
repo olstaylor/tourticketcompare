@@ -50,8 +50,10 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    # Room for the dispatched Prelaunch Validation run the publish step waits on.
-    timeout-minutes: 49
+    # Cover the bounded writer wait, Discovery sweep, in-job full suite and
+    # the separate exact-head Prelaunch Validation run before publication.
+    # A 49-minute cap could cancel a validated data PR while CI was finishing.
+    timeout-minutes: 90
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -203,6 +205,9 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish through a validated, auto-merged PR
+        # The identity is minted immediately above; cap publication below its
+        # one-hour lifetime even though ingestion/validation need a longer job.
+        timeout-minutes: 40
         if: steps.diff.outputs.changed == 'true' && steps.gate.outputs.commit_allowed == 'true' && inputs.dry_run != true
         env:
           GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}

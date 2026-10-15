@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-reno-grand-theatre-at-grand-sierra-resort-12-3-2026/production/7080936",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-reno-nevada-12-03-2026/event/170064B2BA93A0B9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -259,7 +259,7 @@
     "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-brooklyn-brooklyn-paramount-12-13-2026/production/7210428",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-allstars-present-a-season-brooklyn-new-york-12-13-2026/event/000064D2D26E1C3C",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -325,6 +325,9 @@
         "start": "2026-06-26T14:00:00Z",
         "end": "2026-11-23T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -396,7 +399,7 @@
     "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-red-bank-hackensack-meridian-health-theatre-at-the-count-basie-center-12-16-2026/production/7200482",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-allstars-present-a-season-red-bank-new-jersey-12-16-2026/event/1D0064C8E949C14D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -640,7 +643,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-ft-lauderdale-florida-01-17-2027/event/0D00649CD8F15C3E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -815,7 +818,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-cleveland-ohio-02-10-2027/event/050064DE0D44F8CC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -990,7 +993,7 @@
     "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-minneapolis-pantages-theatre---mn-2-13-2027/production/7411457",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-minneapolis-minnesota-02-13-2027/event/06006505B192CBF1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1041,7 +1044,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194294/Pink-Martini-tickets-Sat-Feb-13-2027-Pantages-Theatre-MN",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194294"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194294",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-pink-martini-2027-minneapolis-vv1akzkfagkesphrg",
@@ -1059,7 +1065,7 @@
     "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-minneapolis-pantages-theatre---mn-2-14-2027/production/7411461",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-minneapolis-minnesota-02-14-2027/event/06006505B197CBF5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1110,7 +1116,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194295/Pink-Martini-tickets-Sun-Feb-14-2027-Pantages-Theatre-MN",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194295"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194295",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-pink-martini-2027-madison-vv1a6zkfagkec5a4v",
@@ -1128,7 +1137,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-madison-wisconsin-02-16-2027/event/07006505AD2C5574",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1163,7 +1172,11 @@
     },
     "ticketmaster_discovery_event_id": "vv1A6ZkfAGkec5A4V",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "FRANK PRODUCTIONS",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-pink-martini-2027-colorado-springs-z7r9jz1aaztzk",
@@ -1319,7 +1332,7 @@
     "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-toronto-roy-thomson-hall-3-16-2027/production/7120368",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/pink-martini-toronto-ontario-03-16-2027/event/100064BCCF00AA87",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1372,7 +1385,7 @@
     "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-quebec-city-capitole-theatre-3-18-2027/production/7023392",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/pink-martini-quebec-quebec-03-18-2027/event/310064AB3CF10CF5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1441,7 +1454,7 @@
     "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-houston-sarofim-hall---hobby-center-3-25-2027/production/7457827",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-allstars-houston-texas-03-25-2027/event/3A00650DAD3C99A3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1563,7 +1576,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/pink-martini-liverpool-03-07-2027/event/1F0065459E1F267D",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1598,7 +1611,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_fpr6w_W",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ]
   },
   {
     "id": "tm-pink-martini-2027-edinburgh-1auzk4agkdmo6dj",
@@ -1616,7 +1632,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/pink-martini-edinburgh-04-07-2027/event/36006545EE447EE6",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1659,7 +1675,10 @@
     "ticketmaster_discovery_event_id": "1AUZk4AGkdmo6DJ",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/pink-martini-tickets-edinburgh-usher-hall-4-7-2027/event/107671926"
+    "stubhub_international_url": "https://www.stubhub.ie/pink-martini-tickets-edinburgh-usher-hall-4-7-2027/event/107671926",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ]
   },
   {
     "id": "tm-pink-martini-2027-london-g5vhz_fqbbwez",
@@ -1677,7 +1696,7 @@
     "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-london-royal-albert-hall-7-2-2027/production/7679841",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/pink-martini-london-02-07-2027/event/1F00654698EB20B8",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1720,6 +1739,9 @@
     "ticketmaster_discovery_event_id": "G5vHZ_fQbBwez",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/pink-martini-tickets-london-london-royal-albert-hall-2-7-2027/event/107671924"
+    "stubhub_international_url": "https://www.stubhub.ie/pink-martini-tickets-london-london-royal-albert-hall-2-7-2027/event/107671924",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ]
   }
 ]

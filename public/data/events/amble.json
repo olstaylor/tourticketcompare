@@ -442,7 +442,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-los-angeles-california-10-23-2026/event/0900649BEB091EC7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -477,7 +477,10 @@
     },
     "ticketmaster_discovery_event_id": "vv170Z_aGkRleoD6",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-amble-2026-san-francisco-g5vyz_gntwbu0",
@@ -495,7 +498,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-san-francisco-california-10-24-2026/event/1C0064CABFC98DA4",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -546,7 +549,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056125",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056125/Amble-tickets-Sat-Oct-24-2026-The-Fillmore-San-Francisco"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056125/Amble-tickets-Sat-Oct-24-2026-The-Fillmore-San-Francisco",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-amble-2026-seattle-z7r9jz1a70p_0",
@@ -633,7 +639,7 @@
     "vividseats_url": "https://www.vividseats.com/amble-tickets-vancouver-orpheum-theatre---vancouver-10-27-2026--concerts-alternative/production/6982424",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/amble-vancouver-british-columbia-10-27-2026/event/1100649BB3788107",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -684,7 +690,13 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7936748",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7936748/Amble-tickets-Tue-Oct-27-2026-Orpheum-Theatre-Vancouver"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7936748/Amble-tickets-Tue-Oct-27-2026-Orpheum-Theatre-Vancouver",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ]
   },
   {
     "id": "tm-amble-2026-detroit-vv1afzk39gkeeybaa",
@@ -702,7 +714,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-detroit-michigan-11-01-2026/event/08006497A7C3A145",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -744,6 +756,9 @@
         "start": "2026-05-08T13:00:00Z",
         "end": "2026-10-30T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -762,7 +777,7 @@
     "vividseats_url": "https://www.vividseats.com/amble-tickets-toronto-history-toronto-11-2-2026--concerts-alternative/production/6982426",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/amble-toronto-ontario-11-02-2026/event/1000649A040E94FC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -797,7 +812,13 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_aGkI7dtKH",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ]
   },
   {
     "id": "tm-amble-2026-ottawa-1ad7z_agkivxxic",
@@ -815,7 +836,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/amble-ottawa-ontario-11-03-2026/event/3100649A01FBEA2D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -850,7 +871,13 @@
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_aGkIvXXIc",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ]
   },
   {
     "id": "tm-amble-2026-boston-vv177z_agkwhenya",
@@ -868,7 +895,7 @@
     "vividseats_url": "https://www.vividseats.com/amble-tickets-boston-citizens-house-of-blues-boston-11-6-2026--concerts-alternative/production/6982394",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-boston-massachusetts-11-06-2026/event/0100649CBC0A3C05",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -919,7 +946,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930665",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930665/Amble-tickets-Fri-Nov-6-2026-Citizens-House-Of-Blues-Boston"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930665/Amble-tickets-Fri-Nov-6-2026-Citizens-House-Of-Blues-Boston",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-amble-2026-brooklyn-k7vgf_ad7j_qa",
@@ -937,7 +967,7 @@
     "vividseats_url": "https://www.vividseats.com/amble-tickets-brooklyn-brooklyn-paramount-11-7-2026--concerts-alternative/production/6982398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-brooklyn-new-york-11-07-2026/event/0000649EC4999749",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1003,6 +1033,9 @@
         "start": "2026-05-08T13:00:00Z",
         "end": "2026-10-18T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1021,7 +1054,7 @@
     "vividseats_url": "https://www.vividseats.com/amble-tickets-philadelphia-theatre-of-living-arts-11-10-2026--concerts-alternative/production/6982400",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-philadelphia-pennsylvania-11-10-2026/event/0200649C2D05CF92",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1056,7 +1089,10 @@
     },
     "ticketmaster_discovery_event_id": "vv17FZ_aGkYcvjX3",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-amble-2026-washington-1avfz_agkmvpzjt",
@@ -1074,7 +1110,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-washington-district-of-columbia-11-11-2026/event/1500649BB45B873F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1212,7 +1248,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-nashville-tennessee-11-14-2026/event/1B0064CABED5F446",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1275,6 +1311,9 @@
         "start": "2026-06-19T14:00:00Z",
         "end": "2026-11-12T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1293,7 +1332,7 @@
     "vividseats_url": "https://www.vividseats.com/amble-tickets-new-orleans-house-of-blues-new-orleans-11-16-2026--concerts-alternative/production/6982406",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-new-orleans-louisiana-11-16-2026/event/1B006499DDF33ABC",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1351,6 +1390,9 @@
         "start": "2026-05-08T14:00:00Z",
         "end": "2026-11-09T09:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
     ]
   },
   {
@@ -1369,7 +1411,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-austin-texas-11-17-2026/event/3A006496EF8487E5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1404,7 +1446,10 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_ahR-FLP",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-amble-2026-dallas-vvg1yz_161iqqj",
@@ -1422,7 +1467,7 @@
     "vividseats_url": "https://www.vividseats.com/amble-tickets-dallas-the-echo-lounge-and-music-hall-11-18-2026--concerts-alternative/production/6982420",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-dallas-texas-11-18-2026/event/0C0064A1CAA1A75C",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1480,6 +1525,9 @@
         "start": "2026-05-08T14:00:00Z",
         "end": "2026-10-19T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1498,7 +1546,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/amble-co-mayo-17-12-2026/event/18006536D0F0F2B9",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1533,7 +1581,10 @@
     },
     "ticketmaster_discovery_event_id": "1AbZkfUGkd8H21y",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-amble-2026-co-mayo-1abzkfugkd8hl5a",
@@ -1551,7 +1602,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/amble-co-mayo-18-12-2026/event/18006536D0F1F2C5",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1586,7 +1637,10 @@
     },
     "ticketmaster_discovery_event_id": "1AbZkfUGkd8HL5A",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-amble-2026-co-mayo-1abzkfugkd8hr56",
@@ -1604,7 +1658,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/amble-co-mayo-19-12-2026/event/18006536D0F2F2C7",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1639,7 +1693,10 @@
     },
     "ticketmaster_discovery_event_id": "1AbZkfUGkd8HR56",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-amble-2027-madrid-z698xz2qz1kozfaa3",
@@ -1657,7 +1714,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/amble-europe-2027-tickets/440505152?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1700,7 +1757,10 @@
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1koZfAA3",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-madrid-sala-but-9-2-2027/event/107198141"
+    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-madrid-sala-but-9-2-2027/event/107198141",
+    "organizer_names": [
+      "Live Nation España Red Path SL"
+    ]
   },
   {
     "id": "tm-amble-2027-barcelona-z698xz2qz16vb40_3f",
@@ -1718,7 +1778,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/amble-europe-2027-tickets/1615919488?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1761,7 +1821,10 @@
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vb40_3F",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-barcelona-sala-apolo-10-2-2027/event/107198142"
+    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-barcelona-sala-apolo-10-2-2027/event/107198142",
+    "organizer_names": [
+      "Live Nation España Red Path SL"
+    ]
   },
   {
     "id": "tm-amble-2027-johanneshov-z698xzq2z16v73foub",
@@ -1779,7 +1842,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.se/event/amble-tickets/1112511358?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1814,7 +1877,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZq2Z16v73foub",
     "timezone": "Europe/Stockholm",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Lugerinc AB"
+    ]
   },
   {
     "id": "tm-amble-2027-amsterdam-z698xzbpz16vb-0aa8",
@@ -1832,7 +1898,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/amble-tickets/1621909250?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1885,7 +1951,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/amble-tickets/753349084?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1938,7 +2004,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/amble-belfast-23-06-2027/event/380064F682FC0AE1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1981,7 +2047,10 @@
     "ticketmaster_discovery_event_id": "17CZv0G62QeTZl-",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-belfast-ormeau-park-23-6-2027/event/107482906"
+    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-belfast-ormeau-park-23-6-2027/event/107482906",
+    "organizer_names": [
+      "BELSONIC LTD"
+    ]
   },
   {
     "id": "tm-amble-2027-co-dublin-17kzv0g62mxw25r",
@@ -1999,7 +2068,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/amble-co-dublin-24-06-2027/event/180064FBBEF4F2DE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2034,7 +2103,10 @@
     },
     "ticketmaster_discovery_event_id": "17kZv0G62mXW25r",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-amble-2027-glasgow-17uov0g62brrf6b",
@@ -2052,7 +2124,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/amble-love-and-all-its-wares-glasgow-29-06-2027/event/360064FE9EBD41FA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2087,7 +2159,11 @@
     },
     "ticketmaster_discovery_event_id": "17uOv0G62BrRf6B",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "DF CONCERTS LIMITED",
+      "GIGS IN SCOTLAND"
+    ]
   },
   {
     "id": "tm-amble-2027-limerick-city-17kzv0g62sp3q8m",
@@ -2105,7 +2181,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/amble-limerick-city-03-07-2027/event/180064FCE549D42E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2140,7 +2216,10 @@
     },
     "ticketmaster_discovery_event_id": "17kZv0G62SP3q8m",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-amble-2027-manchester-g5vhz_8upt3w4",
@@ -2158,7 +2237,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/amble-love-and-all-its-wares-manchester-08-07-2027/event/1F00650D96FD2F55",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2201,7 +2280,10 @@
     "ticketmaster_discovery_event_id": "G5vHZ_8UpT3W4",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-manchester-castlefield-bowl-8-7-2027/event/107483077"
+    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-manchester-castlefield-bowl-8-7-2027/event/107483077",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-amble-2027-london-g5vhz_8sflgki",
@@ -2219,7 +2301,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/amble-love-and-all-its-wares-london-09-07-2027/event/1F00650CC87F51A8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2254,7 +2336,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_8SFLgkI",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-amble-2026-co-mayo-1abzkfugkd8w25a",
@@ -2272,7 +2357,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/amble-co-mayo-20-12-2026/event/18006536D0F4F2C9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2307,7 +2392,10 @@
     },
     "ticketmaster_discovery_event_id": "1AbZkfUGkd8W25a",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-amble-2026-co-mayo-1abzkfugkd8wl5u",
@@ -2325,7 +2413,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/amble-co-mayo-21-12-2026/event/18006536D0F5F2CD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2360,7 +2448,10 @@
     },
     "ticketmaster_discovery_event_id": "1AbZkfUGkd8WL5u",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-amble-2026-phoenix-rz7hnez1afk4vf",
@@ -2447,7 +2538,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.at/event/amble-europe-2027-tickets/636793125?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2482,7 +2573,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ5rZ1kbUrK7P",
     "timezone": "Europe/Vienna",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation Austria GmbH"
+    ]
   },
   {
     "id": "tm-amble-2027-praha-5-z698xzu0z1kje4u8k",
@@ -2500,7 +2594,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/amble-tickets/982576413?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2535,6 +2629,9 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZu0Z1kJe4U8K",
     "timezone": "Europe/Prague",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CZECH REPUBLIC s.r.o."
+    ]
   }
 ]

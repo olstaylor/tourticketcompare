@@ -56,6 +56,12 @@ A Ticketmaster primary ticket and a Vivid Seats resale listing aren't automatica
 
 On TourTicketCompare, the Vivid Seats button on a date shows Vivid Seats' lowest listed price for that date when its feed supplies one, with how long ago it was checked. The Ticketmaster button is a plain link with no price. Use the figure to decide whether the Vivid Seats listings are worth opening, not as the total you'll pay.
 
+## Is it better to buy from Ticketmaster or Vivid Seats?
+
+For a primary sale, start with the authorised seller linked by the artist, venue or promoter. If that seller is Ticketmaster, compare its primary tickets before deciding whether to buy a resale listing on Vivid Seats. Check the primary seller’s current listings directly rather than inferring availability from a resale listing.
+
+For resale, neither brand is always the better choice. Compare the exact show, ticket quantity, section or standing area, view restrictions, complete total and promised delivery date. Choose the listing that meets those requirements; a lower displayed price alone does not establish a better deal. If the two listings differ, keep looking rather than treating them as an equivalent price comparison.
+
 ## Find your concert
 
 [Choose your artist and concert date](/artists) to see the ticket links listed for that show. Match the city, venue and date before opening a provider. Where both Ticketmaster and Vivid Seats links are shown, use them to compare the seats and complete totals on each site. Coverage varies by show; a listed link does not guarantee tickets are still available.

@@ -60,7 +60,7 @@ import { includePastFromEnv, skipInSweep, PAST_RECHECK_DAYS } from './lib/tm-swe
 import { normalizePresaleWindows } from '../functions/_presales.js';
 import { PROVIDER_LANES } from './lib/event-link-coverage.mjs';
 import { eventLocalDate, urlDateConflicts } from './sync-impact-marketplace-events.mjs';
-import { officialEventMetadata } from '../functions/_event-metadata.js';
+import { officialEventMetadata, organizerNames } from '../functions/_event-metadata.js';
 import { validPreviousStartDate, previousStartDateFromEvent } from '../functions/_event-reschedule.js';
 
 const DEFAULT_BASE = 'https://app.ticketmaster.com/discovery/v2';
@@ -460,8 +460,15 @@ function computeIntendedUpdates(event, remote, now = Date.now()) {
   const data = remote?.data;
   if (!data) return changes;
 
-  // Missing fields in older snapshots are not evidence for deleting facts.
-  for (const [field, value] of Object.entries(officialEventMetadata(data))) {
+  // Missing fields in older snapshots do not erase genuine recorded names.
+  // Anonymous or performer/venue account labels cannot verify an organizer,
+  // including when a newly verified venue change creates that ambiguity.
+  const metadata = officialEventMetadata(data, event);
+  if (!metadata.organizer_names && Array.isArray(event.organizer_names)) {
+    const retained = organizerNames(event.organizer_names, [event.artist_name, event.venue, data?._embedded?.venues?.[0]?.name]);
+    if (JSON.stringify(retained) !== JSON.stringify(event.organizer_names)) metadata.organizer_names = retained.length ? retained : null;
+  }
+  for (const [field, value] of Object.entries(metadata)) {
     if (JSON.stringify(event[field]) !== JSON.stringify(value)) changes.push({ field, from: event[field] ?? null, to: value });
   }
 
@@ -477,7 +484,7 @@ function computeIntendedUpdates(event, remote, now = Date.now()) {
 
   // A moved start invalidates an old end unless this response supplies a new one.
   const qualifiedEnd = data?.dates?.end?.approximate === true || data?.dates?.end?.noSpecificTime === true;
-  if (event.end_datetime_iso && (qualifiedEnd || (changes.some((change) => change.field === 'datetime_iso') && !officialEventMetadata(data).end_datetime_iso))) {
+  if (event.end_datetime_iso && (qualifiedEnd || (changes.some((change) => change.field === 'datetime_iso') && !officialEventMetadata(data, event).end_datetime_iso))) {
     changes.push({ field: 'end_datetime_iso', from: event.end_datetime_iso, to: null });
   }
 
@@ -847,6 +854,9 @@ async function runSelfTest() {
   const fieldsOf = (e, r) => computeIntendedUpdates(e, r).map((c) => c.field);
 
   assert('a newly qualified end clears an old exact end', computeIntendedUpdates(ev({ datetime_iso: '2026-10-01T18:00:00Z', end_datetime_iso: '2026-10-01T21:00:00Z' }), remote({ dates: { start: { dateTime: '2026-10-01T18:00:00Z' }, end: { dateTime: '2026-10-01T21:00:00Z', approximate: true, noSpecificTime: false } } })).some((c) => c.field === 'end_datetime_iso' && c.to === null));
+
+  assert('ambiguous stored names are cleared without dropping genuine co-organizers', JSON.stringify(computeIntendedUpdates(ev({ artist_name: 'Artist', venue: 'Hall', organizer_names: ['ARTIST', 'HALL', 'Real Promoter'] }), remote({})).find((c) => c.field === 'organizer_names')?.to) === JSON.stringify(['Real Promoter']));
+  assert('a verified venue change clears a newly ambiguous organizer name', computeIntendedUpdates(ev({ venue: 'Old Hall', organizer_names: ['New Hall'] }), remote({ _embedded: { venues: [{ name: 'New Hall' }] } })).some((c) => c.field === 'organizer_names' && c.to === null));
 
   assert('official promoter names are stored', fieldsOf(ev({}), remote({ promoters: [{ name: 'Official Promoter' }] })).includes('organizer_names'));
   assert('old snapshots do not erase organizers', !fieldsOf(ev({ organizer_names: ['Official Promoter'] }), remote({})).includes('organizer_names'));

@@ -780,10 +780,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748036",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748036/Foy-Vance-tickets-Sat-Nov-14-2026-Knitting-Factory-Spokane",
-    "organizer_names": [
-      "KNITTING FACTORY SPOKANE"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748036/Foy-Vance-tickets-Sat-Nov-14-2026-Knitting-Factory-Spokane"
   },
   {
     "id": "tm-foy-vance-2026-boise-g5vzz_akyqnb8",
@@ -836,10 +833,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_AkYQnB8",
     "timezone": "America/Denver",
-    "status": "on-sale",
-    "organizer_names": [
-      "KNITTING FACTORY BOISE"
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-foy-vance-2026-englewood-z7r9jz1a7--ke",

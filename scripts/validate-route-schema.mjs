@@ -826,7 +826,7 @@ function expectedMusicEventCount(artistSlug) {
     // `offers` is optional: present only where the page's ticket buttons show
     // a gated price (the same musicEventOffersSchema the parent boards use).
     const { offers: nodeOffers, previousStartDate, organizer, endDate, ...nodeCore } = node;
-    const expectedOrganizers = organizerNames(event.organizer_names).map((name) => ({ "@type": "Organization", name }));
+    const expectedOrganizers = organizerNames(event.organizer_names, [event.artist_name, event.venue]).map((name) => ({ "@type": "Organization", name }));
     if (JSON.stringify(organizer ?? []) !== JSON.stringify(expectedOrganizers)) problems.push("organizer differs from recorded official names");
     const expectedEnd = eventEndDate(event);
     if (expectedEnd ? Date.parse(endDate) !== Date.parse(expectedEnd) : endDate !== undefined) problems.push("endDate differs from recorded event end");

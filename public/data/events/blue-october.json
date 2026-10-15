@@ -3758,10 +3758,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957276",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957276/Blue-October-tickets-Wed-Feb-24-2027-Knitting-Factory-Spokane",
-    "organizer_names": [
-      "KNITTING FACTORY SPOKANE"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957276/Blue-October-tickets-Wed-Feb-24-2027-Knitting-Factory-Spokane"
   },
   {
     "id": "tm-blue-october-2027-vancouver-1778v0g61pgtl-u",
@@ -4099,10 +4096,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1RcVq7P",
     "timezone": "America/Denver",
-    "status": "on-sale",
-    "organizer_names": [
-      "KNITTING FACTORY BOISE"
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-blue-october-2027-salt-lake-city-z7r9jz1a70te4",

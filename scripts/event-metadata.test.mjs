@@ -50,3 +50,8 @@ for (const name of ['PROMOTED BY VENUE', 'promoter not defined', ' MISCELLANEOUS
   assert.deepEqual(organizerNames([name, 'Live Nation']), ['Live Nation'], 'retain independently named co-organizers');
 }
 console.log('PASS anonymous/internal promoter labels never become organizations');
+
+const artistVenueSource = snapshotFields({ promoters: [{ name: 'FONTAINES D.C.' }, { name: 'CO-OP LIVE' }, { name: 'SJM LIMITED' }], _embedded: { attractions: [{ name: 'Fontaines D.C.' }], venues: [{ name: 'Co-op Live' }] } });
+assert.deepEqual(officialEventMetadata(artistVenueSource, { artist_name: 'Fontaines D.C.', venue: 'Co-op Live' }), { organizer_names: ['SJM LIMITED'] });
+assert.deepEqual(organizerNames(['OASIS', 'Melkweg', 'SJM'], ['Oasis', 'Mélkweg']), ['SJM']);
+console.log('PASS artist/venue identities are withheld while independent co-organizers remain');

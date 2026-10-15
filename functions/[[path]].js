@@ -1427,14 +1427,14 @@ function musicEventName(show, artistName) {
 // the page's Person/MusicGroup node on artist pages and an inline
 // Person/MusicGroup on venue/city pages, which aggregate multiple artists.
 function renderOfficialMetadata(show) {
-  const names = organizerNames(show.organizer_names);
+  const names = organizerNames(show.organizer_names, [show.artist_name, show.venue]);
   const end = eventEndDate(show);
   const parts = [names.length ? `Organizer: ${escapeHtml(names.join(", "))}` : "", end ? `Ends: <time datetime="${escapeAttr(end)}">${escapeHtml(formatShowDateServer(end, show.timezone))} ${escapeHtml(showLocalTimeServer(end, show.timezone, true))}</time>` : ""].filter(Boolean);
   return parts.length ? `<p class="show-card-sub muted">${parts.join(" · ")}</p>` : "";
 }
 
 function eventMetadataSchema(show) {
-  const names = organizerNames(show.organizer_names);
+  const names = organizerNames(show.organizer_names, [show.artist_name, show.venue]);
   const end = eventEndDate(show);
   return {
     ...(names.length ? { organizer: names.map((name) => ({ "@type": "Organization", name })) } : {}),
@@ -4910,7 +4910,7 @@ function enrichEventAsShow(ev) {
     event_name: String(ev.event_name || ev.name || "").trim(),
     tour_name: String(ev.tour_name || "").trim(),
     dateTimeISO: String(ev.dateTimeISO || ev.datetime_iso || "").trim(),
-    organizer_names: organizerNames(ev.organizer_names),
+    organizer_names: organizerNames(ev.organizer_names, [ev.artist_name, ev.venue]),
     end_datetime_iso: eventEndDate(ev),
     previous_start_date: eventPreviousStartDate(ev),
     previous_start_timezone: String(ev.previous_start_timezone || "").trim(),
@@ -6927,7 +6927,7 @@ function renderEventPageBody(route, events, env) {
     ["Artist", anchor(artist.name, `/artists/${artist.slug}`, "text-link")],
     eventName && eventName.toLowerCase() !== artist.name.toLowerCase() ? ["Billed as", escapeHtml(eventName)] : null,
     show.tour_name ? ["Tour", escapeHtml(show.tour_name)] : null,
-    organizerNames(show.organizer_names).length ? ["Organizer", escapeHtml(organizerNames(show.organizer_names).join(", "))] : null,
+    organizerNames(show.organizer_names, [show.artist_name, show.venue]).length ? ["Organizer", escapeHtml(organizerNames(show.organizer_names, [show.artist_name, show.venue]).join(", "))] : null,
     eventEndDate(show) ? ["Ends", escapeHtml(`${formatShowDateServer(show.end_datetime_iso, show.timezone)} ${showLocalTimeServer(show.end_datetime_iso, show.timezone, true)}`)] : null,
     ["Venue", escapeHtml(show.venue)],
     ["City", escapeHtml([show.city, show.country ? normalizeCountry(show.country) : ""].filter(Boolean).join(", "))],

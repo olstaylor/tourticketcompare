@@ -8,6 +8,7 @@ import re
 import subprocess
 import sys
 import tempfile
+import unicodedata
 from datetime import datetime
 from urllib.parse import unquote, urlparse
 from pathlib import Path
@@ -355,6 +356,8 @@ def run_self_test() -> int:
     }]
     script_path = Path(__file__).resolve()
     test_cases = [
+        {"name": "performer account is not an organizer", "mutate": lambda event: event.__setitem__("organizer_names", ["SELF TEST ARTIST"]), "expect": "organizer_names: must contain plain official organization names"},
+        {"name": "venue account is not an organizer", "mutate": lambda event: event.__setitem__("organizer_names", ["TEST-ARENA"]), "expect": "organizer_names: must contain plain official organization names"},
         {"name": "anonymous promoter label", "mutate": lambda event: event.__setitem__("organizer_names", ["PROMOTED BY VENUE"]), "expect": "organizer_names: must contain plain official organization names"},
         {"name": "internal promoter price label", "mutate": lambda event: event.__setitem__("organizer_names", ["MONDIAL PRICE 1"]), "expect": "organizer_names: must contain plain official organization names"},
         {"name": "unsafe organizer", "mutate": lambda event: event.__setitem__("organizer_names", ["<script>"]), "expect": "organizer_names: must contain plain official organization names"},
@@ -853,11 +856,15 @@ def main() -> int:
             elif (status or "").strip() != "announced":
                 errors.append(f"{prefix}.public_onsale_at: only allowed on an 'announced' event")
 
+        # Matching a performer/venue account does not verify an organizer role.
+        identity_key = lambda value: "".join(c for c in unicodedata.normalize("NFKD", value).lower() if c.isalnum()) if isinstance(value, str) else ""
+        organizer_identity_keys = {identity_key(event.get(field)) for field in ("artist_name", "venue")} - {""}
         # Optional official organizer and event-end facts.
         organizers = event.get("organizer_names")
         if organizers is not None and (not isinstance(organizers, list) or not organizers or any(
             not isinstance(name, str) or not name.strip() or len(name) > 200 or re.search(r"[<>\r\n]|https?://", name, re.I)
             or re.search(r"^(?:PROMOTED BY VENUE|PROMOTER NOT DEFINED|MISCELLANEOUS PROMOTER|DO NOT USE|UNKNOWN|N/A|NONE|TBA|TBD)$|(?:^|\s)PRICE\s+\d+$|OFFICIAL MAILING LIST|FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS", " ".join(name.split()), re.I)
+            or identity_key(name) in organizer_identity_keys
             for name in organizers
         )):
             errors.append(f"{prefix}.organizer_names: must contain plain official organization names")

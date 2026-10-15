@@ -123,10 +123,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KkMEtDo",
     "timezone": "America/Denver",
-    "status": "on-sale",
-    "organizer_names": [
-      "KNITTING FACTORY BOISE"
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-atmosphere-2027-bozeman-g5vzz_k6poibm",
@@ -267,10 +264,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277972",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277972/Atmosphere-tickets-Sun-Jan-24-2027-Knitting-Factory-Spokane",
-    "organizer_names": [
-      "KNITTING FACTORY SPOKANE"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277972/Atmosphere-tickets-Sun-Jan-24-2027-Knitting-Factory-Spokane"
   },
   {
     "id": "tm-atmosphere-2027-vancouver-1av7z_3gkx859iu",

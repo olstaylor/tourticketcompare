@@ -113,7 +113,7 @@ export function mapEventsToShows(events) {
         artist_slug: event.artist_slug,
         artist_name: event.artist_name,
         dateTimeISO,
-        organizer_names: organizerNames(event.organizer_names),
+        organizer_names: organizerNames(event.organizer_names, [event.artist_name, event.venue]),
         end_datetime_iso: eventEndDate(event),
         previous_start_date: eventPreviousStartDate(event),
         previous_start_timezone: event.previous_start_timezone || "",

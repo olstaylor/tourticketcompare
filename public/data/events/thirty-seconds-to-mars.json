@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "65562275",
     "ticketmaster_url": "https://www.ticketmaster.es/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/65562275?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-madrid-movistar-arena---madrid-4-8-2027--concerts-rock/production/6900043",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/65562275?language=en-us",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6900043,
+        "url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-madrid-movistar-arena---madrid-4-8-2027--concerts-rock/production/6900043",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "1354406695",
     "ticketmaster_url": "https://www.ticketmaster.es/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1354406695?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-valencia-roig-arena-4-9-2027--concerts-rock/production/6900059",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1354406695?language=en-us",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6900059,
+        "url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-valencia-roig-arena-4-9-2027--concerts-rock/production/6900059",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "35006489E7D2A5CD",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-london-28-04-2027/event/35006489E7D2A5CD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-london-the-o2---london-4-28-2027--concerts-rock/production/6899989",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-london-28-04-2027/event/35006489E7D2A5CD",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6899989,
+        "url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-london-the-o2---london-4-28-2027--concerts-rock/production/6899989",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "37006489B09E2233",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-manchester-29-04-2027/event/37006489B09E2233",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-manchester-co-op-live-4-29-2027--concerts-rock/production/6892010",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-manchester-29-04-2027/event/37006489B09E2233",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6892010,
+        "url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-manchester-co-op-live-4-29-2027--concerts-rock/production/6892010",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

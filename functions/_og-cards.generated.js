@@ -654,7 +654,6 @@ export const OG_CARDS = {
   "/venues/spectrum-center-charlotte": {"url":"/og/venues-spectrum-center-charlotte.png","alt":"Concerts at: Spectrum Center"},
   "/venues/sphere-las-vegas": {"url":"/og/venues-sphere-las-vegas.png","alt":"Concerts at: Sphere"},
   "/venues/state-farm-arena-atlanta": {"url":"/og/venues-state-farm-arena-atlanta.png","alt":"Concerts at: State Farm Arena"},
-  "/venues/state-theatre-portland": {"url":"/og/venues-state-theatre-portland.png","alt":"Concerts at: State Theatre"},
   "/venues/t-mobile-arena-las-vegas": {"url":"/og/venues-t-mobile-arena-las-vegas.png","alt":"Concerts at: T-Mobile Arena"},
   "/venues/t-mobile-center-kansas-city": {"url":"/og/venues-t-mobile-center-kansas-city.png","alt":"Concerts at: T-Mobile Center"},
   "/venues/td-garden-boston": {"url":"/og/venues-td-garden-boston.png","alt":"Concerts at: TD Garden"},

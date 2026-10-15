@@ -2579,11 +2579,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107085164",
-        "url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-14-2026/event/107085164",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -2596,7 +2596,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_dfAMb5J",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-14-2026/event/107085164",
+    "stubhub_international_url": "",
     "ticketliquidator_url": ""
   },
   {
@@ -17666,11 +17666,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107071108",
-        "url": "https://www.stubhub.ie/bruno-mars-tickets-vancouver-bc-place-stadium-10-14-2026/event/107071108",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/Los_Angeles",
@@ -17679,7 +17679,7 @@
     "ticketmaster_discovery_event_id": "16v7ZbyrvG7DKHM",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-vancouver-bc-place-stadium-10-14-2026/event/107071108"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-1av7z_egkshvjex",
@@ -38089,11 +38089,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107155469",
-        "url": "https://www.stubhub.ie/sombr-glendale-tickets-10-14-2026/event/107155469",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8GY",
@@ -38101,7 +38101,7 @@
     "timezone": "America/Phoenix",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-glendale-tickets-10-14-2026/event/107155469"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-sombr-2026-oklahoma-city-z7r9jz1a7x8av",
@@ -52406,11 +52406,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107185218",
-        "url": "https://www.stubhub.ie/don-omar-charlotte-tickets-10-14-2026/event/107185218",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_1D8LHPJ",
@@ -52418,7 +52418,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-charlotte-tickets-10-14-2026/event/107185218"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-don-omar-2026-washington-17a8v0g61wbnb9b",
@@ -86039,11 +86039,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107452575",
-        "url": "https://www.stubhub.ie/sylvan-esso-brooklyn-tickets-10-14-2026/event/107452575",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -86057,7 +86057,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/sylvan-esso-brooklyn-tickets-10-14-2026/event/107452575",
+    "stubhub_international_url": "",
     "ticketnetwork_url": ""
   },
   {
@@ -157071,11 +157071,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107212078",
-        "url": "https://www.stubhub.ie/the-red-clay-strays-orlando-tickets-10-14-2026/event/107212078",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -157089,7 +157089,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/the-red-clay-strays-orlando-tickets-10-14-2026/event/107212078",
+    "stubhub_international_url": "",
     "ticketliquidator_url": ""
   },
   {
@@ -186027,11 +186027,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107018107",
-        "url": "https://www.stubhub.ie/warren-zeiders-tickets-manchester-manchester-academy-14-10-2026/event/107018107",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZbgTrZaeC",
@@ -186039,7 +186039,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-manchester-manchester-academy-14-10-2026/event/107018107"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-warren-zeiders-2026-bristol-g5dzzbgxgfjht",
@@ -198227,6 +198227,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673019",
+        "url": "https://www.stubhub.ie/nickelback-nashville-tickets-2-21-2027/event/107673019",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_frYA27y",
@@ -198286,7 +198293,8 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-02-17T18:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-nashville-tickets-2-21-2027/event/107673019"
   },
   {
     "id": "tm-nickelback-2027-knoxville-g5viz_f9kxnbt",
@@ -198603,6 +198611,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673015",
+        "url": "https://www.stubhub.ie/nickelback-atlanta-tickets-3-2-2027/event/107673015",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_f9I_UgH",
@@ -198657,7 +198672,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-02-26T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-atlanta-tickets-3-2-2027/event/107673015"
   },
   {
     "id": "tm-nickelback-2027-raleigh-g5evz_fh5odfi",
@@ -198720,6 +198736,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673021",
+        "url": "https://www.stubhub.ie/nickelback-raleigh-tickets-3-4-2027/event/107673021",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_fh5OdFi",
@@ -198774,7 +198797,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-02-28T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-raleigh-tickets-3-4-2027/event/107673021"
   },
   {
     "id": "tm-nickelback-2027-newark-vv1kfz_fj7g7twmf",
@@ -198954,6 +198978,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672950",
+        "url": "https://www.stubhub.ie/nickelback-washington-tickets-3-8-2027/event/107672950",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vfZ_fFEG7mdpA",
@@ -199008,7 +199039,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-04T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-washington-tickets-3-8-2027/event/107672950"
   },
   {
     "id": "tm-nickelback-2027-boston-vv1avzk4egkdzjayi",
@@ -199071,6 +199103,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672951",
+        "url": "https://www.stubhub.ie/nickelback-boston-tickets-3-10-2027/event/107672951",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4eGkdzjaYi",
@@ -199125,7 +199164,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-06T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-boston-tickets-3-10-2027/event/107672951"
   },
   {
     "id": "tm-nickelback-2027-montreal-15d7z_fqpa0kk",
@@ -199492,6 +199532,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673397",
+        "url": "https://www.stubhub.ie/nickelback-buffalo-tickets-3-24-2027/event/107673397",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_frUEE-y",
@@ -199546,7 +199593,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-20T16:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-buffalo-tickets-3-24-2027/event/107673397"
   },
   {
     "id": "tm-nickelback-2027-detroit-vv1afzk46gkdogect",
@@ -199609,6 +199657,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673398",
+        "url": "https://www.stubhub.ie/nickelback-detroit-tickets-3-26-2027/event/107673398",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk46GkdOGEcT",
@@ -199663,7 +199718,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-02-13T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-detroit-tickets-3-26-2027/event/107673398"
   },
   {
     "id": "tm-nickelback-2027-milwaukee-vv1a6zk4agkd7raaf",
@@ -199965,6 +200021,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673389",
+        "url": "https://www.stubhub.ie/nickelback-tickets-edmonton-rogers-place-4-3-2027/event/107673389",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1F78vPooPNZ72877",
@@ -200014,7 +200077,8 @@
         "start": "2026-10-16T16:00:00Z",
         "end": "2027-03-30T18:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-edmonton-rogers-place-4-3-2027/event/107673389"
   },
   {
     "id": "tm-nickelback-2027-calgary-1aozk4kgkd_yj0d",
@@ -200077,6 +200141,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673023",
+        "url": "https://www.stubhub.ie/nickelback-tickets-calgary-scotiabank-saddledome-4-6-2027/event/107673023",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4kGkd_Yj0d",
@@ -200126,7 +200197,8 @@
         "start": "2026-10-16T16:00:00Z",
         "end": "2027-04-02T18:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-calgary-scotiabank-saddledome-4-6-2027/event/107673023"
   },
   {
     "id": "tm-nickelback-2027-vancouver-1aozk4agkdpx1_p",
@@ -200189,6 +200261,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673022",
+        "url": "https://www.stubhub.ie/nickelback-tickets-vancouver-rogers-arena-4-9-2027/event/107673022",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4AGkdpX1_P",
@@ -200243,7 +200322,8 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-04-05T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-vancouver-rogers-arena-4-9-2027/event/107673022"
   },
   {
     "id": "tm-nickelback-2027-seattle-vvg1hz_f5mpsjc",
@@ -200306,6 +200386,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672953",
+        "url": "https://www.stubhub.ie/nickelback-seattle-tickets-4-10-2027/event/107672953",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_f5MpSJC",
@@ -200360,7 +200447,8 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-04-06T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-seattle-tickets-4-10-2027/event/107672953"
   },
   {
     "id": "tm-nickelback-2027-sacramento-g5vyz_f9d-9xg",
@@ -200423,6 +200511,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672954",
+        "url": "https://www.stubhub.ie/nickelback-sacramento-tickets-4-13-2027/event/107672954",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_f9d-9xG",
@@ -200477,7 +200572,8 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-04-09T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-sacramento-tickets-4-13-2027/event/107672954"
   },
   {
     "id": "tm-nickelback-2027-anaheim-vv1aazk4kgkeh-rr7",
@@ -200540,6 +200636,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673326",
+        "url": "https://www.stubhub.ie/nickelback-anaheim-tickets-4-18-2027/event/107673326",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk4kGkeH-rr7",
@@ -200594,7 +200697,8 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-04-14T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-anaheim-tickets-4-18-2027/event/107673326"
   },
   {
     "id": "tm-nickelback-2027-phoenix-1a_zk4kgkd7q1b3",
@@ -200657,6 +200761,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673399",
+        "url": "https://www.stubhub.ie/nickelback-phoenix-tickets-4-20-2027/event/107673399",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_Zk4kGkd7Q1b3",
@@ -200711,7 +200822,8 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-04-16T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-phoenix-tickets-4-20-2027/event/107673399"
   },
   {
     "id": "tm-nickelback-2027-denver-g5vzz_fpgv_um",
@@ -200774,6 +200886,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673401",
+        "url": "https://www.stubhub.ie/nickelback-denver-tickets-4-24-2027/event/107673401",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_fpgv_UM",
@@ -200828,7 +200947,8 @@
         "start": "2026-10-16T16:00:00Z",
         "end": "2027-04-20T18:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-denver-tickets-4-24-2027/event/107673401"
   },
   {
     "id": "tm-nickelback-2027-dallas-vvg1yz_f9cwbxt",
@@ -200891,6 +201011,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673388",
+        "url": "https://www.stubhub.ie/nickelback-dallas-tickets-4-27-2027/event/107673388",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_f9CWbxT",
@@ -200945,7 +201072,8 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-04-23T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-dallas-tickets-4-27-2027/event/107673388"
   },
   {
     "id": "tm-nickelback-2027-san-antonio-g5diz_fruim0m",
@@ -201008,6 +201136,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672956",
+        "url": "https://www.stubhub.ie/nickelback-san-antonio-tickets-5-1-2027/event/107672956",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fruiM0m",
@@ -201062,7 +201197,8 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-04-27T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-san-antonio-tickets-5-1-2027/event/107672956"
   },
   {
     "id": "tm-nickelback-2027-leeds-g5vhz_flmspew",
@@ -227755,17 +227891,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107156171",
-        "url": "https://www.stubhub.ie/uicideboy-new-orleans-tickets-10-14-2026/event/107156171",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_6RoLjgm",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/uicideboy-new-orleans-tickets-10-14-2026/event/107156171"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-uicideboy-2026-atlanta-vvg1zz_6rspgk8",
@@ -229953,17 +230089,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107185107",
-        "url": "https://www.stubhub.ie/the-smashing-pumpkins-chicago-tickets-10-14-2026/event/107185107",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1DaaHeF",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-chicago-tickets-10-14-2026/event/107185107"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-the-smashing-pumpkins-2026-charlotte-g5evz_1dw8jew",
@@ -247726,13 +247862,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672592",
+        "url": "https://www.stubhub.ie/earth-wind-fire-atlantic-city-tickets-12-11-2026/event/107672592",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfAGkd-8Nc-",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8196638",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8196638/Earth-Wind-and-Fire-tickets-Fri-Dec-11-2026-Hard-Rock-Live-At-Etess-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8196638/Earth-Wind-and-Fire-tickets-Fri-Dec-11-2026-Hard-Rock-Live-At-Etess-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-atlantic-city-tickets-12-11-2026/event/107672592"
   },
   {
     "id": "tm-earth-wind-fire-2026-atlantic-city-vv1aezkfagkd-okcm",
@@ -247795,13 +247939,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672603",
+        "url": "https://www.stubhub.ie/earth-wind-fire-atlantic-city-tickets-12-12-2026/event/107672603",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfAGkd-oKcm",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8196639",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8196639/Earth-Wind-and-Fire-tickets-Sat-Dec-12-2026-Hard-Rock-Live-At-Etess-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8196639/Earth-Wind-and-Fire-tickets-Sat-Dec-12-2026-Hard-Rock-Live-At-Etess-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-atlantic-city-tickets-12-12-2026/event/107672603"
   },
   {
     "id": "tm-earth-wind-fire-2027-thackerville-z7r9jz1aazwqd",
@@ -247857,12 +248009,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672613",
+        "url": "https://www.stubhub.ie/earth-wind-fire-thackerville-tickets-12-31-2026/event/107672613",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZwqd",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8178925"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8178925",
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-thackerville-tickets-12-31-2026/event/107672613"
   },
   {
     "id": "tm-earth-wind-fire-2027-west-palm-beach-z7r9jz1aaea-g",
@@ -247911,11 +248071,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672588",
+        "url": "https://www.stubhub.ie/earth-wind-fire-west-palm-beach-tickets-3-6-2027/event/107672588",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAea-g",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-west-palm-beach-tickets-3-6-2027/event/107672588"
   },
   {
     "id": "tm-earth-wind-fire-2027-brandon-g5viz_kuehuto",
@@ -247978,13 +248146,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672596",
+        "url": "https://www.stubhub.ie/earth-wind-fire-brandon-tickets-4-17-2027/event/107672596",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KUEhuTO",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307212",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307212/Earth-Wind-and-Fire-tickets-Sat-Apr-17-2027-Brandon-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307212/Earth-Wind-and-Fire-tickets-Sat-Apr-17-2027-Brandon-Amphitheater",
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-brandon-tickets-4-17-2027/event/107672596"
   },
   {
     "id": "tm-earth-wind-fire-2027-southaven-g5viz_f7otpyl",
@@ -248033,11 +248209,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672610",
+        "url": "https://www.stubhub.ie/earth-wind-fire-southaven-tickets-4-20-2027/event/107672610",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_f7otpyl",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-southaven-tickets-4-20-2027/event/107672610"
   },
   {
     "id": "tm-earth-wind-fire-2027-huntsville-z7r9jz1aaeb18",
@@ -248307,13 +248491,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672599",
+        "url": "https://www.stubhub.ie/earth-wind-fire-columbia-tickets-4-27-2027/event/107672599",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KL2875X",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307216",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307216/Earth-Wind-and-Fire-tickets-Tue-Apr-27-2027-Township-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307216/Earth-Wind-and-Fire-tickets-Tue-Apr-27-2027-Township-Auditorium",
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-columbia-tickets-4-27-2027/event/107672599"
   },
   {
     "id": "tm-earth-wind-fire-2027-knoxville-g5viz_35urusm",
@@ -248376,13 +248568,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672591",
+        "url": "https://www.stubhub.ie/earth-wind-fire-knoxville-tickets-4-28-2027/event/107672591",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_35uruSM",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307217",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307217/Earth-Wind-and-Fire-tickets-Wed-Apr-28-2027-Tennessee-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307217/Earth-Wind-and-Fire-tickets-Wed-Apr-28-2027-Tennessee-Theatre",
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-knoxville-tickets-4-28-2027/event/107672591"
   },
   {
     "id": "tm-earth-wind-fire-2027-charlotte-g5evz_kmaoltm",
@@ -248445,13 +248645,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672619",
+        "url": "https://www.stubhub.ie/earth-wind-fire-charlotte-tickets-4-30-2027/event/107672619",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KMAoLtM",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307218",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307218/Earth-Wind-and-Fire-tickets-Fri-Apr-30-2027-Skyla-Credit-Union-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307218/Earth-Wind-and-Fire-tickets-Fri-Apr-30-2027-Skyla-Credit-Union-Amphitheatre",
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-charlotte-tickets-4-30-2027/event/107672619"
   },
   {
     "id": "tm-earth-wind-fire-2027-durham-g5evz_f5p7r9-",
@@ -248567,13 +248775,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107469464",
+        "url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-4-2026/event/107469464",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck11zds",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113675",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113675/Santana-tickets-Wed-Nov-4-2026-House-Of-Blues-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113675/Santana-tickets-Wed-Nov-4-2026-House-Of-Blues-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-4-2026/event/107469464"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1gfdb",
@@ -248636,13 +248852,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107472158",
+        "url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-5-2026/event/107472158",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1GFdB",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113676",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113676/Santana-tickets-Thu-Nov-5-2026-House-Of-Blues-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113676/Santana-tickets-Thu-Nov-5-2026-House-Of-Blues-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-5-2026/event/107472158"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1ub7d",
@@ -248705,13 +248929,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107469465",
+        "url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-7-2026/event/107469465",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1ub7d",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113677",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113677/Santana-tickets-Sat-Nov-7-2026-House-Of-Blues-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113677/Santana-tickets-Sat-Nov-7-2026-House-Of-Blues-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-7-2026/event/107469465"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1cz73",
@@ -248774,13 +249006,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107472159",
+        "url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-8-2026/event/107472159",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1Cz73",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113678",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113678/Santana-tickets-Sun-Nov-8-2026-House-Of-Blues-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113678/Santana-tickets-Sun-Nov-8-2026-House-Of-Blues-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-8-2026/event/107472159"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck18f79",
@@ -248843,13 +249083,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107472160",
+        "url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-11-2026/event/107472160",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck18F79",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113679",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113679/Santana-tickets-Wed-Nov-11-2026-House-Of-Blues-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113679/Santana-tickets-Wed-Nov-11-2026-House-Of-Blues-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-11-2026/event/107472160"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1oi7r",
@@ -248912,13 +249160,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107469466",
+        "url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-12-2026/event/107469466",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1oI7r",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113680",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113680/Santana-tickets-Thu-Nov-12-2026-House-Of-Blues-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113680/Santana-tickets-Thu-Nov-12-2026-House-Of-Blues-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-12-2026/event/107469466"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck13z7p",
@@ -248981,13 +249237,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107472161",
+        "url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-14-2026/event/107472161",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck13z7P",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113681",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113681/Santana-tickets-Sat-Nov-14-2026-House-Of-Blues-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113681/Santana-tickets-Sat-Nov-14-2026-House-Of-Blues-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-14-2026/event/107472161"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1fb7i",
@@ -249050,13 +249314,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107472162",
+        "url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-15-2026/event/107472162",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1fb7i",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113682",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113682/Santana-tickets-Sun-Nov-15-2026-House-Of-Blues-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113682/Santana-tickets-Sun-Nov-15-2026-House-Of-Blues-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-15-2026/event/107472162"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gau5vmo",
@@ -250506,11 +250778,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666712",
+        "url": "https://www.stubhub.ie/simple-minds-tickets-munich-olympiahalle-munich-20-4-2027/event/107666712",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vQKpA7J",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/simple-minds-tickets-munich-olympiahalle-munich-20-4-2027/event/107666712"
   },
   {
     "id": "tm-simple-minds-2027-berlin-z698xzc2z1kbdpf-d",
@@ -250559,11 +250839,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666719",
+        "url": "https://www.stubhub.ie/simple-minds-tickets-berlin-uber-arena-21-4-2027/event/107666719",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kbdpf-d",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/simple-minds-tickets-berlin-uber-arena-21-4-2027/event/107666719"
   },
   {
     "id": "tm-simple-minds-2027-hamburg-z698xzc2z1k0n7tj3",
@@ -250612,11 +250900,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666704",
+        "url": "https://www.stubhub.ie/simple-minds-tickets-hamburg-barclays-arena-hamburg-27-4-2027/event/107666704",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1k0N7tJ3",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/simple-minds-tickets-hamburg-barclays-arena-hamburg-27-4-2027/event/107666704"
   },
   {
     "id": "tm-simple-minds-2027-amsterdam-z698xzbpz16v_t_v7k",
@@ -250665,11 +250961,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107665751",
+        "url": "https://www.stubhub.ie/simple-minds-tickets-amsterdam-ziggo-dome-30-4-2027/event/107665751",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v_t_v7k",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/simple-minds-tickets-amsterdam-ziggo-dome-30-4-2027/event/107665751"
   },
   {
     "id": "tm-simple-minds-2027-amsterdam-z698xzbpz1k8banaf",
@@ -250787,11 +251091,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666654",
+        "url": "https://www.stubhub.ie/simple-minds-tickets-london-the-o2-arena-6-5-2027/event/107666654",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dfZ_313G7Wgmr",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/simple-minds-tickets-london-the-o2-arena-6-5-2027/event/107666654"
   },
   {
     "id": "tm-simple-minds-2027-manchester-1amzkfxgkdzwjhm",
@@ -250854,13 +251166,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666655",
+        "url": "https://www.stubhub.ie/simple-minds-tickets-manchester-co-op-live-7-5-2027/event/107666655",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkfxGkdZWJhm",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8247671",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8247671/Simple-Minds-tickets-Fri-May-7-2027-Co-Op-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8247671/Simple-Minds-tickets-Fri-May-7-2027-Co-Op-Live",
+    "stubhub_international_url": "https://www.stubhub.ie/simple-minds-tickets-manchester-co-op-live-7-5-2027/event/107666655"
   },
   {
     "id": "tm-simple-minds-2027-birmingham-1aegz_31ka4zdg5d",
@@ -250909,11 +251229,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107665743",
+        "url": "https://www.stubhub.ie/simple-minds-tickets-birmingham-utilita-arena-birmingham-8-5-2027/event/107665743",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aeGZ_31KA4ZdG5d",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/simple-minds-tickets-birmingham-utilita-arena-birmingham-8-5-2027/event/107665743"
   },
   {
     "id": "tm-simple-minds-2027-nottingham-1adfz_31k14zduv5",
@@ -250962,11 +251290,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107665744",
+        "url": "https://www.stubhub.ie/simple-minds-tickets-nottingham-motorpoint-arena-nottingham-10-5-2027/event/107665744",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1adfZ_31K14Zduv5",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/simple-minds-tickets-nottingham-motorpoint-arena-nottingham-10-5-2027/event/107665744"
   },
   {
     "id": "tm-simple-minds-2027-leeds-g5vhz_31k8si9",
@@ -251135,13 +251471,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666657",
+        "url": "https://www.stubhub.ie/simple-minds-tickets-glasgow-ovo-hydro-arena-glasgow-14-5-2027/event/107666657",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkfxGkd0xDR8",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272591",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272591/Simple-Minds-tickets-Fri-May-14-2027-OVO-Hydro"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272591/Simple-Minds-tickets-Fri-May-14-2027-OVO-Hydro",
+    "stubhub_international_url": "https://www.stubhub.ie/simple-minds-tickets-glasgow-ovo-hydro-arena-glasgow-14-5-2027/event/107666657"
   },
   {
     "id": "tm-simple-minds-2027-dublin-1kkzvpk_ga2vkuc",
@@ -251257,13 +251601,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154484",
+        "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-madrid-movistar-arena-palacio-de-los-deportes-8-4-2027/event/107154484",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kvP4xag",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877280",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877280/Thirty-Seconds-To-Mars-tickets-Thu-Apr-8-2027-Movistar-Arena-Madrid"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877280/Thirty-Seconds-To-Mars-tickets-Thu-Apr-8-2027-Movistar-Arena-Madrid",
+    "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-madrid-movistar-arena-palacio-de-los-deportes-8-4-2027/event/107154484"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-valencia-z698xz2qz16vuf8kq4",
@@ -251326,13 +251678,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154485",
+        "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-valencia-roig-arena-9-4-2027/event/107154485",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vuf8kQ4",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877281",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877281/Thirty-Seconds-To-Mars-tickets-Fri-Apr-9-2027-Roig-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877281/Thirty-Seconds-To-Mars-tickets-Fri-Apr-9-2027-Roig-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-valencia-roig-arena-9-4-2027/event/107154485"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-assago-zg9rmiynyzeadk",
@@ -251448,13 +251808,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107156408",
+        "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-munich-olympiahalle-munich-12-4-2027/event/107156408",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vfVofPp",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877284",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877284/Thirty-Seconds-To-Mars-tickets-Mon-Apr-12-2027-Kleine-Olympiahalle-Munich"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877284/Thirty-Seconds-To-Mars-tickets-Mon-Apr-12-2027-Kleine-Olympiahalle-Munich",
+    "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-munich-olympiahalle-munich-12-4-2027/event/107156408"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-vienna-z698xz5rz1k-suw-g",
@@ -251639,13 +252007,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107156422",
+        "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-hannover-zag-arena-20-4-2027/event/107156422",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vqP_xfz",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877291",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877291/Thirty-Seconds-To-Mars-tickets-Tue-Apr-20-2027-ZAG-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877291/Thirty-Seconds-To-Mars-tickets-Tue-Apr-20-2027-ZAG-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-hannover-zag-arena-20-4-2027/event/107156422"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-merksem-antwerpen-z698xzg2z1k-8asf4",
@@ -251747,11 +252123,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107158077",
+        "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-london-the-o2-arena-28-4-2027/event/107158077",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk3aGkdEVn9u",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-london-the-o2-arena-28-4-2027/event/107158077"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-manchester-1amzk3agkeyexfs",
@@ -251814,13 +252198,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155347",
+        "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-manchester-co-op-live-29-4-2027/event/107155347",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk3aGkeYExFS",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7870156",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7870156/Thirty-Seconds-To-Mars-tickets-Thu-Apr-29-2027-Co-Op-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7870156/Thirty-Seconds-To-Mars-tickets-Thu-Apr-29-2027-Co-Op-Live",
+    "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-manchester-co-op-live-29-4-2027/event/107155347"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-dublin-1abzk36gkeuawhf",

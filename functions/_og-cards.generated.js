@@ -559,6 +559,7 @@ export const OG_CARDS = {
   "/venues/at-t-stadium-arlington": {"url":"/og/venues-at-t-stadium-arlington.png","alt":"Concerts at: AT&T Stadium"},
   "/venues/austin-city-limits-live-at-the-moody-theater-austin": {"url":"/og/venues-austin-city-limits-live-at-the-moody-theater-austin.png","alt":"Concerts at: Austin City Limits Live at The Moody Theater"},
   "/venues/ball-arena-denver": {"url":"/og/venues-ball-arena-denver.png","alt":"Concerts at: Ball Arena"},
+  "/venues/barclays-arena-hamburg": {"url":"/og/venues-barclays-arena-hamburg.png","alt":"Concerts at: Barclays Arena"},
   "/venues/barclays-center-brooklyn": {"url":"/og/venues-barclays-center-brooklyn.png","alt":"Concerts at: Barclays Center"},
   "/venues/bayou-music-center-houston": {"url":"/og/venues-bayou-music-center-houston.png","alt":"Concerts at: Bayou Music Center"},
   "/venues/bc-place-vancouver": {"url":"/og/venues-bc-place-vancouver.png","alt":"Concerts at: BC Place"},

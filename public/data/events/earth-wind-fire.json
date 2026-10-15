@@ -537,13 +537,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672592",
+        "url": "https://www.stubhub.ie/earth-wind-fire-atlantic-city-tickets-12-11-2026/event/107672592",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfAGkd-8Nc-",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8196638",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8196638/Earth-Wind-and-Fire-tickets-Fri-Dec-11-2026-Hard-Rock-Live-At-Etess-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8196638/Earth-Wind-and-Fire-tickets-Fri-Dec-11-2026-Hard-Rock-Live-At-Etess-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-atlantic-city-tickets-12-11-2026/event/107672592"
   },
   {
     "id": "tm-earth-wind-fire-2026-atlantic-city-vv1aezkfagkd-okcm",
@@ -606,13 +614,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672603",
+        "url": "https://www.stubhub.ie/earth-wind-fire-atlantic-city-tickets-12-12-2026/event/107672603",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfAGkd-oKcm",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8196639",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8196639/Earth-Wind-and-Fire-tickets-Sat-Dec-12-2026-Hard-Rock-Live-At-Etess-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8196639/Earth-Wind-and-Fire-tickets-Sat-Dec-12-2026-Hard-Rock-Live-At-Etess-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-atlantic-city-tickets-12-12-2026/event/107672603"
   },
   {
     "id": "tm-earth-wind-fire-2027-thackerville-z7r9jz1aazwqd",
@@ -668,12 +684,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672613",
+        "url": "https://www.stubhub.ie/earth-wind-fire-thackerville-tickets-12-31-2026/event/107672613",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZwqd",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8178925"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8178925",
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-thackerville-tickets-12-31-2026/event/107672613"
   },
   {
     "id": "tm-earth-wind-fire-2027-west-palm-beach-z7r9jz1aaea-g",
@@ -722,11 +746,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672588",
+        "url": "https://www.stubhub.ie/earth-wind-fire-west-palm-beach-tickets-3-6-2027/event/107672588",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAea-g",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-west-palm-beach-tickets-3-6-2027/event/107672588"
   },
   {
     "id": "tm-earth-wind-fire-2027-brandon-g5viz_kuehuto",
@@ -789,13 +821,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672596",
+        "url": "https://www.stubhub.ie/earth-wind-fire-brandon-tickets-4-17-2027/event/107672596",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KUEhuTO",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307212",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307212/Earth-Wind-and-Fire-tickets-Sat-Apr-17-2027-Brandon-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307212/Earth-Wind-and-Fire-tickets-Sat-Apr-17-2027-Brandon-Amphitheater",
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-brandon-tickets-4-17-2027/event/107672596"
   },
   {
     "id": "tm-earth-wind-fire-2027-southaven-g5viz_f7otpyl",
@@ -844,11 +884,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672610",
+        "url": "https://www.stubhub.ie/earth-wind-fire-southaven-tickets-4-20-2027/event/107672610",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_f7otpyl",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-southaven-tickets-4-20-2027/event/107672610"
   },
   {
     "id": "tm-earth-wind-fire-2027-huntsville-z7r9jz1aaeb18",
@@ -1118,13 +1166,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672599",
+        "url": "https://www.stubhub.ie/earth-wind-fire-columbia-tickets-4-27-2027/event/107672599",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KL2875X",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307216",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307216/Earth-Wind-and-Fire-tickets-Tue-Apr-27-2027-Township-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307216/Earth-Wind-and-Fire-tickets-Tue-Apr-27-2027-Township-Auditorium",
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-columbia-tickets-4-27-2027/event/107672599"
   },
   {
     "id": "tm-earth-wind-fire-2027-knoxville-g5viz_35urusm",
@@ -1187,13 +1243,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672591",
+        "url": "https://www.stubhub.ie/earth-wind-fire-knoxville-tickets-4-28-2027/event/107672591",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_35uruSM",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307217",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307217/Earth-Wind-and-Fire-tickets-Wed-Apr-28-2027-Tennessee-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307217/Earth-Wind-and-Fire-tickets-Wed-Apr-28-2027-Tennessee-Theatre",
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-knoxville-tickets-4-28-2027/event/107672591"
   },
   {
     "id": "tm-earth-wind-fire-2027-charlotte-g5evz_kmaoltm",
@@ -1256,13 +1320,21 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672619",
+        "url": "https://www.stubhub.ie/earth-wind-fire-charlotte-tickets-4-30-2027/event/107672619",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KMAoLtM",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307218",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307218/Earth-Wind-and-Fire-tickets-Fri-Apr-30-2027-Skyla-Credit-Union-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307218/Earth-Wind-and-Fire-tickets-Fri-Apr-30-2027-Skyla-Credit-Union-Amphitheatre",
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-charlotte-tickets-4-30-2027/event/107672619"
   },
   {
     "id": "tm-earth-wind-fire-2027-durham-g5evz_f5p7r9-",

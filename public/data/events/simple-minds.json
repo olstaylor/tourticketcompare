@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8173259",
+        "url": "https://www.ticketnetwork.com/en/p/8173259",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17aZv0G6G9-xfc0",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173259"
   },
   {
     "id": "tm-simple-minds-2027-wellington-17azv0g6gjon-by",
@@ -152,11 +160,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8180239",
+        "url": "https://www.ticketnetwork.com/en/p/8180239",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17aZv0G6GJwT3E9",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180239"
   },
   {
     "id": "tm-simple-minds-2027-assago-zg9rmiynyzdf1v",
@@ -523,11 +539,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315154",
+        "url": "https://www.ticketnetwork.com/en/p/8315154",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k8baNAf",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315154"
   },
   {
     "id": "tm-simple-minds-2027-london-16dfz_313g7wgmr",
@@ -629,11 +653,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8247671",
+        "url": "https://www.ticketnetwork.com/en/p/8247671",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkfxGkdZWJhm",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8247671"
   },
   {
     "id": "tm-simple-minds-2027-birmingham-1aegz_31ka4zdg5d",
@@ -894,11 +926,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8272591",
+        "url": "https://www.ticketnetwork.com/en/p/8272591",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkfxGkd0xDR8",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272591"
   },
   {
     "id": "tm-simple-minds-2027-dublin-1kkzvpk_ga2vkuc",

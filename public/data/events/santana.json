@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8113675",
+        "url": "https://www.ticketnetwork.com/en/p/8113675",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck11zds",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113675"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1gfdb",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8113676",
+        "url": "https://www.ticketnetwork.com/en/p/8113676",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1GFdB",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113676"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1ub7d",
@@ -152,11 +168,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8113677",
+        "url": "https://www.ticketnetwork.com/en/p/8113677",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1ub7d",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113677"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1cz73",
@@ -205,11 +229,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8113678",
+        "url": "https://www.ticketnetwork.com/en/p/8113678",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1Cz73",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113678"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck18f79",
@@ -258,11 +290,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8113679",
+        "url": "https://www.ticketnetwork.com/en/p/8113679",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck18F79",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113679"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1oi7r",
@@ -311,11 +351,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8113680",
+        "url": "https://www.ticketnetwork.com/en/p/8113680",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1oI7r",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113680"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck13z7p",
@@ -364,11 +412,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8113681",
+        "url": "https://www.ticketnetwork.com/en/p/8113681",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck13z7P",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113681"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1fb7i",
@@ -417,11 +473,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8113682",
+        "url": "https://www.ticketnetwork.com/en/p/8113682",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1fb7i",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113682"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gau5vmo",
@@ -470,11 +534,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294011",
+        "url": "https://www.ticketnetwork.com/en/p/8294011",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAu5vMo",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294011"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaugomb",
@@ -523,11 +595,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294012",
+        "url": "https://www.ticketnetwork.com/en/p/8294012",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuGoMB",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294012"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gauu-zk",
@@ -576,11 +656,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294013",
+        "url": "https://www.ticketnetwork.com/en/p/8294013",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuu-zk",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294013"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaucsz4",
@@ -629,11 +717,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294014",
+        "url": "https://www.ticketnetwork.com/en/p/8294014",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuCsz4",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294014"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gau8vze",
@@ -682,11 +778,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294015",
+        "url": "https://www.ticketnetwork.com/en/p/8294015",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAu8vzE",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294015"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gauoozw",
@@ -735,11 +839,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294016",
+        "url": "https://www.ticketnetwork.com/en/p/8294016",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuoozw",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294016"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gau3-y4",
@@ -788,11 +900,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294018",
+        "url": "https://www.ticketnetwork.com/en/p/8294018",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAu3-y4",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294018"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gauksyx",
@@ -841,11 +961,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294019",
+        "url": "https://www.ticketnetwork.com/en/p/8294019",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuKsyx",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294019"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gau4vyt",
@@ -894,11 +1022,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294020",
+        "url": "https://www.ticketnetwork.com/en/p/8294020",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAu4vyt",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294020"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaupoyr",
@@ -947,11 +1083,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294021",
+        "url": "https://www.ticketnetwork.com/en/p/8294021",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAupoyR",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294021"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gau9-ys",
@@ -1000,11 +1144,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294022",
+        "url": "https://www.ticketnetwork.com/en/p/8294022",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAu9-yS",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294022"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaubsyw",
@@ -1053,11 +1205,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294023",
+        "url": "https://www.ticketnetwork.com/en/p/8294023",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAubsyW",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294023"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gauq-b9",
@@ -1106,11 +1266,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294024",
+        "url": "https://www.ticketnetwork.com/en/p/8294024",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuQ-B9",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294024"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaujvbi",
@@ -1159,11 +1327,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294025",
+        "url": "https://www.ticketnetwork.com/en/p/8294025",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAujvBi",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294025"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gauq-bb",
@@ -1212,11 +1388,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294026",
+        "url": "https://www.ticketnetwork.com/en/p/8294026",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuq-BB",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294026"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaursdv",
@@ -1265,10 +1449,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294027",
+        "url": "https://www.ticketnetwork.com/en/p/8294027",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAursDv",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294027"
   }
 ]

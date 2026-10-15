@@ -308,10 +308,10 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8301800",
-        "url": "https://www.ticketnetwork.com/en/p/8301800",
+        "event_id": "8297660",
+        "url": "https://www.ticketnetwork.com/en/p/8297660",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -325,7 +325,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAebpd",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301800",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297660",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301800/Mei-Semones-tickets-Fri-Mar-5-2027-Union-Transfer"
   },
   {

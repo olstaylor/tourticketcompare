@@ -2117,17 +2117,17 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7980232",
-        "url": "https://www.ticketnetwork.com/en/p/7980232",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70I8v",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980232"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-beartooth-2026-albuquerque-z7r9jz1a70i3o",

@@ -1810,6 +1810,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8318327",
+        "url": "https://www.ticketnetwork.com/en/p/8318327",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPuEGA13dcP",
@@ -1822,7 +1829,8 @@
         "end": "2027-03-08T04:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318327/Tommy-Emmanuel-tickets-Sun-Mar-14-2027-Southern-Alberta-Jubilee-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318327/Tommy-Emmanuel-tickets-Sun-Mar-14-2027-Southern-Alberta-Jubilee-Auditorium",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318327"
   },
   {
     "id": "tm-tommy-emmanuel-2027-winnipeg-1k78vpupga1vvti",

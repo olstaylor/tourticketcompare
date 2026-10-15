@@ -756,12 +756,20 @@
         "verified": true,
         "last_verified_at": "2026-10-13",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8277984",
+        "url": "https://www.ticketnetwork.com/en/p/8277984",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KL2vYwj",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277984/Atmosphere-tickets-Sat-Jan-30-2027-The-Depot-Salt-Lake-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277984/Atmosphere-tickets-Sat-Jan-30-2027-The-Depot-Salt-Lake-City",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277984"
   },
   {
     "id": "tm-atmosphere-2027-green-bay-z7r9jz1aavz-e",

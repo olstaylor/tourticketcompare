@@ -693,11 +693,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "7457622",
+        "url": "https://www.ticketnetwork.com/en/p/7457622",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "106972097",
@@ -717,7 +717,7 @@
     "ticketmaster_discovery_event_id": "G5vYZbS0uA9TW",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457622",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-san-francisco-tickets-10-19-2026/event/106972097",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457622/Doja-Cat-tickets-Sun-Oct-25-2026-Chase-Center",
     "presales": [

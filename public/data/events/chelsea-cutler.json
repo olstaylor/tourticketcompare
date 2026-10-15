@@ -534,7 +534,7 @@
     "tour_name": "IS THIS THE END? Tour",
     "ticketmaster_event_id": "08006536ABF34D64",
     "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-detroit-michigan-02-18-2027/event/08006536ABF34D64",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/chelsea-cutler-tickets/detroit-michigan-saint-andrews-hall-2027-02-18-7-pm/concert/18639185",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-detroit-michigan-02-18-2027/event/08006536ABF34D64",
@@ -599,7 +599,7 @@
     "tour_name": "IS THIS THE END? Tour",
     "ticketmaster_event_id": "0400653CD08BB5AB",
     "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-chicago-illinois-02-19-2027/event/0400653CD08BB5AB",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/chelsea-cutler-tickets/chicago-illinois-the-salt-shed-indoors-2027-02-19-8-pm/concert/18639192",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-chicago-illinois-02-19-2027/event/0400653CD08BB5AB",
@@ -1584,7 +1584,7 @@
         "event_id": 18639209,
         "url": "https://seatgeek.com/chelsea-cutler-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-03-09-7-pm/concert/18639209",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1637,7 +1637,7 @@
         "event_id": 18639214,
         "url": "https://seatgeek.com/chelsea-cutler-tickets/seattle-washington-showbox-sodo-2027-03-12-7-pm/concert/18639214",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1706,7 +1706,7 @@
         "event_id": 18639215,
         "url": "https://seatgeek.com/chelsea-cutler-tickets/portland-oregon-roseland-theater-2027-03-13-7-pm/concert/18639215",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "vivid-seats": {

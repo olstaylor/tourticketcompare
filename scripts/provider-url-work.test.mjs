@@ -149,7 +149,7 @@ try {
   assert.equal(ok.outcome, null); assert.equal(ok.guard().ok, true);
   assert.equal(JSON.parse(readFileSync(path.join(temp, "public/data/events.json")))[1].id, "outside");
   reset();
-  assert.equal(performProviderUrlRepair(shortPlan, temp, { env: { SEATGEEK_CLIENT_ID: "offline-test" }, run: fake([{ showId: "e00", action: "none", applied: false, notes: ["no candidates"] }]) }).outcome, "NEEDS HUMAN");
+  assert.equal(performProviderUrlRepair(shortPlan, temp, { env: { SEATGEEK_CLIENT_ID: "offline-test" }, run: fake([{ showId: "e00", action: "none", applied: false, notes: ["no candidates"] }]) }).outcome, "NO VERIFIED MATCH");
   assert.equal(performProviderUrlRepair(shortPlan, temp, { env: { SEATGEEK_CLIENT_ID: "offline-test" }, run: fake([], { apiErrors: 1 }) }).outcome, "BLOCKED");
   assert.equal(performProviderUrlRepair(shortPlan, temp, { env: { SEATGEEK_CLIENT_ID: "offline-test" }, run: () => ({ status: 1 }) }).outcome, "BLOCKED");
   assert.equal(performProviderUrlRepair(shortPlan, temp, { env: { SEATGEEK_CLIENT_ID: "offline-test" }, run: fake([result("e00")], { write: true, corrupt: true }) }).outcome, "NEEDS HUMAN");

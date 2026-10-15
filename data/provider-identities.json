@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-14",
+  "updated_at": "2026-10-15",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -1459,6 +1459,72 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-10-14 (sanctioned path D): SeatGeek performer 1076 and Ticketmaster attraction K8vZ9175tSf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "lewis-capaldi",
+      "ticketmaster_attraction_id": "K8vZ917popf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/lewis-capaldi-tickets/artist/2409990",
+      "seatgeek_performer_id": 609450,
+      "seatgeek_artist_url": "https://seatgeek.com/lewis-capaldi-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-15 (sanctioned path D): SeatGeek performer 609450 and Ticketmaster attraction K8vZ917popf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "mumford-sons",
+      "ticketmaster_attraction_id": "K8vZ917GuKV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/mumford-sons-tickets/artist/1388154",
+      "seatgeek_performer_id": 4189,
+      "seatgeek_artist_url": "https://seatgeek.com/mumford-sons-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-15 (sanctioned path D): SeatGeek performer 4189 and Ticketmaster attraction K8vZ917GuKV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "hayley-williams",
+      "ticketmaster_attraction_id": "K8vZ917bV3f",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/hayley-williams-tickets/artist/2733627",
+      "seatgeek_performer_id": 243530,
+      "seatgeek_artist_url": "https://seatgeek.com/hayley-williams-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-15 (sanctioned path D): SeatGeek performer 243530 and Ticketmaster attraction K8vZ917bV3f captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "blink-182",
+      "ticketmaster_attraction_id": "K8vZ9171pNf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/blink182-tickets/artist/790708",
+      "seatgeek_performer_id": 41,
+      "seatgeek_artist_url": "https://seatgeek.com/blink-182-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-15 (sanctioned path D): SeatGeek performer 41 and Ticketmaster attraction K8vZ9171pNf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "janet-jackson",
+      "ticketmaster_attraction_id": "K8vZ91715w7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/janet-jackson-tickets/artist/735353",
+      "seatgeek_performer_id": 914,
+      "seatgeek_artist_url": "https://seatgeek.com/janet-jackson-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-15 (sanctioned path D): SeatGeek performer 914 and Ticketmaster attraction K8vZ91715w7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "gorillaz",
+      "ticketmaster_attraction_id": "K8vZ9171zxV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/gorillaz-tickets/artist/807314",
+      "seatgeek_performer_id": 6040,
+      "seatgeek_artist_url": "https://seatgeek.com/gorillaz-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-15 (sanctioned path D): SeatGeek performer 6040 and Ticketmaster attraction K8vZ9171zxV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

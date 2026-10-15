@@ -259137,5 +259137,1065 @@
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
     ]
+  },
+  {
+    "id": "tm-hayley-williams-2026-ciudad-de-mexico-g5dvz_1q0q4bc",
+    "artist_slug": "hayley-williams",
+    "artist_name": "Hayley Williams",
+    "event_name": "\"The Hayley Williams Show\" (Numerado)",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Auditorio Nacional",
+    "datetime_iso": "2026-11-27T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D0064A6A4695E8E",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-numerado-ciudad-de-mexico-26-11-2026/event/3D0064A6A4695E8E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-numerado-ciudad-de-mexico-26-11-2026/event/3D0064A6A4695E8E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D0064A6A4695E8E",
+        "discovery_event_id": "G5dVZ_1Q0Q4BC",
+        "url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-numerado-ciudad-de-mexico-26-11-2026/event/3D0064A6A4695E8E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_1Q0Q4BC",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hayley-williams-2027-ciudad-de-mexico-g5dvz_5u9jpc7",
+    "artist_slug": "hayley-williams",
+    "artist_name": "Hayley Williams",
+    "event_name": "\"The Hayley Williams Show\"",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Auditorio Nacional",
+    "datetime_iso": "2027-01-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D0064BD97725384",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-ciudad-de-mexico-13-01-2027/event/3D0064BD97725384",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-ciudad-de-mexico-13-01-2027/event/3D0064BD97725384",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D0064BD97725384",
+        "discovery_event_id": "G5dVZ_5U9jPC7",
+        "url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-ciudad-de-mexico-13-01-2027/event/3D0064BD97725384",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_5U9jPC7",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hayley-williams-2027-monterrey-17azv0g65m2hkin",
+    "artist_slug": "hayley-williams",
+    "artist_name": "Hayley Williams",
+    "event_name": "\"The Hayley Williams Show\"",
+    "city": "Monterrey",
+    "country": "Mexico",
+    "venue": "Auditorio Banamex",
+    "datetime_iso": "2027-01-16T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "140064BDCF6D3A23",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-monterrey-15-01-2027/event/140064BDCF6D3A23",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-monterrey-15-01-2027/event/140064BDCF6D3A23",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "140064BDCF6D3A23",
+        "discovery_event_id": "17AZv0G65M2hKIN",
+        "url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-monterrey-15-01-2027/event/140064BDCF6D3A23",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AZv0G65M2hKIN",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hayley-williams-2027-zapopan-17azv0g65ulwtlf",
+    "artist_slug": "hayley-williams",
+    "artist_name": "Hayley Williams",
+    "event_name": "\"The Hayley Williams Show\"",
+    "city": "Zapopan",
+    "country": "Mexico",
+    "venue": "Auditorio Telmex",
+    "datetime_iso": "2027-01-18T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "140064BDABF697D4",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-zapopan-17-01-2027/event/140064BDABF697D4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-zapopan-17-01-2027/event/140064BDABF697D4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "140064BDABF697D4",
+        "discovery_event_id": "17AZv0G65UlWtLf",
+        "url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-zapopan-17-01-2027/event/140064BDABF697D4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AZv0G65UlWtLf",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hayley-williams-2027-forest-brussels-z698xzg2z1kopjxf_",
+    "artist_slug": "hayley-williams",
+    "artist_name": "Hayley Williams",
+    "event_name": "Hayley Williams",
+    "city": "Forest (Brussels)",
+    "country": "Belgium",
+    "venue": "Vorst Nationaal/Forest National",
+    "datetime_iso": "2027-06-14T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "456722519",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/hayley-williams-tickets/456722519",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/hayley-williams-tickets/456722519",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "456722519",
+        "discovery_event_id": "Z698xZG2Z1kopjxf_",
+        "url": "https://www.ticketmaster.be/event/hayley-williams-tickets/456722519",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1kopjxf_",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hayley-williams-2027-glasgow-1auzkf-gkd-5zto",
+    "artist_slug": "hayley-williams",
+    "artist_name": "Hayley Williams",
+    "event_name": "The Hayley Williams Show",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-06-23T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006521E12F8A60",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/the-hayley-williams-show-glasgow-23-06-2027/event/36006521E12F8A60",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/the-hayley-williams-show-glasgow-23-06-2027/event/36006521E12F8A60",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006521E12F8A60",
+        "discovery_event_id": "1AUZkf-Gkd-5ztO",
+        "url": "https://www.ticketmaster.co.uk/the-hayley-williams-show-glasgow-23-06-2027/event/36006521E12F8A60",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkf-Gkd-5ztO",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hayley-williams-2027-cardiff-1adbz_ogkwuumuk",
+    "artist_slug": "hayley-williams",
+    "artist_name": "Hayley Williams",
+    "event_name": "The Hayley Williams Show",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Cardiff",
+    "datetime_iso": "2027-06-30T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600651C8DDB7D86",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/the-hayley-williams-show-cardiff-30-06-2027/event/3600651C8DDB7D86",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/the-hayley-williams-show-cardiff-30-06-2027/event/3600651C8DDB7D86",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600651C8DDB7D86",
+        "discovery_event_id": "1AdbZ_oGkwuUMUk",
+        "url": "https://www.ticketmaster.co.uk/the-hayley-williams-show-cardiff-30-06-2027/event/3600651C8DDB7D86",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_oGkwuUMUk",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blink-182-2027-milano-zg9rmiynyzefk6",
+    "artist_slug": "blink-182",
+    "artist_name": "blink-182",
+    "event_name": "BLINK 182  | I-Days Milano 2027",
+    "city": "Milano",
+    "country": "Italy",
+    "venue": "Ippodromo SNAI San Siro",
+    "datetime_iso": "2027-06-13T14:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "sof9c9nl0ivx",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/blink-182-i-days-milano-2027-milano-13-06-2027/event/sof9c9nl0ivx",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/blink-182-i-days-milano-2027-milano-13-06-2027/event/sof9c9nl0ivx",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "sof9c9nl0ivx",
+        "discovery_event_id": "ZG9rmIYnyZeFk6",
+        "url": "https://www.ticketmaster.it/biglietti/blink-182-i-days-milano-2027-milano-13-06-2027/event/sof9c9nl0ivx",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZeFk6",
+    "timezone": "Europe/Rome",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-janet-jackson-2026-sunrise-z7r9jz1aazz43",
+    "artist_slug": "janet-jackson",
+    "artist_name": "Janet Jackson",
+    "event_name": "Janet Jackson",
+    "city": "Sunrise",
+    "country": "United States Of America",
+    "venue": "Amerant Bank Arena",
+    "datetime_iso": "2026-12-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZz43",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZz43",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZz43",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZz43",
+        "discovery_event_id": "Z7r9jZ1AAZz43",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZz43",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZz43",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gorillaz-2026-austin-g5diz_ar2gvot",
+    "artist_slug": "gorillaz",
+    "artist_name": "Gorillaz",
+    "event_name": "Gorillaz - The Mountain Tour",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2026-10-16T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00645BCFD7447F",
+    "ticketmaster_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-austin-texas-10-15-2026/event/3A00645BCFD7447F",
+    "seatgeek_url": "https://seatgeek.com/gorillaz-tickets/austin-texas-moody-center-atx-2026-10-15-7-pm/concert/18102838",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-austin-texas-10-15-2026/event/3A00645BCFD7447F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00645BCFD7447F",
+        "discovery_event_id": "G5dIZ_AR2gVoT",
+        "url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-austin-texas-10-15-2026/event/3A00645BCFD7447F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_AR2gVoT",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gorillaz-2026-fort-worth-vvg1yz_dxo-e0o",
+    "artist_slug": "gorillaz",
+    "artist_name": "Gorillaz",
+    "event_name": "Gorillaz - The Mountain Tour",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Dickies Arena",
+    "datetime_iso": "2026-10-17T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006438A0867920",
+    "ticketmaster_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-fort-worth-texas-10-16-2026/event/0C006438A0867920",
+    "seatgeek_url": "https://seatgeek.com/gorillaz-tickets/fort-worth-texas-dickies-arena-2026-10-16-7-30-pm/concert/18102840",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-fort-worth-texas-10-16-2026/event/0C006438A0867920",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006438A0867920",
+        "discovery_event_id": "vvG1YZ_dxO-E0O",
+        "url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-fort-worth-texas-10-16-2026/event/0C006438A0867920",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_dxO-E0O",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gorillaz-2026-denver-g5vzz_amqia8m",
+    "artist_slug": "gorillaz",
+    "artist_name": "Gorillaz",
+    "event_name": "Gorillaz - The Mountain Tour",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ball Arena",
+    "datetime_iso": "2026-10-19T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00645B9DB09437",
+    "ticketmaster_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-denver-colorado-10-18-2026/event/1E00645B9DB09437",
+    "seatgeek_url": "https://seatgeek.com/gorillaz-tickets/denver-colorado-ball-arena-2026-10-18-7-pm/concert/18102843",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-denver-colorado-10-18-2026/event/1E00645B9DB09437",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00645B9DB09437",
+        "discovery_event_id": "G5vzZ_Amqia8M",
+        "url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-denver-colorado-10-18-2026/event/1E00645B9DB09437",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_Amqia8M",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gorillaz-2026-salt-lake-city-z7r9jz1a7-9ai",
+    "artist_slug": "gorillaz",
+    "artist_name": "Gorillaz",
+    "event_name": "Gorillaz - The Mountain Tour",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "Delta Center",
+    "datetime_iso": "2026-10-21T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-9AI",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9AI",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9AI",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-9AI",
+        "discovery_event_id": "Z7r9jZ1A7-9AI",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9AI",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-9AI",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gorillaz-2026-phoenix-1av0z_agknirbye",
+    "artist_slug": "gorillaz",
+    "artist_name": "Gorillaz",
+    "event_name": "Gorillaz - The Mountain Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Mortgage Matchup Center",
+    "datetime_iso": "2026-10-24T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900645AAC798E42",
+    "ticketmaster_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-phoenix-arizona-10-23-2026/event/1900645AAC798E42",
+    "seatgeek_url": "https://seatgeek.com/gorillaz-tickets/phoenix-arizona-mortgage-matchup-center-2026-10-23-7-pm/concert/18102846",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-phoenix-arizona-10-23-2026/event/1900645AAC798E42",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900645AAC798E42",
+        "discovery_event_id": "1Av0Z_AGknirbye",
+        "url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-phoenix-arizona-10-23-2026/event/1900645AAC798E42",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_AGknirbye",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gorillaz-2026-inglewood-vv170z_agkmi0jmt",
+    "artist_slug": "gorillaz",
+    "artist_name": "Gorillaz",
+    "event_name": "Gorillaz - The Mountain Tour",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2026-10-25T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0900645BA891CBBF",
+    "ticketmaster_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-inglewood-california-10-24-2026/event/0900645BA891CBBF",
+    "seatgeek_url": "https://seatgeek.com/gorillaz-tickets/inglewood-california-kia-forum-2026-10-24-7-30-pm/concert/18102848",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-inglewood-california-10-24-2026/event/0900645BA891CBBF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900645BA891CBBF",
+        "discovery_event_id": "vv170Z_AGkmI0jmT",
+        "url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-inglewood-california-10-24-2026/event/0900645BA891CBBF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv170Z_AGkmI0jmT",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gorillaz-2026-san-diego-vvg1iz_ai_rrcv",
+    "artist_slug": "gorillaz",
+    "artist_name": "Gorillaz",
+    "event_name": "Gorillaz - The Mountain Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Pechanga Arena San Diego",
+    "datetime_iso": "2026-10-26T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00645B1979EB74",
+    "ticketmaster_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-san-diego-california-10-25-2026/event/0A00645B1979EB74",
+    "seatgeek_url": "https://seatgeek.com/gorillaz-tickets/san-diego-california-pechanga-arena-san-diego-2026-10-25-7-30-pm/concert/18102849",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-san-diego-california-10-25-2026/event/0A00645B1979EB74",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00645B1979EB74",
+        "discovery_event_id": "vvG1IZ_Ai_rrcV",
+        "url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-san-diego-california-10-25-2026/event/0A00645B1979EB74",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_Ai_rrcV",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gorillaz-2026-oakland-g5vyz_allhhol",
+    "artist_slug": "gorillaz",
+    "artist_name": "Gorillaz",
+    "event_name": "LIVE 105 Presents: Gorillaz - The Mountain Tour",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Oakland Arena",
+    "datetime_iso": "2026-10-29T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00645AEBF3C46B",
+    "ticketmaster_url": "https://www.ticketmaster.com/live-105-presents-gorillaz-the-mountain-oakland-california-10-28-2026/event/1C00645AEBF3C46B",
+    "seatgeek_url": "https://seatgeek.com/gorillaz-tickets/oakland-california-oakland-arena-2026-10-28-7-pm/concert/18102850",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/live-105-presents-gorillaz-the-mountain-oakland-california-10-28-2026/event/1C00645AEBF3C46B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00645AEBF3C46B",
+        "discovery_event_id": "G5vYZ_AllHHol",
+        "url": "https://www.ticketmaster.com/live-105-presents-gorillaz-the-mountain-oakland-california-10-28-2026/event/1C00645AEBF3C46B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_AllHHol",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gorillaz-2026-portland-vvg1hz_anwqdfp",
+    "artist_slug": "gorillaz",
+    "artist_name": "Gorillaz",
+    "event_name": "Gorillaz - The Mountain Tour",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Moda Center",
+    "datetime_iso": "2026-10-31T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00645AB26BB216",
+    "ticketmaster_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-portland-oregon-10-30-2026/event/0F00645AB26BB216",
+    "seatgeek_url": "https://seatgeek.com/gorillaz-tickets/portland-oregon-moda-center-2026-10-30-7-pm/concert/18102851",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-portland-oregon-10-30-2026/event/0F00645AB26BB216",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00645AB26BB216",
+        "discovery_event_id": "vvG1HZ_AnwQDFp",
+        "url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-portland-oregon-10-30-2026/event/0F00645AB26BB216",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_AnwQDFp",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gorillaz-2026-seattle-vvg1hz_aeloqv3",
+    "artist_slug": "gorillaz",
+    "artist_name": "Gorillaz",
+    "event_name": "Gorillaz - The Mountain Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2026-11-01T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006459EB45A052",
+    "ticketmaster_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-seattle-washington-10-31-2026/event/0F006459EB45A052",
+    "seatgeek_url": "https://seatgeek.com/gorillaz-tickets/seattle-washington-climate-pledge-arena-2026-10-31-7-30-pm/concert/18102856",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-seattle-washington-10-31-2026/event/0F006459EB45A052",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006459EB45A052",
+        "discovery_event_id": "vvG1HZ_AEloQv3",
+        "url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-seattle-washington-10-31-2026/event/0F006459EB45A052",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_AEloQv3",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gorillaz-2026-zapopan-g5dvz_8mtgfu6",
+    "artist_slug": "gorillaz",
+    "artist_name": "Gorillaz",
+    "event_name": "Gorillaz",
+    "city": "Zapopan",
+    "country": "Mexico",
+    "venue": "Coliseo GNP Seguros",
+    "datetime_iso": "2026-12-10T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D00650BBFD54347",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/gorillaz-zapopan-09-12-2026/event/3D00650BBFD54347",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/gorillaz-zapopan-09-12-2026/event/3D00650BBFD54347",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D00650BBFD54347",
+        "discovery_event_id": "G5dVZ_8mTgfu6",
+        "url": "https://www.ticketmaster.com.mx/gorillaz-zapopan-09-12-2026/event/3D00650BBFD54347",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_8mTgfu6",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
   }
 ]

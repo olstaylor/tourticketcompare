@@ -1947,6 +1947,90 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-kylie-minogue",
     redirectUrl: "https://seatgeek.com/kylie-minogue-tickets",
     verified: true
+  },
+  "lewis-capaldi:ticketmaster": {
+    artistSlug: "lewis-capaldi",
+    provider: "ticketmaster",
+    linkId: "tm-artist-lewis-capaldi",
+    redirectUrl: "https://www.ticketmaster.com/lewis-capaldi-tickets/artist/2409990",
+    verified: true
+  },
+  "lewis-capaldi:seatgeek": {
+    artistSlug: "lewis-capaldi",
+    provider: "seatgeek",
+    linkId: "sg-artist-lewis-capaldi",
+    redirectUrl: "https://seatgeek.com/lewis-capaldi-tickets",
+    verified: true
+  },
+  "mumford-sons:ticketmaster": {
+    artistSlug: "mumford-sons",
+    provider: "ticketmaster",
+    linkId: "tm-artist-mumford-sons",
+    redirectUrl: "https://www.ticketmaster.com/mumford-sons-tickets/artist/1388154",
+    verified: true
+  },
+  "mumford-sons:seatgeek": {
+    artistSlug: "mumford-sons",
+    provider: "seatgeek",
+    linkId: "sg-artist-mumford-sons",
+    redirectUrl: "https://seatgeek.com/mumford-sons-tickets",
+    verified: true
+  },
+  "hayley-williams:ticketmaster": {
+    artistSlug: "hayley-williams",
+    provider: "ticketmaster",
+    linkId: "tm-artist-hayley-williams",
+    redirectUrl: "https://www.ticketmaster.com/hayley-williams-tickets/artist/2733627",
+    verified: true
+  },
+  "hayley-williams:seatgeek": {
+    artistSlug: "hayley-williams",
+    provider: "seatgeek",
+    linkId: "sg-artist-hayley-williams",
+    redirectUrl: "https://seatgeek.com/hayley-williams-tickets",
+    verified: true
+  },
+  "blink-182:ticketmaster": {
+    artistSlug: "blink-182",
+    provider: "ticketmaster",
+    linkId: "tm-artist-blink-182",
+    redirectUrl: "https://www.ticketmaster.com/blink182-tickets/artist/790708",
+    verified: true
+  },
+  "blink-182:seatgeek": {
+    artistSlug: "blink-182",
+    provider: "seatgeek",
+    linkId: "sg-artist-blink-182",
+    redirectUrl: "https://seatgeek.com/blink-182-tickets",
+    verified: true
+  },
+  "janet-jackson:ticketmaster": {
+    artistSlug: "janet-jackson",
+    provider: "ticketmaster",
+    linkId: "tm-artist-janet-jackson",
+    redirectUrl: "https://www.ticketmaster.com/janet-jackson-tickets/artist/735353",
+    verified: true
+  },
+  "janet-jackson:seatgeek": {
+    artistSlug: "janet-jackson",
+    provider: "seatgeek",
+    linkId: "sg-artist-janet-jackson",
+    redirectUrl: "https://seatgeek.com/janet-jackson-tickets",
+    verified: true
+  },
+  "gorillaz:ticketmaster": {
+    artistSlug: "gorillaz",
+    provider: "ticketmaster",
+    linkId: "tm-artist-gorillaz",
+    redirectUrl: "https://www.ticketmaster.com/gorillaz-tickets/artist/807314",
+    verified: true
+  },
+  "gorillaz:seatgeek": {
+    artistSlug: "gorillaz",
+    provider: "seatgeek",
+    linkId: "sg-artist-gorillaz",
+    redirectUrl: "https://seatgeek.com/gorillaz-tickets",
+    verified: true
   }
 };
 

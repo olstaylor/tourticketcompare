@@ -206,8 +206,12 @@ export function deriveEventPriceLow(lanes, seriesFor) {
  * carry-in statement returns the price OF the newest row at or before the
  * window — without a window function or a second round trip.
  *
- * Chunked at 50 ids to match fetchApprovedMarketplaceCachedRows, so a long
- * board costs ceil(dates / 50) pairs of reads rather than one pair per date.
+ * Each provider/source lane is an independent indexed lookup. Keeping the
+ * bindings below the existing 50-id budget means a multi-lane board is split
+ * into smaller chunks: that adds a few cheap statements, but lets D1 seek the
+ * exact `(event_id, provider, source)` series through
+ * `idx_provider_pricing_history_event_provider_source_observed` instead of
+ * scanning every approved lane together before the window function runs.
  *
  * @param {any} db D1 binding.
  * @param {string[]} eventIds
@@ -225,13 +229,15 @@ export async function fetchEventPriceLowSeries(db, eventIds, lanes, options = {}
   const windowDays = Number.isFinite(options.windowDays) ? Number(options.windowDays) : PRICE_LOW_WINDOW_DAYS;
   const windowStart = new Date(now - windowDays * 24 * 60 * 60 * 1000).toISOString();
 
-  // Bind provider/source as pairs. Filtering on provider alone would admit a
-  // row written by a different, unapproved source for the same provider.
-  const pairSql = laneList.map(() => "(provider = ? AND source = ?)").join(" OR ");
-  const pairBindings = laneList.flatMap((lane) => [lane.dbKey, lane.approvedSource]);
+  // The former single `event_id IN (...) AND (pair OR pair ...)` query caused
+  // D1 to scan millions of history rows before it could apply the window
+  // function. Give each approved pair its own UNION branch so all four leading
+  // index columns are constrained. Limit every statement to the same maximum
+  // number of event-id bindings as the former 50-id single-lane query.
+  const idsPerChunk = Math.max(1, Math.floor(50 / laneList.length));
 
-  for (let offset = 0; offset < ids.length; offset += 50) {
-    const chunk = ids.slice(offset, offset + 50);
+  for (let offset = 0; offset < ids.length; offset += idsPerChunk) {
+    const chunk = ids.slice(offset, offset + idsPerChunk);
     const idSql = chunk.map(() => "?").join(", ");
 
     // Both reads run over the same guarded series: every row of the series
@@ -241,12 +247,21 @@ export async function fetchEventPriceLowSeries(db, eventIds, lanes, options = {}
     // filter, so a spike on the window's first day is still judged against
     // the row before it. MIN()/MAX() stay the only aggregate in each outer
     // statement, so the bare-column guarantee below still holds.
+    const exactSeriesSql = laneList.map(() =>
+      `SELECT event_id, provider, source, currency, low_price, observed_at
+       FROM provider_pricing_history
+       WHERE event_id IN (${idSql}) AND provider = ? AND source = ? AND low_price >= ${MIN_PLAUSIBLE_LISTED_PRICE}`
+    ).join(" UNION ALL ");
+    const exactSeriesBindings = laneList.flatMap((lane) => [
+      ...chunk,
+      lane.dbKey,
+      lane.approvedSource
+    ]);
     const guardedSeries =
       `SELECT event_id, provider, currency, low_price, observed_at FROM (
          SELECT event_id, provider, currency, low_price, observed_at,
                 LAG(low_price) OVER s AS prev_price, LEAD(low_price) OVER s AS next_price
-         FROM provider_pricing_history
-         WHERE event_id IN (${idSql}) AND (${pairSql}) AND low_price >= ${MIN_PLAUSIBLE_LISTED_PRICE}
+         FROM (${exactSeriesSql})
          WINDOW s AS (PARTITION BY event_id, provider, source ORDER BY observed_at)
        ) WHERE ${keepNonSpikeSql("low_price", "prev_price", "next_price")}`;
     const windowMinSql =
@@ -261,8 +276,8 @@ export async function fetchEventPriceLowSeries(db, eventIds, lanes, options = {}
        GROUP BY event_id, provider, currency`;
 
     const [windowRows, carryRows] = await Promise.all([
-      db.prepare(windowMinSql).bind(...chunk, ...pairBindings, windowStart).all(),
-      db.prepare(carryInSql).bind(...chunk, ...pairBindings, windowStart).all()
+      db.prepare(windowMinSql).bind(...exactSeriesBindings, windowStart).all(),
+      db.prepare(carryInSql).bind(...exactSeriesBindings, windowStart).all()
     ]);
 
     const absorb = (result, field) => {

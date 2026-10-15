@@ -1,0 +1,55 @@
+[
+  {
+    "id": "tm-blink-182-2027-milano-zg9rmiynyzefk6",
+    "artist_slug": "blink-182",
+    "artist_name": "blink-182",
+    "event_name": "BLINK 182  | I-Days Milano 2027",
+    "city": "Milano",
+    "country": "Italy",
+    "venue": "Ippodromo SNAI San Siro",
+    "datetime_iso": "2027-06-13T14:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "sof9c9nl0ivx",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/blink-182-i-days-milano-2027-milano-13-06-2027/event/sof9c9nl0ivx",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/blink-182-i-days-milano-2027-milano-13-06-2027/event/sof9c9nl0ivx",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "sof9c9nl0ivx",
+        "discovery_event_id": "ZG9rmIYnyZeFk6",
+        "url": "https://www.ticketmaster.it/biglietti/blink-182-i-days-milano-2027-milano-13-06-2027/event/sof9c9nl0ivx",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZeFk6",
+    "timezone": "Europe/Rome",
+    "status": "on-sale"
+  }
+]

@@ -133,7 +133,7 @@
     "tour_name": "The Love Chant Tour",
     "ticketmaster_event_id": "0100652A99F0DC61",
     "ticketmaster_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-boston-massachusetts-02-10-2027/event/0100652A99F0DC61",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-lemonheads-tickets/boston-massachusetts-brighton-music-hall-2027-02-10-7-30-pm/concert/18593831",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-boston-massachusetts-02-10-2027/event/0100652A99F0DC61",
@@ -549,7 +549,7 @@
         "event_id": 18593821,
         "url": "https://seatgeek.com/the-lemonheads-tickets/madison-wisconsin-majestic-theatre-wi-2027-03-19-8-pm/concert/18593821",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -784,7 +784,7 @@
         "event_id": 18595343,
         "url": "https://seatgeek.com/the-lemonheads-tickets/englewood-colorado-gothic-theatre-2027-03-14-8-30-pm/concert/18595343",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -853,7 +853,7 @@
         "event_id": 18595344,
         "url": "https://seatgeek.com/the-lemonheads-tickets/omaha-nebraska-the-waiting-room-omaha-2027-03-16-7-pm/concert/18595344",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "vivid-seats": {

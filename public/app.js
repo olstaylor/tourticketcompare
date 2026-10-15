@@ -97,7 +97,7 @@ const guidePages = [
   {
     slug: "seatgeek-vs-ticketmaster",
     title: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
-    description: "Are SeatGeek and Ticketmaster the same? No. Compare their primary vs resale roles, how each prices a listing, fees, delivery and buyer protection.",
+    description: "Compare SeatGeek vs Ticketmaster on primary and resale tickets, fees, delivery and buyer protection. Find which seller to check for your concert.",
     h1: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
     serverRendered: true
   },
@@ -1678,7 +1678,7 @@ function showLocation(show) {
 // Start time at the venue. A row whose venue-local time lands exactly on
 // midnight is a date-only record, so no time is printed rather than inventing
 // "12:00 AM". Keep in sync with showLocalTimeServer in functions/[[path]].js.
-function showLocalTime(value, timezone) {
+function showLocalTime(value, timezone, includeMidnight = false) {
   const parts = venueDateParts(value, timezone);
   if (!parts) return "";
   try {
@@ -1688,7 +1688,7 @@ function showLocalTime(value, timezone) {
     const hour = Number(parts.date.toLocaleString("en-US", { hour: "numeric", hourCycle: "h23", timeZone: parts.timeZone }));
     const minute = Number(parts.date.toLocaleString("en-US", { minute: "numeric", timeZone: parts.timeZone }));
     if (!Number.isFinite(hour) || !Number.isFinite(minute)) return "";
-    if ((hour === 0 || hour === 24) && minute === 0) return "";
+    if (!includeMidnight && (hour === 0 || hour === 24) && minute === 0) return "";
     return parts.date.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", timeZone: parts.timeZone });
   } catch (error) {
     return "";
@@ -2358,9 +2358,18 @@ function renderShowCard(show, options = {}) {
     runLine.append(chip, document.createTextNode(" at this venue"));
     body.append(runLine);
   }
+  const organizers = Array.isArray(show.organizer_names) ? show.organizer_names.filter((name) => typeof name === "string" && name.trim()) : [];
+  if (organizers.length) text(body, "p", `Organizer: ${organizers.join(", ")}`, "show-card-sub muted");
+  // The shows API validates this end against the venue-aware start.
+  if (show.end_datetime_iso) {
+    text(body, "p", `Ends: ${formatShowDate(show.end_datetime_iso, show.timezone)} ${showLocalTime(show.end_datetime_iso, show.timezone, true)}`, "show-card-sub muted");
+  }
   // Keep in sync with rescheduledHtml in renderShowCardServerHtml.
   if (String(show.ticketmaster_status_code || "").trim().toLowerCase() === "rescheduled") {
     text(body, "p", "Date changed: this is the new date.", "show-card-sub muted");
+    if (show.previous_start_date && Number.isFinite(Date.parse(show.previous_start_date))) {
+      text(body, "p", `Previously scheduled: ${formatShowDate(show.previous_start_date, show.previous_start_timezone)}.`, "show-card-sub muted");
+    }
   }
 
   if (options.reviewGated) {

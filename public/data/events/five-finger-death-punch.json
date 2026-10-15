@@ -1132,18 +1132,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7676519",
-        "url": "https://www.ticketliquidator.com/tickets/7676519/Five-Finger-Death-Punch-tickets-Tue-Oct-13-2026-Ameris-Bank-Amphitheatre",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_eQ2KN-d",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676519",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676519/Five-Finger-Death-Punch-tickets-Tue-Oct-13-2026-Ameris-Bank-Amphitheatre"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-five-finger-death-punch-2026-raleigh-g5evz_ejp-tdn",
@@ -1158,7 +1158,7 @@
     "ticketmaster_event_id": "2D006429A5869EEA",
     "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-raleigh-north-carolina-10-14-2026/event/2D006429A5869EEA",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-raleigh-coastal-credit-union-music-park-at-walnut-creek-10-14-2026/production/6517205",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/five-finger-death-punch-raleigh-north-carolina-10-14-2026/event/2D006429A5869EEA",
     "last_verified_at": "2026-10-08",
@@ -1180,11 +1180,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 6517205,
-        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-raleigh-coastal-credit-union-music-park-at-walnut-creek-10-14-2026/production/6517205",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1194,25 +1194,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7676524",
-        "url": "https://www.ticketnetwork.com/en/p/7676524",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7676524",
-        "url": "https://www.ticketliquidator.com/tickets/7676524/Five-Finger-Death-Punch-tickets-Wed-Oct-14-2026-Coastal-Credit-Union-Music-Park-at-Walnut-Creek",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_eJP-tDn",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676524",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676524/Five-Finger-Death-Punch-tickets-Wed-Oct-14-2026-Coastal-Credit-Union-Music-Park-at-Walnut-Creek"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-five-finger-death-punch-2026-charlotte-g5evz_eqi_eoi",
@@ -1252,7 +1252,7 @@
         "event_id": 6517299,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-charlotte-truliant-amphitheater-10-16-2026/production/6517299",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1321,7 +1321,7 @@
         "event_id": 6517305,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-virginia-beach-veterans-united-home-loans-amphitheater-at-virginia-beach-10-17-2026/production/6517305",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1382,7 +1382,7 @@
         "event_id": 6517203,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-greenville-bon-secours-wellness-arena-10-19-2026/production/6517203",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1451,7 +1451,7 @@
         "event_id": 6517215,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-columbus-nationwide-arena-10-21-2026/production/6517215",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1535,7 +1535,7 @@
         "event_id": 6517189,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-bristow-jiffy-lube-live-10-23-2026/production/6517189",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1616,7 +1616,7 @@
         "event_id": 6989751,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-manchester-ao-arena-1-16-2027--concerts-hard-rock/production/6989751",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1693,7 +1693,7 @@
         "event_id": 6989968,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-1-22-2027--concerts-hard-rock/production/6989968",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1770,7 +1770,7 @@
         "event_id": 6989985,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-london-the-o2---london-1-23-2027--concerts-hard-rock/production/6989985",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2067,7 +2067,7 @@
         "event_id": 6989766,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-glasgow-ovo-hydro-1-17-2027--concerts-hard-rock/production/6989766",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2227,82 +2227,5 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090423",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090423/Five-Finger-Death-Punch-tickets-Fri-Feb-19-2027-Unity-Arena"
-  },
-  {
-    "id": "tm-five-finger-death-punch-2027-helsinki-z698xz8kz16vjke6q8",
-    "artist_slug": "five-finger-death-punch",
-    "artist_name": "Five Finger Death Punch",
-    "event_name": "Five Finger Death Punch | Premium Suite Ticket",
-    "city": "Helsinki",
-    "country": "Finland",
-    "venue": "Veikkaus Arena",
-    "datetime_iso": "2027-02-22T16:00:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "1706087750",
-    "ticketmaster_url": "https://www.ticketmaster.fi/event/five-finger-death-punch-%7C-premium-suite-ticket-tickets/1706087750?language=en-us",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.fi/event/five-finger-death-punch-%7C-premium-suite-ticket-tickets/1706087750?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "1706087750",
-        "discovery_event_id": "Z698xZ8KZ16vjke6q8",
-        "url": "https://www.ticketmaster.fi/event/five-finger-death-punch-%7C-premium-suite-ticket-tickets/1706087750?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "ticketnetwork": {
-        "event_id": "8090422",
-        "url": "https://www.ticketnetwork.com/en/p/8090422",
-        "verified": true,
-        "last_verified_at": "2026-10-11",
-        "availability_status": "listed"
-      },
-      "ticket-liquidator": {
-        "event_id": "8090422",
-        "url": "https://www.ticketliquidator.com/tickets/8090422/Five-Finger-Death-Punch-tickets-Mon-Feb-22-2027-Veikkaus-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-11",
-        "availability_status": "listed"
-      },
-      "stubhub-international": {
-        "event_id": "107162540",
-        "url": "https://www.stubhub.ie/five-finger-death-punch-tickets-helsinki-veikkaus-arena-22-2-2027/event/107162540",
-        "verified": true,
-        "last_verified_at": "2026-10-11",
-        "availability_status": "listed"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z698xZ8KZ16vjke6q8",
-    "timezone": "Europe/Helsinki",
-    "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090422",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090422/Five-Finger-Death-Punch-tickets-Mon-Feb-22-2027-Veikkaus-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-helsinki-veikkaus-arena-22-2-2027/event/107162540"
   }
 ]

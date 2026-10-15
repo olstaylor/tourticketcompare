@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "170064FFDAF68BD2",
     "ticketmaster_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-26-2026/event/170064FFDAF68BD2",
     "seatgeek_url": "https://seatgeek.com/backstreet-boys-tickets/las-vegas-nevada-sphere-2026-12-26-8-pm/concert/18513686",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/backstreet-boys-tickets-las-vegas-sphere-at-the-venetian-resort-12-26-2026/production/7458996",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-26-2026/event/170064FFDAF68BD2",
     "last_verified_at": "2026-10-13",
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7458996,
+        "url": "https://www.vividseats.com/backstreet-boys-tickets-las-vegas-sphere-at-the-venetian-resort-12-26-2026/production/7458996",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -46,6 +46,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8223803",
+        "url": "https://www.ticketliquidator.com/tickets/8223803/Backstreet-Boys-tickets-Sat-Dec-26-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107524102",
+        "url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-26-2026/event/107524102",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8223803",
+        "url": "https://www.ticketnetwork.com/en/p/8223803",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62TQWIR3",
@@ -57,7 +78,10 @@
         "start": "2026-08-21T17:00:00Z",
         "end": "2026-12-20T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8223803/Backstreet-Boys-tickets-Sat-Dec-26-2026-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-26-2026/event/107524102",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8223803"
   },
   {
     "id": "tm-backstreet-boys-2026-las-vegas-17ayv0g62tqtbry",
@@ -72,7 +96,7 @@
     "ticketmaster_event_id": "170064FFDAFD8BF9",
     "ticketmaster_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-27-2026/event/170064FFDAFD8BF9",
     "seatgeek_url": "https://seatgeek.com/backstreet-boys-tickets/las-vegas-nevada-sphere-2026-12-27-8-pm/concert/18513688",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/backstreet-boys-tickets-las-vegas-sphere-at-the-venetian-resort-12-27-2026/production/7458998",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-27-2026/event/170064FFDAFD8BF9",
     "last_verified_at": "2026-10-13",
@@ -94,11 +118,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7458998,
+        "url": "https://www.vividseats.com/backstreet-boys-tickets-las-vegas-sphere-at-the-venetian-resort-12-27-2026/production/7458998",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -106,6 +130,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8223802",
+        "url": "https://www.ticketliquidator.com/tickets/8223802/Backstreet-Boys-tickets-Sun-Dec-27-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107524103",
+        "url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-27-2026/event/107524103",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8223802",
+        "url": "https://www.ticketnetwork.com/en/p/8223802",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62TQTbRy",
@@ -117,7 +162,10 @@
         "start": "2026-08-21T17:00:00Z",
         "end": "2026-12-21T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8223802/Backstreet-Boys-tickets-Sun-Dec-27-2026-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-27-2026/event/107524103",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8223802"
   },
   {
     "id": "tm-backstreet-boys-2027-las-vegas-17ayv0g62th2fwx",
@@ -132,7 +180,7 @@
     "ticketmaster_event_id": "170064FFDB3C8CA2",
     "ticketmaster_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-31-2026/event/170064FFDB3C8CA2",
     "seatgeek_url": "https://seatgeek.com/backstreet-boys-tickets/las-vegas-nevada-sphere-2026-12-31-10-pm/concert/18470170",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/backstreet-boys-tickets-las-vegas-sphere-at-the-venetian-resort-12-31-2026/production/7411798",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-31-2026/event/170064FFDB3C8CA2",
     "last_verified_at": "2026-10-13",
@@ -154,11 +202,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7411798,
+        "url": "https://www.vividseats.com/backstreet-boys-tickets-las-vegas-sphere-at-the-venetian-resort-12-31-2026/production/7411798",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -166,6 +214,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8194445",
+        "url": "https://www.ticketliquidator.com/tickets/8194445/Backstreet-Boys-tickets-Thu-Dec-31-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107484115",
+        "url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-31-2026/event/107484115",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8194445",
+        "url": "https://www.ticketnetwork.com/en/p/8194445",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62Th2Fwx",
@@ -177,7 +246,10 @@
         "start": "2026-08-21T17:00:00Z",
         "end": "2026-12-25T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194445/Backstreet-Boys-tickets-Thu-Dec-31-2026-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-31-2026/event/107484115",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194445"
   },
   {
     "id": "tm-backstreet-boys-2027-las-vegas-17ayv0g62thois9",
@@ -192,7 +264,7 @@
     "ticketmaster_event_id": "170064FFDB468CD7",
     "ticketmaster_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-01-01-2027/event/170064FFDB468CD7",
     "seatgeek_url": "https://seatgeek.com/backstreet-boys-tickets/las-vegas-nevada-sphere-2027-01-01-8-pm/concert/18470178",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/backstreet-boys-tickets-las-vegas-sphere-at-the-venetian-resort-1-1-2027/production/7411796",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-01-01-2027/event/170064FFDB468CD7",
     "last_verified_at": "2026-10-13",
@@ -214,11 +286,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7411796,
+        "url": "https://www.vividseats.com/backstreet-boys-tickets-las-vegas-sphere-at-the-venetian-resort-1-1-2027/production/7411796",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -226,6 +298,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8194446",
+        "url": "https://www.ticketliquidator.com/tickets/8194446/Backstreet-Boys-tickets-Fri-Jan-1-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107484116",
+        "url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-1-1-2027/event/107484116",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8194446",
+        "url": "https://www.ticketnetwork.com/en/p/8194446",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62ThoIS9",
@@ -237,7 +330,10 @@
         "start": "2026-08-21T17:00:00Z",
         "end": "2026-12-26T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194446/Backstreet-Boys-tickets-Fri-Jan-1-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-1-1-2027/event/107484116",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194446"
   },
   {
     "id": "tm-backstreet-boys-2027-las-vegas-17ayv0g62th3iss",
@@ -252,7 +348,7 @@
     "ticketmaster_event_id": "170064FFDB4A8CF3",
     "ticketmaster_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-01-02-2027/event/170064FFDB4A8CF3",
     "seatgeek_url": "https://seatgeek.com/backstreet-boys-tickets/las-vegas-nevada-sphere-2027-01-02-8-pm/concert/18470180",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/backstreet-boys-tickets-las-vegas-sphere-at-the-venetian-resort-1-2-2027/production/7411804",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-01-02-2027/event/170064FFDB4A8CF3",
     "last_verified_at": "2026-10-13",
@@ -274,11 +370,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7411804,
+        "url": "https://www.vividseats.com/backstreet-boys-tickets-las-vegas-sphere-at-the-venetian-resort-1-2-2027/production/7411804",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -286,6 +382,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8194447",
+        "url": "https://www.ticketliquidator.com/tickets/8194447/Backstreet-Boys-tickets-Sat-Jan-2-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107484117",
+        "url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-1-2-2027/event/107484117",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8194447",
+        "url": "https://www.ticketnetwork.com/en/p/8194447",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62Th3ISS",
@@ -297,7 +414,10 @@
         "start": "2026-08-21T17:00:00Z",
         "end": "2026-12-27T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194447/Backstreet-Boys-tickets-Sat-Jan-2-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-1-2-2027/event/107484117",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194447"
   },
   {
     "id": "tm-backstreet-boys-2027-toronto-1avzz_kgkz7jcq4",
@@ -312,7 +432,7 @@
     "ticketmaster_event_id": "1000653E0472D695",
     "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-12-2027/event/1000653E0472D695",
     "seatgeek_url": "https://seatgeek.com/backstreet-boys-tickets/toronto-canada-rogers-centre-2027-02-12-8-pm/concert/18642041",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-2-12-2027/production/7642086",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-12-2027/event/1000653E0472D695",
     "last_verified_at": "2026-10-13",
@@ -334,11 +454,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642086,
+        "url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-2-12-2027/production/7642086",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -377,7 +497,7 @@
     "ticketmaster_event_id": "1000653E0475D699",
     "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-13-2027/event/1000653E0475D699",
     "seatgeek_url": "https://seatgeek.com/backstreet-boys-tickets/toronto-canada-rogers-centre-2027-02-13-8-pm/concert/18642039",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-2-13-2027/production/7642084",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-13-2027/event/1000653E0475D699",
     "last_verified_at": "2026-10-13",
@@ -399,11 +519,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642084,
+        "url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-2-13-2027/production/7642084",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -442,7 +562,7 @@
     "ticketmaster_event_id": "1000653E0478D6A2",
     "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-14-2027/event/1000653E0478D6A2",
     "seatgeek_url": "https://seatgeek.com/backstreet-boys-tickets/toronto-canada-rogers-centre-2027-02-14-8-pm/concert/18652781",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-2-14-2027/production/7653663",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-14-2027/event/1000653E0478D6A2",
     "last_verified_at": "2026-10-13",
@@ -464,11 +584,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653663,
+        "url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-2-14-2027/production/7653663",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -507,7 +627,7 @@
     "ticketmaster_event_id": "1000653E047CD6AB",
     "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-19-2027/event/1000653E047CD6AB",
     "seatgeek_url": "https://seatgeek.com/backstreet-boys-tickets/toronto-canada-rogers-centre-2027-02-19-8-pm/concert/18642040",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-2-19-2027/production/7642088",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-19-2027/event/1000653E047CD6AB",
     "last_verified_at": "2026-10-13",
@@ -529,11 +649,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642088,
+        "url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-2-19-2027/production/7642088",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -572,7 +692,7 @@
     "ticketmaster_event_id": "1000653E0480D6B7",
     "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-20-2027/event/1000653E0480D6B7",
     "seatgeek_url": "https://seatgeek.com/backstreet-boys-tickets/toronto-canada-rogers-centre-2027-02-20-8-pm/concert/18642042",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-2-20-2027/production/7642104",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-20-2027/event/1000653E0480D6B7",
     "last_verified_at": "2026-10-13",
@@ -594,11 +714,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642104,
+        "url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-2-20-2027/production/7642104",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -637,7 +757,7 @@
     "ticketmaster_event_id": "1000653E0483D6BF",
     "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-21-2027/event/1000653E0483D6BF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-2-21-2027/production/7653779",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-21-2027/event/1000653E0483D6BF",
     "last_verified_at": "2026-10-13",
@@ -659,11 +779,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653779,
+        "url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-2-21-2027/production/7653779",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -702,7 +822,7 @@
     "ticketmaster_event_id": "1000653E0486D6C9",
     "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-26-2027/event/1000653E0486D6C9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-2-26-2027--concerts-pop/production/7664274",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-26-2027/event/1000653E0486D6C9",
     "last_verified_at": "2026-10-13",
@@ -724,11 +844,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7664274,
+        "url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-2-26-2027--concerts-pop/production/7664274",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -767,7 +887,7 @@
     "ticketmaster_event_id": "1000653E0489D6D6",
     "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-27-2027/event/1000653E0489D6D6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-2-27-2027--concerts-pop/production/7664276",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-27-2027/event/1000653E0489D6D6",
     "last_verified_at": "2026-10-13",
@@ -789,11 +909,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7664276,
+        "url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-2-27-2027--concerts-pop/production/7664276",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -832,7 +952,7 @@
     "ticketmaster_event_id": "1000653E048CD6DC",
     "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-28-2027/event/1000653E048CD6DC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-2-28-2027/production/7664850",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-28-2027/event/1000653E048CD6DC",
     "last_verified_at": "2026-10-13",
@@ -854,11 +974,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7664850,
+        "url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-2-28-2027/production/7664850",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -897,7 +1017,7 @@
     "ticketmaster_event_id": "100065469A45A9C3",
     "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-03-05-2027/event/100065469A45A9C3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-3-5-2027--concerts-pop/production/7679208",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-03-05-2027/event/100065469A45A9C3",
     "last_verified_at": "2026-10-13",
@@ -919,11 +1039,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679208,
+        "url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-3-5-2027--concerts-pop/production/7679208",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -962,7 +1082,7 @@
     "ticketmaster_event_id": "100065469A57AA11",
     "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-03-06-2027/event/100065469A57AA11",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-3-6-2027--concerts-pop/production/7679214",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-03-06-2027/event/100065469A57AA11",
     "last_verified_at": "2026-10-13",
@@ -984,11 +1104,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679214,
+        "url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-3-6-2027--concerts-pop/production/7679214",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

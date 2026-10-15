@@ -72,7 +72,8 @@ concurrency:
 jobs:
   vividseats-cta-sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 59
+    # Queueing must leave time for generation and both validation gates.
+    timeout-minutes: 135
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -85,10 +86,7 @@ jobs:
         # their merges. See scripts/wait-for-writer-lanes.mjs.
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        # The 7–8 October runs exhausted 14 minutes while SeatGeek was still
-        # active, then lost their merge race. 20 minutes covers those waits
-        # with headroom under this job's 59-minute cap; merge gates stay intact.
-        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 20
+        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 60
 
       - name: Setup Node.js
         uses: actions/setup-node@v5
@@ -162,6 +160,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Open Vivid Seats CTA sync PR
+        timeout-minutes: 30
         if: steps.diff.outputs.changed == 'true' && (github.event_name == 'schedule' || github.event.inputs.mode == 'apply')
         env:
           GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}

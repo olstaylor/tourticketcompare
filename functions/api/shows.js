@@ -1,4 +1,6 @@
+import { organizerNames, eventEndDate } from "../_event-metadata.js";
 import { isUpcomingShow, showStartMs } from "../_upcoming.js";
+import { eventPreviousStartDate } from "../_event-reschedule.js";
 import { VERIFIED_TICKET_LINKS } from "./out.js";
 import { eventLifecycleHeld, TICKETMASTER_LIFECYCLE_CODES, TICKETMASTER_STATUS_FIELD } from "../_route-indexability.js";
 import {
@@ -111,6 +113,10 @@ export function mapEventsToShows(events) {
         artist_slug: event.artist_slug,
         artist_name: event.artist_name,
         dateTimeISO,
+        organizer_names: organizerNames(event.organizer_names),
+        end_datetime_iso: eventEndDate(event),
+        previous_start_date: eventPreviousStartDate(event),
+        previous_start_timezone: event.previous_start_timezone || "",
         city,
         country,
         city_display: city && country ? `${city}, ${country}` : (city || country || ""),

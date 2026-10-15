@@ -242,16 +242,22 @@ const lane = (overrides = {}) => ({
   const expected = new Date(NOW - PRICE_LOW_WINDOW_DAYS * 24 * 60 * 60 * 1000).toISOString();
   check(windowStart === expected, `the boundary is ${PRICE_LOW_WINDOW_DAYS} days back (was ${windowStart})`);
 
-  // Provider and source are bound as pairs: filtering on provider alone would
-  // admit rows an unapproved source wrote for that same provider.
+  // Provider and source are bound as pairs in independent UNION branches: this
+  // keeps the indexed history lookup exact and never admits another source for
+  // the same provider.
   check(
-    (windowCall.sql.match(/\(provider = \? AND source = \?\)/g) || []).length === 2,
-    "each lane binds provider and source together"
+    (windowCall.sql.match(/provider = \? AND source = \?/g) || []).length === 2,
+    "each lane constrains provider and source together"
   );
+  check((windowCall.sql.match(/UNION ALL/g) || []).length === 1, "approved lanes use independent indexed branches");
   check(
     windowCall.bindings.includes("vividseats_impact_marketplace_api") &&
       windowCall.bindings.includes("ticketnetwork_impact_marketplace_api"),
     "the approved source of each lane is bound"
+  );
+  check(
+    windowCall.bindings.filter((value) => value === "e1").length === lanes.length,
+    "each lane receives the same exact event-id set"
   );
   check(/GROUP BY event_id, provider, currency/.test(windowCall.sql), "series are grouped per event, provider and currency");
 }
@@ -267,6 +273,26 @@ const lane = (overrides = {}) => ({
   const ids = Array.from({ length: 120 }, (_, i) => `e${i}`);
   await fetchEventPriceLowSeries(db, ids, [{ dbKey: "vivid-seats", approvedSource: "src" }], { now: NOW });
   check(statements === 6, `120 ids cost six statements, not one per id (was ${statements})`);
+}
+{
+  // With every approved lane active, split the event ids so each UNION query
+  // stays within the former single-lane binding budget. That keeps the exact
+  // index branches safe to execute on D1 rather than trading one broad scan
+  // for an over-large prepared statement.
+  const calls = [];
+  const db = {
+    prepare(sql) {
+      const call = { sql, bindings: [] };
+      return {
+        bind(...bindings) { call.bindings = bindings; calls.push(call); return this; },
+        async all() { return { results: [] }; }
+      };
+    }
+  };
+  const lanes = Array.from({ length: 5 }, (_, i) => ({ dbKey: `lane-${i}`, approvedSource: `source-${i}` }));
+  await fetchEventPriceLowSeries(db, Array.from({ length: 50 }, (_, i) => `e${i}`), lanes, { now: NOW });
+  check(calls.length === 10, `five lanes split 50 ids into five chunks (was ${calls.length / 2})`);
+  check(calls.every((call) => call.bindings.length <= 61), "multi-lane statements stay within the former binding budget");
 }
 {
   const index = await fetchEventPriceLowSeries(null, ["e1"], [{ dbKey: "v", approvedSource: "s" }], { now: NOW });

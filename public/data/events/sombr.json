@@ -570,18 +570,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7874854",
-        "url": "https://www.ticketliquidator.com/tickets/7874854/sombr-tickets-Tue-Oct-13-2026-Pechanga-Arena-San-Diego",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8Gw",
     "status": "on-sale",
     "timezone": "America/Los_Angeles",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874854",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874854/sombr-tickets-Tue-Oct-13-2026-Pechanga-Arena-San-Diego"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-sombr-2026-glendale-z7r9jz1a7x8gy",
@@ -596,7 +596,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7x8GY",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x8GY",
     "seatgeek_url": "https://seatgeek.com/sombr-tickets/glendale-arizona-desert-diamond-arena-2026-10-14-7-pm/concert/18175621",
-    "vividseats_url": "https://www.vividseats.com/sombr-tickets-glendale-desert-diamond-arena-10-14-2026--concerts-alternative/production/6897865",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x8GY",
     "last_verified_at": null,
@@ -618,11 +618,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 6897865,
-        "url": "https://www.vividseats.com/sombr-tickets-glendale-desert-diamond-arena-10-14-2026--concerts-alternative/production/6897865",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -632,33 +632,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7874855",
-        "url": "https://www.ticketnetwork.com/en/p/7874855",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7874855",
-        "url": "https://www.ticketliquidator.com/tickets/7874855/sombr-tickets-Wed-Oct-14-2026-Desert-Diamond-Arena",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107155469",
-        "url": "https://www.stubhub.ie/sombr-glendale-tickets-10-14-2026/event/107155469",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8GY",
     "status": "on-sale",
     "timezone": "America/Phoenix",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874855",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874855/sombr-tickets-Wed-Oct-14-2026-Desert-Diamond-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-glendale-tickets-10-14-2026/event/107155469"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-sombr-2026-oklahoma-city-z7r9jz1a7x8av",
@@ -698,7 +698,7 @@
         "event_id": 6897869,
         "url": "https://www.vividseats.com/sombr-tickets-oklahoma-city-paycom-center-10-16-2026--concerts-alternative/production/6897869",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -767,7 +767,7 @@
         "event_id": 6897879,
         "url": "https://www.vividseats.com/sombr-tickets-houston-toyota-center---tx-10-17-2026--concerts-alternative/production/6897879",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -836,7 +836,7 @@
         "event_id": 6897883,
         "url": "https://www.vividseats.com/sombr-tickets-dallas-american-airlines-center---tx-10-18-2026--concerts-alternative/production/6897883",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -913,7 +913,7 @@
         "event_id": 6897885,
         "url": "https://www.vividseats.com/sombr-tickets-austin-moody-center-atx-10-20-2026--concerts-alternative/production/6897885",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -990,7 +990,7 @@
         "event_id": 6897895,
         "url": "https://www.vividseats.com/sombr-tickets-atlanta-state-farm-arena-10-22-2026--concerts-alternative/production/6897895",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1067,7 +1067,7 @@
         "event_id": 6897901,
         "url": "https://www.vividseats.com/sombr-tickets-sunrise-amerant-bank-arena-10-24-2026--concerts-alternative/production/6897901",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1144,7 +1144,7 @@
         "event_id": 6897905,
         "url": "https://www.vividseats.com/sombr-tickets-orlando-kia-center-10-25-2026--concerts-alternative/production/6897905",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1228,7 +1228,7 @@
         "event_id": 6897916,
         "url": "https://www.vividseats.com/sombr-tickets-charlotte-spectrum-center-10-27-2026--concerts-alternative/production/6897916",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1304,7 +1304,7 @@
         "event_id": 6897932,
         "url": "https://www.vividseats.com/sombr-tickets-nashville-bridgestone-arena-10-28-2026--concerts-alternative/production/6897932",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1440,7 +1440,7 @@
         "event_id": 6897945,
         "url": "https://www.vividseats.com/sombr-tickets-kansas-city-t-mobile-center-10-31-2026--concerts-alternative/production/6897945",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1516,7 +1516,7 @@
         "event_id": 6897954,
         "url": "https://www.vividseats.com/sombr-tickets-minneapolis-target-center-11-1-2026--concerts-alternative/production/6897954",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1592,7 +1592,7 @@
         "event_id": 6897964,
         "url": "https://www.vividseats.com/sombr-tickets-milwaukee-fiserv-forum-11-3-2026--concerts-alternative/production/6897964",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1668,7 +1668,7 @@
         "event_id": 6897970,
         "url": "https://www.vividseats.com/sombr-tickets-chicago-united-center-11-4-2026--concerts-alternative/production/6897970",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1752,7 +1752,7 @@
         "event_id": 6897982,
         "url": "https://www.vividseats.com/sombr-tickets-indianapolis-gainbridge-fieldhouse-11-6-2026--concerts-alternative/production/6897982",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1828,7 +1828,7 @@
         "event_id": 6897986,
         "url": "https://www.vividseats.com/sombr-tickets-detroit-little-caesars-arena-11-7-2026--concerts-alternative/production/6897986",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1912,7 +1912,7 @@
         "event_id": 6897990,
         "url": "https://www.vividseats.com/sombr-tickets-columbus-nationwide-arena-11-8-2026--concerts-alternative/production/6897990",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1988,7 +1988,7 @@
         "event_id": 6897996,
         "url": "https://www.vividseats.com/sombr-tickets-washington-capital-one-arena-11-10-2026--concerts-alternative/production/6897996",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2072,7 +2072,7 @@
         "event_id": 6898000,
         "url": "https://www.vividseats.com/sombr-tickets-pittsburgh-ppg-paints-arena-11-12-2026--concerts-alternative/production/6898000",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2148,7 +2148,7 @@
         "event_id": 6898006,
         "url": "https://www.vividseats.com/sombr-tickets-cleveland-rocket-arena-11-13-2026--concerts-alternative/production/6898006",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2217,7 +2217,7 @@
         "event_id": 6898016,
         "url": "https://www.vividseats.com/sombr-tickets-buffalo-keybank-center-11-14-2026--concerts-alternative/production/6898016",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2301,7 +2301,7 @@
         "event_id": 6898024,
         "url": "https://www.vividseats.com/sombr-tickets-toronto-scotiabank-arena-11-16-2026--concerts-alternative/production/6898024",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2366,7 +2366,7 @@
         "event_id": 6898034,
         "url": "https://www.vividseats.com/sombr-tickets-boston-td-garden-11-18-2026--concerts-alternative/production/6898034",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2450,7 +2450,7 @@
         "event_id": 6898038,
         "url": "https://www.vividseats.com/sombr-tickets-philadelphia-xfinity-mobile-arena-11-19-2026--concerts-alternative/production/6898038",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2534,7 +2534,7 @@
         "event_id": 6898048,
         "url": "https://www.vividseats.com/sombr-tickets-newark-prudential-center-11-21-2026--concerts-alternative/production/6898048",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2618,7 +2618,7 @@
         "event_id": 6898010,
         "url": "https://www.vividseats.com/sombr-tickets-new-york-madison-square-garden-11-23-2026/production/6898010",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2707,7 +2707,7 @@
         "event_id": 6902538,
         "url": "https://www.vividseats.com/sombr-tickets-new-york-madison-square-garden-11-24-2026/production/6902538",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2796,7 +2796,7 @@
         "event_id": 7505371,
         "url": "https://www.vividseats.com/sombr-tickets-hamburg-barclays-arena---hamburg-5-14-2027/production/7505371",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2926,7 +2926,7 @@
         "event_id": 7505369,
         "url": "https://www.vividseats.com/sombr-tickets-berlin-uber-arena-5-18-2027/production/7505369",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3271,7 +3271,7 @@
         "event_id": 7505317,
         "url": "https://www.vividseats.com/sombr-tickets-glasgow-bellahouston-park-6-19-2027--concerts-alternative/production/7505317",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3348,7 +3348,7 @@
         "event_id": 7510556,
         "url": "https://www.vividseats.com/sombr-tickets-london-the-o2---london-6-21-2027/production/7510556",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3409,7 +3409,7 @@
         "event_id": 7505319,
         "url": "https://www.vividseats.com/sombr-tickets-london-the-o2---london-6-22-2027--concerts-alternative/production/7505319",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3470,7 +3470,7 @@
         "event_id": 7510546,
         "url": "https://www.vividseats.com/sombr-tickets-london-the-o2---london-6-24-2027/production/7510546",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3531,7 +3531,7 @@
         "event_id": 7518769,
         "url": "https://www.vividseats.com/sombr-tickets-london-the-o2---london-6-25-2027/production/7518769",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3592,7 +3592,7 @@
         "event_id": 7527275,
         "url": "https://www.vividseats.com/sombr-tickets-london-the-o2---london-6-29-2027/production/7527275",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3706,7 +3706,7 @@
         "event_id": 7505313,
         "url": "https://www.vividseats.com/sombr-tickets-belfast-ormeau-park-6-17-2027--concerts-alternative/production/7505313",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {

@@ -16,6 +16,7 @@
 //   npm run test:units -- --only blog
 
 export const STEPS = [
+  { id: "test:event-metadata", lane: "units", run: "node scripts/event-metadata.test.mjs" },
   { id: "automation:identity:self-test", lane: "units", run: "node scripts/configure-automation-identity.mjs --self-test" },
   { id: "docs:check",                             lane: "quick",  run: "npm run docs:check" },
   { id: "schema:properties:self-test",            lane: "units",  run: "node scripts/schema-properties.test.mjs" },
@@ -23,6 +24,7 @@ export const STEPS = [
   { id: "blog:self-test",                         lane: "units",  run: "npm run blog:self-test" },
   { id: "blog:check",                             lane: "quick",  run: "npm run blog:check" },
   { id: "blog:ideas:test",                        lane: "units",  run: "npm run blog:ideas:test" },
+  { id: "blog:draft:test",                        lane: "units",  run: "npm run blog:draft:test" },
   { id: "guides:self-test",                       lane: "units",  run: "npm run guides:self-test" },
   { id: "guides:check",                           lane: "quick",  run: "npm run guides:check" },
   { id: "guides:validate",                        lane: "quick",  run: "npm run guides:validate" },
@@ -62,6 +64,7 @@ export const STEPS = [
   { id: "required-check:self-test",              lane: "units",  run: "npm run required-check:self-test" },
   { id: "push-branch:self-test",                 lane: "units",  run: "npm run push-branch:self-test" },
   { id: "writer-lanes:self-test",                lane: "units",  run: "npm run writer-lanes:self-test" },
+  { id: "audit-revision:self-test",              lane: "units",  run: "npm run audit-revision:self-test" },
   { id: "events:validate:partitions",             lane: "quick",  run: "npm run events:validate:partitions" },
   { id: "validate:artist-providers",              lane: "quick",  run: "npm run validate:artist-providers" },
   { id: "validate:cta-provider-state",            lane: "quick",  run: "npm run validate:cta-provider-state" },

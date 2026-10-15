@@ -37,7 +37,7 @@
         "event_id": 7620853,
         "url": "https://www.vividseats.com/nickelback-tickets-durant-choctaw-grand-theater-12-19-2026/production/7620853",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -90,7 +90,7 @@
         "event_id": 7678917,
         "url": "https://www.vividseats.com/nickelback-tickets-pittsburgh-ppg-paints-arena-2-6-2027/production/7678917",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -207,7 +207,7 @@
         "event_id": 7678907,
         "url": "https://www.vividseats.com/nickelback-tickets-allentown-ppl-center-2-8-2027/production/7678907",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -324,7 +324,7 @@
         "event_id": 7678960,
         "url": "https://www.vividseats.com/nickelback-tickets-grand-rapids-van-andel-arena-2-10-2027--concerts-rock/production/7678960",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -441,7 +441,7 @@
         "event_id": 7678938,
         "url": "https://www.vividseats.com/nickelback-tickets-columbus-value-city-arena-at-schottenstein-center-2-13-2027/production/7678938",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -558,7 +558,7 @@
         "event_id": 7678964,
         "url": "https://www.vividseats.com/nickelback-tickets-indianapolis-gainbridge-fieldhouse-2-16-2027--concerts-rock/production/7678964",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -670,7 +670,7 @@
         "event_id": 7678966,
         "url": "https://www.vividseats.com/nickelback-tickets-chicago-united-center-2-18-2027--concerts-rock/production/7678966",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -893,7 +893,7 @@
         "event_id": 7678926,
         "url": "https://www.vividseats.com/nickelback-tickets-nashville-bridgestone-arena-2-21-2027/production/7678926",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -915,6 +915,13 @@
         "url": "https://www.ticketliquidator.com/tickets/8314938/Nickelback-tickets-Sun-Feb-21-2027-Bridgestone-Arena",
         "verified": true,
         "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673019",
+        "url": "https://www.stubhub.ie/nickelback-nashville-tickets-2-21-2027/event/107673019",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       }
     },
@@ -975,7 +982,8 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-02-17T18:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-nashville-tickets-2-21-2027/event/107673019"
   },
   {
     "id": "tm-nickelback-2027-knoxville-g5viz_f9kxnbt",
@@ -1015,7 +1023,7 @@
         "event_id": 7678913,
         "url": "https://www.vividseats.com/nickelback-tickets-knoxville-thompson-boling-arena-at-food-city-center-2-24-2027/production/7678913",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1142,7 +1150,7 @@
         "event_id": 7678972,
         "url": "https://www.vividseats.com/nickelback-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-2-26-2027--concerts-rock/production/7678972",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1269,7 +1277,7 @@
         "event_id": 7678976,
         "url": "https://www.vividseats.com/nickelback-tickets-atlanta-state-farm-arena-3-2-2027--concerts-rock/production/7678976",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1291,6 +1299,13 @@
         "url": "https://www.ticketliquidator.com/tickets/8314941/Nickelback-tickets-Tue-Mar-2-2027-State-Farm-Arena-GA",
         "verified": true,
         "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673015",
+        "url": "https://www.stubhub.ie/nickelback-atlanta-tickets-3-2-2027/event/107673015",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       }
     },
@@ -1346,7 +1361,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-02-26T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-atlanta-tickets-3-2-2027/event/107673015"
   },
   {
     "id": "tm-nickelback-2027-raleigh-g5evz_fh5odfi",
@@ -1386,7 +1402,7 @@
         "event_id": 7678897,
         "url": "https://www.vividseats.com/nickelback-tickets-raleigh-lenovo-center-3-4-2027/production/7678897",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1408,6 +1424,13 @@
         "url": "https://www.ticketliquidator.com/tickets/8314942/Nickelback-tickets-Thu-Mar-4-2027-Lenovo-Center",
         "verified": true,
         "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673021",
+        "url": "https://www.stubhub.ie/nickelback-raleigh-tickets-3-4-2027/event/107673021",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       }
     },
@@ -1463,7 +1486,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-02-28T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-raleigh-tickets-3-4-2027/event/107673021"
   },
   {
     "id": "tm-nickelback-2027-newark-vv1kfz_fj7g7twmf",
@@ -1503,7 +1527,7 @@
         "event_id": 7678936,
         "url": "https://www.vividseats.com/nickelback-tickets-newark-prudential-center-3-6-2027/production/7678936",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1620,7 +1644,7 @@
         "event_id": 7678978,
         "url": "https://www.vividseats.com/nickelback-tickets-washington-capital-one-arena-3-8-2027--concerts-rock/production/7678978",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1642,6 +1666,13 @@
         "url": "https://www.ticketliquidator.com/tickets/8314944/Nickelback-tickets-Mon-Mar-8-2027-Capital-One-Arena",
         "verified": true,
         "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672950",
+        "url": "https://www.stubhub.ie/nickelback-washington-tickets-3-8-2027/event/107672950",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       }
     },
@@ -1697,7 +1728,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-04T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-washington-tickets-3-8-2027/event/107672950"
   },
   {
     "id": "tm-nickelback-2027-boston-vv1avzk4egkdzjayi",
@@ -1715,7 +1747,7 @@
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-boston-td-garden-3-10-2027--concerts-rock/production/7678980",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-boston-massachusetts-03-10-2027/event/01006542F8709C2C",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1737,7 +1769,7 @@
         "event_id": 7678980,
         "url": "https://www.vividseats.com/nickelback-tickets-boston-td-garden-3-10-2027--concerts-rock/production/7678980",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1759,6 +1791,13 @@
         "url": "https://www.ticketliquidator.com/tickets/8314945/Nickelback-tickets-Wed-Mar-10-2027-TD-Garden",
         "verified": true,
         "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672951",
+        "url": "https://www.stubhub.ie/nickelback-boston-tickets-3-10-2027/event/107672951",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       }
     },
@@ -1790,11 +1829,6 @@
         "end": "2026-10-14T15:59:00Z"
       },
       {
-        "name": "Front Of The Line Presale",
-        "start": "2026-10-13T16:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
         "name": "Bandsintown Presale",
         "start": "2026-10-14T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
@@ -1819,7 +1853,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-06T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-boston-tickets-3-10-2027/event/107672951"
   },
   {
     "id": "tm-nickelback-2027-montreal-15d7z_fqpa0kk",
@@ -1859,7 +1894,7 @@
         "event_id": 7678891,
         "url": "https://www.vividseats.com/nickelback-tickets-montreal-bell-centre-3-12-2027/production/7678891",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1966,7 +2001,7 @@
         "event_id": 7678903,
         "url": "https://www.vividseats.com/nickelback-tickets-hamilton-td-coliseum-3-20-2027/production/7678903",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2067,7 +2102,7 @@
         "event_id": 7678919,
         "url": "https://www.vividseats.com/nickelback-tickets-toronto-scotiabank-arena-3-21-2027/production/7678919",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-14",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2163,7 +2198,7 @@
         "event_id": 7678915,
         "url": "https://www.vividseats.com/nickelback-tickets-buffalo-keybank-center-3-24-2027/production/7678915",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2185,6 +2220,13 @@
         "url": "https://www.ticketliquidator.com/tickets/8314946/Nickelback-tickets-Wed-Mar-24-2027-KeyBank-Center",
         "verified": true,
         "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673397",
+        "url": "https://www.stubhub.ie/nickelback-buffalo-tickets-3-24-2027/event/107673397",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       }
     },
@@ -2240,7 +2282,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-20T16:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-buffalo-tickets-3-24-2027/event/107673397"
   },
   {
     "id": "tm-nickelback-2027-detroit-vv1afzk46gkdogect",
@@ -2280,7 +2323,7 @@
         "event_id": 7678984,
         "url": "https://www.vividseats.com/nickelback-tickets-detroit-little-caesars-arena-3-26-2027--concerts-rock/production/7678984",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2302,6 +2345,13 @@
         "url": "https://www.ticketliquidator.com/tickets/8314947/Nickelback-tickets-Fri-Mar-26-2027-Little-Caesars-Arena",
         "verified": true,
         "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673398",
+        "url": "https://www.stubhub.ie/nickelback-detroit-tickets-3-26-2027/event/107673398",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       }
     },
@@ -2357,7 +2407,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-02-13T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-detroit-tickets-3-26-2027/event/107673398"
   },
   {
     "id": "tm-nickelback-2027-milwaukee-vv1a6zk4agkd7raaf",
@@ -2397,7 +2448,7 @@
         "event_id": 7678909,
         "url": "https://www.vividseats.com/nickelback-tickets-milwaukee-fiserv-forum-3-27-2027/production/7678909",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2497,7 +2548,7 @@
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-saskatoon-sasktel-centre-4-2-2027/production/7678911",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-saskatoon-saskatchewan-04-02-2027/event/1100654504CBDA72",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2519,7 +2570,7 @@
         "event_id": 7678911,
         "url": "https://www.vividseats.com/nickelback-tickets-saskatoon-sasktel-centre-4-2-2027/production/7678911",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2562,14 +2613,14 @@
         "end": "2026-10-16T04:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-13T18:00:00Z",
-        "end": "2026-10-14T17:59:00Z"
-      },
-      {
         "name": "Front Of The Line Amex Presale Tickets",
         "start": "2026-10-13T18:00:00Z",
         "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T19:00:00Z",
+        "end": "2026-10-14T17:59:00Z"
       },
       {
         "name": "Bandsintown Presale",
@@ -2636,7 +2687,7 @@
         "event_id": 7678885,
         "url": "https://www.vividseats.com/nickelback-tickets-edmonton-rogers-place-4-3-2027/production/7678885",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2658,6 +2709,13 @@
         "url": "https://www.ticketliquidator.com/tickets/8314966/Nickelback-tickets-Sat-Apr-3-2027-Rogers-Place",
         "verified": true,
         "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673389",
+        "url": "https://www.stubhub.ie/nickelback-tickets-edmonton-rogers-place-4-3-2027/event/107673389",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       }
     },
@@ -2708,7 +2766,8 @@
         "start": "2026-10-16T16:00:00Z",
         "end": "2027-03-30T18:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-edmonton-rogers-place-4-3-2027/event/107673389"
   },
   {
     "id": "tm-nickelback-2027-calgary-1aozk4kgkd_yj0d",
@@ -2748,7 +2807,7 @@
         "event_id": 7678893,
         "url": "https://www.vividseats.com/nickelback-tickets-calgary-scotiabank-saddledome-4-6-2027/production/7678893",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2770,6 +2829,13 @@
         "url": "https://www.ticketliquidator.com/tickets/8314968/Nickelback-tickets-Tue-Apr-6-2027-Scotiabank-Saddledome",
         "verified": true,
         "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673023",
+        "url": "https://www.stubhub.ie/nickelback-tickets-calgary-scotiabank-saddledome-4-6-2027/event/107673023",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       }
     },
@@ -2820,7 +2886,8 @@
         "start": "2026-10-16T16:00:00Z",
         "end": "2027-04-02T18:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-calgary-scotiabank-saddledome-4-6-2027/event/107673023"
   },
   {
     "id": "tm-nickelback-2027-vancouver-1aozk4agkdpx1_p",
@@ -2860,7 +2927,7 @@
         "event_id": 7678928,
         "url": "https://www.vividseats.com/nickelback-tickets-vancouver-rogers-arena-4-9-2027/production/7678928",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2882,6 +2949,13 @@
         "url": "https://www.ticketliquidator.com/tickets/8314969/Nickelback-tickets-Fri-Apr-9-2027-Rogers-Arena",
         "verified": true,
         "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673022",
+        "url": "https://www.stubhub.ie/nickelback-tickets-vancouver-rogers-arena-4-9-2027/event/107673022",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       }
     },
@@ -2937,7 +3011,8 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-04-05T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-vancouver-rogers-arena-4-9-2027/event/107673022"
   },
   {
     "id": "tm-nickelback-2027-seattle-vvg1hz_f5mpsjc",
@@ -2977,7 +3052,7 @@
         "event_id": 7678899,
         "url": "https://www.vividseats.com/nickelback-tickets-seattle-climate-pledge-arena-4-10-2027/production/7678899",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2999,6 +3074,13 @@
         "url": "https://www.ticketliquidator.com/tickets/8314951/Nickelback-tickets-Sat-Apr-10-2027-Climate-Pledge-Arena",
         "verified": true,
         "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672953",
+        "url": "https://www.stubhub.ie/nickelback-seattle-tickets-4-10-2027/event/107672953",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       }
     },
@@ -3054,7 +3136,8 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-04-06T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-seattle-tickets-4-10-2027/event/107672953"
   },
   {
     "id": "tm-nickelback-2027-sacramento-g5vyz_f9d-9xg",
@@ -3094,7 +3177,7 @@
         "event_id": 7678990,
         "url": "https://www.vividseats.com/nickelback-tickets-sacramento-golden-1-center-4-13-2027--concerts-rock/production/7678990",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3116,6 +3199,13 @@
         "url": "https://www.ticketliquidator.com/tickets/8314952/Nickelback-tickets-Tue-Apr-13-2027-Golden-1-Center",
         "verified": true,
         "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672954",
+        "url": "https://www.stubhub.ie/nickelback-sacramento-tickets-4-13-2027/event/107672954",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       }
     },
@@ -3171,7 +3261,8 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-04-09T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-sacramento-tickets-4-13-2027/event/107672954"
   },
   {
     "id": "tm-nickelback-2027-anaheim-vv1aazk4kgkeh-rr7",
@@ -3211,7 +3302,7 @@
         "event_id": 7678996,
         "url": "https://www.vividseats.com/nickelback-tickets-anaheim-honda-center-4-18-2027--concerts-rock/production/7678996",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3233,6 +3324,13 @@
         "url": "https://www.ticketliquidator.com/tickets/8314954/Nickelback-tickets-Sun-Apr-18-2027-Honda-Center",
         "verified": true,
         "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673326",
+        "url": "https://www.stubhub.ie/nickelback-anaheim-tickets-4-18-2027/event/107673326",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       }
     },
@@ -3288,7 +3386,8 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-04-14T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-anaheim-tickets-4-18-2027/event/107673326"
   },
   {
     "id": "tm-nickelback-2027-phoenix-1a_zk4kgkd7q1b3",
@@ -3328,7 +3427,7 @@
         "event_id": 7678998,
         "url": "https://www.vividseats.com/nickelback-tickets-phoenix-mortgage-matchup-center-4-20-2027--concerts-rock/production/7678998",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3350,6 +3449,13 @@
         "url": "https://www.ticketliquidator.com/tickets/8314956/Nickelback-tickets-Tue-Apr-20-2027-Mortgage-Matchup-Center",
         "verified": true,
         "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673399",
+        "url": "https://www.stubhub.ie/nickelback-phoenix-tickets-4-20-2027/event/107673399",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       }
     },
@@ -3405,7 +3511,8 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-04-16T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-phoenix-tickets-4-20-2027/event/107673399"
   },
   {
     "id": "tm-nickelback-2027-denver-g5vzz_fpgv_um",
@@ -3445,7 +3552,7 @@
         "event_id": 7679000,
         "url": "https://www.vividseats.com/nickelback-tickets-denver-ball-arena-4-24-2027--concerts-rock/production/7679000",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3467,6 +3574,13 @@
         "url": "https://www.ticketliquidator.com/tickets/8314958/Nickelback-tickets-Sat-Apr-24-2027-Ball-Arena",
         "verified": true,
         "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673401",
+        "url": "https://www.stubhub.ie/nickelback-denver-tickets-4-24-2027/event/107673401",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       }
     },
@@ -3522,7 +3636,8 @@
         "start": "2026-10-16T16:00:00Z",
         "end": "2027-04-20T18:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-denver-tickets-4-24-2027/event/107673401"
   },
   {
     "id": "tm-nickelback-2027-dallas-vvg1yz_f9cwbxt",
@@ -3555,14 +3670,14 @@
         "event_id": 18664618,
         "url": "https://seatgeek.com/nickelback-tickets/dallas-texas-american-airlines-center-2027-04-27-6-30-pm/concert/18664618",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678924,
         "url": "https://www.vividseats.com/nickelback-tickets-dallas-american-airlines-center---tx-4-27-2027/production/7678924",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3584,6 +3699,13 @@
         "url": "https://www.ticketliquidator.com/tickets/8314959/Nickelback-tickets-Tue-Apr-27-2027-American-Airlines-Center",
         "verified": true,
         "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673388",
+        "url": "https://www.stubhub.ie/nickelback-dallas-tickets-4-27-2027/event/107673388",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       }
     },
@@ -3639,7 +3761,8 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-04-23T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-dallas-tickets-4-27-2027/event/107673388"
   },
   {
     "id": "tm-nickelback-2027-san-antonio-g5diz_fruim0m",
@@ -3672,14 +3795,14 @@
         "event_id": 18664624,
         "url": "https://seatgeek.com/nickelback-tickets/san-antonio-texas-frost-bank-center-2027-05-01-6-30-pm/concert/18664624",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679004,
         "url": "https://www.vividseats.com/nickelback-tickets-san-antonio-frost-bank-center-5-1-2027--concerts-rock/production/7679004",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3701,6 +3824,13 @@
         "url": "https://www.ticketliquidator.com/tickets/8314961/Nickelback-tickets-Sat-May-1-2027-Frost-Bank-Center",
         "verified": true,
         "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672956",
+        "url": "https://www.stubhub.ie/nickelback-san-antonio-tickets-5-1-2027/event/107672956",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       }
     },
@@ -3756,7 +3886,8 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-04-27T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-san-antonio-tickets-5-1-2027/event/107672956"
   },
   {
     "id": "tm-nickelback-2027-leeds-g5vhz_flmspew",
@@ -3771,7 +3902,7 @@
     "ticketmaster_event_id": "1F006547F7CD69F2",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-leeds-22-05-2027/event/1F006547F7CD69F2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-leeds-first-direct-arena---leeds-5-22-2027--concerts-rock/production/7679008",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-leeds-22-05-2027/event/1F006547F7CD69F2",
     "last_verified_at": "2026-10-11",
@@ -3793,11 +3924,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679008,
+        "url": "https://www.vividseats.com/nickelback-tickets-leeds-first-direct-arena---leeds-5-22-2027--concerts-rock/production/7679008",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -3847,7 +3978,7 @@
     "ticketmaster_event_id": "35006547E6BCA601",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-london-25-05-2027/event/35006547E6BCA601",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-london-the-o2---london-5-25-2027--concerts-rock/production/7679010",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-london-25-05-2027/event/35006547E6BCA601",
     "last_verified_at": "2026-10-11",
@@ -3869,11 +4000,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679010,
+        "url": "https://www.vividseats.com/nickelback-tickets-london-the-o2---london-5-25-2027--concerts-rock/production/7679010",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -3881,6 +4012,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672260",
+        "url": "https://www.stubhub.ie/nickelback-tickets-london-the-o2-arena-25-5-2027/event/107672260",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk46GkdJR1bv",
@@ -3903,7 +4041,8 @@
         "start": "2026-10-15T11:00:00Z",
         "end": "2026-10-16T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-london-the-o2-arena-25-5-2027/event/107672260"
   },
   {
     "id": "tm-nickelback-2027-birmingham-1kfyvp3_gagcomu",
@@ -3918,7 +4057,7 @@
     "ticketmaster_event_id": "230065499CB60DF6",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-birmingham-28-05-2027/event/230065499CB60DF6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-birmingham-utilita-arena-birmingham-5-28-2027--concerts-rock/production/7679012",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-birmingham-28-05-2027/event/230065499CB60DF6",
     "last_verified_at": "2026-10-11",
@@ -3940,11 +4079,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679012,
+        "url": "https://www.vividseats.com/nickelback-tickets-birmingham-utilita-arena-birmingham-5-28-2027--concerts-rock/production/7679012",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -3965,6 +4104,13 @@
         "url": "https://www.ticketliquidator.com/tickets/8314975/Nickelback-tickets-Fri-May-28-2027-Utilita-Arena-Birmingham",
         "verified": true,
         "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672835",
+        "url": "https://www.stubhub.ie/nickelback-tickets-birmingham-utilita-arena-birmingham-28-5-2027/event/107672835",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       }
     },
@@ -3995,7 +4141,8 @@
         "start": "2026-10-15T11:00:00Z",
         "end": "2026-10-16T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-birmingham-utilita-arena-birmingham-28-5-2027/event/107672835"
   },
   {
     "id": "tm-nickelback-2027-dublin-1abzkfmgkepnjt6",
@@ -4102,10 +4249,10 @@
     "ticketmaster_event_id": "36006547BE9C6740",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-glasgow-01-06-2027/event/36006547BE9C6740",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-glasgow-ovo-hydro-6-1-2027--concerts-rock/production/7679018",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-glasgow-01-06-2027/event/36006547BE9C6740",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4124,11 +4271,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679018,
+        "url": "https://www.vividseats.com/nickelback-tickets-glasgow-ovo-hydro-6-1-2027--concerts-rock/production/7679018",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -4150,6 +4297,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672836",
+        "url": "https://www.stubhub.ie/nickelback-tickets-glasgow-ovo-hydro-arena-glasgow-1-6-2027/event/107672836",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZk46GkeXEkqZ",
@@ -4166,6 +4320,11 @@
       },
       {
         "name": "OVO Presale",
+        "start": "2026-10-14T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
         "start": "2026-10-14T09:00:00Z",
         "end": "2026-10-16T08:00:00Z"
       },
@@ -4189,7 +4348,8 @@
         "start": "2026-10-15T11:00:00Z",
         "end": "2026-10-16T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-glasgow-ovo-hydro-arena-glasgow-1-6-2027/event/107672836"
   },
   {
     "id": "tm-nickelback-2027-manchester-1amzk46gkdgpim1",
@@ -4204,7 +4364,7 @@
     "ticketmaster_event_id": "37006547CC5A8DCA",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-manchester-02-06-2027/event/37006547CC5A8DCA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-manchester-co-op-live-6-2-2027--concerts-rock/production/7678932",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-manchester-02-06-2027/event/37006547CC5A8DCA",
     "last_verified_at": "2026-10-11",
@@ -4226,11 +4386,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7678932,
+        "url": "https://www.vividseats.com/nickelback-tickets-manchester-co-op-live-6-2-2027--concerts-rock/production/7678932",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -4251,6 +4411,13 @@
         "url": "https://www.ticketliquidator.com/tickets/8314791/Nickelback-tickets-Wed-Jun-2-2027-Co-Op-Live",
         "verified": true,
         "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672261",
+        "url": "https://www.stubhub.ie/nickelback-tickets-manchester-co-op-live-2-6-2027/event/107672261",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
         "availability_status": "listed"
       }
     },
@@ -4286,7 +4453,8 @@
         "start": "2026-10-15T11:00:00Z",
         "end": "2026-10-16T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-manchester-co-op-live-2-6-2027/event/107672261"
   },
   {
     "id": "tm-nickelback-2027-forest-brussels-z698xzg2z1kppuzf3",
@@ -4430,6 +4598,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672932",
+        "url": "https://www.stubhub.ie/nickelback-tickets-amsterdam-ziggo-dome-7-6-2027/event/107672932",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k-Uqgjg",
@@ -4459,7 +4634,8 @@
         "start": "2026-10-15T10:00:00Z",
         "end": "2026-10-16T07:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-amsterdam-ziggo-dome-7-6-2027/event/107672932"
   },
   {
     "id": "tm-nickelback-2027-hannover-z698xzc2z16v-v0tgv",
@@ -4522,6 +4698,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672924",
+        "url": "https://www.stubhub.ie/nickelback-tickets-hannover-zag-arena-11-6-2027/event/107672924",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16v-V0tGv",
@@ -4556,7 +4739,8 @@
         "start": "2026-10-15T10:00:00Z",
         "end": "2026-10-16T07:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-hannover-zag-arena-11-6-2027/event/107672924"
   },
   {
     "id": "tm-nickelback-2027-munich-z698xzc2z1k-kk3-_",
@@ -4619,6 +4803,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672318",
+        "url": "https://www.stubhub.ie/nickelback-tickets-munich-olympiahalle-munich-19-6-2027/event/107672318",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1k-Kk3-_",
@@ -4653,7 +4844,8 @@
         "start": "2026-10-15T10:00:00Z",
         "end": "2026-10-16T07:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-munich-olympiahalle-munich-19-6-2027/event/107672318"
   },
   {
     "id": "tm-nickelback-2027-assago-zg9rmiynyza161",
@@ -4756,6 +4948,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672927",
+        "url": "https://www.stubhub.ie/nickelback-tickets-lodz-atlas-arena-1-7-2027/event/107672927",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ1kvw7Fvb",
@@ -4783,7 +4982,8 @@
         "start": "2026-10-15T10:00:00Z",
         "end": "2026-10-16T07:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-lodz-atlas-arena-1-7-2027/event/107672927"
   },
   {
     "id": "tm-nickelback-2027-zurich-z698xzu3z1kjt1pck",
@@ -4846,6 +5046,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672925",
+        "url": "https://www.stubhub.ie/nickelback-tickets-zurich-hallenstadion-zurich-20-6-2027/event/107672925",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZu3Z1kjt1pCk",
@@ -4885,7 +5092,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314986",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314986/Nickelback-tickets-Sun-Jun-20-2027-Hallenstadion-Zurich"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314986/Nickelback-tickets-Sun-Jun-20-2027-Hallenstadion-Zurich",
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-zurich-hallenstadion-zurich-20-6-2027/event/107672925"
   },
   {
     "id": "tm-nickelback-2027-vienna-z698xz5rz16vz489ev",

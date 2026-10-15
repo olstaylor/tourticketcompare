@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-12",
+  "updated_at": "2026-10-15",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -1327,6 +1327,204 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-10-12 (sanctioned path D): SeatGeek performer 249 and Ticketmaster attraction K8vZ91719tf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "twenty-one-pilots",
+      "ticketmaster_attraction_id": "K8vZ917ukw7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/twenty-one-pilots-tickets/artist/1495843",
+      "seatgeek_performer_id": 15670,
+      "seatgeek_artist_url": "https://seatgeek.com/twenty-one-pilots-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-13 (sanctioned path D): SeatGeek performer 15670 and Ticketmaster attraction K8vZ917ukw7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "rod-stewart",
+      "ticketmaster_attraction_id": "K8vZ917135f",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/rod-stewart-tickets/artist/736200",
+      "seatgeek_performer_id": 1552,
+      "seatgeek_artist_url": "https://seatgeek.com/rod-stewart-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-13 (sanctioned path D): SeatGeek performer 1552 and Ticketmaster attraction K8vZ917135f captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "guns-n-roses",
+      "ticketmaster_attraction_id": "K8vZ9171C80",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/guns-n-roses-tickets/artist/735218",
+      "seatgeek_performer_id": 18657,
+      "seatgeek_artist_url": "https://seatgeek.com/guns-n-roses-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-13 (sanctioned path D): SeatGeek performer 18657 and Ticketmaster attraction K8vZ9171C80 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "bring-me-the-horizon",
+      "ticketmaster_attraction_id": "K8vZ917Ge97",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/bring-me-the-horizon-tickets/artist/1153598",
+      "seatgeek_performer_id": 375,
+      "seatgeek_artist_url": "https://seatgeek.com/bring-me-the-horizon-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-13 (sanctioned path D): SeatGeek performer 375 and Ticketmaster attraction K8vZ917Ge97 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "leon-bridges",
+      "ticketmaster_attraction_id": "K8vZ917Kkuf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/leon-bridges-tickets/artist/2075742",
+      "seatgeek_performer_id": 302237,
+      "seatgeek_artist_url": "https://seatgeek.com/leon-bridges-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-13 (sanctioned path D): SeatGeek performer 302237 and Ticketmaster attraction K8vZ917Kkuf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "lionel-richie",
+      "ticketmaster_attraction_id": "K8vZ91715SV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/lionel-richie-tickets/artist/735972",
+      "seatgeek_performer_id": 2478,
+      "seatgeek_artist_url": "https://seatgeek.com/lionel-richie-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-13 (sanctioned path D): SeatGeek performer 2478 and Ticketmaster attraction K8vZ91715SV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "earth-wind-fire",
+      "ticketmaster_attraction_id": "K8vZ91711UV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/earth-wind-fire-tickets/artist/734980",
+      "seatgeek_performer_id": 56,
+      "seatgeek_artist_url": "https://seatgeek.com/earth-wind-fire-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-14 (sanctioned path D): SeatGeek performer 56 and Ticketmaster attraction K8vZ91711UV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "santana",
+      "ticketmaster_attraction_id": "K8vZ91718pf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/santana-tickets/artist/741473",
+      "seatgeek_performer_id": 1582,
+      "seatgeek_artist_url": "https://seatgeek.com/santana-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-14 (sanctioned path D): SeatGeek performer 1582 and Ticketmaster attraction K8vZ91718pf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "simple-minds",
+      "ticketmaster_attraction_id": "K8vZ91712mV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/simple-minds-tickets/artist/736120",
+      "seatgeek_performer_id": 8940,
+      "seatgeek_artist_url": "https://seatgeek.com/simple-minds-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-14 (sanctioned path D): SeatGeek performer 8940 and Ticketmaster attraction K8vZ91712mV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "thirty-seconds-to-mars",
+      "ticketmaster_attraction_id": "K8vZ9175GpV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/thirty-seconds-to-mars-tickets/artist/833240",
+      "seatgeek_performer_id": 2232,
+      "seatgeek_artist_url": "https://seatgeek.com/thirty-seconds-to-mars-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-14 (sanctioned path D): SeatGeek performer 2232 and Ticketmaster attraction K8vZ9175GpV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "stray-kids",
+      "ticketmaster_attraction_id": "K8vZ9179Vpf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/stray-kids-tickets/artist/2593788",
+      "seatgeek_performer_id": 703924,
+      "seatgeek_artist_url": "https://seatgeek.com/stray-kids-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-14 (sanctioned path D): SeatGeek performer 703924 and Ticketmaster attraction K8vZ9179Vpf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "kylie-minogue",
+      "ticketmaster_attraction_id": "K8vZ9175tSf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/kylie-minogue-tickets/artist/1055633",
+      "seatgeek_performer_id": 1076,
+      "seatgeek_artist_url": "https://seatgeek.com/kylie-minogue-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-14 (sanctioned path D): SeatGeek performer 1076 and Ticketmaster attraction K8vZ9175tSf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "lewis-capaldi",
+      "ticketmaster_attraction_id": "K8vZ917popf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/lewis-capaldi-tickets/artist/2409990",
+      "seatgeek_performer_id": 609450,
+      "seatgeek_artist_url": "https://seatgeek.com/lewis-capaldi-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-15 (sanctioned path D): SeatGeek performer 609450 and Ticketmaster attraction K8vZ917popf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "mumford-sons",
+      "ticketmaster_attraction_id": "K8vZ917GuKV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/mumford-sons-tickets/artist/1388154",
+      "seatgeek_performer_id": 4189,
+      "seatgeek_artist_url": "https://seatgeek.com/mumford-sons-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-15 (sanctioned path D): SeatGeek performer 4189 and Ticketmaster attraction K8vZ917GuKV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "hayley-williams",
+      "ticketmaster_attraction_id": "K8vZ917bV3f",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/hayley-williams-tickets/artist/2733627",
+      "seatgeek_performer_id": 243530,
+      "seatgeek_artist_url": "https://seatgeek.com/hayley-williams-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-15 (sanctioned path D): SeatGeek performer 243530 and Ticketmaster attraction K8vZ917bV3f captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "blink-182",
+      "ticketmaster_attraction_id": "K8vZ9171pNf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/blink182-tickets/artist/790708",
+      "seatgeek_performer_id": 41,
+      "seatgeek_artist_url": "https://seatgeek.com/blink-182-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-15 (sanctioned path D): SeatGeek performer 41 and Ticketmaster attraction K8vZ9171pNf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "janet-jackson",
+      "ticketmaster_attraction_id": "K8vZ91715w7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/janet-jackson-tickets/artist/735353",
+      "seatgeek_performer_id": 914,
+      "seatgeek_artist_url": "https://seatgeek.com/janet-jackson-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-15 (sanctioned path D): SeatGeek performer 914 and Ticketmaster attraction K8vZ91715w7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "gorillaz",
+      "ticketmaster_attraction_id": "K8vZ9171zxV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/gorillaz-tickets/artist/807314",
+      "seatgeek_performer_id": 6040,
+      "seatgeek_artist_url": "https://seatgeek.com/gorillaz-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-15 (sanctioned path D): SeatGeek performer 6040 and Ticketmaster attraction K8vZ9171zxV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

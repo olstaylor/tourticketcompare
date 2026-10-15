@@ -40,6 +40,7 @@
 import { execFileSync } from "node:child_process";
 import { readFileSync, readdirSync } from "node:fs";
 import { pathToFileURL } from "node:url";
+import { DEFAULT_TIMEOUT_MS as REQUIRED_CHECK_TIMEOUT_MS } from "./lib/required-check.mjs";
 
 // Every workflow that commits event data. A run of any of these that is older
 // than ours and not yet completed is something to wait for. The self-test
@@ -73,8 +74,8 @@ export const WAITING_LANES = [
   "impact-marketplace-provider-sync.yml",
 ];
 
-// A SeatGeek sync takes ~15 minutes end to end, a Vivid Seats sync ~7; 14
-// minutes is a bounded scheduling budget under the job's 59-minute cap.
+// The default is short; resale reserves 60 minutes, while later Impact
+// providers reserve cumulative queue time plus their own work/validation.
 export const DEFAULT_MAX_WAIT_MINUTES = 14;
 export const POLL_MS = 30_000;
 const ACTIVE_STATUSES = ["in_progress", "queued", "pending"];
@@ -85,7 +86,6 @@ const ACTIVE_STATUSES = ["in_progress", "queued", "pending"];
 export const SHARED_WRITER_GROUPS = {
   "tm-new-shows-pr.yml": "tm-new-shows-pr",
   "tm-data-refresh-pr.yml": "tm-data-refresh-pr",
-  "impact-marketplace-provider-sync.yml": "impact-marketplace-provider-sync",
   "auto-promote.yml": "auto-promote",
   "autopublish-health.yml": "autopublish-health",
   "work-queue-repair.yml": "work-queue-repair",
@@ -311,6 +311,20 @@ async function selfTest() {
       .filter((f) => f.endsWith(".yml"))
       .map((f) => [f, parse(readFileSync(`.github/workflows/${f}`, "utf8"))])
   );
+  const impact = workflows["impact-marketplace-provider-sync.yml"].jobs.sync;
+  const scheduledMap = (expression, fallback) => {
+    const match = String(expression).match(/^\$\{\{ fromJSON\('([^']+)'\)\[github\.event\.schedule\] \|\| (\d+) \}\}$/);
+    assert(match, "Impact budgets must use the schedule's numeric map and a manual fallback");
+    assert.equal(Number(match[2]), fallback);
+    return JSON.parse(match[1]);
+  };
+  const impactWaits = scheduledMap(impact.env.WRITER_WAIT_MINUTES, 60);
+  const impactLimits = scheduledMap(impact["timeout-minutes"], 150);
+  assert.equal(impact.steps.find((s) => /wait-for-writer-lanes\.mjs/.test(s.run || ""))?.run,
+    'node scripts/wait-for-writer-lanes.mjs --max-wait-minutes "$WRITER_WAIT_MINUTES"', "Impact must pass the selected schedule budget to the helper");
+  const budgetFor = (file, job, schedule = "0 6 * * *") => file === "impact-marketplace-provider-sync.yml"
+    ? { wait: impactWaits[schedule], limit: impactLimits[schedule] }
+    : { wait: Number((/--max-wait-minutes (\d+)/.exec(job.steps.find((s) => /wait-for-writer-lanes\.mjs/.test(s.run || ""))?.run) || [])[1] ?? DEFAULT_MAX_WAIT_MINUTES), limit: job["timeout-minutes"] };
   const writes = (wf) =>
     Object.values(wf.jobs || {}).some((job) =>
       (job.steps || []).some((s) => /git add[^\n]*(?:public\/data\/events|PROJECT_STATUS\.md)|sync-tm-events-write-pr\.mjs|node scripts\/run-work-queue-repair\.mjs(?! --self-test)/.test(s.run || ""))
@@ -321,6 +335,36 @@ async function selfTest() {
   }
   const derived = Object.keys(workflows).filter((f) => writes(workflows[f])).sort();
   assert.deepEqual(derived, [...WRITER_LANES].sort(), "WRITER_LANES must list exactly the workflows that commit events or shared status data");
+  assert.equal(workflows["impact-marketplace-provider-sync.yml"].concurrency, undefined,
+    "Impact's three provider runs must not share GitHub's single pending slot");
+  const impactRuns = [60, 61, 62].map((id, index) => run(id, "impact-marketplace-provider-sync.yml", `2026-10-14T0${6 + (index === 2 ? 1 : 0)}:${index === 1 ? "30" : "00"}:00Z`, "queued"));
+  assert.deepEqual(findBlockers({ runs: impactRuns, self: impactRuns[0] }), []);
+  assert.deepEqual(findBlockers({ runs: impactRuns, self: impactRuns[1] }).map((r) => r.id), [60]);
+  assert.deepEqual(findBlockers({ runs: impactRuns, self: impactRuns[2] }).map((r) => r.id), [60, 61]);
+  impactRuns[0].status = "completed";
+  assert.deepEqual(findBlockers({ runs: impactRuns, self: impactRuns[1] }), []);
+  assert.deepEqual(findBlockers({ runs: impactRuns, self: impactRuns[2] }).map((r) => r.id), [61]);
+  impactRuns[1].status = "completed";
+  assert.deepEqual(findBlockers({ runs: impactRuns, self: impactRuns[2] }), []);
+  // Replay the worst legal predecessor lifetimes with all jobs starting
+  // together. The first uses its full wait/work cap, then the second uses
+  // its full cap. Later providers must retain time for their own work.
+  const schedules = ["0 6 * * *", "30 6 * * *", "0 7 * * *"];
+  for (let index = 0; index < schedules.length; index++) {
+    const { wait, limit } = budgetFor("impact-marketplace-provider-sync.yml", impact, schedules[index]);
+    assert(limit <= 360, "Impact must fit the hosted-job maximum");
+    assert(limit - wait >= 90, "each provider retains its own work and publishing allowance");
+    const lane = { ...impactRuns[index], status: "in_progress" };
+    const predecessors = index === 0 ? [{ ...older, status: "in_progress" }]
+      : impactRuns.slice(0, index).map((r) => ({ ...r, status: "in_progress" }));
+    const deadlines = index === 0 ? [60] : schedules.slice(0, index).map((s) => impactLimits[s]);
+    c = clock();
+    verdict = await waitForWriterLanes({ self: lane,
+      listActiveRuns: async () => predecessors.filter((_, i) => c.now() < deadlines[i] * 60_000),
+      maxWaitMs: wait * 60_000, ...c, log: quiet, warn: quiet });
+    assert.equal(verdict.outcome, "clear", `${schedules[index]} survives all older providers' full caps`);
+    assert.equal(verdict.waitedMs, deadlines.at(-1) * 60_000);
+  }
   for (const file of WAITING_LANES) {
     assert(WRITER_LANES.includes(file), `${file}: a waiting lane must also be a writer`);
     const jobs = Object.values(workflows[file].jobs).filter((job) => writes({ jobs: { job } }));
@@ -331,11 +375,29 @@ async function selfTest() {
       assert.equal(wait?.if, steps[checkoutAt]?.if, `${file}: a skipped checkout must also skip the wait`);
       assert(/node scripts\/wait-for-writer-lanes\.mjs/.test(wait?.run || ""), `${file}: the wait must directly follow checkout, before dependencies are installed`);
       assert.equal(wait.env?.GITHUB_TOKEN, "${{ github.token }}", `${file}: the wait reads runs with the job token`);
-      const budget = Number((/--max-wait-minutes (\d+)/.exec(wait.run) || [])[1] ?? DEFAULT_MAX_WAIT_MINUTES);
-      assert(job["timeout-minutes"] >= 30 + budget, `${file}: timeout-minutes must leave the lane its usual time on top of the ${budget}-minute wait`);
+      const { wait: budget, limit } = budgetFor(file, job);
+      assert(limit >= 30 + budget, `${file}: timeout-minutes must leave the lane its usual time on top of the ${budget}-minute wait`);
       const perms = workflows[file].permissions || job.permissions || {};
       assert(["read", "write"].includes(perms.actions), `${file}: listing runs needs actions: read`);
     }
+  }
+
+  // Replay an older writer that clears after 32 minutes (the 2026-10-14
+  // nightly run still held SeatGeek after its former 14-minute allowance).
+  // Read the workflow budget so a wiring regression fails this replay.
+  for (const file of ["seatgeek-cta-sync.yml", "vividseats-cta-sync.yml", "impact-marketplace-provider-sync.yml"]) {
+    const job = Object.values(workflows[file].jobs)[0];
+    const wait = job.steps.find((s) => /node scripts\/wait-for-writer-lanes\.mjs/.test(s.run || ""));
+    const { wait: budget, limit } = budgetFor(file, job);
+    c = clock();
+    const lane = run(50, file, self.created_at);
+    const earlier = run(39, "nightly-data-sync.yml", older.created_at);
+    verdict = await waitForWriterLanes({ self: lane, listActiveRuns: async () => c.now() < 32 * 60_000 ? [earlier] : [], maxWaitMs: budget * 60_000, ...c, log: quiet, warn: quiet });
+    assert.equal(verdict.outcome, "clear", `${file}: a 32-minute predecessor must not starve this lane`);
+    assert(limit - budget >= 75, `${file}: queueing must leave time for generation and both validation gates`);
+    const publish = job.steps.find((s) => /node scripts\/open-automation-pr\.mjs/.test(s.run || ""));
+    assert(publish["timeout-minutes"] >= REQUIRED_CHECK_TIMEOUT_MS / 60_000 + 5 && publish["timeout-minutes"] < 60,
+      `${file}: publication must fit the fresh App token and the 25-minute head-check budget`);
   }
 
   // Regression: timestamps must never be applied from reports generated
@@ -349,8 +411,7 @@ async function selfTest() {
   const check = verificationSteps.findIndex((step) => step.name === "Check audit evidence revision");
   const bump = verificationSteps.findIndex((step) => /scripts\/bump-verified-dates\.mjs/.test(step.run || ""));
   assert(check > download && check < bump, "verification compares audit revision before stamping artists");
-  assert(/source-commit\.txt/.test(verificationSteps[check]?.run || "")
-    && /git rev-parse HEAD/.test(verificationSteps[check]?.run || ""),
+  assert(/check-audit-revision\.mjs --check-main/.test(verificationSteps[check]?.run || ""),
     "verification checks evidence commit against current checkout");
 
   console.log("wait-for-writer-lanes self-test passed.");

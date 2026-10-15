@@ -101,17 +101,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107156169",
-        "url": "https://www.stubhub.ie/uicideboy-austin-tickets-10-13-2026/event/107156169",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_6RFioeH",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/uicideboy-austin-tickets-10-13-2026/event/107156169"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-uicideboy-2026-new-orleans-g5viz_6roljgm",
@@ -162,17 +162,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107156171",
-        "url": "https://www.stubhub.ie/uicideboy-new-orleans-tickets-10-14-2026/event/107156171",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_6RoLjgm",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/uicideboy-new-orleans-tickets-10-14-2026/event/107156171"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-uicideboy-2026-atlanta-vvg1zz_6rspgk8",
@@ -251,7 +251,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-tampa-florida-10-17-2026/event/0D00647BD39CF0A6",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -286,14 +286,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_6RKE2eJ",
     "timezone": "America/New_York",
-    "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-03T14:00:00Z",
-        "end": "2026-10-13T16:00:00Z"
-      }
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-uicideboy-2026-sunrise-z7r9jz1a7xzpd",

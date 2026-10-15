@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "23006535DBD80E3B",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/slipknot-sicest-stadium-tour-london-03-07-2027/event/23006535DBD80E3B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/slipknot-tickets-london-wembley-stadium-7-3-2027--concerts-hard-rock/production/7619111",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/slipknot-sicest-stadium-tour-london-03-07-2027/event/23006535DBD80E3B",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619111,
+        "url": "https://www.vividseats.com/slipknot-tickets-london-wembley-stadium-7-3-2027--concerts-hard-rock/production/7619111",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -46,11 +46,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294333",
+        "url": "https://www.ticketliquidator.com/tickets/8294333/Slipknot-tickets-Sat-Jul-3-2027-Wembley-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670588",
+        "url": "https://www.stubhub.ie/slipknot-tickets-london-wembley-stadium-3-7-2027/event/107670588",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8294333",
+        "url": "https://www.ticketnetwork.com/en/p/8294333",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZkfgGkdhUZzD",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294333/Slipknot-tickets-Sat-Jul-3-2027-Wembley-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-tickets-london-wembley-stadium-3-7-2027/event/107670588",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294333"
   },
   {
     "id": "tm-slipknot-2027-washington-1a4zkfmgkdgza4s",
@@ -65,7 +89,7 @@
     "ticketmaster_event_id": "15006537CCE09571",
     "ticketmaster_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-washington-district-of-columbia-07-16-2027/event/15006537CCE09571",
     "seatgeek_url": "https://seatgeek.com/slipknot-tickets/washington-district-of-columbia-nationals-park-2027-07-16-6-30-pm/concert/18626597",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/slipknot-tickets-washington-dc-nationals-park-7-16-2027/production/7618150",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-washington-district-of-columbia-07-16-2027/event/15006537CCE09571",
     "last_verified_at": "2026-10-13",
@@ -87,11 +111,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618150,
+        "url": "https://www.vividseats.com/slipknot-tickets-washington-dc-nationals-park-7-16-2027/production/7618150",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -99,6 +123,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293109",
+        "url": "https://www.ticketliquidator.com/tickets/8293109/Slipknot-tickets-Fri-Jul-16-2027-Nationals-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669315",
+        "url": "https://www.stubhub.ie/slipknot-washington-tickets-7-16-2027/event/107669315",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8293109",
+        "url": "https://www.ticketnetwork.com/en/p/8293109",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfMGkdGza4s",
@@ -110,7 +155,10 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-07-10T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293109/Slipknot-tickets-Fri-Jul-16-2027-Nationals-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-washington-tickets-7-16-2027/event/107669315",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293109"
   },
   {
     "id": "tm-slipknot-2027-queens-g5vvz_kci8xei",
@@ -185,7 +233,7 @@
     "ticketmaster_event_id": "3100652AE390A46D",
     "ticketmaster_url": "https://www.ticketmaster.ca/slipknot-sicest-tour-at-parc-jeandrapeau-montreal-quebec-07-21-2027/event/3100652AE390A46D",
     "seatgeek_url": "https://seatgeek.com/slipknot-tickets/montreal-canada-parc-jean-drapeau-2027-07-21-6-30-pm/concert/18626589",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/slipknot-tickets-montreal-parc-jean-drapeau-7-21-2027--concerts-hard-rock/production/7619095",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/slipknot-sicest-tour-at-parc-jeandrapeau-montreal-quebec-07-21-2027/event/3100652AE390A46D",
     "last_verified_at": "2026-10-13",
@@ -207,11 +255,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619095,
+        "url": "https://www.vividseats.com/slipknot-tickets-montreal-parc-jean-drapeau-7-21-2027--concerts-hard-rock/production/7619095",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -219,6 +267,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293126",
+        "url": "https://www.ticketliquidator.com/tickets/8293126/Slipknot-tickets-Wed-Jul-21-2027-Parc-Jean-Drapeau",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669317",
+        "url": "https://www.stubhub.ie/slipknot-tickets-montreal-parc-jean-drapeau-7-21-2027/event/107669317",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8293126",
+        "url": "https://www.ticketnetwork.com/en/p/8293126",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_3GklN01oc",
@@ -230,7 +299,10 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-07-18T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293126/Slipknot-tickets-Wed-Jul-21-2027-Parc-Jean-Drapeau",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-tickets-montreal-parc-jean-drapeau-7-21-2027/event/107669317",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293126"
   },
   {
     "id": "tm-slipknot-2027-toronto-1k7zvpczgauvkjd",
@@ -245,7 +317,7 @@
     "ticketmaster_event_id": "100065380DD06703",
     "ticketmaster_url": "https://www.ticketmaster.ca/slipknot-sicest-stadium-tour-toronto-ontario-07-23-2027/event/100065380DD06703",
     "seatgeek_url": "https://seatgeek.com/slipknot-tickets/toronto-canada-rogers-stadium-toronto-2027-07-23-6-30-pm/concert/18626595",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/slipknot-tickets-toronto-rogers-stadium---toronto-7-23-2027--concerts-hard-rock/production/7619010",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/slipknot-sicest-stadium-tour-toronto-ontario-07-23-2027/event/100065380DD06703",
     "last_verified_at": "2026-10-13",
@@ -267,11 +339,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619010,
+        "url": "https://www.vividseats.com/slipknot-tickets-toronto-rogers-stadium---toronto-7-23-2027--concerts-hard-rock/production/7619010",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -310,7 +382,7 @@
     "ticketmaster_event_id": "04006537948E6BC3",
     "ticketmaster_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-chicago-illinois-07-25-2027/event/04006537948E6BC3",
     "seatgeek_url": "https://seatgeek.com/slipknot-tickets/chicago-illinois-soldier-field-2027-07-25-6-30-pm/concert/18626573",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/slipknot-tickets-chicago-soldier-field-7-25-2027/production/7618194",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-chicago-illinois-07-25-2027/event/04006537948E6BC3",
     "last_verified_at": "2026-10-13",
@@ -332,11 +404,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618194,
+        "url": "https://www.vividseats.com/slipknot-tickets-chicago-soldier-field-7-25-2027/production/7618194",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -344,6 +416,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293111",
+        "url": "https://www.ticketliquidator.com/tickets/8293111/Slipknot-tickets-Sun-Jul-25-2027-Soldier-Field",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669318",
+        "url": "https://www.stubhub.ie/slipknot-chicago-tickets-7-25-2027/event/107669318",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8293111",
+        "url": "https://www.ticketnetwork.com/en/p/8293111",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv167ZkfMPFZA26Gu7",
@@ -360,7 +453,10 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-07-22T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293111/Slipknot-tickets-Sun-Jul-25-2027-Soldier-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-chicago-tickets-7-25-2027/event/107669318",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293111"
   },
   {
     "id": "tm-slipknot-2027-hershey-vv1aezkfzgkdcrpxj",
@@ -375,7 +471,7 @@
     "ticketmaster_event_id": "02006538CE7A589C",
     "ticketmaster_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-hershey-pennsylvania-07-28-2027/event/02006538CE7A589C",
     "seatgeek_url": "https://seatgeek.com/slipknot-tickets/hershey-pennsylvania-hersheypark-stadium-2027-07-28-6-30-pm/concert/18626575",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/slipknot-tickets-hershey-hersheypark-stadium-7-28-2027/production/7618200",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-hershey-pennsylvania-07-28-2027/event/02006538CE7A589C",
     "last_verified_at": "2026-10-13",
@@ -397,11 +493,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618200,
+        "url": "https://www.vividseats.com/slipknot-tickets-hershey-hersheypark-stadium-7-28-2027/production/7618200",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -409,6 +505,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293112",
+        "url": "https://www.ticketliquidator.com/tickets/8293112/Slipknot-tickets-Wed-Jul-28-2027-Hersheypark-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670828",
+        "url": "https://www.stubhub.ie/slipknot-hershey-tickets-7-28-2027/event/107670828",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8293112",
+        "url": "https://www.ticketnetwork.com/en/p/8293112",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfzGkdCrPxj",
@@ -420,7 +537,10 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-07-25T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293112/Slipknot-tickets-Wed-Jul-28-2027-Hersheypark-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-hershey-tickets-7-28-2027/event/107670828",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293112"
   },
   {
     "id": "tm-slipknot-2027-boston-z7r9jz1aavzbi",
@@ -435,7 +555,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvzbI",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzbI",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/slipknot-tickets-boston-fenway-park-7-31-2027/production/7618248",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzbI",
     "last_verified_at": null,
@@ -457,11 +577,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618248,
+        "url": "https://www.vividseats.com/slipknot-tickets-boston-fenway-park-7-31-2027/production/7618248",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -469,11 +589,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293113",
+        "url": "https://www.ticketliquidator.com/tickets/8293113/Slipknot-tickets-Sat-Jul-31-2027-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671319",
+        "url": "https://www.stubhub.ie/slipknot-boston-tickets-7-31-2027/event/107671319",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8293113",
+        "url": "https://www.ticketnetwork.com/en/p/8293113",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzbI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293113/Slipknot-tickets-Sat-Jul-31-2027-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-boston-tickets-7-31-2027/event/107671319",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293113"
   },
   {
     "id": "tm-slipknot-2027-nashville-z7r9jz1aaeazk",
@@ -488,7 +632,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAeaZk",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaZk",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/slipknot-tickets-nashville-firstbank-stadium-8-3-2027--concerts-hard-rock/production/7619197",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaZk",
     "last_verified_at": null,
@@ -510,11 +654,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619197,
+        "url": "https://www.vividseats.com/slipknot-tickets-nashville-firstbank-stadium-8-3-2027--concerts-hard-rock/production/7619197",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -522,11 +666,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293196",
+        "url": "https://www.ticketliquidator.com/tickets/8293196/Slipknot-tickets-Tue-Aug-3-2027-FirstBank-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8293196",
+        "url": "https://www.ticketnetwork.com/en/p/8293196",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeaZk",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293196/Slipknot-tickets-Tue-Aug-3-2027-FirstBank-Stadium",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293196"
   },
   {
     "id": "tm-slipknot-2027-houston-g5diz_kx0z68q",
@@ -541,7 +701,7 @@
     "ticketmaster_event_id": "3A006538A400741D",
     "ticketmaster_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-houston-texas-08-06-2027/event/3A006538A400741D",
     "seatgeek_url": "https://seatgeek.com/slipknot-tickets/houston-texas-daikin-park-2027-08-06-6-30-pm/concert/18626578",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/slipknot-tickets-houston-daikin-park-8-6-2027/production/7618372",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-houston-texas-08-06-2027/event/3A006538A400741D",
     "last_verified_at": "2026-10-13",
@@ -563,11 +723,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618372,
+        "url": "https://www.vividseats.com/slipknot-tickets-houston-daikin-park-8-6-2027/production/7618372",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -575,6 +735,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293114",
+        "url": "https://www.ticketliquidator.com/tickets/8293114/Slipknot-tickets-Fri-Aug-6-2027-Daikin-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671320",
+        "url": "https://www.stubhub.ie/slipknot-houston-tickets-8-6-2027/event/107671320",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8293114",
+        "url": "https://www.ticketnetwork.com/en/p/8293114",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_Kx0Z68q",
@@ -586,7 +767,10 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-07-31T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293114/Slipknot-tickets-Fri-Aug-6-2027-Daikin-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-houston-tickets-8-6-2027/event/107671320",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293114"
   },
   {
     "id": "tm-slipknot-2027-commerce-city-g5vzz_kofjm9p",
@@ -601,7 +785,7 @@
     "ticketmaster_event_id": "1E006538149B75E5",
     "ticketmaster_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-commerce-city-colorado-08-09-2027/event/1E006538149B75E5",
     "seatgeek_url": "https://seatgeek.com/slipknot-tickets/commerce-city-colorado-dick-s-sporting-goods-park-2027-08-09-6-30-pm/concert/18626584",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/slipknot-tickets-commerce-city-dicks-sporting-goods-park-8-9-2027/production/7618504",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-commerce-city-colorado-08-09-2027/event/1E006538149B75E5",
     "last_verified_at": "2026-10-13",
@@ -623,11 +807,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618504,
+        "url": "https://www.vividseats.com/slipknot-tickets-commerce-city-dicks-sporting-goods-park-8-9-2027/production/7618504",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -635,6 +819,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293115",
+        "url": "https://www.ticketliquidator.com/tickets/8293115/Slipknot-tickets-Mon-Aug-9-2027-Dicks-Sporting-Goods-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8293115",
+        "url": "https://www.ticketnetwork.com/en/p/8293115",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KOfJM9P",
@@ -646,7 +844,9 @@
         "start": "2026-10-02T16:00:00Z",
         "end": "2027-08-06T04:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293115/Slipknot-tickets-Mon-Aug-9-2027-Dicks-Sporting-Goods-Park",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293115"
   },
   {
     "id": "tm-slipknot-2027-inglewood-vvg1iz_k9by2hw",
@@ -661,7 +861,7 @@
     "ticketmaster_event_id": "0A006535D8E4F6FD",
     "ticketmaster_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-inglewood-california-08-13-2027/event/0A006535D8E4F6FD",
     "seatgeek_url": "https://seatgeek.com/slipknot-tickets/inglewood-california-sofi-stadium-2027-08-13-6-30-pm/concert/18626585",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/slipknot-tickets-inglewood-sofi-stadium-8-13-2027/production/7618116",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-inglewood-california-08-13-2027/event/0A006535D8E4F6FD",
     "last_verified_at": "2026-10-13",
@@ -683,11 +883,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618116,
+        "url": "https://www.vividseats.com/slipknot-tickets-inglewood-sofi-stadium-8-13-2027/production/7618116",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -695,6 +895,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293118",
+        "url": "https://www.ticketliquidator.com/tickets/8293118/Slipknot-tickets-Fri-Aug-13-2027-SoFi-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671321",
+        "url": "https://www.stubhub.ie/slipknot-inglewood-tickets-8-13-2027/event/107671321",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8293118",
+        "url": "https://www.ticketnetwork.com/en/p/8293118",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_K9by2hW",
@@ -706,7 +927,10 @@
         "start": "2026-10-02T17:00:00Z",
         "end": "2027-08-07T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293118/Slipknot-tickets-Fri-Aug-13-2027-SoFi-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-inglewood-tickets-8-13-2027/event/107671321",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293118"
   },
   {
     "id": "tm-slipknot-2027-san-francisco-g5vyz_khsbrlp",
@@ -721,7 +945,7 @@
     "ticketmaster_event_id": "1C006536F362FAE5",
     "ticketmaster_url": "https://www.ticketmaster.com/slipknot-sicest-tour-at-golden-gate-san-francisco-california-08-15-2027/event/1C006536F362FAE5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/slipknot-tickets-san-francisco-golden-gate-park-8-15-2027/production/7618380",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/slipknot-sicest-tour-at-golden-gate-san-francisco-california-08-15-2027/event/1C006536F362FAE5",
     "last_verified_at": null,
@@ -743,11 +967,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618380,
+        "url": "https://www.vividseats.com/slipknot-tickets-san-francisco-golden-gate-park-8-15-2027/production/7618380",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -755,11 +979,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293120",
+        "url": "https://www.ticketliquidator.com/tickets/8293120/Slipknot-tickets-Sun-Aug-15-2027-Golden-Gate-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671342",
+        "url": "https://www.stubhub.ie/slipknot-san-francisco-tickets-8-15-2027/event/107671342",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8293120",
+        "url": "https://www.ticketnetwork.com/en/p/8293120",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KhSbRlP",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293120/Slipknot-tickets-Sun-Aug-15-2027-Golden-Gate-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-san-francisco-tickets-8-15-2027/event/107671342",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293120"
   },
   {
     "id": "tm-slipknot-2027-phoenix-1a_zkfggkdfoifq",
@@ -774,7 +1022,7 @@
     "ticketmaster_event_id": "19006535C882821D",
     "ticketmaster_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-phoenix-arizona-08-18-2027/event/19006535C882821D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/slipknot-tickets-phoenix-chase-field-8-18-2027/production/7618544",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-phoenix-arizona-08-18-2027/event/19006535C882821D",
     "last_verified_at": "2026-10-13",
@@ -796,11 +1044,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618544,
+        "url": "https://www.vividseats.com/slipknot-tickets-phoenix-chase-field-8-18-2027/production/7618544",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -808,6 +1056,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293122",
+        "url": "https://www.ticketliquidator.com/tickets/8293122/Slipknot-tickets-Wed-Aug-18-2027-Chase-Field",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671322",
+        "url": "https://www.stubhub.ie/slipknot-phoenix-tickets-8-18-2027/event/107671322",
+        "verified": true,
+        "last_verified_at": "2026-10-13",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8293122",
+        "url": "https://www.ticketnetwork.com/en/p/8293122",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkfgGkdFOIFq",
@@ -824,6 +1093,9 @@
         "start": "2026-10-02T17:00:00Z",
         "end": "2027-08-15T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293122/Slipknot-tickets-Wed-Aug-18-2027-Chase-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/slipknot-phoenix-tickets-8-18-2027/event/107671322",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293122"
   }
 ]

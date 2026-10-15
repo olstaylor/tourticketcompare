@@ -10,7 +10,7 @@ name: Impact marketplace provider sync
 on:
   schedule:
     # Run after Ticketmaster (02:40), SeatGeek (05:00), and Vivid Seats (05:30).
-    # A shared concurrency group queues overruns rather than racing data files.
+    # The writer helper orders overruns without dropping a pending provider.
     - cron: '0 6 * * *'   # TicketNetwork
     - cron: '30 6 * * *'  # Ticket Liquidator
     - cron: '0 7 * * *'   # StubHub International
@@ -40,15 +40,21 @@ permissions:
   # dispatching Prelaunch Validation against the pushed branch.
   actions: write
 
-concurrency:
-  group: impact-marketplace-provider-sync
-  cancel-in-progress: false
+# All three provider runs remain eligible to start. A workflow concurrency
+# group retains only one pending run and would evict the middle provider when
+# the 06:00 run overruns 07:00. The writer-lane helper orders all three by run
+# creation time before ingestion; queued runs are never dropped by a group.
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 59
+    # Reserve cumulative queue time for all three runs, even when their jobs
+    # start together: 60/150/240 minutes waiting, then 90 minutes of work.
+    # The preceding job's whole cap bounds the next run's wait; all stay
+    # below GitHub's six-hour hosted-job maximum. Manual runs use the first cap.
+    timeout-minutes: ${{ fromJSON('{"0 6 * * *":150,"30 6 * * *":240,"0 7 * * *":330}')[github.event.schedule] || 150 }}
     env:
+      WRITER_WAIT_MINUTES: ${{ fromJSON('{"0 6 * * *":60,"30 6 * * *":150,"0 7 * * *":240}')[github.event.schedule] || 60 }}
       IMPACT_CATALOG_PROXY_URL: https://tourticketcompare.com/api/impact/products
       # /api/impact/products is token-gated; without this the proxy returns 404.
       IMPACT_CATALOG_PROXY_TOKEN: ${{ secrets.DEBUG_API_TOKEN }}
@@ -81,7 +87,7 @@ jobs:
         # their merges. See scripts/wait-for-writer-lanes.mjs.
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 14
+        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes "$WRITER_WAIT_MINUTES"
 
       - uses: actions/setup-node@v5
         with:
@@ -148,8 +154,8 @@ jobs:
           PRIORITY_ARTISTS: ${{ steps.priority.outputs.artists }}
         run: |
           set -euo pipefail
-          # The runtime limit keeps the sync inside the 59-minute job, leaving room for
-          # the validation steps; the artist order rotates daily, so a run cut short
+          # The runtime limit reserves time for validation after ordering;
+          # the artist order rotates daily, so a run cut short
           # by it does not leave the same artists unchecked every night.
           args=(--provider "$PROVIDER" --max-api-calls 1200 --max-runtime-minutes 35 --delay-ms 1000)
           if [ -n "$ARTIST" ]; then args+=(--artist "$ARTIST"); fi
@@ -207,6 +213,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Open validated provider PR
+        timeout-minutes: 30
         if: steps.config.outputs.mode == 'apply' && (steps.diff.outputs.changed == 'true' || steps.diff.outputs.log_changed == 'true')
         env:
           PROVIDER: ${{ steps.config.outputs.provider }}

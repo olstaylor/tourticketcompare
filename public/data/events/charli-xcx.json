@@ -563,25 +563,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8034403",
-        "url": "https://www.ticketnetwork.com/en/p/8034403",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8034403",
-        "url": "https://www.ticketliquidator.com/tickets/8034403/Charli-XCX-tickets-Wed-Oct-14-2026-Viejas-Arena-At-Aztec-Bowl",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_GpNXMrX",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034403",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034403/Charli-XCX-tickets-Wed-Oct-14-2026-Viejas-Arena-At-Aztec-Bowl",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
     "presales": [
       {
         "name": "Charity Tickets Onsale",
@@ -606,7 +606,7 @@
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-inglewood-kia-forum-10-17-2026--concerts-pop/production/7132070",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-inglewood-california-10-17-2026/event/090064C5EF12A97C",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -614,7 +614,7 @@
         "discovery_event_id": "vvG10Z_G9R7nPH",
         "url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-inglewood-california-10-17-2026/event/090064C5EF12A97C",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-14",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -628,7 +628,7 @@
         "event_id": 7132070,
         "url": "https://www.vividseats.com/charli-xcx-tickets-inglewood-kia-forum-10-17-2026--concerts-pop/production/7132070",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -667,11 +667,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034404/Charli-XCX-tickets-Sat-Oct-17-2026-The-Kia-Forum",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-inglewood-tickets-10-17-2026/event/107325084",
     "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-12T20:00:00Z",
-        "end": "2026-10-13T19:00:00Z"
-      },
       {
         "name": "Charity Tickets Onsale",
         "start": "2026-06-12T20:00:00Z",
@@ -717,7 +712,7 @@
         "event_id": 7132072,
         "url": "https://www.vividseats.com/charli-xcx-tickets-inglewood-kia-forum-10-18-2026--concerts-pop/production/7132072",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -806,7 +801,7 @@
         "event_id": 7132074,
         "url": "https://www.vividseats.com/charli-xcx-tickets-glendale-desert-diamond-arena-10-21-2026--concerts-pop/production/7132074",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -948,7 +943,7 @@
         "event_id": 7552865,
         "url": "https://www.vividseats.com/charli-xcx-tickets-glasgow-ovo-hydro-2-15-2027--concerts-pop/production/7552865",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1025,7 +1020,7 @@
         "event_id": 7546088,
         "url": "https://www.vividseats.com/charli-xcx-tickets-manchester-co-op-live-2-17-2027--concerts-pop/production/7546088",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1102,7 +1097,7 @@
         "event_id": 7552863,
         "url": "https://www.vividseats.com/charli-xcx-tickets-london-the-o2---london-2-19-2027--concerts-pop/production/7552863",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1163,7 +1158,7 @@
         "event_id": 7577279,
         "url": "https://www.vividseats.com/charli-xcx-tickets-london-the-o2---london-2-20-2027/production/7577279",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1301,7 +1296,7 @@
         "event_id": 7132077,
         "url": "https://www.vividseats.com/charli-xcx-tickets-las-vegas-mgm-grand-garden-arena-10-23-2026--concerts-pop/production/7132077",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1339,58 +1334,5 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034408",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034408/Charli-XCX-tickets-Fri-Oct-23-2026-MGM-Grand-Garden-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-las-vegas-tickets-10-23-2026/event/107258884"
-  },
-  {
-    "id": "tm-charli-xcx-2027-amsterdam-z698xzbpz16v-igd-s",
-    "artist_slug": "charli-xcx",
-    "artist_name": "Charli xcx",
-    "event_name": "Charli xcx | Vinyl Room Upgrade (TICKET NOT INCLUDED)",
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "venue": "Vinyl Room - Ziggo Dome",
-    "datetime_iso": "2027-02-22T19:01:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "1868303873",
-    "ticketmaster_url": "https://www.ticketmaster.nl/event/charli-xcx-%7C-vinyl-room-upgrade-ticket-not-included--tickets/1868303873?language=en-us",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.nl/event/charli-xcx-%7C-vinyl-room-upgrade-ticket-not-included--tickets/1868303873?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "1868303873",
-        "discovery_event_id": "Z698xZbpZ16v-IGd-S",
-        "url": "https://www.ticketmaster.nl/event/charli-xcx-%7C-vinyl-room-upgrade-ticket-not-included--tickets/1868303873?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z698xZbpZ16v-IGd-S",
-    "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
   }
 ]

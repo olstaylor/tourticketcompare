@@ -1,0 +1,745 @@
+[
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-madrid-z698xz2qz1kvp4xag",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Movistar Arena",
+    "datetime_iso": "2027-04-08T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "65562275",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/65562275?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-madrid-movistar-arena---madrid-4-8-2027--concerts-rock/production/6900043",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/65562275?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "65562275",
+        "discovery_event_id": "Z698xZ2qZ1kvP4xag",
+        "url": "https://www.ticketmaster.es/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/65562275?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6900043,
+        "url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-madrid-movistar-arena---madrid-4-8-2027--concerts-rock/production/6900043",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7877280",
+        "url": "https://www.ticketnetwork.com/en/p/7877280",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877280",
+        "url": "https://www.ticketliquidator.com/tickets/7877280/Thirty-Seconds-To-Mars-tickets-Thu-Apr-8-2027-Movistar-Arena-Madrid",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154484",
+        "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-madrid-movistar-arena-palacio-de-los-deportes-8-4-2027/event/107154484",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kvP4xag",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877280",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877280/Thirty-Seconds-To-Mars-tickets-Thu-Apr-8-2027-Movistar-Arena-Madrid",
+    "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-madrid-movistar-arena-palacio-de-los-deportes-8-4-2027/event/107154484"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-valencia-z698xz2qz16vuf8kq4",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Valencia",
+    "country": "Spain",
+    "venue": "Roig Arena",
+    "datetime_iso": "2027-04-09T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1354406695",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1354406695?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-valencia-roig-arena-4-9-2027--concerts-rock/production/6900059",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1354406695?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1354406695",
+        "discovery_event_id": "Z698xZ2qZ16vuf8kQ4",
+        "url": "https://www.ticketmaster.es/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1354406695?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6900059,
+        "url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-valencia-roig-arena-4-9-2027--concerts-rock/production/6900059",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7877281",
+        "url": "https://www.ticketnetwork.com/en/p/7877281",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877281",
+        "url": "https://www.ticketliquidator.com/tickets/7877281/Thirty-Seconds-To-Mars-tickets-Fri-Apr-9-2027-Roig-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154485",
+        "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-valencia-roig-arena-9-4-2027/event/107154485",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vuf8kQ4",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877281",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877281/Thirty-Seconds-To-Mars-tickets-Fri-Apr-9-2027-Roig-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-valencia-roig-arena-9-4-2027/event/107154485"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-assago-zg9rmiynyzeadk",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Assago",
+    "country": "Italy",
+    "venue": "Unipol Forum",
+    "datetime_iso": "2027-04-11T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "ffzf8mag7ggv",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/thirty-seconds-to-mars-assago-11-04-2027/event/ffzf8mag7ggv",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/thirty-seconds-to-mars-assago-11-04-2027/event/ffzf8mag7ggv",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "ffzf8mag7ggv",
+        "discovery_event_id": "ZG9rmIYnyZeAdk",
+        "url": "https://www.ticketmaster.it/biglietti/thirty-seconds-to-mars-assago-11-04-2027/event/ffzf8mag7ggv",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZeAdk",
+    "timezone": "Europe/Rome",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-munich-z698xzc2z16vfvofpp",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Munich",
+    "country": "Germany",
+    "venue": "Olympiahalle",
+    "datetime_iso": "2027-04-12T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1534454956",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1534454956?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1534454956?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1534454956",
+        "discovery_event_id": "Z698xZC2Z16vfVofPp",
+        "url": "https://www.ticketmaster.de/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1534454956?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7877284",
+        "url": "https://www.ticketnetwork.com/en/p/7877284",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877284",
+        "url": "https://www.ticketliquidator.com/tickets/7877284/Thirty-Seconds-To-Mars-tickets-Mon-Apr-12-2027-Kleine-Olympiahalle-Munich",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107156408",
+        "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-munich-olympiahalle-munich-12-4-2027/event/107156408",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vfVofPp",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877284",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877284/Thirty-Seconds-To-Mars-tickets-Mon-Apr-12-2027-Kleine-Olympiahalle-Munich",
+    "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-munich-olympiahalle-munich-12-4-2027/event/107156408"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-vienna-z698xz5rz1k-suw-g",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Vienna",
+    "country": "Austria",
+    "venue": "Wiener Stadthalle - Halle D",
+    "datetime_iso": "2027-04-14T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "873372875",
+    "ticketmaster_url": "https://www.ticketmaster.at/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/873372875?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.at/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/873372875?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "873372875",
+        "discovery_event_id": "Z698xZ5rZ1k-Suw-g",
+        "url": "https://www.ticketmaster.at/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/873372875?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7877285",
+        "url": "https://www.ticketnetwork.com/en/p/7877285",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877285",
+        "url": "https://www.ticketliquidator.com/tickets/7877285/Thirty-Seconds-To-Mars-tickets-Wed-Apr-14-2027-Wiener-Stadthalle-Halle-D",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ5rZ1k-Suw-g",
+    "timezone": "Europe/Vienna",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877285",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877285/Thirty-Seconds-To-Mars-tickets-Wed-Apr-14-2027-Wiener-Stadthalle-Halle-D"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-krakow-z698xzqpz1ke8f3ad",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Krakow",
+    "country": "Poland",
+    "venue": "TAURON Arena Kraków",
+    "datetime_iso": "2027-04-15T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "90512143",
+    "ticketmaster_url": "https://www.ticketmaster.pl/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/90512143?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.pl/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/90512143?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "90512143",
+        "discovery_event_id": "Z698xZQpZ1ke8f3Ad",
+        "url": "https://www.ticketmaster.pl/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/90512143?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZQpZ1ke8f3Ad",
+    "timezone": "Europe/Warsaw",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-hannover-z698xzc2z16vqp_xfz",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Hannover",
+    "country": "Germany",
+    "venue": "ZAG Arena",
+    "datetime_iso": "2027-04-20T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1765662538",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1765662538?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1765662538?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1765662538",
+        "discovery_event_id": "Z698xZC2Z16vqP_xfz",
+        "url": "https://www.ticketmaster.de/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1765662538?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7877291",
+        "url": "https://www.ticketnetwork.com/en/p/7877291",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877291",
+        "url": "https://www.ticketliquidator.com/tickets/7877291/Thirty-Seconds-To-Mars-tickets-Tue-Apr-20-2027-ZAG-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107156422",
+        "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-hannover-zag-arena-20-4-2027/event/107156422",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vqP_xfz",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877291",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877291/Thirty-Seconds-To-Mars-tickets-Tue-Apr-20-2027-ZAG-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-hannover-zag-arena-20-4-2027/event/107156422"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-merksem-antwerpen-z698xzg2z1k-8asf4",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Merksem (Antwerpen)",
+    "country": "Belgium",
+    "venue": "Lotto Arena Antwerpen",
+    "datetime_iso": "2027-04-23T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "850171215",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/850171215",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/850171215",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "850171215",
+        "discovery_event_id": "Z698xZG2Z1k-8AsF4",
+        "url": "https://www.ticketmaster.be/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/850171215",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1k-8AsF4",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-london-1agzk3agkdevn9u",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-04-28T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006489E7D2A5CD",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-london-28-04-2027/event/35006489E7D2A5CD",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-london-the-o2---london-4-28-2027--concerts-rock/production/6899989",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-london-28-04-2027/event/35006489E7D2A5CD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006489E7D2A5CD",
+        "discovery_event_id": "1AgZk3aGkdEVn9u",
+        "url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-london-28-04-2027/event/35006489E7D2A5CD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6899989,
+        "url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-london-the-o2---london-4-28-2027--concerts-rock/production/6899989",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107158077",
+        "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-london-the-o2-arena-28-4-2027/event/107158077",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk3aGkdEVn9u",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-london-the-o2-arena-28-4-2027/event/107158077"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-manchester-1amzk3agkeyexfs",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-04-29T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006489B09E2233",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-manchester-29-04-2027/event/37006489B09E2233",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-manchester-co-op-live-4-29-2027--concerts-rock/production/6892010",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-manchester-29-04-2027/event/37006489B09E2233",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006489B09E2233",
+        "discovery_event_id": "1AMZk3aGkeYExFS",
+        "url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-manchester-29-04-2027/event/37006489B09E2233",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6892010,
+        "url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-manchester-co-op-live-4-29-2027--concerts-rock/production/6892010",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7870156",
+        "url": "https://www.ticketnetwork.com/en/p/7870156",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7870156",
+        "url": "https://www.ticketliquidator.com/tickets/7870156/Thirty-Seconds-To-Mars-tickets-Thu-Apr-29-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155347",
+        "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-manchester-co-op-live-29-4-2027/event/107155347",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZk3aGkeYExFS",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7870156",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7870156/Thirty-Seconds-To-Mars-tickets-Thu-Apr-29-2027-Co-Op-Live",
+    "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-manchester-co-op-live-29-4-2027/event/107155347"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-dublin-1abzk36gkeuawhf",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-05-01T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006487B617DF14",
+    "ticketmaster_url": "https://www.ticketmaster.ie/thirty-seconds-to-mars-presents-a-dublin-01-05-2027/event/18006487B617DF14",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/thirty-seconds-to-mars-presents-a-dublin-01-05-2027/event/18006487B617DF14",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006487B617DF14",
+        "discovery_event_id": "1AbZk36GkeUAWHf",
+        "url": "https://www.ticketmaster.ie/thirty-seconds-to-mars-presents-a-dublin-01-05-2027/event/18006487B617DF14",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7877303",
+        "url": "https://www.ticketnetwork.com/en/p/7877303",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877303",
+        "url": "https://www.ticketliquidator.com/tickets/7877303/Thirty-Seconds-To-Mars-tickets-Sat-May-1-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZk36GkeUAWHf",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877303",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877303/Thirty-Seconds-To-Mars-tickets-Sat-May-1-2027-3Arena-Dublin"
+  }
+]

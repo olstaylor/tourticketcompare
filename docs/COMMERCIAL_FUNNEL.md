@@ -209,8 +209,9 @@ Compare existing canonical pages on observed ticket-buying queries, indexing,
 joined CTA activity, upcoming exact-event coverage, verified affiliate lanes
 and sourced approved payout, keeping currencies separate. A page with relevant
 search impressions and verified dates is a demand candidate; a unique eligible
-SubId1 order match is stronger evidence of commission for its recorded source
-page. Missing matches are unknown, not zero revenue. Fix a confirmed destination,
+SubId1 match is evidence of an attributed action for its recorded source
+page. Only an approved action's sourced payout counts as earned commission;
+pending and reversed actions retain their states and do not count as earned. Missing matches are unknown, not zero revenue. Fix a confirmed destination,
 coverage or indexing problem before adding content or roster breadth. No new
 analytics store, inferred purchase rate or raw-redirect revenue forecast is
 needed for this review.

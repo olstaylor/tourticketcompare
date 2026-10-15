@@ -1606,5 +1606,257 @@
     "last_verified_at": "2026-10-12",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-12"
+  },
+  {
+    "slug": "twenty-one-pilots",
+    "name": "Twenty One Pilots",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-13",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-13"
+  },
+  {
+    "slug": "rod-stewart",
+    "name": "Rod Stewart",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-13",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-13"
+  },
+  {
+    "slug": "guns-n-roses",
+    "name": "Guns N' Roses",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-13",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-13"
+  },
+  {
+    "slug": "bring-me-the-horizon",
+    "name": "Bring Me The Horizon",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-13",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-13"
+  },
+  {
+    "slug": "leon-bridges",
+    "name": "Leon Bridges",
+    "short_description": "R&B act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-13",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-13"
+  },
+  {
+    "slug": "lionel-richie",
+    "name": "Lionel Richie",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-13",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-13"
+  },
+  {
+    "slug": "earth-wind-fire",
+    "name": "Earth, Wind & Fire",
+    "short_description": "R&B act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-14",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-14"
+  },
+  {
+    "slug": "santana",
+    "name": "Santana",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-14",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-14"
+  },
+  {
+    "slug": "simple-minds",
+    "name": "Simple Minds",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-14",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-14"
+  },
+  {
+    "slug": "thirty-seconds-to-mars",
+    "name": "Thirty Seconds to Mars",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-14",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-14"
+  },
+  {
+    "slug": "stray-kids",
+    "name": "Stray Kids",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-14",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-14"
+  },
+  {
+    "slug": "kylie-minogue",
+    "name": "Kylie Minogue",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-14",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-14"
+  },
+  {
+    "slug": "lewis-capaldi",
+    "name": "Lewis Capaldi",
+    "short_description": "Alternative act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-15",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-15"
+  },
+  {
+    "slug": "mumford-sons",
+    "name": "Mumford & Sons",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-15",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-15"
+  },
+  {
+    "slug": "hayley-williams",
+    "name": "Hayley Williams",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-15",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-15"
+  },
+  {
+    "slug": "blink-182",
+    "name": "blink-182",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-15",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-15"
+  },
+  {
+    "slug": "janet-jackson",
+    "name": "Janet Jackson",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-15",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-15"
+  },
+  {
+    "slug": "gorillaz",
+    "name": "Gorillaz",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-15",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-15"
   }
 ]

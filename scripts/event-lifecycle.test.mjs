@@ -47,6 +47,7 @@ const { deriveCityDatePrices } = await load("functions/_artist-city-prices.js");
 const { deriveOnsaleCalendar } = await load("functions/_onsale-calendar.js");
 const { deriveArtistCities } = await load("functions/_artist-cities.js");
 const eventPages = await load("functions/_event-pages.js");
+const { eventPreviousStartDate, previousStartDateFromEvent } = await load("functions/_event-reschedule.js");
 
 const { EVENT_LIFECYCLE, eventLifecycle, eventLifecycleHeld, eventPublishable, eventStatusPublishable } = policy;
 
@@ -108,7 +109,7 @@ function fixtureEvent(id, iso, extra = {}) {
 }
 
 const SCHEDULED = fixtureEvent("fixture-scheduled", "2026-09-11T01:00:00Z");
-const RESCHEDULED = fixtureEvent("fixture-rescheduled", "2026-09-12T01:00:00Z", { ticketmaster_status_code: "rescheduled" });
+const RESCHEDULED = fixtureEvent("fixture-rescheduled", "2026-09-12T01:00:00Z", { ticketmaster_status_code: "rescheduled", previous_start_date: "2026-09-04T21:00:00-04:00", organizer_names: ["Official Fixture Promoter"], end_datetime_iso: "2026-09-12T05:00:00Z" });
 const CANCELLED = fixtureEvent("fixture-cancelled", "2026-09-13T01:00:00Z", { ticketmaster_status_code: "cancelled" });
 const CANCELED = fixtureEvent("fixture-canceled", "2026-09-14T01:00:00Z", { ticketmaster_status_code: "canceled" });
 const POSTPONED = fixtureEvent("fixture-postponed", "2026-09-15T01:00:00Z", { ticketmaster_status_code: "postponed" });
@@ -123,6 +124,19 @@ const PENDING = fixtureEvent("fixture-pending", "2026-09-18T01:00:00Z", { status
 const HELD = [CANCELLED, CANCELED, POSTPONED, UNRECOGNISED, CANCELLED_PENDING];
 const LIVE = [SCHEDULED, RESCHEDULED];
 const EVENTS = [...LIVE, ...HELD, PENDING];
+
+assert(eventPreviousStartDate({ ...RESCHEDULED, previous_start_date: "" }) === "", "a first-seen rescheduled event has no invented previous date");
+assert(eventPreviousStartDate({ ...RESCHEDULED, previous_start_date: "2026-02-30" }) === "", "an impossible previous date is withheld");
+assert(eventPreviousStartDate({ ...RESCHEDULED, previous_start_date: "2026-09-05T20:00:00" }) === "", "an ambiguous previous datetime is withheld");
+assert(eventPreviousStartDate({ ...RESCHEDULED, ticketmaster_status_code: "onsale" }) === "", "a scheduled event never emits stale rescheduling history");
+assert(previousStartDateFromEvent({ datetime_iso: "2026-09-04T21:00:00", timezone: "America/New_York" }) === "2026-09-05T01:00:00.000Z", "the old local time is resolved using its own timezone");
+assert(previousStartDateFromEvent({ datetime_iso: "2026-09-04" }) === "2026-09-04", "a date-only previous date gains no invented time");
+for (const iso of ["2026-05-01T20:00+00:00", "2026-05-01T20:00:00+0000", "2026-10-19T20:30:00-07:00"]) {
+  assert(eventPreviousStartDate({ ...RESCHEDULED, previous_start_date: iso }) === iso, `supported history remains visible: ${iso}`);
+  assert(previousStartDateFromEvent({ datetime_iso: iso }) === iso, `explicit history retains its wall-date representation: ${iso}`);
+}
+assert(eventPreviousStartDate({ ...RESCHEDULED, previous_start_date: "2026-05-01T24:00:00Z" }) === "", "out-of-range hours are withheld like the data validator");
+assert(eventPreviousStartDate({ ...RESCHEDULED, previous_start_date: "20260501T20:00:00+00:00" }) === "", "Python-only ISO forms are not accepted as storage dates");
 
 // Every fixture date has a fresh cached price on every lane: a held date must
 // not show one even though the cache has it.
@@ -420,8 +434,14 @@ for (const pathname of PAGES) {
   const rescheduledNode = musicEventFor(nodes, RESCHEDULED.id);
   if (scheduledNode) {
     assert(scheduledNode.eventStatus === "https://schema.org/EventScheduled", `${pathname}: a scheduled node stays EventScheduled`);
+    assert(rescheduledNode?.organizer?.[0]?.name === "Official Fixture Promoter", `${pathname}: official organizer survives board mapping`);
+    assert(Date.parse(rescheduledNode?.endDate) === Date.parse(RESCHEDULED.end_datetime_iso), `${pathname}: official event end survives board mapping`);
+    assert(/Ends:.*12:00 AM/.test(card(html, RESCHEDULED.id)), `${pathname}: an explicit midnight end stays visible`);
+    assert(html.includes("Official Fixture Promoter"), `${pathname}: organizer is visible`);
     assert(rescheduledNode?.eventStatus === "https://schema.org/EventRescheduled", `${pathname}: the rescheduled node says EventRescheduled`);
-    assert(!("previousStartDate" in rescheduledNode), `${pathname}: no previousStartDate is invented`);
+    assert(Date.parse(rescheduledNode.previousStartDate) === Date.parse(RESCHEDULED.previous_start_date), `${pathname}: the recorded previousStartDate survives the board mapping`);
+    assert(/Previously scheduled:/.test(text(card(html, RESCHEDULED.id))), `${pathname}: the previous date is visible`);
+    assert(/Sep 4, 2026/.test(text(card(html, RESCHEDULED.id))), `${pathname}: offset-only history keeps its original local day`);
   }
   assert(!nodes.some((node) => node?.["@type"] === "MusicEvent" && node.eventStatus !== "https://schema.org/EventScheduled" && node.eventStatus !== "https://schema.org/EventRescheduled"),
     `${pathname}: no other eventStatus is emitted`);
@@ -531,7 +551,12 @@ async function out(showId, provider) {
   assert(scheduledNode?.eventStatus === "https://schema.org/EventScheduled", "a scheduled event page states EventScheduled");
   const rescheduled = await render(eventPages.eventPath(RESCHEDULED));
   const [rescheduledNode] = jsonLd(rescheduled.html).filter((node) => node?.["@type"] === "MusicEvent");
-  assert(rescheduledNode?.eventStatus === "https://schema.org/EventRescheduled" && !("previousStartDate" in rescheduledNode), "a rescheduled event page states EventRescheduled with no previousStartDate");
+  assert(rescheduledNode?.organizer?.[0]?.name === "Official Fixture Promoter" && rescheduled.html.includes("Official Fixture Promoter"), "event page states visible official organizer");
+  assert(/Ends<\/dt><dd>[^<]*12:00 AM/.test(rescheduled.html), "event details retain the explicit midnight end time");
+  assert(Date.parse(rescheduledNode?.endDate) === Date.parse(RESCHEDULED.end_datetime_iso), "event page states official event end");
+  assert(rescheduledNode?.eventStatus === "https://schema.org/EventRescheduled" && Date.parse(rescheduledNode.previousStartDate) === Date.parse(RESCHEDULED.previous_start_date), "a rescheduled event page states its recorded previousStartDate");
+  assert(/Previously scheduled/.test(text(rescheduled.html)), "the event page shows the recorded previous date");
+  assert(/Sep 4, 2026/.test(text(rescheduled.html)), "the event page preserves the offset-only original day");
 }
 
 console.log(`event-lifecycle: ${passed} checks passed`);

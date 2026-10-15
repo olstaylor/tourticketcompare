@@ -1,0 +1,71 @@
+[
+  {
+    "id": "tm-twenty-one-pilots-2026-columbus-vvg1fz_1uqt9_r",
+    "artist_slug": "twenty-one-pilots",
+    "artist_name": "Twenty One Pilots",
+    "event_name": "Twenty One Pilots - Ohio Stadium",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Ohio Stadium",
+    "datetime_iso": "2026-10-17T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050064AD9DFD765E",
+    "ticketmaster_url": "https://www.ticketmaster.com/twenty-one-pilots-ohio-stadium-columbus-ohio-10-17-2026/event/050064AD9DFD765E",
+    "seatgeek_url": "https://seatgeek.com/twenty-one-pilots-tickets/columbus-ohio-ohio-stadium-2026-10-17-6-pm/concert/18243148",
+    "vividseats_url": "https://www.vividseats.com/twenty-one-pilots-tickets-columbus-ohio-stadium-10-17-2026--concerts-rock/production/7034787",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/twenty-one-pilots-ohio-stadium-columbus-ohio-10-17-2026/event/050064AD9DFD765E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050064AD9DFD765E",
+        "discovery_event_id": "vvG1fZ_1UqT9_r",
+        "url": "https://www.ticketmaster.com/twenty-one-pilots-ohio-stadium-columbus-ohio-10-17-2026/event/050064AD9DFD765E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7034787,
+        "url": "https://www.vividseats.com/twenty-one-pilots-tickets-columbus-ohio-stadium-10-17-2026--concerts-rock/production/7034787",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7965455",
+        "url": "https://www.ticketliquidator.com/tickets/7965455/Twenty-One-Pilots-tickets-Sat-Oct-17-2026-Ohio-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-14",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7965455",
+        "url": "https://www.ticketnetwork.com/en/p/7965455",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1fZ_1UqT9_r",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7965455/Twenty-One-Pilots-tickets-Sat-Oct-17-2026-Ohio-Stadium",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7965455"
+  }
+]

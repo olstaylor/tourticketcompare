@@ -154,17 +154,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107185107",
-        "url": "https://www.stubhub.ie/the-smashing-pumpkins-chicago-tickets-10-14-2026/event/107185107",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1DaaHeF",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-chicago-tickets-10-14-2026/event/107185107"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-the-smashing-pumpkins-2026-charlotte-g5evz_1dw8jew",
@@ -372,7 +372,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-smashing-pumpkins-the-rats-in-indianapolis-indiana-10-20-2026/event/050064AFB7DAC453",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -407,14 +407,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_1XMUioK",
     "timezone": "America/Indiana/Indianapolis",
-    "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-21T14:00:00Z",
-        "end": "2026-10-14T02:00:00Z"
-      }
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-the-smashing-pumpkins-2026-nashville-g5viz_1bbgqqs",
@@ -1199,7 +1192,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-smashing-pumpkins-the-rats-in-inglewood-california-11-12-2026/event/090064AFCB095819",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1244,16 +1237,6 @@
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-inglewood-tickets-11-12-2026/event/107185110",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-05-21T17:00:00Z",
-        "end": "2026-10-14T05:00:00Z"
-      },
-      {
-        "name": "Verizon Access Select Seats",
-        "start": "2026-05-21T17:00:00Z",
-        "end": "2026-10-14T05:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-05-21T17:00:00Z",

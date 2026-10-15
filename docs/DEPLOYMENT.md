@@ -144,9 +144,12 @@ Missing credentials must cause a safe no-op or explicit failure, never guessed d
 
 ### Repository write capability
 
-No workflow pushes to `main`. Every write-capable lane publishes the same way:
-commit to a branch, push it, open a PR, earn the `test-mvp` check on that PR
-head, squash-merge. **Widening what any of these may write is an owner
+Every write-capable lane commits to a branch, opens a PR and earns `test-mvp`
+on that exact head after in-job validation. They squash-merge except the
+verification-date writer: it integrates that validated PR head with a protected
+non-forced fast-forward, whose sole parent is the audited commit. A main change
+rejects the integration atomically; GitHub must confirm the PR as merged.
+No unvalidated commit is pushed to main. **Widening what any of these may write is an owner
 decision, not a maintenance change.**
 
 How the check is earned matters. A PR opened with the **Actions token** gets no
@@ -170,26 +173,21 @@ dispatched one. The dispatch is kept regardless, because it is what binds a
 verdict to the exact SHA the merge is bound to; the natural run is corroboration,
 never a substitute for it or for the in-job suite.
 
-**Branch enforcement is currently off, and the publish path does not depend on
-it.** The owner-applied ruleset that made `test-mvp` a required check on
-2026-09-11 is set to `disabled` as of 2026-09-12 11:05 BST, because as
-configured it refused every automated merge even with `test-mvp` green on the
-PR head (see the incident in [OPERATIONS.md](OPERATIONS.md)). Nothing in the
-lanes changed with it: the real gate has always been `npm run test:mvp` running
-in-job on exactly the content being published, and the dispatch-and-wait step
-above still runs and still blocks the merge on red. What is missing while
-enforcement is off is the outside guard on **human** merges — a red PR can be
-merged by hand again, which is what caused the 2026-09-11 red-`main` incident.
+**Branch enforcement is active.** A connected GitHub read on 2026-10-14
+confirmed ruleset `20115269` is active for `main`, with deletion and non-fast-forward
+protections and required `test-mvp` bound to GitHub Actions (`integration_id:
+15368`). Its required-check policy is not strict, it has no `pull_request` rule,
+and it has no bypass actors. This supersedes the disabled/restoration snapshot
+from 2026-09-12. The in-job suite and exact-head check remain mandatory.
 
-**Restoring it does not need a bypass actor** (this paragraph said it did until
-2026-09-21; that recommendation came from the 2026-09-11 incident and was
-superseded by the App identity rollout on 2026-09-16). A bypass actor was only
-ever needed because the automation could not produce a `test-mvp` check on its
-own PR head. It now does — see the four App-authored PRs above — so the lanes
-can satisfy the same rule as everyone else. The remaining step is the owner
-activating ruleset `20115269` with no bypass actor and proving both directions,
-per `docs/OPERATIONS.md` → Automation App identity rollout. Until that happens
-a human can still merge a red head.
+The verification-date transport relies on that current configuration: GitHub
+must accept a protected fast-forward of the already validated PR head. Adding
+“Require a pull request before merging” may reject a direct ref update even
+when the head belongs to an open PR. Such a rejection withholds publication;
+there is no bypass, force push, protection edit or racy squash-merge fallback.
+That future configuration needs a supported atomic PR integration mechanism
+before verification-date publishing can be considered recovered. A live
+scheduled audit must still prove the current transport and GitHub PR confirmation.
 
 Write-capable lanes and what each may put on `main`:
 

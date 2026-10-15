@@ -93,6 +93,173 @@ lane. Ordinary event expiry or a shortage of strong topics produces an explicit
 empty shortlist. There are no AI API calls, provider lookups, D1 reads or new paid
 services. Test with `npm run blog:ideas:test` (also in `test:mvp`).
 
+## Claude article drafts (manual pilot; weekly mode disabled)
+
+`blog-draft.yml` adds a separate **editorial PR stage** to the existing weekly
+opportunities issue; discovery and deployment are unchanged. It never approves,
+marks ready or merges an editorial PR. Every generated article explicitly has
+`status: draft`, even after automated review passes. A human must decide whether
+it is useful and substantiated before publication.
+
+### Integration and budget
+
+The [official Claude Code Action v1](https://github.com/anthropics/claude-code-action)
+and its [current configuration](https://github.com/anthropics/claude-code-action/blob/main/docs/usage.md)
+were reviewed for this implementation. It supports API-key authentication,
+automation prompts and bounded turns, but its general tool-using agent is more
+capability than this pilot needs. Instead, the script calls Anthropic's supported
+Messages API directly (`POST https://api.anthropic.com/v1/messages`, version
+`2023-06-01`) using Node's built-in fetch. No Claude CLI login, Claude GitHub App,
+new npm dependency or additional research subscription is required.
+
+The fixed model is `claude-haiku-4-5-20251001`. At most **two requests** are made:
+one original draft (4,500 output tokens maximum), then a separate evidence review
+(1,500 maximum). Each input is limited to 48,000 UTF-8 bytes including system
+instructions. A conservative byte-based token estimate plus framing reserves the
+request cost before sending; the combined reservation must fit **US$0.15 per
+attempt**, using Haiku 4.5's US$1/M input and US$5/M output list rates. Actual
+token usage and estimated dollars are reported in the artifact and successful
+PR. This is an application estimate, not a provider billing cap; check current
+Anthropic pricing and set a separate small workspace spend limit in Anthropic.
+Typical costs should be cents; at the reservation limit five weekly attempts
+would be US$0.75. GitHub Actions usage is separate.
+
+There are no API retries, fallback models, tools, web search or paid research
+services. Requests time out after 90 seconds and the job after 50 minutes; the
+longer job budget covers the existing full-repository test and schema renderers.
+Unavailable models/credentials, rate limits, malformed/truncated output,
+unsupported claims or failed tests stop the attempt. A live attempt reserves a
+unique `automation/blog-draft-YYYY-MM-DD` branch **before** model spending. The
+reservation is retained on failure, including ambiguous request/PR timeouts, so
+rerunning cannot spend again that UTC week. Do not delete a reservation to retry
+without inspecting its run, branch, usage and any existing PR. An open editorial
+PR also blocks new drafting, including human PRs detected by changed Markdown
+filenames rather than titles; an automated PR created within the last seven days blocks it
+even if subsequently closed or merged. Global workflow concurrency prevents
+overlapping jobs. Historical PRs suppress repeat artist buying topics.
+
+### Configure and test manually
+
+After the implementation PR is reviewed and merged:
+
+1. Add repository Actions secret **`ANTHROPIC_API_KEY`**, using an Anthropic
+   Console API key from the workspace whose credits/budget you want to use.
+   There is no extra Anthropic API secret parameter. Never paste the key into
+   issue text, article files, workflow inputs or logs. A local Claude Code login
+   does not authenticate this job.
+2. Keep the existing **`TICKETMASTER_API_KEY`** Actions secret for current
+   exact-event checks through the official Discovery API. With no usable key or
+   Discovery ID, evidence explicitly says **not checked**; a provider request
+   failure or identity mismatch aborts before drafting. No source crawling is
+   performed. An API recheck is independent of the stored repository snapshot,
+   **not corroboration by another publisher**, and never proves inventory.
+3. Allow GitHub Actions to create pull requests. The job uses the existing
+   `automation-identity` action and optional Automation App configuration, or
+   `GITHUB_TOKEN`. Its permissions are contents/write, PRs/write, issues/read
+   and actions/write. Actions/write only dispatches the existing Prelaunch
+   Validation workflow because a `GITHUB_TOKEN`-created PR does not trigger PR
+   CI automatically. No merge endpoint is used.
+4. Run **Blog article draft** with `mode: preview`, issue **1538**. Preview reads
+   the current managed issue and current trusted `main`, selects at most one
+   candidate and makes no Claude calls. When `TICKETMASTER_API_KEY` is configured,
+   preview also performs the same free current-event checks as live mode, without
+   reserving the weekly slot. Mismatch errors identify the stored event and fields
+   (not raw API response values). Fix or investigate those discrepancies before
+   attempting live mode. Preview can run even while a failed live reservation exists.
+   This rolling issue must describe the current
+   UTC week; rerun discovery if it is stale. The workflow ignores a dispatch's
+   selected branch and always checks out `main`.
+5. Run `mode: mock` for a repeatable historical integration test of #1538. This
+   uses frozen committed evidence and hand-written model responses dated
+   2026-10-12 in a disposable copy. **No Claude generation, external fact-check,
+   GitHub article PR or publication is proven by this test.** Local equivalent:
+   `BLOG_DRAFT_MODE=mock npm run blog:draft`. The artifact includes
+   `MOCK-article.md`, evidence, review and test results.
+6. Run `mode: live`, issue **1538**, for the first real test while the managed
+   recommendations are current. Inspect `blog-draft-report` and the resulting
+   draft PR. A real successful run is needed before treating the model output
+   quality, account/model access and end-to-end GitHub authentication as proven.
+
+The historical #1538 mocked test selects a Greta Van Fleet date-and-ticket-options
+guide for the future 2027 shows, rather than repeating the October presale
+windows. Mico lacks sufficient comparable routes; the Malcolm Todd nights have
+too little search runway; existing Metallica buying copy suppresses that topic.
+Selection recomputes evidence using the existing discovery library and intersects
+it with the current issue history. Issue prose is never model instructions.
+The discovery score is not a demand or revenue signal. Buying guides need at
+least three independently checked comparison dates surviving a 60-day runway
+and three cities; night-choice articles need at least three dates surviving
+42 days. These include time for review and search discovery. Weak or empty
+shortlists produce no article. Search demand and affiliate operation still need
+editorial judgement; no monthly-profit estimate is inferred.
+
+### Evidence and human approval
+
+The model receives only selected repository evidence, existing overlapping copy,
+approved internal routes and the publishing rules. Fresh Ticketmaster API checks,
+when performed, compare artist, exact event identity/URL, venue, city, local date,
+timezone and event status. Public-sale/presale timestamps are kept as stored
+evidence, not independently verified schedule claims. The initial pilot omits
+all sale-window claims, codes, eligibility, package/venue rules, prices and
+unsupported numeric assertions to avoid expired or speculative buying promises.
+
+Deterministic checks reject invented citations/links/dates, unsafe Markdown,
+duplicate topics, copied paragraphs, prohibited claims and attempts to publish.
+A second Claude request reviews every material assertion against the evidence;
+its claim audit may cite only supplied URLs and cannot invent an external check.
+It is fallible, including omissions from a claim ledger or a false supported
+verdict. Natural-language factual accuracy, originality, useful differentiation,
+keyword overlap and current ticket-route operation remain **human checks**.
+Reports retain the evidence snapshot, captured/check times, Markdown/evidence
+hashes, usage and claim review. The PR lists citations, commercial purpose,
+original recommendation, tests and outstanding editorial checks. Draft content
+cannot render, be indexed or appear in sitemap/RSS/llms.txt.
+
+On the article PR branch, after checking and editing the article:
+
+```bash
+# Human: set status: published and the actual publication date in the Markdown.
+npm run blog:draft -- --prepare-approved greta-van-fleet-ticket-options
+npm run blog:check
+npm run test:mvp
+npm run schema:validate
+git diff --check
+# Commit the reviewed Markdown and generated outputs on this PR branch.
+```
+
+The preparation command reuses `guides:build`, `blog:build`,
+`content:provenance`, the final `guides:build`, and targeted `og:build`. Include
+the new `public/og/blog-<slug>.png` and `functions/_og-cards.generated.js` when
+publishing. Drafts have no page and need no social asset. Mark the PR ready only
+after the generated outputs and normal CI pass, then merge it yourself.
+Cloudflare Pages' existing `main` deployment serves the committed compiled JSON;
+`content-build.yml` remains the rebuild mechanism for Markdown merges. Including
+generated outputs in the reviewed PR makes publication independent of a later
+bot rebuild. No second deployment pipeline has been added.
+
+The automated publication test simulates human approval in a disposable copy:
+a draft returns 404 and is absent from discovery outputs; the published compiled
+article returns 200 with self-canonical, `index,follow`, BlogPosting, sitemap,
+RSS, llms.txt and a generated OG card. This verifies the repository publication
+contract, **not an actual Cloudflare deployment**.
+
+### Enable weekly drafting only after a real manual test
+
+Both repository Actions variables must explicitly equal `true`:
+
+- **`BLOG_DRAFT_LIVE_PROVEN`**: owner confirms a real manual live draft PR was
+  created and its quality/evidence/authentication were reviewed.
+- **`BLOG_DRAFT_ENABLED`**: owner opts into weekly drafting. Unset or `false`
+  disables it. Both variables are left unset by this implementation.
+
+Optionally set **`BLOG_IDEAS_ISSUE`** to the managed issue number (default 1538).
+Automatic mode runs only after the existing **Weekly blog opportunities** workflow
+succeeds on upstream `main`, first run attempt only. It does not consume artifacts
+or execute code from the triggering run. Set `BLOG_DRAFT_ENABLED=false` to stop
+automatic drafting. Enabling it authorises at most one new draft PR per week,
+not article approval, merge or unattended publication. Some weeks intentionally
+produce nothing, and an outstanding editorial PR pauses the next week.
+
 ## Writing a post
 
 ### Front matter

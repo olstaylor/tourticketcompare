@@ -136,9 +136,12 @@ entry for the old path. Authoring reference: [docs/BLOG.md](docs/BLOG.md).
 
 ### Start here: pick a lane
 
-Measured on a clean checkout — match the lane to what you changed rather than
-reaching for the full suite. CI runs `test:mvp` on every PR anyway, so a local
-run exists to catch a failure early, not to prove the branch.
+Match the lane to what you changed rather than reaching for the full suite.
+The short timings below are historical estimates, not budgets: full-site render
+audits grow with the dataset, and a full run can take 20+ minutes. CI runs
+`test:mvp` on every PR anyway, so a local run exists to catch a failure early,
+not to duplicate CI. Follow the proportional-validation rules in
+[CLAUDE.md](CLAUDE.md#validation).
 
 | Lane | Time | Use when |
 | --- | --- | --- |
@@ -147,7 +150,16 @@ run exists to catch a failure early, not to prove the branch.
 | `npm run test:routes` | ~20s | touched routing, route metadata or internal links |
 | `npm run test:quick` | ~60s | touched several areas, or unsure |
 | `npm run test:units` | ~20s | changed a script that has a `*:self-test` |
-| `npm run test:mvp` | ~75s | **required** for automation, provider-sync, redirect or affiliate changes |
+| `npm run test:mvp` | variable; 20+ minutes possible | **required locally** for automation code, provider-sync code, redirect or affiliate logic changes |
+
+For verified event/provider data only, run production event validation,
+partition validation, `test:providers`, and a field/file scope guard, then rely
+on the required full CI run for the final head. For documentation/instructions
+only, run `docs:check` and `git diff --check`. Neither case calls for a duplicate
+local full-site suite. Automated writers still require their full in-job gates.
+Reuse passing checks for an unchanged head; rerun affected checks after relevant
+changes or failures. Prefer a blocking CI watch to frequent model-driven polls
+and repeated unchanged updates.
 
 All three lanes are read from `scripts/test-manifest.mjs`, which lists every
 step once with the lane it belongs to. `test:mvp` runs the whole list;

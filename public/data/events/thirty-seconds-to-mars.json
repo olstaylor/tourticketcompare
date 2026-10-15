@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877280",
+        "url": "https://www.ticketliquidator.com/tickets/7877280/Thirty-Seconds-To-Mars-tickets-Thu-Apr-8-2027-Movistar-Arena-Madrid",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kvP4xag",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877280"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877280",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877280/Thirty-Seconds-To-Mars-tickets-Thu-Apr-8-2027-Movistar-Arena-Madrid"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-valencia-z698xz2qz16vuf8kq4",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877281",
+        "url": "https://www.ticketliquidator.com/tickets/7877281/Thirty-Seconds-To-Mars-tickets-Fri-Apr-9-2027-Roig-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vuf8kQ4",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877281"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877281",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877281/Thirty-Seconds-To-Mars-tickets-Fri-Apr-9-2027-Roig-Arena"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-assago-zg9rmiynyzeadk",
@@ -228,12 +244,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877284",
+        "url": "https://www.ticketliquidator.com/tickets/7877284/Thirty-Seconds-To-Mars-tickets-Mon-Apr-12-2027-Kleine-Olympiahalle-Munich",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vfVofPp",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877284"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877284",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877284/Thirty-Seconds-To-Mars-tickets-Mon-Apr-12-2027-Kleine-Olympiahalle-Munich"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-vienna-z698xz5rz1k-suw-g",
@@ -289,12 +313,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877285",
+        "url": "https://www.ticketliquidator.com/tickets/7877285/Thirty-Seconds-To-Mars-tickets-Wed-Apr-14-2027-Wiener-Stadthalle-Halle-D",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ5rZ1k-Suw-g",
     "timezone": "Europe/Vienna",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877285"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877285",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877285/Thirty-Seconds-To-Mars-tickets-Wed-Apr-14-2027-Wiener-Stadthalle-Halle-D"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-krakow-z698xzqpz1ke8f3ad",
@@ -403,12 +435,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877291",
+        "url": "https://www.ticketliquidator.com/tickets/7877291/Thirty-Seconds-To-Mars-tickets-Tue-Apr-20-2027-ZAG-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vqP_xfz",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877291"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877291",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877291/Thirty-Seconds-To-Mars-tickets-Tue-Apr-20-2027-ZAG-Arena"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-merksem-antwerpen-z698xzg2z1k-8asf4",
@@ -570,12 +610,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7870156",
+        "url": "https://www.ticketliquidator.com/tickets/7870156/Thirty-Seconds-To-Mars-tickets-Thu-Apr-29-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk3aGkeYExFS",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7870156"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7870156",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7870156/Thirty-Seconds-To-Mars-tickets-Thu-Apr-29-2027-Co-Op-Live"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-dublin-1abzk36gkeuawhf",
@@ -631,11 +679,19 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877303",
+        "url": "https://www.ticketliquidator.com/tickets/7877303/Thirty-Seconds-To-Mars-tickets-Sat-May-1-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AbZk36GkeUAWHf",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877303"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877303",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877303/Thirty-Seconds-To-Mars-tickets-Sat-May-1-2027-3Arena-Dublin"
   }
 ]

@@ -530,12 +530,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8196638",
+        "url": "https://www.ticketliquidator.com/tickets/8196638/Earth-Wind-and-Fire-tickets-Fri-Dec-11-2026-Hard-Rock-Live-At-Etess-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfAGkd-8Nc-",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8196638"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8196638",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8196638/Earth-Wind-and-Fire-tickets-Fri-Dec-11-2026-Hard-Rock-Live-At-Etess-Arena"
   },
   {
     "id": "tm-earth-wind-fire-2026-atlantic-city-vv1aezkfagkd-okcm",
@@ -591,12 +599,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8196639",
+        "url": "https://www.ticketliquidator.com/tickets/8196639/Earth-Wind-and-Fire-tickets-Sat-Dec-12-2026-Hard-Rock-Live-At-Etess-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfAGkd-oKcm",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8196639"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8196639",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8196639/Earth-Wind-and-Fire-tickets-Sat-Dec-12-2026-Hard-Rock-Live-At-Etess-Arena"
   },
   {
     "id": "tm-earth-wind-fire-2027-thackerville-z7r9jz1aazwqd",
@@ -766,12 +782,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307212",
+        "url": "https://www.ticketliquidator.com/tickets/8307212/Earth-Wind-and-Fire-tickets-Sat-Apr-17-2027-Brandon-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KUEhuTO",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307212"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307212",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307212/Earth-Wind-and-Fire-tickets-Sat-Apr-17-2027-Brandon-Amphitheater"
   },
   {
     "id": "tm-earth-wind-fire-2027-southaven-g5viz_f7otpyl",
@@ -880,12 +904,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8310384",
+        "url": "https://www.ticketliquidator.com/tickets/8310384/Earth-Wind-and-Fire-tickets-Wed-Apr-21-2027-The-Orion-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeb18",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310384"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310384",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310384/Earth-Wind-and-Fire-tickets-Wed-Apr-21-2027-The-Orion-Amphitheater"
   },
   {
     "id": "tm-earth-wind-fire-2027-atlanta-vvg1zz_33xgiy_",
@@ -941,12 +973,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307214",
+        "url": "https://www.ticketliquidator.com/tickets/8307214/Earth-Wind-and-Fire-tickets-Fri-Apr-23-2027-Synovus-Bank-Amphitheater-at-Chastain-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_33XGiy_",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307214"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307214",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307214/Earth-Wind-and-Fire-tickets-Fri-Apr-23-2027-Synovus-Bank-Amphitheater-at-Chastain-Park"
   },
   {
     "id": "tm-earth-wind-fire-2027-savannah-vvg1zz_3cl5hyq",
@@ -1002,12 +1042,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307215",
+        "url": "https://www.ticketliquidator.com/tickets/8307215/Earth-Wind-and-Fire-tickets-Sat-Apr-24-2027-Enmarket-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3Cl5hYq",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307215"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307215",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307215/Earth-Wind-and-Fire-tickets-Sat-Apr-24-2027-Enmarket-Arena"
   },
   {
     "id": "tm-earth-wind-fire-2027-columbia-g5evz_kl2875x",
@@ -1063,12 +1111,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307216",
+        "url": "https://www.ticketliquidator.com/tickets/8307216/Earth-Wind-and-Fire-tickets-Tue-Apr-27-2027-Township-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KL2875X",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307216"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307216",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307216/Earth-Wind-and-Fire-tickets-Tue-Apr-27-2027-Township-Auditorium"
   },
   {
     "id": "tm-earth-wind-fire-2027-knoxville-g5viz_35urusm",
@@ -1124,12 +1180,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307217",
+        "url": "https://www.ticketliquidator.com/tickets/8307217/Earth-Wind-and-Fire-tickets-Wed-Apr-28-2027-Tennessee-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_35uruSM",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307217"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307217",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307217/Earth-Wind-and-Fire-tickets-Wed-Apr-28-2027-Tennessee-Theatre"
   },
   {
     "id": "tm-earth-wind-fire-2027-charlotte-g5evz_kmaoltm",
@@ -1185,12 +1249,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307218",
+        "url": "https://www.ticketliquidator.com/tickets/8307218/Earth-Wind-and-Fire-tickets-Fri-Apr-30-2027-Skyla-Credit-Union-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KMAoLtM",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307218"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307218",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307218/Earth-Wind-and-Fire-tickets-Fri-Apr-30-2027-Skyla-Credit-Union-Amphitheatre"
   },
   {
     "id": "tm-earth-wind-fire-2027-durham-g5evz_f5p7r9-",

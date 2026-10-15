@@ -2586,18 +2586,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7695886",
-        "url": "https://www.ticketliquidator.com/tickets/7695886/Harry-Styles-tickets-Wed-Oct-14-2026-Madison-Square-Garden",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_dfAMb5J",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-14-2026/event/107085164",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695886/Harry-Styles-tickets-Wed-Oct-14-2026-Madison-Square-Garden"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505ee82f4",
@@ -17659,11 +17659,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7668648",
-        "url": "https://www.ticketliquidator.com/tickets/7668648/Bruno-Mars-tickets-Wed-Oct-14-2026-BC-Place-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107071108",
@@ -17678,7 +17678,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "16v7ZbyrvG7DKHM",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668648/Bruno-Mars-tickets-Wed-Oct-14-2026-BC-Place-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-vancouver-bc-place-stadium-10-14-2026/event/107071108"
   },
   {
@@ -23967,18 +23967,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8034403",
-        "url": "https://www.ticketliquidator.com/tickets/8034403/Charli-XCX-tickets-Wed-Oct-14-2026-Viejas-Arena-At-Aztec-Bowl",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_GpNXMrX",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034403/Charli-XCX-tickets-Wed-Oct-14-2026-Viejas-Arena-At-Aztec-Bowl",
+    "ticketliquidator_url": "",
     "presales": [
       {
         "name": "Charity Tickets Onsale",
@@ -38082,11 +38082,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7874855",
-        "url": "https://www.ticketliquidator.com/tickets/7874855/sombr-tickets-Wed-Oct-14-2026-Desert-Diamond-Arena",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107155469",
@@ -38100,7 +38100,7 @@
     "status": "on-sale",
     "timezone": "America/Phoenix",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874855/sombr-tickets-Wed-Oct-14-2026-Desert-Diamond-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-glendale-tickets-10-14-2026/event/107155469"
   },
   {
@@ -50387,18 +50387,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7676524",
-        "url": "https://www.ticketliquidator.com/tickets/7676524/Five-Finger-Death-Punch-tickets-Wed-Oct-14-2026-Coastal-Credit-Union-Music-Park-at-Walnut-Creek",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_eJP-tDn",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676524/Five-Finger-Death-Punch-tickets-Wed-Oct-14-2026-Coastal-Credit-Union-Music-Park-at-Walnut-Creek"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-five-finger-death-punch-2026-charlotte-g5evz_eqi_eoi",
@@ -52399,11 +52399,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7976483",
-        "url": "https://www.ticketliquidator.com/tickets/7976483/Don-Omar-tickets-Wed-Oct-14-2026-Spectrum-Center",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107185218",
@@ -52417,7 +52417,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976483/Don-Omar-tickets-Wed-Oct-14-2026-Spectrum-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-charlotte-tickets-10-14-2026/event/107185218"
   },
   {
@@ -86032,11 +86032,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8042269",
-        "url": "https://www.ticketliquidator.com/tickets/8042269/Sylvan-Esso-tickets-Wed-Oct-14-2026-Brooklyn-Paramount",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107452575",
@@ -86056,7 +86056,7 @@
     "ticketmaster_discovery_event_id": "k7vGF_Gpzpfnb",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042269/Sylvan-Esso-tickets-Wed-Oct-14-2026-Brooklyn-Paramount",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/sylvan-esso-brooklyn-tickets-10-14-2026/event/107452575",
     "ticketnetwork_url": ""
   },
@@ -143840,6 +143840,13 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284326",
+        "url": "https://www.ticketliquidator.com/tickets/8284326/Haiden-Henderson-tickets-Thu-Apr-22-2027-Brooklyn-Bowl-Philadelphia",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16OvPGt4oZ75ua7",
@@ -143852,7 +143859,8 @@
         "end": "2027-04-16T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284326"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284326",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284326/Haiden-Henderson-tickets-Thu-Apr-22-2027-Brooklyn-Bowl-Philadelphia"
   },
   {
     "id": "tm-haiden-henderson-2027-new-york-k7vgf_k9pms1b",
@@ -157070,11 +157078,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7906846",
-        "url": "https://www.ticketliquidator.com/tickets/7906846/The-Red-Clay-Strays-tickets-Wed-Oct-14-2026-Kia-Center",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_FGkVF8_5e",
@@ -157082,7 +157090,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/the-red-clay-strays-orlando-tickets-10-14-2026/event/107212078",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7906846/The-Red-Clay-Strays-tickets-Wed-Oct-14-2026-Kia-Center"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-the-red-clay-strays-2026-savannah-vvg1zz_fxgmnus",
@@ -180560,18 +180568,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7718205",
-        "url": "https://www.ticketliquidator.com/tickets/7718205/Staind-tickets-Wed-Oct-14-2026-First-Financial-Credit-Union-Amphitheater",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_dSirnEj",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718205/Staind-tickets-Wed-Oct-14-2026-First-Financial-Credit-Union-Amphitheater"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-staind-2026-tulsa-1aezz_dgkvarp7d",
@@ -186012,11 +186020,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7856049",
-        "url": "https://www.ticketliquidator.com/tickets/7856049/Warren-Zeiders-tickets-Wed-Oct-14-2026-Manchester-Academy-1",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107018107",
@@ -186030,7 +186038,7 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7856049/Warren-Zeiders-tickets-Wed-Oct-14-2026-Manchester-Academy-1",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-manchester-manchester-academy-14-10-2026/event/107018107"
   },
   {
@@ -226196,18 +226204,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8063447",
-        "url": "https://www.ticketliquidator.com/tickets/8063447/Rod-Wave-tickets-Wed-Oct-14-2026-Bridgestone-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_u63PWEP",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8063447/Rod-Wave-tickets-Wed-Oct-14-2026-Bridgestone-Arena"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-rod-wave-2026-washington-17a8v0g6uelkuww",
@@ -232799,10 +232807,10 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8301800",
-        "url": "https://www.ticketliquidator.com/tickets/8301800/Mei-Semones-tickets-Fri-Mar-5-2027-Union-Transfer",
+        "event_id": "8297660",
+        "url": "https://www.ticketliquidator.com/tickets/8297660/Mei-Semones-tickets-Fri-Mar-5-2027-Union-Transfer",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-15",
         "availability_status": "listed"
       }
     },
@@ -232810,7 +232818,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297660",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301800/Mei-Semones-tickets-Fri-Mar-5-2027-Union-Transfer"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297660/Mei-Semones-tickets-Fri-Mar-5-2027-Union-Transfer"
   },
   {
     "id": "tm-mei-semones-2027-new-york-z7r9jz1aaebpe",
@@ -247711,12 +247719,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8196638",
+        "url": "https://www.ticketliquidator.com/tickets/8196638/Earth-Wind-and-Fire-tickets-Fri-Dec-11-2026-Hard-Rock-Live-At-Etess-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfAGkd-8Nc-",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8196638"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8196638",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8196638/Earth-Wind-and-Fire-tickets-Fri-Dec-11-2026-Hard-Rock-Live-At-Etess-Arena"
   },
   {
     "id": "tm-earth-wind-fire-2026-atlantic-city-vv1aezkfagkd-okcm",
@@ -247772,12 +247788,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8196639",
+        "url": "https://www.ticketliquidator.com/tickets/8196639/Earth-Wind-and-Fire-tickets-Sat-Dec-12-2026-Hard-Rock-Live-At-Etess-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfAGkd-oKcm",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8196639"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8196639",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8196639/Earth-Wind-and-Fire-tickets-Sat-Dec-12-2026-Hard-Rock-Live-At-Etess-Arena"
   },
   {
     "id": "tm-earth-wind-fire-2027-thackerville-z7r9jz1aazwqd",
@@ -247947,12 +247971,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307212",
+        "url": "https://www.ticketliquidator.com/tickets/8307212/Earth-Wind-and-Fire-tickets-Sat-Apr-17-2027-Brandon-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KUEhuTO",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307212"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307212",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307212/Earth-Wind-and-Fire-tickets-Sat-Apr-17-2027-Brandon-Amphitheater"
   },
   {
     "id": "tm-earth-wind-fire-2027-southaven-g5viz_f7otpyl",
@@ -248061,12 +248093,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8310384",
+        "url": "https://www.ticketliquidator.com/tickets/8310384/Earth-Wind-and-Fire-tickets-Wed-Apr-21-2027-The-Orion-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeb18",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310384"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310384",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310384/Earth-Wind-and-Fire-tickets-Wed-Apr-21-2027-The-Orion-Amphitheater"
   },
   {
     "id": "tm-earth-wind-fire-2027-atlanta-vvg1zz_33xgiy_",
@@ -248122,12 +248162,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307214",
+        "url": "https://www.ticketliquidator.com/tickets/8307214/Earth-Wind-and-Fire-tickets-Fri-Apr-23-2027-Synovus-Bank-Amphitheater-at-Chastain-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_33XGiy_",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307214"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307214",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307214/Earth-Wind-and-Fire-tickets-Fri-Apr-23-2027-Synovus-Bank-Amphitheater-at-Chastain-Park"
   },
   {
     "id": "tm-earth-wind-fire-2027-savannah-vvg1zz_3cl5hyq",
@@ -248183,12 +248231,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307215",
+        "url": "https://www.ticketliquidator.com/tickets/8307215/Earth-Wind-and-Fire-tickets-Sat-Apr-24-2027-Enmarket-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3Cl5hYq",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307215"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307215",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307215/Earth-Wind-and-Fire-tickets-Sat-Apr-24-2027-Enmarket-Arena"
   },
   {
     "id": "tm-earth-wind-fire-2027-columbia-g5evz_kl2875x",
@@ -248244,12 +248300,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307216",
+        "url": "https://www.ticketliquidator.com/tickets/8307216/Earth-Wind-and-Fire-tickets-Tue-Apr-27-2027-Township-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KL2875X",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307216"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307216",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307216/Earth-Wind-and-Fire-tickets-Tue-Apr-27-2027-Township-Auditorium"
   },
   {
     "id": "tm-earth-wind-fire-2027-knoxville-g5viz_35urusm",
@@ -248305,12 +248369,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307217",
+        "url": "https://www.ticketliquidator.com/tickets/8307217/Earth-Wind-and-Fire-tickets-Wed-Apr-28-2027-Tennessee-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_35uruSM",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307217"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307217",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307217/Earth-Wind-and-Fire-tickets-Wed-Apr-28-2027-Tennessee-Theatre"
   },
   {
     "id": "tm-earth-wind-fire-2027-charlotte-g5evz_kmaoltm",
@@ -248366,12 +248438,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307218",
+        "url": "https://www.ticketliquidator.com/tickets/8307218/Earth-Wind-and-Fire-tickets-Fri-Apr-30-2027-Skyla-Credit-Union-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KMAoLtM",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307218"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307218",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307218/Earth-Wind-and-Fire-tickets-Fri-Apr-30-2027-Skyla-Credit-Union-Amphitheatre"
   },
   {
     "id": "tm-earth-wind-fire-2027-durham-g5evz_f5p7r9-",
@@ -248480,12 +248560,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113675",
+        "url": "https://www.ticketliquidator.com/tickets/8113675/Santana-tickets-Wed-Nov-4-2026-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck11zds",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113675"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113675",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113675/Santana-tickets-Wed-Nov-4-2026-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1gfdb",
@@ -248541,12 +248629,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113676",
+        "url": "https://www.ticketliquidator.com/tickets/8113676/Santana-tickets-Thu-Nov-5-2026-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1GFdB",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113676"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113676",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113676/Santana-tickets-Thu-Nov-5-2026-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1ub7d",
@@ -248602,12 +248698,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113677",
+        "url": "https://www.ticketliquidator.com/tickets/8113677/Santana-tickets-Sat-Nov-7-2026-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1ub7d",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113677"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113677",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113677/Santana-tickets-Sat-Nov-7-2026-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1cz73",
@@ -248663,12 +248767,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113678",
+        "url": "https://www.ticketliquidator.com/tickets/8113678/Santana-tickets-Sun-Nov-8-2026-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1Cz73",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113678"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113678",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113678/Santana-tickets-Sun-Nov-8-2026-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck18f79",
@@ -248724,12 +248836,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113679",
+        "url": "https://www.ticketliquidator.com/tickets/8113679/Santana-tickets-Wed-Nov-11-2026-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck18F79",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113679"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113679",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113679/Santana-tickets-Wed-Nov-11-2026-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1oi7r",
@@ -248785,12 +248905,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113680",
+        "url": "https://www.ticketliquidator.com/tickets/8113680/Santana-tickets-Thu-Nov-12-2026-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1oI7r",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113680"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113680",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113680/Santana-tickets-Thu-Nov-12-2026-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck13z7p",
@@ -248846,12 +248974,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113681",
+        "url": "https://www.ticketliquidator.com/tickets/8113681/Santana-tickets-Sat-Nov-14-2026-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck13z7P",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113681"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113681",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113681/Santana-tickets-Sat-Nov-14-2026-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1fb7i",
@@ -248907,12 +249043,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8113682",
+        "url": "https://www.ticketliquidator.com/tickets/8113682/Santana-tickets-Sun-Nov-15-2026-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1fb7i",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113682"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113682",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113682/Santana-tickets-Sun-Nov-15-2026-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gau5vmo",
@@ -248968,12 +249112,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294011",
+        "url": "https://www.ticketliquidator.com/tickets/8294011/Santana-tickets-Wed-Jan-20-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAu5vMo",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294011"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294011",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294011/Santana-tickets-Wed-Jan-20-2027-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaugomb",
@@ -249029,12 +249181,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294012",
+        "url": "https://www.ticketliquidator.com/tickets/8294012/Santana-tickets-Thu-Jan-21-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuGoMB",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294012"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294012",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294012/Santana-tickets-Thu-Jan-21-2027-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gauu-zk",
@@ -249090,12 +249250,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294013",
+        "url": "https://www.ticketliquidator.com/tickets/8294013/Santana-tickets-Sat-Jan-23-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuu-zk",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294013"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294013",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294013/Santana-tickets-Sat-Jan-23-2027-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaucsz4",
@@ -249151,12 +249319,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294014",
+        "url": "https://www.ticketliquidator.com/tickets/8294014/Santana-tickets-Sun-Jan-24-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuCsz4",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294014"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294014",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294014/Santana-tickets-Sun-Jan-24-2027-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gau8vze",
@@ -249212,12 +249388,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294015",
+        "url": "https://www.ticketliquidator.com/tickets/8294015/Santana-tickets-Wed-Jan-27-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAu8vzE",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294015"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294015",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294015/Santana-tickets-Wed-Jan-27-2027-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gauoozw",
@@ -249273,12 +249457,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294016",
+        "url": "https://www.ticketliquidator.com/tickets/8294016/Santana-tickets-Thu-Jan-28-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuoozw",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294016"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294016",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294016/Santana-tickets-Thu-Jan-28-2027-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gau3-y4",
@@ -249334,12 +249526,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294018",
+        "url": "https://www.ticketliquidator.com/tickets/8294018/Santana-tickets-Sat-Jan-30-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAu3-y4",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294018"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294018",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294018/Santana-tickets-Sat-Jan-30-2027-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gauksyx",
@@ -249395,12 +249595,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294019",
+        "url": "https://www.ticketliquidator.com/tickets/8294019/Santana-tickets-Sun-Jan-31-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuKsyx",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294019"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294019",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294019/Santana-tickets-Sun-Jan-31-2027-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gau4vyt",
@@ -249456,12 +249664,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294020",
+        "url": "https://www.ticketliquidator.com/tickets/8294020/Santana-tickets-Wed-May-12-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAu4vyt",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294020"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294020",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294020/Santana-tickets-Wed-May-12-2027-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaupoyr",
@@ -249517,12 +249733,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294021",
+        "url": "https://www.ticketliquidator.com/tickets/8294021/Santana-tickets-Thu-May-13-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAupoyR",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294021"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294021",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294021/Santana-tickets-Thu-May-13-2027-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gau9-ys",
@@ -249578,12 +249802,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294022",
+        "url": "https://www.ticketliquidator.com/tickets/8294022/Santana-tickets-Sat-May-15-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAu9-yS",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294022"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294022",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294022/Santana-tickets-Sat-May-15-2027-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaubsyw",
@@ -249639,12 +249871,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294023",
+        "url": "https://www.ticketliquidator.com/tickets/8294023/Santana-tickets-Sun-May-16-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAubsyW",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294023"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294023",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294023/Santana-tickets-Sun-May-16-2027-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gauq-b9",
@@ -249700,12 +249940,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294024",
+        "url": "https://www.ticketliquidator.com/tickets/8294024/Santana-tickets-Wed-May-19-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuQ-B9",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294024"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294024",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294024/Santana-tickets-Wed-May-19-2027-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaujvbi",
@@ -249761,12 +250009,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294025",
+        "url": "https://www.ticketliquidator.com/tickets/8294025/Santana-tickets-Thu-May-20-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAujvBi",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294025"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294025",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294025/Santana-tickets-Thu-May-20-2027-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gauq-bb",
@@ -249822,12 +250078,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294026",
+        "url": "https://www.ticketliquidator.com/tickets/8294026/Santana-tickets-Sat-May-22-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuq-BB",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294026"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294026",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294026/Santana-tickets-Sat-May-22-2027-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaursdv",
@@ -249883,12 +250147,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294027",
+        "url": "https://www.ticketliquidator.com/tickets/8294027/Santana-tickets-Sun-May-23-2027-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAursDv",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294027"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294027",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294027/Santana-tickets-Sun-May-23-2027-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-simple-minds-2027-auckland-17azv0g6g9-xfc0",
@@ -249944,12 +250216,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8173259",
+        "url": "https://www.ticketliquidator.com/tickets/8173259/Simple-Minds-tickets-Thu-Feb-25-2027-Spark-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17aZv0G6G9-xfc0",
     "timezone": "Pacific/Auckland",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173259"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173259",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173259/Simple-Minds-tickets-Thu-Feb-25-2027-Spark-Arena"
   },
   {
     "id": "tm-simple-minds-2027-wellington-17azv0g6gjon-by",
@@ -250058,12 +250338,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180239",
+        "url": "https://www.ticketliquidator.com/tickets/8180239/Simple-Minds-tickets-Mon-Mar-1-2027-Wolfbrook-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17aZv0G6GJwT3E9",
     "timezone": "Pacific/Auckland",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180239"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180239",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180239/Simple-Minds-tickets-Mon-Mar-1-2027-Wolfbrook-Arena"
   },
   {
     "id": "tm-simple-minds-2027-assago-zg9rmiynyzdf1v",
@@ -250437,12 +250725,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8315154",
+        "url": "https://www.ticketliquidator.com/tickets/8315154/Simple-Minds-tickets-Sat-May-1-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k8baNAf",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315154"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315154",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315154/Simple-Minds-tickets-Sat-May-1-2027-Ziggo-Dome"
   },
   {
     "id": "tm-simple-minds-2027-london-16dfz_313g7wgmr",
@@ -250551,12 +250847,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8247671",
+        "url": "https://www.ticketliquidator.com/tickets/8247671/Simple-Minds-tickets-Fri-May-7-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkfxGkdZWJhm",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8247671"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8247671",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8247671/Simple-Minds-tickets-Fri-May-7-2027-Co-Op-Live"
   },
   {
     "id": "tm-simple-minds-2027-birmingham-1aegz_31ka4zdg5d",
@@ -250824,12 +251128,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272591",
+        "url": "https://www.ticketliquidator.com/tickets/8272591/Simple-Minds-tickets-Fri-May-14-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkfxGkd0xDR8",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272591"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272591",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272591/Simple-Minds-tickets-Fri-May-14-2027-OVO-Hydro"
   },
   {
     "id": "tm-simple-minds-2027-dublin-1kkzvpk_ga2vkuc",
@@ -250938,12 +251250,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877280",
+        "url": "https://www.ticketliquidator.com/tickets/7877280/Thirty-Seconds-To-Mars-tickets-Thu-Apr-8-2027-Movistar-Arena-Madrid",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kvP4xag",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877280"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877280",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877280/Thirty-Seconds-To-Mars-tickets-Thu-Apr-8-2027-Movistar-Arena-Madrid"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-valencia-z698xz2qz16vuf8kq4",
@@ -250999,12 +251319,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877281",
+        "url": "https://www.ticketliquidator.com/tickets/7877281/Thirty-Seconds-To-Mars-tickets-Fri-Apr-9-2027-Roig-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vuf8kQ4",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877281"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877281",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877281/Thirty-Seconds-To-Mars-tickets-Fri-Apr-9-2027-Roig-Arena"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-assago-zg9rmiynyzeadk",
@@ -251113,12 +251441,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877284",
+        "url": "https://www.ticketliquidator.com/tickets/7877284/Thirty-Seconds-To-Mars-tickets-Mon-Apr-12-2027-Kleine-Olympiahalle-Munich",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vfVofPp",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877284"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877284",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877284/Thirty-Seconds-To-Mars-tickets-Mon-Apr-12-2027-Kleine-Olympiahalle-Munich"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-vienna-z698xz5rz1k-suw-g",
@@ -251174,12 +251510,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877285",
+        "url": "https://www.ticketliquidator.com/tickets/7877285/Thirty-Seconds-To-Mars-tickets-Wed-Apr-14-2027-Wiener-Stadthalle-Halle-D",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ5rZ1k-Suw-g",
     "timezone": "Europe/Vienna",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877285"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877285",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877285/Thirty-Seconds-To-Mars-tickets-Wed-Apr-14-2027-Wiener-Stadthalle-Halle-D"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-krakow-z698xzqpz1ke8f3ad",
@@ -251288,12 +251632,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877291",
+        "url": "https://www.ticketliquidator.com/tickets/7877291/Thirty-Seconds-To-Mars-tickets-Tue-Apr-20-2027-ZAG-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vqP_xfz",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877291"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877291",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877291/Thirty-Seconds-To-Mars-tickets-Tue-Apr-20-2027-ZAG-Arena"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-merksem-antwerpen-z698xzg2z1k-8asf4",
@@ -251455,12 +251807,20 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7870156",
+        "url": "https://www.ticketliquidator.com/tickets/7870156/Thirty-Seconds-To-Mars-tickets-Thu-Apr-29-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk3aGkeYExFS",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7870156"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7870156",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7870156/Thirty-Seconds-To-Mars-tickets-Thu-Apr-29-2027-Co-Op-Live"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-dublin-1abzk36gkeuawhf",
@@ -251516,11 +251876,19 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877303",
+        "url": "https://www.ticketliquidator.com/tickets/7877303/Thirty-Seconds-To-Mars-tickets-Sat-May-1-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AbZk36GkeUAWHf",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877303"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877303",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877303/Thirty-Seconds-To-Mars-tickets-Sat-May-1-2027-3Arena-Dublin"
   }
 ]

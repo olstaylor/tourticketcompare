@@ -360,7 +360,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-tulsa-bok-center-10-16-2026--concerts-rock/production/6614461",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-tulsa-oklahoma-10-16-2026/event/2000643D05BE513B",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -419,7 +419,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718208",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718208/Staind-tickets-Fri-Oct-16-2026-BOK-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/staind-tulsa-tickets-10-16-2026/event/107098204"
+    "stubhub_international_url": "https://www.stubhub.ie/staind-tulsa-tickets-10-16-2026/event/107098204",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2026-the-woodlands-g5diz_dbvgqfi",
@@ -437,7 +440,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-the-woodlands-cynthia-woods-mitchell-pavilion-10-17-2026/production/6614454",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-the-woodlands-texas-10-17-2026/event/3A00643EB4D5D528",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -472,7 +475,10 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_dBVgqfI",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2026-austin-g5diz_dykgajg",
@@ -490,7 +496,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-austin-moody-center-atx-10-19-2026--concerts-rock/production/6614465",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-austin-texas-10-19-2026/event/3A00643C063099B5",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -549,7 +555,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718212",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718212/Staind-tickets-Mon-Oct-19-2026-Moody-Center-ATX",
-    "stubhub_international_url": "https://www.stubhub.ie/staind-austin-tickets-10-19-2026/event/107098202"
+    "stubhub_international_url": "https://www.stubhub.ie/staind-austin-tickets-10-19-2026/event/107098202",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2027-manchester-vv177z_kgkbyj0rc",
@@ -567,7 +576,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-manchester-snhu-arena-3-4-2027/production/7658793",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-manchester-new-hampshire-03-04-2027/event/0100653EB072478E",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -630,7 +639,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308766",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308766/Staind-tickets-Thu-Mar-4-2027-SNHU-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308766/Staind-tickets-Thu-Mar-4-2027-SNHU-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2027-baltimore-11a8vpokayf8vu",
@@ -648,7 +660,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-baltimore-cfg-bank-arena-3-6-2027/production/7658799",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-baltimore-maryland-03-06-2027/event/150065453170510C",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -711,7 +723,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308767",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308767/Staind-tickets-Sat-Mar-6-2027-CFG-Bank-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308767/Staind-tickets-Sat-Mar-6-2027-CFG-Bank-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2027-pittsburgh-1avbz_kgkdoccp7",
@@ -729,7 +744,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-pittsburgh-ppg-paints-arena-3-8-2027/production/7658795",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-pittsburgh-pennsylvania-03-08-2027/event/1600653EE0B6D584",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -792,7 +807,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308768",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308768/Staind-tickets-Mon-Mar-8-2027-PPG-Paints-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308768/Staind-tickets-Mon-Mar-8-2027-PPG-Paints-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2027-reading-vv1aezk4vgkeshnyh",
@@ -810,7 +828,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-reading-santander-arena-3-9-2027/production/7658819",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-reading-pennsylvania-03-09-2027/event/02006541B36EAC1B",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -857,6 +875,9 @@
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-03-05T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -875,7 +896,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-huntington-marshall-health-network-arena-3-10-2027--concerts-rock/production/7658997",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-huntington-west-virginia-03-10-2027/event/160065428FA34508",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -922,6 +943,9 @@
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-03-04T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -940,7 +964,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-tampa-benchmark-international-arena-3-12-2027/production/7658917",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-tampa-florida-03-12-2027/event/0D006541E77B70C3",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1003,7 +1027,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308771",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308771/Staind-tickets-Fri-Mar-12-2027-Benchmark-International-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308771/Staind-tickets-Fri-Mar-12-2027-Benchmark-International-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2027-west-palm-beach-vvg1vz_kdb8l2e",
@@ -1021,7 +1048,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-west-palm-beach-ithink-financial-amphitheatre-3-13-2027/production/7658871",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-west-palm-beach-florida-03-13-2027/event/0D00653ED841F3E7",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1084,7 +1111,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308772",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308772/Staind-tickets-Sat-Mar-13-2027-iTHINK-Financial-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308772/Staind-tickets-Sat-Mar-13-2027-iTHINK-Financial-Amphitheatre",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2027-birmingham-1aozk4vgkdpep6o",
@@ -1102,7 +1132,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-birmingham-legacy-arena-at-the-bjcc-3-16-2027/production/7658907",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-birmingham-alabama-03-16-2027/event/20006541D60961E0",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1165,7 +1195,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308773",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308773/Staind-tickets-Tue-Mar-16-2027-Legacy-Arena-at-The-BJCC"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308773/Staind-tickets-Tue-Mar-16-2027-Legacy-Arena-at-The-BJCC",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2027-oklahoma-city-vvg1yz_kb9ngdb",
@@ -1183,7 +1216,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-oklahoma-city-paycom-center-3-18-2027/production/7658925",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-oklahoma-city-oklahoma-03-18-2027/event/0C00653E978F5ED8",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1246,7 +1279,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308774",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308774/Staind-tickets-Thu-Mar-18-2027-Paycom-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308774/Staind-tickets-Thu-Mar-18-2027-Paycom-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2027-dallas-vvg1yz_ffb7hxs",
@@ -1264,7 +1300,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-dallas-dos-equis-pavilion-3-19-2027--concerts-rock/production/7659012",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/971-the-eagle-presents-staind-break-dallas-texas-03-19-2027/event/0C0065423A11B8B1",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1327,7 +1363,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308775",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308775/Staind-tickets-Fri-Mar-19-2027-Dos-Equis-Pavilion"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308775/Staind-tickets-Fri-Mar-19-2027-Dos-Equis-Pavilion",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2027-san-antonio-g5diz_fkhzhba",
@@ -1345,7 +1384,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-san-antonio-frost-bank-center-3-20-2027--concerts-rock/production/7659014",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-san-antonio-texas-03-20-2027/event/3A0065419BE1B609",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1408,7 +1447,11 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308776",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308776/Staind-tickets-Sat-Mar-20-2027-Frost-Bank-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308776/Staind-tickets-Sat-Mar-20-2027-Frost-Bank-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "COMMUNITY ARENA MANAGEMENT"
+    ]
   },
   {
     "id": "tm-staind-2027-denver-g5vzz_f7kx5yq",
@@ -1426,7 +1469,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-denver-ball-arena-3-22-2027/production/7658985",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-denver-colorado-03-22-2027/event/1E00654113F8BE5A",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1489,7 +1532,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308777",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308777/Staind-tickets-Mon-Mar-22-2027-Ball-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308777/Staind-tickets-Mon-Mar-22-2027-Ball-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2027-boise-g5vzz_kb7mfuo",
@@ -1507,7 +1553,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-boise-extramile-arena-3-24-2027/production/7658945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-boise-idaho-03-24-2027/event/1E00653E84B94351",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1570,7 +1616,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308778",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308778/Staind-tickets-Wed-Mar-24-2027-ExtraMile-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308778/Staind-tickets-Wed-Mar-24-2027-ExtraMile-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2027-seattle-vvg1hz_km9huyk",
@@ -1588,7 +1637,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-seattle-climate-pledge-arena-3-27-2027--concerts-rock/production/7659018",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-seattle-washington-03-27-2027/event/0F00653DD76CDC06",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1651,7 +1700,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308781",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308781/Staind-tickets-Sat-Mar-27-2027-Climate-Pledge-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308781/Staind-tickets-Sat-Mar-27-2027-Climate-Pledge-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2027-vancouver-1aozk4egkdceqzp",
@@ -1669,7 +1721,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-vancouver-rogers-arena-3-29-2027--concerts-rock/production/7659028",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/staind-break-the-cycle-25th-anniversary-vancouver-british-columbia-03-29-2027/event/11006542CE9DD016",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1727,7 +1779,13 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308793",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308793/Staind-tickets-Mon-Mar-29-2027-Rogers-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308793/Staind-tickets-Mon-Mar-29-2027-Rogers-Arena",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ]
   },
   {
     "id": "tm-staind-2027-calgary-1av7z_kgkm-emew",
@@ -1745,7 +1803,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-calgary-scotiabank-saddledome-3-31-2027/production/7659022",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/staind-break-the-cycle-25th-anniversary-calgary-alberta-03-31-2027/event/1100653DE10AE9F2",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1808,7 +1866,13 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308794",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308794/Staind-tickets-Wed-Mar-31-2027-Scotiabank-Saddledome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308794/Staind-tickets-Wed-Mar-31-2027-Scotiabank-Saddledome",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ]
   },
   {
     "id": "tm-staind-2027-edmonton-1av7z_kgkz_xe9-",
@@ -1826,7 +1890,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-edmonton-rogers-place-4-1-2027/production/7659026",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/staind-break-the-cycle-25th-anniversary-edmonton-alberta-04-01-2027/event/1100653E198825E1",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1884,7 +1948,13 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308795",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308795/Staind-tickets-Thu-Apr-1-2027-Rogers-Place"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308795/Staind-tickets-Thu-Apr-1-2027-Rogers-Place",
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ]
   },
   {
     "id": "tm-staind-2027-sioux-falls-vv1akzk4vgkd8j7ov",
@@ -1902,7 +1972,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-sioux-falls-denny-sanford-premier-center-4-6-2027/production/7658947",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-sioux-falls-south-dakota-04-06-2027/event/06006541D0984441",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1965,7 +2035,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308785",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308785/Staind-tickets-Tue-Apr-6-2027-Denny-Sanford-Premier-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308785/Staind-tickets-Tue-Apr-6-2027-Denny-Sanford-Premier-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2027-fargo-vv17bz_kgkuwy5mz",
@@ -1983,7 +2056,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-fargo-fargodome-4-7-2027/production/7658969",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-fargo-north-dakota-04-07-2027/event/0600653DBDE4BB80",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2046,7 +2119,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308786",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308786/Staind-tickets-Wed-Apr-7-2027-Fargodome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308786/Staind-tickets-Wed-Apr-7-2027-Fargodome",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2027-omaha-vv1kvovp8tga5iapt",
@@ -2064,7 +2140,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-omaha-chi-health-center-omaha-4-9-2027/production/7658975",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-omaha-nebraska-04-09-2027/event/060065429BA0997F",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2127,7 +2203,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308787",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308787/Staind-tickets-Fri-Apr-9-2027-CHI-Health-Center-Omaha"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308787/Staind-tickets-Fri-Apr-9-2027-CHI-Health-Center-Omaha",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2027-kansas-city-vv1akzk4vgkegdrbt",
@@ -2145,7 +2224,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-kansas-city-t-mobile-center-4-10-2027/production/7658897",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-kansas-city-missouri-04-10-2027/event/06006541B5EEF63F",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2213,7 +2292,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308788",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308788/Staind-tickets-Sat-Apr-10-2027-T-Mobile-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308788/Staind-tickets-Sat-Apr-10-2027-T-Mobile-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2027-moline-vv1fbz_fkec7zdga1",
@@ -2231,7 +2313,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-moline-vibrant-arena-at-the-mark-4-11-2027/production/7658963",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-moline-illinois-04-11-2027/event/0600654182384B89",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2294,7 +2376,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308789",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308789/Staind-tickets-Sun-Apr-11-2027-Vibrant-Arena-at-The-MARK"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308789/Staind-tickets-Sun-Apr-11-2027-Vibrant-Arena-at-The-MARK",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2027-grand-rapids-vv17oz_kgkmqeain",
@@ -2312,7 +2397,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-grand-rapids-van-andel-arena-4-13-2027/production/7658869",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-grand-rapids-michigan-04-13-2027/event/0800653DDD089A23",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2375,7 +2460,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308790",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308790/Staind-tickets-Tue-Apr-13-2027-Van-Andel-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308790/Staind-tickets-Tue-Apr-13-2027-Van-Andel-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2027-evansville-vv17fz_kgkd3hr7l",
@@ -2393,7 +2481,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-evansville-ford-center-evansville-4-14-2027/production/7658929",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-evansville-indiana-04-14-2027/event/0500653ED26DE11F",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2456,7 +2544,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308791",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308791/Staind-tickets-Wed-Apr-14-2027-Ford-Center-IN"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308791/Staind-tickets-Wed-Apr-14-2027-Ford-Center-IN",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2027-spokane-z7r9jz1aae_qs",
@@ -2474,7 +2565,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-spokane-numerica-veterans-arena-3-26-2027--concerts-rock/production/7659097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_qS",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2525,7 +2616,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308780",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308780/Staind-tickets-Fri-Mar-26-2027-Numerica-Veterans-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308780/Staind-tickets-Fri-Mar-26-2027-Numerica-Veterans-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2027-billings-z7r9jz1aae_qg",
@@ -2543,7 +2637,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-billings-first-interstate-arena-4-3-2027--concerts-rock/production/7659099",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_qg",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2594,7 +2688,10 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308784",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308784/Staind-tickets-Sat-Apr-3-2027-First-Interstate-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308784/Staind-tickets-Sat-Apr-3-2027-First-Interstate-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-staind-2027-cleveland-z7r9jz1aae_q-",
@@ -2612,7 +2709,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-cleveland-rocket-arena-4-16-2027--concerts-rock/production/7659024",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_q-",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2663,6 +2760,9 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308792",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308792/Staind-tickets-Fri-Apr-16-2027-Rocket-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308792/Staind-tickets-Fri-Apr-16-2027-Rocket-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   }
 ]

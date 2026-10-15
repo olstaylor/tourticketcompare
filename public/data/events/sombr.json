@@ -814,7 +814,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-dallas-american-airlines-center---tx-10-18-2026--concerts-alternative/production/6897883",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-dallas-texas-10-18-2026/event/0C006488CB1AC234",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -873,7 +873,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874863",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-dallas-tickets-10-18-2026/event/107155471",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874863/sombr-tickets-Sun-Oct-18-2026-American-Airlines-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874863/sombr-tickets-Sun-Oct-18-2026-American-Airlines-Center",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-sombr-2026-austin-g5diz_fem5b0f",
@@ -891,7 +894,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-austin-moody-center-atx-10-20-2026--concerts-alternative/production/6897885",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-austin-texas-10-20-2026/event/3A006489F72D8914",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -950,7 +953,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874865",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-austin-tickets-10-20-2026/event/107155472",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874865/sombr-tickets-Tue-Oct-20-2026-Moody-Center-ATX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874865/sombr-tickets-Tue-Oct-20-2026-Moody-Center-ATX",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "presales": [
+      {
+        "name": "STUDENT OFFER",
+        "start": "2026-10-14T22:00:00Z",
+        "end": "2026-10-21T00:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-atlanta-vvg1zz_fxet19l",
@@ -968,7 +981,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-atlanta-state-farm-arena-10-22-2026--concerts-alternative/production/6897895",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-atlanta-georgia-10-22-2026/event/0E006488A7A4A5DF",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1027,7 +1040,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874866",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-atlanta-tickets-10-22-2026/event/107155494",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874866/sombr-tickets-Thu-Oct-22-2026-State-Farm-Arena-GA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874866/sombr-tickets-Thu-Oct-22-2026-State-Farm-Arena-GA",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-sombr-2026-sunrise-z7r9jz1a7x8vw",
@@ -1122,7 +1138,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-orlando-kia-center-10-25-2026--concerts-alternative/production/6897905",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-orlando-florida-10-25-2026/event/2200648A8ADC2C92",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1188,6 +1204,9 @@
         "start": "2026-04-17T14:00:00Z",
         "end": "2026-10-15T21:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE"
     ]
   },
   {
@@ -1206,7 +1225,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-charlotte-spectrum-center-10-27-2026--concerts-alternative/production/6897916",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-charlotte-north-carolina-10-27-2026/event/2D006488C26A706A",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1264,6 +1283,9 @@
         "start": "2026-04-17T14:00:00Z",
         "end": "2026-10-16T21:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE"
     ]
   },
   {
@@ -1282,7 +1304,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-nashville-bridgestone-arena-10-28-2026--concerts-alternative/production/6897932",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-nashville-tennessee-10-28-2026/event/1B006489894AA690",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1340,6 +1362,9 @@
         "start": "2026-04-17T15:00:00Z",
         "end": "2026-10-24T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1358,7 +1383,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-saint-louis-missouri-10-30-2026/event/06006488B92FF177",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1400,6 +1425,9 @@
         "start": "2026-04-17T15:00:00Z",
         "end": "2026-10-26T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1418,7 +1446,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-kansas-city-t-mobile-center-10-31-2026--concerts-alternative/production/6897945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-kansas-city-missouri-10-31-2026/event/0600648988F67FDC",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1476,6 +1504,9 @@
         "start": "2026-04-17T15:00:00Z",
         "end": "2026-10-27T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1494,7 +1525,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-minneapolis-target-center-11-1-2026--concerts-alternative/production/6897954",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-minneapolis-minnesota-11-01-2026/event/06006489AC06E087",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1552,6 +1583,9 @@
         "start": "2026-04-17T15:00:00Z",
         "end": "2026-10-28T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION"
     ]
   },
   {
@@ -1570,7 +1604,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-milwaukee-fiserv-forum-11-3-2026--concerts-alternative/production/6897964",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-milwaukee-wisconsin-11-03-2026/event/07006488DF476E7D",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1628,6 +1662,10 @@
         "start": "2026-04-17T15:00:00Z",
         "end": "2026-10-30T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "FRANK PRODUCTIONS",
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1646,7 +1684,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-chicago-united-center-11-4-2026--concerts-alternative/production/6897970",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-chicago-illinois-11-04-2026/event/04006487CFF2C118",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1712,6 +1750,9 @@
         "start": "2026-04-17T15:00:00Z",
         "end": "2026-10-31T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1730,7 +1771,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-indianapolis-gainbridge-fieldhouse-11-6-2026--concerts-alternative/production/6897982",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-indianapolis-indiana-11-06-2026/event/05006489958259FC",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1788,6 +1829,9 @@
         "start": "2026-04-17T14:00:00Z",
         "end": "2026-11-02T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1806,7 +1850,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-detroit-little-caesars-arena-11-7-2026--concerts-alternative/production/6897986",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-detroit-michigan-11-07-2026/event/08006488B52E6AC0",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1872,6 +1916,9 @@
         "start": "2026-04-17T14:00:00Z",
         "end": "2026-11-03T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1890,7 +1937,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-columbus-nationwide-arena-11-8-2026--concerts-alternative/production/6897990",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-columbus-ohio-11-08-2026/event/050064898B1143E1",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1948,6 +1995,9 @@
         "start": "2026-04-17T14:00:00Z",
         "end": "2026-11-04T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1966,7 +2016,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-washington-capital-one-arena-11-10-2026--concerts-alternative/production/6897996",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-washington-district-of-columbia-11-10-2026/event/15006481D02EB8E8",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2032,6 +2082,9 @@
         "start": "2026-04-17T14:00:00Z",
         "end": "2026-11-06T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2050,7 +2103,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-pittsburgh-ppg-paints-arena-11-12-2026--concerts-alternative/production/6898000",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-pittsburgh-pennsylvania-11-12-2026/event/160064888B1E4D69",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2108,6 +2161,9 @@
         "start": "2026-04-17T14:00:00Z",
         "end": "2026-11-08T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2126,7 +2182,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-cleveland-rocket-arena-11-13-2026--concerts-alternative/production/6898006",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xav7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2177,7 +2233,10 @@
     "status": "on-sale",
     "timezone": "America/New_York",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874881",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874881/sombr-tickets-Fri-Nov-13-2026-Rocket-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874881/sombr-tickets-Fri-Nov-13-2026-Rocket-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-sombr-2026-buffalo-k7v17_f0kg7ij1e",
@@ -2195,7 +2254,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-buffalo-keybank-center-11-14-2026--concerts-alternative/production/6898016",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-buffalo-new-york-11-14-2026/event/0000648913B1C282",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2261,6 +2320,9 @@
         "start": "2026-04-17T14:00:00Z",
         "end": "2026-11-10T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2279,7 +2341,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-toronto-scotiabank-arena-11-16-2026--concerts-alternative/production/6898024",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sombr-you-are-the-reason-tour-toronto-ontario-11-16-2026/event/10006487F42AC66B",
-    "last_verified_at": "2026-10-08",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2326,6 +2388,12 @@
         "start": "2026-10-07T14:00:00Z",
         "end": "2026-11-17T01:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
     ]
   },
   {
@@ -2344,7 +2412,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-boston-td-garden-11-18-2026--concerts-alternative/production/6898034",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-boston-massachusetts-11-18-2026/event/01006487C88D39E2",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2410,6 +2478,9 @@
         "start": "2026-04-17T14:00:00Z",
         "end": "2026-11-14T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2428,7 +2499,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-philadelphia-xfinity-mobile-arena-11-19-2026--concerts-alternative/production/6898038",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-philadelphia-pennsylvania-11-19-2026/event/300064898BE02142",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2494,6 +2565,9 @@
         "start": "2026-04-17T14:00:00Z",
         "end": "2026-11-15T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2512,7 +2586,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-newark-prudential-center-11-21-2026--concerts-alternative/production/6898048",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-newark-new-jersey-11-21-2026/event/02006488DB7EED88",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2578,6 +2652,9 @@
         "start": "2026-04-17T14:00:00Z",
         "end": "2026-11-17T17:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2596,7 +2673,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-new-york-madison-square-garden-11-23-2026/production/6898010",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-new-york-new-york-11-23-2026/event/3B00648AD4475021",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2667,6 +2744,9 @@
         "start": "2026-04-17T14:00:00Z",
         "end": "2026-11-24T01:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2685,7 +2765,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-new-york-madison-square-garden-11-24-2026/production/6902538",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-new-york-new-york-11-24-2026/event/3B00648AD4525028",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2756,6 +2836,9 @@
         "start": "2026-04-17T14:00:00Z",
         "end": "2026-11-25T01:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2774,7 +2857,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-hamburg-barclays-arena---hamburg-5-14-2027/production/7505371",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/sombr-you-are-the-reason-tour-hamburg-tickets/879708766?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2833,7 +2916,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245510",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245510/sombr-tickets-Fri-May-14-2027-Barclays-Arena-Hamburg",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-hamburg-barclays-arena-hamburg-14-5-2027/event/107666407"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-hamburg-barclays-arena-hamburg-14-5-2027/event/107666407",
+    "organizer_names": [
+      "Live Nation GmbH"
+    ]
   },
   {
     "id": "tm-sombr-2027-merksem-antwerpen-z698xzg2z16v0pps8o",
@@ -2851,7 +2937,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/sombr-you-are-the-reason-tour-antwerp-tickets/1916973411",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2886,7 +2972,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z16v0pPS8o",
     "timezone": "Europe/Brussels",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation"
+    ]
   },
   {
     "id": "tm-sombr-2027-berlin-z698xzc2z1akrz8f",
@@ -2904,7 +2993,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-berlin-uber-arena-5-18-2027/production/7505369",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/sombr-you-are-the-reason-tour-berlin-tickets/6780408?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2963,7 +3052,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245511",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245511/sombr-tickets-Tue-May-18-2027-Uber-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-berlin-uber-arena-18-5-2027/event/107666398"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-berlin-uber-arena-18-5-2027/event/107666398",
+    "organizer_names": [
+      "Live Nation GmbH"
+    ]
   },
   {
     "id": "tm-sombr-2027-munich-z698xzc2z1kosuv4v",
@@ -2981,7 +3073,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/sombr-you-are-the-reason-tour-munich-tickets/473374541?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3040,7 +3132,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245513",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245513/sombr-tickets-Fri-May-28-2027-Kleine-Olympiahalle-Munich",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-munich-olympiahalle-munich-28-5-2027/event/107666431"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-munich-olympiahalle-munich-28-5-2027/event/107666431",
+    "organizer_names": [
+      "Live Nation GmbH"
+    ]
   },
   {
     "id": "tm-sombr-2027-amsterdam-z698xzbpz16ee7oboy",
@@ -3058,7 +3153,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/sombr-you-are-the-reason-tour-amsterdam-tickets/2084818839?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3117,7 +3212,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245523",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245523/sombr-tickets-Mon-May-31-2027-Ziggo-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-amsterdam-ziggo-dome-31-5-2027/event/107666327"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-amsterdam-ziggo-dome-31-5-2027/event/107666327",
+    "organizer_names": [
+      "Mojo Concerts"
+    ]
   },
   {
     "id": "tm-sombr-2027-amsterdam-z698xzbpz16v0w4skv",
@@ -3135,7 +3233,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/sombr-you-are-the-reason-tour-amsterdam-tickets/1932573181?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3178,7 +3276,10 @@
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v0w4Skv",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-amsterdam-ziggo-dome-1-6-2027/event/107665761"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-amsterdam-ziggo-dome-1-6-2027/event/107665761",
+    "organizer_names": [
+      "Mojo Concerts"
+    ]
   },
   {
     "id": "tm-sombr-2027-milano-zg9rmiynyzd611",
@@ -3249,7 +3350,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-glasgow-bellahouston-park-6-19-2027--concerts-alternative/production/7505317",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/glasgow-summer-sessions-sombr-you-are-glasgow-19-06-2027/event/36006518AC6B9824",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3308,7 +3409,13 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245421",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245421/sombr-tickets-Sat-Jun-19-2027-Bellahouston-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-glasgow-bellahouston-park-19-6-2027/event/107666406"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-glasgow-bellahouston-park-19-6-2027/event/107666406",
+    "organizer_names": [
+      "SUMMER SESSIONS",
+      "DF CONCERTS LIMITED",
+      "GIGS IN SCOTLAND",
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-sombr-2027-london-1adfz_ogkwyrfux",
@@ -3326,7 +3433,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-london-the-o2---london-6-21-2027/production/7510556",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-21-06-2027/event/3500651CB0788DBE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3369,7 +3476,11 @@
     "ticketmaster_discovery_event_id": "1AdfZ_oGkwYrFUX",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-21-6-2027/event/107666543"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-21-6-2027/event/107666543",
+    "organizer_names": [
+      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS",
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-sombr-2027-london-1adfz_ogklwvhfa",
@@ -3387,7 +3498,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-london-the-o2---london-6-22-2027--concerts-alternative/production/7505319",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-22-06-2027/event/3500651AF207C509",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3430,7 +3541,11 @@
     "ticketmaster_discovery_event_id": "1AdfZ_oGklwvHfa",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-22-6-2027/event/107665338"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-22-6-2027/event/107665338",
+    "organizer_names": [
+      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS",
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-sombr-2027-london-1adfz_ogkwskt7w",
@@ -3448,7 +3563,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-london-the-o2---london-6-24-2027/production/7510546",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-24-06-2027/event/3500651CB34E913D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3491,7 +3606,11 @@
     "ticketmaster_discovery_event_id": "1AdfZ_oGkwSKt7W",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-24-6-2027/event/107666544"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-24-6-2027/event/107666544",
+    "organizer_names": [
+      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS",
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-sombr-2027-london-1adfz_ogkwy2ti0",
@@ -3509,7 +3628,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-london-the-o2---london-6-25-2027/production/7518769",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-25-06-2027/event/3500651CB93E9B24",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3552,7 +3671,11 @@
     "ticketmaster_discovery_event_id": "1AdfZ_oGkwy2ti0",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-25-6-2027/event/107666748"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-25-6-2027/event/107666748",
+    "organizer_names": [
+      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS",
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-sombr-2027-london-1adfz_ogkwwynfm",
@@ -3570,7 +3693,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-london-the-o2---london-6-29-2027/production/7527275",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-29-06-2027/event/3500651CBDE6A237",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3613,7 +3736,11 @@
     "ticketmaster_discovery_event_id": "1AdfZ_oGkwWynFM",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-29-6-2027/event/107666815"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-29-6-2027/event/107666815",
+    "organizer_names": [
+      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS",
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-sombr-2027-co-dublin-1abzkf4gkd83jcw",
@@ -3631,7 +3758,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/sombr-you-are-the-reason-tour-co-dublin-15-06-2027/event/18006515D049CB72",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3666,7 +3793,11 @@
     },
     "ticketmaster_discovery_event_id": "1AbZkf4Gkd83jcw",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MCD PRODUCTIONS",
+      "LIVE NATION (MUSIC) UK LTD (VENUES)"
+    ]
   },
   {
     "id": "tm-sombr-2027-belfast-16doz_oxfg7tv55",
@@ -3684,7 +3815,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-belfast-ormeau-park-6-17-2027--concerts-alternative/production/7505313",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/sombr-you-are-the-reason-tour-belfast-17-06-2027/event/3800651894A412CB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3727,7 +3858,10 @@
     "ticketmaster_discovery_event_id": "16dOZ_oxfG7tv55",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-belfast-ormeau-park-17-6-2027/event/107666405"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-belfast-ormeau-park-17-6-2027/event/107666405",
+    "organizer_names": [
+      "BELSONIC LTD"
+    ]
   },
   {
     "id": "tm-sombr-2027-mexico-1av8z_agkn6tndi",
@@ -3745,7 +3879,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/sombr-mexico-29-01-2027/event/1400645A87A630E8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3788,7 +3922,11 @@
     "ticketmaster_discovery_event_id": "1Av8Z_AGkn6tNdI",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-mexico-city-pepsi-center-wtc-29-1-2027/event/107158149"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-mexico-city-pepsi-center-wtc-29-1-2027/event/107158149",
+    "organizer_names": [
+      "OCESA",
+      "MONDIAL PRICE 1"
+    ]
   },
   {
     "id": "tm-sombr-2027-mexico-1av8z_agknaoeux",
@@ -3806,7 +3944,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/sombr-mexico-30-01-2027/event/1400645A85802DA2",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3856,7 +3994,11 @@
         "end": "2027-01-31T03:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-mexico-city-pepsi-center-wtc-30-1-2027/event/107449736"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-mexico-city-pepsi-center-wtc-30-1-2027/event/107449736",
+    "organizer_names": [
+      "OCESA",
+      "MONDIAL PRICE 1"
+    ]
   },
   {
     "id": "tm-sombr-2027-auckland-1ae8z_ogkmlufo4",
@@ -3943,7 +4085,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.no/event/sombr-you-are-the-reason-tour-oslo-tickets/1502284369?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3994,7 +4136,10 @@
     "timezone": "Europe/Oslo",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245506",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245506/sombr-tickets-Sat-May-8-2027-Unity-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245506/sombr-tickets-Sat-May-8-2027-Unity-Arena",
+    "organizer_names": [
+      "Live Nation Norway AS"
+    ]
   },
   {
     "id": "tm-sombr-2027-helsinki-z698xz8kz1kuwpvu6",
@@ -4012,7 +4157,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.fi/event/sombr-you-are-the-reason-tour-helsinki-tickets/372941347?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -4071,7 +4216,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245507",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245507/sombr-tickets-Tue-May-11-2027-Veikkaus-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-helsinki-veikkaus-arena-11-5-2027/event/107666323"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-helsinki-veikkaus-arena-11-5-2027/event/107666323",
+    "organizer_names": [
+      "Live Nation Finland Oy"
+    ]
   },
   {
     "id": "tm-sombr-2027-praha-9-z698xzu0z16v-zgmz9",
@@ -4089,7 +4237,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/sombr-you-are-the-reason-tour-prague-tickets/1878337017?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -4124,7 +4272,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZu0Z16v-zGMZ9",
     "timezone": "Europe/Prague",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CZECH REPUBLIC s.r.o."
+    ]
   },
   {
     "id": "tm-sombr-2027-zurich-z698xzu3z16vqgjk0e",
@@ -4142,7 +4293,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ch/event/sombr-you-are-the-reason-tour-zurich-tickets/1775713902?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -4201,7 +4352,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245518",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245518/sombr-tickets-Thu-May-27-2027-Hallenstadion-Zurich",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-zurich-hallenstadion-zurich-27-5-2027/event/107666419"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-zurich-hallenstadion-zurich-27-5-2027/event/107666419",
+    "organizer_names": [
+      "Live Nation Schweiz AG"
+    ]
   },
   {
     "id": "tm-sombr-2027-vienna-z698xz5rz16vfevjbe",
@@ -4219,7 +4373,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.at/event/sombr-you-are-the-reason-tour-vienna-tickets/1227066602?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -4254,6 +4408,9 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ5rZ16vFEvJbe",
     "timezone": "Europe/Vienna",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation Austria GmbH"
+    ]
   }
 ]

@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-04-2026/event/170064E18A2B80F1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,7 +50,17 @@
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck11zds",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-11T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1gfdb",
@@ -68,7 +78,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-05-2026/event/170064E18A3080FA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -103,7 +113,17 @@
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1GFdB",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-11T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1ub7d",
@@ -121,7 +141,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-07-2026/event/170064E18A358103",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156,7 +176,17 @@
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1ub7d",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-11T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1cz73",
@@ -174,7 +204,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-08-2026/event/170064E18A3B8112",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -209,7 +239,17 @@
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1Cz73",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-11T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck18f79",
@@ -227,7 +267,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-11-2026/event/170064E18A408117",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -262,7 +302,17 @@
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck18F79",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-11T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1oi7r",
@@ -280,7 +330,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-12-2026/event/170064E18A46811E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -315,7 +365,17 @@
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1oI7r",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-11T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck13z7p",
@@ -333,7 +393,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-14-2026/event/170064E18A4B8125",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -368,7 +428,17 @@
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck13z7P",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-11T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1fb7i",
@@ -386,7 +456,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-15-2026/event/170064E18A51812C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421,7 +491,17 @@
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1fb7i",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-11T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gau5vmo",
@@ -439,7 +519,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-20-2027/event/170065264D2C1DD1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -474,7 +554,17 @@
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAu5vMo",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-01-01T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaugomb",
@@ -492,7 +582,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-21-2027/event/170065264D311DFA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -527,7 +617,17 @@
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuGoMB",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-01-01T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gauu-zk",
@@ -545,7 +645,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-23-2027/event/170065264D361E06",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -580,7 +680,17 @@
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuu-zk",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-01-01T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaucsz4",
@@ -598,7 +708,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-24-2027/event/170065264D3B1E15",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -633,7 +743,17 @@
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuCsz4",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-01-01T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gau8vze",
@@ -651,7 +771,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-27-2027/event/170065264D401E27",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -686,7 +806,17 @@
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAu8vzE",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-01-01T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gauoozw",
@@ -704,7 +834,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-28-2027/event/170065264D451E32",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -739,7 +869,17 @@
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuoozw",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-01-01T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gau3-y4",
@@ -757,7 +897,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-30-2027/event/170065264D4A1E55",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -792,7 +932,17 @@
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAu3-y4",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-01-01T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gauksyx",
@@ -810,7 +960,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-31-2027/event/170065264D4F1E62",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -845,7 +995,17 @@
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuKsyx",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-01-01T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gau4vyt",
@@ -863,7 +1023,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-12-2027/event/170065264D541E69",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -898,7 +1058,17 @@
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAu4vyt",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-01-01T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaupoyr",
@@ -916,7 +1086,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-13-2027/event/170065264D591E6F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -951,7 +1121,17 @@
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAupoyR",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-01-01T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gau9-ys",
@@ -969,7 +1149,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-15-2027/event/170065264D5E1E73",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1004,7 +1184,17 @@
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAu9-yS",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-01-01T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaubsyw",
@@ -1022,7 +1212,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-16-2027/event/170065264D631E7D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1057,7 +1247,17 @@
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAubsyW",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-01-01T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gauq-b9",
@@ -1075,7 +1275,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-19-2027/event/170065264D6A1E97",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1110,7 +1310,17 @@
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuQ-B9",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-01-01T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaujvbi",
@@ -1128,7 +1338,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-20-2027/event/170065264D701EAC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1163,7 +1373,17 @@
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAujvBi",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-03T17:00:00Z",
+        "end": "2027-01-01T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gauq-bb",
@@ -1181,7 +1401,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-22-2027/event/170065264D761EBA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1216,7 +1436,17 @@
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAuq-BB",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-01-01T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaursdv",
@@ -1234,7 +1464,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-23-2027/event/170065264D7B1EC1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1269,6 +1499,16 @@
     },
     "ticketmaster_discovery_event_id": "1kAYvPa0GAursDv",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-01-01T06:00:00Z"
+      }
+    ]
   }
 ]

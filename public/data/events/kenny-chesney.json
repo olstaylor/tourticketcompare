@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-tampa-raymond-james-stadium-4-24-2027--concerts-country-and-folk/production/7557268",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-tampa-florida-04-24-2027/event/0D0065289B0D5C6F",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -86,6 +86,9 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-04-03T21:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE"
     ]
   },
   {
@@ -250,7 +253,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-saint-louis-missouri-05-15-2027/event/060065228D5B4D30",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -297,6 +300,9 @@
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-04-24T22:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "THE MESSINA GROUP (TMG)"
     ]
   },
   {
@@ -315,7 +321,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-minneapolis-us-bank-stadium-5-22-2027/production/7557276",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-minneapolis-minnesota-05-22-2027/event/06006524F97AA750",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -357,6 +363,9 @@
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-05-01T22:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "THE MESSINA GROUP (TMG)"
     ]
   },
   {
@@ -375,7 +384,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-pittsburgh-acrisure-stadium-5-29-2027/production/7557270",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-pittsburgh-pennsylvania-05-29-2027/event/16006522D835C49F",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -446,6 +455,9 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-05-08T21:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "THE MESSINA GROUP (TMG)"
     ]
   },
   {
@@ -464,7 +476,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-ames-midamerican-energy-field-at-jack-trice-stadium-6-5-2027--concerts-country-and-folk/production/7557294",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-ames-iowa-06-05-2027/event/0600652887B76C70",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -506,6 +518,9 @@
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-05-15T22:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -524,7 +539,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-philadelphia-lincoln-financial-field-6-12-2027/production/7557292",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-philadelphia-pennsylvania-06-12-2027/event/02006528CD61C950",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -600,6 +615,10 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-06-12T14:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "THE MESSINA GROUP (TMG)",
+      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -618,7 +637,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-orchard-park-highmark-stadium-6-19-2027/production/7557365",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-orchard-park-new-york-06-19-2027/event/03006523D2BC221C",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -676,6 +695,9 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-05-29T21:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE"
     ]
   },
   {
@@ -694,7 +716,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-chicago-soldier-field-6-26-2027/production/7557266",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-chicago-illinois-06-26-2027/event/0400652251122EB9",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -765,6 +787,9 @@
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-06-26T22:30:00Z"
       }
+    ],
+    "organizer_names": [
+      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -852,7 +877,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-milwaukee-american-family-field-7-10-2027/production/7557296",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-milwaukee-wisconsin-07-10-2027/event/07006529C8079684",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -910,6 +935,10 @@
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-06-19T22:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "THE MESSINA GROUP (TMG)",
+      "AEG LIVE"
     ]
   },
   {
@@ -928,7 +957,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-denver-empower-field-at-mile-high-7-17-2027/production/7557284",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-denver-colorado-07-17-2027/event/1E006524C7364439",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -986,6 +1015,9 @@
         "start": "2026-09-25T16:00:00Z",
         "end": "2027-06-26T23:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG - TICKETING"
     ]
   },
   {
@@ -1004,7 +1036,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-kansas-city-arrowhead-stadium-7-24-2027/production/7557278",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-kansas-city-missouri-07-24-2027/event/06006522C6B1C471",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1062,6 +1094,9 @@
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-07-03T22:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE"
     ]
   },
   {
@@ -1080,7 +1115,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-atlanta-mercedes-benz-stadium-7-31-2027/production/7557282",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-atlanta-georgia-07-31-2027/event/0E006528A4498C17",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1151,6 +1186,9 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-07-27T03:45:00Z"
       }
+    ],
+    "organizer_names": [
+      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -1169,7 +1207,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-east-rutherford-metlife-stadium-8-7-2027/production/7557286",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-east-rutherford-new-jersey-08-07-2027/event/00006523B2A43938",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1235,7 +1273,10 @@
         "end": "2027-07-17T21:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/kenny-chesney-east-rutherford-tickets-7-7-2027/event/107668126"
+    "stubhub_international_url": "https://www.stubhub.ie/kenny-chesney-east-rutherford-tickets-7-7-2027/event/107668126",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-kenny-chesney-2027-detroit-vv17oz_8gkmnwpji",
@@ -1253,7 +1294,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-detroit-ford-field-8-14-2027/production/7557288",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-detroit-michigan-08-14-2027/event/0800650BAAF6572C",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1311,6 +1352,9 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-07-24T21:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -1329,7 +1373,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-charlotte-bank-of-america-stadium-8-21-2027/production/7557298",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-charlotte-north-carolina-08-21-2027/event/2D0065238A5D8520",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1387,6 +1431,9 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-07-31T21:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE"
     ]
   },
   {
@@ -1405,7 +1452,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-foxborough-gillette-stadium-8-27-2027--concerts-country-and-folk/production/7587267",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-foxborough-massachusetts-08-27-2027/event/0100652FCAAD3B81",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1471,7 +1518,11 @@
         "end": "2027-08-06T21:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/kenny-chesney-foxborough-tickets-8-27-2027/event/107672442"
+    "stubhub_international_url": "https://www.stubhub.ie/kenny-chesney-foxborough-tickets-8-27-2027/event/107672442",
+    "organizer_names": [
+      "AEG LIVE",
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-kenny-chesney-2027-foxborough-vv1avzkfxgkdu8gfo",
@@ -1489,7 +1540,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-foxborough-gillette-stadium-8-28-2027/production/7557260",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-foxborough-massachusetts-08-28-2027/event/01006522CD435520",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1555,6 +1606,10 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-08-06T21:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE",
+      "PROMOTED BY VENUE"
     ]
   }
 ]

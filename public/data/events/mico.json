@@ -360,7 +360,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-las-vegas-house-of-blues-las-vegas-10-17-2026/production/7049182",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-las-vegas-nevada-10-17-2026/event/170064ADCFF4AC09",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -411,7 +411,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977760",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977760/Mico-tickets-Sat-Oct-17-2026-House-Of-Blues-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977760/Mico-tickets-Sat-Oct-17-2026-House-Of-Blues-Las-Vegas",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ]
   },
   {
     "id": "tm-mico-2026-san-diego-vvg1iz_1uivzmh",
@@ -429,7 +432,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-san-diego-house-of-blues-san-diego-10-19-2026/production/7049214",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-san-diego-california-10-19-2026/event/0A0064ADACD38DDB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -480,7 +483,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977763",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977763/Mico-tickets-Mon-Oct-19-2026-House-Of-Blues-San-Diego"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977763/Mico-tickets-Mon-Oct-19-2026-House-Of-Blues-San-Diego",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-mico-2026-tucson-z7r9jz1a70ioy",
@@ -498,7 +504,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-tucson-la-rosa-10-20-2026/production/7049597",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ioy",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -549,7 +555,10 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7978070",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7978070/Mico-tickets-Tue-Oct-20-2026-La-Rosa-Tucson"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7978070/Mico-tickets-Tue-Oct-20-2026-La-Rosa-Tucson",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-mico-2026-dallas-vvg1yz_1tobhle",
@@ -567,7 +576,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-dallas-the-echo-lounge-and-music-hall-10-22-2026/production/7049206",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-dallas-texas-10-22-2026/event/0C0064AFD1EBCAE7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -618,7 +627,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977770",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977770/Mico-tickets-Thu-Oct-22-2026-The-Echo-Lounge-and-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977770/Mico-tickets-Thu-Oct-22-2026-The-Echo-Lounge-and-Music-Hall",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-mico-2026-austin-g5diz_1wd9gll",
@@ -636,7 +648,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-austin-scoot-inn-10-23-2026/production/7049125",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-austin-texas-10-23-2026/event/3A0064ACBB5CC7DF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -687,7 +699,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977765",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977765/Mico-tickets-Fri-Oct-23-2026-Scoot-Inn"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977765/Mico-tickets-Fri-Oct-23-2026-Scoot-Inn",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-mico-2026-houston-g5diz_1ucylhw",
@@ -705,7 +720,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-houston-white-oak-music-hall---downstairs-10-24-2026/production/7049246",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-houston-texas-10-24-2026/event/3A0064ADADC2B6F2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -756,7 +771,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977767",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977767/Mico-tickets-Sat-Oct-24-2026-White-Oak-Music-Hall-Downstairs"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977767/Mico-tickets-Sat-Oct-24-2026-White-Oak-Music-Hall-Downstairs",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-mico-2026-nashville-g5viz_1mfi-bc",
@@ -774,7 +792,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-nashville-brooklyn-bowl---nashville-10-26-2026/production/7049234",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-nashville-tennessee-10-26-2026/event/1B0064ADD4A2160E",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -832,6 +850,9 @@
         "start": "2026-05-21T15:00:00Z",
         "end": "2026-10-24T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -850,7 +871,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-atlanta-the-masquerade---heaven-10-27-2026/production/7049202",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-atlanta-georgia-10-27-2026/event/0E0064AECF5A4FD8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -885,7 +906,10 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_1D2p0Tb",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MISCELLANEOUS PROMOTER"
+    ]
   },
   {
     "id": "tm-mico-2026-washington-17a8v0g61sa7y8c",
@@ -903,7 +927,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-washington-district-of-columbia-10-29-2026/event/150064ACC913942D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -954,7 +978,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977761",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977761/Mico-tickets-Thu-Oct-29-2026-930-Club"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977761/Mico-tickets-Thu-Oct-29-2026-930-Club",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-mico-2026-new-york-z7r9jz1a70u7_",
@@ -1110,7 +1137,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-boston-paradise-rock-club-11-2-2026/production/7049127",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-boston-massachusetts-11-02-2026/event/010064ADC6946F0F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1161,7 +1188,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977758",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977758/Mico-tickets-Mon-Nov-2-2026-Paradise-Rock-Club-Presented-by-Citizens"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977758/Mico-tickets-Mon-Nov-2-2026-Paradise-Rock-Club-Presented-by-Citizens",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-mico-2026-providence-z7r9jz1a7p0b9",
@@ -1232,7 +1262,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-montreal-mtelus-11-5-2026/production/7411491",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/mico-montreal-quebec-11-05-2026/event/31006506924B56FB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1283,7 +1313,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199474",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199474/Mico-tickets-Thu-Nov-5-2026-MTelus"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199474/Mico-tickets-Thu-Nov-5-2026-MTelus",
+    "organizer_names": [
+      "EVENKO CO-PRO NON-LN"
+    ]
   },
   {
     "id": "tm-mico-2026-toronto-177zv0g61sycnt1",
@@ -1301,7 +1334,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/mico-running-from-a-feeling-tour-toronto-ontario-11-06-2026/event/100064ACF93AAFCA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1336,7 +1369,13 @@
     },
     "ticketmaster_discovery_event_id": "177Zv0G61SyCnT1",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ]
   },
   {
     "id": "tm-mico-2026-toronto-177zv0g659n9upv",
@@ -1354,7 +1393,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/mico-running-from-a-feeling-tour-toronto-ontario-11-07-2026/event/100064B5EA5CD974",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1389,7 +1428,11 @@
     },
     "ticketmaster_discovery_event_id": "177Zv0G659n9uPV",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-mico-2027-barcelona-z698xz2qz1k4j0yoa",
@@ -1407,7 +1450,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/mico-inbetween-tour-tickets/566939805?language=en-us",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1450,6 +1493,9 @@
         "start": "2026-10-13T08:00:00Z",
         "end": "2026-10-15T20:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "Live Nation España S.A.U."
     ]
   },
   {
@@ -1468,7 +1514,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/mico-tickets/1002225085?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1504,7 +1550,10 @@
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vZeFPeA",
     "timezone": "Europe/Amsterdam",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T08:00:00Z"
+    "public_onsale_at": "2026-10-16T08:00:00Z",
+    "organizer_names": [
+      "Melkweg"
+    ]
   },
   {
     "id": "tm-mico-2027-manchester-g5vhz_flmnkjc",
@@ -1522,7 +1571,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mico-manchester-01-02-2027/event/1F006547F78C69AD",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1583,7 +1632,10 @@
         "end": "2026-10-16T08:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/mico-tickets-manchester-manchester-academy-1-2-2027/event/107672867"
+    "stubhub_international_url": "https://www.stubhub.ie/mico-tickets-manchester-manchester-academy-1-2-2027/event/107672867",
+    "organizer_names": [
+      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS"
+    ]
   },
   {
     "id": "tm-mico-2027-london-g5vhz_fjlqa3s",
@@ -1601,7 +1653,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mico-london-04-02-2027/event/1F0065472B6894B1",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1657,7 +1709,10 @@
         "end": "2026-10-16T08:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/mico-tickets-london-the-roundhouse-4-2-2027/event/107672270"
+    "stubhub_international_url": "https://www.stubhub.ie/mico-tickets-london-the-roundhouse-4-2-2027/event/107672270",
+    "organizer_names": [
+      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS"
+    ]
   },
   {
     "id": "tm-mico-2027-dublin-1abzk46gkd9elri",
@@ -1675,7 +1730,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/mico-in-between-tour-dublin-07-02-2027/event/18006547D709F7AC",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1728,6 +1783,9 @@
         "start": "2026-10-15T09:00:00Z",
         "end": "2026-10-15T21:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "MCD PRODUCTIONS"
     ]
   },
   {
@@ -1746,7 +1804,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-charlotte-the-underground-at-the-fillmore-charlotte-2-20-2027--concerts-rock/production/7679627",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-charlotte-north-carolina-02-20-2027/event/2D0065469A2791D3",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1825,6 +1883,9 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-01-21T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1843,7 +1904,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-charleston-charleston-music-hall-2-21-2027/production/7679097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-charleston-south-carolina-02-21-2027/event/2D006548AF3C1E94",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1896,6 +1957,10 @@
         "start": "2026-10-15T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "FRANK PRODUCTIONS",
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1914,7 +1979,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-ft-lauderdale-florida-02-25-2027/event/0D006546BED7B6DC",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1967,6 +2032,10 @@
         "start": "2026-10-15T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -1985,7 +2054,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-st-petersburg-florida-02-26-2027/event/0D00654898D97CDA",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2059,6 +2128,10 @@
         "start": "2026-10-15T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "NO CLUBS"
     ]
   },
   {
@@ -2077,7 +2150,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-lake-buena-vista-house-of-blues-orlando-2-27-2027/production/7679204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-orlando-florida-02-27-2027/event/2200654600DD9A42",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2146,6 +2219,10 @@
         "start": "2026-10-15T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)",
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2164,7 +2241,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-birmingham-iron-city-birmingham-3-1-2027/production/7679258",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-birmingham-alabama-03-01-2027/event/20006548F3C8876E",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2233,6 +2310,9 @@
         "start": "2026-10-15T15:00:00Z",
         "end": "2026-10-16T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -2251,7 +2331,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-new-orleans-house-of-blues-new-orleans-3-2-2027/production/7679270",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-new-orleans-louisiana-03-02-2027/event/1B006545C4AE315F",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2330,6 +2410,9 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-02-23T09:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
     ]
   },
   {
@@ -2348,7 +2431,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-indianapolis-deluxe-at-old-national-centre-3-9-2027--concerts-rock/production/7679637",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-indianapolis-indiana-03-09-2027/event/05006546A359609F",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2427,6 +2510,9 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-07T08:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2445,7 +2531,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-cincinnati-ohio-03-12-2027/event/16006544C2C1714C",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2513,6 +2599,9 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-12T00:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2531,7 +2620,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/mico-inbetween-tour-tickets/1886823228?language=en-us",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2584,6 +2673,9 @@
         "start": "2026-10-15T08:00:00Z",
         "end": "2026-10-16T07:45:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION CZECH REPUBLIC s.r.o."
     ]
   },
   {
@@ -2602,7 +2694,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.dk/event/mico-inbetween-tour-tickets/1717984081?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2638,7 +2730,10 @@
     "ticketmaster_discovery_event_id": "Z698xZC4Z16vj9J7ev",
     "timezone": "Europe/Copenhagen",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T08:00:00Z"
+    "public_onsale_at": "2026-10-16T08:00:00Z",
+    "organizer_names": [
+      "Live Nation / Vega"
+    ]
   },
   {
     "id": "tm-mico-2027-cleveland-rz7hnez1afut40",

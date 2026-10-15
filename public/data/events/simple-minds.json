@@ -280,7 +280,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/simple-minds-european-tour-live-2027-tickets/1693585126?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -315,7 +315,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vQKpA7J",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation GmbH"
+    ]
   },
   {
     "id": "tm-simple-minds-2027-berlin-z698xzc2z1kbdpf-d",
@@ -333,7 +336,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/simple-minds-european-tour-live-2027-tickets/603594843?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -368,7 +371,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kbdpf-d",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation GmbH"
+    ]
   },
   {
     "id": "tm-simple-minds-2027-hamburg-z698xzc2z1k0n7tj3",
@@ -386,7 +392,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/simple-minds-european-tour-live-2027-tickets/923129992?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -421,7 +427,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1k0N7tJ3",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation GmbH"
+    ]
   },
   {
     "id": "tm-simple-minds-2027-amsterdam-z698xzbpz16v_t_v7k",
@@ -439,7 +448,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/simple-minds-v-tour-2027-tickets/1669641106?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -474,7 +483,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v_t_v7k",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Mojo Concerts"
+    ]
   },
   {
     "id": "tm-simple-minds-2027-amsterdam-z698xzbpz1k8banaf",
@@ -492,7 +504,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/simple-minds-v-tour-2027-tickets/418263154?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -527,7 +539,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k8baNAf",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Mojo Concerts"
+    ]
   },
   {
     "id": "tm-simple-minds-2027-london-16dfz_313g7wgmr",
@@ -545,7 +560,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simple-minds-london-06-05-2027/event/3500652292F75B9E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -580,7 +595,11 @@
     },
     "ticketmaster_discovery_event_id": "16dfZ_313G7Wgmr",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "SJM LIMITED (NEW)",
+      "SIMPLE MINDS"
+    ]
   },
   {
     "id": "tm-simple-minds-2027-manchester-1amzkfxgkdzwjhm",
@@ -598,7 +617,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simple-minds-manchester-07-05-2027/event/37006522C0F666EE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -633,7 +652,11 @@
     },
     "ticketmaster_discovery_event_id": "1AMZkfxGkdZWJhm",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "CO-OP LIVE",
+      "S.J.M. LTD"
+    ]
   },
   {
     "id": "tm-simple-minds-2027-birmingham-1aegz_31ka4zdg5d",
@@ -651,7 +674,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simple-minds-birmingham-08-05-2027/event/2300652293155BA2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -686,7 +709,11 @@
     },
     "ticketmaster_discovery_event_id": "1aeGZ_31KA4ZdG5d",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "SJM LIMITED (NEW)",
+      "SIMPLE MINDS"
+    ]
   },
   {
     "id": "tm-simple-minds-2027-nottingham-1adfz_31k14zduv5",
@@ -704,7 +731,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simple-minds-nottingham-10-05-2027/event/3500652293295C0A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -739,7 +766,11 @@
     },
     "ticketmaster_discovery_event_id": "1adfZ_31K14Zduv5",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "SJM LIMITED (NEW)",
+      "SIMPLE MINDS"
+    ]
   },
   {
     "id": "tm-simple-minds-2027-leeds-g5vhz_31k8si9",
@@ -757,7 +788,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simple-minds-leeds-11-05-2027/event/1F00652293431A17",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -792,7 +823,11 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_31K8sI9",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "SJM LIMITED (NEW)",
+      "SIMPLE MINDS"
+    ]
   },
   {
     "id": "tm-simple-minds-2027-newcastle-upon-tyne-g5vhz_31k4viz",
@@ -810,7 +845,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simple-minds-newcastle-upon-tyne-13-05-2027/event/1F00652293541A38",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -845,7 +880,11 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_31K4vIz",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "SJM LIMITED (NEW)",
+      "SIMPLE MINDS"
+    ]
   },
   {
     "id": "tm-simple-minds-2027-glasgow-1auzkfxgkd0xdr8",
@@ -863,7 +902,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simple-minds-glasgow-14-05-2027/event/36006522E48BBBD0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -898,7 +937,12 @@
     },
     "ticketmaster_discovery_event_id": "1AUZkfxGkd0xDR8",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "DF CONCERTS LIMITED",
+      "SCOTTISH EVENT CAMPUS LIMITED",
+      "SIMPLE MINDS"
+    ]
   },
   {
     "id": "tm-simple-minds-2027-dublin-1kkzvpk_ga2vkuc",
@@ -916,7 +960,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/simple-minds-dublin-17-05-2027/event/180065199F046D8E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -951,6 +995,11 @@
     },
     "ticketmaster_discovery_event_id": "1kkZvPk_GA2vkUC",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AMPHITHEATRE IRELAND",
+      "MCD PRODUCTIONS",
+      "SIMPLE MINDS"
+    ]
   }
 ]

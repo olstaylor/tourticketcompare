@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/haiden-henderson-dublin-18-02-2027/event/18006528B29FC9CC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,7 +50,10 @@
     },
     "ticketmaster_discovery_event_id": "1AbZkfIGkewEHEG",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-haiden-henderson-2027-manchester-g5vhz_kduqskh",
@@ -68,7 +71,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-manchester-21-02-2027/event/1F006530CD6B31BC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -103,7 +106,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_KduQSkH",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS"
+    ]
   },
   {
     "id": "tm-haiden-henderson-2027-london-g5vhz_kew3xpo",
@@ -121,7 +127,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-london-23-02-2027/event/1F006530BD4A2960",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156,7 +162,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_KeW3xPO",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS"
+    ]
   },
   {
     "id": "tm-haiden-henderson-2027-cardiff-g5vhz_kdajwvp",
@@ -174,7 +183,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-cardiff-24-02-2027/event/1F006530C5732D16",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -209,7 +218,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_KdAjwVp",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS"
+    ]
   },
   {
     "id": "tm-haiden-henderson-2027-birmingham-g5dzz_ke9h3b2",
@@ -227,7 +239,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-birmingham-25-02-2027/event/3E006530976D260F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -262,7 +274,11 @@
     },
     "ticketmaster_discovery_event_id": "G5dzZ_Ke9h3b2",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "ACADEMY MUSIC GROUP (O2 INSTITUTE BIRMINGHAM)"
+    ]
   },
   {
     "id": "tm-haiden-henderson-2027-amsterdam-z698xzbpz16evufjub",
@@ -280,7 +296,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/haiden-henderson-tickets/2076226358?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -315,7 +331,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16evUFJub",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Melkweg"
+    ]
   },
   {
     "id": "tm-haiden-henderson-2027-madrid-z698xz2qz1kumofqp",
@@ -333,7 +352,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/haiden-henderson-the-dumblond-tour-tickets/377454765?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -368,7 +387,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kuMofqP",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation España S.A.U."
+    ]
   },
   {
     "id": "tm-haiden-henderson-2027-santa-ana-vv1aazkfwgkdn3e19",
@@ -386,7 +408,7 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-santa-ana-constellation-room-at-the-observatory-4-5-2027--concerts-pop/production/7593759",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haiden-henderson-santa-ana-california-04-05-2027/event/09006532EA482297",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -444,6 +466,9 @@
         "start": "2026-09-25T17:00:00Z",
         "end": "2027-03-29T10:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -462,7 +487,7 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-houston-the-bronze-peacock-at-house-of-blues-houston-4-9-2027--concerts-pop/production/7593669",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haiden-henderson-houston-texas-04-09-2027/event/3A006530C237F6D5",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -520,6 +545,9 @@
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-03-13T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
     ]
   },
   {
@@ -538,7 +566,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haiden-henderson-atlanta-georgia-04-14-2027/event/0E006532D4CF2BD8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -573,7 +601,10 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_K5fSwRb",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MISCELLANEOUS PROMOTER"
+    ]
   },
   {
     "id": "tm-haiden-henderson-2027-charlotte-g5evz_k7koqsd",
@@ -591,7 +622,7 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-charlotte-the-underground-at-the-fillmore-charlotte-4-18-2027--concerts-pop/production/7593518",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haiden-henderson-charlotte-north-carolina-04-18-2027/event/2D0065310645DC7B",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -649,6 +680,9 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-04-12T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -667,7 +701,7 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-washington-the-atlantis-4-20-2027--concerts-pop/production/7593687",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haiden-henderson-the-dumblond-tour-washington-district-of-columbia-04-20-2027/event/1500653023AED03B",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -725,6 +759,9 @@
         "start": "2026-09-23T14:00:00Z",
         "end": "2027-04-14T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -743,7 +780,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haiden-henderson-philadelphia-pennsylvania-04-22-2027/event/020065329551AC83",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -785,6 +822,9 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-04-16T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -803,7 +843,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haiden-henderson-new-york-new-york-04-23-2027/event/00006535E5BB12BA",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -845,6 +885,9 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-03-27T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -863,7 +906,7 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-boston-big-night-live-4-24-2027--concerts-pop/production/7593528",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haiden-henderson-the-dumblond-tour-boston-massachusetts-04-24-2027/event/01006530B5A77396",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -914,7 +957,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284328",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284328/Haiden-Henderson-tickets-Sat-Apr-24-2027-Big-Night-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284328/Haiden-Henderson-tickets-Sat-Apr-24-2027-Big-Night-Live",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-haiden-henderson-2027-toronto-1a8zkfggkd2jp9d",
@@ -932,7 +978,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/haiden-henderson-toronto-ontario-04-26-2027/event/10006535CF7255FB",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -974,6 +1020,10 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-04-20T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1167,7 +1217,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/haiden-henderson--the-dumblond-tour-tickets/1282387105?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1202,7 +1252,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZu0Z16v1eC67A",
     "timezone": "Europe/Prague",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CZECH REPUBLIC s.r.o."
+    ]
   },
   {
     "id": "tm-haiden-henderson-2027-nashville-rz7hnez1afgiq7",
@@ -1220,7 +1273,7 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-nashville-the-basement-east-4-13-2027--concerts-pop/production/7593675",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/haiden-henderson-the-basement-east-tickets/14328684",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1271,7 +1324,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284321",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284321/Haiden-Henderson-tickets-Tue-Apr-13-2027-The-Basement-East-Nashville"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284321/Haiden-Henderson-tickets-Tue-Apr-13-2027-The-Basement-East-Nashville",
+    "organizer_names": [
+      "LIVE NATION TENNESSEE"
+    ]
   },
   {
     "id": "tm-haiden-henderson-2027-san-francisco-rz7hnez1afggu7",
@@ -1289,7 +1345,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/haiden-henderson-the-dumblond-brick-and-mortar-music-hall-tickets/14335344",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1340,7 +1396,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284339",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284339/Haiden-Henderson-tickets-Fri-May-14-2027-Brick-Mortar-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284339/Haiden-Henderson-tickets-Fri-May-14-2027-Brick-Mortar-Music-Hall",
+    "organizer_names": [
+      "GOLDENVOICE (AEG)"
+    ]
   },
   {
     "id": "tm-haiden-henderson-2027-west-hollywood-z7r9jz1aaeexf",

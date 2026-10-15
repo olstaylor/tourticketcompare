@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-celebrating-the-edinburgh-17-10-2026/event/3600643EE8D37FED",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,11 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7818795",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7818795/Foy-Vance-tickets-Sat-Oct-17-2026-The-Queens-Hall-Edinburgh"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7818795/Foy-Vance-tickets-Sat-Oct-17-2026-The-Queens-Hall-Edinburgh",
+    "organizer_names": [
+      "DF CONCERTS",
+      "GIGS IN SCOTLAND"
+    ]
   },
   {
     "id": "tm-foy-vance-2026-stirling-1auzkoegkew3ujs",
@@ -84,7 +88,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-celebrating-the-stirling-18-10-2026/event/36006442BD4B69B3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -135,7 +139,11 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7802654",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7802654/Foy-Vance-tickets-Sun-Oct-18-2026-Stirling-Albert-Halls"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7802654/Foy-Vance-tickets-Sun-Oct-18-2026-Stirling-Albert-Halls",
+    "organizer_names": [
+      "DF CONCERTS",
+      "GIGS IN SCOTLAND"
+    ]
   },
   {
     "id": "tm-foy-vance-2026-london-g5dzz_akto7o5",
@@ -153,7 +161,7 @@
     "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-london-o2-shepherds-bush-empire-10-23-2026/production/6703611",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-london-23-10-2026/event/3E006451BF44444B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -188,7 +196,12 @@
     },
     "ticketmaster_discovery_event_id": "G5dzZ_AkTo7o5",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KILIMANJARO",
+      "ACADEMY MUSIC GROUP (O2 SHEPHERD'S BUSH EMPIRE)",
+      "COMMUNION PRESENTS LTD"
+    ]
   },
   {
     "id": "tm-foy-vance-2026-london-g5dzz_a5f7udr",
@@ -206,7 +219,7 @@
     "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-london-o2-shepherds-bush-empire-10-24-2026/production/6703609",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-london-24-10-2026/event/3E006452D4136EDE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -241,7 +254,12 @@
     },
     "ticketmaster_discovery_event_id": "G5dzZ_A5f7UDr",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KILIMANJARO",
+      "ACADEMY MUSIC GROUP (O2 SHEPHERD'S BUSH EMPIRE)",
+      "COMMUNION PRESENTS LTD"
+    ]
   },
   {
     "id": "tm-foy-vance-2026-manchester-g5vhz_3kr3ers",
@@ -259,7 +277,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foy-vance-manchester-25-10-2026/event/1F0065219E482BF3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -302,7 +320,10 @@
     "ticketmaster_discovery_event_id": "G5vHZ_3kr3eRS",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/foy-vance-tickets-manchester-albert-hall-manchester-25-10-2026/event/107122087"
+    "stubhub_international_url": "https://www.stubhub.ie/foy-vance-tickets-manchester-albert-hall-manchester-25-10-2026/event/107122087",
+    "organizer_names": [
+      "KMJ ENTERTAINMENT LTD"
+    ]
   },
   {
     "id": "tm-foy-vance-2026-wexford-1avoz_7gksprdxw",
@@ -320,7 +341,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/foy-vance-wexford-27-10-2026/event/1800644CD6BC3FBD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -355,7 +376,10 @@
     },
     "ticketmaster_discovery_event_id": "1AvOZ_7GkSpRdXW",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LANTERN EVENTS"
+    ]
   },
   {
     "id": "tm-foy-vance-2026-dublin-1abzko8gkdu8sqd",
@@ -373,7 +397,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/foy-vance-world-tour-2026-2027-dublin-29-10-2026/event/18006450CD4316BB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -408,7 +432,10 @@
     },
     "ticketmaster_discovery_event_id": "1AbZko8Gkdu8sQD",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-foy-vance-2026-los-angeles-z7r9jz1a7-9fp",
@@ -633,7 +660,7 @@
     "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-seattle-the-neptune-theatre-11-13-2026--concerts-alternative/production/6682762",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-seattle-washington-11-13-2026/event/0F00644CEDA8F124",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -684,7 +711,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746768",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7746768/Foy-Vance-tickets-Fri-Nov-13-2026-The-Neptune-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7746768/Foy-Vance-tickets-Fri-Nov-13-2026-The-Neptune-Theatre",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-foy-vance-2026-spokane-g5vzz_akiabhz",
@@ -702,7 +732,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-spokane-washington-11-14-2026/event/1E006451AC27A6F8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -753,7 +783,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748036",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748036/Foy-Vance-tickets-Sat-Nov-14-2026-Knitting-Factory-Spokane"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748036/Foy-Vance-tickets-Sat-Nov-14-2026-Knitting-Factory-Spokane",
+    "organizer_names": [
+      "KNITTING FACTORY SPOKANE"
+    ]
   },
   {
     "id": "tm-foy-vance-2026-boise-g5vzz_akyqnb8",
@@ -771,7 +804,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-boise-idaho-11-16-2026/event/1E006451B06AAE90",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -806,7 +839,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_AkYQnB8",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KNITTING FACTORY BOISE"
+    ]
   },
   {
     "id": "tm-foy-vance-2026-englewood-z7r9jz1a7--ke",
@@ -893,7 +929,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/foy-vance-and-the-paper-kites-brisbane-30-01-2027/event/13006519B31134DF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -928,7 +964,10 @@
     },
     "ticketmaster_discovery_event_id": "1AKZkf_GkeS7KKL",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "FRONTIER TOURING COMPANY"
+    ]
   },
   {
     "id": "tm-foy-vance-2027-birmingham-1aezz_7gkwqcsov",
@@ -946,7 +985,7 @@
     "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-birmingham-iron-city-birmingham-4-7-2027--concerts-alternative/production/6682776",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-20262027-birmingham-alabama-04-07-2027/event/2000644C9D3B3801",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -997,7 +1036,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748047",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748047/Foy-Vance-tickets-Wed-Apr-7-2027-Iron-City-Birmingham"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748047/Foy-Vance-tickets-Wed-Apr-7-2027-Iron-City-Birmingham",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-foy-vance-2027-atlanta-z7r9jz1a7--ka",
@@ -1084,7 +1126,7 @@
     "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-knoxville-bijou-theatre---knoxville-4-10-2027--concerts-alternative/production/6682783",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-knoxville-tennessee-04-10-2027/event/1B00644CA16DCDB6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1135,7 +1177,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748050",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748050/Foy-Vance-tickets-Sat-Apr-10-2027-Bijou-Theatre-TN"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748050/Foy-Vance-tickets-Sat-Apr-10-2027-Bijou-Theatre-TN",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-foy-vance-2027-cincinnati-z7r9jz1a7-k1v",
@@ -1275,7 +1320,7 @@
     "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-toronto-the-danforth-music-hall-4-21-2027--concerts-alternative/production/6682788",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/foy-vance-world-tour-2026-2027-toronto-ontario-04-21-2027/event/10006451D2F363B1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1310,7 +1355,12 @@
     },
     "ticketmaster_discovery_event_id": "1A8ZkooGkd3HUCs",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "COLLECTIVE CONCERTS"
+    ]
   },
   {
     "id": "tm-foy-vance-2027-york-z7r9jz1a7pnjx",
@@ -1397,7 +1447,7 @@
     "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-boston-the-wilbur-5-1-2027/production/6683021",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-boston-massachusetts-05-01-2027/event/0100644CDCC23B32",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1432,7 +1482,10 @@
     },
     "ticketmaster_discovery_event_id": "vv177Z_7GkSjYNiw",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "COMEDY CONNECTION"
+    ]
   },
   {
     "id": "tm-foy-vance-2026-san-francisco-z7r9jz1aae4_v",
@@ -1588,7 +1641,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/foy-vance-world-tour-the-basement-east-tickets/14117694",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1639,7 +1692,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746922",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7746922/Foy-Vance-tickets-Fri-Apr-9-2027-The-Basement-East-Nashville"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7746922/Foy-Vance-tickets-Fri-Apr-9-2027-The-Basement-East-Nashville",
+    "organizer_names": [
+      "LIVE NATION TENNESSEE"
+    ]
   },
   {
     "id": "tm-foy-vance-2027-chicago-rz7hnez1af7f-v",

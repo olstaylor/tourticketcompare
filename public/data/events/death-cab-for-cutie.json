@@ -206,7 +206,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/death-cab-for-cutie-brisbane-15-11-2026/event/13006488D937B1F5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -241,7 +241,10 @@
     },
     "ticketmaster_discovery_event_id": "1AKZk3FGkd_uD6g",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "SECRET SOUNDS TOURING"
+    ]
   },
   {
     "id": "tm-death-cab-for-cutie-2026-chicago-vvg18z_cej4l_d",
@@ -259,7 +262,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/2026-beyond-hunger-benefit-with-death-chicago-illinois-11-21-2026/event/040064E9DC55F67B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -294,7 +297,10 @@
     },
     "ticketmaster_discovery_event_id": "vvG18Z_CEj4L_D",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-death-cab-for-cutie-2027-honolulu-vvg1iz_3dqr_0d",
@@ -312,7 +318,7 @@
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-honolulu-neal-s-blaisdell-arena-1-19-2027--concerts-alternative/production/7571343",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-honolulu-hawaii-01-19-2027/event/0A00652EDABD9903",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -347,7 +353,10 @@
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_3DQR_0d",
     "timezone": "Pacific/Honolulu",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-death-cab-for-cutie-2027-nashville-g5viz_3bvgq-a",
@@ -365,7 +374,7 @@
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-nashville-the-truth-3-11-2027--concerts-alternative/production/7571341",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-nashville-tennessee-03-11-2027/event/1B00652EB4D5A845",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -423,6 +432,9 @@
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-02-12T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -441,7 +453,7 @@
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-knoxville-tennessee-theatre-3-12-2027--concerts-alternative/production/7571339",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-knoxville-tennessee-03-12-2027/event/1B00652F911577EC",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -500,7 +512,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271387",
     "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-knoxville-tickets-3-12-2027/event/107669558",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271387/Death-Cab-for-Cutie-tickets-Fri-Mar-12-2027-Tennessee-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271387/Death-Cab-for-Cutie-tickets-Fri-Mar-12-2027-Tennessee-Theatre",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-death-cab-for-cutie-2027-miami-beach-vvg1vz_3ltyqny",
@@ -518,7 +533,7 @@
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-miami-beach-fillmore-miami-beach-at-jackie-gleason-theater-3-18-2027--concerts-alternative/production/7571335",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-miami-beach-florida-03-18-2027/event/0D00652AFFE5DAB9",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -569,7 +584,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271388",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271388/Death-Cab-for-Cutie-tickets-Thu-Mar-18-2027-The-Fillmore-Miami-Beach-At-Jackie-Gleason-Theater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271388/Death-Cab-for-Cutie-tickets-Thu-Mar-18-2027-The-Fillmore-Miami-Beach-At-Jackie-Gleason-Theater",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-death-cab-for-cutie-2027-orlando-1aefz_3gkr16pfe",
@@ -587,7 +605,7 @@
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-orlando-hard-rock-live---orlando-3-20-2027--concerts-alternative/production/7571329",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-orlando-florida-03-20-2027/event/2200652BCA1E5202",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -646,7 +664,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271389",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271389/Death-Cab-for-Cutie-tickets-Sat-Mar-20-2027-Hard-Rock-Live-Orlando",
-    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-orlando-tickets-3-20-2027/event/107669541"
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-orlando-tickets-3-20-2027/event/107669541",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-death-cab-for-cutie-2027-houston-g5diz_3dogrf9",
@@ -664,7 +685,7 @@
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-houston-713-music-hall-3-22-2027--concerts-alternative/production/7571325",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-houston-texas-03-22-2027/event/3A00652ED132F517",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -723,7 +744,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271390",
     "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-houston-tickets-3-22-2027/event/107669472",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271390/Death-Cab-for-Cutie-tickets-Mon-Mar-22-2027-713-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271390/Death-Cab-for-Cutie-tickets-Mon-Mar-22-2027-713-Music-Hall",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-death-cab-for-cutie-2027-pittsburgh-1apzkfygkd_ubdt",
@@ -741,7 +765,7 @@
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-pittsburgh-citizens-live-at-the-wylie-3-30-2027--concerts-alternative/production/7571322",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-pittsburgh-pennsylvania-03-30-2027/event/16006530D9DBA0FF",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -792,7 +816,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271391",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271391/Death-Cab-for-Cutie-tickets-Tue-Mar-30-2027-Citizens-Live-at-The-Wylie"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271391/Death-Cab-for-Cutie-tickets-Tue-Mar-30-2027-Citizens-Live-at-The-Wylie",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-death-cab-for-cutie-2027-niagara-falls-1avzz_3gkxslrqs",
@@ -810,7 +837,7 @@
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-niagara-falls-olg-stage-at-fallsview-casino-4-3-2027--concerts-alternative/production/7571288",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-niagara-falls-ontario-04-03-2027/event/1000652FB1ADE6B1",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -845,7 +872,10 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_3GkXslrQs",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MISCELLANEOUS PROMOTER"
+    ]
   },
   {
     "id": "tm-death-cab-for-cutie-2027-ottawa-1ad7z_3gkhxejxw",
@@ -863,7 +893,7 @@
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-ottawa-history-ottawa-4-4-2027--concerts-alternative/production/7571284",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-ottawa-ontario-04-04-2027/event/3100652F229DCFB2",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -898,7 +928,11 @@
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_3GkHxEjXw",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-death-cab-for-cutie-2027-montreal-1ad7z_3gkrplg-n",
@@ -916,7 +950,7 @@
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-montreal-mtelus-4-5-2027--concerts-alternative/production/7571278",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-montreal-quebec-04-05-2027/event/3100652BD6ACC86A",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -975,7 +1009,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271400",
     "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-tickets-montreal-mtelus-4-5-2027/event/107668756",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271400/Death-Cab-for-Cutie-tickets-Mon-Apr-5-2027-MTelus"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271400/Death-Cab-for-Cutie-tickets-Mon-Apr-5-2027-MTelus",
+    "organizer_names": [
+      "EVENKO CO-PRO NON-LN"
+    ]
   },
   {
     "id": "tm-death-cab-for-cutie-2027-boston-vv177z_3gklgkjcy",
@@ -993,7 +1030,7 @@
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-boston-mgm-music-hall-at-fenway-4-7-2027--concerts-alternative/production/7571320",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-07-2027/event/0100652AF54DC3B9",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1052,7 +1089,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271392",
     "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-boston-tickets-4-7-2027/event/107668654",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271392/Death-Cab-for-Cutie-tickets-Wed-Apr-7-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271392/Death-Cab-for-Cutie-tickets-Wed-Apr-7-2027-MGM-Music-Hall-at-Fenway-Park",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-death-cab-for-cutie-2027-boston-vv177z_3gklgfg2c",
@@ -1070,7 +1110,7 @@
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-boston-mgm-music-hall-at-fenway-4-8-2027--concerts-alternative/production/7571318",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-08-2027/event/0100652AF550C3CE",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1129,7 +1169,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271393",
     "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-boston-tickets-4-8-2027/event/107668655",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271393/Death-Cab-for-Cutie-tickets-Thu-Apr-8-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271393/Death-Cab-for-Cutie-tickets-Thu-Apr-8-2027-MGM-Music-Hall-at-Fenway-Park",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-death-cab-for-cutie-2027-uncasville-g5vvz_3vqdtrt",
@@ -1147,7 +1190,7 @@
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-uncasville-mohegan-sun-arena-ct-4-9-2027--concerts-alternative/production/7571310",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-uncasville-connecticut-04-09-2027/event/1D00652D1AEFFBFF",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1198,7 +1241,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271394",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271394/Death-Cab-for-Cutie-tickets-Fri-Apr-9-2027-Mohegan-Sun-Arena-CT"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271394/Death-Cab-for-Cutie-tickets-Fri-Apr-9-2027-Mohegan-Sun-Arena-CT",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-death-cab-for-cutie-2027-portland-vv1k7z_ke_g7zcjz",
@@ -1216,7 +1262,7 @@
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-portland-state-theatre-portland-4-11-2027--concerts-alternative/production/7571306",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-portland-maine-04-11-2027/event/0100653099E0E738",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1267,7 +1313,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271395",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271395/Death-Cab-for-Cutie-tickets-Sun-Apr-11-2027-State-Theatre-ME"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271395/Death-Cab-for-Cutie-tickets-Sun-Apr-11-2027-State-Theatre-ME",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-death-cab-for-cutie-2027-new-york-g5dyz_kedn3qx",
@@ -1285,7 +1334,7 @@
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-new-york-radio-city-music-hall-4-13-2027--concerts-alternative/production/7571294",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-new-york-new-york-04-13-2027/event/3C006530BB8D26A2",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1356,6 +1405,9 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-04-14T01:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "BOWERY PRESENTS"
     ]
   },
   {
@@ -1374,7 +1426,7 @@
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-asheville-harrahs-cherokee-center-asheville-4-16-2027--concerts-alternative/production/7571292",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-asheville-north-carolina-04-16-2027/event/2D00652B2043D4EE",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1409,7 +1461,10 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_3iO8WKm",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-death-cab-for-cutie-2027-atlanta-z7r9jz1aavufx",

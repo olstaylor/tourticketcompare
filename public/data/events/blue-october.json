@@ -344,7 +344,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-grand-rapids-glc-live-at-20-monroe-10-29-2026--concerts-rock/production/6823186",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-grand-rapids-michigan-10-29-2026/event/080064650A25D587",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -395,7 +395,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827963",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827963/Blue-October-tickets-Thu-Oct-29-2026-GLC-Live-at-20-Monroe"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827963/Blue-October-tickets-Thu-Oct-29-2026-GLC-Live-at-20-Monroe",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-blue-october-2026-detroit-vv17oz_kgkmvfl46",
@@ -413,7 +416,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-detroit-the-fillmore-detroit-10-30-2026/production/6822804",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-detroit-michigan-10-30-2026/event/0800646DF422B547",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -471,6 +474,9 @@
         "start": "2026-03-27T14:00:00Z",
         "end": "2026-10-28T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -489,7 +495,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-toronto-the-danforth-music-hall-10-31-2026--concerts-rock/production/6823323",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/blue-october-foiled-20th-anniversary-world-toronto-ontario-10-31-2026/event/1000646D05C8D75B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -524,7 +530,11 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_kGkVAwuqh",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-blue-october-2026-montreal-1aszkowgke-yptc",
@@ -542,7 +552,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-montreal-mtelus-11-1-2026/production/6820278",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/blue-october-foiled-20th-anniversary-world-montreal-quebec-11-01-2026/event/31006472A1C25FED",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -601,7 +611,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827988",
     "stubhub_international_url": "https://www.stubhub.ie/blue-october-tickets-montreal-mtelus-11-1-2026/event/107148355",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827988/Blue-October-tickets-Sun-Nov-1-2026-MTelus"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827988/Blue-October-tickets-Sun-Nov-1-2026-MTelus",
+    "organizer_names": [
+      "EVENKO CO-PRO NON-LN"
+    ]
   },
   {
     "id": "tm-blue-october-2026-portland-vv177z_kgkuvxsds",
@@ -619,7 +632,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-portland-state-theatre-portland-11-3-2026/production/6823959",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-portland-maine-11-03-2026/event/0100646DB4FB3EF1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -670,7 +683,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827964",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827964/Blue-October-tickets-Tue-Nov-3-2026-State-Theatre-ME"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827964/Blue-October-tickets-Tue-Nov-3-2026-State-Theatre-ME",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-blue-october-2026-new-york-city-k7v17_67ag7rfqz",
@@ -688,7 +704,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-new-york-city-new-york-11-04-2026/event/0000647105BD4778",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -723,7 +739,10 @@
     },
     "ticketmaster_discovery_event_id": "k7v17_67AG7Rfqz",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-blue-october-2026-albany-z7r9jz1a7-v0o",
@@ -879,7 +898,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-nashville-brown-county-music-center-11-8-2026--concerts-rock/production/6823197",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-nashville-indiana-11-08-2026/event/05006473B879B777",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -930,7 +949,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827966",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827966/Blue-October-tickets-Sun-Nov-8-2026-Brown-County-Music-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827966/Blue-October-tickets-Sun-Nov-8-2026-Brown-County-Music-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-blue-october-2026-north-tonawanda-z7r9jz1aazwby",
@@ -1001,7 +1023,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-red-bank-hackensack-meridian-health-theatre-at-the-count-basie-center-11-12-2026--concerts-rock/production/6823200",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-red-bank-new-jersey-11-12-2026/event/1D00646DBBFF6CF7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1052,7 +1074,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827967",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827967/Blue-October-tickets-Thu-Nov-12-2026-Hackensack-Meridian-Health-Theatre-at-the-Count-Basie-Center-for-the-Arts"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827967/Blue-October-tickets-Thu-Nov-12-2026-Hackensack-Meridian-Health-Theatre-at-the-Count-Basie-Center-for-the-Arts",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-blue-october-2026-boston-vv177z_kgkw31n77",
@@ -1070,7 +1095,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-boston-citizens-house-of-blues-boston-11-13-2026--concerts-rock/production/6823202",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-boston-massachusetts-11-13-2026/event/0100646C922AA104",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1129,7 +1154,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827968",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827968/Blue-October-tickets-Fri-Nov-13-2026-Citizens-House-Of-Blues-Boston",
-    "stubhub_international_url": "https://www.stubhub.ie/blue-october-boston-tickets-11-13-2026/event/107148356"
+    "stubhub_international_url": "https://www.stubhub.ie/blue-october-boston-tickets-11-13-2026/event/107148356",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-blue-october-2026-wilkes-barre-vv1aezkosgkdamrl_",
@@ -1147,7 +1175,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-wilkes-barre-pennsylvania-11-14-2026/event/02006473C5DDEAD9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1182,7 +1210,10 @@
     },
     "ticketmaster_discovery_event_id": "vv1AeZkoSGkdAMrl_",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-blue-october-2026-philadelphia-vv1aezkowgkdcmrr7",
@@ -1200,7 +1231,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-philadelphia-the-fillmore-philadelphia-11-15-2026/production/6822678",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alt-1045-presents-blue-october-philadelphia-pennsylvania-11-15-2026/event/02006472CEBAFBC4",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1258,6 +1289,9 @@
         "start": "2026-03-27T14:00:00Z",
         "end": "2026-10-19T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1276,7 +1310,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-charlotte-the-fillmore-charlotte-11-17-2026--concerts-rock/production/6823216",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-charlotte-north-carolina-11-17-2026/event/2D00646A8C5589FF",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1342,6 +1376,9 @@
         "start": "2026-03-27T14:00:00Z",
         "end": "2026-10-18T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1498,7 +1535,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-orlando-hard-rock-live---orlando-11-21-2026--concerts-rock/production/6823222",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-orlando-florida-11-21-2026/event/2200646AB78B7A93",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1557,7 +1594,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827973",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827973/Blue-October-tickets-Sat-Nov-21-2026-Hard-Rock-Live-Orlando",
-    "stubhub_international_url": "https://www.stubhub.ie/blue-october-orlando-tickets-11-21-2026/event/107152093"
+    "stubhub_international_url": "https://www.stubhub.ie/blue-october-orlando-tickets-11-21-2026/event/107152093",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-blue-october-2026-atlanta-vvg1zz_6ddzdk3",
@@ -1575,7 +1615,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-atlanta-georgia-11-22-2026/event/0E006470C3E3B192",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1610,7 +1650,10 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_6ddzDk3",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-blue-october-2026-nashville-g5viz_kskltsv",
@@ -1628,7 +1671,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-nashville-the-truth-11-25-2026/production/6789854",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-nashville-tennessee-11-25-2026/event/1B00646CC67FFC74",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1686,7 +1729,10 @@
         "end": "2026-10-26T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808857/Blue-October-tickets-Wed-Nov-25-2026-The-Truth"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808857/Blue-October-tickets-Wed-Nov-25-2026-The-Truth",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-blue-october-2026-irving-vvg1yz_6kcyhkx",
@@ -1704,7 +1750,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-irving-pavilion-at-toyota-music-factory-11-27-2026/production/6823945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-irving-texas-11-27-2026/event/0C006474CEC1B4E2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1747,7 +1793,10 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_6KCYhKx",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/blue-october-irving-tickets-11-27-2026/event/107148357"
+    "stubhub_international_url": "https://www.stubhub.ie/blue-october-irving-tickets-11-27-2026/event/107148357",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-blue-october-2026-irving-vvg1yz_68kdxnx",
@@ -1765,7 +1814,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-irving-pavilion-at-toyota-music-factory-11-28-2026--concerts-rock/production/6823236",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/2day-pass-blue-october-foiled-20th-irving-texas-11-28-2026/event/0C00647413EE28E2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1824,7 +1873,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827976",
     "stubhub_international_url": "https://www.stubhub.ie/blue-october-irving-tickets-11-28-2026/event/107151195",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827976/Blue-October-tickets-Sat-Nov-28-2026-The-Pavilion-at-Toyota-Music-Factory"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827976/Blue-October-tickets-Sat-Nov-28-2026-The-Pavilion-at-Toyota-Music-Factory",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-blue-october-2026-kansas-city-z7r9jz1a7xk4-",
@@ -1911,7 +1963,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-minneapolis-minnesota-12-04-2026/event/06006472DC001BE4",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1969,6 +2021,9 @@
         "start": "2026-03-27T15:00:00Z",
         "end": "2026-11-07T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1987,7 +2042,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-la-vista-nebraska-12-05-2026/event/2000646CC4254AB9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2022,7 +2077,10 @@
     },
     "ticketmaster_discovery_event_id": "1AeZZ_kGkS7afny",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MAMMOTH INC"
+    ]
   },
   {
     "id": "tm-blue-october-2026-oklahoma-city-z7r9jz1a7-v0b",
@@ -2093,7 +2151,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-beaumont-jefferson-theatre-tx-12-10-2026--concerts-rock/production/6822983",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-beaumont-texas-12-10-2026/event/3A00646BBA81C13F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2144,7 +2202,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827981",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827981/Blue-October-tickets-Thu-Dec-10-2026-Jefferson-Theatre-TX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827981/Blue-October-tickets-Thu-Dec-10-2026-Jefferson-Theatre-TX",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-blue-october-2026-austin-z7r9jz1a7-v0k",
@@ -2231,7 +2292,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-hidalgo-payne-arena-12-13-2026--concerts-rock/production/6823281",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-hidalgo-texas-12-13-2026/event/3A0064778B494B44",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2282,7 +2343,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827983",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827983/Blue-October-tickets-Sun-Dec-13-2026-Payne-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827983/Blue-October-tickets-Sun-Dec-13-2026-Payne-Arena",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-blue-october-2026-corpus-christi-g5diz_65ljyy0",
@@ -2300,7 +2364,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-corpus-christi-selena-auditorium-at-hilliard-center-12-17-2026/production/6823905",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-corpus-christi-texas-12-17-2026/event/3A006472EB730E64",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2351,7 +2415,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827984",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827984/Blue-October-tickets-Thu-Dec-17-2026-Selena-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827984/Blue-October-tickets-Thu-Dec-17-2026-Selena-Auditorium",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-blue-october-2026-houston-g5diz_65lrohi",
@@ -2369,7 +2436,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-houston-713-music-hall-12-18-2026--concerts-rock/production/6823304",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-houston-texas-12-18-2026/event/3A006472EBBE0F2C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2428,7 +2495,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827985",
     "stubhub_international_url": "https://www.stubhub.ie/blue-october-houston-tickets-12-18-2026/event/107148358",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827985/Blue-October-tickets-Fri-Dec-18-2026-713-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827985/Blue-October-tickets-Fri-Dec-18-2026-713-Music-Hall",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-blue-october-2026-houston-g5diz_65lyohs",
@@ -2446,7 +2516,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-houston-713-music-hall-12-19-2026--concerts-rock/production/6823310",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-houston-texas-12-19-2026/event/3A006472EBC20F31",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2505,7 +2575,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827986",
     "stubhub_international_url": "https://www.stubhub.ie/blue-october-houston-tickets-12-19-2026/event/107152094",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827986/Blue-October-tickets-Sat-Dec-19-2026-713-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827986/Blue-October-tickets-Sat-Dec-19-2026-713-Music-Hall",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-blue-october-2026-houston-g5diz_1sa9wed",
@@ -2523,7 +2596,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-houston-713-music-hall-12-20-2026/production/7037148",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-houston-texas-12-20-2026/event/3A0064ACC55FD9C3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2582,7 +2655,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7969786",
     "stubhub_international_url": "https://www.stubhub.ie/blue-october-houston-tickets-12-20-2026/event/107447944",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7969786/Blue-October-tickets-Sun-Dec-20-2026-713-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7969786/Blue-October-tickets-Sun-Dec-20-2026-713-Music-Hall",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-blue-october-2027-midland-z7r9jz1a70pjo",
@@ -2669,7 +2745,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-el-paso-the-plaza-theatre-performing-arts-center-1-30-2027/production/7022744",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-el-paso-texas-01-30-2027/event/0C0064ABB3FA7927",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2704,7 +2780,10 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1mSXE0E",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-blue-october-2027-amarillo-z7r9jz1a7pxau",
@@ -2791,7 +2870,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-tucson-rialto-theatre-tucson-2-3-2027/production/7024769",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-rialto-theatre-tucson-arizona-02-03-2027/event/190064A7922353D8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2842,7 +2921,10 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957261",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957261/Blue-October-tickets-Wed-Feb-3-2027-Rialto-Theatre-Tucson"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957261/Blue-October-tickets-Wed-Feb-3-2027-Rialto-Theatre-Tucson",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-blue-october-2027-phoenix-17k8v0g61lto1cb",
@@ -2860,7 +2942,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-phoenix-the-van-buren-2-5-2027/production/7022722",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-phoenix-arizona-02-05-2027/event/190064A7E944A3BA",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2918,7 +3000,10 @@
         "end": "2027-01-06T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957263/Blue-October-tickets-Fri-Feb-5-2027-The-Van-Buren"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957263/Blue-October-tickets-Fri-Feb-5-2027-The-Van-Buren",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-blue-october-2027-phoenix-17k8v0g61ltk12k",
@@ -2936,7 +3021,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-phoenix-the-van-buren-2-6-2027/production/7022740",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-phoenix-arizona-02-06-2027/event/190064A7E94CA3C6",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2994,7 +3079,10 @@
         "end": "2027-01-07T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957264/Blue-October-tickets-Sat-Feb-6-2027-The-Van-Buren"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957264/Blue-October-tickets-Sat-Feb-6-2027-The-Van-Buren",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-blue-october-2027-los-angeles-vvg10z_1ri5jq_",
@@ -3012,7 +3100,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-los-angeles-the-wiltern-2-7-2027/production/7022438",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-los-angeles-california-02-07-2027/event/090064A7A82DC699",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3070,7 +3158,10 @@
         "end": "2027-01-08T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957265/Blue-October-tickets-Sun-Feb-7-2027-The-Wiltern"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957265/Blue-October-tickets-Sun-Feb-7-2027-The-Wiltern",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-blue-october-2027-san-luis-obispo-z7r9jz1a70_f7",
@@ -3157,7 +3248,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-valley-center-events-center-at-harrahs-resort-socal-2-11-2027/production/7022649",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-valley-center-california-02-11-2027/event/0A0064A69CE5AFF9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3192,7 +3283,10 @@
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_1QjyQTy",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-blue-october-2027-las-vegas-17ayv0g61ppuqbc",
@@ -3210,7 +3304,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-las-vegas-brooklyn-bowl---las-vegas-2-13-2027/production/7023410",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-las-vegas-nevada-02-13-2027/event/170064A5A535D62D",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3276,6 +3370,9 @@
         "start": "2026-05-15T17:00:00Z",
         "end": "2027-01-17T06:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -3432,7 +3529,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-sacramento-channel-24-2-19-2027/production/7064297",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-sacramento-california-02-19-2027/event/1C0064A4F59BC9A6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3483,7 +3580,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7987108",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7987108/Blue-October-tickets-Fri-Feb-19-2027-Channel-24"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7987108/Blue-October-tickets-Fri-Feb-19-2027-Channel-24",
+    "organizer_names": [
+      "ANOTHER PLANET"
+    ]
   },
   {
     "id": "tm-blue-october-2027-sacramento-g5vyz_1kvkgjw",
@@ -3501,7 +3601,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-sacramento-channel-24-2-20-2027/production/7023376",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-sacramento-california-02-20-2027/event/1C0064A4F44CC732",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3552,7 +3652,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957274",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957274/Blue-October-tickets-Sat-Feb-20-2027-Channel-24"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957274/Blue-October-tickets-Sat-Feb-20-2027-Channel-24",
+    "organizer_names": [
+      "ANOTHER PLANET"
+    ]
   },
   {
     "id": "tm-blue-october-2027-reno-17c8v0g61lh4py0",
@@ -3570,7 +3673,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-reno-silver-legacy-casino-2-21-2027/production/7021704",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-reno-nevada-02-21-2027/event/390064A7DB556E64",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3613,7 +3716,10 @@
     "ticketmaster_discovery_event_id": "17C8v0G61Lh4py0",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957275"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957275",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-blue-october-2027-spokane-g5vzz_1rinhtu",
@@ -3631,7 +3737,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-spokane-knitting-factory-concert-house-spokane-2-24-2027/production/7025363",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-spokane-washington-02-24-2027/event/1E0064ABECABCFCD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3682,7 +3788,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957276",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957276/Blue-October-tickets-Wed-Feb-24-2027-Knitting-Factory-Spokane"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957276/Blue-October-tickets-Wed-Feb-24-2027-Knitting-Factory-Spokane",
+    "organizer_names": [
+      "KNITTING FACTORY SPOKANE"
+    ]
   },
   {
     "id": "tm-blue-october-2027-vancouver-1778v0g61pgtl-u",
@@ -3700,7 +3809,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/blue-october-vancouver-british-columbia-02-25-2027/event/110064A5B5FEB876",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3751,7 +3860,13 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957283",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957283/Blue-October-tickets-Thu-Feb-25-2027-Commodore-Ballroom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957283/Blue-October-tickets-Thu-Feb-25-2027-Commodore-Ballroom",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ]
   },
   {
     "id": "tm-blue-october-2027-seattle-vvg1hz_1rxwtla",
@@ -3769,7 +3884,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-seattle-moore-theatre-2-26-2027/production/7022778",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-seattle-washington-02-26-2027/event/0F0064A7A2CA97C9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3820,7 +3935,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957277",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957277/Blue-October-tickets-Fri-Feb-26-2027-Moore-Theatre-WA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957277/Blue-October-tickets-Fri-Feb-26-2027-Moore-Theatre-WA",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-blue-october-2027-portland-z7r9jz1a70_-u",
@@ -3976,7 +4094,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-boise-knitting-factory-concert-house-boise-3-3-2027/production/7025345",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-boise-idaho-03-03-2027/event/1E0064ABEDD1D125",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4011,7 +4129,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1RcVq7P",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KNITTING FACTORY BOISE"
+    ]
   },
   {
     "id": "tm-blue-october-2027-salt-lake-city-z7r9jz1a70te4",
@@ -4289,7 +4410,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-des-moines-hoyt-sherman-place-3-12-2027/production/7023460",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-des-moines-iowa-03-12-2027/event/060064A8A56ED838",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4340,7 +4461,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957280",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957280/Blue-October-tickets-Fri-Mar-12-2027-Hoyt-Sherman-Place-Theater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957280/Blue-October-tickets-Fri-Mar-12-2027-Hoyt-Sherman-Place-Theater",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-blue-october-2027-rockford-17f8v0g61mnfk5g",
@@ -4358,7 +4482,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-rockford-hard-rock-live---rockford-3-14-2027/production/7022376",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-rockford-illinois-03-14-2027/event/210064ABAA2132CC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4409,7 +4533,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957282",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957282/Blue-October-tickets-Sun-Mar-14-2027-Hard-Rock-Live-Rockford"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957282/Blue-October-tickets-Sun-Mar-14-2027-Hard-Rock-Live-Rockford",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-blue-october-2027-saint-louis-1ae7z_3gkiei5ox",
@@ -4427,7 +4554,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-saint-louis-missouri-03-13-2027/event/2100652A02B0B47E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4462,7 +4589,10 @@
     },
     "ticketmaster_discovery_event_id": "1Ae7Z_3GkIei5oX",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-blue-october-2026-san-antonio-z7r9jz1a7-vz7",
@@ -4480,7 +4610,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-san-antonio-boeing-center-at-tech-port-12-12-2026--concerts-rock/production/6823275",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-VZ7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -4531,7 +4661,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827982",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827982/Blue-October-tickets-Sat-Dec-12-2026-Boeing-Center-at-Tech-Port"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827982/Blue-October-tickets-Sat-Dec-12-2026-Boeing-Center-at-Tech-Port",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-blue-october-2027-albuquerque-z7r9jz1a70pgn",
@@ -4549,7 +4682,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-albuquerque-revel-entertainment-center-2-4-2027/production/7023150",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70pGN",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -4600,7 +4733,10 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957262",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957262/Blue-October-tickets-Thu-Feb-4-2027-Revel-Entertainment-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957262/Blue-October-tickets-Thu-Feb-4-2027-Revel-Entertainment-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-blue-october-2026-little-rock-rz7hnez1afr4pn",
@@ -4671,7 +4807,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-ventura-the-majestic-ventura-theater-2-12-2027/production/7022712",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/blue-october-ventura-theater-tickets/14911223",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -4706,6 +4842,7 @@
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1Af0oFN",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "end_datetime_iso": "2027-02-13T07:00:00Z"
   }
 ]

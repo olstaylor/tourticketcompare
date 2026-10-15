@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/flans-tickets-el-paso-the-plaza-theatre-performing-arts-center-2-12-2027--concerts-world-music/production/7593302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-el-paso-texas-02-12-2027/event/0C006530C54EB984",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,7 +50,10 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KdAKlJ7",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-flans-2027-tucson-1av0z_3gkbvrkjg",
@@ -68,7 +71,7 @@
     "vividseats_url": "https://www.vividseats.com/flans-tickets-tucson-linda-ronstadt-music-hall-2-13-2027--concerts-world-music/production/7593512",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-tucson-arizona-02-13-2027/event/1900652E81BD370C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -119,7 +122,10 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289130",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289130/Flans-tickets-Sat-Feb-13-2027-The-Linda-Ronstadt-Music-Hall-At-Tucson-Convention-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289130/Flans-tickets-Sat-Feb-13-2027-The-Linda-Ronstadt-Music-Hall-At-Tucson-Convention-Center",
+    "organizer_names": [
+      "CMN - CARDENAS MARKETING NETWORK"
+    ]
   },
   {
     "id": "tm-flans-2027-atlanta-vvg1zz_k5zjmuk",
@@ -137,7 +143,7 @@
     "vividseats_url": "https://www.vividseats.com/flans-tickets-atlanta-cobb-energy-performing-arts-centre-2-25-2027--concerts-world-music/production/7593526",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-atlanta-georgia-02-25-2027/event/0E006532C09AE346",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -188,7 +194,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289131",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289131/Flans-tickets-Thu-Feb-25-2027-Cobb-Energy-Performing-Arts-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289131/Flans-tickets-Thu-Feb-25-2027-Cobb-Energy-Performing-Arts-Centre",
+    "organizer_names": [
+      "MISCELLANEOUS PROMOTER"
+    ]
   },
   {
     "id": "tm-flans-2027-charlotte-g5evz_3xf-_ej",
@@ -206,7 +215,7 @@
     "vividseats_url": "https://www.vividseats.com/flans-tickets-charlotte-ovens-auditorium-2-26-2027--concerts-world-music/production/7593534",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-charlotte-north-carolina-02-26-2027/event/2D00652F948599DC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -257,7 +266,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289132",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289132/Flans-tickets-Fri-Feb-26-2027-Ovens-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289132/Flans-tickets-Fri-Feb-26-2027-Ovens-Auditorium",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-flans-2027-raleigh-g5evz_k_sqdn_",
@@ -275,7 +287,7 @@
     "vividseats_url": "https://www.vividseats.com/flans-tickets-raleigh-martin-marietta-center-for-the-performing-arts---memorial-auditorium-2-27-2027--concerts-world-music/production/7613601",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-raleigh-north-carolina-02-27-2027/event/2D006536736838D9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -326,7 +338,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289133",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289133/Flans-tickets-Sat-Feb-27-2027-Raleigh-Memorial-Auditorium-At-Martin-Marietta-Center-for-the-Performing-Arts"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289133/Flans-tickets-Sat-Feb-27-2027-Raleigh-Memorial-Auditorium-At-Martin-Marietta-Center-for-the-Performing-Arts",
+    "organizer_names": [
+      "PROMOTER NOT DEFINED"
+    ]
   },
   {
     "id": "tm-flans-2027-denver-g5vzz_kk90pao",
@@ -344,7 +359,7 @@
     "vividseats_url": "https://www.vividseats.com/flans-tickets-denver-paramount-theatre-denver-3-4-2027--concerts-world-music/production/7593546",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans40-sin-control-tour-denver-colorado-03-04-2027/event/1E00653197916251",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -395,7 +410,10 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289134",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289134/Flans-tickets-Thu-Mar-4-2027-Paramount-Theatre-Denver"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289134/Flans-tickets-Thu-Mar-4-2027-Paramount-Theatre-Denver",
+    "organizer_names": [
+      "CMN - CARDENAS MARKETING NETWORK"
+    ]
   },
   {
     "id": "tm-flans-2027-kansas-city-z7r9jz1aaevrv",
@@ -482,7 +500,7 @@
     "vividseats_url": "https://www.vividseats.com/flans-tickets-san-diego-san-diego-civic-theatre-3-12-2027--concerts-world-music/production/7593616",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-san-diego-california-03-12-2027/event/0A00652BC857C1A5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -533,7 +551,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289135",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289135/Flans-tickets-Fri-Mar-12-2027-San-Diego-Civic-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289135/Flans-tickets-Fri-Mar-12-2027-San-Diego-Civic-Theatre",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-flans-2027-los-angeles-vv1aazkfsgkdiitze",
@@ -551,7 +572,7 @@
     "vividseats_url": "https://www.vividseats.com/flans-tickets-los-angeles-orpheum-theatre---los-angeles-3-14-2027--concerts-world-music/production/7593618",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-los-angeles-california-03-14-2027/event/09006533ECB3F002",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -602,7 +623,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289136",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289136/Flans-tickets-Sun-Mar-14-2027-Orpheum-Theatre-Los-Angeles"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289136/Flans-tickets-Sun-Mar-14-2027-Orpheum-Theatre-Los-Angeles",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-flans-2027-houston-g5diz_k6-kevr",
@@ -620,7 +644,7 @@
     "vividseats_url": "https://www.vividseats.com/flans-tickets-houston-houston-arena-theatre-5-29-2027/production/7593883",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-houston-texas-05-29-2027/event/3A006531E11A7D2F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -671,7 +695,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289137",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289137/Flans-tickets-Sat-May-29-2027-Houston-Arena-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289137/Flans-tickets-Sat-May-29-2027-Houston-Arena-Theatre",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-flans-2027-mcallen-g5diz_3wgxkbw",
@@ -689,7 +716,7 @@
     "vividseats_url": "https://www.vividseats.com/flans-tickets-mcallen-mcallen-performing-arts-center-5-30-2027--concerts-world-music/production/7593630",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-mcallen-texas-05-30-2027/event/3A00652F75893EB2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -740,7 +767,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289138",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289138/Flans-tickets-Sun-May-30-2027-McAllen-Performing-Arts-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289138/Flans-tickets-Sun-May-30-2027-McAllen-Performing-Arts-Center",
+    "organizer_names": [
+      "CMN - CARDENAS MARKETING NETWORK"
+    ]
   },
   {
     "id": "tm-flans-2027-san-jose-g5vyz_k6lhlxq",
@@ -758,7 +788,7 @@
     "vividseats_url": "https://www.vividseats.com/flans-tickets-san-jose-san-jose-civic-6-3-2027--concerts-world-music/production/7593636",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-sin-control-tour-2027-san-jose-california-06-03-2027/event/1C006531EBF2B89A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -809,7 +839,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289139",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289139/Flans-tickets-Thu-Jun-3-2027-San-Jose-Civic"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289139/Flans-tickets-Thu-Jun-3-2027-San-Jose-Civic",
+    "organizer_names": [
+      "AMPLIFY ENTERTAINMENT"
+    ]
   },
   {
     "id": "tm-flans-2027-grand-prairie-z7r9jz1aaeaoe",

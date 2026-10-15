@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/latto-las-vegas-nevada-10-31-2026/event/2E006536EFEB6CDC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286255",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286255/Latto-tickets-Sat-Oct-31-2026-On-The-Record-at-Park-MGM"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286255/Latto-tickets-Sat-Oct-31-2026-On-The-Record-at-Park-MGM",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-latto-2026-petersburg-vvg17z_2r3gq4t",

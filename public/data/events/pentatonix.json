@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-tacoma-tacoma-dome-11-5-2026/production/7393423",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-tacoma-washington-11-05-2026/event/0F0064F0037F291C",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -73,6 +73,9 @@
         "start": "2026-08-14T17:00:00Z",
         "end": "2026-10-30T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -91,7 +94,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-vancouver-rogers-arena-11-7-2026/production/7394177",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/pentatonix-christmas-in-the-city-tour-vancouver-british-columbia-11-07-2026/event/110065058A055491",
-    "last_verified_at": "2026-10-14",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -162,6 +165,12 @@
         "start": "2026-08-14T17:00:00Z",
         "end": "2026-11-01T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
     ]
   },
   {
@@ -249,7 +258,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-casper-ford-wyoming-center-11-10-2026/production/7393458",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-casper-wyoming-11-10-2026/event/1E0064FDB420C544",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -307,6 +316,9 @@
         "start": "2026-08-14T16:00:00Z",
         "end": "2026-11-04T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -325,7 +337,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-lincoln-pinnacle-bank-arena-11-12-2026/production/7393462",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-lincoln-nebraska-11-12-2026/event/06006504D65B3730",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -383,6 +395,9 @@
         "start": "2026-08-14T15:00:00Z",
         "end": "2026-11-06T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -401,7 +416,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-milwaukee-fiserv-forum-11-14-2026/production/7393456",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-milwaukee-wisconsin-11-14-2026/event/070064F5C7DE504C",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -467,6 +482,10 @@
         "start": "2026-08-14T15:00:00Z",
         "end": "2026-11-08T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "FRANK PRODUCTIONS",
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -485,7 +504,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-grand-rapids-van-andel-arena-11-15-2026/production/7393509",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-grand-rapids-michigan-11-15-2026/event/080064FF0AF3208F",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -543,6 +562,9 @@
         "start": "2026-08-14T14:00:00Z",
         "end": "2026-11-09T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -561,7 +583,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-louisville-kfc-yum-center-11-16-2026/production/7393515",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-louisville-kentucky-11-16-2026/event/16006504AF5F8B3C",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -627,6 +649,10 @@
         "start": "2026-08-14T14:00:00Z",
         "end": "2026-11-10T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -645,7 +671,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-buffalo-keybank-center-11-18-2026/production/7393780",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-buffalo-new-york-11-18-2026/event/000065019E34B6C8",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -711,6 +737,9 @@
         "start": "2026-08-14T14:00:00Z",
         "end": "2026-11-12T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -729,7 +758,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-cleveland-rocket-arena-11-19-2026/production/7393838",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZOFo",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -780,7 +809,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184421",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184421/Pentatonix-tickets-Thu-Nov-19-2026-Rocket-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184421/Pentatonix-tickets-Thu-Nov-19-2026-Rocket-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-pentatonix-2026-pittsburgh-1apzkfdgkdrcd8b",
@@ -798,7 +830,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-pittsburgh-ppg-paints-arena-11-21-2026/production/7393834",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-pittsburgh-pennsylvania-11-21-2026/event/16006503DE3BB43A",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -864,6 +896,9 @@
         "start": "2026-08-14T14:00:00Z",
         "end": "2026-11-15T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -882,7 +917,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-hamilton-td-coliseum-11-22-2026/production/7394146",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/pentatonix-christmas-in-the-city-tour-hamilton-ontario-11-22-2026/event/10006504F44F4108",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -929,6 +964,12 @@
         "start": "2026-08-14T14:00:00Z",
         "end": "2026-11-16T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
     ]
   },
   {
@@ -947,7 +988,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-charlottesville-john-paul-jones-arena-11-28-2026/production/7394185",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-charlottesville-virginia-11-28-2026/event/0100650341120D9D",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1005,6 +1046,9 @@
         "start": "2026-08-14T14:00:00Z",
         "end": "2026-11-22T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1023,7 +1067,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-albany-mvp-arena-11-29-2026/production/7393828",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-albany-new-york-11-29-2026/event/000064FEAF2FBD14",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1089,6 +1133,9 @@
         "start": "2026-08-14T14:00:00Z",
         "end": "2026-11-23T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1107,7 +1154,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-baltimore-cfg-bank-arena-12-3-2026/production/7394001",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-baltimore-maryland-12-03-2026/event/150064FDAF3179F3",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1173,6 +1220,9 @@
         "start": "2026-08-14T14:00:00Z",
         "end": "2026-11-27T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1191,7 +1241,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-columbia-colonial-life-arena-12-5-2026/production/7394005",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-columbia-south-carolina-12-05-2026/event/2D0064FFD9C1D46E",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1249,6 +1299,9 @@
         "start": "2026-08-14T14:00:00Z",
         "end": "2026-11-29T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1267,7 +1320,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-greenville-bon-secours-wellness-arena-12-6-2026/production/7393915",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-greenville-south-carolina-12-06-2026/event/2D0064FFC0AA6ED9",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1325,6 +1378,9 @@
         "start": "2026-08-14T14:00:00Z",
         "end": "2026-11-30T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1343,7 +1399,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-raleigh-lenovo-center-12-7-2026/production/7394057",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-raleigh-north-carolina-12-07-2026/event/2D0064FF8623951B",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1401,6 +1457,9 @@
         "start": "2026-08-14T14:00:00Z",
         "end": "2026-12-01T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1419,7 +1478,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-nashville-bridgestone-arena-12-9-2026--concerts-pop/production/7394203",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-nashville-tennessee-12-09-2026/event/1B00650583B04F68",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1485,6 +1544,9 @@
         "start": "2026-08-14T15:00:00Z",
         "end": "2026-12-03T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1503,7 +1565,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-atlanta-state-farm-arena-12-10-2026/production/7393911",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-atlanta-georgia-12-10-2026/event/0E006505B8C284AF",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1569,6 +1631,9 @@
         "start": "2026-08-14T14:00:00Z",
         "end": "2026-12-04T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1587,7 +1652,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-north-little-rock-simmons-bank-arena-12-12-2026/production/7394110",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-north-little-rock-arkansas-12-12-2026/event/1B0064F7A490B570",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1645,6 +1710,9 @@
         "start": "2026-08-14T15:00:00Z",
         "end": "2026-12-06T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1663,7 +1731,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-bossier-city-brookshire-grocery-arena-12-13-2026/production/7394179",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-bossier-city-louisiana-12-13-2026/event/1B0064FD70E4366E",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1721,6 +1789,9 @@
         "start": "2026-08-14T15:00:00Z",
         "end": "2026-12-03T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -1739,7 +1810,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-austin-moody-center-atx-12-15-2026/production/7393901",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-austin-texas-12-15-2026/event/3A006504EE731AE5",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1810,6 +1881,9 @@
         "start": "2026-08-14T15:00:00Z",
         "end": "2026-12-09T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1828,7 +1902,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-fort-worth-dickies-arena-12-16-2026/production/7394116",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-fort-worth-texas-12-16-2026/event/0C0064EA95AC5937",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1894,6 +1968,9 @@
         "start": "2026-08-14T15:00:00Z",
         "end": "2026-12-10T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE"
     ]
   },
   {
@@ -1981,7 +2058,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-glendale-desert-diamond-arena-12-19-2026--concerts-pop/production/7394209",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-glendale-arizona-12-19-2026/event/19006503276CC478",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2047,6 +2124,9 @@
         "start": "2026-08-14T17:00:00Z",
         "end": "2026-12-13T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2065,7 +2145,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-san-diego-california-12-20-2026/event/0A0064FA21D5253A",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2128,6 +2208,9 @@
         "start": "2026-08-14T17:00:00Z",
         "end": "2026-12-21T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2146,7 +2229,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-inglewood-kia-forum-12-22-2026/production/7394183",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-inglewood-california-12-22-2026/event/09006504E828CC6A",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2212,6 +2295,9 @@
         "start": "2026-08-14T17:00:00Z",
         "end": "2026-12-16T06:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   }
 ]

@@ -657,7 +657,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-new-york-beacon-theatre-11-5-2026/production/7291708",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-new-york-new-york-11-05-2026/event/3B0064DDAF19395C",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -728,6 +728,9 @@
         "start": "2026-07-17T14:00:00Z",
         "end": "2026-11-06T01:30:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -746,7 +749,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-asbury-park-stone-pony-11-6-2026/production/7291723",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-asbury-park-new-jersey-11-06-2026/event/000064E100957069",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -788,6 +791,9 @@
         "start": "2026-07-17T04:00:00Z",
         "end": "2026-10-30T03:55:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -806,7 +812,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-chicago-house-of-blues-chicago-11-10-2026/production/7292219",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-chicago-illinois-11-10-2026/event/040064E1E6DECA83",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -864,6 +870,10 @@
         "start": "2026-07-17T15:00:00Z",
         "end": "2026-11-03T05:55:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "HOUSE OF BLUES CONCERTS (HOB)"
     ]
   },
   {
@@ -1020,7 +1030,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-lexington-manchester-music-hall-11-13-2026/production/7291696",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-lexington-kentucky-11-13-2026/event/160064EED101A73B",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1078,6 +1088,9 @@
         "start": "2026-07-17T14:00:00Z",
         "end": "2026-11-06T04:55:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1096,7 +1109,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-charleston-charleston-music-hall-2-25-2027/production/7453909",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-charleston-south-carolina-02-25-2027/event/2D00650C90A56F93",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1138,6 +1151,10 @@
         "start": "2026-08-21T14:00:00Z",
         "end": "2027-02-18T04:55:00Z"
       }
+    ],
+    "organizer_names": [
+      "FRANK PRODUCTIONS",
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1156,7 +1173,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-atlanta-georgia-02-26-2027/event/0E0065068144485A",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1203,6 +1220,9 @@
         "start": "2026-08-21T14:00:00Z",
         "end": "2027-02-19T04:55:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1221,7 +1241,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-dallas-house-of-blues-dallas-3-6-2027/production/7453092",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-dallas-texas-03-06-2027/event/0C00650EB95ECA6E",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1284,6 +1304,9 @@
         "start": "2026-08-21T15:00:00Z",
         "end": "2027-02-27T05:55:00Z"
       }
+    ],
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
     ]
   },
   {
@@ -1302,7 +1325,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-houston-house-of-blues-houston-3-7-2027/production/7453098",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-houston-texas-03-07-2027/event/3A00650705A0C1DC",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1373,6 +1396,9 @@
         "start": "2026-08-21T15:00:00Z",
         "end": "2027-02-28T05:55:00Z"
       }
+    ],
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
     ]
   },
   {
@@ -1391,7 +1417,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-tempe-marquee-theatre-3-11-2027/production/7453207",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-tempe-arizona-03-11-2027/event/1900650AA9B76149",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1449,6 +1475,9 @@
         "start": "2026-08-21T17:00:00Z",
         "end": "2027-03-04T06:55:00Z"
       }
+    ],
+    "organizer_names": [
+      "LUCKYMAN CONCERTS"
     ]
   },
   {
@@ -1467,7 +1496,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-anaheim-house-of-blues-anaheim-3-12-2027/production/7453109",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-anaheim-california-03-12-2027/event/09006507E2F8FAF0",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1530,6 +1559,9 @@
         "start": "2026-08-21T17:00:00Z",
         "end": "2027-03-05T07:55:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1548,7 +1580,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-los-angeles-the-wiltern-3-13-2027/production/7453115",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-los-angeles-california-03-13-2027/event/0900650CE6791399",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1606,6 +1638,9 @@
         "start": "2026-08-21T17:00:00Z",
         "end": "2027-03-06T07:55:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1693,7 +1728,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-saint-louis-missouri-03-19-2027/event/0600650AB2659010",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1735,6 +1770,9 @@
         "start": "2026-08-21T15:00:00Z",
         "end": "2027-03-12T05:55:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1891,7 +1929,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-portland-state-theatre-portland-3-23-2027/production/7453907",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-portland-maine-03-23-2027/event/0100650DE1EECB4A",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1949,6 +1987,9 @@
         "start": "2026-08-21T14:00:00Z",
         "end": "2027-03-16T03:55:00Z"
       }
+    ],
+    "organizer_names": [
+      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -1967,7 +2008,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-new-york-beacon-theatre-3-25-2027/production/7453131",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-new-york-new-york-03-25-2027/event/3B006508BE503954",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2038,6 +2079,9 @@
         "start": "2026-08-21T14:00:00Z",
         "end": "2027-03-26T00:30:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2056,7 +2100,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-silver-spring-the-fillmore-silver-spring-3-26-2027/production/7453672",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-silver-spring-maryland-03-26-2027/event/1500650917ABF1D1",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2119,6 +2163,9 @@
         "start": "2026-08-21T14:00:00Z",
         "end": "2027-03-19T03:55:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {

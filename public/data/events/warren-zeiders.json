@@ -253,7 +253,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/warren-zeiders-bristol-15-10-2026/event/3E00635FB52266FF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -312,7 +312,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7856051",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7856051/Warren-Zeiders-tickets-Thu-Oct-15-2026-O2-Academy-Bristol",
-    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-bristol-o2-academy-bristol-15-10-2026/event/107016159"
+    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-bristol-o2-academy-bristol-15-10-2026/event/107016159",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY BRISTOL)"
+    ]
   },
   {
     "id": "tm-warren-zeiders-2026-birmingham-g5dzzbu22x97x",
@@ -330,7 +334,7 @@
     "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-birmingham-o2-academy---birmingham-10-16-2026--concerts-country-and-folk/production/6277263",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/warren-zeiders-world-tour-2026-birmingham-16-10-2026/event/3E006363CFF9713E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -389,7 +393,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7856053",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7856053/Warren-Zeiders-tickets-Fri-Oct-16-2026-O2-Academy-Birmingham",
-    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-birmingham-o2-academy-birmingham-16-10-2026/event/107016160"
+    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-birmingham-o2-academy-birmingham-16-10-2026/event/107016160",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY BIRMINGHAM)"
+    ]
   },
   {
     "id": "tm-warren-zeiders-2026-london-g5vhzbgx4c4_f",
@@ -407,7 +415,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/warren-zeiders-london-18-10-2026/event/1F00635F95395654",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -466,7 +474,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7823372",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7823372/Warren-Zeiders-tickets-Sun-Oct-18-2026-Roundhouse-London",
-    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-london-the-roundhouse-18-10-2026/event/107014145"
+    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-london-the-roundhouse-18-10-2026/event/107014145",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD"
+    ]
   },
   {
     "id": "tm-warren-zeiders-2027-orlando-1axzk4vgkenxkjc",
@@ -484,7 +495,7 @@
     "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-lake-buena-vista-house-of-blues-orlando-3-25-2027/production/7653877",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-presented-orlando-florida-03-25-2027/event/22006541AA89370E",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -555,7 +566,11 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307486",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307486/Warren-Zeiders-tickets-Thu-Mar-25-2027-House-Of-Blues-Orlando",
-    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-orlando-tickets-3-25-2027/event/107672617"
+    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-orlando-tickets-3-25-2027/event/107672617",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-warren-zeiders-2027-hollywood-vvg1vz_fkapkzq",
@@ -573,7 +588,7 @@
     "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-3-26-2027/production/7653928",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-hollywood-florida-03-26-2027/event/0D0065418958601A",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -631,7 +646,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307487",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307487/Warren-Zeiders-tickets-Fri-Mar-26-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307487/Warren-Zeiders-tickets-Fri-Mar-26-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-warren-zeiders-2027-waukee-1ae7z_kgkdkgpa5",
@@ -649,7 +667,7 @@
     "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-waukee-vibrant-music-hall-4-2-2027/production/7653930",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-waukee-iowa-04-02-2027/event/2100653EC6D6514B",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -712,7 +730,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307488",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307488/Warren-Zeiders-tickets-Fri-Apr-2-2027-Vibrant-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307488/Warren-Zeiders-tickets-Fri-Apr-2-2027-Vibrant-Music-Hall",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-warren-zeiders-2027-grand-rapids-vv1afzk4vgkeyak2y",
@@ -730,7 +751,7 @@
     "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-grand-rapids-glc-live-at-20-monroe-4-15-2027/production/7654266",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-grand-rapids-michigan-04-15-2027/event/08006541B02463F9",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -793,7 +814,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307489",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307489/Warren-Zeiders-tickets-Thu-Apr-15-2027-GLC-Live-at-20-Monroe"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307489/Warren-Zeiders-tickets-Thu-Apr-15-2027-GLC-Live-at-20-Monroe",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-warren-zeiders-2027-chicago-vv1k8z_f1pg7v9f6",
@@ -811,7 +835,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-chicago-illinois-04-17-2027/event/0400654296D17207",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -853,6 +877,9 @@
         "start": "2026-10-09T15:00:00Z",
         "end": "2027-04-11T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -871,7 +898,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-philadelphia-pennsylvania-04-22-2027/event/0200653DC346439C",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -934,7 +961,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307492",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307492/Warren-Zeiders-tickets-Thu-Apr-22-2027-The-Met-Presented-by-Highmark"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307492/Warren-Zeiders-tickets-Thu-Apr-22-2027-The-Met-Presented-by-Highmark",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-warren-zeiders-2027-pittsburgh-1apzk4vgkd7rttm",
@@ -952,7 +982,7 @@
     "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-pittsburgh-citizens-live-at-the-wylie-4-23-2027/production/7653452",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-pittsburgh-pennsylvania-04-23-2027/event/16006541C47A9A6E",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1015,7 +1045,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307493",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307493/Warren-Zeiders-tickets-Fri-Apr-23-2027-Citizens-Live-at-The-Wylie"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307493/Warren-Zeiders-tickets-Fri-Apr-23-2027-Citizens-Live-at-The-Wylie",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-warren-zeiders-2027-cincinnati-1avbz_kgkbydi6_",
@@ -1033,7 +1066,7 @@
     "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-cincinnati-andrew-j-brady-music-center-4-24-2027/production/7653990",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-cincinnati-ohio-04-24-2027/event/1600653EB00E81D9",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1083,7 +1116,11 @@
         "end": "2027-04-18T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307494"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307494",
+    "organizer_names": [
+      "PROMOTED BY VENUE",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-warren-zeiders-2027-columbia-g5evz_kbmywhz",
@@ -1101,7 +1138,7 @@
     "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-columbia-township-auditorium-4-29-2027/production/7653998",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-columbia-south-carolina-04-29-2027/event/2D00653EB7C32F38",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1159,7 +1196,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307495",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307495/Warren-Zeiders-tickets-Thu-Apr-29-2027-Township-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307495/Warren-Zeiders-tickets-Thu-Apr-29-2027-Township-Auditorium",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-warren-zeiders-2027-atlanta-vvg1zz_f6dz4ap",
@@ -1177,7 +1217,7 @@
     "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-atlanta-coca-cola-roxy-theatre-4-30-2027/production/7654298",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-atlanta-georgia-04-30-2027/event/0E006541C3E15265",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1248,7 +1288,10 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307496",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307496/Warren-Zeiders-tickets-Fri-Apr-30-2027-Coca-Cola-Roxy",
-    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-atlanta-tickets-4-30-2027/event/107672606"
+    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-atlanta-tickets-4-30-2027/event/107672606",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-warren-zeiders-2027-kansas-city-z7r9jz1aaeb7w",
@@ -1518,7 +1561,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.no/event/warren-zeiders-tickets/1541653382?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1553,6 +1596,9 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z16v4v_KCe",
     "timezone": "Europe/Oslo",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Auditorium AS (Rockefeller / John Dee / Sentrum Scene)"
+    ]
   }
 ]

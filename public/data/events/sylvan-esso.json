@@ -474,7 +474,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-portland-state-theatre-portland-10-16-2026--concerts-dance-electronica/production/7144100",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-portland-maine-10-16-2026/event/010064C4D897706B",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -525,7 +525,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043105/Sylvan-Esso-tickets-Fri-Oct-16-2026-State-Theatre-ME",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8043105"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8043105",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-sylvan-esso-2026-boston-vvg17z_g2bjele",
@@ -543,7 +546,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-boston-citizens-house-of-blues-boston-10-17-2026--concerts-dance-electronica/production/7144106",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-boston-massachusetts-10-17-2026/event/010064C3D87277C2",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -602,7 +605,10 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042786/Sylvan-Esso-tickets-Sat-Oct-17-2026-Citizens-House-Of-Blues-Boston",
     "stubhub_international_url": "https://www.stubhub.ie/sylvan-esso-boston-tickets-10-17-2026/event/107452020",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042786"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042786",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-sylvan-esso-2026-toronto-177zv0g6gkzh0vc",
@@ -620,7 +626,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-toronto-history-toronto-10-19-2026--concerts-dance-electronica/production/7144154",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sylvan-esso-toronto-ontario-10-19-2026/event/100064C4C06E4D0E",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -655,7 +661,12 @@
     },
     "ticketmaster_discovery_event_id": "177Zv0G6GKZh0VC",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "COLLECTIVE CONCERTS"
+    ]
   },
   {
     "id": "tm-sylvan-esso-2026-milwaukee-z7r9jz1a7pfos",
@@ -742,7 +753,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-presented-by-jack-daniels-chicago-illinois-10-22-2026/event/0400649CF45E4588",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -777,7 +788,10 @@
     },
     "ticketmaster_discovery_event_id": "vv178Z_aGkSV90pF",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-sylvan-esso-2026-minneapolis-z7r9jz1a7pfoy",
@@ -864,7 +878,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-seattle-paramount-theatre-seattle-2-19-2027--concerts-dance-electronica/production/7144222",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-seattle-washington-02-19-2027/event/0F0064C5CFEE0AA4",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -922,6 +936,9 @@
         "start": "2026-06-12T17:00:00Z",
         "end": "2027-02-13T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -1147,7 +1164,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-oakland-fox-theater-oakland-2-25-2027--concerts-dance-electronica/production/7144122",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-sylvan-esso-oakland-california-02-25-2027/event/1C0064C5240B8474",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1205,6 +1222,9 @@
         "start": "2026-06-12T17:00:00Z",
         "end": "2027-02-19T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "ANOTHER PLANET"
     ]
   },
   {
@@ -1223,7 +1243,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-los-angeles-the-wiltern-2-26-2027--concerts-dance-electronica/production/7144130",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-los-angeles-california-02-26-2027/event/090064C98DE65781",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1281,6 +1301,9 @@
         "start": "2026-06-12T17:00:00Z",
         "end": "2027-01-26T06:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1299,7 +1322,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-santa-ana-the-observatory-santa-ana-2-27-2027/production/7327236",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-santa-ana-california-02-27-2027/event/090064F1F57268F9",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1357,6 +1380,9 @@
         "start": "2026-07-24T17:00:00Z",
         "end": "2027-02-20T11:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1375,7 +1401,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-del-mar-the-sound---del-mar-3-1-2027--concerts-dance-electronica/production/7144132",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-del-mar-california-03-01-2027/event/0A0064C5CB48B87E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1426,7 +1452,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042799/Sylvan-Esso-tickets-Mon-Mar-1-2027-The-Sound-At-The-Del-Mar-Fairgrounds",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042799"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042799",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-sylvan-esso-2027-phoenix-17k8v0g6g3yxemg",
@@ -1444,7 +1473,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-phoenix-the-van-buren-3-2-2027--concerts-dance-electronica/production/7144134",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-phoenix-arizona-03-02-2027/event/190064C4B9FA7DCC",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1502,6 +1531,9 @@
         "start": "2026-06-12T17:00:00Z",
         "end": "2027-02-02T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1719,7 +1751,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-dallas-house-of-blues-dallas-3-9-2027--concerts-dance-electronica/production/7144136",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kxt-presents-sylvan-esso-dallas-texas-03-09-2027/event/0C0064C43A0D4C02",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1777,6 +1809,9 @@
         "start": "2026-06-12T15:00:00Z",
         "end": "2027-02-10T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
     ]
   },
   {
@@ -1795,7 +1830,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-birmingham-iron-city-birmingham-3-12-2027--concerts-dance-electronica/production/7144150",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-birmingham-alabama-03-12-2027/event/200064C5A01323E6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1846,7 +1881,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042820/Sylvan-Esso-tickets-Fri-Mar-12-2027-Iron-City-Birmingham",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042820"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042820",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-sylvan-esso-2027-nashville-g5viz_g3v82ae",
@@ -1864,7 +1902,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-nashville-brooklyn-bowl---nashville-3-13-2027--concerts-dance-electronica/production/7144326",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-nashville-tennessee-03-13-2027/event/1B0064C4B440F267",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1932,6 +1970,9 @@
         "start": "2026-06-12T15:00:00Z",
         "end": "2027-03-11T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {

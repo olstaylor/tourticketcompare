@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-uncasville-connecticut-11-19-2026/event/1D00647A9EA3547F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,7 +50,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vVZ_6nrIgoT",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-metallica-2026-uncasville-g5vvz_6n-zpjb",
@@ -68,7 +71,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-uncasville-mohegan-sun-arena-ct-11-21-2026--concerts-hard-rock/production/6872634",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-uncasville-connecticut-11-21-2026/event/1D00647AA1E25998",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -127,7 +130,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7859974",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7859974/Metallica-tickets-Sat-Nov-21-2026-Mohegan-Sun-Arena-CT",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-uncasville-tickets-11-21-2026/event/107669955"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-uncasville-tickets-11-21-2026/event/107669955",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-metallica-2027-las-vegas-1fayv0b_z4z7ggvk",
@@ -145,7 +151,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-01-28-2027/event/170064619015BB05",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -187,6 +193,9 @@
         "start": "2026-03-06T21:00:00Z",
         "end": "2027-01-22T06:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -205,7 +214,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-1-30-2027--concerts-hard-rock/production/6742765",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-01-30-2027/event/1700646192ABBF9E",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -271,6 +280,9 @@
         "start": "2026-03-06T21:00:00Z",
         "end": "2027-01-24T06:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -289,7 +301,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-04-2027/event/17006461A4E6DFE4",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -331,6 +343,9 @@
         "start": "2026-03-06T22:00:00Z",
         "end": "2027-01-29T06:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -349,7 +364,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-2-6-2027/production/6754182",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-06-2027/event/17006461A5E1E1F1",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -415,6 +430,9 @@
         "start": "2026-03-06T22:00:00Z",
         "end": "2027-01-31T06:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -433,7 +451,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-18-2027/event/17006461A4E7DFEA",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -475,6 +493,9 @@
         "start": "2026-03-06T22:00:00Z",
         "end": "2027-02-12T06:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -493,7 +514,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-2-20-2027/production/6754200",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-20-2027/event/17006461A5E1E1F5",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -559,6 +580,9 @@
         "start": "2026-03-06T22:00:00Z",
         "end": "2027-02-14T06:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -577,7 +601,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-25-2027/event/17006461A4E8DFEC",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -619,6 +643,9 @@
         "start": "2026-03-06T22:00:00Z",
         "end": "2027-02-19T06:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -637,7 +664,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-3-13-2027--concerts-hard-rock/production/6755440",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-13-2027/event/17006461A5E3E208",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -703,6 +730,9 @@
         "start": "2026-03-06T23:00:00Z",
         "end": "2027-03-07T06:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -721,7 +751,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-vancouver-bc-place-stadium-5-8-2027--concerts-hard-rock/production/7563478",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/metallica-m72-world-tour-vancouver-british-columbia-05-08-2027/event/1100652ED2CADD90",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -792,6 +822,12 @@
         "start": "2026-09-25T17:00:00Z",
         "end": "2027-05-02T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
     ]
   },
   {
@@ -810,7 +846,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-san-diego-snapdragon-stadium-5-13-2027--concerts-hard-rock/production/7563504",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-san-diego-california-05-13-2027/event/0A00652BF38BFCBB",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -891,6 +927,9 @@
         "start": "2026-09-25T17:00:00Z",
         "end": "2027-05-07T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -909,7 +948,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-el-paso-sun-bowl-stadium-5-18-2027--concerts-hard-rock/production/7563516",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-el-paso-texas-05-18-2027/event/0C00652E1C7A357B",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -990,6 +1029,9 @@
         "start": "2026-09-25T16:00:00Z",
         "end": "2027-05-12T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1008,7 +1050,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-san-antonio-alamodome-5-22-2027--concerts-hard-rock/production/7563518",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-san-antonio-texas-05-22-2027/event/3A00652DE5A33846",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1089,6 +1131,9 @@
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-05-16T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1107,7 +1152,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-fayetteville-arkansas-05-26-2027/event/1B00651B92909FDF",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1180,6 +1225,9 @@
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-05-20T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1198,7 +1246,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-kansas-city-arrowhead-stadium-5-29-2027--concerts-hard-rock/production/7563528",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-kansas-city-missouri-05-29-2027/event/0600652CA7DC8453",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1279,6 +1327,9 @@
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-05-23T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1297,7 +1348,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-indianapolis-lucas-oil-stadium-6-5-2027--concerts-hard-rock/production/7563544",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-indianapolis-indiana-06-05-2027/event/0500652FDE41F8EC",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1378,6 +1429,9 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-05-30T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1396,7 +1450,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-orchard-park-highmark-stadium-6-8-2027--concerts-hard-rock/production/7563550",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-orchard-park-new-york-06-08-2027/event/0300652FEEBC2D96",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1477,6 +1531,9 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-06-02T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1495,7 +1552,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-cleveland-huntington-bank-field-6-15-2027--concerts-hard-rock/production/7563446",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-cleveland-ohio-06-15-2027/event/0500652EF0CA330C",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1576,6 +1633,9 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-06-09T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1594,7 +1654,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-salt-lake-city-rice-eccles-stadium-6-19-2027--concerts-hard-rock/production/7563558",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-salt-lake-city-utah-06-19-2027/event/1E00652F0259E857",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1680,6 +1740,9 @@
         "start": "2026-09-25T16:00:00Z",
         "end": "2027-06-13T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1958,7 +2021,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-15-2026/event/17006455FF51D56A",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1993,7 +2056,10 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zko4GkdTfq4n",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfq4i",
@@ -2011,7 +2077,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-10-17-2026--concerts-hard-rock/production/6709895",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-17-2026/event/17006455FF51D56C",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2070,7 +2136,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7758710",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7758710/Metallica-tickets-Sat-Oct-17-2026-Sphere",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-17-2026/event/107121293"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-17-2026/event/107121293",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfc4w",
@@ -2088,7 +2157,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-22-2026/event/17006455FF52D572",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2130,6 +2199,9 @@
         "start": "2026-03-06T18:00:00Z",
         "end": "2026-10-16T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2148,7 +2220,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-10-24-2026--concerts-hard-rock/production/6709901",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-24-2026/event/17006455FF52D575",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2214,6 +2286,9 @@
         "start": "2026-03-06T18:00:00Z",
         "end": "2026-10-18T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2232,7 +2307,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-29-2026/event/170064550781E861",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2274,6 +2349,9 @@
         "start": "2026-03-06T20:00:00Z",
         "end": "2026-10-23T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2292,7 +2370,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-10-31-2026--concerts-hard-rock/production/6709909",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-31-2026/event/170064550781E865",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2358,6 +2436,9 @@
         "start": "2026-03-06T20:00:00Z",
         "end": "2026-10-25T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2376,7 +2457,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-11-05-2026/event/170064550782E86E",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2418,6 +2499,9 @@
         "start": "2026-03-06T21:00:00Z",
         "end": "2026-10-30T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2436,7 +2520,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-11-7-2026/production/6742738",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-11-07-2026/event/170064550782E874",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2502,6 +2586,9 @@
         "start": "2026-03-06T21:00:00Z",
         "end": "2026-11-01T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2520,7 +2607,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-2-27-2027/production/6754204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-27-2027/event/17006461A5E2E1F9",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2586,6 +2673,9 @@
         "start": "2026-03-06T22:00:00Z",
         "end": "2027-02-21T06:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2604,7 +2694,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-04-2027/event/17006461A4E8DFF6",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2646,6 +2736,9 @@
         "start": "2026-03-06T23:00:00Z",
         "end": "2027-02-26T06:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2664,7 +2757,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-3-6-2027--concerts-hard-rock/production/6755435",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-06-2027/event/17006461A5E2E1FD",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2730,6 +2823,9 @@
         "start": "2026-03-06T23:00:00Z",
         "end": "2027-02-28T06:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2748,7 +2844,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-11-2027/event/17006461A4E9DFF8",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2790,6 +2886,9 @@
         "start": "2026-03-06T23:00:00Z",
         "end": "2027-03-05T06:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2808,7 +2907,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-raleigh-carter-finley-stadium-6-2-2027--concerts-hard-rock/production/7563538",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwAJ",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2867,7 +2966,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268626",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268626/Metallica-tickets-Wed-Jun-2-2027-Carter-Finley-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-raleigh-tickets-6-2-2027/event/107668969"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-raleigh-tickets-6-2-2027/event/107668969",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-metallica-2027-madison-z7r9jz1aavw0o",
@@ -2885,7 +2987,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-madison-camp-randall-stadium-6-12-2027--concerts-hard-rock/production/7563556",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvw0o",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2944,6 +3046,9 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268634",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268634/Metallica-tickets-Sat-Jun-12-2027-Camp-Randall-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-madison-tickets-6-12-2027/event/107669957"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-madison-tickets-6-12-2027/event/107669957",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   }
 ]

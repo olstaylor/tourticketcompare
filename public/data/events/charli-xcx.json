@@ -606,7 +606,7 @@
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-inglewood-kia-forum-10-17-2026--concerts-pop/production/7132070",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-inglewood-california-10-17-2026/event/090064C5EF12A97C",
-    "last_verified_at": "2026-10-14",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -614,7 +614,7 @@
         "discovery_event_id": "vvG10Z_G9R7nPH",
         "url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-inglewood-california-10-17-2026/event/090064C5EF12A97C",
         "verified": true,
-        "last_verified_at": "2026-10-14",
+        "last_verified_at": "2026-10-15",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -672,6 +672,9 @@
         "start": "2026-06-12T20:00:00Z",
         "end": "2026-10-18T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -690,7 +693,7 @@
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-inglewood-kia-forum-10-18-2026--concerts-pop/production/7132072",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-inglewood-california-10-18-2026/event/090064C5F509BA04",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -698,7 +701,7 @@
         "discovery_event_id": "vvG10Z_G9gehI7",
         "url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-inglewood-california-10-18-2026/event/090064C5F509BA04",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-15",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -752,15 +755,13 @@
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-inglewood-tickets-10-18-2026/event/107258883",
     "presales": [
       {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-12T20:00:00Z",
-        "end": "2026-10-14T19:00:00Z"
-      },
-      {
         "name": "Charity Tickets Onsale",
         "start": "2026-06-12T20:00:00Z",
         "end": "2026-10-19T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -779,7 +780,7 @@
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-glendale-desert-diamond-arena-10-21-2026--concerts-pop/production/7132074",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-glendale-arizona-10-21-2026/event/190064C5D6359C3F",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -787,7 +788,7 @@
         "discovery_event_id": "17k8v0G6G9pu_YT",
         "url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-glendale-arizona-10-21-2026/event/190064C5D6359C3F",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-15",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -850,6 +851,9 @@
         "start": "2026-06-12T20:00:00Z",
         "end": "2026-10-22T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -868,7 +872,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/charli-xcx-music-fashion-film-tour-dublin-13-02-2027/event/1800652981CD3494",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -903,7 +907,12 @@
     },
     "ticketmaster_discovery_event_id": "16vOZ_3JvG7SK3f",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AMPHITHEATRE IRELAND",
+      "MCD PRODUCTIONS",
+      "CHARLI XCX OFFICIAL MAILING LIST (WARNER MUSIC GROUP)"
+    ]
   },
   {
     "id": "tm-charli-xcx-2027-glasgow-1auzkftgkez7jxt",
@@ -921,7 +930,7 @@
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-glasgow-ovo-hydro-2-15-2027--concerts-pop/production/7552865",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/venue-premium-charli-xcx-music-fashion-glasgow-15-02-2027/event/36006529B81268A9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -980,7 +989,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267812",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267812/Brandi-Carlile-tickets-Mon-Feb-15-2027-OVO-Hydro",
-    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-glasgow-ovo-hydro-arena-glasgow-15-2-2027/event/107668440"
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-glasgow-ovo-hydro-arena-glasgow-15-2-2027/event/107668440",
+    "organizer_names": [
+      "DF CONCERTS LIMITED",
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ]
   },
   {
     "id": "tm-charli-xcx-2027-manchester-1amzkfegkdf5asp",
@@ -998,7 +1011,7 @@
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-manchester-co-op-live-2-17-2027--concerts-pop/production/7546088",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/charli-xcx-music-fashion-film-tour-manchester-17-02-2027/event/37006527D42C5C65",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1057,7 +1070,12 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259353",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259353/Brandi-Carlile-tickets-Wed-Feb-17-2027-Co-Op-Live",
-    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-manchester-co-op-live-17-2-2027/event/107668439"
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-manchester-co-op-live-17-2-2027/event/107668439",
+    "organizer_names": [
+      "CO-OP LIVE",
+      "SJM LIMITED (NEW)",
+      "CHARLI XCX OFFICIAL MAILING LIST (WARNER MUSIC GROUP)"
+    ]
   },
   {
     "id": "tm-charli-xcx-2027-london-1agzkfigkenre1t",
@@ -1075,7 +1093,7 @@
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-london-the-o2---london-2-19-2027--concerts-pop/production/7552863",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/charli-xcx-music-fashion-film-tour-london-19-02-2027/event/35006528AA7822A9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1118,7 +1136,11 @@
     "ticketmaster_discovery_event_id": "1AgZkfIGkenre1t",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-london-the-o2-arena-19-2-2027/event/107668441"
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-london-the-o2-arena-19-2-2027/event/107668441",
+    "organizer_names": [
+      "METROPOLIS MUSIC FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS",
+      "CHARLI XCX OFFICIAL MAILING LIST (WARNER MUSIC GROUP)"
+    ]
   },
   {
     "id": "tm-charli-xcx-2027-london-1adfz_3gknni7-u",
@@ -1136,7 +1158,7 @@
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-london-the-o2---london-2-20-2027/production/7577279",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/charli-xcx-music-fashion-film-tour-london-20-02-2027/event/3500652AA3A04876",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1179,7 +1201,11 @@
     "ticketmaster_discovery_event_id": "1AdfZ_3GknNI7-U",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-london-the-o2-arena-20-2-2027/event/107669390"
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-london-the-o2-arena-20-2-2027/event/107669390",
+    "organizer_names": [
+      "METROPOLIS MUSIC FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS",
+      "CHARLI XCX OFFICIAL MAILING LIST (WARNER MUSIC GROUP)"
+    ]
   },
   {
     "id": "tm-charli-xcx-2027-amsterdam-z698xzbpz1kqn76of",
@@ -1197,7 +1223,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/charli-xcx-music-fashion-film-tour-tickets/763107448?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1256,7 +1282,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267859",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267859/Brandi-Carlile-tickets-Mon-Feb-22-2027-Ziggo-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-amsterdam-ziggo-dome-22-2-2027/event/107666206"
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-amsterdam-ziggo-dome-22-2-2027/event/107666206",
+    "organizer_names": [
+      "Mojo Concerts"
+    ]
   },
   {
     "id": "tm-charli-xcx-2026-las-vegas-z7r9jz1a7p8v-",
@@ -1274,7 +1303,7 @@
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-las-vegas-mgm-grand-garden-arena-10-23-2026--concerts-pop/production/7132077",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P8v-",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1333,6 +1362,9 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034408",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034408/Charli-XCX-tickets-Fri-Oct-23-2026-MGM-Grand-Garden-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-las-vegas-tickets-10-23-2026/event/107258884"
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-las-vegas-tickets-10-23-2026/event/107258884",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   }
 ]

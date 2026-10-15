@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-brooklyn-brooklyn-bowl---ny-10-30-2026/production/7479392",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/too-many-zooz-brooklyn-new-york-10-30-2026/event/000065159C471E82",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -74,7 +74,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235574",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235574/Too-Many-Zooz-tickets-Fri-Oct-30-2026-Brooklyn-Bowl-NY",
-    "stubhub_international_url": "https://www.stubhub.ie/too-many-zooz-brooklyn-tickets-10-30-2026/event/107667087"
+    "stubhub_international_url": "https://www.stubhub.ie/too-many-zooz-brooklyn-tickets-10-30-2026/event/107667087",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-too-many-zooz-2027-wroclaw-z698xzqpz1kcapprk",
@@ -92,7 +95,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/too-many-zooz-audio-lipstick-tour-tickets/385965793?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -127,7 +130,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ1kCAPPrK",
     "timezone": "Europe/Warsaw",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Fource Entertainment sp. z o.o."
+    ]
   },
   {
     "id": "tm-too-many-zooz-2027-denver-g5vzz_kkf1pnr",
@@ -145,7 +151,7 @@
     "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-denver-summit-music-hall-3-19-2027/production/7594958",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-denver-colorado-03-19-2027/event/1E006531942A5AAF",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -203,6 +209,9 @@
         "start": "2026-09-25T16:00:00Z",
         "end": "2027-02-20T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -221,7 +230,7 @@
     "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-houston-white-oak-music-hall---downstairs-4-30-2027/production/7594457",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-houston-texas-04-30-2027/event/3A006532158EC7B6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -272,7 +281,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284721",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284721/Too-Many-Zooz-tickets-Fri-Apr-30-2027-White-Oak-Music-Hall-Downstairs"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284721/Too-Many-Zooz-tickets-Fri-Apr-30-2027-White-Oak-Music-Hall-Downstairs",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-too-many-zooz-2027-tucson-z7r9jz1aavmvf",
@@ -290,7 +302,7 @@
     "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-tucson-la-rosa-5-6-2027/production/7595210",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvMvf",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -341,7 +353,10 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284723",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284723/Too-Many-Zooz-tickets-Thu-May-6-2027-La-Rosa-Tucson"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284723/Too-Many-Zooz-tickets-Thu-May-6-2027-La-Rosa-Tucson",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-too-many-zooz-2027-seattle-vvg1hz_3tamn7s",
@@ -359,7 +374,7 @@
     "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-seattle-the-neptune-theatre-5-14-2027--concerts-alternative/production/7595252",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-seattle-washington-05-14-2027/event/0F00652FC9DEA131",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -410,7 +425,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284730",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284730/Too-Many-Zooz-tickets-Fri-May-14-2027-The-Neptune-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284730/Too-Many-Zooz-tickets-Fri-May-14-2027-The-Neptune-Theatre",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-too-many-zooz-2026-buffalo-z7r9jz1aav60y",
@@ -619,7 +637,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.ca/event/too-many-zooz-overflow-brewing-co-tickets/14282414",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -654,7 +672,10 @@
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1Af1e8f",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "SPECTRA SONIC"
+    ]
   },
   {
     "id": "tm-too-many-zooz-2027-colorado-springs-1ae0z_3gkzlv-ok",

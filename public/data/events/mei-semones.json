@@ -153,7 +153,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.ca/event/mei-semones-the-concert-hall-tickets/14344424",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -188,7 +188,10 @@
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1Afu780",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "COLLECTIVE CONCERTS"
+    ]
   },
   {
     "id": "tm-mei-semones-2027-chicago-z7r9jz1aae3ax",
@@ -413,7 +416,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mei-semones-washington-district-of-columbia-04-09-2027/event/1500653996CB5F9A",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -471,6 +474,9 @@
         "start": "2026-10-01T14:00:00Z",
         "end": "2027-04-03T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -627,7 +633,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-houston-white-oak-music-hall---upstairs-4-16-2027/production/7629281",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mei-semones-houston-texas-04-16-2027/event/3A006539E33A90A5",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -685,6 +691,9 @@
         "start": "2026-10-01T15:00:00Z",
         "end": "2027-04-10T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -703,7 +712,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-tucson-la-rosa-4-20-2027/production/7635713",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe9F6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -754,7 +763,10 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297686",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297686/Mei-Semones-tickets-Tue-Apr-20-2027-La-Rosa-Tucson"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297686/Mei-Semones-tickets-Tue-Apr-20-2027-La-Rosa-Tucson",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-mei-semones-2027-san-diego-z7r9jz1aae3k4",
@@ -841,7 +853,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-san-francisco-castro-theatre-4-24-2027/production/7629402",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mei-semones-san-francisco-california-04-24-2027/event/1C00653C3E82D186",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -883,6 +895,9 @@
         "start": "2026-10-02T17:00:00Z",
         "end": "2027-04-17T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "ANOTHER PLANET"
     ]
   },
   {
@@ -901,7 +916,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-vancouver-commodore-ballroom-4-27-2027/production/7629287",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/mei-semones-vancouver-british-columbia-04-27-2027/event/110065398897575A",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -959,6 +974,12 @@
         "start": "2026-10-02T17:00:00Z",
         "end": "2027-04-21T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
     ]
   },
   {
@@ -977,7 +998,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-seattle-the-neptune-theatre-4-28-2027/production/7629277",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mei-semones-seattle-washington-04-28-2027/event/0F006538E0212B2F",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1035,6 +1056,9 @@
         "start": "2026-10-02T17:00:00Z",
         "end": "2027-04-29T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -1318,7 +1342,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-pittsburgh-spirit-hall-5-8-2027/production/7629289",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mei-semones-pittsburgh-pennsylvania-05-08-2027/event/1600653DA7E17C98",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1376,6 +1400,9 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-05-02T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   }
 ]

@@ -205,7 +205,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-orlando-kia-center-10-17-2026/production/7022044",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-orlando-florida-10-17-2026/event/220064A4A5E33915",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -263,7 +263,10 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956772/Journey-tickets-Sat-Oct-17-2026-Kia-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/journey-orlando-tickets-10-17-2026/event/107169156"
+    "stubhub_international_url": "https://www.stubhub.ie/journey-orlando-tickets-10-17-2026/event/107169156",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-journey-2026-atlanta-vvg1zz_1p_clel",
@@ -281,7 +284,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-atlanta-state-farm-arena-10-19-2026/production/7022027",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-atlanta-georgia-10-19-2026/event/0E0064A599B6B9EB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -332,7 +335,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956773/Journey-tickets-Mon-Oct-19-2026-State-Farm-Arena-GA",
-    "stubhub_international_url": "https://www.stubhub.ie/journey-atlanta-tickets-10-19-2026/event/107169153"
+    "stubhub_international_url": "https://www.stubhub.ie/journey-atlanta-tickets-10-19-2026/event/107169153",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-journey-2026-nashville-g5viz_141b_9f",
@@ -350,7 +356,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-nashville-bridgestone-arena-10-21-2026/production/7022021",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-nashville-tennessee-10-21-2026/event/1B0064A54AE995C8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -393,7 +399,10 @@
     "ticketmaster_discovery_event_id": "G5viZ_141B_9F",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956774/Journey-tickets-Wed-Oct-21-2026-Bridgestone-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956774/Journey-tickets-Wed-Oct-21-2026-Bridgestone-Arena",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-journey-2026-louisville-z7r9jz1a70f_w",
@@ -472,7 +481,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-baltimore-cfg-bank-arena-10-24-2026/production/7022013",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-baltimore-maryland-10-24-2026/event/150064A4D63DEA31",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -522,7 +531,10 @@
         "end": "2026-10-18T02:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956775/Journey-tickets-Sat-Oct-24-2026-CFG-Bank-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956775/Journey-tickets-Sat-Oct-24-2026-CFG-Bank-Arena",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-journey-2026-newark-vvg1fz_197dnkr",
@@ -540,7 +552,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-newark-prudential-center-10-25-2026/production/7022011",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-newark-new-jersey-10-25-2026/event/020064A5C4EE34EF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -591,7 +603,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956776/Journey-tickets-Sun-Oct-25-2026-Prudential-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/journey-newark-tickets-10-25-2026/event/107170302"
+    "stubhub_international_url": "https://www.stubhub.ie/journey-newark-tickets-10-25-2026/event/107170302",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-journey-2026-philadelphia-17gzv0g61p0-ppk",
@@ -609,7 +624,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-philadelphia-xfinity-mobile-arena-10-28-2026/production/7022003",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-philadelphia-pennsylvania-10-28-2026/event/300064A5A4856953",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -672,7 +687,10 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956777/Journey-tickets-Wed-Oct-28-2026-Xfinity-Mobile-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/journey-philadelphia-tickets-10-28-2026/event/107169150"
+    "stubhub_international_url": "https://www.stubhub.ie/journey-philadelphia-tickets-10-28-2026/event/107169150",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-journey-2026-providence-vvg17z_1fuwpyc",
@@ -690,7 +708,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-providence-amica-mutual-pavilion-10-29-2026--concerts-rock/production/7021951",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-providence-rhode-island-10-29-2026/event/010064A50DF65E6D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -733,7 +751,10 @@
     "ticketmaster_discovery_event_id": "vvG17Z_1fuWPyc",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956778/Journey-tickets-Thu-Oct-29-2026-Amica-Mutual-Pavilion"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956778/Journey-tickets-Thu-Oct-29-2026-Amica-Mutual-Pavilion",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-journey-2026-detroit-vvg1oz_13slngw",
@@ -751,7 +772,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-detroit-little-caesars-arena-11-2-2026--concerts-rock/production/7022057",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-detroit-michigan-11-02-2026/event/080064A4B3AEA332",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -809,7 +830,10 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956779/Journey-tickets-Mon-Nov-2-2026-Little-Caesars-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/journey-detroit-tickets-11-2-2026/event/107170300"
+    "stubhub_international_url": "https://www.stubhub.ie/journey-detroit-tickets-11-2-2026/event/107170300",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ]
   },
   {
     "id": "tm-journey-2026-toronto-177zv0g6110gajo",
@@ -827,7 +851,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-toronto-scotiabank-arena-11-4-2026/production/7022055",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/journey-final-frontier-tour-an-evening-toronto-ontario-11-04-2026/event/100064A2A4D49720",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -863,12 +887,8 @@
     "ticketmaster_discovery_event_id": "177Zv0G6110gajO",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-05-15T14:00:00Z",
-        "end": "2026-10-14T21:00:00Z"
-      }
+    "organizer_names": [
+      "AEG LIVE"
     ]
   },
   {
@@ -940,7 +960,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-uniondale-new-york-11-07-2026/event/000064A4C567895B",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -995,7 +1015,10 @@
         "end": "2026-11-07T21:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956780/Journey-tickets-Sat-Nov-7-2026-Nassau-Veterans-Memorial-Coliseum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956780/Journey-tickets-Sat-Nov-7-2026-Nassau-Veterans-Memorial-Coliseum",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-journey-2026-boston-vvg17z_19ipadt",
@@ -1013,7 +1036,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-boston-td-garden-11-10-2026--concerts-rock/production/7021953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-boston-massachusetts-11-10-2026/event/010064A5E8949EE9",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1076,7 +1099,10 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956781/Journey-tickets-Tue-Nov-10-2026-TD-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/journey-boston-tickets-11-10-2026/event/107169149"
+    "stubhub_international_url": "https://www.stubhub.ie/journey-boston-tickets-11-10-2026/event/107169149",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-journey-2026-cleveland-z7r9jz1a70_7k",
@@ -1155,7 +1181,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-greenville-bon-secours-wellness-arena-11-14-2026--concerts-rock/production/7022065",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-greenville-south-carolina-11-14-2026/event/2D0064A4CA04DC98",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1205,7 +1231,10 @@
         "end": "2026-10-24T21:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956782/Journey-tickets-Sat-Nov-14-2026-Bon-Secours-Wellness-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956782/Journey-tickets-Sat-Nov-14-2026-Bon-Secours-Wellness-Arena",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-journey-2026-saint-louis-vvg1bz_1qqkifj",
@@ -1223,7 +1252,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-saint-louis-missouri-11-16-2026/event/060064A69A4EC226",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1265,6 +1294,9 @@
         "start": "2026-05-15T15:00:00Z",
         "end": "2026-10-26T22:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE"
     ]
   },
   {
@@ -1344,7 +1376,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-dallas-american-airlines-center---tx-11-20-2026--concerts-rock/production/7022113",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-dallas-texas-11-20-2026/event/0C0064A57D1347A3",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1407,7 +1439,10 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956784/Journey-tickets-Fri-Nov-20-2026-American-Airlines-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/journey-dallas-tickets-11-20-2026/event/107170294"
+    "stubhub_international_url": "https://www.stubhub.ie/journey-dallas-tickets-11-20-2026/event/107170294",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-journey-2026-denver-g5vzz_1kxjfbe",
@@ -1425,7 +1460,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-denver-ball-arena-11-22-2026--concerts-rock/production/7022115",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-denver-colorado-11-22-2026/event/1E0064A4E2714602",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1480,7 +1515,10 @@
         "end": "2026-11-22T23:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956785/Journey-tickets-Sun-Nov-22-2026-Ball-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956785/Journey-tickets-Sun-Nov-22-2026-Ball-Arena",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-journey-2026-anaheim-vvg10z_1q4chn3",
@@ -1498,7 +1536,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-anaheim-honda-center-11-24-2026--concerts-rock/production/7022141",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-anaheim-california-11-24-2026/event/090064A695B5BA92",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1566,7 +1604,10 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956786/Journey-tickets-Tue-Nov-24-2026-Honda-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/journey-anaheim-tickets-11-24-2026/event/107625088"
+    "stubhub_international_url": "https://www.stubhub.ie/journey-anaheim-tickets-11-24-2026/event/107625088",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-journey-2026-las-vegas-z7r9jz1a70_7f",
@@ -1653,7 +1694,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-san-francisco-chase-center-11-28-2026--concerts-rock/production/7022156",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-san-francisco-california-11-28-2026/event/1C006499E0B535ED",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1711,6 +1752,9 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956787/Journey-tickets-Sat-Nov-28-2026-Chase-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/journey-san-francisco-tickets-11-28-2026/event/107169142"
+    "stubhub_international_url": "https://www.stubhub.ie/journey-san-francisco-tickets-11-28-2026/event/107169142",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ]
   }
 ]

@@ -530,7 +530,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-boston-td-garden-12-10-2026--theater-opera/production/6594344",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-boston-massachusetts-12-10-2026/event/0100643007C2EBA1",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -601,6 +601,9 @@
         "start": "2026-02-06T15:00:00Z",
         "end": "2026-11-30T22:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE"
     ]
   },
   {
@@ -619,7 +622,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-buffalo-keybank-center-12-11-2026--theater-opera/production/6594348",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-buffalo-new-york-12-11-2026/event/00006437FCF7EAC6",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -690,6 +693,9 @@
         "start": "2026-02-06T15:00:00Z",
         "end": "2026-12-01T22:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE"
     ]
   },
   {
@@ -708,7 +714,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/andrea-bocelli-romanza-30th-anniversary-world-montreal-quebec-12-13-2026/event/3100643B5F601212",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -759,7 +765,11 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711527/Andrea-Bocelli-tickets-Sun-Dec-13-2026-Centre-Bell",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7711527"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7711527",
+    "organizer_names": [
+      "EVENKO CO-PRO NON-LN",
+      "AEG LIVE (CANADA)"
+    ]
   },
   {
     "id": "tm-andrea-bocelli-2026-new-york-g5diz_drrs_4p",
@@ -777,7 +787,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-new-york-madison-square-garden-12-16-2026--theater-opera/production/6594354",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-new-york-new-york-12-16-2026/event/3B00643BDECD9556",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -853,6 +863,9 @@
         "start": "2026-02-06T15:00:00Z",
         "end": "2026-12-17T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE"
     ]
   },
   {
@@ -871,7 +884,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-new-york-madison-square-garden-12-17-2026/production/6594488",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-new-york-new-york-12-17-2026/event/3B00643BDED7955D",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -947,6 +960,9 @@
         "start": "2026-02-06T15:00:00Z",
         "end": "2026-12-18T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE"
     ]
   },
   {
@@ -965,7 +981,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-hamilton-td-coliseum-12-19-2026--theater-opera/production/6594386",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/andrea-bocelli-romanza-30th-anniversary-world-hamilton-ontario-12-19-2026/event/10006434AB92D4B7",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1012,6 +1028,9 @@
         "start": "2026-02-06T15:00:00Z",
         "end": "2026-12-09T22:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE (CANADA)"
     ]
   },
   {
@@ -1030,7 +1049,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-pittsburgh-ppg-paints-arena-12-21-2026--theater-opera/production/6594362",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-pittsburgh-pennsylvania-12-21-2026/event/16006434C643809E",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1101,6 +1120,9 @@
         "start": "2026-02-06T15:00:00Z",
         "end": "2026-12-11T22:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE"
     ]
   },
   {
@@ -1119,7 +1141,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-philadelphia-xfinity-mobile-arena-12-22-2026--theater-opera/production/6594366",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-philadelphia-pennsylvania-12-22-2026/event/30006439F2D5709C",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1190,6 +1212,9 @@
         "start": "2026-02-06T15:00:00Z",
         "end": "2026-12-11T22:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE"
     ]
   },
   {
@@ -1208,7 +1233,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-cardiff-principality-stadium---cardiff-5-8-2027/production/7422761",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-ft-welsh-national-opera-cardiff-08-05-2027/event/35006506A68E21A6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1267,7 +1292,10 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8198913/Andrea-Bocelli-tickets-Sat-May-8-2027-Principality-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-tickets-cardiff-principality-stadium-cardiff-8-5-2027/event/107476080",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8198913"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8198913",
+    "organizer_names": [
+      "KMJ ENTERTAINMENT LTD"
+    ]
   },
   {
     "id": "tm-andrea-bocelli-2027-charlotte-g5evz_8mutuyo",
@@ -1285,7 +1313,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-charlotte-spectrum-center-1-29-2027/production/7540260",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-charlotte-north-carolina-01-29-2027/event/2D00650B8DFF6C11",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1356,6 +1384,9 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2027-01-19T22:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE"
     ]
   },
   {
@@ -1374,7 +1405,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-baltimore-cfg-bank-arena-1-31-2027/production/7536247",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-baltimore-maryland-01-31-2027/event/15006514A5CC828F",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1445,6 +1476,9 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2027-02-01T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG PRESENTS"
     ]
   },
   {
@@ -1463,7 +1497,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-atlanta-state-farm-arena-2-2-2027/production/7540264",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-atlanta-georgia-02-02-2027/event/0E006521D8611637",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1534,6 +1568,9 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2027-01-23T22:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE"
     ]
   },
   {
@@ -1552,7 +1589,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-austin-moody-center-atx-2-4-2027/production/7540254",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-austin-texas-02-04-2027/event/3A006521A5AD9867",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1623,6 +1660,9 @@
         "start": "2026-09-18T15:00:00Z",
         "end": "2027-01-22T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE"
     ]
   },
   {
@@ -1641,7 +1681,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-dallas-american-airlines-center---tx-2-5-2027/production/7540262",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-dallas-texas-02-05-2027/event/0C00652499FE648E",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1712,6 +1752,9 @@
         "start": "2026-09-18T15:00:00Z",
         "end": "2027-01-26T23:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE"
     ]
   },
   {
@@ -1799,7 +1842,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-orlando-kia-center-2-10-2027/production/7540258",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-orlando-florida-02-10-2027/event/22006528DECF597D",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1870,6 +1913,9 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2027-01-31T22:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE"
     ]
   },
   {
@@ -1888,7 +1934,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-2-12-2027/production/7540266",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-hollywood-florida-02-12-2027/event/0D006528F490172E",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1959,6 +2005,10 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2027-02-02T22:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "PROMOTED BY VENUE",
+      "AEG LIVE"
     ]
   },
   {
@@ -1977,7 +2027,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-2-13-2027/production/7540248",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-hollywood-florida-02-13-2027/event/0D006529EF053884",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2048,6 +2098,10 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2027-02-03T22:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "PROMOTED BY VENUE",
+      "AEG LIVE"
     ]
   },
   {
@@ -2066,7 +2120,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-birmingham-utilita-arena-birmingham-9-29-2027--theater-opera/production/7622420",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-birmingham-29-09-2027/event/2300653C85D60AC3",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2109,7 +2163,10 @@
     "ticketmaster_discovery_event_id": "1AeGZ_KGkwAgOld",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-tickets-birmingham-utilita-arena-birmingham-29-9-2027/event/107670584"
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-tickets-birmingham-utilita-arena-birmingham-29-9-2027/event/107670584",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ]
   },
   {
     "id": "tm-andrea-bocelli-2027-glasgow-1adbz_k03jdzd5av",
@@ -2127,7 +2184,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-glasgow-ovo-hydro-10-9-2027--theater-opera/production/7622414",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-romanza-30th-anniversary-glasgow-09-10-2027/event/3600653912983A40",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2186,7 +2243,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297135",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297135/Andrea-Bocelli-tickets-Sat-Oct-9-2027-OVO-Hydro",
-    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-tickets-glasgow-ovo-hydro-arena-glasgow-9-10-2027/event/107671323"
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-tickets-glasgow-ovo-hydro-arena-glasgow-9-10-2027/event/107671323",
+    "organizer_names": [
+      "AEG PRESENTS LTD",
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ]
   },
   {
     "id": "tm-andrea-bocelli-2027-chorzow-z698xzqpz16v7kfvze",
@@ -2204,7 +2265,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/andrea-bocelli-tickets/1113534002?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2239,7 +2300,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ16v7KfVZe",
     "timezone": "Europe/Warsaw",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Prestige MJM"
+    ]
   },
   {
     "id": "tm-andrea-bocelli-2027-london-1adfz_kgkbcpkr9",
@@ -2257,7 +2321,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-london-the-o2---london-10-1-2027--theater-opera/production/7622416",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-london-01-10-2027/event/3500653E8E593797",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2300,7 +2364,10 @@
     "ticketmaster_discovery_event_id": "1AdfZ_KGkBCpKr9",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-tickets-london-the-o2-arena-1-10-2027/event/107671324"
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-tickets-london-the-o2-arena-1-10-2027/event/107671324",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ]
   },
   {
     "id": "tm-andrea-bocelli-2027-manchester-1amzkfzgkd7qkyk",
@@ -2318,7 +2385,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-manchester-co-op-live-10-5-2027--theater-opera/production/7620595",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-romanza-30th-anniversary-manchester-05-10-2027/event/37006538C4746C13",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2377,7 +2444,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293403",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293403/Andrea-Bocelli-tickets-Tue-Oct-5-2027-Co-Op-Live",
-    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-tickets-manchester-co-op-live-5-10-2027/event/107671325"
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-tickets-manchester-co-op-live-5-10-2027/event/107671325",
+    "organizer_names": [
+      "CO-OP LIVE",
+      "AEG PRESENTS"
+    ]
   },
   {
     "id": "tm-andrea-bocelli-2026-abu-dhabi-z698xz52z1k7pedfx",
@@ -2395,7 +2466,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ae/event/yasalam-classics-presents-andrea-bocelli-romanza-live-in-concert-tickets/116083522",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2446,6 +2517,9 @@
     "timezone": "Asia/Dubai",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090357",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090357/Andrea-Bocelli-tickets-Wed-Dec-2-2026-Etihad-Arena-Yas-Island"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090357/Andrea-Bocelli-tickets-Wed-Dec-2-2026-Etihad-Arena-Yas-Island",
+    "organizer_names": [
+      "Formula 1 Etihad Airways Abu Dhabi Grand Prix"
+    ]
   }
 ]

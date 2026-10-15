@@ -1467,7 +1467,7 @@
     "vividseats_url": "https://www.vividseats.com/tame-impala-tickets-manchester-co-op-live-5-28-2027--concerts-rock/production/7474475",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-manchester-28-05-2027/event/37006515B7C2A40D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1526,7 +1526,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231212",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231212/Tame-Impala-tickets-Fri-May-28-2027-Co-Op-Live",
-    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-manchester-co-op-live-28-5-2027/event/107506102"
+    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-manchester-co-op-live-28-5-2027/event/107506102",
+    "organizer_names": [
+      "CO-OP LIVE",
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-tame-impala-2027-manchester-1amzkf_gkdr-2ec",
@@ -1544,7 +1548,7 @@
     "vividseats_url": "https://www.vividseats.com/tame-impala-tickets-manchester-co-op-live-5-29-2027--concerts-rock/production/7488553",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-manchester-29-05-2027/event/37006519DE84F9ED",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1603,7 +1607,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8237407",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8237407/Tame-Impala-tickets-Sat-May-29-2027-Co-Op-Live",
-    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-manchester-co-op-live-29-5-2027/event/107554383"
+    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-manchester-co-op-live-29-5-2027/event/107554383",
+    "organizer_names": [
+      "CO-OP LIVE",
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-tame-impala-2027-london-16dfz_ofpg7t8j2",
@@ -1621,7 +1629,7 @@
     "vividseats_url": "https://www.vividseats.com/tame-impala-tickets-london-the-o2---london-6-1-2027--concerts-rock/production/7474478",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-london-01-06-2027/event/3500651525FD098F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1664,7 +1672,10 @@
     "ticketmaster_discovery_event_id": "16dfZ_ofPG7T8J2",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-london-the-o2-arena-1-6-2027/event/107482744"
+    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-london-the-o2-arena-1-6-2027/event/107482744",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-tame-impala-2027-london-16dfz_ofjg7iyih",
@@ -1682,7 +1693,7 @@
     "vividseats_url": "https://www.vividseats.com/tame-impala-tickets-london-the-o2---london-6-2-2027--concerts-rock/production/7474490",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-london-02-06-2027/event/3500651526A30A1B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1725,7 +1736,10 @@
     "ticketmaster_discovery_event_id": "16dfZ_ofJG7IYIh",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-london-the-o2-arena-2-6-2027/event/107506103"
+    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-london-the-o2-arena-2-6-2027/event/107506103",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-tame-impala-2027-london-1agzkfbgkdvvzlq",
@@ -1743,7 +1757,7 @@
     "vividseats_url": "https://www.vividseats.com/tame-impala-tickets-london-the-o2---london-6-3-2027/production/7489978",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-london-03-06-2027/event/35006518F4D387DA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1786,7 +1800,10 @@
     "ticketmaster_discovery_event_id": "1AgZkfbGkdVVzLQ",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-london-the-o2-arena-3-6-2027/event/107554382"
+    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-london-the-o2-arena-3-6-2027/event/107554382",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-tame-impala-2027-rotterdam-z698xzbpz1kppan3z",
@@ -1804,7 +1821,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/tame-impala-deadbeat-tour-tickets/956263480?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1847,7 +1864,10 @@
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kPpaN3Z",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-rotterdam-ahoy-rotterdam-7-6-2027/event/107506132"
+    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-rotterdam-ahoy-rotterdam-7-6-2027/event/107506132",
+    "organizer_names": [
+      "Mojo Concerts"
+    ]
   },
   {
     "id": "tm-tame-impala-2027-rotterdam-z698xzbpz1k_yjz0i",
@@ -1865,7 +1885,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/tame-impala-deadbeat-tour-tickets/670738928?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1908,7 +1928,10 @@
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k_Yjz0I",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-rotterdam-ahoy-rotterdam-8-6-2027/event/107506133"
+    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-rotterdam-ahoy-rotterdam-8-6-2027/event/107506133",
+    "organizer_names": [
+      "Mojo Concerts"
+    ]
   },
   {
     "id": "tm-tame-impala-2027-rotterdam-z698xzbpz1k3e07a0",
@@ -1926,7 +1949,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/tame-impala-deadbeat-tour-tickets/482904264?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1961,6 +1984,9 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k3e07a0",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Mojo Concerts"
+    ]
   }
 ]

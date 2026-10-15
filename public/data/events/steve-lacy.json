@@ -169,7 +169,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-camden-freedom-mortgage-pavilion-10-15-2026--concerts-rb/production/7423274",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-camden-new-jersey-10-15-2026/event/0200650AD0AEF030",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -220,7 +220,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199795",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199795/Steve-Lacy-tickets-Thu-Oct-15-2026-Freedom-Mortgage-Pavilion"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199795/Steve-Lacy-tickets-Thu-Oct-15-2026-Freedom-Mortgage-Pavilion",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-steve-lacy-2026-washington-1a4zkfdgkeiyeai",
@@ -238,7 +241,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-washington-dc-the-anthem-10-18-2026--concerts-rb/production/7423276",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-washington-district-of-columbia-10-18-2026/event/15006503A8E6716C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -297,7 +300,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199796",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199796/Steve-Lacy-tickets-Sun-Oct-18-2026-The-Anthem-DC",
-    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-washington-tickets-10-18-2026/event/107482315"
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-washington-tickets-10-18-2026/event/107482315",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-steve-lacy-2026-virginia-beach-vv1avzkf6gkesce9z",
@@ -315,7 +321,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-virginia-beach-virginia-10-20-2026/event/01006507B3B425C0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -366,7 +372,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199797",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199797/Steve-Lacy-tickets-Tue-Oct-20-2026-The-Dome-by-Rutter-Mills"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199797/Steve-Lacy-tickets-Tue-Oct-20-2026-The-Dome-by-Rutter-Mills",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-steve-lacy-2026-charlotte-g5evz_83vdq5d",
@@ -384,7 +393,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-charlotte-skyla-credit-union-amphitheatre-10-22-2026--concerts-rb/production/7423280",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-charlotte-north-carolina-10-22-2026/event/2D006504B4EDD2FB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -435,7 +444,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199798",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199798/Steve-Lacy-tickets-Thu-Oct-22-2026-Skyla-Credit-Union-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199798/Steve-Lacy-tickets-Thu-Oct-22-2026-Skyla-Credit-Union-Amphitheatre",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-steve-lacy-2026-raleigh-g5evz_8ci0_um",
@@ -453,7 +465,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-raleigh-red-hat-amphitheater-10-23-2026--concerts-rb/production/7423282",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-raleigh-north-carolina-10-23-2026/event/2D006503A891936E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -504,7 +516,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199799",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199799/Steve-Lacy-tickets-Fri-Oct-23-2026-Red-Hat-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199799/Steve-Lacy-tickets-Fri-Oct-23-2026-Red-Hat-Amphitheater",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-steve-lacy-2026-miami-vvg1vz_8pw-pfe",
@@ -522,7 +537,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-miami-fpl-solar-amphitheater-at-bayfront-park-10-26-2026--concerts-rb/production/7423290",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-miami-florida-10-26-2026/event/0D006505BD856502",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -565,7 +580,10 @@
     "ticketmaster_discovery_event_id": "vvG1VZ_8pW-pfe",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-miami-tickets-10-26-2026/event/107486078"
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-miami-tickets-10-26-2026/event/107486078",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-steve-lacy-2026-tampa-vvg1vz_8uxpnex",
@@ -583,7 +601,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-tampa-yuengling-center-10-28-2026--concerts-rb/production/7423304",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-tampa-florida-10-28-2026/event/0D0065037E9630A2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -642,7 +660,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199801",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199801/Steve-Lacy-tickets-Wed-Oct-28-2026-The-Yuengling-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-tampa-tickets-10-28-2026/event/107486079"
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-tampa-tickets-10-28-2026/event/107486079",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-steve-lacy-2026-atlanta-vvg1zz_2x4siub",
@@ -660,7 +681,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-atlanta-synovus-bank-amphitheater-at-chastain-park-10-30-2026--concerts-rb/production/7423354",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-atlanta-georgia-10-30-2026/event/0E0064FF95C6837A",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -718,6 +739,9 @@
         "start": "2026-08-14T14:00:00Z",
         "end": "2026-10-24T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -736,7 +760,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-atlanta-synovus-bank-amphitheater-at-chastain-park-10-31-2026--concerts-rb/production/7600473",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-atlanta-georgia-10-31-2026/event/0E006504BBA6A21B",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -794,6 +818,9 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2026-10-22T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -812,7 +839,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-nashville-nashville-municipal-auditorium-11-2-2026--concerts-rb/production/7423356",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-nashville-tennessee-11-02-2026/event/1B0064FF96018F9F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -863,7 +890,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199803",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199803/Steve-Lacy-tickets-Mon-Nov-2-2026-Nashville-Municipal-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199803/Steve-Lacy-tickets-Mon-Nov-2-2026-Nashville-Municipal-Auditorium",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-steve-lacy-2026-irving-vvg1yz_8n-3vdr",
@@ -881,7 +911,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-irving-pavilion-at-toyota-music-factory-11-5-2026--concerts-rb/production/7423358",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-irving-texas-11-05-2026/event/0C00650AA14B4EEF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -940,7 +970,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199804",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199804/Steve-Lacy-tickets-Thu-Nov-5-2026-The-Pavilion-at-Toyota-Music-Factory",
-    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-irving-tickets-11-5-2026/event/107482316"
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-irving-tickets-11-5-2026/event/107482316",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-steve-lacy-2026-austin-g5diz_8pb91k2",
@@ -958,7 +991,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-austin-moody-amphitheater-11-7-2026--concerts-rb/production/7423364",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-austin-texas-11-07-2026/event/3A006505BA5CA4CF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1017,7 +1050,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199805",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199805/Steve-Lacy-tickets-Sat-Nov-7-2026-Moody-Amphitheater",
-    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-austin-tickets-11-7-2026/event/107486080"
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-austin-tickets-11-7-2026/event/107486080",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-steve-lacy-2026-sugar-land-z7r9jz1aazj8f",
@@ -1096,7 +1132,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-morrison-red-rocks-amphitheatre-11-11-2026--concerts-rb/production/7423370",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJ84",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1155,7 +1191,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199807",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199807/Steve-Lacy-tickets-Wed-Nov-11-2026-Red-Rocks-Amphitheatre",
-    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-morrison-tickets-11-11-2026/event/107482322"
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-morrison-tickets-11-11-2026/event/107482322",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-steve-lacy-2026-las-vegas-169zkfdovza26a51",
@@ -1173,7 +1212,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-las-vegas-cosmopolitan-of-las-vegas-11-13-2026--concerts-rb/production/7423374",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-las-vegas-nevada-11-13-2026/event/17006503801E64A9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1232,7 +1271,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199808",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199808/Steve-Lacy-tickets-Fri-Nov-13-2026-The-Chelsea-The-Cosmopolitan-of-Las-Vegas",
-    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-las-vegas-tickets-11-13-2026/event/107482317"
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-las-vegas-tickets-11-13-2026/event/107482317",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-steve-lacy-2026-phoenix-16_zkf6fzza2g752",
@@ -1250,7 +1292,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-phoenix-arizona-financial-theatre-11-17-2026--concerts-rb/production/7423380",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-phoenix-arizona-11-17-2026/event/19006507200EB3AE",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1308,6 +1350,9 @@
         "start": "2026-08-14T17:00:00Z",
         "end": "2026-10-21T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1326,7 +1371,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-san-diego-gallagher-square-at-petco-park-11-19-2026--concerts-rb/production/7423386",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-san-diego-california-11-19-2026/event/0A006505AF0FB62C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1385,7 +1430,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199810",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199810/Steve-Lacy-tickets-Thu-Nov-19-2026-Gallagher-Square-at-Petco-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-san-diego-tickets-11-19-2026/event/107482318"
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-san-diego-tickets-11-19-2026/event/107482318",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-steve-lacy-2026-hollywood-vvg1iz_8f-wifq",
@@ -1403,7 +1451,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-los-angeles-hollywood-bowl-11-21-2026--concerts-rb/production/7423400",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-hollywood-california-11-21-2026/event/0B00650521CA821D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1462,7 +1510,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199811",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199811/Steve-Lacy-tickets-Sat-Nov-21-2026-Hollywood-Bowl",
-    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-hollywood-tickets-11-21-2026/event/107484106"
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-hollywood-tickets-11-21-2026/event/107484106",
+    "organizer_names": [
+      "ANDREW HEWITT & BILL SILVA PRESENTS",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-steve-lacy-2026-san-francisco-g5vyz_8boyp-m",
@@ -1480,7 +1532,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-san-francisco-bill-graham-civic-auditorium-11-24-2026--concerts-rb/production/7423408",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-san-francisco-california-11-24-2026/event/1C00650611C16877",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1546,6 +1598,10 @@
         "start": "2026-08-14T17:00:00Z",
         "end": "2026-10-29T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "ANOTHER PLANET",
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1564,7 +1620,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-san-francisco-bill-graham-civic-auditorium-11-25-2026--concerts-rb/production/7600490",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-san-francisco-california-11-25-2026/event/1C00650613106DC2",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1635,6 +1691,10 @@
         "start": "2026-09-25T17:00:00Z",
         "end": "2026-11-22T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "ANOTHER PLANET",
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1653,7 +1713,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-seattle-wamu-theater---seattle-11-28-2026--concerts-rb/production/7423416",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-seattle-washington-11-28-2026/event/0F006505934273DF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1712,7 +1772,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199813",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199813/Steve-Lacy-tickets-Sat-Nov-28-2026-Wamu-Theater-At-Lumen-Field-Event-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-seattle-tickets-11-28-2026/event/107482320"
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-seattle-tickets-11-28-2026/event/107482320",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-steve-lacy-2026-vancouver-1aozkf7gkepzmxx",
@@ -1730,7 +1793,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-11-30-2026--concerts-rb/production/7423426",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/steve-lacy-oh-yeah-tour-vancouver-british-columbia-11-30-2026/event/11006504A5E37FA2",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1788,6 +1851,12 @@
         "start": "2026-08-14T17:00:00Z",
         "end": "2026-11-17T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
     ]
   }
 ]

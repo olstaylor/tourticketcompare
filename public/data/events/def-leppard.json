@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-10-15-2026/production/7105235",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-hollywood-florida-10-15-2026/event/0D0064BCDD61E246",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -74,7 +74,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012408",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012408/Def-Leppard-tickets-Thu-Oct-15-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
-    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-hollywood-tickets-10-15-2026/event/107482820"
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-hollywood-tickets-10-15-2026/event/107482820",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-def-leppard-2027-allentown-1ayzk4agkdyeyao",
@@ -92,7 +95,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-allentown-ppl-center-3-2-2027--concerts-rock/production/7671846",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-allentown-pennsylvania-03-02-2027/event/30006545F09F9260",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -167,11 +170,6 @@
         "end": "2026-10-16T02:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T18:00:00Z",
-        "end": "2026-10-15T02:00:00Z"
-      },
-      {
         "name": "Aisle Seat Presale Offer",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
@@ -206,6 +204,9 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-02T15:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -224,7 +225,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-montreal-bell-centre-3-5-2027--concerts-rock/production/7671848",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-montreal-quebec-03-05-2027/event/31006545D45D7EA8",
-    "last_verified_at": "2026-10-14",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -289,11 +290,6 @@
         "end": "2026-10-16T02:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T18:00:00Z",
-        "end": "2026-10-15T02:00:00Z"
-      },
-      {
         "name": "Offre Bord d'Allée",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
@@ -318,6 +314,12 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-06T01:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "EVENKO CO-PRO WITH LIVE NATION",
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC"
     ]
   },
   {
@@ -336,7 +338,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-detroit-little-caesars-arena-3-7-2027--concerts-rock/production/7671850",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-detroit-michigan-03-07-2027/event/08006542AB5B5889",
-    "last_verified_at": "2026-10-14",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -411,11 +413,6 @@
         "end": "2026-10-16T02:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T18:00:00Z",
-        "end": "2026-10-15T02:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
@@ -445,6 +442,9 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-01T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -463,7 +463,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-toronto-scotiabank-arena-3-9-2027--concerts-rock/production/7671856",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-toronto-ontario-03-09-2027/event/10006542DE7542BD",
-    "last_verified_at": "2026-10-14",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -512,11 +512,6 @@
         "end": "2026-10-16T02:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T18:00:00Z",
-        "end": "2026-10-15T02:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
@@ -541,6 +536,12 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-03T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
     ]
   },
   {
@@ -559,7 +560,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-quebec-quebec-03-11-2027/event/31006545B1D957B2",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -629,19 +630,9 @@
         "end": "2026-10-16T02:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T18:00:00Z",
-        "end": "2026-10-15T02:00:00Z"
-      },
-      {
         "name": "PRÉVENTE ARTISTE",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
-      },
-      {
-        "name": "Prévente FOTL American Express Presale",
-        "start": "2026-10-13T16:00:00Z",
-        "end": "2026-10-15T02:00:00Z"
       },
       {
         "name": "Prévente Première Place",
@@ -663,6 +654,9 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-12T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -681,7 +675,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-newark-prudential-center-3-13-2027--concerts-rock/production/7671860",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-newark-new-jersey-03-13-2027/event/02006546C1A2A458",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -764,11 +758,6 @@
         "end": "2026-10-16T02:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T18:00:00Z",
-        "end": "2026-10-15T02:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
@@ -798,6 +787,9 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-14T00:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -816,7 +808,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-boston-td-garden-3-17-2027--concerts-rock/production/7671862",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-boston-massachusetts-03-17-2027/event/010065410A1FFAD2",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -899,11 +891,6 @@
         "end": "2026-10-16T02:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T18:00:00Z",
-        "end": "2026-10-15T02:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
@@ -933,6 +920,9 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-18T00:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -951,7 +941,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-nashville-bridgestone-arena-3-19-2027--concerts-rock/production/7671878",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-nashville-tennessee-03-19-2027/event/1B006545E51D9D1C",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1026,11 +1016,6 @@
         "end": "2026-10-16T03:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T19:00:00Z",
-        "end": "2026-10-15T03:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T15:00:00Z",
         "end": "2026-10-16T03:00:00Z"
@@ -1060,6 +1045,9 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-03-13T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1078,7 +1066,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-washington-capital-one-arena-3-21-2027--concerts-rock/production/7671886",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-washington-district-of-columbia-03-21-2027/event/150064F5B46D9E79",
-    "last_verified_at": "2026-10-14",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1171,11 +1159,6 @@
         "end": "2026-10-16T02:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T18:00:00Z",
-        "end": "2026-10-15T02:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
@@ -1205,6 +1188,9 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-22T00:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1223,7 +1209,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-pittsburgh-ppg-paints-arena-3-23-2027--concerts-rock/production/7671922",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-pittsburgh-pennsylvania-03-23-2027/event/16006542DE40DAE9",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1303,11 +1289,6 @@
         "end": "2026-10-16T02:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T18:00:00Z",
-        "end": "2026-10-15T02:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
@@ -1335,8 +1316,11 @@
       {
         "name": "VIP Packages Public Onsale",
         "start": "2026-10-16T14:00:00Z",
-        "end": "2027-03-16T14:00:00Z"
+        "end": "2027-03-17T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1355,7 +1339,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-chicago-united-center-3-25-2027--concerts-rock/production/7671870",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-chicago-illinois-03-25-2027/event/0400654313EDF414",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1438,11 +1422,6 @@
         "end": "2026-10-16T03:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T19:00:00Z",
-        "end": "2026-10-15T03:00:00Z"
-      },
-      {
         "name": "Aisle Seat Offer",
         "start": "2026-10-13T15:00:00Z",
         "end": "2026-10-16T03:00:00Z"
@@ -1477,6 +1456,9 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-03-19T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1495,7 +1477,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-denver-ball-arena-3-29-2027--concerts-rock/production/7671926",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-denver-colorado-03-29-2027/event/1E00654788474904",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1570,11 +1552,6 @@
         "end": "2026-10-16T04:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T20:00:00Z",
-        "end": "2026-10-15T04:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T16:00:00Z",
         "end": "2026-10-16T04:00:00Z"
@@ -1604,6 +1581,9 @@
         "start": "2026-10-16T16:00:00Z",
         "end": "2027-03-22T16:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1622,7 +1602,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-austin-moody-center-atx-4-13-2027--concerts-rock/production/7671942",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-austin-texas-04-13-2027/event/3A00654299C4A3DB",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1705,11 +1685,6 @@
         "end": "2026-10-16T03:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T19:00:00Z",
-        "end": "2026-10-15T03:00:00Z"
-      },
-      {
         "name": "Aisle Seat Offer Presale",
         "start": "2026-10-13T15:00:00Z",
         "end": "2026-10-16T03:00:00Z"
@@ -1749,6 +1724,9 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-04-07T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1767,7 +1745,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-north-little-rock-simmons-bank-arena-4-16-2027--concerts-rock/production/7671948",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-north-little-rock-arkansas-04-16-2027/event/1B006542CC24E598",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1842,11 +1820,6 @@
         "end": "2026-10-16T03:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T19:00:00Z",
-        "end": "2026-10-15T03:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T15:00:00Z",
         "end": "2026-10-16T03:00:00Z"
@@ -1876,6 +1849,9 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-04-17T01:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -1894,7 +1870,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-fort-worth-texas-04-18-2027/event/0C006546D4B89269",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1977,11 +1953,6 @@
         "end": "2026-10-16T03:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T19:00:00Z",
-        "end": "2026-10-15T03:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T15:00:00Z",
         "end": "2026-10-16T03:00:00Z"
@@ -2011,6 +1982,9 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-04-12T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2029,7 +2003,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-mobile-regions-arena-4-20-2027--concerts-rock/production/7671960",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-mobile-alabama-04-20-2027/event/1B006545BF3B20B6",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2104,11 +2078,6 @@
         "end": "2026-10-16T03:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T19:00:00Z",
-        "end": "2026-10-15T03:00:00Z"
-      },
-      {
         "name": "Venue Presale",
         "start": "2026-10-15T15:00:00Z",
         "end": "2026-10-16T03:00:00Z"
@@ -2128,6 +2097,9 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-03-31T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2146,7 +2118,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-wichita-intrust-bank-arena-4-22-2027--concerts-rock/production/7671968",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-wichita-kansas-04-22-2027/event/06006546A2839CDF",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2221,11 +2193,6 @@
         "end": "2026-10-16T03:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T19:00:00Z",
-        "end": "2026-10-15T03:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T15:00:00Z",
         "end": "2026-10-16T03:00:00Z"
@@ -2260,6 +2227,9 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-04-16T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2278,7 +2248,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-lincoln-pinnacle-bank-arena-4-24-2027--concerts-rock/production/7671972",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-lincoln-nebraska-04-24-2027/event/06006541AB48DFCE",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2353,11 +2323,6 @@
         "end": "2026-10-16T03:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T19:00:00Z",
-        "end": "2026-10-15T03:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T15:00:00Z",
         "end": "2026-10-16T03:00:00Z"
@@ -2387,6 +2352,9 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-04-18T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2405,7 +2373,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-glendale-desert-diamond-arena-4-29-2027--concerts-rock/production/7671984",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-glendale-arizona-04-29-2027/event/190065418A7C43AD",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2480,11 +2448,6 @@
         "end": "2026-10-16T05:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T21:00:00Z",
-        "end": "2026-10-15T05:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T17:00:00Z",
         "end": "2026-10-16T05:00:00Z"
@@ -2514,6 +2477,9 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-04-30T02:30:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2532,7 +2498,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-los-angeles-hollywood-bowl-5-1-2027/production/7671952",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-hollywood-california-05-01-2027/event/0B0065410242AA13",
-    "last_verified_at": "2026-10-14",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2615,11 +2581,6 @@
         "end": "2026-10-16T05:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T21:00:00Z",
-        "end": "2026-10-15T05:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T17:00:00Z",
         "end": "2026-10-16T05:00:00Z"
@@ -2654,6 +2615,10 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-04-25T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "ANDREW HEWITT & BILL SILVA PRESENTS",
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2672,7 +2637,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-san-francisco-chase-center-5-5-2027--concerts-rock/production/7672000",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-san-francisco-california-05-05-2027/event/1C006542E044887E",
-    "last_verified_at": "2026-10-14",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2755,16 +2720,6 @@
         "end": "2026-10-16T05:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T21:00:00Z",
-        "end": "2026-10-15T05:00:00Z"
-      },
-      {
-        "name": "Preferred Seating Presale",
-        "start": "2026-10-13T17:00:00Z",
-        "end": "2026-10-15T05:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T17:00:00Z",
         "end": "2026-10-16T05:00:00Z"
@@ -2809,6 +2764,9 @@
         "start": "2026-10-16T19:00:00Z",
         "end": "2027-04-05T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2827,7 +2785,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-sacramento-golden-1-center-5-7-2027/production/7672006",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-sacramento-california-05-07-2027/event/1C006542DB0C6A51",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2910,11 +2868,6 @@
         "end": "2026-10-16T05:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T21:00:00Z",
-        "end": "2026-10-15T05:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T17:00:00Z",
         "end": "2026-10-16T05:00:00Z"
@@ -2949,6 +2902,9 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-05-08T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2967,7 +2923,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-seattle-climate-pledge-arena-5-9-2027/production/7672047",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-seattle-washington-05-09-2027/event/0F00654293525E5F",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3050,11 +3006,6 @@
         "end": "2026-10-16T05:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T21:00:00Z",
-        "end": "2026-10-15T05:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T17:00:00Z",
         "end": "2026-10-16T05:00:00Z"
@@ -3084,6 +3035,9 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-05-09T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -3102,7 +3056,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-vancouver-rogers-arena-5-14-2027--concerts-rock/production/7672358",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-vancouver-british-columbia-05-14-2027/event/11006545C3E090B1",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3167,11 +3121,6 @@
         "end": "2026-10-16T05:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T21:00:00Z",
-        "end": "2026-10-15T05:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T17:00:00Z",
         "end": "2026-10-16T05:00:00Z"
@@ -3211,6 +3160,12 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-05-15T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
     ]
   },
   {
@@ -3229,7 +3184,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-edmonton-rogers-place-5-16-2027--concerts-rock/production/7672370",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-edmonton-alberta-05-16-2027/event/110065468B2D4B00",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3294,11 +3249,6 @@
         "end": "2026-10-16T04:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T20:00:00Z",
-        "end": "2026-10-15T04:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T16:00:00Z",
         "end": "2026-10-16T04:00:00Z"
@@ -3323,6 +3273,12 @@
         "start": "2026-10-16T16:00:00Z",
         "end": "2027-05-10T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
     ]
   },
   {
@@ -3341,7 +3297,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-san-antonio-frost-bank-center-5-29-2027--concerts-rock/production/7672077",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-san-antonio-texas-05-29-2027/event/3A006546B73BD9C0",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3424,11 +3380,6 @@
         "end": "2026-10-16T03:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T19:00:00Z",
-        "end": "2026-10-15T03:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T15:00:00Z",
         "end": "2026-10-16T03:00:00Z"
@@ -3463,6 +3414,10 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-05-23T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "COMMUNITY ARENA MANAGEMENT"
     ]
   },
   {
@@ -3481,7 +3436,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-oklahoma-city-paycom-center-6-3-2027--concerts-rock/production/7672095",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-oklahoma-city-oklahoma-06-03-2027/event/0C006541B9BBAB88",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3556,11 +3511,6 @@
         "end": "2026-10-16T03:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T19:00:00Z",
-        "end": "2026-10-15T03:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T15:00:00Z",
         "end": "2026-10-16T03:00:00Z"
@@ -3595,6 +3545,10 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-05-28T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -3613,7 +3567,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-milwaukee-fiserv-forum-6-5-2027--concerts-rock/production/7672107",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-milwaukee-wisconsin-06-05-2027/event/07006546D9187E56",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3688,11 +3642,6 @@
         "end": "2026-10-16T03:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T19:00:00Z",
-        "end": "2026-10-15T03:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T15:00:00Z",
         "end": "2026-10-16T03:00:00Z"
@@ -3732,6 +3681,10 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-05-30T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "FRANK PRODUCTIONS",
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -3750,7 +3703,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-saint-louis-missouri-06-07-2027/event/060065429AA3953F",
-    "last_verified_at": "2026-10-14",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3809,11 +3762,6 @@
         "end": "2026-10-16T03:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T19:00:00Z",
-        "end": "2026-10-15T03:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T15:00:00Z",
         "end": "2026-10-16T03:00:00Z"
@@ -3853,6 +3801,9 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-06-07T22:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -3871,7 +3822,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-louisville-kfc-yum-center-6-9-2027--concerts-rock/production/7672127",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-louisville-kentucky-06-09-2027/event/160065468AA335AD",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3946,11 +3897,6 @@
         "end": "2026-10-16T02:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T18:00:00Z",
-        "end": "2026-10-15T02:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
@@ -3980,6 +3926,9 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-06-03T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -3998,7 +3947,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-savannah-enmarket-arena-6-11-2027--concerts-rock/production/7672135",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-savannah-georgia-06-11-2027/event/0E006546962D8CA3",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4078,11 +4027,6 @@
         "end": "2026-10-16T02:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T18:00:00Z",
-        "end": "2026-10-15T02:00:00Z"
-      },
-      {
         "name": "Artist Presale Generic",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
@@ -4107,6 +4051,10 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-06-12T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -4125,7 +4073,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-tampa-benchmark-international-arena-6-13-2027--concerts-rock/production/7672149",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-tampa-florida-06-13-2027/event/0D006545BD90A0E8",
-    "last_verified_at": "2026-10-14",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4208,11 +4156,6 @@
         "end": "2026-10-16T02:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T18:00:00Z",
-        "end": "2026-10-15T02:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
@@ -4247,6 +4190,9 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-06-14T01:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -4265,7 +4211,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-atlanta-state-farm-arena-6-17-2027--concerts-rock/production/7672155",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-atlanta-georgia-06-17-2027/event/0E006545BFFDC3AC",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4340,11 +4286,6 @@
         "end": "2026-10-16T02:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T18:00:00Z",
-        "end": "2026-10-15T02:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
@@ -4374,6 +4315,9 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-06-11T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -4392,7 +4336,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-columbus-value-city-arena-at-schottenstein-center-6-19-2027--concerts-rock/production/7672161",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-columbus-ohio-06-19-2027/event/05006546E5D4D541",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4467,11 +4411,6 @@
         "end": "2026-10-16T02:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T18:00:00Z",
-        "end": "2026-10-15T02:00:00Z"
-      },
-      {
         "name": "Aisle Seat Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
@@ -4501,6 +4440,9 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-06-13T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -4519,7 +4461,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-new-york-madison-square-garden-6-23-2027--concerts-rock/production/7672195",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-new-york-new-york-06-23-2027/event/3B006544E20651DF",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4602,11 +4544,6 @@
         "end": "2026-10-16T02:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T18:00:00Z",
-        "end": "2026-10-15T02:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
@@ -4641,6 +4578,9 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-06-24T00:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -4659,7 +4599,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-uncasville-mohegan-sun-arena-ct-6-25-2027--concerts-rock/production/7672206",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-uncasville-connecticut-06-25-2027/event/1D0065460C026BA0",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4734,11 +4674,6 @@
         "end": "2026-10-16T02:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T18:00:00Z",
-        "end": "2026-10-15T02:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
@@ -4763,6 +4698,9 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-06-25T23:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -4781,7 +4719,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-philadelphia-xfinity-mobile-arena-6-27-2027--concerts-rock/production/7672212",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-philadelphia-pennsylvania-06-27-2027/event/30006545A5BC311A",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4864,11 +4802,6 @@
         "end": "2026-10-16T02:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T18:00:00Z",
-        "end": "2026-10-15T02:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
@@ -4898,6 +4831,9 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-06-27T14:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -4916,7 +4852,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-charlotte-spectrum-center-6-30-2027--concerts-rock/production/7672220",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-charlotte-north-carolina-06-30-2027/event/2D006545B33CDBA3",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4991,11 +4927,6 @@
         "end": "2026-10-16T02:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T18:00:00Z",
-        "end": "2026-10-15T02:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
@@ -5025,6 +4956,9 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-06-24T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -5043,7 +4977,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-indianapolis-gainbridge-fieldhouse-7-2-2027--concerts-rock/production/7672228",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-indianapolis-indiana-07-02-2027/event/050065419ABA5D79",
-    "last_verified_at": "2026-10-14",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -5118,11 +5052,6 @@
         "end": "2026-10-16T02:00:00Z"
       },
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-10-12T18:00:00Z",
-        "end": "2026-10-15T02:00:00Z"
-      },
-      {
         "name": "ARTIST FAN CLUB PRESALE",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-16T02:00:00Z"
@@ -5152,6 +5081,9 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-06-26T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -5170,7 +5102,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/def-leppard-ciudad-de-mexico-19-10-2026/event/140064B5BE65F56F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -5229,7 +5161,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8174251",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8174251/Def-Leppard-tickets-Mon-Oct-19-2026-Palacio-De-Los-Deportes-Mexico-City",
-    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-tickets-mexico-city-palacio-de-los-deportes-19-10-2026/event/107274086"
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-tickets-mexico-city-palacio-de-los-deportes-19-10-2026/event/107274086",
+    "organizer_names": [
+      "OCESA",
+      "MONDIAL PRICE 1"
+    ]
   },
   {
     "id": "tm-def-leppard-2026-tlajomulco-de-zuniga-g5dvz_5361kla",
@@ -5247,7 +5183,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/def-leppard-tlajomulco-de-zuniga-21-10-2026/event/3D0064B487293AC5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -5282,6 +5218,10 @@
     },
     "ticketmaster_discovery_event_id": "G5dVZ_5361KlA",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "OCESA",
+      "MONDIAL PRICE 1"
+    ]
   }
 ]

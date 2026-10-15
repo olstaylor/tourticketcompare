@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/twenty-one-pilots-tickets-columbus-ohio-stadium-10-17-2026--concerts-rock/production/7034787",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/twenty-one-pilots-ohio-stadium-columbus-ohio-10-17-2026/event/050064AD9DFD765E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -58,6 +58,9 @@
     "ticketmaster_discovery_event_id": "vvG1fZ_1UqT9_r",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7965455/Twenty-One-Pilots-tickets-Sat-Oct-17-2026-Ohio-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7965455/Twenty-One-Pilots-tickets-Sat-Oct-17-2026-Ohio-Stadium",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   }
 ]

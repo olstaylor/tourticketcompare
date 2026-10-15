@@ -1567,13 +1567,13 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-16-2026--concerts-pop/production/6564688",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-16-2026/event/3B00643505EE82F4",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3B00643505EE82F4",
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-16-2026/event/3B00643505EE82F4",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-15",
         "availability_status": "on_sale",
         "discovery_event_id": "G5diZ_dfADI5V"
       },
@@ -1624,7 +1624,10 @@
     "ticketmaster_discovery_event_id": "G5diZ_dfADI5V",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695888",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-16-2026/event/107083222",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695888/Harry-Styles-tickets-Fri-Oct-16-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695888/Harry-Styles-tickets-Fri-Oct-16-2026-Madison-Square-Garden",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506808378",
@@ -1644,13 +1647,13 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-17-2026--concerts-pop/production/6564691",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-17-2026/event/3B00643506808378",
-    "last_verified_at": "2026-10-14",
+    "last_verified_at": "2026-10-15",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3B00643506808378",
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-17-2026/event/3B00643506808378",
         "verified": true,
-        "last_verified_at": "2026-10-14",
+        "last_verified_at": "2026-10-15",
         "availability_status": "on_sale",
         "discovery_event_id": "G5diZ_dfkOFuz"
       },
@@ -1701,7 +1704,10 @@
     "ticketmaster_discovery_event_id": "G5diZ_dfkOFuz",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695889",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-17-2026/event/107082340",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695889/Harry-Styles-tickets-Sat-Oct-17-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695889/Harry-Styles-tickets-Sat-Oct-17-2026-Madison-Square-Garden",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b0064350690838a",
@@ -1721,13 +1727,13 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-21-2026--concerts-pop/production/6564694",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-21-2026/event/3B0064350690838A",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3B0064350690838A",
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-21-2026/event/3B0064350690838A",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-15",
         "availability_status": "on_sale",
         "discovery_event_id": "G5diZ_dfk0FC1"
       },
@@ -1785,6 +1791,9 @@
         "start": "2026-02-04T16:00:00Z",
         "end": "2026-10-17T16:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1805,13 +1814,13 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-23-2026--concerts-pop/production/6564699",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-23-2026/event/3B006435069E8398",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3B006435069E8398",
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-23-2026/event/3B006435069E8398",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-15",
         "availability_status": "on_sale",
         "discovery_event_id": "G5diZ_dfkEICb"
       },
@@ -1869,6 +1878,9 @@
         "start": "2026-02-04T16:00:00Z",
         "end": "2026-10-19T16:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1889,13 +1901,13 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-24-2026--concerts-pop/production/6564701",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-24-2026/event/3B00643506AE83A2",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3B00643506AE83A2",
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-24-2026/event/3B00643506AE83A2",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-15",
         "availability_status": "on_sale",
         "discovery_event_id": "G5diZ_dfklICx"
       },
@@ -1953,6 +1965,9 @@
         "start": "2026-02-04T16:00:00Z",
         "end": "2026-10-20T16:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1973,13 +1988,13 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-28-2026--concerts-pop/production/6564706",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-28-2026/event/3B00643506BF83B6",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3B00643506BF83B6",
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-28-2026/event/3B00643506BF83B6",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-15",
         "availability_status": "on_sale",
         "discovery_event_id": "G5diZ_dfkRzCU"
       },
@@ -2037,6 +2052,9 @@
         "start": "2026-02-04T16:00:00Z",
         "end": "2026-10-24T16:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2057,13 +2075,13 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-30-2026--concerts-pop/production/6564711",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-harryween-new-york-new-york-10-30-2026/event/3B00643506CF83CB",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3B00643506CF83CB",
         "url": "https://www.ticketmaster.com/harry-styles-together-together-harryween-new-york-new-york-10-30-2026/event/3B00643506CF83CB",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-15",
         "availability_status": "on_sale",
         "discovery_event_id": "G5diZ_dfkSz25"
       },
@@ -2121,6 +2139,9 @@
         "start": "2026-02-04T16:00:00Z",
         "end": "2026-10-26T16:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2141,13 +2162,13 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-31-2026--concerts-pop/production/6564719",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-harryween-new-york-new-york-10-31-2026/event/3B00643506DA83DE",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3B00643506DA83DE",
         "url": "https://www.ticketmaster.com/harry-styles-together-together-harryween-new-york-new-york-10-31-2026/event/3B00643506DA83DE",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-15",
         "availability_status": "on_sale",
         "discovery_event_id": "G5diZ_dfkUI2r"
       },
@@ -2205,6 +2226,9 @@
         "start": "2026-02-04T16:00:00Z",
         "end": "2026-10-27T16:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2700,7 +2724,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/harry-styles-together-together-docklands-27-11-2026/event/25006436CFC6E40D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2735,7 +2759,10 @@
     },
     "ticketmaster_discovery_event_id": "1APZk8UGkd2sm8u",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-harry-styles-2026-docklands-16efz_dckg7slsc",
@@ -2753,7 +2780,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/harry-styles-together-together-docklands-28-11-2026/event/2500643393CDFCCE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2796,7 +2823,10 @@
     "ticketmaster_discovery_event_id": "16efZ_dCKG7SLSC",
     "timezone": "Australia/Melbourne",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-28-11-2026/event/107082956"
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-28-11-2026/event/107082956",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-harry-styles-2026-docklands-1apzk8ugkd2mxoc",
@@ -2814,7 +2844,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/harry-styles-together-together-docklands-02-12-2026/event/25006436CFDFE44E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2857,7 +2887,10 @@
     "ticketmaster_discovery_event_id": "1APZk8UGkd2MXoC",
     "timezone": "Australia/Melbourne",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-2-12-2026/event/107082957"
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-2-12-2026/event/107082957",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-harry-styles-2026-docklands-1apzk8ugkd2broi",
@@ -2875,7 +2908,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/harry-styles-together-together-docklands-04-12-2026/event/25006436CFE9E468",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2918,7 +2951,10 @@
     "ticketmaster_discovery_event_id": "1APZk8UGkd2BroI",
     "timezone": "Australia/Melbourne",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-4-12-2026/event/107495125"
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-4-12-2026/event/107495125",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-harry-styles-2026-sydney-olympic-park-1ka8v0ukgagf72c",
@@ -2936,7 +2972,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/harry-styles-together-together-sydney-olympic-park-12-12-2026/event/250064346C5043CE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2979,7 +3015,10 @@
     "ticketmaster_discovery_event_id": "1ka8v0ukGAGf72C",
     "timezone": "Australia/Sydney",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695899/Harry-Styles-tickets-Sat-Dec-12-2026-Accor-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695899/Harry-Styles-tickets-Sat-Dec-12-2026-Accor-Stadium",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-harry-styles-2026-sydney-olympic-park-1apzk8ugkdafgq9",
@@ -2997,7 +3036,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/harry-styles-together-together-sydney-olympic-park-13-12-2026/event/25006436C550C697",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3048,7 +3087,10 @@
     "timezone": "Australia/Sydney",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695900",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695900/Harry-Styles-tickets-Sun-Dec-13-2026-Accor-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695900/Harry-Styles-tickets-Sun-Dec-13-2026-Accor-Stadium",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-harry-styles-2027-pasadena-vvg1iz_3npi4df",
@@ -3066,7 +3108,7 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-pasadena-rose-bowl-stadium-4-23-2027--concerts-pop/production/7539880",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-04-23-2027/event/0B006528E5B15ED4",
-    "last_verified_at": "2026-09-18",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3125,7 +3167,10 @@
     "status": "announced",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257680",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8257680/Harry-Styles-tickets-Fri-Apr-23-2027-Rose-Bowl-Stadium-Pasadena",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-pasadena-tickets-4-23-2027/event/107667648"
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-pasadena-tickets-4-23-2027/event/107667648",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-harry-styles-2027-pasadena-vvg1iz_3ntnu7b",
@@ -3143,7 +3188,7 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-pasadena-rose-bowl-stadium-4-24-2027--concerts-pop/production/7539882",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-04-24-2027/event/0B006528E9AB6118",
-    "last_verified_at": "2026-09-18",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3202,7 +3247,10 @@
     "status": "announced",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257681",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8257681/Harry-Styles-tickets-Sat-Apr-24-2027-Rose-Bowl-Stadium-Pasadena",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-pasadena-tickets-4-24-2027/event/107667649"
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-pasadena-tickets-4-24-2027/event/107667649",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-harry-styles-2027-toronto-1a8zkftgkdpce50",
@@ -3220,7 +3268,7 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-toronto-rogers-stadium---toronto-5-7-2027--concerts-pop/production/7539896",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-07-2027/event/10006529D6B422E4",
-    "last_verified_at": "2026-09-18",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3255,7 +3303,11 @@
     },
     "ticketmaster_discovery_event_id": "1A8ZkftGkdpce50",
     "timezone": "America/Toronto",
-    "status": "announced"
+    "status": "announced",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-harry-styles-2027-toronto-1a8zkftanayze5g",
@@ -3273,7 +3325,7 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-toronto-rogers-stadium---toronto-5-8-2027--concerts-pop/production/7539898",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-08-2027/event/10006529263279AB",
-    "last_verified_at": "2026-09-18",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3308,7 +3360,11 @@
     },
     "ticketmaster_discovery_event_id": "1a8ZkftaNayZe5G",
     "timezone": "America/Toronto",
-    "status": "announced"
+    "status": "announced",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-harry-styles-2027-atlanta-vvg1zz_3nnlppu",
@@ -3326,7 +3382,7 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-atlanta-mercedes-benz-stadium-5-21-2027--concerts-pop/production/7539884",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-atlanta-georgia-05-21-2027/event/0E006528EA7D694D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3385,7 +3441,10 @@
     "status": "announced",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257684",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-atlanta-tickets-5-21-2027/event/107667650",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8257684/Harry-Styles-tickets-Fri-May-21-2027-Mercedes-Benz-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8257684/Harry-Styles-tickets-Fri-May-21-2027-Mercedes-Benz-Stadium",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-harry-styles-2027-atlanta-vvg1zz_3ef8eqn",
@@ -3403,7 +3462,7 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-atlanta-mercedes-benz-stadium-5-22-2027--concerts-pop/production/7539886",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-atlanta-georgia-05-22-2027/event/0E006529D44026AA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3462,7 +3521,10 @@
     "status": "announced",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257685",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-atlanta-tickets-5-22-2027/event/107667651",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8257685/Harry-Styles-tickets-Sat-May-22-2027-Mercedes-Benz-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8257685/Harry-Styles-tickets-Sat-May-22-2027-Mercedes-Benz-Stadium",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-harry-styles-2027-chicago-vv1a7zkftgkdrmtch",
@@ -3480,7 +3542,7 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-chicago-soldier-field-5-28-2027--concerts-pop/production/7539892",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-05-28-2027/event/04006529DEBBFB7C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3539,7 +3601,10 @@
     "status": "announced",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257686",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-chicago-tickets-5-28-2027/event/107667652",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8257686/Harry-Styles-tickets-Fri-May-28-2027-Soldier-Field"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8257686/Harry-Styles-tickets-Fri-May-28-2027-Soldier-Field",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-harry-styles-2027-chicago-vv1a7zkftgkdgsgdj",
@@ -3557,7 +3622,7 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-chicago-soldier-field-5-29-2027--concerts-pop/production/7539894",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-05-29-2027/event/04006529F5CF50DC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3616,7 +3681,10 @@
     "status": "announced",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257687",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-chicago-tickets-5-29-2027/event/107667653",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8257687/Harry-Styles-tickets-Sat-May-29-2027-Soldier-Field"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8257687/Harry-Styles-tickets-Sat-May-29-2027-Soldier-Field",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-harry-styles-2027-madrid-z698xz2qz16v0sptae",
@@ -3634,7 +3702,7 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-madrid-riyadh-air-metropolitano-7-30-2027--concerts-pop/production/7539904",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/harry-styles-together-together-tickets/1933969167?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3669,7 +3737,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v0SPtAE",
     "timezone": "Europe/Madrid",
-    "status": "announced"
+    "status": "announced",
+    "organizer_names": [
+      "Live Nation España Last Mile, S.A."
+    ]
   },
   {
     "id": "tm-harry-styles-2027-madrid-z698xz2qz16v8zj448",
@@ -3687,7 +3758,7 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-madrid-riyadh-air-metropolitano-7-31-2027--concerts-pop/production/7539908",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/harry-styles-together-together-tickets/1400995550?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3722,7 +3793,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v8ZJ448",
     "timezone": "Europe/Madrid",
-    "status": "announced"
+    "status": "announced",
+    "organizer_names": [
+      "Live Nation España Last Mile, S.A."
+    ]
   },
   {
     "id": "tm-harry-styles-2027-dublin-1abzkftgkexalp_",
@@ -3740,7 +3814,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/harry-styles-together-together-dublin-18-08-2027/event/18006529A226B959",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3775,7 +3849,10 @@
     },
     "ticketmaster_discovery_event_id": "1AbZkftGkexalP_",
     "timezone": "Europe/London",
-    "status": "announced"
+    "status": "announced",
+    "organizer_names": [
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-harry-styles-2027-dublin-1avoz_3gkn1nb3y",
@@ -3793,7 +3870,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/harry-styles-together-together-dublin-20-08-2027/event/1800652A8AA984B9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3828,7 +3905,10 @@
     },
     "ticketmaster_discovery_event_id": "1AvOZ_3Gkn1nb3y",
     "timezone": "Europe/London",
-    "status": "announced"
+    "status": "announced",
+    "organizer_names": [
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-harry-styles-2027-london-1aegz_8gkdalwdz",
@@ -3846,7 +3926,7 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-london-wembley-stadium-8-25-2027--concerts-pop/production/7539918",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-25-08-2027/event/2300650EC5AF20F8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3905,7 +3985,11 @@
     "status": "announced",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257655",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-tickets-london-wembley-stadium-25-8-2027/event/107666015",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8257655/Harry-Styles-tickets-Wed-Aug-25-2027-Wembley-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8257655/Harry-Styles-tickets-Wed-Aug-25-2027-Wembley-Stadium",
+    "organizer_names": [
+      "SJM LIMITED (NEW)",
+      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS"
+    ]
   },
   {
     "id": "tm-harry-styles-2027-london-1anzkfigkew9djd",
@@ -3923,7 +4007,7 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-london-wembley-stadium-8-27-2027--concerts-pop/production/7539920",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-27-08-2027/event/23006528B25C373B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3982,7 +4066,11 @@
     "status": "announced",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257656",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-tickets-london-wembley-stadium-27-8-2027/event/107667637",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8257656/Harry-Styles-tickets-Fri-Aug-27-2027-Wembley-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8257656/Harry-Styles-tickets-Fri-Aug-27-2027-Wembley-Stadium",
+    "organizer_names": [
+      "SJM LIMITED (NEW)",
+      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS"
+    ]
   },
   {
     "id": "tm-harry-styles-2027-london-1anzkfigkeycdjb",
@@ -4000,7 +4088,7 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-london-wembley-stadium-8-28-2027--concerts-pop/production/7539922",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-28-08-2027/event/23006528B9383998",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4059,7 +4147,11 @@
     "status": "announced",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8257657",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-tickets-london-wembley-stadium-28-8-2027/event/107666016",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8257657/Harry-Styles-tickets-Sat-Aug-28-2027-Wembley-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8257657/Harry-Styles-tickets-Sat-Aug-28-2027-Wembley-Stadium",
+    "organizer_names": [
+      "SJM LIMITED (NEW)",
+      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS"
+    ]
   },
   {
     "id": "tm-harry-styles-2027-dublin-1avoz_3gklibgmq",
@@ -4077,7 +4169,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/harry-styles-together-together-dublin-21-08-2027/event/1800652AECE8CB9A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4112,7 +4204,10 @@
     },
     "ticketmaster_discovery_event_id": "1AvOZ_3GkliBGmQ",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-harry-styles-2027-arlington-z7r9jz1aavp49",
@@ -4361,7 +4456,7 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-pasadena-rose-bowl-stadium-4-30-2027/production/7559045",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-04-30-2027/event/0B00652EB5754AEC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4420,7 +4515,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266437",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266437/Harry-Styles-tickets-Fri-Apr-30-2027-Rose-Bowl-Stadium-Pasadena",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-pasadena-tickets-4-30-2027/event/107668108"
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-pasadena-tickets-4-30-2027/event/107668108",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-harry-styles-2027-pasadena-vvg1iz_3bg-0lz",
@@ -4438,7 +4536,7 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-pasadena-rose-bowl-stadium-5-1-2027/production/7559041",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-05-01-2027/event/0B00652EB5864AF8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4497,7 +4595,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266438",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266438/Harry-Styles-tickets-Sat-May-1-2027-Rose-Bowl-Stadium-Pasadena",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-pasadena-tickets-5-1-2027/event/107668109"
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-pasadena-tickets-5-1-2027/event/107668109",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-harry-styles-2027-toronto-1avzz_3gkzqzh13",
@@ -4515,7 +4616,7 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-toronto-rogers-stadium---toronto-5-14-2027--concerts-pop/production/7557449",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-14-2027/event/1000652E1DE1B292",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4550,7 +4651,11 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_3Gkzqzh13",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-harry-styles-2027-toronto-1avzz_3gkzqbl5d",
@@ -4568,7 +4673,7 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-toronto-rogers-stadium---toronto-5-15-2027--concerts-pop/production/7557455",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/harry-styles-together-together-toronto-ontario-05-15-2027/event/1000652E1DEAB2C3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4603,7 +4708,11 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_3GkzqBl5d",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-harry-styles-2027-chicago-vv1a7zkftgkdbxpoy",
@@ -4621,7 +4730,7 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-chicago-soldier-field-6-4-2027--concerts-pop/production/7558050",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-06-04-2027/event/04006529FA896470",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4680,7 +4789,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265970",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-chicago-tickets-6-4-2027/event/107668112",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265970/Harry-Styles-tickets-Fri-Jun-4-2027-Soldier-Field"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265970/Harry-Styles-tickets-Fri-Jun-4-2027-Soldier-Field",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-harry-styles-2027-chicago-vv1a7zkftgkdwejgw",
@@ -4698,7 +4810,7 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-chicago-soldier-field-6-5-2027--concerts-pop/production/7558044",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-06-05-2027/event/04006529FD0A6D72",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4757,7 +4869,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265969",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-chicago-tickets-6-5-2027/event/107668113",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265969/Harry-Styles-tickets-Sat-Jun-5-2027-Soldier-Field"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265969/Harry-Styles-tickets-Sat-Jun-5-2027-Soldier-Field",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-harry-styles-2027-madrid-z698xz2qz1ko4op48",
@@ -4775,7 +4890,7 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-madrid-riyadh-air-metropolitano-8-2-2027/production/7556405",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/harry-styles-together-together-tickets/455456550?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -4810,7 +4925,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1ko4op48",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation España Last Mile, S.A."
+    ]
   },
   {
     "id": "tm-harry-styles-2027-arlington-z7r9jz1aavszi",
@@ -4982,7 +5100,7 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-chicago-soldier-field-5-31-2027--concerts-pop/production/7561430",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-chicago-illinois-05-31-2027/event/04006529FEC273D2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -5041,7 +5159,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267110",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-chicago-tickets-5-31-2027/event/107668111",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267110/Harry-Styles-tickets-Mon-May-31-2027-Soldier-Field"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267110/Harry-Styles-tickets-Mon-May-31-2027-Soldier-Field",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-harry-styles-2027-glendale-z7r9jz1aavp4_",

@@ -84,7 +84,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-live-in-concert-chicago-illinois-10-27-2026/event/040064D2FEEBF787",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -119,7 +119,10 @@
     },
     "ticketmaster_discovery_event_id": "vvG18Z_u5XBTr6",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2026-pittsburgh-17aov0g6u5ijrxe",
@@ -137,7 +140,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-pittsburgh-citizens-live-at-the-wylie-10-30-2026--concerts-country-and-folk/production/7199155",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-charles-wesley-godwin-pittsburgh-pennsylvania-10-30-2026/event/160064D2E899E8A7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -188,7 +191,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8073983",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8073983/Dylan-Gossett-tickets-Fri-Oct-30-2026-Citizens-Live-at-The-Wylie"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8073983/Dylan-Gossett-tickets-Fri-Oct-30-2026-Citizens-Live-at-The-Wylie",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2026-apopka-z7r9jz1a7ps7y",
@@ -275,7 +281,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/dylan-gossett-the-headed-out-back-brisbane-05-12-2026/event/130064AFE702B310",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -310,7 +316,10 @@
     },
     "ticketmaster_discovery_event_id": "177Yv0G61TEZlG8",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2026-sydney-177yv0g655_-4r3",
@@ -328,7 +337,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/dylan-gossett-the-headed-out-back-sydney-06-12-2026/event/130064B2D9855BD2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -363,7 +372,10 @@
     },
     "ticketmaster_discovery_event_id": "177Yv0G655_-4R3",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2026-west-melbourne-177yv0g653cuwz_",
@@ -381,7 +393,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/dylan-gossett-west-melbourne-08-12-2026/event/130064B48EDB2E19",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416,7 +428,10 @@
     },
     "ticketmaster_discovery_event_id": "177Yv0G653CUwz_",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-london-g5dzz_8kn_3tz",
@@ -434,7 +449,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-london-o2-academy-brixton-2-18-2027/production/7428684",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-london-18-02-2027/event/3E006504EA652A78",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -477,7 +492,12 @@
     "ticketmaster_discovery_event_id": "G5dzZ_8Kn_3tz",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/dylan-gossett-tickets-london-o2-academy-brixton-18-2-2027/event/107469555"
+    "stubhub_international_url": "https://www.stubhub.ie/dylan-gossett-tickets-london-o2-academy-brixton-18-2-2027/event/107469555",
+    "organizer_names": [
+      "COUNTRY TO COUNTRY",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY BRIXTON)",
+      "LIVE NATION MUSIC UK LTD"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-manchester-g5dzz_8hqwevt",
@@ -495,7 +515,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-manchester-19-02-2027/event/3E006506DDF4207F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -530,7 +550,12 @@
     },
     "ticketmaster_discovery_event_id": "G5dzZ_8hqWevT",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "COUNTRY TO COUNTRY",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY VICTORIA WAREHOUSE MANCHESTER)",
+      "LIVE NATION MUSIC UK LTD"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-birmingham-g5dzz_83l8ohz",
@@ -548,7 +573,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-birmingham-o2-academy---birmingham-2-21-2027/production/7428688",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-birmingham-21-02-2027/event/3E006504AB4116C0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -607,7 +632,12 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265884",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265884/Dylan-Gossett-tickets-Sun-Feb-21-2027-O2-Academy-Birmingham",
-    "stubhub_international_url": "https://www.stubhub.ie/dylan-gossett-tickets-birmingham-o2-academy-birmingham-21-2-2027/event/107476097"
+    "stubhub_international_url": "https://www.stubhub.ie/dylan-gossett-tickets-birmingham-o2-academy-birmingham-21-2-2027/event/107476097",
+    "organizer_names": [
+      "COUNTRY TO COUNTRY",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY BIRMINGHAM)",
+      "LIVE NATION MUSIC UK LTD"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-glasgow-g5dzz_8pg5sb3",
@@ -625,7 +655,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-glasgow-o2-academy-glasgow-2-23-2027/production/7455097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-23-02-2027/event/3E006505B52F1612",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -668,7 +698,11 @@
     "ticketmaster_discovery_event_id": "G5dzZ_8pg5sb3",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-23-2-2027/event/107482715"
+    "stubhub_international_url": "https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-23-2-2027/event/107482715",
+    "organizer_names": [
+      "DF CONCERTS",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY GLASGOW)"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-glasgow-g5dzz_8qwdoqp",
@@ -686,7 +720,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-glasgow-o2-academy-glasgow-2-24-2027/production/7428676",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-24-02-2027/event/3E006506B20D1765",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -729,7 +763,11 @@
     "ticketmaster_discovery_event_id": "G5dzZ_8QwdoqP",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-24-2-2027/event/107469557"
+    "stubhub_international_url": "https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-24-2-2027/event/107469557",
+    "organizer_names": [
+      "DF CONCERTS",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY GLASGOW)"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-dublin-17kzv0g62wo552g",
@@ -747,7 +785,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/dylan-gossett-dublin-27-02-2027/event/180064FC912CB3CC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -782,7 +820,11 @@
     },
     "ticketmaster_discovery_event_id": "17kZv0G62wo552G",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AMPHITHEATRE IRELAND",
+      "AIKEN PROMOTIONS"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-charleston-g5evz_kdp4j6z",
@@ -800,7 +842,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-charleston-charleston-music-hall-3-25-2027/production/7644164",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charleston-south-carolina-03-25-2027/event/2D00653EE555C1C0",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -842,6 +884,10 @@
         "start": "2026-10-06T14:00:00Z",
         "end": "2027-03-04T04:59:00Z"
       }
+    ],
+    "organizer_names": [
+      "FRANK PRODUCTIONS",
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -860,7 +906,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-north-myrtle-beach-house-of-blues-myrtle-beach-3-26-2027/production/7644189",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-north-myrtle-beach-south-carolina-03-26-2027/event/2D00653DBE4DEAD0",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -918,7 +964,11 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303652",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303652/Dylan-Gossett-tickets-Fri-Mar-26-2027-House-Of-Blues-Myrtle-Beach"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303652/Dylan-Gossett-tickets-Fri-Mar-26-2027-House-Of-Blues-Myrtle-Beach",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-charlotte-g5evz_kb2iepf",
@@ -936,7 +986,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-charlotte-the-fillmore-charlotte-3-27-2027/production/7643781",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charlotte-north-carolina-03-27-2027/event/2D00653E8FB27954",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -994,7 +1044,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303653",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303653/Dylan-Gossett-tickets-Sat-Mar-27-2027-The-Fillmore-Charlotte"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303653/Dylan-Gossett-tickets-Sat-Mar-27-2027-The-Fillmore-Charlotte",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-chattanooga-z7r9jz1aae4bi",
@@ -1081,7 +1134,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-saint-louis-missouri-03-31-2027/event/2100653E42D4C750",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1123,6 +1176,10 @@
         "start": "2026-10-06T15:00:00Z",
         "end": "2027-03-11T05:59:00Z"
       }
+    ],
+    "organizer_names": [
+      "PROMOTED BY VENUE",
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1210,7 +1267,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-memphis-satellite-music-hall-4-3-2027/production/7644194",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-memphis-tennessee-04-03-2027/event/1B006541CB5D93D8",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1268,7 +1325,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303655",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303655/Dylan-Gossett-tickets-Sat-Apr-3-2027-Satellite-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303655/Dylan-Gossett-tickets-Sat-Apr-3-2027-Satellite-Music-Hall",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-birmingham-1aezz_kgkbdr7ks",
@@ -1286,7 +1346,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-birmingham-avondale-brewing-company-4-4-2027/production/7644156",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-birmingham-alabama-04-04-2027/event/2000653EBBBC44F3",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1328,6 +1388,10 @@
         "start": "2026-10-06T15:00:00Z",
         "end": "2027-03-08T04:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "RED MOUNTAIN ENTERTAINMENT",
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1346,7 +1410,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-philadelphia-pennsylvania-04-06-2027/event/0200653DC1683C79",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1404,7 +1468,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303657",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303657/Dylan-Gossett-tickets-Tue-Apr-6-2027-The-Met-Presented-by-Highmark"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303657/Dylan-Gossett-tickets-Tue-Apr-6-2027-The-Met-Presented-by-Highmark",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-baltimore-1avfz_kgkbht6mj",
@@ -1422,7 +1489,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-baltimore-the-paramount-baltimore-4-7-2027/production/7644204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-baltimore-maryland-04-07-2027/event/1500653E9BFC7BA6",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1480,7 +1547,11 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303658",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303658/Dylan-Gossett-tickets-Wed-Apr-7-2027-The-Paramount-Baltimore"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303658/Dylan-Gossett-tickets-Wed-Apr-7-2027-The-Paramount-Baltimore",
+    "organizer_names": [
+      "PROMOTED BY VENUE",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-columbus-z7r9jz1aae4by",
@@ -1567,7 +1638,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-detroit-the-fillmore-detroit-4-10-2027/production/7644126",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-detroit-michigan-04-10-2027/event/0800653DBA936F3C",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1625,7 +1696,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303659",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303659/Dylan-Gossett-tickets-Sat-Apr-10-2027-The-Fillmore-Detroit"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303659/Dylan-Gossett-tickets-Sat-Apr-10-2027-The-Fillmore-Detroit",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-grand-rapids-vv17oz_kgkubfkdd",
@@ -1643,7 +1717,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-grand-rapids-glc-live-at-20-monroe-4-11-2027/production/7644661",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-grand-rapids-michigan-04-11-2027/event/0800653DBA206EC3",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1701,7 +1775,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303660",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303660/Dylan-Gossett-tickets-Sun-Apr-11-2027-GLC-Live-at-20-Monroe"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303660/Dylan-Gossett-tickets-Sun-Apr-11-2027-GLC-Live-at-20-Monroe",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-indianapolis-vv17fz_kgkd3hmfo",
@@ -1719,7 +1796,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-5-4-2027--concerts-country-and-folk/production/7644411",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-indianapolis-indiana-05-04-2027/event/0500653ED2F2E211",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1777,7 +1854,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303661",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303661/Dylan-Gossett-tickets-Tue-May-4-2027-Egyptian-Room-At-Old-National-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303661/Dylan-Gossett-tickets-Tue-May-4-2027-Egyptian-Room-At-Old-National-Centre",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-madison-vv17jz_kgkmgwnt1",
@@ -1795,7 +1875,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-madison-the-sylvee-5-6-2027/production/7644178",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-madison-wisconsin-05-06-2027/event/0700653DF5F6AFCA",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1853,7 +1933,11 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303662",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303662/Dylan-Gossett-tickets-Thu-May-6-2027-The-Sylvee-WI"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303662/Dylan-Gossett-tickets-Thu-May-6-2027-The-Sylvee-WI",
+    "organizer_names": [
+      "FRANK PRODUCTIONS",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-kansas-city-vv17bz_kgkwikfde",
@@ -1871,7 +1955,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-kansas-city-uptown-theater-kansas-city-5-7-2027--concerts-country-and-folk/production/7644413",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-kansas-city-missouri-05-07-2027/event/0600653CAC1880E7",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1929,7 +2013,11 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303663",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303663/Dylan-Gossett-tickets-Fri-May-7-2027-Uptown-Theater-KC"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303663/Dylan-Gossett-tickets-Fri-May-7-2027-Uptown-Theater-KC",
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "MAMMOTH INC"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-la-vista-1aezz_kgkwpxe_0",
@@ -1947,7 +2035,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-la-vista-astro-theater-5-8-2027/production/7644180",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-la-vista-nebraska-05-08-2027/event/2000653C96F82664",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1982,7 +2070,10 @@
     },
     "ticketmaster_discovery_event_id": "1AeZZ_KGkwpXe_0",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MAMMOTH INC"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-austin-g5diz_fkdqvvu",
@@ -2000,7 +2091,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-austin-moody-amphitheater-5-13-2027/production/7644187",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-austin-texas-05-13-2027/event/3A006541BB741D0D",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2058,7 +2149,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303665",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303665/Dylan-Gossett-tickets-Thu-May-13-2027-Moody-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303665/Dylan-Gossett-tickets-Thu-May-13-2027-Moody-Amphitheater",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-houston-g5diz_kmyuwxg",
@@ -2076,7 +2170,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-houston-bayou-music-center-5-14-2027/production/7644161",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-houston-texas-05-14-2027/event/3A00653DF0372FB5",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2134,7 +2228,10 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303666",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303666/Dylan-Gossett-tickets-Fri-May-14-2027-Bayou-Music-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303666/Dylan-Gossett-tickets-Fri-May-14-2027-Bayou-Music-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-fort-worth-z7r9jz1aae4bs",
@@ -2205,7 +2302,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4ba",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2240,7 +2337,10 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe4ba",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-tulsa-z7r9jz1aae4bw",
@@ -2311,7 +2411,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/dylan-gossett-the-headed-out-back-auckland-11-12-2026/event/240064B3B6143EC8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2346,7 +2446,11 @@
     },
     "ticketmaster_discovery_event_id": "17aZv0G65CUAdDF",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AUCKLAND LIVE",
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-dylan-gossett-2026-waipara-17azv0g653pu3v4",
@@ -2364,7 +2468,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/dylan-gossett-the-headed-out-back-waipara-12-12-2026/event/240064B496352055",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2399,6 +2503,9 @@
     },
     "ticketmaster_discovery_event_id": "17aZv0G653pu3v4",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   }
 ]

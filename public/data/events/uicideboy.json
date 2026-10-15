@@ -190,7 +190,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-atlanta-georgia-10-16-2026/event/0E00647BF19754D0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -233,7 +233,10 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_6RsPgK8",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/uicideboy-atlanta-tickets-10-16-2026/event/107155129"
+    "stubhub_international_url": "https://www.stubhub.ie/uicideboy-atlanta-tickets-10-16-2026/event/107155129",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-uicideboy-2026-tampa-vvg1vz_6rke2ej",
@@ -251,7 +254,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-tampa-florida-10-17-2026/event/0D00647BD39CF0A6",
-    "last_verified_at": "2026-10-14",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -286,7 +289,10 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_6RKE2eJ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-uicideboy-2026-sunrise-z7r9jz1a7xzpd",
@@ -304,7 +310,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZpd",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -347,7 +353,10 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZpd",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/uicideboy-sunrise-tickets-10-18-2026/event/107156173"
+    "stubhub_international_url": "https://www.stubhub.ie/uicideboy-sunrise-tickets-10-18-2026/event/107156173",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-uicideboy-2026-birmingham-1aezz_6gkra4gmu",
@@ -365,7 +374,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-birmingham-alabama-10-20-2026/event/2000647BC9575B8D",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -412,6 +421,9 @@
         "start": "2026-04-03T15:00:00Z",
         "end": "2026-10-21T01:30:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   }
 ]

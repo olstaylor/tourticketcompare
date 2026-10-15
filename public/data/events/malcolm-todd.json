@@ -787,7 +787,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-seattle-paramount-theatre-seattle-10-15-2026/production/7132642",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-seattle-washington-10-15-2026/event/0F0064C4A326A7BB",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -838,7 +838,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034340",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034340/Malcolm-Todd-tickets-Thu-Oct-15-2026-Paramount-Theatre-Seattle"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034340/Malcolm-Todd-tickets-Thu-Oct-15-2026-Paramount-Theatre-Seattle",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-malcolm-todd-2026-seattle-vvg1hz_g3n1blo",
@@ -856,7 +859,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-seattle-paramount-theatre-seattle-10-16-2026--concerts-pop/production/7139906",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-seattle-washington-10-16-2026/event/0F0064C4A32BA7D1",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -907,7 +910,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038478",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038478/Malcolm-Todd-tickets-Fri-Oct-16-2026-Paramount-Theatre-Seattle"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038478/Malcolm-Todd-tickets-Fri-Oct-16-2026-Paramount-Theatre-Seattle",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-malcolm-todd-2026-vancouver-z7r9jz1a7p87i",
@@ -994,7 +1000,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-portland-arlene-schnitzer-concert-hall-10-19-2026/production/7132380",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P8vw",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1045,7 +1051,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034379",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034379/Malcolm-Todd-tickets-Mon-Oct-19-2026-Arlene-Schnitzer-Concert-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034379/Malcolm-Todd-tickets-Mon-Oct-19-2026-Arlene-Schnitzer-Concert-Hall",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-malcolm-todd-2026-oakland-g5vyz_gfhhyva",
@@ -1063,7 +1072,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-oakland-fox-theater-oakland-10-21-2026/production/7132398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-oakland-california-10-21-2026/event/1C0064C23CF30D05",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1129,6 +1138,9 @@
         "start": "2026-06-11T17:00:00Z",
         "end": "2026-10-17T19:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "ANOTHER PLANET"
     ]
   },
   {
@@ -1147,7 +1159,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-oakland-fox-theater-oakland-10-22-2026--concerts-pop/production/7139910",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-oakland-california-10-22-2026/event/1C0064C23DF611F5",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1213,6 +1225,9 @@
         "start": "2026-06-11T17:00:00Z",
         "end": "2026-10-18T19:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "ANOTHER PLANET"
     ]
   },
   {
@@ -1231,7 +1246,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-san-diego-petco-park-10-24-2026/production/7132417",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-san-diego-california-10-24-2026/event/0A0064C3ACB68843",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1297,6 +1312,9 @@
         "start": "2026-06-11T17:00:00Z",
         "end": "2026-10-20T19:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1315,7 +1333,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-phoenix-arizona-financial-theatre-10-25-2026/production/7132709",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-phoenix-arizona-10-25-2026/event/190064C2D241DB17",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1373,6 +1391,9 @@
         "start": "2026-06-11T17:00:00Z",
         "end": "2026-10-21T19:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1391,7 +1412,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-los-angeles-greek-theatre---los-angeles-10-28-2026/production/7132602",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-28-2026/event/090064C3B5A6FC88",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1457,6 +1478,9 @@
         "start": "2026-06-11T17:00:00Z",
         "end": "2026-10-24T19:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1475,7 +1499,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-los-angeles-greek-theatre---los-angeles-10-29-2026--concerts-pop/production/7139097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-29-2026/event/090064C591D293A2",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1541,6 +1565,9 @@
         "start": "2026-06-11T17:00:00Z",
         "end": "2026-10-25T19:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1559,7 +1586,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-los-angeles-greek-theatre---los-angeles-10-30-2026--concerts-pop/production/7139912",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-30-2026/event/090064C591DF93F9",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1625,6 +1652,9 @@
         "start": "2026-06-11T17:00:00Z",
         "end": "2026-10-26T19:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -1643,7 +1673,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.se/event/malcolm-todd-do-that-again-tour-tickets/8764310?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1678,7 +1708,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZq2Z1AFq0G8",
     "timezone": "Europe/Stockholm",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Lugerinc AB"
+    ]
   },
   {
     "id": "tm-malcolm-todd-2027-forest-brussels-z698xzg2z1a3rzza",
@@ -1696,7 +1729,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/malcolm-todd-do-that-again-tour-tickets/12780009",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1731,7 +1764,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1A3rZZa",
     "timezone": "Europe/Brussels",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation"
+    ]
   },
   {
     "id": "tm-malcolm-todd-2027-dublin-1kkzvpfyga5vo0x",
@@ -1749,7 +1785,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/malcolm-todd-do-that-again-tour-dublin-24-02-2027/event/180065239B051922",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1784,7 +1820,11 @@
     },
     "ticketmaster_discovery_event_id": "1kkZvPFyGA5vo0x",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AMPHITHEATRE IRELAND",
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-malcolm-todd-2027-glasgow-1adbz_3gknizpvr",
@@ -1802,7 +1842,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-glasgow-25-02-2027/event/3600652AA8E1605E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1837,7 +1877,11 @@
     },
     "ticketmaster_discovery_event_id": "1AdbZ_3GknIzpvr",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "DF CONCERTS LIMITED",
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-malcolm-todd-2027-birmingham-g5dzz_3nh3wrn",
@@ -1855,7 +1899,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-birmingham-o2-academy---birmingham-2-27-2027/production/7558510",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-birmingham-27-02-2027/event/3E00652A9B4B2BE3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1914,7 +1958,13 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265887",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265887/Malcolm-Todd-tickets-Sat-Feb-27-2027-O2-Academy-Birmingham",
-    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-tickets-birmingham-o2-academy-birmingham-27-2-2027/event/107667996"
+    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-tickets-birmingham-o2-academy-birmingham-27-2-2027/event/107667996",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY BIRMINGHAM)",
+      "COMMUNION PRESENTS LTD",
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-malcolm-todd-2027-manchester-1adbz_3gknvr9ad",
@@ -1932,7 +1982,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-manchester-o2-apollo-manchester-2-28-2027/production/7557335",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-manchester-28-02-2027/event/3600652AB4BD7243",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1975,7 +2025,12 @@
     "ticketmaster_discovery_event_id": "1AdbZ_3GknVR9ad",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-tickets-manchester-o2-apollo-manchester-28-2-2027/event/107668009"
+    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-tickets-manchester-o2-apollo-manchester-28-2-2027/event/107668009",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "LIVE NATION MUSIC (VENUES) LTD (NEW)",
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-malcolm-todd-2027-london-g5dzz_3lpy7hq",
@@ -1993,7 +2048,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-london-o2-academy-brixton-3-2-2027/production/7557325",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-london-02-03-2027/event/3E00652AD6E44F1A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2036,7 +2091,12 @@
     "ticketmaster_discovery_event_id": "G5dzZ_3lpy7HQ",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-tickets-london-o2-academy-brixton-2-3-2027/event/107667988"
+    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-tickets-london-o2-academy-brixton-2-3-2027/event/107667988",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY BRIXTON)",
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-malcolm-todd-2027-london-g5dzz_3rjik2s",
@@ -2054,7 +2114,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-london-o2-academy-brixton-3-3-2027/production/7569304",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-london-03-03-2027/event/3E00652BE6A063F3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2097,7 +2157,11 @@
     "ticketmaster_discovery_event_id": "G5dzZ_3RJIk2S",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-tickets-london-o2-academy-brixton-3-3-2027/event/107668448"
+    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-tickets-london-o2-academy-brixton-3-3-2027/event/107668448",
+    "organizer_names": [
+      "ACADEMY MUSIC GROUP (O2 ACADEMY BRIXTON)",
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-malcolm-todd-2027-london-g5dzz_3rsuku2",
@@ -2115,7 +2179,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-london-o2-academy-brixton-3-4-2027--concerts-pop/production/7573613",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-london-04-03-2027/event/3E00652BF1D86D8F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2158,7 +2222,12 @@
     "ticketmaster_discovery_event_id": "G5dzZ_3RsUkU2",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-tickets-london-o2-academy-brixton-4-3-2027/event/107669504"
+    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-tickets-london-o2-academy-brixton-4-3-2027/event/107669504",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY BRIXTON)",
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-malcolm-todd-2027-brisbane-1akzkftgkduv9ih",
@@ -2176,7 +2245,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/malcolm-todd-do-that-again-tour-brisbane-12-05-2027/event/13006529CDD17A1B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2211,7 +2280,10 @@
     },
     "ticketmaster_discovery_event_id": "1AKZkftGkduV9Ih",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-malcolm-todd-2027-west-melbourne-1avgz_3gklkoff0",
@@ -2229,7 +2301,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/malcolm-todd-do-that-again-tour-west-melbourne-17-05-2027/event/1300652AD3448524",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2264,7 +2336,10 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_3GklKoFf0",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-malcolm-todd-2027-west-melbourne-1avgz_3gkdbmub7",
@@ -2282,7 +2357,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/malcolm-todd-do-that-again-tour-west-melbourne-18-05-2027/event/1300652ED8BB6604",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2317,7 +2392,10 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_3GkDbmUb7",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-malcolm-todd-2027-mt-claremont-1avgz_3gkl3ubod",
@@ -2335,7 +2413,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/malcolm-todd-do-that-again-tour-mt-claremont-21-05-2027/event/1300652AD2358443",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2370,7 +2448,10 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_3Gkl3ubod",
     "timezone": "Australia/Perth",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-malcolm-todd-2027-mt-claremont-1avgz_3gkydesct",
@@ -2388,7 +2469,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/malcolm-todd-do-that-again-tour-mt-claremont-22-05-2027/event/1300652E7B9F13A9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2423,6 +2504,9 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_3GkyDEsCt",
     "timezone": "Australia/Perth",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   }
 ]

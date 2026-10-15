@@ -84,7 +84,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-austin-texas-06-12-2027/event/3A006539D64E5E5A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -135,7 +135,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054737",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054737/Hazlett-tickets-Sat-Jun-12-2027-Scoot-Inn"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054737/Hazlett-tickets-Sat-Jun-12-2027-Scoot-Inn",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-hazlett-2027-nashville-z7r9jz1a7p0ay",
@@ -207,7 +210,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-charlotte-north-carolina-04-19-2027/event/2D0064CB9B58CD8D",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -243,7 +246,10 @@
     "ticketmaster_discovery_event_id": "G5eVZ_GmhpGUu",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-hazlett-2027-charlottesville-vvg17z_gcwfexc",
@@ -261,7 +267,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-charlottesville-virginia-04-20-2027/event/010064CB7D2278AD",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -313,7 +319,10 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054740",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054740/Hazlett-tickets-Tue-Apr-20-2027-Jefferson-Theater-VA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054740/Hazlett-tickets-Tue-Apr-20-2027-Jefferson-Theater-VA",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-hazlett-2027-washington-rz7hnez1afukvf",
@@ -400,7 +409,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-pittsburgh-pennsylvania-04-25-2027/event/160064CCA14D7851",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -452,7 +461,10 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054860",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054860/Hazlett-tickets-Sun-Apr-25-2027-Spirit-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054860/Hazlett-tickets-Sun-Apr-25-2027-Spirit-Hall",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-hazlett-2027-new-york-k7vgf_gs3k6br",
@@ -470,7 +482,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-new-york-new-york-04-27-2027/event/000064CCD24C7E9E",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -506,7 +518,10 @@
     "ticketmaster_discovery_event_id": "k7vGF_GS3K6Br",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-hazlett-2027-portland-vvg17z_grwzm6s",
@@ -524,7 +539,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-portland-maine-04-30-2027/event/010064CBF20371F3",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -576,7 +591,10 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054735",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054735/Hazlett-tickets-Fri-Apr-30-2027-State-Theatre-ME"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054735/Hazlett-tickets-Fri-Apr-30-2027-State-Theatre-ME",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-hazlett-2027-boston-vvg17z_grnbkkr",
@@ -594,7 +612,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-boston-massachusetts-05-02-2027/event/010064CBE3E934EF",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -646,7 +664,10 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054734",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054734/Hazlett-tickets-Sun-May-2-2027-Paradise-Rock-Club-Presented-by-Citizens"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054734/Hazlett-tickets-Sun-May-2-2027-Paradise-Rock-Club-Presented-by-Citizens",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-hazlett-2027-montreal-17g8v0g62kxoauq",
@@ -664,7 +685,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-preshow-speakeasy-with-hazlett-addon-montreal-quebec-05-04-2027/event/310064F1A280535A",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -716,7 +737,10 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054865",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054865/Hazlett-tickets-Tue-May-4-2027-Theatre-Beanfield"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054865/Hazlett-tickets-Tue-May-4-2027-Theatre-Beanfield",
+    "organizer_names": [
+      "EVENKO CO-PRO NON-LN"
+    ]
   },
   {
     "id": "tm-hazlett-2027-east-cleveland-z7r9jz1a7pe8a",
@@ -788,7 +812,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/hazlett-toronto-ontario-05-09-2027/event/100064CCD8FB585F",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -824,7 +848,11 @@
     "ticketmaster_discovery_event_id": "177Zv0G6GSbXg-L",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-hazlett-2027-chicago-vvg18z_glqlopk",
@@ -842,7 +870,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-chicago-illinois-05-13-2027/event/040064CADD7D1593",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -901,7 +929,11 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054736",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054736/Hazlett-tickets-Thu-May-13-2027-House-Of-Blues-Chicago"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054736/Hazlett-tickets-Thu-May-13-2027-House-Of-Blues-Chicago",
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ]
   },
   {
     "id": "tm-hazlett-2027-minneapolis-z7r9jz1a7p0gv",
@@ -989,7 +1021,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-kansas-city-missouri-05-17-2027/event/060064E2B071908E",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1041,7 +1073,10 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054738",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054738/Hazlett-tickets-Mon-May-17-2027-Madrid-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054738/Hazlett-tickets-Mon-May-17-2027-Madrid-Theatre",
+    "organizer_names": [
+      "MAMMOTH INC"
+    ]
   },
   {
     "id": "tm-hazlett-2027-seattle-vvg1hz_gmgf1et",
@@ -1059,7 +1094,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-seattle-washington-05-25-2027/event/0F0064CBB520A0BF",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1111,7 +1146,10 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054741",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054741/Hazlett-tickets-Tue-May-25-2027-The-Neptune-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054741/Hazlett-tickets-Tue-May-25-2027-The-Neptune-Theatre",
+    "organizer_names": [
+      "PROMOTED BY VENUE"
+    ]
   },
   {
     "id": "tm-hazlett-2027-vancouver-1778v0g6ctjh581",
@@ -1129,7 +1167,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/hazlett-vancouver-british-columbia-05-26-2027/event/110064EFDCF0B40A",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1181,7 +1219,11 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8168722",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8168722/Hazlett-tickets-Wed-May-26-2027-Commodore-Ballroom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8168722/Hazlett-tickets-Wed-May-26-2027-Commodore-Ballroom",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-hazlett-2027-san-francisco-g5vyz_gmceyww",
@@ -1199,7 +1241,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-san-francisco-california-06-01-2027/event/1C0064CBAD9F0CBD",
-    "last_verified_at": "2026-10-14",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1251,7 +1293,10 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054861",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054861/Hazlett-tickets-Tue-Jun-1-2027-August-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054861/Hazlett-tickets-Tue-Jun-1-2027-August-Hall",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-hazlett-2027-los-angeles-z7r9jz1a7p0oi",
@@ -1408,7 +1453,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-phoenix-arizona-06-05-2027/event/190064CB1CBBB1F3",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1460,7 +1505,10 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054743",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054743/Hazlett-tickets-Sat-Jun-5-2027-The-Van-Buren"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054743/Hazlett-tickets-Sat-Jun-5-2027-The-Van-Buren",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-hazlett-2027-dallas-z7r9jz1a7pge_",
@@ -1548,7 +1596,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/hazlett-glasgow-16-03-2027/event/36006535B06E511F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1584,7 +1632,17 @@
     "ticketmaster_discovery_event_id": "1AUZkfgGkeYhP7L",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T09:00:00Z"
+    "public_onsale_at": "2026-10-16T09:00:00Z",
+    "organizer_names": [
+      "REGULAR LIMITED"
+    ],
+    "presales": [
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-15T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-hazlett-2027-manchester-g5vhz_klkyfqd",
@@ -1602,7 +1660,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/hazlett-manchester-17-03-2027/event/1F006537C6C146BB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1638,7 +1696,10 @@
     "ticketmaster_discovery_event_id": "G5vHZ_KLkYfQD",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T09:00:00Z"
+    "public_onsale_at": "2026-10-16T09:00:00Z",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-hazlett-2027-dublin-1abzkfmgkdlb_c6",
@@ -1656,7 +1717,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/hazlett-dublin-18-03-2027/event/18006537EBE99B47",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1704,6 +1765,9 @@
         "start": "2026-10-15T09:00:00Z",
         "end": "2026-10-16T08:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "MCD PRODUCTIONS"
     ]
   },
   {
@@ -1722,7 +1786,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/hazlett-london-20-03-2027/event/3E006528EB654D5A",
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1770,6 +1834,10 @@
         "start": "2026-10-13T09:00:00Z",
         "end": "2026-10-16T08:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "COMMUNION PRESENTS LTD",
+      "ACADEMY MUSIC GROUP (O2 SHEPHERD'S BUSH EMPIRE)"
     ]
   }
 ]

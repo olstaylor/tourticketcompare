@@ -646,11 +646,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107155469",
-        "url": "https://www.stubhub.ie/sombr-glendale-tickets-10-14-2026/event/107155469",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8GY",
@@ -658,7 +658,7 @@
     "timezone": "America/Phoenix",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-glendale-tickets-10-14-2026/event/107155469"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-sombr-2026-oklahoma-city-z7r9jz1a7x8av",

@@ -154,17 +154,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107185107",
-        "url": "https://www.stubhub.ie/the-smashing-pumpkins-chicago-tickets-10-14-2026/event/107185107",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1DaaHeF",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-chicago-tickets-10-14-2026/event/107185107"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-the-smashing-pumpkins-2026-charlotte-g5evz_1dw8jew",

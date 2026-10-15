@@ -223,11 +223,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107018107",
-        "url": "https://www.stubhub.ie/warren-zeiders-tickets-manchester-manchester-academy-14-10-2026/event/107018107",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZbgTrZaeC",
@@ -235,7 +235,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-manchester-manchester-academy-14-10-2026/event/107018107"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-warren-zeiders-2026-bristol-g5dzzbgxgfjht",

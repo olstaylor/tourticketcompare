@@ -916,6 +916,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673019",
+        "url": "https://www.stubhub.ie/nickelback-nashville-tickets-2-21-2027/event/107673019",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_frYA27y",
@@ -975,7 +982,8 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-02-17T18:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-nashville-tickets-2-21-2027/event/107673019"
   },
   {
     "id": "tm-nickelback-2027-knoxville-g5viz_f9kxnbt",
@@ -1292,6 +1300,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673015",
+        "url": "https://www.stubhub.ie/nickelback-atlanta-tickets-3-2-2027/event/107673015",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_f9I_UgH",
@@ -1346,7 +1361,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-02-26T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-atlanta-tickets-3-2-2027/event/107673015"
   },
   {
     "id": "tm-nickelback-2027-raleigh-g5evz_fh5odfi",
@@ -1409,6 +1425,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673021",
+        "url": "https://www.stubhub.ie/nickelback-raleigh-tickets-3-4-2027/event/107673021",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_fh5OdFi",
@@ -1463,7 +1486,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-02-28T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-raleigh-tickets-3-4-2027/event/107673021"
   },
   {
     "id": "tm-nickelback-2027-newark-vv1kfz_fj7g7twmf",
@@ -1643,6 +1667,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672950",
+        "url": "https://www.stubhub.ie/nickelback-washington-tickets-3-8-2027/event/107672950",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vfZ_fFEG7mdpA",
@@ -1697,7 +1728,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-04T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-washington-tickets-3-8-2027/event/107672950"
   },
   {
     "id": "tm-nickelback-2027-boston-vv1avzk4egkdzjayi",
@@ -1760,6 +1792,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672951",
+        "url": "https://www.stubhub.ie/nickelback-boston-tickets-3-10-2027/event/107672951",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4eGkdzjaYi",
@@ -1814,7 +1853,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-06T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-boston-tickets-3-10-2027/event/107672951"
   },
   {
     "id": "tm-nickelback-2027-montreal-15d7z_fqpa0kk",
@@ -2181,6 +2221,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673397",
+        "url": "https://www.stubhub.ie/nickelback-buffalo-tickets-3-24-2027/event/107673397",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_frUEE-y",
@@ -2235,7 +2282,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-20T16:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-buffalo-tickets-3-24-2027/event/107673397"
   },
   {
     "id": "tm-nickelback-2027-detroit-vv1afzk46gkdogect",
@@ -2298,6 +2346,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673398",
+        "url": "https://www.stubhub.ie/nickelback-detroit-tickets-3-26-2027/event/107673398",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk46GkdOGEcT",
@@ -2352,7 +2407,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-02-13T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-detroit-tickets-3-26-2027/event/107673398"
   },
   {
     "id": "tm-nickelback-2027-milwaukee-vv1a6zk4agkd7raaf",
@@ -2654,6 +2710,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673389",
+        "url": "https://www.stubhub.ie/nickelback-tickets-edmonton-rogers-place-4-3-2027/event/107673389",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1F78vPooPNZ72877",
@@ -2703,7 +2766,8 @@
         "start": "2026-10-16T16:00:00Z",
         "end": "2027-03-30T18:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-edmonton-rogers-place-4-3-2027/event/107673389"
   },
   {
     "id": "tm-nickelback-2027-calgary-1aozk4kgkd_yj0d",
@@ -2766,6 +2830,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673023",
+        "url": "https://www.stubhub.ie/nickelback-tickets-calgary-scotiabank-saddledome-4-6-2027/event/107673023",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4kGkd_Yj0d",
@@ -2815,7 +2886,8 @@
         "start": "2026-10-16T16:00:00Z",
         "end": "2027-04-02T18:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-calgary-scotiabank-saddledome-4-6-2027/event/107673023"
   },
   {
     "id": "tm-nickelback-2027-vancouver-1aozk4agkdpx1_p",
@@ -2878,6 +2950,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673022",
+        "url": "https://www.stubhub.ie/nickelback-tickets-vancouver-rogers-arena-4-9-2027/event/107673022",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4AGkdpX1_P",
@@ -2932,7 +3011,8 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-04-05T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-vancouver-rogers-arena-4-9-2027/event/107673022"
   },
   {
     "id": "tm-nickelback-2027-seattle-vvg1hz_f5mpsjc",
@@ -2995,6 +3075,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672953",
+        "url": "https://www.stubhub.ie/nickelback-seattle-tickets-4-10-2027/event/107672953",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_f5MpSJC",
@@ -3049,7 +3136,8 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-04-06T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-seattle-tickets-4-10-2027/event/107672953"
   },
   {
     "id": "tm-nickelback-2027-sacramento-g5vyz_f9d-9xg",
@@ -3112,6 +3200,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672954",
+        "url": "https://www.stubhub.ie/nickelback-sacramento-tickets-4-13-2027/event/107672954",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_f9d-9xG",
@@ -3166,7 +3261,8 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-04-09T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-sacramento-tickets-4-13-2027/event/107672954"
   },
   {
     "id": "tm-nickelback-2027-anaheim-vv1aazk4kgkeh-rr7",
@@ -3229,6 +3325,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673326",
+        "url": "https://www.stubhub.ie/nickelback-anaheim-tickets-4-18-2027/event/107673326",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk4kGkeH-rr7",
@@ -3283,7 +3386,8 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-04-14T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-anaheim-tickets-4-18-2027/event/107673326"
   },
   {
     "id": "tm-nickelback-2027-phoenix-1a_zk4kgkd7q1b3",
@@ -3346,6 +3450,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673399",
+        "url": "https://www.stubhub.ie/nickelback-phoenix-tickets-4-20-2027/event/107673399",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_Zk4kGkd7Q1b3",
@@ -3400,7 +3511,8 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-04-16T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-phoenix-tickets-4-20-2027/event/107673399"
   },
   {
     "id": "tm-nickelback-2027-denver-g5vzz_fpgv_um",
@@ -3463,6 +3575,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673401",
+        "url": "https://www.stubhub.ie/nickelback-denver-tickets-4-24-2027/event/107673401",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_fpgv_UM",
@@ -3517,7 +3636,8 @@
         "start": "2026-10-16T16:00:00Z",
         "end": "2027-04-20T18:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-denver-tickets-4-24-2027/event/107673401"
   },
   {
     "id": "tm-nickelback-2027-dallas-vvg1yz_f9cwbxt",
@@ -3580,6 +3700,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673388",
+        "url": "https://www.stubhub.ie/nickelback-dallas-tickets-4-27-2027/event/107673388",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_f9CWbxT",
@@ -3634,7 +3761,8 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-04-23T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-dallas-tickets-4-27-2027/event/107673388"
   },
   {
     "id": "tm-nickelback-2027-san-antonio-g5diz_fruim0m",
@@ -3697,6 +3825,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672956",
+        "url": "https://www.stubhub.ie/nickelback-san-antonio-tickets-5-1-2027/event/107672956",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fruiM0m",
@@ -3751,7 +3886,8 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-04-27T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-san-antonio-tickets-5-1-2027/event/107672956"
   },
   {
     "id": "tm-nickelback-2027-leeds-g5vhz_flmspew",

@@ -162,17 +162,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107156171",
-        "url": "https://www.stubhub.ie/uicideboy-new-orleans-tickets-10-14-2026/event/107156171",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_6RoLjgm",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/uicideboy-new-orleans-tickets-10-14-2026/event/107156171"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-uicideboy-2026-atlanta-vvg1zz_6rspgk8",

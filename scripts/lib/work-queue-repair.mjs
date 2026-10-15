@@ -59,10 +59,13 @@ export const OUTCOMES = Object.freeze({
   FIXED: "FIXED",
   BLOCKED: "BLOCKED",
   NEEDS_HUMAN: "NEEDS HUMAN",
-  NO_SAFE_WORK: "NO SAFE WORK"
+  NO_SAFE_WORK: "NO SAFE WORK",
+  NO_PROVIDER_MATCH: "NO VERIFIED MATCH"
 });
 
-/** Terminal outcomes that should fail the run so a human is told. */
+/** Technical faults and unsafe changes remain failing outcomes. An exhaustive
+ * provider lookup with no matching listing is an observed non-change, not a
+ * code failure, and still records an issue comment for review. */
 export const FAILING_OUTCOMES = Object.freeze(new Set([OUTCOMES.BLOCKED, OUTCOMES.NEEDS_HUMAN]));
 
 export const BRANCH_PREFIX = "automation/work-queue-repair";

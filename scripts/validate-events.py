@@ -355,6 +355,8 @@ def run_self_test() -> int:
     }]
     script_path = Path(__file__).resolve()
     test_cases = [
+        {"name": "anonymous promoter label", "mutate": lambda event: event.__setitem__("organizer_names", ["PROMOTED BY VENUE"]), "expect": "organizer_names: must contain plain official organization names"},
+        {"name": "internal promoter price label", "mutate": lambda event: event.__setitem__("organizer_names", ["MONDIAL PRICE 1"]), "expect": "organizer_names: must contain plain official organization names"},
         {"name": "unsafe organizer", "mutate": lambda event: event.__setitem__("organizer_names", ["<script>"]), "expect": "organizer_names: must contain plain official organization names"},
         {"name": "event end before start", "mutate": lambda event: event.__setitem__("end_datetime_iso", "2026-06-01T19:00:00Z"), "expect": "end_datetime_iso: requires an explicit event end after the known event start"},
         {"name": "naive event end", "mutate": lambda event: event.__setitem__("end_datetime_iso", "2026-06-01T23:00:00"), "expect": "end_datetime_iso: requires an explicit event end after the known event start"},
@@ -855,6 +857,7 @@ def main() -> int:
         organizers = event.get("organizer_names")
         if organizers is not None and (not isinstance(organizers, list) or not organizers or any(
             not isinstance(name, str) or not name.strip() or len(name) > 200 or re.search(r"[<>\r\n]|https?://", name, re.I)
+            or re.search(r"^(?:PROMOTED BY VENUE|PROMOTER NOT DEFINED|MISCELLANEOUS PROMOTER|DO NOT USE|UNKNOWN|N/A|NONE|TBA|TBD)$|(?:^|\s)PRICE\s+\d+$|OFFICIAL MAILING LIST|FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS", " ".join(name.split()), re.I)
             for name in organizers
         )):
             errors.append(f"{prefix}.organizer_names: must contain plain official organization names")

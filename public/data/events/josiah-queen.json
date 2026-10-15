@@ -279,10 +279,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255317",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255317/Josiah-Queen-tickets-Sun-Apr-11-2027-Van-Andel-Arena",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255317/Josiah-Queen-tickets-Sun-Apr-11-2027-Van-Andel-Arena"
   },
   {
     "id": "tm-josiah-queen-2027-toronto-1a8zkf-gkdrxwct",
@@ -335,10 +332,7 @@
     },
     "ticketmaster_discovery_event_id": "1A8Zkf-GkdRxWCT",
     "timezone": "America/New_York",
-    "status": "on-sale",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-josiah-queen-2027-worcester-vv1a8vpfygauucfi",
@@ -407,10 +401,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255318",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255318/Josiah-Queen-tickets-Thu-Apr-15-2027-DCU-Center",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255318/Josiah-Queen-tickets-Thu-Apr-15-2027-DCU-Center"
   },
   {
     "id": "tm-josiah-queen-2027-hershey-vv1aezkf0gkdfm7yq",
@@ -559,10 +550,7 @@
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-charlotte-tickets-4-17-2027/event/107666040",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255320",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255320/Josiah-Queen-tickets-Sat-Apr-17-2027-Spectrum-Center",
-    "organizer_names": [
-      "MISCELLANEOUS PROMOTER"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255320/Josiah-Queen-tickets-Sat-Apr-17-2027-Spectrum-Center"
   },
   {
     "id": "tm-josiah-queen-2027-duluth-vvg1zz_3nnlvdz",
@@ -631,10 +619,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255321",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255321/Josiah-Queen-tickets-Sun-Apr-18-2027-Gas-South-Arena",
-    "organizer_names": [
-      "MISCELLANEOUS PROMOTER"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255321/Josiah-Queen-tickets-Sun-Apr-18-2027-Gas-South-Arena"
   },
   {
     "id": "tm-josiah-queen-2027-hoffman-estates-vv1a7zkfigkdsnse_",
@@ -703,10 +688,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255322",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255322/Josiah-Queen-tickets-Fri-Apr-23-2027-NOW-Arena",
-    "organizer_names": [
-      "MISCELLANEOUS PROMOTER"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255322/Josiah-Queen-tickets-Fri-Apr-23-2027-NOW-Arena"
   },
   {
     "id": "tm-josiah-queen-2027-anaheim-vv16azkf00fza5k85a",
@@ -783,10 +765,7 @@
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-anaheim-tickets-4-29-2027/event/107666044",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255323",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255323/Josiah-Queen-tickets-Thu-Apr-29-2027-Honda-Center",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255323/Josiah-Queen-tickets-Thu-Apr-29-2027-Honda-Center"
   },
   {
     "id": "tm-josiah-queen-2027-san-diego-vvg1iz_33lzbne",
@@ -1081,8 +1060,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "",
     "organizer_names": [
-      "TRANSPARENT PRODUCTIONS",
-      "PROMOTED BY VENUE"
+      "TRANSPARENT PRODUCTIONS"
     ]
   },
   {

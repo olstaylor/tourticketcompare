@@ -50,10 +50,7 @@
     },
     "ticketmaster_discovery_event_id": "17FZv0G62kQgoX0",
     "timezone": "America/Chicago",
-    "status": "on-sale",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-yacht-rock-revue-2026-atlanta-vvg1zz_oecocx5",
@@ -194,10 +191,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284472",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284472/Yacht-Rock-Revue-tickets-Thu-Jan-7-2027-Bergen-Performing-Arts-Center",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284472/Yacht-Rock-Revue-tickets-Thu-Jan-7-2027-Bergen-Performing-Arts-Center"
   },
   {
     "id": "tm-yacht-rock-revue-2027-huntington-k7vgf_31y4afw",
@@ -490,10 +484,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3T9JX1C",
     "timezone": "America/New_York",
-    "status": "on-sale",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-yacht-rock-revue-2027-fort-myers-z7r9jz1aaevr7",
@@ -1027,10 +1018,7 @@
     },
     "ticketmaster_discovery_event_id": "vv178Z_3Gkmzl562",
     "timezone": "America/Chicago",
-    "status": "on-sale",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-yacht-rock-revue-2027-jacksonville-z7r9jz1aaeebg",

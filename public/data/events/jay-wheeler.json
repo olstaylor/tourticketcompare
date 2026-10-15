@@ -531,10 +531,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307354",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307354/Jay-Wheeler-tickets-Sun-Mar-14-2027-Ovens-Auditorium",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307354/Jay-Wheeler-tickets-Sun-Mar-14-2027-Ovens-Auditorium"
   },
   {
     "id": "tm-jay-wheeler-2027-washington-1a4zk4egkd30m3a",
@@ -682,10 +679,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307356",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307356/Jay-Wheeler-tickets-Fri-Mar-19-2027-Hard-Rock-Live-At-Etess-Arena",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307356/Jay-Wheeler-tickets-Fri-Mar-19-2027-Hard-Rock-Live-At-Etess-Arena"
   },
   {
     "id": "tm-jay-wheeler-2027-mashantucket-g5vvz_fp_melk",
@@ -738,10 +732,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vVZ_fp_MeLK",
     "timezone": "America/New_York",
-    "status": "on-sale",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-jay-wheeler-2027-brooklyn-1ayzk4vgkebxenn",
@@ -1047,9 +1038,6 @@
         "start": "2026-10-09T16:00:00Z",
         "end": "2027-03-26T22:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -1421,9 +1409,6 @@
         "start": "2026-10-09T15:00:00Z",
         "end": "2027-04-08T21:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -1496,8 +1481,7 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/6151204",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/6151204/Jay-Wheeler-tickets-Sun-Mar-7-2027-Hertz-Arena",
     "organizer_names": [
-      "LOUD AND LIVE",
-      "PROMOTED BY VENUE"
+      "LOUD AND LIVE"
     ]
   },
   {
@@ -1561,8 +1545,7 @@
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-tickets-mexico-city-pepsi-center-wtc-16-5-2027/event/107672154",
     "organizer_names": [
-      "OCESA",
-      "MONDIAL PRICE 1"
+      "OCESA"
     ]
   }
 ]

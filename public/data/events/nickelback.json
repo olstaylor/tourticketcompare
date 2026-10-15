@@ -50,10 +50,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3XvgS07",
     "timezone": "America/Chicago",
-    "status": "on-sale",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-nickelback-2027-pittsburgh-1apzk4agkenjp68",
@@ -1217,9 +1214,6 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-02-22T17:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -3927,7 +3921,6 @@
       }
     ],
     "organizer_names": [
-      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS",
       "LNM - VIP NATION UK"
     ]
   },
@@ -4010,7 +4003,6 @@
     ],
     "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-london-the-o2-arena-25-5-2027/event/107672260",
     "organizer_names": [
-      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS",
       "LNM - VIP NATION UK"
     ]
   },
@@ -4114,7 +4106,6 @@
     ],
     "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-birmingham-utilita-arena-birmingham-28-5-2027/event/107672835",
     "organizer_names": [
-      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS",
       "LNM - VIP NATION UK"
     ]
   },

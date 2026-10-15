@@ -1156,9 +1156,6 @@
         "start": "2026-07-24T15:00:00Z",
         "end": "2026-11-19T05:55:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -1762,9 +1759,6 @@
         "start": "2026-07-24T17:00:00Z",
         "end": "2026-12-02T06:55:00Z"
       }
-    ],
-    "organizer_names": [
-      "MISCELLANEOUS PROMOTER"
     ]
   },
   {
@@ -1846,9 +1840,6 @@
         "start": "2026-07-24T17:00:00Z",
         "end": "2026-12-03T07:55:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -1914,9 +1905,6 @@
         "start": "2026-07-24T17:00:00Z",
         "end": "2026-12-05T07:55:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -2519,10 +2507,7 @@
     "ticketmaster_discovery_event_id": "G5vHZ_o63CEUV",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/trivium-tickets-london-alexandra-palace-3-4-2027/event/107532082",
-    "organizer_names": [
-      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS"
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/trivium-tickets-london-alexandra-palace-3-4-2027/event/107532082"
   },
   {
     "id": "tm-trivium-2027-cardiff-1kuovpa6gacrw-h",

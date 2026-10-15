@@ -454,10 +454,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_1BYAqD-",
     "timezone": "America/New_York",
-    "status": "on-sale",
-    "organizer_names": [
-      "MISCELLANEOUS PROMOTER"
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-stella-lefty-2026-toronto-177zv0g61mkytjo",
@@ -800,9 +797,6 @@
         "start": "2026-08-18T16:00:00Z",
         "end": "2026-11-19T23:30:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -2540,10 +2534,7 @@
     },
     "ticketmaster_discovery_event_id": "1A-ZkfxGkegFVFo",
     "timezone": "America/Chicago",
-    "status": "on-sale",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-stella-lefty-2027-austin-z7r9jz1aav7f6",

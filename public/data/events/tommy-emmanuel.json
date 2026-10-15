@@ -437,9 +437,6 @@
         "start": "2026-05-08T14:00:00Z",
         "end": "2026-11-29T03:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -1007,9 +1004,6 @@
         "start": "2026-09-18T15:00:00Z",
         "end": "2027-01-17T04:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -1781,9 +1775,6 @@
         "start": "2026-10-02T18:00:00Z",
         "end": "2027-03-06T06:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "MISCELLANEOUS PROMOTER"
     ]
   },
   {
@@ -1860,10 +1851,7 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318327/Tommy-Emmanuel-tickets-Sun-Mar-14-2027-Southern-Alberta-Jubilee-Auditorium",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318327",
-    "organizer_names": [
-      "MISCELLANEOUS PROMOTER"
-    ]
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318327"
   },
   {
     "id": "tm-tommy-emmanuel-2027-winnipeg-1k78vpupga1vvti",
@@ -1939,10 +1927,7 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8306364",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8306364/Tommy-Emmanuel-tickets-Wed-Mar-17-2027-Burton-Cummings-Theatre",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8306364/Tommy-Emmanuel-tickets-Wed-Mar-17-2027-Burton-Cummings-Theatre"
   },
   {
     "id": "tm-tommy-emmanuel-2027-ottawa-1aszkfgjd0vzecc",

@@ -525,10 +525,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043105/Sylvan-Esso-tickets-Fri-Oct-16-2026-State-Theatre-ME",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8043105",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8043105"
   },
   {
     "id": "tm-sylvan-esso-2026-boston-vvg17z_g2bjele",
@@ -788,10 +785,7 @@
     },
     "ticketmaster_discovery_event_id": "vv178Z_aGkSV90pF",
     "timezone": "America/Chicago",
-    "status": "on-sale",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-sylvan-esso-2026-minneapolis-z7r9jz1a7pfoy",
@@ -936,9 +930,6 @@
         "start": "2026-06-12T17:00:00Z",
         "end": "2027-02-13T04:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -1452,10 +1443,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042799/Sylvan-Esso-tickets-Mon-Mar-1-2027-The-Sound-At-The-Del-Mar-Fairgrounds",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042799",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042799"
   },
   {
     "id": "tm-sylvan-esso-2027-phoenix-17k8v0g6g3yxemg",

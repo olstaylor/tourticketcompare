@@ -1572,9 +1572,6 @@
         "start": "2026-10-09T15:00:00Z",
         "end": "2027-01-30T00:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -1905,8 +1902,7 @@
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300900/The-Red-Clay-Strays-tickets-Thu-Feb-25-2027-Hertz-Arena",
     "organizer_names": [
-      "AEG LIVE",
-      "PROMOTED BY VENUE"
+      "AEG LIVE"
     ]
   },
   {
@@ -2221,10 +2217,7 @@
         "end": "2027-03-14T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300901/The-Red-Clay-Strays-tickets-Thu-Mar-18-2027-Mohegan-Sun-Arena-CT",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300901/The-Red-Clay-Strays-tickets-Thu-Mar-18-2027-Mohegan-Sun-Arena-CT"
   },
   {
     "id": "tm-the-red-clay-strays-2027-allentown-1adzz_kgkmg3bkj",
@@ -3188,7 +3181,6 @@
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300910/The-Red-Clay-Strays-tickets-Thu-Sep-9-2027-Walmart-AMP",
     "organizer_names": [
-      "PROMOTED BY VENUE",
       "AEG LIVE"
     ]
   },

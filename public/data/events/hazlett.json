@@ -246,10 +246,7 @@
     "ticketmaster_discovery_event_id": "G5eVZ_GmhpGUu",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-hazlett-2027-charlottesville-vvg17z_gcwfexc",
@@ -319,10 +316,7 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054740",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054740/Hazlett-tickets-Tue-Apr-20-2027-Jefferson-Theater-VA",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054740/Hazlett-tickets-Tue-Apr-20-2027-Jefferson-Theater-VA"
   },
   {
     "id": "tm-hazlett-2027-washington-rz7hnez1afukvf",
@@ -591,10 +585,7 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054735",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054735/Hazlett-tickets-Fri-Apr-30-2027-State-Theatre-ME",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054735/Hazlett-tickets-Fri-Apr-30-2027-State-Theatre-ME"
   },
   {
     "id": "tm-hazlett-2027-boston-vvg17z_grnbkkr",
@@ -1146,10 +1137,7 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054741",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054741/Hazlett-tickets-Tue-May-25-2027-The-Neptune-Theatre",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054741/Hazlett-tickets-Tue-May-25-2027-The-Neptune-Theatre"
   },
   {
     "id": "tm-hazlett-2027-vancouver-1778v0g6ctjh581",

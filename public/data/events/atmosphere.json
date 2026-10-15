@@ -197,8 +197,7 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277971",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277971/Atmosphere-tickets-Sat-Jan-23-2027-The-Elm-Bozeman",
     "organizer_names": [
-      "LIVE NATION MUSIC",
-      "PROMOTED BY VENUE"
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -468,10 +467,7 @@
     },
     "ticketmaster_discovery_event_id": "1A9ZkfwGkddBJmF",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-atmosphere-2027-tucson-1kk8vpgiga2ka3q",
@@ -540,10 +536,7 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277974",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277974/Atmosphere-tickets-Mon-Feb-1-2027-Rialto-Theatre-Tucson",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277974/Atmosphere-tickets-Mon-Feb-1-2027-Rialto-Theatre-Tucson"
   },
   {
     "id": "tm-atmosphere-2027-kansas-city-vv11bz_k7z0sqj",
@@ -604,10 +597,7 @@
     "ticketmaster_discovery_event_id": "vv11bZ_K7Z0SqJ",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277975",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277975"
   },
   {
     "id": "tm-atmosphere-2027-joliet-vv17jz_3gknvxst7",
@@ -660,10 +650,7 @@
     },
     "ticketmaster_discovery_event_id": "vv17jZ_3GknvXsT7",
     "timezone": "America/Chicago",
-    "status": "on-sale",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-atmosphere-2027-rockford-1ae7z_3gkl5agu0",
@@ -732,10 +719,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277977",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277977/Atmosphere-tickets-Sat-Feb-6-2027-Hard-Rock-Live-Rockford",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277977/Atmosphere-tickets-Sat-Feb-6-2027-Hard-Rock-Live-Rockford"
   },
   {
     "id": "tm-atmosphere-2027-salt-lake-city-g5vzz_kl2vywj",

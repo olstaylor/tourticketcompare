@@ -1092,8 +1092,7 @@
       }
     ],
     "organizer_names": [
-      "LIVE NATION MUSIC",
-      "PROMOTED BY VENUE"
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2608,10 +2607,7 @@
     "ticketmaster_discovery_event_id": "1AdfZ_KGkMUET5g",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-london-the-o2-arena-28-5-2027/event/107671665",
-    "organizer_names": [
-      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS"
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-london-the-o2-arena-28-5-2027/event/107671665"
   },
   {
     "id": "tm-greta-van-fleet-2027-birmingham-1aegz_kgkmz0sov",
@@ -2672,10 +2668,7 @@
     "ticketmaster_discovery_event_id": "1AeGZ_KGkMz0sov",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-birmingham-utilita-arena-birmingham-30-5-2027/event/107671666",
-    "organizer_names": [
-      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS"
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-birmingham-utilita-arena-birmingham-30-5-2027/event/107671666"
   },
   {
     "id": "tm-greta-van-fleet-2027-manchester-1adjz_kgkbyud70",
@@ -3784,9 +3777,6 @@
         "start": "2026-10-15T14:00:00Z",
         "end": "2027-07-17T03:55:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {

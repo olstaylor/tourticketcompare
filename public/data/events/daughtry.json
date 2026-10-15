@@ -257,10 +257,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056796",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056796/Daughtry-tickets-Thu-Oct-15-2026-Mohegan-Sun-Arena-CT",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056796/Daughtry-tickets-Thu-Oct-15-2026-Mohegan-Sun-Arena-CT"
   },
   {
     "id": "tm-daughtry-2026-waterloo-k7vgf_gm6sksu",
@@ -313,10 +310,7 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_Gm6Sksu",
     "timezone": "America/New_York",
-    "status": "on-sale",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-daughtry-2026-atlantic-city-vvg1fz_gskknq7",
@@ -385,10 +379,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056798",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056798/Daughtry-tickets-Sat-Oct-17-2026-Ovation-Hall-at-Ocean-Resort-Casino",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056798/Daughtry-tickets-Sat-Oct-17-2026-Ovation-Hall-at-Ocean-Resort-Casino"
   },
   {
     "id": "tm-daughtry-2026-huntington-k7vgf_geicgms",
@@ -520,10 +511,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8057258",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8057258/Daughtry-tickets-Wed-Oct-21-2026-Bergen-Performing-Arts-Center",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8057258/Daughtry-tickets-Wed-Oct-21-2026-Bergen-Performing-Arts-Center"
   },
   {
     "id": "tm-daughtry-2026-danville-vvg17z_gy_imrz",
@@ -599,9 +587,6 @@
         "start": "2026-06-19T14:00:00Z",
         "end": "2026-10-17T02:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -678,9 +663,6 @@
         "start": "2026-06-19T14:00:00Z",
         "end": "2026-10-18T02:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -1305,9 +1287,6 @@
         "start": "2026-06-19T17:00:00Z",
         "end": "2026-11-02T06:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -1389,9 +1368,6 @@
         "start": "2026-10-07T17:00:00Z",
         "end": "2026-11-11T03:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -1689,9 +1665,6 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-01-17T04:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -1768,9 +1741,6 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-01-21T03:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -1831,9 +1801,6 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-01-17T04:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "MISCELLANEOUS PROMOTER"
     ]
   },
   {
@@ -2210,9 +2177,6 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-02-06T04:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -2415,9 +2379,6 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-02-14T04:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -2499,9 +2460,6 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-02-15T04:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {

@@ -255,9 +255,6 @@
         "start": "2026-05-28T15:00:00Z",
         "end": "2027-02-26T23:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -342,9 +339,6 @@
         "start": "2026-05-28T14:00:00Z",
         "end": "2027-02-28T22:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -559,9 +553,6 @@
         "start": "2026-05-28T15:00:00Z",
         "end": "2027-03-07T23:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -1153,10 +1144,7 @@
     "ticketmaster_discovery_event_id": "1AfZk3eGkeBi9id",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-6-11-2026/event/107154381",
-    "organizer_names": [
-      "MONDIAL PRICE 1"
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-6-11-2026/event/107154381"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedjeux",
@@ -1217,10 +1205,7 @@
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDJEUx",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-7-11-2026/event/107155225",
-    "organizer_names": [
-      "MONDIAL PRICE 1"
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-7-11-2026/event/107155225"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedjmu0",
@@ -1281,10 +1266,7 @@
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDJMU0",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-8-11-2026/event/107154768",
-    "organizer_names": [
-      "MONDIAL PRICE 1"
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-8-11-2026/event/107154768"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedteuw",
@@ -1353,10 +1335,7 @@
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8278052",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8278052/Morat-tickets-Fri-Nov-13-2026-Palacio-De-Los-Deportes-Mexico-City",
-    "organizer_names": [
-      "MONDIAL PRICE 1"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8278052/Morat-tickets-Fri-Nov-13-2026-Palacio-De-Los-Deportes-Mexico-City"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedteut",
@@ -1417,10 +1396,7 @@
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDtEUT",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-14-11-2026/event/107154770",
-    "organizer_names": [
-      "MONDIAL PRICE 1"
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-14-11-2026/event/107154770"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedjmuj",
@@ -1481,10 +1457,7 @@
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDJMUJ",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-15-11-2026/event/107154769",
-    "organizer_names": [
-      "MONDIAL PRICE 1"
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-15-11-2026/event/107154769"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedtmmv",
@@ -1545,10 +1518,7 @@
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDtMMv",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-17-11-2026/event/107649095",
-    "organizer_names": [
-      "MONDIAL PRICE 1"
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-17-11-2026/event/107649095"
   },
   {
     "id": "tm-morat-2026-tlajomulco-de-zuniga-g5dvz_f6tnua-",
@@ -1603,8 +1573,7 @@
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "organizer_names": [
-      "OCESA",
-      "MONDIAL PRICE 1"
+      "OCESA"
     ]
   },
   {
@@ -1660,8 +1629,7 @@
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "organizer_names": [
-      "OCESA",
-      "MONDIAL PRICE 1"
+      "OCESA"
     ]
   }
 ]

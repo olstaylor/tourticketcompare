@@ -44,3 +44,9 @@ try {
   else process.env.TZ = savedTimezone;
 }
 console.log('PASS qualified ends, Pacific viewer rendering and explicit midnight endings');
+
+for (const name of ['PROMOTED BY VENUE', 'promoter not defined', ' MISCELLANEOUS   PROMOTER ', 'DO NOT USE', 'MONDIAL PRICE 1', 'CHARLI XCX OFFICIAL MAILING LIST (WARNER MUSIC GROUP)', 'LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS']) {
+  assert.deepEqual(officialEventMetadata(snapshotFields({ promoters: [{ name }] })), {}, `withhold account label ${name}`);
+  assert.deepEqual(organizerNames([name, 'Live Nation']), ['Live Nation'], 'retain independently named co-organizers');
+}
+console.log('PASS anonymous/internal promoter labels never become organizations');

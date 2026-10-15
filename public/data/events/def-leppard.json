@@ -74,10 +74,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012408",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012408/Def-Leppard-tickets-Thu-Oct-15-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
-    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-hollywood-tickets-10-15-2026/event/107482820",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-hollywood-tickets-10-15-2026/event/107482820"
   },
   {
     "id": "tm-def-leppard-2027-allentown-1ayzk4agkdyeyao",
@@ -1849,9 +1846,6 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-04-17T01:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -3547,8 +3541,7 @@
       }
     ],
     "organizer_names": [
-      "LIVE NATION MUSIC",
-      "PROMOTED BY VENUE"
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -4053,8 +4046,7 @@
       }
     ],
     "organizer_names": [
-      "LIVE NATION MUSIC",
-      "PROMOTED BY VENUE"
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -4698,9 +4690,6 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-06-25T23:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {
@@ -5163,8 +5152,7 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8174251/Def-Leppard-tickets-Mon-Oct-19-2026-Palacio-De-Los-Deportes-Mexico-City",
     "stubhub_international_url": "https://www.stubhub.ie/def-leppard-tickets-mexico-city-palacio-de-los-deportes-19-10-2026/event/107274086",
     "organizer_names": [
-      "OCESA",
-      "MONDIAL PRICE 1"
+      "OCESA"
     ]
   },
   {
@@ -5220,8 +5208,7 @@
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "organizer_names": [
-      "OCESA",
-      "MONDIAL PRICE 1"
+      "OCESA"
     ]
   }
 ]

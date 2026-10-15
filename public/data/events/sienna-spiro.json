@@ -151,10 +151,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038339",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038339/Sienna-Spiro-tickets-Fri-Oct-16-2026-Lincoln-Theatre-DC",
-    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-washington-tickets-10-16-2026/event/107383077",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-washington-tickets-10-16-2026/event/107383077"
   },
   {
     "id": "tm-sienna-spiro-2026-philadelphia-vvg1fz_gfaf9pc",
@@ -359,10 +356,7 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_ueDF3N_",
     "timezone": "America/New_York",
-    "status": "on-sale",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-sienna-spiro-2026-brooklyn-k7vgf_gre9jk_",
@@ -495,10 +489,7 @@
     },
     "ticketmaster_discovery_event_id": "17G8v0G6Gp5n0pn",
     "timezone": "America/New_York",
-    "status": "on-sale",
-    "organizer_names": [
-      "PROMOTER NOT DEFINED"
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-sienna-spiro-2026-toronto-177zv0g6g9hzrkw",

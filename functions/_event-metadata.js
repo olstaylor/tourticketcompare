@@ -1,10 +1,14 @@
 import { eventInstantMs } from './_event-local-date.js';
 import { validPreviousStartDate } from './_event-reschedule.js';
 
+// Discovery also uses these fields for anonymous/internal account labels.
+// They do not identify an organization; do not turn them into one.
+const ORGANIZER_PLACEHOLDER = /^(?:PROMOTED BY VENUE|PROMOTER NOT DEFINED|MISCELLANEOUS PROMOTER|DO NOT USE|UNKNOWN|N\/A|NONE|TBA|TBD)$|(?:^|\s)PRICE\s+\d+$|OFFICIAL MAILING LIST|FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS/i;
+
 // Only verbatim names from the exact official event, never performers or venues.
 export function organizerNames(value) {
   if (!Array.isArray(value)) return [];
-  return [...new Set(value.filter((name) => typeof name === 'string' && name.trim() && name.length <= 200 && !/[<>\r\n]|https?:\/\//i.test(name)).map((name) => name.trim()))];
+  return [...new Set(value.filter((name) => typeof name === 'string' && name.trim() && name.length <= 200 && !/[<>\r\n]|https?:\/\//i.test(name) && !ORGANIZER_PLACEHOLDER.test(name.trim().replace(/\s+/g, ' '))).map((name) => name.trim()))];
 }
 
 export function eventEndDate(event) {

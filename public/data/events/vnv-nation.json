@@ -587,10 +587,7 @@
     "ticketmaster_discovery_event_id": "vvG1VZbVDf3U-X",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-vnv-nation-2027-mesa-z7r9jz1a7qp8u",
@@ -1484,10 +1481,7 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7665363",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7665363/VNV-Nation-tickets-Sat-Apr-10-2027-Baltimore-Soundstage",
-    "organizer_names": [
-      "MISCELLANEOUS PROMOTER"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7665363/VNV-Nation-tickets-Sat-Apr-10-2027-Baltimore-Soundstage"
   },
   {
     "id": "tm-vnv-nation-2027-millvale-rz7hnez1afbaps",

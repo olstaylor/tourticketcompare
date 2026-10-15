@@ -50,10 +50,7 @@
     },
     "ticketmaster_discovery_event_id": "vv17FZ_KGkS7LiFe",
     "timezone": "America/New_York",
-    "status": "on-sale",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-rod-stewart-2027-niagara-falls-16vzzbmcag7m0q9",
@@ -107,10 +104,7 @@
     "ticketmaster_discovery_event_id": "16vZZbMCaG7m0q9",
     "timezone": "America/Toronto",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled",
-    "organizer_names": [
-      "MISCELLANEOUS PROMOTER"
-    ]
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-rod-stewart-2027-savannah-vvg1zz_kexgebo",
@@ -179,10 +173,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277059/Rod-Stewart-tickets-Mon-Mar-8-2027-Enmarket-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277059",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277059"
   },
   {
     "id": "tm-rod-stewart-2027-biloxi-g5viz_kjgqiyx",
@@ -331,10 +322,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266994/Rod-Stewart-tickets-Fri-Mar-12-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
     "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-hollywood-tickets-3-12-2027/event/107669469",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266994",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266994"
   },
   {
     "id": "tm-rod-stewart-2027-saint-augustine-z7r9jz1aavybs",
@@ -479,10 +467,7 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319868/Rod-Stewart-tickets-Fri-Mar-19-2027-Mohegan-Sun-Arena-CT",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319868",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319868"
   },
   {
     "id": "tm-rod-stewart-2027-dublin-1abzkfygkdqi3oq",
@@ -765,7 +750,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-glasgow-ovo-hydro-arena-glasgow-29-4-2027/event/107670605",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8299954",
     "organizer_names": [
-      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS",
       "SCOTTISH EVENT CAMPUS LIMITED"
     ]
   },
@@ -846,7 +830,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-glasgow-ovo-hydro-arena-glasgow-1-5-2027/event/107671673",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308633",
     "organizer_names": [
-      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS",
       "SCOTTISH EVENT CAMPUS LIMITED"
     ]
   },
@@ -925,10 +908,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297144/Rod-Stewart-tickets-Tue-May-4-2027-Utilita-Arena-Birmingham",
     "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-birmingham-utilita-arena-birmingham-4-5-2027/event/107670604",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297144",
-    "organizer_names": [
-      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS"
-    ]
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297144"
   },
   {
     "id": "tm-rod-stewart-2027-manchester-1amzkfugkesbky7",
@@ -1151,10 +1131,7 @@
     "ticketmaster_discovery_event_id": "1AgZkfzGkdv3zFf",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-11-5-2027/event/107671346",
-    "organizer_names": [
-      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS"
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-11-5-2027/event/107671346"
   },
   {
     "id": "tm-rod-stewart-2027-london-1agzkfzgkdvmnjo",
@@ -1215,10 +1192,7 @@
     "ticketmaster_discovery_event_id": "1AgZkfzGkdVMnjO",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-14-5-2027/event/107671677",
-    "organizer_names": [
-      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS"
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-14-5-2027/event/107671677"
   },
   {
     "id": "tm-rod-stewart-2027-amsterdam-z698xzbpz1kbf3oo4",

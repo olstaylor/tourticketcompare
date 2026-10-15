@@ -771,10 +771,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977767",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977767/Mico-tickets-Sat-Oct-24-2026-White-Oak-Music-Hall-Downstairs",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977767/Mico-tickets-Sat-Oct-24-2026-White-Oak-Music-Hall-Downstairs"
   },
   {
     "id": "tm-mico-2026-nashville-g5viz_1mfi-bc",
@@ -906,10 +903,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_1D2p0Tb",
     "timezone": "America/New_York",
-    "status": "on-sale",
-    "organizer_names": [
-      "MISCELLANEOUS PROMOTER"
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-mico-2026-washington-17a8v0g61sa7y8c",
@@ -978,10 +972,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977761",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977761/Mico-tickets-Thu-Oct-29-2026-930-Club",
-    "organizer_names": [
-      "PROMOTED BY VENUE"
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977761/Mico-tickets-Thu-Oct-29-2026-930-Club"
   },
   {
     "id": "tm-mico-2026-new-york-z7r9jz1a70u7_",
@@ -1632,10 +1623,7 @@
         "end": "2026-10-16T08:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/mico-tickets-manchester-manchester-academy-1-2-2027/event/107672867",
-    "organizer_names": [
-      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS"
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/mico-tickets-manchester-manchester-academy-1-2-2027/event/107672867"
   },
   {
     "id": "tm-mico-2027-london-g5vhz_fjlqa3s",
@@ -1709,10 +1697,7 @@
         "end": "2026-10-16T08:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/mico-tickets-london-the-roundhouse-4-2-2027/event/107672270",
-    "organizer_names": [
-      "LIVE NATION UK FOR ARTIST, TOUR, FESTIVAL AND PRESALE NEWS"
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/mico-tickets-london-the-roundhouse-4-2-2027/event/107672270"
   },
   {
     "id": "tm-mico-2027-dublin-1abzk46gkd9elri",
@@ -2034,8 +2019,7 @@
       }
     ],
     "organizer_names": [
-      "LIVE NATION MUSIC",
-      "PROMOTED BY VENUE"
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2310,9 +2294,6 @@
         "start": "2026-10-15T15:00:00Z",
         "end": "2026-10-16T03:00:00Z"
       }
-    ],
-    "organizer_names": [
-      "PROMOTED BY VENUE"
     ]
   },
   {

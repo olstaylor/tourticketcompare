@@ -51,10 +51,17 @@ npm run test:content     # ~1s   content/blog or content/guides
 npm run test:providers   # ~1s   provider registry, CTA or allowlist data
 npm run test:routes      # ~20s  routing, route metadata, internal links
 npm run test:quick       # ~60s  several areas, or unsure
-npm run test:mvp         # ~3m   full suite
+npm run test:mvp         # full suite; rendered-site audits can take 20+ minutes
 ```
 
-`npm run test:mvp` is **required** before committing anything that touches automation, provider sync, redirects or affiliate logic; the auto-publish paths are gated on it. Steps are declared once in `scripts/test-manifest.mjs`; re-run one with `npm run test:units -- --only <step-id>`. `npm run test:providers` is the only lane that runs the provider and identity validators. Report results honestly: passed, or the actual failures.
+`npm run test:mvp` is **required locally** before committing changes to automation code, provider-sync code, redirects or affiliate logic; the auto-publish paths remain gated on it in-job on exactly the proposed content. Steps are declared once in `scripts/test-manifest.mjs`; re-run one with `npm run test:units -- --only <step-id>`. `npm run test:providers` is the only lane that runs the provider and identity validators. Report results honestly: passed, or the actual failures.
+
+Keep interactive validation proportional to the change:
+
+- For verified event/provider data only, including resolving a stale data PR against main without changing matching or publishing logic, run production event validation, partition validation, provider checks, and a field/file diff guard. Preserve source evidence and verification dates. Use the required full CI run on the final head instead of duplicating the full suite locally.
+- For repository instructions or documentation only, run `npm run docs:check` and `git diff --check`; do not launch rendered-site suites.
+- Before an expensive check, identify the relevant lane and whether CI already covers the final head. Reuse passing results for an unchanged head; a changed head still needs its required CI. Repeat or broaden checks only for relevant changes, failures or unresolved concerns. This does not waive required CI or automated publication gates.
+- While waiting for CI, prefer one blocking watch with a long interval when available. Avoid frequent model-driven polling and repeated unchanged status narration. Report failures, required action and meaningful gate changes.
 
 ## Working style
 

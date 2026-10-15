@@ -709,11 +709,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7976483",
-        "url": "https://www.ticketnetwork.com/en/p/7976483",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7976483",
@@ -733,7 +733,7 @@
     "ticketmaster_discovery_event_id": "G5eVZ_1D8LHPJ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976483",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976483/Don-Omar-tickets-Wed-Oct-14-2026-Spectrum-Center",
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-charlotte-tickets-10-14-2026/event/107185218"
   },

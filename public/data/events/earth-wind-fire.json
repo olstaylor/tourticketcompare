@@ -523,11 +523,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8196638",
+        "url": "https://www.ticketnetwork.com/en/p/8196638",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfAGkd-8Nc-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8196638"
   },
   {
     "id": "tm-earth-wind-fire-2026-atlantic-city-vv1aezkfagkd-okcm",
@@ -576,11 +584,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8196639",
+        "url": "https://www.ticketnetwork.com/en/p/8196639",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfAGkd-oKcm",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8196639"
   },
   {
     "id": "tm-earth-wind-fire-2027-thackerville-z7r9jz1aazwqd",
@@ -629,11 +645,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8178925",
+        "url": "https://www.ticketnetwork.com/en/p/8178925",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZwqd",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8178925"
   },
   {
     "id": "tm-earth-wind-fire-2027-west-palm-beach-z7r9jz1aaea-g",
@@ -735,11 +759,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307212",
+        "url": "https://www.ticketnetwork.com/en/p/8307212",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KUEhuTO",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307212"
   },
   {
     "id": "tm-earth-wind-fire-2027-southaven-g5viz_f7otpyl",
@@ -841,11 +873,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8310384",
+        "url": "https://www.ticketnetwork.com/en/p/8310384",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeb18",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310384"
   },
   {
     "id": "tm-earth-wind-fire-2027-atlanta-vvg1zz_33xgiy_",
@@ -894,11 +934,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307214",
+        "url": "https://www.ticketnetwork.com/en/p/8307214",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_33XGiy_",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307214"
   },
   {
     "id": "tm-earth-wind-fire-2027-savannah-vvg1zz_3cl5hyq",
@@ -947,11 +995,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307215",
+        "url": "https://www.ticketnetwork.com/en/p/8307215",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3Cl5hYq",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307215"
   },
   {
     "id": "tm-earth-wind-fire-2027-columbia-g5evz_kl2875x",
@@ -1000,11 +1056,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307216",
+        "url": "https://www.ticketnetwork.com/en/p/8307216",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KL2875X",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307216"
   },
   {
     "id": "tm-earth-wind-fire-2027-knoxville-g5viz_35urusm",
@@ -1053,11 +1117,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307217",
+        "url": "https://www.ticketnetwork.com/en/p/8307217",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_35uruSM",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307217"
   },
   {
     "id": "tm-earth-wind-fire-2027-charlotte-g5evz_kmaoltm",
@@ -1106,11 +1178,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307218",
+        "url": "https://www.ticketnetwork.com/en/p/8307218",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KMAoLtM",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307218"
   },
   {
     "id": "tm-earth-wind-fire-2027-durham-g5evz_f5p7r9-",

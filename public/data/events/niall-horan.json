@@ -3247,12 +3247,20 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7831757",
+        "url": "https://www.ticketnetwork.com/en/p/7831757",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdOZ_kGkUHawCY",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831757/Niall-Horan-tickets-Sun-Nov-15-2026-The-O2-Belfast"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831757/Niall-Horan-tickets-Sun-Nov-15-2026-The-O2-Belfast",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831757"
   },
   {
     "id": "tm-niall-horan-2026-belfast-1adoz_6gkmwqvwh",
@@ -3308,12 +3316,20 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7846501",
+        "url": "https://www.ticketnetwork.com/en/p/7846501",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdOZ_6GkmWqvwH",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7846501/Niall-Horan-tickets-Mon-Nov-16-2026-The-O2-Belfast"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7846501/Niall-Horan-tickets-Mon-Nov-16-2026-The-O2-Belfast",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7846501"
   },
   {
     "id": "tm-niall-horan-2027-hartford-z7r9jz1a709uz",

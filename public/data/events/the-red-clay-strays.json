@@ -300,11 +300,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7906846",
-        "url": "https://www.ticketnetwork.com/en/p/7906846",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107212078",
@@ -324,7 +324,7 @@
     "ticketmaster_discovery_event_id": "1AeFZ_FGkVF8_5e",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906846",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/the-red-clay-strays-orlando-tickets-10-14-2026/event/107212078",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7906846/The-Red-Clay-Strays-tickets-Wed-Oct-14-2026-Kia-Center"
   },

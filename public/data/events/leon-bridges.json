@@ -212,6 +212,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8313659",
+        "url": "https://www.ticketnetwork.com/en/p/8313659",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9ZkfsGkex2qFe",
@@ -235,7 +242,8 @@
         "end": "2026-10-16T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313659/Leon-Bridges-tickets-Wed-Apr-7-2027-The-Chelsea-The-Cosmopolitan-of-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313659/Leon-Bridges-tickets-Wed-Apr-7-2027-The-Chelsea-The-Cosmopolitan-of-Las-Vegas",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313659"
   },
   {
     "id": "tm-leon-bridges-2027-fort-worth-vvg1yz_f9mdndc",
@@ -291,6 +299,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8313660",
+        "url": "https://www.ticketnetwork.com/en/p/8313660",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_f9mdnDC",
@@ -319,7 +334,8 @@
         "end": "2026-10-16T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313660/Leon-Bridges-tickets-Fri-Apr-23-2027-Dickies-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313660/Leon-Bridges-tickets-Fri-Apr-23-2027-Dickies-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313660"
   },
   {
     "id": "tm-leon-bridges-2027-toronto-1a8zk46gkesn6zx",
@@ -456,6 +472,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8313661",
+        "url": "https://www.ticketnetwork.com/en/p/8313661",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_fQI50fg",
@@ -499,7 +522,8 @@
         "end": "2027-05-02T00:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313661/Leon-Bridges-tickets-Sat-May-1-2027-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313661/Leon-Bridges-tickets-Sat-May-1-2027-Madison-Square-Garden",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313661"
   },
   {
     "id": "tm-leon-bridges-2027-charlotte-g5evz_ks2c2jb",
@@ -555,6 +579,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8313662",
+        "url": "https://www.ticketnetwork.com/en/p/8313662",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KS2C2jb",
@@ -583,7 +614,8 @@
         "end": "2027-06-26T02:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313662/Leon-Bridges-tickets-Fri-Jul-16-2027-Skyla-Credit-Union-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313662/Leon-Bridges-tickets-Fri-Jul-16-2027-Skyla-Credit-Union-Amphitheatre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313662"
   },
   {
     "id": "tm-leon-bridges-2027-alpharetta-vvg1zz_k76-tb0",
@@ -639,6 +671,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8313663",
+        "url": "https://www.ticketnetwork.com/en/p/8313663",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_K76-Tb0",
@@ -672,7 +711,8 @@
         "end": "2027-06-18T02:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313663/Leon-Bridges-tickets-Sat-Jul-17-2027-Ameris-Bank-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313663/Leon-Bridges-tickets-Sat-Jul-17-2027-Ameris-Bank-Amphitheatre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313663"
   },
   {
     "id": "tm-leon-bridges-2027-wilmington-g5evz_kw2tkfi",
@@ -728,6 +768,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8313664",
+        "url": "https://www.ticketnetwork.com/en/p/8313664",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Kw2Tkfi",
@@ -751,7 +798,8 @@
         "end": "2026-10-16T02:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313664/Leon-Bridges-tickets-Wed-Jul-21-2027-Live-Oak-Bank-Pavilion-At-Riverfront-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313664/Leon-Bridges-tickets-Wed-Jul-21-2027-Live-Oak-Bank-Pavilion-At-Riverfront-Park",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313664"
   },
   {
     "id": "tm-leon-bridges-2027-columbia-1avfz_fqmqezd586",
@@ -807,6 +855,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8313665",
+        "url": "https://www.ticketnetwork.com/en/p/8313665",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1avfZ_fqMQeZd586",
@@ -825,7 +880,8 @@
         "end": "2026-10-16T02:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313665/Leon-Bridges-tickets-Fri-Jul-23-2027-Merriweather-Post-Pavilion"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313665/Leon-Bridges-tickets-Fri-Jul-23-2027-Merriweather-Post-Pavilion",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313665"
   },
   {
     "id": "tm-leon-bridges-2027-boston-vv177z_kgkikdrri",
@@ -888,6 +944,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8313666",
+        "url": "https://www.ticketnetwork.com/en/p/8313666",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_KGkIKdRri",
@@ -912,7 +975,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313666/Leon-Bridges-tickets-Sat-Jul-24-2027-MGM-Music-Hall-at-Fenway-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/leon-bridges-boston-tickets-7-24-2027/event/107672226"
+    "stubhub_international_url": "https://www.stubhub.ie/leon-bridges-boston-tickets-7-24-2027/event/107672226",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313666"
   },
   {
     "id": "tm-leon-bridges-2027-philadelphia-vv17fz_kgkbngqe2",
@@ -1039,6 +1103,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8313668",
+        "url": "https://www.ticketnetwork.com/en/p/8313668",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KS7yjC4",
@@ -1077,7 +1148,8 @@
         "end": "2027-07-16T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313668/Leon-Bridges-tickets-Thu-Aug-12-2027-Hayden-Homes-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313668/Leon-Bridges-tickets-Thu-Aug-12-2027-Hayden-Homes-Amphitheater",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313668"
   },
   {
     "id": "tm-leon-bridges-2027-seattle-vvg1hz_fqtqa-a",
@@ -1140,6 +1212,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8313669",
+        "url": "https://www.ticketnetwork.com/en/p/8313669",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_fQTqa-a",
@@ -1164,7 +1243,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313669/Leon-Bridges-tickets-Fri-Aug-13-2027-Climate-Pledge-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/leon-bridges-seattle-tickets-8-13-2027/event/107672227"
+    "stubhub_international_url": "https://www.stubhub.ie/leon-bridges-seattle-tickets-8-13-2027/event/107672227",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313669"
   },
   {
     "id": "tm-leon-bridges-2027-edmonton-1aozkfigkdr2_nl",
@@ -1220,6 +1300,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8313680",
+        "url": "https://www.ticketnetwork.com/en/p/8313680",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkfIGkdr2_nl",
@@ -1233,7 +1320,8 @@
         "end": "2026-10-16T04:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313680/Leon-Bridges-tickets-Tue-Aug-17-2027-Northern-Alberta-Jubilee-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313680/Leon-Bridges-tickets-Tue-Aug-17-2027-Northern-Alberta-Jubilee-Auditorium",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313680"
   },
   {
     "id": "tm-leon-bridges-2027-calgary-1aozkfygkeskgd1",
@@ -1441,6 +1529,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8313670",
+        "url": "https://www.ticketnetwork.com/en/p/8313670",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_fhJrcG3",
@@ -1459,7 +1554,8 @@
         "end": "2026-10-16T04:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313670/Leon-Bridges-tickets-Sat-Aug-21-2027-KettleHouse-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313670/Leon-Bridges-tickets-Sat-Aug-21-2027-KettleHouse-Amphitheater",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313670"
   },
   {
     "id": "tm-leon-bridges-2027-waukee-1a-zkfzgkd1bnt9",
@@ -1515,6 +1611,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8313671",
+        "url": "https://www.ticketnetwork.com/en/p/8313671",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A-ZkfzGkd1Bnt9",
@@ -1548,7 +1651,8 @@
         "end": "2027-08-23T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313671/Leon-Bridges-tickets-Wed-Aug-25-2027-Vibrant-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313671/Leon-Bridges-tickets-Wed-Aug-25-2027-Vibrant-Music-Hall",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313671"
   },
   {
     "id": "tm-leon-bridges-2027-indianapolis-vv17fz_kgkupdufu",
@@ -1604,6 +1708,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8313672",
+        "url": "https://www.ticketnetwork.com/en/p/8313672",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_KGkUpDUFU",
@@ -1642,7 +1753,8 @@
         "end": "2027-08-24T02:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313672/Leon-Bridges-tickets-Thu-Aug-26-2027-Everwise-Amphitheater-at-White-River-State-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313672/Leon-Bridges-tickets-Thu-Aug-26-2027-Everwise-Amphitheater-at-White-River-State-Park",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313672"
   },
   {
     "id": "tm-leon-bridges-2027-milwaukee-vv17jz_kgkbyybma",
@@ -1698,6 +1810,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8313673",
+        "url": "https://www.ticketnetwork.com/en/p/8313673",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_KGkByYbma",
@@ -1716,7 +1835,8 @@
         "end": "2026-10-16T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313673/Leon-Bridges-tickets-Wed-Sep-15-2027-Landmark-Credit-Union-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313673/Leon-Bridges-tickets-Wed-Sep-15-2027-Landmark-Credit-Union-Live",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313673"
   },
   {
     "id": "tm-leon-bridges-2027-minneapolis-vv1fbz_fb9zezd8da",
@@ -1772,6 +1892,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8313674",
+        "url": "https://www.ticketnetwork.com/en/p/8313674",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1FbZ_fb9ZeZd8da",
@@ -1800,7 +1927,8 @@
         "end": "2026-10-16T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313674/Leon-Bridges-tickets-Fri-Sep-17-2027-The-Armory-Minneapolis"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313674/Leon-Bridges-tickets-Fri-Sep-17-2027-The-Armory-Minneapolis",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313674"
   },
   {
     "id": "tm-leon-bridges-2027-rogers-g5viz_kpps1qm",
@@ -1856,6 +1984,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8313675",
+        "url": "https://www.ticketnetwork.com/en/p/8313675",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KpPs1Qm",
@@ -1889,7 +2024,8 @@
         "end": "2026-10-16T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313675/Leon-Bridges-tickets-Thu-Sep-23-2027-Walmart-AMP"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313675/Leon-Bridges-tickets-Thu-Sep-23-2027-Walmart-AMP",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313675"
   },
   {
     "id": "tm-leon-bridges-2027-austin-g5diz_flks0j9",
@@ -1952,6 +2088,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8313676",
+        "url": "https://www.ticketnetwork.com/en/p/8313676",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fLkS0j9",
@@ -1981,7 +2124,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313676/Leon-Bridges-tickets-Fri-Sep-24-2027-Moody-Center-ATX",
-    "stubhub_international_url": "https://www.stubhub.ie/leon-bridges-austin-tickets-9-24-2027/event/107672228"
+    "stubhub_international_url": "https://www.stubhub.ie/leon-bridges-austin-tickets-9-24-2027/event/107672228",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313676"
   },
   {
     "id": "tm-leon-bridges-2027-houston-g5diz_kb01hxf",
@@ -2044,6 +2188,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8313677",
+        "url": "https://www.ticketnetwork.com/en/p/8313677",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KB01hXF",
@@ -2063,7 +2214,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313677/Leon-Bridges-tickets-Sat-Sep-25-2027-713-Music-Hall",
-    "stubhub_international_url": "https://www.stubhub.ie/leon-bridges-houston-tickets-9-25-2027/event/107672229"
+    "stubhub_international_url": "https://www.stubhub.ie/leon-bridges-houston-tickets-9-25-2027/event/107672229",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313677"
   },
   {
     "id": "tm-leon-bridges-2027-phoenix-1a_zk4kgkdlzjqa",
@@ -2119,6 +2271,13 @@
         "verified": true,
         "last_verified_at": "2026-10-14",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8313678",
+        "url": "https://www.ticketnetwork.com/en/p/8313678",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_Zk4kGkdLzjqA",
@@ -2147,6 +2306,7 @@
         "end": "2027-09-02T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313678/Leon-Bridges-tickets-Wed-Sep-29-2027-Arizona-Financial-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313678/Leon-Bridges-tickets-Wed-Sep-29-2027-Arizona-Financial-Theatre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313678"
   }
 ]

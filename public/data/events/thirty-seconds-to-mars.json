@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7877280",
+        "url": "https://www.ticketnetwork.com/en/p/7877280",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kvP4xag",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877280"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-valencia-z698xz2qz16vuf8kq4",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7877281",
+        "url": "https://www.ticketnetwork.com/en/p/7877281",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vuf8kQ4",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877281"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-assago-zg9rmiynyzeadk",
@@ -205,11 +221,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7877284",
+        "url": "https://www.ticketnetwork.com/en/p/7877284",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vfVofPp",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877284"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-vienna-z698xz5rz1k-suw-g",
@@ -258,11 +282,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7877285",
+        "url": "https://www.ticketnetwork.com/en/p/7877285",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ5rZ1k-Suw-g",
     "timezone": "Europe/Vienna",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877285"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-krakow-z698xzqpz1ke8f3ad",
@@ -364,11 +396,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7877291",
+        "url": "https://www.ticketnetwork.com/en/p/7877291",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vqP_xfz",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877291"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-merksem-antwerpen-z698xzg2z1k-8asf4",
@@ -523,11 +563,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7870156",
+        "url": "https://www.ticketnetwork.com/en/p/7870156",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk3aGkeYExFS",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7870156"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-dublin-1abzk36gkeuawhf",
@@ -576,10 +624,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7877303",
+        "url": "https://www.ticketnetwork.com/en/p/7877303",
+        "verified": true,
+        "last_verified_at": "2026-10-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AbZk36GkeUAWHf",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877303"
   }
 ]

@@ -9073,11 +9073,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7921657",
-        "url": "https://www.ticketnetwork.com/en/p/7921657",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7921657",
@@ -9098,7 +9098,7 @@
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv177Z_aGkSbtQpc",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921657",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921657/Olivia-Rodrigo-tickets-Thu-Oct-15-2026-TD-Garden",
     "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-boston-tickets-10-15-2026/event/107162470",
     "organizer_names": [
@@ -33032,11 +33032,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7831765",
-        "url": "https://www.ticketnetwork.com/en/p/7831765",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107146205",
@@ -33056,7 +33056,7 @@
     "ticketmaster_discovery_event_id": "Z698xZbpZ1A9foCb",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831765",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-amsterdam-ziggo-dome-15-10-2026/event/107146205",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831765/Niall-Horan-tickets-Thu-Oct-15-2026-Ziggo-Dome",
     "organizer_names": [
@@ -53770,11 +53770,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7976487",
-        "url": "https://www.ticketnetwork.com/en/p/7976487",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7976487",
@@ -53794,7 +53794,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_1HPGE4r",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976487",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976487/Don-Omar-tickets-Sun-Oct-25-2026-Don-Haskins-Center",
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-el-paso-tickets-10-25-2026/event/107289096",
     "presales": [
@@ -63345,11 +63345,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8168767",
-        "url": "https://www.ticketnetwork.com/en/p/8168767",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8168767",
@@ -63369,7 +63369,7 @@
     "ticketmaster_discovery_event_id": "G5dzZ_29jK-Dk",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8168767",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8168767/Tyla-tickets-Thu-Oct-15-2026-O2-Academy-Brixton",
     "stubhub_international_url": "https://www.stubhub.ie/tyla-tickets-london-o2-academy-brixton-15-10-2026/event/107460096",
     "organizer_names": [
@@ -63966,11 +63966,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8164817",
-        "url": "https://www.ticketnetwork.com/en/p/8164817",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8164817",
@@ -63990,7 +63990,7 @@
     "ticketmaster_discovery_event_id": "G5vYZ_2fIMqin",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164817",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164817/Tyla-tickets-Fri-Nov-13-2026-Bill-Graham-Civic-Auditorium",
     "stubhub_international_url": "https://www.stubhub.ie/tyla-san-francisco-tickets-11-13-2026/event/107460123",
     "presales": [
@@ -74504,6 +74504,13 @@
         "verified": true,
         "last_verified_at": "2026-09-10",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8324859",
+        "url": "https://www.ticketnetwork.com/en/p/8324859",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_GlJHn6P",
@@ -74513,7 +74520,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD",
       "ACADEMY MUSIC GROUP (O2 ACADEMY BRIXTON)"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8324859"
   },
   {
     "id": "tm-polyphia-2027-phoenix-16_zkf_ofzag77fu",
@@ -80897,11 +80905,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7977738",
-        "url": "https://www.ticketnetwork.com/en/p/7977738",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1XNCFFn",
@@ -80909,7 +80917,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977738/Morat-tickets-Sun-Feb-28-2027-Don-Haskins-Center",
     "stubhub_international_url": "https://www.stubhub.ie/morat-el-paso-tickets-2-28-2027/event/107202168",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977738",
+    "ticketnetwork_url": "",
     "presales": [
       {
         "name": "VIP Packages Onsale",
@@ -98044,11 +98052,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8252912",
-        "url": "https://www.ticketnetwork.com/en/p/8252912",
-        "verified": true,
-        "last_verified_at": "2026-09-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8252912",
@@ -98068,7 +98076,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_3GGzxqt",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252912",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252912/Yuridia-tickets-Sun-Mar-14-2027-Don-Haskins-Center",
     "stubhub_international_url": "https://www.stubhub.ie/yuridia-el-paso-tickets-3-14-2027/event/107666033",
     "presales": [
@@ -161305,11 +161313,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7906847",
-        "url": "https://www.ticketnetwork.com/en/p/7906847",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7906847",
@@ -161322,7 +161330,7 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_FXgmnUS",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906847",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7906847/The-Red-Clay-Strays-tickets-Thu-Oct-15-2026-Enmarket-Arena",
     "organizer_names": [
       "AEG LIVE"
@@ -186911,6 +186919,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8324860",
+        "url": "https://www.ticketnetwork.com/en/p/8324860",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_8Kn_3tz",
@@ -186921,7 +186936,8 @@
       "COUNTRY TO COUNTRY",
       "ACADEMY MUSIC GROUP (O2 ACADEMY BRIXTON)",
       "LIVE NATION MUSIC UK LTD"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8324860"
   },
   {
     "id": "tm-dylan-gossett-2027-manchester-g5dzz_8hqwevt",
@@ -189928,11 +189944,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7856051",
-        "url": "https://www.ticketnetwork.com/en/p/7856051",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7856051",
@@ -189952,7 +189968,7 @@
     "ticketmaster_discovery_event_id": "G5dzZbgXgFJhT",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7856051",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7856051/Warren-Zeiders-tickets-Thu-Oct-15-2026-O2-Academy-Bristol",
     "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-bristol-o2-academy-bristol-15-10-2026/event/107016159",
     "organizer_names": [
@@ -254728,6 +254744,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8072644",
+        "url": "https://www.ticketnetwork.com/en/p/8072644",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dVZ_1Q0Q4BC",
@@ -254735,7 +254758,8 @@
     "status": "on-sale",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8072644"
   },
   {
     "id": "tm-hayley-williams-2027-ciudad-de-mexico-g5dvz_5u9jpc7",
@@ -254784,6 +254808,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8072651",
+        "url": "https://www.ticketnetwork.com/en/p/8072651",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dVZ_5U9jPC7",
@@ -254791,7 +254822,8 @@
     "status": "on-sale",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8072651"
   },
   {
     "id": "tm-hayley-williams-2027-monterrey-17azv0g65m2hkin",
@@ -254840,6 +254872,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8220574",
+        "url": "https://www.ticketnetwork.com/en/p/8220574",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AZv0G65M2hKIN",
@@ -254847,7 +254886,8 @@
     "status": "on-sale",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8220574"
   },
   {
     "id": "tm-hayley-williams-2027-zapopan-17azv0g65ulwtlf",
@@ -255175,11 +255215,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8225038",
+        "url": "https://www.ticketnetwork.com/en/p/8225038",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZz43",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8225038"
   },
   {
     "id": "tm-gorillaz-2026-austin-g5diz_ar2gvot",
@@ -255228,11 +255276,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7774755",
+        "url": "https://www.ticketnetwork.com/en/p/7774755",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_AR2gVoT",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774755"
   },
   {
     "id": "tm-gorillaz-2026-fort-worth-vvg1yz_dxo-e0o",
@@ -255281,6 +255337,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7774756",
+        "url": "https://www.ticketnetwork.com/en/p/7774756",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_dxO-E0O",
@@ -255288,7 +255351,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774756"
   },
   {
     "id": "tm-gorillaz-2026-denver-g5vzz_amqia8m",
@@ -255337,6 +255401,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7774757",
+        "url": "https://www.ticketnetwork.com/en/p/7774757",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_Amqia8M",
@@ -255344,7 +255415,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774757"
   },
   {
     "id": "tm-gorillaz-2026-salt-lake-city-z7r9jz1a7-9ai",
@@ -255393,6 +255465,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7774760",
+        "url": "https://www.ticketnetwork.com/en/p/7774760",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-9AI",
@@ -255400,7 +255479,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774760"
   },
   {
     "id": "tm-gorillaz-2026-phoenix-1av0z_agknirbye",
@@ -255449,6 +255529,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7774761",
+        "url": "https://www.ticketnetwork.com/en/p/7774761",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_AGknirbye",
@@ -255463,7 +255550,8 @@
         "start": "2026-03-09T17:00:00Z",
         "end": "2026-10-19T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774761"
   },
   {
     "id": "tm-gorillaz-2026-inglewood-vv170z_agkmi0jmt",
@@ -255512,6 +255600,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7774762",
+        "url": "https://www.ticketnetwork.com/en/p/7774762",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_AGkmI0jmT",
@@ -255526,7 +255621,8 @@
         "start": "2026-03-09T17:00:00Z",
         "end": "2026-10-20T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774762"
   },
   {
     "id": "tm-gorillaz-2026-san-diego-vvg1iz_ai_rrcv",
@@ -255575,6 +255671,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7774764",
+        "url": "https://www.ticketnetwork.com/en/p/7774764",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_Ai_rrcV",
@@ -255589,7 +255692,8 @@
         "start": "2026-03-09T17:00:00Z",
         "end": "2026-10-21T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774764"
   },
   {
     "id": "tm-gorillaz-2026-oakland-g5vyz_allhhol",
@@ -255638,6 +255742,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7774765",
+        "url": "https://www.ticketnetwork.com/en/p/7774765",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_AllHHol",
@@ -255653,7 +255764,8 @@
         "start": "2026-03-09T17:00:00Z",
         "end": "2026-10-24T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774765"
   },
   {
     "id": "tm-gorillaz-2026-portland-vvg1hz_anwqdfp",
@@ -255702,6 +255814,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7774766",
+        "url": "https://www.ticketnetwork.com/en/p/7774766",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_AnwQDFp",
@@ -255716,7 +255835,8 @@
         "start": "2026-03-09T17:00:00Z",
         "end": "2026-10-26T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774766"
   },
   {
     "id": "tm-gorillaz-2026-seattle-vvg1hz_aeloqv3",
@@ -255765,6 +255885,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7774767",
+        "url": "https://www.ticketnetwork.com/en/p/7774767",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_AEloQv3",
@@ -255779,7 +255906,8 @@
         "start": "2026-03-09T17:00:00Z",
         "end": "2026-10-27T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774767"
   },
   {
     "id": "tm-gorillaz-2026-zapopan-g5dvz_8mtgfu6",

@@ -46,6 +46,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8072644",
+        "url": "https://www.ticketnetwork.com/en/p/8072644",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dVZ_1Q0Q4BC",
@@ -53,7 +60,8 @@
     "status": "on-sale",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8072644"
   },
   {
     "id": "tm-hayley-williams-2027-ciudad-de-mexico-g5dvz_5u9jpc7",
@@ -102,6 +110,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8072651",
+        "url": "https://www.ticketnetwork.com/en/p/8072651",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dVZ_5U9jPC7",
@@ -109,7 +124,8 @@
     "status": "on-sale",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8072651"
   },
   {
     "id": "tm-hayley-williams-2027-monterrey-17azv0g65m2hkin",
@@ -158,6 +174,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8220574",
+        "url": "https://www.ticketnetwork.com/en/p/8220574",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AZv0G65M2hKIN",
@@ -165,7 +188,8 @@
     "status": "on-sale",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8220574"
   },
   {
     "id": "tm-hayley-williams-2027-zapopan-17azv0g65ulwtlf",

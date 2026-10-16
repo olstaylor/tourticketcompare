@@ -204,7 +204,10 @@ jobs:
       # Never stamp records introduced or changed after the actual audit.
       # A writer merging between audit and publication invalidates the evidence;
       # the next scheduled audit will check the refreshed revision.
-      # A moved main withholds the stamps as before, but ends the run as
+      # If main moved only outside public/data, data and content (code, docs,
+      # workflows), the evidence still describes it: --establish-base records
+      # current main as the revision the stamps build on and the merge is bound
+      # to. A data move withholds the stamps as before, but ends the run as
       # cancelled (neutral) rather than red: nothing is broken.
       - name: Check audit evidence revision
         env:
@@ -213,7 +216,7 @@ jobs:
           if [ "${{ inputs.dry_run }}" = "true" ]; then
             node scripts/check-audit-revision.mjs
           else
-            node scripts/check-audit-revision.mjs --check-main --withhold-when-stale
+            node scripts/check-audit-revision.mjs --check-main --establish-base --withhold-when-stale
           fi
 
       - name: Bump verified dates for clean artists
@@ -354,7 +357,7 @@ jobs:
           PR_TITLE="Bump verification timestamps (${TODAY})" \
           PR_LABEL="automation:verified-dates" \
           PR_AUTO_MERGE=true \
-          PR_AUDIT_SOURCE_COMMIT="$(cat .audit/source-commit.txt)" \
+          PR_AUDIT_SOURCE_COMMIT="$(cat .audit/evidence-base.txt)" \
           PR_BODY=$'## What this PR does\n- Moves `last_verified_at` forward in `public/data/artists.json` for artists whose URL liveness check and Ticketmaster Discovery diff both came back clean in this run. Nothing else in the record is touched.\n- Records the day each guide\'s cited source URL was last confirmed to resolve (`data/guide-source-link-checks.json`) and rebuilds `public/data/guides-content.json` from it. 401/403/429 counts as blocked, not verified.\n- Refreshes the generated per-artist table in `PROJECT_STATUS.md` so it keeps step with the timestamps above.\n\n## Explicit non-changes\n- No event, provider, price or affiliate data. No `content/**`.\n- No published or updated date moves: the run asserts `functions/_guide-routes.generated.js` and `data/content-provenance.json` are untouched before this PR is opened.\n\n## Validation\n- `npm run test:mvp` and `git diff --check` passed in-job on exactly this content, and Prelaunch Validation runs again on this branch before the merge.\n' \
           node scripts/open-automation-pr.mjs
 

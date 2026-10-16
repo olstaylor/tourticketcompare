@@ -743,11 +743,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18621547,
+        "url": "https://seatgeek.com/needtobreathe-tickets/washington-district-of-columbia-the-anthem-dc-2027-03-06-7-pm/concert/18621547",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7611494,
@@ -1505,11 +1505,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18621563,
+        "url": "https://seatgeek.com/needtobreathe-tickets/houston-texas-713-music-hall-2027-03-20-7-pm/concert/18621563",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7611498,
@@ -1576,7 +1576,7 @@
     "tour_name": "The Long Surrender Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAek_I",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek_I",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/needtobreathe-tickets/kansas-city-missouri-the-midland-theatre-mo-2027-02-23-7-pm/concert/18621528",
     "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-kansas-city-the-midland-theatre-2-23-2027/production/7612033",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek_I",
@@ -1592,11 +1592,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18621528,
+        "url": "https://seatgeek.com/needtobreathe-tickets/kansas-city-missouri-the-midland-theatre-mo-2027-02-23-7-pm/concert/18621528",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7612033,
@@ -1645,7 +1645,7 @@
     "tour_name": "The Long Surrender Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAek_t",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek_t",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/needtobreathe-tickets/lancaster-pennsylvania-american-music-theatre-2027-03-01-7-pm/concert/18621540",
     "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-lancaster-american-music-theatre-3-1-2027/production/7611938",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek_t",
@@ -1661,11 +1661,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18621540,
+        "url": "https://seatgeek.com/needtobreathe-tickets/lancaster-pennsylvania-american-music-theatre-2027-03-01-7-pm/concert/18621540",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7611938,

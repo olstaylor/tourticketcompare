@@ -1605,7 +1605,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7PJ-S",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PJ-S",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sylvan-esso-tickets/denver-colorado-ogden-theatre-2027-03-06-9-pm/concert/18675732",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PJ-S",
@@ -1621,11 +1621,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18675732,
+        "url": "https://seatgeek.com/sylvan-esso-tickets/denver-colorado-ogden-theatre-2027-03-06-9-pm/concert/18675732",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2166,7 +2166,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "14753423",
     "ticketmaster_url": "https://www.ticketweb.com/event/sylvan-esso-tipitinas-tickets/14753423",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sylvan-esso-tickets/new-orleans-louisiana-tipitina-s-2027-03-11-8-pm/concert/18299183",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/sylvan-esso-tipitinas-tickets/14753423",
@@ -2182,11 +2182,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18299183,
+        "url": "https://seatgeek.com/sylvan-esso-tickets/new-orleans-louisiana-tipitina-s-2027-03-11-8-pm/concert/18299183",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

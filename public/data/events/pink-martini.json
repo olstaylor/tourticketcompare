@@ -586,7 +586,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZepF",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZepF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pink-martini-tickets/jacksonville-florida-florida-theatre-jacksonville-2027-01-12-7-30-pm/concert/18668813",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZepF",
@@ -602,11 +602,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18668813,
+        "url": "https://seatgeek.com/pink-martini-tickets/jacksonville-florida-florida-theatre-jacksonville-2027-01-12-7-30-pm/concert/18668813",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -745,7 +745,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZP-S",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZP-S",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pink-martini-tickets/bellingham-washington-mount-baker-theatre-2027-01-24-7-pm/concert/18668823",
     "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-bellingham-mount-baker-theatre-1-24-2027/production/7412091",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZP-S",
@@ -761,11 +761,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18668823,
+        "url": "https://seatgeek.com/pink-martini-tickets/bellingham-washington-mount-baker-theatre-2027-01-24-7-pm/concert/18668823",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7412091,
@@ -1133,7 +1133,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "07006505AD2C5574",
     "ticketmaster_url": "https://www.ticketmaster.com/pink-martini-madison-wisconsin-02-16-2027/event/07006505AD2C5574",
-    "seatgeek_url": "https://seatgeek.com/pink-martini-tickets/madison-wisconsin-orpheum-theatre-madison-2027-02-16-7-30-pm/concert/18472447",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-madison-wisconsin-02-16-2027/event/07006505AD2C5574",
@@ -1153,7 +1153,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,

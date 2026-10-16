@@ -47,7 +47,7 @@ export function performProviderUrlRepair(plan, root, { env = process.env, run = 
   const checked = guard();
   if (!checked.ok) return { outcome: "NEEDS HUMAN", reason: checked.reason };
   const unresolved = report.results.filter((row) => !row.applied).map((row) => `${row.showId}: ${row.action} (${(row.notes || []).join("; ")})`);
-  if (!checked.changedIds.length) return { outcome: "NEEDS HUMAN", reason: `No positive exact-event matches; URLs were left untouched. ${unresolved.join(" | ")}` };
+  if (!checked.changedIds.length) return { outcome: "NO VERIFIED MATCH", reason: `Complete SeatGeek lookup found no qualifying exact-event match. No URLs were changed; human review remains available. ${unresolved.join(" | ")}` };
   const status = run(process.execPath, ["scripts/validate-status-counts.mjs", "--write"], { cwd: root, encoding: "utf8" });
   if (status.status !== 0) return { outcome: "BLOCKED", reason: "Generated status figure refresh failed" };
   const summary = `${checked.changedIds.length}/${current.events.length} event URLs verified. ${unresolved.length} unresolved.\n${unresolved.join("\n")}`;

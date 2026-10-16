@@ -49,6 +49,8 @@ export const WRITER_REASON_CODES = {
     "An earlier candidate in this same run produced the identical deterministic events.json id, so the canonical writer wrote only one row for both.",
   write_not_applied:
     "Row entered the write batch but is absent from events.json after the write (dropped by the canonical writer).",
+  candidate_duplicate_ambiguity:
+    "New Ticketmaster proposal conflicts with another potential performance in the same city and venue-local date; withheld for human review before writing.",
   reason_codes_missing_from_report:
     "Recogniser report predates machine-readable reason codes; the withhold rule that fired is unknown.",
 };

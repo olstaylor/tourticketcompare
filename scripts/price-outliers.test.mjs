@@ -55,6 +55,8 @@ const sqlite = new DatabaseSync(":memory:");
 sqlite.exec(`CREATE TABLE provider_pricing_history (
   id TEXT PRIMARY KEY, event_id TEXT, artist_slug TEXT, provider TEXT, low_price REAL,
   currency TEXT, inventory_count INTEGER, source TEXT, observed_at TEXT, created_at TEXT, event_date TEXT)`);
+sqlite.exec(`CREATE INDEX idx_provider_pricing_history_event_provider_source_observed
+  ON provider_pricing_history(event_id, provider, source, observed_at)`);
 const insert = sqlite.prepare("INSERT INTO provider_pricing_history (id, event_id, artist_slug, provider, low_price, currency, source, observed_at) VALUES (?, ?, 'a', ?, ?, 'USD', ?, ?)");
 let rowId = 0;
 const write = (eventId, price, observedAt, provider = "stubhub-international", source = "src") =>
@@ -82,6 +84,69 @@ const laneNow = { provider: "stubhub-international", name: "StubHub Internationa
 const low = deriveEventPriceLow([laneNow], (lane) => lowIndex.get(`e1|${lane.provider}`));
 check(low.price === 392.64 && low.isCurrent, "the Olivia Rodrigo shape now reads 'lowest recorded', not a $57 low");
 check(keepNonSpikeSql("p", "a", "b").includes("0.5") && keepNonSpikeSql("p", "a", "b").includes("2 *"), "the SQL predicate carries the same ratios");
+
+// Adjacent glitches can force an arbitrarily old fallback carry-in. A fixed
+// predecessor cap loses the earlier neighbour of the fallback and can turn a
+// rejected $10 observation into a public low. Both complete pre-boundary
+// context and the first in-window successor matter.
+for (const [price, daysAgo] of [[100, 50], [10, 45], [1000, 40], [100, 20]]) write("adjacent", price, at(daysAgo));
+const adjacent = await fetchEventPriceLowSeries(db, ["adjacent"], lanes, { now: NOW });
+check(adjacent.get("adjacent|stubhub-international").carryIn.price === 100, "adjacent boundary glitches retain the older valid carry-in");
+
+// The first in-window candidate must keep its predecessor as well.
+for (const [price, daysAgo] of [[100, 40], [10, 30], [100, 20]]) write("window-edge", price, at(daysAgo));
+const edge = await fetchEventPriceLowSeries(db, ["window-edge"], lanes, { now: NOW });
+check(edge.get("window-edge|stubhub-international").windowMin.price === 100, "a spike exactly at the inclusive boundary is rejected");
+
+// Currency changes are real change-points. Preserve candidates per currency,
+// then let the currently displayable lane select its own currency.
+write("currency", 120, at(15));
+write("currency", 100, at(10));
+sqlite.prepare("UPDATE provider_pricing_history SET currency = 'CAD' WHERE event_id = 'currency' AND low_price = 100").run();
+write("currency", 150, at(50));
+const currencyIndex = await fetchEventPriceLowSeries(db, ["currency"], lanes, { now: NOW });
+const currencySeries = currencyIndex.get("currency|stubhub-international");
+check(currencySeries.byCurrency.get("USD").windowMin.price === 120, "a numerically cheaper CAD row cannot erase the USD candidate");
+const usdLow = deriveEventPriceLow([{ ...laneNow, price: 200 }], () => currencySeries);
+const cadLow = deriveEventPriceLow([{ ...laneNow, price: 200, currency: "CAD" }], () => currencySeries);
+check(usdLow.price === 120 && cadLow.price === 100, "the live lane selects the matching currency after the read");
+
+// Compare the optimized SQL with the full-series reference on deterministic
+// generated series, including long alternating glitch runs, sub-floor rows,
+// currency changes, and sources that may never contribute to the answer.
+let seed = 12983;
+const random = () => ((seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0) / 4294967296);
+const reference = (eventId, field) => sqlite.prepare(`
+  SELECT event_id, provider, currency,
+         ${field === "windowMin" ? "MIN(low_price) AS low_price, observed_at" : "low_price, MAX(observed_at) AS observed_at"}
+  FROM (
+    SELECT *, LAG(low_price) OVER s AS prev_price, LEAD(low_price) OVER s AS next_price
+    FROM provider_pricing_history
+    WHERE event_id = ? AND provider = 'stubhub-international' AND source = 'src' AND low_price >= 10
+    WINDOW s AS (PARTITION BY event_id, provider, source ORDER BY observed_at)
+  ) WHERE ${keepNonSpikeSql("low_price", "prev_price", "next_price")}
+    AND observed_at ${field === "windowMin" ? ">=" : "<"} ?
+  GROUP BY event_id, provider, currency`).all(eventId, at(30));
+const randomIds = Array.from({ length: 80 }, (_, i) => `random-${i}`);
+const insertRandom = sqlite.prepare("INSERT INTO provider_pricing_history (id, event_id, provider, low_price, currency, source, observed_at) VALUES (?, ?, 'stubhub-international', ?, ?, ?, ?)");
+for (const eventId of randomIds) {
+  const count = 1 + Math.floor(random() * 120);
+  for (let i = 0; i < count; i++) {
+    const price = (random() < 0.25 ? (i % 2 ? 1000 : 10) : Math.floor(random() * 400)) + i / 1000;
+    insertRandom.run(`r${(rowId += 1)}`, eventId, price,
+      random() < 0.3 ? "CAD" : "USD", random() < 0.1 ? "other" : "src", at(85 - i * 84 / count));
+  }
+}
+const randomIndex = await fetchEventPriceLowSeries(db, randomIds, lanes, { now: NOW });
+for (const eventId of randomIds) {
+  for (const field of ["carryIn", "windowMin"]) {
+    for (const row of reference(eventId, field)) {
+      const actual = randomIndex.get(`${eventId}|stubhub-international`)?.byCurrency.get(row.currency)?.[field];
+      assert.deepEqual(actual, { price: row.low_price, currency: row.currency, observedAt: row.observed_at });
+    }
+  }
+}
+check(true, "80 generated mixed-currency series match the full-history reference");
 
 // --- The latest recorded change -------------------------------------------
 

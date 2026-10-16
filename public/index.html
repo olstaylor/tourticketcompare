@@ -3,7 +3,7 @@
   <head>
     <!-- Google tag bootstrap. Consent Mode defaults are denied before anything
          else is queued. Configure the GA4 destination before application
-         events enter the queue; GTM owns the loader and page-view send, and
+         events enter the queue; this config owns the initial page-view send, and
          /consent.js loads it only after the visitor accepts cookies.
          Gated on the canonical host so a Cloudflare preview deployment or a
          local dev server never registers the production property and reports
@@ -14,7 +14,7 @@
       gtag('consent', 'default', {'ad_storage': 'denied', 'ad_user_data': 'denied', 'ad_personalization': 'denied', 'analytics_storage': 'denied'});
       gtag('js', new Date());
       if (window.location.hostname === 'tourticketcompare.com') {
-        gtag('config', 'G-Q7R1NQY8YH', {'send_page_view': false});
+        gtag('config', 'G-Q7R1NQY8YH', {'send_page_view': true});
       }
       dataLayer.push({'event': 'ttc_google_tag_init'});
     </script>

@@ -908,7 +908,7 @@ await test("GA4 mirrors funnel events without high-cardinality or personal param
 await test("GA4 destination is configured before queued application events without duplicating page views", async () => {
   const indexHtml = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
   const gateAt = indexHtml.indexOf("if (window.location.hostname === 'tourticketcompare.com') {");
-  const configAt = indexHtml.indexOf("gtag('config', 'G-Q7R1NQY8YH', {'send_page_view': false});");
+  const configAt = indexHtml.indexOf("gtag('config', 'G-Q7R1NQY8YH', {'send_page_view': true});");
   const initAt = indexHtml.indexOf("dataLayer.push({'event': 'ttc_google_tag_init'});");
   assert.ok(configAt > -1, "the GA4 destination must be explicit before GTM loads the queued events");
   assert.ok(initAt > configAt, "the destination config must precede the GTM initialization event");
@@ -916,6 +916,25 @@ await test("GA4 destination is configured before queued application events witho
   // host gate the config registers the production property there too and their
   // funnel events land in the property this change exists to make trustworthy.
   assert.ok(gateAt > -1 && gateAt < configAt, "the GA4 destination must only be registered on the canonical host");
+});
+
+await test("the bootstrap queues one initial page-view config only on production", async () => {
+  const { runInNewContext } = await import("node:vm");
+  const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
+  const bootstrap = html.match(/<script>([\s\S]*?)<\/script>/)[1];
+  for (const hostname of ["tourticketcompare.com", "preview.pages.dev", "localhost"]) {
+    const context = { location: { hostname } };
+    context.window = context;
+    runInNewContext(bootstrap, context);
+    const commands = context.dataLayer.map((entry) => Array.from(entry));
+    const configs = commands.filter((entry) => entry[0] === "config");
+    assert.equal(configs.length, hostname === "tourticketcompare.com" ? 1 : 0);
+    if (configs.length) assert.equal(configs[0][2].send_page_view, true);
+    assert.equal(commands.filter((entry) => entry[0] === "event" && entry[1] === "page_view").length, 0,
+      "no second explicit page-view event may duplicate the config-owned send");
+    assert.equal(commands[0][0], "consent");
+    assert.equal(commands[0][2].analytics_storage, "denied");
+  }
 });
 
 await test("CTA impressions observe every button, not just the first in the document", async () => {

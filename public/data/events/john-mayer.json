@@ -1654,5 +1654,164 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zwf9",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "event_name": "John Mayer Live At Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-06-10T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653837E3D517",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-09-2027/event/1700653837E3D517",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-09-2027/event/1700653837E3D517",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653837E3D517",
+        "discovery_event_id": "16vjZ_KOMG7zWf9",
+        "url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-09-2027/event/1700653837E3D517",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vjZ_KOMG7zWf9",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7yuf_",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "event_name": "John Mayer Live At Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-06-12T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653837E4D519",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-11-2027/event/1700653837E4D519",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-11-2027/event/1700653837E4D519",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653837E4D519",
+        "discovery_event_id": "16vjZ_KOMG7yuf_",
+        "url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-11-2027/event/1700653837E4D519",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vjZ_KOMG7yuf_",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7yufh",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "event_name": "John Mayer Live At Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-06-13T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653837E4D51B",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-12-2027/event/1700653837E4D51B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-12-2027/event/1700653837E4D51B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653837E4D51B",
+        "discovery_event_id": "16vjZ_KOMG7yufh",
+        "url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-12-2027/event/1700653837E4D51B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vjZ_KOMG7yufh",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

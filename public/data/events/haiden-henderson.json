@@ -1467,5 +1467,58 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284340/Haiden-Henderson-tickets-Sat-May-15-2027-Troubadour",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284340"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-portland-z7r9jz1aaeekk",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Hawthorne Theatre",
+    "datetime_iso": "2027-05-13T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeekk",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeekk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeekk",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeekk",
+        "discovery_event_id": "Z7r9jZ1AAeekk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeekk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeekk",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

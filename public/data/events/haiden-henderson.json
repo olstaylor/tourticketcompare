@@ -1089,7 +1089,7 @@
     "tour_name": "The dumblond Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAevqs",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevqs",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/haiden-henderson-tickets/englewood-colorado-gothic-theatre-2027-05-08-8-pm/concert/18669978",
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-englewood-gothic-theatre-5-8-2027--concerts-pop/production/7593502",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevqs",
@@ -1105,11 +1105,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18669978,
+        "url": "https://seatgeek.com/haiden-henderson-tickets/englewood-colorado-gothic-theatre-2027-05-08-8-pm/concert/18669978",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7593502,

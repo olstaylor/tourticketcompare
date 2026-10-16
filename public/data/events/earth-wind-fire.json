@@ -807,7 +807,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAea-g",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAea-g",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/west-palm-beach-florida-kravis-center-dreyfoos-hall-2027-03-06-7-pm/concert/18689366",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAea-g",
@@ -823,11 +823,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18689366,
+        "url": "https://seatgeek.com/earth-wind-fire-tickets/west-palm-beach-florida-kravis-center-dreyfoos-hall-2027-03-06-7-pm/concert/18689366",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1026,7 +1026,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAeb18",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb18",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/huntsville-alabama-orion-amphitheater-2027-04-21-7-30-pm/concert/18689500",
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-huntsville-orion-amphitheater-4-21-2027/production/7653342",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb18",
@@ -1042,11 +1042,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18689500,
+        "url": "https://seatgeek.com/earth-wind-fire-tickets/huntsville-alabama-orion-amphitheater-2027-04-21-7-30-pm/concert/18689500",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7653342,

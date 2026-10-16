@@ -572,7 +572,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0200653CE1FB18A5",
     "ticketmaster_url": "https://www.ticketmaster.com/fontaines-dc-philadelphia-pennsylvania-04-24-2027/event/0200653CE1FB18A5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fontaines-d-c-tickets/philadelphia-pennsylvania-skyline-stage-at-the-mann-2027-04-24-7-pm/concert/18642821",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-philadelphia-pennsylvania-04-24-2027/event/0200653CE1FB18A5",
@@ -588,11 +588,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642821,
+        "url": "https://seatgeek.com/fontaines-d-c-tickets/philadelphia-pennsylvania-skyline-stage-at-the-mann-2027-04-24-7-pm/concert/18642821",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -708,7 +708,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0400654194E26A91",
     "ticketmaster_url": "https://www.ticketmaster.com/fontaines-dc-chicago-illinois-04-28-2027/event/0400654194E26A91",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fontaines-d-c-tickets/chicago-illinois-the-salt-shed-outdoors-2027-04-28-7-pm/concert/18642820",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-chicago-illinois-04-28-2027/event/0400654194E26A91",
@@ -724,11 +724,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642820,
+        "url": "https://seatgeek.com/fontaines-d-c-tickets/chicago-illinois-the-salt-shed-outdoors-2027-04-28-7-pm/concert/18642820",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

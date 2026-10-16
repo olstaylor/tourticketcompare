@@ -1443,7 +1443,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "10006545891533EB",
     "ticketmaster_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-hamilton-ontario-03-20-2027/event/10006545891533EB",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nickelback-tickets/hamilton-canada-td-coliseum-2027-03-20-6-30-pm/concert/18664627",
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-hamilton-td-coliseum-3-20-2027/production/7678903",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-hamilton-ontario-03-20-2027/event/10006545891533EB",
@@ -1459,11 +1459,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18664627,
+        "url": "https://seatgeek.com/nickelback-tickets/hamilton-canada-td-coliseum-2027-03-20-6-30-pm/concert/18664627",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678903,
@@ -1515,7 +1515,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "10006544F4EAD977",
     "ticketmaster_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-toronto-ontario-03-21-2027/event/10006544F4EAD977",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nickelback-tickets/toronto-canada-scotiabank-arena-2027-03-21-6-30-pm/concert/18664630",
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-toronto-scotiabank-arena-3-21-2027/production/7678919",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-toronto-ontario-03-21-2027/event/10006544F4EAD977",
@@ -1531,11 +1531,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18664630,
+        "url": "https://seatgeek.com/nickelback-tickets/toronto-canada-scotiabank-arena-2027-03-21-6-30-pm/concert/18664630",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678919,

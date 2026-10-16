@@ -652,7 +652,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0200652B938C9946",
     "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-bethlehem-pennsylvania-04-24-2027/event/0200652B938C9946",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-psychedelic-furs-tickets/bethlehem-pennsylvania-wind-creek-event-center-2027-04-24-8-pm/concert/18592683",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-bethlehem-pennsylvania-04-24-2027/event/0200652B938C9946",
@@ -668,11 +668,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18592683,
+        "url": "https://seatgeek.com/the-psychedelic-furs-tickets/bethlehem-pennsylvania-wind-creek-event-center-2027-04-24-8-pm/concert/18592683",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -948,7 +948,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvUQ6",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUQ6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-psychedelic-furs-tickets/ridgefield-connecticut-the-ridgefield-playhouse-2027-01-15-8-pm/concert/18670227",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUQ6",
@@ -964,11 +964,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18670227,
+        "url": "https://seatgeek.com/the-psychedelic-furs-tickets/ridgefield-connecticut-the-ridgefield-playhouse-2027-01-15-8-pm/concert/18670227",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2154,7 +2154,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A703Oe",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A703Oe",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-psychedelic-furs-tickets/jacksonville-florida-florida-theatre-jacksonville-2027-04-14-8-pm/concert/18592675",
     "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-jacksonville-florida-theatre-jacksonville-4-14-2027/production/7567193",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A703Oe",
@@ -2170,11 +2170,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18592675,
+        "url": "https://seatgeek.com/the-psychedelic-furs-tickets/jacksonville-florida-florida-theatre-jacksonville-2027-04-14-8-pm/concert/18592675",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7567193,

@@ -454,11 +454,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18550841,
+        "url": "https://seatgeek.com/saint-levant-tickets/brooklyn-new-york-brooklyn-paramount-2027-04-01-7-pm/concert/18550841",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7505633,
@@ -1301,7 +1301,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "100064E9EEB1DA59",
     "ticketmaster_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-toronto-ontario-03-23-2027/event/100064E9EEB1DA59",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/toronto-canada-history-2027-03-23-7-pm/concert/18387668",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-toronto-ontario-03-23-2027/event/100064E9EEB1DA59",
@@ -1317,11 +1317,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18387668,
+        "url": "https://seatgeek.com/saint-levant-tickets/toronto-canada-history-2027-03-23-7-pm/concert/18387668",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1366,7 +1366,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "100064E9EEB4DA5D",
     "ticketmaster_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-toronto-ontario-03-24-2027/event/100064E9EEB4DA5D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/toronto-canada-history-2027-03-24-7-pm/concert/18387667",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-toronto-ontario-03-24-2027/event/100064E9EEB4DA5D",
@@ -1382,11 +1382,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18387667,
+        "url": "https://seatgeek.com/saint-levant-tickets/toronto-canada-history-2027-03-24-7-pm/concert/18387667",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1504,7 +1504,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "020064E8BAFAE9C6",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-philadelphia-pennsylvania-03-28-2027/event/020064E8BAFAE9C6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/philadelphia-pennsylvania-theatre-of-living-arts-2027-03-28-8-pm/concert/18386192",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-philadelphia-pennsylvania-03-28-2027/event/020064E8BAFAE9C6",
@@ -1520,11 +1520,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18386192,
+        "url": "https://seatgeek.com/saint-levant-tickets/philadelphia-pennsylvania-theatre-of-living-arts-2027-03-28-8-pm/concert/18386192",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2144,7 +2144,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A0064E88E004B8E",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-austin-texas-04-20-2027/event/3A0064E88E004B8E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/austin-texas-stubb-s-waller-creek-amphitheater-2027-04-20-8-pm/concert/18386196",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-austin-texas-04-20-2027/event/3A0064E88E004B8E",
@@ -2160,11 +2160,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18386196,
+        "url": "https://seatgeek.com/saint-levant-tickets/austin-texas-stubb-s-waller-creek-amphitheater-2027-04-20-8-pm/concert/18386196",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

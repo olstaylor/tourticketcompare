@@ -680,7 +680,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "14320514",
     "ticketmaster_url": "https://www.ticketweb.com/event/too-many-zooz-audio-lipstick-black-sheep-tickets/14320514?REFERRAL_ID=tmfeed",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/too-many-zooz-tickets/colorado-springs-colorado-black-sheep-2027-03-17-8-pm/concert/18612556",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/too-many-zooz-audio-lipstick-black-sheep-tickets/14320514?REFERRAL_ID=tmfeed",
@@ -696,11 +696,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18612556,
+        "url": "https://seatgeek.com/too-many-zooz-tickets/colorado-springs-colorado-black-sheep-2027-03-17-8-pm/concert/18612556",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

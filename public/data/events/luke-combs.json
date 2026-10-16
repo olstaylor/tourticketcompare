@@ -104,11 +104,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18493404,
+        "url": "https://seatgeek.com/luke-combs-tickets/detroit-michigan-ford-field-2027-04-17-5-45-pm/concert/18493404",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7429035,
@@ -344,11 +344,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18493401,
+        "url": "https://seatgeek.com/luke-combs-tickets/pittsburgh-pennsylvania-acrisure-stadium-2027-05-08-5-45-pm/concert/18493401",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7429041,
@@ -481,7 +481,7 @@
     "tour_name": "My Kinda Saturday Night Tour",
     "ticketmaster_event_id": "1100650C9282714B",
     "ticketmaster_url": "https://www.ticketmaster.ca/luke-combs-my-kinda-saturday-night-edmonton-alberta-05-29-2027/event/1100650C9282714B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/luke-combs-tickets/edmonton-canada-commonwealth-stadium-edmonton-2027-05-29-5-20-pm/concert/18493413",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/luke-combs-my-kinda-saturday-night-edmonton-alberta-05-29-2027/event/1100650C9282714B",

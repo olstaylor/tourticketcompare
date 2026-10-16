@@ -491,6 +491,13 @@
         "verified": true,
         "last_verified_at": "2026-10-16",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8324860",
+        "url": "https://www.ticketliquidator.com/tickets/8324860/Dylan-Gossett-tickets-Thu-Feb-18-2027-O2-Academy-Brixton",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_8Kn_3tz",
@@ -502,7 +509,8 @@
       "ACADEMY MUSIC GROUP (O2 ACADEMY BRIXTON)",
       "LIVE NATION MUSIC UK LTD"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8324860"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8324860",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8324860/Dylan-Gossett-tickets-Thu-Feb-18-2027-O2-Academy-Brixton"
   },
   {
     "id": "tm-dylan-gossett-2027-manchester-g5dzz_8hqwevt",

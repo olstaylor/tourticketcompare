@@ -2592,5 +2592,111 @@
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315361",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315361/Mico-tickets-Sat-Mar-13-2027-Globe-Iron"
+  },
+  {
+    "id": "tm-mico-2027-jacksonville-z7r9jz1aa7a4e",
+    "artist_slug": "mico",
+    "artist_name": "Mico",
+    "event_name": "MICO - IN:BETWEEN TOUR",
+    "city": "Jacksonville",
+    "country": "United States Of America",
+    "venue": "FIVE",
+    "datetime_iso": "2027-02-24T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7a4E",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7a4E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7a4E",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7a4E",
+        "discovery_event_id": "Z7r9jZ1AA7a4E",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7a4E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7a4E",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mico-2027-lawrence-z7r9jz1aa7a_g",
+    "artist_slug": "mico",
+    "artist_name": "Mico",
+    "event_name": "MICO - IN:BETWEEN TOUR",
+    "city": "Lawrence",
+    "country": "United States Of America",
+    "venue": "Granada - KS",
+    "datetime_iso": "2027-03-07T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7A_g",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7A_g",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7A_g",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7A_g",
+        "discovery_event_id": "Z7r9jZ1AA7A_g",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7A_g",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7A_g",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

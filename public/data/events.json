@@ -9087,11 +9087,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107162470",
-        "url": "https://www.stubhub.ie/olivia-rodrigo-boston-tickets-10-15-2026/event/107162470",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -9100,7 +9100,7 @@
     "ticketmaster_discovery_event_id": "vv177Z_aGkSbtQpc",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-boston-tickets-10-15-2026/event/107162470",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -33039,11 +33039,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107146205",
-        "url": "https://www.stubhub.ie/niall-horan-tickets-amsterdam-ziggo-dome-15-10-2026/event/107146205",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -33057,7 +33057,7 @@
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-amsterdam-ziggo-dome-15-10-2026/event/107146205",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "",
     "organizer_names": [
       "Mojo Concerts"
@@ -36213,11 +36213,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106969172",
-        "url": "https://www.stubhub.ie/doja-cat-seattle-tickets-10-15-2026/event/106969172",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -36231,7 +36231,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457615",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-seattle-tickets-10-15-2026/event/106969172",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -43874,11 +43874,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107162170",
-        "url": "https://www.stubhub.ie/karol-g-arlington-tickets-10-15-2026/event/107162170",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xfrb",
@@ -43886,7 +43886,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896541",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/karol-g-arlington-tickets-10-15-2026/event/107162170",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -53470,11 +53470,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107198487",
-        "url": "https://www.stubhub.ie/don-omar-washington-tickets-10-15-2026/event/107198487",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61wBnb9B",
@@ -53482,7 +53482,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976484",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-washington-tickets-10-15-2026/event/107198487",
+    "stubhub_international_url": "",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ]
@@ -53784,11 +53784,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107289096",
-        "url": "https://www.stubhub.ie/don-omar-el-paso-tickets-10-25-2026/event/107289096",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1HPGE4r",
@@ -53796,7 +53796,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-el-paso-tickets-10-25-2026/event/107289096",
+    "stubhub_international_url": "",
     "presales": [
       {
         "name": "VIP Packages Onsale",
@@ -63359,11 +63359,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107460096",
-        "url": "https://www.stubhub.ie/tyla-tickets-london-o2-academy-brixton-15-10-2026/event/107460096",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_29jK-Dk",
@@ -63371,7 +63371,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-tickets-london-o2-academy-brixton-15-10-2026/event/107460096",
+    "stubhub_international_url": "",
     "organizer_names": [
       "METROPOLIS MUSIC",
       "ACADEMY MUSIC GROUP (O2 ACADEMY BRIXTON)",
@@ -63980,11 +63980,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107460123",
-        "url": "https://www.stubhub.ie/tyla-san-francisco-tickets-11-13-2026/event/107460123",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_2fIMqin",
@@ -63992,7 +63992,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-san-francisco-tickets-11-13-2026/event/107460123",
+    "stubhub_international_url": "",
     "presales": [
       {
         "name": "VIP Packages Onsale",
@@ -80906,11 +80906,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107202168",
-        "url": "https://www.stubhub.ie/morat-el-paso-tickets-2-28-2027/event/107202168",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -80924,7 +80924,7 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-el-paso-tickets-2-28-2027/event/107202168",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "",
     "presales": [
       {
@@ -98074,11 +98074,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107666033",
-        "url": "https://www.stubhub.ie/yuridia-el-paso-tickets-3-14-2027/event/107666033",
-        "verified": true,
-        "last_verified_at": "2026-09-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3GGzxqt",
@@ -98086,7 +98086,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/yuridia-el-paso-tickets-3-14-2027/event/107666033",
+    "stubhub_international_url": "",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -189974,11 +189974,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107016159",
-        "url": "https://www.stubhub.ie/warren-zeiders-tickets-bristol-o2-academy-bristol-15-10-2026/event/107016159",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbgXgFJhT",
@@ -189986,7 +189986,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-bristol-o2-academy-bristol-15-10-2026/event/107016159",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD",
       "ACADEMY MUSIC GROUP (O2 ACADEMY BRISTOL)"
@@ -196161,11 +196161,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107482820",
-        "url": "https://www.stubhub.ie/def-leppard-hollywood-tickets-10-15-2026/event/107482820",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_5Sqbrak",
@@ -196173,7 +196173,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012408",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-hollywood-tickets-10-15-2026/event/107482820"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-def-leppard-2027-allentown-1ayzk4agkdyeyao",
@@ -206572,11 +206572,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107673345",
+        "url": "https://www.stubhub.ie/mico-tickets-amsterdam-melkweg-29-1-2027/event/107673345",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vZeFPeA",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/mico-tickets-amsterdam-melkweg-29-1-2027/event/107673345"
   },
   {
     "id": "tm-mico-2027-manchester-g5vhz_flmnkjc",
@@ -254774,6 +254782,13 @@
         "verified": true,
         "last_verified_at": "2026-10-16",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162730",
+        "url": "https://www.stubhub.ie/hayley-williams-tickets-mexico-city-auditorio-nacional-26-11-2026/event/107162730",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dVZ_1Q0Q4BC",
@@ -254783,7 +254798,8 @@
       "OCESA"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8072644",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8072644/The-Hayley-Williams-Show-tickets-Thu-Nov-26-2026-Auditorio-Nacional-Mexico"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8072644/The-Hayley-Williams-Show-tickets-Thu-Nov-26-2026-Auditorio-Nacional-Mexico",
+    "stubhub_international_url": "https://www.stubhub.ie/hayley-williams-tickets-mexico-city-auditorio-nacional-26-11-2026/event/107162730"
   },
   {
     "id": "tm-hayley-williams-2027-ciudad-de-mexico-g5dvz_5u9jpc7",
@@ -254846,6 +254862,13 @@
         "verified": true,
         "last_verified_at": "2026-10-16",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107259010",
+        "url": "https://www.stubhub.ie/hayley-williams-tickets-mexico-city-auditorio-nacional-13-1-2027/event/107259010",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dVZ_5U9jPC7",
@@ -254855,7 +254878,8 @@
       "OCESA"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8072651",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8072651/The-Hayley-Williams-Show-tickets-Wed-Jan-13-2027-Auditorio-Nacional-Mexico"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8072651/The-Hayley-Williams-Show-tickets-Wed-Jan-13-2027-Auditorio-Nacional-Mexico",
+    "stubhub_international_url": "https://www.stubhub.ie/hayley-williams-tickets-mexico-city-auditorio-nacional-13-1-2027/event/107259010"
   },
   {
     "id": "tm-hayley-williams-2027-monterrey-17azv0g65m2hkin",
@@ -254976,6 +255000,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107259012",
+        "url": "https://www.stubhub.ie/hayley-williams-tickets-guadalajara-auditorio-telmex-17-1-2027/event/107259012",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AZv0G65UlWtLf",
@@ -254983,7 +255014,8 @@
     "status": "on-sale",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/hayley-williams-tickets-guadalajara-auditorio-telmex-17-1-2027/event/107259012"
   },
   {
     "id": "tm-hayley-williams-2027-forest-brussels-z698xzg2z1kopjxf_",
@@ -255088,6 +255120,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666428",
+        "url": "https://www.stubhub.ie/hayley-williams-tickets-glasgow-ovo-hydro-arena-glasgow-23-6-2027/event/107666428",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkf-Gkd-5ztO",
@@ -255096,7 +255135,8 @@
     "organizer_names": [
       "AEG PRESENTS LTD",
       "SCOTTISH EVENT CAMPUS LIMITED"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/hayley-williams-tickets-glasgow-ovo-hydro-arena-glasgow-23-6-2027/event/107666428"
   },
   {
     "id": "tm-hayley-williams-2027-cardiff-1adbz_ogkwuumuk",
@@ -255145,6 +255185,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666788",
+        "url": "https://www.stubhub.ie/hayley-williams-tickets-cardiff-utilita-arena-cardiff-30-6-2027/event/107666788",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdbZ_oGkwuUMUk",
@@ -255153,7 +255200,8 @@
     "organizer_names": [
       "AEG PRESENTS",
       "LIVE NATION MUSIC (VENUES) LTD (NEW)"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/hayley-williams-tickets-cardiff-utilita-arena-cardiff-30-6-2027/event/107666788"
   },
   {
     "id": "tm-blink-182-2027-milano-zg9rmiynyzefk6",
@@ -255269,13 +255317,21 @@
         "verified": true,
         "last_verified_at": "2026-10-16",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107665901",
+        "url": "https://www.stubhub.ie/janet-jackson-sunrise-tickets-12-12-2026/event/107665901",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZz43",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8225038",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8225038/Janet-Jackson-tickets-Sat-Dec-12-2026-Amerant-Bank-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8225038/Janet-Jackson-tickets-Sat-Dec-12-2026-Amerant-Bank-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/janet-jackson-sunrise-tickets-12-12-2026/event/107665901"
   },
   {
     "id": "tm-gorillaz-2026-austin-g5diz_ar2gvot",
@@ -255399,6 +255455,13 @@
         "verified": true,
         "last_verified_at": "2026-10-16",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107129379",
+        "url": "https://www.stubhub.ie/gorillaz-fort-worth-tickets-10-16-2026/event/107129379",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_dxO-E0O",
@@ -255408,7 +255471,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774756",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774756/Gorillaz-tickets-Fri-Oct-16-2026-Dickies-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774756/Gorillaz-tickets-Fri-Oct-16-2026-Dickies-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/gorillaz-fort-worth-tickets-10-16-2026/event/107129379"
   },
   {
     "id": "tm-gorillaz-2026-denver-g5vzz_amqia8m",
@@ -255471,6 +255535,13 @@
         "verified": true,
         "last_verified_at": "2026-10-16",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107129380",
+        "url": "https://www.stubhub.ie/gorillaz-denver-tickets-10-18-2026/event/107129380",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_Amqia8M",
@@ -255480,7 +255551,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774757",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774757/Gorillaz-tickets-Sun-Oct-18-2026-Ball-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774757/Gorillaz-tickets-Sun-Oct-18-2026-Ball-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/gorillaz-denver-tickets-10-18-2026/event/107129380"
   },
   {
     "id": "tm-gorillaz-2026-salt-lake-city-z7r9jz1a7-9ai",
@@ -255615,6 +255687,13 @@
         "verified": true,
         "last_verified_at": "2026-10-16",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107131096",
+        "url": "https://www.stubhub.ie/gorillaz-phoenix-tickets-10-23-2026/event/107131096",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_AGknirbye",
@@ -255631,7 +255710,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774761",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774761/Gorillaz-tickets-Fri-Oct-23-2026-Mortgage-Matchup-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774761/Gorillaz-tickets-Fri-Oct-23-2026-Mortgage-Matchup-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/gorillaz-phoenix-tickets-10-23-2026/event/107131096"
   },
   {
     "id": "tm-gorillaz-2026-inglewood-vv170z_agkmi0jmt",
@@ -255694,6 +255774,13 @@
         "verified": true,
         "last_verified_at": "2026-10-16",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107129381",
+        "url": "https://www.stubhub.ie/gorillaz-inglewood-tickets-10-24-2026/event/107129381",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_AGkmI0jmT",
@@ -255710,7 +255797,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774762",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774762/Gorillaz-tickets-Sat-Oct-24-2026-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774762/Gorillaz-tickets-Sat-Oct-24-2026-The-Kia-Forum",
+    "stubhub_international_url": "https://www.stubhub.ie/gorillaz-inglewood-tickets-10-24-2026/event/107129381"
   },
   {
     "id": "tm-gorillaz-2026-san-diego-vvg1iz_ai_rrcv",
@@ -255852,6 +255940,13 @@
         "verified": true,
         "last_verified_at": "2026-10-16",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107129383",
+        "url": "https://www.stubhub.ie/gorillaz-oakland-tickets-10-28-2026/event/107129383",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_AllHHol",
@@ -255869,7 +255964,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774765",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774765/Gorillaz-tickets-Wed-Oct-28-2026-Oakland-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774765/Gorillaz-tickets-Wed-Oct-28-2026-Oakland-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/gorillaz-oakland-tickets-10-28-2026/event/107129383"
   },
   {
     "id": "tm-gorillaz-2026-portland-vvg1hz_anwqdfp",
@@ -255932,6 +256028,13 @@
         "verified": true,
         "last_verified_at": "2026-10-16",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107129384",
+        "url": "https://www.stubhub.ie/gorillaz-portland-tickets-10-30-2026/event/107129384",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_AnwQDFp",
@@ -255948,7 +256051,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774766",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774766/Gorillaz-tickets-Fri-Oct-30-2026-Moda-Center-at-the-Rose-Quarter"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774766/Gorillaz-tickets-Fri-Oct-30-2026-Moda-Center-at-the-Rose-Quarter",
+    "stubhub_international_url": "https://www.stubhub.ie/gorillaz-portland-tickets-10-30-2026/event/107129384"
   },
   {
     "id": "tm-gorillaz-2026-seattle-vvg1hz_aeloqv3",
@@ -256011,6 +256115,13 @@
         "verified": true,
         "last_verified_at": "2026-10-16",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107131097",
+        "url": "https://www.stubhub.ie/gorillaz-seattle-tickets-10-31-2026/event/107131097",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_AEloQv3",
@@ -256027,7 +256138,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774767",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774767/Gorillaz-tickets-Sat-Oct-31-2026-Climate-Pledge-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774767/Gorillaz-tickets-Sat-Oct-31-2026-Climate-Pledge-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/gorillaz-seattle-tickets-10-31-2026/event/107131097"
   },
   {
     "id": "tm-gorillaz-2026-zapopan-g5dvz_8mtgfu6",
@@ -256076,6 +256188,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107495134",
+        "url": "https://www.stubhub.ie/gorillaz-tickets-guadalajara-coliseo-gnp-seguros-estadio-3-de-marzo-9-12-2026/event/107495134",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dVZ_8mTgfu6",
@@ -256083,6 +256202,7 @@
     "status": "on-sale",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/gorillaz-tickets-guadalajara-coliseo-gnp-seguros-estadio-3-de-marzo-9-12-2026/event/107495134"
   }
 ]

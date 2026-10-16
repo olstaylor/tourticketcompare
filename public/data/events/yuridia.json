@@ -1126,11 +1126,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107666033",
-        "url": "https://www.stubhub.ie/yuridia-el-paso-tickets-3-14-2027/event/107666033",
-        "verified": true,
-        "last_verified_at": "2026-09-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3GGzxqt",
@@ -1138,7 +1138,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/yuridia-el-paso-tickets-3-14-2027/event/107666033",
+    "stubhub_international_url": "",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",

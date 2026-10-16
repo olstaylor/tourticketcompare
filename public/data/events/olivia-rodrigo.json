@@ -831,11 +831,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107162470",
-        "url": "https://www.stubhub.ie/olivia-rodrigo-boston-tickets-10-15-2026/event/107162470",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -844,7 +844,7 @@
     "ticketmaster_discovery_event_id": "vv177Z_aGkSbtQpc",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-boston-tickets-10-15-2026/event/107162470",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

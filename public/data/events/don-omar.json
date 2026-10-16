@@ -800,11 +800,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107198487",
-        "url": "https://www.stubhub.ie/don-omar-washington-tickets-10-15-2026/event/107198487",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61wBnb9B",
@@ -812,7 +812,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976484",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-washington-tickets-10-15-2026/event/107198487",
+    "stubhub_international_url": "",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ]
@@ -1114,11 +1114,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107289096",
-        "url": "https://www.stubhub.ie/don-omar-el-paso-tickets-10-25-2026/event/107289096",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1HPGE4r",
@@ -1126,7 +1126,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-el-paso-tickets-10-25-2026/event/107289096",
+    "stubhub_international_url": "",
     "presales": [
       {
         "name": "VIP Packages Onsale",

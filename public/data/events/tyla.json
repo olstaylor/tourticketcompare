@@ -62,11 +62,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107460096",
-        "url": "https://www.stubhub.ie/tyla-tickets-london-o2-academy-brixton-15-10-2026/event/107460096",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_29jK-Dk",
@@ -74,7 +74,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-tickets-london-o2-academy-brixton-15-10-2026/event/107460096",
+    "stubhub_international_url": "",
     "organizer_names": [
       "METROPOLIS MUSIC",
       "ACADEMY MUSIC GROUP (O2 ACADEMY BRIXTON)",
@@ -683,11 +683,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107460123",
-        "url": "https://www.stubhub.ie/tyla-san-francisco-tickets-11-13-2026/event/107460123",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_2fIMqin",
@@ -695,7 +695,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-san-francisco-tickets-11-13-2026/event/107460123",
+    "stubhub_international_url": "",
     "presales": [
       {
         "name": "VIP Packages Onsale",

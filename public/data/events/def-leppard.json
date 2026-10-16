@@ -62,11 +62,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107482820",
-        "url": "https://www.stubhub.ie/def-leppard-hollywood-tickets-10-15-2026/event/107482820",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_5Sqbrak",
@@ -74,7 +74,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012408",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-hollywood-tickets-10-15-2026/event/107482820"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-def-leppard-2027-allentown-1ayzk4agkdyeyao",

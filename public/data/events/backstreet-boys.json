@@ -1192,5 +1192,58 @@
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
     ]
+  },
+  {
+    "id": "tm-backstreet-boys-2027-toronto-1a8zk4agkeehx1f",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium - Homecoming: Live in Canada",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Centre",
+    "datetime_iso": "2027-03-08T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006549A7F3E294",
+    "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-03-07-2027/event/10006549A7F3E294",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-03-07-2027/event/10006549A7F3E294",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006549A7F3E294",
+        "discovery_event_id": "1A8Zk4aGkeEHX1f",
+        "url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-03-07-2027/event/10006549A7F3E294",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk4aGkeEHX1f",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

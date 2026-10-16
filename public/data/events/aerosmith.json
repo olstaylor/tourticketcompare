@@ -1,0 +1,108 @@
+[
+  {
+    "id": "tm-aerosmith-2026-hollywood-vvg1iz_kzl1gke",
+    "artist_slug": "aerosmith",
+    "artist_name": "Aerosmith",
+    "event_name": "California Dream On: Aerosmith & Friends",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Bowl",
+    "datetime_iso": "2026-10-30T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B00653E2B28C4E7",
+    "ticketmaster_url": "https://www.ticketmaster.com/california-dream-on-aerosmith-friends-hollywood-california-10-29-2026/event/0B00653E2B28C4E7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/california-dream-on-aerosmith-friends-hollywood-california-10-29-2026/event/0B00653E2B28C4E7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B00653E2B28C4E7",
+        "discovery_event_id": "vvG1iZ_Kzl1GKE",
+        "url": "https://www.ticketmaster.com/california-dream-on-aerosmith-friends-hollywood-california-10-29-2026/event/0B00653E2B28C4E7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZ_Kzl1GKE",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-aerosmith-2026-hollywood-vvg1iz_kzl5ikm",
+    "artist_slug": "aerosmith",
+    "artist_name": "Aerosmith",
+    "event_name": "California Dream On: Aerosmith & Friends",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Bowl",
+    "datetime_iso": "2026-11-02T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B00653E2B2EC4EE",
+    "ticketmaster_url": "https://www.ticketmaster.com/california-dream-on-aerosmith-friends-hollywood-california-11-01-2026/event/0B00653E2B2EC4EE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/california-dream-on-aerosmith-friends-hollywood-california-11-01-2026/event/0B00653E2B2EC4EE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B00653E2B2EC4EE",
+        "discovery_event_id": "vvG1iZ_Kzl5iKm",
+        "url": "https://www.ticketmaster.com/california-dream-on-aerosmith-friends-hollywood-california-11-01-2026/event/0B00653E2B2EC4EE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZ_Kzl5iKm",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

@@ -1671,5 +1671,58 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
+  },
+  {
+    "id": "tm-alan-walker-2027-montreal-1aszkfngkely6-x",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "MTELUS",
+    "datetime_iso": "2027-02-18T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006523ABC0787E",
+    "ticketmaster_url": "https://www.ticketmaster.ca/alan-walker-montreal-quebec-02-17-2027/event/31006523ABC0787E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/alan-walker-montreal-quebec-02-17-2027/event/31006523ABC0787E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006523ABC0787E",
+        "discovery_event_id": "1AsZkfNGkelY6-X",
+        "url": "https://www.ticketmaster.ca/alan-walker-montreal-quebec-02-17-2027/event/31006523ABC0787E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZkfNGkelY6-X",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

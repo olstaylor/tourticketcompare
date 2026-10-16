@@ -254,4 +254,77 @@
     Array.from(document.querySelectorAll("[data-event-id]")).slice(0, 20).forEach(function (card) { observer.observe(card); });
     Array.from(document.querySelectorAll("a[data-cta-provider]")).forEach(function (cta) { observer.observe(cta); });
   }
+
+  // "Selling soon" links on the pages with the most search impressions (GSC
+  // 3-month Pages export, 2026-10-11), pointing at the top shows of the daily
+  // priority list that start in the next two weeks. /api/selling-soon applies
+  // every gate (functions/_selling-soon.js); this only places the links.
+  // Plain internal links: no price, provider or availability claim. The paths
+  // are a fixed cohort so the change can be measured before and after.
+  var SELLING_SOON_PATHS = [
+    "/artists/lizzy-mcalpine",
+    "/guides/seatgeek-vs-ticketmaster",
+    "/guides/vivid-seats-vs-ticketmaster",
+    "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats",
+    "/compare-concert-ticket-prices",
+    "/blog/bruno-mars-falcon-stadium-base-access",
+    "/",
+    "/blog/olivia-rodrigo-unraveled-tour-ticket-types",
+    "/blog/floor-or-seats-at-a-stadium-concert",
+    "/blog/hilary-duff-lucky-me-tour-2027-on-sale"
+  ];
+  var SELLING_SOON_VISIBLE = 4;
+  var sellingSoonPath = window.location.pathname.replace(/\/+$/, "") || "/";
+  // Artist page: after its own dates. Homepage: under the hero. Guides, blog
+  // posts and the compare hub: after the first panel (short answer, ticket
+  // routes or hero), so the links sit in the first screens on mobile.
+  var sellingSoonAnchor = SELLING_SOON_PATHS.indexOf(sellingSoonPath) === -1 ? null : (
+    document.querySelector("#mainContent .artist-page > .show-board") ||
+    document.querySelector("#ttc-main > .hero-panel") ||
+    document.querySelector("#mainContent .content-page > section.nested-panel")
+  );
+  if (sellingSoonAnchor && window.fetch && !document.querySelector("[data-selling-soon]")) {
+    // Skip the artist the page is already about.
+    var pageArtists = Array.from(document.querySelectorAll("[data-blog-ticket-routes]")).map(function (node) {
+      return String(node.dataset.blogTicketRoutes || "");
+    });
+    var artistMatch = /^\/artists\/([^/]+)/.exec(sellingSoonPath);
+    if (artistMatch) pageArtists.push(artistMatch[1]);
+    fetch("/api/selling-soon", { headers: { Accept: "application/json" } })
+      .then(function (response) { return response.ok ? response.json() : null; })
+      .then(function (data) {
+        var shows = (data && Array.isArray(data.shows) ? data.shows : []).filter(function (show) {
+          return show && typeof show.href === "string" && show.href.indexOf("/artists/") === 0 && pageArtists.indexOf(show.artist_slug) === -1;
+        }).slice(0, SELLING_SOON_VISIBLE);
+        if (!shows.length) return;
+        var section = document.createElement("section");
+        section.className = "nested-panel selling-soon";
+        section.setAttribute("data-selling-soon", "");
+        section.setAttribute("aria-labelledby", "sellingSoonTitle");
+        var heading = document.createElement("h2");
+        heading.id = "sellingSoonTitle";
+        heading.textContent = "Big shows in the next two weeks";
+        var intro = document.createElement("p");
+        intro.textContent = "Going to one of these? Open it to compare the ticket sites for that date.";
+        var list = document.createElement("ul");
+        list.className = "guide-link-list";
+        shows.forEach(function (show, index) {
+          var item = document.createElement("li");
+          var link = document.createElement("a");
+          link.className = "text-link";
+          link.href = show.href;
+          link.setAttribute("data-selling-soon-position", String(index + 1));
+          link.textContent = show.artist_name + " tickets, " + show.date;
+          item.appendChild(link);
+          var where = [show.venue, show.city].filter(Boolean).join(", ");
+          if (where) item.appendChild(document.createTextNode(" · " + where));
+          list.appendChild(item);
+        });
+        section.appendChild(heading);
+        section.appendChild(intro);
+        section.appendChild(list);
+        sellingSoonAnchor.parentNode.insertBefore(section, sellingSoonAnchor.nextSibling);
+      })
+      .catch(function () {});
+  }
 })();

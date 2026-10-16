@@ -1953,5 +1953,270 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
+  },
+  {
+    "id": "tm-leon-bridges-2027-saint-augustine-z7r9jz1aa7dqk",
+    "artist_slug": "leon-bridges",
+    "artist_name": "Leon Bridges",
+    "event_name": "Leon Bridges w/ KOKOROKO",
+    "city": "Saint Augustine",
+    "country": "United States Of America",
+    "venue": "St Augustine Amphitheatre",
+    "datetime_iso": "2027-07-18T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7dQk",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7dQk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7dQk",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7dQk",
+        "discovery_event_id": "Z7r9jZ1AA7dQk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7dQk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7dQk",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-leon-bridges-2027-morrison-z7r9jz1aa7dvk",
+    "artist_slug": "leon-bridges",
+    "artist_name": "Leon Bridges",
+    "event_name": "Leon Bridges w/ KOKOROKO",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-08-04T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7dvK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7dvK",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7dvK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7dvK",
+        "discovery_event_id": "Z7r9jZ1AA7dvK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7dvK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7dvK",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-leon-bridges-2027-vancouver-z7r9jz1aa7dr6",
+    "artist_slug": "leon-bridges",
+    "artist_name": "Leon Bridges",
+    "event_name": "Leon Bridges w/ KOKOROKO",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Freedom Mobile Arch",
+    "datetime_iso": "2027-08-15T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7dr6",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7dr6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7dr6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7dr6",
+        "discovery_event_id": "Z7r9jZ1AA7dr6",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7dr6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7dr6",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-leon-bridges-2027-columbus-z7r9jz1aa7dpa",
+    "artist_slug": "leon-bridges",
+    "artist_name": "Leon Bridges",
+    "event_name": "Leon Bridges",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "KEMBA Live!",
+    "datetime_iso": "2027-09-14T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7dpa",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7dpa",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7dpa",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7dpa",
+        "discovery_event_id": "Z7r9jZ1AA7dpa",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7dpa",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7dpa",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-leon-bridges-2027-nashville-z7r9jz1aa7dqd",
+    "artist_slug": "leon-bridges",
+    "artist_name": "Leon Bridges",
+    "event_name": "Leon Bridges w/ Peter Cat Recording Co.",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Ascend Amphitheater",
+    "datetime_iso": "2027-09-22T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7dqd",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7dqd",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7dqd",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7dqd",
+        "discovery_event_id": "Z7r9jZ1AA7dqd",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7dqd",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7dqd",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

@@ -1395,5 +1395,58 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
+  },
+  {
+    "id": "tm-mei-semones-2027-los-angeles-z7r9jz1aa7e-9",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "event_name": "Mei Semones",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "The Fonda Theatre",
+    "datetime_iso": "2027-04-24T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7e-9",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7e-9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7e-9",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7e-9",
+        "discovery_event_id": "Z7r9jZ1AA7e-9",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7e-9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7e-9",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

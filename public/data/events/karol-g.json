@@ -1063,11 +1063,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107162170",
-        "url": "https://www.stubhub.ie/karol-g-arlington-tickets-10-15-2026/event/107162170",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xfrb",
@@ -1075,7 +1075,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896541",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/karol-g-arlington-tickets-10-15-2026/event/107162170",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

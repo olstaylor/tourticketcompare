@@ -216,6 +216,32 @@ coverage or indexing problem before adding content or roster breadth. No new
 analytics store, inferred purchase rate or raw-redirect revenue forecast is
 needed for this review.
 
+### SEO opportunity report
+
+`npm run report:seo-opportunities -- --search-console <dir>` turns one unzipped
+Search Console Performance export (`Pages.csv` + `Queries.csv`) into a ranked
+list where every candidate gets exactly one action: CREATE, IMPROVE, REFRESH,
+LINK or HOLD (plan: `plans/seo-growth-engine-2026-10-16.md` in the project
+files). It is read-only: it writes nothing to the repository, D1 or GitHub and
+calls no AI model.
+
+- Google demand comes only from the export. SeatGeek or Ticketmaster
+  popularity is never used as search volume.
+- `--remote` adds landing conversion (visitor-days by landing `page_type` that
+  sent a `provider_click` the same UTC day, last `--days`) and the stored
+  `show_priority` list. Without them, `--conversion-file` and `--priority-file`
+  (the `report:show-priority -- --json` output) can be passed, or the report
+  falls back to a 30% site-wide rate and says so.
+- CREATE needs demand (price or buying-decision searches), verified upcoming
+  dates and measured conversion for that page type; otherwise the row is HOLD
+  with the missing evidence named. Event pages are HOLD while a cohort read is
+  pending; pages in `SELLING_SOON_PATHS` are HOLD while #1621 is measured.
+- "Value" is extra ticket-clickers × £0.45 (inferred), a ranking aid only.
+  Clicks are not sales.
+
+Blog posts are recorded as page type `blog` (`/blog/<post>`) and `blog_index`
+(`/blog`, `/blog/tags/<tag>`) from 16 Oct 2026; earlier rows say `other`.
+
 ## Lizzy McAlpine price-guide measurement baseline
 
 Reviewed **2026-10-02**; compare again around **2026-10-30**, allowing about

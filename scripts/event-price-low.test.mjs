@@ -228,41 +228,40 @@ const lane = (overrides = {}) => ({
   ];
   await fetchEventPriceLowSeries(db, ["e1", "e2"], lanes, { now: NOW });
 
-  check(calls.length === 2, `one chunk issues exactly two statements (was ${calls.length})`);
-  const windowCall = calls.find((c) => /MIN\(low_price\)/.test(c.sql));
-  const carryCall = calls.find((c) => /MAX\(observed_at\)/.test(c.sql));
-  check(Boolean(windowCall && carryCall), "one statement per question");
+  check(calls.length === 1, `one bounded chunk issues exactly one statement (was ${calls.length})`);
+  const [boundedCall] = calls;
 
-  // The two windows must abut exactly: no observation counted twice, none lost
-  // in a gap between them.
-  check(/observed_at >= \?/.test(windowCall.sql), "the in-window statement is inclusive of the window start");
-  check(/observed_at < \?/.test(carryCall.sql), "the carry-in statement is exclusive of it");
-  const windowStart = windowCall.bindings.at(-1);
-  check(windowStart === carryCall.bindings.at(-1), "both use the same boundary instant");
+  // The two halves must abut exactly: no observation counted twice, none lost
+  // in a gap between them. Each exact series carries the same boundary into
+  // both its range and two-row predecessor lookup.
+  check(/observed_at >= \?/.test(boundedCall.sql), "the in-window arm is inclusive of the window start");
+  check(/observed_at < \?/.test(boundedCall.sql), "the predecessor arm is exclusive of it");
   const expected = new Date(NOW - PRICE_LOW_WINDOW_DAYS * 24 * 60 * 60 * 1000).toISOString();
-  check(windowStart === expected, `the boundary is ${PRICE_LOW_WINDOW_DAYS} days back (was ${windowStart})`);
+  const boundaries = boundedCall.bindings.filter((value) => value === expected);
+  check(boundaries.length === lanes.length * 2 * 2, `every range and predecessor arm uses the ${PRICE_LOW_WINDOW_DAYS}-day boundary`);
 
-  // Provider and source are bound as pairs in independent UNION branches: this
-  // keeps the indexed history lookup exact and never admits another source for
-  // the same provider.
+  // Provider and source are bound as pairs in independent event/lane branches:
+  // this keeps every history lookup exact and never admits another source for
+  // the same provider. The predecessor arm must stop at two rows; a full
+  // retained-history scan would defeat the purpose of this reader.
   check(
-    (windowCall.sql.match(/provider = \? AND source = \?/g) || []).length === 2,
-    "each lane constrains provider and source together"
+    (boundedCall.sql.match(/event_id = \? AND provider = \? AND source = \?/g) || []).length === lanes.length * 2 * 2,
+    "each event/lane arm constrains event, provider and source together"
   );
-  check((windowCall.sql.match(/UNION ALL/g) || []).length === 1, "approved lanes use independent indexed branches");
+  check((boundedCall.sql.match(/LIMIT 2/g) || []).length === lanes.length * 2, "each exact series reads at most two predecessors");
   check(
-    windowCall.bindings.includes("vividseats_impact_marketplace_api") &&
-      windowCall.bindings.includes("ticketnetwork_impact_marketplace_api"),
+    boundedCall.bindings.includes("vividseats_impact_marketplace_api") &&
+      boundedCall.bindings.includes("ticketnetwork_impact_marketplace_api"),
     "the approved source of each lane is bound"
   );
   check(
-    windowCall.bindings.filter((value) => value === "e1").length === lanes.length,
-    "each lane receives the same exact event-id set"
+    boundedCall.bindings.filter((value) => value === "e1").length === lanes.length * 2,
+    "each lane receives exact range and predecessor lookups for the same event"
   );
-  check(/GROUP BY event_id, provider, currency/.test(windowCall.sql), "series are grouped per event, provider and currency");
+  check(/LAG\(low_price\)/.test(boundedCall.sql) && /LEAD\(low_price\)/.test(boundedCall.sql), "the spike guard still sees both neighbours");
 }
 {
-  // Batching: 120 ids is three chunks of at most 50, so six statements.
+  // Batching: one lane permits twelve exact event series per 100-binding chunk.
   let statements = 0;
   const db = {
     prepare() {
@@ -272,13 +271,13 @@ const lane = (overrides = {}) => ({
   };
   const ids = Array.from({ length: 120 }, (_, i) => `e${i}`);
   await fetchEventPriceLowSeries(db, ids, [{ dbKey: "vivid-seats", approvedSource: "src" }], { now: NOW });
-  check(statements === 6, `120 ids cost six statements, not one per id (was ${statements})`);
+  check(statements === 10, `120 ids cost ten bounded statements (was ${statements})`);
 }
 {
-  // With every approved lane active, split the event ids so each UNION query
-  // stays within the former single-lane binding budget. That keeps the exact
-  // index branches safe to execute on D1 rather than trading one broad scan
-  // for an over-large prepared statement.
+  // With every approved lane active, two events use eighty bindings: five lanes,
+  // two exact range lookups per lane, four bindings each. That keeps the query
+  // below D1's 100-binding limit and, crucially, lets every predecessor arm stop
+  // after two indexed rows instead of ranking retained history.
   const calls = [];
   const db = {
     prepare(sql) {
@@ -291,8 +290,8 @@ const lane = (overrides = {}) => ({
   };
   const lanes = Array.from({ length: 5 }, (_, i) => ({ dbKey: `lane-${i}`, approvedSource: `source-${i}` }));
   await fetchEventPriceLowSeries(db, Array.from({ length: 50 }, (_, i) => `e${i}`), lanes, { now: NOW });
-  check(calls.length === 10, `five lanes split 50 ids into five chunks (was ${calls.length / 2})`);
-  check(calls.every((call) => call.bindings.length <= 61), "multi-lane statements stay within the former binding budget");
+  check(calls.length === 25, `five lanes split 50 ids into bounded two-event statements (was ${calls.length})`);
+  check(calls.every((call) => call.bindings.length <= 100), "multi-lane statements stay within D1's binding limit");
 }
 {
   const index = await fetchEventPriceLowSeries(null, ["e1"], [{ dbKey: "v", approvedSource: "s" }], { now: NOW });
@@ -310,14 +309,14 @@ const lane = (overrides = {}) => ({
 {
   const db = {
     prepare(sql) {
-      const isWindow = /MIN\(low_price\)/.test(sql);
       return {
         bind() { return this; },
         async all() {
           return {
-            results: isWindow
-              ? [{ event_id: "e1", provider: "vivid-seats", currency: "USD", low_price: 120, observed_at: daysAgo(6) }]
-              : [{ event_id: "e1", provider: "vivid-seats", currency: "USD", low_price: 150, observed_at: daysAgo(44) }]
+            results: [
+              { event_id: "e1", provider: "vivid-seats", currency: "USD", low_price: 120, observed_at: daysAgo(6), in_window: 1 },
+              { event_id: "e1", provider: "vivid-seats", currency: "USD", low_price: 150, observed_at: daysAgo(44), in_window: 0 }
+            ]
           };
         }
       };

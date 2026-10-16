@@ -183,7 +183,10 @@ export const WATCHED_LANES = [
   { file: "plan-scoreboard.yml", name: "Plan scoreboard", cadence: "weekly Mon 07:20", maxAgeHours: 8 * 24 + 6, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
   // Daily show-priority ranking: one D1 table and its rolling issue. Every
   // reader is fail-open, so it validates nothing against main.
-  { file: "show-priority.yml", name: "Show priority", cadence: "daily 05:40", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false }
+  { file: "show-priority.yml", name: "Show priority", cadence: "daily 05:40", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
+  // Weekly read-only SEO opportunity report: D1 SELECTs and its rolling issue
+  // only. It stays green (skipped run step) until GSC_SERVICE_ACCOUNT_JSON exists.
+  { file: "seo-opportunities.yml", name: "SEO opportunities", cadence: "weekly Mon 06:30", maxAgeHours: 8 * 24 + 6, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false }
 ];
 
 // Whether a lane runs often enough that one failure is absorbed rather than
@@ -727,8 +730,8 @@ if (SELF_TEST) {
   );
   assert.deepEqual(
     WATCHED_LANES.filter((lane) => !lane.sharesMainGate).map((lane) => lane.file).sort(),
-    ["automation-health.yml", "autopublish-digest.yml", "blog-ideas.yml", "generated-freshness.yml", "plan-scoreboard.yml", "pr-validation-head-guard.yml", "price-coverage-report.yml", "price-guide-candidates.yml", "roster-candidates.yml", "show-priority.yml", "site-health.yml"],
-    "the sensors, digest, editorial and roster screens, coverage report, site health, scoreboard and show-priority ranking are excluded from writer correlation"
+    ["automation-health.yml", "autopublish-digest.yml", "blog-ideas.yml", "generated-freshness.yml", "plan-scoreboard.yml", "pr-validation-head-guard.yml", "price-coverage-report.yml", "price-guide-candidates.yml", "roster-candidates.yml", "seo-opportunities.yml", "show-priority.yml", "site-health.yml"],
+    "the sensors, digest, editorial and roster screens, coverage report, site health, scoreboard, show-priority ranking and SEO report are excluded from writer correlation"
   );
   // GitHub accepts either extension for a workflow file, so the coverage scan
   // below must recognise both or a scheduled `.yaml` lane slips past it.

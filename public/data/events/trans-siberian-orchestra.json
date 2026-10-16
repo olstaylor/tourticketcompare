@@ -988,7 +988,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-nashville-bridgestone-arena-12-2-2026/production/7536635",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-nashville-tennessee-12-02-2026/event/1B00651B2A7F1795",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1064,6 +1064,11 @@
         "name": "Scary Good TSO Deal",
         "start": "2026-10-08T15:00:00Z",
         "end": "2026-11-01T03:00:00Z"
+      },
+      {
+        "name": "Lowe's Discount Ticket Offer",
+        "start": "2026-10-15T19:30:00Z",
+        "end": "2026-12-01T01:30:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255062/Trans-Siberian-Orchestra-tickets-Wed-Dec-2-2026-Bridgestone-Arena",
@@ -1087,7 +1092,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-charleston-charleston-coliseum-and-convention-center-12-3-2026/production/7536609",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charleston-west-virginia-12-03-2026/event/1600650CA03760B5",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1154,6 +1159,11 @@
         "name": "Scary Good TSO Deal",
         "start": "2026-10-13T19:30:00Z",
         "end": "2026-11-01T02:00:00Z"
+      },
+      {
+        "name": "Lowe's Discount Ticket Offer",
+        "start": "2026-10-15T20:00:00Z",
+        "end": "2026-12-02T00:00:00Z"
       }
     ],
     "organizer_names": [

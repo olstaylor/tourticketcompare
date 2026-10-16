@@ -1793,7 +1793,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1509574333?language=en-us",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1847,7 +1847,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896509/Karol-G-tickets-Wed-Jul-14-2027-PGE-Narodowy",
     "organizer_names": [
       "Live Nation sp. z o.o."
-    ]
+    ],
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-karol-g-2026-guadalupe-g5dvz_fd0l9ge",

@@ -624,10 +624,10 @@
     "id": "tm-tyla-2026-san-francisco-g5vyz_2fimqin",
     "artist_slug": "tyla",
     "artist_name": "Tyla",
-    "event_name": "TYLA - THE A*POP WORLD TOUR",
-    "city": "San Francisco",
+    "event_name": "TYLA - THE A*POP WORLD TOUR (MOVED TO FOX THEATER)",
+    "city": "Oakland",
     "country": "United States Of America",
-    "venue": "Bill Graham Civic Auditorium",
+    "venue": "Fox Theater - Oakland",
     "datetime_iso": "2026-11-14T04:00:00Z",
     "tour_name": "The A*POP World Tour",
     "ticketmaster_event_id": "1C0064F528DDDB2A",
@@ -636,7 +636,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-san-francisco-bill-graham-civic-auditorium-11-13-2026--concerts-pop/production/7347435",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-san-francisco-california-11-13-2026/event/1C0064F528DDDB2A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

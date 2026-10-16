@@ -9049,7 +9049,7 @@
     "artist_name": "Don Omar",
     "country": "United States Of America",
     "city": "El Paso",
-    "venue": "GECU Arena at Don Haskins Center",
+    "venue": "GECU Arena at the Don Haskins Center",
     "datetime_iso": "2026-10-26T02:00:00Z",
     "timezone": "America/Denver",
     "tour_name": "The Last King World Tour",
@@ -10680,8 +10680,8 @@
     "artist_slug": "tyla",
     "artist_name": "Tyla",
     "country": "United States Of America",
-    "city": "San Francisco",
-    "venue": "Bill Graham Civic Auditorium",
+    "city": "Oakland",
+    "venue": "Fox Theater - Oakland",
     "datetime_iso": "2026-11-14T04:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "The A*POP World Tour",
@@ -13453,7 +13453,7 @@
     "artist_name": "Morat",
     "country": "United States Of America",
     "city": "El Paso",
-    "venue": "GECU Arena at Don Haskins Center",
+    "venue": "GECU Arena at the Don Haskins Center",
     "datetime_iso": "2027-03-01T03:00:00Z",
     "timezone": "America/Denver",
     "tour_name": "YEM: Ya Es Mañana World Tour 2027",
@@ -16429,7 +16429,7 @@
     "artist_name": "Yuridia",
     "country": "United States Of America",
     "city": "El Paso",
-    "venue": "GECU Arena at Don Haskins Center",
+    "venue": "GECU Arena at the Don Haskins Center",
     "datetime_iso": "2027-03-15T02:00:00Z",
     "timezone": "America/Denver",
     "tour_name": "",
@@ -28541,7 +28541,7 @@
     "datetime_iso": "2027-02-04T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-tampa-vvg1vz_kmcwtil",
@@ -28553,7 +28553,7 @@
     "datetime_iso": "2027-02-06T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-jacksonville-1aefz_kgkdyuafx",
@@ -28565,7 +28565,7 @@
     "datetime_iso": "2027-02-07T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-atlanta-vvg1zz_kmneaip",
@@ -28577,7 +28577,7 @@
     "datetime_iso": "2027-02-10T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-nashville-g5viz_kzhjzwy",
@@ -28589,7 +28589,7 @@
     "datetime_iso": "2027-02-11T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-rosemont-vv178z_kgkmrjctr",
@@ -28601,7 +28601,7 @@
     "datetime_iso": "2027-02-13T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-omaha-vv17bz_kgkmgzcnp",
@@ -28613,7 +28613,7 @@
     "datetime_iso": "2027-02-14T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-minneapolis-vv17bz_kgku0ofzs",
@@ -28625,7 +28625,7 @@
     "datetime_iso": "2027-02-16T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-louisville-1avbz_kgkbymb5h",
@@ -28637,7 +28637,7 @@
     "datetime_iso": "2027-02-20T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-pittsburgh-1avbz_kgkmosrsz",
@@ -28649,7 +28649,7 @@
     "datetime_iso": "2027-02-21T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-detroit-vv17oz_kgkwt_pf2",
@@ -28661,7 +28661,7 @@
     "datetime_iso": "2027-03-03T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-boston-vv177z_kgknm09yr",
@@ -28673,7 +28673,7 @@
     "datetime_iso": "2027-03-06T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-albany-k7vgf_kbmaa9o",
@@ -28685,7 +28685,7 @@
     "datetime_iso": "2027-03-07T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-brooklyn-1adzz_kgkljmams",
@@ -28697,7 +28697,7 @@
     "datetime_iso": "2027-03-09T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-philadelphia-1adzz_kgkv_zy6y",
@@ -28709,7 +28709,7 @@
     "datetime_iso": "2027-03-11T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-charlotte-g5evz_kd5pkxs",
@@ -28721,7 +28721,7 @@
     "datetime_iso": "2027-03-13T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-knoxville-g5viz_fat50pa",
@@ -28733,7 +28733,7 @@
     "datetime_iso": "2027-03-14T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-fort-worth-vvg1yz_f6vci7r",
@@ -28745,7 +28745,7 @@
     "datetime_iso": "2027-03-16T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-tulsa-1aezz_kgkdnv4sg",
@@ -28757,7 +28757,7 @@
     "datetime_iso": "2027-03-17T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-anaheim-vv170z_kgkm7preh",
@@ -28769,7 +28769,7 @@
     "datetime_iso": "2027-03-20T02:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-phoenix-1av0z_kgkbck9ok",
@@ -28781,7 +28781,7 @@
     "datetime_iso": "2027-03-21T02:00:00Z",
     "timezone": "America/Phoenix",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-reno-1avjz_kgkmchefe",
@@ -28793,7 +28793,7 @@
     "datetime_iso": "2027-03-23T02:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-seattle-vvg1hz_km-zrdh",
@@ -28805,7 +28805,7 @@
     "datetime_iso": "2027-03-25T02:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-portland-vvg1hz_kle7js7",
@@ -28817,7 +28817,7 @@
     "datetime_iso": "2027-03-26T02:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-boise-g5vzz_fkffj8x",
@@ -28829,7 +28829,7 @@
     "datetime_iso": "2027-03-28T01:00:00Z",
     "timezone": "America/Denver",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-denver-g5vzz_kbjtioy",
@@ -28841,7 +28841,7 @@
     "datetime_iso": "2027-03-31T01:00:00Z",
     "timezone": "America/Denver",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-munich-z698xzc2z16v70efz3",
@@ -28973,7 +28973,7 @@
     "datetime_iso": "2027-07-06T02:00:00Z",
     "timezone": "America/Vancouver",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-edmonton-1av7z_kgkmfujae",
@@ -28985,7 +28985,7 @@
     "datetime_iso": "2027-07-08T01:00:00Z",
     "timezone": "America/Edmonton",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-calgary-1av7z_kgkum7iwv",
@@ -28997,7 +28997,7 @@
     "datetime_iso": "2027-07-09T01:00:00Z",
     "timezone": "America/Edmonton",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-winnipeg-1av7z_kgkmeitov",
@@ -29009,7 +29009,7 @@
     "datetime_iso": "2027-07-11T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-kansas-city-vv1akzk4vgkdr0kg1",
@@ -29021,7 +29021,7 @@
     "datetime_iso": "2027-07-14T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-saint-louis-vv17bz_kgkm_stkv",
@@ -29033,7 +29033,7 @@
     "datetime_iso": "2027-07-15T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-columbus-vv1aazk4vgkexl1ix",
@@ -29045,7 +29045,7 @@
     "datetime_iso": "2027-07-16T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-noblesville-vv17fz_kgkmuku1m",
@@ -29057,7 +29057,7 @@
     "datetime_iso": "2027-07-17T23:00:00Z",
     "timezone": "America/Indiana/Indianapolis",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-raleigh-g5evz_f6z0uw6",
@@ -29069,7 +29069,7 @@
     "datetime_iso": "2027-07-20T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-columbia-1avfz_kgkss_xxt",
@@ -29081,7 +29081,7 @@
     "datetime_iso": "2027-07-21T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-hershey-vv17fz_kgkdofs3p",
@@ -29093,7 +29093,7 @@
     "datetime_iso": "2027-07-23T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-uncasville-g5vvz_kwzs711",
@@ -29105,7 +29105,7 @@
     "datetime_iso": "2027-07-24T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-gilford-vv177z_kgkni4das",
@@ -29117,7 +29117,7 @@
     "datetime_iso": "2027-07-26T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-laval-1ad7z_kgksakup4",
@@ -29129,7 +29129,7 @@
     "datetime_iso": "2027-07-28T23:00:00Z",
     "timezone": "America/Toronto",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-toronto-1avzz_kgkswyehx",
@@ -29141,7 +29141,7 @@
     "datetime_iso": "2027-07-29T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-grand-rapids-vv17oz_kgkwlsfog",
@@ -29153,7 +29153,7 @@
     "datetime_iso": "2027-07-31T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2026-madrid-z698xz2qz1k__7ko4",
@@ -33569,7 +33569,7 @@
     "datetime_iso": "2027-06-05T15:30:00Z",
     "timezone": "Europe/Brussels",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-nickelback-2027-amsterdam-z698xzbpz1k-uqgjg",
@@ -33581,7 +33581,7 @@
     "datetime_iso": "2027-06-07T18:00:00Z",
     "timezone": "Europe/Amsterdam",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-nickelback-2027-hannover-z698xzc2z16v-v0tgv",
@@ -33593,7 +33593,7 @@
     "datetime_iso": "2027-06-11T16:30:00Z",
     "timezone": "Europe/Berlin",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-nickelback-2027-munich-z698xzc2z1k-kk3-_",
@@ -33605,7 +33605,7 @@
     "datetime_iso": "2027-06-19T16:30:00Z",
     "timezone": "Europe/Berlin",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-nickelback-2027-assago-zg9rmiynyza161",
@@ -33617,7 +33617,7 @@
     "datetime_iso": "2027-06-23T18:45:00Z",
     "timezone": "Europe/Rome",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-nickelback-2027-odz-z698xzqpz1kvw7fvb",
@@ -33629,7 +33629,7 @@
     "datetime_iso": "2027-07-01T15:30:00Z",
     "timezone": "Europe/Warsaw",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-jay-wheeler-2026-malaga-z698xz2qz1kf3jk0a",
@@ -34133,7 +34133,7 @@
     "datetime_iso": "2027-01-18T19:30:00Z",
     "timezone": "Europe/Madrid",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-mico-2027-amsterdam-z698xzbpz16vzefpea",
@@ -34145,7 +34145,7 @@
     "datetime_iso": "2027-01-29T18:00:00Z",
     "timezone": "Europe/Amsterdam",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-mico-2027-manchester-g5vhz_flmnkjc",
@@ -37721,7 +37721,7 @@
     "datetime_iso": "2027-06-20T16:30:00Z",
     "timezone": "Europe/Zurich",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-nickelback-2027-vienna-z698xz5rz16vz489ev",
@@ -37733,7 +37733,7 @@
     "datetime_iso": "2027-06-25T16:30:00Z",
     "timezone": "Europe/Vienna",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-nickelback-2027-praha-9-z698xzu0z1kqvft7s",
@@ -37745,7 +37745,7 @@
     "datetime_iso": "2027-06-26T16:30:00Z",
     "timezone": "Europe/Prague",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-nickelback-2027-helsinki-z698xz8kz16vqs7sfi",
@@ -37757,7 +37757,7 @@
     "datetime_iso": "2027-07-07T14:30:00Z",
     "timezone": "Europe/Helsinki",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-nickelback-2027-fornebu-z698xzb_z1an7vpy",
@@ -37769,7 +37769,7 @@
     "datetime_iso": "2027-07-09T17:00:00Z",
     "timezone": "Europe/Oslo",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-jay-wheeler-2027-estero-vvg1vz9zkibwmk",
@@ -37805,7 +37805,7 @@
     "datetime_iso": "2027-01-25T18:30:00Z",
     "timezone": "Europe/Prague",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-mico-2027-k-benhavn-v-z698xzc4z16vj9j7ev",
@@ -37817,7 +37817,7 @@
     "datetime_iso": "2027-01-27T19:00:00Z",
     "timezone": "Europe/Copenhagen",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-mico-2027-cleveland-rz7hnez1afut40",
@@ -40457,7 +40457,7 @@
     "datetime_iso": "2027-10-09T04:00:00Z",
     "timezone": "Australia/Melbourne",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-nickelback-2027-pokolbin-1akzk46gkdiziaq",
@@ -40469,7 +40469,7 @@
     "datetime_iso": "2027-10-16T03:30:00Z",
     "timezone": "Australia/Sydney",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-twenty-one-pilots-2026-columbus-vvg1fz_1uqt9_r",

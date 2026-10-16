@@ -536,7 +536,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-philadelphia-lincoln-financial-field-6-12-2027/production/7557292",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-philadelphia-pennsylvania-06-12-2027/event/02006528CD61C950",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -611,6 +611,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-06-12T14:00:00Z"
+      },
+      {
+        "name": "Travel VIP Packages Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-05-22T21:00:00Z"
       }
     ],
     "organizer_names": [

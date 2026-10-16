@@ -1441,7 +1441,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/mico-inbetween-tour-tickets/566939805?language=en-us",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1476,15 +1476,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k4J0yOA",
     "timezone": "Europe/Madrid",
-    "status": "announced",
-    "public_onsale_at": "2026-10-16T08:00:00Z",
-    "presales": [
-      {
-        "name": "MICO Fan Club Presale",
-        "start": "2026-10-13T08:00:00Z",
-        "end": "2026-10-15T20:00:00Z"
-      }
-    ],
+    "status": "on-sale",
     "organizer_names": [
       "Live Nation España S.A.U."
     ]
@@ -1505,7 +1497,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/mico-tickets/1002225085?language=en-us",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1540,8 +1532,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vZeFPeA",
     "timezone": "Europe/Amsterdam",
-    "status": "announced",
-    "public_onsale_at": "2026-10-16T08:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-mico-2027-manchester-g5vhz_flmnkjc",
@@ -1786,7 +1777,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-charlotte-the-underground-at-the-fillmore-charlotte-2-20-2027--concerts-rock/production/7679627",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-charlotte-north-carolina-02-20-2027/event/2D0065469A2791D3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1841,26 +1832,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315048/Mico-tickets-Sat-Feb-20-2027-The-Underground-Charlotte",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-10-13T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
-        "name": "Fanclub Presale",
-        "start": "2026-10-13T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-14T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-15T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-01-21T03:00:00Z"
@@ -1886,7 +1857,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-charleston-charleston-music-hall-2-21-2027/production/7679097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-charleston-south-carolina-02-21-2027/event/2D006548AF3C1E94",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1923,23 +1894,6 @@
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "presales": [
-      {
-        "name": "Fanclub Presale",
-        "start": "2026-10-13T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-14T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-15T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      }
-    ],
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
@@ -1961,7 +1915,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-ft-lauderdale-florida-02-25-2027/event/0D006546BED7B6DC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1998,23 +1952,6 @@
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "presales": [
-      {
-        "name": "Fanclub Presale",
-        "start": "2026-10-13T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-14T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-15T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -2035,7 +1972,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-st-petersburg-florida-02-26-2027/event/0D00654898D97CDA",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2088,28 +2025,6 @@
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315051",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315051/Mico-tickets-Fri-Feb-26-2027-Jannus-Live",
-    "presales": [
-      {
-        "name": "Fanclub Presale",
-        "start": "2026-10-13T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-14T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
-        "name": "Daddy Kool Records Presale",
-        "start": "2026-10-15T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-15T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC",
       "NO CLUBS"
@@ -2131,7 +2046,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-lake-buena-vista-house-of-blues-orlando-2-27-2027/production/7679204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-orlando-florida-02-27-2027/event/2200654600DD9A42",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2184,23 +2099,6 @@
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315052",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315052/Mico-tickets-Sat-Feb-27-2027-House-Of-Blues-Orlando",
-    "presales": [
-      {
-        "name": "Fanclub Presale",
-        "start": "2026-10-13T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-14T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-15T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      }
-    ],
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)",
       "LIVE NATION MUSIC"
@@ -2222,7 +2120,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-birmingham-iron-city-birmingham-3-1-2027/production/7679258",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-birmingham-alabama-03-01-2027/event/20006548F3C8876E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2274,24 +2172,7 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315053",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315053/Mico-tickets-Mon-Mar-1-2027-Iron-City-Birmingham",
-    "presales": [
-      {
-        "name": "Fan Club Presale",
-        "start": "2026-10-13T15:00:00Z",
-        "end": "2026-10-16T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-14T15:00:00Z",
-        "end": "2026-10-16T03:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-15T15:00:00Z",
-        "end": "2026-10-16T03:00:00Z"
-      }
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315053/Mico-tickets-Mon-Mar-1-2027-Iron-City-Birmingham"
   },
   {
     "id": "tm-mico-2027-new-orleans-g5viz_f97lnal",
@@ -2309,7 +2190,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-new-orleans-house-of-blues-new-orleans-3-2-2027/production/7679270",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-new-orleans-louisiana-03-02-2027/event/1B006545C4AE315F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2364,26 +2245,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315055/Mico-tickets-Tue-Mar-2-2027-House-Of-Blues-New-Orleans",
     "presales": [
       {
-        "name": "Fanclub Presale",
-        "start": "2026-10-13T15:00:00Z",
-        "end": "2026-10-16T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-14T15:00:00Z",
-        "end": "2026-10-16T03:00:00Z"
-      },
-      {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-10-15T15:00:00Z",
-        "end": "2026-10-16T03:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-15T15:00:00Z",
-        "end": "2026-10-16T03:00:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-02-23T09:00:00Z"
@@ -2409,7 +2270,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-indianapolis-deluxe-at-old-national-centre-3-9-2027--concerts-rock/production/7679637",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-indianapolis-indiana-03-09-2027/event/05006546A359609F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2464,26 +2325,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315056/Mico-tickets-Tue-Mar-9-2027-The-Deluxe-at-Old-National-Centre",
     "presales": [
       {
-        "name": "Fanclub Presale",
-        "start": "2026-10-13T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-14T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-15T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
-        "name": "Old National Bank Sponsor Presale",
-        "start": "2026-10-15T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
         "name": "T-Mobile® Concert Perks",
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-07T08:00:00Z"
@@ -2509,7 +2350,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-cincinnati-ohio-03-12-2027/event/16006544C2C1714C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2548,26 +2389,6 @@
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "presales": [
       {
-        "name": "Fanclub Presale",
-        "start": "2026-10-13T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
-        "name": "ARTIST PRESALE",
-        "start": "2026-10-14T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-10-15T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-15T14:00:00Z",
-        "end": "2026-10-16T02:00:00Z"
-      },
-      {
         "name": "T-Mobile® Concert Perks + Fast Lane",
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-10T00:00:00Z"
@@ -2598,7 +2419,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/mico-inbetween-tour-tickets/1886823228?language=en-us",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2633,25 +2454,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZu0Z16vxkONFI",
     "timezone": "Europe/Prague",
-    "status": "announced",
-    "public_onsale_at": "2026-10-16T08:00:00Z",
-    "presales": [
-      {
-        "name": "MICO Fan Club Presale",
-        "start": "2026-10-13T08:00:00Z",
-        "end": "2026-10-16T07:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-14T08:00:00Z",
-        "end": "2026-10-16T07:45:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-10-15T08:00:00Z",
-        "end": "2026-10-16T07:45:00Z"
-      }
-    ],
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CZECH REPUBLIC s.r.o."
     ]
@@ -2672,7 +2475,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.dk/event/mico-inbetween-tour-tickets/1717984081?language=en-us",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2707,8 +2510,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC4Z16vj9J7ev",
     "timezone": "Europe/Copenhagen",
-    "status": "announced",
-    "public_onsale_at": "2026-10-16T08:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Live Nation / Vega"
     ]

@@ -20,7 +20,7 @@
 //      was ahead when it was written and has passed since
 //      (scripts/lib/date-staleness.mjs). The past-event check runs per page in
 //      section 1; the rest are reported here.
-//   5. Other sensors: open findings from the lanes that close their own issue
+//   5. Commercial data findings gate; automation and maintenance sensors are listed, not gating
 //      when clean — outbound links and Ticketmaster drift (automation:daily-audit),
 //      failing or stale automation (automation:health), unvalidated PR heads
 //      (automation:prelaunch-validation) — plus open work-queue items. They are
@@ -61,10 +61,18 @@ const USER_AGENT = "TourTicketCompare-site-health (+https://tourticketcompare.co
 // never gating: it watches site-health.yml itself, so gating on it would latch
 // both red — a failed run opens automation:health, which fails the next clean
 // run, which keeps automation:health open.
+//
+// Site health answers one question: is the public site, and the commercial
+// data on it, correct right now? Only commercial-data sensors gate it. The
+// automation and maintenance sensors are listed beside it but report in their
+// own issues, because a red lane or an unvalidated PR changes nothing a
+// visitor sees (owner brief 2026-10-16: an unrelated maintenance finding must
+// not read as the site being down, and a green site must not read as healthy
+// automation).
 export const SENSOR_LABELS = Object.freeze([
   ["automation:daily-audit", "Outbound link liveness and Ticketmaster drift", true],
   ["automation:health", "Scheduled automation lanes failing or stalled", false],
-  ["automation:prelaunch-validation", "Pull requests without a passing validation run", true]
+  ["automation:prelaunch-validation", "Pull requests without a passing validation run", false]
 ]);
 
 // The same latch, one step removed: materialize-work-queue.mjs turns each
@@ -83,7 +91,9 @@ export function workQueueItemGates(issue) {
   try {
     const finding = JSON.parse(block[1]);
     if (finding?.source === "provider-url-coverage") return false;
-    return !(finding?.source === "automation-health" && Array.isArray(finding.identity) && finding.identity.includes("site-health.yml"));
+    // "Scheduled lane not completing" items mirror automation:health, which
+    // does not gate (see SENSOR_LABELS); the lane's own red run is the alarm.
+    return finding?.source !== "automation-health";
   } catch {
     return true;
   }
@@ -256,10 +266,16 @@ export function renderReport(report) {
       `${report.prices.counts.priced} of ${report.prices.upcoming} upcoming dates priced; ${coverageShareLabel(report.prices.coverage_share)} of mapped, on-sale dates; ${pct(report.prices.stale_share)} of displayed prices older than 12h. Detail: the \`automation:price-coverage\` issue.`
     );
   } else lines.push(`- Price payload unreadable: ${report.price_error}`);
-  lines.push("", "### 5. Other sensors with open findings", "");
+  lines.push("", "### 5. Commercial data findings", "");
+  const item = (i) => `- [#${i.number} ${i.title}](${i.url}) — ${i.meaning} (\`${i.label}\`, updated ${String(i.updated).slice(0, 10)})`;
   if (!report.sensors.available) lines.push(report.sensors.error ? `- 🔴 Could not read the sensor issues: ${report.sensors.error}` : "Not checked (no GitHub token in this run).");
-  else if (!report.sensors.items.length) lines.push("None open.");
-  else lines.push(...report.sensors.items.map((i) => `- [#${i.number} ${i.title}](${i.url}) — ${i.meaning} (\`${i.label}\`, updated ${String(i.updated).slice(0, 10)})${i.gating ? "" : " · linked for context, does not fail this check"}`));
+  else {
+    const gating = report.sensors.items.filter((i) => i.gating);
+    const linked = report.sensors.items.filter((i) => !i.gating);
+    lines.push(...(gating.length ? gating.map(item) : ["None open."]));
+    lines.push("", "### Automation and maintenance (tracked in their own issues; does not fail this check)", "");
+    lines.push(...(linked.length ? linked.map(item) : ["None open."]));
+  }
   lines.push("", "### 6. Old dates", "");
   const dates = report.dates || { api_past_shows: [], llms_txt: [], llms_error: "", copy: [] };
   const dateLines = [];
@@ -468,7 +484,9 @@ async function selfTest() {
   assert.deepEqual(SENSOR_LABELS.find(([label]) => label === "automation:health")[2], false, "automation:health never gates site-health (circular)");
   const workItem = (finding) => ({ body: `<details>\n\n\`\`\`json\n${JSON.stringify(finding, null, 2)}\n\`\`\`\n\n</details>` });
   assert.equal(workQueueItemGates(workItem({ source: "automation-health", identity: ["site-health.yml"] })), false, "the work item about site-health.yml itself never gates (circular)");
-  assert.equal(workQueueItemGates(workItem({ source: "automation-health", identity: ["vividseats-cta-sync.yml"] })), true, "another failing lane's work item still gates");
+  assert.equal(workQueueItemGates(workItem({ source: "automation-health", identity: ["vividseats-cta-sync.yml"] })), false, "a failing lane is automation health, not site health");
+  assert.equal(SENSOR_LABELS.find(([label]) => label === "automation:daily-audit")[2], true, "dead outbound links and Ticketmaster drift are commercial data: they gate");
+  assert.equal(SENSOR_LABELS.find(([label]) => label === "automation:prelaunch-validation")[2], false, "an unvalidated PR changes nothing live");
   assert.equal(workQueueItemGates(workItem({ source: "generated-freshness", identity: ["og-cards"] })), true, "a non-health work item still gates");
   assert.equal(workQueueItemGates({ body: "no machine-readable block" }), true, "an unparseable work item gates rather than hiding");
   assert.equal(workQueueItemGates(workItem({ source: "provider-url-coverage", identity: ["valley", "seatgeek"] })), false, "a provider URL coverage item is linked, not gating");

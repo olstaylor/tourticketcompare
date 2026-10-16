@@ -294,6 +294,39 @@ export async function recheckTransientFailures(items, results, check, { maxReche
   return { results: out, rechecked: selected.length, recovered, skipped: indexes.length - selected.length };
 }
 
+/**
+ * A whole storefront host answering every URL with the same server error says
+ * the host refused this checker, not that each page is gone. Since 2026-10-14
+ * every TicketWeb URL (34 of 34) answered 530 to the GitHub runner while
+ * Ticketmaster Discovery still listed every one of those events, which kept the
+ * daily-audit issue and Site health red with nothing wrong on the site. Such a
+ * host is reported as blocked (inconclusive): never stamped as verified, never
+ * counted as a dead link. A single 5xx URL, or a host where any URL passed or
+ * failed differently, is still a failure.
+ */
+export const HOST_WIDE_MIN_URLS = 3;
+
+export function markHostWideRefusals(items, results, { minUrls = HOST_WIDE_MIN_URLS } = {}) {
+  const byHost = new Map();
+  for (const [index, item] of items.entries()) {
+    let host;
+    try { host = new URL(item.url).hostname; } catch { continue; }
+    byHost.set(host, [...(byHost.get(host) || []), index]);
+  }
+  const out = results.slice();
+  const hosts = [];
+  for (const [host, indexes] of byHost) {
+    if (indexes.length < minUrls) continue;
+    const statuses = new Set(indexes.map((index) => results[index]?.status));
+    const [status] = statuses;
+    const refused = statuses.size === 1 && status >= 500 && indexes.every((index) => !results[index].ok && !results[index].blocked);
+    if (!refused) continue;
+    for (const index of indexes) out[index] = { ...results[index], blocked: true, hostWide: true };
+    hosts.push({ host, status, urls: indexes.length });
+  }
+  return { results: out, hosts };
+}
+
 async function checkUrl(url, timeoutMs, fetchImpl = fetch) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), timeoutMs);
@@ -395,6 +428,18 @@ if (args.has('--self-test')) {
   assert.equal(serverError.blocked, false, '530 is not assumed to be an anti-bot response');
   assert.equal(serverError.status, 530);
   assert.deepEqual(serverErrorCalls, ['HEAD', 'GET']);
+
+  // Host-wide refusal (2026-10-14..16: all 34 TicketWeb URLs answered 530).
+  const tw = (n) => ({ url: `https://www.ticketweb.com/event/x/${n}` });
+  const fail530 = { ok: false, blocked: false, status: 530 };
+  const hostRefusal = markHostWideRefusals([tw(1), tw(2), tw(3), { url: 'https://other.example/a' }], [fail530, fail530, fail530, fail530]);
+  assert.deepEqual(hostRefusal.results.slice(0, 3).map((r) => r.blocked && r.hostWide), [true, true, true], 'every URL on a refusing host is blocked');
+  assert.equal(hostRefusal.results[3].blocked, false, 'a lone 5xx on another host stays a failure');
+  assert.deepEqual(hostRefusal.hosts, [{ host: 'www.ticketweb.com', status: 530, urls: 3 }]);
+  assert.equal(markHostWideRefusals([tw(1), tw(2)], [fail530, fail530]).hosts.length, 0, 'two URLs are not a host-wide pattern');
+  assert.equal(markHostWideRefusals([tw(1), tw(2), tw(3)], [fail530, fail530, { ok: true, status: 200 }]).hosts.length, 0, 'one live URL means the host answers: the 530s stay failures');
+  assert.equal(markHostWideRefusals([tw(1), tw(2), tw(3)], [fail530, fail530, { ok: false, status: 404 }]).hosts.length, 0, 'a 404 among them is a real dead link, so nothing is reclassified');
+  assert.equal(markHostWideRefusals([tw(1), tw(2), tw(3)], [{ ok: false, status: 404 }, { ok: false, status: 404 }, { ok: false, status: 404 }]).hosts.length, 0, 'host-wide 404s stay dead links');
 
   const now = Date.parse('2026-07-30T12:00:00Z');
   const events = new Map([
@@ -675,11 +720,16 @@ const firstPass = await mapWithHostLimits(
   { perHost: PER_HOST_CONCURRENCY, global: GLOBAL_CONCURRENCY },
   (item) => checkUrl(item.url, timeoutMs)
 );
-const { results, rechecked, recovered, skipped: notRechecked } = await recheckTransientFailures(
+const { results: recheckedResults, rechecked, recovered, skipped: notRechecked } = await recheckTransientFailures(
   links,
   firstPass,
   (item) => checkUrl(item.url, timeoutMs)
 );
+const hostWide = markHostWideRefusals(links, recheckedResults);
+const results = hostWide.results;
+for (const { host, status, urls } of hostWide.hosts) {
+  console.log(`Host-wide refusal: every one of ${urls} URL(s) on ${host} answered ${status}; reported as blocked, not as dead links.`);
+}
 if (rechecked) {
   console.log(
     `Re-checked ${rechecked} transient failure(s) (network error, timeout or 502/503/504); ${recovered} recovered` +
@@ -708,10 +758,11 @@ for (const [index, item] of links.entries()) {
       provider: providerForUrl(item.url),
       status: result.status,
       blocked: true,
+      ...(result.hostWide ? { host_wide: true } : {}),
       refs: item.refs,
       ...eventMetadata
     });
-    console.log(`BLOCKED ${result.status} ${item.url} (${refs}) :: anti-bot/WAF, not confirmed dead`);
+    console.log(`BLOCKED ${result.status} ${item.url} (${refs}) :: ${result.hostWide ? 'whole host refused the checker' : 'anti-bot/WAF'}, not confirmed dead`);
     continue;
   }
 

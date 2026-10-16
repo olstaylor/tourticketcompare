@@ -2294,7 +2294,7 @@ assert(pricedArtistRoute.text.includes("data-price-alert-interest"), "the price 
 const pricedComparisonHub = await routeResponse("/compare-concert-ticket-prices", pricedRouteEnv);
 assert(pricedComparisonHub.text.includes('data-cta-location="comparison_hub"'), "the comparison hub should server-render tracked exact-event provider CTAs");
 assert(pricedComparisonHub.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}`), "the comparison hub should link the exact reviewed event through /api/out");
-assert(pricedComparisonHub.text.includes("$98.75"), "the comparison hub should retain the approved exact-event price snapshot");
+assert(/USD\s+98\.75/.test(pricedComparisonHub.text), "the comparison hub should retain the approved exact-event price snapshot");
 
 const staleVividSeatsResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),

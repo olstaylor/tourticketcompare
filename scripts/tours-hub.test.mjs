@@ -80,7 +80,7 @@ const body = renderToursHubBody({ path: TOURS_HUB_PATH, hub, breadcrumb: [{ name
 assert(body.includes('href="/artists/artist-a"') && body.includes('href="/artists/artist-b"'), "the page links each artist page");
 assert(!/ticketmaster\.com|\/events\/|\/api\/out/.test(body), "the page links no ticket site, event page or redirect");
 assert(body.includes("Feb–Aug") && body.includes("2 dates"), "each row says how many dates and which months");
-assert(!/\$\d|£\d|€\d/.test(body), "the page carries no price figures");
+assert(!/(?:[$£€]|\b(?:USD|CAD|AUD|GBP|EUR)\s+)\d/.test(body), "the page carries no price figures");
 
 const empty = renderToursHubBody({ path: TOURS_HUB_PATH, hub: deriveToursHub([], catalog, 2027, NOW_MS), breadcrumb: [] });
 assert(empty.includes("No tracked artist has upcoming dates in 2027 yet"), "an empty hub says so");

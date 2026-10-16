@@ -66,7 +66,7 @@ const expectedTitle = new Map([
   ["/terms", "Terms of Use | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total.";
-const APP_ASSET_VERSION = "20261015a";
+const APP_ASSET_VERSION = "20261016b";
 const TTC_HOME_ASSET_VERSION = "20261010a";
 const TTC_HOME_JS_ASSET_VERSION = "20261010a";
 const TTC_SHELL_ASSET_VERSION = "20261010a";
@@ -290,7 +290,7 @@ async function assertPublicCopySafe(files) {
       pattern: /\blive\s+prices\b/i,
       allowedContext: /\b(coming later|not yet|planned|not available|is not ready|being built|does not compare|do not compare)\b/i
     },
-    { label: "from-price claim", pattern: /\bfrom\s*[£$€]\s*\d/i },
+    { label: "from-price claim", pattern: /\bfrom\s*(?:[£$€]\s*|(?:USD|CAD|AUD|GBP|EUR)\s+)\d/i },
     {
       label: "live price comparison claim",
       pattern: /\blive\s+price\s+comparison\b/i,
@@ -397,7 +397,7 @@ async function assertNoStaticSeatGeekPriceClaims(files) {
 
 async function assertGuideCopyGuardrails(files) {
   const rules = [
-    { label: "currency price example", pattern: /[£$€]\s*\d/i },
+    { label: "currency price example", pattern: /(?:[£$€]\s*|\b(?:USD|CAD|AUD|GBP|EUR)\s+)\d/i },
     { label: "fixed percentage claim", pattern: /\b\d+(?:\.\d+)?\s*(?:%|percent)\b/i },
     { label: "fixed percentage range claim", pattern: /\b\d+(?:\.\d+)?\s*[-–]\s*\d+(?:\.\d+)?\s*%/i },
     { label: "rating threshold claim", pattern: /\b\d+(?:\.\d+)?\+?\s*stars?\b/i },
@@ -1417,7 +1417,7 @@ for (const [artistSlug, postSlugs] of postSlugsByArtist) {
       );
       panels += 1;
     }
-    assert(!/\$\d|£\d|€\d/.test(page.text.match(/<section class="nested-panel blog-ticket-routes"[\s\S]*?<\/section>/g)?.join("") || ""), `/blog/${post.slug} ticket routes carry no price figures`);
+    assert(!/(?:[£$€]|\b(?:USD|CAD|AUD|GBP|EUR)\s+)\d/.test(page.text.match(/<section class="nested-panel blog-ticket-routes"[\s\S]*?<\/section>/g)?.join("") || ""), `/blog/${post.slug} ticket routes carry no price figures`);
   }
   assert(panels >= 1, "at least one published blog post shows artist ticket routes");
 }
@@ -3828,7 +3828,7 @@ for (const [label, page] of [
     assert(!rule.test(body), `artist page (${label}) must not contain banned copy ${rule}`);
   }
   // A price may only ever appear beside a provider button, never in prose.
-  assert(!/\bfrom (only )?[£$€]\s?\d/i.test(body), `artist page (${label}) must not advertise a "from" price`);
+  assert(!/\bfrom (only )?(?:[£$€]\s?|(?:USD|CAD|AUD|GBP|EUR)\s+)\d/i.test(body), `artist page (${label}) must not advertise a "from" price`);
 }
 
 // (6) Canonical, robots, and structured data must all describe the same board.
@@ -4226,11 +4226,11 @@ assert(
 // metadata is also the CollectionPage JSON-LD description, so no live figure
 // may appear in either. The numeric answer is server-rendered in the body.
 assert(
-  !/[£$€]\s?\d/.test(artistCityTitle),
+  !/(?:[£$€]\s?|\b(?:USD|CAD|AUD|GBP|EUR)\s+)\d/.test(artistCityTitle),
   `artist-city title must carry no live price (was "${artistCityTitle}")`
 );
 assert(
-  !/[£$€]\s?\d/.test(extractDescription(artistCityPage.text)),
+  !/(?:[£$€]\s?|\b(?:USD|CAD|AUD|GBP|EUR)\s+)\d/.test(extractDescription(artistCityPage.text)),
   "artist-city meta description must carry no live price"
 );
 assert(artistCityPage.text.includes('"@type":"Place"'), "artist-city page should emit Place structured data");

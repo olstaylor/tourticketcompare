@@ -246,7 +246,7 @@ for (const pathname of [`/cities/${CITY_SLUG}`, `/venues/${VENUE_SLUG}`, `/artis
 
   const priced = card(html, PRICED.id);
   assert(/provider-cta-priced/.test(priced), `${pathname}: the priced date shows its snapshot on the button`);
-  assert(/\$182/.test(priced), `${pathname}: the Vivid Seats figure is the cached one`);
+  assert(/USD\s+182/.test(priced), `${pathname}: the Vivid Seats figure is the cached one`);
   assert(/<time datetime="[^"]+"[^>]*>[^<]+<\/time> \(Vivid Seats\)/.test(priced), `${pathname}: each priced lane keeps its own capture time and provider name`);
 
   const checked = text(card(html, CHECKED.id));
@@ -271,7 +271,7 @@ for (const pathname of [`/cities/${CITY_SLUG}`, `/venues/${VENUE_SLUG}`, `/artis
   const pending = card(html, PENDING_RESALE.id);
   assert(/provider=vivid-seats/.test(pending), `${pathname}: a verified resale lane renders before the public on-sale`);
   assert(!/provider=ticketmaster/.test(pending), `${pathname}: Ticketmaster stays hidden until the public on-sale`);
-  assert(/\$240/.test(pending), `${pathname}: a pre-on-sale resale lane carries its gated snapshot`);
+  assert(/USD\s+240/.test(pending), `${pathname}: a pre-on-sale resale lane carries its gated snapshot`);
   assert(text(pending).includes("Public on-sale Aug 20, 2026") && text(pending).includes("resale listings"), `${pathname}: the pre-on-sale card states the on-sale time and that these are resale listings`);
   assert(!html.includes(`showId=${PENDING_BARE.id}`), `${pathname}: a pre-on-sale date with no verified resale lane renders no button`);
   assert(text(html).includes("Public on-sale Aug 20, 2026"), `${pathname}: it still states the on-sale time`);

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-15",
+  "updated_at": "2026-10-16",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -1525,6 +1525,72 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-10-15 (sanctioned path D): SeatGeek performer 6040 and Ticketmaster attraction K8vZ9171zxV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "weezer",
+      "ticketmaster_attraction_id": "K8vZ91713gf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/weezer-tickets/artist/766591",
+      "seatgeek_performer_id": 89,
+      "seatgeek_artist_url": "https://seatgeek.com/weezer-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-16 (sanctioned path D): SeatGeek performer 89 and Ticketmaster attraction K8vZ91713gf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "ella-langley",
+      "ticketmaster_attraction_id": "K8vZ917_mB0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/ella-langley-tickets/artist/2514177",
+      "seatgeek_performer_id": 795429,
+      "seatgeek_artist_url": "https://seatgeek.com/ella-langley-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-16 (sanctioned path D): SeatGeek performer 795429 and Ticketmaster attraction K8vZ917_mB0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "aerosmith",
+      "ticketmaster_attraction_id": "K8vZ9171GBV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/aerosmith-tickets/artist/734396",
+      "seatgeek_performer_id": 144,
+      "seatgeek_artist_url": "https://seatgeek.com/aerosmith-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-16 (sanctioned path D): SeatGeek performer 144 and Ticketmaster attraction K8vZ9171GBV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "mana",
+      "ticketmaster_attraction_id": "K8vZ9171Kyf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/mana-tickets/artist/759223",
+      "seatgeek_performer_id": 10004,
+      "seatgeek_artist_url": "https://seatgeek.com/mana-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-16 (sanctioned path D): SeatGeek performer 10004 and Ticketmaster attraction K8vZ9171Kyf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "jonas-brothers",
+      "ticketmaster_attraction_id": "K8vZ9175T17",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/jonas-brothers-tickets/artist/1052712",
+      "seatgeek_performer_id": 82,
+      "seatgeek_artist_url": "https://seatgeek.com/jonas-brothers-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-16 (sanctioned path D): SeatGeek performer 82 and Ticketmaster attraction K8vZ9175T17 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "brent-faiyaz",
+      "ticketmaster_attraction_id": "K8vZ917phFf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/brent-faiyaz-tickets/artist/2429666",
+      "seatgeek_performer_id": 646887,
+      "seatgeek_artist_url": "https://seatgeek.com/brent-faiyaz-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-16 (sanctioned path D): SeatGeek performer 646887 and Ticketmaster attraction K8vZ917phFf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

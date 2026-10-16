@@ -265,6 +265,37 @@ const text = (html) =>
     .replace(/\s+/g, " ")
     .trim();
 
+// Currency codes must remain unambiguous even when a local dollar symbol
+// would otherwise mean different currencies to US and Canadian readers.
+{
+  const { runInNewContext } = await import("node:vm");
+  const server = await read("functions/[[path]].js");
+  const client = await read("public/app.js");
+  const definition = (source, name) => {
+    const start = source.indexOf(`function ${name}(`);
+    return source.slice(start, source.indexOf("\n}", start) + 2);
+  };
+  for (const locale of ["en-US", "en-CA", "en-GB"]) {
+    const context = { Intl: { NumberFormat: function (requested, options) {
+      return new Intl.NumberFormat(requested || locale, options);
+    } } };
+    runInNewContext(definition(server, "formatServerPrice") + "\n" +
+      definition(client, "isValidCurrencyCode") + "\n" +
+      definition(client, "formatProviderPrice"), context);
+    for (const code of ["USD", "CAD", "GBP", "AUD", "EUR"]) {
+      for (const amount of [96, 96.25, 0]) {
+        const expected = code + String(amount);
+        for (const formatter of [context.formatServerPrice, context.formatProviderPrice]) {
+          assert(formatter(amount, code).replace(/\s/g, "") === expected,
+            `${locale}: ${code} ${amount} retains its explicit currency and amount`);
+        }
+      }
+    }
+    assert(context.formatProviderPrice("not a price", "USD") === "", "invalid prices remain hidden");
+    assert(context.formatProviderPrice(96, "INVALID") === "", "invalid currencies remain hidden");
+  }
+}
+
 const GUIDE_PATH = "/artists/oasis/ticket-prices";
 
 {
@@ -272,11 +303,11 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert(page.status === 200, "an approved guide renders");
   assert(page.robots.startsWith("index,follow"), "a guide passing its gate is indexable");
   assert(page.title.startsWith("Oasis Ticket Prices 2026"), "the title carries the year read off the upcoming dates");
-  assert(!/[£$€]\s?\d/.test(page.title + page.description), "no figure in the title or description");
+  assert(!/(?:[£$€]\s?|\b(?:USD|CAD|AUD|GBP|EUR)\s+)\d/.test(page.title + page.description), "no figure in the title or description");
   assert(text(page.title).includes("How Much Are Tickets?"), "the title answers the price question rather than describing a generic tour board");
   assert(/date and (provider|ticket site)/.test(page.description) && page.description.startsWith("How much are Oasis tickets?") && !page.description.includes("face value"), "metadata describes the sourced listed prices");
   const lead = text(page.main.match(/<p class="lead">([\s\S]*?)<\/p>/)?.[1]);
-  assert(lead.includes("Fri, Sep 11, 2026 in Manchester (Heaton Park)") && lead.includes("£182 on Vivid Seats") && lead.includes("Aug 9, 2026"), "the first answer ties one chronological example to its venue, date, provider and check time");
+  assert(lead.includes("Fri, Sep 11, 2026 in Manchester (Heaton Park)") && lead.includes("GBP 182 on Vivid Seats") && lead.includes("Aug 9, 2026"), "the first answer ties one chronological example to its venue, date, provider and check time");
   assert(lead.startsWith("2 of 6 dates show a listed resale price right now."), "the lead opens with the answer: how many dates have a price");
   assert(/<div class="action-row"><a[^>]+href="\/artists\/oasis"[^>]*class="button button-primary"|<div class="action-row"><a[^>]+class="button button-primary"[^>]*href="\/artists\/oasis"/.test(page.main), "the lead's one primary action is comparing tickets on the artist page");
   // Owner review 2026-10-06: the summary comes straight after the lead, then
@@ -291,17 +322,17 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert(body.includes("This page doesn't show face value."), "and says plainly that it prints no face value");
   assert(body.includes("a date with no price can still have tickets"), "missing Ticketmaster pricing is distinguished from ticket availability");
   assert(body.includes("a price too old to trust is hidden"), "missing prices explain freshness without claiming inventory");
-  assert(body.includes("£182") && body.includes("£395"), "each date keeps its own lowest listed price");
-  assert(!body.includes("£210") && !body.includes("£420"), "only the same-event lowest lane is printed as the answer");
-  assert(!/\bfrom £\d/i.test(body) && !/cheapest date/i.test(body) && !/price range/i.test(body), "no cross-date minimum, range or cheapest date");
+  assert(body.includes("GBP 182") && body.includes("GBP 395"), "each date keeps its own lowest listed price");
+  assert(!body.includes("GBP 210") && !body.includes("GBP 420"), "only the same-event lowest lane is printed as the answer");
+  assert(!/\bfrom (?:£|(?:USD|CAD|AUD|GBP|EUR)\s+)\d/i.test(body) && !/cheapest date/i.test(body) && !/price range/i.test(body), "no cross-date minimum, range or cheapest date");
   assert(!body.includes("Dublin"), "past dates never appear");
   assert(body.includes("Public on-sale"), "a date before its public on-sale says so");
   assert(body.includes("2 of 6 dates show a listed resale price right now"), "the at-a-glance count covers the checked dates");
 
   // Moves: one per priced date, attributed, newest change first.
-  assert(body.includes("Vivid Seats down £58: was £240 on Aug 1, 2026, now £182 since Aug 5, 2026"), "a fall is stated with its provider, size, previous figure and dates");
-  assert(body.includes("TicketNetwork up £45: was £350 on Jul 30, 2026, now £395"), "a rise is stated the same way");
-  assert(body.indexOf("TicketNetwork up £45") < body.indexOf("Vivid Seats down £58"), "moves are ordered by when the price changed");
+  assert(body.includes("Vivid Seats down GBP 58: was GBP 240 on Aug 1, 2026, now GBP 182 since Aug 5, 2026"), "a fall is stated with its provider, size, previous figure and dates");
+  assert(body.includes("TicketNetwork up GBP 45: was GBP 350 on Jul 30, 2026, now GBP 395"), "a rise is stated the same way");
+  assert(body.indexOf("TicketNetwork up GBP 45") < body.indexOf("Vivid Seats down GBP 58"), "moves are ordered by when the price changed");
   assert(body.includes("1 lower and 1 higher"), "the summary counts per-date moves");
 
   // Every priced button is the tracked /api/out link with its own location.
@@ -343,13 +374,13 @@ for (const dbOptions of [{ historyRows: [] }, { historyFails: true }]) {
   const page = await render(GUIDE_PATH, { withDb: true, dbOptions });
   const body = text(page.main);
   assert(body.includes("No recent price move can be shown") && !body.includes("No recorded change in the last"), "absent or failed history never asserts unchanged prices");
-  assert(body.includes("£182 on Vivid Seats"), "a history failure does not hide an eligible current price");
+  assert(body.includes("GBP 182 on Vivid Seats"), "a history failure does not hide an eligible current price");
 }
 
 for (const priceRows of [[], PRICE_ROWS.map((row) => ({ ...row, expires_at: "2026-08-08T09:00:00Z" }))]) {
   const page = await render(GUIDE_PATH, { withDb: true, dbOptions: { priceRows } });
   const body = text(page.main);
-  assert(body.includes("No listed resale price is showing for these dates right now") && !body.includes("£182"), "empty and expired cache rows give an honest price-free answer");
+  assert(body.includes("No listed resale price is showing for these dates right now") && !body.includes("GBP 182"), "empty and expired cache rows give an honest price-free answer");
   assert(!body.includes("How Oasis resale prices have moved"), "withheld current prices cannot publish historical moves");
 }
 
@@ -463,7 +494,7 @@ for (const priceRows of [[], PRICE_ROWS.map((row) => ({ ...row, expires_at: "202
     assert(storedFor(GUIDE_PATH), "the render is stored under the path and config version, without the visitor's query string");
     assert(miss.response.headers.get("cache-control") === "no-cache, max-age=0, must-revalidate", "the browser header is unchanged");
     assert(!miss.response.headers.has("x-ttc-edge-valid-until"), "the render's validity bound never reaches the visitor");
-    assert(miss.html.includes("£182"), "the cached render carries live prices");
+    assert(text(miss.html).includes("GBP 182"), "the cached render carries live prices");
 
     now += 60_000;
     const hit = await serve(GUIDE_PATH);
@@ -501,7 +532,7 @@ for (const priceRows of [[], PRICE_ROWS.map((row) => ({ ...row, expires_at: "202
     assert((await serve(GUIDE_PATH)).response.headers.get("x-ttc-edge-cache") === "HIT", "before the snapshot expires the copy is served");
     now = Date.parse("2026-08-10T09:00:30Z");
     const afterExpiry = await serve(GUIDE_PATH);
-    assert(afterExpiry.response.headers.get("x-ttc-edge-cache") === "MISS" && !afterExpiry.html.includes("£182"), "after it expires the visitor gets a fresh render without the withdrawn price");
+    assert(afterExpiry.response.headers.get("x-ttc-edge-cache") === "MISS" && !text(afterExpiry.html).includes("GBP 182"), "after it expires the visitor gets a fresh render without the withdrawn price");
 
     // A kill switch or deploy changes the key, so old HTML is never served.
     store.clear();

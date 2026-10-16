@@ -79,7 +79,16 @@ export const WAITING_LANES = [
 // providers reserve cumulative queue time plus their own work/validation.
 export const DEFAULT_MAX_WAIT_MINUTES = 14;
 export const POLL_MS = 30_000;
-const ACTIVE_STATUSES = ["in_progress", "queued", "pending"];
+// Every non-completed status GitHub documents for a run. On 2026-10-16 an
+// Impact provider run and the Vivid Seats run released by SeatGeek both read
+// a clear queue at 10:47Z and ran side by side; Vivid's PR #1607 then
+// conflicted with Impact's #1606. A run leaving `pending` for its concurrency
+// group can sit briefly in a status this list used to omit.
+const ACTIVE_STATUSES = ["in_progress", "queued", "pending", "requested", "waiting"];
+// After waiting on an older run, a clear queue is confirmed by one more read
+// this long later, so a peer released by the same completion is listed
+// before we proceed. Not charged to the wait budget.
+export const CONFIRM_MS = 20_000;
 
 // These lanes share a static GitHub concurrency group. A queued peer cannot
 // start while our run holds that group, even if it was created before us:
@@ -112,7 +121,7 @@ export function findBlockers({ runs, self, lanes = WRITER_LANES }) {
     if (!lanes.includes(workflowFile(run))) return false;
     const group = SHARED_WRITER_GROUPS[workflowFile(self)];
     if (group && group === SHARED_WRITER_GROUPS[workflowFile(run)]
-      && ["queued", "pending"].includes(run.status)) return false;
+      && ["queued", "pending", "requested", "waiting"].includes(run.status)) return false;
     const at = Date.parse(run.created_at);
     if (!Number.isFinite(at)) throw new Error("Invalid competing writer timestamp");
     // Ties go to the lower id, so two runs created in the same second still
@@ -134,6 +143,7 @@ export async function waitForWriterLanes({
   warn = console.warn,
 }) {
   const start = now();
+  let confirming = false;
   for (;;) {
     let blockers;
     try {
@@ -142,6 +152,12 @@ export async function waitForWriterLanes({
       warn(`::error::Could not list workflow runs (${err.message}); withholding this writer.`);
       return { outcome: "api-error", waitedMs: now() - start };
     }
+    if (blockers.length === 0 && now() > start && !confirming) {
+      confirming = true;
+      await sleep(CONFIRM_MS);
+      continue;
+    }
+    confirming = false;
     if (blockers.length === 0) {
       log(now() > start ? `No older writer run is in flight after ${Math.round((now() - start) / 1000)}s.` : "No older writer run is in flight.");
       return { outcome: "clear", waitedMs: now() - start };
@@ -287,10 +303,23 @@ async function selfTest() {
   assert.equal(verdict.waitedMs, 0, "nothing in flight means no wait at all");
 
   c = clock();
-  const answers = [[older], [older], [{ ...older, status: "completed" }]];
+  const answers = [[older], [older], [{ ...older, status: "completed" }], []];
   verdict = await waitForWriterLanes({ self, listActiveRuns: async () => answers.shift(), ...c, log: quiet, warn: quiet });
   assert.equal(verdict.outcome, "clear", "waits until the older run completes");
-  assert.equal(verdict.waitedMs, 2 * POLL_MS);
+  assert.equal(verdict.waitedMs, 2 * POLL_MS + CONFIRM_MS, "a clear queue after waiting is read twice");
+
+  // 2026-10-16 replay: the older peer completes, and the run its group
+  // releases is only listed on the next read. The confirm read must catch it.
+  c = clock();
+  const released = run(45, "seatgeek-cta-sync.yml", "2026-09-27T10:30:00Z");
+  const reads = [[older], [], [released], [{ ...released, status: "completed" }]];
+  let lastRead = [];
+  verdict = await waitForWriterLanes({ self, listActiveRuns: async () => (lastRead = reads.length ? reads.shift() : lastRead), ...c, log: quiet, warn: quiet });
+  assert.equal(verdict.outcome, "clear");
+  assert.equal(reads.length, 0, "the released peer was seen and waited for, not raced");
+  for (const status of ["requested", "waiting"]) {
+    assert.equal(findBlockers({ runs: [run(39, "nightly-data-sync.yml", older.created_at, status)], self }).length, 1, `a ${status} older writer blocks`);
+  }
 
   c = clock();
   verdict = await waitForWriterLanes({ self, listActiveRuns: async () => [older], maxWaitMs: 5 * 60_000, ...c, log: quiet, warn: quiet });
@@ -370,7 +399,7 @@ async function selfTest() {
       listActiveRuns: async () => predecessors.filter((_, i) => c.now() < deadlines[i] * 60_000),
       maxWaitMs: wait * 60_000, ...c, log: quiet, warn: quiet });
     assert.equal(verdict.outcome, "clear", `${schedules[index]} survives all older providers' full caps`);
-    assert.equal(verdict.waitedMs, deadlines.at(-1) * 60_000);
+    assert.equal(verdict.waitedMs, deadlines.at(-1) * 60_000 + CONFIRM_MS);
   }
   for (const file of WAITING_LANES) {
     assert(WRITER_LANES.includes(file), `${file}: a waiting lane must also be a writer`);

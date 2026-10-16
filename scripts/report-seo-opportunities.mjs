@@ -41,6 +41,10 @@ export const HOLDS = Object.freeze([
   { pageType: "event", until: "2026-10-26", reason: "Event pages: batch 2 waits for the 25 Oct read (0 clicks so far)" }
 ]);
 
+// Owner rule (strategic review 16 Oct 2026): no title or CTR rewrites before
+// the 25 Oct Search Console read, so the read measures one change at a time.
+export const TITLE_FREEZE = Object.freeze({ until: "2026-10-26", reason: "no title changes before the 25 Oct Search Console read" });
+
 const readJson = (file) => JSON.parse(readFileSync(path.resolve(ROOT, file), "utf8"));
 
 export function readSearchConsoleDir(dir) {
@@ -154,6 +158,7 @@ async function main(argv) {
     priority,
     conversion: conversionByPageType(conversionRows),
     holds: HOLDS,
+    titleFreeze: TITLE_FREEZE,
     linkedPaths: readLinkedPaths()
   });
   const markdown = renderMarkdown(result, { top: options.top, generatedAt: new Date(now).toISOString(), sources });
@@ -234,7 +239,9 @@ function selfTest() {
   const find = (action, url) => rows.find((row) => row.action === action && row.url === url);
   check(find("HOLD", "/events/x-2026-10-20-abc"), "event pages are held during the cohort read");
   check(find("LINK", "/guides/is-seatgeek-legit"), "an informational page with zero measured clicks gets LINK, not IMPROVE");
-  check(find("LINK", "/artists/lizzy-mcalpine/ticket-prices")?.evidence.queryImpressions === 1359, "price searches landing elsewhere send LINK to the guide");
+  check(find("IMPROVE", "/artists/lizzy-mcalpine/ticket-prices")?.evidence.queryImpressions === 1359, "price searches landing on the artist page are a targeting fix (IMPROVE), not a link: the link already exists");
+  const frozen = scoreOpportunities({ pages, queries, artists, events, now, conversion, priceGuides: ["lizzy-mcalpine"], titleFreeze: TITLE_FREEZE });
+  check(!frozen.rows.some((row) => row.action === "IMPROVE") && frozen.rows.some((row) => row.action === "HOLD" && row.url === "/artists/lizzy-mcalpine"), "the title freeze turns IMPROVE into HOLD");
   check(find("IMPROVE", "/artists/lizzy-mcalpine"), "a striking-distance page with low CTR gets IMPROVE");
   check(!rows.some((row) => row.url === "/artists/beyonce"), "a page beating its band CTR gets nothing");
   check(find("REFRESH", "/artists/no-dates"), "a ranking artist page without upcoming dates gets REFRESH");

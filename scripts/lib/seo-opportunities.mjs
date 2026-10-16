@@ -194,12 +194,14 @@ function artistOfPath(path) {
  * @param {Array} input.priority   show-priority rows [{ artist_slug, expected_gbp, rank }]
  * @param {object} input.conversion conversionByPageType output ({} when unknown)
  * @param {Array} input.holds      [{ pageType, until: "YYYY-MM-DD", reason }]
+ * @param {object|null} input.titleFreeze { until: "YYYY-MM-DD", reason }: while
+ *                  active, title and description rewrites (IMPROVE) are HOLD
  * @param {string[]} input.linkedPaths pages that already carry the near-show links
  *                  (SELLING_SOON_PATHS in public/shell.js): their LINK is in place
  *                  and being measured, so it is HOLD, not repeated
  * @param {number} input.now
  */
-export function scoreOpportunities({ pages = [], queries = [], artists = [], events = [], priceGuides = [], blogPosts = [], priority = [], conversion = {}, holds = [], linkedPaths = [], now = Date.now() }) {
+export function scoreOpportunities({ pages = [], queries = [], artists = [], events = [], priceGuides = [], blogPosts = [], priority = [], conversion = {}, holds = [], linkedPaths = [], titleFreeze = null, now = Date.now() }) {
   const rows = [];
   const benchmarks = ctrBenchmarks(pages);
   const artistBySlug = new Map(artists.map((artist) => [artist.slug, artist]));
@@ -224,7 +226,11 @@ export function scoreOpportunities({ pages = [], queries = [], artists = [], eve
     priorityByArtist.set(slug, current);
   }
 
-  const push = (row) => {
+  const frozen = titleFreeze && Date.parse(`${titleFreeze.until}T00:00:00Z`) > now;
+  const push = (input) => {
+    const row = frozen && input.action === "IMPROVE"
+      ? { ...input, action: "HOLD", reason: `${input.reason} Held: ${titleFreeze.reason} (until ${titleFreeze.until}).` }
+      : input;
     const value = Number.isFinite(row.value) ? row.value : 0;
     rows.push({ ...row, value: round(value), score: round(row.action === "HOLD" ? 0 : value / EFFORT[row.action], 3) });
   };
@@ -255,7 +261,7 @@ export function scoreOpportunities({ pages = [], queries = [], artists = [], eve
         ...base, action: "LINK",
         value: page.clicks * MODEL.linkFollowRate * buyingRate * MODEL.gbpPerClicker,
         evidence: { ...base.evidence, landings: conv.landings, clickers: conv.clickers },
-        reason: `Ranks (${page.impressions} impressions) but its visitors don't click tickets (${conv.clickers} of ${conv.landings} ${pageType} landings). Link it to the buying page for the shows its searches mention. Value assumes 1 in 10 visitors follows the link.`
+        reason: `Ranks (${page.impressions} impressions) but its visitors don't click tickets (${conv.clickers} of ${conv.landings} ${pageType} landings). Send its visitors to near-show buying pages, e.g. add it to SELLING_SOON_PATHS once #1621 shows the block works. Value assumes 1 in 10 visitors follows the link.`
       });
       continue;
     }
@@ -324,12 +330,15 @@ export function scoreOpportunities({ pages = [], queries = [], artists = [], eve
             : "Price searches exist, but the artist is not indexable with verified upcoming dates yet. Needs facts first."
         });
       } else if ((guideImpressions.get(guideUrl) || 0) < demand.impressions * MODEL.guideShare) {
+        // Every artist page with a live guide already links it in its lead
+        // block (functions/[[path]].js, priceGuideLinkHtml), so the gap is
+        // which page Google ranks for price searches: a targeting fix, not a link.
         push({
           url: guideUrl, pageType: "artist_price_guide", artist: demand.slug,
           evidence: { ...evidence, guideImpressions: guideImpressions.get(guideUrl) || 0 },
-          action: "LINK",
+          action: "IMPROVE", titleChange: true,
           value: demand.impressions * bestBandCtr * measuredRate("artist_price_guide") * MODEL.gbpPerClicker * timing(demand.slug) * MODEL.recoverableShare,
-          reason: `Price searches (${demand.impressions} impressions) land on other pages, not the guide (${guideImpressions.get(guideUrl) || 0}). Link the ranking artist page to the guide prominently and check the guide's title matches the searches. Value assumes half the missed clicks are recoverable.`
+          reason: `Price searches (${demand.impressions} impressions) land on other pages, not the guide (${guideImpressions.get(guideUrl) || 0}), although the artist page already links it near the top. Make the guide the clearer match for those searches (title, H1, anchor wording) and the artist page less so. Value assumes half the missed clicks are recoverable.`
         });
       }
     } else if (demand.intent === "decision") {

@@ -101,7 +101,11 @@ function renderLinks(links) {
     out += `\nℹ️ ${historicalFailures.length} failure(s) relate exclusively to past events. They are omitted from this action list; the complete evidence remains in the \`links.json\` workflow artefact.\n`;
   }
   if (blocked.length > 0) {
-    out += `\n🔒 ${blocked.length} URL(s) returned 401/403/429 (anti-bot/WAF block, **not** confirmed dead — not counted as failures).\n`;
+    const hostWide = blocked.filter((b) => b.host_wide);
+    out += `\n🔒 ${blocked.length} URL(s) were blocked (401/403/429 anti-bot/WAF, or a whole host refusing the checker), **not** confirmed dead — not counted as failures and not stamped verified.\n`;
+    for (const [host, n] of Object.entries(hostWide.reduce((acc, b) => { const h = new URL(b.url).hostname; acc[h] = (acc[h] || 0) + 1; return acc; }, {}))) {
+      out += `- \`${host}\`: all ${n} URL(s) answered ${hostWide.find((b) => new URL(b.url).hostname === host).status}; recheck in a browser if this persists.\n`;
+    }
   }
   if (redirects.length > 0) {
     out += `\nℹ️ ${redirects.length} URL(s) followed a redirect (not a failure):\n`;

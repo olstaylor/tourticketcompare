@@ -2821,5 +2821,164 @@
     "organizer_names": [
       "OCESA"
     ]
+  },
+  {
+    "id": "tm-fontaines-d-c-2026-manchester-g5vhz_okyh0m1",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines D.C.",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "AO Arena",
+    "datetime_iso": "2026-11-21T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006511B96E4B8A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/fontaines-dc-manchester-21-11-2026/event/1F006511B96E4B8A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-manchester-21-11-2026/event/1F006511B96E4B8A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006511B96E4B8A",
+        "discovery_event_id": "G5vHZ_okyh0m1",
+        "url": "https://www.ticketmaster.co.uk/fontaines-dc-manchester-21-11-2026/event/1F006511B96E4B8A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_okyh0m1",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fontaines-d-c-2026-glasgow-1adbz_8gkucuwyw",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines D.C.",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2026-11-22T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600650DADDB2C32",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/fontaines-dc-glasgow-22-11-2026/event/3600650DADDB2C32",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-glasgow-22-11-2026/event/3600650DADDB2C32",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600650DADDB2C32",
+        "discovery_event_id": "1AdbZ_8GkUcUwYw",
+        "url": "https://www.ticketmaster.co.uk/fontaines-dc-glasgow-22-11-2026/event/3600650DADDB2C32",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_8GkUcUwYw",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fontaines-d-c-2027-nashville-z7r9jz1aa7vxe",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines DC",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Pinnacle - TN",
+    "datetime_iso": "2027-10-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7vxe",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7vxe",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7vxe",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7vxe",
+        "discovery_event_id": "Z7r9jZ1AA7vxe",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7vxe",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7vxe",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

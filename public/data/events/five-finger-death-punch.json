@@ -2266,5 +2266,58 @@
     "organizer_names": [
       "Live Nation Norway AS"
     ]
+  },
+  {
+    "id": "tm-five-finger-death-punch-2027-helsinki-z698xz8kz16evk7gay",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch | Legazy Seat -lippu",
+    "city": "Helsinki",
+    "country": "Finland",
+    "venue": "Veikkaus Arena",
+    "datetime_iso": "2027-02-22T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2053135179",
+    "ticketmaster_url": "https://www.ticketmaster.fi/event/five-finger-death-punch-%7C-legazy-seat-lippu-tickets/2053135179?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.fi/event/five-finger-death-punch-%7C-legazy-seat-lippu-tickets/2053135179?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2053135179",
+        "discovery_event_id": "Z698xZ8KZ16evK7gAy",
+        "url": "https://www.ticketmaster.fi/event/five-finger-death-punch-%7C-legazy-seat-lippu-tickets/2053135179?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ8KZ16evK7gAy",
+    "timezone": "Europe/Helsinki",
+    "status": "on-sale"
   }
 ]

@@ -2206,5 +2206,164 @@
     "ticketmaster_discovery_event_id": "rZ7HnEZ1AfqK8N",
     "timezone": "America/Chicago",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2027-dublin-1avoz_fgkugispy",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "National Stadium",
+    "datetime_iso": "2027-01-26T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800654D8CA335B9",
+    "ticketmaster_url": "https://www.ticketmaster.ie/sylvan-esso-dublin-26-01-2027/event/1800654D8CA335B9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/sylvan-esso-dublin-26-01-2027/event/1800654D8CA335B9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800654D8CA335B9",
+        "discovery_event_id": "1AvOZ_fGkUGISpy",
+        "url": "https://www.ticketmaster.ie/sylvan-esso-dublin-26-01-2027/event/1800654D8CA335B9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_fGkUGISpy",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2027-manchester-g5vhz_fudi7pq",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Albert Hall",
+    "datetime_iso": "2027-01-28T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00654DBBB0495D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sylvan-esso-manchester-28-01-2027/event/1F00654DBBB0495D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sylvan-esso-manchester-28-01-2027/event/1F00654DBBB0495D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00654DBBB0495D",
+        "discovery_event_id": "G5vHZ_fUDi7Pq",
+        "url": "https://www.ticketmaster.co.uk/sylvan-esso-manchester-28-01-2027/event/1F00654DBBB0495D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_fUDi7Pq",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2027-london-g5dzz_fua9vy_",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Troxy",
+    "datetime_iso": "2027-01-29T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00654D895C1C19",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sylvan-esso-london-29-01-2027/event/3E00654D895C1C19",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sylvan-esso-london-29-01-2027/event/3E00654D895C1C19",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00654D895C1C19",
+        "discovery_event_id": "G5dzZ_fUa9vY_",
+        "url": "https://www.ticketmaster.co.uk/sylvan-esso-london-29-01-2027/event/3E00654D895C1C19",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_fUa9vY_",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

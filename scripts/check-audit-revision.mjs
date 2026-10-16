@@ -6,6 +6,7 @@ import { readFileSync, mkdtempSync, writeFileSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
+import { withholdRun } from "./lib/withhold-run.mjs";
 
 export function assertAuditRevision({ audited, checkout, main }) {
   if (![audited, checkout, main].every((sha) => /^[0-9a-f]{40}$/.test(sha || ""))) {
@@ -200,12 +201,14 @@ async function selfTest() {
   const check = steps.findIndex((s) => s.name === "Check audit evidence revision");
   const bump = steps.findIndex((s) => /bump-verified-dates/.test(s.run || ""));
   assert(check >= 0 && check < bump);
-  assert.match(steps[check].run, /check-audit-revision\.mjs --check-main/);
+  assert.match(steps[check].run, /check-audit-revision\.mjs --check-main --withhold-when-stale/);
+  assert.equal(steps[check].env?.GITHUB_TOKEN, "${{ github.token }}", "a neutral withhold needs the token to cancel this run");
   const finalCheck = steps.findIndex((s) => s.name === "Check audited revision before publishing");
   const validation = steps.findIndex((s) => s.name === "Validate before commit");
   const publish = steps.findIndex((s) => s.name === "Publish through a validated, auto-merged PR");
   assert(validation < finalCheck && finalCheck < publish);
-  assert.match(steps[finalCheck].run, /check-audit-revision\.mjs --check-main/);
+  assert.match(steps[finalCheck].run, /check-audit-revision\.mjs --check-main --withhold-when-stale/);
+  assert.equal(steps[finalCheck].env?.GITHUB_TOKEN, "${{ github.token }}");
   assert.match(steps[publish].run, /PR_AUDIT_SOURCE_COMMIT="\$\(cat \.audit\/source-commit\.txt\)"/);
   console.log("audit-revision self-test passed: atomic fast-forward race, stale-PR closure, fresh integration and unreadable evidence.");
 }
@@ -220,7 +223,15 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
       git(["fetch", "--no-tags", "--quiet", "origin", "main"]);
       main = git(["rev-parse", "FETCH_HEAD"]);
     }
-    assertAuditRevision({ audited, checkout, main });
+    try {
+      assertAuditRevision({ audited, checkout, main });
+    } catch (err) {
+      // --withhold-when-stale: main moving during the audit (another writer
+      // or a human merge) invalidates the evidence but is not a fault. The
+      // stamps are still withheld; the run just ends neutral, not red.
+      if (err.code === "STALE_AUDIT" && process.argv.includes("--withhold-when-stale")) return withholdRun({ reason: err.message });
+      throw err;
+    }
     console.log(`Audit source and checkout${process.argv.includes("--check-main") ? " and current main" : ""} agree at ${audited}.`);
   });
   run.catch((err) => { console.error(`::error::${err.message}`); process.exitCode = 1; });

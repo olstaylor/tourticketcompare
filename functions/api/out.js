@@ -20,6 +20,14 @@ const EVENTS_JSON_PATH = "/data/events.json";
 const ARTISTS_JSON_PATH = "/data/artists.json";
 const DEFAULT_IMPACT_API_BASE = "https://api.impact.com";
 const IMPACT_PXF_TRACKING_HOSTS = ["pxf.io"];
+// Some Impact brands issue tracking links on their own vanity domain instead
+// of pxf.io. Each extra host is bound to the one provider whose Impact account
+// issued it, so a link pasted into another provider's variable still fails.
+const IMPACT_PROVIDER_TRACKING_HOSTS = {
+  "stubhub-international": ["sjv.io"],
+  ticketnetwork: ["goto.ticketnetwork.com"],
+  "ticket-liquidator": ["auhm.net"]
+};
 // Temporary production proof header for /api/out. Remove after verifying
 // plain (non-affiliate) Ticketmaster redirects are live.
 const OUT_VERSION_HEADER = "tm-plain-redirects-2026-07-02";
@@ -2416,7 +2424,7 @@ function hasBaseTrackingUrl(env = {}, provider) {
   return Boolean(baseTrackingUrlFor(env, provider));
 }
 
-function validateImpactPxfBaseTrackingUrl(value) {
+function validateImpactPxfBaseTrackingUrl(value, provider) {
   const raw = clean(value, 2048);
   if (!raw || isPlaceholderUrl(raw)) {
     return { ok: false, status: "impact_base_tracking_url_invalid" };
@@ -2433,7 +2441,8 @@ function validateImpactPxfBaseTrackingUrl(value) {
     return { ok: false, status: "impact_base_tracking_url_unsafe" };
   }
 
-  if (!hostnameAllowed(parsed.hostname, IMPACT_PXF_TRACKING_HOSTS)) {
+  const allowedHosts = [...IMPACT_PXF_TRACKING_HOSTS, ...(IMPACT_PROVIDER_TRACKING_HOSTS[providerKey(provider)] || [])];
+  if (!hostnameAllowed(parsed.hostname, allowedHosts)) {
     return { ok: false, status: "impact_base_tracking_url_host_not_allowed" };
   }
 
@@ -2466,7 +2475,7 @@ function buildBaseTrackingRedirect(env, provider, destination, validateDestinati
   const configuredBase = baseTrackingUrlFor(env, provider);
   if (!configuredBase) return { ok: false, status: "impact_base_tracking_url_missing" };
 
-  const base = validateImpactPxfBaseTrackingUrl(configuredBase);
+  const base = validateImpactPxfBaseTrackingUrl(configuredBase, provider);
   if (!base.ok) return base;
 
   const destinationUrl = validateDestination(destination);

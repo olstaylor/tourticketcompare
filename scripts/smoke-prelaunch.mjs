@@ -2569,6 +2569,21 @@ outResponse = await out("/api/out?showId=smoke-ticketnetwork-event&provider=tick
 assert(outResponse.status === 302, "TicketNetwork should redirect a verified event by default after activation");
 const defaultTicketNetworkLocation = new URL(outResponse.headers.get("location"));
 assert(defaultTicketNetworkLocation.searchParams.get("u") === ticketNetworkUrl, "default-on TicketNetwork tracking should preserve the exact verified event URL");
+// TicketNetwork's Impact account issues links on its own domain, not pxf.io.
+outResponse = await out("/api/out?showId=smoke-ticketnetwork-event&provider=ticketnetwork", "GET", null, {
+  ...ticketNetworkBaseEnv,
+  IMPACT_TICKETNETWORK_BASE_TRACKING_URL: "https://goto.ticketnetwork.com/c/3977745/120057/2322"
+});
+assert(outResponse.status === 302, "TicketNetwork should redirect through its own Impact tracking domain");
+const vanityTicketNetworkLocation = new URL(outResponse.headers.get("location"));
+assert(vanityTicketNetworkLocation.hostname === "goto.ticketnetwork.com" && vanityTicketNetworkLocation.pathname === "/c/3977745/120057/2322", "TicketNetwork vanity redirect should keep the configured base link");
+assert(vanityTicketNetworkLocation.searchParams.get("u") === ticketNetworkUrl, "TicketNetwork vanity redirect should deep-link the exact verified event URL");
+// A vanity domain is bound to the provider that issued it.
+outResponse = await out("/api/out?showId=smoke-ticketnetwork-event&provider=ticketnetwork", "GET", null, {
+  ...ticketNetworkBaseEnv,
+  IMPACT_TICKETNETWORK_BASE_TRACKING_URL: "https://stubhubinternational.sjv.io/c/3977745/1969047/24092"
+});
+assert(outResponse.status === 400 && (await outResponse.json()).status === "impact_base_tracking_url_host_not_allowed", "another provider's Impact domain must not be accepted for TicketNetwork");
 outResponse = await out("/api/out?showId=smoke-ticketnetwork-event&provider=ticketnetwork", "GET", null, {
   ...ticketNetworkBaseEnv,
   TICKETNETWORK_PUBLIC_ENABLED: "false"

@@ -19,7 +19,7 @@ Current-state snapshot: data counts, per-artist status and the generated route s
 
   - TicketNetwork 2182.
 
-  - Ticket Liquidator 2098.
+  - Ticket Liquidator 2095.
 
   - StubHub International 1108.
 

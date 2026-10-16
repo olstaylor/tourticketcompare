@@ -262,18 +262,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7977877",
-        "url": "https://www.ticketliquidator.com/tickets/7977877/Mico-tickets-Thu-Oct-15-2026-The-Fonda-Theatre",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70UAO",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977877",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977877/Mico-tickets-Thu-Oct-15-2026-The-Fonda-Theatre"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-mico-2026-los-angeles-z7r9jz1a70ua4",

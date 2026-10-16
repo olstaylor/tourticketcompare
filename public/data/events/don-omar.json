@@ -793,11 +793,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7976484",
-        "url": "https://www.ticketliquidator.com/tickets/7976484/Don-Omar-tickets-Thu-Oct-15-2026-Capital-One-Arena",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107198487",
@@ -811,7 +811,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976484",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976484/Don-Omar-tickets-Thu-Oct-15-2026-Capital-One-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-washington-tickets-10-15-2026/event/107198487",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
@@ -1107,11 +1107,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7976487",
-        "url": "https://www.ticketliquidator.com/tickets/7976487/Don-Omar-tickets-Sun-Oct-25-2026-Don-Haskins-Center",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107289096",
@@ -1125,7 +1125,7 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976487/Don-Omar-tickets-Sun-Oct-25-2026-Don-Haskins-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-el-paso-tickets-10-25-2026/event/107289096",
     "presales": [
       {

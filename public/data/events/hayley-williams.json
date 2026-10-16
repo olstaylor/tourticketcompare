@@ -53,6 +53,13 @@
         "verified": true,
         "last_verified_at": "2026-10-16",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8072644",
+        "url": "https://www.ticketliquidator.com/tickets/8072644/The-Hayley-Williams-Show-tickets-Thu-Nov-26-2026-Auditorio-Nacional-Mexico",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dVZ_1Q0Q4BC",
@@ -61,7 +68,8 @@
     "organizer_names": [
       "OCESA"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8072644"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8072644",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8072644/The-Hayley-Williams-Show-tickets-Thu-Nov-26-2026-Auditorio-Nacional-Mexico"
   },
   {
     "id": "tm-hayley-williams-2027-ciudad-de-mexico-g5dvz_5u9jpc7",
@@ -117,6 +125,13 @@
         "verified": true,
         "last_verified_at": "2026-10-16",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8072651",
+        "url": "https://www.ticketliquidator.com/tickets/8072651/The-Hayley-Williams-Show-tickets-Wed-Jan-13-2027-Auditorio-Nacional-Mexico",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dVZ_5U9jPC7",
@@ -125,7 +140,8 @@
     "organizer_names": [
       "OCESA"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8072651"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8072651",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8072651/The-Hayley-Williams-Show-tickets-Wed-Jan-13-2027-Auditorio-Nacional-Mexico"
   },
   {
     "id": "tm-hayley-williams-2027-monterrey-17azv0g65m2hkin",
@@ -181,6 +197,13 @@
         "verified": true,
         "last_verified_at": "2026-10-16",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8220574",
+        "url": "https://www.ticketliquidator.com/tickets/8220574/Hayley-Williams-tickets-Fri-Jan-15-2027-Auditorio-Banamex",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AZv0G65M2hKIN",
@@ -189,7 +212,8 @@
     "organizer_names": [
       "OCESA"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8220574"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8220574",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8220574/Hayley-Williams-tickets-Fri-Jan-15-2027-Auditorio-Banamex"
   },
   {
     "id": "tm-hayley-williams-2027-zapopan-17azv0g65ulwtlf",

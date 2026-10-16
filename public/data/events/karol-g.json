@@ -1056,11 +1056,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7896541",
-        "url": "https://www.ticketliquidator.com/tickets/7896541/Karol-G-tickets-Thu-Oct-15-2026-ATT-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107162170",
@@ -1074,7 +1074,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896541",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896541/Karol-G-tickets-Thu-Oct-15-2026-ATT-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/karol-g-arlington-tickets-10-15-2026/event/107162170",
     "organizer_names": [
       "LIVE NATION MUSIC"

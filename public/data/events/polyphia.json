@@ -616,6 +616,13 @@
         "verified": true,
         "last_verified_at": "2026-10-16",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8324859",
+        "url": "https://www.ticketliquidator.com/tickets/8324859/Polyphia-tickets-Wed-Dec-16-2026-O2-Academy-Brixton",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_GlJHn6P",
@@ -626,7 +633,8 @@
       "LIVE NATION MUSIC UK LTD",
       "ACADEMY MUSIC GROUP (O2 ACADEMY BRIXTON)"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8324859"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8324859",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8324859/Polyphia-tickets-Wed-Dec-16-2026-O2-Academy-Brixton"
   },
   {
     "id": "tm-polyphia-2027-phoenix-16_zkf_ofzag77fu",

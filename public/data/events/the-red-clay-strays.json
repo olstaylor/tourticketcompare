@@ -384,18 +384,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7906847",
-        "url": "https://www.ticketliquidator.com/tickets/7906847/The-Red-Clay-Strays-tickets-Thu-Oct-15-2026-Enmarket-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_FXgmnUS",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7906847/The-Red-Clay-Strays-tickets-Thu-Oct-15-2026-Enmarket-Arena",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "AEG LIVE"
     ]

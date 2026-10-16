@@ -32,9 +32,12 @@ name: SeatGeek CTA sync
 
 on:
   schedule:
-    # 05:00 UTC — after the 02:40 tm-new-shows-pr run has merged its new
-    # shows, so they are enriched with SeatGeek URLs the same morning.
-    - cron: '0 5 * * *'
+    # 12:00 UTC — after the 02:40 tm-new-shows-pr run has merged its new
+    # shows, so they are enriched with SeatGeek URLs the same day. The resale
+    # block (SeatGeek, Vivid Seats, Impact) runs midday rather than 05:00-07:00
+    # so it no longer queues behind the Ticketmaster lanes and daily audit,
+    # which GitHub routinely starts hours late (owner decision 2026-10-16).
+    - cron: '0 12 * * *'
   workflow_dispatch:
     inputs:
       mode:

@@ -228,8 +228,10 @@ const lane = (overrides = {}) => ({
   ];
   await fetchEventPriceLowSeries(db, ["e1", "e2"], lanes, { now: NOW });
 
-  check(calls.length === 1, `one bounded chunk issues exactly one statement (was ${calls.length})`);
-  const [boundedCall] = calls;
+  check(calls.length === 2, `one chunk issues exactly two statements (was ${calls.length})`);
+  const windowCall = calls.find((call) => /MIN\(low_price\)/.test(call.sql));
+  const carryCall = calls.find((call) => /MAX\(observed_at\)/.test(call.sql));
+  const boundedCall = windowCall;
 
   // The two halves must abut exactly: no observation counted twice, none lost
   // in a gap between them. Each exact series carries the same boundary into
@@ -238,30 +240,31 @@ const lane = (overrides = {}) => ({
   check(/observed_at < \?/.test(boundedCall.sql), "the predecessor arm is exclusive of it");
   const expected = new Date(NOW - PRICE_LOW_WINDOW_DAYS * 24 * 60 * 60 * 1000).toISOString();
   const boundaries = boundedCall.bindings.filter((value) => value === expected);
-  check(boundaries.length === lanes.length * 2 * 2, `every range and predecessor arm uses the ${PRICE_LOW_WINDOW_DAYS}-day boundary`);
+  check(boundaries.length === 1 && carryCall.bindings.at(-1) === expected, `both ranges reuse the ${PRICE_LOW_WINDOW_DAYS}-day boundary`);
 
   // Provider and source are bound as pairs in independent event/lane branches:
   // this keeps every history lookup exact and never admits another source for
   // the same provider. The predecessor arm must stop at two rows; a full
   // retained-history scan would defeat the purpose of this reader.
   check(
-    (boundedCall.sql.match(/event_id = \? AND provider = \? AND source = \?/g) || []).length === lanes.length * 2 * 2,
+    (boundedCall.sql.match(/event_id = \?\d+ AND provider = \?\d+ AND source = \?\d+/g) || []).length === lanes.length * 2 * 2,
     "each event/lane arm constrains event, provider and source together"
   );
-  check((boundedCall.sql.match(/LIMIT 2/g) || []).length === lanes.length * 2, "each exact series reads at most two predecessors");
+  check((boundedCall.sql.match(/DESC LIMIT 1/g) || []).length === lanes.length * 2, "each window series reads one predecessor for context");
+  check((carryCall.sql.match(/ASC LIMIT 1/g) || []).length === lanes.length * 2, "each carry-in series reads one successor for context");
   check(
     boundedCall.bindings.includes("vividseats_impact_marketplace_api") &&
       boundedCall.bindings.includes("ticketnetwork_impact_marketplace_api"),
     "the approved source of each lane is bound"
   );
   check(
-    boundedCall.bindings.filter((value) => value === "e1").length === lanes.length * 2,
-    "each lane receives exact range and predecessor lookups for the same event"
+    boundedCall.bindings.filter((value) => value === "e1").length === 1,
+    "each event binding is reused across all its range and neighbour lookups"
   );
   check(/LAG\(low_price\)/.test(boundedCall.sql) && /LEAD\(low_price\)/.test(boundedCall.sql), "the spike guard still sees both neighbours");
 }
 {
-  // Batching: one lane permits twelve exact event series per 100-binding chunk.
+  // The established batching remains: three 50-event chunks, two reads each.
   let statements = 0;
   const db = {
     prepare() {
@@ -271,13 +274,11 @@ const lane = (overrides = {}) => ({
   };
   const ids = Array.from({ length: 120 }, (_, i) => `e${i}`);
   await fetchEventPriceLowSeries(db, ids, [{ dbKey: "vivid-seats", approvedSource: "src" }], { now: NOW });
-  check(statements === 10, `120 ids cost ten bounded statements (was ${statements})`);
+  check(statements === 6, `120 ids cost six bounded statements (was ${statements})`);
 }
 {
-  // With every approved lane active, two events use eighty bindings: five lanes,
-  // two exact range lookups per lane, four bindings each. That keeps the query
-  // below D1's 100-binding limit and, crucially, lets every predecessor arm stop
-  // after two indexed rows instead of ranking retained history.
+  // Reused numbered bindings keep the established five-lane batching budget,
+  // despite the extra boundary context arm for every exact event/lane series.
   const calls = [];
   const db = {
     prepare(sql) {
@@ -290,8 +291,23 @@ const lane = (overrides = {}) => ({
   };
   const lanes = Array.from({ length: 5 }, (_, i) => ({ dbKey: `lane-${i}`, approvedSource: `source-${i}` }));
   await fetchEventPriceLowSeries(db, Array.from({ length: 50 }, (_, i) => `e${i}`), lanes, { now: NOW });
-  check(calls.length === 25, `five lanes split 50 ids into bounded two-event statements (was ${calls.length})`);
-  check(calls.every((call) => call.bindings.length <= 100), "multi-lane statements stay within D1's binding limit");
+  check(calls.length === 10, `five lanes split 50 ids into five chunks (was ${calls.length / 2})`);
+  check(calls.every((call) => call.bindings.length <= 61), "multi-lane statements stay within the established binding budget");
+  check(calls.every((call) => Buffer.byteLength(call.sql) < 100000), "all statements fit D1's SQL length limit");
+}
+{
+  let active = 0;
+  let maximum = 0;
+  const db = { prepare() { return { bind() { return this; }, async all() {
+    active += 1;
+    maximum = Math.max(maximum, active);
+    await new Promise((resolve) => setImmediate(resolve));
+    active -= 1;
+    return { results: [] };
+  } }; } };
+  const lanes = Array.from({ length: 5 }, (_, i) => ({ dbKey: `lane-${i}`, approvedSource: `source-${i}` }));
+  await fetchEventPriceLowSeries(db, Array.from({ length: 50 }, (_, i) => `e${i}`), lanes, { now: NOW });
+  check(maximum === 4, "bounded concurrency runs two chunks together and leaves two D1 connections for other reads");
 }
 {
   const index = await fetchEventPriceLowSeries(null, ["e1"], [{ dbKey: "v", approvedSource: "s" }], { now: NOW });
@@ -309,14 +325,13 @@ const lane = (overrides = {}) => ({
 {
   const db = {
     prepare(sql) {
+      const inWindow = /MIN\(low_price\)/.test(sql);
       return {
         bind() { return this; },
         async all() {
           return {
-            results: [
-              { event_id: "e1", provider: "vivid-seats", currency: "USD", low_price: 120, observed_at: daysAgo(6), in_window: 1 },
-              { event_id: "e1", provider: "vivid-seats", currency: "USD", low_price: 150, observed_at: daysAgo(44), in_window: 0 }
-            ]
+            results: [{ event_id: "e1", provider: "vivid-seats", currency: "USD",
+              low_price: inWindow ? 120 : 150, observed_at: inWindow ? daysAgo(6) : daysAgo(44) }]
           };
         }
       };

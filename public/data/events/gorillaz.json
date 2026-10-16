@@ -68,7 +68,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-fort-worth-texas-10-16-2026/event/0C006438A0867920",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -103,7 +103,10 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_dxO-E0O",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-gorillaz-2026-denver-g5vzz_amqia8m",
@@ -121,7 +124,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-denver-colorado-10-18-2026/event/1E00645B9DB09437",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156,7 +159,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_Amqia8M",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-gorillaz-2026-salt-lake-city-z7r9jz1a7-9ai",
@@ -174,7 +180,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9AI",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -209,7 +215,10 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-9AI",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-gorillaz-2026-phoenix-1av0z_agknirbye",
@@ -227,7 +236,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-phoenix-arizona-10-23-2026/event/1900645AAC798E42",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -262,7 +271,17 @@
     },
     "ticketmaster_discovery_event_id": "1Av0Z_AGknirbye",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-09T17:00:00Z",
+        "end": "2026-10-19T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gorillaz-2026-inglewood-vv170z_agkmi0jmt",
@@ -280,7 +299,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-inglewood-california-10-24-2026/event/0900645BA891CBBF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -315,7 +334,17 @@
     },
     "ticketmaster_discovery_event_id": "vv170Z_AGkmI0jmT",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-09T17:00:00Z",
+        "end": "2026-10-20T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gorillaz-2026-san-diego-vvg1iz_ai_rrcv",
@@ -333,7 +362,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-san-diego-california-10-25-2026/event/0A00645B1979EB74",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -368,7 +397,17 @@
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_Ai_rrcV",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-09T17:00:00Z",
+        "end": "2026-10-21T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gorillaz-2026-oakland-g5vyz_allhhol",
@@ -386,7 +425,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/live-105-presents-gorillaz-the-mountain-oakland-california-10-28-2026/event/1C00645AEBF3C46B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421,7 +460,18 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_AllHHol",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "ANOTHER PLANET"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-09T17:00:00Z",
+        "end": "2026-10-24T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gorillaz-2026-portland-vvg1hz_anwqdfp",
@@ -439,7 +489,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-portland-oregon-10-30-2026/event/0F00645AB26BB216",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -474,7 +524,17 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_AnwQDFp",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-09T17:00:00Z",
+        "end": "2026-10-26T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gorillaz-2026-seattle-vvg1hz_aeloqv3",
@@ -492,7 +552,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-seattle-washington-10-31-2026/event/0F006459EB45A052",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -527,7 +587,17 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_AEloQv3",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-09T17:00:00Z",
+        "end": "2026-10-27T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gorillaz-2026-zapopan-g5dvz_8mtgfu6",
@@ -545,7 +615,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/gorillaz-zapopan-09-12-2026/event/3D00650BBFD54347",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -580,6 +650,9 @@
     },
     "ticketmaster_discovery_event_id": "G5dVZ_8mTgfu6",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "OCESA"
+    ]
   }
 ]

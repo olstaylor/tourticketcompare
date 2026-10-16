@@ -1138,7 +1138,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-orlando-kia-center-10-25-2026--concerts-alternative/production/6897905",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-orlando-florida-10-25-2026/event/2200648A8ADC2C92",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1198,13 +1198,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874868",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-orlando-tickets-10-25-2026/event/107154726",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874868/sombr-tickets-Sun-Oct-25-2026-Kia-Center",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-04-17T14:00:00Z",
-        "end": "2026-10-15T21:00:00Z"
-      }
-    ],
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -1525,7 +1518,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-minneapolis-target-center-11-1-2026--concerts-alternative/production/6897954",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-minneapolis-minnesota-11-01-2026/event/06006489AC06E087",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1582,6 +1575,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-04-17T15:00:00Z",
         "end": "2026-10-28T17:00:00Z"
+      },
+      {
+        "name": "Single Seat Offer",
+        "start": "2026-10-15T16:30:00Z",
+        "end": "2026-11-02T03:00:00Z"
       }
     ],
     "organizer_names": [

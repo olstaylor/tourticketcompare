@@ -2,11 +2,14 @@
 // REFRESH, LINK and HOLD actions from Google demand, landing-page conversion
 // and the show-priority list. Scoring lives in scripts/lib/seo-opportunities.mjs.
 //
-// It never writes to the repository, D1 or GitHub, and never calls an AI
-// model. Without D1 access it still runs: unmeasured page types fall back to
-// the site-wide click rate and say so.
+// It never writes to the repository or D1 and never calls an AI model; its
+// only write is the rolling GitHub issue, and only with --issue. Without D1
+// access it still runs: unmeasured page types fall back to the site-wide click
+// rate and say so.
 //
-//   node scripts/report-seo-opportunities.mjs --search-console <dir>
+//   node scripts/report-seo-opportunities.mjs (--search-console <dir> | --gsc-api)
+//        [--issue]                   rewrite the rolling `automation:seo-opportunities`
+//                                    issue (GITHUB_TOKEN, GITHUB_REPOSITORY)
 //        [--remote | --local]        read landing conversion + show_priority from D1
 //        [--conversion-file <json>]  [{ page_type, landings, clickers }] instead of D1
 //        [--priority-file <json>]    report-show-priority.mjs --json output instead of D1
@@ -14,9 +17,14 @@
 //   node scripts/report-seo-opportunities.mjs --self-test
 //
 // <dir> is an unzipped Search Console "Performance" export holding Pages.csv
-// and Queries.csv (the format Ollie uploads to the project).
+// and Queries.csv (the format Ollie uploads to the project). --gsc-api reads
+// the same two tables from the Search Console API instead (last 28 complete
+// days, scripts/lib/search-console-api.mjs) with the read-only service-account
+// key in GSC_SERVICE_ACCOUNT_JSON. The weekly workflow
+// .github/workflows/seo-opportunities.yml runs --gsc-api --remote --issue.
 import assert from "node:assert/strict";
 import { execFile } from "node:child_process";
+import { createVerify, generateKeyPairSync } from "node:crypto";
 import { readFileSync, readdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -30,10 +38,17 @@ import {
   conversionByPageType, matchArtist, artistMatchers, queryIntent, renderMarkdown,
   scoreOpportunities, searchConsoleRows
 } from "./lib/seo-opportunities.mjs";
+import {
+  buildJwtAssertion, fetchSearchConsole, mapApiRows, parseServiceAccount, reportWindow, QUERY_URL, SCOPE, SITE, TOKEN_URL
+} from "./lib/search-console-api.mjs";
 
 const execFileAsync = promisify(execFile);
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DATABASE = "tourticketcompare-demand";
+const LABEL = "automation:seo-opportunities";
+const ISSUE_TITLE = "SEO opportunities (weekly)";
+// GitHub rejects issue bodies over 65,536 characters.
+const MAX_ISSUE_BODY = 60000;
 
 // Running experiments and frozen cohorts. A page type listed here is HOLD
 // until the date, whatever its numbers say.
@@ -82,6 +97,41 @@ clickers AS (SELECT DISTINCT request_key || substr(created_at, 1, 10) AS vd FROM
 SELECT landings.page_type, COUNT(DISTINCT landings.vd) AS landings, COUNT(DISTINCT clickers.vd) AS clickers FROM landings LEFT JOIN clickers ON clickers.vd = landings.vd GROUP BY landings.page_type`;
 }
 
+// ── Rolling issue ──────────────────────────────────────────────────────────
+
+/** The issue body: the report, with a footer saying what wrote it. */
+export function buildIssueBody(markdown, { runUrl = "" } = {}) {
+  const footer = [
+    "",
+    "---",
+    `Rewritten weekly by \`.github/workflows/seo-opportunities.yml\` (\`scripts/report-seo-opportunities.mjs\`). Read-only: nothing on the site, in the repository or in D1 was changed.${runUrl ? ` [Run](${runUrl}).` : ""}`
+  ].join("\n");
+  const room = MAX_ISSUE_BODY - footer.length;
+  const text = markdown.length > room ? `${markdown.slice(0, room - 40).replace(/\n[^\n]*$/, "")}\n\n_(truncated)_` : markdown;
+  return `${text.trimEnd()}\n${footer}\n`;
+}
+
+/** Rewrite the open issue carrying LABEL, or create it. Returns { number, created }. */
+export async function upsertRollingIssue(body, { fetchImpl = globalThis.fetch, token = process.env.GITHUB_TOKEN, repo = process.env.GITHUB_REPOSITORY } = {}) {
+  if (!token || !repo) throw new Error("--issue needs GITHUB_TOKEN and GITHUB_REPOSITORY");
+  const gh = async (method, apiPath, payload) => {
+    const res = await fetchImpl(`https://api.github.com/repos/${repo}${apiPath}`, {
+      method,
+      headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" },
+      body: payload ? JSON.stringify(payload) : undefined
+    });
+    if (!res.ok) throw new Error(`GitHub API ${method} ${apiPath} ${res.status}`);
+    return res.json();
+  };
+  const open = await gh("GET", `/issues?state=open&labels=${encodeURIComponent(LABEL)}`);
+  if (open[0]) {
+    await gh("PATCH", `/issues/${open[0].number}`, { body });
+    return { number: open[0].number, created: false };
+  }
+  const made = await gh("POST", "/issues", { title: ISSUE_TITLE, body, labels: [LABEL] });
+  return { number: made?.number, created: true };
+}
+
 async function readConversion({ remote, days }) {
   try {
     const args = buildD1ReadArgs({ database: DATABASE, remote, statements: [{ sql: landingConversionSql(days) }] });
@@ -103,6 +153,8 @@ function parseArgs(argv) {
       return argv[++i];
     };
     if (arg === "--search-console") options.searchConsole = value();
+    else if (arg === "--gsc-api") options.gscApi = true;
+    else if (arg === "--issue") options.issue = true;
     else if (arg === "--conversion-file") options.conversionFile = value();
     else if (arg === "--priority-file") options.priorityFile = value();
     else if (arg === "--json") options.json = value();
@@ -116,19 +168,31 @@ function parseArgs(argv) {
   }
   if (!Number.isInteger(options.days) || options.days < 1 || options.days > 90) throw new Error("--days must be 1 to 90");
   if (!Number.isInteger(options.top) || options.top < 1) throw new Error("--top must be a positive integer");
+  if (options.gscApi && options.searchConsole) throw new Error("use either --search-console <dir> or --gsc-api, not both");
   return options;
 }
 
 async function main(argv) {
   const options = parseArgs(argv);
   if (options.selfTest) {
-    console.log(`SEO opportunities self-test passed (${selfTest()} checks).`);
+    console.log(`SEO opportunities self-test passed (${await selfTest()} checks).`);
     return;
   }
-  if (!options.searchConsole) throw new Error("--search-console <dir> is required (an unzipped Search Console export)");
+  if (!options.searchConsole && !options.gscApi) throw new Error("--search-console <dir> or --gsc-api is required");
   const now = Date.now();
-  const sources = [`Search Console export ${options.searchConsole}`];
-  const { pages, queries } = readSearchConsoleDir(path.resolve(options.searchConsole));
+  let pages;
+  let queries;
+  const sources = [];
+  if (options.gscApi) {
+    const json = process.env.GSC_SERVICE_ACCOUNT_JSON;
+    if (!json || !json.trim()) throw new Error("--gsc-api needs GSC_SERVICE_ACCOUNT_JSON (a Google service-account JSON key with Restricted access to the Search Console property; see docs/COMMERCIAL_FUNNEL.md)");
+    const fetched = await fetchSearchConsole(json, { now });
+    ({ pages, queries } = fetched);
+    sources.push(`Search Console API ${SITE}, ${fetched.window.startDate} to ${fetched.window.endDate} (${pages.length} pages, ${queries.length} queries)`);
+  } else {
+    ({ pages, queries } = readSearchConsoleDir(path.resolve(options.searchConsole)));
+    sources.push(`Search Console export ${options.searchConsole}`);
+  }
 
   let conversionRows = [];
   if (options.conversionFile) {
@@ -165,11 +229,18 @@ async function main(argv) {
   if (options.json) writeFileSync(options.json, `${JSON.stringify({ generated_at: new Date(now).toISOString(), sources, ...result }, null, 2)}\n`);
   if (options.markdown) writeFileSync(options.markdown, markdown);
   console.log(markdown);
+  if (options.issue) {
+    const runUrl = process.env.GITHUB_RUN_ID && process.env.GITHUB_REPOSITORY
+      ? `${process.env.GITHUB_SERVER_URL || "https://github.com"}/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}`
+      : "";
+    const issue = await upsertRollingIssue(buildIssueBody(markdown, { runUrl }));
+    console.log(`SEO opportunities issue #${issue.number} ${issue.created ? "created" : "updated"}.`);
+  }
 }
 
 // ── Self-test: one fixture per decision rule ───────────────────────────────
 
-function selfTest() {
+async function selfTest() {
   let checks = 0;
   const check = (condition, message) => {
     assert.ok(condition, message);
@@ -259,6 +330,84 @@ function selfTest() {
   const markdown = renderMarkdown({ rows, benchmarks: { "6-10": 0.01 } }, { generatedAt: "test" });
   check(markdown.includes("## Act on") && markdown.includes("## Held") && !markdown.includes("undefined"), "markdown renders both sections");
   check(landingConversionSql(14).includes("'-14 days'") && !/insert|update|delete/i.test(landingConversionSql(14)), "D1 query is a bounded read");
+
+  // Search Console API, against a throwaway key generated here (never a real one).
+  const { privateKey, publicKey } = generateKeyPairSync("rsa", { modulusLength: 2048, privateKeyEncoding: { type: "pkcs8", format: "pem" }, publicKeyEncoding: { type: "spki", format: "pem" } });
+  const keyJson = JSON.stringify({ type: "service_account", client_email: "seo-report@example.iam.gserviceaccount.com", private_key: privateKey });
+  const jwt = buildJwtAssertion(parseServiceAccount(keyJson), now);
+  const [jwtHeader, jwtClaims, jwtSignature] = jwt.split(".");
+  const header = JSON.parse(Buffer.from(jwtHeader, "base64url").toString());
+  const claims = JSON.parse(Buffer.from(jwtClaims, "base64url").toString());
+  check(jwt.split(".").length === 3 && header.alg === "RS256" && header.typ === "JWT" && Object.keys(header).length === 2, "JWT header is RS256");
+  check(claims.iss === "seo-report@example.iam.gserviceaccount.com" && claims.scope === SCOPE && claims.aud === TOKEN_URL && claims.iat === now / 1000 && claims.exp - claims.iat === 3600, "JWT claims carry issuer, read-only scope, audience and a 1h expiry");
+  check(createVerify("RSA-SHA256").update(`${jwtHeader}.${jwtClaims}`).verify(publicKey, jwtSignature, "base64url"), "JWT signature verifies with the public key");
+  check(!jwt.includes(privateKey.split("\n")[1]) && !Object.values(claims).some((v) => String(v).includes("PRIVATE")), "JWT carries no key material");
+  check(SCOPE.endsWith("webmasters.readonly") && QUERY_URL.endsWith("/sites/sc-domain%3Atourticketcompare.com/searchAnalytics/query"), "read-only scope and the encoded domain property");
+  for (const bad of ["not json {secret}", JSON.stringify({ client_email: "x", private_key: 5 })]) {
+    let message = "";
+    try {
+      parseServiceAccount(bad);
+    } catch (error) {
+      message = error.message;
+    }
+    check(message && !message.includes("secret") && !message.includes('"x"'), "a malformed key is rejected without echoing it");
+  }
+  check(JSON.stringify(reportWindow(now)) === JSON.stringify({ startDate: "2026-09-16", endDate: "2026-10-13" }), "window is 28 complete days ending 3 days before today");
+  const mapped = mapApiRows([{ keys: ["https://tourticketcompare.com/artists/lizzy-mcalpine"], clicks: 20, impressions: 6070, ctr: 0.9, position: 9.3 }, { keys: [""], clicks: 1, impressions: 1 }, { clicks: 1 }]);
+  check(mapped.length === 1 && Object.keys(mapped[0]).join() === Object.keys(pages[0]).join() && JSON.stringify(mapped[0]) === JSON.stringify(pages[0]), "API rows map to the CSV row shape, CTR recomputed");
+
+  const TOKEN = "ya29.secret-access-token";
+  const calls = [];
+  const reply = (status, body) => ({ ok: status >= 200 && status < 300, status, json: async () => body });
+  const apiRows = (n, offset) => Array.from({ length: n }, (_, i) => ({ keys: [`https://tourticketcompare.com/p/${offset + i}`], clicks: 1, impressions: 10, position: 5 }));
+  const mockFetch = async (url, init) => {
+    calls.push({ url, init });
+    if (url === TOKEN_URL) return reply(200, { access_token: TOKEN, token_type: "Bearer" });
+    const body = JSON.parse(init.body);
+    if (body.dimensions[0] === "page") return reply(200, { rows: apiRows(1000, body.startRow) });
+    return reply(200, { rows: apiRows(body.startRow === 0 ? 1000 : 3, body.startRow) });
+  };
+  const fetched = await fetchSearchConsole(keyJson, { fetchImpl: mockFetch, now });
+  const form = new URLSearchParams(calls[0].init.body);
+  check(calls[0].url === TOKEN_URL && form.get("grant_type") === "urn:ietf:params:oauth:grant-type:jwt-bearer" && form.get("assertion").split(".").length === 3, "token request uses the JWT bearer grant");
+  const queryCalls = calls.slice(1).map((call) => ({ ...JSON.parse(call.init.body), auth: call.init.headers.Authorization, url: call.url, method: call.init.method }));
+  check(queryCalls.every((q) => q.method === "POST" && q.url === QUERY_URL && q.auth === `Bearer ${TOKEN}` && q.type === "web" && q.rowLimit === 1000 && q.startDate === "2026-09-16" && q.endDate === "2026-10-13"), "queries are bearer-authorised web queries over the window");
+  check(fetched.pages.length === 5000 && queryCalls.filter((q) => q.dimensions[0] === "page").map((q) => q.startRow).join() === "0,1000,2000,3000,4000", "pages stop at 5000 rows");
+  check(fetched.queries.length === 1003 && queryCalls.filter((q) => q.dimensions[0] === "query").map((q) => q.startRow).join() === "0,1000", "queries page until a short page");
+  for (const [status, step] of [[401, TOKEN_URL], [403, QUERY_URL]]) {
+    const failFetch = async (url, init) => (url === step ? { ok: false, status, json: async () => ({ error: `body with ${TOKEN}` }) } : mockFetch(url, init));
+    let message = "";
+    try {
+      await fetchSearchConsole(keyJson, { fetchImpl: failFetch, now });
+    } catch (error) {
+      message = error.message;
+    }
+    check(message.includes(`HTTP ${status}`) && !message.includes(TOKEN) && !message.includes("PRIVATE KEY") && !message.includes("body with"), `HTTP ${status} fails with the status only`);
+  }
+
+  // Rolling issue.
+  const issueBody = buildIssueBody(markdown, { runUrl: "https://github.com/o/r/actions/runs/1" });
+  check(issueBody.startsWith("# SEO opportunities") && issueBody.includes("seo-opportunities.yml") && issueBody.includes("actions/runs/1"), "issue body is the report plus a footer");
+  const huge = buildIssueBody("x\n".repeat(40000));
+  check(huge.length <= MAX_ISSUE_BODY && huge.includes("_(truncated)_"), "an oversize report is truncated under GitHub's limit");
+  const ghCalls = [];
+  const ghFetch = (existing) => async (url, init) => {
+    ghCalls.push({ url, method: init.method, body: init.body ? JSON.parse(init.body) : null, auth: init.headers.Authorization });
+    if (init.method === "GET") return reply(200, existing);
+    return reply(init.method === "POST" ? 201 : 200, { number: existing[0]?.number || 99 });
+  };
+  const created = await upsertRollingIssue("body-1", { fetchImpl: ghFetch([]), token: "ghs_test", repo: "o/r" });
+  check(created.created && created.number === 99 && ghCalls[0].url.includes(encodeURIComponent(LABEL)) && ghCalls[1].method === "POST" && ghCalls[1].url === "https://api.github.com/repos/o/r/issues" && ghCalls[1].body.labels[0] === LABEL, "creates the labelled issue when none is open");
+  ghCalls.length = 0;
+  const updated = await upsertRollingIssue("body-2", { fetchImpl: ghFetch([{ number: 7 }]), token: "ghs_test", repo: "o/r" });
+  check(!updated.created && updated.number === 7 && ghCalls.length === 2 && ghCalls[1].method === "PATCH" && ghCalls[1].url.endsWith("/issues/7") && ghCalls[1].body.body === "body-2" && ghCalls[1].auth === "Bearer ghs_test", "rewrites the open issue in place");
+  let missing = "";
+  try {
+    await upsertRollingIssue("b", { fetchImpl: ghFetch([]), token: "", repo: "o/r" });
+  } catch (error) {
+    missing = error.message;
+  }
+  check(/GITHUB_TOKEN/.test(missing), "--issue without a token fails clearly");
   return checks;
 }
 

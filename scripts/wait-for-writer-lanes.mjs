@@ -41,6 +41,7 @@ import { execFileSync } from "node:child_process";
 import { readFileSync, readdirSync } from "node:fs";
 import { pathToFileURL } from "node:url";
 import { DEFAULT_TIMEOUT_MS as REQUIRED_CHECK_TIMEOUT_MS } from "./lib/required-check.mjs";
+import { withholdRun, selfTest as withholdSelfTest } from "./lib/withhold-run.mjs";
 
 // Every workflow that commits event data. A run of any of these that is older
 // than ours and not yet completed is something to wait for. The self-test
@@ -218,6 +219,12 @@ async function main(argv) {
           return pages.flatMap((page) => page.workflow_runs);
         },
       });
+      // --withhold-when-busy: an older writer still holding the data is
+      // ordering, not a fault, so end neutral rather than red. An unreadable
+      // run list stays a failure.
+      if (result.outcome === "timeout" && argv.includes("--withhold-when-busy")) {
+        await withholdRun({ reason: "An older writer run still holds the shared data." });
+      }
       requireClearQueue(result);
     }
   }
@@ -413,6 +420,14 @@ async function selfTest() {
   assert(check > download && check < bump, "verification compares audit revision before stamping artists");
   assert(/check-audit-revision\.mjs --check-main/.test(verificationSteps[check]?.run || ""),
     "verification checks evidence commit against current checkout");
+
+  // The lanes that went red on queueing alone (2026-10-14..16) withhold
+  // neutrally instead.
+  await withholdSelfTest();
+  for (const [file, job] of [["daily-audit.yml", "audit"], ["daily-audit.yml", "verification-dates"], ["work-queue-repair.yml", "repair"]]) {
+    const wait = (workflows[file].jobs[job].steps || []).find((step) => /wait-for-writer-lanes\.mjs/.test(step.run || ""));
+    assert.match(wait?.run || "", /--withhold-when-busy/, `${file} ${job} must end neutral when the writer queue is busy`);
+  }
 
   console.log("wait-for-writer-lanes self-test passed.");
 }

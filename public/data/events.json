@@ -256204,5 +256204,3662 @@
       "OCESA"
     ],
     "stubhub_international_url": "https://www.stubhub.ie/gorillaz-tickets-guadalajara-coliseo-gnp-seguros-estadio-3-de-marzo-9-12-2026/event/107495134"
+  },
+  {
+    "id": "tm-weezer-2026-houston-z7r9jz1a7-mum",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "event_name": "WEEZER- The Gathering",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2026-10-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-MuM",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuM",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuM",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-MuM",
+        "discovery_event_id": "Z7r9jZ1A7-MuM",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuM",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-MuM",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2026-dallas-vvg1yz_kmvonlg",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "event_name": "WEEZER: The Gathering",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "American Airlines Center",
+    "datetime_iso": "2026-10-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00646DC182AACC",
+    "ticketmaster_url": "https://www.ticketmaster.com/weezer-the-gathering-dallas-texas-10-17-2026/event/0C00646DC182AACC",
+    "seatgeek_url": "https://seatgeek.com/weezer-tickets/dallas-texas-american-airlines-center-2026-10-17-7-pm/concert/18147541",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/weezer-the-gathering-dallas-texas-10-17-2026/event/0C00646DC182AACC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00646DC182AACC",
+        "discovery_event_id": "vvG1YZ_kMvOnlG",
+        "url": "https://www.ticketmaster.com/weezer-the-gathering-dallas-texas-10-17-2026/event/0C00646DC182AACC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_kMvOnlG",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2026-austin-g5diz_kmlrxx1",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "event_name": "WEEZER: The Gathering",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2026-10-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00646DDF7A288A",
+    "ticketmaster_url": "https://www.ticketmaster.com/weezer-the-gathering-austin-texas-10-18-2026/event/3A00646DDF7A288A",
+    "seatgeek_url": "https://seatgeek.com/weezer-tickets/austin-texas-moody-center-atx-2026-10-18-7-pm/concert/18147543",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/weezer-the-gathering-austin-texas-10-18-2026/event/3A00646DDF7A288A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00646DDF7A288A",
+        "discovery_event_id": "G5dIZ_kMLrxx1",
+        "url": "https://www.ticketmaster.com/weezer-the-gathering-austin-texas-10-18-2026/event/3A00646DDF7A288A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_kMLrxx1",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2026-phoenix-1av0z_kgkmn6hu7",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "event_name": "WEEZER: The Gathering",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Mortgage Matchup Center",
+    "datetime_iso": "2026-10-21T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900646DE31FCD84",
+    "ticketmaster_url": "https://www.ticketmaster.com/weezer-the-gathering-phoenix-arizona-10-20-2026/event/1900646DE31FCD84",
+    "seatgeek_url": "https://seatgeek.com/weezer-tickets/phoenix-arizona-mortgage-matchup-center-2026-10-20-7-pm/concert/18147545",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/weezer-the-gathering-phoenix-arizona-10-20-2026/event/1900646DE31FCD84",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900646DE31FCD84",
+        "discovery_event_id": "1Av0Z_kGkMN6HU7",
+        "url": "https://www.ticketmaster.com/weezer-the-gathering-phoenix-arizona-10-20-2026/event/1900646DE31FCD84",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_kGkMN6HU7",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2026-san-diego-vvg1iz_kucq_7i",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "event_name": "WEEZER: The Gathering",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Viejas Arena at Aztec Bowl San Diego State University",
+    "datetime_iso": "2026-10-22T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00646D8E69912C",
+    "ticketmaster_url": "https://www.ticketmaster.com/weezer-the-gathering-san-diego-california-10-21-2026/event/0A00646D8E69912C",
+    "seatgeek_url": "https://seatgeek.com/weezer-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-10-21-7-pm/concert/18147546",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/weezer-the-gathering-san-diego-california-10-21-2026/event/0A00646D8E69912C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00646D8E69912C",
+        "discovery_event_id": "vvG1IZ_kUCQ_7i",
+        "url": "https://www.ticketmaster.com/weezer-the-gathering-san-diego-california-10-21-2026/event/0A00646D8E69912C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_kUCQ_7i",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2026-las-vegas-z7r9jz1a7-muy",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "event_name": "WEEZER- The Gathering",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "T-Mobile Arena",
+    "datetime_iso": "2026-10-24T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-MuY",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuY",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuY",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-MuY",
+        "discovery_event_id": "Z7r9jZ1A7-MuY",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuY",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-MuY",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2026-los-angeles-g5eyz_ku9s8xi",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "event_name": "WEEZER: The Gathering",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Crypto.com Arena",
+    "datetime_iso": "2026-10-25T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2C00646D97C50FA8",
+    "ticketmaster_url": "https://www.ticketmaster.com/weezer-the-gathering-los-angeles-california-10-24-2026/event/2C00646D97C50FA8",
+    "seatgeek_url": "https://seatgeek.com/weezer-tickets/los-angeles-california-crypto-com-arena-2026-10-24-7-pm/concert/18147549",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/weezer-the-gathering-los-angeles-california-10-24-2026/event/2C00646D97C50FA8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2C00646D97C50FA8",
+        "discovery_event_id": "G5eYZ_kU9s8XI",
+        "url": "https://www.ticketmaster.com/weezer-the-gathering-los-angeles-california-10-24-2026/event/2C00646D97C50FA8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eYZ_kU9s8XI",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2027-dublin-17kzv0g62rlynaf",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "event_name": "Weezer",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-05-12T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064FBDFE6A154",
+    "ticketmaster_url": "https://www.ticketmaster.ie/weezer-dublin-12-05-2027/event/180064FBDFE6A154",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/weezer-dublin-12-05-2027/event/180064FBDFE6A154",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064FBDFE6A154",
+        "discovery_event_id": "17kZv0G62RLynAf",
+        "url": "https://www.ticketmaster.ie/weezer-dublin-12-05-2027/event/180064FBDFE6A154",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17kZv0G62RLynAf",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2027-newcastle-upon-tyne-g5vhz_8kkspwo",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "event_name": "Weezer",
+    "city": "Newcastle Upon Tyne",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Newcastle",
+    "datetime_iso": "2027-05-14T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006504D3CD6C91",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/weezer-newcastle-upon-tyne-14-05-2027/event/1F006504D3CD6C91",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/weezer-newcastle-upon-tyne-14-05-2027/event/1F006504D3CD6C91",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006504D3CD6C91",
+        "discovery_event_id": "G5vHZ_8KKSpwo",
+        "url": "https://www.ticketmaster.co.uk/weezer-newcastle-upon-tyne-14-05-2027/event/1F006504D3CD6C91",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_8KKSpwo",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2027-manchester-1amzkf7gkderotz",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "event_name": "Weezer",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-05-15T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006504C2791A78",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/weezer-manchester-15-05-2027/event/37006504C2791A78",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/weezer-manchester-15-05-2027/event/37006504C2791A78",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006504C2791A78",
+        "discovery_event_id": "1AMZkf7Gkderotz",
+        "url": "https://www.ticketmaster.co.uk/weezer-manchester-15-05-2027/event/37006504C2791A78",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZkf7Gkderotz",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2027-leeds-g5vhz_8pmm7nv",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "event_name": "Weezer",
+    "city": "Leeds",
+    "country": "Great Britain",
+    "venue": "Leeds First Direct Bank Arena",
+    "datetime_iso": "2027-05-17T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006505AEB848C1",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/weezer-leeds-17-05-2027/event/1F006505AEB848C1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/weezer-leeds-17-05-2027/event/1F006505AEB848C1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006505AEB848C1",
+        "discovery_event_id": "G5vHZ_8pmm7Nv",
+        "url": "https://www.ticketmaster.co.uk/weezer-leeds-17-05-2027/event/1F006505AEB848C1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_8pmm7Nv",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2027-glasgow-1auzkf7gkdxjsmu",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "event_name": "Weezer",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-05-19T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006504E29B3DF6",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/weezer-glasgow-19-05-2027/event/36006504E29B3DF6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/weezer-glasgow-19-05-2027/event/36006504E29B3DF6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006504E29B3DF6",
+        "discovery_event_id": "1AUZkf7GkdxJSMU",
+        "url": "https://www.ticketmaster.co.uk/weezer-glasgow-19-05-2027/event/36006504E29B3DF6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkf7GkdxJSMU",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2027-birmingham-1anzkf7gkdaoymm",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "event_name": "Weezer",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Birmingham",
+    "datetime_iso": "2027-05-21T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "23006504C9470BAE",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/weezer-birmingham-21-05-2027/event/23006504C9470BAE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/weezer-birmingham-21-05-2027/event/23006504C9470BAE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "23006504C9470BAE",
+        "discovery_event_id": "1ANZkf7GkdaoYmm",
+        "url": "https://www.ticketmaster.co.uk/weezer-birmingham-21-05-2027/event/23006504C9470BAE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ANZkf7GkdaoYmm",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2027-london-g5vhz_83wtacz",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "event_name": "Weezer",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Alexandra Palace",
+    "datetime_iso": "2027-05-22T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006504BDA453B8",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/weezer-london-22-05-2027/event/1F006504BDA453B8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/weezer-london-22-05-2027/event/1F006504BDA453B8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006504BDA453B8",
+        "discovery_event_id": "G5vHZ_83WtACz",
+        "url": "https://www.ticketmaster.co.uk/weezer-london-22-05-2027/event/1F006504BDA453B8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_83WtACz",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2027-cardiff-1auzkf7gkevbx3b",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "event_name": "Weezer",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Cardiff",
+    "datetime_iso": "2027-05-23T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006504B4EA24BA",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/weezer-cardiff-23-05-2027/event/36006504B4EA24BA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/weezer-cardiff-23-05-2027/event/36006504B4EA24BA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006504B4EA24BA",
+        "discovery_event_id": "1AUZkf7GkeVBx3B",
+        "url": "https://www.ticketmaster.co.uk/weezer-cardiff-23-05-2027/event/36006504B4EA24BA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkf7GkeVBx3B",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2027-oslo-z698xzb_z16vpd8jgb",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "event_name": "Weezer",
+    "city": "Oslo",
+    "country": "Norway",
+    "venue": "Oslo Spektrum",
+    "datetime_iso": "2027-05-29T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1943426318",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/weezer-tickets/1943426318?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/weezer-tickets/1943426318?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1943426318",
+        "discovery_event_id": "Z698xZb_Z16vPd8JGb",
+        "url": "https://www.ticketmaster.no/event/weezer-tickets/1943426318?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z16vPd8JGb",
+    "timezone": "Europe/Oslo",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2027-helsinki-z698xz8kz1ku3e4ea",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "event_name": "Weezer | Legazy Seat Ticket",
+    "city": "Helsinki",
+    "country": "Finland",
+    "venue": "Veikkaus Arena",
+    "datetime_iso": "2027-06-01T15:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "352095089",
+    "ticketmaster_url": "https://www.ticketmaster.fi/event/weezer-%7C-legazy-seat-ticket-tickets/352095089?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.fi/event/weezer-%7C-legazy-seat-ticket-tickets/352095089?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "352095089",
+        "discovery_event_id": "Z698xZ8KZ1ku3e4ea",
+        "url": "https://www.ticketmaster.fi/event/weezer-%7C-legazy-seat-ticket-tickets/352095089?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ8KZ1ku3e4ea",
+    "timezone": "Europe/Helsinki",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ella-langley-2026-des-moines-z7r9jz1a7pwkk",
+    "artist_slug": "ella-langley",
+    "artist_name": "Ella Langley",
+    "event_name": "Ella Langley",
+    "city": "Des Moines",
+    "country": "United States Of America",
+    "venue": "Casey's Center",
+    "datetime_iso": "2026-10-30T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Pwkk",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pwkk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pwkk",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Pwkk",
+        "discovery_event_id": "Z7r9jZ1A7Pwkk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pwkk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pwkk",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ella-langley-2026-lincoln-vvg1bz_u6bp0me",
+    "artist_slug": "ella-langley",
+    "artist_name": "Ella Langley",
+    "event_name": "Ella Langley: The Dandelion Tour",
+    "city": "Lincoln",
+    "country": "United States Of America",
+    "venue": "Pinnacle Bank Arena",
+    "datetime_iso": "2026-10-31T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060064D1D85A4BA7",
+    "ticketmaster_url": "https://www.ticketmaster.com/ella-langley-the-dandelion-tour-lincoln-nebraska-10-30-2026/event/060064D1D85A4BA7",
+    "seatgeek_url": "https://seatgeek.com/ella-langley-tickets/lincoln-nebraska-pinnacle-bank-arena-2026-10-30-7-pm/concert/18324412",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/ella-langley-the-dandelion-tour-lincoln-nebraska-10-30-2026/event/060064D1D85A4BA7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060064D1D85A4BA7",
+        "discovery_event_id": "vvG1bZ_u6bp0mE",
+        "url": "https://www.ticketmaster.com/ella-langley-the-dandelion-tour-lincoln-nebraska-10-30-2026/event/060064D1D85A4BA7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1bZ_u6bp0mE",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ella-langley-2026-saint-paul-z7r9jz1a7ppo7",
+    "artist_slug": "ella-langley",
+    "artist_name": "Ella Langley",
+    "event_name": "Ella Langley w/ Kameron Marlowe",
+    "city": "Saint Paul",
+    "country": "United States Of America",
+    "venue": "Grand Casino Arena",
+    "datetime_iso": "2026-11-01T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PPo7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PPo7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PPo7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PPo7",
+        "discovery_event_id": "Z7r9jZ1A7PPo7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PPo7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PPo7",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-aerosmith-2026-hollywood-vvg1iz_kzl1gke",
+    "artist_slug": "aerosmith",
+    "artist_name": "Aerosmith",
+    "event_name": "California Dream On: Aerosmith & Friends",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Bowl",
+    "datetime_iso": "2026-10-30T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B00653E2B28C4E7",
+    "ticketmaster_url": "https://www.ticketmaster.com/california-dream-on-aerosmith-friends-hollywood-california-10-29-2026/event/0B00653E2B28C4E7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/california-dream-on-aerosmith-friends-hollywood-california-10-29-2026/event/0B00653E2B28C4E7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B00653E2B28C4E7",
+        "discovery_event_id": "vvG1iZ_Kzl1GKE",
+        "url": "https://www.ticketmaster.com/california-dream-on-aerosmith-friends-hollywood-california-10-29-2026/event/0B00653E2B28C4E7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZ_Kzl1GKE",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-aerosmith-2026-hollywood-vvg1iz_kzl5ikm",
+    "artist_slug": "aerosmith",
+    "artist_name": "Aerosmith",
+    "event_name": "California Dream On: Aerosmith & Friends",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Bowl",
+    "datetime_iso": "2026-11-02T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B00653E2B2EC4EE",
+    "ticketmaster_url": "https://www.ticketmaster.com/california-dream-on-aerosmith-friends-hollywood-california-11-01-2026/event/0B00653E2B2EC4EE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/california-dream-on-aerosmith-friends-hollywood-california-11-01-2026/event/0B00653E2B2EC4EE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B00653E2B2EC4EE",
+        "discovery_event_id": "vvG1iZ_Kzl5iKm",
+        "url": "https://www.ticketmaster.com/california-dream-on-aerosmith-friends-hollywood-california-11-01-2026/event/0B00653E2B2EC4EE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZ_Kzl5iKm",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2026-portland-vvg1hzbmka2ayz",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "event_name": "MANÁ: VIVIR SIN AIRE TOUR",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Moda Center",
+    "datetime_iso": "2026-10-17T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006374C93C9C38",
+    "ticketmaster_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-portland-oregon-10-16-2026/event/0F006374C93C9C38",
+    "seatgeek_url": "https://seatgeek.com/mana-tickets/portland-oregon-moda-center-2026-10-16-8-30-pm/concert/17938855",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-portland-oregon-10-16-2026/event/0F006374C93C9C38",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006374C93C9C38",
+        "discovery_event_id": "vvG1HZbMKa2aYz",
+        "url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-portland-oregon-10-16-2026/event/0F006374C93C9C38",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZbMKa2aYz",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2026-seattle-vvg1hzbmeehmj0",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "event_name": "Maná: Vivir Sin Aire Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2026-10-18T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006379C26F7724",
+    "ticketmaster_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-seattle-washington-10-17-2026/event/0F006379C26F7724",
+    "seatgeek_url": "https://seatgeek.com/mana-tickets/seattle-washington-climate-pledge-arena-2026-10-17-8-30-pm/concert/17938856",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-seattle-washington-10-17-2026/event/0F006379C26F7724",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006379C26F7724",
+        "discovery_event_id": "vvG1HZbMEehMj0",
+        "url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-seattle-washington-10-17-2026/event/0F006379C26F7724",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZbMEehMj0",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2026-rosemont-vv167zkuuokza2adc5",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "event_name": "MANÁ: VIVIR SIN AIRE TOUR",
+    "city": "Rosemont",
+    "country": "United States Of America",
+    "venue": "Allstate Arena",
+    "datetime_iso": "2026-10-31T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006376813E42DA",
+    "ticketmaster_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-rosemont-illinois-10-30-2026/event/04006376813E42DA",
+    "seatgeek_url": "https://seatgeek.com/mana-tickets/rosemont-illinois-allstate-arena-2026-10-30-8-pm/concert/17938857",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-rosemont-illinois-10-30-2026/event/04006376813E42DA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006376813E42DA",
+        "discovery_event_id": "vv167ZkuUOKZA2AdC5",
+        "url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-rosemont-illinois-10-30-2026/event/04006376813E42DA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv167ZkuUOKZA2AdC5",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2026-detroit-vv1fozbj3ezozd87v",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "event_name": "MANÁ: VIVIR SIN AIRE TOUR",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Little Caesars Arena",
+    "datetime_iso": "2026-11-02T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800626482020F30",
+    "ticketmaster_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-detroit-michigan-11-01-2026/event/0800626482020F30",
+    "seatgeek_url": "https://seatgeek.com/mana-tickets/detroit-michigan-little-caesars-arena-2026-11-01-8-pm/concert/17416937",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-detroit-michigan-11-01-2026/event/0800626482020F30",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800626482020F30",
+        "discovery_event_id": "vv1FOZbJ3eZOZd87v",
+        "url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-detroit-michigan-11-01-2026/event/0800626482020F30",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1FOZbJ3eZOZd87v",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2026-houston-z7r9jz1a7rbk4",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "event_name": "MANA: VIVIR SIN AIRE TOUR",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2026-11-07T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7rbk4",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rbk4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rbk4",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7rbk4",
+        "discovery_event_id": "Z7r9jZ1A7rbk4",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rbk4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7rbk4",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2026-austin-g5dizbmoaqckm",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "event_name": "MANÁ: VIVIR SIN AIRE TOUR",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2026-11-09T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0063780576D4F7",
+    "ticketmaster_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-austin-texas-11-08-2026/event/3A0063780576D4F7",
+    "seatgeek_url": "https://seatgeek.com/mana-tickets/austin-texas-moody-center-atx-2026-11-08-8-30-pm/concert/17938859",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-austin-texas-11-08-2026/event/3A0063780576D4F7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0063780576D4F7",
+        "discovery_event_id": "G5dIZbMOAqcKM",
+        "url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-austin-texas-11-08-2026/event/3A0063780576D4F7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZbMOAqcKM",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2026-ciudad-de-mexico-17azv0g6glh8hre",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "event_name": "MANÁ",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2026-12-17T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "140064CADB43C782",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/mana-ciudad-de-mexico-16-12-2026/event/140064CADB43C782",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/mana-ciudad-de-mexico-16-12-2026/event/140064CADB43C782",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "140064CADB43C782",
+        "discovery_event_id": "17AZv0G6Glh8Hre",
+        "url": "https://www.ticketmaster.com.mx/mana-ciudad-de-mexico-16-12-2026/event/140064CADB43C782",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AZv0G6Glh8Hre",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2026-ciudad-de-mexico-17azv0g6gcz4ax4",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "event_name": "MANÁ",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2026-12-18T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "140064C3B8549F95",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/mana-ciudad-de-mexico-17-12-2026/event/140064C3B8549F95",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/mana-ciudad-de-mexico-17-12-2026/event/140064C3B8549F95",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "140064C3B8549F95",
+        "discovery_event_id": "17AZv0G6GCz4aX4",
+        "url": "https://www.ticketmaster.com.mx/mana-ciudad-de-mexico-17-12-2026/event/140064C3B8549F95",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AZv0G6GCz4aX4",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-columbus-vv17fz_8gkvoktkm",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Nationwide Arena",
+    "datetime_iso": "2026-10-16T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500650D111BF1B7",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-columbus-ohio-10-16-2026/event/0500650D111BF1B7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-columbus-ohio-10-16-2026/event/0500650D111BF1B7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500650D111BF1B7",
+        "discovery_event_id": "vv17fZ_8GkVokTkM",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-columbus-ohio-10-16-2026/event/0500650D111BF1B7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_8GkVokTkM",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-lexington-1avbz_8gkb06ivs",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Lexington",
+    "country": "United States Of America",
+    "venue": "Rupp Arena",
+    "datetime_iso": "2026-10-17T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600650EA41E8D31",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-lexington-kentucky-10-17-2026/event/1600650EA41E8D31",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-lexington-kentucky-10-17-2026/event/1600650EA41E8D31",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600650EA41E8D31",
+        "discovery_event_id": "1AvbZ_8GkB06IVs",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-lexington-kentucky-10-17-2026/event/1600650EA41E8D31",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_8GkB06IVs",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-cleveland-z7r9jz1aazw4y",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "Rocket Arena",
+    "datetime_iso": "2026-10-19T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZw4y",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZw4y",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZw4y",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZw4y",
+        "discovery_event_id": "Z7r9jZ1AAZw4y",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZw4y",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZw4y",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-buffalo-k7vgf_8deoygx",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Buffalo",
+    "country": "United States Of America",
+    "venue": "KeyBank Center",
+    "datetime_iso": "2026-10-20T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0000650EC2479322",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-buffalo-new-york-10-20-2026/event/0000650EC2479322",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-buffalo-new-york-10-20-2026/event/0000650EC2479322",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000650EC2479322",
+        "discovery_event_id": "k7vGF_8DeoyGx",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-buffalo-new-york-10-20-2026/event/0000650EC2479322",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_8DeoyGx",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-rosemont-vv178z_8gkymmwt7",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Rosemont",
+    "country": "United States Of America",
+    "venue": "Allstate Arena",
+    "datetime_iso": "2026-10-23T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400650E6EDF2A44",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-rosemont-illinois-10-22-2026/event/0400650E6EDF2A44",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-rosemont-illinois-10-22-2026/event/0400650E6EDF2A44",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400650E6EDF2A44",
+        "discovery_event_id": "vv178Z_8GkymMwt7",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-rosemont-illinois-10-22-2026/event/0400650E6EDF2A44",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv178Z_8GkymMwt7",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-toronto-1avzz_ogkui9hto",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Scotiabank Arena",
+    "datetime_iso": "2026-10-24T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000651DAC5DBFD1",
+    "ticketmaster_url": "https://www.ticketmaster.ca/jonas-brothers-the-burning-up-tour-toronto-ontario-10-24-2026/event/1000651DAC5DBFD1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/jonas-brothers-the-burning-up-tour-toronto-ontario-10-24-2026/event/1000651DAC5DBFD1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000651DAC5DBFD1",
+        "discovery_event_id": "1AvZZ_oGkUi9hTo",
+        "url": "https://www.ticketmaster.ca/jonas-brothers-the-burning-up-tour-toronto-ontario-10-24-2026/event/1000651DAC5DBFD1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_oGkUi9hTo",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-detroit-vv17oz_8gksd_91x",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Little Caesars Arena",
+    "datetime_iso": "2026-10-25T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800650CC36572A2",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-detroit-michigan-10-25-2026/event/0800650CC36572A2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-detroit-michigan-10-25-2026/event/0800650CC36572A2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800650CC36572A2",
+        "discovery_event_id": "vv17OZ_8GkSd_91x",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-detroit-michigan-10-25-2026/event/0800650CC36572A2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_8GkSd_91x",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-pittsburgh-1avbz_8gky0yxyy",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "PPG Paints Arena",
+    "datetime_iso": "2026-10-26T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600650C24C22E70",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-pittsburgh-pennsylvania-10-26-2026/event/1600650C24C22E70",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-pittsburgh-pennsylvania-10-26-2026/event/1600650C24C22E70",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600650C24C22E70",
+        "discovery_event_id": "1AvbZ_8GkY0YxyY",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-pittsburgh-pennsylvania-10-26-2026/event/1600650C24C22E70",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_8GkY0YxyY",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-milwaukee-vv17jz_8gkmhf3ll",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Fiserv Forum",
+    "datetime_iso": "2026-11-02T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700650DFC2127EB",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-milwaukee-wisconsin-11-01-2026/event/0700650DFC2127EB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-milwaukee-wisconsin-11-01-2026/event/0700650DFC2127EB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700650DFC2127EB",
+        "discovery_event_id": "vv17jZ_8GkMHF3Ll",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-milwaukee-wisconsin-11-01-2026/event/0700650DFC2127EB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17jZ_8GkMHF3Ll",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-saint-paul-z7r9jz1aazwba",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Saint Paul",
+    "country": "United States Of America",
+    "venue": "Grand Casino Arena",
+    "datetime_iso": "2026-11-03T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZwba",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwba",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwba",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZwba",
+        "discovery_event_id": "Z7r9jZ1AAZwba",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwba",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZwba",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-kansas-city-vv17bz_8gkbffbsf",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "T-Mobile Center",
+    "datetime_iso": "2026-11-04T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600650E94218C54",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-kansas-city-missouri-11-03-2026/event/0600650E94218C54",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-kansas-city-missouri-11-03-2026/event/0600650E94218C54",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600650E94218C54",
+        "discovery_event_id": "vv17bZ_8GkBfFbsf",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-kansas-city-missouri-11-03-2026/event/0600650E94218C54",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_8GkBfFbsf",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-nashville-g5viz_8vksnah",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2026-11-06T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00650D13C6A27C",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-nashville-tennessee-11-05-2026/event/1B00650D13C6A27C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-nashville-tennessee-11-05-2026/event/1B00650D13C6A27C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00650D13C6A27C",
+        "discovery_event_id": "G5viZ_8VKsnaH",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-nashville-tennessee-11-05-2026/event/1B00650D13C6A27C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_8VKsnaH",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-birmingham-1aezz_8gkmdc0pi",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Legacy Arena at the BJCC",
+    "datetime_iso": "2026-11-07T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2000650DC33A45A8",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-birmingham-alabama-11-06-2026/event/2000650DC33A45A8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-birmingham-alabama-11-06-2026/event/2000650DC33A45A8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000650DC33A45A8",
+        "discovery_event_id": "1AeZZ_8GkMdC0pI",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-birmingham-alabama-11-06-2026/event/2000650DC33A45A8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeZZ_8GkMdC0pI",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-houston-z7r9jz1aavxjk",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2026-11-09T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvxjK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvxjK",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvxjK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvxjK",
+        "discovery_event_id": "Z7r9jZ1AAvxjK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvxjK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvxjK",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-oklahoma-city-vvg1yz_8mnyt3j",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Oklahoma City",
+    "country": "United States Of America",
+    "venue": "Paycom Center",
+    "datetime_iso": "2026-11-10T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00650DEAE7F49C",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-oklahoma-city-oklahoma-11-09-2026/event/0C00650DEAE7F49C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-oklahoma-city-oklahoma-11-09-2026/event/0C00650DEAE7F49C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00650DEAE7F49C",
+        "discovery_event_id": "vvG1YZ_8MnyT3j",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-oklahoma-city-oklahoma-11-09-2026/event/0C00650DEAE7F49C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_8MnyT3j",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-dallas-vvg1yz_8uftpd5",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "American Airlines Center",
+    "datetime_iso": "2026-11-11T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00650D94FD60CB",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-dallas-texas-11-10-2026/event/0C00650D94FD60CB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-dallas-texas-11-10-2026/event/0C00650D94FD60CB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00650D94FD60CB",
+        "discovery_event_id": "vvG1YZ_8UfTpd5",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-dallas-texas-11-10-2026/event/0C00650D94FD60CB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_8UfTpd5",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-austin-g5diz_8vesk58",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2026-11-14T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00650D02CC62D0",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-austin-texas-11-13-2026/event/3A00650D02CC62D0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-austin-texas-11-13-2026/event/3A00650D02CC62D0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00650D02CC62D0",
+        "discovery_event_id": "G5dIZ_8VeSk58",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-austin-texas-11-13-2026/event/3A00650D02CC62D0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_8VeSk58",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-san-antonio-g5diz_8uwwbjr",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Frost Bank Center",
+    "datetime_iso": "2026-11-15T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00650DB2F7A71E",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-san-antonio-texas-11-14-2026/event/3A00650DB2F7A71E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-san-antonio-texas-11-14-2026/event/3A00650DB2F7A71E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00650DB2F7A71E",
+        "discovery_event_id": "G5dIZ_8UwWBjr",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-san-antonio-texas-11-14-2026/event/3A00650DB2F7A71E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_8UwWBjr",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-palm-desert-vvg1iz_8yuodgq",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Palm Desert",
+    "country": "United States Of America",
+    "venue": "Acrisure Arena at Greater Palm Springs",
+    "datetime_iso": "2026-11-18T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00650C36443D5D",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-palm-desert-california-11-17-2026/event/0A00650C36443D5D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-palm-desert-california-11-17-2026/event/0A00650C36443D5D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00650C36443D5D",
+        "discovery_event_id": "vvG1IZ_8YUodgq",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-palm-desert-california-11-17-2026/event/0A00650C36443D5D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_8YUodgq",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-hollywood-vvg1iz_8duyuu5",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Bowl",
+    "datetime_iso": "2026-11-19T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B00650ECDC0DD8B",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-18-2026/event/0B00650ECDC0DD8B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-18-2026/event/0B00650ECDC0DD8B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B00650ECDC0DD8B",
+        "discovery_event_id": "vvG1iZ_8DuYuU5",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-18-2026/event/0B00650ECDC0DD8B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZ_8DuYuU5",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-hollywood-vvg1iz_o7yeh8v",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Bowl",
+    "datetime_iso": "2026-11-20T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B006511309DB401",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-19-2026/event/0B006511309DB401",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-19-2026/event/0B006511309DB401",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B006511309DB401",
+        "discovery_event_id": "vvG1iZ_o7YEh8v",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-19-2026/event/0B006511309DB401",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZ_o7YEh8v",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-san-francisco-g5vyz_8sbxulz",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Chase Center",
+    "datetime_iso": "2026-11-22T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00650CD888DAC0",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-san-francisco-california-11-21-2026/event/1C00650CD888DAC0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-san-francisco-california-11-21-2026/event/1C00650CD888DAC0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00650CD888DAC0",
+        "discovery_event_id": "G5vYZ_8SbxulZ",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-san-francisco-california-11-21-2026/event/1C00650CD888DAC0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_8SbxulZ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-sacramento-g5vyz_8sde9yz",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Golden 1 Center",
+    "datetime_iso": "2026-11-23T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00650CFB097E40",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-sacramento-california-11-22-2026/event/1C00650CFB097E40",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-sacramento-california-11-22-2026/event/1C00650CFB097E40",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00650CFB097E40",
+        "discovery_event_id": "G5vYZ_8SDe9yZ",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-sacramento-california-11-22-2026/event/1C00650CFB097E40",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_8SDe9yZ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-glendale-1av0z_8gkmoa_ep",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Glendale",
+    "country": "United States Of America",
+    "venue": "Desert Diamond Arena",
+    "datetime_iso": "2026-11-28T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900650DD11599D6",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-glendale-arizona-11-27-2026/event/1900650DD11599D6",
+    "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/glendale-arizona-desert-diamond-arena-2026-11-27-7-30-pm/concert/18503907",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-glendale-arizona-11-27-2026/event/1900650DD11599D6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900650DD11599D6",
+        "discovery_event_id": "1Av0Z_8GkMoA_Ep",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-glendale-arizona-11-27-2026/event/1900650DD11599D6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_8GkMoA_Ep",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-las-vegas-z7r9jz1aazwb_",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "MGM Grand Garden Arena",
+    "datetime_iso": "2026-11-29T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZwb_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwb_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwb_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZwb_",
+        "discovery_event_id": "Z7r9jZ1AAZwb_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwb_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZwb_",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-san-diego-vvg1iz_8uk3mob",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Viejas Arena at Aztec Bowl San Diego State University",
+    "datetime_iso": "2026-12-01T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00650D864B747A",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-san-diego-california-11-30-2026/event/0A00650D864B747A",
+    "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-11-30-7-30-pm/concert/18503919",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-san-diego-california-11-30-2026/event/0A00650D864B747A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00650D864B747A",
+        "discovery_event_id": "vvG1IZ_8Uk3MoB",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-san-diego-california-11-30-2026/event/0A00650D864B747A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_8Uk3MoB",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-anaheim-vv170z_8gkskkuxl",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "Honda Center",
+    "datetime_iso": "2026-12-03T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0900650C4618D89F",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-anaheim-california-12-02-2026/event/0900650C4618D89F",
+    "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/anaheim-california-honda-center-2026-12-02-7-30-pm/concert/18503918",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-anaheim-california-12-02-2026/event/0900650C4618D89F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900650C4618D89F",
+        "discovery_event_id": "vv170Z_8GkskkuxL",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-anaheim-california-12-02-2026/event/0900650C4618D89F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv170Z_8GkskkuxL",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-seattle-vvg1hz_8uqqunb",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2026-12-06T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00650D9D7768D8",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-seattle-washington-12-05-2026/event/0F00650D9D7768D8",
+    "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/seattle-washington-climate-pledge-arena-2026-12-05-7-30-pm/concert/18503920",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-seattle-washington-12-05-2026/event/0F00650D9D7768D8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00650D9D7768D8",
+        "discovery_event_id": "vvG1HZ_8UqqUNb",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-seattle-washington-12-05-2026/event/0F00650D9D7768D8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_8UqqUNb",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-salt-lake-city-z7r9jz1aazwb9",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "Delta Center",
+    "datetime_iso": "2026-12-08T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZwb9",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwb9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwb9",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZwb9",
+        "discovery_event_id": "Z7r9jZ1AAZwb9",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwb9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZwb9",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-denver-g5vzz_8u_uayk",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ball Arena",
+    "datetime_iso": "2026-12-10T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00650D99D85C06",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-denver-colorado-12-09-2026/event/1E00650D99D85C06",
+    "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/denver-colorado-ball-arena-2026-12-09-7-30-pm/concert/18503921",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-denver-colorado-12-09-2026/event/1E00650D99D85C06",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00650D99D85C06",
+        "discovery_event_id": "G5vzZ_8U_UAYk",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-denver-colorado-12-09-2026/event/1E00650D99D85C06",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_8U_UAYk",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-lincoln-vv17bz_8gkmchsxu",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Lincoln",
+    "country": "United States Of America",
+    "venue": "Pinnacle Bank Arena",
+    "datetime_iso": "2026-12-11T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600650DED6F1F8D",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-lincoln-nebraska-12-10-2026/event/0600650DED6F1F8D",
+    "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/lincoln-nebraska-pinnacle-bank-arena-2026-12-10-7-30-pm/concert/18503923",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-lincoln-nebraska-12-10-2026/event/0600650DED6F1F8D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600650DED6F1F8D",
+        "discovery_event_id": "vv17bZ_8GkMchsXu",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-lincoln-nebraska-12-10-2026/event/0600650DED6F1F8D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_8GkMchsXu",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-sioux-falls-vv17bz_8gkdvaovc",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Sioux Falls",
+    "country": "United States Of America",
+    "venue": "Denny Sanford PREMIER Center",
+    "datetime_iso": "2026-12-13T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600650EC125104E",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-sioux-falls-south-dakota-12-12-2026/event/0600650EC125104E",
+    "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/sioux-falls-south-dakota-denny-sanford-premier-center-2026-12-12-7-30-pm/concert/18503922",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-sioux-falls-south-dakota-12-12-2026/event/0600650EC125104E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600650EC125104E",
+        "discovery_event_id": "vv17bZ_8GkDvaovC",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-sioux-falls-south-dakota-12-12-2026/event/0600650EC125104E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_8GkDvaovC",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-grand-rapids-vv17oz_8gkbyzdvo",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "Van Andel Arena",
+    "datetime_iso": "2026-12-16T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800650EB9E3B051",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-grand-rapids-michigan-12-15-2026/event/0800650EB9E3B051",
+    "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/grand-rapids-michigan-van-andel-arena-2026-12-15-7-30-pm/concert/18503930",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-grand-rapids-michigan-12-15-2026/event/0800650EB9E3B051",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800650EB9E3B051",
+        "discovery_event_id": "vv17OZ_8GkByzDvo",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-grand-rapids-michigan-12-15-2026/event/0800650EB9E3B051",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_8GkByzDvo",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-belmont-park-1adzz_8gku_lwnk",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Belmont Park",
+    "country": "United States Of America",
+    "venue": "UBS Arena",
+    "datetime_iso": "2026-12-20T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3000650D997F2A93",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-belmont-park-new-york-12-19-2026/event/3000650D997F2A93",
+    "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/elmont-new-york-ubs-arena-2026-12-19-7-30-pm/concert/18503931",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-belmont-park-new-york-12-19-2026/event/3000650D997F2A93",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3000650D997F2A93",
+        "discovery_event_id": "1AdZZ_8GkU_LwnK",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-belmont-park-new-york-12-19-2026/event/3000650D997F2A93",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdZZ_8GkU_LwnK",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-newark-vv17fz_8gkzo23wg",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Newark",
+    "country": "United States Of America",
+    "venue": "Prudential Center",
+    "datetime_iso": "2026-12-22T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200650E113D2CB5",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-newark-new-jersey-12-21-2026/event/0200650E113D2CB5",
+    "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/newark-new-jersey-prudential-center-2026-12-21-7-30-pm/concert/18503932",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-newark-new-jersey-12-21-2026/event/0200650E113D2CB5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200650E113D2CB5",
+        "discovery_event_id": "vv17FZ_8Gkzo23wg",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-newark-new-jersey-12-21-2026/event/0200650E113D2CB5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_8Gkzo23wg",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-newark-vv17fz_8gkzo8xsx",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "event_name": "Jonas Brothers: The Burning Up Tour All Over Again",
+    "city": "Newark",
+    "country": "United States Of America",
+    "venue": "Prudential Center",
+    "datetime_iso": "2026-12-23T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200650E11422CE2",
+    "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-newark-new-jersey-12-22-2026/event/0200650E11422CE2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-newark-new-jersey-12-22-2026/event/0200650E11422CE2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200650E11422CE2",
+        "discovery_event_id": "vv17FZ_8Gkzo8xSx",
+        "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-newark-new-jersey-12-22-2026/event/0200650E11422CE2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_8Gkzo8xSx",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-brent-faiyaz-2026-chicago-vv1a7zkfwgkda-klv",
+    "artist_slug": "brent-faiyaz",
+    "artist_name": "Brent Faiyaz",
+    "event_name": "Brent Faiyaz Live: I Spent The Night With Brent Faiyaz",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2026-12-01T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006532C9853AC1",
+    "ticketmaster_url": "https://www.ticketmaster.com/brent-faiyaz-live-i-spent-the-chicago-illinois-11-30-2026/event/04006532C9853AC1",
+    "seatgeek_url": "https://seatgeek.com/brent-faiyaz-tickets/chicago-illinois-united-center-2026-11-30-8-pm/concert/18617422",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/brent-faiyaz-live-i-spent-the-chicago-illinois-11-30-2026/event/04006532C9853AC1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006532C9853AC1",
+        "discovery_event_id": "vv1A7ZkfwGkda-Klv",
+        "url": "https://www.ticketmaster.com/brent-faiyaz-live-i-spent-the-chicago-illinois-11-30-2026/event/04006532C9853AC1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7ZkfwGkda-Klv",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-brent-faiyaz-2026-brooklyn-1adzz_3gkxkyvwj",
+    "artist_slug": "brent-faiyaz",
+    "artist_name": "Brent Faiyaz",
+    "event_name": "Brent Faiyaz Live: I Spent The Night With Brent Faiyaz",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Barclays Center",
+    "datetime_iso": "2026-12-04T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3000652F86C01F5C",
+    "ticketmaster_url": "https://www.ticketmaster.com/brent-faiyaz-live-i-spent-the-brooklyn-new-york-12-03-2026/event/3000652F86C01F5C",
+    "seatgeek_url": "https://seatgeek.com/brent-faiyaz-tickets/brooklyn-new-york-barclays-center-2026-12-03-8-pm/concert/18618383",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/brent-faiyaz-live-i-spent-the-brooklyn-new-york-12-03-2026/event/3000652F86C01F5C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3000652F86C01F5C",
+        "discovery_event_id": "1AdZZ_3GkXkYvWj",
+        "url": "https://www.ticketmaster.com/brent-faiyaz-live-i-spent-the-brooklyn-new-york-12-03-2026/event/3000652F86C01F5C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdZZ_3GkXkYvWj",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-brent-faiyaz-2026-los-angeles-z7r9jz1aae7ub",
+    "artist_slug": "brent-faiyaz",
+    "artist_name": "Brent Faiyaz",
+    "event_name": "Brent Faiyaz",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Crypto.com Arena",
+    "datetime_iso": "2026-12-12T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe7ub",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe7ub",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe7ub",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe7ub",
+        "discovery_event_id": "Z7r9jZ1AAe7ub",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe7ub",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe7ub",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

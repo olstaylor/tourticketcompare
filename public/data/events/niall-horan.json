@@ -547,11 +547,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7831765",
-        "url": "https://www.ticketnetwork.com/en/p/7831765",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107146205",
@@ -571,7 +571,7 @@
     "ticketmaster_discovery_event_id": "Z698xZbpZ1A9foCb",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831765",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-amsterdam-ziggo-dome-15-10-2026/event/107146205",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831765/Niall-Horan-tickets-Thu-Oct-15-2026-Ziggo-Dome",
     "organizer_names": [

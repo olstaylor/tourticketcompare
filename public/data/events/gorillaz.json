@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7774755",
+        "url": "https://www.ticketnetwork.com/en/p/7774755",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_AR2gVoT",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774755"
   },
   {
     "id": "tm-gorillaz-2026-fort-worth-vvg1yz_dxo-e0o",
@@ -99,6 +107,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7774756",
+        "url": "https://www.ticketnetwork.com/en/p/7774756",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_dxO-E0O",
@@ -106,7 +121,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774756"
   },
   {
     "id": "tm-gorillaz-2026-denver-g5vzz_amqia8m",
@@ -155,6 +171,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7774757",
+        "url": "https://www.ticketnetwork.com/en/p/7774757",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_Amqia8M",
@@ -162,7 +185,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774757"
   },
   {
     "id": "tm-gorillaz-2026-salt-lake-city-z7r9jz1a7-9ai",
@@ -211,6 +235,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7774760",
+        "url": "https://www.ticketnetwork.com/en/p/7774760",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-9AI",
@@ -218,7 +249,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774760"
   },
   {
     "id": "tm-gorillaz-2026-phoenix-1av0z_agknirbye",
@@ -267,6 +299,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7774761",
+        "url": "https://www.ticketnetwork.com/en/p/7774761",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_AGknirbye",
@@ -281,7 +320,8 @@
         "start": "2026-03-09T17:00:00Z",
         "end": "2026-10-19T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774761"
   },
   {
     "id": "tm-gorillaz-2026-inglewood-vv170z_agkmi0jmt",
@@ -330,6 +370,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7774762",
+        "url": "https://www.ticketnetwork.com/en/p/7774762",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_AGkmI0jmT",
@@ -344,7 +391,8 @@
         "start": "2026-03-09T17:00:00Z",
         "end": "2026-10-20T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774762"
   },
   {
     "id": "tm-gorillaz-2026-san-diego-vvg1iz_ai_rrcv",
@@ -393,6 +441,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7774764",
+        "url": "https://www.ticketnetwork.com/en/p/7774764",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_Ai_rrcV",
@@ -407,7 +462,8 @@
         "start": "2026-03-09T17:00:00Z",
         "end": "2026-10-21T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774764"
   },
   {
     "id": "tm-gorillaz-2026-oakland-g5vyz_allhhol",
@@ -456,6 +512,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7774765",
+        "url": "https://www.ticketnetwork.com/en/p/7774765",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_AllHHol",
@@ -471,7 +534,8 @@
         "start": "2026-03-09T17:00:00Z",
         "end": "2026-10-24T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774765"
   },
   {
     "id": "tm-gorillaz-2026-portland-vvg1hz_anwqdfp",
@@ -520,6 +584,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7774766",
+        "url": "https://www.ticketnetwork.com/en/p/7774766",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_AnwQDFp",
@@ -534,7 +605,8 @@
         "start": "2026-03-09T17:00:00Z",
         "end": "2026-10-26T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774766"
   },
   {
     "id": "tm-gorillaz-2026-seattle-vvg1hz_aeloqv3",
@@ -583,6 +655,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7774767",
+        "url": "https://www.ticketnetwork.com/en/p/7774767",
+        "verified": true,
+        "last_verified_at": "2026-10-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_AEloQv3",
@@ -597,7 +676,8 @@
         "start": "2026-03-09T17:00:00Z",
         "end": "2026-10-27T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774767"
   },
   {
     "id": "tm-gorillaz-2026-zapopan-g5dvz_8mtgfu6",

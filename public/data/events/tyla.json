@@ -48,11 +48,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8168767",
-        "url": "https://www.ticketnetwork.com/en/p/8168767",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8168767",
@@ -72,7 +72,7 @@
     "ticketmaster_discovery_event_id": "G5dzZ_29jK-Dk",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8168767",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8168767/Tyla-tickets-Thu-Oct-15-2026-O2-Academy-Brixton",
     "stubhub_international_url": "https://www.stubhub.ie/tyla-tickets-london-o2-academy-brixton-15-10-2026/event/107460096",
     "organizer_names": [
@@ -669,11 +669,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8164817",
-        "url": "https://www.ticketnetwork.com/en/p/8164817",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8164817",
@@ -693,7 +693,7 @@
     "ticketmaster_discovery_event_id": "G5vYZ_2fIMqin",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164817",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164817/Tyla-tickets-Fri-Nov-13-2026-Bill-Graham-Civic-Auditorium",
     "stubhub_international_url": "https://www.stubhub.ie/tyla-san-francisco-tickets-11-13-2026/event/107460123",
     "presales": [

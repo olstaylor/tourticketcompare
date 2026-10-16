@@ -1700,5 +1700,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294558",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294558/The-Love-of-Soul-Tour-tickets-Sat-Apr-24-2027-MGM-Grand-Garden-Arena"
+  },
+  {
+    "id": "tm-fantasia-2027-houston-z7r9jz1aa74o6",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2027-03-13T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA74O6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA74O6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA74O6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA74O6",
+        "discovery_event_id": "Z7r9jZ1AA74O6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA74O6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA74O6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

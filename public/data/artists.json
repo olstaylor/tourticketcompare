@@ -1858,5 +1858,89 @@
     "last_verified_at": "2026-10-15",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-15"
+  },
+  {
+    "slug": "weezer",
+    "name": "Weezer",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-16",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-16"
+  },
+  {
+    "slug": "ella-langley",
+    "name": "Ella Langley",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-16",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-16"
+  },
+  {
+    "slug": "aerosmith",
+    "name": "Aerosmith",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-16",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-16"
+  },
+  {
+    "slug": "mana",
+    "name": "MANA",
+    "short_description": "World act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-16",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-16"
+  },
+  {
+    "slug": "jonas-brothers",
+    "name": "Jonas Brothers",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-16",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-16"
+  },
+  {
+    "slug": "brent-faiyaz",
+    "name": "Brent Faiyaz",
+    "short_description": "R&B act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-16",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-16"
   }
 ]

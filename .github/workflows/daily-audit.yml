@@ -69,7 +69,7 @@ jobs:
       - name: Wait before gathering audit evidence
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 14
+        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 14 --withhold-when-busy
 
       - name: Setup Node.js
         uses: actions/setup-node@v5
@@ -184,7 +184,7 @@ jobs:
       - name: Wait for older shared-data writer runs
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: node scripts/wait-for-writer-lanes.mjs
+        run: node scripts/wait-for-writer-lanes.mjs --withhold-when-busy
 
       - name: Setup Node.js
         uses: actions/setup-node@v5
@@ -204,12 +204,16 @@ jobs:
       # Never stamp records introduced or changed after the actual audit.
       # A writer merging between audit and publication invalidates the evidence;
       # the next scheduled audit will check the refreshed revision.
+      # A moved main withholds the stamps as before, but ends the run as
+      # cancelled (neutral) rather than red: nothing is broken.
       - name: Check audit evidence revision
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           if [ "${{ inputs.dry_run }}" = "true" ]; then
             node scripts/check-audit-revision.mjs
           else
-            node scripts/check-audit-revision.mjs --check-main
+            node scripts/check-audit-revision.mjs --check-main --withhold-when-stale
           fi
 
       - name: Bump verified dates for clean artists
@@ -317,7 +321,9 @@ jobs:
       # The opener checks again after earning the exact-head validation check.
       - name: Check audited revision before publishing
         if: steps.diff.outputs.changed == 'true' && inputs.dry_run != true
-        run: node scripts/check-audit-revision.mjs --check-main
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/check-audit-revision.mjs --check-main --withhold-when-stale
 
       - name: Prepare publishing identity
         id: publishing-identity

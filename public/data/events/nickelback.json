@@ -4331,5 +4331,323 @@
     "organizer_names": [
       "FACE TO FACE TOURING"
     ]
+  },
+  {
+    "id": "tm-nickelback-2027-cleveland-z7r9jz1aa774f",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "Rocket Arena",
+    "datetime_iso": "2027-02-12T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA774F",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA774F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA774F",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA774F",
+        "discovery_event_id": "Z7r9jZ1AA774F",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA774F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA774F",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-nickelback-2027-saint-paul-z7r9jz1aa774k",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Saint Paul",
+    "country": "United States Of America",
+    "venue": "Grand Casino Arena",
+    "datetime_iso": "2027-03-30T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA774k",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA774k",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA774k",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA774k",
+        "discovery_event_id": "Z7r9jZ1AA774k",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA774k",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA774k",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-nickelback-2027-las-vegas-z7r9jz1aa7746",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "T-Mobile Arena",
+    "datetime_iso": "2027-04-17T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7746",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7746",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7746",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7746",
+        "discovery_event_id": "Z7r9jZ1AA7746",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7746",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7746",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-nickelback-2027-salt-lake-city-z7r9jz1aa774a",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "Delta Center",
+    "datetime_iso": "2027-04-23T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA774a",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA774a",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA774a",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA774a",
+        "discovery_event_id": "Z7r9jZ1AA774a",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA774a",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA774a",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-nickelback-2027-houston-z7r9jz1aa774o",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2027-04-29T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA774o",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA774o",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA774o",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA774o",
+        "discovery_event_id": "Z7r9jZ1AA774o",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA774o",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA774o",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-nickelback-2027-london-1agzk46gkddli7z",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-05-24T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006547C37E8138",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-london-24-05-2027/event/35006547C37E8138",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-london-24-05-2027/event/35006547C37E8138",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006547C37E8138",
+        "discovery_event_id": "1AgZk46GkddLI7z",
+        "url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-london-24-05-2027/event/35006547C37E8138",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk46GkddLI7z",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

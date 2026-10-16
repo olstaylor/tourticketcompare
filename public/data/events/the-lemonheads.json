@@ -1288,5 +1288,111 @@
     "organizer_names": [
       "CELEBRITY ETC PRESENTS"
     ]
+  },
+  {
+    "id": "tm-the-lemonheads-2027-roseville-z7r9jz1aavy-u",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads",
+    "city": "Roseville",
+    "country": "United States Of America",
+    "venue": "Goldfield Trading Post - Roseville",
+    "datetime_iso": "2027-03-06T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvy-U",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvy-U",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvy-U",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvy-U",
+        "discovery_event_id": "Z7r9jZ1AAvy-U",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvy-U",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvy-U",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-portland-z7r9jz1aavv7i",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads (21 and Over Only with Valid Photo ID)",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Hawthorne Theatre",
+    "datetime_iso": "2027-03-11T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvV7I",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvV7I",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvV7I",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvV7I",
+        "discovery_event_id": "Z7r9jZ1AAvV7I",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvV7I",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvV7I",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

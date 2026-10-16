@@ -2039,6 +2039,90 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-gorillaz",
     redirectUrl: "https://seatgeek.com/gorillaz-tickets",
     verified: true
+  },
+  "weezer:ticketmaster": {
+    artistSlug: "weezer",
+    provider: "ticketmaster",
+    linkId: "tm-artist-weezer",
+    redirectUrl: "https://www.ticketmaster.com/weezer-tickets/artist/766591",
+    verified: true
+  },
+  "weezer:seatgeek": {
+    artistSlug: "weezer",
+    provider: "seatgeek",
+    linkId: "sg-artist-weezer",
+    redirectUrl: "https://seatgeek.com/weezer-tickets",
+    verified: true
+  },
+  "ella-langley:ticketmaster": {
+    artistSlug: "ella-langley",
+    provider: "ticketmaster",
+    linkId: "tm-artist-ella-langley",
+    redirectUrl: "https://www.ticketmaster.com/ella-langley-tickets/artist/2514177",
+    verified: true
+  },
+  "ella-langley:seatgeek": {
+    artistSlug: "ella-langley",
+    provider: "seatgeek",
+    linkId: "sg-artist-ella-langley",
+    redirectUrl: "https://seatgeek.com/ella-langley-tickets",
+    verified: true
+  },
+  "aerosmith:ticketmaster": {
+    artistSlug: "aerosmith",
+    provider: "ticketmaster",
+    linkId: "tm-artist-aerosmith",
+    redirectUrl: "https://www.ticketmaster.com/aerosmith-tickets/artist/734396",
+    verified: true
+  },
+  "aerosmith:seatgeek": {
+    artistSlug: "aerosmith",
+    provider: "seatgeek",
+    linkId: "sg-artist-aerosmith",
+    redirectUrl: "https://seatgeek.com/aerosmith-tickets",
+    verified: true
+  },
+  "mana:ticketmaster": {
+    artistSlug: "mana",
+    provider: "ticketmaster",
+    linkId: "tm-artist-mana",
+    redirectUrl: "https://www.ticketmaster.com/mana-tickets/artist/759223",
+    verified: true
+  },
+  "mana:seatgeek": {
+    artistSlug: "mana",
+    provider: "seatgeek",
+    linkId: "sg-artist-mana",
+    redirectUrl: "https://seatgeek.com/mana-tickets",
+    verified: true
+  },
+  "jonas-brothers:ticketmaster": {
+    artistSlug: "jonas-brothers",
+    provider: "ticketmaster",
+    linkId: "tm-artist-jonas-brothers",
+    redirectUrl: "https://www.ticketmaster.com/jonas-brothers-tickets/artist/1052712",
+    verified: true
+  },
+  "jonas-brothers:seatgeek": {
+    artistSlug: "jonas-brothers",
+    provider: "seatgeek",
+    linkId: "sg-artist-jonas-brothers",
+    redirectUrl: "https://seatgeek.com/jonas-brothers-tickets",
+    verified: true
+  },
+  "brent-faiyaz:ticketmaster": {
+    artistSlug: "brent-faiyaz",
+    provider: "ticketmaster",
+    linkId: "tm-artist-brent-faiyaz",
+    redirectUrl: "https://www.ticketmaster.com/brent-faiyaz-tickets/artist/2429666",
+    verified: true
+  },
+  "brent-faiyaz:seatgeek": {
+    artistSlug: "brent-faiyaz",
+    provider: "seatgeek",
+    linkId: "sg-artist-brent-faiyaz",
+    redirectUrl: "https://seatgeek.com/brent-faiyaz-tickets",
+    verified: true
   }
 };
 

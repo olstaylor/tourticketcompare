@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "0D0064BCDD61E246",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-hollywood-florida-10-15-2026/event/0D0064BCDD61E246",
     "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/hollywood-florida-hard-rock-live-hollywood-2026-10-15-8-pm/concert/18281739",
-    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-10-15-2026/production/7105235",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-hollywood-florida-10-15-2026/event/0D0064BCDD61E246",
     "last_verified_at": "2026-10-15",
@@ -34,11 +34,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7105235,
-        "url": "https://www.vividseats.com/def-leppard-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-10-15-2026/production/7105235",
-        "verified": true,
-        "last_verified_at": "2026-10-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -114,7 +114,7 @@
         "event_id": 7671846,
         "url": "https://www.vividseats.com/def-leppard-tickets-allentown-ppl-center-3-2-2027--concerts-rock/production/7671846",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -204,7 +204,7 @@
         "event_id": 7671848,
         "url": "https://www.vividseats.com/def-leppard-tickets-montreal-bell-centre-3-5-2027--concerts-rock/production/7671848",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -292,7 +292,7 @@
         "event_id": 7671850,
         "url": "https://www.vividseats.com/def-leppard-tickets-detroit-little-caesars-arena-3-7-2027--concerts-rock/production/7671850",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -534,7 +534,7 @@
         "event_id": 7671860,
         "url": "https://www.vividseats.com/def-leppard-tickets-newark-prudential-center-3-13-2027--concerts-rock/production/7671860",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -632,7 +632,7 @@
         "event_id": 7671862,
         "url": "https://www.vividseats.com/def-leppard-tickets-boston-td-garden-3-17-2027--concerts-rock/production/7671862",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -730,7 +730,7 @@
         "event_id": 7671878,
         "url": "https://www.vividseats.com/def-leppard-tickets-nashville-bridgestone-arena-3-19-2027--concerts-rock/production/7671878",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -820,7 +820,7 @@
         "event_id": 7671886,
         "url": "https://www.vividseats.com/def-leppard-tickets-washington-capital-one-arena-3-21-2027--concerts-rock/production/7671886",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -918,7 +918,7 @@
         "event_id": 7671922,
         "url": "https://www.vividseats.com/def-leppard-tickets-pittsburgh-ppg-paints-arena-3-23-2027--concerts-rock/production/7671922",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1008,7 +1008,7 @@
         "event_id": 7671870,
         "url": "https://www.vividseats.com/def-leppard-tickets-chicago-united-center-3-25-2027--concerts-rock/production/7671870",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1106,7 +1106,7 @@
         "event_id": 7671926,
         "url": "https://www.vividseats.com/def-leppard-tickets-denver-ball-arena-3-29-2027--concerts-rock/production/7671926",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1196,7 +1196,7 @@
         "event_id": 7671942,
         "url": "https://www.vividseats.com/def-leppard-tickets-austin-moody-center-atx-4-13-2027--concerts-rock/production/7671942",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1294,7 +1294,7 @@
         "event_id": 7671948,
         "url": "https://www.vividseats.com/def-leppard-tickets-north-little-rock-simmons-bank-arena-4-16-2027--concerts-rock/production/7671948",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1484,7 +1484,7 @@
         "event_id": 7671960,
         "url": "https://www.vividseats.com/def-leppard-tickets-mobile-regions-arena-4-20-2027--concerts-rock/production/7671960",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1574,7 +1574,7 @@
         "event_id": 7671968,
         "url": "https://www.vividseats.com/def-leppard-tickets-wichita-intrust-bank-arena-4-22-2027--concerts-rock/production/7671968",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1664,7 +1664,7 @@
         "event_id": 7671972,
         "url": "https://www.vividseats.com/def-leppard-tickets-lincoln-pinnacle-bank-arena-4-24-2027--concerts-rock/production/7671972",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1754,7 +1754,7 @@
         "event_id": 7671984,
         "url": "https://www.vividseats.com/def-leppard-tickets-glendale-desert-diamond-arena-4-29-2027--concerts-rock/production/7671984",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1844,7 +1844,7 @@
         "event_id": 7671952,
         "url": "https://www.vividseats.com/def-leppard-tickets-los-angeles-hollywood-bowl-5-1-2027/production/7671952",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1943,7 +1943,7 @@
         "event_id": 7672000,
         "url": "https://www.vividseats.com/def-leppard-tickets-san-francisco-chase-center-5-5-2027--concerts-rock/production/7672000",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2051,7 +2051,7 @@
         "event_id": 7672006,
         "url": "https://www.vividseats.com/def-leppard-tickets-sacramento-golden-1-center-5-7-2027/production/7672006",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2154,7 +2154,7 @@
         "event_id": 7672047,
         "url": "https://www.vividseats.com/def-leppard-tickets-seattle-climate-pledge-arena-5-9-2027/production/7672047",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2345,7 +2345,7 @@
         "event_id": 7672370,
         "url": "https://www.vividseats.com/def-leppard-tickets-edmonton-rogers-place-5-16-2027--concerts-rock/production/7672370",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2428,7 +2428,7 @@
         "event_id": 7672077,
         "url": "https://www.vividseats.com/def-leppard-tickets-san-antonio-frost-bank-center-5-29-2027--concerts-rock/production/7672077",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2527,7 +2527,7 @@
         "event_id": 7672095,
         "url": "https://www.vividseats.com/def-leppard-tickets-oklahoma-city-paycom-center-6-3-2027--concerts-rock/production/7672095",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2617,7 +2617,7 @@
         "event_id": 7672107,
         "url": "https://www.vividseats.com/def-leppard-tickets-milwaukee-fiserv-forum-6-5-2027--concerts-rock/production/7672107",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2787,7 +2787,7 @@
         "event_id": 7672127,
         "url": "https://www.vividseats.com/def-leppard-tickets-louisville-kfc-yum-center-6-9-2027--concerts-rock/production/7672127",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2877,7 +2877,7 @@
         "event_id": 7672135,
         "url": "https://www.vividseats.com/def-leppard-tickets-savannah-enmarket-arena-6-11-2027--concerts-rock/production/7672135",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2967,7 +2967,7 @@
         "event_id": 7672149,
         "url": "https://www.vividseats.com/def-leppard-tickets-tampa-benchmark-international-arena-6-13-2027--concerts-rock/production/7672149",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3065,7 +3065,7 @@
         "event_id": 7672155,
         "url": "https://www.vividseats.com/def-leppard-tickets-atlanta-state-farm-arena-6-17-2027--concerts-rock/production/7672155",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3155,7 +3155,7 @@
         "event_id": 7672161,
         "url": "https://www.vividseats.com/def-leppard-tickets-columbus-value-city-arena-at-schottenstein-center-6-19-2027--concerts-rock/production/7672161",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3245,7 +3245,7 @@
         "event_id": 7672195,
         "url": "https://www.vividseats.com/def-leppard-tickets-new-york-madison-square-garden-6-23-2027--concerts-rock/production/7672195",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3348,7 +3348,7 @@
         "event_id": 7672206,
         "url": "https://www.vividseats.com/def-leppard-tickets-uncasville-mohegan-sun-arena-ct-6-25-2027--concerts-rock/production/7672206",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3430,7 +3430,7 @@
         "event_id": 7672212,
         "url": "https://www.vividseats.com/def-leppard-tickets-philadelphia-xfinity-mobile-arena-6-27-2027--concerts-rock/production/7672212",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3528,7 +3528,7 @@
         "event_id": 7672220,
         "url": "https://www.vividseats.com/def-leppard-tickets-charlotte-spectrum-center-6-30-2027--concerts-rock/production/7672220",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3618,7 +3618,7 @@
         "event_id": 7672228,
         "url": "https://www.vividseats.com/def-leppard-tickets-indianapolis-gainbridge-fieldhouse-7-2-2027--concerts-rock/production/7672228",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-16",
         "availability_status": "listed"
       },
       "stubhub": {

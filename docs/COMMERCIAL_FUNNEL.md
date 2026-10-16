@@ -216,6 +216,47 @@ coverage or indexing problem before adding content or roster breadth. No new
 analytics store, inferred purchase rate or raw-redirect revenue forecast is
 needed for this review.
 
+## Interpreting matched page activity alongside Search Console
+
+A browser-intent match does not establish organic acquisition. The
+9–15 October 2026 UTC production sample illustrates why: 212 valid token
+groups contained 211 client intents and 179 redirects; 178 groups met the
+unique provider/event-or-artist/five-minute acceptance rules. Of these,
+174 involved affiliate-provider lanes and four involved unmonetized
+Ticketmaster links. These are matched events, not people, sessions or sales.
+The manual aggregate query used SQLite `julianday` arithmetic for the time
+bound; the canonical report uses JavaScript timestamps, so exact-boundary
+rounding remains a limitation of that manual capture.
+
+The client-reported landing was `/artists/olivia-rodrigo/ticket-prices` for
+66 accepted affiliate matches: 34 clicks on the guide and 32 on the artist
+board. Yet Domain-property Search Console, Web search, exact same URL,
+17 September–14 October 2026, with no query/country/device/search-appearance
+filters, showed zero impressions and clicks. URL Inspection subsequently
+reported the page indexed, successfully crawled on 15 October, crawl/indexing
+allowed and the inspected URL selected as canonical. This is neither proof of
+an indexing defect nor proof that those matched events came from Google.
+The windows and reporting timezones also differ. Do not divide matched
+events by GSC clicks to manufacture a conversion rate.
+
+Impact action details can sometimes provide TTC-specific **referring-domain
+evidence**, even in the shared TTC/social account. An inspected pending
+StubHub International action in the 9–15 October report explicitly named
+`https://tourticketcompare.com/` as its referring URL. That is stronger than
+account totals, but weaker than a unique eligible `SubId1` match: it does not
+identify Google acquisition or a converting landing page. Pending payout is
+not earned commission. An Impact **Referral Id** is not TTC's `click_id` and
+must never be substituted for the documented `SubId1` reconciliation.
+
+For follow-ups, keep the September historical baseline intact and compare
+equivalent populations, windows and filters. Preserve raw, page-backed and
+token-matched series separately. Read acquisition from entry beacons, not
+redirect rows: `/api/out` deliberately writes `acquisition_source = NULL`.
+Filtering redirects for `organic` therefore manufactures a zero; the
+approximate visitor-day join does not repair session identity. Until the
+joint evidence exists, neither aggregate search growth nor these matched
+events proves the organic-to-monetized-click goal achieved.
+
 ## Lizzy McAlpine price-guide measurement baseline
 
 Reviewed **2026-10-02**; compare again around **2026-10-30**, allowing about

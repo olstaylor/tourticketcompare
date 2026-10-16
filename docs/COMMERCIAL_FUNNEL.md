@@ -435,7 +435,7 @@ expected parameter name with Impact for these campaigns, enable it, click one
 CTA, and check the SubId appears against that click in Impact reporting. If it
 does not, set the flag back to `"false"` — nothing else depends on it.
 
-Applies to the `pxf.io` base-tracking path only. Links built through the Impact
+Applies to the base-tracking path only (`*_BASE_TRACKING_URL` on `pxf.io`, or the provider's own Impact domain: `sjv.io` for StubHub International, `goto.ticketnetwork.com` for TicketNetwork, `auhm.net` for Ticket Liquidator, each accepted only for its own provider). Links built through the Impact
 API `TrackingLinks` endpoint are **not** covered.
 
 ### SubId verification procedure (owner, one-time)

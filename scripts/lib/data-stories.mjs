@@ -1,14 +1,14 @@
 // Automated data stories: figures, a blog draft and a press-release draft built
 // from the site's own reviewed event records, with no human writing step.
 //
-// The first (and so far only) story type is the yearly touring map: where the
-// major tours TourTicketCompare tracks are playing in a calendar year, counted
-// by city, venue, country and month. Every number is a count over the same
-// records the /tours/<year> hub, city pages and venue pages already render, so
-// a story can never state a fact the site does not show elsewhere.
+// Two story types. The yearly touring map: where the major tours
+// TourTicketCompare tracks are playing in a calendar year, counted by city,
+// venue, country and month, over the same records the /tours/<year> hub, city
+// pages and venue pages already render. The price-moves story: per site, how
+// many dates are listed lower or higher than 30 days earlier (see below).
 //
-// Deliberately out of scope (docs/BLOG.md, "Automated data stories"): provider prices, price
-// changes and "best time to buy" claims (PROVIDER_DATA_POLICY.md and the
+// Deliberately out of scope (docs/BLOG.md, "Automated data stories"): printed
+// provider prices, cross-site comparisons and "best time to buy" claims (PROVIDER_DATA_POLICY.md and the
 // price-timing evidence thresholds), presale windows (Ticketmaster's lists mix
 // VIP packages and card offers, so a count of them would mislead), inventory,
 // and any claim about the whole concert market. The copy always says the
@@ -327,4 +327,210 @@ Full tables by city, venue, country and month: ${url}
 
 **Contact:** see ${SITE}/contact
 `;
+}
+
+// ---------------------------------------------------------------------------
+// Price moves story
+// ---------------------------------------------------------------------------
+//
+// How many upcoming dates each ticket site now lists lower, higher or about
+// the same as it did about 30 days earlier. Counts only: no price figure is
+// printed, and every comparison is one event on one site in one currency
+// (PROVIDER_DATA_POLICY.md, "A recorded price move is historical"). Sites are
+// never compared with each other or ranked, and nothing here says what prices
+// will do next: that is the price-timing claim, which still lacks evidence.
+
+// Sites with an approved numeric listed-price lane. SeatGeek has no snapshot
+// lane and Ticket Liquidator has display off, so neither can appear.
+export const PRICE_MOVE_SITES = new Map([
+  ["vivid-seats", "Vivid Seats"],
+  ["ticketnetwork", "TicketNetwork"],
+  ["stubhub-international", "StubHub International"]
+]);
+
+// A change inside this band reads as "about the same", so rounding and fee
+// noise never count as a move.
+export const PRICE_MOVE_BAND = 0.02;
+
+export const PRICE_MOVE_GATE = {
+  minDatesPerSite: 50,
+  minArtistsPerSite: 10,
+  minDatesPerArtistRow: 5,
+  // The latest reading must be this recent, and the earlier one 25-35 days older.
+  maxLatestAgeDays: 3,
+  windowDays: [25, 35]
+};
+
+export const PRICE_MOVES_SLUG = "how-resale-ticket-prices-moved-this-month";
+
+// One row per event and site: the daily rollup's closing figure about 30 days
+// ago and its newest one. Read through `wrangler d1 execute --command` (see
+// scripts/lib/d1-read.mjs); `?1` is the as-of date.
+export const PRICE_MOVES_SQL = `WITH b AS (SELECT event_id, artist_slug, provider, currency, MIN(observed_date) d FROM provider_pricing_daily WHERE observed_date BETWEEN date('{AS_OF}','-31 day') AND date('{AS_OF}','-29 day') GROUP BY event_id, provider, currency),
+bp AS (SELECT b.event_id, b.artist_slug, b.provider, b.currency, b.d, p.low_price_last price FROM b JOIN provider_pricing_daily p ON p.event_id=b.event_id AND p.provider=b.provider AND p.currency=b.currency AND p.observed_date=b.d),
+l AS (SELECT event_id, provider, currency, MAX(observed_date) d FROM provider_pricing_daily WHERE observed_date >= date('{AS_OF}','-2 day') GROUP BY event_id, provider, currency),
+lp AS (SELECT l.event_id, l.provider, l.currency, l.d, p.low_price_last price FROM l JOIN provider_pricing_daily p ON p.event_id=l.event_id AND p.provider=l.provider AND p.currency=l.currency AND p.observed_date=l.d)
+SELECT bp.artist_slug, bp.provider, bp.event_id, bp.currency, bp.d base_date, MIN(bp.price) base_price, lp.d latest_date, MIN(lp.price) latest_price FROM bp JOIN lp ON lp.event_id=bp.event_id AND lp.provider=bp.provider AND lp.currency=bp.currency GROUP BY bp.event_id, bp.provider, bp.currency`;
+
+export function priceMovesSql(asOf) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(String(asOf))) throw new Error(`priceMovesSql: bad as-of date "${asOf}"`);
+  return PRICE_MOVES_SQL.replaceAll("{AS_OF}", asOf);
+}
+
+function dayDiff(a, b) {
+  return Math.round((Date.parse(`${a}T00:00:00Z`) - Date.parse(`${b}T00:00:00Z`)) / 86400000);
+}
+
+/**
+ * Count moves per site and per artist on each site.
+ *
+ * A row counts when its site has a price lane, its event is still in
+ * events.json, upcoming, not cancelled or postponed, by an artist whose page is
+ * indexable, both figures are plausible prices in one currency, and the two
+ * readings are 25-35 days apart with the newer one recent.
+ *
+ * @param {any[]} rows PRICE_MOVES_SQL rows.
+ * @param {any[]} events events.json records.
+ * @param {any[]} artists artists.json records.
+ * @param {{ now: number }} options
+ */
+export function buildPriceMoveFigures(rows, events, artists, { now }) {
+  const asOf = isoDay(now);
+  const eventList = Array.isArray(events) ? events : [];
+  const byId = new Map(eventList.map((event) => [trimmed(event?.id), event]));
+  const names = new Map((Array.isArray(artists) ? artists : []).map((artist) => [trimmed(artist?.slug), trimmed(artist?.name)]));
+  const indexable = new Set(
+    (Array.isArray(artists) ? artists : [])
+      .filter((artist) => artist && artistPageIndexable(artist, eventList, trimmed(artist.slug), now))
+      .map((artist) => trimmed(artist.slug))
+  );
+
+  const sites = new Map();
+  let earliest = "";
+  let latest = "";
+  for (const row of Array.isArray(rows) ? rows : []) {
+    const site = trimmed(row?.provider);
+    if (!PRICE_MOVE_SITES.has(site)) continue;
+    const event = byId.get(trimmed(row?.event_id));
+    if (!event || eventLifecycleHeld(event) || !isUpcomingShow(event, now)) continue;
+    const artistSlug = trimmed(event.artist_slug);
+    if (!indexable.has(artistSlug) || artistSlug !== trimmed(row.artist_slug)) continue;
+    const base = Number(row.base_price);
+    const last = Number(row.latest_price);
+    if (!(base >= 1) || !(last >= 1)) continue;
+    const baseDate = trimmed(row.base_date);
+    const latestDate = trimmed(row.latest_date);
+    if (dayDiff(asOf, latestDate) > PRICE_MOVE_GATE.maxLatestAgeDays) continue;
+    const span = dayDiff(latestDate, baseDate);
+    if (!(span >= PRICE_MOVE_GATE.windowDays[0] && span <= PRICE_MOVE_GATE.windowDays[1])) continue;
+
+    const move = last < base * (1 - PRICE_MOVE_BAND) ? "lower" : last > base * (1 + PRICE_MOVE_BAND) ? "higher" : "same";
+    if (!sites.has(site)) sites.set(site, { site, label: PRICE_MOVE_SITES.get(site), lower: 0, higher: 0, same: 0, artists: new Map() });
+    const tally = sites.get(site);
+    tally[move] += 1;
+    if (!tally.artists.has(artistSlug)) {
+      tally.artists.set(artistSlug, { slug: artistSlug, label: names.get(artistSlug) || trimmed(event.artist_name) || artistSlug, path: `/artists/${artistSlug}`, lower: 0, higher: 0, same: 0 });
+    }
+    tally.artists.get(artistSlug)[move] += 1;
+    if (!earliest || baseDate < earliest) earliest = baseDate;
+    if (!latest || latestDate > latest) latest = latestDate;
+  }
+
+  const total = (row) => row.lower + row.higher + row.same;
+  return {
+    storyType: "price-moves",
+    asOf,
+    windowStart: earliest,
+    windowEnd: latest,
+    band: PRICE_MOVE_BAND,
+    sites: [...sites.values()]
+      .map((tally) => ({
+        site: tally.site,
+        label: tally.label,
+        dates: total(tally),
+        lower: tally.lower,
+        higher: tally.higher,
+        same: tally.same,
+        artistCount: tally.artists.size,
+        artists: [...tally.artists.values()]
+          .filter((row) => total(row) >= PRICE_MOVE_GATE.minDatesPerArtistRow)
+          .map((row) => ({ ...row, dates: total(row) }))
+          .sort((a, b) => b.dates - a.dates || a.label.localeCompare(b.label))
+          .slice(0, 8)
+      }))
+      // Fixed order, never by any count: the story does not rank sites.
+      .sort((a, b) => [...PRICE_MOVE_SITES.keys()].indexOf(a.site) - [...PRICE_MOVE_SITES.keys()].indexOf(b.site))
+  };
+}
+
+/** Sites that clear the gate; the story is written only when one does. */
+export function priceMovesGate(figures) {
+  const sites = figures.sites.filter(
+    (site) => site.dates >= PRICE_MOVE_GATE.minDatesPerSite && site.artistCount >= PRICE_MOVE_GATE.minArtistsPerSite
+  );
+  return { sites, reasons: sites.length ? [] : ["no ticket site has enough upcoming dates with a reading about 30 days apart"] };
+}
+
+function shortDate(iso) {
+  const [, m, d] = iso.split("-").map(Number);
+  return `${d} ${MONTHS[m - 1]}`;
+}
+
+export function renderPriceMovesPost(figures, existing = null) {
+  const { sites } = priceMovesGate(figures);
+  const date = existing?.date || figures.asOf;
+  const status = existing?.status === "published" ? "published" : "draft";
+  const updated = date !== figures.asOf ? figures.asOf : "";
+  const window = `${shortDate(figures.windowStart)} and ${shortDate(figures.windowEnd)}`;
+  const totalDates = sites.reduce((sum, site) => sum + site.dates, 0);
+  const band = Math.round(figures.band * 100);
+
+  const summaryRows = sites
+    .map((site) => `| ${site.label} | ${site.dates} | ${site.lower} | ${site.higher} | ${site.same} |`)
+    .join("\n");
+  const siteSections = sites
+    .map((site) => {
+      const rows = site.artists.map((row) => `| [${row.label}](${row.path}) | ${row.dates} | ${row.lower} | ${row.higher} | ${row.same} |`).join("\n");
+      const table = rows
+        ? `\n\n| Artist | Dates | Lower | Higher | About the same |\n|---|---|---|---|---|\n${rows}\n\nArtists with fewer than ${PRICE_MOVE_GATE.minDatesPerArtistRow} dates on ${site.label} are counted above but not listed.`
+        : "";
+      return `## ${site.label}\n\n${site.label} had a reading for ${site.dates} upcoming dates across ${site.artistCount} artists at both ends of the period. On ${site.lower} of them its lowest listed price was lower than about 30 days earlier, on ${site.higher} it was higher, and on ${site.same} it was about the same.${table}`;
+    })
+    .join("\n\n");
+
+  const front = [
+    "---",
+    `title: "How resale ticket prices moved in the last 30 days"`,
+    `seo_title: "Resale ticket prices: 30-day moves"`,
+    `description: "For ${totalDates} upcoming concert dates, how often each resale site's lowest listed price went down, up or stayed about the same between ${window}."`,
+    `summary: "A count, site by site, of upcoming dates whose lowest listed resale price was lower, higher or about the same as 30 days earlier. Readings between ${window} ${figures.windowEnd.slice(0, 4)}."`,
+    `date: ${date}`,
+    ...(updated ? [`updated: ${updated}`] : []),
+    `status: ${status}`,
+    "tags:",
+    "  - tour-data",
+    "related_guides:",
+    "  - primary-vs-resale-concert-tickets",
+    "---"
+  ].join("\n");
+
+  const body = `TourTicketCompare records each resale site's lowest listed price for the upcoming dates it tracks, and keeps a daily record. This page compares, for each date and each site, the price at the start of the period with the price at the end, and counts which way it went. The period runs between ${window} ${figures.windowEnd.slice(0, 4)}.
+
+| Site | Dates | Lower | Higher | About the same |
+|---|---|---|---|---|
+${summaryRows}
+
+"About the same" means within ${band}% either way. Each count compares one date with itself on one site. Sites list different seats with different fees, so this page does not compare one site with another, and a count says nothing about which site is lower for a given show.
+
+${siteSections}
+
+## What this does and doesn't say
+
+- **It is a record of the last 30 days, not a forecast.** A date that went down this month can go up next month. Whether prices tend to fall as a show gets closer is a different question, and TourTicketCompare doesn't have enough history yet to answer it reliably.
+- **A listed price is not a checkout total.** Fees, delivery and seat location differ between listings and between sites.
+- **No price figures here.** For the current price of any date, with the time it was captured, open the artist's page.
+
+To buy for one of these shows, start on the artist's page, which links the official sale and any checked resale listings for each date.
+`;
+  return `${front}\n\n${body}`;
 }

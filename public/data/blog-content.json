@@ -11,7 +11,7 @@
       "summary": "A count, site by site, of upcoming dates whose lowest listed resale price was lower, higher or about the same as 30 days earlier. Readings between 16 September and 17 October 2026.",
       "datePublished": "2026-10-17",
       "dateModified": "2026-10-17",
-      "status": "draft",
+      "status": "published",
       "author": "TourTicketCompare",
       "tags": [
         "tour-data"
@@ -54,10 +54,10 @@
       "title": "Where the big concert tours are playing in 2027",
       "seoTitle": "2027 concert tours: the busiest cities | TourTicketCompare",
       "description": "Las Vegas, London and Toronto have the most 2027 dates among 101 major tours tracked by TourTicketCompare. Counts by city, venue and month.",
-      "summary": "2,074 upcoming 2027 dates from 101 major touring artists, counted by city, venue, country and month. Las Vegas leads with 72 dates. Figures as of 16 October 2026.",
+      "summary": "2,074 upcoming 2027 dates from 101 major touring artists, counted by city, venue, country and month. Las Vegas leads with 72 dates. Figures as of 17 October 2026.",
       "datePublished": "2026-10-16",
-      "dateModified": "2026-10-16",
-      "status": "draft",
+      "dateModified": "2026-10-17",
+      "status": "published",
       "author": "TourTicketCompare",
       "tags": [
         "tour-data"
@@ -72,7 +72,7 @@
       "sections": [
         {
           "type": "intro",
-          "content": "TourTicketCompare tracks the upcoming dates of 101 major touring artists, and as of 16 October 2026 2,074 of those dates fall in 2027. They are spread over 332 cities and 819 venues in 21 countries. Las Vegas has the most, with 72 dates from 18 artists, followed by London (68) and Toronto (61).\n\nThese are counts of announced shows on the tours the site follows, not of every concert in 2027. Each one is a date with a checked Ticketmaster event behind it, and each is still listed on its artist's page on this site."
+          "content": "TourTicketCompare tracks the upcoming dates of 101 major touring artists, and as of 17 October 2026 2,074 of those dates fall in 2027. They are spread over 332 cities and 819 venues in 21 countries. Las Vegas has the most, with 72 dates from 18 artists, followed by London (68) and Toronto (61).\n\nThese are counts of announced shows on the tours the site follows, not of every concert in 2027. Each one is a date with a checked Ticketmaster event behind it, and each is still listed on its artist's page on this site."
         },
         {
           "type": "section",
@@ -1072,6 +1072,11 @@
       "slug": "ticket-prices",
       "label": "Ticket Prices",
       "postCount": 3
+    },
+    {
+      "slug": "tour-data",
+      "label": "Tour Data",
+      "postCount": 2
     },
     {
       "slug": "transparency",

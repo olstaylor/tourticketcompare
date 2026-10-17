@@ -4,7 +4,7 @@ seo_title: "Resale ticket prices: 30-day moves"
 description: "For 827 upcoming concert dates, how often each resale site's lowest listed price went down, up or stayed about the same between 16 September and 17 October."
 summary: "A count, site by site, of upcoming dates whose lowest listed resale price was lower, higher or about the same as 30 days earlier. Readings between 16 September and 17 October 2026."
 date: 2026-10-17
-status: draft
+status: published
 tags:
   - tour-data
 related_guides:

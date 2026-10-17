@@ -56,8 +56,6 @@ jobs:
             node -e 'for (const f of JSON.parse(require("fs").readFileSync("findings.json","utf8"))) console.log(`${f.slug}\t${f.reason}`)' |
               while IFS=$'\t' read -r SLUG REASON; do node scripts/demote-artist.mjs --slug "$SLUG" --reason "$REASON" --write; done
             npm run events:partition
-            node scripts/validate-status-counts.mjs --write
-            node scripts/audit-indexable-surface.mjs --write-status
             npm run test:mvp
             git diff --check
           fi
@@ -83,7 +81,7 @@ jobs:
           BRANCH="automation/autodemote-${TODAY}"
           SUMMARY=$(node -e 'console.log(JSON.parse(require("fs").readFileSync("findings.json","utf8")).map(f => `- \`${f.slug}\`: ${f.reason}`).join("\n"))')
           git checkout -B "$BRANCH"
-          git add public/data/artists.json public/data/catalog.json data/provider-identities.json public/data/events public/data/events-index.json PROJECT_STATUS.md
+          git add public/data/artists.json public/data/catalog.json data/provider-identities.json public/data/events public/data/events-index.json
           git commit -m "automation: demote auto-promoted artist(s) (${TODAY})"
           node scripts/push-automation-branch.mjs "$BRANCH" --force-with-lease
           BRANCH="$BRANCH" \

@@ -102,7 +102,7 @@ Every promoted artist is registered `sync_enabled` in
 - **New Ticketmaster dates:** `tm-new-shows-pr.yml`, twice daily (02:40 and 16:20).
 - **Date, venue and name changes:** `nightly-data-sync.yml`, 03:30.
 - **Resale links:** the SeatGeek, Vivid Seats and Impact marketplace syncs
-  (12:00–14:00 UTC).
+  (18:00–20:00 UTC).
 - **Prices:** the snapshot writers, nominally hourly.
 
 A date not yet on public sale is published with its on-sale time and any

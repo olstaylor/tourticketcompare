@@ -32,11 +32,11 @@ name: Vivid Seats CTA sync
 # See docs/PROVIDER_SYNC.md and SAFE_PUBLISHING_RULES.md.
 
 on:
-  # 12:30 UTC — after the 12:00 seatgeek-cta-sync run so both loops don't
+  # 18:30 UTC — after the 18:00 seatgeek-cta-sync run so both loops don't
   # race the same data files; a lost race only degrades to a non-auto-merged
   # PR, never a broken write.
   schedule:
-    - cron: '30 12 * * *'
+    - cron: '30 18 * * *'
   workflow_dispatch:
     inputs:
       mode:

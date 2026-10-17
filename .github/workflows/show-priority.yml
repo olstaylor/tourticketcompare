@@ -7,12 +7,12 @@ name: Show priority
 # `automation:show-priority` issue (weekly social pack, people).
 #
 # D1 reads are SELECTs; the one D1 write replaces `show_priority`. Every reader
-# is fail-open, so a missed run only means default order. 11:40 UTC, before
-# the 13:00 provider sync.
+# is fail-open, so a missed run only means default order. 17:40 UTC, before
+# the 19:00 provider sync.
 
 on:
   schedule:
-    - cron: '40 11 * * *'
+    - cron: '40 17 * * *'
   workflow_dispatch:
 
 permissions:

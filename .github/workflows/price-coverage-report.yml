@@ -11,7 +11,7 @@ name: Price coverage report
 # Read-only on the site and the repository; its only write is that one issue.
 # Needs no credentials and no `npm ci` (node builtins and the repo's pure
 # helpers only). 09:15 UTC lands after the morning Ticketmaster lanes and the
-# previous day's resale syncs (12:00-14:00) have deployed and the morning
+# previous day's resale syncs (18:00-20:00) have deployed and the morning
 # snapshot ticks have run.
 
 on:

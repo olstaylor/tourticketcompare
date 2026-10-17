@@ -235,7 +235,7 @@ AI model, and touches GitHub only to rewrite its issue when given `--issue`.
 - CREATE needs demand (price or buying-decision searches), verified upcoming
   dates and measured conversion for that page type; otherwise the row is HOLD
   with the missing evidence named. Event pages are HOLD while a cohort read is
-  pending; pages in `SELLING_SOON_PATHS` are HOLD while #1621 is measured.
+  pending; for pages in `SELLING_SOON_PATHS` the near-show LINK suggestion is HOLD while #1621 is measured (other row types are not held, so skip them for those pages until the read).
 - "Value" is extra ticket-clickers × £0.45 (inferred), a ranking aid only.
   Clicks are not sales.
 

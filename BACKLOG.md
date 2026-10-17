@@ -16,7 +16,7 @@ Items 1–5 are operational (owner plus gated tooling), not engineering.
 3. **Price snapshots:** both display flags are on; keep watching the scheduled summaries. SeatGeek price snapshots are permanently off (its API returns null pricing for this client; owner-confirmed 2026-07-15), so SeatGeek stays CTA-only.
 4. When the first SeatGeek-first events publish without Ticketmaster URLs, relax `validate-cta-provider-state.mjs` hard error #3 to "publishable ⇒ ≥1 resolvable provider URL" in that same PR.
 5. **Conversion-weighted page ranking is blocked on two owner inputs.** Contract: `docs/COMMERCIAL_FUNNEL.md`.
-   - A Search Console query×page and Page Indexing export for one window.
+   - A Search Console query×page and Page Indexing export for one window. (Fact 2026-10-16: the weekly `seo-opportunities.yml` report, #1627, will read page and query rows separately from the Search Console API once the owner adds the `GSC_SERVICE_ACCOUNT_JSON` secret. It does not fetch the query×page mapping or Page Indexing, so this input stays open.)
    - A defensible reconciliation of client CTA intent against server redirect receipts (5,541 receipts vs 87 intent events at last read).
 6. **Ticket Liquidator `impact_tracking_url_failed_safety_check` outcomes:** separate retry and automation bursts from the real per-provider failure rate (aggregate only), and keep the safety gate. Confirm the intended Ticket Liquidator contract before changing anything.
 7. **GA4 Internal Traffic exclusion is still in Testing**, pending an IP-scope review. D1 stays the redirect measure of record.
@@ -28,6 +28,8 @@ Items 1–5 are operational (owner plus gated tooling), not engineering.
 3. On a provider/API mismatch or redirect failure, set that provider's public flag to `false`.
 
 StubHub International is separate from StubHub US/Canada.
+
+Fact 2026-10-16: all three lanes' base tracking URLs are now set in Cloudflare and redirects pass the click ID as Sub ID 1. By 2026-10-17 D1 showed reconciliation-eligible redirects for all three; StubHub International's Sub ID was also confirmed inside Impact. Still to check: TicketNetwork and Ticket Liquidator Sub IDs appearing in Impact reporting.
 
 ### 3. Roster growth
 

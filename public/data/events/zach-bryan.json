@@ -1088,13 +1088,21 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8322365",
+        "url": "https://www.ticketliquidator.com/tickets/8322365/Zach-Bryan-tickets-Sat-May-1-2027-Lucas-Oil-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_fGkwtxpKO",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-23T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322365"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322365",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322365/Zach-Bryan-tickets-Sat-May-1-2027-Lucas-Oil-Stadium"
   },
   {
     "id": "tm-zach-bryan-2027-green-bay-vv17jz_fgkshdkie",
@@ -1150,13 +1158,21 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8322366",
+        "url": "https://www.ticketliquidator.com/tickets/8322366/Zach-Bryan-tickets-Tue-May-4-2027-Lambeau-Field",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_fGkShdkiE",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-23T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322366"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322366",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322366/Zach-Bryan-tickets-Tue-May-4-2027-Lambeau-Field"
   },
   {
     "id": "tm-zach-bryan-2027-east-rutherford-k7vgf_fsxrnwp",
@@ -1212,13 +1228,21 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8322367",
+        "url": "https://www.ticketliquidator.com/tickets/8322367/Zach-Bryan-tickets-Fri-May-14-2027-MetLife-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_fSxRnwp",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-23T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322367"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322367",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322367/Zach-Bryan-tickets-Fri-May-14-2027-MetLife-Stadium"
   },
   {
     "id": "tm-zach-bryan-2027-east-rutherford-k7vgf_fs0cbhd",
@@ -1274,13 +1298,21 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8322368",
+        "url": "https://www.ticketliquidator.com/tickets/8322368/Zach-Bryan-tickets-Sat-May-15-2027-MetLife-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_fS0cBHD",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-23T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322368"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322368",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322368/Zach-Bryan-tickets-Sat-May-15-2027-MetLife-Stadium"
   },
   {
     "id": "tm-zach-bryan-2027-philadelphia-vv17fz_fgksiy1rz",
@@ -1336,13 +1368,21 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8322370",
+        "url": "https://www.ticketliquidator.com/tickets/8322370/Zach-Bryan-tickets-Tue-May-25-2027-Lincoln-Financial-Field",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_fGkSIy1RZ",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-23T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322370"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322370",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322370/Zach-Bryan-tickets-Tue-May-25-2027-Lincoln-Financial-Field"
   },
   {
     "id": "tm-zach-bryan-2027-atlanta-vvg1zz_fwy55os",
@@ -1398,13 +1438,21 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8322371",
+        "url": "https://www.ticketliquidator.com/tickets/8322371/Zach-Bryan-tickets-Sat-May-29-2027-Mercedes-Benz-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_fwy55oS",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-23T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322371"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322371",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322371/Zach-Bryan-tickets-Sat-May-29-2027-Mercedes-Benz-Stadium"
   },
   {
     "id": "tm-zach-bryan-2027-orchard-park-vv17gz_fgksis3fj",
@@ -1460,13 +1508,21 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8322372",
+        "url": "https://www.ticketliquidator.com/tickets/8322372/Zach-Bryan-tickets-Wed-Jun-2-2027-New-Highmark-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17GZ_fGkSIs3FJ",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-23T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322372"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322372",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322372/Zach-Bryan-tickets-Wed-Jun-2-2027-New-Highmark-Stadium"
   },
   {
     "id": "tm-zach-bryan-2027-las-vegas-1avjz_fgkwbrzg6",
@@ -1522,13 +1578,21 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8322373",
+        "url": "https://www.ticketliquidator.com/tickets/8322373/Zach-Bryan-tickets-Fri-Jul-16-2027-Allegiant-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_fGkwbrzG6",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-23T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322373"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322373",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322373/Zach-Bryan-tickets-Fri-Jul-16-2027-Allegiant-Stadium"
   },
   {
     "id": "tm-zach-bryan-2027-inglewood-vvg1iz_frht9v6",
@@ -1584,13 +1648,21 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8322374",
+        "url": "https://www.ticketliquidator.com/tickets/8322374/Zach-Bryan-tickets-Tue-Jul-20-2027-SoFi-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_frht9V6",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-23T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322374"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322374",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322374/Zach-Bryan-tickets-Tue-Jul-20-2027-SoFi-Stadium"
   },
   {
     "id": "tm-zach-bryan-2027-seattle-vvg1hz_fytloed",
@@ -1646,13 +1718,21 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8322375",
+        "url": "https://www.ticketliquidator.com/tickets/8322375/Zach-Bryan-tickets-Sat-Jul-24-2027-Lumen-Field",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_fYTLoed",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-23T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322375"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322375",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322375/Zach-Bryan-tickets-Sat-Jul-24-2027-Lumen-Field"
   },
   {
     "id": "tm-zach-bryan-2027-vancouver-1av7z_fgks885w5",
@@ -1708,13 +1788,21 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8322377",
+        "url": "https://www.ticketliquidator.com/tickets/8322377/Zach-Bryan-tickets-Wed-Jul-28-2027-BC-Place-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_fGkS885w5",
     "timezone": "America/Vancouver",
     "status": "announced",
     "public_onsale_at": "2026-10-23T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322377"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322377",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322377/Zach-Bryan-tickets-Wed-Jul-28-2027-BC-Place-Stadium"
   },
   {
     "id": "tm-zach-bryan-2027-edmonton-1av7z_fgkw2fvlh",
@@ -1824,12 +1912,20 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8322376",
+        "url": "https://www.ticketliquidator.com/tickets/8322376/Zach-Bryan-tickets-Fri-Aug-6-2027-Albertsons-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_fSBnh4h",
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-10-23T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322376"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322376",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322376/Zach-Bryan-tickets-Fri-Aug-6-2027-Albertsons-Stadium"
   }
 ]

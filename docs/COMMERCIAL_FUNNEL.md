@@ -216,6 +216,47 @@ coverage or indexing problem before adding content or roster breadth. No new
 analytics store, inferred purchase rate or raw-redirect revenue forecast is
 needed for this review.
 
+### SEO opportunity report
+
+`npm run report:seo-opportunities -- --search-console <dir>` turns one unzipped
+Search Console Performance export (`Pages.csv` + `Queries.csv`) into a ranked
+list where every candidate gets exactly one action: CREATE, IMPROVE, REFRESH,
+LINK or HOLD (plan: `plans/seo-growth-engine-2026-10-16.md` in the project
+files). It is read-only: it writes nothing to the repository or D1, calls no
+AI model, and touches GitHub only to rewrite its issue when given `--issue`.
+
+- Google demand comes only from the export. SeatGeek or Ticketmaster
+  popularity is never used as search volume.
+- `--remote` adds landing conversion (visitor-days by landing `page_type` that
+  sent a `provider_click` the same UTC day, last `--days`) and the stored
+  `show_priority` list. Without them, `--conversion-file` and `--priority-file`
+  (the `report:show-priority -- --json` output) can be passed, or the report
+  falls back to a 30% site-wide rate and says so.
+- CREATE needs demand (price or buying-decision searches), verified upcoming
+  dates and measured conversion for that page type; otherwise the row is HOLD
+  with the missing evidence named. Event pages are HOLD while a cohort read is
+  pending; pages in `SELLING_SOON_PATHS` are HOLD while #1621 is measured.
+- "Value" is extra ticket-clickers × £0.45 (inferred), a ranking aid only.
+  Clicks are not sales.
+
+`.github/workflows/seo-opportunities.yml` runs it weekly (Monday 06:30 UTC)
+with `--gsc-api --remote --issue`: the last 28 complete days of page and query
+rows from the Search Console API (read-only scope) instead of a CSV, and the
+result rewrites the rolling `automation:seo-opportunities` issue. Until the
+`GSC_SERVICE_ACCOUNT_JSON` secret exists the job skips with a notice. Owner
+setup, once:
+
+1. In a Google Cloud project with the Google Search Console API enabled,
+   create a service account with no roles, and create a JSON key for it.
+2. In Search Console, open the `tourticketcompare.com` domain property,
+   Settings → Users and permissions → Add user: the service account's email,
+   permission **Restricted**.
+3. In GitHub, save the whole JSON file as the Actions secret
+   `GSC_SERVICE_ACCOUNT_JSON`, then run the workflow once by hand.
+
+Blog posts are recorded as page type `blog` (`/blog/<post>`) and `blog_index`
+(`/blog`, `/blog/tags/<tag>`) from 16 Oct 2026; earlier rows say `other`.
+
 ## Lizzy McAlpine price-guide measurement baseline
 
 Reviewed **2026-10-02**; compare again around **2026-10-30**, allowing about

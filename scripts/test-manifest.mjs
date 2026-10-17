@@ -108,6 +108,7 @@ export const STEPS = [
   { id: "report:commercial-funnel:self-test",     lane: "units",  run: "npm run report:commercial-funnel:self-test" },
   { id: "report:plan-scoreboard:self-test",       lane: "units",  run: "npm run report:plan-scoreboard:self-test" },
   { id: "report:show-priority:self-test",         lane: "units",  run: "npm run report:show-priority:self-test" },
+  { id: "report:seo-opportunities:self-test",    lane: "units",  run: "npm run report:seo-opportunities:self-test" },
   { id: "test:affiliate-attribution", lane: "units", run: "npm run test:affiliate-attribution" },
   { id: "test:bot-traffic", lane: "units", run: "npm run test:bot-traffic" },
   { id: "report:affiliate-performance:self-test", lane: "units",  run: "npm run report:affiliate-performance:self-test" },

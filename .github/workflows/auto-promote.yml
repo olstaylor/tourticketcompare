@@ -27,7 +27,11 @@ concurrency:
 jobs:
   promote:
     runs-on: ubuntu-latest
-    timeout-minutes: 59
+    # Measured 2026-10-12..16: ~4 min screening, ~28-32 min ingest and the
+    # in-job suite, then up to 25 min for exact-head validation and the merge.
+    # At 59 the 16 Oct run was cancelled mid-merge with its PR (#1618) green.
+    # Publishing keeps its own sub-60 cap below (fresh App token lifetime).
+    timeout-minutes: 90
     steps:
       - name: Switch
         id: switch
@@ -151,6 +155,7 @@ jobs:
 
       - name: Open auto-promote PR
         id: publish
+        timeout-minutes: 45
         if: steps.switch.outputs.on == 'true' && steps.promote.outputs.count != '0'
         env:
           GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}

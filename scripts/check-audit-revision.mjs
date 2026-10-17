@@ -2,7 +2,7 @@
 // Audit observations belong to one commit. Never transplant date stamps onto
 // a refreshed checkout, or publish them after main has moved past that commit.
 import { execFileSync, spawnSync } from "node:child_process";
-import { readFileSync, mkdtempSync, writeFileSync, rmSync } from "node:fs";
+import { readFileSync, mkdtempSync, writeFileSync, rmSync, existsSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
@@ -15,6 +15,28 @@ export function assertAuditRevision({ audited, checkout, main }) {
   if (audited !== checkout || audited !== main) {
     throw Object.assign(new Error(`Audit reports describe ${audited}, but checkout is ${checkout} and main is ${main}. Withholding verification dates; the next scheduled audit must gather fresh evidence. Do not rebase these stamps.`), { code: "STALE_AUDIT" });
   }
+}
+
+// Paths whose content the audit observes or stamps. A main that moved only
+// outside them (code, docs, workflows) still holds exactly the data the
+// evidence describes, so the stamps may be built on it instead of withheld.
+// 2026-10-16: #1598 (scripts and docs only) merged mid-audit and withheld a
+// full day of verification dates.
+export const EVIDENCE_PATH_PREFIXES = ["public/data/", "data/", "content/"];
+
+// Returns `main` when the evidence still describes it, otherwise null. Pure
+// over the injected git runner. `audited` must be an ancestor of `main`, and
+// no file under an evidence prefix may differ between them.
+export function evidenceBaseFor({ audited, main, git }) {
+  if (![audited, main].every((sha) => /^[0-9a-f]{40}$/.test(sha || ""))) return null;
+  if (audited === main) return main;
+  try {
+    git(["merge-base", "--is-ancestor", audited, main]);
+  } catch {
+    return null;
+  }
+  const changed = git(["diff", "--name-only", audited, main]).split("\n").map((line) => line.trim()).filter(Boolean);
+  return changed.some((file) => EVIDENCE_PATH_PREFIXES.some((prefix) => file.startsWith(prefix))) ? null : main;
 }
 
 export async function checkAuditMergeRevision({ audited, repo, request }) {
@@ -201,7 +223,7 @@ async function selfTest() {
   const check = steps.findIndex((s) => s.name === "Check audit evidence revision");
   const bump = steps.findIndex((s) => /bump-verified-dates/.test(s.run || ""));
   assert(check >= 0 && check < bump);
-  assert.match(steps[check].run, /check-audit-revision\.mjs --check-main --withhold-when-stale/);
+  assert.match(steps[check].run, /check-audit-revision\.mjs --check-main --establish-base --withhold-when-stale/);
   assert.equal(steps[check].env?.GITHUB_TOKEN, "${{ github.token }}", "a neutral withhold needs the token to cancel this run");
   const finalCheck = steps.findIndex((s) => s.name === "Check audited revision before publishing");
   const validation = steps.findIndex((s) => s.name === "Validate before commit");
@@ -209,19 +231,67 @@ async function selfTest() {
   assert(validation < finalCheck && finalCheck < publish);
   assert.match(steps[finalCheck].run, /check-audit-revision\.mjs --check-main --withhold-when-stale/);
   assert.equal(steps[finalCheck].env?.GITHUB_TOKEN, "${{ github.token }}");
-  assert.match(steps[publish].run, /PR_AUDIT_SOURCE_COMMIT="\$\(cat \.audit\/source-commit\.txt\)"/);
+  assert.match(steps[check].run, /--establish-base/, "only the check before stamping may move the evidence base");
+  assert.doesNotMatch(steps[finalCheck].run, /--establish-base/, "the check before publishing stays exact");
+  assert.match(steps[publish].run, /PR_AUDIT_SOURCE_COMMIT="\$\(cat \.audit\/evidence-base\.txt\)"/);
+
+  // Evidence base: real git history, not mocks.
+  const history = mkdtempSync(join(tmpdir(), "audit-evidence-base-"));
+  try {
+    const g = (args) => execFileSync("git", args, { cwd: history, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] }).trim();
+    g(["init", "--quiet", "--initial-branch=main"]);
+    for (const [key, value] of [["user.name", "Fixture"], ["user.email", "fixture@localhost"]]) g(["config", key, value]);
+    const commitFile = (file, text) => {
+      execFileSync("mkdir", ["-p", join(history, file, "..")]);
+      writeFileSync(join(history, file), text);
+      g(["add", "-A"]);
+      g(["commit", "--quiet", "-m", file]);
+      return g(["rev-parse", "HEAD"]);
+    };
+    const base = commitFile("public/data/events.json", "[]\n");
+    const codeOnly = commitFile("scripts/tool.mjs", "1\n");
+    const docsToo = commitFile("docs/OPERATIONS.md", "x\n");
+    assert.equal(evidenceBaseFor({ audited: base, main: base, git: g }), base);
+    assert.equal(evidenceBaseFor({ audited: base, main: docsToo, git: g }), docsToo, "code and docs moves keep the evidence valid");
+    const dataMove = commitFile("public/data/events/_shards/001.json", "[]\n");
+    assert.equal(evidenceBaseFor({ audited: base, main: dataMove, git: g }), null, "any event-data change invalidates the evidence");
+    assert.equal(evidenceBaseFor({ audited: codeOnly, main: dataMove, git: g }), null);
+    for (const file of ["data/guide-source-link-checks.json", "content/guides/x.md"]) {
+      const moved = commitFile(file, "1\n");
+      assert.equal(evidenceBaseFor({ audited: dataMove, main: moved, git: g }), null, `${file} invalidates the evidence`);
+    }
+    g(["checkout", "--quiet", "-b", "side", base]);
+    const sibling = commitFile("README.md", "side\n");
+    assert.equal(evidenceBaseFor({ audited: sibling, main: docsToo, git: g }), null, "evidence from a commit that is not an ancestor of main is never reused");
+    assert.equal(evidenceBaseFor({ audited: "HEAD", main: docsToo, git: g }), null);
+  } finally { rmSync(history, { recursive: true, force: true }); }
   console.log("audit-revision self-test passed: atomic fast-forward race, stale-PR closure, fresh integration and unreadable evidence.");
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const run = process.argv.includes("--self-test") ? selfTest() : Promise.resolve().then(() => {
-    const audited = readFileSync(".audit/source-commit.txt", "utf8").trim();
+    const sourceCommit = readFileSync(".audit/source-commit.txt", "utf8").trim();
     const git = (args) => execFileSync("git", args, { encoding: "utf8" }).trim();
     const checkout = git(["rev-parse", "HEAD"]);
     let main = checkout;
     if (process.argv.includes("--check-main")) {
       git(["fetch", "--no-tags", "--quiet", "origin", "main"]);
       main = git(["rev-parse", "FETCH_HEAD"]);
+    }
+    // --establish-base (the check before stamping): accept a main that moved
+    // only outside the evidence paths, and record it as the revision every
+    // later check and the merge are bound to. Later checks read that record
+    // and stay exact.
+    let audited = sourceCommit;
+    if (process.argv.includes("--establish-base")) {
+      const base = checkout === main ? evidenceBaseFor({ audited: sourceCommit, main, git }) : null;
+      if (base && base !== sourceCommit) {
+        console.log(`main moved ${sourceCommit.slice(0, 7)} -> ${base.slice(0, 7)} without touching ${EVIDENCE_PATH_PREFIXES.join(", ")}; the evidence still describes it, so stamps build on ${base.slice(0, 7)}.`);
+      }
+      if (base) audited = base;
+      writeFileSync(".audit/evidence-base.txt", `${audited}\n`);
+    } else if (existsSync(".audit/evidence-base.txt")) {
+      audited = readFileSync(".audit/evidence-base.txt", "utf8").trim();
     }
     try {
       assertAuditRevision({ audited, checkout, main });

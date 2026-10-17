@@ -789,4 +789,31 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(!review.main.includes("/api/out") && !review.main.includes("artist-city-price-answer"), "an artist under review gets no presale resale table");
 }
 
+// ── the artist page opens with its next dates' prices ───────────────────────
+{
+  const artistPath = `/artists/${ARTIST.slug}`;
+  const page = await render(artistPath);
+  assert(page.status === 200, "the artist page renders");
+  const lead = (page.main.match(/<div data-artist-lead>[\s\S]*?<\/section><\/div>/) || [])[0] || "";
+  assert(lead.includes('id="artistNextDatesTitle"'), "the next-dates table sits inside the transplanted lead");
+  assert(page.main.indexOf("artistNextDatesTitle") < page.main.indexOf("artistShowBoard"), "the next-dates table renders above the board");
+  const body = text(lead);
+  assert(body.includes(`Next ${ARTIST.name} dates`), "the table names what it lists");
+  assert(body.includes("$182") && body.includes("$240"), "each of the next dates shows its own lowest listed price");
+  assert(!/\bfrom \$\d/i.test(body) && !/cheapest/i.test(body), "no cross-event 'from' or cheapest claim");
+  const rows = (lead.match(/<tr><th scope="row">/g) || []).length;
+  assert(rows === 3, `the table lists the next three dates only: ${rows}`);
+  const outHrefs = [...lead.matchAll(/href="([^"]+)"/g)].map((m) => m[1]).filter((href) => href.startsWith("/api/out?"));
+  assert(outHrefs.length >= 2 && outHrefs.every((href) => href.includes("ctaLocation=artist_city_answer")), "next-date CTAs report as the answer component");
+  assert(!/href="https?:\/\/(?!tourticketcompare)/.test(lead), "no raw provider URL appears in the table");
+  assert(page.main.includes("How this site makes money"), "the priced artist page keeps the money disclosure");
+  const unpriced = await render(artistPath, { withDb: false });
+  assert(!unpriced.main.includes("artistNextDatesTitle"), "with no price on record the artist page renders no next-dates table");
+  const reviewArtists = artistsMeta.map((artist) =>
+    String(artist?.slug) === ARTIST.slug ? { ...artist, indexing_status: "review_required" } : artist
+  );
+  const review = await render(artistPath, { artists: reviewArtists });
+  assert(!review.main.includes("artistNextDatesTitle"), "an artist under review gets no next-dates table");
+}
+
 console.log(`artist-city-prices: ${passed} checks passed`);

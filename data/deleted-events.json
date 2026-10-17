@@ -250,6 +250,14 @@
       "ticketmaster_event_id": "1706087750",
       "reason": "Ticketmaster premium-suite listing (\"Five Finger Death Punch | Premium Suite Ticket\" at Veikkaus Arena), not the standard concert listing. Tombstoned by Ticketmaster id only (no venue/date key) so the standard concert listing for the same venue and night can still be ingested. Removed under the standard-concert-listings-only decision in PR #1458, addressing its premium-suite review finding.",
       "deleted_at": "2026-10-12"
+    },
+    {
+      "artist_slug": "karol-g",
+      "id": "tm-karol-g-2027-warsaw-z698xzqpz16vfa4vgs",
+      "ticketmaster_discovery_event_id": "Z698xZQpZ16vfa4VGS",
+      "ticketmaster_event_id": "1509574333",
+      "reason": "Ticketmaster Discovery reports this date (PGE Narodowy, Warsaw, 14 Jul 2027) as cancelled; the nightly sync recorded ticketmaster_status_code=cancelled on 2026-10-16 (PR #1604) and the rolling automation:data-sync issue (#930) asked for a removal decision. Tombstoned by Ticketmaster id only (no venue/date key) so a genuine replacement listing with a new id can still be ingested.",
+      "deleted_at": "2026-10-16"
     }
   ]
 }

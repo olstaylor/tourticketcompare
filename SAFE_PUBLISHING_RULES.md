@@ -166,6 +166,8 @@ Pages become indexable and conversion-led only after completing the phase gates 
 - `functions/api/out.js` and `VERIFIED_TICKET_LINKS` are protected. Do not modify without explicit scope.
 - Impact credentials (network-level and provider-specific) are server-side only. Never expose them in public assets, API responses, client-side code, logs, or documentation.
 - **Ticketmaster links carry no affiliate tracking** (the site left the Ticketmaster affiliate programme, 2026-07): they are plain redirects to the verified stored destination. Never re-add Impact wrapping, the Publisher Tag, or `evyy.net` shortlinks for Ticketmaster.
+- Each affiliate base tracking URL is accepted only on `pxf.io` or that provider's own Impact host; a host is never shared across providers.
+- The Cloudflare WAF challenge on direct `/api/out` requests (owner-set 2026-10-16) stays on. Do not loosen it, and do not add automation that fetches live `/api/out`, without the owner's say.
 - Every affiliate-provider redirect is server-side tracked and provider-allowlisted. If configuration, validation, or tracking fails, `/api/out` returns diagnostic JSON—never an untracked redirect or a made-up destination.
 
 ## Schema and SEO

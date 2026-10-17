@@ -388,7 +388,7 @@ out, at most 6 pages per artist, single-date artist-city cases first. A batch is
 added by a reviewed PR only, roughly weekly, so each batch's performance can be
 read on its own with `npm run report:event-indexing-pilot -- --batch <id>`.
 Batches follow every pilot rule: necessary not sufficient, never replaced,
-never regenerated. Batch 1 (2026-10-09): 250 pages across 62 artists.
+never regenerated. Batch 1 (2026-10-09, live 2026-10-10): 250 pages across 62 artists. Batch 2 is held by the owner's 2026-10-16 plan until the first fair read of the pilot and batch 1 on 2026-10-25.
 
 **The cohort is an experiment, not a queue.** The 30 keys and the facts they
 were chosen on are recorded in `data/event-indexing-pilot.json` (selection

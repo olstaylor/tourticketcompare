@@ -12,16 +12,16 @@ Current-state snapshot: data counts, per-artist status and the generated route s
 
 - `public/data/artists.json`: **151 records — 143 `indexable_with_substantial_content` + 8 `review_required` shells** — the 7 held from earlier batches (sabrina-carpenter, lady-gaga, coldplay, rush, muse, system-of-a-down, laura-pausini), with the 15 created by the 2026-09-09 roster batch and the 10 created by the 2026-09-22 batch (oasis, hans-zimmer, trans-siberian-orchestra, kenny-chesney, death-cab-for-cutie, alan-walker, the-psychedelic-furs, eros-ramazzotti, atmosphere, the-warning) all now promoted after owner confirmation of their API-captured destinations, plus the 5 auto-promoted on 2026-09-24 by the first `auto-promote.yml` run (#1117: hilary-duff, josiah-queen, ha-ash, lukas-graham, passenger — each ingested its dates in the same job). The 98 indexable artists carry `verified_providers: ["ticketmaster","seatgeek"]`; the 7 shells carry `verified_providers: []` and render no CTA. 8 of the 98 indexable carry 0 events — beyonce, raye, tate-mcrae, the-weeknd (fact corrected 2026-09-24 by agent: oasis, hans-zimmer, kenny-chesney and atmosphere, eventless after the 2026-09-22 promote because their Ticketmaster dates were withheld, landed dates through the automated Ticketmaster lane in #1110; event ingestion remains a separate phase after promotion is merged and deployed; the 2026-09-10 Ticketmaster run landed dates for 14 of the 15 artists promoted on 2026-09-09, and yuridia's 17 have since landed as well, so all fifteen now carry dates — fact corrected 2026-09-13). A promoted artist with 0 events renders the empty-state watchlist board with its artist-level ticket button (fact corrected 2026-09-23 by agent: since #1092 the empty board carries exactly one artist-level `/api/out` link; event buttons still appear only once dates land). Separately, indexable artists with 0 _upcoming_ events are listed in the generated empty-boards block below, which `daily-audit.yml` refreshes and is the only authority for that count, the list and each page's indexing state; that is the indexable-surface decay BACKLOG item 3 tracks. (The zero-event figure **is** machine-pinned — `SCALAR_ASSERTIONS` matches "N of the M indexable carry 0 events", so `status:validate` fails if N drifts (the denominator M is not pinned) — but the slug list beside it is not. The zero-_upcoming_ figure is pinned by nothing, so recount it from `public/data/` whenever the calendar or an ingestion run moves it; the generated empty-boards block below is its authority and is rewritten by `status:surface:write`.)
 - `public/data/catalog.json`: 151 artist records; 0 tour records; **295 ticket_links rows** (151 ticketmaster + 144 seatgeek artist pages; 286 `verified` + `public_enabled`, plus 7 unverified/hidden shell ticketmaster rows for the 7 `review_required` artists); the `seatgeek` provider entry has `public_enabled: true`.
-- `public/data/events.json`: **3664 events** — 285 `human_verified`, 2581 `machine_high_confidence`, 798 `needs_recheck`. Verified event-level provider provenance is pinned one provider per line below, each separated by a blank line. Keep both properties: git needs an unchanged line between two edits to merge them as separate hunks, so without the blank lines two lanes editing adjacent providers still conflict. This makes any two provider lanes merge cleanly, except on the shared no-resale figure at the end of the list.
+- `public/data/events.json`: **3661 events** — 285 `human_verified`, 2578 `machine_high_confidence`, 798 `needs_recheck`. Verified event-level provider provenance is pinned one provider per line below, each separated by a blank line. Keep both properties: git needs an unchanged line between two edits to merge them as separate hunks, so without the blank lines two lanes editing adjacent providers still conflict. This makes any two provider lanes merge cleanly, except on the shared no-resale figure at the end of the list.
   - SeatGeek 1086 (1315 rows carry a stored `seatgeek_url`); 355 `needs_recheck` rows retain a standalone SeatGeek CTA.
 
-  - Vivid Seats 2213; 363 `needs_recheck` rows retain a standalone Vivid Seats CTA.
+  - Vivid Seats 2211; 363 `needs_recheck` rows retain a standalone Vivid Seats CTA.
 
-  - TicketNetwork 2181.
+  - TicketNetwork 2179.
 
-  - Ticket Liquidator 2094.
+  - Ticket Liquidator 2092.
 
-  - StubHub International 1111.
+  - StubHub International 1110.
 
   - Across all lanes, 195 `needs_recheck` rows have no independently verified resale provider. Every lane recomputes this, so two lanes running the same night still conflict here and no layout can fix that — the two values genuinely disagree. It is now the only such line; regenerate it with `npm run status:validate:write` instead of hand-merging.
 
@@ -32,7 +32,7 @@ Current-state snapshot: data counts, per-artist status and the generated route s
 - `functions/_guide-routes.generated.js`: **28 guide routes** (published guides only), re-exported by `functions/_route-metadata.js`, which still owns the trust/static route metadata and `OLD_GUIDE_REDIRECTS`.
 - Route surface — **generated, do not hand-edit.** `npm run status:surface:write` refreshes this line from the audit's own render of every route (robots meta as served, not as inferred), and `npm run audit:indexable-surface:check` — which runs in `test:mvp` — warns when it goes stale. Exclusion reasons, expiry horizon and the stored baseline live in `reports/indexable-surface/`.
   <!-- generated:route-surface -->
-  Generated 2026-10-17: **4299 rendered / 692 indexable**. By type (rendered/indexable): home 1/1 · index 6/6 · static 12/12 · guide 28/28 · blog-post 15/15 · blog-tag 4/4 · artist 151/131 · city 389/76 · venue 974/142 · artist-city 2541/166 · price-guide 80/79 · presale 98/32.
+  Generated 2026-10-17: **4298 rendered / 691 indexable**. By type (rendered/indexable): home 1/1 · index 6/6 · static 12/12 · guide 28/28 · blog-post 15/15 · blog-tag 4/4 · artist 151/131 · city 389/76 · venue 974/142 · artist-city 2540/165 · price-guide 80/79 · presale 98/32.
   <!-- /generated:route-surface -->
 - `functions/api/out.js` `VERIFIED_TICKET_LINKS`: **288 artist-level entries** — one plain `<slug>:ticketmaster` and one Impact-wrapped `<slug>:seatgeek` per indexable artist (103 artists). There are no artist-level Vivid Seats entries; live event-level Vivid redirects resolve from verified event data.
 - `data/provider-identities.json`: all **144 entries** verified with `ticketmaster_attraction_id`, `ticketmaster_artist_url`, `seatgeek_performer_id`, and `seatgeek_artist_url` (the 7 remaining `review_required` shells have no registry entry yet — added at Promote). The onboarding manifest lives in gitignored `artifacts/` and does not survive environment recycling; regenerate it with `npm run artists:onboard:propose -- --names <names> --allow-existing-shells`.
@@ -171,7 +171,7 @@ Current-state snapshot: data counts, per-artist status and the generated route s
 | john-mayer | 2026-10-12 | 21 | 10 | 10 | 0 | — |  |
 | backstreet-boys | 2026-10-12 | 17 | 10 | 5 | 0 | — |  |
 | twenty-one-pilots | 2026-10-13 | 1 | 1 | 0 | 0 | — |  |
-| rod-stewart | 2026-10-13 | 28 | 1 | 1 | **12** | — |  |
+| rod-stewart | 2026-10-13 | 25 | 1 | 1 | **12** | — |  |
 | guns-n-roses | 2026-10-13 | 7 | 0 | 0 | 0 | — |  |
 | bring-me-the-horizon | 2026-10-13 | 0 | 0 | 0 | 0 | — |  |
 | leon-bridges | 2026-10-13 | 32 | 10 | 4 | **6** | — |  |

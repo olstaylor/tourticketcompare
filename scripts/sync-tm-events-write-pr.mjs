@@ -805,10 +805,8 @@ async function main() {
   // (if the canonical writer dropped it) withheld with `write_not_applied`.
   // Diagnostic only — the write already happened and is not revisited here.
   outcomesMarkdown = await writeOutcomeArtifacts(outDir, buildArtifact(await readEventIds()));
-  // Self-heal PROJECT_STATUS.md counts from the freshly-written events so the
-  // status doc rides along in this commit (before test:mvp, which then sees
-  // matching counts). Keeps the auto-merged new-shows PR from drifting the doc.
-  run("node", ["scripts/validate-status-counts.mjs", "--write"]);
+  // PROJECT_STATUS.md is left to the daily audit's status-figures job, the one
+  // writer of that file, so this PR never conflicts with another lane over it.
   // Card every page these events made indexable, so it never ships on the
   // shared /og-image.png (scripts/build-og-cards.mjs).
   run("npm", ["run", "og:build"]);
@@ -829,7 +827,6 @@ async function main() {
     "public/data/events-index.json",
     "public/data/events",
     "public/index.html",
-    "PROJECT_STATUS.md",
     "public/og",
     "functions/_og-cards.generated.js",
   ]);

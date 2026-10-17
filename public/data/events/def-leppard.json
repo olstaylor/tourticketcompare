@@ -2682,7 +2682,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "060065429AA3953F",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-saint-louis-missouri-06-07-2027/event/060065429AA3953F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/saint-louis-missouri-enterprise-center-2027-06-07-7-pm/concert/18662434",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-saint-louis-missouri-06-07-2027/event/060065429AA3953F",
@@ -2698,11 +2698,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662434,
+        "url": "https://seatgeek.com/def-leppard-tickets/saint-louis-missouri-enterprise-center-2027-06-07-7-pm/concert/18662434",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -3818,7 +3818,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7eoa",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7eoa",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/minneapolis-minnesota-target-center-2027-03-27-7-pm/concert/18662396",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7eoa",
@@ -3834,11 +3834,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662396,
+        "url": "https://seatgeek.com/def-leppard-tickets/minneapolis-minnesota-target-center-2027-03-27-7-pm/concert/18662396",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -3871,7 +3871,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7eo3",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7eo3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/salt-lake-city-utah-delta-center-1-2027-03-31-7-pm/concert/18274784",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7eo3",
@@ -3887,11 +3887,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18274784,
+        "url": "https://seatgeek.com/def-leppard-tickets/salt-lake-city-utah-delta-center-1-2027-03-31-7-pm/concert/18274784",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -3924,7 +3924,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7eoF",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7eoF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/kansas-city-missouri-t-mobile-center-2027-04-26-7-pm/concert/18662412",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7eoF",
@@ -3940,11 +3940,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662412,
+        "url": "https://seatgeek.com/def-leppard-tickets/kansas-city-missouri-t-mobile-center-2027-04-26-7-pm/concert/18662412",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -3977,7 +3977,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7eoo",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7eoo",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/spokane-washington-numerica-veterans-arena-2027-05-11-7-pm/concert/18662424",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7eoo",
@@ -3993,11 +3993,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662424,
+        "url": "https://seatgeek.com/def-leppard-tickets/spokane-washington-numerica-veterans-arena-2027-05-11-7-pm/concert/18662424",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -4030,7 +4030,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7eob",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7eob",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/houston-texas-toyota-center-2027-06-01-7-pm/concert/18662427",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7eob",
@@ -4046,11 +4046,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662427,
+        "url": "https://seatgeek.com/def-leppard-tickets/houston-texas-toyota-center-2027-06-01-7-pm/concert/18662427",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -4083,7 +4083,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7eo8",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7eo8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/cleveland-ohio-rocket-arena-2027-06-21-7-pm/concert/18639422",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7eo8",
@@ -4099,11 +4099,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18639422,
+        "url": "https://seatgeek.com/def-leppard-tickets/cleveland-ohio-rocket-arena-2027-06-21-7-pm/concert/18639422",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

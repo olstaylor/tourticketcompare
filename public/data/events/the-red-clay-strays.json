@@ -1177,7 +1177,7 @@
     "tour_name": "Grateful Tour",
     "ticketmaster_event_id": "Z7r9jZ1A70PZp",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70PZp",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-red-clay-strays-tickets/las-vegas-nevada-mgm-grand-garden-arena-2026-12-05-6-30-pm/concert/18257194",
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-las-vegas-mgm-grand-garden-arena-12-5-2026--concerts-country-and-folk/production/7037866",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70PZp",
@@ -1193,11 +1193,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18257194,
+        "url": "https://seatgeek.com/the-red-clay-strays-tickets/las-vegas-nevada-mgm-grand-garden-arena-2026-12-05-6-30-pm/concert/18257194",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7037866,

@@ -305,7 +305,6 @@ export const OG_CARDS = {
   "/artists/riley-green/tickets/clarkston-united-states": {"url":"/og/artists-riley-green-tickets-clarkston-united-states.png","alt":"Tickets: Riley Green in Clarkston"},
   "/artists/rod-stewart": {"url":"/og/artists-rod-stewart.png","alt":"Tickets & tour dates: Rod Stewart"},
   "/artists/rod-stewart/presale": {"url":"/og/artists-rod-stewart-presale.png","alt":"Presale: Rod Stewart"},
-  "/artists/rod-stewart/tickets/glasgow-united-kingdom": {"url":"/og/artists-rod-stewart-tickets-glasgow-united-kingdom.png","alt":"Tickets: Rod Stewart in Glasgow"},
   "/artists/rod-stewart/tickets/london-united-kingdom": {"url":"/og/artists-rod-stewart-tickets-london-united-kingdom.png","alt":"Tickets: Rod Stewart in London"},
   "/artists/rod-stewart/tickets/manchester-united-kingdom": {"url":"/og/artists-rod-stewart-tickets-manchester-united-kingdom.png","alt":"Tickets: Rod Stewart in Manchester"},
   "/artists/rod-stewart/tickets/morrison-united-states": {"url":"/og/artists-rod-stewart-tickets-morrison-united-states.png","alt":"Tickets: Rod Stewart in Morrison"},

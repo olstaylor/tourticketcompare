@@ -287,7 +287,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70UA4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UA4",
-    "seatgeek_url": "https://seatgeek.com/mico-tickets/los-angeles-california-the-fonda-theatre-2026-10-16-7-pm/concert/18259846",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/mico-tickets-los-angeles-fonda-theatre-10-16-2026/production/7062189",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UA4",
@@ -303,11 +303,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18259846,
-        "url": "https://seatgeek.com/mico-tickets/los-angeles-california-the-fonda-theatre-2026-10-16-7-pm/concert/18259846",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7062189,
@@ -864,7 +864,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E0064AECF5A4FD8",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-atlanta-georgia-10-27-2026/event/0E0064AECF5A4FD8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mico-tickets/atlanta-georgia-the-masquerade-heaven-2026-10-27-7-pm/concert/18252688",
     "vividseats_url": "https://www.vividseats.com/mico-tickets-atlanta-the-masquerade---heaven-10-27-2026/production/7049202",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-atlanta-georgia-10-27-2026/event/0E0064AECF5A4FD8",
@@ -2605,7 +2605,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7a4E",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7a4E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mico-tickets/jacksonville-florida-five-jacksonville-2027-02-23-8-pm/concert/18685771",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7a4E",
@@ -2621,11 +2621,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18685771,
+        "url": "https://seatgeek.com/mico-tickets/jacksonville-florida-five-jacksonville-2027-02-23-8-pm/concert/18685771",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

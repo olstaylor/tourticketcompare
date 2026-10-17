@@ -738,7 +738,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZwqd",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwqd",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-12-31-8-pm/concert/18409857",
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-thackerville-lucas-oil-live-at-winstar-world-casino-12-31-2026/production/7375754",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwqd",
@@ -754,11 +754,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18409857,
+        "url": "https://seatgeek.com/earth-wind-fire-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-12-31-8-pm/concert/18409857",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7375754,

@@ -153,7 +153,7 @@
     "ticketmaster_event_id": "1E00645B9DB09437",
     "ticketmaster_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-denver-colorado-10-18-2026/event/1E00645B9DB09437",
     "seatgeek_url": "https://seatgeek.com/gorillaz-tickets/denver-colorado-ball-arena-2026-10-18-7-pm/concert/18102843",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gorillaz-tickets-denver-ball-arena-10-18-2026--concerts-alternative/production/6739875",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-denver-colorado-10-18-2026/event/1E00645B9DB09437",
     "last_verified_at": "2026-10-16",
@@ -175,11 +175,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6739875,
+        "url": "https://www.vividseats.com/gorillaz-tickets-denver-ball-arena-10-18-2026--concerts-alternative/production/6739875",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -233,7 +233,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7-9AI",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9AI",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gorillaz-tickets-salt-lake-city-delta-center-10-20-2026--concerts-alternative/production/6739877",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9AI",
     "last_verified_at": "2026-10-16",
@@ -255,11 +255,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6739877,
+        "url": "https://www.vividseats.com/gorillaz-tickets-salt-lake-city-delta-center-10-20-2026--concerts-alternative/production/6739877",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -305,7 +305,7 @@
     "ticketmaster_event_id": "1900645AAC798E42",
     "ticketmaster_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-phoenix-arizona-10-23-2026/event/1900645AAC798E42",
     "seatgeek_url": "https://seatgeek.com/gorillaz-tickets/phoenix-arizona-mortgage-matchup-center-2026-10-23-7-pm/concert/18102846",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gorillaz-tickets-phoenix-mortgage-matchup-center-10-23-2026--concerts-alternative/production/6739879",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-phoenix-arizona-10-23-2026/event/1900645AAC798E42",
     "last_verified_at": "2026-10-16",
@@ -327,11 +327,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6739879,
+        "url": "https://www.vividseats.com/gorillaz-tickets-phoenix-mortgage-matchup-center-10-23-2026--concerts-alternative/production/6739879",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -392,7 +392,7 @@
     "ticketmaster_event_id": "0900645BA891CBBF",
     "ticketmaster_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-inglewood-california-10-24-2026/event/0900645BA891CBBF",
     "seatgeek_url": "https://seatgeek.com/gorillaz-tickets/inglewood-california-kia-forum-2026-10-24-7-30-pm/concert/18102848",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gorillaz-tickets-inglewood-kia-forum-10-24-2026--concerts-alternative/production/6739882",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-inglewood-california-10-24-2026/event/0900645BA891CBBF",
     "last_verified_at": "2026-10-16",
@@ -414,11 +414,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6739882,
+        "url": "https://www.vividseats.com/gorillaz-tickets-inglewood-kia-forum-10-24-2026--concerts-alternative/production/6739882",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -558,7 +558,7 @@
     "ticketmaster_event_id": "1C00645AEBF3C46B",
     "ticketmaster_url": "https://www.ticketmaster.com/live-105-presents-gorillaz-the-mountain-oakland-california-10-28-2026/event/1C00645AEBF3C46B",
     "seatgeek_url": "https://seatgeek.com/gorillaz-tickets/oakland-california-oakland-arena-2026-10-28-7-pm/concert/18102850",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gorillaz-tickets-oakland-oakland-arena-10-28-2026/production/6740703",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/live-105-presents-gorillaz-the-mountain-oakland-california-10-28-2026/event/1C00645AEBF3C46B",
     "last_verified_at": "2026-10-16",
@@ -580,11 +580,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6740703,
+        "url": "https://www.vividseats.com/gorillaz-tickets-oakland-oakland-arena-10-28-2026/production/6740703",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -646,7 +646,7 @@
     "ticketmaster_event_id": "0F00645AB26BB216",
     "ticketmaster_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-portland-oregon-10-30-2026/event/0F00645AB26BB216",
     "seatgeek_url": "https://seatgeek.com/gorillaz-tickets/portland-oregon-moda-center-2026-10-30-7-pm/concert/18102851",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gorillaz-tickets-portland-moda-center-10-30-2026/production/6740705",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-portland-oregon-10-30-2026/event/0F00645AB26BB216",
     "last_verified_at": "2026-10-16",
@@ -668,11 +668,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6740705,
+        "url": "https://www.vividseats.com/gorillaz-tickets-portland-moda-center-10-30-2026/production/6740705",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -733,7 +733,7 @@
     "ticketmaster_event_id": "0F006459EB45A052",
     "ticketmaster_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-seattle-washington-10-31-2026/event/0F006459EB45A052",
     "seatgeek_url": "https://seatgeek.com/gorillaz-tickets/seattle-washington-climate-pledge-arena-2026-10-31-7-30-pm/concert/18102856",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gorillaz-tickets-seattle-climate-pledge-arena-10-31-2026--concerts-alternative/production/6739888",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-seattle-washington-10-31-2026/event/0F006459EB45A052",
     "last_verified_at": "2026-10-16",
@@ -755,11 +755,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6739888,
+        "url": "https://www.vividseats.com/gorillaz-tickets-seattle-climate-pledge-arena-10-31-2026--concerts-alternative/production/6739888",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

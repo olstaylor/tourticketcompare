@@ -1047,7 +1047,7 @@
     "ticketmaster_event_id": "0500654CA98964E0",
     "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-indianapolis-indiana-05-01-2027/event/0500654CA98964E0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-indianapolis-lucas-oil-stadium-5-1-2027/production/7706921",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-indianapolis-indiana-05-01-2027/event/0500654CA98964E0",
     "last_verified_at": null,
@@ -1069,11 +1069,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7706921,
+        "url": "https://www.vividseats.com/zach-bryan-tickets-indianapolis-lucas-oil-stadium-5-1-2027/production/7706921",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1101,7 +1101,7 @@
     "ticketmaster_event_id": "0700654CDB0C6B27",
     "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-green-bay-wisconsin-05-04-2027/event/0700654CDB0C6B27",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-green-bay-lambeau-field-5-4-2027--concerts-country-and-folk/production/7706945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-green-bay-wisconsin-05-04-2027/event/0700654CDB0C6B27",
     "last_verified_at": null,
@@ -1123,11 +1123,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7706945,
+        "url": "https://www.vividseats.com/zach-bryan-tickets-green-bay-lambeau-field-5-4-2027--concerts-country-and-folk/production/7706945",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1155,7 +1155,7 @@
     "ticketmaster_event_id": "0000654CE2BEAC96",
     "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-east-rutherford-new-jersey-05-14-2027/event/0000654CE2BEAC96",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-east-rutherford-metlife-stadium-5-14-2027/production/7706905",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-east-rutherford-new-jersey-05-14-2027/event/0000654CE2BEAC96",
     "last_verified_at": null,
@@ -1177,11 +1177,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7706905,
+        "url": "https://www.vividseats.com/zach-bryan-tickets-east-rutherford-metlife-stadium-5-14-2027/production/7706905",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1209,7 +1209,7 @@
     "ticketmaster_event_id": "0000654CE4B7AF3B",
     "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-east-rutherford-new-jersey-05-15-2027/event/0000654CE4B7AF3B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-east-rutherford-metlife-stadium-5-15-2027/production/7706909",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-east-rutherford-new-jersey-05-15-2027/event/0000654CE4B7AF3B",
     "last_verified_at": null,
@@ -1231,11 +1231,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7706909,
+        "url": "https://www.vividseats.com/zach-bryan-tickets-east-rutherford-metlife-stadium-5-15-2027/production/7706909",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1263,7 +1263,7 @@
     "ticketmaster_event_id": "0200654CE8E4ABC0",
     "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-philadelphia-pennsylvania-05-25-2027/event/0200654CE8E4ABC0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-philadelphia-lincoln-financial-field-5-25-2027/production/7706915",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-philadelphia-pennsylvania-05-25-2027/event/0200654CE8E4ABC0",
     "last_verified_at": null,
@@ -1285,11 +1285,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7706915,
+        "url": "https://www.vividseats.com/zach-bryan-tickets-philadelphia-lincoln-financial-field-5-25-2027/production/7706915",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1317,7 +1317,7 @@
     "ticketmaster_event_id": "0E00654CB92CB473",
     "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-atlanta-georgia-05-29-2027/event/0E00654CB92CB473",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-atlanta-mercedes-benz-stadium-5-29-2027/production/7706911",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-atlanta-georgia-05-29-2027/event/0E00654CB92CB473",
     "last_verified_at": null,
@@ -1339,11 +1339,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7706911,
+        "url": "https://www.vividseats.com/zach-bryan-tickets-atlanta-mercedes-benz-stadium-5-29-2027/production/7706911",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1371,7 +1371,7 @@
     "ticketmaster_event_id": "0300654CE8C52226",
     "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-orchard-park-new-york-06-02-2027/event/0300654CE8C52226",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-orchard-park-highmark-stadium-6-2-2027--concerts-country-and-folk/production/7706949",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-orchard-park-new-york-06-02-2027/event/0300654CE8C52226",
     "last_verified_at": null,
@@ -1393,11 +1393,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7706949,
+        "url": "https://www.vividseats.com/zach-bryan-tickets-orchard-park-highmark-stadium-6-2-2027--concerts-country-and-folk/production/7706949",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1425,7 +1425,7 @@
     "ticketmaster_event_id": "1700654C987B8307",
     "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-las-vegas-nevada-07-16-2027/event/1700654C987B8307",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-las-vegas-allegiant-stadium-7-16-2027--concerts-country-and-folk/production/7706953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-las-vegas-nevada-07-16-2027/event/1700654C987B8307",
     "last_verified_at": null,
@@ -1447,11 +1447,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7706953,
+        "url": "https://www.vividseats.com/zach-bryan-tickets-las-vegas-allegiant-stadium-7-16-2027--concerts-country-and-folk/production/7706953",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1479,7 +1479,7 @@
     "ticketmaster_event_id": "0A0065479BA57D07",
     "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-inglewood-california-07-20-2027/event/0A0065479BA57D07",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-inglewood-sofi-stadium-7-20-2027--concerts-country-and-folk/production/7706957",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-inglewood-california-07-20-2027/event/0A0065479BA57D07",
     "last_verified_at": null,
@@ -1501,11 +1501,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7706957,
+        "url": "https://www.vividseats.com/zach-bryan-tickets-inglewood-sofi-stadium-7-20-2027--concerts-country-and-folk/production/7706957",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1533,7 +1533,7 @@
     "ticketmaster_event_id": "0F00654C3F7D1083",
     "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-seattle-washington-07-24-2027/event/0F00654C3F7D1083",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-seattle-lumen-field-7-24-2027/production/7706907",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-seattle-washington-07-24-2027/event/0F00654C3F7D1083",
     "last_verified_at": null,
@@ -1555,11 +1555,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7706907,
+        "url": "https://www.vividseats.com/zach-bryan-tickets-seattle-lumen-field-7-24-2027/production/7706907",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1695,7 +1695,7 @@
     "ticketmaster_event_id": "1E00654CFAA9B55B",
     "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-boise-idaho-08-06-2027/event/1E00654CFAA9B55B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-boise-albertsons-stadium-8-6-2027--concerts-country-and-folk/production/7706959",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-boise-idaho-08-06-2027/event/1E00654CFAA9B55B",
     "last_verified_at": null,
@@ -1717,11 +1717,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7706959,
+        "url": "https://www.vividseats.com/zach-bryan-tickets-boise-albertsons-stadium-8-6-2027--concerts-country-and-folk/production/7706959",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

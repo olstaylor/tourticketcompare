@@ -4104,7 +4104,7 @@
     "ticketmaster_event_id": "36006536D9F285AE",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/greta-van-fleet-into-the-beginning-glasgow-02-06-2027/event/36006536D9F285AE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-glasgow-ovo-hydro-6-2-2027--concerts-rock/production/7643067",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/greta-van-fleet-into-the-beginning-glasgow-02-06-2027/event/36006536D9F285AE",
     "last_verified_at": null,
@@ -4126,11 +4126,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7643067,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-glasgow-ovo-hydro-6-2-2027--concerts-rock/production/7643067",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

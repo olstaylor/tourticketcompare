@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "0F006379C26F7724",
     "ticketmaster_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-seattle-washington-10-17-2026/event/0F006379C26F7724",
     "seatgeek_url": "https://seatgeek.com/mana-tickets/seattle-washington-climate-pledge-arena-2026-10-17-8-30-pm/concert/17938856",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mana-tickets-seattle-climate-pledge-arena-10-17-2026--concerts-latin-music/production/6361511",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-seattle-washington-10-17-2026/event/0F006379C26F7724",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6361511,
+        "url": "https://www.vividseats.com/mana-tickets-seattle-climate-pledge-arena-10-17-2026--concerts-latin-music/production/6361511",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "04006376813E42DA",
     "ticketmaster_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-rosemont-illinois-10-30-2026/event/04006376813E42DA",
     "seatgeek_url": "https://seatgeek.com/mana-tickets/rosemont-illinois-allstate-arena-2026-10-30-8-pm/concert/17938857",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mana-tickets-rosemont-allstate-arena-10-30-2026--concerts-latin-music/production/6361521",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-rosemont-illinois-10-30-2026/event/04006376813E42DA",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6361521,
+        "url": "https://www.vividseats.com/mana-tickets-rosemont-allstate-arena-10-30-2026--concerts-latin-music/production/6361521",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7rbk4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rbk4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mana-tickets-houston-toyota-center---tx-11-6-2026--concerts-latin-music/production/6361549",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rbk4",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6361549,
+        "url": "https://www.vividseats.com/mana-tickets-houston-toyota-center---tx-11-6-2026--concerts-latin-music/production/6361549",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "3A0063780576D4F7",
     "ticketmaster_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-austin-texas-11-08-2026/event/3A0063780576D4F7",
     "seatgeek_url": "https://seatgeek.com/mana-tickets/austin-texas-moody-center-atx-2026-11-08-8-30-pm/concert/17938859",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mana-tickets-austin-moody-center-atx-11-8-2026--concerts-latin-music/production/6361403",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-austin-texas-11-08-2026/event/3A0063780576D4F7",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6361403,
+        "url": "https://www.vividseats.com/mana-tickets-austin-moody-center-atx-11-8-2026--concerts-latin-music/production/6361403",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

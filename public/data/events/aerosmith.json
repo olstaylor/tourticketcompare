@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "0B00653E2B28C4E7",
     "ticketmaster_url": "https://www.ticketmaster.com/california-dream-on-aerosmith-friends-hollywood-california-10-29-2026/event/0B00653E2B28C4E7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/aerosmith-tickets-los-angeles-hollywood-bowl-10-29-2026--concerts-rock/production/7666926",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/california-dream-on-aerosmith-friends-hollywood-california-10-29-2026/event/0B00653E2B28C4E7",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7666926,
+        "url": "https://www.vividseats.com/aerosmith-tickets-los-angeles-hollywood-bowl-10-29-2026--concerts-rock/production/7666926",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "0B00653E2B2EC4EE",
     "ticketmaster_url": "https://www.ticketmaster.com/california-dream-on-aerosmith-friends-hollywood-california-11-01-2026/event/0B00653E2B2EC4EE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/aerosmith-tickets-los-angeles-hollywood-bowl-11-1-2026--concerts-rock/production/7666928",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/california-dream-on-aerosmith-friends-hollywood-california-11-01-2026/event/0B00653E2B2EC4EE",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7666928,
+        "url": "https://www.vividseats.com/aerosmith-tickets-los-angeles-hollywood-bowl-11-1-2026--concerts-rock/production/7666928",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

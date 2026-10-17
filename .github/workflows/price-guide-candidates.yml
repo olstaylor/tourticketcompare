@@ -7,7 +7,7 @@ name: Price-guide candidates
 # and rewrites the rolling `automation:price-guide-candidates` issue. Writes no
 # repository file and publishes nothing: approving a candidate is a human PR
 # adding its slug to PRICE_GUIDE_ARTISTS in functions/_price-guides.js.
-# 11:05 UTC runs after the morning ingestion lanes (03:00–07:00) have merged.
+# 11:05 UTC runs after the morning Ticketmaster lanes (02:40–03:30) have merged.
 
 on:
   schedule:

@@ -358,7 +358,7 @@ async function selfTest() {
   const impactLimits = scheduledMap(impact["timeout-minutes"], 150);
   assert.equal(impact.steps.find((s) => /wait-for-writer-lanes\.mjs/.test(s.run || ""))?.run,
     'node scripts/wait-for-writer-lanes.mjs --max-wait-minutes "$WRITER_WAIT_MINUTES"', "Impact must pass the selected schedule budget to the helper");
-  const budgetFor = (file, job, schedule = "0 6 * * *") => file === "impact-marketplace-provider-sync.yml"
+  const budgetFor = (file, job, schedule = "0 19 * * *") => file === "impact-marketplace-provider-sync.yml"
     ? { wait: impactWaits[schedule], limit: impactLimits[schedule] }
     : { wait: Number((/--max-wait-minutes (\d+)/.exec(job.steps.find((s) => /wait-for-writer-lanes\.mjs/.test(s.run || ""))?.run) || [])[1] ?? DEFAULT_MAX_WAIT_MINUTES), limit: job["timeout-minutes"] };
   const writes = (wf) =>
@@ -385,7 +385,7 @@ async function selfTest() {
   // Replay the worst legal predecessor lifetimes with all jobs starting
   // together. The first uses its full wait/work cap, then the second uses
   // its full cap. Later providers must retain time for their own work.
-  const schedules = ["0 6 * * *", "30 6 * * *", "0 7 * * *"];
+  const schedules = ["0 19 * * *", "30 19 * * *", "0 20 * * *"];
   for (let index = 0; index < schedules.length; index++) {
     const { wait, limit } = budgetFor("impact-marketplace-provider-sync.yml", impact, schedules[index]);
     assert(limit <= 360, "Impact must fit the hosted-job maximum");

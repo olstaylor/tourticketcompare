@@ -2,7 +2,7 @@ name: Auto-publish digest
 
 # Daily after-the-fact review of everything that published itself (see
 # docs/OPERATIONS.md → Auto-publish kill switch and ledger). Writes only the
-# `automation:autopublish-digest` issue. 08:30 UTC follows the last lane (07:00);
+# `automation:autopublish-digest` issue. 08:30 UTC covers the previous 24h of lanes;
 # the App identity supplies Variables: read for the switch values.
 
 on:

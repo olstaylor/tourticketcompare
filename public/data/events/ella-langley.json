@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "060064D1D85A4BA7",
     "ticketmaster_url": "https://www.ticketmaster.com/ella-langley-the-dandelion-tour-lincoln-nebraska-10-30-2026/event/060064D1D85A4BA7",
     "seatgeek_url": "https://seatgeek.com/ella-langley-tickets/lincoln-nebraska-pinnacle-bank-arena-2026-10-30-7-pm/concert/18324412",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ella-langley-tickets-lincoln-pinnacle-bank-arena-10-30-2026--concerts-rock/production/7199174",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ella-langley-the-dandelion-tour-lincoln-nebraska-10-30-2026/event/060064D1D85A4BA7",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7199174,
+        "url": "https://www.vividseats.com/ella-langley-tickets-lincoln-pinnacle-bank-arena-10-30-2026--concerts-rock/production/7199174",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PPo7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PPo7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ella-langley-tickets-saint-paul-grand-casino-arena-10-31-2026--concerts-rock/production/7199177",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PPo7",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7199177,
+        "url": "https://www.vividseats.com/ella-langley-tickets-saint-paul-grand-casino-arena-10-31-2026--concerts-rock/production/7199177",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

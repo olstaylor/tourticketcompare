@@ -1481,7 +1481,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAeekk",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeekk",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-portland-hawthorne-theatre-5-12-2027--concerts-pop/production/7593284",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeekk",
     "last_verified_at": null,
@@ -1503,11 +1503,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593284,
+        "url": "https://www.vividseats.com/haiden-henderson-tickets-portland-hawthorne-theatre-5-12-2027--concerts-pop/production/7593284",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

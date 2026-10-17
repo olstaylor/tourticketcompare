@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "1600650EA41E8D31",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-lexington-kentucky-10-17-2026/event/1600650EA41E8D31",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-lexington-rupp-arena-10-17-2026--concerts-pop/production/7446252",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-lexington-kentucky-10-17-2026/event/1600650EA41E8D31",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446252,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-lexington-rupp-arena-10-17-2026--concerts-pop/production/7446252",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZw4y",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZw4y",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-cleveland-rocket-arena-10-19-2026--concerts-pop/production/7446254",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZw4y",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446254,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-cleveland-rocket-arena-10-19-2026--concerts-pop/production/7446254",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "0000650EC2479322",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-buffalo-new-york-10-20-2026/event/0000650EC2479322",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-buffalo-keybank-center-10-20-2026--concerts-pop/production/7446256",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-buffalo-new-york-10-20-2026/event/0000650EC2479322",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446256,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-buffalo-keybank-center-10-20-2026--concerts-pop/production/7446256",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "0400650E6EDF2A44",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-rosemont-illinois-10-22-2026/event/0400650E6EDF2A44",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-rosemont-allstate-arena-10-22-2026--concerts-pop/production/7446258",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-rosemont-illinois-10-22-2026/event/0400650E6EDF2A44",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446258,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-rosemont-allstate-arena-10-22-2026--concerts-pop/production/7446258",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "1000651DAC5DBFD1",
     "ticketmaster_url": "https://www.ticketmaster.ca/jonas-brothers-the-burning-up-tour-toronto-ontario-10-24-2026/event/1000651DAC5DBFD1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-toronto-scotiabank-arena-10-24-2026/production/7506326",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/jonas-brothers-the-burning-up-tour-toronto-ontario-10-24-2026/event/1000651DAC5DBFD1",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7506326,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-toronto-scotiabank-arena-10-24-2026/production/7506326",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "0800650CC36572A2",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-detroit-michigan-10-25-2026/event/0800650CC36572A2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-detroit-little-caesars-arena-10-25-2026--concerts-pop/production/7446260",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-detroit-michigan-10-25-2026/event/0800650CC36572A2",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446260,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-detroit-little-caesars-arena-10-25-2026--concerts-pop/production/7446260",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "1600650C24C22E70",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-pittsburgh-pennsylvania-10-26-2026/event/1600650C24C22E70",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-pittsburgh-ppg-paints-arena-10-26-2026--concerts-pop/production/7446262",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-pittsburgh-pennsylvania-10-26-2026/event/1600650C24C22E70",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446262,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-pittsburgh-ppg-paints-arena-10-26-2026--concerts-pop/production/7446262",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "0700650DFC2127EB",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-milwaukee-wisconsin-11-01-2026/event/0700650DFC2127EB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-milwaukee-fiserv-forum-11-1-2026--concerts-pop/production/7446264",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-milwaukee-wisconsin-11-01-2026/event/0700650DFC2127EB",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446264,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-milwaukee-fiserv-forum-11-1-2026--concerts-pop/production/7446264",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZwba",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwba",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-saint-paul-grand-casino-arena-11-2-2026--concerts-pop/production/7446266",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwba",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446266,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-saint-paul-grand-casino-arena-11-2-2026--concerts-pop/production/7446266",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "0600650E94218C54",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-kansas-city-missouri-11-03-2026/event/0600650E94218C54",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-kansas-city-t-mobile-center-11-3-2026--concerts-pop/production/7446268",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-kansas-city-missouri-11-03-2026/event/0600650E94218C54",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446268,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-kansas-city-t-mobile-center-11-3-2026--concerts-pop/production/7446268",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "1B00650D13C6A27C",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-nashville-tennessee-11-05-2026/event/1B00650D13C6A27C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-nashville-bridgestone-arena-11-5-2026--concerts-pop/production/7446274",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-nashville-tennessee-11-05-2026/event/1B00650D13C6A27C",
     "last_verified_at": null,
@@ -617,11 +617,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446274,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-nashville-bridgestone-arena-11-5-2026--concerts-pop/production/7446274",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -701,7 +701,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvxjK",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvxjK",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-houston-toyota-center---tx-11-8-2026/production/7533480",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvxjK",
     "last_verified_at": null,
@@ -723,11 +723,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7533480,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-houston-toyota-center---tx-11-8-2026/production/7533480",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -754,7 +754,7 @@
     "ticketmaster_event_id": "0C00650DEAE7F49C",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-oklahoma-city-oklahoma-11-09-2026/event/0C00650DEAE7F49C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-oklahoma-city-paycom-center-11-9-2026--concerts-pop/production/7446282",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-oklahoma-city-oklahoma-11-09-2026/event/0C00650DEAE7F49C",
     "last_verified_at": null,
@@ -776,11 +776,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446282,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-oklahoma-city-paycom-center-11-9-2026--concerts-pop/production/7446282",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -807,7 +807,7 @@
     "ticketmaster_event_id": "0C00650D94FD60CB",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-dallas-texas-11-10-2026/event/0C00650D94FD60CB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-dallas-american-airlines-center---tx-11-10-2026--concerts-pop/production/7446284",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-dallas-texas-11-10-2026/event/0C00650D94FD60CB",
     "last_verified_at": null,
@@ -829,11 +829,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446284,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-dallas-american-airlines-center---tx-11-10-2026--concerts-pop/production/7446284",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -860,7 +860,7 @@
     "ticketmaster_event_id": "3A00650D02CC62D0",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-austin-texas-11-13-2026/event/3A00650D02CC62D0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-austin-moody-center-atx-11-13-2026--concerts-pop/production/7446290",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-austin-texas-11-13-2026/event/3A00650D02CC62D0",
     "last_verified_at": null,
@@ -882,11 +882,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446290,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-austin-moody-center-atx-11-13-2026--concerts-pop/production/7446290",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -913,7 +913,7 @@
     "ticketmaster_event_id": "3A00650DB2F7A71E",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-san-antonio-texas-11-14-2026/event/3A00650DB2F7A71E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-san-antonio-frost-bank-center-11-14-2026--concerts-pop/production/7446292",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-san-antonio-texas-11-14-2026/event/3A00650DB2F7A71E",
     "last_verified_at": null,
@@ -935,11 +935,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446292,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-san-antonio-frost-bank-center-11-14-2026--concerts-pop/production/7446292",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1019,7 +1019,7 @@
     "ticketmaster_event_id": "0B00650ECDC0DD8B",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-18-2026/event/0B00650ECDC0DD8B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-los-angeles-hollywood-bowl-11-18-2026--concerts-pop/production/7446302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-18-2026/event/0B00650ECDC0DD8B",
     "last_verified_at": null,
@@ -1041,11 +1041,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446302,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-los-angeles-hollywood-bowl-11-18-2026--concerts-pop/production/7446302",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1072,7 +1072,7 @@
     "ticketmaster_event_id": "0B006511309DB401",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-19-2026/event/0B006511309DB401",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-los-angeles-hollywood-bowl-11-19-2026--concerts-pop/production/7480299",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-19-2026/event/0B006511309DB401",
     "last_verified_at": null,
@@ -1094,11 +1094,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7480299,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-los-angeles-hollywood-bowl-11-19-2026--concerts-pop/production/7480299",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1125,7 +1125,7 @@
     "ticketmaster_event_id": "1C00650CD888DAC0",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-san-francisco-california-11-21-2026/event/1C00650CD888DAC0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-san-francisco-chase-center-11-21-2026--concerts-pop/production/7446310",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-san-francisco-california-11-21-2026/event/1C00650CD888DAC0",
     "last_verified_at": null,
@@ -1147,11 +1147,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446310,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-san-francisco-chase-center-11-21-2026--concerts-pop/production/7446310",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1178,7 +1178,7 @@
     "ticketmaster_event_id": "1C00650CFB097E40",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-sacramento-california-11-22-2026/event/1C00650CFB097E40",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-sacramento-golden-1-center-11-22-2026--concerts-pop/production/7446314",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-sacramento-california-11-22-2026/event/1C00650CFB097E40",
     "last_verified_at": null,
@@ -1200,11 +1200,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446314,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-sacramento-golden-1-center-11-22-2026--concerts-pop/production/7446314",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1231,7 +1231,7 @@
     "ticketmaster_event_id": "1900650DD11599D6",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-glendale-arizona-11-27-2026/event/1900650DD11599D6",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/glendale-arizona-desert-diamond-arena-2026-11-27-7-30-pm/concert/18503907",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-glendale-desert-diamond-arena-11-27-2026--concerts-pop/production/7446318",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-glendale-arizona-11-27-2026/event/1900650DD11599D6",
     "last_verified_at": null,
@@ -1253,11 +1253,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446318,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-glendale-desert-diamond-arena-11-27-2026--concerts-pop/production/7446318",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1284,7 +1284,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZwb_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwb_",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-las-vegas-mgm-grand-garden-arena-11-28-2026--concerts-pop/production/7446322",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwb_",
     "last_verified_at": null,
@@ -1306,11 +1306,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446322,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-las-vegas-mgm-grand-garden-arena-11-28-2026--concerts-pop/production/7446322",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1390,7 +1390,7 @@
     "ticketmaster_event_id": "0900650C4618D89F",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-anaheim-california-12-02-2026/event/0900650C4618D89F",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/anaheim-california-honda-center-2026-12-02-7-30-pm/concert/18503918",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-anaheim-honda-center-12-2-2026--concerts-pop/production/7446332",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-anaheim-california-12-02-2026/event/0900650C4618D89F",
     "last_verified_at": null,
@@ -1412,11 +1412,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446332,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-anaheim-honda-center-12-2-2026--concerts-pop/production/7446332",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1443,7 +1443,7 @@
     "ticketmaster_event_id": "0F00650D9D7768D8",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-seattle-washington-12-05-2026/event/0F00650D9D7768D8",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/seattle-washington-climate-pledge-arena-2026-12-05-7-30-pm/concert/18503920",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-seattle-climate-pledge-arena-12-5-2026--concerts-pop/production/7446334",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-seattle-washington-12-05-2026/event/0F00650D9D7768D8",
     "last_verified_at": null,
@@ -1465,11 +1465,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446334,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-seattle-climate-pledge-arena-12-5-2026--concerts-pop/production/7446334",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1496,7 +1496,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZwb9",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwb9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-salt-lake-city-delta-center-12-7-2026--concerts-pop/production/7446338",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwb9",
     "last_verified_at": null,
@@ -1518,11 +1518,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446338,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-salt-lake-city-delta-center-12-7-2026--concerts-pop/production/7446338",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1549,7 +1549,7 @@
     "ticketmaster_event_id": "1E00650D99D85C06",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-denver-colorado-12-09-2026/event/1E00650D99D85C06",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/denver-colorado-ball-arena-2026-12-09-7-30-pm/concert/18503921",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-denver-ball-arena-12-9-2026--concerts-pop/production/7446340",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-denver-colorado-12-09-2026/event/1E00650D99D85C06",
     "last_verified_at": null,
@@ -1571,11 +1571,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446340,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-denver-ball-arena-12-9-2026--concerts-pop/production/7446340",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1602,7 +1602,7 @@
     "ticketmaster_event_id": "0600650DED6F1F8D",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-lincoln-nebraska-12-10-2026/event/0600650DED6F1F8D",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/lincoln-nebraska-pinnacle-bank-arena-2026-12-10-7-30-pm/concert/18503923",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-lincoln-pinnacle-bank-arena-12-10-2026--concerts-pop/production/7446344",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-lincoln-nebraska-12-10-2026/event/0600650DED6F1F8D",
     "last_verified_at": null,
@@ -1624,11 +1624,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446344,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-lincoln-pinnacle-bank-arena-12-10-2026--concerts-pop/production/7446344",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1655,7 +1655,7 @@
     "ticketmaster_event_id": "0600650EC125104E",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-sioux-falls-south-dakota-12-12-2026/event/0600650EC125104E",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/sioux-falls-south-dakota-denny-sanford-premier-center-2026-12-12-7-30-pm/concert/18503922",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-sioux-falls-denny-sanford-premier-center-12-12-2026--concerts-pop/production/7446348",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-sioux-falls-south-dakota-12-12-2026/event/0600650EC125104E",
     "last_verified_at": null,
@@ -1677,11 +1677,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446348,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-sioux-falls-denny-sanford-premier-center-12-12-2026--concerts-pop/production/7446348",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1708,7 +1708,7 @@
     "ticketmaster_event_id": "0800650EB9E3B051",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-grand-rapids-michigan-12-15-2026/event/0800650EB9E3B051",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/grand-rapids-michigan-van-andel-arena-2026-12-15-7-30-pm/concert/18503930",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-grand-rapids-van-andel-arena-12-15-2026--concerts-pop/production/7446350",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-grand-rapids-michigan-12-15-2026/event/0800650EB9E3B051",
     "last_verified_at": null,
@@ -1730,11 +1730,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446350,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-grand-rapids-van-andel-arena-12-15-2026--concerts-pop/production/7446350",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1761,7 +1761,7 @@
     "ticketmaster_event_id": "3000650D997F2A93",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-belmont-park-new-york-12-19-2026/event/3000650D997F2A93",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/elmont-new-york-ubs-arena-2026-12-19-7-30-pm/concert/18503931",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-elmont-ubs-arena-12-19-2026--concerts-pop/production/7446354",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-belmont-park-new-york-12-19-2026/event/3000650D997F2A93",
     "last_verified_at": null,
@@ -1783,11 +1783,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446354,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-elmont-ubs-arena-12-19-2026--concerts-pop/production/7446354",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1814,7 +1814,7 @@
     "ticketmaster_event_id": "0200650E113D2CB5",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-newark-new-jersey-12-21-2026/event/0200650E113D2CB5",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/newark-new-jersey-prudential-center-2026-12-21-7-30-pm/concert/18503932",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-newark-prudential-center-12-21-2026--concerts-pop/production/7446356",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-newark-new-jersey-12-21-2026/event/0200650E113D2CB5",
     "last_verified_at": null,
@@ -1836,11 +1836,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7446356,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-newark-prudential-center-12-21-2026--concerts-pop/production/7446356",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1867,7 +1867,7 @@
     "ticketmaster_event_id": "0200650E11422CE2",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-newark-new-jersey-12-22-2026/event/0200650E11422CE2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-newark-prudential-center-12-22-2026/production/7480311",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-newark-new-jersey-12-22-2026/event/0200650E11422CE2",
     "last_verified_at": null,
@@ -1889,11 +1889,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7480311,
+        "url": "https://www.vividseats.com/jonas-brothers-tickets-newark-prudential-center-12-22-2026/production/7480311",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

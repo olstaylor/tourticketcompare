@@ -97,9 +97,8 @@ dead link or a duplicate title; the owner reviews every merge in the daily
 never invent data, never scrape, no client-side credentials, the `/api/out`
 contract and Impact wrapping, no price or availability claim without a source.
 
-**Not sanctioned:** `tm-data-refresh-pr.yml` is PR-only and human-merged by
-design — never a direct commit, never an auto-merge. So is
-`work-queue-repair.yml`, the maintenance loop's Stage 3 worker: it may push one
+**Not sanctioned:** `work-queue-repair.yml`, the maintenance loop's Stage 3
+worker, is PR-only by design — never a direct commit: it may push one
 branch and open one pull request regenerating an artefact already on the
 machine-owned list in group B, or verifying an `event_needs_provider_url`
 batch through the existing SeatGeek API verifier. The latter is limited to

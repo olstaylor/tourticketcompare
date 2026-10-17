@@ -253,9 +253,9 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
   assert(!/Sep 11/.test(h1(page.html) + title(page.html)), "the UTC date never appears in the H1 or title");
   assert(/Sep 10, 2026/.test(title(page.html)) && / Tickets/.test(title(page.html)), `the title is factual (got ${title(page.html)})`);
   assert(!/\$/.test(title(page.html)), "the title stays stable as prices change");
-  assert(/Starting from US\$/.test(description(page.html)), `the event snippet carries its gated starting price (got ${description(page.html)})`);
+  assert(/Cheapest listed of 2 sites: US\$182\.00 at Vivid Seats/.test(description(page.html)), `the event snippet names the cheaper of the two priced sites (got ${description(page.html)})`);
   assert(/Sep 10, 2026/.test(description(page.html)) && /checked .* UTC\. Check fees\./.test(description(page.html)), "the event snippet dates and qualifies its price");
-  assert(!JSON.stringify(graphOf(page.html)).includes("Starting from"), "the starting-price snippet is excluded from JSON-LD");
+  assert(!/Starting from|Cheapest listed/.test(JSON.stringify(graphOf(page.html))), "the price snippet is excluded from JSON-LD");
   assert(/Event details/.test(page.html) && /Fixture Arena/.test(text(mainOf(page.html))) && /Springfield, United States/.test(text(mainOf(page.html))), "the page states venue, city and country");
   assert(/8:00 PM local time/.test(text(mainOf(page.html))), "the page states the local start time");
   assert(/How this site makes money/.test(page.html), "the money disclosure sits with the buttons");
@@ -281,7 +281,7 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
 
   // Recorded prices: the same figures the artist-city price answer states.
   const prices = text(meta(page.html, /(<section[^>]*aria-labelledby="eventPricesTitle"[\s\S]*?<\/section>)/));
-  assert(/Lowest listed price: \$182 on Vivid Seats, checked Aug 9, 2026, 9:00 AM UTC/.test(prices), `the lowest listed price matches the button and states its capture time (got ${prices.slice(0, 200)})`);
+  assert(/Cheapest listed price of the 2 ticket sites checked: \$182 on Vivid Seats, checked Aug 9, 2026, 9:00 AM UTC/.test(prices), `the cheapest listed price matches the button, counts the sites and states its capture time (got ${prices.slice(0, 200)})`);
   assert(!/\bnow:/.test(prices), "a cached price is never labelled as current");
   assert(/30-day low \$150 · Vivid Seats/.test(prices), "the recorded 30-day low is stated");
   assert(text(parent.html).includes("30-day low $150 · Vivid Seats"), "the parent price answer states the same low");

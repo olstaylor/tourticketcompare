@@ -1599,11 +1599,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7695888",
-        "url": "https://www.ticketnetwork.com/en/p/7695888",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107083222",
@@ -1622,7 +1622,7 @@
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_dfADI5V",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695888",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-16-2026/event/107083222",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695888/Harry-Styles-tickets-Fri-Oct-16-2026-Madison-Square-Garden",
     "organizer_names": [

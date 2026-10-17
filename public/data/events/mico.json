@@ -324,11 +324,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8005895",
-        "url": "https://www.ticketnetwork.com/en/p/8005895",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8005895",
@@ -341,7 +341,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70UA4",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8005895",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8005895/Mico-tickets-Fri-Oct-16-2026-The-Fonda-Theatre"
   },
   {
@@ -2640,11 +2640,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315358",
+        "url": "https://www.ticketnetwork.com/en/p/8315358",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7a4E",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315358"
   },
   {
     "id": "tm-mico-2027-lawrence-z7r9jz1aa7a_g",

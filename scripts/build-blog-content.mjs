@@ -23,6 +23,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 // The generated file is the runtime's input, so the build and the runtime must
 // agree on how a tag is labelled. Import it rather than reimplementing it.
 import { tagLabel } from "../functions/_blog.js";
+import { TOURS_HUB_PATH } from "../functions/_tours-hub.js";
 
 // Shared with scripts/build-guide-content.mjs — see scripts/lib/content-markdown.mjs.
 import {
@@ -113,7 +114,10 @@ const INTERNAL_LINK_EXACT = new Set([
   "/about",
   "/contact",
   "/editorial-policy",
-  "/affiliate-disclosure"
+  "/affiliate-disclosure",
+  "/press",
+  // The yearly tours hub moves with TOURS_HUB_YEAR, so only the live year resolves.
+  TOURS_HUB_PATH
 ]);
 
 // Claims the site is structurally unable to support (SAFE_PUBLISHING_RULES.md →

@@ -50,7 +50,7 @@ import {
   WEEKLY_CHANGE_DAYS
 } from "./_event-price-moves.js";
 import { isUpcomingShow, showStartMs } from "./_upcoming.js";
-import { CARD_PRICE_TAIL, MONEY_DISCLOSURE, NO_PRICE_NOTE, PRICE_DISCLOSURE, PRICE_HISTORY_LABEL, lowestPriceLabel, noPriceAtLastCheck, relativeCheckAge } from "./_price-wording.js";
+import { CARD_PRICE_TAIL, MONEY_DISCLOSURE, NO_PRICE_NOTE, PRICE_DISCLOSURE, PRICE_HISTORY_LABEL, cheapestListedPriceLabel, lowestPriceLabel, noPriceAtLastCheck, relativeCheckAge } from "./_price-wording.js";
 import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventKey, eventPageLinker, eventPageSchemaDecision, nonPerformanceMarkers, resolveEventRoute } from "./_event-pages.js";
 import { deriveEventContext, EVENT_CITY_NEIGHBOUR_DAYS, EVENT_VENUE_NEIGHBOUR_DAYS } from "./_event-context.js";
 import { EVENT_INDEXED_COHORT_KEYS, deriveEventIndexingPilot, eventPagesIndexingEnabled } from "./_event-indexability.js";
@@ -3221,6 +3221,17 @@ function artistCityFaqEntries(artist, artistCity) {
         ? `${formatShowDateServer(next.datetime_iso, next.timezone)} at ${next.venue}. Start times can change, so check the ticket site before you travel.`
         : "No upcoming reviewed date is currently available."
     ],
+    // "Cheapest <artist> tickets in <city>" is how buyers search at the moment
+    // they buy. Asked only where a date in the run has two listed-price lanes
+    // (comparableCount, the test the title's "Prices" uses), so the table the
+    // answer points to can actually compare sites. No figure here: this text is
+    // FAQPage JSON-LD and must not go stale when a snapshot expires.
+    ...(artistCity.comparableCount > 0
+      ? [[
+          `How do I find the cheapest ${artist.name} tickets in ${artistCity.city}?`,
+          `Pick your date in the price table on this page. It shows the cheapest listed price for that date among the ticket sites that had one, which site lists it and when it was checked. Then open the same date on each site and compare the final total, with fees, before you buy.`
+        ]]
+      : []),
     [
       `How current is this ${artist.name} ${artistCity.city} page?`,
       artistCity.lastmod
@@ -3613,6 +3624,10 @@ function priceGuideFaqEntries(route, view) {
   entries.push([
     `How much are ${name} tickets?`,
     `It depends on the date, city and seat. ${view.currentAnswer} Each price on this page is one ticket site's resale price for one date when it was checked. It isn't face value, and it isn't your final total.`
+  ]);
+  entries.push([
+    `Where can I find the cheapest ${name} tickets?`,
+    `Pick your date and city in the table on this page. For each date it shows the cheapest listed price among the ticket sites that had one, which site lists it and when it was checked. The cheapest listed price isn't always the cheapest total: compare fees and seats on the ticket site before you pay.`
   ]);
   const moveSentence = view.moves.length
     ? (() => {
@@ -6667,7 +6682,18 @@ function eventPageTitle(artistName, venue, city, dateLabel, lifecycle) {
   const suffix =
     lifecycle === EVENT_LIFECYCLE.CANCELLED ? " (Cancelled)" : lifecycle === EVENT_LIFECYCLE.POSTPONED ? " (Postponed)" : "";
   const tickets = lifecycle === EVENT_LIFECYCLE.SCHEDULED || lifecycle === EVENT_LIFECYCLE.RESCHEDULED ? " Tickets" : "";
+  // An on-sale date mirrors how buyers search for one show: "<artist> <city>
+  // tickets <date>", then the venue ("luke combs ford field april 17 2027",
+  // Search Console 2026-10). Cancelled, postponed and held dates keep the
+  // venue-first form, which never says "tickets".
+  const searchOrder = tickets
+    ? [
+        `${artistName} ${city} Tickets ${dateLabel} | ${venue}`,
+        `${artistName} ${city} Tickets ${dateLabel}`
+      ]
+    : [];
   return fitTitleToBudget([
+    ...searchOrder,
     `${artistName} at ${venue}, ${city} — ${dateLabel}${suffix}${tickets} | TourTicketCompare`,
     `${artistName} at ${venue}, ${city} — ${dateLabel}${suffix}${tickets}`,
     `${artistName} at ${venue} — ${dateLabel}${suffix}${tickets}`,
@@ -6722,7 +6748,19 @@ function startingPriceMetaDescription(route, events, env) {
   const date = formatShortDateServer(row.datetimeISO, row.timezone);
   const startingPrice = ["Starting from", money].join(" ");
   const tail = `${startingPrice} listed at ${lane.name}; checked ${checked}. Check fees.`;
+  // With two or more sites priced for the date, the snippet names the figure
+  // as the cheapest of them (the phrase buyers search with); otherwise it
+  // stays one site's starting price.
+  const cheapestTail = row.comparedCount >= 2
+    ? `Cheapest listed of ${row.comparedCount} sites: ${money} at ${lane.name}; checked ${checked}. Check fees.`
+    : "";
   const candidates = [
+    ...(cheapestTail
+      ? [
+          `${route.artist.name} tickets in ${city} on ${date}. ${cheapestTail}`,
+          `${route.artist.name} ${city} tickets · ${date}. ${cheapestTail}`
+        ]
+      : []),
     `${route.artist.name} tickets in ${city} on ${date}. ${tail}`,
     `${route.artist.name} ${city} tickets · ${date}. ${tail}`
   ];
@@ -6920,7 +6958,11 @@ function renderEventPageBody(route, events, env) {
       // cached figure is never presented as "now".
       const asOf = formatServerSnapshotTime(row.lowest.fetchedAt);
       const when = asOf ? `, checked ${asOf}` : "";
-      priceItems.push(`Lowest listed price: ${amount} on ${row.lowest.name}${when}${lowText ? ` · ${lowText}` : ""}`);
+      // Two or more sites with a price for this date make the figure the
+      // cheapest of the sites checked (SAFE_PUBLISHING_RULES.md → Price
+      // Display); one site's figure stays that site's lowest listing.
+      const label = cheapestListedPriceLabel(row.comparedCount) || "Lowest listed price";
+      priceItems.push(`${label}: ${amount} on ${row.lowest.name}${when}${lowText ? ` · ${lowText}` : ""}`);
     }
     const move = derivePriceMove(row.lowest, priceMoveSeries.get(`${row.showId}|${row.lowest.provider}`) || []);
     const moveText = move ? priceMoveSentence(move) : "";

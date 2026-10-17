@@ -229,9 +229,11 @@ const text = (html) =>
   String(html).replace(/<[^>]+>/g, " ").replace(/&amp;/g, "&").replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/\s+/g, " ").trim();
 
 // The show card for one event: the smallest <article> holding its buttons.
+// Searched from the first card, so the artist page's next-dates table above
+// the board (same show ids, no <article>) is skipped.
 function card(html, eventId) {
   const marker = `data-cta-show-id="${eventId}"`;
-  const at = html.indexOf(marker);
+  const at = html.indexOf(marker, Math.max(0, html.indexOf("<article")));
   if (at < 0) return "";
   const start = html.lastIndexOf("<article", at);
   const end = html.indexOf("</article>", at);

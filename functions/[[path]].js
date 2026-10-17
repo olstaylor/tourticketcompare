@@ -5434,6 +5434,30 @@ function renderPresaleResaleTable(route, events, env) {
   });
 }
 
+// The artist page's opening price table: the board's first few dates, each
+// with its own lowest listed price and a button to it. The rows are a prefix of
+// the board, which onRequest has already priced, so this needs no query. The
+// buttons report as artist_city_answer (the same component); page_type tells
+// the two surfaces apart.
+export const ARTIST_NEXT_DATES_LIMIT = 3;
+
+export function renderArtistNextDatesPriceAnswer(artist, shows, availability) {
+  const nextShows = (Array.isArray(shows) ? shows : []).slice(0, ARTIST_NEXT_DATES_LIMIT);
+  if (!nextShows.length) return "";
+  const priceAnswer = deriveCityDatePrices(nextShows, {
+    ctaSpecsFor: (show) => serverShowCtaSpecs(show, availability),
+    wasChecked: pricesWereChecked
+  });
+  const placeById = new Map(nextShows.map((show) => [String(show.id || ""), [show.city, show.venue].filter(Boolean).join(" · ")]));
+  return renderArtistCityPriceAnswer(artist, { city: "" }, priceAnswer, new Map(), new Map(), {
+    heading: `Next ${artist.name} dates`,
+    intro: "The lowest listed price for each of the next dates",
+    caption: `Lowest listed price for the next ${artist.name} dates`,
+    titleId: "artistNextDatesTitle",
+    placeFor: (row) => placeById.get(row.showId) || row.venue
+  });
+}
+
 export function renderPresalePageBody(route, events = [], env = {}) {
   const artist = route.artist;
   const presales = route.presales;
@@ -7207,9 +7231,20 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     // The artist's presale page, linked only while Ticketmaster lists a window
     // that is open or still ahead for one of these dates.
     const presaleLinkHtml = shows.length ? renderArtistPresaleLinkHtml(artist, deriveArtistPresales(events, artist.slug)) : "";
+    // The next few dates' lowest listed prices, as the artist-city page opens
+    // with. On a phone the board's first button sat below the first screen,
+    // under the page-level price caveat, and artist landings clicked through
+    // far less often than artist-city ones (D1, 2-15 Oct 2026: 46% vs 71% of
+    // visitors who saw a button). Same component and gates as the artist-city
+    // table; it sits inside the lead so client hydration transplants it.
+    const nextDatesHtml = isIndexableArtist ? renderArtistNextDatesPriceAnswer(artist, shows, {
+      seatGeekAvailable,
+      vividSeatsAvailable,
+      marketplaceAvailability
+    }) : "";
     const leadHtml = `<div data-artist-lead><h1 id="artistTitle">${escapeHtml(
       shows.length ? `${artist.name} tickets and tour dates` : `${artist.name} tickets`
-    )}</h1><p class="lead">${escapeHtml(contentModel.intro)}</p>${priceGuideLinkHtml}${presaleLinkHtml}</div>`;
+    )}</h1><p class="lead">${escapeHtml(contentModel.intro)}</p>${priceGuideLinkHtml}${presaleLinkHtml}${nextDatesHtml}</div>`;
     const showBoardHtml = renderShowBoardServerHtml(
       shows,
       seatGeekAvailable,

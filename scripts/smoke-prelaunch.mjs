@@ -3445,8 +3445,11 @@ if (fullyPricedBoard.response.status === 200) {
 }
 // Per card, not per page: one board legitimately mixes both states, so the
 // invariant is that a card carrying a price never also carries the note.
+// The chunk before the first <article> is page chrome (including the
+// next-dates table, which mixes priced and unpriced rows), not a card.
 const pricedMorganCards = serverPricedMorgan.text
   .split("<article")
+  .slice(1)
   .map((card) => card.split("</article>")[0])
   .filter((card) => card.includes("provider-cta-price"));
 assert(pricedMorganCards.length > 0, "the priced Morgan Wallen board should render at least one card with a snapshot");

@@ -2463,6 +2463,13 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8326626",
+        "url": "https://www.ticketliquidator.com/tickets/8326626/Greta-Van-Fleet-tickets-Mon-May-24-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kPzobGo",
@@ -2472,7 +2479,8 @@
     "organizer_names": [
       "Mojo Concerts"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326626"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326626",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326626/Greta-Van-Fleet-tickets-Mon-May-24-2027-Ziggo-Dome"
   },
   {
     "id": "tm-greta-van-fleet-2027-forest-brussels-z698xzg2z16ez30gvn",

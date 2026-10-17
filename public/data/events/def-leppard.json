@@ -3860,12 +3860,20 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312068",
+        "url": "https://www.ticketliquidator.com/tickets/8312068/Def-Leppard-tickets-Sat-Mar-27-2027-Target-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7eoa",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312068"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312068",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312068/Def-Leppard-tickets-Sat-Mar-27-2027-Target-Center"
   },
   {
     "id": "tm-def-leppard-2027-salt-lake-city-z7r9jz1aa7eo3",
@@ -3921,12 +3929,20 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312070",
+        "url": "https://www.ticketliquidator.com/tickets/8312070/Def-Leppard-tickets-Wed-Mar-31-2027-Delta-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7eo3",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312070"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312070",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312070/Def-Leppard-tickets-Wed-Mar-31-2027-Delta-Center"
   },
   {
     "id": "tm-def-leppard-2027-kansas-city-z7r9jz1aa7eof",
@@ -3982,12 +3998,20 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312077",
+        "url": "https://www.ticketliquidator.com/tickets/8312077/Def-Leppard-tickets-Mon-Apr-26-2027-T-Mobile-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7eoF",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312077"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312077",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312077/Def-Leppard-tickets-Mon-Apr-26-2027-T-Mobile-Center"
   },
   {
     "id": "tm-def-leppard-2027-spokane-z7r9jz1aa7eoo",
@@ -4043,12 +4067,20 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312083",
+        "url": "https://www.ticketliquidator.com/tickets/8312083/Def-Leppard-tickets-Tue-May-11-2027-Numerica-Veterans-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7eoo",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312083"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312083",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312083/Def-Leppard-tickets-Tue-May-11-2027-Numerica-Veterans-Arena"
   },
   {
     "id": "tm-def-leppard-2027-houston-z7r9jz1aa7eob",
@@ -4104,12 +4136,20 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312085",
+        "url": "https://www.ticketliquidator.com/tickets/8312085/Def-Leppard-tickets-Tue-Jun-1-2027-Toyota-Center-TX",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7eob",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312085"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312085",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312085/Def-Leppard-tickets-Tue-Jun-1-2027-Toyota-Center-TX"
   },
   {
     "id": "tm-def-leppard-2027-cleveland-z7r9jz1aa7eo8",
@@ -4165,11 +4205,19 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312094",
+        "url": "https://www.ticketliquidator.com/tickets/8312094/Def-Leppard-tickets-Mon-Jun-21-2027-Rocket-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7eo8",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312094"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312094",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312094/Def-Leppard-tickets-Mon-Jun-21-2027-Rocket-Arena"
   }
 ]

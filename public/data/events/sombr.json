@@ -672,7 +672,7 @@
     "tour_name": "You Are The Reason Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7x8Av",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x8Av",
-    "seatgeek_url": "https://seatgeek.com/sombr-tickets/oklahoma-city-oklahoma-paycom-center-2026-10-16-7-pm/concert/18175623",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-oklahoma-city-paycom-center-10-16-2026--concerts-alternative/production/6897869",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x8Av",
@@ -688,11 +688,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18175623,
-        "url": "https://seatgeek.com/sombr-tickets/oklahoma-city-oklahoma-paycom-center-2026-10-16-7-pm/concert/18175623",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6897869,

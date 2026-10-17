@@ -1408,7 +1408,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7e-9",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7e-9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mei-semones-tickets/los-angeles-california-the-fonda-theatre-2027-04-23-9-pm/concert/18662617",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7e-9",
@@ -1424,11 +1424,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662617,
+        "url": "https://seatgeek.com/mei-semones-tickets/los-angeles-california-the-fonda-theatre-2027-04-23-9-pm/concert/18662617",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

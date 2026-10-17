@@ -186,7 +186,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E00647BF19754D0",
     "ticketmaster_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-atlanta-georgia-10-16-2026/event/0E00647BF19754D0",
-    "seatgeek_url": "https://seatgeek.com/uicideboy-tickets/atlanta-georgia-lakewood-amphitheatre-2026-10-16-6-30-pm/concert/18155896",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-atlanta-georgia-10-16-2026/event/0E00647BF19754D0",
@@ -202,11 +202,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18155896,
-        "url": "https://seatgeek.com/uicideboy-tickets/atlanta-georgia-lakewood-amphitheatre-2026-10-16-6-30-pm/concert/18155896",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,

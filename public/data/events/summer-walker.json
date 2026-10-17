@@ -679,7 +679,7 @@
     "tour_name": "Still Finally Over It",
     "ticketmaster_event_id": "040064D7A0B27B7F",
     "ticketmaster_url": "https://www.ticketmaster.com/summer-walker-chicago-illinois-10-16-2026/event/040064D7A0B27B7F",
-    "seatgeek_url": "https://seatgeek.com/summer-walker-tickets/chicago-illinois-credit-union-1-arena-at-uic-2026-10-16-7-30-pm/concert/18328041",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/summer-walker-tickets-chicago-credit-union-1-arena-at-uic-10-16-2026/production/7208420",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/summer-walker-chicago-illinois-10-16-2026/event/040064D7A0B27B7F",
@@ -695,11 +695,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18328041,
-        "url": "https://seatgeek.com/summer-walker-tickets/chicago-illinois-credit-union-1-arena-at-uic-2026-10-16-7-30-pm/concert/18328041",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7208420,

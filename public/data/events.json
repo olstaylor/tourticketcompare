@@ -262928,5 +262928,906 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7dqd",
     "timezone": "America/Chicago",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-ye-2026-houston-g5diz_osqzjfe",
+    "artist_slug": "ye",
+    "artist_name": "Ye",
+    "event_name": "Ye Live in Houston",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Reliant Stadium",
+    "datetime_iso": "2026-11-01T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00651CDD026527",
+    "ticketmaster_url": "https://www.ticketmaster.com/ye-live-in-houston-houston-texas-10-31-2026/event/3A00651CDD026527",
+    "seatgeek_url": "https://seatgeek.com/ye-tickets/houston-texas-reliant-stadium-2026-10-31-8-pm/concert/18551080",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/ye-live-in-houston-houston-texas-10-31-2026/event/3A00651CDD026527",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00651CDD026527",
+        "discovery_event_id": "G5dIZ_oSqZJfE",
+        "url": "https://www.ticketmaster.com/ye-live-in-houston-houston-texas-10-31-2026/event/3A00651CDD026527",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_oSqZJfE",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ye-2026-arlington-z7r9jz1aav0vv",
+    "artist_slug": "ye",
+    "artist_name": "Ye",
+    "event_name": "Kanye West",
+    "city": "Arlington",
+    "country": "United States Of America",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2026-11-08T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv0vV",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv0vV",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv0vV",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv0vV",
+        "discovery_event_id": "Z7r9jZ1AAv0vV",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv0vV",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv0vV",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ye-2026-glendale-z7r9jz1aav08u",
+    "artist_slug": "ye",
+    "artist_name": "Ye",
+    "event_name": "Kanye West",
+    "city": "Glendale",
+    "country": "United States Of America",
+    "venue": "State Farm Stadium",
+    "datetime_iso": "2026-11-22T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv08U",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv08U",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv08U",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv08U",
+        "discovery_event_id": "Z7r9jZ1AAv08U",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv08U",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv08U",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kevin-gates-2026-brandon-g5viz_29hvwzk",
+    "artist_slug": "kevin-gates",
+    "artist_name": "Kevin Gates",
+    "event_name": "Kevin Gates",
+    "city": "Brandon",
+    "country": "United States Of America",
+    "venue": "Brandon Amphitheater",
+    "datetime_iso": "2026-10-18T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064F5DB07DE06",
+    "ticketmaster_url": "https://www.ticketmaster.com/kevin-gates-brandon-mississippi-10-17-2026/event/1B0064F5DB07DE06",
+    "seatgeek_url": "https://seatgeek.com/kevin-gates-tickets/brandon-mississippi-brandon-amphitheater-2026-10-17-8-pm/concert/18406316",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kevin-gates-brandon-mississippi-10-17-2026/event/1B0064F5DB07DE06",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064F5DB07DE06",
+        "discovery_event_id": "G5viZ_29hvWzk",
+        "url": "https://www.ticketmaster.com/kevin-gates-brandon-mississippi-10-17-2026/event/1B0064F5DB07DE06",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_29hvWzk",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kevin-gates-2026-nashville-g5viz_kuq0g54",
+    "artist_slug": "kevin-gates",
+    "artist_name": "Kevin Gates",
+    "event_name": "Kevin Gates",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2026-10-25T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00646D9A90C2D5",
+    "ticketmaster_url": "https://www.ticketmaster.com/kevin-gates-nashville-tennessee-10-24-2026/event/1B00646D9A90C2D5",
+    "seatgeek_url": "https://seatgeek.com/kevin-gates-tickets/nashville-tennessee-the-truth-nashville-2026-10-24-8-pm/concert/18126024",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kevin-gates-nashville-tennessee-10-24-2026/event/1B00646D9A90C2D5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00646D9A90C2D5",
+        "discovery_event_id": "G5viZ_kUQ0G54",
+        "url": "https://www.ticketmaster.com/kevin-gates-nashville-tennessee-10-24-2026/event/1B00646D9A90C2D5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_kUQ0G54",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-brand-new-2026-boston-z7r9jz1a7pwfs",
+    "artist_slug": "brand-new",
+    "artist_name": "Brand New",
+    "event_name": "Brand New",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Roadrunner-Boston",
+    "datetime_iso": "2026-10-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PwfS",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PwfS",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PwfS",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PwfS",
+        "discovery_event_id": "Z7r9jZ1A7PwfS",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PwfS",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PwfS",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-brand-new-2026-boston-z7r9jz1a7ps_m",
+    "artist_slug": "brand-new",
+    "artist_name": "Brand New",
+    "event_name": "Brand New",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Roadrunner-Boston",
+    "datetime_iso": "2026-10-20T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PS_M",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PS_M",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PS_M",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PS_M",
+        "discovery_event_id": "Z7r9jZ1A7PS_M",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PS_M",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PS_M",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-brand-new-2026-newport-z7r9jz1aaz_o7",
+    "artist_slug": "brand-new",
+    "artist_name": "Brand New",
+    "event_name": "Brand New",
+    "city": "Newport",
+    "country": "United States Of America",
+    "venue": "MegaCorp Pavilion",
+    "datetime_iso": "2026-10-22T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZ_O7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ_O7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ_O7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZ_O7",
+        "discovery_event_id": "Z7r9jZ1AAZ_O7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ_O7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZ_O7",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-brand-new-2026-atlanta-z7r9jz1a7pyrk",
+    "artist_slug": "brand-new",
+    "artist_name": "Brand New",
+    "event_name": "Brand New",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Fox Theatre - Atlanta",
+    "datetime_iso": "2026-10-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PYrK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PYrK",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PYrK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PYrK",
+        "discovery_event_id": "Z7r9jZ1A7PYrK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PYrK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PYrK",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-brand-new-2026-hollywood-vvg1vz_gl6rgiu",
+    "artist_slug": "brand-new",
+    "artist_name": "Brand New",
+    "event_name": "Brand New",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live",
+    "datetime_iso": "2026-10-26T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D0064CAC7BCCB0D",
+    "ticketmaster_url": "https://www.ticketmaster.com/brand-new-hollywood-florida-10-25-2026/event/0D0064CAC7BCCB0D",
+    "seatgeek_url": "https://seatgeek.com/brand-new-tickets/hollywood-florida-hard-rock-live-hollywood-2026-10-25-8-pm/concert/18319847",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/brand-new-hollywood-florida-10-25-2026/event/0D0064CAC7BCCB0D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D0064CAC7BCCB0D",
+        "discovery_event_id": "vvG1VZ_Gl6RGiu",
+        "url": "https://www.ticketmaster.com/brand-new-hollywood-florida-10-25-2026/event/0D0064CAC7BCCB0D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_Gl6RGiu",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-brand-new-2026-independence-vvg1bz_uefy4ji",
+    "artist_slug": "brand-new",
+    "artist_name": "Brand New",
+    "event_name": "Brand New",
+    "city": "Independence",
+    "country": "United States Of America",
+    "venue": "Cable Dahmer Arena",
+    "datetime_iso": "2026-10-29T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060064D088E559A8",
+    "ticketmaster_url": "https://www.ticketmaster.com/brand-new-independence-missouri-10-28-2026/event/060064D088E559A8",
+    "seatgeek_url": "https://seatgeek.com/brand-new-tickets/independence-missouri-cable-dahmer-arena-2026-10-28-8-pm/concert/18319848",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/brand-new-independence-missouri-10-28-2026/event/060064D088E559A8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060064D088E559A8",
+        "discovery_event_id": "vvG1bZ_ueFy4JI",
+        "url": "https://www.ticketmaster.com/brand-new-independence-missouri-10-28-2026/event/060064D088E559A8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1bZ_ueFy4JI",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-brand-new-2026-grand-prairie-z7r9jz1a7pijy",
+    "artist_slug": "brand-new",
+    "artist_name": "Brand New",
+    "event_name": "Brand New",
+    "city": "Grand Prairie",
+    "country": "United States Of America",
+    "venue": "Texas Trust CU Theatre",
+    "datetime_iso": "2026-10-31T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PIjY",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PIjY",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PIjY",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PIjY",
+        "discovery_event_id": "Z7r9jZ1A7PIjY",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PIjY",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PIjY",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-brand-new-2026-denver-z7r9jz1a7ptjo",
+    "artist_slug": "brand-new",
+    "artist_name": "Brand New",
+    "event_name": "Brand New",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Mission Ballroom",
+    "datetime_iso": "2026-11-03T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PtJo",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PtJo",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PtJo",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PtJo",
+        "discovery_event_id": "Z7r9jZ1A7PtJo",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PtJo",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PtJo",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-brand-new-2026-las-vegas-z7r9jz1a7jdfs",
+    "artist_slug": "brand-new",
+    "artist_name": "Brand New",
+    "event_name": "Brand New",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Theater at Virgin Hotels Las Vegas",
+    "datetime_iso": "2026-11-07T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7JdFs",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JdFs",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JdFs",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7JdFs",
+        "discovery_event_id": "Z7r9jZ1A7JdFs",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JdFs",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7JdFs",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-brand-new-2026-anaheim-vvg10z_ueuvpcr",
+    "artist_slug": "brand-new",
+    "artist_name": "Brand New",
+    "event_name": "Brand New",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "Honda Center",
+    "datetime_iso": "2026-11-08T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064D08DD25B6F",
+    "ticketmaster_url": "https://www.ticketmaster.com/brand-new-anaheim-california-11-07-2026/event/090064D08DD25B6F",
+    "seatgeek_url": "https://seatgeek.com/brand-new-tickets/anaheim-california-honda-center-2026-11-07-8-pm/concert/18319857",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/brand-new-anaheim-california-11-07-2026/event/090064D08DD25B6F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064D08DD25B6F",
+        "discovery_event_id": "vvG10Z_ueuVPcR",
+        "url": "https://www.ticketmaster.com/brand-new-anaheim-california-11-07-2026/event/090064D08DD25B6F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_ueuVPcR",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-brand-new-2026-san-francisco-g5vyz_ghzwhnz",
+    "artist_slug": "brand-new",
+    "artist_name": "Brand New",
+    "event_name": "Brand New",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Bill Graham Civic Auditorium",
+    "datetime_iso": "2026-11-12T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064CF38CBCA80",
+    "ticketmaster_url": "https://www.ticketmaster.com/brand-new-san-francisco-california-11-11-2026/event/1C0064CF38CBCA80",
+    "seatgeek_url": "https://seatgeek.com/brand-new-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-11-11-8-pm/concert/18319858",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/brand-new-san-francisco-california-11-11-2026/event/1C0064CF38CBCA80",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064CF38CBCA80",
+        "discovery_event_id": "G5vYZ_GHzwHnZ",
+        "url": "https://www.ticketmaster.com/brand-new-san-francisco-california-11-11-2026/event/1C0064CF38CBCA80",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_GHzwHnZ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-brand-new-2026-phoenix-17k8v0g6gh6bhfj",
+    "artist_slug": "brand-new",
+    "artist_name": "Brand New",
+    "event_name": "Brand New",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Arizona Financial Theatre",
+    "datetime_iso": "2026-11-15T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190064CF07E9B226",
+    "ticketmaster_url": "https://www.ticketmaster.com/brand-new-phoenix-arizona-11-14-2026/event/190064CF07E9B226",
+    "seatgeek_url": "https://seatgeek.com/brand-new-tickets/phoenix-arizona-arizona-financial-theatre-2026-11-14-8-pm/concert/18319860",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/brand-new-phoenix-arizona-11-14-2026/event/190064CF07E9B226",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064CF07E9B226",
+        "discovery_event_id": "17k8v0G6GH6BhFJ",
+        "url": "https://www.ticketmaster.com/brand-new-phoenix-arizona-11-14-2026/event/190064CF07E9B226",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17k8v0G6GH6BhFJ",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
   }
 ]

@@ -2123,6 +2123,62 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-brent-faiyaz",
     redirectUrl: "https://seatgeek.com/brent-faiyaz-tickets",
     verified: true
+  },
+  "ye:ticketmaster": {
+    artistSlug: "ye",
+    provider: "ticketmaster",
+    linkId: "tm-artist-ye",
+    redirectUrl: "https://www.ticketmaster.com/ye-tickets/artist/885590",
+    verified: true
+  },
+  "ye:seatgeek": {
+    artistSlug: "ye",
+    provider: "seatgeek",
+    linkId: "sg-artist-ye",
+    redirectUrl: "https://seatgeek.com/ye-tickets",
+    verified: true
+  },
+  "chris-brown:ticketmaster": {
+    artistSlug: "chris-brown",
+    provider: "ticketmaster",
+    linkId: "tm-artist-chris-brown",
+    redirectUrl: "https://www.ticketmaster.com/chris-brown-tickets/artist/1013849",
+    verified: true
+  },
+  "chris-brown:seatgeek": {
+    artistSlug: "chris-brown",
+    provider: "seatgeek",
+    linkId: "sg-artist-chris-brown",
+    redirectUrl: "https://seatgeek.com/chris-brown-tickets",
+    verified: true
+  },
+  "kevin-gates:ticketmaster": {
+    artistSlug: "kevin-gates",
+    provider: "ticketmaster",
+    linkId: "tm-artist-kevin-gates",
+    redirectUrl: "https://www.ticketmaster.com/kevin-gates-tickets/artist/1739199",
+    verified: true
+  },
+  "kevin-gates:seatgeek": {
+    artistSlug: "kevin-gates",
+    provider: "seatgeek",
+    linkId: "sg-artist-kevin-gates",
+    redirectUrl: "https://seatgeek.com/kevin-gates-tickets",
+    verified: true
+  },
+  "brand-new:ticketmaster": {
+    artistSlug: "brand-new",
+    provider: "ticketmaster",
+    linkId: "tm-artist-brand-new",
+    redirectUrl: "https://www.ticketmaster.com/brand-new-tickets/artist/821088",
+    verified: true
+  },
+  "brand-new:seatgeek": {
+    artistSlug: "brand-new",
+    provider: "seatgeek",
+    linkId: "sg-artist-brand-new",
+    redirectUrl: "https://seatgeek.com/brand-new-tickets",
+    verified: true
   }
 };
 

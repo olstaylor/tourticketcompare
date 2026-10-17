@@ -1,0 +1,161 @@
+[
+  {
+    "id": "tm-ye-2026-houston-g5diz_osqzjfe",
+    "artist_slug": "ye",
+    "artist_name": "Ye",
+    "event_name": "Ye Live in Houston",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Reliant Stadium",
+    "datetime_iso": "2026-11-01T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00651CDD026527",
+    "ticketmaster_url": "https://www.ticketmaster.com/ye-live-in-houston-houston-texas-10-31-2026/event/3A00651CDD026527",
+    "seatgeek_url": "https://seatgeek.com/ye-tickets/houston-texas-reliant-stadium-2026-10-31-8-pm/concert/18551080",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/ye-live-in-houston-houston-texas-10-31-2026/event/3A00651CDD026527",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00651CDD026527",
+        "discovery_event_id": "G5dIZ_oSqZJfE",
+        "url": "https://www.ticketmaster.com/ye-live-in-houston-houston-texas-10-31-2026/event/3A00651CDD026527",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_oSqZJfE",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ye-2026-arlington-z7r9jz1aav0vv",
+    "artist_slug": "ye",
+    "artist_name": "Ye",
+    "event_name": "Kanye West",
+    "city": "Arlington",
+    "country": "United States Of America",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2026-11-08T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv0vV",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv0vV",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv0vV",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv0vV",
+        "discovery_event_id": "Z7r9jZ1AAv0vV",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv0vV",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv0vV",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ye-2026-glendale-z7r9jz1aav08u",
+    "artist_slug": "ye",
+    "artist_name": "Ye",
+    "event_name": "Kanye West",
+    "city": "Glendale",
+    "country": "United States Of America",
+    "venue": "State Farm Stadium",
+    "datetime_iso": "2026-11-22T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv08U",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv08U",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv08U",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv08U",
+        "discovery_event_id": "Z7r9jZ1AAv08U",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv08U",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv08U",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  }
+]

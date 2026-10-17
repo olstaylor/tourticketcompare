@@ -926,11 +926,23 @@ async function resolveRoute(pathname, env) {
       return { type: "redirect", location: liveCity ? `/cities/${liveCity.slug}` : "/venues" };
     }
     const artistsMeta = await loadArtistsMeta(env);
+    // "<venue> concerts <year>" is how people search for a venue's line-up
+    // ("arrowhead stadium concerts 2027", Search Console 2026-10), so the
+    // title names the year(s) of its upcoming dates, read in each venue's
+    // calendar. A venue with no dated show keeps the year-free form.
+    const venueYear = yearRangeLabel((venue.shows || []).map((show) => eventLocalYear(show.datetime_iso, show.timezone)));
     return {
       type: "venue",
       path,
       indexable: venue.indexable,
       title: fitTitleToBudget([
+        ...(venueYear
+          ? [
+              `${venue.venue} Concerts ${venueYear}${venue.city ? ` in ${venue.city}` : ""} | Tickets`,
+              `${venue.venue} Concerts ${venueYear} | Tickets`,
+              `${venue.venue} Concerts ${venueYear}`
+            ]
+          : []),
         `${venue.venue} Concerts${venue.city ? ` in ${venue.city}` : ""} | Tickets`,
         `${venue.venue} | Concerts${venue.city ? ` in ${venue.city}` : ""}`,
         `${venue.venue} | ${venue.city || "Concert Venue"}`,

@@ -3627,7 +3627,7 @@ function priceGuideFaqEntries(route, view) {
   ]);
   entries.push([
     `Where can I find the cheapest ${name} tickets?`,
-    `Pick your date and city in the table on this page. For each date it shows the cheapest listed price among the ticket sites that had one, which site lists it and when it was checked. The cheapest listed price isn't always the cheapest total: compare fees and seats on the ticket site before you pay.`
+    `Pick your date and city in the table on this page. For each date it shows the cheapest listed price among the ticket sites that had one, which site lists it and when it was checked. Fees can change the order once you reach checkout, so compare the final total and the seats on each ticket site before you pay.`
   ]);
   const moveSentence = view.moves.length
     ? (() => {

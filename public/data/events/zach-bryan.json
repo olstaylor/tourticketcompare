@@ -1081,12 +1081,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8322365",
+        "url": "https://www.ticketnetwork.com/en/p/8322365",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_fGkwtxpKO",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T14:00:00Z"
+    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322365"
   },
   {
     "id": "tm-zach-bryan-2027-green-bay-vv17jz_fgkshdkie",
@@ -1135,12 +1143,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8322366",
+        "url": "https://www.ticketnetwork.com/en/p/8322366",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_fGkShdkiE",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T15:00:00Z"
+    "public_onsale_at": "2026-10-23T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322366"
   },
   {
     "id": "tm-zach-bryan-2027-east-rutherford-k7vgf_fsxrnwp",
@@ -1189,12 +1205,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8322367",
+        "url": "https://www.ticketnetwork.com/en/p/8322367",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_fSxRnwp",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T14:00:00Z"
+    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322367"
   },
   {
     "id": "tm-zach-bryan-2027-east-rutherford-k7vgf_fs0cbhd",
@@ -1243,12 +1267,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8322368",
+        "url": "https://www.ticketnetwork.com/en/p/8322368",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_fS0cBHD",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T14:00:00Z"
+    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322368"
   },
   {
     "id": "tm-zach-bryan-2027-philadelphia-vv17fz_fgksiy1rz",
@@ -1297,12 +1329,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8322370",
+        "url": "https://www.ticketnetwork.com/en/p/8322370",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_fGkSIy1RZ",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T14:00:00Z"
+    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322370"
   },
   {
     "id": "tm-zach-bryan-2027-atlanta-vvg1zz_fwy55os",
@@ -1351,12 +1391,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8322371",
+        "url": "https://www.ticketnetwork.com/en/p/8322371",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_fwy55oS",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T14:00:00Z"
+    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322371"
   },
   {
     "id": "tm-zach-bryan-2027-orchard-park-vv17gz_fgksis3fj",
@@ -1405,12 +1453,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8322372",
+        "url": "https://www.ticketnetwork.com/en/p/8322372",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17GZ_fGkSIs3FJ",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T14:00:00Z"
+    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322372"
   },
   {
     "id": "tm-zach-bryan-2027-las-vegas-1avjz_fgkwbrzg6",
@@ -1459,12 +1515,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8322373",
+        "url": "https://www.ticketnetwork.com/en/p/8322373",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_fGkwbrzG6",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T17:00:00Z"
+    "public_onsale_at": "2026-10-23T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322373"
   },
   {
     "id": "tm-zach-bryan-2027-inglewood-vvg1iz_frht9v6",
@@ -1513,12 +1577,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8322374",
+        "url": "https://www.ticketnetwork.com/en/p/8322374",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_frht9V6",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T17:00:00Z"
+    "public_onsale_at": "2026-10-23T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322374"
   },
   {
     "id": "tm-zach-bryan-2027-seattle-vvg1hz_fytloed",
@@ -1567,12 +1639,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8322375",
+        "url": "https://www.ticketnetwork.com/en/p/8322375",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_fYTLoed",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T17:00:00Z"
+    "public_onsale_at": "2026-10-23T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322375"
   },
   {
     "id": "tm-zach-bryan-2027-vancouver-1av7z_fgks885w5",
@@ -1621,12 +1701,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8322377",
+        "url": "https://www.ticketnetwork.com/en/p/8322377",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_fGkS885w5",
     "timezone": "America/Vancouver",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T17:00:00Z"
+    "public_onsale_at": "2026-10-23T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322377"
   },
   {
     "id": "tm-zach-bryan-2027-edmonton-1av7z_fgkw2fvlh",
@@ -1729,11 +1817,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8322376",
+        "url": "https://www.ticketnetwork.com/en/p/8322376",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_fSBnh4h",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T16:00:00Z"
+    "public_onsale_at": "2026-10-23T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322376"
   }
 ]

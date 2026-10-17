@@ -99,11 +99,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833737",
+        "url": "https://www.ticketnetwork.com/en/p/7833737",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_kMvOnlG",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833737"
   },
   {
     "id": "tm-weezer-2026-austin-g5diz_kmlrxx1",
@@ -152,11 +160,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833738",
+        "url": "https://www.ticketnetwork.com/en/p/7833738",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_kMLrxx1",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833738"
   },
   {
     "id": "tm-weezer-2026-phoenix-1av0z_kgkmn6hu7",
@@ -205,11 +221,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833739",
+        "url": "https://www.ticketnetwork.com/en/p/7833739",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_kGkMN6HU7",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833739"
   },
   {
     "id": "tm-weezer-2026-san-diego-vvg1iz_kucq_7i",
@@ -258,11 +282,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833740",
+        "url": "https://www.ticketnetwork.com/en/p/7833740",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_kUCQ_7i",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833740"
   },
   {
     "id": "tm-weezer-2026-las-vegas-z7r9jz1a7-muy",
@@ -311,11 +343,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833741",
+        "url": "https://www.ticketnetwork.com/en/p/7833741",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-MuY",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833741"
   },
   {
     "id": "tm-weezer-2026-los-angeles-g5eyz_ku9s8xi",
@@ -364,11 +404,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833742",
+        "url": "https://www.ticketnetwork.com/en/p/7833742",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eYZ_kU9s8XI",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833742"
   },
   {
     "id": "tm-weezer-2027-dublin-17kzv0g62rlynaf",
@@ -523,11 +571,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8182169",
+        "url": "https://www.ticketnetwork.com/en/p/8182169",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkf7Gkderotz",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8182169"
   },
   {
     "id": "tm-weezer-2027-leeds-g5vhz_8pmm7nv",
@@ -629,11 +685,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307719",
+        "url": "https://www.ticketnetwork.com/en/p/8307719",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkf7GkdxJSMU",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307719"
   },
   {
     "id": "tm-weezer-2027-birmingham-1anzkf7gkdaoymm",
@@ -735,11 +799,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8195680",
+        "url": "https://www.ticketnetwork.com/en/p/8195680",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_83WtACz",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8195680"
   },
   {
     "id": "tm-weezer-2027-cardiff-1auzkf7gkevbx3b",

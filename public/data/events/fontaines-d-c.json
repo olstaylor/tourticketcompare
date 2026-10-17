@@ -2684,6 +2684,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8326646",
+        "url": "https://www.ticketnetwork.com/en/p/8326646",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z16vFtPOjP",
@@ -2692,7 +2699,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-oslo-oslo-spektrum-6-11-2026/event/107638078",
     "organizer_names": [
       "Oslo Spektrum AS (FKP Scorpio)"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326646"
   },
   {
     "id": "tm-fontaines-d-c-2027-mexico-1av8z_ogku9epc3",
@@ -2869,11 +2877,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8243932",
+        "url": "https://www.ticketnetwork.com/en/p/8243932",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_okyh0m1",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243932"
   },
   {
     "id": "tm-fontaines-d-c-2026-glasgow-1adbz_8gkucuwyw",
@@ -2922,11 +2938,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8243933",
+        "url": "https://www.ticketnetwork.com/en/p/8243933",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdbZ_8GkUcUwYw",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243933"
   },
   {
     "id": "tm-fontaines-d-c-2027-nashville-z7r9jz1aa7vxe",

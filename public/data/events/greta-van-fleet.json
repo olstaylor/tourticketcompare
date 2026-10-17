@@ -2456,6 +2456,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8326626",
+        "url": "https://www.ticketnetwork.com/en/p/8326626",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kPzobGo",
@@ -2464,7 +2471,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-amsterdam-ziggo-dome-24-5-2027/event/107670944",
     "organizer_names": [
       "Mojo Concerts"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326626"
   },
   {
     "id": "tm-greta-van-fleet-2027-forest-brussels-z698xzg2z16ez30gvn",

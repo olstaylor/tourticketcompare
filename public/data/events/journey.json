@@ -183,11 +183,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7956850",
-        "url": "https://www.ticketnetwork.com/en/p/7956850",
-        "verified": true,
-        "last_verified_at": "2026-10-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_73",
@@ -195,7 +195,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956850/Journey-tickets-Fri-Oct-16-2026-Amerant-Bank-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/journey-sunrise-tickets-10-16-2026/event/107169157",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956850"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-journey-2026-orlando-17fov0g613pzs04",

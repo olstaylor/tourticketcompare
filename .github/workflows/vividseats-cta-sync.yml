@@ -32,11 +32,11 @@ name: Vivid Seats CTA sync
 # See docs/PROVIDER_SYNC.md and SAFE_PUBLISHING_RULES.md.
 
 on:
-  # 05:30 UTC — after the 05:00 seatgeek-cta-sync run so both loops don't
+  # 18:30 UTC — after the 18:00 seatgeek-cta-sync run so both loops don't
   # race the same data files; a lost race only degrades to a non-auto-merged
   # PR, never a broken write.
   schedule:
-    - cron: '30 5 * * *'
+    - cron: '30 18 * * *'
   workflow_dispatch:
     inputs:
       mode:
@@ -125,7 +125,6 @@ jobs:
           if [ "${EVENT_NAME}" = "schedule" ] || [ "${INPUT_MODE:-preview}" = "apply" ]; then
             node scripts/sync-vividseats-events.mjs --apply "${SYNC_ARGS[@]}"
             npm run events:partition
-            node scripts/validate-status-counts.mjs --write
             # Card every page this run's data made indexable (scripts/build-og-cards.mjs).
             if ! git diff --quiet -- public/data; then npm run og:build; fi
           else
@@ -172,7 +171,7 @@ jobs:
           TODAY=$(date -u +%Y-%m-%d)
           BRANCH="automation/vividseats-cta-sync-${TODAY}"
           git checkout -B "$BRANCH"
-          git add public/data/events.json public/data/events-index.json public/data/events public/index.html PROJECT_STATUS.md reports/provider-sync/vividseats-cta-sync.md public/og functions/_og-cards.generated.js
+          git add public/data/events.json public/data/events-index.json public/data/events public/index.html reports/provider-sync/vividseats-cta-sync.md public/og functions/_og-cards.generated.js
           git commit -m "automation: Vivid Seats CTA sync (${TODAY})"
           node scripts/push-automation-branch.mjs "$BRANCH" --force-with-lease
           if [ "${EVENT_NAME}" = "schedule" ] || [ "${INPUT_AUTO_MERGE:-false}" = "true" ]; then

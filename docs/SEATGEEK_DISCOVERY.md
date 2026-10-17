@@ -133,7 +133,7 @@ verified provenance whose CTA would not redirect.
 ## Nightly automation (`seatgeek-cta-sync.yml`)
 
 Since 2026-07-08 (owner-approved) `.github/workflows/seatgeek-cta-sync.yml`
-runs both halves nightly at 05:00 UTC — `seatgeek:enrich` in apply mode, then
+runs both halves daily at 18:00 UTC — `seatgeek:enrich` in apply mode, then
 `seatgeek:verify:apply` — regenerates partitions, runs
 the full validation suite in-job, and opens an auto-merged PR
 (`automation:seatgeek-cta` label) with both committed reports. This is the

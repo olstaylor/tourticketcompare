@@ -260,6 +260,35 @@ automatic drafting. Enabling it authorises at most one new draft PR per week,
 not article approval, merge or unattended publication. Some weeks intentionally
 produce nothing, and an outstanding editorial PR pauses the next week.
 
+## Automated data stories
+
+`npm run stories:build` writes a data story from committed event data, with no
+AI call, network request or price input. The only story type so far is the
+yearly touring map, `/blog/where-the-big-concert-tours-are-playing-in-<year>`:
+announced dates on the tours the site tracks, counted by city, venue, country
+and month with the same rules as the `/tours/<year>` hub (indexable artist,
+upcoming, not cancelled or postponed, venue-local year).
+
+It writes three files:
+
+- `content/blog/<slug>.md`: a new post is `status: draft`. A re-run keeps the
+  first `date` and any `status: published` a person set, and adds `updated`, so
+  monthly refreshes land on one URL and its links accumulate.
+- `reports/data-stories/<slug>/figures.json`: every number in the post.
+- `reports/data-stories/<slug>/press-release.md`: a quote-free release draft.
+  Nothing sends or posts it; an owner decides whether and where it goes.
+
+The publish gate in `scripts/lib/data-stories.mjs` refuses, writing nothing,
+when the year has fewer than 300 shows, 30 artists or 5 countries, when the
+newest recheck is over 14 days old, or when fewer than three cities or venues
+have 5+ dates. `npm run stories:check` runs the gate alone. Run
+`npm run blog:build` after a refresh. Tests: `npm run test:data-stories`.
+
+Out of scope by policy: provider prices and price changes
+([PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md)), price-timing claims until
+the evidence thresholds are met, presale window counts (Ticketmaster's lists mix
+VIP packages and card offers), and any claim about the whole concert market.
+
 ## Writing a post
 
 ### Front matter

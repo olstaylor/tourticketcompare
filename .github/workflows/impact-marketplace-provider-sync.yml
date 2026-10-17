@@ -9,11 +9,11 @@ name: Impact marketplace provider sync
 
 on:
   schedule:
-    # Run after Ticketmaster (02:40), SeatGeek (05:00), and Vivid Seats (05:30).
+    # Run after Ticketmaster (02:40), SeatGeek (18:00), and Vivid Seats (18:30).
     # The writer helper orders overruns without dropping a pending provider.
-    - cron: '0 6 * * *'   # TicketNetwork
-    - cron: '30 6 * * *'  # Ticket Liquidator
-    - cron: '0 7 * * *'   # StubHub International
+    - cron: '0 19 * * *'  # TicketNetwork
+    - cron: '30 19 * * *' # Ticket Liquidator
+    - cron: '0 20 * * *'  # StubHub International
   workflow_dispatch:
     inputs:
       provider:
@@ -42,7 +42,7 @@ permissions:
 
 # All three provider runs remain eligible to start. A workflow concurrency
 # group retains only one pending run and would evict the middle provider when
-# the 06:00 run overruns 07:00. The writer-lane helper orders all three by run
+# the 19:00 run overruns 20:00. The writer-lane helper orders all three by run
 # creation time before ingestion; queued runs are never dropped by a group.
 
 jobs:
@@ -52,9 +52,9 @@ jobs:
     # start together: 60/150/240 minutes waiting, then 90 minutes of work.
     # The preceding job's whole cap bounds the next run's wait; all stay
     # below GitHub's six-hour hosted-job maximum. Manual runs use the first cap.
-    timeout-minutes: ${{ fromJSON('{"0 6 * * *":150,"30 6 * * *":240,"0 7 * * *":330}')[github.event.schedule] || 150 }}
+    timeout-minutes: ${{ fromJSON('{"0 19 * * *":150,"30 19 * * *":240,"0 20 * * *":330}')[github.event.schedule] || 150 }}
     env:
-      WRITER_WAIT_MINUTES: ${{ fromJSON('{"0 6 * * *":60,"30 6 * * *":150,"0 7 * * *":240}')[github.event.schedule] || 60 }}
+      WRITER_WAIT_MINUTES: ${{ fromJSON('{"0 19 * * *":60,"30 19 * * *":150,"0 20 * * *":240}')[github.event.schedule] || 60 }}
       IMPACT_CATALOG_PROXY_URL: https://tourticketcompare.com/api/impact/products
       # /api/impact/products is token-gated; without this the proxy returns 404.
       IMPACT_CATALOG_PROXY_TOKEN: ${{ secrets.DEBUG_API_TOKEN }}
@@ -108,9 +108,9 @@ jobs:
           set -euo pipefail
           if [ "$EVENT_NAME" = "schedule" ]; then
             case "$SCHEDULE" in
-              '0 6 * * *') PROVIDER=ticketnetwork ;;
-              '30 6 * * *') PROVIDER=ticket-liquidator ;;
-              '0 7 * * *') PROVIDER=stubhub-international ;;
+              '0 19 * * *') PROVIDER=ticketnetwork ;;
+              '30 19 * * *') PROVIDER=ticket-liquidator ;;
+              '0 20 * * *') PROVIDER=stubhub-international ;;
               *) echo "Unknown schedule: $SCHEDULE" >&2; exit 1 ;;
             esac
             MODE=apply
@@ -163,7 +163,6 @@ jobs:
           if [ "$MODE" = "apply" ]; then
             node scripts/sync-impact-marketplace-events.mjs --apply "${args[@]}"
             npm run events:partition
-            node scripts/validate-status-counts.mjs --write
             # Card every page this run's data made indexable (scripts/build-og-cards.mjs).
             if ! git diff --quiet -- public/data; then npm run og:build; fi
           else
@@ -227,7 +226,7 @@ jobs:
           TODAY=$(date -u +%Y-%m-%d)
           BRANCH="automation/${PROVIDER}-impact-sync-${TODAY}"
           git checkout -B "$BRANCH"
-          git add public/data/events.json public/data/events-index.json public/data/events public/index.html PROJECT_STATUS.md public/og functions/_og-cards.generated.js "reports/provider-sync/${PROVIDER}-event-sync.md"
+          git add public/data/events.json public/data/events-index.json public/data/events public/index.html public/og functions/_og-cards.generated.js "reports/provider-sync/${PROVIDER}-event-sync.md"
           git commit -m "automation: ${PROVIDER} Impact catalog sync (${TODAY})"
           node scripts/push-automation-branch.mjs "$BRANCH" --force-with-lease
           BRANCH="$BRANCH" \

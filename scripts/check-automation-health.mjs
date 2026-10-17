@@ -109,9 +109,9 @@ export const WATCHED_LANES = [
   { file: "daily-audit.yml", name: "Daily data audit", cadence: "daily 03:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
   { file: "nightly-data-sync.yml", name: "Nightly data sync", cadence: "daily 03:30", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
   { file: "tm-new-shows-pr.yml", name: "Ticketmaster new shows PR", cadence: "daily 02:40 + 16:20", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
-  { file: "seatgeek-cta-sync.yml", name: "SeatGeek CTA sync", cadence: "daily 05:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
-  { file: "vividseats-cta-sync.yml", name: "Vivid Seats CTA sync", cadence: "daily 05:30", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
-  { file: "impact-marketplace-provider-sync.yml", name: "Impact marketplace provider sync", cadence: "daily 06:00/06:30/07:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
+  { file: "seatgeek-cta-sync.yml", name: "SeatGeek CTA sync", cadence: "daily 18:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
+  { file: "vividseats-cta-sync.yml", name: "Vivid Seats CTA sync", cadence: "daily 18:30", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
+  { file: "impact-marketplace-provider-sync.yml", name: "Impact marketplace provider sync", cadence: "daily 19:00/19:30/20:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
   { file: "impact-marketplace-price-snapshots.yml", name: "Impact marketplace price snapshots", cadence: "hourly", maxAgeHours: 14, eventDriven: false, failuresBeforeIncident: 2, sharesMainGate: true },
   { file: "vividseats-price-snapshots.yml", name: "Vivid Seats price snapshots", cadence: "hourly", maxAgeHours: 14, eventDriven: false, failuresBeforeIncident: 2, sharesMainGate: true },
   { file: "price-freshness-check.yml", name: "Price freshness check", cadence: "hourly :35", maxAgeHours: 14, eventDriven: false, failuresBeforeIncident: 2, sharesMainGate: true },
@@ -154,7 +154,7 @@ export const WATCHED_LANES = [
   // evidence.
   { file: "automation-health.yml", name: "Automation health", cadence: "every 6h (:17) + lane completions", maxAgeHours: 20, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
   { file: "generated-freshness.yml", name: "Generated freshness", cadence: "daily 04:40 + push to main", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
-  { file: "pr-validation-head-guard.yml", name: "PR validation head guard", cadence: "every 15m (delivered every 2-5h) + PR events", maxAgeHours: 12, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
+  { file: "pr-validation-head-guard.yml", name: "PR validation head guard", cadence: "every 30m (delivered every 2-5h) + PR events", maxAgeHours: 12, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
   // The Stage 3 repair worker is not a sensor: it runs `test:mvp` against the
   // tip of `main` before it will open anything, so a red check there fails it
   // for exactly the reason it fails every writer. It therefore `sharesMainGate`
@@ -183,7 +183,7 @@ export const WATCHED_LANES = [
   { file: "plan-scoreboard.yml", name: "Plan scoreboard", cadence: "weekly Mon 07:20", maxAgeHours: 8 * 24 + 6, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
   // Daily show-priority ranking: one D1 table and its rolling issue. Every
   // reader is fail-open, so it validates nothing against main.
-  { file: "show-priority.yml", name: "Show priority", cadence: "daily 05:40", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
+  { file: "show-priority.yml", name: "Show priority", cadence: "daily 17:40", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
   // Weekly read-only SEO opportunity report: D1 SELECTs and its rolling issue
   // only. It stays green (skipped run step) until GSC_SERVICE_ACCOUNT_JSON exists.
   { file: "seo-opportunities.yml", name: "SEO opportunities", cadence: "weekly Mon 06:30", maxAgeHours: 8 * 24 + 6, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false }

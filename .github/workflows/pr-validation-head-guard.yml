@@ -7,7 +7,7 @@ on:
     workflows: ["Prelaunch Validation"]
     types: [completed]
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 # One repository-wide scan at a time, but never cancel the one that is running:

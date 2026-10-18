@@ -583,11 +583,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107452020",
-        "url": "https://www.stubhub.ie/sylvan-esso-boston-tickets-10-17-2026/event/107452020",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "8042786",
@@ -601,7 +601,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042786/Sylvan-Esso-tickets-Sat-Oct-17-2026-Citizens-House-Of-Blues-Boston",
-    "stubhub_international_url": "https://www.stubhub.ie/sylvan-esso-boston-tickets-10-17-2026/event/107452020",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042786",
     "organizer_names": [
       "LIVE NATION MUSIC"

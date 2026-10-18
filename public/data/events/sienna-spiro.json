@@ -139,11 +139,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107383077",
-        "url": "https://www.stubhub.ie/sienna-spiro-washington-tickets-10-16-2026/event/107383077",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6GpHxucm",
@@ -151,7 +151,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-washington-tickets-10-16-2026/event/107383077"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-sienna-spiro-2026-philadelphia-vvg1fz_gfaf9pc",

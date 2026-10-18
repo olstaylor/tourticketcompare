@@ -221,10 +221,21 @@ This is where the policy makes its substantive change.
 
 | Situation | Response |
 |---|---|
-| Artist editorially indexable **and** ≥ 2 publishable upcoming shows in the city **and** ≥ 1 of them with ≥ 2 listed-price lanes **and** the artist plays ≥ 2 cities | **200, `index,follow`**, self-canonical, in the sitemap |
-| Artist editorially indexable **and** exactly 1 publishable upcoming show, no date with two price lanes, or the artist's only city | **200, `noindex,follow`**, self-canonical, not in the sitemap, still linked |
+| Artist editorially indexable **and** ≥ 2 publishable upcoming shows in the city **and** ≥ 1 of them with a listed-price lane **and** the artist plays ≥ 2 cities | **200, `index,follow`**, self-canonical, in the sitemap |
+| Artist editorially indexable **and** exactly 1 publishable upcoming show, no date with a listed price, or the artist's only city | **200, `noindex,follow`**, self-canonical, not in the sitemap, still linked |
 | Real footprint in that city but no publishable upcoming show, or artist under review | **301 to `/artists/<artist>`** |
 | Anything else | **404** |
+
+**Why one price lane is enough here (owner-approved 2026-10-17).** The
+two-lane comparison rule (Comparison data, above) still governs city, venue,
+price-guide and event pages. An artist-city run answers "<artist> tickets in
+<city>" with a run of dates, and one listed-price lane on one of them is real
+price data for that query. Outside the US many runs list on StubHub
+International alone, so the two-lane rule held back 80 multi-date pages
+(Olivia Rodrigo Toronto, Karol G Madrid, Niall Horan Dublin) that had Search
+Console impressions. The title promises "Compare Prices" only when a date has
+two lanes (`comparableCount`), so a one-lane page makes no comparison claim.
+Below one listed price the reason is `no_listed_price`.
 
 **Why a single date is not indexable.** The page renders one show card. Every
 fact on it — the date, the venue, the provider destinations, the price snapshot
@@ -503,16 +514,19 @@ near the top and split the topic by intent, not by duplicating it. One URL per
 artist, never one per tour or year — the year in the title is read off the
 upcoming dates, so the same URL carries from one tour to the next.
 
-**Exists only when approved.** A guide renders only for a slug in
-`PRICE_GUIDE_ARTISTS` (`functions/_price-guides.js`). Any other artist's path
-404s: the site does not generate pages it has not been asked to publish. Tour
-launches are *proposed* daily in the `automation:price-guide-candidates` issue
-(`price-guide-candidates.yml`); adding the slug is the approval.
+**Exists when the data qualifies (owner decision 2026-10-17).** A guide renders
+for any `indexable_with_substantial_content` artist whose dates pass the
+indexing gate below, with no hand-added slug. Below the gate an unlisted guide
+**301s to the artist page** and renders again once its data qualifies. An
+artist under review 404s. `PRICE_GUIDE_ARTISTS` (`functions/_price-guides.js`)
+keeps a guide live between tours. The `automation:price-guide-candidates` issue
+(`price-guide-candidates.yml`) reports tour launches and which are already live.
 
-**Renders when** the guide is approved, the artist is
-`indexable_with_substantial_content`, and it has ≥ 1 publishable upcoming date.
-An approved guide that stops qualifying (between tours, or artist under review)
-**301s to the artist page** and renders again when the next run lands.
+**A listed guide renders when** the artist is
+`indexable_with_substantial_content` and it has ≥ 1 publishable upcoming date
+(noindex while below the gate). A listed guide that stops qualifying (between
+tours, or artist under review) **301s to the artist page** and renders again
+when the next run lands.
 
 **Indexable when** it has ≥ 6 upcoming dates (`PRICE_GUIDE_MIN_SHOWS`) in ≥ 2
 cities (`PRICE_GUIDE_MIN_CITIES`), ≥ 1 publishable, and ≥ 3 of them carry

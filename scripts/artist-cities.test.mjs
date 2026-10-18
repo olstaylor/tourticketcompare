@@ -121,11 +121,22 @@ const elsewhere = { city: "Manchester", venue: "AO Arena", datetime_iso: future3
     "test-artist",
     opts
   ).find((city) => city.slug === "london-united-kingdom");
-  assert(unpriced.publishableCount === 2 && unpriced.comparableCount === 0, "two publishable dates, neither with two price lanes");
+  assert(unpriced.publishableCount === 2 && unpriced.pricedCount === 0, "two publishable dates, neither with a listed price");
   assert(
-    unpriced.indexable === false && unpriced.exclusionReasons.includes(EXCLUSION_REASONS.NO_PRICE_COMPARISON),
-    "a multi-date run with no comparison data is not indexable, whatever its date count"
+    unpriced.indexable === false && unpriced.exclusionReasons.includes(EXCLUSION_REASONS.NO_LISTED_PRICE),
+    "a multi-date run with no listed-price data is not indexable, whatever its date count"
   );
+
+  const onePriceSite = {
+    provider_links: { "stubhub-international": { verified: true, url: "https://www.stubhub.ie/test-artist-tickets/event/2" } }
+  };
+  const oneLane = deriveArtistCities(
+    [ev({ id: "r1", datetime_iso: future1, ...onePriceSite }), ev({ id: "r2", datetime_iso: future2 }), ev({ id: "r0", ...elsewhere })],
+    "test-artist",
+    opts
+  ).find((city) => city.slug === "london-united-kingdom");
+  assert(oneLane.comparableCount === 0 && oneLane.pricedCount === 1, "one date listed on one price site");
+  assert(oneLane.indexable === true, "a multi-date run with one listed-price lane is indexable without a two-lane comparison");
 
   const onlyCity = deriveArtistCities([ev({ id: "q1", datetime_iso: future1, ...priced }), ev({ id: "q2", datetime_iso: future2, ...priced })], "test-artist", opts)[0];
   assert(onlyCity.artistCityCount === 1, "the artist plays one city");

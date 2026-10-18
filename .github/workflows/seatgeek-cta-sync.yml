@@ -75,9 +75,10 @@ concurrency:
 jobs:
   seatgeek-cta-sync:
     runs-on: ubuntu-latest
-    # Reserve 60 minutes for queueing and 75 for enrichment, full validation
+    # Reserve 60 minutes for queueing and 105 for enrichment (800 enrich +
+    # 800 verify calls at ~1 per second), full validation
     # and the exact-head publishing check (itself capped at 35 minutes).
-    timeout-minutes: 145
+    timeout-minutes: 165
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -118,21 +119,21 @@ jobs:
             echo "SEATGEEK_CLIENT_ID not configured — safe no-op (no checks, no writes, no PR)."
             exit 0
           fi
-          VERIFY_ARGS=(--max-api-calls 400 --delay-ms 1000)
+          VERIFY_ARGS=(--max-api-calls 800 --delay-ms 1000)
           if [ -n "${INPUT_ARTIST:-}" ]; then
             VERIFY_ARGS+=(--artist "${INPUT_ARTIST}")
           fi
           if [ "${EVENT_NAME}" = "schedule" ] || [ "${INPUT_MODE:-preview}" = "apply" ]; then
             # Enrichment first (adds missing URLs to TM-verified events), then
             # verification (provenance, suppressed-event discovery, self-heal).
-            node scripts/enrich-seatgeek-events.mjs --apply-high-confidence --max-api-calls 400 --delay-ms 1000
+            node scripts/enrich-seatgeek-events.mjs --apply-high-confidence --max-api-calls 800 --delay-ms 1000
             node scripts/verify-seatgeek-events.mjs --apply "${VERIFY_ARGS[@]}"
             npm run events:partition
             # Card every page this run's data made indexable (scripts/build-og-cards.mjs).
             if ! git diff --quiet -- public/data; then npm run og:build; fi
           else
             echo "PREVIEW — dry-run only, no writes."
-            node scripts/enrich-seatgeek-events.mjs --max-api-calls 400 --delay-ms 1000
+            node scripts/enrich-seatgeek-events.mjs --max-api-calls 800 --delay-ms 1000
             node scripts/verify-seatgeek-events.mjs "${VERIFY_ARGS[@]}"
           fi
 

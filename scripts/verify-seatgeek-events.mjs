@@ -346,7 +346,7 @@ export function selectEvents(events, registryBySlug, options, now = new Date()) 
     }
     selected.push({ event, rank: verified ? (stale ? 1 : 2) : 0, instant });
   }
-  // The daily lane stops at --max-api-calls 400 against ~700 selected events,
+  // The daily lane stopped at --max-api-calls 400 against ~700 selected events,
   // so file order decided who got checked: artists added late in events.json
   // never reached the front, and their missing links became work-queue issues
   // (2026-10-09). Spend the budget where a link is missing or unproven first,

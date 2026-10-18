@@ -29,7 +29,7 @@ import { readFileSync, readdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
-import { PRICE_GUIDE_ARTISTS } from "../functions/_price-guides.js";
+import { deriveRenderedPriceGuides } from "../functions/_price-guides.js";
 import { parseCsv } from "./report-event-indexing-pilot.mjs";
 import { splitDocument } from "./lib/content-markdown.mjs";
 import { buildD1ReadArgs } from "./lib/d1-read.mjs";
@@ -213,11 +213,18 @@ async function main(argv) {
     sources.push(priority.length ? "D1 show_priority (top 25)" : "show_priority unavailable");
   }
 
+  const artists = readJson("public/data/artists.json");
+  const events = readJson("public/data/events.json");
+  // Listed guides and guides that went live on their own (owner decision
+  // 2026-10-17), from the same derivation the router and sitemap use.
+  const editoriallyIndexable = (Array.isArray(artists) ? artists : [])
+    .filter((artist) => artist?.indexing_status === "indexable_with_substantial_content")
+    .map((artist) => artist.slug);
   const result = scoreOpportunities({
     pages, queries, now,
-    artists: readJson("public/data/artists.json"),
-    events: readJson("public/data/events.json"),
-    priceGuides: PRICE_GUIDE_ARTISTS,
+    artists,
+    events,
+    priceGuides: deriveRenderedPriceGuides(events, editoriallyIndexable, { now }).map((guide) => guide.artistSlug),
     blogPosts: readBlogPosts(),
     priority,
     conversion: conversionByPageType(conversionRows),

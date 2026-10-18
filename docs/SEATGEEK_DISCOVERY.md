@@ -139,7 +139,9 @@ the full validation suite in-job, and opens an auto-merged PR
 (`automation:seatgeek-cta` label) with both committed reports. This is the
 third narrow auto-publish exception in `SAFE_PUBLISHING_RULES.md`. Manual
 dispatch defaults to a safe preview; without `SEATGEEK_CLIENT_ID` the run
-no-ops. The manual workflow below remains valid for targeted runs.
+no-ops. Each run allows up to 1,600 enrichment and 1,600 verification API calls
+(raised from 400 each, owner-approved 2026-10-18), about 80 minutes at the
+1-second request delay; a 429 stops a step early without writing guesses. The manual workflow below remains valid for targeted runs.
 
 ## Recommended workflow
 

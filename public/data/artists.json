@@ -1942,5 +1942,89 @@
     "last_verified_at": "2026-10-16",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-16"
+  },
+  {
+    "slug": "ye",
+    "name": "Ye",
+    "short_description": "Hip-Hop/Rap act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-18",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-18"
+  },
+  {
+    "slug": "chris-brown",
+    "name": "Chris Brown",
+    "short_description": "R&B act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-18",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-18"
+  },
+  {
+    "slug": "kevin-gates",
+    "name": "Kevin Gates",
+    "short_description": "Hip-Hop/Rap act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-18",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-18"
+  },
+  {
+    "slug": "brand-new",
+    "name": "Brand New",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-18",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-18"
+  },
+  {
+    "slug": "kacey-musgraves",
+    "name": "Kacey Musgraves",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-18",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-18"
+  },
+  {
+    "slug": "knocked-loose",
+    "name": "Knocked Loose",
+    "short_description": "Metal act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-18",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-18"
   }
 ]

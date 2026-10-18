@@ -1,0 +1,532 @@
+[
+  {
+    "id": "tm-knocked-loose-2026-nashville-z7r9jz1a7pd4s",
+    "artist_slug": "knocked-loose",
+    "artist_name": "Knocked Loose",
+    "event_name": "Knocked Loose w/ Denzel Curry",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Pinnacle - TN",
+    "datetime_iso": "2026-10-20T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Pd4s",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pd4s",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pd4s",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Pd4s",
+        "discovery_event_id": "Z7r9jZ1A7Pd4s",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pd4s",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pd4s",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-knocked-loose-2026-saint-louis-17f8v0g65e8csoj",
+    "artist_slug": "knocked-loose",
+    "artist_name": "Knocked Loose",
+    "event_name": "Knocked Loose & Denzel Curry",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "The Factory",
+    "datetime_iso": "2026-10-22T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "210064B9D03B3826",
+    "ticketmaster_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-saint-louis-missouri-10-21-2026/event/210064B9D03B3826",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-saint-louis-missouri-10-21-2026/event/210064B9D03B3826",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "210064B9D03B3826",
+        "discovery_event_id": "17F8v0G65E8CSOJ",
+        "url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-saint-louis-missouri-10-21-2026/event/210064B9D03B3826",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17F8v0G65E8CSOJ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-knocked-loose-2026-kansas-city-vvg1bz_5nc5gbq",
+    "artist_slug": "knocked-loose",
+    "artist_name": "Knocked Loose",
+    "event_name": "Knocked Loose & Denzel Curry",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "Uptown Theater",
+    "datetime_iso": "2026-10-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060064BA8E2F5E9A",
+    "ticketmaster_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-kansas-city-missouri-10-22-2026/event/060064BA8E2F5E9A",
+    "seatgeek_url": "https://seatgeek.com/knocked-loose-tickets/kansas-city-missouri-uptown-theater-kc-2026-10-22-8-pm/concert/18270633",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-kansas-city-missouri-10-22-2026/event/060064BA8E2F5E9A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060064BA8E2F5E9A",
+        "discovery_event_id": "vvG1bZ_5nC5gBQ",
+        "url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-kansas-city-missouri-10-22-2026/event/060064BA8E2F5E9A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1bZ_5nC5gBQ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-knocked-loose-2026-mesa-z7r9jz1a70yjo",
+    "artist_slug": "knocked-loose",
+    "artist_name": "Knocked Loose",
+    "event_name": "Knocked Loose w/ Denzel Curry",
+    "city": "Mesa",
+    "country": "United States Of America",
+    "venue": "Mesa Amphitheatre",
+    "datetime_iso": "2026-10-28T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70yjO",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70yjO",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70yjO",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70yjO",
+        "discovery_event_id": "Z7r9jZ1A70yjO",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70yjO",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70yjO",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-knocked-loose-2026-los-angeles-z7r9jz1a70yjs",
+    "artist_slug": "knocked-loose",
+    "artist_name": "Knocked Loose",
+    "event_name": "Knocked Loose w/ Denzel Curry",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Shrine LA Outdoors",
+    "datetime_iso": "2026-10-30T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70yjs",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70yjs",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70yjs",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70yjs",
+        "discovery_event_id": "Z7r9jZ1A70yjs",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70yjs",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70yjs",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-knocked-loose-2026-san-diego-vvg1iz_5_l1ogs",
+    "artist_slug": "knocked-loose",
+    "artist_name": "Knocked Loose",
+    "event_name": "Knocked Loose & Denzel Curry",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Petco Park",
+    "datetime_iso": "2026-10-31T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0064B65F291D73",
+    "ticketmaster_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-san-diego-california-10-30-2026/event/0A0064B65F291D73",
+    "seatgeek_url": "https://seatgeek.com/knocked-loose-tickets/san-diego-california-petco-park-2026-10-30-7-pm/concert/18270641",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-san-diego-california-10-30-2026/event/0A0064B65F291D73",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0064B65F291D73",
+        "discovery_event_id": "vvG1IZ_5_L1ogS",
+        "url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-san-diego-california-10-30-2026/event/0A0064B65F291D73",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_5_L1ogS",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-knocked-loose-2026-daly-city-g5vyz_5mdvnwz",
+    "artist_slug": "knocked-loose",
+    "artist_name": "Knocked Loose",
+    "event_name": "Knocked Loose & Denzel Curry",
+    "city": "Daly City",
+    "country": "United States Of America",
+    "venue": "The Warehouse at the Cow Palace Arena",
+    "datetime_iso": "2026-11-01T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064BBBBD2AC80",
+    "ticketmaster_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-daly-city-california-10-31-2026/event/1C0064BBBBD2AC80",
+    "seatgeek_url": "https://seatgeek.com/knocked-loose-tickets/daly-city-california-cow-palace-daly-city-2026-10-31-7-pm/concert/18270643",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-daly-city-california-10-31-2026/event/1C0064BBBBD2AC80",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064BBBBD2AC80",
+        "discovery_event_id": "G5vYZ_5mDVnwZ",
+        "url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-daly-city-california-10-31-2026/event/1C0064BBBBD2AC80",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_5mDVnwZ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-knocked-loose-2026-salt-lake-city-g5vzz_53unjyf",
+    "artist_slug": "knocked-loose",
+    "artist_name": "Knocked Loose",
+    "event_name": "Knocked Loose & Denzel Curry",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Union",
+    "datetime_iso": "2026-11-03T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E0064B48D8E6E48",
+    "ticketmaster_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-salt-lake-city-utah-11-02-2026/event/1E0064B48D8E6E48",
+    "seatgeek_url": "https://seatgeek.com/knocked-loose-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-11-02-6-30-pm/concert/18270644",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-salt-lake-city-utah-11-02-2026/event/1E0064B48D8E6E48",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E0064B48D8E6E48",
+        "discovery_event_id": "G5vzZ_53uNJyF",
+        "url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-salt-lake-city-utah-11-02-2026/event/1E0064B48D8E6E48",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_53uNJyF",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-knocked-loose-2026-denver-g5vzz_5nhwfmo",
+    "artist_slug": "knocked-loose",
+    "artist_name": "Knocked Loose",
+    "event_name": "Knocked Loose & Denzel Curry",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Fillmore Auditorium (Denver)",
+    "datetime_iso": "2026-11-04T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E0064BA9BF48DE0",
+    "ticketmaster_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-denver-colorado-11-03-2026/event/1E0064BA9BF48DE0",
+    "seatgeek_url": "https://seatgeek.com/knocked-loose-tickets/denver-colorado-fillmore-auditorium-denver-2026-11-03-5-30-pm/concert/18270647",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-denver-colorado-11-03-2026/event/1E0064BA9BF48DE0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E0064BA9BF48DE0",
+        "discovery_event_id": "G5vzZ_5nhWFMO",
+        "url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-denver-colorado-11-03-2026/event/1E0064BA9BF48DE0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_5nhWFMO",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-knocked-loose-2026-austin-g5diz_5qpgquo",
+    "artist_slug": "knocked-loose",
+    "artist_name": "Knocked Loose",
+    "event_name": "Knocked Loose & Denzel Curry",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Amphitheater",
+    "datetime_iso": "2026-11-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064B6A531ADA0",
+    "ticketmaster_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-austin-texas-11-05-2026/event/3A0064B6A531ADA0",
+    "seatgeek_url": "https://seatgeek.com/knocked-loose-tickets/austin-texas-moody-amphitheater-2026-11-05-7-pm/concert/18270649",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-austin-texas-11-05-2026/event/3A0064B6A531ADA0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064B6A531ADA0",
+        "discovery_event_id": "G5dIZ_5QPGQUO",
+        "url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-austin-texas-11-05-2026/event/3A0064B6A531ADA0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_5QPGQUO",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  }
+]

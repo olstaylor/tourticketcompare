@@ -1013,7 +1013,7 @@
         "event_id": 18257187,
         "url": "https://seatgeek.com/don-omar-tickets/houston-texas-toyota-center-2026-10-23-8-pm/concert/18257187",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1614,7 +1614,7 @@
     "tour_name": "The Last King World Tour",
     "ticketmaster_event_id": "1E0064D3DB77EEBF",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-denver-colorado-02-03-2027/event/1E0064D3DB77EEBF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/don-omar-tickets/denver-colorado-ball-arena-2027-02-03-8-pm/concert/18325121",
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-denver-ball-arena-2-3-2027/production/7198540",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-denver-colorado-02-03-2027/event/1E0064D3DB77EEBF",
@@ -1630,11 +1630,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18325121,
+        "url": "https://seatgeek.com/don-omar-tickets/denver-colorado-ball-arena-2027-02-03-8-pm/concert/18325121",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7198540,

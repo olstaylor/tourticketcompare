@@ -310,7 +310,7 @@
     "tour_name": "Crown In The Grave World Tour",
     "ticketmaster_event_id": "150064EAB5597C07",
     "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-silver-spring-maryland-11-10-2026/event/150064EAB5597C07",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/silver-spring-maryland-the-fillmore-silver-spring-2026-11-10-6-35-pm/concert/18391934",
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-silver-spring-the-fillmore-silver-spring-11-10-2026--concerts-rock/production/7325330",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-silver-spring-maryland-11-10-2026/event/150064EAB5597C07",
@@ -326,11 +326,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391934,
+        "url": "https://seatgeek.com/trivium-tickets/silver-spring-maryland-the-fillmore-silver-spring-2026-11-10-6-35-pm/concert/18391934",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325330,
@@ -654,7 +654,7 @@
     "tour_name": "Crown In The Grave World Tour",
     "ticketmaster_event_id": "310064ED98CF36FA",
     "ticketmaster_url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-laval-quebec-11-17-2026/event/310064ED98CF36FA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/laval-canada-place-bell-2026-11-17-6-35-pm/concert/18391948",
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-laval-place-bell-11-17-2026--concerts-rock/production/7325404",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-laval-quebec-11-17-2026/event/310064ED98CF36FA",
@@ -670,11 +670,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391948,
+        "url": "https://seatgeek.com/trivium-tickets/laval-canada-place-bell-2026-11-17-6-35-pm/concert/18391948",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325404,
@@ -883,7 +883,7 @@
     "tour_name": "Crown In The Grave World Tour",
     "ticketmaster_event_id": "040064E8F7D59A10",
     "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-chicago-illinois-11-21-2026/event/040064E8F7D59A10",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/chicago-illinois-byline-bank-aragon-ballroom-2026-11-21-6-35-pm/concert/18391955",
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-chicago-aragon-ballroom-11-21-2026--concerts-rock/production/7325332",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-chicago-illinois-11-21-2026/event/040064E8F7D59A10",
@@ -899,11 +899,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391955,
+        "url": "https://seatgeek.com/trivium-tickets/chicago-illinois-byline-bank-aragon-ballroom-2026-11-21-6-35-pm/concert/18391955",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325332,
@@ -972,7 +972,7 @@
     "tour_name": "Crown In The Grave World Tour",
     "ticketmaster_event_id": "070064EE89E21E1C",
     "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-madison-wisconsin-11-22-2026/event/070064EE89E21E1C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/madison-wisconsin-the-sylvee-2026-11-22-6-35-pm/concert/18391957",
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-madison-the-sylvee-11-22-2026--concerts-rock/production/7325334",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-madison-wisconsin-11-22-2026/event/070064EE89E21E1C",
@@ -988,11 +988,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391957,
+        "url": "https://seatgeek.com/trivium-tickets/madison-wisconsin-the-sylvee-2026-11-22-6-35-pm/concert/18391957",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325334,
@@ -1175,7 +1175,7 @@
     "tour_name": "Crown In The Grave World Tour",
     "ticketmaster_event_id": "3A0064EEC8C1BA19",
     "ticketmaster_url": "https://www.ticketmaster.com/trivium-houston-texas-11-28-2026/event/3A0064EEC8C1BA19",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/houston-texas-bayou-music-center-2026-11-28-6-35-pm/concert/18391965",
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-houston-bayou-music-center-11-28-2026--concerts-rock/production/7325340",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-houston-texas-11-28-2026/event/3A0064EEC8C1BA19",
@@ -1191,11 +1191,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391965,
+        "url": "https://seatgeek.com/trivium-tickets/houston-texas-bayou-music-center-2026-11-28-6-35-pm/concert/18391965",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325340,
@@ -1264,7 +1264,7 @@
     "tour_name": "Crown In The Grave World Tour",
     "ticketmaster_event_id": "0C0064EED1FB8AA6",
     "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-dallas-texas-11-29-2026/event/0C0064EED1FB8AA6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2026-11-29-6-35-pm/concert/18391967",
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-dallas-south-side-ballroom-11-29-2026--concerts-rock/production/7325342",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-dallas-texas-11-29-2026/event/0C0064EED1FB8AA6",
@@ -1280,11 +1280,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391967,
+        "url": "https://seatgeek.com/trivium-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2026-11-29-6-35-pm/concert/18391967",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325342,
@@ -1358,7 +1358,7 @@
     "tour_name": "Crown In The Grave World Tour",
     "ticketmaster_event_id": "190064F0E0368F3A",
     "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-phoenix-arizona-12-02-2026/event/190064F0E0368F3A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/phoenix-arizona-arizona-financial-theatre-2026-12-02-6-30-pm/concert/18391969",
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-phoenix-arizona-financial-theatre-12-2-2026--concerts-rock/production/7325306",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-phoenix-arizona-12-02-2026/event/190064F0E0368F3A",
@@ -1374,11 +1374,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391969,
+        "url": "https://seatgeek.com/trivium-tickets/phoenix-arizona-arizona-financial-theatre-2026-12-02-6-30-pm/concert/18391969",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325306,
@@ -1697,7 +1697,7 @@
     "tour_name": "Crown In The Grave World Tour",
     "ticketmaster_event_id": "110064F1C6BDA98A",
     "ticketmaster_url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-vancouver-british-columbia-12-08-2026/event/110064F1C6BDA98A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2026-12-08-6-35-pm/concert/18391979",
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-12-8-2026--concerts-rock/production/7325476",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-vancouver-british-columbia-12-08-2026/event/110064F1C6BDA98A",
@@ -1713,11 +1713,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391979,
+        "url": "https://seatgeek.com/trivium-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2026-12-08-6-35-pm/concert/18391979",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325476,
@@ -1778,7 +1778,7 @@
     "tour_name": "Crown In The Grave World Tour",
     "ticketmaster_event_id": "0F0064F0E52BE2E9",
     "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-seattle-washington-12-09-2026/event/0F0064F0E52BE2E9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/seattle-washington-paramount-theatre-wa-2026-12-09-6-35-pm/concert/18391981",
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-seattle-paramount-theatre-seattle-12-9-2026--concerts-rock/production/7325366",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-seattle-washington-12-09-2026/event/0F0064F0E52BE2E9",
@@ -1794,11 +1794,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391981,
+        "url": "https://seatgeek.com/trivium-tickets/seattle-washington-paramount-theatre-wa-2026-12-09-6-35-pm/concert/18391981",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325366,
@@ -1875,11 +1875,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391984,
+        "url": "https://seatgeek.com/trivium-tickets/reno-nevada-grand-sierra-resort-2026-12-11-6-35-pm/concert/18391984",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2146,7 +2146,7 @@
     "tour_name": "Crown In The Grave World Tour",
     "ticketmaster_event_id": "160064EE77742BD3",
     "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-pittsburgh-pennsylvania-12-18-2026/event/160064EE77742BD3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2026-12-18-6-35-pm/concert/18391991",
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-pittsburgh-citizens-live-at-the-wylie-12-18-2026--concerts-rock/production/7325398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-pittsburgh-pennsylvania-12-18-2026/event/160064EE77742BD3",
@@ -2162,11 +2162,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391991,
+        "url": "https://seatgeek.com/trivium-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2026-12-18-6-35-pm/concert/18391991",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325398,
@@ -2230,7 +2230,7 @@
     "tour_name": "Crown In The Grave World Tour",
     "ticketmaster_event_id": "2D0064ED94BA89EF",
     "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-charlotte-north-carolina-12-19-2026/event/2D0064ED94BA89EF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-12-19-6-35-pm/concert/18391993",
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-charlotte-the-fillmore-charlotte-12-19-2026--concerts-rock/production/7325402",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-charlotte-north-carolina-12-19-2026/event/2D0064ED94BA89EF",
@@ -2246,11 +2246,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391993,
+        "url": "https://seatgeek.com/trivium-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-12-19-6-35-pm/concert/18391993",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325402,

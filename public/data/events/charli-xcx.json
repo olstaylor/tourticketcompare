@@ -602,7 +602,7 @@
     "tour_name": "Music, Fashion, Film Tour",
     "ticketmaster_event_id": "090064C5EF12A97C",
     "ticketmaster_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-inglewood-california-10-17-2026/event/090064C5EF12A97C",
-    "seatgeek_url": "https://seatgeek.com/charli-xcx-tickets/inglewood-california-kia-forum-2026-10-17-8-pm/concert/18292522",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-inglewood-kia-forum-10-17-2026--concerts-pop/production/7132070",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-inglewood-california-10-17-2026/event/090064C5EF12A97C",
@@ -618,11 +618,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18292522,
-        "url": "https://seatgeek.com/charli-xcx-tickets/inglewood-california-kia-forum-2026-10-17-8-pm/concert/18292522",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7132070,
@@ -708,7 +708,7 @@
         "event_id": 18292523,
         "url": "https://seatgeek.com/charli-xcx-tickets/inglewood-california-kia-forum-2026-10-18-8-pm/concert/18292523",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -795,7 +795,7 @@
         "event_id": 18292524,
         "url": "https://seatgeek.com/charli-xcx-tickets/glendale-arizona-desert-diamond-arena-2026-10-21-8-pm/concert/18292524",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1302,7 +1302,7 @@
         "event_id": 18292529,
         "url": "https://seatgeek.com/charli-xcx-tickets/las-vegas-nevada-mgm-grand-garden-arena-2026-10-23-8-pm/concert/18292529",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {

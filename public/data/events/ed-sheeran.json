@@ -1505,7 +1505,7 @@
     "tour_name": "The Loop Tour",
     "ticketmaster_event_id": "2D006331AAC349EB",
     "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-charlotte-north-carolina-10-17-2026/event/2D006331AAC349EB",
-    "seatgeek_url": "https://seatgeek.com/ed-sheeran-tickets/charlotte-north-carolina-bank-of-america-stadium-2026-10-17-5-30-pm/concert/17738470",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/ed-sheeran-tickets-charlotte-bank-of-america-stadium-10-17-2026--concerts-pop/production/6049740",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-charlotte-north-carolina-10-17-2026/event/2D006331AAC349EB",
@@ -1520,11 +1520,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 17738470,
-        "url": "https://seatgeek.com/ed-sheeran-tickets/charlotte-north-carolina-bank-of-america-stadium-2026-10-17-5-30-pm/concert/17738470",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6049740,
@@ -1603,7 +1603,7 @@
         "event_id": 17729039,
         "url": "https://seatgeek.com/ed-sheeran-tickets/arlington-texas-at-t-stadium-2026-10-24-5-30-pm/concert/17729039",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1680,7 +1680,7 @@
         "event_id": 17738469,
         "url": "https://seatgeek.com/ed-sheeran-tickets/hollywood-florida-hard-rock-live-hollywood-2026-10-29-8-pm/concert/17738469",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {

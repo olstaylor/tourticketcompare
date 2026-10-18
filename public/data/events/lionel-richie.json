@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18405684,
+        "url": "https://seatgeek.com/lionel-richie-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-11-11-8-pm/concert/18405684",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7349331,
@@ -98,11 +98,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18405685,
+        "url": "https://seatgeek.com/lionel-richie-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-11-13-8-pm/concert/18405685",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7349329,
@@ -169,11 +169,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18405683,
+        "url": "https://seatgeek.com/lionel-richie-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-11-14-8-pm/concert/18405683",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7349335,
@@ -240,11 +240,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18405682,
+        "url": "https://seatgeek.com/lionel-richie-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2027-01-08-8-pm/concert/18405682",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

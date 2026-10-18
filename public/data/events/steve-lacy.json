@@ -389,7 +389,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D006504B4EDD2FB",
     "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-charlotte-north-carolina-10-22-2026/event/2D006504B4EDD2FB",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/steve-lacy-tickets/charlotte-north-carolina-skyla-credit-union-amphitheatre-2026-10-22-8-pm/concert/18485924",
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-charlotte-skyla-credit-union-amphitheatre-10-22-2026--concerts-rb/production/7423280",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-charlotte-north-carolina-10-22-2026/event/2D006504B4EDD2FB",
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18485924,
+        "url": "https://seatgeek.com/steve-lacy-tickets/charlotte-north-carolina-skyla-credit-union-amphitheatre-2026-10-22-8-pm/concert/18485924",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7423280,
@@ -461,7 +461,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D006503A891936E",
     "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-raleigh-north-carolina-10-23-2026/event/2D006503A891936E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/steve-lacy-tickets/raleigh-north-carolina-red-hat-amphitheater-2026-10-23-8-pm/concert/18485929",
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-raleigh-red-hat-amphitheater-10-23-2026--concerts-rb/production/7423282",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-raleigh-north-carolina-10-23-2026/event/2D006503A891936E",
@@ -477,11 +477,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18485929,
+        "url": "https://seatgeek.com/steve-lacy-tickets/raleigh-north-carolina-red-hat-amphitheater-2026-10-23-8-pm/concert/18485929",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7423282,
@@ -677,7 +677,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E0064FF95C6837A",
     "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-atlanta-georgia-10-30-2026/event/0E0064FF95C6837A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/steve-lacy-tickets/atlanta-georgia-synovus-bank-amphitheatre-at-chastain-park-2026-10-30-8-pm/concert/18485935",
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-atlanta-synovus-bank-amphitheater-at-chastain-park-10-30-2026--concerts-rb/production/7423354",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-atlanta-georgia-10-30-2026/event/0E0064FF95C6837A",
@@ -693,11 +693,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18485935,
+        "url": "https://seatgeek.com/steve-lacy-tickets/atlanta-georgia-synovus-bank-amphitheatre-at-chastain-park-2026-10-30-8-pm/concert/18485935",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7423354,
@@ -772,11 +772,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18613494,
+        "url": "https://seatgeek.com/steve-lacy-tickets/atlanta-georgia-synovus-bank-amphitheatre-at-chastain-park-2026-10-31-8-pm/concert/18613494",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7600473,
@@ -851,11 +851,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18485939,
+        "url": "https://seatgeek.com/steve-lacy-tickets/nashville-tennessee-nashville-municipal-auditorium-2026-11-02-8-pm/concert/18485939",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7423356,
@@ -923,11 +923,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18485937,
+        "url": "https://seatgeek.com/steve-lacy-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-11-05-8-pm/concert/18485937",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7423358,
@@ -1003,11 +1003,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18485938,
+        "url": "https://seatgeek.com/steve-lacy-tickets/austin-texas-moody-amphitheater-2026-11-07-8-pm/concert/18485938",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7423364,
@@ -1067,7 +1067,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZJ8f",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJ8f",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/steve-lacy-tickets/sugar-land-texas-smart-financial-centre-2026-11-08-8-pm/concert/18485941",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJ8f",
@@ -1083,11 +1083,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18485941,
+        "url": "https://seatgeek.com/steve-lacy-tickets/sugar-land-texas-smart-financial-centre-2026-11-08-8-pm/concert/18485941",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1128,7 +1128,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZJ84",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJ84",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/steve-lacy-tickets/morrison-colorado-red-rocks-amphitheatre-2026-11-11-8-pm/concert/18485943",
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-morrison-red-rocks-amphitheatre-11-11-2026--concerts-rb/production/7423370",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJ84",
@@ -1144,11 +1144,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18485943,
+        "url": "https://seatgeek.com/steve-lacy-tickets/morrison-colorado-red-rocks-amphitheatre-2026-11-11-8-pm/concert/18485943",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7423370,
@@ -1224,11 +1224,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18485946,
+        "url": "https://seatgeek.com/steve-lacy-tickets/las-vegas-nevada-the-cosmopolitan-of-las-vegas-2026-11-13-8-pm/concert/18485946",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7423374,
@@ -1304,11 +1304,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18485948,
+        "url": "https://seatgeek.com/steve-lacy-tickets/phoenix-arizona-arizona-financial-theatre-2026-11-17-8-pm/concert/18485948",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7423380,
@@ -1383,11 +1383,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18485949,
+        "url": "https://seatgeek.com/steve-lacy-tickets/san-diego-california-petco-park-2026-11-19-8-pm/concert/18485949",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7423386,
@@ -1544,11 +1544,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18485954,
+        "url": "https://seatgeek.com/steve-lacy-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-11-24-8-pm/concert/18485954",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7423408,
@@ -1632,11 +1632,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18613496,
+        "url": "https://seatgeek.com/steve-lacy-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-11-25-8-pm/concert/18613496",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7600490,
@@ -1789,7 +1789,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "11006504A5E37FA2",
     "ticketmaster_url": "https://www.ticketmaster.ca/steve-lacy-oh-yeah-tour-vancouver-british-columbia-11-30-2026/event/11006504A5E37FA2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/steve-lacy-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2026-11-30-8-pm/concert/18485961",
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-11-30-2026--concerts-rb/production/7423426",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/steve-lacy-oh-yeah-tour-vancouver-british-columbia-11-30-2026/event/11006504A5E37FA2",
@@ -1805,11 +1805,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18485961,
+        "url": "https://seatgeek.com/steve-lacy-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2026-11-30-8-pm/concert/18485961",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7423426,

@@ -442,7 +442,7 @@
         "event_id": 18540429,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/menlo-park-california-the-guild-theatre-menlo-park-2026-10-19-8-pm/concert/18540429",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -574,7 +574,7 @@
         "event_id": 18345753,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/portland-oregon-revolution-hall-portland-2026-10-22-8-pm/concert/18345753",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -677,7 +677,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F0064DAD7A9DB62",
     "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-with-special-guest-stef-seattle-washington-10-24-2026/event/0F0064DAD7A9DB62",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dinosaur-jr-tickets/seattle-washington-neptune-theatre-wa-2026-10-24-8-pm/concert/18345756",
     "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-seattle-the-neptune-theatre-10-24-2026--concerts-rock/production/7234808",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-with-special-guest-stef-seattle-washington-10-24-2026/event/0F0064DAD7A9DB62",
@@ -693,11 +693,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18345756,
+        "url": "https://seatgeek.com/dinosaur-jr-tickets/seattle-washington-neptune-theatre-wa-2026-10-24-8-pm/concert/18345756",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7234808,
@@ -765,7 +765,7 @@
         "event_id": 18345754,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/salt-lake-city-utah-rockwell-at-the-complex-2026-10-26-8-pm/concert/18345754",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -818,7 +818,7 @@
         "event_id": 18345755,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/denver-colorado-ogden-theatre-2026-10-29-8-pm/concert/18345755",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -868,7 +868,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A0064D9A11E9F73",
     "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-houston-texas-11-04-2026/event/3A0064D9A11E9F73",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dinosaur-jr-tickets/houston-texas-house-of-blues-houston-2026-11-04-7-pm/concert/18345766",
     "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-houston-house-of-blues-houston-11-4-2026/production/7234434",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-houston-texas-11-04-2026/event/3A0064D9A11E9F73",
@@ -884,11 +884,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18345766,
+        "url": "https://seatgeek.com/dinosaur-jr-tickets/houston-texas-house-of-blues-houston-2026-11-04-7-pm/concert/18345766",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7234434,

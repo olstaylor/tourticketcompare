@@ -359,7 +359,7 @@
     "tour_name": "Legend of Atlantis Tour",
     "ticketmaster_event_id": "2D006522A38DA8CD",
     "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-raleigh-north-carolina-01-30-2027/event/2D006522A38DA8CD",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/alan-walker-tickets/raleigh-north-carolina-the-ritz-raleigh-2027-01-30-6-pm/concert/18590678",
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-raleigh-the-ritz---raleigh-1-30-2027--concerts-dance-electronica/production/7554686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-raleigh-north-carolina-01-30-2027/event/2D006522A38DA8CD",
@@ -375,11 +375,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18590678,
+        "url": "https://seatgeek.com/alan-walker-tickets/raleigh-north-carolina-the-ritz-raleigh-2027-01-30-6-pm/concert/18590678",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7554686,

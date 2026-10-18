@@ -64,7 +64,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "060064A8BF6D2D36",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-columbia-missouri-11-05-2026/event/060064A8BF6D2D36",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/columbia-missouri-mizzou-arena-2026-11-05-7-pm/concert/18238532",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-columbia-mizzou-arena-11-5-2026--concerts-adult-contemporary/production/7024059",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-columbia-missouri-11-05-2026/event/060064A8BF6D2D36",
@@ -80,11 +80,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18238532,
+        "url": "https://seatgeek.com/tobymac-tickets/columbia-missouri-mizzou-arena-2026-11-05-7-pm/concert/18238532",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7024059,
@@ -133,7 +133,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "050064AA2551F782",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-evansville-indiana-11-06-2026/event/050064AA2551F782",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/evansville-indiana-ford-center-in-2026-11-06-7-pm/concert/18239020",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-evansville-ford-center-evansville-11-6-2026--concerts-adult-contemporary/production/7024067",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-evansville-indiana-11-06-2026/event/050064AA2551F782",
@@ -149,11 +149,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18239020,
+        "url": "https://seatgeek.com/tobymac-tickets/evansville-indiana-ford-center-in-2026-11-06-7-pm/concert/18239020",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7024067,
@@ -261,7 +261,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D0064A8C9C06569",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-greensboro-north-carolina-11-08-2026/event/2D0064A8C9C06569",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/greensboro-north-carolina-first-horizon-coliseum-2026-11-08-7-pm/concert/18238331",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-greensboro-first-horizon-coliseum-at-greensboro-complex-11-8-2026--concerts-adult-contemporary/production/7024078",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-greensboro-north-carolina-11-08-2026/event/2D0064A8C9C06569",
@@ -277,11 +277,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18238331,
+        "url": "https://seatgeek.com/tobymac-tickets/greensboro-north-carolina-first-horizon-coliseum-2026-11-08-7-pm/concert/18238331",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7024078,
@@ -333,7 +333,7 @@
     "tour_name": "Hits Deep Tour",
     "ticketmaster_event_id": "2D0065199F228859",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fayetteville-north-carolina-01-28-2027/event/2D0065199F228859",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/fayetteville-north-carolina-crown-coliseum-crown-complex-2027-01-28-7-pm/concert/18543246",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-fayetteville-crown-complex---crown-coliseum-1-28-2027/production/7491901",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fayetteville-north-carolina-01-28-2027/event/2D0065199F228859",
@@ -349,11 +349,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18543246,
+        "url": "https://seatgeek.com/tobymac-tickets/fayetteville-north-carolina-crown-coliseum-crown-complex-2027-01-28-7-pm/concert/18543246",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7491901,
@@ -405,7 +405,7 @@
     "tour_name": "Hits Deep Tour",
     "ticketmaster_event_id": "16006518AF849566",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-lexington-kentucky-01-29-2027/event/16006518AF849566",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/lexington-kentucky-rupp-arena-2027-01-29-7-pm/concert/18542763",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-lexington-rupp-arena-1-29-2027/production/7491831",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-lexington-kentucky-01-29-2027/event/16006518AF849566",
@@ -421,11 +421,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18542763,
+        "url": "https://seatgeek.com/tobymac-tickets/lexington-kentucky-rupp-arena-2027-01-29-7-pm/concert/18542763",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7491831,

@@ -152,7 +152,7 @@
         "event_id": 18257269,
         "url": "https://seatgeek.com/john-summit-tickets/montreal-canada-centre-bell-2026-10-23-7-pm/concert/18257269",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -227,7 +227,7 @@
         "event_id": 18257270,
         "url": "https://seatgeek.com/john-summit-tickets/hamilton-canada-td-coliseum-2026-10-24-7-pm/concert/18257270",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -286,7 +286,7 @@
         "event_id": 18257271,
         "url": "https://seatgeek.com/john-summit-tickets/toronto-canada-scotiabank-arena-2026-10-25-7-pm/concert/18257271",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -406,7 +406,7 @@
     "tour_name": "CTRL ESCAPE ARENA TOUR",
     "ticketmaster_event_id": "020064B2C916ABB2",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-university-park-pennsylvania-10-30-2026/event/020064B2C916ABB2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/john-summit-tickets/university-park-pennsylvania-bryce-jordan-center-2026-10-30-7-pm/concert/18257238",
     "vividseats_url": "https://www.vividseats.com/john-summit-tickets-university-park-bryce-jordan-center-10-30-2026--concerts-dance-electronica/production/7058772",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-university-park-pennsylvania-10-30-2026/event/020064B2C916ABB2",
@@ -422,11 +422,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18257238,
+        "url": "https://seatgeek.com/john-summit-tickets/university-park-pennsylvania-bryce-jordan-center-2026-10-30-7-pm/concert/18257238",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7058772,
@@ -877,7 +877,7 @@
     "tour_name": "CTRL ESCAPE ARENA TOUR",
     "ticketmaster_event_id": "050064B3F56A8E85",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-columbus-ohio-11-13-2026/event/050064B3F56A8E85",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/john-summit-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2026-11-13-7-pm/concert/18257252",
     "vividseats_url": "https://www.vividseats.com/john-summit-tickets-columbus-value-city-arena-at-schottenstein-center-11-13-2026--concerts-dance-electronica/production/7058794",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-columbus-ohio-11-13-2026/event/050064B3F56A8E85",
@@ -893,11 +893,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18257252,
+        "url": "https://seatgeek.com/john-summit-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2026-11-13-7-pm/concert/18257252",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7058794,

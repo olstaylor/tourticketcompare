@@ -656,7 +656,7 @@
     "tour_name": "The Wake World Tour",
     "ticketmaster_event_id": "0F00644CEDA8F124",
     "ticketmaster_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-seattle-washington-11-13-2026/event/0F00644CEDA8F124",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/seattle-washington-neptune-theatre-wa-2026-11-13-7-pm/concert/18084359",
     "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-seattle-the-neptune-theatre-11-13-2026--concerts-alternative/production/6682762",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-seattle-washington-11-13-2026/event/0F00644CEDA8F124",
@@ -672,11 +672,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18084359,
+        "url": "https://seatgeek.com/foy-vance-tickets/seattle-washington-neptune-theatre-wa-2026-11-13-7-pm/concert/18084359",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6682762,
@@ -1487,7 +1487,7 @@
     "tour_name": "The Wake World Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAe4_V",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4_V",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/san-francisco-california-great-american-music-hall-2026-11-08-7-pm/concert/18085646",
     "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-san-francisco-great-american-music-hall-11-8-2026/production/6687145",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4_V",
@@ -1503,11 +1503,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18085646,
+        "url": "https://seatgeek.com/foy-vance-tickets/san-francisco-california-great-american-music-hall-2026-11-08-7-pm/concert/18085646",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6687145,
@@ -1556,7 +1556,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "14135064",
     "ticketmaster_url": "https://www.ticketweb.ca/event/foy-vance-world-tour-hollywood-theatre-tickets/14135064",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/vancouver-canada-hollywood-theatre-vancouver-2026-11-12-7-pm/concert/18387640",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.ca/event/foy-vance-world-tour-hollywood-theatre-tickets/14135064",
@@ -1572,11 +1572,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18387640,
+        "url": "https://seatgeek.com/foy-vance-tickets/vancouver-canada-hollywood-theatre-vancouver-2026-11-12-7-pm/concert/18387640",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

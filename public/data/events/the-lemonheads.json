@@ -1301,7 +1301,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvy-U",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvy-U",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-lemonheads-tickets/roseville-california-goldfield-trading-post-roseville-2027-03-05-7-pm/concert/18595332",
     "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-roseville-goldfield-trading-post---roseville-3-5-2027/production/7580487",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvy-U",
@@ -1317,11 +1317,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18595332,
+        "url": "https://seatgeek.com/the-lemonheads-tickets/roseville-california-goldfield-trading-post-roseville-2027-03-05-7-pm/concert/18595332",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7580487,
@@ -1370,7 +1370,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvV7I",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvV7I",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-lemonheads-tickets/portland-oregon-hawthorne-theatre-2027-03-10-7-pm/concert/18595335",
     "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-portland-hawthorne-theatre-3-10-2027/production/7559485",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvV7I",
@@ -1386,11 +1386,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18595335,
+        "url": "https://seatgeek.com/the-lemonheads-tickets/portland-oregon-hawthorne-theatre-2027-03-10-7-pm/concert/18595335",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7559485,

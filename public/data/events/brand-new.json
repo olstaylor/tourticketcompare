@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7PwfS",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PwfS",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/brand-new-tickets/boston-massachusetts-roadrunner-boston-2026-10-18-8-pm/concert/18319869",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PwfS",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18319869,
+        "url": "https://seatgeek.com/brand-new-tickets/boston-massachusetts-roadrunner-boston-2026-10-18-8-pm/concert/18319869",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -64,7 +64,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7PS_M",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PS_M",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/brand-new-tickets/boston-massachusetts-roadrunner-boston-2026-10-19-8-pm/concert/18341697",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PS_M",
@@ -80,11 +80,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18341697,
+        "url": "https://seatgeek.com/brand-new-tickets/boston-massachusetts-roadrunner-boston-2026-10-19-8-pm/concert/18341697",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -117,7 +117,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZ_O7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ_O7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/brand-new-tickets/newport-kentucky-megacorp-pavilion-2026-10-21-8-pm/concert/18427898",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ_O7",
@@ -133,11 +133,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18427898,
+        "url": "https://seatgeek.com/brand-new-tickets/newport-kentucky-megacorp-pavilion-2026-10-21-8-pm/concert/18427898",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -170,7 +170,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7PYrK",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PYrK",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/brand-new-tickets/atlanta-georgia-fox-theatre-atlanta-2026-10-22-8-pm/concert/18319842",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PYrK",
@@ -186,11 +186,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18319842,
+        "url": "https://seatgeek.com/brand-new-tickets/atlanta-georgia-fox-theatre-atlanta-2026-10-22-8-pm/concert/18319842",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -239,11 +239,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18319847,
+        "url": "https://seatgeek.com/brand-new-tickets/hollywood-florida-hard-rock-live-hollywood-2026-10-25-8-pm/concert/18319847",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -329,7 +329,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7PIjY",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PIjY",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/brand-new-tickets/grand-prairie-texas-texas-trust-cu-theatre-2026-10-30-8-pm/concert/18319849",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PIjY",
@@ -345,11 +345,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18319849,
+        "url": "https://seatgeek.com/brand-new-tickets/grand-prairie-texas-texas-trust-cu-theatre-2026-10-30-8-pm/concert/18319849",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -382,7 +382,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7PtJo",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PtJo",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/brand-new-tickets/denver-colorado-mission-ballroom-2026-11-02-8-pm/concert/18319855",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PtJo",
@@ -398,11 +398,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18319855,
+        "url": "https://seatgeek.com/brand-new-tickets/denver-colorado-mission-ballroom-2026-11-02-8-pm/concert/18319855",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -435,7 +435,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7JdFs",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JdFs",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/brand-new-tickets/las-vegas-nevada-the-theater-at-virgin-hotels-2026-11-06-8-pm/concert/18319859",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JdFs",
@@ -451,11 +451,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18319859,
+        "url": "https://seatgeek.com/brand-new-tickets/las-vegas-nevada-the-theater-at-virgin-hotels-2026-11-06-8-pm/concert/18319859",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -557,11 +557,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18319858,
+        "url": "https://seatgeek.com/brand-new-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-11-11-8-pm/concert/18319858",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -610,11 +610,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18319860,
+        "url": "https://seatgeek.com/brand-new-tickets/phoenix-arizona-arizona-financial-theatre-2026-11-14-8-pm/concert/18319860",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

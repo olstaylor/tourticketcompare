@@ -808,7 +808,7 @@
     "tour_name": "Everywhere and Back Again Tour",
     "ticketmaster_event_id": "040064E1E6DECA83",
     "ticketmaster_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-chicago-illinois-11-10-2026/event/040064E1E6DECA83",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/chicago-illinois-house-of-blues-chicago-2026-11-10-8-pm/concert/18373509",
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-chicago-house-of-blues-chicago-11-10-2026/production/7292219",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-chicago-illinois-11-10-2026/event/040064E1E6DECA83",
@@ -824,11 +824,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18373509,
+        "url": "https://seatgeek.com/michelle-branch-tickets/chicago-illinois-house-of-blues-chicago-2026-11-10-8-pm/concert/18373509",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7292219,
@@ -1026,7 +1026,7 @@
     "tour_name": "Everywhere and Back Again Tour",
     "ticketmaster_event_id": "160064EED101A73B",
     "ticketmaster_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-lexington-kentucky-11-13-2026/event/160064EED101A73B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/lexington-kentucky-manchester-music-hall-2026-11-13-8-pm/concert/18373515",
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-lexington-manchester-music-hall-11-13-2026/production/7291696",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-lexington-kentucky-11-13-2026/event/160064EED101A73B",
@@ -1042,11 +1042,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18373515,
+        "url": "https://seatgeek.com/michelle-branch-tickets/lexington-kentucky-manchester-music-hall-2026-11-13-8-pm/concert/18373515",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7291696,

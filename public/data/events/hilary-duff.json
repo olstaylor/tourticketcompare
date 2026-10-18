@@ -101,7 +101,7 @@
     "tour_name": "the lucky me tour",
     "ticketmaster_event_id": "1100644D9B108469",
     "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-vancouver-british-columbia-01-23-2027/event/1100644D9B108469",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hilary-duff-tickets/vancouver-canada-rogers-arena-2027-01-23-7-30-pm/concert/18081222",
     "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-vancouver-rogers-arena-1-23-2027--concerts-pop/production/6678903",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-vancouver-british-columbia-01-23-2027/event/1100644D9B108469",
@@ -117,11 +117,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18081222,
+        "url": "https://seatgeek.com/hilary-duff-tickets/vancouver-canada-rogers-arena-2027-01-23-7-30-pm/concert/18081222",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6678903,
@@ -363,7 +363,7 @@
     "tour_name": "the lucky me tour",
     "ticketmaster_event_id": "110064537DAB58F9",
     "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-saskatoon-saskatchewan-01-29-2027/event/110064537DAB58F9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hilary-duff-tickets/saskatoon-canada-sasktel-centre-2027-01-29-7-30-pm/concert/18085160",
     "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-saskatoon-sasktel-centre-1-29-2027--concerts-pop/production/6693424",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-saskatoon-saskatchewan-01-29-2027/event/110064537DAB58F9",
@@ -379,11 +379,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18085160,
+        "url": "https://seatgeek.com/hilary-duff-tickets/saskatoon-canada-sasktel-centre-2027-01-29-7-30-pm/concert/18085160",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6693424,
@@ -670,7 +670,7 @@
     "tour_name": "the lucky me tour",
     "ticketmaster_event_id": "31006449B6D44DA0",
     "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-montreal-quebec-02-05-2027/event/31006449B6D44DA0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hilary-duff-tickets/montreal-canada-centre-bell-2027-02-05-7-30-pm/concert/18070286",
     "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-montreal-bell-centre-2-5-2027--concerts-pop/production/6652478",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-montreal-quebec-02-05-2027/event/31006449B6D44DA0",
@@ -686,11 +686,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18070286,
+        "url": "https://seatgeek.com/hilary-duff-tickets/montreal-canada-centre-bell-2027-02-05-7-30-pm/concert/18070286",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6652478,

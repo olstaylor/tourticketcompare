@@ -30,7 +30,7 @@
         "event_id": 18147861,
         "url": "https://seatgeek.com/blue-october-tickets/abilene-texas-paramount-theatre-abilene-2026-10-22-7-pm/concert/18147861",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -99,7 +99,7 @@
         "event_id": 18147862,
         "url": "https://seatgeek.com/blue-october-tickets/lubbock-texas-the-buddy-holly-hall-helen-devitt-jones-theater-2026-10-23-7-pm/concert/18147862",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -168,7 +168,7 @@
         "event_id": 18147863,
         "url": "https://seatgeek.com/blue-october-tickets/tulsa-oklahoma-tulsa-theater-2026-10-24-7-pm/concert/18147863",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -237,7 +237,7 @@
         "event_id": 18147864,
         "url": "https://seatgeek.com/blue-october-tickets/wichita-kansas-orpheum-theatre-wichita-2026-10-25-7-pm/concert/18147864",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -290,7 +290,7 @@
         "event_id": 18147865,
         "url": "https://seatgeek.com/blue-october-tickets/milwaukee-wisconsin-pabst-theater-2026-10-28-7-pm/concert/18147865",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -359,7 +359,7 @@
         "event_id": 18141892,
         "url": "https://seatgeek.com/blue-october-tickets/grand-rapids-michigan-glc-live-at-20-monroe-2026-10-29-7-pm/concert/18141892",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -412,7 +412,7 @@
     "tour_name": "The Foiled 20th Anniversary World Tour",
     "ticketmaster_event_id": "0800646DF422B547",
     "ticketmaster_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-detroit-michigan-10-30-2026/event/0800646DF422B547",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/detroit-michigan-the-fillmore-detroit-2026-10-30-7-pm/concert/18141081",
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-detroit-the-fillmore-detroit-10-30-2026/production/6822804",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-detroit-michigan-10-30-2026/event/0800646DF422B547",
@@ -428,11 +428,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18141081,
+        "url": "https://seatgeek.com/blue-october-tickets/detroit-michigan-the-fillmore-detroit-2026-10-30-7-pm/concert/18141081",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6822804,
@@ -1215,7 +1215,7 @@
     "tour_name": "The Foiled 20th Anniversary World Tour",
     "ticketmaster_event_id": "02006472CEBAFBC4",
     "ticketmaster_url": "https://www.ticketmaster.com/alt-1045-presents-blue-october-philadelphia-pennsylvania-11-15-2026/event/02006472CEBAFBC4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2026-11-15-8-pm/concert/18141766",
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-philadelphia-the-fillmore-philadelphia-11-15-2026/production/6822678",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alt-1045-presents-blue-october-philadelphia-pennsylvania-11-15-2026/event/02006472CEBAFBC4",
@@ -1231,11 +1231,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18141766,
+        "url": "https://seatgeek.com/blue-october-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2026-11-15-8-pm/concert/18141766",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6822678,
@@ -2032,11 +2032,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18142048,
+        "url": "https://seatgeek.com/blue-october-tickets/la-vista-nebraska-the-astro-theater-la-vista-2026-12-05-8-pm/concert/18142048",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2835,7 +2835,7 @@
     "tour_name": "The Foiled 20th Anniversary World Tour",
     "ticketmaster_event_id": "190064A7922353D8",
     "ticketmaster_url": "https://www.ticketmaster.com/blue-october-rialto-theatre-tucson-arizona-02-03-2027/event/190064A7922353D8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/tucson-arizona-rialto-theatre-2027-02-03-8-pm/concert/18238924",
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-tucson-rialto-theatre-tucson-2-3-2027/production/7024769",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-rialto-theatre-tucson-arizona-02-03-2027/event/190064A7922353D8",
@@ -2851,11 +2851,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18238924,
+        "url": "https://seatgeek.com/blue-october-tickets/tucson-arizona-rialto-theatre-2027-02-03-8-pm/concert/18238924",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7024769,
@@ -2907,7 +2907,7 @@
     "tour_name": "The Foiled 20th Anniversary World Tour",
     "ticketmaster_event_id": "190064A7E944A3BA",
     "ticketmaster_url": "https://www.ticketmaster.com/blue-october-phoenix-arizona-02-05-2027/event/190064A7E944A3BA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/phoenix-arizona-the-van-buren-2027-02-05-8-pm/concert/18239521",
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-phoenix-the-van-buren-2-5-2027/production/7022722",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-phoenix-arizona-02-05-2027/event/190064A7E944A3BA",
@@ -2923,11 +2923,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18239521,
+        "url": "https://seatgeek.com/blue-october-tickets/phoenix-arizona-the-van-buren-2027-02-05-8-pm/concert/18239521",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7022722,
@@ -4701,7 +4701,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "14795963",
     "ticketmaster_url": "https://www.ticketweb.com/event/blue-october-the-hall-tickets/14795963",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/little-rock-arkansas-the-hall-little-rock-2026-12-09-7-pm/concert/18147877",
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-little-rock-the-hall---little-rock-12-9-2026--concerts-rock/production/6823271",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/blue-october-the-hall-tickets/14795963",
@@ -4717,11 +4717,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18147877,
+        "url": "https://seatgeek.com/blue-october-tickets/little-rock-arkansas-the-hall-little-rock-2026-12-09-7-pm/concert/18147877",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6823271,

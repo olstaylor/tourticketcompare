@@ -326,7 +326,7 @@
     "tour_name": "Legends On Tour",
     "ticketmaster_event_id": "1600646C889A529C",
     "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-pittsburgh-pennsylvania-12-03-2026/event/1600646C889A529C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sabaton-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2026-12-03-7-pm/concert/18126079",
     "vividseats_url": "https://www.vividseats.com/sabaton-tickets-pittsburgh-citizens-live-at-the-wylie-12-3-2026--concerts-hard-rock/production/6789538",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-pittsburgh-pennsylvania-12-03-2026/event/1600646C889A529C",
@@ -342,11 +342,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18126079,
+        "url": "https://seatgeek.com/sabaton-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2026-12-03-7-pm/concert/18126079",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6789538,
@@ -415,7 +415,7 @@
     "tour_name": "Legends On Tour",
     "ticketmaster_event_id": "1B00646BB024E931",
     "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-nashville-tennessee-12-09-2026/event/1B00646BB024E931",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sabaton-tickets/nashville-tennessee-the-truth-nashville-2026-12-09-7-pm/concert/18126050",
     "vividseats_url": "https://www.vividseats.com/sabaton-tickets-nashville-the-truth-12-9-2026/production/6789881",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-nashville-tennessee-12-09-2026/event/1B00646BB024E931",
@@ -431,11 +431,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18126050,
+        "url": "https://seatgeek.com/sabaton-tickets/nashville-tennessee-the-truth-nashville-2026-12-09-7-pm/concert/18126050",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6789881,
@@ -989,7 +989,7 @@
     "tour_name": "Legends On Tour",
     "ticketmaster_event_id": "0C006328DC3C27CE",
     "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-dallas-texas-11-06-2026/event/0C006328DC3C27CE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sabaton-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2026-11-06-7-pm/concert/17732671",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-dallas-texas-11-06-2026/event/0C006328DC3C27CE",
@@ -1005,11 +1005,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17732671,
+        "url": "https://seatgeek.com/sabaton-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2026-11-06-7-pm/concert/17732671",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1077,7 +1077,7 @@
     "tour_name": "Legends On Tour",
     "ticketmaster_event_id": "3A00632ADE944917",
     "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-houston-texas-11-07-2026/event/3A00632ADE944917",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sabaton-tickets/houston-texas-713-music-hall-2026-11-07-7-pm/concert/17732669",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-houston-texas-11-07-2026/event/3A00632ADE944917",
@@ -1093,11 +1093,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17732669,
+        "url": "https://seatgeek.com/sabaton-tickets/houston-texas-713-music-hall-2026-11-07-7-pm/concert/17732669",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1170,7 +1170,7 @@
     "tour_name": "Legends On Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7jK4V",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jK4V",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sabaton-tickets/san-antonio-texas-boeing-center-at-tech-port-2026-11-08-7-pm/concert/17732672",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jK4V",
@@ -1186,11 +1186,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17732672,
+        "url": "https://seatgeek.com/sabaton-tickets/san-antonio-texas-boeing-center-at-tech-port-2026-11-08-7-pm/concert/17732672",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

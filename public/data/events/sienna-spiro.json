@@ -522,7 +522,7 @@
         "event_id": 18297290,
         "url": "https://seatgeek.com/sienna-spiro-tickets/toronto-canada-history-2026-10-25-6-pm/concert/18297290",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -579,7 +579,7 @@
         "event_id": 18297291,
         "url": "https://seatgeek.com/sienna-spiro-tickets/chicago-illinois-riviera-theatre-chicago-2026-10-27-7-30-pm/concert/18297291",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -648,7 +648,7 @@
         "event_id": 18297292,
         "url": "https://seatgeek.com/sienna-spiro-tickets/minneapolis-minnesota-first-avenue-minneapolis-2026-10-28-7-30-pm/concert/18297292",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1099,7 +1099,7 @@
     "tour_name": "My House Tour",
     "ticketmaster_event_id": "090064C5BDF81666",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-los-angeles-california-11-10-2026/event/090064C5BDF81666",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/los-angeles-california-the-wiltern-2026-11-10-8-pm/concert/18297309",
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-los-angeles-the-wiltern-11-10-2026/production/7139420",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-los-angeles-california-11-10-2026/event/090064C5BDF81666",
@@ -1115,11 +1115,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18297309,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/los-angeles-california-the-wiltern-2026-11-10-8-pm/concert/18297309",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7139420,
@@ -1171,7 +1171,7 @@
     "tour_name": "My House Tour",
     "ticketmaster_event_id": "090064D0C03EB846",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-los-angeles-california-11-12-2026/event/090064D0C03EB846",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/los-angeles-california-orpheum-theatre-los-angeles-2026-11-12-8-pm/concert/18317534",
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-los-angeles-orpheum-theatre---los-angeles-11-12-2026--concerts-pop/production/7175301",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-los-angeles-california-11-12-2026/event/090064D0C03EB846",
@@ -1187,11 +1187,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18317534,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/los-angeles-california-orpheum-theatre-los-angeles-2026-11-12-8-pm/concert/18317534",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7175301,
@@ -2139,7 +2139,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAef49",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef49",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/salt-lake-city-utah-the-grand-at-the-complex-2026-10-31-8-pm/concert/18297297",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef49",
@@ -2155,11 +2155,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18297297,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/salt-lake-city-utah-the-grand-at-the-complex-2026-10-31-8-pm/concert/18297297",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

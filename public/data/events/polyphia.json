@@ -648,7 +648,7 @@
     "tour_name": "BE NOT AFRAID World Tour",
     "ticketmaster_event_id": "19006519814B337C",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-phoenix-arizona-02-05-2027/event/19006519814B337C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/polyphia-tickets/phoenix-arizona-arizona-financial-theatre-2027-02-05-7-30-pm/concert/18536014",
     "vividseats_url": "https://www.vividseats.com/polyphia-tickets-phoenix-arizona-financial-theatre-2-5-2027/production/7484783",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-phoenix-arizona-02-05-2027/event/19006519814B337C",
@@ -664,11 +664,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18536014,
+        "url": "https://seatgeek.com/polyphia-tickets/phoenix-arizona-arizona-financial-theatre-2027-02-05-7-30-pm/concert/18536014",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7484783,

@@ -271,7 +271,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C0064AF96246D74",
     "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-lefty-live-dallas-texas-11-06-2026/event/0C0064AF96246D74",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stella-lefty-tickets/dallas-texas-cambridge-room-at-house-of-blues-dallas-1-2026-11-06-7-pm/concert/18252621",
     "vividseats_url": "https://www.vividseats.com/stella-lefty-tickets-dallas-cambridge-room-at-house-of-blues-dallas-11-6-2026--concerts-pop/production/7047570",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stella-lefty-lefty-live-dallas-texas-11-06-2026/event/0C0064AF96246D74",
@@ -287,11 +287,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18252621,
+        "url": "https://seatgeek.com/stella-lefty-tickets/dallas-texas-cambridge-room-at-house-of-blues-dallas-1-2026-11-06-7-pm/concert/18252621",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047570,
@@ -343,7 +343,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A0064AE6E7934D6",
     "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-lefty-live-houston-texas-11-07-2026/event/3A0064AE6E7934D6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stella-lefty-tickets/houston-texas-the-bronze-peacock-at-house-of-blues-houston-2026-11-07-7-pm/concert/18252613",
     "vividseats_url": "https://www.vividseats.com/stella-lefty-tickets-houston-the-bronze-peacock-at-house-of-blues-houston-11-7-2026/production/7047351",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stella-lefty-lefty-live-houston-texas-11-07-2026/event/3A0064AE6E7934D6",
@@ -359,11 +359,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18252613,
+        "url": "https://seatgeek.com/stella-lefty-tickets/houston-texas-the-bronze-peacock-at-house-of-blues-houston-2026-11-07-7-pm/concert/18252613",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047351,
@@ -594,7 +594,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "000064AECC0B67EF",
     "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-new-york-new-york-11-16-2026/event/000064AECC0B67EF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stella-lefty-tickets/new-york-new-york-bowery-ballroom-2026-11-16-7-pm/concert/18251604",
     "vividseats_url": "https://www.vividseats.com/stella-lefty-tickets-new-york-bowery-ballroom-11-16-2026/production/7047288",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stella-lefty-new-york-new-york-11-16-2026/event/000064AECC0B67EF",
@@ -610,11 +610,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18251604,
+        "url": "https://seatgeek.com/stella-lefty-tickets/new-york-new-york-bowery-ballroom-2026-11-16-7-pm/concert/18251604",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047288,
@@ -811,7 +811,7 @@
     "tour_name": "Long Way Home Tour",
     "ticketmaster_event_id": "08006513B33575FF",
     "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-detroit-michigan-01-09-2027/event/08006513B33575FF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stella-lefty-tickets/detroit-michigan-the-fillmore-detroit-2027-01-09-8-pm/concert/18527905",
     "vividseats_url": "https://www.vividseats.com/stella-lefty-tickets-detroit-the-fillmore-detroit-1-9-2027--concerts-pop/production/7473877",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-detroit-michigan-01-09-2027/event/08006513B33575FF",
@@ -827,11 +827,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18527905,
+        "url": "https://seatgeek.com/stella-lefty-tickets/detroit-michigan-the-fillmore-detroit-2027-01-09-8-pm/concert/18527905",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473877,
@@ -1091,7 +1091,7 @@
     "tour_name": "Long Way Home Tour",
     "ticketmaster_event_id": "310065139B293F7D",
     "ticketmaster_url": "https://www.ticketmaster.ca/stella-lefty-long-way-home-tour-montreal-quebec-01-15-2027/event/310065139B293F7D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stella-lefty-tickets/montreal-canada-mtelus-2027-01-15-8-pm/concert/18527910",
     "vividseats_url": "https://www.vividseats.com/stella-lefty-tickets-montreal-mtelus-1-15-2027--concerts-pop/production/7473897",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/stella-lefty-long-way-home-tour-montreal-quebec-01-15-2027/event/310065139B293F7D",
@@ -1107,11 +1107,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18527910,
+        "url": "https://seatgeek.com/stella-lefty-tickets/montreal-canada-mtelus-2027-01-15-8-pm/concert/18527910",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473897,
@@ -1599,7 +1599,7 @@
     "tour_name": "Long Way Home Tour",
     "ticketmaster_event_id": "2D006515C69584B8",
     "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-charlotte-north-carolina-01-25-2027/event/2D006515C69584B8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stella-lefty-tickets/charlotte-north-carolina-the-fillmore-charlotte-2027-01-25-8-pm/concert/18527884",
     "vividseats_url": "https://www.vividseats.com/stella-lefty-tickets-charlotte-the-fillmore-charlotte-1-25-2027--concerts-pop/production/7473909",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-charlotte-north-carolina-01-25-2027/event/2D006515C69584B8",
@@ -1615,11 +1615,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18527884,
+        "url": "https://seatgeek.com/stella-lefty-tickets/charlotte-north-carolina-the-fillmore-charlotte-2027-01-25-8-pm/concert/18527884",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473909,
@@ -1746,7 +1746,7 @@
     "tour_name": "Long Way Home Tour",
     "ticketmaster_event_id": "0C0065141A207FB7",
     "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-dallas-texas-01-28-2027/event/0C0065141A207FB7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stella-lefty-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2027-01-28-8-pm/concert/18527887",
     "vividseats_url": "https://www.vividseats.com/stella-lefty-tickets-dallas-south-side-ballroom-1-28-2027--concerts-pop/production/7473915",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-dallas-texas-01-28-2027/event/0C0065141A207FB7",
@@ -1762,11 +1762,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18527887,
+        "url": "https://seatgeek.com/stella-lefty-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2027-01-28-8-pm/concert/18527887",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473915,
@@ -1825,7 +1825,7 @@
     "tour_name": "Long Way Home Tour",
     "ticketmaster_event_id": "3A006515BACE275B",
     "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-houston-texas-01-30-2027/event/3A006515BACE275B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stella-lefty-tickets/houston-texas-house-of-blues-houston-2027-01-30-7-pm/concert/18527885",
     "vividseats_url": "https://www.vividseats.com/stella-lefty-tickets-houston-house-of-blues-houston-1-30-2027--concerts-pop/production/7473917",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-houston-texas-01-30-2027/event/3A006515BACE275B",
@@ -1841,11 +1841,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18527885,
+        "url": "https://seatgeek.com/stella-lefty-tickets/houston-texas-house-of-blues-houston-2027-01-30-7-pm/concert/18527885",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473917,

@@ -64,7 +64,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C00646DC182AACC",
     "ticketmaster_url": "https://www.ticketmaster.com/weezer-the-gathering-dallas-texas-10-17-2026/event/0C00646DC182AACC",
-    "seatgeek_url": "https://seatgeek.com/weezer-tickets/dallas-texas-american-airlines-center-2026-10-17-7-pm/concert/18147541",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/weezer-tickets-dallas-american-airlines-center---tx-10-17-2026/production/6833946",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/weezer-the-gathering-dallas-texas-10-17-2026/event/0C00646DC182AACC",
@@ -84,7 +84,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6833946,
@@ -157,11 +157,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18147543,
+        "url": "https://seatgeek.com/weezer-tickets/austin-texas-moody-center-atx-2026-10-18-7-pm/concert/18147543",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6833944,
@@ -237,11 +237,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18147545,
+        "url": "https://seatgeek.com/weezer-tickets/phoenix-arizona-mortgage-matchup-center-2026-10-20-7-pm/concert/18147545",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6833900,
@@ -326,11 +326,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18147546,
+        "url": "https://seatgeek.com/weezer-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-10-21-7-pm/concert/18147546",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -389,7 +389,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-MuY",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuY",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/weezer-tickets/las-vegas-nevada-t-mobile-arena-2026-10-23-7-pm/concert/18147548",
     "vividseats_url": "https://www.vividseats.com/weezer-tickets-las-vegas-t-mobile-arena-10-23-2026/production/6833922",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuY",
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18147548,
+        "url": "https://seatgeek.com/weezer-tickets/las-vegas-nevada-t-mobile-arena-2026-10-23-7-pm/concert/18147548",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6833922,
@@ -485,11 +485,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18147549,
+        "url": "https://seatgeek.com/weezer-tickets/los-angeles-california-crypto-com-arena-2026-10-24-7-pm/concert/18147549",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

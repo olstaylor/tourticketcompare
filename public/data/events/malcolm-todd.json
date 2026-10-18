@@ -946,7 +946,7 @@
         "event_id": 18292574,
         "url": "https://seatgeek.com/malcolm-todd-tickets/vancouver-canada-pne-forum-vancouver-2026-10-18-8-pm/concert/18292574",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1015,7 +1015,7 @@
         "event_id": 18292564,
         "url": "https://seatgeek.com/malcolm-todd-tickets/portland-oregon-arlene-schnitzer-concert-hall-2026-10-19-8-pm/concert/18292564",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1322,7 +1322,7 @@
     "tour_name": "Do That Again Tour",
     "ticketmaster_event_id": "190064C2D241DB17",
     "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-phoenix-arizona-10-25-2026/event/190064C2D241DB17",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/malcolm-todd-tickets/phoenix-arizona-arizona-financial-theatre-2026-10-25-8-pm/concert/18292584",
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-phoenix-arizona-financial-theatre-10-25-2026/production/7132709",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-phoenix-arizona-10-25-2026/event/190064C2D241DB17",
@@ -1338,11 +1338,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18292584,
+        "url": "https://seatgeek.com/malcolm-todd-tickets/phoenix-arizona-arizona-financial-theatre-2026-10-25-8-pm/concert/18292584",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7132709,

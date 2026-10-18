@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7Pwkk",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pwkk",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/ella-langley-tickets/des-moines-iowa-casey-s-center-2026-10-29-7-pm/concert/18324411",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pwkk",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18324411,
+        "url": "https://seatgeek.com/ella-langley-tickets/des-moines-iowa-casey-s-center-2026-10-29-7-pm/concert/18324411",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -104,11 +104,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18324412,
+        "url": "https://seatgeek.com/ella-langley-tickets/lincoln-nebraska-pinnacle-bank-arena-2026-10-30-7-pm/concert/18324412",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7199174,
@@ -168,7 +168,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7PPo7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PPo7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/ella-langley-tickets/saint-paul-minnesota-grand-casino-arena-2026-10-31-7-pm/concert/18325137",
     "vividseats_url": "https://www.vividseats.com/ella-langley-tickets-saint-paul-grand-casino-arena-10-31-2026--concerts-rock/production/7199177",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PPo7",
@@ -184,11 +184,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18325137,
+        "url": "https://seatgeek.com/ella-langley-tickets/saint-paul-minnesota-grand-casino-arena-2026-10-31-7-pm/concert/18325137",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7199177,

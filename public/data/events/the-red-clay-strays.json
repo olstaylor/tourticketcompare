@@ -412,7 +412,7 @@
     "tour_name": "Grateful Tour",
     "ticketmaster_event_id": "2D006494D38D6295",
     "ticketmaster_url": "https://www.ticketmaster.com/the-red-clay-strays-charleston-south-carolina-10-17-2026/event/2D006494D38D6295",
-    "seatgeek_url": "https://seatgeek.com/the-red-clay-strays-tickets/charleston-south-carolina-credit-one-stadium-2026-10-17-6-30-pm/concert/18200010",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-charleston-credit-one-stadium-10-17-2026--concerts-country-and-folk/production/6948979",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-charleston-south-carolina-10-17-2026/event/2D006494D38D6295",
@@ -428,11 +428,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18200010,
-        "url": "https://seatgeek.com/the-red-clay-strays-tickets/charleston-south-carolina-credit-one-stadium-2026-10-17-6-30-pm/concert/18200010",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6948979,
@@ -503,7 +503,7 @@
         "event_id": 18200011,
         "url": "https://seatgeek.com/the-red-clay-strays-tickets/greenville-south-carolina-bon-secours-wellness-arena-2026-10-18-6-30-pm/concert/18200011",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -732,11 +732,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18200014,
+        "url": "https://seatgeek.com/the-red-clay-strays-tickets/knoxville-tennessee-thompson-boling-arena-at-food-city-center-2026-10-28-6-30-pm/concert/18200014",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6948983,
@@ -811,11 +811,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18200016,
+        "url": "https://seatgeek.com/the-red-clay-strays-tickets/birmingham-alabama-legacy-arena-at-the-bjcc-2026-10-31-6-30-pm/concert/18200016",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6948985,
@@ -874,7 +874,7 @@
     "tour_name": "Grateful Tour",
     "ticketmaster_event_id": "Z7r9jZ1A70vj6",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70vj6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-red-clay-strays-tickets/baton-rouge-louisiana-raising-cane-s-river-center-2026-11-05-6-30-pm/concert/18200018",
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-baton-rouge-raising-canes-river-center-arena-11-5-2026--concerts-country-and-folk/production/6949102",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70vj6",
@@ -890,11 +890,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18200018,
+        "url": "https://seatgeek.com/the-red-clay-strays-tickets/baton-rouge-louisiana-raising-cane-s-river-center-2026-11-05-6-30-pm/concert/18200018",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6949102,
@@ -935,7 +935,7 @@
     "tour_name": "Grateful Tour",
     "ticketmaster_event_id": "Z7r9jZ1A70vjF",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70vjF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-red-clay-strays-tickets/bossier-city-louisiana-brookshire-grocery-arena-2026-11-06-6-30-pm/concert/18200019",
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-bossier-city-brookshire-grocery-arena-11-6-2026--concerts-country-and-folk/production/6949104",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70vjF",
@@ -951,11 +951,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18200019,
+        "url": "https://seatgeek.com/the-red-clay-strays-tickets/bossier-city-louisiana-brookshire-grocery-arena-2026-11-06-6-30-pm/concert/18200019",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6949104,
@@ -1020,11 +1020,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18200020,
+        "url": "https://seatgeek.com/the-red-clay-strays-tickets/jonesboro-arkansas-first-national-bank-arena-2026-11-08-6-30-pm/concert/18200020",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6948987,
@@ -1170,7 +1170,7 @@
     "tour_name": "Grateful Tour",
     "ticketmaster_event_id": "Z7r9jZ1A70PZp",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70PZp",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-red-clay-strays-tickets/las-vegas-nevada-mgm-grand-garden-arena-2026-12-05-6-30-pm/concert/18257194",
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-las-vegas-mgm-grand-garden-arena-12-5-2026--concerts-country-and-folk/production/7037866",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70PZp",
@@ -1186,11 +1186,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18257194,
+        "url": "https://seatgeek.com/the-red-clay-strays-tickets/las-vegas-nevada-mgm-grand-garden-arena-2026-12-05-6-30-pm/concert/18257194",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7037866,

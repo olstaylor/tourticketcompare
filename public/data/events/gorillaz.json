@@ -168,11 +168,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18102843,
+        "url": "https://seatgeek.com/gorillaz-tickets/denver-colorado-ball-arena-2026-10-18-7-pm/concert/18102843",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6739875,
@@ -232,7 +232,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-9AI",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9AI",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gorillaz-tickets/salt-lake-city-utah-delta-center-1-2026-10-20-7-30-pm/concert/18029029",
     "vividseats_url": "https://www.vividseats.com/gorillaz-tickets-salt-lake-city-delta-center-10-20-2026--concerts-alternative/production/6739877",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9AI",
@@ -248,11 +248,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18029029,
+        "url": "https://seatgeek.com/gorillaz-tickets/salt-lake-city-utah-delta-center-1-2026-10-20-7-30-pm/concert/18029029",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6739877,
@@ -320,11 +320,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18102846,
+        "url": "https://seatgeek.com/gorillaz-tickets/phoenix-arizona-mortgage-matchup-center-2026-10-23-7-pm/concert/18102846",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6739879,
@@ -407,11 +407,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18102848,
+        "url": "https://seatgeek.com/gorillaz-tickets/inglewood-california-kia-forum-2026-10-24-7-30-pm/concert/18102848",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6739882,
@@ -494,11 +494,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18102849,
+        "url": "https://seatgeek.com/gorillaz-tickets/san-diego-california-pechanga-arena-san-diego-2026-10-25-7-30-pm/concert/18102849",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -573,11 +573,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18102850,
+        "url": "https://seatgeek.com/gorillaz-tickets/oakland-california-oakland-arena-2026-10-28-7-pm/concert/18102850",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6740703,
@@ -661,11 +661,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18102851,
+        "url": "https://seatgeek.com/gorillaz-tickets/portland-oregon-moda-center-2026-10-30-7-pm/concert/18102851",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6740705,
@@ -748,11 +748,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18102856,
+        "url": "https://seatgeek.com/gorillaz-tickets/seattle-washington-climate-pledge-arena-2026-10-31-7-30-pm/concert/18102856",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6739888,

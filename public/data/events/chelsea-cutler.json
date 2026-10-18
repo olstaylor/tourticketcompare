@@ -75,7 +75,7 @@
     "tour_name": "IS THIS THE END? Tour",
     "ticketmaster_event_id": "2D00653D93FA7E1B",
     "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-charlotte-north-carolina-02-05-2027/event/2D00653D93FA7E1B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/chelsea-cutler-tickets/charlotte-north-carolina-the-fillmore-charlotte-2027-02-05-8-pm/concert/18639172",
     "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-charlotte-the-fillmore-charlotte-2-5-2027/production/7637087",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-charlotte-north-carolina-02-05-2027/event/2D00653D93FA7E1B",
@@ -91,11 +91,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18639172,
+        "url": "https://seatgeek.com/chelsea-cutler-tickets/charlotte-north-carolina-the-fillmore-charlotte-2027-02-05-8-pm/concert/18639172",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7637087,

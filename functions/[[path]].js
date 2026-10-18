@@ -616,9 +616,8 @@ async function deriveBlogArtistTicketRoutes(env, artistSlugs) {
       const shows = futureShowsForArtist(artistEvents, slug);
       if (!shows.length) return null;
       const priceGuideLive =
-        priceGuideRegistered(slug) &&
         priceGuideRouteDecision(derivePriceGuide(artistEvents, slug), {
-          registered: true,
+          registered: priceGuideRegistered(slug),
           artistEditoriallyIndexable: true
         }) === "render";
       const cities = deriveArtistCities(artistEvents, slug)
@@ -1179,9 +1178,8 @@ async function resolveRoute(pathname, env) {
       presales,
       // Linked on the same condition the artist and event pages use.
       priceGuideLive:
-        priceGuideRegistered(artist.slug) &&
         priceGuideRouteDecision(derivePriceGuide(artistEvents, artist.slug), {
-          registered: true,
+          registered: priceGuideRegistered(artist.slug),
           artistEditoriallyIndexable: artistMetaRecord.indexing_status === "indexable_with_substantial_content"
         }) === "render",
       catalog,
@@ -6969,9 +6967,8 @@ function renderEventPageBody(route, events, env) {
 
   // The artist's price guide, linked on the same condition the artist page uses.
   const priceGuideLive =
-    priceGuideRegistered(artist.slug) &&
     priceGuideRouteDecision(derivePriceGuide(route.events || events, artist.slug), {
-      registered: true,
+      registered: priceGuideRegistered(artist.slug),
       artistEditoriallyIndexable: artist.indexing_status === "indexable_with_substantial_content"
     }) === "render";
   const links = [
@@ -7216,7 +7213,6 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     // answers "how much" — so each links the other near the top.
     const priceGuideLive =
       shows.length > 0 &&
-      priceGuideRegistered(artist.slug) &&
       priceGuideRouteDecision(derivePriceGuide(events, artist.slug), {
         registered: priceGuideRegistered(artist.slug),
         artistEditoriallyIndexable: isIndexableArtist
@@ -7404,7 +7400,6 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     // Link up to the artist's price guide when one renders; it carries this
     // city's dates alongside every other city's, with their price moves.
     const priceGuideHtml =
-      priceGuideRegistered(artist.slug) &&
       priceGuideRouteDecision(derivePriceGuide(events, artist.slug), {
         registered: priceGuideRegistered(artist.slug),
         artistEditoriallyIndexable: true

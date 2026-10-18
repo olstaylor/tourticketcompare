@@ -4,9 +4,10 @@
 // Reads the committed event and artist data, finds editorially indexable
 // artists without a guide whose Ticketmaster public on-sales opened recently or
 // open soon (functions/_price-guides.js → priceGuideLaunchCandidates), and
-// rewrites the rolling `automation:price-guide-candidates` issue. Propose-only:
-// it writes the issue and nothing else. Approving a candidate is adding its
-// slug to PRICE_GUIDE_ARTISTS in functions/_price-guides.js.
+// rewrites the rolling `automation:price-guide-candidates` issue. Report-only:
+// it writes the issue and nothing else. Adding a
+// slug to PRICE_GUIDE_ARTISTS in functions/_price-guides.js (to keep a guide
+// live between tours; qualifying guides go live on their own since 2026-10-17).
 //
 //   node scripts/propose-price-guides.mjs              # print the issue body
 //   node scripts/propose-price-guides.mjs --json       # print candidates as JSON
@@ -38,17 +39,17 @@ export function renderIssue({ generatedAt, candidates, ready = [], live }) {
   const lines = [
     `Price-guide candidates — ${generatedAt} (propose-only; nothing is published by this issue)`,
     "",
-    `A candidate is an indexable artist with no price guide whose Ticketmaster public on-sale opened in the last ${PRICE_GUIDE_LAUNCH_LOOKBACK_DAYS} days or opens in the next ${PRICE_GUIDE_LAUNCH_LOOKAHEAD_DAYS}, for at least ${PRICE_GUIDE_LAUNCH_MIN_SHOWS} upcoming dates. To approve one, add its slug to \`PRICE_GUIDE_ARTISTS\` in \`functions/_price-guides.js\` in a PR; the page, sitemap entry, llms.txt line and cross-links follow from the data. One guide per artist, never one per tour.`,
+    `A candidate is an indexable artist with no price guide whose Ticketmaster public on-sale opened in the last ${PRICE_GUIDE_LAUNCH_LOOKBACK_DAYS} days or opens in the next ${PRICE_GUIDE_LAUNCH_LOOKAHEAD_DAYS}, for at least ${PRICE_GUIDE_LAUNCH_MIN_SHOWS} upcoming dates. Since 2026-10-17 a guide goes live on its own once its data clears the guide gate, so the "live automatically" sections below need no action. Adding a slug to \`PRICE_GUIDE_ARTISTS\` in \`functions/_price-guides.js\` keeps a guide live between tours. One guide per artist, never one per tour.`,
     "",
-    `### Would be indexed today (${candidates.filter((c) => c.wouldIndex).length})`,
+    `### Launch, live automatically today (${candidates.filter((c) => c.wouldIndex).length})`,
     candidates.filter((c) => c.wouldIndex).map(candidateLine).join("\n") || "None.",
     "",
-    `### Would render noindex today (${candidates.filter((c) => !c.wouldIndex).length})`,
-    "_Approving these is safe but the page stays out of search until its gate passes; the reason codes say what is missing._",
+    `### Launch, short of the guide gate today (${candidates.filter((c) => !c.wouldIndex).length})`,
+    "_These go live on their own once the gate passes; until then the URL redirects to the artist page. The reason codes say what is missing._",
     candidates.filter((c) => !c.wouldIndex).map((c) => `${candidateLine(c)} · held: ${c.reasons.join(", ")}`).join("\n") || "None.",
     "",
-    `### Clears the guide gate without a launch (${ready.length})`,
-    "_Indexable artists with no guide whose dates already pass the guide's own gate (enough dates, cities and price-snapshot coverage). Approve these too: a guide is useful whenever the data supports it, not only at a launch._",
+    `### Live automatically without a launch (${ready.length})`,
+    "_Indexable artists outside the list whose dates pass the guide's own gate (enough dates, cities and price-snapshot coverage), so their guide is live._",
     ready.map((g) => `- **${String(g.name).replace(/([*_`\\])/g, "\\$1")}** (\`${g.artistSlug}\`) · ${g.showCount} upcoming dates in ${g.cityCount} cities · ${g.snapshotReadyCount} on a price-snapshot lane`).join("\n") || "None.",
     "",
     `### Live guides (${live.length})`,

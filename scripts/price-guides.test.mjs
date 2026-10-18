@@ -43,6 +43,14 @@ assert(
   "the snapshot-ready lanes match the lanes with owner-confirmed price display rights"
 );
 assert(guides.priceGuidePath("Oasis") === "/artists/oasis/ticket-prices", "one URL per artist, no year and no tour");
+{
+  const decide = (guide, registered, artistEditoriallyIndexable = true) =>
+    guides.priceGuideRouteDecision(guide, { registered, artistEditoriallyIndexable });
+  assert(decide({ indexable: true, publishableCount: 6 }, false) === "render", "an unlisted guide that clears its gate goes live on its own");
+  assert(decide({ indexable: false, publishableCount: 6 }, false) === "redirect", "an unlisted guide below its gate redirects to the artist page");
+  assert(decide({ indexable: true, publishableCount: 6 }, false, false) === "not_found", "an unlisted artist under review has no guide");
+  assert(decide({ indexable: false, publishableCount: 2 }, true) === "render", "a listed guide stays live below its gate");
+}
 assert(guides.PRICE_GUIDE_ARTISTS.every((slug) => /^[a-z0-9-]+$/.test(slug)), "registry entries are slugs");
 assert(new Set(guides.PRICE_GUIDE_ARTISTS).size === guides.PRICE_GUIDE_ARTISTS.length, "registry entries are unique");
 {
@@ -377,7 +385,10 @@ for (const priceRows of [[], PRICE_ROWS.map((row) => ({ ...row, expires_at: "202
 
 {
   const missing = await render("/artists/zach-bryan/ticket-prices");
-  assert(missing.status === 404, "an artist without an approved guide 404s");
+  assert(
+    missing.status === 404 || (missing.status === 301 && missing.location.endsWith("/artists/zach-bryan")),
+    "an unlisted artist whose data does not clear the guide gate has no guide page"
+  );
   const unknown = await render("/artists/not-an-artist/ticket-prices");
   assert(unknown.status === 404, "an unknown artist 404s");
   const between = await render(GUIDE_PATH, { withDb: true, events: EVENTS.filter((event) => event.id === "pg-past") });

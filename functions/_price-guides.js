@@ -23,13 +23,14 @@
 //      it is blank on most Ticketmaster-ingested rows by design, and is never
 //      inferred (SAFE_PUBLISHING_RULES.md, issue #172).
 //
-//   2. OWNER-APPROVED, MACHINE-PROPOSED. A guide exists only for an artist in
-//      PRICE_GUIDE_ARTISTS below. scripts/propose-price-guides.mjs watches for
-//      tour launches (a run of dates whose Ticketmaster public on-sale is
-//      recent or imminent) and lists candidates in the rolling
-//      `automation:price-guide-candidates` issue; adding the slug here is the
-//      approval. Nothing adds itself: a new page type is not one of the
-//      sanctioned auto-publish paths.
+//   2. DATA-QUALIFIED. A guide exists for an artist in PRICE_GUIDE_ARTISTS
+//      below, and for any editorially indexable artist whose dates clear the
+//      guide's own indexing gate (priceGuideGate: PRICE_GUIDE_MIN_SHOWS dates
+//      in PRICE_GUIDE_MIN_CITIES cities with snapshot-ready price lanes).
+//      Owner decision 2026-10-17: a guide no longer waits on a hand-added slug
+//      when its data already qualifies. The list keeps guides live between
+//      tours; an unlisted guide that falls below the gate 301s to the artist
+//      page until its data qualifies again.
 //
 //   3. NO FIGURE THE SITE CANNOT SOURCE. There is no approved face-value source,
 //      so the page states where face value is set and sold and prints none.
@@ -46,11 +47,12 @@ import { PRICE_SNAPSHOT_PROVIDERS, eventLifecycleHeld, eventPriceComparable, eve
 // Registry
 // ---------------------------------------------------------------------------
 
-// Artists with an approved price guide. Adding a slug is the whole approval:
-// the page, its sitemap entry, its llms.txt line and its links from the artist
-// and artist-city pages all follow from the data. Removing one turns the URL
-// into a 301 to the artist page (see priceGuideRouteDecision). Candidates are
-// proposed in the `automation:price-guide-candidates` issue.
+// Artists whose price guide stays live even below the guide's indexing gate
+// (it renders noindex rather than redirecting). Any other editorially
+// indexable artist gets a guide automatically while its data clears the gate
+// (see priceGuideRouteDecision). The page, its sitemap entry, its llms.txt
+// line and its links from the artist and artist-city pages all follow from the
+// data.
 export const PRICE_GUIDE_ARTISTS = Object.freeze([
   "oasis",
   "lizzy-mcalpine",
@@ -319,8 +321,10 @@ export function derivePriceGuide(events, artistSlug, options = {}) {
  *     or no publishable upcoming date between tours) -> 301 to the artist
  *     page, the most relevant surviving page. The same URL renders again the
  *     moment the next run of dates lands;
- *   - an artist with no approved guide -> 404, like any unknown path. The site
- *     does not generate pages it has not been asked to publish.
+ *   - an unregistered, editorially indexable artist -> render while the
+ *     guide's own indexing gate passes (owner decision 2026-10-17), otherwise
+ *     301 to the artist page;
+ *   - an unregistered artist under review -> 404, like any unknown path.
  *
  * Unknown artists never reach this: the router 404s them first.
  *
@@ -329,8 +333,9 @@ export function derivePriceGuide(events, artistSlug, options = {}) {
  * @returns {"render"|"redirect"|"not_found"}
  */
 export function priceGuideRouteDecision(guide, { registered, artistEditoriallyIndexable }) {
-  if (!registered) return "not_found";
+  if (!registered && !artistEditoriallyIndexable) return "not_found";
   if (!artistEditoriallyIndexable) return "redirect";
+  if (!registered) return guide.indexable ? "render" : "redirect";
   return guide.publishableCount > 0 ? "render" : "redirect";
 }
 
@@ -354,9 +359,14 @@ export function deriveRenderedPriceGuides(events, indexableArtistSlugs, options 
     if (!eventsBySlug.has(slug)) eventsBySlug.set(slug, []);
     eventsBySlug.get(slug).push(event);
   }
-  return PRICE_GUIDE_ARTISTS.filter((slug) => indexable.has(slug))
+  const registered = PRICE_GUIDE_ARTISTS.filter((slug) => indexable.has(slug));
+  const automatic = [...indexable].filter((slug) => !PRICE_GUIDE_ARTISTS.includes(slug)).sort();
+  return [...registered, ...automatic]
     .map((slug) => derivePriceGuide(eventsBySlug.get(slug) || [], slug, options))
-    .filter((guide) => priceGuideRouteDecision(guide, { registered: true, artistEditoriallyIndexable: true }) === "render");
+    .filter(
+      (guide) =>
+        priceGuideRouteDecision(guide, { registered: priceGuideRegistered(guide.artistSlug), artistEditoriallyIndexable: true }) === "render"
+    );
 }
 
 /**

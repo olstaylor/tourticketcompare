@@ -20,7 +20,7 @@
         "localDate": "2026-11-27",
         "price": 37,
         "currency": "USD",
-        "capturedAt": "2026-10-17T23:31:05.592Z"
+        "capturedAt": "2026-10-18T06:38:17.473Z"
       },
       "high": {
         "city": "Cleveland",
@@ -30,7 +30,7 @@
         "localDate": "2026-11-07",
         "price": 123,
         "currency": "USD",
-        "capturedAt": "2026-10-17T23:31:05.592Z"
+        "capturedAt": "2026-10-18T06:38:17.471Z"
       },
       "ratio": 3.3,
       "cities": [
@@ -42,7 +42,7 @@
           "localDate": "2026-11-27",
           "price": 37,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.592Z"
+          "capturedAt": "2026-10-18T06:38:17.473Z"
         },
         {
           "city": "Corpus Christi",
@@ -52,7 +52,7 @@
           "localDate": "2026-12-17",
           "price": 39,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.593Z"
+          "capturedAt": "2026-10-18T06:38:17.473Z"
         },
         {
           "city": "Detroit",
@@ -62,17 +62,7 @@
           "localDate": "2026-10-30",
           "price": 42,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.591Z"
-        },
-        {
-          "city": "Hidalgo",
-          "country": "United States",
-          "venue": "Payne Arena",
-          "eventId": "tm-blue-october-2026-hidalgo-g5diz_6r53fc7",
-          "localDate": "2026-12-13",
-          "price": 46,
-          "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.593Z"
+          "capturedAt": "2026-10-18T06:38:17.471Z"
         },
         {
           "city": "Grand Rapids",
@@ -82,7 +72,17 @@
           "localDate": "2026-10-29",
           "price": 48,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.591Z"
+          "capturedAt": "2026-10-18T06:38:17.471Z"
+        },
+        {
+          "city": "Hidalgo",
+          "country": "United States",
+          "venue": "Payne Arena",
+          "eventId": "tm-blue-october-2026-hidalgo-g5diz_6r53fc7",
+          "localDate": "2026-12-13",
+          "price": 49,
+          "currency": "USD",
+          "capturedAt": "2026-10-18T06:38:17.473Z"
         },
         {
           "city": "Houston",
@@ -92,7 +92,7 @@
           "localDate": "2026-12-18",
           "price": 49,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.593Z"
+          "capturedAt": "2026-10-18T06:38:17.473Z"
         },
         {
           "city": "Beaumont",
@@ -102,7 +102,7 @@
           "localDate": "2026-12-10",
           "price": 51,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.592Z"
+          "capturedAt": "2026-10-18T06:38:17.473Z"
         },
         {
           "city": "Rockford",
@@ -112,7 +112,7 @@
           "localDate": "2027-03-14",
           "price": 53,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.594Z"
+          "capturedAt": "2026-10-18T06:38:17.475Z"
         },
         {
           "city": "Boston",
@@ -122,7 +122,7 @@
           "localDate": "2026-11-13",
           "price": 56,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.592Z"
+          "capturedAt": "2026-10-18T06:38:17.472Z"
         },
         {
           "city": "San Antonio",
@@ -132,7 +132,7 @@
           "localDate": "2026-12-12",
           "price": 57,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.594Z"
+          "capturedAt": "2026-10-18T06:38:17.475Z"
         },
         {
           "city": "Valley Center",
@@ -140,9 +140,9 @@
           "venue": "Harrah's Resort SoCal - The Events Center",
           "eventId": "tm-blue-october-2027-valley-center-vvg1iz_1qjyqty",
           "localDate": "2027-02-11",
-          "price": 64,
+          "price": 63,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.593Z"
+          "capturedAt": "2026-10-18T06:38:17.474Z"
         },
         {
           "city": "Nashville",
@@ -152,7 +152,7 @@
           "localDate": "2026-11-08",
           "price": 65,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.592Z"
+          "capturedAt": "2026-10-18T06:38:17.471Z"
         },
         {
           "city": "Red Bank",
@@ -162,17 +162,7 @@
           "localDate": "2026-11-12",
           "price": 65,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.592Z"
-        },
-        {
-          "city": "Milwaukee",
-          "country": "United States",
-          "venue": "Pabst Theater",
-          "eventId": "tm-blue-october-2026-milwaukee-z7r9jz1a7-v04",
-          "localDate": "2026-10-28",
-          "price": 67,
-          "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.591Z"
+          "capturedAt": "2026-10-18T06:38:17.472Z"
         },
         {
           "city": "Seattle",
@@ -182,7 +172,7 @@
           "localDate": "2027-02-26",
           "price": 67,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.594Z"
+          "capturedAt": "2026-10-18T06:38:17.474Z"
         },
         {
           "city": "Colorado Springs",
@@ -192,7 +182,7 @@
           "localDate": "2027-03-07",
           "price": 68,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.594Z"
+          "capturedAt": "2026-10-18T06:38:17.475Z"
         },
         {
           "city": "Des Moines",
@@ -200,9 +190,19 @@
           "venue": "Hoyt Sherman Place",
           "eventId": "tm-blue-october-2027-des-moines-vvg1bz_1xphcoz",
           "localDate": "2027-03-12",
-          "price": 69,
+          "price": 68,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.594Z"
+          "capturedAt": "2026-10-18T06:38:17.475Z"
+        },
+        {
+          "city": "Milwaukee",
+          "country": "United States",
+          "venue": "Pabst Theater",
+          "eventId": "tm-blue-october-2026-milwaukee-z7r9jz1a7-v04",
+          "localDate": "2026-10-28",
+          "price": 68,
+          "currency": "USD",
+          "capturedAt": "2026-10-18T06:38:17.471Z"
         },
         {
           "city": "Bakersfield",
@@ -212,7 +212,7 @@
           "localDate": "2027-02-17",
           "price": 70,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.593Z"
+          "capturedAt": "2026-10-18T06:38:17.474Z"
         },
         {
           "city": "Kansas City",
@@ -222,7 +222,7 @@
           "localDate": "2026-12-03",
           "price": 70,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.592Z"
+          "capturedAt": "2026-10-18T06:38:17.473Z"
         },
         {
           "city": "Portland",
@@ -232,7 +232,7 @@
           "localDate": "2026-11-03",
           "price": 71,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.592Z"
+          "capturedAt": "2026-10-18T06:38:17.471Z"
         },
         {
           "city": "Reno",
@@ -242,7 +242,7 @@
           "localDate": "2027-02-21",
           "price": 72,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.594Z"
+          "capturedAt": "2026-10-18T06:38:17.474Z"
         },
         {
           "city": "Tucson",
@@ -252,17 +252,7 @@
           "localDate": "2027-02-03",
           "price": 73,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.593Z"
-        },
-        {
-          "city": "El Paso",
-          "country": "United States",
-          "venue": "The Plaza Theatre Performing Arts Center",
-          "eventId": "tm-blue-october-2027-el-paso-vvg1yz_1msxe0e",
-          "localDate": "2027-01-30",
-          "price": 75,
-          "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.593Z"
+          "capturedAt": "2026-10-18T06:38:17.474Z"
         },
         {
           "city": "San Luis Obispo",
@@ -272,27 +262,17 @@
           "localDate": "2027-02-10",
           "price": 76,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.593Z"
+          "capturedAt": "2026-10-18T06:38:17.474Z"
         },
         {
-          "city": "Albuquerque",
+          "city": "El Paso",
           "country": "United States",
-          "venue": "Revel Entertainment Center",
-          "eventId": "tm-blue-october-2027-albuquerque-z7r9jz1a70pgn",
-          "localDate": "2027-02-04",
-          "price": 79,
+          "venue": "The Plaza Theatre Performing Arts Center",
+          "eventId": "tm-blue-october-2027-el-paso-vvg1yz_1msxe0e",
+          "localDate": "2027-01-30",
+          "price": 77,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.594Z"
-        },
-        {
-          "city": "Lubbock",
-          "country": "United States",
-          "venue": "Helen DeVitt Jones Theater at The Buddy Holly Hall",
-          "eventId": "tm-blue-october-2026-lubbock-z7r9jz1a70v8t",
-          "localDate": "2026-10-23",
-          "price": 79,
-          "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.591Z"
+          "capturedAt": "2026-10-18T06:38:17.474Z"
         },
         {
           "city": "Boise",
@@ -302,7 +282,7 @@
           "localDate": "2027-03-03",
           "price": 80,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.594Z"
+          "capturedAt": "2026-10-18T06:38:17.475Z"
         },
         {
           "city": "Spokane",
@@ -312,7 +292,27 @@
           "localDate": "2027-02-24",
           "price": 80,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.594Z"
+          "capturedAt": "2026-10-18T06:38:17.474Z"
+        },
+        {
+          "city": "Albuquerque",
+          "country": "United States",
+          "venue": "Revel Entertainment Center",
+          "eventId": "tm-blue-october-2027-albuquerque-z7r9jz1a70pgn",
+          "localDate": "2027-02-04",
+          "price": 81,
+          "currency": "USD",
+          "capturedAt": "2026-10-18T06:38:17.475Z"
+        },
+        {
+          "city": "Lubbock",
+          "country": "United States",
+          "venue": "Helen DeVitt Jones Theater at The Buddy Holly Hall",
+          "eventId": "tm-blue-october-2026-lubbock-z7r9jz1a70v8t",
+          "localDate": "2026-10-23",
+          "price": 81,
+          "currency": "USD",
+          "capturedAt": "2026-10-18T06:38:17.471Z"
         },
         {
           "city": "Clearwater",
@@ -322,7 +322,7 @@
           "localDate": "2026-11-20",
           "price": 83,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.592Z"
+          "capturedAt": "2026-10-18T06:38:17.472Z"
         },
         {
           "city": "Orlando",
@@ -332,7 +332,7 @@
           "localDate": "2026-11-21",
           "price": 83,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.592Z"
+          "capturedAt": "2026-10-18T06:38:17.472Z"
         },
         {
           "city": "Tulsa",
@@ -342,17 +342,17 @@
           "localDate": "2026-10-24",
           "price": 83,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.591Z"
+          "capturedAt": "2026-10-18T06:38:17.471Z"
         },
         {
-          "city": "Denver",
+          "city": "Charlotte",
           "country": "United States",
-          "venue": "Mission Ballroom",
-          "eventId": "tm-blue-october-2027-denver-z7r9jz1a70_-g",
-          "localDate": "2027-03-06",
+          "venue": "The Fillmore Charlotte",
+          "eventId": "tm-blue-october-2026-charlotte-g5evz_kng4bet",
+          "localDate": "2026-11-17",
           "price": 87,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.594Z"
+          "capturedAt": "2026-10-18T06:38:17.472Z"
         },
         {
           "city": "San Francisco",
@@ -362,17 +362,7 @@
           "localDate": "2027-02-18",
           "price": 87,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.593Z"
-        },
-        {
-          "city": "Charlotte",
-          "country": "United States",
-          "venue": "The Fillmore Charlotte",
-          "eventId": "tm-blue-october-2026-charlotte-g5evz_kng4bet",
-          "localDate": "2026-11-17",
-          "price": 88,
-          "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.592Z"
+          "capturedAt": "2026-10-18T06:38:17.474Z"
         },
         {
           "city": "Los Angeles",
@@ -382,7 +372,7 @@
           "localDate": "2027-02-07",
           "price": 88,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.593Z"
+          "capturedAt": "2026-10-18T06:38:17.474Z"
         },
         {
           "city": "Chicago",
@@ -392,7 +382,17 @@
           "localDate": "2027-03-11",
           "price": 90,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.594Z"
+          "capturedAt": "2026-10-18T06:38:17.475Z"
+        },
+        {
+          "city": "Denver",
+          "country": "United States",
+          "venue": "Mission Ballroom",
+          "eventId": "tm-blue-october-2027-denver-z7r9jz1a70_-g",
+          "localDate": "2027-03-06",
+          "price": 91,
+          "currency": "USD",
+          "capturedAt": "2026-10-18T06:38:17.475Z"
         },
         {
           "city": "Jacksonville",
@@ -402,7 +402,7 @@
           "localDate": "2026-11-19",
           "price": 91,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.592Z"
+          "capturedAt": "2026-10-18T06:38:17.472Z"
         },
         {
           "city": "Phoenix",
@@ -412,7 +412,7 @@
           "localDate": "2027-02-05",
           "price": 91,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.593Z"
+          "capturedAt": "2026-10-18T06:38:17.474Z"
         },
         {
           "city": "Salt Lake City",
@@ -422,7 +422,7 @@
           "localDate": "2027-03-05",
           "price": 91,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.594Z"
+          "capturedAt": "2026-10-18T06:38:17.475Z"
         },
         {
           "city": "Wichita",
@@ -432,7 +432,7 @@
           "localDate": "2026-10-25",
           "price": 95,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.591Z"
+          "capturedAt": "2026-10-18T06:38:17.471Z"
         },
         {
           "city": "Las Vegas",
@@ -442,7 +442,7 @@
           "localDate": "2027-02-13",
           "price": 99,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.593Z"
+          "capturedAt": "2026-10-18T06:38:17.474Z"
         },
         {
           "city": "Midland",
@@ -452,7 +452,7 @@
           "localDate": "2027-01-29",
           "price": 105,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.593Z"
+          "capturedAt": "2026-10-18T06:38:17.473Z"
         },
         {
           "city": "Abilene",
@@ -462,7 +462,7 @@
           "localDate": "2026-10-22",
           "price": 106,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.591Z"
+          "capturedAt": "2026-10-18T06:38:17.471Z"
         },
         {
           "city": "Austin",
@@ -472,7 +472,7 @@
           "localDate": "2026-12-11",
           "price": 107,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.592Z"
+          "capturedAt": "2026-10-18T06:38:17.473Z"
         },
         {
           "city": "Philadelphia",
@@ -482,7 +482,7 @@
           "localDate": "2026-11-15",
           "price": 110,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.592Z"
+          "capturedAt": "2026-10-18T06:38:17.472Z"
         },
         {
           "city": "Sacramento",
@@ -492,7 +492,7 @@
           "localDate": "2027-02-19",
           "price": 110,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.593Z"
+          "capturedAt": "2026-10-18T06:38:17.474Z"
         },
         {
           "city": "Cleveland",
@@ -502,7 +502,7 @@
           "localDate": "2026-11-07",
           "price": 123,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:05.592Z"
+          "capturedAt": "2026-10-18T06:38:17.471Z"
         }
       ]
     },
@@ -524,7 +524,7 @@
         "localDate": "2027-07-31",
         "price": 55,
         "currency": "USD",
-        "capturedAt": "2026-10-17T23:31:40.485Z"
+        "capturedAt": "2026-10-18T06:39:21.290Z"
       },
       "high": {
         "city": "Uncasville",
@@ -534,7 +534,7 @@
         "localDate": "2027-07-24",
         "price": 117,
         "currency": "USD",
-        "capturedAt": "2026-10-17T23:31:40.485Z"
+        "capturedAt": "2026-10-18T06:39:21.290Z"
       },
       "ratio": 2.1,
       "cities": [
@@ -546,7 +546,7 @@
           "localDate": "2027-07-31",
           "price": 55,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.290Z"
         },
         {
           "city": "Noblesville",
@@ -556,7 +556,27 @@
           "localDate": "2027-07-17",
           "price": 58,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.290Z"
+        },
+        {
+          "city": "Columbia",
+          "country": "United States",
+          "venue": "Merriweather Post Pavilion",
+          "eventId": "tm-greta-van-fleet-2027-columbia-1avfz_kgkss_xxt",
+          "localDate": "2027-07-21",
+          "price": 63,
+          "currency": "USD",
+          "capturedAt": "2026-10-18T06:39:21.290Z"
+        },
+        {
+          "city": "Pittsburgh",
+          "country": "United States",
+          "venue": "PPG Paints Arena",
+          "eventId": "tm-greta-van-fleet-2027-pittsburgh-1avbz_kgkmosrsz",
+          "localDate": "2027-02-20",
+          "price": 63,
+          "currency": "USD",
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Brooklyn",
@@ -566,7 +586,7 @@
           "localDate": "2027-03-08",
           "price": 64,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Gilford",
@@ -576,7 +596,7 @@
           "localDate": "2027-07-26",
           "price": 64,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.290Z"
         },
         {
           "city": "Albany",
@@ -586,17 +606,7 @@
           "localDate": "2027-03-06",
           "price": 65,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
-        },
-        {
-          "city": "Columbia",
-          "country": "United States",
-          "venue": "Merriweather Post Pavilion",
-          "eventId": "tm-greta-van-fleet-2027-columbia-1avfz_kgkss_xxt",
-          "localDate": "2027-07-21",
-          "price": 65,
-          "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Minneapolis",
@@ -606,7 +616,7 @@
           "localDate": "2027-02-15",
           "price": 65,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Columbus",
@@ -616,7 +626,7 @@
           "localDate": "2027-07-16",
           "price": 66,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.290Z"
         },
         {
           "city": "Phoenix",
@@ -626,7 +636,7 @@
           "localDate": "2027-03-20",
           "price": 66,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Rosemont",
@@ -636,7 +646,7 @@
           "localDate": "2027-02-12",
           "price": 66,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Tulsa",
@@ -646,7 +656,7 @@
           "localDate": "2027-03-16",
           "price": 66,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Nashville",
@@ -656,7 +666,7 @@
           "localDate": "2027-02-10",
           "price": 67,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Detroit",
@@ -666,7 +676,7 @@
           "localDate": "2027-03-02",
           "price": 68,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Jacksonville",
@@ -676,7 +686,7 @@
           "localDate": "2027-02-06",
           "price": 68,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Louisville",
@@ -686,17 +696,7 @@
           "localDate": "2027-02-19",
           "price": 68,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
-        },
-        {
-          "city": "Pittsburgh",
-          "country": "United States",
-          "venue": "PPG Paints Arena",
-          "eventId": "tm-greta-van-fleet-2027-pittsburgh-1avbz_kgkmosrsz",
-          "localDate": "2027-02-20",
-          "price": 68,
-          "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Fort Worth",
@@ -706,7 +706,7 @@
           "localDate": "2027-03-15",
           "price": 69,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Portland",
@@ -716,7 +716,7 @@
           "localDate": "2027-03-25",
           "price": 69,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Boston",
@@ -726,7 +726,7 @@
           "localDate": "2027-03-05",
           "price": 70,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Kansas City",
@@ -736,7 +736,7 @@
           "localDate": "2027-07-13",
           "price": 70,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.290Z"
         },
         {
           "city": "Seattle",
@@ -746,7 +746,7 @@
           "localDate": "2027-03-24",
           "price": 70,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Philadelphia",
@@ -756,7 +756,7 @@
           "localDate": "2027-03-10",
           "price": 72,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Knoxville",
@@ -766,7 +766,7 @@
           "localDate": "2027-03-13",
           "price": 73,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Raleigh",
@@ -776,7 +776,7 @@
           "localDate": "2027-07-20",
           "price": 73,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.290Z"
         },
         {
           "city": "Anaheim",
@@ -786,7 +786,7 @@
           "localDate": "2027-03-19",
           "price": 74,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Charlotte",
@@ -796,7 +796,7 @@
           "localDate": "2027-03-12",
           "price": 74,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Omaha",
@@ -806,7 +806,7 @@
           "localDate": "2027-02-13",
           "price": 75,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Tampa",
@@ -816,7 +816,7 @@
           "localDate": "2027-02-05",
           "price": 75,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Hershey",
@@ -826,7 +826,7 @@
           "localDate": "2027-07-23",
           "price": 79,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.290Z"
         },
         {
           "city": "Atlanta",
@@ -836,7 +836,7 @@
           "localDate": "2027-02-09",
           "price": 81,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Boise",
@@ -846,7 +846,7 @@
           "localDate": "2027-03-27",
           "price": 84,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Denver",
@@ -856,7 +856,7 @@
           "localDate": "2027-03-30",
           "price": 86,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Savannah",
@@ -866,7 +866,7 @@
           "localDate": "2027-02-03",
           "price": 93,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Reno",
@@ -876,7 +876,7 @@
           "localDate": "2027-03-22",
           "price": 109,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.289Z"
         },
         {
           "city": "Uncasville",
@@ -886,7 +886,7 @@
           "localDate": "2027-07-24",
           "price": 117,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:40.485Z"
+          "capturedAt": "2026-10-18T06:39:21.290Z"
         }
       ]
     },
@@ -908,7 +908,7 @@
         "localDate": "2027-02-12",
         "price": 37,
         "currency": "USD",
-        "capturedAt": "2026-10-17T23:31:39.467Z"
+        "capturedAt": "2026-10-18T06:39:19.306Z"
       },
       "high": {
         "city": "Melbourne",
@@ -918,7 +918,7 @@
         "localDate": "2027-01-25",
         "price": 348,
         "currency": "USD",
-        "capturedAt": "2026-10-17T23:31:39.468Z"
+        "capturedAt": "2026-10-18T06:39:19.306Z"
       },
       "ratio": 9.4,
       "cities": [
@@ -930,7 +930,7 @@
           "localDate": "2027-02-12",
           "price": 37,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.467Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Denver",
@@ -940,7 +940,7 @@
           "localDate": "2027-02-10",
           "price": 51,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.467Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Nashville",
@@ -948,9 +948,9 @@
           "venue": "Brown County Music Center",
           "eventId": "tm-daughtry-2026-nashville-vvg1fz_gmyo5fy",
           "localDate": "2026-10-29",
-          "price": 58,
+          "price": 56,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.467Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Des Moines",
@@ -960,7 +960,7 @@
           "localDate": "2026-11-01",
           "price": 63,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.467Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Corpus Christi",
@@ -970,7 +970,7 @@
           "localDate": "2027-02-02",
           "price": 68,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.467Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Danville",
@@ -980,7 +980,7 @@
           "localDate": "2026-10-23",
           "price": 68,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.467Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Las Vegas",
@@ -990,7 +990,7 @@
           "localDate": "2026-11-07",
           "price": 69,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.467Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Kansas City",
@@ -1000,7 +1000,7 @@
           "localDate": "2026-11-03",
           "price": 72,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.467Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Duluth",
@@ -1010,7 +1010,7 @@
           "localDate": "2027-02-16",
           "price": 74,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.467Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Houston",
@@ -1020,7 +1020,7 @@
           "localDate": "2027-01-31",
           "price": 80,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.467Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Clearwater",
@@ -1030,7 +1030,7 @@
           "localDate": "2027-01-28",
           "price": 82,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.468Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Hershey",
@@ -1040,7 +1040,7 @@
           "localDate": "2027-02-26",
           "price": 82,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.468Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Anaheim",
@@ -1050,7 +1050,7 @@
           "localDate": "2026-11-10",
           "price": 83,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.467Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Dallas",
@@ -1060,7 +1060,7 @@
           "localDate": "2026-11-14",
           "price": 83,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.467Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Gary",
@@ -1070,7 +1070,7 @@
           "localDate": "2027-02-21",
           "price": 83,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.468Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Orlando",
@@ -1080,7 +1080,7 @@
           "localDate": "2027-01-27",
           "price": 84,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.467Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Detroit",
@@ -1090,7 +1090,7 @@
           "localDate": "2027-02-23",
           "price": 86,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.468Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Austin",
@@ -1100,7 +1100,7 @@
           "localDate": "2027-02-03",
           "price": 87,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.468Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Bethlehem",
@@ -1110,7 +1110,7 @@
           "localDate": "2027-02-27",
           "price": 87,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.468Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Englewood",
@@ -1118,9 +1118,9 @@
           "venue": "Bergen Performing Arts Center",
           "eventId": "tm-daughtry-2026-englewood-k7vgf_uejshyg",
           "localDate": "2026-10-21",
-          "price": 87,
+          "price": 89,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.467Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Charleston",
@@ -1130,7 +1130,7 @@
           "localDate": "2027-03-05",
           "price": 91,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.468Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Sacramento",
@@ -1138,9 +1138,9 @@
           "venue": "Channel 24",
           "eventId": "tm-daughtry-2027-sacramento-g5vyz_k60xnfe",
           "localDate": "2027-02-08",
-          "price": 93,
+          "price": 91,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.467Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Rockford",
@@ -1150,7 +1150,7 @@
           "localDate": "2027-02-20",
           "price": 95,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.468Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Napa",
@@ -1160,7 +1160,7 @@
           "localDate": "2026-11-08",
           "price": 96,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.467Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Charlottesville",
@@ -1170,7 +1170,7 @@
           "localDate": "2027-03-03",
           "price": 110,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.468Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Greensburg",
@@ -1180,7 +1180,7 @@
           "localDate": "2026-10-26",
           "price": 111,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.467Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Florence",
@@ -1188,9 +1188,9 @@
           "venue": "Turfway Park",
           "eventId": "tm-daughtry-2026-florence-17aov0g6gj3vrxt",
           "localDate": "2026-10-24",
-          "price": 116,
+          "price": 114,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.467Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Tucson",
@@ -1200,7 +1200,7 @@
           "localDate": "2026-11-11",
           "price": 119,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.467Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Pine Bluff",
@@ -1210,7 +1210,7 @@
           "localDate": "2027-01-23",
           "price": 123,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.467Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Biloxi",
@@ -1220,7 +1220,7 @@
           "localDate": "2027-01-30",
           "price": 133,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.467Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Huntington",
@@ -1228,9 +1228,9 @@
           "venue": "The Paramount in concert with Northwell",
           "eventId": "tm-daughtry-2026-huntington-k7vgf_geicgms",
           "localDate": "2026-10-20",
-          "price": 198,
+          "price": 195,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.467Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Ventura",
@@ -1240,7 +1240,7 @@
           "localDate": "2027-02-06",
           "price": 255,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.468Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Eau Claire",
@@ -1250,7 +1250,7 @@
           "localDate": "2027-02-18",
           "price": 303,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.468Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         },
         {
           "city": "Melbourne",
@@ -1260,7 +1260,7 @@
           "localDate": "2027-01-25",
           "price": 348,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:39.468Z"
+          "capturedAt": "2026-10-18T06:39:19.306Z"
         }
       ]
     },
@@ -1282,7 +1282,7 @@
         "localDate": "2026-10-31",
         "price": 47,
         "currency": "USD",
-        "capturedAt": "2026-10-17T23:31:38.939Z"
+        "capturedAt": "2026-10-18T06:39:18.131Z"
       },
       "high": {
         "city": "Uncasville",
@@ -1292,7 +1292,7 @@
         "localDate": "2027-03-18",
         "price": 141,
         "currency": "USD",
-        "capturedAt": "2026-10-17T23:31:38.939Z"
+        "capturedAt": "2026-10-18T06:39:18.131Z"
       },
       "ratio": 3,
       "cities": [
@@ -1304,7 +1304,7 @@
           "localDate": "2026-10-31",
           "price": 47,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Knoxville",
@@ -1314,7 +1314,7 @@
           "localDate": "2026-10-28",
           "price": 49,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Bossier City",
@@ -1324,7 +1324,7 @@
           "localDate": "2026-11-06",
           "price": 50,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Greenville",
@@ -1332,9 +1332,9 @@
           "venue": "Bon Secours Wellness Arena",
           "eventId": "tm-the-red-clay-strays-2026-greenville-g5evz_a5lvwt0",
           "localDate": "2026-10-18",
-          "price": 55,
+          "price": 54,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.130Z"
         },
         {
           "city": "Canandaigua",
@@ -1344,7 +1344,7 @@
           "localDate": "2027-07-29",
           "price": 58,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Nashville",
@@ -1354,7 +1354,7 @@
           "localDate": "2026-10-22",
           "price": 58,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.130Z"
         },
         {
           "city": "Las Vegas",
@@ -1364,7 +1364,7 @@
           "localDate": "2026-12-05",
           "price": 61,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Rogers",
@@ -1374,7 +1374,7 @@
           "localDate": "2027-09-09",
           "price": 71,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Clarkston",
@@ -1384,7 +1384,7 @@
           "localDate": "2027-07-31",
           "price": 76,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Indianapolis",
@@ -1394,7 +1394,7 @@
           "localDate": "2027-02-05",
           "price": 76,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Rosemont",
@@ -1404,7 +1404,7 @@
           "localDate": "2027-01-28",
           "price": 76,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Baton Rouge",
@@ -1414,7 +1414,7 @@
           "localDate": "2026-11-05",
           "price": 77,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Allentown",
@@ -1424,7 +1424,7 @@
           "localDate": "2027-03-19",
           "price": 78,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Columbia",
@@ -1434,7 +1434,7 @@
           "localDate": "2027-01-23",
           "price": 78,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Boise",
@@ -1444,7 +1444,7 @@
           "localDate": "2027-08-22",
           "price": 79,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Austin",
@@ -1454,7 +1454,7 @@
           "localDate": "2027-09-19",
           "price": 80,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Jonesboro",
@@ -1464,7 +1464,7 @@
           "localDate": "2026-11-08",
           "price": 81,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Omaha",
@@ -1474,7 +1474,7 @@
           "localDate": "2027-01-31",
           "price": 81,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Bangor",
@@ -1484,7 +1484,7 @@
           "localDate": "2027-07-23",
           "price": 82,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Raleigh",
@@ -1494,7 +1494,7 @@
           "localDate": "2027-01-22",
           "price": 82,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Atlanta",
@@ -1504,7 +1504,7 @@
           "localDate": "2026-11-13",
           "price": 86,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Berkeley",
@@ -1514,7 +1514,7 @@
           "localDate": "2027-08-12",
           "price": 86,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Charleston",
@@ -1524,7 +1524,7 @@
           "localDate": "2027-02-11",
           "price": 87,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Estero",
@@ -1534,7 +1534,7 @@
           "localDate": "2027-02-25",
           "price": 92,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Gilford",
@@ -1544,7 +1544,7 @@
           "localDate": "2027-07-24",
           "price": 99,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Mobile",
@@ -1554,7 +1554,7 @@
           "localDate": "2027-03-25",
           "price": 106,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Bend",
@@ -1564,7 +1564,7 @@
           "localDate": "2027-08-21",
           "price": 125,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         },
         {
           "city": "Uncasville",
@@ -1574,7 +1574,7 @@
           "localDate": "2027-03-18",
           "price": 141,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:38.939Z"
+          "capturedAt": "2026-10-18T06:39:18.131Z"
         }
       ]
     },
@@ -1596,7 +1596,7 @@
         "localDate": "2026-12-09",
         "price": 37.95,
         "currency": "USD",
-        "capturedAt": "2026-10-17T22:21:48.982Z"
+        "capturedAt": "2026-10-18T05:56:52.989Z"
       },
       "high": {
         "city": "Lubbock",
@@ -1606,7 +1606,7 @@
         "localDate": "2026-12-17",
         "price": 124.2,
         "currency": "USD",
-        "capturedAt": "2026-10-17T22:21:50.476Z"
+        "capturedAt": "2026-10-18T05:56:53.820Z"
       },
       "ratio": 3.3,
       "cities": [
@@ -1618,7 +1618,7 @@
           "localDate": "2026-12-09",
           "price": 37.95,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:48.982Z"
+          "capturedAt": "2026-10-18T05:56:52.989Z"
         },
         {
           "city": "Lincoln",
@@ -1628,7 +1628,7 @@
           "localDate": "2026-11-12",
           "price": 41.4,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:45.914Z"
+          "capturedAt": "2026-10-18T05:56:50.569Z"
         },
         {
           "city": "North Little Rock",
@@ -1638,7 +1638,7 @@
           "localDate": "2026-12-12",
           "price": 42.55,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:49.645Z"
+          "capturedAt": "2026-10-18T05:56:53.264Z"
         },
         {
           "city": "Tacoma",
@@ -1648,7 +1648,7 @@
           "localDate": "2026-11-05",
           "price": 44.85,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:43.409Z"
+          "capturedAt": "2026-10-18T05:56:49.984Z"
         },
         {
           "city": "Cleveland",
@@ -1658,7 +1658,7 @@
           "localDate": "2026-11-19",
           "price": 48.3,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:46.862Z"
+          "capturedAt": "2026-10-18T05:56:51.571Z"
         },
         {
           "city": "Louisville",
@@ -1668,7 +1668,7 @@
           "localDate": "2026-11-16",
           "price": 49.45,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:46.537Z"
+          "capturedAt": "2026-10-18T05:56:51.300Z"
         },
         {
           "city": "Casper",
@@ -1678,7 +1678,7 @@
           "localDate": "2026-11-10",
           "price": 50.6,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:45.755Z"
+          "capturedAt": "2026-10-18T05:56:50.428Z"
         },
         {
           "city": "Buffalo",
@@ -1688,7 +1688,7 @@
           "localDate": "2026-11-18",
           "price": 54.05,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:46.692Z"
+          "capturedAt": "2026-10-18T05:56:51.447Z"
         },
         {
           "city": "San Diego",
@@ -1698,7 +1698,7 @@
           "localDate": "2026-12-20",
           "price": 54.05,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:50.757Z"
+          "capturedAt": "2026-10-18T05:56:54.078Z"
         },
         {
           "city": "Bossier City",
@@ -1708,7 +1708,7 @@
           "localDate": "2026-12-13",
           "price": 55.2,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:49.900Z"
+          "capturedAt": "2026-10-18T05:56:53.380Z"
         },
         {
           "city": "Glendale",
@@ -1718,7 +1718,7 @@
           "localDate": "2026-12-19",
           "price": 58.65,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:50.621Z"
+          "capturedAt": "2026-10-18T05:56:53.933Z"
         },
         {
           "city": "Pittsburgh",
@@ -1728,7 +1728,7 @@
           "localDate": "2026-11-21",
           "price": 63.25,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:47.019Z"
+          "capturedAt": "2026-10-18T05:56:51.752Z"
         },
         {
           "city": "Grand Rapids",
@@ -1738,7 +1738,7 @@
           "localDate": "2026-11-15",
           "price": 64.4,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:46.381Z"
+          "capturedAt": "2026-10-18T05:56:50.913Z"
         },
         {
           "city": "Charlottesville",
@@ -1748,7 +1748,17 @@
           "localDate": "2026-11-28",
           "price": 66.7,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:47.220Z"
+          "capturedAt": "2026-10-18T05:56:51.891Z"
+        },
+        {
+          "city": "Inglewood",
+          "country": "United States",
+          "venue": "Kia Forum",
+          "eventId": "tm-pentatonix-2026-inglewood-vv1aazkf7gkdi1gsn",
+          "localDate": "2026-12-22",
+          "price": 69,
+          "currency": "USD",
+          "capturedAt": "2026-10-18T05:56:54.324Z"
         },
         {
           "city": "Milwaukee",
@@ -1758,7 +1768,7 @@
           "localDate": "2026-11-14",
           "price": 69,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:46.133Z"
+          "capturedAt": "2026-10-18T05:56:50.693Z"
         },
         {
           "city": "Greenville",
@@ -1768,7 +1778,7 @@
           "localDate": "2026-12-06",
           "price": 72.45,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:47.867Z"
+          "capturedAt": "2026-10-18T05:56:52.663Z"
         },
         {
           "city": "Albany",
@@ -1778,7 +1788,7 @@
           "localDate": "2026-11-29",
           "price": 74.75,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:47.363Z"
+          "capturedAt": "2026-10-18T05:56:52.035Z"
         },
         {
           "city": "Columbia",
@@ -1788,17 +1798,7 @@
           "localDate": "2026-12-05",
           "price": 74.75,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:47.665Z"
-        },
-        {
-          "city": "Inglewood",
-          "country": "United States",
-          "venue": "Kia Forum",
-          "eventId": "tm-pentatonix-2026-inglewood-vv1aazkf7gkdi1gsn",
-          "localDate": "2026-12-22",
-          "price": 74.75,
-          "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:50.976Z"
+          "capturedAt": "2026-10-18T05:56:52.526Z"
         },
         {
           "city": "Atlanta",
@@ -1808,7 +1808,7 @@
           "localDate": "2026-12-10",
           "price": 77.05,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:49.400Z"
+          "capturedAt": "2026-10-18T05:56:53.136Z"
         },
         {
           "city": "Raleigh",
@@ -1818,7 +1818,7 @@
           "localDate": "2026-12-07",
           "price": 79.35,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:48.027Z"
+          "capturedAt": "2026-10-18T05:56:52.872Z"
         },
         {
           "city": "Austin",
@@ -1828,7 +1828,7 @@
           "localDate": "2026-12-15",
           "price": 81.65,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:50.059Z"
+          "capturedAt": "2026-10-18T05:56:53.529Z"
         },
         {
           "city": "Bozeman",
@@ -1838,7 +1838,7 @@
           "localDate": "2026-11-09",
           "price": 83.95,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:44.546Z"
+          "capturedAt": "2026-10-18T05:56:50.318Z"
         },
         {
           "city": "Baltimore",
@@ -1848,7 +1848,7 @@
           "localDate": "2026-12-03",
           "price": 90.85,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:47.513Z"
+          "capturedAt": "2026-10-18T05:56:52.345Z"
         },
         {
           "city": "Fort Worth",
@@ -1858,7 +1858,7 @@
           "localDate": "2026-12-16",
           "price": 101.2,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:50.287Z"
+          "capturedAt": "2026-10-18T05:56:53.673Z"
         },
         {
           "city": "Lubbock",
@@ -1868,7 +1868,7 @@
           "localDate": "2026-12-17",
           "price": 124.2,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:50.476Z"
+          "capturedAt": "2026-10-18T05:56:53.820Z"
         }
       ]
     },
@@ -1890,7 +1890,7 @@
         "localDate": "2027-03-11",
         "price": 54.05,
         "currency": "USD",
-        "capturedAt": "2026-10-17T22:23:12.473Z"
+        "capturedAt": "2026-10-18T05:58:29.900Z"
       },
       "high": {
         "city": "Anaheim",
@@ -1900,7 +1900,7 @@
         "localDate": "2027-04-02",
         "price": 265.65,
         "currency": "USD",
-        "capturedAt": "2026-10-17T22:23:13.569Z"
+        "capturedAt": "2026-10-18T05:58:31.595Z"
       },
       "ratio": 4.9,
       "cities": [
@@ -1912,7 +1912,7 @@
           "localDate": "2027-03-11",
           "price": 54.05,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:12.473Z"
+          "capturedAt": "2026-10-18T05:58:29.900Z"
         },
         {
           "city": "Portland",
@@ -1922,7 +1922,7 @@
           "localDate": "2027-04-11",
           "price": 100.05,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:14.750Z"
+          "capturedAt": "2026-10-18T05:58:32.415Z"
         },
         {
           "city": "Nashville",
@@ -1932,7 +1932,7 @@
           "localDate": "2027-03-17",
           "price": 110.4,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:13.013Z"
+          "capturedAt": "2026-10-18T05:58:30.586Z"
         },
         {
           "city": "Philadelphia",
@@ -1942,7 +1942,7 @@
           "localDate": "2027-02-23",
           "price": 112.7,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:11.507Z"
+          "capturedAt": "2026-10-18T05:58:28.547Z"
         },
         {
           "city": "Cincinnati",
@@ -1952,7 +1952,7 @@
           "localDate": "2027-03-07",
           "price": 115,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:12.142Z"
+          "capturedAt": "2026-10-18T05:58:29.565Z"
         },
         {
           "city": "Miami",
@@ -1962,7 +1962,7 @@
           "localDate": "2027-03-13",
           "price": 124.2,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:12.599Z"
+          "capturedAt": "2026-10-18T05:58:30.091Z"
         },
         {
           "city": "Tampa",
@@ -1972,7 +1972,7 @@
           "localDate": "2027-03-14",
           "price": 124.2,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:12.738Z"
+          "capturedAt": "2026-10-18T05:58:30.231Z"
         },
         {
           "city": "Hartford",
@@ -1982,7 +1982,7 @@
           "localDate": "2027-02-17",
           "price": 127.65,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:58.436Z"
+          "capturedAt": "2026-10-18T05:59:18.124Z"
         },
         {
           "city": "Oklahoma City",
@@ -1992,7 +1992,7 @@
           "localDate": "2027-03-21",
           "price": 128.8,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:58.735Z"
+          "capturedAt": "2026-10-18T05:59:18.526Z"
         },
         {
           "city": "Sacramento",
@@ -2002,7 +2002,7 @@
           "localDate": "2027-04-05",
           "price": 129.95,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:14.077Z"
+          "capturedAt": "2026-10-18T05:58:32.048Z"
         },
         {
           "city": "Detroit",
@@ -2012,17 +2012,7 @@
           "localDate": "2027-03-03",
           "price": 135.7,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:11.909Z"
-        },
-        {
-          "city": "Phoenix",
-          "country": "United States",
-          "venue": "Mortgage Matchup Center",
-          "eventId": "tm-hans-zimmer-2027-phoenix-1av0z_3gktywjdb",
-          "localDate": "2027-03-30",
-          "price": 138,
-          "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:13.421Z"
+          "capturedAt": "2026-10-18T05:58:29.261Z"
         },
         {
           "city": "Kansas City",
@@ -2032,7 +2022,17 @@
           "localDate": "2027-03-19",
           "price": 146.05,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:58.575Z"
+          "capturedAt": "2026-10-18T05:59:18.344Z"
+        },
+        {
+          "city": "Phoenix",
+          "country": "United States",
+          "venue": "Mortgage Matchup Center",
+          "eventId": "tm-hans-zimmer-2027-phoenix-1av0z_3gktywjdb",
+          "localDate": "2027-03-30",
+          "price": 148.35,
+          "currency": "USD",
+          "capturedAt": "2026-10-18T05:58:31.416Z"
         },
         {
           "city": "Boston",
@@ -2042,7 +2042,7 @@
           "localDate": "2027-02-24",
           "price": 151.8,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:11.630Z"
+          "capturedAt": "2026-10-18T05:58:28.701Z"
         },
         {
           "city": "Charlotte",
@@ -2052,7 +2052,7 @@
           "localDate": "2027-03-09",
           "price": 158.7,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:12.281Z"
+          "capturedAt": "2026-10-18T05:58:29.746Z"
         },
         {
           "city": "Atlanta",
@@ -2062,7 +2062,7 @@
           "localDate": "2027-03-16",
           "price": 161,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:12.887Z"
+          "capturedAt": "2026-10-18T05:58:30.387Z"
         },
         {
           "city": "Denver",
@@ -2072,7 +2072,7 @@
           "localDate": "2027-03-25",
           "price": 178.25,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:13.268Z"
+          "capturedAt": "2026-10-18T05:58:31.247Z"
         },
         {
           "city": "Seattle",
@@ -2082,7 +2082,7 @@
           "localDate": "2027-04-09",
           "price": 188.6,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:14.588Z"
+          "capturedAt": "2026-10-18T05:58:32.274Z"
         },
         {
           "city": "San Francisco",
@@ -2092,7 +2092,7 @@
           "localDate": "2027-04-04",
           "price": 189.75,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:13.813Z"
+          "capturedAt": "2026-10-18T05:58:31.869Z"
         },
         {
           "city": "Los Angeles",
@@ -2102,7 +2102,7 @@
           "localDate": "2027-04-01",
           "price": 201.25,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:59.187Z"
+          "capturedAt": "2026-10-18T05:59:18.848Z"
         },
         {
           "city": "Newark",
@@ -2112,7 +2112,7 @@
           "localDate": "2027-02-21",
           "price": 201.25,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:11.335Z"
+          "capturedAt": "2026-10-18T05:58:28.402Z"
         },
         {
           "city": "Fort Worth",
@@ -2122,7 +2122,7 @@
           "localDate": "2027-03-22",
           "price": 235.75,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:13.142Z"
+          "capturedAt": "2026-10-18T05:58:31.124Z"
         },
         {
           "city": "Chicago",
@@ -2132,7 +2132,7 @@
           "localDate": "2027-03-05",
           "price": 250.7,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:12.014Z"
+          "capturedAt": "2026-10-18T05:58:29.449Z"
         },
         {
           "city": "Salt Lake City",
@@ -2142,7 +2142,7 @@
           "localDate": "2027-03-27",
           "price": 250.7,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:58.981Z"
+          "capturedAt": "2026-10-18T05:59:18.703Z"
         },
         {
           "city": "Anaheim",
@@ -2152,7 +2152,7 @@
           "localDate": "2027-04-02",
           "price": 265.65,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:13.569Z"
+          "capturedAt": "2026-10-18T05:58:31.595Z"
         }
       ]
     },
@@ -2174,7 +2174,7 @@
         "localDate": "2027-02-27",
         "price": 32,
         "currency": "USD",
-        "capturedAt": "2026-10-17T23:31:11.618Z"
+        "capturedAt": "2026-10-18T06:38:26.854Z"
       },
       "high": {
         "city": "Cape Girardeau",
@@ -2184,7 +2184,7 @@
         "localDate": "2027-03-06",
         "price": 54,
         "currency": "USD",
-        "capturedAt": "2026-10-17T23:31:11.618Z"
+        "capturedAt": "2026-10-18T06:38:26.854Z"
       },
       "ratio": 1.7,
       "cities": [
@@ -2196,7 +2196,7 @@
           "localDate": "2027-02-27",
           "price": 32,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.618Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Grand Rapids",
@@ -2206,7 +2206,7 @@
           "localDate": "2027-03-07",
           "price": 32,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.618Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Jacksonville",
@@ -2214,9 +2214,9 @@
           "venue": "VyStar Veterans Memorial Arena",
           "eventId": "tm-tobymac-2027-jacksonville-1axzkf_gkdts4j7",
           "localDate": "2027-02-25",
-          "price": 33,
+          "price": 32,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.618Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Lexington",
@@ -2226,7 +2226,7 @@
           "localDate": "2027-01-29",
           "price": 33,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.618Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Columbus",
@@ -2236,7 +2236,7 @@
           "localDate": "2027-02-18",
           "price": 34,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.618Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Estero",
@@ -2246,7 +2246,7 @@
           "localDate": "2027-02-07",
           "price": 34,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.618Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Pensacola",
@@ -2256,7 +2256,7 @@
           "localDate": "2027-02-11",
           "price": 34,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.618Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Rockford",
@@ -2266,7 +2266,7 @@
           "localDate": "2027-03-19",
           "price": 34,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.618Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Toledo",
@@ -2276,7 +2276,7 @@
           "localDate": "2027-03-04",
           "price": 34,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.618Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Knoxville",
@@ -2286,7 +2286,7 @@
           "localDate": "2027-02-28",
           "price": 35,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.618Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Tampa",
@@ -2296,7 +2296,7 @@
           "localDate": "2027-02-04",
           "price": 35,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.618Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Fairfax",
@@ -2306,7 +2306,7 @@
           "localDate": "2027-02-19",
           "price": 36,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.619Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Nashville",
@@ -2316,7 +2316,7 @@
           "localDate": "2027-02-26",
           "price": 37,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.618Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Orlando",
@@ -2326,7 +2326,7 @@
           "localDate": "2027-02-06",
           "price": 37,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.618Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Sunrise",
@@ -2336,7 +2336,7 @@
           "localDate": "2027-02-05",
           "price": 37,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.618Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Lubbock",
@@ -2346,7 +2346,7 @@
           "localDate": "2027-03-13",
           "price": 38,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.618Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Fayetteville",
@@ -2356,7 +2356,7 @@
           "localDate": "2027-01-28",
           "price": 39,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.618Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Grand Prairie",
@@ -2366,7 +2366,7 @@
           "localDate": "2027-02-13",
           "price": 39,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.618Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Huntsville",
@@ -2376,7 +2376,7 @@
           "localDate": "2027-01-30",
           "price": 39,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.618Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Fishers",
@@ -2386,7 +2386,7 @@
           "localDate": "2027-03-05",
           "price": 40,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.618Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Tulsa",
@@ -2396,7 +2396,7 @@
           "localDate": "2027-03-21",
           "price": 40,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.619Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Fargo",
@@ -2406,7 +2406,7 @@
           "localDate": "2027-03-17",
           "price": 42,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.619Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Austin",
@@ -2416,7 +2416,7 @@
           "localDate": "2027-03-11",
           "price": 43,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.618Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "San Antonio",
@@ -2426,7 +2426,7 @@
           "localDate": "2027-03-12",
           "price": 43,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.619Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         },
         {
           "city": "Cape Girardeau",
@@ -2436,7 +2436,7 @@
           "localDate": "2027-03-06",
           "price": 54,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:11.618Z"
+          "capturedAt": "2026-10-18T06:38:26.854Z"
         }
       ]
     },
@@ -2458,7 +2458,7 @@
         "localDate": "2027-05-20",
         "price": 63,
         "currency": "USD",
-        "capturedAt": "2026-10-17T23:31:41.110Z"
+        "capturedAt": "2026-10-18T06:39:22.285Z"
       },
       "high": {
         "city": "Brandon",
@@ -2468,7 +2468,7 @@
         "localDate": "2027-06-03",
         "price": 123,
         "currency": "USD",
-        "capturedAt": "2026-10-17T23:31:41.110Z"
+        "capturedAt": "2026-10-18T06:39:22.285Z"
       },
       "ratio": 2,
       "cities": [
@@ -2480,7 +2480,7 @@
           "localDate": "2027-05-20",
           "price": 63,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.110Z"
+          "capturedAt": "2026-10-18T06:39:22.285Z"
         },
         {
           "city": "Clarkston",
@@ -2490,7 +2490,7 @@
           "localDate": "2027-06-25",
           "price": 70,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.111Z"
+          "capturedAt": "2026-10-18T06:39:22.285Z"
         },
         {
           "city": "Dallas",
@@ -2500,7 +2500,7 @@
           "localDate": "2027-05-21",
           "price": 72,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.110Z"
+          "capturedAt": "2026-10-18T06:39:22.285Z"
         },
         {
           "city": "Milwaukee",
@@ -2510,7 +2510,7 @@
           "localDate": "2027-07-31",
           "price": 72,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.111Z"
+          "capturedAt": "2026-10-18T06:39:22.285Z"
         },
         {
           "city": "Syracuse",
@@ -2520,7 +2520,7 @@
           "localDate": "2027-07-15",
           "price": 74,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.111Z"
+          "capturedAt": "2026-10-18T06:39:22.285Z"
         },
         {
           "city": "Bethel",
@@ -2530,7 +2530,7 @@
           "localDate": "2027-07-23",
           "price": 78,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.111Z"
+          "capturedAt": "2026-10-18T06:39:22.285Z"
         },
         {
           "city": "Mansfield",
@@ -2540,7 +2540,7 @@
           "localDate": "2027-07-24",
           "price": 78,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.111Z"
+          "capturedAt": "2026-10-18T06:39:22.285Z"
         },
         {
           "city": "Wichita",
@@ -2550,7 +2550,7 @@
           "localDate": "2027-05-07",
           "price": 81,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.110Z"
+          "capturedAt": "2026-10-18T06:39:22.285Z"
         },
         {
           "city": "Seattle",
@@ -2560,7 +2560,7 @@
           "localDate": "2027-04-02",
           "price": 82,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.110Z"
+          "capturedAt": "2026-10-18T06:39:22.285Z"
         },
         {
           "city": "Columbia",
@@ -2568,9 +2568,9 @@
           "venue": "Merriweather Post Pavilion",
           "eventId": "tm-riley-green-2027-columbia-1a4zkfwgkdajcik",
           "localDate": "2027-07-22",
-          "price": 83,
+          "price": 85,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.111Z"
+          "capturedAt": "2026-10-18T06:39:22.285Z"
         },
         {
           "city": "Raleigh",
@@ -2580,7 +2580,7 @@
           "localDate": "2027-04-29",
           "price": 85,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.110Z"
+          "capturedAt": "2026-10-18T06:39:22.285Z"
         },
         {
           "city": "Knoxville",
@@ -2590,7 +2590,17 @@
           "localDate": "2027-04-30",
           "price": 86,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.110Z"
+          "capturedAt": "2026-10-18T06:39:22.285Z"
+        },
+        {
+          "city": "Spokane",
+          "country": "United States",
+          "venue": "Numerica Veterans Arena",
+          "eventId": "tm-riley-green-2027-spokane-z7r9jz1aaezrp",
+          "localDate": "2027-04-01",
+          "price": 86,
+          "currency": "USD",
+          "capturedAt": "2026-10-18T06:39:22.285Z"
         },
         {
           "city": "Evansville",
@@ -2600,7 +2610,7 @@
           "localDate": "2027-07-29",
           "price": 87,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.111Z"
+          "capturedAt": "2026-10-18T06:39:22.285Z"
         },
         {
           "city": "Gilford",
@@ -2610,17 +2620,7 @@
           "localDate": "2027-06-18",
           "price": 89,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.111Z"
-        },
-        {
-          "city": "Spokane",
-          "country": "United States",
-          "venue": "Numerica Veterans Arena",
-          "eventId": "tm-riley-green-2027-spokane-z7r9jz1aaezrp",
-          "localDate": "2027-04-01",
-          "price": 90,
-          "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.110Z"
+          "capturedAt": "2026-10-18T06:39:22.285Z"
         },
         {
           "city": "Fort Worth",
@@ -2630,7 +2630,7 @@
           "localDate": "2027-05-06",
           "price": 95,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.110Z"
+          "capturedAt": "2026-10-18T06:39:22.285Z"
         },
         {
           "city": "Allentown",
@@ -2640,7 +2640,7 @@
           "localDate": "2027-07-16",
           "price": 96,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.111Z"
+          "capturedAt": "2026-10-18T06:39:22.285Z"
         },
         {
           "city": "Greenville",
@@ -2650,7 +2650,7 @@
           "localDate": "2027-05-01",
           "price": 100,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.110Z"
+          "capturedAt": "2026-10-18T06:39:22.285Z"
         },
         {
           "city": "Orange Beach",
@@ -2660,7 +2660,7 @@
           "localDate": "2027-06-04",
           "price": 101,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.111Z"
+          "capturedAt": "2026-10-18T06:39:22.285Z"
         },
         {
           "city": "Mount Pleasant",
@@ -2670,7 +2670,7 @@
           "localDate": "2027-06-10",
           "price": 111,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.111Z"
+          "capturedAt": "2026-10-18T06:39:22.285Z"
         },
         {
           "city": "Rogers",
@@ -2678,9 +2678,9 @@
           "venue": "Walmart AMP",
           "eventId": "tm-riley-green-2027-rogers-g5viz_k5ft6hv",
           "localDate": "2027-05-08",
-          "price": 117,
+          "price": 113,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.110Z"
+          "capturedAt": "2026-10-18T06:39:22.285Z"
         },
         {
           "city": "Eugene",
@@ -2690,7 +2690,7 @@
           "localDate": "2027-04-03",
           "price": 120,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.110Z"
+          "capturedAt": "2026-10-18T06:39:22.285Z"
         },
         {
           "city": "Brandon",
@@ -2700,7 +2700,7 @@
           "localDate": "2027-06-03",
           "price": 123,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:41.110Z"
+          "capturedAt": "2026-10-18T06:39:22.285Z"
         }
       ]
     },
@@ -2722,7 +2722,7 @@
         "localDate": "2026-11-06",
         "price": 35.65,
         "currency": "USD",
-        "capturedAt": "2026-10-17T22:21:57.928Z"
+        "capturedAt": "2026-10-18T05:57:02.865Z"
       },
       "high": {
         "city": "Tulsa",
@@ -2732,7 +2732,7 @@
         "localDate": "2026-12-15",
         "price": 105.8,
         "currency": "USD",
-        "capturedAt": "2026-10-17T22:22:02.367Z"
+        "capturedAt": "2026-10-18T05:57:06.683Z"
       },
       "ratio": 3,
       "cities": [
@@ -2744,7 +2744,7 @@
           "localDate": "2026-11-06",
           "price": 35.65,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:57.928Z"
+          "capturedAt": "2026-10-18T05:57:02.865Z"
         },
         {
           "city": "Houston",
@@ -2754,7 +2754,7 @@
           "localDate": "2026-11-28",
           "price": 37.95,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:22:01.068Z"
+          "capturedAt": "2026-10-18T05:57:04.674Z"
         },
         {
           "city": "Denver",
@@ -2762,9 +2762,9 @@
           "venue": "Mission Ballroom",
           "eventId": "tm-trivium-2026-denver-z7r9jz1aazdby",
           "localDate": "2026-12-13",
-          "price": 47.15,
+          "price": 42.55,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:22:02.235Z"
+          "capturedAt": "2026-10-18T05:57:06.518Z"
         },
         {
           "city": "Inglewood",
@@ -2774,7 +2774,7 @@
           "localDate": "2026-12-04",
           "price": 48.3,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:22:01.536Z"
+          "capturedAt": "2026-10-18T05:57:05.118Z"
         },
         {
           "city": "Chicago",
@@ -2784,7 +2784,7 @@
           "localDate": "2026-11-21",
           "price": 54.05,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:22:00.813Z"
+          "capturedAt": "2026-10-18T05:57:04.375Z"
         },
         {
           "city": "Madison",
@@ -2794,7 +2794,7 @@
           "localDate": "2026-11-22",
           "price": 54.05,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:22:00.940Z"
+          "capturedAt": "2026-10-18T05:57:04.529Z"
         },
         {
           "city": "Dallas",
@@ -2804,7 +2804,7 @@
           "localDate": "2026-11-29",
           "price": 55.2,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:22:01.191Z"
+          "capturedAt": "2026-10-18T05:57:04.816Z"
         },
         {
           "city": "Charlotte",
@@ -2814,7 +2814,7 @@
           "localDate": "2026-12-19",
           "price": 62.1,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:22:02.988Z"
+          "capturedAt": "2026-10-18T05:57:07.349Z"
         },
         {
           "city": "Omaha",
@@ -2824,7 +2824,7 @@
           "localDate": "2026-12-16",
           "price": 67.85,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:22:02.693Z"
+          "capturedAt": "2026-10-18T05:57:06.896Z"
         },
         {
           "city": "Royal Oak",
@@ -2834,7 +2834,7 @@
           "localDate": "2026-11-20",
           "price": 69,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:22:00.683Z"
+          "capturedAt": "2026-10-18T05:57:04.173Z"
         },
         {
           "city": "San Antonio",
@@ -2844,7 +2844,7 @@
           "localDate": "2026-11-27",
           "price": 69,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:55.706Z"
+          "capturedAt": "2026-10-18T05:59:14.202Z"
         },
         {
           "city": "Phoenix",
@@ -2854,7 +2854,7 @@
           "localDate": "2026-12-02",
           "price": 70.15,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:22:01.301Z"
+          "capturedAt": "2026-10-18T05:57:04.979Z"
         },
         {
           "city": "Silver Spring",
@@ -2864,7 +2864,7 @@
           "localDate": "2026-11-10",
           "price": 70.15,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:58.218Z"
+          "capturedAt": "2026-10-18T05:57:03.235Z"
         },
         {
           "city": "Las Vegas",
@@ -2874,7 +2874,7 @@
           "localDate": "2026-12-03",
           "price": 71.3,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:23:55.941Z"
+          "capturedAt": "2026-10-18T05:59:14.974Z"
         },
         {
           "city": "New York",
@@ -2884,7 +2884,7 @@
           "localDate": "2026-11-12",
           "price": 71.3,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:58.494Z"
+          "capturedAt": "2026-10-18T05:57:03.568Z"
         },
         {
           "city": "Pittsburgh",
@@ -2894,7 +2894,7 @@
           "localDate": "2026-12-18",
           "price": 85.1,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:22:02.825Z"
+          "capturedAt": "2026-10-18T05:57:07.093Z"
         },
         {
           "city": "Philadelphia",
@@ -2904,7 +2904,17 @@
           "localDate": "2026-11-14",
           "price": 90.85,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:59.048Z"
+          "capturedAt": "2026-10-18T05:57:03.777Z"
+        },
+        {
+          "city": "Grand Rapids",
+          "country": "United States",
+          "venue": "GLC Live at 20 Monroe",
+          "eventId": "tm-trivium-2026-grand-rapids-vvg1oz_cnishwh",
+          "localDate": "2026-11-08",
+          "price": 93.15,
+          "currency": "USD",
+          "capturedAt": "2026-10-18T05:57:03.005Z"
         },
         {
           "city": "San Francisco",
@@ -2914,7 +2924,7 @@
           "localDate": "2026-12-05",
           "price": 93.15,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:22:01.735Z"
+          "capturedAt": "2026-10-18T05:57:05.491Z"
         },
         {
           "city": "Seattle",
@@ -2924,17 +2934,7 @@
           "localDate": "2026-12-09",
           "price": 93.15,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:22:02.105Z"
-        },
-        {
-          "city": "Grand Rapids",
-          "country": "United States",
-          "venue": "GLC Live at 20 Monroe",
-          "eventId": "tm-trivium-2026-grand-rapids-vvg1oz_cnishwh",
-          "localDate": "2026-11-08",
-          "price": 94.3,
-          "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:58.054Z"
+          "capturedAt": "2026-10-18T05:57:06.294Z"
         },
         {
           "city": "St Petersburg",
@@ -2944,7 +2944,7 @@
           "localDate": "2026-11-05",
           "price": 95.45,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:57.784Z"
+          "capturedAt": "2026-10-18T05:57:02.649Z"
         },
         {
           "city": "New Haven",
@@ -2954,7 +2954,7 @@
           "localDate": "2026-11-11",
           "price": 103.5,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:21:58.347Z"
+          "capturedAt": "2026-10-18T05:57:03.421Z"
         },
         {
           "city": "Tulsa",
@@ -2964,7 +2964,7 @@
           "localDate": "2026-12-15",
           "price": 105.8,
           "currency": "USD",
-          "capturedAt": "2026-10-17T22:22:02.367Z"
+          "capturedAt": "2026-10-18T05:57:06.683Z"
         }
       ]
     },
@@ -2986,7 +2986,7 @@
         "localDate": "2027-07-13",
         "price": 46,
         "currency": "USD",
-        "capturedAt": "2026-10-17T23:31:28.119Z"
+        "capturedAt": "2026-10-18T06:38:54.234Z"
       },
       "high": {
         "city": "Kansas City",
@@ -2996,7 +2996,7 @@
         "localDate": "2027-05-17",
         "price": 288,
         "currency": "USD",
-        "capturedAt": "2026-10-17T23:31:28.119Z"
+        "capturedAt": "2026-10-18T06:38:54.234Z"
       },
       "ratio": 6.3,
       "cities": [
@@ -3008,7 +3008,7 @@
           "localDate": "2027-07-13",
           "price": 46,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:28.119Z"
+          "capturedAt": "2026-10-18T06:38:54.234Z"
         },
         {
           "city": "Austin",
@@ -3018,7 +3018,7 @@
           "localDate": "2027-07-02",
           "price": 61,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:28.119Z"
+          "capturedAt": "2026-10-18T06:38:54.234Z"
         },
         {
           "city": "Nashville",
@@ -3026,9 +3026,9 @@
           "venue": "Bridgestone Arena",
           "eventId": "tm-lizzy-mcalpine-2027-nashville-g5viz_kqsm0og",
           "localDate": "2027-06-16",
-          "price": 64,
+          "price": 62,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:28.119Z"
+          "capturedAt": "2026-10-18T06:38:54.234Z"
         },
         {
           "city": "San Diego",
@@ -3038,7 +3038,17 @@
           "localDate": "2027-07-09",
           "price": 64,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:28.119Z"
+          "capturedAt": "2026-10-18T06:38:54.234Z"
+        },
+        {
+          "city": "Seattle",
+          "country": "United States",
+          "venue": "Climate Pledge Arena",
+          "eventId": "tm-lizzy-mcalpine-2027-seattle-vvg1hz_kf6i_hn",
+          "localDate": "2027-07-17",
+          "price": 64,
+          "currency": "USD",
+          "capturedAt": "2026-10-18T06:38:54.234Z"
         },
         {
           "city": "Inglewood",
@@ -3048,17 +3058,7 @@
           "localDate": "2027-07-10",
           "price": 65,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:28.119Z"
-        },
-        {
-          "city": "Seattle",
-          "country": "United States",
-          "venue": "Climate Pledge Arena",
-          "eventId": "tm-lizzy-mcalpine-2027-seattle-vvg1hz_kf6i_hn",
-          "localDate": "2027-07-17",
-          "price": 65,
-          "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:28.119Z"
+          "capturedAt": "2026-10-18T06:38:54.234Z"
         },
         {
           "city": "Portland",
@@ -3066,9 +3066,9 @@
           "venue": "Moda Center",
           "eventId": "tm-lizzy-mcalpine-2027-portland-vvg1hz_kpe4n79",
           "localDate": "2027-07-15",
-          "price": 69,
+          "price": 68,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:28.119Z"
+          "capturedAt": "2026-10-18T06:38:54.234Z"
         },
         {
           "city": "Chicago",
@@ -3078,7 +3078,7 @@
           "localDate": "2027-06-29",
           "price": 73,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:28.119Z"
+          "capturedAt": "2026-10-18T06:38:54.234Z"
         },
         {
           "city": "Columbia",
@@ -3088,17 +3088,7 @@
           "localDate": "2027-06-25",
           "price": 74,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:28.119Z"
-        },
-        {
-          "city": "Philadelphia",
-          "country": "United States",
-          "venue": "Xfinity Mobile Arena",
-          "eventId": "tm-lizzy-mcalpine-2027-philadelphia-1ayzkfsgkdubyxp",
-          "localDate": "2027-06-18",
-          "price": 76,
-          "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:28.119Z"
+          "capturedAt": "2026-10-18T06:38:54.234Z"
         },
         {
           "city": "Houston",
@@ -3108,7 +3098,17 @@
           "localDate": "2027-05-01",
           "price": 77,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:28.119Z"
+          "capturedAt": "2026-10-18T06:38:54.234Z"
+        },
+        {
+          "city": "Philadelphia",
+          "country": "United States",
+          "venue": "Xfinity Mobile Arena",
+          "eventId": "tm-lizzy-mcalpine-2027-philadelphia-1ayzkfsgkdubyxp",
+          "localDate": "2027-06-18",
+          "price": 82,
+          "currency": "USD",
+          "capturedAt": "2026-10-18T06:38:54.234Z"
         },
         {
           "city": "Morrison",
@@ -3118,7 +3118,7 @@
           "localDate": "2027-07-06",
           "price": 111,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:28.119Z"
+          "capturedAt": "2026-10-18T06:38:54.234Z"
         },
         {
           "city": "New York",
@@ -3128,7 +3128,7 @@
           "localDate": "2027-06-24",
           "price": 133,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:28.119Z"
+          "capturedAt": "2026-10-18T06:38:54.234Z"
         },
         {
           "city": "Dallas",
@@ -3136,9 +3136,9 @@
           "venue": "The Bomb Factory",
           "eventId": "tm-lizzy-mcalpine-2027-dallas-z7r9jz1aaekq3",
           "localDate": "2027-04-30",
-          "price": 160,
+          "price": 158,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:28.119Z"
+          "capturedAt": "2026-10-18T06:38:54.234Z"
         },
         {
           "city": "Milwaukee",
@@ -3146,9 +3146,9 @@
           "venue": "Riverside Theater - WI",
           "eventId": "tm-lizzy-mcalpine-2027-milwaukee-z7r9jz1aaea0_",
           "localDate": "2027-05-10",
-          "price": 172,
+          "price": 170,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:28.119Z"
+          "capturedAt": "2026-10-18T06:38:54.234Z"
         },
         {
           "city": "Indianapolis",
@@ -3158,7 +3158,7 @@
           "localDate": "2027-05-09",
           "price": 174,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:28.119Z"
+          "capturedAt": "2026-10-18T06:38:54.234Z"
         },
         {
           "city": "Detroit",
@@ -3168,7 +3168,7 @@
           "localDate": "2027-05-07",
           "price": 175,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:28.119Z"
+          "capturedAt": "2026-10-18T06:38:54.234Z"
         },
         {
           "city": "Boston",
@@ -3178,7 +3178,7 @@
           "localDate": "2027-06-20",
           "price": 180,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:28.119Z"
+          "capturedAt": "2026-10-18T06:38:54.234Z"
         },
         {
           "city": "Minneapolis",
@@ -3186,9 +3186,9 @@
           "venue": "State Theatre",
           "eventId": "tm-lizzy-mcalpine-2027-minneapolis-vv1akzkfsgkdlvc7g",
           "localDate": "2027-05-12",
-          "price": 233,
+          "price": 228,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:28.119Z"
+          "capturedAt": "2026-10-18T06:38:54.234Z"
         },
         {
           "city": "Atlanta",
@@ -3196,9 +3196,9 @@
           "venue": "Fox Theatre - Atlanta",
           "eventId": "tm-lizzy-mcalpine-2027-atlanta-z7r9jz1aaea-b",
           "localDate": "2027-05-03",
-          "price": 241,
+          "price": 235,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:28.119Z"
+          "capturedAt": "2026-10-18T06:38:54.234Z"
         },
         {
           "city": "Columbus",
@@ -3208,7 +3208,7 @@
           "localDate": "2027-05-06",
           "price": 271,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:28.119Z"
+          "capturedAt": "2026-10-18T06:38:54.234Z"
         },
         {
           "city": "Kansas City",
@@ -3218,7 +3218,7 @@
           "localDate": "2027-05-17",
           "price": 288,
           "currency": "USD",
-          "capturedAt": "2026-10-17T23:31:28.119Z"
+          "capturedAt": "2026-10-18T06:38:54.234Z"
         }
       ]
     }

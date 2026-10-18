@@ -465,6 +465,7 @@ export const OG_CARDS = {
   "/blog/oasis-live-27-code-only-ticket-sale": {"url":"/og/blog-oasis-live-27-code-only-ticket-sale.png","alt":"Blog: Oasis Live '27: what a code-only ticket sale changes"},
   "/blog/oasis-live-27-ticket-prices": {"url":"/og/blog-oasis-live-27-ticket-prices.png","alt":"Blog: Oasis Live '27 ticket prices: how to read what you see"},
   "/blog/olivia-rodrigo-unraveled-tour-ticket-types": {"url":"/og/blog-olivia-rodrigo-unraveled-tour-ticket-types.png","alt":"Blog: Three kinds of Olivia Rodrigo ticket, and what each one means"},
+  "/blog/same-tour-different-city-ticket-prices": {"url":"/og/blog-same-tour-different-city-ticket-prices.png","alt":"Blog: Same tour, different city: how listed ticket prices vary"},
   "/blog/trans-siberian-orchestra-2026-matinee-or-evening": {"url":"/og/blog-trans-siberian-orchestra-2026-matinee-or-evening.png","alt":"Blog: Trans-Siberian Orchestra 2026: matinee or evening tickets?"},
   "/blog/what-a-price-snapshot-actually-is": {"url":"/og/blog-what-a-price-snapshot-actually-is.png","alt":"Blog: What a price on this site actually means"},
   "/blog/where-the-big-concert-tours-are-playing-in-2027": {"url":"/og/blog-where-the-big-concert-tours-are-playing-in-2027.png","alt":"Blog: Where the big concert tours are playing in 2027"},

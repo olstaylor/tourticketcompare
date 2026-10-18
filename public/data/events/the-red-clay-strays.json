@@ -413,7 +413,7 @@
     "ticketmaster_event_id": "2D006494D38D6295",
     "ticketmaster_url": "https://www.ticketmaster.com/the-red-clay-strays-charleston-south-carolina-10-17-2026/event/2D006494D38D6295",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-charleston-credit-one-stadium-10-17-2026--concerts-country-and-folk/production/6948979",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-charleston-south-carolina-10-17-2026/event/2D006494D38D6295",
     "last_verified_at": "2026-10-15",
@@ -435,11 +435,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 6948979,
-        "url": "https://www.vividseats.com/the-red-clay-strays-tickets-charleston-credit-one-stadium-10-17-2026--concerts-country-and-folk/production/6948979",
-        "verified": true,
-        "last_verified_at": "2026-10-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -510,7 +510,7 @@
         "event_id": 6948981,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-greenville-bon-secours-wellness-arena-10-18-2026--concerts-country-and-folk/production/6948981",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -582,7 +582,7 @@
         "event_id": 6307700,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-nashville-bridgestone-arena-10-22-2026--concerts-country-and-folk/production/6307700",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -662,7 +662,7 @@
         "event_id": 6367207,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-nashville-bridgestone-arena-10-23-2026--concerts-country-and-folk/production/6367207",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -742,7 +742,7 @@
         "event_id": 6948983,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-knoxville-thompson-boling-arena-at-food-city-center-10-28-2026--concerts-country-and-folk/production/6948983",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -821,7 +821,7 @@
         "event_id": 6948985,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-birmingham-legacy-arena-at-the-bjcc-10-31-2026--concerts-country-and-folk/production/6948985",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -900,7 +900,7 @@
         "event_id": 6949102,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-baton-rouge-raising-canes-river-center-arena-11-5-2026--concerts-country-and-folk/production/6949102",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -961,7 +961,7 @@
         "event_id": 6949104,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-bossier-city-brookshire-grocery-arena-11-6-2026--concerts-country-and-folk/production/6949104",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1030,7 +1030,7 @@
         "event_id": 6948987,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-jonesboro-first-national-bank-arena-11-8-2026--concerts-country-and-folk/production/6948987",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1109,7 +1109,7 @@
         "event_id": 6688909,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-atlanta-state-farm-arena-11-13-2026--concerts-country-and-folk/production/6688909",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1196,7 +1196,7 @@
         "event_id": 7037866,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-las-vegas-mgm-grand-garden-arena-12-5-2026--concerts-country-and-folk/production/7037866",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1273,7 +1273,7 @@
         "event_id": 7637000,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-raleigh-lenovo-center-1-22-2027--concerts-country-and-folk/production/7637000",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1357,7 +1357,7 @@
         "event_id": 7637002,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-columbia-colonial-life-arena-1-23-2027--concerts-country-and-folk/production/7637002",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1441,7 +1441,7 @@
         "event_id": 7637006,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-rosemont-allstate-arena-1-28-2027--concerts-country-and-folk/production/7637006",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1598,7 +1598,7 @@
         "event_id": 7637012,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-omaha-chi-health-center-omaha-1-31-2027/production/7637012",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1682,7 +1682,7 @@
         "event_id": 7637016,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-indianapolis-gainbridge-fieldhouse-2-5-2027/production/7637016",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1766,7 +1766,7 @@
         "event_id": 7637070,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-charleston-charleston-coliseum-and-convention-center-2-11-2027/production/7637070",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1845,7 +1845,7 @@
         "event_id": 7637143,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-estero-hertz-arena-2-25-2027/production/7637143",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1929,7 +1929,7 @@
         "event_id": 7636516,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-saskatoon-sasktel-centre-3-11-2027/production/7636516",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2008,7 +2008,7 @@
         "event_id": 7637030,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-edmonton-rogers-place-3-12-2027--concerts-country-and-folk/production/7637030",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2088,7 +2088,7 @@
         "event_id": 7637056,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-winnipeg-canada-life-centre-3-14-2027--concerts-country-and-folk/production/7637056",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2167,7 +2167,7 @@
         "event_id": 7637134,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-uncasville-mohegan-sun-arena-ct-3-18-2027--concerts-country-and-folk/production/7637134",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2243,7 +2243,7 @@
         "event_id": 7637018,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-allentown-ppl-center-3-19-2027/production/7637018",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2327,7 +2327,7 @@
         "event_id": 7601933,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-mobile-regions-arena-3-25-2027/production/7601933",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2406,7 +2406,7 @@
         "event_id": 7588368,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-mobile-regions-arena-3-26-2027--concerts-country-and-folk/production/7588368",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2485,7 +2485,7 @@
         "event_id": 7592474,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-mobile-regions-arena-3-27-2027/production/7592474",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2564,7 +2564,7 @@
         "event_id": 7637060,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-bangor-maine-savings-amphitheater-7-23-2027/production/7637060",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2653,7 +2653,7 @@
         "event_id": 7637064,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-gilford-banknh-pavilion-7-24-2027/production/7637064",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2727,7 +2727,7 @@
         "event_id": 7637074,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-canandaigua-constellation-brands-performing-arts-center-7-29-2027/production/7637074",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2803,7 +2803,7 @@
         "event_id": 7637080,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-clarkston-pine-knob-music-theatre-7-31-2027/production/7637080",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2882,7 +2882,7 @@
         "event_id": 7637096,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-berkeley-greek-theatre---berkeley-8-12-2027/production/7637096",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2961,7 +2961,7 @@
         "event_id": 7637082,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-bend-hayden-homes-amphitheater-8-21-2027/production/7637082",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3040,7 +3040,7 @@
         "event_id": 7637020,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-boise-extramile-arena-8-22-2027/production/7637020",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3124,7 +3124,7 @@
         "event_id": 7637068,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-rogers-walmart-amp-9-9-2027--concerts-country-and-folk/production/7637068",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3292,7 +3292,7 @@
         "event_id": 7636978,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-austin-moody-center-atx-9-19-2027/production/7636978",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3437,7 +3437,7 @@
         "event_id": 7637420,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-los-angeles-greek-theatre---los-angeles-8-17-2027/production/7637420",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3514,7 +3514,7 @@
         "event_id": 7637024,
         "url": "https://www.vividseats.com/the-red-clay-strays-tickets-cleveland-rocket-arena-2-4-2027/production/7637024",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {

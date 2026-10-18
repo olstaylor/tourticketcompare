@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "3A00651CDD026527",
     "ticketmaster_url": "https://www.ticketmaster.com/ye-live-in-houston-houston-texas-10-31-2026/event/3A00651CDD026527",
     "seatgeek_url": "https://seatgeek.com/ye-tickets/houston-texas-reliant-stadium-2026-10-31-8-pm/concert/18551080",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/kanye-west-tickets-houston-reliant-stadium-10-31-2026/production/7507742",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ye-live-in-houston-houston-texas-10-31-2026/event/3A00651CDD026527",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7507742,
+        "url": "https://www.vividseats.com/kanye-west-tickets-houston-reliant-stadium-10-31-2026/production/7507742",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAv08U",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv08U",
     "seatgeek_url": "https://seatgeek.com/ye-tickets/glendale-arizona-state-farm-stadium-2026-11-21-8-30-pm/concert/18549330",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/kanye-west-tickets-glendale-state-farm-stadium-11-21-2026/production/7507748",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv08U",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7507748,
+        "url": "https://www.vividseats.com/kanye-west-tickets-glendale-state-farm-stadium-11-21-2026/production/7507748",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -15,7 +15,7 @@ import {
   deriveTourSummaries,
   buildArtistContentModel
 } from "../functions/_artist-content.js";
-import { PRICE_DISCLOSURE } from "../functions/_price-wording.js";
+import { PRICE_DISCLOSURE, UNSUPPORTED_CHEAPEST_CLAIM } from "../functions/_price-wording.js";
 import { readFileSync } from "node:fs";
 
 let passed = 0;
@@ -25,10 +25,10 @@ function assert(condition, message) {
 }
 
 // Copy-safety guard mirroring the smoke public-copy rules: derived content must
-// never make cheapest/lowest/ranking or invented-price claims, and must never
+// never make blanket cheapest, lowest/ranking or invented-price claims, and must never
 // manufacture demand, scarcity, or a hint that an announcement is coming.
 const BANNED = [
-  /\bcheapest\b/i,
+  UNSUPPORTED_CHEAPEST_CLAIM,
   /\bbest\s+price\b/i,
   /\blowest\s+price\b/i,
   /\bfrom\s*[£$€]\s*\d/i,

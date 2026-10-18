@@ -150,7 +150,7 @@ not to duplicate CI. Follow the proportional-validation rules in
 | `npm run test:routes` | ~20s | touched routing, route metadata or internal links |
 | `npm run test:quick` | ~60s | touched several areas, or unsure |
 | `npm run test:units` | ~20s | changed a script that has a `*:self-test` |
-| `npm run test:mvp` | variable; 20+ minutes possible | **required locally** for automation code, provider-sync code, redirect or affiliate logic changes |
+| `npm run test:mvp` | variable; 20+ minutes possible | optional locally; CI runs it on every PR and `main` requires it before merge |
 
 For verified event/provider data only, run production event validation,
 partition validation, `test:providers`, and a field/file scope guard, then rely

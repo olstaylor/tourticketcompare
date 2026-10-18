@@ -54,7 +54,7 @@ npm run test:quick       # ~60s  several areas, or unsure
 npm run test:mvp         # full suite; rendered-site audits can take 20+ minutes
 ```
 
-`npm run test:mvp` is **required locally** before committing changes to automation code, provider-sync code, redirects or affiliate logic; the auto-publish paths remain gated on it in-job on exactly the proposed content. Steps are declared once in `scripts/test-manifest.mjs`; re-run one with `npm run test:units -- --only <step-id>`. `npm run test:providers` is the only lane that runs the provider and identity validators. Report results honestly: passed, or the actual failures.
+`npm run test:mvp` runs in CI on every PR and `main` requires it before merge, so it is not required locally: run the matching fast lane above, push, and let CI run the full suite (owner decision 2026-10-17). The auto-publish paths remain gated on it in-job on exactly the proposed content. Steps are declared once in `scripts/test-manifest.mjs`; re-run one with `npm run test:units -- --only <step-id>`. `npm run test:providers` is the only lane that runs the provider and identity validators. Report results honestly: passed, or the actual failures.
 
 Keep interactive validation proportional to the change:
 

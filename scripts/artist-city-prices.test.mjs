@@ -218,7 +218,7 @@ const PRICE_ROWS = [
 const HISTORY_ROWS = [
   // RUN_A: the carry-in case. One row, 2026-07-01 — BEFORE the window opens, so
   // a naive `observed_at >= windowStart` query returns nothing for this series
-  // even though $150 was the standing observation throughout.
+  // even though USD 150 was the standing observation throughout.
   { event_id: RUN_A.id, provider: "vivid-seats", currency: "USD", low_price: 150, observed_at: "2026-07-01T09:00:00Z" },
   // RUN_B: an ordinary in-window low, cheaper than either current lane.
   { event_id: RUN_B.id, provider: "ticketnetwork", currency: "USD", low_price: 175, observed_at: "2026-07-20T09:00:00Z" },
@@ -371,18 +371,18 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(!/Sites checked/i.test(body), 'the table must not imply the render initiated a check ("Sites checked")');
 
   // Both dates keep their own figure. If a cross-event minimum ever appeared,
-  // $240 would vanish behind $182.
-  assert(body.includes("$182"), "the first date's own lowest listed price is shown");
-  assert(body.includes("$240"), "the second date's own lowest listed price is shown");
+  // USD 240 would vanish behind USD 182.
+  assert(body.includes("USD 182"), "the first date's own lowest listed price is shown");
+  assert(body.includes("USD 240"), "the second date's own lowest listed price is shown");
   assert(body.includes("Vivid Seats") && body.includes("TicketNetwork"), "each figure names the provider offering it");
   assert(/<time datetime="[^"]+" title="[^"]*UTC">Checked [^<]+<\/time>/.test(page.main), "each figure carries its capture time (relative, with the UTC time on the element)");
 
   assert(
-    !/\bfrom \$\d/i.test(body) && !/cheapest date/i.test(body) && !/lowest in [A-Z]/.test(body),
+    !/\bfrom (?:\$|USD\s+)\d/i.test(body) && !/cheapest date/i.test(body) && !/lowest in [A-Z]/.test(body),
     "no cross-event 'from <price>' or cheapest-date claim is rendered"
   );
   assert(
-    !body.includes("$145"),
+    !body.includes("USD 145"),
     "a price from a different city never reaches this page"
   );
 
@@ -410,9 +410,9 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   );
 
   // Gated-out lanes never appear, whatever the cache holds.
-  assert(!body.includes("$3.80") && !/StubHub International\s*\$/.test(body), "an implausible snapshot never reaches the table");
-  assert(!/Ticket Liquidator\s*\$/.test(body), "a price-display-disabled lane never reaches the table");
-  assert(!/SeatGeek\s*\$\d/.test(body), "SeatGeek never carries a price");
+  assert(!body.includes("USD 3.80") && !/StubHub International\s*(?:\$|USD\s+)/.test(body), "an implausible snapshot never reaches the table");
+  assert(!/Ticket Liquidator\s*(?:\$|USD\s+)/.test(body), "a price-display-disabled lane never reaches the table");
+  assert(!/SeatGeek\s*(?:\$|USD\s+)\d/.test(body), "SeatGeek never carries a price");
 
   // The panel the internal-link audit depends on keeps its required heading.
   // It is compressed, never removed: audit-internal-links.mjs fails an
@@ -465,7 +465,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     !/\d/.test(page.title.replace(/\b\d{4}(?:–\d{4})?\b/g, "")),
     `no live figure appears in the title (was "${page.title}")`
   );
-  assert(!/[$£€]\s?\d/.test(page.title), "no currency figure appears in the title");
+  assert(!/(?:[$£€]\s?|\b(?:USD|CAD|AUD|GBP|EUR)\s+)\d/.test(page.title), "no currency figure appears in the title");
   // Two sites priced the next date, so the snippet names the cheaper one.
   assert(page.description.includes("Cheapest listed of 2 sites: US$182.00 at Vivid Seats"), `the snippet answers with the next date's cheapest listed price (got ${page.description})`);
   assert(/Sep 10, 2026/.test(page.description), "the snippet identifies the venue-local show date");
@@ -513,7 +513,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     body.includes(`How much are ${ARTIST.name} tickets in ${SOLO_CITY}?`),
     "a noindex single-date page still answers the price question for the visitor standing on it"
   );
-  assert(body.includes("$145"), "the single date's own lowest listed price is shown");
+  assert(body.includes("USD 145"), "the single date's own lowest listed price is shown");
 
   // Usefulness must not move the routing decision in either direction.
   assert(page.robots === "noindex,follow", `a single-date page stays noindex,follow (was "${page.robots}")`);
@@ -549,7 +549,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     unpricedLead.includes("Fixture Arena") && /Sep 10, 2026 to/.test(unpricedLead),
     "the lead keeps the venue and date range when no table states them"
   );
-  assert(!/[$£€]\s?\d/.test(body), "no figure is invented when the lanes were not readable");
+  assert(!/(?:[$£€]\s?|\b(?:USD|CAD|AUD|GBP|EUR)\s+)\d/.test(body), "no figure is invented when the lanes were not readable");
 }
 
 // ── the venue column follows the data, and expiry still hides a price ───────
@@ -566,8 +566,8 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(/<th scope="col">Venue<\/th>/.test(multiSection), "a multi-venue run keeps the venue column");
   assert(multiText.includes("North Hall") && multiText.includes("South Pavilion"), "each date names its own venue");
   assert(!/all at /.test(multiText), "a multi-venue run makes no single-venue claim");
-  assert(!multiText.includes("$99"), "an expired cache row never reaches the table");
-  assert(multiText.includes("$330"), "the unexpired row for that same date is still shown");
+  assert(!multiText.includes("USD 99"), "an expired cache row never reaches the table");
+  assert(multiText.includes("USD 330"), "the unexpired row for that same date is still shown");
 }
 
 // ── the artist page names a date, never a city-wide 'from' ──────────────────
@@ -576,23 +576,23 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(page.status === 200, "the artist page renders");
   const body = text(page.main);
   assert(body.includes("Dates by city"), "the by-city link list is present");
-  assert(/Sep .*: \$182, Vivid Seats/.test(body), "a city row names the next date and that date's own lowest price");
-  assert(!/\bfrom \$\d/i.test(body), "the artist page makes no 'from <price>' claim for a city");
+  assert(/Sep .*: USD\s+182, Vivid Seats/.test(body), "a city row names the next date and that date's own lowest price");
+  assert(!/\bfrom (?:\$|USD\s+)\d/i.test(body), "the artist page makes no 'from <price>' claim for a city");
   assert(!/cheapest city|lowest city/i.test(body), "cities are never ranked against each other");
 
   // Freshness travels with the figure. docs/PROVIDER_DATA_POLICY.md admits a
   // price outside a CTA badge only when it carries its own event, provider,
   // currency AND capture time; the event date is not the capture time, so a
-  // row showing "Nov 4, 2026: $310" and nothing else would be unattributed.
+  // row showing "Nov 4, 2026: USD 310" and nothing else would be unattributed.
   assert(
-    /: \$182, Vivid Seats \(checked Aug 9, 2026, 9:00 AM UTC\)/.test(body),
+    /: USD\s+182, Vivid Seats \(checked Aug 9, 2026, 9:00 AM UTC\)/.test(body),
     "a city row carries the snapshot capture time beside the price, not just the event date"
   );
   // Counted rather than pattern-matched per row: what must hold is that the
   // list contains no priced row without a capture time, so the two counts are
   // the assertion.
   const cityList = body.slice(body.indexOf("Dates by city"), body.indexOf("Related guides"));
-  const priced = [...cityList.matchAll(/: \$[\d.,]+, /g)].length;
+  const priced = [...cityList.matchAll(/: USD\s+[\d.,]+, /g)].length;
   const stamped = [...cityList.matchAll(/\(checked [^)]*UTC\)/g)].length;
   assert(priced >= 2, `more than one city row carries a price (was ${priced})`);
   assert(priced === stamped, `every priced city row carries a capture time (${priced} priced, ${stamped} stamped)`);
@@ -610,20 +610,20 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   // carry-in has been dropped and the feature is silently reporting "no
   // history" for prices that have simply been stable.
   assert(
-    /30-day low \$150 · Vivid Seats, Jul 1, 2026/.test(body),
+    /30-day low USD\s+150 · Vivid Seats, Jul 1, 2026/.test(body),
     "a low observed before the window opened is still reported, with its true observation date"
   );
   assert(
-    /30-day low \$175 · TicketNetwork, Jul 20, 2026/.test(body),
+    /30-day low USD\s+175 · TicketNetwork, Jul 20, 2026/.test(body),
     "an in-window low is reported and attributed to the provider that recorded it"
   );
-  // A $1 row sits in RUN_B's history. The floor is applied on read because
+  // A USD 1 row sits in RUN_B's history. The floor is applied on read because
   // history is immutable and carries rows written before the floor existed.
-  assert(!/30-day low \$1\b/.test(body), "an implausible historical row never becomes the low");
+  assert(!/30-day low (?:\$|USD\s+)1\b/.test(body), "an implausible historical row never becomes the low");
 
   // The invariant that keeps the cell coherent: every reported low is at or
   // below the current figure printed directly above it.
-  const pairs = [...section.matchAll(/provider-cta-value[^>]*>\$([\d.,]+)<[\s\S]*?30-day low \$([\d.,]+)/g)];
+  const pairs = [...section.matchAll(/provider-cta-value[^>]*>USD\s+([\d.,]+)<[\s\S]*?30-day low USD\s+([\d.,]+)/g)];
   assert(pairs.length >= 2, `both priced dates render a current figure and a low (was ${pairs.length})`);
   for (const [, current, low] of pairs) {
     assert(
@@ -639,7 +639,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   const body = text(page.main);
   assert(!/30-day low/.test(body), "an event with no history reports no low");
   assert(!/Lowest (?:recorded|listed) in/.test(body), "and makes no claim to have watched it");
-  assert(/\$145/.test(body), "while still showing its current price as before");
+  assert(/USD\s+145/.test(body), "while still showing its current price as before");
 }
 {
   // With no database bound there is no history read and no low.
@@ -737,11 +737,11 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(runA && runB, "both run dates render a card");
   assert(
     JSON.stringify(lowestNames(runA)) === JSON.stringify(["Vivid Seats"]),
-    `the first date marks only Vivid Seats ($182 against $210): ${lowestNames(runA)}`
+    `the first date marks only Vivid Seats (USD 182 against USD 210): ${lowestNames(runA)}`
   );
   assert(
     JSON.stringify(lowestNames(runB)) === JSON.stringify(["TicketNetwork"]),
-    `the second date marks only TicketNetwork ($240 against $265), not the first date's winner: ${lowestNames(runB)}`
+    `the second date marks only TicketNetwork (USD 240 against USD 265), not the first date's winner: ${lowestNames(runB)}`
   );
   assert(
     (runA.match(/provider-cta-badge">Lowest listed</g) || []).length === 1,
@@ -750,8 +750,8 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   // The analytics marker public/shell.js reads sits on the badged lane only.
   const markers = [...runA.matchAll(/data-cta-provider="([^"]+)"[^>]*data-cta-lowest="true"/g)].map((match) => match[1]);
   assert(JSON.stringify(markers) === JSON.stringify(["vivid-seats"]), `data-cta-lowest marks only the badged lane: ${markers}`);
-  // Gated lanes never compete: the $3.80 StubHub International row is below
-  // the plausibility floor and the $12 Ticket Liquidator row is display-off.
+  // Gated lanes never compete: the USD 3.80 StubHub International row is below
+  // the plausibility floor and the USD 12 Ticket Liquidator row is display-off.
   assert(!/provider-cta-lowest[^"]*"[^>]*data-cta-provider="(stubhub-international|ticket-liquidator)"/.test(runA), "a withheld lane can never be marked lowest");
   const solo = await render(SOLO_PATH);
   assert(!solo.main.includes("provider-cta-lowest"), "a date with a single priced provider has nothing to be lower than, so no badge");
@@ -767,8 +767,8 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   const section = (page.main.match(/<section class="nested-panel artist-city-price-answer"[\s\S]*?<\/section>/) || [])[0] || "";
   assert(section.includes(`${ARTIST.name} resale prices for these dates`), "the presale page carries its own resale table");
   const body = text(section);
-  assert(body.includes("$182") && body.includes("$240"), "each presale date shows its own lowest listed price");
-  assert(!body.includes("$145"), "a date the page does not list never reaches its table");
+  assert(body.includes("USD 182") && body.includes("USD 240"), "each presale date shows its own lowest listed price");
+  assert(!body.includes("USD 145"), "a date the page does not list never reaches its table");
   assert(body.includes("not face value"), "the table says resale is not face value");
   const outHrefs = [...section.matchAll(/href="([^"]+)"/g)].map((m) => m[1]).filter((href) => href.startsWith("/api/out?"));
   assert(outHrefs.length >= 2 && outHrefs.every((href) => href.includes("ctaLocation=presale_page")), "presale-table CTAs carry their own cta_location");
@@ -801,8 +801,8 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(page.main.indexOf("artistNextDatesTitle") < page.main.indexOf("artistShowBoard"), "the next-dates table renders above the board");
   const body = text(lead);
   assert(body.includes(`Next ${ARTIST.name} dates`), "the table names what it lists");
-  assert(body.includes("$182") && body.includes("$240"), "each of the next dates shows its own lowest listed price");
-  assert(!/\bfrom \$\d/i.test(body) && !/cheapest/i.test(body), "no cross-event 'from' or cheapest claim");
+  assert(body.includes("USD 182") && body.includes("USD 240"), "each of the next dates shows its own lowest listed price");
+  assert(!/\bfrom (?:\$|USD\s+)\d/i.test(body) && !/cheapest/i.test(body), "no cross-event 'from' or cheapest claim");
   const rows = (lead.match(/<tr><th scope="row">/g) || []).length;
   assert(rows === 3, `the table lists the next three dates only: ${rows}`);
   const outHrefs = [...lead.matchAll(/href="([^"]+)"/g)].map((m) => m[1]).filter((href) => href.startsWith("/api/out?"));

@@ -1935,7 +1935,7 @@ function formatProviderPrice(value, currency) {
   const code = String(currency || "").trim().toUpperCase();
   if (!Number.isFinite(amount) || !isValidCurrencyCode(code)) return "";
   try {
-    return new Intl.NumberFormat(undefined, { style: "currency", currency: code, maximumFractionDigits: amount % 1 === 0 ? 0 : 2 }).format(amount);
+    return new Intl.NumberFormat(undefined, { style: "currency", currency: code, currencyDisplay: "code", maximumFractionDigits: amount % 1 === 0 ? 0 : 2 }).format(amount);
   } catch (error) {
     return "";
   }

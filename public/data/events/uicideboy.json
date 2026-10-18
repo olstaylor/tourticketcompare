@@ -374,7 +374,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-birmingham-alabama-10-20-2026/event/2000647BC9575B8D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -411,11 +411,6 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-03T15:00:00Z",
-        "end": "2026-10-16T17:00:00Z"
-      },
       {
         "name": "Mastercard Preferred Tickets",
         "start": "2026-04-03T15:00:00Z",

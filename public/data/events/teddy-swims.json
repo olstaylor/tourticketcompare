@@ -990,7 +990,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-charlotte-spectrum-center-10-18-2026--concerts-rb/production/6911963",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-charlotte-north-carolina-10-18-2026/event/2D00648DB77333B2",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1055,11 +1055,6 @@
         "name": "$30 Ticket",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-10-18T22:00:00Z"
-      },
-      {
-        "name": "T-Mobile® Reserved Tickets",
-        "start": "2026-09-18T16:00:00Z",
-        "end": "2026-10-18T02:00:00Z"
       }
     ],
     "organizer_names": [

@@ -1298,7 +1298,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-charlotte-the-fillmore-charlotte-11-17-2026--concerts-rock/production/6823216",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-charlotte-north-carolina-11-17-2026/event/2D00646A8C5589FF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1358,13 +1358,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827971",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827971/Blue-October-tickets-Tue-Nov-17-2026-The-Fillmore-Charlotte",
     "stubhub_international_url": "https://www.stubhub.ie/blue-october-charlotte-tickets-11-17-2026/event/107151194",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-03-27T14:00:00Z",
-        "end": "2026-10-18T02:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

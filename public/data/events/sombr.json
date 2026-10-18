@@ -1218,7 +1218,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-charlotte-spectrum-center-10-27-2026--concerts-alternative/production/6897916",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-charlotte-north-carolina-10-27-2026/event/2D006488C26A706A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1270,13 +1270,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874869",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874869/sombr-tickets-Tue-Oct-27-2026-Spectrum-Center",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-17T14:00:00Z",
-        "end": "2026-10-16T21:00:00Z"
-      }
-    ],
     "organizer_names": [
       "AEG LIVE"
     ]

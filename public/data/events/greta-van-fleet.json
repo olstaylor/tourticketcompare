@@ -4123,7 +4123,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-glasgow-ovo-hydro-6-2-2027--concerts-rock/production/7643067",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/greta-van-fleet-into-the-beginning-glasgow-02-06-2027/event/36006536D9F285AE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4166,6 +4166,10 @@
     "ticketmaster_discovery_event_id": "1AUZkfUGkd_HIpm",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-glasgow-ovo-hydro-arena-glasgow-2-6-2027/event/107671668"
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-glasgow-ovo-hydro-arena-glasgow-2-6-2027/event/107671668",
+    "organizer_names": [
+      "DF CONCERTS LIMITED",
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ]
   }
 ]

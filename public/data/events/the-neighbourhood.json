@@ -505,7 +505,7 @@
     "city": "Chicago",
     "country": "United States Of America",
     "venue": "United Center",
-    "datetime_iso": "2026-11-19T01:30:00Z",
+    "datetime_iso": "2026-11-19T01:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "04006449E2046622",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-chicago-illinois-11-18-2026/event/04006449E2046622",
@@ -513,7 +513,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-chicago-united-center-11-18-2026/production/6822533",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-chicago-illinois-11-18-2026/event/04006449E2046622",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

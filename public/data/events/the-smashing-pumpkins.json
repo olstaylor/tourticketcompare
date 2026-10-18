@@ -215,17 +215,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107289099",
-        "url": "https://www.stubhub.ie/the-smashing-pumpkins-charlotte-tickets-10-16-2026/event/107289099",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_1Dw8JeW",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-charlotte-tickets-10-16-2026/event/107289099",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

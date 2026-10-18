@@ -1685,7 +1685,7 @@
     "ticketmaster_event_id": "31006523ABC0787E",
     "ticketmaster_url": "https://www.ticketmaster.ca/alan-walker-montreal-quebec-02-17-2027/event/31006523ABC0787E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-montreal-mtelus-2-17-2027--concerts-dance-electronica/production/7699411",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alan-walker-montreal-quebec-02-17-2027/event/31006523ABC0787E",
     "last_verified_at": null,
@@ -1707,11 +1707,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7699411,
+        "url": "https://www.vividseats.com/alan-walker-tickets-montreal-mtelus-2-17-2027--concerts-dance-electronica/production/7699411",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1719,10 +1719,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8325265",
+        "url": "https://www.ticketnetwork.com/en/p/8325265",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8325265",
+        "url": "https://www.ticketliquidator.com/tickets/8325265/Alan-Walker-tickets-Wed-Feb-17-2027-MTelus",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZkfNGkelY6-X",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8325265",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8325265/Alan-Walker-tickets-Wed-Feb-17-2027-MTelus"
   }
 ]

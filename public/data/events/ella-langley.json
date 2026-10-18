@@ -46,11 +46,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8071952",
+        "url": "https://www.ticketnetwork.com/en/p/8071952",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8071952",
+        "url": "https://www.ticketliquidator.com/tickets/8071952/Ella-Langley-tickets-Thu-Oct-29-2026-Caseys-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107486125",
+        "url": "https://www.stubhub.ie/ella-langley-des-moines-tickets-10-29-2026/event/107486125",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pwkk",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071952",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071952/Ella-Langley-tickets-Thu-Oct-29-2026-Caseys-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/ella-langley-des-moines-tickets-10-29-2026/event/107486125"
   },
   {
     "id": "tm-ella-langley-2026-lincoln-vvg1bz_u6bp0me",
@@ -65,7 +89,7 @@
     "ticketmaster_event_id": "060064D1D85A4BA7",
     "ticketmaster_url": "https://www.ticketmaster.com/ella-langley-the-dandelion-tour-lincoln-nebraska-10-30-2026/event/060064D1D85A4BA7",
     "seatgeek_url": "https://seatgeek.com/ella-langley-tickets/lincoln-nebraska-pinnacle-bank-arena-2026-10-30-7-pm/concert/18324412",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ella-langley-tickets-lincoln-pinnacle-bank-arena-10-30-2026--concerts-rock/production/7199174",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ella-langley-the-dandelion-tour-lincoln-nebraska-10-30-2026/event/060064D1D85A4BA7",
     "last_verified_at": null,
@@ -87,11 +111,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7199174,
+        "url": "https://www.vividseats.com/ella-langley-tickets-lincoln-pinnacle-bank-arena-10-30-2026--concerts-rock/production/7199174",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -99,11 +123,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8071933",
+        "url": "https://www.ticketnetwork.com/en/p/8071933",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8071933",
+        "url": "https://www.ticketliquidator.com/tickets/8071933/Ella-Langley-tickets-Fri-Oct-30-2026-Pinnacle-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107486126",
+        "url": "https://www.stubhub.ie/ella-langley-lincoln-tickets-10-30-2026/event/107486126",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_u6bp0mE",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071933",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071933/Ella-Langley-tickets-Fri-Oct-30-2026-Pinnacle-Bank-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/ella-langley-lincoln-tickets-10-30-2026/event/107486126"
   },
   {
     "id": "tm-ella-langley-2026-saint-paul-z7r9jz1a7ppo7",
@@ -118,7 +166,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PPo7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PPo7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ella-langley-tickets-saint-paul-grand-casino-arena-10-31-2026--concerts-rock/production/7199177",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PPo7",
     "last_verified_at": null,
@@ -140,11 +188,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7199177,
+        "url": "https://www.vividseats.com/ella-langley-tickets-saint-paul-grand-casino-arena-10-31-2026--concerts-rock/production/7199177",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -152,10 +200,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8071934",
+        "url": "https://www.ticketnetwork.com/en/p/8071934",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8071934",
+        "url": "https://www.ticketliquidator.com/tickets/8071934/Ella-Langley-tickets-Sat-Oct-31-2026-Grand-Casino-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107486127",
+        "url": "https://www.stubhub.ie/ella-langley-saint-paul-tickets-10-31-2026/event/107486127",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PPo7",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071934",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071934/Ella-Langley-tickets-Sat-Oct-31-2026-Grand-Casino-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/ella-langley-saint-paul-tickets-10-31-2026/event/107486127"
   }
 ]

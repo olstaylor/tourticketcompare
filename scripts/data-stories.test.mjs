@@ -13,7 +13,12 @@ import {
   renderTourMapPost,
   renderTourMapPressRelease,
   tourMapSlug,
-  STORY_GATE
+  STORY_GATE,
+  buildPriceMoveFigures,
+  priceMovesGate,
+  priceMovesSql,
+  renderPriceMovesPost,
+  PRICE_MOVE_GATE
 } from "./lib/data-stories.mjs";
 import { findFirstPersonPlural } from "./check-site-voice.mjs";
 
@@ -116,5 +121,46 @@ for (const [name, text] of [["post", post], ["release", release]]) {
   assert(!/\b(cheapest|lowest price|sold out|selling fast|last chance|prices? (?:drop|fall|rise))\b/i.test(text), `${name} carries no banned claim`);
   assert(findFirstPersonPlural(text).length === 0, `${name} does not speak as "we"`);
 }
+
+// Price moves: counts per site, same event and site only, no price figures.
+const pmEvents = Array.from({ length: 60 }, (_, i) =>
+  event(i % 2 ? "artist-a" : "artist-b", `2027-02-${String((i % 27) + 1).padStart(2, "0")}T22:00:00Z`)
+);
+const pmRow = (ev, base, latest, extra = {}) => ({
+  artist_slug: ev.artist_slug,
+  provider: "vivid-seats",
+  event_id: ev.id,
+  currency: "USD",
+  base_date: "2026-09-17",
+  base_price: base,
+  latest_date: "2026-10-16",
+  latest_price: latest,
+  ...extra
+});
+const pmRows = [
+  ...pmEvents.map((ev, i) => pmRow(ev, 100, i < 30 ? 80 : i < 50 ? 120 : 101)),
+  pmRow(pmEvents[0], 100, 50, { provider: "seatgeek" }),
+  pmRow(pmEvents[1], 100, 50, { latest_date: "2026-10-01" }),
+  pmRow(pmEvents[2], 100, 50, { base_date: "2026-10-10", provider: "ticketnetwork" }),
+  pmRow(pmEvents[3], 0, 50, { provider: "stubhub-international" }),
+  pmRow({ id: "gone", artist_slug: "artist-a" }, 100, 50, { provider: "ticketnetwork" })
+];
+const pmArtists = [...artists, ...Array.from({ length: 9 }, (_, i) => ({ slug: `x${i}`, name: `X${i}`, indexing_status: "indexable_with_substantial_content" }))];
+const pm = buildPriceMoveFigures(pmRows, pmEvents, pmArtists, { now: NOW_MS });
+assert(pm.sites.length === 1 && pm.sites[0].site === "vivid-seats", "only price-lane sites with valid, in-window rows count");
+assert(pm.sites[0].lower === 30 && pm.sites[0].higher === 20 && pm.sites[0].same === 10, "moves inside 2% count as about the same");
+assert(pm.sites[0].dates === 60 && pm.sites[0].artistCount === 2, "dates and artists are counted per site");
+assert(priceMovesGate(pm).sites.length === 0, `a site needs ${PRICE_MOVE_GATE.minArtistsPerSite}+ artists to clear the gate`);
+const wide = { ...pm, sites: [{ ...pm.sites[0], artistCount: 12 }] };
+assert(priceMovesGate(wide).sites.length === 1, "a broad site clears the gate");
+const pmPost = renderPriceMovesPost(wide);
+assert(/^status: draft$/m.test(pmPost), "a new price-moves post is a draft");
+assert(!/[$£€]\s?\d/.test(pmPost) && !/\bUSD\b/.test(pmPost), "the price-moves post prints no price");
+assert(!/\b(cheapest|lowest price|will (?:fall|drop|rise)|best time)\b/i.test(pmPost), "the price-moves post makes no ranking or forecast claim");
+assert(findFirstPersonPlural(pmPost).length === 0, "the price-moves post does not speak as \"we\"");
+assert(priceMovesSql("2026-10-17").includes("date('2026-10-17','-31 day')"), "the query is anchored on the as-of date");
+let rejected = false;
+try { priceMovesSql("2026-10-17'; DROP"); } catch { rejected = true; }
+assert(rejected, "the query refuses anything but a plain date");
 
 console.log(`data-stories: ${passed} assertions passed`);

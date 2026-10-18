@@ -911,11 +911,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107162471",
-        "url": "https://www.stubhub.ie/olivia-rodrigo-boston-tickets-10-17-2026/event/107162471",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -924,7 +924,7 @@
     "ticketmaster_discovery_event_id": "vv177Z_aGkV-Whjn",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921658",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921658/Olivia-Rodrigo-tickets-Sat-Oct-17-2026-TD-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-boston-tickets-10-17-2026/event/107162471",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

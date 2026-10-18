@@ -317,6 +317,7 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert((page.main.match(/>Compare this show<\/a>/g) || []).length === 6, "every date, including a priced date, links to all its exact-show ticket options");
   assert(page.main.includes('href="/artists/oasis#show-pg-man-1"'), "exact-show comparison goes to the artist card anchor");
 
+  assert(/<h3>Oasis ticket prices in [^<]+/.test(page.main), "each city table is headed with the artist and city");
   const body = text(page.main);
   assert(body.includes("Face value: the official ticket price"), "the page answers the face-value question");
   assert(body.includes("This page doesn't show face value."), "and says plainly that it prints no face value");
@@ -356,6 +357,7 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   const faqQuestions = [...ld.matchAll(/"@type":"Question","name":"([^"]+)"/g)].map((m) => m[1]);
   assert(faqQuestions.length >= 3 && faqQuestions.includes("How much are Oasis tickets?"), "the FAQPage answers how much tickets cost");
   assert(faqQuestions.every((question) => body.includes(question)), "every FAQPage question is visible on the page");
+  assert(faqQuestions.includes("Do Oasis ticket prices include fees?") && faqQuestions.includes("Are Oasis resale tickets more than face value?"), "the FAQPage answers the fee and face-value questions");
   assert(body.includes("There isn't a reliable best moment to buy"), "the timing answer predicts nothing");
   assert(classifyPageType(GUIDE_PATH) === "artist_price_guide", "analytics records the guide as its own page type");
 }

@@ -4,16 +4,20 @@
 // Reads the committed event and artist data, finds editorially indexable
 // artists without a guide whose Ticketmaster public on-sales opened recently or
 // open soon (functions/_price-guides.js → priceGuideLaunchCandidates), and
-// rewrites the rolling `automation:price-guide-candidates` issue. Propose-only:
-// it writes the issue and nothing else. Approving a candidate is adding its
-// slug to PRICE_GUIDE_ARTISTS in functions/_price-guides.js.
+// rewrites the rolling `automation:price-guide-candidates` issue. Approving a
+// candidate is adding its slug to PRICE_GUIDE_ARTISTS in
+// functions/_price-guides.js. `--apply` does that for every artist that would
+// be indexed today (owner decision 2026-10-17: approve gate-passing guides
+// automatically); the gate itself is unchanged, so a launch that would render
+// noindex is still only listed.
 //
 //   node scripts/propose-price-guides.mjs              # print the issue body
 //   node scripts/propose-price-guides.mjs --json       # print candidates as JSON
 //   node scripts/propose-price-guides.mjs --issue      # rewrite the rolling issue
+//   node scripts/propose-price-guides.mjs --apply      # add approvable slugs to the registry
 //   node scripts/propose-price-guides.mjs --self-test
 
-import { readFileSync } from "node:fs";
+import { readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
@@ -29,6 +33,7 @@ import {
 export const LABEL = "automation:price-guide-candidates";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const INDEXABLE = "indexable_with_substantial_content";
+const REGISTRY_FILE = "functions/_price-guides.js";
 
 function day(iso) {
   return String(iso || "").slice(0, 10);
@@ -83,6 +88,30 @@ export function buildReport({ events, artistsMeta, catalog, now = Date.now() }) 
   };
 }
 
+// Slugs `--apply` approves: launch candidates that would index today, then
+// gate-passing artists without a launch, in the order the issue lists them.
+export function approvableSlugs(report) {
+  return [...report.candidates.filter((c) => c.wouldIndex).map((c) => c.slug), ...report.ready.map((g) => g.artistSlug)];
+}
+
+// Appends slugs to the PRICE_GUIDE_ARTISTS literal with a dated comment, the
+// same shape the hand-approved batches use. Returns the source unchanged when
+// there is nothing new to add, and throws if the literal cannot be found.
+export function addRegistrySlugs(source, slugs, date) {
+  const start = source.indexOf("export const PRICE_GUIDE_ARTISTS = Object.freeze([");
+  const end = start < 0 ? -1 : source.indexOf("\n]);", start);
+  if (start < 0 || end < 0) throw new Error(`PRICE_GUIDE_ARTISTS not found in ${REGISTRY_FILE}`);
+  const existing = new Set([...source.slice(start, end).matchAll(/"([a-z0-9-]+)"/g)].map((m) => m[1]));
+  const fresh = [...new Set(slugs)].filter((slug) => /^[a-z0-9-]+$/.test(slug) && !existing.has(slug));
+  if (!fresh.length) return source;
+  const block = [
+    `  // ${date}: approved automatically by \`price-guides:propose --apply\` (each`,
+    "  // would be indexed today under the unchanged guide gate).",
+    fresh.map((slug) => `  "${slug}"`).join(",\n")
+  ].join("\n");
+  return `${source.slice(0, end)},\n${block}${source.slice(end)}`;
+}
+
 async function gh(method, apiPath, body) {
   const res = await fetch(`https://api.github.com/repos/${process.env.GITHUB_REPOSITORY}${apiPath}`, {
     method,
@@ -101,6 +130,15 @@ async function main() {
     catalog: readJson("public/data/catalog.json")
   });
   if (process.argv.includes("--json")) return console.log(JSON.stringify(report.candidates, null, 2));
+  if (process.argv.includes("--apply")) {
+    const file = path.join(root, REGISTRY_FILE);
+    const source = readFileSync(file, "utf8");
+    const slugs = approvableSlugs(report);
+    const next = addRegistrySlugs(source, slugs, report.generatedAt);
+    if (next === source) return console.log("No price guide to approve.");
+    writeFileSync(file, next);
+    return console.log(`Approved ${slugs.length} price guide(s): ${slugs.join(", ")}`);
+  }
   const body = renderIssue(report);
   if (!process.argv.includes("--issue")) return console.log(body);
   const open = await gh("GET", `/issues?state=open&labels=${encodeURIComponent(LABEL)}`);
@@ -158,6 +196,14 @@ function selfTest() {
       PRICE_GUIDE_ARTISTS.every((slug) => body.includes(`\`${slug}\` → /artists/${slug}/ticket-prices`)),
       "every approved guide is listed"]
   ];
+  const registry = 'export const PRICE_GUIDE_ARTISTS = Object.freeze([\n  "oasis",\n  "amble"\n]);\n';
+  const applied = addRegistrySlugs(registry, ["quiet", "oasis", "launcher"], "2026-10-01");
+  checks.push(
+    [JSON.stringify(approvableSlugs(report)) === JSON.stringify(["launcher", "quiet"]), "--apply approves indexable launches and ready artists only"],
+    [applied.includes('  "amble",\n  // 2026-10-01: approved automatically') && applied.endsWith('  "quiet",\n  "launcher"\n]);\n'), "--apply appends new slugs as a dated, comma-correct block"],
+    [(applied.match(/"oasis"/g) || []).length === 1, "--apply never repeats a registered slug"],
+    [addRegistrySlugs(registry, ["oasis"], "2026-10-01") === registry, "--apply leaves the registry untouched when nothing is new"]
+  );
   const failed = checks.filter(([ok]) => !ok).map(([, message]) => message);
   console.log(`[price-guide-candidates] self-test: ${failed.length ? `FAILED — ${failed.join("; ")}` : `${checks.length} assertions passed`}`);
   return failed.length ? 1 : 0;

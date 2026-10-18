@@ -46,6 +46,7 @@
 
 import fs from "node:fs/promises";
 import path from "node:path";
+import { UNSUPPORTED_CHEAPEST_CLAIM } from "../functions/_price-wording.js";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
 import {
@@ -172,7 +173,7 @@ const INTERNAL_LINK_EXACT = new Set([
 // Price Display). A blunt substring match on purpose: rephrase rather than work
 // around it.
 const BANNED_CLAIM_PATTERNS = [
-  [/\bcheapest\b/i, 'a "cheapest" claim — the site publishes per-provider snapshots, never a ranking'],
+  [UNSUPPORTED_CHEAPEST_CLAIM, 'a blanket "cheapest" promise — the site never sees the whole market; name the sites and capture time instead'],
   [/\blowest price\b/i, 'a "lowest price" claim — say "lower listed snapshot" and name the provider and time'],
   [/\bbest price guarantee/i, "a price guarantee the site cannot make"],
   [/\bguaranteed (?:availability|tickets|seats)\b/i, "an availability guarantee — inventory is provider-controlled"],
@@ -1118,8 +1119,10 @@ function selfTest() {
   );
   assert(newClaim.some((problem) => /sold out/.test(problem)), "a new sold-out claim in an exempted guide still fails");
 
-  const cheapest = validateGuide(baseGuide({ description: "The cheapest way to buy tickets for any show you want to see this year." }), baseContext());
-  assert(cheapest.some((problem) => /cheapest/.test(problem)), "a cheapest claim in the description fails");
+  const cheapest = validateGuide(baseGuide({ description: "We find the cheapest tickets for any show you want to see this year." }), baseContext());
+  assert(cheapest.some((problem) => /cheapest/.test(problem)), "a blanket cheapest claim in the description fails");
+  const cheapestHowTo = validateGuide(baseGuide({ description: "How to find the cheapest listed price for the show you want to see this year." }), baseContext());
+  assert(!cheapestHowTo.some((problem) => /cheapest/.test(problem)), "a how-to that names the cheapest listed price passes");
 
   // --- other validators --------------------------------------------------
   const unknownKey = validateGuide(baseGuide({ frontMatter: { title: "T", h1: "H", description: "D", last_modified: "2026-01-01" } }), baseContext());

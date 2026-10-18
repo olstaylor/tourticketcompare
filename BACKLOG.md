@@ -157,7 +157,7 @@ Git stays the canonical event store, with generated, purpose-built read artefact
 None of this is work until it is separately scoped and owner-approved. Unparking lifts the scope freeze, not the verification rules.
 
 - **Wider event-page indexing.** Event pages are noindex, except the frozen 30-page pilot (`docs/ROUTE_INDEXABILITY_POLICY.md` → Event).
-- **Live inventory, and "cheapest" or "guaranteed availability" claims.**
+- **Live inventory, and "guaranteed availability" claims.** (Data-backed "cheapest" wording was allowed by the owner on 2026-10-17; see SAFE_PUBLISHING_RULES.md → Price Display.)
 - **Providers beyond SeatGeek, Vivid Seats, TicketNetwork, Ticket Liquidator and StubHub International.** Each would need a verified feed, written usage rights and scoped work.
 - **A provider abstraction layer.** The old scaffolding was removed on 2026-10-02. Build one only with a real integration scoped first.
 - **Splitting `functions/[[path]].js` into route modules.** This needs its own plan before any code moves.

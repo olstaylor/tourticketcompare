@@ -138,7 +138,34 @@ export const PRICE_GUIDE_ARTISTS = Object.freeze([
   "dylan-gossett",
   "staind",
   "warren-zeiders",
-  "flans"
+  "flans",
+  // 2026-10-17: every indexable artist without a guide whose data clears the
+  // guide gate today, from `npm run price-guides:propose`. The first four had
+  // Ticketmaster public on-sales on 2026-10-16.
+  "def-leppard",
+  "nickelback",
+  "leon-bridges",
+  "mico",
+  "hazlett",
+  "rod-stewart",
+  "vnv-nation",
+  "jay-wheeler",
+  "journey",
+  "mei-semones",
+  "earth-wind-fire",
+  "steve-lacy",
+  "fuerza-regida",
+  "simple-minds",
+  "backstreet-boys",
+  "noah-kahan",
+  "rod-wave",
+  "slipknot",
+  "the-neighbourhood",
+  "thirty-seconds-to-mars",
+  "gorillaz",
+  "eros-ramazzotti",
+  "hayley-williams",
+  "lionel-richie"
 ]);
 
 export const PRICE_GUIDE_SEGMENT = "ticket-prices";

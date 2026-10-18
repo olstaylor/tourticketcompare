@@ -15,6 +15,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { UNSUPPORTED_CHEAPEST_CLAIM } from "../functions/_price-wording.js";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const ORIGIN = "https://tourticketcompare.com";
@@ -465,7 +466,8 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     `no live figure appears in the title (was "${page.title}")`
   );
   assert(!/(?:[$£€]\s?|\b(?:USD|CAD|AUD|GBP|EUR)\s+)\d/.test(page.title), "no currency figure appears in the title");
-  assert(page.description.includes("Starting from US$182.00 listed at Vivid Seats"), `the snippet answers with the next date's listed price (got ${page.description})`);
+  // Two sites priced the next date, so the snippet names the cheaper one.
+  assert(page.description.includes("Cheapest listed of 2 sites: US$182.00 at Vivid Seats"), `the snippet answers with the next date's cheapest listed price (got ${page.description})`);
   assert(/Sep 10, 2026/.test(page.description), "the snippet identifies the venue-local show date");
   assert(page.description.includes("checked 2026-08-09 09:00 UTC. Check fees."), "the snippet carries capture time and a fee caveat");
   for (const pattern of [/<meta property="og:description" content="([^"]*)"/, /<meta name="twitter:description" content="([^"]*)"/]) {
@@ -477,28 +479,28 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   const offers = [...page.html.matchAll(/"@type":"Offer"/g)].length;
   const faqQuestions = [...page.html.matchAll(/"@type":"Question"/g)].length;
   const schemaBlock = (page.html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/) || [])[1] || "";
-  assert(!/Starting from|US\$182/.test(schemaBlock), "the HTML snippet cannot introduce prices into structured data");
+  assert(!/Starting from|Cheapest listed|US\$182/.test(schemaBlock), "the HTML snippet cannot introduce prices into structured data");
   assert(!/How much are/.test(schemaBlock), "the price question is not added to FAQ structured data");
   assert(offers >= 0 && faqQuestions >= 0, "structured data still parses");
 
   const cheaperLater = await render(RUN_PATH, { priceRows: PRICE_ROWS.map((row) => row.event_id === RUN_B.id ? { ...row, low_price: 99 } : row) });
   assert(cheaperLater.description.includes("US$182.00") && !cheaperLater.description.includes("US$99.00"), "a cheaper later date never becomes a city-wide starting price");
   const noNextPrice = await render(RUN_PATH, { priceRows: PRICE_ROWS.filter((row) => row.event_id !== RUN_A.id) });
-  assert(!/Starting from/.test(noNextPrice.description), "a missing price on the next date does not borrow another date's price");
+  assert(!/Starting from|Cheapest listed/.test(noNextPrice.description), "a missing price on the next date does not borrow another date's price");
   const mixed = await render(RUN_PATH, { priceRows: PRICE_ROWS.map((row) => row.event_id === RUN_A.id && row.provider === "ticketnetwork" ? { ...row, currency: "CAD" } : row) });
-  assert(!/Starting from/.test(mixed.description), "conflicting same-event currencies suppress the snippet price");
+  assert(!/Starting from|Cheapest listed/.test(mixed.description), "conflicting same-event currencies suppress the snippet price");
   const expired = await render(RUN_PATH, { priceRows: PRICE_ROWS.map((row) => ({ ...row, expires_at: "2026-08-01T00:00:00Z" })) });
-  assert(!/Starting from/.test(expired.description), "expired snapshots never reach metadata");
+  assert(!/Starting from|Cheapest listed/.test(expired.description), "expired snapshots never reach metadata");
   const noDb = await render(RUN_PATH, { withDb: false });
-  assert(!/Starting from/.test(noDb.description) && /listed ticket prices/.test(noDb.description), "a cache outage preserves the price-free fallback");
+  assert(!/Starting from|Cheapest listed/.test(noDb.description) && /listed ticket prices/.test(noDb.description), "a cache outage preserves the price-free fallback");
   const usd99 = await render(SOLO_PATH, { priceRows: PRICE_ROWS.map((row) => row.event_id === SOLO.id ? { ...row, low_price: 99 } : row) });
   assert(usd99.description.includes("Starting from US$99.00"), "USD is explicit and keeps both decimal places");
   const cad99 = await render(SOLO_PATH, { priceRows: PRICE_ROWS.map((row) => row.event_id === SOLO.id ? { ...row, low_price: 99, currency: "CAD" } : row) });
   assert(cad99.description.includes("Starting from CAD 99.00") && !cad99.description.includes("US$"), "Canadian dollars cannot be mistaken for USD");
   const wrongSource = await render(SOLO_PATH, { priceRows: PRICE_ROWS.map((row) => ({ ...row, source: "unapproved" })) });
-  assert(!/Starting from/.test(wrongSource.description), "an unapproved price source never reaches the snippet");
+  assert(!/Starting from|Cheapest listed/.test(wrongSource.description), "an unapproved price source never reaches the snippet");
   const disabled = await render(SOLO_PATH, { runtime: { VIVIDSEATS_PRICE_DISPLAY_ENABLED: "false" } });
-  assert(!/Starting from/.test(disabled.description), "a display-disabled lane never reaches the snippet");
+  assert(!/Starting from|Cheapest listed/.test(disabled.description), "a display-disabled lane never reaches the snippet");
 }
 
 // ── a single-date page shows the answer and stays noindex ───────────────────
@@ -671,7 +673,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     /doesn't mean a site is cheaper overall/.test(body),
     "the help copy still refuses the site-level verdict the policy forbids"
   );
-  assert(!/\bcheapest\b|\bbest price\b/i.test(body), "no banned ranking copy reaches the page");
+  assert(!UNSUPPORTED_CHEAPEST_CLAIM.test(body) && !/\bbest price\b/i.test(body), "no blanket cheapest or best-price copy reaches the page");
 }
 
 // ── the widest component on the site fits a 320px viewport ──────────────

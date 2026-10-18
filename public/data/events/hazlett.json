@@ -1584,7 +1584,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/hazlett-glasgow-16-03-2027/event/36006535B06E511F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1619,17 +1619,9 @@
     },
     "ticketmaster_discovery_event_id": "1AUZkfgGkeYhP7L",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-16T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "REGULAR LIMITED"
-    ],
-    "presales": [
-      {
-        "name": "Spotify Presale",
-        "start": "2026-10-15T09:00:00Z",
-        "end": "2026-10-16T08:00:00Z"
-      }
     ]
   },
   {
@@ -1648,7 +1640,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/hazlett-manchester-17-03-2027/event/1F006537C6C146BB",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1683,8 +1675,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_KLkYfQD",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-16T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "SJM LIMITED (NEW)"
     ]
@@ -1705,7 +1696,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/hazlett-dublin-18-03-2027/event/18006537EBE99B47",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1740,20 +1731,7 @@
     },
     "ticketmaster_discovery_event_id": "1AbZkfMGkdlB_c6",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-16T09:00:00Z",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-13T09:00:00Z",
-        "end": "2026-10-16T08:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-10-15T09:00:00Z",
-        "end": "2026-10-16T08:00:00Z"
-      }
-    ],
+    "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
     ]
@@ -1774,7 +1752,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/hazlett-london-20-03-2027/event/3E006528EB654D5A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1809,20 +1787,7 @@
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3Nl_fgQ",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-16T09:00:00Z",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-13T09:00:00Z",
-        "end": "2026-10-16T08:00:00Z"
-      },
-      {
-        "name": "Priority from O2",
-        "start": "2026-10-13T09:00:00Z",
-        "end": "2026-10-16T08:00:00Z"
-      }
-    ],
+    "status": "on-sale",
     "organizer_names": [
       "COMMUNION PRESENTS LTD",
       "ACADEMY MUSIC GROUP (O2 SHEPHERD'S BUSH EMPIRE)"
@@ -1844,7 +1809,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.no/event/hazlett-tickets/1866042465?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1879,6 +1844,9 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z16v-JveoP",
     "timezone": "Europe/Oslo",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Auditorium AS (Rockefeller / John Dee / Sentrum Scene)"
+    ]
   }
 ]

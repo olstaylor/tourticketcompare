@@ -1671,7 +1671,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-6-9-2027/production/7697558",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-09-2027/event/1700653837E3D517",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1730,7 +1730,22 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319987",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319987/John-Mayer-tickets-Wed-Jun-9-2027-Sphere",
-    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-9-2027/event/107674878"
+    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-9-2027/event/107674878",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "On The List VIP Package Onsale",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2027-06-03T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2026-10-31T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7yuf_",
@@ -1748,7 +1763,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-6-11-2027/production/7697562",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-11-2027/event/1700653837E4D519",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1807,7 +1822,22 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319986",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319986/John-Mayer-tickets-Fri-Jun-11-2027-Sphere",
-    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-11-2027/event/107674881"
+    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-11-2027/event/107674881",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "On The List VIP Package Onsale",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2027-06-05T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2026-10-31T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7yufh",
@@ -1825,7 +1855,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-6-12-2027/production/7697560",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-12-2027/event/1700653837E4D51B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1884,6 +1914,21 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319985",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319985/John-Mayer-tickets-Sat-Jun-12-2027-Sphere",
-    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-12-2027/event/107674210"
+    "stubhub_international_url": "https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-12-2027/event/107674210",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "On The List VIP Package Onsale",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2027-06-06T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2026-10-31T05:00:00Z"
+      }
+    ]
   }
 ]

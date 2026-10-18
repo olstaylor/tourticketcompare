@@ -145,7 +145,7 @@
     "vividseats_url": "https://www.vividseats.com/weezer-tickets-austin-moody-center-atx-10-18-2026/production/6833944",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/weezer-the-gathering-austin-texas-10-18-2026/event/3A00646DDF7A288A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -204,7 +204,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833738",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7833738/Weezer-tickets-Sun-Oct-18-2026-Moody-Center-ATX",
-    "stubhub_international_url": "https://www.stubhub.ie/weezer-austin-tickets-10-18-2026/event/107154128"
+    "stubhub_international_url": "https://www.stubhub.ie/weezer-austin-tickets-10-18-2026/event/107154128",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-weezer-2026-phoenix-1av0z_kgkmn6hu7",
@@ -222,7 +225,7 @@
     "vividseats_url": "https://www.vividseats.com/weezer-tickets-phoenix-mortgage-matchup-center-10-20-2026/production/6833900",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/weezer-the-gathering-phoenix-arizona-10-20-2026/event/1900646DE31FCD84",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -273,7 +276,27 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833739",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7833739/Weezer-tickets-Tue-Oct-20-2026-Mortgage-Matchup-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7833739/Weezer-tickets-Tue-Oct-20-2026-Mortgage-Matchup-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-04-03T17:00:00Z",
+        "end": "2026-10-21T04:00:00Z"
+      },
+      {
+        "name": "Preferred Seating Offer",
+        "start": "2026-04-03T17:00:00Z",
+        "end": "2026-10-21T04:00:00Z"
+      },
+      {
+        "name": "Verizon Access Select Seats",
+        "start": "2026-04-03T17:00:00Z",
+        "end": "2026-10-21T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-weezer-2026-san-diego-vvg1iz_kucq_7i",
@@ -291,7 +314,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/weezer-the-gathering-san-diego-california-10-21-2026/event/0A00646D8E69912C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -342,7 +365,17 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833740",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7833740/Weezer-tickets-Wed-Oct-21-2026-Viejas-Arena-At-Aztec-Bowl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7833740/Weezer-tickets-Wed-Oct-21-2026-Viejas-Arena-At-Aztec-Bowl",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Preferred Seating Offer",
+        "start": "2026-04-03T17:00:00Z",
+        "end": "2026-10-22T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-weezer-2026-las-vegas-z7r9jz1a7-muy",
@@ -360,7 +393,7 @@
     "vividseats_url": "https://www.vividseats.com/weezer-tickets-las-vegas-t-mobile-arena-10-23-2026/production/6833922",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuY",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -419,7 +452,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833741",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7833741/Weezer-tickets-Fri-Oct-23-2026-T-Mobile-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/weezer-las-vegas-tickets-10-23-2026/event/107151241"
+    "stubhub_international_url": "https://www.stubhub.ie/weezer-las-vegas-tickets-10-23-2026/event/107151241",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-weezer-2026-los-angeles-g5eyz_ku9s8xi",
@@ -437,7 +473,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/weezer-the-gathering-los-angeles-california-10-24-2026/event/2C00646D97C50FA8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -496,7 +532,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833742",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7833742/Weezer-tickets-Sat-Oct-24-2026-Cryptocom-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/weezer-los-angeles-tickets-10-24-2026/event/107151242"
+    "stubhub_international_url": "https://www.stubhub.ie/weezer-los-angeles-tickets-10-24-2026/event/107151242",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Preferred Onsale",
+        "start": "2026-04-03T17:00:00Z",
+        "end": "2026-10-25T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-weezer-2027-dublin-17kzv0g62rlynaf",
@@ -514,7 +560,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/weezer-dublin-12-05-2027/event/180064FBDFE6A154",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -549,7 +595,11 @@
     },
     "ticketmaster_discovery_event_id": "17kZv0G62RLynAf",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AMPHITHEATRE IRELAND",
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-weezer-2027-newcastle-upon-tyne-g5vhz_8kkspwo",
@@ -567,7 +617,7 @@
     "vividseats_url": "https://www.vividseats.com/weezer-tickets-newcastle-upon-tyne-utilita-arena-newcastle-5-14-2027--concerts-alternative/production/7387539",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/weezer-newcastle-upon-tyne-14-05-2027/event/1F006504D3CD6C91",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -602,7 +652,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_8KKSpwo",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-weezer-2027-manchester-1amzkf7gkderotz",
@@ -620,7 +673,7 @@
     "vividseats_url": "https://www.vividseats.com/weezer-tickets-manchester-co-op-live-5-15-2027--concerts-alternative/production/7387541",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/weezer-manchester-15-05-2027/event/37006504C2791A78",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -679,7 +732,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8182169",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8182169/Weezer-tickets-Sat-May-15-2027-Co-Op-Live",
-    "stubhub_international_url": "https://www.stubhub.ie/weezer-tickets-manchester-co-op-live-15-5-2027/event/107472139"
+    "stubhub_international_url": "https://www.stubhub.ie/weezer-tickets-manchester-co-op-live-15-5-2027/event/107472139",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-weezer-2027-leeds-g5vhz_8pmm7nv",
@@ -697,7 +753,7 @@
     "vividseats_url": "https://www.vividseats.com/weezer-tickets-leeds-first-direct-arena---leeds-5-17-2027--concerts-alternative/production/7387543",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/weezer-leeds-17-05-2027/event/1F006505AEB848C1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -732,7 +788,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_8pmm7Nv",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-weezer-2027-glasgow-1auzkf7gkdxjsmu",
@@ -750,7 +809,7 @@
     "vividseats_url": "https://www.vividseats.com/weezer-tickets-glasgow-ovo-hydro-5-19-2027--concerts-alternative/production/7387545",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/weezer-glasgow-19-05-2027/event/36006504E29B3DF6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -801,7 +860,11 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307719",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307719/Weezer-tickets-Wed-May-19-2027-OVO-Hydro"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307719/Weezer-tickets-Wed-May-19-2027-OVO-Hydro",
+    "organizer_names": [
+      "DF CONCERTS LIMITED",
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ]
   },
   {
     "id": "tm-weezer-2027-birmingham-1anzkf7gkdaoymm",
@@ -819,7 +882,7 @@
     "vividseats_url": "https://www.vividseats.com/weezer-tickets-birmingham-utilita-arena-birmingham-5-21-2027--concerts-alternative/production/7387549",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/weezer-birmingham-21-05-2027/event/23006504C9470BAE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -862,7 +925,10 @@
     "ticketmaster_discovery_event_id": "1ANZkf7GkdaoYmm",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/weezer-tickets-birmingham-utilita-arena-birmingham-21-5-2027/event/107472140"
+    "stubhub_international_url": "https://www.stubhub.ie/weezer-tickets-birmingham-utilita-arena-birmingham-21-5-2027/event/107472140",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-weezer-2027-london-g5vhz_83wtacz",
@@ -880,7 +946,7 @@
     "vividseats_url": "https://www.vividseats.com/weezer-tickets-london-alexandra-palace-5-22-2027--concerts-alternative/production/7387551",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/weezer-london-22-05-2027/event/1F006504BDA453B8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -939,7 +1005,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8195680",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195680/Weezer-tickets-Sat-May-22-2027-Alexandra-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/weezer-tickets-london-alexandra-palace-22-5-2027/event/107469448"
+    "stubhub_international_url": "https://www.stubhub.ie/weezer-tickets-london-alexandra-palace-22-5-2027/event/107469448",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-weezer-2027-cardiff-1auzkf7gkevbx3b",
@@ -957,7 +1026,7 @@
     "vividseats_url": "https://www.vividseats.com/weezer-tickets-cardiff-utilita-arena-cardiff-5-23-2027--concerts-alternative/production/7387553",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/weezer-cardiff-23-05-2027/event/36006504B4EA24BA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1000,7 +1069,11 @@
     "ticketmaster_discovery_event_id": "1AUZkf7GkeVBx3B",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/weezer-tickets-cardiff-utilita-arena-cardiff-23-5-2027/event/107472142"
+    "stubhub_international_url": "https://www.stubhub.ie/weezer-tickets-cardiff-utilita-arena-cardiff-23-5-2027/event/107472142",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "LIVE NATION MUSIC (VENUES) LTD (NEW)"
+    ]
   },
   {
     "id": "tm-weezer-2027-oslo-z698xzb_z16vpd8jgb",
@@ -1018,7 +1091,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.no/event/weezer-tickets/1943426318?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1061,7 +1134,10 @@
     "ticketmaster_discovery_event_id": "Z698xZb_Z16vPd8JGb",
     "timezone": "Europe/Oslo",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/weezer-tickets-oslo-oslo-spektrum-29-5-2027/event/107477080"
+    "stubhub_international_url": "https://www.stubhub.ie/weezer-tickets-oslo-oslo-spektrum-29-5-2027/event/107477080",
+    "organizer_names": [
+      "Live Nation Norway AS"
+    ]
   },
   {
     "id": "tm-weezer-2027-helsinki-z698xz8kz1ku3e4ea",
@@ -1079,7 +1155,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.fi/event/weezer-%7C-legazy-seat-ticket-tickets/352095089?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1122,6 +1198,9 @@
     "ticketmaster_discovery_event_id": "Z698xZ8KZ1ku3e4ea",
     "timezone": "Europe/Helsinki",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/weezer-tickets-helsinki-veikkaus-arena-1-6-2027/event/107477081"
+    "stubhub_international_url": "https://www.stubhub.ie/weezer-tickets-helsinki-veikkaus-arena-1-6-2027/event/107477081",
+    "organizer_names": [
+      "Veikkaus Arena VN Helsinki Oy"
+    ]
   }
 ]

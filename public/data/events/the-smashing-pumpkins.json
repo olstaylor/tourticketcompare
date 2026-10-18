@@ -493,7 +493,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-smashing-pumpkins-the-rats-in-oklahoma-city-oklahoma-10-24-2026/event/0C0064AF267276F0",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -537,13 +537,6 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-oklahoma-city-tickets-10-24-2026/event/107289100",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-21T15:00:00Z",
-        "end": "2026-10-18T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

@@ -2846,7 +2846,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-manchester-21-11-2026/event/1F006511B96E4B8A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2905,7 +2905,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243932",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8243932/Fontaines-DC-tickets-Sat-Nov-21-2026-AO-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-manchester-manchester-ao-arena-21-11-2026/event/107554686"
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-manchester-manchester-ao-arena-21-11-2026/event/107554686",
+    "organizer_names": [
+      "ASM T-A AO ARENA"
+    ]
   },
   {
     "id": "tm-fontaines-d-c-2026-glasgow-1adbz_8gkucuwyw",
@@ -2923,7 +2926,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-glasgow-22-11-2026/event/3600650DADDB2C32",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2982,7 +2985,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243933",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8243933/Fontaines-DC-tickets-Sun-Nov-22-2026-OVO-Hydro",
-    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-glasgow-ovo-hydro-arena-glasgow-22-11-2026/event/107636078"
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-glasgow-ovo-hydro-arena-glasgow-22-11-2026/event/107636078",
+    "organizer_names": [
+      "DF CONCERTS LIMITED",
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ]
   },
   {
     "id": "tm-fontaines-d-c-2027-nashville-z7r9jz1aa7vxe",

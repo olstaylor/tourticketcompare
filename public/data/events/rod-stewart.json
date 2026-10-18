@@ -393,7 +393,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-uncasville-mohegan-sun-arena-ct-3-19-2027/production/7696637",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-uncasville-connecticut-03-19-2027/event/1D006547C8F973C3",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -442,8 +442,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vVZ_fLFX92d",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -1704,7 +1703,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/rod-stewart-dublin-23-04-2027/event/180065388A64693D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1739,7 +1738,11 @@
     },
     "ticketmaster_discovery_event_id": "1kkZvPCFGA1_k0W",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AMPHITHEATRE IRELAND",
+      "AIKEN PROMOTIONS"
+    ]
   },
   {
     "id": "tm-rod-stewart-2027-belfast-1azzkfugkd15ooi",
@@ -1757,7 +1760,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/rod-stewart-belfast-27-04-2027/event/38006536CA2D1468",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1792,7 +1795,11 @@
     },
     "ticketmaster_discovery_event_id": "1AzZkfUGkd15ooI",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AIKEN PROMOTIONS",
+      "O2"
+    ]
   },
   {
     "id": "tm-rod-stewart-2027-glasgow-1auzkfmgkehwkob",
@@ -1810,7 +1817,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-glasgow-29-04-2027/event/36006537BCF4683A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1845,6 +1852,10 @@
     },
     "ticketmaster_discovery_event_id": "1AUZkfMGkeHWkOB",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ]
   }
 ]

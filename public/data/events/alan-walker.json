@@ -1688,7 +1688,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-montreal-mtelus-2-17-2027--concerts-dance-electronica/production/7699411",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alan-walker-montreal-quebec-02-17-2027/event/31006523ABC0787E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1739,6 +1739,16 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8325265",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8325265/Alan-Walker-tickets-Wed-Feb-17-2027-MTelus"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8325265/Alan-Walker-tickets-Wed-Feb-17-2027-MTelus",
+    "organizer_names": [
+      "EVENKO CO-PRO NON-LN"
+    ],
+    "presales": [
+      {
+        "name": "Forfaits VIP Packages",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2027-02-14T17:00:00Z"
+      }
+    ]
   }
 ]

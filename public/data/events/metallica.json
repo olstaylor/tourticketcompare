@@ -2207,7 +2207,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-10-24-2026--concerts-hard-rock/production/6709901",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-24-2026/event/17006455FF52D575",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2267,13 +2267,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7758712",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7758712/Metallica-tickets-Sat-Oct-24-2026-Sphere",
     "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-24-2026/event/107126149",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-03-06T18:00:00Z",
-        "end": "2026-10-18T05:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

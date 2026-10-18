@@ -658,7 +658,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-laval-place-bell-11-17-2026--concerts-rock/production/7325404",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-laval-quebec-11-17-2026/event/310064ED98CF36FA",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -720,6 +720,11 @@
         "name": "Trivium VIP Packages Onsale",
         "start": "2026-07-24T14:00:00Z",
         "end": "2026-11-11T04:55:00Z"
+      },
+      {
+        "name": "Offre 2 pour 1 - BOGO Offer",
+        "start": "2026-10-21T14:00:00Z",
+        "end": "2026-10-29T02:00:00Z"
       }
     ],
     "organizer_names": [

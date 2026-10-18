@@ -51,7 +51,6 @@ export const WRITER_LANES = [
   "daily-audit.yml",
   "nightly-data-sync.yml",
   "tm-new-shows-pr.yml",
-  "tm-data-refresh-pr.yml",
   "seatgeek-cta-sync.yml",
   "vividseats-cta-sync.yml",
   "impact-marketplace-provider-sync.yml",
@@ -65,7 +64,6 @@ export const WRITER_LANES = [
 export const WAITING_LANES = [
   "auto-promote.yml",
   "autopublish-health.yml",
-  "tm-data-refresh-pr.yml",
   "daily-audit.yml",
   "work-queue-repair.yml",
   "nightly-data-sync.yml",
@@ -95,7 +93,6 @@ export const CONFIRM_MS = 20_000;
 // GitHub does not promise FIFO ordering for concurrency groups.
 export const SHARED_WRITER_GROUPS = {
   "tm-new-shows-pr.yml": "tm-new-shows-pr",
-  "tm-data-refresh-pr.yml": "tm-data-refresh-pr",
   "auto-promote.yml": "auto-promote",
   "autopublish-health.yml": "autopublish-health",
   "work-queue-repair.yml": "work-queue-repair",

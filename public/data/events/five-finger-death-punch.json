@@ -1518,7 +1518,7 @@
     "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-bristow-jiffy-lube-live-10-23-2026/production/6517189",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/five-finger-death-punch-bristow-virginia-10-23-2026/event/1500642B15A6A89A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1571,11 +1571,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676550",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676550/Five-Finger-Death-Punch-tickets-Fri-Oct-23-2026-Jiffy-Lube-Live",
     "presales": [
-      {
-        "name": "VIP Package On-sale",
-        "start": "2026-01-16T15:00:00Z",
-        "end": "2026-10-17T02:00:00Z"
-      },
       {
         "name": "Preferred Seating",
         "start": "2026-01-16T15:00:00Z",
@@ -2283,7 +2278,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.fi/event/five-finger-death-punch-%7C-legazy-seat-lippu-tickets/2053135179?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2342,6 +2337,9 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090422",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090422/Five-Finger-Death-Punch-tickets-Mon-Feb-22-2027-Veikkaus-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-helsinki-veikkaus-arena-22-2-2027/event/107162540"
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-helsinki-veikkaus-arena-22-2-2027/event/107162540",
+    "organizer_names": [
+      "Veikkaus Arena VN Helsinki Oy"
+    ]
   }
 ]

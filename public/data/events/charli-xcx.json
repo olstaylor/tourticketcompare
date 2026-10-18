@@ -693,7 +693,7 @@
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-inglewood-kia-forum-10-18-2026--concerts-pop/production/7132072",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-inglewood-california-10-18-2026/event/090064C5F509BA04",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -701,7 +701,7 @@
         "discovery_event_id": "vvG10Z_G9gehI7",
         "url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-inglewood-california-10-18-2026/event/090064C5F509BA04",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -757,7 +757,7 @@
       {
         "name": "Charity Tickets Onsale",
         "start": "2026-06-12T20:00:00Z",
-        "end": "2026-10-19T05:00:00Z"
+        "end": "2026-10-19T04:00:00Z"
       }
     ],
     "organizer_names": [
@@ -780,7 +780,7 @@
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-glendale-desert-diamond-arena-10-21-2026--concerts-pop/production/7132074",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-glendale-arizona-10-21-2026/event/190064C5D6359C3F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -788,7 +788,7 @@
         "discovery_event_id": "17k8v0G6G9pu_YT",
         "url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-glendale-arizona-10-21-2026/event/190064C5D6359C3F",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -841,11 +841,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034406/Charli-XCX-tickets-Wed-Oct-21-2026-Desert-Diamond-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-glendale-tickets-10-21-2026/event/107325085",
     "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-12T20:00:00Z",
-        "end": "2026-10-17T19:00:00Z"
-      },
       {
         "name": "Charity Tickets Onsale",
         "start": "2026-06-12T20:00:00Z",

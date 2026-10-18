@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/aerosmith-tickets-los-angeles-hollywood-bowl-10-29-2026--concerts-rock/production/7666926",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/california-dream-on-aerosmith-friends-hollywood-california-10-29-2026/event/0B00653E2B28C4E7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -74,7 +74,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311062",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311062/Aerosmith-tickets-Thu-Oct-29-2026-Hollywood-Bowl",
-    "stubhub_international_url": "https://www.stubhub.ie/aerosmith-hollywood-tickets-10-29-2026/event/107672550"
+    "stubhub_international_url": "https://www.stubhub.ie/aerosmith-hollywood-tickets-10-29-2026/event/107672550",
+    "organizer_names": [
+      "ANDREW HEWITT & BILL SILVA PRESENTS",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-aerosmith-2026-hollywood-vvg1iz_kzl5ikm",
@@ -92,7 +96,7 @@
     "vividseats_url": "https://www.vividseats.com/aerosmith-tickets-los-angeles-hollywood-bowl-11-1-2026--concerts-rock/production/7666928",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/california-dream-on-aerosmith-friends-hollywood-california-11-01-2026/event/0B00653E2B2EC4EE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -151,6 +155,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311063",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311063/Aerosmith-tickets-Sun-Nov-1-2026-Hollywood-Bowl",
-    "stubhub_international_url": "https://www.stubhub.ie/aerosmith-hollywood-tickets-11-1-2026/event/107672551"
+    "stubhub_international_url": "https://www.stubhub.ie/aerosmith-hollywood-tickets-11-1-2026/event/107672551",
+    "organizer_names": [
+      "ANDREW HEWITT & BILL SILVA PRESENTS",
+      "LIVE NATION MUSIC"
+    ]
   }
 ]

@@ -2223,7 +2223,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/sylvan-esso-dublin-26-01-2027/event/1800654D8CA335B9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2258,7 +2258,10 @@
     },
     "ticketmaster_discovery_event_id": "1AvOZ_fGkUGISpy",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "SINGULAR ARTISTS"
+    ]
   },
   {
     "id": "tm-sylvan-esso-2027-manchester-g5vhz_fudi7pq",
@@ -2276,7 +2279,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sylvan-esso-manchester-28-01-2027/event/1F00654DBBB0495D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2311,7 +2314,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_fUDi7Pq",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "COMMUNION ONE LTD"
+    ]
   },
   {
     "id": "tm-sylvan-esso-2027-london-g5dzz_fua9vy_",
@@ -2329,7 +2335,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sylvan-esso-london-29-01-2027/event/3E00654D895C1C19",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2364,6 +2370,11 @@
     },
     "ticketmaster_discovery_event_id": "G5dzZ_fUa9vY_",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "EAT YOUR OWN EARS",
+      "TROXY (LIMEHOUSE BWG LTD)",
+      "COMMUNION ONE"
+    ]
   }
 ]

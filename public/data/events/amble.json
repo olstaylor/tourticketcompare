@@ -967,7 +967,7 @@
     "vividseats_url": "https://www.vividseats.com/amble-tickets-brooklyn-brooklyn-paramount-11-7-2026--concerts-alternative/production/6982398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-brooklyn-new-york-11-07-2026/event/0000649EC4999749",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1027,13 +1027,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930669",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930669/Amble-tickets-Sat-Nov-7-2026-Brooklyn-Paramount",
     "stubhub_international_url": "https://www.stubhub.ie/amble-brooklyn-tickets-11-7-2026/event/107478110",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-05-08T13:00:00Z",
-        "end": "2026-10-18T02:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -1248,7 +1241,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-nashville-tennessee-11-14-2026/event/1B0064CABED5F446",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1301,11 +1294,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8055458",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8055458/Amble-tickets-Sat-Nov-14-2026-Brooklyn-Bowl-Nashville",
     "presales": [
-      {
-        "name": "Mastercard Preferred Tickets",
-        "start": "2026-06-19T14:00:00Z",
-        "end": "2026-10-18T03:00:00Z"
-      },
       {
         "name": "T-Mobile® Concert Perks",
         "start": "2026-06-19T14:00:00Z",

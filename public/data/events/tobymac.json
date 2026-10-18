@@ -409,7 +409,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-lexington-rupp-arena-1-29-2027/production/7491831",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-lexington-kentucky-01-29-2027/event/16006518AF849566",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -466,11 +466,6 @@
         "name": "General Onsale",
         "start": "2026-09-21T04:01:00Z",
         "end": "2027-01-30T02:00:00Z"
-      },
-      {
-        "name": "Friends & Family Discount",
-        "start": "2026-10-05T04:01:00Z",
-        "end": "2026-10-18T03:59:00Z"
       }
     ],
     "organizer_names": [
@@ -549,7 +544,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-lafayette-louisiana-01-31-2027/event/1B0064FE94017915",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -585,13 +580,6 @@
     "ticketmaster_discovery_event_id": "G5viZ_2BfZ904",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "Friends & Family Discount",
-        "start": "2026-10-05T05:01:00Z",
-        "end": "2026-10-18T04:59:00Z"
-      }
-    ],
     "organizer_names": [
       "AWAKENING EVENTS"
     ]
@@ -612,7 +600,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-tampa-benchmark-international-arena-2-4-2027/production/7491804",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-tampa-florida-02-04-2027/event/0D006519D92EA2FC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -672,13 +660,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239062",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239062/TobyMac-tickets-Thu-Feb-4-2027-Benchmark-International-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/tobymac-tampa-tickets-2-4-2027/event/107666769",
-    "presales": [
-      {
-        "name": "Friends & Family",
-        "start": "2026-10-05T04:01:00Z",
-        "end": "2026-10-18T03:59:00Z"
-      }
-    ],
     "organizer_names": [
       "AWAKENING EVENTS"
     ]
@@ -1130,7 +1111,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-columbus-nationwide-arena-2-18-2027/production/7491821",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-columbus-ohio-02-18-2027/event/05006518DC7A1551",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1182,13 +1163,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239088",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239088/TobyMac-tickets-Thu-Feb-18-2027-Nationwide-Arena",
-    "presales": [
-      {
-        "name": "Friends & Family Offer",
-        "start": "2026-10-05T04:01:00Z",
-        "end": "2026-10-18T03:59:00Z"
-      }
-    ],
     "organizer_names": [
       "AWAKENING EVENTS"
     ]
@@ -1278,7 +1252,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-jacksonville-vystar-veterans-memorial-arena-2-25-2027/production/7491823",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-jacksonville-florida-02-25-2027/event/22006519E9C55984",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1330,13 +1304,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239091",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239091/TobyMac-tickets-Thu-Feb-25-2027-VyStar-Veterans-Memorial-Arena",
-    "presales": [
-      {
-        "name": "Friends & Family Discount",
-        "start": "2026-10-05T04:01:00Z",
-        "end": "2026-10-18T03:59:00Z"
-      }
-    ],
     "organizer_names": [
       "AWAKENING EVENTS"
     ]
@@ -1652,7 +1619,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-fishers-fishers-event-center-3-5-2027--concerts-adult-contemporary/production/7492523",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fishers-indiana-03-05-2027/event/05006515C676EDEE",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1704,13 +1671,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239099",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239099/TobyMac-tickets-Fri-Mar-5-2027-Fishers-Event-Center",
-    "presales": [
-      {
-        "name": "Friends & Family Offer",
-        "start": "2026-10-05T04:01:00Z",
-        "end": "2026-10-18T03:59:00Z"
-      }
-    ],
     "organizer_names": [
       "AWAKENING EVENTS"
     ]
@@ -2516,7 +2476,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-sioux-falls-south-dakota-03-16-2027/event/06006319C4C95295",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2569,13 +2529,6 @@
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7376289",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7376289/TobyMac-tickets-Tue-Mar-16-2027-Denny-Sanford-Premier-Center",
-    "presales": [
-      {
-        "name": "Friends & Family",
-        "start": "2026-10-05T05:01:00Z",
-        "end": "2026-10-18T04:59:00Z"
-      }
-    ],
     "organizer_names": [
       "AWAKENING EVENTS"
     ]

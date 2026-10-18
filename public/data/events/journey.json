@@ -521,7 +521,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-baltimore-cfg-bank-arena-10-24-2026/production/7022013",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-baltimore-maryland-10-24-2026/event/150064A4D63DEA31",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -571,13 +571,6 @@
     "ticketmaster_discovery_event_id": "17A8v0G61Kp2rIs",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "Halloween BOGO Offer",
-        "start": "2026-10-14T14:00:00Z",
-        "end": "2026-10-18T02:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956775/Journey-tickets-Sat-Oct-24-2026-CFG-Bank-Arena",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956775",
     "organizer_names": [
@@ -680,7 +673,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-philadelphia-xfinity-mobile-arena-10-28-2026/production/7022003",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-philadelphia-pennsylvania-10-28-2026/event/300064A5A4856953",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -742,11 +735,6 @@
         "name": "AARP Memeber Offer",
         "start": "2026-08-28T11:00:00Z",
         "end": "2026-10-28T20:00:00Z"
-      },
-      {
-        "name": "Halloween BOGO",
-        "start": "2026-10-14T14:00:00Z",
-        "end": "2026-10-18T02:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956777/Journey-tickets-Wed-Oct-28-2026-Xfinity-Mobile-Arena",
@@ -1040,7 +1028,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-uniondale-new-york-11-07-2026/event/000064A4C567895B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1091,11 +1079,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-05-15T14:00:00Z",
-        "end": "2026-10-17T21:00:00Z"
-      },
       {
         "name": "AARP Member Offer",
         "start": "2026-08-28T14:00:00Z",

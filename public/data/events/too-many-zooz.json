@@ -563,7 +563,7 @@
     "id": "tm-too-many-zooz-2026-toronto-rz7hnez1affov7",
     "artist_slug": "too-many-zooz",
     "artist_name": "Too Many Zooz",
-    "event_name": "Too Many Zooz; Live in Canada (Mostly!) Tour",
+    "event_name": "Too Many Zooz; Live in Canada (Mostly!) Tour w/ Compost",
     "city": "Toronto",
     "country": "Canada",
     "venue": "Lee's Palace",
@@ -575,7 +575,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.ca/event/too-many-zooz-live-in-lees-palace-tickets/14211044",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -616,7 +616,7 @@
     "id": "tm-too-many-zooz-2026-ottawa-rz7hnez1af1e8f",
     "artist_slug": "too-many-zooz",
     "artist_name": "Too Many Zooz",
-    "event_name": "Too Many Zooz",
+    "event_name": "Too Many Zooz, Compost",
     "city": "Ottawa",
     "country": "Canada",
     "venue": "Overflow Brewing Co.",
@@ -628,7 +628,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.ca/event/too-many-zooz-overflow-brewing-co-tickets/14282414",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-18",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {

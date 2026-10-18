@@ -1209,7 +1209,7 @@
     "vividseats_url": "https://www.vividseats.com/backstreet-boys-tickets-toronto-rogers-centre-3-7-2027--concerts-pop/production/7696341",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-03-07-2027/event/10006549A7F3E294",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1244,6 +1244,10 @@
     },
     "ticketmaster_discovery_event_id": "1A8Zk4aGkeEHX1f",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ]
   }
 ]

@@ -278,6 +278,19 @@ export function eventPriceComparable(event, now = Date.now()) {
 }
 
 /**
+ * Does this event carry at least one listed-price lane? The artist-city gate's
+ * price-data requirement (owner-approved 2026-10-17): a multi-date run needs
+ * real listed-price data on one of its dates, not a two-lane comparison.
+ *
+ * @param {any} event Raw events.json record.
+ * @param {number} [now]
+ * @returns {boolean}
+ */
+export function eventPriceListed(event, now = Date.now()) {
+  return eventPublishable(event, now) && eventPriceSnapshotProviders(event).length >= 1;
+}
+
+/**
  * Does this event have a Ticketmaster destination suitable for the route's
  * event-level representation? verification_status remains useful provenance,
  * but no longer creates a manual review gate. The outbound redirect performs
@@ -329,6 +342,7 @@ export const EXCLUSION_REASONS = Object.freeze({
   BELOW_CITY_THRESHOLD: "below_city_threshold",
   BELOW_PRICE_COVERAGE_THRESHOLD: "below_price_coverage_threshold",
   NO_PRICE_COMPARISON: "no_price_comparison",
+  NO_LISTED_PRICE: "no_listed_price",
   BELOW_VENUE_THRESHOLD: "below_venue_threshold",
   DUPLICATES_ARTIST_PAGE: "duplicates_artist_page",
   NO_PRESALE_WINDOW: "no_presale_window"
@@ -427,7 +441,7 @@ export function venueGate(venue) {
  * editorial half (is the artist itself indexable_with_substantial_content?),
  * exactly as it already does for the artist page.
  *
- * @param {{ showCount: number, publishableCount: number, comparableCount: number, artistCityCount: number }} artistCity
+ * @param {{ showCount: number, publishableCount: number, comparableCount: number, pricedCount: number, artistCityCount: number }} artistCity
  *   `artistCityCount` is how many cities the artist has upcoming shows in.
  * @returns {GateDecision}
  */
@@ -437,7 +451,7 @@ export function artistCityGate(artistCity) {
   if (!artistCity?.showCount) reasons.push(EXCLUSION_REASONS.NO_UPCOMING_SHOWS);
   if (publishable < 1) reasons.push(EXCLUSION_REASONS.NO_PUBLISHABLE_DESTINATION);
   else if (publishable < ARTIST_CITY_MIN_SHOWS) reasons.push(EXCLUSION_REASONS.BELOW_SHOW_THRESHOLD);
-  if (publishable >= 1 && !(artistCity?.comparableCount > 0)) reasons.push(EXCLUSION_REASONS.NO_PRICE_COMPARISON);
+  if (publishable >= 1 && !(artistCity?.pricedCount > 0)) reasons.push(EXCLUSION_REASONS.NO_LISTED_PRICE);
   if (artistCity?.showCount && (artistCity?.artistCityCount || 0) < ARTIST_CITY_MIN_ARTIST_CITIES) reasons.push(EXCLUSION_REASONS.DUPLICATES_ARTIST_PAGE);
   return { indexable: reasons.length === 0, reasons };
 }

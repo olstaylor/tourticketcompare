@@ -216,11 +216,15 @@ const priced = {
     "a venue with no comparison data is excluded"
   );
   assert(
-    artistCityGate({ showCount: 2, publishableCount: 2, comparableCount: 0, artistCityCount: 2 }).reasons.includes(EXCLUSION_REASONS.NO_PRICE_COMPARISON),
-    "a multi-date artist-city with no comparison data reports no_price_comparison"
+    artistCityGate({ showCount: 2, publishableCount: 2, comparableCount: 0, pricedCount: 0, artistCityCount: 2 }).reasons.includes(EXCLUSION_REASONS.NO_LISTED_PRICE),
+    "a multi-date artist-city with no listed price on any date reports no_listed_price"
   );
   assert(
-    artistCityGate({ showCount: 3, publishableCount: 3, comparableCount: 3, artistCityCount: 1 }).reasons.includes(EXCLUSION_REASONS.DUPLICATES_ARTIST_PAGE),
+    artistCityGate({ showCount: 2, publishableCount: 2, comparableCount: 0, pricedCount: 1, artistCityCount: 2 }).indexable,
+    "a multi-date artist-city with one listed-price lane is indexable without a two-lane comparison"
+  );
+  assert(
+    artistCityGate({ showCount: 3, publishableCount: 3, comparableCount: 3, pricedCount: 3, artistCityCount: 1 }).reasons.includes(EXCLUSION_REASONS.DUPLICATES_ARTIST_PAGE),
     "the artist's only city repeats the artist page and reports duplicates_artist_page"
   );
   assert(
@@ -264,7 +268,7 @@ const priced = {
   );
 
   assert(
-    artistCityGate({ showCount: 2, publishableCount: ARTIST_CITY_MIN_SHOWS, comparableCount: 1, artistCityCount: 2 }).indexable,
+    artistCityGate({ showCount: 2, publishableCount: ARTIST_CITY_MIN_SHOWS, comparableCount: 1, pricedCount: 1, artistCityCount: 2 }).indexable,
     "an artist-city run on the threshold is indexable"
   );
   assert(

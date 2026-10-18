@@ -381,11 +381,11 @@ for (const entry of artistCityEntries) {
   // deriveArtistCities() cannot silently move the indexable set on its own.
   const expectedIndexable =
     entry.publishableCount >= policyModule.ARTIST_CITY_MIN_SHOWS &&
-    entry.comparableCount >= 1 &&
+    entry.pricedCount >= 1 &&
     entry.artistCityCount >= policyModule.ARTIST_CITY_MIN_ARTIST_CITIES;
   if (page.indexable !== expectedIndexable) {
     problems.push(
-      `artist-city quality: ${entry.path} renders ${page.indexable ? "index" : "noindex"} but has ${entry.publishableCount} publishable upcoming show(s) (threshold ${policyModule.ARTIST_CITY_MIN_SHOWS}), ${entry.comparableCount} with two price lanes, and the artist plays ${entry.artistCityCount} upcoming cities`
+      `artist-city quality: ${entry.path} renders ${page.indexable ? "index" : "noindex"} but has ${entry.publishableCount} publishable upcoming show(s) (threshold ${policyModule.ARTIST_CITY_MIN_SHOWS}), ${entry.pricedCount} with a listed price, and the artist plays ${entry.artistCityCount} upcoming cities`
     );
   }
   const mainText = decodeEntities(page.mainHtml);

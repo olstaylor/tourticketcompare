@@ -221,10 +221,21 @@ This is where the policy makes its substantive change.
 
 | Situation | Response |
 |---|---|
-| Artist editorially indexable **and** ≥ 2 publishable upcoming shows in the city **and** ≥ 1 of them with ≥ 2 listed-price lanes **and** the artist plays ≥ 2 cities | **200, `index,follow`**, self-canonical, in the sitemap |
-| Artist editorially indexable **and** exactly 1 publishable upcoming show, no date with two price lanes, or the artist's only city | **200, `noindex,follow`**, self-canonical, not in the sitemap, still linked |
+| Artist editorially indexable **and** ≥ 2 publishable upcoming shows in the city **and** ≥ 1 of them with a listed-price lane **and** the artist plays ≥ 2 cities | **200, `index,follow`**, self-canonical, in the sitemap |
+| Artist editorially indexable **and** exactly 1 publishable upcoming show, no date with a listed price, or the artist's only city | **200, `noindex,follow`**, self-canonical, not in the sitemap, still linked |
 | Real footprint in that city but no publishable upcoming show, or artist under review | **301 to `/artists/<artist>`** |
 | Anything else | **404** |
+
+**Why one price lane is enough here (owner-approved 2026-10-17).** The
+two-lane comparison rule (Comparison data, above) still governs city, venue,
+price-guide and event pages. An artist-city run answers "<artist> tickets in
+<city>" with a run of dates, and one listed-price lane on one of them is real
+price data for that query. Outside the US many runs list on StubHub
+International alone, so the two-lane rule held back 80 multi-date pages
+(Olivia Rodrigo Toronto, Karol G Madrid, Niall Horan Dublin) that had Search
+Console impressions. The title promises "Compare Prices" only when a date has
+two lanes (`comparableCount`), so a one-lane page makes no comparison claim.
+Below one listed price the reason is `no_listed_price`.
 
 **Why a single date is not indexable.** The page renders one show card. Every
 fact on it — the date, the venue, the provider destinations, the price snapshot

@@ -90,10 +90,8 @@ match is only applied (`high_confidence`) when **all** mandatory checks pass:
 Anything short of that is skipped (proposal: `needs_review` / `reject`) and left
 for human verification. The apply path only touches events that currently lack
 a valid `seatgeek_url` and are either Ticketmaster-verified or
-`machine_high_confidence` or `needs_recheck` with a Ticketmaster identity
-(source, event id, https storefront URL). `needs_recheck` rows joined on
-2026-10-17 (owner-approved): their SeatGeek link publishes only once
-`verify-seatgeek-events.mjs` confirms it against the SeatGeek API record.
+`machine_high_confidence` with a Ticketmaster identity (source, event id, https
+storefront URL); `needs_recheck` rows are excluded (owner-approved 2026-10-06).
 
 ## Verification & standalone SeatGeek CTAs (`verify-seatgeek-events.mjs`)
 

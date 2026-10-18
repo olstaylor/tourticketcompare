@@ -7,10 +7,7 @@
 // "SeatGeek event CTAs"). Zero, weak, or ambiguous candidates never write.
 // Eligible: Ticketmaster-verified rows, and machine_high_confidence rows that
 // carry the same Ticketmaster identity (source, event id, https storefront
-// URL), and since 2026-10-17 (owner-approved) needs_recheck rows with that
-// identity: the status tracks a broken Ticketmaster storefront, not the show,
-// and a SeatGeek link on such a row publishes only once
-// verify-seatgeek-events.mjs confirms it against the SeatGeek API record.
+// URL). needs_recheck rows (broken Ticketmaster storefront) stay excluded.
 //
 // Scheduling contract (this is what stops the run starving events):
 //
@@ -284,11 +281,9 @@ function eventIsTicketmasterVerified(event) {
 // The set enrichment may search and write. The matcher's own gates (exact
 // venue-local date, city/metro, score threshold, no conflicting candidate)
 // are unchanged; only which rows are offered to it widened.
-const ENRICHMENT_ELIGIBLE_STATUSES = new Set(["machine_high_confidence", "needs_recheck"]);
-
 function eventIsEnrichmentEligible(event) {
   if (eventIsTicketmasterVerified(event)) return true;
-  return eventHasTicketmasterAnchor(event) && ENRICHMENT_ELIGIBLE_STATUSES.has(clean(event.verification_status).toLowerCase());
+  return eventHasTicketmasterAnchor(event) && clean(event.verification_status).toLowerCase() === "machine_high_confidence";
 }
 
 async function resumeShowIdFromLog(logPath) {
@@ -1081,7 +1076,7 @@ function renderLog(results, summary, preSkipped = []) {
     `- SeatGeek client secret present: ${summary.api_environment.seatgeek_client_secret_present}`,
     `- API access with client ID only: ${summary.api_environment.client_id_only_http_status === 200 ? "HTTP 200" : `not confirmed (${summary.api_environment.client_id_only_http_status || "no status"})`}`,
     `- Total events in data: ${summary.total_events}`,
-    `- Enrichment-eligible events (Ticketmaster-verified, or machine_high_confidence/needs_recheck with a Ticketmaster identity): ${summary.enrichment_eligible_events}`,
+    `- Enrichment-eligible events (Ticketmaster-verified, or machine_high_confidence with a Ticketmaster identity): ${summary.enrichment_eligible_events}`,
     `- Events already carrying a valid SeatGeek URL: ${summary.events_with_valid_seatgeek_url}`,
     `- Enrichment-eligible events already carrying a valid SeatGeek URL: ${summary.enrichment_eligible_with_valid_seatgeek_url}`,
     `- Enrichment-eligible events still missing a valid SeatGeek URL before this run: ${summary.enrichment_eligible_missing_valid_seatgeek_url}`,
@@ -1232,7 +1227,7 @@ function selfTest() {
   assert("past events are reported with a reason", pastRun.skipped.filter((row) => row.reason === "past_event").length === 2);
 
   // Eligibility: Ticketmaster-verified rows, plus machine_high_confidence rows
-  // and needs_recheck rows that carry the Ticketmaster identity. Unanchored rows stay out.
+  // that carry the Ticketmaster identity. needs_recheck and unanchored rows stay out.
   const pool = eligibleEvents([
     tmVerified("verified"),
     tmVerified("machine", { verification_status: "machine_high_confidence", provider_links: {} }),
@@ -1240,7 +1235,7 @@ function selfTest() {
     tmVerified("no-anchor", { verification_status: "machine_high_confidence", provider_links: {}, ticketmaster_url: "" }),
     tmVerified("other-source", { verification_status: "machine_high_confidence", provider_links: {}, source_type: "manual" })
   ], baseOptions, now).eligible.map((row) => row.event.id).sort().join(",");
-  assert("machine_high_confidence and needs_recheck rows with a Ticketmaster identity are eligible; unanchored rows are not", pool === "machine,recheck,verified");
+  assert("machine_high_confidence rows with a Ticketmaster identity are eligible; needs_recheck and unanchored rows are not", pool === "machine,verified");
   assert(
     "no attempt is ever built for a skipped past event",
     // The run loop only ever calls buildAttempts on eligible rows, so proving

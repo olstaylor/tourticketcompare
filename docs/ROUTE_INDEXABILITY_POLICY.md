@@ -514,16 +514,19 @@ near the top and split the topic by intent, not by duplicating it. One URL per
 artist, never one per tour or year — the year in the title is read off the
 upcoming dates, so the same URL carries from one tour to the next.
 
-**Exists only when approved.** A guide renders only for a slug in
-`PRICE_GUIDE_ARTISTS` (`functions/_price-guides.js`). Any other artist's path
-404s: the site does not generate pages it has not been asked to publish. Tour
-launches are *proposed* daily in the `automation:price-guide-candidates` issue
-(`price-guide-candidates.yml`); adding the slug is the approval.
+**Exists when the data qualifies (owner decision 2026-10-17).** A guide renders
+for any `indexable_with_substantial_content` artist whose dates pass the
+indexing gate below, with no hand-added slug. Below the gate an unlisted guide
+**301s to the artist page** and renders again once its data qualifies. An
+artist under review 404s. `PRICE_GUIDE_ARTISTS` (`functions/_price-guides.js`)
+keeps a guide live between tours. The `automation:price-guide-candidates` issue
+(`price-guide-candidates.yml`) reports tour launches and which are already live.
 
-**Renders when** the guide is approved, the artist is
-`indexable_with_substantial_content`, and it has ≥ 1 publishable upcoming date.
-An approved guide that stops qualifying (between tours, or artist under review)
-**301s to the artist page** and renders again when the next run lands.
+**A listed guide renders when** the artist is
+`indexable_with_substantial_content` and it has ≥ 1 publishable upcoming date
+(noindex while below the gate). A listed guide that stops qualifying (between
+tours, or artist under review) **301s to the artist page** and renders again
+when the next run lands.
 
 **Indexable when** it has ≥ 6 upcoming dates (`PRICE_GUIDE_MIN_SHOWS`) in ≥ 2
 cities (`PRICE_GUIDE_MIN_CITIES`), ≥ 1 publishable, and ≥ 3 of them carry

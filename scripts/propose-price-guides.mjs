@@ -37,7 +37,7 @@ function day(iso) {
 
 export function renderIssue({ generatedAt, candidates, ready = [], live }) {
   const lines = [
-    `Price-guide candidates — ${generatedAt} (propose-only; nothing is published by this issue)`,
+    `Price-guide candidates — ${generatedAt} (report-only; guides that pass the gate are already live)`,
     "",
     `A candidate is an indexable artist with no price guide whose Ticketmaster public on-sale opened in the last ${PRICE_GUIDE_LAUNCH_LOOKBACK_DAYS} days or opens in the next ${PRICE_GUIDE_LAUNCH_LOOKAHEAD_DAYS}, for at least ${PRICE_GUIDE_LAUNCH_MIN_SHOWS} upcoming dates. Since 2026-10-17 a guide goes live on its own once its data clears the guide gate, so the "live automatically" sections below need no action. Adding a slug to \`PRICE_GUIDE_ARTISTS\` in \`functions/_price-guides.js\` keeps a guide live between tours. One guide per artist, never one per tour.`,
     "",

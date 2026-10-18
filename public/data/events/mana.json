@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "0F006379C26F7724",
     "ticketmaster_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-seattle-washington-10-17-2026/event/0F006379C26F7724",
     "seatgeek_url": "https://seatgeek.com/mana-tickets/seattle-washington-climate-pledge-arena-2026-10-17-8-30-pm/concert/17938856",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mana-tickets-seattle-climate-pledge-arena-10-17-2026--concerts-latin-music/production/6361511",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-seattle-washington-10-17-2026/event/0F006379C26F7724",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6361511,
+        "url": "https://www.vividseats.com/mana-tickets-seattle-climate-pledge-arena-10-17-2026--concerts-latin-music/production/6361511",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -99,11 +99,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7594539",
+        "url": "https://www.ticketnetwork.com/en/p/7594539",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7594539",
+        "url": "https://www.ticketliquidator.com/tickets/7594539/Mana-tickets-Sat-Oct-17-2026-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZbMEehMj0",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7594539",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7594539/Mana-tickets-Sat-Oct-17-2026-Climate-Pledge-Arena"
   },
   {
     "id": "tm-mana-2026-rosemont-vv167zkuuokza2adc5",
@@ -118,7 +134,7 @@
     "ticketmaster_event_id": "04006376813E42DA",
     "ticketmaster_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-rosemont-illinois-10-30-2026/event/04006376813E42DA",
     "seatgeek_url": "https://seatgeek.com/mana-tickets/rosemont-illinois-allstate-arena-2026-10-30-8-pm/concert/17938857",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mana-tickets-rosemont-allstate-arena-10-30-2026--concerts-latin-music/production/6361521",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-rosemont-illinois-10-30-2026/event/04006376813E42DA",
     "last_verified_at": null,
@@ -140,11 +156,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6361521,
+        "url": "https://www.vividseats.com/mana-tickets-rosemont-allstate-arena-10-30-2026--concerts-latin-music/production/6361521",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -152,11 +168,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7594540",
+        "url": "https://www.ticketnetwork.com/en/p/7594540",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7594540",
+        "url": "https://www.ticketliquidator.com/tickets/7594540/Mana-tickets-Fri-Oct-30-2026-Allstate-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv167ZkuUOKZA2AdC5",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7594540",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7594540/Mana-tickets-Fri-Oct-30-2026-Allstate-Arena"
   },
   {
     "id": "tm-mana-2026-detroit-vv1fozbj3ezozd87v",
@@ -205,11 +237,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7032741",
+        "url": "https://www.ticketnetwork.com/en/p/7032741",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7032741",
+        "url": "https://www.ticketliquidator.com/tickets/7032741/Mana-tickets-Sun-Nov-1-2026-Little-Caesars-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1FOZbJ3eZOZd87v",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7032741",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7032741/Mana-tickets-Sun-Nov-1-2026-Little-Caesars-Arena"
   },
   {
     "id": "tm-mana-2026-houston-z7r9jz1a7rbk4",
@@ -224,7 +272,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7rbk4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rbk4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mana-tickets-houston-toyota-center---tx-11-6-2026--concerts-latin-music/production/6361549",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rbk4",
     "last_verified_at": null,
@@ -246,11 +294,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6361549,
+        "url": "https://www.vividseats.com/mana-tickets-houston-toyota-center---tx-11-6-2026--concerts-latin-music/production/6361549",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -258,11 +306,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7594542",
+        "url": "https://www.ticketnetwork.com/en/p/7594542",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7594542",
+        "url": "https://www.ticketliquidator.com/tickets/7594542/Mana-tickets-Fri-Nov-6-2026-Toyota-Center-TX",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7rbk4",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7594542",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7594542/Mana-tickets-Fri-Nov-6-2026-Toyota-Center-TX"
   },
   {
     "id": "tm-mana-2026-austin-g5dizbmoaqckm",
@@ -277,7 +341,7 @@
     "ticketmaster_event_id": "3A0063780576D4F7",
     "ticketmaster_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-austin-texas-11-08-2026/event/3A0063780576D4F7",
     "seatgeek_url": "https://seatgeek.com/mana-tickets/austin-texas-moody-center-atx-2026-11-08-8-30-pm/concert/17938859",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mana-tickets-austin-moody-center-atx-11-8-2026--concerts-latin-music/production/6361403",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-austin-texas-11-08-2026/event/3A0063780576D4F7",
     "last_verified_at": null,
@@ -299,11 +363,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6361403,
+        "url": "https://www.vividseats.com/mana-tickets-austin-moody-center-atx-11-8-2026--concerts-latin-music/production/6361403",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -311,11 +375,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7594543",
+        "url": "https://www.ticketnetwork.com/en/p/7594543",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7594543",
+        "url": "https://www.ticketliquidator.com/tickets/7594543/Mana-tickets-Sun-Nov-8-2026-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZbMOAqcKM",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7594543",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7594543/Mana-tickets-Sun-Nov-8-2026-Moody-Center-ATX"
   },
   {
     "id": "tm-mana-2026-ciudad-de-mexico-17azv0g6glh8hre",
@@ -364,11 +444,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8178327",
+        "url": "https://www.ticketnetwork.com/en/p/8178327",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8178327",
+        "url": "https://www.ticketliquidator.com/tickets/8178327/Mana-tickets-Wed-Dec-16-2026-Estadio-GNP-Seguros-Mexico-City",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AZv0G6Glh8Hre",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8178327",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8178327/Mana-tickets-Wed-Dec-16-2026-Estadio-GNP-Seguros-Mexico-City"
   },
   {
     "id": "tm-mana-2026-ciudad-de-mexico-17azv0g6gcz4ax4",

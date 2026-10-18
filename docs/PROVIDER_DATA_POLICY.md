@@ -104,6 +104,25 @@ No inventory/scarcity claim, final-price claim, scraping, generic search link, c
 
 ---
 
+## Off-site use: social posts and press
+
+**Owner-confirmed 2026-10-17** for **Vivid Seats, TicketNetwork and StubHub International**: each programme replied yes to the request in which the owner asked to use their listed-price snapshots off the site, in two ways:
+
+- **Social posts** on TourTicketCompare's own accounts, linking to the site's event page.
+- **Press use:** price figures sent to journalists in a pitch, and figures in a published data story that a reporter may quote.
+
+The request set these conditions, and they bind every off-site use:
+
+- Every figure names the provider, carries its capture time, and is called a listed price, never a checkout total.
+- Only figures that already pass the on-site display gates (exact-event mapping, approved source, freshness) may be used, and aggregates are built only from such snapshots.
+- No ranking of sites as cheapest, and no availability, scarcity or inventory claims.
+
+SeatGeek was also asked and said yes, but it has no numeric price lane, so there is nothing to use. Ticket Liquidator was not asked and stays excluded. As everywhere else, confirmation is never inferred between StubHub International and StubHub US/Canada.
+
+This grant covers rights only. A claim about price behaviour, such as prices falling before a show, still needs evidence that meets its own bar, and every automated publish path stays under `SAFE_PUBLISHING_RULES.md`.
+
+---
+
 ## Impact Affiliate Network
 
 **Role:** Affiliate tracking and link generation for approved providers.

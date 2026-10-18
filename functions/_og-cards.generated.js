@@ -367,6 +367,7 @@ export const OG_CARDS = {
   "/artists/rod-stewart": {"url":"/og/artists-rod-stewart.png","alt":"Tickets & tour dates: Rod Stewart"},
   "/artists/rod-stewart/presale": {"url":"/og/artists-rod-stewart-presale.png","alt":"Presale: Rod Stewart"},
   "/artists/rod-stewart/ticket-prices": {"url":"/og/artists-rod-stewart-ticket-prices.png","alt":"Ticket prices: Rod Stewart"},
+  "/artists/rod-stewart/tickets/dublin-ireland": {"url":"/og/artists-rod-stewart-tickets-dublin-ireland.png","alt":"Tickets: Rod Stewart in Dublin"},
   "/artists/rod-stewart/tickets/glasgow-united-kingdom": {"url":"/og/artists-rod-stewart-tickets-glasgow-united-kingdom.png","alt":"Tickets: Rod Stewart in Glasgow"},
   "/artists/rod-stewart/tickets/london-united-kingdom": {"url":"/og/artists-rod-stewart-tickets-london-united-kingdom.png","alt":"Tickets: Rod Stewart in London"},
   "/artists/rod-stewart/tickets/manchester-united-kingdom": {"url":"/og/artists-rod-stewart-tickets-manchester-united-kingdom.png","alt":"Tickets: Rod Stewart in Manchester"},

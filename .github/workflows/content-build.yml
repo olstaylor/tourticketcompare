@@ -66,7 +66,7 @@ jobs:
     # The retry path below re-runs the whole validation suite against the new
     # base rather than pushing an unvalidated rebuild, so the budget has to
     # cover more than one pass.
-    timeout-minutes: 50
+    timeout-minutes: 59
     steps:
       - name: Checkout
         uses: actions/checkout@v5

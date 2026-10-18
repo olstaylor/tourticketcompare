@@ -49,12 +49,12 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     # Reserve cumulative queue time for all three runs, even when their jobs
-    # start together: 60/150/240 minutes waiting, then 90 minutes of work.
+    # start together: 60/160/260 minutes waiting, then 100 minutes of work.
     # The preceding job's whole cap bounds the next run's wait; all stay
-    # below GitHub's six-hour hosted-job maximum. Manual runs use the first cap.
-    timeout-minutes: ${{ fromJSON('{"0 19 * * *":150,"30 19 * * *":240,"0 20 * * *":330}')[github.event.schedule] || 150 }}
+    # within GitHub's six-hour hosted-job maximum. Manual runs use the first cap.
+    timeout-minutes: ${{ fromJSON('{"0 19 * * *":160,"30 19 * * *":260,"0 20 * * *":360}')[github.event.schedule] || 160 }}
     env:
-      WRITER_WAIT_MINUTES: ${{ fromJSON('{"0 19 * * *":60,"30 19 * * *":150,"0 20 * * *":240}')[github.event.schedule] || 60 }}
+      WRITER_WAIT_MINUTES: ${{ fromJSON('{"0 19 * * *":60,"30 19 * * *":160,"0 20 * * *":260}')[github.event.schedule] || 60 }}
       IMPACT_CATALOG_PROXY_URL: https://tourticketcompare.com/api/impact/products
       # /api/impact/products is token-gated; without this the proxy returns 404.
       IMPACT_CATALOG_PROXY_TOKEN: ${{ secrets.DEBUG_API_TOKEN }}
@@ -212,7 +212,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Open validated provider PR
-        timeout-minutes: 30
+        timeout-minutes: 40
         if: steps.config.outputs.mode == 'apply' && (steps.diff.outputs.changed == 'true' || steps.diff.outputs.log_changed == 'true')
         env:
           PROVIDER: ${{ steps.config.outputs.provider }}

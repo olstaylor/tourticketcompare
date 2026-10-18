@@ -79,7 +79,7 @@ jobs:
     runs-on: ubuntu-latest
     # The repair runs the artefact's own check twice, its generator, and the
     # full `test:mvp` suite, then waits for Prelaunch Validation to reach a
-    # verdict on the pushed head (capped at 25 minutes by the helper).
+    # verdict on the pushed head (capped at 35 minutes by the helper).
     timeout-minutes: 59
     steps:
       - name: Checkout

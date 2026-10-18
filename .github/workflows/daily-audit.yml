@@ -174,7 +174,7 @@ jobs:
     # Covers the wait for the dispatched Prelaunch Validation run on the pushed
     # branch (~5 minutes warm, capped at 25 in the helper) on top of this job's
     # own work.
-    timeout-minutes: 49
+    timeout-minutes: 59
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -378,7 +378,7 @@ jobs:
     if: always() && inputs.dry_run != true
     # As above: room for the dispatched Prelaunch Validation run this job waits
     # on before its PR can merge.
-    timeout-minutes: 49
+    timeout-minutes: 59
     steps:
       - name: Checkout
         uses: actions/checkout@v5

@@ -28,7 +28,7 @@ jobs:
   promote:
     runs-on: ubuntu-latest
     # Measured 2026-10-12..16: ~4 min screening, ~28-32 min ingest and the
-    # in-job suite, then up to 25 min for exact-head validation and the merge.
+    # in-job suite, then up to 35 min for exact-head validation and the merge.
     # At 59 the 16 Oct run was cancelled mid-merge with its PR (#1618) green.
     # Publishing keeps its own sub-60 cap below (fresh App token lifetime).
     timeout-minutes: 90

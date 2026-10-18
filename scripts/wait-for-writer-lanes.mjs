@@ -352,7 +352,7 @@ async function selfTest() {
     return JSON.parse(match[1]);
   };
   const impactWaits = scheduledMap(impact.env.WRITER_WAIT_MINUTES, 60);
-  const impactLimits = scheduledMap(impact["timeout-minutes"], 150);
+  const impactLimits = scheduledMap(impact["timeout-minutes"], 160);
   assert.equal(impact.steps.find((s) => /wait-for-writer-lanes\.mjs/.test(s.run || ""))?.run,
     'node scripts/wait-for-writer-lanes.mjs --max-wait-minutes "$WRITER_WAIT_MINUTES"', "Impact must pass the selected schedule budget to the helper");
   const budgetFor = (file, job, schedule = "0 19 * * *") => file === "impact-marketplace-provider-sync.yml"
@@ -430,7 +430,7 @@ async function selfTest() {
     assert(limit - budget >= 75, `${file}: queueing must leave time for generation and both validation gates`);
     const publish = job.steps.find((s) => /node scripts\/open-automation-pr\.mjs/.test(s.run || ""));
     assert(publish["timeout-minutes"] >= REQUIRED_CHECK_TIMEOUT_MS / 60_000 + 5 && publish["timeout-minutes"] < 60,
-      `${file}: publication must fit the fresh App token and the 25-minute head-check budget`);
+      `${file}: publication must fit the fresh App token and the head-check budget`);
   }
 
   // Regression: timestamps must never be applied from reports generated

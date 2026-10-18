@@ -15,9 +15,11 @@
 
 export const DEFAULT_WORKFLOW_FILE = "prelaunch-validation.yml";
 export const DEFAULT_CHECK_NAME = "test-mvp";
-// A cold Prelaunch Validation run is ~5 minutes; the cap is generous enough to
-// absorb a queue backlog and still bounded so a lane cannot idle for an hour.
-export const DEFAULT_TIMEOUT_MS = 25 * 60 * 1000;
+// A Prelaunch Validation run now takes 23-26 minutes (it was ~5 when this cap
+// was set at 25, and on 2026-10-17 the SeatGeek lane timed out with both of
+// its head checks green seconds later). 35 minutes leaves room for a short
+// queue and stays bounded so a lane cannot idle for an hour.
+export const DEFAULT_TIMEOUT_MS = 35 * 60 * 1000;
 export const DEFAULT_POLL_MS = 15000;
 
 // Classifies one poll of the check runs on a SHA. Kept separate from the loop

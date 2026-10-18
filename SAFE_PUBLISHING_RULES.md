@@ -67,6 +67,7 @@ would put real editorial content at risk of being overwritten.
 | Verification dates + guide-source link record | `daily-audit.yml` (`verification-dates`) | one commit: `last_verified_at` fields in `artists.json`, `data/guide-source-link-checks.json`, the rebuilt `guides-content.json`, and the generated blocks of `PROJECT_STATUS.md` | Discovery, Enrichment, and Rendering |
 | Status figures | `daily-audit.yml` (`status-figures`) | the generated blocks of `PROJECT_STATUS.md` only — never its human prose or notes | Discovery, Enrichment, and Rendering |
 | Generated content | `content-build.yml` | exactly four generated files, never `content/**` | Discovery, Enrichment, and Rendering |
+| Price-guide approvals (owner-approved 2026-10-17) | `price-guide-candidates.yml` | appends slugs to `PRICE_GUIDE_ARTISTS` in `functions/_price-guides.js` via `price-guides:propose --apply`, only for artists whose guide would be indexed today under the unchanged guide gate, plus their regenerated OG cards; never the gate, the template or any data file | Schema and SEO |
 
 **C. Display-only exception.** `MusicEvent` `offers` behind
 `SCHEMA_OFFERS_ENABLED` is a schema/display exception, **not** an automation

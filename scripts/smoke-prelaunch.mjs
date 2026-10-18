@@ -4204,12 +4204,13 @@ assert(
 assert(/<h1[^>]*>[^<]*Tickets in /.test(artistCityPage.text), "artist-city page should render the '[Artist] Tickets in [City]' H1");
 // The title mirrors the query ("<artist> <city> tickets <year>") and then says
 // what the page does: "| Compare Prices at <venue>" for a single-venue run,
-// "| Compare Prices & Dates" otherwise. A long artist/city pair can still fall
+// "| Compare Prices & Dates" otherwise; a run with one listed-price lane
+// (indexable since 2026-10-17) says "Tickets" instead of "Prices". A long artist/city pair can still fall
 // through fitTitleToBudget's ladder, so the whole ladder is accepted rather
 // than only its head.
 const artistCityTitle = extractTitle(artistCityPage.text);
 assert(
-  /\| (Compare |Ticket )?Prices at [^|]+$|\| Compare Ticket Prices$|\| Compare Prices & Dates$|\| Compare Prices$| Tickets(?: \d{4}(?:–\d{4})?)?$/.test(artistCityTitle),
+  /\| (Compare |Ticket )?(?:Prices|Tickets) at [^|]+$|\| Compare Ticket Prices$|\| Compare (?:Prices|Tickets) & Dates$|\| Compare (?:Prices|Tickets)$| Tickets(?: \d{4}(?:–\d{4})?)?$/.test(artistCityTitle),
   `artist-city title should follow the fitTitleToBudget ladder (was "${artistCityTitle}")`
 );
 // Every rung keeps "<artist> <city> Tickets", so the ladder check above cannot

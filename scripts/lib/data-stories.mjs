@@ -715,7 +715,7 @@ export function renderCityPricesPost(figures, existing = null) {
       const gap = tour.cities.length > each * 2 ? `\n\nThe ${tour.cities.length - each * 2} cities in between are on the [${tour.artist} page](${tour.path}).` : "";
       return `## ${tour.artist}: ${tour.tourName}
 
-On ${tour.siteLabel}, the lowest listed price for the next date in each of ${tour.cityCount} cities in ${countryName(tour.country)} ran from ${money(tour.low.price, tour.currency)} in ${tour.low.city} to ${money(tour.high.price, tour.currency)} in ${tour.high.city}, ${tour.ratio} times as much.
+On ${tour.siteLabel}, the lowest listed price for the next date in each of ${tour.cityCount} cities in ${countryName(tour.country)} was ${money(tour.low.price, tour.currency)} in ${tour.low.city} at the low end and ${money(tour.high.price, tour.currency)} in ${tour.high.city} at the high end, ${tour.ratio} times as much.
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|

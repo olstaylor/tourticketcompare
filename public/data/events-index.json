@@ -43926,5 +43926,41 @@
     "timezone": "America/Chicago",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-dublin-1kkzvpcfga1_k0w",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "country": "Ireland",
+    "city": "Dublin",
+    "venue": "3Arena",
+    "datetime_iso": "2027-04-23T17:00:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-belfast-1azzkfugkd15ooi",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "country": "Great Britain",
+    "city": "Belfast",
+    "venue": "The O2 Belfast",
+    "datetime_iso": "2027-04-27T18:00:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-glasgow-1auzkfmgkehwkob",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "country": "Great Britain",
+    "city": "Glasgow",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-04-29T17:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

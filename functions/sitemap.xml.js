@@ -1,6 +1,6 @@
 import { TRUST_ROUTES, GUIDE_ROUTES, canonicalOrigin, isIndexableOrigin } from "./_route-metadata.js";
 import { deriveVenues } from "./_venues.js";
-import { deriveCities } from "./_cities.js";
+import { deriveCities, slugify } from "./_cities.js";
 import { deriveIndexableArtistCities } from "./_artist-cities.js";
 import { deriveIndexableBlogEntries } from "./_blog.js";
 import { artistPageIndexable } from "./_artist-indexability.js";
@@ -250,7 +250,14 @@ async function buildSegments(env, only = SITEMAP_SEGMENTS, origin = "") {
   // data-derived index pages.
   if (need.has("pages")) {
     const events = await loadEvents(env).catch(() => null);
-    const calendar = Array.isArray(events) ? deriveOnsaleCalendar(events) : null;
+    // The page itself leaves demoted artists' dates off the calendar (the
+    // router's withoutDemotedEvents), so the gate reads the same list. On
+    // 2026-10-17 a demoted artist was the second artist that kept this gate
+    // open while the page rendered noindex, failing the nightly sync.
+    const artistsMeta = Array.isArray(events) ? await loadJsonAsset(env, "/data/artists.json").catch(() => null) : null;
+    const demoted = new Set((Array.isArray(artistsMeta) ? artistsMeta : []).filter((artist) => artist?.demoted).map((artist) => slugify(artist.slug)));
+    const onsaleEvents = Array.isArray(events) ? events.filter((event) => !demoted.has(slugify(event?.artist_slug))) : null;
+    const calendar = onsaleEvents ? deriveOnsaleCalendar(onsaleEvents) : null;
     if (calendar?.indexable) {
       staticEntries.push({
         path: "/on-sale",

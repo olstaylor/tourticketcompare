@@ -76,8 +76,8 @@ jobs:
   seatgeek-cta-sync:
     runs-on: ubuntu-latest
     # Reserve 60 minutes for queueing and 75 for enrichment, full validation
-    # and the exact-head publishing check (itself capped at 25 minutes).
-    timeout-minutes: 135
+    # and the exact-head publishing check (itself capped at 35 minutes).
+    timeout-minutes: 145
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -165,7 +165,7 @@ jobs:
       - name: Open SeatGeek CTA sync PR
         # The App token is minted immediately above; cap only publication to
         # stay within its one-hour lifetime, independently of earlier queueing.
-        timeout-minutes: 30
+        timeout-minutes: 40
         if: steps.diff.outputs.changed == 'true' && (github.event_name == 'schedule' || github.event.inputs.mode == 'apply')
         env:
           GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}

@@ -142,6 +142,21 @@ export async function auditEventIndexability(site, options) {
     now
   });
   const served = decisions.filter((decision) => decision.inputs.routeAction === eventPages.EVENT_ROUTE_ACTION.RENDER && decision.path);
+  let servedAtLiveClock = null;
+  const servedNow = (eventPath) => {
+    // An injected renderer (the self-test) has no live clock to cross.
+    if (options.render) return true;
+    if (!servedAtLiveClock) {
+      const live = Date.now();
+      servedAtLiveClock = new Set(
+        policy
+          .deriveEventIndexability(events, artistsMeta, { lanesFor: (event) => publishableLaneSlugs(event, isConfigured, live), now: live })
+          .filter((decision) => decision.inputs.routeAction === eventPages.EVENT_ROUTE_ACTION.RENDER && decision.path)
+          .map((decision) => decision.path)
+      );
+    }
+    return servedAtLiveClock.has(eventPath);
+  };
   const eligible = decisions.filter((decision) => decision.eligible);
   // The active pilot as the router derives it (same function), with the
   // offline mirror as its lane source and the audit's canonical host.
@@ -171,6 +186,15 @@ export async function auditEventIndexability(site, options) {
       renderedIndexablePaths.add(decision.path);
     }
     if (page.status !== 200) {
+      // The decisions were taken at `now`, but the router renders against the
+      // live clock, and this crawl takes minutes. A show that starts in
+      // between leaves RENDER for its post-show redirect: on 2026-10-18 a
+      // 02:00Z show 301'd at 02:01Z and failed test-mvp. Only a page the
+      // router still serves at the live instant is a mismatch.
+      if (!servedNow(decision.path)) {
+        warnings.push(`${decision.path} stopped being served while the audit ran (rendered ${page.status}); its show time passed mid-crawl`);
+        continue;
+      }
       problems.push(`${decision.path} is served by the router's decision but rendered ${page.status}`);
       continue;
     }

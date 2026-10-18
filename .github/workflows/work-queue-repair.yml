@@ -79,8 +79,9 @@ jobs:
     runs-on: ubuntu-latest
     # The repair runs the artefact's own check twice, its generator, and the
     # full `test:mvp` suite, then waits for Prelaunch Validation to reach a
-    # verdict on the pushed head (capped at 25 minutes by the helper).
-    timeout-minutes: 59
+    # verdict on the pushed head (capped at 30 minutes here, so the step fits
+    # the App token's hour). Queueing sits outside the 59-minute step.
+    timeout-minutes: 79
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -151,7 +152,9 @@ jobs:
 
       - name: Repair one work item
         id: repair
+        timeout-minutes: 59
         env:
+          REQUIRED_CHECK_TIMEOUT_MS: "1800000"
           GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           REQUESTED_ISSUE: ${{ inputs.issue }}

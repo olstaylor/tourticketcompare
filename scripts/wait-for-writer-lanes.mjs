@@ -447,10 +447,12 @@ async function selfTest() {
   assert(/check-audit-revision\.mjs --check-main/.test(verificationSteps[check]?.run || ""),
     "verification checks evidence commit against current checkout");
 
-  // The lanes that went red on queueing alone (2026-10-14..16) withhold
-  // neutrally instead.
+  // The lanes that went red on queueing alone (2026-10-14..16, and the
+  // audit's status-figures job on 2026-10-18) withhold neutrally instead.
+  const statusFigures = workflows["daily-audit.yml"].jobs["status-figures"];
+  assert.match(String(statusFigures.if), /!cancelled\(\)/, "status-figures must stand down when the run was withheld");
   await withholdSelfTest();
-  for (const [file, job] of [["daily-audit.yml", "audit"], ["daily-audit.yml", "verification-dates"], ["work-queue-repair.yml", "repair"]]) {
+  for (const [file, job] of [["daily-audit.yml", "audit"], ["daily-audit.yml", "verification-dates"], ["daily-audit.yml", "status-figures"], ["work-queue-repair.yml", "repair"]]) {
     const wait = (workflows[file].jobs[job].steps || []).find((step) => /wait-for-writer-lanes\.mjs/.test(step.run || ""));
     assert.match(wait?.run || "", /--withhold-when-busy/, `${file} ${job} must end neutral when the writer queue is busy`);
   }

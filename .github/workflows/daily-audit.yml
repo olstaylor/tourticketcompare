@@ -58,8 +58,11 @@ concurrency:
 jobs:
   audit:
     runs-on: ubuntu-latest
-    # Includes bounded ordering before audit observations are captured.
-    timeout-minutes: 59
+    # Includes bounded ordering before audit observations are captured: up to
+    # 55 minutes behind an older writer (tm-new-shows-pr ran 52 minutes on
+    # 2026-10-18 once it had a PR to validate, and the former 14-minute wait
+    # withheld the audit on 17 and 18 Oct), plus up to ~47 minutes of audit.
+    timeout-minutes: 110
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -69,7 +72,7 @@ jobs:
       - name: Wait before gathering audit evidence
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 14 --withhold-when-busy
+        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 55 --withhold-when-busy
 
       - name: Setup Node.js
         uses: actions/setup-node@v5
@@ -367,16 +370,19 @@ jobs:
   # change them on a day nothing was committed. So this job runs daily and
   # independently.
   #
-  # `if: always()` and no dependency on the audit's *result* are deliberate. The
+  # `if: !cancelled()` and no dependency on the audit's *result* are deliberate. The
   # audit job has previously hit the former 25-minute cap on real days (see
   # docs/OPERATIONS.md -> Known incidents), and neither writer reads its artefacts —
   # both recount from the repository. Tying doc freshness to the flakiest job in
   # the workflow is exactly the coupling this is meant to remove. It is ordered
-  # after verification-dates only so the two pushes to main cannot race.
+  # after verification-dates only so the two pushes to main cannot race. A
+  # cancelled run is a neutral withhold (wait-for-writer-lanes.mjs
+  # --withhold-when-busy), so this job stands down with it rather than
+  # queueing behind the same busy writer and going red (2026-10-18).
   status-figures:
     runs-on: ubuntu-latest
     needs: [audit, verification-dates]
-    if: always() && inputs.dry_run != true
+    if: ${{ !cancelled() && inputs.dry_run != true }}
     # As above: room for the dispatched Prelaunch Validation run this job waits
     # on before its PR can merge.
     timeout-minutes: 69
@@ -389,7 +395,7 @@ jobs:
       - name: Wait for older shared-data writer runs
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: node scripts/wait-for-writer-lanes.mjs
+        run: node scripts/wait-for-writer-lanes.mjs --withhold-when-busy
 
       - name: Setup Node.js
         uses: actions/setup-node@v5

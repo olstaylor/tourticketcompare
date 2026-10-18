@@ -2456,6 +2456,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8326626",
+        "url": "https://www.ticketnetwork.com/en/p/8326626",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8326626",
+        "url": "https://www.ticketliquidator.com/tickets/8326626/Greta-Van-Fleet-tickets-Mon-May-24-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kPzobGo",
@@ -2464,7 +2478,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-amsterdam-ziggo-dome-24-5-2027/event/107670944",
     "organizer_names": [
       "Mojo Concerts"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326626",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326626/Greta-Van-Fleet-tickets-Mon-May-24-2027-Ziggo-Dome"
   },
   {
     "id": "tm-greta-van-fleet-2027-forest-brussels-z698xzg2z16ez30gvn",
@@ -4104,7 +4120,7 @@
     "ticketmaster_event_id": "36006536D9F285AE",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/greta-van-fleet-into-the-beginning-glasgow-02-06-2027/event/36006536D9F285AE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-glasgow-ovo-hydro-6-2-2027--concerts-rock/production/7643067",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/greta-van-fleet-into-the-beginning-glasgow-02-06-2027/event/36006536D9F285AE",
     "last_verified_at": null,
@@ -4126,11 +4142,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7643067,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-glasgow-ovo-hydro-6-2-2027--concerts-rock/production/7643067",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

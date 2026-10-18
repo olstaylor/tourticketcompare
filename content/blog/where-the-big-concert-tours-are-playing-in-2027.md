@@ -2,9 +2,10 @@
 title: "Where the big concert tours are playing in 2027"
 seo_title: "2027 concert tours: the busiest cities"
 description: "Las Vegas, London and Toronto have the most 2027 dates among 101 major tours tracked by TourTicketCompare. Counts by city, venue and month."
-summary: "2,074 upcoming 2027 dates from 101 major touring artists, counted by city, venue, country and month. Las Vegas leads with 72 dates. Figures as of 16 October 2026."
+summary: "2,074 upcoming 2027 dates from 101 major touring artists, counted by city, venue, country and month. Las Vegas leads with 72 dates. Figures as of 17 October 2026."
 date: 2026-10-16
-status: draft
+updated: 2026-10-17
+status: published
 tags:
   - tour-data
 related_artists:
@@ -13,7 +14,7 @@ related_artists:
   - gracie-abrams
 ---
 
-TourTicketCompare tracks the upcoming dates of 101 major touring artists, and as of 16 October 2026 2,074 of those dates fall in 2027. They are spread over 332 cities and 819 venues in 21 countries. Las Vegas has the most, with 72 dates from 18 artists, followed by London (68) and Toronto (61).
+TourTicketCompare tracks the upcoming dates of 101 major touring artists, and as of 17 October 2026 2,074 of those dates fall in 2027. They are spread over 332 cities and 819 venues in 21 countries. Las Vegas has the most, with 72 dates from 18 artists, followed by London (68) and Toronto (61).
 
 These are counts of announced shows on the tours the site follows, not of every concert in 2027. Each one is a date with a checked Ticketmaster event behind it, and each is still listed on its artist's page on this site.
 

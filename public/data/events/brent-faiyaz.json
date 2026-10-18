@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "04006532C9853AC1",
     "ticketmaster_url": "https://www.ticketmaster.com/brent-faiyaz-live-i-spent-the-chicago-illinois-11-30-2026/event/04006532C9853AC1",
     "seatgeek_url": "https://seatgeek.com/brent-faiyaz-tickets/chicago-illinois-united-center-2026-11-30-8-pm/concert/18617422",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brent-faiyaz-tickets-chicago-united-center-11-30-2026--concerts-rb/production/7603104",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brent-faiyaz-live-i-spent-the-chicago-illinois-11-30-2026/event/04006532C9853AC1",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7603104,
+        "url": "https://www.vividseats.com/brent-faiyaz-tickets-chicago-united-center-11-30-2026--concerts-rb/production/7603104",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -46,11 +46,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8287394",
+        "url": "https://www.ticketnetwork.com/en/p/8287394",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287394",
+        "url": "https://www.ticketliquidator.com/tickets/8287394/Brent-Faiyaz-tickets-Mon-Nov-30-2026-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfwGkda-Klv",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287394",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287394/Brent-Faiyaz-tickets-Mon-Nov-30-2026-United-Center"
   },
   {
     "id": "tm-brent-faiyaz-2026-brooklyn-1adzz_3gkxkyvwj",
@@ -65,7 +81,7 @@
     "ticketmaster_event_id": "3000652F86C01F5C",
     "ticketmaster_url": "https://www.ticketmaster.com/brent-faiyaz-live-i-spent-the-brooklyn-new-york-12-03-2026/event/3000652F86C01F5C",
     "seatgeek_url": "https://seatgeek.com/brent-faiyaz-tickets/brooklyn-new-york-barclays-center-2026-12-03-8-pm/concert/18618383",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brent-faiyaz-tickets-brooklyn-barclays-center-12-3-2026--concerts-rb/production/7603112",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brent-faiyaz-live-i-spent-the-brooklyn-new-york-12-03-2026/event/3000652F86C01F5C",
     "last_verified_at": null,
@@ -87,11 +103,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7603112,
+        "url": "https://www.vividseats.com/brent-faiyaz-tickets-brooklyn-barclays-center-12-3-2026--concerts-rb/production/7603112",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -99,11 +115,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8287393",
+        "url": "https://www.ticketnetwork.com/en/p/8287393",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287393",
+        "url": "https://www.ticketliquidator.com/tickets/8287393/Brent-Faiyaz-tickets-Thu-Dec-3-2026-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_3GkXkYvWj",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287393",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287393/Brent-Faiyaz-tickets-Thu-Dec-3-2026-Barclays-Center"
   },
   {
     "id": "tm-brent-faiyaz-2026-los-angeles-z7r9jz1aae7ub",
@@ -152,10 +184,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8287395",
+        "url": "https://www.ticketnetwork.com/en/p/8287395",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287395",
+        "url": "https://www.ticketliquidator.com/tickets/8287395/Brent-Faiyaz-tickets-Fri-Dec-11-2026-Cryptocom-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe7ub",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287395",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287395/Brent-Faiyaz-tickets-Fri-Dec-11-2026-Cryptocom-Arena"
   }
 ]

@@ -1263,11 +1263,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7676530",
-        "url": "https://www.ticketnetwork.com/en/p/7676530",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7676530",
@@ -1280,7 +1280,7 @@
     "ticketmaster_discovery_event_id": "G5eVZ_eQI_EOI",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676530",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676530/Five-Finger-Death-Punch-tickets-Fri-Oct-16-2026-Truliant-Amphitheater",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -2314,10 +2314,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8090422",
+        "url": "https://www.ticketnetwork.com/en/p/8090422",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090422",
+        "url": "https://www.ticketliquidator.com/tickets/8090422/Five-Finger-Death-Punch-tickets-Mon-Feb-22-2027-Veikkaus-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ8KZ16evK7gAy",
     "timezone": "Europe/Helsinki",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090422",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090422/Five-Finger-Death-Punch-tickets-Mon-Feb-22-2027-Veikkaus-Arena"
   }
 ]

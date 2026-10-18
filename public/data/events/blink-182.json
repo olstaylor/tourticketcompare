@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "sof9c9nl0ivx",
     "ticketmaster_url": "https://www.ticketmaster.it/biglietti/blink-182-i-days-milano-2027-milano-13-06-2027/event/sof9c9nl0ivx",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/blink-182-tickets-milano-ippodromo-snai-san-siro-6-13-2027--concerts-alternative/production/7198857",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/blink-182-i-days-milano-2027-milano-13-06-2027/event/sof9c9nl0ivx",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7198857,
+        "url": "https://www.vividseats.com/blink-182-tickets-milano-ippodromo-snai-san-siro-6-13-2027--concerts-alternative/production/7198857",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

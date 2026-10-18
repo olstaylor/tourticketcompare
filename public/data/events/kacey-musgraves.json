@@ -1,0 +1,426 @@
+[
+  {
+    "id": "tm-kacey-musgraves-2026-los-angeles-z7r9jz1a70kau",
+    "artist_slug": "kacey-musgraves",
+    "artist_name": "Kacey Musgraves",
+    "event_name": "Kacey Musgraves w/ Gabriella Rose",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Crypto.com Arena",
+    "datetime_iso": "2026-10-19T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70kAU",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kAU",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kAU",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70kAU",
+        "discovery_event_id": "Z7r9jZ1A70kAU",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kAU",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70kAU",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kacey-musgraves-2026-los-angeles-z7r9jz1a70kag",
+    "artist_slug": "kacey-musgraves",
+    "artist_name": "Kacey Musgraves",
+    "event_name": "Kacey Musgraves w/ Estevie",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Crypto.com Arena",
+    "datetime_iso": "2026-10-20T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70kAg",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kAg",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kAg",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70kAg",
+        "discovery_event_id": "Z7r9jZ1A70kAg",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kAg",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70kAg",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kacey-musgraves-2026-oakland-z7r9jz1a70kkf",
+    "artist_slug": "kacey-musgraves",
+    "artist_name": "Kacey Musgraves",
+    "event_name": "Kacey Musgraves w/ Estevie",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Oakland Arena",
+    "datetime_iso": "2026-10-24T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70kkF",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kkF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kkF",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70kkF",
+        "discovery_event_id": "Z7r9jZ1A70kkF",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kkF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70kkF",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kacey-musgraves-2026-seattle-vvg1hz_al3e8eo",
+    "artist_slug": "kacey-musgraves",
+    "artist_name": "Kacey Musgraves",
+    "event_name": "Kacey Musgraves - Middle of Nowhere Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2026-10-27T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006497D20909E0",
+    "ticketmaster_url": "https://www.ticketmaster.com/kacey-musgraves-middle-of-nowhere-tour-seattle-washington-10-26-2026/event/0F006497D20909E0",
+    "seatgeek_url": "https://seatgeek.com/kacey-musgraves-tickets/seattle-washington-climate-pledge-arena-2026-10-26-7-30-pm/concert/18210169",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kacey-musgraves-middle-of-nowhere-tour-seattle-washington-10-26-2026/event/0F006497D20909E0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006497D20909E0",
+        "discovery_event_id": "vvG1HZ_aL3e8EO",
+        "url": "https://www.ticketmaster.com/kacey-musgraves-middle-of-nowhere-tour-seattle-washington-10-26-2026/event/0F006497D20909E0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_aL3e8EO",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kacey-musgraves-2026-seattle-vvg1hz_awrtnmb",
+    "artist_slug": "kacey-musgraves",
+    "artist_name": "Kacey Musgraves",
+    "event_name": "Kacey Musgraves - Middle of Nowhere Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2026-10-28T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00649CAFFEADD8",
+    "ticketmaster_url": "https://www.ticketmaster.com/kacey-musgraves-middle-of-nowhere-tour-seattle-washington-10-27-2026/event/0F00649CAFFEADD8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kacey-musgraves-middle-of-nowhere-tour-seattle-washington-10-27-2026/event/0F00649CAFFEADD8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00649CAFFEADD8",
+        "discovery_event_id": "vvG1HZ_awRTnMb",
+        "url": "https://www.ticketmaster.com/kacey-musgraves-middle-of-nowhere-tour-seattle-washington-10-27-2026/event/0F00649CAFFEADD8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_awRTnMb",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kacey-musgraves-2027-glasgow-1adbz_agkdqknt2",
+    "artist_slug": "kacey-musgraves",
+    "artist_name": "Kacey Musgraves",
+    "event_name": "Kacey Musgraves",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-02-22T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600649EDD1A3FCF",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/kacey-musgraves-glasgow-22-02-2027/event/3600649EDD1A3FCF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/kacey-musgraves-glasgow-22-02-2027/event/3600649EDD1A3FCF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600649EDD1A3FCF",
+        "discovery_event_id": "1AdbZ_aGkDqkNT2",
+        "url": "https://www.ticketmaster.co.uk/kacey-musgraves-glasgow-22-02-2027/event/3600649EDD1A3FCF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_aGkDqkNT2",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kacey-musgraves-2027-manchester-g5vhz_gkaityt",
+    "artist_slug": "kacey-musgraves",
+    "artist_name": "Kacey Musgraves",
+    "event_name": "Kacey Musgraves",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "AO Arena",
+    "datetime_iso": "2027-02-24T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064C4C9B29E69",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/kacey-musgraves-manchester-24-02-2027/event/1F0064C4C9B29E69",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/kacey-musgraves-manchester-24-02-2027/event/1F0064C4C9B29E69",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064C4C9B29E69",
+        "discovery_event_id": "G5vHZ_GKaityt",
+        "url": "https://www.ticketmaster.co.uk/kacey-musgraves-manchester-24-02-2027/event/1F0064C4C9B29E69",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_GKaityt",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kacey-musgraves-2027-london-1adjz_agkmwrf6s",
+    "artist_slug": "kacey-musgraves",
+    "artist_name": "Kacey Musgraves",
+    "event_name": "Kacey Musgraves",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "OVO Arena Wembley",
+    "datetime_iso": "2027-02-26T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700649DF2BC81F3",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/kacey-musgraves-london-26-02-2027/event/3700649DF2BC81F3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/kacey-musgraves-london-26-02-2027/event/3700649DF2BC81F3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700649DF2BC81F3",
+        "discovery_event_id": "1AdjZ_aGkMwRF6S",
+        "url": "https://www.ticketmaster.co.uk/kacey-musgraves-london-26-02-2027/event/3700649DF2BC81F3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdjZ_aGkMwRF6S",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

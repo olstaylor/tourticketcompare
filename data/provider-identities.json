@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-16",
+  "updated_at": "2026-10-18",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -1591,6 +1591,72 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-10-16 (sanctioned path D): SeatGeek performer 646887 and Ticketmaster attraction K8vZ917phFf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "ye",
+      "ticketmaster_attraction_id": "K8vZ9175Oy7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/ye-tickets/artist/885590",
+      "seatgeek_performer_id": 1023,
+      "seatgeek_artist_url": "https://seatgeek.com/ye-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-18 (sanctioned path D): SeatGeek performer 1023 and Ticketmaster attraction K8vZ9175Oy7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "chris-brown",
+      "ticketmaster_attraction_id": "K8vZ9175MQf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/chris-brown-tickets/artist/1013849",
+      "seatgeek_performer_id": 454,
+      "seatgeek_artist_url": "https://seatgeek.com/chris-brown-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-18 (sanctioned path D): SeatGeek performer 454 and Ticketmaster attraction K8vZ9175MQf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "kevin-gates",
+      "ticketmaster_attraction_id": "K8vZ9172zj0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/kevin-gates-tickets/artist/1739199",
+      "seatgeek_performer_id": 20099,
+      "seatgeek_artist_url": "https://seatgeek.com/kevin-gates-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-18 (sanctioned path D): SeatGeek performer 20099 and Ticketmaster attraction K8vZ9172zj0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "brand-new",
+      "ticketmaster_attraction_id": "K8vZ91751C0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/brand-new-tickets/artist/821088",
+      "seatgeek_performer_id": 362,
+      "seatgeek_artist_url": "https://seatgeek.com/brand-new-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-18 (sanctioned path D): SeatGeek performer 362 and Ticketmaster attraction K8vZ91751C0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "kacey-musgraves",
+      "ticketmaster_attraction_id": "K8vZ9172Ca0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/kacey-musgraves-tickets/artist/1668663",
+      "seatgeek_performer_id": 62090,
+      "seatgeek_artist_url": "https://seatgeek.com/kacey-musgraves-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-18 (sanctioned path D): SeatGeek performer 62090 and Ticketmaster attraction K8vZ9172Ca0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "knocked-loose",
+      "ticketmaster_attraction_id": "K8vZ917KFS0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/knocked-loose-tickets/artist/2082357",
+      "seatgeek_performer_id": 347395,
+      "seatgeek_artist_url": "https://seatgeek.com/knocked-loose-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-18 (sanctioned path D): SeatGeek performer 347395 and Ticketmaster attraction K8vZ917KFS0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

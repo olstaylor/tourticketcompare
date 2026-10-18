@@ -1,0 +1,55 @@
+[
+  {
+    "id": "tm-kevin-gates-2026-nashville-g5viz_kuq0g54",
+    "artist_slug": "kevin-gates",
+    "artist_name": "Kevin Gates",
+    "event_name": "Kevin Gates",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2026-10-25T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00646D9A90C2D5",
+    "ticketmaster_url": "https://www.ticketmaster.com/kevin-gates-nashville-tennessee-10-24-2026/event/1B00646D9A90C2D5",
+    "seatgeek_url": "https://seatgeek.com/kevin-gates-tickets/nashville-tennessee-the-truth-nashville-2026-10-24-8-pm/concert/18126024",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kevin-gates-nashville-tennessee-10-24-2026/event/1B00646D9A90C2D5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00646D9A90C2D5",
+        "discovery_event_id": "G5viZ_kUQ0G54",
+        "url": "https://www.ticketmaster.com/kevin-gates-nashville-tennessee-10-24-2026/event/1B00646D9A90C2D5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_kUQ0G54",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  }
+]

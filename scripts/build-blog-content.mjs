@@ -18,6 +18,7 @@
 
 import fs from "node:fs/promises";
 import path from "node:path";
+import { UNSUPPORTED_CHEAPEST_CLAIM } from "../functions/_price-wording.js";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
 // The generated file is the runtime's input, so the build and the runtime must
@@ -125,7 +126,7 @@ const INTERNAL_LINK_EXACT = new Set([
 // place for one of these to slip in; the check is a blunt substring match on
 // purpose. Rephrase rather than suppress.
 const BANNED_CLAIM_PATTERNS = [
-  [/\bcheapest\b/i, 'a "cheapest" claim — the site publishes per-provider snapshots, never a ranking'],
+  [UNSUPPORTED_CHEAPEST_CLAIM, 'a blanket "cheapest" promise — the site never sees the whole market; name the sites and capture time instead'],
   [/\blowest price\b/i, 'a "lowest price" claim — say "lower listed snapshot" and name the provider and time'],
   [/\bbest price guarantee/i, "a price guarantee the site cannot make"],
   [/\bguaranteed (?:availability|tickets|seats)\b/i, "an availability guarantee — inventory is provider-controlled"],

@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { findFirstPersonPlural } from "./check-site-voice.mjs";
+import { UNSUPPORTED_CHEAPEST_CLAIM } from "../functions/_price-wording.js";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const publicRoutes = ["/", "/artists", "/cities", "/on-sale", "/guides", "/guides/vivid-seats-vs-ticketmaster", "/blog", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure", "/privacy", "/terms"];
@@ -66,7 +67,7 @@ const expectedTitle = new Map([
   ["/terms", "Terms of Use | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total.";
-const APP_ASSET_VERSION = "20261015a";
+const APP_ASSET_VERSION = "20261018a";
 const TTC_HOME_ASSET_VERSION = "20261010a";
 const TTC_HOME_JS_ASSET_VERSION = "20261010a";
 const TTC_SHELL_ASSET_VERSION = "20261010a";
@@ -210,45 +211,8 @@ function seatGeekEventPublishable(event) {
   return event?.provider_links?.ticketmaster?.verified === true;
 }
 
-// OWNER-SCOPED EXEMPTION — the single sentence of the author bio that carries
-// the word "cheapest" (owner instruction, 2026-09-11).
-//
-// Three separate guards below ban "cheapest" from public copy, and they are
-// right to: the site must never claim it finds the cheapest ticket. This
-// sentence is a different claim. It is the author describing, in his own bio,
-// the chore that made him build the site — not a promise the site delivers a
-// cheapest price. The owner supplied the wording and asked for it verbatim.
-//
-// The exemption is pinned to this exact string, not to a pattern, so it cannot
-// widen. Any other use of the word anywhere in public copy still fails, and
-// assertBioExemptionStillApplies() below fails the build if this sentence ever
-// stops matching the source — a reflow or a reword must not silently turn the
-// guard off.
-//
-// To retire it: change the bio in functions/[[path]].js so it no longer says
-// "cheapest", then delete this constant and the four references to it.
-const AUTHOR_BIO_CHEAPEST_SENTENCE =
-  "He built the site after getting tired of checking resale sites one by one to compare prices across sites to find the cheapest tickets.";
-
-function withoutAuthorBioExemption(text) {
-  return String(text).split(AUTHOR_BIO_CHEAPEST_SENTENCE).join(" ");
-}
-
-// The exemption must describe copy that actually exists. If the bio is reworded
-// or reflowed the constant goes stale, and a stale exemption is a hole: it would
-// sit there permitting nothing while everyone assumes it still covers the bio.
-async function assertBioExemptionStillApplies() {
-  const source = await read("functions/[[path]].js");
-  const occurrences = source.split(AUTHOR_BIO_CHEAPEST_SENTENCE).length - 1;
-  assert(
-    occurrences === 1,
-    `the author-bio "cheapest" exemption matched ${occurrences} time(s) in functions/[[path]].js, expected exactly 1. ` +
-      "The bio was reworded or reflowed: update AUTHOR_BIO_CHEAPEST_SENTENCE to match, or delete the exemption if the word is gone."
-  );
-}
-
 function assertAbsent(haystack, terms, label) {
-  const lower = withoutAuthorBioExemption(haystack).toLowerCase();
+  const lower = String(haystack).toLowerCase();
   const found = terms.filter((term) => lower.includes(term.toLowerCase()));
   assert(found.length === 0, `${label} contains blocked term(s): ${found.join(", ")}`);
 }
@@ -259,12 +223,9 @@ async function assertLineRulesAbsent(files, rules, label) {
   for (const file of files) {
     const lines = (await read(file)).split(/\r?\n/);
     lines.forEach((line, index) => {
-      // See AUTHOR_BIO_CHEAPEST_SENTENCE for why this one sentence is removed
-      // before the rules run. The rest of the line is still checked.
-      const scanned = withoutAuthorBioExemption(line);
       for (const rule of rules) {
-        if (!rule.pattern.test(scanned)) continue;
-        if (rule.allowedContext?.test(scanned)) continue;
+        if (!rule.pattern.test(line)) continue;
+        if (rule.allowedContext?.test(line)) continue;
         violations.push(`${file}:${index + 1} ${rule.label}: ${line.trim()}`);
       }
     });
@@ -275,7 +236,7 @@ async function assertLineRulesAbsent(files, rules, label) {
 
 async function assertPublicCopySafe(files) {
   const rules = [
-    { label: "cheapest claim", pattern: /\bcheapest\b/i },
+    { label: "unsupported cheapest claim", pattern: UNSUPPORTED_CHEAPEST_CLAIM },
     { label: "best price claim", pattern: /\bbest\s+price\b/i },
     { label: "best deal claim", pattern: /\bbest\s+deal\b/i },
     { label: "lowest price claim", pattern: /\blowest\s+price\b/i },
@@ -290,7 +251,7 @@ async function assertPublicCopySafe(files) {
       pattern: /\blive\s+prices\b/i,
       allowedContext: /\b(coming later|not yet|planned|not available|is not ready|being built|does not compare|do not compare)\b/i
     },
-    { label: "from-price claim", pattern: /\bfrom\s*[£$€]\s*\d/i },
+    { label: "from-price claim", pattern: /\bfrom\s*(?:[£$€]\s*|(?:USD|CAD|AUD|GBP|EUR)\s+)\d/i },
     {
       label: "live price comparison claim",
       pattern: /\blive\s+price\s+comparison\b/i,
@@ -312,13 +273,9 @@ async function assertPublicCopySafe(files) {
   for (const file of files) {
     const lines = (await read(file)).split(/\r?\n/);
     lines.forEach((line, index) => {
-      // See AUTHOR_BIO_CHEAPEST_SENTENCE: the owner-scoped bio exemption is
-      // removed from the line before the rules run, so the rest of the line is
-      // still checked normally.
-      const scanned = withoutAuthorBioExemption(line);
       for (const rule of rules) {
-        if (!rule.pattern.test(scanned)) continue;
-        if (rule.allowedContext?.test(scanned)) continue;
+        if (!rule.pattern.test(line)) continue;
+        if (rule.allowedContext?.test(line)) continue;
         violations.push(`${file}:${index + 1} ${rule.label}: ${line.trim()}`);
       }
     });
@@ -337,7 +294,7 @@ async function assertPublicCopyRegressionGuardrails(files) {
     { label: "unsupported live comparison claim", pattern: /\blive\s+price\s+comparison\b/i, allowedContext: /\b(do\s+not|does\s+not|not\s+available|not\s+supported|without)\b/i },
     { label: "unsupported realtime pricing claim", pattern: /\breal-time\s+prices\b/i, allowedContext: /\b(do\s+not|does\s+not|not\s+available|not\s+supported|without)\b/i },
     { label: "unsupported compare-live claim", pattern: /\bcompare\s+live\s+prices\b/i, allowedContext: /\b(do\s+not|does\s+not|cannot|can\'?t|not\s+available|not\s+supported|without)\b/i },
-    { label: "cheapest tickets claim", pattern: /\bcheapest\s+tickets\b/i },
+    { label: "unsupported cheapest claim", pattern: UNSUPPORTED_CHEAPEST_CLAIM },
     { label: "best price claim", pattern: /\bbest\s+price\b/i },
     { label: "guaranteed lowest claim", pattern: /\bguaranteed\s+lowest\b/i },
     { label: "official partner claim", pattern: /\bofficial\s+partner\b/i },
@@ -397,11 +354,11 @@ async function assertNoStaticSeatGeekPriceClaims(files) {
 
 async function assertGuideCopyGuardrails(files) {
   const rules = [
-    { label: "currency price example", pattern: /[£$€]\s*\d/i },
+    { label: "currency price example", pattern: /(?:[£$€]\s*|\b(?:USD|CAD|AUD|GBP|EUR)\s+)\d/i },
     { label: "fixed percentage claim", pattern: /\b\d+(?:\.\d+)?\s*(?:%|percent)\b/i },
     { label: "fixed percentage range claim", pattern: /\b\d+(?:\.\d+)?\s*[-–]\s*\d+(?:\.\d+)?\s*%/i },
     { label: "rating threshold claim", pattern: /\b\d+(?:\.\d+)?\+?\s*stars?\b/i },
-    { label: "cheapest claim", pattern: /\bcheapest\b/i },
+    { label: "unsupported cheapest claim", pattern: UNSUPPORTED_CHEAPEST_CLAIM },
     { label: "best price claim", pattern: /\bbest\s+price\b/i },
     { label: "best deal claim", pattern: /\bbest\s+deal\b/i },
     { label: "lowest price claim", pattern: /\blowest\s+price\b/i },
@@ -637,9 +594,6 @@ for (const staleTitle of [
 ]) {
   assert(!clientApp.includes(staleTitle), `public/app.js should not restore stale title "${staleTitle}" after hydration`);
 }
-// Runs before the copy guards: a stale exemption must fail loudly, not quietly
-// permit nothing while the guards below assume it is still covering the bio.
-await assertBioExemptionStillApplies();
 await assertPublicCopySafe(publicCopyFiles);
 await assertPublicCopyRegressionGuardrails(publicCopyRegressionFiles);
 await assertNoStaticSeatGeekPriceClaims([...publicCopyRegressionFiles, "functions/llms.txt.js"]);
@@ -651,7 +605,6 @@ assertAbsent(
     "example.com",
     "preview mode",
     "debug",
-    "cheapest",
     "best price",
     "best deal",
     "lowest price",
@@ -1417,7 +1370,7 @@ for (const [artistSlug, postSlugs] of postSlugsByArtist) {
       );
       panels += 1;
     }
-    assert(!/\$\d|£\d|€\d/.test(page.text.match(/<section class="nested-panel blog-ticket-routes"[\s\S]*?<\/section>/g)?.join("") || ""), `/blog/${post.slug} ticket routes carry no price figures`);
+    assert(!/(?:[£$€]|\b(?:USD|CAD|AUD|GBP|EUR)\s+)\d/.test(page.text.match(/<section class="nested-panel blog-ticket-routes"[\s\S]*?<\/section>/g)?.join("") || ""), `/blog/${post.slug} ticket routes carry no price figures`);
   }
   assert(panels >= 1, "at least one published blog post shows artist ticket routes");
 }
@@ -1721,7 +1674,7 @@ assert(boardPriceFetch, "board price hydration should fetch one memoized bulk pa
 assert(boardPriceFetch[0].includes('priceProviders: "approved-marketplaces"'), "bulk board price requests must ask for the approved cached marketplace lanes only");
 const boardPriceHydration = appJs.match(/async function hydrateShowBoardPriceSnapshots\(shows, cardOptions\) \{[\s\S]*?\n\}/);
 assert(boardPriceHydration && !boardPriceHydration[0].includes(".slice(0, 6)"), "board price hydration must not cap approved snapshots to the first six cards");
-assert(!appJs.match(/lowest\s+overall\s+price|cheapest/i), "hydration must not label SeatGeek snapshots as lowest overall or cheapest");
+assert(!appJs.match(/lowest\s+overall\s+price|cheapest\s+overall/i) && !UNSUPPORTED_CHEAPEST_CLAIM.test(appJs), "hydration must not label snapshots as lowest overall or make a blanket cheapest claim");
 assert(appJs.includes("No ticket link for this date yet."), "event cards should have a safe unavailable state that says no link has been checked yet");
 assert(!appJs.includes("renderProviderButtons(artist, \"artist_hero\")"), "artist pages should not render a separate generic provider panel");
 assert(appJs.includes('text(relatedGuides, "h2", "Related guides")'), "artist hydration should preserve the server-rendered related-guide cluster");
@@ -2294,7 +2247,7 @@ assert(pricedArtistRoute.text.includes("data-price-alert-interest"), "the price 
 const pricedComparisonHub = await routeResponse("/compare-concert-ticket-prices", pricedRouteEnv);
 assert(pricedComparisonHub.text.includes('data-cta-location="comparison_hub"'), "the comparison hub should server-render tracked exact-event provider CTAs");
 assert(pricedComparisonHub.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}`), "the comparison hub should link the exact reviewed event through /api/out");
-assert(pricedComparisonHub.text.includes("$98.75"), "the comparison hub should retain the approved exact-event price snapshot");
+assert(/USD\s+98\.75/.test(pricedComparisonHub.text), "the comparison hub should retain the approved exact-event price snapshot");
 
 const staleVividSeatsResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
@@ -3814,7 +3767,7 @@ for (const [label, page] of [
 ]) {
   const body = (page.match(/<main id="mainContent">[\s\S]*?<\/main>/) || [""])[0];
   for (const rule of [
-    /\bcheapest\b/i,
+    UNSUPPORTED_CHEAPEST_CLAIM,
     /\blowest price\b/i,
     /\bbest price\b/i,
     /\bevery ticket site\b/i,
@@ -3831,7 +3784,7 @@ for (const [label, page] of [
     assert(!rule.test(body), `artist page (${label}) must not contain banned copy ${rule}`);
   }
   // A price may only ever appear beside a provider button, never in prose.
-  assert(!/\bfrom (only )?[£$€]\s?\d/i.test(body), `artist page (${label}) must not advertise a "from" price`);
+  assert(!/\bfrom (only )?(?:[£$€]\s?|(?:USD|CAD|AUD|GBP|EUR)\s+)\d/i.test(body), `artist page (${label}) must not advertise a "from" price`);
 }
 
 // (6) Canonical, robots, and structured data must all describe the same board.
@@ -4230,11 +4183,11 @@ assert(
 // metadata is also the CollectionPage JSON-LD description, so no live figure
 // may appear in either. The numeric answer is server-rendered in the body.
 assert(
-  !/[£$€]\s?\d/.test(artistCityTitle),
+  !/(?:[£$€]\s?|\b(?:USD|CAD|AUD|GBP|EUR)\s+)\d/.test(artistCityTitle),
   `artist-city title must carry no live price (was "${artistCityTitle}")`
 );
 assert(
-  !/[£$€]\s?\d/.test(extractDescription(artistCityPage.text)),
+  !/(?:[£$€]\s?|\b(?:USD|CAD|AUD|GBP|EUR)\s+)\d/.test(extractDescription(artistCityPage.text)),
   "artist-city meta description must carry no live price"
 );
 assert(artistCityPage.text.includes('"@type":"Place"'), "artist-city page should emit Place structured data");

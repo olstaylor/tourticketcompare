@@ -302,7 +302,7 @@ const musicEventFor = (nodes, id) => nodes.find((node) => node?.["@type"] === "M
   assert(listed.has(PENDING.id), "a pending on-sale is still listed");
   assert(!listed.has(CANCELLED_PENDING.id), "a cancelled show is not listed as going on sale");
 
-  const specs = () => [{ provider: "vivid-seats", name: "Vivid Seats", href: "/api/out?x", priceAmount: "$182", priceAsOf: "now", lane: { price: 182, currency: "USD", fetchedAt: NOW_ISO } }];
+  const specs = () => [{ provider: "vivid-seats", name: "Vivid Seats", href: "/api/out?x", priceAmount: "USD 182", priceAsOf: "now", lane: { price: 182, currency: "USD", fetchedAt: NOW_ISO } }];
   const priceRows = deriveCityDatePrices(EVENTS.map((event) => ({ ...event, dateTimeISO: event.datetime_iso })), { ctaSpecsFor: specs });
   const rowIds = new Set(priceRows.rows.map((row) => row.showId));
   for (const event of HELD) assert(!rowIds.has(event.id), `${event.id}: no row in the price answer, even when a spec is supplied`);
@@ -417,7 +417,7 @@ for (const pathname of PAGES) {
     const held = card(html, event.id);
     assert(held, `${pathname}: ${event.id} is still listed`);
     assert(outLinksFor(html, event.id) === 0, `${pathname}: no /api/out link anywhere for ${event.id}`);
-    assert(!/provider-cta|provider-cta-priced|\$182|\$190|price-history/.test(held), `${pathname}: ${event.id} shows no button, price or price history`);
+    assert(!/provider-cta|provider-cta-priced|(?:\$|USD\s+)182|(?:\$|USD\s+)190|price-history/.test(held), `${pathname}: ${event.id} shows no button, price or price history`);
     assert(/data-event-lifecycle=/.test(held), `${pathname}: ${event.id} states its status`);
     assert(!musicEventFor(nodes, event.id), `${pathname}: no MusicEvent for ${event.id}`);
   }
@@ -540,7 +540,7 @@ async function out(showId, provider) {
   for (const event of [CANCELLED, POSTPONED, UNRECOGNISED]) {
     const page = await render(eventPages.eventPath(event));
     assert(page.status === 200, `${event.id}: a held future event keeps its page (got ${page.status})`);
-    assert(outLinksFor(page.html, event.id) === 0 && !/\$182|\$190|price-history/.test(page.html), `${event.id}: its event page shows no button, price or price history`);
+    assert(outLinksFor(page.html, event.id) === 0 && !/(?:\$|USD\s+)182|(?:\$|USD\s+)190|price-history/.test(page.html), `${event.id}: its event page shows no button, price or price history`);
     const graph = jsonLd(page.html);
     const nodes = graph.filter((node) => node?.["@type"] === "MusicEvent");
     const expected = { [CANCELLED.id]: "https://schema.org/EventCancelled", [POSTPONED.id]: "https://schema.org/EventPostponed" }[event.id];

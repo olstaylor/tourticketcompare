@@ -43,6 +43,38 @@ export function lowestPriceLabel(pricedCount) {
   return pricedCount === 1 ? "Lowest listed price" : "Lowest listed prices";
 }
 
+// "Cheapest" (owner decision, 2026-10-17: the old blanket ban is lifted).
+// The word is allowed wherever it describes what the page actually shows: the
+// lowest of the listed prices the site captured for one show, with each
+// site's name and capture time beside it. Two rules keep it true:
+//
+//   - A cross-site "cheapest" needs at least two ticket sites with a fresh
+//     listed price for the same show; one site's figure is only that site's
+//     lowest listing, never "the cheapest".
+//   - No blanket promise. The site never sees the whole market, so copy may
+//     not claim the cheapest tickets anywhere, guaranteed, or that the site
+//     always finds them. UNSUPPORTED_CHEAPEST_CLAIM is the build check for
+//     that, shared by the smoke suite and the blog and guide builders.
+
+/** The label for the lowest of two or more sites' listed prices for one show. */
+export function cheapestListedPriceLabel(pricedSiteCount) {
+  if (!(pricedSiteCount >= 2)) return "";
+  return `Cheapest listed price of the ${pricedSiteCount} ticket sites checked`;
+}
+
+/** Blanket "cheapest" promises the site's data can never support. */
+export const UNSUPPORTED_CHEAPEST_CLAIM = new RegExp(
+  [
+    // "guaranteed cheapest", "always the cheapest", "absolute cheapest"
+    String.raw`\b(?:guaranteed|guarantee|always|absolute(?:ly)?|truly)\s+(?:the\s+)?cheapest\b`,
+    // "cheapest tickets anywhere / online / on the market", "cheapest price guaranteed"
+    String.raw`\bcheapest\b(?:\s+[\w'-]+){0,3}?\s+(?:anywhere|online|guaranteed|on\s+the\s+(?:web|internet|market)|in\s+the\s+(?:market|world))\b`,
+    // "we find the cheapest", "TourTicketCompare finds you the cheapest"
+    String.raw`\b(?:we|tourticketcompare|this\s+site|the\s+site)\s+(?:always\s+|will\s+)?(?:finds?|gets?|shows?|has|have|offers?|sells?)\s+(?:you\s+)?(?:the\s+)?cheapest\b`
+  ].join("|"),
+  "i"
+);
+
 /** "under an hour ago", "5 hours ago", "3 days ago". */
 export function relativeCheckAge(fetchedAt, now = Date.now()) {
   const captured = Date.parse(String(fetchedAt || ""));

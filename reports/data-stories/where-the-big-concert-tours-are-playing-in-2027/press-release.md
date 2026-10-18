@@ -1,12 +1,12 @@
 # DRAFT PRESS RELEASE — not sent. Needs owner review before any use.
 
-**For immediate release, 16 October 2026**
+**For immediate release, 17 October 2026**
 
 ## Las Vegas leads 2027 dates on 101 tracked major tours, ahead of London and Toronto
 
 Las Vegas has more 2027 dates than any other city across 101 major tours tracked by TourTicketCompare, an independent concert ticket research site. Las Vegas has 72 dates from 18 artists, London 68 and Toronto 61.
 
-Key figures (as of 16 October 2026):
+Key figures (as of 17 October 2026):
 
 - 2,074 announced 2027 dates across 332 cities and 21 countries.
 - The O2 in London has the most dates of any venue: 40.

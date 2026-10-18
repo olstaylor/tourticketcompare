@@ -529,6 +529,7 @@ function expectedMusicEventCount(artistSlug) {
   const expectedBadgeAmount = new Intl.NumberFormat("en", {
     style: "currency",
     currency: "USD",
+    currencyDisplay: "code",
     maximumFractionDigits: 2
   }).format(123.45);
 
@@ -1103,7 +1104,7 @@ function expectedMusicEventCount(artistSlug) {
       const html = await (await render(eventPagesModule.eventPath(SCHEDULED), "tourticketcompare.com", fenv)).text();
       const parentGraph = extractGraph(await (await render(`/artists/${artist.slug}`, "tourticketcompare.com", fenv)).text(), `/artists/${artist.slug}`) || [];
       const parentNode = parentGraph.find((node) => node["@type"] === "MusicEvent" && String(node.url).endsWith(`#show-${SCHEDULED.id}`));
-      if (!/\$123\.45/.test(html)) fail("event fixture scheduled: the visible price badge is missing, so the no-offer check proves nothing");
+      if (!/USD\s+123\.45/.test(html)) fail("event fixture scheduled: the visible price badge is missing, so the no-offer check proves nothing");
       else if (!(parentNode?.offers?.length === 1)) fail("event fixture scheduled: the parent artist board no longer emits its gated Offer for the same row");
       else if (!scheduled || JSON.stringify(scheduled.offers) !== JSON.stringify(parentNode.offers)) fail(`event fixture scheduled: the event-page offers ${JSON.stringify(scheduled?.offers)} differ from the parent board's ${JSON.stringify(parentNode.offers)}`);
       else ok("event fixture scheduled: visible price, and the same gated Offer on the parent board and the event-page node");
@@ -1134,7 +1135,7 @@ function expectedMusicEventCount(artistSlug) {
       const html = await (await render(eventPagesModule.eventPath(event), "tourticketcompare.com", fenv)).text();
       const main = html.slice(html.indexOf("<main"), html.indexOf("</main>"));
       if (node?.eventStatus !== status) fail(`event fixture ${event.id}: expected ${status}, got ${JSON.stringify(node)}`);
-      else if (/\/api\/out|\$\d/.test(main) || hasSchemaProperty(extractGraph(html, event.id).filter((entry) => entry["@type"] !== "Organization"), /offer|price|availability|inventory/i)) fail(`event fixture ${event.id}: a held page exposes a ticket link, price, offer or availability`);
+      else if (/\/api\/out|(?:\$|USD\s+)\d/.test(main) || hasSchemaProperty(extractGraph(html, event.id).filter((entry) => entry["@type"] !== "Organization"), /offer|price|availability|inventory/i)) fail(`event fixture ${event.id}: a held page exposes a ticket link, price, offer or availability`);
       else ok(`event fixture ${event.id}: ${status.replace("https://schema.org/", "")}, with no ticket link, price, Offer or availability on page or in schema`);
     }
     {

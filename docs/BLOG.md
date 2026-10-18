@@ -284,7 +284,19 @@ newest recheck is over 14 days old, or when fewer than three cities or venues
 have 5+ dates. `npm run stories:check` runs the gate alone. Run
 `npm run blog:build` after a refresh. Tests: `npm run test:data-stories`.
 
-Out of scope by policy: provider prices and price changes
+`npm run stories:build -- --story price-moves` writes
+`/blog/how-resale-ticket-prices-moved-this-month`: for each site with a
+listed-price lane (Vivid Seats, TicketNetwork, StubHub International), how many
+upcoming dates its lowest listed price is lower, higher or within 2% of the
+figure about 30 days earlier, from the daily rollup in production D1 (via
+wrangler and `CLOUDFLARE_API_TOKEN`, or `--rows <file.json>` with a saved
+query result). It prints counts only, never a price; each count compares one
+date with itself on one site; sites are listed in a fixed order and never
+compared. A site needs 50+ dates across 10+ artists to appear, and no site
+clearing that writes nothing. It has no press release: price-derived figures
+stay off other sites until the providers confirm off-site use in writing.
+
+Out of scope by policy: printed provider prices, cross-site comparisons
 ([PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md)), price-timing claims until
 the evidence thresholds are met, presale window counts (Ticketmaster's lists mix
 VIP packages and card offers), and any claim about the whole concert market.
@@ -444,7 +456,7 @@ Create or edit a file under `content/blog/` or `content/guides/` in GitHub's web
 - Dates are valid ISO dates and `updated` is not before `date`.
 - Every `related_guides`, `related_artists`, and guide/artist/blog body link resolves to a real page, and no published post links to a draft. City and venue links are shape-checked only (see above).
 - No embedded images.
-- No claim the site cannot support — `cheapest`, `lowest price`, `guaranteed availability`, `sold out`, `selling fast`, and similar. This is a blunt substring check on purpose. If it fires on a sentence that was actually fine, rephrase rather than working around it.
+- No claim the site cannot support — a blanket "cheapest" promise ("cheapest tickets anywhere", "we find the cheapest"; `UNSUPPORTED_CHEAPEST_CLAIM` in `functions/_price-wording.js`), `lowest price`, `guaranteed availability`, `sold out`, `selling fast`, and similar. "Cheapest" itself is allowed where it describes compared listed prices (SAFE_PUBLISHING_RULES.md → Price Display). This is a blunt check on purpose. If it fires on a sentence that was actually fine, rephrase rather than working around it.
 
 `npm run blog:check` (wired into `npm run test:mvp` and PR validation) fails if `public/data/blog-content.json` does not match `content/blog/` — the same staleness guard the event data has.
 

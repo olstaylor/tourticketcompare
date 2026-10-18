@@ -21,10 +21,14 @@
 // reads the current provider_pricing_cache rows (D1 or `--rows`) and passes
 // them through the live display gate in functions/api/shows.js with the
 // wrangler.toml flags, so only figures a CTA button would print can appear.
+// The one gate that lives in dashboard secrets (each site's tracking setup,
+// without which no button renders) is read from production's /api/shows
+// `providerAvailability`, or from `--availability <file.json>`; if neither
+// answers, the build refuses.
 //
 //   node scripts/build-data-story.mjs [--year 2027] [--now 2026-10-16T12:00:00Z] [--check]
 //   node scripts/build-data-story.mjs --story price-moves [--rows rows.json] [--check]
-//   node scripts/build-data-story.mjs --story city-prices [--rows cache-rows.json] [--check]
+//   node scripts/build-data-story.mjs --story city-prices [--rows cache-rows.json] [--availability avail.json] [--check]
 
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -106,6 +110,22 @@ async function readD1Rows(sql) {
   return JSON.parse(stdout)[0]?.results || [];
 }
 
+// The price-lane sites whose buttons production renders right now. Fails
+// closed: no answer means no site, and the gate then refuses the story.
+const AVAILABILITY_KEYS = { vividseats: "vivid-seats", ticketnetwork: "ticketnetwork", "stubhub-international": "stubhub-international" };
+async function readProviderAvailability() {
+  const file = argValue("--availability");
+  let availability = {};
+  try {
+    availability = file
+      ? JSON.parse(await fs.readFile(path.resolve(file), "utf8"))
+      : (await (await fetch("https://tourticketcompare.com/api/shows?limit=1")).json()).providerAvailability || {};
+  } catch (error) {
+    console.error(`data-story: could not read provider availability (${error.message}); no site's prices will be used`);
+  }
+  return new Set(Object.entries(AVAILABILITY_KEYS).filter(([key]) => availability[key] === true).map(([, site]) => site));
+}
+
 async function writeStory(slug, post, files) {
   const reportDir = path.join(root, "reports/data-stories", slug);
   await fs.mkdir(reportDir, { recursive: true });
@@ -153,8 +173,18 @@ if (story === "tour-map") {
     })
   };
   const env = { ...wranglerVars(await fs.readFile(path.join(root, "wrangler.toml"), "utf8")), DEMAND_DB: db };
-  const shows = await attachApprovedMarketplacePrices(mapEventsToShows(events.filter((event) => isUpcomingShow(event, now))), env);
-  const figures = buildCityPriceFigures(shows, events, artists, { now, priceGuideArtists: new Set(PRICE_GUIDE_ARTISTS) });
+  // The gates in functions/api/shows.js read the wall clock; run them at the
+  // build's instant so a replay with --now and --rows sees what it would have.
+  const realNow = Date.now;
+  Date.now = () => now;
+  let shows;
+  try {
+    shows = await attachApprovedMarketplacePrices(mapEventsToShows(events.filter((event) => isUpcomingShow(event, now))), env);
+  } finally {
+    Date.now = realNow;
+  }
+  const availableSites = await readProviderAvailability();
+  const figures = buildCityPriceFigures(shows, events, artists, { now, priceGuideArtists: new Set(PRICE_GUIDE_ARTISTS), availableSites });
   console.log(`data-story: city prices from ${rows.length} cache rows, ${figures.tours.length} tour(s) clear the gate`);
   stopIfGateFails(cityPricesGate(figures));
   const existing = await existingPost(CITY_PRICE_SLUG);

@@ -26,6 +26,7 @@ import { citySlug, metroCity, normalizeCountry, deriveCities } from "../../funct
 import { canonicalCity, venueSlug, deriveVenues } from "../../functions/_venues.js";
 import { TOURS_HUB_YEAR, TOURS_HUB_PATH } from "../../functions/_tours-hub.js";
 import { deriveArtistCities } from "../../functions/_artist-cities.js";
+import { PRICE_DISCLOSURE } from "../../functions/_price-wording.js";
 
 const SITE = "https://tourticketcompare.com";
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -571,9 +572,12 @@ const CITY_PRICE_SITE_BY_NAME = new Map([...PRICE_MOVE_SITES].map(([slug, name])
  * @param {any[]} pricedShows Upcoming shows after `attachApprovedMarketplacePrices`.
  * @param {any[]} events events.json records.
  * @param {any[]} artists artists.json records.
- * @param {{ now: number, priceGuideArtists?: Set<string> }} options
+ * @param {{ now: number, priceGuideArtists?: Set<string>, availableSites?: Set<string> }} options
+ *   `availableSites`: the price-lane sites whose ticket buttons production is
+ *   rendering (its tracking configuration is live); any other site's figure
+ *   is dropped, because a price with no button beside it fails the display gate.
  */
-export function buildCityPriceFigures(pricedShows, events, artists, { now, priceGuideArtists = new Set() }) {
+export function buildCityPriceFigures(pricedShows, events, artists, { now, priceGuideArtists = new Set(), availableSites = new Set() }) {
   const eventList = Array.isArray(events) ? events : [];
   const artistList = Array.isArray(artists) ? artists : [];
   const names = new Map(artistList.map((artist) => [trimmed(artist?.slug), trimmed(artist?.name)]));
@@ -588,7 +592,7 @@ export function buildCityPriceFigures(pricedShows, events, artists, { now, price
       const site = CITY_PRICE_SITE_BY_NAME.get(trimmed(lane?.provider));
       const price = Number(lane?.price);
       const captured = Date.parse(trimmed(lane?.fetchedAt));
-      if (!site || lane.status !== "ok" || !(price > 0) || !trimmed(lane.currency)) continue;
+      if (!site || !availableSites.has(site) || lane.status !== "ok" || !(price > 0) || !trimmed(lane.currency)) continue;
       if (!Number.isFinite(captured) || now - captured > CITY_PRICE_GATE.maxCaptureAgeHours * 3600000) continue;
       const id = trimmed(show.id);
       if (!lanes.has(id)) lanes.set(id, new Map());
@@ -625,17 +629,23 @@ export function buildCityPriceFigures(pricedShows, events, artists, { now, price
         });
       }
     }
-    // One market per tour: the site's most common currency, then the country
-    // with the most cities. Overseas dates listed in dollars on a US site are
-    // not like-for-like with home dates, so they are left out.
+    // One market per tour: the largest (country, currency) group on the
+    // site. Overseas dates listed in dollars on a US site are not
+    // like-for-like with home dates, so they are left out.
     const order = [...PRICE_MOVE_SITES.keys()];
-    const filtered = [...bySite].map(([siteSlug, rows]) => {
-      const currency = mostCommon(rows.map((row) => row.currency));
-      const inCurrency = rows.filter((row) => row.currency === currency);
-      const country = mostCommon(inCurrency.map((row) => row.country));
-      return [siteSlug, currency, country, inCurrency.filter((row) => row.country === country)];
-    });
-    const [site, currency, country, rows] = filtered.sort((a, b) => b[3].length - a[3].length || order.indexOf(a[0]) - order.indexOf(b[0]))[0] || [];
+    const markets = [];
+    for (const [siteSlug, siteRows] of bySite) {
+      const groups = new Map();
+      for (const row of siteRows) {
+        const key = `${row.country}|${row.currency}`;
+        if (!groups.has(key)) groups.set(key, []);
+        groups.get(key).push(row);
+      }
+      for (const rows of groups.values()) markets.push([siteSlug, rows[0].currency, rows[0].country, rows]);
+    }
+    const [site, currency, country, rows] = markets.sort(
+      (a, b) => b[3].length - a[3].length || order.indexOf(a[0]) - order.indexOf(b[0]) || `${a[2]}|${a[1]}`.localeCompare(`${b[2]}|${b[1]}`)
+    )[0] || [];
     if (!site) continue;
     const cities = rows.sort((a, b) => a.price - b.price || a.city.localeCompare(b.city));
     if (cities.length < CITY_PRICE_GATE.minCitiesPerTour) continue;
@@ -653,7 +663,8 @@ export function buildCityPriceFigures(pricedShows, events, artists, { now, price
       cityCount: cities.length,
       low,
       high,
-      ratio: Math.round((high.price / low.price) * 10) / 10,
+      // Rounded down, so 1.95 reads 1.9× and never as the double it isn't.
+      ratio: Math.floor((high.price / low.price) * 10) / 10,
       cities
     });
   }
@@ -672,12 +683,6 @@ export function buildCityPriceFigures(pricedShows, events, artists, { now, price
     // Compared on the raw prices, so 1.95 (shown as 2×) does not count as double.
     doubledCount: featured.filter((tour) => tour.high.price >= tour.low.price * 2).length
   };
-}
-
-function mostCommon(values) {
-  const counts = new Map();
-  for (const value of values) counts.set(value, (counts.get(value) || 0) + 1);
-  return [...counts].sort((a, b) => b[1] - a[1] || String(a[0]).localeCompare(String(b[0])))[0][0];
 }
 
 export function cityPricesGate(figures) {
@@ -739,7 +744,7 @@ ${ends.map((row) => cityRow(row, tour.siteLabel)).join("\n")}${gap}`;
     "---"
   ].join("\n");
 
-  const body = `The same tour can cost very different amounts depending on which city you see it in. TourTicketCompare records the lowest listed price on each resale site for the dates it tracks. This page takes the ${tours.length} tours with the most cities priced on a single site and puts those cities side by side.
+  const body = `The same tour can cost very different amounts depending on which city you see it in. TourTicketCompare records the lowest listed price on each resale site for the dates it tracks. This page takes the ${tours.length} tours with the most cities priced on a single site, one tour per artist, and puts those cities side by side.
 
 On ${doubledCount} of the ${tours.length} tours, the next date in the highest-priced city was listed at two or more times the next date in the lowest.
 
@@ -753,7 +758,7 @@ ${sections}
 
 ## What this does and doesn't say
 
-- **These are listed prices, captured at the time shown.** Each is the lowest listed snapshot a site showed for that date when it was last checked, before fees, delivery and seat choice. Checkout totals are higher, and prices change through the day.
+- **These are listed prices.** ${PRICE_DISCLOSURE}
 - **A city gap is not a forecast.** A city that's high today can drop, and a low one can rise. Nothing here says when to buy.
 - **Only the tours TourTicketCompare tracks.** Cities outside the tour's main country, and cities whose next date had no recent listed price on that site, are left out.
 

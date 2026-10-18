@@ -119,6 +119,8 @@ The request set these conditions, and they bind every off-site use:
 
 SeatGeek was also asked and said yes, but it has no numeric price lane, so there is nothing to use. Ticket Liquidator was not asked and stays excluded. As everywhere else, confirmation is never inferred between StubHub International and StubHub US/Canada.
 
+**One site, across cities, in a data story (owner decision 2026-10-18).** The request above named this use in a published data story ("across [N] shows, [provider]'s lowest listed price was ..."), which each programme approved, and the owner confirmed the scope on 2026-10-18. Only in the "same tour, different city" data story (`--story city-prices`, docs/BLOG.md) may one site's figures for different dates of one tour be set side by side, with its highest and lowest city named and the gap between them. Conditions: each figure is the next date in its city on that one site, never a minimum across a city's dates; it passes the live display gate, including that site's buttons rendering in production; it is under 72 hours old and carries its capture time; one country and one currency per tour; no conversion; sites are never compared or ranked. This does not allow on-site "<city> tickets from <price>" claims, which "Ranking stays same-event" below still forbids.
+
 This grant covers rights only. A claim about price behaviour, such as prices falling before a show, still needs evidence that meets its own bar, and every automated publish path stays under `SAFE_PUBLISHING_RULES.md`.
 
 ---

@@ -194,22 +194,44 @@ const priced = cityEvents.map((ev, i) => {
   }
   return { ...ev, prices };
 });
-const cityFigures = buildCityPriceFigures(priced, cityEvents, artists, { now: NOW_MS, priceGuideArtists: new Set(["artist-a"]) });
+const LIVE = new Set(["vivid-seats", "ticketnetwork", "stubhub-international"]);
+const cityFigures = buildCityPriceFigures(priced, cityEvents, artists, { now: NOW_MS, priceGuideArtists: new Set(["artist-a"]), availableSites: LIVE });
 const tour = cityFigures.tours[0];
 assert(cityFigures.tours.length === 1 && tour.site === "vivid-seats", "the site pricing the most cities is chosen; other sites are not shown");
 assert(tour.cityCount === 10 && tour.country === "United States", "the tour is compared inside its main country");
 assert(tour.low.price === 40 && tour.low.city === "Austin" && tour.high.price === 130, "each city uses its next date, never a lower later date");
 assert(tour.cities.every((row) => row.capturedAt === fresh), "every figure carries its capture time");
 assert(tour.path === "/artists/artist-a/ticket-prices", "a registered price guide is linked");
-assert(cityFigures.doubledCount === 1 && tour.ratio === 3.3, "the gap is high over low");
+assert(cityFigures.doubledCount === 1 && tour.ratio === 3.2, "the gap is high over low, rounded down (3.25 reads 3.2)");
+const nearDouble = buildCityPriceFigures(
+  priced.map((show) => ({ ...show, prices: show.prices.map((lane) => (lane.provider === "Vivid Seats" && lane.price >= 40 && lane.price <= 130 ? { ...lane, price: 40 + ((lane.price - 40) / 10) * 4.3 } : lane)) })),
+  cityEvents, artists, { now: NOW_MS, availableSites: LIVE }
+).tours[0];
+assert(nearDouble.ratio === 1.9 && nearDouble.high.price < nearDouble.low.price * 2, "a 1.97x gap reads 1.9x, never 2x");
+const offline = buildCityPriceFigures(priced, cityEvents, artists, { now: NOW_MS, availableSites: new Set(["ticketnetwork"]) });
+assert(offline.tours.length === 0, "a site whose buttons production is not rendering contributes no figure");
+assert(buildCityPriceFigures(priced, cityEvents, artists, { now: NOW_MS }).tours.length === 0, "no availability answer means no figures");
+// The largest (country, currency) market wins, not two successive modes:
+// 5 US/USD + 4 CA/USD + 8 CA/CAD picks the 8 Canadian dollar cities.
+const marketEvents = [];
+const marketPriced = [];
+for (const [i, [country, currency]] of [...Array(5).fill(["United States", "USD"]), ...Array(4).fill(["Canada", "USD"]), ...Array(8).fill(["Canada", "CAD"])].entries()) {
+  const ev = event("artist-b", `2027-06-${String(i + 1).padStart(2, "0")}T22:00:00Z`, { city: `Town ${i}`, country, venue: `Hall ${i}` });
+  marketEvents.push(ev);
+  marketPriced.push({ ...ev, prices: [lane("Vivid Seats", 50 + i, { currency })] });
+}
+const market = buildCityPriceFigures(marketPriced, marketEvents, artists, { now: NOW_MS, availableSites: LIVE }).tours[0];
+assert(market && market.country === "Canada" && market.currency === "CAD" && market.cityCount === 8, "the largest country-currency group is the market");
 assert(cityPricesGate(cityFigures).length === 1, `${CITY_PRICE_GATE.minTours} tours are needed to publish`);
-const thin = buildCityPriceFigures(priced.slice(0, 14), cityEvents, artists, { now: NOW_MS });
+const thin = buildCityPriceFigures(priced.slice(0, 14), cityEvents, artists, { now: NOW_MS, availableSites: LIVE });
 assert(thin.tours.length === 0, `a tour needs ${CITY_PRICE_GATE.minCitiesPerTour}+ priced cities`);
-const stalePrices = buildCityPriceFigures(priced, cityEvents, artists, { now: NOW_MS + 4 * 86400000 });
+const stalePrices = buildCityPriceFigures(priced, cityEvents, artists, { now: NOW_MS + 4 * 86400000, availableSites: LIVE });
 assert(stalePrices.tours.length === 0, "snapshots older than the freshness window are left out");
 const cityPost = renderCityPricesPost(cityFigures);
 assert(/^status: draft$/m.test(cityPost), "a new city-prices post is a draft");
 assert(cityPost.includes("$40") && cityPost.includes("16 October, 10:00 UTC") && cityPost.includes("| Vivid Seats |"), "each printed price names its site and capture time");
+assert(cityPost.includes("Some prices may already include fees") && !/before fees/i.test(cityPost), "the fee caveat is the site's own disclosure");
+assert(cityPost.includes("one tour per artist"), "the method states the one-tour-per-artist rule");
 assert(!cityPost.includes("TicketNetwork") && !cityPost.includes("StubHub"), "sites are never set against each other");
 assert(!/\b(cheapest|lowest price|will (?:fall|drop|rise)|best time|sold out)\b/i.test(cityPost), "the city-prices post makes no banned claim");
 assert(findFirstPersonPlural(cityPost).length === 0, "the city-prices post does not speak as \"we\"");

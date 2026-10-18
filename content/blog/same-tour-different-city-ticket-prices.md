@@ -11,7 +11,7 @@ related_guides:
   - primary-vs-resale-concert-tickets
 ---
 
-The same tour can cost very different amounts depending on which city you see it in. TourTicketCompare records the lowest listed price on each resale site for the dates it tracks. This page takes the 10 tours with the most cities priced on a single site and puts those cities side by side.
+The same tour can cost very different amounts depending on which city you see it in. TourTicketCompare records the lowest listed price on each resale site for the dates it tracks. This page takes the 10 tours with the most cities priced on a single site, one tour per artist, and puts those cities side by side.
 
 On 8 of the 10 tours, the next date in the highest-priced city was listed at two or more times the next date in the lowest.
 
@@ -21,12 +21,12 @@ On 8 of the 10 tours, the next date in the highest-priced city was listed at two
 | [Greta Van Fleet](/artists/greta-van-fleet/ticket-prices) | Into The Beginning Tour | Vivid Seats | United States | 35 | $55 (Grand Rapids) | $117 (Uncasville) | 2.1× |
 | [Daughtry](/artists/daughtry/ticket-prices) | 20 Years Unplugged Tour | Vivid Seats | United States | 34 | $37 (Durant) | $348 (Melbourne) | 9.4× |
 | [The Red Clay Strays](/artists/the-red-clay-strays/ticket-prices) | Grateful Tour | Vivid Seats | United States | 28 | $47 (Birmingham) | $141 (Uncasville) | 3× |
-| [Pentatonix](/artists/pentatonix/ticket-prices) | Christmas in the City Tour | TicketNetwork | United States | 26 | $37.95 (Nashville) | $124.20 (Lubbock) | 3.3× |
+| [Pentatonix](/artists/pentatonix/ticket-prices) | Christmas in the City Tour | TicketNetwork | United States | 26 | $37.95 (Nashville) | $124.20 (Lubbock) | 3.2× |
 | [Hans Zimmer](/artists/hans-zimmer/ticket-prices) | Hans Zimmer Live – The Next Level | TicketNetwork | United States | 25 | $54.05 (Orlando) | $265.65 (Anaheim) | 4.9× |
-| [TobyMac](/artists/tobymac/ticket-prices) | Hits Deep Tour | Vivid Seats | United States | 25 | $32 (Duluth) | $54 (Cape Girardeau) | 1.7× |
-| [Riley Green](/artists/riley-green/ticket-prices) | That's Just Me Tour | Vivid Seats | United States | 23 | $63 (Tulsa) | $123 (Brandon) | 2× |
-| [Trivium](/artists/trivium/ticket-prices) | Crown In The Grave World Tour | TicketNetwork | United States | 23 | $35.65 (Atlanta) | $105.80 (Tulsa) | 3× |
-| [Lizzy McAlpine](/artists/lizzy-mcalpine/ticket-prices) | The Over Country Tour | Vivid Seats | United States | 22 | $46 (San Francisco) | $288 (Kansas City) | 6.3× |
+| [TobyMac](/artists/tobymac/ticket-prices) | Hits Deep Tour | Vivid Seats | United States | 25 | $32 (Duluth) | $54 (Cape Girardeau) | 1.6× |
+| [Riley Green](/artists/riley-green/ticket-prices) | That's Just Me Tour | Vivid Seats | United States | 23 | $63 (Tulsa) | $123 (Brandon) | 1.9× |
+| [Trivium](/artists/trivium/ticket-prices) | Crown In The Grave World Tour | TicketNetwork | United States | 23 | $35.65 (Atlanta) | $105.80 (Tulsa) | 2.9× |
+| [Lizzy McAlpine](/artists/lizzy-mcalpine/ticket-prices) | The Over Country Tour | Vivid Seats | United States | 22 | $46 (San Francisco) | $288 (Kansas City) | 6.2× |
 
 Each tour uses one site, the one with listed prices in the most of its cities, so cities are compared on the same site's listings. Sites are not compared with each other here. Each tour is compared within one country and one currency, and each city's figure is its next date only, not the lowest of all its dates.
 
@@ -92,7 +92,7 @@ The 22 cities in between are on the [The Red Clay Strays page](/artists/the-red-
 
 ## Pentatonix: Christmas in the City Tour
 
-On TicketNetwork, the lowest listed price for the next date in each of 26 cities in the United States was $37.95 in Nashville at the low end and $124.20 in Lubbock at the high end, 3.3 times as much.
+On TicketNetwork, the lowest listed price for the next date in each of 26 cities in the United States was $37.95 in Nashville at the low end and $124.20 in Lubbock at the high end, 3.2 times as much.
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
@@ -122,7 +122,7 @@ The 19 cities in between are on the [Hans Zimmer page](/artists/hans-zimmer/tick
 
 ## TobyMac: Hits Deep Tour
 
-On Vivid Seats, the lowest listed price for the next date in each of 25 cities in the United States was $32 in Duluth at the low end and $54 in Cape Girardeau at the high end, 1.7 times as much.
+On Vivid Seats, the lowest listed price for the next date in each of 25 cities in the United States was $32 in Duluth at the low end and $54 in Cape Girardeau at the high end, 1.6 times as much.
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
@@ -137,7 +137,7 @@ The 19 cities in between are on the [TobyMac page](/artists/tobymac/ticket-price
 
 ## Riley Green: That's Just Me Tour
 
-On Vivid Seats, the lowest listed price for the next date in each of 23 cities in the United States was $63 in Tulsa at the low end and $123 in Brandon at the high end, 2 times as much.
+On Vivid Seats, the lowest listed price for the next date in each of 23 cities in the United States was $63 in Tulsa at the low end and $123 in Brandon at the high end, 1.9 times as much.
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
@@ -152,7 +152,7 @@ The 17 cities in between are on the [Riley Green page](/artists/riley-green/tick
 
 ## Trivium: Crown In The Grave World Tour
 
-On TicketNetwork, the lowest listed price for the next date in each of 23 cities in the United States was $35.65 in Atlanta at the low end and $105.80 in Tulsa at the high end, 3 times as much.
+On TicketNetwork, the lowest listed price for the next date in each of 23 cities in the United States was $35.65 in Atlanta at the low end and $105.80 in Tulsa at the high end, 2.9 times as much.
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
@@ -167,7 +167,7 @@ The 17 cities in between are on the [Trivium page](/artists/trivium/ticket-price
 
 ## Lizzy McAlpine: The Over Country Tour
 
-On Vivid Seats, the lowest listed price for the next date in each of 22 cities in the United States was $46 in San Francisco at the low end and $288 in Kansas City at the high end, 6.3 times as much.
+On Vivid Seats, the lowest listed price for the next date in each of 22 cities in the United States was $46 in San Francisco at the low end and $288 in Kansas City at the high end, 6.2 times as much.
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
@@ -182,7 +182,7 @@ The 16 cities in between are on the [Lizzy McAlpine page](/artists/lizzy-mcalpin
 
 ## What this does and doesn't say
 
-- **These are listed prices, captured at the time shown.** Each is the lowest listed snapshot a site showed for that date when it was last checked, before fees, delivery and seat choice. Checkout totals are higher, and prices change through the day.
+- **These are listed prices.** Prices are each ticket site's listed price when it was last checked, at the time shown. They change often and aren't your final total. Some prices may already include fees. You'll see the full price, with taxes and delivery, on the ticket site before you pay.
 - **A city gap is not a forecast.** A city that's high today can drop, and a low one can rise. Nothing here says when to buy.
 - **Only the tours TourTicketCompare tracks.** Cities outside the tour's main country, and cities whose next date had no recent listed price on that site, are left out.
 

@@ -31,7 +31,7 @@ const BANNED = [
   UNSUPPORTED_CHEAPEST_CLAIM,
   /\bbest\s+price\b/i,
   /\blowest\s+price\b/i,
-  /\bfrom\s*[£$€]\s*\d/i,
+  /\bfrom\s*(?:[£$€]\s*|(?:USD|CAD|AUD|GBP|EUR)\s+)\d/i,
   /\bguaranteed\b/i,
   /\bsell(ing)?\s+out\b/i,
   /\bdemand\b/i,

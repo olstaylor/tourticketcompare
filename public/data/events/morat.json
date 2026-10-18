@@ -1679,11 +1679,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107019165",
+        "url": "https://www.stubhub.ie/morat-tickets-valencia-roig-arena-23-10-2026/event/107019165",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1Aofa18",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-valencia-roig-arena-23-10-2026/event/107019165"
   },
   {
     "id": "tm-morat-2026-sevilla-z698xz2qz16vb7goa0",
@@ -1785,11 +1793,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107016756",
+        "url": "https://www.stubhub.ie/morat-tickets-madrid-movistar-arena-palacio-de-los-deportes-27-10-2026/event/107016756",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kv97NO3",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-madrid-movistar-arena-palacio-de-los-deportes-27-10-2026/event/107016756"
   },
   {
     "id": "tm-morat-2026-madrid-z698xz2qz16vao-oox",
@@ -1838,11 +1854,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107021168",
+        "url": "https://www.stubhub.ie/morat-tickets-madrid-movistar-arena-palacio-de-los-deportes-28-10-2026/event/107021168",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vaO-Oox",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-madrid-movistar-arena-palacio-de-los-deportes-28-10-2026/event/107021168"
   },
   {
     "id": "tm-morat-2026-madrid-z698xz2qz16v0v0ypz",
@@ -1891,10 +1915,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107019371",
+        "url": "https://www.stubhub.ie/morat-tickets-madrid-movistar-arena-palacio-de-los-deportes-30-10-2026/event/107019371",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v0V0YPZ",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-madrid-movistar-arena-palacio-de-los-deportes-30-10-2026/event/107019371"
   }
 ]

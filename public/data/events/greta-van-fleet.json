@@ -4154,10 +4154,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671668",
+        "url": "https://www.stubhub.ie/greta-van-fleet-tickets-glasgow-ovo-hydro-arena-glasgow-2-6-2027/event/107671668",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkfUGkd_HIpm",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-glasgow-ovo-hydro-arena-glasgow-2-6-2027/event/107671668"
   }
 ]

@@ -184,11 +184,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107447265",
-        "url": "https://www.stubhub.ie/rod-wave-washington-tickets-10-16-2026/event/107447265",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6ueLkUwW",
@@ -196,7 +196,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/rod-wave-washington-tickets-10-16-2026/event/107447265",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

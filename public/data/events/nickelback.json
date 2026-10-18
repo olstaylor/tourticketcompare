@@ -538,6 +538,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672947",
+        "url": "https://www.stubhub.ie/nickelback-chicago-tickets-2-18-2027/event/107672947",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk4AGkexO6EL",
@@ -560,7 +567,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-chicago-tickets-2-18-2027/event/107672947"
   },
   {
     "id": "tm-nickelback-2027-saint-louis-vv1akzk4kgkdiwpu8",
@@ -1138,6 +1146,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672949",
+        "url": "https://www.stubhub.ie/nickelback-newark-tickets-3-6-2027/event/107672949",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kFZ_fj7G7Twmf",
@@ -1160,7 +1175,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-newark-tickets-3-6-2027/event/107672949"
   },
   {
     "id": "tm-nickelback-2027-washington-16vfz_ffeg7mdpa",
@@ -4531,13 +4547,21 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672955",
+        "url": "https://www.stubhub.ie/nickelback-las-vegas-tickets-4-16-2027/event/107672955",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7746",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314953",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314953/Nickelback-tickets-Fri-Apr-16-2027-T-Mobile-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314953/Nickelback-tickets-Fri-Apr-16-2027-T-Mobile-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-las-vegas-tickets-4-16-2027/event/107672955"
   },
   {
     "id": "tm-nickelback-2027-salt-lake-city-z7r9jz1aa774a",
@@ -4600,13 +4624,21 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673390",
+        "url": "https://www.stubhub.ie/nickelback-salt-lake-city-tickets-4-22-2027/event/107673390",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA774a",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314957",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314957/Nickelback-tickets-Thu-Apr-22-2027-Delta-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314957/Nickelback-tickets-Thu-Apr-22-2027-Delta-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-salt-lake-city-tickets-4-22-2027/event/107673390"
   },
   {
     "id": "tm-nickelback-2027-houston-z7r9jz1aa774o",
@@ -4724,10 +4756,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107674274",
+        "url": "https://www.stubhub.ie/nickelback-tickets-london-the-o2-arena-24-5-2027/event/107674274",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk46GkddLI7z",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-london-the-o2-arena-24-5-2027/event/107674274"
   }
 ]

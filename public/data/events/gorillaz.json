@@ -123,11 +123,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107129379",
-        "url": "https://www.stubhub.ie/gorillaz-fort-worth-tickets-10-16-2026/event/107129379",
-        "verified": true,
-        "last_verified_at": "2026-10-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_dxO-E0O",
@@ -138,7 +138,7 @@
     ],
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/gorillaz-fort-worth-tickets-10-16-2026/event/107129379"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-gorillaz-2026-denver-g5vzz_amqia8m",

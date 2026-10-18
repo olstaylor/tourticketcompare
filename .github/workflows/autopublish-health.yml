@@ -21,7 +21,9 @@ concurrency:
 jobs:
   sense:
     runs-on: ubuntu-latest
-    timeout-minutes: 59
+    # The in-job suite runs before the token is minted; publication has its own
+    # 40-minute cap for the 35-minute exact-head check.
+    timeout-minutes: 89
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -72,6 +74,7 @@ jobs:
 
       - name: Open demotion PR
         if: steps.sense.outputs.count != '0'
+        timeout-minutes: 40
         env:
           GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}

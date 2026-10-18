@@ -566,7 +566,7 @@
     "tour_name": "Pure Ecstasy World Tour",
     "ticketmaster_event_id": "150064AD26B42212",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-national-harbor-maryland-11-15-2026/event/150064AD26B42212",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/beartooth-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2026-11-15-6-30-pm/concert/18253046",
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-oxon-hill-the-theater-at-mgm-national-harbor-11-15-2026--concerts-hard-rock/production/7052736",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-national-harbor-maryland-11-15-2026/event/150064AD26B42212",
@@ -582,11 +582,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18253046,
+        "url": "https://seatgeek.com/beartooth-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2026-11-15-6-30-pm/concert/18253046",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7052736,
@@ -933,7 +933,7 @@
     "tour_name": "Pure Ecstasy World Tour",
     "ticketmaster_event_id": "1B0064ACE6625B54",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-nashville-tennessee-11-28-2026/event/1B0064ACE6625B54",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/beartooth-tickets/nashville-tennessee-the-truth-nashville-2026-11-28-6-30-pm/concert/18253047",
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-nashville-the-truth-11-28-2026--concerts-hard-rock/production/7052753",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-nashville-tennessee-11-28-2026/event/1B0064ACE6625B54",
@@ -949,11 +949,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18253047,
+        "url": "https://seatgeek.com/beartooth-tickets/nashville-tennessee-the-truth-nashville-2026-11-28-6-30-pm/concert/18253047",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7052753,
@@ -1012,7 +1012,7 @@
     "tour_name": "Pure Ecstasy World Tour",
     "ticketmaster_event_id": "0E0064AEAF84DDE1",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-atlanta-georgia-11-29-2026/event/0E0064AEAF84DDE1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/beartooth-tickets/atlanta-georgia-coca-cola-roxy-theatre-2026-11-29-6-30-pm/concert/18253055",
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-atlanta-coca-cola-roxy-theatre-11-29-2026--concerts-hard-rock/production/7052761",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-atlanta-georgia-11-29-2026/event/0E0064AEAF84DDE1",
@@ -1028,11 +1028,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18253055,
+        "url": "https://seatgeek.com/beartooth-tickets/atlanta-georgia-coca-cola-roxy-theatre-2026-11-29-6-30-pm/concert/18253055",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7052761,
@@ -1091,7 +1091,7 @@
     "tour_name": "Pure Ecstasy World Tour",
     "ticketmaster_event_id": "2D0064ABB2D71F8A",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-charlotte-north-carolina-12-01-2026/event/2D0064ABB2D71F8A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/beartooth-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-12-01-6-30-pm/concert/18253056",
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-charlotte-the-fillmore-charlotte-12-1-2026--concerts-hard-rock/production/7052767",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-charlotte-north-carolina-12-01-2026/event/2D0064ABB2D71F8A",
@@ -1107,11 +1107,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18253056,
+        "url": "https://seatgeek.com/beartooth-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-12-01-6-30-pm/concert/18253056",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7052767,
@@ -1287,7 +1287,7 @@
     "tour_name": "Pure Ecstasy World Tour",
     "ticketmaster_event_id": "1B0064A7CD3CCBA4",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-orleans-louisiana-12-07-2026/event/1B0064A7CD3CCBA4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/beartooth-tickets/new-orleans-louisiana-fillmore-new-orleans-2026-12-07-5-30-pm/concert/18253062",
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-new-orleans-fillmore-new-orleans-12-7-2026--concerts-hard-rock/production/7052872",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-orleans-louisiana-12-07-2026/event/1B0064A7CD3CCBA4",
@@ -1303,11 +1303,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18253062,
+        "url": "https://seatgeek.com/beartooth-tickets/new-orleans-louisiana-fillmore-new-orleans-2026-12-07-5-30-pm/concert/18253062",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7052872,
@@ -1521,7 +1521,7 @@
     "tour_name": "Pure Ecstasy World Tour",
     "ticketmaster_event_id": "1E0064AC8748616E",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-salt-lake-city-utah-12-13-2026/event/1E0064AC8748616E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/beartooth-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-12-13-6-pm/concert/18253071",
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-salt-lake-city-the-union-event-center---salt-lake-city-12-13-2026--concerts-hard-rock/production/7052886",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-salt-lake-city-utah-12-13-2026/event/1E0064AC8748616E",
@@ -1537,11 +1537,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18253071,
+        "url": "https://seatgeek.com/beartooth-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-12-13-6-pm/concert/18253071",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7052886,
@@ -1600,7 +1600,7 @@
     "tour_name": "Pure Ecstasy World Tour",
     "ticketmaster_event_id": "190064AB0B328FE2",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-phoenix-arizona-12-16-2026/event/190064AB0B328FE2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/beartooth-tickets/phoenix-arizona-arizona-financial-theatre-2026-12-16-6-30-pm/concert/18253074",
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-phoenix-arizona-financial-theatre-12-16-2026/production/7052703",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-phoenix-arizona-12-16-2026/event/190064AB0B328FE2",
@@ -1616,11 +1616,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18253074,
+        "url": "https://seatgeek.com/beartooth-tickets/phoenix-arizona-arizona-financial-theatre-2026-12-16-6-30-pm/concert/18253074",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7052703,
@@ -2199,7 +2199,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "14914313",
     "ticketmaster_url": "https://www.ticketweb.com/event/beartooth-pure-ecstasy-the-refinery-tickets/14914313",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/beartooth-tickets/charleston-south-carolina-the-refinery-charleston-2026-12-02-6-30-pm/concert/18253058",
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-charleston-the-refinery-charleston-12-2-2026--concerts-hard-rock/production/7052773",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/beartooth-pure-ecstasy-the-refinery-tickets/14914313",
@@ -2215,11 +2215,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18253058,
+        "url": "https://seatgeek.com/beartooth-tickets/charleston-south-carolina-the-refinery-charleston-2026-12-02-6-30-pm/concert/18253058",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7052773,

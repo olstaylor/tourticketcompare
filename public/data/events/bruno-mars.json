@@ -3509,7 +3509,7 @@
     "tour_name": "The Romantic Tour",
     "ticketmaster_event_id": "1100642CDBDE6A05",
     "ticketmaster_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-17-2026/event/1100642CDBDE6A05",
-    "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-17-7-pm/concert/18013350",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-17-2026--concerts-pop/production/6526792",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-17-2026/event/1100642CDBDE6A05",
@@ -3524,11 +3524,11 @@
         "discovery_event_id": "1Av7Z_eGkShMJIA"
       },
       "seatgeek": {
-        "event_id": 18013350,
-        "url": "https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-17-7-pm/concert/18013350",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6526792,
@@ -3608,7 +3608,7 @@
         "event_id": 18016784,
         "url": "https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-20-7-pm/concert/18016784",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3689,7 +3689,7 @@
         "event_id": 18107920,
         "url": "https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-21-7-pm/concert/18107920",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {

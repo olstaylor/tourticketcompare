@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18551080,
+        "url": "https://seatgeek.com/ye-tickets/houston-texas-reliant-stadium-2026-10-31-8-pm/concert/18551080",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -64,7 +64,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAv0vV",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv0vV",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/ye-tickets/arlington-texas-at-t-stadium-2026-11-07-8-pm/concert/18531269",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv0vV",
@@ -80,11 +80,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18531269,
+        "url": "https://seatgeek.com/ye-tickets/arlington-texas-at-t-stadium-2026-11-07-8-pm/concert/18531269",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -117,7 +117,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAv08U",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv08U",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/ye-tickets/glendale-arizona-state-farm-stadium-2026-11-21-8-30-pm/concert/18549330",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv08U",
@@ -133,11 +133,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18549330,
+        "url": "https://seatgeek.com/ye-tickets/glendale-arizona-state-farm-stadium-2026-11-21-8-30-pm/concert/18549330",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

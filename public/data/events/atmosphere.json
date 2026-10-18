@@ -11,7 +11,7 @@
     "tour_name": "The Winter Carnival Tour 2027",
     "ticketmaster_event_id": "07006530B12859EE",
     "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-madison-wisconsin-01-15-2027/event/07006530B12859EE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/atmosphere-tickets/madison-wisconsin-the-sylvee-2027-01-15-6-45-pm/concert/18609073",
     "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-madison-the-sylvee-1-15-2027/production/7588955",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-madison-wisconsin-01-15-2027/event/07006530B12859EE",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18609073,
+        "url": "https://seatgeek.com/atmosphere-tickets/madison-wisconsin-the-sylvee-2027-01-15-6-45-pm/concert/18609073",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7588955,
@@ -137,7 +137,7 @@
     "tour_name": "The Winter Carnival Tour 2027",
     "ticketmaster_event_id": "1E006531D646C637",
     "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-bozeman-montana-01-23-2027/event/1E006531D646C637",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/atmosphere-tickets/bozeman-montana-the-elm-1-2027-01-23-7-pm/concert/18609086",
     "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-bozeman-the-elm---mt-1-23-2027--concerts-rap-hip-hop/production/7588971",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-bozeman-montana-01-23-2027/event/1E006531D646C637",
@@ -153,11 +153,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18609086,
+        "url": "https://seatgeek.com/atmosphere-tickets/bozeman-montana-the-elm-1-2027-01-23-7-pm/concert/18609086",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7588971,
@@ -209,7 +209,7 @@
     "tour_name": "The Winter Carnival Tour 2027",
     "ticketmaster_event_id": "1E006531B91AA202",
     "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-spokane-washington-01-24-2027/event/1E006531B91AA202",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/atmosphere-tickets/spokane-washington-knitting-factory-spokane-2027-01-24-6-45-pm/concert/18609085",
     "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-spokane-knitting-factory-concert-house-spokane-1-24-2027/production/7589267",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-spokane-washington-01-24-2027/event/1E006531B91AA202",
@@ -225,11 +225,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18609085,
+        "url": "https://seatgeek.com/atmosphere-tickets/spokane-washington-knitting-factory-spokane-2027-01-24-6-45-pm/concert/18609085",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7589267,
@@ -278,7 +278,7 @@
     "tour_name": "The Winter Carnival Tour 2027",
     "ticketmaster_event_id": "1100652F902D7B36",
     "ticketmaster_url": "https://www.ticketmaster.ca/atmosphere-the-winter-carnival-tour-2027-vancouver-british-columbia-01-26-2027/event/1100652F902D7B36",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/atmosphere-tickets/vancouver-canada-commodore-ballroom-2027-01-26-6-pm/concert/18609087",
     "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-vancouver-commodore-ballroom-1-26-2027--concerts-rap-hip-hop/production/7588977",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/atmosphere-the-winter-carnival-tour-2027-vancouver-british-columbia-01-26-2027/event/1100652F902D7B36",
@@ -294,11 +294,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18609087,
+        "url": "https://seatgeek.com/atmosphere-tickets/vancouver-canada-commodore-ballroom-2027-01-26-6-pm/concert/18609087",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7588977,
@@ -475,7 +475,7 @@
     "tour_name": "The Winter Carnival Tour 2027",
     "ticketmaster_event_id": "190065328F4C549A",
     "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-tucson-arizona-02-01-2027/event/190065328F4C549A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/atmosphere-tickets/tucson-arizona-rialto-theatre-2027-02-01-8-pm/concert/18609097",
     "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-tucson-rialto-theatre-tucson-2-1-2027--concerts-rap-hip-hop/production/7588975",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-tucson-arizona-02-01-2027/event/190065328F4C549A",
@@ -491,11 +491,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18609097,
+        "url": "https://seatgeek.com/atmosphere-tickets/tucson-arizona-rialto-theatre-2027-02-01-8-pm/concert/18609097",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7588975,
@@ -658,7 +658,7 @@
     "tour_name": "The Winter Carnival Tour 2027",
     "ticketmaster_event_id": "2100652ACB275364",
     "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-rockford-illinois-02-06-2027/event/2100652ACB275364",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/atmosphere-tickets/rockford-illinois-hard-rock-live-rockford-2027-02-06-6-pm/concert/18609101",
     "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-rockford-hard-rock-live---rockford-2-6-2027/production/7589664",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-rockford-illinois-02-06-2027/event/2100652ACB275364",
@@ -674,11 +674,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18609101,
+        "url": "https://seatgeek.com/atmosphere-tickets/rockford-illinois-hard-rock-live-rockford-2027-02-06-6-pm/concert/18609101",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7589664,

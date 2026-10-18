@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F006521E725215D",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-seattle-washington-02-04-2027/event/0F006521E725215D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yuridia-tickets/seattle-washington-paramount-theatre-wa-2027-02-04-8-pm/concert/18570382",
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-seattle-paramount-theatre-seattle-2-4-2027/production/7530975",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-seattle-washington-02-04-2027/event/0F006521E725215D",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18570382,
+        "url": "https://seatgeek.com/yuridia-tickets/seattle-washington-paramount-theatre-wa-2027-02-04-8-pm/concert/18570382",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7530975,

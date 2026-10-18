@@ -293,7 +293,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "050064D1D0AE1FA1",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-columbus-ohio-10-22-2026/event/050064D1D0AE1FA1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/rod-wave-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2026-10-22-8-30-pm/concert/18320055",
     "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-columbus-value-city-arena-at-schottenstein-center-10-22-2026--concerts-rap-hip-hop/production/7185749",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-columbus-ohio-10-22-2026/event/050064D1D0AE1FA1",
@@ -309,11 +309,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18320055,
+        "url": "https://seatgeek.com/rod-wave-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2026-10-22-8-30-pm/concert/18320055",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7185749,
@@ -372,7 +372,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "160064D1B956C130",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-pittsburgh-pennsylvania-10-23-2026/event/160064D1B956C130",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/rod-wave-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-10-23-8-30-pm/concert/18320056",
     "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-pittsburgh-ppg-paints-arena-10-23-2026--concerts-rap-hip-hop/production/7185759",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-pittsburgh-pennsylvania-10-23-2026/event/160064D1B956C130",
@@ -388,11 +388,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18320056,
+        "url": "https://seatgeek.com/rod-wave-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-10-23-8-30-pm/concert/18320056",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7185759,
@@ -815,11 +815,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18414825,
+        "url": "https://seatgeek.com/rod-wave-tickets/chicago-illinois-united-center-2026-11-01-8-pm/concert/18414825",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7367131,
@@ -902,11 +902,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18320066,
+        "url": "https://seatgeek.com/rod-wave-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-11-03-8-30-pm/concert/18320066",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7185775,
@@ -981,11 +981,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18320065,
+        "url": "https://seatgeek.com/rod-wave-tickets/columbia-south-carolina-colonial-life-arena-2026-11-06-8-30-pm/concert/18320065",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7185779,
@@ -1060,11 +1060,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18320069,
+        "url": "https://seatgeek.com/rod-wave-tickets/orlando-florida-kia-center-2026-11-09-8-30-pm/concert/18320069",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7185781,
@@ -1147,11 +1147,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18414835,
+        "url": "https://seatgeek.com/rod-wave-tickets/orlando-florida-kia-center-2026-11-10-8-pm/concert/18414835",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7367259,
@@ -1218,7 +1218,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7PPag",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PPag",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/rod-wave-tickets/sunrise-florida-amerant-bank-arena-2026-11-14-8-pm/concert/18312360",
     "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-sunrise-amerant-bank-arena-11-14-2026--concerts-rap-hip-hop/production/7185783",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PPag",
@@ -1234,11 +1234,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18312360,
+        "url": "https://seatgeek.com/rod-wave-tickets/sunrise-florida-amerant-bank-arena-2026-11-14-8-pm/concert/18312360",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7185783,
@@ -1298,7 +1298,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZfq4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZfq4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/rod-wave-tickets/sunrise-florida-amerant-bank-arena-2026-11-15-8-pm/concert/18312361",
     "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-sunrise-amerant-bank-arena-11-15-2026/production/7367635",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZfq4",
@@ -1314,11 +1314,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18312361,
+        "url": "https://seatgeek.com/rod-wave-tickets/sunrise-florida-amerant-bank-arena-2026-11-15-8-pm/concert/18312361",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7367635,
@@ -1394,11 +1394,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18320070,
+        "url": "https://seatgeek.com/rod-wave-tickets/atlanta-georgia-state-farm-arena-1-2026-11-18-8-30-pm/concert/18320070",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7185786,
@@ -1481,11 +1481,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18414834,
+        "url": "https://seatgeek.com/rod-wave-tickets/atlanta-georgia-state-farm-arena-1-2026-11-19-8-pm/concert/18414834",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7367127,

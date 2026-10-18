@@ -1537,7 +1537,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7qU14",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qU14",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/rod-stewart-tickets/morrison-colorado-red-rocks-amphitheatre-2027-09-02-7-30-pm/concert/17890592",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qU14",
@@ -1553,11 +1553,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17890592,
+        "url": "https://seatgeek.com/rod-stewart-tickets/morrison-colorado-red-rocks-amphitheatre-2027-09-02-7-30-pm/concert/17890592",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1618,7 +1618,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7r6o4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r6o4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/rod-stewart-tickets/morrison-colorado-red-rocks-amphitheatre-2027-09-03-7-30-pm/concert/17914318",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r6o4",
@@ -1634,11 +1634,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17914318,
+        "url": "https://seatgeek.com/rod-stewart-tickets/morrison-colorado-red-rocks-amphitheatre-2027-09-03-7-30-pm/concert/17914318",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

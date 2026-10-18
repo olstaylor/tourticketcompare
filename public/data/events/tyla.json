@@ -719,7 +719,7 @@
     "tour_name": "The A*POP World Tour",
     "ticketmaster_event_id": "110064F6FEA517B5",
     "ticketmaster_url": "https://www.ticketmaster.ca/tyla-the-apop-world-tour-vancouver-british-columbia-11-15-2026/event/110064F6FEA517B5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tyla-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2026-11-15-8-pm/concert/18404303",
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-11-15-2026--concerts-pop/production/7347496",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/tyla-the-apop-world-tour-vancouver-british-columbia-11-15-2026/event/110064F6FEA517B5",
@@ -735,11 +735,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18404303,
+        "url": "https://seatgeek.com/tyla-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2026-11-15-8-pm/concert/18404303",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7347496,
@@ -2142,7 +2142,7 @@
     "tour_name": "The A*POP World Tour",
     "ticketmaster_event_id": "170064F5EA2217B2",
     "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-las-vegas-nevada-12-19-2026/event/170064F5EA2217B2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tyla-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2026-12-19-9-pm/concert/18404302",
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-las-vegas-fontainebleau-las-vegas-12-19-2026--concerts-pop/production/7347468",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-las-vegas-nevada-12-19-2026/event/170064F5EA2217B2",
@@ -2158,11 +2158,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18404302,
+        "url": "https://seatgeek.com/tyla-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2026-12-19-9-pm/concert/18404302",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7347468,

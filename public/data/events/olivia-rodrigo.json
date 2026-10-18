@@ -861,7 +861,7 @@
     "tour_name": "The Unraveled Tour",
     "ticketmaster_event_id": "0100649D21F5B72A",
     "ticketmaster_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-boston-massachusetts-10-17-2026/event/0100649D21F5B72A",
-    "seatgeek_url": "https://seatgeek.com/olivia-rodrigo-tickets/boston-massachusetts-td-garden-2026-10-17-7-pm/concert/18211686",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/olivia-rodrigo-tickets-boston-td-garden-10-17-2026--concerts-pop/production/6969261",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-boston-massachusetts-10-17-2026/event/0100649D21F5B72A",
@@ -876,11 +876,11 @@
         "discovery_event_id": "vv177Z_aGkV-Whjn"
       },
       "seatgeek": {
-        "event_id": 18211686,
-        "url": "https://seatgeek.com/olivia-rodrigo-tickets/boston-massachusetts-td-garden-2026-10-17-7-pm/concert/18211686",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6969261,
@@ -959,7 +959,7 @@
         "event_id": 18224681,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/boston-massachusetts-td-garden-2026-10-18-7-pm/concert/18224681",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1039,7 +1039,7 @@
         "event_id": 18211732,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/montreal-canada-centre-bell-2026-10-21-7-pm/concert/18211732",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1113,7 +1113,7 @@
         "event_id": 18211735,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/montreal-canada-centre-bell-2026-10-22-7-pm/concert/18211735",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1194,7 +1194,7 @@
         "event_id": 18211736,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/toronto-canada-scotiabank-arena-2026-10-26-7-pm/concert/18211736",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1251,7 +1251,7 @@
         "event_id": 18211738,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/toronto-canada-scotiabank-arena-2026-10-27-7-pm/concert/18211738",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1308,7 +1308,7 @@
         "event_id": 18211687,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2026-10-29-7-pm/concert/18211687",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1395,7 +1395,7 @@
         "event_id": 18211689,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2026-10-30-7-pm/concert/18211689",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {

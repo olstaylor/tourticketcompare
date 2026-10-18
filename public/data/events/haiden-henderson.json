@@ -1411,7 +1411,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAeexF",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeexF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/haiden-henderson-tickets/west-hollywood-california-troubadour-2027-05-15-7-pm/concert/18669773",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeexF",
@@ -1427,11 +1427,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18669773,
+        "url": "https://seatgeek.com/haiden-henderson-tickets/west-hollywood-california-troubadour-2027-05-15-7-pm/concert/18669773",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

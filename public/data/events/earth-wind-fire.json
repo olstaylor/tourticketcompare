@@ -74,7 +74,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "17006465DF1E251F",
     "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-17-2026/event/17006465DF1E251F",
-    "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-17-8-30-pm/concert/18138586",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-17-2026/production/6818320",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-17-2026/event/17006465DF1E251F",
@@ -94,7 +94,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6818320,
@@ -153,11 +153,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18138583,
+        "url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-18-8-30-pm/concert/18138583",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6818302,
@@ -216,11 +216,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18138582,
+        "url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-21-8-30-pm/concert/18138582",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6818332,
@@ -279,11 +279,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18138585,
+        "url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-23-8-30-pm/concert/18138585",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6818308,
@@ -342,11 +342,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18138587,
+        "url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-24-8-30-pm/concert/18138587",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6818363,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18138592,
+        "url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-28-8-30-pm/concert/18138592",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6818379,
@@ -468,11 +468,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18138594,
+        "url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-30-8-30-pm/concert/18138594",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6818361,
@@ -531,11 +531,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18138595,
+        "url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-31-8-30-pm/concert/18138595",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6818352,
@@ -738,7 +738,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZwqd",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwqd",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-12-31-8-pm/concert/18409857",
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-thackerville-lucas-oil-live-at-winstar-world-casino-12-31-2026/production/7375754",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwqd",
@@ -754,11 +754,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18409857,
+        "url": "https://seatgeek.com/earth-wind-fire-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-12-31-8-pm/concert/18409857",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7375754,

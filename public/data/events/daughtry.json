@@ -525,7 +525,7 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "010064CC19A2E7B8",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-danville-virginia-10-23-2026/event/010064CC19A2E7B8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/danville-virginia-the-pantheon-at-caesars-virginia-2026-10-23-8-pm/concert/18316789",
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-danville-the-pantheon-at-caesars-virginia-10-23-2026--concerts-rock/production/7170003",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-danville-virginia-10-23-2026/event/010064CC19A2E7B8",
@@ -541,11 +541,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18316789,
+        "url": "https://seatgeek.com/daughtry-tickets/danville-virginia-the-pantheon-at-caesars-virginia-2026-10-23-8-pm/concert/18316789",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7170003,
@@ -594,7 +594,7 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "160064C99205E8A9",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-ages-florence-kentucky-10-24-2026/event/160064C99205E8A9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/florence-kentucky-turfway-park-2026-10-24-8-30-pm/concert/18300508",
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-florence-turfway-park-10-24-2026--concerts-rock/production/7170009",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-ages-florence-kentucky-10-24-2026/event/160064C99205E8A9",
@@ -610,11 +610,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18300508,
+        "url": "https://seatgeek.com/daughtry-tickets/florence-kentucky-turfway-park-2026-10-24-8-30-pm/concert/18300508",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7170009,
@@ -663,7 +663,7 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAZMaN",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMaN",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/greensburg-pennsylvania-palace-theatre-greensburg-pa-2026-10-26-7-pm/concert/18316792",
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-greensburg-palace-theatre-greensburg-10-26-2026--concerts-rock/production/7170102",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMaN",
@@ -679,11 +679,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18316792,
+        "url": "https://seatgeek.com/daughtry-tickets/greensburg-pennsylvania-palace-theatre-greensburg-pa-2026-10-26-7-pm/concert/18316792",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7170102,
@@ -716,7 +716,7 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAv9u8",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9u8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/wheeling-west-virginia-capitol-theatre-wheeling-2026-10-27-8-pm/concert/18316793",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9u8",
@@ -732,11 +732,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18316793,
+        "url": "https://seatgeek.com/daughtry-tickets/wheeling-west-virginia-capitol-theatre-wheeling-2026-10-27-8-pm/concert/18316793",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -769,7 +769,7 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "050064CBB080B530",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-nashville-indiana-10-29-2026/event/050064CBB080B530",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/nashville-indiana-brown-county-music-center-2026-10-29-7-pm/concert/18316794",
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-nashville-brown-county-music-center-10-29-2026--concerts-rock/production/7170011",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-nashville-indiana-10-29-2026/event/050064CBB080B530",
@@ -785,11 +785,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18316794,
+        "url": "https://seatgeek.com/daughtry-tickets/nashville-indiana-brown-county-music-center-2026-10-29-7-pm/concert/18316794",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7170011,
@@ -921,7 +921,7 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "060064CC86788469",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-des-moines-iowa-11-01-2026/event/060064CC86788469",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/des-moines-iowa-hoyt-sherman-place-2026-11-01-7-pm/concert/18316800",
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-des-moines-hoyt-sherman-place-11-1-2026--concerts-rock/production/7170017",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-des-moines-iowa-11-01-2026/event/060064CC86788469",
@@ -937,11 +937,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18316800,
+        "url": "https://seatgeek.com/daughtry-tickets/des-moines-iowa-hoyt-sherman-place-2026-11-01-7-pm/concert/18316800",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7170017,
@@ -1005,7 +1005,7 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "060064CCC8FF6CBF",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-kansas-city-missouri-11-03-2026/event/060064CCC8FF6CBF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/kansas-city-missouri-uptown-theater-kc-2026-11-03-8-pm/concert/18316801",
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-kansas-city-uptown-theater-kansas-city-11-3-2026--concerts-rock/production/7170019",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-kansas-city-missouri-11-03-2026/event/060064CCC8FF6CBF",
@@ -1021,11 +1021,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18316801,
+        "url": "https://seatgeek.com/daughtry-tickets/kansas-city-missouri-uptown-theater-kc-2026-11-03-8-pm/concert/18316801",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7170019,
@@ -1142,7 +1142,7 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7PxAK",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PxAK",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/las-vegas-nevada-pearl-concert-theater-at-palms-casino-resort-2026-11-07-7-pm/concert/18316805",
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-las-vegas-pearl-concert-theater-at-palms-casino-resort-11-7-2026--concerts-rock/production/7170056",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PxAK",
@@ -1158,11 +1158,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18316805,
+        "url": "https://seatgeek.com/daughtry-tickets/las-vegas-nevada-pearl-concert-theater-at-palms-casino-resort-2026-11-07-7-pm/concert/18316805",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7170056,
@@ -1211,7 +1211,7 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "1C0064CAA6523297",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-napa-california-11-08-2026/event/1C0064CAA6523297",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/napa-california-uptown-theatre-napa-2026-11-08-7-pm/concert/18316806",
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-napa-uptown-theatre-napa-11-8-2026--concerts-rock/production/7170026",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-napa-california-11-08-2026/event/1C0064CAA6523297",
@@ -1227,11 +1227,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18316806,
+        "url": "https://seatgeek.com/daughtry-tickets/napa-california-uptown-theatre-napa-2026-11-08-7-pm/concert/18316806",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7170026,
@@ -1287,7 +1287,7 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "090064CBEC8A18D7",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-anaheim-california-11-10-2026/event/090064CBEC8A18D7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/anaheim-california-city-national-grove-of-anaheim-2026-11-10-7-pm/concert/18316807",
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-anaheim-grove-of-anaheim-11-10-2026--concerts-rock/production/7170028",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-anaheim-california-11-10-2026/event/090064CBEC8A18D7",
@@ -1303,11 +1303,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18316807,
+        "url": "https://seatgeek.com/daughtry-tickets/anaheim-california-city-national-grove-of-anaheim-2026-11-10-7-pm/concert/18316807",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7170028,
@@ -1368,7 +1368,7 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7Pxk_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxk_",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/tucson-arizona-fox-tucson-theatre-2026-11-11-7-pm/concert/18316812",
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-tucson-fox-theatre-tucson-11-11-2026--concerts-rock/production/7170132",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxk_",
@@ -1384,11 +1384,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18316812,
+        "url": "https://seatgeek.com/daughtry-tickets/tucson-arizona-fox-tucson-theatre-2026-11-11-7-pm/concert/18316812",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7170132,
@@ -1437,11 +1437,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18316813,
+        "url": "https://seatgeek.com/daughtry-tickets/san-antonio-texas-aztec-theatre-2026-11-13-8-pm/concert/18316813",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1505,7 +1505,7 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "0C0064C9C54BBBEF",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-dallas-texas-11-14-2026/event/0C0064C9C54BBBEF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/dallas-texas-majestic-theatre-dallas-2026-11-14-7-pm/concert/18316816",
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-dallas-majestic-theatre-dallas-11-14-2026--concerts-rock/production/7170034",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-dallas-texas-11-14-2026/event/0C0064C9C54BBBEF",
@@ -1521,11 +1521,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18316816,
+        "url": "https://seatgeek.com/daughtry-tickets/dallas-texas-majestic-theatre-dallas-2026-11-14-7-pm/concert/18316816",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7170034,
@@ -1589,7 +1589,7 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "1B00653C36D66691",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-pine-bluff-arkansas-01-23-2027/event/1B00653C36D66691",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/pine-bluff-arkansas-saracen-casino-resort-2027-01-23-7-pm/concert/18632893",
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-pine-bluff-saracen-casino-resort-1-23-2027/production/7624290",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-pine-bluff-arkansas-01-23-2027/event/1B00653C36D66691",
@@ -1605,11 +1605,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18632893,
+        "url": "https://seatgeek.com/daughtry-tickets/pine-bluff-arkansas-saracen-casino-resort-2027-01-23-7-pm/concert/18632893",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624290,
@@ -1665,7 +1665,7 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "220065303F6CD89A",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-orlando-florida-01-27-2027/event/220065303F6CD89A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/orlando-florida-hard-rock-live-orlando-2027-01-27-7-pm/concert/18632895",
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-orlando-hard-rock-live---orlando-1-27-2027/production/7624201",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-orlando-florida-01-27-2027/event/220065303F6CD89A",
@@ -1681,11 +1681,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18632895,
+        "url": "https://seatgeek.com/daughtry-tickets/orlando-florida-hard-rock-live-orlando-2027-01-27-7-pm/concert/18632895",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624201,
@@ -1801,7 +1801,7 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "3A006538BD75D3AE",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-houston-texas-01-31-2027/event/3A006538BD75D3AE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/houston-texas-bayou-music-center-2027-01-31-8-pm/concert/18632897",
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-houston-bayou-music-center-1-31-2027/production/7623888",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-houston-texas-01-31-2027/event/3A006538BD75D3AE",
@@ -1817,11 +1817,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18632897,
+        "url": "https://seatgeek.com/daughtry-tickets/houston-texas-bayou-music-center-2027-01-31-8-pm/concert/18632897",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623888,
@@ -1880,7 +1880,7 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "3A006538B6FEBA72",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-corpus-christi-texas-02-02-2027/event/3A006538B6FEBA72",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/corpus-christi-texas-selena-auditorium-at-the-american-bank-center-2027-02-02-7-pm/concert/18632905",
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-corpus-christi-selena-auditorium-at-hilliard-center-2-2-2027/production/7623892",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-corpus-christi-texas-02-02-2027/event/3A006538B6FEBA72",
@@ -1896,11 +1896,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18632905,
+        "url": "https://seatgeek.com/daughtry-tickets/corpus-christi-texas-selena-auditorium-at-the-american-bank-center-2027-02-02-7-pm/concert/18632905",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623892,

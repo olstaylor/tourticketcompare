@@ -64,7 +64,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E006519CE44EF8B",
     "ticketmaster_url": "https://www.ticketmaster.com/yacht-rock-revue-the-18th-annual-atlanta-georgia-12-19-2026/event/0E006519CE44EF8B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yacht-rock-revue-tickets/atlanta-georgia-coca-cola-roxy-theatre-2026-12-19-8-pm/concert/18551886",
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-atlanta-coca-cola-roxy-theatre-12-19-2026/production/7505946",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yacht-rock-revue-the-18th-annual-atlanta-georgia-12-19-2026/event/0E006519CE44EF8B",
@@ -80,11 +80,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18551886,
+        "url": "https://seatgeek.com/yacht-rock-revue-tickets/atlanta-georgia-coca-cola-roxy-theatre-2026-12-19-8-pm/concert/18551886",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7505946,
@@ -136,7 +136,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "00006535E0D1FB21",
     "ticketmaster_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-englewood-new-jersey-01-07-2027/event/00006535E0D1FB21",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yacht-rock-revue-tickets/englewood-new-jersey-bergen-performing-arts-center-2027-01-07-8-pm/concert/18612862",
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-englewood-bergen-performing-arts-center-1-7-2027/production/7593530",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-englewood-new-jersey-01-07-2027/event/00006535E0D1FB21",
@@ -152,11 +152,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18612862,
+        "url": "https://seatgeek.com/yacht-rock-revue-tickets/englewood-new-jersey-bergen-performing-arts-center-2027-01-07-8-pm/concert/18612862",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7593530,
@@ -205,7 +205,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "00006522B954953D",
     "ticketmaster_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-huntington-new-york-01-08-2027/event/00006522B954953D",
-    "seatgeek_url": "https://seatgeek.com/yacht-rock-revue-tickets/huntington-new-york-the-paramount-huntington-2027-01-08-8-pm/concert/18612961",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-huntington-the-paramount-in-concert-with-northwell-1-8-2027/production/7593536",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-huntington-new-york-01-08-2027/event/00006522B954953D",
@@ -225,7 +225,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7593536,
@@ -261,7 +261,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "00006522B94F951D",
     "ticketmaster_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-huntington-new-york-01-09-2027/event/00006522B94F951D",
-    "seatgeek_url": "https://seatgeek.com/yacht-rock-revue-tickets/huntington-new-york-the-paramount-huntington-2027-01-09-8-pm/concert/18612966",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-huntington-the-paramount-in-concert-with-northwell-1-9-2027/production/7593532",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-huntington-new-york-01-09-2027/event/00006522B94F951D",
@@ -281,7 +281,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7593532,

@@ -457,7 +457,7 @@
         "event_id": 18223144,
         "url": "https://seatgeek.com/amble-tickets/los-angeles-california-the-belasco-los-angeles-2026-10-23-7-pm/concert/18223144",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -513,7 +513,7 @@
         "event_id": 18311697,
         "url": "https://seatgeek.com/amble-tickets/san-francisco-california-the-fillmore-san-francisco-2026-10-24-8-pm/concert/18311697",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -585,7 +585,7 @@
         "event_id": 18475220,
         "url": "https://seatgeek.com/amble-tickets/seattle-washington-the-showbox-2026-10-26-8-pm/concert/18475220",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -654,7 +654,7 @@
         "event_id": 18222764,
         "url": "https://seatgeek.com/amble-tickets/vancouver-canada-orpheum-theatre-vancouver-2026-10-27-8-pm/concert/18222764",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2453,7 +2453,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "14195054",
     "ticketmaster_url": "https://www.ticketweb.com/event/amble-crescent-ballroom-tickets/14195054",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/amble-tickets/phoenix-arizona-crescent-ballroom-2026-10-22-8-pm/concert/18631381",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/amble-crescent-ballroom-tickets/14195054",
@@ -2469,11 +2469,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18631381,
+        "url": "https://seatgeek.com/amble-tickets/phoenix-arizona-crescent-ballroom-2026-10-22-8-pm/concert/18631381",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

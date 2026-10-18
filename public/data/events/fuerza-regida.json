@@ -205,7 +205,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C0065029E7884D2",
     "ticketmaster_url": "https://www.ticketmaster.com/fuerza-regida-this-is-our-dream-wheatland-california-10-23-2026/event/1C0065029E7884D2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fuerza-regida-tickets/wheatland-california-toyota-amphitheatre-2026-10-23-8-30-pm/concert/18470188",
     "vividseats_url": "https://www.vividseats.com/fuerza-regida-tickets-wheatland-toyota-amphitheatre-10-23-2026--concerts-latin-music/production/7411942",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fuerza-regida-this-is-our-dream-wheatland-california-10-23-2026/event/1C0065029E7884D2",
@@ -221,11 +221,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18470188,
+        "url": "https://seatgeek.com/fuerza-regida-tickets/wheatland-california-toyota-amphitheatre-2026-10-23-8-30-pm/concert/18470188",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7411942,
@@ -284,7 +284,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZPuU",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPuU",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fuerza-regida-tickets/bakersfield-california-dignity-health-arena-2026-10-24-8-30-pm/concert/18470196",
     "vividseats_url": "https://www.vividseats.com/fuerza-regida-tickets-bakersfield-dignity-health-arena-10-24-2026/production/7412153",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPuU",
@@ -300,11 +300,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18470196,
+        "url": "https://seatgeek.com/fuerza-regida-tickets/bakersfield-california-dignity-health-arena-2026-10-24-8-30-pm/concert/18470196",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7412153,
@@ -356,7 +356,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvaxk",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvaxk",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fuerza-regida-tickets/bakersfield-california-dignity-health-arena-2026-10-25-8-pm/concert/18543019",
     "vividseats_url": "https://www.vividseats.com/fuerza-regida-tickets-bakersfield-dignity-health-arena-10-25-2026/production/7487798",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvaxk",
@@ -372,11 +372,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18543019,
+        "url": "https://seatgeek.com/fuerza-regida-tickets/bakersfield-california-dignity-health-arena-2026-10-25-8-pm/concert/18543019",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7487798,
@@ -428,7 +428,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C006505E1E7105E",
     "ticketmaster_url": "https://www.ticketmaster.com/fuerza-regida-this-is-our-dream-fresno-california-10-27-2026/event/1C006505E1E7105E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fuerza-regida-tickets/fresno-california-save-mart-center-2026-10-27-8-pm/concert/18553061",
     "vividseats_url": "https://www.vividseats.com/fuerza-regida-tickets-fresno-save-mart-center-10-27-2026--concerts-latin-music/production/7512477",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fuerza-regida-this-is-our-dream-fresno-california-10-27-2026/event/1C006505E1E7105E",
@@ -444,11 +444,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18553061,
+        "url": "https://seatgeek.com/fuerza-regida-tickets/fresno-california-save-mart-center-2026-10-27-8-pm/concert/18553061",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7512477,
@@ -507,7 +507,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C006504F0CE1D4C",
     "ticketmaster_url": "https://www.ticketmaster.com/fuerza-regida-this-is-our-dream-fresno-california-10-28-2026/event/1C006504F0CE1D4C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fuerza-regida-tickets/fresno-california-save-mart-center-2026-10-28-8-30-pm/concert/18470197",
     "vividseats_url": "https://www.vividseats.com/fuerza-regida-tickets-fresno-save-mart-center-10-28-2026/production/7412141",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fuerza-regida-this-is-our-dream-fresno-california-10-28-2026/event/1C006504F0CE1D4C",
@@ -523,11 +523,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18470197,
+        "url": "https://seatgeek.com/fuerza-regida-tickets/fresno-california-save-mart-center-2026-10-28-8-30-pm/concert/18470197",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7412141,
@@ -649,7 +649,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZPuz",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPuz",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fuerza-regida-tickets/morrison-colorado-red-rocks-amphitheatre-2026-11-02-8-30-pm/concert/18470201",
     "vividseats_url": "https://www.vividseats.com/fuerza-regida-tickets-morrison-red-rocks-amphitheatre-11-2-2026/production/7412161",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPuz",
@@ -665,11 +665,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18470201,
+        "url": "https://seatgeek.com/fuerza-regida-tickets/morrison-colorado-red-rocks-amphitheatre-2026-11-02-8-30-pm/concert/18470201",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7412161,
@@ -729,7 +729,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZt0f",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZt0f",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fuerza-regida-tickets/morrison-colorado-red-rocks-amphitheatre-2026-11-03-8-30-pm/concert/18498567",
     "vividseats_url": "https://www.vividseats.com/fuerza-regida-tickets-morrison-red-rocks-amphitheatre-11-3-2026/production/7416945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZt0f",
@@ -745,11 +745,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18498567,
+        "url": "https://seatgeek.com/fuerza-regida-tickets/morrison-colorado-red-rocks-amphitheatre-2026-11-03-8-30-pm/concert/18498567",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7416945,

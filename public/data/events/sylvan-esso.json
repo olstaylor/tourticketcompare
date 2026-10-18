@@ -507,25 +507,25 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8043105",
-        "url": "https://www.ticketliquidator.com/tickets/8043105/Sylvan-Esso-tickets-Fri-Oct-16-2026-State-Theatre-ME",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "8043105",
-        "url": "https://www.ticketnetwork.com/en/p/8043105",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_GKbPMvl",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043105/Sylvan-Esso-tickets-Fri-Oct-16-2026-State-Theatre-ME",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8043105"
+    "ticketliquidator_url": "",
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-sylvan-esso-2026-boston-vvg17z_g2bjele",
@@ -583,11 +583,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107452020",
-        "url": "https://www.stubhub.ie/sylvan-esso-boston-tickets-10-17-2026/event/107452020",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "8042786",
@@ -601,7 +601,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042786/Sylvan-Esso-tickets-Sat-Oct-17-2026-Citizens-House-Of-Blues-Boston",
-    "stubhub_international_url": "https://www.stubhub.ie/sylvan-esso-boston-tickets-10-17-2026/event/107452020",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042786",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -1606,7 +1606,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PJ-S",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PJ-S",
     "seatgeek_url": "https://seatgeek.com/sylvan-esso-tickets/denver-colorado-ogden-theatre-2027-03-06-9-pm/concert/18675732",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-denver-ogden-theatre-3-6-2027--concerts-dance-electronica/production/7190302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PJ-S",
     "last_verified_at": null,
@@ -1628,11 +1628,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7190302,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-denver-ogden-theatre-3-6-2027--concerts-dance-electronica/production/7190302",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

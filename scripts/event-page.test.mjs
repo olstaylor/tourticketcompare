@@ -135,7 +135,7 @@ const WINDOW_MIN_ROWS = [{ event_id: PRICED.id, provider: "vivid-seats", currenc
 const SERIES_ROWS = [
   { event_id: PRICED.id, provider: "vivid-seats", currency: "USD", low_price: 182, observed_at: "2026-08-09T09:00:00Z" },
   { event_id: PRICED.id, provider: "vivid-seats", currency: "USD", low_price: 200, observed_at: "2026-08-01T09:00:00Z" },
-  // NEAR/Vivid Seats: 224 standing a week ago, after a one-reading $40 glitch
+  // NEAR/Vivid Seats: 224 standing a week ago, after a one-reading USD 40 glitch
   // that must never surface, then 182 now.
   { event_id: NEAR.id, provider: "vivid-seats", currency: "USD", low_price: 220, observed_at: "2026-07-30T09:00:00Z" },
   { event_id: NEAR.id, provider: "vivid-seats", currency: "USD", low_price: 40, observed_at: "2026-07-31T09:00:00Z" },
@@ -252,10 +252,10 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
   assert(h1(page.html) === `${ARTIST.name} at Fixture Arena, Springfield — Thu, Sep 10, 2026`, `the H1 names artist, venue, city and venue-local date (got ${h1(page.html)})`);
   assert(!/Sep 11/.test(h1(page.html) + title(page.html)), "the UTC date never appears in the H1 or title");
   assert(/Sep 10, 2026/.test(title(page.html)) && / Tickets/.test(title(page.html)), `the title is factual (got ${title(page.html)})`);
-  assert(!/\$/.test(title(page.html)), "the title stays stable as prices change");
-  assert(/Starting from US\$/.test(description(page.html)), `the event snippet carries its gated starting price (got ${description(page.html)})`);
+  assert(!/(?:\$|USD\s+)/.test(title(page.html)), "the title stays stable as prices change");
+  assert(/Cheapest listed of 2 sites: US\$182\.00 at Vivid Seats/.test(description(page.html)), `the event snippet names the cheaper of the two priced sites (got ${description(page.html)})`);
   assert(/Sep 10, 2026/.test(description(page.html)) && /checked .* UTC\. Check fees\./.test(description(page.html)), "the event snippet dates and qualifies its price");
-  assert(!JSON.stringify(graphOf(page.html)).includes("Starting from"), "the starting-price snippet is excluded from JSON-LD");
+  assert(!/Starting from|Cheapest listed/.test(JSON.stringify(graphOf(page.html))), "the price snippet is excluded from JSON-LD");
   assert(/Event details/.test(page.html) && /Fixture Arena/.test(text(mainOf(page.html))) && /Springfield, United States/.test(text(mainOf(page.html))), "the page states venue, city and country");
   assert(/8:00 PM local time/.test(text(mainOf(page.html))), "the page states the local start time");
   assert(/How this site makes money/.test(page.html), "the money disclosure sits with the buttons");
@@ -275,17 +275,17 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
   const parentButtons = buttons(card(parent.html, PRICED.id));
   assert(eventButtons.length >= 4, `the event page has the date's ticket buttons (got ${eventButtons.length})`);
   assert(JSON.stringify(eventButtons) === JSON.stringify(parentButtons), `event and parent cards carry identical buttons, hrefs and prices\n  event:  ${eventButtons.join("\n          ")}\n  parent: ${parentButtons.join("\n          ")}`);
-  assert(eventButtons.some((b) => /\$182/.test(b)) && eventButtons.some((b) => /\$190/.test(b)), "the approved snapshots print on both");
+  assert(eventButtons.some((b) => /USD\s+182/.test(b)) && eventButtons.some((b) => /USD\s+190/.test(b)), "the approved snapshots print on both");
   const artistPage = await render(`/artists/${ARTIST.slug}`);
   assert(JSON.stringify(buttons(card(artistPage.html, PRICED.id))) === JSON.stringify(eventButtons), "the artist page's card matches too");
 
   // Recorded prices: the same figures the artist-city price answer states.
   const prices = text(meta(page.html, /(<section[^>]*aria-labelledby="eventPricesTitle"[\s\S]*?<\/section>)/));
-  assert(/Lowest listed price: \$182 on Vivid Seats, checked Aug 9, 2026, 9:00 AM UTC/.test(prices), `the lowest listed price matches the button and states its capture time (got ${prices.slice(0, 200)})`);
+  assert(/Cheapest listed price of the 2 ticket sites checked: USD\s+182 on Vivid Seats, checked Aug 9, 2026, 9:00 AM UTC/.test(prices), `the cheapest listed price matches the button, counts the sites and states its capture time (got ${prices.slice(0, 200)})`);
   assert(!/\bnow:/.test(prices), "a cached price is never labelled as current");
-  assert(/30-day low \$150 · Vivid Seats/.test(prices), "the recorded 30-day low is stated");
-  assert(text(parent.html).includes("30-day low $150 · Vivid Seats"), "the parent price answer states the same low");
-  assert(/Latest price change: Vivid Seats down \$18: was \$200 on/.test(prices), "the latest recorded move is stated");
+  assert(/30-day low USD\s+150 · Vivid Seats/.test(prices), "the recorded 30-day low is stated");
+  assert(text(parent.html).includes("30-day low USD 150 · Vivid Seats"), "the parent price answer states the same low");
+  assert(/Latest price change: Vivid Seats down USD\s+18: was USD\s+200 on/.test(prices), "the latest recorded move is stated");
 
   // public/shell.js reads this to credit the page view to the artist (Codex, #1195).
   assert(page.html.includes(`data-page-artist="${ARTIST.slug}"`), "the event page names its artist for analytics");
@@ -331,20 +331,20 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
 
   // Stale snapshot: invisible on both surfaces.
   const stale = await render(pathOf(STALE));
-  assert(!/\$99/.test(stale.html) && !/\$99/.test(card(parent.html, STALE.id)), "an expired snapshot shows on neither surface");
+  assert(!/(?:\$|USD\s+)99/.test(stale.html) && !/(?:\$|USD\s+)99/.test(card(parent.html, STALE.id)), "an expired snapshot shows on neither surface");
   assert(JSON.stringify(buttons(card(stale.html, STALE.id))) === JSON.stringify(buttons(card(parent.html, STALE.id))), "the stale date's buttons match the parent's");
 }
 
 // ─── the 7-day change close to show day ─────────────────────────────────────
 
 {
-  const WEEK_LINE = "Lowest listed price on Vivid Seats down 19% over the last 7 days: $224 a week ago, $182 at the latest check.";
+  const WEEK_LINE = "Lowest listed price on Vivid Seats down 19% over the last 7 days: USD 224 a week ago, USD 182 at the latest check.";
   const withNear = [...EVENTS, NEAR];
   const page = await render(pathOf(NEAR), withNear);
   const prices = text(meta(page.html, /(<section[^>]*aria-labelledby="eventPricesTitle"[\s\S]*?<\/section>)/));
   assert(prices.includes(`This week: ${WEEK_LINE}`), `a date six days out states its 7-day change (got ${prices.slice(0, 400)})`);
   assert(!/TicketNetwork (up|down) \d+%/.test(prices), "a lane with no history a week old says nothing");
-  assert(!/\$40\b/.test(page.html), "the one-reading glitch never reaches the page");
+  assert(!/(?:\$|USD\s+)40\b/.test(page.html), "the one-reading glitch never reaches the page");
   const parent = await render(ARTIST_CITY, withNear);
   assert(text(parent.html).includes(WEEK_LINE), "the parent price answer states the same change");
   const far = await render(pathOf(PRICED), withNear);
@@ -383,7 +383,7 @@ for (const event of HELD) {
   assert(page.status === 200, `${event.id}: a held future date keeps its page (got ${page.status})`);
   assert(robots(page.html) === "noindex,follow", `${event.id}: noindex,follow`);
   assert(outLinks(page.html, event.id) === 0 && !/\/api\/out/.test(mainOf(page.html)), `${event.id}: no ticket button`);
-  assert(!/\$\d/.test(mainOf(page.html)) && !/price-history|eventPricesTitle|How this site makes money/.test(page.html), `${event.id}: no price, price history or buying disclosure`);
+  assert(!/(?:\$|USD\s+)\d/.test(mainOf(page.html)) && !/price-history|eventPricesTitle|How this site makes money/.test(page.html), `${event.id}: no price, price history or buying disclosure`);
   assert(/Ticket status/.test(page.html) && !/ Tickets/.test(title(page.html)), `${event.id}: no ticket-buying framing in the heading or title (got ${title(page.html)})`);
   assert(!/ plays /.test(mainOf(page.html)) && !/before you travel/.test(mainOf(page.html)), `${event.id}: the buying notes never say the held show goes ahead`);
   // Structured data agrees with the hold: a factual cancelled or postponed
@@ -514,8 +514,8 @@ const detailsLinkOf = (cardHtml) => cardHtml.match(/<a class="text-link show-det
   const linkAt = pricedCard.indexOf("show-details-link");
   assert(linkAt > pricedCard.lastIndexOf("/api/out?") && linkAt > pricedCard.indexOf("provider-cta-notes"), "Show details follows the ticket buttons and price notes");
   assert(!/show-details-link[^>]*data-cta-/.test(pricedCard) && !/show-details-link" href="\/api\//.test(pricedCard), "Show details is not a CTA");
-  assert(buttons(pricedCard).length >= 4 && buttons(pricedCard).some((b) => /\$182/.test(b)), "the priced card keeps every ticket button and its price inline");
-  assert(text(artistCity.html).includes("30-day low $150 · Vivid Seats"), "the artist-city price answer still compares the dates inline");
+  assert(buttons(pricedCard).length >= 4 && buttons(pricedCard).some((b) => /USD\s+182/.test(b)), "the priced card keeps every ticket button and its price inline");
+  assert(text(artistCity.html).includes("30-day low USD 150 · Vivid Seats"), "the artist-city price answer still compares the dates inline");
   const eventPage = await render(pathOf(PRICED));
   assert(JSON.stringify(buttons(pricedCard)) === JSON.stringify(buttons(card(eventPage.html, PRICED.id))), "parent and event cards still carry identical buttons");
   for (const parent of PARENTS) {
@@ -528,7 +528,7 @@ const detailsLinkOf = (cardHtml) => cardHtml.match(/<a class="text-link show-det
   // Held dates link to the page that states their status; still no buttons.
   for (const event of HELD) {
     const heldCard = card(artistCity.html, event.id);
-    assert(detailsLinkOf(heldCard) === pathOf(event) && outLinks(heldCard, event.id) === 0 && !/\$\d/.test(heldCard), `${event.id}: linked, with no ticket button or price`);
+    assert(detailsLinkOf(heldCard) === pathOf(event) && outLinks(heldCard, event.id) === 0 && !/(?:\$|USD\s+)\d/.test(heldCard), `${event.id}: linked, with no ticket button or price`);
   }
 
   // The artist board keeps its fragment deep links and copy-link action.

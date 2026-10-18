@@ -51,7 +51,6 @@ export const WRITER_LANES = [
   "daily-audit.yml",
   "nightly-data-sync.yml",
   "tm-new-shows-pr.yml",
-  "tm-data-refresh-pr.yml",
   "seatgeek-cta-sync.yml",
   "vividseats-cta-sync.yml",
   "impact-marketplace-provider-sync.yml",
@@ -65,7 +64,6 @@ export const WRITER_LANES = [
 export const WAITING_LANES = [
   "auto-promote.yml",
   "autopublish-health.yml",
-  "tm-data-refresh-pr.yml",
   "daily-audit.yml",
   "work-queue-repair.yml",
   "nightly-data-sync.yml",
@@ -95,7 +93,6 @@ export const CONFIRM_MS = 20_000;
 // GitHub does not promise FIFO ordering for concurrency groups.
 export const SHARED_WRITER_GROUPS = {
   "tm-new-shows-pr.yml": "tm-new-shows-pr",
-  "tm-data-refresh-pr.yml": "tm-data-refresh-pr",
   "auto-promote.yml": "auto-promote",
   "autopublish-health.yml": "autopublish-health",
   "work-queue-repair.yml": "work-queue-repair",
@@ -355,7 +352,7 @@ async function selfTest() {
     return JSON.parse(match[1]);
   };
   const impactWaits = scheduledMap(impact.env.WRITER_WAIT_MINUTES, 60);
-  const impactLimits = scheduledMap(impact["timeout-minutes"], 150);
+  const impactLimits = scheduledMap(impact["timeout-minutes"], 160);
   assert.equal(impact.steps.find((s) => /wait-for-writer-lanes\.mjs/.test(s.run || ""))?.run,
     'node scripts/wait-for-writer-lanes.mjs --max-wait-minutes "$WRITER_WAIT_MINUTES"', "Impact must pass the selected schedule budget to the helper");
   const budgetFor = (file, job, schedule = "0 19 * * *") => file === "impact-marketplace-provider-sync.yml"
@@ -433,7 +430,7 @@ async function selfTest() {
     assert(limit - budget >= 75, `${file}: queueing must leave time for generation and both validation gates`);
     const publish = job.steps.find((s) => /node scripts\/open-automation-pr\.mjs/.test(s.run || ""));
     assert(publish["timeout-minutes"] >= REQUIRED_CHECK_TIMEOUT_MS / 60_000 + 5 && publish["timeout-minutes"] < 60,
-      `${file}: publication must fit the fresh App token and the 25-minute head-check budget`);
+      `${file}: publication must fit the fresh App token and the head-check budget`);
   }
 
   // Regression: timestamps must never be applied from reports generated

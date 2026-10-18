@@ -168,8 +168,6 @@ export const WATCHED_LANES = [
   // The rollback sensor runs test:mvp before any demotion, so like the repair
   // worker it shares main's gate and counts towards the red-main call.
   { file: "autopublish-health.yml", name: "Auto-publish health", cadence: "daily 09:00", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: true },
-  // Propose-only screen: writes an issue, runs no validation against main.
-  { file: "roster-candidates.yml", name: "Roster candidates", cadence: "daily 10:15", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
   // Propose-only tour-launch queue for price guides: writes an issue, runs no
   // validation against main.
   { file: "price-guide-candidates.yml", name: "Price-guide candidates", cadence: "daily 11:05", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
@@ -730,8 +728,8 @@ if (SELF_TEST) {
   );
   assert.deepEqual(
     WATCHED_LANES.filter((lane) => !lane.sharesMainGate).map((lane) => lane.file).sort(),
-    ["automation-health.yml", "autopublish-digest.yml", "blog-ideas.yml", "generated-freshness.yml", "plan-scoreboard.yml", "pr-validation-head-guard.yml", "price-coverage-report.yml", "price-guide-candidates.yml", "roster-candidates.yml", "seo-opportunities.yml", "show-priority.yml", "site-health.yml"],
-    "the sensors, digest, editorial and roster screens, coverage report, site health, scoreboard, show-priority ranking and SEO report are excluded from writer correlation"
+    ["automation-health.yml", "autopublish-digest.yml", "blog-ideas.yml", "generated-freshness.yml", "plan-scoreboard.yml", "pr-validation-head-guard.yml", "price-coverage-report.yml", "price-guide-candidates.yml", "seo-opportunities.yml", "show-priority.yml", "site-health.yml"],
+    "the sensors, digest, editorial screen, coverage report, site health, scoreboard, show-priority ranking and SEO report are excluded from writer correlation"
   );
   // GitHub accepts either extension for a workflow file, so the coverage scan
   // below must recognise both or a scheduled `.yaml` lane slips past it.

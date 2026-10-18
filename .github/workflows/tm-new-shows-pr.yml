@@ -80,7 +80,9 @@ concurrency:
 jobs:
   new-shows:
     runs-on: ubuntu-latest
-    timeout-minutes: 59
+    # Queueing (up to 14 minutes) sits outside the 59-minute publishing step,
+    # which holds the App token minted just before it.
+    timeout-minutes: 79
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -118,7 +120,11 @@ jobs:
 
       - name: Run Ticketmaster new-shows write-to-PR
         id: discovery
+        # Discovery, the in-job suite and the exact-head check share the token's
+        # hour, so the head check gets 30 of the default 35 minutes here.
+        timeout-minutes: 59
         env:
+          REQUIRED_CHECK_TIMEOUT_MS: "1800000"
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
           GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}

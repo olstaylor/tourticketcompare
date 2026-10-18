@@ -469,7 +469,7 @@ Create or edit a file under `content/blog/` or `content/guides/` in GitHub's web
 - Dates are valid ISO dates and `updated` is not before `date`.
 - Every `related_guides`, `related_artists`, and guide/artist/blog body link resolves to a real page, and no published post links to a draft. City and venue links are shape-checked only (see above).
 - No embedded images.
-- No claim the site cannot support — `cheapest`, `lowest price`, `guaranteed availability`, `sold out`, `selling fast`, and similar. This is a blunt substring check on purpose. If it fires on a sentence that was actually fine, rephrase rather than working around it.
+- No claim the site cannot support — a blanket "cheapest" promise ("cheapest tickets anywhere", "we find the cheapest"; `UNSUPPORTED_CHEAPEST_CLAIM` in `functions/_price-wording.js`), `lowest price`, `guaranteed availability`, `sold out`, `selling fast`, and similar. "Cheapest" itself is allowed where it describes compared listed prices (SAFE_PUBLISHING_RULES.md → Price Display). This is a blunt check on purpose. If it fires on a sentence that was actually fine, rephrase rather than working around it.
 
 `npm run blog:check` (wired into `npm run test:mvp` and PR validation) fails if `public/data/blog-content.json` does not match `content/blog/` — the same staleness guard the event data has.
 

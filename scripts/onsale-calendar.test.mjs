@@ -98,4 +98,24 @@ assert(!/cheapest|lowest price|sold out|selling fast/i.test(html), "the page mak
 const empty = renderOnsaleCalendarBody({ path: "/on-sale", calendar: deriveOnsaleCalendar([]), breadcrumb: [] });
 assert(empty.includes("Nothing here goes on general sale") && !empty.includes("Just went on sale"), "an empty calendar renders a short empty state");
 
+// The sitemap lists /on-sale only when the page itself is indexable. The page
+// drops demoted artists' dates, so the sitemap gate must too: on 2026-10-17 a
+// demoted artist was the second artist keeping the sitemap gate open while the
+// page rendered noindex, and the nightly sync's link audit failed.
+{
+  const { buildSitemapSegments } = await load("functions/sitemap.xml.js");
+  const sitemapEnv = (artists) => ({
+    ASSETS: {
+      async fetch(request) {
+        const pathname = new URL(request.url).pathname;
+        const body = pathname === "/data/events.json" ? events : pathname === "/data/artists.json" ? artists : null;
+        return body == null ? new Response("not found", { status: 404 }) : new Response(JSON.stringify(body), { status: 200 });
+      }
+    }
+  });
+  const listed = async (artists) => JSON.stringify(await buildSitemapSegments(sitemapEnv(artists), ["pages"], "https://tourticketcompare.com")).includes("/on-sale");
+  assert(await listed([{ slug: "artist-a" }, { slug: "artist-b" }]), "the sitemap lists /on-sale while two artists clear the gate");
+  assert(!(await listed([{ slug: "artist-a" }, { slug: "artist-b", demoted: true }])), "a demoted artist does not hold /on-sale in the sitemap");
+}
+
 console.log(`onsale-calendar: ${passed} assertions passed.`);

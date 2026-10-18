@@ -223,7 +223,7 @@ Scheduled snapshot workflows write approved exact-event observations to `provide
 
 - Vivid Seats has a dedicated scheduled snapshot workflow. Both numeric lanes run hourly (since 2026-09-08; two-hourly from 2026-07-30) with a 24-hour freshness constant; the interval must stay strictly below that constant, since the display gate hides any row past `expires_at`. The window is deliberately far wider than the cadence so a scheduling outage leaves the last known price on the card rather than blanking the board; prices older than 12h are labelled "last checked N hours ago". Each scheduled apply run ends with the 90-day history prune. The SeatGeek snapshot workflow is dispatch-only and produces no usable rows: SeatGeek's API returns null pricing statistics for this client (permanent limitation — SeatGeek is a CTA-only provider; see `PROJECT_STATUS.md`).
 - `impact-marketplace-price-snapshots.yml` schedules only providers whose feed has an approved numeric-price lane; providers without numeric price data remain manual and display-disabled.
-- `bootstrap-provider-pricing-schema.yml` is the manual idempotent schema bootstrap for the cache/history tables; its migration is tracked in `migrations/README.md`.
+- The cache/history tables are created by the idempotent migration `migrations/0007_bootstrap_provider_pricing_schema.sql` (`npx wrangler d1 execute <db> --remote --file migrations/0007_bootstrap_provider_pricing_schema.sql`), tracked in `migrations/README.md`. The one-off `bootstrap-provider-pricing-schema.yml` workflow that ran it was retired on 2026-10-16.
 - A run summary must make `eligible`, `fetched`, `usable`, `written`, `skipped`, `stale`, and `failed` outcomes explicit.
 - Failed or unusable observations must not overwrite a fresh cache row.
 

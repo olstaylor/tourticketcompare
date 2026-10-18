@@ -844,6 +844,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671520",
+        "url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-28-1-2027/event/107671520",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAZvPazGACnenX",
@@ -858,7 +865,8 @@
     ],
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-28-1-2027/event/107671520"
   },
   {
     "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4egkdlzcpt",

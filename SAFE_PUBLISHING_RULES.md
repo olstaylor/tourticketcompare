@@ -67,6 +67,7 @@ would put real editorial content at risk of being overwritten.
 | Verification dates + guide-source link record | `daily-audit.yml` (`verification-dates`) | one commit: `last_verified_at` fields in `artists.json`, `data/guide-source-link-checks.json`, the rebuilt `guides-content.json`, and the generated blocks of `PROJECT_STATUS.md` | Discovery, Enrichment, and Rendering |
 | Status figures | `daily-audit.yml` (`status-figures`) | the generated blocks of `PROJECT_STATUS.md` only — never its human prose or notes | Discovery, Enrichment, and Rendering |
 | Generated content | `content-build.yml` | exactly four generated files, never `content/**` | Discovery, Enrichment, and Rendering |
+| Price-guide approvals (owner-approved 2026-10-17) | `price-guide-candidates.yml` | appends slugs to `PRICE_GUIDE_ARTISTS` in `functions/_price-guides.js` via `price-guides:propose --apply`, only for artists whose guide would be indexed today under the unchanged guide gate, plus their regenerated OG cards; never the gate, the template or any data file | Schema and SEO |
 
 **C. Display-only exception.** `MusicEvent` `offers` behind
 `SCHEMA_OFFERS_ENABLED` is a schema/display exception, **not** an automation
@@ -97,9 +98,8 @@ dead link or a duplicate title; the owner reviews every merge in the daily
 never invent data, never scrape, no client-side credentials, the `/api/out`
 contract and Impact wrapping, no price or availability claim without a source.
 
-**Not sanctioned:** `tm-data-refresh-pr.yml` is PR-only and human-merged by
-design — never a direct commit, never an auto-merge. So is
-`work-queue-repair.yml`, the maintenance loop's Stage 3 worker: it may push one
+**Not sanctioned:** `work-queue-repair.yml`, the maintenance loop's Stage 3
+worker, is PR-only by design — never a direct commit: it may push one
 branch and open one pull request regenerating an artefact already on the
 machine-owned list in group B, or verifying an `event_needs_provider_url`
 batch through the existing SeatGeek API verifier. The latter is limited to
@@ -149,6 +149,7 @@ Pages become indexable and conversion-led only after completing the phase gates 
 - Do not publish scraped, invented, manually entered, stale, or mismatched prices.
 - A provider lane may display a listed-price snapshot only when explicit display rights, the approved source, exact-event provenance, a matching verified URL, provider flags, currency, observation time, and expiry all pass.
 - Comparisons require eligible snapshots for the same local event and currency. Any lower-price statement must make clear the figures are each ticket site's listed price at the time it was checked, not a live price or a final total (plain wording such as "each ticket site's listed price when it was last checked" satisfies this; public copy avoids jargon like "snapshot", owner request 2026-10-11).
+- **"Cheapest" (owner decision 2026-10-17; the earlier blanket ban is lifted).** Copy may say "cheapest" for what the page shows: the lowest of the listed prices the site captured for one show, with each site's name and capture time beside it. A cross-site "cheapest" needs fresh listed prices from at least two ticket sites for the same show (`cheapestListedPriceLabel` in `functions/_price-wording.js`); one site's figure is only that site's lowest listing. Titles and headings may use the word as search wording ("how to find the cheapest <artist> tickets") where the page carries that comparison. Never a blanket promise: no "cheapest tickets anywhere/online", "guaranteed cheapest", or "we always find the cheapest" — `UNSUPPORTED_CHEAPEST_CLAIM` fails the build on those. Rankings across different dates or cities still need their own scoped change.
 - Fees, taxes, availability, delivery, and final checkout totals remain provider-controlled and must be clearly qualified.
 - Ticketmaster remains a verification/link source, not a public comparison lane, unless a separately approved source and feature gate are explicitly activated.
 
@@ -172,7 +173,7 @@ Pages become indexable and conversion-led only after completing the phase gates 
 
 ## Schema and SEO
 
-- HTML meta, Open Graph and Twitter descriptions may mirror a fresh, visible listed-price snapshot for one named show date, carrying its provider, explicit currency, capture time and fee caveat. Artist-city snippets quote the next tracked date, never a minimum across dates or a market-wide cheapest claim. Missing or withheld snapshots retain price-free copy. This HTML snippet must stay separate from JSON-LD descriptions and does not extend the schema-offers exception below.
+- HTML meta, Open Graph and Twitter descriptions may mirror a fresh, visible listed-price snapshot for one named show date, carrying its provider, explicit currency, capture time and fee caveat. Artist-city snippets quote the next tracked date, never a minimum across dates or a market-wide cheapest claim; a cross-site "cheapest" for that one date follows Price Display. Missing or withheld snapshots retain price-free copy. This HTML snippet must stay separate from JSON-LD descriptions and does not extend the schema-offers exception below.
 - Do not add `Event` or `MusicEvent` JSON-LD schema without verified event-level data (confirmed date, venue, artist from an official source).
 - Individual event pages (`/events/<slug>-<key>`) stay `noindex,follow` and out of every sitemap and `llms.txt`, except the active members of the frozen indexing cohorts: the pilot (2026-09-27, the 30 stable keys in `EVENT_INDEXING_PILOT_KEYS`) and the staged batches (owner-approved 2026-10-09, `EVENT_INDEXING_BATCHES` in `functions/_event-indexing-batches.js`, recorded in `data/event-indexing-batches.json`), each only while it is eligible, with `EVENT_PAGES_INDEXING="pilot"`, on the canonical host. Being *eligible* under the event-page indexability policy (`functions/_event-indexability.js`) never indexes a page by itself. Each cohort is frozen: a member that becomes ineligible drops out and is never replaced, and adding a batch, changing a cohort or the flag is a reviewed PR only — no automation may set the flag or add, swap or remove a key (`scripts/select-event-indexing-batch.mjs` only proposes). Eligibility is derived only from canonical data — never from a cached price, a price's freshness or D1 availability.
 - MusicEvent nodes carry no `offers`, prices, or availability by default — `scripts/validate-route-schema.mjs` fails the build if they appear — with one exception below.

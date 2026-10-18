@@ -1734,6 +1734,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307232",
+        "url": "https://www.ticketliquidator.com/tickets/8307232/Rod-Stewart-tickets-Fri-Apr-23-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kkZvPCFGA1_k0W",
@@ -1742,7 +1749,8 @@
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "AIKEN PROMOTIONS"
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307232/Rod-Stewart-tickets-Fri-Apr-23-2027-3Arena-Dublin"
   },
   {
     "id": "tm-rod-stewart-2027-belfast-1azzkfugkd15ooi",
@@ -1791,6 +1799,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8326046",
+        "url": "https://www.ticketliquidator.com/tickets/8326046/Rod-Stewart-tickets-Tue-Apr-27-2027-The-O2-Belfast",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AzZkfUGkd15ooI",
@@ -1799,7 +1814,8 @@
     "organizer_names": [
       "AIKEN PROMOTIONS",
       "O2"
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326046/Rod-Stewart-tickets-Tue-Apr-27-2027-The-O2-Belfast"
   },
   {
     "id": "tm-rod-stewart-2027-glasgow-1auzkfmgkehwkob",
@@ -1848,6 +1864,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8299954",
+        "url": "https://www.ticketliquidator.com/tickets/8299954/Rod-Stewart-tickets-Thu-Apr-29-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkfMGkeHWkOB",
@@ -1856,6 +1879,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD",
       "SCOTTISH EVENT CAMPUS LIMITED"
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8299954/Rod-Stewart-tickets-Thu-Apr-29-2027-OVO-Hydro"
   }
 ]

@@ -3552,11 +3552,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7680333",
-        "url": "https://www.ticketliquidator.com/tickets/7680333/Bruno-Mars-tickets-Sat-Oct-17-2026-BC-Place-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107074187",
@@ -3571,7 +3571,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1Av7Z_eGkShMJIA",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7680333",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7680333/Bruno-Mars-tickets-Sat-Oct-17-2026-BC-Place-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-vancouver-bc-place-stadium-10-17-2026/event/107074187",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",

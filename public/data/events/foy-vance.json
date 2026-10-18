@@ -128,18 +128,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7802654",
-        "url": "https://www.ticketliquidator.com/tickets/7802654/Foy-Vance-tickets-Sun-Oct-18-2026-Stirling-Albert-Halls",
-        "verified": true,
-        "last_verified_at": "2026-09-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkoeGkeW3UJS",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7802654",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7802654/Foy-Vance-tickets-Sun-Oct-18-2026-Stirling-Albert-Halls",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "DF CONCERTS",
       "GIGS IN SCOTLAND"

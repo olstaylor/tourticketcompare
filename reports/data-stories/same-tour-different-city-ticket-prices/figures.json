@@ -1,0 +1,3227 @@
+{
+  "storyType": "city-prices",
+  "asOf": "2026-10-18",
+  "tours": [
+    {
+      "artistSlug": "blue-october",
+      "artist": "Blue October",
+      "tourName": "The Foiled 20th Anniversary World Tour",
+      "path": "/artists/blue-october/ticket-prices",
+      "site": "vivid-seats",
+      "siteLabel": "Vivid Seats",
+      "currency": "USD",
+      "country": "United States",
+      "cityCount": 47,
+      "low": {
+        "city": "Irving",
+        "country": "United States",
+        "venue": "The Pavilion at Toyota Music Factory",
+        "eventId": "tm-blue-october-2026-irving-vvg1yz_6kcyhkx",
+        "localDate": "2026-11-27",
+        "price": 37,
+        "currency": "USD",
+        "capturedAt": "2026-10-17T23:31:05.592Z"
+      },
+      "high": {
+        "city": "Cleveland",
+        "country": "United States",
+        "venue": "Agora Theatre",
+        "eventId": "tm-blue-october-2026-cleveland-z7r9jz1a7-z0p",
+        "localDate": "2026-11-07",
+        "price": 123,
+        "currency": "USD",
+        "capturedAt": "2026-10-17T23:31:05.592Z"
+      },
+      "ratio": 3.3,
+      "cities": [
+        {
+          "city": "Irving",
+          "country": "United States",
+          "venue": "The Pavilion at Toyota Music Factory",
+          "eventId": "tm-blue-october-2026-irving-vvg1yz_6kcyhkx",
+          "localDate": "2026-11-27",
+          "price": 37,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.592Z"
+        },
+        {
+          "city": "Corpus Christi",
+          "country": "United States",
+          "venue": "Selena Auditorium",
+          "eventId": "tm-blue-october-2026-corpus-christi-g5diz_65ljyy0",
+          "localDate": "2026-12-17",
+          "price": 39,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.593Z"
+        },
+        {
+          "city": "Detroit",
+          "country": "United States",
+          "venue": "The Fillmore Detroit",
+          "eventId": "tm-blue-october-2026-detroit-vv17oz_kgkmvfl46",
+          "localDate": "2026-10-30",
+          "price": 42,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.591Z"
+        },
+        {
+          "city": "Hidalgo",
+          "country": "United States",
+          "venue": "Payne Arena",
+          "eventId": "tm-blue-october-2026-hidalgo-g5diz_6r53fc7",
+          "localDate": "2026-12-13",
+          "price": 46,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.593Z"
+        },
+        {
+          "city": "Grand Rapids",
+          "country": "United States",
+          "venue": "GLC Live at 20 Monroe",
+          "eventId": "tm-blue-october-2026-grand-rapids-vv1kezv0_8ga1aqp6",
+          "localDate": "2026-10-29",
+          "price": 48,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.591Z"
+        },
+        {
+          "city": "Houston",
+          "country": "United States",
+          "venue": "713 Music Hall",
+          "eventId": "tm-blue-october-2026-houston-g5diz_65lrohi",
+          "localDate": "2026-12-18",
+          "price": 49,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.593Z"
+        },
+        {
+          "city": "Beaumont",
+          "country": "United States",
+          "venue": "Jefferson Theatre",
+          "eventId": "tm-blue-october-2026-beaumont-g5diz_kmboj7t",
+          "localDate": "2026-12-10",
+          "price": 51,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.592Z"
+        },
+        {
+          "city": "Rockford",
+          "country": "United States",
+          "venue": "Hard Rock Live Rockford",
+          "eventId": "tm-blue-october-2027-rockford-17f8v0g61mnfk5g",
+          "localDate": "2027-03-14",
+          "price": 53,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.594Z"
+        },
+        {
+          "city": "Boston",
+          "country": "United States",
+          "venue": "Citizens House of Blues Boston",
+          "eventId": "tm-blue-october-2026-boston-vv177z_kgkw31n77",
+          "localDate": "2026-11-13",
+          "price": 56,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.592Z"
+        },
+        {
+          "city": "San Antonio",
+          "country": "United States",
+          "venue": "Boeing Center at Tech Port",
+          "eventId": "tm-blue-october-2026-san-antonio-z7r9jz1a7-vz7",
+          "localDate": "2026-12-12",
+          "price": 57,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.594Z"
+        },
+        {
+          "city": "Valley Center",
+          "country": "United States",
+          "venue": "Harrah's Resort SoCal - The Events Center",
+          "eventId": "tm-blue-october-2027-valley-center-vvg1iz_1qjyqty",
+          "localDate": "2027-02-11",
+          "price": 64,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.593Z"
+        },
+        {
+          "city": "Nashville",
+          "country": "United States",
+          "venue": "Brown County Music Center",
+          "eventId": "tm-blue-october-2026-nashville-vv1aazkosgkezrhqm",
+          "localDate": "2026-11-08",
+          "price": 65,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.592Z"
+        },
+        {
+          "city": "Red Bank",
+          "country": "United States",
+          "venue": "Hackensack Meridian Health Theatre at the Count Basie Center",
+          "eventId": "tm-blue-october-2026-red-bank-g5vvz_kudtusm",
+          "localDate": "2026-11-12",
+          "price": 65,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.592Z"
+        },
+        {
+          "city": "Milwaukee",
+          "country": "United States",
+          "venue": "Pabst Theater",
+          "eventId": "tm-blue-october-2026-milwaukee-z7r9jz1a7-v04",
+          "localDate": "2026-10-28",
+          "price": 67,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.591Z"
+        },
+        {
+          "city": "Seattle",
+          "country": "United States",
+          "venue": "Moore Theatre",
+          "eventId": "tm-blue-october-2027-seattle-vvg1hz_1rxwtla",
+          "localDate": "2027-02-26",
+          "price": 67,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.594Z"
+        },
+        {
+          "city": "Colorado Springs",
+          "country": "United States",
+          "venue": "Pikes Peak Center",
+          "eventId": "tm-blue-october-2027-colorado-springs-z7r9jz1a70_p7",
+          "localDate": "2027-03-07",
+          "price": 68,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.594Z"
+        },
+        {
+          "city": "Des Moines",
+          "country": "United States",
+          "venue": "Hoyt Sherman Place",
+          "eventId": "tm-blue-october-2027-des-moines-vvg1bz_1xphcoz",
+          "localDate": "2027-03-12",
+          "price": 69,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.594Z"
+        },
+        {
+          "city": "Bakersfield",
+          "country": "United States",
+          "venue": "Bakersfield Fox Theater",
+          "eventId": "tm-blue-october-2027-bakersfield-z7r9jz1a70_4m",
+          "localDate": "2027-02-17",
+          "price": 70,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.593Z"
+        },
+        {
+          "city": "Kansas City",
+          "country": "United States",
+          "venue": "The Midland Theatre - MO",
+          "eventId": "tm-blue-october-2026-kansas-city-z7r9jz1a7xk4-",
+          "localDate": "2026-12-03",
+          "price": 70,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.592Z"
+        },
+        {
+          "city": "Portland",
+          "country": "United States",
+          "venue": "State Theatre",
+          "eventId": "tm-blue-october-2026-portland-vv177z_kgkuvxsds",
+          "localDate": "2026-11-03",
+          "price": 71,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.592Z"
+        },
+        {
+          "city": "Reno",
+          "country": "United States",
+          "venue": "Silver Legacy Casino Reno",
+          "eventId": "tm-blue-october-2027-reno-17c8v0g61lh4py0",
+          "localDate": "2027-02-21",
+          "price": 72,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.594Z"
+        },
+        {
+          "city": "Tucson",
+          "country": "United States",
+          "venue": "Rialto Theatre-Tucson",
+          "eventId": "tm-blue-october-2027-tucson-17k8v0g61r3fg2b",
+          "localDate": "2027-02-03",
+          "price": 73,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.593Z"
+        },
+        {
+          "city": "El Paso",
+          "country": "United States",
+          "venue": "The Plaza Theatre Performing Arts Center",
+          "eventId": "tm-blue-october-2027-el-paso-vvg1yz_1msxe0e",
+          "localDate": "2027-01-30",
+          "price": 75,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.593Z"
+        },
+        {
+          "city": "San Luis Obispo",
+          "country": "United States",
+          "venue": "Fremont Theater",
+          "eventId": "tm-blue-october-2027-san-luis-obispo-z7r9jz1a70_f7",
+          "localDate": "2027-02-10",
+          "price": 76,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.593Z"
+        },
+        {
+          "city": "Albuquerque",
+          "country": "United States",
+          "venue": "Revel Entertainment Center",
+          "eventId": "tm-blue-october-2027-albuquerque-z7r9jz1a70pgn",
+          "localDate": "2027-02-04",
+          "price": 79,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.594Z"
+        },
+        {
+          "city": "Lubbock",
+          "country": "United States",
+          "venue": "Helen DeVitt Jones Theater at The Buddy Holly Hall",
+          "eventId": "tm-blue-october-2026-lubbock-z7r9jz1a70v8t",
+          "localDate": "2026-10-23",
+          "price": 79,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.591Z"
+        },
+        {
+          "city": "Boise",
+          "country": "United States",
+          "venue": "Knitting Factory - Boise",
+          "eventId": "tm-blue-october-2027-boise-g5vzz_1rcvq7p",
+          "localDate": "2027-03-03",
+          "price": 80,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.594Z"
+        },
+        {
+          "city": "Spokane",
+          "country": "United States",
+          "venue": "Knitting Factory - Spokane",
+          "eventId": "tm-blue-october-2027-spokane-g5vzz_1rinhtu",
+          "localDate": "2027-02-24",
+          "price": 80,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.594Z"
+        },
+        {
+          "city": "Clearwater",
+          "country": "United States",
+          "venue": "Ruth Eckerd Hall",
+          "eventId": "tm-blue-october-2026-clearwater-z7r9jz1a7-v0f",
+          "localDate": "2026-11-20",
+          "price": 83,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.592Z"
+        },
+        {
+          "city": "Orlando",
+          "country": "United States",
+          "venue": "Hard Rock Live Orlando",
+          "eventId": "tm-blue-october-2026-orlando-1aefz_kgknmxmnk",
+          "localDate": "2026-11-21",
+          "price": 83,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.592Z"
+        },
+        {
+          "city": "Tulsa",
+          "country": "United States",
+          "venue": "Tulsa Theater",
+          "eventId": "tm-blue-october-2026-tulsa-z7r9jz1a7-v0_",
+          "localDate": "2026-10-24",
+          "price": 83,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.591Z"
+        },
+        {
+          "city": "Denver",
+          "country": "United States",
+          "venue": "Mission Ballroom",
+          "eventId": "tm-blue-october-2027-denver-z7r9jz1a70_-g",
+          "localDate": "2027-03-06",
+          "price": 87,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.594Z"
+        },
+        {
+          "city": "San Francisco",
+          "country": "United States",
+          "venue": "The Regency Ballroom",
+          "eventId": "tm-blue-october-2027-san-francisco-z7r9jz1a70_4z",
+          "localDate": "2027-02-18",
+          "price": 87,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.593Z"
+        },
+        {
+          "city": "Charlotte",
+          "country": "United States",
+          "venue": "The Fillmore Charlotte",
+          "eventId": "tm-blue-october-2026-charlotte-g5evz_kng4bet",
+          "localDate": "2026-11-17",
+          "price": 88,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.592Z"
+        },
+        {
+          "city": "Los Angeles",
+          "country": "United States",
+          "venue": "The Wiltern",
+          "eventId": "tm-blue-october-2027-los-angeles-vvg10z_1ri5jq_",
+          "localDate": "2027-02-07",
+          "price": 88,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.593Z"
+        },
+        {
+          "city": "Chicago",
+          "country": "United States",
+          "venue": "Riviera Theatre- IL",
+          "eventId": "tm-blue-october-2027-chicago-z7r9jz1a70_-s",
+          "localDate": "2027-03-11",
+          "price": 90,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.594Z"
+        },
+        {
+          "city": "Jacksonville",
+          "country": "United States",
+          "venue": "FIVE",
+          "eventId": "tm-blue-october-2026-jacksonville-z7r9jz1a7-v03",
+          "localDate": "2026-11-19",
+          "price": 91,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.592Z"
+        },
+        {
+          "city": "Phoenix",
+          "country": "United States",
+          "venue": "The Van Buren",
+          "eventId": "tm-blue-october-2027-phoenix-17k8v0g61lto1cb",
+          "localDate": "2027-02-05",
+          "price": 91,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.593Z"
+        },
+        {
+          "city": "Salt Lake City",
+          "country": "United States",
+          "venue": "The Complex - UT",
+          "eventId": "tm-blue-october-2027-salt-lake-city-z7r9jz1a70te4",
+          "localDate": "2027-03-05",
+          "price": 91,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.594Z"
+        },
+        {
+          "city": "Wichita",
+          "country": "United States",
+          "venue": "Orpheum Theatre - Wichita KS",
+          "eventId": "tm-blue-october-2026-wichita-z7r9jz1a7-v0p",
+          "localDate": "2026-10-25",
+          "price": 95,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.591Z"
+        },
+        {
+          "city": "Las Vegas",
+          "country": "United States",
+          "venue": "Brooklyn Bowl Las Vegas",
+          "eventId": "tm-blue-october-2027-las-vegas-17ayv0g61ppuqbc",
+          "localDate": "2027-02-13",
+          "price": 99,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.593Z"
+        },
+        {
+          "city": "Midland",
+          "country": "United States",
+          "venue": "Wagner Noel Performing Arts Center",
+          "eventId": "tm-blue-october-2027-midland-z7r9jz1a70pjo",
+          "localDate": "2027-01-29",
+          "price": 105,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.593Z"
+        },
+        {
+          "city": "Abilene",
+          "country": "United States",
+          "venue": "Paramount Theatre-Abilene",
+          "eventId": "tm-blue-october-2026-abilene-z7r9jz1a7-v0n",
+          "localDate": "2026-10-22",
+          "price": 106,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.591Z"
+        },
+        {
+          "city": "Austin",
+          "country": "United States",
+          "venue": "Bass Concert Hall",
+          "eventId": "tm-blue-october-2026-austin-z7r9jz1a7-v0k",
+          "localDate": "2026-12-11",
+          "price": 107,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.592Z"
+        },
+        {
+          "city": "Philadelphia",
+          "country": "United States",
+          "venue": "The Fillmore Philadelphia",
+          "eventId": "tm-blue-october-2026-philadelphia-vv1aezkowgkdcmrr7",
+          "localDate": "2026-11-15",
+          "price": 110,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.592Z"
+        },
+        {
+          "city": "Sacramento",
+          "country": "United States",
+          "venue": "Channel 24",
+          "eventId": "tm-blue-october-2027-sacramento-g5vyz_1kgjhjj",
+          "localDate": "2027-02-19",
+          "price": 110,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.593Z"
+        },
+        {
+          "city": "Cleveland",
+          "country": "United States",
+          "venue": "Agora Theatre",
+          "eventId": "tm-blue-october-2026-cleveland-z7r9jz1a7-z0p",
+          "localDate": "2026-11-07",
+          "price": 123,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:05.592Z"
+        }
+      ]
+    },
+    {
+      "artistSlug": "greta-van-fleet",
+      "artist": "Greta Van Fleet",
+      "tourName": "Into The Beginning Tour",
+      "path": "/artists/greta-van-fleet/ticket-prices",
+      "site": "vivid-seats",
+      "siteLabel": "Vivid Seats",
+      "currency": "USD",
+      "country": "United States",
+      "cityCount": 35,
+      "low": {
+        "city": "Grand Rapids",
+        "country": "United States",
+        "venue": "Acrisure Amphitheater",
+        "eventId": "tm-greta-van-fleet-2027-grand-rapids-vv17oz_kgkwlsfog",
+        "localDate": "2027-07-31",
+        "price": 55,
+        "currency": "USD",
+        "capturedAt": "2026-10-17T23:31:40.485Z"
+      },
+      "high": {
+        "city": "Uncasville",
+        "country": "United States",
+        "venue": "Mohegan Sun Arena",
+        "eventId": "tm-greta-van-fleet-2027-uncasville-g5vvz_kwzs711",
+        "localDate": "2027-07-24",
+        "price": 117,
+        "currency": "USD",
+        "capturedAt": "2026-10-17T23:31:40.485Z"
+      },
+      "ratio": 2.1,
+      "cities": [
+        {
+          "city": "Grand Rapids",
+          "country": "United States",
+          "venue": "Acrisure Amphitheater",
+          "eventId": "tm-greta-van-fleet-2027-grand-rapids-vv17oz_kgkwlsfog",
+          "localDate": "2027-07-31",
+          "price": 55,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Noblesville",
+          "country": "United States",
+          "venue": "Ruoff Music Center",
+          "eventId": "tm-greta-van-fleet-2027-noblesville-vv17fz_kgkmuku1m",
+          "localDate": "2027-07-17",
+          "price": 58,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Brooklyn",
+          "country": "United States",
+          "venue": "Barclays Center",
+          "eventId": "tm-greta-van-fleet-2027-brooklyn-1adzz_kgkljmams",
+          "localDate": "2027-03-08",
+          "price": 64,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Gilford",
+          "country": "United States",
+          "venue": "BankNH Pavilion",
+          "eventId": "tm-greta-van-fleet-2027-gilford-vv177z_kgkni4das",
+          "localDate": "2027-07-26",
+          "price": 64,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Albany",
+          "country": "United States",
+          "venue": "MVP Arena",
+          "eventId": "tm-greta-van-fleet-2027-albany-k7vgf_kbmaa9o",
+          "localDate": "2027-03-06",
+          "price": 65,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Columbia",
+          "country": "United States",
+          "venue": "Merriweather Post Pavilion",
+          "eventId": "tm-greta-van-fleet-2027-columbia-1avfz_kgkss_xxt",
+          "localDate": "2027-07-21",
+          "price": 65,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Minneapolis",
+          "country": "United States",
+          "venue": "Target Center",
+          "eventId": "tm-greta-van-fleet-2027-minneapolis-vv17bz_kgku0ofzs",
+          "localDate": "2027-02-15",
+          "price": 65,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Columbus",
+          "country": "United States",
+          "venue": "Nationwide Arena",
+          "eventId": "tm-greta-van-fleet-2027-columbus-vv1aazk4vgkexl1ix",
+          "localDate": "2027-07-16",
+          "price": 66,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Phoenix",
+          "country": "United States",
+          "venue": "Mortgage Matchup Center",
+          "eventId": "tm-greta-van-fleet-2027-phoenix-1av0z_kgkbck9ok",
+          "localDate": "2027-03-20",
+          "price": 66,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Rosemont",
+          "country": "United States",
+          "venue": "Allstate Arena",
+          "eventId": "tm-greta-van-fleet-2027-rosemont-vv178z_kgkmrjctr",
+          "localDate": "2027-02-12",
+          "price": 66,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Tulsa",
+          "country": "United States",
+          "venue": "BOK Center",
+          "eventId": "tm-greta-van-fleet-2027-tulsa-1aezz_kgkdnv4sg",
+          "localDate": "2027-03-16",
+          "price": 66,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Nashville",
+          "country": "United States",
+          "venue": "Bridgestone Arena",
+          "eventId": "tm-greta-van-fleet-2027-nashville-g5viz_kzhjzwy",
+          "localDate": "2027-02-10",
+          "price": 67,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Detroit",
+          "country": "United States",
+          "venue": "Little Caesars Arena",
+          "eventId": "tm-greta-van-fleet-2027-detroit-vv17oz_kgkwt_pf2",
+          "localDate": "2027-03-02",
+          "price": 68,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Jacksonville",
+          "country": "United States",
+          "venue": "VyStar Veterans Memorial Arena",
+          "eventId": "tm-greta-van-fleet-2027-jacksonville-1aefz_kgkdyuafx",
+          "localDate": "2027-02-06",
+          "price": 68,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Louisville",
+          "country": "United States",
+          "venue": "KFC Yum! Center",
+          "eventId": "tm-greta-van-fleet-2027-louisville-1avbz_kgkbymb5h",
+          "localDate": "2027-02-19",
+          "price": 68,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Pittsburgh",
+          "country": "United States",
+          "venue": "PPG Paints Arena",
+          "eventId": "tm-greta-van-fleet-2027-pittsburgh-1avbz_kgkmosrsz",
+          "localDate": "2027-02-20",
+          "price": 68,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Fort Worth",
+          "country": "United States",
+          "venue": "Dickies Arena",
+          "eventId": "tm-greta-van-fleet-2027-fort-worth-vvg1yz_f6vci7r",
+          "localDate": "2027-03-15",
+          "price": 69,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Portland",
+          "country": "United States",
+          "venue": "Moda Center",
+          "eventId": "tm-greta-van-fleet-2027-portland-vvg1hz_kle7js7",
+          "localDate": "2027-03-25",
+          "price": 69,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Boston",
+          "country": "United States",
+          "venue": "TD Garden",
+          "eventId": "tm-greta-van-fleet-2027-boston-vv177z_kgknm09yr",
+          "localDate": "2027-03-05",
+          "price": 70,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Kansas City",
+          "country": "United States",
+          "venue": "T-Mobile Center",
+          "eventId": "tm-greta-van-fleet-2027-kansas-city-vv1akzk4vgkdr0kg1",
+          "localDate": "2027-07-13",
+          "price": 70,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Seattle",
+          "country": "United States",
+          "venue": "Climate Pledge Arena",
+          "eventId": "tm-greta-van-fleet-2027-seattle-vvg1hz_km-zrdh",
+          "localDate": "2027-03-24",
+          "price": 70,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Philadelphia",
+          "country": "United States",
+          "venue": "Xfinity Mobile Arena",
+          "eventId": "tm-greta-van-fleet-2027-philadelphia-1adzz_kgkv_zy6y",
+          "localDate": "2027-03-10",
+          "price": 72,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Knoxville",
+          "country": "United States",
+          "venue": "Food City Center",
+          "eventId": "tm-greta-van-fleet-2027-knoxville-g5viz_fat50pa",
+          "localDate": "2027-03-13",
+          "price": 73,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Raleigh",
+          "country": "United States",
+          "venue": "Lenovo Center",
+          "eventId": "tm-greta-van-fleet-2027-raleigh-g5evz_f6z0uw6",
+          "localDate": "2027-07-20",
+          "price": 73,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Anaheim",
+          "country": "United States",
+          "venue": "Honda Center",
+          "eventId": "tm-greta-van-fleet-2027-anaheim-vv170z_kgkm7preh",
+          "localDate": "2027-03-19",
+          "price": 74,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Charlotte",
+          "country": "United States",
+          "venue": "Spectrum Center",
+          "eventId": "tm-greta-van-fleet-2027-charlotte-g5evz_kd5pkxs",
+          "localDate": "2027-03-12",
+          "price": 74,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Omaha",
+          "country": "United States",
+          "venue": "CHI Health Center Omaha",
+          "eventId": "tm-greta-van-fleet-2027-omaha-vv17bz_kgkmgzcnp",
+          "localDate": "2027-02-13",
+          "price": 75,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Tampa",
+          "country": "United States",
+          "venue": "Benchmark International Arena",
+          "eventId": "tm-greta-van-fleet-2027-tampa-vvg1vz_kmcwtil",
+          "localDate": "2027-02-05",
+          "price": 75,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Hershey",
+          "country": "United States",
+          "venue": "GIANT Center",
+          "eventId": "tm-greta-van-fleet-2027-hershey-vv17fz_kgkdofs3p",
+          "localDate": "2027-07-23",
+          "price": 79,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Atlanta",
+          "country": "United States",
+          "venue": "State Farm Arena",
+          "eventId": "tm-greta-van-fleet-2027-atlanta-vvg1zz_kmneaip",
+          "localDate": "2027-02-09",
+          "price": 81,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Boise",
+          "country": "United States",
+          "venue": "ExtraMile Arena",
+          "eventId": "tm-greta-van-fleet-2027-boise-g5vzz_fkffj8x",
+          "localDate": "2027-03-27",
+          "price": 84,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Denver",
+          "country": "United States",
+          "venue": "Ball Arena",
+          "eventId": "tm-greta-van-fleet-2027-denver-g5vzz_kbjtioy",
+          "localDate": "2027-03-30",
+          "price": 86,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Savannah",
+          "country": "United States",
+          "venue": "Enmarket Arena",
+          "eventId": "tm-greta-van-fleet-2027-savannah-vvg1zz_kdabkfs",
+          "localDate": "2027-02-03",
+          "price": 93,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Reno",
+          "country": "United States",
+          "venue": "Reno Events Center",
+          "eventId": "tm-greta-van-fleet-2027-reno-1avjz_kgkmchefe",
+          "localDate": "2027-03-22",
+          "price": 109,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        },
+        {
+          "city": "Uncasville",
+          "country": "United States",
+          "venue": "Mohegan Sun Arena",
+          "eventId": "tm-greta-van-fleet-2027-uncasville-g5vvz_kwzs711",
+          "localDate": "2027-07-24",
+          "price": 117,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:40.485Z"
+        }
+      ]
+    },
+    {
+      "artistSlug": "daughtry",
+      "artist": "Daughtry",
+      "tourName": "20 Years Unplugged Tour",
+      "path": "/artists/daughtry/ticket-prices",
+      "site": "vivid-seats",
+      "siteLabel": "Vivid Seats",
+      "currency": "USD",
+      "country": "United States",
+      "cityCount": 34,
+      "low": {
+        "city": "Durant",
+        "country": "United States",
+        "venue": "Choctaw Grand Theater",
+        "eventId": "tm-daughtry-2027-durant-vvg1yz_kgp_ixc",
+        "localDate": "2027-02-12",
+        "price": 37,
+        "currency": "USD",
+        "capturedAt": "2026-10-17T23:31:39.467Z"
+      },
+      "high": {
+        "city": "Melbourne",
+        "country": "United States",
+        "venue": "Maxwell C. King Center for the Performing Arts",
+        "eventId": "tm-daughtry-2027-melbourne-z7r9jz1aae83v",
+        "localDate": "2027-01-25",
+        "price": 348,
+        "currency": "USD",
+        "capturedAt": "2026-10-17T23:31:39.468Z"
+      },
+      "ratio": 9.4,
+      "cities": [
+        {
+          "city": "Durant",
+          "country": "United States",
+          "venue": "Choctaw Grand Theater",
+          "eventId": "tm-daughtry-2027-durant-vvg1yz_kgp_ixc",
+          "localDate": "2027-02-12",
+          "price": 37,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.467Z"
+        },
+        {
+          "city": "Denver",
+          "country": "United States",
+          "venue": "Paramount Theatre",
+          "eventId": "tm-daughtry-2027-denver-g5vzz_knzyqbr",
+          "localDate": "2027-02-10",
+          "price": 51,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.467Z"
+        },
+        {
+          "city": "Nashville",
+          "country": "United States",
+          "venue": "Brown County Music Center",
+          "eventId": "tm-daughtry-2026-nashville-vvg1fz_gmyo5fy",
+          "localDate": "2026-10-29",
+          "price": 58,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.467Z"
+        },
+        {
+          "city": "Des Moines",
+          "country": "United States",
+          "venue": "Hoyt Sherman Place",
+          "eventId": "tm-daughtry-2026-des-moines-vvg1bz_gwkrfot",
+          "localDate": "2026-11-01",
+          "price": 63,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.467Z"
+        },
+        {
+          "city": "Corpus Christi",
+          "country": "United States",
+          "venue": "Selena Auditorium",
+          "eventId": "tm-daughtry-2027-corpus-christi-g5diz_kxutltw",
+          "localDate": "2027-02-02",
+          "price": 68,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.467Z"
+        },
+        {
+          "city": "Danville",
+          "country": "United States",
+          "venue": "The Pantheon at Caesars Virginia",
+          "eventId": "tm-daughtry-2026-danville-vvg17z_gy_imrz",
+          "localDate": "2026-10-23",
+          "price": 68,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.467Z"
+        },
+        {
+          "city": "Las Vegas",
+          "country": "United States",
+          "venue": "Pearl Concert Theater at Palms Casino Resort",
+          "eventId": "tm-daughtry-2026-las-vegas-z7r9jz1a7pxak",
+          "localDate": "2026-11-07",
+          "price": 69,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.467Z"
+        },
+        {
+          "city": "Kansas City",
+          "country": "United States",
+          "venue": "Uptown Theater",
+          "eventId": "tm-daughtry-2026-kansas-city-vvg1bz_gsftuwt",
+          "localDate": "2026-11-03",
+          "price": 72,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.467Z"
+        },
+        {
+          "city": "Duluth",
+          "country": "United States",
+          "venue": "DECC Symphony Hall",
+          "eventId": "tm-daughtry-2027-duluth-vv1akzkfmgkdcbe8w",
+          "localDate": "2027-02-16",
+          "price": 74,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.467Z"
+        },
+        {
+          "city": "Houston",
+          "country": "United States",
+          "venue": "Bayou Music Center",
+          "eventId": "tm-daughtry-2027-houston-g5diz_kxwqqcm",
+          "localDate": "2027-01-31",
+          "price": 80,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.467Z"
+        },
+        {
+          "city": "Clearwater",
+          "country": "United States",
+          "venue": "Ruth Eckerd Hall",
+          "eventId": "tm-daughtry-2027-clearwater-z7r9jz1aae83e",
+          "localDate": "2027-01-28",
+          "price": 82,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.468Z"
+        },
+        {
+          "city": "Hershey",
+          "country": "United States",
+          "venue": "Hershey Theatre",
+          "eventId": "tm-daughtry-2027-hershey-vv1aezkfmgkdtwgls",
+          "localDate": "2027-02-26",
+          "price": 82,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.468Z"
+        },
+        {
+          "city": "Anaheim",
+          "country": "United States",
+          "venue": "DigAlert Grove of Anaheim",
+          "eventId": "tm-daughtry-2026-anaheim-vvg10z_grix-n9",
+          "localDate": "2026-11-10",
+          "price": 83,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.467Z"
+        },
+        {
+          "city": "Dallas",
+          "country": "United States",
+          "venue": "Majestic Theatre Dallas",
+          "eventId": "tm-daughtry-2026-dallas-vvg1yz_gea3drr",
+          "localDate": "2026-11-14",
+          "price": 83,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.467Z"
+        },
+        {
+          "city": "Gary",
+          "country": "United States",
+          "venue": "Hard Rock Live Northern Indiana",
+          "eventId": "tm-daughtry-2027-gary-vv1aazkfygkesuefr",
+          "localDate": "2027-02-21",
+          "price": 83,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.468Z"
+        },
+        {
+          "city": "Orlando",
+          "country": "United States",
+          "venue": "Hard Rock Live Orlando",
+          "eventId": "tm-daughtry-2027-orlando-1kfovpgdga2huxq",
+          "localDate": "2027-01-27",
+          "price": 84,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.467Z"
+        },
+        {
+          "city": "Detroit",
+          "country": "United States",
+          "venue": "The Fillmore Detroit",
+          "eventId": "tm-daughtry-2027-detroit-vv1kezvpg_ga5zp8l",
+          "localDate": "2027-02-23",
+          "price": 86,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.468Z"
+        },
+        {
+          "city": "Austin",
+          "country": "United States",
+          "venue": "Austin City Limits Live at The Moody Theater",
+          "eventId": "tm-daughtry-2027-austin-z7r9jz1aae83d",
+          "localDate": "2027-02-03",
+          "price": 87,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.468Z"
+        },
+        {
+          "city": "Bethlehem",
+          "country": "United States",
+          "venue": "The Wind Creek Event Center",
+          "eventId": "tm-daughtry-2027-bethlehem-vv1aovpg_ga5ljzy",
+          "localDate": "2027-02-27",
+          "price": 87,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.468Z"
+        },
+        {
+          "city": "Englewood",
+          "country": "United States",
+          "venue": "Bergen Performing Arts Center",
+          "eventId": "tm-daughtry-2026-englewood-k7vgf_uejshyg",
+          "localDate": "2026-10-21",
+          "price": 87,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.467Z"
+        },
+        {
+          "city": "Charleston",
+          "country": "United States",
+          "venue": "The Charleston Music Hall",
+          "eventId": "tm-daughtry-2027-charleston-g5evz_keoc7ae",
+          "localDate": "2027-03-05",
+          "price": 91,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.468Z"
+        },
+        {
+          "city": "Sacramento",
+          "country": "United States",
+          "venue": "Channel 24",
+          "eventId": "tm-daughtry-2027-sacramento-g5vyz_k60xnfe",
+          "localDate": "2027-02-08",
+          "price": 93,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.467Z"
+        },
+        {
+          "city": "Rockford",
+          "country": "United States",
+          "venue": "Hard Rock Live Rockford",
+          "eventId": "tm-daughtry-2027-rockford-16e7z_kkfg7v38v",
+          "localDate": "2027-02-20",
+          "price": 95,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.468Z"
+        },
+        {
+          "city": "Napa",
+          "country": "United States",
+          "venue": "Uptown Theatre Napa",
+          "eventId": "tm-daughtry-2026-napa-g5vyz_gnjfn19",
+          "localDate": "2026-11-08",
+          "price": 96,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.467Z"
+        },
+        {
+          "city": "Charlottesville",
+          "country": "United States",
+          "venue": "Paramount Theater - VA",
+          "eventId": "tm-daughtry-2027-charlottesville-z7r9jz1aae83f",
+          "localDate": "2027-03-03",
+          "price": 110,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.468Z"
+        },
+        {
+          "city": "Greensburg",
+          "country": "United States",
+          "venue": "Palace Theatre-Greensburg",
+          "eventId": "tm-daughtry-2026-greensburg-z7r9jz1aazman",
+          "localDate": "2026-10-26",
+          "price": 111,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.467Z"
+        },
+        {
+          "city": "Florence",
+          "country": "United States",
+          "venue": "Turfway Park",
+          "eventId": "tm-daughtry-2026-florence-17aov0g6gj3vrxt",
+          "localDate": "2026-10-24",
+          "price": 116,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.467Z"
+        },
+        {
+          "city": "Tucson",
+          "country": "United States",
+          "venue": "Fox Theatre - Tucson AZ",
+          "eventId": "tm-daughtry-2026-tucson-z7r9jz1a7pxk_",
+          "localDate": "2026-11-11",
+          "price": 119,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.467Z"
+        },
+        {
+          "city": "Pine Bluff",
+          "country": "United States",
+          "venue": "Saracen Casino Resort",
+          "eventId": "tm-daughtry-2027-pine-bluff-g5viz_kyugjqo",
+          "localDate": "2027-01-23",
+          "price": 123,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.467Z"
+        },
+        {
+          "city": "Biloxi",
+          "country": "United States",
+          "venue": "Hard Rock Live Biloxi",
+          "eventId": "tm-daughtry-2027-biloxi-g5viz_ksbnt-6",
+          "localDate": "2027-01-30",
+          "price": 133,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.467Z"
+        },
+        {
+          "city": "Huntington",
+          "country": "United States",
+          "venue": "The Paramount in concert with Northwell",
+          "eventId": "tm-daughtry-2026-huntington-k7vgf_geicgms",
+          "localDate": "2026-10-20",
+          "price": 198,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.467Z"
+        },
+        {
+          "city": "Ventura",
+          "country": "United States",
+          "venue": "The Majestic Ventura Theater - CA",
+          "eventId": "tm-daughtry-2027-ventura-z7r9jz1aae837",
+          "localDate": "2027-02-06",
+          "price": 255,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.468Z"
+        },
+        {
+          "city": "Eau Claire",
+          "country": "United States",
+          "venue": "RCU Theatre",
+          "eventId": "tm-daughtry-2027-eau-claire-z7r9jz1aae83k",
+          "localDate": "2027-02-18",
+          "price": 303,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.468Z"
+        },
+        {
+          "city": "Melbourne",
+          "country": "United States",
+          "venue": "Maxwell C. King Center for the Performing Arts",
+          "eventId": "tm-daughtry-2027-melbourne-z7r9jz1aae83v",
+          "localDate": "2027-01-25",
+          "price": 348,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:39.468Z"
+        }
+      ]
+    },
+    {
+      "artistSlug": "the-red-clay-strays",
+      "artist": "The Red Clay Strays",
+      "tourName": "Grateful Tour",
+      "path": "/artists/the-red-clay-strays/ticket-prices",
+      "site": "vivid-seats",
+      "siteLabel": "Vivid Seats",
+      "currency": "USD",
+      "country": "United States",
+      "cityCount": 28,
+      "low": {
+        "city": "Birmingham",
+        "country": "United States",
+        "venue": "Legacy Arena at the BJCC",
+        "eventId": "tm-the-red-clay-strays-2026-birmingham-1aozk38gkdpv4cc",
+        "localDate": "2026-10-31",
+        "price": 47,
+        "currency": "USD",
+        "capturedAt": "2026-10-17T23:31:38.939Z"
+      },
+      "high": {
+        "city": "Uncasville",
+        "country": "United States",
+        "venue": "Mohegan Sun Arena",
+        "eventId": "tm-the-red-clay-strays-2027-uncasville-g5vvz_koktqjf",
+        "localDate": "2027-03-18",
+        "price": 141,
+        "currency": "USD",
+        "capturedAt": "2026-10-17T23:31:38.939Z"
+      },
+      "ratio": 3,
+      "cities": [
+        {
+          "city": "Birmingham",
+          "country": "United States",
+          "venue": "Legacy Arena at the BJCC",
+          "eventId": "tm-the-red-clay-strays-2026-birmingham-1aozk38gkdpv4cc",
+          "localDate": "2026-10-31",
+          "price": 47,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Knoxville",
+          "country": "United States",
+          "venue": "Food City Center",
+          "eventId": "tm-the-red-clay-strays-2026-knoxville-g5viz_ae91dt_",
+          "localDate": "2026-10-28",
+          "price": 49,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Bossier City",
+          "country": "United States",
+          "venue": "Brookshire Grocery Arena",
+          "eventId": "tm-the-red-clay-strays-2026-bossier-city-z7r9jz1a70vjf",
+          "localDate": "2026-11-06",
+          "price": 50,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Greenville",
+          "country": "United States",
+          "venue": "Bon Secours Wellness Arena",
+          "eventId": "tm-the-red-clay-strays-2026-greenville-g5evz_a5lvwt0",
+          "localDate": "2026-10-18",
+          "price": 55,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Canandaigua",
+          "country": "United States",
+          "venue": "Constellation Brands-Marvin Sands Performing Arts Center: CMAC",
+          "eventId": "tm-the-red-clay-strays-2027-canandaigua-k7vgf_ksrxvbm",
+          "localDate": "2027-07-29",
+          "price": 58,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Nashville",
+          "country": "United States",
+          "venue": "Bridgestone Arena",
+          "eventId": "tm-the-red-clay-strays-2026-nashville-g5vizbum8x11w",
+          "localDate": "2026-10-22",
+          "price": 58,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Las Vegas",
+          "country": "United States",
+          "venue": "MGM Grand Garden Arena",
+          "eventId": "tm-the-red-clay-strays-2026-las-vegas-z7r9jz1a70pzp",
+          "localDate": "2026-12-05",
+          "price": 61,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Rogers",
+          "country": "United States",
+          "venue": "Walmart AMP",
+          "eventId": "tm-the-red-clay-strays-2027-rogers-g5viz_kuooawu",
+          "localDate": "2027-09-09",
+          "price": 71,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Clarkston",
+          "country": "United States",
+          "venue": "Pine Knob Music Theatre",
+          "eventId": "tm-the-red-clay-strays-2027-clarkston-vv17oz_kgkvl-rxl",
+          "localDate": "2027-07-31",
+          "price": 76,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Indianapolis",
+          "country": "United States",
+          "venue": "Gainbridge Fieldhouse",
+          "eventId": "tm-the-red-clay-strays-2027-indianapolis-vv17fz_kgks5i1ir",
+          "localDate": "2027-02-05",
+          "price": 76,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Rosemont",
+          "country": "United States",
+          "venue": "Allstate Arena",
+          "eventId": "tm-the-red-clay-strays-2027-rosemont-vv178z_kgksozism",
+          "localDate": "2027-01-28",
+          "price": 76,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Baton Rouge",
+          "country": "United States",
+          "venue": "Raising Canes River Center Arena",
+          "eventId": "tm-the-red-clay-strays-2026-baton-rouge-z7r9jz1a70vj6",
+          "localDate": "2026-11-05",
+          "price": 77,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Allentown",
+          "country": "United States",
+          "venue": "PPL Center",
+          "eventId": "tm-the-red-clay-strays-2027-allentown-1adzz_kgkmg3bkj",
+          "localDate": "2027-03-19",
+          "price": 78,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Columbia",
+          "country": "United States",
+          "venue": "Colonial Life Arena",
+          "eventId": "tm-the-red-clay-strays-2027-columbia-g5evz_ksmjps3",
+          "localDate": "2027-01-23",
+          "price": 78,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Boise",
+          "country": "United States",
+          "venue": "ExtraMile Arena",
+          "eventId": "tm-the-red-clay-strays-2027-boise-g5vzz_kjqef3d",
+          "localDate": "2027-08-22",
+          "price": 79,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Austin",
+          "country": "United States",
+          "venue": "Moody Center ATX",
+          "eventId": "tm-the-red-clay-strays-2027-austin-g5diz_kmbauv1",
+          "localDate": "2027-09-19",
+          "price": 80,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Jonesboro",
+          "country": "United States",
+          "venue": "First National Bank Arena",
+          "eventId": "tm-the-red-clay-strays-2026-jonesboro-g5viz_f5t3whv",
+          "localDate": "2026-11-08",
+          "price": 81,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Omaha",
+          "country": "United States",
+          "venue": "CHI Health Center Omaha",
+          "eventId": "tm-the-red-clay-strays-2027-omaha-vv17bz_kgks0gmzs",
+          "localDate": "2027-01-31",
+          "price": 81,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Bangor",
+          "country": "United States",
+          "venue": "Maine Savings Amphitheater",
+          "eventId": "tm-the-red-clay-strays-2027-bangor-vv1f7z_kqaonzdc55",
+          "localDate": "2027-07-23",
+          "price": 82,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Raleigh",
+          "country": "United States",
+          "venue": "Lenovo Center",
+          "eventId": "tm-the-red-clay-strays-2027-raleigh-g5evz_kwmllt1",
+          "localDate": "2027-01-22",
+          "price": 82,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Atlanta",
+          "country": "United States",
+          "venue": "State Farm Arena",
+          "eventId": "tm-the-red-clay-strays-2026-atlanta-vvg1zz_7rkxyy-",
+          "localDate": "2026-11-13",
+          "price": 86,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Berkeley",
+          "country": "United States",
+          "venue": "Greek Theatre-U.C. Berkeley",
+          "eventId": "tm-the-red-clay-strays-2027-berkeley-g5vyz_kir6nxo",
+          "localDate": "2027-08-12",
+          "price": 86,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Charleston",
+          "country": "United States",
+          "venue": "Charleston Coliseum",
+          "eventId": "tm-the-red-clay-strays-2027-charleston-1avbz_kgkb6hkqy",
+          "localDate": "2027-02-11",
+          "price": 87,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Estero",
+          "country": "United States",
+          "venue": "Hertz Arena",
+          "eventId": "tm-the-red-clay-strays-2027-estero-vvg1vz_ks60_np",
+          "localDate": "2027-02-25",
+          "price": 92,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Gilford",
+          "country": "United States",
+          "venue": "BankNH Pavilion",
+          "eventId": "tm-the-red-clay-strays-2027-gilford-vv177z_kgklli63o",
+          "localDate": "2027-07-24",
+          "price": 99,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Mobile",
+          "country": "United States",
+          "venue": "Regions Arena",
+          "eventId": "tm-the-red-clay-strays-2027-mobile-g5viz_k1kuycs",
+          "localDate": "2027-03-25",
+          "price": 106,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Bend",
+          "country": "United States",
+          "venue": "Hayden Homes Amphitheater",
+          "eventId": "tm-the-red-clay-strays-2027-bend-vvg1hz_kwvob2j",
+          "localDate": "2027-08-21",
+          "price": 125,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        },
+        {
+          "city": "Uncasville",
+          "country": "United States",
+          "venue": "Mohegan Sun Arena",
+          "eventId": "tm-the-red-clay-strays-2027-uncasville-g5vvz_koktqjf",
+          "localDate": "2027-03-18",
+          "price": 141,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:38.939Z"
+        }
+      ]
+    },
+    {
+      "artistSlug": "pentatonix",
+      "artist": "Pentatonix",
+      "tourName": "Christmas in the City Tour",
+      "path": "/artists/pentatonix/ticket-prices",
+      "site": "ticketnetwork",
+      "siteLabel": "TicketNetwork",
+      "currency": "USD",
+      "country": "United States",
+      "cityCount": 26,
+      "low": {
+        "city": "Nashville",
+        "country": "United States",
+        "venue": "Bridgestone Arena",
+        "eventId": "tm-pentatonix-2026-nashville-g5viz_8pdi7wi",
+        "localDate": "2026-12-09",
+        "price": 37.95,
+        "currency": "USD",
+        "capturedAt": "2026-10-17T22:21:48.982Z"
+      },
+      "high": {
+        "city": "Lubbock",
+        "country": "United States",
+        "venue": "United Supermarkets Arena",
+        "eventId": "tm-pentatonix-2026-lubbock-z7r9jz1aaz-j6",
+        "localDate": "2026-12-17",
+        "price": 124.2,
+        "currency": "USD",
+        "capturedAt": "2026-10-17T22:21:50.476Z"
+      },
+      "ratio": 3.3,
+      "cities": [
+        {
+          "city": "Nashville",
+          "country": "United States",
+          "venue": "Bridgestone Arena",
+          "eventId": "tm-pentatonix-2026-nashville-g5viz_8pdi7wi",
+          "localDate": "2026-12-09",
+          "price": 37.95,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:48.982Z"
+        },
+        {
+          "city": "Lincoln",
+          "country": "United States",
+          "venue": "Pinnacle Bank Arena",
+          "eventId": "tm-pentatonix-2026-lincoln-vv1akzkf7gkdppsjy",
+          "localDate": "2026-11-12",
+          "price": 41.4,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:45.914Z"
+        },
+        {
+          "city": "North Little Rock",
+          "country": "United States",
+          "venue": "Simmons Bank Arena",
+          "eventId": "tm-pentatonix-2026-north-little-rock-g5viz_2r0054y",
+          "localDate": "2026-12-12",
+          "price": 42.55,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:49.645Z"
+        },
+        {
+          "city": "Tacoma",
+          "country": "United States",
+          "venue": "Tacoma Dome",
+          "eventId": "tm-pentatonix-2026-tacoma-vvg1hz_2zdlw0j",
+          "localDate": "2026-11-05",
+          "price": 44.85,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:43.409Z"
+        },
+        {
+          "city": "Cleveland",
+          "country": "United States",
+          "venue": "Rocket Arena",
+          "eventId": "tm-pentatonix-2026-cleveland-z7r9jz1aazofo",
+          "localDate": "2026-11-19",
+          "price": 48.3,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:46.862Z"
+        },
+        {
+          "city": "Louisville",
+          "country": "United States",
+          "venue": "KFC Yum! Center",
+          "eventId": "tm-pentatonix-2026-louisville-1apzkf7gker9zih",
+          "localDate": "2026-11-16",
+          "price": 49.45,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:46.537Z"
+        },
+        {
+          "city": "Casper",
+          "country": "United States",
+          "venue": "Ford Wyoming Center",
+          "eventId": "tm-pentatonix-2026-casper-g5vzz_2uvfg47",
+          "localDate": "2026-11-10",
+          "price": 50.6,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:45.755Z"
+        },
+        {
+          "city": "Buffalo",
+          "country": "United States",
+          "venue": "KeyBank Center",
+          "eventId": "tm-pentatonix-2026-buffalo-k7vgf_8kru5hf",
+          "localDate": "2026-11-18",
+          "price": 54.05,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:46.692Z"
+        },
+        {
+          "city": "San Diego",
+          "country": "United States",
+          "venue": "Viejas Arena at Aztec Bowl San Diego State University",
+          "eventId": "tm-pentatonix-2026-san-diego-vvg1iz_2i-g3fb",
+          "localDate": "2026-12-20",
+          "price": 54.05,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:50.757Z"
+        },
+        {
+          "city": "Bossier City",
+          "country": "United States",
+          "venue": "Brookshire Grocery Arena",
+          "eventId": "tm-pentatonix-2026-bossier-city-g5viz_2gyyd_m",
+          "localDate": "2026-12-13",
+          "price": 55.2,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:49.900Z"
+        },
+        {
+          "city": "Glendale",
+          "country": "United States",
+          "venue": "Desert Diamond Arena",
+          "eventId": "tm-pentatonix-2026-glendale-16_zkfdauzauuafa",
+          "localDate": "2026-12-19",
+          "price": 58.65,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:50.621Z"
+        },
+        {
+          "city": "Pittsburgh",
+          "country": "United States",
+          "venue": "PPG Paints Arena",
+          "eventId": "tm-pentatonix-2026-pittsburgh-1apzkfdgkdrcd8b",
+          "localDate": "2026-11-21",
+          "price": 63.25,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:47.019Z"
+        },
+        {
+          "city": "Grand Rapids",
+          "country": "United States",
+          "venue": "Van Andel Arena",
+          "eventId": "tm-pentatonix-2026-grand-rapids-vvg1oz_2h1hwe2",
+          "localDate": "2026-11-15",
+          "price": 64.4,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:46.381Z"
+        },
+        {
+          "city": "Charlottesville",
+          "country": "United States",
+          "venue": "John Paul Jones Arena",
+          "eventId": "tm-pentatonix-2026-charlottesville-vv1f7z_8uv7ozdc1c",
+          "localDate": "2026-11-28",
+          "price": 66.7,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:47.220Z"
+        },
+        {
+          "city": "Milwaukee",
+          "country": "United States",
+          "venue": "Fiserv Forum",
+          "eventId": "tm-pentatonix-2026-milwaukee-vvg1jz_296mpvg",
+          "localDate": "2026-11-14",
+          "price": 69,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:46.133Z"
+        },
+        {
+          "city": "Greenville",
+          "country": "United States",
+          "venue": "Bon Secours Wellness Arena",
+          "eventId": "tm-pentatonix-2026-greenville-g5evz_2tznjd_",
+          "localDate": "2026-12-06",
+          "price": 72.45,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:47.867Z"
+        },
+        {
+          "city": "Albany",
+          "country": "United States",
+          "venue": "MVP Arena",
+          "eventId": "tm-pentatonix-2026-albany-k7vgf_2br5dvf",
+          "localDate": "2026-11-29",
+          "price": 74.75,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:47.363Z"
+        },
+        {
+          "city": "Columbia",
+          "country": "United States",
+          "venue": "Colonial Life Arena",
+          "eventId": "tm-pentatonix-2026-columbia-g5evz_2t_yqom",
+          "localDate": "2026-12-05",
+          "price": 74.75,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:47.665Z"
+        },
+        {
+          "city": "Inglewood",
+          "country": "United States",
+          "venue": "Kia Forum",
+          "eventId": "tm-pentatonix-2026-inglewood-vv1aazkf7gkdi1gsn",
+          "localDate": "2026-12-22",
+          "price": 74.75,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:50.976Z"
+        },
+        {
+          "city": "Atlanta",
+          "country": "United States",
+          "venue": "State Farm Arena",
+          "eventId": "tm-pentatonix-2026-atlanta-vvg1zz_8pzyi3r",
+          "localDate": "2026-12-10",
+          "price": 77.05,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:49.400Z"
+        },
+        {
+          "city": "Raleigh",
+          "country": "United States",
+          "venue": "Lenovo Center",
+          "eventId": "tm-pentatonix-2026-raleigh-g5evz_2xkfyfh",
+          "localDate": "2026-12-07",
+          "price": 79.35,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:48.027Z"
+        },
+        {
+          "city": "Austin",
+          "country": "United States",
+          "venue": "Moody Center ATX",
+          "eventId": "tm-pentatonix-2026-austin-g5diz_8kmjslp",
+          "localDate": "2026-12-15",
+          "price": 81.65,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:50.059Z"
+        },
+        {
+          "city": "Bozeman",
+          "country": "United States",
+          "venue": "Brick Breeden Fieldhouse",
+          "eventId": "tm-pentatonix-2026-bozeman-z7r9jz1aaz-xz",
+          "localDate": "2026-11-09",
+          "price": 83.95,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:44.546Z"
+        },
+        {
+          "city": "Baltimore",
+          "country": "United States",
+          "venue": "CFG Bank Arena",
+          "eventId": "tm-pentatonix-2026-baltimore-17a8v0g62urg9es",
+          "localDate": "2026-12-03",
+          "price": 90.85,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:47.513Z"
+        },
+        {
+          "city": "Fort Worth",
+          "country": "United States",
+          "venue": "Dickies Arena",
+          "eventId": "tm-pentatonix-2026-fort-worth-vvg1yz_cn4la0m",
+          "localDate": "2026-12-16",
+          "price": 101.2,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:50.287Z"
+        },
+        {
+          "city": "Lubbock",
+          "country": "United States",
+          "venue": "United Supermarkets Arena",
+          "eventId": "tm-pentatonix-2026-lubbock-z7r9jz1aaz-j6",
+          "localDate": "2026-12-17",
+          "price": 124.2,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:50.476Z"
+        }
+      ]
+    },
+    {
+      "artistSlug": "hans-zimmer",
+      "artist": "Hans Zimmer",
+      "tourName": "Hans Zimmer Live – The Next Level",
+      "path": "/artists/hans-zimmer/ticket-prices",
+      "site": "ticketnetwork",
+      "siteLabel": "TicketNetwork",
+      "currency": "USD",
+      "country": "United States",
+      "cityCount": 25,
+      "low": {
+        "city": "Orlando",
+        "country": "United States",
+        "venue": "Kia Center",
+        "eventId": "tm-hans-zimmer-2027-orlando-1axzkfygkexmgrx",
+        "localDate": "2027-03-11",
+        "price": 54.05,
+        "currency": "USD",
+        "capturedAt": "2026-10-17T22:23:12.473Z"
+      },
+      "high": {
+        "city": "Anaheim",
+        "country": "United States",
+        "venue": "Honda Center",
+        "eventId": "tm-hans-zimmer-2027-anaheim-vv170z_3gkwtdbyn",
+        "localDate": "2027-04-02",
+        "price": 265.65,
+        "currency": "USD",
+        "capturedAt": "2026-10-17T22:23:13.569Z"
+      },
+      "ratio": 4.9,
+      "cities": [
+        {
+          "city": "Orlando",
+          "country": "United States",
+          "venue": "Kia Center",
+          "eventId": "tm-hans-zimmer-2027-orlando-1axzkfygkexmgrx",
+          "localDate": "2027-03-11",
+          "price": 54.05,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:12.473Z"
+        },
+        {
+          "city": "Portland",
+          "country": "United States",
+          "venue": "Moda Center",
+          "eventId": "tm-hans-zimmer-2027-portland-vvg1hz_3zbqmzv",
+          "localDate": "2027-04-11",
+          "price": 100.05,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:14.750Z"
+        },
+        {
+          "city": "Nashville",
+          "country": "United States",
+          "venue": "Bridgestone Arena",
+          "eventId": "tm-hans-zimmer-2027-nashville-g5viz_3pzfvfc",
+          "localDate": "2027-03-17",
+          "price": 110.4,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:13.013Z"
+        },
+        {
+          "city": "Philadelphia",
+          "country": "United States",
+          "venue": "Xfinity Mobile Arena",
+          "eventId": "tm-hans-zimmer-2027-philadelphia-1kgzvpgaga1lecy",
+          "localDate": "2027-02-23",
+          "price": 112.7,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:11.507Z"
+        },
+        {
+          "city": "Cincinnati",
+          "country": "United States",
+          "venue": "Heritage Bank Center",
+          "eventId": "tm-hans-zimmer-2027-cincinnati-1avbz_3gkbx_fb1",
+          "localDate": "2027-03-07",
+          "price": 115,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:12.142Z"
+        },
+        {
+          "city": "Miami",
+          "country": "United States",
+          "venue": "Kaseya Center",
+          "eventId": "tm-hans-zimmer-2027-miami-vvg1vz_3gotwd8",
+          "localDate": "2027-03-13",
+          "price": 124.2,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:12.599Z"
+        },
+        {
+          "city": "Tampa",
+          "country": "United States",
+          "venue": "Benchmark International Arena",
+          "eventId": "tm-hans-zimmer-2027-tampa-vvg1vz_3xhwnhj",
+          "localDate": "2027-03-14",
+          "price": 124.2,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:12.738Z"
+        },
+        {
+          "city": "Hartford",
+          "country": "United States",
+          "venue": "PeoplesBank Arena",
+          "eventId": "tm-hans-zimmer-2027-hartford-z7r9jz1aavvqk",
+          "localDate": "2027-02-17",
+          "price": 127.65,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:58.436Z"
+        },
+        {
+          "city": "Oklahoma City",
+          "country": "United States",
+          "venue": "Paycom Center",
+          "eventId": "tm-hans-zimmer-2027-oklahoma-city-z7r9jz1aavvqf",
+          "localDate": "2027-03-21",
+          "price": 128.8,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:58.735Z"
+        },
+        {
+          "city": "Sacramento",
+          "country": "United States",
+          "venue": "Golden 1 Center",
+          "eventId": "tm-hans-zimmer-2027-sacramento-g5vyz_3nnpqvc",
+          "localDate": "2027-04-05",
+          "price": 129.95,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:14.077Z"
+        },
+        {
+          "city": "Detroit",
+          "country": "United States",
+          "venue": "Little Caesars Arena",
+          "eventId": "tm-hans-zimmer-2027-detroit-vv17oz_3gky-owzw",
+          "localDate": "2027-03-03",
+          "price": 135.7,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:11.909Z"
+        },
+        {
+          "city": "Phoenix",
+          "country": "United States",
+          "venue": "Mortgage Matchup Center",
+          "eventId": "tm-hans-zimmer-2027-phoenix-1av0z_3gktywjdb",
+          "localDate": "2027-03-30",
+          "price": 138,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:13.421Z"
+        },
+        {
+          "city": "Kansas City",
+          "country": "United States",
+          "venue": "T-Mobile Center",
+          "eventId": "tm-hans-zimmer-2027-kansas-city-z7r9jz1aavvq6",
+          "localDate": "2027-03-19",
+          "price": 146.05,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:58.575Z"
+        },
+        {
+          "city": "Boston",
+          "country": "United States",
+          "venue": "TD Garden",
+          "eventId": "tm-hans-zimmer-2027-boston-vv1avzkftgkdjvzxr",
+          "localDate": "2027-02-24",
+          "price": 151.8,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:11.630Z"
+        },
+        {
+          "city": "Charlotte",
+          "country": "United States",
+          "venue": "Spectrum Center",
+          "eventId": "tm-hans-zimmer-2027-charlotte-g5evz_3h3lwh3",
+          "localDate": "2027-03-09",
+          "price": 158.7,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:12.281Z"
+        },
+        {
+          "city": "Atlanta",
+          "country": "United States",
+          "venue": "State Farm Arena",
+          "eventId": "tm-hans-zimmer-2027-atlanta-vvg1zz_3ebknkc",
+          "localDate": "2027-03-16",
+          "price": 161,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:12.887Z"
+        },
+        {
+          "city": "Denver",
+          "country": "United States",
+          "venue": "Ball Arena",
+          "eventId": "tm-hans-zimmer-2027-denver-g5vzz_keile5w",
+          "localDate": "2027-03-25",
+          "price": 178.25,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:13.268Z"
+        },
+        {
+          "city": "Seattle",
+          "country": "United States",
+          "venue": "Climate Pledge Arena",
+          "eventId": "tm-hans-zimmer-2027-seattle-vvg1hz_3exntsl",
+          "localDate": "2027-04-09",
+          "price": 188.6,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:14.588Z"
+        },
+        {
+          "city": "San Francisco",
+          "country": "United States",
+          "venue": "Chase Center",
+          "eventId": "tm-hans-zimmer-2027-san-francisco-g5vyz_32ucflk",
+          "localDate": "2027-04-04",
+          "price": 189.75,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:13.813Z"
+        },
+        {
+          "city": "Los Angeles",
+          "country": "United States",
+          "venue": "Crypto.com Arena",
+          "eventId": "tm-hans-zimmer-2027-los-angeles-z7r9jz1aavvq8",
+          "localDate": "2027-04-01",
+          "price": 201.25,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:59.187Z"
+        },
+        {
+          "city": "Newark",
+          "country": "United States",
+          "venue": "Prudential Center",
+          "eventId": "tm-hans-zimmer-2027-newark-vv1aezkfygkepjhre",
+          "localDate": "2027-02-21",
+          "price": 201.25,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:11.335Z"
+        },
+        {
+          "city": "Fort Worth",
+          "country": "United States",
+          "venue": "Dickies Arena",
+          "eventId": "tm-hans-zimmer-2027-fort-worth-vvg1yz_8uydbmt",
+          "localDate": "2027-03-22",
+          "price": 235.75,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:13.142Z"
+        },
+        {
+          "city": "Chicago",
+          "country": "United States",
+          "venue": "United Center",
+          "eventId": "tm-hans-zimmer-2027-chicago-vv178z_3gkta7u7g",
+          "localDate": "2027-03-05",
+          "price": 250.7,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:12.014Z"
+        },
+        {
+          "city": "Salt Lake City",
+          "country": "United States",
+          "venue": "Delta Center",
+          "eventId": "tm-hans-zimmer-2027-salt-lake-city-z7r9jz1aavvqa",
+          "localDate": "2027-03-27",
+          "price": 250.7,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:58.981Z"
+        },
+        {
+          "city": "Anaheim",
+          "country": "United States",
+          "venue": "Honda Center",
+          "eventId": "tm-hans-zimmer-2027-anaheim-vv170z_3gkwtdbyn",
+          "localDate": "2027-04-02",
+          "price": 265.65,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:13.569Z"
+        }
+      ]
+    },
+    {
+      "artistSlug": "tobymac",
+      "artist": "TobyMac",
+      "tourName": "Hits Deep Tour",
+      "path": "/artists/tobymac/ticket-prices",
+      "site": "vivid-seats",
+      "siteLabel": "Vivid Seats",
+      "currency": "USD",
+      "country": "United States",
+      "cityCount": 25,
+      "low": {
+        "city": "Duluth",
+        "country": "United States",
+        "venue": "Gas South Arena",
+        "eventId": "tm-tobymac-2027-duluth-vvg1zz_oxyi5ps",
+        "localDate": "2027-02-27",
+        "price": 32,
+        "currency": "USD",
+        "capturedAt": "2026-10-17T23:31:11.618Z"
+      },
+      "high": {
+        "city": "Cape Girardeau",
+        "country": "United States",
+        "venue": "Show Me Center",
+        "eventId": "tm-tobymac-2027-cape-girardeau-z7r9jz1aav8-f",
+        "localDate": "2027-03-06",
+        "price": 54,
+        "currency": "USD",
+        "capturedAt": "2026-10-17T23:31:11.618Z"
+      },
+      "ratio": 1.7,
+      "cities": [
+        {
+          "city": "Duluth",
+          "country": "United States",
+          "venue": "Gas South Arena",
+          "eventId": "tm-tobymac-2027-duluth-vvg1zz_oxyi5ps",
+          "localDate": "2027-02-27",
+          "price": 32,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.618Z"
+        },
+        {
+          "city": "Grand Rapids",
+          "country": "United States",
+          "venue": "Van Andel Arena",
+          "eventId": "tm-tobymac-2027-grand-rapids-vv1afzkfbgkdx_n_v",
+          "localDate": "2027-03-07",
+          "price": 32,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.618Z"
+        },
+        {
+          "city": "Jacksonville",
+          "country": "United States",
+          "venue": "VyStar Veterans Memorial Arena",
+          "eventId": "tm-tobymac-2027-jacksonville-1axzkf_gkdts4j7",
+          "localDate": "2027-02-25",
+          "price": 33,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.618Z"
+        },
+        {
+          "city": "Lexington",
+          "country": "United States",
+          "venue": "Rupp Arena",
+          "eventId": "tm-tobymac-2027-lexington-1apzkfbgker-a4j",
+          "localDate": "2027-01-29",
+          "price": 33,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.618Z"
+        },
+        {
+          "city": "Columbus",
+          "country": "United States",
+          "venue": "Nationwide Arena",
+          "eventId": "tm-tobymac-2027-columbus-vv1aazkfbgkdjr-4o",
+          "localDate": "2027-02-18",
+          "price": 34,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.618Z"
+        },
+        {
+          "city": "Estero",
+          "country": "United States",
+          "venue": "Hertz Arena",
+          "eventId": "tm-tobymac-2027-estero-vvg1vz_onusnh8",
+          "localDate": "2027-02-07",
+          "price": 34,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.618Z"
+        },
+        {
+          "city": "Pensacola",
+          "country": "United States",
+          "venue": "Pensacola Bay Center",
+          "eventId": "tm-tobymac-2027-pensacola-g5viz_o9zokbz",
+          "localDate": "2027-02-11",
+          "price": 34,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.618Z"
+        },
+        {
+          "city": "Rockford",
+          "country": "United States",
+          "venue": "BMO Center",
+          "eventId": "tm-tobymac-2027-rockford-vv1a7zkfpgkdtiktq",
+          "localDate": "2027-03-19",
+          "price": 34,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.618Z"
+        },
+        {
+          "city": "Toledo",
+          "country": "United States",
+          "venue": "Huntington Center",
+          "eventId": "tm-tobymac-2027-toledo-vv1afzkf_gkeg66aj",
+          "localDate": "2027-03-04",
+          "price": 34,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.618Z"
+        },
+        {
+          "city": "Knoxville",
+          "country": "United States",
+          "venue": "Food City Center",
+          "eventId": "tm-tobymac-2027-knoxville-g5viz_oeoyvqw",
+          "localDate": "2027-02-28",
+          "price": 35,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.618Z"
+        },
+        {
+          "city": "Tampa",
+          "country": "United States",
+          "venue": "Benchmark International Arena",
+          "eventId": "tm-tobymac-2027-tampa-vvg1vz_oe_5n5h",
+          "localDate": "2027-02-04",
+          "price": 35,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.618Z"
+        },
+        {
+          "city": "Fairfax",
+          "country": "United States",
+          "venue": "EagleBank Arena",
+          "eventId": "tm-tobymac-2027-fairfax-1a4zkf_gkd7dmjf",
+          "localDate": "2027-02-19",
+          "price": 36,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.619Z"
+        },
+        {
+          "city": "Nashville",
+          "country": "United States",
+          "venue": "Bridgestone Arena",
+          "eventId": "tm-tobymac-2027-nashville-g5viz_oeqedtw",
+          "localDate": "2027-02-26",
+          "price": 37,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.618Z"
+        },
+        {
+          "city": "Orlando",
+          "country": "United States",
+          "venue": "Kia Center",
+          "eventId": "tm-tobymac-2027-orlando-1axzkf_gkdtkgpv",
+          "localDate": "2027-02-06",
+          "price": 37,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.618Z"
+        },
+        {
+          "city": "Sunrise",
+          "country": "United States",
+          "venue": "Amerant Bank Arena",
+          "eventId": "tm-tobymac-2027-sunrise-z7r9jz1aav8xe",
+          "localDate": "2027-02-05",
+          "price": 37,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.618Z"
+        },
+        {
+          "city": "Lubbock",
+          "country": "United States",
+          "venue": "United Supermarkets Arena",
+          "eventId": "tm-tobymac-2027-lubbock-z7r9jz1aav8o_",
+          "localDate": "2027-03-13",
+          "price": 38,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.618Z"
+        },
+        {
+          "city": "Fayetteville",
+          "country": "United States",
+          "venue": "Crown Coliseum",
+          "eventId": "tm-tobymac-2027-fayetteville-g5evz_ojlfi-_",
+          "localDate": "2027-01-28",
+          "price": 39,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.618Z"
+        },
+        {
+          "city": "Grand Prairie",
+          "country": "United States",
+          "venue": "Texas Trust CU Theatre",
+          "eventId": "tm-tobymac-2027-grand-prairie-z7r9jz1aav8of",
+          "localDate": "2027-02-13",
+          "price": 39,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.618Z"
+        },
+        {
+          "city": "Huntsville",
+          "country": "United States",
+          "venue": "Von Braun Center Propst Arena",
+          "eventId": "tm-tobymac-2027-huntsville-1aozkfbgkdezfqd",
+          "localDate": "2027-01-30",
+          "price": 39,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.618Z"
+        },
+        {
+          "city": "Fishers",
+          "country": "United States",
+          "venue": "Fishers Event Center",
+          "eventId": "tm-tobymac-2027-fishers-vv1aazkf4gkdkqmmm",
+          "localDate": "2027-03-05",
+          "price": 40,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.618Z"
+        },
+        {
+          "city": "Tulsa",
+          "country": "United States",
+          "venue": "BOK Center",
+          "eventId": "tm-tobymac-2027-tulsa-1aozkf_gkdn-dht",
+          "localDate": "2027-03-21",
+          "price": 40,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.619Z"
+        },
+        {
+          "city": "Fargo",
+          "country": "United States",
+          "venue": "Fargodome",
+          "eventId": "tm-tobymac-2027-fargo-vv1akzkf_gkd8vyo-",
+          "localDate": "2027-03-17",
+          "price": 42,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.619Z"
+        },
+        {
+          "city": "Austin",
+          "country": "United States",
+          "venue": "Moody Center ATX",
+          "eventId": "tm-tobymac-2027-austin-g5diz_oelxrxd",
+          "localDate": "2027-03-11",
+          "price": 43,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.618Z"
+        },
+        {
+          "city": "San Antonio",
+          "country": "United States",
+          "venue": "Freeman Coliseum",
+          "eventId": "tm-tobymac-2027-san-antonio-g5diz_olf8jri",
+          "localDate": "2027-03-12",
+          "price": 43,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.619Z"
+        },
+        {
+          "city": "Cape Girardeau",
+          "country": "United States",
+          "venue": "Show Me Center",
+          "eventId": "tm-tobymac-2027-cape-girardeau-z7r9jz1aav8-f",
+          "localDate": "2027-03-06",
+          "price": 54,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:11.618Z"
+        }
+      ]
+    },
+    {
+      "artistSlug": "riley-green",
+      "artist": "Riley Green",
+      "tourName": "That's Just Me Tour",
+      "path": "/artists/riley-green/ticket-prices",
+      "site": "vivid-seats",
+      "siteLabel": "Vivid Seats",
+      "currency": "USD",
+      "country": "United States",
+      "cityCount": 23,
+      "low": {
+        "city": "Tulsa",
+        "country": "United States",
+        "venue": "BOK Center",
+        "eventId": "tm-riley-green-2027-tulsa-1aozkfsgkexhv7n",
+        "localDate": "2027-05-20",
+        "price": 63,
+        "currency": "USD",
+        "capturedAt": "2026-10-17T23:31:41.110Z"
+      },
+      "high": {
+        "city": "Brandon",
+        "country": "United States",
+        "venue": "Brandon Amphitheater",
+        "eventId": "tm-riley-green-2027-brandon-g5viz_3t3qkqr",
+        "localDate": "2027-06-03",
+        "price": 123,
+        "currency": "USD",
+        "capturedAt": "2026-10-17T23:31:41.110Z"
+      },
+      "ratio": 2,
+      "cities": [
+        {
+          "city": "Tulsa",
+          "country": "United States",
+          "venue": "BOK Center",
+          "eventId": "tm-riley-green-2027-tulsa-1aozkfsgkexhv7n",
+          "localDate": "2027-05-20",
+          "price": 63,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.110Z"
+        },
+        {
+          "city": "Clarkston",
+          "country": "United States",
+          "venue": "Pine Knob Music Theatre",
+          "eventId": "tm-riley-green-2027-clarkston-vv1afzkfwgkdw_jcp",
+          "localDate": "2027-06-25",
+          "price": 70,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.111Z"
+        },
+        {
+          "city": "Dallas",
+          "country": "United States",
+          "venue": "Dos Equis Pavilion",
+          "eventId": "tm-riley-green-2027-dallas-vvg1yz_k1h0ipi",
+          "localDate": "2027-05-21",
+          "price": 72,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.110Z"
+        },
+        {
+          "city": "Milwaukee",
+          "country": "United States",
+          "venue": "American Family Insurance Amphitheater - Summerfest Grounds",
+          "eventId": "tm-riley-green-2027-milwaukee-vv1a6zkfwgkdjdyhh",
+          "localDate": "2027-07-31",
+          "price": 72,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.111Z"
+        },
+        {
+          "city": "Syracuse",
+          "country": "United States",
+          "venue": "Empower Federal Credit Union Amphitheater at Lakeview",
+          "eventId": "tm-riley-green-2027-syracuse-k7vgf_k1rwxjy",
+          "localDate": "2027-07-15",
+          "price": 74,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.111Z"
+        },
+        {
+          "city": "Bethel",
+          "country": "United States",
+          "venue": "Bethel Woods Center for the Arts",
+          "eventId": "tm-riley-green-2027-bethel-k7vgf_kkxvsto",
+          "localDate": "2027-07-23",
+          "price": 78,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.111Z"
+        },
+        {
+          "city": "Mansfield",
+          "country": "United States",
+          "venue": "Xfinity Center",
+          "eventId": "tm-riley-green-2027-mansfield-vv1avzkfwgke0hynm",
+          "localDate": "2027-07-24",
+          "price": 78,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.111Z"
+        },
+        {
+          "city": "Wichita",
+          "country": "United States",
+          "venue": "INTRUST Bank Arena",
+          "eventId": "tm-riley-green-2027-wichita-vv1akzkfwgkdilqfv",
+          "localDate": "2027-05-07",
+          "price": 81,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.110Z"
+        },
+        {
+          "city": "Seattle",
+          "country": "United States",
+          "venue": "Climate Pledge Arena",
+          "eventId": "tm-riley-green-2027-seattle-vvg1hz_keoq4yp",
+          "localDate": "2027-04-02",
+          "price": 82,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.110Z"
+        },
+        {
+          "city": "Columbia",
+          "country": "United States",
+          "venue": "Merriweather Post Pavilion",
+          "eventId": "tm-riley-green-2027-columbia-1a4zkfwgkdajcik",
+          "localDate": "2027-07-22",
+          "price": 83,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.111Z"
+        },
+        {
+          "city": "Raleigh",
+          "country": "United States",
+          "venue": "Coastal Credit Union Music Park at Walnut Creek",
+          "eventId": "tm-riley-green-2027-raleigh-g5evz_ke-2cfw",
+          "localDate": "2027-04-29",
+          "price": 85,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.110Z"
+        },
+        {
+          "city": "Knoxville",
+          "country": "United States",
+          "venue": "Food City Center",
+          "eventId": "tm-riley-green-2027-knoxville-g5viz_3wie3-p",
+          "localDate": "2027-04-30",
+          "price": 86,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.110Z"
+        },
+        {
+          "city": "Evansville",
+          "country": "United States",
+          "venue": "Ford Center",
+          "eventId": "tm-riley-green-2027-evansville-vv16azkfwxpza8acgv",
+          "localDate": "2027-07-29",
+          "price": 87,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.111Z"
+        },
+        {
+          "city": "Gilford",
+          "country": "United States",
+          "venue": "BankNH Pavilion",
+          "eventId": "tm-riley-green-2027-gilford-vv1avzkfsgke-elvi",
+          "localDate": "2027-06-18",
+          "price": 89,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.111Z"
+        },
+        {
+          "city": "Spokane",
+          "country": "United States",
+          "venue": "Numerica Veterans Arena",
+          "eventId": "tm-riley-green-2027-spokane-z7r9jz1aaezrp",
+          "localDate": "2027-04-01",
+          "price": 90,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.110Z"
+        },
+        {
+          "city": "Fort Worth",
+          "country": "United States",
+          "venue": "Dickies Arena",
+          "eventId": "tm-riley-green-2027-fort-worth-vvg1yz_kepbp4s",
+          "localDate": "2027-05-06",
+          "price": 95,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.110Z"
+        },
+        {
+          "city": "Allentown",
+          "country": "United States",
+          "venue": "PPL Center",
+          "eventId": "tm-riley-green-2027-allentown-1adzz_3gkdwsja0",
+          "localDate": "2027-07-16",
+          "price": 96,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.111Z"
+        },
+        {
+          "city": "Greenville",
+          "country": "United States",
+          "venue": "Bon Secours Wellness Arena",
+          "eventId": "tm-riley-green-2027-greenville-g5evz_k14klik",
+          "localDate": "2027-05-01",
+          "price": 100,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.110Z"
+        },
+        {
+          "city": "Orange Beach",
+          "country": "United States",
+          "venue": "The Wharf Amphitheater",
+          "eventId": "tm-riley-green-2027-orange-beach-g5viz_kvcnsvm",
+          "localDate": "2027-06-04",
+          "price": 101,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.111Z"
+        },
+        {
+          "city": "Mount Pleasant",
+          "country": "United States",
+          "venue": "Soaring Eagle Casino & Resort",
+          "eventId": "tm-riley-green-2027-mount-pleasant-z7r9jz1aaef_z",
+          "localDate": "2027-06-10",
+          "price": 111,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.111Z"
+        },
+        {
+          "city": "Rogers",
+          "country": "United States",
+          "venue": "Walmart AMP",
+          "eventId": "tm-riley-green-2027-rogers-g5viz_k5ft6hv",
+          "localDate": "2027-05-08",
+          "price": 117,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.110Z"
+        },
+        {
+          "city": "Eugene",
+          "country": "United States",
+          "venue": "Matthew Knight Arena",
+          "eventId": "tm-riley-green-2027-eugene-vvg1hz_3divdk0",
+          "localDate": "2027-04-03",
+          "price": 120,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.110Z"
+        },
+        {
+          "city": "Brandon",
+          "country": "United States",
+          "venue": "Brandon Amphitheater",
+          "eventId": "tm-riley-green-2027-brandon-g5viz_3t3qkqr",
+          "localDate": "2027-06-03",
+          "price": 123,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:41.110Z"
+        }
+      ]
+    },
+    {
+      "artistSlug": "trivium",
+      "artist": "Trivium",
+      "tourName": "Crown In The Grave World Tour",
+      "path": "/artists/trivium/ticket-prices",
+      "site": "ticketnetwork",
+      "siteLabel": "TicketNetwork",
+      "currency": "USD",
+      "country": "United States",
+      "cityCount": 23,
+      "low": {
+        "city": "Atlanta",
+        "country": "United States",
+        "venue": "The Eastern-GA",
+        "eventId": "tm-trivium-2026-atlanta-z7r9jz1aazdby",
+        "localDate": "2026-11-06",
+        "price": 35.65,
+        "currency": "USD",
+        "capturedAt": "2026-10-17T22:21:57.928Z"
+      },
+      "high": {
+        "city": "Tulsa",
+        "country": "United States",
+        "venue": "Tulsa Theater",
+        "eventId": "tm-trivium-2026-tulsa-z7r9jz1aazd_z",
+        "localDate": "2026-12-15",
+        "price": 105.8,
+        "currency": "USD",
+        "capturedAt": "2026-10-17T22:22:02.367Z"
+      },
+      "ratio": 3,
+      "cities": [
+        {
+          "city": "Atlanta",
+          "country": "United States",
+          "venue": "The Eastern-GA",
+          "eventId": "tm-trivium-2026-atlanta-z7r9jz1aazdby",
+          "localDate": "2026-11-06",
+          "price": 35.65,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:57.928Z"
+        },
+        {
+          "city": "Houston",
+          "country": "United States",
+          "venue": "Bayou Music Center",
+          "eventId": "tm-trivium-2026-houston-g5diz_cdfyhi_",
+          "localDate": "2026-11-28",
+          "price": 37.95,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:22:01.068Z"
+        },
+        {
+          "city": "Denver",
+          "country": "United States",
+          "venue": "Mission Ballroom",
+          "eventId": "tm-trivium-2026-denver-z7r9jz1aazdby",
+          "localDate": "2026-12-13",
+          "price": 47.15,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:22:02.235Z"
+        },
+        {
+          "city": "Inglewood",
+          "country": "United States",
+          "venue": "YouTube Theater",
+          "eventId": "tm-trivium-2026-inglewood-vvg1iz_ceqwhij",
+          "localDate": "2026-12-04",
+          "price": 48.3,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:22:01.536Z"
+        },
+        {
+          "city": "Chicago",
+          "country": "United States",
+          "venue": "Aragon Ballroom",
+          "eventId": "tm-trivium-2026-chicago-vvg18z_cnmg_i8",
+          "localDate": "2026-11-21",
+          "price": 54.05,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:22:00.813Z"
+        },
+        {
+          "city": "Madison",
+          "country": "United States",
+          "venue": "The Sylvee",
+          "eventId": "tm-trivium-2026-madison-vvg1jz_cbaz-zj",
+          "localDate": "2026-11-22",
+          "price": 54.05,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:22:00.940Z"
+        },
+        {
+          "city": "Dallas",
+          "country": "United States",
+          "venue": "South Side Ballroom",
+          "eventId": "tm-trivium-2026-dallas-vvg1yz_cdoxznj",
+          "localDate": "2026-11-29",
+          "price": 55.2,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:22:01.191Z"
+        },
+        {
+          "city": "Charlotte",
+          "country": "United States",
+          "venue": "The Fillmore Charlotte",
+          "eventId": "tm-trivium-2026-charlotte-g5evz_cufmier",
+          "localDate": "2026-12-19",
+          "price": 62.1,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:22:02.988Z"
+        },
+        {
+          "city": "Omaha",
+          "country": "United States",
+          "venue": "Steelhouse Omaha",
+          "eventId": "tm-trivium-2026-omaha-17fzv0g6cxxpndr",
+          "localDate": "2026-12-16",
+          "price": 67.85,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:22:02.693Z"
+        },
+        {
+          "city": "Royal Oak",
+          "country": "United States",
+          "venue": "Royal Oak Music Theatre",
+          "eventId": "tm-trivium-2026-royal-oak-z7r9jz1aazdbu",
+          "localDate": "2026-11-20",
+          "price": 69,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:22:00.683Z"
+        },
+        {
+          "city": "San Antonio",
+          "country": "United States",
+          "venue": "Boeing Center at Tech Port",
+          "eventId": "tm-trivium-2026-san-antonio-z7r9jz1aazdco",
+          "localDate": "2026-11-27",
+          "price": 69,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:55.706Z"
+        },
+        {
+          "city": "Phoenix",
+          "country": "United States",
+          "venue": "Arizona Financial Theatre",
+          "eventId": "tm-trivium-2026-phoenix-17k8v0g62douihb",
+          "localDate": "2026-12-02",
+          "price": 70.15,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:22:01.301Z"
+        },
+        {
+          "city": "Silver Spring",
+          "country": "United States",
+          "venue": "The Fillmore Silver Spring",
+          "eventId": "tm-trivium-2026-silver-spring-17a8v0g6cngp9y6",
+          "localDate": "2026-11-10",
+          "price": 70.15,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:58.218Z"
+        },
+        {
+          "city": "Las Vegas",
+          "country": "United States",
+          "venue": "Pearl Concert Theater at Palms Casino Resort",
+          "eventId": "tm-trivium-2026-las-vegas-z7r9jz1a7j_4j",
+          "localDate": "2026-12-03",
+          "price": 71.3,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:23:55.941Z"
+        },
+        {
+          "city": "New York",
+          "country": "United States",
+          "venue": "Terminal 5",
+          "eventId": "tm-trivium-2026-new-york-z7r9jz1aazdbs",
+          "localDate": "2026-11-12",
+          "price": 71.3,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:58.494Z"
+        },
+        {
+          "city": "Pittsburgh",
+          "country": "United States",
+          "venue": "Citizens Live at The Wylie",
+          "eventId": "tm-trivium-2026-pittsburgh-17aov0g6cymqerk",
+          "localDate": "2026-12-18",
+          "price": 85.1,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:22:02.825Z"
+        },
+        {
+          "city": "Philadelphia",
+          "country": "United States",
+          "venue": "Franklin Music Hall",
+          "eventId": "tm-trivium-2026-philadelphia-z7r9jz1aazdbv",
+          "localDate": "2026-11-14",
+          "price": 90.85,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:59.048Z"
+        },
+        {
+          "city": "San Francisco",
+          "country": "United States",
+          "venue": "The Masonic",
+          "eventId": "tm-trivium-2026-san-francisco-g5vyz_2ejmndl",
+          "localDate": "2026-12-05",
+          "price": 93.15,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:22:01.735Z"
+        },
+        {
+          "city": "Seattle",
+          "country": "United States",
+          "venue": "Paramount Theatre",
+          "eventId": "tm-trivium-2026-seattle-vvg1hz_2dp1x5t",
+          "localDate": "2026-12-09",
+          "price": 93.15,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:22:02.105Z"
+        },
+        {
+          "city": "Grand Rapids",
+          "country": "United States",
+          "venue": "GLC Live at 20 Monroe",
+          "eventId": "tm-trivium-2026-grand-rapids-vvg1oz_cnishwh",
+          "localDate": "2026-11-08",
+          "price": 94.3,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:58.054Z"
+        },
+        {
+          "city": "St Petersburg",
+          "country": "United States",
+          "venue": "Jannus Live",
+          "eventId": "tm-trivium-2026-st-petersburg-vvg1vz_cbh66cw",
+          "localDate": "2026-11-05",
+          "price": 95.45,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:57.784Z"
+        },
+        {
+          "city": "New Haven",
+          "country": "United States",
+          "venue": "College Street Music Hall",
+          "eventId": "tm-trivium-2026-new-haven-z7r9jz1aazdbw",
+          "localDate": "2026-11-11",
+          "price": 103.5,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:21:58.347Z"
+        },
+        {
+          "city": "Tulsa",
+          "country": "United States",
+          "venue": "Tulsa Theater",
+          "eventId": "tm-trivium-2026-tulsa-z7r9jz1aazd_z",
+          "localDate": "2026-12-15",
+          "price": 105.8,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T22:22:02.367Z"
+        }
+      ]
+    },
+    {
+      "artistSlug": "lizzy-mcalpine",
+      "artist": "Lizzy McAlpine",
+      "tourName": "The Over Country Tour",
+      "path": "/artists/lizzy-mcalpine/ticket-prices",
+      "site": "vivid-seats",
+      "siteLabel": "Vivid Seats",
+      "currency": "USD",
+      "country": "United States",
+      "cityCount": 22,
+      "low": {
+        "city": "San Francisco",
+        "country": "United States",
+        "venue": "Chase Center",
+        "eventId": "tm-lizzy-mcalpine-2027-san-francisco-g5vyz_k6tphz4",
+        "localDate": "2027-07-13",
+        "price": 46,
+        "currency": "USD",
+        "capturedAt": "2026-10-17T23:31:28.119Z"
+      },
+      "high": {
+        "city": "Kansas City",
+        "country": "United States",
+        "venue": "The Midland Theatre - MO",
+        "eventId": "tm-lizzy-mcalpine-2027-kansas-city-z7r9jz1aaekqk",
+        "localDate": "2027-05-17",
+        "price": 288,
+        "currency": "USD",
+        "capturedAt": "2026-10-17T23:31:28.119Z"
+      },
+      "ratio": 6.3,
+      "cities": [
+        {
+          "city": "San Francisco",
+          "country": "United States",
+          "venue": "Chase Center",
+          "eventId": "tm-lizzy-mcalpine-2027-san-francisco-g5vyz_k6tphz4",
+          "localDate": "2027-07-13",
+          "price": 46,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:28.119Z"
+        },
+        {
+          "city": "Austin",
+          "country": "United States",
+          "venue": "Moody Center ATX",
+          "eventId": "tm-lizzy-mcalpine-2027-austin-g5diz_k1qabc1",
+          "localDate": "2027-07-02",
+          "price": 61,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:28.119Z"
+        },
+        {
+          "city": "Nashville",
+          "country": "United States",
+          "venue": "Bridgestone Arena",
+          "eventId": "tm-lizzy-mcalpine-2027-nashville-g5viz_kqsm0og",
+          "localDate": "2027-06-16",
+          "price": 64,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:28.119Z"
+        },
+        {
+          "city": "San Diego",
+          "country": "United States",
+          "venue": "The Rady Shell at Jacobs Park",
+          "eventId": "tm-lizzy-mcalpine-2027-san-diego-vvg1iz_k_8qjmi",
+          "localDate": "2027-07-09",
+          "price": 64,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:28.119Z"
+        },
+        {
+          "city": "Inglewood",
+          "country": "United States",
+          "venue": "Kia Forum",
+          "eventId": "tm-lizzy-mcalpine-2027-inglewood-vv1aazkfugkdnwr6l",
+          "localDate": "2027-07-10",
+          "price": 65,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:28.119Z"
+        },
+        {
+          "city": "Seattle",
+          "country": "United States",
+          "venue": "Climate Pledge Arena",
+          "eventId": "tm-lizzy-mcalpine-2027-seattle-vvg1hz_kf6i_hn",
+          "localDate": "2027-07-17",
+          "price": 65,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:28.119Z"
+        },
+        {
+          "city": "Portland",
+          "country": "United States",
+          "venue": "Moda Center",
+          "eventId": "tm-lizzy-mcalpine-2027-portland-vvg1hz_kpe4n79",
+          "localDate": "2027-07-15",
+          "price": 69,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:28.119Z"
+        },
+        {
+          "city": "Chicago",
+          "country": "United States",
+          "venue": "United Center",
+          "eventId": "tm-lizzy-mcalpine-2027-chicago-vv1a7zkfggkenm_sz",
+          "localDate": "2027-06-29",
+          "price": 73,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:28.119Z"
+        },
+        {
+          "city": "Columbia",
+          "country": "United States",
+          "venue": "Merriweather Post Pavilion",
+          "eventId": "tm-lizzy-mcalpine-2027-columbia-1a4zkfmgkejxp8r",
+          "localDate": "2027-06-25",
+          "price": 74,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:28.119Z"
+        },
+        {
+          "city": "Philadelphia",
+          "country": "United States",
+          "venue": "Xfinity Mobile Arena",
+          "eventId": "tm-lizzy-mcalpine-2027-philadelphia-1ayzkfsgkdubyxp",
+          "localDate": "2027-06-18",
+          "price": 76,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:28.119Z"
+        },
+        {
+          "city": "Houston",
+          "country": "United States",
+          "venue": "713 Music Hall",
+          "eventId": "tm-lizzy-mcalpine-2027-houston-g5diz_kko6pz2",
+          "localDate": "2027-05-01",
+          "price": 77,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:28.119Z"
+        },
+        {
+          "city": "Morrison",
+          "country": "United States",
+          "venue": "Red Rocks Amphitheatre",
+          "eventId": "tm-lizzy-mcalpine-2027-morrison-z7r9jz1aaeax6",
+          "localDate": "2027-07-06",
+          "price": 111,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:28.119Z"
+        },
+        {
+          "city": "New York",
+          "country": "United States",
+          "venue": "Madison Square Garden",
+          "eventId": "tm-lizzy-mcalpine-2027-new-york-g5diz_kr8e3se",
+          "localDate": "2027-06-24",
+          "price": 133,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:28.119Z"
+        },
+        {
+          "city": "Dallas",
+          "country": "United States",
+          "venue": "The Bomb Factory",
+          "eventId": "tm-lizzy-mcalpine-2027-dallas-z7r9jz1aaekq3",
+          "localDate": "2027-04-30",
+          "price": 160,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:28.119Z"
+        },
+        {
+          "city": "Milwaukee",
+          "country": "United States",
+          "venue": "Riverside Theater - WI",
+          "eventId": "tm-lizzy-mcalpine-2027-milwaukee-z7r9jz1aaea0_",
+          "localDate": "2027-05-10",
+          "price": 172,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:28.119Z"
+        },
+        {
+          "city": "Indianapolis",
+          "country": "United States",
+          "venue": "Clowes Memorial Hall",
+          "eventId": "tm-lizzy-mcalpine-2027-indianapolis-vv1aazkfggkeu7rbe",
+          "localDate": "2027-05-09",
+          "price": 174,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:28.119Z"
+        },
+        {
+          "city": "Detroit",
+          "country": "United States",
+          "venue": "Fox Theatre Detroit",
+          "eventId": "tm-lizzy-mcalpine-2027-detroit-vv1afzkfmgkdd0jd5",
+          "localDate": "2027-05-07",
+          "price": 175,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:28.119Z"
+        },
+        {
+          "city": "Boston",
+          "country": "United States",
+          "venue": "Agganis Arena",
+          "eventId": "tm-lizzy-mcalpine-2027-boston-vv1a8vpuzga1bapr",
+          "localDate": "2027-06-20",
+          "price": 180,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:28.119Z"
+        },
+        {
+          "city": "Minneapolis",
+          "country": "United States",
+          "venue": "State Theatre",
+          "eventId": "tm-lizzy-mcalpine-2027-minneapolis-vv1akzkfsgkdlvc7g",
+          "localDate": "2027-05-12",
+          "price": 233,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:28.119Z"
+        },
+        {
+          "city": "Atlanta",
+          "country": "United States",
+          "venue": "Fox Theatre - Atlanta",
+          "eventId": "tm-lizzy-mcalpine-2027-atlanta-z7r9jz1aaea-b",
+          "localDate": "2027-05-03",
+          "price": 241,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:28.119Z"
+        },
+        {
+          "city": "Columbus",
+          "country": "United States",
+          "venue": "Palace Theatre Columbus",
+          "eventId": "tm-lizzy-mcalpine-2027-columbus-z7r9jz1aaea09",
+          "localDate": "2027-05-06",
+          "price": 271,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:28.119Z"
+        },
+        {
+          "city": "Kansas City",
+          "country": "United States",
+          "venue": "The Midland Theatre - MO",
+          "eventId": "tm-lizzy-mcalpine-2027-kansas-city-z7r9jz1aaekqk",
+          "localDate": "2027-05-17",
+          "price": 288,
+          "currency": "USD",
+          "capturedAt": "2026-10-17T23:31:28.119Z"
+        }
+      ]
+    }
+  ],
+  "doubledCount": 8
+}

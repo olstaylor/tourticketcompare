@@ -16,8 +16,15 @@
 // from production D1 through wrangler (CLOUDFLARE_API_TOKEN), or from a saved
 // query result with `--rows <file.json>`.
 //
+// `--story city-prices` writes the same-tour-by-city post: one site's lowest
+// listed price for each city's next date, for the biggest tracked tours. It
+// reads the current provider_pricing_cache rows (D1 or `--rows`) and passes
+// them through the live display gate in functions/api/shows.js with the
+// wrangler.toml flags, so only figures a CTA button would print can appear.
+//
 //   node scripts/build-data-story.mjs [--year 2027] [--now 2026-10-16T12:00:00Z] [--check]
 //   node scripts/build-data-story.mjs --story price-moves [--rows rows.json] [--check]
+//   node scripts/build-data-story.mjs --story city-prices [--rows cache-rows.json] [--check]
 
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -36,9 +43,18 @@ import {
   priceMovesGate,
   priceMovesSql,
   renderPriceMovesPost,
-  PRICE_MOVES_SLUG
+  PRICE_MOVES_SLUG,
+  buildCityPriceFigures,
+  cityPricesGate,
+  renderCityPricesPost,
+  CITY_PRICE_SLUG,
+  CITY_PRICE_SQL
 } from "./lib/data-stories.mjs";
 import { TOURS_HUB_YEAR } from "../functions/_tours-hub.js";
+import { isUpcomingShow } from "../functions/_upcoming.js";
+import { PRICE_GUIDE_ARTISTS } from "../functions/_price-guides.js";
+import { mapEventsToShows, attachApprovedMarketplacePrices } from "../functions/api/shows.js";
+import { wranglerVars } from "./lib/event-indexability-audit.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -52,8 +68,8 @@ const year = Number(argValue("--year") || TOURS_HUB_YEAR);
 const nowArg = argValue("--now");
 const now = nowArg ? Date.parse(nowArg) : Date.now();
 const checkOnly = process.argv.includes("--check");
-if (!["tour-map", "price-moves"].includes(story) || !Number.isInteger(year) || !Number.isFinite(now)) {
-  console.error("data-story: --story must be tour-map or price-moves, --year a year and --now an ISO instant");
+if (!["tour-map", "price-moves", "city-prices"].includes(story) || !Number.isInteger(year) || !Number.isFinite(now)) {
+  console.error("data-story: --story must be tour-map, price-moves or city-prices, --year a year and --now an ISO instant");
   process.exit(2);
 }
 
@@ -81,6 +97,15 @@ function stopIfGateFails(reasons) {
   }
 }
 
+// Rows from `--rows <file>`, else from production D1 through wrangler.
+async function readD1Rows(sql) {
+  const rowsFile = argValue("--rows");
+  if (rowsFile) return JSON.parse(await fs.readFile(path.resolve(rowsFile), "utf8"));
+  const args = buildD1ReadArgs({ database: "tourticketcompare-demand", remote: true, statements: [{ sql }] });
+  const { stdout } = await promisify(execFile)("npx", args, { cwd: root, maxBuffer: 1024 * 1024 * 50 });
+  return JSON.parse(stdout)[0]?.results || [];
+}
+
 async function writeStory(slug, post, files) {
   const reportDir = path.join(root, "reports/data-stories", slug);
   await fs.mkdir(reportDir, { recursive: true });
@@ -102,21 +127,8 @@ if (story === "tour-map") {
     { text: renderTourMapPost(figures, existing), status: existing?.status === "published" ? "published" : "draft" },
     { "figures.json": `${JSON.stringify(figures, null, 2)}\n`, "press-release.md": renderTourMapPressRelease(figures) }
   );
-} else {
-  const rowsFile = argValue("--rows");
-  let rows;
-  if (rowsFile) {
-    rows = JSON.parse(await fs.readFile(path.resolve(rowsFile), "utf8"));
-  } else {
-    const args = buildD1ReadArgs({
-      database: "tourticketcompare-demand",
-      remote: true,
-      statements: [{ sql: priceMovesSql(new Date(now).toISOString().slice(0, 10)) }]
-    });
-    const { stdout } = await promisify(execFile)("npx", args, { cwd: root, maxBuffer: 1024 * 1024 * 20 });
-    rows = JSON.parse(stdout)[0]?.results || [];
-  }
-  const figures = buildPriceMoveFigures(rows, events, artists, { now });
+} else if (story === "price-moves") {
+  const figures = buildPriceMoveFigures(await readD1Rows(priceMovesSql(new Date(now).toISOString().slice(0, 10))), events, artists, { now });
   const { sites, reasons } = priceMovesGate(figures);
   console.log(`data-story: price moves ${figures.windowStart}..${figures.windowEnd}, ${sites.length} site(s) clear the gate`);
   stopIfGateFails(reasons);
@@ -124,6 +136,31 @@ if (story === "tour-map") {
   await writeStory(
     PRICE_MOVES_SLUG,
     { text: renderPriceMovesPost(figures, existing), status: existing?.status === "published" ? "published" : "draft" },
+    { "figures.json": `${JSON.stringify(figures, null, 2)}\n` }
+  );
+} else {
+  const rows = await readD1Rows(CITY_PRICE_SQL);
+  // An in-memory stand-in for DEMAND_DB that answers the gate's cache read
+  // from the fetched rows; every other read (price checks) returns nothing.
+  const db = {
+    prepare: (sql) => ({
+      bind: (...ids) => ({
+        all: async () => {
+          const wanted = new Set(ids.map(String));
+          return { results: sql.includes("FROM provider_pricing_cache") ? rows.filter((row) => wanted.has(String(row.event_id))) : [] };
+        }
+      })
+    })
+  };
+  const env = { ...wranglerVars(await fs.readFile(path.join(root, "wrangler.toml"), "utf8")), DEMAND_DB: db };
+  const shows = await attachApprovedMarketplacePrices(mapEventsToShows(events.filter((event) => isUpcomingShow(event, now))), env);
+  const figures = buildCityPriceFigures(shows, events, artists, { now, priceGuideArtists: new Set(PRICE_GUIDE_ARTISTS) });
+  console.log(`data-story: city prices from ${rows.length} cache rows, ${figures.tours.length} tour(s) clear the gate`);
+  stopIfGateFails(cityPricesGate(figures));
+  const existing = await existingPost(CITY_PRICE_SLUG);
+  await writeStory(
+    CITY_PRICE_SLUG,
+    { text: renderCityPricesPost(figures, existing), status: existing?.status === "published" ? "published" : "draft" },
     { "figures.json": `${JSON.stringify(figures, null, 2)}\n` }
   );
 }

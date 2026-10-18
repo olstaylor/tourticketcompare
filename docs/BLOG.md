@@ -293,10 +293,27 @@ wrangler and `CLOUDFLARE_API_TOKEN`, or `--rows <file.json>` with a saved
 query result). It prints counts only, never a price; each count compares one
 date with itself on one site; sites are listed in a fixed order and never
 compared. A site needs 50+ dates across 10+ artists to appear, and no site
-clearing that writes nothing. It has no press release: price-derived figures
-stay off other sites until the providers confirm off-site use in writing.
+clearing that writes nothing. It has no press release.
 
-Out of scope by policy: printed provider prices, cross-site comparisons
+`npm run stories:build -- --story city-prices` writes
+`/blog/same-tour-different-city-ticket-prices`: for the 10 tours with the most
+priced cities (one tour per artist), one site's lowest listed snapshot for the next date in each
+city, with its capture time. It reads the current `provider_pricing_cache`
+rows (D1 or `--rows`) and runs them through `attachApprovedMarketplacePrices`
+with the `wrangler.toml` flags, so only figures a CTA button would print can
+appear, and drops any snapshot over 72 hours old. Each site's tracking setup
+lives in dashboard secrets, so the build also reads production's
+`/api/shows` `providerAvailability` (or `--availability <file.json>`) and
+drops any site whose buttons are not rendering; with no answer it refuses.
+Gaps round down, so a 1.95× gap reads 1.9×. Each tour uses one site (the
+one pricing the most cities, ties in fixed order), one currency and its main
+country; sites are never compared, and a city never takes a minimum across its
+dates. A tour needs 8+ priced cities and the story needs 5 such tours. Printed
+figures rely on the providers' off-site grant and its cross-city scope
+([PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md), "Off-site use" and "One
+site, across cities, in a data story").
+
+Out of scope by policy: prices outside the city-prices story, cross-site comparisons
 ([PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md)), price-timing claims until
 the evidence thresholds are met, presale window counts (Ticketmaster's lists mix
 VIP packages and card offers), and any claim about the whole concert market.

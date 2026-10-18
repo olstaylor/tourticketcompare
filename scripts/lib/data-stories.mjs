@@ -1,14 +1,15 @@
 // Automated data stories: figures, a blog draft and a press-release draft built
 // from the site's own reviewed event records, with no human writing step.
 //
-// Two story types. The yearly touring map: where the major tours
+// Three story types. The yearly touring map: where the major tours
 // TourTicketCompare tracks are playing in a calendar year, counted by city,
 // venue, country and month, over the same records the /tours/<year> hub, city
 // pages and venue pages already render. The price-moves story: per site, how
-// many dates are listed lower or higher than 30 days earlier (see below).
+// many dates are listed lower or higher than 30 days earlier (see below). The
+// city-prices story: one site's listed price for the same tour in each city.
 //
 // Deliberately out of scope (docs/BLOG.md, "Automated data stories"): printed
-// provider prices, cross-site comparisons and "best time to buy" claims (PROVIDER_DATA_POLICY.md and the
+// prices outside the city-prices story, cross-site comparisons and "best time to buy" claims (PROVIDER_DATA_POLICY.md and the
 // price-timing evidence thresholds), presale windows (Ticketmaster's lists mix
 // VIP packages and card offers, so a count of them would mislead), inventory,
 // and any claim about the whole concert market. The copy always says the
@@ -18,12 +19,14 @@
 // reproducible and testable. Nothing here reads files or the network.
 
 import { isUpcomingShow } from "../../functions/_upcoming.js";
-import { eventLocalDateParts } from "../../functions/_event-local-date.js";
+import { eventLocalDateParts, eventLocalDateIso } from "../../functions/_event-local-date.js";
 import { eventLifecycleHeld } from "../../functions/_route-indexability.js";
 import { artistPageIndexable } from "../../functions/_artist-indexability.js";
 import { citySlug, metroCity, normalizeCountry, deriveCities } from "../../functions/_cities.js";
 import { canonicalCity, venueSlug, deriveVenues } from "../../functions/_venues.js";
 import { TOURS_HUB_YEAR, TOURS_HUB_PATH } from "../../functions/_tours-hub.js";
+import { deriveArtistCities } from "../../functions/_artist-cities.js";
+import { PRICE_DISCLOSURE } from "../../functions/_price-wording.js";
 
 const SITE = "https://tourticketcompare.com";
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -534,3 +537,236 @@ To buy for one of these shows, start on the artist's page, which links the offic
 `;
   return `${front}\n\n${body}`;
 }
+
+// ---------------------------------------------------------------------------
+// Same tour, different city
+// ---------------------------------------------------------------------------
+//
+// For the biggest tracked tours, one site's lowest listed price for the next
+// date in each city, side by side. Every figure is a snapshot that passed the
+// live display gate at build time: the CLI runs the shows through
+// `attachApprovedMarketplacePrices` (functions/api/shows.js), the same gate a
+// CTA button uses, and this module only reads the `status: "ok"` lanes it
+// returns. Each figure keeps its site, currency and capture time
+// (PROVIDER_DATA_POLICY.md, "Off-site use: social posts and press").
+//
+// What it never does: compare sites (one site is chosen per tour, by how many
+// cities it prices, ties in fixed order), take a minimum across a city's dates
+// (each city is its next date, as on the artist page's by-city list), convert
+// currencies, or say anything about where prices are heading.
+
+export const CITY_PRICE_SLUG = "same-tour-different-city-ticket-prices";
+
+export const CITY_PRICE_GATE = {
+  minCitiesPerTour: 8,
+  minTours: 5,
+  maxTours: 10,
+  // A snapshot older than this is left out even if the display gate would show it.
+  maxCaptureAgeHours: 72,
+  tableRowsEachEnd: 3
+};
+
+const CITY_PRICE_SITE_BY_NAME = new Map([...PRICE_MOVE_SITES].map(([slug, name]) => [name, slug]));
+
+/**
+ * @param {any[]} pricedShows Upcoming shows after `attachApprovedMarketplacePrices`.
+ * @param {any[]} events events.json records.
+ * @param {any[]} artists artists.json records.
+ * @param {{ now: number, priceGuideArtists?: Set<string>, availableSites?: Set<string> }} options
+ *   `availableSites`: the price-lane sites whose ticket buttons production is
+ *   rendering (its tracking configuration is live); any other site's figure
+ *   is dropped, because a price with no button beside it fails the display gate.
+ */
+export function buildCityPriceFigures(pricedShows, events, artists, { now, priceGuideArtists = new Set(), availableSites = new Set() }) {
+  const eventList = Array.isArray(events) ? events : [];
+  const artistList = Array.isArray(artists) ? artists : [];
+  const names = new Map(artistList.map((artist) => [trimmed(artist?.slug), trimmed(artist?.name)]));
+  const indexable = new Set(
+    artistList.filter((artist) => artist && artistPageIndexable(artist, eventList, trimmed(artist.slug), now)).map((artist) => trimmed(artist.slug))
+  );
+
+  // showId -> site slug -> gated snapshot
+  const lanes = new Map();
+  for (const show of Array.isArray(pricedShows) ? pricedShows : []) {
+    for (const lane of Array.isArray(show?.prices) ? show.prices : []) {
+      const site = CITY_PRICE_SITE_BY_NAME.get(trimmed(lane?.provider));
+      const price = Number(lane?.price);
+      const captured = Date.parse(trimmed(lane?.fetchedAt));
+      if (!site || !availableSites.has(site) || lane.status !== "ok" || !(price > 0) || !trimmed(lane.currency)) continue;
+      if (!Number.isFinite(captured) || now - captured > CITY_PRICE_GATE.maxCaptureAgeHours * 3600000) continue;
+      const id = trimmed(show.id);
+      if (!lanes.has(id)) lanes.set(id, new Map());
+      lanes.get(id).set(site, { price, currency: trimmed(lane.currency).toUpperCase(), capturedAt: new Date(captured).toISOString() });
+    }
+  }
+
+  const tours = new Map();
+  for (const event of eventList) {
+    const artistSlug = trimmed(event?.artist_slug);
+    const tourName = trimmed(event?.tour_name);
+    if (!tourName || !indexable.has(artistSlug)) continue;
+    if (eventLifecycleHeld(event) || !isUpcomingShow(event, now)) continue;
+    const key = `${artistSlug}|${tourName.toLowerCase()}`;
+    if (!tours.has(key)) tours.set(key, { artistSlug, tourName, events: [] });
+    tours.get(key).events.push(event);
+  }
+
+  const candidates = [];
+  for (const tour of tours.values()) {
+    const bySite = new Map();
+    for (const city of deriveArtistCities(tour.events, tour.artistSlug, { now })) {
+      const next = city.shows.find((show) => show.publishable);
+      if (!next) continue;
+      for (const [site, snap] of lanes.get(next.id) || []) {
+        if (!bySite.has(site)) bySite.set(site, []);
+        bySite.get(site).push({
+          city: city.label,
+          country: city.country,
+          venue: next.venue,
+          eventId: next.id,
+          localDate: eventLocalDateIso({ datetime_iso: next.datetime_iso, timezone: next.timezone }),
+          ...snap
+        });
+      }
+    }
+    // One market per tour: the largest (country, currency) group on the
+    // site. Overseas dates listed in dollars on a US site are not
+    // like-for-like with home dates, so they are left out.
+    const order = [...PRICE_MOVE_SITES.keys()];
+    const markets = [];
+    for (const [siteSlug, siteRows] of bySite) {
+      const groups = new Map();
+      for (const row of siteRows) {
+        const key = `${row.country}|${row.currency}`;
+        if (!groups.has(key)) groups.set(key, []);
+        groups.get(key).push(row);
+      }
+      for (const rows of groups.values()) markets.push([siteSlug, rows[0].currency, rows[0].country, rows]);
+    }
+    const [site, currency, country, rows] = markets.sort(
+      (a, b) => b[3].length - a[3].length || order.indexOf(a[0]) - order.indexOf(b[0]) || `${a[2]}|${a[1]}`.localeCompare(`${b[2]}|${b[1]}`)
+    )[0] || [];
+    if (!site) continue;
+    const cities = rows.sort((a, b) => a.price - b.price || a.city.localeCompare(b.city));
+    if (cities.length < CITY_PRICE_GATE.minCitiesPerTour) continue;
+    const low = cities[0];
+    const high = cities.at(-1);
+    candidates.push({
+      artistSlug: tour.artistSlug,
+      artist: names.get(tour.artistSlug) || trimmed(tour.events[0]?.artist_name) || tour.artistSlug,
+      tourName: tour.tourName,
+      path: priceGuideArtists.has(tour.artistSlug) ? `/artists/${tour.artistSlug}/ticket-prices` : `/artists/${tour.artistSlug}`,
+      site,
+      siteLabel: PRICE_MOVE_SITES.get(site),
+      currency,
+      country,
+      cityCount: cities.length,
+      low,
+      high,
+      // Rounded down, so 1.95 reads 1.9× and never as the double it isn't.
+      ratio: Math.floor((high.price / low.price) * 10) / 10,
+      cities
+    });
+  }
+
+  // Biggest tours first, one tour per artist.
+  const seen = new Set();
+  const featured = candidates
+    .sort((a, b) => b.cityCount - a.cityCount || a.artist.localeCompare(b.artist))
+    .filter((tour) => !seen.has(tour.artistSlug) && seen.add(tour.artistSlug))
+    .slice(0, CITY_PRICE_GATE.maxTours);
+
+  return {
+    storyType: "city-prices",
+    asOf: isoDay(now),
+    tours: featured,
+    // Compared on the raw prices, so 1.95 (shown as 2×) does not count as double.
+    doubledCount: featured.filter((tour) => tour.high.price >= tour.low.price * 2).length
+  };
+}
+
+export function cityPricesGate(figures) {
+  return figures.tours.length >= CITY_PRICE_GATE.minTours
+    ? []
+    : [`only ${figures.tours.length} tours have ${CITY_PRICE_GATE.minCitiesPerTour}+ cities priced on one site (needs ${CITY_PRICE_GATE.minTours})`];
+}
+
+function money(price, currency) {
+  return new Intl.NumberFormat("en", { style: "currency", currency, maximumFractionDigits: price % 1 === 0 ? 0 : 2 }).format(price);
+}
+
+function captured(iso) {
+  return `${shortDate(iso.slice(0, 10))}, ${iso.slice(11, 16)} UTC`;
+}
+
+function cityRow(row, site) {
+  return `| ${row.city} | ${row.localDate ? longDate(row.localDate) : ""} | ${row.venue} | ${money(row.price, row.currency)} | ${site} | ${captured(row.capturedAt)} |`;
+}
+
+export function renderCityPricesPost(figures, existing = null) {
+  const date = existing?.date || figures.asOf;
+  const status = existing?.status === "published" ? "published" : "draft";
+  const updated = date !== figures.asOf ? figures.asOf : "";
+  const { tours, doubledCount } = figures;
+  const each = CITY_PRICE_GATE.tableRowsEachEnd;
+
+  const summaryRows = tours
+    .map((tour) => `| [${tour.artist}](${tour.path}) | ${tour.tourName} | ${tour.siteLabel} | ${tour.country} | ${tour.cityCount} | ${money(tour.low.price, tour.currency)} (${tour.low.city}) | ${money(tour.high.price, tour.currency)} (${tour.high.city}) | ${tour.ratio}× |`)
+    .join("\n");
+
+  const sections = tours
+    .map((tour) => {
+      const ends = tour.cities.length > each * 2 ? [...tour.cities.slice(0, each), ...tour.cities.slice(-each)] : tour.cities;
+      const gap = tour.cities.length > each * 2 ? `\n\nThe ${tour.cities.length - each * 2} cities in between are on the [${tour.artist} page](${tour.path}).` : "";
+      return `## ${tour.artist}: ${tour.tourName}
+
+On ${tour.siteLabel}, the lowest listed price for the next date in each of ${tour.cityCount} cities in ${countryName(tour.country)} was ${money(tour.low.price, tour.currency)} in ${tour.low.city} at the low end and ${money(tour.high.price, tour.currency)} in ${tour.high.city} at the high end, ${tour.ratio} times as much.
+
+| City | Next date | Venue | Lowest listed | Site | Captured |
+|---|---|---|---|---|---|
+${ends.map((row) => cityRow(row, tour.siteLabel)).join("\n")}${gap}`;
+    })
+    .join("\n\n");
+
+  const front = [
+    "---",
+    `title: "Same tour, different city: how listed ticket prices vary"`,
+    `seo_title: "Same tour, different city: ticket prices"`,
+    `description: "For ${tours.length} big tours, one resale site's lowest listed price for the next date in each city. On ${doubledCount} of them the highest city was at least twice the lowest."`,
+    `summary: "Lowest listed resale prices for the same tour in different cities, one site per tour, each figure with the time it was captured. Snapshots up to ${shortDate(figures.asOf)} ${figures.asOf.slice(0, 4)}."`,
+    `date: ${date}`,
+    ...(updated ? [`updated: ${updated}`] : []),
+    `status: ${status}`,
+    "tags:",
+    "  - tour-data",
+    "related_guides:",
+    "  - primary-vs-resale-concert-tickets",
+    "---"
+  ].join("\n");
+
+  const body = `The same tour can cost very different amounts depending on which city you see it in. TourTicketCompare records the lowest listed price on each resale site for the dates it tracks. This page takes the ${tours.length} tours with the most cities priced on a single site, one tour per artist, and puts those cities side by side.
+
+On ${doubledCount} of the ${tours.length} tours, the next date in the highest-priced city was listed at two or more times the next date in the lowest.
+
+| Artist | Tour | Site | Country | Cities | Lowest city | Highest city | Gap |
+|---|---|---|---|---|---|---|---|
+${summaryRows}
+
+Each tour uses one site, the one with listed prices in the most of its cities, so cities are compared on the same site's listings. Sites are not compared with each other here. Each tour is compared within one country and one currency, and each city's figure is its next date only, not the lowest of all its dates.
+
+${sections}
+
+## What this does and doesn't say
+
+- **These are listed prices.** ${PRICE_DISCLOSURE}
+- **A city gap is not a forecast.** A city that's high today can drop, and a low one can rise. Nothing here says when to buy.
+- **Only the tours TourTicketCompare tracks.** Cities outside the tour's main country, and cities whose next date had no recent listed price on that site, are left out.
+
+For every date and every site, with the current price, open the artist's page.
+`;
+  return `${front}\n\n${body}`;
+}
+
+// The current snapshot for every price-lane event; the CLI applies the display
+// gate (source, expiry, plausibility, flags, verified URL) to these rows.
+export const CITY_PRICE_SQL = `SELECT event_id, provider, low_price, avg_price, high_price, currency, inventory_count, verified_at, expires_at, source FROM provider_pricing_cache WHERE provider IN ('vivid-seats', 'ticketnetwork', 'stubhub-international')`;

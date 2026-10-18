@@ -66,11 +66,11 @@ const expectedTitle = new Map([
   ["/terms", "Terms of Use | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total.";
-const APP_ASSET_VERSION = "20261016b";
+const APP_ASSET_VERSION = "20261018a";
 const TTC_HOME_ASSET_VERSION = "20261010a";
 const TTC_HOME_JS_ASSET_VERSION = "20261010a";
 const TTC_SHELL_ASSET_VERSION = "20261010a";
-const SHELL_SCRIPT_ASSET_VERSION = "20261010s";
+const SHELL_SCRIPT_ASSET_VERSION = "20261016a";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-kHeWCj29Ws6APptXbU360N2/swJwl7jTRo//eaLVdFc=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
@@ -3445,8 +3445,11 @@ if (fullyPricedBoard.response.status === 200) {
 }
 // Per card, not per page: one board legitimately mixes both states, so the
 // invariant is that a card carrying a price never also carries the note.
+// The chunk before the first <article> is page chrome (including the
+// next-dates table, which mixes priced and unpriced rows), not a card.
 const pricedMorganCards = serverPricedMorgan.text
   .split("<article")
+  .slice(1)
   .map((card) => card.split("</article>")[0])
   .filter((card) => card.includes("provider-cta-price"));
 assert(pricedMorganCards.length > 0, "the priced Morgan Wallen board should render at least one card with a snapshot");

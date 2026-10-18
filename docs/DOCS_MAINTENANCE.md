@@ -46,7 +46,7 @@ Never hand-edit these; regenerate them.
 - a missing required doc;
 - a reintroduced `HANDOVER.md` or `docs/archive/`.
 
-`npm run status:validate` recounts the `PROJECT_STATUS.md` figures. It only warns, so that the auto-merging sync lanes are never blocked; those lanes self-heal the counts with `--write`.
+`npm run status:validate` recounts the `PROJECT_STATUS.md` figures. It only warns, so that the auto-merging sync lanes are never blocked. The sync lanes no longer rewrite the file: the daily audit (`verification-dates` and `status-figures` jobs) is its only scheduled writer, so the counts can lag a lane's merge by up to a day and no two lanes conflict over it (owner decision 2026-10-16). The work-queue provider repair still refreshes it inside its own exact-file PR.
 
 ## Refreshing PROJECT_STATUS.md
 

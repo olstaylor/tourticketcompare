@@ -936,33 +936,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7883103",
-        "url": "https://www.ticketnetwork.com/en/p/7883103",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7883103",
-        "url": "https://www.ticketliquidator.com/tickets/7883103/Teddy-Swims-tickets-Fri-Oct-16-2026-Bridgestone-Arena",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107168136",
-        "url": "https://www.stubhub.ie/teddy-swims-nashville-tickets-10-16-2026/event/107168136",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_FXfO1dj",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883103",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883103/Teddy-Swims-tickets-Fri-Oct-16-2026-Bridgestone-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-nashville-tickets-10-16-2026/event/107168136",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "presales": [
       {
         "name": "Special Offer",
@@ -3962,7 +3962,7 @@
     "country": "Norway",
     "venue": "Unity Arena",
     "datetime_iso": "2027-03-02T17:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Ugly Tour",
     "ticketmaster_event_id": "5194439",
     "ticketmaster_url": "https://www.ticketmaster.no/event/teddy-swims-the-ugly-tour-tickets/5194439?language=en-us",
     "seatgeek_url": "",
@@ -4034,7 +4034,7 @@
     "country": "Czech Republic",
     "venue": "O2 Arena",
     "datetime_iso": "2027-03-20T19:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Ugly Tour",
     "ticketmaster_event_id": "697884406",
     "ticketmaster_url": "https://www.ticketmaster.cz/event/teddy-swims--the-ugly-tour-tickets/697884406?language=en-us",
     "seatgeek_url": "",

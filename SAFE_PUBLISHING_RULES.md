@@ -97,9 +97,8 @@ dead link or a duplicate title; the owner reviews every merge in the daily
 never invent data, never scrape, no client-side credentials, the `/api/out`
 contract and Impact wrapping, no price or availability claim without a source.
 
-**Not sanctioned:** `tm-data-refresh-pr.yml` is PR-only and human-merged by
-design — never a direct commit, never an auto-merge. So is
-`work-queue-repair.yml`, the maintenance loop's Stage 3 worker: it may push one
+**Not sanctioned:** `work-queue-repair.yml`, the maintenance loop's Stage 3
+worker, is PR-only by design — never a direct commit: it may push one
 branch and open one pull request regenerating an artefact already on the
 machine-owned list in group B, or verifying an `event_needs_provider_url`
 batch through the existing SeatGeek API verifier. The latter is limited to
@@ -166,6 +165,8 @@ Pages become indexable and conversion-led only after completing the phase gates 
 - `functions/api/out.js` and `VERIFIED_TICKET_LINKS` are protected. Do not modify without explicit scope.
 - Impact credentials (network-level and provider-specific) are server-side only. Never expose them in public assets, API responses, client-side code, logs, or documentation.
 - **Ticketmaster links carry no affiliate tracking** (the site left the Ticketmaster affiliate programme, 2026-07): they are plain redirects to the verified stored destination. Never re-add Impact wrapping, the Publisher Tag, or `evyy.net` shortlinks for Ticketmaster.
+- Each affiliate base tracking URL is accepted only on the shared `pxf.io` hosts or that provider's own Impact vanity host; a provider's vanity host (`sjv.io`, `goto.ticketnetwork.com`, `auhm.net`) is never accepted for another provider.
+- The Cloudflare WAF challenge on direct `/api/out` requests (owner-set 2026-10-16) stays on. Do not loosen it, and do not add automation that fetches live `/api/out`, without the owner's say.
 - Every affiliate-provider redirect is server-side tracked and provider-allowlisted. If configuration, validation, or tracking fails, `/api/out` returns diagnostic JSON—never an untracked redirect or a made-up destination.
 
 ## Schema and SEO

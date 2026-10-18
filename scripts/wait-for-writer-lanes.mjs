@@ -41,6 +41,7 @@ import { execFileSync } from "node:child_process";
 import { readFileSync, readdirSync } from "node:fs";
 import { pathToFileURL } from "node:url";
 import { DEFAULT_TIMEOUT_MS as REQUIRED_CHECK_TIMEOUT_MS } from "./lib/required-check.mjs";
+import { withholdRun, selfTest as withholdSelfTest } from "./lib/withhold-run.mjs";
 
 // Every workflow that commits event data. A run of any of these that is older
 // than ours and not yet completed is something to wait for. The self-test
@@ -50,7 +51,6 @@ export const WRITER_LANES = [
   "daily-audit.yml",
   "nightly-data-sync.yml",
   "tm-new-shows-pr.yml",
-  "tm-data-refresh-pr.yml",
   "seatgeek-cta-sync.yml",
   "vividseats-cta-sync.yml",
   "impact-marketplace-provider-sync.yml",
@@ -64,7 +64,6 @@ export const WRITER_LANES = [
 export const WAITING_LANES = [
   "auto-promote.yml",
   "autopublish-health.yml",
-  "tm-data-refresh-pr.yml",
   "daily-audit.yml",
   "work-queue-repair.yml",
   "nightly-data-sync.yml",
@@ -78,14 +77,22 @@ export const WAITING_LANES = [
 // providers reserve cumulative queue time plus their own work/validation.
 export const DEFAULT_MAX_WAIT_MINUTES = 14;
 export const POLL_MS = 30_000;
-const ACTIVE_STATUSES = ["in_progress", "queued", "pending"];
+// Every non-completed status GitHub documents for a run. On 2026-10-16 an
+// Impact provider run and the Vivid Seats run released by SeatGeek both read
+// a clear queue at 10:47Z and ran side by side; Vivid's PR #1607 then
+// conflicted with Impact's #1606. A run leaving `pending` for its concurrency
+// group can sit briefly in a status this list used to omit.
+const ACTIVE_STATUSES = ["in_progress", "queued", "pending", "requested", "waiting"];
+// After waiting on an older run, a clear queue is confirmed by one more read
+// this long later, so a peer released by the same completion is listed
+// before we proceed. Not charged to the wait budget.
+export const CONFIRM_MS = 20_000;
 
 // These lanes share a static GitHub concurrency group. A queued peer cannot
 // start while our run holds that group, even if it was created before us:
 // GitHub does not promise FIFO ordering for concurrency groups.
 export const SHARED_WRITER_GROUPS = {
   "tm-new-shows-pr.yml": "tm-new-shows-pr",
-  "tm-data-refresh-pr.yml": "tm-data-refresh-pr",
   "auto-promote.yml": "auto-promote",
   "autopublish-health.yml": "autopublish-health",
   "work-queue-repair.yml": "work-queue-repair",
@@ -111,7 +118,7 @@ export function findBlockers({ runs, self, lanes = WRITER_LANES }) {
     if (!lanes.includes(workflowFile(run))) return false;
     const group = SHARED_WRITER_GROUPS[workflowFile(self)];
     if (group && group === SHARED_WRITER_GROUPS[workflowFile(run)]
-      && ["queued", "pending"].includes(run.status)) return false;
+      && ["queued", "pending", "requested", "waiting"].includes(run.status)) return false;
     const at = Date.parse(run.created_at);
     if (!Number.isFinite(at)) throw new Error("Invalid competing writer timestamp");
     // Ties go to the lower id, so two runs created in the same second still
@@ -133,6 +140,7 @@ export async function waitForWriterLanes({
   warn = console.warn,
 }) {
   const start = now();
+  let confirming = false;
   for (;;) {
     let blockers;
     try {
@@ -141,6 +149,12 @@ export async function waitForWriterLanes({
       warn(`::error::Could not list workflow runs (${err.message}); withholding this writer.`);
       return { outcome: "api-error", waitedMs: now() - start };
     }
+    if (blockers.length === 0 && now() > start && !confirming) {
+      confirming = true;
+      await sleep(CONFIRM_MS);
+      continue;
+    }
+    confirming = false;
     if (blockers.length === 0) {
       log(now() > start ? `No older writer run is in flight after ${Math.round((now() - start) / 1000)}s.` : "No older writer run is in flight.");
       return { outcome: "clear", waitedMs: now() - start };
@@ -218,6 +232,12 @@ async function main(argv) {
           return pages.flatMap((page) => page.workflow_runs);
         },
       });
+      // --withhold-when-busy: an older writer still holding the data is
+      // ordering, not a fault, so end neutral rather than red. An unreadable
+      // run list stays a failure.
+      if (result.outcome === "timeout" && argv.includes("--withhold-when-busy")) {
+        await withholdRun({ reason: "An older writer run still holds the shared data." });
+      }
       requireClearQueue(result);
     }
   }
@@ -280,10 +300,23 @@ async function selfTest() {
   assert.equal(verdict.waitedMs, 0, "nothing in flight means no wait at all");
 
   c = clock();
-  const answers = [[older], [older], [{ ...older, status: "completed" }]];
+  const answers = [[older], [older], [{ ...older, status: "completed" }], []];
   verdict = await waitForWriterLanes({ self, listActiveRuns: async () => answers.shift(), ...c, log: quiet, warn: quiet });
   assert.equal(verdict.outcome, "clear", "waits until the older run completes");
-  assert.equal(verdict.waitedMs, 2 * POLL_MS);
+  assert.equal(verdict.waitedMs, 2 * POLL_MS + CONFIRM_MS, "a clear queue after waiting is read twice");
+
+  // 2026-10-16 replay: the older peer completes, and the run its group
+  // releases is only listed on the next read. The confirm read must catch it.
+  c = clock();
+  const released = run(45, "seatgeek-cta-sync.yml", "2026-09-27T10:30:00Z");
+  const reads = [[older], [], [released], [{ ...released, status: "completed" }]];
+  let lastRead = [];
+  verdict = await waitForWriterLanes({ self, listActiveRuns: async () => (lastRead = reads.length ? reads.shift() : lastRead), ...c, log: quiet, warn: quiet });
+  assert.equal(verdict.outcome, "clear");
+  assert.equal(reads.length, 0, "the released peer was seen and waited for, not raced");
+  for (const status of ["requested", "waiting"]) {
+    assert.equal(findBlockers({ runs: [run(39, "nightly-data-sync.yml", older.created_at, status)], self }).length, 1, `a ${status} older writer blocks`);
+  }
 
   c = clock();
   verdict = await waitForWriterLanes({ self, listActiveRuns: async () => [older], maxWaitMs: 5 * 60_000, ...c, log: quiet, warn: quiet });
@@ -322,7 +355,7 @@ async function selfTest() {
   const impactLimits = scheduledMap(impact["timeout-minutes"], 150);
   assert.equal(impact.steps.find((s) => /wait-for-writer-lanes\.mjs/.test(s.run || ""))?.run,
     'node scripts/wait-for-writer-lanes.mjs --max-wait-minutes "$WRITER_WAIT_MINUTES"', "Impact must pass the selected schedule budget to the helper");
-  const budgetFor = (file, job, schedule = "0 6 * * *") => file === "impact-marketplace-provider-sync.yml"
+  const budgetFor = (file, job, schedule = "0 19 * * *") => file === "impact-marketplace-provider-sync.yml"
     ? { wait: impactWaits[schedule], limit: impactLimits[schedule] }
     : { wait: Number((/--max-wait-minutes (\d+)/.exec(job.steps.find((s) => /wait-for-writer-lanes\.mjs/.test(s.run || ""))?.run) || [])[1] ?? DEFAULT_MAX_WAIT_MINUTES), limit: job["timeout-minutes"] };
   const writes = (wf) =>
@@ -349,7 +382,7 @@ async function selfTest() {
   // Replay the worst legal predecessor lifetimes with all jobs starting
   // together. The first uses its full wait/work cap, then the second uses
   // its full cap. Later providers must retain time for their own work.
-  const schedules = ["0 6 * * *", "30 6 * * *", "0 7 * * *"];
+  const schedules = ["0 19 * * *", "30 19 * * *", "0 20 * * *"];
   for (let index = 0; index < schedules.length; index++) {
     const { wait, limit } = budgetFor("impact-marketplace-provider-sync.yml", impact, schedules[index]);
     assert(limit <= 360, "Impact must fit the hosted-job maximum");
@@ -363,7 +396,7 @@ async function selfTest() {
       listActiveRuns: async () => predecessors.filter((_, i) => c.now() < deadlines[i] * 60_000),
       maxWaitMs: wait * 60_000, ...c, log: quiet, warn: quiet });
     assert.equal(verdict.outcome, "clear", `${schedules[index]} survives all older providers' full caps`);
-    assert.equal(verdict.waitedMs, deadlines.at(-1) * 60_000);
+    assert.equal(verdict.waitedMs, deadlines.at(-1) * 60_000 + CONFIRM_MS);
   }
   for (const file of WAITING_LANES) {
     assert(WRITER_LANES.includes(file), `${file}: a waiting lane must also be a writer`);
@@ -413,6 +446,14 @@ async function selfTest() {
   assert(check > download && check < bump, "verification compares audit revision before stamping artists");
   assert(/check-audit-revision\.mjs --check-main/.test(verificationSteps[check]?.run || ""),
     "verification checks evidence commit against current checkout");
+
+  // The lanes that went red on queueing alone (2026-10-14..16) withhold
+  // neutrally instead.
+  await withholdSelfTest();
+  for (const [file, job] of [["daily-audit.yml", "audit"], ["daily-audit.yml", "verification-dates"], ["work-queue-repair.yml", "repair"]]) {
+    const wait = (workflows[file].jobs[job].steps || []).find((step) => /wait-for-writer-lanes\.mjs/.test(step.run || ""));
+    assert.match(wait?.run || "", /--withhold-when-busy/, `${file} ${job} must end neutral when the writer queue is busy`);
+  }
 
   console.log("wait-for-writer-lanes self-test passed.");
 }

@@ -2218,7 +2218,7 @@
     "country": "Norway",
     "venue": "Oslo Spektrum",
     "datetime_iso": "2026-10-30T18:30:00Z",
-    "tour_name": "",
+    "tour_name": "The A*POP World Tour",
     "ticketmaster_event_id": "1850856610",
     "ticketmaster_url": "https://www.ticketmaster.no/event/tyla-the-apop-world-tour-tickets/1850856610?language=en-us",
     "seatgeek_url": "",
@@ -2263,6 +2263,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8326645",
+        "url": "https://www.ticketnetwork.com/en/p/8326645",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z16v-8-pb8",
@@ -2271,7 +2278,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/tyla-tickets-oslo-oslo-spektrum-30-10-2026/event/107462078",
     "organizer_names": [
       "Live Nation Norway AS"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326645"
   },
   {
     "id": "tm-tyla-2027-pretoria-z698xz05z16eza8efw",
@@ -2282,7 +2290,7 @@
     "country": "South Africa",
     "venue": "SunBet Arena Time Square",
     "datetime_iso": "2027-01-08T18:00:00Z",
-    "tour_name": "",
+    "tour_name": "The A*POP World Tour",
     "ticketmaster_event_id": "2009402532",
     "ticketmaster_url": "https://www.ticketmaster.co.za/event/tyla-the-apop-world-tour-tickets/2009402532",
     "seatgeek_url": "",
@@ -2338,7 +2346,7 @@
     "country": "South Africa",
     "venue": "SunBet Arena Time Square",
     "datetime_iso": "2027-01-09T18:00:00Z",
-    "tour_name": "",
+    "tour_name": "The A*POP World Tour",
     "ticketmaster_event_id": "746470441",
     "ticketmaster_url": "https://www.ticketmaster.co.za/event/tyla-the-apop-world-tour-tickets/746470441",
     "seatgeek_url": "",

@@ -1,0 +1,315 @@
+{
+  "storyType": "tour-map",
+  "year": 2027,
+  "asOf": "2026-10-17",
+  "latestVerified": "2026-10-16",
+  "showCount": 2074,
+  "artistCount": 101,
+  "cityCount": 332,
+  "venueCount": 819,
+  "countryCount": 21,
+  "topCities": [
+    {
+      "slug": "las-vegas-united-states",
+      "label": "Las Vegas",
+      "country": "United States",
+      "path": "/cities/las-vegas-united-states",
+      "showCount": 72,
+      "artistCount": 18
+    },
+    {
+      "slug": "london-united-kingdom",
+      "label": "London",
+      "country": "United Kingdom",
+      "path": "/cities/london-united-kingdom",
+      "showCount": 68,
+      "artistCount": 35
+    },
+    {
+      "slug": "toronto-canada",
+      "label": "Toronto",
+      "country": "Canada",
+      "path": "",
+      "showCount": 61,
+      "artistCount": 39
+    },
+    {
+      "slug": "manchester-united-kingdom",
+      "label": "Manchester",
+      "country": "United Kingdom",
+      "path": "/cities/manchester-united-kingdom",
+      "showCount": 46,
+      "artistCount": 28
+    },
+    {
+      "slug": "boston-united-states",
+      "label": "Boston",
+      "country": "United States",
+      "path": "/cities/boston-united-states",
+      "showCount": 41,
+      "artistCount": 37
+    },
+    {
+      "slug": "chicago-united-states",
+      "label": "Chicago",
+      "country": "United States",
+      "path": "/cities/chicago-united-states",
+      "showCount": 41,
+      "artistCount": 36
+    },
+    {
+      "slug": "atlanta-united-states",
+      "label": "Atlanta",
+      "country": "United States",
+      "path": "/cities/atlanta-united-states",
+      "showCount": 40,
+      "artistCount": 37
+    },
+    {
+      "slug": "brooklyn-united-states",
+      "label": "Brooklyn",
+      "country": "United States",
+      "path": "/cities/brooklyn-united-states",
+      "showCount": 37,
+      "artistCount": 21
+    },
+    {
+      "slug": "nashville-united-states",
+      "label": "Nashville",
+      "country": "United States",
+      "path": "/cities/nashville-united-states",
+      "showCount": 35,
+      "artistCount": 30
+    },
+    {
+      "slug": "glasgow-united-kingdom",
+      "label": "Glasgow",
+      "country": "United Kingdom",
+      "path": "/cities/glasgow-united-kingdom",
+      "showCount": 34,
+      "artistCount": 26
+    }
+  ],
+  "topVenues": [
+    {
+      "slug": "the-o2-london",
+      "label": "The O2",
+      "city": "London",
+      "country": "United Kingdom",
+      "path": "/venues/the-o2-london",
+      "showCount": 40,
+      "artistCount": 15
+    },
+    {
+      "slug": "sphere-las-vegas",
+      "label": "Sphere",
+      "city": "Las Vegas",
+      "country": "United States",
+      "path": "/venues/sphere-las-vegas",
+      "showCount": 39,
+      "artistCount": 4
+    },
+    {
+      "slug": "ziggo-dome-amsterdam",
+      "label": "Ziggo Dome",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "path": "/venues/ziggo-dome-amsterdam",
+      "showCount": 22,
+      "artistCount": 12
+    },
+    {
+      "slug": "3arena-dublin",
+      "label": "3Arena",
+      "city": "Dublin",
+      "country": "Ireland",
+      "path": "",
+      "showCount": 19,
+      "artistCount": 16
+    },
+    {
+      "slug": "co-op-live-manchester",
+      "label": "Co-op Live",
+      "city": "Manchester",
+      "country": "United Kingdom",
+      "path": "/venues/co-op-live-manchester",
+      "showCount": 19,
+      "artistCount": 13
+    },
+    {
+      "slug": "barclays-center-brooklyn",
+      "label": "Barclays Center",
+      "city": "Brooklyn",
+      "country": "United States",
+      "path": "/venues/barclays-center-brooklyn",
+      "showCount": 18,
+      "artistCount": 6
+    },
+    {
+      "slug": "house-of-blues-las-vegas-las-vegas",
+      "label": "House of Blues Las Vegas",
+      "city": "Las Vegas",
+      "country": "United States",
+      "path": "/venues/house-of-blues-las-vegas-las-vegas",
+      "showCount": 18,
+      "artistCount": 3
+    },
+    {
+      "slug": "history-toronto-toronto",
+      "label": "History Toronto",
+      "city": "Toronto",
+      "country": "Canada",
+      "path": "",
+      "showCount": 16,
+      "artistCount": 10
+    },
+    {
+      "slug": "ovo-hydro-glasgow",
+      "label": "OVO Hydro",
+      "city": "Glasgow",
+      "country": "United Kingdom",
+      "path": "/venues/ovo-hydro-glasgow",
+      "showCount": 16,
+      "artistCount": 14
+    },
+    {
+      "slug": "mgm-music-hall-at-fenway-boston",
+      "label": "MGM Music Hall at Fenway",
+      "city": "Boston",
+      "country": "United States",
+      "path": "/venues/mgm-music-hall-at-fenway-boston",
+      "showCount": 15,
+      "artistCount": 13
+    }
+  ],
+  "topCountries": [
+    {
+      "label": "United States",
+      "showCount": 1412,
+      "artistCount": 78
+    },
+    {
+      "label": "United Kingdom",
+      "showCount": 203,
+      "artistCount": 41
+    },
+    {
+      "label": "Canada",
+      "showCount": 178,
+      "artistCount": 53
+    },
+    {
+      "label": "Australia",
+      "showCount": 40,
+      "artistCount": 11
+    },
+    {
+      "label": "Ireland",
+      "showCount": 40,
+      "artistCount": 30
+    },
+    {
+      "label": "Netherlands",
+      "showCount": 35,
+      "artistCount": 21
+    },
+    {
+      "label": "Spain",
+      "showCount": 31,
+      "artistCount": 12
+    },
+    {
+      "label": "Germany",
+      "showCount": 26,
+      "artistCount": 11
+    }
+  ],
+  "topArtists": [
+    {
+      "slug": "nickelback",
+      "label": "Nickelback",
+      "path": "/artists/nickelback",
+      "showCount": 57,
+      "artistCount": 1
+    },
+    {
+      "slug": "greta-van-fleet",
+      "label": "Greta Van Fleet",
+      "path": "/artists/greta-van-fleet",
+      "showCount": 54,
+      "artistCount": 1
+    },
+    {
+      "slug": "gracie-abrams",
+      "label": "Gracie Abrams",
+      "path": "/artists/gracie-abrams",
+      "showCount": 47,
+      "artistCount": 1
+    },
+    {
+      "slug": "def-leppard",
+      "label": "Def Leppard",
+      "path": "/artists/def-leppard",
+      "showCount": 45,
+      "artistCount": 1
+    },
+    {
+      "slug": "olivia-rodrigo",
+      "label": "Olivia Rodrigo",
+      "path": "/artists/olivia-rodrigo",
+      "showCount": 41,
+      "artistCount": 1
+    }
+  ],
+  "months": [
+    {
+      "month": "January",
+      "showCount": 173
+    },
+    {
+      "month": "February",
+      "showCount": 383
+    },
+    {
+      "month": "March",
+      "showCount": 448
+    },
+    {
+      "month": "April",
+      "showCount": 383
+    },
+    {
+      "month": "May",
+      "showCount": 313
+    },
+    {
+      "month": "June",
+      "showCount": 157
+    },
+    {
+      "month": "July",
+      "showCount": 94
+    },
+    {
+      "month": "August",
+      "showCount": 43
+    },
+    {
+      "month": "September",
+      "showCount": 42
+    },
+    {
+      "month": "October",
+      "showCount": 28
+    },
+    {
+      "month": "November",
+      "showCount": 10
+    },
+    {
+      "month": "December",
+      "showCount": 0
+    }
+  ],
+  "busiestMonth": "March"
+}

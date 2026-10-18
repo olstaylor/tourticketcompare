@@ -1,5 +1,5 @@
-// Demand-ranked roster candidates for the auto-promote and roster-candidates
-// jobs. The forecast (report-roster-forecast.mjs) ranks acts by how many of the
+// Demand-ranked roster candidates for the auto-promote
+// job. The forecast (report-roster-forecast.mjs) ranks acts by how many of the
 // site's existing cities they cover, so the biggest tours often never reach
 // the screen: on 2026-10-09, 130 of the 163 highest-demand touring headliners
 // on SeatGeek had no page. This asks the SeatGeek API for upcoming concerts

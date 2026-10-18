@@ -3,6 +3,110 @@
   "source": "content/blog",
   "posts": [
     {
+      "slug": "how-resale-ticket-prices-moved-this-month",
+      "path": "/blog/how-resale-ticket-prices-moved-this-month",
+      "title": "How resale ticket prices moved in the last 30 days",
+      "seoTitle": "Resale ticket prices: 30-day moves | TourTicketCompare",
+      "description": "For 827 upcoming concert dates, how often each resale site's lowest listed price went down, up or stayed about the same between 16 September and 17 October.",
+      "summary": "A count, site by site, of upcoming dates whose lowest listed resale price was lower, higher or about the same as 30 days earlier. Readings between 16 September and 17 October 2026.",
+      "datePublished": "2026-10-17",
+      "dateModified": "2026-10-17",
+      "status": "published",
+      "author": "TourTicketCompare",
+      "tags": [
+        "tour-data"
+      ],
+      "relatedGuides": [
+        "primary-vs-resale-concert-tickets"
+      ],
+      "relatedArtists": [],
+      "wordCount": 597,
+      "sections": [
+        {
+          "type": "intro",
+          "content": "TourTicketCompare records each resale site's lowest listed price for the upcoming dates it tracks, and keeps a daily record. This page compares, for each date and each site, the price at the start of the period with the price at the end, and counts which way it went. The period runs between 16 September and 17 October 2026.\n\n| Site | Dates | Lower | Higher | About the same |\n|---|---|---|---|---|\n| Vivid Seats | 173 | 108 | 40 | 25 |\n| TicketNetwork | 402 | 209 | 151 | 42 |\n| StubHub International | 252 | 120 | 107 | 25 |\n\n\"About the same\" means within 2% either way. Each count compares one date with itself on one site. Sites list different seats with different fees, so this page does not compare one site with another, and a count says nothing about which site is lower for a given show."
+        },
+        {
+          "type": "section",
+          "title": "Vivid Seats",
+          "content": "Vivid Seats had a reading for 173 upcoming dates across 25 artists at both ends of the period. On 108 of them its lowest listed price was lower than about 30 days earlier, on 40 it was higher, and on 25 it was about the same.\n\n| Artist | Dates | Lower | Higher | About the same |\n|---|---|---|---|---|\n| [Gracie Abrams](/artists/gracie-abrams) | 38 | 36 | 1 | 1 |\n| [Harry Styles](/artists/harry-styles) | 21 | 18 | 2 | 1 |\n| [Pentatonix](/artists/pentatonix) | 20 | 15 | 4 | 1 |\n| [Michelle Branch](/artists/michelle-branch) | 9 | 4 | 3 | 2 |\n| [Missio](/artists/missio) | 9 | 2 | 3 | 4 |\n| [Stella Lefty](/artists/stella-lefty) | 8 | 6 | 2 | 0 |\n| [Doja Cat](/artists/doja-cat) | 7 | 4 | 3 | 0 |\n| [Don Omar](/artists/don-omar) | 7 | 1 | 6 | 0 |\n\nArtists with fewer than 5 dates on Vivid Seats are counted above but not listed."
+        },
+        {
+          "type": "section",
+          "title": "TicketNetwork",
+          "content": "TicketNetwork had a reading for 402 upcoming dates across 40 artists at both ends of the period. On 209 of them its lowest listed price was lower than about 30 days earlier, on 151 it was higher, and on 42 it was about the same.\n\n| Artist | Dates | Lower | Higher | About the same |\n|---|---|---|---|---|\n| [Olivia Rodrigo](/artists/olivia-rodrigo) | 48 | 12 | 27 | 9 |\n| [Gracie Abrams](/artists/gracie-abrams) | 31 | 27 | 3 | 1 |\n| [Harry Styles](/artists/harry-styles) | 25 | 18 | 7 | 0 |\n| [Sombr](/artists/sombr) | 24 | 14 | 7 | 3 |\n| [Blue October](/artists/blue-october) | 22 | 7 | 12 | 3 |\n| [Stella Lefty](/artists/stella-lefty) | 20 | 12 | 6 | 2 |\n| [Teddy Swims](/artists/teddy-swims) | 20 | 11 | 7 | 2 |\n| [Michelle Branch](/artists/michelle-branch) | 17 | 9 | 7 | 1 |\n\nArtists with fewer than 5 dates on TicketNetwork are counted above but not listed."
+        },
+        {
+          "type": "section",
+          "title": "StubHub International",
+          "content": "StubHub International had a reading for 252 upcoming dates across 32 artists at both ends of the period. On 120 of them its lowest listed price was lower than about 30 days earlier, on 107 it was higher, and on 25 it was about the same.\n\n| Artist | Dates | Lower | Higher | About the same |\n|---|---|---|---|---|\n| [Olivia Rodrigo](/artists/olivia-rodrigo) | 34 | 4 | 28 | 2 |\n| [Gracie Abrams](/artists/gracie-abrams) | 29 | 27 | 0 | 2 |\n| [Harry Styles](/artists/harry-styles) | 22 | 15 | 5 | 2 |\n| [Teddy Swims](/artists/teddy-swims) | 19 | 12 | 4 | 3 |\n| [Sombr](/artists/sombr) | 15 | 7 | 7 | 1 |\n| [John Summit](/artists/john-summit) | 13 | 0 | 13 | 0 |\n| [Doja Cat](/artists/doja-cat) | 11 | 6 | 5 | 0 |\n| [Pentatonix](/artists/pentatonix) | 10 | 7 | 1 | 2 |\n\nArtists with fewer than 5 dates on StubHub International are counted above but not listed."
+        },
+        {
+          "type": "section",
+          "title": "What this does and doesn't say",
+          "content": "- **It is a record of the last 30 days, not a forecast.** A date that went down this month can go up next month. Whether prices tend to fall as a show gets closer is a different question, and TourTicketCompare doesn't have enough history yet to answer it reliably.\n- **A listed price is not a checkout total.** Fees, delivery and seat location differ between listings and between sites.\n- **No price figures here.** For the current price of any date, with the time it was captured, open the artist's page.\n\nTo buy for one of these shows, start on the artist's page, which links the official sale and any checked resale listings for each date."
+        }
+      ]
+    },
+    {
+      "slug": "where-the-big-concert-tours-are-playing-in-2027",
+      "path": "/blog/where-the-big-concert-tours-are-playing-in-2027",
+      "title": "Where the big concert tours are playing in 2027",
+      "seoTitle": "2027 concert tours: the busiest cities | TourTicketCompare",
+      "description": "Las Vegas, London and Toronto have the most 2027 dates among 101 major tours tracked by TourTicketCompare. Counts by city, venue and month.",
+      "summary": "2,074 upcoming 2027 dates from 101 major touring artists, counted by city, venue, country and month. Las Vegas leads with 72 dates. Figures as of 17 October 2026.",
+      "datePublished": "2026-10-16",
+      "dateModified": "2026-10-17",
+      "status": "published",
+      "author": "TourTicketCompare",
+      "tags": [
+        "tour-data"
+      ],
+      "relatedGuides": [],
+      "relatedArtists": [
+        "nickelback",
+        "greta-van-fleet",
+        "gracie-abrams"
+      ],
+      "wordCount": 571,
+      "sections": [
+        {
+          "type": "intro",
+          "content": "TourTicketCompare tracks the upcoming dates of 101 major touring artists, and as of 17 October 2026 2,074 of those dates fall in 2027. They are spread over 332 cities and 819 venues in 21 countries. Las Vegas has the most, with 72 dates from 18 artists, followed by London (68) and Toronto (61).\n\nThese are counts of announced shows on the tours the site follows, not of every concert in 2027. Each one is a date with a checked Ticketmaster event behind it, and each is still listed on its artist's page on this site."
+        },
+        {
+          "type": "section",
+          "title": "The busiest cities in 2027",
+          "content": "| Rank | City | Country | Dates | Artists |\n|---|---|---|---|---|\n| 1 | [Las Vegas](/cities/las-vegas-united-states) | United States | 72 | 18 |\n| 2 | [London](/cities/london-united-kingdom) | United Kingdom | 68 | 35 |\n| 3 | Toronto | Canada | 61 | 39 |\n| 4 | [Manchester](/cities/manchester-united-kingdom) | United Kingdom | 46 | 28 |\n| 5 | [Boston](/cities/boston-united-states) | United States | 41 | 37 |\n| 6 | [Chicago](/cities/chicago-united-states) | United States | 41 | 36 |\n| 7 | [Atlanta](/cities/atlanta-united-states) | United States | 40 | 37 |\n| 8 | [Brooklyn](/cities/brooklyn-united-states) | United States | 37 | 21 |\n| 9 | [Nashville](/cities/nashville-united-states) | United States | 35 | 30 |\n| 10 | [Glasgow](/cities/glasgow-united-kingdom) | United Kingdom | 34 | 26 |\n\nA city counts its metro area, so a stadium Ticketmaster files under a suburb is counted with the city it serves."
+        },
+        {
+          "type": "section",
+          "title": "The busiest venues",
+          "content": "| Rank | Venue | City | Dates | Artists |\n|---|---|---|---|---|\n| 1 | [The O2](/venues/the-o2-london) | London | 40 | 15 |\n| 2 | [Sphere](/venues/sphere-las-vegas) | Las Vegas | 39 | 4 |\n| 3 | [Ziggo Dome](/venues/ziggo-dome-amsterdam) | Amsterdam | 22 | 12 |\n| 4 | 3Arena | Dublin | 19 | 16 |\n| 5 | [Co-op Live](/venues/co-op-live-manchester) | Manchester | 19 | 13 |\n| 6 | [Barclays Center](/venues/barclays-center-brooklyn) | Brooklyn | 18 | 6 |\n| 7 | [House of Blues Las Vegas](/venues/house-of-blues-las-vegas-las-vegas) | Las Vegas | 18 | 3 |\n| 8 | History Toronto | Toronto | 16 | 10 |\n| 9 | [OVO Hydro](/venues/ovo-hydro-glasgow) | Glasgow | 16 | 14 |\n| 10 | [MGM Music Hall at Fenway](/venues/mgm-music-hall-at-fenway-boston) | Boston | 15 | 13 |\n\nThe O2 in London has the most dates of any single venue, 40 from 15 artists. A residency puts many nights in one building, which is why one venue can outrank whole cities."
+        },
+        {
+          "type": "section",
+          "title": "Countries",
+          "content": "| Country | Dates | Share of 2027 dates |\n|---|---|---|\n| United States | 1,412 | 68% |\n| United Kingdom | 203 | 10% |\n| Canada | 178 | 9% |\n| Australia | 40 | 2% |\n| Ireland | 40 | 2% |\n| Netherlands | 35 | 2% |\n| Spain | 31 | 1% |\n| Germany | 26 | 1% |\n\nThe United States accounts for 68% of the tracked 2027 dates. Countries with fewer than 5 dates are counted in the totals but not listed."
+        },
+        {
+          "type": "section",
+          "title": "Month by month",
+          "content": "| Month | Dates |\n|---|---|\n| January | 173 |\n| February | 383 |\n| March | 448 |\n| April | 383 |\n| May | 313 |\n| June | 157 |\n| July | 94 |\n| August | 43 |\n| September | 42 |\n| October | 28 |\n| November | 10 |\n\nMarch is the busiest month so far. Later months fill in as more tours announce, so these totals change with each update of this page."
+        },
+        {
+          "type": "section",
+          "title": "The artists with the most 2027 dates",
+          "content": "[Nickelback](/artists/nickelback) (57), [Greta Van Fleet](/artists/greta-van-fleet) (54), [Gracie Abrams](/artists/gracie-abrams) (47), [Def Leppard](/artists/def-leppard) (45), [Olivia Rodrigo](/artists/olivia-rodrigo) (41). The full list of artists touring in 2027 is on the [2027 tours page](/tours/2027)."
+        },
+        {
+          "type": "section",
+          "title": "How these numbers are counted",
+          "content": "- **What counts:** an announced 2027 show by an artist whose page is live on TourTicketCompare, matched to an exact Ticketmaster event and not cancelled or postponed. The date is the venue's local date.\n- **What doesn't:** shows by artists the site doesn't track, and dates that have already happened.\n- **Freshness:** event records are rechecked automatically. The newest recheck in this data set is 16 October 2026.\n- **Prices:** this page has no prices. Ticket prices change constantly and are shown, with the time they were captured, on each artist's page.\n\nIf you're writing about this, the [press page](/press) has background on the site. To buy for one of these shows, start on the artist's page, which links the official sale and any checked resale listings for each date."
+        }
+      ]
+    },
+    {
       "slug": "my-chemical-romance-hollywood-bowl-2026-which-night",
       "path": "/blog/my-chemical-romance-hollywood-bowl-2026-which-night",
       "title": "My Chemical Romance at Hollywood Bowl: which 2026 night?",
@@ -968,6 +1072,11 @@
       "slug": "ticket-prices",
       "label": "Ticket Prices",
       "postCount": 3
+    },
+    {
+      "slug": "tour-data",
+      "label": "Tour Data",
+      "postCount": 2
     },
     {
       "slug": "transparency",

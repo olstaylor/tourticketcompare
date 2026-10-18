@@ -1395,5 +1395,74 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
+  },
+  {
+    "id": "tm-mei-semones-2027-los-angeles-z7r9jz1aa7e-9",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "event_name": "Mei Semones",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "The Fonda Theatre",
+    "datetime_iso": "2027-04-24T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7e-9",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7e-9",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-los-angeles-fonda-theatre-4-23-2027/production/7629620",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7e-9",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7e-9",
+        "discovery_event_id": "Z7r9jZ1AA7e-9",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7e-9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7629620,
+        "url": "https://www.vividseats.com/mei-semones-tickets-los-angeles-fonda-theatre-4-23-2027/production/7629620",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8297664",
+        "url": "https://www.ticketnetwork.com/en/p/8297664",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8297664",
+        "url": "https://www.ticketliquidator.com/tickets/8297664/Mei-Semones-tickets-Fri-Apr-23-2027-The-Fonda-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7e-9",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297664",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297664/Mei-Semones-tickets-Fri-Apr-23-2027-The-Fonda-Theatre"
   }
 ]

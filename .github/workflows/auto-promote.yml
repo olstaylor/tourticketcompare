@@ -27,7 +27,11 @@ concurrency:
 jobs:
   promote:
     runs-on: ubuntu-latest
-    timeout-minutes: 59
+    # Measured 2026-10-12..16: ~4 min screening, ~28-32 min ingest and the
+    # in-job suite, then up to 25 min for exact-head validation and the merge.
+    # At 59 the 16 Oct run was cancelled mid-merge with its PR (#1618) green.
+    # Publishing keeps its own sub-60 cap below (fresh App token lifetime).
+    timeout-minutes: 90
     steps:
       - name: Switch
         id: switch
@@ -123,8 +127,6 @@ jobs:
           done
           cat artifacts/auto/sg-*.md > reports/provider-sync/seatgeek-cta-auto-add.md
           npm run events:partition
-          node scripts/validate-status-counts.mjs --write
-          node scripts/audit-indexable-surface.mjs --write-status
           # Card every page this promotion made indexable (scripts/build-og-cards.mjs).
           npm run og:build
           node scripts/auto-promote.mjs --check-out-against artifacts/auto/out.base.js
@@ -151,6 +153,7 @@ jobs:
 
       - name: Open auto-promote PR
         id: publish
+        timeout-minutes: 45
         if: steps.switch.outputs.on == 'true' && steps.promote.outputs.count != '0'
         env:
           GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}
@@ -162,7 +165,7 @@ jobs:
           echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
           SUMMARY=$(node -e 'const r=require("./artifacts/auto/promoted.json"); console.log(r.promoted.map(p=>`- \`${p.slug}\` (${p.providers.join(", ")}): ${p.seo_title}`).join("\n")); if (r.held.length) console.log("\nHeld:\n" + r.held.map(h=>`- \`${h.slug}\`: ${h.reasons.join("; ")}`).join("\n"))')
           git checkout -B "$BRANCH"
-          git add public/data/artists.json public/data/catalog.json public/data/events.json public/data/events public/data/events-index.json public/index.html functions/api/out.js data/provider-identities.json PROJECT_STATUS.md reports/provider-sync/seatgeek-cta-auto-add.md public/og functions/_og-cards.generated.js
+          git add public/data/artists.json public/data/catalog.json public/data/events.json public/data/events public/data/events-index.json public/index.html functions/api/out.js data/provider-identities.json reports/provider-sync/seatgeek-cta-auto-add.md public/og functions/_og-cards.generated.js
           git commit -m "automation: auto-promote ${TODAY}"
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
           node scripts/push-automation-branch.mjs "$BRANCH" --force-with-lease

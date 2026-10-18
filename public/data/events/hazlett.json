@@ -81,7 +81,7 @@
     "ticketmaster_event_id": "3A006539D64E5E5A",
     "ticketmaster_url": "https://www.ticketmaster.com/hazlett-austin-texas-06-12-2027/event/3A006539D64E5E5A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hazlett-tickets-austin-scoot-inn-6-12-2027/production/7634124",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-austin-texas-06-12-2027/event/3A006539D64E5E5A",
     "last_verified_at": "2026-10-15",
@@ -103,11 +103,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7634124,
+        "url": "https://www.vividseats.com/hazlett-tickets-austin-scoot-inn-6-12-2027/production/7634124",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1827,5 +1827,58 @@
       "COMMUNION PRESENTS LTD",
       "ACADEMY MUSIC GROUP (O2 SHEPHERD'S BUSH EMPIRE)"
     ]
+  },
+  {
+    "id": "tm-hazlett-2027-oslo-z698xzb_z16v-jveop",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "Oslo",
+    "country": "Norway",
+    "venue": "Rockefeller",
+    "datetime_iso": "2027-03-05T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1866042465",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/hazlett-tickets/1866042465?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/hazlett-tickets/1866042465?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1866042465",
+        "discovery_event_id": "Z698xZb_Z16v-JveoP",
+        "url": "https://www.ticketmaster.no/event/hazlett-tickets/1866042465?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z16v-JveoP",
+    "timezone": "Europe/Oslo",
+    "status": "on-sale"
   }
 ]

@@ -1,0 +1,258 @@
+{
+  "storyType": "price-moves",
+  "asOf": "2026-10-17",
+  "windowStart": "2026-09-16",
+  "windowEnd": "2026-10-17",
+  "band": 0.02,
+  "sites": [
+    {
+      "site": "vivid-seats",
+      "label": "Vivid Seats",
+      "dates": 173,
+      "lower": 108,
+      "higher": 40,
+      "same": 25,
+      "artistCount": 25,
+      "artists": [
+        {
+          "slug": "gracie-abrams",
+          "label": "Gracie Abrams",
+          "path": "/artists/gracie-abrams",
+          "lower": 36,
+          "higher": 1,
+          "same": 1,
+          "dates": 38
+        },
+        {
+          "slug": "harry-styles",
+          "label": "Harry Styles",
+          "path": "/artists/harry-styles",
+          "lower": 18,
+          "higher": 2,
+          "same": 1,
+          "dates": 21
+        },
+        {
+          "slug": "pentatonix",
+          "label": "Pentatonix",
+          "path": "/artists/pentatonix",
+          "lower": 15,
+          "higher": 4,
+          "same": 1,
+          "dates": 20
+        },
+        {
+          "slug": "michelle-branch",
+          "label": "Michelle Branch",
+          "path": "/artists/michelle-branch",
+          "lower": 4,
+          "higher": 3,
+          "same": 2,
+          "dates": 9
+        },
+        {
+          "slug": "missio",
+          "label": "Missio",
+          "path": "/artists/missio",
+          "lower": 2,
+          "higher": 3,
+          "same": 4,
+          "dates": 9
+        },
+        {
+          "slug": "stella-lefty",
+          "label": "Stella Lefty",
+          "path": "/artists/stella-lefty",
+          "lower": 6,
+          "higher": 2,
+          "same": 0,
+          "dates": 8
+        },
+        {
+          "slug": "doja-cat",
+          "label": "Doja Cat",
+          "path": "/artists/doja-cat",
+          "lower": 4,
+          "higher": 3,
+          "same": 0,
+          "dates": 7
+        },
+        {
+          "slug": "don-omar",
+          "label": "Don Omar",
+          "path": "/artists/don-omar",
+          "lower": 1,
+          "higher": 6,
+          "same": 0,
+          "dates": 7
+        }
+      ]
+    },
+    {
+      "site": "ticketnetwork",
+      "label": "TicketNetwork",
+      "dates": 402,
+      "lower": 209,
+      "higher": 151,
+      "same": 42,
+      "artistCount": 40,
+      "artists": [
+        {
+          "slug": "olivia-rodrigo",
+          "label": "Olivia Rodrigo",
+          "path": "/artists/olivia-rodrigo",
+          "lower": 12,
+          "higher": 27,
+          "same": 9,
+          "dates": 48
+        },
+        {
+          "slug": "gracie-abrams",
+          "label": "Gracie Abrams",
+          "path": "/artists/gracie-abrams",
+          "lower": 27,
+          "higher": 3,
+          "same": 1,
+          "dates": 31
+        },
+        {
+          "slug": "harry-styles",
+          "label": "Harry Styles",
+          "path": "/artists/harry-styles",
+          "lower": 18,
+          "higher": 7,
+          "same": 0,
+          "dates": 25
+        },
+        {
+          "slug": "sombr",
+          "label": "Sombr",
+          "path": "/artists/sombr",
+          "lower": 14,
+          "higher": 7,
+          "same": 3,
+          "dates": 24
+        },
+        {
+          "slug": "blue-october",
+          "label": "Blue October",
+          "path": "/artists/blue-october",
+          "lower": 7,
+          "higher": 12,
+          "same": 3,
+          "dates": 22
+        },
+        {
+          "slug": "stella-lefty",
+          "label": "Stella Lefty",
+          "path": "/artists/stella-lefty",
+          "lower": 12,
+          "higher": 6,
+          "same": 2,
+          "dates": 20
+        },
+        {
+          "slug": "teddy-swims",
+          "label": "Teddy Swims",
+          "path": "/artists/teddy-swims",
+          "lower": 11,
+          "higher": 7,
+          "same": 2,
+          "dates": 20
+        },
+        {
+          "slug": "michelle-branch",
+          "label": "Michelle Branch",
+          "path": "/artists/michelle-branch",
+          "lower": 9,
+          "higher": 7,
+          "same": 1,
+          "dates": 17
+        }
+      ]
+    },
+    {
+      "site": "stubhub-international",
+      "label": "StubHub International",
+      "dates": 252,
+      "lower": 120,
+      "higher": 107,
+      "same": 25,
+      "artistCount": 32,
+      "artists": [
+        {
+          "slug": "olivia-rodrigo",
+          "label": "Olivia Rodrigo",
+          "path": "/artists/olivia-rodrigo",
+          "lower": 4,
+          "higher": 28,
+          "same": 2,
+          "dates": 34
+        },
+        {
+          "slug": "gracie-abrams",
+          "label": "Gracie Abrams",
+          "path": "/artists/gracie-abrams",
+          "lower": 27,
+          "higher": 0,
+          "same": 2,
+          "dates": 29
+        },
+        {
+          "slug": "harry-styles",
+          "label": "Harry Styles",
+          "path": "/artists/harry-styles",
+          "lower": 15,
+          "higher": 5,
+          "same": 2,
+          "dates": 22
+        },
+        {
+          "slug": "teddy-swims",
+          "label": "Teddy Swims",
+          "path": "/artists/teddy-swims",
+          "lower": 12,
+          "higher": 4,
+          "same": 3,
+          "dates": 19
+        },
+        {
+          "slug": "sombr",
+          "label": "Sombr",
+          "path": "/artists/sombr",
+          "lower": 7,
+          "higher": 7,
+          "same": 1,
+          "dates": 15
+        },
+        {
+          "slug": "john-summit",
+          "label": "John Summit",
+          "path": "/artists/john-summit",
+          "lower": 0,
+          "higher": 13,
+          "same": 0,
+          "dates": 13
+        },
+        {
+          "slug": "doja-cat",
+          "label": "Doja Cat",
+          "path": "/artists/doja-cat",
+          "lower": 6,
+          "higher": 5,
+          "same": 0,
+          "dates": 11
+        },
+        {
+          "slug": "pentatonix",
+          "label": "Pentatonix",
+          "path": "/artists/pentatonix",
+          "lower": 7,
+          "higher": 1,
+          "same": 2,
+          "dates": 10
+        }
+      ]
+    }
+  ]
+}

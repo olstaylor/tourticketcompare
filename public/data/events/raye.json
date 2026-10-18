@@ -1,1 +1,63 @@
-[]
+[
+  {
+    "id": "tm-raye-2026-london-g5vhz_frai-ph",
+    "artist_slug": "raye",
+    "artist_name": "RAYE",
+    "event_name": "RAYE",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Royal Albert Hall",
+    "datetime_iso": "2026-10-23T18:15:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00654789A2159B",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/raye-london-23-10-2026/event/1F00654789A2159B",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/raye-tickets-london-royal-albert-hall-10-23-2026/production/7695778",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/raye-london-23-10-2026/event/1F00654789A2159B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00654789A2159B",
+        "discovery_event_id": "G5vHZ_fraI-ph",
+        "url": "https://www.ticketmaster.co.uk/raye-london-23-10-2026/event/1F00654789A2159B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7695778,
+        "url": "https://www.vividseats.com/raye-tickets-london-royal-albert-hall-10-23-2026/production/7695778",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672846",
+        "url": "https://www.stubhub.ie/raye-tickets-london-london-royal-albert-hall-23-10-2026/event/107672846",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_fraI-ph",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/raye-tickets-london-london-royal-albert-hall-23-10-2026/event/107672846"
+  }
+]

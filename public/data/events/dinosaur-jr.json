@@ -335,25 +335,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8098317",
-        "url": "https://www.ticketnetwork.com/en/p/8098317",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8098317",
-        "url": "https://www.ticketliquidator.com/tickets/8098317/Dinosaur-Jr-tickets-Fri-Oct-16-2026-The-Bellwether",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_uEYxKa-",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098317",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8098317/Dinosaur-Jr-tickets-Fri-Oct-16-2026-The-Bellwether"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-dinosaur-jr-2026-san-francisco-g5vyz_ullh3se",
@@ -424,7 +424,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZMfs",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMfs",
     "seatgeek_url": "https://seatgeek.com/dinosaur-jr-tickets/menlo-park-california-the-guild-theatre-menlo-park-2026-10-19-8-pm/concert/18540429",
-    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-menlo-park-the-guild-theatre-10-19-2026/production/7457212",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMfs",
     "last_verified_at": null,
@@ -446,11 +446,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7457212,
-        "url": "https://www.vividseats.com/dinosaur-jr-tickets-menlo-park-the-guild-theatre-10-19-2026/production/7457212",
-        "verified": true,
-        "last_verified_at": "2026-10-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -825,7 +825,7 @@
         "event_id": 7234825,
         "url": "https://www.vividseats.com/dinosaur-jr-tickets-denver-ogden-theatre-10-29-2026--concerts-rock/production/7234825",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-10-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1188,7 +1188,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvK1F",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1F",
     "seatgeek_url": "https://seatgeek.com/dinosaur-jr-tickets/brooklyn-new-york-brooklyn-steel-2027-02-12-8-pm/concert/18540433",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-brooklyn-brooklyn-steel-2-12-2027--concerts-rock/production/7492603",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1F",
     "last_verified_at": null,
@@ -1210,11 +1210,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7492603,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-brooklyn-brooklyn-steel-2-12-2027--concerts-rock/production/7492603",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1854,10 +1854,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8326607",
+        "url": "https://www.ticketnetwork.com/en/p/8326607",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8326607",
+        "url": "https://www.ticketliquidator.com/tickets/8326607/Dinosaur-Jr-tickets-Sat-Feb-13-2027-Union-Transfer",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvK18",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326607",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326607/Dinosaur-Jr-tickets-Sat-Feb-13-2027-Union-Transfer"
   }
 ]

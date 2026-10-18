@@ -250,6 +250,38 @@
       "ticketmaster_event_id": "1706087750",
       "reason": "Ticketmaster premium-suite listing (\"Five Finger Death Punch | Premium Suite Ticket\" at Veikkaus Arena), not the standard concert listing. Tombstoned by Ticketmaster id only (no venue/date key) so the standard concert listing for the same venue and night can still be ingested. Removed under the standard-concert-listings-only decision in PR #1458, addressing its premium-suite review finding.",
       "deleted_at": "2026-10-12"
+    },
+    {
+      "artist_slug": "karol-g",
+      "id": "tm-karol-g-2027-warsaw-z698xzqpz16vfa4vgs",
+      "ticketmaster_discovery_event_id": "Z698xZQpZ16vfa4VGS",
+      "ticketmaster_event_id": "1509574333",
+      "reason": "Ticketmaster Discovery reports this date (PGE Narodowy, Warsaw, 14 Jul 2027) as cancelled; the nightly sync recorded ticketmaster_status_code=cancelled on 2026-10-16 (PR #1604) and the rolling automation:data-sync issue (#930) asked for a removal decision. Tombstoned by Ticketmaster id only (no venue/date key) so a genuine replacement listing with a new id can still be ingested.",
+      "deleted_at": "2026-10-16"
+    },
+    {
+      "artist_slug": "rod-stewart",
+      "id": "tm-rod-stewart-2027-dublin-1abzkfygkdqi3oq",
+      "ticketmaster_discovery_event_id": "1AbZkfyGkdqi3Oq",
+      "ticketmaster_event_id": "18006539DDB1281D",
+      "reason": "Ticketmaster premium-tier listing (\"Rod Stewart - Premium Priced Seats\" at 3Arena, 2027-04-23), not the standard concert listing. Ingested by Auto-promote #1563 on 2026-10-13, a day before the recogniser filter (#1458) merged. Tombstoned by Ticketmaster id only (no venue/date key) so the standard concert listing for the same venue and night can still be ingested. Removed per the owner decision of 2026-10-09 (list standard concert listings only).",
+      "deleted_at": "2026-10-17"
+    },
+    {
+      "artist_slug": "rod-stewart",
+      "id": "tm-rod-stewart-2027-belfast-1azzkfygkdgr3ds",
+      "ticketmaster_discovery_event_id": "1AzZkfyGkdGr3ds",
+      "ticketmaster_event_id": "38006539CC7920F1",
+      "reason": "Ticketmaster premium-tier listing (\"Rod Stewart - Premium Priced Seating\" at The O2 Belfast, 2027-04-27), not the standard concert listing. Ingested by Auto-promote #1563 on 2026-10-13, a day before the recogniser filter (#1458) merged. Tombstoned by Ticketmaster id only (no venue/date key) so the standard concert listing for the same venue and night can still be ingested. Removed per the owner decision of 2026-10-09 (list standard concert listings only).",
+      "deleted_at": "2026-10-17"
+    },
+    {
+      "artist_slug": "rod-stewart",
+      "id": "tm-rod-stewart-2027-glasgow-1auzkfmgkdmgbjs",
+      "ticketmaster_discovery_event_id": "1AUZkfMGkdMGBJS",
+      "ticketmaster_event_id": "36006537F733A9B3",
+      "reason": "Ticketmaster venue-premium listing (\"Venue Premium - Rod Stewart - The Final Encore\" at OVO Hydro, 2027-04-29), not the standard concert listing. Ingested by Auto-promote #1563 on 2026-10-13, a day before the recogniser filter (#1458) merged. Tombstoned by Ticketmaster id only (no venue/date key) so the standard concert listing for the same venue and night can still be ingested. Removed per the owner decision of 2026-10-09 (list standard concert listings only).",
+      "deleted_at": "2026-10-17"
     }
   ]
 }

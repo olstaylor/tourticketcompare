@@ -2478,5 +2478,111 @@
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "9999-12-31T06:00:00Z"
+  },
+  {
+    "id": "tm-michelle-branch-2027-toronto-1a8zk4kgkdkp6j5",
+    "artist_slug": "michelle-branch",
+    "artist_name": "Michelle Branch",
+    "event_name": "Michelle Branch: Everywhere And Back Again Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "History Toronto",
+    "datetime_iso": "2027-03-30T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006546D394798B",
+    "ticketmaster_url": "https://www.ticketmaster.ca/michelle-branch-everywhere-and-back-again-toronto-ontario-03-30-2027/event/10006546D394798B",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-toronto-history-toronto-3-30-2027/production/7704668",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/michelle-branch-everywhere-and-back-again-toronto-ontario-03-30-2027/event/10006546D394798B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006546D394798B",
+        "discovery_event_id": "1A8Zk4kGkdKP6J5",
+        "url": "https://www.ticketmaster.ca/michelle-branch-everywhere-and-back-again-toronto-ontario-03-30-2027/event/10006546D394798B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7704668,
+        "url": "https://www.vividseats.com/michelle-branch-tickets-toronto-history-toronto-3-30-2027/production/7704668",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk4kGkdKP6J5",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-michelle-branch-2027-toronto-1a8zk4kgkdkj6jq",
+    "artist_slug": "michelle-branch",
+    "artist_name": "Michelle Branch",
+    "event_name": "Michelle Branch: Everywhere And Back Again Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "History Toronto",
+    "datetime_iso": "2027-03-31T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006546D398799A",
+    "ticketmaster_url": "https://www.ticketmaster.ca/michelle-branch-everywhere-and-back-again-toronto-ontario-03-31-2027/event/10006546D398799A",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-toronto-history-toronto-3-31-2027/production/7696699",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/michelle-branch-everywhere-and-back-again-toronto-ontario-03-31-2027/event/10006546D398799A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006546D398799A",
+        "discovery_event_id": "1A8Zk4kGkdKJ6JQ",
+        "url": "https://www.ticketmaster.ca/michelle-branch-everywhere-and-back-again-toronto-ontario-03-31-2027/event/10006546D398799A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7696699,
+        "url": "https://www.vividseats.com/michelle-branch-tickets-toronto-history-toronto-3-31-2027/production/7696699",
+        "verified": true,
+        "last_verified_at": "2026-10-17",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk4kGkdKJ6JQ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

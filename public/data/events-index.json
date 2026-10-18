@@ -7556,18 +7556,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-karol-g-2027-warsaw-z698xzqpz16vfa4vgs",
-    "artist_slug": "karol-g",
-    "artist_name": "Karol G",
-    "country": "Poland",
-    "city": "Warsaw",
-    "venue": "PGE Narodowy",
-    "datetime_iso": "2027-07-14T14:30:00Z",
-    "timezone": "Europe/Warsaw",
-    "tour_name": "Viajando Por El Mundo Tropitour",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-foo-fighters-2026-fargo-vv1akzkukgkdkifv9",
     "artist_slug": "foo-fighters",
     "artist_name": "Foo Fighters",
@@ -34684,7 +34672,7 @@
     "venue": "Estadio GNP Seguros",
     "datetime_iso": "2026-12-04T03:00:00Z",
     "timezone": "America/Mexico_City",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -34696,7 +34684,7 @@
     "venue": "Estadio GNP Seguros",
     "datetime_iso": "2026-12-05T03:00:00Z",
     "timezone": "America/Mexico_City",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -34708,7 +34696,7 @@
     "venue": "Estadio GNP Seguros",
     "datetime_iso": "2026-12-08T03:00:00Z",
     "timezone": "America/Mexico_City",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -34720,7 +34708,7 @@
     "venue": "Estadio GNP Seguros",
     "datetime_iso": "2026-12-09T03:00:00Z",
     "timezone": "America/Mexico_City",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -34732,7 +34720,7 @@
     "venue": "Estadio GNP Seguros",
     "datetime_iso": "2026-12-12T03:00:00Z",
     "timezone": "America/Mexico_City",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -34744,7 +34732,7 @@
     "venue": "Eden Park",
     "datetime_iso": "2027-03-13T04:00:00Z",
     "timezone": "Pacific/Auckland",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -34756,7 +34744,7 @@
     "venue": "Eden Park",
     "datetime_iso": "2027-03-14T04:00:00Z",
     "timezone": "Pacific/Auckland",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -34768,7 +34756,7 @@
     "venue": "Eden Park",
     "datetime_iso": "2027-03-16T04:00:00Z",
     "timezone": "Pacific/Auckland",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -34852,7 +34840,7 @@
     "venue": "Unity Arena",
     "datetime_iso": "2027-05-08T16:00:00Z",
     "timezone": "Europe/Oslo",
-    "tour_name": "",
+    "tour_name": "You Are The Reason Tour",
     "status": "on-sale"
   },
   {
@@ -34864,7 +34852,7 @@
     "venue": "Veikkaus Arena",
     "datetime_iso": "2027-05-11T15:30:00Z",
     "timezone": "Europe/Helsinki",
-    "tour_name": "",
+    "tour_name": "You Are The Reason Tour",
     "status": "on-sale"
   },
   {
@@ -34876,7 +34864,7 @@
     "venue": "O2 Arena",
     "datetime_iso": "2027-05-19T17:30:00Z",
     "timezone": "Europe/Prague",
-    "tour_name": "",
+    "tour_name": "You Are The Reason Tour",
     "status": "on-sale"
   },
   {
@@ -34888,7 +34876,7 @@
     "venue": "Hallenstadion",
     "datetime_iso": "2027-05-27T17:30:00Z",
     "timezone": "Europe/Zurich",
-    "tour_name": "",
+    "tour_name": "You Are The Reason Tour",
     "status": "on-sale"
   },
   {
@@ -34900,7 +34888,7 @@
     "venue": "Wiener Stadthalle - Halle D",
     "datetime_iso": "2027-05-29T17:30:00Z",
     "timezone": "Europe/Vienna",
-    "tour_name": "",
+    "tour_name": "You Are The Reason Tour",
     "status": "on-sale"
   },
   {
@@ -34996,7 +34984,7 @@
     "venue": "Unity Arena",
     "datetime_iso": "2027-03-02T17:00:00Z",
     "timezone": "Europe/Oslo",
-    "tour_name": "",
+    "tour_name": "The Ugly Tour",
     "status": "on-sale"
   },
   {
@@ -35008,7 +34996,7 @@
     "venue": "O2 Arena",
     "datetime_iso": "2027-03-20T19:00:00Z",
     "timezone": "Europe/Prague",
-    "tour_name": "",
+    "tour_name": "The Ugly Tour",
     "status": "on-sale"
   },
   {
@@ -35068,7 +35056,7 @@
     "venue": "Oslo Spektrum",
     "datetime_iso": "2026-10-30T18:30:00Z",
     "timezone": "Europe/Oslo",
-    "tour_name": "",
+    "tour_name": "The A*POP World Tour",
     "status": "on-sale"
   },
   {
@@ -35080,7 +35068,7 @@
     "venue": "SunBet Arena Time Square",
     "datetime_iso": "2027-01-08T18:00:00Z",
     "timezone": "Africa/Johannesburg",
-    "tour_name": "",
+    "tour_name": "The A*POP World Tour",
     "status": "on-sale"
   },
   {
@@ -35092,7 +35080,7 @@
     "venue": "SunBet Arena Time Square",
     "datetime_iso": "2027-01-09T18:00:00Z",
     "timezone": "Africa/Johannesburg",
-    "tour_name": "",
+    "tour_name": "The A*POP World Tour",
     "status": "on-sale"
   },
   {
@@ -35128,7 +35116,7 @@
     "venue": "South Side Ballroom",
     "datetime_iso": "2026-11-07T01:00:00Z",
     "timezone": "America/Chicago",
-    "tour_name": "",
+    "tour_name": "Legends On Tour",
     "status": "on-sale"
   },
   {
@@ -35140,7 +35128,7 @@
     "venue": "713 Music Hall",
     "datetime_iso": "2026-11-08T01:00:00Z",
     "timezone": "America/Chicago",
-    "tour_name": "",
+    "tour_name": "Legends On Tour",
     "status": "on-sale"
   },
   {
@@ -35152,7 +35140,7 @@
     "venue": "Boeing Center at Tech Port",
     "datetime_iso": "2026-11-09T01:00:00Z",
     "timezone": "America/Chicago",
-    "tour_name": "",
+    "tour_name": "Legends On Tour",
     "status": "on-sale"
   },
   {
@@ -35164,7 +35152,7 @@
     "venue": "Arizona Financial Theatre",
     "datetime_iso": "2026-11-12T02:00:00Z",
     "timezone": "America/Phoenix",
-    "tour_name": "",
+    "tour_name": "Legends On Tour",
     "status": "on-sale"
   },
   {
@@ -35176,7 +35164,7 @@
     "venue": "Hard Rock Live Sacramento",
     "datetime_iso": "2026-11-15T03:00:00Z",
     "timezone": "America/Los_Angeles",
-    "tour_name": "",
+    "tour_name": "Legends On Tour",
     "status": "on-sale"
   },
   {
@@ -35188,7 +35176,7 @@
     "venue": "The Union",
     "datetime_iso": "2026-11-18T02:00:00Z",
     "timezone": "America/Denver",
-    "tour_name": "",
+    "tour_name": "Legends On Tour",
     "status": "on-sale"
   },
   {
@@ -35200,7 +35188,7 @@
     "venue": "Steelhouse Omaha",
     "datetime_iso": "2026-11-21T01:00:00Z",
     "timezone": "America/Chicago",
-    "tour_name": "",
+    "tour_name": "Legends On Tour",
     "status": "on-sale"
   },
   {
@@ -35212,7 +35200,7 @@
     "venue": "Landmark Credit Union Live",
     "datetime_iso": "2026-11-22T01:00:00Z",
     "timezone": "America/Chicago",
-    "tour_name": "",
+    "tour_name": "Legends On Tour",
     "status": "on-sale"
   },
   {
@@ -35224,7 +35212,7 @@
     "venue": "Armory",
     "datetime_iso": "2026-11-23T01:00:00Z",
     "timezone": "America/Chicago",
-    "tour_name": "",
+    "tour_name": "Legends On Tour",
     "status": "on-sale"
   },
   {
@@ -35236,7 +35224,7 @@
     "venue": "The Salt Shed Indoors (Shed)",
     "datetime_iso": "2026-11-25T01:00:00Z",
     "timezone": "America/Chicago",
-    "tour_name": "",
+    "tour_name": "Legends On Tour",
     "status": "on-sale"
   },
   {
@@ -35248,7 +35236,7 @@
     "venue": "Vibrant Music Hall",
     "datetime_iso": "2026-11-26T01:00:00Z",
     "timezone": "America/Chicago",
-    "tour_name": "",
+    "tour_name": "Legends On Tour",
     "status": "on-sale"
   },
   {
@@ -35260,7 +35248,7 @@
     "venue": "The Factory",
     "datetime_iso": "2026-11-28T01:00:00Z",
     "timezone": "America/Chicago",
-    "tour_name": "",
+    "tour_name": "Legends On Tour",
     "status": "on-sale"
   },
   {
@@ -35272,7 +35260,7 @@
     "venue": "The Andrew J Brady Music Center",
     "datetime_iso": "2026-11-29T00:00:00Z",
     "timezone": "America/New_York",
-    "tour_name": "",
+    "tour_name": "Legends On Tour",
     "status": "on-sale"
   },
   {
@@ -35284,7 +35272,7 @@
     "venue": "The Fillmore Detroit",
     "datetime_iso": "2026-11-29T23:00:00Z",
     "timezone": "America/New_York",
-    "tour_name": "",
+    "tour_name": "Legends On Tour",
     "status": "on-sale"
   },
   {
@@ -35296,7 +35284,7 @@
     "venue": "MGM Music Hall at Fenway",
     "datetime_iso": "2026-12-02T00:00:00Z",
     "timezone": "America/New_York",
-    "tour_name": "",
+    "tour_name": "Legends On Tour",
     "status": "on-sale"
   },
   {
@@ -35308,7 +35296,7 @@
     "venue": "The Met Presented by Highmark",
     "datetime_iso": "2026-12-03T00:00:00Z",
     "timezone": "America/New_York",
-    "tour_name": "",
+    "tour_name": "Legends On Tour",
     "status": "on-sale"
   },
   {
@@ -35320,7 +35308,7 @@
     "venue": "The Dome by Rutter Mills",
     "datetime_iso": "2026-12-06T00:00:00Z",
     "timezone": "America/New_York",
-    "tour_name": "",
+    "tour_name": "Legends On Tour",
     "status": "on-sale"
   },
   {
@@ -35332,7 +35320,7 @@
     "venue": "The Theater at MGM National Harbor",
     "datetime_iso": "2026-12-07T00:00:00Z",
     "timezone": "America/New_York",
-    "tour_name": "",
+    "tour_name": "Legends On Tour",
     "status": "on-sale"
   },
   {
@@ -35344,7 +35332,7 @@
     "venue": "Coca-Cola Roxy",
     "datetime_iso": "2026-12-09T00:00:00Z",
     "timezone": "America/New_York",
-    "tour_name": "",
+    "tour_name": "Legends On Tour",
     "status": "on-sale"
   },
   {
@@ -36940,7 +36928,7 @@
     "venue": "Spark Arena",
     "datetime_iso": "2026-10-20T05:30:00Z",
     "timezone": "Pacific/Auckland",
-    "tour_name": "",
+    "tour_name": "the lucky me tour",
     "status": "on-sale"
   },
   {
@@ -36952,7 +36940,7 @@
     "venue": "Palacio de los Deportes",
     "datetime_iso": "2027-02-13T01:30:00Z",
     "timezone": "America/Mexico_City",
-    "tour_name": "",
+    "tour_name": "the lucky me tour",
     "status": "on-sale"
   },
   {
@@ -36964,7 +36952,7 @@
     "venue": "Palacio de los Deportes",
     "datetime_iso": "2027-02-14T01:30:00Z",
     "timezone": "America/Mexico_City",
-    "tour_name": "",
+    "tour_name": "the lucky me tour",
     "status": "on-sale"
   },
   {
@@ -36976,7 +36964,7 @@
     "venue": "Auditorio Telmex",
     "datetime_iso": "2027-02-16T02:30:00Z",
     "timezone": "America/Mexico_City",
-    "tour_name": "",
+    "tour_name": "the lucky me tour",
     "status": "on-sale"
   },
   {
@@ -37048,7 +37036,7 @@
     "venue": "SaSaZu",
     "datetime_iso": "2027-03-14T19:00:00Z",
     "timezone": "Europe/Prague",
-    "tour_name": "",
+    "tour_name": "The Over Country Tour",
     "status": "on-sale"
   },
   {
@@ -40568,18 +40556,6 @@
     "status": "announced"
   },
   {
-    "id": "tm-rod-stewart-2027-dublin-1abzkfygkdqi3oq",
-    "artist_slug": "rod-stewart",
-    "artist_name": "Rod Stewart",
-    "country": "Ireland",
-    "city": "Dublin",
-    "venue": "3Arena",
-    "datetime_iso": "2027-04-23T17:00:00Z",
-    "timezone": "Europe/London",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-rod-stewart-2027-dublin-1avoz_kgkw68xnf",
     "artist_slug": "rod-stewart",
     "artist_name": "Rod Stewart",
@@ -40587,30 +40563,6 @@
     "city": "Dublin",
     "venue": "3Arena",
     "datetime_iso": "2027-04-24T17:00:00Z",
-    "timezone": "Europe/London",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-rod-stewart-2027-belfast-1azzkfygkdgr3ds",
-    "artist_slug": "rod-stewart",
-    "artist_name": "Rod Stewart",
-    "country": "Great Britain",
-    "city": "Belfast",
-    "venue": "The O2 Belfast",
-    "datetime_iso": "2027-04-27T17:00:00Z",
-    "timezone": "Europe/London",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-rod-stewart-2027-glasgow-1auzkfmgkdmgbjs",
-    "artist_slug": "rod-stewart",
-    "artist_name": "Rod Stewart",
-    "country": "Great Britain",
-    "city": "Glasgow",
-    "venue": "OVO Hydro",
-    "datetime_iso": "2027-04-29T17:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
     "status": "on-sale"
@@ -42436,6 +42388,1542 @@
     "venue": "Coliseo GNP Seguros",
     "datetime_iso": "2026-12-10T03:00:00Z",
     "timezone": "America/Mexico_City",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2026-houston-z7r9jz1a7-mum",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "country": "United States Of America",
+    "city": "Houston",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2026-10-17T00:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2026-dallas-vvg1yz_kmvonlg",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "country": "United States Of America",
+    "city": "Dallas",
+    "venue": "American Airlines Center",
+    "datetime_iso": "2026-10-18T00:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2026-austin-g5diz_kmlrxx1",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "country": "United States Of America",
+    "city": "Austin",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2026-10-19T00:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2026-phoenix-1av0z_kgkmn6hu7",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "country": "United States Of America",
+    "city": "Phoenix",
+    "venue": "Mortgage Matchup Center",
+    "datetime_iso": "2026-10-21T02:00:00Z",
+    "timezone": "America/Phoenix",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2026-san-diego-vvg1iz_kucq_7i",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "country": "United States Of America",
+    "city": "San Diego",
+    "venue": "Viejas Arena at Aztec Bowl San Diego State University",
+    "datetime_iso": "2026-10-22T02:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2026-las-vegas-z7r9jz1a7-muy",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "country": "United States Of America",
+    "city": "Las Vegas",
+    "venue": "T-Mobile Arena",
+    "datetime_iso": "2026-10-24T02:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2026-los-angeles-g5eyz_ku9s8xi",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "country": "United States Of America",
+    "city": "Los Angeles",
+    "venue": "Crypto.com Arena",
+    "datetime_iso": "2026-10-25T02:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2027-dublin-17kzv0g62rlynaf",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "country": "Ireland",
+    "city": "Dublin",
+    "venue": "3Arena",
+    "datetime_iso": "2027-05-12T17:00:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2027-newcastle-upon-tyne-g5vhz_8kkspwo",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "country": "Great Britain",
+    "city": "Newcastle Upon Tyne",
+    "venue": "Utilita Arena Newcastle",
+    "datetime_iso": "2027-05-14T17:00:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2027-manchester-1amzkf7gkderotz",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "country": "Great Britain",
+    "city": "Manchester",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-05-15T17:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2027-leeds-g5vhz_8pmm7nv",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "country": "Great Britain",
+    "city": "Leeds",
+    "venue": "Leeds First Direct Bank Arena",
+    "datetime_iso": "2027-05-17T17:00:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2027-glasgow-1auzkf7gkdxjsmu",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "country": "Great Britain",
+    "city": "Glasgow",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-05-19T17:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2027-birmingham-1anzkf7gkdaoymm",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "country": "Great Britain",
+    "city": "Birmingham",
+    "venue": "Utilita Arena Birmingham",
+    "datetime_iso": "2027-05-21T17:00:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2027-london-g5vhz_83wtacz",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "country": "Great Britain",
+    "city": "London",
+    "venue": "Alexandra Palace",
+    "datetime_iso": "2027-05-22T17:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2027-cardiff-1auzkf7gkevbx3b",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "country": "Great Britain",
+    "city": "Cardiff",
+    "venue": "Utilita Arena Cardiff",
+    "datetime_iso": "2027-05-23T17:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2027-oslo-z698xzb_z16vpd8jgb",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "country": "Norway",
+    "city": "Oslo",
+    "venue": "Oslo Spektrum",
+    "datetime_iso": "2027-05-29T17:30:00Z",
+    "timezone": "Europe/Oslo",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-weezer-2027-helsinki-z698xz8kz1ku3e4ea",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "country": "Finland",
+    "city": "Helsinki",
+    "venue": "Veikkaus Arena",
+    "datetime_iso": "2027-06-01T15:00:00Z",
+    "timezone": "Europe/Helsinki",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ella-langley-2026-des-moines-z7r9jz1a7pwkk",
+    "artist_slug": "ella-langley",
+    "artist_name": "Ella Langley",
+    "country": "United States Of America",
+    "city": "Des Moines",
+    "venue": "Casey's Center",
+    "datetime_iso": "2026-10-30T00:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ella-langley-2026-lincoln-vvg1bz_u6bp0me",
+    "artist_slug": "ella-langley",
+    "artist_name": "Ella Langley",
+    "country": "United States Of America",
+    "city": "Lincoln",
+    "venue": "Pinnacle Bank Arena",
+    "datetime_iso": "2026-10-31T00:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ella-langley-2026-saint-paul-z7r9jz1a7ppo7",
+    "artist_slug": "ella-langley",
+    "artist_name": "Ella Langley",
+    "country": "United States Of America",
+    "city": "Saint Paul",
+    "venue": "Grand Casino Arena",
+    "datetime_iso": "2026-11-01T00:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-aerosmith-2026-hollywood-vvg1iz_kzl1gke",
+    "artist_slug": "aerosmith",
+    "artist_name": "Aerosmith",
+    "country": "United States Of America",
+    "city": "Hollywood",
+    "venue": "Hollywood Bowl",
+    "datetime_iso": "2026-10-30T02:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-aerosmith-2026-hollywood-vvg1iz_kzl5ikm",
+    "artist_slug": "aerosmith",
+    "artist_name": "Aerosmith",
+    "country": "United States Of America",
+    "city": "Hollywood",
+    "venue": "Hollywood Bowl",
+    "datetime_iso": "2026-11-02T02:30:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2026-portland-vvg1hzbmka2ayz",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "country": "United States Of America",
+    "city": "Portland",
+    "venue": "Moda Center",
+    "datetime_iso": "2026-10-17T03:30:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2026-seattle-vvg1hzbmeehmj0",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "country": "United States Of America",
+    "city": "Seattle",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2026-10-18T03:30:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2026-rosemont-vv167zkuuokza2adc5",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "country": "United States Of America",
+    "city": "Rosemont",
+    "venue": "Allstate Arena",
+    "datetime_iso": "2026-10-31T01:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2026-detroit-vv1fozbj3ezozd87v",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "country": "United States Of America",
+    "city": "Detroit",
+    "venue": "Little Caesars Arena",
+    "datetime_iso": "2026-11-02T02:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2026-houston-z7r9jz1a7rbk4",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "country": "United States Of America",
+    "city": "Houston",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2026-11-07T02:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2026-austin-g5dizbmoaqckm",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "country": "United States Of America",
+    "city": "Austin",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2026-11-09T02:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2026-ciudad-de-mexico-17azv0g6glh8hre",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "country": "Mexico",
+    "city": "Ciudad de México",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2026-12-17T03:00:00Z",
+    "timezone": "America/Mexico_City",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2026-ciudad-de-mexico-17azv0g6gcz4ax4",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "country": "Mexico",
+    "city": "Ciudad de México",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2026-12-18T03:00:00Z",
+    "timezone": "America/Mexico_City",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-columbus-vv17fz_8gkvoktkm",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Columbus",
+    "venue": "Nationwide Arena",
+    "datetime_iso": "2026-10-16T23:30:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-lexington-1avbz_8gkb06ivs",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Lexington",
+    "venue": "Rupp Arena",
+    "datetime_iso": "2026-10-17T23:30:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-cleveland-z7r9jz1aazw4y",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Cleveland",
+    "venue": "Rocket Arena",
+    "datetime_iso": "2026-10-19T23:30:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-buffalo-k7vgf_8deoygx",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Buffalo",
+    "venue": "KeyBank Center",
+    "datetime_iso": "2026-10-20T23:30:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-rosemont-vv178z_8gkymmwt7",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Rosemont",
+    "venue": "Allstate Arena",
+    "datetime_iso": "2026-10-23T00:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-toronto-1avzz_ogkui9hto",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "Canada",
+    "city": "Toronto",
+    "venue": "Scotiabank Arena",
+    "datetime_iso": "2026-10-24T23:30:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-detroit-vv17oz_8gksd_91x",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Detroit",
+    "venue": "Little Caesars Arena",
+    "datetime_iso": "2026-10-25T23:30:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-pittsburgh-1avbz_8gky0yxyy",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Pittsburgh",
+    "venue": "PPG Paints Arena",
+    "datetime_iso": "2026-10-26T23:30:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-milwaukee-vv17jz_8gkmhf3ll",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Milwaukee",
+    "venue": "Fiserv Forum",
+    "datetime_iso": "2026-11-02T01:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-saint-paul-z7r9jz1aazwba",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Saint Paul",
+    "venue": "Grand Casino Arena",
+    "datetime_iso": "2026-11-03T01:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-kansas-city-vv17bz_8gkbffbsf",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Kansas City",
+    "venue": "T-Mobile Center",
+    "datetime_iso": "2026-11-04T01:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-nashville-g5viz_8vksnah",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Nashville",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2026-11-06T01:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-birmingham-1aezz_8gkmdc0pi",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Birmingham",
+    "venue": "Legacy Arena at the BJCC",
+    "datetime_iso": "2026-11-07T01:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-houston-z7r9jz1aavxjk",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Houston",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2026-11-09T01:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-oklahoma-city-vvg1yz_8mnyt3j",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Oklahoma City",
+    "venue": "Paycom Center",
+    "datetime_iso": "2026-11-10T01:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-dallas-vvg1yz_8uftpd5",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Dallas",
+    "venue": "American Airlines Center",
+    "datetime_iso": "2026-11-11T01:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-austin-g5diz_8vesk58",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Austin",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2026-11-14T01:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-san-antonio-g5diz_8uwwbjr",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "San Antonio",
+    "venue": "Frost Bank Center",
+    "datetime_iso": "2026-11-15T01:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-palm-desert-vvg1iz_8yuodgq",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Palm Desert",
+    "venue": "Acrisure Arena at Greater Palm Springs",
+    "datetime_iso": "2026-11-18T03:30:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-hollywood-vvg1iz_8duyuu5",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Hollywood",
+    "venue": "Hollywood Bowl",
+    "datetime_iso": "2026-11-19T03:30:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-hollywood-vvg1iz_o7yeh8v",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Hollywood",
+    "venue": "Hollywood Bowl",
+    "datetime_iso": "2026-11-20T03:30:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-san-francisco-g5vyz_8sbxulz",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "San Francisco",
+    "venue": "Chase Center",
+    "datetime_iso": "2026-11-22T03:30:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-sacramento-g5vyz_8sde9yz",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Sacramento",
+    "venue": "Golden 1 Center",
+    "datetime_iso": "2026-11-23T03:30:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-glendale-1av0z_8gkmoa_ep",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Glendale",
+    "venue": "Desert Diamond Arena",
+    "datetime_iso": "2026-11-28T02:30:00Z",
+    "timezone": "America/Phoenix",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-las-vegas-z7r9jz1aazwb_",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Las Vegas",
+    "venue": "MGM Grand Garden Arena",
+    "datetime_iso": "2026-11-29T03:30:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-san-diego-vvg1iz_8uk3mob",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "San Diego",
+    "venue": "Viejas Arena at Aztec Bowl San Diego State University",
+    "datetime_iso": "2026-12-01T03:30:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-anaheim-vv170z_8gkskkuxl",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Anaheim",
+    "venue": "Honda Center",
+    "datetime_iso": "2026-12-03T03:30:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-seattle-vvg1hz_8uqqunb",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Seattle",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2026-12-06T03:30:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-salt-lake-city-z7r9jz1aazwb9",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Salt Lake City",
+    "venue": "Delta Center",
+    "datetime_iso": "2026-12-08T02:30:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-denver-g5vzz_8u_uayk",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Denver",
+    "venue": "Ball Arena",
+    "datetime_iso": "2026-12-10T02:30:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-lincoln-vv17bz_8gkmchsxu",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Lincoln",
+    "venue": "Pinnacle Bank Arena",
+    "datetime_iso": "2026-12-11T01:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-sioux-falls-vv17bz_8gkdvaovc",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Sioux Falls",
+    "venue": "Denny Sanford PREMIER Center",
+    "datetime_iso": "2026-12-13T01:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-grand-rapids-vv17oz_8gkbyzdvo",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Grand Rapids",
+    "venue": "Van Andel Arena",
+    "datetime_iso": "2026-12-16T00:30:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-belmont-park-1adzz_8gku_lwnk",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Belmont Park",
+    "venue": "UBS Arena",
+    "datetime_iso": "2026-12-20T00:30:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-newark-vv17fz_8gkzo23wg",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Newark",
+    "venue": "Prudential Center",
+    "datetime_iso": "2026-12-22T00:30:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jonas-brothers-2026-newark-vv17fz_8gkzo8xsx",
+    "artist_slug": "jonas-brothers",
+    "artist_name": "Jonas Brothers",
+    "country": "United States Of America",
+    "city": "Newark",
+    "venue": "Prudential Center",
+    "datetime_iso": "2026-12-23T00:30:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-brent-faiyaz-2026-chicago-vv1a7zkfwgkda-klv",
+    "artist_slug": "brent-faiyaz",
+    "artist_name": "Brent Faiyaz",
+    "country": "United States Of America",
+    "city": "Chicago",
+    "venue": "United Center",
+    "datetime_iso": "2026-12-01T02:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-brent-faiyaz-2026-brooklyn-1adzz_3gkxkyvwj",
+    "artist_slug": "brent-faiyaz",
+    "artist_name": "Brent Faiyaz",
+    "country": "United States Of America",
+    "city": "Brooklyn",
+    "venue": "Barclays Center",
+    "datetime_iso": "2026-12-04T01:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-brent-faiyaz-2026-los-angeles-z7r9jz1aae7ub",
+    "artist_slug": "brent-faiyaz",
+    "artist_name": "Brent Faiyaz",
+    "country": "United States Of America",
+    "city": "Los Angeles",
+    "venue": "Crypto.com Arena",
+    "datetime_iso": "2026-12-12T04:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-raye-2026-london-g5vhz_frai-ph",
+    "artist_slug": "raye",
+    "artist_name": "RAYE",
+    "country": "Great Britain",
+    "city": "London",
+    "venue": "Royal Albert Hall",
+    "datetime_iso": "2026-10-23T18:15:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-bryan-2027-indianapolis-vv17fz_fgkwtxpko",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "country": "United States Of America",
+    "city": "Indianapolis",
+    "venue": "Lucas Oil Stadium",
+    "datetime_iso": "2027-05-01T23:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-zach-bryan-2027-green-bay-vv17jz_fgkshdkie",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "country": "United States Of America",
+    "city": "Green Bay",
+    "venue": "Lambeau Field",
+    "datetime_iso": "2027-05-05T00:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-zach-bryan-2027-east-rutherford-k7vgf_fsxrnwp",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "country": "United States Of America",
+    "city": "East Rutherford",
+    "venue": "MetLife Stadium",
+    "datetime_iso": "2027-05-14T23:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-zach-bryan-2027-east-rutherford-k7vgf_fs0cbhd",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "country": "United States Of America",
+    "city": "East Rutherford",
+    "venue": "MetLife Stadium",
+    "datetime_iso": "2027-05-15T23:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-zach-bryan-2027-philadelphia-vv17fz_fgksiy1rz",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "country": "United States Of America",
+    "city": "Philadelphia",
+    "venue": "Lincoln Financial Field",
+    "datetime_iso": "2027-05-25T23:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-zach-bryan-2027-atlanta-vvg1zz_fwy55os",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "country": "United States Of America",
+    "city": "Atlanta",
+    "venue": "Mercedes-Benz Stadium",
+    "datetime_iso": "2027-05-29T23:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-zach-bryan-2027-orchard-park-vv17gz_fgksis3fj",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "country": "United States Of America",
+    "city": "Orchard Park",
+    "venue": "Highmark Stadium",
+    "datetime_iso": "2027-06-02T23:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-zach-bryan-2027-las-vegas-1avjz_fgkwbrzg6",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "country": "United States Of America",
+    "city": "Las Vegas",
+    "venue": "Allegiant Stadium",
+    "datetime_iso": "2027-07-17T02:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-zach-bryan-2027-inglewood-vvg1iz_frht9v6",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "country": "United States Of America",
+    "city": "Inglewood",
+    "venue": "SoFi Stadium",
+    "datetime_iso": "2027-07-21T02:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-zach-bryan-2027-seattle-vvg1hz_fytloed",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "country": "United States Of America",
+    "city": "Seattle",
+    "venue": "Lumen Field",
+    "datetime_iso": "2027-07-25T02:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-zach-bryan-2027-vancouver-1av7z_fgks885w5",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "country": "Canada",
+    "city": "Vancouver",
+    "venue": "BC Place",
+    "datetime_iso": "2027-07-29T02:00:00Z",
+    "timezone": "America/Vancouver",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-zach-bryan-2027-edmonton-1av7z_fgkw2fvlh",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "country": "Canada",
+    "city": "Edmonton",
+    "venue": "Commonwealth Stadium / Stade du Commonwealth",
+    "datetime_iso": "2027-08-02T00:30:00Z",
+    "timezone": "America/Edmonton",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-zach-bryan-2027-boise-g5vzz_fsbnh4h",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "country": "United States Of America",
+    "city": "Boise",
+    "venue": "Albertsons Stadium",
+    "datetime_iso": "2027-08-07T01:00:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2027-helsinki-z698xz8kz16evk7gay",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "country": "Finland",
+    "city": "Helsinki",
+    "venue": "Veikkaus Arena",
+    "datetime_iso": "2027-02-22T16:30:00Z",
+    "timezone": "Europe/Helsinki",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-morat-2026-valencia-z698xz2qz1aofa18",
+    "artist_slug": "morat",
+    "artist_name": "Morat",
+    "country": "Spain",
+    "city": "Valencia",
+    "venue": "Roig Arena",
+    "datetime_iso": "2026-10-23T15:00:00Z",
+    "timezone": "Europe/Madrid",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-morat-2026-sevilla-z698xz2qz16vb7goa0",
+    "artist_slug": "morat",
+    "artist_name": "Morat",
+    "country": "Spain",
+    "city": "Sevilla",
+    "venue": "Ctro Andaluz  Arte Contemporaneo",
+    "datetime_iso": "2026-10-25T15:30:00Z",
+    "timezone": "Europe/Madrid",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-morat-2026-madrid-z698xz2qz1kv97no3",
+    "artist_slug": "morat",
+    "artist_name": "Morat",
+    "country": "Spain",
+    "city": "Madrid",
+    "venue": "Movistar Arena",
+    "datetime_iso": "2026-10-27T16:00:00Z",
+    "timezone": "Europe/Madrid",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-morat-2026-madrid-z698xz2qz16vao-oox",
+    "artist_slug": "morat",
+    "artist_name": "Morat",
+    "country": "Spain",
+    "city": "Madrid",
+    "venue": "Movistar Arena",
+    "datetime_iso": "2026-10-28T16:00:00Z",
+    "timezone": "Europe/Madrid",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-morat-2026-madrid-z698xz2qz16v0v0ypz",
+    "artist_slug": "morat",
+    "artist_name": "Morat",
+    "country": "Spain",
+    "city": "Madrid",
+    "venue": "Movistar Arena",
+    "datetime_iso": "2026-10-30T16:00:00Z",
+    "timezone": "Europe/Madrid",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-michelle-branch-2027-toronto-1a8zk4kgkdkp6j5",
+    "artist_slug": "michelle-branch",
+    "artist_name": "Michelle Branch",
+    "country": "Canada",
+    "city": "Toronto",
+    "venue": "History Toronto",
+    "datetime_iso": "2027-03-30T23:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-michelle-branch-2027-toronto-1a8zk4kgkdkj6jq",
+    "artist_slug": "michelle-branch",
+    "artist_name": "Michelle Branch",
+    "country": "Canada",
+    "city": "Toronto",
+    "venue": "History Toronto",
+    "datetime_iso": "2027-03-31T23:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2027-dublin-1avoz_fgkugispy",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "country": "Ireland",
+    "city": "Dublin",
+    "venue": "National Stadium",
+    "datetime_iso": "2027-01-26T19:00:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2027-manchester-g5vhz_fudi7pq",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "country": "Great Britain",
+    "city": "Manchester",
+    "venue": "Albert Hall",
+    "datetime_iso": "2027-01-28T19:00:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sylvan-esso-2027-london-g5dzz_fua9vy_",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "country": "Great Britain",
+    "city": "London",
+    "venue": "Troxy",
+    "datetime_iso": "2027-01-29T19:00:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-montreal-1aszkfngkely6-x",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "country": "Canada",
+    "city": "Montreal",
+    "venue": "MTELUS",
+    "datetime_iso": "2027-02-18T01:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-roseville-z7r9jz1aavy-u",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "country": "United States Of America",
+    "city": "Roseville",
+    "venue": "Goldfield Trading Post - Roseville",
+    "datetime_iso": "2027-03-06T03:30:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-portland-z7r9jz1aavv7i",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "country": "United States Of America",
+    "city": "Portland",
+    "venue": "Hawthorne Theatre",
+    "datetime_iso": "2027-03-11T04:30:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-portland-z7r9jz1aaeekk",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "country": "United States Of America",
+    "city": "Portland",
+    "venue": "Hawthorne Theatre",
+    "datetime_iso": "2027-05-13T03:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fantasia-2027-houston-z7r9jz1aa74o6",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "country": "United States Of America",
+    "city": "Houston",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2027-03-13T02:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-greta-van-fleet-2027-glasgow-1auzkfugkd_hipm",
+    "artist_slug": "greta-van-fleet",
+    "artist_name": "Greta Van Fleet",
+    "country": "Great Britain",
+    "city": "Glasgow",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-06-02T17:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fontaines-d-c-2026-manchester-g5vhz_okyh0m1",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "country": "Great Britain",
+    "city": "Manchester",
+    "venue": "AO Arena",
+    "datetime_iso": "2026-11-21T18:00:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fontaines-d-c-2026-glasgow-1adbz_8gkucuwyw",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "country": "Great Britain",
+    "city": "Glasgow",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2026-11-22T18:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fontaines-d-c-2027-nashville-z7r9jz1aa7vxe",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "country": "United States Of America",
+    "city": "Nashville",
+    "venue": "The Pinnacle - TN",
+    "datetime_iso": "2027-10-05T01:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-oslo-z698xzb_z16v-jveop",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "country": "Norway",
+    "city": "Oslo",
+    "venue": "Rockefeller",
+    "datetime_iso": "2027-03-05T18:00:00Z",
+    "timezone": "Europe/Oslo",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-def-leppard-2027-minneapolis-z7r9jz1aa7eoa",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "country": "United States Of America",
+    "city": "Minneapolis",
+    "venue": "Target Center",
+    "datetime_iso": "2027-03-28T00:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-def-leppard-2027-salt-lake-city-z7r9jz1aa7eo3",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "country": "United States Of America",
+    "city": "Salt Lake City",
+    "venue": "Delta Center",
+    "datetime_iso": "2027-04-01T01:00:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-def-leppard-2027-kansas-city-z7r9jz1aa7eof",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "country": "United States Of America",
+    "city": "Kansas City",
+    "venue": "T-Mobile Center",
+    "datetime_iso": "2027-04-27T00:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-def-leppard-2027-spokane-z7r9jz1aa7eoo",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "country": "United States Of America",
+    "city": "Spokane",
+    "venue": "Numerica Veterans Arena",
+    "datetime_iso": "2027-05-12T02:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-def-leppard-2027-houston-z7r9jz1aa7eob",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "country": "United States Of America",
+    "city": "Houston",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2027-06-02T00:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-def-leppard-2027-cleveland-z7r9jz1aa7eo8",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "country": "United States Of America",
+    "city": "Cleveland",
+    "venue": "Rocket Arena",
+    "datetime_iso": "2027-06-21T23:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-nickelback-2027-cleveland-z7r9jz1aa774f",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "country": "United States Of America",
+    "city": "Cleveland",
+    "venue": "Rocket Arena",
+    "datetime_iso": "2027-02-12T23:30:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-nickelback-2027-saint-paul-z7r9jz1aa774k",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "country": "United States Of America",
+    "city": "Saint Paul",
+    "venue": "Grand Casino Arena",
+    "datetime_iso": "2027-03-30T23:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-nickelback-2027-las-vegas-z7r9jz1aa7746",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "country": "United States Of America",
+    "city": "Las Vegas",
+    "venue": "T-Mobile Arena",
+    "datetime_iso": "2027-04-17T01:30:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-nickelback-2027-salt-lake-city-z7r9jz1aa774a",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "country": "United States Of America",
+    "city": "Salt Lake City",
+    "venue": "Delta Center",
+    "datetime_iso": "2027-04-23T00:30:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-nickelback-2027-houston-z7r9jz1aa774o",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "country": "United States Of America",
+    "city": "Houston",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2027-04-29T23:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-nickelback-2027-london-1agzk46gkddli7z",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "country": "Great Britain",
+    "city": "London",
+    "venue": "The O2",
+    "datetime_iso": "2027-05-24T16:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mico-2027-jacksonville-z7r9jz1aa7a4e",
+    "artist_slug": "mico",
+    "artist_name": "Mico",
+    "country": "United States Of America",
+    "city": "Jacksonville",
+    "venue": "FIVE",
+    "datetime_iso": "2027-02-24T01:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mico-2027-lawrence-z7r9jz1aa7a_g",
+    "artist_slug": "mico",
+    "artist_name": "Mico",
+    "country": "United States Of America",
+    "city": "Lawrence",
+    "venue": "Granada - KS",
+    "datetime_iso": "2027-03-07T02:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mei-semones-2027-los-angeles-z7r9jz1aa7e-9",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "country": "United States Of America",
+    "city": "Los Angeles",
+    "venue": "The Fonda Theatre",
+    "datetime_iso": "2027-04-24T04:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zwf9",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "country": "United States Of America",
+    "city": "Las Vegas",
+    "venue": "Sphere",
+    "datetime_iso": "2027-06-10T03:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7yuf_",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "country": "United States Of America",
+    "city": "Las Vegas",
+    "venue": "Sphere",
+    "datetime_iso": "2027-06-12T03:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7yufh",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "country": "United States Of America",
+    "city": "Las Vegas",
+    "venue": "Sphere",
+    "datetime_iso": "2027-06-13T03:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-toronto-1a8zk4agkeehx1f",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "country": "Canada",
+    "city": "Toronto",
+    "venue": "Rogers Centre",
+    "datetime_iso": "2027-03-08T01:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-leon-bridges-2027-saint-augustine-z7r9jz1aa7dqk",
+    "artist_slug": "leon-bridges",
+    "artist_name": "Leon Bridges",
+    "country": "United States Of America",
+    "city": "Saint Augustine",
+    "venue": "St Augustine Amphitheatre",
+    "datetime_iso": "2027-07-18T23:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-leon-bridges-2027-morrison-z7r9jz1aa7dvk",
+    "artist_slug": "leon-bridges",
+    "artist_name": "Leon Bridges",
+    "country": "United States Of America",
+    "city": "Morrison",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-08-04T01:30:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-leon-bridges-2027-vancouver-z7r9jz1aa7dr6",
+    "artist_slug": "leon-bridges",
+    "artist_name": "Leon Bridges",
+    "country": "Canada",
+    "city": "Vancouver",
+    "venue": "Freedom Mobile Arch",
+    "datetime_iso": "2027-08-15T02:30:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-leon-bridges-2027-columbus-z7r9jz1aa7dpa",
+    "artist_slug": "leon-bridges",
+    "artist_name": "Leon Bridges",
+    "country": "United States Of America",
+    "city": "Columbus",
+    "venue": "KEMBA Live!",
+    "datetime_iso": "2027-09-14T22:30:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-leon-bridges-2027-nashville-z7r9jz1aa7dqd",
+    "artist_slug": "leon-bridges",
+    "artist_name": "Leon Bridges",
+    "country": "United States Of America",
+    "city": "Nashville",
+    "venue": "Ascend Amphitheater",
+    "datetime_iso": "2027-09-22T00:30:00Z",
+    "timezone": "America/Chicago",
     "tour_name": "",
     "status": "on-sale"
   }

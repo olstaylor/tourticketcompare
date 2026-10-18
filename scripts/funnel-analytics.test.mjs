@@ -148,6 +148,10 @@ await test("page type covers every route class the site serves", () => {
     "/about": "trust",
     "/events/harry-styles-madison-square-garden-new-york-2026-10-14-85b43f3678adb716": "event",
     "/events/a/b": "other",
+    "/blog": "blog_index",
+    "/blog/tags/tour-buying": "blog_index",
+    "/blog/olivia-rodrigo-unraveled-tour-ticket-types": "blog",
+    "/blog/rss.xml/extra": "other",
     "/nonsense/deep/path": "other"
   };
   for (const [path, expected] of Object.entries(cases)) {
@@ -178,7 +182,8 @@ await test("client page-type classifier agrees with the server", async () => {
     "/artists/harry-styles/together-together", "/cities", "/cities/london-united-kingdom", "/venues",
     "/venues/wembley-stadium", "/guides", "/guides/how-to-avoid-ticket-scams",
     "/compare-concert-ticket-prices", "/currency-converter", "/about", "/contact", "/nonsense/deep/path",
-    "/artists/harry-styles/", "/events/harry-styles-madison-square-garden-new-york-2026-10-14-85b43f3678adb716", "/events/a/b"
+    "/artists/harry-styles/", "/events/harry-styles-madison-square-garden-new-york-2026-10-14-85b43f3678adb716", "/events/a/b",
+    "/blog", "/blog/tags/tour-buying", "/blog/olivia-rodrigo-unraveled-tour-ticket-types"
   ];
   for (const path of paths) {
     assert.equal(clientPageType(path), classifyPageType(path), `client and server disagree on ${path}`);

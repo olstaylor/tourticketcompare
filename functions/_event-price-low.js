@@ -132,12 +132,14 @@ function lowestCandidate(candidates) {
  * holds for it.
  *
  * `seriesFor(lane)` returns that lane's history candidates as
- * `{ carryIn, windowMin }`, each `{ price, currency, observedAt }` or null.
+ * `{ byCurrency: Map<currency, {carryIn, windowMin}> }`. Legacy single-currency
+ * `{carryIn, windowMin}` inputs remain supported; each observation retains its
+ * price, currency and observation time.
  * Injected rather than queried here so the whole rule is testable against
  * fixtures with no D1.
  *
  * @param {Array<{provider: string, name: string, price: number, currency: string, fetchedAt: string}>} lanes
- * @param {(lane: any) => {carryIn?: any, windowMin?: any}|null} seriesFor
+ * @param {(lane: any) => {carryIn?: any, windowMin?: any, byCurrency?: Map<string, any>}|null} seriesFor
  * @returns {PriceLowObservation|null}
  */
 export function deriveEventPriceLow(lanes, seriesFor) {
@@ -159,7 +161,12 @@ export function deriveEventPriceLow(lanes, seriesFor) {
   // wins the comparison either way.
   let backedByHistory = false;
   for (const lane of eligible) {
-    const series = seriesFor(lane) || {};
+    const recorded = seriesFor(lane) || {};
+    // Preserve every currency until this point: only the live, gated lane
+    // tells us which currency may contribute to the public comparison.
+    const series = recorded.byCurrency instanceof Map
+      ? recorded.byCurrency.get(currency) || {}
+      : recorded;
     // A history row in a different currency from the lane's live badge is a
     // different market's figure and is dropped rather than converted.
     const sameCurrency = (row) =>
@@ -198,26 +205,25 @@ export function deriveEventPriceLow(lanes, seriesFor) {
 /**
  * Read one window's history candidates for a set of events, batched.
  *
- * Two statements per chunk rather than one, because they ask different
- * questions and each leans on the same documented SQLite guarantee: when a
- * query contains exactly one `min()` or `max()` aggregate, every bare column in
- * the result takes its value from the row that produced that extreme. So the
- * in-window statement returns the observation time OF the cheapest row, and the
- * carry-in statement returns the price OF the newest row at or before the
- * window — without a window function or a second round trip.
+ * Split each series into two complementary index ranges. The window-minimum
+ * query reads the window plus its immediate predecessor; the carry-in query
+ * reads the earlier history plus its immediate successor. Each candidate
+ * therefore retains BOTH original neighbours before spike filtering. In
+ * particular, arbitrarily many adjacent glitches before the window cannot
+ * turn an unvalidated boundary row into the carry-in.
  *
- * Each provider/source lane is an independent indexed lookup. Keeping the
- * bindings below the existing 50-id budget means a multi-lane board is split
- * into smaller chunks: that adds a few cheap statements, but lets D1 seek the
- * exact `(event_id, provider, source)` series through
- * `idx_provider_pricing_history_event_provider_source_observed` instead of
- * scanning every approved lane together before the window function runs.
+ * Each event/provider/source series is an independent indexed lookup.
+ * The former two queries each scanned the whole retained series. These read
+ * it once between them, plus at most two boundary context rows per series.
+ * Numbered parameters reuse event/lane/boundary bindings across branches, so
+ * the same batching budget does not add round trips. Two chunks run together
+ * (at most four queries), leaving D1 connections for the caller's other reads.
  *
  * @param {any} db D1 binding.
  * @param {string[]} eventIds
  * @param {Array<{dbKey: string, approvedSource: string}>} lanes Approved numeric lanes.
  * @param {{now?: number, windowDays?: number}} [options]
- * @returns {Promise<Map<string, {carryIn: any, windowMin: any}>>} Keyed `${eventId}|${providerSlug}`.
+ * @returns {Promise<Map<string, {carryIn: any, windowMin: any, byCurrency: Map<string, any>}>>} Keyed `${eventId}|${providerSlug}`.
  */
 export async function fetchEventPriceLowSeries(db, eventIds, lanes, options = {}) {
   const index = new Map();
@@ -229,74 +235,74 @@ export async function fetchEventPriceLowSeries(db, eventIds, lanes, options = {}
   const windowDays = Number.isFinite(options.windowDays) ? Number(options.windowDays) : PRICE_LOW_WINDOW_DAYS;
   const windowStart = new Date(now - windowDays * 24 * 60 * 60 * 1000).toISOString();
 
-  // The former single `event_id IN (...) AND (pair OR pair ...)` query caused
-  // D1 to scan millions of history rows before it could apply the window
-  // function. Give each approved pair its own UNION branch so all four leading
-  // index columns are constrained. Limit every statement to the same maximum
-  // number of event-id bindings as the former 50-id single-lane query.
   const idsPerChunk = Math.max(1, Math.floor(50 / laneList.length));
 
-  for (let offset = 0; offset < ids.length; offset += idsPerChunk) {
-    const chunk = ids.slice(offset, offset + idsPerChunk);
-    const idSql = chunk.map(() => "?").join(", ");
-
-    // Both reads run over the same guarded series: every row of the series
-    // (not only the window's) with its neighbours attached, minus the rows
-    // functions/_price-outliers.js calls an isolated spike, and minus rows
-    // under the plausibility floor. Neighbours are taken before the window
-    // filter, so a spike on the window's first day is still judged against
-    // the row before it. MIN()/MAX() stay the only aggregate in each outer
-    // statement, so the bare-column guarantee below still holds.
-    const exactSeriesSql = laneList.map(() =>
-      `SELECT event_id, provider, source, currency, low_price, observed_at
-       FROM provider_pricing_history
-       WHERE event_id IN (${idSql}) AND provider = ? AND source = ? AND low_price >= ${MIN_PLAUSIBLE_LISTED_PRICE}`
-    ).join(" UNION ALL ");
-    const exactSeriesBindings = laneList.flatMap((lane) => [
-      ...chunk,
-      lane.dbKey,
-      lane.approvedSource
-    ]);
-    const guardedSeries =
+  const readChunk = async (chunk) => {
+    const bindings = [...chunk, ...laneList.flatMap((lane) => [lane.dbKey, lane.approvedSource]), windowStart];
+    const boundary = `?${bindings.length}`;
+    const ranges = (inWindow) => chunk.flatMap((eventId, eventIndex) => laneList.map((lane, laneIndex) => {
+      const pairIndex = chunk.length + laneIndex * 2 + 1;
+      const exact = `event_id = ?${eventIndex + 1} AND provider = ?${pairIndex} AND source = ?${pairIndex + 1}`;
+      const columns = "event_id, provider, source, currency, low_price, observed_at";
+      return `SELECT ${columns} FROM provider_pricing_history
+              WHERE ${exact} AND low_price >= ${MIN_PLAUSIBLE_LISTED_PRICE}
+                AND observed_at ${inWindow ? ">=" : "<"} ${boundary}
+              UNION ALL SELECT ${columns} FROM (
+                SELECT ${columns} FROM provider_pricing_history
+                WHERE ${exact} AND low_price >= ${MIN_PLAUSIBLE_LISTED_PRICE}
+                  AND observed_at ${inWindow ? "<" : ">="} ${boundary}
+                ORDER BY observed_at ${inWindow ? "DESC" : "ASC"} LIMIT 1
+              )`;
+    })).join(" UNION ALL ");
+    const guardedSeries = (inWindow) =>
       `SELECT event_id, provider, currency, low_price, observed_at FROM (
-         SELECT event_id, provider, currency, low_price, observed_at,
+         SELECT event_id, provider, source, currency, low_price, observed_at,
                 LAG(low_price) OVER s AS prev_price, LEAD(low_price) OVER s AS next_price
-         FROM (${exactSeriesSql})
+         FROM (${ranges(inWindow)})
          WINDOW s AS (PARTITION BY event_id, provider, source ORDER BY observed_at)
        ) WHERE ${keepNonSpikeSql("low_price", "prev_price", "next_price")}`;
-    const windowMinSql =
-      `SELECT event_id, provider, currency, MIN(low_price) AS low_price, observed_at
-       FROM (${guardedSeries})
-       WHERE observed_at >= ?
-       GROUP BY event_id, provider, currency`;
-    const carryInSql =
-      `SELECT event_id, provider, currency, low_price, MAX(observed_at) AS observed_at
-       FROM (${guardedSeries})
-       WHERE observed_at < ?
-       GROUP BY event_id, provider, currency`;
-
-    const [windowRows, carryRows] = await Promise.all([
-      db.prepare(windowMinSql).bind(...exactSeriesBindings, windowStart).all(),
-      db.prepare(carryInSql).bind(...exactSeriesBindings, windowStart).all()
+    // Each outer query has exactly one min()/max(): SQLite's bare-column
+    // guarantee keeps the price/time from the row producing that extreme.
+    const windowSql = `SELECT event_id, provider, currency, MIN(low_price) AS low_price, observed_at
+                       FROM (${guardedSeries(true)}) WHERE observed_at >= ${boundary}
+                       GROUP BY event_id, provider, currency`;
+    const carrySql = `SELECT event_id, provider, currency, low_price, MAX(observed_at) AS observed_at
+                      FROM (${guardedSeries(false)}) WHERE observed_at < ${boundary}
+                      GROUP BY event_id, provider, currency`;
+    const results = await Promise.all([
+      db.prepare(windowSql).bind(...bindings).all(),
+      db.prepare(carrySql).bind(...bindings).all()
     ]);
-
-    const absorb = (result, field) => {
+    for (const [resultIndex, result] of results.entries()) {
+      const field = resultIndex === 0 ? "windowMin" : "carryIn";
       for (const row of Array.isArray(result?.results) ? result.results : []) {
         const eventId = String(row?.event_id || "").trim();
         const provider = String(row?.provider || "").trim();
+        const currency = String(row?.currency || "").trim().toUpperCase();
         if (!eventId || !provider) continue;
         const key = `${eventId}|${provider}`;
-        const entry = index.get(key) || { carryIn: null, windowMin: null };
-        entry[field] = {
-          price: Number(row?.low_price),
-          currency: String(row?.currency || "").trim().toUpperCase(),
+        const entry = index.get(key) || { carryIn: null, windowMin: null, byCurrency: new Map() };
+        const series = entry.byCurrency.get(currency) || { carryIn: null, windowMin: null };
+        series[field] = {
+          price: Number(row?.low_price), currency,
           observedAt: String(row?.observed_at || "").trim()
         };
+        entry.byCurrency.set(currency, series);
+        // Keep the existing single-currency shape for other direct consumers;
+        // mixed series are only readable by explicitly selecting a currency.
+        entry.carryIn = entry.byCurrency.size === 1 ? series.carryIn : null;
+        entry.windowMin = entry.byCurrency.size === 1 ? series.windowMin : null;
         index.set(key, entry);
       }
-    };
-    absorb(windowRows, "windowMin");
-    absorb(carryRows, "carryIn");
+    }
+  };
+
+  for (let offset = 0; offset < ids.length; offset += idsPerChunk * 2) {
+    await Promise.all([0, 1].map((part) => {
+      const start = offset + part * idsPerChunk;
+      const chunk = ids.slice(start, start + idsPerChunk);
+      return chunk.length ? readChunk(chunk) : undefined;
+    }));
   }
 
   return index;

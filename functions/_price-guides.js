@@ -30,7 +30,11 @@
 //      Owner decision 2026-10-17: a guide no longer waits on a hand-added slug
 //      when its data already qualifies. The list keeps guides live between
 //      tours; an unlisted guide that falls below the gate 301s to the artist
-//      page until its data qualifies again.
+//      page until its data qualifies again. scripts/propose-price-guides.mjs
+//      lists launch candidates in the rolling `automation:price-guide-candidates`
+//      issue, and its `--apply` mode pins every artist that would be indexed
+//      today into the list (SAFE_PUBLISHING_RULES.md → Sanctioned automated
+//      writers, group B).
 //
 //   3. NO FIGURE THE SITE CANNOT SOURCE. There is no approved face-value source,
 //      so the page states where face value is set and sold and prints none.

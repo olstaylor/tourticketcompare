@@ -3522,7 +3522,9 @@ function renderPriceGuideCityTables(artist, guide, rowById, lowByShowId, indexab
       const cityLink = indexableCitySlugs.has(city.slug)
         ? ` ${anchor(`All ${artist.name} dates in ${city.city}`, `/artists/${artist.slug}/tickets/${city.slug}`, "text-link")}`
         : "";
-      return `<h3>${escapeHtml(city.label)}${singleVenue ? ` · ${escapeHtml(singleVenue)}` : ""}</h3>${
+      // The heading names the artist and city so a "<artist> <city> ticket
+      // prices" search finds the matching table, not just the page.
+      return `<h3>${escapeHtml(`${artist.name} ticket prices in ${city.label}`)}${singleVenue ? ` · ${escapeHtml(singleVenue)}` : ""}</h3>${
         cityLink ? `<p>${cityLink}</p>` : ""
       }<div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">Lowest listed price by date for ${escapeHtml(
         artist.name
@@ -3638,6 +3640,18 @@ function priceGuideFaqEntries(route, view) {
   entries.push([
     `Where can I find the cheapest ${name} tickets?`,
     `Pick your date and city in the table on this page. For each date it shows the cheapest listed price among the ticket sites that had one, which site lists it and when it was checked. Fees can change the order once you reach checkout, so compare the final total and the seats on each ticket site before you pay.`
+  ]);
+  // Searchers ask whether the figures include fees and whether resale costs
+  // more than face value (Search Console, 2026-10: "<artist> fee",
+  // "<artist> resale"). Both answers describe what the figures are and print
+  // no new number.
+  entries.push([
+    `Do ${name} ticket prices include fees?`,
+    `Not always. Each price on this page is the ticket site's listed price when it was checked. Some prices may already include fees and others don't, so it isn't your final total. You'll see the full price, with taxes and delivery, on the ticket site before you pay.`
+  ]);
+  entries.push([
+    `Are ${name} resale tickets more than face value?`,
+    `Sometimes, but not always. Face value is the price the organiser sets in the official sale. A resale price is set by the seller and can be higher or lower than face value. This page shows resale listings only and doesn't print face value.`
   ]);
   const moveSentence = view.moves.length
     ? (() => {

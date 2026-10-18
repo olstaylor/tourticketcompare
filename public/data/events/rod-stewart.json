@@ -1757,7 +1757,7 @@
     "ticketmaster_event_id": "38006536CA2D1468",
     "ticketmaster_url": "https://www.ticketmaster.ie/rod-stewart-belfast-27-04-2027/event/38006536CA2D1468",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-belfast-the-o2---belfast-4-27-2027/production/7623208",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/rod-stewart-belfast-27-04-2027/event/38006536CA2D1468",
     "last_verified_at": "2026-10-18",
@@ -1779,11 +1779,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7623208,
+        "url": "https://www.vividseats.com/rod-stewart-tickets-belfast-the-o2---belfast-4-27-2027/production/7623208",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1814,7 +1814,7 @@
     "ticketmaster_event_id": "36006537BCF4683A",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-glasgow-29-04-2027/event/36006537BCF4683A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-glasgow-ovo-hydro-4-29-2027/production/7623210",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-glasgow-29-04-2027/event/36006537BCF4683A",
     "last_verified_at": "2026-10-18",
@@ -1836,11 +1836,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7623210,
+        "url": "https://www.vividseats.com/rod-stewart-tickets-glasgow-ovo-hydro-4-29-2027/production/7623210",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

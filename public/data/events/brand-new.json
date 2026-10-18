@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZ_O7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ_O7",
     "seatgeek_url": "https://seatgeek.com/brand-new-tickets/newport-kentucky-megacorp-pavilion-2026-10-21-8-pm/concert/18427898",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brand-new-tickets-newport-megacorp-pavilion-10-21-2026/production/7388329",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ_O7",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7388329,
+        "url": "https://www.vividseats.com/brand-new-tickets-newport-megacorp-pavilion-10-21-2026/production/7388329",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PYrK",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PYrK",
     "seatgeek_url": "https://seatgeek.com/brand-new-tickets/atlanta-georgia-fox-theatre-atlanta-2026-10-22-8-pm/concert/18319842",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brand-new-tickets-atlanta-fox-theatre---atlanta-10-22-2026/production/7183545",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PYrK",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7183545,
+        "url": "https://www.vividseats.com/brand-new-tickets-atlanta-fox-theatre---atlanta-10-22-2026/production/7183545",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "0D0064CAC7BCCB0D",
     "ticketmaster_url": "https://www.ticketmaster.com/brand-new-hollywood-florida-10-25-2026/event/0D0064CAC7BCCB0D",
     "seatgeek_url": "https://seatgeek.com/brand-new-tickets/hollywood-florida-hard-rock-live-hollywood-2026-10-25-8-pm/concert/18319847",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brand-new-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-10-25-2026/production/7183432",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brand-new-hollywood-florida-10-25-2026/event/0D0064CAC7BCCB0D",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7183432,
+        "url": "https://www.vividseats.com/brand-new-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-10-25-2026/production/7183432",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "060064D088E559A8",
     "ticketmaster_url": "https://www.ticketmaster.com/brand-new-independence-missouri-10-28-2026/event/060064D088E559A8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brand-new-tickets-independence-cable-dahmer-arena-10-28-2026/production/7183639",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brand-new-independence-missouri-10-28-2026/event/060064D088E559A8",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7183639,
+        "url": "https://www.vividseats.com/brand-new-tickets-independence-cable-dahmer-arena-10-28-2026/production/7183639",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PIjY",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PIjY",
     "seatgeek_url": "https://seatgeek.com/brand-new-tickets/grand-prairie-texas-texas-trust-cu-theatre-2026-10-30-8-pm/concert/18319849",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brand-new-tickets-grand-prairie-texas-trust-cu-theatre-at-grand-prairie-10-30-2026/production/7187304",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PIjY",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7187304,
+        "url": "https://www.vividseats.com/brand-new-tickets-grand-prairie-texas-trust-cu-theatre-at-grand-prairie-10-30-2026/production/7187304",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PtJo",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PtJo",
     "seatgeek_url": "https://seatgeek.com/brand-new-tickets/denver-colorado-mission-ballroom-2026-11-02-8-pm/concert/18319855",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brand-new-tickets-denver-mission-ballroom-11-2-2026/production/7187308",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PtJo",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7187308,
+        "url": "https://www.vividseats.com/brand-new-tickets-denver-mission-ballroom-11-2-2026/production/7187308",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7JdFs",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JdFs",
     "seatgeek_url": "https://seatgeek.com/brand-new-tickets/las-vegas-nevada-the-theater-at-virgin-hotels-2026-11-06-8-pm/concert/18319859",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brand-new-tickets-las-vegas-the-theater-at-virgin-hotels-las-vegas-11-6-2026/production/7212821",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JdFs",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7212821,
+        "url": "https://www.vividseats.com/brand-new-tickets-las-vegas-the-theater-at-virgin-hotels-las-vegas-11-6-2026/production/7212821",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "090064D08DD25B6F",
     "ticketmaster_url": "https://www.ticketmaster.com/brand-new-anaheim-california-11-07-2026/event/090064D08DD25B6F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brand-new-tickets-anaheim-honda-center-11-7-2026/production/7183430",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brand-new-anaheim-california-11-07-2026/event/090064D08DD25B6F",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7183430,
+        "url": "https://www.vividseats.com/brand-new-tickets-anaheim-honda-center-11-7-2026/production/7183430",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "1C0064CF38CBCA80",
     "ticketmaster_url": "https://www.ticketmaster.com/brand-new-san-francisco-california-11-11-2026/event/1C0064CF38CBCA80",
     "seatgeek_url": "https://seatgeek.com/brand-new-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-11-11-8-pm/concert/18319858",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brand-new-tickets-san-francisco-bill-graham-civic-auditorium-11-11-2026/production/7183374",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brand-new-san-francisco-california-11-11-2026/event/1C0064CF38CBCA80",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7183374,
+        "url": "https://www.vividseats.com/brand-new-tickets-san-francisco-bill-graham-civic-auditorium-11-11-2026/production/7183374",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "190064CF07E9B226",
     "ticketmaster_url": "https://www.ticketmaster.com/brand-new-phoenix-arizona-11-14-2026/event/190064CF07E9B226",
     "seatgeek_url": "https://seatgeek.com/brand-new-tickets/phoenix-arizona-arizona-financial-theatre-2026-11-14-8-pm/concert/18319860",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brand-new-tickets-phoenix-arizona-financial-theatre-11-14-2026/production/7183306",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brand-new-phoenix-arizona-11-14-2026/event/190064CF07E9B226",
     "last_verified_at": null,
@@ -617,11 +617,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7183306,
+        "url": "https://www.vividseats.com/brand-new-tickets-phoenix-arizona-financial-theatre-11-14-2026/production/7183306",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

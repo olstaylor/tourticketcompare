@@ -231,6 +231,7 @@ export const OG_CARDS = {
   "/artists/journey": {"url":"/og/artists-journey.png","alt":"Tickets & tour dates: Journey"},
   "/artists/journey/ticket-prices": {"url":"/og/artists-journey-ticket-prices.png","alt":"Ticket prices: Journey"},
   "/artists/kacey-musgraves": {"url":"/og/artists-kacey-musgraves.png","alt":"Tickets & tour dates: Kacey Musgraves"},
+  "/artists/kacey-musgraves/tickets/seattle-united-states": {"url":"/og/artists-kacey-musgraves-tickets-seattle-united-states.png","alt":"Tickets: Kacey Musgraves in Seattle"},
   "/artists/karol-g": {"url":"/og/artists-karol-g.png","alt":"Tickets & tour dates: Karol G"},
   "/artists/karol-g/ticket-prices": {"url":"/og/artists-karol-g-ticket-prices.png","alt":"Ticket prices: Karol G"},
   "/artists/karol-g/tickets/barcelona-spain": {"url":"/og/artists-karol-g-tickets-barcelona-spain.png","alt":"Tickets: Karol G in Barcelona"},

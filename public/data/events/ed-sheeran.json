@@ -1506,7 +1506,7 @@
     "ticketmaster_event_id": "2D006331AAC349EB",
     "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-charlotte-north-carolina-10-17-2026/event/2D006331AAC349EB",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/ed-sheeran-tickets-charlotte-bank-of-america-stadium-10-17-2026--concerts-pop/production/6049740",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-charlotte-north-carolina-10-17-2026/event/2D006331AAC349EB",
     "last_verified_at": "2026-10-15",
@@ -1527,11 +1527,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 6049740,
-        "url": "https://www.vividseats.com/ed-sheeran-tickets-charlotte-bank-of-america-stadium-10-17-2026--concerts-pop/production/6049740",
-        "verified": true,
-        "last_verified_at": "2026-10-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1687,7 +1687,7 @@
         "event_id": 6049741,
         "url": "https://www.vividseats.com/ed-sheeran-tickets-hollywood-hard-rock-live---hollywood-10-29-2026--concerts-pop/production/6049741",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1764,7 +1764,7 @@
         "event_id": 6049743,
         "url": "https://www.vividseats.com/ed-sheeran-tickets-hollywood-hard-rock-live---hollywood-10-30-2026--concerts-pop/production/6049743",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1841,7 +1841,7 @@
         "event_id": 6049744,
         "url": "https://www.vividseats.com/ed-sheeran-tickets-tampa-raymond-james-stadium-11-7-2026--concerts-pop/production/6049744",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-18",
         "availability_status": "listed"
       },
       "stubhub": {

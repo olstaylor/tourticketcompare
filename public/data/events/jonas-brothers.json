@@ -108,18 +108,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8214344",
-        "url": "https://www.ticketliquidator.com/tickets/8214344/Jonas-Brothers-tickets-Sat-Oct-17-2026-Rupp-Arena-At-Central-Bank-Center",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_8GkB06IVs",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8214344",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8214344/Jonas-Brothers-tickets-Sat-Oct-17-2026-Rupp-Arena-At-Central-Bank-Center"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-jonas-brothers-2026-cleveland-z7r9jz1aazw4y",

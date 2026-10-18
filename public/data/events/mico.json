@@ -400,18 +400,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7977760",
-        "url": "https://www.ticketliquidator.com/tickets/7977760/Mico-tickets-Sat-Oct-17-2026-House-Of-Blues-Las-Vegas",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G61M2W1Ya",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977760",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977760/Mico-tickets-Sat-Oct-17-2026-House-Of-Blues-Las-Vegas",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ]

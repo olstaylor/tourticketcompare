@@ -455,11 +455,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7823372",
-        "url": "https://www.ticketliquidator.com/tickets/7823372/Warren-Zeiders-tickets-Sun-Oct-18-2026-Roundhouse-London",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107014145",
@@ -473,7 +473,7 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7823372",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7823372/Warren-Zeiders-tickets-Sun-Oct-18-2026-Roundhouse-London",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-london-the-roundhouse-18-10-2026/event/107014145",
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD"

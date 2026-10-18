@@ -108,18 +108,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7594539",
-        "url": "https://www.ticketliquidator.com/tickets/7594539/Mana-tickets-Sat-Oct-17-2026-Climate-Pledge-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZbMEehMj0",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7594539",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7594539/Mana-tickets-Sat-Oct-17-2026-Climate-Pledge-Arena"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-mana-2026-rosemont-vv167zkuuokza2adc5",

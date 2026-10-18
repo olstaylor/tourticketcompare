@@ -646,11 +646,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8034404",
-        "url": "https://www.ticketliquidator.com/tickets/8034404/Charli-XCX-tickets-Sat-Oct-17-2026-The-Kia-Forum",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107325084",
@@ -664,7 +664,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034404",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034404/Charli-XCX-tickets-Sat-Oct-17-2026-The-Kia-Forum",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-inglewood-tickets-10-17-2026/event/107325084",
     "presales": [
       {

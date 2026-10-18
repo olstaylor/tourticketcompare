@@ -904,11 +904,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7921658",
-        "url": "https://www.ticketliquidator.com/tickets/7921658/Olivia-Rodrigo-tickets-Sat-Oct-17-2026-TD-Garden",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": null,
@@ -923,7 +923,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv177Z_aGkV-Whjn",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921658",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921658/Olivia-Rodrigo-tickets-Sat-Oct-17-2026-TD-Garden",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"

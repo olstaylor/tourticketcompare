@@ -368,18 +368,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8056798",
-        "url": "https://www.ticketliquidator.com/tickets/8056798/Daughtry-tickets-Sat-Oct-17-2026-Ovation-Hall-at-Ocean-Resort-Casino",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_GSKKnq7",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056798",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056798/Daughtry-tickets-Sat-Oct-17-2026-Ovation-Hall-at-Ocean-Resort-Casino"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-daughtry-2026-huntington-k7vgf_geicgms",

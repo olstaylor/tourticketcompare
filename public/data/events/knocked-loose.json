@@ -152,11 +152,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002984",
+        "url": "https://www.ticketliquidator.com/tickets/8002984/Knocked-Loose-tickets-Thu-Oct-22-2026-Uptown-Theater-KC",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_5nC5gBQ",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002984/Knocked-Loose-tickets-Thu-Oct-22-2026-Uptown-Theater-KC"
   },
   {
     "id": "tm-knocked-loose-2026-mesa-z7r9jz1a70yjo",
@@ -205,11 +213,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8023375",
+        "url": "https://www.ticketliquidator.com/tickets/8023375/Knocked-Loose-tickets-Tue-Oct-27-2026-Mesa-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70yjO",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8023375/Knocked-Loose-tickets-Tue-Oct-27-2026-Mesa-Amphitheatre"
   },
   {
     "id": "tm-knocked-loose-2026-los-angeles-z7r9jz1a70yjs",
@@ -258,11 +274,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8003134",
+        "url": "https://www.ticketliquidator.com/tickets/8003134/Knocked-Loose-tickets-Thu-Oct-29-2026-Shrine-LA-Outdoors",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70yjs",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8003134/Knocked-Loose-tickets-Thu-Oct-29-2026-Shrine-LA-Outdoors"
   },
   {
     "id": "tm-knocked-loose-2026-san-diego-vvg1iz_5_l1ogs",
@@ -311,11 +335,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002991",
+        "url": "https://www.ticketliquidator.com/tickets/8002991/Knocked-Loose-tickets-Fri-Oct-30-2026-Gallagher-Square-at-Petco-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_5_L1ogS",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002991/Knocked-Loose-tickets-Fri-Oct-30-2026-Gallagher-Square-at-Petco-Park"
   },
   {
     "id": "tm-knocked-loose-2026-daly-city-g5vyz_5mdvnwz",
@@ -417,11 +449,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002987",
+        "url": "https://www.ticketliquidator.com/tickets/8002987/Knocked-Loose-tickets-Mon-Nov-2-2026-The-Union-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_53uNJyF",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002987/Knocked-Loose-tickets-Mon-Nov-2-2026-The-Union-Event-Center"
   },
   {
     "id": "tm-knocked-loose-2026-denver-g5vzz_5nhwfmo",
@@ -523,10 +563,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002990",
+        "url": "https://www.ticketliquidator.com/tickets/8002990/Knocked-Loose-tickets-Thu-Nov-5-2026-Moody-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_5QPGQUO",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002990/Knocked-Loose-tickets-Thu-Nov-5-2026-Moody-Amphitheater"
   }
 ]

@@ -23,13 +23,14 @@
 //      it is blank on most Ticketmaster-ingested rows by design, and is never
 //      inferred (SAFE_PUBLISHING_RULES.md, issue #172).
 //
-//   2. OWNER-APPROVED, MACHINE-PROPOSED. A guide exists only for an artist in
+//   2. A REGISTRY, APPROVED BY THE GATE. A guide exists only for an artist in
 //      PRICE_GUIDE_ARTISTS below. scripts/propose-price-guides.mjs watches for
 //      tour launches (a run of dates whose Ticketmaster public on-sale is
 //      recent or imminent) and lists candidates in the rolling
-//      `automation:price-guide-candidates` issue; adding the slug here is the
-//      approval. Nothing adds itself: a new page type is not one of the
-//      sanctioned auto-publish paths.
+//      `automation:price-guide-candidates` issue. Since 2026-10-17 (owner
+//      decision) its `--apply` mode appends every artist that would be indexed
+//      today under the gate below, and nothing else; the gate is the approval.
+//      See SAFE_PUBLISHING_RULES.md → Sanctioned automated writers, group B.
 //
 //   3. NO FIGURE THE SITE CANNOT SOURCE. There is no approved face-value source,
 //      so the page states where face value is set and sold and prints none.

@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666751",
+        "url": "https://www.stubhub.ie/ye-houston-tickets-10-31-2026/event/107666751",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_oSqZJfE",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244550/Kanye-West-tickets-Sat-Oct-31-2026-Reliant-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244550/Kanye-West-tickets-Sat-Oct-31-2026-Reliant-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/ye-houston-tickets-10-31-2026/event/107666751"
   },
   {
     "id": "tm-ye-2026-arlington-z7r9jz1aav0vv",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107665792",
+        "url": "https://www.stubhub.ie/ye-arlington-tickets-11-7-2026/event/107665792",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv0vV",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245565/Kanye-West-tickets-Sat-Nov-7-2026-ATT-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245565/Kanye-West-tickets-Sat-Nov-7-2026-ATT-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/ye-arlington-tickets-11-7-2026/event/107665792"
   },
   {
     "id": "tm-ye-2026-glendale-z7r9jz1aav08u",
@@ -175,11 +191,19 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666750",
+        "url": "https://www.stubhub.ie/ye-glendale-tickets-11-21-2026/event/107666750",
+        "verified": true,
+        "last_verified_at": "2026-10-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv08U",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244532/Kanye-West-tickets-Sat-Nov-21-2026-State-Farm-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244532/Kanye-West-tickets-Sat-Nov-21-2026-State-Farm-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/ye-glendale-tickets-11-21-2026/event/107666750"
   }
 ]

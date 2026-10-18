@@ -115,11 +115,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107154127",
-        "url": "https://www.stubhub.ie/weezer-dallas-tickets-10-17-2026/event/107154127",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_kMvOnlG",
@@ -127,7 +127,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833737",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/weezer-dallas-tickets-10-17-2026/event/107154127"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-weezer-2026-austin-g5diz_kmlrxx1",

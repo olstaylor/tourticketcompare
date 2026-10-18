@@ -880,11 +880,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107185219",
-        "url": "https://www.stubhub.ie/don-omar-atlanta-tickets-10-17-2026/event/107185219",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_1UneLAE",
@@ -892,7 +892,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976485",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-atlanta-tickets-10-17-2026/event/107185219"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-don-omar-2026-san-antonio-g5diz_1dg8uln",

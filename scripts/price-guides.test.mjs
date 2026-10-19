@@ -367,8 +367,8 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   const body = text(page.main);
   assert(body.includes("Face value: the official ticket price"), "the page answers the face-value question");
   assert(body.includes("This page doesn't show face value."), "and says plainly that it prints no face value");
-  assert(body.includes("a date with no price can still have tickets"), "missing Ticketmaster pricing is distinguished from ticket availability");
-  assert(body.includes("a price too old to trust is hidden"), "missing prices explain freshness without claiming inventory");
+  assert(body.includes("a date with no displayed price can still have tickets"), "missing displayed pricing is distinguished from ticket availability");
+  assert(body.includes("Stale or unavailable prices are hidden"), "missing prices explain freshness without claiming inventory");
   assert(body.includes("GBP 182") && body.includes("GBP 395"), "each date keeps its own lowest listed price");
   assert(!body.includes("GBP 210") && !body.includes("GBP 420"), "only the same-event lowest lane is printed as the answer");
   assert(!/\bfrom (?:£|(?:USD|CAD|AUD|GBP|EUR)\s+)\d/i.test(body) && !/cheapest date/i.test(body) && !/price range/i.test(body), "no cross-date minimum, range or cheapest date");
@@ -429,6 +429,7 @@ for (const priceRows of [[], PRICE_ROWS.map((row) => ({ ...row, expires_at: "202
   const page = await render(GUIDE_PATH, { withDb: true, dbOptions: { priceRows } });
   const body = text(page.main);
   assert(body.includes("No listed resale price is showing for these dates right now") && !body.includes("GBP 182"), "empty and expired cache rows give an honest price-free answer");
+  assert(body.includes("A fresh, verified SeatGeek price may be shown with its source and check time") && !body.includes("Ticketmaster, SeatGeek and Ticket Liquidator links carry no price"), "price guidance allows an attributed, fresh SeatGeek snapshot");
   assert(!body.includes("How Oasis resale prices have moved"), "withheld current prices cannot publish historical moves");
 }
 

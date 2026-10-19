@@ -11,6 +11,7 @@ import { historySupportsEventDate } from "./lib/pricing-schema.mjs";
 import { buildPriceChecksSql } from "./lib/price-checks.mjs";
 import { buildPriceTimingSql, timingObservation } from "./lib/price-timing-capture.mjs";
 import { priorityCandidates, readPriorityRows } from "./lib/show-priority-store.mjs";
+import { failuresAreUnhealthy } from "./lib/snapshot-failure-gate.mjs";
 
 const execFileAsync = promisify(execFile);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -561,7 +562,7 @@ async function main() {
   if (options.selfTest) { const result = await selfTest(); return console.log(`Vivid Seats Impact price snapshot self-test passed (${result.tests} checks).`); }
   const summary = await runIngestion(options);
   writeSummary(summary, options.json);
-  if (summary.failed > 0 || summary.timing_capture_status === "failed" || (options.apply && !options.withinHours && summary.priceable > 0 && summary.usable === 0)) process.exitCode = 1;
+  if (failuresAreUnhealthy(summary) || summary.timing_capture_status === "failed" || (options.apply && !options.withinHours && summary.priceable > 0 && summary.usable === 0)) process.exitCode = 1;
 }
 if (import.meta.url === `file://${process.argv[1]}`) main().catch((error) => { console.error(redact(error.stack || error.message || error)); process.exitCode = 1; });
 export { APPROVED_SOURCE, buildHistoryInsertSql, buildSnapshotRow, buildUpsertSql, impactCredentials, marketplaceProductsUrl, pricesForProduction, runIngestion, selectEligibleEvents, vividProductionId };

@@ -24,6 +24,7 @@ import { historySupportsEventDate } from "./lib/pricing-schema.mjs";
 import { buildPriceChecksSql } from "./lib/price-checks.mjs";
 import { buildPriceTimingSql, timingObservation } from "./lib/price-timing-capture.mjs";
 import { priorityCandidates, readPriorityRows, readPriceChecks } from "./lib/show-priority-store.mjs";
+import { failuresAreUnhealthy } from "./lib/snapshot-failure-gate.mjs";
 
 const execFileAsync = promisify(execFile);
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -685,7 +686,14 @@ async function selfTest() {
     legacy.split("INSERT INTO provider_pricing_history")[0],
     sql.split("INSERT INTO provider_pricing_history")[0]
   );
-  return 75;
+  // One timeout among dozens of lookups is noise; an outage is not.
+  assert.equal(failuresAreUnhealthy({ eligible: 112, usable: 60, failed: 1 }), false, "one timeout keeps the lane green");
+  assert.equal(failuresAreUnhealthy({ eligible: 2050, usable: 1900, failed: 9 }), false, "a few 503s in a large run keep the lane green");
+  assert.equal(failuresAreUnhealthy({ eligible: 46, usable: 0, failed: 46 }), true, "a full outage fails the run");
+  assert.equal(failuresAreUnhealthy({ eligible: 40, usable: 30, failed: 5 }), true, "more than 5% failing fails the run");
+  assert.equal(failuresAreUnhealthy({ eligible: 10, usable: 0, failed: 1 }), true, "failure with nothing usable fails the run");
+  assert.equal(failuresAreUnhealthy({ eligible: 10, usable: 10, failed: 0 }), false);
+  return 81;
 }
 
 async function main() {
@@ -697,7 +705,8 @@ async function main() {
   console.log(options.json ? JSON.stringify(summary, null, 2) : `${summary.provider} ${summary.mode}: ${summary.eligible} eligible, ${summary.usable} usable, ${summary.written} written, ${summary.failed} failed.`);
   // Keep warning annotations on stderr so --json stays one JSON document.
   if (summary.checks_error) console.error(`::warning::${summary.provider} price-check record not written: ${summary.checks_error.replace(/\s+/g, " ")}`);
-  if (summary.failed || summary.timing_capture_status === "failed") process.exitCode = 1;
+  if (summary.failed && !failuresAreUnhealthy(summary)) console.error(`::warning::${summary.provider}: ${summary.failed} isolated lookup failure(s); previous cached prices kept.`);
+  if (failuresAreUnhealthy(summary) || summary.timing_capture_status === "failed") process.exitCode = 1;
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) main().catch((error) => { console.error(error?.stack || error); process.exitCode = 1; });

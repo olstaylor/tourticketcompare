@@ -317,7 +317,7 @@ reliably reconstruct the six timing checkpoints and are deliberately never
 used to backfill this analysis. The repository has 2,339 unique event IDs,
 2,336 resolvable start instants and three date-only events. `events.json` is
 6.05 MB; the search index is 0.85 MB. These are repository observations, not a
-production D1 coverage audit. SeatGeek has no numeric lane; Ticket Liquidator
+production D1 coverage audit. SeatGeek has no usable numeric rows yet; Ticket Liquidator
 remains price-disabled. A completed lookup with `no_price` establishes no
 supplied price, not no listings or sold out; a failed lookup establishes neither.
 

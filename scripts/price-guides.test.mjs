@@ -306,6 +306,44 @@ const text = (html) =>
 
 const GUIDE_PATH = "/artists/oasis/ticket-prices";
 
+// The Lizzy artist winner receives price queries even when its next few dates
+// have no snapshot. Reuse the guide's chronological answer above the board.
+{
+  const lizzyEvents = EVENTS.map((show) => ({
+    ...show, artist_slug: "lizzy-mcalpine", artist_name: "Lizzy McAlpine",
+    event_name: "Lizzy McAlpine: Fixture Tour"
+  }));
+  const priceRows = [
+    ...PRICE_ROWS.filter((row) => row.event_id === "pg-lon-1"),
+    snapshot("pg-cdf-1", "vivid-seats", 50)
+  ];
+  const options = { withDb: true, events: lizzyEvents, dbOptions: { priceRows } };
+  const artist = await render("/artists/lizzy-mcalpine", options);
+  const guide = await render("/artists/lizzy-mcalpine/ticket-prices", options);
+  const lead = text(artist.html.match(/<div data-artist-lead>([\s\S]*?)<\/div>/)?.[1]);
+  const answer = text(guide.main.match(/<p class="lead">([\s\S]*?)<\/p>/)?.[1]);
+  assert(artist.status === 200 && guide.status === 200, "Lizzy artist and existing guide both render");
+  assert(lead.includes(answer), "the artist lead repeats exactly the guide's current attributed answer");
+  assert(lead.includes("2 of 6 dates") && lead.includes("Fri, Sep 18, 2026 in London (Wembley Stadium)"), "unpriced early dates do not hide the first priced date");
+  assert(lead.includes("GBP 395 on TicketNetwork, checked Aug 9, 2026, 9:00 AM UTC"), "the answer retains amount, currency, provider and capture time");
+  assert(!lead.includes("GBP 50"), "a cheaper later date does not become a tour-wide minimum");
+  assert(artist.html.indexOf(answer.split(" The soonest:")[0]) < artist.html.indexOf('id="artistShowBoard"'), "the answer appears before the date board");
+  assert(artist.html.includes('href="/artists/lizzy-mcalpine/ticket-prices"'), "the existing guide remains the detailed price destination");
+  assert(!/GBP|395|50/.test(artist.title + artist.description), "the pilot adds no live figure to title or description");
+  for (const [withDb, dbOptions, expected] of [
+    [true, { priceRows: [] }, "No listed resale price is showing"],
+    [true, { priceRows: priceRows.map((row) => ({ ...row, expires_at: "2026-08-08T09:00:00Z" })) }, "No listed resale price is showing"],
+    ["failing", {}, "Prices couldn't be loaded"]
+  ]) {
+    const fallback = await render("/artists/lizzy-mcalpine", { withDb, events: lizzyEvents, dbOptions });
+    const fallbackLead = text(fallback.html.match(/<div data-artist-lead>([\s\S]*?)<\/div>/)?.[1]);
+    assert(fallbackLead.includes(expected) && !fallbackLead.includes("GBP 395"), "missing, expired or unavailable snapshots retain the guide's honest fallback");
+  }
+  const other = await render("/artists/oasis");
+  const otherLead = text(other.html.match(/<div data-artist-lead>([\s\S]*?)<\/div>/)?.[1]);
+  assert(!otherLead.includes("dates show a listed resale price right now"), "other artist leads do not receive the Lizzy pilot");
+}
+
 {
   const page = await render(GUIDE_PATH);
   assert(page.status === 200, "an approved guide renders");

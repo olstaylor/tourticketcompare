@@ -7280,14 +7280,20 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     // The artist's price guide, when one is approved and currently renders.
     // The two pages split one topic by intent — this page buys, the guide
     // answers "how much" — so each links the other near the top.
+    const artistPriceGuide = derivePriceGuide(events, artist.slug);
     const priceGuideLive =
       shows.length > 0 &&
-      priceGuideRouteDecision(derivePriceGuide(events, artist.slug), {
+      priceGuideRouteDecision(artistPriceGuide, {
         registered: priceGuideRegistered(artist.slug),
         artistEditoriallyIndexable: isIndexableArtist
       }) === "render";
+    // Lizzy pilot: answer the price intent already reaching this artist page
+    // with the guide's same current, attributed snapshot. No new price source.
+    const artistPriceAnswer = priceGuideLive && artist.slug === "lizzy-mcalpine"
+      ? derivePriceGuideView({ artist, guide: artistPriceGuide }, events, env).currentAnswer
+      : "";
     const priceGuideLinkHtml = priceGuideLive
-      ? `<p class="price-guide-link">${anchor(
+      ? `<p class="price-guide-link">${artistPriceAnswer ? `${escapeHtml(artistPriceAnswer)} ` : ""}${anchor(
           `${artist.name} ticket prices: resale prices by date, recent price moves and where face value is sold`,
           priceGuidePath(artist.slug),
           "text-link"

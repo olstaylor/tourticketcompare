@@ -289,7 +289,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-rosemont-allstate-arena-10-22-2026--concerts-pop/production/7446258",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-rosemont-illinois-10-22-2026/event/0400650E6EDF2A44",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -351,13 +351,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/jonas-brothers-rosemont-tickets-10-22-2026/event/107490078",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-21T15:00:00Z",
-        "end": "2026-10-18T17:00:00Z"
-      }
     ]
   },
   {
@@ -1421,7 +1414,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-palm-desert-california-11-17-2026/event/0A00650C36443D5D",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1461,11 +1454,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-08-21T17:00:00Z",
-        "end": "2026-10-19T05:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-08-21T17:00:00Z",

@@ -1219,7 +1219,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-philadelphia-the-fillmore-philadelphia-11-15-2026/production/6822678",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alt-1045-presents-blue-october-philadelphia-pennsylvania-11-15-2026/event/02006472CEBAFBC4",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1271,13 +1271,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827970",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827970/Blue-October-tickets-Sun-Nov-15-2026-The-Fillmore-Philadelphia",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-03-27T14:00:00Z",
-        "end": "2026-10-19T02:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

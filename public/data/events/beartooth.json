@@ -570,7 +570,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-oxon-hill-the-theater-at-mgm-national-harbor-11-15-2026--concerts-hard-rock/production/7052736",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-national-harbor-maryland-11-15-2026/event/150064AD26B42212",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -622,13 +622,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980212",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980212/Beartooth-tickets-Sun-Nov-15-2026-The-Theater-at-MGM-National-Harbor",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-05-22T14:00:00Z",
-        "end": "2026-10-19T02:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

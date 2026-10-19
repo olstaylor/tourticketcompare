@@ -1099,13 +1099,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-22-2026/event/3100649B98C45059",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-19",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3100649B98C45059",
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-22-2026/event/3100649B98C45059",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-19",
         "availability_status": "not_checked",
         "discovery_event_id": "1Ad7Z_aGkmbsAv_"
       },
@@ -1151,13 +1151,6 @@
     "ticketmaster_discovery_event_id": "1Ad7Z_aGkmbsAv_",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921688",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921688/Olivia-Rodrigo-tickets-Thu-Oct-22-2026-Centre-Bell",
-    "presales": [
-      {
-        "name": "Forfait VIP Package",
-        "start": "2026-05-07T16:00:00Z",
-        "end": "2026-10-18T16:00:00Z"
-      }
-    ],
     "organizer_names": [
       "EVENKO CO-PRO WITH LIVE NATION",
       "LIVE NATION CANADA (LN)",

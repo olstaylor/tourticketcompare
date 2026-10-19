@@ -1067,7 +1067,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-el-paso-texas-10-25-2026/event/0C0064AF2532755E",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-10-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1127,13 +1127,6 @@
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
     "stubhub_international_url": "",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-05-22T16:00:00Z",
-        "end": "2026-10-18T23:00:00Z"
-      }
-    ],
     "organizer_names": [
       "UNIV.OF TEXAS EL PASO"
     ]

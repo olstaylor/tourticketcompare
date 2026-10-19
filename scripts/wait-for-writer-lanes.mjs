@@ -433,6 +433,24 @@ async function selfTest() {
       `${file}: publication must fit the fresh App token and the head-check budget`);
   }
 
+  // Work queue repair cancelled on 2026-10-18 after an eight-minute wait,
+  // ten minutes before the older nightly sync finished. Replay a full nightly
+  // lifetime and retain the repair's existing work allowance after queueing.
+  {
+    const repair = workflows["work-queue-repair.yml"].jobs.repair;
+    const { wait: budget, limit } = budgetFor("work-queue-repair.yml", repair);
+    const nightlyLimit = workflows["nightly-data-sync.yml"].jobs.sync["timeout-minutes"];
+    const lane = run(50, "work-queue-repair.yml", self.created_at);
+    const earlier = run(39, "nightly-data-sync.yml", older.created_at);
+    c = clock();
+    verdict = await waitForWriterLanes({ self: lane,
+      listActiveRuns: async () => c.now() < nightlyLimit * 60_000 ? [earlier] : [],
+      maxWaitMs: budget * 60_000, ...c, log: quiet, warn: quiet });
+    assert.equal(verdict.outcome, "clear", "repair must wait out an older nightly sync's full cap");
+    assert.equal(verdict.waitedMs, nightlyLimit * 60_000 + CONFIRM_MS);
+    assert(limit - budget >= 71, "queueing retains the repair's previous work allowance");
+  }
+
   // Regression: timestamps must never be applied from reports generated
   // before this checkout's current artist/event data revision.
   const auditSteps = workflows["daily-audit.yml"].jobs.audit.steps || [];

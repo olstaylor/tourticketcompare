@@ -81,7 +81,10 @@ jobs:
     # full `test:mvp` suite, then waits for Prelaunch Validation to reach a
     # verdict on the pushed head (capped at 30 minutes here, so the step fits
     # the App token's hour). Queueing sits outside the 59-minute step.
-    timeout-minutes: 79
+    # Reserve up to the nightly sync's full 90-minute cap before the existing 71-minute repair allowance;
+    # on 2026-10-18 the former 8-minute wait cancelled this lane 10 minutes
+    # before nightly finished.
+    timeout-minutes: 161
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -92,7 +95,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         # Busy queue: end cancelled (neutral), not red; tomorrow's run retries.
-        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 8 --withhold-when-busy
+        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 90 --withhold-when-busy
 
       # The finding was proved against `main`, and the repair's pull request
       # targets `main`. A dispatch from any other ref would branch the repair

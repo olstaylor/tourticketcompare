@@ -2068,7 +2068,7 @@ const PRICE_HISTORY_LABEL = "Show price history";
 // The lanes that supply listed-price snapshots. A card with no button on one
 // of them gets no "no price" note: nothing on it claims a price.
 // Keep in sync with LISTED_PRICE_PROVIDERS in functions/[[path]].js.
-const LISTED_PRICE_PROVIDER_SLUGS = new Set(["vivid-seats", "ticketnetwork", "stubhub-international"]);
+const LISTED_PRICE_PROVIDER_SLUGS = new Set(["seatgeek", "vivid-seats", "ticketnetwork", "stubhub-international"]);
 
 // Did this card's price lanes actually get queried? A priced response carries
 // one entry per approved lane (including the unavailable ones), while a board
@@ -2398,7 +2398,7 @@ function renderShowCard(show, options = {}) {
     // once beneath the buttons. Keep in sync with renderShowCardServerHtml in
     // functions/[[path]].js.
     const ctaSpecs = [];
-    if (sgAvailable) ctaSpecs.push({ provider: "seatgeek", name: "SeatGeek", href: eventTicketHref(show, "seatgeek"), lane: null });
+    if (sgAvailable) ctaSpecs.push({ provider: "seatgeek", name: "SeatGeek", href: eventTicketHref(show, "seatgeek"), lane: approvedSeatGeekPriceLane(show) });
     if (vsAvailable) ctaSpecs.push({ provider: "vivid-seats", name: "Vivid Seats", href: eventTicketHref(show, "vivid-seats"), lane: approvedVividSeatsPriceLane(show) });
     for (const provider of impactMarketplaceAvailable) {
       ctaSpecs.push({ provider: provider.slug, name: provider.name, href: eventTicketHref(show, provider.slug), lane: approvedImpactMarketplacePriceLane(show, provider) });

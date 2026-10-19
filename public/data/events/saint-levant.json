@@ -2823,5 +2823,221 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
+  },
+  {
+    "id": "tm-saint-levant-2027-glasgow-1adbz_fgkb_vncq",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "Saint Levant - AFANDI WORLD TOUR",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "Galvanizers SWG3",
+    "datetime_iso": "2027-01-18T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600654E99D23B5D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-glasgow-18-01-2027/event/3600654E99D23B5D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-glasgow-18-01-2027/event/3600654E99D23B5D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600654E99D23B5D",
+        "discovery_event_id": "1AdbZ_fGkB_VNcq",
+        "url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-glasgow-18-01-2027/event/3600654E99D23B5D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_fGkB_VNcq",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T09:00:00Z"
+  },
+  {
+    "id": "tm-saint-levant-2027-manchester-g5dzz_fbnzksb",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "Saint Levant - AFANDI WORLD TOUR",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "O2 Ritz Manchester",
+    "datetime_iso": "2027-01-20T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00654EA3E13C7A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-manchester-20-01-2027/event/3E00654EA3E13C7A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-manchester-20-01-2027/event/3E00654EA3E13C7A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00654EA3E13C7A",
+        "discovery_event_id": "G5dzZ_fBNzKsB",
+        "url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-manchester-20-01-2027/event/3E00654EA3E13C7A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_fBNzKsB",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T09:00:00Z"
+  },
+  {
+    "id": "tm-saint-levant-2027-london-1auzk48gkdxoa9q",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "Saint Levant - AFANDI WORLD TOUR",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Eventim Apollo",
+    "datetime_iso": "2027-01-21T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006550E24495DA",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-london-21-01-2027/event/36006550E24495DA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-london-21-01-2027/event/36006550E24495DA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006550E24495DA",
+        "discovery_event_id": "1AUZk48Gkdxoa9Q",
+        "url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-london-21-01-2027/event/36006550E24495DA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZk48Gkdxoa9Q",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T09:00:00Z"
+  },
+  {
+    "id": "tm-saint-levant-2027-ciudad-de-mexico-g5dvz_o3qzslc",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "Saint Levant",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "El Lunario del Auditorio Nacional",
+    "datetime_iso": "2027-02-03T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D0065149AE337ED",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/saint-levant-ciudad-de-mexico-02-02-2027/event/3D0065149AE337ED",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/saint-levant-ciudad-de-mexico-02-02-2027/event/3D0065149AE337ED",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D0065149AE337ED",
+        "discovery_event_id": "G5dVZ_o3QzSLc",
+        "url": "https://www.ticketmaster.com.mx/saint-levant-ciudad-de-mexico-02-02-2027/event/3D0065149AE337ED",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_o3QzSLc",
+    "timezone": "America/Mexico_City",
+    "status": "announced",
+    "public_onsale_at": "2026-10-21T17:00:00Z"
   }
 ]

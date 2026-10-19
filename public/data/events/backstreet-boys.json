@@ -1249,5 +1249,59 @@
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
     ]
+  },
+  {
+    "id": "tm-backstreet-boys-2026-las-vegas-17ayv0g62thvzyn",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-12-30T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064FFDB078C23",
+    "ticketmaster_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-29-2026/event/170064FFDB078C23",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-29-2026/event/170064FFDB078C23",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064FFDB078C23",
+        "discovery_event_id": "17AYv0G62ThvzYN",
+        "url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-29-2026/event/170064FFDB078C23",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G62ThvzYN",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T19:00:00Z"
   }
 ]

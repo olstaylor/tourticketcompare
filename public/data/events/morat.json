@@ -1943,5 +1943,58 @@
     "organizer_names": [
       "Papuchi Events, S.L."
     ]
+  },
+  {
+    "id": "tm-morat-2026-madrid-z698xz2qz16vqfvsuz",
+    "artist_slug": "morat",
+    "artist_name": "Morat",
+    "event_name": "Morat",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Movistar Arena",
+    "datetime_iso": "2026-10-31T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1694073378",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/morat-tickets/1694073378?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/morat-tickets/1694073378?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1694073378",
+        "discovery_event_id": "Z698xZ2qZ16vQfvSuz",
+        "url": "https://www.ticketmaster.es/event/morat-tickets/1694073378?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vQfvSuz",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
   }
 ]

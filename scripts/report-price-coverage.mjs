@@ -25,7 +25,7 @@
 //   priced        at least one lane prints a fresh listed price
 //   mapped        verified on a price-supplying lane, on sale, yet no price —
 //                 the regression signal; the gate is computed on these
-//   seatgeek_only resale mapped only on SeatGeek, which never prices
+//   seatgeek_only resale mapped only on SeatGeek without a usable price snapshot
 //   unmapped      no resale mapping on any price-supplying lane
 //
 // Gate (exit 1): priced / (priced + mapped) below --min-share (default 0.90),
@@ -44,6 +44,7 @@ import { laneBySlug, safeLaneUrl } from "./lib/event-link-coverage.mjs";
 // Lanes with a numeric price feed and display on. Mirrors LISTED_PRICE_PROVIDERS
 // in functions/[[path]].js.
 export const PRICE_LANES = Object.freeze([
+  Object.freeze({ slug: "seatgeek", name: "SeatGeek" }),
   Object.freeze({ slug: "vivid-seats", name: "Vivid Seats" }),
   Object.freeze({ slug: "ticketnetwork", name: "TicketNetwork" }),
   Object.freeze({ slug: "stubhub-international", name: "StubHub International" })
@@ -118,7 +119,10 @@ function pricedLanes(show) {
 }
 
 function mappedPriceLanes(show) {
-  return PRICE_LANES.filter((lane) => show?.provider_links?.[lane.slug]?.verified === true && safeLaneUrl(show, laneBySlug(lane.slug)));
+  // SeatGeek has an approved display lane, but its current API feed has not
+  // produced numeric data. Keep link-only SeatGeek dates in their own bucket;
+  // count an actual approved SeatGeek snapshot as priced in pricedLanes().
+  return PRICE_LANES.filter((lane) => lane.slug !== "seatgeek" && show?.provider_links?.[lane.slug]?.verified === true && safeLaneUrl(show, laneBySlug(lane.slug)));
 }
 
 export function classifyShow(show, now = Date.now()) {
@@ -233,7 +237,7 @@ export function renderMarkdown(report, baseUrl = "") {
     `- **Coverage of mapped, on-sale dates:** ${coverageShareLabel(report.coverage_share)} (gate ≥ ${pct(report.gates.min_share)}).`,
     `- **Pre-on-sale dates showing a resale price:** ${report.pre_onsale_priced} of ${c.pre_onsale} (reported only; not part of the gate).`,
     `- **Held (cancelled/postponed per Ticketmaster):** ${c.held}. Their prices are withheld on purpose; not part of the gate.`,
-    `- **Dates with zero price sources:** ${report.zero_price_sources} (unmapped + SeatGeek-only). This is a mapping backlog, not a failure — it is not gated.`,
+    `- **Dates with zero price sources:** ${report.zero_price_sources} (unmapped + SeatGeek-only). This includes verified SeatGeek links where the current price feed has no usable numeric row.`,
     `- **Price age:** ${report.displayed_prices} displayed prices, ${pct(report.stale_share)} older than ${PRICE_STALE_AFTER_HOURS}h (gate ≤ ${pct(report.gates.max_stale_share)}), oldest ${report.max_age_hours ?? "n/a"}h.`,
     "",
     "### By lane",
@@ -325,8 +329,8 @@ function selfTest() {
     { ...base, id: "past", dateTimeISO: "2026-09-01T00:00:00Z", prices: [] },
     // An unverified stored URL is not a mapping.
     { ...base, id: "u2", vividseats_url: vivid.vividseats_url, provider_links: { "vivid-seats": { verified: false } }, prices: [] },
-    // SeatGeek "ok" lanes never count as a price.
-    { ...base, id: "u3", prices: [{ provider: "SeatGeek", status: "ok", price: 50, fetchedAt: "2026-09-24T10:00:00Z" }] },
+    // A fresh approved SeatGeek lane counts when returned by the gated API.
+    { ...base, id: "u3", seatgeek_url: "https://seatgeek.com/x/concert/3", provider_links: { seatgeek: { verified: true } }, prices: [{ provider: "SeatGeek", status: "ok", source: "seatgeek_partner_api", price: 50, fetchedAt: "2026-09-24T10:00:00Z" }] },
     // Pre-on-sale with a resale price: counted apart, never inflating the gate.
     { ...base, ...vivid, id: "o2", public_onsale_at: "2026-10-01T00:00:00Z", prices: [okLane("2026-09-24T10:00:00Z")] }
   ];
@@ -335,10 +339,10 @@ function selfTest() {
   assert.equal(classifyShow(shows[3], now), "pre_onsale");
   assert.equal(classifyShow(shows[4], now), "seatgeek_only");
   assert.equal(classifyShow(shows[7], now), "unmapped");
-  assert.equal(classifyShow(shows[8], now), "unmapped");
+  assert.equal(classifyShow(shows[8], now), "priced");
   const report = analyse(shows, { now });
   assert.equal(report.upcoming, 9, "past dates are excluded");
-  assert.deepEqual(report.counts, { priced: 2, pre_onsale: 2, mapped: 1, seatgeek_only: 1, unmapped: 3, held: 0 });
+  assert.deepEqual(report.counts, { priced: 3, pre_onsale: 2, mapped: 1, seatgeek_only: 1, unmapped: 2, held: 0 });
   {
     // A cancelled date mapped on a price lane with no price is the hold
     // working, not a coverage miss: it leaves the gate's denominator.
@@ -360,12 +364,12 @@ function selfTest() {
   }
   assert.equal(report.pre_onsale_priced, 1, "a priced pre-on-sale date is counted apart");
   assert.equal(classifyShow(shows[9], now), "pre_onsale", "a priced pre-on-sale date stays pre_onsale");
-  assert.equal(report.zero_price_sources, 4);
-  assert.equal(report.coverage_share, 0.6667);
-  assert.equal(report.stale_share, 0.3333, "a 16h-old price is stale, a 2h-old one is not");
+  assert.equal(report.zero_price_sources, 3);
+  assert.equal(report.coverage_share, 0.75);
+  assert.equal(report.stale_share, 0.25, "a 16h-old price is stale, while 2h-old prices are not");
   assert.equal(report.ok, false);
-  assert.equal(report.problems.length, 2, "both the coverage and the staleness gates fire");
-  assert.deepEqual(report.zero_source_by_country[0], ["United States", 3]);
+  assert.equal(report.problems.length, 1, "the coverage gate fires while the stale share is at threshold");
+  assert.deepEqual(report.zero_source_by_country[0], ["United States", 2]);
   assert.equal(report.mapped_unpriced[0].id, "m1");
   const healthy = analyse(shows.filter((show) => show.id !== "m1" && show.id !== "p2"), { now });
   assert.equal(healthy.ok, true, "unmapped and pre-on-sale dates never fail the gate");
@@ -373,7 +377,7 @@ function selfTest() {
   assert.equal(empty.ok, false, "an empty payload is a problem, not a pass");
   const md = renderMarkdown(report);
   assert.match(md, /NEEDS ATTENTION/);
-  assert.match(md, /\| 9 \| 2 \| 2 \| 1 \| 1 \| 3 \|/);
+  assert.match(md, /\| 9 \| 3 \| 2 \| 1 \| 1 \| 2 \|/);
   assert.match(md, /Mapped and on sale, but no price/);
   assert.throws(() => parseArgs(["--min-share", "2"]));
   return 25;

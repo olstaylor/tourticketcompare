@@ -116,8 +116,9 @@ export const PRESALE_PAGE_MIN_WINDOWS = 1;
 // with owner-confirmed price display rights. Re-exported as
 // PRICE_GUIDE_SNAPSHOT_PROVIDERS by functions/_price-guides.js, and held equal
 // to SCHEMA_OFFERS_APPROVED_PROVIDERS in functions/[[path]].js by
-// scripts/price-guides.test.mjs. SeatGeek has no snapshot lane and
-// Ticketmaster is a link source, so neither counts.
+// scripts/price-guides.test.mjs. SeatGeek may display on existing pages but
+// stays out of static SEO route eligibility until its feed supplies numeric
+// rows reliably; Ticketmaster remains a link source.
 export const PRICE_SNAPSHOT_PROVIDERS = Object.freeze(["vivid-seats", "ticketnetwork", "stubhub-international"]);
 export const COMPARISON_MIN_PRICE_PROVIDERS = 2;
 

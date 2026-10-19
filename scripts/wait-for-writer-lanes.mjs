@@ -433,22 +433,36 @@ async function selfTest() {
       `${file}: publication must fit the fresh App token and the head-check budget`);
   }
 
-  // Work queue repair cancelled on 2026-10-18 after an eight-minute wait,
-  // ten minutes before the older nightly sync finished. Replay a full nightly
-  // lifetime and retain the repair's existing work allowance after queueing.
+  // Repair must survive nightly's queue delay behind the complete audit
+  // workflow as well as its execution, without spending its own work budget.
   {
-    const repair = workflows["work-queue-repair.yml"].jobs.repair;
-    const { wait: budget, limit } = budgetFor("work-queue-repair.yml", repair);
+    const workflow = workflows["work-queue-repair.yml"];
+    const queue = workflow.jobs["wait-for-writers"];
+    const repair = workflow.jobs.repair;
+    assert.equal(repair.needs, "wait-for-writers", "repair runs only after ordering succeeds");
+    assert.equal(repair.if, undefined, "a withheld queue must not start repair");
+    const { wait: budget, limit } = budgetFor("work-queue-repair.yml", queue);
+    assert(limit <= 360 && limit - budget >= 10, "queue fits the hosted-job cap with setup margin");
+    const repairBudget = budgetFor("work-queue-repair.yml", repair);
+    assert(repairBudget.limit - repairBudget.wait >= 71, "queueing retains the repair's previous work allowance");
+    const auditLimit = Object.values(workflows["daily-audit.yml"].jobs)
+      .reduce((sum, job) => sum + job["timeout-minutes"], 0);
     const nightlyLimit = workflows["nightly-data-sync.yml"].jobs.sync["timeout-minutes"];
     const lane = run(50, "work-queue-repair.yml", self.created_at);
-    const earlier = run(39, "nightly-data-sync.yml", older.created_at);
+    const auditRun = run(38, "daily-audit.yml", older.created_at);
+    const nightlyRun = run(39, "nightly-data-sync.yml", older.created_at);
     c = clock();
     verdict = await waitForWriterLanes({ self: lane,
-      listActiveRuns: async () => c.now() < nightlyLimit * 60_000 ? [earlier] : [],
+      listActiveRuns: async () => {
+        const minutes = c.now() / 60_000;
+        if (minutes < auditLimit) return [auditRun, { ...nightlyRun, status: "queued" }];
+        return minutes < auditLimit + nightlyLimit ? [nightlyRun] : [];
+      },
       maxWaitMs: budget * 60_000, ...c, log: quiet, warn: quiet });
-    assert.equal(verdict.outcome, "clear", "repair must wait out an older nightly sync's full cap");
-    assert.equal(verdict.waitedMs, nightlyLimit * 60_000 + CONFIRM_MS);
-    assert(limit - budget >= 71, "queueing retains the repair's previous work allowance");
+    assert.equal(verdict.outcome, "clear", "repair survives the audit caps, nightly queue delay and full execution cap");
+    assert.equal(verdict.waitedMs, (auditLimit + nightlyLimit) * 60_000 + CONFIRM_MS);
+    assert.match(queue.steps[1].run, /--withhold-when-busy/, "an exhausted queue still withholds repair");
+    assert.equal(queue.steps[1].env.GITHUB_TOKEN, "${{ github.token }}");
   }
 
   // Regression: timestamps must never be applied from reports generated

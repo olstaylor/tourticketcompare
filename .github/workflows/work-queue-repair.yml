@@ -75,16 +75,13 @@ permissions:
   actions: write
 
 jobs:
-  repair:
+  wait-for-writers:
     runs-on: ubuntu-latest
-    # The repair runs the artefact's own check twice, its generator, and the
-    # full `test:mvp` suite, then waits for Prelaunch Validation to reach a
-    # verdict on the pushed head (capped at 30 minutes here, so the step fits
-    # the App token's hour). Queueing sits outside the 59-minute step.
-    # Reserve up to the nightly sync's full 90-minute cap before the existing 71-minute repair allowance;
-    # on 2026-10-18 the former 8-minute wait cancelled this lane 10 minutes
-    # before nightly finished.
-    timeout-minutes: 161
+    # Nightly may still be queued behind all three daily-audit jobs, whose
+    # caps sum to 248 minutes, before its own 90-minute execution cap starts.
+    # Keep that bounded queue in a separate job so it cannot consume repair's
+    # work budget or exceed the hosted runner's six-hour per-job limit.
+    timeout-minutes: 360
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -94,8 +91,28 @@ jobs:
       - name: Wait for older event-data writer runs
         env:
           GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 345 --withhold-when-busy
+
+  repair:
+    needs: wait-for-writers
+    runs-on: ubuntu-latest
+    # The repair runs the artefact's own check twice, its generator, and the
+    # full `test:mvp` suite, then waits for Prelaunch Validation to reach a
+    # verdict on the pushed head (capped at 30 minutes here, so the step fits
+    # the App token's hour). Queueing sits outside the 59-minute step.
+    timeout-minutes: 79
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Wait for older event-data writer runs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        # Recheck ordering and refresh this new checkout after the queue job.
         # Busy queue: end cancelled (neutral), not red; tomorrow's run retries.
-        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 90 --withhold-when-busy
+        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 8 --withhold-when-busy
 
       # The finding was proved against `main`, and the repair's pull request
       # targets `main`. A dispatch from any other ref would branch the repair

@@ -253,11 +253,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107169156",
-        "url": "https://www.stubhub.ie/journey-orlando-tickets-10-17-2026/event/107169156",
-        "verified": true,
-        "last_verified_at": "2026-10-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7956772",
@@ -278,7 +278,7 @@
       }
     ],
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/journey-orlando-tickets-10-17-2026/event/107169156",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956772",
     "organizer_names": [
       "AEG LIVE"

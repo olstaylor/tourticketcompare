@@ -226,11 +226,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107460097",
-        "url": "https://www.stubhub.ie/tyla-tickets-glasgow-o2-academy-glasgow-18-10-2026/event/107460097",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_2ebYvNY",
@@ -238,7 +238,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8168768",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-tickets-glasgow-o2-academy-glasgow-18-10-2026/event/107460097",
+    "stubhub_international_url": "",
     "organizer_names": [
       "DF CONCERTS",
       "ACADEMY MUSIC GROUP (O2 ACADEMY GLASGOW)"

@@ -1426,5 +1426,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266225",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266225/The-Lemonheads-tickets-Wed-Mar-10-2027-Hawthorne-Theatre"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-seattle-z7r9jz1aa79u7",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads - Ages 21+",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "El Corazon",
+    "datetime_iso": "2027-03-12T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA79u7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA79u7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA79u7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA79u7",
+        "discovery_event_id": "Z7r9jZ1AA79u7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA79u7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA79u7",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

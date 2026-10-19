@@ -2207,6 +2207,90 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-knocked-loose",
     redirectUrl: "https://seatgeek.com/knocked-loose-tickets",
     verified: true
+  },
+  "chris-stapleton:ticketmaster": {
+    artistSlug: "chris-stapleton",
+    provider: "ticketmaster",
+    linkId: "tm-artist-chris-stapleton",
+    redirectUrl: "https://www.ticketmaster.com/chris-stapleton-tickets/artist/1828177",
+    verified: true
+  },
+  "chris-stapleton:seatgeek": {
+    artistSlug: "chris-stapleton",
+    provider: "seatgeek",
+    linkId: "sg-artist-chris-stapleton",
+    redirectUrl: "https://seatgeek.com/chris-stapleton-tickets",
+    verified: true
+  },
+  "chevelle:ticketmaster": {
+    artistSlug: "chevelle",
+    provider: "ticketmaster",
+    linkId: "tm-artist-chevelle",
+    redirectUrl: "https://www.ticketmaster.com/chevelle-tickets/artist/715308",
+    verified: true
+  },
+  "chevelle:seatgeek": {
+    artistSlug: "chevelle",
+    provider: "seatgeek",
+    linkId: "sg-artist-chevelle",
+    redirectUrl: "https://seatgeek.com/chevelle-tickets",
+    verified: true
+  },
+  "phoebe-bridgers:ticketmaster": {
+    artistSlug: "phoebe-bridgers",
+    provider: "ticketmaster",
+    linkId: "tm-artist-phoebe-bridgers",
+    redirectUrl: "https://www.ticketmaster.com/phoebe-bridgers-tickets/artist/2133305",
+    verified: true
+  },
+  "phoebe-bridgers:seatgeek": {
+    artistSlug: "phoebe-bridgers",
+    provider: "seatgeek",
+    linkId: "sg-artist-phoebe-bridgers",
+    redirectUrl: "https://seatgeek.com/phoebe-bridgers-tickets",
+    verified: true
+  },
+  "bryson-tiller:ticketmaster": {
+    artistSlug: "bryson-tiller",
+    provider: "ticketmaster",
+    linkId: "tm-artist-bryson-tiller",
+    redirectUrl: "https://www.ticketmaster.com/bryson-tiller-tickets/artist/2171167",
+    verified: true
+  },
+  "bryson-tiller:seatgeek": {
+    artistSlug: "bryson-tiller",
+    provider: "seatgeek",
+    linkId: "sg-artist-bryson-tiller",
+    redirectUrl: "https://seatgeek.com/bryson-tiller-tickets",
+    verified: true
+  },
+  "arcangel:ticketmaster": {
+    artistSlug: "arcangel",
+    provider: "ticketmaster",
+    linkId: "tm-artist-arcangel",
+    redirectUrl: "https://www.ticketmaster.com/arcangel-tickets/artist/1854185",
+    verified: true
+  },
+  "arcangel:seatgeek": {
+    artistSlug: "arcangel",
+    provider: "seatgeek",
+    linkId: "sg-artist-arcangel",
+    redirectUrl: "https://seatgeek.com/arcangel-tickets",
+    verified: true
+  },
+  "garth-brooks:ticketmaster": {
+    artistSlug: "garth-brooks",
+    provider: "ticketmaster",
+    linkId: "tm-artist-garth-brooks",
+    redirectUrl: "https://www.ticketmaster.com/garth-brooks-tickets/artist/732705",
+    verified: true
+  },
+  "garth-brooks:seatgeek": {
+    artistSlug: "garth-brooks",
+    provider: "seatgeek",
+    linkId: "sg-artist-garth-brooks",
+    redirectUrl: "https://seatgeek.com/garth-brooks-tickets",
+    verified: true
   }
 };
 

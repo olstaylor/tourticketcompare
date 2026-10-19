@@ -2026,5 +2026,89 @@
     "last_verified_at": "2026-10-18",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-18"
+  },
+  {
+    "slug": "chris-stapleton",
+    "name": "Chris Stapleton",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-19",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-19"
+  },
+  {
+    "slug": "chevelle",
+    "name": "Chevelle",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-19",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-19"
+  },
+  {
+    "slug": "phoebe-bridgers",
+    "name": "Phoebe Bridgers",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-19",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-19"
+  },
+  {
+    "slug": "bryson-tiller",
+    "name": "Bryson Tiller",
+    "short_description": "Hip-Hop/Rap act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-19",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-19"
+  },
+  {
+    "slug": "arcangel",
+    "name": "Arcangel",
+    "short_description": "Hip-Hop/Rap act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-19",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-19"
+  },
+  {
+    "slug": "garth-brooks",
+    "name": "Garth Brooks",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-19",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-19"
   }
 ]

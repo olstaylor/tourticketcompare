@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18",
+  "updated_at": "2026-10-19",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -1657,6 +1657,72 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-10-18 (sanctioned path D): SeatGeek performer 347395 and Ticketmaster attraction K8vZ917KFS0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "chris-stapleton",
+      "ticketmaster_attraction_id": "K8vZ9178Sb7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/chris-stapleton-tickets/artist/1828177",
+      "seatgeek_performer_id": 111894,
+      "seatgeek_artist_url": "https://seatgeek.com/chris-stapleton-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-19 (sanctioned path D): SeatGeek performer 111894 and Ticketmaster attraction K8vZ9178Sb7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "chevelle",
+      "ticketmaster_attraction_id": "K8vZ9171cz7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/chevelle-tickets/artist/715308",
+      "seatgeek_performer_id": 445,
+      "seatgeek_artist_url": "https://seatgeek.com/chevelle-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-19 (sanctioned path D): SeatGeek performer 445 and Ticketmaster attraction K8vZ9171cz7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "phoebe-bridgers",
+      "ticketmaster_attraction_id": "K8vZ917KN9V",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/phoebe-bridgers-tickets/artist/2133305",
+      "seatgeek_performer_id": 370135,
+      "seatgeek_artist_url": "https://seatgeek.com/phoebe-bridgers-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-19 (sanctioned path D): SeatGeek performer 370135 and Ticketmaster attraction K8vZ917KN9V captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "bryson-tiller",
+      "ticketmaster_attraction_id": "K8vZ917KBFf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/bryson-tiller-tickets/artist/2171167",
+      "seatgeek_performer_id": 375017,
+      "seatgeek_artist_url": "https://seatgeek.com/bryson-tiller-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-19 (sanctioned path D): SeatGeek performer 375017 and Ticketmaster attraction K8vZ917KBFf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "arcangel",
+      "ticketmaster_attraction_id": "K8vZ917okqf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/arcangel-tickets/artist/1854185",
+      "seatgeek_performer_id": 44456,
+      "seatgeek_artist_url": "https://seatgeek.com/arcangel-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-19 (sanctioned path D): SeatGeek performer 44456 and Ticketmaster attraction K8vZ917okqf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "garth-brooks",
+      "ticketmaster_attraction_id": "K8vZ9171aAV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/garth-brooks-tickets/artist/732705",
+      "seatgeek_performer_id": 2387,
+      "seatgeek_artist_url": "https://seatgeek.com/garth-brooks-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-19 (sanctioned path D): SeatGeek performer 2387 and Ticketmaster attraction K8vZ9171aAV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

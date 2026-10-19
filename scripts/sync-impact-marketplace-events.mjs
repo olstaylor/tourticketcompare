@@ -22,7 +22,8 @@ import {
 // Vivid Seats matchers use, so a given event resolves to one night everywhere.
 import {
   eventInstantMs as eventInstant,
-  eventLocalDateParts as eventLocalDate
+  eventLocalDateParts as eventLocalDate,
+  eventTimeZone
 } from "./lib/event-local-date.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -189,13 +190,32 @@ function urlDateConflicts(url, date) {
   return urlStatedDates(url).some((stated) => stated.year !== date.year || stated.month !== date.month || stated.day !== date.day);
 }
 
-function evaluateCandidate(event, artistName, candidate) {
+function eventLocalStart(event) {
+  if (!eventLocalDate(event)) return "";
+  const instant = eventInstant(event);
+  if (instant == null) return "";
+  const timeZone = eventTimeZone(event);
+  if (!timeZone) return String(event.datetime_iso || event.dateTimeISO || "").slice(0, 16);
+  try {
+    const parts = Object.fromEntries(new Intl.DateTimeFormat("en-CA", {
+      timeZone, hourCycle: "h23", year: "numeric", month: "2-digit",
+      day: "2-digit", hour: "2-digit", minute: "2-digit"
+    }).formatToParts(new Date(instant)).map(({ type, value }) => [type, value]));
+    return `${parts.year}-${parts.month}-${parts.day}T${parts.hour}:${parts.minute}`;
+  } catch { return ""; }
+}
+
+function evaluateCandidate(event, artistName, candidate, { matchStartTime = true } = {}) {
   const reasons = [];
   const text = candidate?.searchableText || "";
   if (!candidate?.normalizedUrl) reasons.push("invalid provider event URL");
   if (!containsNormalized(text, artistName)) reasons.push("artist name mismatch");
   if (!dateMatches(text, eventLocalDate(event))) reasons.push("venue-local date mismatch");
   else if (urlDateConflicts(candidate?.normalizedUrl, eventLocalDate(event))) reasons.push("provider URL names a different date");
+  if (matchStartTime && candidate?.localStartTimes?.length &&
+      (candidate.localStartTimes.length !== 1 || candidate.localStartTimes[0] !== eventLocalStart(event))) {
+    reasons.push("venue-local start time mismatch");
+  }
   if (!cityMatches(text, event?.city)) reasons.push("city mismatch");
   if (!venueMatches(text, event?.venue)) reasons.push("venue mismatch");
   return { ok: reasons.length === 0, reasons, url: candidate?.normalizedUrl || "", externalId: candidate?.externalId || "" };
@@ -218,7 +238,7 @@ function decideOutcome({ storedUrl, storedVerified, storedCandidate, passing, ca
 // back as a coverage cause: "not checked" = unprocessed, "no qualifying" =
 // not listed, "ambiguous:" = ambiguous. A "-" note is not a cause.
 function outcomeNote(action, { ambiguousListing = false, storedListed = false, catalogComplete = false, stopReason = "" } = {}) {
-  if (ambiguousListing) return "ambiguous: one listing passes for performances on different nights";
+  if (ambiguousListing) return "ambiguous: one listing passes for performances at different start times";
   if (action === "conflict") return "ambiguous: several qualifying listings for this event";
   if (["verify", "add", "correct"].includes(action)) return "-";
   if (["clear", "unverify"].includes(action)) return "no qualifying listing (the complete catalog no longer lists the stored link)";
@@ -382,22 +402,22 @@ async function fetchCatalog(config, artistName, options, state, env = process.en
   return { candidates, complete: false, stopReason: "pagination_cap" };
 }
 
-// Listing ids that pass the exact-event checks for performances on more than
-// one venue-local date (a stored link that still passes counts for its row).
+// Listing ids that pass for different performance times are ambiguous, even
+// on the same day. A date-only listing cannot identify a matinee or evening.
 function listingsMatchingSeveralDates(evaluations) {
-  const datesByListing = new Map();
+  const startsByListing = new Map();
   for (const { event, passing, storedCandidate } of evaluations) {
     const date = eventLocalDate(event);
     if (!date) continue;
-    const key = `${date.year}-${date.month}-${date.day}`;
+    const key = eventInstant(event);
     const listings = passing.map((candidate) => candidate.externalId);
     if (storedCandidate?.ok) listings.push(storedCandidate.externalId);
     for (const listing of new Set(listings.filter(Boolean))) {
-      if (!datesByListing.has(listing)) datesByListing.set(listing, new Set());
-      datesByListing.get(listing).add(key);
+      if (!startsByListing.has(listing)) startsByListing.set(listing, new Set());
+      startsByListing.get(listing).add(key);
     }
   }
-  return new Set([...datesByListing].filter(([, dates]) => dates.size > 1).map(([listing]) => listing));
+  return new Set([...startsByListing].filter(([, starts]) => starts.size > 1).map(([listing]) => listing));
 }
 
 function enrichTicketLiquidatorCandidates(candidates, ticketNetworkCandidates) {
@@ -486,9 +506,9 @@ async function run(options, deps = {}) {
       const link = event?.provider_links?.[config.linkKey] || {};
       const storedUrl = normalizeProviderUrl(config, event?.[config.urlField]);
       const storedId = clean(link?.event_id, 255);
-      const passing = catalog.candidates.map((candidate) => ({ candidate, evaluated: evaluateCandidate(event, artistName, candidate) })).filter((row) => row.evaluated.ok).map((row) => ({ ...row.evaluated, ...row.candidate }));
+      const passing = catalog.candidates.map((candidate) => ({ candidate, evaluated: evaluateCandidate(event, artistName, candidate, { matchStartTime: false }) })).filter((row) => row.evaluated.ok).map((row) => ({ ...row.evaluated, ...row.candidate }));
       const exactStored = catalog.candidates.find((candidate) => (storedId && candidate.externalId === storedId) || (storedUrl && candidate.normalizedUrl === storedUrl));
-      const storedCandidate = exactStored ? { ...evaluateCandidate(event, artistName, exactStored), ...exactStored } : null;
+      const storedCandidate = exactStored ? { ...evaluateCandidate(event, artistName, exactStored, { matchStartTime: false }), ...exactStored } : null;
       return { event, link, storedUrl, storedId, passing, storedCandidate };
     });
     // A narrow discovery miss is not proof of removal. Recheck the stored ID
@@ -510,15 +530,30 @@ async function run(options, deps = {}) {
       if (!exact.complete) continue;
       const found = exact.candidates.find((candidate) => candidate.externalId === evaluation.storedId);
       evaluation.storedCandidate = found
-        ? { ...evaluateCandidate(evaluation.event, artistName, found), ...found }
+        ? { ...evaluateCandidate(evaluation.event, artistName, found, { matchStartTime: false }), ...found }
         : null;
     }
     if (authFailure) break;
+    // Use performance times to resolve date-level ambiguity. A single show
+    // already identified by artist/date/city/venue keeps the existing gate:
+    // providers can report doors and performance times differently.
+    const sharedListings = listingsMatchingSeveralDates(evaluations);
+    for (const evaluation of evaluations) {
+      const needsTime = evaluation.passing.length > 1 ||
+        evaluation.passing.some((candidate) => sharedListings.has(candidate.externalId)) ||
+        (evaluation.storedCandidate?.ok && sharedListings.has(evaluation.storedCandidate.externalId));
+      if (!needsTime) continue;
+      evaluation.passing = evaluation.passing.filter((candidate) => evaluateCandidate(evaluation.event, artistName, candidate).ok);
+      if (evaluation.storedCandidate) {
+        evaluation.storedCandidate = { ...evaluation.storedCandidate,
+          ...evaluateCandidate(evaluation.event, artistName, evaluation.storedCandidate) };
+      }
+    }
     const ambiguous = listingsMatchingSeveralDates(evaluations);
     for (const { event, link, storedUrl, storedId, passing, storedCandidate, exactIdComplete, exactIdStopReason } of evaluations) {
       let outcome = decideOutcome({ storedUrl, storedVerified: link?.verified === true, storedCandidate, passing, catalogComplete: catalog.complete, preserveAbsentStored: catalog.narrowed === true && !exactIdComplete });
       // One listing is one performance. If it passes for performances on
-      // different nights, nothing says which night it is: it is not written to
+      // different start times, nothing says which one it is: it is not written to
       // any of them. A link already stored and verified is left as it is.
       const ambiguousListing = Boolean(outcome.candidate && ambiguous.has(outcome.candidate.externalId) && ["verify", "add", "correct"].includes(outcome.action));
       if (ambiguousListing) outcome = { action: "conflict", candidate: null };
@@ -799,6 +834,34 @@ async function selfTest() {
     async fetchCatalog() { return { candidates, complete: true, stopReason: "" }; }
   });
   const actions = (summary) => Object.fromEntries(summary.results.map((row) => [row.event_id, row.action]));
+  // TicketNetwork supplies both a matinee and an evening performance at the
+  // same venue. Match its explicit local start, never the catalog LaunchDate.
+  const matinee = { ...night("matinee", 5), datetime_iso: "2027-03-05T03:00:00Z" };
+  const evening = { ...night("evening", 5), datetime_iso: "2027-03-05T08:30:00Z" };
+  const timedItem = { ...catalogItem, Name: "Stadium Act", Description: "Stadium Act Accor Stadium Sydney Olympic Park",
+    Url: tn.normalizedUrl, Bullets: ["2027-03-05T14:00"], LaunchDate: "2027-03-04T19:00:00-08:00" };
+  const timed = productCandidates(config, timedItem, "123")[0];
+  assert.deepEqual(timed.localStartTimes, ["2027-03-05T14:00"]);
+  assert.equal(evaluateCandidate(matinee, "Stadium Act", timed).ok, true);
+  assert.deepEqual(evaluateCandidate(evening, "Stadium Act", timed).reasons, ["venue-local start time mismatch"]);
+  const second = { ...timed, externalId: "9000002", normalizedUrl: "https://www.ticketnetwork.com/en/p/9000002", localStartTimes: ["2027-03-05T19:30"], searchableText: timed.searchableText.replace("14:00", "19:30") };
+  const timedRun = await runWith("ticketnetwork", [matinee, evening], [timed, second]);
+  assert.deepEqual(actions(timedRun), { matinee: "add", evening: "add" });
+  assert.deepEqual(timedRun.results.map((row) => row.external_id), [timed.externalId, second.externalId]);
+  const noTime = { ...timed, localStartTimes: [] };
+  assert.deepEqual(actions(await runWith("ticketnetwork", [matinee, evening], [noTime])), { matinee: "conflict", evening: "conflict" });
+  const conflictingTimes = productCandidates(config, { ...timedItem, Bullets: ["2027-03-05T14:00", "2027-03-05T19:30"] }, "123")[0];
+  assert.equal(evaluateCandidate(matinee, "Stadium Act", conflictingTimes).ok, false);
+  assert.equal(evaluateCandidate(evening, "Stadium Act", conflictingTimes).ok, false);
+  assert.equal(evaluateCandidate({ ...matinee, datetime_iso: "2027-03-05T14:00:00+11:00", timezone: "" }, "Stadium Act", timed).ok, true);
+  assert.equal(evaluateCandidate({ ...matinee, datetime_iso: "2027-03-05T14:00:00+11:00", timezone: "UTC" }, "Stadium Act", timed).ok, true);
+  assert.equal(evaluateCandidate({ ...matinee, timezone: "" }, "Stadium Act", timed).ok, false);
+  const winter = { ...matinee, datetime_iso: "2027-07-09T09:30:00Z" };
+  assert.equal(eventLocalStart(winter), "2027-07-09T19:30");
+  const wrongTimeStored = { ...evening, ticketnetwork_url: timed.normalizedUrl, provider_links: { ticketnetwork: { verified: true, event_id: timed.externalId } } };
+  assert.deepEqual(actions(await runWith("ticketnetwork", [matinee, wrongTimeStored], [timed])), { matinee: "add", evening: "unverify" });
+  assert.deepEqual(actions(await runWith("ticketnetwork", [wrongTimeStored], [timed])), { evening: "none" }, "unambiguous single-performance matches retain their existing gate");
+  assert.deepEqual(productCandidates(providerConfig("stubhub-international"), { ...timedItem, Url: "https://www.stubhub.ie/event/123" }, "123")[0].localStartTimes, []);
   // 3. A URL without a date (TicketNetwork) cannot verify one listing against
   // two nights: neither night gets it.
   const fresh = await runWith("ticketnetwork", [night("n4", 4), night("n5", 5)], [tn]);
@@ -820,7 +883,7 @@ async function selfTest() {
   // 10. Every result carries the audit-log note the coverage report reads back.
   const notes = (summary) => Object.fromEntries(summary.results.map((row) => [row.event_id, row.note]));
   assert.equal(fresh.results.every((row) => row.note.startsWith("ambiguous:")), true);
-  assert.deepEqual(notes(corrected), { n4: "ambiguous: one listing passes for performances on different nights", n5: "-" });
+  assert.deepEqual(notes(corrected), { n4: "ambiguous: one listing passes for performances at different start times", n5: "-" });
   assert.equal(notes(wrongStored).n4, "no qualifying listing (the complete catalog no longer lists the stored link)");
   const unlisted = await runWith("ticketnetwork", [night("n5", 5)], []);
   assert.deepEqual(notes(unlisted), { n5: "no qualifying listing (complete catalog checked)" });
@@ -888,7 +951,7 @@ async function selfTest() {
   // A row logged under an old display name is still the artist's, by id.
   const renamed = renderLog({ ...unlisted, results: [row("old", "Old Stage Name", "no qualifying listing (complete catalog checked)"), row("o1", "Other Act", "-")] });
   assert.deepEqual(mergeOutcomeRows(renamed, [], new Set(["old"])).rows.map((line) => line.slice(2).split(" | ")[0]), ["o1"]);
-  return 89;
+  return 104;
 }
 
 async function main() {

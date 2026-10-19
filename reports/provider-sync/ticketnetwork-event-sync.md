@@ -1,6 +1,6 @@
 # TicketNetwork event sync log
 
-Generated: 2026-10-17T22:17:22.539Z
+Generated: 2026-10-19T09:04:56.481Z
 
 Written by `scripts/sync-impact-marketplace-events.mjs`. One Impact catalog
 fetch per registry-verified artist; a link is written only for one
@@ -10,15 +10,16 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 ## Run summary
 
 - Mode: apply
-- Events selected: 3100
-- API calls made: 193
+- Filtered run (verified additions from full-roster preview): its rows replace their previous rows; 3088 row(s) carried over from the previous log
+- Events selected: 40
+- API calls made: 223
 - Verified provenance written: 0
-- URLs added: 98
+- URLs added: 40
 - URLs corrected: 0
 - URLs cleared: 0
-- Provenance un-verified: 15
-- Conflicts (ambiguous, untouched): 61
-- No qualifying listing (complete catalog): 908
+- Provenance un-verified: 0
+- Conflicts (ambiguous, untouched): 0
+- No qualifying listing (complete catalog): 0
 - Not checked (catalog incomplete): 0
 
 ## Outcomes
@@ -283,15 +284,15 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-karol-g-2027-madrid-z698xz2qz1koujx1f | Karol G | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-karol-g-2027-london-1agzk3ogkddbuhf | Karol G | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-karol-g-2027-amsterdam-z698xzbpz16vc_bwjy | Karol G | none | 7896506 | https://www.ticketnetwork.com/en/p/7896506 | - |
-| tm-metallica-2026-uncasville-g5vvz_6nrigot | Metallica | conflict | - | - | ambiguous: several qualifying listings for this event |
+| tm-metallica-2026-uncasville-g5vvz_6nrigot | Metallica | add (applied) | 7859973 | https://www.ticketnetwork.com/en/p/7859973 | - |
 | tm-metallica-2026-uncasville-g5vvz_6n-zpjb | Metallica | none | 7859974 | https://www.ticketnetwork.com/en/p/7859974 | - |
-| tm-metallica-2027-las-vegas-1fayv0b_z4z7ggvk | Metallica | conflict | - | - | ambiguous: several qualifying listings for this event |
+| tm-metallica-2027-las-vegas-1fayv0b_z4z7ggvk | Metallica | add (applied) | 7775512 | https://www.ticketnetwork.com/en/p/7775512 | - |
 | tm-metallica-2027-las-vegas-16vjz_kk3g7ndxr | Metallica | none | 7775513 | https://www.ticketnetwork.com/en/p/7775513 | - |
-| tm-metallica-2027-las-vegas-1a9zko-gke0yct0 | Metallica | conflict | - | - | ambiguous: several qualifying listings for this event |
+| tm-metallica-2027-las-vegas-1a9zko-gke0yct0 | Metallica | add (applied) | 7785086 | https://www.ticketnetwork.com/en/p/7785086 | - |
 | tm-metallica-2027-las-vegas-1a9zko-gkepzr6s | Metallica | none | 7785087 | https://www.ticketnetwork.com/en/p/7785087 | - |
-| tm-metallica-2027-las-vegas-1a9zko-gke0ywtn | Metallica | conflict | - | - | ambiguous: several qualifying listings for this event |
+| tm-metallica-2027-las-vegas-1a9zko-gke0ywtn | Metallica | add (applied) | 7785088 | https://www.ticketnetwork.com/en/p/7785088 | - |
 | tm-metallica-2027-las-vegas-1a9zko-gkepzr6g | Metallica | none | 7785089 | https://www.ticketnetwork.com/en/p/7785089 | - |
-| tm-metallica-2027-las-vegas-1a9zko-gke0buti | Metallica | conflict | - | - | ambiguous: several qualifying listings for this event |
+| tm-metallica-2027-las-vegas-1a9zko-gke0buti | Metallica | add (applied) | 7785090 | https://www.ticketnetwork.com/en/p/7785090 | - |
 | tm-metallica-2027-las-vegas-1a9zko-gkepzxff | Metallica | none | 7785871 | https://www.ticketnetwork.com/en/p/7785871 | - |
 | tm-my-chemical-romance-2026-hollywood-vvg1izbs55mdjk | My Chemical Romance | none | 7424940 | https://www.ticketnetwork.com/en/p/7424940 | - |
 | tm-my-chemical-romance-2026-hollywood-vvg1izbs55msjp | My Chemical Romance | none | 7424941 | https://www.ticketnetwork.com/en/p/7424941 | - |
@@ -413,7 +414,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-blue-october-2026-orlando-1aefz_kgknmxmnk | Blue October | none | 7827973 | https://www.ticketnetwork.com/en/p/7827973 | - |
 | tm-blue-october-2026-atlanta-vvg1zz_6ddzdk3 | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blue-october-2026-nashville-g5viz_kskltsv | Blue October | none | 7808857 | https://www.ticketnetwork.com/en/p/7808857 | - |
-| tm-blue-october-2026-irving-vvg1yz_6kcyhkx | Blue October | conflict | - | - | ambiguous: several qualifying listings for this event |
+| tm-blue-october-2026-irving-vvg1yz_6kcyhkx | Blue October | add (applied) | 7827975 | https://www.ticketnetwork.com/en/p/7827975 | - |
 | tm-blue-october-2026-irving-vvg1yz_68kdxnx | Blue October | none | 7827976 | https://www.ticketnetwork.com/en/p/7827976 | - |
 | tm-blue-october-2026-kansas-city-z7r9jz1a7xk4- | Blue October | none | 7828059 | https://www.ticketnetwork.com/en/p/7828059 | - |
 | tm-blue-october-2026-minneapolis-vv1akzkowgkdjzvr0 | Blue October | none | 7827978 | https://www.ticketnetwork.com/en/p/7827978 | - |
@@ -837,7 +838,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-harry-styles-2026-docklands-16efz_dckg7slsc | Harry Styles | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-harry-styles-2026-docklands-1apzk8ugkd2mxoc | Harry Styles | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-harry-styles-2026-docklands-1apzk8ugkd2broi | Harry Styles | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-harry-styles-2026-sydney-olympic-park-1ka8v0ukgagf72c | Harry Styles | conflict | - | - | ambiguous: several qualifying listings for this event |
+| tm-harry-styles-2026-sydney-olympic-park-1ka8v0ukgagf72c | Harry Styles | add (applied) | 7695899 | https://www.ticketnetwork.com/en/p/7695899 | - |
 | tm-harry-styles-2026-sydney-olympic-park-1apzk8ugkdafgq9 | Harry Styles | none | 7695900 | https://www.ticketnetwork.com/en/p/7695900 | - |
 | tm-harry-styles-2027-pasadena-vvg1iz_3npi4df | Harry Styles | none | 8257680 | https://www.ticketnetwork.com/en/p/8257680 | - |
 | tm-harry-styles-2027-pasadena-vvg1iz_3ntnu7b | Harry Styles | none | 8257681 | https://www.ticketnetwork.com/en/p/8257681 | - |
@@ -973,56 +974,56 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-tobymac-2027-fargo-vv1akzkf_gkd8vyo- | TobyMac | none | 8239104 | https://www.ticketnetwork.com/en/p/8239104 | - |
 | tm-tobymac-2027-tulsa-1aozkf_gkdn-dht | TobyMac | none | 8239106 | https://www.ticketnetwork.com/en/p/8239106 | - |
 | tm-fkj-2027-new-orleans-z7r9jz1a7pd1a | FKJ | none | 8012974 | https://www.ticketnetwork.com/en/p/8012974 | - |
-| tm-trans-siberian-orchestra-2026-green-bay-z7r9jz1aavxjs | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
+| tm-trans-siberian-orchestra-2026-green-bay-z7r9jz1aavxjs | Trans-Siberian Orchestra | add (applied) | 8255032 | https://www.ticketnetwork.com/en/p/8255032 | - |
 | tm-trans-siberian-orchestra-2026-council-bluffs-vv17bz_8gkr7r5-j | Trans-Siberian Orchestra | none | 8255034 | https://www.ticketnetwork.com/en/p/8255034 | - |
-| tm-trans-siberian-orchestra-2026-cincinnati-1apzkffgkdggxqt | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-denver-g5vzz_o66yljp | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-youngstown-vv1aazkfagkd2zwpt | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-salt-lake-city-z7r9jz1aavpc_ | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
+| tm-trans-siberian-orchestra-2026-cincinnati-1apzkffgkdggxqt | Trans-Siberian Orchestra | add (applied) | 8255035 | https://www.ticketnetwork.com/en/p/8255035 | - |
+| tm-trans-siberian-orchestra-2026-denver-g5vzz_o66yljp | Trans-Siberian Orchestra | add (applied) | 8255039 | https://www.ticketnetwork.com/en/p/8255039 | - |
+| tm-trans-siberian-orchestra-2026-youngstown-vv1aazkfagkd2zwpt | Trans-Siberian Orchestra | add (applied) | 8255040 | https://www.ticketnetwork.com/en/p/8255040 | - |
+| tm-trans-siberian-orchestra-2026-salt-lake-city-z7r9jz1aavpc_ | Trans-Siberian Orchestra | add (applied) | 8255044 | https://www.ticketnetwork.com/en/p/8255044 | - |
 | tm-trans-siberian-orchestra-2026-wilkes-barre-vv17fz_8gku2vdcc | Trans-Siberian Orchestra | none | 8255046 | https://www.ticketnetwork.com/en/p/8255046 | - |
-| tm-trans-siberian-orchestra-2026-manchester-vv1avzkffgkecconl | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-boise-g5vzz_8l3-m4c | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-worcester-vv1avzkf7gkd6__c- | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-portland-vvg1hz_8rkn5r8 | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-uncasville-g5vvz_8ebyjdo | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-seattle-vvg1hz_8bxdfpp | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-sacramento-g5vyz_8hivhsq | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
+| tm-trans-siberian-orchestra-2026-manchester-vv1avzkffgkecconl | Trans-Siberian Orchestra | add (applied) | 8255047 | https://www.ticketnetwork.com/en/p/8255047 | - |
+| tm-trans-siberian-orchestra-2026-boise-g5vzz_8l3-m4c | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-trans-siberian-orchestra-2026-worcester-vv1avzkf7gkd6__c- | Trans-Siberian Orchestra | add (applied) | 8255052 | https://www.ticketnetwork.com/en/p/8255052 | - |
+| tm-trans-siberian-orchestra-2026-portland-vvg1hz_8rkn5r8 | Trans-Siberian Orchestra | add (applied) | 8255054 | https://www.ticketnetwork.com/en/p/8255054 | - |
+| tm-trans-siberian-orchestra-2026-uncasville-g5vvz_8ebyjdo | Trans-Siberian Orchestra | add (applied) | 8255056 | https://www.ticketnetwork.com/en/p/8255056 | - |
+| tm-trans-siberian-orchestra-2026-seattle-vvg1hz_8bxdfpp | Trans-Siberian Orchestra | add (applied) | 8255058 | https://www.ticketnetwork.com/en/p/8255058 | - |
+| tm-trans-siberian-orchestra-2026-sacramento-g5vyz_8hivhsq | Trans-Siberian Orchestra | add (applied) | 8255061 | https://www.ticketnetwork.com/en/p/8255061 | - |
 | tm-trans-siberian-orchestra-2026-nashville-g5viz_oinlsr4 | Trans-Siberian Orchestra | none | 8255062 | https://www.ticketnetwork.com/en/p/8255062 | - |
 | tm-trans-siberian-orchestra-2026-charleston-1avbz_8gkwouueg | Trans-Siberian Orchestra | none | 8255063 | https://www.ticketnetwork.com/en/p/8255063 | - |
 | tm-trans-siberian-orchestra-2026-fresno-g5vyz_o5rjusr | Trans-Siberian Orchestra | none | 8255064 | https://www.ticketnetwork.com/en/p/8255064 | - |
-| tm-trans-siberian-orchestra-2026-toledo-vv1kezvpv_gacwg13 | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-columbus-vv17fz_8gkuihkxu | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
+| tm-trans-siberian-orchestra-2026-toledo-vv1kezvpv_gacwg13 | Trans-Siberian Orchestra | add (applied) | 8255065 | https://www.ticketnetwork.com/en/p/8255065 | - |
+| tm-trans-siberian-orchestra-2026-columbus-vv17fz_8gkuihkxu | Trans-Siberian Orchestra | add (applied) | 8255068 | https://www.ticketnetwork.com/en/p/8255068 | - |
 | tm-trans-siberian-orchestra-2026-ontario-z7r9jz1aav08p | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-trans-siberian-orchestra-2026-grand-rapids-vv17oz_8gksfqipn | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-phoenix-1av0z_8gks2uk5t | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
+| tm-trans-siberian-orchestra-2026-grand-rapids-vv17oz_8gksfqipn | Trans-Siberian Orchestra | add (applied) | 8255072 | https://www.ticketnetwork.com/en/p/8255072 | - |
+| tm-trans-siberian-orchestra-2026-phoenix-1av0z_8gks2uk5t | Trans-Siberian Orchestra | add (applied) | 8255079 | https://www.ticketnetwork.com/en/p/8255079 | - |
 | tm-trans-siberian-orchestra-2026-allentown-17gzv0g62dv8e6s | Trans-Siberian Orchestra | none | 8255080 | https://www.ticketnetwork.com/en/p/8255080 | - |
 | tm-trans-siberian-orchestra-2026-austin-g5diz_od7g9c0 | Trans-Siberian Orchestra | none | 8255081 | https://www.ticketnetwork.com/en/p/8255081 | - |
 | tm-trans-siberian-orchestra-2026-raleigh-g5evz_2wee5m0 | Trans-Siberian Orchestra | none | 8255082 | https://www.ticketnetwork.com/en/p/8255082 | - |
 | tm-trans-siberian-orchestra-2026-bossier-city-g5viz_8b0hcmp | Trans-Siberian Orchestra | none | 8255084 | https://www.ticketnetwork.com/en/p/8255084 | - |
-| tm-trans-siberian-orchestra-2026-greenville-g5evz_o2s2bkg | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-houston-z7r9jz1aavnas | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-charlotte-g5evz_o6l3kkc | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-san-antonio-g5diz_8q4vky5 | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-duluth-vvg1zz_8rk7fyq | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-dallas-vvg1yz_8bgba0q | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
+| tm-trans-siberian-orchestra-2026-greenville-g5evz_o2s2bkg | Trans-Siberian Orchestra | add (applied) | 8256376 | https://www.ticketnetwork.com/en/p/8256376 | - |
+| tm-trans-siberian-orchestra-2026-houston-z7r9jz1aavnas | Trans-Siberian Orchestra | add (applied) | 8255087 | https://www.ticketnetwork.com/en/p/8255087 | - |
+| tm-trans-siberian-orchestra-2026-charlotte-g5evz_o6l3kkc | Trans-Siberian Orchestra | add (applied) | 8255089 | https://www.ticketnetwork.com/en/p/8255089 | - |
+| tm-trans-siberian-orchestra-2026-san-antonio-g5diz_8q4vky5 | Trans-Siberian Orchestra | add (applied) | 8255092 | https://www.ticketnetwork.com/en/p/8255092 | - |
+| tm-trans-siberian-orchestra-2026-duluth-vvg1zz_8rk7fyq | Trans-Siberian Orchestra | add (applied) | 8255093 | https://www.ticketnetwork.com/en/p/8255093 | - |
+| tm-trans-siberian-orchestra-2026-dallas-vvg1yz_8bgba0q | Trans-Siberian Orchestra | add (applied) | 8255097 | https://www.ticketnetwork.com/en/p/8255097 | - |
 | tm-trans-siberian-orchestra-2026-charlottesville-vv177z_ogksqlpte | Trans-Siberian Orchestra | none | 8255100 | https://www.ticketnetwork.com/en/p/8255100 | - |
 | tm-trans-siberian-orchestra-2026-birmingham-1aezz_ockcvzdcau | Trans-Siberian Orchestra | none | 8255101 | https://www.ticketnetwork.com/en/p/8255101 | - |
 | tm-trans-siberian-orchestra-2026-jacksonville-1aefz_ogkwzigon | Trans-Siberian Orchestra | none | 8255102 | https://www.ticketnetwork.com/en/p/8255102 | - |
 | tm-trans-siberian-orchestra-2026-albany-k7vgf_8uqsipg | Trans-Siberian Orchestra | none | 8255103 | https://www.ticketnetwork.com/en/p/8255103 | - |
-| tm-trans-siberian-orchestra-2026-hershey-vv1aovpkfgau5bfb | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
+| tm-trans-siberian-orchestra-2026-hershey-vv1aovpkfgau5bfb | Trans-Siberian Orchestra | add (applied) | 8255105 | https://www.ticketnetwork.com/en/p/8255105 | - |
 | tm-trans-siberian-orchestra-2026-sunrise-z7r9jz1aavnag | Trans-Siberian Orchestra | none | 8255106 | https://www.ticketnetwork.com/en/p/8255106 | - |
-| tm-trans-siberian-orchestra-2026-orlando-1aefz_8gkmasnhq | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-pittsburgh-1apzkfdgkej_ji6 | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-philadelphia-1adzz_8gkbpbarl | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-tampa-vvg1vz_oku2sug | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-cleveland-z7r9jz1aavx-d | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-indianapolis-vv17fz_8gkiwqjq1 | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-detroit-vv17oz_8gkyvghou | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-rosemont-vv1a7zkffgkdsxaxx | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-newark-vv1aezkf_gkdmwuvf | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-milwaukee-vv1a6zkfogkdqpudv | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-washington-17a8v0g62bwqi08 | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-minneapolis-vv1akzkfbgkelyd6x | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
+| tm-trans-siberian-orchestra-2026-orlando-1aefz_8gkmasnhq | Trans-Siberian Orchestra | add (applied) | 8255108 | https://www.ticketnetwork.com/en/p/8255108 | - |
+| tm-trans-siberian-orchestra-2026-pittsburgh-1apzkfdgkej_ji6 | Trans-Siberian Orchestra | add (applied) | 8255109 | https://www.ticketnetwork.com/en/p/8255109 | - |
+| tm-trans-siberian-orchestra-2026-philadelphia-1adzz_8gkbpbarl | Trans-Siberian Orchestra | add (applied) | 8255113 | https://www.ticketnetwork.com/en/p/8255113 | - |
+| tm-trans-siberian-orchestra-2026-tampa-vvg1vz_oku2sug | Trans-Siberian Orchestra | add (applied) | 8255112 | https://www.ticketnetwork.com/en/p/8255112 | - |
+| tm-trans-siberian-orchestra-2026-cleveland-z7r9jz1aavx-d | Trans-Siberian Orchestra | add (applied) | 8255116 | https://www.ticketnetwork.com/en/p/8255116 | - |
+| tm-trans-siberian-orchestra-2026-indianapolis-vv17fz_8gkiwqjq1 | Trans-Siberian Orchestra | add (applied) | 8255117 | https://www.ticketnetwork.com/en/p/8255117 | - |
+| tm-trans-siberian-orchestra-2026-detroit-vv17oz_8gkyvghou | Trans-Siberian Orchestra | add (applied) | 8255120 | https://www.ticketnetwork.com/en/p/8255120 | - |
+| tm-trans-siberian-orchestra-2026-rosemont-vv1a7zkffgkdsxaxx | Trans-Siberian Orchestra | add (applied) | 8255121 | https://www.ticketnetwork.com/en/p/8255121 | - |
+| tm-trans-siberian-orchestra-2026-newark-vv1aezkf_gkdmwuvf | Trans-Siberian Orchestra | add (applied) | 8255124 | https://www.ticketnetwork.com/en/p/8255124 | - |
+| tm-trans-siberian-orchestra-2026-milwaukee-vv1a6zkfogkdqpudv | Trans-Siberian Orchestra | add (applied) | 8255125 | https://www.ticketnetwork.com/en/p/8255125 | - |
+| tm-trans-siberian-orchestra-2026-washington-17a8v0g62bwqi08 | Trans-Siberian Orchestra | add (applied) | 8255128 | https://www.ticketnetwork.com/en/p/8255128 | - |
+| tm-trans-siberian-orchestra-2026-minneapolis-vv1akzkfbgkelyd6x | Trans-Siberian Orchestra | add (applied) | 8255130 | https://www.ticketnetwork.com/en/p/8255130 | - |
 | tm-death-cab-for-cutie-2026-brisbane-1akzk3fgkd_ud6g | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-death-cab-for-cutie-2026-chicago-vvg18z_cej4l_d | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-alan-walker-2027-austin-z7r9jz1aavtfx | Alan Walker | none | 8265244 | https://www.ticketnetwork.com/en/p/8265244 | - |
@@ -1442,12 +1443,12 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-metallica-2026-las-vegas-1a9zko4gkdtfc4g | Metallica | none | 7758712 | https://www.ticketnetwork.com/en/p/7758712 | - |
 | tm-metallica-2026-las-vegas-1fayv048rvz72a6e | Metallica | conflict | - | - | ambiguous: several qualifying listings for this event |
 | tm-metallica-2026-las-vegas-1fayv048rvz72a6k | Metallica | none | 7759027 | https://www.ticketnetwork.com/en/p/7759027 | - |
-| tm-metallica-2026-las-vegas-1fayv048rez72a62 | Metallica | conflict | - | - | ambiguous: several qualifying listings for this event |
+| tm-metallica-2026-las-vegas-1fayv048rez72a62 | Metallica | add (applied) | 7775510 | https://www.ticketnetwork.com/en/p/7775510 | - |
 | tm-metallica-2026-las-vegas-1fayv048rez72afa | Metallica | none | 7775511 | https://www.ticketnetwork.com/en/p/7775511 | - |
 | tm-metallica-2027-las-vegas-1a9zko-gkepzm6y | Metallica | none | 7785091 | https://www.ticketnetwork.com/en/p/7785091 | - |
-| tm-metallica-2027-las-vegas-1a9zko-gke0butu | Metallica | conflict | - | - | ambiguous: several qualifying listings for this event |
+| tm-metallica-2027-las-vegas-1a9zko-gke0butu | Metallica | add (applied) | 7785868 | https://www.ticketnetwork.com/en/p/7785868 | - |
 | tm-metallica-2027-las-vegas-1a9zko-gkepzm6w | Metallica | none | 7785869 | https://www.ticketnetwork.com/en/p/7785869 | - |
-| tm-metallica-2027-las-vegas-1a9zko-gke0bqtz | Metallica | conflict | - | - | ambiguous: several qualifying listings for this event |
+| tm-metallica-2027-las-vegas-1a9zko-gke0bqtz | Metallica | add (applied) | 7785870 | https://www.ticketnetwork.com/en/p/7785870 | - |
 | tm-metallica-2027-raleigh-z7r9jz1aavwaj | Metallica | none | 8268626 | https://www.ticketnetwork.com/en/p/8268626 | - |
 | tm-metallica-2027-madison-z7r9jz1aavw0o | Metallica | none | 8268634 | https://www.ticketnetwork.com/en/p/8268634 | - |
 | tm-five-finger-death-punch-2027-glasgow-1adbz_agkuc9oes | Five Finger Death Punch | none | 8090424 | https://www.ticketnetwork.com/en/p/8090424 | - |
@@ -1471,7 +1472,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-hans-zimmer-2027-oklahoma-city-z7r9jz1aavvqf | Hans Zimmer | none | 8271014 | https://www.ticketnetwork.com/en/p/8271014 | - |
 | tm-hans-zimmer-2027-salt-lake-city-z7r9jz1aavvqa | Hans Zimmer | none | 8285031 | https://www.ticketnetwork.com/en/p/8285031 | - |
 | tm-hans-zimmer-2027-los-angeles-z7r9jz1aavvq8 | Hans Zimmer | none | 8271012 | https://www.ticketnetwork.com/en/p/8271012 | - |
-| tm-trans-siberian-orchestra-2026-colorado-springs-z7r9jz1aavnz9 | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
+| tm-trans-siberian-orchestra-2026-colorado-springs-z7r9jz1aavnz9 | Trans-Siberian Orchestra | add (applied) | 8255043 | https://www.ticketnetwork.com/en/p/8255043 | - |
 | tm-trans-siberian-orchestra-2026-las-vegas-z7r9jz1aavnzs | Trans-Siberian Orchestra | none | 8255067 | https://www.ticketnetwork.com/en/p/8255067 | - |
 | tm-death-cab-for-cutie-2027-atlanta-z7r9jz1aavufx | Death Cab for Cutie | none | 8271401 | https://www.ticketnetwork.com/en/p/8271401 | - |
 | tm-death-cab-for-cutie-2027-atlanta-z7r9jz1aavuf- | Death Cab for Cutie | none | 8271402 | https://www.ticketnetwork.com/en/p/8271402 | - |
@@ -2345,8 +2346,8 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-mico-2027-indianapolis-vv1aazk4kgkenppel | Mico | none | 8315056 | https://www.ticketnetwork.com/en/p/8315056 | - |
 | tm-mico-2027-cincinnati-1apzk47gkdey9ag | Mico | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-trans-siberian-orchestra-2026-toronto-1avzz_8gkmdenjm | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-trans-siberian-orchestra-2026-kansas-city-vv1kvovpkbgacwdwu | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-trans-siberian-orchestra-2026-buffalo-k7vgf_okhdtog | Trans-Siberian Orchestra | conflict | - | - | ambiguous: several qualifying listings for this event |
+| tm-trans-siberian-orchestra-2026-kansas-city-vv1kvovpkbgacwdwu | Trans-Siberian Orchestra | add (applied) | 8255134 | https://www.ticketnetwork.com/en/p/8255134 | - |
+| tm-trans-siberian-orchestra-2026-buffalo-k7vgf_okhdtog | Trans-Siberian Orchestra | add (applied) | 8255136 | https://www.ticketnetwork.com/en/p/8255136 | - |
 | tm-trans-siberian-orchestra-2026-saint-louis-vv1akzkfbgkdrsdgs | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-chelsea-cutler-2027-saint-petersburg-z7r9jz1aae_gk | Chelsea Cutler | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-chelsea-cutler-2027-atlanta-z7r9jz1aae_gf | Chelsea Cutler | none | 8301015 | https://www.ticketnetwork.com/en/p/8301015 | - |
@@ -2381,8 +2382,8 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfwxy | Bruno Mars | none | 7798135 | https://www.ticketnetwork.com/en/p/7798135 | - |
 | tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfwxd | Bruno Mars | none | 7798136 | https://www.ticketnetwork.com/en/p/7798136 | - |
 | tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehaqnd | Bruno Mars | none | 8271253 | https://www.ticketnetwork.com/en/p/8271253 | - |
-| tm-bruno-mars-2027-auckland-1a0zkfkgkeslw-y | Bruno Mars | conflict | - | - | ambiguous: several qualifying listings for this event |
-| tm-bruno-mars-2027-auckland-1ae8z_ogkiuunsj | Bruno Mars | conflict | - | - | ambiguous: one listing passes for performances on different nights |
+| tm-bruno-mars-2027-auckland-1a0zkfkgkeslw-y | Bruno Mars | add (applied) | 8244830 | https://www.ticketnetwork.com/en/p/8244830 | - |
+| tm-bruno-mars-2027-auckland-1ae8z_ogkiuunsj | Bruno Mars | add (applied) | 8244848 | https://www.ticketnetwork.com/en/p/8244848 | - |
 | tm-bruno-mars-2027-auckland-1ae8z_ogksqr0wn | Bruno Mars | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-niall-horan-2027-ciudad-de-mexico-1afzkfegkdnvnrg | Niall Horan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-niall-horan-2027-ciudad-de-mexico-1afzkfegkdpr1hq | Niall Horan | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3125,3 +3126,31 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-leon-bridges-2027-vancouver-z7r9jz1aa7dr6 | Leon Bridges | add (applied) | 8313686 | https://www.ticketnetwork.com/en/p/8313686 | - |
 | tm-leon-bridges-2027-columbus-z7r9jz1aa7dpa | Leon Bridges | add (applied) | 8313684 | https://www.ticketnetwork.com/en/p/8313684 | - |
 | tm-leon-bridges-2027-nashville-z7r9jz1aa7dqd | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-rod-stewart-2027-dublin-1kkzvpcfga1_k0w | Rod Stewart | add (applied) | 8307232 | https://www.ticketnetwork.com/en/p/8307232 | - |
+| tm-rod-stewart-2027-belfast-1azzkfugkd15ooi | Rod Stewart | add (applied) | 8326046 | https://www.ticketnetwork.com/en/p/8326046 | - |
+| tm-rod-stewart-2027-glasgow-1auzkfmgkehwkob | Rod Stewart | add (applied) | 8299954 | https://www.ticketnetwork.com/en/p/8299954 | - |
+| tm-ye-2026-houston-g5diz_osqzjfe | Ye | add (applied) | 8244550 | https://www.ticketnetwork.com/en/p/8244550 | - |
+| tm-ye-2026-arlington-z7r9jz1aav0vv | Ye | add (applied) | 8245565 | https://www.ticketnetwork.com/en/p/8245565 | - |
+| tm-kevin-gates-2026-nashville-g5viz_kuq0g54 | Kevin Gates | add (applied) | 7808845 | https://www.ticketnetwork.com/en/p/7808845 | - |
+| tm-brand-new-2026-newport-z7r9jz1aaz_o7 | Brand New | add (applied) | 8183658 | https://www.ticketnetwork.com/en/p/8183658 | - |
+| tm-brand-new-2026-atlanta-z7r9jz1a7pyrk | Brand New | add (applied) | 8062595 | https://www.ticketnetwork.com/en/p/8062595 | - |
+| tm-brand-new-2026-hollywood-vvg1vz_gl6rgiu | Brand New | add (applied) | 8062714 | https://www.ticketnetwork.com/en/p/8062714 | - |
+| tm-brand-new-2026-independence-vvg1bz_uefy4ji | Brand New | add (applied) | 8062597 | https://www.ticketnetwork.com/en/p/8062597 | - |
+| tm-brand-new-2026-grand-prairie-z7r9jz1a7pijy | Brand New | add (applied) | 8062598 | https://www.ticketnetwork.com/en/p/8062598 | - |
+| tm-brand-new-2026-denver-z7r9jz1a7ptjo | Brand New | add (applied) | 8062599 | https://www.ticketnetwork.com/en/p/8062599 | - |
+| tm-brand-new-2026-las-vegas-z7r9jz1a7jdfs | Brand New | add (applied) | 8062600 | https://www.ticketnetwork.com/en/p/8062600 | - |
+| tm-brand-new-2026-anaheim-vvg10z_ueuvpcr | Brand New | add (applied) | 8062601 | https://www.ticketnetwork.com/en/p/8062601 | - |
+| tm-brand-new-2026-san-francisco-g5vyz_ghzwhnz | Brand New | add (applied) | 8062602 | https://www.ticketnetwork.com/en/p/8062602 | - |
+| tm-brand-new-2026-phoenix-17k8v0g6gh6bhfj | Brand New | add (applied) | 8062603 | https://www.ticketnetwork.com/en/p/8062603 | - |
+| tm-kacey-musgraves-2026-los-angeles-z7r9jz1a70kau | Kacey Musgraves | add (applied) | 7919150 | https://www.ticketnetwork.com/en/p/7919150 | - |
+| tm-kacey-musgraves-2026-los-angeles-z7r9jz1a70kag | Kacey Musgraves | add (applied) | 7919151 | https://www.ticketnetwork.com/en/p/7919151 | - |
+| tm-kacey-musgraves-2026-oakland-z7r9jz1a70kkf | Kacey Musgraves | add (applied) | 7919152 | https://www.ticketnetwork.com/en/p/7919152 | - |
+| tm-kacey-musgraves-2026-seattle-vvg1hz_al3e8eo | Kacey Musgraves | add (applied) | 7919153 | https://www.ticketnetwork.com/en/p/7919153 | - |
+| tm-kacey-musgraves-2026-seattle-vvg1hz_awrtnmb | Kacey Musgraves | add (applied) | 7919155 | https://www.ticketnetwork.com/en/p/7919155 | - |
+| tm-kacey-musgraves-2027-glasgow-1adbz_agkdqknt2 | Kacey Musgraves | add (applied) | 7964274 | https://www.ticketnetwork.com/en/p/7964274 | - |
+| tm-kacey-musgraves-2027-manchester-g5vhz_gkaityt | Kacey Musgraves | add (applied) | 7964277 | https://www.ticketnetwork.com/en/p/7964277 | - |
+| tm-knocked-loose-2026-mesa-z7r9jz1a70yjo | Knocked Loose | add (applied) | 8023375 | https://www.ticketnetwork.com/en/p/8023375 | - |
+| tm-knocked-loose-2026-los-angeles-z7r9jz1a70yjs | Knocked Loose | add (applied) | 8003134 | https://www.ticketnetwork.com/en/p/8003134 | - |
+| tm-knocked-loose-2026-san-diego-vvg1iz_5_l1ogs | Knocked Loose | add (applied) | 8002991 | https://www.ticketnetwork.com/en/p/8002991 | - |
+| tm-knocked-loose-2026-salt-lake-city-g5vzz_53unjyf | Knocked Loose | add (applied) | 8002987 | https://www.ticketnetwork.com/en/p/8002987 | - |
+| tm-knocked-loose-2026-austin-g5diz_5qpgquo | Knocked Loose | add (applied) | 8002990 | https://www.ticketnetwork.com/en/p/8002990 | - |

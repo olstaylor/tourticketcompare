@@ -1361,7 +1361,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3100654696164193",
     "ticketmaster_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-montreal-quebec-03-12-2027/event/3100654696164193",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nickelback-tickets/montreal-canada-centre-bell-2027-03-12-6-30-pm/concert/18664626",
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-montreal-bell-centre-3-12-2027/production/7678891",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-montreal-quebec-03-12-2027/event/3100654696164193",
@@ -1462,7 +1462,7 @@
         "event_id": 18664627,
         "url": "https://seatgeek.com/nickelback-tickets/hamilton-canada-td-coliseum-2027-03-20-6-30-pm/concert/18664627",
         "verified": true,
-        "last_verified_at": "2026-10-16",
+        "last_verified_at": "2026-10-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1533,7 +1533,7 @@
         "event_id": 18664630,
         "url": "https://seatgeek.com/nickelback-tickets/toronto-canada-scotiabank-arena-2027-03-21-6-30-pm/concert/18664630",
         "verified": true,
-        "last_verified_at": "2026-10-16",
+        "last_verified_at": "2026-10-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1764,7 +1764,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "07006545C4BC5154",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-milwaukee-wisconsin-03-27-2027/event/07006545C4BC5154",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nickelback-tickets/milwaukee-wisconsin-fiserv-forum-2027-03-27-6-30-pm/concert/18664601",
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-milwaukee-fiserv-forum-3-27-2027/production/7678909",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-milwaukee-wisconsin-03-27-2027/event/07006545C4BC5154",
@@ -1849,7 +1849,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1100654504CBDA72",
     "ticketmaster_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-saskatoon-saskatchewan-04-02-2027/event/1100654504CBDA72",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nickelback-tickets/saskatoon-canada-sasktel-centre-2027-04-02-6-30-pm/concert/18664632",
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-saskatoon-sasktel-centre-4-2-2027/production/7678911",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-saskatoon-saskatchewan-04-02-2027/event/1100654504CBDA72",
@@ -2690,7 +2690,7 @@
         "event_id": 18664618,
         "url": "https://seatgeek.com/nickelback-tickets/dallas-texas-american-airlines-center-2027-04-27-6-30-pm/concert/18664618",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-19",
         "availability_status": "listed"
       },
       "vivid-seats": {

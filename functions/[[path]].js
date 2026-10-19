@@ -3770,7 +3770,7 @@ function renderPriceGuideBody(route, events, env) {
   )}</p>${renderPriceGuideCityTables(artist, guide, rowById, lowByShowId, route.indexableCitySlugs || new Set())}</section>`;
 
   const movesHtml = renderPriceGuideMoves(artist, moves, priceAnswer.pricedRowCount, guideShowsById);
-  const missingPricesHtml = `<section class="nested-panel" aria-labelledby="priceGuideMissingTitle"><h2 id="priceGuideMissingTitle">Why a date may have no displayed price</h2><p>Only some ticket sites share prices with this site. Ticketmaster, SeatGeek and Ticket Liquidator links carry no price here, and a price too old to trust is hidden, so a date with no price can still have tickets. Use “Compare this show” to check that date on each site.</p></section>`;
+  const missingPricesHtml = `<section class="nested-panel" aria-labelledby="priceGuideMissingTitle"><h2 id="priceGuideMissingTitle">Why a date may have no displayed price</h2><p>Only some ticket sites share prices with this site. A fresh, verified SeatGeek price may be shown with its source and check time; Ticketmaster and Ticket Liquidator links don't include a price here. Stale or unavailable prices are hidden, so a date with no displayed price can still have tickets. Use “Compare this show” to check that date on each site.</p></section>`;
 
   const linkItems = [...linkCounts.entries()]
     .map(([name, count]) => `<li>${escapeHtml(`${name}: linked for ${count} of ${guide.showCount} ${guide.showCount === 1 ? "date" : "dates"}`)}</li>`)
@@ -5891,7 +5891,8 @@ function approvedServerPriceLane(show, provider) {
 
 // Price-history eligibility is broader than the subset of lanes whose value is
 // printed on a CTA. SeatGeek snapshots, for example, are permitted to power the
-// on-site history panel even though the SeatGeek button remains price-free.
+// on-site history panel even when the visible CTA is absent; when present, the
+// button and all price answers use the same approved snapshot gate.
 // Keep this aligned with hasApprovedMarketplacePrice in public/app.js.
 function hasApprovedServerPriceSnapshot(show) {
   return Boolean(
@@ -5999,10 +6000,12 @@ const PRICE_CHECK_QUOTE_MAX_HOURS = 36;
 
 // The lanes that supply listed-price snapshots today: numeric price feed,
 // display flag on (wrangler.toml [vars]) and a scheduled writer. Ticket
-// Liquidator links but does not price; SeatGeek and Ticketmaster never price.
+// Liquidator links but does not price; Ticketmaster remains link-only. SeatGeek
+// may display a fresh partner-API snapshot when the exact-event gates pass.
 // Update with the display flags if a lane is added or withdrawn.
 // Keep in sync with LISTED_PRICE_PROVIDER_SLUGS in public/app.js.
 const LISTED_PRICE_PROVIDERS = Object.freeze([
+  Object.freeze({ slug: "seatgeek", name: "SeatGeek" }),
   Object.freeze({ slug: "vivid-seats", name: "Vivid Seats" }),
   Object.freeze({ slug: "ticketnetwork", name: "TicketNetwork" }),
   Object.freeze({ slug: "stubhub-international", name: "StubHub International" })
@@ -6134,7 +6137,7 @@ function serverShowCtaSpecs(show, { seatGeekAvailable = false, vividSeatsAvailab
   if (!show?.id) return [];
   const specs = [];
   if (seatGeekOutAvailable(show, seatGeekAvailable)) {
-    specs.push({ provider: "seatgeek", name: "SeatGeek", href: eventTicketHref(show, "seatgeek"), lane: null });
+    specs.push({ provider: "seatgeek", name: "SeatGeek", href: eventTicketHref(show, "seatgeek"), lane: approvedServerPriceLane(show, "SeatGeek") });
   }
   if (vividSeatsOutAvailable(show, vividSeatsAvailable)) {
     specs.push({ provider: "vivid-seats", name: "Vivid Seats", href: eventTicketHref(show, "vivid-seats"), lane: approvedServerPriceLane(show, "Vivid Seats") });

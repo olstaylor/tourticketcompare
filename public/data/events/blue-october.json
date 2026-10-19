@@ -1766,6 +1766,13 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7827975",
+        "url": "https://www.ticketnetwork.com/en/p/7827975",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_6KCYhKx",
@@ -1774,7 +1781,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/blue-october-irving-tickets-11-27-2026/event/107148357",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827975"
   },
   {
     "id": "tm-blue-october-2026-irving-vvg1yz_68kdxnx",

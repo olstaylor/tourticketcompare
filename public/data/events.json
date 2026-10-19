@@ -45016,11 +45016,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7859973",
+        "url": "https://www.ticketnetwork.com/en/p/7859973",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_6nrIgoT",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7859973"
   },
   {
     "id": "tm-metallica-2026-uncasville-g5vvz_6n-zpjb",
@@ -45146,6 +45154,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7775512",
+        "url": "https://www.ticketnetwork.com/en/p/7775512",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1FAYv0b_Z4Z7GGvk",
@@ -45160,7 +45175,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775512"
   },
   {
     "id": "tm-metallica-2027-las-vegas-16vjz_kk3g7ndxr",
@@ -45296,6 +45312,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7785086",
+        "url": "https://www.ticketnetwork.com/en/p/7785086",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-Gke0ycT0",
@@ -45310,7 +45333,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785086"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzr6s",
@@ -45446,6 +45470,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7785088",
+        "url": "https://www.ticketnetwork.com/en/p/7785088",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-Gke0yWTn",
@@ -45460,7 +45491,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785088"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzr6g",
@@ -45596,6 +45628,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7785090",
+        "url": "https://www.ticketnetwork.com/en/p/7785090",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-Gke0BuTi",
@@ -45610,7 +45649,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785090"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzxff",
@@ -58156,6 +58196,13 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7827975",
+        "url": "https://www.ticketnetwork.com/en/p/7827975",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_6KCYhKx",
@@ -58164,7 +58211,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/blue-october-irving-tickets-11-27-2026/event/107148357",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827975"
   },
   {
     "id": "tm-blue-october-2026-irving-vvg1yz_68kdxnx",
@@ -91438,6 +91486,13 @@
         "verified": true,
         "last_verified_at": "2026-10-06",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7695899",
+        "url": "https://www.ticketnetwork.com/en/p/7695899",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ka8v0ukGAGf72C",
@@ -91446,7 +91501,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695899/Harry-Styles-tickets-Sat-Dec-12-2026-Accor-Stadium",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695899"
   },
   {
     "id": "tm-harry-styles-2026-sydney-olympic-park-1apzk8ugkdafgq9",
@@ -101109,6 +101165,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255032",
+        "url": "https://www.ticketnetwork.com/en/p/8255032",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvxjs",
@@ -101116,7 +101179,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255032"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-council-bluffs-vv17bz_8gkr7r5-j",
@@ -101246,6 +101310,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255035",
+        "url": "https://www.ticketnetwork.com/en/p/8255035",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkffGkdGgXqT",
@@ -101270,7 +101341,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255035"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-denver-g5vzz_o66yljp",
@@ -101319,6 +101391,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255039",
+        "url": "https://www.ticketnetwork.com/en/p/8255039",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_o66YlJp",
@@ -101343,7 +101422,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255039"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-youngstown-vv1aazkfagkd2zwpt",
@@ -101392,6 +101472,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255040",
+        "url": "https://www.ticketnetwork.com/en/p/8255040",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZkfAGkd2ZwpT",
@@ -101416,7 +101503,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255040"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-salt-lake-city-z7r9jz1aavpc_",
@@ -101465,11 +101553,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255044",
+        "url": "https://www.ticketnetwork.com/en/p/8255044",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvpC_",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255044"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-wilkes-barre-vv17fz_8gku2vdcc",
@@ -101599,6 +101695,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255047",
+        "url": "https://www.ticketnetwork.com/en/p/8255047",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkffGkecCONl",
@@ -101618,7 +101721,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255047"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-boise-g5vzz_8l3-m4c",
@@ -101745,6 +101849,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255052",
+        "url": "https://www.ticketnetwork.com/en/p/8255052",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkf7Gkd6__C-",
@@ -101759,7 +101870,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255052"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-portland-vvg1hz_8rkn5r8",
@@ -101808,6 +101920,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255054",
+        "url": "https://www.ticketnetwork.com/en/p/8255054",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_8RKn5r8",
@@ -101832,7 +101951,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255054"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-uncasville-g5vvz_8ebyjdo",
@@ -101881,6 +102001,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255056",
+        "url": "https://www.ticketnetwork.com/en/p/8255056",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_8EBYJDo",
@@ -101892,7 +102019,8 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-11-02T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255056"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-seattle-vvg1hz_8bxdfpp",
@@ -101941,6 +102069,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255058",
+        "url": "https://www.ticketnetwork.com/en/p/8255058",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_8BxDFPp",
@@ -101965,7 +102100,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255058"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-sacramento-g5vyz_8hivhsq",
@@ -102014,6 +102150,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255061",
+        "url": "https://www.ticketnetwork.com/en/p/8255061",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_8hiVHsQ",
@@ -102033,7 +102176,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255061"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-nashville-g5viz_oinlsr4",
@@ -102359,6 +102503,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255065",
+        "url": "https://www.ticketnetwork.com/en/p/8255065",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1keZvPv_GACwg13",
@@ -102378,7 +102529,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255065"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-columbus-vv17fz_8gkuihkxu",
@@ -102427,6 +102579,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255068",
+        "url": "https://www.ticketnetwork.com/en/p/8255068",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_8GkUIhkxu",
@@ -102446,7 +102605,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255068"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-ontario-z7r9jz1aav08p",
@@ -102548,6 +102708,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255072",
+        "url": "https://www.ticketnetwork.com/en/p/8255072",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_8GkSfQIpN",
@@ -102567,7 +102734,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255072"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-phoenix-1av0z_8gks2uk5t",
@@ -102616,6 +102784,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255079",
+        "url": "https://www.ticketnetwork.com/en/p/8255079",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_8GkS2UK5T",
@@ -102635,7 +102810,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255079"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-allentown-17gzv0g62dv8e6s",
@@ -103036,6 +103212,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8256376",
+        "url": "https://www.ticketnetwork.com/en/p/8256376",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_o2S2Bkg",
@@ -103050,7 +103233,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8256376"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-houston-z7r9jz1aavnas",
@@ -103099,6 +103283,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255087",
+        "url": "https://www.ticketnetwork.com/en/p/8255087",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvNAS",
@@ -103106,7 +103297,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255087"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-charlotte-g5evz_o6l3kkc",
@@ -103155,6 +103347,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255089",
+        "url": "https://www.ticketnetwork.com/en/p/8255089",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_o6L3kKc",
@@ -103179,7 +103378,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255089"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-san-antonio-g5diz_8q4vky5",
@@ -103228,6 +103428,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255092",
+        "url": "https://www.ticketnetwork.com/en/p/8255092",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_8Q4vky5",
@@ -103247,7 +103454,8 @@
     ],
     "organizer_names": [
       "COMMUNITY ARENA MANAGEMENT"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255092"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-duluth-vvg1zz_8rk7fyq",
@@ -103296,6 +103504,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255093",
+        "url": "https://www.ticketnetwork.com/en/p/8255093",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_8rk7fYq",
@@ -103315,7 +103530,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255093"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-dallas-vvg1yz_8bgba0q",
@@ -103364,6 +103580,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255097",
+        "url": "https://www.ticketnetwork.com/en/p/8255097",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_8BGbA0q",
@@ -103388,7 +103611,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255097"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-charlottesville-vv177z_ogksqlpte",
@@ -103784,6 +104008,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255105",
+        "url": "https://www.ticketnetwork.com/en/p/8255105",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AOvPkFGAu5bFb",
@@ -103813,7 +104044,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255105"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-sunrise-z7r9jz1aavnag",
@@ -103942,6 +104174,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255108",
+        "url": "https://www.ticketnetwork.com/en/p/8255108",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_8GkMASNhq",
@@ -103961,7 +104200,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255108"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-pittsburgh-1apzkfdgkej_ji6",
@@ -104010,6 +104250,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255109",
+        "url": "https://www.ticketnetwork.com/en/p/8255109",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfdGkeJ_JI6",
@@ -104024,7 +104271,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255109"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-philadelphia-1adzz_8gkbpbarl",
@@ -104073,6 +104321,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255113",
+        "url": "https://www.ticketnetwork.com/en/p/8255113",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_8GkBPbARL",
@@ -104097,7 +104352,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255113"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-tampa-vvg1vz_oku2sug",
@@ -104146,6 +104402,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255112",
+        "url": "https://www.ticketnetwork.com/en/p/8255112",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_oku2SUG",
@@ -104170,7 +104433,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255112"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-cleveland-z7r9jz1aavx-d",
@@ -104219,6 +104483,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255116",
+        "url": "https://www.ticketnetwork.com/en/p/8255116",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvx-d",
@@ -104226,7 +104497,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255116"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-indianapolis-vv17fz_8gkiwqjq1",
@@ -104275,6 +104547,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255117",
+        "url": "https://www.ticketnetwork.com/en/p/8255117",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_8GkiwQjQ1",
@@ -104294,7 +104573,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255117"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-detroit-vv17oz_8gkyvghou",
@@ -104343,6 +104623,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255120",
+        "url": "https://www.ticketnetwork.com/en/p/8255120",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_8GkYvghOu",
@@ -104367,7 +104654,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255120"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-rosemont-vv1a7zkffgkdsxaxx",
@@ -104416,6 +104704,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255121",
+        "url": "https://www.ticketnetwork.com/en/p/8255121",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkffGkdsxaxx",
@@ -104445,7 +104740,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255121"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-newark-vv1aezkf_gkdmwuvf",
@@ -104494,6 +104790,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255124",
+        "url": "https://www.ticketnetwork.com/en/p/8255124",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkf_GkdMWuvf",
@@ -104505,7 +104808,8 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-11-29T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255124"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-milwaukee-vv1a6zkfogkdqpudv",
@@ -104554,6 +104858,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255125",
+        "url": "https://www.ticketnetwork.com/en/p/8255125",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6ZkfoGkdQpUdv",
@@ -104574,7 +104885,8 @@
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255125"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-washington-17a8v0g62bwqi08",
@@ -104623,6 +104935,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255128",
+        "url": "https://www.ticketnetwork.com/en/p/8255128",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G62bwQi08",
@@ -104647,7 +104966,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255128"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-minneapolis-vv1akzkfbgkelyd6x",
@@ -104696,6 +105016,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255130",
+        "url": "https://www.ticketnetwork.com/en/p/8255130",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfbGkelyD6X",
@@ -104720,7 +105047,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255130"
   },
   {
     "id": "tm-death-cab-for-cutie-2026-london-g5dzz_au0cejp",
@@ -137739,6 +138067,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7775510",
+        "url": "https://www.ticketnetwork.com/en/p/7775510",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1FAYv048reZ72a62",
@@ -137753,7 +138088,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775510"
   },
   {
     "id": "tm-metallica-2026-las-vegas-1fayv048rez72afa",
@@ -137976,6 +138312,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7785868",
+        "url": "https://www.ticketnetwork.com/en/p/7785868",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-Gke0BuTU",
@@ -137990,7 +138333,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785868"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzm6w",
@@ -138126,6 +138470,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7785870",
+        "url": "https://www.ticketnetwork.com/en/p/7785870",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-Gke0BqTz",
@@ -138140,7 +138491,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785870"
   },
   {
     "id": "tm-metallica-2027-raleigh-z7r9jz1aavwaj",
@@ -140041,6 +140393,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255043",
+        "url": "https://www.ticketnetwork.com/en/p/8255043",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvNZ9",
@@ -140048,7 +140407,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255043"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-las-vegas-z7r9jz1aavnzs",
@@ -207122,6 +207482,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255134",
+        "url": "https://www.ticketnetwork.com/en/p/8255134",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvOvPkbGACwdwU",
@@ -207151,7 +207518,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255134"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-buffalo-k7vgf_okhdtog",
@@ -207200,6 +207568,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255136",
+        "url": "https://www.ticketnetwork.com/en/p/8255136",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_oKhDTOG",
@@ -207211,7 +207586,8 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-12-03T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255136"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-saint-louis-vv1akzkfbgkdrsdgs",
@@ -209607,6 +209983,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8244830",
+        "url": "https://www.ticketnetwork.com/en/p/8244830",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A0ZkfKGkeslw-y",
@@ -209615,7 +209998,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244830/Bruno-Mars-tickets-Sat-Mar-13-2027-Eden-Park-New-Zealand",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244830"
   },
   {
     "id": "tm-bruno-mars-2027-auckland-1ae8z_ogkiuunsj",
@@ -209671,6 +210055,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8244848",
+        "url": "https://www.ticketnetwork.com/en/p/8244848",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae8Z_oGkiuuNSJ",
@@ -209679,7 +210070,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244848/Bruno-Mars-tickets-Sun-Mar-14-2027-Eden-Park-New-Zealand",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244848"
   },
   {
     "id": "tm-bruno-mars-2027-auckland-1ae8z_ogksqr0wn",
@@ -265177,6 +265569,13 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8307232",
+        "url": "https://www.ticketnetwork.com/en/p/8307232",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kkZvPCFGA1_k0W",
@@ -265186,7 +265585,8 @@
       "AMPHITHEATRE IRELAND",
       "AIKEN PROMOTIONS"
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307232/Rod-Stewart-tickets-Fri-Apr-23-2027-3Arena-Dublin"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307232/Rod-Stewart-tickets-Fri-Apr-23-2027-3Arena-Dublin",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307232"
   },
   {
     "id": "tm-rod-stewart-2027-belfast-1azzkfugkd15ooi",
@@ -265242,6 +265642,13 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8326046",
+        "url": "https://www.ticketnetwork.com/en/p/8326046",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AzZkfUGkd15ooI",
@@ -265251,7 +265658,8 @@
       "AIKEN PROMOTIONS",
       "O2"
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326046/Rod-Stewart-tickets-Tue-Apr-27-2027-The-O2-Belfast"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326046/Rod-Stewart-tickets-Tue-Apr-27-2027-The-O2-Belfast",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326046"
   },
   {
     "id": "tm-rod-stewart-2027-glasgow-1auzkfmgkehwkob",
@@ -265314,6 +265722,13 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8299954",
+        "url": "https://www.ticketnetwork.com/en/p/8299954",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkfMGkeHWkOB",
@@ -265324,7 +265739,8 @@
       "SCOTTISH EVENT CAMPUS LIMITED"
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8299954/Rod-Stewart-tickets-Thu-Apr-29-2027-OVO-Hydro",
-    "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-glasgow-ovo-hydro-arena-glasgow-29-4-2027/event/107670605"
+    "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-glasgow-ovo-hydro-arena-glasgow-29-4-2027/event/107670605",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8299954"
   },
   {
     "id": "tm-ye-2026-houston-g5diz_osqzjfe",
@@ -265387,13 +265803,21 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8244550",
+        "url": "https://www.ticketnetwork.com/en/p/8244550",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_oSqZJfE",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244550/Kanye-West-tickets-Sat-Oct-31-2026-Reliant-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/ye-houston-tickets-10-31-2026/event/107666751"
+    "stubhub_international_url": "https://www.stubhub.ie/ye-houston-tickets-10-31-2026/event/107666751",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244550"
   },
   {
     "id": "tm-ye-2026-arlington-z7r9jz1aav0vv",
@@ -265456,13 +265880,21 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8245565",
+        "url": "https://www.ticketnetwork.com/en/p/8245565",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv0vV",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245565/Kanye-West-tickets-Sat-Nov-7-2026-ATT-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/ye-arlington-tickets-11-7-2026/event/107665792"
+    "stubhub_international_url": "https://www.stubhub.ie/ye-arlington-tickets-11-7-2026/event/107665792",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245565"
   },
   {
     "id": "tm-ye-2026-glendale-z7r9jz1aav08u",
@@ -265587,12 +266019,20 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7808845",
+        "url": "https://www.ticketnetwork.com/en/p/7808845",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_kUQ0G54",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808845/Kevin-Gates-tickets-Sat-Oct-24-2026-The-Truth"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808845/Kevin-Gates-tickets-Sat-Oct-24-2026-The-Truth",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808845"
   },
   {
     "id": "tm-brand-new-2026-boston-z7r9jz1a7pwfs",
@@ -265754,12 +266194,20 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8183658",
+        "url": "https://www.ticketnetwork.com/en/p/8183658",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZ_O7",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8183658/Brand-New-tickets-Wed-Oct-21-2026-MegaCorp-Pavilion"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8183658/Brand-New-tickets-Wed-Oct-21-2026-MegaCorp-Pavilion",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8183658"
   },
   {
     "id": "tm-brand-new-2026-atlanta-z7r9jz1a7pyrk",
@@ -265815,12 +266263,20 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8062595",
+        "url": "https://www.ticketnetwork.com/en/p/8062595",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PYrK",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062595/Brand-New-tickets-Thu-Oct-22-2026-Fabulous-Fox-Theatre-Atlanta"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062595/Brand-New-tickets-Thu-Oct-22-2026-Fabulous-Fox-Theatre-Atlanta",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062595"
   },
   {
     "id": "tm-brand-new-2026-hollywood-vvg1vz_gl6rgiu",
@@ -265883,13 +266339,21 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8062714",
+        "url": "https://www.ticketnetwork.com/en/p/8062714",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_Gl6RGiu",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062714/Brand-New-tickets-Sun-Oct-25-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
-    "stubhub_international_url": "https://www.stubhub.ie/brand-new-hollywood-tickets-10-25-2026/event/107417867"
+    "stubhub_international_url": "https://www.stubhub.ie/brand-new-hollywood-tickets-10-25-2026/event/107417867",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062714"
   },
   {
     "id": "tm-brand-new-2026-independence-vvg1bz_uefy4ji",
@@ -265945,12 +266409,20 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8062597",
+        "url": "https://www.ticketnetwork.com/en/p/8062597",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_ueFy4JI",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062597/Brand-New-tickets-Wed-Oct-28-2026-Cable-Dahmer-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062597/Brand-New-tickets-Wed-Oct-28-2026-Cable-Dahmer-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062597"
   },
   {
     "id": "tm-brand-new-2026-grand-prairie-z7r9jz1a7pijy",
@@ -266006,12 +266478,20 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8062598",
+        "url": "https://www.ticketnetwork.com/en/p/8062598",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PIjY",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062598/Brand-New-tickets-Fri-Oct-30-2026-Texas-Trust-CU-Theatre-at-Grand-Prairie"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062598/Brand-New-tickets-Fri-Oct-30-2026-Texas-Trust-CU-Theatre-at-Grand-Prairie",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062598"
   },
   {
     "id": "tm-brand-new-2026-denver-z7r9jz1a7ptjo",
@@ -266067,12 +266547,20 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8062599",
+        "url": "https://www.ticketnetwork.com/en/p/8062599",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PtJo",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062599/Brand-New-tickets-Mon-Nov-2-2026-The-Mission-Ballroom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062599/Brand-New-tickets-Mon-Nov-2-2026-The-Mission-Ballroom",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062599"
   },
   {
     "id": "tm-brand-new-2026-las-vegas-z7r9jz1a7jdfs",
@@ -266128,12 +266616,20 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8062600",
+        "url": "https://www.ticketnetwork.com/en/p/8062600",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JdFs",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062600/Brand-New-tickets-Fri-Nov-6-2026-The-Theater-at-Virgin-Hotels-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062600/Brand-New-tickets-Fri-Nov-6-2026-The-Theater-at-Virgin-Hotels-Las-Vegas",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062600"
   },
   {
     "id": "tm-brand-new-2026-anaheim-vvg10z_ueuvpcr",
@@ -266196,13 +266692,21 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8062601",
+        "url": "https://www.ticketnetwork.com/en/p/8062601",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_ueuVPcR",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062601/Brand-New-tickets-Sat-Nov-7-2026-Honda-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/brand-new-anaheim-tickets-11-7-2026/event/107417868"
+    "stubhub_international_url": "https://www.stubhub.ie/brand-new-anaheim-tickets-11-7-2026/event/107417868",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062601"
   },
   {
     "id": "tm-brand-new-2026-san-francisco-g5vyz_ghzwhnz",
@@ -266265,13 +266769,21 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8062602",
+        "url": "https://www.ticketnetwork.com/en/p/8062602",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_GHzwHnZ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062602/Brand-New-tickets-Wed-Nov-11-2026-Bill-Graham-Civic-Auditorium",
-    "stubhub_international_url": "https://www.stubhub.ie/brand-new-san-francisco-tickets-11-11-2026/event/107447522"
+    "stubhub_international_url": "https://www.stubhub.ie/brand-new-san-francisco-tickets-11-11-2026/event/107447522",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062602"
   },
   {
     "id": "tm-brand-new-2026-phoenix-17k8v0g6gh6bhfj",
@@ -266327,12 +266839,20 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8062603",
+        "url": "https://www.ticketnetwork.com/en/p/8062603",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G6GH6BhFJ",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062603/Brand-New-tickets-Sat-Nov-14-2026-Arizona-Financial-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062603/Brand-New-tickets-Sat-Nov-14-2026-Arizona-Financial-Theatre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062603"
   },
   {
     "id": "tm-kacey-musgraves-2026-los-angeles-z7r9jz1a70kau",
@@ -266395,13 +266915,21 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7919150",
+        "url": "https://www.ticketnetwork.com/en/p/7919150",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70kAU",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7919150/Kacey-Musgraves-tickets-Sun-Oct-18-2026-Cryptocom-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-los-angeles-tickets-10-18-2026/event/107165487"
+    "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-los-angeles-tickets-10-18-2026/event/107165487",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7919150"
   },
   {
     "id": "tm-kacey-musgraves-2026-los-angeles-z7r9jz1a70kag",
@@ -266464,13 +266992,21 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7919151",
+        "url": "https://www.ticketnetwork.com/en/p/7919151",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70kAg",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7919151/Kacey-Musgraves-tickets-Mon-Oct-19-2026-Cryptocom-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-los-angeles-tickets-10-19-2026/event/107165488"
+    "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-los-angeles-tickets-10-19-2026/event/107165488",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7919151"
   },
   {
     "id": "tm-kacey-musgraves-2026-oakland-z7r9jz1a70kkf",
@@ -266533,13 +267069,21 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7919152",
+        "url": "https://www.ticketnetwork.com/en/p/7919152",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70kkF",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7919152/Kacey-Musgraves-tickets-Fri-Oct-23-2026-Oakland-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-oakland-tickets-10-23-2026/event/107164501"
+    "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-oakland-tickets-10-23-2026/event/107164501",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7919152"
   },
   {
     "id": "tm-kacey-musgraves-2026-seattle-vvg1hz_al3e8eo",
@@ -266602,13 +267146,21 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7919153",
+        "url": "https://www.ticketnetwork.com/en/p/7919153",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_aL3e8EO",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7919153/Kacey-Musgraves-tickets-Mon-Oct-26-2026-Climate-Pledge-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-seattle-tickets-10-26-2026/event/107165502"
+    "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-seattle-tickets-10-26-2026/event/107165502",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7919153"
   },
   {
     "id": "tm-kacey-musgraves-2026-seattle-vvg1hz_awrtnmb",
@@ -266671,13 +267223,21 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7919155",
+        "url": "https://www.ticketnetwork.com/en/p/7919155",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_awRTnMb",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7919155/Kacey-Musgraves-tickets-Tue-Oct-27-2026-Climate-Pledge-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-seattle-tickets-10-27-2026/event/107165503"
+    "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-seattle-tickets-10-27-2026/event/107165503",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7919155"
   },
   {
     "id": "tm-kacey-musgraves-2027-glasgow-1adbz_agkdqknt2",
@@ -266740,13 +267300,21 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7964274",
+        "url": "https://www.ticketnetwork.com/en/p/7964274",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdbZ_aGkDqkNT2",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7964274/Kacey-Musgraves-tickets-Mon-Feb-22-2027-OVO-Hydro",
-    "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-tickets-glasgow-ovo-hydro-arena-glasgow-22-2-2027/event/107167077"
+    "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-tickets-glasgow-ovo-hydro-arena-glasgow-22-2-2027/event/107167077",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7964274"
   },
   {
     "id": "tm-kacey-musgraves-2027-manchester-g5vhz_gkaityt",
@@ -266809,13 +267377,21 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7964277",
+        "url": "https://www.ticketnetwork.com/en/p/7964277",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_GKaityt",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7964277/Kacey-Musgraves-tickets-Wed-Feb-24-2027-AO-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-tickets-manchester-manchester-ao-arena-24-2-2027/event/107167078"
+    "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-tickets-manchester-manchester-ao-arena-24-2-2027/event/107167078",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7964277"
   },
   {
     "id": "tm-kacey-musgraves-2027-london-1adjz_agkmwrf6s",
@@ -267107,12 +267683,20 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8023375",
+        "url": "https://www.ticketnetwork.com/en/p/8023375",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70yjO",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8023375/Knocked-Loose-tickets-Tue-Oct-27-2026-Mesa-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8023375/Knocked-Loose-tickets-Tue-Oct-27-2026-Mesa-Amphitheatre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8023375"
   },
   {
     "id": "tm-knocked-loose-2026-los-angeles-z7r9jz1a70yjs",
@@ -267168,12 +267752,20 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8003134",
+        "url": "https://www.ticketnetwork.com/en/p/8003134",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70yjs",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8003134/Knocked-Loose-tickets-Thu-Oct-29-2026-Shrine-LA-Outdoors"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8003134/Knocked-Loose-tickets-Thu-Oct-29-2026-Shrine-LA-Outdoors",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8003134"
   },
   {
     "id": "tm-knocked-loose-2026-san-diego-vvg1iz_5_l1ogs",
@@ -267229,12 +267821,20 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8002991",
+        "url": "https://www.ticketnetwork.com/en/p/8002991",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_5_L1ogS",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002991/Knocked-Loose-tickets-Fri-Oct-30-2026-Gallagher-Square-at-Petco-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002991/Knocked-Loose-tickets-Fri-Oct-30-2026-Gallagher-Square-at-Petco-Park",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002991"
   },
   {
     "id": "tm-knocked-loose-2026-daly-city-g5vyz_5mdvnwz",
@@ -267343,12 +267943,20 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8002987",
+        "url": "https://www.ticketnetwork.com/en/p/8002987",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_53uNJyF",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002987/Knocked-Loose-tickets-Mon-Nov-2-2026-The-Union-Event-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002987/Knocked-Loose-tickets-Mon-Nov-2-2026-The-Union-Event-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002987"
   },
   {
     "id": "tm-knocked-loose-2026-denver-g5vzz_5nhwfmo",
@@ -267457,11 +268065,19 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8002990",
+        "url": "https://www.ticketnetwork.com/en/p/8002990",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_5QPGQUO",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002990/Knocked-Loose-tickets-Thu-Nov-5-2026-Moody-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002990/Knocked-Loose-tickets-Thu-Nov-5-2026-Moody-Amphitheater",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002990"
   }
 ]

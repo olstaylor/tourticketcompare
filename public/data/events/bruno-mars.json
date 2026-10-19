@@ -4970,6 +4970,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8244830",
+        "url": "https://www.ticketnetwork.com/en/p/8244830",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A0ZkfKGkeslw-y",
@@ -4978,7 +4985,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244830/Bruno-Mars-tickets-Sat-Mar-13-2027-Eden-Park-New-Zealand",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244830"
   },
   {
     "id": "tm-bruno-mars-2027-auckland-1ae8z_ogkiuunsj",
@@ -5034,6 +5042,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8244848",
+        "url": "https://www.ticketnetwork.com/en/p/8244848",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae8Z_oGkiuuNSJ",
@@ -5042,7 +5057,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244848/Bruno-Mars-tickets-Sun-Mar-14-2027-Eden-Park-New-Zealand",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244848"
   },
   {
     "id": "tm-bruno-mars-2027-auckland-1ae8z_ogksqr0wn",

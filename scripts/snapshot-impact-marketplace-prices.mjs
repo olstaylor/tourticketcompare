@@ -23,7 +23,7 @@ import { historySupportsEventDate } from "./lib/pricing-schema.mjs";
 
 import { buildPriceChecksSql } from "./lib/price-checks.mjs";
 import { buildPriceTimingSql, timingObservation } from "./lib/price-timing-capture.mjs";
-import { priorityCandidates, readPriorityRows } from "./lib/show-priority-store.mjs";
+import { priorityCandidates, readPriorityRows, readPriceChecks } from "./lib/show-priority-store.mjs";
 
 const execFileAsync = promisify(execFile);
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -401,6 +401,11 @@ async function run(options, deps = {}) {
     const rows = await (deps.readPriority ? deps.readPriority(options) : readPriorityRows({ database: options.database, remote: options.remote }));
     options = { ...options, priorityIds: rows.map((row) => clean(row.event_id, 255)) };
   }
+  if (options.priority && !options.withinHours && !options.priceChecks) {
+    options = { ...options, priceChecks: await (deps.readPriceChecks || readPriceChecks)({
+      provider: config.slug, database: options.database, remote: options.remote
+    }) };
+  }
   const selected = selectEligible(events, artists, config, options, now);
   const rows = [];
   const checks = [];
@@ -626,6 +631,37 @@ async function selfTest() {
   assert.equal(deadlined.failed, 0, "a deadline is not a failure");
   assert.equal(deadlined.usable, asked, "everything fetched before the deadline is kept");
 
+  // Two capped scheduled runs must reach the entire roster, including a
+  // completed lookup that supplied no price. No remote D1 calls in this test.
+  const completed = new Map();
+  const visits = [];
+  for (let pass = 0; pass < 2; pass += 1) {
+    let cappedTick = 0;
+    const visited = [];
+    await run({ provider: "ticket-liquidator", priority: true, priorityIds: [], apply: true, eventId: "", limit: null, freshnessHours: 6, database: "x", remote: true }, {
+      data: [manyEvents, []], now: new Date(`2026-07-13T0${pass}:00:00Z`), fetchDeadlineMs: 1000,
+      clock: () => (cappedTick += 400),
+      async readPriceChecks({ provider }) { assert.equal(provider, "ticket-liquidator"); return [...completed].map(([event_id, checked_at]) => ({ event_id, checked_at })); },
+      async fetchArtistCatalog(_config, id) { visited.push(id); return { ok: true, candidates: [] }; },
+      async writer(rows) { return rows.length; },
+      async checksWriter(checks, checkedAt) {
+        for (const check of checks) { assert.equal(check.outcome, "no_price"); completed.set(check.event_id, checkedAt); }
+        return { recorded: checks.length };
+      }
+    });
+    visits.push(visited);
+  }
+  assert.deepEqual(visits, [["tl-a", "tl-b"], ["tl-c", "tl-d"]], "the next run prices the deferred suffix");
+  let readArgs;
+  const storedChecks = [{ event_id: "e1", checked_at: "2026-07-13T00:00:00Z" }];
+  assert.deepEqual(await readPriceChecks({ provider: "ticketnetwork", exec: async (_cmd, args) => {
+    readArgs = args;
+    return { stdout: JSON.stringify([{ success: true, results: storedChecks }]) };
+  } }), storedChecks);
+  assert.ok(readArgs.includes("--command") && !readArgs.includes("--file"), "recency uses the read-only query path");
+  assert.match(readArgs[readArgs.indexOf("--command") + 1], /WHERE provider = 'ticketnetwork'/);
+  assert.deepEqual(await readPriceChecks({ provider: "ticketnetwork", exec: async () => { throw new Error("D1 unavailable"); } }), [], "read failure preserves default ordering");
+
   assert.match(sql, /INSERT INTO provider_pricing_history \(id, event_id, artist_slug, provider, low_price, currency, inventory_count, source, observed_at, event_date\)/);
   assert.match(sql, /'2027-07-09T19:00:00Z'/);
   // event_date must stay out of the change-detection tuple, or a corrected
@@ -649,7 +685,7 @@ async function selfTest() {
     legacy.split("INSERT INTO provider_pricing_history")[0],
     sql.split("INSERT INTO provider_pricing_history")[0]
   );
-  return 64;
+  return 75;
 }
 
 async function main() {

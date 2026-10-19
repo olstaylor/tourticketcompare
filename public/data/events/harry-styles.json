@@ -3003,6 +3003,13 @@
         "verified": true,
         "last_verified_at": "2026-10-06",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7695899",
+        "url": "https://www.ticketnetwork.com/en/p/7695899",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ka8v0ukGAGf72C",
@@ -3011,7 +3018,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695899/Harry-Styles-tickets-Sat-Dec-12-2026-Accor-Stadium",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695899"
   },
   {
     "id": "tm-harry-styles-2026-sydney-olympic-park-1apzk8ugkdafgq9",

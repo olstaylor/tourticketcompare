@@ -46,6 +46,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255032",
+        "url": "https://www.ticketnetwork.com/en/p/8255032",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvxjs",
@@ -53,7 +60,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255032"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-council-bluffs-vv17bz_8gkr7r5-j",
@@ -183,6 +191,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255035",
+        "url": "https://www.ticketnetwork.com/en/p/8255035",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkffGkdGgXqT",
@@ -207,7 +222,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255035"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-denver-g5vzz_o66yljp",
@@ -256,6 +272,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255039",
+        "url": "https://www.ticketnetwork.com/en/p/8255039",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_o66YlJp",
@@ -280,7 +303,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255039"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-youngstown-vv1aazkfagkd2zwpt",
@@ -329,6 +353,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255040",
+        "url": "https://www.ticketnetwork.com/en/p/8255040",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZkfAGkd2ZwpT",
@@ -353,7 +384,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255040"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-salt-lake-city-z7r9jz1aavpc_",
@@ -402,11 +434,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255044",
+        "url": "https://www.ticketnetwork.com/en/p/8255044",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvpC_",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255044"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-wilkes-barre-vv17fz_8gku2vdcc",
@@ -536,6 +576,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255047",
+        "url": "https://www.ticketnetwork.com/en/p/8255047",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkffGkecCONl",
@@ -555,7 +602,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255047"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-boise-g5vzz_8l3-m4c",
@@ -682,6 +730,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255052",
+        "url": "https://www.ticketnetwork.com/en/p/8255052",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkf7Gkd6__C-",
@@ -696,7 +751,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255052"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-portland-vvg1hz_8rkn5r8",
@@ -745,6 +801,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255054",
+        "url": "https://www.ticketnetwork.com/en/p/8255054",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_8RKn5r8",
@@ -769,7 +832,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255054"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-uncasville-g5vvz_8ebyjdo",
@@ -818,6 +882,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255056",
+        "url": "https://www.ticketnetwork.com/en/p/8255056",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_8EBYJDo",
@@ -829,7 +900,8 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-11-02T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255056"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-seattle-vvg1hz_8bxdfpp",
@@ -878,6 +950,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255058",
+        "url": "https://www.ticketnetwork.com/en/p/8255058",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_8BxDFPp",
@@ -902,7 +981,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255058"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-sacramento-g5vyz_8hivhsq",
@@ -951,6 +1031,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255061",
+        "url": "https://www.ticketnetwork.com/en/p/8255061",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_8hiVHsQ",
@@ -970,7 +1057,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255061"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-nashville-g5viz_oinlsr4",
@@ -1296,6 +1384,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255065",
+        "url": "https://www.ticketnetwork.com/en/p/8255065",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1keZvPv_GACwg13",
@@ -1315,7 +1410,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255065"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-columbus-vv17fz_8gkuihkxu",
@@ -1364,6 +1460,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255068",
+        "url": "https://www.ticketnetwork.com/en/p/8255068",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_8GkUIhkxu",
@@ -1383,7 +1486,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255068"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-ontario-z7r9jz1aav08p",
@@ -1485,6 +1589,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255072",
+        "url": "https://www.ticketnetwork.com/en/p/8255072",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_8GkSfQIpN",
@@ -1504,7 +1615,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255072"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-phoenix-1av0z_8gks2uk5t",
@@ -1553,6 +1665,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255079",
+        "url": "https://www.ticketnetwork.com/en/p/8255079",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_8GkS2UK5T",
@@ -1572,7 +1691,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255079"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-allentown-17gzv0g62dv8e6s",
@@ -1973,6 +2093,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8256376",
+        "url": "https://www.ticketnetwork.com/en/p/8256376",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_o2S2Bkg",
@@ -1987,7 +2114,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8256376"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-houston-z7r9jz1aavnas",
@@ -2036,6 +2164,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255087",
+        "url": "https://www.ticketnetwork.com/en/p/8255087",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvNAS",
@@ -2043,7 +2178,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255087"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-charlotte-g5evz_o6l3kkc",
@@ -2092,6 +2228,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255089",
+        "url": "https://www.ticketnetwork.com/en/p/8255089",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_o6L3kKc",
@@ -2116,7 +2259,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255089"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-san-antonio-g5diz_8q4vky5",
@@ -2165,6 +2309,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255092",
+        "url": "https://www.ticketnetwork.com/en/p/8255092",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_8Q4vky5",
@@ -2184,7 +2335,8 @@
     ],
     "organizer_names": [
       "COMMUNITY ARENA MANAGEMENT"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255092"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-duluth-vvg1zz_8rk7fyq",
@@ -2233,6 +2385,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255093",
+        "url": "https://www.ticketnetwork.com/en/p/8255093",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_8rk7fYq",
@@ -2252,7 +2411,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255093"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-dallas-vvg1yz_8bgba0q",
@@ -2301,6 +2461,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255097",
+        "url": "https://www.ticketnetwork.com/en/p/8255097",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_8BGbA0q",
@@ -2325,7 +2492,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255097"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-charlottesville-vv177z_ogksqlpte",
@@ -2721,6 +2889,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255105",
+        "url": "https://www.ticketnetwork.com/en/p/8255105",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AOvPkFGAu5bFb",
@@ -2750,7 +2925,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255105"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-sunrise-z7r9jz1aavnag",
@@ -2879,6 +3055,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255108",
+        "url": "https://www.ticketnetwork.com/en/p/8255108",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_8GkMASNhq",
@@ -2898,7 +3081,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255108"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-pittsburgh-1apzkfdgkej_ji6",
@@ -2947,6 +3131,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255109",
+        "url": "https://www.ticketnetwork.com/en/p/8255109",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfdGkeJ_JI6",
@@ -2961,7 +3152,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255109"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-philadelphia-1adzz_8gkbpbarl",
@@ -3010,6 +3202,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255113",
+        "url": "https://www.ticketnetwork.com/en/p/8255113",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_8GkBPbARL",
@@ -3034,7 +3233,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255113"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-tampa-vvg1vz_oku2sug",
@@ -3083,6 +3283,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255112",
+        "url": "https://www.ticketnetwork.com/en/p/8255112",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_oku2SUG",
@@ -3107,7 +3314,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255112"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-cleveland-z7r9jz1aavx-d",
@@ -3156,6 +3364,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255116",
+        "url": "https://www.ticketnetwork.com/en/p/8255116",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvx-d",
@@ -3163,7 +3378,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255116"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-indianapolis-vv17fz_8gkiwqjq1",
@@ -3212,6 +3428,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255117",
+        "url": "https://www.ticketnetwork.com/en/p/8255117",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_8GkiwQjQ1",
@@ -3231,7 +3454,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255117"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-detroit-vv17oz_8gkyvghou",
@@ -3280,6 +3504,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255120",
+        "url": "https://www.ticketnetwork.com/en/p/8255120",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_8GkYvghOu",
@@ -3304,7 +3535,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255120"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-rosemont-vv1a7zkffgkdsxaxx",
@@ -3353,6 +3585,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255121",
+        "url": "https://www.ticketnetwork.com/en/p/8255121",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkffGkdsxaxx",
@@ -3382,7 +3621,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255121"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-newark-vv1aezkf_gkdmwuvf",
@@ -3431,6 +3671,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255124",
+        "url": "https://www.ticketnetwork.com/en/p/8255124",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkf_GkdMWuvf",
@@ -3442,7 +3689,8 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-11-29T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255124"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-milwaukee-vv1a6zkfogkdqpudv",
@@ -3491,6 +3739,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255125",
+        "url": "https://www.ticketnetwork.com/en/p/8255125",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6ZkfoGkdQpUdv",
@@ -3511,7 +3766,8 @@
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255125"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-washington-17a8v0g62bwqi08",
@@ -3560,6 +3816,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255128",
+        "url": "https://www.ticketnetwork.com/en/p/8255128",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G62bwQi08",
@@ -3584,7 +3847,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255128"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-minneapolis-vv1akzkfbgkelyd6x",
@@ -3633,6 +3897,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255130",
+        "url": "https://www.ticketnetwork.com/en/p/8255130",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfbGkelyD6X",
@@ -3657,7 +3928,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255130"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-colorado-springs-z7r9jz1aavnz9",
@@ -3706,6 +3978,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255043",
+        "url": "https://www.ticketnetwork.com/en/p/8255043",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvNZ9",
@@ -3713,7 +3992,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255043"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-las-vegas-z7r9jz1aavnzs",
@@ -3893,6 +4173,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255134",
+        "url": "https://www.ticketnetwork.com/en/p/8255134",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvOvPkbGACwdwU",
@@ -3922,7 +4209,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255134"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-buffalo-k7vgf_okhdtog",
@@ -3971,6 +4259,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255136",
+        "url": "https://www.ticketnetwork.com/en/p/8255136",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_oKhDTOG",
@@ -3982,7 +4277,8 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-12-03T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255136"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-saint-louis-vv1akzkfbgkdrsdgs",

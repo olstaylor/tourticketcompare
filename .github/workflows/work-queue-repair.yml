@@ -75,7 +75,26 @@ permissions:
   actions: write
 
 jobs:
+  wait-for-writers:
+    runs-on: ubuntu-latest
+    # Nightly may still be queued behind all three daily-audit jobs, whose
+    # caps sum to 248 minutes, before its own 90-minute execution cap starts.
+    # Keep that bounded queue in a separate job so it cannot consume repair's
+    # work budget or exceed the hosted runner's six-hour per-job limit.
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Wait for older event-data writer runs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 345 --withhold-when-busy
+
   repair:
+    needs: wait-for-writers
     runs-on: ubuntu-latest
     # The repair runs the artefact's own check twice, its generator, and the
     # full `test:mvp` suite, then waits for Prelaunch Validation to reach a
@@ -91,6 +110,7 @@ jobs:
       - name: Wait for older event-data writer runs
         env:
           GITHUB_TOKEN: ${{ github.token }}
+        # Recheck ordering and refresh this new checkout after the queue job.
         # Busy queue: end cancelled (neutral), not red; tomorrow's run retries.
         run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 8 --withhold-when-busy
 

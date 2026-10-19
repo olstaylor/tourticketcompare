@@ -179,7 +179,7 @@ const priced = {
       seatgeek: { verified: true, url: "https://seatgeek.com/x" }
     }
   });
-  assert(eventPriceComparable(seatgeek, NOW) === false, "SeatGeek has no snapshot lane, so it cannot be the second price");
+  assert(eventPriceComparable(seatgeek, NOW) === false, "SeatGeek is not an SEO comparison lane until numeric feed data is reliable");
   const noUrl = ev({
     provider_links: {
       "vivid-seats": { verified: true, url: "https://www.vividseats.com/x/production/1" },

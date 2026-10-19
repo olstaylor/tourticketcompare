@@ -46,15 +46,15 @@ When runtime Impact configuration is absent or tracking generation fails, `/api/
 
 **Approved public display rights:**
 - **Ticket links/CTAs:** approved for public display through verified SeatGeek destinations and server-side Impact wrapping.
-- **Listed price:** never displayed in practice — SeatGeek has no numeric snapshot lane. Its API returns null pricing statistics for this client (owner-confirmed 2026-07-15, a permanent provider-API limitation, not a pending entitlement), so no snapshot rows are ever written. The `/api/shows` display gate (`SEATGEEK_PRICE_DISPLAY_ENABLED` plus cache/source/freshness checks) remains in place and fail-closed; it is inert. Public copy must not claim SeatGeek price snapshots while this remains true.
-- **Side-by-side comparisons:** the SeatGeek/Vivid Seats comparison path remains in code but is inert for the same reason. Displayed price comparison is served by the providers with active numeric-price lanes (see `PROJECT_STATUS.md`).
+- **Listed price:** owner-approved for public display when shown with SeatGeek attribution and the existing exact-event, approved-source, currency, timestamp, cache, and freshness checks (owner-confirmed 2026-10-19). This permission does not mean the current feed supplies prices: production has no SeatGeek snapshot rows, and a no-write check for a verified Lizzy McAlpine event returned no usable numeric pricing fields. Do not claim or display an amount unless a valid snapshot is present.
+- **Side-by-side comparisons:** a verified, fresh SeatGeek snapshot may participate in same-event comparisons with its own provider attribution and check time. The comparison path remains inert while this client receives no numeric SeatGeek rows.
 - **History:** approved for archival and historical display when the provider/source attribution and observation time remain attached.
 - **Fees/final checkout total:** not approved from TourTicketCompare data. Users must confirm fees and final totals on SeatGeek.
 - **Inventory/availability counts:** remain prohibited; do not say tickets are available, sold out, limited, or scarce from SeatGeek inventory data.
 
 **Constraints:**
 - The destination host is `seatgeek.com` (the only allowlisted SeatGeek host). Generic search/venue URLs are rejected on the event lane; the artist lane accepts only the hand-verified performer-page constants in `VERIFIED_TICKET_LINKS`.
-- **SeatGeek price snapshots could only ever go live behind their source and freshness gate.** Should SeatGeek ever ship pricing-stat access, snapshots must be sourced from the approved SeatGeek partner API, gated by `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, tied to an event with a valid verified `seatgeek_url`, loaded from a cached row with `source='seatgeek_partner_api'`, timestamped, and hidden when stale. Do not scrape, invent, or manually enter prices.
+- **SeatGeek price snapshots may display only behind their source and freshness gate:** they must come from the approved SeatGeek partner API, pass `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, match a valid verified `seatgeek_url` for the exact event, use a cached row with `source='seatgeek_partner_api'`, carry currency and a timestamp, and be hidden when stale. Do not scrape, invent, or manually enter prices.
 
 ---
 
@@ -68,7 +68,7 @@ When runtime Impact configuration is absent or tracking generation fails, `/api/
 - **Ticket links/CTAs:** approved and live for event records that pass the per-event provenance, URL-shape, runtime configuration, and redirect gates.
 - **Listed price:** approved for public display from the approved Vivid Seats feed when `VIVIDSEATS_PRICE_DISPLAY_ENABLED=true` and the cache/source/freshness gates pass.
 - **Machine-readable redistribution (JSON-LD `offers`):** owner-confirmed with the programme 2026-07-22. A schema.org Offer may mirror the visible snapshot under the schema-offers exception in `SAFE_PUBLISHING_RULES.md` (flag-gated, badge-mirroring, `priceValidUntil` = the row's `expires_at`, no availability).
-- **Side-by-side comparisons:** approved for the same verified event with another fresh approved provider snapshot. TourTicketCompare may identify the lower listed snapshot and the price difference. (SeatGeek cannot be the other lane — it has no numeric snapshot lane.)
+- **Side-by-side comparisons:** approved for the same verified event with another fresh approved provider snapshot. TourTicketCompare may identify the lower listed snapshot and the price difference. SeatGeek may participate when its snapshot passes the same display gates and the price appears on the SeatGeek CTA; it is not a static SEO route-eligibility lane until this client has reliable numeric data.
 - **History:** approved for archival and historical display when the provider/source attribution and observation time remain attached.
 - **Fees/final checkout total:** not approved from TourTicketCompare data. Users must confirm fees and final totals on Vivid Seats.
 - **Inventory/availability counts:** remain prohibited; do not say tickets are available, sold out, limited, or scarce from Vivid Seats inventory data.

@@ -412,7 +412,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   // Gated-out lanes never appear, whatever the cache holds.
   assert(!body.includes("USD 3.80") && !/StubHub International\s*(?:\$|USD\s+)/.test(body), "an implausible snapshot never reaches the table");
   assert(!/Ticket Liquidator\s*(?:\$|USD\s+)/.test(body), "a price-display-disabled lane never reaches the table");
-  assert(!/SeatGeek\s*(?:\$|USD\s+)\d/.test(body), "SeatGeek never carries a price");
+  assert(!/SeatGeek\s*(?:\$|USD\s+)\d/.test(body), "this fixture has no approved SeatGeek snapshot to display");
 
   // The panel the internal-link audit depends on keeps its required heading.
   // It is compressed, never removed: audit-internal-links.mjs fails an

@@ -1069,7 +1069,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvzfV",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfV",
     "seatgeek_url": "https://seatgeek.com/valley-tickets/san-francisco-california-the-independent-2027-03-01-8-pm/concert/18690439",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/valley---pop-band-tickets-san-francisco-the-independent-3-1-2027/production/7616428",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfV",
     "last_verified_at": null,
@@ -1091,11 +1091,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7616428,
+        "url": "https://www.vividseats.com/valley---pop-band-tickets-san-francisco-the-independent-3-1-2027/production/7616428",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

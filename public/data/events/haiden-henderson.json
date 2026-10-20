@@ -1550,7 +1550,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA79uF",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA79uF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-seattle-el-corazon-5-11-2027/production/7613114",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA79uF",
     "last_verified_at": null,
@@ -1572,11 +1572,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7613114,
+        "url": "https://www.vividseats.com/haiden-henderson-tickets-seattle-el-corazon-5-11-2027/production/7613114",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

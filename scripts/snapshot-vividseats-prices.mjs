@@ -164,10 +164,11 @@ function impactCredentials(env = process.env) {
   if (!accountSid || !authToken) throw new Error("Impact Vivid Seats credentials are required (IMPACT_VIVIDSEATS_* or IMPACT_*)");
   return { accountSid, authToken };
 }
-function marketplaceProductsUrl({ accountSid, artistName, page, env = process.env }) {
+function marketplaceProductsUrl({ accountSid, artistName, productionId = "", page, env = process.env }) {
+  if (productionId && !/^\d+$/.test(productionId)) throw new Error("Invalid Vivid Seats production ID");
   const base = clean(env.IMPACT_API_BASE_URL || IMPACT_API_BASE, 2048).replace(/\/+$/, "");
   const program = clean(env.IMPACT_VIVIDSEATS_PROGRAM_ID, 50) || IMPACT_PROGRAM;
-  const params = new URLSearchParams({ Program: program, Query: `Name='${artistName}'`, PageSize: String(PAGE_SIZE), Page: String(page) });
+  const params = new URLSearchParams({ Program: program, Query: productionId ? `Sku='${productionId}'` : `Name='${artistName}'`, PageSize: String(PAGE_SIZE), Page: String(page) });
   return `${base}/Mediapartners/${encodeURIComponent(accountSid)}/Marketplace/Products?${params.toString()}`;
 }
 function basicAuthHeader({ accountSid, authToken }) {
@@ -209,12 +210,12 @@ function pricesForProduction(items, productionId) {
   if (distinct.size !== 1) return { ok: false, reason: "ambiguous_current_price_for_exact_vivid_production" };
   return { ok: true, price: [...distinct.values()][0] };
 }
-async function fetchArtistCatalog(artistName, env, fetchImpl) {
+async function fetchArtistCatalog(artistName, env, fetchImpl, productionId = "") {
   const credentials = impactCredentials(env);
   const headers = basicAuthHeader(credentials);
   const rows = [];
   for (let page = 1; page <= MAX_PAGES; page += 1) {
-    const response = await requestJson(marketplaceProductsUrl({ accountSid: credentials.accountSid, artistName, page, env }), headers, fetchImpl);
+    const response = await requestJson(marketplaceProductsUrl({ accountSid: credentials.accountSid, artistName, productionId, page, env }), headers, fetchImpl);
     if (!response.ok) return response;
     const results = Array.isArray(response.data?.Results) ? response.data.Results : null;
     if (!results) return { ok: false, status: response.status, reason: "Impact Marketplace Products response had no Results array" };
@@ -367,49 +368,64 @@ async function runIngestion(options, deps = {}) {
   const checks = [];
   const timingObservations = [];
   for (const [artistName, items] of byArtist) {
-    const fetched = deps.fetchArtistCatalog ? await deps.fetchArtistCatalog(artistName, env) : await fetchArtistCatalog(artistName, env, deps.fetchImpl);
-    if (!fetched.ok && fetched.incomplete) {
-      // Same contract as sync-vividseats-events.mjs: an incomplete catalog is
-      // neither a failure nor evidence. No price row, no no_price check.
-      summary.incomplete_artists.push(artistName);
-      for (const item of items) {
-        timingObservations.push(timingObservation(item.event, PROVIDER, item.productionId, "incomplete", deps.now || new Date()));
-        summary.skipped++;
-        summary.skip_reasons.catalog_incomplete = (summary.skip_reasons.catalog_incomplete || 0) + 1;
-      }
-      continue;
-    }
-    if (!fetched.ok) {
-      for (const item of items) {
-        timingObservations.push(timingObservation(item.event, PROVIDER, item.productionId, "failed", deps.now || new Date()));
-        summary.skipped++;
-        summary.failed++;
-        summary.errors++;
-        summary.skip_reasons.api_unavailable_or_error = (summary.skip_reasons.api_unavailable_or_error || 0) + 1;
-        summary.error_details.push({ event_id: item.localId, reason: redact(fetched.reason) });
-      }
-      continue;
-    }
-    summary.fetched += items.length;
-    for (const item of items) {
-      const priced = pricesForProduction(fetched.data, item.productionId);
-      const capturedAt = deps.now || new Date();
-      timingObservations.push(timingObservation(item.event, PROVIDER, item.productionId,
-        priced.ok ? "priced" : priced.reason === "no_current_price_for_exact_vivid_production" ? "no_price" : "unusable", capturedAt, priced.ok ? priced.price : null));
-      // Only "no price for this exact production" is no_price; conflicting
-      // prices are unusable, never quoted as "no listed price".
-      if (item.localId) checks.push({ event_id: item.localId, provider: PROVIDER, outcome: priced.ok ? "priced" : priced.reason === "no_current_price_for_exact_vivid_production" ? "no_price" : "unusable" });
-      if (!priced.ok) { summary.skipped++; summary.skip_reasons[priced.reason] = (summary.skip_reasons[priced.reason] || 0) + 1; continue; }
-      const built = buildSnapshotRow(item, priced.price, capturedAt, options.freshnessHours);
-      if (!built.ok) {
-        summary.skipped++;
-        summary.failed++;
-        summary.errors++;
-        summary.skip_reasons[built.reason] = (summary.skip_reasons[built.reason] || 0) + 1;
-        summary.error_details.push({ event_id: item.localId, reason: built.reason });
+    const artistCatalog = deps.fetchArtistCatalog ? await deps.fetchArtistCatalog(artistName, env) : await fetchArtistCatalog(artistName, env, deps.fetchImpl);
+    const batches = async function* () {
+      if (!artistCatalog.ok && artistCatalog.incomplete) {
+        // A common artist name can exceed the broad query's page cap. These
+        // production IDs already come from verified event URLs; query each exact
+        // SKU under the same program and complete-pagination/price gates.
+        for (const item of items) {
+          const fetched = deps.fetchProductionCatalog
+            ? await deps.fetchProductionCatalog(item.productionId, env)
+            : await fetchArtistCatalog(artistName, env, deps.fetchImpl, item.productionId);
+          yield { items: [item], fetched };
+        }
+      } else yield { items, fetched: artistCatalog };
+    };
+    for await (const { items, fetched } of batches()) {
+      if (!fetched.ok && fetched.incomplete) {
+        // Same contract as sync-vividseats-events.mjs: an incomplete catalog is
+        // neither a failure nor evidence. No price row, no no_price check.
+        if (!summary.incomplete_artists.includes(artistName)) summary.incomplete_artists.push(artistName);
+        for (const item of items) {
+          timingObservations.push(timingObservation(item.event, PROVIDER, item.productionId, "incomplete", deps.now || new Date()));
+          summary.skipped++;
+          summary.skip_reasons.catalog_incomplete = (summary.skip_reasons.catalog_incomplete || 0) + 1;
+        }
         continue;
       }
-      rows.push(built.row); summary.proposed_rows.push(publicRow(built.row));
+      if (!fetched.ok) {
+        for (const item of items) {
+          timingObservations.push(timingObservation(item.event, PROVIDER, item.productionId, "failed", deps.now || new Date()));
+          summary.skipped++;
+          summary.failed++;
+          summary.errors++;
+          summary.skip_reasons.api_unavailable_or_error = (summary.skip_reasons.api_unavailable_or_error || 0) + 1;
+          summary.error_details.push({ event_id: item.localId, reason: redact(fetched.reason) });
+        }
+        continue;
+      }
+      summary.fetched += items.length;
+      for (const item of items) {
+        const priced = pricesForProduction(fetched.data, item.productionId);
+        const capturedAt = deps.now || new Date();
+        timingObservations.push(timingObservation(item.event, PROVIDER, item.productionId,
+          priced.ok ? "priced" : priced.reason === "no_current_price_for_exact_vivid_production" ? "no_price" : "unusable", capturedAt, priced.ok ? priced.price : null));
+        // Only "no price for this exact production" is no_price; conflicting
+        // prices are unusable, never quoted as "no listed price".
+        if (item.localId) checks.push({ event_id: item.localId, provider: PROVIDER, outcome: priced.ok ? "priced" : priced.reason === "no_current_price_for_exact_vivid_production" ? "no_price" : "unusable" });
+        if (!priced.ok) { summary.skipped++; summary.skip_reasons[priced.reason] = (summary.skip_reasons[priced.reason] || 0) + 1; continue; }
+        const built = buildSnapshotRow(item, priced.price, capturedAt, options.freshnessHours);
+        if (!built.ok) {
+          summary.skipped++;
+          summary.failed++;
+          summary.errors++;
+          summary.skip_reasons[built.reason] = (summary.skip_reasons[built.reason] || 0) + 1;
+          summary.error_details.push({ event_id: item.localId, reason: built.reason });
+          continue;
+        }
+        rows.push(built.row); summary.proposed_rows.push(publicRow(built.row));
+      }
     }
   }
   summary.usable = rows.length;
@@ -518,6 +534,7 @@ async function selfTest() {
   const incomplete = await runIngestion({ apply: true, limit: null, eventId: "", freshnessHours: 6, database: DEFAULT_D1_DATABASE, remote: true }, {
     catalog: { events: [verifiedFutureEvent, { ...verifiedFutureEvent, id: "event-v", artist_slug: "valley", vividseats_url: "https://www.vividseats.com/v-tickets/production/789" }], artistsBySlug: new Map([["raye", "RAYE"], ["valley", "Valley"]]) },
     now, async fetchArtistCatalog(name) { return name === "Valley" ? { ok: false, incomplete: true, reason: "catalog_incomplete_pagination_cap" } : { ok: true, data: [{ CurrentPrice: 52, Currency: "USD", Offers: [{ Sku: "123" }] }] }; },
+    async fetchProductionCatalog() { return { ok: false, incomplete: true, reason: "catalog_incomplete_pagination_cap" }; },
     async writer(rows) { return { written: rows.length }; },
     async checksWriter(checks) { incompleteChecks = checks; return { recorded: checks.length }; }
   });
@@ -540,7 +557,34 @@ async function selfTest() {
   const cleanWarnings = [];
   writeSummary(dry, true, { log() {}, error: (line) => cleanWarnings.push(line) });
   assert.deepEqual(cleanWarnings, []);
-  return { ok: true, tests: 48 };
+  assert.equal(new URL(marketplaceProductsUrl({ accountSid: "sid", productionId: "123", page: 1, env: {} })).searchParams.get("Query"), "Sku='123'");
+  assert.throws(() => marketplaceProductsUrl({ accountSid: "sid", productionId: "123' OR 1=1", page: 1, env: {} }), /Invalid Vivid Seats production ID/);
+  const queries = [];
+  let fallbackChecks;
+  const rescued = await runIngestion({ apply: true, freshnessHours: 24 }, {
+    catalog: { events: ["123", "456", "789", "999"].map((id) => ({ ...verifiedFutureEvent, id: `e-${id}`, vividseats_url: `https://www.vividseats.com/v-tickets/production/${id}` })), artistsBySlug: new Map([["raye", "Valley"]]) },
+    now, env: { IMPACT_ACCOUNT_SID: "sid", IMPACT_AUTH_TOKEN: "tok" },
+    async fetchImpl(url) {
+      const query = new URL(url).searchParams.get("Query"); queries.push(query);
+      const offer = (id, price) => ({ CurrentPrice: price, Currency: "USD", Offers: [{ Sku: id }] });
+      if (query === "Sku='999'") return { ok: false, status: 403 };
+      const Results = query.startsWith("Name=") ? Array.from({ length: PAGE_SIZE }, () => ({}))
+        : query === "Sku='123'" ? [offer("123", 52)]
+        : query === "Sku='456'" ? [offer("456", 54), offer("456", 55)]
+        : [offer("000", 60)];
+      return { ok: true, status: 200, json: async () => ({ Results }) };
+    },
+    async writer(rows) { return { written: rows.length }; },
+    async checksWriter(checks) { fallbackChecks = checks; return { recorded: checks.length }; }
+  });
+  assert.equal(queries.filter((query) => query.startsWith("Name=")).length, MAX_PAGES);
+  assert.deepEqual(queries.filter((query) => query.startsWith("Sku=")), ["Sku='123'", "Sku='456'", "Sku='789'", "Sku='999'"]);
+  assert.deepEqual(rescued.proposed_rows.map((row) => row.event_id), ["e-123"]);
+  assert.equal(rescued.written, 1);
+  assert.deepEqual(fallbackChecks.map((row) => `${row.event_id}:${row.outcome}`), ["e-123:priced", "e-456:unusable", "e-789:no_price"]);
+  assert.equal(rescued.failed, 1, "an exact-query refusal is not absence evidence");
+  assert.deepEqual(rescued.incomplete_artists, [], "completed exact queries supersede the broad-query cap");
+  return { ok: true, tests: 57 };
 }
 function printSummary(summary) {
   console.log(`Vivid Seats Impact price snapshot ${summary.mode} summary:`);

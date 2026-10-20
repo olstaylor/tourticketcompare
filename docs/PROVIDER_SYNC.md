@@ -149,6 +149,8 @@ npm run vividseats:sync:self-test
 
 The Vivid Seats sync uses the approved Impact Marketplace Products catalog as both discovery set and verification oracle. Artist name, venue, city, venue-local date, production ID, URL shape, and ambiguity must all pass. A complete successful catalog is required before a confirmed-gone record can be cleared; incomplete/transient results preserve existing data.
 
+The Vivid Seats price writer normally shares one artist catalog across that artist's verified events. If a common name such as Valley exceeds the pagination cap, it falls back to `Sku` queries for the production IDs already captured in verified event URLs, under the same configured program. Each exact query must complete pagination and return a unique price and currency for that production ID. An incomplete exact query records neither a price nor a no-price check; a failed query remains a failure. This fallback does not discover or verify event links.
+
 The scheduled workflow regenerates derived data, validates, and proposes its changes through the sanctioned automation path. The latest report is `reports/provider-sync/vividseats-cta-sync.md`.
 
 ## Shared Impact marketplace providers

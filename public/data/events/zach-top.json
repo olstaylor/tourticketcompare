@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "1B0064BDABF7EE9D",
     "ticketmaster_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-rogers-arkansas-10-24-2026/event/1B0064BDABF7EE9D",
     "seatgeek_url": "https://seatgeek.com/zach-top-tickets/rogers-arkansas-walmart-amp-2026-10-24-8-pm/concert/18370151",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/zach-top-tickets-rogers-walmart-amp-10-24-2026--concerts-country-and-folk/production/7283448",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-rogers-arkansas-10-24-2026/event/1B0064BDABF7EE9D",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7283448,
+        "url": "https://www.vividseats.com/zach-top-tickets-rogers-walmart-amp-10-24-2026--concerts-country-and-folk/production/7283448",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "0E0064B59805A5D2",
     "ticketmaster_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-duluth-georgia-10-29-2026/event/0E0064B59805A5D2",
     "seatgeek_url": "https://seatgeek.com/zach-top-tickets/duluth-georgia-gas-south-arena-2026-10-29-8-pm/concert/18285545",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/zach-top-tickets-duluth-gas-south-arena-10-29-2026--concerts-country-and-folk/production/7119855",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-duluth-georgia-10-29-2026/event/0E0064B59805A5D2",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7119855,
+        "url": "https://www.vividseats.com/zach-top-tickets-duluth-gas-south-arena-10-29-2026--concerts-country-and-folk/production/7119855",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "1B0064C1F3023AA6",
     "ticketmaster_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-nashville-tennessee-10-30-2026/event/1B0064C1F3023AA6",
     "seatgeek_url": "https://seatgeek.com/zach-top-tickets/nashville-tennessee-bridgestone-arena-2026-10-30-8-30-pm/concert/18285548",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/zach-top-tickets-nashville-bridgestone-arena-10-30-2026--concerts-country-and-folk/production/7119853",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-nashville-tennessee-10-30-2026/event/1B0064C1F3023AA6",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7119853,
+        "url": "https://www.vividseats.com/zach-top-tickets-nashville-bridgestone-arena-10-30-2026--concerts-country-and-folk/production/7119853",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

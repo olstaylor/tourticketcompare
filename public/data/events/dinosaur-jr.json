@@ -793,7 +793,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PU0P",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU0P",
     "seatgeek_url": "https://seatgeek.com/dinosaur-jr-tickets/denver-colorado-ogden-theatre-2026-10-29-8-pm/concert/18345755",
-    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-denver-ogden-theatre-10-29-2026--concerts-rock/production/7234825",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU0P",
     "last_verified_at": null,
@@ -815,11 +815,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7234825,
-        "url": "https://www.vividseats.com/dinosaur-jr-tickets-denver-ogden-theatre-10-29-2026--concerts-rock/production/7234825",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1206,7 +1206,7 @@
         "event_id": 7492603,
         "url": "https://www.vividseats.com/dinosaur-jr-tickets-brooklyn-brooklyn-steel-2-12-2027--concerts-rock/production/7492603",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {

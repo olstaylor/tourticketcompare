@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "170064AFB615AE6A",
     "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-21-2026/event/170064AFB615AE6A",
     "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-10-21-8-pm/concert/18266693",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-las-vegas-encore-theater-at-wynn-las-vegas-10-21-2026/production/7080336",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-21-2026/event/170064AFB615AE6A",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7080336,
+        "url": "https://www.vividseats.com/tom-jones-tickets-las-vegas-encore-theater-at-wynn-las-vegas-10-21-2026/production/7080336",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "170064AFB619AE83",
     "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-23-2026/event/170064AFB619AE83",
     "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-10-23-8-pm/concert/18266694",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-las-vegas-encore-theater-at-wynn-las-vegas-10-23-2026/production/7080340",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-23-2026/event/170064AFB619AE83",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7080340,
+        "url": "https://www.vividseats.com/tom-jones-tickets-las-vegas-encore-theater-at-wynn-las-vegas-10-23-2026/production/7080340",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "170064AFB61CAEA4",
     "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-24-2026/event/170064AFB61CAEA4",
     "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-10-24-8-pm/concert/18266696",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-las-vegas-encore-theater-at-wynn-las-vegas-10-24-2026/production/7080334",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-24-2026/event/170064AFB61CAEA4",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7080334,
+        "url": "https://www.vividseats.com/tom-jones-tickets-las-vegas-encore-theater-at-wynn-las-vegas-10-24-2026/production/7080334",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "090064B43E17B4D1",
     "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-los-angeles-california-10-26-2026/event/090064B43E17B4D1",
     "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/los-angeles-california-the-greek-theatre-los-angeles-2026-10-26-8-pm/concert/18266701",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-los-angeles-greek-theatre---los-angeles-10-26-2026--concerts-pop/production/7079614",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-los-angeles-california-10-26-2026/event/090064B43E17B4D1",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7079614,
+        "url": "https://www.vividseats.com/tom-jones-tickets-los-angeles-greek-theatre---los-angeles-10-26-2026--concerts-pop/production/7079614",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "0A0064B31A394E43",
     "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-diego-california-10-27-2026/event/0A0064B31A394E43",
     "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/san-diego-california-the-rady-shell-at-jacobs-park-2026-10-27-8-pm/concert/18266703",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-san-diego-the-rady-shell-at-jacobs-park-10-27-2026/production/7079864",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-diego-california-10-27-2026/event/0A0064B31A394E43",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7079864,
+        "url": "https://www.vividseats.com/tom-jones-tickets-san-diego-the-rady-shell-at-jacobs-park-10-27-2026/production/7079864",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7P6r4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P6r4",
     "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2026-10-29-8-pm/concert/18266705",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-highland-yaamava-resort-and-casino-at-san-manuel---yaamava-theater-10-29-2026/production/7080417",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P6r4",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7080417,
+        "url": "https://www.vividseats.com/tom-jones-tickets-highland-yaamava-resort-and-casino-at-san-manuel---yaamava-theater-10-29-2026/production/7080417",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

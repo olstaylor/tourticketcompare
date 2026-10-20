@@ -2058,7 +2058,7 @@
     "ticketmaster_event_id": "1E00654ECC8DA4E3",
     "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-grand-junction-colorado-02-24-2027/event/1E00654ECC8DA4E3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-grand-junction-avalon-theatre---co-2-24-2027/production/7729000",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-grand-junction-colorado-02-24-2027/event/1E00654ECC8DA4E3",
     "last_verified_at": null,
@@ -2080,11 +2080,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7729000,
+        "url": "https://www.vividseats.com/tommy-emmanuel-tickets-grand-junction-avalon-theatre---co-2-24-2027/production/7729000",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2112,7 +2112,7 @@
     "ticketmaster_event_id": "0100654FAAD2CF24",
     "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-virginia-beach-virginia-06-02-2027/event/0100654FAAD2CF24",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-virginia-beach-sandler-center-for-the-performing-arts-6-2-2027/production/7728901",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-virginia-beach-virginia-06-02-2027/event/0100654FAAD2CF24",
     "last_verified_at": null,
@@ -2134,11 +2134,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7728901,
+        "url": "https://www.vividseats.com/tommy-emmanuel-tickets-virginia-beach-sandler-center-for-the-performing-arts-6-2-2027/production/7728901",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

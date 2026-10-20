@@ -125763,7 +125763,7 @@
     "ticketmaster_event_id": "1E006537CF070C9C",
     "ticketmaster_url": "https://www.ticketmaster.com/rise-up-select-presents-atmosphere-the-salt-lake-city-utah-01-30-2027/event/1E006537CF070C9C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/reggae-rise-up-tickets-salt-lake-city-the-depot---ut-1-30-2027/production/7604697",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rise-up-select-presents-atmosphere-the-salt-lake-city-utah-01-30-2027/event/1E006537CF070C9C",
     "last_verified_at": "2026-10-15",
@@ -125785,11 +125785,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7604697,
+        "url": "https://www.vividseats.com/reggae-rise-up-tickets-salt-lake-city-the-depot---ut-1-30-2027/production/7604697",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -150682,7 +150682,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvzfV",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfV",
     "seatgeek_url": "https://seatgeek.com/valley-tickets/san-francisco-california-the-independent-2027-03-01-8-pm/concert/18690439",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/valley---pop-band-tickets-san-francisco-the-independent-3-1-2027/production/7616428",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfV",
     "last_verified_at": null,
@@ -150704,11 +150704,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7616428,
+        "url": "https://www.vividseats.com/valley---pop-band-tickets-san-francisco-the-independent-3-1-2027/production/7616428",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -206345,7 +206345,7 @@
     "ticketmaster_event_id": "100064ACF93AAFCA",
     "ticketmaster_url": "https://www.ticketmaster.ca/mico-running-from-a-feeling-tour-toronto-ontario-11-06-2026/event/100064ACF93AAFCA",
     "seatgeek_url": "https://seatgeek.com/mico-tickets/toronto-canada-the-danforth-music-hall-2026-11-06-7-pm/concert/18252202",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mico-tickets-toronto-the-danforth-music-hall-11-6-2026/production/7049200",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/mico-running-from-a-feeling-tour-toronto-ontario-11-06-2026/event/100064ACF93AAFCA",
     "last_verified_at": "2026-10-15",
@@ -206367,11 +206367,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7049200,
+        "url": "https://www.vividseats.com/mico-tickets-toronto-the-danforth-music-hall-11-6-2026/production/7049200",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -268199,7 +268199,7 @@
     "ticketmaster_event_id": "1E0064C2C248F6D2",
     "ticketmaster_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-denver-colorado-10-19-2026/event/1E0064C2C248F6D2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-denver-ball-arena-10-19-2026--concerts-adult-contemporary/production/7123263",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-denver-colorado-10-19-2026/event/1E0064C2C248F6D2",
     "last_verified_at": null,
@@ -268221,11 +268221,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7123263,
+        "url": "https://www.vividseats.com/phoebe-bridgers-tickets-denver-ball-arena-10-19-2026--concerts-adult-contemporary/production/7123263",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -268252,7 +268252,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7Pa_0",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pa_0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-salt-lake-city-delta-center-10-21-2026--concerts-rock/production/7123331",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pa_0",
     "last_verified_at": null,
@@ -268274,11 +268274,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7123331,
+        "url": "https://www.vividseats.com/phoebe-bridgers-tickets-salt-lake-city-delta-center-10-21-2026--concerts-rock/production/7123331",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -268305,7 +268305,7 @@
     "ticketmaster_event_id": "0F0064C1A94186E6",
     "ticketmaster_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-seattle-washington-10-23-2026/event/0F0064C1A94186E6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-seattle-climate-pledge-arena-10-23-2026--concerts-adult-contemporary/production/7123271",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-seattle-washington-10-23-2026/event/0F0064C1A94186E6",
     "last_verified_at": null,
@@ -268327,11 +268327,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7123271,
+        "url": "https://www.vividseats.com/phoebe-bridgers-tickets-seattle-climate-pledge-arena-10-23-2026--concerts-adult-contemporary/production/7123271",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -268358,7 +268358,7 @@
     "ticketmaster_event_id": "110064C29DAC7093",
     "ticketmaster_url": "https://www.ticketmaster.ca/phoebe-bridgers-the-lost-tour-vancouver-british-columbia-10-24-2026/event/110064C29DAC7093",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-vancouver-rogers-arena-10-24-2026--concerts-adult-contemporary/production/7123286",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/phoebe-bridgers-the-lost-tour-vancouver-british-columbia-10-24-2026/event/110064C29DAC7093",
     "last_verified_at": null,
@@ -268380,11 +268380,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7123286,
+        "url": "https://www.vividseats.com/phoebe-bridgers-tickets-vancouver-rogers-arena-10-24-2026--concerts-adult-contemporary/production/7123286",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -268411,7 +268411,7 @@
     "ticketmaster_event_id": "1C0064B9DBA0E43F",
     "ticketmaster_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-san-francisco-california-10-27-2026/event/1C0064B9DBA0E43F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-san-francisco-chase-center-10-27-2026--concerts-adult-contemporary/production/7123274",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-san-francisco-california-10-27-2026/event/1C0064B9DBA0E43F",
     "last_verified_at": null,
@@ -268433,11 +268433,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7123274,
+        "url": "https://www.vividseats.com/phoebe-bridgers-tickets-san-francisco-chase-center-10-27-2026--concerts-adult-contemporary/production/7123274",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -268464,7 +268464,7 @@
     "ticketmaster_event_id": "1C0064C59A9BFAED",
     "ticketmaster_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-san-francisco-california-10-28-2026/event/1C0064C59A9BFAED",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-san-francisco-chase-center-10-28-2026--concerts-rock/production/7132289",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-san-francisco-california-10-28-2026/event/1C0064C59A9BFAED",
     "last_verified_at": null,
@@ -268486,11 +268486,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132289,
+        "url": "https://www.vividseats.com/phoebe-bridgers-tickets-san-francisco-chase-center-10-28-2026--concerts-rock/production/7132289",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -268517,7 +268517,7 @@
     "ticketmaster_event_id": "090064B9E57FA522",
     "ticketmaster_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-inglewood-california-10-30-2026/event/090064B9E57FA522",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-inglewood-intuit-dome-10-30-2026--concerts-adult-contemporary/production/7123277",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-inglewood-california-10-30-2026/event/090064B9E57FA522",
     "last_verified_at": null,
@@ -268539,11 +268539,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7123277,
+        "url": "https://www.vividseats.com/phoebe-bridgers-tickets-inglewood-intuit-dome-10-30-2026--concerts-adult-contemporary/production/7123277",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -268570,7 +268570,7 @@
     "ticketmaster_event_id": "090064C476614C4F",
     "ticketmaster_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-inglewood-california-10-31-2026/event/090064C476614C4F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-inglewood-intuit-dome-10-31-2026--concerts-adult-contemporary/production/7123280",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-inglewood-california-10-31-2026/event/090064C476614C4F",
     "last_verified_at": null,
@@ -268592,11 +268592,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7123280,
+        "url": "https://www.vividseats.com/phoebe-bridgers-tickets-inglewood-intuit-dome-10-31-2026--concerts-adult-contemporary/production/7123280",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -268623,7 +268623,7 @@
     "ticketmaster_event_id": "090064C477C34F02",
     "ticketmaster_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-inglewood-california-11-01-2026/event/090064C477C34F02",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-inglewood-intuit-dome-11-1-2026--concerts-rock/production/7132295",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-inglewood-california-11-01-2026/event/090064C477C34F02",
     "last_verified_at": null,
@@ -268645,11 +268645,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132295,
+        "url": "https://www.vividseats.com/phoebe-bridgers-tickets-inglewood-intuit-dome-11-1-2026--concerts-rock/production/7132295",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -268782,7 +268782,7 @@
     "ticketmaster_event_id": "370064C39DE257BE",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-manchester-26-11-2026/event/370064C39DE257BE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-manchester-co-op-live-11-26-2026--concerts-adult-contemporary/production/7123290",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-manchester-26-11-2026/event/370064C39DE257BE",
     "last_verified_at": null,
@@ -268804,11 +268804,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7123290,
+        "url": "https://www.vividseats.com/phoebe-bridgers-tickets-manchester-co-op-live-11-26-2026--concerts-adult-contemporary/production/7123290",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -268835,7 +268835,7 @@
     "ticketmaster_event_id": "360064C46F49267E",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-glasgow-27-11-2026/event/360064C46F49267E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-glasgow-ovo-hydro-11-27-2026--concerts-rock/production/7123296",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-glasgow-27-11-2026/event/360064C46F49267E",
     "last_verified_at": null,
@@ -268857,11 +268857,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7123296,
+        "url": "https://www.vividseats.com/phoebe-bridgers-tickets-glasgow-ovo-hydro-11-27-2026--concerts-rock/production/7123296",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -268888,7 +268888,7 @@
     "ticketmaster_event_id": "230064C3D99712C5",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-birmingham-28-11-2026/event/230064C3D99712C5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-11-28-2026--concerts-rock/production/7123299",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-birmingham-28-11-2026/event/230064C3D99712C5",
     "last_verified_at": null,
@@ -268910,11 +268910,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7123299,
+        "url": "https://www.vividseats.com/phoebe-bridgers-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-11-28-2026--concerts-rock/production/7123299",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -268941,7 +268941,7 @@
     "ticketmaster_event_id": "350064C59A44A3A1",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-the-lost-tour-london-01-12-2026/event/350064C59A44A3A1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-london-the-o2---london-12-1-2026--concerts-rock/production/7123304",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-the-lost-tour-london-01-12-2026/event/350064C59A44A3A1",
     "last_verified_at": null,
@@ -268963,11 +268963,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7123304,
+        "url": "https://www.vividseats.com/phoebe-bridgers-tickets-london-the-o2---london-12-1-2026--concerts-rock/production/7123304",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -268994,7 +268994,7 @@
     "ticketmaster_event_id": "350064CAB07292F9",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-the-lost-tour-london-02-12-2026/event/350064CAB07292F9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-london-the-o2---london-12-2-2026--concerts-rock/production/7132311",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-the-lost-tour-london-02-12-2026/event/350064CAB07292F9",
     "last_verified_at": null,
@@ -269016,11 +269016,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132311,
+        "url": "https://www.vividseats.com/phoebe-bridgers-tickets-london-the-o2---london-12-2-2026--concerts-rock/production/7132311",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -269153,7 +269153,7 @@
     "ticketmaster_event_id": "190064BACE5E8BF1",
     "ticketmaster_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-phoenix-arizona-10-20-2026/event/190064BACE5E8BF1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-phoenix-talking-stick-resort-amphitheatre-10-20-2026--concerts-rb/production/7104559",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-phoenix-arizona-10-20-2026/event/190064BACE5E8BF1",
     "last_verified_at": null,
@@ -269175,11 +269175,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7104559,
+        "url": "https://www.vividseats.com/bryson-tiller-tickets-phoenix-talking-stick-resort-amphitheatre-10-20-2026--concerts-rb/production/7104559",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -269206,7 +269206,7 @@
     "ticketmaster_event_id": "090064B5DC213A81",
     "ticketmaster_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-anaheim-california-10-22-2026/event/090064B5DC213A81",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-anaheim-honda-center-10-22-2026--concerts-rb/production/7104561",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-anaheim-california-10-22-2026/event/090064B5DC213A81",
     "last_verified_at": null,
@@ -269228,11 +269228,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7104561,
+        "url": "https://www.vividseats.com/bryson-tiller-tickets-anaheim-honda-center-10-22-2026--concerts-rb/production/7104561",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -269259,7 +269259,7 @@
     "ticketmaster_event_id": "0A0064B6BB979FD2",
     "ticketmaster_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-chula-vista-california-10-24-2026/event/0A0064B6BB979FD2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-chula-vista-north-island-credit-union-amphitheatre-10-24-2026--concerts-rb/production/7104563",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-chula-vista-california-10-24-2026/event/0A0064B6BB979FD2",
     "last_verified_at": null,
@@ -269281,11 +269281,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7104563,
+        "url": "https://www.vividseats.com/bryson-tiller-tickets-chula-vista-north-island-credit-union-amphitheatre-10-24-2026--concerts-rb/production/7104563",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -269312,7 +269312,7 @@
     "ticketmaster_event_id": "090064B9EC44AB68",
     "ticketmaster_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-inglewood-california-10-25-2026/event/090064B9EC44AB68",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-inglewood-intuit-dome-10-25-2026--concerts-rb/production/7104565",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-inglewood-california-10-25-2026/event/090064B9EC44AB68",
     "last_verified_at": null,
@@ -269334,11 +269334,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7104565,
+        "url": "https://www.vividseats.com/bryson-tiller-tickets-inglewood-intuit-dome-10-25-2026--concerts-rb/production/7104565",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -269365,7 +269365,7 @@
     "ticketmaster_event_id": "1C0064BA3E939112",
     "ticketmaster_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-concord-california-10-27-2026/event/1C0064BA3E939112",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-concord-toyota-pavilion-at-concord-10-27-2026--concerts-rb/production/7104569",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-concord-california-10-27-2026/event/1C0064BA3E939112",
     "last_verified_at": null,
@@ -269387,11 +269387,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7104569,
+        "url": "https://www.vividseats.com/bryson-tiller-tickets-concord-toyota-pavilion-at-concord-10-27-2026--concerts-rb/production/7104569",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -269418,7 +269418,7 @@
     "ticketmaster_event_id": "0F0064B5A05FA0E0",
     "ticketmaster_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-portland-oregon-10-29-2026/event/0F0064B5A05FA0E0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-portland-veterans-memorial-coliseum---portland-10-29-2026--concerts-rb/production/7104571",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-portland-oregon-10-29-2026/event/0F0064B5A05FA0E0",
     "last_verified_at": null,
@@ -269440,11 +269440,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7104571,
+        "url": "https://www.vividseats.com/bryson-tiller-tickets-portland-veterans-memorial-coliseum---portland-10-29-2026--concerts-rb/production/7104571",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -269471,7 +269471,7 @@
     "ticketmaster_event_id": "110064BCDDA0B267",
     "ticketmaster_url": "https://www.ticketmaster.ca/bryson-tiller-presents-the-neo-trapsoul-vancouver-british-columbia-10-30-2026/event/110064BCDDA0B267",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-vancouver-rogers-arena-10-30-2026--concerts-rb/production/7104577",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bryson-tiller-presents-the-neo-trapsoul-vancouver-british-columbia-10-30-2026/event/110064BCDDA0B267",
     "last_verified_at": null,
@@ -269493,11 +269493,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7104577,
+        "url": "https://www.vividseats.com/bryson-tiller-tickets-vancouver-rogers-arena-10-30-2026--concerts-rb/production/7104577",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -269524,7 +269524,7 @@
     "ticketmaster_event_id": "0F0064BADFD7E266",
     "ticketmaster_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-seattle-washington-11-01-2026/event/0F0064BADFD7E266",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-seattle-climate-pledge-arena-11-1-2026--concerts-rb/production/7104573",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-seattle-washington-11-01-2026/event/0F0064BADFD7E266",
     "last_verified_at": null,
@@ -269546,11 +269546,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7104573,
+        "url": "https://www.vividseats.com/bryson-tiller-tickets-seattle-climate-pledge-arena-11-1-2026--concerts-rb/production/7104573",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -269842,7 +269842,7 @@
     "ticketmaster_event_id": "370064BC9B471DFB",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/bryson-tiller-presents-the-neo-trapsoul-manchester-03-12-2026/event/370064BC9B471DFB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-manchester-co-op-live-12-3-2026--concerts-rb/production/7104592",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bryson-tiller-presents-the-neo-trapsoul-manchester-03-12-2026/event/370064BC9B471DFB",
     "last_verified_at": null,
@@ -269864,11 +269864,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7104592,
+        "url": "https://www.vividseats.com/bryson-tiller-tickets-manchester-co-op-live-12-3-2026--concerts-rb/production/7104592",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -269895,7 +269895,7 @@
     "ticketmaster_event_id": "1F0064BCE804B121",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/bryson-tiller-presents-the-neo-trapsoul-leeds-04-12-2026/event/1F0064BCE804B121",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-leeds-first-direct-arena---leeds-12-4-2026--concerts-rb/production/7104598",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bryson-tiller-presents-the-neo-trapsoul-leeds-04-12-2026/event/1F0064BCE804B121",
     "last_verified_at": null,
@@ -269917,11 +269917,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7104598,
+        "url": "https://www.vividseats.com/bryson-tiller-tickets-leeds-first-direct-arena---leeds-12-4-2026--concerts-rb/production/7104598",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -269948,7 +269948,7 @@
     "ticketmaster_event_id": "360064BB84365022",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/bryson-tiller-presents-the-neo-trapsoul-cardiff-05-12-2026/event/360064BB84365022",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-cardiff-utilita-arena-cardiff-12-5-2026--concerts-rb/production/7104602",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bryson-tiller-presents-the-neo-trapsoul-cardiff-05-12-2026/event/360064BB84365022",
     "last_verified_at": null,
@@ -269970,11 +269970,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7104602,
+        "url": "https://www.vividseats.com/bryson-tiller-tickets-cardiff-utilita-arena-cardiff-12-5-2026--concerts-rb/production/7104602",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -270001,7 +270001,7 @@
     "ticketmaster_event_id": "350064C18EE84835",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/bryson-tiller-presents-the-neo-trapsoul-london-07-12-2026/event/350064C18EE84835",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-london-the-o2---london-12-7-2026--concerts-rb/production/7104604",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bryson-tiller-presents-the-neo-trapsoul-london-07-12-2026/event/350064C18EE84835",
     "last_verified_at": null,
@@ -270023,11 +270023,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7104604,
+        "url": "https://www.vividseats.com/bryson-tiller-tickets-london-the-o2---london-12-7-2026--concerts-rb/production/7104604",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -270054,7 +270054,7 @@
     "ticketmaster_event_id": "230064BD97642C96",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/bryson-tiller-presents-the-neo-trapsoul-birmingham-09-12-2026/event/230064BD97642C96",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-12-9-2026--concerts-rb/production/7104606",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bryson-tiller-presents-the-neo-trapsoul-birmingham-09-12-2026/event/230064BD97642C96",
     "last_verified_at": null,
@@ -270076,11 +270076,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7104606,
+        "url": "https://www.vividseats.com/bryson-tiller-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-12-9-2026--concerts-rb/production/7104606",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -270213,7 +270213,7 @@
     "ticketmaster_event_id": "150064ADB9B79BE3",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-fairfax-virginia-10-21-2026/event/150064ADB9B79BE3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/arcangel-tickets-fairfax-eaglebank-arena-10-21-2026--concerts-rap-hip-hop/production/7079476",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-fairfax-virginia-10-21-2026/event/150064ADB9B79BE3",
     "last_verified_at": null,
@@ -270235,11 +270235,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7079476,
+        "url": "https://www.vividseats.com/arcangel-tickets-fairfax-eaglebank-arena-10-21-2026--concerts-rap-hip-hop/production/7079476",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -270266,7 +270266,7 @@
     "ticketmaster_event_id": "1D0064A5C49686F4",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-wallingford-connecticut-10-22-2026/event/1D0064A5C49686F4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/arcangel-tickets-wallingford-toyota-oakdale-theatre-10-22-2026--concerts-rap-hip-hop/production/7079483",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-wallingford-connecticut-10-22-2026/event/1D0064A5C49686F4",
     "last_verified_at": null,
@@ -270288,11 +270288,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7079483,
+        "url": "https://www.vividseats.com/arcangel-tickets-wallingford-toyota-oakdale-theatre-10-22-2026--concerts-rap-hip-hop/production/7079483",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -270319,7 +270319,7 @@
     "ticketmaster_event_id": "300064ADA23D61BB",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-brooklyn-new-york-10-23-2026/event/300064ADA23D61BB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/arcangel-tickets-brooklyn-barclays-center-10-23-2026--concerts-rap-hip-hop/production/7079492",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-brooklyn-new-york-10-23-2026/event/300064ADA23D61BB",
     "last_verified_at": null,
@@ -270341,11 +270341,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7079492,
+        "url": "https://www.vividseats.com/arcangel-tickets-brooklyn-barclays-center-10-23-2026--concerts-rap-hip-hop/production/7079492",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -270425,7 +270425,7 @@
     "ticketmaster_event_id": "010064ADC0FD59D3",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-boston-massachusetts-10-28-2026/event/010064ADC0FD59D3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/arcangel-tickets-boston-mgm-music-hall-at-fenway-10-28-2026--concerts-rap-hip-hop/production/7079496",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-boston-massachusetts-10-28-2026/event/010064ADC0FD59D3",
     "last_verified_at": null,
@@ -270447,11 +270447,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7079496,
+        "url": "https://www.vividseats.com/arcangel-tickets-boston-mgm-music-hall-at-fenway-10-28-2026--concerts-rap-hip-hop/production/7079496",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -270478,7 +270478,7 @@
     "ticketmaster_event_id": "040064AD908D649F",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-rosemont-illinois-10-31-2026/event/040064AD908D649F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/arcangel-tickets-rosemont-rosemont-theatre-10-31-2026--concerts-rap-hip-hop/production/7079497",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-rosemont-illinois-10-31-2026/event/040064AD908D649F",
     "last_verified_at": null,
@@ -270500,11 +270500,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7079497,
+        "url": "https://www.vividseats.com/arcangel-tickets-rosemont-rosemont-theatre-10-31-2026--concerts-rap-hip-hop/production/7079497",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -270531,7 +270531,7 @@
     "ticketmaster_event_id": "3A0064B49C099594",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-houston-texas-11-05-2026/event/3A0064B49C099594",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/arcangel-tickets-houston-713-music-hall-11-5-2026--concerts-rap-hip-hop/production/7079513",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-houston-texas-11-05-2026/event/3A0064B49C099594",
     "last_verified_at": null,
@@ -270553,11 +270553,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7079513,
+        "url": "https://www.vividseats.com/arcangel-tickets-houston-713-music-hall-11-5-2026--concerts-rap-hip-hop/production/7079513",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -270584,7 +270584,7 @@
     "ticketmaster_event_id": "0C0064B4F97758BF",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-irving-texas-11-06-2026/event/0C0064B4F97758BF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/arcangel-tickets-irving-pavilion-at-toyota-music-factory-11-6-2026--concerts-rap-hip-hop/production/7079432",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-irving-texas-11-06-2026/event/0C0064B4F97758BF",
     "last_verified_at": null,
@@ -270606,11 +270606,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7079432,
+        "url": "https://www.vividseats.com/arcangel-tickets-irving-pavilion-at-toyota-music-factory-11-6-2026--concerts-rap-hip-hop/production/7079432",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -270637,7 +270637,7 @@
     "ticketmaster_event_id": "1E0064AEB279A359",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-denver-colorado-11-15-2026/event/1E0064AEB279A359",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/arcangel-tickets-denver-paramount-theatre-denver-11-15-2026--concerts-rap-hip-hop/production/7079515",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-denver-colorado-11-15-2026/event/1E0064AEB279A359",
     "last_verified_at": null,
@@ -270659,11 +270659,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7079515,
+        "url": "https://www.vividseats.com/arcangel-tickets-denver-paramount-theatre-denver-11-15-2026--concerts-rap-hip-hop/production/7079515",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -270690,7 +270690,7 @@
     "ticketmaster_event_id": "1E0064B4954A8177",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-salt-lake-city-utah-11-18-2026/event/1E0064B4954A8177",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/arcangel-tickets-salt-lake-city-the-union-event-center---salt-lake-city-11-18-2026--concerts-rap-hip-hop/production/7079517",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-salt-lake-city-utah-11-18-2026/event/1E0064B4954A8177",
     "last_verified_at": null,
@@ -270712,11 +270712,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7079517,
+        "url": "https://www.vividseats.com/arcangel-tickets-salt-lake-city-the-union-event-center---salt-lake-city-11-18-2026--concerts-rap-hip-hop/production/7079517",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -270743,7 +270743,7 @@
     "ticketmaster_event_id": "0A0064A792CA7806",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-inglewood-california-11-20-2026/event/0A0064A792CA7806",
     "seatgeek_url": "https://seatgeek.com/arcangel-tickets/inglewood-california-youtube-theater-2026-11-20-8-pm/concert/18266331",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/arcangel-tickets-inglewood-youtube-theater-11-20-2026--concerts-rap-hip-hop/production/7079519",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-inglewood-california-11-20-2026/event/0A0064A792CA7806",
     "last_verified_at": null,
@@ -270765,11 +270765,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7079519,
+        "url": "https://www.vividseats.com/arcangel-tickets-inglewood-youtube-theater-11-20-2026--concerts-rap-hip-hop/production/7079519",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -270796,7 +270796,7 @@
     "ticketmaster_event_id": "1C0064ACCB0A6B9B",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-san-jose-california-11-21-2026/event/1C0064ACCB0A6B9B",
     "seatgeek_url": "https://seatgeek.com/arcangel-tickets/san-jose-california-san-jose-civic-2026-11-21-8-pm/concert/18266334",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/arcangel-tickets-san-jose-san-jose-civic-11-21-2026--concerts-rap-hip-hop/production/7079523",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-san-jose-california-11-21-2026/event/1C0064ACCB0A6B9B",
     "last_verified_at": null,
@@ -270818,11 +270818,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7079523,
+        "url": "https://www.vividseats.com/arcangel-tickets-san-jose-san-jose-civic-11-21-2026--concerts-rap-hip-hop/production/7079523",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -270849,7 +270849,7 @@
     "ticketmaster_event_id": "20006536D03A49E3",
     "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-tulsa-oklahoma-10-23-2026/event/20006536D03A49E3",
     "seatgeek_url": "https://seatgeek.com/garth-brooks-tickets/tulsa-oklahoma-bok-center-2026-10-23-8-pm/concert/18613386",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-tulsa-bok-center-10-23-2026--concerts-country-and-folk/production/7599483",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-tulsa-oklahoma-10-23-2026/event/20006536D03A49E3",
     "last_verified_at": null,
@@ -270871,11 +270871,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7599483,
+        "url": "https://www.vividseats.com/garth-brooks-tickets-tulsa-bok-center-10-23-2026--concerts-country-and-folk/production/7599483",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -270902,7 +270902,7 @@
     "ticketmaster_event_id": "20006536EB0557E4",
     "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-tulsa-oklahoma-10-24-2026/event/20006536EB0557E4",
     "seatgeek_url": "https://seatgeek.com/garth-brooks-tickets/tulsa-oklahoma-bok-center-2026-10-24-8-pm/concert/18613385",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-tulsa-bok-center-10-24-2026--concerts-country-and-folk/production/7599485",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-tulsa-oklahoma-10-24-2026/event/20006536EB0557E4",
     "last_verified_at": null,
@@ -270924,11 +270924,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7599485,
+        "url": "https://www.vividseats.com/garth-brooks-tickets-tulsa-bok-center-10-24-2026--concerts-country-and-folk/production/7599485",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -270955,7 +270955,7 @@
     "ticketmaster_event_id": "20006536EBDE5899",
     "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-tulsa-oklahoma-10-25-2026/event/20006536EBDE5899",
     "seatgeek_url": "https://seatgeek.com/garth-brooks-tickets/tulsa-oklahoma-bok-center-2026-10-25-2-pm/concert/18613384",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-tulsa-bok-center-10-25-2026--concerts-country-and-folk/production/7599491",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-tulsa-oklahoma-10-25-2026/event/20006536EBDE5899",
     "last_verified_at": null,
@@ -270977,11 +270977,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7599491,
+        "url": "https://www.vividseats.com/garth-brooks-tickets-tulsa-bok-center-10-25-2026--concerts-country-and-folk/production/7599491",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -271008,7 +271008,7 @@
     "ticketmaster_event_id": "0F00654CE926A625",
     "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-seattle-washington-11-13-2026/event/0F00654CE926A625",
     "seatgeek_url": "https://seatgeek.com/garth-brooks-tickets/seattle-washington-climate-pledge-arena-2026-11-13-8-pm/concert/18686081",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-seattle-climate-pledge-arena-11-13-2026--concerts-country-and-folk/production/7704177",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-seattle-washington-11-13-2026/event/0F00654CE926A625",
     "last_verified_at": null,
@@ -271030,11 +271030,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7704177,
+        "url": "https://www.vividseats.com/garth-brooks-tickets-seattle-climate-pledge-arena-11-13-2026--concerts-country-and-folk/production/7704177",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -271062,7 +271062,7 @@
     "ticketmaster_event_id": "0F00654D7C6A2D6B",
     "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-seattle-washington-11-14-2026/event/0F00654D7C6A2D6B",
     "seatgeek_url": "https://seatgeek.com/garth-brooks-tickets/seattle-washington-climate-pledge-arena-2026-11-14-8-pm/concert/18686083",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-seattle-climate-pledge-arena-11-14-2026--concerts-country-and-folk/production/7704179",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-seattle-washington-11-14-2026/event/0F00654D7C6A2D6B",
     "last_verified_at": null,
@@ -271084,11 +271084,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7704179,
+        "url": "https://www.vividseats.com/garth-brooks-tickets-seattle-climate-pledge-arena-11-14-2026--concerts-country-and-folk/production/7704179",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -271332,7 +271332,7 @@
     "ticketmaster_event_id": "1694073378",
     "ticketmaster_url": "https://www.ticketmaster.es/event/morat-tickets/1694073378?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morat-tickets-madrid-movistar-arena---madrid-10-31-2026/production/6461554",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/morat-tickets/1694073378?language=en-us",
     "last_verified_at": null,
@@ -271354,11 +271354,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6461554,
+        "url": "https://www.vividseats.com/morat-tickets-madrid-movistar-arena---madrid-10-31-2026/production/6461554",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -271385,7 +271385,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA79u7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA79u7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-seattle-el-corazon-3-11-2027--concerts-rock/production/7561061",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA79u7",
     "last_verified_at": null,
@@ -271407,11 +271407,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7561061,
+        "url": "https://www.vividseats.com/the-lemonheads-tickets-seattle-el-corazon-3-11-2027--concerts-rock/production/7561061",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -271438,7 +271438,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA79uF",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA79uF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-seattle-el-corazon-5-11-2027/production/7613114",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA79uF",
     "last_verified_at": null,
@@ -271460,11 +271460,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7613114,
+        "url": "https://www.vividseats.com/haiden-henderson-tickets-seattle-el-corazon-5-11-2027/production/7613114",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -271491,7 +271491,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7oAM",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7oAM",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-athens-georgia-theatre-2-26-2027/production/7662888",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7oAM",
     "last_verified_at": null,
@@ -271513,11 +271513,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662888,
+        "url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-athens-georgia-theatre-2-26-2027/production/7662888",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -271544,7 +271544,7 @@
     "ticketmaster_event_id": "170064FFDB078C23",
     "ticketmaster_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-29-2026/event/170064FFDB078C23",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/backstreet-boys-tickets-las-vegas-sphere-12-29-2026/production/7721612",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-29-2026/event/170064FFDB078C23",
     "last_verified_at": null,
@@ -271566,11 +271566,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7721612,
+        "url": "https://www.vividseats.com/backstreet-boys-tickets-las-vegas-sphere-12-29-2026/production/7721612",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

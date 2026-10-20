@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "1B0064668979947A",
     "ticketmaster_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-knoxville-tennessee-10-23-2026/event/1B0064668979947A",
     "seatgeek_url": "https://seatgeek.com/lil-wayne-tickets/knoxville-tennessee-thompson-boling-arena-at-food-city-center-2026-10-23-8-pm/concert/18128391",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lil-wayne-tickets-knoxville-thompson-boling-arena-at-food-city-center-10-23-2026--concerts-rap-hip-hop/production/6794154",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-knoxville-tennessee-10-23-2026/event/1B0064668979947A",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6794154,
+        "url": "https://www.vividseats.com/lil-wayne-tickets-knoxville-thompson-boling-arena-at-food-city-center-10-23-2026--concerts-rap-hip-hop/production/6794154",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "0E00652A99D38572",
     "ticketmaster_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-savannah-georgia-12-05-2026/event/0E00652A99D38572",
     "seatgeek_url": "https://seatgeek.com/lil-wayne-tickets/savannah-georgia-enmarket-arena-2026-12-05-7-pm/concert/18649583",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lil-wayne-tickets-savannah-enmarket-arena-12-5-2026--concerts-rap-hip-hop/production/7654768",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-savannah-georgia-12-05-2026/event/0E00652A99D38572",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7654768,
+        "url": "https://www.vividseats.com/lil-wayne-tickets-savannah-enmarket-arena-12-5-2026--concerts-rap-hip-hop/production/7654768",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

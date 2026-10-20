@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "3000650DAB703E75",
     "ticketmaster_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-belmont-park-new-york-10-29-2026/event/3000650DAB703E75",
     "seatgeek_url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/elmont-new-york-ubs-arena-2026-10-29-8-pm/concert/18499209",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-elmont-ubs-arena-10-29-2026/production/7434394",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-belmont-park-new-york-10-29-2026/event/3000650DAB703E75",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7434394,
+        "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-elmont-ubs-arena-10-29-2026/production/7434394",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "010065318DDF97BD",
     "ticketmaster_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-boston-massachusetts-11-06-2026/event/010065318DDF97BD",
     "seatgeek_url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/boston-massachusetts-agganis-arena-2026-11-06-8-pm/concert/18637279",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-boston-agganis-arena-11-6-2026/production/7631977",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-boston-massachusetts-11-06-2026/event/010065318DDF97BD",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7631977,
+        "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-boston-agganis-arena-11-6-2026/production/7631977",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "010065318DD99789",
     "ticketmaster_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-boston-massachusetts-11-07-2026/event/010065318DD99789",
     "seatgeek_url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/boston-massachusetts-agganis-arena-2026-11-07-8-pm/concert/18629299",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-boston-agganis-arena-11-7-2026/production/7619492",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-boston-massachusetts-11-07-2026/event/010065318DD99789",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619492,
+        "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-boston-agganis-arena-11-7-2026/production/7619492",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "10006531970C7F0A",
     "ticketmaster_url": "https://www.ticketmaster.ca/a-boogie-wit-da-hoodie-10-toronto-ontario-11-28-2026/event/10006531970C7F0A",
     "seatgeek_url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/toronto-canada-scotiabank-arena-2026-11-28-8-pm/concert/18629264",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-toronto-scotiabank-arena-11-28-2026/production/7620477",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/a-boogie-wit-da-hoodie-10-toronto-ontario-11-28-2026/event/10006531970C7F0A",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7620477,
+        "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-toronto-scotiabank-arena-11-28-2026/production/7620477",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAef4E",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4E",
     "seatgeek_url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/orlando-florida-central-florida-fairgrounds-2026-12-05-8-pm/concert/18662770",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-orlando-orlando-amphitheater-at-central-florida-fairgrounds-12-5-2026/production/7623178",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4E",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7623178,
+        "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-orlando-orlando-amphitheater-at-central-florida-fairgrounds-12-5-2026/production/7623178",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "06006530D92511EF",
     "ticketmaster_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-minneapolis-minnesota-12-12-2026/event/06006530D92511EF",
     "seatgeek_url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/minneapolis-minnesota-the-armory-minneapolis-2026-12-12-8-pm/concert/18631720",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-minneapolis-armory---minneapolis-12-12-2026/production/7619726",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-minneapolis-minnesota-12-12-2026/event/06006530D92511EF",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619726,
+        "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-minneapolis-armory---minneapolis-12-12-2026/production/7619726",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAea_K",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAea_K",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-hartford-peoplesbank-arena-12-19-2026/production/7620829",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAea_K",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7620829,
+        "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-hartford-peoplesbank-arena-12-19-2026/production/7620829",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

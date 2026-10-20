@@ -1479,7 +1479,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-atlanta-mercedes-benz-stadium-5-29-2027/production/7706911",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-atlanta-georgia-05-29-2027/event/0E00654CB92CB473",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1547,6 +1547,11 @@
       },
       {
         "name": "Local Presale",
+        "start": "2026-10-22T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Support Presale",
         "start": "2026-10-22T14:00:00Z",
         "end": "2026-10-23T02:00:00Z"
       }
@@ -1983,7 +1988,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-vancouver-bc-place-stadium-7-28-2027--concerts-country-and-folk/production/7706961",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/zach-bryan-vancouver-british-columbia-07-28-2027/event/1100654CD040BC8B",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2051,7 +2056,7 @@
         "end": "2026-10-23T05:00:00Z"
       },
       {
-        "name": "Support Presale",
+        "name": "Ryan Bingham and Texas Gentlemen Presale",
         "start": "2026-10-22T17:00:00Z",
         "end": "2026-10-23T05:00:00Z"
       },

@@ -2840,7 +2840,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-glasgow-18-01-2027/event/3600654E99D23B5D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2876,7 +2876,33 @@
     "ticketmaster_discovery_event_id": "1AdbZ_fGkB_VNcq",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T09:00:00Z"
+    "public_onsale_at": "2026-10-23T09:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "SWG3 LTD"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T09:00:00Z",
+        "end": "2026-10-23T08:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-10-21T09:00:00Z",
+        "end": "2026-10-23T08:00:00Z"
+      },
+      {
+        "name": "Promoter Presale",
+        "start": "2026-10-22T09:00:00Z",
+        "end": "2026-10-23T08:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-22T11:00:00Z",
+        "end": "2026-10-23T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-saint-levant-2027-manchester-g5dzz_fbnzksb",
@@ -2894,7 +2920,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-manchester-20-01-2027/event/3E00654EA3E13C7A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2930,7 +2956,34 @@
     "ticketmaster_discovery_event_id": "G5dzZ_fBNzKsB",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T09:00:00Z"
+    "public_onsale_at": "2026-10-23T09:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "ACADEMY MUSIC GROUP (O2 RITZ MANCHESTER)",
+      "LNM - VIP NATION UK"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T09:00:00Z",
+        "end": "2026-10-23T08:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-10-21T09:00:00Z",
+        "end": "2026-10-23T08:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-10-22T09:00:00Z",
+        "end": "2026-10-23T08:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-22T11:00:00Z",
+        "end": "2026-10-23T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-saint-levant-2027-london-1auzk48gkdxoa9q",
@@ -2948,7 +3001,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-london-21-01-2027/event/36006550E24495DA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2984,7 +3037,14 @@
     "ticketmaster_discovery_event_id": "1AUZk48Gkdxoa9Q",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T09:00:00Z"
+    "public_onsale_at": "2026-10-23T09:00:00Z",
+    "presales": [
+      {
+        "name": "Priority from O2",
+        "start": "2026-10-21T09:00:00Z",
+        "end": "2026-10-23T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-saint-levant-2027-ciudad-de-mexico-g5dvz_o3qzslc",
@@ -3002,7 +3062,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/saint-levant-ciudad-de-mexico-02-02-2027/event/3D0065149AE337ED",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3038,6 +3098,26 @@
     "ticketmaster_discovery_event_id": "G5dVZ_o3QzSLc",
     "timezone": "America/Mexico_City",
     "status": "announced",
-    "public_onsale_at": "2026-10-21T17:00:00Z"
+    "public_onsale_at": "2026-10-21T17:00:00Z",
+    "organizer_names": [
+      "OCESA"
+    ],
+    "presales": [
+      {
+        "name": "Preventa Banamex",
+        "start": "2026-10-20T17:00:00Z",
+        "end": "2026-10-21T05:59:00Z"
+      },
+      {
+        "name": "Preventa Banamex Paquetes VIP",
+        "start": "2026-10-20T17:00:00Z",
+        "end": "2026-10-21T05:59:00Z"
+      },
+      {
+        "name": "Venta General Paquetes VIP",
+        "start": "2026-10-21T17:00:00Z",
+        "end": "2027-02-03T03:00:00Z"
+      }
+    ]
   }
 ]

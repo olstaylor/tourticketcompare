@@ -779,7 +779,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-wallingford-toyota-oakdale-theatre-2-5-2027/production/7565003",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-dear-big-city-tour-wallingford-connecticut-02-05-2027/event/1D006529C69AD728",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -841,6 +841,11 @@
         "name": "VIP Package Public Onsale",
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-01-30T03:00:00Z"
+      },
+      {
+        "name": "Happy Birthday Dylan Scott!",
+        "start": "2026-10-22T04:00:00Z",
+        "end": "2026-10-23T03:59:00Z"
       }
     ],
     "organizer_names": [

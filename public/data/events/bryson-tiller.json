@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-albuquerque-new-mexico-10-19-2026/event/1E0064BB977794F8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -58,7 +58,11 @@
     "ticketmaster_discovery_event_id": "G5vzZ_5m9qyKz",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8011572/Bryson-Tiller-tickets-Mon-Oct-19-2026-First-Financial-Credit-Union-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8011572/Bryson-Tiller-tickets-Mon-Oct-19-2026-First-Financial-Credit-Union-Amphitheater",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-bryson-tiller-2026-phoenix-17k8v0g65lc9irs",
@@ -76,7 +80,7 @@
     "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-phoenix-talking-stick-resort-amphitheatre-10-20-2026--concerts-rb/production/7104559",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-phoenix-arizona-10-20-2026/event/190064BACE5E8BF1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -127,7 +131,10 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8011573/Bryson-Tiller-tickets-Tue-Oct-20-2026-Talking-Stick-Resort-Amphitheatre",
-    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-phoenix-tickets-10-20-2026/event/107324079"
+    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-phoenix-tickets-10-20-2026/event/107324079",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-bryson-tiller-2026-anaheim-vvg10z_59jfknv",
@@ -145,7 +152,7 @@
     "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-anaheim-honda-center-10-22-2026--concerts-rb/production/7104561",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-anaheim-california-10-22-2026/event/090064B5DC213A81",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -196,7 +203,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8011574/Bryson-Tiller-tickets-Thu-Oct-22-2026-Honda-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-anaheim-tickets-10-22-2026/event/107324080"
+    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-anaheim-tickets-10-22-2026/event/107324080",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-bryson-tiller-2026-chula-vista-vvg1iz_5qdpyt3",
@@ -214,7 +224,7 @@
     "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-chula-vista-north-island-credit-union-amphitheatre-10-24-2026--concerts-rb/production/7104563",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-chula-vista-california-10-24-2026/event/0A0064B6BB979FD2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -265,7 +275,22 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8011575/Bryson-Tiller-tickets-Sat-Oct-24-2026-North-Island-Credit-Union-Amphitheatre",
-    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-chula-vista-tickets-10-24-2026/event/107258872"
+    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-chula-vista-tickets-10-24-2026/event/107258872",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T19:00:00Z",
+        "end": "2026-10-20T19:00:00Z"
+      },
+      {
+        "name": "Meet & Greet VIP Package",
+        "start": "2026-06-17T19:00:00Z",
+        "end": "2026-10-20T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-bryson-tiller-2026-inglewood-vvg10z_5eio1ci",
@@ -283,7 +308,7 @@
     "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-inglewood-intuit-dome-10-25-2026--concerts-rb/production/7104565",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-inglewood-california-10-25-2026/event/090064B9EC44AB68",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -334,7 +359,22 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8011577/Bryson-Tiller-tickets-Sun-Oct-25-2026-Intuit-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-inglewood-tickets-10-25-2026/event/107394139"
+    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-inglewood-tickets-10-25-2026/event/107394139",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T19:00:00Z",
+        "end": "2026-10-21T19:00:00Z"
+      },
+      {
+        "name": "Meet & Greet VIP Package",
+        "start": "2026-06-17T19:00:00Z",
+        "end": "2026-10-21T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-bryson-tiller-2026-concord-g5vyz_5ix0y73",
@@ -352,7 +392,7 @@
     "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-concord-toyota-pavilion-at-concord-10-27-2026--concerts-rb/production/7104569",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-concord-california-10-27-2026/event/1C0064BA3E939112",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403,7 +443,17 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8011579/Bryson-Tiller-tickets-Tue-Oct-27-2026-Toyota-Pavilion-At-Concord",
-    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-concord-tickets-10-27-2026/event/107258873"
+    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-concord-tickets-10-27-2026/event/107258873",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-05T19:00:00Z",
+        "end": "2026-10-23T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-bryson-tiller-2026-portland-vvg1hz_5po9bdo",
@@ -421,7 +471,7 @@
     "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-portland-veterans-memorial-coliseum---portland-10-29-2026--concerts-rb/production/7104571",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-portland-oregon-10-29-2026/event/0F0064B5A05FA0E0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -464,7 +514,22 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_5pO9BdO",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8011580/Bryson-Tiller-tickets-Thu-Oct-29-2026-Portland-Veterans-Memorial-Coliseum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8011580/Bryson-Tiller-tickets-Thu-Oct-29-2026-Portland-Veterans-Memorial-Coliseum",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-05T19:00:00Z",
+        "end": "2026-10-25T19:00:00Z"
+      },
+      {
+        "name": "Meet & Greet VIP Package",
+        "start": "2026-06-17T19:00:00Z",
+        "end": "2026-10-25T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-bryson-tiller-2026-vancouver-1778v0g65sqi5ae",
@@ -482,7 +547,7 @@
     "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-vancouver-rogers-arena-10-30-2026--concerts-rb/production/7104577",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bryson-tiller-presents-the-neo-trapsoul-vancouver-british-columbia-10-30-2026/event/110064BCDDA0B267",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -533,7 +598,25 @@
     "timezone": "America/Vancouver",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8011583/Bryson-Tiller-tickets-Fri-Oct-30-2026-Rogers-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-tickets-vancouver-rogers-arena-10-30-2026/event/107324082"
+    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-tickets-vancouver-rogers-arena-10-30-2026/event/107324082",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T19:00:00Z",
+        "end": "2026-10-26T19:00:00Z"
+      },
+      {
+        "name": "Meet & Greet VIP Package",
+        "start": "2026-06-17T19:00:00Z",
+        "end": "2026-10-26T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-bryson-tiller-2026-seattle-vvg1hz_5llgxaj",
@@ -551,7 +634,7 @@
     "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-seattle-climate-pledge-arena-11-1-2026--concerts-rb/production/7104573",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-seattle-washington-11-01-2026/event/0F0064BADFD7E266",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -602,7 +685,22 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8011581/Bryson-Tiller-tickets-Sun-Nov-1-2026-Climate-Pledge-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-seattle-tickets-11-1-2026/event/107258875"
+    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-seattle-tickets-11-1-2026/event/107258875",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T19:00:00Z",
+        "end": "2026-10-28T19:00:00Z"
+      },
+      {
+        "name": "Meet & Greet VIP Package",
+        "start": "2026-06-17T19:00:00Z",
+        "end": "2026-10-28T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-bryson-tiller-2026-zurich-z698xzu3z16v7d03_k",
@@ -620,7 +718,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ch/event/bryson-tiller-presents-the-neo-tapsoul-tour-tickets/1103912646?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -655,7 +753,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZu3Z16v7d03_k",
     "timezone": "Europe/Zurich",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation Schweiz AG"
+    ]
   },
   {
     "id": "tm-bryson-tiller-2026-amsterdam-z698xzbpz1kevfzpk",
@@ -673,7 +774,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/bryson-tiller-presents-the-neo-trapsoul-tour-tickets/81238953?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -716,7 +817,10 @@
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kevFzPK",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-tickets-amsterdam-ziggo-dome-24-11-2026/event/107258160"
+    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-tickets-amsterdam-ziggo-dome-24-11-2026/event/107258160",
+    "organizer_names": [
+      "Mojo Concerts"
+    ]
   },
   {
     "id": "tm-bryson-tiller-2026-dusseldorf-z698xzc2z16vojuk_e",
@@ -734,7 +838,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bryson-tiller-presents-the-neo-trapsoul-tour-tickets/1466346642?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -777,7 +881,10 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z16voJuk_e",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-tickets-dusseldorf-mitsubishi-electric-halle-26-11-2026/event/107271077"
+    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-tickets-dusseldorf-mitsubishi-electric-halle-26-11-2026/event/107271077",
+    "organizer_names": [
+      "prime entertainment GmbH"
+    ]
   },
   {
     "id": "tm-bryson-tiller-2026-forest-brussels-z698xzg2z1kq6a0r6",
@@ -795,7 +902,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/bryson-tiller-presents-the-neo-trapsoul-tour-tickets/687264787",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -830,7 +937,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1kQ6a0r6",
     "timezone": "Europe/Brussels",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation"
+    ]
   },
   {
     "id": "tm-bryson-tiller-2026-dublin-17kzv0g659_puvu",
@@ -848,7 +958,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/bryson-tiller-presents-the-neo-trapsoul-dublin-01-12-2026/event/180064B5D994DD36",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -883,7 +993,11 @@
     },
     "ticketmaster_discovery_event_id": "17kZv0G659_PuVU",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AMPHITHEATRE IRELAND",
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-bryson-tiller-2026-manchester-17uyv0g65whosmd",
@@ -901,7 +1015,7 @@
     "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-manchester-co-op-live-12-3-2026--concerts-rb/production/7104592",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bryson-tiller-presents-the-neo-trapsoul-manchester-03-12-2026/event/370064BC9B471DFB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -952,7 +1066,10 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090585/Bryson-Tiller-tickets-Thu-Dec-3-2026-Co-Op-Live",
-    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-tickets-manchester-co-op-live-3-12-2026/event/107258136"
+    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-tickets-manchester-co-op-live-3-12-2026/event/107258136",
+    "organizer_names": [
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-bryson-tiller-2026-leeds-g5vhz_5siv57-",
@@ -970,7 +1087,7 @@
     "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-leeds-first-direct-arena---leeds-12-4-2026--concerts-rb/production/7104598",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bryson-tiller-presents-the-neo-trapsoul-leeds-04-12-2026/event/1F0064BCE804B121",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1005,7 +1122,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_5SIv57-",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-bryson-tiller-2026-cardiff-17uov0g65m7upzx",
@@ -1023,7 +1143,7 @@
     "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-cardiff-utilita-arena-cardiff-12-5-2026--concerts-rb/production/7104602",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bryson-tiller-presents-the-neo-trapsoul-cardiff-05-12-2026/event/360064BB84365022",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1066,7 +1186,12 @@
     "ticketmaster_discovery_event_id": "17uOv0G65m7uPZx",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-tickets-cardiff-utilita-arena-cardiff-5-12-2026/event/107265079"
+    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-tickets-cardiff-utilita-arena-cardiff-5-12-2026/event/107265079",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "LIVE NATION MUSIC (VENUES) LTD (NEW)",
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-bryson-tiller-2026-london-17u8v0g6gkcb7og",
@@ -1084,7 +1209,7 @@
     "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-london-the-o2---london-12-7-2026--concerts-rb/production/7104604",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bryson-tiller-presents-the-neo-trapsoul-london-07-12-2026/event/350064C18EE84835",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1127,7 +1252,10 @@
     "ticketmaster_discovery_event_id": "17u8v0G6GkCB7Og",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-tickets-london-the-o2-arena-7-12-2026/event/107258138"
+    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-tickets-london-the-o2-arena-7-12-2026/event/107258138",
+    "organizer_names": [
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-bryson-tiller-2026-birmingham-17fyv0g65u9_ewp",
@@ -1145,7 +1273,7 @@
     "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-12-9-2026--concerts-rb/production/7104606",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bryson-tiller-presents-the-neo-trapsoul-birmingham-09-12-2026/event/230064BD97642C96",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1196,7 +1324,10 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090582/Bryson-Tiller-tickets-Wed-Dec-9-2026-bp-pulse-LIVE",
-    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-tickets-birmingham-bp-pulse-live-9-12-2026/event/107265080"
+    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-tickets-birmingham-bp-pulse-live-9-12-2026/event/107265080",
+    "organizer_names": [
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-bryson-tiller-2027-linlithgow-ave-177yv0g65m3hnkk",
@@ -1214,7 +1345,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/bryson-tiller-the-neo-trapsoul-tour-linlithgow-ave-21-01-2027/event/130064BB92F23186",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1249,7 +1380,10 @@
     },
     "ticketmaster_discovery_event_id": "177Yv0G65m3HNkk",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-bryson-tiller-2027-auckland-17azv0g65qclfnt",
@@ -1267,7 +1401,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/bryson-tiller-the-neo-trapsoul-tour-auckland-27-01-2027/event/240064B6ADAD48E9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1310,6 +1444,9 @@
     "ticketmaster_discovery_event_id": "17aZv0G65QclfNt",
     "timezone": "Pacific/Auckland",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173262/Bryson-Tiller-tickets-Wed-Jan-27-2027-Spark-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173262/Bryson-Tiller-tickets-Wed-Jan-27-2027-Spark-Arena",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   }
 ]

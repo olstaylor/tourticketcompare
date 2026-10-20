@@ -1960,7 +1960,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-madrid-movistar-arena---madrid-10-31-2026/production/6461554",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/morat-tickets/1694073378?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2011,6 +2011,9 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7823355/Morat-tickets-Sat-Oct-31-2026-Movistar-Arena-Madrid",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-madrid-movistar-arena-palacio-de-los-deportes-31-10-2026/event/107017057"
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-madrid-movistar-arena-palacio-de-los-deportes-31-10-2026/event/107017057",
+    "organizer_names": [
+      "Papuchi Events, S.L."
+    ]
   }
 ]

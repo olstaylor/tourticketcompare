@@ -1520,7 +1520,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-durham-north-carolina-05-01-2027/event/2D006542D612F5E1",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1557,8 +1557,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "organizer_names": [
-      "FRANK PRODUCTIONS",
-      "LIVE NATION MUSIC"
+      "LIVE NATION MUSIC",
+      "FRANK PRODUCTIONS"
     ],
     "presales": [
       {

@@ -1152,7 +1152,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-oakland-fox-theater-oakland-10-22-2026--concerts-pop/production/7139910",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-oakland-california-10-22-2026/event/1C0064C23DF611F5",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1212,13 +1212,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038477",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038477/Malcolm-Todd-tickets-Thu-Oct-22-2026-Fox-Theater-Oakland",
     "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-oakland-tickets-10-22-2026/event/107447652",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-11T17:00:00Z",
-        "end": "2026-10-18T19:00:00Z"
-      }
-    ],
     "organizer_names": [
       "ANOTHER PLANET"
     ]

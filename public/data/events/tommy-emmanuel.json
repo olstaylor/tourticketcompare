@@ -2044,5 +2044,113 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeox3",
     "timezone": "America/New_York",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-grand-junction-g5vzz_fdgnqkn",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP - Living In the Light Tour",
+    "city": "Grand Junction",
+    "country": "United States Of America",
+    "venue": "Avalon Theatre",
+    "datetime_iso": "2027-02-25T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00654ECC8DA4E3",
+    "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-grand-junction-colorado-02-24-2027/event/1E00654ECC8DA4E3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-grand-junction-colorado-02-24-2027/event/1E00654ECC8DA4E3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00654ECC8DA4E3",
+        "discovery_event_id": "G5vzZ_fDGNQKN",
+        "url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-grand-junction-colorado-02-24-2027/event/1E00654ECC8DA4E3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_fDGNQKN",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T16:00:00Z"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-virginia-beach-vv177z_fgkxnvih0",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP - Living In the Light Tour",
+    "city": "Virginia Beach",
+    "country": "United States Of America",
+    "venue": "Sandler Center For The Performing Arts",
+    "datetime_iso": "2027-06-02T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100654FAAD2CF24",
+    "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-virginia-beach-virginia-06-02-2027/event/0100654FAAD2CF24",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-virginia-beach-virginia-06-02-2027/event/0100654FAAD2CF24",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100654FAAD2CF24",
+        "discovery_event_id": "vv177Z_fGkXnViH0",
+        "url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-virginia-beach-virginia-06-02-2027/event/0100654FAAD2CF24",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_fGkXnViH0",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T14:00:00Z"
   }
 ]

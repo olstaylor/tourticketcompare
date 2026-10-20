@@ -118,7 +118,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E006530BE302E91",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-stewart-savannah-georgia-03-08-2027/event/0E006530BE302E91",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/rod-stewart-tickets/savannah-georgia-enmarket-arena-2027-03-08-8-pm/concert/18611010",
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-savannah-enmarket-arena-3-8-2027/production/7587733",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-savannah-georgia-03-08-2027/event/0E006530BE302E91",
@@ -187,7 +187,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B0065398C6A8C3E",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-stewart-biloxi-mississippi-03-10-2027/event/1B0065398C6A8C3E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/rod-stewart-tickets/biloxi-mississippi-mississippi-coast-coliseum-2027-03-10-7-30-pm/concert/18626760",
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-biloxi-mississippi-coast-coliseum-3-10-2027/production/7620617",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-biloxi-mississippi-03-10-2027/event/1B0065398C6A8C3E",
@@ -355,7 +355,7 @@
         "event_id": 18603490,
         "url": "https://seatgeek.com/rod-stewart-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-03-16-7-30-pm/concert/18603490",
         "verified": true,
-        "last_verified_at": "2026-10-16",
+        "last_verified_at": "2026-10-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -389,7 +389,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1D006547C8F973C3",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-stewart-uncasville-connecticut-03-19-2027/event/1D006547C8F973C3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/rod-stewart-tickets/uncasville-connecticut-mohegan-sun-arena-2027-03-19-7-30-pm/concert/18683772",
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-uncasville-mohegan-sun-arena-ct-3-19-2027/production/7696637",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-uncasville-connecticut-03-19-2027/event/1D006547C8F973C3",
@@ -1741,6 +1741,13 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8307232",
+        "url": "https://www.ticketnetwork.com/en/p/8307232",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kkZvPCFGA1_k0W",
@@ -1750,7 +1757,8 @@
       "AMPHITHEATRE IRELAND",
       "AIKEN PROMOTIONS"
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307232/Rod-Stewart-tickets-Fri-Apr-23-2027-3Arena-Dublin"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307232/Rod-Stewart-tickets-Fri-Apr-23-2027-3Arena-Dublin",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307232"
   },
   {
     "id": "tm-rod-stewart-2027-belfast-1azzkfugkd15ooi",
@@ -1806,6 +1814,13 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8326046",
+        "url": "https://www.ticketnetwork.com/en/p/8326046",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AzZkfUGkd15ooI",
@@ -1815,7 +1830,8 @@
       "AIKEN PROMOTIONS",
       "O2"
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326046/Rod-Stewart-tickets-Tue-Apr-27-2027-The-O2-Belfast"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326046/Rod-Stewart-tickets-Tue-Apr-27-2027-The-O2-Belfast",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326046"
   },
   {
     "id": "tm-rod-stewart-2027-glasgow-1auzkfmgkehwkob",
@@ -1878,6 +1894,13 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8299954",
+        "url": "https://www.ticketnetwork.com/en/p/8299954",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkfMGkeHWkOB",
@@ -1888,6 +1911,7 @@
       "SCOTTISH EVENT CAMPUS LIMITED"
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8299954/Rod-Stewart-tickets-Thu-Apr-29-2027-OVO-Hydro",
-    "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-glasgow-ovo-hydro-arena-glasgow-29-4-2027/event/107670605"
+    "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-glasgow-ovo-hydro-arena-glasgow-29-4-2027/event/107670605",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8299954"
   }
 ]

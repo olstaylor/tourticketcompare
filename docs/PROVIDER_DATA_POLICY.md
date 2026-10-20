@@ -46,7 +46,7 @@ When runtime Impact configuration is absent or tracking generation fails, `/api/
 
 **Approved public display rights:**
 - **Ticket links/CTAs:** approved for public display through verified SeatGeek destinations and server-side Impact wrapping.
-- **Listed price:** owner-approved on 2026-10-19 for public display with SeatGeek attribution when a valid snapshot exists and passes the existing exact-event, approved-source, currency, timestamp, cache, and freshness checks. This is permission to display valid listed-price snapshots, not evidence that the current feed supplies them. Production currently has no SeatGeek snapshot rows; a no-write check for a verified Lizzy McAlpine event returned no usable numeric pricing fields. Do not scrape, invent, or manually enter prices.
+- **Listed price:** owner-approved for public display when shown with SeatGeek attribution and the existing exact-event, approved-source, currency, timestamp, cache, and freshness checks (owner-confirmed 2026-10-19). This permission does not mean the current feed supplies prices: production has no SeatGeek snapshot rows, and a no-write check for a verified Lizzy McAlpine event returned no usable numeric pricing fields. Do not claim or display an amount unless a valid snapshot is present.
 - **Side-by-side comparisons:** the SeatGeek/Vivid Seats comparison path remains in code but is inert for the same reason. Displayed price comparison is served by the providers with active numeric-price lanes (see `PROJECT_STATUS.md`).
 - **History:** approved for archival and historical display when the provider/source attribution and observation time remain attached.
 - **Fees/final checkout total:** not approved from TourTicketCompare data. Users must confirm fees and final totals on SeatGeek.

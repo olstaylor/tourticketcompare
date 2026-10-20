@@ -3770,7 +3770,7 @@ function renderPriceGuideBody(route, events, env) {
   )}</p>${renderPriceGuideCityTables(artist, guide, rowById, lowByShowId, route.indexableCitySlugs || new Set())}</section>`;
 
   const movesHtml = renderPriceGuideMoves(artist, moves, priceAnswer.pricedRowCount, guideShowsById);
-  const missingPricesHtml = `<section class="nested-panel" aria-labelledby="priceGuideMissingTitle"><h2 id="priceGuideMissingTitle">Why a date may have no displayed price</h2><p>Only some ticket sites share prices with this site. Ticketmaster, SeatGeek and Ticket Liquidator links carry no price here, and a price too old to trust is hidden, so a date with no price can still have tickets. Use “Compare this show” to check that date on each site.</p></section>`;
+  const missingPricesHtml = `<section class="nested-panel" aria-labelledby="priceGuideMissingTitle"><h2 id="priceGuideMissingTitle">Why a date may have no displayed price</h2><p>Only some ticket sites share price snapshots with this site. A fresh, verified SeatGeek price may be shown with its source and check time; Ticketmaster and Ticket Liquidator links don’t include a price here. Stale or unavailable prices are hidden, so a date with no displayed price can still have tickets. Use “Compare this show” to check that date on each site.</p></section>`;
 
   const linkItems = [...linkCounts.entries()]
     .map(([name, count]) => `<li>${escapeHtml(`${name}: linked for ${count} of ${guide.showCount} ${guide.showCount === 1 ? "date" : "dates"}`)}</li>`)
@@ -7280,14 +7280,20 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     // The artist's price guide, when one is approved and currently renders.
     // The two pages split one topic by intent — this page buys, the guide
     // answers "how much" — so each links the other near the top.
+    const artistPriceGuide = derivePriceGuide(events, artist.slug);
     const priceGuideLive =
       shows.length > 0 &&
-      priceGuideRouteDecision(derivePriceGuide(events, artist.slug), {
+      priceGuideRouteDecision(artistPriceGuide, {
         registered: priceGuideRegistered(artist.slug),
         artistEditoriallyIndexable: isIndexableArtist
       }) === "render";
+    // Lizzy pilot: answer the price intent already reaching this artist page
+    // with the guide's same current, attributed snapshot. No new price source.
+    const artistPriceAnswer = priceGuideLive && artist.slug === "lizzy-mcalpine"
+      ? derivePriceGuideView({ artist, guide: artistPriceGuide }, events, env).currentAnswer
+      : "";
     const priceGuideLinkHtml = priceGuideLive
-      ? `<p class="price-guide-link">${anchor(
+      ? `<p class="price-guide-link">${artistPriceAnswer ? `${escapeHtml(artistPriceAnswer)} ` : ""}${anchor(
           `${artist.name} ticket prices: resale prices by date, recent price moves and where face value is sold`,
           priceGuidePath(artist.slug),
           "text-link"

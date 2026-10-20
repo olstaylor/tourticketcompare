@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/kanye-west-tickets-houston-reliant-stadium-10-31-2026/production/7507742",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ye-live-in-houston-houston-texas-10-31-2026/event/3A00651CDD026527",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -60,13 +60,28 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8244550",
+        "url": "https://www.ticketnetwork.com/en/p/8244550",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_oSqZJfE",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244550/Kanye-West-tickets-Sat-Oct-31-2026-Reliant-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/ye-houston-tickets-10-31-2026/event/107666751"
+    "stubhub_international_url": "https://www.stubhub.ie/ye-houston-tickets-10-31-2026/event/107666751",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244550",
+    "presales": [
+      {
+        "name": "Premium & VIP Onsale",
+        "start": "2026-09-10T15:00:00Z",
+        "end": "2026-11-01T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-ye-2026-arlington-z7r9jz1aav0vv",
@@ -129,13 +144,21 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8245565",
+        "url": "https://www.ticketnetwork.com/en/p/8245565",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv0vV",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245565/Kanye-West-tickets-Sat-Nov-7-2026-ATT-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/ye-arlington-tickets-11-7-2026/event/107665792"
+    "stubhub_international_url": "https://www.stubhub.ie/ye-arlington-tickets-11-7-2026/event/107665792",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245565"
   },
   {
     "id": "tm-ye-2026-glendale-z7r9jz1aav08u",

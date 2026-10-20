@@ -237,6 +237,12 @@ function productCandidates(config, item, programId = "") {
       externalId,
       normalizedUrl,
       searchableText,
+      // TicketNetwork's Bullets carry the performance's local wall time.
+      // LaunchDate is a catalog timestamp and must not identify a show.
+      // Keep every value so conflicting performance times fail closed.
+      localStartTimes: config.slug === "ticketnetwork" && Array.isArray(item?.Bullets)
+        ? [...new Set(item.Bullets.map((value) => clean(value, 100)).filter((value) => /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/.test(value)))]
+        : [],
       price: Number.isFinite(price) && price >= 0 ? price : null,
       currency: /^[A-Z]{3}$/.test(currency) ? currency : "",
       inventoryCount: Number.isInteger(inventory) && inventory >= 0 ? inventory : null

@@ -46,7 +46,7 @@ When runtime Impact configuration is absent or tracking generation fails, `/api/
 
 **Approved public display rights:**
 - **Ticket links/CTAs:** approved for public display through verified SeatGeek destinations and server-side Impact wrapping.
-- **Listed price:** never displayed in practice — SeatGeek has no numeric snapshot lane. Its API returns null pricing statistics for this client (owner-confirmed 2026-07-15, a permanent provider-API limitation, not a pending entitlement), so no snapshot rows are ever written. The `/api/shows` display gate (`SEATGEEK_PRICE_DISPLAY_ENABLED` plus cache/source/freshness checks) remains in place and fail-closed; it is inert. Public copy must not claim SeatGeek price snapshots while this remains true.
+- **Listed price:** owner-approved for public display when shown with SeatGeek attribution and the existing exact-event, approved-source, currency, timestamp, cache, and freshness checks. This is permission to display valid listed-price snapshots, not evidence that the current feed supplies them. As of 2026-10-19, production has no SeatGeek snapshot rows; a no-write check for a verified Lizzy McAlpine event returned no usable numeric pricing fields. Until a dry run returns valid numeric data, do not claim or display SeatGeek prices.
 - **Side-by-side comparisons:** the SeatGeek/Vivid Seats comparison path remains in code but is inert for the same reason. Displayed price comparison is served by the providers with active numeric-price lanes (see `PROJECT_STATUS.md`).
 - **History:** approved for archival and historical display when the provider/source attribution and observation time remain attached.
 - **Fees/final checkout total:** not approved from TourTicketCompare data. Users must confirm fees and final totals on SeatGeek.
@@ -54,7 +54,7 @@ When runtime Impact configuration is absent or tracking generation fails, `/api/
 
 **Constraints:**
 - The destination host is `seatgeek.com` (the only allowlisted SeatGeek host). Generic search/venue URLs are rejected on the event lane; the artist lane accepts only the hand-verified performer-page constants in `VERIFIED_TICKET_LINKS`.
-- **SeatGeek price snapshots could only ever go live behind their source and freshness gate.** Should SeatGeek ever ship pricing-stat access, snapshots must be sourced from the approved SeatGeek partner API, gated by `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, tied to an event with a valid verified `seatgeek_url`, loaded from a cached row with `source='seatgeek_partner_api'`, timestamped, and hidden when stale. Do not scrape, invent, or manually enter prices.
+- SeatGeek price snapshots may go live when the approved partner API provides usable numeric data and all existing gates pass: `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, a valid verified `seatgeek_url` for the exact event, a cached row with `source='seatgeek_partner_api'`, an observation timestamp, and a fresh snapshot. Hide stale or incomplete rows. Do not scrape, invent, or manually enter prices.
 
 ---
 

@@ -71,6 +71,22 @@ export async function readPriorityRows({ database = "tourticketcompare-demand", 
 
 const idOf = (event) => String(event?.id ?? "").trim();
 
+/** Read completed checks for one lane; failure preserves the existing order. */
+export async function readPriceChecks({ provider, database = "tourticketcompare-demand", remote = true, exec = execFileAsync } = {}) {
+  try {
+    const sql = `SELECT event_id, checked_at FROM provider_price_checks WHERE provider = ${literal(provider)}`;
+    const { stdout } = await exec("npx", buildD1ReadArgs({ database, remote, statements: [{ sql }] }), {
+      cwd: REPO_ROOT, maxBuffer: 10 * 1024 * 1024, timeout: 30000
+    });
+    const parsed = JSON.parse(stdout);
+    if (!Array.isArray(parsed) || !parsed[0]?.success || !Array.isArray(parsed[0].results)) throw new Error("no price-check result set");
+    return parsed[0].results;
+  } catch {
+    console.error(`::notice::price-check order unavailable for ${provider}, using default order`);
+    return [];
+  }
+}
+
 /**
  * The order a price-snapshot run visits events in. Shows on the priority list
  * go first, so a run cut short by its fetch deadline still refreshes them. On
@@ -78,7 +94,7 @@ const idOf = (event) => String(event?.id ?? "").trim();
  * makes them the most often refreshed shows outside their last 48 hours.
  * Order only: each caller still applies its own eligibility rules.
  */
-export function priorityCandidates(events, { withinHours = null, priorityIds = [] } = {}, now = new Date()) {
+export function priorityCandidates(events, { withinHours = null, priorityIds = [], priceChecks = [] } = {}, now = new Date()) {
   const byId = new Map(events.map((event) => [idOf(event), event]));
   const first = (priorityIds || []).map((id) => byId.get(String(id).trim())).filter(Boolean);
   if (withinHours) {
@@ -86,7 +102,12 @@ export function priorityCandidates(events, { withinHours = null, priorityIds = [
     const seen = new Set(finalHours);
     return [...finalHours, ...first.filter((event) => !seen.has(event))];
   }
-  if (!first.length) return events;
+  // A capped writer must not repeatedly price the same prefix. Completed
+  // lookups (including no-price results) move back; untouched shows go first.
+  const checkedAt = new Map(priceChecks.map((row) => [String(row.event_id), Date.parse(row.checked_at)]));
+  const age = (event) => Number.isFinite(checkedAt.get(idOf(event))) ? checkedAt.get(idOf(event)) : -Infinity;
+  const ordered = priceChecks.length ? [...events].sort((a, b) => age(a) - age(b)) : events;
+  if (!first.length) return ordered;
   const seen = new Set(first);
-  return [...first, ...events.filter((event) => !seen.has(event))];
+  return [...first, ...ordered.filter((event) => !seen.has(event))];
 }

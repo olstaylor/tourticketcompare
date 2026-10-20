@@ -221,11 +221,19 @@ function selfTest() {
   assert.deepEqual(visit({ priorityIds: ["tm-only", "missing"] }, now), ["tm-only", "soon", "later", "past"]);
   assert.deepEqual(visit({ withinHours: 48, priorityIds: ["later", "soon"] }, Date.parse("2026-10-13T06:00:00Z")), ["soon", "tm-only", "later"]);
   assert.deepEqual(visit({ withinHours: 48 }, Date.parse("2026-10-13T06:00:00Z")), ["soon", "tm-only"]);
+  const priceChecks = [
+    { event_id: "soon", checked_at: "2026-10-11T12:00:00Z" },
+    { event_id: "later", checked_at: "2026-10-10T12:00:00Z" }
+  ];
+  assert.deepEqual(visit({ priceChecks }, now), ["tm-only", "past", "later", "soon"], "unchecked first, then oldest completed check");
+  assert.deepEqual(visit({ priceChecks, priorityIds: ["soon"] }, now), ["soon", "tm-only", "past", "later"], "commercial priority still leads");
+  assert.deepEqual(visit({ priceChecks, withinHours: 48 }, Date.parse("2026-10-13T06:00:00Z")), ["soon", "tm-only"], "final-hours order stays nearest first");
+  assert.deepEqual(visit({ priceChecks: [{ event_id: "soon", checked_at: "invalid" }] }, now), events.map((e) => e.id), "invalid check timestamps do not hide events");
 
   const md = renderMarkdown(ranked, { top: 25, generatedAt: "2026-10-11 12:00 UTC" });
   assert.ok(md.includes("| 1 | Act, United Center (Chicago) | 2026-10-14 | 2 | $200 | Vivid Seats, Ticketmaster | £13.60 |"));
   assert.ok(md.includes("## Coverage gaps worth fixing first"));
-  return 18;
+  return 22;
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {

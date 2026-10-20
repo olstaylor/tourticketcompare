@@ -90,7 +90,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1000628AC03624E0",
     "ticketmaster_url": "https://www.ticketmaster.ca/eros-ramazzotti-una-historia-importante-toronto-ontario-09-24-2027/event/1000628AC03624E0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/eros-ramazzotti-tickets/toronto-canada-coca-cola-coliseum-2027-09-24-8-pm/concert/17481793",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/eros-ramazzotti-una-historia-importante-toronto-ontario-09-24-2027/event/1000628AC03624E0",
@@ -106,11 +106,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17481793,
+        "url": "https://seatgeek.com/eros-ramazzotti-tickets/toronto-canada-coca-cola-coliseum-2027-09-24-8-pm/concert/17481793",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -479,7 +479,7 @@
         "event_id": 17491601,
         "url": "https://seatgeek.com/eros-ramazzotti-tickets/sugar-land-texas-smart-financial-centre-2027-10-13-8-pm/concert/17491601",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {

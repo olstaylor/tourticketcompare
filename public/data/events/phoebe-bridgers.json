@@ -80,7 +80,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7Pa_0",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pa_0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/phoebe-bridgers-tickets/salt-lake-city-utah-delta-center-1-2026-10-21-7-30-pm/concert/18215205",
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-salt-lake-city-delta-center-10-21-2026--concerts-rock/production/7123331",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pa_0",
@@ -96,11 +96,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18215205,
+        "url": "https://seatgeek.com/phoebe-bridgers-tickets/salt-lake-city-utah-delta-center-1-2026-10-21-7-30-pm/concert/18215205",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7123331,

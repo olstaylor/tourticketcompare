@@ -1524,6 +1524,13 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674281",
+        "url": "https://www.stubhub.ie/zach-bryan-atlanta-tickets-5-29-2027/event/107674281",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_fwy55oS",
@@ -1543,7 +1550,8 @@
         "start": "2026-10-22T14:00:00Z",
         "end": "2026-10-23T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-atlanta-tickets-5-29-2027/event/107674281"
   },
   {
     "id": "tm-zach-bryan-2027-orchard-park-vv17gz_fgksis3fj",
@@ -1606,6 +1614,13 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674282",
+        "url": "https://www.stubhub.ie/zach-bryan-orchard-park-tickets-6-2-2027/event/107674282",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17GZ_fGkSIs3FJ",
@@ -1638,7 +1653,8 @@
         "start": "2026-10-22T16:00:00Z",
         "end": "2026-10-23T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-orchard-park-tickets-6-2-2027/event/107674282"
   },
   {
     "id": "tm-zach-bryan-2027-las-vegas-1avjz_fgkwbrzg6",
@@ -1701,6 +1717,13 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674226",
+        "url": "https://www.stubhub.ie/zach-bryan-las-vegas-tickets-7-16-2027/event/107674226",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_fGkwbrzG6",
@@ -1728,7 +1751,8 @@
         "start": "2026-10-22T17:00:00Z",
         "end": "2026-10-23T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-las-vegas-tickets-7-16-2027/event/107674226"
   },
   {
     "id": "tm-zach-bryan-2027-inglewood-vvg1iz_frht9v6",
@@ -1791,6 +1815,13 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674901",
+        "url": "https://www.stubhub.ie/zach-bryan-inglewood-tickets-7-20-2027/event/107674901",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_frht9V6",
@@ -1823,7 +1854,8 @@
         "start": "2026-10-22T17:00:00Z",
         "end": "2026-10-23T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-inglewood-tickets-7-20-2027/event/107674901"
   },
   {
     "id": "tm-zach-bryan-2027-seattle-vvg1hz_fytloed",

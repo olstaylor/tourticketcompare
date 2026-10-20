@@ -543,11 +543,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107098202",
-        "url": "https://www.stubhub.ie/staind-austin-tickets-10-19-2026/event/107098202",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_dYkGaJg",
@@ -555,7 +555,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718212",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718212/Staind-tickets-Mon-Oct-19-2026-Moody-Center-ATX",
-    "stubhub_international_url": "https://www.stubhub.ie/staind-austin-tickets-10-19-2026/event/107098202",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

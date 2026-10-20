@@ -504,11 +504,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18570214,
+        "url": "https://seatgeek.com/stevie-wonder-tickets/new-york-new-york-madison-square-garden-2026-11-19-8-pm/concert/18570214",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -557,11 +557,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18570213,
+        "url": "https://seatgeek.com/stevie-wonder-tickets/chicago-illinois-united-center-2026-11-21-8-pm/concert/18570213",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -610,11 +610,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18570216,
+        "url": "https://seatgeek.com/stevie-wonder-tickets/washington-district-of-columbia-capital-one-arena-2026-11-23-8-pm/concert/18570216",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

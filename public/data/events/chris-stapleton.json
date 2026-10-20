@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18004730,
+        "url": "https://seatgeek.com/chris-stapleton-tickets/lincoln-nebraska-pinnacle-bank-arena-2026-10-26-7-30-pm/concert/18004730",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

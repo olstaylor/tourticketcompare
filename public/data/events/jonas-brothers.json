@@ -133,7 +133,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZw4y",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZw4y",
-    "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/cleveland-ohio-rocket-arena-2026-10-19-7-30-pm/concert/18477758",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-cleveland-rocket-arena-10-19-2026--concerts-pop/production/7446254",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZw4y",
@@ -149,11 +149,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18477758,
-        "url": "https://seatgeek.com/jonas-brothers-tickets/cleveland-ohio-rocket-arena-2026-10-19-7-30-pm/concert/18477758",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7446254,
@@ -365,7 +365,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1000651DAC5DBFD1",
     "ticketmaster_url": "https://www.ticketmaster.ca/jonas-brothers-the-burning-up-tour-toronto-ontario-10-24-2026/event/1000651DAC5DBFD1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/toronto-canada-scotiabank-arena-2026-10-24-7-30-pm/concert/18551168",
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-toronto-scotiabank-arena-10-24-2026/production/7506326",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/jonas-brothers-the-burning-up-tour-toronto-ontario-10-24-2026/event/1000651DAC5DBFD1",
@@ -381,11 +381,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18551168,
+        "url": "https://seatgeek.com/jonas-brothers-tickets/toronto-canada-scotiabank-arena-2026-10-24-7-30-pm/concert/18551168",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7506326,
@@ -696,7 +696,7 @@
         "event_id": 18492128,
         "url": "https://seatgeek.com/jonas-brothers-tickets/saint-paul-minnesota-grand-casino-arena-2026-11-02-7-30-pm/concert/18492128",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1006,7 +1006,7 @@
         "event_id": 18571665,
         "url": "https://seatgeek.com/jonas-brothers-tickets/houston-texas-toyota-center-2026-11-08-7-30-pm/concert/18571665",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1941,7 +1941,7 @@
         "event_id": 18503912,
         "url": "https://seatgeek.com/jonas-brothers-tickets/las-vegas-nevada-mgm-grand-garden-arena-2026-11-28-7-30-pm/concert/18503912",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2289,7 +2289,7 @@
         "event_id": 18471182,
         "url": "https://seatgeek.com/jonas-brothers-tickets/salt-lake-city-utah-delta-center-1-2026-12-07-7-30-pm/concert/18471182",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {

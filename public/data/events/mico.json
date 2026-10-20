@@ -519,7 +519,7 @@
         "event_id": 18259203,
         "url": "https://seatgeek.com/mico-tickets/tucson-arizona-la-rosa-tucson-2026-10-20-8-pm/concert/18259203",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -864,7 +864,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E0064AECF5A4FD8",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-atlanta-georgia-10-27-2026/event/0E0064AECF5A4FD8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mico-tickets/atlanta-georgia-the-masquerade-heaven-2026-10-27-7-pm/concert/18252688",
     "vividseats_url": "https://www.vividseats.com/mico-tickets-atlanta-the-masquerade---heaven-10-27-2026/production/7049202",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-atlanta-georgia-10-27-2026/event/0E0064AECF5A4FD8",
@@ -880,11 +880,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18252688,
+        "url": "https://seatgeek.com/mico-tickets/atlanta-georgia-the-masquerade-heaven-2026-10-27-7-pm/concert/18252688",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7049202,
@@ -1005,7 +1005,7 @@
         "event_id": 18259847,
         "url": "https://seatgeek.com/mico-tickets/new-york-new-york-webster-hall-2026-10-30-7-30-pm/concert/18259847",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1074,7 +1074,7 @@
         "event_id": 18259849,
         "url": "https://seatgeek.com/mico-tickets/brooklyn-new-york-music-hall-of-williamsburg-2026-10-31-8-pm/concert/18259849",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1215,7 +1215,7 @@
         "event_id": 18345103,
         "url": "https://seatgeek.com/mico-tickets/providence-rhode-island-fete-music-hall-2026-11-03-8-pm/concert/18345103",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2297,7 +2297,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "16006544C2C1714C",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-cincinnati-ohio-03-12-2027/event/16006544C2C1714C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mico-tickets/cincinnati-ohio-bogarts-cincinnati-2027-03-12-7-pm/concert/18666222",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-cincinnati-ohio-03-12-2027/event/16006544C2C1714C",
@@ -2565,7 +2565,7 @@
         "event_id": 18685771,
         "url": "https://seatgeek.com/mico-tickets/jacksonville-florida-five-jacksonville-2027-02-23-8-pm/concert/18685771",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {

@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7Pd4s",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pd4s",
-    "seatgeek_url": "https://seatgeek.com/knocked-loose-tickets/nashville-tennessee-the-pinnacle-nashville-2026-10-19-7-pm/concert/18270629",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pd4s",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18270629,
-        "url": "https://seatgeek.com/knocked-loose-tickets/nashville-tennessee-the-pinnacle-nashville-2026-10-19-7-pm/concert/18270629",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -200,7 +200,7 @@
         "event_id": 18270635,
         "url": "https://seatgeek.com/knocked-loose-tickets/mesa-arizona-mesa-amphitheatre-2026-10-27-6-pm/concert/18270635",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -269,7 +269,7 @@
         "event_id": 18270638,
         "url": "https://seatgeek.com/knocked-loose-tickets/los-angeles-california-shrine-la-outdoors-2026-10-29-7-pm/concert/18270638",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {

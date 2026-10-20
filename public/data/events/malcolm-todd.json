@@ -996,7 +996,7 @@
     "tour_name": "Do That Again Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7P8vw",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P8vw",
-    "seatgeek_url": "https://seatgeek.com/malcolm-todd-tickets/portland-oregon-arlene-schnitzer-concert-hall-2026-10-19-8-pm/concert/18292564",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-portland-arlene-schnitzer-concert-hall-10-19-2026/production/7132380",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P8vw",
@@ -1012,11 +1012,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18292564,
-        "url": "https://seatgeek.com/malcolm-todd-tickets/portland-oregon-arlene-schnitzer-concert-hall-2026-10-19-8-pm/concert/18292564",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7132380,

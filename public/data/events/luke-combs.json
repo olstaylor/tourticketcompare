@@ -30,7 +30,7 @@
         "event_id": 18379496,
         "url": "https://seatgeek.com/luke-combs-tickets/arlington-texas-at-t-stadium-2027-04-03-5-20-pm/concert/18379496",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -347,7 +347,7 @@
         "event_id": 18493401,
         "url": "https://seatgeek.com/luke-combs-tickets/pittsburgh-pennsylvania-acrisure-stadium-2027-05-08-5-45-pm/concert/18493401",
         "verified": true,
-        "last_verified_at": "2026-10-16",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -425,11 +425,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18493403,
+        "url": "https://seatgeek.com/luke-combs-tickets/kansas-city-missouri-geha-field-at-arrowhead-stadium-2027-05-15-5-45-pm/concert/18493403",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7429043,
@@ -874,7 +874,7 @@
         "event_id": 18493422,
         "url": "https://seatgeek.com/luke-combs-tickets/minneapolis-minnesota-u-s-bank-stadium-2027-04-10-5-45-pm/concert/18493422",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {

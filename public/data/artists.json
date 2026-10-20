@@ -2110,5 +2110,89 @@
     "last_verified_at": "2026-10-19",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-19"
+  },
+  {
+    "slug": "elevation-worship",
+    "name": "Elevation Worship",
+    "short_description": "Religious act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-20",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-20"
+  },
+  {
+    "slug": "stevie-wonder",
+    "name": "Stevie Wonder",
+    "short_description": "R&B act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-20",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-20"
+  },
+  {
+    "slug": "lil-wayne",
+    "name": "Lil Wayne",
+    "short_description": "Hip-Hop/Rap act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-20",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-20"
+  },
+  {
+    "slug": "tom-jones",
+    "name": "Tom Jones",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-20",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-20"
+  },
+  {
+    "slug": "a-boogie-wit-da-hoodie",
+    "name": "A Boogie Wit Da Hoodie",
+    "short_description": "Hip-Hop/Rap act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-20",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-20"
+  },
+  {
+    "slug": "zach-top",
+    "name": "Zach Top",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-20",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-20"
   }
 ]

@@ -1,0 +1,426 @@
+[
+  {
+    "id": "tm-tom-jones-2026-las-vegas-17ayv0g61xuaqyn",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones: Come Gather Round Tour",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Encore Theater at Wynn Las Vegas",
+    "datetime_iso": "2026-10-22T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064AFB615AE6A",
+    "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-21-2026/event/170064AFB615AE6A",
+    "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-10-21-8-pm/concert/18266693",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-21-2026/event/170064AFB615AE6A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064AFB615AE6A",
+        "discovery_event_id": "17AYv0G61XUAQyn",
+        "url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-21-2026/event/170064AFB615AE6A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G61XUAQyn",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tom-jones-2026-las-vegas-17ayv0g61xukqbd",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones: Come Gather Round Tour",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Encore Theater at Wynn Las Vegas",
+    "datetime_iso": "2026-10-24T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064AFB619AE83",
+    "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-23-2026/event/170064AFB619AE83",
+    "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-10-23-8-pm/concert/18266694",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-23-2026/event/170064AFB619AE83",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064AFB619AE83",
+        "discovery_event_id": "17AYv0G61XUkQBd",
+        "url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-23-2026/event/170064AFB619AE83",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G61XUkQBd",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tom-jones-2026-las-vegas-17ayv0g61xu61b0",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones: Come Gather Round Tour",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Encore Theater at Wynn Las Vegas",
+    "datetime_iso": "2026-10-25T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064AFB61CAEA4",
+    "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-24-2026/event/170064AFB61CAEA4",
+    "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-10-24-8-pm/concert/18266696",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-24-2026/event/170064AFB61CAEA4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064AFB61CAEA4",
+        "discovery_event_id": "17AYv0G61XU61B0",
+        "url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-24-2026/event/170064AFB61CAEA4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G61XU61B0",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tom-jones-2026-los-angeles-vvg10z_58xadko",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones : Come Gather Round Tour",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Greek Theatre",
+    "datetime_iso": "2026-10-27T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064B43E17B4D1",
+    "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-los-angeles-california-10-26-2026/event/090064B43E17B4D1",
+    "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/los-angeles-california-the-greek-theatre-los-angeles-2026-10-26-8-pm/concert/18266701",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-los-angeles-california-10-26-2026/event/090064B43E17B4D1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064B43E17B4D1",
+        "discovery_event_id": "vvG10Z_58XADKo",
+        "url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-los-angeles-california-10-26-2026/event/090064B43E17B4D1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_58XADKo",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tom-jones-2026-san-diego-vvg1iz_5gqcfyd",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones: Come Gather Round Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "The Rady Shell at Jacobs Park",
+    "datetime_iso": "2026-10-28T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0064B31A394E43",
+    "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-diego-california-10-27-2026/event/0A0064B31A394E43",
+    "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/san-diego-california-the-rady-shell-at-jacobs-park-2026-10-27-8-pm/concert/18266703",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-diego-california-10-27-2026/event/0A0064B31A394E43",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0064B31A394E43",
+        "discovery_event_id": "vvG1IZ_5GQCfyd",
+        "url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-diego-california-10-27-2026/event/0A0064B31A394E43",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_5GQCfyd",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tom-jones-2026-highland-z7r9jz1a7p6r4",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones (21+)",
+    "city": "Highland",
+    "country": "United States Of America",
+    "venue": "Yaamava Theater",
+    "datetime_iso": "2026-10-30T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P6r4",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P6r4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P6r4",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P6r4",
+        "discovery_event_id": "Z7r9jZ1A7P6r4",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P6r4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P6r4",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tom-jones-2026-wheatland-g5vyz_1uw3ukc",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones",
+    "city": "Wheatland",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Sacramento",
+    "datetime_iso": "2026-11-01T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064ADB24B61AD",
+    "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-wheatland-california-10-31-2026/event/1C0064ADB24B61AD",
+    "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/wheatland-california-hard-rock-live-sacramento-2026-10-31-8-pm/concert/18266706",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tom-jones-wheatland-california-10-31-2026/event/1C0064ADB24B61AD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064ADB24B61AD",
+        "discovery_event_id": "G5vYZ_1Uw3Ukc",
+        "url": "https://www.ticketmaster.com/tom-jones-wheatland-california-10-31-2026/event/1C0064ADB24B61AD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_1Uw3Ukc",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tom-jones-2026-san-francisco-g5vyz_5d9skqu",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones: Come Gather Round Tour",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "The Masonic",
+    "datetime_iso": "2026-11-02T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064B0D7C4668D",
+    "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-francisco-california-11-01-2026/event/1C0064B0D7C4668D",
+    "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/san-francisco-california-the-masonic-san-francisco-2026-11-01-8-pm/concert/18266707",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-francisco-california-11-01-2026/event/1C0064B0D7C4668D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064B0D7C4668D",
+        "discovery_event_id": "G5vYZ_5d9skQu",
+        "url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-francisco-california-11-01-2026/event/1C0064B0D7C4668D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_5d9skQu",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

@@ -259,7 +259,7 @@
     "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-brooklyn-brooklyn-paramount-12-13-2026/production/7210428",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-allstars-present-a-season-brooklyn-new-york-12-13-2026/event/000064D2D26E1C3C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -324,6 +324,11 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-06-26T14:00:00Z",
         "end": "2026-11-23T03:00:00Z"
+      },
+      {
+        "name": "Sweater Weather Savings",
+        "start": "2026-10-19T17:00:00Z",
+        "end": "2026-10-31T02:00:00Z"
       }
     ],
     "organizer_names": [

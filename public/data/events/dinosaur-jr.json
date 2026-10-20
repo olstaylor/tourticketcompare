@@ -480,7 +480,7 @@
     "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-sacramento-ace-of-spades-10-20-2026--concerts-rock/production/7234800",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-sacramento-california-10-20-2026/event/1C0064D90375144A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -532,13 +532,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8099103",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8099103/Dinosaur-Jr-tickets-Tue-Oct-20-2026-Ace-of-Spades",
-    "presales": [
-      {
-        "name": "Rocktober 2-packBuy 2 for the price of 1",
-        "start": "2026-10-02T05:00:00Z",
-        "end": "2026-10-20T05:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

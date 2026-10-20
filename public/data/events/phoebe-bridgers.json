@@ -145,7 +145,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-seattle-climate-pledge-arena-10-23-2026--concerts-adult-contemporary/production/7123271",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-seattle-washington-10-23-2026/event/0F0064C1A94186E6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -196,7 +196,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8028490/Phoebe-Bridgers-tickets-Fri-Oct-23-2026-Climate-Pledge-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-seattle-tickets-10-23-2026/event/107259002"
+    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-seattle-tickets-10-23-2026/event/107259002",
+    "organizer_names": [
+      "THE MESSINA GROUP (TMG)"
+    ]
   },
   {
     "id": "tm-phoebe-bridgers-2026-vancouver-1778v0g6g1ql6ek",
@@ -214,7 +217,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-vancouver-rogers-arena-10-24-2026--concerts-adult-contemporary/production/7123286",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/phoebe-bridgers-the-lost-tour-vancouver-british-columbia-10-24-2026/event/110064C29DAC7093",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -265,7 +268,11 @@
     "timezone": "America/Vancouver",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8028495/Phoebe-Bridgers-tickets-Sat-Oct-24-2026-Rogers-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-tickets-vancouver-rogers-arena-10-24-2026/event/107360077"
+    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-tickets-vancouver-rogers-arena-10-24-2026/event/107360077",
+    "organizer_names": [
+      "THE MESSINA GROUP (TMG)",
+      "AEG LIVE (CANADA)"
+    ]
   },
   {
     "id": "tm-phoebe-bridgers-2026-san-francisco-g5vyz_5ehic8t",
@@ -283,7 +290,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-san-francisco-chase-center-10-27-2026--concerts-adult-contemporary/production/7123274",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-san-francisco-california-10-27-2026/event/1C0064B9DBA0E43F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -334,7 +341,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8028491/Phoebe-Bridgers-tickets-Tue-Oct-27-2026-Chase-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-san-francisco-tickets-10-27-2026/event/107360078"
+    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-san-francisco-tickets-10-27-2026/event/107360078",
+    "organizer_names": [
+      "CONCERTS WEST (AEG)"
+    ]
   },
   {
     "id": "tm-phoebe-bridgers-2026-san-francisco-g5vyz_gpqjtlc",
@@ -352,7 +362,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-san-francisco-chase-center-10-28-2026--concerts-rock/production/7132289",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-san-francisco-california-10-28-2026/event/1C0064C59A9BFAED",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403,7 +413,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034548/Phoebe-Bridgers-tickets-Wed-Oct-28-2026-Chase-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-san-francisco-tickets-10-28-2026/event/107259003"
+    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-san-francisco-tickets-10-28-2026/event/107259003",
+    "organizer_names": [
+      "CONCERTS WEST (AEG)"
+    ]
   },
   {
     "id": "tm-phoebe-bridgers-2026-inglewood-vvg10z_5eplbfx",
@@ -421,7 +434,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-inglewood-intuit-dome-10-30-2026--concerts-adult-contemporary/production/7123277",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-inglewood-california-10-30-2026/event/090064B9E57FA522",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -472,7 +485,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8028492/Phoebe-Bridgers-tickets-Fri-Oct-30-2026-Intuit-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-inglewood-tickets-10-30-2026/event/107259004"
+    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-inglewood-tickets-10-30-2026/event/107259004",
+    "organizer_names": [
+      "THE MESSINA GROUP (TMG)"
+    ]
   },
   {
     "id": "tm-phoebe-bridgers-2026-inglewood-vvg10z_goubfs2",
@@ -490,7 +506,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-inglewood-intuit-dome-10-31-2026--concerts-adult-contemporary/production/7123280",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-inglewood-california-10-31-2026/event/090064C476614C4F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -541,7 +557,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8028493/Phoebe-Bridgers-tickets-Sat-Oct-31-2026-Intuit-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-inglewood-tickets-10-31-2026/event/107259005"
+    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-inglewood-tickets-10-31-2026/event/107259005",
+    "organizer_names": [
+      "THE MESSINA GROUP (TMG)"
+    ]
   },
   {
     "id": "tm-phoebe-bridgers-2026-inglewood-vvg10z_gomyvhe",
@@ -559,7 +578,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-inglewood-intuit-dome-11-1-2026--concerts-rock/production/7132295",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-inglewood-california-11-01-2026/event/090064C477C34F02",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -610,7 +629,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034546/Phoebe-Bridgers-tickets-Sun-Nov-1-2026-Intuit-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-inglewood-tickets-11-1-2026/event/107259006"
+    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-inglewood-tickets-11-1-2026/event/107259006",
+    "organizer_names": [
+      "THE MESSINA GROUP (TMG)"
+    ]
   },
   {
     "id": "tm-phoebe-bridgers-2026-dublin-17kzv0g65ra4cgv",
@@ -628,7 +650,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/phoebe-bridgers-dublin-23-11-2026/event/180064BBC954ED41",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -671,7 +693,11 @@
     "ticketmaster_discovery_event_id": "17kZv0G65Ra4Cgv",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8134619/Phoebe-Bridgers-tickets-Mon-Nov-23-2026-3Arena-Dublin"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8134619/Phoebe-Bridgers-tickets-Mon-Nov-23-2026-3Arena-Dublin",
+    "organizer_names": [
+      "AMPHITHEATRE IRELAND",
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-phoebe-bridgers-2026-dublin-17kzv0g65ra4mgk",
@@ -689,7 +715,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/phoebe-bridgers-dublin-24-11-2026/event/180064BBC956ED46",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -732,7 +758,11 @@
     "ticketmaster_discovery_event_id": "17kZv0G65Ra4mgk",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329498/Phoebe-Bridgers-tickets-Tue-Nov-24-2026-3Arena-Dublin"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329498/Phoebe-Bridgers-tickets-Tue-Nov-24-2026-3Arena-Dublin",
+    "organizer_names": [
+      "AMPHITHEATRE IRELAND",
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-phoebe-bridgers-2026-manchester-17uyv0g6gcqzprx",
@@ -750,7 +780,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-manchester-co-op-live-11-26-2026--concerts-adult-contemporary/production/7123290",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-manchester-26-11-2026/event/370064C39DE257BE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -801,7 +831,11 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8028496/Phoebe-Bridgers-tickets-Thu-Nov-26-2026-Co-Op-Live",
-    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-tickets-manchester-co-op-live-26-11-2026/event/107258745"
+    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-tickets-manchester-co-op-live-26-11-2026/event/107258745",
+    "organizer_names": [
+      "COMMUNION ONE LTD",
+      "WHATEVER MOM MUSIC, INC ON BEHALF OF PHOEBE BRIDGERS"
+    ]
   },
   {
     "id": "tm-phoebe-bridgers-2026-glasgow-17uov0g6gor33_x",
@@ -819,7 +853,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-glasgow-ovo-hydro-11-27-2026--concerts-rock/production/7123296",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-glasgow-27-11-2026/event/360064C46F49267E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -870,7 +904,11 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090638/Phoebe-Bridgers-tickets-Fri-Nov-27-2026-OVO-Hydro",
-    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-tickets-glasgow-ovo-hydro-arena-glasgow-27-11-2026/event/107298078"
+    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-tickets-glasgow-ovo-hydro-arena-glasgow-27-11-2026/event/107298078",
+    "organizer_names": [
+      "SCOTTISH EVENT CAMPUS LIMITED",
+      "WHATEVER MOM MUSIC, INC ON BEHALF OF PHOEBE BRIDGERS"
+    ]
   },
   {
     "id": "tm-phoebe-bridgers-2026-birmingham-17fyv0g6g2_ps5a",
@@ -888,7 +926,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-11-28-2026--concerts-rock/production/7123299",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-birmingham-28-11-2026/event/230064C3D99712C5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -939,7 +977,11 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090634/Phoebe-Bridgers-tickets-Sat-Nov-28-2026-bp-pulse-LIVE",
-    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-tickets-birmingham-bp-pulse-live-28-11-2026/event/107298079"
+    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-tickets-birmingham-bp-pulse-live-28-11-2026/event/107298079",
+    "organizer_names": [
+      "COMMUNION ONE LTD",
+      "WHATEVER MOM MUSIC, INC ON BEHALF OF PHOEBE BRIDGERS"
+    ]
   },
   {
     "id": "tm-phoebe-bridgers-2026-london-17u8v0g6gpqo1c-",
@@ -957,7 +999,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-london-the-o2---london-12-1-2026--concerts-rock/production/7123304",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-the-lost-tour-london-01-12-2026/event/350064C59A44A3A1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1000,7 +1042,11 @@
     "ticketmaster_discovery_event_id": "17u8v0G6GpQo1C-",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-tickets-london-the-o2-arena-1-12-2026/event/107299077"
+    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-tickets-london-the-o2-arena-1-12-2026/event/107299077",
+    "organizer_names": [
+      "KMJ ENTERTAINMENT LTD",
+      "WHATEVER MOM MUSIC, INC ON BEHALF OF PHOEBE BRIDGERS"
+    ]
   },
   {
     "id": "tm-phoebe-bridgers-2026-london-17u8v0g6gnyjt5y",
@@ -1018,7 +1064,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-london-the-o2---london-12-2-2026--concerts-rock/production/7132311",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-the-lost-tour-london-02-12-2026/event/350064CAB07292F9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1061,7 +1107,11 @@
     "ticketmaster_discovery_event_id": "17u8v0G6GnYjt5y",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-tickets-london-the-o2-arena-2-12-2026/event/107258759"
+    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-tickets-london-the-o2-arena-2-12-2026/event/107258759",
+    "organizer_names": [
+      "KMJ ENTERTAINMENT LTD",
+      "WHATEVER MOM MUSIC, INC ON BEHALF OF PHOEBE BRIDGERS"
+    ]
   },
   {
     "id": "tm-phoebe-bridgers-2026-forest-brussels-z698xzg2z16ezpgzqe",
@@ -1079,7 +1129,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/phoebe-bridgers-the-lost-tour-%7C-beat-premium-bistronomy-experience-tickets/2016338742",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1114,6 +1164,9 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z16eZpGzqe",
     "timezone": "Europe/Brussels",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "be•at Premium"
+    ]
   }
 ]

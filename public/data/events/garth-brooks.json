@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-tulsa-bok-center-10-23-2026--concerts-country-and-folk/production/7599483",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-tulsa-oklahoma-10-23-2026/event/20006536D03A49E3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -58,7 +58,10 @@
     "ticketmaster_discovery_event_id": "1AOZkfUGkd8C0EN",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284848/Garth-Brooks-tickets-Fri-Oct-23-2026-BOK-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284848/Garth-Brooks-tickets-Fri-Oct-23-2026-BOK-Center",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-garth-brooks-2026-tulsa-1aozkfugkdlv4l0",
@@ -76,7 +79,7 @@
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-tulsa-bok-center-10-24-2026--concerts-country-and-folk/production/7599485",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-tulsa-oklahoma-10-24-2026/event/20006536EB0557E4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -119,7 +122,10 @@
     "ticketmaster_discovery_event_id": "1AOZkfUGkdlv4L0",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284849/Garth-Brooks-tickets-Sat-Oct-24-2026-BOK-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284849/Garth-Brooks-tickets-Sat-Oct-24-2026-BOK-Center",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-garth-brooks-2026-tulsa-1aozkfugkdlmpx_",
@@ -137,7 +143,7 @@
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-tulsa-bok-center-10-25-2026--concerts-country-and-folk/production/7599491",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-tulsa-oklahoma-10-25-2026/event/20006536EBDE5899",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -180,7 +186,10 @@
     "ticketmaster_discovery_event_id": "1AOZkfUGkdlMPx_",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284850/Garth-Brooks-tickets-Sun-Oct-25-2026-BOK-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284850/Garth-Brooks-tickets-Sun-Oct-25-2026-BOK-Center",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-garth-brooks-2026-seattle-vvg1hz_fstanbp",
@@ -198,7 +207,7 @@
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-seattle-climate-pledge-arena-11-13-2026--concerts-country-and-folk/production/7704177",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-seattle-washington-11-13-2026/event/0F00654CE926A625",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -250,7 +259,10 @@
     "status": "announced",
     "public_onsale_at": "2026-10-23T17:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8321626/Garth-Brooks-tickets-Fri-Nov-13-2026-Climate-Pledge-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-seattle-tickets-11-13-2026/event/107674823"
+    "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-seattle-tickets-11-13-2026/event/107674823",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-garth-brooks-2026-seattle-vvg1hz_fghqxgl",
@@ -268,7 +280,7 @@
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-seattle-climate-pledge-arena-11-14-2026--concerts-country-and-folk/production/7704179",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-seattle-washington-11-14-2026/event/0F00654D7C6A2D6B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -320,6 +332,9 @@
     "status": "announced",
     "public_onsale_at": "2026-10-23T17:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8321627/Garth-Brooks-tickets-Sat-Nov-14-2026-Climate-Pledge-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-seattle-tickets-11-14-2026/event/107674140"
+    "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-seattle-tickets-11-14-2026/event/107674140",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   }
 ]

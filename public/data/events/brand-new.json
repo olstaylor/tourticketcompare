@@ -336,7 +336,7 @@
     "vividseats_url": "https://www.vividseats.com/brand-new-tickets-independence-cable-dahmer-arena-10-28-2026/production/7183639",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brand-new-independence-missouri-10-28-2026/event/060064D088E559A8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -387,7 +387,17 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062597/Brand-New-tickets-Wed-Oct-28-2026-Cable-Dahmer-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062597"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062597",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "presales": [
+      {
+        "name": "2 Pack Offer",
+        "start": "2026-10-13T20:30:00Z",
+        "end": "2026-10-28T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-brand-new-2026-grand-prairie-z7r9jz1a7pijy",
@@ -612,7 +622,7 @@
     "vividseats_url": "https://www.vividseats.com/brand-new-tickets-anaheim-honda-center-11-7-2026/production/7183430",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brand-new-anaheim-california-11-07-2026/event/090064D08DD25B6F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -671,7 +681,10 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062601/Brand-New-tickets-Sat-Nov-7-2026-Honda-Center",
     "stubhub_international_url": "https://www.stubhub.ie/brand-new-anaheim-tickets-11-7-2026/event/107417868",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062601"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062601",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-brand-new-2026-san-francisco-g5vyz_ghzwhnz",
@@ -689,7 +702,7 @@
     "vividseats_url": "https://www.vividseats.com/brand-new-tickets-san-francisco-bill-graham-civic-auditorium-11-11-2026/production/7183374",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brand-new-san-francisco-california-11-11-2026/event/1C0064CF38CBCA80",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -748,7 +761,10 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062602/Brand-New-tickets-Wed-Nov-11-2026-Bill-Graham-Civic-Auditorium",
     "stubhub_international_url": "https://www.stubhub.ie/brand-new-san-francisco-tickets-11-11-2026/event/107447522",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062602"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062602",
+    "organizer_names": [
+      "ANOTHER PLANET"
+    ]
   },
   {
     "id": "tm-brand-new-2026-phoenix-17k8v0g6gh6bhfj",
@@ -766,7 +782,7 @@
     "vividseats_url": "https://www.vividseats.com/brand-new-tickets-phoenix-arizona-financial-theatre-11-14-2026/production/7183306",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brand-new-phoenix-arizona-11-14-2026/event/190064CF07E9B226",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -817,6 +833,9 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062603/Brand-New-tickets-Sat-Nov-14-2026-Arizona-Financial-Theatre",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062603"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062603",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   }
 ]

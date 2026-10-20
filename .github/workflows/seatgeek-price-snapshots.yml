@@ -14,14 +14,11 @@ name: SeatGeek price snapshots
 # - It does not deploy, call /api/out, mutate event data, or run destructive D1 SQL.
 
 on:
-  # Scheduled runs are DISABLED (2026-07-15, owner-directed). SeatGeek does not
-  # expose event pricing statistics via the API for this client — every
-  # eligible event returns HTTP 200 with null lowest/average/highest price, so
-  # no usable snapshot can ever be built and the four-hourly job only produced
-  # zero-row runs. This is a permanent provider-API limitation, not a pending
-  # entitlement, so the cron is removed rather than left running red. Manual
-  # workflow_dispatch is retained purely as a reversible escape hatch if
-  # SeatGeek ever ships pricing-stat access; re-enable the schedule then.
+  # Scheduled runs remain DISABLED after repeated checks returned no numeric
+  # SeatGeek prices for this account. Owner approval allows valid attributed
+  # prices to be displayed, but does not make the API return them. Keep the
+  # dispatch-only dry-run available and reconsider the schedule if a dry-run
+  # confirms numeric stats; do not spend API quota on recurring empty runs.
   # schedule:
   #   - cron: '17 */4 * * *'
   workflow_dispatch:

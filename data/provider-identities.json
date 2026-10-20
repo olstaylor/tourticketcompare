@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-19",
+  "updated_at": "2026-10-20",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -1723,6 +1723,72 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-10-19 (sanctioned path D): SeatGeek performer 2387 and Ticketmaster attraction K8vZ9171aAV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "elevation-worship",
+      "ticketmaster_attraction_id": "K8vZ917fsHf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/elevation-worship-tickets/artist/2248014",
+      "seatgeek_performer_id": 185260,
+      "seatgeek_artist_url": "https://seatgeek.com/elevation-worship-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-20 (sanctioned path D): SeatGeek performer 185260 and Ticketmaster attraction K8vZ917fsHf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "stevie-wonder",
+      "ticketmaster_attraction_id": "K8vZ91715af",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/stevie-wonder-tickets/artist/772848",
+      "seatgeek_performer_id": 63,
+      "seatgeek_artist_url": "https://seatgeek.com/stevie-wonder-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-20 (sanctioned path D): SeatGeek performer 63 and Ticketmaster attraction K8vZ91715af captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "lil-wayne",
+      "ticketmaster_attraction_id": "K8vZ917GemV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/lil-wayne-tickets/artist/712214",
+      "seatgeek_performer_id": 1109,
+      "seatgeek_artist_url": "https://seatgeek.com/lil-wayne-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-20 (sanctioned path D): SeatGeek performer 1109 and Ticketmaster attraction K8vZ917GemV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "tom-jones",
+      "ticketmaster_attraction_id": "K8vZ9171uxf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/tom-jones-tickets/artist/741236",
+      "seatgeek_performer_id": 1918,
+      "seatgeek_artist_url": "https://seatgeek.com/tom-jones-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-20 (sanctioned path D): SeatGeek performer 1918 and Ticketmaster attraction K8vZ9171uxf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "a-boogie-wit-da-hoodie",
+      "ticketmaster_attraction_id": "K8vZ9174hA7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-tickets/artist/2282847",
+      "seatgeek_performer_id": 591043,
+      "seatgeek_artist_url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-20 (sanctioned path D): SeatGeek performer 591043 and Ticketmaster attraction K8vZ9174hA7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "zach-top",
+      "ticketmaster_attraction_id": "K8vZ917hLWV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/zach-top-tickets/artist/3031977",
+      "seatgeek_performer_id": 807216,
+      "seatgeek_artist_url": "https://seatgeek.com/zach-top-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-20 (sanctioned path D): SeatGeek performer 807216 and Ticketmaster attraction K8vZ917hLWV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

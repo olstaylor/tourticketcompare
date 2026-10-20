@@ -1,0 +1,267 @@
+[
+  {
+    "id": "tm-lil-wayne-2026-knoxville-g5viz_kqar_ob",
+    "artist_slug": "lil-wayne",
+    "artist_name": "Lil Wayne",
+    "event_name": "LIL WAYNE: 20 YEARS OF CARTER CLASSICS",
+    "city": "Knoxville",
+    "country": "United States Of America",
+    "venue": "Food City Center",
+    "datetime_iso": "2026-10-24T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064668979947A",
+    "ticketmaster_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-knoxville-tennessee-10-23-2026/event/1B0064668979947A",
+    "seatgeek_url": "https://seatgeek.com/lil-wayne-tickets/knoxville-tennessee-thompson-boling-arena-at-food-city-center-2026-10-23-8-pm/concert/18128391",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-knoxville-tennessee-10-23-2026/event/1B0064668979947A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064668979947A",
+        "discovery_event_id": "G5viZ_kQar_oB",
+        "url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-knoxville-tennessee-10-23-2026/event/1B0064668979947A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_kQar_oB",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lil-wayne-2026-greenville-g5evz_6d5sngf",
+    "artist_slug": "lil-wayne",
+    "artist_name": "Lil Wayne",
+    "event_name": "LIL WAYNE: 20 YEARS OF CARTER CLASSICS",
+    "city": "Greenville",
+    "country": "United States Of America",
+    "venue": "Bon Secours Wellness Arena",
+    "datetime_iso": "2026-10-25T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006470CBC63D48",
+    "ticketmaster_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-greenville-south-carolina-10-24-2026/event/2D006470CBC63D48",
+    "seatgeek_url": "https://seatgeek.com/lil-wayne-tickets/greenville-south-carolina-bon-secours-wellness-arena-2026-10-24-8-30-pm/concert/18128379",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-greenville-south-carolina-10-24-2026/event/2D006470CBC63D48",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006470CBC63D48",
+        "discovery_event_id": "G5eVZ_6d5sNgF",
+        "url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-greenville-south-carolina-10-24-2026/event/2D006470CBC63D48",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_6d5sNgF",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lil-wayne-2026-lexington-1avbz_kgkyr04kw",
+    "artist_slug": "lil-wayne",
+    "artist_name": "Lil Wayne",
+    "event_name": "LIL WAYNE: 20 YEARS OF CARTER CLASSICS",
+    "city": "Lexington",
+    "country": "United States Of America",
+    "venue": "Rupp Arena",
+    "datetime_iso": "2026-12-05T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600646C2F9154F2",
+    "ticketmaster_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-lexington-kentucky-12-04-2026/event/1600646C2F9154F2",
+    "seatgeek_url": "https://seatgeek.com/lil-wayne-tickets/lexington-kentucky-rupp-arena-2026-12-04-8-30-pm/concert/18128388",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-lexington-kentucky-12-04-2026/event/1600646C2F9154F2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600646C2F9154F2",
+        "discovery_event_id": "1AvbZ_kGkYR04Kw",
+        "url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-lexington-kentucky-12-04-2026/event/1600646C2F9154F2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_kGkYR04Kw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lil-wayne-2026-savannah-vvg1zz_3n_vz4w",
+    "artist_slug": "lil-wayne",
+    "artist_name": "Lil Wayne",
+    "event_name": "LIL WAYNE: 20 YEARS OF CARTER CLASSICS",
+    "city": "Savannah",
+    "country": "United States Of America",
+    "venue": "Enmarket Arena",
+    "datetime_iso": "2026-12-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00652A99D38572",
+    "ticketmaster_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-savannah-georgia-12-05-2026/event/0E00652A99D38572",
+    "seatgeek_url": "https://seatgeek.com/lil-wayne-tickets/savannah-georgia-enmarket-arena-2026-12-05-7-pm/concert/18649583",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-savannah-georgia-12-05-2026/event/0E00652A99D38572",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00652A99D38572",
+        "discovery_event_id": "vvG1zZ_3n_Vz4w",
+        "url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-savannah-georgia-12-05-2026/event/0E00652A99D38572",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_3n_Vz4w",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lil-wayne-2027-reading-vv17fz_kgkwwyiai",
+    "artist_slug": "lil-wayne",
+    "artist_name": "Lil Wayne",
+    "event_name": "LIL WAYNE: 20 YEARS OF CARTER CLASSICS WITH 2 CHAINZ",
+    "city": "Reading",
+    "country": "United States Of America",
+    "venue": "The Santander Arena",
+    "datetime_iso": "2027-02-27T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200646CBDC2C268",
+    "ticketmaster_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-reading-pennsylvania-02-26-2027/event/0200646CBDC2C268",
+    "seatgeek_url": "https://seatgeek.com/lil-wayne-tickets/reading-pennsylvania-santander-arena-2027-02-26-7-30-pm/concert/18128377",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-reading-pennsylvania-02-26-2027/event/0200646CBDC2C268",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200646CBDC2C268",
+        "discovery_event_id": "vv17FZ_kGkwWYiaI",
+        "url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-reading-pennsylvania-02-26-2027/event/0200646CBDC2C268",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_kGkwWYiaI",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

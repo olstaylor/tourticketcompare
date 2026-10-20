@@ -1,0 +1,214 @@
+[
+  {
+    "id": "tm-zach-top-2026-lafayette-g5viz_52-gfk2",
+    "artist_slug": "zach-top",
+    "artist_name": "Zach Top",
+    "event_name": "Zach Top: Cold Beer & Country Music Tour 2026",
+    "city": "Lafayette",
+    "country": "United States Of America",
+    "venue": "Lafayette Cajundome",
+    "datetime_iso": "2026-10-24T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064B3E1D5418F",
+    "ticketmaster_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-lafayette-louisiana-10-23-2026/event/1B0064B3E1D5418F",
+    "seatgeek_url": "https://seatgeek.com/zach-top-tickets/lafayette-louisiana-cajundome-2026-10-23-8-pm/concert/18285544",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-lafayette-louisiana-10-23-2026/event/1B0064B3E1D5418F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064B3E1D5418F",
+        "discovery_event_id": "G5viZ_52-gfk2",
+        "url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-lafayette-louisiana-10-23-2026/event/1B0064B3E1D5418F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_52-gfk2",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-top-2026-rogers-g5viz_5ulwxbq",
+    "artist_slug": "zach-top",
+    "artist_name": "Zach Top",
+    "event_name": "Zach Top: Cold Beer & Country Music Tour 2026",
+    "city": "Rogers",
+    "country": "United States Of America",
+    "venue": "Walmart AMP",
+    "datetime_iso": "2026-10-25T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064BDABF7EE9D",
+    "ticketmaster_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-rogers-arkansas-10-24-2026/event/1B0064BDABF7EE9D",
+    "seatgeek_url": "https://seatgeek.com/zach-top-tickets/rogers-arkansas-walmart-amp-2026-10-24-8-pm/concert/18370151",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-rogers-arkansas-10-24-2026/event/1B0064BDABF7EE9D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064BDABF7EE9D",
+        "discovery_event_id": "G5viZ_5UlWXBq",
+        "url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-rogers-arkansas-10-24-2026/event/1B0064BDABF7EE9D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_5UlWXBq",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-top-2026-duluth-vvg1zz_5pbvq93",
+    "artist_slug": "zach-top",
+    "artist_name": "Zach Top",
+    "event_name": "Zach Top: Cold Beer & Country Music Tour 2026",
+    "city": "Duluth",
+    "country": "United States Of America",
+    "venue": "Gas South Arena",
+    "datetime_iso": "2026-10-30T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0064B59805A5D2",
+    "ticketmaster_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-duluth-georgia-10-29-2026/event/0E0064B59805A5D2",
+    "seatgeek_url": "https://seatgeek.com/zach-top-tickets/duluth-georgia-gas-south-arena-2026-10-29-8-pm/concert/18285545",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-duluth-georgia-10-29-2026/event/0E0064B59805A5D2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0064B59805A5D2",
+        "discovery_event_id": "vvG1zZ_5pbvQ93",
+        "url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-duluth-georgia-10-29-2026/event/0E0064B59805A5D2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_5pbvQ93",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-top-2026-nashville-g5viz_g6sznnj",
+    "artist_slug": "zach-top",
+    "artist_name": "Zach Top",
+    "event_name": "Zach Top: Cold Beer & Country Music Tour 2026",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2026-10-31T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064C1F3023AA6",
+    "ticketmaster_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-nashville-tennessee-10-30-2026/event/1B0064C1F3023AA6",
+    "seatgeek_url": "https://seatgeek.com/zach-top-tickets/nashville-tennessee-bridgestone-arena-2026-10-30-8-30-pm/concert/18285548",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-nashville-tennessee-10-30-2026/event/1B0064C1F3023AA6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064C1F3023AA6",
+        "discovery_event_id": "G5viZ_G6SZNnJ",
+        "url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-nashville-tennessee-10-30-2026/event/1B0064C1F3023AA6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_G6SZNnJ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  }
+]

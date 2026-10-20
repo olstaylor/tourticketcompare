@@ -272694,5 +272694,2655 @@
         "end": "2026-10-23T05:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-elevation-worship-2027-spokane-z7r9jz1aavwus",
+    "artist_slug": "elevation-worship",
+    "artist_name": "Elevation Worship",
+    "event_name": "Elevation Worship w/ Pastor Steven Furtick",
+    "city": "Spokane",
+    "country": "United States Of America",
+    "venue": "Numerica Veterans Arena",
+    "datetime_iso": "2027-02-26T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvwuS",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwuS",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwuS",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvwuS",
+        "discovery_event_id": "Z7r9jZ1AAvwuS",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwuS",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvwuS",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-elevation-worship-2027-tacoma-vvg1hz_35ckwg5",
+    "artist_slug": "elevation-worship",
+    "artist_name": "Elevation Worship",
+    "event_name": "Elevation Worship & Steven Furtick",
+    "city": "Tacoma",
+    "country": "United States Of America",
+    "venue": "Tacoma Dome",
+    "datetime_iso": "2027-02-27T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006522ED4F230B",
+    "ticketmaster_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-tacoma-washington-02-26-2027/event/0F006522ED4F230B",
+    "seatgeek_url": "https://seatgeek.com/elevation-worship-tickets/tacoma-washington-tacoma-dome-2027-02-26-7-pm/concert/18590103",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-tacoma-washington-02-26-2027/event/0F006522ED4F230B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006522ED4F230B",
+        "discovery_event_id": "vvG1HZ_35cKwG5",
+        "url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-tacoma-washington-02-26-2027/event/0F006522ED4F230B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_35cKwG5",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-elevation-worship-2027-sacramento-g5vyz_38zvlqx",
+    "artist_slug": "elevation-worship",
+    "artist_name": "Elevation Worship",
+    "event_name": "Elevation Worship & Steven Furtick",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Golden 1 Center",
+    "datetime_iso": "2027-03-02T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00652400D2B6A2",
+    "ticketmaster_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-sacramento-california-03-01-2027/event/1C00652400D2B6A2",
+    "seatgeek_url": "https://seatgeek.com/elevation-worship-tickets/sacramento-california-golden-1-center-2027-03-01-7-pm/concert/18591315",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-sacramento-california-03-01-2027/event/1C00652400D2B6A2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00652400D2B6A2",
+        "discovery_event_id": "G5vYZ_38ZVlQx",
+        "url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-sacramento-california-03-01-2027/event/1C00652400D2B6A2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_38ZVlQx",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-elevation-worship-2027-oakland-g5vyz_3npydie",
+    "artist_slug": "elevation-worship",
+    "artist_name": "Elevation Worship",
+    "event_name": "Elevation Worship & Steven Furtick",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Oakland Arena",
+    "datetime_iso": "2027-03-03T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006528D6E43A27",
+    "ticketmaster_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-oakland-california-03-02-2027/event/1C006528D6E43A27",
+    "seatgeek_url": "https://seatgeek.com/elevation-worship-tickets/oakland-california-oakland-arena-2027-03-02-7-pm/concert/18590093",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-oakland-california-03-02-2027/event/1C006528D6E43A27",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006528D6E43A27",
+        "discovery_event_id": "G5vYZ_3NpydIE",
+        "url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-oakland-california-03-02-2027/event/1C006528D6E43A27",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_3NpydIE",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-elevation-worship-2027-anaheim-vv16azkfivpza5vug5",
+    "artist_slug": "elevation-worship",
+    "artist_name": "Elevation Worship",
+    "event_name": "Elevation Worship & Steven Furtick",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "Honda Center",
+    "datetime_iso": "2027-03-04T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006528065A0CBA",
+    "ticketmaster_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-anaheim-california-03-03-2027/event/09006528065A0CBA",
+    "seatgeek_url": "https://seatgeek.com/elevation-worship-tickets/anaheim-california-honda-center-2027-03-03-7-pm/concert/18590108",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-anaheim-california-03-03-2027/event/09006528065A0CBA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006528065A0CBA",
+        "discovery_event_id": "vv16aZkfIvPZA5vuG5",
+        "url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-anaheim-california-03-03-2027/event/09006528065A0CBA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv16aZkfIvPZA5vuG5",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-elevation-worship-2027-san-diego-vvg1iz_37k-njg",
+    "artist_slug": "elevation-worship",
+    "artist_name": "Elevation Worship",
+    "event_name": "Elevation Worship & Steven Furtick",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Viejas Arena at Aztec Bowl San Diego State University",
+    "datetime_iso": "2027-03-06T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0065210686A70C",
+    "ticketmaster_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-san-diego-california-03-05-2027/event/0A0065210686A70C",
+    "seatgeek_url": "https://seatgeek.com/elevation-worship-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2027-03-05-7-pm/concert/18590214",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-san-diego-california-03-05-2027/event/0A0065210686A70C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0065210686A70C",
+        "discovery_event_id": "vvG1IZ_37k-njG",
+        "url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-san-diego-california-03-05-2027/event/0A0065210686A70C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_37k-njG",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-elevation-worship-2027-phoenix-1a_zkf0gkdcjit6",
+    "artist_slug": "elevation-worship",
+    "artist_name": "Elevation Worship",
+    "event_name": "Elevation Worship & Steven Furtick",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Mortgage Matchup Center",
+    "datetime_iso": "2027-03-07T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "19006524CE9A8A47",
+    "ticketmaster_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-phoenix-arizona-03-06-2027/event/19006524CE9A8A47",
+    "seatgeek_url": "https://seatgeek.com/elevation-worship-tickets/phoenix-arizona-mortgage-matchup-center-2027-03-06-7-pm/concert/18590079",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-phoenix-arizona-03-06-2027/event/19006524CE9A8A47",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006524CE9A8A47",
+        "discovery_event_id": "1A_Zkf0GkdCJIt6",
+        "url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-phoenix-arizona-03-06-2027/event/19006524CE9A8A47",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A_Zkf0GkdCJIt6",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-elevation-worship-2027-inglewood-vv1aazkfigkdewunn",
+    "artist_slug": "elevation-worship",
+    "artist_name": "Elevation Worship",
+    "event_name": "Elevation Worship & Steven Furtick",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2027-03-08T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006528E7F4DAA3",
+    "ticketmaster_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-inglewood-california-03-07-2027/event/09006528E7F4DAA3",
+    "seatgeek_url": "https://seatgeek.com/elevation-worship-tickets/inglewood-california-kia-forum-2027-03-07-7-pm/concert/18590126",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-inglewood-california-03-07-2027/event/09006528E7F4DAA3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006528E7F4DAA3",
+        "discovery_event_id": "vv1AaZkfIGkdEWunN",
+        "url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-inglewood-california-03-07-2027/event/09006528E7F4DAA3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AaZkfIGkdEWunN",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stevie-wonder-2026-fornebu-z698xzb_z1k03fkoa",
+    "artist_slug": "stevie-wonder",
+    "artist_name": "Stevie Wonder",
+    "event_name": "Stevie Wonder: Songs In The Key of Life Performances",
+    "city": "Fornebu",
+    "country": "Norway",
+    "venue": "Unity Arena",
+    "datetime_iso": "2026-10-20T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "912513445",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/stevie-wonder-songs-in-the-key-of-life-performances-tickets/912513445?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/stevie-wonder-songs-in-the-key-of-life-performances-tickets/912513445?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "912513445",
+        "discovery_event_id": "Z698xZb_Z1k03fKoA",
+        "url": "https://www.ticketmaster.no/event/stevie-wonder-songs-in-the-key-of-life-performances-tickets/912513445?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z1k03fKoA",
+    "timezone": "Europe/Oslo",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stevie-wonder-2026-stockholm-z698xzq2z16vqozokb",
+    "artist_slug": "stevie-wonder",
+    "artist_name": "Stevie Wonder",
+    "event_name": "Stevie Wonder: Songs In The Key of Life Performances, Platinum Tickets",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "venue": "3Arena",
+    "datetime_iso": "2026-10-22T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1760011198",
+    "ticketmaster_url": "https://www.ticketmaster.se/event/stevie-wonder-songs-in-the-key-of-life-performances-platinum-tickets-tickets/1760011198?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.se/event/stevie-wonder-songs-in-the-key-of-life-performances-platinum-tickets-tickets/1760011198?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1760011198",
+        "discovery_event_id": "Z698xZq2Z16vqOZokb",
+        "url": "https://www.ticketmaster.se/event/stevie-wonder-songs-in-the-key-of-life-performances-platinum-tickets-tickets/1760011198?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZq2Z16vqOZokb",
+    "timezone": "Europe/Stockholm",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stevie-wonder-2026-hannover-z698xzc2z16v78zovo",
+    "artist_slug": "stevie-wonder",
+    "artist_name": "Stevie Wonder",
+    "event_name": "Stevie Wonder: Songs In The Key of Life Performances",
+    "city": "Hannover",
+    "country": "Germany",
+    "venue": "ZAG Arena",
+    "datetime_iso": "2026-10-24T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1110020060",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/stevie-wonder-songs-in-the-key-of-life-performances-tickets/1110020060?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/stevie-wonder-songs-in-the-key-of-life-performances-tickets/1110020060?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1110020060",
+        "discovery_event_id": "Z698xZC2Z16v78ZOvO",
+        "url": "https://www.ticketmaster.de/event/stevie-wonder-songs-in-the-key-of-life-performances-tickets/1110020060?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16v78ZOvO",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stevie-wonder-2026-amsterdam-z698xzbpz16vcpofak",
+    "artist_slug": "stevie-wonder",
+    "artist_name": "Stevie Wonder",
+    "event_name": "Stevie Wonder: Songs In The Key of Life Performances",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2026-10-28T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1396808246",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/stevie-wonder-songs-in-the-key-of-life-performances-tickets/1396808246?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/stevie-wonder-songs-in-the-key-of-life-performances-tickets/1396808246?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1396808246",
+        "discovery_event_id": "Z698xZbpZ16vCpOFak",
+        "url": "https://www.ticketmaster.nl/event/stevie-wonder-songs-in-the-key-of-life-performances-tickets/1396808246?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vCpOFak",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stevie-wonder-2026-dublin-1avoz_ogkmfynew",
+    "artist_slug": "stevie-wonder",
+    "artist_name": "Stevie Wonder",
+    "event_name": "Stevie Wonder: Songs In The Key of Life Performances",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2026-11-01T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800651B88E639FD",
+    "ticketmaster_url": "https://www.ticketmaster.ie/stevie-wonder-songs-in-the-key-dublin-01-11-2026/event/1800651B88E639FD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/stevie-wonder-songs-in-the-key-dublin-01-11-2026/event/1800651B88E639FD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800651B88E639FD",
+        "discovery_event_id": "1AvOZ_oGkmFyNEW",
+        "url": "https://www.ticketmaster.ie/stevie-wonder-songs-in-the-key-dublin-01-11-2026/event/1800651B88E639FD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_oGkmFyNEW",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stevie-wonder-2026-london-1adfz_ogkluzbfe",
+    "artist_slug": "stevie-wonder",
+    "artist_name": "Stevie Wonder",
+    "event_name": "Stevie Wonder: Songs In The Key of Life Performances",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2026-11-03T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500651ACD03A227",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/stevie-wonder-songs-in-the-key-london-03-11-2026/event/3500651ACD03A227",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/stevie-wonder-songs-in-the-key-london-03-11-2026/event/3500651ACD03A227",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500651ACD03A227",
+        "discovery_event_id": "1AdfZ_oGkluZBFE",
+        "url": "https://www.ticketmaster.co.uk/stevie-wonder-songs-in-the-key-london-03-11-2026/event/3500651ACD03A227",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_oGkluZBFE",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stevie-wonder-2026-london-1adfz_ogkwbmppe",
+    "artist_slug": "stevie-wonder",
+    "artist_name": "Stevie Wonder",
+    "event_name": "Stevie Wonder: Songs In The Key of Life Performances",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2026-11-05T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500651C98B965A7",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/stevie-wonder-songs-in-the-key-london-05-11-2026/event/3500651C98B965A7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/stevie-wonder-songs-in-the-key-london-05-11-2026/event/3500651C98B965A7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500651C98B965A7",
+        "discovery_event_id": "1AdfZ_oGkwbmppE",
+        "url": "https://www.ticketmaster.co.uk/stevie-wonder-songs-in-the-key-london-05-11-2026/event/3500651C98B965A7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_oGkwbmppE",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stevie-wonder-2026-manchester-1adjz_ogklby6m_",
+    "artist_slug": "stevie-wonder",
+    "artist_name": "Stevie Wonder",
+    "event_name": "Stevie Wonder: Songs In The Key of Life Performances",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2026-11-08T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700651AD8C07B99",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/stevie-wonder-songs-in-the-key-manchester-08-11-2026/event/3700651AD8C07B99",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/stevie-wonder-songs-in-the-key-manchester-08-11-2026/event/3700651AD8C07B99",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700651AD8C07B99",
+        "discovery_event_id": "1AdjZ_oGklbY6m_",
+        "url": "https://www.ticketmaster.co.uk/stevie-wonder-songs-in-the-key-manchester-08-11-2026/event/3700651AD8C07B99",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdjZ_oGklbY6m_",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stevie-wonder-2026-glasgow-1adbz_ogkw2mz1l",
+    "artist_slug": "stevie-wonder",
+    "artist_name": "Stevie Wonder",
+    "event_name": "Stevie Wonder: Songs In The Key of Life Performances",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2026-11-11T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600651C8FBB82AB",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/stevie-wonder-songs-in-the-key-glasgow-11-11-2026/event/3600651C8FBB82AB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/stevie-wonder-songs-in-the-key-glasgow-11-11-2026/event/3600651C8FBB82AB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600651C8FBB82AB",
+        "discovery_event_id": "1AdbZ_oGkw2mz1l",
+        "url": "https://www.ticketmaster.co.uk/stevie-wonder-songs-in-the-key-glasgow-11-11-2026/event/3600651C8FBB82AB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_oGkw2mz1l",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stevie-wonder-2026-new-york-g5diz_gpossvv",
+    "artist_slug": "stevie-wonder",
+    "artist_name": "Stevie Wonder",
+    "event_name": "Stevie Wonder Songs in The Key of Life Performances 50th Anniversary",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Madison Square Garden",
+    "datetime_iso": "2026-11-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3B0064C5A0CF3D01",
+    "ticketmaster_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-new-york-new-york-11-19-2026/event/3B0064C5A0CF3D01",
+    "seatgeek_url": "https://seatgeek.com/stevie-wonder-tickets/new-york-new-york-madison-square-garden-2026-11-19-8-pm/concert/18570214",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-new-york-new-york-11-19-2026/event/3B0064C5A0CF3D01",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B0064C5A0CF3D01",
+        "discovery_event_id": "G5diZ_GpOSSVv",
+        "url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-new-york-new-york-11-19-2026/event/3B0064C5A0CF3D01",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5diZ_GpOSSVv",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stevie-wonder-2026-chicago-vv1a7zkfngkd8ke_p",
+    "artist_slug": "stevie-wonder",
+    "artist_name": "Stevie Wonder",
+    "event_name": "Stevie Wonder Songs in The Key of Life Performances 50th Anniversary",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2026-11-22T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006523D04E7665",
+    "ticketmaster_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-chicago-illinois-11-21-2026/event/04006523D04E7665",
+    "seatgeek_url": "https://seatgeek.com/stevie-wonder-tickets/chicago-illinois-united-center-2026-11-21-8-pm/concert/18570213",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-chicago-illinois-11-21-2026/event/04006523D04E7665",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006523D04E7665",
+        "discovery_event_id": "vv1A7ZkfNGkd8KE_P",
+        "url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-chicago-illinois-11-21-2026/event/04006523D04E7665",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7ZkfNGkd8KE_P",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stevie-wonder-2026-washington-1a4zkfxgkdptcca",
+    "artist_slug": "stevie-wonder",
+    "artist_name": "Stevie Wonder",
+    "event_name": "Stevie Wonder Songs in The Key of Life Performances 50th Anniversary",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Capital One Arena",
+    "datetime_iso": "2026-11-24T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006522E5FCE389",
+    "ticketmaster_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-washington-district-of-columbia-11-23-2026/event/15006522E5FCE389",
+    "seatgeek_url": "https://seatgeek.com/stevie-wonder-tickets/washington-district-of-columbia-capital-one-arena-2026-11-23-8-pm/concert/18570216",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-washington-district-of-columbia-11-23-2026/event/15006522E5FCE389",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006522E5FCE389",
+        "discovery_event_id": "1A4ZkfxGkdPTCCa",
+        "url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-washington-district-of-columbia-11-23-2026/event/15006522E5FCE389",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4ZkfxGkdPTCCa",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stevie-wonder-2026-detroit-vv1kezvpa-gaukuph",
+    "artist_slug": "stevie-wonder",
+    "artist_name": "Stevie Wonder",
+    "event_name": "Stevie Wonder Songs in The Key of Life Performances 50th Anniversary",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Fox Theatre Detroit",
+    "datetime_iso": "2026-12-09T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "080065261D18D5BC",
+    "ticketmaster_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-detroit-michigan-12-08-2026/event/080065261D18D5BC",
+    "seatgeek_url": "https://seatgeek.com/stevie-wonder-tickets/detroit-michigan-fox-theatre-detroit-2026-12-08-8-pm/concert/18570215",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-detroit-michigan-12-08-2026/event/080065261D18D5BC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "080065261D18D5BC",
+        "discovery_event_id": "vv1keZvPa-GAukupH",
+        "url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-detroit-michigan-12-08-2026/event/080065261D18D5BC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1keZvPa-GAukupH",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stevie-wonder-2026-detroit-vv1koz_3bxg7sqna",
+    "artist_slug": "stevie-wonder",
+    "artist_name": "Stevie Wonder",
+    "event_name": "Stevie Wonder Songs in The Key of Life Performances 50th Anniversary",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Fox Theatre Detroit",
+    "datetime_iso": "2026-12-10T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800652622C5DA85",
+    "ticketmaster_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-detroit-michigan-12-09-2026/event/0800652622C5DA85",
+    "seatgeek_url": "https://seatgeek.com/stevie-wonder-tickets/detroit-michigan-fox-theatre-detroit-2026-12-09-8-pm/concert/18570217",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-detroit-michigan-12-09-2026/event/0800652622C5DA85",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800652622C5DA85",
+        "discovery_event_id": "vv1kOZ_3bxG7sqnA",
+        "url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-detroit-michigan-12-09-2026/event/0800652622C5DA85",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kOZ_3bxG7sqnA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stevie-wonder-2026-inglewood-vv1aazkf0onvvzeug",
+    "artist_slug": "stevie-wonder",
+    "artist_name": "Stevie Wonder",
+    "event_name": "Stevie Wonder Songs in The Key of Life Performances 50th Anniversary",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Intuit Dome",
+    "datetime_iso": "2026-12-20T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006524823041CB",
+    "ticketmaster_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-inglewood-california-12-19-2026/event/09006524823041CB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-inglewood-california-12-19-2026/event/09006524823041CB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006524823041CB",
+        "discovery_event_id": "vv1aaZkf0ONvvZeuG",
+        "url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-inglewood-california-12-19-2026/event/09006524823041CB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1aaZkf0ONvvZeuG",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lil-wayne-2026-knoxville-g5viz_kqar_ob",
+    "artist_slug": "lil-wayne",
+    "artist_name": "Lil Wayne",
+    "event_name": "LIL WAYNE: 20 YEARS OF CARTER CLASSICS",
+    "city": "Knoxville",
+    "country": "United States Of America",
+    "venue": "Food City Center",
+    "datetime_iso": "2026-10-24T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064668979947A",
+    "ticketmaster_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-knoxville-tennessee-10-23-2026/event/1B0064668979947A",
+    "seatgeek_url": "https://seatgeek.com/lil-wayne-tickets/knoxville-tennessee-thompson-boling-arena-at-food-city-center-2026-10-23-8-pm/concert/18128391",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-knoxville-tennessee-10-23-2026/event/1B0064668979947A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064668979947A",
+        "discovery_event_id": "G5viZ_kQar_oB",
+        "url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-knoxville-tennessee-10-23-2026/event/1B0064668979947A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_kQar_oB",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lil-wayne-2026-greenville-g5evz_6d5sngf",
+    "artist_slug": "lil-wayne",
+    "artist_name": "Lil Wayne",
+    "event_name": "LIL WAYNE: 20 YEARS OF CARTER CLASSICS",
+    "city": "Greenville",
+    "country": "United States Of America",
+    "venue": "Bon Secours Wellness Arena",
+    "datetime_iso": "2026-10-25T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006470CBC63D48",
+    "ticketmaster_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-greenville-south-carolina-10-24-2026/event/2D006470CBC63D48",
+    "seatgeek_url": "https://seatgeek.com/lil-wayne-tickets/greenville-south-carolina-bon-secours-wellness-arena-2026-10-24-8-30-pm/concert/18128379",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-greenville-south-carolina-10-24-2026/event/2D006470CBC63D48",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006470CBC63D48",
+        "discovery_event_id": "G5eVZ_6d5sNgF",
+        "url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-greenville-south-carolina-10-24-2026/event/2D006470CBC63D48",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_6d5sNgF",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lil-wayne-2026-lexington-1avbz_kgkyr04kw",
+    "artist_slug": "lil-wayne",
+    "artist_name": "Lil Wayne",
+    "event_name": "LIL WAYNE: 20 YEARS OF CARTER CLASSICS",
+    "city": "Lexington",
+    "country": "United States Of America",
+    "venue": "Rupp Arena",
+    "datetime_iso": "2026-12-05T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600646C2F9154F2",
+    "ticketmaster_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-lexington-kentucky-12-04-2026/event/1600646C2F9154F2",
+    "seatgeek_url": "https://seatgeek.com/lil-wayne-tickets/lexington-kentucky-rupp-arena-2026-12-04-8-30-pm/concert/18128388",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-lexington-kentucky-12-04-2026/event/1600646C2F9154F2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600646C2F9154F2",
+        "discovery_event_id": "1AvbZ_kGkYR04Kw",
+        "url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-lexington-kentucky-12-04-2026/event/1600646C2F9154F2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_kGkYR04Kw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lil-wayne-2026-savannah-vvg1zz_3n_vz4w",
+    "artist_slug": "lil-wayne",
+    "artist_name": "Lil Wayne",
+    "event_name": "LIL WAYNE: 20 YEARS OF CARTER CLASSICS",
+    "city": "Savannah",
+    "country": "United States Of America",
+    "venue": "Enmarket Arena",
+    "datetime_iso": "2026-12-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00652A99D38572",
+    "ticketmaster_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-savannah-georgia-12-05-2026/event/0E00652A99D38572",
+    "seatgeek_url": "https://seatgeek.com/lil-wayne-tickets/savannah-georgia-enmarket-arena-2026-12-05-7-pm/concert/18649583",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-savannah-georgia-12-05-2026/event/0E00652A99D38572",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00652A99D38572",
+        "discovery_event_id": "vvG1zZ_3n_Vz4w",
+        "url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-savannah-georgia-12-05-2026/event/0E00652A99D38572",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_3n_Vz4w",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lil-wayne-2027-reading-vv17fz_kgkwwyiai",
+    "artist_slug": "lil-wayne",
+    "artist_name": "Lil Wayne",
+    "event_name": "LIL WAYNE: 20 YEARS OF CARTER CLASSICS WITH 2 CHAINZ",
+    "city": "Reading",
+    "country": "United States Of America",
+    "venue": "The Santander Arena",
+    "datetime_iso": "2027-02-27T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200646CBDC2C268",
+    "ticketmaster_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-reading-pennsylvania-02-26-2027/event/0200646CBDC2C268",
+    "seatgeek_url": "https://seatgeek.com/lil-wayne-tickets/reading-pennsylvania-santander-arena-2027-02-26-7-30-pm/concert/18128377",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-reading-pennsylvania-02-26-2027/event/0200646CBDC2C268",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200646CBDC2C268",
+        "discovery_event_id": "vv17FZ_kGkwWYiaI",
+        "url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-reading-pennsylvania-02-26-2027/event/0200646CBDC2C268",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_kGkwWYiaI",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tom-jones-2026-las-vegas-17ayv0g61xuaqyn",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones: Come Gather Round Tour",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Encore Theater at Wynn Las Vegas",
+    "datetime_iso": "2026-10-22T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064AFB615AE6A",
+    "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-21-2026/event/170064AFB615AE6A",
+    "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-10-21-8-pm/concert/18266693",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-21-2026/event/170064AFB615AE6A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064AFB615AE6A",
+        "discovery_event_id": "17AYv0G61XUAQyn",
+        "url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-21-2026/event/170064AFB615AE6A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G61XUAQyn",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tom-jones-2026-las-vegas-17ayv0g61xukqbd",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones: Come Gather Round Tour",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Encore Theater at Wynn Las Vegas",
+    "datetime_iso": "2026-10-24T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064AFB619AE83",
+    "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-23-2026/event/170064AFB619AE83",
+    "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-10-23-8-pm/concert/18266694",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-23-2026/event/170064AFB619AE83",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064AFB619AE83",
+        "discovery_event_id": "17AYv0G61XUkQBd",
+        "url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-23-2026/event/170064AFB619AE83",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G61XUkQBd",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tom-jones-2026-las-vegas-17ayv0g61xu61b0",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones: Come Gather Round Tour",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Encore Theater at Wynn Las Vegas",
+    "datetime_iso": "2026-10-25T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064AFB61CAEA4",
+    "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-24-2026/event/170064AFB61CAEA4",
+    "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-10-24-8-pm/concert/18266696",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-24-2026/event/170064AFB61CAEA4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064AFB61CAEA4",
+        "discovery_event_id": "17AYv0G61XU61B0",
+        "url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-24-2026/event/170064AFB61CAEA4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G61XU61B0",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tom-jones-2026-los-angeles-vvg10z_58xadko",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones : Come Gather Round Tour",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Greek Theatre",
+    "datetime_iso": "2026-10-27T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064B43E17B4D1",
+    "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-los-angeles-california-10-26-2026/event/090064B43E17B4D1",
+    "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/los-angeles-california-the-greek-theatre-los-angeles-2026-10-26-8-pm/concert/18266701",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-los-angeles-california-10-26-2026/event/090064B43E17B4D1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064B43E17B4D1",
+        "discovery_event_id": "vvG10Z_58XADKo",
+        "url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-los-angeles-california-10-26-2026/event/090064B43E17B4D1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_58XADKo",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tom-jones-2026-san-diego-vvg1iz_5gqcfyd",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones: Come Gather Round Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "The Rady Shell at Jacobs Park",
+    "datetime_iso": "2026-10-28T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0064B31A394E43",
+    "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-diego-california-10-27-2026/event/0A0064B31A394E43",
+    "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/san-diego-california-the-rady-shell-at-jacobs-park-2026-10-27-8-pm/concert/18266703",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-diego-california-10-27-2026/event/0A0064B31A394E43",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0064B31A394E43",
+        "discovery_event_id": "vvG1IZ_5GQCfyd",
+        "url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-diego-california-10-27-2026/event/0A0064B31A394E43",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_5GQCfyd",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tom-jones-2026-highland-z7r9jz1a7p6r4",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones (21+)",
+    "city": "Highland",
+    "country": "United States Of America",
+    "venue": "Yaamava Theater",
+    "datetime_iso": "2026-10-30T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P6r4",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P6r4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P6r4",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P6r4",
+        "discovery_event_id": "Z7r9jZ1A7P6r4",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P6r4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P6r4",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tom-jones-2026-wheatland-g5vyz_1uw3ukc",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones",
+    "city": "Wheatland",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Sacramento",
+    "datetime_iso": "2026-11-01T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064ADB24B61AD",
+    "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-wheatland-california-10-31-2026/event/1C0064ADB24B61AD",
+    "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/wheatland-california-hard-rock-live-sacramento-2026-10-31-8-pm/concert/18266706",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tom-jones-wheatland-california-10-31-2026/event/1C0064ADB24B61AD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064ADB24B61AD",
+        "discovery_event_id": "G5vYZ_1Uw3Ukc",
+        "url": "https://www.ticketmaster.com/tom-jones-wheatland-california-10-31-2026/event/1C0064ADB24B61AD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_1Uw3Ukc",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tom-jones-2026-san-francisco-g5vyz_5d9skqu",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones: Come Gather Round Tour",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "The Masonic",
+    "datetime_iso": "2026-11-02T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064B0D7C4668D",
+    "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-francisco-california-11-01-2026/event/1C0064B0D7C4668D",
+    "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/san-francisco-california-the-masonic-san-francisco-2026-11-01-8-pm/concert/18266707",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-francisco-california-11-01-2026/event/1C0064B0D7C4668D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064B0D7C4668D",
+        "discovery_event_id": "G5vYZ_5d9skQu",
+        "url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-francisco-california-11-01-2026/event/1C0064B0D7C4668D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_5d9skQu",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-a-boogie-wit-da-hoodie-2026-belmont-park-1adzz_8gkuljdyg",
+    "artist_slug": "a-boogie-wit-da-hoodie",
+    "artist_name": "A Boogie Wit Da Hoodie",
+    "event_name": "A BOOGIE WIT DA HOODIE: 10 YEARS OF ARTIST",
+    "city": "Belmont Park",
+    "country": "United States Of America",
+    "venue": "UBS Arena",
+    "datetime_iso": "2026-10-30T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3000650DAB703E75",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-belmont-park-new-york-10-29-2026/event/3000650DAB703E75",
+    "seatgeek_url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/elmont-new-york-ubs-arena-2026-10-29-8-pm/concert/18499209",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-belmont-park-new-york-10-29-2026/event/3000650DAB703E75",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3000650DAB703E75",
+        "discovery_event_id": "1AdZZ_8GkUljdyg",
+        "url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-belmont-park-new-york-10-29-2026/event/3000650DAB703E75",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdZZ_8GkUljdyg",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-a-boogie-wit-da-hoodie-2026-belmont-park-17gzv0g6ctu4ij2",
+    "artist_slug": "a-boogie-wit-da-hoodie",
+    "artist_name": "A Boogie Wit Da Hoodie",
+    "event_name": "A BOOGIE WIT DA HOODIE: 10 YEARS OF ARTIST",
+    "city": "Belmont Park",
+    "country": "United States Of America",
+    "venue": "UBS Arena",
+    "datetime_iso": "2026-10-31T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "300064EFF656C70F",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-belmont-park-new-york-10-30-2026/event/300064EFF656C70F",
+    "seatgeek_url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/elmont-new-york-ubs-arena-2026-10-30-8-pm/concert/18473030",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-belmont-park-new-york-10-30-2026/event/300064EFF656C70F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "300064EFF656C70F",
+        "discovery_event_id": "17GZv0G6CTU4ij2",
+        "url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-belmont-park-new-york-10-30-2026/event/300064EFF656C70F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17GZv0G6CTU4ij2",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-a-boogie-wit-da-hoodie-2026-boston-vv1a8vpgbgaumyrw",
+    "artist_slug": "a-boogie-wit-da-hoodie",
+    "artist_name": "A Boogie Wit Da Hoodie",
+    "event_name": "A BOOGIE WIT DA HOODIE: 10 YEARS OF ARTIST",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Agganis Arena",
+    "datetime_iso": "2026-11-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010065318DDF97BD",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-boston-massachusetts-11-06-2026/event/010065318DDF97BD",
+    "seatgeek_url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/boston-massachusetts-agganis-arena-2026-11-06-8-pm/concert/18637279",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-boston-massachusetts-11-06-2026/event/010065318DDF97BD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010065318DDF97BD",
+        "discovery_event_id": "vv1A8vPGbGAuMyrW",
+        "url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-boston-massachusetts-11-06-2026/event/010065318DDF97BD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A8vPGbGAuMyrW",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-a-boogie-wit-da-hoodie-2026-boston-vv1a8vpgbgauu_ra",
+    "artist_slug": "a-boogie-wit-da-hoodie",
+    "artist_name": "A Boogie Wit Da Hoodie",
+    "event_name": "A BOOGIE WIT DA HOODIE: 10 YEARS OF ARTIST",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Agganis Arena",
+    "datetime_iso": "2026-11-08T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010065318DD99789",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-boston-massachusetts-11-07-2026/event/010065318DD99789",
+    "seatgeek_url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/boston-massachusetts-agganis-arena-2026-11-07-8-pm/concert/18629299",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-boston-massachusetts-11-07-2026/event/010065318DD99789",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010065318DD99789",
+        "discovery_event_id": "vv1A8vPGbGAuU_ra",
+        "url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-boston-massachusetts-11-07-2026/event/010065318DD99789",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A8vPGbGAuU_ra",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-a-boogie-wit-da-hoodie-2026-philadelphia-vv1aezkfygkeinqmd",
+    "artist_slug": "a-boogie-wit-da-hoodie",
+    "artist_name": "A Boogie Wit Da Hoodie",
+    "event_name": "A BOOGIE WIT DA HOODIE: 10 YEARS OF ARTIST",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Liacouras Center",
+    "datetime_iso": "2026-11-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006530AC8DDDC3",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-philadelphia-pennsylvania-11-13-2026/event/02006530AC8DDDC3",
+    "seatgeek_url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/philadelphia-pennsylvania-liacouras-center-2026-11-13-8-pm/concert/18645455",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-philadelphia-pennsylvania-11-13-2026/event/02006530AC8DDDC3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006530AC8DDDC3",
+        "discovery_event_id": "vv1AeZkfYGkeiNqMd",
+        "url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-philadelphia-pennsylvania-11-13-2026/event/02006530AC8DDDC3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkfYGkeiNqMd",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-a-boogie-wit-da-hoodie-2026-philadelphia-vv1aezkfygkecacwb",
+    "artist_slug": "a-boogie-wit-da-hoodie",
+    "artist_name": "A Boogie Wit Da Hoodie",
+    "event_name": "A BOOGIE WIT DA HOODIE: 10 YEARS OF ARTIST",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Liacouras Center",
+    "datetime_iso": "2026-11-15T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006530AD26DF7A",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-philadelphia-pennsylvania-11-14-2026/event/02006530AD26DF7A",
+    "seatgeek_url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/philadelphia-pennsylvania-liacouras-center-2026-11-14-8-pm/concert/18629507",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-philadelphia-pennsylvania-11-14-2026/event/02006530AD26DF7A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006530AD26DF7A",
+        "discovery_event_id": "vv1AeZkfYGkecacWB",
+        "url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-philadelphia-pennsylvania-11-14-2026/event/02006530AD26DF7A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkfYGkecacWB",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-a-boogie-wit-da-hoodie-2026-toronto-168zkfspyzauf8v5",
+    "artist_slug": "a-boogie-wit-da-hoodie",
+    "artist_name": "A Boogie Wit Da Hoodie",
+    "event_name": "A BOOGIE WIT DA HOODIE: 10 YEARS OF ARTIST",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Scotiabank Arena",
+    "datetime_iso": "2026-11-29T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006531970C7F0A",
+    "ticketmaster_url": "https://www.ticketmaster.ca/a-boogie-wit-da-hoodie-10-toronto-ontario-11-28-2026/event/10006531970C7F0A",
+    "seatgeek_url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/toronto-canada-scotiabank-arena-2026-11-28-8-pm/concert/18629264",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/a-boogie-wit-da-hoodie-10-toronto-ontario-11-28-2026/event/10006531970C7F0A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006531970C7F0A",
+        "discovery_event_id": "168ZkfsPYZAuF8v5",
+        "url": "https://www.ticketmaster.ca/a-boogie-wit-da-hoodie-10-toronto-ontario-11-28-2026/event/10006531970C7F0A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "168ZkfsPYZAuF8v5",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-a-boogie-wit-da-hoodie-2026-orlando-z7r9jz1aaef4e",
+    "artist_slug": "a-boogie-wit-da-hoodie",
+    "artist_name": "A Boogie Wit Da Hoodie",
+    "event_name": "A Boogie Wit da Hoodie: 10 Years of Artist",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Central Florida Fairgrounds",
+    "datetime_iso": "2026-12-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAef4E",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4E",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAef4E",
+        "discovery_event_id": "Z7r9jZ1AAef4E",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAef4E",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-a-boogie-wit-da-hoodie-2026-minneapolis-vv1akzkfygkd_ao6r",
+    "artist_slug": "a-boogie-wit-da-hoodie",
+    "artist_name": "A Boogie Wit Da Hoodie",
+    "event_name": "A BOOGIE WIT DA HOODIE: 10 YEARS OF ARTIST",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Armory",
+    "datetime_iso": "2026-12-13T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006530D92511EF",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-minneapolis-minnesota-12-12-2026/event/06006530D92511EF",
+    "seatgeek_url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/minneapolis-minnesota-the-armory-minneapolis-2026-12-12-8-pm/concert/18631720",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-minneapolis-minnesota-12-12-2026/event/06006530D92511EF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006530D92511EF",
+        "discovery_event_id": "vv1AkZkfYGkd_ao6R",
+        "url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-minneapolis-minnesota-12-12-2026/event/06006530D92511EF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkfYGkd_ao6R",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-a-boogie-wit-da-hoodie-2026-hartford-z7r9jz1aaea_k",
+    "artist_slug": "a-boogie-wit-da-hoodie",
+    "artist_name": "A Boogie Wit Da Hoodie",
+    "event_name": "A Boogie Wit Da Hoodie",
+    "city": "Hartford",
+    "country": "United States Of America",
+    "venue": "PeoplesBank Arena",
+    "datetime_iso": "2026-12-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAea_K",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAea_K",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAea_K",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAea_K",
+        "discovery_event_id": "Z7r9jZ1AAea_K",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAea_K",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAea_K",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-top-2026-lafayette-g5viz_52-gfk2",
+    "artist_slug": "zach-top",
+    "artist_name": "Zach Top",
+    "event_name": "Zach Top: Cold Beer & Country Music Tour 2026",
+    "city": "Lafayette",
+    "country": "United States Of America",
+    "venue": "Lafayette Cajundome",
+    "datetime_iso": "2026-10-24T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064B3E1D5418F",
+    "ticketmaster_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-lafayette-louisiana-10-23-2026/event/1B0064B3E1D5418F",
+    "seatgeek_url": "https://seatgeek.com/zach-top-tickets/lafayette-louisiana-cajundome-2026-10-23-8-pm/concert/18285544",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-lafayette-louisiana-10-23-2026/event/1B0064B3E1D5418F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064B3E1D5418F",
+        "discovery_event_id": "G5viZ_52-gfk2",
+        "url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-lafayette-louisiana-10-23-2026/event/1B0064B3E1D5418F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_52-gfk2",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-top-2026-rogers-g5viz_5ulwxbq",
+    "artist_slug": "zach-top",
+    "artist_name": "Zach Top",
+    "event_name": "Zach Top: Cold Beer & Country Music Tour 2026",
+    "city": "Rogers",
+    "country": "United States Of America",
+    "venue": "Walmart AMP",
+    "datetime_iso": "2026-10-25T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064BDABF7EE9D",
+    "ticketmaster_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-rogers-arkansas-10-24-2026/event/1B0064BDABF7EE9D",
+    "seatgeek_url": "https://seatgeek.com/zach-top-tickets/rogers-arkansas-walmart-amp-2026-10-24-8-pm/concert/18370151",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-rogers-arkansas-10-24-2026/event/1B0064BDABF7EE9D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064BDABF7EE9D",
+        "discovery_event_id": "G5viZ_5UlWXBq",
+        "url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-rogers-arkansas-10-24-2026/event/1B0064BDABF7EE9D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_5UlWXBq",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-top-2026-duluth-vvg1zz_5pbvq93",
+    "artist_slug": "zach-top",
+    "artist_name": "Zach Top",
+    "event_name": "Zach Top: Cold Beer & Country Music Tour 2026",
+    "city": "Duluth",
+    "country": "United States Of America",
+    "venue": "Gas South Arena",
+    "datetime_iso": "2026-10-30T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0064B59805A5D2",
+    "ticketmaster_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-duluth-georgia-10-29-2026/event/0E0064B59805A5D2",
+    "seatgeek_url": "https://seatgeek.com/zach-top-tickets/duluth-georgia-gas-south-arena-2026-10-29-8-pm/concert/18285545",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-duluth-georgia-10-29-2026/event/0E0064B59805A5D2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0064B59805A5D2",
+        "discovery_event_id": "vvG1zZ_5pbvQ93",
+        "url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-duluth-georgia-10-29-2026/event/0E0064B59805A5D2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_5pbvQ93",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-top-2026-nashville-g5viz_g6sznnj",
+    "artist_slug": "zach-top",
+    "artist_name": "Zach Top",
+    "event_name": "Zach Top: Cold Beer & Country Music Tour 2026",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2026-10-31T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064C1F3023AA6",
+    "ticketmaster_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-nashville-tennessee-10-30-2026/event/1B0064C1F3023AA6",
+    "seatgeek_url": "https://seatgeek.com/zach-top-tickets/nashville-tennessee-bridgestone-arena-2026-10-30-8-30-pm/concert/18285548",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-nashville-tennessee-10-30-2026/event/1B0064C1F3023AA6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064C1F3023AA6",
+        "discovery_event_id": "G5viZ_G6SZNnJ",
+        "url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-nashville-tennessee-10-30-2026/event/1B0064C1F3023AA6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_G6SZNnJ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

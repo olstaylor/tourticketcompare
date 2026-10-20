@@ -1,0 +1,426 @@
+[
+  {
+    "id": "tm-elevation-worship-2027-spokane-z7r9jz1aavwus",
+    "artist_slug": "elevation-worship",
+    "artist_name": "Elevation Worship",
+    "event_name": "Elevation Worship w/ Pastor Steven Furtick",
+    "city": "Spokane",
+    "country": "United States Of America",
+    "venue": "Numerica Veterans Arena",
+    "datetime_iso": "2027-02-26T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvwuS",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwuS",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwuS",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvwuS",
+        "discovery_event_id": "Z7r9jZ1AAvwuS",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwuS",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvwuS",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-elevation-worship-2027-tacoma-vvg1hz_35ckwg5",
+    "artist_slug": "elevation-worship",
+    "artist_name": "Elevation Worship",
+    "event_name": "Elevation Worship & Steven Furtick",
+    "city": "Tacoma",
+    "country": "United States Of America",
+    "venue": "Tacoma Dome",
+    "datetime_iso": "2027-02-27T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006522ED4F230B",
+    "ticketmaster_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-tacoma-washington-02-26-2027/event/0F006522ED4F230B",
+    "seatgeek_url": "https://seatgeek.com/elevation-worship-tickets/tacoma-washington-tacoma-dome-2027-02-26-7-pm/concert/18590103",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-tacoma-washington-02-26-2027/event/0F006522ED4F230B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006522ED4F230B",
+        "discovery_event_id": "vvG1HZ_35cKwG5",
+        "url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-tacoma-washington-02-26-2027/event/0F006522ED4F230B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_35cKwG5",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-elevation-worship-2027-sacramento-g5vyz_38zvlqx",
+    "artist_slug": "elevation-worship",
+    "artist_name": "Elevation Worship",
+    "event_name": "Elevation Worship & Steven Furtick",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Golden 1 Center",
+    "datetime_iso": "2027-03-02T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00652400D2B6A2",
+    "ticketmaster_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-sacramento-california-03-01-2027/event/1C00652400D2B6A2",
+    "seatgeek_url": "https://seatgeek.com/elevation-worship-tickets/sacramento-california-golden-1-center-2027-03-01-7-pm/concert/18591315",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-sacramento-california-03-01-2027/event/1C00652400D2B6A2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00652400D2B6A2",
+        "discovery_event_id": "G5vYZ_38ZVlQx",
+        "url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-sacramento-california-03-01-2027/event/1C00652400D2B6A2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_38ZVlQx",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-elevation-worship-2027-oakland-g5vyz_3npydie",
+    "artist_slug": "elevation-worship",
+    "artist_name": "Elevation Worship",
+    "event_name": "Elevation Worship & Steven Furtick",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Oakland Arena",
+    "datetime_iso": "2027-03-03T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006528D6E43A27",
+    "ticketmaster_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-oakland-california-03-02-2027/event/1C006528D6E43A27",
+    "seatgeek_url": "https://seatgeek.com/elevation-worship-tickets/oakland-california-oakland-arena-2027-03-02-7-pm/concert/18590093",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-oakland-california-03-02-2027/event/1C006528D6E43A27",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006528D6E43A27",
+        "discovery_event_id": "G5vYZ_3NpydIE",
+        "url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-oakland-california-03-02-2027/event/1C006528D6E43A27",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_3NpydIE",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-elevation-worship-2027-anaheim-vv16azkfivpza5vug5",
+    "artist_slug": "elevation-worship",
+    "artist_name": "Elevation Worship",
+    "event_name": "Elevation Worship & Steven Furtick",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "Honda Center",
+    "datetime_iso": "2027-03-04T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006528065A0CBA",
+    "ticketmaster_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-anaheim-california-03-03-2027/event/09006528065A0CBA",
+    "seatgeek_url": "https://seatgeek.com/elevation-worship-tickets/anaheim-california-honda-center-2027-03-03-7-pm/concert/18590108",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-anaheim-california-03-03-2027/event/09006528065A0CBA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006528065A0CBA",
+        "discovery_event_id": "vv16aZkfIvPZA5vuG5",
+        "url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-anaheim-california-03-03-2027/event/09006528065A0CBA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv16aZkfIvPZA5vuG5",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-elevation-worship-2027-san-diego-vvg1iz_37k-njg",
+    "artist_slug": "elevation-worship",
+    "artist_name": "Elevation Worship",
+    "event_name": "Elevation Worship & Steven Furtick",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Viejas Arena at Aztec Bowl San Diego State University",
+    "datetime_iso": "2027-03-06T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0065210686A70C",
+    "ticketmaster_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-san-diego-california-03-05-2027/event/0A0065210686A70C",
+    "seatgeek_url": "https://seatgeek.com/elevation-worship-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2027-03-05-7-pm/concert/18590214",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-san-diego-california-03-05-2027/event/0A0065210686A70C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0065210686A70C",
+        "discovery_event_id": "vvG1IZ_37k-njG",
+        "url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-san-diego-california-03-05-2027/event/0A0065210686A70C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_37k-njG",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-elevation-worship-2027-phoenix-1a_zkf0gkdcjit6",
+    "artist_slug": "elevation-worship",
+    "artist_name": "Elevation Worship",
+    "event_name": "Elevation Worship & Steven Furtick",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Mortgage Matchup Center",
+    "datetime_iso": "2027-03-07T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "19006524CE9A8A47",
+    "ticketmaster_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-phoenix-arizona-03-06-2027/event/19006524CE9A8A47",
+    "seatgeek_url": "https://seatgeek.com/elevation-worship-tickets/phoenix-arizona-mortgage-matchup-center-2027-03-06-7-pm/concert/18590079",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-phoenix-arizona-03-06-2027/event/19006524CE9A8A47",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006524CE9A8A47",
+        "discovery_event_id": "1A_Zkf0GkdCJIt6",
+        "url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-phoenix-arizona-03-06-2027/event/19006524CE9A8A47",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A_Zkf0GkdCJIt6",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-elevation-worship-2027-inglewood-vv1aazkfigkdewunn",
+    "artist_slug": "elevation-worship",
+    "artist_name": "Elevation Worship",
+    "event_name": "Elevation Worship & Steven Furtick",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2027-03-08T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006528E7F4DAA3",
+    "ticketmaster_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-inglewood-california-03-07-2027/event/09006528E7F4DAA3",
+    "seatgeek_url": "https://seatgeek.com/elevation-worship-tickets/inglewood-california-kia-forum-2027-03-07-7-pm/concert/18590126",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-inglewood-california-03-07-2027/event/09006528E7F4DAA3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006528E7F4DAA3",
+        "discovery_event_id": "vv1AaZkfIGkdEWunN",
+        "url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-inglewood-california-03-07-2027/event/09006528E7F4DAA3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AaZkfIGkdEWunN",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

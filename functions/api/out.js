@@ -2291,6 +2291,90 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-garth-brooks",
     redirectUrl: "https://seatgeek.com/garth-brooks-tickets",
     verified: true
+  },
+  "elevation-worship:ticketmaster": {
+    artistSlug: "elevation-worship",
+    provider: "ticketmaster",
+    linkId: "tm-artist-elevation-worship",
+    redirectUrl: "https://www.ticketmaster.com/elevation-worship-tickets/artist/2248014",
+    verified: true
+  },
+  "elevation-worship:seatgeek": {
+    artistSlug: "elevation-worship",
+    provider: "seatgeek",
+    linkId: "sg-artist-elevation-worship",
+    redirectUrl: "https://seatgeek.com/elevation-worship-tickets",
+    verified: true
+  },
+  "stevie-wonder:ticketmaster": {
+    artistSlug: "stevie-wonder",
+    provider: "ticketmaster",
+    linkId: "tm-artist-stevie-wonder",
+    redirectUrl: "https://www.ticketmaster.com/stevie-wonder-tickets/artist/772848",
+    verified: true
+  },
+  "stevie-wonder:seatgeek": {
+    artistSlug: "stevie-wonder",
+    provider: "seatgeek",
+    linkId: "sg-artist-stevie-wonder",
+    redirectUrl: "https://seatgeek.com/stevie-wonder-tickets",
+    verified: true
+  },
+  "lil-wayne:ticketmaster": {
+    artistSlug: "lil-wayne",
+    provider: "ticketmaster",
+    linkId: "tm-artist-lil-wayne",
+    redirectUrl: "https://www.ticketmaster.com/lil-wayne-tickets/artist/712214",
+    verified: true
+  },
+  "lil-wayne:seatgeek": {
+    artistSlug: "lil-wayne",
+    provider: "seatgeek",
+    linkId: "sg-artist-lil-wayne",
+    redirectUrl: "https://seatgeek.com/lil-wayne-tickets",
+    verified: true
+  },
+  "tom-jones:ticketmaster": {
+    artistSlug: "tom-jones",
+    provider: "ticketmaster",
+    linkId: "tm-artist-tom-jones",
+    redirectUrl: "https://www.ticketmaster.com/tom-jones-tickets/artist/741236",
+    verified: true
+  },
+  "tom-jones:seatgeek": {
+    artistSlug: "tom-jones",
+    provider: "seatgeek",
+    linkId: "sg-artist-tom-jones",
+    redirectUrl: "https://seatgeek.com/tom-jones-tickets",
+    verified: true
+  },
+  "a-boogie-wit-da-hoodie:ticketmaster": {
+    artistSlug: "a-boogie-wit-da-hoodie",
+    provider: "ticketmaster",
+    linkId: "tm-artist-a-boogie-wit-da-hoodie",
+    redirectUrl: "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-tickets/artist/2282847",
+    verified: true
+  },
+  "a-boogie-wit-da-hoodie:seatgeek": {
+    artistSlug: "a-boogie-wit-da-hoodie",
+    provider: "seatgeek",
+    linkId: "sg-artist-a-boogie-wit-da-hoodie",
+    redirectUrl: "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets",
+    verified: true
+  },
+  "zach-top:ticketmaster": {
+    artistSlug: "zach-top",
+    provider: "ticketmaster",
+    linkId: "tm-artist-zach-top",
+    redirectUrl: "https://www.ticketmaster.com/zach-top-tickets/artist/3031977",
+    verified: true
+  },
+  "zach-top:seatgeek": {
+    artistSlug: "zach-top",
+    provider: "seatgeek",
+    linkId: "sg-artist-zach-top",
+    redirectUrl: "https://seatgeek.com/zach-top-tickets",
+    verified: true
   }
 };
 

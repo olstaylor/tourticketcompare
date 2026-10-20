@@ -552,25 +552,31 @@ async function run(options, deps = {}) {
       evaluation.unresolvedStart = timed.length === 0 && evaluation.passing.some((candidate) => candidate.localStartTimes?.length !== 1);
       evaluation.passing = timed;
       if (evaluation.storedCandidate) {
+        evaluation.storedStartUnresolved = evaluation.storedCandidate.ok && evaluation.storedCandidate.localStartTimes?.length !== 1;
         evaluation.storedCandidate = { ...evaluation.storedCandidate,
           ...evaluateCandidate(evaluation.event, artistName, evaluation.storedCandidate),
           ok: timedMatch(evaluation.storedCandidate) };
       }
     }
     const ambiguous = listingsMatchingSeveralDates(evaluations);
-    for (const { event, link, storedUrl, storedId, passing, storedCandidate, exactIdComplete, exactIdStopReason, unresolvedStart } of evaluations) {
+    for (const { event, link, storedUrl, storedId, passing, storedCandidate, exactIdComplete, exactIdStopReason, unresolvedStart, storedStartUnresolved } of evaluations) {
       let outcome = decideOutcome({ storedUrl, storedVerified: link?.verified === true, storedCandidate, passing, catalogComplete: catalog.complete, preserveAbsentStored: catalog.narrowed === true && !exactIdComplete });
-      const preserveUnresolved = unresolvedStart && Boolean(storedUrl) && link?.verified === true;
-      if (unresolvedStart) outcome = { action: preserveUnresolved ? "none" : "conflict", candidate: null };
+      const unresolvedComplete = catalog.complete && unresolvedStart;
+      const preserveUnresolved = unresolvedComplete && storedStartUnresolved && Boolean(storedUrl) && link?.verified === true;
+      if (unresolvedComplete && (!storedUrl || storedStartUnresolved)) {
+        outcome = { action: preserveUnresolved ? "none" : "conflict", candidate: null };
+      }
       // One listing is one performance. If it passes for performances on
       // different start times, nothing says which one it is: it is not written to
       // any of them. A link already stored and verified is left as it is.
-      const ambiguousListing = Boolean((unresolvedStart && !preserveUnresolved) || (outcome.candidate && ambiguous.has(outcome.candidate.externalId) && ["verify", "add", "correct"].includes(outcome.action)));
+      const ambiguousListing = Boolean(outcome.candidate && ambiguous.has(outcome.candidate.externalId) && ["verify", "add", "correct"].includes(outcome.action));
       if (ambiguousListing) outcome = { action: "conflict", candidate: null };
       const applied = options.apply && applyOutcome(event, config, outcome, (deps.now || new Date()).toISOString().slice(0, 10));
-      const preservedAbsentStored = !unresolvedStart && catalog.narrowed && storedUrl && !storedCandidate?.ok && passing.length === 0 && !exactIdComplete;
+      const preservedAbsentStored = !storedStartUnresolved && catalog.narrowed && storedUrl && !storedCandidate?.ok && passing.length === 0 && !exactIdComplete;
       const note = preservedAbsentStored
         ? `not checked: exact-ID verification incomplete (${exactIdStopReason || "missing_stored_id"}); stored link preserved`
+        : unresolvedComplete && (outcome.action === "conflict" || preserveUnresolved)
+        ? "ambiguous: missing or conflicting performance start evidence"
         : outcomeNote(outcome.action, { ambiguousListing, storedListed: Boolean(storedCandidate?.ok || preserveUnresolved), catalogComplete: catalog.complete, stopReason: catalog.stopReason });
       results.push({ event_id: event.id, artist: artistName, action: outcome.action, applied, url: outcome.candidate?.url || storedUrl || "", external_id: outcome.candidate?.externalId || storedId || "", catalog_complete: catalog.complete, stop_reason: catalog.stopReason || "", note, ...(ambiguousListing ? { ambiguous_listing: true } : {}) });
     }
@@ -873,6 +879,21 @@ async function selfTest() {
   assert.deepEqual(actions(await runWith("ticketnetwork", [{ ...unverifiedUntimed,
     provider_links: { ticketnetwork: { verified: true, event_id: noTime.externalId } } }], [second, noTime])), { matinee: "none" }, "unresolved evidence does not clear a verified link");
   assert.deepEqual(actions(await runWith("ticketnetwork", [matinee], [timed, untimedSecond])), { matinee: "add" }, "an explicit matching start still qualifies");
+  const wrongStoredMatinee = { ...matinee, ticketnetwork_url: second.normalizedUrl,
+    provider_links: { ticketnetwork: { verified: true, event_id: second.externalId } } };
+  assert.deepEqual(actions(await runWith("ticketnetwork", [wrongStoredMatinee], [second, noTime])), { matinee: "unverify" }, "explicitly disproven stored starts are not preserved");
+  const vanishedStored = { ...wrongStoredMatinee, ticketnetwork_url: "https://www.ticketnetwork.com/en/p/9000003",
+    provider_links: { ticketnetwork: { verified: true, event_id: "9000003" } } };
+  assert.deepEqual(actions(await runWith("ticketnetwork", [vanishedStored], [second, noTime])), { matinee: "unverify" }, "a complete catalog's definitive absence is not preserved");
+  const missingStartReport = await runWith("ticketnetwork", [matinee], [second, noTime]);
+  assert.equal(missingStartReport.results[0].note, "ambiguous: missing or conflicting performance start evidence");
+  assert.equal(missingStartReport.results[0].ambiguous_listing, undefined, "start evidence is distinct from cross-performance reuse");
+  const incompleteTimes = await run({ provider: "ticketnetwork", apply: false, delayMs: 0 }, {
+    now: new Date("2026-09-27T00:00:00Z"), data: nightData([matinee]),
+    async fetchCatalog() { return { candidates: [second, noTime], complete: false, stopReason: "pagination_cap" }; }
+  });
+  assert.equal(incompleteTimes.results[0].action, "none");
+  assert.equal(incompleteTimes.results[0].note, "not checked: catalog incomplete (pagination_cap)");
   const conflictingTimes = productCandidates(config, { ...timedItem, Bullets: ["2027-03-05T14:00", "2027-03-05T19:30"] }, "123")[0];
   assert.equal(evaluateCandidate(matinee, "Stadium Act", conflictingTimes).ok, false);
   assert.equal(evaluateCandidate(evening, "Stadium Act", conflictingTimes).ok, false);
@@ -889,7 +910,7 @@ async function selfTest() {
   // two nights: neither night gets it.
   const fresh = await runWith("ticketnetwork", [night("n4", 4), night("n5", 5)], [tn]);
   assert.deepEqual(actions(fresh), { n4: "conflict", n5: "conflict" });
-  assert.equal(fresh.results.every((row) => row.ambiguous_listing === true), true);
+  assert.equal(fresh.results.every((row) => row.ambiguous_listing === undefined), true);
   // 9. After the wrong-night link is removed, the sync cannot restore it: the
   // right night keeps its verified link and the wrong night is not re-added.
   const held = { event_id: "9000001", url: tn.normalizedUrl, verified: true, last_verified_at: "2026-09-15", availability_status: "listed" };
@@ -906,7 +927,7 @@ async function selfTest() {
   // 10. Every result carries the audit-log note the coverage report reads back.
   const notes = (summary) => Object.fromEntries(summary.results.map((row) => [row.event_id, row.note]));
   assert.equal(fresh.results.every((row) => row.note.startsWith("ambiguous:")), true);
-  assert.deepEqual(notes(corrected), { n4: "ambiguous: one listing passes for performances at different start times", n5: "-" });
+  assert.deepEqual(notes(corrected), { n4: "ambiguous: missing or conflicting performance start evidence", n5: "ambiguous: missing or conflicting performance start evidence" });
   assert.equal(notes(wrongStored).n4, "no qualifying listing (the complete catalog no longer lists the stored link)");
   const unlisted = await runWith("ticketnetwork", [night("n5", 5)], []);
   assert.deepEqual(notes(unlisted), { n5: "no qualifying listing (complete catalog checked)" });
@@ -974,7 +995,7 @@ async function selfTest() {
   // A row logged under an old display name is still the artist's, by id.
   const renamed = renderLog({ ...unlisted, results: [row("old", "Old Stage Name", "no qualifying listing (complete catalog checked)"), row("o1", "Other Act", "-")] });
   assert.deepEqual(mergeOutcomeRows(renamed, [], new Set(["old"])).rows.map((line) => line.slice(2).split(" | ")[0]), ["o1"]);
-  return 110;
+  return 116;
 }
 
 async function main() {

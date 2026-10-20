@@ -562,7 +562,7 @@
         "event_id": 18603379,
         "url": "https://seatgeek.com/dylan-scott-tickets/bismarck-north-dakota-bismarck-event-center-2027-01-29-7-30-pm/concert/18603379",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -779,7 +779,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-wallingford-toyota-oakdale-theatre-2-5-2027/production/7565003",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-dear-big-city-tour-wallingford-connecticut-02-05-2027/event/1D006529C69AD728",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -841,6 +841,11 @@
         "name": "VIP Package Public Onsale",
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-01-30T03:00:00Z"
+      },
+      {
+        "name": "Happy Birthday Dylan Scott!",
+        "start": "2026-10-22T04:00:00Z",
+        "end": "2026-10-23T03:59:00Z"
       }
     ],
     "organizer_names": [
@@ -965,7 +970,7 @@
         "event_id": 18603380,
         "url": "https://seatgeek.com/dylan-scott-tickets/denver-colorado-mission-ballroom-2027-02-18-8-pm/concert/18603380",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1114,7 +1119,7 @@
         "event_id": 18600816,
         "url": "https://seatgeek.com/dylan-scott-tickets/park-city-kansas-heartland-credit-union-arena-2027-02-20-7-30-pm/concert/18600816",
         "verified": true,
-        "last_verified_at": "2026-10-16",
+        "last_verified_at": "2026-10-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1491,7 +1496,7 @@
         "event_id": 18603382,
         "url": "https://seatgeek.com/dylan-scott-tickets/spokane-washington-first-interstate-center-for-the-arts-2027-03-05-7-30-pm/concert/18603382",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1560,7 +1565,7 @@
         "event_id": 18603381,
         "url": "https://seatgeek.com/dylan-scott-tickets/wenatchee-washington-town-toyota-center-2027-03-06-7-30-pm/concert/18603381",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-19",
         "availability_status": "listed"
       },
       "vivid-seats": {

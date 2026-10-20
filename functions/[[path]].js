@@ -3770,7 +3770,7 @@ function renderPriceGuideBody(route, events, env) {
   )}</p>${renderPriceGuideCityTables(artist, guide, rowById, lowByShowId, route.indexableCitySlugs || new Set())}</section>`;
 
   const movesHtml = renderPriceGuideMoves(artist, moves, priceAnswer.pricedRowCount, guideShowsById);
-  const missingPricesHtml = `<section class="nested-panel" aria-labelledby="priceGuideMissingTitle"><h2 id="priceGuideMissingTitle">Why a date may have no displayed price</h2><p>Only some ticket sites share prices with this site. A fresh, verified SeatGeek price may be shown with its source and check time; Ticketmaster and Ticket Liquidator links don't include a price here. Stale or unavailable prices are hidden, so a date with no displayed price can still have tickets. Use “Compare this show” to check that date on each site.</p></section>`;
+  const missingPricesHtml = `<section class="nested-panel" aria-labelledby="priceGuideMissingTitle"><h2 id="priceGuideMissingTitle">Why a date may have no displayed price</h2><p>Only some ticket sites share price snapshots with this site. A fresh, verified SeatGeek price may be shown with its source and check time; Ticketmaster and Ticket Liquidator links don’t include a price here. Stale or unavailable prices are hidden, so a date with no displayed price can still have tickets. Use “Compare this show” to check that date on each site.</p></section>`;
 
   const linkItems = [...linkCounts.entries()]
     .map(([name, count]) => `<li>${escapeHtml(`${name}: linked for ${count} of ${guide.showCount} ${guide.showCount === 1 ? "date" : "dates"}`)}</li>`)
@@ -5998,14 +5998,12 @@ const PRICE_UNAVAILABLE_NOTE = NO_PRICE_NOTE;
 // card back at once.
 const PRICE_CHECK_QUOTE_MAX_HOURS = 36;
 
-// The lanes that supply listed-price snapshots today: numeric price feed,
-// display flag on (wrangler.toml [vars]) and a scheduled writer. Ticket
-// Liquidator links but does not price; Ticketmaster remains link-only. SeatGeek
-// may display a fresh partner-API snapshot when the exact-event gates pass.
+// Scheduled numeric-price lanes whose absence can be explained on a card.
+// SeatGeek can display a gated snapshot, but its dispatch-only writer does not
+// establish a missing-price observation for every link-only SeatGeek date.
 // Update with the display flags if a lane is added or withdrawn.
 // Keep in sync with LISTED_PRICE_PROVIDER_SLUGS in public/app.js.
 const LISTED_PRICE_PROVIDERS = Object.freeze([
-  Object.freeze({ slug: "seatgeek", name: "SeatGeek" }),
   Object.freeze({ slug: "vivid-seats", name: "Vivid Seats" }),
   Object.freeze({ slug: "ticketnetwork", name: "TicketNetwork" }),
   Object.freeze({ slug: "stubhub-international", name: "StubHub International" })
@@ -7283,14 +7281,20 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     // The artist's price guide, when one is approved and currently renders.
     // The two pages split one topic by intent — this page buys, the guide
     // answers "how much" — so each links the other near the top.
+    const artistPriceGuide = derivePriceGuide(events, artist.slug);
     const priceGuideLive =
       shows.length > 0 &&
-      priceGuideRouteDecision(derivePriceGuide(events, artist.slug), {
+      priceGuideRouteDecision(artistPriceGuide, {
         registered: priceGuideRegistered(artist.slug),
         artistEditoriallyIndexable: isIndexableArtist
       }) === "render";
+    // Lizzy pilot: answer the price intent already reaching this artist page
+    // with the guide's same current, attributed snapshot. No new price source.
+    const artistPriceAnswer = priceGuideLive && artist.slug === "lizzy-mcalpine"
+      ? derivePriceGuideView({ artist, guide: artistPriceGuide }, events, env).currentAnswer
+      : "";
     const priceGuideLinkHtml = priceGuideLive
-      ? `<p class="price-guide-link">${anchor(
+      ? `<p class="price-guide-link">${artistPriceAnswer ? `${escapeHtml(artistPriceAnswer)} ` : ""}${anchor(
           `${artist.name} ticket prices: resale prices by date, recent price moves and where face value is sold`,
           priceGuidePath(artist.slug),
           "text-link"

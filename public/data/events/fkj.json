@@ -142,7 +142,7 @@
         "event_id": 18282296,
         "url": "https://seatgeek.com/fkj-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-04-20-8-pm/concert/18282296",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -211,7 +211,7 @@
         "event_id": 18282297,
         "url": "https://seatgeek.com/fkj-tickets/seattle-washington-showbox-sodo-2027-04-23-8-pm/concert/18282297",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -361,7 +361,7 @@
         "event_id": 18290231,
         "url": "https://seatgeek.com/fkj-tickets/vancouver-canada-commodore-ballroom-2027-04-26-7-pm/concert/18290231",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -442,7 +442,7 @@
         "event_id": 18282299,
         "url": "https://seatgeek.com/fkj-tickets/denver-colorado-mission-ballroom-2027-04-29-8-pm/concert/18282299",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -762,7 +762,7 @@
     "tour_name": "Tyber Tour",
     "ticketmaster_event_id": "020064BBEF472F34",
     "ticketmaster_url": "https://www.ticketmaster.com/fkj-tyber-tour-philadelphia-pennsylvania-06-03-2027/event/020064BBEF472F34",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fkj-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2027-06-03-8-pm/concert/18281671",
     "vividseats_url": "https://www.vividseats.com/fkj-tickets-philadelphia-the-fillmore-philadelphia-6-3-2027/production/7105319",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-philadelphia-pennsylvania-06-03-2027/event/020064BBEF472F34",
@@ -778,11 +778,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18281671,
+        "url": "https://seatgeek.com/fkj-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2027-06-03-8-pm/concert/18281671",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7105319,
@@ -1364,7 +1364,7 @@
         "event_id": 18282298,
         "url": "https://seatgeek.com/fkj-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-04-28-8-pm/concert/18282298",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-19",
         "availability_status": "listed"
       },
       "vivid-seats": {

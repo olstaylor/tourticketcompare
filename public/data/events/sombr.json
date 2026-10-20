@@ -861,11 +861,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7874863",
-        "url": "https://www.ticketliquidator.com/tickets/7874863/sombr-tickets-Sun-Oct-18-2026-American-Airlines-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_FN5kiFV",
@@ -873,7 +873,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874863",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-dallas-tickets-10-18-2026/event/107155471",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874863/sombr-tickets-Sun-Oct-18-2026-American-Airlines-Center",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -2188,7 +2188,7 @@
         "event_id": 18157641,
         "url": "https://seatgeek.com/sombr-tickets/cleveland-ohio-rocket-arena-2026-11-13-7-30-pm/concert/18157641",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-10-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2347,7 +2347,7 @@
         "event_id": 18175613,
         "url": "https://seatgeek.com/sombr-tickets/toronto-canada-scotiabank-arena-2026-11-16-7-pm/concert/18175613",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-19",
         "availability_status": "listed"
       },
       "vivid-seats": {

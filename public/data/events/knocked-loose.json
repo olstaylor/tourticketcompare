@@ -121,7 +121,7 @@
     "vividseats_url": "https://www.vividseats.com/knocked-loose-tickets-kansas-city-uptown-theater-kansas-city-10-22-2026--concerts-rock/production/7092556",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-kansas-city-missouri-10-22-2026/event/060064BA8E2F5E9A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -164,7 +164,10 @@
     "ticketmaster_discovery_event_id": "vvG1bZ_5nC5gBQ",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002984/Knocked-Loose-tickets-Thu-Oct-22-2026-Uptown-Theater-KC"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002984/Knocked-Loose-tickets-Thu-Oct-22-2026-Uptown-Theater-KC",
+    "organizer_names": [
+      "MAMMOTH INC"
+    ]
   },
   {
     "id": "tm-knocked-loose-2026-mesa-z7r9jz1a70yjo",
@@ -220,12 +223,20 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8023375",
+        "url": "https://www.ticketnetwork.com/en/p/8023375",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70yjO",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8023375/Knocked-Loose-tickets-Tue-Oct-27-2026-Mesa-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8023375/Knocked-Loose-tickets-Tue-Oct-27-2026-Mesa-Amphitheatre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8023375"
   },
   {
     "id": "tm-knocked-loose-2026-los-angeles-z7r9jz1a70yjs",
@@ -281,12 +292,20 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8003134",
+        "url": "https://www.ticketnetwork.com/en/p/8003134",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70yjs",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8003134/Knocked-Loose-tickets-Thu-Oct-29-2026-Shrine-LA-Outdoors"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8003134/Knocked-Loose-tickets-Thu-Oct-29-2026-Shrine-LA-Outdoors",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8003134"
   },
   {
     "id": "tm-knocked-loose-2026-san-diego-vvg1iz_5_l1ogs",
@@ -304,7 +323,7 @@
     "vividseats_url": "https://www.vividseats.com/knocked-loose-tickets-san-diego-petco-park-10-30-2026--concerts-rock/production/7092574",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-san-diego-california-10-30-2026/event/0A0064B65F291D73",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -342,12 +361,23 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8002991",
+        "url": "https://www.ticketnetwork.com/en/p/8002991",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_5_L1ogS",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002991/Knocked-Loose-tickets-Fri-Oct-30-2026-Gallagher-Square-at-Petco-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002991/Knocked-Loose-tickets-Fri-Oct-30-2026-Gallagher-Square-at-Petco-Park",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002991",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-knocked-loose-2026-daly-city-g5vyz_5mdvnwz",
@@ -418,7 +448,7 @@
     "vividseats_url": "https://www.vividseats.com/knocked-loose-tickets-salt-lake-city-the-union-event-center---salt-lake-city-11-2-2026/production/7092595",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-salt-lake-city-utah-11-02-2026/event/1E0064B48D8E6E48",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -456,12 +486,23 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8002987",
+        "url": "https://www.ticketnetwork.com/en/p/8002987",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_53uNJyF",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002987/Knocked-Loose-tickets-Mon-Nov-2-2026-The-Union-Event-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002987/Knocked-Loose-tickets-Mon-Nov-2-2026-The-Union-Event-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002987",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-knocked-loose-2026-denver-g5vzz_5nhwfmo",
@@ -479,7 +520,7 @@
     "vividseats_url": "https://www.vividseats.com/knocked-loose-tickets-denver-fillmore-auditorium-denver-11-3-2026/production/7092605",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-denver-colorado-11-03-2026/event/1E0064BA9BF48DE0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -514,7 +555,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_5nhWFMO",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-knocked-loose-2026-austin-g5diz_5qpgquo",
@@ -532,7 +576,7 @@
     "vividseats_url": "https://www.vividseats.com/knocked-loose-tickets-austin-moody-amphitheater-11-5-2026/production/7092585",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-austin-texas-11-05-2026/event/3A0064B6A531ADA0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -570,11 +614,29 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8002990",
+        "url": "https://www.ticketnetwork.com/en/p/8002990",
+        "verified": true,
+        "last_verified_at": "2026-10-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_5QPGQUO",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002990/Knocked-Loose-tickets-Thu-Nov-5-2026-Moody-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002990/Knocked-Loose-tickets-Thu-Nov-5-2026-Moody-Amphitheater",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002990",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Premium Pod Offer",
+        "start": "2026-06-05T15:00:00Z",
+        "end": "2026-11-05T16:00:00Z"
+      }
+    ]
   }
 ]

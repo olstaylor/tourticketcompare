@@ -1,0 +1,130 @@
+[
+  {
+    "id": "tm-chris-stapleton-2026-lincoln-vv1akzk8pgkdqln9v",
+    "artist_slug": "chris-stapleton",
+    "artist_name": "Chris Stapleton",
+    "event_name": "Chris Stapleton's All-American Road Show",
+    "city": "Lincoln",
+    "country": "United States Of America",
+    "venue": "Pinnacle Bank Arena",
+    "datetime_iso": "2026-10-27T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006425DA7EA5F4",
+    "ticketmaster_url": "https://www.ticketmaster.com/chris-stapletons-allamerican-road-show-lincoln-nebraska-10-26-2026/event/06006425DA7EA5F4",
+    "seatgeek_url": "https://seatgeek.com/chris-stapleton-tickets/lincoln-nebraska-pinnacle-bank-arena-2026-10-26-7-30-pm/concert/18004730",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/chris-stapletons-allamerican-road-show-lincoln-nebraska-10-26-2026/event/06006425DA7EA5F4",
+    "last_verified_at": "2026-10-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006425DA7EA5F4",
+        "discovery_event_id": "vv1AkZk8PGkdQLn9V",
+        "url": "https://www.ticketmaster.com/chris-stapletons-allamerican-road-show-lincoln-nebraska-10-26-2026/event/06006425DA7EA5F4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7668749",
+        "url": "https://www.ticketliquidator.com/tickets/7668749/Chris-Stapletons-All-American-Road-Show-tickets-Mon-Oct-26-2026-Pinnacle-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZk8PGkdQLn9V",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668749/Chris-Stapletons-All-American-Road-Show-tickets-Mon-Oct-26-2026-Pinnacle-Bank-Arena",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-01-16T16:00:00Z",
+        "end": "2026-10-21T22:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-chris-stapleton-2026-nashville-g5viz_kleeols",
+    "artist_slug": "chris-stapleton",
+    "artist_name": "Chris Stapleton",
+    "event_name": "Ronnie Bowman Tribute",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Brooklyn Bowl Nashville",
+    "datetime_iso": "2026-12-02T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006537C29D1AF1",
+    "ticketmaster_url": "https://www.ticketmaster.com/ronnie-bowman-tribute-nashville-tennessee-12-01-2026/event/1B006537C29D1AF1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/ronnie-bowman-tribute-nashville-tennessee-12-01-2026/event/1B006537C29D1AF1",
+    "last_verified_at": "2026-10-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006537C29D1AF1",
+        "discovery_event_id": "G5viZ_KLeEols",
+        "url": "https://www.ticketmaster.com/ronnie-bowman-tribute-nashville-tennessee-12-01-2026/event/1B006537C29D1AF1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_KLeEols",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
+  }
+]

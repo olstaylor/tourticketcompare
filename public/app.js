@@ -2065,10 +2065,10 @@ const CARD_PRICE_TAIL = "not the final total";
 const PRICE_UNAVAILABLE_NOTE = "No listed price yet.";
 const PRICE_HISTORY_LABEL = "Show price history";
 
-// The lanes that supply listed-price snapshots. A card with no button on one
-// of them gets no "no price" note: nothing on it claims a price.
+// Scheduled numeric-price lanes whose absence can be explained on a card.
+// A link-only SeatGeek date stays silent while its writer is dispatch-only.
 // Keep in sync with LISTED_PRICE_PROVIDERS in functions/[[path]].js.
-const LISTED_PRICE_PROVIDER_SLUGS = new Set(["seatgeek", "vivid-seats", "ticketnetwork", "stubhub-international"]);
+const LISTED_PRICE_PROVIDER_SLUGS = new Set(["vivid-seats", "ticketnetwork", "stubhub-international"]);
 
 // Did this card's price lanes actually get queried? A priced response carries
 // one entry per approved lane (including the unavailable ones), while a board

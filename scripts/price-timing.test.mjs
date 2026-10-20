@@ -189,6 +189,7 @@ for (const type of ["vivid", "impact"]) {
     let result;
     if (type === "vivid") {
       result = await runVivid({ apply: true, freshnessHours: 24 }, { ...deps, catalog: { events: [event], artistsBySlug: new Map() },
+        async fetchProductionCatalog() { return { ok: false, incomplete: true, reason: "fixture" }; },
         async fetchArtistCatalog() { return outcome === "failed" || outcome === "incomplete" ? { ok: false, incomplete: outcome === "incomplete", reason: "fixture" } : { ok: true, data: outcome === "no_price" ? [] : [{ CurrentPrice: 80, Currency: "GBP", Offers: [{ Sku: "123" }] }, ...(outcome === "unusable" ? [{ CurrentPrice: 90, Currency: "GBP", Offers: [{ Sku: "123" }] }] : [])] }; }
       });
     } else {

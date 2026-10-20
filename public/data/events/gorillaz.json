@@ -196,11 +196,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7774757",
-        "url": "https://www.ticketliquidator.com/tickets/7774757/Gorillaz-tickets-Sun-Oct-18-2026-Ball-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107129380",
@@ -217,7 +217,7 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774757",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774757/Gorillaz-tickets-Sun-Oct-18-2026-Ball-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/gorillaz-denver-tickets-10-18-2026/event/107129380"
   },
   {
@@ -308,7 +308,7 @@
     "vividseats_url": "https://www.vividseats.com/gorillaz-tickets-phoenix-mortgage-matchup-center-10-23-2026--concerts-alternative/production/6739879",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-phoenix-arizona-10-23-2026/event/1900645AAC798E42",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-10-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -367,13 +367,6 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-03-09T17:00:00Z",
-        "end": "2026-10-19T19:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774761",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774761/Gorillaz-tickets-Fri-Oct-23-2026-Mortgage-Matchup-Center",

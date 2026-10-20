@@ -9,7 +9,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-13"
+    "last_verified_at": "2026-10-20"
   },
   {
     "slug": "harry-styles",
@@ -45,7 +45,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-13"
+    "last_verified_at": "2026-10-20"
   },
   {
     "slug": "bad-bunny",
@@ -57,7 +57,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-13"
+    "last_verified_at": "2026-10-20"
   },
   {
     "slug": "morgan-wallen",
@@ -69,7 +69,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-13"
+    "last_verified_at": "2026-10-20"
   },
   {
     "slug": "jay-z",
@@ -129,7 +129,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-13"
+    "last_verified_at": "2026-10-20"
   },
   {
     "slug": "raye",
@@ -165,7 +165,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-13"
+    "last_verified_at": "2026-10-20"
   },
   {
     "slug": "summer-walker",
@@ -177,7 +177,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-06-11"
+    "last_verified_at": "2026-10-20"
   },
   {
     "slug": "rosalia",
@@ -189,7 +189,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-13"
+    "last_verified_at": "2026-10-20"
   },
   {
     "slug": "sabrina-carpenter",
@@ -219,7 +219,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-13"
+    "last_verified_at": "2026-10-20"
   },
   {
     "slug": "zach-bryan",
@@ -243,7 +243,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-13"
+    "last_verified_at": "2026-10-20"
   },
   {
     "slug": "coldplay",
@@ -264,7 +264,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-13"
+    "last_verified_at": "2026-10-20"
   },
   {
     "slug": "tame-impala",
@@ -372,7 +372,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-13"
+    "last_verified_at": "2026-10-20"
   },
   {
     "slug": "metallica",
@@ -1617,7 +1617,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-20",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-13"
   },
@@ -1659,7 +1659,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-13",
+    "last_verified_at": "2026-10-20",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-13"
   },
@@ -1757,7 +1757,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-14",
+    "last_verified_at": "2026-10-20",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-14"
   },
@@ -1771,7 +1771,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-14",
+    "last_verified_at": "2026-10-20",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-14"
   },
@@ -1785,7 +1785,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-20",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-15"
   },
@@ -1799,7 +1799,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-20",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-15"
   },
@@ -1967,7 +1967,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-20",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-18"
   },
@@ -2026,5 +2026,89 @@
     "last_verified_at": "2026-10-18",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-18"
+  },
+  {
+    "slug": "chris-stapleton",
+    "name": "Chris Stapleton",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-19",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-19"
+  },
+  {
+    "slug": "chevelle",
+    "name": "Chevelle",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-20",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-19"
+  },
+  {
+    "slug": "phoebe-bridgers",
+    "name": "Phoebe Bridgers",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-19",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-19"
+  },
+  {
+    "slug": "bryson-tiller",
+    "name": "Bryson Tiller",
+    "short_description": "Hip-Hop/Rap act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-19",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-19"
+  },
+  {
+    "slug": "arcangel",
+    "name": "Arcangel",
+    "short_description": "Hip-Hop/Rap act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-19",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-19"
+  },
+  {
+    "slug": "garth-brooks",
+    "name": "Garth Brooks",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-19",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-19"
   }
 ]

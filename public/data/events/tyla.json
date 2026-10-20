@@ -300,26 +300,26 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8168769",
-        "url": "https://www.ticketliquidator.com/tickets/8168769/Tyla-tickets-Mon-Oct-19-2026-O2-Apollo-Manchester",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107460098",
-        "url": "https://www.stubhub.ie/tyla-tickets-manchester-o2-apollo-manchester-19-10-2026/event/107460098",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G62K1nnhO",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8168769",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8168769/Tyla-tickets-Mon-Oct-19-2026-O2-Apollo-Manchester",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-tickets-manchester-o2-apollo-manchester-19-10-2026/event/107460098",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC (VENUES) LTD (NEW)",
       "AEG PRESENTS"
@@ -572,7 +572,7 @@
         "event_id": 18404272,
         "url": "https://seatgeek.com/tyla-tickets/wheatland-california-hard-rock-live-sacramento-2026-11-12-8-pm/concert/18404272",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-10-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -912,7 +912,7 @@
         "event_id": 18404274,
         "url": "https://seatgeek.com/tyla-tickets/denver-colorado-fillmore-auditorium-denver-2026-11-20-6-30-pm/concert/18404274",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1149,7 +1149,7 @@
         "event_id": 18404308,
         "url": "https://seatgeek.com/tyla-tickets/toronto-canada-coca-cola-coliseum-2026-11-26-8-pm/concert/18404308",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1995,7 +1995,7 @@
         "event_id": 18404300,
         "url": "https://seatgeek.com/tyla-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-12-15-8-pm/concert/18404300",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-10-19",
         "availability_status": "listed"
       },
       "vivid-seats": {

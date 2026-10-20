@@ -2691,6 +2691,13 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8326646",
+        "url": "https://www.ticketliquidator.com/tickets/8326646/Fontaines-DC-tickets-Fri-Nov-6-2026-Oslo-Spektrum",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z16vFtPOjP",
@@ -2700,7 +2707,8 @@
     "organizer_names": [
       "Oslo Spektrum AS (FKP Scorpio)"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326646"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326646",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326646/Fontaines-DC-tickets-Fri-Nov-6-2026-Oslo-Spektrum"
   },
   {
     "id": "tm-fontaines-d-c-2027-mexico-1av8z_ogku9epc3",

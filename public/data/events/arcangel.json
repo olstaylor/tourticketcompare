@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7997042",
+        "url": "https://www.ticketliquidator.com/tickets/7997042/Arcangel-tickets-Wed-Oct-21-2026-EagleBank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61UycyRN",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997042/Arcangel-tickets-Wed-Oct-21-2026-EagleBank-Arena"
   },
   {
     "id": "tm-arcangel-2026-wallingford-g5vvz_197pihv",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7997043",
+        "url": "https://www.ticketliquidator.com/tickets/7997043/Arcangel-tickets-Thu-Oct-22-2026-Toyota-Oakdale-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_197PIhV",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997043/Arcangel-tickets-Thu-Oct-22-2026-Toyota-Oakdale-Theatre"
   },
   {
     "id": "tm-arcangel-2026-brooklyn-17gzv0g61ux2pkd",
@@ -152,11 +168,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7997044",
+        "url": "https://www.ticketliquidator.com/tickets/7997044/Arcangel-tickets-Fri-Oct-23-2026-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G61Ux2pkD",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997044/Arcangel-tickets-Fri-Oct-23-2026-Barclays-Center"
   },
   {
     "id": "tm-arcangel-2026-philadelphia-vvg1fz_1skmms5",
@@ -205,11 +229,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7997045",
+        "url": "https://www.ticketliquidator.com/tickets/7997045/Arcangel-tickets-Sat-Oct-24-2026-The-Met-Presented-by-Highmark",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_1SKMms5",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997045/Arcangel-tickets-Sat-Oct-24-2026-The-Met-Presented-by-Highmark"
   },
   {
     "id": "tm-arcangel-2026-boston-vvg17z_1mzt4ek",
@@ -258,11 +290,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977638",
+        "url": "https://www.ticketliquidator.com/tickets/7977638/Arcangel-tickets-Wed-Oct-28-2026-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1MZT4EK",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977638/Arcangel-tickets-Wed-Oct-28-2026-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-arcangel-2026-rosemont-vvg18z_1u8np3l",
@@ -311,11 +351,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7997047",
+        "url": "https://www.ticketliquidator.com/tickets/7997047/Arcangel-tickets-Sat-Oct-31-2026-Rosemont-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1U8Np3L",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997047/Arcangel-tickets-Sat-Oct-31-2026-Rosemont-Theatre"
   },
   {
     "id": "tm-arcangel-2026-houston-g5diz_53je_pf",
@@ -364,11 +412,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7997050",
+        "url": "https://www.ticketliquidator.com/tickets/7997050/Arcangel-tickets-Thu-Nov-5-2026-713-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_53je_pf",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997050/Arcangel-tickets-Thu-Nov-5-2026-713-Music-Hall"
   },
   {
     "id": "tm-arcangel-2026-irving-vvg1yz_5kyqgxt",
@@ -417,11 +473,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7997053",
+        "url": "https://www.ticketliquidator.com/tickets/7997053/Arcangel-tickets-Fri-Nov-6-2026-The-Pavilion-at-Toyota-Music-Factory",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_5KyqgxT",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997053/Arcangel-tickets-Fri-Nov-6-2026-The-Pavilion-at-Toyota-Music-Factory"
   },
   {
     "id": "tm-arcangel-2026-denver-g5vzz_1bwrqu_",
@@ -470,11 +534,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7997054",
+        "url": "https://www.ticketliquidator.com/tickets/7997054/Arcangel-tickets-Sun-Nov-15-2026-Paramount-Theatre-Denver",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1BwrQu_",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997054/Arcangel-tickets-Sun-Nov-15-2026-Paramount-Theatre-Denver"
   },
   {
     "id": "tm-arcangel-2026-salt-lake-city-g5vzz_5343iam",
@@ -523,11 +595,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7997055",
+        "url": "https://www.ticketliquidator.com/tickets/7997055/Arcangel-tickets-Wed-Nov-18-2026-The-Union-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_5343IAM",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997055/Arcangel-tickets-Wed-Nov-18-2026-The-Union-Event-Center"
   },
   {
     "id": "tm-arcangel-2026-inglewood-vvg1iz_1r3weok",
@@ -576,11 +656,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7997056",
+        "url": "https://www.ticketliquidator.com/tickets/7997056/Arcangel-tickets-Fri-Nov-20-2026-YouTube-Theater-at-Hollywood-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_1r3wEOk",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997056/Arcangel-tickets-Fri-Nov-20-2026-YouTube-Theater-at-Hollywood-Park"
   },
   {
     "id": "tm-arcangel-2026-san-jose-g5vyz_1s5ejmh",
@@ -629,10 +717,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7997057",
+        "url": "https://www.ticketliquidator.com/tickets/7997057/Arcangel-tickets-Sat-Nov-21-2026-San-Jose-Civic",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1S5eJmh",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997057/Arcangel-tickets-Sat-Nov-21-2026-San-Jose-Civic"
   }
 ]

@@ -1136,10 +1136,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8310576",
+        "url": "https://www.ticketliquidator.com/tickets/8310576/Yacht-Rock-Revue-tickets-Fri-Feb-26-2027-Georgia-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7oAM",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310576/Yacht-Rock-Revue-tickets-Fri-Feb-26-2027-Georgia-Theatre"
   }
 ]

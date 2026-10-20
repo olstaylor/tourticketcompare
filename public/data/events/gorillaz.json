@@ -196,11 +196,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7774757",
-        "url": "https://www.ticketliquidator.com/tickets/7774757/Gorillaz-tickets-Sun-Oct-18-2026-Ball-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107129380",
@@ -217,7 +217,7 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774757",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774757/Gorillaz-tickets-Sun-Oct-18-2026-Ball-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/gorillaz-denver-tickets-10-18-2026/event/107129380"
   },
   {

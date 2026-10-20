@@ -300,11 +300,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8168769",
-        "url": "https://www.ticketliquidator.com/tickets/8168769/Tyla-tickets-Mon-Oct-19-2026-O2-Apollo-Manchester",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107460098",
@@ -318,7 +318,7 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8168769",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8168769/Tyla-tickets-Mon-Oct-19-2026-O2-Apollo-Manchester",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/tyla-tickets-manchester-o2-apollo-manchester-19-10-2026/event/107460098",
     "organizer_names": [
       "LIVE NATION MUSIC (VENUES) LTD (NEW)",

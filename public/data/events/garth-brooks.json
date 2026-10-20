@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284848",
+        "url": "https://www.ticketliquidator.com/tickets/8284848/Garth-Brooks-tickets-Fri-Oct-23-2026-BOK-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfUGkd8C0EN",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284848/Garth-Brooks-tickets-Fri-Oct-23-2026-BOK-Center"
   },
   {
     "id": "tm-garth-brooks-2026-tulsa-1aozkfugkdlv4l0",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284849",
+        "url": "https://www.ticketliquidator.com/tickets/8284849/Garth-Brooks-tickets-Sat-Oct-24-2026-BOK-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfUGkdlv4L0",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284849/Garth-Brooks-tickets-Sat-Oct-24-2026-BOK-Center"
   },
   {
     "id": "tm-garth-brooks-2026-tulsa-1aozkfugkdlmpx_",
@@ -152,11 +168,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284850",
+        "url": "https://www.ticketliquidator.com/tickets/8284850/Garth-Brooks-tickets-Sun-Oct-25-2026-BOK-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfUGkdlMPx_",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284850/Garth-Brooks-tickets-Sun-Oct-25-2026-BOK-Center"
   },
   {
     "id": "tm-garth-brooks-2026-seattle-vvg1hz_fstanbp",
@@ -205,12 +229,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8321626",
+        "url": "https://www.ticketliquidator.com/tickets/8321626/Garth-Brooks-tickets-Fri-Nov-13-2026-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_fStanbP",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T17:00:00Z"
+    "public_onsale_at": "2026-10-23T17:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8321626/Garth-Brooks-tickets-Fri-Nov-13-2026-Climate-Pledge-Arena"
   },
   {
     "id": "tm-garth-brooks-2026-seattle-vvg1hz_fghqxgl",
@@ -259,11 +291,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8321627",
+        "url": "https://www.ticketliquidator.com/tickets/8321627/Garth-Brooks-tickets-Sat-Nov-14-2026-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_fgHQxgl",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T17:00:00Z"
+    "public_onsale_at": "2026-10-23T17:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8321627/Garth-Brooks-tickets-Sat-Nov-14-2026-Climate-Pledge-Arena"
   }
 ]

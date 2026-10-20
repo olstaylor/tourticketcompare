@@ -211,7 +211,7 @@ function expectedMusicEventCount(artistSlug) {
   if (response.status !== 200) fail(`${pathname}: expected 200, got ${response.status}`);
   assertApexHead(html, pathname);
   if (!/<meta name="robots" content="index,follow(?:,[^"]*)?"/.test(html)) fail(`${pathname}: missing index,follow robots meta`);
-  if (!/<title>Vivid Seats vs Ticketmaster: Which Is Better?<\/title>/.test(html)) fail(`${pathname}: unique SEO title missing`);
+  if (!html.includes("<title>Vivid Seats vs Ticketmaster: Which Is Better?</title>")) fail(`${pathname}: unique SEO title missing`);
   const graph = extractGraph(html, pathname);
   if (graph) {
     const article = graph.find((node) => node?.["@type"] === "Article");

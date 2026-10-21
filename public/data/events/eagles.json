@@ -1090,12 +1090,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332074",
+        "url": "https://www.ticketliquidator.com/tickets/8332074/The-Eagles-tickets-Fri-Jan-8-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk4eGkdcMDNS",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T17:00:00Z"
+    "public_onsale_at": "2026-10-30T17:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332074/The-Eagles-tickets-Fri-Jan-8-2027-Sphere"
   },
   {
     "id": "tm-eagles-2027-las-vegas-1a9zk4egkdmahp8",
@@ -1144,11 +1152,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332075",
+        "url": "https://www.ticketliquidator.com/tickets/8332075/The-Eagles-tickets-Sat-Jan-9-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk4eGkdmAhP8",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T17:00:00Z"
+    "public_onsale_at": "2026-10-30T17:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332075/The-Eagles-tickets-Sat-Jan-9-2027-Sphere"
   }
 ]

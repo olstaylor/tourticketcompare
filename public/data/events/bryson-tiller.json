@@ -48,17 +48,17 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8011572",
-        "url": "https://www.ticketliquidator.com/tickets/8011572/Bryson-Tiller-tickets-Mon-Oct-19-2026-First-Financial-Credit-Union-Amphitheater",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_5m9qyKz",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8011572/Bryson-Tiller-tickets-Mon-Oct-19-2026-First-Financial-Credit-Union-Amphitheater",
+    "ticketliquidator_url": "",
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"

@@ -125,11 +125,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7919151",
-        "url": "https://www.ticketliquidator.com/tickets/7919151/Kacey-Musgraves-tickets-Mon-Oct-19-2026-Cryptocom-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107165488",
@@ -149,7 +149,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70kAg",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7919151/Kacey-Musgraves-tickets-Mon-Oct-19-2026-Cryptocom-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-los-angeles-tickets-10-19-2026/event/107165488",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7919151"
   },

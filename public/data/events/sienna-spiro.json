@@ -2283,12 +2283,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332299",
+        "url": "https://www.ticketliquidator.com/tickets/8332299/Sienna-Spiro-tickets-Thu-Aug-5-2027-Moody-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_47YTEkn",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T15:00:00Z"
+    "public_onsale_at": "2026-10-23T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332299/Sienna-Spiro-tickets-Thu-Aug-5-2027-Moody-Amphitheater"
   },
   {
     "id": "tm-sienna-spiro-2027-washington-1avfz_fgksa-bdm",
@@ -2337,12 +2345,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332313",
+        "url": "https://www.ticketliquidator.com/tickets/8332313/Sienna-Spiro-tickets-Thu-Aug-12-2027-The-Anthem-DC",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_fGkSA-bDM",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T14:00:00Z"
+    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332313/Sienna-Spiro-tickets-Thu-Aug-12-2027-The-Anthem-DC"
   },
   {
     "id": "tm-sienna-spiro-2027-philadelphia-vv17fz_fgkuhzdr4",
@@ -2391,12 +2407,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332317",
+        "url": "https://www.ticketliquidator.com/tickets/8332317/Sienna-Spiro-tickets-Sat-Aug-14-2027-The-Met-Presented-by-Highmark",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_fGkUHzDR4",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T14:00:00Z"
+    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332317/Sienna-Spiro-tickets-Sat-Aug-14-2027-The-Met-Presented-by-Highmark"
   },
   {
     "id": "tm-sienna-spiro-2027-boston-vv177z_fgkd_e0km",
@@ -2445,12 +2469,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332320",
+        "url": "https://www.ticketliquidator.com/tickets/8332320/Sienna-Spiro-tickets-Sun-Aug-15-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_fGkD_e0KM",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T14:00:00Z"
+    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332320/Sienna-Spiro-tickets-Sun-Aug-15-2027-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-sienna-spiro-2027-new-york-g5dyz_46da3nv",
@@ -2499,12 +2531,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332325",
+        "url": "https://www.ticketliquidator.com/tickets/8332325/Sienna-Spiro-tickets-Tue-Aug-17-2027-Radio-City-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dYZ_46DA3Nv",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T14:00:00Z"
+    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332325/Sienna-Spiro-tickets-Tue-Aug-17-2027-Radio-City-Music-Hall"
   },
   {
     "id": "tm-sienna-spiro-2027-detroit-vv1afzk48gkebo40x",
@@ -2553,12 +2593,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332344",
+        "url": "https://www.ticketliquidator.com/tickets/8332344/Sienna-Spiro-tickets-Mon-Aug-23-2027-Fox-Theatre-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk48GkeBO40X",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T14:00:00Z"
+    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332344/Sienna-Spiro-tickets-Mon-Aug-23-2027-Fox-Theatre-Detroit"
   },
   {
     "id": "tm-sienna-spiro-2027-chicago-vv17jz_fgkxlgu6j",
@@ -2607,12 +2655,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332347",
+        "url": "https://www.ticketliquidator.com/tickets/8332347/Sienna-Spiro-tickets-Wed-Aug-25-2027-The-Chicago-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_fGkXlGU6j",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T15:00:00Z"
+    "public_onsale_at": "2026-10-23T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332347/Sienna-Spiro-tickets-Wed-Aug-25-2027-The-Chicago-Theatre"
   },
   {
     "id": "tm-sienna-spiro-2027-chicago-vv17jz_fgkxlcj6o",
@@ -2661,12 +2717,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332348",
+        "url": "https://www.ticketliquidator.com/tickets/8332348/Sienna-Spiro-tickets-Thu-Aug-26-2027-The-Chicago-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_fGkXlCJ6O",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T15:00:00Z"
+    "public_onsale_at": "2026-10-23T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332348/Sienna-Spiro-tickets-Thu-Aug-26-2027-The-Chicago-Theatre"
   },
   {
     "id": "tm-sienna-spiro-2027-minneapolis-vv17bz_fgktexhi7",
@@ -2715,12 +2779,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332354",
+        "url": "https://www.ticketliquidator.com/tickets/8332354/Sienna-Spiro-tickets-Sat-Aug-28-2027-The-Armory-Minneapolis",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_fGkTeXHi7",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T15:00:00Z"
+    "public_onsale_at": "2026-10-23T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332354/Sienna-Spiro-tickets-Sat-Aug-28-2027-The-Armory-Minneapolis"
   },
   {
     "id": "tm-sienna-spiro-2027-seattle-vvg1hz_4ediyof",
@@ -2769,12 +2841,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332362",
+        "url": "https://www.ticketliquidator.com/tickets/8332362/Sienna-Spiro-tickets-Thu-Sep-2-2027-Wamu-Theater-At-Lumen-Field-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_4eDiyOf",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T17:00:00Z"
+    "public_onsale_at": "2026-10-23T17:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332362/Sienna-Spiro-tickets-Thu-Sep-2-2027-Wamu-Theater-At-Lumen-Field-Event-Center"
   },
   {
     "id": "tm-sienna-spiro-2027-vancouver-1av7z_fgkxqzaez",
@@ -2823,12 +2903,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332368",
+        "url": "https://www.ticketliquidator.com/tickets/8332368/Sienna-Spiro-tickets-Sat-Sep-4-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_fGkXQZaEz",
     "timezone": "America/Vancouver",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T17:00:00Z"
+    "public_onsale_at": "2026-10-23T17:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332368/Sienna-Spiro-tickets-Sat-Sep-4-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre"
   },
   {
     "id": "tm-sienna-spiro-2027-berkeley-g5vyz_fbwbrn7",
@@ -2877,12 +2965,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332372",
+        "url": "https://www.ticketliquidator.com/tickets/8332372/Sienna-Spiro-tickets-Tue-Sep-7-2027-Greek-Theatre-UC-Berkeley",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_fBWbrN7",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T17:00:00Z"
+    "public_onsale_at": "2026-10-23T17:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332372/Sienna-Spiro-tickets-Tue-Sep-7-2027-Greek-Theatre-UC-Berkeley"
   },
   {
     "id": "tm-sienna-spiro-2027-mexico-1afzk4ogkeyuq9e",

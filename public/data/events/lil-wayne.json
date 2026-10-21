@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7810689",
+        "url": "https://www.ticketliquidator.com/tickets/7810689/Lil-Wayne-tickets-Fri-Oct-23-2026-Thompson-Boling-Arena-at-Food-City-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_kQar_oB",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7810689/Lil-Wayne-tickets-Fri-Oct-23-2026-Thompson-Boling-Arena-at-Food-City-Center"
   },
   {
     "id": "tm-lil-wayne-2026-greenville-g5evz_6d5sngf",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7810664",
+        "url": "https://www.ticketliquidator.com/tickets/7810664/Lil-Wayne-tickets-Sat-Oct-24-2026-Bon-Secours-Wellness-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_6d5sNgF",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7810664/Lil-Wayne-tickets-Sat-Oct-24-2026-Bon-Secours-Wellness-Arena"
   },
   {
     "id": "tm-lil-wayne-2026-lexington-1avbz_kgkyr04kw",
@@ -152,11 +168,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7810684",
+        "url": "https://www.ticketliquidator.com/tickets/7810684/Lil-Wayne-tickets-Fri-Dec-4-2026-Rupp-Arena-At-Central-Bank-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_kGkYR04Kw",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7810684/Lil-Wayne-tickets-Fri-Dec-4-2026-Rupp-Arena-At-Central-Bank-Center"
   },
   {
     "id": "tm-lil-wayne-2026-savannah-vvg1zz_3n_vz4w",
@@ -205,11 +229,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307423",
+        "url": "https://www.ticketliquidator.com/tickets/8307423/Lil-Wayne-tickets-Sat-Dec-5-2026-Enmarket-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3n_Vz4w",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307423/Lil-Wayne-tickets-Sat-Dec-5-2026-Enmarket-Arena"
   },
   {
     "id": "tm-lil-wayne-2027-reading-vv17fz_kgkwwyiai",

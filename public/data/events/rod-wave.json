@@ -257,11 +257,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8063449",
-        "url": "https://www.ticketliquidator.com/tickets/8063449/Rod-Wave-tickets-Mon-Oct-19-2026-Little-Caesars-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107666069",
@@ -275,7 +275,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8063449",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8063449/Rod-Wave-tickets-Mon-Oct-19-2026-Little-Caesars-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/rod-wave-detroit-tickets-10-19-2026/event/107666069",
     "organizer_names": [
       "LIVE NATION MUSIC"

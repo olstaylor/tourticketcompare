@@ -280792,5 +280792,59 @@
     "ticketmaster_discovery_event_id": "G5diZ_2NJDtfA",
     "timezone": "America/New_York",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-garth-brooks-2026-seattle-vvg1hz_4dkzhpm",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "event_name": "Garth Brooks - Blame It All On My Roots Arena Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2026-11-15T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006550D301B5B7",
+    "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-seattle-washington-11-15-2026/event/0F006550D301B5B7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-seattle-washington-11-15-2026/event/0F006550D301B5B7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006550D301B5B7",
+        "discovery_event_id": "vvG1HZ_4dKZhpM",
+        "url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-seattle-washington-11-15-2026/event/0F006550D301B5B7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_4dKZhpM",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T17:00:00Z"
   }
 ]

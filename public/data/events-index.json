@@ -46710,5 +46710,17 @@
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-garth-brooks-2026-seattle-vvg1hz_4dkzhpm",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "country": "United States Of America",
+    "city": "Seattle",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2026-11-15T22:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "announced"
   }
 ]

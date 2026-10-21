@@ -2194,5 +2194,89 @@
     "last_verified_at": "2026-10-20",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-20"
+  },
+  {
+    "slug": "katseye",
+    "name": "KATSEYE",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-21",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-21"
+  },
+  {
+    "slug": "ricky-martin",
+    "name": "Ricky Martin",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-21",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-21"
+  },
+  {
+    "slug": "ty-myers",
+    "name": "Ty Myers",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-21",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-21"
+  },
+  {
+    "slug": "dan-shay",
+    "name": "Dan + Shay",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-21",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-21"
+  },
+  {
+    "slug": "beabadoobee",
+    "name": "beabadoobee",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-21",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-21"
+  },
+  {
+    "slug": "dave-matthews-band",
+    "name": "Dave Matthews Band",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-21",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-21"
   }
 ]

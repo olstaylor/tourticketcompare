@@ -1,0 +1,744 @@
+[
+  {
+    "id": "tm-beabadoobee-2026-inglewood-vvg10z_ucyohlw",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2026-10-22T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064D3B945BAFD",
+    "ticketmaster_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-inglewood-california-10-21-2026/event/090064D3B945BAFD",
+    "seatgeek_url": "https://seatgeek.com/beabadoobee-tickets/inglewood-california-kia-forum-2026-10-21-8-pm/concert/18329618",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-inglewood-california-10-21-2026/event/090064D3B945BAFD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064D3B945BAFD",
+        "discovery_event_id": "vvG10Z_uCyohlW",
+        "url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-inglewood-california-10-21-2026/event/090064D3B945BAFD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_uCyohlW",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-san-diego-vvg1iz_u3myfkf",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Viejas Arena at Aztec Bowl San Diego State University",
+    "datetime_iso": "2026-10-25T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0064D4B7C08188",
+    "ticketmaster_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-san-diego-california-10-24-2026/event/0A0064D4B7C08188",
+    "seatgeek_url": "https://seatgeek.com/beabadoobee-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-10-24-8-pm/concert/18329621",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-san-diego-california-10-24-2026/event/0A0064D4B7C08188",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0064D4B7C08188",
+        "discovery_event_id": "vvG1IZ_u3MYFkF",
+        "url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-san-diego-california-10-24-2026/event/0A0064D4B7C08188",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_u3MYFkF",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-oakland-g5vyz_ufp_rvl",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Oakland Arena",
+    "datetime_iso": "2026-10-27T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064D21665E06B",
+    "ticketmaster_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-oakland-california-10-26-2026/event/1C0064D21665E06B",
+    "seatgeek_url": "https://seatgeek.com/beabadoobee-tickets/oakland-california-oakland-arena-2026-10-26-8-pm/concert/18329620",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-oakland-california-10-26-2026/event/1C0064D21665E06B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064D21665E06B",
+        "discovery_event_id": "G5vYZ_uFp_rvl",
+        "url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-oakland-california-10-26-2026/event/1C0064D21665E06B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_uFp_rvl",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-vancouver-1778v0g6u5paqr-",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2026-10-29T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110064D2E525D7A1",
+    "ticketmaster_url": "https://www.ticketmaster.ca/beabadoobee-the-powerlines-tour-vancouver-british-columbia-10-28-2026/event/110064D2E525D7A1",
+    "seatgeek_url": "https://seatgeek.com/beabadoobee-tickets/vancouver-canada-rogers-arena-2026-10-28-8-pm/concert/18329623",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/beabadoobee-the-powerlines-tour-vancouver-british-columbia-10-28-2026/event/110064D2E525D7A1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110064D2E525D7A1",
+        "discovery_event_id": "1778v0G6u5Paqr-",
+        "url": "https://www.ticketmaster.ca/beabadoobee-the-powerlines-tour-vancouver-british-columbia-10-28-2026/event/110064D2E525D7A1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1778v0G6u5Paqr-",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-seattle-vvg1hz_u_uadg3",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2026-10-30T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064D676143312",
+    "ticketmaster_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-seattle-washington-10-29-2026/event/0F0064D676143312",
+    "seatgeek_url": "https://seatgeek.com/beabadoobee-tickets/seattle-washington-climate-pledge-arena-2026-10-29-8-pm/concert/18329624",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-seattle-washington-10-29-2026/event/0F0064D676143312",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064D676143312",
+        "discovery_event_id": "vvG1HZ_u_UAdG3",
+        "url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-seattle-washington-10-29-2026/event/0F0064D676143312",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_u_UAdG3",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-glasgow-17uov0g6uryba3u",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2026-11-14T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064D7B0E894B6",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-glasgow-14-11-2026/event/360064D7B0E894B6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-glasgow-14-11-2026/event/360064D7B0E894B6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064D7B0E894B6",
+        "discovery_event_id": "17uOv0G6urYBa3U",
+        "url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-glasgow-14-11-2026/event/360064D7B0E894B6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G6urYBa3U",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-cardiff-17uov0g6uhod1tg",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Cardiff",
+    "datetime_iso": "2026-11-16T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064D6E00CAA4C",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-cardiff-16-11-2026/event/360064D6E00CAA4C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-cardiff-16-11-2026/event/360064D6E00CAA4C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064D6E00CAA4C",
+        "discovery_event_id": "17uOv0G6uhOd1tG",
+        "url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-cardiff-16-11-2026/event/360064D6E00CAA4C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G6uhOd1tG",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-manchester-g5vhz_u1guca1",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "AO Arena",
+    "datetime_iso": "2026-11-17T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064D2B5DAD24A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-manchester-17-11-2026/event/1F0064D2B5DAD24A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-manchester-17-11-2026/event/1F0064D2B5DAD24A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064D2B5DAD24A",
+        "discovery_event_id": "G5vHZ_u1gUca1",
+        "url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-manchester-17-11-2026/event/1F0064D2B5DAD24A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_u1gUca1",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-greenwich-z7r9jz1a7ps_a",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee w/ Wisp",
+    "city": "Greenwich",
+    "country": "United Kingdom",
+    "venue": "The O2",
+    "datetime_iso": "2026-11-18T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Ps_A",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ps_A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ps_A",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Ps_A",
+        "discovery_event_id": "Z7r9jZ1A7Ps_A",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ps_A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ps_A",
+    "timezone": "Europe/Budapest",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-stockholm-z698xzq2z1kp0a-oa",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "venue": "Fryshuset",
+    "datetime_iso": "2026-11-24T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "964261449",
+    "ticketmaster_url": "https://www.ticketmaster.se/event/beabadoobee-the-powerlines-tour-tickets/964261449?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.se/event/beabadoobee-the-powerlines-tour-tickets/964261449?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "964261449",
+        "discovery_event_id": "Z698xZq2Z1kP0a-oa",
+        "url": "https://www.ticketmaster.se/event/beabadoobee-the-powerlines-tour-tickets/964261449?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZq2Z1kP0a-oa",
+    "timezone": "Europe/Stockholm",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-oslo-z698xzb_z16v38kfe3",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Oslo",
+    "country": "Norway",
+    "venue": "Oslo Spektrum",
+    "datetime_iso": "2026-11-27T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1490194092",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/beabadoobee-the-powerlines-tour-tickets/1490194092?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/beabadoobee-the-powerlines-tour-tickets/1490194092?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1490194092",
+        "discovery_event_id": "Z698xZb_Z16v38kfe3",
+        "url": "https://www.ticketmaster.no/event/beabadoobee-the-powerlines-tour-tickets/1490194092?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z16v38kfe3",
+    "timezone": "Europe/Oslo",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-forest-brussels-z698xzg2z16vovadfj",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Forest (Brussels)",
+    "country": "Belgium",
+    "venue": "Vorst Nationaal/Forest National",
+    "datetime_iso": "2026-12-04T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1834243526",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/beabadoobee-the-powerlines-tour-tickets/1834243526",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/beabadoobee-the-powerlines-tour-tickets/1834243526",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1834243526",
+        "discovery_event_id": "Z698xZG2Z16vOVadfJ",
+        "url": "https://www.ticketmaster.be/event/beabadoobee-the-powerlines-tour-tickets/1834243526",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z16vOVadfJ",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-berlin-z698xzc2z16vpmfp_a",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Berlin",
+    "country": "Germany",
+    "venue": "Tempodrom",
+    "datetime_iso": "2026-12-06T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1977216649",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/beabadoobee-the-powerlines-tour-tickets/1977216649?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/beabadoobee-the-powerlines-tour-tickets/1977216649?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1977216649",
+        "discovery_event_id": "Z698xZC2Z16vPMFp_a",
+        "url": "https://www.ticketmaster.de/event/beabadoobee-the-powerlines-tour-tickets/1977216649?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vPMFp_a",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-dusseldorf-z698xzc2z1k09qy83",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Düsseldorf",
+    "country": "Germany",
+    "venue": "Mitsubishi Electric HALLE",
+    "datetime_iso": "2026-12-07T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "917770412",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/beabadoobee-the-powerlines-tour-tickets/917770412?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/beabadoobee-the-powerlines-tour-tickets/917770412?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "917770412",
+        "discovery_event_id": "Z698xZC2Z1k09qY83",
+        "url": "https://www.ticketmaster.de/event/beabadoobee-the-powerlines-tour-tickets/917770412?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1k09qY83",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  }
+]

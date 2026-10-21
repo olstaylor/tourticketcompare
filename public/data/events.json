@@ -277771,5 +277771,3026 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeb-p",
     "timezone": "America/New_York",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-katseye-2026-washington-17a8v0g619llzuk",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "KATSEYE: THE WILDWORLD TOUR",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Capital One Arena",
+    "datetime_iso": "2026-10-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064A5EBAC0D86",
+    "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-washington-district-of-columbia-10-22-2026/event/150064A5EBAC0D86",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-washington-district-of-columbia-10-22-2026/event/150064A5EBAC0D86",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064A5EBAC0D86",
+        "discovery_event_id": "17A8v0G619llZUk",
+        "url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-washington-district-of-columbia-10-22-2026/event/150064A5EBAC0D86",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G619llZUk",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-katseye-2026-belmont-park-17gzv0g61mqcddn",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "KATSEYE: THE WILDWORLD TOUR",
+    "city": "Belmont Park",
+    "country": "United States Of America",
+    "venue": "UBS Arena",
+    "datetime_iso": "2026-10-25T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "300064AB9AB430EA",
+    "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-belmont-park-new-york-10-24-2026/event/300064AB9AB430EA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-belmont-park-new-york-10-24-2026/event/300064AB9AB430EA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "300064AB9AB430EA",
+        "discovery_event_id": "17GZv0G61mQcddn",
+        "url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-belmont-park-new-york-10-24-2026/event/300064AB9AB430EA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17GZv0G61mQcddn",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-katseye-2026-belmont-park-17gzv0g61mqmkdg",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "KATSEYE: THE WILDWORLD TOUR",
+    "city": "Belmont Park",
+    "country": "United States Of America",
+    "venue": "UBS Arena",
+    "datetime_iso": "2026-10-26T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "300064AB9AB930F5",
+    "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-belmont-park-new-york-10-25-2026/event/300064AB9AB930F5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-belmont-park-new-york-10-25-2026/event/300064AB9AB930F5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "300064AB9AB930F5",
+        "discovery_event_id": "17GZv0G61mQmKdg",
+        "url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-belmont-park-new-york-10-25-2026/event/300064AB9AB930F5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17GZv0G61mQmKdg",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-katseye-2026-boston-vvg17z_1eilxli",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "KATSEYE: THE WILDWORLD TOUR",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "TD Garden",
+    "datetime_iso": "2026-10-29T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064A9ECAFEAEC",
+    "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-boston-massachusetts-10-28-2026/event/010064A9ECAFEAEC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-boston-massachusetts-10-28-2026/event/010064A9ECAFEAEC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064A9ECAFEAEC",
+        "discovery_event_id": "vvG17Z_1EilXli",
+        "url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-boston-massachusetts-10-28-2026/event/010064A9ECAFEAEC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_1EilXli",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-katseye-2026-montreal-17g8v0g61xoe95k",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "KATSEYE: THE WILDWORLD TOUR",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "Centre Bell",
+    "datetime_iso": "2026-10-31T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "310064A8A00972D3",
+    "ticketmaster_url": "https://www.ticketmaster.ca/katseye-the-wildworld-tour-montreal-quebec-10-30-2026/event/310064A8A00972D3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/katseye-the-wildworld-tour-montreal-quebec-10-30-2026/event/310064A8A00972D3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "310064A8A00972D3",
+        "discovery_event_id": "17G8v0G61xOe95K",
+        "url": "https://www.ticketmaster.ca/katseye-the-wildworld-tour-montreal-quebec-10-30-2026/event/310064A8A00972D3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17G8v0G61xOe95K",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-katseye-2026-hamilton-177zv0g61i6mwwe",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "KATSEYE: THE WILDWORLD TOUR",
+    "city": "Hamilton",
+    "country": "Canada",
+    "venue": "TD Coliseum",
+    "datetime_iso": "2026-11-02T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100064AB07DF2C82",
+    "ticketmaster_url": "https://www.ticketmaster.ca/katseye-the-wildworld-tour-hamilton-ontario-11-01-2026/event/100064AB07DF2C82",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/katseye-the-wildworld-tour-hamilton-ontario-11-01-2026/event/100064AB07DF2C82",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100064AB07DF2C82",
+        "discovery_event_id": "177Zv0G61i6Mwwe",
+        "url": "https://www.ticketmaster.ca/katseye-the-wildworld-tour-hamilton-ontario-11-01-2026/event/100064AB07DF2C82",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Zv0G61i6Mwwe",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-katseye-2026-detroit-vvg1oz_1efshc4",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "KATSEYE: THE WILDWORLD TOUR",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Little Caesars Arena",
+    "datetime_iso": "2026-11-04T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "080064A9C8CDBB55",
+    "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-detroit-michigan-11-03-2026/event/080064A9C8CDBB55",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-detroit-michigan-11-03-2026/event/080064A9C8CDBB55",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "080064A9C8CDBB55",
+        "discovery_event_id": "vvG1OZ_1EFShc4",
+        "url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-detroit-michigan-11-03-2026/event/080064A9C8CDBB55",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1OZ_1EFShc4",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-katseye-2026-chicago-vvg18z_1mip6i3",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "KATSEYE: THE WILDWORLD TOUR",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2026-11-06T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "040064ABAC947B12",
+    "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-chicago-illinois-11-05-2026/event/040064ABAC947B12",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-chicago-illinois-11-05-2026/event/040064ABAC947B12",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040064ABAC947B12",
+        "discovery_event_id": "vvG18Z_1miP6i3",
+        "url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-chicago-illinois-11-05-2026/event/040064ABAC947B12",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG18Z_1miP6i3",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-katseye-2026-minneapolis-vvg1bz_1syoq0j",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "KATSEYE: THE WILDWORLD TOUR",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Target Center",
+    "datetime_iso": "2026-11-08T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060064ACF981D91C",
+    "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-minneapolis-minnesota-11-07-2026/event/060064ACF981D91C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-minneapolis-minnesota-11-07-2026/event/060064ACF981D91C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060064ACF981D91C",
+        "discovery_event_id": "vvG1bZ_1SyOq0j",
+        "url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-minneapolis-minnesota-11-07-2026/event/060064ACF981D91C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1bZ_1SyOq0j",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-katseye-2026-austin-g5diz_1lv8_jd",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "KATSEYE: THE WILDWORLD TOUR",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2026-11-11T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064AAC1419703",
+    "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-austin-texas-11-10-2026/event/3A0064AAC1419703",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-austin-texas-11-10-2026/event/3A0064AAC1419703",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064AAC1419703",
+        "discovery_event_id": "G5dIZ_1lv8_jd",
+        "url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-austin-texas-11-10-2026/event/3A0064AAC1419703",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_1lv8_jd",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-katseye-2026-dallas-vvg1yz_1jrlmao",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "KATSEYE: THE WILDWORLD TOUR",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "American Airlines Center",
+    "datetime_iso": "2026-11-12T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064A99EAF7251",
+    "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-dallas-texas-11-11-2026/event/0C0064A99EAF7251",
+    "seatgeek_url": "https://seatgeek.com/katseye-tickets/dallas-texas-american-airlines-center-2026-11-11-8-pm/concert/18240151",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-dallas-texas-11-11-2026/event/0C0064A99EAF7251",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064A99EAF7251",
+        "discovery_event_id": "vvG1YZ_1JrlMao",
+        "url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-dallas-texas-11-11-2026/event/0C0064A99EAF7251",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_1JrlMao",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-katseye-2026-las-vegas-z7r9jz1a70ouv",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "KATSEYE: THE WILDWORLD TOUR",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "MGM Grand Garden Arena",
+    "datetime_iso": "2026-11-15T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70OuV",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OuV",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OuV",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70OuV",
+        "discovery_event_id": "Z7r9jZ1A70OuV",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OuV",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70OuV",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-katseye-2026-seattle-vvg1hz_1e8gggs",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "KATSEYE: THE WILDWORLD TOUR",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2026-11-18T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064A9D030C333",
+    "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-seattle-washington-11-17-2026/event/0F0064A9D030C333",
+    "seatgeek_url": "https://seatgeek.com/katseye-tickets/seattle-washington-climate-pledge-arena-2026-11-17-8-pm/concert/18240158",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-seattle-washington-11-17-2026/event/0F0064A9D030C333",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064A9D030C333",
+        "discovery_event_id": "vvG1HZ_1E8GGGS",
+        "url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-seattle-washington-11-17-2026/event/0F0064A9D030C333",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_1E8GGGS",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-katseye-2026-oakland-g5vyz_1m-ew1q",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "KATSEYE: THE WILDWORLD TOUR",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Oakland Arena",
+    "datetime_iso": "2026-11-20T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064ABA10BD29D",
+    "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-oakland-california-11-19-2026/event/1C0064ABA10BD29D",
+    "seatgeek_url": "https://seatgeek.com/katseye-tickets/oakland-california-oakland-arena-2026-11-19-8-pm/concert/18240159",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-oakland-california-11-19-2026/event/1C0064ABA10BD29D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064ABA10BD29D",
+        "discovery_event_id": "G5vYZ_1m-eW1q",
+        "url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-oakland-california-11-19-2026/event/1C0064ABA10BD29D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_1m-eW1q",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-katseye-2026-los-angeles-g5eyz_1rkf-rx",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "KATSEYE: THE WILDWORLD TOUR",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Crypto.com Arena",
+    "datetime_iso": "2026-11-22T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2C0064ABC62217BE",
+    "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-los-angeles-california-11-21-2026/event/2C0064ABC62217BE",
+    "seatgeek_url": "https://seatgeek.com/katseye-tickets/los-angeles-california-crypto-com-arena-2026-11-21-8-pm/concert/18240162",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-los-angeles-california-11-21-2026/event/2C0064ABC62217BE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2C0064ABC62217BE",
+        "discovery_event_id": "G5eYZ_1RkF-rX",
+        "url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-los-angeles-california-11-21-2026/event/2C0064ABC62217BE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eYZ_1RkF-rX",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-katseye-2026-los-angeles-g5eyz_52cssfl",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "KATSEYE: THE WILDWORLD TOUR",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Crypto.com Arena",
+    "datetime_iso": "2026-11-23T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2C0064B3CEC7151F",
+    "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-los-angeles-california-11-22-2026/event/2C0064B3CEC7151F",
+    "seatgeek_url": "https://seatgeek.com/katseye-tickets/los-angeles-california-crypto-com-arena-2026-11-22-8-pm/concert/18258420",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-los-angeles-california-11-22-2026/event/2C0064B3CEC7151F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2C0064B3CEC7151F",
+        "discovery_event_id": "G5eYZ_52CssfL",
+        "url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-los-angeles-california-11-22-2026/event/2C0064B3CEC7151F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eYZ_52CssfL",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-katseye-2026-phoenix-17k8v0g61m4tf9t",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "KATSEYE: THE WILDWORLD TOUR",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Mortgage Matchup Center",
+    "datetime_iso": "2026-11-25T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190064AB95A545E9",
+    "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-phoenix-arizona-11-24-2026/event/190064AB95A545E9",
+    "seatgeek_url": "https://seatgeek.com/katseye-tickets/phoenix-arizona-mortgage-matchup-center-2026-11-24-8-pm/concert/18240163",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-phoenix-arizona-11-24-2026/event/190064AB95A545E9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064AB95A545E9",
+        "discovery_event_id": "17k8v0G61m4tf9t",
+        "url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-phoenix-arizona-11-24-2026/event/190064AB95A545E9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17k8v0G61m4tf9t",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-katseye-2026-ciudad-de-mexico-17azv0g61mujevj",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "KATSEYE:  THE WILDWORLD TOUR",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2026-11-28T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "140064AB8D982D1C",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/katseye-the-wildworld-tour-ciudad-de-mexico-27-11-2026/event/140064AB8D982D1C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/katseye-the-wildworld-tour-ciudad-de-mexico-27-11-2026/event/140064AB8D982D1C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "140064AB8D982D1C",
+        "discovery_event_id": "17AZv0G61muJeVj",
+        "url": "https://www.ticketmaster.com.mx/katseye-the-wildworld-tour-ciudad-de-mexico-27-11-2026/event/140064AB8D982D1C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AZv0G61muJeVj",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-katseye-2026-ciudad-de-mexico-17azv0g61m2a3xe",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "KATSEYE:  THE WILDWORLD TOUR",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2026-11-29T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "140064AB8F152FA7",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/katseye-the-wildworld-tour-ciudad-de-mexico-28-11-2026/event/140064AB8F152FA7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/katseye-the-wildworld-tour-ciudad-de-mexico-28-11-2026/event/140064AB8F152FA7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "140064AB8F152FA7",
+        "discovery_event_id": "17AZv0G61m2A3XE",
+        "url": "https://www.ticketmaster.com.mx/katseye-the-wildworld-tour-ciudad-de-mexico-28-11-2026/event/140064AB8F152FA7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AZv0G61m2A3XE",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ricky-martin-2026-thackerville-z7r9jz1a7jax9",
+    "artist_slug": "ricky-martin",
+    "artist_name": "Ricky Martin",
+    "event_name": "Ricky Martin",
+    "city": "Thackerville",
+    "country": "United States Of America",
+    "venue": "WinStar World Casino",
+    "datetime_iso": "2026-10-24T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7JAx9",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JAx9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JAx9",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7JAx9",
+        "discovery_event_id": "Z7r9jZ1A7JAx9",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JAx9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7JAx9",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ricky-martin-2026-las-vegas-17ayv0g6ubm5h5l",
+    "artist_slug": "ricky-martin",
+    "artist_name": "Ricky Martin",
+    "event_name": "Ricky Martin",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2026-10-31T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064DEAE2DB2EB",
+    "ticketmaster_url": "https://www.ticketmaster.com/ricky-martin-las-vegas-nevada-10-30-2026/event/170064DEAE2DB2EB",
+    "seatgeek_url": "https://seatgeek.com/ricky-martin-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2026-10-30-8-pm/concert/18370911",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/ricky-martin-las-vegas-nevada-10-30-2026/event/170064DEAE2DB2EB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064DEAE2DB2EB",
+        "discovery_event_id": "17AYv0G6uBm5h5l",
+        "url": "https://www.ticketmaster.com/ricky-martin-las-vegas-nevada-10-30-2026/event/170064DEAE2DB2EB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G6uBm5h5l",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ricky-martin-2026-las-vegas-17ayv0g6ubmuh5y",
+    "artist_slug": "ricky-martin",
+    "artist_name": "Ricky Martin",
+    "event_name": "Ricky Martin",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2026-11-01T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064DEAE35B2F0",
+    "ticketmaster_url": "https://www.ticketmaster.com/ricky-martin-las-vegas-nevada-10-31-2026/event/170064DEAE35B2F0",
+    "seatgeek_url": "https://seatgeek.com/ricky-martin-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2026-10-31-8-pm/concert/18370916",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/ricky-martin-las-vegas-nevada-10-31-2026/event/170064DEAE35B2F0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064DEAE35B2F0",
+        "discovery_event_id": "17AYv0G6uBmuh5Y",
+        "url": "https://www.ticketmaster.com/ricky-martin-las-vegas-nevada-10-31-2026/event/170064DEAE35B2F0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G6uBmuh5Y",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ricky-martin-2026-lincoln-g5vyz_grrfawg",
+    "artist_slug": "ricky-martin",
+    "artist_name": "Ricky Martin",
+    "event_name": "Ricky Martin",
+    "city": "Lincoln",
+    "country": "United States Of America",
+    "venue": "The Venue at Thunder Valley Casino Resort",
+    "datetime_iso": "2026-11-07T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064CBDE509F75",
+    "ticketmaster_url": "https://www.ticketmaster.com/ricky-martin-lincoln-california-11-06-2026/event/1C0064CBDE509F75",
+    "seatgeek_url": "https://seatgeek.com/ricky-martin-tickets/lincoln-california-the-venue-at-thunder-valley-casino-resort-2026-11-06-8-pm/concert/18318163",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/ricky-martin-lincoln-california-11-06-2026/event/1C0064CBDE509F75",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064CBDE509F75",
+        "discovery_event_id": "G5vYZ_GRrfaWg",
+        "url": "https://www.ticketmaster.com/ricky-martin-lincoln-california-11-06-2026/event/1C0064CBDE509F75",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_GRrfaWg",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ricky-martin-2026-temecula-vvg1iz_g21wliz",
+    "artist_slug": "ricky-martin",
+    "artist_name": "Ricky Martin",
+    "event_name": "Ricky Martin",
+    "city": "Temecula",
+    "country": "United States Of America",
+    "venue": "Pechanga Resort Casino",
+    "datetime_iso": "2026-11-09T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0064C3CAF6BA38",
+    "ticketmaster_url": "https://www.ticketmaster.com/ricky-martin-temecula-california-11-08-2026/event/0A0064C3CAF6BA38",
+    "seatgeek_url": "https://seatgeek.com/ricky-martin-tickets/temecula-california-pechanga-resort-casino-2026-11-08-7-30-pm/concert/18325393",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/ricky-martin-temecula-california-11-08-2026/event/0A0064C3CAF6BA38",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0064C3CAF6BA38",
+        "discovery_event_id": "vvG1IZ_G21WlIz",
+        "url": "https://www.ticketmaster.com/ricky-martin-temecula-california-11-08-2026/event/0A0064C3CAF6BA38",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_G21WlIz",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ty-myers-2026-evansville-vv1aazkowgkd1n5gg",
+    "artist_slug": "ty-myers",
+    "artist_name": "Ty Myers",
+    "event_name": "Ty Myers: The Legal Tour 2026",
+    "city": "Evansville",
+    "country": "United States Of America",
+    "venue": "Ford Center",
+    "datetime_iso": "2026-10-24T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006472CA8CB335",
+    "ticketmaster_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-evansville-indiana-10-23-2026/event/05006472CA8CB335",
+    "seatgeek_url": "https://seatgeek.com/ty-myers-tickets/evansville-indiana-ford-center-in-2026-10-23-7-30-pm/concert/18142342",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-evansville-indiana-10-23-2026/event/05006472CA8CB335",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006472CA8CB335",
+        "discovery_event_id": "vv1AAZkowGkd1N5Gg",
+        "url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-evansville-indiana-10-23-2026/event/05006472CA8CB335",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZkowGkd1N5Gg",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ty-myers-2026-pikeville-1apzkovgkdxnmip",
+    "artist_slug": "ty-myers",
+    "artist_name": "Ty Myers",
+    "event_name": "Ty Myers: The Legal Tour 2026",
+    "city": "Pikeville",
+    "country": "United States Of America",
+    "venue": "Appalachian Wireless Arena (Formerly Eastern Kentucky Expo Ctr)",
+    "datetime_iso": "2026-10-24T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006474FEAB7B16",
+    "ticketmaster_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-pikeville-kentucky-10-24-2026/event/16006474FEAB7B16",
+    "seatgeek_url": "https://seatgeek.com/ty-myers-tickets/pikeville-kentucky-appalachian-wireless-arena-2026-10-24-7-30-pm/concert/18142343",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-pikeville-kentucky-10-24-2026/event/16006474FEAB7B16",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006474FEAB7B16",
+        "discovery_event_id": "1ApZkoVGkdXnMip",
+        "url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-pikeville-kentucky-10-24-2026/event/16006474FEAB7B16",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ApZkoVGkdXnMip",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ty-myers-2026-austin-g5diz_kuopazl",
+    "artist_slug": "ty-myers",
+    "artist_name": "Ty Myers",
+    "event_name": "Ty Myers: The Legal Tour 2026",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2026-11-21T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00646DA0949E2B",
+    "ticketmaster_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-austin-texas-11-20-2026/event/3A00646DA0949E2B",
+    "seatgeek_url": "https://seatgeek.com/ty-myers-tickets/austin-texas-moody-center-atx-2026-11-20-7-30-pm/concert/18142345",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-austin-texas-11-20-2026/event/3A00646DA0949E2B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00646DA0949E2B",
+        "discovery_event_id": "G5dIZ_kUOPazl",
+        "url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-austin-texas-11-20-2026/event/3A00646DA0949E2B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_kUOPazl",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ty-myers-2026-fort-worth-vvg1yz_61djqel",
+    "artist_slug": "ty-myers",
+    "artist_name": "Ty Myers",
+    "event_name": "Ty Myers: The Legal Tour 2026",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Dickies Arena",
+    "datetime_iso": "2026-11-22T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006472BB99A9EB",
+    "ticketmaster_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-fort-worth-texas-11-21-2026/event/0C006472BB99A9EB",
+    "seatgeek_url": "https://seatgeek.com/ty-myers-tickets/fort-worth-texas-dickies-arena-2026-11-21-7-30-pm/concert/18142347",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-fort-worth-texas-11-21-2026/event/0C006472BB99A9EB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006472BB99A9EB",
+        "discovery_event_id": "vvG1YZ_61DJQEl",
+        "url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-fort-worth-texas-11-21-2026/event/0C006472BB99A9EB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_61DJQEl",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dan-shay-2026-dallas-vvg1yz_1thoo6h",
+    "artist_slug": "dan-shay",
+    "artist_name": "Dan + Shay",
+    "event_name": "Dan + Shay: The Young Tour",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "Dos Equis Pavilion",
+    "datetime_iso": "2026-10-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064AFFC8111DB",
+    "ticketmaster_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-dallas-texas-10-22-2026/event/0C0064AFFC8111DB",
+    "seatgeek_url": "https://seatgeek.com/dan-shay-tickets/dallas-texas-dos-equis-pavilion-2026-10-22-7-pm/concert/18250827",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-dallas-texas-10-22-2026/event/0C0064AFFC8111DB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064AFFC8111DB",
+        "discovery_event_id": "vvG1YZ_1THOo6h",
+        "url": "https://www.ticketmaster.com/dan-shay-the-young-tour-dallas-texas-10-22-2026/event/0C0064AFFC8111DB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_1THOo6h",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dan-shay-2026-rogers-g5viz_1x8yivv",
+    "artist_slug": "dan-shay",
+    "artist_name": "Dan + Shay",
+    "event_name": "Dan + Shay: The Young Tour",
+    "city": "Rogers",
+    "country": "United States Of America",
+    "venue": "Walmart AMP",
+    "datetime_iso": "2026-10-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064AF90E68D01",
+    "ticketmaster_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-rogers-arkansas-10-23-2026/event/1B0064AF90E68D01",
+    "seatgeek_url": "https://seatgeek.com/dan-shay-tickets/rogers-arkansas-walmart-amp-2026-10-23-7-pm/concert/18250830",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-rogers-arkansas-10-23-2026/event/1B0064AF90E68D01",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064AF90E68D01",
+        "discovery_event_id": "G5viZ_1X8yIVv",
+        "url": "https://www.ticketmaster.com/dan-shay-the-young-tour-rogers-arkansas-10-23-2026/event/1B0064AF90E68D01",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_1X8yIVv",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dan-shay-2026-maryland-heights-vvg1bz_1udxnrk",
+    "artist_slug": "dan-shay",
+    "artist_name": "Dan + Shay",
+    "event_name": "Dan + Shay: The Young Tour",
+    "city": "Maryland Heights",
+    "country": "United States Of America",
+    "venue": "Hollywood Casino Amphitheater",
+    "datetime_iso": "2026-10-25T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060064ADBB8A3BC6",
+    "ticketmaster_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-maryland-heights-missouri-10-24-2026/event/060064ADBB8A3BC6",
+    "seatgeek_url": "https://seatgeek.com/dan-shay-tickets/maryland-heights-missouri-hollywood-casino-amphitheatre-mo-2026-10-24-7-pm/concert/18250831",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-maryland-heights-missouri-10-24-2026/event/060064ADBB8A3BC6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060064ADBB8A3BC6",
+        "discovery_event_id": "vvG1bZ_1UDxNRk",
+        "url": "https://www.ticketmaster.com/dan-shay-the-young-tour-maryland-heights-missouri-10-24-2026/event/060064ADBB8A3BC6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1bZ_1UDxNRk",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dan-shay-2026-denver-g5vzz_1dezhf3",
+    "artist_slug": "dan-shay",
+    "artist_name": "Dan + Shay",
+    "event_name": "Dan + Shay: The Young Tour",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ball Arena",
+    "datetime_iso": "2026-10-30T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E0064AEC203C212",
+    "ticketmaster_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-denver-colorado-10-29-2026/event/1E0064AEC203C212",
+    "seatgeek_url": "https://seatgeek.com/dan-shay-tickets/denver-colorado-ball-arena-2026-10-29-7-pm/concert/18250833",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-denver-colorado-10-29-2026/event/1E0064AEC203C212",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E0064AEC203C212",
+        "discovery_event_id": "G5vzZ_1DeZHF3",
+        "url": "https://www.ticketmaster.com/dan-shay-the-young-tour-denver-colorado-10-29-2026/event/1E0064AEC203C212",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_1DeZHF3",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dan-shay-2026-salt-lake-city-z7r9jz1a70jp0",
+    "artist_slug": "dan-shay",
+    "artist_name": "Dan + Shay",
+    "event_name": "Dan + Shay: The Young Tour",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "Delta Center",
+    "datetime_iso": "2026-10-31T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70JP0",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JP0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JP0",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70JP0",
+        "discovery_event_id": "Z7r9jZ1A70JP0",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JP0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70JP0",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dan-shay-2026-phoenix-17k8v0g61dxzizm",
+    "artist_slug": "dan-shay",
+    "artist_name": "Dan + Shay",
+    "event_name": "Dan + Shay: The Young Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Talking Stick Resort Amphitheatre",
+    "datetime_iso": "2026-11-06T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190064AEE2E28037",
+    "ticketmaster_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-phoenix-arizona-11-05-2026/event/190064AEE2E28037",
+    "seatgeek_url": "https://seatgeek.com/dan-shay-tickets/phoenix-arizona-talking-stick-resort-amphitheatre-2026-11-05-7-pm/concert/18250836",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-phoenix-arizona-11-05-2026/event/190064AEE2E28037",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064AEE2E28037",
+        "discovery_event_id": "17k8v0G61DxzIZM",
+        "url": "https://www.ticketmaster.com/dan-shay-the-young-tour-phoenix-arizona-11-05-2026/event/190064AEE2E28037",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17k8v0G61DxzIZM",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dan-shay-2026-anaheim-vvg10z_1damnyd",
+    "artist_slug": "dan-shay",
+    "artist_name": "Dan + Shay",
+    "event_name": "Dan + Shay: The Young Tour",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "Honda Center",
+    "datetime_iso": "2026-11-07T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064AEC5BA3C3B",
+    "ticketmaster_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-anaheim-california-11-06-2026/event/090064AEC5BA3C3B",
+    "seatgeek_url": "https://seatgeek.com/dan-shay-tickets/anaheim-california-honda-center-2026-11-06-7-pm/concert/18250837",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-anaheim-california-11-06-2026/event/090064AEC5BA3C3B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064AEC5BA3C3B",
+        "discovery_event_id": "vvG10Z_1DAmNYD",
+        "url": "https://www.ticketmaster.com/dan-shay-the-young-tour-anaheim-california-11-06-2026/event/090064AEC5BA3C3B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_1DAmNYD",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dan-shay-2026-mountain-view-g5vyz_1wl9ah6",
+    "artist_slug": "dan-shay",
+    "artist_name": "Dan + Shay",
+    "event_name": "Dan + Shay: The Young Tour",
+    "city": "Mountain View",
+    "country": "United States Of America",
+    "venue": "Shoreline Amphitheatre",
+    "datetime_iso": "2026-11-08T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064AF6B5C5F07",
+    "ticketmaster_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-mountain-view-california-11-07-2026/event/1C0064AF6B5C5F07",
+    "seatgeek_url": "https://seatgeek.com/dan-shay-tickets/mountain-view-california-shoreline-amphitheatre-2026-11-07-7-pm/concert/18250838",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-mountain-view-california-11-07-2026/event/1C0064AF6B5C5F07",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064AF6B5C5F07",
+        "discovery_event_id": "G5vYZ_1Wl9AH6",
+        "url": "https://www.ticketmaster.com/dan-shay-the-young-tour-mountain-view-california-11-07-2026/event/1C0064AF6B5C5F07",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_1Wl9AH6",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-inglewood-vvg10z_ucyohlw",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2026-10-22T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064D3B945BAFD",
+    "ticketmaster_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-inglewood-california-10-21-2026/event/090064D3B945BAFD",
+    "seatgeek_url": "https://seatgeek.com/beabadoobee-tickets/inglewood-california-kia-forum-2026-10-21-8-pm/concert/18329618",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-inglewood-california-10-21-2026/event/090064D3B945BAFD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064D3B945BAFD",
+        "discovery_event_id": "vvG10Z_uCyohlW",
+        "url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-inglewood-california-10-21-2026/event/090064D3B945BAFD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_uCyohlW",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-san-diego-vvg1iz_u3myfkf",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Viejas Arena at Aztec Bowl San Diego State University",
+    "datetime_iso": "2026-10-25T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0064D4B7C08188",
+    "ticketmaster_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-san-diego-california-10-24-2026/event/0A0064D4B7C08188",
+    "seatgeek_url": "https://seatgeek.com/beabadoobee-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-10-24-8-pm/concert/18329621",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-san-diego-california-10-24-2026/event/0A0064D4B7C08188",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0064D4B7C08188",
+        "discovery_event_id": "vvG1IZ_u3MYFkF",
+        "url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-san-diego-california-10-24-2026/event/0A0064D4B7C08188",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_u3MYFkF",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-oakland-g5vyz_ufp_rvl",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Oakland Arena",
+    "datetime_iso": "2026-10-27T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064D21665E06B",
+    "ticketmaster_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-oakland-california-10-26-2026/event/1C0064D21665E06B",
+    "seatgeek_url": "https://seatgeek.com/beabadoobee-tickets/oakland-california-oakland-arena-2026-10-26-8-pm/concert/18329620",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-oakland-california-10-26-2026/event/1C0064D21665E06B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064D21665E06B",
+        "discovery_event_id": "G5vYZ_uFp_rvl",
+        "url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-oakland-california-10-26-2026/event/1C0064D21665E06B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_uFp_rvl",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-vancouver-1778v0g6u5paqr-",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2026-10-29T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110064D2E525D7A1",
+    "ticketmaster_url": "https://www.ticketmaster.ca/beabadoobee-the-powerlines-tour-vancouver-british-columbia-10-28-2026/event/110064D2E525D7A1",
+    "seatgeek_url": "https://seatgeek.com/beabadoobee-tickets/vancouver-canada-rogers-arena-2026-10-28-8-pm/concert/18329623",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/beabadoobee-the-powerlines-tour-vancouver-british-columbia-10-28-2026/event/110064D2E525D7A1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110064D2E525D7A1",
+        "discovery_event_id": "1778v0G6u5Paqr-",
+        "url": "https://www.ticketmaster.ca/beabadoobee-the-powerlines-tour-vancouver-british-columbia-10-28-2026/event/110064D2E525D7A1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1778v0G6u5Paqr-",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-seattle-vvg1hz_u_uadg3",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2026-10-30T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064D676143312",
+    "ticketmaster_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-seattle-washington-10-29-2026/event/0F0064D676143312",
+    "seatgeek_url": "https://seatgeek.com/beabadoobee-tickets/seattle-washington-climate-pledge-arena-2026-10-29-8-pm/concert/18329624",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-seattle-washington-10-29-2026/event/0F0064D676143312",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064D676143312",
+        "discovery_event_id": "vvG1HZ_u_UAdG3",
+        "url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-seattle-washington-10-29-2026/event/0F0064D676143312",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_u_UAdG3",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-glasgow-17uov0g6uryba3u",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2026-11-14T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064D7B0E894B6",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-glasgow-14-11-2026/event/360064D7B0E894B6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-glasgow-14-11-2026/event/360064D7B0E894B6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064D7B0E894B6",
+        "discovery_event_id": "17uOv0G6urYBa3U",
+        "url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-glasgow-14-11-2026/event/360064D7B0E894B6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G6urYBa3U",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-cardiff-17uov0g6uhod1tg",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Cardiff",
+    "datetime_iso": "2026-11-16T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064D6E00CAA4C",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-cardiff-16-11-2026/event/360064D6E00CAA4C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-cardiff-16-11-2026/event/360064D6E00CAA4C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064D6E00CAA4C",
+        "discovery_event_id": "17uOv0G6uhOd1tG",
+        "url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-cardiff-16-11-2026/event/360064D6E00CAA4C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G6uhOd1tG",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-manchester-g5vhz_u1guca1",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "AO Arena",
+    "datetime_iso": "2026-11-17T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064D2B5DAD24A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-manchester-17-11-2026/event/1F0064D2B5DAD24A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-manchester-17-11-2026/event/1F0064D2B5DAD24A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064D2B5DAD24A",
+        "discovery_event_id": "G5vHZ_u1gUca1",
+        "url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-manchester-17-11-2026/event/1F0064D2B5DAD24A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_u1gUca1",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-greenwich-z7r9jz1a7ps_a",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee w/ Wisp",
+    "city": "Greenwich",
+    "country": "United Kingdom",
+    "venue": "The O2",
+    "datetime_iso": "2026-11-18T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Ps_A",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ps_A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ps_A",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Ps_A",
+        "discovery_event_id": "Z7r9jZ1A7Ps_A",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ps_A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ps_A",
+    "timezone": "Europe/Budapest",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-stockholm-z698xzq2z1kp0a-oa",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "venue": "Fryshuset",
+    "datetime_iso": "2026-11-24T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "964261449",
+    "ticketmaster_url": "https://www.ticketmaster.se/event/beabadoobee-the-powerlines-tour-tickets/964261449?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.se/event/beabadoobee-the-powerlines-tour-tickets/964261449?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "964261449",
+        "discovery_event_id": "Z698xZq2Z1kP0a-oa",
+        "url": "https://www.ticketmaster.se/event/beabadoobee-the-powerlines-tour-tickets/964261449?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZq2Z1kP0a-oa",
+    "timezone": "Europe/Stockholm",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-oslo-z698xzb_z16v38kfe3",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Oslo",
+    "country": "Norway",
+    "venue": "Oslo Spektrum",
+    "datetime_iso": "2026-11-27T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1490194092",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/beabadoobee-the-powerlines-tour-tickets/1490194092?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/beabadoobee-the-powerlines-tour-tickets/1490194092?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1490194092",
+        "discovery_event_id": "Z698xZb_Z16v38kfe3",
+        "url": "https://www.ticketmaster.no/event/beabadoobee-the-powerlines-tour-tickets/1490194092?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z16v38kfe3",
+    "timezone": "Europe/Oslo",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-forest-brussels-z698xzg2z16vovadfj",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Forest (Brussels)",
+    "country": "Belgium",
+    "venue": "Vorst Nationaal/Forest National",
+    "datetime_iso": "2026-12-04T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1834243526",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/beabadoobee-the-powerlines-tour-tickets/1834243526",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/beabadoobee-the-powerlines-tour-tickets/1834243526",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1834243526",
+        "discovery_event_id": "Z698xZG2Z16vOVadfJ",
+        "url": "https://www.ticketmaster.be/event/beabadoobee-the-powerlines-tour-tickets/1834243526",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z16vOVadfJ",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-berlin-z698xzc2z16vpmfp_a",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Berlin",
+    "country": "Germany",
+    "venue": "Tempodrom",
+    "datetime_iso": "2026-12-06T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1977216649",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/beabadoobee-the-powerlines-tour-tickets/1977216649?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/beabadoobee-the-powerlines-tour-tickets/1977216649?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1977216649",
+        "discovery_event_id": "Z698xZC2Z16vPMFp_a",
+        "url": "https://www.ticketmaster.de/event/beabadoobee-the-powerlines-tour-tickets/1977216649?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vPMFp_a",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beabadoobee-2026-dusseldorf-z698xzc2z1k09qy83",
+    "artist_slug": "beabadoobee",
+    "artist_name": "beabadoobee",
+    "event_name": "beabadoobee: The Powerlines Tour",
+    "city": "Düsseldorf",
+    "country": "Germany",
+    "venue": "Mitsubishi Electric HALLE",
+    "datetime_iso": "2026-12-07T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "917770412",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/beabadoobee-the-powerlines-tour-tickets/917770412?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/beabadoobee-the-powerlines-tour-tickets/917770412?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "917770412",
+        "discovery_event_id": "Z698xZC2Z1k09qY83",
+        "url": "https://www.ticketmaster.de/event/beabadoobee-the-powerlines-tour-tickets/917770412?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1k09qY83",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dave-matthews-band-2026-madison-z7r9jz1aazj8x",
+    "artist_slug": "dave-matthews-band",
+    "artist_name": "Dave Matthews Band",
+    "event_name": "Dave Matthews Band",
+    "city": "Madison",
+    "country": "United States Of America",
+    "venue": "Kohl Center",
+    "datetime_iso": "2026-11-05T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZJ8x",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJ8x",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJ8x",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZJ8x",
+        "discovery_event_id": "Z7r9jZ1AAZJ8x",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJ8x",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZJ8x",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dave-matthews-band-2026-nashville-g5viz_2znwmqm",
+    "artist_slug": "dave-matthews-band",
+    "artist_name": "Dave Matthews Band",
+    "event_name": "Dave Matthews Band",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2026-11-07T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064F02AF6E6B7",
+    "ticketmaster_url": "https://www.ticketmaster.com/dave-matthews-band-nashville-tennessee-11-06-2026/event/1B0064F02AF6E6B7",
+    "seatgeek_url": "https://seatgeek.com/dave-matthews-band-tickets/nashville-tennessee-bridgestone-arena-2026-11-06-7-30-pm/concert/18474895",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dave-matthews-band-nashville-tennessee-11-06-2026/event/1B0064F02AF6E6B7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064F02AF6E6B7",
+        "discovery_event_id": "G5viZ_2ZnWmQM",
+        "url": "https://www.ticketmaster.com/dave-matthews-band-nashville-tennessee-11-06-2026/event/1B0064F02AF6E6B7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_2ZnWmQM",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dave-matthews-band-2026-chicago-vvg18z_cde9wdz",
+    "artist_slug": "dave-matthews-band",
+    "artist_name": "Dave Matthews Band",
+    "event_name": "Dave Matthews Band",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2026-11-08T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "040064EEE75F20F8",
+    "ticketmaster_url": "https://www.ticketmaster.com/dave-matthews-band-chicago-illinois-11-07-2026/event/040064EEE75F20F8",
+    "seatgeek_url": "https://seatgeek.com/dave-matthews-band-tickets/chicago-illinois-united-center-2026-11-07-7-30-pm/concert/18474896",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dave-matthews-band-chicago-illinois-11-07-2026/event/040064EEE75F20F8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040064EEE75F20F8",
+        "discovery_event_id": "vvG18Z_CDE9wdz",
+        "url": "https://www.ticketmaster.com/dave-matthews-band-chicago-illinois-11-07-2026/event/040064EEE75F20F8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG18Z_CDE9wdz",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dave-matthews-band-2026-providence-vvg17z_2piw04c",
+    "artist_slug": "dave-matthews-band",
+    "artist_name": "Dave Matthews Band",
+    "event_name": "Dave Matthews Band",
+    "city": "Providence",
+    "country": "United States Of America",
+    "venue": "Amica Mutual Pavilion",
+    "datetime_iso": "2026-11-10T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064F5A8CA454E",
+    "ticketmaster_url": "https://www.ticketmaster.com/dave-matthews-band-providence-rhode-island-11-09-2026/event/010064F5A8CA454E",
+    "seatgeek_url": "https://seatgeek.com/dave-matthews-band-tickets/providence-rhode-island-amica-mutual-pavilion-2026-11-09-7-30-pm/concert/18474897",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dave-matthews-band-providence-rhode-island-11-09-2026/event/010064F5A8CA454E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064F5A8CA454E",
+        "discovery_event_id": "vvG17Z_2pIw04C",
+        "url": "https://www.ticketmaster.com/dave-matthews-band-providence-rhode-island-11-09-2026/event/010064F5A8CA454E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_2pIw04C",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dave-matthews-band-2026-baltimore-1ka8vpevgauw1qw",
+    "artist_slug": "dave-matthews-band",
+    "artist_name": "Dave Matthews Band",
+    "event_name": "Dave Matthews Band",
+    "city": "Baltimore",
+    "country": "United States Of America",
+    "venue": "CFG Bank Arena",
+    "datetime_iso": "2026-11-11T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150065081DF4A77D",
+    "ticketmaster_url": "https://www.ticketmaster.com/dave-matthews-band-baltimore-maryland-11-10-2026/event/150065081DF4A77D",
+    "seatgeek_url": "https://seatgeek.com/dave-matthews-band-tickets/baltimore-maryland-cfg-bank-arena-2026-11-10-7-30-pm/concert/18474899",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dave-matthews-band-baltimore-maryland-11-10-2026/event/150065081DF4A77D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150065081DF4A77D",
+        "discovery_event_id": "1kA8vPevGAuW1qW",
+        "url": "https://www.ticketmaster.com/dave-matthews-band-baltimore-maryland-11-10-2026/event/150065081DF4A77D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kA8vPevGAuW1qW",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dave-matthews-band-2026-new-york-g5diz_2njwaf8",
+    "artist_slug": "dave-matthews-band",
+    "artist_name": "Dave Matthews Band",
+    "event_name": "Dave Matthews Band",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Madison Square Garden",
+    "datetime_iso": "2026-11-13T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3B0064F8E6F49510",
+    "ticketmaster_url": "https://www.ticketmaster.com/dave-matthews-band-new-york-new-york-11-12-2026/event/3B0064F8E6F49510",
+    "seatgeek_url": "https://seatgeek.com/dave-matthews-band-tickets/new-york-new-york-madison-square-garden-2026-11-12-7-30-pm/concert/18474900",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dave-matthews-band-new-york-new-york-11-12-2026/event/3B0064F8E6F49510",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B0064F8E6F49510",
+        "discovery_event_id": "G5diZ_2NJWaf8",
+        "url": "https://www.ticketmaster.com/dave-matthews-band-new-york-new-york-11-12-2026/event/3B0064F8E6F49510",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5diZ_2NJWaf8",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dave-matthews-band-2026-new-york-g5diz_2njdtfa",
+    "artist_slug": "dave-matthews-band",
+    "artist_name": "Dave Matthews Band",
+    "event_name": "Dave Matthews Band",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Madison Square Garden",
+    "datetime_iso": "2026-11-14T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3B0064F8E6EE9505",
+    "ticketmaster_url": "https://www.ticketmaster.com/dave-matthews-band-new-york-new-york-11-13-2026/event/3B0064F8E6EE9505",
+    "seatgeek_url": "https://seatgeek.com/dave-matthews-band-tickets/new-york-new-york-madison-square-garden-2026-11-13-7-30-pm/concert/18474898",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dave-matthews-band-new-york-new-york-11-13-2026/event/3B0064F8E6EE9505",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B0064F8E6EE9505",
+        "discovery_event_id": "G5diZ_2NJDtfA",
+        "url": "https://www.ticketmaster.com/dave-matthews-band-new-york-new-york-11-13-2026/event/3B0064F8E6EE9505",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5diZ_2NJDtfA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

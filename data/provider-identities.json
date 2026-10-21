@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-20",
+  "updated_at": "2026-10-21",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -1789,6 +1789,72 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-10-20 (sanctioned path D): SeatGeek performer 807216 and Ticketmaster attraction K8vZ917hLWV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "katseye",
+      "ticketmaster_attraction_id": "K8vZ917q517",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/katseye-tickets/artist/3259344",
+      "seatgeek_performer_id": 1959794,
+      "seatgeek_artist_url": "https://seatgeek.com/katseye-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-21 (sanctioned path D): SeatGeek performer 1959794 and Ticketmaster attraction K8vZ917q517 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "ricky-martin",
+      "ticketmaster_attraction_id": "K8vZ91714L0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/ricky-martin-tickets/artist/755069",
+      "seatgeek_performer_id": 7820,
+      "seatgeek_artist_url": "https://seatgeek.com/ricky-martin-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-21 (sanctioned path D): SeatGeek performer 7820 and Ticketmaster attraction K8vZ91714L0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "ty-myers",
+      "ticketmaster_attraction_id": "K8vZ917j970",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/ty-myers-tickets/artist/3109182",
+      "seatgeek_performer_id": 1954556,
+      "seatgeek_artist_url": "https://seatgeek.com/ty-myers-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-21 (sanctioned path D): SeatGeek performer 1954556 and Ticketmaster attraction K8vZ917j970 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "dan-shay",
+      "ticketmaster_attraction_id": "K8vZ9173kl0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/dan-shay-tickets/artist/1955592",
+      "seatgeek_performer_id": 268495,
+      "seatgeek_artist_url": "https://seatgeek.com/dan-shay-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-21 (sanctioned path D): SeatGeek performer 268495 and Ticketmaster attraction K8vZ9173kl0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "beabadoobee",
+      "ticketmaster_attraction_id": "K8vZ9179Xxf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/beabadoobee-tickets/artist/2618990",
+      "seatgeek_performer_id": 749283,
+      "seatgeek_artist_url": "https://seatgeek.com/beabadoobee-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-21 (sanctioned path D): SeatGeek performer 749283 and Ticketmaster attraction K8vZ9179Xxf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "dave-matthews-band",
+      "ticketmaster_attraction_id": "K8vZ91713NV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/dave-matthews-band-tickets/artist/746531",
+      "seatgeek_performer_id": 33,
+      "seatgeek_artist_url": "https://seatgeek.com/dave-matthews-band-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-21 (sanctioned path D): SeatGeek performer 33 and Ticketmaster attraction K8vZ91713NV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

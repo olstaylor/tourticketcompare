@@ -1,0 +1,267 @@
+[
+  {
+    "id": "tm-ricky-martin-2026-thackerville-z7r9jz1a7jax9",
+    "artist_slug": "ricky-martin",
+    "artist_name": "Ricky Martin",
+    "event_name": "Ricky Martin",
+    "city": "Thackerville",
+    "country": "United States Of America",
+    "venue": "WinStar World Casino",
+    "datetime_iso": "2026-10-24T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7JAx9",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JAx9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JAx9",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7JAx9",
+        "discovery_event_id": "Z7r9jZ1A7JAx9",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JAx9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7JAx9",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ricky-martin-2026-las-vegas-17ayv0g6ubm5h5l",
+    "artist_slug": "ricky-martin",
+    "artist_name": "Ricky Martin",
+    "event_name": "Ricky Martin",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2026-10-31T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064DEAE2DB2EB",
+    "ticketmaster_url": "https://www.ticketmaster.com/ricky-martin-las-vegas-nevada-10-30-2026/event/170064DEAE2DB2EB",
+    "seatgeek_url": "https://seatgeek.com/ricky-martin-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2026-10-30-8-pm/concert/18370911",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/ricky-martin-las-vegas-nevada-10-30-2026/event/170064DEAE2DB2EB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064DEAE2DB2EB",
+        "discovery_event_id": "17AYv0G6uBm5h5l",
+        "url": "https://www.ticketmaster.com/ricky-martin-las-vegas-nevada-10-30-2026/event/170064DEAE2DB2EB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G6uBm5h5l",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ricky-martin-2026-las-vegas-17ayv0g6ubmuh5y",
+    "artist_slug": "ricky-martin",
+    "artist_name": "Ricky Martin",
+    "event_name": "Ricky Martin",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2026-11-01T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064DEAE35B2F0",
+    "ticketmaster_url": "https://www.ticketmaster.com/ricky-martin-las-vegas-nevada-10-31-2026/event/170064DEAE35B2F0",
+    "seatgeek_url": "https://seatgeek.com/ricky-martin-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2026-10-31-8-pm/concert/18370916",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/ricky-martin-las-vegas-nevada-10-31-2026/event/170064DEAE35B2F0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064DEAE35B2F0",
+        "discovery_event_id": "17AYv0G6uBmuh5Y",
+        "url": "https://www.ticketmaster.com/ricky-martin-las-vegas-nevada-10-31-2026/event/170064DEAE35B2F0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G6uBmuh5Y",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ricky-martin-2026-lincoln-g5vyz_grrfawg",
+    "artist_slug": "ricky-martin",
+    "artist_name": "Ricky Martin",
+    "event_name": "Ricky Martin",
+    "city": "Lincoln",
+    "country": "United States Of America",
+    "venue": "The Venue at Thunder Valley Casino Resort",
+    "datetime_iso": "2026-11-07T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064CBDE509F75",
+    "ticketmaster_url": "https://www.ticketmaster.com/ricky-martin-lincoln-california-11-06-2026/event/1C0064CBDE509F75",
+    "seatgeek_url": "https://seatgeek.com/ricky-martin-tickets/lincoln-california-the-venue-at-thunder-valley-casino-resort-2026-11-06-8-pm/concert/18318163",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/ricky-martin-lincoln-california-11-06-2026/event/1C0064CBDE509F75",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064CBDE509F75",
+        "discovery_event_id": "G5vYZ_GRrfaWg",
+        "url": "https://www.ticketmaster.com/ricky-martin-lincoln-california-11-06-2026/event/1C0064CBDE509F75",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_GRrfaWg",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ricky-martin-2026-temecula-vvg1iz_g21wliz",
+    "artist_slug": "ricky-martin",
+    "artist_name": "Ricky Martin",
+    "event_name": "Ricky Martin",
+    "city": "Temecula",
+    "country": "United States Of America",
+    "venue": "Pechanga Resort Casino",
+    "datetime_iso": "2026-11-09T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0064C3CAF6BA38",
+    "ticketmaster_url": "https://www.ticketmaster.com/ricky-martin-temecula-california-11-08-2026/event/0A0064C3CAF6BA38",
+    "seatgeek_url": "https://seatgeek.com/ricky-martin-tickets/temecula-california-pechanga-resort-casino-2026-11-08-7-30-pm/concert/18325393",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/ricky-martin-temecula-california-11-08-2026/event/0A0064C3CAF6BA38",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0064C3CAF6BA38",
+        "discovery_event_id": "vvG1IZ_G21WlIz",
+        "url": "https://www.ticketmaster.com/ricky-martin-temecula-california-11-08-2026/event/0A0064C3CAF6BA38",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_G21WlIz",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

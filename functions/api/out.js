@@ -2375,6 +2375,90 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-zach-top",
     redirectUrl: "https://seatgeek.com/zach-top-tickets",
     verified: true
+  },
+  "katseye:ticketmaster": {
+    artistSlug: "katseye",
+    provider: "ticketmaster",
+    linkId: "tm-artist-katseye",
+    redirectUrl: "https://www.ticketmaster.com/katseye-tickets/artist/3259344",
+    verified: true
+  },
+  "katseye:seatgeek": {
+    artistSlug: "katseye",
+    provider: "seatgeek",
+    linkId: "sg-artist-katseye",
+    redirectUrl: "https://seatgeek.com/katseye-tickets",
+    verified: true
+  },
+  "ricky-martin:ticketmaster": {
+    artistSlug: "ricky-martin",
+    provider: "ticketmaster",
+    linkId: "tm-artist-ricky-martin",
+    redirectUrl: "https://www.ticketmaster.com/ricky-martin-tickets/artist/755069",
+    verified: true
+  },
+  "ricky-martin:seatgeek": {
+    artistSlug: "ricky-martin",
+    provider: "seatgeek",
+    linkId: "sg-artist-ricky-martin",
+    redirectUrl: "https://seatgeek.com/ricky-martin-tickets",
+    verified: true
+  },
+  "ty-myers:ticketmaster": {
+    artistSlug: "ty-myers",
+    provider: "ticketmaster",
+    linkId: "tm-artist-ty-myers",
+    redirectUrl: "https://www.ticketmaster.com/ty-myers-tickets/artist/3109182",
+    verified: true
+  },
+  "ty-myers:seatgeek": {
+    artistSlug: "ty-myers",
+    provider: "seatgeek",
+    linkId: "sg-artist-ty-myers",
+    redirectUrl: "https://seatgeek.com/ty-myers-tickets",
+    verified: true
+  },
+  "dan-shay:ticketmaster": {
+    artistSlug: "dan-shay",
+    provider: "ticketmaster",
+    linkId: "tm-artist-dan-shay",
+    redirectUrl: "https://www.ticketmaster.com/dan-shay-tickets/artist/1955592",
+    verified: true
+  },
+  "dan-shay:seatgeek": {
+    artistSlug: "dan-shay",
+    provider: "seatgeek",
+    linkId: "sg-artist-dan-shay",
+    redirectUrl: "https://seatgeek.com/dan-shay-tickets",
+    verified: true
+  },
+  "beabadoobee:ticketmaster": {
+    artistSlug: "beabadoobee",
+    provider: "ticketmaster",
+    linkId: "tm-artist-beabadoobee",
+    redirectUrl: "https://www.ticketmaster.com/beabadoobee-tickets/artist/2618990",
+    verified: true
+  },
+  "beabadoobee:seatgeek": {
+    artistSlug: "beabadoobee",
+    provider: "seatgeek",
+    linkId: "sg-artist-beabadoobee",
+    redirectUrl: "https://seatgeek.com/beabadoobee-tickets",
+    verified: true
+  },
+  "dave-matthews-band:ticketmaster": {
+    artistSlug: "dave-matthews-band",
+    provider: "ticketmaster",
+    linkId: "tm-artist-dave-matthews-band",
+    redirectUrl: "https://www.ticketmaster.com/dave-matthews-band-tickets/artist/746531",
+    verified: true
+  },
+  "dave-matthews-band:seatgeek": {
+    artistSlug: "dave-matthews-band",
+    provider: "seatgeek",
+    linkId: "sg-artist-dave-matthews-band",
+    redirectUrl: "https://seatgeek.com/dave-matthews-band-tickets",
+    verified: true
   }
 };
 

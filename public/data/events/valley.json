@@ -11,7 +11,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvzfI",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvzfI",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/quebec-canada-grizzly-fuzz-2027-02-04-8-pm/concert/18696397",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvzfI",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18696397,
+        "url": "https://seatgeek.com/valley-tickets/quebec-canada-grizzly-fuzz-2027-02-04-8-pm/concert/18696397",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1882,7 +1882,7 @@
         "event_id": 18643169,
         "url": "https://seatgeek.com/valley-tickets/new-york-new-york-webster-hall-2027-03-17-8-pm/concert/18643169",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {

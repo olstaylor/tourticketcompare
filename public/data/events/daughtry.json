@@ -544,7 +544,7 @@
         "event_id": 18316789,
         "url": "https://seatgeek.com/daughtry-tickets/danville-virginia-the-pantheon-at-caesars-virginia-2026-10-23-8-pm/concert/18316789",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -613,7 +613,7 @@
         "event_id": 18300508,
         "url": "https://seatgeek.com/daughtry-tickets/florence-kentucky-turfway-park-2026-10-24-8-30-pm/concert/18300508",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2766,11 +2766,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18632939,
+        "url": "https://seatgeek.com/daughtry-tickets/nashville-tennessee-the-truth-nashville-2027-03-06-7-pm/concert/18632939",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624399,
@@ -2850,11 +2850,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18632941,
+        "url": "https://seatgeek.com/daughtry-tickets/atlanta-georgia-the-tabernacle-atlanta-2027-03-07-7-pm/concert/18632941",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

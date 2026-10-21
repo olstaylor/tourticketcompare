@@ -584,7 +584,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D0065418958601A",
     "ticketmaster_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-hollywood-florida-03-26-2027/event/0D0065418958601A",
-    "seatgeek_url": "https://seatgeek.com/warren-zeiders-tickets/hollywood-florida-daer-nightclub-at-the-seminole-hard-rock-hotel-casino-2027-03-26-7-pm/concert/18649740",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-3-26-2027/production/7653928",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-hollywood-florida-03-26-2027/event/0D0065418958601A",
@@ -1317,7 +1317,7 @@
         "event_id": 18649741,
         "url": "https://seatgeek.com/warren-zeiders-tickets/kansas-city-missouri-the-midland-theatre-mo-2027-04-01-7-pm/concert/18649741",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1386,7 +1386,7 @@
         "event_id": 18649744,
         "url": "https://seatgeek.com/warren-zeiders-tickets/fort-worth-texas-billy-bob-s-texas-2027-04-09-7-pm/concert/18649744",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1439,7 +1439,7 @@
         "event_id": 18649752,
         "url": "https://seatgeek.com/warren-zeiders-tickets/helotes-texas-john-t-floore-country-store-2027-04-10-7-pm/concert/18649752",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1508,7 +1508,7 @@
         "event_id": 18649753,
         "url": "https://seatgeek.com/warren-zeiders-tickets/louisville-kentucky-old-forester-s-paristown-hall-2027-04-16-7-pm/concert/18649753",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {

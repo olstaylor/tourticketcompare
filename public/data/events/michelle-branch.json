@@ -1185,11 +1185,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18508825,
+        "url": "https://seatgeek.com/michelle-branch-tickets/atlanta-georgia-the-tabernacle-atlanta-2027-02-26-8-pm/concert/18508825",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1253,11 +1253,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18508827,
+        "url": "https://seatgeek.com/michelle-branch-tickets/dallas-texas-house-of-blues-dallas-2027-03-06-7-pm/concert/18508827",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7453092,
@@ -1429,11 +1429,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18508835,
+        "url": "https://seatgeek.com/michelle-branch-tickets/tempe-arizona-marquee-theatre-tempe-az-2027-03-11-7-30-pm/concert/18508835",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7453207,
@@ -1674,7 +1674,7 @@
         "event_id": 18650112,
         "url": "https://seatgeek.com/michelle-branch-tickets/denver-colorado-mission-ballroom-2027-03-17-8-pm/concert/18650112",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1806,7 +1806,7 @@
         "event_id": 18508844,
         "url": "https://seatgeek.com/michelle-branch-tickets/columbus-ohio-kemba-live-2027-03-20-8-pm/concert/18508844",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1875,7 +1875,7 @@
         "event_id": 18508847,
         "url": "https://seatgeek.com/michelle-branch-tickets/royal-oak-michigan-royal-oak-music-theatre-2027-03-21-7-pm/concert/18508847",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2196,7 +2196,7 @@
         "event_id": 18508855,
         "url": "https://seatgeek.com/michelle-branch-tickets/philadelphia-pennsylvania-franklin-music-hall-2027-03-27-8-30-pm/concert/18508855",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2491,7 +2491,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "10006546D394798B",
     "ticketmaster_url": "https://www.ticketmaster.ca/michelle-branch-everywhere-and-back-again-toronto-ontario-03-30-2027/event/10006546D394798B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/toronto-canada-history-2027-03-30-7-pm/concert/18688593",
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-toronto-history-toronto-3-30-2027/production/7704668",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/michelle-branch-everywhere-and-back-again-toronto-ontario-03-30-2027/event/10006546D394798B",
@@ -2507,11 +2507,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18688593,
+        "url": "https://seatgeek.com/michelle-branch-tickets/toronto-canada-history-2027-03-30-7-pm/concert/18688593",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7704668,
@@ -2557,7 +2557,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "10006546D398799A",
     "ticketmaster_url": "https://www.ticketmaster.ca/michelle-branch-everywhere-and-back-again-toronto-ontario-03-31-2027/event/10006546D398799A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/toronto-canada-history-2027-03-31-7-pm/concert/18685627",
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-toronto-history-toronto-3-31-2027/production/7696699",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/michelle-branch-everywhere-and-back-again-toronto-ontario-03-31-2027/event/10006546D398799A",
@@ -2573,11 +2573,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18685627,
+        "url": "https://seatgeek.com/michelle-branch-tickets/toronto-canada-history-2027-03-31-7-pm/concert/18685627",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7696699,

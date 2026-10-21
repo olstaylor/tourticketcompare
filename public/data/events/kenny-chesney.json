@@ -122,7 +122,7 @@
         "event_id": 18570962,
         "url": "https://seatgeek.com/kenny-chesney-tickets/greenville-north-carolina-dowdy-ficklen-stadium-2027-05-01-4-30-pm/concert/18570962",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -191,7 +191,7 @@
         "event_id": 18414534,
         "url": "https://seatgeek.com/kenny-chesney-tickets/arlington-texas-at-t-stadium-2027-05-08-4-30-pm/concert/18414534",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -317,7 +317,7 @@
     "tour_name": "The Original Vibe Room Tour",
     "ticketmaster_event_id": "06006524F97AA750",
     "ticketmaster_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-minneapolis-minnesota-05-22-2027/event/06006524F97AA750",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kenny-chesney-tickets/minneapolis-minnesota-u-s-bank-stadium-2027-05-22-4-30-pm/concert/18591994",
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-minneapolis-us-bank-stadium-5-22-2027/production/7557276",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-minneapolis-minnesota-05-22-2027/event/06006524F97AA750",
@@ -333,11 +333,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18591994,
+        "url": "https://seatgeek.com/kenny-chesney-tickets/minneapolis-minnesota-u-s-bank-stadium-2027-05-22-4-30-pm/concert/18591994",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7557276,
@@ -472,7 +472,7 @@
     "tour_name": "The Original Vibe Room Tour",
     "ticketmaster_event_id": "0600652887B76C70",
     "ticketmaster_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-ames-iowa-06-05-2027/event/0600652887B76C70",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kenny-chesney-tickets/ames-iowa-midamerican-energy-field-at-jack-trice-stadium-2027-06-05-4-30-pm/concert/18591993",
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-ames-midamerican-energy-field-at-jack-trice-stadium-6-5-2027--concerts-country-and-folk/production/7557294",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-ames-iowa-06-05-2027/event/0600652887B76C70",
@@ -488,11 +488,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18591993,
+        "url": "https://seatgeek.com/kenny-chesney-tickets/ames-iowa-midamerican-energy-field-at-jack-trice-stadium-2027-06-05-4-30-pm/concert/18591993",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7557294,

@@ -3590,7 +3590,7 @@
     "tour_name": "The Romantic Tour",
     "ticketmaster_event_id": "1100642F6CDF2F58",
     "ticketmaster_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-20-2026/event/1100642F6CDF2F58",
-    "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-20-7-pm/concert/18016784",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-20-2026--concerts-pop/production/6536764",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-20-2026/event/1100642F6CDF2F58",
@@ -3605,11 +3605,11 @@
         "discovery_event_id": "1Av7Z_eGkWiMwWb"
       },
       "seatgeek": {
-        "event_id": 18016784,
-        "url": "https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-20-7-pm/concert/18016784",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6536764,
@@ -3689,7 +3689,7 @@
         "event_id": 18107920,
         "url": "https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-21-7-pm/concert/18107920",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {

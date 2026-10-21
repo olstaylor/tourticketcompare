@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18612836,
+        "url": "https://seatgeek.com/the-interrupters-tickets/tempe-arizona-marquee-theatre-tempe-az-2027-03-19-7-pm/concert/18612836",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7592422,
@@ -481,7 +481,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E00652EDB2FC73A",
     "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-atlanta-georgia-03-30-2027/event/0E00652EDB2FC73A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-interrupters-tickets/atlanta-georgia-the-masquerade-heaven-2027-03-30-6-pm/concert/18613133",
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-atlanta-the-masquerade---heaven-3-30-2027--concerts-rock/production/7592434",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-atlanta-georgia-03-30-2027/event/0E00652EDB2FC73A",
@@ -497,11 +497,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18613133,
+        "url": "https://seatgeek.com/the-interrupters-tickets/atlanta-georgia-the-masquerade-heaven-2027-03-30-6-pm/concert/18613133",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7592434,
@@ -1636,11 +1636,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18612867,
+        "url": "https://seatgeek.com/the-interrupters-tickets/anaheim-california-house-of-blues-anaheim-2027-05-02-5-pm/concert/18612867",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7592480,

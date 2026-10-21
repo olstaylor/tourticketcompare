@@ -455,7 +455,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F0064B5A05FA0E0",
     "ticketmaster_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-portland-oregon-10-29-2026/event/0F0064B5A05FA0E0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/bryson-tiller-tickets/portland-oregon-veterans-memorial-coliseum-2-2026-10-29-7-30-pm/concert/18280927",
     "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-portland-veterans-memorial-coliseum---portland-10-29-2026--concerts-rb/production/7104571",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-portland-oregon-10-29-2026/event/0F0064B5A05FA0E0",
@@ -471,11 +471,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18280927,
+        "url": "https://seatgeek.com/bryson-tiller-tickets/portland-oregon-veterans-memorial-coliseum-2-2026-10-29-7-30-pm/concert/18280927",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7104571,

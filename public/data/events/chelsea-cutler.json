@@ -1021,11 +1021,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18639204,
+        "url": "https://seatgeek.com/chelsea-cutler-tickets/san-diego-california-the-observatory-north-park-2027-03-05-7-pm/concert/18639204",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7637476,
@@ -1089,7 +1089,7 @@
     "tour_name": "IS THIS THE END? Tour",
     "ticketmaster_event_id": "1E00653CE2001EB3",
     "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-boise-idaho-03-10-2027/event/1E00653CE2001EB3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/chelsea-cutler-tickets/boise-idaho-knitting-factory-concert-house-boise-2027-03-10-7-pm/concert/18639212",
     "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-boise-knitting-factory-concert-house-boise-3-10-2027/production/7637474",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-boise-idaho-03-10-2027/event/1E00653CE2001EB3",
@@ -1105,11 +1105,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18639212,
+        "url": "https://seatgeek.com/chelsea-cutler-tickets/boise-idaho-knitting-factory-concert-house-boise-2027-03-10-7-pm/concert/18639212",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7637474,

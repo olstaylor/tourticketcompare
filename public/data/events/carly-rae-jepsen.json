@@ -1818,7 +1818,7 @@
     "tour_name": "Day and Night Tour",
     "ticketmaster_event_id": "1000653A09F7D88D",
     "ticketmaster_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-toronto-ontario-05-25-2027/event/1000653A09F7D88D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/carly-rae-jepsen-tickets/toronto-canada-history-2027-05-25-7-30-pm/concert/18639055",
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-toronto-history-toronto-5-25-2027--concerts-pop/production/7636677",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-toronto-ontario-05-25-2027/event/1000653A09F7D88D",
@@ -1834,11 +1834,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18639055,
+        "url": "https://seatgeek.com/carly-rae-jepsen-tickets/toronto-canada-history-2027-05-25-7-30-pm/concert/18639055",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7636677,
@@ -1884,7 +1884,7 @@
     "tour_name": "Day and Night Tour",
     "ticketmaster_event_id": "3100653A1E1309BA",
     "ticketmaster_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-ottawa-ontario-05-28-2027/event/3100653A1E1309BA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/carly-rae-jepsen-tickets/ottawa-canada-history-ottawa-2027-05-28-7-30-pm/concert/18639058",
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-ottawa-history-ottawa-5-28-2027--concerts-pop/production/7636679",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-ottawa-ontario-05-28-2027/event/3100653A1E1309BA",
@@ -1900,11 +1900,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18639058,
+        "url": "https://seatgeek.com/carly-rae-jepsen-tickets/ottawa-canada-history-ottawa-2027-05-28-7-30-pm/concert/18639058",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7636679,
@@ -2039,7 +2039,7 @@
     "tour_name": "Day and Night Tour",
     "ticketmaster_event_id": "10006544C72C8970",
     "ticketmaster_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-toronto-ontario-05-26-2027/event/10006544C72C8970",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/carly-rae-jepsen-tickets/toronto-canada-history-2027-05-26-6-30-pm/concert/18657110",
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-toronto-history-toronto-5-26-2027--concerts-pop/production/7661633",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-toronto-ontario-05-26-2027/event/10006544C72C8970",
@@ -2055,11 +2055,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18657110,
+        "url": "https://seatgeek.com/carly-rae-jepsen-tickets/toronto-canada-history-2027-05-26-6-30-pm/concert/18657110",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7661633,
@@ -2124,7 +2124,7 @@
         "event_id": 18639014,
         "url": "https://seatgeek.com/carly-rae-jepsen-tickets/portland-oregon-arlene-schnitzer-concert-hall-2027-04-19-7-30-pm/concert/18639014",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2196,7 +2196,7 @@
         "event_id": 18639047,
         "url": "https://seatgeek.com/carly-rae-jepsen-tickets/morrison-colorado-red-rocks-amphitheatre-2027-04-25-7-30-pm/concert/18639047",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2276,7 +2276,7 @@
         "event_id": 18639063,
         "url": "https://seatgeek.com/carly-rae-jepsen-tickets/salt-lake-city-utah-the-complex-2027-04-27-7-30-pm/concert/18639063",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {

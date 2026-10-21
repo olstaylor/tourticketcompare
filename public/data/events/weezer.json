@@ -221,7 +221,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1900646DE31FCD84",
     "ticketmaster_url": "https://www.ticketmaster.com/weezer-the-gathering-phoenix-arizona-10-20-2026/event/1900646DE31FCD84",
-    "seatgeek_url": "https://seatgeek.com/weezer-tickets/phoenix-arizona-mortgage-matchup-center-2026-10-20-7-pm/concert/18147545",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/weezer-tickets-phoenix-mortgage-matchup-center-10-20-2026/production/6833900",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/weezer-the-gathering-phoenix-arizona-10-20-2026/event/1900646DE31FCD84",
@@ -237,11 +237,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18147545,
-        "url": "https://seatgeek.com/weezer-tickets/phoenix-arizona-mortgage-matchup-center-2026-10-20-7-pm/concert/18147545",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6833900,
@@ -329,7 +329,7 @@
         "event_id": 18147546,
         "url": "https://seatgeek.com/weezer-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-10-21-7-pm/concert/18147546",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -488,7 +488,7 @@
         "event_id": 18147549,
         "url": "https://seatgeek.com/weezer-tickets/los-angeles-california-crypto-com-arena-2026-10-24-7-pm/concert/18147549",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {

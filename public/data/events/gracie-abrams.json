@@ -2504,11 +2504,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270568,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/montreal-canada-centre-bell-2027-03-08-8-pm/concert/18270568",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091595,
@@ -2586,11 +2586,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270572,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/montreal-canada-centre-bell-2027-03-09-8-pm/concert/18270572",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091597,

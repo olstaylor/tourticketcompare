@@ -438,11 +438,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18618105,
+        "url": "https://seatgeek.com/lukas-graham-tickets/new-york-new-york-irving-plaza-2027-03-10-7-pm/concert/18618105",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -636,7 +636,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "100065322260F657",
     "ticketmaster_url": "https://www.ticketmaster.ca/lukas-graham-toronto-ontario-04-06-2027/event/100065322260F657",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lukas-graham-tickets/toronto-canada-the-danforth-music-hall-2027-04-06-7-pm/concert/18618029",
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-toronto-the-danforth-music-hall-4-6-2027/production/7600952",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/lukas-graham-toronto-ontario-04-06-2027/event/100065322260F657",
@@ -652,11 +652,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18618029,
+        "url": "https://seatgeek.com/lukas-graham-tickets/toronto-canada-the-danforth-music-hall-2027-04-06-7-pm/concert/18618029",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7600952,
@@ -830,7 +830,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0600653221834624",
     "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-minneapolis-minnesota-04-10-2027/event/0600653221834624",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lukas-graham-tickets/minneapolis-minnesota-uptown-theater-minneapolis-2027-04-10-7-pm/concert/18618814",
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-minneapolis-uptown-theater-minneapolis-4-10-2027--concerts-pop/production/7600599",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-minneapolis-minnesota-04-10-2027/event/0600653221834624",
@@ -846,11 +846,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18618814,
+        "url": "https://seatgeek.com/lukas-graham-tickets/minneapolis-minnesota-uptown-theater-minneapolis-2027-04-10-7-pm/concert/18618814",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7600599,

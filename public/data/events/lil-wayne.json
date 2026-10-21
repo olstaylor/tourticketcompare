@@ -304,11 +304,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18128377,
+        "url": "https://seatgeek.com/lil-wayne-tickets/reading-pennsylvania-santander-arena-2027-02-26-7-30-pm/concert/18128377",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

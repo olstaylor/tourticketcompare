@@ -206,11 +206,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18252137,
+        "url": "https://seatgeek.com/morat-tickets/rosemont-illinois-rosemont-theatre-2027-03-05-8-pm/concert/18252137",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -751,7 +751,7 @@
     "tour_name": "YEM: Ya Es Mañana World Tour 2027",
     "ticketmaster_event_id": "100064B27543259C",
     "ticketmaster_url": "https://www.ticketmaster.ca/morat-yem-world-tour-2027-toronto-ontario-03-26-2027/event/100064B27543259C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morat-tickets/toronto-canada-history-2027-03-26-7-pm/concert/18252780",
     "vividseats_url": "https://www.vividseats.com/morat-tickets-toronto-history-toronto-3-26-2027--concerts-pop/production/7048962",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/morat-yem-world-tour-2027-toronto-ontario-03-26-2027/event/100064B27543259C",
@@ -767,11 +767,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18252780,
+        "url": "https://seatgeek.com/morat-tickets/toronto-canada-history-2027-03-26-7-pm/concert/18252780",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7048962,

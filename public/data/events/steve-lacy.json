@@ -408,7 +408,7 @@
         "event_id": 18485924,
         "url": "https://seatgeek.com/steve-lacy-tickets/charlotte-north-carolina-skyla-credit-union-amphitheatre-2026-10-22-8-pm/concert/18485924",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -480,7 +480,7 @@
         "event_id": 18485929,
         "url": "https://seatgeek.com/steve-lacy-tickets/raleigh-north-carolina-red-hat-amphitheater-2026-10-23-8-pm/concert/18485929",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -533,7 +533,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D006505BD856502",
     "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-miami-florida-10-26-2026/event/0D006505BD856502",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/steve-lacy-tickets/miami-florida-fpl-solar-amphitheater-at-bayfront-park-2026-10-26-8-pm/concert/18485930",
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-miami-fpl-solar-amphitheater-at-bayfront-park-10-26-2026--concerts-rb/production/7423290",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-miami-florida-10-26-2026/event/0D006505BD856502",
@@ -549,11 +549,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18485930,
+        "url": "https://seatgeek.com/steve-lacy-tickets/miami-florida-fpl-solar-amphitheater-at-bayfront-park-2026-10-26-8-pm/concert/18485930",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7423290,

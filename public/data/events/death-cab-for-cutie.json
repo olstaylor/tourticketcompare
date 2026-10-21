@@ -380,11 +380,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18604169,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/nashville-tennessee-the-truth-nashville-2027-03-11-8-pm/concert/18604169",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571341,
@@ -765,11 +765,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18604164,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2027-03-30-8-pm/concert/18604164",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571322,
@@ -821,7 +821,7 @@
     "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "1000652FB1ADE6B1",
     "ticketmaster_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-niagara-falls-ontario-04-03-2027/event/1000652FB1ADE6B1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/niagara-falls-canada-olg-stage-at-fallsview-casino-2027-04-03-8-pm/concert/18604098",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-niagara-falls-olg-stage-at-fallsview-casino-4-3-2027--concerts-alternative/production/7571288",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-niagara-falls-ontario-04-03-2027/event/1000652FB1ADE6B1",
@@ -837,11 +837,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18604098,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/niagara-falls-canada-olg-stage-at-fallsview-casino-2027-04-03-8-pm/concert/18604098",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571288,
@@ -874,7 +874,7 @@
     "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "3100652F229DCFB2",
     "ticketmaster_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-ottawa-ontario-04-04-2027/event/3100652F229DCFB2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/ottawa-canada-history-ottawa-2027-04-04-7-pm/concert/18604166",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-ottawa-history-ottawa-4-4-2027--concerts-alternative/production/7571284",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-ottawa-ontario-04-04-2027/event/3100652F229DCFB2",
@@ -890,11 +890,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18604166,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/ottawa-canada-history-ottawa-2027-04-04-7-pm/concert/18604166",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571284,
@@ -1187,11 +1187,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18603584,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/uncasville-connecticut-mohegan-sun-arena-2027-04-09-8-pm/concert/18603584",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571310,
@@ -1256,11 +1256,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18603742,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/portland-maine-state-theatre-portland-me-2027-04-11-8-pm/concert/18603742",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571306,
@@ -1401,7 +1401,7 @@
     "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "2D00652B2043D4EE",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-asheville-north-carolina-04-16-2027/event/2D00652B2043D4EE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/asheville-north-carolina-harrah-s-cherokee-center-asheville-2027-04-16-8-pm/concert/18603768",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-asheville-harrahs-cherokee-center-asheville-4-16-2027--concerts-alternative/production/7571292",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-asheville-north-carolina-04-16-2027/event/2D00652B2043D4EE",
@@ -1417,11 +1417,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18603768,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/asheville-north-carolina-harrah-s-cherokee-center-asheville-2027-04-16-8-pm/concert/18603768",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571292,
@@ -1545,7 +1545,7 @@
         "event_id": 18604671,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/atlanta-georgia-the-eastern-atlanta-2027-03-15-8-pm/concert/18604671",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1614,7 +1614,7 @@
         "event_id": 18604673,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-03-17-7-pm/concert/18604673",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1667,7 +1667,7 @@
         "event_id": 18604674,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/new-orleans-louisiana-saenger-theatre-new-orleans-2027-03-26-7-30-pm/concert/18604674",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1736,7 +1736,7 @@
         "event_id": 18604682,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/detroit-michigan-the-masonic-temple-theatre-detroit-2027-04-01-8-pm/concert/18604682",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1789,7 +1789,7 @@
         "event_id": 18604675,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/huntsville-alabama-orion-amphitheater-2027-03-27-8-pm/concert/18604675",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1858,7 +1858,7 @@
         "event_id": 18604672,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/dallas-texas-the-bomb-factory-dallas-2027-03-24-8-pm/concert/18604672",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {

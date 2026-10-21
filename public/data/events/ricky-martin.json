@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7JAx9",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JAx9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/ricky-martin-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-10-23-8-pm/concert/18351068",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JAx9",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18351068,
+        "url": "https://seatgeek.com/ricky-martin-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-10-23-8-pm/concert/18351068",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -80,11 +80,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18370911,
+        "url": "https://seatgeek.com/ricky-martin-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2026-10-30-8-pm/concert/18370911",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -133,11 +133,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18370916,
+        "url": "https://seatgeek.com/ricky-martin-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2026-10-31-8-pm/concert/18370916",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -186,11 +186,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18318163,
+        "url": "https://seatgeek.com/ricky-martin-tickets/lincoln-california-the-venue-at-thunder-valley-casino-resort-2026-11-06-8-pm/concert/18318163",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -239,11 +239,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18325393,
+        "url": "https://seatgeek.com/ricky-martin-tickets/temecula-california-pechanga-resort-casino-2026-11-08-7-30-pm/concert/18325393",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

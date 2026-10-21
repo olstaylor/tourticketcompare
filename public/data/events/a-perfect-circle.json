@@ -521,7 +521,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "10006537B76D9DFD",
     "ticketmaster_url": "https://www.ticketmaster.ca/a-perfect-circle-niagara-falls-ontario-04-22-2027/event/10006537B76D9DFD",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/a-perfect-circle-tickets/niagara-falls-canada-olg-stage-at-fallsview-casino-2027-04-22-7-pm/concert/18632509",
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-niagara-falls-olg-stage-at-fallsview-casino-4-22-2027--concerts-alternative/production/7623563",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/a-perfect-circle-niagara-falls-ontario-04-22-2027/event/10006537B76D9DFD",
@@ -537,11 +537,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18632509,
+        "url": "https://seatgeek.com/a-perfect-circle-tickets/niagara-falls-canada-olg-stage-at-fallsview-casino-2027-04-22-7-pm/concert/18632509",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623563,
@@ -581,7 +581,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "10006537B7709E00",
     "ticketmaster_url": "https://www.ticketmaster.ca/a-perfect-circle-niagara-falls-ontario-04-23-2027/event/10006537B7709E00",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/a-perfect-circle-tickets/niagara-falls-canada-olg-stage-at-fallsview-casino-2027-04-23-7-pm/concert/18632508",
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-niagara-falls-olg-stage-at-fallsview-casino-4-23-2027--concerts-alternative/production/7623565",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/a-perfect-circle-niagara-falls-ontario-04-23-2027/event/10006537B7709E00",
@@ -597,11 +597,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18632508,
+        "url": "https://seatgeek.com/a-perfect-circle-tickets/niagara-falls-canada-olg-stage-at-fallsview-casino-2027-04-23-7-pm/concert/18632508",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623565,
@@ -1207,7 +1207,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A006539BBD3CB07",
     "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-the-woodlands-texas-05-07-2027/event/3A006539BBD3CB07",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/a-perfect-circle-tickets/the-woodlands-texas-the-cynthia-woods-mitchell-pavilion-presented-by-huntsman-2027-05-07-8-pm/concert/18632528",
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-the-woodlands-cynthia-woods-mitchell-pavilion-5-7-2027/production/7623571",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-the-woodlands-texas-05-07-2027/event/3A006539BBD3CB07",
@@ -1223,11 +1223,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18632528,
+        "url": "https://seatgeek.com/a-perfect-circle-tickets/the-woodlands-texas-the-cynthia-woods-mitchell-pavilion-presented-by-huntsman-2027-05-07-8-pm/concert/18632528",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623571,
@@ -1588,7 +1588,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "21006539BCB49DE0",
     "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-shakopee-minnesota-05-23-2027/event/21006539BCB49DE0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/a-perfect-circle-tickets/shakopee-minnesota-mystic-lake-amphitheater-2027-05-23-7-pm/concert/18632539",
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-shakopee-mystic-lake-amphitheater---shakopee-5-23-2027--concerts-alternative/production/7623591",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-shakopee-minnesota-05-23-2027/event/21006539BCB49DE0",
@@ -1604,11 +1604,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18632539,
+        "url": "https://seatgeek.com/a-perfect-circle-tickets/shakopee-minnesota-mystic-lake-amphitheater-2027-05-23-7-pm/concert/18632539",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623591,
@@ -2447,7 +2447,7 @@
         "event_id": 18632531,
         "url": "https://seatgeek.com/a-perfect-circle-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-05-08-8-pm/concert/18632531",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2516,7 +2516,7 @@
         "event_id": 18632540,
         "url": "https://seatgeek.com/a-perfect-circle-tickets/morrison-colorado-red-rocks-amphitheatre-2027-05-27-7-30-pm/concert/18632540",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {

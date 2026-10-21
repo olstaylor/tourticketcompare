@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "150064ADB9B79BE3",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-fairfax-virginia-10-21-2026/event/150064ADB9B79BE3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/arcangel-tickets/fairfax-virginia-eaglebank-arena-2026-10-21-8-pm/concert/18266310",
     "vividseats_url": "https://www.vividseats.com/arcangel-tickets-fairfax-eaglebank-arena-10-21-2026--concerts-rap-hip-hop/production/7079476",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-fairfax-virginia-10-21-2026/event/150064ADB9B79BE3",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18266310,
+        "url": "https://seatgeek.com/arcangel-tickets/fairfax-virginia-eaglebank-arena-2026-10-21-8-pm/concert/18266310",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7079476,
@@ -75,7 +75,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1D0064A5C49686F4",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-wallingford-connecticut-10-22-2026/event/1D0064A5C49686F4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/arcangel-tickets/wallingford-connecticut-toyota-oakdale-theatre-2026-10-22-8-pm/concert/18266307",
     "vividseats_url": "https://www.vividseats.com/arcangel-tickets-wallingford-toyota-oakdale-theatre-10-22-2026--concerts-rap-hip-hop/production/7079483",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-wallingford-connecticut-10-22-2026/event/1D0064A5C49686F4",
@@ -91,11 +91,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18266307,
+        "url": "https://seatgeek.com/arcangel-tickets/wallingford-connecticut-toyota-oakdale-theatre-2026-10-22-8-pm/concert/18266307",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7079483,
@@ -139,7 +139,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "300064ADA23D61BB",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-brooklyn-new-york-10-23-2026/event/300064ADA23D61BB",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/arcangel-tickets/brooklyn-new-york-barclays-center-2026-10-23-8-pm/concert/18266317",
     "vividseats_url": "https://www.vividseats.com/arcangel-tickets-brooklyn-barclays-center-10-23-2026--concerts-rap-hip-hop/production/7079492",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-brooklyn-new-york-10-23-2026/event/300064ADA23D61BB",
@@ -155,11 +155,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18266317,
+        "url": "https://seatgeek.com/arcangel-tickets/brooklyn-new-york-barclays-center-2026-10-23-8-pm/concert/18266317",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7079492,
@@ -267,7 +267,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "010064ADC0FD59D3",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-boston-massachusetts-10-28-2026/event/010064ADC0FD59D3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/arcangel-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-10-28-8-pm/concert/18266319",
     "vividseats_url": "https://www.vividseats.com/arcangel-tickets-boston-mgm-music-hall-at-fenway-10-28-2026--concerts-rap-hip-hop/production/7079496",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-boston-massachusetts-10-28-2026/event/010064ADC0FD59D3",
@@ -283,11 +283,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18266319,
+        "url": "https://seatgeek.com/arcangel-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-10-28-8-pm/concert/18266319",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7079496,
@@ -338,7 +338,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "040064AD908D649F",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-rosemont-illinois-10-31-2026/event/040064AD908D649F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/arcangel-tickets/rosemont-illinois-rosemont-theatre-2026-10-31-8-pm/concert/18266320",
     "vividseats_url": "https://www.vividseats.com/arcangel-tickets-rosemont-rosemont-theatre-10-31-2026--concerts-rap-hip-hop/production/7079497",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-rosemont-illinois-10-31-2026/event/040064AD908D649F",
@@ -354,11 +354,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18266320,
+        "url": "https://seatgeek.com/arcangel-tickets/rosemont-illinois-rosemont-theatre-2026-10-31-8-pm/concert/18266320",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7079497,
@@ -409,7 +409,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A0064B49C099594",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-houston-texas-11-05-2026/event/3A0064B49C099594",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/arcangel-tickets/houston-texas-713-music-hall-2026-11-05-8-pm/concert/18266325",
     "vividseats_url": "https://www.vividseats.com/arcangel-tickets-houston-713-music-hall-11-5-2026--concerts-rap-hip-hop/production/7079513",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-houston-texas-11-05-2026/event/3A0064B49C099594",
@@ -425,11 +425,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18266325,
+        "url": "https://seatgeek.com/arcangel-tickets/houston-texas-713-music-hall-2026-11-05-8-pm/concert/18266325",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7079513,
@@ -480,7 +480,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C0064B4F97758BF",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-irving-texas-11-06-2026/event/0C0064B4F97758BF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/arcangel-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-11-06-8-pm/concert/18266326",
     "vividseats_url": "https://www.vividseats.com/arcangel-tickets-irving-pavilion-at-toyota-music-factory-11-6-2026--concerts-rap-hip-hop/production/7079432",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-irving-texas-11-06-2026/event/0C0064B4F97758BF",
@@ -496,11 +496,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18266326,
+        "url": "https://seatgeek.com/arcangel-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-11-06-8-pm/concert/18266326",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7079432,
@@ -551,7 +551,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1E0064AEB279A359",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-denver-colorado-11-15-2026/event/1E0064AEB279A359",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/arcangel-tickets/denver-colorado-paramount-theatre-co-2026-11-15-8-pm/concert/18266329",
     "vividseats_url": "https://www.vividseats.com/arcangel-tickets-denver-paramount-theatre-denver-11-15-2026--concerts-rap-hip-hop/production/7079515",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-denver-colorado-11-15-2026/event/1E0064AEB279A359",
@@ -567,11 +567,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18266329,
+        "url": "https://seatgeek.com/arcangel-tickets/denver-colorado-paramount-theatre-co-2026-11-15-8-pm/concert/18266329",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7079515,
@@ -622,7 +622,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1E0064B4954A8177",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-salt-lake-city-utah-11-18-2026/event/1E0064B4954A8177",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/arcangel-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-11-18-8-pm/concert/18266330",
     "vividseats_url": "https://www.vividseats.com/arcangel-tickets-salt-lake-city-the-union-event-center---salt-lake-city-11-18-2026--concerts-rap-hip-hop/production/7079517",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-salt-lake-city-utah-11-18-2026/event/1E0064B4954A8177",
@@ -638,11 +638,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18266330,
+        "url": "https://seatgeek.com/arcangel-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-11-18-8-pm/concert/18266330",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7079517,

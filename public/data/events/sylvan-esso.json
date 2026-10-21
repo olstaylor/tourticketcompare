@@ -1751,11 +1751,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18299179,
+        "url": "https://seatgeek.com/sylvan-esso-tickets/dallas-texas-house-of-blues-dallas-2027-03-09-7-pm/concert/18299179",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7144136,

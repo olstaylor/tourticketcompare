@@ -45990,5 +45990,41 @@
     "timezone": "America/Los_Angeles",
     "tour_name": "",
     "status": "announced"
+  },
+  {
+    "id": "tm-sienna-spiro-2027-new-york-g5dyz_46d6wnd",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "country": "United States Of America",
+    "city": "New York",
+    "venue": "Radio City Music Hall",
+    "datetime_iso": "2027-08-19T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-yacht-rock-revue-2027-atlanta-z7r9jz1aa7oau",
+    "artist_slug": "yacht-rock-revue",
+    "artist_name": "Yacht Rock Revue",
+    "country": "United States Of America",
+    "city": "Atlanta",
+    "venue": "The Eastern-GA",
+    "datetime_iso": "2027-02-28T01:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-earth-wind-fire-2027-saint-augustine-z7r9jz1aaeb-p",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "country": "United States Of America",
+    "city": "Saint Augustine",
+    "venue": "St Augustine Amphitheatre",
+    "datetime_iso": "2027-04-14T23:30:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

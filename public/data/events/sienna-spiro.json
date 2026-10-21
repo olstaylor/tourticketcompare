@@ -3033,5 +3033,59 @@
     "timezone": "America/Mexico_City",
     "status": "announced",
     "public_onsale_at": "2026-10-23T16:00:00Z"
+  },
+  {
+    "id": "tm-sienna-spiro-2027-new-york-g5dyz_46d6wnd",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour (Extended)",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Radio City Music Hall",
+    "datetime_iso": "2027-08-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3C006551FB1F28C3",
+    "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-new-york-new-york-08-18-2027/event/3C006551FB1F28C3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-new-york-new-york-08-18-2027/event/3C006551FB1F28C3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3C006551FB1F28C3",
+        "discovery_event_id": "G5dYZ_46D6wNd",
+        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-new-york-new-york-08-18-2027/event/3C006551FB1F28C3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dYZ_46D6wNd",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T14:00:00Z"
   }
 ]

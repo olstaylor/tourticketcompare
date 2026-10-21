@@ -114,12 +114,20 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667151",
+        "url": "https://www.stubhub.ie/stevie-wonder-tickets-stockholm-3arena-22-10-2026/event/107667151",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZq2Z16vqOZokb",
     "timezone": "Europe/Stockholm",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252667/Stevie-Wonder-tickets-Thu-Oct-22-2026-3Arena-Stockholm"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252667/Stevie-Wonder-tickets-Thu-Oct-22-2026-3Arena-Stockholm",
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-stockholm-3arena-22-10-2026/event/107667151"
   },
   {
     "id": "tm-stevie-wonder-2026-hannover-z698xzc2z16v78zovo",
@@ -175,12 +183,20 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667152",
+        "url": "https://www.stubhub.ie/stevie-wonder-tickets-hannover-zag-arena-24-10-2026/event/107667152",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16v78ZOvO",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252668/Stevie-Wonder-tickets-Sat-Oct-24-2026-ZAG-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252668/Stevie-Wonder-tickets-Sat-Oct-24-2026-ZAG-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-hannover-zag-arena-24-10-2026/event/107667152"
   },
   {
     "id": "tm-stevie-wonder-2026-amsterdam-z698xzbpz16vcpofak",
@@ -236,12 +252,20 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667149",
+        "url": "https://www.stubhub.ie/stevie-wonder-tickets-amsterdam-ziggo-dome-28-10-2026/event/107667149",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vCpOFak",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252672/Stevie-Wonder-tickets-Wed-Oct-28-2026-Ziggo-Dome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252672/Stevie-Wonder-tickets-Wed-Oct-28-2026-Ziggo-Dome",
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-amsterdam-ziggo-dome-28-10-2026/event/107667149"
   },
   {
     "id": "tm-stevie-wonder-2026-dublin-1avoz_ogkmfynew",
@@ -343,11 +367,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107667153",
+        "url": "https://www.stubhub.ie/stevie-wonder-tickets-london-the-o2-arena-3-11-2026/event/107667153",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_oGkluZBFE",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-london-the-o2-arena-3-11-2026/event/107667153"
   },
   {
     "id": "tm-stevie-wonder-2026-london-1adfz_ogkwbmppe",
@@ -396,11 +428,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666210",
+        "url": "https://www.stubhub.ie/stevie-wonder-tickets-london-the-o2-arena-5-11-2026/event/107666210",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_oGkwbmppE",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-london-the-o2-arena-5-11-2026/event/107666210"
   },
   {
     "id": "tm-stevie-wonder-2026-manchester-1adjz_ogklby6m_",
@@ -456,12 +496,20 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667154",
+        "url": "https://www.stubhub.ie/stevie-wonder-tickets-manchester-co-op-live-8-11-2026/event/107667154",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_oGklbY6m_",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252674/Stevie-Wonder-tickets-Sun-Nov-8-2026-Co-Op-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252674/Stevie-Wonder-tickets-Sun-Nov-8-2026-Co-Op-Live",
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-manchester-co-op-live-8-11-2026/event/107667154"
   },
   {
     "id": "tm-stevie-wonder-2026-glasgow-1adbz_ogkw2mz1l",
@@ -517,12 +565,20 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667156",
+        "url": "https://www.stubhub.ie/stevie-wonder-tickets-glasgow-ovo-hydro-arena-glasgow-11-11-2026/event/107667156",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdbZ_oGkw2mz1l",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252675/Stevie-Wonder-tickets-Wed-Nov-11-2026-OVO-Hydro"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252675/Stevie-Wonder-tickets-Wed-Nov-11-2026-OVO-Hydro",
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-glasgow-ovo-hydro-arena-glasgow-11-11-2026/event/107667156"
   },
   {
     "id": "tm-stevie-wonder-2026-new-york-g5diz_gpossvv",
@@ -578,12 +634,20 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667142",
+        "url": "https://www.stubhub.ie/stevie-wonder-new-york-tickets-11-19-2026/event/107667142",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_GpOSSVv",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252655/Stevie-Wonder-tickets-Thu-Nov-19-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252655/Stevie-Wonder-tickets-Thu-Nov-19-2026-Madison-Square-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-new-york-tickets-11-19-2026/event/107667142"
   },
   {
     "id": "tm-stevie-wonder-2026-chicago-vv1a7zkfngkd8ke_p",
@@ -639,12 +703,20 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107665890",
+        "url": "https://www.stubhub.ie/stevie-wonder-chicago-tickets-11-21-2026/event/107665890",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfNGkd8KE_P",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252656/Stevie-Wonder-tickets-Sat-Nov-21-2026-United-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252656/Stevie-Wonder-tickets-Sat-Nov-21-2026-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-chicago-tickets-11-21-2026/event/107665890"
   },
   {
     "id": "tm-stevie-wonder-2026-washington-1a4zkfxgkdptcca",
@@ -700,12 +772,20 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667143",
+        "url": "https://www.stubhub.ie/stevie-wonder-washington-tickets-11-23-2026/event/107667143",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfxGkdPTCCa",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252657/Stevie-Wonder-tickets-Mon-Nov-23-2026-Capital-One-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252657/Stevie-Wonder-tickets-Mon-Nov-23-2026-Capital-One-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-washington-tickets-11-23-2026/event/107667143"
   },
   {
     "id": "tm-stevie-wonder-2026-detroit-vv1kezvpa-gaukuph",
@@ -761,12 +841,20 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667145",
+        "url": "https://www.stubhub.ie/stevie-wonder-detroit-tickets-12-8-2026/event/107667145",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1keZvPa-GAukupH",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252658/Stevie-Wonder-tickets-Tue-Dec-8-2026-Fox-Theatre-Detroit"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252658/Stevie-Wonder-tickets-Tue-Dec-8-2026-Fox-Theatre-Detroit",
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-detroit-tickets-12-8-2026/event/107667145"
   },
   {
     "id": "tm-stevie-wonder-2026-detroit-vv1koz_3bxg7sqna",
@@ -822,12 +910,20 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667146",
+        "url": "https://www.stubhub.ie/stevie-wonder-detroit-tickets-12-9-2026/event/107667146",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kOZ_3bxG7sqnA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252659/Stevie-Wonder-tickets-Wed-Dec-9-2026-Fox-Theatre-Detroit"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252659/Stevie-Wonder-tickets-Wed-Dec-9-2026-Fox-Theatre-Detroit",
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-detroit-tickets-12-9-2026/event/107667146"
   },
   {
     "id": "tm-stevie-wonder-2026-inglewood-vv1aazkf0onvvzeug",
@@ -883,11 +979,19 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667148",
+        "url": "https://www.stubhub.ie/stevie-wonder-inglewood-tickets-12-19-2026/event/107667148",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1aaZkf0ONvvZeuG",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252660/Stevie-Wonder-tickets-Sat-Dec-19-2026-Intuit-Dome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252660/Stevie-Wonder-tickets-Sat-Dec-19-2026-Intuit-Dome",
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-inglewood-tickets-12-19-2026/event/107667148"
   }
 ]

@@ -621,7 +621,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-smashing-pumpkins-the-rats-in-denver-colorado-10-27-2026/event/1E0064AF9AD28F74",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -665,13 +665,6 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-denver-tickets-10-27-2026/event/107185114",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-21T16:00:00Z",
-        "end": "2026-10-21T04:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

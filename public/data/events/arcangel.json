@@ -207,7 +207,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-philadelphia-pennsylvania-10-24-2026/event/020064ACD3DEEC4B",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -253,13 +253,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997045/Arcangel-tickets-Sat-Oct-24-2026-The-Met-Presented-by-Highmark",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-05-28T14:00:00Z",
-        "end": "2026-10-20T16:00:00Z"
-      }
     ]
   },
   {

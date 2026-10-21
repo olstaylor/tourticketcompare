@@ -2840,7 +2840,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-glasgow-18-01-2027/event/3600654E99D23B5D",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2879,7 +2879,8 @@
     "public_onsale_at": "2026-10-23T09:00:00Z",
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD",
-      "SWG3 LTD"
+      "SWG3 LTD",
+      "LNM - VIP NATION UK"
     ],
     "presales": [
       {
@@ -3001,7 +3002,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-london-21-01-2027/event/36006550E24495DA",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3044,6 +3045,9 @@
         "start": "2026-10-21T09:00:00Z",
         "end": "2026-10-23T08:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LNM - VIP NATION UK"
     ]
   },
   {
@@ -3062,7 +3066,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/saint-levant-ciudad-de-mexico-02-02-2027/event/3D0065149AE337ED",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3103,16 +3107,6 @@
       "OCESA"
     ],
     "presales": [
-      {
-        "name": "Preventa Banamex",
-        "start": "2026-10-20T17:00:00Z",
-        "end": "2026-10-21T05:59:00Z"
-      },
-      {
-        "name": "Preventa Banamex Paquetes VIP",
-        "start": "2026-10-20T17:00:00Z",
-        "end": "2026-10-21T05:59:00Z"
-      },
       {
         "name": "Venta General Paquetes VIP",
         "start": "2026-10-21T17:00:00Z",

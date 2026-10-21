@@ -175,12 +175,20 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668142",
+        "url": "https://www.stubhub.ie/elevation-worship-sacramento-tickets-3-1-2027/event/107668142",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_38ZVlQx",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264723/Elevation-Worship-tickets-Mon-Mar-1-2027-Golden-1-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264723/Elevation-Worship-tickets-Mon-Mar-1-2027-Golden-1-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/elevation-worship-sacramento-tickets-3-1-2027/event/107668142"
   },
   {
     "id": "tm-elevation-worship-2027-oakland-g5vyz_3npydie",
@@ -297,12 +305,20 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668144",
+        "url": "https://www.stubhub.ie/elevation-worship-anaheim-tickets-3-3-2027/event/107668144",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16aZkfIvPZA5vuG5",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264725/Elevation-Worship-tickets-Wed-Mar-3-2027-Honda-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264725/Elevation-Worship-tickets-Wed-Mar-3-2027-Honda-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/elevation-worship-anaheim-tickets-3-3-2027/event/107668144"
   },
   {
     "id": "tm-elevation-worship-2027-san-diego-vvg1iz_37k-njg",
@@ -480,11 +496,19 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668145",
+        "url": "https://www.stubhub.ie/elevation-worship-inglewood-tickets-3-7-2027/event/107668145",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZkfIGkdEWunN",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264728/Elevation-Worship-tickets-Sun-Mar-7-2027-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264728/Elevation-Worship-tickets-Sun-Mar-7-2027-The-Kia-Forum",
+    "stubhub_international_url": "https://www.stubhub.ie/elevation-worship-inglewood-tickets-3-7-2027/event/107668145"
   }
 ]

@@ -1265,6 +1265,13 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674278",
+        "url": "https://www.stubhub.ie/zach-bryan-east-rutherford-tickets-5-14-2027/event/107674278",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_fSxRnwp",
@@ -1284,7 +1291,8 @@
         "start": "2026-10-22T14:00:00Z",
         "end": "2026-10-23T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-east-rutherford-tickets-5-14-2027/event/107674278"
   },
   {
     "id": "tm-zach-bryan-2027-east-rutherford-k7vgf_fs0cbhd",
@@ -1347,6 +1355,13 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674279",
+        "url": "https://www.stubhub.ie/zach-bryan-east-rutherford-tickets-5-15-2027/event/107674279",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_fS0cBHD",
@@ -1366,7 +1381,8 @@
         "start": "2026-10-22T14:00:00Z",
         "end": "2026-10-23T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-east-rutherford-tickets-5-15-2027/event/107674279"
   },
   {
     "id": "tm-zach-bryan-2027-philadelphia-vv17fz_fgksiy1rz",

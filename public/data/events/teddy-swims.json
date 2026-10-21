@@ -1124,11 +1124,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107158270",
-        "url": "https://www.stubhub.ie/teddy-swims-atlanta-tickets-10-20-2026/event/107158270",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_FUW3nLL",
@@ -1136,7 +1136,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883105",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883105/Teddy-Swims-tickets-Tue-Oct-20-2026-State-Farm-Arena-GA",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-atlanta-tickets-10-20-2026/event/107158270",
+    "stubhub_international_url": "",
     "organizer_names": [
       "AEG LIVE"
     ]

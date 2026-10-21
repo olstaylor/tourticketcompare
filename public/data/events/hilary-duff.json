@@ -2988,18 +2988,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7800051",
-        "url": "https://www.ticketliquidator.com/tickets/7800051/Hilary-Duff-tickets-Tue-Oct-20-2026-Spark-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae8Z_7GkmdMw55",
     "timezone": "Pacific/Auckland",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7800051",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7800051/Hilary-Duff-tickets-Tue-Oct-20-2026-Spark-Arena",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
     ]

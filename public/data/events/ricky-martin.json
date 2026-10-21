@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7JAx9",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JAx9",
     "seatgeek_url": "https://seatgeek.com/ricky-martin-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-10-23-8-pm/concert/18351068",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ricky-martin-tickets-thackerville-lucas-oil-live-at-winstar-world-casino-10-23-2026/production/7257868",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JAx9",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7257868,
+        "url": "https://www.vividseats.com/ricky-martin-tickets-thackerville-lucas-oil-live-at-winstar-world-casino-10-23-2026/production/7257868",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "170064DEAE2DB2EB",
     "ticketmaster_url": "https://www.ticketmaster.com/ricky-martin-las-vegas-nevada-10-30-2026/event/170064DEAE2DB2EB",
     "seatgeek_url": "https://seatgeek.com/ricky-martin-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2026-10-30-8-pm/concert/18370911",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ricky-martin-tickets-las-vegas-fontainebleau-las-vegas-10-30-2026--concerts-pop/production/7284630",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ricky-martin-las-vegas-nevada-10-30-2026/event/170064DEAE2DB2EB",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7284630,
+        "url": "https://www.vividseats.com/ricky-martin-tickets-las-vegas-fontainebleau-las-vegas-10-30-2026--concerts-pop/production/7284630",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "170064DEAE35B2F0",
     "ticketmaster_url": "https://www.ticketmaster.com/ricky-martin-las-vegas-nevada-10-31-2026/event/170064DEAE35B2F0",
     "seatgeek_url": "https://seatgeek.com/ricky-martin-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2026-10-31-8-pm/concert/18370916",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ricky-martin-tickets-las-vegas-fontainebleau-las-vegas-10-31-2026--concerts-pop/production/7284632",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ricky-martin-las-vegas-nevada-10-31-2026/event/170064DEAE35B2F0",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7284632,
+        "url": "https://www.vividseats.com/ricky-martin-tickets-las-vegas-fontainebleau-las-vegas-10-31-2026--concerts-pop/production/7284632",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "1C0064CBDE509F75",
     "ticketmaster_url": "https://www.ticketmaster.com/ricky-martin-lincoln-california-11-06-2026/event/1C0064CBDE509F75",
     "seatgeek_url": "https://seatgeek.com/ricky-martin-tickets/lincoln-california-the-venue-at-thunder-valley-casino-resort-2026-11-06-8-pm/concert/18318163",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ricky-martin-tickets-lincoln-the-venue-at-thunder-valley-casino-resort-11-6-2026/production/7171684",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ricky-martin-lincoln-california-11-06-2026/event/1C0064CBDE509F75",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7171684,
+        "url": "https://www.vividseats.com/ricky-martin-tickets-lincoln-the-venue-at-thunder-valley-casino-resort-11-6-2026/production/7171684",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "0A0064C3CAF6BA38",
     "ticketmaster_url": "https://www.ticketmaster.com/ricky-martin-temecula-california-11-08-2026/event/0A0064C3CAF6BA38",
     "seatgeek_url": "https://seatgeek.com/ricky-martin-tickets/temecula-california-pechanga-resort-casino-2026-11-08-7-30-pm/concert/18325393",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ricky-martin-tickets-temecula-pechanga-resort-casino-11-8-2026/production/7200560",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ricky-martin-temecula-california-11-08-2026/event/0A0064C3CAF6BA38",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7200560,
+        "url": "https://www.vividseats.com/ricky-martin-tickets-temecula-pechanga-resort-casino-11-8-2026/production/7200560",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

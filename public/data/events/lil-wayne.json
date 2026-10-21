@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/lil-wayne-tickets-knoxville-thompson-boling-arena-at-food-city-center-10-23-2026--concerts-rap-hip-hop/production/6794154",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-knoxville-tennessee-10-23-2026/event/1B0064668979947A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -58,7 +58,10 @@
     "ticketmaster_discovery_event_id": "G5viZ_kQar_oB",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7810689/Lil-Wayne-tickets-Fri-Oct-23-2026-Thompson-Boling-Arena-at-Food-City-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7810689/Lil-Wayne-tickets-Fri-Oct-23-2026-Thompson-Boling-Arena-at-Food-City-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-lil-wayne-2026-greenville-g5evz_6d5sngf",
@@ -76,7 +79,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-greenville-south-carolina-10-24-2026/event/2D006470CBC63D48",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -119,7 +122,11 @@
     "ticketmaster_discovery_event_id": "G5eVZ_6d5sNgF",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7810664/Lil-Wayne-tickets-Sat-Oct-24-2026-Bon-Secours-Wellness-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7810664/Lil-Wayne-tickets-Sat-Oct-24-2026-Bon-Secours-Wellness-Arena",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-lil-wayne-2026-lexington-1avbz_kgkyr04kw",
@@ -137,7 +144,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-lexington-kentucky-12-04-2026/event/1600646C2F9154F2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -180,7 +187,18 @@
     "ticketmaster_discovery_event_id": "1AvbZ_kGkYR04Kw",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7810684/Lil-Wayne-tickets-Fri-Dec-4-2026-Rupp-Arena-At-Central-Bank-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7810684/Lil-Wayne-tickets-Fri-Dec-4-2026-Rupp-Arena-At-Central-Bank-Center",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-03-20T14:00:00Z",
+        "end": "2026-11-07T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lil-wayne-2026-savannah-vvg1zz_3n_vz4w",
@@ -198,7 +216,7 @@
     "vividseats_url": "https://www.vividseats.com/lil-wayne-tickets-savannah-enmarket-arena-12-5-2026--concerts-rap-hip-hop/production/7654768",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-savannah-georgia-12-05-2026/event/0E00652A99D38572",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -241,7 +259,22 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_3n_Vz4w",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307423/Lil-Wayne-tickets-Sat-Dec-5-2026-Enmarket-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307423/Lil-Wayne-tickets-Sat-Dec-5-2026-Enmarket-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2026-11-05T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2026-12-03T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lil-wayne-2027-reading-vv17fz_kgkwwyiai",
@@ -259,7 +292,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-reading-pennsylvania-02-26-2027/event/0200646CBDC2C268",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -294,6 +327,10 @@
     },
     "ticketmaster_discovery_event_id": "vv17FZ_kGkwWYiaI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   }
 ]

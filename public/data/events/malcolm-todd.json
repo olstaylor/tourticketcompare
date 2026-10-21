@@ -1232,7 +1232,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-san-diego-petco-park-10-24-2026/production/7132417",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-san-diego-california-10-24-2026/event/0A0064C3ACB68843",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1292,13 +1292,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034309",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034309/Malcolm-Todd-tickets-Sat-Oct-24-2026-Gallagher-Square-at-Petco-Park",
     "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-san-diego-tickets-10-24-2026/event/107554708",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-11T17:00:00Z",
-        "end": "2026-10-20T19:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

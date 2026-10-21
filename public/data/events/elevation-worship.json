@@ -336,7 +336,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-san-diego-california-03-05-2027/event/0A0065210686A70C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -379,7 +379,10 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_37k-njG",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264726/Elevation-Worship-tickets-Fri-Mar-5-2027-Viejas-Arena-At-Aztec-Bowl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264726/Elevation-Worship-tickets-Fri-Mar-5-2027-Viejas-Arena-At-Aztec-Bowl",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-elevation-worship-2027-phoenix-1a_zkf0gkdcjit6",
@@ -397,7 +400,7 @@
     "vividseats_url": "https://www.vividseats.com/elevation-worship-tickets-phoenix-mortgage-matchup-center-3-6-2027/production/7554922",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-phoenix-arizona-03-06-2027/event/19006524CE9A8A47",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -440,7 +443,10 @@
     "ticketmaster_discovery_event_id": "1A_Zkf0GkdCJIt6",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264727/Elevation-Worship-tickets-Sat-Mar-6-2027-Mortgage-Matchup-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264727/Elevation-Worship-tickets-Sat-Mar-6-2027-Mortgage-Matchup-Center",
+    "organizer_names": [
+      "TRANSPARENT PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-elevation-worship-2027-inglewood-vv1aazkfigkdewunn",
@@ -458,7 +464,7 @@
     "vividseats_url": "https://www.vividseats.com/elevation-worship-tickets-inglewood-kia-forum-3-7-2027/production/7554924",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-inglewood-california-03-07-2027/event/09006528E7F4DAA3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -509,6 +515,13 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264728/Elevation-Worship-tickets-Sun-Mar-7-2027-The-Kia-Forum",
-    "stubhub_international_url": "https://www.stubhub.ie/elevation-worship-inglewood-tickets-3-7-2027/event/107668145"
+    "stubhub_international_url": "https://www.stubhub.ie/elevation-worship-inglewood-tickets-3-7-2027/event/107668145",
+    "presales": [
+      {
+        "name": "Side View",
+        "start": "2026-09-18T17:00:00Z",
+        "end": "2027-03-08T05:00:00Z"
+      }
+    ]
   }
 ]

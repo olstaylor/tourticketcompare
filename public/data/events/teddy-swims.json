@@ -1569,7 +1569,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-fort-worth-dickies-arena-10-30-2026/production/6911922",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-fort-worth-texas-10-30-2026/event/0C00648AFEAFAB54",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1629,13 +1629,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883111",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883111/Teddy-Swims-tickets-Fri-Oct-30-2026-Dickies-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-fort-worth-tickets-10-30-2026/event/107158274",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-04-24T15:00:00Z",
-        "end": "2026-10-21T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "AEG LIVE"
     ]

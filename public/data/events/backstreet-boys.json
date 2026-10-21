@@ -1328,7 +1328,7 @@
     "vividseats_url": "https://www.vividseats.com/backstreet-boys-tickets-las-vegas-sphere-12-29-2026/production/7721612",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-29-2026/event/170064FFDB078C23",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1378,16 +1378,6 @@
     ],
     "presales": [
       {
-        "name": "Backstreet Army Fan Club Presale",
-        "start": "2026-10-20T17:00:00Z",
-        "end": "2026-10-21T05:00:00Z"
-      },
-      {
-        "name": "Vibee VIP Concert Experience Presale",
-        "start": "2026-10-20T17:00:00Z",
-        "end": "2026-10-21T05:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-21T17:00:00Z",
         "end": "2026-10-22T05:00:00Z"
@@ -1406,6 +1396,11 @@
         "name": "Venue Presale",
         "start": "2026-10-22T17:00:00Z",
         "end": "2026-10-23T05:00:00Z"
+      },
+      {
+        "name": "Vibee VIP Concert Experience Presale",
+        "start": "2026-10-23T19:00:00Z",
+        "end": "2026-12-23T06:00:00Z"
       }
     ]
   }

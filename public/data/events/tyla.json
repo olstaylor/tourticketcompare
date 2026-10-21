@@ -397,7 +397,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-dusseldorf-mitsubishi-electric-halle-10-24-2026--concerts-pop/production/7347482",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/tyla-the-apop-world-tour-tickets/1755726323?language=en-us",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-21",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -459,6 +459,33 @@
     "stubhub_international_url": "https://www.stubhub.ie/tyla-tickets-dusseldorf-mitsubishi-electric-halle-24-10-2026/event/107461079",
     "organizer_names": [
       "Nur2 Productions GmbH"
+    ],
+    "presales": [
+      {
+        "name": "Album Pre Order Presale",
+        "start": "2026-07-31T08:00:00Z",
+        "end": "2026-10-23T12:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-07-31T08:00:00Z",
+        "end": "2026-10-23T12:00:00Z"
+      },
+      {
+        "name": "PayPal Prio Tickets",
+        "start": "2026-07-31T08:00:00Z",
+        "end": "2026-10-23T12:00:00Z"
+      },
+      {
+        "name": "Telekom Prio Tickets",
+        "start": "2026-07-31T08:00:00Z",
+        "end": "2026-10-23T12:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-07-31T08:00:00Z",
+        "end": "2026-10-23T12:00:00Z"
+      }
     ]
   },
   {

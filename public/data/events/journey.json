@@ -1107,7 +1107,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-boston-td-garden-11-10-2026--concerts-rock/production/7021953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-boston-massachusetts-11-10-2026/event/010064A5E8949EE9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1165,11 +1165,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-05-15T14:00:00Z",
-        "end": "2026-10-20T21:00:00Z"
-      },
       {
         "name": "AARP Discount",
         "start": "2026-08-28T14:00:00Z",

@@ -780,7 +780,7 @@
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-glendale-desert-diamond-arena-10-21-2026--concerts-pop/production/7132074",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-glendale-arizona-10-21-2026/event/190064C5D6359C3F",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -788,7 +788,7 @@
         "discovery_event_id": "17k8v0G6G9pu_YT",
         "url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-glendale-arizona-10-21-2026/event/190064C5D6359C3F",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -849,7 +849,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-charli-xcx-2027-dublin-16voz_3jvg7sk3f",

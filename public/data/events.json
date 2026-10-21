@@ -2937,13 +2937,13 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-24-2026--concerts-pop/production/6564701",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-24-2026/event/3B00643506AE83A2",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-21",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3B00643506AE83A2",
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-24-2026/event/3B00643506AE83A2",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-21",
         "availability_status": "on_sale",
         "discovery_event_id": "G5diZ_dfklICx"
       },
@@ -2995,13 +2995,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695892",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-24-2026/event/107082341",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695892/Harry-Styles-tickets-Sat-Oct-24-2026-Madison-Square-Garden",
-    "presales": [
-      {
-        "name": "VIP Packages",
-        "start": "2026-02-04T16:00:00Z",
-        "end": "2026-10-20T16:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -24415,7 +24408,7 @@
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-glendale-desert-diamond-arena-10-21-2026--concerts-pop/production/7132074",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-glendale-arizona-10-21-2026/event/190064C5D6359C3F",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -24423,7 +24416,7 @@
         "discovery_event_id": "17k8v0G6G9pu_YT",
         "url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-glendale-arizona-10-21-2026/event/190064C5D6359C3F",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -24484,7 +24477,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-summer-walker-2026-houston-z7r9jz1a7oixf",
@@ -28029,7 +28023,7 @@
     "vividseats_url": "https://www.vividseats.com/jay-z-shawn-carter-tickets-inglewood-sofi-stadium-10-24-2026--concerts-rap-hip-hop/production/7348557",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jayz30-inglewood-california-10-24-2026/event/0A0064C8E971D777",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -28089,18 +28083,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164947",
     "stubhub_international_url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-24-2026/event/107460143",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164947/Jay-Z-tickets-Sat-Oct-24-2026-SoFi-Stadium",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-07-30T17:00:00Z",
-        "end": "2026-10-20T19:00:00Z"
-      },
-      {
-        "name": "PREMIUM ON-STAGE VIEWING TICKET",
-        "start": "2026-10-12T17:00:00Z",
-        "end": "2026-10-20T19:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -48111,7 +48093,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-fort-worth-dickies-arena-10-30-2026/production/6911922",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-fort-worth-texas-10-30-2026/event/0C00648AFEAFAB54",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -48171,13 +48153,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883111",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883111/Teddy-Swims-tickets-Fri-Oct-30-2026-Dickies-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-fort-worth-tickets-10-30-2026/event/107158274",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-04-24T15:00:00Z",
-        "end": "2026-10-21T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -63562,7 +63537,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-dusseldorf-mitsubishi-electric-halle-10-24-2026--concerts-pop/production/7347482",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/tyla-the-apop-world-tour-tickets/1755726323?language=en-us",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-21",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -63624,6 +63599,33 @@
     "stubhub_international_url": "https://www.stubhub.ie/tyla-tickets-dusseldorf-mitsubishi-electric-halle-24-10-2026/event/107461079",
     "organizer_names": [
       "Nur2 Productions GmbH"
+    ],
+    "presales": [
+      {
+        "name": "Album Pre Order Presale",
+        "start": "2026-07-31T08:00:00Z",
+        "end": "2026-10-23T12:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-07-31T08:00:00Z",
+        "end": "2026-10-23T12:00:00Z"
+      },
+      {
+        "name": "PayPal Prio Tickets",
+        "start": "2026-07-31T08:00:00Z",
+        "end": "2026-10-23T12:00:00Z"
+      },
+      {
+        "name": "Telekom Prio Tickets",
+        "start": "2026-07-31T08:00:00Z",
+        "end": "2026-10-23T12:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-07-31T08:00:00Z",
+        "end": "2026-10-23T12:00:00Z"
+      }
     ]
   },
   {
@@ -80645,7 +80647,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-inglewood-intuit-dome-2-26-2027/production/7047204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-inglewood-california-02-26-2027/event/090064AFF1A0DF67",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -80710,6 +80712,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-05-28T17:00:00Z",
         "end": "2027-02-20T01:00:00Z"
+      },
+      {
+        "name": "Weekend Special Offer",
+        "start": "2026-10-23T17:00:00Z",
+        "end": "2026-10-27T05:00:00Z"
       }
     ],
     "organizer_names": [
@@ -80819,7 +80826,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-rosemont-illinois-03-05-2027/event/040064A78C386CA4",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -80884,6 +80891,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-05-28T15:00:00Z",
         "end": "2027-02-26T23:00:00Z"
+      },
+      {
+        "name": "Second Weekend Special",
+        "start": "2026-10-23T15:00:00Z",
+        "end": "2026-10-27T03:00:00Z"
       }
     ]
   },
@@ -129383,7 +129395,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-san-diego-petco-park-10-24-2026/production/7132417",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-san-diego-california-10-24-2026/event/0A0064C3ACB68843",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -129443,13 +129455,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034309",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034309/Malcolm-Todd-tickets-Sat-Oct-24-2026-Gallagher-Square-at-Petco-Park",
     "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-san-diego-tickets-10-24-2026/event/107554708",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-11T17:00:00Z",
-        "end": "2026-10-20T19:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -224251,7 +224256,7 @@
     "city": "Columbus",
     "country": "United States Of America",
     "venue": "Rumba Cafe",
-    "datetime_iso": "2027-03-28T00:00:00Z",
+    "datetime_iso": "2027-03-27T23:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "14316964",
     "ticketmaster_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-rumba-cafe-tickets/14316964",
@@ -224259,7 +224264,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-rumba-cafe-tickets/14316964",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-21",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -231125,7 +231130,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-phoenix-arizona-financial-theatre-11-17-2026--concerts-rb/production/7423380",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-phoenix-arizona-11-17-2026/event/19006507200EB3AE",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -231177,13 +231182,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199809",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199809/Steve-Lacy-tickets-Tue-Nov-17-2026-Arizona-Financial-Theatre",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-08-14T17:00:00Z",
-        "end": "2026-10-21T05:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -232314,7 +232312,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-smashing-pumpkins-the-rats-in-denver-colorado-10-27-2026/event/1E0064AF9AD28F74",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -232358,13 +232356,6 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-denver-tickets-10-27-2026/event/107185114",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-21T16:00:00Z",
-        "end": "2026-10-21T04:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -240343,7 +240334,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-boston-td-garden-11-10-2026--concerts-rock/production/7021953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-boston-massachusetts-11-10-2026/event/010064A5E8949EE9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -240401,11 +240392,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-05-15T14:00:00Z",
-        "end": "2026-10-20T21:00:00Z"
-      },
       {
         "name": "AARP Discount",
         "start": "2026-08-28T14:00:00Z",
@@ -255333,7 +255319,7 @@
     "vividseats_url": "https://www.vividseats.com/gorillaz-tickets-inglewood-kia-forum-10-24-2026--concerts-alternative/production/6739882",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-inglewood-california-10-24-2026/event/0900645BA891CBBF",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -255392,13 +255378,6 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-03-09T17:00:00Z",
-        "end": "2026-10-20T19:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774762",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774762/Gorillaz-tickets-Sat-Oct-24-2026-The-Kia-Forum",
@@ -258332,7 +258311,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-toronto-scotiabank-arena-10-24-2026/production/7506326",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/jonas-brothers-the-burning-up-tour-toronto-ontario-10-24-2026/event/1000651DAC5DBFD1",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -258373,13 +258352,6 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-ROGERS",
       "LIVE NATION CANADA-RBC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-09-04T14:00:00Z",
-        "end": "2026-10-20T16:00:00Z"
-      }
     ]
   },
   {
@@ -259528,7 +259500,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-los-angeles-hollywood-bowl-11-19-2026--concerts-pop/production/7480299",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-19-2026/event/0B006511309DB401",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -259593,11 +259565,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-08-28T17:00:00Z",
-        "end": "2026-10-21T05:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-08-28T17:00:00Z",
@@ -261122,11 +261089,11 @@
     "id": "tm-raye-2026-london-g5vhz_frai-ph",
     "artist_slug": "raye",
     "artist_name": "RAYE",
-    "event_name": "RAYE",
+    "event_name": "Raye - This Symphony May Contain Hope",
     "city": "London",
     "country": "Great Britain",
     "venue": "Royal Albert Hall",
-    "datetime_iso": "2026-10-23T18:15:00Z",
+    "datetime_iso": "2026-10-23T19:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1F00654789A2159B",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/raye-london-23-10-2026/event/1F00654789A2159B",
@@ -261134,7 +261101,7 @@
     "vividseats_url": "https://www.vividseats.com/raye-tickets-london-royal-albert-hall-10-23-2026/production/7695778",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/raye-london-23-10-2026/event/1F00654789A2159B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -261280,7 +261247,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-green-bay-lambeau-field-5-4-2027--concerts-country-and-folk/production/7706945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-green-bay-wisconsin-05-04-2027/event/0700654CDB0C6B27",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -261343,6 +261310,11 @@
         "end": "2026-10-23T03:00:00Z"
       },
       {
+        "name": "Private Presale",
+        "start": "2026-10-22T13:00:00Z",
+        "end": "2026-10-22T14:30:00Z"
+      },
+      {
         "name": "Local Presale",
         "start": "2026-10-22T15:00:00Z",
         "end": "2026-10-23T03:00:00Z"
@@ -261365,7 +261337,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-east-rutherford-metlife-stadium-5-14-2027/production/7706905",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-east-rutherford-new-jersey-05-14-2027/event/0000654CE2BEAC96",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -261437,7 +261409,10 @@
         "end": "2026-10-23T02:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-east-rutherford-tickets-5-14-2027/event/107674278"
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-east-rutherford-tickets-5-14-2027/event/107674278",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-zach-bryan-2027-east-rutherford-k7vgf_fs0cbhd",
@@ -261455,7 +261430,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-east-rutherford-metlife-stadium-5-15-2027/production/7706909",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-east-rutherford-new-jersey-05-15-2027/event/0000654CE4B7AF3B",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -261527,7 +261502,10 @@
         "end": "2026-10-23T02:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-east-rutherford-tickets-5-15-2027/event/107674279"
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-east-rutherford-tickets-5-15-2027/event/107674279",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-zach-bryan-2027-philadelphia-vv17fz_fgksiy1rz",
@@ -261936,7 +261914,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-inglewood-sofi-stadium-7-20-2027--concerts-country-and-folk/production/7706957",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-inglewood-california-07-20-2027/event/0A0065479BA57D07",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -262003,6 +261981,11 @@
       {
         "name": "Artist Presale",
         "start": "2026-10-21T17:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      },
+      {
+        "name": "Goldenvoice Presale",
+        "start": "2026-10-22T17:00:00Z",
         "end": "2026-10-23T05:00:00Z"
       },
       {
@@ -269669,7 +269652,7 @@
     "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-chula-vista-north-island-credit-union-amphitheatre-10-24-2026--concerts-rb/production/7104563",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-chula-vista-california-10-24-2026/event/0A0064B6BB979FD2",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -269723,18 +269706,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-chula-vista-tickets-10-24-2026/event/107258872",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-05T19:00:00Z",
-        "end": "2026-10-20T19:00:00Z"
-      },
-      {
-        "name": "Meet & Greet VIP Package",
-        "start": "2026-06-17T19:00:00Z",
-        "end": "2026-10-20T19:00:00Z"
-      }
     ]
   },
   {
@@ -271102,7 +271073,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-philadelphia-pennsylvania-10-24-2026/event/020064ACD3DEEC4B",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -271148,13 +271119,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997045/Arcangel-tickets-Sat-Oct-24-2026-The-Met-Presented-by-Highmark",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-05-28T14:00:00Z",
-        "end": "2026-10-20T16:00:00Z"
-      }
     ]
   },
   {
@@ -272079,7 +272043,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-glasgow-18-01-2027/event/3600654E99D23B5D",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -272118,7 +272082,8 @@
     "public_onsale_at": "2026-10-23T09:00:00Z",
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD",
-      "SWG3 LTD"
+      "SWG3 LTD",
+      "LNM - VIP NATION UK"
     ],
     "presales": [
       {
@@ -272240,7 +272205,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-london-21-01-2027/event/36006550E24495DA",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -272283,6 +272248,9 @@
         "start": "2026-10-21T09:00:00Z",
         "end": "2026-10-23T08:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LNM - VIP NATION UK"
     ]
   },
   {
@@ -272301,7 +272269,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/saint-levant-ciudad-de-mexico-02-02-2027/event/3D0065149AE337ED",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -272342,16 +272310,6 @@
       "OCESA"
     ],
     "presales": [
-      {
-        "name": "Preventa Banamex",
-        "start": "2026-10-20T17:00:00Z",
-        "end": "2026-10-21T05:59:00Z"
-      },
-      {
-        "name": "Preventa Banamex Paquetes VIP",
-        "start": "2026-10-20T17:00:00Z",
-        "end": "2026-10-21T05:59:00Z"
-      },
       {
         "name": "Venta General Paquetes VIP",
         "start": "2026-10-21T17:00:00Z",
@@ -272630,7 +272588,7 @@
     "vividseats_url": "https://www.vividseats.com/backstreet-boys-tickets-las-vegas-sphere-12-29-2026/production/7721612",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-29-2026/event/170064FFDB078C23",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -272680,16 +272638,6 @@
     ],
     "presales": [
       {
-        "name": "Backstreet Army Fan Club Presale",
-        "start": "2026-10-20T17:00:00Z",
-        "end": "2026-10-21T05:00:00Z"
-      },
-      {
-        "name": "Vibee VIP Concert Experience Presale",
-        "start": "2026-10-20T17:00:00Z",
-        "end": "2026-10-21T05:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-10-21T17:00:00Z",
         "end": "2026-10-22T05:00:00Z"
@@ -272708,6 +272656,11 @@
         "name": "Venue Presale",
         "start": "2026-10-22T17:00:00Z",
         "end": "2026-10-23T05:00:00Z"
+      },
+      {
+        "name": "Vibee VIP Concert Experience Presale",
+        "start": "2026-10-23T19:00:00Z",
+        "end": "2026-12-23T06:00:00Z"
       }
     ]
   },
@@ -273048,7 +273001,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-san-diego-california-03-05-2027/event/0A0065210686A70C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -273091,7 +273044,10 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_37k-njG",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264726/Elevation-Worship-tickets-Fri-Mar-5-2027-Viejas-Arena-At-Aztec-Bowl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264726/Elevation-Worship-tickets-Fri-Mar-5-2027-Viejas-Arena-At-Aztec-Bowl",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-elevation-worship-2027-phoenix-1a_zkf0gkdcjit6",
@@ -273109,7 +273065,7 @@
     "vividseats_url": "https://www.vividseats.com/elevation-worship-tickets-phoenix-mortgage-matchup-center-3-6-2027/production/7554922",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-phoenix-arizona-03-06-2027/event/19006524CE9A8A47",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -273152,7 +273108,10 @@
     "ticketmaster_discovery_event_id": "1A_Zkf0GkdCJIt6",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264727/Elevation-Worship-tickets-Sat-Mar-6-2027-Mortgage-Matchup-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264727/Elevation-Worship-tickets-Sat-Mar-6-2027-Mortgage-Matchup-Center",
+    "organizer_names": [
+      "TRANSPARENT PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-elevation-worship-2027-inglewood-vv1aazkfigkdewunn",
@@ -273170,7 +273129,7 @@
     "vividseats_url": "https://www.vividseats.com/elevation-worship-tickets-inglewood-kia-forum-3-7-2027/production/7554924",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-inglewood-california-03-07-2027/event/09006528E7F4DAA3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -273221,7 +273180,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264728/Elevation-Worship-tickets-Sun-Mar-7-2027-The-Kia-Forum",
-    "stubhub_international_url": "https://www.stubhub.ie/elevation-worship-inglewood-tickets-3-7-2027/event/107668145"
+    "stubhub_international_url": "https://www.stubhub.ie/elevation-worship-inglewood-tickets-3-7-2027/event/107668145",
+    "presales": [
+      {
+        "name": "Side View",
+        "start": "2026-09-18T17:00:00Z",
+        "end": "2027-03-08T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-stevie-wonder-2026-fornebu-z698xzb_z1k03fkoa",
@@ -273300,7 +273266,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.se/event/stevie-wonder-songs-in-the-key-of-life-performances-platinum-tickets-tickets/1760011198?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -273351,7 +273317,10 @@
     "timezone": "Europe/Stockholm",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252667/Stevie-Wonder-tickets-Thu-Oct-22-2026-3Arena-Stockholm",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-stockholm-3arena-22-10-2026/event/107667151"
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-stockholm-3arena-22-10-2026/event/107667151",
+    "organizer_names": [
+      "Stockholm Live AB"
+    ]
   },
   {
     "id": "tm-stevie-wonder-2026-hannover-z698xzc2z16v78zovo",
@@ -273369,7 +273338,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/stevie-wonder-songs-in-the-key-of-life-performances-tickets/1110020060?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -273420,7 +273389,10 @@
     "timezone": "Europe/Berlin",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252668/Stevie-Wonder-tickets-Sat-Oct-24-2026-ZAG-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-hannover-zag-arena-24-10-2026/event/107667152"
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-hannover-zag-arena-24-10-2026/event/107667152",
+    "organizer_names": [
+      "Live Nation GmbH"
+    ]
   },
   {
     "id": "tm-stevie-wonder-2026-amsterdam-z698xzbpz16vcpofak",
@@ -273438,7 +273410,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/stevie-wonder-songs-in-the-key-of-life-performances-tickets/1396808246?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -273489,7 +273461,10 @@
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252672/Stevie-Wonder-tickets-Wed-Oct-28-2026-Ziggo-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-amsterdam-ziggo-dome-28-10-2026/event/107667149"
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-amsterdam-ziggo-dome-28-10-2026/event/107667149",
+    "organizer_names": [
+      "Mojo Concerts"
+    ]
   },
   {
     "id": "tm-stevie-wonder-2026-dublin-1avoz_ogkmfynew",
@@ -273507,7 +273482,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/stevie-wonder-songs-in-the-key-dublin-01-11-2026/event/1800651B88E639FD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -273542,7 +273517,11 @@
     },
     "ticketmaster_discovery_event_id": "1AvOZ_oGkmFyNEW",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AMPHITHEATRE IRELAND",
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-stevie-wonder-2026-london-1adfz_ogkluzbfe",
@@ -273560,7 +273539,7 @@
     "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-london-the-o2---london-11-3-2026--concerts-adult-contemporary/production/7530343",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/stevie-wonder-songs-in-the-key-london-03-11-2026/event/3500651ACD03A227",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -273603,7 +273582,10 @@
     "ticketmaster_discovery_event_id": "1AdfZ_oGkluZBFE",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-london-the-o2-arena-3-11-2026/event/107667153"
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-london-the-o2-arena-3-11-2026/event/107667153",
+    "organizer_names": [
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-stevie-wonder-2026-london-1adfz_ogkwbmppe",
@@ -273621,7 +273603,7 @@
     "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-london-the-o2---london-11-5-2026/production/7545235",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/stevie-wonder-songs-in-the-key-london-05-11-2026/event/3500651C98B965A7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -273664,7 +273646,10 @@
     "ticketmaster_discovery_event_id": "1AdfZ_oGkwbmppE",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-london-the-o2-arena-5-11-2026/event/107666210"
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-london-the-o2-arena-5-11-2026/event/107666210",
+    "organizer_names": [
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-stevie-wonder-2026-manchester-1adjz_ogklby6m_",
@@ -273682,7 +273667,7 @@
     "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-manchester-co-op-live-11-8-2026--concerts-adult-contemporary/production/7530345",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/stevie-wonder-songs-in-the-key-manchester-08-11-2026/event/3700651AD8C07B99",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -273733,7 +273718,10 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252674/Stevie-Wonder-tickets-Sun-Nov-8-2026-Co-Op-Live",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-manchester-co-op-live-8-11-2026/event/107667154"
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-manchester-co-op-live-8-11-2026/event/107667154",
+    "organizer_names": [
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-stevie-wonder-2026-glasgow-1adbz_ogkw2mz1l",
@@ -273751,7 +273739,7 @@
     "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-glasgow-ovo-hydro-11-11-2026--concerts-adult-contemporary/production/7530347",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/stevie-wonder-songs-in-the-key-glasgow-11-11-2026/event/3600651C8FBB82AB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -273802,7 +273790,11 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252675/Stevie-Wonder-tickets-Wed-Nov-11-2026-OVO-Hydro",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-glasgow-ovo-hydro-arena-glasgow-11-11-2026/event/107667156"
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-glasgow-ovo-hydro-arena-glasgow-11-11-2026/event/107667156",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ]
   },
   {
     "id": "tm-stevie-wonder-2026-new-york-g5diz_gpossvv",
@@ -273820,7 +273812,7 @@
     "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-new-york-madison-square-garden-11-19-2026--concerts-adult-contemporary/production/7530311",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-new-york-new-york-11-19-2026/event/3B0064C5A0CF3D01",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -273871,7 +273863,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252655/Stevie-Wonder-tickets-Thu-Nov-19-2026-Madison-Square-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-new-york-tickets-11-19-2026/event/107667142"
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-new-york-tickets-11-19-2026/event/107667142",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-09-10T14:00:00Z",
+        "end": "2026-11-20T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-stevie-wonder-2026-chicago-vv1a7zkfngkd8ke_p",
@@ -273889,7 +273891,7 @@
     "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-chicago-united-center-11-21-2026--concerts-adult-contemporary/production/7530315",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-chicago-illinois-11-21-2026/event/04006523D04E7665",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -273940,7 +273942,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252656/Stevie-Wonder-tickets-Sat-Nov-21-2026-United-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-chicago-tickets-11-21-2026/event/107665890"
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-chicago-tickets-11-21-2026/event/107665890",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-stevie-wonder-2026-washington-1a4zkfxgkdptcca",
@@ -273958,7 +273963,7 @@
     "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-washington-capital-one-arena-11-23-2026--concerts-adult-contemporary/production/7530316",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-washington-district-of-columbia-11-23-2026/event/15006522E5FCE389",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -274009,7 +274014,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252657/Stevie-Wonder-tickets-Mon-Nov-23-2026-Capital-One-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-washington-tickets-11-23-2026/event/107667143"
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-washington-tickets-11-23-2026/event/107667143",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-stevie-wonder-2026-detroit-vv1kezvpa-gaukuph",
@@ -274027,7 +274035,7 @@
     "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-detroit-fox-theatre-detroit-12-8-2026--concerts-adult-contemporary/production/7530317",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-detroit-michigan-12-08-2026/event/080065261D18D5BC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -274078,7 +274086,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252658/Stevie-Wonder-tickets-Tue-Dec-8-2026-Fox-Theatre-Detroit",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-detroit-tickets-12-8-2026/event/107667145"
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-detroit-tickets-12-8-2026/event/107667145",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-stevie-wonder-2026-detroit-vv1koz_3bxg7sqna",
@@ -274096,7 +274107,7 @@
     "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-detroit-fox-theatre-detroit-12-9-2026--concerts-adult-contemporary/production/7530319",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-detroit-michigan-12-09-2026/event/0800652622C5DA85",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -274147,7 +274158,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252659/Stevie-Wonder-tickets-Wed-Dec-9-2026-Fox-Theatre-Detroit",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-detroit-tickets-12-9-2026/event/107667146"
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-detroit-tickets-12-9-2026/event/107667146",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-stevie-wonder-2026-inglewood-vv1aazkf0onvvzeug",
@@ -274165,7 +274179,7 @@
     "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-inglewood-intuit-dome-12-19-2026--concerts-adult-contemporary/production/7530323",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-inglewood-california-12-19-2026/event/09006524823041CB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -274216,7 +274230,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252660/Stevie-Wonder-tickets-Sat-Dec-19-2026-Intuit-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-inglewood-tickets-12-19-2026/event/107667148"
+    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-inglewood-tickets-12-19-2026/event/107667148",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-lil-wayne-2026-knoxville-g5viz_kqar_ob",
@@ -274234,7 +274251,7 @@
     "vividseats_url": "https://www.vividseats.com/lil-wayne-tickets-knoxville-thompson-boling-arena-at-food-city-center-10-23-2026--concerts-rap-hip-hop/production/6794154",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-knoxville-tennessee-10-23-2026/event/1B0064668979947A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -274277,7 +274294,10 @@
     "ticketmaster_discovery_event_id": "G5viZ_kQar_oB",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7810689/Lil-Wayne-tickets-Fri-Oct-23-2026-Thompson-Boling-Arena-at-Food-City-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7810689/Lil-Wayne-tickets-Fri-Oct-23-2026-Thompson-Boling-Arena-at-Food-City-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-lil-wayne-2026-greenville-g5evz_6d5sngf",
@@ -274295,7 +274315,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-greenville-south-carolina-10-24-2026/event/2D006470CBC63D48",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -274338,7 +274358,11 @@
     "ticketmaster_discovery_event_id": "G5eVZ_6d5sNgF",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7810664/Lil-Wayne-tickets-Sat-Oct-24-2026-Bon-Secours-Wellness-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7810664/Lil-Wayne-tickets-Sat-Oct-24-2026-Bon-Secours-Wellness-Arena",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-lil-wayne-2026-lexington-1avbz_kgkyr04kw",
@@ -274356,7 +274380,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-lexington-kentucky-12-04-2026/event/1600646C2F9154F2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -274399,7 +274423,18 @@
     "ticketmaster_discovery_event_id": "1AvbZ_kGkYR04Kw",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7810684/Lil-Wayne-tickets-Fri-Dec-4-2026-Rupp-Arena-At-Central-Bank-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7810684/Lil-Wayne-tickets-Fri-Dec-4-2026-Rupp-Arena-At-Central-Bank-Center",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-03-20T14:00:00Z",
+        "end": "2026-11-07T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lil-wayne-2026-savannah-vvg1zz_3n_vz4w",
@@ -274417,7 +274452,7 @@
     "vividseats_url": "https://www.vividseats.com/lil-wayne-tickets-savannah-enmarket-arena-12-5-2026--concerts-rap-hip-hop/production/7654768",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-savannah-georgia-12-05-2026/event/0E00652A99D38572",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -274460,7 +274495,22 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_3n_Vz4w",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307423/Lil-Wayne-tickets-Sat-Dec-5-2026-Enmarket-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307423/Lil-Wayne-tickets-Sat-Dec-5-2026-Enmarket-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2026-11-05T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2026-12-03T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lil-wayne-2027-reading-vv17fz_kgkwwyiai",
@@ -274478,7 +274528,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-reading-pennsylvania-02-26-2027/event/0200646CBDC2C268",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -274513,7 +274563,11 @@
     },
     "ticketmaster_discovery_event_id": "vv17FZ_kGkwWYiaI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-tom-jones-2026-las-vegas-17ayv0g61xuaqyn",
@@ -274531,7 +274585,7 @@
     "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-las-vegas-encore-theater-at-wynn-las-vegas-10-21-2026/production/7080336",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-21-2026/event/170064AFB615AE6A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -274566,7 +274620,10 @@
     },
     "ticketmaster_discovery_event_id": "17AYv0G61XUAQyn",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-tom-jones-2026-las-vegas-17ayv0g61xukqbd",
@@ -274584,7 +274641,7 @@
     "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-las-vegas-encore-theater-at-wynn-las-vegas-10-23-2026/production/7080340",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-23-2026/event/170064AFB619AE83",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -274619,7 +274676,10 @@
     },
     "ticketmaster_discovery_event_id": "17AYv0G61XUkQBd",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-tom-jones-2026-las-vegas-17ayv0g61xu61b0",
@@ -274637,7 +274697,7 @@
     "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-las-vegas-encore-theater-at-wynn-las-vegas-10-24-2026/production/7080334",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-24-2026/event/170064AFB61CAEA4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -274672,7 +274732,10 @@
     },
     "ticketmaster_discovery_event_id": "17AYv0G61XU61B0",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-tom-jones-2026-los-angeles-vvg10z_58xadko",
@@ -274690,7 +274753,7 @@
     "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-los-angeles-greek-theatre---los-angeles-10-26-2026--concerts-pop/production/7079614",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-los-angeles-california-10-26-2026/event/090064B43E17B4D1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -274741,7 +274804,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997398/Tom-Jones-tickets-Mon-Oct-26-2026-Greek-Theatre-Los-Angeles-CA",
-    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-los-angeles-tickets-10-26-2026/event/107448275"
+    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-los-angeles-tickets-10-26-2026/event/107448275",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-tom-jones-2026-san-diego-vvg1iz_5gqcfyd",
@@ -274759,7 +274825,7 @@
     "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-san-diego-the-rady-shell-at-jacobs-park-10-27-2026/production/7079864",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-diego-california-10-27-2026/event/0A0064B31A394E43",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -274810,7 +274876,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997399/Tom-Jones-tickets-Tue-Oct-27-2026-The-Rady-Shell-at-Jacobs-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-san-diego-tickets-10-27-2026/event/107447921"
+    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-san-diego-tickets-10-27-2026/event/107447921",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-tom-jones-2026-highland-z7r9jz1a7p6r4",
@@ -274889,7 +274958,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-wheatland-california-10-31-2026/event/1C0064ADB24B61AD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -274932,7 +275001,10 @@
     "ticketmaster_discovery_event_id": "G5vYZ_1Uw3Ukc",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997400/Tom-Jones-tickets-Sat-Oct-31-2026-Hard-Rock-Live-Sacramento"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997400/Tom-Jones-tickets-Sat-Oct-31-2026-Hard-Rock-Live-Sacramento",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-tom-jones-2026-san-francisco-g5vyz_5d9skqu",
@@ -274950,7 +275022,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-francisco-california-11-01-2026/event/1C0064B0D7C4668D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -275001,7 +275073,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997401/Tom-Jones-tickets-Sun-Nov-1-2026-The-Masonic-San-Francisco",
-    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-san-francisco-tickets-11-1-2026/event/107448276"
+    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-san-francisco-tickets-11-1-2026/event/107448276",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-belmont-park-1adzz_8gkuljdyg",
@@ -275019,7 +275094,7 @@
     "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-elmont-ubs-arena-10-29-2026/production/7434394",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-belmont-park-new-york-10-29-2026/event/3000650DAB703E75",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -275054,7 +275129,10 @@
     },
     "ticketmaster_discovery_event_id": "1AdZZ_8GkUljdyg",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "THE TOURING CO"
+    ]
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-belmont-park-17gzv0g6ctu4ij2",
@@ -275072,7 +275150,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-belmont-park-new-york-10-30-2026/event/300064EFF656C70F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -275107,7 +275185,10 @@
     },
     "ticketmaster_discovery_event_id": "17GZv0G6CTU4ij2",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "THE TOURING CO"
+    ]
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-boston-vv1a8vpgbgaumyrw",
@@ -275125,7 +275206,7 @@
     "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-boston-agganis-arena-11-6-2026/production/7631977",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-boston-massachusetts-11-06-2026/event/010065318DDF97BD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -275168,7 +275249,10 @@
     "ticketmaster_discovery_event_id": "vv1A8vPGbGAuMyrW",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8298499/A-Boogie-Wit-Da-Hoodie-tickets-Fri-Nov-6-2026-Agganis-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8298499/A-Boogie-Wit-Da-Hoodie-tickets-Fri-Nov-6-2026-Agganis-Arena",
+    "organizer_names": [
+      "THE TOURING CO"
+    ]
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-boston-vv1a8vpgbgauu_ra",
@@ -275186,7 +275270,7 @@
     "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-boston-agganis-arena-11-7-2026/production/7619492",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-boston-massachusetts-11-07-2026/event/010065318DD99789",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -275229,7 +275313,10 @@
     "ticketmaster_discovery_event_id": "vv1A8vPGbGAuU_ra",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293621/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Nov-7-2026-Agganis-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293621/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Nov-7-2026-Agganis-Arena",
+    "organizer_names": [
+      "THE TOURING CO"
+    ]
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-philadelphia-vv1aezkfygkeinqmd",
@@ -275300,7 +275387,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-philadelphia-pennsylvania-11-14-2026/event/02006530AD26DF7A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -275335,7 +275422,14 @@
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfYGkecacWB",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Marketing Comps",
+        "start": "2026-10-09T16:15:00Z",
+        "end": "2026-11-14T13:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-toronto-168zkfspyzauf8v5",
@@ -275353,7 +275447,7 @@
     "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-toronto-scotiabank-arena-11-28-2026/production/7620477",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/a-boogie-wit-da-hoodie-10-toronto-ontario-11-28-2026/event/10006531970C7F0A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -275388,7 +275482,20 @@
     },
     "ticketmaster_discovery_event_id": "168ZkfsPYZAuF8v5",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2026-11-22T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-orlando-z7r9jz1aaef4e",
@@ -275467,7 +275574,7 @@
     "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-minneapolis-armory---minneapolis-12-12-2026/production/7619726",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-minneapolis-minnesota-12-12-2026/event/06006530D92511EF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -275510,7 +275617,10 @@
     "ticketmaster_discovery_event_id": "vv1AkZkfYGkd_ao6R",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294956/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Dec-12-2026-The-Armory-Minneapolis"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294956/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Dec-12-2026-The-Armory-Minneapolis",
+    "organizer_names": [
+      "THE TOURING CO"
+    ]
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-hartford-z7r9jz1aaea_k",
@@ -275589,7 +275699,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-lafayette-louisiana-10-23-2026/event/1B0064B3E1D5418F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -275624,7 +275734,17 @@
     },
     "ticketmaster_discovery_event_id": "G5viZ_52-gfk2",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "presales": [
+      {
+        "name": "Blue Collar Box Office Promotion",
+        "start": "2026-10-23T14:30:00Z",
+        "end": "2026-10-24T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-zach-top-2026-rogers-g5viz_5ulwxbq",
@@ -275642,7 +275762,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-top-tickets-rogers-walmart-amp-10-24-2026--concerts-country-and-folk/production/7283448",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-rogers-arkansas-10-24-2026/event/1B0064BDABF7EE9D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -275685,7 +275805,10 @@
     "ticketmaster_discovery_event_id": "G5viZ_5UlWXBq",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8130219/Zach-Top-tickets-Sat-Oct-24-2026-Walmart-AMP"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8130219/Zach-Top-tickets-Sat-Oct-24-2026-Walmart-AMP",
+    "organizer_names": [
+      "AEG - TICKETING"
+    ]
   },
   {
     "id": "tm-zach-top-2026-duluth-vvg1zz_5pbvq93",
@@ -275703,7 +275826,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-top-tickets-duluth-gas-south-arena-10-29-2026--concerts-country-and-folk/production/7119855",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-duluth-georgia-10-29-2026/event/0E0064B59805A5D2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -275746,7 +275869,10 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_5pbvQ93",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8026607/Zach-Top-tickets-Thu-Oct-29-2026-Gas-South-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8026607/Zach-Top-tickets-Thu-Oct-29-2026-Gas-South-Arena",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-zach-top-2026-nashville-g5viz_g6sznnj",
@@ -275764,7 +275890,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-top-tickets-nashville-bridgestone-arena-10-30-2026--concerts-country-and-folk/production/7119853",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-nashville-tennessee-10-30-2026/event/1B0064C1F3023AA6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -275807,7 +275933,10 @@
     "ticketmaster_discovery_event_id": "G5viZ_G6SZNnJ",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8026602/Zach-Top-tickets-Fri-Oct-30-2026-Bridgestone-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8026602/Zach-Top-tickets-Fri-Oct-30-2026-Bridgestone-Arena",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-sienna-spiro-2027-austin-g5diz_47ytekn",
@@ -275825,7 +275954,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-austin-moody-amphitheater-8-5-2027--concerts-pop/production/7726788",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-austin-texas-08-05-2027/event/3A00655130FE71AA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -275869,7 +275998,33 @@
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-23T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332299/Sienna-Spiro-tickets-Thu-Aug-5-2027-Moody-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332299/Sienna-Spiro-tickets-Thu-Aug-5-2027-Moody-Amphitheater",
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "WME AGENCY"
+    ],
+    "presales": [
+      {
+        "name": "Amex Preferred Tickets",
+        "start": "2026-10-20T17:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Amex Presale Tickets",
+        "start": "2026-10-20T17:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Waterloo Greenway Venue Presale",
+        "start": "2026-10-22T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sienna-spiro-2027-washington-1avfz_fgksa-bdm",
@@ -275887,7 +276042,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-washington-dc-the-anthem-8-12-2027--concerts-pop/production/7726796",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-washington-district-of-columbia-08-12-2027/event/1500654CC5858EF7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -275931,7 +276086,29 @@
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-23T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332313/Sienna-Spiro-tickets-Thu-Aug-12-2027-The-Anthem-DC"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332313/Sienna-Spiro-tickets-Thu-Aug-12-2027-The-Anthem-DC",
+    "presales": [
+      {
+        "name": "Amex Preferred Tickets™",
+        "start": "2026-10-20T16:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Amex Presale Tickets®",
+        "start": "2026-10-20T16:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "I.M.P. Email Presale",
+        "start": "2026-10-22T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sienna-spiro-2027-philadelphia-vv17fz_fgkuhzdr4",
@@ -275949,7 +276126,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-philadelphia-pennsylvania-08-14-2027/event/0200654DBCE3BBD5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -275993,7 +276170,17 @@
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-23T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332317/Sienna-Spiro-tickets-Sat-Aug-14-2027-The-Met-Presented-by-Highmark"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332317/Sienna-Spiro-tickets-Sat-Aug-14-2027-The-Met-Presented-by-Highmark",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sienna-spiro-2027-boston-vv177z_fgkd_e0km",
@@ -276011,7 +276198,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-boston-mgm-music-hall-at-fenway-8-15-2027--concerts-pop/production/7726800",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-boston-massachusetts-08-15-2027/event/0100654ED90A44F7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -276055,7 +276242,17 @@
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-23T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332320/Sienna-Spiro-tickets-Sun-Aug-15-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332320/Sienna-Spiro-tickets-Sun-Aug-15-2027-MGM-Music-Hall-at-Fenway-Park",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sienna-spiro-2027-new-york-g5dyz_46da3nv",
@@ -276073,7 +276270,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-new-york-radio-city-music-hall-8-17-2027--concerts-pop/production/7726802",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-new-york-new-york-08-17-2027/event/3C006551FB1528C1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -276117,7 +276314,47 @@
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-23T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332325/Sienna-Spiro-tickets-Tue-Aug-17-2027-Radio-City-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332325/Sienna-Spiro-tickets-Tue-Aug-17-2027-Radio-City-Music-Hall",
+    "organizer_names": [
+      "BOWERY PRESENTS"
+    ],
+    "presales": [
+      {
+        "name": "Amex Preferred Tickets™",
+        "start": "2026-10-20T16:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Amex Presale Tickets®",
+        "start": "2026-10-20T16:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-10-22T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-23T14:00:00Z",
+        "end": "2026-11-23T15:00:00Z"
+      },
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-10-23T14:00:00Z",
+        "end": "2027-08-04T00:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-10-23T14:00:00Z",
+        "end": "2027-08-18T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sienna-spiro-2027-detroit-vv1afzk48gkebo40x",
@@ -276135,7 +276372,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-detroit-fox-theatre-detroit-8-23-2027--concerts-pop/production/7726810",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-detroit-michigan-08-23-2027/event/08006550BA81593E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -276179,7 +276416,27 @@
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-23T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332344/Sienna-Spiro-tickets-Mon-Aug-23-2027-Fox-Theatre-Detroit"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332344/Sienna-Spiro-tickets-Mon-Aug-23-2027-Fox-Theatre-Detroit",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Amex Preferred Tickets™",
+        "start": "2026-10-20T16:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Amex Presale Tickets®",
+        "start": "2026-10-20T16:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sienna-spiro-2027-chicago-vv17jz_fgkxlgu6j",
@@ -276197,7 +276454,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-chicago-illinois-08-25-2027/event/0700654FAB3361DC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -276241,7 +276498,52 @@
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-23T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332347/Sienna-Spiro-tickets-Wed-Aug-25-2027-The-Chicago-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332347/Sienna-Spiro-tickets-Wed-Aug-25-2027-The-Chicago-Theatre",
+    "organizer_names": [
+      "JAM PRODUCTIONS"
+    ],
+    "presales": [
+      {
+        "name": "Amex Preferred Tickets™",
+        "start": "2026-10-20T17:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Amex Presale Tickets®",
+        "start": "2026-10-20T17:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-10-22T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "JAM Presale",
+        "start": "2026-10-22T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-22T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-23T15:00:00Z",
+        "end": "2026-11-20T16:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-10-23T15:00:00Z",
+        "end": "2027-08-26T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sienna-spiro-2027-chicago-vv17jz_fgkxlcj6o",
@@ -276259,7 +276561,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-chicago-illinois-08-26-2027/event/0700654FAB3A61E0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -276303,7 +276605,52 @@
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-23T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332348/Sienna-Spiro-tickets-Thu-Aug-26-2027-The-Chicago-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332348/Sienna-Spiro-tickets-Thu-Aug-26-2027-The-Chicago-Theatre",
+    "organizer_names": [
+      "JAM PRODUCTIONS"
+    ],
+    "presales": [
+      {
+        "name": "Amex Preferred Tickets™",
+        "start": "2026-10-20T17:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Amex Presale Tickets®",
+        "start": "2026-10-20T17:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-10-22T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "JAM Presale",
+        "start": "2026-10-22T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-22T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-23T15:00:00Z",
+        "end": "2026-11-20T16:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-10-23T15:00:00Z",
+        "end": "2027-08-27T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sienna-spiro-2027-minneapolis-vv17bz_fgktexhi7",
@@ -276321,7 +276668,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-minneapolis-armory---minneapolis-8-28-2027--concerts-pop/production/7726818",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-minneapolis-minnesota-08-28-2027/event/0600654FC2FBCB04",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -276365,7 +276712,37 @@
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-23T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332354/Sienna-Spiro-tickets-Sat-Aug-28-2027-The-Armory-Minneapolis"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332354/Sienna-Spiro-tickets-Sat-Aug-28-2027-The-Armory-Minneapolis",
+    "organizer_names": [
+      "FIRST AVENUE"
+    ],
+    "presales": [
+      {
+        "name": "Amex Preferred Tickets®",
+        "start": "2026-10-20T17:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Amex Presale Tickets®",
+        "start": "2026-10-20T17:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Promoter Presale",
+        "start": "2026-10-22T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-22T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sienna-spiro-2027-seattle-vvg1hz_4ediyof",
@@ -276383,7 +276760,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-seattle-wamu-theater---seattle-9-2-2027--concerts-pop/production/7726822",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-seattle-washington-09-02-2027/event/0F006550BBB39814",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -276427,7 +276804,37 @@
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-23T17:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332362/Sienna-Spiro-tickets-Thu-Sep-2-2027-Wamu-Theater-At-Lumen-Field-Event-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332362/Sienna-Spiro-tickets-Thu-Sep-2-2027-Wamu-Theater-At-Lumen-Field-Event-Center",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "presales": [
+      {
+        "name": "Amex Preferred Tickets",
+        "start": "2026-10-20T19:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      },
+      {
+        "name": "Amex Presale Tickets",
+        "start": "2026-10-20T19:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T17:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      },
+      {
+        "name": "AEG Presale",
+        "start": "2026-10-22T17:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-22T17:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sienna-spiro-2027-vancouver-1av7z_fgkxqzaez",
@@ -276445,7 +276852,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-9-4-2027--concerts-pop/production/7726824",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sienna-spiro-my-house-tour-extended-vancouver-british-columbia-09-04-2027/event/1100654F9A0099F8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -276489,7 +276896,28 @@
     "timezone": "America/Vancouver",
     "status": "announced",
     "public_onsale_at": "2026-10-23T17:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332368/Sienna-Spiro-tickets-Sat-Sep-4-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332368/Sienna-Spiro-tickets-Sat-Sep-4-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-10-20T19:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T17:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-22T17:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sienna-spiro-2027-berkeley-g5vyz_fbwbrn7",
@@ -276507,7 +276935,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-berkeley-greek-theatre---berkeley-9-7-2027--concerts-pop/production/7726828",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-berkeley-california-09-07-2027/event/1C00654EBD61E8C4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -276551,13 +276979,33 @@
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-23T17:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332372/Sienna-Spiro-tickets-Tue-Sep-7-2027-Greek-Theatre-UC-Berkeley"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332372/Sienna-Spiro-tickets-Tue-Sep-7-2027-Greek-Theatre-UC-Berkeley",
+    "organizer_names": [
+      "ANOTHER PLANET"
+    ],
+    "presales": [
+      {
+        "name": "Amex Presale Tickets®",
+        "start": "2026-10-20T19:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T17:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      },
+      {
+        "name": "APE Presale",
+        "start": "2026-10-22T17:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sienna-spiro-2027-mexico-1afzk4ogkeyuq9e",
     "artist_slug": "sienna-spiro",
     "artist_name": "Sienna Spiro",
-    "event_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour (Extended)",
     "city": "México",
     "country": "Mexico",
     "venue": "Pepsi Center",
@@ -276569,7 +277017,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/sienna-spiro-mexico-14-09-2027/event/14006551B935A5C2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -276605,7 +277053,22 @@
     "ticketmaster_discovery_event_id": "1AfZk4oGkeyuQ9e",
     "timezone": "America/Mexico_City",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T16:00:00Z"
+    "public_onsale_at": "2026-10-23T16:00:00Z",
+    "organizer_names": [
+      "OCESA"
+    ],
+    "presales": [
+      {
+        "name": "Venta Fans",
+        "start": "2026-10-21T16:00:00Z",
+        "end": "2026-10-23T04:00:00Z"
+      },
+      {
+        "name": "Preventa Banamex",
+        "start": "2026-10-22T16:00:00Z",
+        "end": "2026-10-23T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-san-diego-vvg1iz_4zg9ez5",
@@ -276623,7 +277086,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-san-diego-california-05-01-2027/event/0A0065500C5C200B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -276659,7 +277122,14 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_4ZG9eZ5",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T17:00:00Z"
+    "public_onsale_at": "2026-10-23T17:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-22T17:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tommy-emmanuel-2027-grand-junction-g5vzz_fdgnqkn",
@@ -276677,7 +277147,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-grand-junction-avalon-theatre---co-2-24-2027/production/7729000",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-grand-junction-colorado-02-24-2027/event/1E00654ECC8DA4E3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -276721,7 +277191,38 @@
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-10-23T16:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333067/Tommy-Emmanuel-tickets-Wed-Feb-24-2027-The-Avalon-Theatre-CO"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333067/Tommy-Emmanuel-tickets-Wed-Feb-24-2027-The-Avalon-Theatre-CO",
+    "organizer_names": [
+      "EMPORIUM PRESENTS",
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T16:00:00Z",
+        "end": "2026-10-23T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-21T16:00:00Z",
+        "end": "2026-10-23T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-22T16:00:00Z",
+        "end": "2026-10-23T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-22T16:00:00Z",
+        "end": "2026-10-23T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-23T16:00:00Z",
+        "end": "2027-02-18T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tommy-emmanuel-2027-virginia-beach-vv177z_fgkxnvih0",
@@ -276739,7 +277240,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-virginia-beach-sandler-center-for-the-performing-arts-6-2-2027/production/7728901",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-virginia-beach-virginia-06-02-2027/event/0100654FAAD2CF24",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -276783,7 +277284,38 @@
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-23T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333070/Tommy-Emmanuel-tickets-Wed-Jun-2-2027-Sandler-Center-For-The-Performing-Arts"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333070/Tommy-Emmanuel-tickets-Wed-Jun-2-2027-Sandler-Center-For-The-Performing-Arts",
+    "organizer_names": [
+      "FRANK PRODUCTIONS",
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-21T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-22T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-22T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-23T14:00:00Z",
+        "end": "2027-05-27T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-haiden-henderson-2027-minneapolis-z7r9jz1aaeerb",
@@ -276862,7 +277394,7 @@
     "vividseats_url": "https://www.vividseats.com/the-eagles-tickets-las-vegas-sphere-1-8-2027--concerts-adult-contemporary/production/7726271",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-08-2027/event/17006542EDDFB8F3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -276906,7 +277438,42 @@
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-30T17:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332074/The-Eagles-tickets-Fri-Jan-8-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332074/The-Eagles-tickets-Fri-Jan-8-2027-Sphere",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "On The List VIP Package Presale",
+        "start": "2026-10-28T17:00:00Z",
+        "end": "2026-10-30T05:00:00Z"
+      },
+      {
+        "name": "Seated Presale",
+        "start": "2026-10-28T17:00:00Z",
+        "end": "2026-10-30T16:59:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-29T17:00:00Z",
+        "end": "2026-10-30T16:59:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-29T17:00:00Z",
+        "end": "2026-10-30T16:59:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-29T17:00:00Z",
+        "end": "2026-10-30T16:59:00Z"
+      },
+      {
+        "name": "On The List VIP Package Onsale",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2026-12-30T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-eagles-2027-las-vegas-1a9zk4egkdmahp8",
@@ -276924,7 +277491,7 @@
     "vividseats_url": "https://www.vividseats.com/the-eagles-tickets-las-vegas-sphere-1-9-2027--concerts-adult-contemporary/production/7726273",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-09-2027/event/17006542EE15B950",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -276968,7 +277535,42 @@
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-30T17:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332075/The-Eagles-tickets-Sat-Jan-9-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332075/The-Eagles-tickets-Sat-Jan-9-2027-Sphere",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "On The List VIP Package Presale",
+        "start": "2026-10-28T17:00:00Z",
+        "end": "2026-10-30T05:00:00Z"
+      },
+      {
+        "name": "Seated Presale",
+        "start": "2026-10-28T17:00:00Z",
+        "end": "2026-10-30T16:59:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-29T17:00:00Z",
+        "end": "2026-10-30T16:59:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-29T17:00:00Z",
+        "end": "2026-10-30T16:59:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-29T17:00:00Z",
+        "end": "2026-10-30T16:59:00Z"
+      },
+      {
+        "name": "On The List VIP Package Onsale",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2026-12-31T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sienna-spiro-2027-new-york-g5dyz_46d6wnd",
@@ -276986,7 +277588,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-new-york-new-york-08-18-2027/event/3C006551FB1F28C3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -277022,7 +277624,47 @@
     "ticketmaster_discovery_event_id": "G5dYZ_46D6wNd",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T14:00:00Z"
+    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "organizer_names": [
+      "BOWERY PRESENTS"
+    ],
+    "presales": [
+      {
+        "name": "Amex Preferred Tickets™",
+        "start": "2026-10-20T22:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Amex Presale Tickets®",
+        "start": "2026-10-20T22:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-10-22T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-23T14:00:00Z",
+        "end": "2026-11-23T15:00:00Z"
+      },
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-10-23T14:00:00Z",
+        "end": "2027-08-05T00:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-10-23T14:00:00Z",
+        "end": "2027-08-19T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-yacht-rock-revue-2027-atlanta-z7r9jz1aa7oau",

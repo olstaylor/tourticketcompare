@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-inglewood-intuit-dome-2-26-2027/production/7047204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-inglewood-california-02-26-2027/event/090064AFF1A0DF67",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -80,6 +80,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-05-28T17:00:00Z",
         "end": "2027-02-20T01:00:00Z"
+      },
+      {
+        "name": "Weekend Special Offer",
+        "start": "2026-10-23T17:00:00Z",
+        "end": "2026-10-27T05:00:00Z"
       }
     ],
     "organizer_names": [
@@ -189,7 +194,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-rosemont-illinois-03-05-2027/event/040064A78C386CA4",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -254,6 +259,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-05-28T15:00:00Z",
         "end": "2027-02-26T23:00:00Z"
+      },
+      {
+        "name": "Second Weekend Special",
+        "start": "2026-10-23T15:00:00Z",
+        "end": "2026-10-27T03:00:00Z"
       }
     ]
   },

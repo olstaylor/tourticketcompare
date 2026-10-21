@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-las-vegas-encore-theater-at-wynn-las-vegas-10-21-2026/production/7080336",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-21-2026/event/170064AFB615AE6A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,7 +50,10 @@
     },
     "ticketmaster_discovery_event_id": "17AYv0G61XUAQyn",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-tom-jones-2026-las-vegas-17ayv0g61xukqbd",
@@ -68,7 +71,7 @@
     "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-las-vegas-encore-theater-at-wynn-las-vegas-10-23-2026/production/7080340",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-23-2026/event/170064AFB619AE83",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -103,7 +106,10 @@
     },
     "ticketmaster_discovery_event_id": "17AYv0G61XUkQBd",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-tom-jones-2026-las-vegas-17ayv0g61xu61b0",
@@ -121,7 +127,7 @@
     "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-las-vegas-encore-theater-at-wynn-las-vegas-10-24-2026/production/7080334",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-las-vegas-nevada-10-24-2026/event/170064AFB61CAEA4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156,7 +162,10 @@
     },
     "ticketmaster_discovery_event_id": "17AYv0G61XU61B0",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-tom-jones-2026-los-angeles-vvg10z_58xadko",
@@ -174,7 +183,7 @@
     "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-los-angeles-greek-theatre---los-angeles-10-26-2026--concerts-pop/production/7079614",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-los-angeles-california-10-26-2026/event/090064B43E17B4D1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -225,7 +234,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997398/Tom-Jones-tickets-Mon-Oct-26-2026-Greek-Theatre-Los-Angeles-CA",
-    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-los-angeles-tickets-10-26-2026/event/107448275"
+    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-los-angeles-tickets-10-26-2026/event/107448275",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-tom-jones-2026-san-diego-vvg1iz_5gqcfyd",
@@ -243,7 +255,7 @@
     "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-san-diego-the-rady-shell-at-jacobs-park-10-27-2026/production/7079864",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-diego-california-10-27-2026/event/0A0064B31A394E43",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -294,7 +306,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997399/Tom-Jones-tickets-Tue-Oct-27-2026-The-Rady-Shell-at-Jacobs-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-san-diego-tickets-10-27-2026/event/107447921"
+    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-san-diego-tickets-10-27-2026/event/107447921",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-tom-jones-2026-highland-z7r9jz1a7p6r4",
@@ -373,7 +388,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-wheatland-california-10-31-2026/event/1C0064ADB24B61AD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416,7 +431,10 @@
     "ticketmaster_discovery_event_id": "G5vYZ_1Uw3Ukc",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997400/Tom-Jones-tickets-Sat-Oct-31-2026-Hard-Rock-Live-Sacramento"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997400/Tom-Jones-tickets-Sat-Oct-31-2026-Hard-Rock-Live-Sacramento",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-tom-jones-2026-san-francisco-g5vyz_5d9skqu",
@@ -434,7 +452,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-francisco-california-11-01-2026/event/1C0064B0D7C4668D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -485,6 +503,9 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997401/Tom-Jones-tickets-Sun-Nov-1-2026-The-Masonic-San-Francisco",
-    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-san-francisco-tickets-11-1-2026/event/107448276"
+    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-san-francisco-tickets-11-1-2026/event/107448276",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   }
 ]

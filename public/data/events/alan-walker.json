@@ -1621,7 +1621,7 @@
     "tour_name": "Legend of Atlantis Tour",
     "ticketmaster_event_id": "0A00652AA478707C",
     "ticketmaster_url": "https://www.ticketmaster.com/insomniac-presents-alan-walker-legend-of-los-angeles-california-03-06-2027/event/0A00652AA478707C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/alan-walker-tickets/los-angeles-california-the-torch-at-la-coliseum-2027-03-06-6-pm/concert/18591776",
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-los-angeles-the-torch-at-la-coliseum-3-6-2027--concerts-dance-electronica/production/7554701",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/insomniac-presents-alan-walker-legend-of-los-angeles-california-03-06-2027/event/0A00652AA478707C",
@@ -1637,11 +1637,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18591776,
+        "url": "https://seatgeek.com/alan-walker-tickets/los-angeles-california-the-torch-at-la-coliseum-2027-03-06-6-pm/concert/18591776",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7554701,

@@ -1772,11 +1772,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18542761,
+        "url": "https://seatgeek.com/tobymac-tickets/grand-rapids-michigan-van-andel-arena-2027-03-07-6-30-pm/concert/18542761",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7492525,

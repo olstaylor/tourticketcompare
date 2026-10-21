@@ -1729,7 +1729,7 @@
     "tour_name": "Living In The Light Tour",
     "ticketmaster_event_id": "11006536C1B2A704",
     "ticketmaster_url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-vancouver-british-columbia-03-12-2027/event/11006536C1B2A704",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tommy-emmanuel-tickets/vancouver-canada-queen-elizabeth-theatre-vancouver-2027-03-12-8-pm/concert/18633861",
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-vancouver-queen-elizabeth-theatre---vancouver-3-12-2027/production/7627291",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-vancouver-british-columbia-03-12-2027/event/11006536C1B2A704",
@@ -1745,11 +1745,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633861,
+        "url": "https://seatgeek.com/tommy-emmanuel-tickets/vancouver-canada-queen-elizabeth-theatre-vancouver-2027-03-12-8-pm/concert/18633861",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7627291,
@@ -1805,11 +1805,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18634114,
+        "url": "https://seatgeek.com/tommy-emmanuel-tickets/calgary-canada-southern-alberta-jubilee-auditorium-2027-03-14-8-pm/concert/18634114",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7626969,
@@ -1881,11 +1881,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633853,
+        "url": "https://seatgeek.com/tommy-emmanuel-tickets/winnipeg-canada-burton-cummings-theatre-2027-03-17-8-pm/concert/18633853",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7648393,
@@ -1941,7 +1941,7 @@
     "tour_name": "Living In The Light Tour",
     "ticketmaster_event_id": "31006535983934DD",
     "ticketmaster_url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-ottawa-ontario-03-20-2027/event/31006535983934DD",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tommy-emmanuel-tickets/ottawa-canada-national-arts-centre-2027-03-20-8-pm/concert/18633859",
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-ottawa-national-arts-centre-3-20-2027/production/7648498",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-ottawa-ontario-03-20-2027/event/31006535983934DD",
@@ -1957,11 +1957,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633859,
+        "url": "https://seatgeek.com/tommy-emmanuel-tickets/ottawa-canada-national-arts-centre-2027-03-20-8-pm/concert/18633859",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7648498,
@@ -2150,7 +2150,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0100654FAAD2CF24",
     "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-virginia-beach-virginia-06-02-2027/event/0100654FAAD2CF24",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tommy-emmanuel-tickets/virginia-beach-virginia-sandler-center-for-the-performing-arts-2027-06-02-7-30-pm/concert/18703617",
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-virginia-beach-sandler-center-for-the-performing-arts-6-2-2027/production/7728901",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-virginia-beach-virginia-06-02-2027/event/0100654FAAD2CF24",
@@ -2166,11 +2166,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18703617,
+        "url": "https://seatgeek.com/tommy-emmanuel-tickets/virginia-beach-virginia-sandler-center-for-the-performing-arts-2027-06-02-7-30-pm/concert/18703617",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7728901,

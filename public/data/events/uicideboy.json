@@ -370,7 +370,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2000647BC9575B8D",
     "ticketmaster_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-birmingham-alabama-10-20-2026/event/2000647BC9575B8D",
-    "seatgeek_url": "https://seatgeek.com/uicideboy-tickets/birmingham-alabama-coca-cola-amphitheater-2026-10-20-6-30-pm/concert/18155901",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-birmingham-alabama-10-20-2026/event/2000647BC9575B8D",
@@ -386,11 +386,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18155901,
-        "url": "https://seatgeek.com/uicideboy-tickets/birmingham-alabama-coca-cola-amphitheater-2026-10-20-6-30-pm/concert/18155901",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,

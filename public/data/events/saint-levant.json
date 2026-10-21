@@ -245,7 +245,7 @@
     "tour_name": "AFANDI World Tour",
     "ticketmaster_event_id": "31006519E82D8383",
     "ticketmaster_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-ottawa-ontario-03-19-2027/event/31006519E82D8383",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/ottawa-canada-history-ottawa-2027-03-19-7-pm/concert/18552167",
     "vividseats_url": "https://www.vividseats.com/saint-levant-tickets-ottawa-history-ottawa-3-19-2027--concerts-pop/production/7505760",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-ottawa-ontario-03-19-2027/event/31006519E82D8383",
@@ -261,11 +261,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18552167,
+        "url": "https://seatgeek.com/saint-levant-tickets/ottawa-canada-history-ottawa-2027-03-19-7-pm/concert/18552167",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7505760,
@@ -309,7 +309,7 @@
     "tour_name": "AFANDI World Tour",
     "ticketmaster_event_id": "1000651A6D5B2732",
     "ticketmaster_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-london-ontario-03-20-2027/event/1000651A6D5B2732",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/london-canada-london-music-hall-2027-03-20-7-pm/concert/18551699",
     "vividseats_url": "https://www.vividseats.com/saint-levant-tickets-london-london-music-hall---ontario-3-20-2027--concerts-pop/production/7505762",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-london-ontario-03-20-2027/event/1000651A6D5B2732",
@@ -325,11 +325,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18551699,
+        "url": "https://seatgeek.com/saint-levant-tickets/london-canada-london-music-hall-2027-03-20-7-pm/concert/18551699",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7505762,
@@ -374,7 +374,7 @@
     "tour_name": "AFANDI World Tour",
     "ticketmaster_event_id": "10006519F08E9E4C",
     "ticketmaster_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-toronto-ontario-03-25-2027/event/10006519F08E9E4C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/toronto-canada-history-2027-03-25-7-pm/concert/18550847",
     "vividseats_url": "https://www.vividseats.com/saint-levant-tickets-toronto-history-toronto-3-25-2027--concerts-pop/production/7505840",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-toronto-ontario-03-25-2027/event/10006519F08E9E4C",
@@ -390,11 +390,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18550847,
+        "url": "https://seatgeek.com/saint-levant-tickets/toronto-canada-history-2027-03-25-7-pm/concert/18550847",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7505840,
@@ -771,11 +771,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18550851,
+        "url": "https://seatgeek.com/saint-levant-tickets/los-angeles-california-the-wiltern-2027-05-02-7-pm/concert/18550851",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7505676,
@@ -1584,11 +1584,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18386179,
+        "url": "https://seatgeek.com/saint-levant-tickets/brooklyn-new-york-brooklyn-paramount-2027-03-30-7-pm/concert/18386179",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1672,11 +1672,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18386181,
+        "url": "https://seatgeek.com/saint-levant-tickets/brooklyn-new-york-brooklyn-paramount-2027-03-31-7-pm/concert/18386181",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

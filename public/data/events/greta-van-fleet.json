@@ -1031,11 +1031,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641972,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/albany-new-york-mvp-arena-2027-03-06-7-pm/concert/18641972",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642140,
@@ -1284,11 +1284,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641976,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-03-12-7-pm/concert/18641976",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642096,
@@ -1363,11 +1363,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641980,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/knoxville-tennessee-thompson-boling-arena-at-food-city-center-2027-03-13-7-pm/concert/18641980",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642114,
@@ -1529,11 +1529,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641984,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/tulsa-oklahoma-bok-center-2027-03-16-7-pm/concert/18641984",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642162,
@@ -1695,11 +1695,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641989,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/phoenix-arizona-mortgage-matchup-center-2027-03-20-7-pm/concert/18641989",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642092,
@@ -1774,11 +1774,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641990,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/reno-nevada-reno-events-center-2027-03-22-7-pm/concert/18641990",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642168,
@@ -1940,11 +1940,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641995,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/portland-oregon-moda-center-2027-03-25-7-pm/concert/18641995",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642126,
@@ -3768,7 +3768,7 @@
     "tour_name": "Into The Beginning Tour",
     "ticketmaster_event_id": "0100653AAC543171",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-gilford-new-hampshire-07-26-2027/event/0100653AAC543171",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/greta-van-fleet-tickets/gilford-new-hampshire-banknh-pavilion-2027-07-26-7-pm/concert/18642025",
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-gilford-banknh-pavilion-7-26-2027/production/7642112",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-gilford-new-hampshire-07-26-2027/event/0100653AAC543171",
@@ -3784,11 +3784,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642025,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/gilford-new-hampshire-banknh-pavilion-2027-07-26-7-pm/concert/18642025",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642112,
@@ -3918,7 +3918,7 @@
     "tour_name": "Into The Beginning Tour",
     "ticketmaster_event_id": "1000653CF2C026FE",
     "ticketmaster_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-toronto-ontario-07-29-2027/event/1000653CF2C026FE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/greta-van-fleet-tickets/toronto-canada-rbc-amphitheatre-2027-07-29-7-pm/concert/18642028",
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-toronto-rbc-amphitheatre-7-29-2027/production/7642156",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-toronto-ontario-07-29-2027/event/1000653CF2C026FE",
@@ -3934,11 +3934,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642028,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/toronto-canada-rbc-amphitheatre-2027-07-29-7-pm/concert/18642028",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642156,

@@ -591,7 +591,7 @@
         "event_id": 18252764,
         "url": "https://seatgeek.com/mico-tickets/dallas-texas-the-echo-lounge-music-hall-2026-10-22-7-pm/concert/18252764",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -663,7 +663,7 @@
         "event_id": 18252102,
         "url": "https://seatgeek.com/mico-tickets/austin-texas-scoot-inn-2026-10-23-6-pm/concert/18252102",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -735,7 +735,7 @@
         "event_id": 18252623,
         "url": "https://seatgeek.com/mico-tickets/houston-texas-white-oak-music-hall-downstairs-2026-10-24-7-pm/concert/18252623",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -917,7 +917,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "150064ACC913942D",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-washington-district-of-columbia-10-29-2026/event/150064ACC913942D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mico-tickets/washington-district-of-columbia-9-30-club-2026-10-29-7-pm/concert/18251761",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-washington-district-of-columbia-10-29-2026/event/150064ACC913942D",
@@ -933,11 +933,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18251761,
+        "url": "https://seatgeek.com/mico-tickets/washington-district-of-columbia-9-30-club-2026-10-29-7-pm/concert/18251761",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2234,11 +2234,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18666757,
+        "url": "https://seatgeek.com/mico-tickets/indianapolis-indiana-the-deluxe-at-old-national-centre-2027-03-09-8-pm/concert/18666757",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679637,
@@ -2297,7 +2297,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "16006544C2C1714C",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-cincinnati-ohio-03-12-2027/event/16006544C2C1714C",
-    "seatgeek_url": "https://seatgeek.com/mico-tickets/cincinnati-ohio-bogarts-cincinnati-2027-03-12-7-pm/concert/18666222",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-cincinnati-ohio-03-12-2027/event/16006544C2C1714C",
@@ -2317,7 +2317,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,

@@ -689,7 +689,7 @@
         "event_id": 18345756,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/seattle-washington-neptune-theatre-wa-2026-10-24-8-pm/concert/18345756",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1497,7 +1497,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "160065151E591901",
     "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-with-cincinnati-ohio-02-27-2027/event/160065151E591901",
-    "seatgeek_url": "https://seatgeek.com/dinosaur-jr-tickets/cincinnati-ohio-bogarts-cincinnati-2027-02-27-7-pm/concert/18540446",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-with-cincinnati-ohio-02-27-2027/event/160065151E591901",
@@ -1517,7 +1517,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1682,7 +1682,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "10006515E97AB51C",
     "ticketmaster_url": "https://www.ticketmaster.ca/dinosaur-jr-spring-tour-2027-toronto-ontario-03-07-2027/event/10006515E97AB51C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dinosaur-jr-tickets/toronto-canada-the-danforth-music-hall-2027-03-07-7-pm/concert/18540457",
     "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-toronto-the-danforth-music-hall-3-7-2027--concerts-rock/production/7492671",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dinosaur-jr-spring-tour-2027-toronto-ontario-03-07-2027/event/10006515E97AB51C",
@@ -1698,11 +1698,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18540457,
+        "url": "https://seatgeek.com/dinosaur-jr-tickets/toronto-canada-the-danforth-music-hall-2027-03-07-7-pm/concert/18540457",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7492671,

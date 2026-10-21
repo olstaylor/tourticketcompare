@@ -544,7 +544,7 @@
     "tour_name": "The Winter Carnival Tour 2027",
     "ticketmaster_event_id": "0600653100933766",
     "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-kansas-city-missouri-02-04-2027/event/0600653100933766",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/atmosphere-tickets/kansas-city-missouri-voodoo-lounge-at-harrah-s-casino-north-kansas-city-2027-02-04-7-pm/concert/18609098",
     "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-kansas-city-voodoo-at-harrahs-kansas-city-2-4-2027--concerts-rap-hip-hop/production/7588973",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-kansas-city-missouri-02-04-2027/event/0600653100933766",
@@ -560,11 +560,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18609098,
+        "url": "https://seatgeek.com/atmosphere-tickets/kansas-city-missouri-voodoo-lounge-at-harrah-s-casino-north-kansas-city-2027-02-04-7-pm/concert/18609098",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7588973,

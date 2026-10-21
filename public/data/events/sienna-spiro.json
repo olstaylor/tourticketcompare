@@ -522,7 +522,7 @@
         "event_id": 18297290,
         "url": "https://seatgeek.com/sienna-spiro-tickets/toronto-canada-history-2026-10-25-6-pm/concert/18297290",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2248,7 +2248,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A00655130FE71AA",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-austin-texas-08-05-2027/event/3A00655130FE71AA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/austin-texas-moody-amphitheater-2027-08-05-7-pm/concert/18702006",
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-austin-moody-amphitheater-8-5-2027--concerts-pop/production/7726788",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-austin-texas-08-05-2027/event/3A00655130FE71AA",
@@ -2264,11 +2264,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18702006,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/austin-texas-moody-amphitheater-2027-08-05-7-pm/concert/18702006",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7726788,
@@ -2336,7 +2336,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1500654CC5858EF7",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-washington-district-of-columbia-08-12-2027/event/1500654CC5858EF7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/washington-district-of-columbia-the-anthem-dc-2027-08-12-7-pm/concert/18702008",
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-washington-dc-the-anthem-8-12-2027--concerts-pop/production/7726796",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-washington-district-of-columbia-08-12-2027/event/1500654CC5858EF7",
@@ -2352,11 +2352,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18702008,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/washington-district-of-columbia-the-anthem-dc-2027-08-12-7-pm/concert/18702008",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7726796,
@@ -2492,7 +2492,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0100654ED90A44F7",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-boston-massachusetts-08-15-2027/event/0100654ED90A44F7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-08-15-7-pm/concert/18702018",
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-boston-mgm-music-hall-at-fenway-8-15-2027--concerts-pop/production/7726800",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-boston-massachusetts-08-15-2027/event/0100654ED90A44F7",
@@ -2508,11 +2508,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18702018,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-08-15-7-pm/concert/18702018",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7726800,
@@ -2564,7 +2564,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3C006551FB1528C1",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-new-york-new-york-08-17-2027/event/3C006551FB1528C1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/new-york-new-york-radio-city-music-hall-2027-08-17-8-pm/concert/18702019",
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-new-york-radio-city-music-hall-8-17-2027--concerts-pop/production/7726802",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-new-york-new-york-08-17-2027/event/3C006551FB1528C1",
@@ -2580,11 +2580,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18702019,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/new-york-new-york-radio-city-music-hall-2027-08-17-8-pm/concert/18702019",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7726802,
@@ -2666,7 +2666,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "08006550BA81593E",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-detroit-michigan-08-23-2027/event/08006550BA81593E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/detroit-michigan-fox-theatre-detroit-2027-08-23-7-pm/concert/18702024",
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-detroit-fox-theatre-detroit-8-23-2027--concerts-pop/production/7726810",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-detroit-michigan-08-23-2027/event/08006550BA81593E",
@@ -2682,11 +2682,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18702024,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/detroit-michigan-fox-theatre-detroit-2027-08-23-7-pm/concert/18702024",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7726810,
@@ -2962,7 +2962,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0600654FC2FBCB04",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-minneapolis-minnesota-08-28-2027/event/0600654FC2FBCB04",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/minneapolis-minnesota-the-armory-minneapolis-2027-08-28-7-pm/concert/18702033",
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-minneapolis-armory---minneapolis-8-28-2027--concerts-pop/production/7726818",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-minneapolis-minnesota-08-28-2027/event/0600654FC2FBCB04",
@@ -2978,11 +2978,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18702033,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/minneapolis-minnesota-the-armory-minneapolis-2027-08-28-7-pm/concert/18702033",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7726818,
@@ -3054,7 +3054,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F006550BBB39814",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-seattle-washington-09-02-2027/event/0F006550BBB39814",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/seattle-washington-wamu-theater-2027-09-02-7-pm/concert/18702035",
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-seattle-wamu-theater---seattle-9-2-2027--concerts-pop/production/7726822",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-seattle-washington-09-02-2027/event/0F006550BBB39814",
@@ -3070,11 +3070,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18702035,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/seattle-washington-wamu-theater-2027-09-02-7-pm/concert/18702035",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7726822,
@@ -3146,7 +3146,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1100654F9A0099F8",
     "ticketmaster_url": "https://www.ticketmaster.ca/sienna-spiro-my-house-tour-extended-vancouver-british-columbia-09-04-2027/event/1100654F9A0099F8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2027-09-04-7-pm/concert/18702036",
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-9-4-2027--concerts-pop/production/7726824",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sienna-spiro-my-house-tour-extended-vancouver-british-columbia-09-04-2027/event/1100654F9A0099F8",
@@ -3162,11 +3162,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18702036,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2027-09-04-7-pm/concert/18702036",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7726824,
@@ -3229,7 +3229,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C00654EBD61E8C4",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-berkeley-california-09-07-2027/event/1C00654EBD61E8C4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/berkeley-california-the-greek-theatre-at-u-c-berkeley-2027-09-07-7-pm/concert/18702041",
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-berkeley-greek-theatre---berkeley-9-7-2027--concerts-pop/production/7726828",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-berkeley-california-09-07-2027/event/1C00654EBD61E8C4",
@@ -3245,11 +3245,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18702041,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/berkeley-california-the-greek-theatre-at-u-c-berkeley-2027-09-07-7-pm/concert/18702041",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7726828,

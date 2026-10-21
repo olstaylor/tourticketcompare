@@ -1149,5 +1149,58 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310576/Yacht-Rock-Revue-tickets-Fri-Feb-26-2027-Georgia-Theatre"
+  },
+  {
+    "id": "tm-yacht-rock-revue-2027-atlanta-z7r9jz1aa7oau",
+    "artist_slug": "yacht-rock-revue",
+    "artist_name": "Yacht Rock Revue",
+    "event_name": "Yacht Rock Revue",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "The Eastern-GA",
+    "datetime_iso": "2027-02-28T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7oAU",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7oAU",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7oAU",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7oAU",
+        "discovery_event_id": "Z7r9jZ1AA7oAU",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7oAU",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7oAU",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

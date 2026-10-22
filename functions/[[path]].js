@@ -3524,7 +3524,7 @@ function renderPriceGuideCityTables(artist, guide, rowById, lowByShowId, indexab
         : "";
       // The heading names the artist and city so a "<artist> <city> ticket
       // prices" search finds the matching table, not just the page.
-      return `<h3>${escapeHtml(`${artist.name} ticket prices in ${city.label}`)}${singleVenue ? ` · ${escapeHtml(singleVenue)}` : ""}</h3>${
+      return `<h3 id="priceGuideCity-${escapeHtml(city.slug)}">${escapeHtml(`${artist.name} ticket prices in ${city.label}`)}${singleVenue ? ` · ${escapeHtml(singleVenue)}` : ""}</h3>${
         cityLink ? `<p>${cityLink}</p>` : ""
       }<div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">Lowest listed price by date for ${escapeHtml(
         artist.name
@@ -3763,6 +3763,10 @@ function renderPriceGuideBody(route, events, env) {
     primaryGuide ? `<p>${anchor("Primary vs resale tickets: what the difference means for price", primaryGuide, "text-link")}</p>` : ""
   }</section>`;
 
+  const jumpCities = guide.cities.filter(city => city.shows.some(show => rowById.has(show.id)));
+  const cityPickerHtml = jumpCities.length > 1
+    ? `<details class="nested-panel"><summary>Choose a city</summary><nav aria-label="${escapeHtml(`${artist.name} ticket price cities`)}"><ul class="link-list">${jumpCities.map(city => `<li>${anchor(city.label, `#priceGuideCity-${city.slug}`)}</li>`).join("")}</ul></nav></details>`
+    : "";
   const tablesHtml = `<section class="nested-panel artist-city-price-answer" aria-labelledby="priceGuideDatesTitle"><h2 id="priceGuideDatesTitle">${escapeHtml(
     artist.name
   )} resale prices by date</h2><p>${escapeHtml(
@@ -3812,7 +3816,7 @@ function renderPriceGuideBody(route, events, env) {
 
   return `<main id="mainContent"><section class="content-page price-guide-page" aria-labelledby="priceGuideTitle">${renderBreadcrumbHtml(
     route
-  )}${leadHtml}${glanceHtml}${tablesHtml}${movesHtml}${missingPricesHtml}${faceValueHtml}${whereHtml}${renderPriceGuideFaqHtml(priceGuideFaqEntries(route, view))}${citeHtml}${relatedHtml}${renderPriceGuideLinksHtml(route.relatedGuides, {
+  )}${leadHtml}${glanceHtml}${cityPickerHtml}${tablesHtml}${movesHtml}${missingPricesHtml}${faceValueHtml}${whereHtml}${renderPriceGuideFaqHtml(priceGuideFaqEntries(route, view))}${citeHtml}${relatedHtml}${renderPriceGuideLinksHtml(route.relatedGuides, {
     id: "priceGuideOthers",
     heading: "Ticket prices for other artists",
     intro: `More tours with a date-by-date price page, starting with those playing the same cities as ${artist.name}.`

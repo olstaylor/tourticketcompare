@@ -321,7 +321,7 @@
     "tour_name": "The Long Surrender Tour",
     "ticketmaster_event_id": "0700652FE5BC6303",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-madison-wisconsin-02-25-2027/event/0700652FE5BC6303",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/needtobreathe-tickets/madison-wisconsin-the-sylvee-2027-02-25-7-pm/concert/18621529",
     "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-madison-the-sylvee-2-25-2027/production/7611480",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-madison-wisconsin-02-25-2027/event/0700652FE5BC6303",
@@ -337,11 +337,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18621529,
+        "url": "https://seatgeek.com/needtobreathe-tickets/madison-wisconsin-the-sylvee-2027-02-25-7-pm/concert/18621529",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7611480,
@@ -401,7 +401,7 @@
     "tour_name": "The Long Surrender Tour",
     "ticketmaster_event_id": "08006532CF9594F2",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-grand-rapids-michigan-02-26-2027/event/08006532CF9594F2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/needtobreathe-tickets/grand-rapids-michigan-glc-live-at-20-monroe-2027-02-26-6-pm/concert/18621537",
     "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-grand-rapids-glc-live-at-20-monroe-2-26-2027/production/7611486",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-grand-rapids-michigan-02-26-2027/event/08006532CF9594F2",
@@ -417,11 +417,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18621537,
+        "url": "https://seatgeek.com/needtobreathe-tickets/grand-rapids-michigan-glc-live-at-20-monroe-2027-02-26-6-pm/concert/18621537",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7611486,
@@ -1595,7 +1595,7 @@
         "event_id": 18621528,
         "url": "https://seatgeek.com/needtobreathe-tickets/kansas-city-missouri-the-midland-theatre-mo-2027-02-23-7-pm/concert/18621528",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1664,7 +1664,7 @@
         "event_id": 18621540,
         "url": "https://seatgeek.com/needtobreathe-tickets/lancaster-pennsylvania-american-music-theatre-2027-03-01-7-pm/concert/18621540",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {

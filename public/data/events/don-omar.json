@@ -906,7 +906,7 @@
     "tour_name": "The Last King World Tour",
     "ticketmaster_event_id": "3A0064AECC40D7EA",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-san-antonio-texas-10-22-2026/event/3A0064AECC40D7EA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/don-omar-tickets/san-antonio-texas-frost-bank-center-2026-10-22-8-pm/concert/18250863",
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-san-antonio-frost-bank-center-10-22-2026--concerts-world-music/production/7049058",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-san-antonio-texas-10-22-2026/event/3A0064AECC40D7EA",
@@ -922,11 +922,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18250863,
+        "url": "https://seatgeek.com/don-omar-tickets/san-antonio-texas-frost-bank-center-2026-10-22-8-pm/concert/18250863",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7049058,
@@ -1006,7 +1006,7 @@
         "event_id": 18257187,
         "url": "https://seatgeek.com/don-omar-tickets/houston-texas-toyota-center-2026-10-23-8-pm/concert/18257187",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1136,7 +1136,7 @@
     "tour_name": "The Last King World Tour",
     "ticketmaster_event_id": "090064AFE55AB260",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-ontario-california-10-29-2026/event/090064AFE55AB260",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/don-omar-tickets/ontario-california-toyota-arena-ontario-2026-10-29-8-pm/concert/18250868",
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-ontario-toyota-arena---ca-10-29-2026/production/7047716",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-ontario-california-10-29-2026/event/090064AFE55AB260",
@@ -1152,11 +1152,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18250868,
+        "url": "https://seatgeek.com/don-omar-tickets/ontario-california-toyota-arena-ontario-2026-10-29-8-pm/concert/18250868",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047716,
@@ -1239,7 +1239,7 @@
         "event_id": 18250878,
         "url": "https://seatgeek.com/don-omar-tickets/las-vegas-nevada-michelob-ultra-arena-at-mandalay-bay-resort-casino-2026-10-30-8-pm/concert/18250878",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1872,7 +1872,7 @@
         "event_id": 18333383,
         "url": "https://seatgeek.com/don-omar-tickets/san-diego-california-pechanga-arena-san-diego-2027-02-10-8-pm/concert/18333383",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2475,7 +2475,7 @@
     "tour_name": "The Last King World Tour",
     "ticketmaster_event_id": "150064D4C9797D4A",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-baltimore-maryland-03-04-2027/event/150064D4C9797D4A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/don-omar-tickets/baltimore-maryland-cfg-bank-arena-2027-03-04-8-pm/concert/18325129",
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-baltimore-cfg-bank-arena-3-4-2027/production/7198516",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-baltimore-maryland-03-04-2027/event/150064D4C9797D4A",
@@ -2491,11 +2491,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18325129,
+        "url": "https://seatgeek.com/don-omar-tickets/baltimore-maryland-cfg-bank-arena-2027-03-04-8-pm/concert/18325129",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7198516,

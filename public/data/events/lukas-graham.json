@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C00653319761B3C",
     "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-dallas-texas-03-02-2027/event/0C00653319761B3C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lukas-graham-tickets/dallas-texas-the-echo-lounge-music-hall-2027-03-02-7-pm/concert/18618974",
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-dallas-the-echo-lounge-and-music-hall-3-2-2027--concerts-pop/production/7600460",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-dallas-texas-03-02-2027/event/0C00653319761B3C",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18618974,
+        "url": "https://seatgeek.com/lukas-graham-tickets/dallas-texas-the-echo-lounge-music-hall-2027-03-02-7-pm/concert/18618974",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7600460,
@@ -90,7 +90,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E0065331C5F83C2",
     "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-atlanta-georgia-03-04-2027/event/0E0065331C5F83C2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lukas-graham-tickets/atlanta-georgia-buckhead-theatre-2027-03-04-8-pm/concert/18617906",
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-atlanta-buckhead-theatre-3-4-2027--concerts-pop/production/7600468",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-atlanta-georgia-03-04-2027/event/0E0065331C5F83C2",
@@ -106,11 +106,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18617906,
+        "url": "https://seatgeek.com/lukas-graham-tickets/atlanta-georgia-buckhead-theatre-2027-03-04-8-pm/concert/18617906",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7600468,

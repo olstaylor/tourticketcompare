@@ -326,7 +326,7 @@
     "tour_name": "CTRL ESCAPE ARENA TOUR",
     "ticketmaster_event_id": "010064B2AC06B8C3",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-boston-massachusetts-10-29-2026/event/010064B2AC06B8C3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/john-summit-tickets/boston-massachusetts-td-garden-2026-10-29-7-pm/concert/18257236",
     "vividseats_url": "https://www.vividseats.com/john-summit-tickets-boston-td-garden-10-29-2026--concerts-dance-electronica/production/7058770",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-boston-massachusetts-10-29-2026/event/010064B2AC06B8C3",
@@ -342,11 +342,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18257236,
+        "url": "https://seatgeek.com/john-summit-tickets/boston-massachusetts-td-garden-2026-10-29-7-pm/concert/18257236",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7058770,
@@ -584,7 +584,7 @@
         "event_id": 18257241,
         "url": "https://seatgeek.com/john-summit-tickets/houston-texas-toyota-center-2026-11-05-7-pm/concert/18257241",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {

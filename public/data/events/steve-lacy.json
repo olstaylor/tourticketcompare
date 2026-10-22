@@ -597,7 +597,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D0065037E9630A2",
     "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-tampa-florida-10-28-2026/event/0D0065037E9630A2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/steve-lacy-tickets/tampa-florida-yuengling-center-2026-10-28-8-pm/concert/18485932",
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-tampa-yuengling-center-10-28-2026--concerts-rb/production/7423304",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-tampa-florida-10-28-2026/event/0D0065037E9630A2",
@@ -613,11 +613,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18485932,
+        "url": "https://seatgeek.com/steve-lacy-tickets/tampa-florida-yuengling-center-2026-10-28-8-pm/concert/18485932",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7423304,
@@ -1079,7 +1079,7 @@
         "event_id": 18485941,
         "url": "https://seatgeek.com/steve-lacy-tickets/sugar-land-texas-smart-financial-centre-2026-11-08-8-pm/concert/18485941",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1140,7 +1140,7 @@
         "event_id": 18485943,
         "url": "https://seatgeek.com/steve-lacy-tickets/morrison-colorado-red-rocks-amphitheatre-2026-11-11-8-pm/concert/18485943",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {

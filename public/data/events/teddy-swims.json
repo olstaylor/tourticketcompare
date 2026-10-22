@@ -1153,7 +1153,7 @@
     "tour_name": "The Ugly Tour",
     "ticketmaster_event_id": "2200648ECACE6269",
     "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-orlando-florida-10-22-2026/event/2200648ECACE6269",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/orlando-florida-kia-center-2026-10-22-7-pm/concert/18185157",
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-orlando-kia-center-10-22-2026--concerts-rb/production/6911973",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-orlando-florida-10-22-2026/event/2200648ECACE6269",
@@ -1169,11 +1169,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18185157,
+        "url": "https://seatgeek.com/teddy-swims-tickets/orlando-florida-kia-center-2026-10-22-7-pm/concert/18185157",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6911973,
@@ -1259,7 +1259,7 @@
         "event_id": 18175691,
         "url": "https://seatgeek.com/teddy-swims-tickets/sunrise-florida-amerant-bank-arena-2026-10-23-7-pm/concert/18175691",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1317,7 +1317,7 @@
     "tour_name": "The Ugly Tour",
     "ticketmaster_event_id": "0D00648EDE85D4C7",
     "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-tampa-florida-10-25-2026/event/0D00648EDE85D4C7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/tampa-florida-benchmark-international-arena-2026-10-25-7-pm/concert/18185159",
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-tampa-benchmark-international-arena-10-25-2026--concerts-rb/production/6911979",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-tampa-florida-10-25-2026/event/0D00648EDE85D4C7",
@@ -1333,11 +1333,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18185159,
+        "url": "https://seatgeek.com/teddy-swims-tickets/tampa-florida-benchmark-international-arena-2026-10-25-7-pm/concert/18185159",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6911979,
@@ -1428,7 +1428,7 @@
         "event_id": 18185160,
         "url": "https://seatgeek.com/teddy-swims-tickets/houston-texas-toyota-center-2026-10-27-7-pm/concert/18185160",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1478,7 +1478,7 @@
     "tour_name": "The Ugly Tour",
     "ticketmaster_event_id": "3A00648FB5BDA148",
     "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-austin-texas-10-28-2026/event/3A00648FB5BDA148",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/austin-texas-moody-center-atx-2026-10-28-7-pm/concert/18185161",
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-austin-moody-center-atx-10-28-2026--concerts-rb/production/6911989",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-austin-texas-10-28-2026/event/3A00648FB5BDA148",
@@ -1494,11 +1494,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18185161,
+        "url": "https://seatgeek.com/teddy-swims-tickets/austin-texas-moody-center-atx-2026-10-28-7-pm/concert/18185161",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6911989,
@@ -1565,7 +1565,7 @@
     "tour_name": "The Ugly Tour",
     "ticketmaster_event_id": "0C00648AFEAFAB54",
     "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-fort-worth-texas-10-30-2026/event/0C00648AFEAFAB54",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/fort-worth-texas-dickies-arena-2026-10-30-7-pm/concert/18185162",
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-fort-worth-dickies-arena-10-30-2026/production/6911922",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-fort-worth-texas-10-30-2026/event/0C00648AFEAFAB54",
@@ -1581,11 +1581,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18185162,
+        "url": "https://seatgeek.com/teddy-swims-tickets/fort-worth-texas-dickies-arena-2026-10-30-7-pm/concert/18185162",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6911922,
@@ -1756,7 +1756,7 @@
         "event_id": 18143695,
         "url": "https://seatgeek.com/teddy-swims-tickets/salt-lake-city-utah-delta-center-1-2026-11-03-7-pm/concert/18143695",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2314,7 +2314,7 @@
         "event_id": 18185177,
         "url": "https://seatgeek.com/teddy-swims-tickets/san-diego-california-pechanga-arena-san-diego-2026-11-13-7-pm/concert/18185177",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2383,7 +2383,7 @@
         "event_id": 18185180,
         "url": "https://seatgeek.com/teddy-swims-tickets/las-vegas-nevada-t-mobile-arena-2026-11-14-7-pm/concert/18185180",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {

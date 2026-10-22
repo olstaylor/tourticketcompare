@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chris-stapletons-allamerican-road-show-lincoln-nebraska-10-26-2026/event/06006425DA7EA5F4",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -62,13 +62,6 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-01-16T16:00:00Z",
-        "end": "2026-10-21T22:00:00Z"
-      }
     ]
   },
   {

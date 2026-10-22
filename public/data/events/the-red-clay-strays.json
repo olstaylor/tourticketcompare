@@ -720,7 +720,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-knoxville-thompson-boling-arena-at-food-city-center-10-28-2026--concerts-country-and-folk/production/6948983",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-knoxville-tennessee-10-28-2026/event/1B006490972BBFD9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -771,13 +771,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906851",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-01T13:00:00Z",
-        "end": "2026-10-22T02:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7906851/The-Red-Clay-Strays-tickets-Wed-Oct-28-2026-Thompson-Boling-Arena-at-Food-City-Center",
     "organizer_names": [
       "AEG LIVE"

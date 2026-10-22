@@ -780,7 +780,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-glendale-arizona-10-21-2026/event/190064C5D6359C3F",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -788,7 +788,7 @@
         "discovery_event_id": "17k8v0G6G9pu_YT",
         "url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-glendale-arizona-10-21-2026/event/190064C5D6359C3F",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-22",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -840,13 +840,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034406",
     "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-glendale-tickets-10-21-2026/event/107325085",
-    "presales": [
-      {
-        "name": "Charity Tickets Onsale",
-        "start": "2026-06-12T20:00:00Z",
-        "end": "2026-10-22T05:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

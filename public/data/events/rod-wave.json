@@ -441,7 +441,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-boston-td-garden-10-25-2026--concerts-rap-hip-hop/production/7185765",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-boston-massachusetts-10-25-2026/event/010064D0AF18F3E7",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -501,13 +501,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8063452",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8063452/Rod-Wave-tickets-Sun-Oct-25-2026-TD-Garden",
     "stubhub_international_url": "https://www.stubhub.ie/rod-wave-boston-tickets-10-25-2026/event/107447268",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-26T17:00:00Z",
-        "end": "2026-10-22T02:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

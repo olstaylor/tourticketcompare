@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/dave-matthews-band-tickets-madison-kohl-center-11-4-2026/production/7416045",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJ8x",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -58,7 +58,10 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZJ8x",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195877/Dave-Matthews-Band-tickets-Wed-Nov-4-2026-Kohl-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195877/Dave-Matthews-Band-tickets-Wed-Nov-4-2026-Kohl-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dave-matthews-band-2026-nashville-g5viz_2znwmqm",
@@ -76,7 +79,7 @@
     "vividseats_url": "https://www.vividseats.com/dave-matthews-band-tickets-nashville-bridgestone-arena-11-6-2026/production/7415767",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dave-matthews-band-nashville-tennessee-11-06-2026/event/1B0064F02AF6E6B7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -119,7 +122,10 @@
     "ticketmaster_discovery_event_id": "G5viZ_2ZnWmQM",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195878/Dave-Matthews-Band-tickets-Fri-Nov-6-2026-Bridgestone-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195878/Dave-Matthews-Band-tickets-Fri-Nov-6-2026-Bridgestone-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dave-matthews-band-2026-chicago-vvg18z_cde9wdz",
@@ -137,7 +143,7 @@
     "vividseats_url": "https://www.vividseats.com/dave-matthews-band-tickets-chicago-united-center-11-7-2026/production/7415797",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dave-matthews-band-chicago-illinois-11-07-2026/event/040064EEE75F20F8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -188,7 +194,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195879/Dave-Matthews-Band-tickets-Sat-Nov-7-2026-United-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/dave-matthews-band-chicago-tickets-11-7-2026/event/107482398"
+    "stubhub_international_url": "https://www.stubhub.ie/dave-matthews-band-chicago-tickets-11-7-2026/event/107482398",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dave-matthews-band-2026-providence-vvg17z_2piw04c",
@@ -206,7 +215,7 @@
     "vividseats_url": "https://www.vividseats.com/dave-matthews-band-tickets-providence-amica-mutual-pavilion-11-9-2026/production/7415793",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dave-matthews-band-providence-rhode-island-11-09-2026/event/010064F5A8CA454E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -249,7 +258,10 @@
     "ticketmaster_discovery_event_id": "vvG17Z_2pIw04C",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195880/Dave-Matthews-Band-tickets-Mon-Nov-9-2026-Amica-Mutual-Pavilion"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195880/Dave-Matthews-Band-tickets-Mon-Nov-9-2026-Amica-Mutual-Pavilion",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dave-matthews-band-2026-baltimore-1ka8vpevgauw1qw",
@@ -267,7 +279,7 @@
     "vividseats_url": "https://www.vividseats.com/dave-matthews-band-tickets-baltimore-cfg-bank-arena-11-10-2026--concerts-rock/production/7415765",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dave-matthews-band-baltimore-maryland-11-10-2026/event/150065081DF4A77D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -310,7 +322,10 @@
     "ticketmaster_discovery_event_id": "1kA8vPevGAuW1qW",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195881/Dave-Matthews-Band-tickets-Tue-Nov-10-2026-CFG-Bank-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195881/Dave-Matthews-Band-tickets-Tue-Nov-10-2026-CFG-Bank-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dave-matthews-band-2026-new-york-g5diz_2njwaf8",
@@ -328,7 +343,7 @@
     "vividseats_url": "https://www.vividseats.com/dave-matthews-band-tickets-new-york-madison-square-garden-11-12-2026/production/7415809",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dave-matthews-band-new-york-new-york-11-12-2026/event/3B0064F8E6F49510",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -379,7 +394,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195882/Dave-Matthews-Band-tickets-Thu-Nov-12-2026-Madison-Square-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/dave-matthews-band-new-york-tickets-11-12-2026/event/107482399"
+    "stubhub_international_url": "https://www.stubhub.ie/dave-matthews-band-new-york-tickets-11-12-2026/event/107482399",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dave-matthews-band-2026-new-york-g5diz_2njdtfa",
@@ -397,7 +415,7 @@
     "vividseats_url": "https://www.vividseats.com/dave-matthews-band-tickets-new-york-madison-square-garden-11-13-2026/production/7415791",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dave-matthews-band-new-york-new-york-11-13-2026/event/3B0064F8E6EE9505",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448,6 +466,9 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195883/Dave-Matthews-Band-tickets-Fri-Nov-13-2026-Madison-Square-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/dave-matthews-band-new-york-tickets-11-13-2026/event/107490083"
+    "stubhub_international_url": "https://www.stubhub.ie/dave-matthews-band-new-york-tickets-11-13-2026/event/107490083",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   }
 ]

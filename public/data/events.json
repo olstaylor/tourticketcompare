@@ -129313,7 +129313,7 @@
     "tour_name": "Do That Again Tour",
     "ticketmaster_event_id": "1C0064C23DF611F5",
     "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-oakland-california-10-22-2026/event/1C0064C23DF611F5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/malcolm-todd-tickets/oakland-california-fox-theater-oakland-2026-10-22-8-pm/concert/18296805",
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-oakland-fox-theater-oakland-10-22-2026--concerts-pop/production/7139910",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-oakland-california-10-22-2026/event/1C0064C23DF611F5",
@@ -129329,11 +129329,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18296805,
+        "url": "https://seatgeek.com/malcolm-todd-tickets/oakland-california-fox-theater-oakland-2026-10-22-8-pm/concert/18296805",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7139910,
@@ -129393,7 +129393,7 @@
     "tour_name": "Do That Again Tour",
     "ticketmaster_event_id": "0A0064C3ACB68843",
     "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-san-diego-california-10-24-2026/event/0A0064C3ACB68843",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/malcolm-todd-tickets/san-diego-california-petco-park-2026-10-24-8-pm/concert/18292569",
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-san-diego-petco-park-10-24-2026/production/7132417",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-san-diego-california-10-24-2026/event/0A0064C3ACB68843",
@@ -129409,11 +129409,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18292569,
+        "url": "https://seatgeek.com/malcolm-todd-tickets/san-diego-california-petco-park-2026-10-24-8-pm/concert/18292569",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7132417,
@@ -129545,7 +129545,7 @@
     "tour_name": "Do That Again Tour",
     "ticketmaster_event_id": "090064C3B5A6FC88",
     "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-28-2026/event/090064C3B5A6FC88",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/malcolm-todd-tickets/los-angeles-california-the-greek-theatre-los-angeles-2026-10-28-8-pm/concert/18292572",
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-los-angeles-greek-theatre---los-angeles-10-28-2026/production/7132602",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-28-2026/event/090064C3B5A6FC88",
@@ -129561,11 +129561,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18292572,
+        "url": "https://seatgeek.com/malcolm-todd-tickets/los-angeles-california-the-greek-theatre-los-angeles-2026-10-28-8-pm/concert/18292572",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7132602,
@@ -129632,7 +129632,7 @@
     "tour_name": "Do That Again Tour",
     "ticketmaster_event_id": "090064C591D293A2",
     "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-29-2026/event/090064C591D293A2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/malcolm-todd-tickets/los-angeles-california-the-greek-theatre-los-angeles-2026-10-29-8-pm/concert/18296807",
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-los-angeles-greek-theatre---los-angeles-10-29-2026--concerts-pop/production/7139097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-29-2026/event/090064C591D293A2",
@@ -129648,11 +129648,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18296807,
+        "url": "https://seatgeek.com/malcolm-todd-tickets/los-angeles-california-the-greek-theatre-los-angeles-2026-10-29-8-pm/concert/18296807",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7139097,
@@ -129719,7 +129719,7 @@
     "tour_name": "Do That Again Tour",
     "ticketmaster_event_id": "090064C591DF93F9",
     "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-30-2026/event/090064C591DF93F9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/malcolm-todd-tickets/los-angeles-california-the-greek-theatre-los-angeles-2026-10-30-8-pm/concert/18296818",
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-los-angeles-greek-theatre---los-angeles-10-30-2026--concerts-pop/production/7139912",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-30-2026/event/090064C591DF93F9",
@@ -129735,11 +129735,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18296818,
+        "url": "https://seatgeek.com/malcolm-todd-tickets/los-angeles-california-the-greek-theatre-los-angeles-2026-10-30-8-pm/concert/18296818",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7139912,

@@ -3318,7 +3318,12 @@ function weeklyChangeSentence(change) {
 // its own cta_location. Omitted, the artist-city output is unchanged.
 function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowByShowId = new Map(), weeklyChangeByShowId = new Map(), surface = null) {
   const rows = priceAnswer?.rows || [];
-  if (!priceAnswer?.pricedRowCount || !rows.length) return "";
+  // The artist's next-date preview also works without a price snapshot: a
+  // checked destination is enough to help a visitor reach that date's options.
+  // Other price-answer surfaces retain their price-only contract.
+  const ticketOptions = surface?.ticketOptionsByShowId;
+  const showPrices = Boolean(priceAnswer?.pricedRowCount);
+  if (!rows.length || (!showPrices && !rows.some((row) => ticketOptions?.get(row.showId)?.count))) return "";
 
   // Most cities on the site are a single-venue run, and repeating that venue
   // down every row of the table is the "say each fact once" rule broken once
@@ -3362,11 +3367,20 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
         // Checked and nothing eligible came back. Saying so is honest; saying it
         // about a row the server never queried would not be.
         priceCell = `<span class="muted">${escapeHtml(NO_PRICE_NOTE)}</span>${
-          cardHref ? ` ${anchor("See ticket options", cardHref, "text-link")}` : ""
+          cardHref && !ticketOptions ? ` ${anchor("See ticket options", cardHref, "text-link")}` : ""
         }`;
       } else {
-        priceCell = cardHref ? anchor("See ticket options", cardHref, "text-link") : "";
+        priceCell = cardHref && !ticketOptions ? anchor("See ticket options", cardHref, "text-link") : "—";
       }
+      const options = ticketOptions?.get(row.showId);
+      const optionsLabel = options?.count === 1 ? "See ticket site" : `See all ${options?.count} ticket sites`;
+      const sitesCell = ticketOptions
+        ? options?.count && cardHref
+          ? `${anchor(optionsLabel, cardHref, "text-link", `aria-label="${escapeAttr(`${optionsLabel} for ${artist.name}, ${placeFor(row)}, ${dateLabel}`)}"`)}${
+              row.lowest ? `<span class="price-answer-asof muted">${row.comparedCount} ${row.comparedCount === 1 ? "site priced" : "sites priced"}</span>` : ""
+            }`
+          : `<span class="muted">${escapeHtml(options?.status || "No ticket links for this date yet.")}</span>`
+        : row.lowest ? String(row.comparedCount) : "—";
       // data-label carries each cell's column name for the narrow-screen
       // layout, where the table stacks into one block per date and the header
       // row is no longer beside the value (see .price-answer-table in
@@ -3378,9 +3392,7 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
         : `<td data-label="Venue">${escapeHtml(placeFor(row) || "Venue confirmed on the date")}</td>`;
       return `<tr><th scope="row">${escapeHtml(
         dateLabel
-      )}</th>${venueCell}<td class="price-answer-price">${priceCell}</td><td data-label="Sites compared">${
-        row.lowest ? String(row.comparedCount) : "—"
-      }</td></tr>`;
+      )}</th>${venueCell}${showPrices ? `<td class="price-answer-price">${priceCell}</td>` : ""}<td data-label="${ticketOptions ? "Ticket links" : "Sites compared"}">${sitesCell}</td></tr>`;
     })
     .join("");
 
@@ -3388,15 +3400,14 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
   const intro = surface?.intro || "The lowest listed price for each date";
   const caption = surface?.caption || `Lowest listed price by date for ${artist.name} in ${artistCity.city}`;
   const titleId = surface?.titleId || "artistCityPriceTitle";
+  const summary = ticketOptions
+    ? `Choose a date to see its checked ticket links${singleVenue ? `, all at ${singleVenue}` : ""}. ${showPrices ? 'Listed prices are snapshots where available; "sites priced" counts only sites with a usable price for that date. ' : ""}Compare seats, fees and delivery on each ticket site.`
+    : `${intro}${singleVenue ? `, all at ${singleVenue}` : ""}, and the site offering it, in date order. "Sites compared" is how many ticket sites had a price for that date.${surface?.note ? ` ${surface.note}` : ""}`;
   return `<section class="nested-panel artist-city-price-answer" aria-labelledby="${escapeAttr(titleId)}"><h2 id="${escapeAttr(titleId)}">${escapeHtml(
     heading
-  )}</h2><p>${escapeHtml(intro)}${escapeHtml(
-    singleVenue ? `, all at ${singleVenue}` : ""
-  )}, and the site offering it, in date order. "Sites compared" is how many ticket sites had a price for that date.${
-    surface?.note ? ` ${escapeHtml(surface.note)}` : ""
-  }</p><div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">${escapeHtml(caption)}</caption><thead><tr><th scope="col">Date</th>${
+  )}</h2><p>${escapeHtml(summary)}</p><div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">${escapeHtml(caption)}</caption><thead><tr><th scope="col">Date</th>${
     singleVenue ? "" : '<th scope="col">Venue</th>'
-  }<th scope="col">Lowest listed price</th><th scope="col">Sites compared</th></tr></thead><tbody>${body}</tbody></table></div></section>`;
+  }${showPrices ? '<th scope="col">Lowest listed price</th>' : ""}<th scope="col">${ticketOptions ? "Ticket links" : "Sites compared"}</th></tr></thead><tbody>${body}</tbody></table></div></section>`;
 }
 
 // ---------------------------------------------------------------------------
@@ -5477,9 +5488,10 @@ function renderPresaleResaleTable(route, events, env) {
   });
 }
 
-// The artist page's opening price table: the board's first few dates, each
-// with its own lowest listed price and a button to it. The rows are a prefix of
-// the board, which onRequest has already priced, so this needs no query. The
+// The artist page's opening ticket-options table: the board's first few dates,
+// each linking its full provider list, with a lowest listed price where one
+// exists. The same CTA specs drive the preview and the cards. The rows are a
+// prefix of the board, already priced by onRequest, so this needs no query. The
 // buttons report as artist_city_answer (the same component); page_type tells
 // the two surfaces apart.
 export const ARTIST_NEXT_DATES_LIMIT = 3;
@@ -5487,16 +5499,20 @@ export const ARTIST_NEXT_DATES_LIMIT = 3;
 export function renderArtistNextDatesPriceAnswer(artist, shows, availability) {
   const nextShows = (Array.isArray(shows) ? shows : []).slice(0, ARTIST_NEXT_DATES_LIMIT);
   if (!nextShows.length) return "";
+  const specsByShowId = new Map(nextShows.map((show) => [String(show.id || ""), serverShowCtaSpecs(show, availability)]));
   const priceAnswer = deriveCityDatePrices(nextShows, {
-    ctaSpecsFor: (show) => serverShowCtaSpecs(show, availability),
+    ctaSpecsFor: (show) => specsByShowId.get(String(show.id || "")) || [],
     wasChecked: pricesWereChecked
   });
   const placeById = new Map(nextShows.map((show) => [String(show.id || ""), [show.city, show.venue].filter(Boolean).join(" · ")]));
   return renderArtistCityPriceAnswer(artist, { city: "" }, priceAnswer, new Map(), new Map(), {
     heading: `Next ${artist.name} dates`,
-    intro: "The lowest listed price for each of the next dates",
-    caption: `Lowest listed price for the next ${artist.name} dates`,
+    caption: `Ticket options for the next ${artist.name} dates`,
     titleId: "artistNextDatesTitle",
+    ticketOptionsByShowId: new Map(nextShows.map((show) => [String(show.id || ""), {
+      count: specsByShowId.get(String(show.id || "")).length,
+      status: publicOnsalePending(show) ? publicOnsaleLabel(show) : ""
+    }])),
     placeFor: (row) => placeById.get(row.showId) || row.venue
   });
 }

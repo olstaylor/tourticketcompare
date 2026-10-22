@@ -292,9 +292,9 @@ const baseAssets = new Map();
 for (const file of ASSET_FILES) baseAssets.set(`/${file}`, await read(`public/${file}`));
 baseAssets.set("/", baseAssets.get("/index.html"));
 
-function env({ withDb, priceRows = PRICE_ROWS, artists = null, runtime = {} }) {
+function env({ withDb, priceRows = PRICE_ROWS, artists = null, runtime = {}, events = EVENTS }) {
   const assets = new Map(baseAssets);
-  assets.set("/data/events.json", JSON.stringify(EVENTS));
+  assets.set("/data/events.json", JSON.stringify(events));
   if (artists) assets.set("/data/artists.json", JSON.stringify(artists));
   return {
     MOCK_MODE: "false",
@@ -326,10 +326,10 @@ function env({ withDb, priceRows = PRICE_ROWS, artists = null, runtime = {} }) {
   };
 }
 
-async function render(pathname, { withDb = true, priceRows, artists, runtime } = {}) {
+async function render(pathname, { withDb = true, priceRows, artists, runtime, events } = {}) {
   const response = await middlewareModule.onRequest({
     request: new Request(`${ORIGIN}${pathname}`),
-    env: env({ withDb, priceRows, artists, runtime }),
+    env: env({ withDb, priceRows, artists, runtime, events }),
     next: () => new Response("static-asset", { status: 200 })
   });
   const html = await response.text();
@@ -828,8 +828,64 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(outHrefs.length >= 2 && outHrefs.every((href) => href.includes("ctaLocation=artist_city_answer")), "next-date CTAs report as the answer component");
   assert(!/href="https?:\/\/(?!tourticketcompare)/.test(lead), "no raw provider URL appears in the table");
   assert(page.main.includes("How this site makes money"), "the priced artist page keeps the money disclosure");
+  function checkOptionsTargets(page, expectedCounts) {
+    const preview = page.main.match(/<section[^>]*aria-labelledby="artistNextDatesTitle"[\s\S]*?<\/section>/)?.[0] || "";
+    const links = [...preview.matchAll(/href="#([^"]+)"[^>]*>(See (?:all \d+ ticket sites|ticket site))<\/a>/g)];
+    assert(links.length === expectedCounts.length, `every eligible preview date links its full ticket options: ${links.length} links, expected ${expectedCounts.length}`);
+    links.forEach(([, target, label], index) => {
+      const card = [...page.main.matchAll(/<article\b[^>]*class="[^"]*\bshow-card\b[^>]*>[\s\S]*?<\/article>/g)]
+        .map((match) => match[0]).find((html) => html.includes(`id="${target}"`));
+      assert(Boolean(card), `preview link resolves to an actual date card: ${target}`);
+      const count = [...card.matchAll(/class="provider-cta[ "]/g)].length;
+      assert(count === expectedCounts[index], `preview and card agree on eligible provider count: ${count}`);
+      assert(label === (count === 1 ? "See ticket site" : `See all ${count} ticket sites`), "ticket-site count is not the price-snapshot count");
+      assert(card.includes("/api/out?") && card.includes("provider=ticketmaster"), "options retain the tracked redirects and plain Ticketmaster lane");
+    });
+    return preview;
+  }
+  const pricedPreview = checkOptionsTargets(page, [6, 6, 6]);
+  assert(text(pricedPreview).includes("2 sites priced"), "a price comparison count is separate from the six valid ticket links");
   const unpriced = await render(artistPath, { withDb: false });
-  assert(!unpriced.main.includes("artistNextDatesTitle"), "with no price on record the artist page renders no next-dates table");
+  const unpricedPreview = checkOptionsTargets(unpriced, [6, 6, 6]);
+  assert(!unpricedPreview.includes("Lowest listed price") && !unpricedPreview.includes("Sites compared"), "without snapshots the preview promises ticket links, not a price comparison");
+  assert(!unpricedPreview.includes("/api/out?") && !unpricedPreview.includes("provider-cta-price"), "without snapshots the preview routes to checked options without inventing a price");
+  assert(!/no snapshot|no listed price/i.test(text(unpricedPreview)), "an unqueried preview makes no claim that a snapshot was checked");
+  assert(unpriced.robots === page.robots && !/noindex/.test(unpriced.robots), "snapshot absence does not alter artist indexability");
+  assert(unpriced.html.includes(`rel="canonical" href="${ORIGIN}${artistPath}"`), "the preview retains the artist canonical");
+  const expired = await render(artistPath, { priceRows: PRICE_ROWS.map((row) => ({ ...row, expires_at: "2026-08-08T00:00:00Z" })) });
+  assert(!checkOptionsTargets(expired, [6, 6, 6]).includes("Lowest listed price"), "expired prices disappear while valid ticket options remain");
+  const disabled = await render(artistPath, { withDb: false, runtime: {
+    IMPACT_SEATGEEK_ACCOUNT_SID: "", IMPACT_ACCOUNT_SID: "",
+    TICKETNETWORK_PUBLIC_ENABLED: "false", TICKETLIQUIDATOR_PUBLIC_ENABLED: "false", STUBHUB_INTERNATIONAL_PUBLIC_ENABLED: "false"
+  } });
+  checkOptionsTargets(disabled, [1, 1, 1]);
+  const partial = await render(artistPath, { priceRows: PRICE_ROWS.filter((row) => row.event_id === RUN_A.id) });
+  const partialPreview = checkOptionsTargets(partial, [6, 6, 6]);
+  assert(text(partialPreview).includes("USD 182") && !text(partialPreview).includes("USD 240"), "mixed priced and unpriced dates retain only eligible figures");
+  const noLinks = await render(artistPath, { withDb: false, events: EVENTS.map((event) => ({
+    ...event, ticketmaster_url: "", source_url: "", seatgeek_url: "", vividseats_url: "",
+    ticketnetwork_url: "", ticketliquidator_url: "", stubhub_international_url: "", provider_links: {}
+  })) });
+  assert(!noLinks.main.includes("artistNextDatesTitle"), "dates without eligible destinations get no ticket-options preview");
+  const unsafeLinks = await render(artistPath, { withDb: false, events: EVENTS.map((event) => ({
+    ...event, ticketmaster_url: "https://example.com/placeholder", source_url: "https://example.com/placeholder",
+    seatgeek_url: "https://example.com/placeholder", vividseats_url: "https://example.com/placeholder",
+    ticketnetwork_url: "https://example.com/placeholder", ticketliquidator_url: "https://example.com/placeholder",
+    stubhub_international_url: "https://example.com/placeholder"
+  })) });
+  assert(!unsafeLinks.main.includes("artistNextDatesTitle"), "verified metadata cannot turn unsafe destinations into preview options");
+  const pending = await render(artistPath, { withDb: false, events: EVENTS.map((event) => event.id !== RUN_A.id ? event : {
+    ...event, status: "announced", public_onsale_at: "2026-08-20T15:00:00Z",
+    provider_links: { ticketmaster: event.provider_links.ticketmaster }
+  }) });
+  const pendingPreview = checkOptionsTargets(pending, [6, 6]);
+  assert(/Public on-sale/.test(text(pendingPreview)), "a pre-sale date with no verified resale link states its on-sale time");
+  assert(!pendingPreview.includes('href="#show-fixture-run-a"'), "the preview does not offer a ticket link before the public sale without verified resale");
+  const held = await render(artistPath, { events: EVENTS.map((event) => event.id !== RUN_A.id ? event : { ...event, ticketmaster_status_code: "cancelled" }) });
+  const heldPreview = checkOptionsTargets(held, [6, 6]);
+  assert(!heldPreview.includes('href="#show-fixture-run-a"') && !text(heldPreview).includes("USD 182"), "a cancelled date never gets a preview link or price");
+  const empty = await render(artistPath, { events: [] });
+  assert(!empty.main.includes("artistNextDatesTitle"), "an empty board keeps its empty state");
   const reviewArtists = artistsMeta.map((artist) =>
     String(artist?.slug) === ARTIST.slug ? { ...artist, indexing_status: "review_required" } : artist
   );

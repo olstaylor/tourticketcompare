@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "0D00646A64C11EFD",
     "ticketmaster_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-miami-florida-10-24-2026/event/0D00646A64C11EFD",
     "seatgeek_url": "https://seatgeek.com/chayanne-tickets/miami-florida-kaseya-center-2026-10-24-8-pm/concert/18192110",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/chayanne-tickets-miami-kaseya-center-10-24-2026/production/6924889",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-miami-florida-10-24-2026/event/0D00646A64C11EFD",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6924889,
+        "url": "https://www.vividseats.com/chayanne-tickets-miami-kaseya-center-10-24-2026/production/6924889",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "0D00646B90586364",
     "ticketmaster_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-tampa-florida-10-30-2026/event/0D00646B90586364",
     "seatgeek_url": "https://seatgeek.com/chayanne-tickets/tampa-florida-benchmark-international-arena-2026-10-30-8-pm/concert/18192114",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/chayanne-tickets-tampa-benchmark-international-arena-10-30-2026/production/6924881",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-tampa-florida-10-30-2026/event/0D00646B90586364",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6924881,
+        "url": "https://www.vividseats.com/chayanne-tickets-tampa-benchmark-international-arena-10-30-2026/production/6924881",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "2200646CA0686AC5",
     "ticketmaster_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-orlando-florida-10-31-2026/event/2200646CA0686AC5",
     "seatgeek_url": "https://seatgeek.com/chayanne-tickets/orlando-florida-kia-center-2026-10-31-8-pm/concert/18192116",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/chayanne-tickets-orlando-kia-center-10-31-2026/production/6924903",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-orlando-florida-10-31-2026/event/2200646CA0686AC5",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6924903,
+        "url": "https://www.vividseats.com/chayanne-tickets-orlando-kia-center-10-31-2026/production/6924903",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

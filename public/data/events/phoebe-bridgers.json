@@ -81,7 +81,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7Pa_0",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pa_0",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-salt-lake-city-delta-center-10-21-2026--concerts-rock/production/7123331",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pa_0",
     "last_verified_at": null,
@@ -103,11 +103,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 7123331,
-        "url": "https://www.vividseats.com/phoebe-bridgers-tickets-salt-lake-city-delta-center-10-21-2026--concerts-rock/production/7123331",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -167,7 +167,7 @@
         "event_id": 7123271,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-seattle-climate-pledge-arena-10-23-2026--concerts-adult-contemporary/production/7123271",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -239,7 +239,7 @@
         "event_id": 7123286,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-vancouver-rogers-arena-10-24-2026--concerts-adult-contemporary/production/7123286",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -312,7 +312,7 @@
         "event_id": 7123274,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-san-francisco-chase-center-10-27-2026--concerts-adult-contemporary/production/7123274",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -384,7 +384,7 @@
         "event_id": 7132289,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-san-francisco-chase-center-10-28-2026--concerts-rock/production/7132289",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -456,7 +456,7 @@
         "event_id": 7123277,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-inglewood-intuit-dome-10-30-2026--concerts-adult-contemporary/production/7123277",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -528,7 +528,7 @@
         "event_id": 7123280,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-inglewood-intuit-dome-10-31-2026--concerts-adult-contemporary/production/7123280",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -600,7 +600,7 @@
         "event_id": 7132295,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-inglewood-intuit-dome-11-1-2026--concerts-rock/production/7132295",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -802,7 +802,7 @@
         "event_id": 7123290,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-manchester-co-op-live-11-26-2026--concerts-adult-contemporary/production/7123290",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -875,7 +875,7 @@
         "event_id": 7123296,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-glasgow-ovo-hydro-11-27-2026--concerts-rock/production/7123296",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -948,7 +948,7 @@
         "event_id": 7123299,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-11-28-2026--concerts-rock/production/7123299",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1021,7 +1021,7 @@
         "event_id": 7123304,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-london-the-o2---london-12-1-2026--concerts-rock/production/7123304",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1086,7 +1086,7 @@
         "event_id": 7132311,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-london-the-o2---london-12-2-2026--concerts-rock/production/7132311",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {

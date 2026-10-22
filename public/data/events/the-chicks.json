@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "0F0064B3EA45109C",
     "ticketmaster_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-seattle-washington-10-25-2026/event/0F0064B3EA45109C",
     "seatgeek_url": "https://seatgeek.com/the-chicks-tickets/seattle-washington-benaroya-hall-2026-10-25-8-30-pm/concert/18268866",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-chicks-tickets-seattle-benaroya-hall---taper-auditorium-10-25-2026--concerts-country-and-folk/production/7084763",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-seattle-washington-10-25-2026/event/0F0064B3EA45109C",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7084763,
+        "url": "https://www.vividseats.com/the-chicks-tickets-seattle-benaroya-hall---taper-auditorium-10-25-2026--concerts-country-and-folk/production/7084763",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "0F0064B3EA4A10AB",
     "ticketmaster_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-seattle-washington-10-26-2026/event/0F0064B3EA4A10AB",
     "seatgeek_url": "https://seatgeek.com/the-chicks-tickets/seattle-washington-benaroya-hall-2026-10-26-8-30-pm/concert/18268868",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-chicks-tickets-seattle-benaroya-hall---taper-auditorium-10-26-2026--concerts-country-and-folk/production/7084765",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-seattle-washington-10-26-2026/event/0F0064B3EA4A10AB",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7084765,
+        "url": "https://www.vividseats.com/the-chicks-tickets-seattle-benaroya-hall---taper-auditorium-10-26-2026--concerts-country-and-folk/production/7084765",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "090064BAE60EE7D7",
     "ticketmaster_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-01-2026/event/090064BAE60EE7D7",
     "seatgeek_url": "https://seatgeek.com/the-chicks-tickets/hollywood-california-dolby-theatre-2026-11-01-8-30-pm/concert/18268872",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-chicks-tickets-hollywood-dolby-theatre-11-1-2026--concerts-country-and-folk/production/7084779",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-01-2026/event/090064BAE60EE7D7",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7084779,
+        "url": "https://www.vividseats.com/the-chicks-tickets-hollywood-dolby-theatre-11-1-2026--concerts-country-and-folk/production/7084779",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "090064B785414609",
     "ticketmaster_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-02-2026/event/090064B785414609",
     "seatgeek_url": "https://seatgeek.com/the-chicks-tickets/hollywood-california-dolby-theatre-2026-11-02-8-30-pm/concert/18268878",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-chicks-tickets-hollywood-dolby-theatre-11-2-2026--concerts-country-and-folk/production/7084783",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-02-2026/event/090064B785414609",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7084783,
+        "url": "https://www.vividseats.com/the-chicks-tickets-hollywood-dolby-theatre-11-2-2026--concerts-country-and-folk/production/7084783",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "090064B78544460E",
     "ticketmaster_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-03-2026/event/090064B78544460E",
     "seatgeek_url": "https://seatgeek.com/the-chicks-tickets/hollywood-california-dolby-theatre-2026-11-03-8-30-pm/concert/18469965",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-chicks-tickets-hollywood-dolby-theatre-11-3-2026--concerts-country-and-folk/production/7410570",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-03-2026/event/090064B78544460E",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7410570,
+        "url": "https://www.vividseats.com/the-chicks-tickets-hollywood-dolby-theatre-11-3-2026--concerts-country-and-folk/production/7410570",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -508,6 +508,8 @@ export const OG_CARDS = {
   "/artists/the-airborne-toxic-event": {"url":"/og/artists-the-airborne-toxic-event.png","alt":"Tickets & tour dates: The Airborne Toxic Event"},
   "/artists/the-airborne-toxic-event/tickets/chicago-united-states": {"url":"/og/artists-the-airborne-toxic-event-tickets-chicago-united-states.png","alt":"Tickets: The Airborne Toxic Event in Chicago"},
   "/artists/the-chicks": {"url":"/og/artists-the-chicks.png","alt":"Tickets & tour dates: The Chicks"},
+  "/artists/the-chicks/tickets/hollywood-united-states": {"url":"/og/artists-the-chicks-tickets-hollywood-united-states.png","alt":"Tickets: The Chicks in Hollywood"},
+  "/artists/the-chicks/tickets/seattle-united-states": {"url":"/og/artists-the-chicks-tickets-seattle-united-states.png","alt":"Tickets: The Chicks in Seattle"},
   "/artists/the-interrupters": {"url":"/og/artists-the-interrupters.png","alt":"Tickets & tour dates: The Interrupters"},
   "/artists/the-interrupters/presale": {"url":"/og/artists-the-interrupters-presale.png","alt":"Presale: The Interrupters"},
   "/artists/the-interrupters/ticket-prices": {"url":"/og/artists-the-interrupters-ticket-prices.png","alt":"Ticket prices: The Interrupters"},

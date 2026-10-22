@@ -630,7 +630,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PKO4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKO4",
     "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/minneapolis-minnesota-first-avenue-minneapolis-2026-10-28-7-30-pm/concert/18297292",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-minneapolis-first-avenue-10-28-2026--concerts-pop/production/7139292",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKO4",
     "last_verified_at": null,
@@ -652,11 +652,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7139292,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-minneapolis-first-avenue-10-28-2026--concerts-pop/production/7139292",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

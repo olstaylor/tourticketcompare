@@ -125732,7 +125732,7 @@
     "ticketmaster_event_id": "1E006537CF070C9C",
     "ticketmaster_url": "https://www.ticketmaster.com/rise-up-select-presents-atmosphere-the-salt-lake-city-utah-01-30-2027/event/1E006537CF070C9C",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/reggae-rise-up-tickets-salt-lake-city-the-depot---ut-1-30-2027/production/7604697",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rise-up-select-presents-atmosphere-the-salt-lake-city-utah-01-30-2027/event/1E006537CF070C9C",
     "last_verified_at": "2026-10-15",
@@ -125754,11 +125754,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7604697,
-        "url": "https://www.vividseats.com/reggae-rise-up-tickets-salt-lake-city-the-depot---ut-1-30-2027/production/7604697",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -126688,7 +126688,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PKO4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKO4",
     "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/minneapolis-minnesota-first-avenue-minneapolis-2026-10-28-7-30-pm/concert/18297292",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-minneapolis-first-avenue-10-28-2026--concerts-pop/production/7139292",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKO4",
     "last_verified_at": null,
@@ -126710,11 +126710,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7139292,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-minneapolis-first-avenue-10-28-2026--concerts-pop/production/7139292",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -150660,7 +150660,7 @@
         "event_id": 7616428,
         "url": "https://www.vividseats.com/valley---pop-band-tickets-san-francisco-the-independent-3-1-2027/production/7616428",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -206295,7 +206295,7 @@
     "ticketmaster_event_id": "100064ACF93AAFCA",
     "ticketmaster_url": "https://www.ticketmaster.ca/mico-running-from-a-feeling-tour-toronto-ontario-11-06-2026/event/100064ACF93AAFCA",
     "seatgeek_url": "https://seatgeek.com/mico-tickets/toronto-canada-the-danforth-music-hall-2026-11-06-7-pm/concert/18252202",
-    "vividseats_url": "https://www.vividseats.com/mico-tickets-toronto-the-danforth-music-hall-11-6-2026/production/7049200",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/mico-running-from-a-feeling-tour-toronto-ontario-11-06-2026/event/100064ACF93AAFCA",
     "last_verified_at": "2026-10-15",
@@ -206317,11 +206317,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7049200,
-        "url": "https://www.vividseats.com/mico-tickets-toronto-the-danforth-music-hall-11-6-2026/production/7049200",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -268367,7 +268367,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7Pa_0",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pa_0",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-salt-lake-city-delta-center-10-21-2026--concerts-rock/production/7123331",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pa_0",
     "last_verified_at": null,
@@ -268389,11 +268389,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 7123331,
-        "url": "https://www.vividseats.com/phoebe-bridgers-tickets-salt-lake-city-delta-center-10-21-2026--concerts-rock/production/7123331",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -268453,7 +268453,7 @@
         "event_id": 7123271,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-seattle-climate-pledge-arena-10-23-2026--concerts-adult-contemporary/production/7123271",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -268525,7 +268525,7 @@
         "event_id": 7123286,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-vancouver-rogers-arena-10-24-2026--concerts-adult-contemporary/production/7123286",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -268598,7 +268598,7 @@
         "event_id": 7123274,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-san-francisco-chase-center-10-27-2026--concerts-adult-contemporary/production/7123274",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -268670,7 +268670,7 @@
         "event_id": 7132289,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-san-francisco-chase-center-10-28-2026--concerts-rock/production/7132289",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -268742,7 +268742,7 @@
         "event_id": 7123277,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-inglewood-intuit-dome-10-30-2026--concerts-adult-contemporary/production/7123277",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -268814,7 +268814,7 @@
         "event_id": 7123280,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-inglewood-intuit-dome-10-31-2026--concerts-adult-contemporary/production/7123280",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -268886,7 +268886,7 @@
         "event_id": 7132295,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-inglewood-intuit-dome-11-1-2026--concerts-rock/production/7132295",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -269088,7 +269088,7 @@
         "event_id": 7123290,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-manchester-co-op-live-11-26-2026--concerts-adult-contemporary/production/7123290",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -269161,7 +269161,7 @@
         "event_id": 7123296,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-glasgow-ovo-hydro-11-27-2026--concerts-rock/production/7123296",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -269234,7 +269234,7 @@
         "event_id": 7123299,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-11-28-2026--concerts-rock/production/7123299",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -269307,7 +269307,7 @@
         "event_id": 7123304,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-london-the-o2---london-12-1-2026--concerts-rock/production/7123304",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -269372,7 +269372,7 @@
         "event_id": 7132311,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-london-the-o2---london-12-2-2026--concerts-rock/production/7132311",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -269630,7 +269630,7 @@
         "event_id": 7104561,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-anaheim-honda-center-10-22-2026--concerts-rb/production/7104561",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -269702,7 +269702,7 @@
         "event_id": 7104563,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-chula-vista-north-island-credit-union-amphitheatre-10-24-2026--concerts-rb/production/7104563",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -269774,7 +269774,7 @@
         "event_id": 7104565,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-inglewood-intuit-dome-10-25-2026--concerts-rb/production/7104565",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -269846,7 +269846,7 @@
         "event_id": 7104569,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-concord-toyota-pavilion-at-concord-10-27-2026--concerts-rb/production/7104569",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -269925,7 +269925,7 @@
         "event_id": 7104571,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-portland-veterans-memorial-coliseum---portland-10-29-2026--concerts-rb/production/7104571",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -270001,7 +270001,7 @@
         "event_id": 7104577,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-vancouver-rogers-arena-10-30-2026--concerts-rb/production/7104577",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -270088,7 +270088,7 @@
         "event_id": 7104573,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-seattle-climate-pledge-arena-11-1-2026--concerts-rb/production/7104573",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -270469,7 +270469,7 @@
         "event_id": 7104592,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-manchester-co-op-live-12-3-2026--concerts-rb/production/7104592",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -270541,7 +270541,7 @@
         "event_id": 7104598,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-leeds-first-direct-arena---leeds-12-4-2026--concerts-rb/production/7104598",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -270597,7 +270597,7 @@
         "event_id": 7104602,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-cardiff-utilita-arena-cardiff-12-5-2026--concerts-rb/production/7104602",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -270663,7 +270663,7 @@
         "event_id": 7104604,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-london-the-o2---london-12-7-2026--concerts-rb/production/7104604",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -270727,7 +270727,7 @@
         "event_id": 7104606,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-12-9-2026--concerts-rb/production/7104606",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -270894,7 +270894,7 @@
     "ticketmaster_event_id": "150064ADB9B79BE3",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-fairfax-virginia-10-21-2026/event/150064ADB9B79BE3",
     "seatgeek_url": "https://seatgeek.com/arcangel-tickets/fairfax-virginia-eaglebank-arena-2026-10-21-8-pm/concert/18266310",
-    "vividseats_url": "https://www.vividseats.com/arcangel-tickets-fairfax-eaglebank-arena-10-21-2026--concerts-rap-hip-hop/production/7079476",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-fairfax-virginia-10-21-2026/event/150064ADB9B79BE3",
     "last_verified_at": "2026-10-20",
@@ -270916,11 +270916,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7079476,
-        "url": "https://www.vividseats.com/arcangel-tickets-fairfax-eaglebank-arena-10-21-2026--concerts-rap-hip-hop/production/7079476",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -270983,7 +270983,7 @@
         "event_id": 7079483,
         "url": "https://www.vividseats.com/arcangel-tickets-wallingford-toyota-oakdale-theatre-10-22-2026--concerts-rap-hip-hop/production/7079483",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -271047,7 +271047,7 @@
         "event_id": 7079492,
         "url": "https://www.vividseats.com/arcangel-tickets-brooklyn-barclays-center-10-23-2026--concerts-rap-hip-hop/production/7079492",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -271175,7 +271175,7 @@
         "event_id": 7079496,
         "url": "https://www.vividseats.com/arcangel-tickets-boston-mgm-music-hall-at-fenway-10-28-2026--concerts-rap-hip-hop/production/7079496",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -271246,7 +271246,7 @@
         "event_id": 7079497,
         "url": "https://www.vividseats.com/arcangel-tickets-rosemont-rosemont-theatre-10-31-2026--concerts-rap-hip-hop/production/7079497",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -271317,7 +271317,7 @@
         "event_id": 7079513,
         "url": "https://www.vividseats.com/arcangel-tickets-houston-713-music-hall-11-5-2026--concerts-rap-hip-hop/production/7079513",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -271388,7 +271388,7 @@
         "event_id": 7079432,
         "url": "https://www.vividseats.com/arcangel-tickets-irving-pavilion-at-toyota-music-factory-11-6-2026--concerts-rap-hip-hop/production/7079432",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -271459,7 +271459,7 @@
         "event_id": 7079515,
         "url": "https://www.vividseats.com/arcangel-tickets-denver-paramount-theatre-denver-11-15-2026--concerts-rap-hip-hop/production/7079515",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -271530,7 +271530,7 @@
         "event_id": 7079517,
         "url": "https://www.vividseats.com/arcangel-tickets-salt-lake-city-the-union-event-center---salt-lake-city-11-18-2026--concerts-rap-hip-hop/production/7079517",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -271601,7 +271601,7 @@
         "event_id": 7079519,
         "url": "https://www.vividseats.com/arcangel-tickets-inglewood-youtube-theater-11-20-2026--concerts-rap-hip-hop/production/7079519",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -271672,7 +271672,7 @@
         "event_id": 7079523,
         "url": "https://www.vividseats.com/arcangel-tickets-san-jose-san-jose-civic-11-21-2026--concerts-rap-hip-hop/production/7079523",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -271743,7 +271743,7 @@
         "event_id": 7599483,
         "url": "https://www.vividseats.com/garth-brooks-tickets-tulsa-bok-center-10-23-2026--concerts-country-and-folk/production/7599483",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -271807,7 +271807,7 @@
         "event_id": 7599485,
         "url": "https://www.vividseats.com/garth-brooks-tickets-tulsa-bok-center-10-24-2026--concerts-country-and-folk/production/7599485",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -271871,7 +271871,7 @@
         "event_id": 7599491,
         "url": "https://www.vividseats.com/garth-brooks-tickets-tulsa-bok-center-10-25-2026--concerts-country-and-folk/production/7599491",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -271935,7 +271935,7 @@
         "event_id": 7704177,
         "url": "https://www.vividseats.com/garth-brooks-tickets-seattle-climate-pledge-arena-11-13-2026--concerts-country-and-folk/production/7704177",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -272008,7 +272008,7 @@
         "event_id": 7704179,
         "url": "https://www.vividseats.com/garth-brooks-tickets-seattle-climate-pledge-arena-11-14-2026--concerts-country-and-folk/production/7704179",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -272370,7 +272370,7 @@
         "event_id": 6461554,
         "url": "https://www.vividseats.com/morat-tickets-madrid-movistar-arena---madrid-10-31-2026/production/6461554",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -272442,7 +272442,7 @@
         "event_id": 7561061,
         "url": "https://www.vividseats.com/the-lemonheads-tickets-seattle-el-corazon-3-11-2027--concerts-rock/production/7561061",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -272503,7 +272503,7 @@
         "event_id": 7613114,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-seattle-el-corazon-5-11-2027/production/7613114",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -272564,7 +272564,7 @@
         "event_id": 7662888,
         "url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-athens-georgia-theatre-2-26-2027/production/7662888",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -272625,7 +272625,7 @@
         "event_id": 7721612,
         "url": "https://www.vividseats.com/backstreet-boys-tickets-las-vegas-sphere-12-29-2026/production/7721612",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -281958,7 +281958,7 @@
     "ticketmaster_event_id": "080064728F72552E",
     "ticketmaster_url": "https://www.ticketmaster.com/los-tigres-del-mundo-detroit-michigan-11-21-2026/event/080064728F72552E",
     "seatgeek_url": "https://seatgeek.com/los-tigres-del-norte-tickets/detroit-michigan-fox-theatre-detroit-2026-11-21-8-pm/concert/18138848",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-detroit-fox-theatre-detroit-11-21-2026/production/6819576",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-mundo-detroit-michigan-11-21-2026/event/080064728F72552E",
     "last_verified_at": null,
@@ -281980,11 +281980,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6819576,
+        "url": "https://www.vividseats.com/los-tigres-del-norte-tickets-detroit-fox-theatre-detroit-11-21-2026/production/6819576",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -282011,7 +282011,7 @@
     "ticketmaster_event_id": "15006457087D5C2B",
     "ticketmaster_url": "https://www.ticketmaster.com/los-tigres-del-norte-los-tigres-baltimore-maryland-11-27-2026/event/15006457087D5C2B",
     "seatgeek_url": "https://seatgeek.com/los-tigres-del-norte-tickets/baltimore-maryland-cfg-bank-arena-2026-11-27-8-pm/concert/18092532",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-baltimore-cfg-bank-arena-11-27-2026--concerts-latin-music/production/6711208",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-los-tigres-baltimore-maryland-11-27-2026/event/15006457087D5C2B",
     "last_verified_at": null,
@@ -282033,11 +282033,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6711208,
+        "url": "https://www.vividseats.com/los-tigres-del-norte-tickets-baltimore-cfg-bank-arena-11-27-2026--concerts-latin-music/production/6711208",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -282064,7 +282064,7 @@
     "ticketmaster_event_id": "300064588CC632EB",
     "ticketmaster_url": "https://www.ticketmaster.com/los-tigres-del-norte-los-tigres-belmont-park-new-york-11-28-2026/event/300064588CC632EB",
     "seatgeek_url": "https://seatgeek.com/los-tigres-del-norte-tickets/elmont-new-york-ubs-arena-2026-11-28-8-pm/concert/18093247",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-elmont-ubs-arena-11-28-2026--concerts-latin-music/production/6711198",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-los-tigres-belmont-park-new-york-11-28-2026/event/300064588CC632EB",
     "last_verified_at": null,
@@ -282086,11 +282086,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6711198,
+        "url": "https://www.vividseats.com/los-tigres-del-norte-tickets-elmont-ubs-arena-11-28-2026--concerts-latin-music/production/6711198",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -282117,7 +282117,7 @@
     "ticketmaster_event_id": "1B006458CB6FD9DD",
     "ticketmaster_url": "https://www.ticketmaster.com/los-tigres-del-norte-nashville-tennessee-12-04-2026/event/1B006458CB6FD9DD",
     "seatgeek_url": "https://seatgeek.com/los-tigres-del-norte-tickets/nashville-tennessee-bridgestone-arena-2026-12-04-8-pm/concert/18092545",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-nashville-bridgestone-arena-12-4-2026--concerts-latin-music/production/6711183",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-nashville-tennessee-12-04-2026/event/1B006458CB6FD9DD",
     "last_verified_at": null,
@@ -282139,11 +282139,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6711183,
+        "url": "https://www.vividseats.com/los-tigres-del-norte-tickets-nashville-bridgestone-arena-12-4-2026--concerts-latin-music/production/6711183",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -282170,7 +282170,7 @@
     "ticketmaster_event_id": "20006458C68AEF1B",
     "ticketmaster_url": "https://www.ticketmaster.com/los-tigres-del-norte-birmingham-alabama-12-05-2026/event/20006458C68AEF1B",
     "seatgeek_url": "https://seatgeek.com/los-tigres-del-norte-tickets/birmingham-alabama-bjcc-concert-hall-2026-12-05-8-pm/concert/18092802",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-birmingham-bjcc-concert-hall-12-5-2026--concerts-latin-music/production/6711178",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-birmingham-alabama-12-05-2026/event/20006458C68AEF1B",
     "last_verified_at": null,
@@ -282192,11 +282192,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6711178,
+        "url": "https://www.vividseats.com/los-tigres-del-norte-tickets-birmingham-bjcc-concert-hall-12-5-2026--concerts-latin-music/production/6711178",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -282276,7 +282276,7 @@
     "ticketmaster_event_id": "0A00653DE4267E55",
     "ticketmaster_url": "https://www.ticketmaster.com/los-tigres-del-norte-la-loteria-temecula-california-03-13-2027/event/0A00653DE4267E55",
     "seatgeek_url": "https://seatgeek.com/los-tigres-del-norte-tickets/temecula-california-pechanga-resort-casino-2027-03-13-8-pm/concert/18652912",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-temecula-pechanga-resort-casino-3-13-2027/production/7654801",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-la-loteria-temecula-california-03-13-2027/event/0A00653DE4267E55",
     "last_verified_at": null,
@@ -282298,11 +282298,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7654801,
+        "url": "https://www.vividseats.com/los-tigres-del-norte-tickets-temecula-pechanga-resort-casino-3-13-2027/production/7654801",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -282329,7 +282329,7 @@
     "ticketmaster_event_id": "0F0064B3EA45109C",
     "ticketmaster_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-seattle-washington-10-25-2026/event/0F0064B3EA45109C",
     "seatgeek_url": "https://seatgeek.com/the-chicks-tickets/seattle-washington-benaroya-hall-2026-10-25-8-30-pm/concert/18268866",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-chicks-tickets-seattle-benaroya-hall---taper-auditorium-10-25-2026--concerts-country-and-folk/production/7084763",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-seattle-washington-10-25-2026/event/0F0064B3EA45109C",
     "last_verified_at": null,
@@ -282351,11 +282351,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7084763,
+        "url": "https://www.vividseats.com/the-chicks-tickets-seattle-benaroya-hall---taper-auditorium-10-25-2026--concerts-country-and-folk/production/7084763",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -282382,7 +282382,7 @@
     "ticketmaster_event_id": "0F0064B3EA4A10AB",
     "ticketmaster_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-seattle-washington-10-26-2026/event/0F0064B3EA4A10AB",
     "seatgeek_url": "https://seatgeek.com/the-chicks-tickets/seattle-washington-benaroya-hall-2026-10-26-8-30-pm/concert/18268868",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-chicks-tickets-seattle-benaroya-hall---taper-auditorium-10-26-2026--concerts-country-and-folk/production/7084765",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-seattle-washington-10-26-2026/event/0F0064B3EA4A10AB",
     "last_verified_at": null,
@@ -282404,11 +282404,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7084765,
+        "url": "https://www.vividseats.com/the-chicks-tickets-seattle-benaroya-hall---taper-auditorium-10-26-2026--concerts-country-and-folk/production/7084765",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -282541,7 +282541,7 @@
     "ticketmaster_event_id": "090064BAE60EE7D7",
     "ticketmaster_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-01-2026/event/090064BAE60EE7D7",
     "seatgeek_url": "https://seatgeek.com/the-chicks-tickets/hollywood-california-dolby-theatre-2026-11-01-8-30-pm/concert/18268872",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-chicks-tickets-hollywood-dolby-theatre-11-1-2026--concerts-country-and-folk/production/7084779",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-01-2026/event/090064BAE60EE7D7",
     "last_verified_at": null,
@@ -282563,11 +282563,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7084779,
+        "url": "https://www.vividseats.com/the-chicks-tickets-hollywood-dolby-theatre-11-1-2026--concerts-country-and-folk/production/7084779",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -282594,7 +282594,7 @@
     "ticketmaster_event_id": "090064B785414609",
     "ticketmaster_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-02-2026/event/090064B785414609",
     "seatgeek_url": "https://seatgeek.com/the-chicks-tickets/hollywood-california-dolby-theatre-2026-11-02-8-30-pm/concert/18268878",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-chicks-tickets-hollywood-dolby-theatre-11-2-2026--concerts-country-and-folk/production/7084783",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-02-2026/event/090064B785414609",
     "last_verified_at": null,
@@ -282616,11 +282616,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7084783,
+        "url": "https://www.vividseats.com/the-chicks-tickets-hollywood-dolby-theatre-11-2-2026--concerts-country-and-folk/production/7084783",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -282647,7 +282647,7 @@
     "ticketmaster_event_id": "090064B78544460E",
     "ticketmaster_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-03-2026/event/090064B78544460E",
     "seatgeek_url": "https://seatgeek.com/the-chicks-tickets/hollywood-california-dolby-theatre-2026-11-03-8-30-pm/concert/18469965",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-chicks-tickets-hollywood-dolby-theatre-11-3-2026--concerts-country-and-folk/production/7410570",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-03-2026/event/090064B78544460E",
     "last_verified_at": null,
@@ -282669,11 +282669,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7410570,
+        "url": "https://www.vividseats.com/the-chicks-tickets-hollywood-dolby-theatre-11-3-2026--concerts-country-and-folk/production/7410570",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -282700,7 +282700,7 @@
     "ticketmaster_event_id": "3A006482F1AE29EF",
     "ticketmaster_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-san-antonio-texas-10-22-2026/event/3A006482F1AE29EF",
     "seatgeek_url": "https://seatgeek.com/young-miko-tickets/san-antonio-texas-freeman-coliseum-2026-10-22-8-pm/concert/18163833",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/young-miko-tickets-san-antonio-freeman-coliseum-10-22-2026--concerts-latin-music/production/6872918",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-san-antonio-texas-10-22-2026/event/3A006482F1AE29EF",
     "last_verified_at": null,
@@ -282722,11 +282722,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6872918,
+        "url": "https://www.vividseats.com/young-miko-tickets-san-antonio-freeman-coliseum-10-22-2026--concerts-latin-music/production/6872918",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -282753,7 +282753,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7x73v",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x73v",
     "seatgeek_url": "https://seatgeek.com/young-miko-tickets/houston-texas-toyota-center-2026-10-24-8-pm/concert/18164304",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/young-miko-tickets-houston-toyota-center---tx-10-24-2026--concerts-latin-music/production/6872920",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x73v",
     "last_verified_at": null,
@@ -282775,11 +282775,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6872920,
+        "url": "https://www.vividseats.com/young-miko-tickets-houston-toyota-center---tx-10-24-2026--concerts-latin-music/production/6872920",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -282806,7 +282806,7 @@
     "ticketmaster_event_id": "0D006483BCB1D6C1",
     "ticketmaster_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-miami-florida-10-28-2026/event/0D006483BCB1D6C1",
     "seatgeek_url": "https://seatgeek.com/young-miko-tickets/miami-florida-kaseya-center-2026-10-28-8-pm/concert/18163843",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/young-miko-tickets-miami-kaseya-center-10-28-2026--concerts-latin-music/production/6872922",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-miami-florida-10-28-2026/event/0D006483BCB1D6C1",
     "last_verified_at": null,
@@ -282828,11 +282828,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6872922,
+        "url": "https://www.vividseats.com/young-miko-tickets-miami-kaseya-center-10-28-2026--concerts-latin-music/production/6872922",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -282859,7 +282859,7 @@
     "ticketmaster_event_id": "22006483BC244DB4",
     "ticketmaster_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-orlando-florida-10-29-2026/event/22006483BC244DB4",
     "seatgeek_url": "https://seatgeek.com/young-miko-tickets/orlando-florida-kia-center-2026-10-29-8-pm/concert/18163844",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/young-miko-tickets-orlando-kia-center-10-29-2026--concerts-latin-music/production/6872924",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-orlando-florida-10-29-2026/event/22006483BC244DB4",
     "last_verified_at": null,
@@ -282881,11 +282881,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6872924,
+        "url": "https://www.vividseats.com/young-miko-tickets-orlando-kia-center-10-29-2026--concerts-latin-music/production/6872924",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -282912,7 +282912,7 @@
     "ticketmaster_event_id": "0E006482B522EA73",
     "ticketmaster_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-atlanta-georgia-10-31-2026/event/0E006482B522EA73",
     "seatgeek_url": "https://seatgeek.com/young-miko-tickets/atlanta-georgia-state-farm-arena-1-2026-10-31-8-pm/concert/18163846",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/young-miko-tickets-atlanta-state-farm-arena-10-31-2026--concerts-latin-music/production/6872926",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-atlanta-georgia-10-31-2026/event/0E006482B522EA73",
     "last_verified_at": null,
@@ -282934,11 +282934,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6872926,
+        "url": "https://www.vividseats.com/young-miko-tickets-atlanta-state-farm-arena-10-31-2026--concerts-latin-music/production/6872926",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -282965,7 +282965,7 @@
     "ticketmaster_event_id": "2D00648208B9A3EA",
     "ticketmaster_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-charlotte-north-carolina-11-01-2026/event/2D00648208B9A3EA",
     "seatgeek_url": "https://seatgeek.com/young-miko-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-11-01-8-pm/concert/18163847",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/young-miko-tickets-charlotte-spectrum-center-11-1-2026--concerts-latin-music/production/6872928",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-charlotte-north-carolina-11-01-2026/event/2D00648208B9A3EA",
     "last_verified_at": null,
@@ -282987,11 +282987,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6872928,
+        "url": "https://www.vividseats.com/young-miko-tickets-charlotte-spectrum-center-11-1-2026--concerts-latin-music/production/6872928",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -283018,7 +283018,7 @@
     "ticketmaster_event_id": "30006482ED0C0DEE",
     "ticketmaster_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-philadelphia-pennsylvania-11-04-2026/event/30006482ED0C0DEE",
     "seatgeek_url": "https://seatgeek.com/young-miko-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-11-04-8-pm/concert/18163848",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/young-miko-tickets-philadelphia-xfinity-mobile-arena-11-4-2026--concerts-latin-music/production/6872930",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-philadelphia-pennsylvania-11-04-2026/event/30006482ED0C0DEE",
     "last_verified_at": null,
@@ -283040,11 +283040,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6872930,
+        "url": "https://www.vividseats.com/young-miko-tickets-philadelphia-xfinity-mobile-arena-11-4-2026--concerts-latin-music/production/6872930",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -283071,7 +283071,7 @@
     "ticketmaster_event_id": "3000648292EF3C31",
     "ticketmaster_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-brooklyn-new-york-11-05-2026/event/3000648292EF3C31",
     "seatgeek_url": "https://seatgeek.com/young-miko-tickets/brooklyn-new-york-barclays-center-2026-11-05-8-pm/concert/18163830",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/young-miko-tickets-brooklyn-barclays-center-11-5-2026--concerts-latin-music/production/6872936",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-brooklyn-new-york-11-05-2026/event/3000648292EF3C31",
     "last_verified_at": null,
@@ -283093,11 +283093,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6872936,
+        "url": "https://www.vividseats.com/young-miko-tickets-brooklyn-barclays-center-11-5-2026--concerts-latin-music/production/6872936",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -283124,7 +283124,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7OwqO",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OwqO",
     "seatgeek_url": "https://seatgeek.com/zac-brown-band-tickets/minneapolis-minnesota-target-center-2026-10-23-7-pm/concert/18032024",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/zac-brown-band-tickets-minneapolis-target-center-10-23-2026--concerts-country-and-folk/production/6578996",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OwqO",
     "last_verified_at": null,
@@ -283146,11 +283146,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6578996,
+        "url": "https://www.vividseats.com/zac-brown-band-tickets-minneapolis-target-center-10-23-2026--concerts-country-and-folk/production/6578996",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -283177,7 +283177,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7Owq_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Owq_",
     "seatgeek_url": "https://seatgeek.com/zac-brown-band-tickets/sioux-falls-south-dakota-denny-sanford-premier-center-2026-10-24-7-pm/concert/18032025",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/zac-brown-band-tickets-sioux-falls-denny-sanford-premier-center-10-24-2026--concerts-country-and-folk/production/6578998",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Owq_",
     "last_verified_at": null,
@@ -283199,11 +283199,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6578998,
+        "url": "https://www.vividseats.com/zac-brown-band-tickets-sioux-falls-denny-sanford-premier-center-10-24-2026--concerts-country-and-folk/production/6578998",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -283230,7 +283230,7 @@
     "ticketmaster_event_id": "00006436C72C3E60",
     "ticketmaster_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-buffalo-new-york-11-05-2026/event/00006436C72C3E60",
     "seatgeek_url": "https://seatgeek.com/zac-brown-band-tickets/buffalo-new-york-keybank-center-2026-11-05-7-pm/concert/18032029",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/zac-brown-band-tickets-buffalo-keybank-center-11-5-2026--concerts-country-and-folk/production/6579002",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-buffalo-new-york-11-05-2026/event/00006436C72C3E60",
     "last_verified_at": null,
@@ -283252,11 +283252,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6579002,
+        "url": "https://www.vividseats.com/zac-brown-band-tickets-buffalo-keybank-center-11-5-2026--concerts-country-and-folk/production/6579002",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -283283,7 +283283,7 @@
     "ticketmaster_event_id": "08006434E81E7407",
     "ticketmaster_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-detroit-michigan-11-06-2026/event/08006434E81E7407",
     "seatgeek_url": "https://seatgeek.com/zac-brown-band-tickets/detroit-michigan-little-caesars-arena-2026-11-06-7-pm/concert/18032030",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/zac-brown-band-tickets-detroit-little-caesars-arena-11-6-2026--concerts-country-and-folk/production/6579006",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-detroit-michigan-11-06-2026/event/08006434E81E7407",
     "last_verified_at": null,
@@ -283305,11 +283305,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6579006,
+        "url": "https://www.vividseats.com/zac-brown-band-tickets-detroit-little-caesars-arena-11-6-2026--concerts-country-and-folk/production/6579006",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -283336,7 +283336,7 @@
     "ticketmaster_event_id": "06006432246D711C",
     "ticketmaster_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-lincoln-nebraska-11-19-2026/event/06006432246D711C",
     "seatgeek_url": "https://seatgeek.com/zac-brown-band-tickets/lincoln-nebraska-pinnacle-bank-arena-2026-11-19-7-pm/concert/18032031",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/zac-brown-band-tickets-lincoln-pinnacle-bank-arena-11-19-2026--concerts-country-and-folk/production/6579008",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-lincoln-nebraska-11-19-2026/event/06006432246D711C",
     "last_verified_at": null,
@@ -283358,11 +283358,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6579008,
+        "url": "https://www.vividseats.com/zac-brown-band-tickets-lincoln-pinnacle-bank-arena-11-19-2026--concerts-country-and-folk/production/6579008",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -283442,7 +283442,7 @@
     "ticketmaster_event_id": "04006431DF0D8823",
     "ticketmaster_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-rosemont-illinois-11-21-2026/event/04006431DF0D8823",
     "seatgeek_url": "https://seatgeek.com/zac-brown-band-tickets/rosemont-illinois-allstate-arena-2026-11-21-7-pm/concert/18032037",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/zac-brown-band-tickets-rosemont-allstate-arena-11-21-2026--concerts-country-and-folk/production/6579013",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-rosemont-illinois-11-21-2026/event/04006431DF0D8823",
     "last_verified_at": null,
@@ -283464,11 +283464,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6579013,
+        "url": "https://www.vividseats.com/zac-brown-band-tickets-rosemont-allstate-arena-11-21-2026--concerts-country-and-folk/production/6579013",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -283548,7 +283548,7 @@
     "ticketmaster_event_id": "080064C8BDBE6F9C",
     "ticketmaster_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-grand-rapids-michigan-10-24-2026/event/080064C8BDBE6F9C",
     "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/grand-rapids-michigan-glc-live-at-20-monroe-2026-10-24-6-pm/concert/18312165",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-grand-rapids-glc-live-at-20-monroe-10-24-2026/production/7163775",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-grand-rapids-michigan-10-24-2026/event/080064C8BDBE6F9C",
     "last_verified_at": null,
@@ -283570,11 +283570,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7163775,
+        "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-grand-rapids-glc-live-at-20-monroe-10-24-2026/production/7163775",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -283654,7 +283654,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7P_Ae",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_Ae",
     "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/pittsburgh-pennsylvania-stage-ae-2026-10-27-7-pm/concert/18336796",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-pittsburgh-stage-ae-10-27-2026/production/7165469",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_Ae",
     "last_verified_at": null,
@@ -283676,11 +283676,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7165469,
+        "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-pittsburgh-stage-ae-10-27-2026/production/7165469",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -283707,7 +283707,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7P_Ad",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_Ad",
     "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/royal-oak-michigan-royal-oak-music-theatre-2026-10-28-6-pm/concert/18327316",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-royal-oak-royal-oak-music-theatre-10-28-2026/production/7164794",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_Ad",
     "last_verified_at": null,
@@ -283729,11 +283729,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7164794,
+        "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-royal-oak-royal-oak-music-theatre-10-28-2026/production/7164794",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -283760,7 +283760,7 @@
     "ticketmaster_event_id": "310064C8A7E64124",
     "ticketmaster_url": "https://www.ticketmaster.ca/sleeping-with-sirens-an-ending-in-montreal-quebec-10-30-2026/event/310064C8A7E64124",
     "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/montreal-canada-mtelus-2026-10-30-7-pm/concert/18311678",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-montreal-mtelus-10-30-2026/production/7163755",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sleeping-with-sirens-an-ending-in-montreal-quebec-10-30-2026/event/310064C8A7E64124",
     "last_verified_at": null,
@@ -283782,11 +283782,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7163755,
+        "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-montreal-mtelus-10-30-2026/production/7163755",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -283813,7 +283813,7 @@
     "ticketmaster_event_id": "310064CC8D973CAE",
     "ticketmaster_url": "https://www.ticketmaster.ca/sleeping-with-sirens-an-ending-in-ottawa-ontario-10-31-2026/event/310064CC8D973CAE",
     "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/ottawa-canada-history-ottawa-2026-10-31-6-pm/concert/18312283",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-ottawa-history-ottawa-10-31-2026/production/7163682",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sleeping-with-sirens-an-ending-in-ottawa-ontario-10-31-2026/event/310064CC8D973CAE",
     "last_verified_at": null,
@@ -283835,11 +283835,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7163682,
+        "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-ottawa-history-ottawa-10-31-2026/production/7163682",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -283866,7 +283866,7 @@
     "ticketmaster_event_id": "100064CC83D182AF",
     "ticketmaster_url": "https://www.ticketmaster.ca/sleeping-with-sirens-an-ending-in-toronto-ontario-11-01-2026/event/100064CC83D182AF",
     "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/toronto-canada-history-2026-11-01-6-pm/concert/18312214",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-toronto-history-toronto-11-1-2026/production/7163857",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sleeping-with-sirens-an-ending-in-toronto-ontario-11-01-2026/event/100064CC83D182AF",
     "last_verified_at": null,
@@ -283888,11 +283888,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7163857,
+        "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-toronto-history-toronto-11-1-2026/production/7163857",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -283919,7 +283919,7 @@
     "ticketmaster_event_id": "010064CBBA017666",
     "ticketmaster_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-boston-massachusetts-11-03-2026/event/010064CBBA017666",
     "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/boston-massachusetts-citizens-house-of-blues-boston-2026-11-03-7-pm/concert/18311622",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-boston-citizens-house-of-blues-boston-11-3-2026/production/7163678",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-boston-massachusetts-11-03-2026/event/010064CBBA017666",
     "last_verified_at": null,
@@ -283941,11 +283941,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7163678,
+        "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-boston-citizens-house-of-blues-boston-11-3-2026/production/7163678",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -283972,7 +283972,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7P_A7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_A7",
     "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/sayreville-new-jersey-starland-ballroom-2026-11-04-7-pm/concert/18327314",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-sayreville-starland-ballroom-11-4-2026/production/7165453",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_A7",
     "last_verified_at": null,
@@ -283994,11 +283994,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7165453,
+        "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-sayreville-starland-ballroom-11-4-2026/production/7165453",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -284025,7 +284025,7 @@
     "ticketmaster_event_id": "020064CB97B5A882",
     "ticketmaster_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-philadelphia-pennsylvania-11-06-2026/event/020064CB97B5A882",
     "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2026-11-06-7-pm/concert/18312116",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-philadelphia-the-fillmore-philadelphia-11-6-2026/production/7163761",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-philadelphia-pennsylvania-11-06-2026/event/020064CB97B5A882",
     "last_verified_at": null,
@@ -284047,11 +284047,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7163761,
+        "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-philadelphia-the-fillmore-philadelphia-11-6-2026/production/7163761",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -284078,7 +284078,7 @@
     "ticketmaster_event_id": "000064CAA762E1A9",
     "ticketmaster_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-new-york-new-york-11-07-2026/event/000064CAA762E1A9",
     "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/new-york-new-york-manhattan-center-hammerstein-ballroom-2026-11-07-7-pm/concert/18311638",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-new-york-manhattan-center-hammerstein-ballroom-11-7-2026/production/7163785",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-new-york-new-york-11-07-2026/event/000064CAA762E1A9",
     "last_verified_at": null,
@@ -284100,11 +284100,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7163785,
+        "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-new-york-manhattan-center-hammerstein-ballroom-11-7-2026/production/7163785",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -284184,7 +284184,7 @@
     "ticketmaster_event_id": "2D0064CA8DE39EB5",
     "ticketmaster_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-charlotte-north-carolina-11-11-2026/event/2D0064CA8DE39EB5",
     "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-11-11-7-pm/concert/18311702",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-charlotte-the-fillmore-charlotte-11-11-2026/production/7163534",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-charlotte-north-carolina-11-11-2026/event/2D0064CA8DE39EB5",
     "last_verified_at": null,
@@ -284206,11 +284206,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7163534,
+        "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-charlotte-the-fillmore-charlotte-11-11-2026/production/7163534",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -284237,7 +284237,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7P_AA",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_AA",
     "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/atlanta-georgia-the-eastern-atlanta-2026-11-12-7-30-pm/concert/18327312",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-atlanta-the-eastern-11-12-2026/production/7165467",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_AA",
     "last_verified_at": null,
@@ -284259,11 +284259,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7165467,
+        "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-atlanta-the-eastern-11-12-2026/production/7165467",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -284502,7 +284502,7 @@
     "ticketmaster_event_id": "3E0064C2CEA252AC",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-london-07-03-2027/event/3E0064C2CEA252AC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-london-o2-academy-brixton-3-7-2027/production/7131884",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-london-07-03-2027/event/3E0064C2CEA252AC",
     "last_verified_at": null,
@@ -284524,11 +284524,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7131884,
+        "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-london-o2-academy-brixton-3-7-2027/production/7131884",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -284661,7 +284661,7 @@
     "ticketmaster_event_id": "0D00646A64C11EFD",
     "ticketmaster_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-miami-florida-10-24-2026/event/0D00646A64C11EFD",
     "seatgeek_url": "https://seatgeek.com/chayanne-tickets/miami-florida-kaseya-center-2026-10-24-8-pm/concert/18192110",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/chayanne-tickets-miami-kaseya-center-10-24-2026/production/6924889",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-miami-florida-10-24-2026/event/0D00646A64C11EFD",
     "last_verified_at": null,
@@ -284683,11 +284683,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6924889,
+        "url": "https://www.vividseats.com/chayanne-tickets-miami-kaseya-center-10-24-2026/production/6924889",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -284714,7 +284714,7 @@
     "ticketmaster_event_id": "0D00646B90586364",
     "ticketmaster_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-tampa-florida-10-30-2026/event/0D00646B90586364",
     "seatgeek_url": "https://seatgeek.com/chayanne-tickets/tampa-florida-benchmark-international-arena-2026-10-30-8-pm/concert/18192114",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/chayanne-tickets-tampa-benchmark-international-arena-10-30-2026/production/6924881",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-tampa-florida-10-30-2026/event/0D00646B90586364",
     "last_verified_at": null,
@@ -284736,11 +284736,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6924881,
+        "url": "https://www.vividseats.com/chayanne-tickets-tampa-benchmark-international-arena-10-30-2026/production/6924881",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -284767,7 +284767,7 @@
     "ticketmaster_event_id": "2200646CA0686AC5",
     "ticketmaster_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-orlando-florida-10-31-2026/event/2200646CA0686AC5",
     "seatgeek_url": "https://seatgeek.com/chayanne-tickets/orlando-florida-kia-center-2026-10-31-8-pm/concert/18192116",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/chayanne-tickets-orlando-kia-center-10-31-2026/production/6924903",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-orlando-florida-10-31-2026/event/2200646CA0686AC5",
     "last_verified_at": null,
@@ -284789,11 +284789,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6924903,
+        "url": "https://www.vividseats.com/chayanne-tickets-orlando-kia-center-10-31-2026/production/6924903",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

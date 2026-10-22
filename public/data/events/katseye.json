@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107170271",
+        "url": "https://www.stubhub.ie/katseye-washington-tickets-10-22-2026/event/107170271",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G619llZUk",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961634/Katseye-tickets-Thu-Oct-22-2026-Capital-One-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961634/Katseye-tickets-Thu-Oct-22-2026-Capital-One-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-washington-tickets-10-22-2026/event/107170271"
   },
   {
     "id": "tm-katseye-2026-belmont-park-17gzv0g61mqcddn",
@@ -220,12 +228,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107169128",
+        "url": "https://www.stubhub.ie/katseye-boston-tickets-10-28-2026/event/107169128",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1EilXli",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961636/Katseye-tickets-Wed-Oct-28-2026-TD-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961636/Katseye-tickets-Wed-Oct-28-2026-TD-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-boston-tickets-10-28-2026/event/107169128"
   },
   {
     "id": "tm-katseye-2026-montreal-17g8v0g61xoe95k",
@@ -395,12 +411,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107169130",
+        "url": "https://www.stubhub.ie/katseye-detroit-tickets-11-3-2026/event/107169130",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_1EFShc4",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961637/Katseye-tickets-Tue-Nov-3-2026-Little-Caesars-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961637/Katseye-tickets-Tue-Nov-3-2026-Little-Caesars-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-detroit-tickets-11-3-2026/event/107169130"
   },
   {
     "id": "tm-katseye-2026-chicago-vvg18z_1mip6i3",
@@ -456,12 +480,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107169132",
+        "url": "https://www.stubhub.ie/katseye-chicago-tickets-11-5-2026/event/107169132",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1miP6i3",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961638/Katseye-tickets-Thu-Nov-5-2026-United-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961638/Katseye-tickets-Thu-Nov-5-2026-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-chicago-tickets-11-5-2026/event/107169132"
   },
   {
     "id": "tm-katseye-2026-minneapolis-vvg1bz_1syoq0j",
@@ -517,12 +549,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107169133",
+        "url": "https://www.stubhub.ie/katseye-minneapolis-tickets-11-7-2026/event/107169133",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_1SyOq0j",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961641/Katseye-tickets-Sat-Nov-7-2026-Target-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961641/Katseye-tickets-Sat-Nov-7-2026-Target-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-minneapolis-tickets-11-7-2026/event/107169133"
   },
   {
     "id": "tm-katseye-2026-austin-g5diz_1lv8_jd",
@@ -578,12 +618,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107170281",
+        "url": "https://www.stubhub.ie/katseye-austin-tickets-11-10-2026/event/107170281",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1lv8_jd",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961642/Katseye-tickets-Tue-Nov-10-2026-Moody-Center-ATX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961642/Katseye-tickets-Tue-Nov-10-2026-Moody-Center-ATX",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-austin-tickets-11-10-2026/event/107170281"
   },
   {
     "id": "tm-katseye-2026-dallas-vvg1yz_1jrlmao",
@@ -639,12 +687,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107170283",
+        "url": "https://www.stubhub.ie/katseye-dallas-tickets-11-11-2026/event/107170283",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1JrlMao",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961644/Katseye-tickets-Wed-Nov-11-2026-American-Airlines-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961644/Katseye-tickets-Wed-Nov-11-2026-American-Airlines-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-dallas-tickets-11-11-2026/event/107170283"
   },
   {
     "id": "tm-katseye-2026-las-vegas-z7r9jz1a70ouv",
@@ -700,12 +756,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107170285",
+        "url": "https://www.stubhub.ie/katseye-las-vegas-tickets-11-14-2026/event/107170285",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70OuV",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961834/Katseye-tickets-Sat-Nov-14-2026-MGM-Grand-Garden-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961834/Katseye-tickets-Sat-Nov-14-2026-MGM-Grand-Garden-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-las-vegas-tickets-11-14-2026/event/107170285"
   },
   {
     "id": "tm-katseye-2026-seattle-vvg1hz_1e8gggs",
@@ -761,12 +825,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107170286",
+        "url": "https://www.stubhub.ie/katseye-seattle-tickets-11-17-2026/event/107170286",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_1E8GGGS",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961840/Katseye-tickets-Tue-Nov-17-2026-Climate-Pledge-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961840/Katseye-tickets-Tue-Nov-17-2026-Climate-Pledge-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-seattle-tickets-11-17-2026/event/107170286"
   },
   {
     "id": "tm-katseye-2026-oakland-g5vyz_1m-ew1q",
@@ -822,12 +894,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107170287",
+        "url": "https://www.stubhub.ie/katseye-oakland-tickets-11-19-2026/event/107170287",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1m-eW1q",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961842/Katseye-tickets-Thu-Nov-19-2026-Oakland-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961842/Katseye-tickets-Thu-Nov-19-2026-Oakland-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-oakland-tickets-11-19-2026/event/107170287"
   },
   {
     "id": "tm-katseye-2026-los-angeles-g5eyz_1rkf-rx",
@@ -883,12 +963,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107170288",
+        "url": "https://www.stubhub.ie/katseye-los-angeles-tickets-11-21-2026/event/107170288",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eYZ_1RkF-rX",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961846/Katseye-tickets-Sat-Nov-21-2026-Cryptocom-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961846/Katseye-tickets-Sat-Nov-21-2026-Cryptocom-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-los-angeles-tickets-11-21-2026/event/107170288"
   },
   {
     "id": "tm-katseye-2026-los-angeles-g5eyz_52cssfl",
@@ -944,12 +1032,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107188077",
+        "url": "https://www.stubhub.ie/katseye-los-angeles-tickets-11-22-2026/event/107188077",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eYZ_52CssfL",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7984757/Katseye-tickets-Sun-Nov-22-2026-Cryptocom-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7984757/Katseye-tickets-Sun-Nov-22-2026-Cryptocom-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-los-angeles-tickets-11-22-2026/event/107188077"
   },
   {
     "id": "tm-katseye-2026-phoenix-17k8v0g61m4tf9t",
@@ -1005,12 +1101,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107170289",
+        "url": "https://www.stubhub.ie/katseye-phoenix-tickets-11-24-2026/event/107170289",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G61m4tf9t",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961848/Katseye-tickets-Tue-Nov-24-2026-Mortgage-Matchup-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961848/Katseye-tickets-Tue-Nov-24-2026-Mortgage-Matchup-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-phoenix-tickets-11-24-2026/event/107170289"
   },
   {
     "id": "tm-katseye-2026-ciudad-de-mexico-17azv0g61mujevj",
@@ -1066,12 +1170,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107165672",
+        "url": "https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-27-11-2026/event/107165672",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AZv0G61muJeVj",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7983201/Katseye-tickets-Fri-Nov-27-2026-Palacio-De-Los-Deportes-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7983201/Katseye-tickets-Fri-Nov-27-2026-Palacio-De-Los-Deportes-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-27-11-2026/event/107165672"
   },
   {
     "id": "tm-katseye-2026-ciudad-de-mexico-17azv0g61m2a3xe",
@@ -1127,11 +1239,19 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107187078",
+        "url": "https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-28-11-2026/event/107187078",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AZv0G61m2A3XE",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7990930/Katseye-tickets-Sat-Nov-28-2026-Palacio-De-Los-Deportes-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7990930/Katseye-tickets-Sat-Nov-28-2026-Palacio-De-Los-Deportes-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-28-11-2026/event/107187078"
   }
 ]

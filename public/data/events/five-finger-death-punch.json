@@ -1478,11 +1478,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107164508",
-        "url": "https://www.stubhub.ie/five-finger-death-punch-columbus-tickets-10-21-2026/event/107164508",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7676549",
@@ -1496,7 +1496,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676549",
-    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-columbus-tickets-10-21-2026/event/107164508",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676549/Five-Finger-Death-Punch-tickets-Wed-Oct-21-2026-Nationwide-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"

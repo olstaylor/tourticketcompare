@@ -1095,6 +1095,13 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675676",
+        "url": "https://www.stubhub.ie/zach-bryan-indianapolis-tickets-5-1-2027/event/107675676",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_fGkwtxpKO",
@@ -1117,7 +1124,8 @@
         "start": "2026-10-22T14:00:00Z",
         "end": "2026-10-23T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-indianapolis-tickets-5-1-2027/event/107675676"
   },
   {
     "id": "tm-zach-bryan-2027-green-bay-vv17jz_fgkshdkie",
@@ -1180,6 +1188,13 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675677",
+        "url": "https://www.stubhub.ie/zach-bryan-green-bay-tickets-5-4-2027/event/107675677",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_fGkShdkiE",
@@ -1207,7 +1222,8 @@
         "start": "2026-10-22T15:00:00Z",
         "end": "2026-10-23T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-green-bay-tickets-5-4-2027/event/107675677"
   },
   {
     "id": "tm-zach-bryan-2027-east-rutherford-k7vgf_fsxrnwp",
@@ -1456,6 +1472,13 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674280",
+        "url": "https://www.stubhub.ie/zach-bryan-philadelphia-tickets-5-25-2027/event/107674280",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_fGkSIy1RZ",
@@ -1488,7 +1511,8 @@
         "start": "2026-10-22T14:00:00Z",
         "end": "2026-10-23T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-philadelphia-tickets-5-25-2027/event/107674280"
   },
   {
     "id": "tm-zach-bryan-2027-atlanta-vvg1zz_fwy55os",
@@ -1955,6 +1979,13 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674230",
+        "url": "https://www.stubhub.ie/zach-bryan-seattle-tickets-7-24-2027/event/107674230",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_fYTLoed",
@@ -2002,7 +2033,8 @@
         "start": "2026-10-23T17:00:00Z",
         "end": "2027-07-25T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-seattle-tickets-7-24-2027/event/107674230"
   },
   {
     "id": "tm-zach-bryan-2027-vancouver-1av7z_fgks885w5",
@@ -2065,6 +2097,13 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675680",
+        "url": "https://www.stubhub.ie/zach-bryan-tickets-vancouver-bc-place-stadium-7-28-2027/event/107675680",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_fGkS885w5",
@@ -2102,7 +2141,8 @@
         "start": "2026-10-22T17:00:00Z",
         "end": "2026-10-23T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-tickets-vancouver-bc-place-stadium-7-28-2027/event/107675680"
   },
   {
     "id": "tm-zach-bryan-2027-edmonton-1av7z_fgkw2fvlh",

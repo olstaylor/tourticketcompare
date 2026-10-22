@@ -1366,6 +1366,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677322",
+        "url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-29-2026/event/107677322",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62ThvzYN",
@@ -1402,6 +1409,7 @@
         "start": "2026-10-23T19:00:00Z",
         "end": "2026-12-23T06:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-29-2026/event/107677322"
   }
 ]

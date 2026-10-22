@@ -18131,11 +18131,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107085077",
-        "url": "https://www.stubhub.ie/bruno-mars-tickets-vancouver-bc-place-stadium-10-20-2026/event/107085077",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/Los_Angeles",
@@ -18144,7 +18144,7 @@
     "ticketmaster_discovery_event_id": "1Av7Z_eGkWiMwWb",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7686673",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-vancouver-bc-place-stadium-10-20-2026/event/107085077",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
@@ -36392,11 +36392,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106969171",
-        "url": "https://www.stubhub.ie/doja-cat-sacramento-tickets-10-20-2026/event/106969171",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -36410,7 +36410,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457626",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-sacramento-tickets-10-20-2026/event/106969171",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -51461,11 +51461,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107164508",
-        "url": "https://www.stubhub.ie/five-finger-death-punch-columbus-tickets-10-21-2026/event/107164508",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7676549",
@@ -51479,7 +51479,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676549",
-    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-columbus-tickets-10-21-2026/event/107164508",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676549/Five-Finger-Death-Punch-tickets-Wed-Oct-21-2026-Nationwide-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -121093,6 +121093,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668940",
+        "url": "https://www.stubhub.ie/ha-ash-inglewood-tickets-5-2-2027/event/107668940",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_3Teyn4F",
@@ -121109,7 +121116,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-inglewood-tickets-5-2-2027/event/107668940"
   },
   {
     "id": "tm-ha-ash-2027-san-jose-g5vyz_k6wigg_",
@@ -126456,11 +126464,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107383080",
-        "url": "https://www.stubhub.ie/sienna-spiro-brooklyn-tickets-10-21-2026/event/107383080",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_Gre9Jk_",
@@ -126468,7 +126476,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038342",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038342/Sienna-Spiro-tickets-Wed-Oct-21-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-brooklyn-tickets-10-21-2026/event/107383080",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -190424,6 +190432,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671875",
+        "url": "https://www.stubhub.ie/warren-zeiders-hollywood-tickets-3-26-2027/event/107671875",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_fkapkZQ",
@@ -190437,7 +190452,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307487",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307487/Warren-Zeiders-tickets-Fri-Mar-26-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307487/Warren-Zeiders-tickets-Fri-Mar-26-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-hollywood-tickets-3-26-2027/event/107671875"
   },
   {
     "id": "tm-warren-zeiders-2027-waukee-1ae7z_kgkdkgpa5",
@@ -200717,6 +200733,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673324",
+        "url": "https://www.stubhub.ie/nickelback-hollywood-tickets-2-26-2027/event/107673324",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_fpmHIZA",
@@ -200735,7 +200758,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-02-22T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-hollywood-tickets-2-26-2027/event/107673324"
   },
   {
     "id": "tm-nickelback-2027-atlanta-vvg1zz_f9i_ugh",
@@ -261207,6 +261231,13 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675676",
+        "url": "https://www.stubhub.ie/zach-bryan-indianapolis-tickets-5-1-2027/event/107675676",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_fGkwtxpKO",
@@ -261229,7 +261260,8 @@
         "start": "2026-10-22T14:00:00Z",
         "end": "2026-10-23T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-indianapolis-tickets-5-1-2027/event/107675676"
   },
   {
     "id": "tm-zach-bryan-2027-green-bay-vv17jz_fgkshdkie",
@@ -261292,6 +261324,13 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675677",
+        "url": "https://www.stubhub.ie/zach-bryan-green-bay-tickets-5-4-2027/event/107675677",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_fGkShdkiE",
@@ -261319,7 +261358,8 @@
         "start": "2026-10-22T15:00:00Z",
         "end": "2026-10-23T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-green-bay-tickets-5-4-2027/event/107675677"
   },
   {
     "id": "tm-zach-bryan-2027-east-rutherford-k7vgf_fsxrnwp",
@@ -261568,6 +261608,13 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674280",
+        "url": "https://www.stubhub.ie/zach-bryan-philadelphia-tickets-5-25-2027/event/107674280",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_fGkSIy1RZ",
@@ -261600,7 +261647,8 @@
         "start": "2026-10-22T14:00:00Z",
         "end": "2026-10-23T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-philadelphia-tickets-5-25-2027/event/107674280"
   },
   {
     "id": "tm-zach-bryan-2027-atlanta-vvg1zz_fwy55os",
@@ -262067,6 +262115,13 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674230",
+        "url": "https://www.stubhub.ie/zach-bryan-seattle-tickets-7-24-2027/event/107674230",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_fYTLoed",
@@ -262114,7 +262169,8 @@
         "start": "2026-10-23T17:00:00Z",
         "end": "2027-07-25T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-seattle-tickets-7-24-2027/event/107674230"
   },
   {
     "id": "tm-zach-bryan-2027-vancouver-1av7z_fgks885w5",
@@ -262177,6 +262233,13 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675680",
+        "url": "https://www.stubhub.ie/zach-bryan-tickets-vancouver-bc-place-stadium-7-28-2027/event/107675680",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_fGkS885w5",
@@ -262214,7 +262277,8 @@
         "start": "2026-10-22T17:00:00Z",
         "end": "2026-10-23T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-tickets-vancouver-bc-place-stadium-7-28-2027/event/107675680"
   },
   {
     "id": "tm-zach-bryan-2027-edmonton-1av7z_fgkw2fvlh",
@@ -269548,18 +269612,18 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107324079",
-        "url": "https://www.stubhub.ie/bryson-tiller-phoenix-tickets-10-20-2026/event/107324079",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G65lC9IRs",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-phoenix-tickets-10-20-2026/event/107324079",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -272626,6 +272690,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677322",
+        "url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-29-2026/event/107677322",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62ThvzYN",
@@ -272662,7 +272733,8 @@
         "start": "2026-10-23T19:00:00Z",
         "end": "2026-12-23T06:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-29-2026/event/107677322"
   },
   {
     "id": "tm-elevation-worship-2027-spokane-z7r9jz1aavwus",
@@ -275244,6 +275316,13 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675658",
+        "url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-boston-tickets-11-6-2026/event/107675658",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPGbGAuMyrW",
@@ -275252,7 +275331,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8298499/A-Boogie-Wit-Da-Hoodie-tickets-Fri-Nov-6-2026-Agganis-Arena",
     "organizer_names": [
       "THE TOURING CO"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-boston-tickets-11-6-2026/event/107675658"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-boston-vv1a8vpgbgauu_ra",
@@ -275308,6 +275388,13 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677507",
+        "url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-boston-tickets-11-7-2026/event/107677507",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPGbGAuU_ra",
@@ -275316,7 +275403,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293621/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Nov-7-2026-Agganis-Arena",
     "organizer_names": [
       "THE TOURING CO"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-boston-tickets-11-7-2026/event/107677507"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-philadelphia-vv1aezkfygkeinqmd",
@@ -277842,12 +277930,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107170271",
+        "url": "https://www.stubhub.ie/katseye-washington-tickets-10-22-2026/event/107170271",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G619llZUk",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961634/Katseye-tickets-Thu-Oct-22-2026-Capital-One-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961634/Katseye-tickets-Thu-Oct-22-2026-Capital-One-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-washington-tickets-10-22-2026/event/107170271"
   },
   {
     "id": "tm-katseye-2026-belmont-park-17gzv0g61mqcddn",
@@ -278009,12 +278105,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107169128",
+        "url": "https://www.stubhub.ie/katseye-boston-tickets-10-28-2026/event/107169128",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1EilXli",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961636/Katseye-tickets-Wed-Oct-28-2026-TD-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961636/Katseye-tickets-Wed-Oct-28-2026-TD-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-boston-tickets-10-28-2026/event/107169128"
   },
   {
     "id": "tm-katseye-2026-montreal-17g8v0g61xoe95k",
@@ -278184,12 +278288,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107169130",
+        "url": "https://www.stubhub.ie/katseye-detroit-tickets-11-3-2026/event/107169130",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_1EFShc4",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961637/Katseye-tickets-Tue-Nov-3-2026-Little-Caesars-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961637/Katseye-tickets-Tue-Nov-3-2026-Little-Caesars-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-detroit-tickets-11-3-2026/event/107169130"
   },
   {
     "id": "tm-katseye-2026-chicago-vvg18z_1mip6i3",
@@ -278245,12 +278357,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107169132",
+        "url": "https://www.stubhub.ie/katseye-chicago-tickets-11-5-2026/event/107169132",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1miP6i3",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961638/Katseye-tickets-Thu-Nov-5-2026-United-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961638/Katseye-tickets-Thu-Nov-5-2026-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-chicago-tickets-11-5-2026/event/107169132"
   },
   {
     "id": "tm-katseye-2026-minneapolis-vvg1bz_1syoq0j",
@@ -278306,12 +278426,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107169133",
+        "url": "https://www.stubhub.ie/katseye-minneapolis-tickets-11-7-2026/event/107169133",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_1SyOq0j",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961641/Katseye-tickets-Sat-Nov-7-2026-Target-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961641/Katseye-tickets-Sat-Nov-7-2026-Target-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-minneapolis-tickets-11-7-2026/event/107169133"
   },
   {
     "id": "tm-katseye-2026-austin-g5diz_1lv8_jd",
@@ -278367,12 +278495,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107170281",
+        "url": "https://www.stubhub.ie/katseye-austin-tickets-11-10-2026/event/107170281",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1lv8_jd",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961642/Katseye-tickets-Tue-Nov-10-2026-Moody-Center-ATX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961642/Katseye-tickets-Tue-Nov-10-2026-Moody-Center-ATX",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-austin-tickets-11-10-2026/event/107170281"
   },
   {
     "id": "tm-katseye-2026-dallas-vvg1yz_1jrlmao",
@@ -278428,12 +278564,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107170283",
+        "url": "https://www.stubhub.ie/katseye-dallas-tickets-11-11-2026/event/107170283",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1JrlMao",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961644/Katseye-tickets-Wed-Nov-11-2026-American-Airlines-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961644/Katseye-tickets-Wed-Nov-11-2026-American-Airlines-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-dallas-tickets-11-11-2026/event/107170283"
   },
   {
     "id": "tm-katseye-2026-las-vegas-z7r9jz1a70ouv",
@@ -278489,12 +278633,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107170285",
+        "url": "https://www.stubhub.ie/katseye-las-vegas-tickets-11-14-2026/event/107170285",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70OuV",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961834/Katseye-tickets-Sat-Nov-14-2026-MGM-Grand-Garden-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961834/Katseye-tickets-Sat-Nov-14-2026-MGM-Grand-Garden-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-las-vegas-tickets-11-14-2026/event/107170285"
   },
   {
     "id": "tm-katseye-2026-seattle-vvg1hz_1e8gggs",
@@ -278550,12 +278702,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107170286",
+        "url": "https://www.stubhub.ie/katseye-seattle-tickets-11-17-2026/event/107170286",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_1E8GGGS",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961840/Katseye-tickets-Tue-Nov-17-2026-Climate-Pledge-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961840/Katseye-tickets-Tue-Nov-17-2026-Climate-Pledge-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-seattle-tickets-11-17-2026/event/107170286"
   },
   {
     "id": "tm-katseye-2026-oakland-g5vyz_1m-ew1q",
@@ -278611,12 +278771,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107170287",
+        "url": "https://www.stubhub.ie/katseye-oakland-tickets-11-19-2026/event/107170287",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1m-eW1q",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961842/Katseye-tickets-Thu-Nov-19-2026-Oakland-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961842/Katseye-tickets-Thu-Nov-19-2026-Oakland-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-oakland-tickets-11-19-2026/event/107170287"
   },
   {
     "id": "tm-katseye-2026-los-angeles-g5eyz_1rkf-rx",
@@ -278672,12 +278840,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107170288",
+        "url": "https://www.stubhub.ie/katseye-los-angeles-tickets-11-21-2026/event/107170288",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eYZ_1RkF-rX",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961846/Katseye-tickets-Sat-Nov-21-2026-Cryptocom-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961846/Katseye-tickets-Sat-Nov-21-2026-Cryptocom-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-los-angeles-tickets-11-21-2026/event/107170288"
   },
   {
     "id": "tm-katseye-2026-los-angeles-g5eyz_52cssfl",
@@ -278733,12 +278909,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107188077",
+        "url": "https://www.stubhub.ie/katseye-los-angeles-tickets-11-22-2026/event/107188077",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eYZ_52CssfL",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7984757/Katseye-tickets-Sun-Nov-22-2026-Cryptocom-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7984757/Katseye-tickets-Sun-Nov-22-2026-Cryptocom-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-los-angeles-tickets-11-22-2026/event/107188077"
   },
   {
     "id": "tm-katseye-2026-phoenix-17k8v0g61m4tf9t",
@@ -278794,12 +278978,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107170289",
+        "url": "https://www.stubhub.ie/katseye-phoenix-tickets-11-24-2026/event/107170289",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G61m4tf9t",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961848/Katseye-tickets-Tue-Nov-24-2026-Mortgage-Matchup-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961848/Katseye-tickets-Tue-Nov-24-2026-Mortgage-Matchup-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-phoenix-tickets-11-24-2026/event/107170289"
   },
   {
     "id": "tm-katseye-2026-ciudad-de-mexico-17azv0g61mujevj",
@@ -278855,12 +279047,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107165672",
+        "url": "https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-27-11-2026/event/107165672",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AZv0G61muJeVj",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7983201/Katseye-tickets-Fri-Nov-27-2026-Palacio-De-Los-Deportes-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7983201/Katseye-tickets-Fri-Nov-27-2026-Palacio-De-Los-Deportes-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-27-11-2026/event/107165672"
   },
   {
     "id": "tm-katseye-2026-ciudad-de-mexico-17azv0g61m2a3xe",
@@ -278916,12 +279116,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107187078",
+        "url": "https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-28-11-2026/event/107187078",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AZv0G61m2A3XE",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7990930/Katseye-tickets-Sat-Nov-28-2026-Palacio-De-Los-Deportes-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7990930/Katseye-tickets-Sat-Nov-28-2026-Palacio-De-Los-Deportes-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-28-11-2026/event/107187078"
   },
   {
     "id": "tm-ricky-martin-2026-thackerville-z7r9jz1a7jax9",
@@ -279388,12 +279596,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107165656",
+        "url": "https://www.stubhub.ie/ty-myers-austin-tickets-11-20-2026/event/107165656",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_kUOPazl",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7830817/Ty-Myers-tickets-Fri-Nov-20-2026-Moody-Center-ATX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7830817/Ty-Myers-tickets-Fri-Nov-20-2026-Moody-Center-ATX",
+    "stubhub_international_url": "https://www.stubhub.ie/ty-myers-austin-tickets-11-20-2026/event/107165656"
   },
   {
     "id": "tm-ty-myers-2026-fort-worth-vvg1yz_61djqel",
@@ -279449,12 +279665,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107167142",
+        "url": "https://www.stubhub.ie/ty-myers-fort-worth-tickets-11-21-2026/event/107167142",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_61DJQEl",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7830819/Ty-Myers-tickets-Sat-Nov-21-2026-Dickies-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7830819/Ty-Myers-tickets-Sat-Nov-21-2026-Dickies-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/ty-myers-fort-worth-tickets-11-21-2026/event/107167142"
   },
   {
     "id": "tm-dan-shay-2026-dallas-vvg1yz_1thoo6h",
@@ -279503,11 +279727,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107667074",
+        "url": "https://www.stubhub.ie/dan-shay-dallas-tickets-10-22-2026/event/107667074",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1THOo6h",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/dan-shay-dallas-tickets-10-22-2026/event/107667074"
   },
   {
     "id": "tm-dan-shay-2026-rogers-g5viz_1x8yivv",
@@ -279821,11 +280053,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107554500",
+        "url": "https://www.stubhub.ie/dan-shay-anaheim-tickets-11-6-2026/event/107554500",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1DAmNYD",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/dan-shay-anaheim-tickets-11-6-2026/event/107554500"
   },
   {
     "id": "tm-dan-shay-2026-mountain-view-g5vyz_1wl9ah6",
@@ -279934,12 +280174,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107417999",
+        "url": "https://www.stubhub.ie/beabadoobee-inglewood-tickets-10-21-2026/event/107417999",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_uCyohlW",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8081070/beabadoobee-tickets-Wed-Oct-21-2026-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8081070/beabadoobee-tickets-Wed-Oct-21-2026-The-Kia-Forum",
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-inglewood-tickets-10-21-2026/event/107417999"
   },
   {
     "id": "tm-beabadoobee-2026-san-diego-vvg1iz_u3myfkf",
@@ -280056,12 +280304,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447659",
+        "url": "https://www.stubhub.ie/beabadoobee-oakland-tickets-10-26-2026/event/107447659",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_uFp_rvl",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8081072/beabadoobee-tickets-Mon-Oct-26-2026-Oakland-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8081072/beabadoobee-tickets-Mon-Oct-26-2026-Oakland-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-oakland-tickets-10-26-2026/event/107447659"
   },
   {
     "id": "tm-beabadoobee-2026-vancouver-1778v0g6u5paqr-",
@@ -280178,12 +280434,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107522082",
+        "url": "https://www.stubhub.ie/beabadoobee-seattle-tickets-10-29-2026/event/107522082",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_u_UAdG3",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8081075/beabadoobee-tickets-Thu-Oct-29-2026-Climate-Pledge-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8081075/beabadoobee-tickets-Thu-Oct-29-2026-Climate-Pledge-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-seattle-tickets-10-29-2026/event/107522082"
   },
   {
     "id": "tm-beabadoobee-2026-glasgow-17uov0g6uryba3u",
@@ -280239,12 +280503,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447517",
+        "url": "https://www.stubhub.ie/beabadoobee-tickets-glasgow-ovo-hydro-arena-glasgow-14-11-2026/event/107447517",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G6urYBa3U",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090672/beabadoobee-tickets-Sat-Nov-14-2026-OVO-Hydro"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090672/beabadoobee-tickets-Sat-Nov-14-2026-OVO-Hydro",
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-glasgow-ovo-hydro-arena-glasgow-14-11-2026/event/107447517"
   },
   {
     "id": "tm-beabadoobee-2026-cardiff-17uov0g6uhod1tg",
@@ -280293,11 +280565,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107447518",
+        "url": "https://www.stubhub.ie/beabadoobee-tickets-cardiff-utilita-arena-cardiff-16-11-2026/event/107447518",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G6uhOd1tG",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-cardiff-utilita-arena-cardiff-16-11-2026/event/107447518"
   },
   {
     "id": "tm-beabadoobee-2026-manchester-g5vhz_u1guca1",
@@ -280353,12 +280633,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107417852",
+        "url": "https://www.stubhub.ie/beabadoobee-tickets-manchester-manchester-ao-arena-17-11-2026/event/107417852",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_u1gUca1",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090671/beabadoobee-tickets-Tue-Nov-17-2026-AO-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090671/beabadoobee-tickets-Tue-Nov-17-2026-AO-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-manchester-manchester-ao-arena-17-11-2026/event/107417852"
   },
   {
     "id": "tm-beabadoobee-2026-greenwich-z7r9jz1a7ps_a",
@@ -280520,12 +280808,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107417938",
+        "url": "https://www.stubhub.ie/beabadoobee-tickets-oslo-oslo-spektrum-27-11-2026/event/107417938",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z16v38kfe3",
     "timezone": "Europe/Oslo",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8094857/beabadoobee-tickets-Fri-Nov-27-2026-Oslo-Spektrum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8094857/beabadoobee-tickets-Fri-Nov-27-2026-Oslo-Spektrum",
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-oslo-oslo-spektrum-27-11-2026/event/107417938"
   },
   {
     "id": "tm-beabadoobee-2026-forest-brussels-z698xzg2z16vovadfj",
@@ -280634,12 +280930,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107417969",
+        "url": "https://www.stubhub.ie/beabadoobee-tickets-berlin-tempodrom-6-12-2026/event/107417969",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vPMFp_a",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8094855/beabadoobee-tickets-Sun-Dec-6-2026-Tempodrom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8094855/beabadoobee-tickets-Sun-Dec-6-2026-Tempodrom",
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-berlin-tempodrom-6-12-2026/event/107417969"
   },
   {
     "id": "tm-beabadoobee-2026-dusseldorf-z698xzc2z1k09qy83",
@@ -280695,12 +280999,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107417970",
+        "url": "https://www.stubhub.ie/beabadoobee-tickets-dusseldorf-mitsubishi-electric-halle-7-12-2026/event/107417970",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1k09qY83",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8094856/beabadoobee-tickets-Mon-Dec-7-2026-Mitsubishi-Electric-Halle"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8094856/beabadoobee-tickets-Mon-Dec-7-2026-Mitsubishi-Electric-Halle",
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-dusseldorf-mitsubishi-electric-halle-7-12-2026/event/107417970"
   },
   {
     "id": "tm-dave-matthews-band-2026-madison-z7r9jz1aazj8x",
@@ -280878,12 +281190,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482398",
+        "url": "https://www.stubhub.ie/dave-matthews-band-chicago-tickets-11-7-2026/event/107482398",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_CDE9wdz",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195879/Dave-Matthews-Band-tickets-Sat-Nov-7-2026-United-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195879/Dave-Matthews-Band-tickets-Sat-Nov-7-2026-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/dave-matthews-band-chicago-tickets-11-7-2026/event/107482398"
   },
   {
     "id": "tm-dave-matthews-band-2026-providence-vvg17z_2piw04c",
@@ -281061,12 +281381,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482399",
+        "url": "https://www.stubhub.ie/dave-matthews-band-new-york-tickets-11-12-2026/event/107482399",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_2NJWaf8",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195882/Dave-Matthews-Band-tickets-Thu-Nov-12-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195882/Dave-Matthews-Band-tickets-Thu-Nov-12-2026-Madison-Square-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/dave-matthews-band-new-york-tickets-11-12-2026/event/107482399"
   },
   {
     "id": "tm-dave-matthews-band-2026-new-york-g5diz_2njdtfa",
@@ -281122,12 +281450,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107490083",
+        "url": "https://www.stubhub.ie/dave-matthews-band-new-york-tickets-11-13-2026/event/107490083",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_2NJDtfA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195883/Dave-Matthews-Band-tickets-Fri-Nov-13-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195883/Dave-Matthews-Band-tickets-Fri-Nov-13-2026-Madison-Square-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/dave-matthews-band-new-york-tickets-11-13-2026/event/107490083"
   },
   {
     "id": "tm-garth-brooks-2026-seattle-vvg1hz_4dkzhpm",

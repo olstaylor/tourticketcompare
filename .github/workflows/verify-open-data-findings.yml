@@ -353,7 +353,7 @@ jobs:
           if-no-files-found: error
 
   verify-production-repairs:
-    if: github.event_name == 'pull_request' && github.event.action == 'synchronize' && github.head_ref == 'codex/verify-open-data-findings-2026-10-22' && github.event.pull_request.head.repo.full_name == github.repository
+    if: github.event.pull_request.head.sha == 'cf8ab0e13b20c56344fa9af23e35a35af1adffb5' && github.event_name == 'pull_request' && github.event.action == 'synchronize' && github.head_ref == 'codex/verify-open-data-findings-2026-10-22' && github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
@@ -426,4 +426,54 @@ jobs:
         with:
           name: production-repair-verification
           path: ${{ runner.temp }}/production-repair-verification.json
+          if-no-files-found: error
+
+  verify-fontaines-batch:
+    if: github.event_name == 'pull_request' && github.event.action == 'synchronize' && github.head_ref == 'codex/verify-open-data-findings-2026-10-22' && github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - run: npm ci
+      - name: Verify the newly materialized Fontaines batch
+        env:
+          SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from "node:fs/promises";
+          import assert from "node:assert/strict";
+          import { execFileSync } from "node:child_process";
+          const batch = {"issue":1737,"provider":"seatgeek","artist_slug":"fontaines-d-c","performer_id":663776,"event_ids":["tm-fontaines-d-c-2026-barcelona-z698xz2qz16vvp4sps","tm-fontaines-d-c-2026-birmingham-1aegz_8gkdxxlc2","tm-fontaines-d-c-2026-casalecchio-di-reno-bologna-zg9rmiynyzdk1k","tm-fontaines-d-c-2026-glasgow-1adbz_8gkucuwyw","tm-fontaines-d-c-2026-leeds-g5vhz_8b5sfcc","tm-fontaines-d-c-2026-liverpool-1adjz_8gkv_dtbp","tm-fontaines-d-c-2026-london-1agzkfogkenxxaj","tm-fontaines-d-c-2026-madrid-z698xz2qz1k__7ko4","tm-fontaines-d-c-2026-manchester-g5vhz_okyh0m1","tm-fontaines-d-c-2026-merksem-antwerpen-z698xzg2z16ve_oz7v","tm-fontaines-d-c-2026-oslo-z698xzb_z16vftpojp","tm-fontaines-d-c-2026-praha-7-z698xzu0z16vouudjv","tm-fontaines-d-c-2027-cardiff-g5vhz_oiinrjk","tm-fontaines-d-c-2027-co-meath-1avoz_ogkw7fwfl","tm-fontaines-d-c-2027-co-meath-1avoz_ogkwypefm","tm-fontaines-d-c-2027-glasgow-1adbz_ogkrs74cl","tm-fontaines-d-c-2027-london-1ku8vpf_ga19knu","tm-fontaines-d-c-2027-manchester-g5dzz_omjzv0z","tm-fontaines-d-c-2027-manchester-g5dzz_osdpprt","tm-fontaines-d-c-2027-mexico-1av8z_ogku9epc3"]};
+          assert(process.env.SEATGEEK_CLIENT_ID, "SeatGeek credentials are required.");
+          const events = JSON.parse(await fs.readFile("public/data/events.json", "utf8"));
+          const registry = JSON.parse(await fs.readFile("data/provider-identities.json", "utf8"));
+          const identity = registry.artists.find(a => a.slug === batch.artist_slug);
+          assert(identity?.review_status === "verified" && identity.seatgeek_performer_id === batch.performer_id);
+          assert(batch.event_ids.length > 0 && batch.event_ids.length <= 20);
+          for (const id of batch.event_ids) assert(events.some(e => e.id === id && e.artist_slug === batch.artist_slug));
+          const args = ["scripts/verify-seatgeek-events.mjs", "--artist", batch.artist_slug, "--add-only", "--max-api-calls", "40", "--delay-ms", "1000", "--json", "--log-path", process.env.RUNNER_TEMP + "/fontaines-provider-verification.md"];
+          for (const id of batch.event_ids) args.push("--event-id", id);
+          const stdout = execFileSync(process.execPath, args, { encoding: "utf8", timeout: 600000, maxBuffer: 4000000 });
+          const report = JSON.parse(stdout);
+          assert(!report.summary.stop_reason && report.summary.api_errors === 0);
+          const result = { issue: batch.issue, checked_at: new Date().toISOString(), report };
+          await fs.writeFile(process.env.RUNNER_TEMP + "/fontaines-provider-verification.json", JSON.stringify(result, null, 2) + "\n");
+          console.log("FONTAINES_VERIFICATION=" + JSON.stringify(result));
+          execFileSync("git", ["diff", "--exit-code"], { encoding: "utf8" });
+          NODE
+      - name: Preserve provider evidence
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: fontaines-provider-verification
+          path: |
+            ${{ runner.temp }}/fontaines-provider-verification.json
+            ${{ runner.temp }}/fontaines-provider-verification.md
           if-no-files-found: error

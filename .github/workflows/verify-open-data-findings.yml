@@ -2,7 +2,7 @@ name: Verify open data findings
 
 on:
   pull_request:
-    types: [opened]
+    types: [opened, synchronize]
   workflow_dispatch:
 
 permissions:
@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   evidence:
-    if: github.event_name == 'workflow_dispatch' || (github.head_ref == 'codex/verify-open-data-findings-2026-10-22' && github.event.pull_request.head.repo.full_name == github.repository)
+    if: github.event_name == 'workflow_dispatch' || (github.event.action == 'opened' && github.head_ref == 'codex/verify-open-data-findings-2026-10-22' && github.event.pull_request.head.repo.full_name == github.repository)
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
@@ -98,4 +98,160 @@ jobs:
         with:
           name: open-findings-evidence
           path: ${{ runner.temp }}/open-findings-evidence/
+          if-no-files-found: error
+
+  prepare-hazlett-fix:
+    if: github.event_name == 'pull_request' && github.event.action == 'synchronize' && github.head_ref == 'codex/verify-open-data-findings-2026-10-22' && github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - run: npm ci
+      - name: Reverify and prepare separate data repair branches
+        env:
+          SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from "node:fs/promises";
+          import assert from "node:assert/strict";
+          import { execFileSync } from "node:child_process";
+          const cmd = (file, args) => execFileSync(file, args, { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"], timeout: 600000, maxBuffer: 8000000 });
+          const base = cmd("git", ["rev-parse", "HEAD"]).trim();
+          const id = "tm-hazlett-2027-san-diego-rz7hnez1afufr7";
+          const sourceUrl = "https://www.ticketnetwork.com/en/p/8316936";
+          const events = JSON.parse(await fs.readFile("public/data/events.json", "utf8"));
+          const before = structuredClone(events);
+          const index = events.findIndex(e => e.id === id);
+          assert(index >= 0);
+          const event = events[index];
+          assert(event.artist_slug === "hazlett");
+          assert(event.ticketnetwork_url === sourceUrl && event.provider_links?.ticketnetwork?.url === sourceUrl);
+          assert(event.provider_links.ticketnetwork.verified === true);
+          assert(event.provider_links.seatgeek?.verified === true && event.provider_links["ticket-liquidator"]?.verified === true);
+          const evidence = { base, eventId: id, sourceUrl, checked_at: new Date().toISOString(), checks: [] };
+          for (let round = 0; round < 2; round++) {
+            const observations = [];
+            for (const method of ["HEAD", "GET"]) {
+              const response = await fetch(sourceUrl, { method, redirect: "follow", signal: AbortSignal.timeout(15000), headers: { "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36", accept: "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "accept-language": "en-US,en;q=0.9", ...(method === "GET" ? { Range: "bytes=0-0" } : {}) } });
+              observations.push({ method, status: response.status, finalUrl: response.url });
+              await response.body?.cancel();
+            }
+            evidence.checks.push(observations);
+            await new Promise(resolve => setTimeout(resolve, 1000));
+          }
+          await fs.writeFile(process.env.RUNNER_TEMP + "/hazlett-link-evidence.json", JSON.stringify(evidence, null, 2) + "\n");
+          console.log("SOURCE_EVIDENCE=" + JSON.stringify(evidence));
+          assert(evidence.checks.every(round => round.length === 2 && round.every(r => [404, 410].includes(r.status))), "The URL is not confirmed gone; no change is allowed.");
+          event.ticketnetwork_url = "";
+          event.provider_links.ticketnetwork = { event_id: null, url: null, verified: false, last_verified_at: null, availability_status: "not_checked" };
+          const withoutLane = e => { const x = structuredClone(e); delete x.ticketnetwork_url; if (x.provider_links) delete x.provider_links.ticketnetwork; return x; };
+          assert.equal(events.length, before.length);
+          for (let i = 0; i < events.length; i++) {
+            assert.equal(events[i].id, before[i].id);
+            assert.deepEqual(i === index ? withoutLane(events[i]) : events[i], i === index ? withoutLane(before[i]) : before[i]);
+          }
+          await fs.writeFile("public/data/events.json", JSON.stringify(events, null, 2) + "\n");
+          console.log(cmd("npm", ["run", "events:partition"]));
+          console.log(cmd("npm", ["run", "status:validate:write"]));
+          const expectedShard = "public/data/events/_shards/" + String(Math.floor(index / 200)).padStart(3, "0") + ".json";
+          const allowed = new Set(["public/data/events.json", "public/data/events/hazlett.json", "public/data/events-index.json", expectedShard, "PROJECT_STATUS.md"]);
+          const changed = cmd("git", ["diff", "--name-only"]).trim().split("\n").filter(Boolean);
+          assert(changed.includes("public/data/events.json") && changed.includes("public/data/events/hazlett.json") && changed.includes(expectedShard));
+          for (const file of changed) assert(allowed.has(file), "Unexpected changed file: " + file);
+          console.log(cmd("npm", ["run", "events:validate:prod"]));
+          console.log(cmd("npm", ["run", "events:validate:partitions"]));
+          console.log(cmd("npm", ["run", "test:providers"]));
+          console.log(cmd("git", ["diff", "--check"]));
+          const after = JSON.parse(await fs.readFile("public/data/events.json", "utf8"));
+          assert.deepEqual(after, events, "Validation unexpectedly changed source events.");
+          for (const file of cmd("git", ["diff", "--name-only"]).trim().split("\n").filter(Boolean)) assert(allowed.has(file));
+          cmd("git", ["config", "user.name", "tourticketcompare-bot"]);
+          cmd("git", ["config", "user.email", "tourticketcompare-bot@users.noreply.github.com"]);
+          const branch = "codex/suppress-dead-hazlett-ticketnetwork-20261022";
+          cmd("git", ["checkout", "-b", branch]);
+          cmd("git", ["add", ...changed]);
+          console.log(cmd("git", ["diff", "--cached", "--stat"]));
+          console.log(cmd("git", ["commit", "-m", "Suppress Hazlett TicketNetwork link after repeated confirmed 404s"]));
+          console.log(cmd("git", ["push", "origin", "HEAD:refs/heads/" + branch]));
+          console.log("PREPARED_BRANCH=" + branch);
+          console.log("PREPARED_HEAD=" + cmd("git", ["rev-parse", "HEAD"]).trim());
+          const batches = [{"issue":1726,"provider":"seatgeek","artist_slug":"malcolm-todd","performer_id":807371,"event_ids":["tm-malcolm-todd-2026-los-angeles-vvg10z_gcgtrwf","tm-malcolm-todd-2026-los-angeles-vvg10z_gpomy2y","tm-malcolm-todd-2026-los-angeles-vvg10z_gpovtcx","tm-malcolm-todd-2026-oakland-g5vyz_gfww-6g","tm-malcolm-todd-2026-san-diego-vvg1iz_gcici-d","tm-malcolm-todd-2027-birmingham-g5dzz_3nh3wrn","tm-malcolm-todd-2027-brisbane-1akzkftgkduv9ih","tm-malcolm-todd-2027-dublin-1kkzvpfyga5vo0x","tm-malcolm-todd-2027-forest-brussels-z698xzg2z1a3rzza","tm-malcolm-todd-2027-glasgow-1adbz_3gknizpvr","tm-malcolm-todd-2027-london-g5dzz_3lpy7hq","tm-malcolm-todd-2027-london-g5dzz_3rjik2s","tm-malcolm-todd-2027-london-g5dzz_3rsuku2","tm-malcolm-todd-2027-manchester-1adbz_3gknvr9ad","tm-malcolm-todd-2027-mt-claremont-1avgz_3gkl3ubod","tm-malcolm-todd-2027-mt-claremont-1avgz_3gkydesct","tm-malcolm-todd-2027-stockholm-z698xzq2z1afq0g8","tm-malcolm-todd-2027-west-melbourne-1avgz_3gkdbmub7","tm-malcolm-todd-2027-west-melbourne-1avgz_3gklkoff0"]},{"issue":1723,"provider":"seatgeek","artist_slug":"sienna-spiro","performer_id":1962775,"event_ids":["tm-sienna-spiro-2026-montreal-17g8v0g6gp5n0pn","tm-sienna-spiro-2027-auckland-17azv0g6gnlzs7o","tm-sienna-spiro-2027-barcelona-z698xz2qz16evg76uk","tm-sienna-spiro-2027-berlin-z698xzc2z16v0n7t_u","tm-sienna-spiro-2027-brisbane-177yv0g6gjxxnip","tm-sienna-spiro-2027-chicago-vv17jz_fgkxlcj6o","tm-sienna-spiro-2027-chicago-vv17jz_fgkxlgu6j","tm-sienna-spiro-2027-dublin-17kzv0g6gpq41un","tm-sienna-spiro-2027-edinburgh-g5dzz_g3jtvqc","tm-sienna-spiro-2027-edinburgh-g5dzz_g3xlvct","tm-sienna-spiro-2027-forest-brussels-z698xzg2z1kk3-m-y","tm-sienna-spiro-2027-madrid-z698xz2qz16v4sjdu3","tm-sienna-spiro-2027-manchester-17uov0g6ghevqqt","tm-sienna-spiro-2027-manchester-17uov0g6gnyji_e","tm-sienna-spiro-2027-mexico-1afzk4ogkeyuq9e","tm-sienna-spiro-2027-milano-zg9rmiynyzef6a","tm-sienna-spiro-2027-new-york-g5dyz_46d6wnd","tm-sienna-spiro-2027-philadelphia-vv17fz_fgkuhzdr4","tm-sienna-spiro-2027-west-melbourne-177yv0g6gecffyz","tm-sienna-spiro-2027-west-melbourne-177yv0g6gmjpde2"]},{"issue":1671,"provider":"seatgeek","artist_slug":"metallica","performer_id":45,"event_ids":["tm-metallica-2026-las-vegas-1a9zko4gkdtfc4g","tm-metallica-2026-las-vegas-1a9zko4gkdtfc4w","tm-metallica-2026-las-vegas-1fayv048rez72a62","tm-metallica-2026-las-vegas-1fayv048rez72afa","tm-metallica-2026-las-vegas-1fayv048rvz72a6e","tm-metallica-2026-las-vegas-1fayv048rvz72a6k","tm-metallica-2026-uncasville-g5vvz_6n-zpjb","tm-metallica-2026-uncasville-g5vvz_6nrigot","tm-metallica-2027-las-vegas-16vjz_kk3g7ndxr","tm-metallica-2027-las-vegas-1a9zko-gke0bqtz","tm-metallica-2027-las-vegas-1a9zko-gke0buti","tm-metallica-2027-las-vegas-1a9zko-gke0butu","tm-metallica-2027-las-vegas-1a9zko-gke0yct0","tm-metallica-2027-las-vegas-1a9zko-gke0ywtn","tm-metallica-2027-las-vegas-1a9zko-gkepzm6y","tm-metallica-2027-las-vegas-1a9zko-gkepzr6g","tm-metallica-2027-las-vegas-1a9zko-gkepzr6s","tm-metallica-2027-las-vegas-1fayv0b_z4z7ggvk"]}];
+          let parentBranch = branch;
+          const preparedRepairs = [{ branch, baseBranch: "main", issue: 1698, head: cmd("git", ["rev-parse", "HEAD"]).trim(), changes: 1 }];
+          for (const batch of batches) {
+            const sourceBefore = JSON.parse(await fs.readFile("public/data/events.json", "utf8"));
+            const identities = JSON.parse(await fs.readFile("data/provider-identities.json", "utf8"));
+            const identity = identities.artists.find(a => a.slug === batch.artist_slug);
+            assert(identity?.review_status === "verified" && identity.seatgeek_performer_id === batch.performer_id);
+            assert(batch.event_ids.length > 0 && batch.event_ids.length <= 20);
+            for (const id of batch.event_ids) assert(sourceBefore.some(e => e.id === id && e.artist_slug === batch.artist_slug));
+            const args = ["scripts/verify-seatgeek-events.mjs", "--apply", "--add-only", "--artist", batch.artist_slug, "--max-api-calls", "40", "--delay-ms", "1000", "--json", "--log-path", process.env.RUNNER_TEMP + "/seatgeek-" + batch.issue + ".md"];
+            for (const id of batch.event_ids) args.push("--event-id", id);
+            const report = JSON.parse(cmd(process.execPath, args));
+            assert(report.summary.mode === "apply" && !report.summary.stop_reason && report.summary.api_errors === 0);
+            const sourceAfter = JSON.parse(await fs.readFile("public/data/events.json", "utf8"));
+            assert.equal(sourceAfter.length, sourceBefore.length);
+            const successful = new Map(report.results.filter(r => r.applied && ["add", "correct", "verify"].includes(r.action)).map(r => [r.showId, r]));
+            const changedIds = [];
+            const allowedShards = new Set();
+            const stripSeatGeek = e => { const x = structuredClone(e); delete x.seatgeek_url; if (x.provider_links) delete x.provider_links.seatgeek; return x; };
+            for (let i = 0; i < sourceBefore.length; i++) {
+              const oldEvent = sourceBefore[i], nextEvent = sourceAfter[i];
+              assert.equal(oldEvent.id, nextEvent.id);
+              if (JSON.stringify(oldEvent) === JSON.stringify(nextEvent)) continue;
+              assert(batch.event_ids.includes(oldEvent.id) && oldEvent.artist_slug === batch.artist_slug);
+              assert.deepEqual(stripSeatGeek(nextEvent), stripSeatGeek(oldEvent));
+              const proof = successful.get(oldEvent.id);
+              assert(proof && nextEvent.seatgeek_url === proof.url && nextEvent.provider_links.seatgeek.verified === true);
+              assert(nextEvent.provider_links.seatgeek.url === proof.url && nextEvent.provider_links.seatgeek.event_id === proof.seatgeekId);
+              changedIds.push(oldEvent.id);
+              allowedShards.add("public/data/events/_shards/" + String(Math.floor(i / 200)).padStart(3, "0") + ".json");
+            }
+            assert.deepEqual([...successful.keys()].sort(), [...changedIds].sort());
+            assert(changedIds.length > 0, "No positive updates remain for this planned repair.");
+            console.log(cmd("npm", ["run", "events:partition"]));
+            console.log(cmd("npm", ["run", "status:validate:write"]));
+            const allowedFiles = new Set(["public/data/events.json", "public/data/events/" + batch.artist_slug + ".json", "public/data/events-index.json", "PROJECT_STATUS.md", ...allowedShards]);
+            const changedFiles = cmd("git", ["diff", "--name-only"]).trim().split("\n").filter(Boolean);
+            for (const file of changedFiles) assert(allowedFiles.has(file), "Unexpected file: " + file);
+            assert.equal(cmd("git", ["ls-files", "--others", "--exclude-standard"]).trim(), "");
+            console.log(cmd("npm", ["run", "events:validate:prod"]));
+            console.log(cmd("npm", ["run", "events:validate:partitions"]));
+            console.log(cmd("npm", ["run", "test:providers"]));
+            console.log(cmd("git", ["diff", "--check"]));
+            assert.deepEqual(JSON.parse(await fs.readFile("public/data/events.json", "utf8")), sourceAfter);
+            for (const file of cmd("git", ["diff", "--name-only"]).trim().split("\n").filter(Boolean)) assert(allowedFiles.has(file));
+            const nextBranch = "codex/repair-seatgeek-" + batch.artist_slug + "-20261022";
+            cmd("git", ["checkout", "-b", nextBranch]);
+            cmd("git", ["add", ...changedFiles]);
+            console.log(cmd("git", ["diff", "--cached", "--stat"]));
+            console.log(cmd("git", ["commit", "-m", "Verify exact SeatGeek links for " + batch.artist_slug]));
+            console.log(cmd("git", ["push", "origin", "HEAD:refs/heads/" + nextBranch]));
+            const prepared = { branch: nextBranch, baseBranch: parentBranch, issue: batch.issue, artist: batch.artist_slug, head: cmd("git", ["rev-parse", "HEAD"]).trim(), matched: changedIds, unmatched: report.results.filter(r => !successful.has(r.showId)).map(r => ({ id: r.showId, action: r.action, notes: r.notes })), summary: report.summary };
+            await fs.writeFile(process.env.RUNNER_TEMP + "/seatgeek-" + batch.issue + ".json", JSON.stringify(prepared, null, 2) + "\n");
+            preparedRepairs.push(prepared);
+            parentBranch = nextBranch;
+            console.log("PREPARED_REPAIR=" + JSON.stringify(prepared));
+          }
+          await fs.writeFile(process.env.RUNNER_TEMP + "/prepared-data-repairs.json", JSON.stringify(preparedRepairs, null, 2) + "\n");
+          console.log("PREPARED_REPAIRS=" + JSON.stringify(preparedRepairs));
+          NODE
+      - name: Preserve broken-link source evidence
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: prepared-data-repairs
+          path: |
+            ${{ runner.temp }}/hazlett-link-evidence.json
+            ${{ runner.temp }}/seatgeek-*.json
+            ${{ runner.temp }}/seatgeek-*.md
+            ${{ runner.temp }}/prepared-data-repairs.json
           if-no-files-found: error

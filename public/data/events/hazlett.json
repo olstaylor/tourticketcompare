@@ -1405,11 +1405,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8316936",
-        "url": "https://www.ticketnetwork.com/en/p/8316936",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "ticket-liquidator": {
         "event_id": "8054863",
@@ -1422,7 +1422,7 @@
     "ticketmaster_discovery_event_id": "rZ7HnEZ1AfuFr7",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8316936",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054863/Hazlett-tickets-Fri-Jun-4-2027-Music-Box-San-Diego"
   },
   {

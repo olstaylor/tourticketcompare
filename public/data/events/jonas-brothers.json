@@ -285,7 +285,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0400650E6EDF2A44",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-rosemont-illinois-10-22-2026/event/0400650E6EDF2A44",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/rosemont-illinois-allstate-arena-2026-10-22-7-30-pm/concert/18503883",
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-rosemont-allstate-arena-10-22-2026--concerts-pop/production/7446258",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-rosemont-illinois-10-22-2026/event/0400650E6EDF2A44",
@@ -301,11 +301,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18503883,
+        "url": "https://seatgeek.com/jonas-brothers-tickets/rosemont-illinois-allstate-arena-2026-10-22-7-30-pm/concert/18503883",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7446258,
@@ -424,7 +424,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0800650CC36572A2",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-detroit-michigan-10-25-2026/event/0800650CC36572A2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/detroit-michigan-little-caesars-arena-2026-10-25-7-30-pm/concert/18503885",
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-detroit-little-caesars-arena-10-25-2026--concerts-pop/production/7446260",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-detroit-michigan-10-25-2026/event/0800650CC36572A2",
@@ -440,11 +440,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18503885,
+        "url": "https://seatgeek.com/jonas-brothers-tickets/detroit-michigan-little-caesars-arena-2026-10-25-7-30-pm/concert/18503885",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7446260,
@@ -682,7 +682,7 @@
         "event_id": 18492128,
         "url": "https://seatgeek.com/jonas-brothers-tickets/saint-paul-minnesota-grand-casino-arena-2026-11-02-7-30-pm/concert/18492128",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -992,7 +992,7 @@
         "event_id": 18571665,
         "url": "https://seatgeek.com/jonas-brothers-tickets/houston-texas-toyota-center-2026-11-08-7-30-pm/concert/18571665",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1922,7 +1922,7 @@
         "event_id": 18503912,
         "url": "https://seatgeek.com/jonas-brothers-tickets/las-vegas-nevada-mgm-grand-garden-arena-2026-11-28-7-30-pm/concert/18503912",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2270,7 +2270,7 @@
         "event_id": 18471182,
         "url": "https://seatgeek.com/jonas-brothers-tickets/salt-lake-city-utah-delta-center-1-2026-12-07-7-30-pm/concert/18471182",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {

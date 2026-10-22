@@ -763,7 +763,7 @@
     "tour_name": "IS THIS THE END? Tour",
     "ticketmaster_event_id": "0C00653BC5478CB5",
     "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-dallas-texas-02-25-2027/event/0C00653BC5478CB5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/chelsea-cutler-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2027-02-25-8-pm/concert/18639195",
     "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-dallas-south-side-ballroom-2-25-2027/production/7637108",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-dallas-texas-02-25-2027/event/0C00653BC5478CB5",
@@ -779,11 +779,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18639195,
+        "url": "https://seatgeek.com/chelsea-cutler-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2027-02-25-8-pm/concert/18639195",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7637108,
@@ -842,7 +842,7 @@
     "tour_name": "IS THIS THE END? Tour",
     "ticketmaster_event_id": "1900653805DBE2D0",
     "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-phoenix-arizona-03-03-2027/event/1900653805DBE2D0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/chelsea-cutler-tickets/phoenix-arizona-the-van-buren-2027-03-03-8-pm/concert/18639202",
     "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-phoenix-the-van-buren-3-3-2027/production/7637484",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-phoenix-arizona-03-03-2027/event/1900653805DBE2D0",
@@ -858,11 +858,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18639202,
+        "url": "https://seatgeek.com/chelsea-cutler-tickets/phoenix-arizona-the-van-buren-2027-03-03-8-pm/concert/18639202",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7637484,
@@ -926,7 +926,7 @@
     "tour_name": "IS THIS THE END? Tour",
     "ticketmaster_event_id": "09006538CC8CEE49",
     "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-los-angeles-california-03-04-2027/event/09006538CC8CEE49",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/chelsea-cutler-tickets/los-angeles-california-the-bellwether-2027-03-04-8-pm/concert/18639203",
     "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-los-angeles-the-bellwether-3-4-2027/production/7637464",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-los-angeles-california-03-04-2027/event/09006538CC8CEE49",
@@ -942,11 +942,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18639203,
+        "url": "https://seatgeek.com/chelsea-cutler-tickets/los-angeles-california-the-bellwether-2027-03-04-8-pm/concert/18639203",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7637464,
@@ -1619,7 +1619,7 @@
         "event_id": 18639209,
         "url": "https://seatgeek.com/chelsea-cutler-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-03-09-7-pm/concert/18639209",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1672,7 +1672,7 @@
         "event_id": 18639214,
         "url": "https://seatgeek.com/chelsea-cutler-tickets/seattle-washington-showbox-sodo-2027-03-12-7-pm/concert/18639214",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1741,7 +1741,7 @@
         "event_id": 18639215,
         "url": "https://seatgeek.com/chelsea-cutler-tickets/portland-oregon-roseland-theater-2027-03-13-7-pm/concert/18639215",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {

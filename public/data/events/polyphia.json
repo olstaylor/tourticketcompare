@@ -836,7 +836,7 @@
         "event_id": 18536015,
         "url": "https://seatgeek.com/polyphia-tickets/san-diego-california-soma-san-diego-2027-02-10-7-30-pm/concert/18536015",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1190,7 +1190,7 @@
     "tour_name": "BE NOT AFRAID World Tour",
     "ticketmaster_event_id": "05006518D96D0E5D",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-indianapolis-indiana-02-26-2027/event/05006518D96D0E5D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/polyphia-tickets/indianapolis-indiana-egyptian-room-at-old-national-centre-2027-02-26-7-30-pm/concert/18536018",
     "vividseats_url": "https://www.vividseats.com/polyphia-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-2-26-2027/production/7485007",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-indianapolis-indiana-02-26-2027/event/05006518D96D0E5D",
@@ -1206,11 +1206,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18536018,
+        "url": "https://seatgeek.com/polyphia-tickets/indianapolis-indiana-egyptian-room-at-old-national-centre-2027-02-26-7-30-pm/concert/18536018",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7485007,
@@ -2062,7 +2062,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "040064C9B39BAFA1",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-chicago-illinois-02-25-2027/event/040064C9B39BAFA1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/polyphia-tickets/chicago-illinois-byline-bank-aragon-ballroom-2027-02-25-6-pm/concert/18312332",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-chicago-illinois-02-25-2027/event/040064C9B39BAFA1",
@@ -2078,11 +2078,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18312332,
+        "url": "https://seatgeek.com/polyphia-tickets/chicago-illinois-byline-bank-aragon-ballroom-2027-02-25-6-pm/concert/18312332",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

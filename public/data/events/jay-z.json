@@ -372,7 +372,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0A0064C8E971D777",
     "ticketmaster_url": "https://www.ticketmaster.com/jayz30-inglewood-california-10-24-2026/event/0A0064C8E971D777",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jay-z-tickets/inglewood-california-sofi-stadium-2026-10-24-8-pm/concert/18404838",
     "vividseats_url": "https://www.vividseats.com/jay-z-shawn-carter-tickets-inglewood-sofi-stadium-10-24-2026--concerts-rap-hip-hop/production/7348557",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jayz30-inglewood-california-10-24-2026/event/0A0064C8E971D777",
@@ -388,11 +388,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18404838,
+        "url": "https://seatgeek.com/jay-z-tickets/inglewood-california-sofi-stadium-2026-10-24-8-pm/concert/18404838",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7348557,

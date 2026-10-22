@@ -1005,7 +1005,7 @@
         "event_id": 18259847,
         "url": "https://seatgeek.com/mico-tickets/new-york-new-york-webster-hall-2026-10-30-7-30-pm/concert/18259847",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1074,7 +1074,7 @@
         "event_id": 18259849,
         "url": "https://seatgeek.com/mico-tickets/brooklyn-new-york-music-hall-of-williamsburg-2026-10-31-8-pm/concert/18259849",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1215,7 +1215,7 @@
         "event_id": 18345103,
         "url": "https://seatgeek.com/mico-tickets/providence-rhode-island-fete-music-hall-2026-11-03-8-pm/concert/18345103",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1997,7 +1997,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2200654600DD9A42",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-inbetween-tour-orlando-florida-02-27-2027/event/2200654600DD9A42",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mico-tickets/orlando-florida-house-of-blues-orlando-2027-02-27-7-pm/concert/18666323",
     "vividseats_url": "https://www.vividseats.com/mico-tickets-lake-buena-vista-house-of-blues-orlando-2-27-2027/production/7679204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-orlando-florida-02-27-2027/event/2200654600DD9A42",
@@ -2013,11 +2013,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18666323,
+        "url": "https://seatgeek.com/mico-tickets/orlando-florida-house-of-blues-orlando-2027-02-27-7-pm/concert/18666323",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679204,
@@ -2070,7 +2070,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "20006548F3C8876E",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-inbetween-tour-birmingham-alabama-03-01-2027/event/20006548F3C8876E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mico-tickets/birmingham-alabama-iron-city-2027-03-01-8-pm/concert/18667195",
     "vividseats_url": "https://www.vividseats.com/mico-tickets-birmingham-iron-city-birmingham-3-1-2027/production/7679258",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-birmingham-alabama-03-01-2027/event/20006548F3C8876E",
@@ -2086,11 +2086,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18667195,
+        "url": "https://seatgeek.com/mico-tickets/birmingham-alabama-iron-city-2027-03-01-8-pm/concert/18667195",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679258,
@@ -2139,7 +2139,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B006545C4AE315F",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-inbetween-tour-new-orleans-louisiana-03-02-2027/event/1B006545C4AE315F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mico-tickets/new-orleans-louisiana-house-of-blues-new-orleans-2027-03-02-7-pm/concert/18666337",
     "vividseats_url": "https://www.vividseats.com/mico-tickets-new-orleans-house-of-blues-new-orleans-3-2-2027/production/7679270",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-new-orleans-louisiana-03-02-2027/event/1B006545C4AE315F",
@@ -2155,11 +2155,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18666337,
+        "url": "https://seatgeek.com/mico-tickets/new-orleans-louisiana-house-of-blues-new-orleans-2027-03-02-7-pm/concert/18666337",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679270,
@@ -2565,7 +2565,7 @@
         "event_id": 18685771,
         "url": "https://seatgeek.com/mico-tickets/jacksonville-florida-five-jacksonville-2027-02-23-8-pm/concert/18685771",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {

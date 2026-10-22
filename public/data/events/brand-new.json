@@ -117,7 +117,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZ_O7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ_O7",
-    "seatgeek_url": "https://seatgeek.com/brand-new-tickets/newport-kentucky-megacorp-pavilion-2026-10-21-8-pm/concert/18427898",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/brand-new-tickets-newport-megacorp-pavilion-10-21-2026/production/7388329",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ_O7",
@@ -133,11 +133,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18427898,
-        "url": "https://seatgeek.com/brand-new-tickets/newport-kentucky-megacorp-pavilion-2026-10-21-8-pm/concert/18427898",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7388329,
@@ -205,7 +205,7 @@
         "event_id": 18319842,
         "url": "https://seatgeek.com/brand-new-tickets/atlanta-georgia-fox-theatre-atlanta-2026-10-22-8-pm/concert/18319842",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -430,7 +430,7 @@
         "event_id": 18319849,
         "url": "https://seatgeek.com/brand-new-tickets/grand-prairie-texas-texas-trust-cu-theatre-2026-10-30-8-pm/concert/18319849",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -499,7 +499,7 @@
         "event_id": 18319855,
         "url": "https://seatgeek.com/brand-new-tickets/denver-colorado-mission-ballroom-2026-11-02-8-pm/concert/18319855",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -568,7 +568,7 @@
         "event_id": 18319859,
         "url": "https://seatgeek.com/brand-new-tickets/las-vegas-nevada-the-theater-at-virgin-hotels-2026-11-06-8-pm/concert/18319859",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {

@@ -825,7 +825,7 @@
     "tour_name": "Tour Ma Vie World Tour",
     "ticketmaster_event_id": "0900633A1B2389F9",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-inglewood-california-10-22-2026/event/0900633A1B2389F9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/doja-cat-tickets/inglewood-california-kia-forum-2026-10-22-7-30-pm/concert/17769316",
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-inglewood-kia-forum-10-22-2026--concerts-rap-hip-hop/production/6091549",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-inglewood-california-10-22-2026/event/0900633A1B2389F9",
@@ -841,11 +841,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17769316,
+        "url": "https://seatgeek.com/doja-cat-tickets/inglewood-california-kia-forum-2026-10-22-7-30-pm/concert/17769316",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6091549,
@@ -1351,7 +1351,7 @@
         "event_id": 17769336,
         "url": "https://seatgeek.com/doja-cat-tickets/houston-texas-toyota-center-2026-11-07-7-30-pm/concert/17769336",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2433,7 +2433,7 @@
         "event_id": 17769328,
         "url": "https://seatgeek.com/doja-cat-tickets/las-vegas-nevada-t-mobile-arena-2026-10-31-7-30-pm/concert/17769328",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {

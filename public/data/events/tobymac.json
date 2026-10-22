@@ -695,7 +695,7 @@
         "event_id": 18527954,
         "url": "https://seatgeek.com/tobymac-tickets/sunrise-florida-amerant-bank-arena-2027-02-05-7-pm/concert/18527954",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1004,7 +1004,7 @@
         "event_id": 18548802,
         "url": "https://seatgeek.com/tobymac-tickets/sugar-land-texas-smart-financial-centre-2027-02-12-7-pm/concert/18548802",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1057,7 +1057,7 @@
         "event_id": 18548804,
         "url": "https://seatgeek.com/tobymac-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-02-13-7-pm/concert/18548804",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1198,7 +1198,7 @@
         "event_id": 18548806,
         "url": "https://seatgeek.com/tobymac-tickets/norfolk-virginia-chartway-arena-2027-02-21-6-30-pm/concert/18548806",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1248,7 +1248,7 @@
     "tour_name": "Hits Deep Tour",
     "ticketmaster_event_id": "22006519E9C55984",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-jacksonville-florida-02-25-2027/event/22006519E9C55984",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/jacksonville-florida-vystar-veterans-memorial-arena-2027-02-25-7-pm/concert/18542783",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-jacksonville-vystar-veterans-memorial-arena-2-25-2027/production/7491823",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-jacksonville-florida-02-25-2027/event/22006519E9C55984",
@@ -1264,11 +1264,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18542783,
+        "url": "https://seatgeek.com/tobymac-tickets/jacksonville-florida-vystar-veterans-memorial-arena-2027-02-25-7-pm/concert/18542783",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7491823,
@@ -1320,7 +1320,7 @@
     "tour_name": "Hits Deep Tour",
     "ticketmaster_event_id": "1B006519DD083A72",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-nashville-tennessee-02-26-2027/event/1B006519DD083A72",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/nashville-tennessee-bridgestone-arena-2027-02-26-7-pm/concert/18542781",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-nashville-bridgestone-arena-2-26-2027/production/7491819",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-nashville-tennessee-02-26-2027/event/1B006519DD083A72",
@@ -1336,11 +1336,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18542781,
+        "url": "https://seatgeek.com/tobymac-tickets/nashville-tennessee-bridgestone-arena-2027-02-26-7-pm/concert/18542781",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7491819,
@@ -1392,7 +1392,7 @@
     "tour_name": "Hits Deep Tour",
     "ticketmaster_event_id": "0E006518B0A0B5B3",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-duluth-georgia-02-27-2027/event/0E006518B0A0B5B3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/duluth-georgia-gas-south-arena-2027-02-27-7-pm/concert/18542827",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-duluth-gas-south-arena-2-27-2027/production/7491815",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-duluth-georgia-02-27-2027/event/0E006518B0A0B5B3",
@@ -1408,11 +1408,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18542827,
+        "url": "https://seatgeek.com/tobymac-tickets/duluth-georgia-gas-south-arena-2027-02-27-7-pm/concert/18542827",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7491815,
@@ -1464,7 +1464,7 @@
     "tour_name": "Hits Deep Tour",
     "ticketmaster_event_id": "1B006519D1C0177D",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-knoxville-tennessee-02-28-2027/event/1B006519D1C0177D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/knoxville-tennessee-thompson-boling-arena-at-food-city-center-2027-02-28-6-30-pm/concert/18542767",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-knoxville-thompson-boling-arena-at-food-city-center-2-28-2027--concerts-adult-contemporary/production/7492562",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-knoxville-tennessee-02-28-2027/event/1B006519D1C0177D",
@@ -1480,11 +1480,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18542767,
+        "url": "https://seatgeek.com/tobymac-tickets/knoxville-tennessee-thompson-boling-arena-at-food-city-center-2027-02-28-6-30-pm/concert/18542767",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7492562,
@@ -1543,7 +1543,7 @@
     "tour_name": "Hits Deep Tour",
     "ticketmaster_event_id": "08006519B51C715C",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-campseph-schlueter-katy-toledo-ohio-03-04-2027/event/08006519B51C715C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/toledo-ohio-huntington-center-2027-03-04-7-pm/concert/18542960",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-toledo-huntington-center-3-4-2027/production/7491810",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-campseph-schlueter-katy-toledo-ohio-03-04-2027/event/08006519B51C715C",
@@ -1559,11 +1559,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18542960,
+        "url": "https://seatgeek.com/tobymac-tickets/toledo-ohio-huntington-center-2027-03-04-7-pm/concert/18542960",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7491810,
@@ -1615,7 +1615,7 @@
     "tour_name": "Hits Deep Tour",
     "ticketmaster_event_id": "05006515C676EDEE",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fishers-indiana-03-05-2027/event/05006515C676EDEE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/fishers-indiana-fishers-event-center-2027-03-05-7-pm/concert/18544030",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-fishers-fishers-event-center-3-5-2027--concerts-adult-contemporary/production/7492523",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fishers-indiana-03-05-2027/event/05006515C676EDEE",
@@ -1631,11 +1631,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18544030,
+        "url": "https://seatgeek.com/tobymac-tickets/fishers-indiana-fishers-event-center-2027-03-05-7-pm/concert/18544030",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7492523,
@@ -1706,7 +1706,7 @@
         "event_id": 18548872,
         "url": "https://seatgeek.com/tobymac-tickets/cape-girardeau-missouri-show-me-center-2027-03-06-7-pm/concert/18548872",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1934,7 +1934,7 @@
         "event_id": 18548874,
         "url": "https://seatgeek.com/tobymac-tickets/lubbock-texas-united-supermarkets-arena-2027-03-13-7-pm/concert/18548874",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {

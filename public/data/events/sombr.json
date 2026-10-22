@@ -977,7 +977,7 @@
     "tour_name": "You Are The Reason Tour",
     "ticketmaster_event_id": "0E006488A7A4A5DF",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-atlanta-georgia-10-22-2026/event/0E006488A7A4A5DF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sombr-tickets/atlanta-georgia-state-farm-arena-1-2026-10-22-7-pm/concert/18175579",
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-atlanta-state-farm-arena-10-22-2026--concerts-alternative/production/6897895",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-atlanta-georgia-10-22-2026/event/0E006488A7A4A5DF",
@@ -993,11 +993,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18175579,
+        "url": "https://seatgeek.com/sombr-tickets/atlanta-georgia-state-farm-arena-1-2026-10-22-7-pm/concert/18175579",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6897895,
@@ -1076,7 +1076,7 @@
         "event_id": 18164919,
         "url": "https://seatgeek.com/sombr-tickets/sunrise-florida-amerant-bank-arena-2026-10-24-7-pm/concert/18164919",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1134,7 +1134,7 @@
     "tour_name": "You Are The Reason Tour",
     "ticketmaster_event_id": "2200648A8ADC2C92",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-orlando-florida-10-25-2026/event/2200648A8ADC2C92",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sombr-tickets/orlando-florida-kia-center-2026-10-25-7-pm/concert/18175580",
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-orlando-kia-center-10-25-2026--concerts-alternative/production/6897905",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-orlando-florida-10-25-2026/event/2200648A8ADC2C92",
@@ -1150,11 +1150,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18175580,
+        "url": "https://seatgeek.com/sombr-tickets/orlando-florida-kia-center-2026-10-25-7-pm/concert/18175580",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6897905,
@@ -2188,7 +2188,7 @@
         "event_id": 18157641,
         "url": "https://seatgeek.com/sombr-tickets/cleveland-ohio-rocket-arena-2026-11-13-7-30-pm/concert/18157641",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {

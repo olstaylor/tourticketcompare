@@ -88,7 +88,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "30006545F09F9260",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-allentown-pennsylvania-03-02-2027/event/30006545F09F9260",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/allentown-pennsylvania-ppl-center-2027-03-02-7-pm/concert/18662385",
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-allentown-ppl-center-3-2-2027--concerts-rock/production/7671846",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-allentown-pennsylvania-03-02-2027/event/30006545F09F9260",
@@ -104,11 +104,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662385,
+        "url": "https://seatgeek.com/def-leppard-tickets/allentown-pennsylvania-ppl-center-2027-03-02-7-pm/concert/18662385",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7671846,
@@ -177,7 +177,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "31006545D45D7EA8",
     "ticketmaster_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-montreal-quebec-03-05-2027/event/31006545D45D7EA8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/montreal-canada-centre-bell-2027-03-05-7-pm/concert/18662455",
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-montreal-bell-centre-3-5-2027--concerts-rock/production/7671848",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-montreal-quebec-03-05-2027/event/31006545D45D7EA8",
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662455,
+        "url": "https://seatgeek.com/def-leppard-tickets/montreal-canada-centre-bell-2027-03-05-7-pm/concert/18662455",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7671848,
@@ -2494,7 +2494,7 @@
         "event_id": 18662428,
         "url": "https://seatgeek.com/def-leppard-tickets/oklahoma-city-oklahoma-paycom-center-2027-06-03-7-pm/concert/18662428",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2564,7 +2564,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "07006546D9187E56",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-milwaukee-wisconsin-06-05-2027/event/07006546D9187E56",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/milwaukee-wisconsin-fiserv-forum-2027-06-05-7-pm/concert/18662432",
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-milwaukee-fiserv-forum-6-5-2027--concerts-rock/production/7672107",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-milwaukee-wisconsin-06-05-2027/event/07006546D9187E56",
@@ -2732,7 +2732,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "160065468AA335AD",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-louisville-kentucky-06-09-2027/event/160065468AA335AD",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/louisville-kentucky-kfc-yum-center-2027-06-09-7-pm/concert/18662436",
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-louisville-kfc-yum-center-6-9-2027--concerts-rock/production/7672127",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-louisville-kentucky-06-09-2027/event/160065468AA335AD",
@@ -3798,7 +3798,7 @@
         "event_id": 18662396,
         "url": "https://seatgeek.com/def-leppard-tickets/minneapolis-minnesota-target-center-2027-03-27-7-pm/concert/18662396",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3870,7 +3870,7 @@
         "event_id": 18274784,
         "url": "https://seatgeek.com/def-leppard-tickets/salt-lake-city-utah-delta-center-1-2027-03-31-7-pm/concert/18274784",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3942,7 +3942,7 @@
         "event_id": 18662412,
         "url": "https://seatgeek.com/def-leppard-tickets/kansas-city-missouri-t-mobile-center-2027-04-26-7-pm/concert/18662412",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4014,7 +4014,7 @@
         "event_id": 18662424,
         "url": "https://seatgeek.com/def-leppard-tickets/spokane-washington-numerica-veterans-arena-2027-05-11-7-pm/concert/18662424",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4086,7 +4086,7 @@
         "event_id": 18662427,
         "url": "https://seatgeek.com/def-leppard-tickets/houston-texas-toyota-center-2027-06-01-7-pm/concert/18662427",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4158,7 +4158,7 @@
         "event_id": 18639422,
         "url": "https://seatgeek.com/def-leppard-tickets/cleveland-ohio-rocket-arena-2027-06-21-7-pm/concert/18639422",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {

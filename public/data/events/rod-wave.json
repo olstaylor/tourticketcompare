@@ -437,7 +437,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "010064D0AF18F3E7",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-boston-massachusetts-10-25-2026/event/010064D0AF18F3E7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/rod-wave-tickets/boston-massachusetts-td-garden-2026-10-25-8-30-pm/concert/18320058",
     "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-boston-td-garden-10-25-2026--concerts-rap-hip-hop/production/7185765",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-boston-massachusetts-10-25-2026/event/010064D0AF18F3E7",
@@ -453,11 +453,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18320058,
+        "url": "https://seatgeek.com/rod-wave-tickets/boston-massachusetts-td-garden-2026-10-25-8-30-pm/concert/18320058",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7185765,
@@ -517,7 +517,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "300064D00FB17794",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-brooklyn-new-york-10-27-2026/event/300064D00FB17794",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/rod-wave-tickets/brooklyn-new-york-barclays-center-2026-10-27-8-30-pm/concert/18320059",
     "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-brooklyn-barclays-center-10-27-2026--concerts-rap-hip-hop/production/7185769",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-brooklyn-new-york-10-27-2026/event/300064D00FB17794",
@@ -533,11 +533,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18320059,
+        "url": "https://seatgeek.com/rod-wave-tickets/brooklyn-new-york-barclays-center-2026-10-27-8-30-pm/concert/18320059",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7185769,
@@ -604,7 +604,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "300064D6DF405755",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-brooklyn-new-york-10-28-2026/event/300064D6DF405755",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/rod-wave-tickets/brooklyn-new-york-barclays-center-2026-10-28-8-30-pm/concert/18414823",
     "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-brooklyn-barclays-center-10-28-2026/production/7367116",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-brooklyn-new-york-10-28-2026/event/300064D6DF405755",
@@ -620,11 +620,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18414823,
+        "url": "https://seatgeek.com/rod-wave-tickets/brooklyn-new-york-barclays-center-2026-10-28-8-30-pm/concert/18414823",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7367116,
@@ -1216,7 +1216,7 @@
         "event_id": 18312360,
         "url": "https://seatgeek.com/rod-wave-tickets/sunrise-florida-amerant-bank-arena-2026-11-14-8-pm/concert/18312360",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1296,7 +1296,7 @@
         "event_id": 18312361,
         "url": "https://seatgeek.com/rod-wave-tickets/sunrise-florida-amerant-bank-arena-2026-11-15-8-pm/concert/18312361",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-22",
         "availability_status": "listed"
       },
       "vivid-seats": {

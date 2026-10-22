@@ -512,6 +512,15 @@ async function out(showId, provider) {
     const event = code ? { ticketmaster_status_code: code } : {};
     assert(clientHeld(event) === eventLifecycleHeld(event), `public/app.js agrees with the server on '${code || "(none)"}'`);
   }
+  const providerSource = appJs.match(/function providerEventPublishable\(event, provider\) \{[\s\S]*?\n\}/)?.[0] || "";
+  const pendingSource = appJs.match(/function publicOnsalePending\(event, now = Date.now\(\)\) \{[\s\S]*?\n\}/)?.[0] || "";
+  const linkSource = appJs.match(/function eventLinkPublishable\(event\) \{[\s\S]*?\n\}/)?.[0] || "";
+  const clientProvider = new Function(`${source}; ${pendingSource}; ${linkSource}; ${providerSource}; return providerEventPublishable;`)();
+  const pendingResale = { public_onsale_at: new Date(Date.now() + 86400000).toISOString(), ticketmaster_url: "https://ticketmaster.com/event/fixture", provider_links: { seatgeek: { verified: true } } };
+  assert(clientProvider(pendingResale, "seatgeek"), "client hydration retains an independently verified SeatGeek lane before public on-sale");
+  assert(!clientProvider(pendingResale, "ticketmaster"), "client hydration withholds Ticketmaster before public on-sale");
+  assert(!clientProvider({ ...pendingResale, provider_links: {} }, "seatgeek"), "an unverified resale fallback stays hidden before public on-sale");
+  assert(!clientProvider({ ...pendingResale, ticketmaster_status_code: "cancelled" }, "seatgeek"), "a lifecycle hold still hides a verified resale lane");
   assert(/function eventLinkPublishable\(event\) \{\n  if \(eventLifecycleHeld\(event\)\) return false;/.test(appJs), "public/app.js checks the hold in eventLinkPublishable");
   // Codex (#1194, 650fcf9): the /api/shows-failure fallback filtered held rows
   // out before they reached the lifecycle label, so it must keep them.

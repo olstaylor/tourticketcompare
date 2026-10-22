@@ -5891,7 +5891,8 @@ function approvedServerPriceLane(show, provider) {
 
 // Price-history eligibility is broader than the subset of lanes whose value is
 // printed on a CTA. SeatGeek snapshots, for example, are permitted to power the
-// on-site history panel even though the SeatGeek button remains price-free.
+// on-site history panel even when the visible CTA is absent; when present, the
+// button and all price answers use the same approved snapshot gate.
 // Keep this aligned with hasApprovedMarketplacePrice in public/app.js.
 function hasApprovedServerPriceSnapshot(show) {
   return Boolean(
@@ -5997,9 +5998,9 @@ const PRICE_UNAVAILABLE_NOTE = NO_PRICE_NOTE;
 // card back at once.
 const PRICE_CHECK_QUOTE_MAX_HOURS = 36;
 
-// The lanes that supply listed-price snapshots today: numeric price feed,
-// display flag on (wrangler.toml [vars]) and a scheduled writer. Ticket
-// Liquidator links but does not price; SeatGeek and Ticketmaster never price.
+// Scheduled numeric-price lanes whose absence can be explained on a card.
+// SeatGeek can display a gated snapshot, but its dispatch-only writer does not
+// establish a missing-price observation for every link-only SeatGeek date.
 // Update with the display flags if a lane is added or withdrawn.
 // Keep in sync with LISTED_PRICE_PROVIDER_SLUGS in public/app.js.
 const LISTED_PRICE_PROVIDERS = Object.freeze([
@@ -6134,7 +6135,7 @@ function serverShowCtaSpecs(show, { seatGeekAvailable = false, vividSeatsAvailab
   if (!show?.id) return [];
   const specs = [];
   if (seatGeekOutAvailable(show, seatGeekAvailable)) {
-    specs.push({ provider: "seatgeek", name: "SeatGeek", href: eventTicketHref(show, "seatgeek"), lane: null });
+    specs.push({ provider: "seatgeek", name: "SeatGeek", href: eventTicketHref(show, "seatgeek"), lane: approvedServerPriceLane(show, "SeatGeek") });
   }
   if (vividSeatsOutAvailable(show, vividSeatsAvailable)) {
     specs.push({ provider: "vivid-seats", name: "Vivid Seats", href: eventTicketHref(show, "vivid-seats"), lane: approvedServerPriceLane(show, "Vivid Seats") });

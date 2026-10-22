@@ -1789,7 +1789,7 @@ function eventLinkPublishable(event) {
 // functions/[[path]].js and functions/api/out.js.
 function providerEventPublishable(event, provider) {
   if (eventLifecycleHeld(event)) return false;
-  if (publicOnsalePending(event)) return false;
+  if (publicOnsalePending(event)) return provider !== "ticketmaster" && event?.provider_links?.[provider]?.verified === true;
   if (IMPACT_MARKETPLACE_PROVIDERS.some((candidate) => candidate.slug === provider)) {
     return Boolean(event && event.provider_links && event.provider_links[provider] && event.provider_links[provider].verified === true);
   }
@@ -2065,8 +2065,8 @@ const CARD_PRICE_TAIL = "not the final total";
 const PRICE_UNAVAILABLE_NOTE = "No listed price yet.";
 const PRICE_HISTORY_LABEL = "Show price history";
 
-// The lanes that supply listed-price snapshots. A card with no button on one
-// of them gets no "no price" note: nothing on it claims a price.
+// Scheduled numeric-price lanes whose absence can be explained on a card.
+// A link-only SeatGeek date stays silent while its writer is dispatch-only.
 // Keep in sync with LISTED_PRICE_PROVIDERS in functions/[[path]].js.
 const LISTED_PRICE_PROVIDER_SLUGS = new Set(["vivid-seats", "ticketnetwork", "stubhub-international"]);
 
@@ -2398,7 +2398,7 @@ function renderShowCard(show, options = {}) {
     // once beneath the buttons. Keep in sync with renderShowCardServerHtml in
     // functions/[[path]].js.
     const ctaSpecs = [];
-    if (sgAvailable) ctaSpecs.push({ provider: "seatgeek", name: "SeatGeek", href: eventTicketHref(show, "seatgeek"), lane: null });
+    if (sgAvailable) ctaSpecs.push({ provider: "seatgeek", name: "SeatGeek", href: eventTicketHref(show, "seatgeek"), lane: approvedSeatGeekPriceLane(show) });
     if (vsAvailable) ctaSpecs.push({ provider: "vivid-seats", name: "Vivid Seats", href: eventTicketHref(show, "vivid-seats"), lane: approvedVividSeatsPriceLane(show) });
     for (const provider of impactMarketplaceAvailable) {
       ctaSpecs.push({ provider: provider.slug, name: provider.name, href: eventTicketHref(show, provider.slug), lane: approvedImpactMarketplacePriceLane(show, provider) });

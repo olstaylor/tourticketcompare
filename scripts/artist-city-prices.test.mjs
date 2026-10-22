@@ -357,6 +357,25 @@ const occurrences = (haystack, needle) => haystack.split(needle).length - 1;
 const RUN_PATH = `/artists/${ARTIST.slug}/tickets/${RUN_CITY_SLUG}`;
 const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
 
+// An approved SeatGeek snapshot reaches both its CTA and same-event answer;
+// withheld data must never leak into either surface.
+{
+  const seatGeekRow = { event_id: RUN_A.id, provider: "seatgeek", low_price: 120, currency: "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source: "seatgeek_partner_api" };
+  const page = await render(RUN_PATH, { priceRows: [...PRICE_ROWS, seatGeekRow], runtime: { SEATGEEK_PRICE_DISPLAY_ENABLED: "true" } });
+  const answer = page.main.match(/<section class="nested-panel artist-city-price-answer"[\s\S]*?<\/section>/)?.[0] || "";
+  assert(/SeatGeek\s+USD\s+120/.test(text(answer)), "a valid SeatGeek snapshot is the same-event price answer");
+  assert(answer.includes("provider=seatgeek") && answer.includes('datetime="2026-08-09T09:00:00Z"'), "the answer retains the tracked provider link and capture time");
+  assert(/data-cta-provider="seatgeek"[^>]*data-cta-price-snapshot="present"/.test(page.main), "the SeatGeek CTA itself displays the eligible snapshot");
+  for (const [row, enabled] of [
+    [{ ...seatGeekRow, expires_at: "2026-08-08T09:00:00Z" }, "true"],
+    [{ ...seatGeekRow, source: "unapproved_source" }, "true"],
+    [seatGeekRow, "false"]
+  ]) {
+    const hidden = await render(RUN_PATH, { priceRows: [...PRICE_ROWS, row], runtime: { SEATGEEK_PRICE_DISPLAY_ENABLED: enabled } });
+    assert(!text(hidden.main).includes("USD 120"), "expired, unapproved or disabled SeatGeek prices stay hidden on every surface");
+  }
+}
+
 // ── the multi-date page answers the question ────────────────────────────────
 {
   const page = await render(RUN_PATH);
@@ -412,7 +431,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   // Gated-out lanes never appear, whatever the cache holds.
   assert(!body.includes("USD 3.80") && !/StubHub International\s*(?:\$|USD\s+)/.test(body), "an implausible snapshot never reaches the table");
   assert(!/Ticket Liquidator\s*(?:\$|USD\s+)/.test(body), "a price-display-disabled lane never reaches the table");
-  assert(!/SeatGeek\s*(?:\$|USD\s+)\d/.test(body), "SeatGeek never carries a price");
+  assert(!/SeatGeek\s*(?:\$|USD\s+)\d/.test(body), "this fixture has no approved SeatGeek snapshot to display");
 
   // The panel the internal-link audit depends on keeps its required heading.
   // It is compressed, never removed: audit-internal-links.mjs fails an

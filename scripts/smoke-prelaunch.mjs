@@ -317,13 +317,10 @@ async function assertPublicCopyRegressionGuardrails(files) {
   await assertLineRulesAbsent(files, rules, "public copy regression guardrails");
 }
 
-// SeatGeek is a CTA-only provider: its API returns null pricing statistics for
-// this client (owner-confirmed 2026-07-15), so it has no numeric price-snapshot
-// lane and public copy must not claim SeatGeek price snapshots. This guard is
-// keyed off the snapshot workflow: if seatgeek-price-snapshots.yml ever regains
-// a schedule trigger (the lane's reactivation switch), the guard stands down.
-// The unified dynamic disclosure is exempt: it renders provider names and
-// timestamps only from actual approved, fresh lane data.
+// SeatGeek prices may display only when a fresh exact-event API snapshot passes
+// runtime gates. The API has returned null pricing statistics for this client,
+// so public copy must not imply amounts are always available. This guard blocks
+// unsupported unconditional availability claims.
 async function assertNoStaticSeatGeekPriceClaims(files) {
   const snapshotWorkflow = await read(".github/workflows/seatgeek-price-snapshots.yml");
   const seatGeekSnapshotLaneScheduled = /^\s*schedule:\s*$/m.test(snapshotWorkflow);
@@ -340,16 +337,21 @@ async function assertNoStaticSeatGeekPriceClaims(files) {
       allowedContext: /Ticketmaster\s+vs\.?\s+SeatGeek\s+vs\.?\s+Vivid\s+Seats/i
     },
     {
-      label: "static SeatGeek price-snapshot claim",
-      pattern: /\b(?:timestamped|approved|available|fresh)\s+SeatGeek\b[^.\n]{0,120}\bsnapshots?\b/i
+      label: "unconditional SeatGeek price-availability claim",
+      pattern: /\bSeatGeek\s+prices?\s+(?:are|is)\s+(?:(?:always|now|currently)\s+)*(?:available|shown|displayed)\b/i
     },
     {
-      label: "plural SeatGeek price-snapshots claim",
-      pattern: /\bSeatGeek\s+(?:listed-price|price)\s+snapshots\b/i
+      label: "unconditional SeatGeek price-availability claim",
+      pattern: /\b(?:we|this\s+(?:site|page)|TTC|TourTicketCompare)\s+(?:(?:always|now|currently)\s+)*(?:display|show|displays|shows)\s+SeatGeek\s+prices?\b/i
     }
   ];
 
-  await assertLineRulesAbsent(files, rules, "static SeatGeek price-claim guard (SeatGeek has no numeric snapshot lane)");
+  for (const claim of ["We display SeatGeek prices", "SeatGeek prices are now shown", "SeatGeek prices are currently available"]) {
+    assert(rules.some((rule) => rule.pattern.test(claim)), `the SeatGeek claim guard must reject: ${claim}`);
+  }
+  assert(!rules.some((rule) => rule.pattern.test("A fresh, verified SeatGeek price may be shown when its approved source passes the display gates.")), "conditional approved-source SeatGeek copy remains permitted");
+
+  await assertLineRulesAbsent(files, rules, "static SeatGeek price-claim guard (only fresh approved snapshots may be displayed)");
 }
 
 async function assertGuideCopyGuardrails(files) {
@@ -2065,7 +2067,7 @@ const seatGeekHistoryRoute = await routeResponse("/artists/morgan-wallen", envWi
   SEATGEEK_PRICE_DISPLAY_ENABLED: "true",
   IMPACT_SEATGEEK_BASE_TRACKING_URL: CONTROLLED_SEATGEEK_BASE_TRACKING_URL
 }));
-assert(seatGeekHistoryRoute.text.includes(`data-price-history="${CONTROLLED_SEATGEEK_SHOW_ID}"`), "an approved SeatGeek snapshot should retain the on-site history tracker even though its CTA stays price-free");
+assert(seatGeekHistoryRoute.text.includes(`data-price-history="${CONTROLLED_SEATGEEK_SHOW_ID}"`), "an approved SeatGeek snapshot should retain its on-site price history tracker");
 
 const flagOnStaleSeatGeekResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
@@ -2347,9 +2349,9 @@ const serverPricedMorgan = await routeResponse("/artists/morgan-wallen", envWith
   IMPACT_VIVIDSEATS_BASE_TRACKING_URL: "https://example.test/vivid?u="
 }));
 assert(serverPricedMorgan.text.includes("provider-cta-price") && serverPricedMorgan.text.includes('<p class="disclosure-note">Checked <time') && /Checked <time datetime="[^"]+" title="[^"]+">[^<]+<\/time>/.test(serverPricedMorgan.text) && /Lowest listed prices?</.test(serverPricedMorgan.text), "server-rendered artist cards should show eligible provider snapshots with one unified note before client hydration");
-assert(!serverPricedMorgan.text.includes("SeatGeek price snapshot as of"), "SeatGeek must remain CTA-only in server-rendered cards");
-// SeatGeek and Ticketmaster never carry a price, so a card mixing them with a
-// priced lane must never claim a price "on each" button.
+assert((serverPricedMorgan.text.match(/<a\b[^>]*data-cta-provider="seatgeek"[^>]*>[\s\S]*?<\/a>/g) || []).some((cta) => /USD\s+123\.45/.test(cta) && cta.includes("provider=seatgeek")), "a fresh approved SeatGeek snapshot should appear on its attributed CTA");
+// Ticketmaster never carries a price, so a card mixing it with a priced lane
+// must never claim a price "on each" button.
 for (const card of serverPricedMorgan.text.split('<article class="info-card show-card').slice(1)) {
   if (card.includes("provider-cta-check")) {
     assert(!card.includes("Lowest listed price on each"), "a card with an unpriced button must never say 'lowest listed price on each'");

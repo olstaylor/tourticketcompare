@@ -367,7 +367,6 @@ export const OG_CARDS = {
   "/artists/olivia-rodrigo/tickets/inglewood-united-states": {"url":"/og/artists-olivia-rodrigo-tickets-inglewood-united-states.png","alt":"Tickets: Olivia Rodrigo in Inglewood"},
   "/artists/olivia-rodrigo/tickets/las-vegas-united-states": {"url":"/og/artists-olivia-rodrigo-tickets-las-vegas-united-states.png","alt":"Tickets: Olivia Rodrigo in Las Vegas"},
   "/artists/olivia-rodrigo/tickets/london-united-kingdom": {"url":"/og/artists-olivia-rodrigo-tickets-london-united-kingdom.png","alt":"Tickets: Olivia Rodrigo in London"},
-  "/artists/olivia-rodrigo/tickets/montreal-canada": {"url":"/og/artists-olivia-rodrigo-tickets-montreal-canada.png","alt":"Tickets: Olivia Rodrigo in Montreal"},
   "/artists/olivia-rodrigo/tickets/munich-germany": {"url":"/og/artists-olivia-rodrigo-tickets-munich-germany.png","alt":"Tickets: Olivia Rodrigo in Munich"},
   "/artists/olivia-rodrigo/tickets/nashville-united-states": {"url":"/og/artists-olivia-rodrigo-tickets-nashville-united-states.png","alt":"Tickets: Olivia Rodrigo in Nashville"},
   "/artists/olivia-rodrigo/tickets/oakland-united-states": {"url":"/og/artists-olivia-rodrigo-tickets-oakland-united-states.png","alt":"Tickets: Olivia Rodrigo in Oakland"},

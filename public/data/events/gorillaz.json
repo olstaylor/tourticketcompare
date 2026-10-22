@@ -276,11 +276,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7774760",
-        "url": "https://www.ticketliquidator.com/tickets/7774760/Gorillaz-tickets-Tue-Oct-20-2026-Delta-Center",
-        "verified": true,
-        "last_verified_at": "2026-10-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-9AI",
@@ -290,7 +290,7 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774760",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774760/Gorillaz-tickets-Tue-Oct-20-2026-Delta-Center"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-gorillaz-2026-phoenix-1av0z_agknirbye",

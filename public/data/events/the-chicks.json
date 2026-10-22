@@ -1,0 +1,373 @@
+[
+  {
+    "id": "tm-the-chicks-2026-seattle-vvg1hz_52nooej",
+    "artist_slug": "the-chicks",
+    "artist_name": "The Chicks",
+    "event_name": "THE CHICKS - TAKING THE LONG WAY",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Benaroya Hall - S. Mark Taper Auditorium",
+    "datetime_iso": "2026-10-26T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064B3EA45109C",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-seattle-washington-10-25-2026/event/0F0064B3EA45109C",
+    "seatgeek_url": "https://seatgeek.com/the-chicks-tickets/seattle-washington-benaroya-hall-2026-10-25-8-30-pm/concert/18268866",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-seattle-washington-10-25-2026/event/0F0064B3EA45109C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064B3EA45109C",
+        "discovery_event_id": "vvG1HZ_52nooej",
+        "url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-seattle-washington-10-25-2026/event/0F0064B3EA45109C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_52nooej",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-chicks-2026-seattle-vvg1hz_52n3-el",
+    "artist_slug": "the-chicks",
+    "artist_name": "The Chicks",
+    "event_name": "THE CHICKS - TAKING THE LONG WAY",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Benaroya Hall - S. Mark Taper Auditorium",
+    "datetime_iso": "2026-10-27T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064B3EA4A10AB",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-seattle-washington-10-26-2026/event/0F0064B3EA4A10AB",
+    "seatgeek_url": "https://seatgeek.com/the-chicks-tickets/seattle-washington-benaroya-hall-2026-10-26-8-30-pm/concert/18268868",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-seattle-washington-10-26-2026/event/0F0064B3EA4A10AB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064B3EA4A10AB",
+        "discovery_event_id": "vvG1HZ_52n3-el",
+        "url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-seattle-washington-10-26-2026/event/0F0064B3EA4A10AB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_52n3-el",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-chicks-2026-san-francisco-g5vyz_5k9t5fo",
+    "artist_slug": "the-chicks",
+    "artist_name": "The Chicks",
+    "event_name": "THE CHICKS - TAKING THE LONG WAY",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "The Masonic",
+    "datetime_iso": "2026-10-30T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064B4D7FCB220",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-san-francisco-california-10-29-2026/event/1C0064B4D7FCB220",
+    "seatgeek_url": "https://seatgeek.com/the-chicks-tickets/san-francisco-california-the-masonic-san-francisco-2026-10-29-8-30-pm/concert/18268871",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-san-francisco-california-10-29-2026/event/1C0064B4D7FCB220",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064B4D7FCB220",
+        "discovery_event_id": "G5vYZ_5K9T5FO",
+        "url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-san-francisco-california-10-29-2026/event/1C0064B4D7FCB220",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_5K9T5FO",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-chicks-2026-san-francisco-g5vyz_5kbz5fl",
+    "artist_slug": "the-chicks",
+    "artist_name": "The Chicks",
+    "event_name": "THE CHICKS - TAKING THE LONG WAY",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "The Masonic",
+    "datetime_iso": "2026-10-31T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064B4D800B22B",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-san-francisco-california-10-30-2026/event/1C0064B4D800B22B",
+    "seatgeek_url": "https://seatgeek.com/the-chicks-tickets/san-francisco-california-the-masonic-san-francisco-2026-10-30-8-30-pm/concert/18268873",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-san-francisco-california-10-30-2026/event/1C0064B4D800B22B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064B4D800B22B",
+        "discovery_event_id": "G5vYZ_5KbZ5Fl",
+        "url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-san-francisco-california-10-30-2026/event/1C0064B4D800B22B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_5KbZ5Fl",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-chicks-2026-hollywood-vvg10z_5ljdml9",
+    "artist_slug": "the-chicks",
+    "artist_name": "The Chicks",
+    "event_name": "THE CHICKS - TAKING THE LONG WAY",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Dolby Theatre",
+    "datetime_iso": "2026-11-02T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064BAE60EE7D7",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-01-2026/event/090064BAE60EE7D7",
+    "seatgeek_url": "https://seatgeek.com/the-chicks-tickets/hollywood-california-dolby-theatre-2026-11-01-8-30-pm/concert/18268872",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-01-2026/event/090064BAE60EE7D7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064BAE60EE7D7",
+        "discovery_event_id": "vvG10Z_5lJdmL9",
+        "url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-01-2026/event/090064BAE60EE7D7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_5lJdmL9",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-chicks-2026-hollywood-vvg10z_5ra8fba",
+    "artist_slug": "the-chicks",
+    "artist_name": "The Chicks",
+    "event_name": "THE CHICKS - TAKING THE LONG WAY",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Dolby Theatre",
+    "datetime_iso": "2026-11-03T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064B785414609",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-02-2026/event/090064B785414609",
+    "seatgeek_url": "https://seatgeek.com/the-chicks-tickets/hollywood-california-dolby-theatre-2026-11-02-8-30-pm/concert/18268878",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-02-2026/event/090064B785414609",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064B785414609",
+        "discovery_event_id": "vvG10Z_5rA8fba",
+        "url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-02-2026/event/090064B785414609",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_5rA8fba",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-chicks-2026-hollywood-vvg10z_5rao7bc",
+    "artist_slug": "the-chicks",
+    "artist_name": "The Chicks",
+    "event_name": "THE CHICKS - TAKING THE LONG WAY",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Dolby Theatre",
+    "datetime_iso": "2026-11-04T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064B78544460E",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-03-2026/event/090064B78544460E",
+    "seatgeek_url": "https://seatgeek.com/the-chicks-tickets/hollywood-california-dolby-theatre-2026-11-03-8-30-pm/concert/18469965",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-03-2026/event/090064B78544460E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064B78544460E",
+        "discovery_event_id": "vvG10Z_5rAo7bC",
+        "url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-03-2026/event/090064B78544460E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_5rAo7bC",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

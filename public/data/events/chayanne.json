@@ -1,0 +1,161 @@
+[
+  {
+    "id": "tm-chayanne-2026-miami-vvg1vz_kt0yodw",
+    "artist_slug": "chayanne",
+    "artist_name": "Chayanne",
+    "event_name": "Chayanne - Bailemos Otra Vez Tour",
+    "city": "Miami",
+    "country": "United States Of America",
+    "venue": "Kaseya Center",
+    "datetime_iso": "2026-10-25T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00646A64C11EFD",
+    "ticketmaster_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-miami-florida-10-24-2026/event/0D00646A64C11EFD",
+    "seatgeek_url": "https://seatgeek.com/chayanne-tickets/miami-florida-kaseya-center-2026-10-24-8-pm/concert/18192110",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-miami-florida-10-24-2026/event/0D00646A64C11EFD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00646A64C11EFD",
+        "discovery_event_id": "vvG1VZ_kt0YoDW",
+        "url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-miami-florida-10-24-2026/event/0D00646A64C11EFD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_kt0YoDW",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chayanne-2026-tampa-vvg1vz_km8pku0",
+    "artist_slug": "chayanne",
+    "artist_name": "Chayanne",
+    "event_name": "Chayanne - Bailemos Otra Vez Tour",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Benchmark International Arena",
+    "datetime_iso": "2026-10-31T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00646B90586364",
+    "ticketmaster_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-tampa-florida-10-30-2026/event/0D00646B90586364",
+    "seatgeek_url": "https://seatgeek.com/chayanne-tickets/tampa-florida-benchmark-international-arena-2026-10-30-8-pm/concert/18192114",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-tampa-florida-10-30-2026/event/0D00646B90586364",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00646B90586364",
+        "discovery_event_id": "vvG1VZ_km8pku0",
+        "url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-tampa-florida-10-30-2026/event/0D00646B90586364",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_km8pku0",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chayanne-2026-orlando-1aefz_kgkwoqkla",
+    "artist_slug": "chayanne",
+    "artist_name": "Chayanne",
+    "event_name": "Chayanne - Bailemos Otra Vez Tour",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Kia Center",
+    "datetime_iso": "2026-11-01T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2200646CA0686AC5",
+    "ticketmaster_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-orlando-florida-10-31-2026/event/2200646CA0686AC5",
+    "seatgeek_url": "https://seatgeek.com/chayanne-tickets/orlando-florida-kia-center-2026-10-31-8-pm/concert/18192116",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-orlando-florida-10-31-2026/event/2200646CA0686AC5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2200646CA0686AC5",
+        "discovery_event_id": "1AeFZ_kGkwOQklA",
+        "url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-orlando-florida-10-31-2026/event/2200646CA0686AC5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeFZ_kGkwOQklA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

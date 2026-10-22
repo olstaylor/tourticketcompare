@@ -1,0 +1,1115 @@
+[
+  {
+    "id": "tm-sleeping-with-sirens-2026-grand-rapids-vvg1oz_gxwrjxj",
+    "artist_slug": "sleeping-with-sirens",
+    "artist_name": "Sleeping With Sirens",
+    "event_name": "Sleeping With Sirens: An Ending In Itself Tour",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "GLC Live at 20 Monroe",
+    "datetime_iso": "2026-10-24T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "080064C8BDBE6F9C",
+    "ticketmaster_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-grand-rapids-michigan-10-24-2026/event/080064C8BDBE6F9C",
+    "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/grand-rapids-michigan-glc-live-at-20-monroe-2026-10-24-6-pm/concert/18312165",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-grand-rapids-michigan-10-24-2026/event/080064C8BDBE6F9C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "080064C8BDBE6F9C",
+        "discovery_event_id": "vvG1OZ_GxWRJXj",
+        "url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-grand-rapids-michigan-10-24-2026/event/080064C8BDBE6F9C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1OZ_GxWRJXj",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sleeping-with-sirens-2026-chicago-vvg18z_gr6ix5f",
+    "artist_slug": "sleeping-with-sirens",
+    "artist_name": "Sleeping With Sirens",
+    "event_name": "Sleeping With Sirens: An Ending In Itself Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "The Salt Shed Indoors (Shed)",
+    "datetime_iso": "2026-10-26T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "040064CBC7A3E2C8",
+    "ticketmaster_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-chicago-illinois-10-25-2026/event/040064CBC7A3E2C8",
+    "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/chicago-illinois-the-salt-shed-indoors-2026-10-25-7-pm/concert/18312229",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-chicago-illinois-10-25-2026/event/040064CBC7A3E2C8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040064CBC7A3E2C8",
+        "discovery_event_id": "vvG18Z_GR6IX5F",
+        "url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-chicago-illinois-10-25-2026/event/040064CBC7A3E2C8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG18Z_GR6IX5F",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sleeping-with-sirens-2026-pittsburgh-z7r9jz1a7p_ae",
+    "artist_slug": "sleeping-with-sirens",
+    "artist_name": "Sleeping With Sirens",
+    "event_name": "Sleeping with Sirens w/ Rain City Drive",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Stage AE",
+    "datetime_iso": "2026-10-27T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P_Ae",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_Ae",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_Ae",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P_Ae",
+        "discovery_event_id": "Z7r9jZ1A7P_Ae",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_Ae",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P_Ae",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sleeping-with-sirens-2026-royal-oak-z7r9jz1a7p_ad",
+    "artist_slug": "sleeping-with-sirens",
+    "artist_name": "Sleeping With Sirens",
+    "event_name": "Sleeping with Sirens w/ Rain City Drive",
+    "city": "Royal Oak",
+    "country": "United States Of America",
+    "venue": "Royal Oak Music Theatre",
+    "datetime_iso": "2026-10-28T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P_Ad",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_Ad",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_Ad",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P_Ad",
+        "discovery_event_id": "Z7r9jZ1A7P_Ad",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_Ad",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P_Ad",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sleeping-with-sirens-2026-montreal-17g8v0g6gxey070",
+    "artist_slug": "sleeping-with-sirens",
+    "artist_name": "Sleeping With Sirens",
+    "event_name": "Sleeping With Sirens: An Ending In Itself Tour",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "MTELUS",
+    "datetime_iso": "2026-10-30T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "310064C8A7E64124",
+    "ticketmaster_url": "https://www.ticketmaster.ca/sleeping-with-sirens-an-ending-in-montreal-quebec-10-30-2026/event/310064C8A7E64124",
+    "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/montreal-canada-mtelus-2026-10-30-7-pm/concert/18311678",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/sleeping-with-sirens-an-ending-in-montreal-quebec-10-30-2026/event/310064C8A7E64124",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "310064C8A7E64124",
+        "discovery_event_id": "17G8v0G6GxEy070",
+        "url": "https://www.ticketmaster.ca/sleeping-with-sirens-an-ending-in-montreal-quebec-10-30-2026/event/310064C8A7E64124",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17G8v0G6GxEy070",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sleeping-with-sirens-2026-ottawa-17g8v0g6gwupswm",
+    "artist_slug": "sleeping-with-sirens",
+    "artist_name": "Sleeping With Sirens",
+    "event_name": "Sleeping With Sirens: An Ending In Itself Tour",
+    "city": "Ottawa",
+    "country": "Canada",
+    "venue": "History Ottawa",
+    "datetime_iso": "2026-10-31T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "310064CC8D973CAE",
+    "ticketmaster_url": "https://www.ticketmaster.ca/sleeping-with-sirens-an-ending-in-ottawa-ontario-10-31-2026/event/310064CC8D973CAE",
+    "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/ottawa-canada-history-ottawa-2026-10-31-6-pm/concert/18312283",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/sleeping-with-sirens-an-ending-in-ottawa-ontario-10-31-2026/event/310064CC8D973CAE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "310064CC8D973CAE",
+        "discovery_event_id": "17G8v0G6GwuPSwm",
+        "url": "https://www.ticketmaster.ca/sleeping-with-sirens-an-ending-in-ottawa-ontario-10-31-2026/event/310064CC8D973CAE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17G8v0G6GwuPSwm",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sleeping-with-sirens-2026-toronto-177zv0g6gwdvb1r",
+    "artist_slug": "sleeping-with-sirens",
+    "artist_name": "Sleeping With Sirens",
+    "event_name": "Sleeping With Sirens: An Ending In Itself Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "History Toronto",
+    "datetime_iso": "2026-11-01T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100064CC83D182AF",
+    "ticketmaster_url": "https://www.ticketmaster.ca/sleeping-with-sirens-an-ending-in-toronto-ontario-11-01-2026/event/100064CC83D182AF",
+    "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/toronto-canada-history-2026-11-01-6-pm/concert/18312214",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/sleeping-with-sirens-an-ending-in-toronto-ontario-11-01-2026/event/100064CC83D182AF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100064CC83D182AF",
+        "discovery_event_id": "177Zv0G6GwdVb1R",
+        "url": "https://www.ticketmaster.ca/sleeping-with-sirens-an-ending-in-toronto-ontario-11-01-2026/event/100064CC83D182AF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Zv0G6GwdVb1R",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sleeping-with-sirens-2026-boston-vvg17z_gmbz9_j",
+    "artist_slug": "sleeping-with-sirens",
+    "artist_name": "Sleeping With Sirens",
+    "event_name": "Sleeping With Sirens: An Ending In Itself Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Citizens House of Blues Boston",
+    "datetime_iso": "2026-11-03T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064CBBA017666",
+    "ticketmaster_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-boston-massachusetts-11-03-2026/event/010064CBBA017666",
+    "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/boston-massachusetts-citizens-house-of-blues-boston-2026-11-03-7-pm/concert/18311622",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-boston-massachusetts-11-03-2026/event/010064CBBA017666",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064CBBA017666",
+        "discovery_event_id": "vvG17Z_GmBZ9_J",
+        "url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-boston-massachusetts-11-03-2026/event/010064CBBA017666",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_GmBZ9_J",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sleeping-with-sirens-2026-sayreville-z7r9jz1a7p_a7",
+    "artist_slug": "sleeping-with-sirens",
+    "artist_name": "Sleeping With Sirens",
+    "event_name": "Sleeping with Sirens w/ Rain City Drive",
+    "city": "Sayreville",
+    "country": "United States Of America",
+    "venue": "Starland Ballroom",
+    "datetime_iso": "2026-11-05T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P_A7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_A7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_A7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P_A7",
+        "discovery_event_id": "Z7r9jZ1A7P_A7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_A7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P_A7",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sleeping-with-sirens-2026-philadelphia-vvg1fz_gm9cqxe",
+    "artist_slug": "sleeping-with-sirens",
+    "artist_name": "Sleeping With Sirens",
+    "event_name": "Sleeping With Sirens: An Ending In Itself Tour",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Fillmore Philadelphia",
+    "datetime_iso": "2026-11-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020064CB97B5A882",
+    "ticketmaster_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-philadelphia-pennsylvania-11-06-2026/event/020064CB97B5A882",
+    "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2026-11-06-7-pm/concert/18312116",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-philadelphia-pennsylvania-11-06-2026/event/020064CB97B5A882",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020064CB97B5A882",
+        "discovery_event_id": "vvG1FZ_Gm9cQxe",
+        "url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-philadelphia-pennsylvania-11-06-2026/event/020064CB97B5A882",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1FZ_Gm9cQxe",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sleeping-with-sirens-2026-new-york-k7vgf_gnebmkt",
+    "artist_slug": "sleeping-with-sirens",
+    "artist_name": "Sleeping With Sirens",
+    "event_name": "Sleeping With Sirens: An Ending In Itself Tour",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Manhattan Center Hammerstein Ballroom",
+    "datetime_iso": "2026-11-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064CAA762E1A9",
+    "ticketmaster_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-new-york-new-york-11-07-2026/event/000064CAA762E1A9",
+    "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/new-york-new-york-manhattan-center-hammerstein-ballroom-2026-11-07-7-pm/concert/18311638",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-new-york-new-york-11-07-2026/event/000064CAA762E1A9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064CAA762E1A9",
+        "discovery_event_id": "k7vGF_GnEbmkt",
+        "url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-new-york-new-york-11-07-2026/event/000064CAA762E1A9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_GnEbmkt",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sleeping-with-sirens-2026-baltimore-17a8v0g6gxtb5eg",
+    "artist_slug": "sleeping-with-sirens",
+    "artist_name": "Sleeping With Sirens",
+    "event_name": "Sleeping With Sirens: An Ending In Itself Tour",
+    "city": "Baltimore",
+    "country": "United States Of America",
+    "venue": "Nevermore Hall",
+    "datetime_iso": "2026-11-09T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064C8BFE8B9F5",
+    "ticketmaster_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-baltimore-maryland-11-08-2026/event/150064C8BFE8B9F5",
+    "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/baltimore-maryland-nevermore-hall-2026-11-08-7-pm/concert/18312278",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-baltimore-maryland-11-08-2026/event/150064C8BFE8B9F5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064C8BFE8B9F5",
+        "discovery_event_id": "17A8v0G6GxTB5Eg",
+        "url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-baltimore-maryland-11-08-2026/event/150064C8BFE8B9F5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G6GxTB5Eg",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sleeping-with-sirens-2026-charlotte-g5evz_gnuzybg",
+    "artist_slug": "sleeping-with-sirens",
+    "artist_name": "Sleeping With Sirens",
+    "event_name": "Sleeping With Sirens: An Ending In Itself Tour",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "The Fillmore Charlotte",
+    "datetime_iso": "2026-11-12T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0064CA8DE39EB5",
+    "ticketmaster_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-charlotte-north-carolina-11-11-2026/event/2D0064CA8DE39EB5",
+    "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-11-11-7-pm/concert/18311702",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-charlotte-north-carolina-11-11-2026/event/2D0064CA8DE39EB5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0064CA8DE39EB5",
+        "discovery_event_id": "G5eVZ_GnuzyBg",
+        "url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-charlotte-north-carolina-11-11-2026/event/2D0064CA8DE39EB5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_GnuzyBg",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sleeping-with-sirens-2026-atlanta-z7r9jz1a7p_aa",
+    "artist_slug": "sleeping-with-sirens",
+    "artist_name": "Sleeping With Sirens",
+    "event_name": "Sleeping with Sirens w/ Rain City Drive",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "The Eastern-GA",
+    "datetime_iso": "2026-11-13T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P_AA",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_AA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_AA",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P_AA",
+        "discovery_event_id": "Z7r9jZ1A7P_AA",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_AA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P_AA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sleeping-with-sirens-2027-bristol-17u8v0g6gfkrxfj",
+    "artist_slug": "sleeping-with-sirens",
+    "artist_name": "Sleeping With Sirens",
+    "event_name": "Sleeping with Sirens - An Ending In Itself Tour",
+    "city": "Bristol",
+    "country": "Great Britain",
+    "venue": "The Prospect Building",
+    "datetime_iso": "2027-03-02T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064C206BFE21C",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-bristol-02-03-2027/event/350064C206BFE21C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-bristol-02-03-2027/event/350064C206BFE21C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064C206BFE21C",
+        "discovery_event_id": "17u8v0G6GFkRXFj",
+        "url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-bristol-02-03-2027/event/350064C206BFE21C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G6GFkRXFj",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sleeping-with-sirens-2027-glasgow-g5dzz_g5isp0f",
+    "artist_slug": "sleeping-with-sirens",
+    "artist_name": "Sleeping With Sirens",
+    "event_name": "Sleeping with Sirens - An Ending In Itself Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "O2 Academy Glasgow",
+    "datetime_iso": "2027-03-03T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0064C2E8CD6908",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-glasgow-03-03-2027/event/3E0064C2E8CD6908",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-glasgow-03-03-2027/event/3E0064C2E8CD6908",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064C2E8CD6908",
+        "discovery_event_id": "G5dzZ_G5ISp0F",
+        "url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-glasgow-03-03-2027/event/3E0064C2E8CD6908",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_G5ISp0F",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sleeping-with-sirens-2027-manchester-g5vhz_gfgtq6v",
+    "artist_slug": "sleeping-with-sirens",
+    "artist_name": "Sleeping With Sirens",
+    "event_name": "Sleeping with Sirens - An Ending In Itself Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Manchester Academy",
+    "datetime_iso": "2027-03-05T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064C20CA5D1F4",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-manchester-05-03-2027/event/1F0064C20CA5D1F4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-manchester-05-03-2027/event/1F0064C20CA5D1F4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064C20CA5D1F4",
+        "discovery_event_id": "G5vHZ_GFGtq6V",
+        "url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-manchester-05-03-2027/event/1F0064C20CA5D1F4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_GFGtq6V",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sleeping-with-sirens-2027-birmingham-g5dzz_5wuo0od",
+    "artist_slug": "sleeping-with-sirens",
+    "artist_name": "Sleeping With Sirens",
+    "event_name": "Sleeping with Sirens - An Ending In Itself Tour",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "O2 Academy Birmingham",
+    "datetime_iso": "2027-03-06T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0064BCB6824443",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-birmingham-06-03-2027/event/3E0064BCB6824443",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-birmingham-06-03-2027/event/3E0064BCB6824443",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064BCB6824443",
+        "discovery_event_id": "G5dzZ_5wUO0od",
+        "url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-birmingham-06-03-2027/event/3E0064BCB6824443",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_5wUO0od",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sleeping-with-sirens-2027-london-g5dzz_g5cip1i",
+    "artist_slug": "sleeping-with-sirens",
+    "artist_name": "Sleeping With Sirens",
+    "event_name": "Sleeping With Sirens  An Ending In Itself Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Academy Brixton",
+    "datetime_iso": "2027-03-07T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0064C2CEA252AC",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-london-07-03-2027/event/3E0064C2CEA252AC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-london-07-03-2027/event/3E0064C2CEA252AC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064C2CEA252AC",
+        "discovery_event_id": "G5dzZ_G5CIP1i",
+        "url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-london-07-03-2027/event/3E0064C2CEA252AC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_G5CIP1i",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sleeping-with-sirens-2027-brisbane-1akzkfygkeprtzf",
+    "artist_slug": "sleeping-with-sirens",
+    "artist_name": "Sleeping With Sirens",
+    "event_name": "An Ending in Itself Tour - Sleeping With Sirens (US)",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "The Fortitude Music Hall",
+    "datetime_iso": "2027-04-03T08:15:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006539A57A9E14",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/an-ending-in-itself-tour-sleeping-brisbane-03-04-2027/event/13006539A57A9E14",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/an-ending-in-itself-tour-sleeping-brisbane-03-04-2027/event/13006539A57A9E14",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006539A57A9E14",
+        "discovery_event_id": "1AKZkfyGkePrtzf",
+        "url": "https://www.ticketmaster.com.au/an-ending-in-itself-tour-sleeping-brisbane-03-04-2027/event/13006539A57A9E14",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZkfyGkePrtzf",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sleeping-with-sirens-2027-west-melbourne-1avgz_kgkwtduwz",
+    "artist_slug": "sleeping-with-sirens",
+    "artist_name": "Sleeping With Sirens",
+    "event_name": "An Ending in Itself Tour - Sleeping With Sirens (US)",
+    "city": "West Melbourne",
+    "country": "Australia",
+    "venue": "Festival Hall Melbourne",
+    "datetime_iso": "2027-04-06T08:15:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300653CBFEF6F40",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/an-ending-in-itself-tour-sleeping-west-melbourne-06-04-2027/event/1300653CBFEF6F40",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/an-ending-in-itself-tour-sleeping-west-melbourne-06-04-2027/event/1300653CBFEF6F40",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300653CBFEF6F40",
+        "discovery_event_id": "1AvGZ_KGkwTDUWZ",
+        "url": "https://www.ticketmaster.com.au/an-ending-in-itself-tour-sleeping-west-melbourne-06-04-2027/event/1300653CBFEF6F40",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_KGkwTDUWZ",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  }
+]

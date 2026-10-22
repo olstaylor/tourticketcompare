@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-21",
+  "updated_at": "2026-10-22",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -1855,6 +1855,72 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-10-21 (sanctioned path D): SeatGeek performer 33 and Ticketmaster attraction K8vZ91713NV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "los-tigres-del-norte",
+      "ticketmaster_attraction_id": "K8vZ9171187",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/los-tigres-del-norte-tickets/artist/755233",
+      "seatgeek_performer_id": 1145,
+      "seatgeek_artist_url": "https://seatgeek.com/los-tigres-del-norte-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-22 (sanctioned path D): SeatGeek performer 1145 and Ticketmaster attraction K8vZ9171187 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "the-chicks",
+      "ticketmaster_attraction_id": "K8vZ9171fU7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/the-chicks-tickets/artist/758656",
+      "seatgeek_performer_id": 2346,
+      "seatgeek_artist_url": "https://seatgeek.com/the-chicks-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-22 (sanctioned path D): SeatGeek performer 2346 and Ticketmaster attraction K8vZ9171fU7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "young-miko",
+      "ticketmaster_attraction_id": "K8vZ917hET7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/young-miko-tickets/artist/3048303",
+      "seatgeek_performer_id": 809239,
+      "seatgeek_artist_url": "https://seatgeek.com/young-miko-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-22 (sanctioned path D): SeatGeek performer 809239 and Ticketmaster attraction K8vZ917hET7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "zac-brown-band",
+      "ticketmaster_attraction_id": "K8vZ9175zn0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/zac-brown-band-tickets/artist/1016048",
+      "seatgeek_performer_id": 2047,
+      "seatgeek_artist_url": "https://seatgeek.com/zac-brown-band-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-22 (sanctioned path D): SeatGeek performer 2047 and Ticketmaster attraction K8vZ9175zn0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "sleeping-with-sirens",
+      "ticketmaster_attraction_id": "K8vZ917Gmh7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/sleeping-with-sirens-tickets/artist/1404292",
+      "seatgeek_performer_id": 12930,
+      "seatgeek_artist_url": "https://seatgeek.com/sleeping-with-sirens-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-22 (sanctioned path D): SeatGeek performer 12930 and Ticketmaster attraction K8vZ917Gmh7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "chayanne",
+      "ticketmaster_attraction_id": "K8vZ9171a90",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/chayanne-tickets/artist/754853",
+      "seatgeek_performer_id": 4389,
+      "seatgeek_artist_url": "https://seatgeek.com/chayanne-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-22 (sanctioned path D): SeatGeek performer 4389 and Ticketmaster attraction K8vZ9171a90 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

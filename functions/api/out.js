@@ -2459,6 +2459,90 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-dave-matthews-band",
     redirectUrl: "https://seatgeek.com/dave-matthews-band-tickets",
     verified: true
+  },
+  "los-tigres-del-norte:ticketmaster": {
+    artistSlug: "los-tigres-del-norte",
+    provider: "ticketmaster",
+    linkId: "tm-artist-los-tigres-del-norte",
+    redirectUrl: "https://www.ticketmaster.com/los-tigres-del-norte-tickets/artist/755233",
+    verified: true
+  },
+  "los-tigres-del-norte:seatgeek": {
+    artistSlug: "los-tigres-del-norte",
+    provider: "seatgeek",
+    linkId: "sg-artist-los-tigres-del-norte",
+    redirectUrl: "https://seatgeek.com/los-tigres-del-norte-tickets",
+    verified: true
+  },
+  "the-chicks:ticketmaster": {
+    artistSlug: "the-chicks",
+    provider: "ticketmaster",
+    linkId: "tm-artist-the-chicks",
+    redirectUrl: "https://www.ticketmaster.com/the-chicks-tickets/artist/758656",
+    verified: true
+  },
+  "the-chicks:seatgeek": {
+    artistSlug: "the-chicks",
+    provider: "seatgeek",
+    linkId: "sg-artist-the-chicks",
+    redirectUrl: "https://seatgeek.com/the-chicks-tickets",
+    verified: true
+  },
+  "young-miko:ticketmaster": {
+    artistSlug: "young-miko",
+    provider: "ticketmaster",
+    linkId: "tm-artist-young-miko",
+    redirectUrl: "https://www.ticketmaster.com/young-miko-tickets/artist/3048303",
+    verified: true
+  },
+  "young-miko:seatgeek": {
+    artistSlug: "young-miko",
+    provider: "seatgeek",
+    linkId: "sg-artist-young-miko",
+    redirectUrl: "https://seatgeek.com/young-miko-tickets",
+    verified: true
+  },
+  "zac-brown-band:ticketmaster": {
+    artistSlug: "zac-brown-band",
+    provider: "ticketmaster",
+    linkId: "tm-artist-zac-brown-band",
+    redirectUrl: "https://www.ticketmaster.com/zac-brown-band-tickets/artist/1016048",
+    verified: true
+  },
+  "zac-brown-band:seatgeek": {
+    artistSlug: "zac-brown-band",
+    provider: "seatgeek",
+    linkId: "sg-artist-zac-brown-band",
+    redirectUrl: "https://seatgeek.com/zac-brown-band-tickets",
+    verified: true
+  },
+  "sleeping-with-sirens:ticketmaster": {
+    artistSlug: "sleeping-with-sirens",
+    provider: "ticketmaster",
+    linkId: "tm-artist-sleeping-with-sirens",
+    redirectUrl: "https://www.ticketmaster.com/sleeping-with-sirens-tickets/artist/1404292",
+    verified: true
+  },
+  "sleeping-with-sirens:seatgeek": {
+    artistSlug: "sleeping-with-sirens",
+    provider: "seatgeek",
+    linkId: "sg-artist-sleeping-with-sirens",
+    redirectUrl: "https://seatgeek.com/sleeping-with-sirens-tickets",
+    verified: true
+  },
+  "chayanne:ticketmaster": {
+    artistSlug: "chayanne",
+    provider: "ticketmaster",
+    linkId: "tm-artist-chayanne",
+    redirectUrl: "https://www.ticketmaster.com/chayanne-tickets/artist/754853",
+    verified: true
+  },
+  "chayanne:seatgeek": {
+    artistSlug: "chayanne",
+    provider: "seatgeek",
+    linkId: "sg-artist-chayanne",
+    redirectUrl: "https://seatgeek.com/chayanne-tickets",
+    verified: true
   }
 };
 

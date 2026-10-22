@@ -464,6 +464,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668940",
+        "url": "https://www.stubhub.ie/ha-ash-inglewood-tickets-5-2-2027/event/107668940",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_3Teyn4F",
@@ -480,7 +487,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-inglewood-tickets-5-2-2027/event/107668940"
   },
   {
     "id": "tm-ha-ash-2027-san-jose-g5vyz_k6wigg_",

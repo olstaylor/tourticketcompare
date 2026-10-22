@@ -633,6 +633,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671875",
+        "url": "https://www.stubhub.ie/warren-zeiders-hollywood-tickets-3-26-2027/event/107671875",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_fkapkZQ",
@@ -646,7 +653,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307487",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307487/Warren-Zeiders-tickets-Fri-Mar-26-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307487/Warren-Zeiders-tickets-Fri-Mar-26-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-hollywood-tickets-3-26-2027/event/107671875"
   },
   {
     "id": "tm-warren-zeiders-2027-waukee-1ae7z_kgkdkgpa5",

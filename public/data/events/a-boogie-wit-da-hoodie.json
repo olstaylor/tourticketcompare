@@ -165,6 +165,13 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675658",
+        "url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-boston-tickets-11-6-2026/event/107675658",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPGbGAuMyrW",
@@ -173,7 +180,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8298499/A-Boogie-Wit-Da-Hoodie-tickets-Fri-Nov-6-2026-Agganis-Arena",
     "organizer_names": [
       "THE TOURING CO"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-boston-tickets-11-6-2026/event/107675658"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-boston-vv1a8vpgbgauu_ra",
@@ -229,6 +237,13 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677507",
+        "url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-boston-tickets-11-7-2026/event/107677507",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPGbGAuU_ra",
@@ -237,7 +252,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293621/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Nov-7-2026-Agganis-Arena",
     "organizer_names": [
       "THE TOURING CO"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-boston-tickets-11-7-2026/event/107677507"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-philadelphia-vv1aezkfygkeinqmd",

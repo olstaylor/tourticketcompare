@@ -175,12 +175,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482398",
+        "url": "https://www.stubhub.ie/dave-matthews-band-chicago-tickets-11-7-2026/event/107482398",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_CDE9wdz",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195879/Dave-Matthews-Band-tickets-Sat-Nov-7-2026-United-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195879/Dave-Matthews-Band-tickets-Sat-Nov-7-2026-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/dave-matthews-band-chicago-tickets-11-7-2026/event/107482398"
   },
   {
     "id": "tm-dave-matthews-band-2026-providence-vvg17z_2piw04c",
@@ -358,12 +366,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482399",
+        "url": "https://www.stubhub.ie/dave-matthews-band-new-york-tickets-11-12-2026/event/107482399",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_2NJWaf8",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195882/Dave-Matthews-Band-tickets-Thu-Nov-12-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195882/Dave-Matthews-Band-tickets-Thu-Nov-12-2026-Madison-Square-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/dave-matthews-band-new-york-tickets-11-12-2026/event/107482399"
   },
   {
     "id": "tm-dave-matthews-band-2026-new-york-g5diz_2njdtfa",
@@ -419,11 +435,19 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107490083",
+        "url": "https://www.stubhub.ie/dave-matthews-band-new-york-tickets-11-13-2026/event/107490083",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_2NJDtfA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195883/Dave-Matthews-Band-tickets-Fri-Nov-13-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195883/Dave-Matthews-Band-tickets-Fri-Nov-13-2026-Madison-Square-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/dave-matthews-band-new-york-tickets-11-13-2026/event/107490083"
   }
 ]

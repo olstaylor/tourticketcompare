@@ -120,18 +120,18 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107324079",
-        "url": "https://www.stubhub.ie/bryson-tiller-phoenix-tickets-10-20-2026/event/107324079",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G65lC9IRs",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-phoenix-tickets-10-20-2026/event/107324079",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

@@ -421,11 +421,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107383080",
-        "url": "https://www.stubhub.ie/sienna-spiro-brooklyn-tickets-10-21-2026/event/107383080",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_Gre9Jk_",
@@ -433,7 +433,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038342",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038342/Sienna-Spiro-tickets-Wed-Oct-21-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-brooklyn-tickets-10-21-2026/event/107383080",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

@@ -251,14 +251,14 @@
         "event_id": 18029029,
         "url": "https://seatgeek.com/gorillaz-tickets/salt-lake-city-utah-delta-center-1-2026-10-20-7-30-pm/concert/18029029",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6739877,
         "url": "https://www.vividseats.com/gorillaz-tickets-salt-lake-city-delta-center-10-20-2026--concerts-alternative/production/6739877",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -276,11 +276,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7774760",
-        "url": "https://www.ticketliquidator.com/tickets/7774760/Gorillaz-tickets-Tue-Oct-20-2026-Delta-Center",
-        "verified": true,
-        "last_verified_at": "2026-10-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-9AI",
@@ -290,7 +290,7 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774760",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774760/Gorillaz-tickets-Tue-Oct-20-2026-Delta-Center"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-gorillaz-2026-phoenix-1av0z_agknirbye",
@@ -323,14 +323,14 @@
         "event_id": 18102846,
         "url": "https://seatgeek.com/gorillaz-tickets/phoenix-arizona-mortgage-matchup-center-2026-10-23-7-pm/concert/18102846",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6739879,
         "url": "https://www.vividseats.com/gorillaz-tickets-phoenix-mortgage-matchup-center-10-23-2026--concerts-alternative/production/6739879",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -388,7 +388,7 @@
     "vividseats_url": "https://www.vividseats.com/gorillaz-tickets-inglewood-kia-forum-10-24-2026--concerts-alternative/production/6739882",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-inglewood-california-10-24-2026/event/0900645BA891CBBF",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403,14 +403,14 @@
         "event_id": 18102848,
         "url": "https://seatgeek.com/gorillaz-tickets/inglewood-california-kia-forum-2026-10-24-7-30-pm/concert/18102848",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6739882,
         "url": "https://www.vividseats.com/gorillaz-tickets-inglewood-kia-forum-10-24-2026--concerts-alternative/production/6739882",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -448,13 +448,6 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-03-09T17:00:00Z",
-        "end": "2026-10-20T19:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774762",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774762/Gorillaz-tickets-Sat-Oct-24-2026-The-Kia-Forum",
     "stubhub_international_url": "https://www.stubhub.ie/gorillaz-inglewood-tickets-10-24-2026/event/107129381"
@@ -490,7 +483,7 @@
         "event_id": 18102849,
         "url": "https://seatgeek.com/gorillaz-tickets/san-diego-california-pechanga-arena-san-diego-2026-10-25-7-30-pm/concert/18102849",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -576,7 +569,7 @@
         "event_id": 6740703,
         "url": "https://www.vividseats.com/gorillaz-tickets-oakland-oakland-arena-10-28-2026/production/6740703",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -664,7 +657,7 @@
         "event_id": 6740705,
         "url": "https://www.vividseats.com/gorillaz-tickets-portland-moda-center-10-30-2026/production/6740705",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -751,7 +744,7 @@
         "event_id": 6739888,
         "url": "https://www.vividseats.com/gorillaz-tickets-seattle-climate-pledge-arena-10-31-2026--concerts-alternative/production/6739888",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {

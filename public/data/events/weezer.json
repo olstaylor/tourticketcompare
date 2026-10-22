@@ -221,7 +221,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1900646DE31FCD84",
     "ticketmaster_url": "https://www.ticketmaster.com/weezer-the-gathering-phoenix-arizona-10-20-2026/event/1900646DE31FCD84",
-    "seatgeek_url": "https://seatgeek.com/weezer-tickets/phoenix-arizona-mortgage-matchup-center-2026-10-20-7-pm/concert/18147545",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/weezer-tickets-phoenix-mortgage-matchup-center-10-20-2026/production/6833900",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/weezer-the-gathering-phoenix-arizona-10-20-2026/event/1900646DE31FCD84",
@@ -237,17 +237,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18147545,
-        "url": "https://seatgeek.com/weezer-tickets/phoenix-arizona-mortgage-matchup-center-2026-10-20-7-pm/concert/18147545",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6833900,
         "url": "https://www.vividseats.com/weezer-tickets-phoenix-mortgage-matchup-center-10-20-2026/production/6833900",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -265,18 +265,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7833739",
-        "url": "https://www.ticketliquidator.com/tickets/7833739/Weezer-tickets-Tue-Oct-20-2026-Mortgage-Matchup-Center",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_kGkMN6HU7",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833739",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7833739/Weezer-tickets-Tue-Oct-20-2026-Mortgage-Matchup-Center",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -329,7 +329,7 @@
         "event_id": 18147546,
         "url": "https://seatgeek.com/weezer-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-10-21-7-pm/concert/18147546",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -408,14 +408,14 @@
         "event_id": 18147548,
         "url": "https://seatgeek.com/weezer-tickets/las-vegas-nevada-t-mobile-arena-2026-10-23-7-pm/concert/18147548",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6833922,
         "url": "https://www.vividseats.com/weezer-tickets-las-vegas-t-mobile-arena-10-23-2026/production/6833922",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -488,7 +488,7 @@
         "event_id": 18147549,
         "url": "https://seatgeek.com/weezer-tickets/los-angeles-california-crypto-com-arena-2026-10-24-7-pm/concert/18147549",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -639,7 +639,7 @@
         "event_id": 7387539,
         "url": "https://www.vividseats.com/weezer-tickets-newcastle-upon-tyne-utilita-arena-newcastle-5-14-2027--concerts-alternative/production/7387539",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -695,7 +695,7 @@
         "event_id": 7387541,
         "url": "https://www.vividseats.com/weezer-tickets-manchester-co-op-live-5-15-2027--concerts-alternative/production/7387541",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -775,7 +775,7 @@
         "event_id": 7387543,
         "url": "https://www.vividseats.com/weezer-tickets-leeds-first-direct-arena---leeds-5-17-2027--concerts-alternative/production/7387543",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -831,7 +831,7 @@
         "event_id": 7387545,
         "url": "https://www.vividseats.com/weezer-tickets-glasgow-ovo-hydro-5-19-2027--concerts-alternative/production/7387545",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -904,7 +904,7 @@
         "event_id": 7387549,
         "url": "https://www.vividseats.com/weezer-tickets-birmingham-utilita-arena-birmingham-5-21-2027--concerts-alternative/production/7387549",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -968,7 +968,7 @@
         "event_id": 7387551,
         "url": "https://www.vividseats.com/weezer-tickets-london-alexandra-palace-5-22-2027--concerts-alternative/production/7387551",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1048,7 +1048,7 @@
         "event_id": 7387553,
         "url": "https://www.vividseats.com/weezer-tickets-cardiff-utilita-arena-cardiff-5-23-2027--concerts-alternative/production/7387553",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {

@@ -96,7 +96,7 @@
         "event_id": 7588032,
         "url": "https://www.vividseats.com/haash-tickets-indianapolis-murat-theatre-at-old-national-centre-4-22-2027/production/7588032",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -180,7 +180,7 @@
         "event_id": 7587686,
         "url": "https://www.vividseats.com/haash-tickets-rosemont-rosemont-theatre-4-23-2027/production/7587686",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -267,7 +267,7 @@
         "event_id": 7587495,
         "url": "https://www.vividseats.com/haash-tickets-denver-paramount-theatre-denver-4-25-2027/production/7587495",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -354,7 +354,7 @@
         "event_id": 7587501,
         "url": "https://www.vividseats.com/haash-tickets-seattle-paramount-theatre-seattle-4-28-2027/production/7587501",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -431,17 +431,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18608842,
+        "url": "https://seatgeek.com/ha-ash-tickets/inglewood-california-youtube-theater-2027-05-02-8-pm/concert/18608842",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7587525,
         "url": "https://www.vividseats.com/haash-tickets-inglewood-youtube-theater-5-2-2027/production/7587525",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -464,6 +464,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668940",
+        "url": "https://www.stubhub.ie/ha-ash-inglewood-tickets-5-2-2027/event/107668940",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_3Teyn4F",
@@ -480,7 +487,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-inglewood-tickets-5-2-2027/event/107668940"
   },
   {
     "id": "tm-ha-ash-2027-san-jose-g5vyz_k6wigg_",
@@ -513,14 +521,14 @@
         "event_id": 18608844,
         "url": "https://seatgeek.com/ha-ash-tickets/san-jose-california-san-jose-civic-2027-05-06-8-pm/concert/18608844",
         "verified": true,
-        "last_verified_at": "2026-10-16",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7587521,
         "url": "https://www.vividseats.com/haash-tickets-san-jose-san-jose-civic-5-6-2027/production/7587521",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -597,11 +605,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18608845,
+        "url": "https://seatgeek.com/ha-ash-tickets/phoenix-arizona-arizona-financial-theatre-2027-05-08-8-pm/concert/18608845",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -687,14 +695,14 @@
         "event_id": 18608852,
         "url": "https://seatgeek.com/ha-ash-tickets/el-paso-texas-el-paso-county-coliseum-2027-05-12-7-pm/concert/18608852",
         "verified": true,
-        "last_verified_at": "2026-10-16",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7587638,
         "url": "https://www.vividseats.com/haash-tickets-el-paso-el-paso-county-coliseum-5-12-2027/production/7587638",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -774,14 +782,14 @@
         "event_id": 18608853,
         "url": "https://seatgeek.com/ha-ash-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2027-05-14-8-pm/concert/18608853",
         "verified": true,
-        "last_verified_at": "2026-10-16",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7587556,
         "url": "https://www.vividseats.com/haash-tickets-irving-pavilion-at-toyota-music-factory-5-14-2027/production/7587556",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -861,14 +869,14 @@
         "event_id": 18608854,
         "url": "https://seatgeek.com/ha-ash-tickets/hidalgo-texas-payne-arena-2027-05-15-8-pm/concert/18608854",
         "verified": true,
-        "last_verified_at": "2026-10-16",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7587572,
         "url": "https://www.vividseats.com/haash-tickets-hidalgo-payne-arena-5-15-2027/production/7587572",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -945,11 +953,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18608855,
+        "url": "https://seatgeek.com/ha-ash-tickets/houston-texas-713-music-hall-2027-05-16-8-pm/concert/18608855",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1032,11 +1040,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18608856,
+        "url": "https://seatgeek.com/ha-ash-tickets/new-york-new-york-united-palace-theatre-2027-05-19-8-pm/concert/18608856",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1119,11 +1127,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18608857,
+        "url": "https://seatgeek.com/ha-ash-tickets/atlanta-georgia-coca-cola-roxy-theatre-2027-05-21-8-pm/concert/18608857",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1206,17 +1214,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18608864,
+        "url": "https://seatgeek.com/ha-ash-tickets/miami-beach-florida-the-fillmore-miami-beach-at-jackie-gleason-theater-2027-05-22-8-pm/concert/18608864",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7587644,
         "url": "https://www.vividseats.com/haash-tickets-miami-beach-fillmore-miami-beach-at-jackie-gleason-theater-5-22-2027/production/7587644",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1288,14 +1296,14 @@
         "event_id": 18608867,
         "url": "https://seatgeek.com/ha-ash-tickets/portland-oregon-keller-auditorium-2027-04-29-8-pm/concert/18608867",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7587715,
         "url": "https://www.vividseats.com/haash-tickets-portland-keller-auditorium-4-29-2027/production/7587715",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1360,7 +1368,7 @@
         "event_id": 18608868,
         "url": "https://seatgeek.com/ha-ash-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-05-01-8-pm/concert/18608868",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {

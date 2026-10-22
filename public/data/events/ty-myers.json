@@ -1,0 +1,254 @@
+[
+  {
+    "id": "tm-ty-myers-2026-evansville-vv1aazkowgkd1n5gg",
+    "artist_slug": "ty-myers",
+    "artist_name": "Ty Myers",
+    "event_name": "Ty Myers: The Legal Tour 2026",
+    "city": "Evansville",
+    "country": "United States Of America",
+    "venue": "Ford Center",
+    "datetime_iso": "2026-10-24T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006472CA8CB335",
+    "ticketmaster_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-evansville-indiana-10-23-2026/event/05006472CA8CB335",
+    "seatgeek_url": "https://seatgeek.com/ty-myers-tickets/evansville-indiana-ford-center-in-2026-10-23-7-30-pm/concert/18142342",
+    "vividseats_url": "https://www.vividseats.com/ty-myers-tickets-evansville-ford-center-evansville-10-23-2026--concerts-country-and-folk/production/6828452",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-evansville-indiana-10-23-2026/event/05006472CA8CB335",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006472CA8CB335",
+        "discovery_event_id": "vv1AAZkowGkd1N5Gg",
+        "url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-evansville-indiana-10-23-2026/event/05006472CA8CB335",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18142342,
+        "url": "https://seatgeek.com/ty-myers-tickets/evansville-indiana-ford-center-in-2026-10-23-7-30-pm/concert/18142342",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 6828452,
+        "url": "https://www.vividseats.com/ty-myers-tickets-evansville-ford-center-evansville-10-23-2026--concerts-country-and-folk/production/6828452",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7830814",
+        "url": "https://www.ticketliquidator.com/tickets/7830814/Ty-Myers-tickets-Fri-Oct-23-2026-Ford-Center-IN",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZkowGkd1N5Gg",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7830814/Ty-Myers-tickets-Fri-Oct-23-2026-Ford-Center-IN"
+  },
+  {
+    "id": "tm-ty-myers-2026-pikeville-1apzkovgkdxnmip",
+    "artist_slug": "ty-myers",
+    "artist_name": "Ty Myers",
+    "event_name": "Ty Myers: The Legal Tour 2026",
+    "city": "Pikeville",
+    "country": "United States Of America",
+    "venue": "Appalachian Wireless Arena (Formerly Eastern Kentucky Expo Ctr)",
+    "datetime_iso": "2026-10-24T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006474FEAB7B16",
+    "ticketmaster_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-pikeville-kentucky-10-24-2026/event/16006474FEAB7B16",
+    "seatgeek_url": "https://seatgeek.com/ty-myers-tickets/pikeville-kentucky-appalachian-wireless-arena-2026-10-24-7-30-pm/concert/18142343",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-pikeville-kentucky-10-24-2026/event/16006474FEAB7B16",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006474FEAB7B16",
+        "discovery_event_id": "1ApZkoVGkdXnMip",
+        "url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-pikeville-kentucky-10-24-2026/event/16006474FEAB7B16",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18142343,
+        "url": "https://seatgeek.com/ty-myers-tickets/pikeville-kentucky-appalachian-wireless-arena-2026-10-24-7-30-pm/concert/18142343",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ApZkoVGkdXnMip",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-ty-myers-2026-austin-g5diz_kuopazl",
+    "artist_slug": "ty-myers",
+    "artist_name": "Ty Myers",
+    "event_name": "Ty Myers: The Legal Tour 2026",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2026-11-21T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00646DA0949E2B",
+    "ticketmaster_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-austin-texas-11-20-2026/event/3A00646DA0949E2B",
+    "seatgeek_url": "https://seatgeek.com/ty-myers-tickets/austin-texas-moody-center-atx-2026-11-20-7-30-pm/concert/18142345",
+    "vividseats_url": "https://www.vividseats.com/ty-myers-tickets-austin-moody-center-atx-11-20-2026--concerts-country-and-folk/production/6828458",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-austin-texas-11-20-2026/event/3A00646DA0949E2B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00646DA0949E2B",
+        "discovery_event_id": "G5dIZ_kUOPazl",
+        "url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-austin-texas-11-20-2026/event/3A00646DA0949E2B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18142345,
+        "url": "https://seatgeek.com/ty-myers-tickets/austin-texas-moody-center-atx-2026-11-20-7-30-pm/concert/18142345",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 6828458,
+        "url": "https://www.vividseats.com/ty-myers-tickets-austin-moody-center-atx-11-20-2026--concerts-country-and-folk/production/6828458",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7830817",
+        "url": "https://www.ticketliquidator.com/tickets/7830817/Ty-Myers-tickets-Fri-Nov-20-2026-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107165656",
+        "url": "https://www.stubhub.ie/ty-myers-austin-tickets-11-20-2026/event/107165656",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_kUOPazl",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7830817/Ty-Myers-tickets-Fri-Nov-20-2026-Moody-Center-ATX",
+    "stubhub_international_url": "https://www.stubhub.ie/ty-myers-austin-tickets-11-20-2026/event/107165656"
+  },
+  {
+    "id": "tm-ty-myers-2026-fort-worth-vvg1yz_61djqel",
+    "artist_slug": "ty-myers",
+    "artist_name": "Ty Myers",
+    "event_name": "Ty Myers: The Legal Tour 2026",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Dickies Arena",
+    "datetime_iso": "2026-11-22T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006472BB99A9EB",
+    "ticketmaster_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-fort-worth-texas-11-21-2026/event/0C006472BB99A9EB",
+    "seatgeek_url": "https://seatgeek.com/ty-myers-tickets/fort-worth-texas-dickies-arena-2026-11-21-7-30-pm/concert/18142347",
+    "vividseats_url": "https://www.vividseats.com/ty-myers-tickets-fort-worth-dickies-arena-11-21-2026--concerts-country-and-folk/production/6828460",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-fort-worth-texas-11-21-2026/event/0C006472BB99A9EB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006472BB99A9EB",
+        "discovery_event_id": "vvG1YZ_61DJQEl",
+        "url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-fort-worth-texas-11-21-2026/event/0C006472BB99A9EB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18142347,
+        "url": "https://seatgeek.com/ty-myers-tickets/fort-worth-texas-dickies-arena-2026-11-21-7-30-pm/concert/18142347",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 6828460,
+        "url": "https://www.vividseats.com/ty-myers-tickets-fort-worth-dickies-arena-11-21-2026--concerts-country-and-folk/production/6828460",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7830819",
+        "url": "https://www.ticketliquidator.com/tickets/7830819/Ty-Myers-tickets-Sat-Nov-21-2026-Dickies-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107167142",
+        "url": "https://www.stubhub.ie/ty-myers-fort-worth-tickets-11-21-2026/event/107167142",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_61DJQEl",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7830819/Ty-Myers-tickets-Sat-Nov-21-2026-Dickies-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/ty-myers-fort-worth-tickets-11-21-2026/event/107167142"
+  }
+]

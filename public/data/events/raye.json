@@ -3,11 +3,11 @@
     "id": "tm-raye-2026-london-g5vhz_frai-ph",
     "artist_slug": "raye",
     "artist_name": "RAYE",
-    "event_name": "RAYE",
+    "event_name": "Raye - This Symphony May Contain Hope",
     "city": "London",
     "country": "Great Britain",
     "venue": "Royal Albert Hall",
-    "datetime_iso": "2026-10-23T18:15:00Z",
+    "datetime_iso": "2026-10-23T19:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1F00654789A2159B",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/raye-london-23-10-2026/event/1F00654789A2159B",
@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/raye-tickets-london-royal-albert-hall-10-23-2026/production/7695778",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/raye-london-23-10-2026/event/1F00654789A2159B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -37,7 +37,7 @@
         "event_id": 7695778,
         "url": "https://www.vividseats.com/raye-tickets-london-royal-albert-hall-10-23-2026/production/7695778",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {

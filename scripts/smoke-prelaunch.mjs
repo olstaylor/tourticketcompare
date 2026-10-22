@@ -36,7 +36,7 @@ const expectedH1 = new Map([
   ["/cities", "Concerts by city"],
   ["/on-sale", "Concert tickets going on sale"],
   ["/guides", "Ticket buying guides"],
-  ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster: Key Differences, Fees & Safety"],
+  ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster: Which Is Better?"],
   ["/blog", "TourTicketCompare blog"],
   ["/compare-concert-ticket-prices", "Compare concert ticket prices by site"],
   ["/how-it-works", "How TourTicketCompare works"],
@@ -54,7 +54,7 @@ const expectedTitle = new Map([
   ["/cities", "Concerts by City | Upcoming Tour Dates | TourTicketCompare"],
   ["/on-sale", "Concert Tickets Going On Sale Soon | TourTicketCompare"],
   ["/guides", "Concert Ticket Buying Guides | TourTicketCompare"],
-  ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster: Key Differences, Fees & Safety"],
+  ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster: Which Is Better?"],
   ["/blog", "Ticket Research Blog | TourTicketCompare"],
   ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices by Site | TourTicketCompare"],
   ["/how-it-works", "How TourTicketCompare Works"],
@@ -338,13 +338,18 @@ async function assertNoStaticSeatGeekPriceClaims(files) {
     },
     {
       label: "unconditional SeatGeek price-availability claim",
-      pattern: /\bSeatGeek\s+prices?\s+(?:are|is)\s+(?:always\s+)?(?:available|shown|displayed)\b/i
+      pattern: /\bSeatGeek\s+prices?\s+(?:are|is)\s+(?:(?:always|now|currently)\s+)*(?:available|shown|displayed)\b/i
     },
     {
       label: "unconditional SeatGeek price-availability claim",
-      pattern: /\bSeatGeek\s+prices?\s+(?:are|is)\s+(?:always\s+)?(?:available|shown|displayed)\b/i
+      pattern: /\b(?:we|this\s+(?:site|page)|TTC|TourTicketCompare)\s+(?:(?:always|now|currently)\s+)*(?:display|show|displays|shows)\s+SeatGeek\s+prices?\b/i
     }
   ];
+
+  for (const claim of ["We display SeatGeek prices", "SeatGeek prices are now shown", "SeatGeek prices are currently available"]) {
+    assert(rules.some((rule) => rule.pattern.test(claim)), `the SeatGeek claim guard must reject: ${claim}`);
+  }
+  assert(!rules.some((rule) => rule.pattern.test("A fresh, verified SeatGeek price may be shown when its approved source passes the display gates.")), "conditional approved-source SeatGeek copy remains permitted");
 
   await assertLineRulesAbsent(files, rules, "static SeatGeek price-claim guard (only fresh approved snapshots may be displayed)");
 }
@@ -2344,7 +2349,7 @@ const serverPricedMorgan = await routeResponse("/artists/morgan-wallen", envWith
   IMPACT_VIVIDSEATS_BASE_TRACKING_URL: "https://example.test/vivid?u="
 }));
 assert(serverPricedMorgan.text.includes("provider-cta-price") && serverPricedMorgan.text.includes('<p class="disclosure-note">Checked <time') && /Checked <time datetime="[^"]+" title="[^"]+">[^<]+<\/time>/.test(serverPricedMorgan.text) && /Lowest listed prices?</.test(serverPricedMorgan.text), "server-rendered artist cards should show eligible provider snapshots with one unified note before client hydration");
-assert(serverPricedMorgan.text.includes("SeatGeek") && serverPricedMorgan.text.includes("USD 123.45"), "a fresh approved SeatGeek snapshot should appear on its attributed CTA");
+assert((serverPricedMorgan.text.match(/<a\b[^>]*data-cta-provider="seatgeek"[^>]*>[\s\S]*?<\/a>/g) || []).some((cta) => /USD\s+123\.45/.test(cta) && cta.includes("provider=seatgeek")), "a fresh approved SeatGeek snapshot should appear on its attributed CTA");
 // Ticketmaster never carries a price, so a card mixing it with a priced lane
 // must never claim a price "on each" button.
 for (const card of serverPricedMorgan.text.split('<article class="info-card show-card').slice(1)) {

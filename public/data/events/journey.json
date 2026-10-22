@@ -297,7 +297,7 @@
     "ticketmaster_event_id": "0E0064A599B6B9EB",
     "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-atlanta-georgia-10-19-2026/event/0E0064A599B6B9EB",
     "seatgeek_url": "https://seatgeek.com/journey-tickets/atlanta-georgia-state-farm-arena-1-2026-10-19-7-30-pm/concert/18237108",
-    "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-atlanta-state-farm-arena-10-19-2026/production/7022027",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-atlanta-georgia-10-19-2026/event/0E0064A599B6B9EB",
     "last_verified_at": "2026-10-15",
@@ -319,11 +319,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7022027,
-        "url": "https://www.vividseats.com/journey---rock-band-tickets-atlanta-state-farm-arena-10-19-2026/production/7022027",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -395,14 +395,14 @@
         "event_id": 18237111,
         "url": "https://seatgeek.com/journey-tickets/nashville-tennessee-bridgestone-arena-2026-10-21-7-30-pm/concert/18237111",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7022021,
         "url": "https://www.vividseats.com/journey---rock-band-tickets-nashville-bridgestone-arena-10-21-2026/production/7022021",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -467,14 +467,14 @@
         "event_id": 18237196,
         "url": "https://seatgeek.com/journey-tickets/louisville-kentucky-kfc-yum-center-2026-10-22-7-30-pm/concert/18237196",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7022508,
         "url": "https://www.vividseats.com/journey---rock-band-tickets-louisville-kfc-yum-center-10-22-2026/production/7022508",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -536,14 +536,14 @@
         "event_id": 18237112,
         "url": "https://seatgeek.com/journey-tickets/baltimore-maryland-cfg-bank-arena-2026-10-24-7-30-pm/concert/18237112",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7022013,
         "url": "https://www.vividseats.com/journey---rock-band-tickets-baltimore-cfg-bank-arena-10-24-2026/production/7022013",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -608,14 +608,14 @@
         "event_id": 18237088,
         "url": "https://seatgeek.com/journey-tickets/newark-new-jersey-prudential-center-2026-10-25-7-30-pm/concert/18237088",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7022011,
         "url": "https://www.vividseats.com/journey---rock-band-tickets-newark-prudential-center-10-25-2026/production/7022011",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -695,7 +695,7 @@
         "event_id": 7022003,
         "url": "https://www.vividseats.com/journey---rock-band-tickets-philadelphia-xfinity-mobile-arena-10-28-2026/production/7022003",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -782,7 +782,7 @@
         "event_id": 7021951,
         "url": "https://www.vividseats.com/journey---rock-band-tickets-providence-amica-mutual-pavilion-10-29-2026--concerts-rock/production/7021951",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -854,7 +854,7 @@
         "event_id": 7022057,
         "url": "https://www.vividseats.com/journey---rock-band-tickets-detroit-little-caesars-arena-11-2-2026--concerts-rock/production/7022057",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -915,7 +915,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "100064A2A4D49720",
     "ticketmaster_url": "https://www.ticketmaster.ca/journey-final-frontier-tour-an-evening-toronto-ontario-11-04-2026/event/100064A2A4D49720",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/toronto-canada-scotiabank-arena-2026-11-04-7-30-pm/concert/18237143",
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-toronto-scotiabank-arena-11-4-2026/production/7022055",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/journey-final-frontier-tour-an-evening-toronto-ontario-11-04-2026/event/100064A2A4D49720",
@@ -931,17 +931,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18237143,
+        "url": "https://seatgeek.com/journey-tickets/toronto-canada-scotiabank-arena-2026-11-04-7-30-pm/concert/18237143",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7022055,
         "url": "https://www.vividseats.com/journey---rock-band-tickets-toronto-scotiabank-arena-11-4-2026/production/7022055",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -990,14 +990,14 @@
         "event_id": 18237194,
         "url": "https://seatgeek.com/journey-tickets/wilkes-barre-pennsylvania-mohegan-sun-arena-at-casey-plaza-2026-11-06-7-30-pm/concert/18237194",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7022518,
         "url": "https://www.vividseats.com/journey---rock-band-tickets-wilkes-barre-mohegan-arena-at-casey-plaza-11-6-2026/production/7022518",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1024,7 +1024,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "000064A4C567895B",
     "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-uniondale-new-york-11-07-2026/event/000064A4C567895B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/uniondale-new-york-nassau-coliseum-2026-11-07-7-30-pm/concert/18237083",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-uniondale-new-york-11-07-2026/event/000064A4C567895B",
@@ -1040,11 +1040,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18237083,
+        "url": "https://seatgeek.com/journey-tickets/uniondale-new-york-nassau-coliseum-2026-11-07-7-30-pm/concert/18237083",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1107,7 +1107,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-boston-td-garden-11-10-2026--concerts-rock/production/7021953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-boston-massachusetts-11-10-2026/event/010064A5E8949EE9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1129,7 +1129,7 @@
         "event_id": 7021953,
         "url": "https://www.vividseats.com/journey---rock-band-tickets-boston-td-garden-11-10-2026--concerts-rock/production/7021953",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1165,11 +1165,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-05-15T14:00:00Z",
-        "end": "2026-10-20T21:00:00Z"
-      },
       {
         "name": "AARP Discount",
         "start": "2026-08-28T14:00:00Z",
@@ -1214,14 +1209,14 @@
         "event_id": 18219942,
         "url": "https://seatgeek.com/journey-tickets/cleveland-ohio-rocket-arena-2026-11-12-7-30-pm/concert/18219942",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7022526,
         "url": "https://www.vividseats.com/journey---rock-band-tickets-cleveland-rocket-arena-11-12-2026/production/7022526",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1290,7 +1285,7 @@
         "event_id": 7022065,
         "url": "https://www.vividseats.com/journey---rock-band-tickets-greenville-bon-secours-wellness-arena-11-14-2026--concerts-rock/production/7022065",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1425,14 +1420,14 @@
         "event_id": 18237193,
         "url": "https://seatgeek.com/journey-tickets/houston-texas-toyota-center-2026-11-18-7-30-pm/concert/18237193",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7022543,
         "url": "https://www.vividseats.com/journey---rock-band-tickets-houston-toyota-center---tx-11-18-2026/production/7022543",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1501,7 +1496,7 @@
         "event_id": 7022113,
         "url": "https://www.vividseats.com/journey---rock-band-tickets-dallas-american-airlines-center---tx-11-20-2026--concerts-rock/production/7022113",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1593,7 +1588,7 @@
         "event_id": 7022115,
         "url": "https://www.vividseats.com/journey---rock-band-tickets-denver-ball-arena-11-22-2026--concerts-rock/production/7022115",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1677,7 +1672,7 @@
         "event_id": 7022141,
         "url": "https://www.vividseats.com/journey---rock-band-tickets-anaheim-honda-center-11-24-2026--concerts-rock/production/7022141",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1767,14 +1762,14 @@
         "event_id": 18237195,
         "url": "https://seatgeek.com/journey-tickets/las-vegas-nevada-mgm-grand-garden-arena-2026-11-27-7-30-pm/concert/18237195",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7023785,
         "url": "https://www.vividseats.com/journey---rock-band-tickets-las-vegas-mgm-grand-garden-arena-11-27-2026/production/7023785",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1851,7 +1846,7 @@
         "event_id": 7022156,
         "url": "https://www.vividseats.com/journey---rock-band-tickets-san-francisco-chase-center-11-28-2026--concerts-rock/production/7022156",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {

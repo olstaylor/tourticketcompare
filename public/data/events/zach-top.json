@@ -1,0 +1,257 @@
+[
+  {
+    "id": "tm-zach-top-2026-lafayette-g5viz_52-gfk2",
+    "artist_slug": "zach-top",
+    "artist_name": "Zach Top",
+    "event_name": "Zach Top: Cold Beer & Country Music Tour 2026",
+    "city": "Lafayette",
+    "country": "United States Of America",
+    "venue": "Lafayette Cajundome",
+    "datetime_iso": "2026-10-24T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064B3E1D5418F",
+    "ticketmaster_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-lafayette-louisiana-10-23-2026/event/1B0064B3E1D5418F",
+    "seatgeek_url": "https://seatgeek.com/zach-top-tickets/lafayette-louisiana-cajundome-2026-10-23-8-pm/concert/18285544",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-lafayette-louisiana-10-23-2026/event/1B0064B3E1D5418F",
+    "last_verified_at": "2026-10-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064B3E1D5418F",
+        "discovery_event_id": "G5viZ_52-gfk2",
+        "url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-lafayette-louisiana-10-23-2026/event/1B0064B3E1D5418F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18285544,
+        "url": "https://seatgeek.com/zach-top-tickets/lafayette-louisiana-cajundome-2026-10-23-8-pm/concert/18285544",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_52-gfk2",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "presales": [
+      {
+        "name": "Blue Collar Box Office Promotion",
+        "start": "2026-10-23T14:30:00Z",
+        "end": "2026-10-24T01:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-zach-top-2026-rogers-g5viz_5ulwxbq",
+    "artist_slug": "zach-top",
+    "artist_name": "Zach Top",
+    "event_name": "Zach Top: Cold Beer & Country Music Tour 2026",
+    "city": "Rogers",
+    "country": "United States Of America",
+    "venue": "Walmart AMP",
+    "datetime_iso": "2026-10-25T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064BDABF7EE9D",
+    "ticketmaster_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-rogers-arkansas-10-24-2026/event/1B0064BDABF7EE9D",
+    "seatgeek_url": "https://seatgeek.com/zach-top-tickets/rogers-arkansas-walmart-amp-2026-10-24-8-pm/concert/18370151",
+    "vividseats_url": "https://www.vividseats.com/zach-top-tickets-rogers-walmart-amp-10-24-2026--concerts-country-and-folk/production/7283448",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-rogers-arkansas-10-24-2026/event/1B0064BDABF7EE9D",
+    "last_verified_at": "2026-10-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064BDABF7EE9D",
+        "discovery_event_id": "G5viZ_5UlWXBq",
+        "url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-rogers-arkansas-10-24-2026/event/1B0064BDABF7EE9D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18370151,
+        "url": "https://seatgeek.com/zach-top-tickets/rogers-arkansas-walmart-amp-2026-10-24-8-pm/concert/18370151",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7283448,
+        "url": "https://www.vividseats.com/zach-top-tickets-rogers-walmart-amp-10-24-2026--concerts-country-and-folk/production/7283448",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8130219",
+        "url": "https://www.ticketliquidator.com/tickets/8130219/Zach-Top-tickets-Sat-Oct-24-2026-Walmart-AMP",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_5UlWXBq",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8130219/Zach-Top-tickets-Sat-Oct-24-2026-Walmart-AMP",
+    "organizer_names": [
+      "AEG - TICKETING"
+    ]
+  },
+  {
+    "id": "tm-zach-top-2026-duluth-vvg1zz_5pbvq93",
+    "artist_slug": "zach-top",
+    "artist_name": "Zach Top",
+    "event_name": "Zach Top: Cold Beer & Country Music Tour 2026",
+    "city": "Duluth",
+    "country": "United States Of America",
+    "venue": "Gas South Arena",
+    "datetime_iso": "2026-10-30T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0064B59805A5D2",
+    "ticketmaster_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-duluth-georgia-10-29-2026/event/0E0064B59805A5D2",
+    "seatgeek_url": "https://seatgeek.com/zach-top-tickets/duluth-georgia-gas-south-arena-2026-10-29-8-pm/concert/18285545",
+    "vividseats_url": "https://www.vividseats.com/zach-top-tickets-duluth-gas-south-arena-10-29-2026--concerts-country-and-folk/production/7119855",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-duluth-georgia-10-29-2026/event/0E0064B59805A5D2",
+    "last_verified_at": "2026-10-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0064B59805A5D2",
+        "discovery_event_id": "vvG1zZ_5pbvQ93",
+        "url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-duluth-georgia-10-29-2026/event/0E0064B59805A5D2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18285545,
+        "url": "https://seatgeek.com/zach-top-tickets/duluth-georgia-gas-south-arena-2026-10-29-8-pm/concert/18285545",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7119855,
+        "url": "https://www.vividseats.com/zach-top-tickets-duluth-gas-south-arena-10-29-2026--concerts-country-and-folk/production/7119855",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8026607",
+        "url": "https://www.ticketliquidator.com/tickets/8026607/Zach-Top-tickets-Thu-Oct-29-2026-Gas-South-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_5pbvQ93",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8026607/Zach-Top-tickets-Thu-Oct-29-2026-Gas-South-Arena",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
+  },
+  {
+    "id": "tm-zach-top-2026-nashville-g5viz_g6sznnj",
+    "artist_slug": "zach-top",
+    "artist_name": "Zach Top",
+    "event_name": "Zach Top: Cold Beer & Country Music Tour 2026",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2026-10-31T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064C1F3023AA6",
+    "ticketmaster_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-nashville-tennessee-10-30-2026/event/1B0064C1F3023AA6",
+    "seatgeek_url": "https://seatgeek.com/zach-top-tickets/nashville-tennessee-bridgestone-arena-2026-10-30-8-30-pm/concert/18285548",
+    "vividseats_url": "https://www.vividseats.com/zach-top-tickets-nashville-bridgestone-arena-10-30-2026--concerts-country-and-folk/production/7119853",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-nashville-tennessee-10-30-2026/event/1B0064C1F3023AA6",
+    "last_verified_at": "2026-10-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064C1F3023AA6",
+        "discovery_event_id": "G5viZ_G6SZNnJ",
+        "url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-nashville-tennessee-10-30-2026/event/1B0064C1F3023AA6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18285548,
+        "url": "https://seatgeek.com/zach-top-tickets/nashville-tennessee-bridgestone-arena-2026-10-30-8-30-pm/concert/18285548",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7119853,
+        "url": "https://www.vividseats.com/zach-top-tickets-nashville-bridgestone-arena-10-30-2026--concerts-country-and-folk/production/7119853",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8026602",
+        "url": "https://www.ticketliquidator.com/tickets/8026602/Zach-Top-tickets-Fri-Oct-30-2026-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_G6SZNnJ",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8026602/Zach-Top-tickets-Fri-Oct-30-2026-Bridgestone-Arena",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
+  }
+]

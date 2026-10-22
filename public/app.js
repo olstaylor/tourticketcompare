@@ -1789,7 +1789,7 @@ function eventLinkPublishable(event) {
 // functions/[[path]].js and functions/api/out.js.
 function providerEventPublishable(event, provider) {
   if (eventLifecycleHeld(event)) return false;
-  if (publicOnsalePending(event)) return false;
+  if (publicOnsalePending(event)) return provider !== "ticketmaster" && event?.provider_links?.[provider]?.verified === true;
   if (IMPACT_MARKETPLACE_PROVIDERS.some((candidate) => candidate.slug === provider)) {
     return Boolean(event && event.provider_links && event.provider_links[provider] && event.provider_links[provider].verified === true);
   }

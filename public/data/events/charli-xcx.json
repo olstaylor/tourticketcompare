@@ -776,11 +776,11 @@
     "tour_name": "Music, Fashion, Film Tour",
     "ticketmaster_event_id": "190064C5D6359C3F",
     "ticketmaster_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-glendale-arizona-10-21-2026/event/190064C5D6359C3F",
-    "seatgeek_url": "https://seatgeek.com/charli-xcx-tickets/glendale-arizona-desert-diamond-arena-2026-10-21-8-pm/concert/18292524",
-    "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-glendale-desert-diamond-arena-10-21-2026--concerts-pop/production/7132074",
+    "seatgeek_url": "",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-glendale-arizona-10-21-2026/event/190064C5D6359C3F",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -788,22 +788,22 @@
         "discovery_event_id": "17k8v0G6G9pu_YT",
         "url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-glendale-arizona-10-21-2026/event/190064C5D6359C3F",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18292524,
-        "url": "https://seatgeek.com/charli-xcx-tickets/glendale-arizona-desert-diamond-arena-2026-10-21-8-pm/concert/18292524",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 7132074,
-        "url": "https://www.vividseats.com/charli-xcx-tickets-glendale-desert-diamond-arena-10-21-2026--concerts-pop/production/7132074",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -820,11 +820,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8034406",
-        "url": "https://www.ticketliquidator.com/tickets/8034406/Charli-XCX-tickets-Wed-Oct-21-2026-Desert-Diamond-Arena",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107325085",
@@ -838,7 +838,7 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034406",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034406/Charli-XCX-tickets-Wed-Oct-21-2026-Desert-Diamond-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-glendale-tickets-10-21-2026/event/107325085",
     "presales": [
       {
@@ -849,7 +849,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-charli-xcx-2027-dublin-16voz_3jvg7sk3f",
@@ -946,7 +947,7 @@
         "event_id": 7552865,
         "url": "https://www.vividseats.com/charli-xcx-tickets-glasgow-ovo-hydro-2-15-2027--concerts-pop/production/7552865",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1027,7 +1028,7 @@
         "event_id": 7546088,
         "url": "https://www.vividseats.com/charli-xcx-tickets-manchester-co-op-live-2-17-2027--concerts-pop/production/7546088",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1107,7 +1108,7 @@
         "event_id": 7552863,
         "url": "https://www.vividseats.com/charli-xcx-tickets-london-the-o2---london-2-19-2027--concerts-pop/production/7552863",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1168,7 +1169,7 @@
         "event_id": 7577279,
         "url": "https://www.vividseats.com/charli-xcx-tickets-london-the-o2---london-2-20-2027/production/7577279",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1302,14 +1303,14 @@
         "event_id": 18292529,
         "url": "https://seatgeek.com/charli-xcx-tickets/las-vegas-nevada-mgm-grand-garden-arena-2026-10-23-8-pm/concert/18292529",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7132077,
         "url": "https://www.vividseats.com/charli-xcx-tickets-las-vegas-mgm-grand-garden-arena-10-23-2026--concerts-pop/production/7132077",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {

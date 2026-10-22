@@ -122,7 +122,7 @@ function mappedPriceLanes(show) {
   // SeatGeek has an approved display lane, but its current API feed has not
   // produced numeric data. Keep link-only SeatGeek dates in their own bucket;
   // count an actual approved SeatGeek snapshot as priced in pricedLanes().
-  return PRICE_LANES.filter((lane) => lane.slug !== "seatgeek" && show?.provider_links?.[lane.slug]?.verified === true && safeLaneUrl(show, laneBySlug(lane.slug)));
+  return PRICE_LANES.filter((lane) => (lane.slug !== "seatgeek" || pricedLanes(show).some((priced) => priced.provider === lane.name)) && show?.provider_links?.[lane.slug]?.verified === true && safeLaneUrl(show, laneBySlug(lane.slug)));
 }
 
 export function classifyShow(show, now = Date.now()) {
@@ -341,6 +341,7 @@ function selfTest() {
   assert.equal(classifyShow(shows[7], now), "unmapped");
   assert.equal(classifyShow(shows[8], now), "priced");
   const report = analyse(shows, { now });
+  assert.deepEqual(report.lanes.find((lane) => lane.provider === "SeatGeek"), { provider: "SeatGeek", mapped: 1, priced: 1 }, "a priced SeatGeek date is mapped; a link-only date stays outside the price gate");
   assert.equal(report.upcoming, 9, "past dates are excluded");
   assert.deepEqual(report.counts, { priced: 3, pre_onsale: 2, mapped: 1, seatgeek_only: 1, unmapped: 2, held: 0 });
   {
@@ -380,7 +381,7 @@ function selfTest() {
   assert.match(md, /\| 9 \| 3 \| 2 \| 1 \| 1 \| 2 \|/);
   assert.match(md, /Mapped and on sale, but no price/);
   assert.throws(() => parseArgs(["--min-share", "2"]));
-  return 25;
+  return 26;
 }
 
 async function main() {

@@ -48,17 +48,17 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8011572",
-        "url": "https://www.ticketliquidator.com/tickets/8011572/Bryson-Tiller-tickets-Mon-Oct-19-2026-First-Financial-Credit-Union-Amphitheater",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_5m9qyKz",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8011572/Bryson-Tiller-tickets-Mon-Oct-19-2026-First-Financial-Credit-Union-Amphitheater",
+    "ticketliquidator_url": "",
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -113,25 +113,25 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8011573",
-        "url": "https://www.ticketliquidator.com/tickets/8011573/Bryson-Tiller-tickets-Tue-Oct-20-2026-Talking-Stick-Resort-Amphitheatre",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107324079",
-        "url": "https://www.stubhub.ie/bryson-tiller-phoenix-tickets-10-20-2026/event/107324079",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G65lC9IRs",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8011573/Bryson-Tiller-tickets-Tue-Oct-20-2026-Talking-Stick-Resort-Amphitheatre",
-    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-phoenix-tickets-10-20-2026/event/107324079",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -224,7 +224,7 @@
     "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-chula-vista-north-island-credit-union-amphitheatre-10-24-2026--concerts-rb/production/7104563",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-chula-vista-california-10-24-2026/event/0A0064B6BB979FD2",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -278,18 +278,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-chula-vista-tickets-10-24-2026/event/107258872",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-05T19:00:00Z",
-        "end": "2026-10-20T19:00:00Z"
-      },
-      {
-        "name": "Meet & Greet VIP Package",
-        "start": "2026-06-17T19:00:00Z",
-        "end": "2026-10-20T19:00:00Z"
-      }
     ]
   },
   {
@@ -467,7 +455,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F0064B5A05FA0E0",
     "ticketmaster_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-portland-oregon-10-29-2026/event/0F0064B5A05FA0E0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/bryson-tiller-tickets/portland-oregon-veterans-memorial-coliseum-2-2026-10-29-7-30-pm/concert/18280927",
     "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-portland-veterans-memorial-coliseum---portland-10-29-2026--concerts-rb/production/7104571",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-portland-oregon-10-29-2026/event/0F0064B5A05FA0E0",
@@ -483,11 +471,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18280927,
+        "url": "https://seatgeek.com/bryson-tiller-tickets/portland-oregon-veterans-memorial-coliseum-2-2026-10-29-7-30-pm/concert/18280927",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7104571,

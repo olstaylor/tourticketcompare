@@ -317,8 +317,8 @@
     "tour_name": "My House Tour",
     "ticketmaster_event_id": "000064D0BB2128D9",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-new-york-new-york-10-20-2026/event/000064D0BB2128D9",
-    "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-new-york-manhattan-center-hammerstein-ballroom-10-20-2026--concerts-pop/production/7175299",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/new-york-new-york-manhattan-center-hammerstein-ballroom-2026-10-20-8-pm/concert/18317533",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-new-york-new-york-10-20-2026/event/000064D0BB2128D9",
     "last_verified_at": "2026-10-15",
@@ -333,18 +333,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
+        "event_id": 18317533,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/new-york-new-york-manhattan-center-hammerstein-ballroom-2026-10-20-8-pm/concert/18317533",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
         "event_id": null,
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": 7175299,
-        "url": "https://www.vividseats.com/sienna-spiro-tickets-new-york-manhattan-center-hammerstein-ballroom-10-20-2026--concerts-pop/production/7175299",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -396,7 +396,7 @@
         "event_id": 7139282,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-brooklyn-brooklyn-paramount-10-21-2026--concerts-pop/production/7139282",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -421,11 +421,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107383080",
-        "url": "https://www.stubhub.ie/sienna-spiro-brooklyn-tickets-10-21-2026/event/107383080",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_Gre9Jk_",
@@ -433,7 +433,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038342",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038342/Sienna-Spiro-tickets-Wed-Oct-21-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-brooklyn-tickets-10-21-2026/event/107383080",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -522,14 +522,14 @@
         "event_id": 18297290,
         "url": "https://seatgeek.com/sienna-spiro-tickets/toronto-canada-history-2026-10-25-6-pm/concert/18297290",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7139286,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-toronto-history-toronto-10-25-2026--concerts-pop/production/7139286",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -579,14 +579,14 @@
         "event_id": 18297291,
         "url": "https://seatgeek.com/sienna-spiro-tickets/chicago-illinois-riviera-theatre-chicago-2026-10-27-7-30-pm/concert/18297291",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7139288,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-chicago-riviera-theatre---il-10-27-2026--concerts-pop/production/7139288",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -630,7 +630,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PKO4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKO4",
     "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/minneapolis-minnesota-first-avenue-minneapolis-2026-10-28-7-30-pm/concert/18297292",
-    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-minneapolis-first-avenue-10-28-2026--concerts-pop/production/7139292",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKO4",
     "last_verified_at": null,
@@ -648,15 +648,15 @@
         "event_id": 18297292,
         "url": "https://seatgeek.com/sienna-spiro-tickets/minneapolis-minnesota-first-avenue-minneapolis-2026-10-28-7-30-pm/concert/18297292",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7139292,
-        "url": "https://www.vividseats.com/sienna-spiro-tickets-minneapolis-first-avenue-10-28-2026--concerts-pop/production/7139292",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -717,14 +717,14 @@
         "event_id": 18297295,
         "url": "https://seatgeek.com/sienna-spiro-tickets/englewood-colorado-gothic-theatre-2026-10-30-8-pm/concert/18297295",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7139294,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-englewood-gothic-theatre-10-30-2026--concerts-pop/production/7139294",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -786,7 +786,7 @@
         "event_id": 18297301,
         "url": "https://seatgeek.com/sienna-spiro-tickets/seattle-washington-the-showbox-2026-11-02-8-pm/concert/18297301",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -855,14 +855,14 @@
         "event_id": 18297302,
         "url": "https://seatgeek.com/sienna-spiro-tickets/vancouver-canada-vogue-theatre-bc-1-2026-11-04-8-pm/concert/18297302",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7139489,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-vancouver-vogue-theatre---bc-11-4-2026/production/7139489",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -924,14 +924,14 @@
         "event_id": 18297303,
         "url": "https://seatgeek.com/sienna-spiro-tickets/vancouver-canada-vogue-theatre-bc-1-2026-11-05-8-pm/concert/18297303",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7139491,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-vancouver-vogue-theatre---bc-11-5-2026/production/7139491",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -993,14 +993,14 @@
         "event_id": 18318283,
         "url": "https://seatgeek.com/sienna-spiro-tickets/portland-oregon-mcmenamins-crystal-ballroom-2026-11-07-8-pm/concert/18318283",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7143026,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-portland-mcmenamins-crystal-ballroom-11-7-2026/production/7143026",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1069,7 +1069,7 @@
         "event_id": 7139535,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-san-francisco-castro-theatre-11-9-2026/production/7139535",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1125,7 +1125,7 @@
         "event_id": 7139420,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-los-angeles-the-wiltern-11-10-2026/production/7139420",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1197,7 +1197,7 @@
         "event_id": 7175301,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-los-angeles-orpheum-theatre---los-angeles-11-12-2026--concerts-pop/production/7175301",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1432,7 +1432,7 @@
         "event_id": 7166302,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-edinburgh-edinburgh-corn-exchange-2-22-2027--concerts-pop/production/7166302",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1594,7 +1594,7 @@
         "event_id": 7146243,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-manchester-o2-apollo-manchester-3-1-2027--concerts-pop/production/7146243",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1677,7 +1677,7 @@
         "event_id": 7175309,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-manchester-o2-apollo-manchester-3-2-2027--concerts-pop/production/7175309",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1816,7 +1816,7 @@
         "event_id": 7168401,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-berlin-tempodrom-3-24-2027/production/7168401",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2158,7 +2158,7 @@
         "event_id": 18297297,
         "url": "https://seatgeek.com/sienna-spiro-tickets/salt-lake-city-utah-the-grand-at-the-complex-2026-10-31-8-pm/concert/18297297",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2235,5 +2235,1239 @@
     "organizer_names": [
       "AUCKLAND LIVE"
     ]
+  },
+  {
+    "id": "tm-sienna-spiro-2027-austin-g5diz_47ytekn",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour (Extended)",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Amphitheater",
+    "datetime_iso": "2027-08-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00655130FE71AA",
+    "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-austin-texas-08-05-2027/event/3A00655130FE71AA",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/austin-texas-moody-amphitheater-2027-08-05-7-pm/concert/18702006",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-austin-moody-amphitheater-8-5-2027--concerts-pop/production/7726788",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-austin-texas-08-05-2027/event/3A00655130FE71AA",
+    "last_verified_at": "2026-10-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00655130FE71AA",
+        "discovery_event_id": "G5dIZ_47YTEkn",
+        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-austin-texas-08-05-2027/event/3A00655130FE71AA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18702006,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/austin-texas-moody-amphitheater-2027-08-05-7-pm/concert/18702006",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7726788,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-austin-moody-amphitheater-8-5-2027--concerts-pop/production/7726788",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332299",
+        "url": "https://www.ticketliquidator.com/tickets/8332299/Sienna-Spiro-tickets-Thu-Aug-5-2027-Moody-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_47YTEkn",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332299/Sienna-Spiro-tickets-Thu-Aug-5-2027-Moody-Amphitheater",
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "WME AGENCY"
+    ],
+    "presales": [
+      {
+        "name": "Amex Preferred Tickets",
+        "start": "2026-10-20T17:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Amex Presale Tickets",
+        "start": "2026-10-20T17:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Waterloo Greenway Venue Presale",
+        "start": "2026-10-22T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-sienna-spiro-2027-washington-1avfz_fgksa-bdm",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour (Extended)",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "The Anthem",
+    "datetime_iso": "2027-08-12T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500654CC5858EF7",
+    "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-washington-district-of-columbia-08-12-2027/event/1500654CC5858EF7",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/washington-district-of-columbia-the-anthem-dc-2027-08-12-7-pm/concert/18702008",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-washington-dc-the-anthem-8-12-2027--concerts-pop/production/7726796",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-washington-district-of-columbia-08-12-2027/event/1500654CC5858EF7",
+    "last_verified_at": "2026-10-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500654CC5858EF7",
+        "discovery_event_id": "1AvfZ_fGkSA-bDM",
+        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-washington-district-of-columbia-08-12-2027/event/1500654CC5858EF7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18702008,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/washington-district-of-columbia-the-anthem-dc-2027-08-12-7-pm/concert/18702008",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7726796,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-washington-dc-the-anthem-8-12-2027--concerts-pop/production/7726796",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332313",
+        "url": "https://www.ticketliquidator.com/tickets/8332313/Sienna-Spiro-tickets-Thu-Aug-12-2027-The-Anthem-DC",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvfZ_fGkSA-bDM",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332313/Sienna-Spiro-tickets-Thu-Aug-12-2027-The-Anthem-DC",
+    "presales": [
+      {
+        "name": "Amex Preferred Tickets™",
+        "start": "2026-10-20T16:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Amex Presale Tickets®",
+        "start": "2026-10-20T16:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "I.M.P. Email Presale",
+        "start": "2026-10-22T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-sienna-spiro-2027-philadelphia-vv17fz_fgkuhzdr4",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour (Extended)",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Met Presented by Highmark",
+    "datetime_iso": "2027-08-14T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200654DBCE3BBD5",
+    "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-philadelphia-pennsylvania-08-14-2027/event/0200654DBCE3BBD5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-philadelphia-pennsylvania-08-14-2027/event/0200654DBCE3BBD5",
+    "last_verified_at": "2026-10-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200654DBCE3BBD5",
+        "discovery_event_id": "vv17FZ_fGkUHzDR4",
+        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-philadelphia-pennsylvania-08-14-2027/event/0200654DBCE3BBD5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332317",
+        "url": "https://www.ticketliquidator.com/tickets/8332317/Sienna-Spiro-tickets-Sat-Aug-14-2027-The-Met-Presented-by-Highmark",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_fGkUHzDR4",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332317/Sienna-Spiro-tickets-Sat-Aug-14-2027-The-Met-Presented-by-Highmark",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-sienna-spiro-2027-boston-vv177z_fgkd_e0km",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour (Extended)",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-08-15T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100654ED90A44F7",
+    "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-boston-massachusetts-08-15-2027/event/0100654ED90A44F7",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-08-15-7-pm/concert/18702018",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-boston-mgm-music-hall-at-fenway-8-15-2027--concerts-pop/production/7726800",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-boston-massachusetts-08-15-2027/event/0100654ED90A44F7",
+    "last_verified_at": "2026-10-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100654ED90A44F7",
+        "discovery_event_id": "vv177Z_fGkD_e0KM",
+        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-boston-massachusetts-08-15-2027/event/0100654ED90A44F7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18702018,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-08-15-7-pm/concert/18702018",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7726800,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-boston-mgm-music-hall-at-fenway-8-15-2027--concerts-pop/production/7726800",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332320",
+        "url": "https://www.ticketliquidator.com/tickets/8332320/Sienna-Spiro-tickets-Sun-Aug-15-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_fGkD_e0KM",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332320/Sienna-Spiro-tickets-Sun-Aug-15-2027-MGM-Music-Hall-at-Fenway-Park",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-sienna-spiro-2027-new-york-g5dyz_46da3nv",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour (Extended)",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Radio City Music Hall",
+    "datetime_iso": "2027-08-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3C006551FB1528C1",
+    "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-new-york-new-york-08-17-2027/event/3C006551FB1528C1",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/new-york-new-york-radio-city-music-hall-2027-08-17-8-pm/concert/18702019",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-new-york-radio-city-music-hall-8-17-2027--concerts-pop/production/7726802",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-new-york-new-york-08-17-2027/event/3C006551FB1528C1",
+    "last_verified_at": "2026-10-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3C006551FB1528C1",
+        "discovery_event_id": "G5dYZ_46DA3Nv",
+        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-new-york-new-york-08-17-2027/event/3C006551FB1528C1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18702019,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/new-york-new-york-radio-city-music-hall-2027-08-17-8-pm/concert/18702019",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7726802,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-new-york-radio-city-music-hall-8-17-2027--concerts-pop/production/7726802",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332325",
+        "url": "https://www.ticketliquidator.com/tickets/8332325/Sienna-Spiro-tickets-Tue-Aug-17-2027-Radio-City-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dYZ_46DA3Nv",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332325/Sienna-Spiro-tickets-Tue-Aug-17-2027-Radio-City-Music-Hall",
+    "organizer_names": [
+      "BOWERY PRESENTS"
+    ],
+    "presales": [
+      {
+        "name": "Amex Preferred Tickets™",
+        "start": "2026-10-20T16:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Amex Presale Tickets®",
+        "start": "2026-10-20T16:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-10-22T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-23T14:00:00Z",
+        "end": "2026-11-23T15:00:00Z"
+      },
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-10-23T14:00:00Z",
+        "end": "2027-08-04T00:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-10-23T14:00:00Z",
+        "end": "2027-08-18T01:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-sienna-spiro-2027-detroit-vv1afzk48gkebo40x",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour (Extended)",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Fox Theatre Detroit",
+    "datetime_iso": "2027-08-23T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006550BA81593E",
+    "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-detroit-michigan-08-23-2027/event/08006550BA81593E",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/detroit-michigan-fox-theatre-detroit-2027-08-23-7-pm/concert/18702024",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-detroit-fox-theatre-detroit-8-23-2027--concerts-pop/production/7726810",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-detroit-michigan-08-23-2027/event/08006550BA81593E",
+    "last_verified_at": "2026-10-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006550BA81593E",
+        "discovery_event_id": "vv1AFZk48GkeBO40X",
+        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-detroit-michigan-08-23-2027/event/08006550BA81593E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18702024,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/detroit-michigan-fox-theatre-detroit-2027-08-23-7-pm/concert/18702024",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7726810,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-detroit-fox-theatre-detroit-8-23-2027--concerts-pop/production/7726810",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332344",
+        "url": "https://www.ticketliquidator.com/tickets/8332344/Sienna-Spiro-tickets-Mon-Aug-23-2027-Fox-Theatre-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZk48GkeBO40X",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332344/Sienna-Spiro-tickets-Mon-Aug-23-2027-Fox-Theatre-Detroit",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Amex Preferred Tickets™",
+        "start": "2026-10-20T16:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Amex Presale Tickets®",
+        "start": "2026-10-20T16:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-sienna-spiro-2027-chicago-vv17jz_fgkxlgu6j",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour (Extended)",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "The Chicago Theatre",
+    "datetime_iso": "2027-08-26T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700654FAB3361DC",
+    "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-chicago-illinois-08-25-2027/event/0700654FAB3361DC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-chicago-illinois-08-25-2027/event/0700654FAB3361DC",
+    "last_verified_at": "2026-10-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700654FAB3361DC",
+        "discovery_event_id": "vv17jZ_fGkXlGU6j",
+        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-chicago-illinois-08-25-2027/event/0700654FAB3361DC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332347",
+        "url": "https://www.ticketliquidator.com/tickets/8332347/Sienna-Spiro-tickets-Wed-Aug-25-2027-The-Chicago-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17jZ_fGkXlGU6j",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332347/Sienna-Spiro-tickets-Wed-Aug-25-2027-The-Chicago-Theatre",
+    "organizer_names": [
+      "JAM PRODUCTIONS"
+    ],
+    "presales": [
+      {
+        "name": "Amex Preferred Tickets™",
+        "start": "2026-10-20T17:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Amex Presale Tickets®",
+        "start": "2026-10-20T17:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-10-22T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "JAM Presale",
+        "start": "2026-10-22T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-22T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-23T15:00:00Z",
+        "end": "2026-11-20T16:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-10-23T15:00:00Z",
+        "end": "2027-08-26T01:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-sienna-spiro-2027-chicago-vv17jz_fgkxlcj6o",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour (Extended)",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "The Chicago Theatre",
+    "datetime_iso": "2027-08-27T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700654FAB3A61E0",
+    "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-chicago-illinois-08-26-2027/event/0700654FAB3A61E0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-chicago-illinois-08-26-2027/event/0700654FAB3A61E0",
+    "last_verified_at": "2026-10-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700654FAB3A61E0",
+        "discovery_event_id": "vv17jZ_fGkXlCJ6O",
+        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-chicago-illinois-08-26-2027/event/0700654FAB3A61E0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332348",
+        "url": "https://www.ticketliquidator.com/tickets/8332348/Sienna-Spiro-tickets-Thu-Aug-26-2027-The-Chicago-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17jZ_fGkXlCJ6O",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332348/Sienna-Spiro-tickets-Thu-Aug-26-2027-The-Chicago-Theatre",
+    "organizer_names": [
+      "JAM PRODUCTIONS"
+    ],
+    "presales": [
+      {
+        "name": "Amex Preferred Tickets™",
+        "start": "2026-10-20T17:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Amex Presale Tickets®",
+        "start": "2026-10-20T17:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-10-22T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "JAM Presale",
+        "start": "2026-10-22T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-22T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-23T15:00:00Z",
+        "end": "2026-11-20T16:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-10-23T15:00:00Z",
+        "end": "2027-08-27T01:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-sienna-spiro-2027-minneapolis-vv17bz_fgktexhi7",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour (Extended)",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Armory",
+    "datetime_iso": "2027-08-29T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600654FC2FBCB04",
+    "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-minneapolis-minnesota-08-28-2027/event/0600654FC2FBCB04",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/minneapolis-minnesota-the-armory-minneapolis-2027-08-28-7-pm/concert/18702033",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-minneapolis-armory---minneapolis-8-28-2027--concerts-pop/production/7726818",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-minneapolis-minnesota-08-28-2027/event/0600654FC2FBCB04",
+    "last_verified_at": "2026-10-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600654FC2FBCB04",
+        "discovery_event_id": "vv17bZ_fGkTeXHi7",
+        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-minneapolis-minnesota-08-28-2027/event/0600654FC2FBCB04",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18702033,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/minneapolis-minnesota-the-armory-minneapolis-2027-08-28-7-pm/concert/18702033",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7726818,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-minneapolis-armory---minneapolis-8-28-2027--concerts-pop/production/7726818",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332354",
+        "url": "https://www.ticketliquidator.com/tickets/8332354/Sienna-Spiro-tickets-Sat-Aug-28-2027-The-Armory-Minneapolis",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_fGkTeXHi7",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332354/Sienna-Spiro-tickets-Sat-Aug-28-2027-The-Armory-Minneapolis",
+    "organizer_names": [
+      "FIRST AVENUE"
+    ],
+    "presales": [
+      {
+        "name": "Amex Preferred Tickets®",
+        "start": "2026-10-20T17:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Amex Presale Tickets®",
+        "start": "2026-10-20T17:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Promoter Presale",
+        "start": "2026-10-22T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-22T15:00:00Z",
+        "end": "2026-10-23T03:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-sienna-spiro-2027-seattle-vvg1hz_4ediyof",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour (Extended)",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "WAMU Theater",
+    "datetime_iso": "2027-09-03T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006550BBB39814",
+    "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-seattle-washington-09-02-2027/event/0F006550BBB39814",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/seattle-washington-wamu-theater-2027-09-02-7-pm/concert/18702035",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-seattle-wamu-theater---seattle-9-2-2027--concerts-pop/production/7726822",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-seattle-washington-09-02-2027/event/0F006550BBB39814",
+    "last_verified_at": "2026-10-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006550BBB39814",
+        "discovery_event_id": "vvG1HZ_4eDiyOf",
+        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-seattle-washington-09-02-2027/event/0F006550BBB39814",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18702035,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/seattle-washington-wamu-theater-2027-09-02-7-pm/concert/18702035",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7726822,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-seattle-wamu-theater---seattle-9-2-2027--concerts-pop/production/7726822",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332362",
+        "url": "https://www.ticketliquidator.com/tickets/8332362/Sienna-Spiro-tickets-Thu-Sep-2-2027-Wamu-Theater-At-Lumen-Field-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_4eDiyOf",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T17:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332362/Sienna-Spiro-tickets-Thu-Sep-2-2027-Wamu-Theater-At-Lumen-Field-Event-Center",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "presales": [
+      {
+        "name": "Amex Preferred Tickets",
+        "start": "2026-10-20T19:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      },
+      {
+        "name": "Amex Presale Tickets",
+        "start": "2026-10-20T19:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T17:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      },
+      {
+        "name": "AEG Presale",
+        "start": "2026-10-22T17:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-22T17:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-sienna-spiro-2027-vancouver-1av7z_fgkxqzaez",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour (Extended)",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "UBC - Doug Mitchell Thunderbird Sports Centre",
+    "datetime_iso": "2027-09-05T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100654F9A0099F8",
+    "ticketmaster_url": "https://www.ticketmaster.ca/sienna-spiro-my-house-tour-extended-vancouver-british-columbia-09-04-2027/event/1100654F9A0099F8",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2027-09-04-7-pm/concert/18702036",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-9-4-2027--concerts-pop/production/7726824",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/sienna-spiro-my-house-tour-extended-vancouver-british-columbia-09-04-2027/event/1100654F9A0099F8",
+    "last_verified_at": "2026-10-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100654F9A0099F8",
+        "discovery_event_id": "1Av7Z_fGkXQZaEz",
+        "url": "https://www.ticketmaster.ca/sienna-spiro-my-house-tour-extended-vancouver-british-columbia-09-04-2027/event/1100654F9A0099F8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18702036,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2027-09-04-7-pm/concert/18702036",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7726824,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-9-4-2027--concerts-pop/production/7726824",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332368",
+        "url": "https://www.ticketliquidator.com/tickets/8332368/Sienna-Spiro-tickets-Sat-Sep-4-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_fGkXQZaEz",
+    "timezone": "America/Vancouver",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T17:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332368/Sienna-Spiro-tickets-Sat-Sep-4-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-10-20T19:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T17:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-22T17:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-sienna-spiro-2027-berkeley-g5vyz_fbwbrn7",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour (Extended)",
+    "city": "Berkeley",
+    "country": "United States Of America",
+    "venue": "Greek Theatre-U.C. Berkeley",
+    "datetime_iso": "2027-09-08T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00654EBD61E8C4",
+    "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-berkeley-california-09-07-2027/event/1C00654EBD61E8C4",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/berkeley-california-the-greek-theatre-at-u-c-berkeley-2027-09-07-7-pm/concert/18702041",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-berkeley-greek-theatre---berkeley-9-7-2027--concerts-pop/production/7726828",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-berkeley-california-09-07-2027/event/1C00654EBD61E8C4",
+    "last_verified_at": "2026-10-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00654EBD61E8C4",
+        "discovery_event_id": "G5vYZ_fBWbrN7",
+        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-berkeley-california-09-07-2027/event/1C00654EBD61E8C4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18702041,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/berkeley-california-the-greek-theatre-at-u-c-berkeley-2027-09-07-7-pm/concert/18702041",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7726828,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-berkeley-greek-theatre---berkeley-9-7-2027--concerts-pop/production/7726828",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332372",
+        "url": "https://www.ticketliquidator.com/tickets/8332372/Sienna-Spiro-tickets-Tue-Sep-7-2027-Greek-Theatre-UC-Berkeley",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_fBWbrN7",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T17:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332372/Sienna-Spiro-tickets-Tue-Sep-7-2027-Greek-Theatre-UC-Berkeley",
+    "organizer_names": [
+      "ANOTHER PLANET"
+    ],
+    "presales": [
+      {
+        "name": "Amex Presale Tickets®",
+        "start": "2026-10-20T19:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T17:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      },
+      {
+        "name": "APE Presale",
+        "start": "2026-10-22T17:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-sienna-spiro-2027-mexico-1afzk4ogkeyuq9e",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour (Extended)",
+    "city": "México",
+    "country": "Mexico",
+    "venue": "Pepsi Center",
+    "datetime_iso": "2027-09-15T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006551B935A5C2",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/sienna-spiro-mexico-14-09-2027/event/14006551B935A5C2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/sienna-spiro-mexico-14-09-2027/event/14006551B935A5C2",
+    "last_verified_at": "2026-10-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006551B935A5C2",
+        "discovery_event_id": "1AfZk4oGkeyuQ9e",
+        "url": "https://www.ticketmaster.com.mx/sienna-spiro-mexico-14-09-2027/event/14006551B935A5C2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZk4oGkeyuQ9e",
+    "timezone": "America/Mexico_City",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T16:00:00Z",
+    "organizer_names": [
+      "OCESA"
+    ],
+    "presales": [
+      {
+        "name": "Venta Fans",
+        "start": "2026-10-21T16:00:00Z",
+        "end": "2026-10-23T04:00:00Z"
+      },
+      {
+        "name": "Preventa Banamex",
+        "start": "2026-10-22T16:00:00Z",
+        "end": "2026-10-23T04:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-sienna-spiro-2027-new-york-g5dyz_46d6wnd",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro: My House Tour (Extended)",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Radio City Music Hall",
+    "datetime_iso": "2027-08-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3C006551FB1F28C3",
+    "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-new-york-new-york-08-18-2027/event/3C006551FB1F28C3",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-new-york-radio-city-music-hall-8-18-2027/production/7729242",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-new-york-new-york-08-18-2027/event/3C006551FB1F28C3",
+    "last_verified_at": "2026-10-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3C006551FB1F28C3",
+        "discovery_event_id": "G5dYZ_46D6wNd",
+        "url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-new-york-new-york-08-18-2027/event/3C006551FB1F28C3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7729242,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-new-york-radio-city-music-hall-8-18-2027/production/7729242",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8333456",
+        "url": "https://www.ticketliquidator.com/tickets/8333456/Sienna-Spiro-tickets-Wed-Aug-18-2027-Radio-City-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dYZ_46D6wNd",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "organizer_names": [
+      "BOWERY PRESENTS"
+    ],
+    "presales": [
+      {
+        "name": "Amex Preferred Tickets™",
+        "start": "2026-10-20T22:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Amex Presale Tickets®",
+        "start": "2026-10-20T22:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-21T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-10-22T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-23T14:00:00Z",
+        "end": "2026-11-23T15:00:00Z"
+      },
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-10-23T14:00:00Z",
+        "end": "2027-08-05T00:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-10-23T14:00:00Z",
+        "end": "2027-08-19T01:00:00Z"
+      }
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333456/Sienna-Spiro-tickets-Wed-Aug-18-2027-Radio-City-Music-Hall"
   }
 ]

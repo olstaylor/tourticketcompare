@@ -489,7 +489,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C0064AF267276F0",
     "ticketmaster_url": "https://www.ticketmaster.com/the-smashing-pumpkins-the-rats-in-oklahoma-city-oklahoma-10-24-2026/event/0C0064AF267276F0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-smashing-pumpkins-tickets/oklahoma-city-oklahoma-paycom-center-2026-10-24-8-pm/concert/18250159",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-smashing-pumpkins-the-rats-in-oklahoma-city-oklahoma-10-24-2026/event/0C0064AF267276F0",
@@ -505,11 +505,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18250159,
+        "url": "https://seatgeek.com/the-smashing-pumpkins-tickets/oklahoma-city-oklahoma-paycom-center-2026-10-24-8-pm/concert/18250159",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -553,7 +553,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A0064AFFE9A5864",
     "ticketmaster_url": "https://www.ticketmaster.com/the-smashing-pumpkins-the-rats-in-austin-texas-10-25-2026/event/3A0064AFFE9A5864",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-smashing-pumpkins-tickets/austin-texas-moody-center-atx-2026-10-25-8-pm/concert/18250160",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-smashing-pumpkins-the-rats-in-austin-texas-10-25-2026/event/3A0064AFFE9A5864",
@@ -569,11 +569,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18250160,
+        "url": "https://seatgeek.com/the-smashing-pumpkins-tickets/austin-texas-moody-center-atx-2026-10-25-8-pm/concert/18250160",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -617,11 +617,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "1E0064AF9AD28F74",
     "ticketmaster_url": "https://www.ticketmaster.com/the-smashing-pumpkins-the-rats-in-denver-colorado-10-27-2026/event/1E0064AF9AD28F74",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-smashing-pumpkins-tickets/denver-colorado-ball-arena-2026-10-27-8-pm/concert/18250161",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-smashing-pumpkins-the-rats-in-denver-colorado-10-27-2026/event/1E0064AF9AD28F74",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -633,11 +633,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18250161,
+        "url": "https://seatgeek.com/the-smashing-pumpkins-tickets/denver-colorado-ball-arena-2026-10-27-8-pm/concert/18250161",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -665,13 +665,6 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-denver-tickets-10-27-2026/event/107185114",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-21T16:00:00Z",
-        "end": "2026-10-21T04:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -763,7 +756,7 @@
         "event_id": 18250163,
         "url": "https://seatgeek.com/the-smashing-pumpkins-tickets/las-vegas-nevada-mgm-grand-garden-arena-2026-10-30-8-pm/concert/18250163",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {

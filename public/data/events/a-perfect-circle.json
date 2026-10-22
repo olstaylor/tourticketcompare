@@ -149,7 +149,7 @@
         "event_id": 7033875,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-honolulu-neal-s-blaisdell-arena-12-19-2026--concerts-alternative/production/7033875",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -209,7 +209,7 @@
         "event_id": 7623551,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-4-13-2027--concerts-alternative/production/7623551",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -296,7 +296,7 @@
         "event_id": 7623555,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-calgary-scotiabank-saddledome-4-15-2027--concerts-alternative/production/7623555",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -383,7 +383,7 @@
         "event_id": 7623557,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-edmonton-rogers-place-4-17-2027--concerts-alternative/production/7623557",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -465,7 +465,7 @@
         "event_id": 7623561,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-winnipeg-canada-life-centre-4-19-2027--concerts-alternative/production/7623561",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -521,7 +521,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "10006537B76D9DFD",
     "ticketmaster_url": "https://www.ticketmaster.ca/a-perfect-circle-niagara-falls-ontario-04-22-2027/event/10006537B76D9DFD",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/a-perfect-circle-tickets/niagara-falls-canada-olg-stage-at-fallsview-casino-2027-04-22-7-pm/concert/18632509",
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-niagara-falls-olg-stage-at-fallsview-casino-4-22-2027--concerts-alternative/production/7623563",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/a-perfect-circle-niagara-falls-ontario-04-22-2027/event/10006537B76D9DFD",
@@ -537,17 +537,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18632509,
+        "url": "https://seatgeek.com/a-perfect-circle-tickets/niagara-falls-canada-olg-stage-at-fallsview-casino-2027-04-22-7-pm/concert/18632509",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623563,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-niagara-falls-olg-stage-at-fallsview-casino-4-22-2027--concerts-alternative/production/7623563",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -581,7 +581,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "10006537B7709E00",
     "ticketmaster_url": "https://www.ticketmaster.ca/a-perfect-circle-niagara-falls-ontario-04-23-2027/event/10006537B7709E00",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/a-perfect-circle-tickets/niagara-falls-canada-olg-stage-at-fallsview-casino-2027-04-23-7-pm/concert/18632508",
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-niagara-falls-olg-stage-at-fallsview-casino-4-23-2027--concerts-alternative/production/7623565",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/a-perfect-circle-niagara-falls-ontario-04-23-2027/event/10006537B7709E00",
@@ -597,17 +597,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18632508,
+        "url": "https://seatgeek.com/a-perfect-circle-tickets/niagara-falls-canada-olg-stage-at-fallsview-casino-2027-04-23-7-pm/concert/18632508",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623565,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-niagara-falls-olg-stage-at-fallsview-casino-4-23-2027--concerts-alternative/production/7623565",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -667,7 +667,7 @@
         "event_id": 7623527,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-detroit-fox-theatre-detroit-4-25-2027/production/7623527",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -746,7 +746,7 @@
         "event_id": 7623545,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-boston-mgm-music-hall-at-fenway-4-27-2027/production/7623545",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -833,7 +833,7 @@
         "event_id": 7623547,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-uncasville-mohegan-sun-arena-ct-4-28-2027/production/7623547",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -902,14 +902,14 @@
         "event_id": 18632522,
         "url": "https://seatgeek.com/a-perfect-circle-tickets/camden-new-jersey-freedom-mortgage-pavilion-2027-04-30-8-pm/concert/18632522",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623549,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-camden-freedom-mortgage-pavilion-4-30-2027/production/7623549",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -988,7 +988,7 @@
         "event_id": 7623553,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-newark-prudential-center-5-1-2027/production/7623553",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1068,14 +1068,14 @@
         "event_id": 18632524,
         "url": "https://seatgeek.com/a-perfect-circle-tickets/charlotte-north-carolina-truliant-amphitheater-2027-05-04-7-30-pm/concert/18632524",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623559,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-charlotte-truliant-amphitheater-5-4-2027/production/7623559",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1147,14 +1147,14 @@
         "event_id": 18632526,
         "url": "https://seatgeek.com/a-perfect-circle-tickets/duluth-georgia-gas-south-arena-2027-05-05-8-pm/concert/18632526",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623567,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-duluth-gas-south-arena-5-5-2027/production/7623567",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1207,7 +1207,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A006539BBD3CB07",
     "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-the-woodlands-texas-05-07-2027/event/3A006539BBD3CB07",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/a-perfect-circle-tickets/the-woodlands-texas-the-cynthia-woods-mitchell-pavilion-presented-by-huntsman-2027-05-07-8-pm/concert/18632528",
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-the-woodlands-cynthia-woods-mitchell-pavilion-5-7-2027/production/7623571",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-the-woodlands-texas-05-07-2027/event/3A006539BBD3CB07",
@@ -1223,17 +1223,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18632528,
+        "url": "https://seatgeek.com/a-perfect-circle-tickets/the-woodlands-texas-the-cynthia-woods-mitchell-pavilion-presented-by-huntsman-2027-05-07-8-pm/concert/18632528",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623571,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-the-woodlands-cynthia-woods-mitchell-pavilion-5-7-2027/production/7623571",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1294,14 +1294,14 @@
         "event_id": 18632533,
         "url": "https://seatgeek.com/a-perfect-circle-tickets/nashville-tennessee-bridgestone-arena-2027-05-15-8-pm/concert/18632533",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623581,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-nashville-bridgestone-arena-5-15-2027--concerts-alternative/production/7623581",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1438,14 +1438,14 @@
         "event_id": 18632537,
         "url": "https://seatgeek.com/a-perfect-circle-tickets/cuyahoga-falls-ohio-blossom-music-center-2027-05-20-7-30-pm/concert/18632537",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623587,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-cuyahoga-falls-blossom-music-center-5-20-2027--concerts-alternative/production/7623587",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1528,14 +1528,14 @@
         "event_id": 18632538,
         "url": "https://seatgeek.com/a-perfect-circle-tickets/chicago-illinois-wintrust-arena-2027-05-22-8-pm/concert/18632538",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623589,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-chicago-wintrust-arena-5-22-2027--concerts-alternative/production/7623589",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1588,7 +1588,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "21006539BCB49DE0",
     "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-shakopee-minnesota-05-23-2027/event/21006539BCB49DE0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/a-perfect-circle-tickets/shakopee-minnesota-mystic-lake-amphitheater-2027-05-23-7-pm/concert/18632539",
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-shakopee-mystic-lake-amphitheater---shakopee-5-23-2027--concerts-alternative/production/7623591",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-shakopee-minnesota-05-23-2027/event/21006539BCB49DE0",
@@ -1604,17 +1604,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18632539,
+        "url": "https://seatgeek.com/a-perfect-circle-tickets/shakopee-minnesota-mystic-lake-amphitheater-2027-05-23-7-pm/concert/18632539",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623591,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-shakopee-mystic-lake-amphitheater---shakopee-5-23-2027--concerts-alternative/production/7623591",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1746,7 +1746,7 @@
         "event_id": 7623599,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-seattle-climate-pledge-arena-5-30-2027--concerts-alternative/production/7623599",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1830,7 +1830,7 @@
         "event_id": 7623601,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-portland-veterans-memorial-coliseum---portland-6-1-2027--concerts-alternative/production/7623601",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1959,14 +1959,14 @@
         "event_id": 18632551,
         "url": "https://seatgeek.com/a-perfect-circle-tickets/daly-city-california-cow-palace-daly-city-2027-06-04-7-pm/concert/18632551",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623603,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-daly-city-cow-palace-6-4-2027--concerts-alternative/production/7623603",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2045,7 +2045,7 @@
         "event_id": 7623605,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-los-angeles-hollywood-bowl-6-6-2027--concerts-alternative/production/7623605",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2126,14 +2126,14 @@
         "event_id": 18632556,
         "url": "https://seatgeek.com/a-perfect-circle-tickets/chula-vista-california-north-island-credit-union-amphitheatre-2027-06-08-8-pm/concert/18632556",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623607,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-chula-vista-north-island-credit-union-amphitheatre-6-8-2027--concerts-alternative/production/7623607",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2217,7 +2217,7 @@
         "event_id": 7623609,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-las-vegas-fontainebleau-las-vegas-6-10-2027--concerts-alternative/production/7623609",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2296,7 +2296,7 @@
         "event_id": 7623611,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-las-vegas-fontainebleau-las-vegas-6-11-2027--concerts-alternative/production/7623611",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2368,14 +2368,14 @@
         "event_id": 18632561,
         "url": "https://seatgeek.com/a-perfect-circle-tickets/phoenix-arizona-talking-stick-resort-amphitheatre-2027-06-13-7-30-pm/concert/18632561",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623613,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-phoenix-talking-stick-resort-amphitheatre-6-13-2027--concerts-alternative/production/7623613",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2447,14 +2447,14 @@
         "event_id": 18632531,
         "url": "https://seatgeek.com/a-perfect-circle-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-05-08-8-pm/concert/18632531",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623577,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-grand-prairie-texas-trust-cu-theatre-at-grand-prairie-5-8-2027--concerts-alternative/production/7623577",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2516,14 +2516,14 @@
         "event_id": 18632540,
         "url": "https://seatgeek.com/a-perfect-circle-tickets/morrison-colorado-red-rocks-amphitheatre-2027-05-27-7-30-pm/concert/18632540",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623517,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-morrison-red-rocks-amphitheatre-5-27-2027--concerts-alternative/production/7623517",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {

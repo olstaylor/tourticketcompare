@@ -27,17 +27,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18612836,
+        "url": "https://seatgeek.com/the-interrupters-tickets/tempe-arizona-marquee-theatre-tempe-az-2027-03-19-7-pm/concert/18612836",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7592422,
         "url": "https://www.vividseats.com/the-interrupters-tickets-tempe-marquee-theatre-3-19-2027--concerts-rock/production/7592422",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -116,7 +116,7 @@
         "event_id": 7592424,
         "url": "https://www.vividseats.com/the-interrupters-tickets-dallas-house-of-blues-dallas-3-23-2027--concerts-rock/production/7592424",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -200,7 +200,7 @@
         "event_id": 7592426,
         "url": "https://www.vividseats.com/the-interrupters-tickets-houston-house-of-blues-houston-3-24-2027--concerts-rock/production/7592426",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -427,7 +427,7 @@
         "event_id": 7592432,
         "url": "https://www.vividseats.com/the-interrupters-tickets-lake-buena-vista-house-of-blues-orlando-3-28-2027--concerts-rock/production/7592432",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -481,7 +481,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E00652EDB2FC73A",
     "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-atlanta-georgia-03-30-2027/event/0E00652EDB2FC73A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-interrupters-tickets/atlanta-georgia-the-masquerade-heaven-2027-03-30-6-pm/concert/18613133",
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-atlanta-the-masquerade---heaven-3-30-2027--concerts-rock/production/7592434",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-atlanta-georgia-03-30-2027/event/0E00652EDB2FC73A",
@@ -497,17 +497,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18613133,
+        "url": "https://seatgeek.com/the-interrupters-tickets/atlanta-georgia-the-masquerade-heaven-2027-03-30-6-pm/concert/18613133",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7592434,
         "url": "https://www.vividseats.com/the-interrupters-tickets-atlanta-the-masquerade---heaven-3-30-2027--concerts-rock/production/7592434",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -567,7 +567,7 @@
         "event_id": 7592436,
         "url": "https://www.vividseats.com/the-interrupters-tickets-silver-spring-the-fillmore-silver-spring-4-2-2027--concerts-rock/production/7592436",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -646,7 +646,7 @@
         "event_id": 7592438,
         "url": "https://www.vividseats.com/the-interrupters-tickets-brooklyn-brooklyn-paramount-4-4-2027--concerts-rock/production/7592438",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -738,7 +738,7 @@
         "event_id": 7592440,
         "url": "https://www.vividseats.com/the-interrupters-tickets-boston-citizens-house-of-blues-boston-4-7-2027--concerts-rock/production/7592440",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -817,7 +817,7 @@
         "event_id": 7592482,
         "url": "https://www.vividseats.com/the-interrupters-tickets-montreal-mtelus-4-9-2027--concerts-rock/production/7592482",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1020,7 +1020,7 @@
         "event_id": 7592444,
         "url": "https://www.vividseats.com/the-interrupters-tickets-cleveland-house-of-blues-cleveland-4-13-2027--concerts-rock/production/7592444",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1172,7 +1172,7 @@
         "event_id": 7592450,
         "url": "https://www.vividseats.com/the-interrupters-tickets-detroit-the-fillmore-detroit-4-16-2027--concerts-rock/production/7592450",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1256,7 +1256,7 @@
         "event_id": 7592456,
         "url": "https://www.vividseats.com/the-interrupters-tickets-chicago-house-of-blues-chicago-4-17-2027--concerts-rock/production/7592456",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1488,7 +1488,7 @@
         "event_id": 7592476,
         "url": "https://www.vividseats.com/the-interrupters-tickets-salt-lake-city-the-union-event-center---salt-lake-city-4-24-2027--concerts-rock/production/7592476",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1560,14 +1560,14 @@
         "event_id": 18612589,
         "url": "https://seatgeek.com/the-interrupters-tickets/los-angeles-california-the-wiltern-2027-04-30-5-30-pm/concert/18612589",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7592478,
         "url": "https://www.vividseats.com/the-interrupters-tickets-los-angeles-the-wiltern-4-30-2027--concerts-rock/production/7592478",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1636,17 +1636,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18612867,
+        "url": "https://seatgeek.com/the-interrupters-tickets/anaheim-california-house-of-blues-anaheim-2027-05-02-5-pm/concert/18612867",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7592480,
         "url": "https://www.vividseats.com/the-interrupters-tickets-anaheim-house-of-blues-anaheim-5-2-2027--concerts-rock/production/7592480",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1690,6 +1690,67 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
+    ]
+  },
+  {
+    "id": "tm-the-interrupters-2027-san-diego-vvg1iz_4zg9ez5",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "SOMA",
+    "datetime_iso": "2027-05-02T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0065500C5C200B",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-san-diego-california-05-01-2027/event/0A0065500C5C200B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-interrupters-san-diego-california-05-01-2027/event/0A0065500C5C200B",
+    "last_verified_at": "2026-10-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0065500C5C200B",
+        "discovery_event_id": "vvG1IZ_4ZG9eZ5",
+        "url": "https://www.ticketmaster.com/the-interrupters-san-diego-california-05-01-2027/event/0A0065500C5C200B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_4ZG9eZ5",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T17:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-22T17:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      }
     ]
   }
 ]

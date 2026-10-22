@@ -1460,7 +1460,7 @@
         "event_id": 6517215,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-columbus-nationwide-arena-10-21-2026/production/6517215",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1478,11 +1478,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107164508",
-        "url": "https://www.stubhub.ie/five-finger-death-punch-columbus-tickets-10-21-2026/event/107164508",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7676549",
@@ -1496,7 +1496,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676549",
-    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-columbus-tickets-10-21-2026/event/107164508",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676549/Five-Finger-Death-Punch-tickets-Wed-Oct-21-2026-Nationwide-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -1533,14 +1533,14 @@
         "event_id": 18010608,
         "url": "https://seatgeek.com/five-finger-death-punch-tickets/bristow-virginia-jiffy-lube-live-2026-10-23-6-45-pm/concert/18010608",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6517189,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-bristow-jiffy-lube-live-10-23-2026/production/6517189",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1619,7 +1619,7 @@
         "event_id": 6989751,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-manchester-ao-arena-1-16-2027--concerts-hard-rock/production/6989751",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1700,7 +1700,7 @@
         "event_id": 6989968,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-1-22-2027--concerts-hard-rock/production/6989968",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1780,7 +1780,7 @@
         "event_id": 6989985,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-london-the-o2---london-1-23-2027--concerts-hard-rock/production/6989985",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2091,7 +2091,7 @@
         "event_id": 6989766,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-glasgow-ovo-hydro-1-17-2027--concerts-hard-rock/production/6989766",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {

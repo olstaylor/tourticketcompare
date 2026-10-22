@@ -133,8 +133,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZw4y",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZw4y",
-    "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/cleveland-ohio-rocket-arena-2026-10-19-7-30-pm/concert/18477758",
-    "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-cleveland-rocket-arena-10-19-2026--concerts-pop/production/7446254",
+    "seatgeek_url": "",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZw4y",
     "last_verified_at": "2026-10-18",
@@ -149,18 +149,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18477758,
-        "url": "https://seatgeek.com/jonas-brothers-tickets/cleveland-ohio-rocket-arena-2026-10-19-7-30-pm/concert/18477758",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 7446254,
-        "url": "https://www.vividseats.com/jonas-brothers-tickets-cleveland-rocket-arena-10-19-2026--concerts-pop/production/7446254",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -231,7 +231,7 @@
         "event_id": 7446256,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-buffalo-keybank-center-10-20-2026--concerts-pop/production/7446256",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -311,7 +311,7 @@
         "event_id": 7446258,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-rosemont-allstate-arena-10-22-2026--concerts-pop/production/7446258",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -365,11 +365,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "1000651DAC5DBFD1",
     "ticketmaster_url": "https://www.ticketmaster.ca/jonas-brothers-the-burning-up-tour-toronto-ontario-10-24-2026/event/1000651DAC5DBFD1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/toronto-canada-scotiabank-arena-2026-10-24-7-30-pm/concert/18551168",
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-toronto-scotiabank-arena-10-24-2026/production/7506326",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/jonas-brothers-the-burning-up-tour-toronto-ontario-10-24-2026/event/1000651DAC5DBFD1",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -381,17 +381,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18551168,
+        "url": "https://seatgeek.com/jonas-brothers-tickets/toronto-canada-scotiabank-arena-2026-10-24-7-30-pm/concert/18551168",
+        "verified": true,
+        "last_verified_at": "2026-10-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7506326,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-toronto-scotiabank-arena-10-24-2026/production/7506326",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -410,13 +410,6 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-ROGERS",
       "LIVE NATION CANADA-RBC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-09-04T14:00:00Z",
-        "end": "2026-10-20T16:00:00Z"
-      }
     ]
   },
   {
@@ -457,7 +450,7 @@
         "event_id": 7446260,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-detroit-little-caesars-arena-10-25-2026--concerts-pop/production/7446260",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -537,14 +530,14 @@
         "event_id": 18503890,
         "url": "https://seatgeek.com/jonas-brothers-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-10-26-7-30-pm/concert/18503890",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7446262,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-pittsburgh-ppg-paints-arena-10-26-2026--concerts-pop/production/7446262",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -623,7 +616,7 @@
         "event_id": 7446264,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-milwaukee-fiserv-forum-11-1-2026--concerts-pop/production/7446264",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -696,14 +689,14 @@
         "event_id": 18492128,
         "url": "https://seatgeek.com/jonas-brothers-tickets/saint-paul-minnesota-grand-casino-arena-2026-11-02-7-30-pm/concert/18492128",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7446266,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-saint-paul-grand-casino-arena-11-2-2026--concerts-pop/production/7446266",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -775,7 +768,7 @@
         "event_id": 7446268,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-kansas-city-t-mobile-center-11-3-2026--concerts-pop/production/7446268",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -854,7 +847,7 @@
         "event_id": 7446274,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-nashville-bridgestone-arena-11-5-2026--concerts-pop/production/7446274",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -907,7 +900,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2000650DC33A45A8",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-birmingham-alabama-11-06-2026/event/2000650DC33A45A8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/birmingham-alabama-legacy-arena-at-the-bjcc-2026-11-06-7-30-pm/concert/18503986",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-birmingham-alabama-11-06-2026/event/2000650DC33A45A8",
@@ -923,11 +916,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18503986,
+        "url": "https://seatgeek.com/jonas-brothers-tickets/birmingham-alabama-legacy-arena-at-the-bjcc-2026-11-06-7-30-pm/concert/18503986",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1006,14 +999,14 @@
         "event_id": 18571665,
         "url": "https://seatgeek.com/jonas-brothers-tickets/houston-texas-toyota-center-2026-11-08-7-30-pm/concert/18571665",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7533480,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-houston-toyota-center---tx-11-8-2026/production/7533480",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1085,7 +1078,7 @@
         "event_id": 7446282,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-oklahoma-city-paycom-center-11-9-2026--concerts-pop/production/7446282",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1169,7 +1162,7 @@
         "event_id": 7446284,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-dallas-american-airlines-center---tx-11-10-2026--concerts-pop/production/7446284",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1256,7 +1249,7 @@
         "event_id": 7446290,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-austin-moody-center-atx-11-13-2026--concerts-pop/production/7446290",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1343,7 +1336,7 @@
         "event_id": 7446292,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-san-antonio-frost-bank-center-11-14-2026--concerts-pop/production/7446292",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1499,7 +1492,7 @@
         "event_id": 7446302,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-los-angeles-hollywood-bowl-11-18-2026--concerts-pop/production/7446302",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1565,7 +1558,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-los-angeles-hollywood-bowl-11-19-2026--concerts-pop/production/7480299",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-19-2026/event/0B006511309DB401",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1587,7 +1580,7 @@
         "event_id": 7480299,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-los-angeles-hollywood-bowl-11-19-2026--concerts-pop/production/7480299",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1630,11 +1623,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-08-28T17:00:00Z",
-        "end": "2026-10-21T05:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-08-28T17:00:00Z",
@@ -1680,7 +1668,7 @@
         "event_id": 7446310,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-san-francisco-chase-center-11-21-2026--concerts-pop/production/7446310",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1772,7 +1760,7 @@
         "event_id": 7446314,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-sacramento-golden-1-center-11-22-2026--concerts-pop/production/7446314",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1864,7 +1852,7 @@
         "event_id": 7446318,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-glendale-desert-diamond-arena-11-27-2026--concerts-pop/production/7446318",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1941,14 +1929,14 @@
         "event_id": 18503912,
         "url": "https://seatgeek.com/jonas-brothers-tickets/las-vegas-nevada-mgm-grand-garden-arena-2026-11-28-7-30-pm/concert/18503912",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7446322,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-las-vegas-mgm-grand-garden-arena-11-28-2026--concerts-pop/production/7446322",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2112,7 +2100,7 @@
         "event_id": 7446332,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-anaheim-honda-center-12-2-2026--concerts-pop/production/7446332",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2204,7 +2192,7 @@
         "event_id": 7446334,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-seattle-climate-pledge-arena-12-5-2026--concerts-pop/production/7446334",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2289,14 +2277,14 @@
         "event_id": 18471182,
         "url": "https://seatgeek.com/jonas-brothers-tickets/salt-lake-city-utah-delta-center-1-2026-12-07-7-30-pm/concert/18471182",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7446338,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-salt-lake-city-delta-center-12-7-2026--concerts-pop/production/7446338",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2368,7 +2356,7 @@
         "event_id": 7446340,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-denver-ball-arena-12-9-2026--concerts-pop/production/7446340",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2452,7 +2440,7 @@
         "event_id": 7446344,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-lincoln-pinnacle-bank-arena-12-10-2026--concerts-pop/production/7446344",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2536,7 +2524,7 @@
         "event_id": 7446348,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-sioux-falls-denny-sanford-premier-center-12-12-2026--concerts-pop/production/7446348",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2620,7 +2608,7 @@
         "event_id": 7446350,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-grand-rapids-van-andel-arena-12-15-2026--concerts-pop/production/7446350",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2704,7 +2692,7 @@
         "event_id": 7446354,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-elmont-ubs-arena-12-19-2026--concerts-pop/production/7446354",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2772,7 +2760,7 @@
         "event_id": 7446356,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-newark-prudential-center-12-21-2026--concerts-pop/production/7446356",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2864,7 +2852,7 @@
         "event_id": 7480311,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-newark-prudential-center-12-22-2026/production/7480311",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "stubhub": {

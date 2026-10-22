@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7Pd4s",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pd4s",
-    "seatgeek_url": "https://seatgeek.com/knocked-loose-tickets/nashville-tennessee-the-pinnacle-nashville-2026-10-19-7-pm/concert/18270629",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pd4s",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18270629,
-        "url": "https://seatgeek.com/knocked-loose-tickets/nashville-tennessee-the-pinnacle-nashville-2026-10-19-7-pm/concert/18270629",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -136,14 +136,14 @@
         "event_id": 18270633,
         "url": "https://seatgeek.com/knocked-loose-tickets/kansas-city-missouri-uptown-theater-kc-2026-10-22-8-pm/concert/18270633",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7092556,
         "url": "https://www.vividseats.com/knocked-loose-tickets-kansas-city-uptown-theater-kansas-city-10-22-2026--concerts-rock/production/7092556",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -200,7 +200,7 @@
         "event_id": 18270635,
         "url": "https://seatgeek.com/knocked-loose-tickets/mesa-arizona-mesa-amphitheatre-2026-10-27-6-pm/concert/18270635",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -251,7 +251,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70yjs",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70yjs",
     "seatgeek_url": "https://seatgeek.com/knocked-loose-tickets/los-angeles-california-shrine-la-outdoors-2026-10-29-7-pm/concert/18270638",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/knocked-loose-tickets-los-angeles-shrine-la-outdoors-10-29-2026--concerts-rock/production/7092655",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70yjs",
     "last_verified_at": null,
@@ -269,15 +269,15 @@
         "event_id": 18270638,
         "url": "https://seatgeek.com/knocked-loose-tickets/los-angeles-california-shrine-la-outdoors-2026-10-29-7-pm/concert/18270638",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7092655,
+        "url": "https://www.vividseats.com/knocked-loose-tickets-los-angeles-shrine-la-outdoors-10-29-2026--concerts-rock/production/7092655",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -345,7 +345,7 @@
         "event_id": 7092574,
         "url": "https://www.vividseats.com/knocked-loose-tickets-san-diego-petco-park-10-30-2026--concerts-rock/production/7092574",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -470,7 +470,7 @@
         "event_id": 7092595,
         "url": "https://www.vividseats.com/knocked-loose-tickets-salt-lake-city-the-union-event-center---salt-lake-city-11-2-2026/production/7092595",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -542,7 +542,7 @@
         "event_id": 7092605,
         "url": "https://www.vividseats.com/knocked-loose-tickets-denver-fillmore-auditorium-denver-11-3-2026/production/7092605",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -598,7 +598,7 @@
         "event_id": 7092585,
         "url": "https://www.vividseats.com/knocked-loose-tickets-austin-moody-amphitheater-11-5-2026/production/7092585",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {

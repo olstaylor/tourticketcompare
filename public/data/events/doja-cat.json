@@ -681,7 +681,7 @@
         "event_id": 17769313,
         "url": "https://seatgeek.com/doja-cat-tickets/san-francisco-california-chase-center-2026-10-25-7-30-pm/concert/17769313",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -753,7 +753,7 @@
     "ticketmaster_event_id": "1C00633AA65F408A",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-sacramento-california-10-20-2026/event/1C00633AA65F408A",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-sacramento-golden-1-center-10-20-2026--concerts-rap-hip-hop/production/6091548",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-sacramento-california-10-20-2026/event/1C00633AA65F408A",
     "last_verified_at": "2026-10-18",
@@ -775,11 +775,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 6091548,
-        "url": "https://www.vividseats.com/doja-cat-tickets-sacramento-golden-1-center-10-20-2026--concerts-rap-hip-hop/production/6091548",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -796,26 +796,26 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106969171",
-        "url": "https://www.stubhub.ie/doja-cat-sacramento-tickets-10-20-2026/event/106969171",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7457626",
-        "url": "https://www.ticketliquidator.com/tickets/7457626/Doja-Cat-tickets-Tue-Oct-20-2026-Golden-1-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbSnJ9Ve1",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457626",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-sacramento-tickets-10-20-2026/event/106969171",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457626/Doja-Cat-tickets-Tue-Oct-20-2026-Golden-1-Center",
+    "stubhub_international_url": "",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -858,7 +858,7 @@
         "event_id": 6091549,
         "url": "https://www.vividseats.com/doja-cat-tickets-inglewood-kia-forum-10-22-2026--concerts-rap-hip-hop/production/6091549",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1104,7 +1104,7 @@
         "event_id": 6091696,
         "url": "https://www.vividseats.com/doja-cat-tickets-austin-moody-center-atx-11-3-2026--concerts-rap-hip-hop/production/6091696",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1191,7 +1191,7 @@
         "event_id": 6091560,
         "url": "https://www.vividseats.com/doja-cat-tickets-dallas-american-airlines-center---tx-11-4-2026--concerts-rap-hip-hop/production/6091560",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1278,7 +1278,7 @@
         "event_id": 6091562,
         "url": "https://www.vividseats.com/doja-cat-tickets-san-antonio-frost-bank-center-11-6-2026--concerts-rap-hip-hop/production/6091562",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1358,14 +1358,14 @@
         "event_id": 17769336,
         "url": "https://seatgeek.com/doja-cat-tickets/houston-texas-toyota-center-2026-11-07-7-30-pm/concert/17769336",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6091565,
         "url": "https://www.vividseats.com/doja-cat-tickets-houston-toyota-center---tx-11-7-2026--concerts-rap-hip-hop/production/6091565",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1434,7 +1434,7 @@
         "event_id": 6091566,
         "url": "https://www.vividseats.com/doja-cat-tickets-miami-kaseya-center-11-11-2026--concerts-rap-hip-hop/production/6091566",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1514,7 +1514,7 @@
         "event_id": 6091568,
         "url": "https://www.vividseats.com/doja-cat-tickets-tampa-benchmark-international-arena-11-13-2026--concerts-rap-hip-hop/production/6091568",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1601,7 +1601,7 @@
         "event_id": 6091570,
         "url": "https://www.vividseats.com/doja-cat-tickets-orlando-kia-center-11-14-2026--concerts-rap-hip-hop/production/6091570",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1688,7 +1688,7 @@
         "event_id": 6091572,
         "url": "https://www.vividseats.com/doja-cat-tickets-atlanta-state-farm-arena-11-17-2026--concerts-rap-hip-hop/production/6091572",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1775,7 +1775,7 @@
         "event_id": 6091576,
         "url": "https://www.vividseats.com/doja-cat-tickets-charlotte-spectrum-center-11-18-2026--concerts-rap-hip-hop/production/6091576",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1862,7 +1862,7 @@
         "event_id": 6091577,
         "url": "https://www.vividseats.com/doja-cat-tickets-baltimore-cfg-bank-arena-11-20-2026--concerts-rap-hip-hop/production/6091577",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1941,7 +1941,7 @@
         "event_id": 6091579,
         "url": "https://www.vividseats.com/doja-cat-tickets-washington-capital-one-arena-11-21-2026--concerts-rap-hip-hop/production/6091579",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2028,7 +2028,7 @@
         "event_id": 6091580,
         "url": "https://www.vividseats.com/doja-cat-tickets-boston-td-garden-11-23-2026--concerts-rap-hip-hop/production/6091580",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2115,7 +2115,7 @@
         "event_id": 6091757,
         "url": "https://www.vividseats.com/doja-cat-tickets-toronto-scotiabank-arena-11-25-2026--concerts-rap-hip-hop/production/6091757",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2263,7 +2263,7 @@
         "event_id": 6091581,
         "url": "https://www.vividseats.com/doja-cat-tickets-philadelphia-xfinity-mobile-arena-11-29-2026--concerts-rap-hip-hop/production/6091581",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2350,7 +2350,7 @@
         "event_id": 6091583,
         "url": "https://www.vividseats.com/doja-cat-tickets-new-york-madison-square-garden-12-1-2026--concerts-rap-hip-hop/production/6091583",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2435,14 +2435,14 @@
         "event_id": 17769328,
         "url": "https://seatgeek.com/doja-cat-tickets/las-vegas-nevada-t-mobile-arena-2026-10-31-7-30-pm/concert/17769328",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6091559,
         "url": "https://www.vividseats.com/doja-cat-tickets-las-vegas-t-mobile-arena-10-31-2026--concerts-rap-hip-hop/production/6091559",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {

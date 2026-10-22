@@ -37,7 +37,7 @@
         "event_id": 7333970,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-riverside-fox-performing-arts-center-11-11-2026/production/7333970",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -102,7 +102,7 @@
         "event_id": 18592690,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-03-25-8-pm/concert/18592690",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -225,7 +225,7 @@
         "event_id": 7558897,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-waukegan-genesee-theatre-4-1-2027--concerts-pop/production/7558897",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -294,14 +294,14 @@
         "event_id": 18592691,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/tallahassee-florida-the-moon-2027-04-07-7-30-pm/concert/18592691",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7565851,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-tallahassee-the-moon---fl-4-7-2027/production/7565851",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -347,7 +347,7 @@
         "event_id": 18592671,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/saint-petersburg-florida-jannus-live-2027-04-08-8-pm/concert/18592671",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -381,7 +381,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D006529CC72DDED",
     "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-miami-beach-florida-04-10-2027/event/0D006529CC72DDED",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-psychedelic-furs-tickets/miami-beach-florida-the-fillmore-miami-beach-at-jackie-gleason-theater-2027-04-10-8-pm/concert/18592673",
     "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-miami-beach-fillmore-miami-beach-at-jackie-gleason-theater-4-10-2027--concerts-pop/production/7558937",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-miami-beach-florida-04-10-2027/event/0D006529CC72DDED",
@@ -397,17 +397,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18592673,
+        "url": "https://seatgeek.com/the-psychedelic-furs-tickets/miami-beach-florida-the-fillmore-miami-beach-at-jackie-gleason-theater-2027-04-10-8-pm/concert/18592673",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7558937,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-miami-beach-fillmore-miami-beach-at-jackie-gleason-theater-4-10-2027--concerts-pop/production/7558937",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -444,7 +444,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D006522DCF260CC",
     "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-asheville-north-carolina-04-17-2027/event/2D006522DCF260CC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-psychedelic-furs-tickets/asheville-north-carolina-harrah-s-cherokee-center-asheville-2027-04-17-7-30-pm/concert/18592680",
     "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-asheville-harrahs-cherokee-center-asheville-4-17-2027/production/7565248",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-asheville-north-carolina-04-17-2027/event/2D006522DCF260CC",
@@ -460,17 +460,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18592680,
+        "url": "https://seatgeek.com/the-psychedelic-furs-tickets/asheville-north-carolina-harrah-s-cherokee-center-asheville-2027-04-17-7-30-pm/concert/18592680",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7565248,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-asheville-harrahs-cherokee-center-asheville-4-17-2027/production/7565248",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -523,14 +523,14 @@
         "event_id": 18592697,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/norfolk-virginia-the-norva-norfolk-2027-04-20-7-30-pm/concert/18592697",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7559237,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-norfolk-the-norva-4-20-2027/production/7559237",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -599,7 +599,7 @@
         "event_id": 7558977,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-baltimore-nevermore-hall-4-23-2027--concerts-pop/production/7558977",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -741,7 +741,7 @@
         "event_id": 7559009,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-red-bank-hackensack-meridian-health-theatre-at-the-count-basie-center-4-27-2027--concerts-pop/production/7559009",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -811,13 +811,13 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7559015,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-huntington-the-paramount-in-concert-with-northwell-4-28-2027--concerts-pop/production/7559015",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -875,17 +875,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18592689,
+        "url": "https://seatgeek.com/the-psychedelic-furs-tickets/northfield-ohio-mgm-northfield-park-center-stage-2027-05-01-7-30-pm/concert/18592689",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7559023,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-northfield-northfield-park-racino---center-stage-5-1-2027--concerts-pop/production/7559023",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -967,7 +967,7 @@
         "event_id": 18670227,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/ridgefield-connecticut-the-ridgefield-playhouse-2027-01-15-8-pm/concert/18670227",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1149,14 +1149,14 @@
         "event_id": 18592665,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/nashville-tennessee-ryman-auditorium-2027-04-02-8-pm/concert/18592665",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7558924,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-nashville-ryman-auditorium-4-2-2027--concerts-pop/production/7558924",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1221,7 +1221,7 @@
         "event_id": 18350904,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/rocklin-california-platinum-living-amphitheater-at-quarry-park-2026-10-29-7-pm/concert/18350904",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1256,7 +1256,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C0064536BDA6A8B",
     "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-napa-california-10-30-2026/event/1C0064536BDA6A8B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-psychedelic-furs-tickets/napa-california-uptown-theatre-napa-2026-10-30-8-pm/concert/18091465",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-napa-california-10-30-2026/event/1C0064536BDA6A8B",
@@ -1272,11 +1272,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18091465,
+        "url": "https://seatgeek.com/the-psychedelic-furs-tickets/napa-california-uptown-theatre-napa-2026-10-30-8-pm/concert/18091465",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1345,7 +1345,7 @@
         "event_id": 18592658,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/menlo-park-california-the-guild-theatre-menlo-park-2026-11-01-8-pm/concert/18592658",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1399,7 +1399,7 @@
         "event_id": 18592656,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/menlo-park-california-the-guild-theatre-menlo-park-2026-11-02-8-pm/concert/18592656",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1488,7 +1488,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0A006454B370D4AA",
     "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-del-mar-california-11-08-2026/event/0A006454B370D4AA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-psychedelic-furs-tickets/del-mar-california-the-sound-del-mar-2026-11-08-8-pm/concert/18091775",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-del-mar-california-11-08-2026/event/0A006454B370D4AA",
@@ -1504,11 +1504,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18091775,
+        "url": "https://seatgeek.com/the-psychedelic-furs-tickets/del-mar-california-the-sound-del-mar-2026-11-08-8-pm/concert/18091775",
+        "verified": true,
+        "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1577,7 +1577,7 @@
         "event_id": 18310993,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/san-luis-obispo-california-fremont-theater-san-luis-obispo-2026-11-16-8-pm/concert/18310993",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1647,7 +1647,7 @@
         "event_id": 18092700,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/phoenix-arizona-celebrity-theatre-phoenix-2026-11-19-7-30-pm/concert/18092700",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2173,14 +2173,14 @@
         "event_id": 18592675,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/jacksonville-florida-florida-theatre-jacksonville-2027-04-14-8-pm/concert/18592675",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7567193,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-jacksonville-florida-theatre-jacksonville-4-14-2027/production/7567193",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-21",
         "availability_status": "listed"
       },
       "stubhub": {

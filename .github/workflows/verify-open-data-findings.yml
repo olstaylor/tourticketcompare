@@ -101,7 +101,7 @@ jobs:
           if-no-files-found: error
 
   prepare-hazlett-fix:
-    if: github.event_name == 'pull_request' && github.event.action == 'synchronize' && github.head_ref == 'codex/verify-open-data-findings-2026-10-22' && github.event.pull_request.head.repo.full_name == github.repository
+    if: github.event.pull_request.head.sha == '1fb28319aad7eff981054c042df43583cb384c2c' && github.event_name == 'pull_request' && github.event.action == 'synchronize' && github.head_ref == 'codex/verify-open-data-findings-2026-10-22' && github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     timeout-minutes: 30
     permissions:
@@ -254,4 +254,100 @@ jobs:
             ${{ runner.temp }}/seatgeek-*.json
             ${{ runner.temp }}/seatgeek-*.md
             ${{ runner.temp }}/prepared-data-repairs.json
+          if-no-files-found: error
+
+  prepare-oasis-metadata:
+    if: github.event_name == 'pull_request' && github.event.action == 'synchronize' && github.head_ref == 'codex/verify-open-data-findings-2026-10-22' && github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: codex/repair-seatgeek-metallica-20261022
+          fetch-depth: 0
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - run: npm ci
+      - name: Review exact source records and prepare metadata corrections
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from "node:fs/promises";
+          import assert from "node:assert/strict";
+          import { execFileSync } from "node:child_process";
+          const cmd = (file, args) => execFileSync(file, args, { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"], timeout: 600000, maxBuffer: 8000000 });
+          const ids = ["tm-oasis-2027-munich-z698xzc2z16vca8yqu","tm-oasis-2027-munich-z698xzc2z16ezoffov","tm-oasis-2027-munich-z698xzc2z16v7f7_4g","tm-oasis-2027-barcelona-z698xz2qz1kosq3xa","tm-oasis-2027-barcelona-z698xz2qz1kvz7a4m","tm-oasis-2027-amsterdam-z698xzbpz16vrdz-8b","tm-oasis-2027-amsterdam-z698xzbpz1kodp337"];
+          assert(process.env.TICKETMASTER_API_KEY, "Ticketmaster credentials are required.");
+          const before = JSON.parse(await fs.readFile("public/data/events.json", "utf8"));
+          const events = structuredClone(before);
+          const selected = events.filter(e => ids.includes(e.id));
+          assert(selected.length === ids.length && selected.every(e => e.artist_slug === "oasis"));
+          const input = process.env.RUNNER_TEMP + "/oasis-review-input.json";
+          const reportPath = process.env.RUNNER_TEMP + "/oasis-review-source.json";
+          await fs.writeFile(input, JSON.stringify(selected));
+          cmd(process.execPath, ["scripts/apply-tm-updates.mjs", "--dry-run", "--events", input, "--json", reportPath]);
+          const report = JSON.parse(await fs.readFile(reportPath, "utf8"));
+          assert(report.summary.checked === ids.length && report.errors.length === 0 && report.updates.length === 0);
+          assert(report.reviewItems.length === ids.length && report.reviewItems.every(r => ids.includes(r.id) && r.kind === "status" && r.ticketmaster_status === "offsale"));
+          const allowedFields = new Set(["organizer_names", "public_onsale_at"]);
+          const applied = [];
+          for (const item of report.reviewItems) {
+            const event = events.find(e => e.id === item.id);
+            assert(event.datetime_iso === item.ticketmaster_datetime_iso, "The source date moved; new review is required.");
+            for (const change of item.intendedChanges || []) {
+              assert(allowedFields.has(change.field), "Unexpected proposed field: " + change.field);
+              assert.deepEqual(event[change.field] ?? null, change.from);
+              if (change.field === "organizer_names") assert(Array.isArray(change.to) && change.to.length > 0 && change.to.every(n => typeof n === "string" && n.trim()));
+              if (change.field === "public_onsale_at") assert(typeof change.to === "string" && Number.isFinite(Date.parse(change.to)));
+              event[change.field] = change.to;
+              applied.push({ id: event.id, ...change });
+            }
+          }
+          assert(applied.length > 0);
+          const allowedShards = new Set();
+          const strip = e => { const x = structuredClone(e); for (const f of allowedFields) delete x[f]; return x; };
+          for (let i = 0; i < events.length; i++) {
+            assert.equal(events[i].id, before[i].id);
+            if (JSON.stringify(events[i]) === JSON.stringify(before[i])) continue;
+            assert(ids.includes(events[i].id));
+            assert.deepEqual(strip(events[i]), strip(before[i]));
+            allowedShards.add("public/data/events/_shards/" + String(Math.floor(i / 200)).padStart(3, "0") + ".json");
+          }
+          await fs.writeFile("public/data/events.json", JSON.stringify(events, null, 2) + "\n");
+          console.log(cmd("npm", ["run", "events:partition"]));
+          console.log(cmd("npm", ["run", "status:validate:write"]));
+          const allowedFiles = new Set(["public/data/events.json", "public/data/events/oasis.json", "public/data/events-index.json", "PROJECT_STATUS.md", ...allowedShards]);
+          const files = cmd("git", ["diff", "--name-only"]).trim().split("\n").filter(Boolean);
+          for (const file of files) assert(allowedFiles.has(file), "Unexpected file: " + file);
+          assert.equal(cmd("git", ["ls-files", "--others", "--exclude-standard"]).trim(), "");
+          console.log(cmd("npm", ["run", "events:validate:prod"]));
+          console.log(cmd("npm", ["run", "events:validate:partitions"]));
+          console.log(cmd("npm", ["run", "test:providers"]));
+          console.log(cmd("git", ["diff", "--check"]));
+          assert.deepEqual(JSON.parse(await fs.readFile("public/data/events.json", "utf8")), events);
+          for (const file of cmd("git", ["diff", "--name-only"]).trim().split("\n").filter(Boolean)) assert(allowedFiles.has(file));
+          cmd("git", ["config", "user.name", "tourticketcompare-bot"]);
+          cmd("git", ["config", "user.email", "tourticketcompare-bot@users.noreply.github.com"]);
+          const branch = "codex/review-oasis-offsale-metadata-20261022";
+          cmd("git", ["checkout", "-b", branch]);
+          cmd("git", ["add", ...files]);
+          console.log(cmd("git", ["diff", "--cached", "--stat"]));
+          console.log(cmd("git", ["commit", "-m", "Apply source-confirmed metadata after reviewing seven Oasis dates"]));
+          console.log(cmd("git", ["push", "origin", "HEAD:refs/heads/" + branch]));
+          const outcome = { branch, head: cmd("git", ["rev-parse", "HEAD"]).trim(), ids, applied, checked_at: report.checked_at, decision: "retain", status: "offsale" };
+          await fs.writeFile(process.env.RUNNER_TEMP + "/oasis-review-outcome.json", JSON.stringify(outcome, null, 2) + "\n");
+          console.log("OASIS_REVIEW_OUTCOME=" + JSON.stringify(outcome));
+          NODE
+      - name: Preserve reviewed source evidence
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: oasis-reviewed-source
+          path: |
+            ${{ runner.temp }}/oasis-review-source.json
+            ${{ runner.temp }}/oasis-review-outcome.json
           if-no-files-found: error

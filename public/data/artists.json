@@ -2278,5 +2278,89 @@
     "last_verified_at": "2026-10-21",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-21"
+  },
+  {
+    "slug": "los-tigres-del-norte",
+    "name": "Los Tigres del Norte",
+    "short_description": "World act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-22",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-22"
+  },
+  {
+    "slug": "the-chicks",
+    "name": "The Chicks",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-22",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-22"
+  },
+  {
+    "slug": "young-miko",
+    "name": "Young Miko",
+    "short_description": "Latin act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-22",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-22"
+  },
+  {
+    "slug": "zac-brown-band",
+    "name": "Zac Brown Band",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-22",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-22"
+  },
+  {
+    "slug": "sleeping-with-sirens",
+    "name": "Sleeping With Sirens",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-22",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-22"
+  },
+  {
+    "slug": "chayanne",
+    "name": "Chayanne",
+    "short_description": "World act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-22",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-22"
   }
 ]

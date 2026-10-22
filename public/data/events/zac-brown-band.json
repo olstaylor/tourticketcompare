@@ -1,0 +1,426 @@
+[
+  {
+    "id": "tm-zac-brown-band-2026-minneapolis-z7r9jz1a7owqo",
+    "artist_slug": "zac-brown-band",
+    "artist_name": "Zac Brown Band",
+    "event_name": "Zac Brown Band w/ Brothers Osborne",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Target Center",
+    "datetime_iso": "2026-10-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7OwqO",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OwqO",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OwqO",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7OwqO",
+        "discovery_event_id": "Z7r9jZ1A7OwqO",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OwqO",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OwqO",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zac-brown-band-2026-sioux-falls-z7r9jz1a7owq_",
+    "artist_slug": "zac-brown-band",
+    "artist_name": "Zac Brown Band",
+    "event_name": "Zac Brown Band w/ Brothers Osborne",
+    "city": "Sioux Falls",
+    "country": "United States Of America",
+    "venue": "Denny Sanford PREMIER Center",
+    "datetime_iso": "2026-10-25T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Owq_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Owq_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Owq_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Owq_",
+        "discovery_event_id": "Z7r9jZ1A7Owq_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Owq_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Owq_",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zac-brown-band-2026-buffalo-k7vgf_dh65dyo",
+    "artist_slug": "zac-brown-band",
+    "artist_name": "Zac Brown Band",
+    "event_name": "Zac Brown Band: Love & Fear Tour",
+    "city": "Buffalo",
+    "country": "United States Of America",
+    "venue": "KeyBank Center",
+    "datetime_iso": "2026-11-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006436C72C3E60",
+    "ticketmaster_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-buffalo-new-york-11-05-2026/event/00006436C72C3E60",
+    "seatgeek_url": "https://seatgeek.com/zac-brown-band-tickets/buffalo-new-york-keybank-center-2026-11-05-7-pm/concert/18032029",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-buffalo-new-york-11-05-2026/event/00006436C72C3E60",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006436C72C3E60",
+        "discovery_event_id": "k7vGF_dh65dyO",
+        "url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-buffalo-new-york-11-05-2026/event/00006436C72C3E60",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_dh65dyO",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zac-brown-band-2026-detroit-vv1afzk8vgkdi6e86",
+    "artist_slug": "zac-brown-band",
+    "artist_name": "Zac Brown Band",
+    "event_name": "Zac Brown Band: Love & Fear Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Little Caesars Arena",
+    "datetime_iso": "2026-11-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006434E81E7407",
+    "ticketmaster_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-detroit-michigan-11-06-2026/event/08006434E81E7407",
+    "seatgeek_url": "https://seatgeek.com/zac-brown-band-tickets/detroit-michigan-little-caesars-arena-2026-11-06-7-pm/concert/18032030",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-detroit-michigan-11-06-2026/event/08006434E81E7407",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006434E81E7407",
+        "discovery_event_id": "vv1AFZk8VGkdI6E86",
+        "url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-detroit-michigan-11-06-2026/event/08006434E81E7407",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZk8VGkdI6E86",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zac-brown-band-2026-lincoln-vv16kzk8wakzacfeeu",
+    "artist_slug": "zac-brown-band",
+    "artist_name": "Zac Brown Band",
+    "event_name": "Zac Brown Band: Love & Fear Tour",
+    "city": "Lincoln",
+    "country": "United States Of America",
+    "venue": "Pinnacle Bank Arena",
+    "datetime_iso": "2026-11-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006432246D711C",
+    "ticketmaster_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-lincoln-nebraska-11-19-2026/event/06006432246D711C",
+    "seatgeek_url": "https://seatgeek.com/zac-brown-band-tickets/lincoln-nebraska-pinnacle-bank-arena-2026-11-19-7-pm/concert/18032031",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-lincoln-nebraska-11-19-2026/event/06006432246D711C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006432246D711C",
+        "discovery_event_id": "vv16kZk8wakZACFeeu",
+        "url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-lincoln-nebraska-11-19-2026/event/06006432246D711C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv16kZk8wakZACFeeu",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zac-brown-band-2026-des-moines-z7r9jz1a7osk3",
+    "artist_slug": "zac-brown-band",
+    "artist_name": "Zac Brown Band",
+    "event_name": "Zac Brown Band w/ Grace Potter",
+    "city": "Des Moines",
+    "country": "United States Of America",
+    "venue": "Casey's Center",
+    "datetime_iso": "2026-11-21T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7OSk3",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OSk3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OSk3",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7OSk3",
+        "discovery_event_id": "Z7r9jZ1A7OSk3",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OSk3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OSk3",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zac-brown-band-2026-rosemont-vv1a7zk8sgkdldbon",
+    "artist_slug": "zac-brown-band",
+    "artist_name": "Zac Brown Band",
+    "event_name": "Zac Brown Band: Love & Fear Tour",
+    "city": "Rosemont",
+    "country": "United States Of America",
+    "venue": "Allstate Arena",
+    "datetime_iso": "2026-11-22T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006431DF0D8823",
+    "ticketmaster_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-rosemont-illinois-11-21-2026/event/04006431DF0D8823",
+    "seatgeek_url": "https://seatgeek.com/zac-brown-band-tickets/rosemont-illinois-allstate-arena-2026-11-21-7-pm/concert/18032037",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-rosemont-illinois-11-21-2026/event/04006431DF0D8823",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006431DF0D8823",
+        "discovery_event_id": "vv1A7Zk8sGkdLdbON",
+        "url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-rosemont-illinois-11-21-2026/event/04006431DF0D8823",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7Zk8sGkdLdbON",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zac-brown-band-2027-milwaukee-vv1a6zkf0gkdpf9tr",
+    "artist_slug": "zac-brown-band",
+    "artist_name": "Zac Brown Band",
+    "event_name": "Zac Brown Band",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "American Family Insurance Amphitheater - Summerfest Grounds",
+    "datetime_iso": "2027-06-26T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006524D6217A6F",
+    "ticketmaster_url": "https://www.ticketmaster.com/zac-brown-band-milwaukee-wisconsin-06-25-2027/event/07006524D6217A6F",
+    "seatgeek_url": "https://seatgeek.com/zac-brown-band-tickets/milwaukee-wisconsin-american-family-insurance-amphitheater-summerfest-grounds-2027-06-25-7-pm/concert/18571701",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zac-brown-band-milwaukee-wisconsin-06-25-2027/event/07006524D6217A6F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006524D6217A6F",
+        "discovery_event_id": "vv1A6Zkf0GkdpF9tR",
+        "url": "https://www.ticketmaster.com/zac-brown-band-milwaukee-wisconsin-06-25-2027/event/07006524D6217A6F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6Zkf0GkdpF9tR",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  }
+]

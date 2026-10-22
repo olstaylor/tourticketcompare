@@ -1,0 +1,101 @@
+name: Verify open data findings
+
+on:
+  pull_request:
+    types: [opened]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  evidence:
+    if: github.event_name == 'workflow_dispatch' || (github.head_ref == 'codex/verify-open-data-findings-2026-10-22' && github.event.pull_request.head.repo.full_name == github.repository)
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: 33278f8e95e7be99948753fdb3be0a96cc4319b0
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - run: npm ci
+      - name: Verify queued provider and event evidence without writes
+        env:
+          SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from "node:fs/promises";
+          import path from "node:path";
+          import assert from "node:assert/strict";
+          import { execFileSync } from "node:child_process";
+          const batches = [{"issue":1726,"provider":"seatgeek","artist_slug":"malcolm-todd","performer_id":807371,"event_ids":["tm-malcolm-todd-2026-los-angeles-vvg10z_gcgtrwf","tm-malcolm-todd-2026-los-angeles-vvg10z_gpomy2y","tm-malcolm-todd-2026-los-angeles-vvg10z_gpovtcx","tm-malcolm-todd-2026-oakland-g5vyz_gfww-6g","tm-malcolm-todd-2026-san-diego-vvg1iz_gcici-d","tm-malcolm-todd-2027-birmingham-g5dzz_3nh3wrn","tm-malcolm-todd-2027-brisbane-1akzkftgkduv9ih","tm-malcolm-todd-2027-dublin-1kkzvpfyga5vo0x","tm-malcolm-todd-2027-forest-brussels-z698xzg2z1a3rzza","tm-malcolm-todd-2027-glasgow-1adbz_3gknizpvr","tm-malcolm-todd-2027-london-g5dzz_3lpy7hq","tm-malcolm-todd-2027-london-g5dzz_3rjik2s","tm-malcolm-todd-2027-london-g5dzz_3rsuku2","tm-malcolm-todd-2027-manchester-1adbz_3gknvr9ad","tm-malcolm-todd-2027-mt-claremont-1avgz_3gkl3ubod","tm-malcolm-todd-2027-mt-claremont-1avgz_3gkydesct","tm-malcolm-todd-2027-stockholm-z698xzq2z1afq0g8","tm-malcolm-todd-2027-west-melbourne-1avgz_3gkdbmub7","tm-malcolm-todd-2027-west-melbourne-1avgz_3gklkoff0"]},{"issue":1723,"provider":"seatgeek","artist_slug":"sienna-spiro","performer_id":1962775,"event_ids":["tm-sienna-spiro-2026-montreal-17g8v0g6gp5n0pn","tm-sienna-spiro-2027-auckland-17azv0g6gnlzs7o","tm-sienna-spiro-2027-barcelona-z698xz2qz16evg76uk","tm-sienna-spiro-2027-berlin-z698xzc2z16v0n7t_u","tm-sienna-spiro-2027-brisbane-177yv0g6gjxxnip","tm-sienna-spiro-2027-chicago-vv17jz_fgkxlcj6o","tm-sienna-spiro-2027-chicago-vv17jz_fgkxlgu6j","tm-sienna-spiro-2027-dublin-17kzv0g6gpq41un","tm-sienna-spiro-2027-edinburgh-g5dzz_g3jtvqc","tm-sienna-spiro-2027-edinburgh-g5dzz_g3xlvct","tm-sienna-spiro-2027-forest-brussels-z698xzg2z1kk3-m-y","tm-sienna-spiro-2027-madrid-z698xz2qz16v4sjdu3","tm-sienna-spiro-2027-manchester-17uov0g6ghevqqt","tm-sienna-spiro-2027-manchester-17uov0g6gnyji_e","tm-sienna-spiro-2027-mexico-1afzk4ogkeyuq9e","tm-sienna-spiro-2027-milano-zg9rmiynyzef6a","tm-sienna-spiro-2027-new-york-g5dyz_46d6wnd","tm-sienna-spiro-2027-philadelphia-vv17fz_fgkuhzdr4","tm-sienna-spiro-2027-west-melbourne-177yv0g6gecffyz","tm-sienna-spiro-2027-west-melbourne-177yv0g6gmjpde2"]},{"issue":1721,"provider":"seatgeek","artist_slug":"haiden-henderson","performer_id":1963247,"event_ids":["tm-haiden-henderson-2027-amsterdam-z698xzbpz16evufjub","tm-haiden-henderson-2027-birmingham-g5dzz_ke9h3b2","tm-haiden-henderson-2027-cardiff-g5vhz_kdajwvp","tm-haiden-henderson-2027-dublin-1abzkfigkeweheg","tm-haiden-henderson-2027-london-g5vhz_kew3xpo","tm-haiden-henderson-2027-madrid-z698xz2qz1kumofqp","tm-haiden-henderson-2027-manchester-g5vhz_kduqskh","tm-haiden-henderson-2027-milwaukee-z7r9jz1aaeea6","tm-haiden-henderson-2027-minneapolis-z7r9jz1aaeerb","tm-haiden-henderson-2027-nashville-rz7hnez1afgiq7","tm-haiden-henderson-2027-portland-z7r9jz1aaeekk","tm-haiden-henderson-2027-praha-5-z698xzu0z16v1ec67a","tm-haiden-henderson-2027-salt-lake-city-z7r9jz1aaeefa","tm-haiden-henderson-2027-san-francisco-rz7hnez1afggu7","tm-haiden-henderson-2027-seattle-z7r9jz1aa79uf"]},{"issue":1720,"provider":"seatgeek","artist_slug":"valley","performer_id":102184,"event_ids":["tm-valley-2027-amsterdam-z698xzbpz1kuzjpzo","tm-valley-2027-birmingham-g5dzz_36osp2q","tm-valley-2027-bristol-g5vhz_3zkbafq","tm-valley-2027-denver-z7r9jz1aavzfu","tm-valley-2027-edmonton-1av7z_3gkbxlimr","tm-valley-2027-leeds-1adfz_3gkihrzjf","tm-valley-2027-london-g5dzz_3vpsj3z","tm-valley-2027-manchester-g5vhz_ohdx77o","tm-valley-2027-phoenix-z7r9jz1aavzfg","tm-valley-2027-regina-z7r9jz1aavzfw","tm-valley-2027-saint-louis-vv16kzkfipkzaga2f7","tm-valley-2027-waterloo-z7r9jz1aavzft"]},{"issue":1677,"provider":"seatgeek","artist_slug":"lizzy-mcalpine","performer_id":797454,"event_ids":["tm-lizzy-mcalpine-2027-birmingham-g5dzz_kkek096","tm-lizzy-mcalpine-2027-brisbane-1akzkfugkeggjy4","tm-lizzy-mcalpine-2027-dublin-16bzkfw-sza81kca","tm-lizzy-mcalpine-2027-glasgow-g5dzz_krfm-83","tm-lizzy-mcalpine-2027-glasgow-g5dzz_kwtjarb","tm-lizzy-mcalpine-2027-london-g5dzz_krvbn6w","tm-lizzy-mcalpine-2027-london-g5dzz_kscgmsk","tm-lizzy-mcalpine-2027-london-g5dzz_kslx95p","tm-lizzy-mcalpine-2027-oklahoma-city-z7r9jz1aaea-p","tm-lizzy-mcalpine-2027-praha-7-z698xzu0z1kufbskd","tm-lizzy-mcalpine-2027-saint-louis-vv1kvovpu_ga2r6bf","tm-lizzy-mcalpine-2027-torrensville-1akzkfggkdqgjdn","tm-lizzy-mcalpine-2027-torrensville-1akzkfggkepdplf","tm-lizzy-mcalpine-2027-warsaw-z698xzqpz16vfyab0p"]},{"issue":1671,"provider":"seatgeek","artist_slug":"metallica","performer_id":45,"event_ids":["tm-metallica-2026-las-vegas-1a9zko4gkdtfc4g","tm-metallica-2026-las-vegas-1a9zko4gkdtfc4w","tm-metallica-2026-las-vegas-1fayv048rez72a62","tm-metallica-2026-las-vegas-1fayv048rez72afa","tm-metallica-2026-las-vegas-1fayv048rvz72a6e","tm-metallica-2026-las-vegas-1fayv048rvz72a6k","tm-metallica-2026-uncasville-g5vvz_6n-zpjb","tm-metallica-2026-uncasville-g5vvz_6nrigot","tm-metallica-2027-las-vegas-16vjz_kk3g7ndxr","tm-metallica-2027-las-vegas-1a9zko-gke0bqtz","tm-metallica-2027-las-vegas-1a9zko-gke0buti","tm-metallica-2027-las-vegas-1a9zko-gke0butu","tm-metallica-2027-las-vegas-1a9zko-gke0yct0","tm-metallica-2027-las-vegas-1a9zko-gke0ywtn","tm-metallica-2027-las-vegas-1a9zko-gkepzm6y","tm-metallica-2027-las-vegas-1a9zko-gkepzr6g","tm-metallica-2027-las-vegas-1a9zko-gkepzr6s","tm-metallica-2027-las-vegas-1fayv0b_z4z7ggvk"]},{"issue":1670,"provider":"seatgeek","artist_slug":"amble","performer_id":1957189,"event_ids":["tm-amble-2026-co-mayo-1abzkfugkd8h21y","tm-amble-2026-co-mayo-1abzkfugkd8hl5a","tm-amble-2026-co-mayo-1abzkfugkd8hr56","tm-amble-2026-co-mayo-1abzkfugkd8w25a","tm-amble-2026-co-mayo-1abzkfugkd8wl5u","tm-amble-2027-amsterdam-z698xzbpz16vb-0aa8","tm-amble-2027-amsterdam-z698xzbpz1kqkuae7","tm-amble-2027-barcelona-z698xz2qz16vb40_3f","tm-amble-2027-belfast-17czv0g62qetzl-","tm-amble-2027-co-dublin-17kzv0g62mxw25r","tm-amble-2027-glasgow-17uov0g62brrf6b","tm-amble-2027-johanneshov-z698xzq2z16v73foub","tm-amble-2027-limerick-city-17kzv0g62sp3q8m","tm-amble-2027-london-g5vhz_8sflgki","tm-amble-2027-madrid-z698xz2qz1kozfaa3","tm-amble-2027-manchester-g5vhz_8upt3w4","tm-amble-2027-praha-5-z698xzu0z1kje4u8k","tm-amble-2027-vienna-z698xz5rz1kburk7p"]},{"issue":1613,"provider":"seatgeek","artist_slug":"passenger","performer_id":19767,"event_ids":["tm-passenger-2027-belfast-16zzkfkojzage16c","tm-passenger-2027-birmingham-g5dzz_2wg0-vu","tm-passenger-2027-brighton-g5vhz_o5oziab","tm-passenger-2027-brisbane-1avgz_8gkmdlzyi","tm-passenger-2027-brussels-z698xzg2z16v-xbfos","tm-passenger-2027-dublin-1avoz_8gkm9ghn7","tm-passenger-2027-edinburgh-1adbz_8gks0vdnw","tm-passenger-2027-exeter-g5vhz_o2o0irs","tm-passenger-2027-glasgow-g5dzz_8wyqwf1","tm-passenger-2027-london-1auzkf3gkd0sykm","tm-passenger-2027-manchester-17uov0g62wjanur","tm-passenger-2027-milano-zg9rmiynyzd6ea","tm-passenger-2027-newcastle-upon-tyne-g5dzz_o6adefx","tm-passenger-2027-praha-1-z698xzu0z16v4-_k4a","tm-passenger-2027-st-kilda-1avgz_8gkm6pbt5","tm-passenger-2027-sydney-16vgz_oayg7zvfp","tm-passenger-2027-zurich-z698xzu3z1kg0bbov"]},{"issue":1520,"provider":"seatgeek","artist_slug":"dylan-gossett","performer_id":807490,"event_ids":["tm-dylan-gossett-2026-auckland-17azv0g65cuaddf","tm-dylan-gossett-2026-brisbane-177yv0g61tezlg8","tm-dylan-gossett-2026-chicago-vvg18z_u5xbtr6","tm-dylan-gossett-2026-sydney-177yv0g655_-4r3","tm-dylan-gossett-2026-waco-z7r9jz1a7jdak","tm-dylan-gossett-2026-waipara-17azv0g653pu3v4","tm-dylan-gossett-2026-west-melbourne-177yv0g653cuwz_","tm-dylan-gossett-2027-birmingham-g5dzz_83l8ohz","tm-dylan-gossett-2027-dublin-17kzv0g62wo552g","tm-dylan-gossett-2027-glasgow-g5dzz_8pg5sb3","tm-dylan-gossett-2027-glasgow-g5dzz_8qwdoqp","tm-dylan-gossett-2027-london-g5dzz_8kn_3tz","tm-dylan-gossett-2027-manchester-g5dzz_8hqwevt","tm-dylan-gossett-2027-oklahoma-city-z7r9jz1aae4ba","tm-dylan-gossett-2027-saint-louis-1ae7z_kgkyeggq8"]},{"issue":1499,"provider":"seatgeek","artist_slug":"bruno-mars","performer_id":6148,"event_ids":["tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehaqnd","tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfcxu","tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfwxd","tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfwxy","tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkesyi9m","tm-bruno-mars-2027-auckland-1a0zkfkgkeslw-y","tm-bruno-mars-2027-auckland-1ae8z_ogkiuunsj","tm-bruno-mars-2027-auckland-1ae8z_ogksqr0wn","tm-bruno-mars-2027-burswood-1aefz_ogklrp4vu","tm-bruno-mars-2027-burswood-1apzkfbgkdn2ves","tm-bruno-mars-2027-docklands-1aefz_o37vvzdckk","tm-bruno-mars-2027-docklands-1aefz_ogknww0xk","tm-bruno-mars-2027-docklands-1aefz_ogknwx0x2","tm-bruno-mars-2027-docklands-1aefz_ogknwx7x5","tm-bruno-mars-2027-milton-1akzkf3gkdacg5v","tm-bruno-mars-2027-milton-1avgz_ogklamkhm","tm-bruno-mars-2027-sydney-olympic-park-1aefz_o3ezszduv6","tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknavvld","tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknaxoik","tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknaxvi7"]}];
+          const reviewIds = ["tm-oasis-2027-munich-z698xzc2z16vca8yqu","tm-oasis-2027-munich-z698xzc2z16ezoffov","tm-oasis-2027-munich-z698xzc2z16v7f7_4g","tm-oasis-2027-barcelona-z698xz2qz1kosq3xa","tm-oasis-2027-barcelona-z698xz2qz1kvz7a4m","tm-oasis-2027-amsterdam-z698xzbpz16vrdz-8b","tm-oasis-2027-amsterdam-z698xzbpz1kodp337"];
+          const events = JSON.parse(await fs.readFile("public/data/events.json", "utf8"));
+          const registry = JSON.parse(await fs.readFile("data/provider-identities.json", "utf8"));
+          const out = path.join(process.env.RUNNER_TEMP, "open-findings-evidence");
+          await fs.mkdir(out, { recursive: true });
+          const revision = execFileSync("git", ["rev-parse", "HEAD"], { encoding: "utf8" }).trim();
+          console.log("SOURCE_REVISION=" + revision);
+          let failed = false;
+          const emit = async (name, value) => { await fs.writeFile(path.join(out, name + ".json"), JSON.stringify(value, null, 2) + "\n"); console.log("EVIDENCE_" + name.toUpperCase().replaceAll("-", "_") + "=" + JSON.stringify(value)); };
+          const eventId = "tm-hazlett-2027-san-diego-rz7hnez1afufr7";
+          const event = events.find(e => e.id === eventId);
+          assert(event?.artist_slug === "hazlett");
+          const link = event.provider_links?.ticketnetwork;
+          assert(link?.url === "https://www.ticketnetwork.com/en/p/8316936");
+          assert(event.ticketnetwork_url === link.url);
+          const checks = [];
+          for (let round = 0; round < 2; round++) {
+            const observations = [];
+            for (const method of ["HEAD", "GET"]) {
+              try {
+                const response = await fetch(link.url, { method, redirect: "follow", signal: AbortSignal.timeout(15000), headers: { "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36", accept: "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "accept-language": "en-US,en;q=0.9", ...(method === "GET" ? { Range: "bytes=0-0" } : {}) } });
+                observations.push({ method, status: response.status, finalUrl: response.url });
+                await response.body?.cancel();
+              } catch { observations.push({ method, status: null, error: "request_failed" }); }
+            }
+            checks.push(observations);
+            await new Promise(resolve => setTimeout(resolve, 1000));
+          }
+          await emit("hazlett-link", { revision, checked_at: new Date().toISOString(), eventId, sourceUrl: link.url, verified: link.verified, otherVerifiedProviders: Object.entries(event.provider_links).filter(([name, p]) => name !== "ticketnetwork" && p.verified === true).map(([name]) => name), checks, confirmedGone: checks.every(round => round.length === 2 && round.every(r => [404, 410].includes(r.status))) });
+          if (!process.env.TICKETMASTER_API_KEY) { failed = true; await emit("ticketmaster", { blocked: "missing_ticketmaster_credentials" }); } else {
+            const subset = events.filter(e => reviewIds.includes(e.id) || e.id === eventId);
+            assert(subset.length === reviewIds.length + (reviewIds.includes(eventId) ? 0 : 1));
+            const subsetPath = path.join(out, "tm-input.json");
+            const reportPath = path.join(out, "tm-report.json");
+            await fs.writeFile(subsetPath, JSON.stringify(subset));
+            try {
+              execFileSync(process.execPath, ["scripts/apply-tm-updates.mjs", "--dry-run", "--events", subsetPath, "--json", reportPath], { encoding: "utf8", timeout: 300000, maxBuffer: 4000000 });
+              const report = JSON.parse(await fs.readFile(reportPath, "utf8"));
+              await emit("ticketmaster", { revision, report });
+            } catch { failed = true; await emit("ticketmaster", { revision, blocked: "ticketmaster_verification_failed" }); }
+          }
+          if (!process.env.SEATGEEK_CLIENT_ID) { failed = true; await emit("seatgeek", { blocked: "missing_seatgeek_credentials" }); } else {
+            for (const batch of batches) {
+              const identity = registry.artists.find(a => a.slug === batch.artist_slug);
+              assert(identity?.review_status === "verified" && identity.seatgeek_performer_id === batch.performer_id);
+              assert(batch.event_ids.length > 0 && batch.event_ids.length <= 20);
+              for (const id of batch.event_ids) assert(events.some(e => e.id === id && e.artist_slug === batch.artist_slug));
+              const args = ["scripts/verify-seatgeek-events.mjs", "--artist", batch.artist_slug, "--add-only", "--max-api-calls", "40", "--delay-ms", "1000", "--json", "--log-path", path.join(out, "seatgeek-" + batch.issue + ".md")];
+              for (const id of batch.event_ids) args.push("--event-id", id);
+              try {
+                const stdout = execFileSync(process.execPath, args, { encoding: "utf8", timeout: 600000, maxBuffer: 4000000 });
+                const report = JSON.parse(stdout);
+                await emit("seatgeek-" + batch.issue, { revision, issue: batch.issue, artist: batch.artist_slug, report });
+                if (report.summary.stop_reason || report.summary.api_errors) failed = true;
+              } catch { failed = true; await emit("seatgeek-" + batch.issue, { revision, issue: batch.issue, blocked: "seatgeek_verification_failed" }); }
+            }
+          }
+          execFileSync("git", ["diff", "--exit-code"], { encoding: "utf8" });
+          if (failed) process.exitCode = 1;
+          NODE
+      - name: Preserve source verification evidence
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: open-findings-evidence
+          path: ${{ runner.temp }}/open-findings-evidence/
+          if-no-files-found: error

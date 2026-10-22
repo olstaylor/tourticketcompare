@@ -520,18 +520,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8099103",
-        "url": "https://www.ticketliquidator.com/tickets/8099103/Dinosaur-Jr-tickets-Tue-Oct-20-2026-Ace-of-Spades",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_u0dqoo1",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8099103",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8099103/Dinosaur-Jr-tickets-Tue-Oct-20-2026-Ace-of-Spades",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

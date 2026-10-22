@@ -111008,8 +111008,11 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vCA8yqU",
     "timezone": "Europe/Berlin",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T10:00:00Z",
-    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-2-7-2027/event/107667899"
+    "public_onsale_at": "2026-09-27T10:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-2-7-2027/event/107667899",
+    "organizer_names": [
+      "Live Nation GmbH"
+    ]
   },
   {
     "id": "tm-oasis-2027-munich-z698xzc2z16ezoffov",
@@ -111070,8 +111073,11 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z16eZOFFoV",
     "timezone": "Europe/Berlin",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T10:00:00Z",
-    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-3-7-2027/event/107667900"
+    "public_onsale_at": "2026-09-27T10:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-3-7-2027/event/107667900",
+    "organizer_names": [
+      "Live Nation GmbH"
+    ]
   },
   {
     "id": "tm-oasis-2027-munich-z698xzc2z16v7f7_4g",
@@ -111132,8 +111138,11 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z16v7F7_4g",
     "timezone": "Europe/Berlin",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T10:00:00Z",
-    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-6-7-2027/event/107669977"
+    "public_onsale_at": "2026-09-27T10:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-6-7-2027/event/107669977",
+    "organizer_names": [
+      "Live Nation GmbH"
+    ]
   },
   {
     "id": "tm-hans-zimmer-2027-belmont-park-1adzz_3gkmrvuzw",
@@ -125833,7 +125842,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kosQ3xA",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation España Silver Tours SL"
+    ]
   },
   {
     "id": "tm-oasis-2027-barcelona-z698xz2qz1kvz7a4m",
@@ -125886,7 +125898,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kvz7A4M",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation España Silver Tours SL"
+    ]
   },
   {
     "id": "tm-oasis-2027-amsterdam-z698xzbpz16vrdz-8b",
@@ -125954,9 +125969,12 @@
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vrdZ-8b",
     "timezone": "Europe/Amsterdam",
     "status": "announced",
-    "public_onsale_at": "2026-09-26T06:00:00Z",
+    "public_onsale_at": "2026-09-27T06:00:00Z",
     "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-amsterdam-johan-cruijff-arena-16-7-2027/event/107667901",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264772/Oasis-tickets-Fri-Jul-16-2027-Johan-Cruijff-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264772/Oasis-tickets-Fri-Jul-16-2027-Johan-Cruijff-Arena",
+    "organizer_names": [
+      "Mojo Concerts"
+    ]
   },
   {
     "id": "tm-oasis-2027-amsterdam-z698xzbpz1kodp337",
@@ -126031,10 +126049,13 @@
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kodP337",
     "timezone": "Europe/Amsterdam",
     "status": "announced",
-    "public_onsale_at": "2026-09-26T06:00:00Z",
+    "public_onsale_at": "2026-09-27T06:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264773",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264773/Oasis-tickets-Sat-Jul-17-2027-Johan-Cruijff-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-amsterdam-johan-cruijff-arena-17-7-2027/event/107667902"
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-amsterdam-johan-cruijff-arena-17-7-2027/event/107667902",
+    "organizer_names": [
+      "Mojo Concerts"
+    ]
   },
   {
     "id": "tm-sienna-spiro-2026-nashville-z7r9jz1a7pkok",

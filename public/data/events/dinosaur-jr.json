@@ -1868,5 +1868,59 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326607",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326607/Dinosaur-Jr-tickets-Sat-Feb-13-2027-Union-Transfer"
+  },
+  {
+    "id": "tm-dinosaur-jr-2027-brisbane-1k7yvp4bgacdnzm",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr.",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "The Fortitude Music Hall",
+    "datetime_iso": "2027-01-19T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130065558E0E302E",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/dinosaur-jr-brisbane-19-01-2027/event/130065558E0E302E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/dinosaur-jr-brisbane-19-01-2027/event/130065558E0E302E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130065558E0E302E",
+        "discovery_event_id": "1k7YvP4bGACdNZm",
+        "url": "https://www.ticketmaster.com.au/dinosaur-jr-brisbane-19-01-2027/event/130065558E0E302E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k7YvP4bGACdNZm",
+    "timezone": "Australia/Brisbane",
+    "status": "announced",
+    "public_onsale_at": "2026-10-27T02:00:00Z"
   }
 ]

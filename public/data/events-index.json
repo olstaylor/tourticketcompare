@@ -47418,5 +47418,17 @@
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2027-brisbane-1k7yvp4bgacdnzm",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "country": "Australia",
+    "city": "Brisbane",
+    "venue": "The Fortitude Music Hall",
+    "datetime_iso": "2027-01-19T09:00:00Z",
+    "timezone": "Australia/Brisbane",
+    "tour_name": "",
+    "status": "announced"
   }
 ]

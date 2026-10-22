@@ -75,7 +75,6 @@ export const OG_CARDS = {
   "/artists/bts/tickets/melbourne-australia": {"url":"/og/artists-bts-tickets-melbourne-australia.png","alt":"Tickets: BTS in Melbourne"},
   "/artists/bts/tickets/sydney-australia": {"url":"/og/artists-bts-tickets-sydney-australia.png","alt":"Tickets: BTS in Sydney"},
   "/artists/carly-rae-jepsen": {"url":"/og/artists-carly-rae-jepsen.png","alt":"Tickets & tour dates: Carly Rae Jepsen"},
-  "/artists/carly-rae-jepsen/presale": {"url":"/og/artists-carly-rae-jepsen-presale.png","alt":"Presale: Carly Rae Jepsen"},
   "/artists/carly-rae-jepsen/ticket-prices": {"url":"/og/artists-carly-rae-jepsen-ticket-prices.png","alt":"Ticket prices: Carly Rae Jepsen"},
   "/artists/carly-rae-jepsen/tickets/toronto-canada": {"url":"/og/artists-carly-rae-jepsen-tickets-toronto-canada.png","alt":"Tickets: Carly Rae Jepsen in Toronto"},
   "/artists/charli-xcx": {"url":"/og/artists-charli-xcx.png","alt":"Tickets & tour dates: Charli xcx"},

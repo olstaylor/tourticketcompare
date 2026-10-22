@@ -257,7 +257,7 @@ jobs:
           if-no-files-found: error
 
   prepare-oasis-metadata:
-    if: github.event_name == 'pull_request' && github.event.action == 'synchronize' && github.head_ref == 'codex/verify-open-data-findings-2026-10-22' && github.event.pull_request.head.repo.full_name == github.repository
+    if: github.event.pull_request.head.sha == 'bb98126b2b5484e151cdcb4dfa144960a99ea556' && github.event_name == 'pull_request' && github.event.action == 'synchronize' && github.head_ref == 'codex/verify-open-data-findings-2026-10-22' && github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     timeout-minutes: 20
     permissions:
@@ -350,4 +350,80 @@ jobs:
           path: |
             ${{ runner.temp }}/oasis-review-source.json
             ${{ runner.temp }}/oasis-review-outcome.json
+          if-no-files-found: error
+
+  verify-production-repairs:
+    if: github.event_name == 'pull_request' && github.event.action == 'synchronize' && github.head_ref == 'codex/verify-open-data-findings-2026-10-22' && github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Verify deployed data and public rendering
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from "node:fs/promises";
+          import assert from "node:assert/strict";
+          import { execFileSync } from "node:child_process";
+          const ids = ["tm-malcolm-todd-2026-oakland-g5vyz_gfww-6g","tm-malcolm-todd-2026-san-diego-vvg1iz_gcici-d","tm-malcolm-todd-2026-los-angeles-vvg10z_gcgtrwf","tm-malcolm-todd-2026-los-angeles-vvg10z_gpovtcx","tm-malcolm-todd-2026-los-angeles-vvg10z_gpomy2y","tm-sienna-spiro-2026-montreal-17g8v0g6gp5n0pn","tm-sienna-spiro-2027-philadelphia-vv17fz_fgkuhzdr4","tm-sienna-spiro-2027-chicago-vv17jz_fgkxlgu6j","tm-sienna-spiro-2027-chicago-vv17jz_fgkxlcj6o","tm-sienna-spiro-2027-new-york-g5dyz_46d6wnd","tm-metallica-2026-uncasville-g5vvz_6nrigot","tm-metallica-2026-uncasville-g5vvz_6n-zpjb","tm-metallica-2027-las-vegas-1fayv0b_z4z7ggvk","tm-metallica-2027-las-vegas-16vjz_kk3g7ndxr","tm-metallica-2027-las-vegas-1a9zko-gke0yct0","tm-metallica-2027-las-vegas-1a9zko-gkepzr6s","tm-metallica-2027-las-vegas-1a9zko-gke0ywtn","tm-metallica-2027-las-vegas-1a9zko-gkepzr6g","tm-metallica-2027-las-vegas-1a9zko-gke0buti","tm-metallica-2026-las-vegas-1a9zko4gkdtfc4w","tm-metallica-2026-las-vegas-1a9zko4gkdtfc4g","tm-metallica-2026-las-vegas-1fayv048rvz72a6e","tm-metallica-2026-las-vegas-1fayv048rvz72a6k","tm-metallica-2026-las-vegas-1fayv048rez72a62","tm-metallica-2026-las-vegas-1fayv048rez72afa","tm-metallica-2027-las-vegas-1a9zko-gkepzm6y","tm-metallica-2027-las-vegas-1a9zko-gke0butu","tm-metallica-2027-las-vegas-1a9zko-gke0bqtz"];
+          const metadata = [{"id":"tm-oasis-2027-munich-z698xzc2z16vca8yqu","field":"organizer_names","from":null,"to":["Live Nation GmbH"]},{"id":"tm-oasis-2027-munich-z698xzc2z16vca8yqu","field":"public_onsale_at","from":"2026-09-25T10:00:00Z","to":"2026-09-27T10:00:00Z"},{"id":"tm-oasis-2027-munich-z698xzc2z16ezoffov","field":"organizer_names","from":null,"to":["Live Nation GmbH"]},{"id":"tm-oasis-2027-munich-z698xzc2z16ezoffov","field":"public_onsale_at","from":"2026-09-25T10:00:00Z","to":"2026-09-27T10:00:00Z"},{"id":"tm-oasis-2027-munich-z698xzc2z16v7f7_4g","field":"organizer_names","from":null,"to":["Live Nation GmbH"]},{"id":"tm-oasis-2027-munich-z698xzc2z16v7f7_4g","field":"public_onsale_at","from":"2026-09-25T10:00:00Z","to":"2026-09-27T10:00:00Z"},{"id":"tm-oasis-2027-barcelona-z698xz2qz1kosq3xa","field":"organizer_names","from":null,"to":["Live Nation España Silver Tours SL"]},{"id":"tm-oasis-2027-barcelona-z698xz2qz1kvz7a4m","field":"organizer_names","from":null,"to":["Live Nation España Silver Tours SL"]},{"id":"tm-oasis-2027-amsterdam-z698xzbpz16vrdz-8b","field":"organizer_names","from":null,"to":["Mojo Concerts"]},{"id":"tm-oasis-2027-amsterdam-z698xzbpz16vrdz-8b","field":"public_onsale_at","from":"2026-09-26T06:00:00Z","to":"2026-09-27T06:00:00Z"},{"id":"tm-oasis-2027-amsterdam-z698xzbpz1kodp337","field":"organizer_names","from":null,"to":["Mojo Concerts"]},{"id":"tm-oasis-2027-amsterdam-z698xzbpz1kodp337","field":"public_onsale_at","from":"2026-09-26T06:00:00Z","to":"2026-09-27T06:00:00Z"}];
+          const origin = "https://tourticketcompare.com";
+          const events = JSON.parse(await fs.readFile("public/data/events.json", "utf8"));
+          const expected = events.filter(e => ids.includes(e.id));
+          assert(expected.length === 28 && expected.every(e => e.provider_links?.seatgeek?.verified === true));
+          const result = { revision: execFileSync("git", ["rev-parse", "HEAD"], { encoding: "utf8" }).trim(), checked_at: new Date().toISOString(), shows: [], metadata: [], pages: [] };
+          async function getJson(url) { const r = await fetch(url, { signal: AbortSignal.timeout(20000), headers: { accept: "application/json" } }); assert.equal(r.status, 200, "Unexpected HTTP status for " + url); return r.json(); }
+          async function liveShow(id, predicate) {
+            for (let attempt = 0; attempt < 12; attempt++) {
+              const data = await getJson(origin + "/api/shows?showId=" + encodeURIComponent(id) + "&priceProviders=approved-marketplaces");
+              const show = data.shows?.find(s => s.id === id);
+              if (show && predicate(show)) return show;
+              if (attempt === 11) throw new Error("Deployed show has not reached its expected state: " + id);
+              await new Promise(resolve => setTimeout(resolve, 10000));
+            }
+          }
+          const hazlettId = "tm-hazlett-2027-san-diego-rz7hnez1afufr7";
+          const h = await liveShow(hazlettId, s => s.provider_ctas?.ticketnetwork === false && s.provider_ctas?.seatgeek === true && s.provider_ctas?.["ticket-liquidator"] === true);
+          assert(!h.ticketnetwork_url && h.provider_links?.ticketnetwork?.verified !== true);
+          result.shows.push({ id: hazlettId, ticketnetwork: false, seatgeek: true, ticketLiquidator: true });
+          for (const event of expected) {
+            const show = await liveShow(event.id, s => s.provider_ctas?.seatgeek === true && s.seatgeek_url === event.seatgeek_url);
+            assert(show.provider_links?.seatgeek?.verified === true);
+            result.shows.push({ id: event.id, artist: event.artist_slug, seatgeek: true, url: show.seatgeek_url });
+          }
+          const oasisRows = await getJson(origin + "/data/events/oasis.json");
+          for (const change of metadata) {
+            const row = oasisRows.find(e => e.id === change.id);
+            assert(row, "Missing deployed Oasis record.");
+            assert.deepEqual(row[change.field], change.to);
+            result.metadata.push({ id: row.id, field: change.field, value: row[change.field] });
+          }
+          for (const artist of ["malcolm-todd", "sienna-spiro", "metallica"]) {
+            const nearest = expected.filter(e => e.artist_slug === artist).sort((a,b) => Date.parse(a.datetime_iso)-Date.parse(b.datetime_iso))[0];
+            const response = await fetch(origin + "/artists/" + artist, { signal: AbortSignal.timeout(30000) });
+            assert.equal(response.status, 200);
+            const html = await response.text();
+            const hrefs = [...html.matchAll(/<a\b[^>]*href="([^"]*)"[^>]*>/g)].map(m => m[1].replaceAll("&amp;", "&"));
+            const present = hrefs.some(href => { try { const u = new URL(href, origin); return u.pathname === "/api/out" && u.searchParams.get("showId") === nearest.id && u.searchParams.get("provider") === "seatgeek"; } catch { return false; } });
+            assert(present, "The nearest verified SeatGeek show is missing its server-rendered CTA: " + nearest.id);
+            result.pages.push({ artist, event: nearest.id, verifiedCtaPresent: true });
+          }
+          const healthResponse = await fetch(origin + "/api/health", { signal: AbortSignal.timeout(20000) });
+          assert.equal(healthResponse.status, 200);
+          result.health = await healthResponse.json();
+          await fs.writeFile(process.env.RUNNER_TEMP + "/production-repair-verification.json", JSON.stringify(result, null, 2) + "\n");
+          console.log("PRODUCTION_VERIFICATION=" + JSON.stringify(result));
+          NODE
+      - name: Preserve production verification
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: production-repair-verification
+          path: ${{ runner.temp }}/production-repair-verification.json
           if-no-files-found: error

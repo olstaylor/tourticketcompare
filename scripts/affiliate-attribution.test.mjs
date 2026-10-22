@@ -10,8 +10,50 @@ import { summarizeBrowserIntentPairs, buildStatements as buildFunnelStatements }
 import { onRequestGet } from '../functions/api/out.js';
 import {
   buildAttributionStatements, buildD1Statements, indexClickRows,
-  matchSubIdAttribution, normalizeAction, assertReadOnlySql
+  matchSubIdAttribution, normalizeAction, assertReadOnlySql, summarizeAttributedArtists, parseArgs
 } from './report-affiliate-performance.mjs';
+
+test('artist earnings keep source pages, currencies and action states separate', () => {
+  const order = (id, state, payout, currency = 'GBP', extra = {}) => ({
+    actionId: id, artistSlug: 'olivia-rodrigo', sourcePath: '/artists/olivia-rodrigo/ticket-prices',
+    provider: 'stubhub-international', state, payout, payoutKnown: true, currency, ...extra
+  });
+  const rows = summarizeAttributedArtists([
+    order('a', 'APPROVED', 10), order('b', 'PENDING', 20), order('c', 'REVERSED', -5),
+    order('d', 'APPROVED', 30, 'USD'),
+    order('e', 'APPROVED', 4, 'GBP', { sourcePath: '/artists/olivia-rodrigo/tickets/london-united-kingdom' }),
+    order('f', 'APPROVED', 8, 'GBP', { artistSlug: 'bruno-mars' }),
+    order('g', 'UNKNOWN', 2), order('h', 'APPROVED', 6, 'GBP', { artistSlug: null })
+  ], ['olivia-rodrigo']);
+  assert.equal(rows.length, 3);
+  const guide = rows.find(row => row.currency === 'GBP' && row.source_path.endsWith('ticket-prices'));
+  assert.deepEqual(guide.states.APPROVED, { actions: 1, payout: 10, missing_payout: 0 });
+  assert.equal(guide.states.PENDING.payout, 20);
+  assert.equal(guide.states.REVERSED.payout, -5);
+  assert.equal(guide.states.UNKNOWN.actions, 1);
+  assert.equal(rows.find(row => row.currency === 'USD').states.APPROVED.payout, 30);
+  assert.equal(summarizeAttributedArtists([]).length, 0, 'no match does not manufacture a zero-revenue artist row');
+});
+
+test('missing payouts and currencies cannot become artist earnings; a sourced zero can', () => {
+  const base = { artistSlug: 'don-omar', provider: 'ticketnetwork', state: 'APPROVED', currency: 'USD' };
+  for (const raw of [undefined, null, '', ' ', 'not-a-number']) {
+    const normalized = normalizeAction({ Payout: raw });
+    const [row] = summarizeAttributedArtists([{ ...base, payout: normalized.payout, payoutKnown: normalized.payoutKnown }]);
+    assert.equal(row.states.APPROVED.payout, null);
+    assert.equal(row.states.APPROVED.missing_payout, 1);
+  }
+  const zero = normalizeAction({ Payout: '0' });
+  assert.equal(summarizeAttributedArtists([{ ...base, ...zero, state: 'APPROVED' }])[0].states.APPROVED.payout, null, 'a missing currency still withholds money');
+  assert.equal(summarizeAttributedArtists([{ ...base, payout: zero.payout, payoutKnown: zero.payoutKnown }])[0].states.APPROVED.payout, 0);
+  assert.equal(summarizeAttributedArtists([{ ...base, payout: 10, payoutKnown: true }, { ...base, payout: 0, payoutKnown: false }])[0].states.APPROVED.payout, null, 'a partial known sum is not a complete earned total');
+});
+
+test('artist filter is explicit and only accepts artist slugs', () => {
+  assert.deepEqual(parseArgs(['--attributed-artists', 'olivia-rodrigo,bruno-mars,olivia-rodrigo']).attributedArtists, ['olivia-rodrigo', 'bruno-mars']);
+  for (const value of ['', ',olivia-rodrigo', 'https://other.test', 'olivia-rodrigo,']) assert.throws(() => parseArgs(['--attributed-artists', value]));
+  assert.throws(() => parseArgs(['--attributed-artists']));
+});
 
 const event = {
   id: 'tm-test-artist-2026-berlin-abc123', artist_slug: 'test-artist',
@@ -182,7 +224,7 @@ test('redirect → one stored click → eligible same-provider action with comme
     // Action arrives in a later reporting window. The click still joins.
     const actions = [normalizeAction({ Id: 'fixture-action', CampaignId: '9012', SubId1: click.click_id, State: 'PENDING', Payout: '3', Currency: 'USD' })];
     const result = matchSubIdAttribution(actions, lookup(db, actions), campaigns);
-    assert.deepEqual(result.matched, [{ actionId: 'fixture-action', state: 'PENDING', payout: 3, currency: 'USD',
+    assert.deepEqual(result.matched, [{ actionId: 'fixture-action', state: 'PENDING', payout: 3, payoutKnown: true, currency: 'USD',
       clickId: click.click_id, artistSlug: event.artist_slug, eventId: event.id, provider: 'seatgeek',
       clickedAt: click.created_at, sourcePath: '/cities/berlin-germany', ctaLocation: 'event_card' }]);
     const totals = db.prepare(buildD1Statements({ since: '2099-01-01T00:00:00.000Z', until: '2099-02-01T00:00:00.000Z' })[0].sql).all();

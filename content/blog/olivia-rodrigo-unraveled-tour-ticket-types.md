@@ -4,7 +4,7 @@ seo_title: Unraveled Tour ticket types explained
 description: Standard, VIP and Silver Star tickets are sold differently on The Unraveled Tour, and the differences follow the ticket onto the resale market.
 summary: An Unraveled Tour ticket is not one product. The tour sells standard tickets, VIP packages and a request-based fixed-price ticket, and the rules attached to each — transferability, delivery timing, identity checks — decide what a second-hand listing is actually worth buying.
 date: 2026-09-25
-updated: 2026-10-19
+updated: 2026-10-22
 status: published
 tags:
   - tour-buying
@@ -25,11 +25,17 @@ sources:
 
 "A ticket for the Olivia Rodrigo show" describes three different products on The Unraveled Tour, sold on different terms. Most buying advice treats a ticket as one thing with a price attached. Here the terms attached to each type are the part that decides whether a listing you find later is a good deal or a partial one, and they are published — you do not have to guess.
 
-## Find your date before comparing tickets
+## Compare tickets for your city and date
 
-[Choose your city and show on the Olivia Rodrigo date board](/artists/olivia-rodrigo). Match the venue and date, then open the checked ticket links shown for that event. Before comparing totals, establish whether each listing is a standard ticket, a VIP package or a ticket from a separate allocation programme. A resale listing's VIP label does not establish that the original package extras are included. Coverage varies by date, and a checked link does not guarantee current availability.
+Start with the [Olivia Rodrigo ticket price guide](/artists/olivia-rodrigo/ticket-prices) to choose a city and compare listed resale snapshots for the same date. Each figure names its ticket site and check time; a missing figure means there is no eligible snapshot to show, not that the event has no tickets.
 
-For a date-by-date view of listed resale prices, open the [Olivia Rodrigo ticket price guide](/artists/olivia-rodrigo/ticket-prices); it gives the listed price, provider and check time wherever a fresh snapshot is available. Then compare the exact seats and final total on the ticket site.
+For a run with several nights, go straight to the date-by-date comparison for your city:
+
+- [London dates and ticket comparisons](/artists/olivia-rodrigo/ticket-prices#priceGuideCity-london-united-kingdom)
+- [Brooklyn dates and ticket comparisons](/artists/olivia-rodrigo/ticket-prices#priceGuideCity-brooklyn-united-states)
+- [Inglewood dates and ticket comparisons](/artists/olivia-rodrigo/ticket-prices#priceGuideCity-inglewood-united-states)
+
+For other stops, use the [full Olivia Rodrigo date board](/artists/olivia-rodrigo). Match the venue and date, then establish whether each listing is a standard ticket, a VIP package or a ticket from a separate allocation programme. A resale listing's VIP label does not establish that the original package extras are included. Coverage varies by date, and a checked link does not guarantee current availability. Compare the exact seats, ticket terms and final total on the ticket site before paying.
 
 ## Standard tickets: the delivery clock matters
 

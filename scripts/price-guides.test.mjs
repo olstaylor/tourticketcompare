@@ -363,7 +363,11 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert((page.main.match(/>Compare this show<\/a>/g) || []).length === 6, "every date, including a priced date, links to all its exact-show ticket options");
   assert(page.main.includes('href="/artists/oasis#show-pg-man-1"'), "exact-show comparison goes to the artist card anchor");
 
-  assert(/<h3>Oasis ticket prices in [^<]+/.test(page.main), "each city table is headed with the artist and city");
+  assert(/<h3 id="priceGuideCity-[^"]+">Oasis ticket prices in [^<]+/.test(page.main), "each city table is headed with the artist and city");
+  const cityJumps = [...page.main.matchAll(/href="#(priceGuideCity-[^"]+)"/g)].map(match => match[1]);
+  assert(cityJumps.length === 3 && new Set(cityJumps).size === cityJumps.length, "the city picker lists each current city once");
+  for (const id of cityJumps) assert(page.main.includes(`<h3 id="${id}">`), "each city shortcut reaches its own displayed date table");
+  assert(page.main.indexOf('id="priceGuideGlanceTitle"') < page.main.indexOf('<summary>Choose a city</summary>'), "the existing price summary remains before city navigation");
   const body = text(page.main);
   assert(body.includes("Face value: the official ticket price"), "the page answers the face-value question");
   assert(body.includes("This page doesn't show face value."), "and says plainly that it prints no face value");

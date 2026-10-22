@@ -4,6 +4,7 @@ seo_title: "Metallica 2027 M72 tickets: on-sale"
 description: Metallica's ten 2027 M72 stadium dates opened at 10:00 local time on September 25. Resale sites listed all ten the day before. What to check.
 summary: Ten new North American stadium dates on Metallica's M72 World Tour went on public sale on Friday, September 25, each at 10:00 in the venue's time. Resale sites had listings up for all ten the day before, which is worth understanding before you buy.
 date: 2026-09-25
+updated: 2026-10-22
 status: published
 tags:
   - tour-buying
@@ -21,6 +22,10 @@ sources:
 ---
 
 Ticketmaster lists ten new stadium dates on Metallica's M72 World Tour for May and June 2027, from Vancouver to Salt Lake City, with a public on-sale of Friday, September 25, 2026. Each opened at 10:00 in the venue's own time zone, so the sale rolled from the East Coast at 10:00 AM EDT to the West Coast three hours later.
+
+## Compare the date you want to attend
+
+Use the [Metallica ticket price guide](/artists/metallica/ticket-prices) for listed resale snapshots by date, with each provider and check time shown where a fresh snapshot is eligible. For the residency, the [Las Vegas date comparison](/artists/metallica/ticket-prices#priceGuideCity-las-vegas-united-states) keeps the listed performances separate. Match the event date and what the ticket includes before comparing seats and final checkout totals on the ticket site.
 
 ## The dates and their on-sale times
 

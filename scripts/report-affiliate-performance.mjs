@@ -63,6 +63,7 @@ Options:
   --since <iso-date>    Window start as YYYY-MM-DD (overrides --days)
   --until <iso-date>    Window end as YYYY-MM-DD (exclusive; defaults to now)
   --min-clicks <n>      Minimum outbound_click before a rate is reported (default: ${DEFAULT_MIN_CLICKS_FOR_RATE})
+  --attributed-artists <slugs>  Comma-separated artist slugs for the matched artist/source table only
   --database <name>     D1 database name (default: ${DEFAULT_D1_DATABASE})
   --local               Query local D1 instead of remote D1
   --json                Emit machine-readable summary JSON
@@ -118,6 +119,7 @@ export function parseArgs(argv) {
     since: "",
     until: "",
     minClicks: DEFAULT_MIN_CLICKS_FOR_RATE,
+    attributedArtists: [],
     database: DEFAULT_D1_DATABASE,
     remote: true,
     json: false,
@@ -135,6 +137,11 @@ export function parseArgs(argv) {
     else if (arg === "--since") options.since = parseIsoDate(argv[++i], "--since");
     else if (arg === "--until") options.until = parseIsoDate(argv[++i], "--until");
     else if (arg === "--min-clicks") options.minClicks = positiveInt(argv[++i], "--min-clicks", 0);
+    else if (arg === "--attributed-artists") {
+      const slugs = String(argv[++i] || "").split(",").map(value => value.trim());
+      if (slugs.some(slug => !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug))) throw new Error("--attributed-artists requires comma-separated artist slugs");
+      options.attributedArtists = [...new Set(slugs)];
+    }
     else if (arg === "--database") {
       const value = argv[++i];
       if (!value || value.startsWith("--")) throw new Error("--database requires a D1 database name");
@@ -226,6 +233,7 @@ export function normalizeAction(raw) {
     campaignName: String(raw?.CampaignName ?? ""),
     state: KNOWN_STATES.has(state) ? state : "UNKNOWN",
     payout: Number.isFinite(Number(raw?.Payout)) ? Number(raw.Payout) : 0,
+    payoutKnown: ["string", "number"].includes(typeof raw?.Payout) && raw?.Payout !== null && raw?.Payout !== undefined && String(raw.Payout).trim() !== "" && Number.isFinite(Number(raw.Payout)),
     currency: String(raw?.Currency || "").slice(0, 12) || null,
     subId1: raw?.SubId1 ? String(raw.SubId1) : null,
     day: /^\d{4}-\d{2}-\d{2}$/.test(eventDate) ? eventDate : null
@@ -505,13 +513,42 @@ export function matchSubIdAttribution(actions, clickIdIndex, campaignToProvider)
     if (!provider) { coverage.campaign_unmapped++; continue; }
     if (provider !== click.provider) { coverage.provider_mismatch++; continue; }
     matched.push({
-      actionId: action.id, state: action.state, payout: action.payout, currency: action.currency,
+      actionId: action.id, state: action.state, payout: action.payout, payoutKnown: action.payoutKnown, currency: action.currency,
       clickId: action.subId1, artistSlug: click.artist_slug || null, eventId: click.event_id || null,
       provider, clickedAt: click.created_at || null, sourcePath: click.source_path || null,
       ctaLocation: click.cta_location || null
     });
   }
   return { matched, candidates, coverage };
+}
+
+// Only already-validated SubId1 matches enter this breakdown. No allocation of
+// unmatched account revenue, inference from a URL, currency conversion or rate.
+export function summarizeAttributedArtists(matched, artists = []) {
+  const selected = new Set(artists);
+  const groups = new Map();
+  for (const order of matched) {
+    const artist_slug = order.artistSlug || "(unknown)";
+    if (selected.size && !selected.has(artist_slug)) continue;
+    const provider = order.provider;
+    const currency = /^[A-Z]{3}$/.test(String(order.currency || "").toUpperCase()) ? String(order.currency).toUpperCase() : "(unknown)";
+    const source_path = order.sourcePath || "(unknown)";
+    const key = JSON.stringify([artist_slug, provider, currency, source_path]);
+    if (!groups.has(key)) groups.set(key, {
+      artist_slug, provider, currency, source_path,
+      states: Object.fromEntries(["APPROVED", "PENDING", "REVERSED", "UNKNOWN"].map(state => [state, { actions: 0, payout: 0, missing_payout: 0 }]))
+    });
+    const bucket = groups.get(key).states[order.state] || groups.get(key).states.UNKNOWN;
+    bucket.actions++;
+    if (order.payoutKnown !== true || !Number.isFinite(order.payout) || currency === "(unknown)") bucket.missing_payout++;
+    else bucket.payout += order.payout;
+  }
+  return [...groups.values()].map(group => ({
+    ...group,
+    states: Object.fromEntries(Object.entries(group.states).map(([state, bucket]) => [state, {
+      ...bucket, payout: bucket.missing_payout ? null : Math.round((bucket.payout + Number.EPSILON) * 1000000) / 1000000
+    }]))
+  })).sort((a, b) => (selected.size ? artists.indexOf(a.artist_slug) - artists.indexOf(b.artist_slug) : a.artist_slug.localeCompare(b.artist_slug)) || a.provider.localeCompare(b.provider) || a.currency.localeCompare(b.currency) || a.source_path.localeCompare(b.source_path));
 }
 
 function renderTable(headers, rows) {
@@ -570,6 +607,19 @@ export function renderReport(report) {
   lines.push("Matches require stored passthrough eligibility and provider/campaign agreement; the local flag is not production evidence.");
   lines.push(`Unmatched coverage: ${JSON.stringify(report.sub_id_attribution.coverage)}`);
   lines.push("Only SubId1 is joined. Other configured tracking fields require network verification and report support.");
+  lines.push("");
+  lines.push("-- Attributed orders by artist and recorded source page --");
+  const artists = report.sub_id_attribution.artist_filter || [];
+  lines.push(`Artist filter: ${artists.length ? artists.join(", ") : "all matched artists"}. This filter applies only to this table; provider totals above remain account-wide.`);
+  lines.push("Only APPROVED payout is earned. Pending and reversed amounts stay separate; currencies are never added together. Missing amounts stay unknown.");
+  lines.push(renderTable(
+    ["artist", "source_page", "provider", "currency", "approved", "earned", "pending", "pending_payout", "reversed", "reversed_payout", "unknown_state", "missing_amounts"],
+    (report.sub_id_attribution.by_artist || []).map(row => [row.artist_slug, row.source_path, row.provider, row.currency,
+      row.states.APPROVED.actions, row.states.APPROVED.payout ?? "unknown", row.states.PENDING.actions, row.states.PENDING.payout ?? "unknown",
+      row.states.REVERSED.actions, row.states.REVERSED.payout ?? "unknown", row.states.UNKNOWN.actions,
+      Object.values(row.states).reduce((sum, state) => sum + state.missing_payout, 0)])
+  ));
+  lines.push("No matched row is not proof of zero revenue. Source pages are the recorded CTA pages, not a reconstructed article-to-guide journey. No visitor conversion or earnings-per-click rate is inferred.");
   lines.push("");
 
   lines.push("-- What this report cannot show --");
@@ -773,6 +823,8 @@ async function main() {
     subIdCandidates: candidates
   });
   report.sub_id_attribution.matched_orders = matched;
+  report.sub_id_attribution.artist_filter = options.attributedArtists;
+  report.sub_id_attribution.by_artist = summarizeAttributedArtists(matched, options.attributedArtists);
 
   console.log(options.json ? JSON.stringify(report, null, 2) : renderReport(report));
 }

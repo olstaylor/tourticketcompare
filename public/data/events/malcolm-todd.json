@@ -1312,7 +1312,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-phoenix-arizona-financial-theatre-10-25-2026/production/7132709",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-phoenix-arizona-10-25-2026/event/190064C2D241DB17",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1364,13 +1364,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8035370",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8035370/Malcolm-Todd-tickets-Sun-Oct-25-2026-Arizona-Financial-Theatre",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-11T17:00:00Z",
-        "end": "2026-10-21T19:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

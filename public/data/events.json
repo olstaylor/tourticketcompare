@@ -24408,7 +24408,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-glendale-arizona-10-21-2026/event/190064C5D6359C3F",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -24416,7 +24416,7 @@
         "discovery_event_id": "17k8v0G6G9pu_YT",
         "url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-glendale-arizona-10-21-2026/event/190064C5D6359C3F",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-22",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -24468,13 +24468,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034406",
     "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-glendale-tickets-10-21-2026/event/107325085",
-    "presales": [
-      {
-        "name": "Charity Tickets Onsale",
-        "start": "2026-06-12T20:00:00Z",
-        "end": "2026-10-22T05:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -36262,7 +36255,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-san-francisco-california-10-19-2026/event/1C0063390D157FFD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -36322,13 +36315,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457622",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-san-francisco-tickets-10-19-2026/event/106972097",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457622/Doja-Cat-tickets-Sun-Oct-25-2026-Chase-Center",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2025-10-10T17:00:00Z",
-        "end": "2026-10-21T19:00:00Z"
-      }
-    ],
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-10-20T02:30:00Z",
     "previous_start_timezone": "America/Los_Angeles",
@@ -37755,7 +37741,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-montreal-quebec-11-27-2026/event/31006339B7D269BF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -37812,6 +37798,11 @@
         "name": "Forfaits VIP Packages",
         "start": "2025-10-10T14:00:00Z",
         "end": "2026-11-23T17:00:00Z"
+      },
+      {
+        "name": "Siège Individuel - Single Seat",
+        "start": "2026-10-22T16:00:00Z",
+        "end": "2026-11-28T02:30:00Z"
       }
     ],
     "organizer_names": [
@@ -53436,7 +53427,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-san-antonio-frost-bank-center-10-22-2026--concerts-world-music/production/7049058",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-san-antonio-texas-10-22-2026/event/3A0064AECC40D7EA",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -53496,13 +53487,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976486",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976486/Don-Omar-tickets-Thu-Oct-22-2026-Frost-Bank-Center",
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-san-antonio-tickets-10-22-2026/event/107289094",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-05-22T15:00:00Z",
-        "end": "2026-10-21T22:00:00Z"
-      }
-    ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK",
       "COMMUNITY ARENA MANAGEMENT"
@@ -81129,7 +81113,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-hidalgo-payne-arena-3-14-2027/production/7047159",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-hidalgo-texas-03-14-2027/event/3A0064AE96BE7CBC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -81194,6 +81178,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-05-28T15:00:00Z",
         "end": "2027-03-07T23:00:00Z"
+      },
+      {
+        "name": "35% Off",
+        "start": "2026-10-23T15:00:00Z",
+        "end": "2026-10-27T03:00:00Z"
       }
     ]
   },
@@ -81835,7 +81824,7 @@
     "vividseats_url": "https://www.vividseats.com/missio-tickets-los-angeles-teragram-ballroom-11-1-2026/production/7425741",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sean-healy-presents-missio-love-heartbreak-los-angeles-california-11-01-2026/event/0900650B02842801",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -81897,6 +81886,11 @@
         "name": "season",
         "start": "2026-10-20T17:00:00Z",
         "end": "2026-10-29T06:59:00Z"
+      },
+      {
+        "name": "Special",
+        "start": "2026-10-26T16:00:00Z",
+        "end": "2026-11-01T06:59:00Z"
       },
       {
         "name": "Priority Entry DOS GA",
@@ -129483,7 +129477,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-phoenix-arizona-financial-theatre-10-25-2026/production/7132709",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-phoenix-arizona-10-25-2026/event/190064C2D241DB17",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -129535,13 +129529,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8035370",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8035370/Malcolm-Todd-tickets-Sun-Oct-25-2026-Arizona-Financial-Theatre",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-11T17:00:00Z",
-        "end": "2026-10-21T19:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -161778,7 +161765,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-knoxville-thompson-boling-arena-at-food-city-center-10-28-2026--concerts-country-and-folk/production/6948983",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-knoxville-tennessee-10-28-2026/event/1B006490972BBFD9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -161829,13 +161816,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906851",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-01T13:00:00Z",
-        "end": "2026-10-22T02:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7906851/The-Red-Clay-Strays-tickets-Wed-Oct-28-2026-Thompson-Boling-Arena-at-Food-City-Center",
     "organizer_names": [
       "AEG LIVE"
@@ -174717,7 +174697,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-gilford-banknh-pavilion-7-26-2027/production/7642112",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-gilford-new-hampshire-07-26-2027/event/0100653AAC543171",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -174754,11 +174734,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "Eastern Propane Ticket Offer",
-        "start": "2026-10-14T14:00:00Z",
-        "end": "2026-10-22T02:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-10-15T14:00:00Z",
@@ -228354,7 +228329,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-boston-td-garden-10-25-2026--concerts-rap-hip-hop/production/7185765",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-boston-massachusetts-10-25-2026/event/010064D0AF18F3E7",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -228414,13 +228389,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8063452",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8063452/Rod-Wave-tickets-Sun-Oct-25-2026-TD-Garden",
     "stubhub_international_url": "https://www.stubhub.ie/rod-wave-boston-tickets-10-25-2026/event/107447268",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-26T17:00:00Z",
-        "end": "2026-10-22T02:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -230622,7 +230590,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-atlanta-synovus-bank-amphitheater-at-chastain-park-10-31-2026--concerts-rb/production/7600473",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-atlanta-georgia-10-31-2026/event/0E006504BBA6A21B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -230674,13 +230642,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286235",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286235/Steve-Lacy-tickets-Sat-Oct-31-2026-Synovus-Bank-Amphitheater-at-Chastain-Park",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-25T14:00:00Z",
-        "end": "2026-10-22T02:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -255423,7 +255384,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-san-diego-california-10-25-2026/event/0A00645B1979EB74",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -255475,13 +255436,6 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-03-09T17:00:00Z",
-        "end": "2026-10-21T19:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774764",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774764/Gorillaz-tickets-Sun-Oct-25-2026-Pechanga-Arena-San-Diego"
@@ -258394,7 +258348,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-detroit-little-caesars-arena-10-25-2026--concerts-pop/production/7446260",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-detroit-michigan-10-25-2026/event/0800650CC36572A2",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -258456,13 +258410,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/jonas-brothers-detroit-tickets-10-25-2026/event/107666071",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-21T14:00:00Z",
-        "end": "2026-10-21T16:00:00Z"
-      }
     ]
   },
   {
@@ -261666,7 +261613,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-atlanta-mercedes-benz-stadium-5-29-2027/production/7706911",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-atlanta-georgia-05-29-2027/event/0E00654CB92CB473",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -261743,7 +261690,10 @@
         "end": "2026-10-23T02:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-atlanta-tickets-5-29-2027/event/107674281"
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-atlanta-tickets-5-29-2027/event/107674281",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-zach-bryan-2027-orchard-park-vv17gz_fgksis3fj",
@@ -268209,7 +268159,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chris-stapletons-allamerican-road-show-lincoln-nebraska-10-26-2026/event/06006425DA7EA5F4",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -268256,13 +268206,6 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-01-16T16:00:00Z",
-        "end": "2026-10-21T22:00:00Z"
-      }
     ]
   },
   {
@@ -269788,7 +269731,7 @@
     "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-inglewood-intuit-dome-10-25-2026--concerts-rb/production/7104565",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-inglewood-california-10-25-2026/event/090064B9EC44AB68",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -269842,18 +269785,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-inglewood-tickets-10-25-2026/event/107394139",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-05T19:00:00Z",
-        "end": "2026-10-21T19:00:00Z"
-      },
-      {
-        "name": "Meet & Greet VIP Package",
-        "start": "2026-06-17T19:00:00Z",
-        "end": "2026-10-21T19:00:00Z"
-      }
     ]
   },
   {
@@ -272333,7 +272264,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/saint-levant-ciudad-de-mexico-02-02-2027/event/3D0065149AE337ED",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -272368,8 +272299,7 @@
     },
     "ticketmaster_discovery_event_id": "G5dVZ_o3QzSLc",
     "timezone": "America/Mexico_City",
-    "status": "announced",
-    "public_onsale_at": "2026-10-21T17:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "OCESA"
     ],
@@ -272652,7 +272582,7 @@
     "vividseats_url": "https://www.vividseats.com/backstreet-boys-tickets-las-vegas-sphere-12-29-2026/production/7721612",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-29-2026/event/170064FFDB078C23",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -272708,11 +272638,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-21T17:00:00Z",
-        "end": "2026-10-22T05:00:00Z"
-      },
       {
         "name": "Vibee VIP Concert Experience Presale",
         "start": "2026-10-21T17:00:00Z",
@@ -277174,7 +277099,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-san-diego-california-05-01-2027/event/0A0065500C5C200B",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -277216,7 +277141,20 @@
         "name": "Artist Presale",
         "start": "2026-10-22T17:00:00Z",
         "end": "2026-10-23T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-22T17:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-23T17:00:00Z",
+        "end": "2027-04-25T05:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -277892,7 +277830,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-washington-capital-one-arena-10-22-2026--concerts-pop/production/7027945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-washington-district-of-columbia-10-22-2026/event/150064A5EBAC0D86",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -277943,7 +277881,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961634/Katseye-tickets-Thu-Oct-22-2026-Capital-One-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-washington-tickets-10-22-2026/event/107170271"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-washington-tickets-10-22-2026/event/107170271",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-belmont-park-17gzv0g61mqcddn",
@@ -277961,7 +277902,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-elmont-ubs-arena-10-24-2026--concerts-pop/production/7027947",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-belmont-park-new-york-10-24-2026/event/300064AB9AB430EA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -277996,7 +277937,10 @@
     },
     "ticketmaster_discovery_event_id": "17GZv0G61mQcddn",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-belmont-park-17gzv0g61mqmkdg",
@@ -278014,7 +277958,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-elmont-ubs-arena-10-25-2026/production/7061391",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-belmont-park-new-york-10-25-2026/event/300064AB9AB930F5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -278049,7 +277993,10 @@
     },
     "ticketmaster_discovery_event_id": "17GZv0G61mQmKdg",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-boston-vvg17z_1eilxli",
@@ -278067,7 +278014,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-boston-td-garden-10-28-2026--concerts-pop/production/7027949",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-boston-massachusetts-10-28-2026/event/010064A9ECAFEAEC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -278118,7 +278065,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961636/Katseye-tickets-Wed-Oct-28-2026-TD-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-boston-tickets-10-28-2026/event/107169128"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-boston-tickets-10-28-2026/event/107169128",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-montreal-17g8v0g61xoe95k",
@@ -278136,7 +278086,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/katseye-the-wildworld-tour-montreal-quebec-10-30-2026/event/310064A8A00972D3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -278179,7 +278129,12 @@
     "ticketmaster_discovery_event_id": "17G8v0G61xOe95K",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961852/Katseye-tickets-Fri-Oct-30-2026-Centre-Bell"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961852/Katseye-tickets-Fri-Oct-30-2026-Centre-Bell",
+    "organizer_names": [
+      "EVENKO CO-PRO WITH LIVE NATION",
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-hamilton-177zv0g61i6mwwe",
@@ -278197,7 +278152,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-hamilton-td-coliseum-11-1-2026--concerts-pop/production/7027991",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/katseye-the-wildworld-tour-hamilton-ontario-11-01-2026/event/100064AB07DF2C82",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -278232,7 +278187,13 @@
     },
     "ticketmaster_discovery_event_id": "177Zv0G61i6Mwwe",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ]
   },
   {
     "id": "tm-katseye-2026-detroit-vvg1oz_1efshc4",
@@ -278250,7 +278211,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-detroit-little-caesars-arena-11-3-2026--concerts-pop/production/7027953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-detroit-michigan-11-03-2026/event/080064A9C8CDBB55",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -278301,7 +278262,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961637/Katseye-tickets-Tue-Nov-3-2026-Little-Caesars-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-detroit-tickets-11-3-2026/event/107169130"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-detroit-tickets-11-3-2026/event/107169130",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-chicago-vvg18z_1mip6i3",
@@ -278319,7 +278283,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-chicago-united-center-11-5-2026--concerts-pop/production/7027955",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-chicago-illinois-11-05-2026/event/040064ABAC947B12",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -278370,7 +278334,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961638/Katseye-tickets-Thu-Nov-5-2026-United-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-chicago-tickets-11-5-2026/event/107169132"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-chicago-tickets-11-5-2026/event/107169132",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-minneapolis-vvg1bz_1syoq0j",
@@ -278388,7 +278355,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-minneapolis-target-center-11-7-2026--concerts-pop/production/7027957",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-minneapolis-minnesota-11-07-2026/event/060064ACF981D91C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -278439,7 +278406,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961641/Katseye-tickets-Sat-Nov-7-2026-Target-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-minneapolis-tickets-11-7-2026/event/107169133"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-minneapolis-tickets-11-7-2026/event/107169133",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-austin-g5diz_1lv8_jd",
@@ -278457,7 +278427,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-austin-moody-center-atx-11-10-2026--concerts-pop/production/7027959",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-austin-texas-11-10-2026/event/3A0064AAC1419703",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -278508,7 +278478,17 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961642/Katseye-tickets-Tue-Nov-10-2026-Moody-Center-ATX",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-austin-tickets-11-10-2026/event/107170281"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-austin-tickets-11-10-2026/event/107170281",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Aisle Seat Offer",
+        "start": "2026-05-21T20:00:00Z",
+        "end": "2026-11-11T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-katseye-2026-dallas-vvg1yz_1jrlmao",
@@ -278526,7 +278506,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-dallas-american-airlines-center---tx-11-11-2026--concerts-pop/production/7027961",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-dallas-texas-11-11-2026/event/0C0064A99EAF7251",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -278577,7 +278557,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961644/Katseye-tickets-Wed-Nov-11-2026-American-Airlines-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-dallas-tickets-11-11-2026/event/107170283"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-dallas-tickets-11-11-2026/event/107170283",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-las-vegas-z7r9jz1a70ouv",
@@ -278595,7 +278578,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-las-vegas-mgm-grand-garden-arena-11-14-2026--concerts-pop/production/7027963",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OuV",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -278646,7 +278629,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961834/Katseye-tickets-Sat-Nov-14-2026-MGM-Grand-Garden-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-las-vegas-tickets-11-14-2026/event/107170285"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-las-vegas-tickets-11-14-2026/event/107170285",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-seattle-vvg1hz_1e8gggs",
@@ -278664,7 +278650,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-seattle-climate-pledge-arena-11-17-2026--concerts-pop/production/7027965",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-seattle-washington-11-17-2026/event/0F0064A9D030C333",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -278715,7 +278701,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961840/Katseye-tickets-Tue-Nov-17-2026-Climate-Pledge-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-seattle-tickets-11-17-2026/event/107170286"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-seattle-tickets-11-17-2026/event/107170286",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-oakland-g5vyz_1m-ew1q",
@@ -278733,7 +278722,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-oakland-oakland-arena-11-19-2026--concerts-pop/production/7027967",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-oakland-california-11-19-2026/event/1C0064ABA10BD29D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -278784,7 +278773,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961842/Katseye-tickets-Thu-Nov-19-2026-Oakland-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-oakland-tickets-11-19-2026/event/107170287"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-oakland-tickets-11-19-2026/event/107170287",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-los-angeles-g5eyz_1rkf-rx",
@@ -278802,7 +278794,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-los-angeles-california-11-21-2026/event/2C0064ABC62217BE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -278853,7 +278845,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961846/Katseye-tickets-Sat-Nov-21-2026-Cryptocom-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-los-angeles-tickets-11-21-2026/event/107170288"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-los-angeles-tickets-11-21-2026/event/107170288",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-los-angeles-g5eyz_52cssfl",
@@ -278871,7 +278866,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-los-angeles-california-11-22-2026/event/2C0064B3CEC7151F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -278922,7 +278917,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7984757/Katseye-tickets-Sun-Nov-22-2026-Cryptocom-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-los-angeles-tickets-11-22-2026/event/107188077"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-los-angeles-tickets-11-22-2026/event/107188077",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-phoenix-17k8v0g61m4tf9t",
@@ -278940,7 +278938,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-phoenix-mortgage-matchup-center-11-24-2026--concerts-pop/production/7027973",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-phoenix-arizona-11-24-2026/event/190064AB95A545E9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -278991,7 +278989,10 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961848/Katseye-tickets-Tue-Nov-24-2026-Mortgage-Matchup-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-phoenix-tickets-11-24-2026/event/107170289"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-phoenix-tickets-11-24-2026/event/107170289",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-ciudad-de-mexico-17azv0g61mujevj",
@@ -279009,7 +279010,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/katseye-the-wildworld-tour-ciudad-de-mexico-27-11-2026/event/140064AB8D982D1C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -279060,7 +279061,10 @@
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7983201/Katseye-tickets-Fri-Nov-27-2026-Palacio-De-Los-Deportes-Mexico-City",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-27-11-2026/event/107165672"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-27-11-2026/event/107165672",
+    "organizer_names": [
+      "OCESA"
+    ]
   },
   {
     "id": "tm-katseye-2026-ciudad-de-mexico-17azv0g61m2a3xe",
@@ -279078,7 +279082,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/katseye-the-wildworld-tour-ciudad-de-mexico-28-11-2026/event/140064AB8F152FA7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -279129,7 +279133,10 @@
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7990930/Katseye-tickets-Sat-Nov-28-2026-Palacio-De-Los-Deportes-Mexico-City",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-28-11-2026/event/107187078"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-28-11-2026/event/107187078",
+    "organizer_names": [
+      "OCESA"
+    ]
   },
   {
     "id": "tm-ricky-martin-2026-thackerville-z7r9jz1a7jax9",
@@ -279200,7 +279207,7 @@
     "vividseats_url": "https://www.vividseats.com/ricky-martin-tickets-las-vegas-fontainebleau-las-vegas-10-30-2026--concerts-pop/production/7284630",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ricky-martin-las-vegas-nevada-10-30-2026/event/170064DEAE2DB2EB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -279243,7 +279250,10 @@
     "ticketmaster_discovery_event_id": "17AYv0G6uBm5h5l",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8130658/Ricky-Martin-tickets-Fri-Oct-30-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8130658/Ricky-Martin-tickets-Fri-Oct-30-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-ricky-martin-2026-las-vegas-17ayv0g6ubmuh5y",
@@ -279261,7 +279271,7 @@
     "vividseats_url": "https://www.vividseats.com/ricky-martin-tickets-las-vegas-fontainebleau-las-vegas-10-31-2026--concerts-pop/production/7284632",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ricky-martin-las-vegas-nevada-10-31-2026/event/170064DEAE35B2F0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -279304,7 +279314,10 @@
     "ticketmaster_discovery_event_id": "17AYv0G6uBmuh5Y",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8130659/Ricky-Martin-tickets-Sat-Oct-31-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8130659/Ricky-Martin-tickets-Sat-Oct-31-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-ricky-martin-2026-lincoln-g5vyz_grrfawg",
@@ -279383,7 +279396,7 @@
     "vividseats_url": "https://www.vividseats.com/ricky-martin-tickets-temecula-pechanga-resort-casino-11-8-2026/production/7200560",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ricky-martin-temecula-california-11-08-2026/event/0A0064C3CAF6BA38",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -279426,7 +279439,10 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_G21WlIz",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8072742/Ricky-Martin-tickets-Sun-Nov-8-2026-Summit-At-Pechanga-Resort-Casino"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8072742/Ricky-Martin-tickets-Sun-Nov-8-2026-Summit-At-Pechanga-Resort-Casino",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-ty-myers-2026-evansville-vv1aazkowgkd1n5gg",
@@ -279444,7 +279460,7 @@
     "vividseats_url": "https://www.vividseats.com/ty-myers-tickets-evansville-ford-center-evansville-10-23-2026--concerts-country-and-folk/production/6828452",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-evansville-indiana-10-23-2026/event/05006472CA8CB335",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -279487,7 +279503,11 @@
     "ticketmaster_discovery_event_id": "vv1AAZkowGkd1N5Gg",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7830814/Ty-Myers-tickets-Fri-Oct-23-2026-Ford-Center-IN"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7830814/Ty-Myers-tickets-Fri-Oct-23-2026-Ford-Center-IN",
+    "organizer_names": [
+      "THE MESSINA GROUP (TMG)",
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-ty-myers-2026-pikeville-1apzkovgkdxnmip",
@@ -279505,7 +279525,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-pikeville-kentucky-10-24-2026/event/16006474FEAB7B16",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -279540,7 +279560,10 @@
     },
     "ticketmaster_discovery_event_id": "1ApZkoVGkdXnMip",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-ty-myers-2026-austin-g5diz_kuopazl",
@@ -279558,7 +279581,7 @@
     "vividseats_url": "https://www.vividseats.com/ty-myers-tickets-austin-moody-center-atx-11-20-2026--concerts-country-and-folk/production/6828458",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-austin-texas-11-20-2026/event/3A00646DA0949E2B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -279609,7 +279632,17 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7830817/Ty-Myers-tickets-Fri-Nov-20-2026-Moody-Center-ATX",
-    "stubhub_international_url": "https://www.stubhub.ie/ty-myers-austin-tickets-11-20-2026/event/107165656"
+    "stubhub_international_url": "https://www.stubhub.ie/ty-myers-austin-tickets-11-20-2026/event/107165656",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-04-03T15:00:00Z",
+        "end": "2026-11-10T23:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-ty-myers-2026-fort-worth-vvg1yz_61djqel",
@@ -279627,7 +279660,7 @@
     "vividseats_url": "https://www.vividseats.com/ty-myers-tickets-fort-worth-dickies-arena-11-21-2026--concerts-country-and-folk/production/6828460",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-fort-worth-texas-11-21-2026/event/0C006472BB99A9EB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -279678,7 +279711,17 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7830819/Ty-Myers-tickets-Sat-Nov-21-2026-Dickies-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/ty-myers-fort-worth-tickets-11-21-2026/event/107167142"
+    "stubhub_international_url": "https://www.stubhub.ie/ty-myers-fort-worth-tickets-11-21-2026/event/107167142",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-04-03T15:00:00Z",
+        "end": "2026-11-11T23:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dan-shay-2026-dallas-vvg1yz_1thoo6h",
@@ -279696,7 +279739,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-dallas-texas-10-22-2026/event/0C0064AFFC8111DB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -279739,7 +279782,10 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_1THOo6h",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/dan-shay-dallas-tickets-10-22-2026/event/107667074"
+    "stubhub_international_url": "https://www.stubhub.ie/dan-shay-dallas-tickets-10-22-2026/event/107667074",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dan-shay-2026-rogers-g5viz_1x8yivv",
@@ -279757,7 +279803,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-rogers-arkansas-10-23-2026/event/1B0064AF90E68D01",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -279792,7 +279838,10 @@
     },
     "ticketmaster_discovery_event_id": "G5viZ_1X8yIVv",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dan-shay-2026-maryland-heights-vvg1bz_1udxnrk",
@@ -279810,7 +279859,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-maryland-heights-missouri-10-24-2026/event/060064ADBB8A3BC6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -279845,7 +279894,10 @@
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_1UDxNRk",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dan-shay-2026-denver-g5vzz_1dezhf3",
@@ -279863,7 +279915,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-denver-colorado-10-29-2026/event/1E0064AEC203C212",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -279898,7 +279950,22 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1DeZHF3",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-05-22T16:00:00Z",
+        "end": "2026-10-25T18:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-22T16:00:00Z",
+        "end": "2026-10-30T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dan-shay-2026-salt-lake-city-z7r9jz1a70jp0",
@@ -279916,7 +279983,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70JP0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -279951,7 +280018,10 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70JP0",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dan-shay-2026-phoenix-17k8v0g61dxzizm",
@@ -279969,7 +280039,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-phoenix-arizona-11-05-2026/event/190064AEE2E28037",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -280004,7 +280074,17 @@
     },
     "ticketmaster_discovery_event_id": "17k8v0G61DxzIZM",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-05-22T17:00:00Z",
+        "end": "2026-11-01T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dan-shay-2026-anaheim-vvg10z_1damnyd",
@@ -280022,7 +280102,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-anaheim-california-11-06-2026/event/090064AEC5BA3C3B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -280065,7 +280145,22 @@
     "ticketmaster_discovery_event_id": "vvG10Z_1DAmNYD",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/dan-shay-anaheim-tickets-11-6-2026/event/107554500"
+    "stubhub_international_url": "https://www.stubhub.ie/dan-shay-anaheim-tickets-11-6-2026/event/107554500",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-05-22T17:00:00Z",
+        "end": "2026-11-02T20:00:00Z"
+      },
+      {
+        "name": "VIP Package",
+        "start": "2026-08-28T17:00:00Z",
+        "end": "2026-11-02T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dan-shay-2026-mountain-view-g5vyz_1wl9ah6",
@@ -280083,7 +280178,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-mountain-view-california-11-07-2026/event/1C0064AF6B5C5F07",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -280118,7 +280213,17 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1Wl9AH6",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-05-22T17:00:00Z",
+        "end": "2026-11-03T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-inglewood-vvg10z_ucyohlw",
@@ -280205,7 +280310,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-san-diego-california-10-24-2026/event/0A0064D4B7C08188",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -280248,7 +280353,10 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_u3MYFkF",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8081071/beabadoobee-tickets-Sat-Oct-24-2026-Viejas-Arena-At-Aztec-Bowl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8081071/beabadoobee-tickets-Sat-Oct-24-2026-Viejas-Arena-At-Aztec-Bowl",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-oakland-g5vyz_ufp_rvl",
@@ -280266,7 +280374,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-oakland-oakland-arena-10-26-2026/production/7212204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-oakland-california-10-26-2026/event/1C0064D21665E06B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -280317,7 +280425,17 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8081072/beabadoobee-tickets-Mon-Oct-26-2026-Oakland-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-oakland-tickets-10-26-2026/event/107447659"
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-oakland-tickets-10-26-2026/event/107447659",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-02T17:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-vancouver-1778v0g6u5paqr-",
@@ -280335,7 +280453,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-vancouver-rogers-arena-10-28-2026--concerts-pop/production/7212205",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/beabadoobee-the-powerlines-tour-vancouver-british-columbia-10-28-2026/event/110064D2E525D7A1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -280378,7 +280496,20 @@
     "ticketmaster_discovery_event_id": "1778v0G6u5Paqr-",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8081057/beabadoobee-tickets-Wed-Oct-28-2026-Rogers-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8081057/beabadoobee-tickets-Wed-Oct-28-2026-Rogers-Arena",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-02T17:00:00Z",
+        "end": "2026-10-25T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-seattle-vvg1hz_u_uadg3",
@@ -280396,7 +280527,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-seattle-climate-pledge-arena-10-29-2026/production/7212200",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-seattle-washington-10-29-2026/event/0F0064D676143312",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -280447,7 +280578,17 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8081075/beabadoobee-tickets-Thu-Oct-29-2026-Climate-Pledge-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-seattle-tickets-10-29-2026/event/107522082"
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-seattle-tickets-10-29-2026/event/107522082",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-02T17:00:00Z",
+        "end": "2026-10-26T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-glasgow-17uov0g6uryba3u",
@@ -280465,7 +280606,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-glasgow-ovo-hydro-11-14-2026--concerts-pop/production/7212648",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-glasgow-14-11-2026/event/360064D7B0E894B6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -280516,7 +280657,11 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090672/beabadoobee-tickets-Sat-Nov-14-2026-OVO-Hydro",
-    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-glasgow-ovo-hydro-arena-glasgow-14-11-2026/event/107447517"
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-glasgow-ovo-hydro-arena-glasgow-14-11-2026/event/107447517",
+    "organizer_names": [
+      "DF CONCERTS LIMITED",
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-cardiff-17uov0g6uhod1tg",
@@ -280534,7 +280679,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-cardiff-utilita-arena-cardiff-11-16-2026/production/7227164",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-cardiff-16-11-2026/event/360064D6E00CAA4C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -280577,7 +280722,11 @@
     "ticketmaster_discovery_event_id": "17uOv0G6uhOd1tG",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-cardiff-utilita-arena-cardiff-16-11-2026/event/107447518"
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-cardiff-utilita-arena-cardiff-16-11-2026/event/107447518",
+    "organizer_names": [
+      "LIVE NATION MUSIC (VENUES) LTD (NEW)",
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-manchester-g5vhz_u1guca1",
@@ -280595,7 +280744,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-manchester-ao-arena-11-17-2026--concerts-pop/production/7212650",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-manchester-17-11-2026/event/1F0064D2B5DAD24A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -280646,7 +280795,12 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090671/beabadoobee-tickets-Tue-Nov-17-2026-AO-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-manchester-manchester-ao-arena-17-11-2026/event/107417852"
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-manchester-manchester-ao-arena-17-11-2026/event/107417852",
+    "organizer_names": [
+      "METROPOLIS MUSIC",
+      "ASM T-A AO ARENA",
+      "S.J.M. LTD"
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-greenwich-z7r9jz1a7ps_a",
@@ -280717,7 +280871,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.se/event/beabadoobee-the-powerlines-tour-tickets/964261449?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -280752,7 +280906,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZq2Z1kP0a-oa",
     "timezone": "Europe/Stockholm",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Lugerinc AB"
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-oslo-z698xzb_z16v38kfe3",
@@ -280770,7 +280927,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.no/event/beabadoobee-the-powerlines-tour-tickets/1490194092?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -280821,7 +280978,10 @@
     "timezone": "Europe/Oslo",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8094857/beabadoobee-tickets-Fri-Nov-27-2026-Oslo-Spektrum",
-    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-oslo-oslo-spektrum-27-11-2026/event/107417938"
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-oslo-oslo-spektrum-27-11-2026/event/107417938",
+    "organizer_names": [
+      "Live Nation Norway AS"
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-forest-brussels-z698xzg2z16vovadfj",
@@ -280839,7 +280999,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/beabadoobee-the-powerlines-tour-tickets/1834243526",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -280874,7 +281034,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z16vOVadfJ",
     "timezone": "Europe/Brussels",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation"
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-berlin-z698xzc2z16vpmfp_a",
@@ -280892,7 +281055,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-berlin-tempodrom-12-6-2026--concerts-pop/production/7212678",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/beabadoobee-the-powerlines-tour-tickets/1977216649?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -280943,7 +281106,10 @@
     "timezone": "Europe/Berlin",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8094855/beabadoobee-tickets-Sun-Dec-6-2026-Tempodrom",
-    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-berlin-tempodrom-6-12-2026/event/107417969"
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-berlin-tempodrom-6-12-2026/event/107417969",
+    "organizer_names": [
+      "Trinity Music GmbH"
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-dusseldorf-z698xzc2z1k09qy83",
@@ -280961,7 +281127,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-dusseldorf-mitsubishi-electric-halle-12-7-2026--concerts-pop/production/7212682",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/beabadoobee-the-powerlines-tour-tickets/917770412?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -281012,7 +281178,10 @@
     "timezone": "Europe/Berlin",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8094856/beabadoobee-tickets-Mon-Dec-7-2026-Mitsubishi-Electric-Halle",
-    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-dusseldorf-mitsubishi-electric-halle-7-12-2026/event/107417970"
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-dusseldorf-mitsubishi-electric-halle-7-12-2026/event/107417970",
+    "organizer_names": [
+      "prime entertainment GmbH"
+    ]
   },
   {
     "id": "tm-dave-matthews-band-2026-madison-z7r9jz1aazj8x",
@@ -281030,7 +281199,7 @@
     "vividseats_url": "https://www.vividseats.com/dave-matthews-band-tickets-madison-kohl-center-11-4-2026/production/7416045",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJ8x",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -281073,7 +281242,10 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZJ8x",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195877/Dave-Matthews-Band-tickets-Wed-Nov-4-2026-Kohl-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195877/Dave-Matthews-Band-tickets-Wed-Nov-4-2026-Kohl-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dave-matthews-band-2026-nashville-g5viz_2znwmqm",
@@ -281091,7 +281263,7 @@
     "vividseats_url": "https://www.vividseats.com/dave-matthews-band-tickets-nashville-bridgestone-arena-11-6-2026/production/7415767",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dave-matthews-band-nashville-tennessee-11-06-2026/event/1B0064F02AF6E6B7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -281134,7 +281306,10 @@
     "ticketmaster_discovery_event_id": "G5viZ_2ZnWmQM",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195878/Dave-Matthews-Band-tickets-Fri-Nov-6-2026-Bridgestone-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195878/Dave-Matthews-Band-tickets-Fri-Nov-6-2026-Bridgestone-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dave-matthews-band-2026-chicago-vvg18z_cde9wdz",
@@ -281152,7 +281327,7 @@
     "vividseats_url": "https://www.vividseats.com/dave-matthews-band-tickets-chicago-united-center-11-7-2026/production/7415797",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dave-matthews-band-chicago-illinois-11-07-2026/event/040064EEE75F20F8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -281203,7 +281378,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195879/Dave-Matthews-Band-tickets-Sat-Nov-7-2026-United-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/dave-matthews-band-chicago-tickets-11-7-2026/event/107482398"
+    "stubhub_international_url": "https://www.stubhub.ie/dave-matthews-band-chicago-tickets-11-7-2026/event/107482398",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dave-matthews-band-2026-providence-vvg17z_2piw04c",
@@ -281221,7 +281399,7 @@
     "vividseats_url": "https://www.vividseats.com/dave-matthews-band-tickets-providence-amica-mutual-pavilion-11-9-2026/production/7415793",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dave-matthews-band-providence-rhode-island-11-09-2026/event/010064F5A8CA454E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -281264,7 +281442,10 @@
     "ticketmaster_discovery_event_id": "vvG17Z_2pIw04C",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195880/Dave-Matthews-Band-tickets-Mon-Nov-9-2026-Amica-Mutual-Pavilion"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195880/Dave-Matthews-Band-tickets-Mon-Nov-9-2026-Amica-Mutual-Pavilion",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dave-matthews-band-2026-baltimore-1ka8vpevgauw1qw",
@@ -281282,7 +281463,7 @@
     "vividseats_url": "https://www.vividseats.com/dave-matthews-band-tickets-baltimore-cfg-bank-arena-11-10-2026--concerts-rock/production/7415765",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dave-matthews-band-baltimore-maryland-11-10-2026/event/150065081DF4A77D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -281325,7 +281506,10 @@
     "ticketmaster_discovery_event_id": "1kA8vPevGAuW1qW",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195881/Dave-Matthews-Band-tickets-Tue-Nov-10-2026-CFG-Bank-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195881/Dave-Matthews-Band-tickets-Tue-Nov-10-2026-CFG-Bank-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dave-matthews-band-2026-new-york-g5diz_2njwaf8",
@@ -281343,7 +281527,7 @@
     "vividseats_url": "https://www.vividseats.com/dave-matthews-band-tickets-new-york-madison-square-garden-11-12-2026/production/7415809",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dave-matthews-band-new-york-new-york-11-12-2026/event/3B0064F8E6F49510",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -281394,7 +281578,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195882/Dave-Matthews-Band-tickets-Thu-Nov-12-2026-Madison-Square-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/dave-matthews-band-new-york-tickets-11-12-2026/event/107482399"
+    "stubhub_international_url": "https://www.stubhub.ie/dave-matthews-band-new-york-tickets-11-12-2026/event/107482399",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dave-matthews-band-2026-new-york-g5diz_2njdtfa",
@@ -281412,7 +281599,7 @@
     "vividseats_url": "https://www.vividseats.com/dave-matthews-band-tickets-new-york-madison-square-garden-11-13-2026/production/7415791",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dave-matthews-band-new-york-new-york-11-13-2026/event/3B0064F8E6EE9505",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -281463,7 +281650,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195883/Dave-Matthews-Band-tickets-Fri-Nov-13-2026-Madison-Square-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/dave-matthews-band-new-york-tickets-11-13-2026/event/107490083"
+    "stubhub_international_url": "https://www.stubhub.ie/dave-matthews-band-new-york-tickets-11-13-2026/event/107490083",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-garth-brooks-2026-seattle-vvg1hz_4dkzhpm",
@@ -281481,7 +281671,7 @@
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-seattle-climate-pledge-arena-11-15-2026--concerts-country-and-folk/production/7740302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-seattle-washington-11-15-2026/event/0F006550D301B5B7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -281517,6 +281707,9 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_4dKZhpM",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T17:00:00Z"
+    "public_onsale_at": "2026-10-23T17:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   }
 ]

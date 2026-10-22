@@ -3066,7 +3066,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/saint-levant-ciudad-de-mexico-02-02-2027/event/3D0065149AE337ED",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3101,8 +3101,7 @@
     },
     "ticketmaster_discovery_event_id": "G5dVZ_o3QzSLc",
     "timezone": "America/Mexico_City",
-    "status": "announced",
-    "public_onsale_at": "2026-10-21T17:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "OCESA"
     ],

@@ -666,7 +666,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-san-francisco-california-10-19-2026/event/1C0063390D157FFD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -726,13 +726,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457622",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-san-francisco-tickets-10-19-2026/event/106972097",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457622/Doja-Cat-tickets-Sun-Oct-25-2026-Chase-Center",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2025-10-10T17:00:00Z",
-        "end": "2026-10-21T19:00:00Z"
-      }
-    ],
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-10-20T02:30:00Z",
     "previous_start_timezone": "America/Los_Angeles",
@@ -2159,7 +2152,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-montreal-quebec-11-27-2026/event/31006339B7D269BF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2216,6 +2209,11 @@
         "name": "Forfaits VIP Packages",
         "start": "2025-10-10T14:00:00Z",
         "end": "2026-11-23T17:00:00Z"
+      },
+      {
+        "name": "Siège Individuel - Single Seat",
+        "start": "2026-10-22T16:00:00Z",
+        "end": "2026-11-28T02:30:00Z"
       }
     ],
     "organizer_names": [

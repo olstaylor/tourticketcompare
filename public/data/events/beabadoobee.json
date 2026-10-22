@@ -84,7 +84,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-san-diego-california-10-24-2026/event/0A0064D4B7C08188",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -127,7 +127,10 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_u3MYFkF",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8081071/beabadoobee-tickets-Sat-Oct-24-2026-Viejas-Arena-At-Aztec-Bowl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8081071/beabadoobee-tickets-Sat-Oct-24-2026-Viejas-Arena-At-Aztec-Bowl",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-oakland-g5vyz_ufp_rvl",
@@ -145,7 +148,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-oakland-oakland-arena-10-26-2026/production/7212204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-oakland-california-10-26-2026/event/1C0064D21665E06B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -196,7 +199,17 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8081072/beabadoobee-tickets-Mon-Oct-26-2026-Oakland-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-oakland-tickets-10-26-2026/event/107447659"
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-oakland-tickets-10-26-2026/event/107447659",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-02T17:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-vancouver-1778v0g6u5paqr-",
@@ -214,7 +227,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-vancouver-rogers-arena-10-28-2026--concerts-pop/production/7212205",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/beabadoobee-the-powerlines-tour-vancouver-british-columbia-10-28-2026/event/110064D2E525D7A1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -257,7 +270,20 @@
     "ticketmaster_discovery_event_id": "1778v0G6u5Paqr-",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8081057/beabadoobee-tickets-Wed-Oct-28-2026-Rogers-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8081057/beabadoobee-tickets-Wed-Oct-28-2026-Rogers-Arena",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-02T17:00:00Z",
+        "end": "2026-10-25T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-seattle-vvg1hz_u_uadg3",
@@ -275,7 +301,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-seattle-climate-pledge-arena-10-29-2026/production/7212200",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-seattle-washington-10-29-2026/event/0F0064D676143312",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -326,7 +352,17 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8081075/beabadoobee-tickets-Thu-Oct-29-2026-Climate-Pledge-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-seattle-tickets-10-29-2026/event/107522082"
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-seattle-tickets-10-29-2026/event/107522082",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-02T17:00:00Z",
+        "end": "2026-10-26T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-glasgow-17uov0g6uryba3u",
@@ -344,7 +380,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-glasgow-ovo-hydro-11-14-2026--concerts-pop/production/7212648",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-glasgow-14-11-2026/event/360064D7B0E894B6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -395,7 +431,11 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090672/beabadoobee-tickets-Sat-Nov-14-2026-OVO-Hydro",
-    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-glasgow-ovo-hydro-arena-glasgow-14-11-2026/event/107447517"
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-glasgow-ovo-hydro-arena-glasgow-14-11-2026/event/107447517",
+    "organizer_names": [
+      "DF CONCERTS LIMITED",
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-cardiff-17uov0g6uhod1tg",
@@ -413,7 +453,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-cardiff-utilita-arena-cardiff-11-16-2026/production/7227164",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-cardiff-16-11-2026/event/360064D6E00CAA4C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -456,7 +496,11 @@
     "ticketmaster_discovery_event_id": "17uOv0G6uhOd1tG",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-cardiff-utilita-arena-cardiff-16-11-2026/event/107447518"
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-cardiff-utilita-arena-cardiff-16-11-2026/event/107447518",
+    "organizer_names": [
+      "LIVE NATION MUSIC (VENUES) LTD (NEW)",
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-manchester-g5vhz_u1guca1",
@@ -474,7 +518,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-manchester-ao-arena-11-17-2026--concerts-pop/production/7212650",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/beabadoobee-the-powerlines-tour-manchester-17-11-2026/event/1F0064D2B5DAD24A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -525,7 +569,12 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090671/beabadoobee-tickets-Tue-Nov-17-2026-AO-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-manchester-manchester-ao-arena-17-11-2026/event/107417852"
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-manchester-manchester-ao-arena-17-11-2026/event/107417852",
+    "organizer_names": [
+      "METROPOLIS MUSIC",
+      "ASM T-A AO ARENA",
+      "S.J.M. LTD"
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-greenwich-z7r9jz1a7ps_a",
@@ -596,7 +645,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.se/event/beabadoobee-the-powerlines-tour-tickets/964261449?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -631,7 +680,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZq2Z1kP0a-oa",
     "timezone": "Europe/Stockholm",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Lugerinc AB"
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-oslo-z698xzb_z16v38kfe3",
@@ -649,7 +701,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.no/event/beabadoobee-the-powerlines-tour-tickets/1490194092?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -700,7 +752,10 @@
     "timezone": "Europe/Oslo",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8094857/beabadoobee-tickets-Fri-Nov-27-2026-Oslo-Spektrum",
-    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-oslo-oslo-spektrum-27-11-2026/event/107417938"
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-oslo-oslo-spektrum-27-11-2026/event/107417938",
+    "organizer_names": [
+      "Live Nation Norway AS"
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-forest-brussels-z698xzg2z16vovadfj",
@@ -718,7 +773,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/beabadoobee-the-powerlines-tour-tickets/1834243526",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -753,7 +808,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z16vOVadfJ",
     "timezone": "Europe/Brussels",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation"
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-berlin-z698xzc2z16vpmfp_a",
@@ -771,7 +829,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-berlin-tempodrom-12-6-2026--concerts-pop/production/7212678",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/beabadoobee-the-powerlines-tour-tickets/1977216649?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -822,7 +880,10 @@
     "timezone": "Europe/Berlin",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8094855/beabadoobee-tickets-Sun-Dec-6-2026-Tempodrom",
-    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-berlin-tempodrom-6-12-2026/event/107417969"
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-berlin-tempodrom-6-12-2026/event/107417969",
+    "organizer_names": [
+      "Trinity Music GmbH"
+    ]
   },
   {
     "id": "tm-beabadoobee-2026-dusseldorf-z698xzc2z1k09qy83",
@@ -840,7 +901,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-dusseldorf-mitsubishi-electric-halle-12-7-2026--concerts-pop/production/7212682",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/beabadoobee-the-powerlines-tour-tickets/917770412?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -891,6 +952,9 @@
     "timezone": "Europe/Berlin",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8094856/beabadoobee-tickets-Mon-Dec-7-2026-Mitsubishi-Electric-Halle",
-    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-dusseldorf-mitsubishi-electric-halle-7-12-2026/event/107417970"
+    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-dusseldorf-mitsubishi-electric-halle-7-12-2026/event/107417970",
+    "organizer_names": [
+      "prime entertainment GmbH"
+    ]
   }
 ]

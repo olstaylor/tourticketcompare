@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-washington-capital-one-arena-10-22-2026--concerts-pop/production/7027945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-washington-district-of-columbia-10-22-2026/event/150064A5EBAC0D86",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961634/Katseye-tickets-Thu-Oct-22-2026-Capital-One-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-washington-tickets-10-22-2026/event/107170271"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-washington-tickets-10-22-2026/event/107170271",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-belmont-park-17gzv0g61mqcddn",
@@ -84,7 +87,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-elmont-ubs-arena-10-24-2026--concerts-pop/production/7027947",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-belmont-park-new-york-10-24-2026/event/300064AB9AB430EA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -119,7 +122,10 @@
     },
     "ticketmaster_discovery_event_id": "17GZv0G61mQcddn",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-belmont-park-17gzv0g61mqmkdg",
@@ -137,7 +143,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-elmont-ubs-arena-10-25-2026/production/7061391",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-belmont-park-new-york-10-25-2026/event/300064AB9AB930F5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -172,7 +178,10 @@
     },
     "ticketmaster_discovery_event_id": "17GZv0G61mQmKdg",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-boston-vvg17z_1eilxli",
@@ -190,7 +199,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-boston-td-garden-10-28-2026--concerts-pop/production/7027949",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-boston-massachusetts-10-28-2026/event/010064A9ECAFEAEC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -241,7 +250,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961636/Katseye-tickets-Wed-Oct-28-2026-TD-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-boston-tickets-10-28-2026/event/107169128"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-boston-tickets-10-28-2026/event/107169128",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-montreal-17g8v0g61xoe95k",
@@ -259,7 +271,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/katseye-the-wildworld-tour-montreal-quebec-10-30-2026/event/310064A8A00972D3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -302,7 +314,12 @@
     "ticketmaster_discovery_event_id": "17G8v0G61xOe95K",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961852/Katseye-tickets-Fri-Oct-30-2026-Centre-Bell"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961852/Katseye-tickets-Fri-Oct-30-2026-Centre-Bell",
+    "organizer_names": [
+      "EVENKO CO-PRO WITH LIVE NATION",
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-hamilton-177zv0g61i6mwwe",
@@ -320,7 +337,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-hamilton-td-coliseum-11-1-2026--concerts-pop/production/7027991",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/katseye-the-wildworld-tour-hamilton-ontario-11-01-2026/event/100064AB07DF2C82",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -355,7 +372,13 @@
     },
     "ticketmaster_discovery_event_id": "177Zv0G61i6Mwwe",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ]
   },
   {
     "id": "tm-katseye-2026-detroit-vvg1oz_1efshc4",
@@ -373,7 +396,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-detroit-little-caesars-arena-11-3-2026--concerts-pop/production/7027953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-detroit-michigan-11-03-2026/event/080064A9C8CDBB55",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424,7 +447,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961637/Katseye-tickets-Tue-Nov-3-2026-Little-Caesars-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-detroit-tickets-11-3-2026/event/107169130"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-detroit-tickets-11-3-2026/event/107169130",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-chicago-vvg18z_1mip6i3",
@@ -442,7 +468,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-chicago-united-center-11-5-2026--concerts-pop/production/7027955",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-chicago-illinois-11-05-2026/event/040064ABAC947B12",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -493,7 +519,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961638/Katseye-tickets-Thu-Nov-5-2026-United-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-chicago-tickets-11-5-2026/event/107169132"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-chicago-tickets-11-5-2026/event/107169132",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-minneapolis-vvg1bz_1syoq0j",
@@ -511,7 +540,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-minneapolis-target-center-11-7-2026--concerts-pop/production/7027957",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-minneapolis-minnesota-11-07-2026/event/060064ACF981D91C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -562,7 +591,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961641/Katseye-tickets-Sat-Nov-7-2026-Target-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-minneapolis-tickets-11-7-2026/event/107169133"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-minneapolis-tickets-11-7-2026/event/107169133",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-austin-g5diz_1lv8_jd",
@@ -580,7 +612,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-austin-moody-center-atx-11-10-2026--concerts-pop/production/7027959",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-austin-texas-11-10-2026/event/3A0064AAC1419703",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -631,7 +663,17 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961642/Katseye-tickets-Tue-Nov-10-2026-Moody-Center-ATX",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-austin-tickets-11-10-2026/event/107170281"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-austin-tickets-11-10-2026/event/107170281",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Aisle Seat Offer",
+        "start": "2026-05-21T20:00:00Z",
+        "end": "2026-11-11T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-katseye-2026-dallas-vvg1yz_1jrlmao",
@@ -649,7 +691,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-dallas-american-airlines-center---tx-11-11-2026--concerts-pop/production/7027961",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-dallas-texas-11-11-2026/event/0C0064A99EAF7251",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -700,7 +742,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961644/Katseye-tickets-Wed-Nov-11-2026-American-Airlines-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-dallas-tickets-11-11-2026/event/107170283"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-dallas-tickets-11-11-2026/event/107170283",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-las-vegas-z7r9jz1a70ouv",
@@ -718,7 +763,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-las-vegas-mgm-grand-garden-arena-11-14-2026--concerts-pop/production/7027963",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OuV",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -769,7 +814,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961834/Katseye-tickets-Sat-Nov-14-2026-MGM-Grand-Garden-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-las-vegas-tickets-11-14-2026/event/107170285"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-las-vegas-tickets-11-14-2026/event/107170285",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-seattle-vvg1hz_1e8gggs",
@@ -787,7 +835,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-seattle-climate-pledge-arena-11-17-2026--concerts-pop/production/7027965",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-seattle-washington-11-17-2026/event/0F0064A9D030C333",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -838,7 +886,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961840/Katseye-tickets-Tue-Nov-17-2026-Climate-Pledge-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-seattle-tickets-11-17-2026/event/107170286"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-seattle-tickets-11-17-2026/event/107170286",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-oakland-g5vyz_1m-ew1q",
@@ -856,7 +907,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-oakland-oakland-arena-11-19-2026--concerts-pop/production/7027967",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-oakland-california-11-19-2026/event/1C0064ABA10BD29D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -907,7 +958,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961842/Katseye-tickets-Thu-Nov-19-2026-Oakland-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-oakland-tickets-11-19-2026/event/107170287"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-oakland-tickets-11-19-2026/event/107170287",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-los-angeles-g5eyz_1rkf-rx",
@@ -925,7 +979,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-los-angeles-california-11-21-2026/event/2C0064ABC62217BE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -976,7 +1030,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961846/Katseye-tickets-Sat-Nov-21-2026-Cryptocom-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-los-angeles-tickets-11-21-2026/event/107170288"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-los-angeles-tickets-11-21-2026/event/107170288",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-los-angeles-g5eyz_52cssfl",
@@ -994,7 +1051,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-los-angeles-california-11-22-2026/event/2C0064B3CEC7151F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1045,7 +1102,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7984757/Katseye-tickets-Sun-Nov-22-2026-Cryptocom-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-los-angeles-tickets-11-22-2026/event/107188077"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-los-angeles-tickets-11-22-2026/event/107188077",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-phoenix-17k8v0g61m4tf9t",
@@ -1063,7 +1123,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-phoenix-mortgage-matchup-center-11-24-2026--concerts-pop/production/7027973",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-phoenix-arizona-11-24-2026/event/190064AB95A545E9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1114,7 +1174,10 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961848/Katseye-tickets-Tue-Nov-24-2026-Mortgage-Matchup-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-phoenix-tickets-11-24-2026/event/107170289"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-phoenix-tickets-11-24-2026/event/107170289",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-katseye-2026-ciudad-de-mexico-17azv0g61mujevj",
@@ -1132,7 +1195,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/katseye-the-wildworld-tour-ciudad-de-mexico-27-11-2026/event/140064AB8D982D1C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1183,7 +1246,10 @@
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7983201/Katseye-tickets-Fri-Nov-27-2026-Palacio-De-Los-Deportes-Mexico-City",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-27-11-2026/event/107165672"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-27-11-2026/event/107165672",
+    "organizer_names": [
+      "OCESA"
+    ]
   },
   {
     "id": "tm-katseye-2026-ciudad-de-mexico-17azv0g61m2a3xe",
@@ -1201,7 +1267,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/katseye-the-wildworld-tour-ciudad-de-mexico-28-11-2026/event/140064AB8F152FA7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1252,6 +1318,9 @@
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7990930/Katseye-tickets-Sat-Nov-28-2026-Palacio-De-Los-Deportes-Mexico-City",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-28-11-2026/event/107187078"
+    "stubhub_international_url": "https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-28-11-2026/event/107187078",
+    "organizer_names": [
+      "OCESA"
+    ]
   }
 ]

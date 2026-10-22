@@ -428,7 +428,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-detroit-little-caesars-arena-10-25-2026--concerts-pop/production/7446260",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-detroit-michigan-10-25-2026/event/0800650CC36572A2",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -490,13 +490,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/jonas-brothers-detroit-tickets-10-25-2026/event/107666071",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-21T14:00:00Z",
-        "end": "2026-10-21T16:00:00Z"
-      }
     ]
   },
   {

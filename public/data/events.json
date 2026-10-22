@@ -126487,7 +126487,7 @@
     "tour_name": "My House Tour",
     "ticketmaster_event_id": "310064C58BAA45AA",
     "ticketmaster_url": "https://www.ticketmaster.ca/sienna-spiro-my-house-tour-montreal-quebec-10-23-2026/event/310064C58BAA45AA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/montreal-canada-l-olympia-olympia-theatre-2026-10-23-8-pm/concert/18297289",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sienna-spiro-my-house-tour-montreal-quebec-10-23-2026/event/310064C58BAA45AA",
@@ -126503,11 +126503,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18297289,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/montreal-canada-l-olympia-olympia-theatre-2026-10-23-8-pm/concert/18297289",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -276135,7 +276135,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0200654DBCE3BBD5",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-philadelphia-pennsylvania-08-14-2027/event/0200654DBCE3BBD5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/philadelphia-pennsylvania-the-met-philadelphia-2027-08-14-7-pm/concert/18702017",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-philadelphia-pennsylvania-08-14-2027/event/0200654DBCE3BBD5",
@@ -276151,11 +276151,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18702017,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/philadelphia-pennsylvania-the-met-philadelphia-2027-08-14-7-pm/concert/18702017",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -276463,7 +276463,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0700654FAB3361DC",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-chicago-illinois-08-25-2027/event/0700654FAB3361DC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/chicago-illinois-the-chicago-theatre-2027-08-25-7-pm/concert/18702029",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-chicago-illinois-08-25-2027/event/0700654FAB3361DC",
@@ -276479,11 +276479,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18702029,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/chicago-illinois-the-chicago-theatre-2027-08-25-7-pm/concert/18702029",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -276570,7 +276570,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0700654FAB3A61E0",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-chicago-illinois-08-26-2027/event/0700654FAB3A61E0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/chicago-illinois-the-chicago-theatre-2027-08-26-7-pm/concert/18702030",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-chicago-illinois-08-26-2027/event/0700654FAB3A61E0",
@@ -276586,11 +276586,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18702030,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/chicago-illinois-the-chicago-theatre-2027-08-26-7-pm/concert/18702030",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -277610,7 +277610,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3C006551FB1F28C3",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-new-york-new-york-08-18-2027/event/3C006551FB1F28C3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/new-york-new-york-radio-city-music-hall-2027-08-18-8-pm/concert/18703816",
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-new-york-radio-city-music-hall-8-18-2027/production/7729242",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-new-york-new-york-08-18-2027/event/3C006551FB1F28C3",
@@ -277626,11 +277626,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18703816,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/new-york-new-york-radio-city-music-hall-2027-08-18-8-pm/concert/18703816",
+        "verified": true,
+        "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7729242,

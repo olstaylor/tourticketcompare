@@ -2038,9 +2038,7 @@ function renderProviderCtaButton(name, href, amount, analytics = {}) {
 }
 
 // Copy for a card whose lanes were checked and none had an eligible snapshot.
-// Deliberately neutral about where to look: the buttons are ordered affiliate
-// first, so naming a subset of them would read as a recommendation rather than
-// a description of the card. No link is emitted here — the provider buttons
+// This describes missing pricing without recommending a particular seller. No link is emitted here — the provider buttons
 // above stay the card's only outbound links.
 // Display name for a country. Keep in sync with COUNTRY_ALIASES /
 // normalizeCountry in functions/_cities.js; event records keep their source
@@ -2388,18 +2386,14 @@ function renderShowCard(show, options = {}) {
   } else if (options.showEventCta) {
     const ticketmasterUrl = safeVerifiedEventUrl(show.ticketmaster_url);
     const showId = String(show.id || "").trim();
-    // Affiliate providers (SeatGeek, then Vivid Seats) render first as the
-    // primary CTA; the verified Ticketmaster link renders as a plain,
-    // unmonetized CTA last. Any provider renders standalone when the others
-    // are unavailable.
+    // Each verified provider can stand alone. Display order is primary
+    // ticketing first, followed by marketplaces alphabetically.
     const tmAvailable = Boolean(ticketmasterUrl && showId && eventLinkPublishable(show));
     const sgAvailable = Boolean(showId && seatGeekOutAvailable(show, options));
     const vsAvailable = Boolean(showId && vividSeatsOutAvailable(show, options));
     const impactMarketplaceAvailable = IMPACT_MARKETPLACE_PROVIDERS.filter((provider) => showId && impactMarketplaceOutAvailable(show, provider, options));
 
-    // One button per available provider. SeatGeek (primary affiliate) leads,
-    // then Vivid Seats, the Impact marketplace lanes, and the plain
-    // Ticketmaster verification link last. A provider with an approved, fresh
+    // One button per available provider, sorted by the buyer-facing order. A provider with an approved, fresh
     // price lane shows the listed snapshot amount on its own button (the price
     // is the CTA); the rest read "Check prices". Snapshot disclosures render
     // once beneath the buttons. Keep in sync with renderShowCardServerHtml in

@@ -45,7 +45,7 @@ assert.match(fallback, /href="\/compare-concert-ticket-prices"/);
 assert.equal(renderGuideProviderPair({ ...route, comparisonProviders: ["ticketmaster"] }, [valid], env), "");
 
 // Any two approved lanes pair, each behind the gate its own event-card button
-// uses. Affiliate lanes render first, so the paying lane is the primary button.
+// uses. Marketplace pairs use equal emphasis; their order is alphabetical.
 const affiliateEnv = { ...env, IMPACT_SEATGEEK_BASE_TRACKING_URL: "https://seatgeek.pxf.io/example" };
 const seatGeekEvent = {
   ...valid,
@@ -57,10 +57,11 @@ assert.equal(guideProviderPairEligibility([valid], affiliateEnv, ["seatgeek", "v
 assert.equal(guideProviderPairEligibility([seatGeekEvent], affiliateEnv, ["seatgeek", "stubhub"]).length, 0, "an unapproved lane never pairs");
 const affiliateRoute = { path: "/guides/vivid-seats-vs-seatgeek", comparisonProviders: ["vivid-seats", "seatgeek"] };
 const affiliateRendered = renderGuideProviderPair(affiliateRoute, [seatGeekEvent], affiliateEnv);
-assert.match(affiliateRendered, /button-primary"[^>]*provider=seatgeek[^>]*data-cta-provider="seatgeek"/);
+assert.match(affiliateRendered, /button-secondary"[^>]*provider=seatgeek[^>]*data-cta-provider="seatgeek"/);
 assert.match(affiliateRendered, /button-secondary"[^>]*provider=vivid-seats[^>]*data-cta-provider="vivid-seats"/);
 assert.match(affiliateRendered, /both SeatGeek and Vivid Seats/);
 const tmFirstRendered = renderGuideProviderPair({ path: "/guides/seatgeek-vs-ticketmaster", comparisonProviders: ["ticketmaster", "seatgeek"] }, [seatGeekEvent], affiliateEnv);
+assert.match(tmFirstRendered, /button-primary"[^>]*provider=ticketmaster/);
 assert.ok(tmFirstRendered.indexOf('data-cta-provider="ticketmaster"') < tmFirstRendered.indexOf('data-cta-provider="seatgeek"'), "the primary ticket site renders before marketplaces");
 
 // One card per artist, so a residency cannot fill the module.

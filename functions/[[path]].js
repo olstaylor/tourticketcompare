@@ -258,8 +258,7 @@ function applySecurityHeaders(headers) {
 // snapshot or an upcoming-date set filtered against Date.now(), and a stale
 // shared copy would keep showing a price or a date that the freshness gates
 // have already withdrawn. Provider-pair guides are excluded for the same
-// reason in miniature: renderGuideProviderPair stamps a per-render
-// `calculatedAt` into its visible methodology note.
+// reason in miniature: their event examples change as shows pass.
 //
 // `must-revalidate` is deliberately dropped from the cacheable variant rather
 // than carried across. It binds shared caches as well as browsers, forbidding
@@ -6691,7 +6690,7 @@ export function renderGuideProviderPair(route, events, env = {}) {
       const buttons = ordered
         .map(
           (provider, buttonIndex) =>
-            `<a class="button ${buttonIndex === 0 ? "button-primary" : "button-secondary"}" href="${escapeAttr(hrefs[buttonIndex])}" target="_blank" rel="${escapeAttr(
+            `<a class="button ${provider === "ticketmaster" ? "button-primary" : "button-secondary"}" href="${escapeAttr(hrefs[buttonIndex])}" target="_blank" rel="${escapeAttr(
               outboundCtaRel(hrefs[buttonIndex])
             )}" data-cta-provider="${escapeAttr(provider)}" data-cta-artist="${escapeAttr(artistSlug)}" data-cta-show-id="${escapeAttr(
               event.id

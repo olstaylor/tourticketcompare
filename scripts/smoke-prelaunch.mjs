@@ -1530,8 +1530,7 @@ assert(serverMorganWithSeatGeek.text.includes(RENDERED_SG_EVENT_OUT_HREF), "serv
 assert(!serverMorganWithSeatGeek.text.includes(CONTROLLED_SEATGEEK_URL), "server-rendered SeatGeek CTA must not expose the raw affiliate URL; it routes through /api/out");
 assert(serverMorganWithSeatGeek.text.includes("Some links earn TTC a commission at no extra cost to you. The primary ticket site appears first, then marketplaces in alphabetical order. Commission does not determine the order.") && !serverMorganWithSeatGeek.text.includes("never affects your price"), "server-rendered show board should include the one How-we-make-money disclosure (P4) and no unverifiable no-effect claim");
 assert(!serverMorganWithSeatGeek.text.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "server-rendered cards should not repeat provider caution copy per SeatGeek link");
-// CTA order: SeatGeek (primary affiliate) renders first, before the plain
-// (unmonetized) Ticketmaster link, inside the same provider-cta-group.
+// Primary ticketing precedes marketplaces, independent of commission.
 const controlledCardCtaGroup = serverMorganWithSeatGeek.text
   .split("<div class=\"provider-cta-group\">")
   .find((chunk) => chunk.includes(RENDERED_SG_EVENT_OUT_HREF));
@@ -3170,8 +3169,7 @@ try {
   globalThis.fetch = originalFetch;
 }
 
-// 3. Both affiliate providers configured: CTA order is SeatGeek (primary),
-//    Vivid Seats, then the plain Ticketmaster link.
+// 3. With both marketplace providers configured, Ticketmaster stays first.
 const vsAndSgEnv = withVividSeatsEventsFixture({
   ...env,
   IMPACT_SEATGEEK_BASE_TRACKING_URL: CONTROLLED_SEATGEEK_BASE_TRACKING_URL,

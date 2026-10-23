@@ -577,5 +577,31 @@ export const EVENT_INDEXING_BATCHES = Object.freeze([
       "8082ffe06346d387", // Blue October · Rialto Theatre-Tucson, Tucson · 2027-02-03
       "52ec20a2e4edc959" // Blue October · Knitting Factory - Spokane, Spokane · 2027-02-24
     ])
+  }),
+  Object.freeze({
+    id: "batch-4",
+    selectedOn: "2026-10-23",
+    keys: Object.freeze([
+      "8081d8bb10ed2a26", // Olivia Rodrigo · Kia Center, Orlando · 2026-11-16
+      "68f719a9adba0ff0", // Bruno Mars · Estadio GNP Seguros, Ciudad de México · 2026-12-11
+      "90b8a891d171fd30", // Bruno Mars · Estadio GNP Seguros, Ciudad de México · 2026-12-07
+      "3e2ce89233c088a8", // Bruno Mars · Estadio GNP Seguros, Ciudad de México · 2026-12-04
+      "90b8a591d171f817", // Bruno Mars · Estadio GNP Seguros, Ciudad de México · 2026-12-08
+      "a2441895aae238f3", // Olivia Rodrigo · Kia Center, Orlando · 2026-11-15
+      "286d066f1c1a361d", // Bruno Mars · Estadio GNP Seguros, Ciudad de México · 2026-12-03
+      "9547c773f580c122", // Olivia Rodrigo · Intuit Dome, Inglewood · 2027-01-13
+      "efaa957a9be9a36e", // Metallica · Mohegan Sun Arena, Uncasville · 2026-11-21
+      "e7b7c4c2eac7447e", // Olivia Rodrigo · Rogers Arena, Vancouver · 2026-12-01
+      "c61ee84256f71ee9", // Olivia Rodrigo · Olympiahalle, Munich · 2027-04-01
+      "c72925f34edf6d99", // Olivia Rodrigo · Rogers Arena, Vancouver · 2026-12-02
+      "81092f17ff79a299", // Metallica · Sphere, Las Vegas · 2027-02-27
+      "ee867c17acb3ae2e", // Metallica · Sphere, Las Vegas · 2027-02-06
+      "ee867017acb399ca", // Metallica · Sphere, Las Vegas · 2027-02-20
+      "6a252b4b68fc117f", // Oasis · Etihad Stadium, Manchester · 2027-06-12
+      "3df1c24702191644", // Oasis · Etihad Stadium, Manchester · 2027-06-11
+      "7b23cd8c7c851466", // Sombr · Madison Square Garden, New York · 2026-11-24
+      "3a2c9c14b56888a6", // Stella Lefty · Bowery Ballroom, New York · 2026-11-16
+      "0d40288c9b239ab9" // Harry Styles · Wembley Stadium, London · 2027-08-28
+    ])
   })
 ]);

@@ -783,8 +783,16 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   const presalePath = `/artists/${ARTIST.slug}/presale`;
   const page = await render(presalePath);
   assert(page.status === 200, "the presale page renders");
-  const section = (page.main.match(/<section class="nested-panel artist-city-price-answer"[\s\S]*?<\/section>/) || [])[0] || "";
+  const section = (page.main.match(/<section class="nested-panel artist-city-price-answer" aria-labelledby="presaleResaleTitle"[\s\S]*?<\/section>/) || [])[0] || "";
   assert(section.includes(`${ARTIST.name} resale prices for these dates`), "the presale page carries its own resale table");
+  // The next listed dates open the page, before the presale windows, so the
+  // first ticket button is not below every window.
+  const next = (page.main.match(/<section[^>]*aria-labelledby="artistNextDatesTitle"[\s\S]*?<\/section>/) || [])[0] || "";
+  assert(next && page.main.indexOf("artistNextDatesTitle") < page.main.indexOf("presaleResaleTitle"), "the presale page opens with its next dates");
+  assert(!/presale(Open|Upcoming)Title/.test(page.main.slice(0, page.main.indexOf("artistNextDatesTitle"))), "the next dates sit above the presale windows");
+  assert([...next.matchAll(/href="(\/api\/out\?[^"]+)"/g)].every((m) => m[1].includes("ctaLocation=presale_page")), "the opening table keeps the presale_page location");
+  assert(next.includes(`href="/artists/${ARTIST.slug}#`) || !next.includes("See all"), "its ticket-site links point at the artist page's cards");
+  assert(page.main.split("How this site makes money").length === 2, "one money disclosure on the presale page");
   const body = text(section);
   assert(body.includes("USD 182") && body.includes("USD 240"), "each presale date shows its own lowest listed price");
   assert(!body.includes("USD 145"), "a date the page does not list never reaches its table");
@@ -798,7 +806,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   // A date with no price points to its card on the artist page: the presale
   // page has no show cards of its own.
   const partial = await render(presalePath, { priceRows: PRICE_ROWS.filter((row) => row.event_id !== RUN_B.id) });
-  const partialSection = (partial.main.match(/<section class="nested-panel artist-city-price-answer"[\s\S]*?<\/section>/) || [])[0] || "";
+  const partialSection = (partial.main.match(/<section class="nested-panel artist-city-price-answer" aria-labelledby="presaleResaleTitle"[\s\S]*?<\/section>/) || [])[0] || "";
   const optionHrefs = [...partialSection.matchAll(/href="([^"]+)"[^>]*>See ticket options</g)].map((m) => m[1]);
   assert(optionHrefs.length === 1 && optionHrefs[0].startsWith(`/artists/${ARTIST.slug}#`), `an unpriced presale row links to the artist page card: ${optionHrefs}`);
   assert(!/href="#/.test(partialSection), "the presale table has no same-page anchor");

@@ -390,6 +390,9 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   const outHrefs = [...page.main.matchAll(/href="(\/api\/out\?[^"]+)"/g)].map((m) => m[1]);
   assert(outHrefs.length >= 2, "priced dates link out through /api/out");
   assert(outHrefs.every((href) => href.includes("ctaLocation=price_guide")), "the guide's CTAs carry the price_guide location");
+  // The next dates and their buttons open the guide, before the summary cards.
+  assert(page.main.indexOf('id="artistNextDatesTitle"') > page.main.indexOf('id="priceGuideTitle"') && page.main.indexOf('id="artistNextDatesTitle"') < page.main.indexOf('id="priceGuideGlanceTitle"'), "the guide opens with its next dates");
+  assert(!/href="#show-/.test(page.main.match(/<section[^>]*aria-labelledby="artistNextDatesTitle"[\s\S]*?<\/section>/)?.[0] || ""), "the guide's next dates link to the artist page's cards, not this page");
   assert(CTA_LOCATIONS.includes("price_guide"), "price_guide is in the allowlist, or /api/out discards it");
   assert(!/href="https:\/\/www\.(vividseats|ticketnetwork)/.test(page.main), "no raw affiliate URL on the page");
   assert(page.main.includes("How this site makes money"), "a page with ticket buttons carries the money disclosure");

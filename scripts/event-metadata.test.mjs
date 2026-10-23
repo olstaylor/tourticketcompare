@@ -28,7 +28,7 @@ const browserFunctions = ['venueDateParts', 'formatShowDate', 'showLocalTime'].m
   assert.ok(source, `browser defines ${name}`);
   return source;
 }).join('\n');
-const block = app.match(/  const organizers = Array\.isArray\(show\.organizer_names\)[\s\S]*?(?=  \/\/ Keep in sync with rescheduledHtml)/)?.[0];
+const block = app.match(/  \/\/ Organizer names stay in structured data only[\s\S]*?(?=  \/\/ Keep in sync with rescheduledHtml)/)?.[0];
 assert.ok(block, 'browser defines official metadata rendering');
 const render = new Function('show', 'body', 'text', `${browserFunctions}\n${block}`);
 const savedTimezone = process.env.TZ;
@@ -36,7 +36,8 @@ try {
   process.env.TZ = 'America/Los_Angeles';
   for (const [end, clock] of [['2026-10-21T02:00:00Z', '10:00 PM'], ['2026-10-21T04:00:00Z', '12:00 AM']]) {
     const lines = [];
-    render({ dateTimeISO: '2026-10-20T19:00:00', timezone: 'America/New_York', end_datetime_iso: end }, {}, (_body, _tag, line) => lines.push(line));
+    render({ dateTimeISO: '2026-10-20T19:00:00', timezone: 'America/New_York', end_datetime_iso: end, organizer_names: ['LIVE NATION MUSIC'] }, {}, (_body, _tag, line) => lines.push(line));
+    assert.ok(!lines.some((line) => line.startsWith('Organizer:')), 'browser card shows no promoter account label');
     assert.ok(lines.some((line) => line.startsWith('Ends:') && line.includes(clock)), `browser retains venue-aware ${clock} ending`);
   }
 } finally {

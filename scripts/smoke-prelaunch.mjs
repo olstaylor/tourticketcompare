@@ -67,7 +67,7 @@ const expectedTitle = new Map([
   ["/terms", "Terms of Use | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total.";
-const APP_ASSET_VERSION = "20261018a";
+const APP_ASSET_VERSION = "20261023a";
 const TTC_HOME_ASSET_VERSION = "20261010a";
 const TTC_HOME_JS_ASSET_VERSION = "20261010a";
 const TTC_SHELL_ASSET_VERSION = "20261010a";
@@ -1954,7 +1954,7 @@ const lightweightGuide = await routeResponse("/guides/seatgeek-vs-ticketmaster")
 assert(lightweightGuide.text.includes(`/shell.js?v=${SHELL_SCRIPT_ASSET_VERSION}`), "guide routes must load the shared shell");
 assert(!lightweightGuide.text.includes("/app.js?v="), "guide routes must not load the universal app bundle");
 assert(!lightweightGuide.text.includes("/ttc-home.css?v="), "guide routes must not download homepage presentation CSS");
-assert(serverMorganWithSeatGeek.text.includes("/artist-board.js?v=20261002m"), "artist routes must load only the artist-board route module");
+assert(serverMorganWithSeatGeek.text.includes("/artist-board.js?v=20261023a"), "artist routes must load only the artist-board route module");
 assert(!serverMorganWithSeatGeek.text.includes("/app.js?v="), "artist routes must not load the universal app bundle");
 const converterAssets = await routeResponse("/currency-converter");
 assert(converterAssets.text.includes("/currency-converter.js?v=20260821a"), "currency converter must load its route module");

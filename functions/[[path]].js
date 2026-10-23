@@ -8122,7 +8122,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   );
   next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
   next = next.replace(
-    '<script src="/app.js?v=20261018a" defer></script>',
+    '<script src="/app.js?v=20261023a" defer></script>',
     '<script src="/shell.js?v=20261016a" defer></script>'
   );
   // Feed autodiscovery, so a reader pointed at any blog page finds the feed
@@ -8145,7 +8145,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     route.type === "tours-hub" ||
     route.path === "/artists"
   ) {
-    next = next.replace("</body>", '<script src="/artist-board.js?v=20261002m" defer></script></body>');
+    next = next.replace("</body>", '<script src="/artist-board.js?v=20261023a" defer></script></body>');
   }
   // Any page with a price-history panel (artist, artist-city, city, venue,
   // comparison hub) gets the form template and the module that opens panels.
@@ -8163,8 +8163,8 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // stylesheet still stays render-blocking and in its original cascade order;
     // the preload only moves discovery earlier for the homepage's critical CSS.
     next = next.replace(
-      '<link rel="stylesheet" href="/styles.css?v=20261010a" />',
-      '<link rel="preload" as="style" href="/ttc-home.css?v=20261010a" />\n    <link rel="stylesheet" href="/styles.css?v=20261010a" />'
+      '<link rel="stylesheet" href="/styles.css?v=20261023a" />',
+      '<link rel="preload" as="style" href="/ttc-home.css?v=20261010a" />\n    <link rel="stylesheet" href="/styles.css?v=20261023a" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20261010a" /></head>');
     next = next.replace("</body>", '<script src="/ttc-home.js?v=20261010a" defer></script></body>');

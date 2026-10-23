@@ -281,11 +281,11 @@ Supply the actual intended snapshot instant; it must not precede the input
 commit. The command reads committed inputs with `git show`, ignoring dirty
 working-tree data, and records the full revision and SHA-256 input hashes.
 Missing local commits fail without fetching or querying a provider. The pilot's
-exact reproduction command is in
-[the generated report](../reports/research/uk-concert-activity-2027/report.md).
+exact reproduction command is above.
 Optional `--output /tmp/ttc-uk-review` writes a separate local review copy.
 Output inside the repository is restricted to `reports/`; symlinks into site
-content are refused. `report.md` is readable locally, and `report.json` contains
+content are refused. The readable `report.md` is internal working copy and is not
+committed: a run writes it beside `report.json`, which contains
 all counted events, source evidence, rankings and excluded-record decisions.
 `replay-inputs.json.gz` contains the exact already-committed input bytes, revision
 and snapshot instant. Each decompressed input must match its recorded SHA-256.

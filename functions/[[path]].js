@@ -3632,7 +3632,10 @@ function derivePriceGuideView(route, events, env) {
       : "Prices couldn't be loaded just now. Each date's ticket links still open the ticket sites.";
 
   const nextOnsale = guide.nextOnsaleAt ? formatServerSnapshotTime(guide.nextOnsaleAt) : "";
-  return { priceAnswer, rowById, lowByShowId, moves, linkCounts, range, artistHref, checkedCount, currentAnswer, guideShowsById, nextOnsale };
+  return {
+    priceAnswer, rowById, lowByShowId, moves, linkCounts, range, artistHref, checkedCount, currentAnswer, guideShowsById, nextOnsale,
+    shows, availability: { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability }
+  };
 }
 
 // The price guide's FAQ: visible on the page and mirrored as FAQPage JSON-LD.
@@ -3712,12 +3715,20 @@ function renderPriceGuideBody(route, events, env) {
   const guide = route.guide;
   const view = derivePriceGuideView(route, events, env);
   const { priceAnswer, rowById, lowByShowId, moves, linkCounts, range, artistHref, checkedCount, currentAnswer, guideShowsById, nextOnsale } = view;
+  // The next few dates with their ticket buttons, straight after the answer.
+  // Search visitors landed here and clicked through far less often than on
+  // artist pages (D1, 9-22 Oct 2026, organic landings: 15% vs 29%), with the
+  // first button about two and a half phone screens down.
+  const nextDatesHtml = renderArtistNextDatesPriceAnswer(artist, view.shows, view.availability, {
+    cardHrefFor: (cardAnchor) => `${artistHref}#${cardAnchor}`,
+    ctaLocation: "price_guide"
+  });
 
   const leadHtml = `<h1 id="priceGuideTitle">${escapeHtml(artist.name)} ticket prices${
     route.yearLabel ? ` for ${escapeHtml(route.yearLabel)}` : ""
   }</h1><p class="lead">${escapeHtml(
     currentAnswer
-  )}</p><p>${escapeHtml(
+  )}</p>${nextDatesHtml}<p>${escapeHtml(
     `${guide.showCount} upcoming ${guide.showCount === 1 ? "date" : "dates"} in ${guide.cityCount} ${guide.cityCount === 1 ? "city" : "cities"}${
       range ? ` (${range})` : ""
     }. These are resale listings, not face value.`
@@ -5496,7 +5507,9 @@ function renderPresaleResaleTable(route, events, env) {
 // the two surfaces apart.
 export const ARTIST_NEXT_DATES_LIMIT = 3;
 
-export function renderArtistNextDatesPriceAnswer(artist, shows, availability) {
+// On another page, `surface.cardHrefFor` points "See all ticket sites" at the
+// artist page's cards and `surface.ctaLocation` keeps that page's location.
+export function renderArtistNextDatesPriceAnswer(artist, shows, availability, surface = {}) {
   const nextShows = (Array.isArray(shows) ? shows : []).slice(0, ARTIST_NEXT_DATES_LIMIT);
   if (!nextShows.length) return "";
   const specsByShowId = new Map(nextShows.map((show) => [String(show.id || ""), serverShowCtaSpecs(show, availability)]));
@@ -5513,8 +5526,32 @@ export function renderArtistNextDatesPriceAnswer(artist, shows, availability) {
       count: specsByShowId.get(String(show.id || "")).length,
       status: publicOnsalePending(show) ? publicOnsaleLabel(show) : ""
     }])),
-    placeFor: (row) => placeById.get(row.showId) || row.venue
+    placeFor: (row) => placeById.get(row.showId) || row.venue,
+    cardHrefFor: surface.cardHrefFor,
+    ctaLocation: surface.ctaLocation
   });
+}
+
+// The presale page's opening ticket table: the next few dates it lists, as the
+// artist page opens with. Presale searchers arrive in bursts around a sale
+// (Nickelback, 13-14 Oct 2026: 51 search landings) and the first ticket button
+// sat below the full list of presale windows.
+function renderPresaleNextDates(route, events, env) {
+  const artist = route.artist;
+  if (artist.indexing_status !== "indexable_with_substantial_content") return "";
+  const listedIds = presaleListedShowIds(route.presales);
+  if (!listedIds.size || !Array.isArray(events) || !events.length) return "";
+  const shows = futureShowsForArtist(events, artist.slug).filter((show) => listedIds.has(String(show.id || "")));
+  return renderArtistNextDatesPriceAnswer(
+    artist,
+    shows,
+    {
+      seatGeekAvailable: isSeatGeekConfigured(env),
+      vividSeatsAvailable: isVividSeatsConfigured(env),
+      marketplaceAvailability: Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)]))
+    },
+    { cardHrefFor: (cardAnchor) => `/artists/${artist.slug}#${cardAnchor}`, ctaLocation: "presale_page" }
+  );
 }
 
 export function renderPresalePageBody(route, events = [], env = {}) {
@@ -5578,8 +5615,11 @@ export function renderPresalePageBody(route, events = [], env = {}) {
           ? `${escapeHtml(artist.name)} has ${escapeHtml(presalePlural(presales.showCount, "tracked upcoming date", "tracked upcoming dates"))}, and none carries an open or upcoming presale on Ticketmaster's listing.`
           : `No upcoming ${escapeHtml(artist.name)} date is tracked right now.`
       } ${anchor(`See ${artist.name} tickets and dates`, artistHref, "text-link")} or ${anchor("the on-sale calendar", ONSALE_CALENDAR_PATH, "text-link")}.</p></section>`;
+  const nextDatesTable = renderPresaleNextDates(route, events, env);
+  const nextDatesHtml = nextDatesTable ? `${nextDatesTable}${renderMoneyDisclosureHtml()}` : "";
   const resaleTable = renderPresaleResaleTable(route, events, env);
-  const resaleHtml = resaleTable ? `${resaleTable}${renderMoneyDisclosureHtml()}` : "";
+  // One money disclosure, beside the first ticket buttons on the page.
+  const resaleHtml = resaleTable ? `${resaleTable}${nextDatesHtml ? "" : renderMoneyDisclosureHtml()}` : "";
   const howHtml = `<section class="nested-panel" aria-labelledby="presaleHowTitle"><h2 id="presaleHowTitle">How presales work</h2><div class="card-grid"><article class="info-card"><h3>Who gets in</h3><p>Each presale is for a group named in its title, such as an artist fan club, a card issuer or a venue list. The group running it sends any code or sign-up link. This site never shows codes.</p></article><article class="info-card"><h3>Times can move</h3><p>These times are Ticketmaster's listing for each date when it was last checked, once a day. Promoters do move them, so confirm on Ticketmaster and be signed in a few minutes early.</p></article><article class="info-card"><h3>Resale before the sale</h3><p>Resale sites can list tickets before a presale or public on-sale opens. Those listings can sit well above face value.</p></article></div><div class="mini-link-grid">${anchor(
     "How to prepare for a ticket on-sale",
     "/guides/how-to-prepare-for-a-ticket-onsale",
@@ -5589,7 +5629,7 @@ export function renderPresalePageBody(route, events = [], env = {}) {
     route
   )}<h1 id="presaleTitle">${escapeHtml(`${artist.name} presale times and ticket on-sale dates`)}</h1><p class="lead">${escapeHtml(
     lead
-  )}</p><p class="disclosure-note">Presale names and times are Ticketmaster's, for each exact date. Nothing is estimated, and no presale code is shown.</p>${openHtml}${upcomingHtml}${onsaleHtml}${resaleHtml}${emptyHtml}${howHtml}<div class="action-row">${anchor(
+  )}</p><p class="disclosure-note">Presale names and times are Ticketmaster's, for each exact date. Nothing is estimated, and no presale code is shown.</p>${nextDatesHtml}${openHtml}${upcomingHtml}${onsaleHtml}${resaleHtml}${emptyHtml}${howHtml}<div class="action-row">${anchor(
     `${artist.name} tickets and dates`,
     artistHref,
     "button button-primary"

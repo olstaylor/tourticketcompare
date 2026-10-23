@@ -1,0 +1,692 @@
+[
+  {
+    "id": "tm-cece-winans-2026-duluth-vvg1zz_a3epgc8",
+    "artist_slug": "cece-winans",
+    "artist_name": "CeCe Winans",
+    "event_name": "CeCe Winans - COME WORSHIP! Tour",
+    "city": "Duluth",
+    "country": "United States Of America",
+    "venue": "Gas South Arena",
+    "datetime_iso": "2026-10-23T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006454A758C390",
+    "ticketmaster_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-duluth-georgia-10-23-2026/event/0E006454A758C390",
+    "seatgeek_url": "https://seatgeek.com/cece-winans-tickets/duluth-georgia-gas-south-arena-2026-10-23-7-pm/concert/18089916",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-duluth-georgia-10-23-2026/event/0E006454A758C390",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006454A758C390",
+        "discovery_event_id": "vvG1zZ_A3EpGC8",
+        "url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-duluth-georgia-10-23-2026/event/0E006454A758C390",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_A3EpGC8",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cece-winans-2026-new-orleans-g5viz_a29lq83",
+    "artist_slug": "cece-winans",
+    "artist_name": "CeCe Winans",
+    "event_name": "CeCe Winans - COME WORSHIP! Tour",
+    "city": "New Orleans",
+    "country": "United States Of America",
+    "venue": "Smoothie King Center",
+    "datetime_iso": "2026-10-25T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006453D77DA412",
+    "ticketmaster_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-new-orleans-louisiana-10-24-2026/event/1B006453D77DA412",
+    "seatgeek_url": "https://seatgeek.com/cece-winans-tickets/new-orleans-louisiana-smoothie-king-center-2026-10-24-7-pm/concert/18089898",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-new-orleans-louisiana-10-24-2026/event/1B006453D77DA412",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006453D77DA412",
+        "discovery_event_id": "G5viZ_A29LQ83",
+        "url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-new-orleans-louisiana-10-24-2026/event/1B006453D77DA412",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_A29LQ83",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cece-winans-2026-orlando-16xzkokj9za57fca",
+    "artist_slug": "cece-winans",
+    "artist_name": "CeCe Winans",
+    "event_name": "CeCe Winans - COME WORSHIP! Tour",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Addition Financial Arena",
+    "datetime_iso": "2026-10-27T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "22006453997A37D4",
+    "ticketmaster_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-orlando-florida-10-27-2026/event/22006453997A37D4",
+    "seatgeek_url": "https://seatgeek.com/cece-winans-tickets/orlando-florida-addition-financial-arena-2026-10-27-7-pm/concert/18090034",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-orlando-florida-10-27-2026/event/22006453997A37D4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "22006453997A37D4",
+        "discovery_event_id": "16xZkoKJ9ZA57FCA",
+        "url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-orlando-florida-10-27-2026/event/22006453997A37D4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16xZkoKJ9ZA57FCA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cece-winans-2026-north-charleston-g5evz_a3s0b-f",
+    "artist_slug": "cece-winans",
+    "artist_name": "CeCe Winans",
+    "event_name": "CeCe Winans - COME WORSHIP! Tour",
+    "city": "North Charleston",
+    "country": "United States Of America",
+    "venue": "North Charleston Coliseum",
+    "datetime_iso": "2026-10-28T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006454B193A854",
+    "ticketmaster_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-north-charleston-south-carolina-10-28-2026/event/2D006454B193A854",
+    "seatgeek_url": "https://seatgeek.com/cece-winans-tickets/north-charleston-south-carolina-north-charleston-coliseum-2026-10-28-7-pm/concert/18089897",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-north-charleston-south-carolina-10-28-2026/event/2D006454B193A854",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006454B193A854",
+        "discovery_event_id": "G5eVZ_A3s0B-f",
+        "url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-north-charleston-south-carolina-10-28-2026/event/2D006454B193A854",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_A3s0B-f",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cece-winans-2026-tampa-vvg1vz_a3ceusx",
+    "artist_slug": "cece-winans",
+    "artist_name": "CeCe Winans",
+    "event_name": "CeCe Winans - COME WORSHIP! Tour",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Yuengling Center",
+    "datetime_iso": "2026-10-29T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D0064548E9F6C62",
+    "ticketmaster_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-tampa-florida-10-29-2026/event/0D0064548E9F6C62",
+    "seatgeek_url": "https://seatgeek.com/cece-winans-tickets/tampa-florida-yuengling-center-2026-10-29-7-pm/concert/18090040",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-tampa-florida-10-29-2026/event/0D0064548E9F6C62",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D0064548E9F6C62",
+        "discovery_event_id": "vvG1VZ_A3CEUsx",
+        "url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-tampa-florida-10-29-2026/event/0D0064548E9F6C62",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_A3CEUsx",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cece-winans-2026-jacksonville-1kfov047gag6hdu",
+    "artist_slug": "cece-winans",
+    "artist_name": "CeCe Winans",
+    "event_name": "CeCe Winans - COME WORSHIP! Tour",
+    "city": "Jacksonville",
+    "country": "United States Of America",
+    "venue": "VyStar Veterans Memorial Arena",
+    "datetime_iso": "2026-10-30T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "220064544C1FC0CD",
+    "ticketmaster_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-jacksonville-florida-10-30-2026/event/220064544C1FC0CD",
+    "seatgeek_url": "https://seatgeek.com/cece-winans-tickets/jacksonville-florida-vystar-veterans-memorial-arena-2026-10-30-7-pm/concert/18089908",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-jacksonville-florida-10-30-2026/event/220064544C1FC0CD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "220064544C1FC0CD",
+        "discovery_event_id": "1kFOv047GAG6Hdu",
+        "url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-jacksonville-florida-10-30-2026/event/220064544C1FC0CD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kFOv047GAG6Hdu",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cece-winans-2026-seattle-vvg1hz_c5fehuk",
+    "artist_slug": "cece-winans",
+    "artist_name": "CeCe Winans",
+    "event_name": "Christmas with CeCe Winans featuring Angie Winans & Debbie Winans",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "WAMU Theater",
+    "datetime_iso": "2026-12-11T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064E2D49DBD86",
+    "ticketmaster_url": "https://www.ticketmaster.com/christmas-with-cece-winans-featuring-angie-seattle-washington-12-10-2026/event/0F0064E2D49DBD86",
+    "seatgeek_url": "https://seatgeek.com/cece-winans-tickets/seattle-washington-wamu-theater-2026-12-10-7-pm/concert/18361599",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/christmas-with-cece-winans-featuring-angie-seattle-washington-12-10-2026/event/0F0064E2D49DBD86",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064E2D49DBD86",
+        "discovery_event_id": "vvG1HZ_C5fEhUk",
+        "url": "https://www.ticketmaster.com/christmas-with-cece-winans-featuring-angie-seattle-washington-12-10-2026/event/0F0064E2D49DBD86",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_C5fEhUk",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cece-winans-2026-portland-z7r9jz1a7j6jj",
+    "artist_slug": "cece-winans",
+    "artist_name": "CeCe Winans",
+    "event_name": "Christmas with CeCe Winans featuring Angie Winans & Debbie Winans",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Arlene Schnitzer Concert Hall",
+    "datetime_iso": "2026-12-12T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7J6jJ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J6jJ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J6jJ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7J6jJ",
+        "discovery_event_id": "Z7r9jZ1A7J6jJ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J6jJ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7J6jJ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cece-winans-2026-phoenix-17k8v0g6ch4_jyt",
+    "artist_slug": "cece-winans",
+    "artist_name": "CeCe Winans",
+    "event_name": "Christmas with CeCe Winans featuring Angie Winans & Debbie Winans",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Arizona Financial Theatre",
+    "datetime_iso": "2026-12-16T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190064E6D5666C29",
+    "ticketmaster_url": "https://www.ticketmaster.com/christmas-with-cece-winans-featuring-angie-phoenix-arizona-12-15-2026/event/190064E6D5666C29",
+    "seatgeek_url": "https://seatgeek.com/cece-winans-tickets/phoenix-arizona-arizona-financial-theatre-2026-12-15-7-pm/concert/18361639",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/christmas-with-cece-winans-featuring-angie-phoenix-arizona-12-15-2026/event/190064E6D5666C29",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064E6D5666C29",
+        "discovery_event_id": "17k8v0G6Ch4_JYt",
+        "url": "https://www.ticketmaster.com/christmas-with-cece-winans-featuring-angie-phoenix-arizona-12-15-2026/event/190064E6D5666C29",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17k8v0G6Ch4_JYt",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cece-winans-2026-bakersfield-z7r9jz1a7jfpa",
+    "artist_slug": "cece-winans",
+    "artist_name": "CeCe Winans",
+    "event_name": "Cece Winans",
+    "city": "Bakersfield",
+    "country": "United States Of America",
+    "venue": "Dignity Health Theater",
+    "datetime_iso": "2026-12-17T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7JFpA",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JFpA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JFpA",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7JFpA",
+        "discovery_event_id": "Z7r9jZ1A7JFpA",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JFpA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7JFpA",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cece-winans-2026-los-angeles-z7r9jz1a7jfjs",
+    "artist_slug": "cece-winans",
+    "artist_name": "CeCe Winans",
+    "event_name": "Cece Winans",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Peacock Theater - LA",
+    "datetime_iso": "2026-12-18T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7JFjS",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JFjS",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JFjS",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7JFjS",
+        "discovery_event_id": "Z7r9jZ1A7JFjS",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JFjS",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7JFjS",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cece-winans-2026-sacramento-g5vyz_cr1cmnb",
+    "artist_slug": "cece-winans",
+    "artist_name": "CeCe Winans",
+    "event_name": "Christmas with CeCe Winans featuring Angie Winans & Debbie Winans",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "SACRAMENTO MEMORIAL AUDITORIUM",
+    "datetime_iso": "2026-12-19T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064E78AB778D8",
+    "ticketmaster_url": "https://www.ticketmaster.com/christmas-with-cece-winans-featuring-angie-sacramento-california-12-18-2026/event/1C0064E78AB778D8",
+    "seatgeek_url": "https://seatgeek.com/cece-winans-tickets/sacramento-california-sacramento-memorial-auditorium-2026-12-18-7-pm/concert/18361612",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/christmas-with-cece-winans-featuring-angie-sacramento-california-12-18-2026/event/1C0064E78AB778D8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064E78AB778D8",
+        "discovery_event_id": "G5vYZ_Cr1cMNb",
+        "url": "https://www.ticketmaster.com/christmas-with-cece-winans-featuring-angie-sacramento-california-12-18-2026/event/1C0064E78AB778D8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_Cr1cMNb",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cece-winans-2027-nashville-z7r9jz1aaebzs",
+    "artist_slug": "cece-winans",
+    "artist_name": "CeCe Winans",
+    "event_name": "Cece Winans",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Grand Ole Opry House",
+    "datetime_iso": "2027-03-22T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAebZS",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebZS",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebZS",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAebZS",
+        "discovery_event_id": "Z7r9jZ1AAebZS",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebZS",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAebZS",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "9999-12-31T06:00:00Z"
+  }
+]

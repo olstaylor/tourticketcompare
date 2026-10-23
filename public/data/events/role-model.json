@@ -1,0 +1,267 @@
+[
+  {
+    "id": "tm-role-model-2027-berlin-z698xzc2z16vjt07ba",
+    "artist_slug": "role-model",
+    "artist_name": "Role Model",
+    "event_name": "Role Model Presents: Chuck On Tour",
+    "city": "Berlin",
+    "country": "Germany",
+    "venue": "Tempodrom",
+    "datetime_iso": "2027-02-11T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1729904609",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/role-model-presents-chuck-on-tour-tickets/1729904609?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/role-model-presents-chuck-on-tour-tickets/1729904609?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1729904609",
+        "discovery_event_id": "Z698xZC2Z16vjt07ba",
+        "url": "https://www.ticketmaster.de/event/role-model-presents-chuck-on-tour-tickets/1729904609?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vjt07ba",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-role-model-2027-forest-brussels-z698xzg2z1k8kjzbp",
+    "artist_slug": "role-model",
+    "artist_name": "Role Model",
+    "event_name": "Role Model Presents: Chuck On Tour",
+    "city": "Forest (Brussels)",
+    "country": "Belgium",
+    "venue": "Vorst Nationaal/Forest National",
+    "datetime_iso": "2027-02-15T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "413738616",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/role-model-presents-chuck-on-tour-tickets/413738616",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/role-model-presents-chuck-on-tour-tickets/413738616",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "413738616",
+        "discovery_event_id": "Z698xZG2Z1k8Kjzbp",
+        "url": "https://www.ticketmaster.be/event/role-model-presents-chuck-on-tour-tickets/413738616",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1k8Kjzbp",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-role-model-2027-dusseldorf-z698xzc2z1ka6aaoi",
+    "artist_slug": "role-model",
+    "artist_name": "Role Model",
+    "event_name": "Role Model Presents: Chuck On Tour",
+    "city": "Düsseldorf",
+    "country": "Germany",
+    "venue": "Mitsubishi Electric HALLE",
+    "datetime_iso": "2027-02-17T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "147249828",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/role-model-presents-chuck-on-tour-tickets/147249828?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/role-model-presents-chuck-on-tour-tickets/147249828?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "147249828",
+        "discovery_event_id": "Z698xZC2Z1kA6aaOI",
+        "url": "https://www.ticketmaster.de/event/role-model-presents-chuck-on-tour-tickets/147249828?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1kA6aaOI",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-role-model-2027-dublin-17kzv0g6uvbpba3",
+    "artist_slug": "role-model",
+    "artist_name": "Role Model",
+    "event_name": "Role Model Presents: Chuck On Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-02-22T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064D07A5BA252",
+    "ticketmaster_url": "https://www.ticketmaster.ie/role-model-presents-chuck-on-tour-dublin-22-02-2027/event/180064D07A5BA252",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/role-model-presents-chuck-on-tour-dublin-22-02-2027/event/180064D07A5BA252",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064D07A5BA252",
+        "discovery_event_id": "17kZv0G6uvBpBa3",
+        "url": "https://www.ticketmaster.ie/role-model-presents-chuck-on-tour-dublin-22-02-2027/event/180064D07A5BA252",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17kZv0G6uvBpBa3",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-role-model-2027-london-17uyv0g6ueic0m_",
+    "artist_slug": "role-model",
+    "artist_name": "Role Model",
+    "event_name": "Role Model Presents: Chuck On Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "OVO Arena Wembley",
+    "datetime_iso": "2027-02-24T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "370064D0AC3A4B99",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/role-model-presents-chuck-on-tour-london-24-02-2027/event/370064D0AC3A4B99",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/role-model-presents-chuck-on-tour-london-24-02-2027/event/370064D0AC3A4B99",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "370064D0AC3A4B99",
+        "discovery_event_id": "17uYv0G6ueiC0m_",
+        "url": "https://www.ticketmaster.co.uk/role-model-presents-chuck-on-tour-london-24-02-2027/event/370064D0AC3A4B99",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uYv0G6ueiC0m_",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

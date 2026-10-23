@@ -33,6 +33,41 @@ Only plain `ticketmaster.com` (and allowlisted country-TLD) URLs pass `validateC
 
 ---
 
+## Research source assessment
+
+The internal [UK concert activity prototype](ARCHITECTURE.md#internal-uk-concert-activity-research)
+uses only existing reviewed TTC event facts. The selected-artist catalogue
+cannot establish national market coverage. Its public research, redistribution
+and archival rights have not been established; production event-link permissions
+do not establish those rights.
+
+Feasibility reviewed **2026-10-23** against Ticketmaster's official
+[Discovery Feed 2.0 documentation](https://developer.ticketmaster.com/products-and-docs/apis/discovery-feed/):
+country files include GB in JSON/CSV, accessed with a developer API key. Metadata
+includes update time, event count and checksum. Event IDs, location, dates,
+status and classifications could support a source-scoped extract without TTC's
+artist-roster selection. This remains Ticketmaster ecosystem coverage, not all
+UK concerts. A future adapter must filter music/concerts, reject ancillary and
+multi-day products, resolve duplicate listings and validate geography.
+
+The [General Terms of Use](https://developer.ticketmaster.com/support/terms-of-use/)
+(page dated 2023-06-27, reviewed 2026-10-23) constrain commercial use and caching
+to reasonable service periods, and require requested content removal within
+24 hours. They do not establish TTC's specific research/press redistribution or
+durable snapshot retention rights. Do not infer a fixed 24-hour retention limit
+from the removal deadline. Obtain applicable confirmation before collecting a
+research archive or releasing a report, including attribution and removal terms.
+
+No feed request, download or entitlement test was made for this milestone.
+Runtime key presence does not prove feed entitlement. The documented host is
+`app.ticketmaster.com`, while this task's runtime allows `api.ticketmaster.com`;
+feed metadata may also direct downloads to storage hosts. A permitted collector
+would need the documented host and actual returned download hosts approved in
+the environment configuration, with checksums and complete-extract validation.
+It must stay separate from artist ingestion and must not change affiliate links.
+The MVP therefore ships the internal prototype; source collection and publication
+remain blocked, with no fresh feed data retained.
+
 ## SeatGeek
 
 **Role:** Primary affiliate provider (Impact network). Artist-level and event-level.

@@ -2230,5 +2230,58 @@
         "end": "2027-05-27T02:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-loveland-z7r9jz1aa791k",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP - Living In the Light Tour",
+    "city": "Loveland",
+    "country": "United States Of America",
+    "venue": "Rialto Theater - Loveland",
+    "datetime_iso": "2027-02-26T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA791k",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA791k",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA791k",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA791k",
+        "discovery_event_id": "Z7r9jZ1AA791k",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA791k",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA791k",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

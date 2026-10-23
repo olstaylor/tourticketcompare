@@ -319,7 +319,7 @@ site, across cities, in a data story").
 research type of the Data & Insights engine. It takes one artist's tour and
 sets its cities side by side on one site, from the same gated figures as
 city-prices (`gatherPriceLanes` and `chooseTourMarket` in
-`scripts/lib/data-stories.mjs`), and writes four things under a stable slug,
+`scripts/lib/data-stories.mjs`), and writes these under a stable slug,
 `/blog/<artist>-tour-ticket-prices-by-city`:
 
 - `content/blog/<slug>.md`: a draft post with the city table (every city up to
@@ -327,10 +327,11 @@ city-prices (`gatherPriceLanes` and `chooseTourMarket` in
   price disclosure. Each city links to its artist-city page, and the post links
   the artist's price guide.
 - `reports/data-stories/<slug>/figures.json`: every number.
-- `reports/data-stories/<slug>/pr-package.md`: headline, key finding, quotable
-  facts, city story angles that each cite their row, method and limits, media
-  categories (never names or contacts) and an unticked owner approval list.
-  Nothing sends it.
+- A PR package, written only with `--pr-package-dir <dir>` and never into the
+  repository: headline, key finding, quotable facts, city story angles that
+  each cite their row, method and limits, media categories (never names or
+  contacts) and an unticked owner approval list. It is internal working copy,
+  and nothing sends it.
 - `reports/data-stories/<slug>/chart.svg`: a shareable bar chart that carries
   the site, capture dates and caveat.
 
@@ -344,12 +345,13 @@ countries' dates are listed in the post, not hidden. To add another artist run
 the command with its slug; a new research type reuses the same gated inputs and
 adds its own builder, gate and renderers. Tests: `npm run test:artist-city-research`.
 
-A post stays `status: draft` until the owner records approval. The policy's
-cross-city grant names the same-tour story, so publishing a single artist's
-report, or ranking dates inside a city, is a further use that needs a recorded
-owner decision first ([PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md)).
+The owner approved publishing single-artist reports on 2026-10-23, under the
+same conditions as city-prices and the coverage gate above
+([PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md), "Single-artist city
+report"). A new post is still `status: draft` until a person publishes it.
+Ranking dates inside one city is not covered and needs its own decision.
 
-Out of scope by policy: prices outside the city-prices story, cross-site comparisons
+Out of scope by policy: prices outside the city-prices and artist-cities stories, cross-site comparisons
 ([PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md)), price-timing claims until
 the evidence thresholds are met, presale window counts (Ticketmaster's lists mix
 VIP packages and card offers), and any claim about the whole concert market.

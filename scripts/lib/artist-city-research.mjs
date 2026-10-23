@@ -375,7 +375,7 @@ Shareable chart: \`chart.svg\` in this folder (carries the site, capture dates a
 ## Rights check before any release
 
 - Off-site use of site prices, named with site and capture time: recorded in docs/PROVIDER_DATA_POLICY.md ("Off-site use").
-- Setting one site's cities side by side for a single artist: the policy's cross-city grant names the same-tour story; this report is a further use that needs the owner's recorded approval.
+- Setting one site's cities side by side for a single artist: approved by the owner on 2026-10-23, recorded in docs/PROVIDER_DATA_POLICY.md ("Single-artist city report"), with the same conditions as the same-tour story.
 - Nothing is quoted from, or attributed to, a person or outlet.
 
 ## Approval checklist (owner)

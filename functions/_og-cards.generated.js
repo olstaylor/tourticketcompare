@@ -587,6 +587,7 @@ export const OG_CARDS = {
   "/blog/buying-tickets-for-a-concert-in-another-country": {"url":"/og/blog-buying-tickets-for-a-concert-in-another-country.png","alt":"Blog: Buying tickets for a concert in another country"},
   "/blog/choosing-a-harry-styles-madison-square-garden-night": {"url":"/og/blog-choosing-a-harry-styles-madison-square-garden-night.png","alt":"Blog: Choosing a Harry Styles night at Madison Square Garden"},
   "/blog/floor-or-seats-at-a-stadium-concert": {"url":"/og/blog-floor-or-seats-at-a-stadium-concert.png","alt":"Blog: Floor or seats at a stadium concert: how to choose"},
+  "/blog/gracie-abrams-tour-ticket-prices-by-city": {"url":"/og/blog-gracie-abrams-tour-ticket-prices-by-city.png","alt":"Blog: Gracie Abrams tour tickets: listed prices city by city"},
   "/blog/hilary-duff-lucky-me-tour-2027-on-sale": {"url":"/og/blog-hilary-duff-lucky-me-tour-2027-on-sale.png","alt":"Blog: Hilary Duff's lucky me tour: how the 2027 dates went on sale"},
   "/blog/how-a-ticket-link-gets-published": {"url":"/og/blog-how-a-ticket-link-gets-published.png","alt":"Blog: How a ticket link gets published on TourTicketCompare"},
   "/blog/how-resale-ticket-prices-moved-this-month": {"url":"/og/blog-how-resale-ticket-prices-moved-this-month.png","alt":"Blog: How resale ticket prices moved in the last 30 days"},

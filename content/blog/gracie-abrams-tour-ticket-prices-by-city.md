@@ -4,7 +4,7 @@ seo_title: "Gracie Abrams tour ticket prices by city"
 description: "Gracie Abrams tour: the next date in 14 cities, $34 in Inglewood at the low end, $158 in Boston at the high end."
 summary: "Vivid Seats' lowest listed price for the next Gracie Abrams date in each of 14 cities, each figure with the time it was captured. Snapshots 23 October 2026."
 date: 2026-10-23
-status: draft
+status: published
 tags:
   - tour-data
 related_guides:

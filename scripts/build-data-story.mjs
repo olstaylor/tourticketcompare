@@ -28,13 +28,13 @@
 //
 // `--story artist-cities --artist <slug>` writes one artist's tour, city by
 // city: the same gated figures and one-site rules, a coverage gate that
-// suppresses a thin result, a draft post, a draft PR package (never sent) and
-// a shareable chart. Needs the same price rows and availability as city-prices.
+// suppresses a thin result, a draft post and a shareable chart, plus a draft PR
+// package (never sent) written outside the repository with --pr-package-dir. Needs the same price rows and availability as city-prices.
 //
 //   node scripts/build-data-story.mjs [--year 2027] [--now 2026-10-16T12:00:00Z] [--check]
 //   node scripts/build-data-story.mjs --story price-moves [--rows rows.json] [--check]
 //   node scripts/build-data-story.mjs --story city-prices [--rows cache-rows.json] [--availability avail.json] [--check]
-//   node scripts/build-data-story.mjs --story artist-cities --artist gracie-abrams [--rows cache-rows.json] [--availability avail.json] [--check]
+//   node scripts/build-data-story.mjs --story artist-cities --artist gracie-abrams [--pr-package-dir dir] [--rows cache-rows.json] [--availability avail.json] [--check]
 
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -225,10 +225,14 @@ if (story === "tour-map") {
   await writeStory(
     slug,
     { text: renderArtistCityPost(figures, existing), status: existing?.status === "published" ? "published" : "draft" },
-    {
-      "figures.json": `${JSON.stringify(figures, null, 2)}\n`,
-      "pr-package.md": renderArtistCityPrPackage(figures),
-      "chart.svg": renderArtistCityChart(figures)
-    }
+    { "figures.json": `${JSON.stringify(figures, null, 2)}\n`, "chart.svg": renderArtistCityChart(figures) }
   );
+  // The PR package is internal working copy (approval checklist, rights notes),
+  // so it never lands in the repository: it goes to the folder named here.
+  const packageDir = argValue("--pr-package-dir");
+  if (packageDir) {
+    await fs.mkdir(path.resolve(packageDir), { recursive: true });
+    await fs.writeFile(path.resolve(packageDir, "pr-package.md"), renderArtistCityPrPackage(figures));
+    console.log(`data-story: wrote the PR package to ${packageDir}/pr-package.md (not in the repository)`);
+  }
 }

@@ -44,6 +44,23 @@ export const PRESALE_NAME_MAX_LENGTH = 100;
 // window is the safe direction. Mirrored in scripts/validate-events.py.
 const UNSAFE_NAME = /\b(codes?|passwords?|passcodes?|pins?)\b|https?:|www\.|@|\b[a-z0-9-]+\.[a-z]{2,}\b/i;
 
+// Ticketmaster's record can also carry allocations no fan can buy into, such
+// as "Marketing Comps" (complimentary tickets). Listing one as a presale
+// "open now" tells a reader they can join a sale that does not exist, so it is
+// dropped from every list. Display-only: unlike UNSAFE_NAME it is not a
+// storage rule, so it has no mirror in scripts/validate-events.py.
+const NOT_PUBLIC_NAME = /\b(comps?|complimentary)\b/i;
+
+/**
+ * Whether a presale window is one a member of the public can buy into.
+ *
+ * @param {unknown} name
+ * @returns {boolean}
+ */
+export function presaleNamePublic(name) {
+  return !NOT_PUBLIC_NAME.test(cleanName(name));
+}
+
 /**
  * Whether a presale window name is fit to store or show.
  *
@@ -87,7 +104,7 @@ export function normalizePresaleWindows(list, now = Date.now()) {
     const name = cleanName(item.name);
     const start = trimmed(item.start ?? item.startDateTime);
     const end = trimmed(item.end ?? item.endDateTime);
-    if (!presaleNameSafe(name)) continue;
+    if (!presaleNameSafe(name) || !presaleNamePublic(name)) continue;
     const startMs = Date.parse(start);
     const endMs = Date.parse(end);
     if (!Number.isFinite(startMs) || !Number.isFinite(endMs) || endMs <= startMs) continue;

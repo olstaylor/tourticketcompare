@@ -352,7 +352,7 @@ sources:
 | `summary` | yes | Index card text and the page's lead paragraph. |
 | `date` | yes | `YYYY-MM-DD`. Publication date. |
 | `seo_title` | no | Shorter browser-tab and search title. ` \| TourTicketCompare` is appended, so keep this to 40 characters. Defaults to `title`. |
-| `updated` | no | `YYYY-MM-DD`, not earlier than `date`. Only set it when revising a published post. |
+| `updated` | no | `YYYY-MM-DD`, not earlier than `date`. Only move it when a published post's facts or guidance change. Adding or rewording internal links, navigation or a cross-link paragraph is not a revision and leaves it alone (Google treats a date moved without a substantial change as false freshness). |
 | `status` | no | `published` or `draft`. Defaults to `published`; the `/admin` editor and `npm run blog:new` default to `draft`. |
 | `tags` | no | Lowercase hyphenated slugs. |
 | `author` | no | Defaults to `TourTicketCompare`, and the build rejects any other value: bylines credit the site (see `docs/CONTENT_RULES.md` → Voice and Attribution). The BlogPosting `author` is the Organization node. |

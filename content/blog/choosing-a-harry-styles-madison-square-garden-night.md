@@ -4,7 +4,7 @@ seo_title: Choosing a Harry Styles MSG night
 description: Harry Styles’ 2026 MSG residency repeats the same venue across 30 nights. Check the exact date, ticket details and delivery terms before buying.
 summary: A residency breaks the habit most ticket buyers rely on. When the artist, the tour and the venue are identical across every listing, the date is the only thing distinguishing what you are about to buy — and it is the field people skim.
 date: 2026-09-25
-updated: 2026-10-22
+updated: 2026-10-05
 status: published
 tags:
   - tour-buying

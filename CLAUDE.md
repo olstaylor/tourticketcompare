@@ -3,7 +3,7 @@
 Stable rules for anyone (human or AI) changing this repository. Read this file first. Open other docs only when the task needs them:
 
 - Current counts, per-artist state: [PROJECT_STATUS.md](PROJECT_STATUS.md)
-- Priorities and parked work: [BACKLOG.md](BACKLOG.md)
+- Priorities and parked work: [BACKLOG.md](BACKLOG.md); read the [90-day priorities](BACKLOG.md#90-day-priorities-set-2026-10-23) before choosing or proposing work across the repository.
 - How the code fits together: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
 - Scheduled jobs, secrets, open incidents: [docs/OPERATIONS.md](docs/OPERATIONS.md)
 - Setup and per-area test commands: [CONTRIBUTING.md](CONTRIBUTING.md)
@@ -65,12 +65,13 @@ Keep interactive validation proportional to the change:
 
 ## Working style
 
+- Apply the 90-day priorities when selecting, recommending or expanding work: explain which priority it advances and the outcome it should improve. Prefer focused revenue experiments and routine automation; keep attribution audits bounded. Explicit user requests determine task scope.
 - Read only what the task needs. Make small, isolated changes; artist onboarding batches stay at 20 per PR, one phase per PR ([skill](.claude/skills/artist-onboarding/SKILL.md)).
 - Confirm scope first for routing, schema or protected-file changes.
 - Artist onboarding, provider changes and event-data changes follow their own gated workflows (see the docs below).
 - After a change, summarise the files changed, the checks run and what was left alone.
 - Do not add status, handover or governance docs. Update the file that owns the topic ([docs/DOCS_MAINTENANCE.md](docs/DOCS_MAINTENANCE.md)); git history keeps the rest.
-- `BACKLOG.md` is owner-managed: agents may correct facts but not reorder or re-scope it. If `PROJECT_STATUS.md` disagrees with the repo, the repo wins.
+- `BACKLOG.md` is owner-managed: agents may correct facts but not reorder or re-scope it without explicit owner direction. If `PROJECT_STATUS.md` disagrees with the repo, the repo wins.
 
 ## Key documentation
 

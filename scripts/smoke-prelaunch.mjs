@@ -1649,7 +1649,7 @@ assert(!appJs.includes("SeatGeek controls prices, fees, availability, and checko
 assert(!appJs.includes("Vivid Seats controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every Vivid Seats card");
 assert(appJs.includes('note.append("Checked ");') && appJs.includes("const PRICE_DISCLOSURE ="), "hydration should include the per-card check age and the page-level price disclosure (P2)");
 assert(appJs.includes('const PRICE_UNAVAILABLE_NOTE = "No listed price yet.";'), "hydration should state the price-unavailable case");
-assert(appJs.includes("renderShowCardPriceNotes(ctaSpecs, pricesWereChecked(show))"), "hydration must only claim a snapshot is unavailable for a card whose lanes were actually queried");
+assert(appJs.includes("renderShowCardPriceNotes(ctaSpecs, pricesWereChecked(show), show)"), "hydration must only claim a snapshot is unavailable for a card whose lanes were actually queried");
 assert(appJs.includes("Array.isArray(show?.prices) && show.prices.length > 0"), "the hydrated priced-lane check must treat an empty lane array as unchecked, not as a confirmed absence");
 assert(appJs.includes("show?.provider_links?.seatgeek?.verified !== true"), "hydrated SeatGeek price snapshots should require explicit provider verification");
 assert(appJs.includes("source !== \"seatgeek_partner_api\""), "hydrated SeatGeek price snapshot should require the approved source attribution");
@@ -2361,7 +2361,7 @@ for (const card of serverPricedMorgan.text.split('<article class="info-card show
     assert(!card.includes("Lowest listed price on each"), "a card with an unpriced button must never say 'lowest listed price on each'");
   }
 }
-assert(serverPricedMorgan.text.includes("aren&#39;t your final total") || serverPricedMorgan.text.includes("aren't your final total"), "server-rendered price boards should keep the not-final-total disclaimer, once in the page disclosure");
+assert(serverPricedMorgan.text.includes("not the final total") && serverPricedMorgan.text.includes("not like-for-like totals"), "server-rendered price boards should keep the not-final-total disclaimer, once in the page disclosure");
 
 const bulkFlagsOffResponse = await showsModule.onRequestGet({
   request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen&includePrices=true&priceProviders=approved-marketplaces"),

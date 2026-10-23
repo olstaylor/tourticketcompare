@@ -83,7 +83,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "300064AB9AB430EA",
     "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-belmont-park-new-york-10-24-2026/event/300064AB9AB430EA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/katseye-tickets/elmont-new-york-ubs-arena-2026-10-24-8-pm/concert/18240136",
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-elmont-ubs-arena-10-24-2026--concerts-pop/production/7027947",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-belmont-park-new-york-10-24-2026/event/300064AB9AB430EA",
@@ -99,11 +99,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18240136,
+        "url": "https://seatgeek.com/katseye-tickets/elmont-new-york-ubs-arena-2026-10-24-8-pm/concert/18240136",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7027947,
@@ -139,7 +139,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "300064AB9AB930F5",
     "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-belmont-park-new-york-10-25-2026/event/300064AB9AB930F5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/katseye-tickets/elmont-new-york-ubs-arena-2026-10-25-8-pm/concert/18259103",
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-elmont-ubs-arena-10-25-2026/production/7061391",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-belmont-park-new-york-10-25-2026/event/300064AB9AB930F5",
@@ -155,11 +155,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18259103,
+        "url": "https://seatgeek.com/katseye-tickets/elmont-new-york-ubs-arena-2026-10-25-8-pm/concert/18259103",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7061391,
@@ -267,7 +267,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "310064A8A00972D3",
     "ticketmaster_url": "https://www.ticketmaster.ca/katseye-the-wildworld-tour-montreal-quebec-10-30-2026/event/310064A8A00972D3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/katseye-tickets/montreal-canada-centre-bell-2026-10-30-8-pm/concert/18240166",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/katseye-the-wildworld-tour-montreal-quebec-10-30-2026/event/310064A8A00972D3",
@@ -283,11 +283,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18240166,
+        "url": "https://seatgeek.com/katseye-tickets/montreal-canada-centre-bell-2026-10-30-8-pm/concert/18240166",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -333,7 +333,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "100064AB07DF2C82",
     "ticketmaster_url": "https://www.ticketmaster.ca/katseye-the-wildworld-tour-hamilton-ontario-11-01-2026/event/100064AB07DF2C82",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/katseye-tickets/hamilton-canada-td-coliseum-2026-11-01-8-pm/concert/18240168",
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-hamilton-td-coliseum-11-1-2026--concerts-pop/production/7027991",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/katseye-the-wildworld-tour-hamilton-ontario-11-01-2026/event/100064AB07DF2C82",
@@ -349,11 +349,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18240168,
+        "url": "https://seatgeek.com/katseye-tickets/hamilton-canada-td-coliseum-2026-11-01-8-pm/concert/18240168",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7027991,

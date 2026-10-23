@@ -36,7 +36,7 @@ const load = (relativePath) => import(pathToFileURL(path.join(root, relativePath
 const middlewareModule = await load("functions/_middleware.js");
 const eventPages = await load("functions/_event-pages.js");
 const { resolveEventLocalDate } = await load("functions/_event-local-date.js");
-const { classifyPageType } = await load("functions/_funnel.js");
+const { classifyPageType, CTA_LOCATIONS } = await load("functions/_funnel.js");
 
 // ─── fixture ────────────────────────────────────────────────────────────────
 
@@ -280,6 +280,16 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
   const lead = text(meta(page.html, /<\/h1>(<p class="lead">[\s\S]*?<\/p>)/));
   assert(/ plays Fixture Arena in Springfield on .*8:00 PM local time\. Ticket links for this date: .*Ticketmaster\./.test(lead), `the lead answers who, where, when and which sites (got ${lead})`);
   assert(text(mainOf(page.html)).split(" plays Fixture Arena").length === 2, "the when-and-where sentence is stated once");
+  // Revenue-per-visitor test 1 (2026-10-23): the cheapest listed price as a
+  // button right under the lead, above the card, with its own cta_location.
+  const answer = meta(page.html, /(<section[^>]*aria-labelledby="eventAnswerTitle"[\s\S]*?<\/section>)/);
+  assert(answer && mainOf(page.html).indexOf("eventAnswerTitle") < mainOf(page.html).indexOf("eventTicketsTitle"), "a priced date opens with its cheapest-price answer, above the card");
+  assert(/Cheapest listed price for this date/.test(answer) && /USD\s+182/.test(text(answer)) && /Vivid Seats/.test(text(answer)), `the answer's button is the card's cheapest lane (got ${text(answer).slice(0, 200)})`);
+  const answerOut = [...answer.matchAll(/href="(\/api\/out\?[^"]+)"/g)].map((m) => m[1]);
+  assert(answerOut.length === 1 && answerOut[0].includes("ctaLocation=event_answer"), "the answer has one ticket button, reported as event_answer");
+  assert(CTA_LOCATIONS.includes("event_answer"), "event_answer is in the allowlist, or /api/out discards it");
+  assert(answer.includes(`href="#show-${PRICED.id}"`) && page.html.includes(`id="show-${PRICED.id}"`), "its all-sites link points at the card on the same page");
+  assert(page.html.split("How this site makes money").length === 2, "still one money disclosure");
   const pageGraph = graphOf(page.html);
   const webPage = pageGraph.find((node) => node["@type"] === "WebPage");
   assert(webPage && /#event$/.test(webPage.about?.["@id"] || ""), "the event page carries a WebPage node about its MusicEvent");

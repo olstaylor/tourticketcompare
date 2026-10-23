@@ -83,6 +83,11 @@ export const ONSALE_CALENDAR_MIN_ARTISTS = 2;
 // renders noindex,follow — see docs/ROUTE_INDEXABILITY_POLICY.md § Price guide.
 export const PRICE_GUIDE_MIN_SHOWS = 6;
 export const PRICE_GUIDE_MIN_CITIES = 2;
+// A residency is one city with many nights, and "<artist> Sphere ticket
+// prices" is a real question the date-by-date guide answers. Owner decision
+// 2026-10-23: one city is enough from this many dates. Every other gate
+// condition (snapshot-ready dates, 2+ priced sites on a date) still applies.
+export const PRICE_GUIDE_RESIDENCY_MIN_SHOWS = 10;
 export const PRICE_GUIDE_MIN_SNAPSHOT_READY_SHOWS = 3;
 
 // An artist presale page (/artists/<artist>/presale) answers "<artist>
@@ -413,7 +418,8 @@ export function priceGuideGate(guide) {
   const reasons = [];
   if (!guide?.showCount) reasons.push(EXCLUSION_REASONS.NO_UPCOMING_SHOWS);
   else if (guide.showCount < PRICE_GUIDE_MIN_SHOWS) reasons.push(EXCLUSION_REASONS.BELOW_SHOW_THRESHOLD);
-  if ((guide?.cityCount || 0) < PRICE_GUIDE_MIN_CITIES) reasons.push(EXCLUSION_REASONS.BELOW_CITY_THRESHOLD);
+  const residency = guide?.cityCount === 1 && (guide?.showCount || 0) >= PRICE_GUIDE_RESIDENCY_MIN_SHOWS;
+  if ((guide?.cityCount || 0) < PRICE_GUIDE_MIN_CITIES && !residency) reasons.push(EXCLUSION_REASONS.BELOW_CITY_THRESHOLD);
   if (!(guide?.publishableCount > 0)) reasons.push(EXCLUSION_REASONS.NO_PUBLISHABLE_DESTINATION);
   if ((guide?.snapshotReadyCount || 0) < PRICE_GUIDE_MIN_SNAPSHOT_READY_SHOWS) reasons.push(EXCLUSION_REASONS.BELOW_PRICE_COVERAGE_THRESHOLD);
   if (guide?.publishableCount > 0 && !(guide?.comparableCount > 0)) reasons.push(EXCLUSION_REASONS.NO_PRICE_COMPARISON);

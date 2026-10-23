@@ -5530,9 +5530,9 @@ export function renderArtistNextDatesPriceAnswer(artist, shows, availability, su
   });
   const placeById = new Map(nextShows.map((show) => [String(show.id || ""), [show.city, show.venue].filter(Boolean).join(" · ")]));
   return renderArtistCityPriceAnswer(artist, { city: "" }, priceAnswer, new Map(), new Map(), {
-    heading: `Next ${artist.name} dates`,
-    caption: `Ticket options for the next ${artist.name} dates`,
-    titleId: "artistNextDatesTitle",
+    heading: surface.heading || `Next ${artist.name} dates`,
+    caption: surface.caption || `Ticket options for the next ${artist.name} dates`,
+    titleId: surface.titleId || "artistNextDatesTitle",
     ticketOptionsByShowId: new Map(nextShows.map((show) => [String(show.id || ""), {
       count: specsByShowId.get(String(show.id || "")).length,
       status: publicOnsalePending(show) ? publicOnsaleLabel(show) : ""
@@ -7037,6 +7037,21 @@ function renderEventPageBody(route, events, env) {
       if (weekText) priceItems.push(`This week: ${weekText}`);
     }
   }
+  // The date's cheapest listed price as a button, straight under the lead.
+  // On a phone the card's first button sat at ~860px, below the first screen,
+  // under the lead and the page-level caveats, and event landings clicked
+  // through far less often than artist-city ones (D1, 9-23 Oct 2026: 9% vs 47%
+  // of visitor-days). Same table, specs and gates as the artist page's next
+  // dates; only a priced date gets it, since the card below already lists every
+  // site.
+  const answerHtml = row?.lowest
+    ? renderArtistNextDatesPriceAnswer(artist, [show], { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability }, {
+        heading: "Cheapest listed price for this date",
+        caption: `Lowest listed price for ${artist.name} at ${show.venue}`,
+        titleId: "eventAnswerTitle",
+        ctaLocation: "event_answer"
+      })
+    : "";
   const pricesHtml = priceItems.length
     ? `<section class="nested-panel" aria-labelledby="eventPricesTitle"><h2 id="eventPricesTitle">Prices for this date</h2><ul>${priceItems
         .map((item) => `<li>${escapeHtml(item)}</li>`)
@@ -7127,7 +7142,7 @@ function renderEventPageBody(route, events, env) {
   const disclosure = ctaSpecs.length ? renderMoneyDisclosureHtml({ prices: ctaSpecs.some((spec) => spec.priceAmount) }) : "";
   return `<main id="mainContent"><section class="content-page event-page" aria-labelledby="eventTitle" data-page-artist="${escapeAttr(artist.slug)}">${renderBreadcrumbHtml(
     route
-  )}<h1 id="eventTitle">${escapeHtml(`${artist.name} at ${show.venue}, ${show.city} — ${dateLabel}`)}</h1>${leadHtml}<section class="section-grid show-board" aria-labelledby="eventTicketsTitle"><div class="section-intro"><h2 id="eventTicketsTitle">${escapeHtml(
+  )}<h1 id="eventTitle">${escapeHtml(`${artist.name} at ${show.venue}, ${show.city} — ${dateLabel}`)}</h1>${leadHtml}${answerHtml}<section class="section-grid show-board" aria-labelledby="eventTicketsTitle"><div class="section-intro"><h2 id="eventTicketsTitle">${escapeHtml(
     ticketsHeading
   )}</h2>${disclosure}</div><div class="card-grid show-card-grid">${cardHtml}</div></section>${pricesHtml}${factsHtml}${contextHtml}${knowHtml}${linksHtml}</section></main>`;
 }

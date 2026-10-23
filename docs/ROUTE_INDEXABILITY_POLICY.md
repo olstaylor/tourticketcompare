@@ -399,7 +399,7 @@ out, at most 6 pages per artist, single-date artist-city cases first. A batch is
 added by a reviewed PR only, roughly weekly, so each batch's performance can be
 read on its own with `npm run report:event-indexing-pilot -- --batch <id>`.
 Batches follow every pilot rule: necessary not sufficient, never replaced,
-never regenerated. Batch 1 (2026-10-09, live 2026-10-10): 250 pages across 62 artists. Batch 2 (2026-10-16): 150 pages across 37 artists, kept smaller because Google had not yet recrawled most of batch 1.
+never regenerated. Batch 1 (2026-10-09, live 2026-10-10): 250 pages across 62 artists. Batch 2 (2026-10-16): 150 pages across 37 artists, kept smaller because Google had not yet recrawled most of batch 1 (live 2026-10-17). Batch 3 (2026-10-23): 150 pages across 53 artists, ranked by expected commission (`--priority-file`). Batch 4 (2026-10-23, owner decision): the 20 highest-value multi-date artist-city cases the single-date rule skips, kept separate to measure overlap with the indexed artist-city page.
 
 **The cohort is an experiment, not a queue.** The 30 keys and the facts they
 were chosen on are recorded in `data/event-indexing-pilot.json` (selection
@@ -529,7 +529,8 @@ tours, or artist under review) **301s to the artist page** and renders again
 when the next run lands.
 
 **Indexable when** it has ≥ 6 upcoming dates (`PRICE_GUIDE_MIN_SHOWS`) in ≥ 2
-cities (`PRICE_GUIDE_MIN_CITIES`), ≥ 1 publishable, and ≥ 3 of them carry
+cities (`PRICE_GUIDE_MIN_CITIES`; one city is enough for a residency of ≥ 10
+dates, `PRICE_GUIDE_RESIDENCY_MIN_SHOWS`, owner decision 2026-10-23), ≥ 1 publishable, and ≥ 3 of them carry
 verified provenance on a listed-price snapshot lane
 (`PRICE_GUIDE_MIN_SNAPSHOT_READY_SHOWS`, `priceGuideGate`) — **and** the artist
 page itself is indexable, so a guide never outranks its parent. The snapshot

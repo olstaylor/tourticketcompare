@@ -421,5 +421,187 @@ export const EVENT_INDEXING_BATCHES = Object.freeze([
       "be0eafe7bc044da2", // Nothing But Thieves · MTELUS, Montreal · 2027-04-20
       "d3236fc4a08b7c48" // Earth, Wind & Fire · Township Auditorium, Columbia · 2027-04-27
     ])
+  }),
+  Object.freeze({
+    id: "batch-3",
+    selectedOn: "2026-10-23",
+    keys: Object.freeze([
+      "c3857bc6677e20b6", // Zach Bryan · Albertsons Stadium, Boise · 2027-08-06
+      "40cd3dd76d5c4831", // Doja Cat · CFG Bank Arena, Baltimore · 2026-11-20
+      "46794bee2d471694", // John Mayer · Sphere, Las Vegas · 2027-04-30
+      "953ae01fca528991", // Kacey Musgraves · OVO Arena Wembley, London · 2027-02-26
+      "82335aa5cc938301", // Nickelback · Hard Rock Live, Hollywood · 2027-02-26
+      "e5dab49cb8131e35", // Eagles · Sphere, Las Vegas · 2026-12-11
+      "870b50e4a128c14f", // Def Leppard · Centre Bell, Montreal · 2027-03-05
+      "836168f5a578d5e4", // Stevie Wonder · Madison Square Garden, New York · 2026-11-19
+      "e7cbd26277842bda", // Nickelback · Centre Bell, Montreal · 2027-03-12
+      "5d13c3e4602c28d3", // Nickelback · Fiserv Forum, Milwaukee · 2027-03-27
+      "8df0ca0f1e67c2fa", // Eagles · Sphere, Las Vegas · 2026-12-12
+      "4980bc8f3fd7d9aa", // The Neighbourhood · The Truth, Nashville · 2026-11-14
+      "1a82d740faa91097", // Nickelback · Rogers Place, Edmonton · 2027-04-03
+      "9599635232cf15ac", // Nickelback · Rogers Arena, Vancouver · 2027-04-09
+      "7178f3121f39d554", // Nickelback · Food City Center, Knoxville · 2027-02-24
+      "f370da3087a7627d", // Fontaines D.C. · Bill Graham Civic Auditorium, San Francisco · 2027-05-12
+      "49551ab118b0c009", // Def Leppard · Golden 1 Center, Sacramento · 2027-05-07
+      "008216f3ee0f37b6", // Staind · CHI Health Center Omaha, Omaha · 2027-04-09
+      "9482d2351a8bc6e2", // Staind · Van Andel Arena, Grand Rapids · 2027-04-13
+      "9599be0efce90705", // Zach Bryan · Lambeau Field, Green Bay · 2027-05-04
+      "92ff681e61449667", // Daughtry · Majestic Theatre Dallas, Dallas · 2026-11-14
+      "f08b7c295de43b13", // Steve Lacy · Arizona Financial Theatre, Phoenix · 2026-11-17
+      "f12b141c179723d8", // Zach Bryan · Highmark Stadium, Orchard Park · 2027-06-02
+      "9e8c704e333d18df", // Zach Bryan · Lucas Oil Stadium, Indianapolis · 2027-05-01
+      "ed664fd20c40f958", // Zach Bryan · Mercedes-Benz Stadium, Atlanta · 2027-05-29
+      "37a6c675d90c212a", // Stevie Wonder · Capital One Arena, Washington · 2026-11-23
+      "2ac7ecff59c042d8", // Stevie Wonder · Intuit Dome, Inglewood · 2026-12-19
+      "8501f7a4bc0482a7", // Steve Lacy · UBC - Doug Mitchell Thunderbird Sports Centre, Vancouver · 2026-11-30
+      "503c44c7be60c5f6", // Fontaines D.C. · Utilita Arena Birmingham, Birmingham · 2026-11-25
+      "aa107ab8cb415d7a", // Polyphia · O2 Academy Leeds, Leeds · 2026-12-15
+      "4e289b67a66817e9", // Tyla · UBC - Doug Mitchell Thunderbird Sports Centre, Vancouver · 2026-11-15
+      "51f3187d2fb162d5", // Tyla · Fontainebleau Las Vegas, Las Vegas · 2026-12-19
+      "7303a043e2cefb6c", // Journey · Bon Secours Wellness Arena, Greenville · 2026-11-14
+      "683adfa533b22b3a", // The Neighbourhood · Bill Graham Civic Auditorium, San Francisco · 2026-12-02
+      "e0921b169547105b", // Eagles · Sphere, Las Vegas · 2027-01-15
+      "13375b16b196a81b", // Eagles · Sphere, Las Vegas · 2027-01-16
+      "13375c16b196a9ce", // Eagles · Sphere, Las Vegas · 2027-01-22
+      "36f77e36b4d70c08", // Eagles · Sphere, Las Vegas · 2027-01-23
+      "e52a2c2020482fcd", // John Summit · Schottenstein Center, Columbus · 2026-11-13
+      "6b4398551935ecf3", // Def Leppard · Regions Arena, Mobile · 2027-04-20
+      "988bfb1b2dd754f1", // Def Leppard · Mohegan Sun Arena, Uncasville · 2027-06-25
+      "1f5c16e60692320b", // Stevie Wonder · United Center, Chicago · 2026-11-21
+      "344ad8c715ad1f78", // Bryson Tiller · bp pulse LIVE, Birmingham · 2026-12-09
+      "9bcc518f63227d9c", // Bryson Tiller · The O2, London · 2026-12-07
+      "40dff5bc3292c7b9", // KATSEYE · Climate Pledge Arena, Seattle · 2026-11-17
+      "d158f96e32c1053f", // KATSEYE · Oakland Arena, Oakland · 2026-11-19
+      "cc67cccb6d7aa239", // Rod Stewart · The O2 Belfast, Belfast · 2027-04-27
+      "9306150cc90efae4", // Amble · House of Blues New Orleans, New Orleans · 2026-11-16
+      "5bb1af38a92d4041", // Amble · The Echo Lounge & Music Hall, Dallas · 2026-11-18
+      "33ce1a496320f221", // Saint Levant · Eventim Apollo, London · 2027-01-21
+      "816cc9382c03e599", // Daughtry · Saracen Casino Resort, Pine Bluff · 2027-01-23
+      "014520c91e4999f0", // The Red Clay Strays · Mohegan Sun Arena, Uncasville · 2027-03-18
+      "4803537dbc17fd4c", // Fontaines D.C. · Channel 24, Sacramento · 2027-05-11
+      "e46d1449873deb0c", // Trans-Siberian Orchestra · Mid-America Center, Council Bluffs · 2026-11-19
+      "f662b3112e25e303", // Trans-Siberian Orchestra · Bridgestone Arena, Nashville · 2026-12-02
+      "d236336c87baa951", // Blue October · The Fillmore Philadelphia, Philadelphia · 2026-11-15
+      "a025ceab64e05a13", // Foy Vance · Neptune Theatre, Seattle · 2026-11-13
+      "fb0a2f8dc7494eff", // Def Leppard · PPL Center, Allentown · 2027-03-02
+      "707711098ebab5af", // Def Leppard · Simmons Bank Arena, North Little Rock · 2027-04-16
+      "b70384494a4ff0a5", // Earth, Wind & Fire · Tennessee Theatre, Knoxville · 2027-04-28
+      "71902401baad330e", // Andrea Bocelli · The O2, London · 2027-10-01
+      "78d7c6ece103aa38", // Bryson Tiller · Co-op Live, Manchester · 2026-12-03
+      "c4e145e51d4a034c", // Bryson Tiller · Utilita Arena Cardiff, Cardiff · 2026-12-05
+      "69b759367433ca3f", // Lizzy McAlpine · Clowes Memorial Hall, Indianapolis · 2027-05-09
+      "53475e0b80737fd0", // KATSEYE · Mortgage Matchup Center, Phoenix · 2026-11-24
+      "50492dadeb972a7f", // Riley Green · Brandon Amphitheater, Brandon · 2027-06-03
+      "00ef7fd27d16a4ad", // Trivium · Paramount Theatre, Seattle · 2026-12-09
+      "ac8ad98da6845a38", // Trivium · OVO Hydro, Glasgow · 2027-03-31
+      "5e267d40c859c8a4", // Trivium · Utilita Arena Cardiff, Cardiff · 2027-04-04
+      "396d44fc04f3d20b", // Santana · House of Blues Las Vegas, Las Vegas · 2027-01-20
+      "ec59229dadfc468d", // Santana · House of Blues Las Vegas, Las Vegas · 2027-01-21
+      "253c0412a9893681", // Santana · House of Blues Las Vegas, Las Vegas · 2027-01-23
+      "44d896c0a3c61af4", // Santana · House of Blues Las Vegas, Las Vegas · 2027-01-24
+      "61ca095ab7bfeb23", // Santana · House of Blues Las Vegas, Las Vegas · 2027-01-27
+      "4b09fddf730202b5", // Santana · House of Blues Las Vegas, Las Vegas · 2027-01-28
+      "b0320dc1b46ab649", // Jonas Brothers · Pinnacle Bank Arena, Lincoln · 2026-12-10
+      "d3618fb2b330826a", // Jonas Brothers · Denny Sanford PREMIER Center, Sioux Falls · 2026-12-12
+      "ac9aa32bd7387d29", // Jonas Brothers · Van Andel Arena, Grand Rapids · 2026-12-15
+      "d8f03785da021c7a", // Journey · Ball Arena, Denver · 2026-11-22
+      "1bb73a2dea1027f0", // Michelle Branch · Manchester Music Hall, Lexington · 2026-11-13
+      "43b6bd60ccd87970", // John Mayer · Sphere, Las Vegas · 2027-05-01
+      "9f76aa42d550730e", // John Mayer · Sphere, Las Vegas · 2027-05-08
+      "5265a8b5190f4f4f", // Leon Bridges · The Cosmopolitan of Las Vegas, Las Vegas · 2027-04-07
+      "93c45cc37bec6755", // The Neighbourhood · Mortgage Matchup Center, Phoenix · 2026-11-30
+      "d5aff735ddbf0ef2", // A Perfect Circle · Fox Theatre Detroit, Detroit · 2027-04-25
+      "98e6fdadb243470d", // Rod Stewart · Enmarket Arena, Savannah · 2027-03-08
+      "1e5cf83f5641b133", // Rod Stewart · Mohegan Sun Arena, Uncasville · 2027-03-19
+      "1a7853a015bfb1c6", // Jay Wheeler · Coca-Cola Roxy, Atlanta · 2027-03-12
+      "9662108fdbfb0d41", // Death Cab for Cutie · State Theatre, Portland · 2027-04-11
+      "80f7c70d35c962b6", // Pink Martini · Hackensack Meridian Health Theatre at the Count Basie Center, Red Bank · 2026-12-16
+      "e6f55d6c8a73d53d", // Weezer · OVO Hydro, Glasgow · 2027-05-19
+      "3a1557e5ab90b597", // Pentatonix · Van Andel Arena, Grand Rapids · 2026-11-15
+      "70d5c0555f17dd23", // Fantasia · VyStar Veterans Memorial Arena, Jacksonville · 2027-04-16
+      "82ee3e5997eb4b5c", // Fantasia · Mortgage Matchup Center, Phoenix · 2027-04-23
+      "d1982a436178f4b9", // Kenny Chesney · Highmark Stadium, Orchard Park · 2027-06-19
+      "67a6d960c302431e", // Kenny Chesney · American Family Field, Milwaukee · 2027-07-10
+      "6eb16ac379e841b2", // Kenny Chesney · Ford Field, Detroit · 2027-08-14
+      "f701929f5bf76bb8", // Brand New · Arizona Financial Theatre, Phoenix · 2026-11-14
+      "fb489b5a4b61d5b8", // Slipknot · Wembley Stadium, London · 2027-07-03
+      "9b59f0969cdcccd6", // Slipknot · Golden Gate Park, San Francisco · 2027-08-15
+      "deeadf332fb88f7e", // Brent Faiyaz · United Center, Chicago · 2026-11-30
+      "a8a4ba2b69ffff0b", // Brent Faiyaz · Barclays Center, Brooklyn · 2026-12-03
+      "5626e348be8d0425", // Don Omar · Ball Arena, Denver · 2027-02-03
+      "b1358170cbceecdd", // Don Omar · CFG Bank Arena, Baltimore · 2027-03-04
+      "af2fafbca2bfae3c", // Don Omar · Centre Bell, Montreal · 2027-02-21
+      "d8dee3627324b95a", // Malcolm Todd · O2 Apollo Manchester, Manchester · 2027-02-28
+      "547e2298b876c4f7", // Stella Lefty · The Fillmore Detroit, Detroit · 2027-01-09
+      "0995fc58607aaab9", // Stella Lefty · MTELUS, Montreal · 2027-01-15
+      "e20a927e875655a7", // Stella Lefty · The Fillmore Charlotte, Charlotte · 2027-01-25
+      "c420623d20718299", // Stella Lefty · The Union, Salt Lake City · 2027-02-12
+      "dc6465b1b02695c6", // Stella Lefty · Aragon Ballroom, Chicago · 2027-02-20
+      "ef1ad436d9b7d27c", // Saint Levant · Paramount Theatre, Seattle · 2027-05-10
+      "c2fe046b1cdf53da", // Saint Levant · Aragon Ballroom, Chicago · 2027-04-03
+      "78602c78f5b7e12d", // Sombr · Bellahouston Park, Glasgow · 2027-06-19
+      "519a1caf0fe405d7", // Sombr · Ormeau Park, Belfast · 2027-06-17
+      "45f3e9d8f679c189", // Hans Zimmer · Ball Arena, Denver · 2027-03-25
+      "e88b99c5d83a3603", // Hans Zimmer · Mortgage Matchup Center, Phoenix · 2027-03-30
+      "57f51cec4c28536f", // Hans Zimmer · Honda Center, Anaheim · 2027-04-02
+      "d46f8a992ebf9f0d", // Hans Zimmer · Chase Center, San Francisco · 2027-04-04
+      "68740cb6af45a85a", // Hans Zimmer · Golden 1 Center, Sacramento · 2027-04-05
+      "94ba720766f540a6", // Hans Zimmer · Climate Pledge Arena, Seattle · 2027-04-09
+      "65bce5efe3fc89ee", // Daughtry · Hard Rock Live Orlando, Orlando · 2027-01-27
+      "36b66a2462b1f777", // Daughtry · Bayou Music Center, Houston · 2027-01-31
+      "5a82fe01cf8f5679", // Daughtry · Selena Auditorium, Corpus Christi · 2027-02-02
+      "9ea883e832eacc1f", // Daughtry · Hershey Theatre, Hershey · 2027-02-26
+      "1404e6912258bd2c", // Dinosaur Jr. · Brooklyn Bowl Nashville, Nashville · 2027-02-26
+      "88b722bd476f65aa", // Dinosaur Jr. · The Fillmore Silver Spring, Silver Spring · 2027-02-16
+      "500dab3520220d98", // Niall Horan · Dickies Arena, Fort Worth · 2027-05-02
+      "24d24e6be22776e1", // Niall Horan · Nationwide Arena, Columbus · 2027-03-20
+      "fef69bf5d705f58e", // Niall Horan · Gainbridge Fieldhouse, Indianapolis · 2027-03-26
+      "6a25409b7eaeda3b", // Niall Horan · Centre Bell, Montreal · 2027-04-02
+      "88d15cd4a1254e69", // Niall Horan · CFG Bank Arena, Baltimore · 2027-04-08
+      "2c6eb49526c958b4", // Niall Horan · Lenovo Center, Raleigh · 2027-04-15
+      "ecb64345eb98d825", // The Red Clay Strays · Lenovo Center, Raleigh · 2027-01-22
+      "f192d9a81a89acc8", // The Red Clay Strays · Colonial Life Arena, Columbia · 2027-01-23
+      "b0d72b90df5380fd", // The Red Clay Strays · Gainbridge Fieldhouse, Indianapolis · 2027-02-05
+      "ca839fbe69750613", // The Red Clay Strays · Hertz Arena, Estero · 2027-02-25
+      "8297388a620ba037", // The Red Clay Strays · SaskTel Centre, Saskatoon · 2027-03-11
+      "c50b42ca40660f3b", // Fontaines D.C. · Fox Theatre Detroit, Detroit · 2027-04-27
+      "294a3c83768ea40b", // Fontaines D.C. · WAMU Theater, Seattle · 2027-05-08
+      "4925698ad384ba85", // Fontaines D.C. · Kia Forum, Inglewood · 2027-10-15
+      "21d6818424f8fb5a", // Trans-Siberian Orchestra · Mohegan Arena at Casey Plaza, Wilkes Barre · 2026-11-24
+      "37a1b596fe1a0324", // Trans-Siberian Orchestra · Charleston Coliseum, Charleston · 2026-12-03
+      "6117792517782a13", // Trans-Siberian Orchestra · Save Mart Center, Fresno · 2026-12-03
+      "f7221b28b7097ea8", // Trans-Siberian Orchestra · PPL Center, Allentown · 2026-12-09
+      "acc3ef09397f84f8", // Blue October · Jefferson Theatre, Beaumont · 2026-12-10
+      "bfc4393f445b094f", // Blue October · Payne Arena, Hidalgo · 2026-12-13
+      "37832f8a26e25513", // Blue October · Selena Auditorium, Corpus Christi · 2026-12-17
+      "8082ffe06346d387", // Blue October · Rialto Theatre-Tucson, Tucson · 2027-02-03
+      "52ec20a2e4edc959" // Blue October · Knitting Factory - Spokane, Spokane · 2027-02-24
+    ])
+  }),
+  Object.freeze({
+    id: "batch-4",
+    selectedOn: "2026-10-23",
+    keys: Object.freeze([
+      "8081d8bb10ed2a26", // Olivia Rodrigo · Kia Center, Orlando · 2026-11-16
+      "68f719a9adba0ff0", // Bruno Mars · Estadio GNP Seguros, Ciudad de México · 2026-12-11
+      "90b8a891d171fd30", // Bruno Mars · Estadio GNP Seguros, Ciudad de México · 2026-12-07
+      "3e2ce89233c088a8", // Bruno Mars · Estadio GNP Seguros, Ciudad de México · 2026-12-04
+      "90b8a591d171f817", // Bruno Mars · Estadio GNP Seguros, Ciudad de México · 2026-12-08
+      "a2441895aae238f3", // Olivia Rodrigo · Kia Center, Orlando · 2026-11-15
+      "286d066f1c1a361d", // Bruno Mars · Estadio GNP Seguros, Ciudad de México · 2026-12-03
+      "9547c773f580c122", // Olivia Rodrigo · Intuit Dome, Inglewood · 2027-01-13
+      "efaa957a9be9a36e", // Metallica · Mohegan Sun Arena, Uncasville · 2026-11-21
+      "e7b7c4c2eac7447e", // Olivia Rodrigo · Rogers Arena, Vancouver · 2026-12-01
+      "c61ee84256f71ee9", // Olivia Rodrigo · Olympiahalle, Munich · 2027-04-01
+      "c72925f34edf6d99", // Olivia Rodrigo · Rogers Arena, Vancouver · 2026-12-02
+      "81092f17ff79a299", // Metallica · Sphere, Las Vegas · 2027-02-27
+      "ee867c17acb3ae2e", // Metallica · Sphere, Las Vegas · 2027-02-06
+      "ee867017acb399ca", // Metallica · Sphere, Las Vegas · 2027-02-20
+      "6a252b4b68fc117f", // Oasis · Etihad Stadium, Manchester · 2027-06-12
+      "3df1c24702191644", // Oasis · Etihad Stadium, Manchester · 2027-06-11
+      "7b23cd8c7c851466", // Sombr · Madison Square Garden, New York · 2026-11-24
+      "3a2c9c14b56888a6", // Stella Lefty · Bowery Ballroom, New York · 2026-11-16
+      "0d40288c9b239ab9" // Harry Styles · Wembley Stadium, London · 2027-08-28
+    ])
   })
 ]);

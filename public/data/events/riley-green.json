@@ -2898,5 +2898,59 @@
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
     ]
+  },
+  {
+    "id": "tm-riley-green-2026-manchester-vv177z_fgkwnh6_i",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Boots & Ballots featuring Riley Green",
+    "city": "Manchester",
+    "country": "United States Of America",
+    "venue": "SNHU Arena",
+    "datetime_iso": "2026-11-02T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100654CA36C7668",
+    "ticketmaster_url": "https://www.ticketmaster.com/boots-ballots-featuring-riley-green-manchester-new-hampshire-11-02-2026/event/0100654CA36C7668",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/boots-ballots-featuring-riley-green-manchester-new-hampshire-11-02-2026/event/0100654CA36C7668",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100654CA36C7668",
+        "discovery_event_id": "vv177Z_fGkwNh6_I",
+        "url": "https://www.ticketmaster.com/boots-ballots-featuring-riley-green-manchester-new-hampshire-11-02-2026/event/0100654CA36C7668",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_fGkwNh6_I",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-26T16:00:00Z"
   }
 ]

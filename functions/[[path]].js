@@ -7065,7 +7065,7 @@ function renderVenueFactsHtml(show) {
   return `<section class="nested-panel" aria-labelledby="eventVenueFactsTitle"><h2 id="eventVenueFactsTitle">${escapeHtml(
     `Getting in at ${record.venue}`
   )}</h2><ul>${record.facts.map((fact) => `<li>${escapeHtml(fact)}</li>`).join("")}</ul><p class="disclosure-note">${escapeHtml(
-    `From ${record.venue}'s own published rules, read ${checked}. Rules can differ by event and tour, so check your event's listing before you travel. Source: `
+    `Rules as published by ${record.venue}, read ${checked}. Rules can differ by event and tour, so check your event's listing before you travel. Source: `
   )}${anchor(record.sourceNote, record.sourceUrl, "text-link", 'target="_blank" rel="noopener nofollow"')}.</p></section>`;
 }
 

@@ -152,11 +152,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107136161",
+        "url": "https://www.stubhub.ie/zac-brown-band-buffalo-tickets-11-5-2026/event/107136161",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_dh65dyO",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/zac-brown-band-buffalo-tickets-11-5-2026/event/107136161"
   },
   {
     "id": "tm-zac-brown-band-2026-detroit-vv1afzk8vgkdi6e86",
@@ -205,11 +213,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107138124",
+        "url": "https://www.stubhub.ie/zac-brown-band-detroit-tickets-11-6-2026/event/107138124",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk8VGkdI6E86",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/zac-brown-band-detroit-tickets-11-6-2026/event/107138124"
   },
   {
     "id": "tm-zac-brown-band-2026-lincoln-vv16kzk8wakzacfeeu",
@@ -364,11 +380,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107138123",
+        "url": "https://www.stubhub.ie/zac-brown-band-rosemont-tickets-11-21-2026/event/107138123",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk8sGkdLdbON",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/zac-brown-band-rosemont-tickets-11-21-2026/event/107138123"
   },
   {
     "id": "tm-zac-brown-band-2027-milwaukee-vv1a6zkf0gkdpf9tr",

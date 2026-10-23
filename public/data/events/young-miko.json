@@ -152,11 +152,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107155210",
+        "url": "https://www.stubhub.ie/young-miko-miami-tickets-10-28-2026/event/107155210",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_FCHiqhv",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/young-miko-miami-tickets-10-28-2026/event/107155210"
   },
   {
     "id": "tm-young-miko-2026-orlando-1axzk3dgkeha7uv",
@@ -205,11 +213,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107154368",
+        "url": "https://www.stubhub.ie/young-miko-orlando-tickets-10-29-2026/event/107154368",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk3dGkeHa7UV",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/young-miko-orlando-tickets-10-29-2026/event/107154368"
   },
   {
     "id": "tm-young-miko-2026-atlanta-vvg1zz_f1gfmts",
@@ -258,11 +274,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107154369",
+        "url": "https://www.stubhub.ie/young-miko-atlanta-tickets-10-31-2026/event/107154369",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_F1gFmtS",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/young-miko-atlanta-tickets-10-31-2026/event/107154369"
   },
   {
     "id": "tm-young-miko-2026-charlotte-g5evz_fffmq2n",
@@ -364,11 +388,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107155211",
+        "url": "https://www.stubhub.ie/young-miko-philadelphia-tickets-11-4-2026/event/107155211",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk3eGkdcdZMm",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/young-miko-philadelphia-tickets-11-4-2026/event/107155211"
   },
   {
     "id": "tm-young-miko-2026-brooklyn-16dzz_f13g7dsys",
@@ -417,10 +449,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107154370",
+        "url": "https://www.stubhub.ie/young-miko-brooklyn-tickets-11-5-2026/event/107154370",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dZZ_F13G7DSYs",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/young-miko-brooklyn-tickets-11-5-2026/event/107154370"
   }
 ]

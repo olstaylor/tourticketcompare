@@ -2952,6 +2952,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107677729",
+        "url": "https://www.stubhub.ie/saint-levant-tickets-manchester-o2-ritz-manchester-20-1-2027/event/107677729",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_fBNzKsB",
@@ -2984,7 +2991,8 @@
         "start": "2026-10-22T11:00:00Z",
         "end": "2026-10-23T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/saint-levant-tickets-manchester-o2-ritz-manchester-20-1-2027/event/107677729"
   },
   {
     "id": "tm-saint-levant-2027-london-1auzk48gkdxoa9q",
@@ -3033,6 +3041,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107677704",
+        "url": "https://www.stubhub.ie/saint-levant-tickets-london-eventim-apollo-21-1-2027/event/107677704",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZk48Gkdxoa9Q",
@@ -3048,7 +3063,8 @@
     ],
     "organizer_names": [
       "LNM - VIP NATION UK"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/saint-levant-tickets-london-eventim-apollo-21-1-2027/event/107677704"
   },
   {
     "id": "tm-saint-levant-2027-ciudad-de-mexico-g5dvz_o3qzslc",

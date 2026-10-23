@@ -26,6 +26,8 @@
     "artists:watchlist:check": "node scripts/artist-watchlist.mjs --check",
     "artists:watchlist:self-test": "node scripts/artist-watchlist.mjs --self-test",
     "report:price-coverage": "node scripts/report-price-coverage.mjs",
+    "research:uk-concerts": "node scripts/report-uk-concert-activity.mjs",
+    "test:uk-concert-activity": "node --test scripts/uk-concert-activity.test.mjs",
     "report:price-coverage:self-test": "node scripts/report-price-coverage.mjs --self-test",
     "test:artist-city-prices": "node scripts/artist-city-prices.test.mjs",
     "test:event-price-low": "node scripts/event-price-low.test.mjs",

@@ -40,6 +40,7 @@
     "test:onsale-calendar": "node scripts/onsale-calendar.test.mjs",
     "test:tours-hub": "node scripts/tours-hub.test.mjs",
     "test:data-stories": "node scripts/data-stories.test.mjs",
+    "test:artist-city-research": "node scripts/artist-city-research.test.mjs",
     "stories:build": "node scripts/build-data-story.mjs",
     "stories:check": "node scripts/build-data-story.mjs --check",
     "test:presales": "node scripts/presales.test.mjs",

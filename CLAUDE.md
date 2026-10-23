@@ -70,6 +70,7 @@ Keep interactive validation proportional to the change:
 - Confirm scope first for routing, schema or protected-file changes.
 - Artist onboarding, provider changes and event-data changes follow their own gated workflows (see the docs below).
 - After a change, summarise the files changed, the checks run and what was left alone.
+- Internal-only working copy (reports labelled internal, PR packages, approval checklists) never goes on `main`; keep it in the shared project folder (owner rule 2026-10-23).
 - Do not add status, handover or governance docs. Update the file that owns the topic ([docs/DOCS_MAINTENANCE.md](docs/DOCS_MAINTENANCE.md)); git history keeps the rest.
 - `BACKLOG.md` is owner-managed: agents may correct facts but not reorder or re-scope it without explicit owner direction. If `PROJECT_STATUS.md` disagrees with the repo, the repo wins.
 

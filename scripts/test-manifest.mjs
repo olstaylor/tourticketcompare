@@ -91,6 +91,7 @@ export const STEPS = [
   { id: "test:onsale-calendar",                   lane: "quick",  run: "npm run test:onsale-calendar" },
   { id: "test:tours-hub",                         lane: "quick",  run: "npm run test:tours-hub" },
   { id: "test:data-stories",                      lane: "units",  run: "npm run test:data-stories" },
+  { id: "test:artist-city-research",               lane: "units",  run: "npm run test:artist-city-research" },
   { id: "test:uk-concert-activity",                lane: "units",  run: "npm run test:uk-concert-activity" },
   { id: "test:presales",                          lane: "quick",  run: "npm run test:presales" },
   { id: "test:price-guides",                      lane: "quick",  run: "npm run test:price-guides" },

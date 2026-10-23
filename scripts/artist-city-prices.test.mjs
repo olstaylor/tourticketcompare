@@ -825,7 +825,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(outHrefs.length >= 1 && outHrefs.every((href) => href.includes("ctaLocation=home_answer")), "homepage buttons report home_answer");
   assert(CTA_LOCATIONS.includes("home_answer"), "home_answer is in the allowlist, or /api/out discards it");
   assert([...section.matchAll(/href="(\/artists\/[^"#]+#show-[^"]+)"/g)].length >= 1 || !section.includes("See all"), "its all-sites link points at the artist page's card");
-  assert(home.main.split("How this site makes money").length === 2, "one money disclosure for the block");
+  assert(home.main.split("About prices, seller order").length === 2, "one money disclosure for the block");
   assert(occurrences(home.main, "homeNextDate0") >= 1 && !home.main.includes("homeNextDate2"), "at most two picks");
   const unpriced = await render("/", { withDb: false });
   assert(!unpriced.main.includes("/api/out"), "with no price on record the homepage links to no ticket site");

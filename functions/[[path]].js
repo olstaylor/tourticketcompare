@@ -53,6 +53,8 @@ import { isUpcomingShow, showStartMs } from "./_upcoming.js";
 import { CARD_PRICE_TAIL, MONEY_DISCLOSURE, NO_PRICE_NOTE, PRICE_DISCLOSURE, PRICE_HISTORY_LABEL, cheapestListedPriceLabel, lowestPriceLabel, noPriceAtLastCheck, relativeCheckAge } from "./_price-wording.js";
 import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventKey, eventPageLinker, eventPageSchemaDecision, nonPerformanceMarkers, resolveEventRoute } from "./_event-pages.js";
 import { deriveEventContext, EVENT_CITY_NEIGHBOUR_DAYS, EVENT_VENUE_NEIGHBOUR_DAYS } from "./_event-context.js";
+import { deriveEventPriceRange, fetchEventPriceRange, isRicherEventPilot } from "./_event-price-range.js";
+import { venueFactsFor } from "./_venue-facts.js";
 import { EVENT_INDEXED_COHORT_KEYS, deriveEventIndexingPilot, eventPagesIndexingEnabled } from "./_event-indexability.js";
 import { organizerNames, eventEndDate } from "./_event-metadata.js";
 import { eventPreviousStartDate } from "./_event-reschedule.js";
@@ -7020,6 +7022,53 @@ function renderEventContextHtml(route, artist, show, held, now = Date.now()) {
   return sections.join("");
 }
 
+// Pilot section: each displayable site's listed-price span since tracking began
+// and, with two or more sites, the spread today. Figures are the lowest listed
+// price at each day's last capture (see functions/_event-price-range.js), shown
+// with the site, currency and the days they cover; never a total, a trend call
+// or buying advice.
+function renderEventPriceRangeHtml(row, rangeSeries) {
+  const range = row?.lanes?.length ? deriveEventPriceRange(row.lanes, rangeSeries) : null;
+  if (!range) return "";
+  const fmt = (amount, currency) => formatServerPrice(amount, currency);
+  const dayLabel = (day) => formatObservationDate(`${day}T00:00:00Z`);
+  const items = range.sites.map((site) => {
+    const first = dayLabel(site.firstDay);
+    const last = dayLabel(site.lastDay);
+    const span = first && last ? ` between ${first} and ${last}` : "";
+    return `${site.name}: ${fmt(site.low, site.currency)} to ${fmt(site.high, site.currency)} across ${site.days} days tracked${span}.`;
+  });
+  const notes = [];
+  if (range.overall) {
+    notes.push(
+      `Across ${range.sites.length} sites, the lowest listed price on any tracked day was ${fmt(range.overall.low.low, range.overall.currency)} on ${range.overall.low.name}, and the highest was ${fmt(range.overall.high.high, range.overall.currency)} on ${range.overall.high.name}.`
+    );
+  }
+  if (range.spread) {
+    notes.push(
+      `Right now the sites checked list this date between ${fmt(range.spread.lowest.price, range.spread.currency)} on ${range.spread.lowest.name} and ${fmt(range.spread.highest.price, range.spread.currency)} on ${range.spread.highest.name}, a gap of ${fmt(range.spread.gap, range.spread.currency)}.`
+    );
+  }
+  return `<section class="nested-panel" aria-labelledby="eventPriceRangeTitle"><h2 id="eventPriceRangeTitle">How listed prices for this date have ranged</h2><ul>${items
+    .map((item) => `<li>${escapeHtml(item)}</li>`)
+    .join("")}</ul>${notes.map((note) => `<p>${escapeHtml(note)}</p>`).join("")}<p class="disclosure-note">${escapeHtml(
+    "Each figure is a ticket site's lowest listed price at its last check of the day, in that site's own currency. These are listed prices, not final totals: fees, taxes and delivery are added at checkout, and prices change often."
+  )}</p></section>`;
+}
+
+// Pilot section: the venue's own entry rules, from the venue's page (see
+// functions/_venue-facts.js). Nothing renders for a venue without a record.
+function renderVenueFactsHtml(show) {
+  const record = venueFactsFor(venueSlug(show.venue, show.city));
+  if (!record) return "";
+  const checked = formatObservationDate(`${record.checked}T00:00:00Z`);
+  return `<section class="nested-panel" aria-labelledby="eventVenueFactsTitle"><h2 id="eventVenueFactsTitle">${escapeHtml(
+    `Getting in at ${record.venue}`
+  )}</h2><ul>${record.facts.map((fact) => `<li>${escapeHtml(fact)}</li>`).join("")}</ul><p class="disclosure-note">${escapeHtml(
+    `From ${record.venue}'s own published rules, read ${checked}. Rules can differ by event and tour, so check your event's listing before you travel. Source: `
+  )}${anchor(record.sourceNote, record.sourceUrl, "text-link", 'target="_blank" rel="noopener nofollow"')}.</p></section>`;
+}
+
 // One event: the facts, the same show card every board renders (so the same
 // CTA gates, /api/out links, price snapshots and lifecycle hold), the recorded
 // low and latest move for the same date where there is one, the per-show
@@ -7081,6 +7130,13 @@ function renderEventPageBody(route, events, env) {
         .map((item) => `<li>${escapeHtml(item)}</li>`)
         .join("")}</ul></section>`
     : "";
+
+  // Richer-page pilot (functions/_event-price-range.js): the per-site span of
+  // listed prices since tracking began, and the venue's own door rules. Both
+  // render only for the pilot dates and only from data that exists.
+  const pilot = !held && isRicherEventPilot(eventId);
+  const priceRangeHtml = pilot ? renderEventPriceRangeHtml(row, route.eventPriceRange) : "";
+  const venueFactsHtml = pilot ? renderVenueFactsHtml(show) : "";
 
   const dateLabel = formatShowDateServer(show.dateTimeISO, show.timezone);
   const localTime = showLocalTimeServer(show.dateTimeISO, show.timezone);
@@ -7172,7 +7228,7 @@ function renderEventPageBody(route, events, env) {
     route
   )}<h1 id="eventTitle">${escapeHtml(`${artist.name} at ${show.venue}, ${show.city} — ${dateLabel}`)}</h1>${leadHtml}<section class="section-grid show-board" aria-labelledby="eventTicketsTitle"><div class="section-intro"><h2 id="eventTicketsTitle">${escapeHtml(
     ticketsHeading
-  )}</h2>${disclosure}</div><div class="card-grid show-card-grid">${cardHtml}</div></section>${pricesHtml}${factsHtml}${contextHtml}${knowHtml}${linksHtml}</section></main>`;
+  )}</h2>${disclosure}</div><div class="card-grid show-card-grid">${cardHtml}</div></section>${pricesHtml}${priceRangeHtml}${factsHtml}${contextHtml}${venueFactsHtml}${knowHtml}${linksHtml}</section></main>`;
 }
 
 function renderMainContent(route, catalog, events = [], guideContent = {}, env = {}) {
@@ -8682,6 +8738,7 @@ async function renderRequest(context) {
   let priceMoveSeries = new Map();
   let edgeValidUntil = null;
   let priceWeekSeries = new Map();
+  let eventPriceRange = new Map();
   let renderEvents = events;
   if ((route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "presale" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || route.type === "event") && events.length) {
     // Query prices for exactly the cards each route renders, not a fixed prefix
@@ -8752,6 +8809,10 @@ async function renderRequest(context) {
     const priceWeekPromise = weeklyIds.length
       ? fetchEventWeeklyPriceSeries(env?.DEMAND_DB || env?.DB, weeklyIds, APPROVED_MARKETPLACE_PRICE_LANES).catch(() => new Map())
       : null;
+    // Richer-page pilot only: one extra read of the durable daily rollup.
+    const priceRangePromise = route.type === "event" && isRicherEventPilot(route.event?.id)
+      ? fetchEventPriceRange(env?.DEMAND_DB || env?.DB, String(route.event.id), APPROVED_MARKETPLACE_PRICE_LANES).catch(() => new Map())
+      : null;
     const pricedShows = await attachApprovedMarketplacePrices(priceCandidates, env);
     if (route.type === "price-guide") edgeValidUntil = edgeValidUntilFor(pricedShows);
     const pricedById = new Map(pricedShows.map((show) => [String(show?.id || ""), show]));
@@ -8765,6 +8826,7 @@ async function renderRequest(context) {
     if (priceLowPromise) priceLowSeries = await priceLowPromise;
     if (priceMovePromise) priceMoveSeries = await priceMovePromise;
     if (priceWeekPromise) priceWeekSeries = await priceWeekPromise;
+    if (priceRangePromise) eventPriceRange = await priceRangePromise;
   }
   timer.mark("prices");
   const guideContent = route.type === "guide" ? await loadGuideContent(env) : {};
@@ -8790,6 +8852,7 @@ async function renderRequest(context) {
   if (priceLowSeries.size) renderRoute = { ...renderRoute, priceLowSeries };
   if (priceMoveSeries.size) renderRoute = { ...renderRoute, priceMoveSeries };
   if (priceWeekSeries.size) renderRoute = { ...renderRoute, priceWeekSeries };
+  if (eventPriceRange.size) renderRoute = { ...renderRoute, eventPriceRange };
   // The event-indexing pilot: an event page renders index,follow only as an
   // active pilot member, and a parent board identifies an active pilot
   // performance by that page's url and @id. Every other route, and every

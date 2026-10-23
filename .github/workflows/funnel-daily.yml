@@ -1,0 +1,67 @@
+name: Nightly funnel check
+
+# Nightly affiliate funnel check (scripts/report-funnel-daily.mjs): visitors,
+# clickers, page-backed redirects by provider with Sub ID coverage, and Impact
+# orders by state joined to TTC click IDs, for the last eight complete UTC days.
+# Flags redirect leaks, lost Sub IDs, providers with no redirect receipts,
+# beacon gaps and no-sales streaks. Rewrites the rolling `automation:funnel-daily`
+# issue and comments only when a new red flag appears.
+#
+# Read-only on D1 (SELECTs only), on Impact (GET Actions only) and on the
+# repository; its only write is that issue. Daily 06:40 UTC.
+
+on:
+  schedule:
+    - cron: '40 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: funnel-daily
+  cancel-in-progress: true
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Self-test
+        run: node scripts/report-funnel-daily.mjs --self-test
+
+      - name: Report and update the funnel issue
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          IMPACT_ACCOUNT_SID: ${{ secrets.IMPACT_ACCOUNT_SID }}
+          IMPACT_AUTH_TOKEN: ${{ secrets.IMPACT_AUTH_TOKEN }}
+          IMPACT_SEATGEEK_CAMPAIGN_ID: ${{ secrets.IMPACT_SEATGEEK_CAMPAIGN_ID }}
+          IMPACT_VIVIDSEATS_PROGRAM_ID: ${{ secrets.IMPACT_VIVIDSEATS_PROGRAM_ID }}
+          IMPACT_TICKETNETWORK_CAMPAIGN_ID: ${{ secrets.IMPACT_TICKETNETWORK_CAMPAIGN_ID }}
+          IMPACT_TICKETLIQUIDATOR_CAMPAIGN_ID: ${{ secrets.IMPACT_TICKETLIQUIDATOR_CAMPAIGN_ID }}
+          IMPACT_STUBHUB_INTERNATIONAL_CAMPAIGN_ID: ${{ secrets.IMPACT_STUBHUB_INTERNATIONAL_CAMPAIGN_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/report-funnel-daily.mjs --issue --markdown "$RUNNER_TEMP/funnel.md"
+
+      - name: Summarise
+        if: always()
+        run: |
+          if [ -s "$RUNNER_TEMP/funnel.md" ]; then
+            cat "$RUNNER_TEMP/funnel.md" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "The funnel check produced nothing; treat today as unknown." >> "$GITHUB_STEP_SUMMARY"
+          fi

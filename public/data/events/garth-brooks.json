@@ -417,5 +417,58 @@
     "organizer_names": [
       "AEG LIVE"
     ]
+  },
+  {
+    "id": "tm-garth-brooks-2026-seattle-vvg1hz_4dkkd9j",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "event_name": "Garth Brooks - Blame It All On My Roots Arena Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2026-11-13T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006550D31BB5DC",
+    "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-seattle-washington-11-12-2026/event/0F006550D31BB5DC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-seattle-washington-11-12-2026/event/0F006550D31BB5DC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006550D31BB5DC",
+        "discovery_event_id": "vvG1HZ_4dKkD9j",
+        "url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-seattle-washington-11-12-2026/event/0F006550D31BB5DC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_4dKkD9j",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

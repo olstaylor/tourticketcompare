@@ -2471,6 +2471,60 @@ function renderArtistIndexTilesHtml(catalog, events = [], now = Date.now()) {
   }`;
 }
 
+// Revenue-per-visitor test 2 (2026-10-23): the homepage had no ticket button at
+// all (D1, 9-23 Oct: 163 visitor-days, none saw or clicked one). It now shows
+// the next date of the first two featured artists with an indexable page, each
+// as the artist page's next-dates table: lowest listed price as the button, its
+// checked time and a link to that date's card. The picks follow the featured
+// order the tiles below already use, so no new ranking is introduced.
+const HOMEPAGE_PRICE_PICKS = 2;
+
+function homepagePricePicks(catalog, events, isIndexable, now = Date.now()) {
+  const { primary } = splitArtistsByUpcoming(catalog?.artists, events, now);
+  const picks = [];
+  for (const artist of primary) {
+    if (!isIndexable(artist)) continue;
+    const show = futureShowsForArtist(events, artist.slug, 1)[0];
+    if (show) picks.push({ artist, show });
+    if (picks.length === HOMEPAGE_PRICE_PICKS) break;
+  }
+  return picks;
+}
+
+// The artists picked for this request, from the artists file's indexing status
+// (the catalog does not carry it), by the same rule the artist page uses.
+async function homepagePickSlugs(catalog, events, env) {
+  const metaBySlug = new Map((await loadArtistsMeta(env)).filter(Boolean).map((artist) => [slugify(artist.slug), artist]));
+  return homepagePricePicks(catalog, events, (artist) => artistPageIndexable(metaBySlug.get(slugify(artist.slug)), events, artist.slug))
+    .map(({ artist }) => artist.slug);
+}
+
+function renderHomepagePriceAnswers(route, catalog, events, env) {
+  const bySlug = new Map((catalog?.artists || []).map((artist) => [artist.slug, artist]));
+  const picks = (route.homePickSlugs || [])
+    .map((slug) => ({ artist: bySlug.get(slug), show: futureShowsForArtist(events, slug, 1)[0] }))
+    .filter(({ artist, show }) => artist && show);
+  if (!picks.length) return "";
+  const availability = {
+    seatGeekAvailable: isSeatGeekConfigured(env),
+    vividSeatsAvailable: isVividSeatsConfigured(env),
+    marketplaceAvailability: Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)]))
+  };
+  const panels = picks
+    .map(({ artist, show }, index) =>
+      renderArtistNextDatesPriceAnswer(artist, [show], availability, {
+        heading: `Next ${artist.name} date`,
+        caption: `Ticket options for the next ${artist.name} date`,
+        titleId: `homeNextDate${index}`,
+        ctaLocation: "home_answer",
+        cardHrefFor: (cardAnchor) => `/artists/${artist.slug}#${cardAnchor}`
+      })
+    )
+    .filter(Boolean);
+  if (!panels.length) return "";
+  return `<section class="section-grid home-section home-next-dates" aria-label="Next dates with lowest listed prices">${panels.join("")}${renderMoneyDisclosureHtml()}</section>`;
+}
+
 function renderHomepageArtistLinks(catalog, events = [], now = Date.now()) {
   const { primary, secondary } = splitArtistsByUpcoming(catalog.artists, events, now);
   const tiles = (artists) => artists.map((artist) => homepageArtistTile(catalog, artist, events, now)).join("");
@@ -5532,9 +5586,9 @@ export function renderArtistNextDatesPriceAnswer(artist, shows, availability, su
   });
   const placeById = new Map(nextShows.map((show) => [String(show.id || ""), [show.city, show.venue].filter(Boolean).join(" · ")]));
   return renderArtistCityPriceAnswer(artist, { city: "" }, priceAnswer, new Map(), new Map(), {
-    heading: `Next ${artist.name} dates`,
-    caption: `Ticket options for the next ${artist.name} dates`,
-    titleId: "artistNextDatesTitle",
+    heading: surface.heading || `Next ${artist.name} dates`,
+    caption: surface.caption || `Ticket options for the next ${artist.name} dates`,
+    titleId: surface.titleId || "artistNextDatesTitle",
     ticketOptionsByShowId: new Map(nextShows.map((show) => [String(show.id || ""), {
       count: specsByShowId.get(String(show.id || "")).length,
       status: publicOnsalePending(show) ? publicOnsaleLabel(show) : ""
@@ -8036,7 +8090,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   // second. Search and its results sit in the hero; the artist list is compact;
   // the explainer copy is kept, word for word, in one closed <details> at the
   // foot so it stays in the HTML without pushing the lists down the page.
-  return `<main id="mainContent"><div id="ttc-main"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">${HOME_HEADLINE}</h1><p class="hero-subcopy">${HOME_SUBCOPY}</p><form class="hero-search-form" role="search" aria-label="Search artists, events, and guides"><label class="sr-only" for="site-search">Search by artist, city, country, venue, or tour</label><input class="hero-search-input" type="search" id="site-search" name="q" placeholder="Artist, city or venue" aria-label="Search by artist, city, country, venue, or tour" autocomplete="off" spellcheck="false" enterkeyhint="search" /><button class="button button-primary hero-search-submit" type="submit">Search</button></form></div><section id="search-widget" class="search-section" aria-labelledby="searchSectionTitle" hidden><h2 id="searchSectionTitle" class="home-search-title">Search results</h2><p id="searchWidgetIntro" class="sr-only">Matches from checked artists, upcoming dates, and buying guides.</p><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section></section><section id="featured-artists" class="section-grid home-section" aria-labelledby="homeArtistsTitle"><div class="home-section__head"><h2 id="homeArtistsTitle">Artists on tour</h2>${anchor(
+  return `<main id="mainContent"><div id="ttc-main"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">${HOME_HEADLINE}</h1><p class="hero-subcopy">${HOME_SUBCOPY}</p><form class="hero-search-form" role="search" aria-label="Search artists, events, and guides"><label class="sr-only" for="site-search">Search by artist, city, country, venue, or tour</label><input class="hero-search-input" type="search" id="site-search" name="q" placeholder="Artist, city or venue" aria-label="Search by artist, city, country, venue, or tour" autocomplete="off" spellcheck="false" enterkeyhint="search" /><button class="button button-primary hero-search-submit" type="submit">Search</button></form></div><section id="search-widget" class="search-section" aria-labelledby="searchSectionTitle" hidden><h2 id="searchSectionTitle" class="home-search-title">Search results</h2><p id="searchWidgetIntro" class="sr-only">Matches from checked artists, upcoming dates, and buying guides.</p><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section></section>${renderHomepagePriceAnswers(route, catalog, events, env)}<section id="featured-artists" class="section-grid home-section" aria-labelledby="homeArtistsTitle"><div class="home-section__head"><h2 id="homeArtistsTitle">Artists on tour</h2>${anchor(
     "All artists",
     HOME_PRIMARY_CTA_HREF,
     "text-link"
@@ -8683,7 +8737,8 @@ async function renderRequest(context) {
   let edgeValidUntil = null;
   let priceWeekSeries = new Map();
   let renderEvents = events;
-  if ((route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "presale" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || route.type === "event") && events.length) {
+  let homePickSlugs = null;
+  if ((route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "presale" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || route.type === "event" || route.path === "/") && events.length) {
     // Query prices for exactly the cards each route renders, not a fixed prefix
     // of the board. A card the server never queried can neither show a snapshot
     // nor honestly report one as absent, so the old six-show slice left the rest
@@ -8721,6 +8776,9 @@ async function renderRequest(context) {
         .filter((event) => locationShowIds.has(String(event?.id || "")))
         .map((event) => futureShowsForArtist([event], event.artist_slug, 1)[0])
         .filter(Boolean);
+    } else if (route.path === "/") {
+      homePickSlugs = await homepagePickSlugs(catalog, events, env);
+      priceCandidates = homePickSlugs.map((slug) => futureShowsForArtist(events, slug, 1)[0]).filter(Boolean);
     } else {
       priceCandidates = publishableFutureShows(events, 6);
     }
@@ -8777,6 +8835,7 @@ async function renderRequest(context) {
     (route.path === "/" || route.path === "/guides") &&
     blogIndexIndexable(deriveBlogPosts(await loadBlogContent(env)));
   let renderRoute = promotesBlog ? { ...route, blogPromotable: true } : route;
+  if (homePickSlugs) renderRoute = { ...renderRoute, homePickSlugs };
   if (route.type === "artist") {
     const artistBlogPosts = postsForArtist(deriveBlogPosts(await loadBlogContent(env)), route.artist.slug);
     if (artistBlogPosts.length) renderRoute = { ...renderRoute, artistBlogPosts };

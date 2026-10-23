@@ -235,7 +235,10 @@ export const CTA_LOCATIONS = Object.freeze([
   "price_guide",
   // The per-date resale table on an artist presale page
   // (/artists/<artist>/presale), owner-approved 2026-10-09.
-  "presale_page"
+  "presale_page",
+  // The next-date price tables under the homepage hero (owner-approved
+  // 2026-10-23, revenue-per-visitor test 2).
+  "home_answer"
 ]);
 
 const CTA_LOCATION_SET = new Set(CTA_LOCATIONS);

@@ -1270,8 +1270,8 @@ for (const { pathname, expectTypes, noTypes } of jsonLdRoutes) {
 
 const seoGuide = await routeResponse("/guides/how-to-compare-concert-ticket-prices");
 assert(
-  seoGuide.text.includes(`By <a class="text-link" href="/about">TourTicketCompare</a>`) && !seoGuide.text.includes('href="/about/ollie-taylor"'),
-  "guide raw HTML should expose the site byline and not link the creator page"
+  seoGuide.text.includes(`By <a class="text-link" href="/about">TourTicketCompare</a> · Reviewed by <a class="text-link" href="/about/ollie-taylor">Ollie Taylor</a>`),
+  "guide raw HTML should expose the site byline and the reviewer, linked to the creator page"
 );
 assert(seoGuide.text.includes("<h2>Sources</h2>"), "guide raw HTML should expose primary sources");
 const seoGuideLd = extractJsonLd(seoGuide.text);
@@ -1293,6 +1293,10 @@ assert(
 assert(
   !seoGuideLd?.["@graph"]?.some((node) => node?.["@type"] === "Person") && seoOrganization?.founder === undefined,
   "a non-author page should carry no Person node and no founder reference"
+);
+assert(
+  seoGuideArticle?.editor?.["@id"] === "https://tourticketcompare.com/about/ollie-taylor#ollie-taylor",
+  "guide Article schema should name the reviewer as editor by the creator page's Person @id"
 );
 const creatorPage = await routeResponse("/about/ollie-taylor");
 assert(creatorPage.response.status === 200, "the creator page should stay live");

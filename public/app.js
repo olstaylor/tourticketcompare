@@ -2362,8 +2362,8 @@ function renderShowCard(show, options = {}) {
     runLine.append(chip, document.createTextNode(" at this venue"));
     body.append(runLine);
   }
-  const organizers = Array.isArray(show.organizer_names) ? show.organizer_names.filter((name) => typeof name === "string" && name.trim()) : [];
-  if (organizers.length) text(body, "p", `Organizer: ${organizers.join(", ")}`, "show-card-sub muted");
+  // Organizer names stay in structured data only: they are Ticketmaster
+  // promoter account labels, not names a buyer needs (owner, 2026-10-23).
   // The shows API validates this end against the venue-aware start.
   if (show.end_datetime_iso) {
     text(body, "p", `Ends: ${formatShowDate(show.end_datetime_iso, show.timezone)} ${showLocalTime(show.end_datetime_iso, show.timezone, true)}`, "show-card-sub muted");

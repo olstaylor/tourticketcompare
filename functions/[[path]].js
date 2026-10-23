@@ -88,9 +88,12 @@ const PUBLIC_HTML_ROUTES = new Set([
 // The creator's standalone page. One copy of the bio serves the visible page
 // and the Person node's `description`, so the two can never disagree.
 //
-// Owner direction 2026-09-24: the page stays live and is linked from /about
-// only. Bylines, Article/BlogPosting/HowTo `author` and the Organization carry
-// the site's name, not the creator's, and no other page emits the Person node.
+// Owner direction 2026-09-24: bylines, Article/BlogPosting/HowTo `author` and
+// the Organization carry the site's name, not the creator's, and no other page
+// emits the full Person node. Owner direction 2026-10-23: guides and blog posts
+// add "Reviewed by Ollie Taylor", linked here, because he reads each one before
+// it publishes; their schema names him as `editor` by @id. Automated pages
+// (artist, city, venue, event) do not, since nobody reviews those by hand.
 const AUTHOR_NAME = "Ollie Taylor";
 const AUTHOR_PATH = "/about/ollie-taylor";
 const AUTHOR_LINKEDIN_URL = "https://www.linkedin.com/in/ollie-taylor-014a28182/";
@@ -146,6 +149,12 @@ function personSchema(origin) {
 const SITE_BYLINE_NAME = "TourTicketCompare";
 function siteBylineHtml() {
   return `By ${anchor(SITE_BYLINE_NAME, "/about", "text-link")}`;
+}
+function reviewerBylineHtml() {
+  return ` · Reviewed by ${anchor(AUTHOR_NAME, AUTHOR_PATH, "text-link")}`;
+}
+function reviewerSchemaRef(origin) {
+  return { "@type": "Person", "@id": authorId(origin), name: AUTHOR_NAME, url: `${origin}${AUTHOR_PATH}` };
 }
 
 // The homepage proposition has three renderers: this server template, the
@@ -1436,10 +1445,12 @@ function musicEventName(show, artistName) {
 // invariant holds identically on every page type. `performer` is a reference to
 // the page's Person/MusicGroup node on artist pages and an inline
 // Person/MusicGroup on venue/city pages, which aggregate multiple artists.
+// Organizer names stay in the Event schema only. Ticketmaster records them as
+// promoter account labels ("LIVE NATION CANADA-ROGERS", "SJM LIMITED (NEW)"),
+// which read as clutter on a date card and help no buyer (owner, 2026-10-23).
 function renderOfficialMetadata(show) {
-  const names = organizerNames(show.organizer_names, [show.artist_name, show.venue]);
   const end = eventEndDate(show);
-  const parts = [names.length ? `Organizer: ${escapeHtml(names.join(", "))}` : "", end ? `Ends: <time datetime="${escapeAttr(end)}">${escapeHtml(formatShowDateServer(end, show.timezone))} ${escapeHtml(showLocalTimeServer(end, show.timezone, true))}</time>` : ""].filter(Boolean);
+  const parts = [end ? `Ends: <time datetime="${escapeAttr(end)}">${escapeHtml(formatShowDateServer(end, show.timezone))} ${escapeHtml(showLocalTimeServer(end, show.timezone, true))}</time>` : ""].filter(Boolean);
   return parts.length ? `<p class="show-card-sub muted">${parts.join(" · ")}</p>` : "";
 }
 
@@ -1781,6 +1792,7 @@ function articleSchema(route, origin, guideEntry = {}) {
     url: `${origin}${route.path}`,
     image: `${origin}/og-image.png`,
     author: { "@id": organizationId },
+    editor: reviewerSchemaRef(origin),
     publisher: { "@id": organizationId },
     isPartOf: { "@id": `${origin}/#website` },
     inLanguage: "en",
@@ -1814,6 +1826,7 @@ function blogPostingSchema(route, origin) {
       post.author === SITE_BYLINE_NAME
         ? { "@id": organizationId }
         : { "@type": "Person", name: post.author },
+    editor: post.author === SITE_BYLINE_NAME ? reviewerSchemaRef(origin) : undefined,
     publisher: { "@id": organizationId },
     isPartOf: { "@id": `${origin}/#website` },
     inLanguage: "en",
@@ -4591,7 +4604,7 @@ function renderGuideProvenance(route) {
     published ? `Published ${published}` : "",
     updated ? `Updated ${updated}` : ""
   ].filter(Boolean);
-  return `<div class="guide-provenance"><p>${siteBylineHtml()}${dates.length ? ` · ${escapeHtml(dates.join(" · "))}` : ""}</p><p class="disclosure-note">Guides are reviewed against primary provider and regulator sources. See the ${anchor(
+  return `<div class="guide-provenance"><p>${siteBylineHtml()}${reviewerBylineHtml()}${dates.length ? ` · ${escapeHtml(dates.join(" · "))}` : ""}</p><p class="disclosure-note">Guides are reviewed against primary provider and regulator sources. See the ${anchor(
     "editorial policy",
     "/editorial-policy",
     "text-link"
@@ -4699,7 +4712,7 @@ function renderBlogProvenance(post) {
   const dates = [published ? `Published ${published}` : "", updated ? `Updated ${updated}` : ""].filter(Boolean);
   // anchor() escapes its own label — do not pre-escape, or an author name
   // containing & or an apostrophe renders double-escaped.
-  const byline = post.author === SITE_BYLINE_NAME ? siteBylineHtml() : `By ${escapeHtml(post.author)}`;
+  const byline = post.author === SITE_BYLINE_NAME ? `${siteBylineHtml()}${reviewerBylineHtml()}` : `By ${escapeHtml(post.author)}`;
   return `<div class="guide-provenance"><p>${byline}${
     dates.length ? ` · ${escapeHtml(dates.join(" · "))}` : ""
   }</p><p class="disclosure-note">TourTicketCompare is an independent, unofficial site and does not sell tickets. Some outbound ticket links earn a commission, which never changes what gets published — see the ${anchor(
@@ -5627,7 +5640,7 @@ export function renderOnsaleCalendarBody(route) {
   const presales = route.presales || { artists: [], windowCount: 0, artistCount: 0 };
   const presaleHtml = presales.artists.length
     ? `<section aria-labelledby="onsalePresaleTitle"><h2 id="onsalePresaleTitle">Presales open now or opening soon</h2><p>${escapeHtml(
-        `${plural(presales.windowCount, "presale", "presales")} for ${plural(presales.artistCount, "artist", "artists")}, open now or opening in the next ${PRESALE_LOOKAHEAD_DAYS} days. Times are in the first listed venue's local time. Codes aren't shared here.`
+        `${plural(presales.windowCount, "presale", "presales")} for ${plural(presales.artistCount, "artist", "artists")}, opened in the last ${PRESALE_PAGE_FRESH_DAYS} days or opening in the next ${PRESALE_LOOKAHEAD_DAYS} days. Longer-running VIP and card sales are on each artist's presale page. Times are in the first listed venue's local time. Codes aren't shared here.`
       )}</p>${presales.artists.map(renderOnsalePresaleArtistHtml).join("")}</section>`
     : "";
   return `<main id="mainContent"><section class="content-page" aria-labelledby="onsaleTitle">${renderBreadcrumbHtml(
@@ -7039,7 +7052,6 @@ function renderEventPageBody(route, events, env) {
     ["Artist", anchor(artist.name, `/artists/${artist.slug}`, "text-link")],
     eventName && eventName.toLowerCase() !== artist.name.toLowerCase() ? ["Billed as", escapeHtml(eventName)] : null,
     show.tour_name ? ["Tour", escapeHtml(show.tour_name)] : null,
-    organizerNames(show.organizer_names, [show.artist_name, show.venue]).length ? ["Organizer", escapeHtml(organizerNames(show.organizer_names, [show.artist_name, show.venue]).join(", "))] : null,
     eventEndDate(show) ? ["Ends", escapeHtml(`${formatShowDateServer(show.end_datetime_iso, show.timezone)} ${showLocalTimeServer(show.end_datetime_iso, show.timezone, true)}`)] : null,
     ["Venue", escapeHtml(show.venue)],
     ["City", escapeHtml([show.city, show.country ? normalizeCountry(show.country) : ""].filter(Boolean).join(", "))],

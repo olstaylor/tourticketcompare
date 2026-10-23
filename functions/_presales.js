@@ -193,8 +193,12 @@ export function deriveArtistPresales(events, artistSlug, now = Date.now()) {
 }
 
 /**
- * Presale windows open now or opening within PRESALE_LOOKAHEAD_DAYS, grouped
- * by artist, for /on-sale. Artists are ordered by their earliest window.
+ * Presale windows opening within PRESALE_LOOKAHEAD_DAYS, or open now and
+ * opened within PRESALE_PAGE_FRESH_DAYS, grouped by artist, for /on-sale.
+ * Artists are ordered by their earliest window. Standing channels that opened
+ * with the tour (VIP packages, card allocations) stay on the artist's presale
+ * page; on a calendar of sales "going on sale" they buried the real presales
+ * under months-old windows, the same reason the presale page gate ignores them.
  *
  * @param {any[]} events
  * @param {number} [now]
@@ -208,7 +212,9 @@ export function deriveUpcomingPresales(events, now = Date.now()) {
   }
   const artists = [];
   for (const artist of byArtist.values()) {
-    const windows = groupWindows(artist.events, now, PRESALE_LOOKAHEAD_DAYS);
+    const windows = groupWindows(artist.events, now, PRESALE_LOOKAHEAD_DAYS).filter(
+      (window) => !window.open || now - window.startMs <= PRESALE_PAGE_FRESH_DAYS * DAY_MS
+    );
     if (windows.length) artists.push({ artistSlug: artist.artistSlug, artistName: artist.artistName, windows });
   }
   artists.sort((a, b) => a.windows[0].startMs - b.windows[0].startMs || a.artistName.localeCompare(b.artistName));

@@ -147,6 +147,8 @@ const EVENTS = [
   const calendar = deriveUpcomingPresales(EVENTS, NOW_MS);
   assert(calendar.artistCount === 2 && calendar.windowCount === 4, "/on-sale lists every artist's live windows within the lookahead");
   assert(calendar.artists[0].artistSlug === "oasis", "artists order by their earliest window");
+  const staleCalendar = deriveUpcomingPresales([fixtureEvent({ id: "ps-stale-cal", city: "Leeds", venue: "Roundhay Park", iso: iso(NOW_MS + 90 * DAY), presales: [STALE] })], NOW_MS);
+  assert(staleCalendar.windowCount === 0, "/on-sale leaves out a window that has been open for months");
 
   assert(deriveIndexablePresalePages(EVENTS, ["oasis"], NOW_MS).map((page) => page.path).join() === "/artists/oasis/presale", "only indexable artists' near presales are listed for the sitemap");
   assert(deriveIndexablePresalePages(EVENTS, [], NOW_MS).length === 0, "a non-indexable artist has no listed presale page");

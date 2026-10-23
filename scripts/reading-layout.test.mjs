@@ -1,0 +1,24 @@
+import assert from "node:assert/strict";
+import { readingLayout } from "../functions/_reading-layout.js";
+
+const article = `<main id="mainContent"><section class="content-page guide-page" aria-labelledby="guideTitle"><nav>Breadcrumbs</nav><h1 id="guideTitle">Buying tickets</h1><p class="lead">An introduction.</p><div class="guide-provenance">By TourTicketCompare</div><section class="nested-panel"><p>The opening paragraph.</p></section><section class="nested-panel"><h2 id="reading-section-1">Seats &amp; views</h2><p>Seat advice.</p></section><section class="nested-panel"><h2>Fees &lt; checkout total</h2><p>Fee advice.</p></section><section class="nested-panel"><h2><em>Delivery</em></h2><a href="/artists">Find tickets</a></section><div class="action-row">Next steps</div></section></main>`;
+const rendered = readingLayout(article, { type: "guide", path: "/guides/buying-tickets" });
+assert.match(rendered, /reading-page/);
+const header = rendered.match(/<header class="reading-heading">([\s\S]*?)<\/header>/)[1];
+assert(header.includes('id="guideTitle"') && header.includes('class="lead"') && header.includes('class="guide-provenance"'));
+assert(!header.includes("The opening paragraph."), "the opening article paragraph stays in the reading column");
+const body = rendered.match(/<div class="reading-body">([\s\S]*)<\/div><\/div><\/section><\/main>$/)[1];
+assert(body.includes("The opening paragraph.") && body.includes('href="/artists"') && body.includes("Next steps"));
+const ids = [...rendered.matchAll(/\bid="([^"]+)"/g)].map((match) => match[1]);
+assert.equal(new Set(ids).size, ids.length, "existing heading IDs cannot collide with generated anchors");
+const nav = rendered.match(/<nav aria-label="On this page">([\s\S]*?)<\/nav>/)[1];
+for (const [, id] of nav.matchAll(/href="#([^"]+)"/g)) assert(ids.includes(id), `section link ${id} must resolve`);
+assert(nav.includes("Seats &amp; views") && nav.includes("Fees &lt; checkout total"), "entities stay escaped in link labels");
+assert(!nav.includes("<em>"), "navigation strips inline markup while the article keeps it");
+assert(body.includes("<em>Delivery</em>"));
+assert.equal(readingLayout(article, { type: "artist", path: "/artists/test" }), article, "ticket pages retain their board layout");
+assert.equal(readingLayout("<main>Missing page</main>", { type: "guide" }), "<main>Missing page</main>");
+const short = readingLayout(article.replace(/<h2[^>]*>[\s\S]*?<\/h2>/g, ""), { type: "guide" });
+assert(!short.includes('aria-label="On this page"'), "pages without section headings need no empty navigation");
+assert(short.includes("reading-layout--single"));
+console.log("reading-layout: article preservation, escaping, unique anchors and ticket-page isolation passed");

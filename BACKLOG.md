@@ -1,10 +1,22 @@
 # TourTicketCompare Backlog
 
-Owner-managed. Agents may correct facts (dated) but not reorder or re-scope priorities. Finished work leaves this file; the PR and git history keep its record. Last condensed 2026-10-02 at the owner's request (wording and shipped history removed; no item reordered or re-scoped).
+Owner-managed. Agents may correct facts (dated) but not reorder or re-scope priorities without explicit owner direction. Finished work leaves this file; the PR and git history keep its record. Last condensed 2026-10-02 at the owner's request (wording and shipped history removed; no item reordered or re-scoped).
 
-## Active priorities (in order)
+## 90-day priorities (set 2026-10-23)
 
-Items 1–5 are operational (owner plus gated tooling), not engineering.
+These priorities guide work across the repository for the next 90 days, through 2027-01-21. Use this order when choosing or proposing work; the existing queues below supply tasks that support it.
+
+1. **Make the affiliate funnel trustworthy.** Confirm which real visitors are clicking offers, which purchases are attributed, and which commissions are ultimately approved. Keep human traffic separate from bots, retries and internal tests, and distinguish clicks, purchases, pending commissions and approved commissions. Time-box investigation to the evidence needed for decisions; do not spend weeks endlessly auditing.
+2. **Concentrate on the highest-value event pages.** Prioritise concerts where demand, ticket availability, purchase intent and affiliate opportunities overlap. Use verified sources and existing reports; record missing evidence rather than inventing a ranking.
+3. **Improve revenue per visitor.** Test ticket comparison layouts, offer visibility, provider selection and calls to action. Define the outcome before changing a page, and assess purchases and approved commission alongside clicks, allowing for attribution and approval delays.
+4. **Scale what actually converts.** Once profitable traffic can be identified, replicate successful page structures across more events and artists. Expansion should follow conversion evidence rather than page or artist counts alone.
+5. **Automate routine operations.** Use Codex to maintain listings, test redirects, flag failures and surface opportunities. Prefer reducing recurring work over constantly creating new features.
+
+Choose small, measurable changes that advance these priorities. These priorities guide task selection; they do not waive verified-data requirements, protected-area scope, publishing gates or parked-work approvals. Explicit user requests determine the scope of each task.
+
+## Existing work queues
+
+Queues 1–5 are operational (owner plus gated tooling), not engineering; select work from them using the priorities above.
 
 ### 1. Affiliate-pivot owner follow-ups
 

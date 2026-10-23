@@ -63,6 +63,25 @@ export async function onRequest(context) {
     });
   }
 
+  // Ticket redirects are served only on the real site. Cloudflare WAF rules
+  // cover the custom domain but not *.pages.dev, so a crawler that forges
+  // /api/out requests there reached the redirect and every ticket site counted
+  // the clicks (2026-10-23: about 100 receipts an hour kept arriving after the
+  // WAF rule on tourticketcompare.com began returning 403). Visitors never use
+  // a pages.dev address for this: every button on the site is a same-origin
+  // link on the canonical host. Previews still render pages; only the redirect
+  // is withheld.
+  if (pathname === "/api/out" && /\.pages\.dev$/i.test(url.hostname)) {
+    return new Response("Not found.\n", {
+      status: 404,
+      headers: {
+        "Content-Type": "text/plain; charset=UTF-8",
+        "Cache-Control": "no-store",
+        "X-Robots-Tag": "noindex, nofollow"
+      }
+    });
+  }
+
   // /admin/ must normalize before the pass-through below, which matches on the
   // normalized path and would otherwise hand "/admin/" to asset serving as-is
   // and 404. Scoped to this one route so no /api/ path changes behaviour.

@@ -130,6 +130,8 @@
     "report:commercial-funnel:self-test": "node scripts/report-commercial-funnel.mjs --self-test",
     "report:plan-scoreboard": "node scripts/report-plan-scoreboard.mjs",
     "report:plan-scoreboard:self-test": "node scripts/report-plan-scoreboard.mjs --self-test",
+    "report:funnel-daily": "node scripts/report-funnel-daily.mjs",
+    "report:funnel-daily:self-test": "node scripts/report-funnel-daily.mjs --self-test",
     "report:show-priority": "node scripts/report-show-priority.mjs",
     "report:show-priority:self-test": "node scripts/report-show-priority.mjs --self-test",
     "report:seo-opportunities": "node scripts/report-seo-opportunities.mjs",

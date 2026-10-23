@@ -72,6 +72,12 @@ assert(new Set(guides.PRICE_GUIDE_ARTISTS).size === guides.PRICE_GUIDE_ARTISTS.l
   for (const reason of ["below_show_threshold", "below_city_threshold", "below_price_coverage_threshold"]) {
     assert(thin.reasons.includes(reason), `the gate reports ${reason}`);
   }
+  const residency = policy.priceGuideGate({ showCount: 10, cityCount: 1, publishableCount: 10, snapshotReadyCount: 10, comparableCount: 4 });
+  assert(residency.indexable && residency.reasons.length === 0, "a 10-date single-city residency with priced dates is indexable");
+  const shortRun = policy.priceGuideGate({ showCount: 9, cityCount: 1, publishableCount: 9, snapshotReadyCount: 9, comparableCount: 4 });
+  assert(!shortRun.indexable && shortRun.reasons.includes("below_city_threshold"), "nine dates in one city is still below the city threshold");
+  const unpricedResidency = policy.priceGuideGate({ showCount: 14, cityCount: 1, publishableCount: 14, snapshotReadyCount: 14, comparableCount: 0 });
+  assert(!unpricedResidency.indexable && unpricedResidency.reasons.includes("no_price_comparison"), "a residency still needs a date with 2+ priced sites");
 }
 
 // ─── part 2: price moves ────────────────────────────────────────────────────

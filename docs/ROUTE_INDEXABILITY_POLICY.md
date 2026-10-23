@@ -529,7 +529,8 @@ tours, or artist under review) **301s to the artist page** and renders again
 when the next run lands.
 
 **Indexable when** it has ≥ 6 upcoming dates (`PRICE_GUIDE_MIN_SHOWS`) in ≥ 2
-cities (`PRICE_GUIDE_MIN_CITIES`), ≥ 1 publishable, and ≥ 3 of them carry
+cities (`PRICE_GUIDE_MIN_CITIES`; one city is enough for a residency of ≥ 10
+dates, `PRICE_GUIDE_RESIDENCY_MIN_SHOWS`, owner decision 2026-10-23), ≥ 1 publishable, and ≥ 3 of them carry
 verified provenance on a listed-price snapshot lane
 (`PRICE_GUIDE_MIN_SNAPSHOT_READY_SHOWS`, `priceGuideGate`) — **and** the artist
 page itself is indexable, so a guide never outranks its parent. The snapshot

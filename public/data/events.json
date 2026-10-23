@@ -284860,5 +284860,167 @@
     "timezone": "Australia/Brisbane",
     "status": "announced",
     "public_onsale_at": "2026-10-27T02:00:00Z"
+  },
+  {
+    "id": "tm-zach-bryan-2027-vancouver-1k78vp4fgacgpjm",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "event_name": "Zach Bryan",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "BC Place",
+    "datetime_iso": "2027-07-28T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110065548ED5672E",
+    "ticketmaster_url": "https://www.ticketmaster.ca/zach-bryan-vancouver-british-columbia-07-27-2027/event/110065548ED5672E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/zach-bryan-vancouver-british-columbia-07-27-2027/event/110065548ED5672E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110065548ED5672E",
+        "discovery_event_id": "1k78vP4FGACgpjm",
+        "url": "https://www.ticketmaster.ca/zach-bryan-vancouver-british-columbia-07-27-2027/event/110065548ED5672E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k78vP4FGACgpjm",
+    "timezone": "America/Vancouver",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T17:00:00Z"
+  },
+  {
+    "id": "tm-zach-bryan-2027-edmonton-16v7z_43bg7l9tm",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "event_name": "Zach Bryan",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Commonwealth Stadium / Stade du Commonwealth",
+    "datetime_iso": "2027-08-01T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100655498AD7FF7",
+    "ticketmaster_url": "https://www.ticketmaster.ca/zach-bryan-edmonton-alberta-07-31-2027/event/1100655498AD7FF7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/zach-bryan-edmonton-alberta-07-31-2027/event/1100655498AD7FF7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100655498AD7FF7",
+        "discovery_event_id": "16v7Z_43bG7l9TM",
+        "url": "https://www.ticketmaster.ca/zach-bryan-edmonton-alberta-07-31-2027/event/1100655498AD7FF7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16v7Z_43bG7l9TM",
+    "timezone": "America/Edmonton",
+    "status": "announced",
+    "public_onsale_at": "2026-10-23T16:00:00Z"
+  },
+  {
+    "id": "tm-dinosaur-jr-2027-auckland-1a0zk4fgkei-ffe",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr.",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Great Hall, Auckland Town Hall",
+    "datetime_iso": "2027-01-16T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "24006554A8854527",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/dinosaur-jr-auckland-16-01-2027/event/24006554A8854527",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/dinosaur-jr-auckland-16-01-2027/event/24006554A8854527",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "24006554A8854527",
+        "discovery_event_id": "1A0Zk4fGkeI-ffE",
+        "url": "https://www.ticketmaster.co.nz/dinosaur-jr-auckland-16-01-2027/event/24006554A8854527",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A0Zk4fGkeI-ffE",
+    "timezone": "Pacific/Auckland",
+    "status": "announced",
+    "public_onsale_at": "2026-10-26T23:00:00Z"
   }
 ]

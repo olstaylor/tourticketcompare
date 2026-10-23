@@ -47430,5 +47430,41 @@
     "timezone": "Australia/Brisbane",
     "tour_name": "",
     "status": "announced"
+  },
+  {
+    "id": "tm-zach-bryan-2027-vancouver-1k78vp4fgacgpjm",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "country": "Canada",
+    "city": "Vancouver",
+    "venue": "BC Place",
+    "datetime_iso": "2027-07-28T02:00:00Z",
+    "timezone": "America/Vancouver",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-zach-bryan-2027-edmonton-16v7z_43bg7l9tm",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "country": "Canada",
+    "city": "Edmonton",
+    "venue": "Commonwealth Stadium / Stade du Commonwealth",
+    "datetime_iso": "2027-08-01T00:30:00Z",
+    "timezone": "America/Edmonton",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-dinosaur-jr-2027-auckland-1a0zk4fgkei-ffe",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "country": "New Zealand",
+    "city": "Auckland",
+    "venue": "Great Hall, Auckland Town Hall",
+    "datetime_iso": "2027-01-16T07:00:00Z",
+    "timezone": "Pacific/Auckland",
+    "tour_name": "",
+    "status": "announced"
   }
 ]

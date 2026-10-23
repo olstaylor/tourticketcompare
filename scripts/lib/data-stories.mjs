@@ -46,11 +46,11 @@ export const STORY_GATE = {
 
 export const TOUR_MAP_SLUG_PREFIX = "where-the-big-concert-tours-are-playing-in";
 
-function trimmed(value) {
+export function trimmed(value) {
   return String(value ?? "").trim();
 }
 
-function isoDay(ms) {
+export function isoDay(ms) {
   return new Date(ms).toISOString().slice(0, 10);
 }
 
@@ -176,7 +176,7 @@ function percent(part, whole) {
 }
 
 // "The United States", "the Netherlands"; other names take no article.
-function countryName(name, sentenceStart = false) {
+export function countryName(name, sentenceStart = false) {
   if (!/^(United |Netherlands$|Philippines$|Czech Republic$)/.test(name)) return name;
   return `${sentenceStart ? "The" : "the"} ${name}`;
 }
@@ -185,7 +185,7 @@ function linked(row) {
   return row.path ? `[${row.label}](${row.path})` : row.label;
 }
 
-function longDate(iso) {
+export function longDate(iso) {
   const [y, m, d] = iso.split("-").map(Number);
   return `${d} ${MONTHS[m - 1]} ${y}`;
 }
@@ -474,7 +474,7 @@ export function priceMovesGate(figures) {
   return { sites, reasons: sites.length ? [] : ["no ticket site has enough upcoming dates with a reading about 30 days apart"] };
 }
 
-function shortDate(iso) {
+export function shortDate(iso) {
   const [, m, d] = iso.split("-").map(Number);
   return `${d} ${MONTHS[m - 1]}`;
 }
@@ -569,6 +569,76 @@ export const CITY_PRICE_GATE = {
 const CITY_PRICE_SITE_BY_NAME = new Map([...PRICE_MOVE_SITES].map(([slug, name]) => [name, slug]));
 
 /**
+ * showId -> site slug -> the gated snapshot a button would print, for the
+ * price-lane sites whose buttons production renders and whose capture is
+ * inside the age cap.
+ *
+ * @param {any[]} pricedShows Upcoming shows after `attachApprovedMarketplacePrices`.
+ * @param {{ now: number, availableSites?: Set<string> }} options
+ */
+export function gatherPriceLanes(pricedShows, { now, availableSites = new Set() }) {
+  const lanes = new Map();
+  for (const show of Array.isArray(pricedShows) ? pricedShows : []) {
+    for (const lane of Array.isArray(show?.prices) ? show.prices : []) {
+      const site = CITY_PRICE_SITE_BY_NAME.get(trimmed(lane?.provider));
+      const price = Number(lane?.price);
+      const captured = Date.parse(trimmed(lane?.fetchedAt));
+      if (!site || !availableSites.has(site) || lane.status !== "ok" || !(price > 0) || !trimmed(lane.currency)) continue;
+      if (!Number.isFinite(captured) || now - captured > CITY_PRICE_GATE.maxCaptureAgeHours * 3600000) continue;
+      const id = trimmed(show.id);
+      if (!lanes.has(id)) lanes.set(id, new Map());
+      lanes.get(id).set(site, { price, currency: trimmed(lane.currency).toUpperCase(), capturedAt: new Date(captured).toISOString() });
+    }
+  }
+  return lanes;
+}
+
+/**
+ * One tour's priced cities on one site in one market: each city's next
+ * publishable date, on the site with the most priced cities, in that site's
+ * largest (country, currency) group. Overseas dates listed in dollars on a US
+ * site are not like-for-like with home dates, so they are left out.
+ *
+ * @returns {{ site: string, currency: string, country: string, rows: any[] } | null}
+ */
+export function chooseTourMarket(tourEvents, artistSlug, lanes, { now }) {
+  const bySite = new Map();
+  for (const city of deriveArtistCities(tourEvents, artistSlug, { now })) {
+    const next = city.shows.find((show) => show.publishable);
+    if (!next) continue;
+    for (const [site, snap] of lanes.get(next.id) || []) {
+      if (!bySite.has(site)) bySite.set(site, []);
+      bySite.get(site).push({
+        city: city.label,
+        country: city.country,
+        venue: next.venue,
+        eventId: next.id,
+        localDate: eventLocalDateIso({ datetime_iso: next.datetime_iso, timezone: next.timezone }),
+        ...snap
+      });
+    }
+  }
+  // One market per tour: the largest (country, currency) group on the
+  // site. Overseas dates listed in dollars on a US site are not
+  // like-for-like with home dates, so they are left out.
+  const order = [...PRICE_MOVE_SITES.keys()];
+  const markets = [];
+  for (const [siteSlug, siteRows] of bySite) {
+    const groups = new Map();
+    for (const row of siteRows) {
+      const key = `${row.country}|${row.currency}`;
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(row);
+    }
+    for (const rows of groups.values()) markets.push([siteSlug, rows[0].currency, rows[0].country, rows]);
+  }
+  const [site, currency, country, rows] = markets.sort(
+    (a, b) => b[3].length - a[3].length || order.indexOf(a[0]) - order.indexOf(b[0]) || `${a[2]}|${a[1]}`.localeCompare(`${b[2]}|${b[1]}`)
+  )[0] || [];
+  return site ? { site, currency, country, rows } : null;
+}
+
+/**
  * @param {any[]} pricedShows Upcoming shows after `attachApprovedMarketplacePrices`.
  * @param {any[]} events events.json records.
  * @param {any[]} artists artists.json records.
@@ -585,20 +655,7 @@ export function buildCityPriceFigures(pricedShows, events, artists, { now, price
     artistList.filter((artist) => artist && artistPageIndexable(artist, eventList, trimmed(artist.slug), now)).map((artist) => trimmed(artist.slug))
   );
 
-  // showId -> site slug -> gated snapshot
-  const lanes = new Map();
-  for (const show of Array.isArray(pricedShows) ? pricedShows : []) {
-    for (const lane of Array.isArray(show?.prices) ? show.prices : []) {
-      const site = CITY_PRICE_SITE_BY_NAME.get(trimmed(lane?.provider));
-      const price = Number(lane?.price);
-      const captured = Date.parse(trimmed(lane?.fetchedAt));
-      if (!site || !availableSites.has(site) || lane.status !== "ok" || !(price > 0) || !trimmed(lane.currency)) continue;
-      if (!Number.isFinite(captured) || now - captured > CITY_PRICE_GATE.maxCaptureAgeHours * 3600000) continue;
-      const id = trimmed(show.id);
-      if (!lanes.has(id)) lanes.set(id, new Map());
-      lanes.get(id).set(site, { price, currency: trimmed(lane.currency).toUpperCase(), capturedAt: new Date(captured).toISOString() });
-    }
-  }
+  const lanes = gatherPriceLanes(pricedShows, { now, availableSites });
 
   const tours = new Map();
   for (const event of eventList) {
@@ -613,40 +670,9 @@ export function buildCityPriceFigures(pricedShows, events, artists, { now, price
 
   const candidates = [];
   for (const tour of tours.values()) {
-    const bySite = new Map();
-    for (const city of deriveArtistCities(tour.events, tour.artistSlug, { now })) {
-      const next = city.shows.find((show) => show.publishable);
-      if (!next) continue;
-      for (const [site, snap] of lanes.get(next.id) || []) {
-        if (!bySite.has(site)) bySite.set(site, []);
-        bySite.get(site).push({
-          city: city.label,
-          country: city.country,
-          venue: next.venue,
-          eventId: next.id,
-          localDate: eventLocalDateIso({ datetime_iso: next.datetime_iso, timezone: next.timezone }),
-          ...snap
-        });
-      }
-    }
-    // One market per tour: the largest (country, currency) group on the
-    // site. Overseas dates listed in dollars on a US site are not
-    // like-for-like with home dates, so they are left out.
-    const order = [...PRICE_MOVE_SITES.keys()];
-    const markets = [];
-    for (const [siteSlug, siteRows] of bySite) {
-      const groups = new Map();
-      for (const row of siteRows) {
-        const key = `${row.country}|${row.currency}`;
-        if (!groups.has(key)) groups.set(key, []);
-        groups.get(key).push(row);
-      }
-      for (const rows of groups.values()) markets.push([siteSlug, rows[0].currency, rows[0].country, rows]);
-    }
-    const [site, currency, country, rows] = markets.sort(
-      (a, b) => b[3].length - a[3].length || order.indexOf(a[0]) - order.indexOf(b[0]) || `${a[2]}|${a[1]}`.localeCompare(`${b[2]}|${b[1]}`)
-    )[0] || [];
-    if (!site) continue;
+    const market = chooseTourMarket(tour.events, tour.artistSlug, lanes, { now });
+    if (!market) continue;
+    const { site, currency, country, rows } = market;
     const cities = rows.sort((a, b) => a.price - b.price || a.city.localeCompare(b.city));
     if (cities.length < CITY_PRICE_GATE.minCitiesPerTour) continue;
     const low = cities[0];
@@ -691,11 +717,11 @@ export function cityPricesGate(figures) {
     : [`only ${figures.tours.length} tours have ${CITY_PRICE_GATE.minCitiesPerTour}+ cities priced on one site (needs ${CITY_PRICE_GATE.minTours})`];
 }
 
-function money(price, currency) {
+export function money(price, currency) {
   return new Intl.NumberFormat("en", { style: "currency", currency, maximumFractionDigits: price % 1 === 0 ? 0 : 2 }).format(price);
 }
 
-function captured(iso) {
+export function captured(iso) {
   return `${shortDate(iso.slice(0, 10))}, ${iso.slice(11, 16)} UTC`;
 }
 

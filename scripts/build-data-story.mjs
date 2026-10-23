@@ -26,9 +26,15 @@
 // `providerAvailability`, or from `--availability <file.json>`; if neither
 // answers, the build refuses.
 //
+// `--story artist-cities --artist <slug>` writes one artist's tour, city by
+// city: the same gated figures and one-site rules, a coverage gate that
+// suppresses a thin result, a draft post, a draft PR package (never sent) and
+// a shareable chart. Needs the same price rows and availability as city-prices.
+//
 //   node scripts/build-data-story.mjs [--year 2027] [--now 2026-10-16T12:00:00Z] [--check]
 //   node scripts/build-data-story.mjs --story price-moves [--rows rows.json] [--check]
 //   node scripts/build-data-story.mjs --story city-prices [--rows cache-rows.json] [--availability avail.json] [--check]
+//   node scripts/build-data-story.mjs --story artist-cities --artist gracie-abrams [--rows cache-rows.json] [--availability avail.json] [--check]
 
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -54,6 +60,7 @@ import {
   CITY_PRICE_SLUG,
   CITY_PRICE_SQL
 } from "./lib/data-stories.mjs";
+import { buildArtistCityFigures, artistCityGate, artistCitySlug, renderArtistCityPost, renderArtistCityPrPackage, renderArtistCityChart } from "./lib/artist-city-research.mjs";
 import { TOURS_HUB_YEAR } from "../functions/_tours-hub.js";
 import { isUpcomingShow } from "../functions/_upcoming.js";
 import { PRICE_GUIDE_ARTISTS } from "../functions/_price-guides.js";
@@ -72,8 +79,8 @@ const year = Number(argValue("--year") || TOURS_HUB_YEAR);
 const nowArg = argValue("--now");
 const now = nowArg ? Date.parse(nowArg) : Date.now();
 const checkOnly = process.argv.includes("--check");
-if (!["tour-map", "price-moves", "city-prices"].includes(story) || !Number.isInteger(year) || !Number.isFinite(now)) {
-  console.error("data-story: --story must be tour-map, price-moves or city-prices, --year a year and --now an ISO instant");
+if (!["tour-map", "price-moves", "city-prices", "artist-cities"].includes(story) || !Number.isInteger(year) || !Number.isFinite(now)) {
+  console.error("data-story: --story must be tour-map, price-moves, city-prices or artist-cities, --year a year and --now an ISO instant");
   process.exit(2);
 }
 
@@ -134,6 +141,34 @@ async function writeStory(slug, post, files) {
   console.log(`data-story: wrote content/blog/${slug}.md (${post.status}) and reports/data-stories/${slug}/`);
 }
 
+// Current price rows -> upcoming shows through the live display gate in
+// functions/api/shows.js, so only figures a CTA button would print can appear.
+async function loadGatedShows() {
+  const rows = await readD1Rows(CITY_PRICE_SQL);
+  // An in-memory stand-in for DEMAND_DB that answers the gate's cache read
+  // from the fetched rows; every other read (price checks) returns nothing.
+  const db = {
+    prepare: (sql) => ({
+      bind: (...ids) => ({
+        all: async () => {
+          const wanted = new Set(ids.map(String));
+          return { results: sql.includes("FROM provider_pricing_cache") ? rows.filter((row) => wanted.has(String(row.event_id))) : [] };
+        }
+      })
+    })
+  };
+  const env = { ...wranglerVars(await fs.readFile(path.join(root, "wrangler.toml"), "utf8")), DEMAND_DB: db };
+  // The gates in functions/api/shows.js read the wall clock; run them at the
+  // build's instant so a replay with --now and --rows sees what it would have.
+  const realNow = Date.now;
+  Date.now = () => now;
+  try {
+    return { rowCount: rows.length, shows: await attachApprovedMarketplacePrices(mapEventsToShows(events.filter((event) => isUpcomingShow(event, now))), env) };
+  } finally {
+    Date.now = realNow;
+  }
+}
+
 if (story === "tour-map") {
   const figures = buildTourMapFigures(events, artists, { year, now });
   console.log(
@@ -158,39 +193,42 @@ if (story === "tour-map") {
     { text: renderPriceMovesPost(figures, existing), status: existing?.status === "published" ? "published" : "draft" },
     { "figures.json": `${JSON.stringify(figures, null, 2)}\n` }
   );
-} else {
-  const rows = await readD1Rows(CITY_PRICE_SQL);
-  // An in-memory stand-in for DEMAND_DB that answers the gate's cache read
-  // from the fetched rows; every other read (price checks) returns nothing.
-  const db = {
-    prepare: (sql) => ({
-      bind: (...ids) => ({
-        all: async () => {
-          const wanted = new Set(ids.map(String));
-          return { results: sql.includes("FROM provider_pricing_cache") ? rows.filter((row) => wanted.has(String(row.event_id))) : [] };
-        }
-      })
-    })
-  };
-  const env = { ...wranglerVars(await fs.readFile(path.join(root, "wrangler.toml"), "utf8")), DEMAND_DB: db };
-  // The gates in functions/api/shows.js read the wall clock; run them at the
-  // build's instant so a replay with --now and --rows sees what it would have.
-  const realNow = Date.now;
-  Date.now = () => now;
-  let shows;
-  try {
-    shows = await attachApprovedMarketplacePrices(mapEventsToShows(events.filter((event) => isUpcomingShow(event, now))), env);
-  } finally {
-    Date.now = realNow;
-  }
+} else if (story === "city-prices") {
+  const { rowCount, shows } = await loadGatedShows();
   const availableSites = await readProviderAvailability();
   const figures = buildCityPriceFigures(shows, events, artists, { now, priceGuideArtists: new Set(PRICE_GUIDE_ARTISTS), availableSites });
-  console.log(`data-story: city prices from ${rows.length} cache rows, ${figures.tours.length} tour(s) clear the gate`);
+  console.log(`data-story: city prices from ${rowCount} cache rows, ${figures.tours.length} tour(s) clear the gate`);
   stopIfGateFails(cityPricesGate(figures));
   const existing = await existingPost(CITY_PRICE_SLUG);
   await writeStory(
     CITY_PRICE_SLUG,
     { text: renderCityPricesPost(figures, existing), status: existing?.status === "published" ? "published" : "draft" },
     { "figures.json": `${JSON.stringify(figures, null, 2)}\n` }
+  );
+} else {
+  const artistSlug = argValue("--artist");
+  if (!artistSlug) {
+    console.error("data-story: --story artist-cities needs --artist <slug>");
+    process.exit(2);
+  }
+  const { rowCount, shows } = await loadGatedShows();
+  const availableSites = await readProviderAvailability();
+  const figures = buildArtistCityFigures(shows, events, artists, { artistSlug, now, priceGuideArtists: new Set(PRICE_GUIDE_ARTISTS), availableSites });
+  console.log(
+    figures
+      ? `data-story: ${figures.artist}, ${figures.cities.length} of ${figures.coverage.marketCities} ${figures.country} cities priced on ${figures.siteLabel} (${rowCount} cache rows)`
+      : `data-story: ${artistSlug} has no priced tour city (${rowCount} cache rows)`
+  );
+  stopIfGateFails(artistCityGate(figures));
+  const slug = artistCitySlug(artistSlug);
+  const existing = await existingPost(slug);
+  await writeStory(
+    slug,
+    { text: renderArtistCityPost(figures, existing), status: existing?.status === "published" ? "published" : "draft" },
+    {
+      "figures.json": `${JSON.stringify(figures, null, 2)}\n`,
+      "pr-package.md": renderArtistCityPrPackage(figures),
+      "chart.svg": renderArtistCityChart(figures)
+    }
   );
 }

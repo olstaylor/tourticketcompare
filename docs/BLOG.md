@@ -313,6 +313,42 @@ figures rely on the providers' off-site grant and its cross-city scope
 ([PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md), "Off-site use" and "One
 site, across cities, in a data story").
 
+### Data & Insights engine: artist city research
+
+`npm run stories:build -- --story artist-cities --artist <slug>` is the first
+research type of the Data & Insights engine. It takes one artist's tour and
+sets its cities side by side on one site, from the same gated figures as
+city-prices (`gatherPriceLanes` and `chooseTourMarket` in
+`scripts/lib/data-stories.mjs`), and writes four things under a stable slug,
+`/blog/<artist>-tour-ticket-prices-by-city`:
+
+- `content/blog/<slug>.md`: a draft post with the city table (every city up to
+  20, else the ten lowest and ten highest), method, coverage and the shared
+  price disclosure. Each city links to its artist-city page, and the post links
+  the artist's price guide.
+- `reports/data-stories/<slug>/figures.json`: every number.
+- `reports/data-stories/<slug>/pr-package.md`: headline, key finding, quotable
+  facts, city story angles that each cite their row, method and limits, media
+  categories (never names or contacts) and an unticked owner approval list.
+  Nothing sends it.
+- `reports/data-stories/<slug>/chart.svg`: a shareable bar chart that carries
+  the site, capture dates and caveat.
+
+The pipeline is data (D1 cache rows, `events.json`) → display gate and age cap →
+market choice (one site, one country, one currency) → coverage count against the
+tour's own cities → gate → post, package and chart. The gate in
+`scripts/lib/artist-city-research.mjs` refuses, writing nothing, when fewer than
+8 cities are priced, when under half the tour's cities in that country are
+priced, or when the artist page is not indexable. Unpriced cities and other
+countries' dates are listed in the post, not hidden. To add another artist run
+the command with its slug; a new research type reuses the same gated inputs and
+adds its own builder, gate and renderers. Tests: `npm run test:artist-city-research`.
+
+A post stays `status: draft` until the owner records approval. The policy's
+cross-city grant names the same-tour story, so publishing a single artist's
+report, or ranking dates inside a city, is a further use that needs a recorded
+owner decision first ([PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md)).
+
 Out of scope by policy: prices outside the city-prices story, cross-site comparisons
 ([PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md)), price-timing claims until
 the evidence thresholds are met, presale window counts (Ticketmaster's lists mix

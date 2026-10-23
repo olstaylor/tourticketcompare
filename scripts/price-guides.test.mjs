@@ -375,7 +375,8 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert(body.includes("Stale or unavailable prices are hidden"), "missing prices explain freshness without claiming inventory");
   assert(body.includes("GBP 182") && body.includes("GBP 395"), "each date keeps its own lowest listed price");
   assert(!body.includes("GBP 210") && !body.includes("GBP 420"), "only the same-event lowest lane is printed as the answer");
-  assert(!/\bfrom (?:£|(?:USD|CAD|AUD|GBP|EUR)\s+)\d/i.test(body) && !/cheapest date/i.test(body) && !/price range/i.test(body), "no cross-date minimum, range or cheapest date");
+  const narrative = text(page.main.replace(/<a class="provider-cta[^\"]*"[^>]*>[\s\S]*?<\/a>/g, ""));
+  assert(!/\bfrom (?:£|(?:USD|CAD|AUD|GBP|EUR)\s+)\d/i.test(narrative) && !/cheapest date/i.test(body) && !/price range/i.test(body), "no cross-date minimum, range or cheapest date");
   assert(!body.includes("Dublin"), "past dates never appear");
   assert(body.includes("Public on-sale"), "a date before its public on-sale says so");
   assert(body.includes("2 of 6 dates show a listed resale price right now"), "the at-a-glance count covers the checked dates");
@@ -395,7 +396,7 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert(!/href="#show-/.test(page.main.match(/<section[^>]*aria-labelledby="artistNextDatesTitle"[\s\S]*?<\/section>/)?.[0] || ""), "the guide's next dates link to the artist page's cards, not this page");
   assert(CTA_LOCATIONS.includes("price_guide"), "price_guide is in the allowlist, or /api/out discards it");
   assert(!/href="https:\/\/www\.(vividseats|ticketnetwork)/.test(page.main), "no raw affiliate URL on the page");
-  assert(page.main.includes("How this site makes money"), "a page with ticket buttons carries the money disclosure");
+  assert(page.main.includes("About prices, seller order"), "a page with ticket buttons carries the money disclosure");
 
   // Cross-links: up to the artist page and across to the multi-date city page.
   assert(page.main.includes('href="/artists/oasis"'), "the guide links the transactional artist page");

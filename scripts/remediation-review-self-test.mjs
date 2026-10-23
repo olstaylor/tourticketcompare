@@ -68,7 +68,7 @@ assert.equal(appVersion, smokeVersion);
 assert.equal(shell.match(/\/ttc-shell\.css\?v=([0-9a-z]+)/)?.[1], "20261010a");
 assert.equal(route.match(/\/ttc-home\.css\?v=([0-9a-z]+)/)?.[1], "20261010a");
 assert.equal(route.match(/\/ttc-home\.js\?v=([0-9a-z]+)/)?.[1], "20261010a");
-assert.match(route, /\/artist-board\.js\?v=20261002m/);
+assert.match(route, /\/artist-board\.js\?v=20261023a/);
 assert.match(route, /\/currency-converter\.js\?v=20260821a/);
 
 // PR #727 split the universal application bundle into route modules. These
@@ -81,6 +81,8 @@ assert.match(homeModule, /record\.venue/);
 assert.doesNotMatch(homeModule, /ttc-main[^\n]*replaceChildren/);
 
 assert.match(artistModule, /function refreshCityOptions/);
+assert.match(artistModule, /var visibleCountry = !grouped && country/);
+assert.match(artistModule, /if \(visibleCountry\) bar\.append\(country\)/);
 assert.match(priceHistoryModule, /\/api\/price-history\?showId=/);
 assert.match(priceHistoryModule, /intent: "price_alert"/);
 assert.match(priceHistoryModule, /price-alert-interest-template/);

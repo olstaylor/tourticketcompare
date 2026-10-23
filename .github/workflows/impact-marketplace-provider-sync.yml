@@ -11,9 +11,9 @@ on:
   schedule:
     # Run after Ticketmaster (02:40), SeatGeek (18:00), and Vivid Seats (18:30).
     # The writer helper orders overruns without dropping a pending provider.
-    - cron: '0 19 * * *'  # TicketNetwork
-    - cron: '30 19 * * *' # Ticket Liquidator
-    - cron: '0 20 * * *'  # StubHub International
+    - cron: '0 20 * * *'  # TicketNetwork
+    - cron: '30 20 * * *' # Ticket Liquidator
+    - cron: '0 21 * * *'  # StubHub International
   workflow_dispatch:
     inputs:
       provider:
@@ -42,7 +42,7 @@ permissions:
 
 # All three provider runs remain eligible to start. A workflow concurrency
 # group retains only one pending run and would evict the middle provider when
-# the 19:00 run overruns 20:00. The writer-lane helper orders all three by run
+# the 20:00 run overruns 21:00. The writer-lane helper orders all three by run
 # creation time before ingestion; queued runs are never dropped by a group.
 
 jobs:
@@ -52,9 +52,9 @@ jobs:
     # start together: 60/160/260 minutes waiting, then 100 minutes of work.
     # The preceding job's whole cap bounds the next run's wait; all stay
     # within GitHub's six-hour hosted-job maximum. Manual runs use the first cap.
-    timeout-minutes: ${{ fromJSON('{"0 19 * * *":160,"30 19 * * *":260,"0 20 * * *":360}')[github.event.schedule] || 160 }}
+    timeout-minutes: ${{ fromJSON('{"0 20 * * *":160,"30 20 * * *":260,"0 21 * * *":360}')[github.event.schedule] || 160 }}
     env:
-      WRITER_WAIT_MINUTES: ${{ fromJSON('{"0 19 * * *":60,"30 19 * * *":160,"0 20 * * *":260}')[github.event.schedule] || 60 }}
+      WRITER_WAIT_MINUTES: ${{ fromJSON('{"0 20 * * *":60,"30 20 * * *":160,"0 21 * * *":260}')[github.event.schedule] || 60 }}
       IMPACT_CATALOG_PROXY_URL: https://tourticketcompare.com/api/impact/products
       # /api/impact/products is token-gated; without this the proxy returns 404.
       IMPACT_CATALOG_PROXY_TOKEN: ${{ secrets.DEBUG_API_TOKEN }}
@@ -108,9 +108,9 @@ jobs:
           set -euo pipefail
           if [ "$EVENT_NAME" = "schedule" ]; then
             case "$SCHEDULE" in
-              '0 19 * * *') PROVIDER=ticketnetwork ;;
-              '30 19 * * *') PROVIDER=ticket-liquidator ;;
-              '0 20 * * *') PROVIDER=stubhub-international ;;
+              '0 20 * * *') PROVIDER=ticketnetwork ;;
+              '30 20 * * *') PROVIDER=ticket-liquidator ;;
+              '0 21 * * *') PROVIDER=stubhub-international ;;
               *) echo "Unknown schedule: $SCHEDULE" >&2; exit 1 ;;
             esac
             MODE=apply

@@ -901,4 +901,29 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(!review.main.includes("artistNextDatesTitle"), "an artist under review gets no next-dates table");
 }
 
+// ── the homepage shows the next dates' prices (revenue-per-visitor test 2) ──
+{
+  const home = await render("/");
+  assert(home.status === 200, "the homepage renders");
+  const section = (home.main.match(/<section class="section-grid home-section home-next-dates"[\s\S]*?<\/section><section id="featured-artists"/) || [])[0] || "";
+  assert(section, "the homepage carries a next-dates price block");
+  assert(home.main.indexOf("home-next-dates") < home.main.indexOf('id="featured-artists"'), "it sits above the artist list, under the hero");
+  assert(section.includes(`Next ${ARTIST.name} date`) && /USD\s+(182|190|240)/.test(text(section)), `the fixture artist's next date shows its lowest listed price (got ${text(section).slice(0, 200)})`);
+  const outHrefs = [...section.matchAll(/href="(\/api\/out\?[^"]+)"/g)].map((m) => m[1]);
+  assert(outHrefs.length >= 1 && outHrefs.every((href) => href.includes("ctaLocation=home_answer")), "homepage buttons report home_answer");
+  assert(CTA_LOCATIONS.includes("home_answer"), "home_answer is in the allowlist, or /api/out discards it");
+  assert([...section.matchAll(/href="(\/artists\/[^"#]+#show-[^"]+)"/g)].length >= 1 || !section.includes("See all"), "its all-sites link points at the artist page's card");
+  assert(home.main.split("How this site makes money").length === 2, "one money disclosure for the block");
+  assert(occurrences(home.main, "homeNextDate0") >= 1 && !home.main.includes("homeNextDate2"), "at most two picks");
+  const unpriced = await render("/", { withDb: false });
+  assert(!unpriced.main.includes("/api/out"), "with no price on record the homepage links to no ticket site");
+  const reviewArtists = artistsMeta.map((artist) =>
+    String(artist?.slug) === ARTIST.slug ? { ...artist, indexing_status: "review_required" } : artist
+  );
+  const review = await render("/", { artists: reviewArtists });
+  assert(!review.main.includes(`Next ${ARTIST.name} date`), "an artist under review is never picked");
+  const none = await render("/", { events: [] });
+  assert(none.status === 200 && !none.main.includes("home-next-dates"), "no events, no block");
+}
+
 console.log(`artist-city-prices: ${passed} checks passed`);

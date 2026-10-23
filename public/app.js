@@ -2116,7 +2116,7 @@ function renderShowCardPriceNotes(ctaSpecs, pricesChecked = false, show = null) 
   });
   note.append(` · ${CARD_PRICE_TAIL}`);
   wrap.append(note);
-  if (["UK", "GB", "United Kingdom"].includes(show?.country) && priced.some((spec) => spec.lane?.currency !== "GBP")) {
+  if (["GB", "GBR", "United Kingdom"].includes(displayCountry(show?.country)) && priced.some((spec) => spec.lane?.currency !== "GBP")) {
     text(wrap, "p", "This UK event has prices in a foreign currency. Figures are shown as supplied; your bank or seller may charge for conversion.", "disclosure-note currency-note");
   }
   return wrap;

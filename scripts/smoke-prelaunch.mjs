@@ -2659,11 +2659,11 @@ const ALLOWED_OUT_PROVIDERS = new Set(["ticketmaster", "seatgeek", "vivid-seats"
 assert(parsedRenderedOutHrefs.every((u) => ALLOWED_OUT_PROVIDERS.has(String(u.searchParams.get("provider") || "").toLowerCase())), "every /api/out CTA must target a known allowlisted provider");
 const renderedSeatGeekShowIds = seatGeekEligibleShows.map((show) => show.id);
 
-// Provider panel: SeatGeek card renders before the Ticketmaster card when
+// Provider panel: Ticketmaster renders before marketplace cards when
 // configured, and not at all when unconfigured.
 const sgCardIdx = serverMorganWithSeatGeek.text.indexOf("<h3>SeatGeek</h3>");
 const tmCardIdx = serverMorganWithSeatGeek.text.indexOf("<h3>Ticketmaster</h3>");
-assert(sgCardIdx !== -1 && tmCardIdx !== -1 && sgCardIdx < tmCardIdx, "provider panel must show the SeatGeek artist card before the Ticketmaster artist card when configured");
+assert(sgCardIdx !== -1 && tmCardIdx !== -1 && tmCardIdx < sgCardIdx, "provider panel must show the Ticketmaster artist card before the SeatGeek artist card when configured");
 assert(!serverMorganWithoutSeatGeek.text.includes("<h3>SeatGeek</h3>"), "provider panel must not show a SeatGeek artist card without SeatGeek Impact config");
 assert(serverMorganWithoutSeatGeek.text.includes("<h3>Ticketmaster</h3>"), "provider panel must keep the plain Ticketmaster artist card without SeatGeek Impact config");
 try {
@@ -3484,7 +3484,7 @@ assert(beyonceShowBoard.includes('href="/artists"') && beyonceShowBoard.includes
 // pattern in a published post, so the state links it rather than leaving the
 // disclosure to stand alone.
 assert(
-  beyonceShowBoard.includes('href="/blog/why-some-artist-pages-show-no-dates"') && /here&#39;s why/i.test(beyonceShowBoard),
+  beyonceShowBoard.includes('href="/blog/why-some-artist-pages-show-no-dates"') && /About TTC’s event coverage/.test(beyonceShowBoard),
   "zero-event empty state must link the empty-board explainer post"
 );
 assert(beyonceEmptyStatePage.text.includes("About Beyoncé"), "a promoted empty artist may keep its reviewed factual summary");
@@ -3867,8 +3867,8 @@ assert(
 );
 assert(!beyonceEmptyStatePage.text.includes("Last checked:"), "empty artist pages should omit last-checked claims");
 assert(
-  manyBoard.html.includes("by an automatic check rather than by hand"),
-  "the provenance block should distinguish automated checks from human review"
+  manyBoard.html.includes("<strong>Last checked:</strong> ticket links checked") && !manyBoard.html.includes("reviewed by hand"),
+  "the trust block should describe link checks without claiming a human review"
 );
 // The event-record date range (derived from mixed-semantics event
 // last_verified_at values, which could produce a misleading or reversed

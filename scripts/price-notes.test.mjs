@@ -138,8 +138,8 @@ const STALE_CHECK = fixtureEvent("fixture-stale-check", "2026-09-15T01:00:00Z", 
 // Before the public on-sale: verified resale lanes render, Ticketmaster does not.
 const PENDING_RESALE = fixtureEvent("fixture-pending-resale", "2026-09-16T01:00:00Z", { lanes: ["vivid-seats"], seatgeek: false, onsaleAt: "2026-08-20T15:00:00Z" });
 const PENDING_BARE = fixtureEvent("fixture-pending-bare", "2026-09-17T01:00:00Z", { lanes: [], seatgeek: false, onsaleAt: "2026-08-20T15:00:00Z" });
-const UK_USD = { ...fixtureEvent("fixture-uk-usd", "2026-09-18T19:00:00Z"), city: "London", country: "United Kingdom", timezone: "Europe/London" };
-const UK_GBP = { ...fixtureEvent("fixture-uk-gbp", "2026-09-19T19:00:00Z"), city: "London", country: "United Kingdom", timezone: "Europe/London" };
+const UK_USD = { ...fixtureEvent("fixture-uk-usd", "2026-09-18T19:00:00Z"), city: "London", country: "Great Britain", timezone: "Europe/London" };
+const UK_GBP = { ...fixtureEvent("fixture-uk-gbp", "2026-09-19T19:00:00Z"), city: "London", country: "Great Britain", timezone: "Europe/London" };
 const EVENTS = [PRICED, CHECKED, UNMAPPED, UNCHECKED, STALE_CHECK, PENDING_RESALE, PENDING_BARE, UK_USD, UK_GBP];
 
 const PRICE_ROWS = [

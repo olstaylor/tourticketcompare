@@ -391,6 +391,14 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert(outHrefs.length >= 2, "priced dates link out through /api/out");
   assert(outHrefs.every((href) => href.includes("ctaLocation=price_guide")), "the guide's CTAs carry the price_guide location");
   assert(CTA_LOCATIONS.includes("price_guide"), "price_guide is in the allowlist, or /api/out discards it");
+  // The next three dates' buttons sit straight under the lead, above the summary.
+  const nextDates = page.main.match(/<section class="nested-panel artist-city-price-answer" aria-labelledby="priceGuideNextDatesTitle">[\s\S]*?<\/section>/)?.[0] || "";
+  assert(nextDates.includes("Next Oasis dates"), "the guide opens with the next dates' table");
+  assert(page.main.indexOf('id="priceGuideNextDatesTitle"') < page.main.indexOf('id="priceGuideGlanceTitle"'), "the next dates come before the summary cards");
+  assert(page.main.indexOf('id="priceGuideNextDatesTitle"') < page.main.indexOf("How this site makes money"), "the next dates sit inside the lead, above its notice");
+  assert((nextDates.match(/<tr><th scope="row">/g) || []).length === 3, "the next-dates table lists three dates");
+  assert(/ctaLocation=price_guide/.test(nextDates) && text(nextDates).includes("GBP 182"), "its buttons are the guide's tracked price_guide CTAs with each date's own price");
+  assert(!/href="#show-/.test(nextDates), "an unpriced row points at the artist page card, not a missing same-page anchor");
   assert(!/href="https:\/\/www\.(vividseats|ticketnetwork)/.test(page.main), "no raw affiliate URL on the page");
   assert(page.main.includes("How this site makes money"), "a page with ticket buttons carries the money disclosure");
 

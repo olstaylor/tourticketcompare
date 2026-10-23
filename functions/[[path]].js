@@ -3632,7 +3632,8 @@ function derivePriceGuideView(route, events, env) {
       : "Prices couldn't be loaded just now. Each date's ticket links still open the ticket sites.";
 
   const nextOnsale = guide.nextOnsaleAt ? formatServerSnapshotTime(guide.nextOnsaleAt) : "";
-  return { priceAnswer, rowById, lowByShowId, moves, linkCounts, range, artistHref, checkedCount, currentAnswer, guideShowsById, nextOnsale };
+  const availability = { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability };
+  return { shows, availability, priceAnswer, rowById, lowByShowId, moves, linkCounts, range, artistHref, checkedCount, currentAnswer, guideShowsById, nextOnsale };
 }
 
 // The price guide's FAQ: visible on the page and mirrored as FAQPage JSON-LD.
@@ -3711,7 +3712,18 @@ function renderPriceGuideBody(route, events, env) {
   const artist = route.artist;
   const guide = route.guide;
   const view = derivePriceGuideView(route, events, env);
-  const { priceAnswer, rowById, lowByShowId, moves, linkCounts, range, artistHref, checkedCount, currentAnswer, guideShowsById, nextOnsale } = view;
+  const { shows, availability, priceAnswer, rowById, lowByShowId, moves, linkCounts, range, artistHref, checkedCount, currentAnswer, guideShowsById, nextOnsale } = view;
+  // The next three dates' buttons, straight under the lead. Organic searchers
+  // landing here clicked a ticket link far less often than on artist pages
+  // (D1, 2-22 Oct 2026: 15% vs 35%): the first button sat ~2,100px down on a
+  // phone, under the lead's buttons, the price notice and the summary cards.
+  // Placed as on artist and artist-city pages: the buttons first, the
+  // notice straight after. The per-date tables below are unchanged.
+  const nextDatesHtml = renderArtistNextDatesPriceAnswer(artist, shows, availability, {
+    titleId: "priceGuideNextDatesTitle",
+    ctaLocation: "price_guide",
+    cardHrefFor: (cardAnchor) => `${artistHref}#${cardAnchor}`
+  });
 
   const leadHtml = `<h1 id="priceGuideTitle">${escapeHtml(artist.name)} ticket prices${
     route.yearLabel ? ` for ${escapeHtml(route.yearLabel)}` : ""
@@ -3721,7 +3733,7 @@ function renderPriceGuideBody(route, events, env) {
     `${guide.showCount} upcoming ${guide.showCount === 1 ? "date" : "dates"} in ${guide.cityCount} ${guide.cityCount === 1 ? "city" : "cities"}${
       range ? ` (${range})` : ""
     }. These are resale listings, not face value.`
-  )}</p><div class="action-row">${anchor(`Compare ${artist.name} tickets`, artistHref, "button button-primary")}${anchor(
+  )}</p>${nextDatesHtml}<div class="action-row">${anchor(`Compare ${artist.name} tickets`, artistHref, "button button-primary")}${anchor(
     "See prices by date",
     "#priceGuideDatesTitle",
     "button button-secondary"
@@ -5496,7 +5508,7 @@ function renderPresaleResaleTable(route, events, env) {
 // the two surfaces apart.
 export const ARTIST_NEXT_DATES_LIMIT = 3;
 
-export function renderArtistNextDatesPriceAnswer(artist, shows, availability) {
+export function renderArtistNextDatesPriceAnswer(artist, shows, availability, options = {}) {
   const nextShows = (Array.isArray(shows) ? shows : []).slice(0, ARTIST_NEXT_DATES_LIMIT);
   if (!nextShows.length) return "";
   const specsByShowId = new Map(nextShows.map((show) => [String(show.id || ""), serverShowCtaSpecs(show, availability)]));
@@ -5513,7 +5525,8 @@ export function renderArtistNextDatesPriceAnswer(artist, shows, availability) {
       count: specsByShowId.get(String(show.id || "")).length,
       status: publicOnsalePending(show) ? publicOnsaleLabel(show) : ""
     }])),
-    placeFor: (row) => placeById.get(row.showId) || row.venue
+    placeFor: (row) => placeById.get(row.showId) || row.venue,
+    ...options
   });
 }
 

@@ -236,6 +236,9 @@ export const CTA_LOCATIONS = Object.freeze([
   // The per-date resale table on an artist presale page
   // (/artists/<artist>/presale), owner-approved 2026-10-09.
   "presale_page",
+  // The cheapest-price button under an event page's title (owner-approved
+  // 2026-10-23, revenue-per-visitor test 1).
+  "event_answer",
   // The next-date price tables under the homepage hero (owner-approved
   // 2026-10-23, revenue-per-visitor test 2).
   "home_answer"

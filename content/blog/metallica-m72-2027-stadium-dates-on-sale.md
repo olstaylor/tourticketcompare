@@ -4,7 +4,6 @@ seo_title: "Metallica 2027 M72 tickets: on-sale"
 description: Metallica's ten 2027 M72 stadium dates opened at 10:00 local time on September 25. Resale sites listed all ten the day before. What to check.
 summary: Ten new North American stadium dates on Metallica's M72 World Tour went on public sale on Friday, September 25, each at 10:00 in the venue's time. Resale sites had listings up for all ten the day before, which is worth understanding before you buy.
 date: 2026-09-25
-updated: 2026-10-22
 status: published
 tags:
   - tour-buying
@@ -42,7 +41,7 @@ Use the [Metallica ticket price guide](/artists/metallica/ticket-prices) for lis
 | June 15 | Cleveland | Huntington Bank Field | 10:00 AM EDT |
 | June 19 | Salt Lake City | Rice-Eccles Stadium | 10:00 AM MDT |
 
-These are Ticketmaster's public on-sale times. Presales aren't tracked on this site. The Las Vegas Sphere dates, January to March 2027, and the two November 2026 dates at Mohegan Sun Arena were already on sale and aren't part of this sale.
+These are Ticketmaster's public on-sale times. The site did not track presales when this sale happened; it now lists Ticketmaster presale windows on each artist's presale page and the [on-sale calendar](/on-sale). The Las Vegas Sphere dates, January to March 2027, and the two November 2026 dates at Mohegan Sun Arena were already on sale and aren't part of this sale.
 
 ## Why resale listings came first
 

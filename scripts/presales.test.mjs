@@ -63,6 +63,14 @@ const { normalizePresaleWindows, deriveArtistPresales, deriveUpcomingPresales, d
   for (const name of ["Citi Cardmember Presale", "Verified Fan Presale", "Live Nation Presale", "Spotify Fans First"]) {
     assert(presalesModule.presaleNameSafe(name), `an ordinary presale name is kept: ${name}`);
   }
+  for (const name of ["Marketing Comps", "Artist Comp", "Complimentary Tickets"]) {
+    assert(!presalesModule.presaleNamePublic(name), `an allocation no fan can buy into is not listed: ${name}`);
+  }
+  assert(presalesModule.presaleNamePublic("Amex Reserved Tickets") && presalesModule.presaleNamePublic("Compass Card Presale"), "ordinary names, and words that only start with comp, are kept");
+  assert(
+    normalizePresaleWindows([{ name: "Marketing Comps", startDateTime: iso(NOW_MS + DAY), endDateTime: iso(NOW_MS + 2 * DAY) }], NOW_MS).length === 0,
+    "a comps allocation never reaches a presale list"
+  );
   assert(normalizePresaleWindows(null).length === 0 && normalizePresaleWindows("x").length === 0, "non-lists give no windows");
   assert(presalePath("oasis") === "/artists/oasis/presale", "one URL per artist");
 }
@@ -139,6 +147,8 @@ const EVENTS = [
   const calendar = deriveUpcomingPresales(EVENTS, NOW_MS);
   assert(calendar.artistCount === 2 && calendar.windowCount === 4, "/on-sale lists every artist's live windows within the lookahead");
   assert(calendar.artists[0].artistSlug === "oasis", "artists order by their earliest window");
+  const staleCalendar = deriveUpcomingPresales([fixtureEvent({ id: "ps-stale-cal", city: "Leeds", venue: "Roundhay Park", iso: iso(NOW_MS + 90 * DAY), presales: [STALE] })], NOW_MS);
+  assert(staleCalendar.windowCount === 0, "/on-sale leaves out a window that has been open for months");
 
   assert(deriveIndexablePresalePages(EVENTS, ["oasis"], NOW_MS).map((page) => page.path).join() === "/artists/oasis/presale", "only indexable artists' near presales are listed for the sitemap");
   assert(deriveIndexablePresalePages(EVENTS, [], NOW_MS).length === 0, "a non-indexable artist has no listed presale page");

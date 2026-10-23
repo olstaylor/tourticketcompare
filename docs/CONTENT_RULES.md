@@ -17,7 +17,8 @@ It is not affiliated with any artist, venue, promoter, or ticket platform.
 Owner direction, 2026-09-24.
 
 - **No first-person voice.** Public copy never speaks as "we", "us" or "our". Name the site ("TourTicketCompare", "the site", "this site") or use a plain construction ("Prices are checked every few hours"). The reader's own voice is fine: FAQ questions ("How do I…?") and buttons ("Notify me"). Quoted provider wording keeps its own voice.
-- **Bylines credit the site.** Guides, blog posts, artist, city and venue pages carry "By TourTicketCompare", linked to `/about`, and their Article/BlogPosting/HowTo `author` is the Organization node. No page names the creator except `/about/ollie-taylor`, which is linked from `/about` only and is the one page carrying a Person node.
+- **Bylines credit the site.** Guides, blog posts, artist, city and venue pages carry "By TourTicketCompare", linked to `/about`, and their Article/BlogPosting/HowTo `author` is the Organization node. `/about/ollie-taylor` is the one page carrying the full Person node.
+- **Guides and blog posts name their reviewer** (owner direction, 2026-10-23). Their byline adds "Reviewed by Ollie Taylor", linked to `/about/ollie-taylor`, and their Article/BlogPosting carries him as `editor` by the creator page's Person `@id`. This is true only because he reads each guide and post before it publishes, so keep it that way: nothing reaches `content/guides` or `content/blog` as published without his review. Automated pages (artist, artist-city, city, venue, event, price guide, presale) never carry a reviewer, because nobody reviews them by hand.
 - **Enforced.** `scripts/check-site-voice.mjs` fails `test:content` and `test:mvp` on first-person-plural words in `content/guides` and `content/blog`; `scripts/smoke-prelaunch.mjs` applies the same rule to the rendered `<main>` of every public route and artist page.
 
 ---

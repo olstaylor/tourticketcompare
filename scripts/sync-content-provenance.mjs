@@ -140,6 +140,13 @@ const RENDER_SPECS = {
 // Provenance fields are *about* the copy, never part of it. See the header note.
 const EXCLUDED_METADATA_KEYS = new Set(['datePublished', 'lastmod']);
 const EXCLUDED_SOURCE_KEYS = new Set(['lastChecked', 'linkCheckedAt']);
+// Byline helpers that say who stands behind a page, not what it says. Adding
+// "Reviewed by" to every guide (owner, 2026-10-23) changes no guide's words, so
+// it must not advance 28 "Updated" dates at once: that is the false freshness
+// this script exists to prevent. Each name here is dropped from the traversal
+// and its `${name()}` call is dropped from the source. Keep the list to
+// byline-only helpers; anything carrying copy stays fingerprinted.
+const PROVENANCE_ONLY_HELPERS = new Set(['reviewerBylineHtml']);
 
 const argv = process.argv.slice(2);
 const flag = (name) => argv.includes(name);
@@ -185,6 +192,7 @@ export function normalizeRenderSource(source) {
       return trimmed && !trimmed.startsWith('//') && !trimmed.startsWith('/*') && !trimmed.startsWith('*');
     })
     .join('\n')
+    .replace(/\$\{([A-Za-z_$][\w$]*)\(\)\}/g, (call, name) => (PROVENANCE_ONLY_HELPERS.has(name) ? '' : call))
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -315,7 +323,7 @@ export function collectCopyDependencies(index, startSource, maxDepth = 6) {
     const next = [];
     for (const chunk of frontier) {
       for (const identifier of new Set(chunk.match(/[A-Za-z_$][\w$]*/g) || [])) {
-        if (!index.has(identifier) || collected.has(identifier)) continue;
+        if (!index.has(identifier) || collected.has(identifier) || PROVENANCE_ONLY_HELPERS.has(identifier)) continue;
         const declaration = index.get(identifier);
         collected.set(identifier, declaration);
         next.push(declaration);
@@ -721,6 +729,11 @@ async function selfTest() {
   // A parameter list with object defaults must not be mistaken for the body.
   const withDefaults = 'function f(a, b = {}, c = {}) {\n  return 1;\n}\n';
   assert('extractFunction skips object defaults in params', extractFunction(withDefaults, 'f') === 'function f(a, b = {}, c = {}) {\n  return 1;\n}');
+  assert(
+    'a byline-only helper call leaves the fingerprint alone, other calls do not',
+    normalizeRenderSource('`<p>${siteBylineHtml()}${reviewerBylineHtml()}</p>`') === normalizeRenderSource('`<p>${siteBylineHtml()}</p>`') &&
+      normalizeRenderSource('`<p>${otherHtml()}</p>`') !== normalizeRenderSource('`<p></p>`')
+  );
   assert('extractFunction misses cleanly', extractFunction(withDefaults, 'g') === null);
 
   // Provenance fields must not reach the fingerprint.

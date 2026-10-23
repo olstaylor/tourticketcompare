@@ -186,8 +186,8 @@ function validatePost(post, context) {
   }
 
   if (!post.sections.length) problems.push(`${where}: the post body is empty`);
-  // Owner direction 2026-09-24: bylines credit the site, and the creator is
-  // named only on /about/ollie-taylor. See docs/CONTENT_RULES.md.
+  // Owner direction 2026-09-24: bylines credit the site; since 2026-10-23 the
+  // renderer adds "Reviewed by Ollie Taylor". See docs/CONTENT_RULES.md.
   if (post.author !== DEFAULT_AUTHOR) {
     problems.push(`${where}: "author" must be ${DEFAULT_AUTHOR} (got "${post.author}"); bylines credit the site`);
   }

@@ -5612,6 +5612,8 @@ export const ARTIST_NEXT_DATES_LIMIT = 3;
 // On another page, `surface.cardHrefFor` points "See all ticket sites" at the
 // artist page's cards and `surface.ctaLocation` keeps that page's location.
 export function renderArtistNextDatesPriceAnswer(artist, shows, availability, surface = {}) {
+  const hasMultipleCountries = new Set((Array.isArray(shows) ? shows : [])
+    .map((show) => String(show.country || "").trim()).filter(Boolean)).size > 1;
   const nextShows = (Array.isArray(shows) ? shows : []).slice(0, ARTIST_NEXT_DATES_LIMIT);
   if (!nextShows.length) return "";
   const specsByShowId = new Map(nextShows.map((show) => [String(show.id || ""), serverShowCtaSpecs(show, availability)]));
@@ -5621,7 +5623,7 @@ export function renderArtistNextDatesPriceAnswer(artist, shows, availability, su
   });
   const placeById = new Map(nextShows.map((show) => [String(show.id || ""), [show.city, show.venue].filter(Boolean).join(" · ")]));
   return renderArtistCityPriceAnswer(artist, { city: "" }, priceAnswer, new Map(), new Map(), {
-    heading: surface.heading || `Next ${artist.name} dates`,
+    heading: surface.heading || `Next ${artist.name} dates${hasMultipleCountries ? " (all listed countries)" : ""}`,
     caption: surface.caption || `Ticket options for the next ${artist.name} dates`,
     titleId: surface.titleId || "artistNextDatesTitle",
     ticketOptionsByShowId: new Map(nextShows.map((show) => [String(show.id || ""), {
@@ -8287,7 +8289,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     route.type === "tours-hub" ||
     route.path === "/artists"
   ) {
-    next = next.replace("</body>", '<script src="/artist-board.js?v=20261002m" defer></script></body>');
+    next = next.replace("</body>", '<script src="/artist-board.js?v=20261023a" defer></script></body>');
   }
   // Any page with a price-history panel (artist, artist-city, city, venue,
   // comparison hub) gets the form template and the module that opens panels.

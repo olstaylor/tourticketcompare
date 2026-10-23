@@ -6078,7 +6078,7 @@
           "too_soon": 198
         }
       },
-      "launch_date": null,
+      "launch_date": "2026-10-23",
       "launch_note": "launch_date is the day production first serves these pages index,follow (the merge of this batch), recorded after production verification. Measurement windows run from that date.",
       "selection": {
         "size": 150,
@@ -8360,7 +8360,7 @@
           "too_soon": 198
         }
       },
-      "launch_date": null,
+      "launch_date": "2026-10-23",
       "launch_note": "launch_date is the day production first serves these pages index,follow (the merge of this batch), recorded after production verification. Measurement windows run from that date.",
       "selection": {
         "size": 20,

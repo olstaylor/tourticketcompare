@@ -779,11 +779,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18612662,
+        "url": "https://seatgeek.com/flans-tickets/san-jose-california-san-jose-civic-2027-06-03-8-pm/concert/18612662",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7593636,

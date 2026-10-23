@@ -1062,11 +1062,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18686628,
+        "url": "https://seatgeek.com/zach-bryan-tickets/indianapolis-indiana-lucas-oil-stadium-2027-05-01-7-pm/concert/18686628",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7706921,
@@ -1155,11 +1155,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18686626,
+        "url": "https://seatgeek.com/zach-bryan-tickets/green-bay-wisconsin-lambeau-field-2027-05-04-7-pm/concert/18686626",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7706945,
@@ -1253,11 +1253,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18686627,
+        "url": "https://seatgeek.com/zach-bryan-tickets/east-rutherford-new-jersey-metlife-stadium-2027-05-14-7-pm/concert/18686627",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7706905,
@@ -1346,11 +1346,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18686631,
+        "url": "https://seatgeek.com/zach-bryan-tickets/east-rutherford-new-jersey-metlife-stadium-2027-05-15-7-pm/concert/18686631",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7706909,
@@ -1439,11 +1439,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18686630,
+        "url": "https://seatgeek.com/zach-bryan-tickets/philadelphia-pennsylvania-lincoln-financial-field-2027-05-25-7-pm/concert/18686630",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7706915,
@@ -1542,11 +1542,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18686629,
+        "url": "https://seatgeek.com/zach-bryan-tickets/atlanta-georgia-mercedes-benz-stadium-2027-05-29-7-pm/concert/18686629",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7706911,
@@ -1640,11 +1640,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18686638,
+        "url": "https://seatgeek.com/zach-bryan-tickets/orchard-park-new-york-highmark-stadium-ny-2027-06-02-7-pm/concert/18686638",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7706949,
@@ -1727,7 +1727,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1700654C987B8307",
     "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-las-vegas-nevada-07-16-2027/event/1700654C987B8307",
-    "seatgeek_url": "https://seatgeek.com/zach-bryan-tickets/las-vegas-nevada-allegiant-stadium-2027-07-16-3-30-am/concert/18686640",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-las-vegas-allegiant-stadium-7-16-2027--concerts-country-and-folk/production/7706953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-las-vegas-nevada-07-16-2027/event/1700654C987B8307",
@@ -1747,7 +1747,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7706953,
@@ -1841,11 +1841,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18686642,
+        "url": "https://seatgeek.com/zach-bryan-tickets/inglewood-california-sofi-stadium-2027-07-20-7-pm/concert/18686642",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7706957,
@@ -1949,11 +1949,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18686643,
+        "url": "https://seatgeek.com/zach-bryan-tickets/seattle-washington-lumen-field-2027-07-24-7-pm/concert/18686643",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7706907,
@@ -2067,11 +2067,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18686647,
+        "url": "https://seatgeek.com/zach-bryan-tickets/vancouver-canada-bc-place-stadium-2027-07-28-7-pm/concert/18686647",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7706961,
@@ -2159,7 +2159,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1100654C8F234ADB",
     "ticketmaster_url": "https://www.ticketmaster.ca/zach-bryan-edmonton-alberta-08-01-2027/event/1100654C8F234ADB",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/zach-bryan-tickets/edmonton-canada-commonwealth-stadium-edmonton-2027-08-01-6-30-pm/concert/18686646",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/zach-bryan-edmonton-alberta-08-01-2027/event/1100654C8F234ADB",
@@ -2175,11 +2175,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18686646,
+        "url": "https://seatgeek.com/zach-bryan-tickets/edmonton-canada-commonwealth-stadium-edmonton-2027-08-01-6-30-pm/concert/18686646",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2334,7 +2334,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "110065548ED5672E",
     "ticketmaster_url": "https://www.ticketmaster.ca/zach-bryan-vancouver-british-columbia-07-27-2027/event/110065548ED5672E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/zach-bryan-tickets/vancouver-canada-bc-place-stadium-2027-07-27-7-pm/concert/18711212",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/zach-bryan-vancouver-british-columbia-07-27-2027/event/110065548ED5672E",
@@ -2350,11 +2350,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18711212,
+        "url": "https://seatgeek.com/zach-bryan-tickets/vancouver-canada-bc-place-stadium-2027-07-27-7-pm/concert/18711212",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2388,7 +2388,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1100655498AD7FF7",
     "ticketmaster_url": "https://www.ticketmaster.ca/zach-bryan-edmonton-alberta-07-31-2027/event/1100655498AD7FF7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/zach-bryan-tickets/edmonton-canada-commonwealth-stadium-edmonton-2027-07-31-6-30-pm/concert/18711213",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/zach-bryan-edmonton-alberta-07-31-2027/event/1100655498AD7FF7",
@@ -2404,11 +2404,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18711213,
+        "url": "https://seatgeek.com/zach-bryan-tickets/edmonton-canada-commonwealth-stadium-edmonton-2027-07-31-6-30-pm/concert/18711213",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2495,7 +2495,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7PvJ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7PvJ",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/zach-bryan-tickets/chicago-illinois-soldier-field-2027-05-07-7-pm/concert/18711214",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7PvJ",
@@ -2511,11 +2511,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18711214,
+        "url": "https://seatgeek.com/zach-bryan-tickets/chicago-illinois-soldier-field-2027-05-07-7-pm/concert/18711214",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2548,7 +2548,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7Ka-",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Ka-",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/zach-bryan-tickets/chicago-illinois-soldier-field-2027-05-08-7-pm/concert/18686654",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Ka-",
@@ -2564,11 +2564,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18686654,
+        "url": "https://seatgeek.com/zach-bryan-tickets/chicago-illinois-soldier-field-2027-05-08-7-pm/concert/18686654",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2601,7 +2601,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7KaV",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7KaV",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/zach-bryan-tickets/baltimore-maryland-m-t-bank-stadium-2027-05-18-8-pm/concert/18655057",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7KaV",
@@ -2617,11 +2617,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18655057,
+        "url": "https://seatgeek.com/zach-bryan-tickets/baltimore-maryland-m-t-bank-stadium-2027-05-18-8-pm/concert/18655057",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

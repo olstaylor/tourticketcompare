@@ -2207,11 +2207,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18632558,
+        "url": "https://seatgeek.com/a-perfect-circle-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-06-10-8-pm/concert/18632558",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623609,
@@ -2286,11 +2286,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18632560,
+        "url": "https://seatgeek.com/a-perfect-circle-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-06-11-8-pm/concert/18632560",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623611,
@@ -2447,7 +2447,7 @@
         "event_id": 18632531,
         "url": "https://seatgeek.com/a-perfect-circle-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-05-08-8-pm/concert/18632531",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2516,7 +2516,7 @@
         "event_id": 18632540,
         "url": "https://seatgeek.com/a-perfect-circle-tickets/morrison-colorado-red-rocks-amphitheatre-2027-05-27-7-30-pm/concert/18632540",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {

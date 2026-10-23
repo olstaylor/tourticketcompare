@@ -788,7 +788,7 @@
         "event_id": 18316794,
         "url": "https://seatgeek.com/daughtry-tickets/nashville-indiana-brown-county-music-center-2026-10-29-7-pm/concert/18316794",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -940,7 +940,7 @@
         "event_id": 18316800,
         "url": "https://seatgeek.com/daughtry-tickets/des-moines-iowa-hoyt-sherman-place-2026-11-01-7-pm/concert/18316800",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1024,7 +1024,7 @@
         "event_id": 18316801,
         "url": "https://seatgeek.com/daughtry-tickets/kansas-city-missouri-uptown-theater-kc-2026-11-03-8-pm/concert/18316801",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1230,7 +1230,7 @@
         "event_id": 18316806,
         "url": "https://seatgeek.com/daughtry-tickets/napa-california-uptown-theatre-napa-2026-11-08-7-pm/concert/18316806",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1306,7 +1306,7 @@
         "event_id": 18316807,
         "url": "https://seatgeek.com/daughtry-tickets/anaheim-california-city-national-grove-of-anaheim-2026-11-10-7-pm/concert/18316807",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2623,7 +2623,7 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "020065319B7DC030",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-bethlehem-pennsylvania-02-27-2027/event/020065319B7DC030",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/bethlehem-pennsylvania-wind-creek-event-center-2027-02-27-8-pm/concert/18632933",
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-bethlehem-wind-creek-event-center-2-27-2027/production/7623765",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-bethlehem-pennsylvania-02-27-2027/event/020065319B7DC030",
@@ -2639,11 +2639,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18632933,
+        "url": "https://seatgeek.com/daughtry-tickets/bethlehem-pennsylvania-wind-creek-event-center-2027-02-27-8-pm/concert/18632933",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623765,
@@ -3364,7 +3364,7 @@
         "event_id": 18632936,
         "url": "https://seatgeek.com/daughtry-tickets/charlottesville-virginia-paramount-theater-charlottesville-2027-03-03-7-pm/concert/18632936",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {

@@ -33,10 +33,16 @@ const args = new Set(process.argv.slice(2));
 const CHECK = args.has("--check");
 const JSON_OUT = args.has("--json");
 
+// This standalone audit compares a derived inventory with a multi-minute crawl.
+// Keep the renderer and every expected record on the same clock: a show that
+// starts during the crawl must not disappear from the rendered counts alone
+// (Impact provider sync #307 failed across the 01:00 UTC show starts).
+const now = Date.now();
+Date.now = () => now;
+
 const fixture = await loadSiteFixture(ROOT);
 const { events, artistsMeta, catalog } = fixture.data;
 const { policyModule, artistCitiesModule, eventPagesModule, citiesModule } = fixture.modules;
-const now = Date.now();
 
 const findings = [];
 const fail = (page, check, detail) => findings.push({ page, check, detail });

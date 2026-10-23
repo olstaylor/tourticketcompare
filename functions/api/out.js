@@ -2543,6 +2543,90 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-chayanne",
     redirectUrl: "https://seatgeek.com/chayanne-tickets",
     verified: true
+  },
+  "cece-winans:ticketmaster": {
+    artistSlug: "cece-winans",
+    provider: "ticketmaster",
+    linkId: "tm-artist-cece-winans",
+    redirectUrl: "https://www.ticketmaster.com/cece-winans-tickets/artist/777488",
+    verified: true
+  },
+  "cece-winans:seatgeek": {
+    artistSlug: "cece-winans",
+    provider: "seatgeek",
+    linkId: "sg-artist-cece-winans",
+    redirectUrl: "https://seatgeek.com/cece-winans-tickets",
+    verified: true
+  },
+  "role-model:ticketmaster": {
+    artistSlug: "role-model",
+    provider: "ticketmaster",
+    linkId: "tm-artist-role-model",
+    redirectUrl: "https://www.ticketmaster.com/role-model-tickets/artist/2629945",
+    verified: true
+  },
+  "role-model:seatgeek": {
+    artistSlug: "role-model",
+    provider: "seatgeek",
+    linkId: "sg-artist-role-model",
+    redirectUrl: "https://seatgeek.com/role-model-tickets",
+    verified: true
+  },
+  "karan-aujla:ticketmaster": {
+    artistSlug: "karan-aujla",
+    provider: "ticketmaster",
+    linkId: "tm-artist-karan-aujla",
+    redirectUrl: "https://www.ticketmaster.com/karan-aujla-tickets/artist/2731661",
+    verified: true
+  },
+  "karan-aujla:seatgeek": {
+    artistSlug: "karan-aujla",
+    provider: "seatgeek",
+    linkId: "sg-artist-karan-aujla",
+    redirectUrl: "https://seatgeek.com/karan-aujla-tickets",
+    verified: true
+  },
+  "jack-johnson:ticketmaster": {
+    artistSlug: "jack-johnson",
+    provider: "ticketmaster",
+    linkId: "tm-artist-jack-johnson",
+    redirectUrl: "https://www.ticketmaster.com/jack-johnson-tickets/artist/754036",
+    verified: true
+  },
+  "jack-johnson:seatgeek": {
+    artistSlug: "jack-johnson",
+    provider: "seatgeek",
+    linkId: "sg-artist-jack-johnson",
+    redirectUrl: "https://seatgeek.com/jack-johnson-tickets",
+    verified: true
+  },
+  "phil-wickham:ticketmaster": {
+    artistSlug: "phil-wickham",
+    provider: "ticketmaster",
+    linkId: "tm-artist-phil-wickham",
+    redirectUrl: "https://www.ticketmaster.com/phil-wickham-tickets/artist/1482838",
+    verified: true
+  },
+  "phil-wickham:seatgeek": {
+    artistSlug: "phil-wickham",
+    provider: "seatgeek",
+    linkId: "sg-artist-phil-wickham",
+    redirectUrl: "https://seatgeek.com/phil-wickham-tickets",
+    verified: true
+  },
+  "gavin-adcock:ticketmaster": {
+    artistSlug: "gavin-adcock",
+    provider: "ticketmaster",
+    linkId: "tm-artist-gavin-adcock",
+    redirectUrl: "https://www.ticketmaster.com/gavin-adcock-tickets/artist/3095044",
+    verified: true
+  },
+  "gavin-adcock:seatgeek": {
+    artistSlug: "gavin-adcock",
+    provider: "seatgeek",
+    linkId: "sg-artist-gavin-adcock",
+    redirectUrl: "https://seatgeek.com/gavin-adcock-tickets",
+    verified: true
   }
 };
 

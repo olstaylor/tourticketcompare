@@ -2362,5 +2362,89 @@
     "last_verified_at": "2026-10-22",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-22"
+  },
+  {
+    "slug": "cece-winans",
+    "name": "CeCe Winans",
+    "short_description": "Religious act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-23",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-23"
+  },
+  {
+    "slug": "role-model",
+    "name": "Role Model",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-23",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-23"
+  },
+  {
+    "slug": "karan-aujla",
+    "name": "Karan Aujla",
+    "short_description": "Hip-Hop/Rap act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-23",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-23"
+  },
+  {
+    "slug": "jack-johnson",
+    "name": "Jack Johnson",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-23",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-23"
+  },
+  {
+    "slug": "phil-wickham",
+    "name": "Phil Wickham",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-23",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-23"
+  },
+  {
+    "slug": "gavin-adcock",
+    "name": "Gavin Adcock",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-23",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-23"
   }
 ]

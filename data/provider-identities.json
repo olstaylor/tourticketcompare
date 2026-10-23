@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-22",
+  "updated_at": "2026-10-23",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -1921,6 +1921,72 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-10-22 (sanctioned path D): SeatGeek performer 4389 and Ticketmaster attraction K8vZ9171a90 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "cece-winans",
+      "ticketmaster_attraction_id": "K8vZ91714R0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/cece-winans-tickets/artist/777488",
+      "seatgeek_performer_id": 4776,
+      "seatgeek_artist_url": "https://seatgeek.com/cece-winans-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-23 (sanctioned path D): SeatGeek performer 4776 and Ticketmaster attraction K8vZ91714R0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "role-model",
+      "ticketmaster_attraction_id": "K8vZ917be9f",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/role-model-tickets/artist/2629945",
+      "seatgeek_performer_id": 100902,
+      "seatgeek_artist_url": "https://seatgeek.com/role-model-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-23 (sanctioned path D): SeatGeek performer 100902 and Ticketmaster attraction K8vZ917be9f captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "karan-aujla",
+      "ticketmaster_attraction_id": "K8vZ917bVYf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/karan-aujla-tickets/artist/2731661",
+      "seatgeek_performer_id": 787684,
+      "seatgeek_artist_url": "https://seatgeek.com/karan-aujla-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-23 (sanctioned path D): SeatGeek performer 787684 and Ticketmaster attraction K8vZ917bVYf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "jack-johnson",
+      "ticketmaster_attraction_id": "K8vZ9171SXf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/jack-johnson-tickets/artist/754036",
+      "seatgeek_performer_id": 2414,
+      "seatgeek_artist_url": "https://seatgeek.com/jack-johnson-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-23 (sanctioned path D): SeatGeek performer 2414 and Ticketmaster attraction K8vZ9171SXf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "phil-wickham",
+      "ticketmaster_attraction_id": "K8vZ917GUTV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/phil-wickham-tickets/artist/1482838",
+      "seatgeek_performer_id": 23248,
+      "seatgeek_artist_url": "https://seatgeek.com/phil-wickham-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-23 (sanctioned path D): SeatGeek performer 23248 and Ticketmaster attraction K8vZ917GUTV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "gavin-adcock",
+      "ticketmaster_attraction_id": "K8vZ917jQA7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/gavin-adcock-tickets/artist/3095044",
+      "seatgeek_performer_id": 807907,
+      "seatgeek_artist_url": "https://seatgeek.com/gavin-adcock-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-23 (sanctioned path D): SeatGeek performer 807907 and Ticketmaster attraction K8vZ917jQA7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

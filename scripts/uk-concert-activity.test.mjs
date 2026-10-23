@@ -5,6 +5,8 @@ import os from 'node:os';
 import path from 'node:path';
 import { execFileSync, spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
+import { gunzipSync } from 'node:zlib';
 import { REPORT_ID, TTC_RESEARCH_SOURCE, ttcResearchObservations, buildUkConcertActivity, renderUkConcertActivity } from './lib/uk-concert-activity.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -55,6 +57,39 @@ test('adapter withholds unverifiable evidence, invalid dates and non-concert pro
     { event_name: 'Artist A Festival' }, { event_name: 'Artist A weekend pass' },
   ]) assert.equal(total(build(observations([event('A', extra)]))), 0, JSON.stringify(extra));
   assert.equal(total(build(observations([event('A', { ticketmaster_status_code: 'rescheduled', status: 'announced' })]))), 1);
+});
+
+test('Northern Ireland events use their reviewed Ireland-domain URLs; country remains decisive', () => {
+  for (const host of ['www.ticketmaster.ie', 'ticketmaster.ie']) {
+    const e = event();
+    const url = `https://${host}/artist-a-belfast/event/A`;
+    Object.assign(e, { city: 'Belfast', source_url: url, ticketmaster_url: url });
+    e.provider_links.ticketmaster.url = url;
+    const report = build(observations([e]));
+    assert.equal(total(report), 1);
+    assert.equal(report.rankings[0].city, 'Belfast');
+    assert.equal(report.supporting_events[0].evidence[0].source_url, url);
+    e.country = 'Ireland';
+    assert.equal(build(observations([e])).coverage.excluded_observations.outside_uk, 1);
+    e.country = 'Great Britain';
+    e.source_url = e.ticketmaster_url = e.provider_links.ticketmaster.url = 'https://ticketmaster.ie.evil.test/event/A';
+    assert.equal(total(build(observations([e]))), 0);
+  }
+});
+
+test('unresolved countries stay visible in exclusions rather than becoming outside-UK rows', () => {
+  const row = observations([event()])[0];
+  for (const country of [undefined, null, '', '   ', {}, 123, '???', 'Atlantis', 'Unknown Region', 'GB']) {
+    const report = build([{ ...row, country }]);
+    assert.equal(total(report), 0);
+    assert.equal(report.coverage.excluded_observations.unresolved_country, 1);
+    assert.equal(report.coverage.excluded_observations.outside_uk, undefined);
+    assert.equal(report.decisions[0].record_id, row.record_id);
+    assert.equal(report.decisions[0].reason, 'unresolved_country');
+    assert.equal(tally(report), 1);
+  }
+  assert.equal(build([{ ...row, country: 'Ireland' }]).coverage.excluded_observations.outside_uk, 1);
+  assert.equal(build([{ ...row, country: 'Czech Republic' }]).coverage.excluded_observations.outside_uk, 1);
 });
 
 test('source-independent validation excludes invalid records with a reviewable reason', () => {
@@ -166,9 +201,17 @@ test('schema and snapshot errors are explicit', () => {
   assert.throws(() => build(null));
 });
 
-test('committed actual-data report supports independent arithmetic and safe rendering', async () => {
+test('committed actual-data report rebuilds fully from hashed replay inputs without Git history', async () => {
   const base = path.join(root, 'reports/research', REPORT_ID);
   const report = JSON.parse(await fs.readFile(path.join(base, 'report.json'), 'utf8'));
+  const replay = JSON.parse(gunzipSync(await fs.readFile(path.join(base, 'replay-inputs.json.gz'))));
+  assert.deepEqual(replay.files.map((f) => f.path), ['public/data/events.json', 'public/data/artists.json']);
+  for (const file of replay.files) assert.equal(createHash('sha256').update(file.content).digest('hex'), file.sha256);
+  const regenerated = buildUkConcertActivity(ttcResearchObservations(
+    JSON.parse(replay.files[0].content), JSON.parse(replay.files[1].content),
+  ), { snapshotAt: replay.snapshot_at, sources: [source] });
+  regenerated.inputs = { revision: replay.revision, files: replay.files.map(({ path, sha256 }) => ({ path, sha256 })) };
+  assert.deepEqual(report, regenerated, 'adapter or calculation changes require regenerating the actual-data report');
   assert.equal(total(report), report.supporting_events.length);
   assert.equal(tally(report), report.coverage.input_observations);
   for (const city of report.rankings) assert.equal(city.concert_count, report.supporting_events.filter((e) => e.city === city.city).length);
@@ -184,6 +227,24 @@ test('committed actual-data report supports independent arithmetic and safe rend
   assert.match(markdown, /INTERNAL ONLY/);
   assert.match(markdown, /unobserved, not zero/);
   assert.match(markdown, /Research publication, redistribution and archive rights are not established/);
+  assert.equal(report.rankings.find((r) => r.city === 'Belfast').concert_count, 4, 'all four verified Belfast source records remain represented');
+});
+
+test('offline CLI overrides lazy-fetch opt-ins on every Git subprocess', async () => {
+  const directory = await fs.mkdtemp(path.join(os.tmpdir(), 'ttc-uk-git-env-'));
+  const command = path.join(root, 'scripts/report-uk-concert-activity.mjs');
+  try {
+    const realGit = execFileSync('sh', ['-c', 'command -v git'], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] }).trim();
+    const calls = path.join(directory, 'git-calls');
+    const wrapper = `#!/usr/bin/env node\nconst fs = require('node:fs');\nif (process.env.GIT_NO_LAZY_FETCH !== '1') process.exit(99);\nfs.appendFileSync(${JSON.stringify(calls)}, 'checked\\n');\nconst result = require('node:child_process').spawnSync(${JSON.stringify(realGit)}, process.argv.slice(2), { env: process.env, stdio: 'inherit' });\nprocess.exit(result.status ?? 1);\n`;
+    await fs.writeFile(path.join(directory, 'git'), wrapper, { mode: 0o755 });
+    const result = spawnSync(process.execPath, [command, '--snapshot-at', '2099-01-01T00:00:00Z', '--output', path.join(directory, 'report')], {
+      cwd: root, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'],
+      env: { ...process.env, PATH: `${directory}${path.delimiter}${process.env.PATH}`, GIT_NO_LAZY_FETCH: '0' },
+    });
+    assert.equal(result.status, 0, result.stderr);
+    assert.equal((await fs.readFile(calls, 'utf8')).trim().split('\n').length, 4);
+  } finally { await fs.rm(directory, { recursive: true, force: true }); }
 });
 
 test('CLI requires a snapshot, rejects unknown flags, is offline and reproducible, and protects site output', async () => {

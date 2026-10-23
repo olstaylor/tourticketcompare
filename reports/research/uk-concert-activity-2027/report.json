@@ -26,7 +26,9 @@
         "www.ticketmaster.co.uk",
         "www.ticketmaster.com",
         "ticketmaster.co.uk",
-        "ticketmaster.com"
+        "ticketmaster.com",
+        "www.ticketmaster.ie",
+        "ticketmaster.ie"
       ],
       "internal_analysis_permitted": true,
       "public_research_rights": "not_established",
@@ -39,16 +41,15 @@
     "uk_input_observations": 327,
     "uk_2027_dated_observations": 218,
     "uk_unresolved_date_observations": 9,
-    "counted_concerts": 202,
-    "represented_cities": 14,
+    "counted_concerts": 206,
+    "represented_cities": 15,
     "represented_artists": 43,
-    "represented_venues": 61,
+    "represented_venues": 64,
     "oldest_counted_observation": "2026-10-15",
     "newest_counted_observation": "2026-10-21",
     "uk_market_coverage_percent": null,
     "excluded_observations": {
       "invalid_observation_date": 9,
-      "invalid_provenance": 4,
       "outside_2027": 100,
       "outside_uk": 3698,
       "stale_observation": 9,
@@ -101,6 +102,13 @@
       "rank": 6
     },
     {
+      "city": "Belfast",
+      "concert_count": 4,
+      "venue_count": 3,
+      "artist_count": 4,
+      "rank": 7
+    },
+    {
       "city": "Edinburgh",
       "concert_count": 4,
       "venue_count": 2,
@@ -126,35 +134,35 @@
       "concert_count": 2,
       "venue_count": 1,
       "artist_count": 2,
-      "rank": 10
+      "rank": 11
     },
     {
       "city": "Brighton",
       "concert_count": 1,
       "venue_count": 1,
       "artist_count": 1,
-      "rank": 11
+      "rank": 12
     },
     {
       "city": "Bristol",
       "concert_count": 1,
       "venue_count": 1,
       "artist_count": 1,
-      "rank": 11
+      "rank": 12
     },
     {
       "city": "Exeter",
       "concert_count": 1,
       "venue_count": 1,
       "artist_count": 1,
-      "rank": 11
+      "rank": 12
     },
     {
       "city": "Liverpool",
       "concert_count": 1,
       "venue_count": 1,
       "artist_count": 1,
-      "rank": 11
+      "rank": 12
     }
   ],
   "methodology": [
@@ -208,6 +216,12 @@
       "city": "Stevenage",
       "status": "internal_candidate_do_not_pitch",
       "angle": "Stevenage: one tracked artist accounts for this sample's 6 performances. Explore the confirmed run of dates with the venue before developing a local programme story.",
+      "caveat": "No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required."
+    },
+    {
+      "city": "Belfast",
+      "status": "internal_candidate_do_not_pitch",
+      "angle": "Belfast: a local 2027 concert-planning story could examine the 4 recorded performances from 4 artists across 3 venues in this TTC sample. Verify the programme with those venues.",
       "caveat": "No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required."
     },
     {
@@ -2725,6 +2739,34 @@
       ]
     },
     {
+      "city": "Belfast",
+      "raw_city_labels": [
+        "Belfast"
+      ],
+      "venue": "The O2 Belfast",
+      "local_date": "2027-04-27",
+      "starts_at": "2027-04-27T18:00:00.000Z",
+      "artists": [
+        "Rod Stewart"
+      ],
+      "artist_ids": [
+        "rod-stewart"
+      ],
+      "event_names": [
+        "Rod Stewart"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-rod-stewart-2027-belfast-1azzkfugkd15ooi",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "38006536CA2D1468",
+          "source_url": "https://www.ticketmaster.ie/rod-stewart-belfast-27-04-2027/event/38006536CA2D1468",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
       "city": "Glasgow",
       "raw_city_labels": [
         "Glasgow"
@@ -4461,6 +4503,34 @@
       ]
     },
     {
+      "city": "Belfast",
+      "raw_city_labels": [
+        "Belfast"
+      ],
+      "venue": "Ormeau Park",
+      "local_date": "2027-06-17",
+      "starts_at": "2027-06-17T17:00:00.000Z",
+      "artists": [
+        "Sombr"
+      ],
+      "artist_ids": [
+        "sombr"
+      ],
+      "event_names": [
+        "SOMBR // You Are The Reason Tour // Belfast"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-sombr-2027-belfast-16doz_oxfg7tv55",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3800651894A412CB",
+          "source_url": "https://www.ticketmaster.ie/sombr-you-are-the-reason-tour-belfast-17-06-2027/event/3800651894A412CB",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
       "city": "Manchester",
       "raw_city_labels": [
         "Manchester"
@@ -4623,6 +4693,34 @@
           "source": "ttc-reviewed-catalogue",
           "source_event_id": "3500651AF207C509",
           "source_url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-22-06-2027/event/3500651AF207C509",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Belfast",
+      "raw_city_labels": [
+        "Belfast"
+      ],
+      "venue": "Ormeau Park",
+      "local_date": "2027-06-23",
+      "starts_at": "2027-06-23T17:00:00.000Z",
+      "artists": [
+        "Amble"
+      ],
+      "artist_ids": [
+        "amble"
+      ],
+      "event_names": [
+        "Amble"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-amble-2027-belfast-17czv0g62qetzl-",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "380064F682FC0AE1",
+          "source_url": "https://www.ticketmaster.ie/amble-belfast-23-06-2027/event/380064F682FC0AE1",
           "observed_at": "2026-10-15",
           "observation_precision": "day"
         }
@@ -5413,6 +5511,34 @@
       ]
     },
     {
+      "city": "Belfast",
+      "raw_city_labels": [
+        "Belfast"
+      ],
+      "venue": "Ulster Hall Belfast",
+      "local_date": "2027-09-08",
+      "starts_at": "2027-09-08T18:45:00.000Z",
+      "artists": [
+        "Passenger"
+      ],
+      "artist_ids": [
+        "passenger"
+      ],
+      "event_names": [
+        "Passenger"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-passenger-2027-belfast-16zzkfkojzage16c",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "38006513826B196D",
+          "source_url": "https://www.ticketmaster.ie/passenger-belfast-08-09-2027/event/38006513826B196D",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
       "city": "Stevenage",
       "raw_city_labels": [
         "Stevenage"
@@ -5919,13 +6045,6 @@
   ],
   "decisions": [
     {
-      "record_id": "tm-amble-2027-belfast-17czv0g62qetzl-",
-      "source": "ttc-reviewed-catalogue",
-      "source_event_id": "380064F682FC0AE1",
-      "observed_at": "2026-10-15",
-      "reason": "invalid_provenance"
-    },
-    {
       "record_id": "tm-ariana-grande-2026-london-3500631c8ea13055",
       "source": "ttc-reviewed-catalogue",
       "source_event_id": "3500631C8EA13055",
@@ -6017,20 +6136,6 @@
       "reason": "invalid_observation_date"
     },
     {
-      "record_id": "tm-passenger-2027-belfast-16zzkfkojzage16c",
-      "source": "ttc-reviewed-catalogue",
-      "source_event_id": "38006513826B196D",
-      "observed_at": "2026-10-15",
-      "reason": "invalid_provenance"
-    },
-    {
-      "record_id": "tm-rod-stewart-2027-belfast-1azzkfugkd15ooi",
-      "source": "ttc-reviewed-catalogue",
-      "source_event_id": "38006536CA2D1468",
-      "observed_at": "2026-10-18",
-      "reason": "invalid_provenance"
-    },
-    {
       "record_id": "tm-role-model-2027-london-17uyv0g6ueic0m_",
       "source": "ttc-reviewed-catalogue",
       "source_event_id": "370064D0AC3A4B99",
@@ -6071,13 +6176,6 @@
       "source_event_id": "1F0064C20CA5D1F4",
       "observed_at": "",
       "reason": "invalid_observation_date"
-    },
-    {
-      "record_id": "tm-sombr-2027-belfast-16doz_oxfg7tv55",
-      "source": "ttc-reviewed-catalogue",
-      "source_event_id": "3800651894A412CB",
-      "observed_at": "2026-10-15",
-      "reason": "invalid_provenance"
     },
     {
       "record_id": "tm-teddy-swims-2027-greenwich-z7r9jz1aav0v4",

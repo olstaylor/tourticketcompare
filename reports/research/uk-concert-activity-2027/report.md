@@ -16,14 +16,15 @@ Within this TTC catalogue sample, London leads with 70 recorded 2027 concerts.
 | 4 | Birmingham | 18 | 18 | 5 |
 | 5 | Cardiff | 7 | 7 | 4 |
 | 6 | Stevenage | 6 | 1 | 1 |
+| 7 | Belfast | 4 | 4 | 3 |
 | 7 | Edinburgh | 4 | 3 | 2 |
 | 7 | Leeds | 4 | 4 | 2 |
 | 7 | Newcastle Upon Tyne | 4 | 4 | 3 |
-| 10 | Nottingham | 2 | 2 | 1 |
-| 11 | Brighton | 1 | 1 | 1 |
-| 11 | Bristol | 1 | 1 | 1 |
-| 11 | Exeter | 1 | 1 | 1 |
-| 11 | Liverpool | 1 | 1 | 1 |
+| 11 | Nottingham | 2 | 2 | 1 |
+| 12 | Brighton | 1 | 1 | 1 |
+| 12 | Bristol | 1 | 1 | 1 |
+| 12 | Exeter | 1 | 1 | 1 |
+| 12 | Liverpool | 1 | 1 | 1 |
 
 ## Coverage
 
@@ -31,10 +32,10 @@ Within this TTC catalogue sample, London leads with 70 recorded 2027 concerts.
 - uk_input_observations: 327
 - uk_2027_dated_observations: 218
 - uk_unresolved_date_observations: 9
-- counted_concerts: 202
-- represented_cities: 14
+- counted_concerts: 206
+- represented_cities: 15
 - represented_artists: 43
-- represented_venues: 61
+- represented_venues: 64
 - oldest_counted_observation: 2026-10-15
 - newest_counted_observation: 2026-10-21
 - uk_market_coverage_percent: unknown / not measured
@@ -42,7 +43,6 @@ Within this TTC catalogue sample, London leads with 70 recorded 2027 concerts.
 Excluded observations (one disposition per input row):
 
 - invalid_observation_date: 9
-- invalid_provenance: 4
 - outside_2027: 100
 - outside_uk: 3698
 - stale_observation: 9
@@ -169,6 +169,7 @@ Every counted performance is below; report.json includes source IDs, raw city la
 | 2027-04-25 | London | The O2 | Teddy Swims | [tm-teddy-swims-2027-london-17u8v0g623nj3ov](https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-25-04-2027/event/350064F4A3712441) | 2026-10-15 (day) |
 | 2027-04-25 | Manchester | Co-op Live | Gracie Abrams | [tm-gracie-abrams-2027-manchester-17uyv0g6gkp6vc5](https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-25-04-2027/event/370064C1A51F4B4B) | 2026-10-15 (day) |
 | 2027-04-27 | Glasgow | OVO Hydro | Gracie Abrams | [tm-gracie-abrams-2027-glasgow-17uov0g65lvesak](https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-glasgow-27-04-2027/event/360064BAF49F1146) | 2026-10-15 (day) |
+| 2027-04-27 | Belfast | The O2 Belfast | Rod Stewart | [tm-rod-stewart-2027-belfast-1azzkfugkd15ooi](https://www.ticketmaster.ie/rod-stewart-belfast-27-04-2027/event/38006536CA2D1468) | 2026-10-18 (day) |
 | 2027-04-28 | Glasgow | OVO Hydro | Gracie Abrams | [tm-gracie-abrams-2027-glasgow-17uov0g65vd1fhq](https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-glasgow-28-04-2027/event/360064BD032946DD) | 2026-10-15 (day) |
 | 2027-04-28 | London | The O2 | Thirty Seconds to Mars | [tm-thirty-seconds-to-mars-2027-london-1agzk3agkdevn9u](https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-london-28-04-2027/event/35006489E7D2A5CD) | 2026-10-15 (day) |
 | 2027-04-29 | Manchester | Co-op Live | Thirty Seconds to Mars | [tm-thirty-seconds-to-mars-2027-manchester-1amzk3agkeyexfs](https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-manchester-29-04-2027/event/37006489B09E2233) | 2026-10-15 (day) |
@@ -231,12 +232,14 @@ Every counted performance is below; report.json includes source IDs, raw city la
 | 2027-06-11 | Manchester | Etihad Stadium | Oasis | [tm-oasis-2027-manchester-g5dzz_3lwcjqy](https://www.ticketmaster.co.uk/oasis-live-27-manchester-11-06-2027/event/3E00652AFD3A6770) | 2026-10-15 (day) |
 | 2027-06-12 | Manchester | Etihad Stadium | Oasis | [tm-oasis-2027-manchester-g5dzz_3lxmu-j](https://www.ticketmaster.co.uk/oasis-live-27-manchester-12-06-2027/event/3E00652AFEBB6866) | 2026-10-15 (day) |
 | 2027-06-15 | Manchester | Etihad Stadium | Oasis | [tm-oasis-2027-manchester-g5dzz_3nq9ecb](https://www.ticketmaster.co.uk/oasis-live-27-manchester-15-06-2027/event/3E00652A9A5C2B58) | 2026-10-15 (day) |
+| 2027-06-17 | Belfast | Ormeau Park | Sombr | [tm-sombr-2027-belfast-16doz_oxfg7tv55](https://www.ticketmaster.ie/sombr-you-are-the-reason-tour-belfast-17-06-2027/event/3800651894A412CB) | 2026-10-15 (day) |
 | 2027-06-18 | Manchester | Etihad Stadium | Oasis | [tm-oasis-2027-manchester-g5dzz_3lv67ao](https://www.ticketmaster.co.uk/oasis-live-27-manchester-18-06-2027/event/3E00652AC11C4260) | 2026-10-15 (day) |
 | 2027-06-19 | Glasgow | Bellahouston Park | Sombr | [tm-sombr-2027-glasgow-1auzkfbgkeiqyo0](https://www.ticketmaster.co.uk/glasgow-summer-sessions-sombr-you-are-glasgow-19-06-2027/event/36006518AC6B9824) | 2026-10-15 (day) |
 | 2027-06-19 | Manchester | Etihad Stadium | Oasis | [tm-oasis-2027-manchester-g5dzz_3l--ppl](https://www.ticketmaster.co.uk/oasis-live-27-manchester-19-06-2027/event/3E00652AE186559F) | 2026-10-15 (day) |
 | 2027-06-21 | London | The O2 | Sombr | [tm-sombr-2027-london-1adfz_ogkwyrfux](https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-21-06-2027/event/3500651CB0788DBE) | 2026-10-15 (day) |
 | 2027-06-22 | Manchester | Etihad Stadium | Oasis | [tm-oasis-2027-manchester-g5dzz_3l0pglg](https://www.ticketmaster.co.uk/oasis-live-27-manchester-22-06-2027/event/3E00652AE49757CC) | 2026-10-15 (day) |
 | 2027-06-22 | London | The O2 | Sombr | [tm-sombr-2027-london-1adfz_ogklwvhfa](https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-22-06-2027/event/3500651AF207C509) | 2026-10-15 (day) |
+| 2027-06-23 | Belfast | Ormeau Park | Amble | [tm-amble-2027-belfast-17czv0g62qetzl-](https://www.ticketmaster.ie/amble-belfast-23-06-2027/event/380064F682FC0AE1) | 2026-10-15 (day) |
 | 2027-06-23 | Glasgow | OVO Hydro | Hayley Williams | [tm-hayley-williams-2027-glasgow-1auzkf-gkd-5zto](https://www.ticketmaster.co.uk/the-hayley-williams-show-glasgow-23-06-2027/event/36006521E12F8A60) | 2026-10-16 (day) |
 | 2027-06-24 | London | The O2 | Sombr | [tm-sombr-2027-london-1adfz_ogkwskt7w](https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-24-06-2027/event/3500651CB34E913D) | 2026-10-15 (day) |
 | 2027-06-25 | Manchester | Etihad Stadium | Oasis | [tm-oasis-2027-manchester-g5dzz_3ljog0t](https://www.ticketmaster.co.uk/oasis-live-27-manchester-25-06-2027/event/3E00652AE6835929) | 2026-10-15 (day) |
@@ -265,6 +268,7 @@ Every counted performance is below; report.json includes source IDs, raw city la
 | 2027-08-25 | London | Wembley Stadium | Harry Styles | [tm-harry-styles-2027-london-1aegz_8gkdalwdz](https://www.ticketmaster.co.uk/harry-styles-together-together-london-25-08-2027/event/2300650EC5AF20F8) | 2026-10-15 (day) |
 | 2027-08-27 | London | Wembley Stadium | Harry Styles | [tm-harry-styles-2027-london-1anzkfigkew9djd](https://www.ticketmaster.co.uk/harry-styles-together-together-london-27-08-2027/event/23006528B25C373B) | 2026-10-15 (day) |
 | 2027-08-28 | London | Wembley Stadium | Harry Styles | [tm-harry-styles-2027-london-1anzkfigkeycdjb](https://www.ticketmaster.co.uk/harry-styles-together-together-london-28-08-2027/event/23006528B9383998) | 2026-10-15 (day) |
+| 2027-09-08 | Belfast | Ulster Hall Belfast | Passenger | [tm-passenger-2027-belfast-16zzkfkojzage16c](https://www.ticketmaster.ie/passenger-belfast-08-09-2027/event/38006513826B196D) | 2026-10-15 (day) |
 | 2027-09-11 | Stevenage | Knebworth | Oasis | [tm-oasis-2027-stevenage-1adjz_3gklfny3e](https://www.ticketmaster.co.uk/oasis-live-27-stevenage-11-09-2027/event/3700652AD4AB9482) | 2026-10-15 (day) |
 | 2027-09-11 | Glasgow | O2 Academy Glasgow | Passenger | [tm-passenger-2027-glasgow-g5dzz_8wyqwf1](https://www.ticketmaster.co.uk/passenger-glasgow-11-09-2027/event/3E00650CB077220A) | 2026-10-15 (day) |
 | 2027-09-12 | Stevenage | Knebworth | Oasis | [tm-oasis-2027-stevenage-1adjz_3gkrrmy7n](https://www.ticketmaster.co.uk/oasis-live-27-stevenage-12-09-2027/event/3700652BDEBB9123) | 2026-10-15 (day) |
@@ -292,6 +296,7 @@ Every counted performance is below; report.json includes source IDs, raw city la
 - Birmingham: a local 2027 concert-planning story could examine the 18 recorded performances from 18 artists across 5 venues in this TTC sample. Verify the programme with those venues. No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required.
 - Cardiff: a local 2027 concert-planning story could examine the 7 recorded performances from 7 artists across 4 venues in this TTC sample. Verify the programme with those venues. No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required.
 - Stevenage: one tracked artist accounts for this sample's 6 performances. Explore the confirmed run of dates with the venue before developing a local programme story. No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required.
+- Belfast: a local 2027 concert-planning story could examine the 4 recorded performances from 4 artists across 3 venues in this TTC sample. Verify the programme with those venues. No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required.
 - Edinburgh: a local 2027 concert-planning story could examine the 4 recorded performances from 3 artists across 2 venues in this TTC sample. Verify the programme with those venues. No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required.
 - Leeds: a local 2027 concert-planning story could examine the 4 recorded performances from 4 artists across 2 venues in this TTC sample. Verify the programme with those venues. No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required.
 - Newcastle Upon Tyne: a local 2027 concert-planning story could examine the 4 recorded performances from 4 artists across 3 venues in this TTC sample. Verify the programme with those venues. No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required.

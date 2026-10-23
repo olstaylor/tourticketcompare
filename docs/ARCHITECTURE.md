@@ -287,6 +287,12 @@ Optional `--output /tmp/ttc-uk-review` writes a separate local review copy.
 Output inside the repository is restricted to `reports/`; symlinks into site
 content are refused. `report.md` is readable locally, and `report.json` contains
 all counted events, source evidence, rankings and excluded-record decisions.
+`replay-inputs.json.gz` contains the exact already-committed input bytes, revision
+and snapshot instant. Each decompressed input must match its recorded SHA-256.
+The consistency test reruns both the adapter and calculations from this fixture
+and compares the entire report, so shallow CI checkouts need no history fetch.
+Git subprocesses set `GIT_NO_LAZY_FETCH=1`; missing partial-clone objects fail
+locally rather than triggering an automatic promisor-remote download.
 Nothing in `reports/` is served by Cloudflare Pages.
 
 Each observation must be no more than 14 days old at the snapshot; a fresh row
@@ -297,6 +303,11 @@ times and uncertain concert products are excluded. Classification is based on
 the existing music-artist catalogue with conservative title exclusions, not a
 provider concert taxonomy. Every exclusion has one disposition; outside-UK and
 outside-year rows have summary counts, while other excluded IDs are reviewable.
+Recognized English country labels from the existing TTC inputs form an explicit
+MVP allowlist; missing or new labels have an `unresolved_country` decision until
+reviewed, never an assumed outside-UK classification. Reviewed `ticketmaster.ie`
+links are accepted for Northern Ireland; the recorded country, not the ticket
+domain, determines whether a performance belongs to the UK sample.
 
 Repeated source IDs resolve to the latest observation before filtering; equal
 time conflicts are withheld, and invalid dates block fallback to old evidence.
@@ -308,10 +319,11 @@ Venue aliases and uncertain geography remain disclosed limitations, not inferred
 merges. Missing cities are unobserved, never zero-concert cities.
 
 The committed pilot is an internal review artifact over existing repository
-facts, not a fresh provider archive. Regeneration keeps its explicit snapshot
-and source dates; do not describe an older report as current. On a source removal
-request, remove the affected projection and regenerate review outputs as well
-as following the existing source-removal process. No new feed payload is kept
+facts, including an exact compressed input fixture, not a fresh provider archive.
+Regeneration keeps its explicit snapshot and source dates; do not describe an
+older report as current. On a source removal
+request, remove the affected projection and regenerate review outputs and their
+input fixture as well as following the existing source-removal process. No new feed payload is kept
 in Git, D1 or artifacts. Research retention and public release must be settled
 before any collector or public asset is enabled; see the
 [research source assessment](PROVIDER_DATA_POLICY.md#research-source-assessment).

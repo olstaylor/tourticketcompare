@@ -13,6 +13,18 @@ const compare = (a, b) => a < b ? -1 : a > b ? 1 : 0;
 const key = (value) => text(value).normalize('NFKC').toLowerCase().replace(/\s+/g, ' ');
 const unique = (values) => [...new Set(values)].sort(compare);
 
+// Recognized English country labels in the MVP's existing TTC inputs. Keep
+// this explicit so ICU version changes cannot alter exclusion accounting.
+// Adapters supply canonical names; new/unresolved labels remain reviewable
+// until confirmed, rather than being assumed to describe a non-UK location.
+const countryNames = new Set([
+  'Australia', 'Austria', 'Belgium', 'Canada', 'Czech Republic', 'Czechia',
+  'Denmark', 'Finland', 'France', 'Germany', 'Ireland', 'Italy', 'Mexico',
+  'Netherlands', 'New Zealand', 'Norway', 'Poland', 'Singapore', 'South Africa',
+  'Spain', 'Sweden', 'Switzerland', 'United Arab Emirates', 'United Kingdom', 'United States',
+].map(key));
+const countryResolved = (value) => countryNames.has(key(value));
+
 export function validDay(value) {
   return typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) &&
     Number.isFinite(Date.parse(value)) && new Date(value).toISOString().slice(0, 10) === value;
@@ -35,7 +47,7 @@ function sourceUrlValid(value, hosts) {
 export const TTC_RESEARCH_SOURCE = Object.freeze({
   id: 'ttc-reviewed-catalogue',
   attribution: 'TTC reviewed catalogue; original event evidence: Ticketmaster',
-  allowed_hosts: ['www.ticketmaster.co.uk', 'www.ticketmaster.com', 'ticketmaster.co.uk', 'ticketmaster.com'],
+  allowed_hosts: ['www.ticketmaster.co.uk', 'www.ticketmaster.com', 'ticketmaster.co.uk', 'ticketmaster.com', 'www.ticketmaster.ie', 'ticketmaster.ie'],
   internal_analysis_permitted: true,
   public_research_rights: 'not_established',
   coverage: 'Selected TTC music artists and reviewed events, not a country-wide feed.',
@@ -143,7 +155,8 @@ export function buildUkConcertActivity(observations, { snapshotAt, sources }) {
     const source = sourceMap.get(row.source);
     const observed = observationTime(row);
     let reason = '';
-    if (key(row.country) !== 'united kingdom') reason = 'outside_uk';
+    if (!countryResolved(row.country)) reason = 'unresolved_country';
+    else if (key(row.country) !== 'united kingdom') reason = 'outside_uk';
     else if (validDay(row.local_date) && !row.local_date.startsWith('2027-')) reason = 'outside_2027';
     else if (!source || source.internal_analysis_permitted !== true) reason = 'source_not_permitted';
     else if (!text(row.record_id) || !text(row.source_event_id) || !sourceUrlValid(row.source_url, source.allowed_hosts)) reason = 'invalid_provenance';

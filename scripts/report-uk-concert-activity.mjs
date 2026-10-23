@@ -5,10 +5,12 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
+import { gzipSync } from 'node:zlib';
 import { REPORT_ID, TTC_RESEARCH_SOURCE, ttcResearchObservations, buildUkConcertActivity, renderUkConcertActivity } from './lib/uk-concert-activity.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const git = (args) => execFileSync('git', args, { cwd: root, encoding: 'utf8', maxBuffer: 32 * 1024 * 1024, stdio: ['ignore', 'pipe', 'pipe'] });
+const git = (args) => execFileSync('git', args, { cwd: root, encoding: 'utf8', maxBuffer: 32 * 1024 * 1024,
+  env: { ...process.env, GIT_NO_LAZY_FETCH: '1' }, stdio: ['ignore', 'pipe', 'pipe'] });
 const options = { revision: 'HEAD', output: path.join(root, 'reports/research', REPORT_ID) };
 try {
   for (let i = 2; i < process.argv.length; i += 1) {
@@ -22,7 +24,7 @@ try {
   if (committedAt > Date.parse(options['snapshot-at'])) throw new Error('Input revision was committed after the requested snapshot');
   const files = ['public/data/events.json', 'public/data/artists.json'].map((file) => {
     const content = git(['show', `${revision}:${file}`]);
-    return { path: file, sha256: createHash('sha256').update(content).digest('hex'), value: JSON.parse(content) };
+    return { path: file, sha256: createHash('sha256').update(content).digest('hex'), content, value: JSON.parse(content) };
   });
   const observations = ttcResearchObservations(files[0].value, files[1].value);
   const report = buildUkConcertActivity(observations, { snapshotAt: options['snapshot-at'], sources: [TTC_RESEARCH_SOURCE] });
@@ -38,12 +40,17 @@ try {
   const realRelative = path.relative(realRoot, realDestination);
   if (!permittedOutput(realRelative)) throw new Error('Output symlink resolves into production repository files');
   // Refuse symlink files too, so an output folder cannot redirect a write.
-  for (const filename of ['report.json', 'report.md']) {
+  for (const filename of ['report.json', 'report.md', 'replay-inputs.json.gz']) {
     const stat = await fs.lstat(path.join(destination, filename)).catch((e) => { if (e.code !== 'ENOENT') throw e; });
     if (stat?.isSymbolicLink()) throw new Error('Output file must not be a symlink');
   }
   await fs.writeFile(path.join(destination, 'report.json'), `${JSON.stringify(report, null, 2)}\n`);
   await fs.writeFile(path.join(destination, 'report.md'), renderUkConcertActivity(report));
+  // Exact already-committed input bytes, compressed only for review/CI size.
+  // This lets shallow checkouts replay both the adapter and calculation without
+  // fetching history. It contains no new provider requests or feed payloads.
+  const replay = { revision, snapshot_at: report.snapshot_at, files: files.map(({ path, sha256, content }) => ({ path, sha256, content })) };
+  await fs.writeFile(path.join(destination, 'replay-inputs.json.gz'), gzipSync(JSON.stringify(replay), { level: 9 }));
   console.log(`${report.headline}\nInternal-only report: ${destination}\nPublication blockers: ${report.publication.blockers.join('; ')}`);
 } catch (error) {
   // Git's stderr may contain local configuration; print only our own messages.

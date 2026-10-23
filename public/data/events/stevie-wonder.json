@@ -116,18 +116,18 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107667151",
-        "url": "https://www.stubhub.ie/stevie-wonder-tickets-stockholm-3arena-22-10-2026/event/107667151",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZq2Z16vqOZokb",
     "timezone": "Europe/Stockholm",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252667/Stevie-Wonder-tickets-Thu-Oct-22-2026-3Arena-Stockholm",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-stockholm-3arena-22-10-2026/event/107667151",
+    "stubhub_international_url": "",
     "organizer_names": [
       "Stockholm Live AB"
     ]

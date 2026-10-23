@@ -48,17 +48,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107667074",
-        "url": "https://www.stubhub.ie/dan-shay-dallas-tickets-10-22-2026/event/107667074",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1THOo6h",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/dan-shay-dallas-tickets-10-22-2026/event/107667074",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

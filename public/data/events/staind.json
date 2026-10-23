@@ -1345,6 +1345,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677642",
+        "url": "https://www.stubhub.ie/staind-dallas-tickets-3-19-2027/event/107677642",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_fFB7hxs",
@@ -1366,7 +1373,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308775/Staind-tickets-Fri-Mar-19-2027-Dos-Equis-Pavilion",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/staind-dallas-tickets-3-19-2027/event/107677642"
   },
   {
     "id": "tm-staind-2027-san-antonio-g5diz_fkhzhba",
@@ -1429,6 +1437,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677647",
+        "url": "https://www.stubhub.ie/staind-san-antonio-tickets-3-20-2027/event/107677647",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fkhzhba",
@@ -1451,7 +1466,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC",
       "COMMUNITY ARENA MANAGEMENT"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/staind-san-antonio-tickets-3-20-2027/event/107677647"
   },
   {
     "id": "tm-staind-2027-denver-g5vzz_f7kx5yq",
@@ -1514,6 +1530,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677624",
+        "url": "https://www.stubhub.ie/staind-denver-tickets-3-22-2027/event/107677624",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_f7KX5yQ",
@@ -1535,7 +1558,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308777/Staind-tickets-Mon-Mar-22-2027-Ball-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/staind-denver-tickets-3-22-2027/event/107677624"
   },
   {
     "id": "tm-staind-2027-boise-g5vzz_kb7mfuo",
@@ -1766,6 +1790,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677691",
+        "url": "https://www.stubhub.ie/staind-tickets-vancouver-rogers-arena-3-29-2027/event/107677691",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4eGkdCEqZp",
@@ -1785,7 +1816,8 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/staind-tickets-vancouver-rogers-arena-3-29-2027/event/107677691"
   },
   {
     "id": "tm-staind-2027-calgary-1av7z_kgkm-emew",
@@ -1848,6 +1880,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677623",
+        "url": "https://www.stubhub.ie/staind-tickets-calgary-scotiabank-saddledome-3-31-2027/event/107677623",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkM-emEw",
@@ -1872,7 +1911,8 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-ROGERS",
       "LIVE NATION CANADA-RBC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/staind-tickets-calgary-scotiabank-saddledome-3-31-2027/event/107677623"
   },
   {
     "id": "tm-staind-2027-edmonton-1av7z_kgkz_xe9-",
@@ -2754,6 +2794,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677632",
+        "url": "https://www.stubhub.ie/staind-cleveland-tickets-4-16-2027/event/107677632",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_q-",
@@ -2763,6 +2810,7 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308792/Staind-tickets-Fri-Apr-16-2027-Rocket-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/staind-cleveland-tickets-4-16-2027/event/107677632"
   }
 ]

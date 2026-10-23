@@ -53,6 +53,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677822",
+        "url": "https://www.stubhub.ie/garth-brooks-tulsa-tickets-10-23-2026/event/107677822",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfUGkd8C0EN",
@@ -61,7 +68,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284848/Garth-Brooks-tickets-Fri-Oct-23-2026-BOK-Center",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-tulsa-tickets-10-23-2026/event/107677822"
   },
   {
     "id": "tm-garth-brooks-2026-tulsa-1aozkfugkdlv4l0",
@@ -117,6 +125,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677823",
+        "url": "https://www.stubhub.ie/garth-brooks-tulsa-tickets-10-24-2026/event/107677823",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfUGkdlv4L0",
@@ -125,7 +140,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284849/Garth-Brooks-tickets-Sat-Oct-24-2026-BOK-Center",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-tulsa-tickets-10-24-2026/event/107677823"
   },
   {
     "id": "tm-garth-brooks-2026-tulsa-1aozkfugkdlmpx_",
@@ -181,6 +197,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677824",
+        "url": "https://www.stubhub.ie/garth-brooks-tulsa-tickets-10-25-2026/event/107677824",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfUGkdlMPx_",
@@ -189,7 +212,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284850/Garth-Brooks-tickets-Sun-Oct-25-2026-BOK-Center",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-tulsa-tickets-10-25-2026/event/107677824"
   },
   {
     "id": "tm-garth-brooks-2026-seattle-vvg1hz_fstanbp",

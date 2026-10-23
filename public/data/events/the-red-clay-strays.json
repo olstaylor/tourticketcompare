@@ -600,11 +600,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107129344",
-        "url": "https://www.stubhub.ie/the-red-clay-strays-nashville-tickets-10-22-2026/event/107129344",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7566206",
@@ -618,7 +618,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7566206",
-    "stubhub_international_url": "https://www.stubhub.ie/the-red-clay-strays-nashville-tickets-10-22-2026/event/107129344",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7566206/The-Red-Clay-Strays-tickets-Thu-Oct-22-2026-Bridgestone-Arena",
     "organizer_names": [
       "AEG LIVE"

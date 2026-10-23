@@ -258,11 +258,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107417249",
+        "url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-montreal-mtelus-10-30-2026/event/107417249",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G6GxEy070",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-montreal-mtelus-10-30-2026/event/107417249"
   },
   {
     "id": "tm-sleeping-with-sirens-2026-ottawa-17g8v0g6gwupswm",
@@ -417,11 +425,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107417251",
+        "url": "https://www.stubhub.ie/sleeping-with-sirens-boston-tickets-11-3-2026/event/107417251",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_GmBZ9_J",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/sleeping-with-sirens-boston-tickets-11-3-2026/event/107417251"
   },
   {
     "id": "tm-sleeping-with-sirens-2026-sayreville-z7r9jz1a7p_a7",
@@ -788,11 +804,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107300077",
+        "url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-bristol-the-prospect-building-2-3-2027/event/107300077",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G6GFkRXFj",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-bristol-the-prospect-building-2-3-2027/event/107300077"
   },
   {
     "id": "tm-sleeping-with-sirens-2027-glasgow-g5dzz_g5isp0f",
@@ -841,11 +865,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107301077",
+        "url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-glasgow-o2-academy-glasgow-3-3-2027/event/107301077",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_G5ISp0F",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-glasgow-o2-academy-glasgow-3-3-2027/event/107301077"
   },
   {
     "id": "tm-sleeping-with-sirens-2027-manchester-g5vhz_gfgtq6v",
@@ -894,11 +926,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107301078",
+        "url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-manchester-manchester-academy-5-3-2027/event/107301078",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_GFGtq6V",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-manchester-manchester-academy-5-3-2027/event/107301078"
   },
   {
     "id": "tm-sleeping-with-sirens-2027-birmingham-g5dzz_5wuo0od",
@@ -947,11 +987,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107302077",
+        "url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-birmingham-o2-academy-birmingham-6-3-2027/event/107302077",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_5wUO0od",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-birmingham-o2-academy-birmingham-6-3-2027/event/107302077"
   },
   {
     "id": "tm-sleeping-with-sirens-2027-london-g5dzz_g5cip1i",
@@ -1000,11 +1048,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107258746",
+        "url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-london-o2-academy-brixton-7-3-2027/event/107258746",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_G5CIP1i",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-london-o2-academy-brixton-7-3-2027/event/107258746"
   },
   {
     "id": "tm-sleeping-with-sirens-2027-brisbane-1akzkfygkeprtzf",

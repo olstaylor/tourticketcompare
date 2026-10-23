@@ -152,11 +152,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107409077",
+        "url": "https://www.stubhub.ie/the-chicks-san-francisco-tickets-10-29-2026/event/107409077",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5K9T5FO",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-chicks-san-francisco-tickets-10-29-2026/event/107409077"
   },
   {
     "id": "tm-the-chicks-2026-san-francisco-g5vyz_5kbz5fl",
@@ -205,11 +213,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107409078",
+        "url": "https://www.stubhub.ie/the-chicks-san-francisco-tickets-10-30-2026/event/107409078",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5KbZ5Fl",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-chicks-san-francisco-tickets-10-30-2026/event/107409078"
   },
   {
     "id": "tm-the-chicks-2026-hollywood-vvg10z_5ljdml9",
@@ -258,11 +274,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107394183",
+        "url": "https://www.stubhub.ie/the-chicks-hollywood-tickets-11-1-2026/event/107394183",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_5lJdmL9",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-chicks-hollywood-tickets-11-1-2026/event/107394183"
   },
   {
     "id": "tm-the-chicks-2026-hollywood-vvg10z_5ra8fba",
@@ -311,11 +335,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107410077",
+        "url": "https://www.stubhub.ie/the-chicks-hollywood-tickets-11-2-2026/event/107410077",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_5rA8fba",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-chicks-hollywood-tickets-11-2-2026/event/107410077"
   },
   {
     "id": "tm-the-chicks-2026-hollywood-vvg10z_5rao7bc",
@@ -364,10 +396,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107477148",
+        "url": "https://www.stubhub.ie/the-chicks-hollywood-tickets-11-3-2026/event/107477148",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_5rAo7bC",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-chicks-hollywood-tickets-11-3-2026/event/107477148"
   }
 ]

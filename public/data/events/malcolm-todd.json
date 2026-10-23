@@ -1199,11 +1199,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107447652",
-        "url": "https://www.stubhub.ie/malcolm-todd-oakland-tickets-10-22-2026/event/107447652",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_GFWW-6g",
@@ -1211,7 +1211,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038477",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038477/Malcolm-Todd-tickets-Thu-Oct-22-2026-Fox-Theater-Oakland",
-    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-oakland-tickets-10-22-2026/event/107447652",
+    "stubhub_international_url": "",
     "organizer_names": [
       "ANOTHER PLANET"
     ]

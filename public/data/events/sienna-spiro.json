@@ -3346,6 +3346,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107675741",
+        "url": "https://www.stubhub.ie/sienna-spiro-tickets-mexico-city-pepsi-center-wtc-14-9-2027/event/107675741",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk4oGkeyuQ9e",
@@ -3366,7 +3373,8 @@
         "start": "2026-10-22T16:00:00Z",
         "end": "2026-10-23T04:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-tickets-mexico-city-pepsi-center-wtc-14-9-2027/event/107675741"
   },
   {
     "id": "tm-sienna-spiro-2027-new-york-g5dyz_46d6wnd",

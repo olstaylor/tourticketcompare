@@ -1021,11 +1021,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107155494",
-        "url": "https://www.stubhub.ie/sombr-atlanta-tickets-10-22-2026/event/107155494",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7874866",
@@ -1039,7 +1039,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874866",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-atlanta-tickets-10-22-2026/event/107155494",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874866/sombr-tickets-Thu-Oct-22-2026-State-Farm-Arena-GA",
     "organizer_names": [
       "AEG LIVE"

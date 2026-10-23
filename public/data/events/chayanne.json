@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107165161",
+        "url": "https://www.stubhub.ie/chayanne-miami-tickets-10-24-2026/event/107165161",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_kt0YoDW",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/chayanne-miami-tickets-10-24-2026/event/107165161"
   },
   {
     "id": "tm-chayanne-2026-tampa-vvg1vz_km8pku0",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107165162",
+        "url": "https://www.stubhub.ie/chayanne-tampa-tickets-10-30-2026/event/107165162",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_km8pku0",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/chayanne-tampa-tickets-10-30-2026/event/107165162"
   },
   {
     "id": "tm-chayanne-2026-orlando-1aefz_kgkwoqkla",
@@ -152,10 +168,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107164100",
+        "url": "https://www.stubhub.ie/chayanne-orlando-tickets-10-31-2026/event/107164100",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_kGkwOQklA",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/chayanne-orlando-tickets-10-31-2026/event/107164100"
   }
 ]

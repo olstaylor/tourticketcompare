@@ -6,12 +6,14 @@ import { execFileSync } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { readSource, githubClient } from './propose-blog-ideas.mjs';
 import { splitDocument } from './lib/content-markdown.mjs';
-import { selectArticle, buildEvidence, researchEvidence, anthropicClient, generateArticle, listEditorialPrs, reserveWeek, prBody } from './lib/blog-drafting.mjs';
+import { selectArticle, buildEvidence, researchEvidence, anthropicClient, generateArticle, listEditorialPrs, reserveTopic, prBody, spentUsd,
+  MAX_DRAFTS_PER_RUN, MAX_OPEN_DRAFTS, PREFIX } from './lib/blog-drafting.mjs';
+import { readPriorityRows } from './lib/show-priority-store.mjs';
 
 const ROOT = fileURLToPath(new URL('../', import.meta.url));
-// test:mvp already includes the full indexable-surface audit. Do not repeat its
-// expensive route crawl on unchanged inputs in this cost-controlled PR stage.
-export const CHECKS = ['npm run blog:check', 'npm run test:mvp', 'npm run schema:validate', 'git diff --check'];
+// A draft has no route, so the content lane covers what it can change. The
+// full suite (test:mvp) runs on the PR itself via Prelaunch Validation.
+export const CHECKS = ['npm run test:content', 'git diff --check'];
 const run = (root, command, args) => execFileSync(command, args, { cwd: root, stdio: 'inherit' });
 
 export async function readDraftRules(root = ROOT) {
@@ -42,44 +44,68 @@ export async function prepareContent(root, slug) {
 }
 
 export async function draftOnce({ source, issue, gh, mode, snapshot, rules, apiKey, tmKey, now = Date.now(),
-  repository = 'olstaylor/tourticketcompare', compile, publish, fetchImpl = fetch, mockClient }) {
+  repository = 'olstaylor/tourticketcompare', compile, publish, reset = async () => {}, fetchImpl = fetch, mockClient,
+  priority = new Map(), maxDrafts = MAX_DRAFTS_PER_RUN }) {
   if (!['preview', 'mock', 'live'].includes(mode)) throw new Error('Invalid drafting mode');
   const prs = mode === 'live' ? await listEditorialPrs(gh) : [];
-  const selection = selectArticle(source, issue, { now, prs });
+  const selection = selectArticle(source, issue, { now, prs, priority });
   if (!selection.selected) return { mode, outcome: 'no-worthy-opportunity', ...selection };
   if (mode === 'preview') {
     const evidence = await researchEvidence(buildEvidence(selection.selected, { now, snapshot }), { apiKey: tmKey, fetchImpl, now });
     return { mode, outcome: 'selected-without-generation', ...selection, evidence };
   }
-  // Missing credentials must not consume the slot or make a provider call.
-  const client = mode === 'live' ? anthropicClient({ apiKey, fetchImpl }) : mockClient;
-  if (!client) throw new Error('Mock client required');
-  const branch = mode === 'live' ? await reserveWeek(gh, { now, baseSha: snapshot, prs }) : null;
-  if (mode === 'live' && !branch) return { mode, outcome: 'weekly-slot-or-open-pr-already-exists' };
-  let evidence;
-  try {
-    evidence = buildEvidence(selection.selected, { now, snapshot });
-    evidence = await researchEvidence(evidence, { apiKey: mode === 'live' ? tmKey : null, fetchImpl, now });
-    const article = await generateArticle({ selected: selection.selected, evidence, documents: source.documents, rules, client, now });
+  if (mode === 'mock') {
+    // One article, mocked model, no PR: proves orchestration only.
+    if (!mockClient) throw new Error('Mock client required');
+    const evidence = await researchEvidence(buildEvidence(selection.selected, { now, snapshot }), { apiKey: null, fetchImpl, now });
+    const article = await generateArticle({ selected: selection.selected, evidence, documents: source.documents, rules, client: mockClient, now });
     const tests = await compile({ selected: selection.selected, article });
-    const body = prBody({ selected: selection.selected, issueNumber: issue.number || issue.issue_number, repository, evidence, article, tests, mocked: mode === 'mock' });
-    // Final idempotency check before the irreversible API operation. A timeout
-    // creating a PR is ambiguous; no retry, and the weekly ref prevents spend.
-    let pr = null;
-    if (mode === 'live') {
-      const existing = await listEditorialPrs(gh);
-      if (existing.some((p) => p.head?.ref === branch || p.state === 'open')) throw new Error('Editorial PR already exists; inspect reserved branch');
-      pr = await publish({ branch, selected: selection.selected, body });
-      if (pr?.draft !== true || !pr.html_url) throw new Error('PR creation did not confirm draft status; inspect GitHub before retrying');
-    }
-    return { mode, outcome: mode === 'mock' ? 'mocked-draft-validated-no-pr' : 'draft-pr-created', branch,
-      selected: selection.selected, rejected: selection.rejected, evidence, article, tests, body, pr };
-  } catch (error) {
-    // Keep a machine-readable cost record even when generation/validation fails.
-    error.draftReport = { mode, outcome: 'failed-no-retry', branch, usage: client.usage, evidence,
-      warning: 'A reserved live weekly branch is retained. Do not delete it to retry without reviewing potential spend.' };
-    throw error;
+    const body = prBody({ selected: selection.selected, issueNumber: issue.number || issue.issue_number, repository, evidence, article, tests, mocked: true });
+    return { mode, outcome: 'mocked-draft-validated-no-pr', branch: null, selected: selection.selected, rejected: selection.rejected, evidence, article, tests, body, pr: null };
   }
+  // Missing credentials must not reserve a branch or make a provider call.
+  anthropicClient({ apiKey, fetchImpl });
+  const open = prs.filter((p) => p.state === 'open' && p.head?.ref?.startsWith(PREFIX)).length;
+  const slots = Math.min(maxDrafts, MAX_OPEN_DRAFTS - open);
+  if (slots <= 0) return { mode, outcome: 'open-draft-limit-reached', open, rejected: selection.rejected };
+  const drafts = [];
+  let paid = 0;
+  for (const selected of selection.candidates) {
+    if (paid >= slots) break;
+    // Free checks first: a candidate whose dates fail the official recheck
+    // costs nothing and does not use a slot.
+    let evidence;
+    try {
+      evidence = await researchEvidence(buildEvidence(selected, { now, snapshot }), { apiKey: tmKey, fetchImpl, now });
+    } catch (error) {
+      if (!/too few dates survive/.test(error.message)) throw error;
+      drafts.push({ topic: selected.topic, outcome: 'skipped-evidence', reason: error.message });
+      continue;
+    }
+    const branch = await reserveTopic(gh, { slug: selected.slug, baseSha: snapshot });
+    if (!branch) { drafts.push({ topic: selected.topic, outcome: 'skipped-branch-exists' }); continue; }
+    paid += 1;
+    const client = anthropicClient({ apiKey, fetchImpl });
+    try {
+      const article = await generateArticle({ selected, evidence, documents: source.documents, rules, client, now });
+      const tests = await compile({ selected, article });
+      const body = prBody({ selected, issueNumber: issue.number || issue.issue_number, repository, evidence, article, tests });
+      // Final idempotency check before the irreversible API operation. A timeout
+      // creating a PR is ambiguous; no retry, and the reserved ref prevents spend.
+      const existing = await listEditorialPrs(gh);
+      if (existing.some((p) => p.head?.ref === branch)) throw new Error('Editorial PR already exists; inspect reserved branch');
+      const pr = await publish({ branch, selected, body });
+      if (pr?.draft !== true || !pr.html_url) throw new Error('PR creation did not confirm draft status; inspect GitHub before retrying');
+      drafts.push({ topic: selected.topic, outcome: 'draft-pr-created', branch, pr: pr.html_url, usage: client.usage, costUsd: spentUsd(client.usage) });
+    } catch (error) {
+      // Keep a machine-readable cost record even when generation/validation fails.
+      drafts.push({ topic: selected.topic, outcome: 'failed-no-retry', branch, reason: error.message, usage: client.usage, costUsd: spentUsd(client.usage),
+        warning: 'The reserved branch is retained. Do not delete it to retry without reviewing potential spend.' });
+    } finally { await reset(); }
+  }
+  const created = drafts.filter((d) => d.outcome === 'draft-pr-created').length;
+  return { mode, outcome: created ? 'draft-prs-created' : drafts.some((d) => d.outcome === 'failed-no-retry') ? 'drafts-failed' : 'no-draft-created',
+    created, costUsd: Math.round(drafts.reduce((sum, d) => sum + (d.costUsd || 0), 0) * 100) / 100, drafts, rejected: selection.rejected };
 }
 
 async function writeArticle(root, { selected, article }) {
@@ -117,10 +143,22 @@ async function main() {
     const main = await gh('GET', '/commits/main');
     if (main.sha !== snapshot) throw new Error('Live/preview drafting must check out current trusted main');
   }
+  // Show priority (expected affiliate value per show) reorders candidates.
+  // Fail-open: without D1 access the editorial order stands.
+  const priority = new Map();
+  if (mode !== 'mock') for (const row of await readPriorityRows({ top: 25 })) {
+    if (!priority.has(row.artist_slug) || row.rank < priority.get(row.artist_slug)) priority.set(row.artist_slug, row.rank);
+  }
   let result;
   try {
-    result = await draftOnce({ source, issue, gh, mode, snapshot, rules, now, repository, mockClient,
+    result = await draftOnce({ source, issue, gh, mode, snapshot, rules, now, repository, mockClient, priority,
       apiKey: process.env.ANTHROPIC_API_KEY, tmKey: process.env.TICKETMASTER_API_KEY,
+      // Each article starts again from the trusted snapshot.
+      reset: async () => {
+        run(ROOT, 'git', ['checkout', '-q', '--detach', snapshot]);
+        run(ROOT, 'git', ['reset', '-q', '--hard', snapshot]);
+        run(ROOT, 'git', ['clean', '-fdq', 'content/blog']);
+      },
       compile: async (data) => {
         if (mode === 'mock') {
           // Work only in a disposable copy; mock content cannot reach a PR.
@@ -167,9 +205,13 @@ async function main() {
   }
   await fs.writeFile(path.join(reportDir, 'report.json'), JSON.stringify(result, null, 2));
   if (result.body) await fs.writeFile(path.join(reportDir, 'editorial-review.md'), result.body);
-  const summary = `Blog drafting: ${result.outcome}. ${result.pr?.html_url || ''}\n${result.article ? `Model usage: ${JSON.stringify(result.article.usage)}` : 'No model spend.'}\nReport: workflow artifact blog-draft-report.\n`;
+  const lines = (result.drafts || []).map((d) => `- ${d.topic}: ${d.outcome}${d.pr ? ` ${d.pr}` : ''}${d.costUsd != null ? ` ($${d.costUsd.toFixed(2)})` : ''}${d.reason ? ` — ${d.reason}` : ''}`);
+  const spend = result.drafts ? `Estimated API cost this run: $${result.costUsd.toFixed(2)}.` : result.article ? `Model usage: ${JSON.stringify(result.article.usage)}` : 'No model spend.';
+  const summary = `Blog drafting: ${result.outcome}.\n${lines.join('\n')}\n${spend}\nReport: workflow artifact blog-draft-report.\n`;
   console.log(summary);
   if (process.env.GITHUB_STEP_SUMMARY) await fs.appendFile(process.env.GITHUB_STEP_SUMMARY, summary);
+  // Rejections by the checks are normal; a run that spent and produced nothing is red.
+  if (result.outcome === 'drafts-failed') process.exitCode = 1;
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {

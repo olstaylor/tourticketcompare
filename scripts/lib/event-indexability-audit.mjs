@@ -99,7 +99,7 @@ export function structuredDataNodes(html) {
 /** The provider buttons a rendered page's <main> carries, in order, deduplicated. */
 export function renderedCtaProviders(html) {
   const main = extract(html, /<main id="mainContent">([\s\S]*?)<\/main>/);
-  return [...new Set([...main.matchAll(/<a class="provider-cta"[^>]*data-cta-provider="([^"]+)"/g)].map((match) => match[1]))];
+  return [...new Set([...main.matchAll(/<a class="provider-cta(?: [^"]*)?"[^>]*data-cta-provider="([^"]+)"/g)].map((match) => match[1]))];
 }
 
 /**

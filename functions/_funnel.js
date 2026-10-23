@@ -238,7 +238,10 @@ export const CTA_LOCATIONS = Object.freeze([
   "presale_page",
   // The cheapest-price button under an event page's title (owner-approved
   // 2026-10-23, revenue-per-visitor test 1).
-  "event_answer"
+  "event_answer",
+  // The next-date price tables under the homepage hero (owner-approved
+  // 2026-10-23, revenue-per-visitor test 2).
+  "home_answer"
 ]);
 
 const CTA_LOCATION_SET = new Set(CTA_LOCATIONS);

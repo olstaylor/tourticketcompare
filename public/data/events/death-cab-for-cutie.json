@@ -1895,5 +1895,113 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271405",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271405/Death-Cab-for-Cutie-tickets-Wed-Mar-24-2027-The-Bomb-Factory"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-columbus-vv1aazk4fgkd90ltp",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie - I Built You A Tower Tour",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Mershon Auditorium",
+    "datetime_iso": "2027-03-29T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006554D792BA56",
+    "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-columbus-ohio-03-29-2027/event/05006554D792BA56",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-columbus-ohio-03-29-2027/event/05006554D792BA56",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006554D792BA56",
+        "discovery_event_id": "vv1AAZk4fGkd90ltp",
+        "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-columbus-ohio-03-29-2027/event/05006554D792BA56",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk4fGkd90ltp",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T14:00:00Z"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-charlottesville-vv1a8vp46ga2dsp3",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie - I Built You A Tower Tour",
+    "city": "Charlottesville",
+    "country": "United States Of America",
+    "venue": "Ting Pavilion",
+    "datetime_iso": "2027-04-14T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010065547F0F3592",
+    "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-charlottesville-virginia-04-14-2027/event/010065547F0F3592",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-charlottesville-virginia-04-14-2027/event/010065547F0F3592",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010065547F0F3592",
+        "discovery_event_id": "vv1A8vP46GA2dSp3",
+        "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-charlottesville-virginia-04-14-2027/event/010065547F0F3592",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A8vP46GA2dSp3",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T14:00:00Z"
   }
 ]

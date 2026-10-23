@@ -621,6 +621,17 @@ fixture checks (including fail-closed destinations and default-off tracking),
 and `npm run test:funnel-analytics` for the broader existing click contract.
 Both are in `test:mvp`.
 
+## Nightly funnel check
+
+`npm run report:funnel-daily` (scheduled as `funnel-daily.yml`, 06:40 UTC) puts
+the on-site funnel and Impact's numbers on one page for the last eight complete
+UTC days, using the definitions above: visitor-days, page-backed redirects, Sub
+ID eligibility and the SubId1 join from `report:affiliate-performance`. It adds
+failure flags rather than new metrics. Redirect health is checked passively
+from recorded receipts (a provider with button clicks but no receipts), never by
+firing test redirects, because Impact would count those as clicks. Thresholds
+live in `THRESHOLDS` in the script.
+
 ## What cannot be measured
 
 **Checkout happens on the provider's site. We never see it directly.** The

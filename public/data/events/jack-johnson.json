@@ -1,0 +1,850 @@
+[
+  {
+    "id": "tm-jack-johnson-2026-brisbane-1k7yv0jtgaugdpl",
+    "artist_slug": "jack-johnson",
+    "artist_name": "Jack Johnson",
+    "event_name": "Jack Johnson - Surfilmusic Tour - Australia / New Zealand - 2026",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "Riverstage",
+    "datetime_iso": "2026-11-06T06:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130064729DD4395F",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-brisbane-06-11-2026/event/130064729DD4395F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-brisbane-06-11-2026/event/130064729DD4395F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130064729DD4395F",
+        "discovery_event_id": "1k7Yv0jtGAugdPL",
+        "url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-brisbane-06-11-2026/event/130064729DD4395F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k7Yv0jtGAugdPL",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jack-johnson-2026-brisbane-1akzkosgkdpve0m",
+    "artist_slug": "jack-johnson",
+    "artist_name": "Jack Johnson",
+    "event_name": "Jack Johnson - Surfilmusic Tour - Australia / New Zealand - 2026",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "Riverstage",
+    "datetime_iso": "2026-11-07T06:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006471E506792E",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-brisbane-07-11-2026/event/13006471E506792E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-brisbane-07-11-2026/event/13006471E506792E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006471E506792E",
+        "discovery_event_id": "1AKZkosGkdPvE0m",
+        "url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-brisbane-07-11-2026/event/13006471E506792E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZkosGkdPvE0m",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jack-johnson-2026-brisbane-1k7yv0jtgaudsje",
+    "artist_slug": "jack-johnson",
+    "artist_name": "Jack Johnson",
+    "event_name": "Jack Johnson - Surfilmusic Tour - Australia / New Zealand - 2026",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "Riverstage",
+    "datetime_iso": "2026-11-08T06:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130064729DEF3982",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-brisbane-08-11-2026/event/130064729DEF3982",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-brisbane-08-11-2026/event/130064729DEF3982",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130064729DEF3982",
+        "discovery_event_id": "1k7Yv0jtGAuDSJe",
+        "url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-brisbane-08-11-2026/event/130064729DEF3982",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k7Yv0jtGAuDSJe",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jack-johnson-2026-west-perth-1k7yv0qzga2dx6-",
+    "artist_slug": "jack-johnson",
+    "artist_name": "Jack Johnson",
+    "event_name": "Jack Johnson - Surfilmusic Tour - Australia / New Zealand - 2026",
+    "city": "West Perth",
+    "country": "Australia",
+    "venue": "Kings Park",
+    "datetime_iso": "2026-11-10T08:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130064778F0E21E1",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-west-perth-10-11-2026/event/130064778F0E21E1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-west-perth-10-11-2026/event/130064778F0E21E1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130064778F0E21E1",
+        "discovery_event_id": "1k7Yv0qzGA2dx6-",
+        "url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-west-perth-10-11-2026/event/130064778F0E21E1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k7Yv0qzGA2dx6-",
+    "timezone": "Australia/Perth",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jack-johnson-2026-west-perth-1akzkomgkd_zu0i",
+    "artist_slug": "jack-johnson",
+    "artist_name": "Jack Johnson",
+    "event_name": "Jack Johnson - Surfilmusic Tour - Australia / New Zealand - 2026",
+    "city": "West Perth",
+    "country": "Australia",
+    "venue": "Kings Park",
+    "datetime_iso": "2026-11-11T08:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006477D9E3692C",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-west-perth-11-11-2026/event/13006477D9E3692C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-west-perth-11-11-2026/event/13006477D9E3692C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006477D9E3692C",
+        "discovery_event_id": "1AKZkoMGkd_zU0i",
+        "url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-west-perth-11-11-2026/event/13006477D9E3692C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZkoMGkd_zU0i",
+    "timezone": "Australia/Perth",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jack-johnson-2026-west-perth-1akzkomgkd_bj0s",
+    "artist_slug": "jack-johnson",
+    "artist_name": "Jack Johnson",
+    "event_name": "Jack Johnson - Surfilmusic Tour - Australia / New Zealand - 2026",
+    "city": "West Perth",
+    "country": "Australia",
+    "venue": "Kings Park",
+    "datetime_iso": "2026-11-12T08:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006477D9EA6931",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-west-perth-12-11-2026/event/13006477D9EA6931",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-west-perth-12-11-2026/event/13006477D9EA6931",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006477D9EA6931",
+        "discovery_event_id": "1AKZkoMGkd_BJ0s",
+        "url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-west-perth-12-11-2026/event/13006477D9EA6931",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZkoMGkd_BJ0s",
+    "timezone": "Australia/Perth",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jack-johnson-2026-sydney-1akzkosgkdq3fwf",
+    "artist_slug": "jack-johnson",
+    "artist_name": "Jack Johnson",
+    "event_name": "Jack Johnson - Surfilmusic Tour - Australia / New Zealand - 2026",
+    "city": "Sydney",
+    "country": "Australia",
+    "venue": "The Domain",
+    "datetime_iso": "2026-11-14T05:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006473DA488C88",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-sydney-14-11-2026/event/13006473DA488C88",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-sydney-14-11-2026/event/13006473DA488C88",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006473DA488C88",
+        "discovery_event_id": "1AKZkoSGkdQ3FwF",
+        "url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-sydney-14-11-2026/event/13006473DA488C88",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZkoSGkdQ3FwF",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jack-johnson-2026-linlithgow-ave-1avgz_6cppkzd52a",
+    "artist_slug": "jack-johnson",
+    "artist_name": "Jack Johnson",
+    "event_name": "Jack Johnson - Surfilmusic Tour - Australia / New Zealand - 2026",
+    "city": "Linlithgow Ave",
+    "country": "Australia",
+    "venue": "Arts Centre Melbourne, Sidney Myer Music Bowl",
+    "datetime_iso": "2026-11-17T06:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300647396593AE4",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-linlithgow-ave-17-11-2026/event/1300647396593AE4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-linlithgow-ave-17-11-2026/event/1300647396593AE4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300647396593AE4",
+        "discovery_event_id": "1avGZ_6CppKZd52A",
+        "url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-linlithgow-ave-17-11-2026/event/1300647396593AE4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1avGZ_6CppKZd52A",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jack-johnson-2026-linlithgow-ave-1avgz_6gkbxcfqh",
+    "artist_slug": "jack-johnson",
+    "artist_name": "Jack Johnson",
+    "event_name": "Jack Johnson - Surfilmusic Tour - Australia / New Zealand - 2026",
+    "city": "Linlithgow Ave",
+    "country": "Australia",
+    "venue": "Arts Centre Melbourne, Sidney Myer Music Bowl",
+    "datetime_iso": "2026-11-18T06:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300647EA2B5469B",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-linlithgow-ave-18-11-2026/event/1300647EA2B5469B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-linlithgow-ave-18-11-2026/event/1300647EA2B5469B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300647EA2B5469B",
+        "discovery_event_id": "1AvGZ_6GkBxcfQh",
+        "url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-linlithgow-ave-18-11-2026/event/1300647EA2B5469B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_6GkBxcfQh",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jack-johnson-2026-auckland-1a0zkowgkdch7lq",
+    "artist_slug": "jack-johnson",
+    "artist_name": "Jack Johnson",
+    "event_name": "Jack Johnson - Surfilmusic Tour - Australia / New Zealand - 2026",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Spark Arena",
+    "datetime_iso": "2026-11-20T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "24006472CE6C4ADA",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/jack-johnson-surfilmusic-tour-australia-new-auckland-20-11-2026/event/24006472CE6C4ADA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/jack-johnson-surfilmusic-tour-australia-new-auckland-20-11-2026/event/24006472CE6C4ADA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "24006472CE6C4ADA",
+        "discovery_event_id": "1A0ZkowGkdCh7lQ",
+        "url": "https://www.ticketmaster.co.nz/jack-johnson-surfilmusic-tour-australia-new-auckland-20-11-2026/event/24006472CE6C4ADA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A0ZkowGkdCh7lQ",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jack-johnson-2026-waipara-1kazv0jzgaua-ts",
+    "artist_slug": "jack-johnson",
+    "artist_name": "Jack Johnson",
+    "event_name": "Jack Johnson - Surfilmusic Tour - Australia / New Zealand - 2026",
+    "city": "Waipara",
+    "country": "New Zealand",
+    "venue": "Waipara Winehouse",
+    "datetime_iso": "2026-11-22T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "240064738D261FF1",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/jack-johnson-surfilmusic-tour-australia-new-waipara-22-11-2026/event/240064738D261FF1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/jack-johnson-surfilmusic-tour-australia-new-waipara-22-11-2026/event/240064738D261FF1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "240064738D261FF1",
+        "discovery_event_id": "1kaZv0jzGAua-Ts",
+        "url": "https://www.ticketmaster.co.nz/jack-johnson-surfilmusic-tour-australia-new-waipara-22-11-2026/event/240064738D261FF1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kaZv0jzGAua-Ts",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jack-johnson-2027-forest-brussels-z698xzg2z1koeez-t",
+    "artist_slug": "jack-johnson",
+    "artist_name": "Jack Johnson",
+    "event_name": "JACK JOHNSON",
+    "city": "Forest (Brussels)",
+    "country": "Belgium",
+    "venue": "Vorst Nationaal/Forest National",
+    "datetime_iso": "2027-06-26T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "802080869",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/jack-johnson-tickets/802080869",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/jack-johnson-tickets/802080869",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "802080869",
+        "discovery_event_id": "Z698xZG2Z1kOeeZ-t",
+        "url": "https://www.ticketmaster.be/event/jack-johnson-tickets/802080869",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1kOeeZ-t",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jack-johnson-2027-amsterdam-z698xzbpz16v8kg7fn",
+    "artist_slug": "jack-johnson",
+    "artist_name": "Jack Johnson",
+    "event_name": "Jack Johnson - SURFILMUSIC TOUR 2027",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-06-27T17:15:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1406304223",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/jack-johnson-surfilmusic-tour-2027-tickets/1406304223?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/jack-johnson-surfilmusic-tour-2027-tickets/1406304223?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1406304223",
+        "discovery_event_id": "Z698xZbpZ16v8kG7FN",
+        "url": "https://www.ticketmaster.nl/event/jack-johnson-surfilmusic-tour-2027-tickets/1406304223?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16v8kG7FN",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jack-johnson-2027-st-austell-g5vhz_4eimdn_",
+    "artist_slug": "jack-johnson",
+    "artist_name": "Jack Johnson",
+    "event_name": "Jack Johnson - Eden Sessions",
+    "city": "St Austell",
+    "country": "Great Britain",
+    "venue": "Eden Project",
+    "datetime_iso": "2027-07-02T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006550A8B838D9",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/jack-johnson-eden-sessions-st-austell-02-07-2027/event/1F006550A8B838D9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/jack-johnson-eden-sessions-st-austell-02-07-2027/event/1F006550A8B838D9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006550A8B838D9",
+        "discovery_event_id": "G5vHZ_4eImdN_",
+        "url": "https://www.ticketmaster.co.uk/jack-johnson-eden-sessions-st-austell-02-07-2027/event/1F006550A8B838D9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_4eImdN_",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jack-johnson-2027-st-austell-g5vhz_4d63ah_",
+    "artist_slug": "jack-johnson",
+    "artist_name": "Jack Johnson",
+    "event_name": "Jack Johnson - Eden Sessions",
+    "city": "St Austell",
+    "country": "Great Britain",
+    "venue": "Eden Project",
+    "datetime_iso": "2027-07-03T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006550C7485F19",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/jack-johnson-eden-sessions-st-austell-03-07-2027/event/1F006550C7485F19",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/jack-johnson-eden-sessions-st-austell-03-07-2027/event/1F006550C7485F19",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006550C7485F19",
+        "discovery_event_id": "G5vHZ_4d63AH_",
+        "url": "https://www.ticketmaster.co.uk/jack-johnson-eden-sessions-st-austell-03-07-2027/event/1F006550C7485F19",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_4d63AH_",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jack-johnson-2027-london-16dfz_4ebg7va-j",
+    "artist_slug": "jack-johnson",
+    "artist_name": "Jack Johnson",
+    "event_name": "Jack Johnson",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-07-04T15:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500655098D05866",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/jack-johnson-london-04-07-2027/event/3500655098D05866",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/jack-johnson-london-04-07-2027/event/3500655098D05866",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500655098D05866",
+        "discovery_event_id": "16dfZ_4ebG7VA-J",
+        "url": "https://www.ticketmaster.co.uk/jack-johnson-london-04-07-2027/event/3500655098D05866",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16dfZ_4ebG7VA-J",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

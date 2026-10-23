@@ -104,7 +104,7 @@ const guidePages = [
   {
     slug: "how-to-avoid-overpaying-for-concert-tickets",
     title: "Avoid Overpaying for Concert Tickets | TourTicketCompare",
-    description: "Use practical checks to avoid overpaying for concert tickets by reviewing final fees, seat location, seller terms, delivery timing, and misleading urgency.",
+    description: "Compare ticket sites side by side on TourTicketCompare, then check final fees, seat location, seller terms and delivery timing before you buy.",
     h1: "How do I avoid overpaying for concert tickets?",
     serverRendered: true
   },

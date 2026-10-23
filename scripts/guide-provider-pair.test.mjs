@@ -39,7 +39,7 @@ assert.match(rendered, /rel="noopener nofollow sponsored"[^>]*data-cta-provider=
 assert.doesNotMatch(rendered, /\$\d|availability/i);
 
 const fallback = renderGuideProviderPair(route, [], env);
-assert.match(fallback, /No upcoming event currently passes/);
+assert.match(fallback, /TTC has not yet matched an upcoming show/);
 assert.match(fallback, /href="\/artists"/);
 assert.match(fallback, /href="\/compare-concert-ticket-prices"/);
 assert.equal(renderGuideProviderPair({ ...route, comparisonProviders: ["ticketmaster"] }, [valid], env), "");
@@ -61,14 +61,14 @@ assert.match(affiliateRendered, /button-primary"[^>]*provider=seatgeek[^>]*data-
 assert.match(affiliateRendered, /button-secondary"[^>]*provider=vivid-seats[^>]*data-cta-provider="vivid-seats"/);
 assert.match(affiliateRendered, /both SeatGeek and Vivid Seats/);
 const tmFirstRendered = renderGuideProviderPair({ path: "/guides/seatgeek-vs-ticketmaster", comparisonProviders: ["ticketmaster", "seatgeek"] }, [seatGeekEvent], affiliateEnv);
-assert.ok(tmFirstRendered.indexOf('data-cta-provider="seatgeek"') < tmFirstRendered.indexOf('data-cta-provider="ticketmaster"'), "the paying lane renders before Ticketmaster");
+assert.ok(tmFirstRendered.indexOf('data-cta-provider="ticketmaster"') < tmFirstRendered.indexOf('data-cta-provider="seatgeek"'), "the primary ticket site renders before marketplaces");
 
 // One card per artist, so a residency cannot fill the module.
 const residency = [1, 2, 3].map((day) => ({ ...valid, id: `${valid.id}-${day}`, datetime_iso: `2030-11-${18 + day}T19:00:00-05:00` }));
 const otherArtist = { ...valid, id: "tm-other-2030", artist_slug: "other-artist", artist_name: "Other Artist", datetime_iso: "2030-12-01T19:00:00-05:00" };
 const deduped = renderGuideProviderPair(route, [...residency, otherArtist], env);
 assert.equal((deduped.match(/guide-provider-pair-card/g) || []).length, 2);
-assert.match(deduped, /4 upcoming events passed/);
+assert.match(deduped, /for 4 upcoming events/);
 
 assert.equal(normalizeCtaLocation("guide_provider_pair"), "guide_provider_pair");
 const metadata = sanitizeMetadata({

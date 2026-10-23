@@ -874,10 +874,9 @@ function providerVerificationNote(item) {
   return date ? `Provider link last checked: ${date}.` : "";
 }
 
-// Affiliate providers (SeatGeek, Vivid Seats) render before the plain,
-// unmonetized Ticketmaster link. Keep in sync with PROVIDER_DISPLAY_ORDER in
+// The primary ticket site renders first, then marketplaces alphabetically. Keep in sync with PROVIDER_DISPLAY_ORDER in
 // functions/[[path]].js.
-const PROVIDER_DISPLAY_ORDER = ["seatgeek", "vivid-seats", ...IMPACT_MARKETPLACE_PROVIDERS.map((provider) => provider.slug), "ticketmaster"];
+const PROVIDER_DISPLAY_ORDER = ["ticketmaster", "seatgeek", "stubhub-international", "ticket-liquidator", "ticketnetwork", "vivid-seats"];
 
 function providerDisplayRank(providerSlug) {
   const rank = PROVIDER_DISPLAY_ORDER.indexOf(providerSlug);
@@ -2021,7 +2020,7 @@ function renderProviderCtaButton(name, href, amount, analytics = {}) {
   const cta = document.createElement("a");
   const ctaLocation = analytics.ctaLocation || "event_card";
   const trackedHref = withCtaLocation(href, ctaLocation);
-  cta.className = `provider-cta${amount ? " provider-cta-priced" : ""}`;
+  cta.className = `provider-cta${amount ? " provider-cta-priced" : ""}${analytics.provider === "ticketmaster" ? " provider-cta-primary" : ""}`;
   cta.href = trackedHref;
   cta.target = "_blank";
   cta.rel = outboundCtaRel(trackedHref) || "noopener";
@@ -2033,7 +2032,8 @@ function renderProviderCtaButton(name, href, amount, analytics = {}) {
   cta.dataset.ctaPriceSnapshot = amount ? "present" : "absent";
   cta.dataset.ctaLocation = ctaLocation;
   text(cta, "span", name, "provider-cta-name");
-  text(cta, "span", amount || (analytics.provider === "ticketmaster" ? "See tickets" : "Check prices"), `provider-cta-value${amount ? " provider-cta-price" : " provider-cta-check"}`);
+  text(cta, "span", analytics.provider === "ticketmaster" ? "Primary seller · may include resale" : analytics.provider === "seatgeek" ? "Marketplace · check ticket type" : "Resale marketplace", "provider-cta-role");
+  text(cta, "span", (amount ? ["From", amount].join(" ") : "") || (analytics.provider === "ticketmaster" ? "See tickets" : "Check prices"), `provider-cta-value${amount ? " provider-cta-price" : " provider-cta-check"}`);
   return cta;
 }
 
@@ -2060,7 +2060,8 @@ function displayCountry(value) {
 // Price vocabulary: mirrors functions/_price-wording.js (this classic script
 // cannot import it). scripts/price-wording.test.mjs fails if they drift.
 const PRICE_DISCLOSURE =
-  "Prices are each ticket site's listed price when it was last checked, at the time shown. They change often and aren't your final total. Some prices may already include fees. You'll see the full price, with taxes and delivery, on the ticket site before you pay.";
+  "Starting prices are recorded separately from each ticket site, in its source currency. Seats, ticket quantities and included fees may differ, so these are not like-for-like totals. Check the full order total, delivery and terms on the ticket site.";
+const PRICE_SUMMARY = "Starting prices only. Seats, quantities and included fees may differ.";
 const CARD_PRICE_TAIL = "not the final total";
 const PRICE_UNAVAILABLE_NOTE = "No listed price yet.";
 const PRICE_HISTORY_LABEL = "Show price history";
@@ -2088,7 +2089,7 @@ function pricesWereChecked(show) {
 // never carried price lanes (the offline fallback catalogue, or any response
 // fetched without includePrices) would otherwise announce "no snapshot" for
 // every date without having checked one.
-function renderShowCardPriceNotes(ctaSpecs, pricesChecked = false) {
+function renderShowCardPriceNotes(ctaSpecs, pricesChecked = false, show = null) {
   const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf);
   if (!priced.length) {
     if (!pricesChecked || !ctaSpecs.some((spec) => LISTED_PRICE_PROVIDER_SLUGS.has(spec.provider))) return null;
@@ -2117,6 +2118,9 @@ function renderShowCardPriceNotes(ctaSpecs, pricesChecked = false) {
   });
   note.append(` · ${CARD_PRICE_TAIL}`);
   wrap.append(note);
+  if (["UK", "GB", "United Kingdom"].includes(show?.country) && priced.some((spec) => spec.lane?.currency !== "GBP")) {
+    text(wrap, "p", "This UK event has prices in a foreign currency. Figures are shown as supplied; your bank or seller may charge for conversion.", "disclosure-note currency-note");
+  }
   return wrap;
 }
 
@@ -2135,16 +2139,19 @@ function relativeCheckAge(fetchedAt, now = Date.now()) {
 // Keep in sync with MONEY_DISCLOSURE_TEXT / renderMoneyDisclosureHtml in
 // functions/[[path]].js.
 const MONEY_DISCLOSURE_TEXT =
-  "Some ticket sites pay TourTicketCompare a commission if you buy through their links, at no extra cost to you. Those sites are listed first, and Ticketmaster last.";
-function renderMoneyDisclosure() {
-  const note = document.createElement("p");
-  note.className = "disclosure-note money-disclosure";
-  note.append(`${PRICE_DISCLOSURE} `);
-  text(note, "strong", "How this site makes money:");
-  note.append(` ${MONEY_DISCLOSURE_TEXT} `);
+  "Some links earn TTC a commission at no extra cost to you. The primary ticket site appears first, then marketplaces in alphabetical order. Commission does not determine the order.";
+function renderMoneyDisclosure({ prices = true } = {}) {
+  const wrap = document.createElement("div");
+  if (prices) text(wrap, "p", PRICE_SUMMARY, "disclosure-note price-disclosure");
+  const details = document.createElement("details");
+  details.className = "money-disclosure";
+  text(details, "summary", "About prices, seller order & affiliate links");
+  if (prices) text(details, "p", PRICE_DISCLOSURE, "disclosure-note");
+  const note = text(details, "p", `${MONEY_DISCLOSURE_TEXT} `, "disclosure-note");
   const link = text(note, "a", "Affiliate disclosure", "text-link");
   link.href = "/affiliate-disclosure";
-  return note;
+  wrap.append(details);
+  return wrap;
 }
 
 // Inline SVG sparkline for one provider's snapshot series. Points are drawn in
@@ -2309,7 +2316,7 @@ function renderPriceHistoryContent(panel, wrap, data) {
 // `priced` is how many of the buttons show a price.
 function showCtaCountLabel(count, priced = 0) {
   if (count < 1 || !priced) return "";
-  return priced === 1 ? "Lowest listed price" : "Lowest listed prices";
+  return priced === 1 ? "Provider starting price" : "Separate provider starting prices";
 }
 
 function renderShowCard(show, options = {}) {
@@ -2436,12 +2443,13 @@ function renderShowCard(show, options = {}) {
       if (countLabel) text(body, "p", countLabel, "provider-cta-count muted");
       const ctaGroup = document.createElement("div");
       ctaGroup.className = "provider-cta-group";
+      ctaSpecs.sort((a, b) => providerDisplayRank(a.provider) - providerDisplayRank(b.provider));
       for (const spec of ctaSpecs) {
         ctaGroup.append(renderProviderCtaButton(spec.name, spec.href, spec.priceAmount || "", { ...analyticsBase, provider: spec.provider }));
       }
       body.append(ctaGroup);
 
-      const notes = renderShowCardPriceNotes(ctaSpecs, pricesWereChecked(show));
+      const notes = renderShowCardPriceNotes(ctaSpecs, pricesWereChecked(show), show);
       if (notes) body.append(notes);
 
       // On-site per-event price history (Phase 1): only where an approved price
@@ -2541,19 +2549,19 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows =
   const name = String(artistName || "").trim() || "artist";
   const wrap = document.createElement("div");
   wrap.className = "empty-state";
-  text(wrap, "h3", "No upcoming dates listed");
+  text(wrap, "h3", "No upcoming dates listed on TTC");
   text(
     wrap,
     "p",
     Array.isArray(pastShows) && pastShows.length
-      ? `${name}'s recent dates have passed and no new ones are listed yet.`
-      : `No ${name} dates are listed yet.`
+      ? `The ${name} dates tracked by TTC have passed. TTC has not verified any new upcoming dates.`
+      : `TTC has not verified any upcoming ${name} dates. This does not mean no shows have been announced.`
   );
   text(wrap, "p", "New dates show up here once they're listed, and ticket buttons once their links are checked.", "muted");
   // Keep in sync with renderShowBoardEmptyStateHtml in functions/[[path]].js.
   const explainer = document.createElement("p");
   explainer.className = "muted";
-  explainer.append("An empty page is normal between tours — ");
+  explainer.append("TTC’s coverage may be incomplete. Check the artist or venue for announcements. ");
   const explainerLink = document.createElement("a");
   explainerLink.className = "text-link";
   explainerLink.href = EMPTY_BOARD_EXPLAINER_PATH;
@@ -3388,7 +3396,7 @@ function renderArtist(artist) {
       : main.querySelector(".show-board .section-intro > p:not(.disclosure-note)")
         ? "Dates appear here once the source confirms them."
         : "",
-    renderMoneyDisclosure()
+    serverShows.length ? renderMoneyDisclosure({ prices: serverShows.some(hasApprovedMarketplacePrice) }) : null
   );
   // Shared price/link help and the provenance block are both server-rendered
   // once from the shared content model; transplant, never rebuild.

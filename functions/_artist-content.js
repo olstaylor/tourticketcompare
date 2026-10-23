@@ -214,8 +214,8 @@ export function artistSearchIntro(artist, status, options = {}) {
     // so once. An ended tour keeps the fuller sentence; its board lists the
     // recent dates below it.
     return Number(options.pastShowCount) > 0
-      ? `No upcoming ${name} dates are listed right now.`
-      : `No ${name} dates yet.`;
+      ? `No upcoming ${name} dates are listed on TTC right now.`
+      : `TTC has not verified any upcoming ${name} dates yet.`;
   }
 
   const sentences = [];
@@ -329,8 +329,8 @@ export function artistTicketHelp() {
     intro: "TourTicketCompare doesn't sell tickets. Each button opens a ticket site, and you buy there.",
     points: [
       "A button on a date card opens that exact date.",
-      "When two sites list a price for the same date, the lower listed price is marked. That compares one date only, never different dates, and doesn't mean a site is cheaper overall.",
-      "A date with no button usually isn't on sale yet, or its link hasn't been checked yet."
+      "Starting prices can cover different seats, quantities and fees. Match the ticket details and full order totals before choosing.",
+      "A date without a ticket link has no checked destination on TTC. Availability must be confirmed with the seller."
     ]
   };
 }
@@ -353,16 +353,16 @@ export function artistEmptyBoardCopy(artist, options = {}) {
   // the board intro and use the short explainer.
   if (!pastShowCount) {
     return {
-      heading: "No dates yet",
-      body: `When Ticketmaster lists a ${name} date it appears here, and its ticket links follow once they are checked.`,
-      next: "",
+      heading: "No upcoming dates verified on TTC",
+      body: `TTC has not verified any upcoming ${name} dates. This does not mean no shows have been announced.`,
+      next: "Check the artist’s official website or venue for the latest announcements.",
       compact: true
     };
   }
   return {
-    heading: "No upcoming dates listed",
+    heading: "No upcoming dates listed on TTC",
     body: pastShowCount
-      ? `${name}'s recent dates have passed and no new ones are listed yet.`
+      ? `The ${name} dates tracked by TTC have passed. TTC has not verified any new upcoming dates.`
       : `No ${name} dates are listed yet.`,
     next: `New dates show up here once they're listed, and ticket buttons once their links are checked.`
   };
@@ -431,7 +431,7 @@ export function artistFaqEntries(artist, status, options = {}) {
         : `${status.showsWithPrice} of the ${plural(status.showCount, "upcoming date")} on this page show a listed price right now.`;
     entries.push([
       `How much are ${name} tickets?`,
-      `It depends on the date, city and seat. ${priced} Each figure is one ticket site's listed price for that date, with the time it was checked; it isn't face value or a final total, and fees are added at checkout. Compare the same date and seat type across sites before you buy.`
+      `It depends on the date, city and seat. ${priced} Each figure is one ticket site's listed price for that date, with the time it was checked; it isn't face value or a final total, and included fees vary by provider. Compare the same date and seat type across sites before you buy.`
     ]);
   }
   for (const entry of authored) {

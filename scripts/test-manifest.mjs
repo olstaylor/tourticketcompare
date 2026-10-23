@@ -16,6 +16,7 @@
 //   npm run test:units -- --only blog
 
 export const STEPS = [
+  { id: "test:reading-layout", lane: "quick", run: "node scripts/reading-layout.test.mjs" },
   { id: "test:event-metadata", lane: "units", run: "node scripts/event-metadata.test.mjs" },
   { id: "automation:identity:self-test", lane: "units", run: "node scripts/configure-automation-identity.mjs --self-test" },
   { id: "docs:check",                             lane: "quick",  run: "npm run docs:check" },

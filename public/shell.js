@@ -13,6 +13,20 @@
   if (year) year.textContent = currentYear;
   if (compactYear) compactYear.textContent = currentYear;
 
+  // Keep the article in view on phones; the full section list remains a
+  // native disclosure, including when JavaScript is unavailable.
+  var readingContents = document.querySelector("[data-reading-contents]");
+  if (readingContents && window.matchMedia("(max-width: 800px)").matches) readingContents.open = false;
+
+  if (navLinks) {
+    navLinks.querySelectorAll("a").forEach(function (item) {
+      var href = item.getAttribute("href");
+      if (window.location.pathname === href || window.location.pathname.startsWith(href + "/")) {
+        item.setAttribute("aria-current", "page");
+      }
+    });
+  }
+
   if (navToggle && navLinks) {
     var closedLabel = navToggle.textContent.trim() || "Menu";
     function setOpen(open) {

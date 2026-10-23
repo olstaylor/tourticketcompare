@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "370064D0AC3A4B99",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/role-model-presents-chuck-on-tour-london-24-02-2027/event/370064D0AC3A4B99",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/role-model-tickets-london-ovo-arena-wembley-2-24-2027--concerts-rb/production/7183428",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/role-model-presents-chuck-on-tour-london-24-02-2027/event/370064D0AC3A4B99",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7183428,
+        "url": "https://www.vividseats.com/role-model-tickets-london-ovo-arena-wembley-2-24-2027--concerts-rb/production/7183428",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

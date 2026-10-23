@@ -807,7 +807,7 @@
     "ticketmaster_event_id": "3500655098D05866",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/jack-johnson-london-04-07-2027/event/3500655098D05866",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jack-johnson-tickets-london-the-o2---london-7-4-2027/production/7725840",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jack-johnson-london-04-07-2027/event/3500655098D05866",
     "last_verified_at": null,
@@ -829,11 +829,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7725840,
+        "url": "https://www.vividseats.com/jack-johnson-tickets-london-the-o2---london-7-4-2027/production/7725840",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

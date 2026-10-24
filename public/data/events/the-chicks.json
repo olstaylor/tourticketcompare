@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/the-chicks-tickets-seattle-benaroya-hall---taper-auditorium-10-25-2026--concerts-country-and-folk/production/7084763",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-seattle-washington-10-25-2026/event/0F0064B3EA45109C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,7 +50,10 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_52nooej",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-the-chicks-2026-seattle-vvg1hz_52n3-el",
@@ -68,7 +71,7 @@
     "vividseats_url": "https://www.vividseats.com/the-chicks-tickets-seattle-benaroya-hall---taper-auditorium-10-26-2026--concerts-country-and-folk/production/7084765",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-seattle-washington-10-26-2026/event/0F0064B3EA4A10AB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -103,7 +106,10 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_52n3-el",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-the-chicks-2026-san-francisco-g5vyz_5k9t5fo",
@@ -121,7 +127,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-san-francisco-california-10-29-2026/event/1C0064B4D7FCB220",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -172,7 +178,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/the-chicks-san-francisco-tickets-10-29-2026/event/107409077",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7999837/The-Chicks-tickets-Thu-Oct-29-2026-The-Masonic-San-Francisco"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7999837/The-Chicks-tickets-Thu-Oct-29-2026-The-Masonic-San-Francisco",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-the-chicks-2026-san-francisco-g5vyz_5kbz5fl",
@@ -190,7 +199,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-san-francisco-california-10-30-2026/event/1C0064B4D800B22B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -241,7 +250,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/the-chicks-san-francisco-tickets-10-30-2026/event/107409078",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7999839/The-Chicks-tickets-Fri-Oct-30-2026-The-Masonic-San-Francisco"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7999839/The-Chicks-tickets-Fri-Oct-30-2026-The-Masonic-San-Francisco",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-the-chicks-2026-hollywood-vvg10z_5ljdml9",
@@ -259,7 +271,7 @@
     "vividseats_url": "https://www.vividseats.com/the-chicks-tickets-hollywood-dolby-theatre-11-1-2026--concerts-country-and-folk/production/7084779",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-01-2026/event/090064BAE60EE7D7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -310,7 +322,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/the-chicks-hollywood-tickets-11-1-2026/event/107394183",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7999840/The-Chicks-tickets-Sun-Nov-1-2026-Dolby-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7999840/The-Chicks-tickets-Sun-Nov-1-2026-Dolby-Theatre",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-the-chicks-2026-hollywood-vvg10z_5ra8fba",
@@ -328,7 +343,7 @@
     "vividseats_url": "https://www.vividseats.com/the-chicks-tickets-hollywood-dolby-theatre-11-2-2026--concerts-country-and-folk/production/7084783",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-02-2026/event/090064B785414609",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -379,7 +394,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/the-chicks-hollywood-tickets-11-2-2026/event/107410077",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7999841/The-Chicks-tickets-Mon-Nov-2-2026-Dolby-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7999841/The-Chicks-tickets-Mon-Nov-2-2026-Dolby-Theatre",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-the-chicks-2026-hollywood-vvg10z_5rao7bc",
@@ -397,7 +415,7 @@
     "vividseats_url": "https://www.vividseats.com/the-chicks-tickets-hollywood-dolby-theatre-11-3-2026--concerts-country-and-folk/production/7410570",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-03-2026/event/090064B78544460E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448,6 +466,9 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/the-chicks-hollywood-tickets-11-3-2026/event/107477148",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8193502/The-Chicks-tickets-Tue-Nov-3-2026-Dolby-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8193502/The-Chicks-tickets-Tue-Nov-3-2026-Dolby-Theatre",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   }
 ]

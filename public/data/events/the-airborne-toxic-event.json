@@ -585,7 +585,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-cleveland-ohio-05-24-2027/event/050064A6A2FACB29",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -636,13 +636,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "presales": [
-      {
-        "name": "T-Mobile® Concert Perks + Fast Lane",
-        "start": "2026-05-22T14:00:00Z",
-        "end": "2026-10-24T02:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977705",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977705/The-Airborne-Toxic-Event-tickets-Mon-May-24-2027-House-Of-Blues-Cleveland",
     "organizer_names": [

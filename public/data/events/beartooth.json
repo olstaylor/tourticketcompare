@@ -711,7 +711,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-chicago-aragon-ballroom-11-20-2026--concerts-hard-rock/production/7052738",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-chicago-illinois-11-20-2026/event/040064A8E6905D55",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -771,13 +771,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980215",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980215/Beartooth-tickets-Fri-Nov-20-2026-Byline-Bank-Aragon-Ballroom",
     "stubhub_international_url": "https://www.stubhub.ie/beartooth-chicago-tickets-11-20-2026/event/107417483",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-05-22T15:00:00Z",
-        "end": "2026-10-24T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

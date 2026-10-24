@@ -324,7 +324,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-philadelphia-pennsylvania-11-14-2026/event/02006530AD26DF7A",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -359,14 +359,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfYGkecacWB",
     "timezone": "America/New_York",
-    "status": "on-sale",
-    "presales": [
-      {
-        "name": "Marketing Comps",
-        "start": "2026-10-09T16:15:00Z",
-        "end": "2026-11-14T13:00:00Z"
-      }
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-toronto-168zkfspyzauf8v5",

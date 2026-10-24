@@ -30986,7 +30986,7 @@
     "country": "United States Of America",
     "city": "Pittsburgh",
     "venue": "Citizens Live at The Wylie",
-    "datetime_iso": "2026-10-31T00:00:00Z",
+    "datetime_iso": "2026-10-30T23:15:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "on-sale"
@@ -39446,7 +39446,7 @@
     "country": "Germany",
     "city": "Munich",
     "venue": "Olympiahalle",
-    "datetime_iso": "2026-12-04T19:00:00Z",
+    "datetime_iso": "2026-12-04T18:30:00Z",
     "timezone": "Europe/Berlin",
     "tour_name": "",
     "status": "on-sale"
@@ -43241,7 +43241,7 @@
     "datetime_iso": "2027-05-01T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-zach-bryan-2027-green-bay-vv17jz_fgkshdkie",
@@ -43253,7 +43253,7 @@
     "datetime_iso": "2027-05-05T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-zach-bryan-2027-east-rutherford-k7vgf_fsxrnwp",
@@ -43265,7 +43265,7 @@
     "datetime_iso": "2027-05-14T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-zach-bryan-2027-east-rutherford-k7vgf_fs0cbhd",
@@ -43277,7 +43277,7 @@
     "datetime_iso": "2027-05-15T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-zach-bryan-2027-philadelphia-vv17fz_fgksiy1rz",
@@ -43289,7 +43289,7 @@
     "datetime_iso": "2027-05-25T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-zach-bryan-2027-atlanta-vvg1zz_fwy55os",
@@ -43301,7 +43301,7 @@
     "datetime_iso": "2027-05-29T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-zach-bryan-2027-orchard-park-vv17gz_fgksis3fj",
@@ -43313,7 +43313,7 @@
     "datetime_iso": "2027-06-02T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-zach-bryan-2027-las-vegas-1avjz_fgkwbrzg6",
@@ -43325,7 +43325,7 @@
     "datetime_iso": "2027-07-17T02:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-zach-bryan-2027-inglewood-vvg1iz_frht9v6",
@@ -43337,7 +43337,7 @@
     "datetime_iso": "2027-07-21T02:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-zach-bryan-2027-seattle-vvg1hz_fytloed",
@@ -43349,7 +43349,7 @@
     "datetime_iso": "2027-07-25T02:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-zach-bryan-2027-vancouver-1av7z_fgks885w5",
@@ -43361,7 +43361,7 @@
     "datetime_iso": "2027-07-29T02:00:00Z",
     "timezone": "America/Vancouver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-zach-bryan-2027-edmonton-1av7z_fgkw2fvlh",
@@ -43373,7 +43373,7 @@
     "datetime_iso": "2027-08-02T00:30:00Z",
     "timezone": "America/Edmonton",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-zach-bryan-2027-boise-g5vzz_fsbnh4h",
@@ -43385,7 +43385,7 @@
     "datetime_iso": "2027-08-07T01:00:00Z",
     "timezone": "America/Denver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-five-finger-death-punch-2027-helsinki-z698xz8kz16evk7gay",
@@ -45041,7 +45041,7 @@
     "datetime_iso": "2026-11-14T04:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-garth-brooks-2026-seattle-vvg1hz_fghqxgl",
@@ -45053,7 +45053,7 @@
     "datetime_iso": "2026-11-15T04:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-saint-levant-2027-glasgow-1adbz_fgkb_vncq",
@@ -45065,7 +45065,7 @@
     "datetime_iso": "2027-01-18T19:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-saint-levant-2027-manchester-g5dzz_fbnzksb",
@@ -45077,7 +45077,7 @@
     "datetime_iso": "2027-01-20T19:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-saint-levant-2027-london-1auzk48gkdxoa9q",
@@ -45089,7 +45089,7 @@
     "datetime_iso": "2027-01-21T19:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-saint-levant-2027-ciudad-de-mexico-g5dvz_o3qzslc",
@@ -45161,7 +45161,7 @@
     "datetime_iso": "2026-12-30T04:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-elevation-worship-2027-spokane-z7r9jz1aavwus",
@@ -45773,7 +45773,7 @@
     "datetime_iso": "2027-08-06T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sienna-spiro-2027-washington-1avfz_fgksa-bdm",
@@ -45785,7 +45785,7 @@
     "datetime_iso": "2027-08-12T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sienna-spiro-2027-philadelphia-vv17fz_fgkuhzdr4",
@@ -45797,7 +45797,7 @@
     "datetime_iso": "2027-08-14T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sienna-spiro-2027-boston-vv177z_fgkd_e0km",
@@ -45809,7 +45809,7 @@
     "datetime_iso": "2027-08-15T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sienna-spiro-2027-new-york-g5dyz_46da3nv",
@@ -45821,7 +45821,7 @@
     "datetime_iso": "2027-08-18T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sienna-spiro-2027-detroit-vv1afzk48gkebo40x",
@@ -45833,7 +45833,7 @@
     "datetime_iso": "2027-08-23T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sienna-spiro-2027-chicago-vv17jz_fgkxlgu6j",
@@ -45845,7 +45845,7 @@
     "datetime_iso": "2027-08-26T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sienna-spiro-2027-chicago-vv17jz_fgkxlcj6o",
@@ -45857,7 +45857,7 @@
     "datetime_iso": "2027-08-27T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sienna-spiro-2027-minneapolis-vv17bz_fgktexhi7",
@@ -45869,7 +45869,7 @@
     "datetime_iso": "2027-08-29T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sienna-spiro-2027-seattle-vvg1hz_4ediyof",
@@ -45881,7 +45881,7 @@
     "datetime_iso": "2027-09-03T02:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sienna-spiro-2027-vancouver-1av7z_fgkxqzaez",
@@ -45893,7 +45893,7 @@
     "datetime_iso": "2027-09-05T02:00:00Z",
     "timezone": "America/Vancouver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sienna-spiro-2027-berkeley-g5vyz_fbwbrn7",
@@ -45905,7 +45905,7 @@
     "datetime_iso": "2027-09-08T02:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sienna-spiro-2027-mexico-1afzk4ogkeyuq9e",
@@ -45917,7 +45917,7 @@
     "datetime_iso": "2027-09-15T03:00:00Z",
     "timezone": "America/Mexico_City",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-interrupters-2027-san-diego-vvg1iz_4zg9ez5",
@@ -45929,7 +45929,7 @@
     "datetime_iso": "2027-05-02T01:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-tommy-emmanuel-2027-grand-junction-g5vzz_fdgnqkn",
@@ -45941,7 +45941,7 @@
     "datetime_iso": "2027-02-25T02:30:00Z",
     "timezone": "America/Denver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-tommy-emmanuel-2027-virginia-beach-vv177z_fgkxnvih0",
@@ -45953,7 +45953,7 @@
     "datetime_iso": "2027-06-02T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-haiden-henderson-2027-minneapolis-z7r9jz1aaeerb",
@@ -46001,7 +46001,7 @@
     "datetime_iso": "2027-08-19T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-yacht-rock-revue-2027-atlanta-z7r9jz1aa7oau",
@@ -46721,7 +46721,7 @@
     "datetime_iso": "2026-11-15T22:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-los-tigres-del-norte-2026-glendale-1fk8v0p7atz785ae",
@@ -47441,7 +47441,7 @@
     "datetime_iso": "2027-07-28T02:00:00Z",
     "timezone": "America/Vancouver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-zach-bryan-2027-edmonton-16v7z_43bg7l9tm",
@@ -47453,7 +47453,7 @@
     "datetime_iso": "2027-08-01T00:30:00Z",
     "timezone": "America/Edmonton",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-dinosaur-jr-2027-auckland-1a0zk4fgkei-ffe",

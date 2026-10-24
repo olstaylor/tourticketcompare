@@ -773,7 +773,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-nashville-brown-county-music-center-10-29-2026--concerts-rock/production/7170011",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-nashville-indiana-10-29-2026/event/050064CBB080B530",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -826,11 +826,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056802",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056802/Daughtry-tickets-Thu-Oct-29-2026-Brown-County-Music-Center",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-19T14:00:00Z",
-        "end": "2026-10-23T02:00:00Z"
-      },
       {
         "name": "Standard Seating",
         "start": "2026-09-15T14:00:00Z",

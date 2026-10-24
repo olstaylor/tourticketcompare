@@ -586,7 +586,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-orlando-kia-center-3-18-2027/production/7047153",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-orlando-florida-03-18-2027/event/220064AF8C665BDB",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -651,6 +651,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-05-28T14:00:00Z",
         "end": "2027-03-11T22:00:00Z"
+      },
+      {
+        "name": "October Weekend Special",
+        "start": "2026-10-23T14:00:00Z",
+        "end": "2026-10-27T02:00:00Z"
       }
     ],
     "organizer_names": [

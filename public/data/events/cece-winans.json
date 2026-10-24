@@ -320,7 +320,7 @@
     "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-jacksonville-vystar-veterans-memorial-arena-10-30-2026/production/6699106",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-jacksonville-florida-10-30-2026/event/220064544C1FC0CD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -363,7 +363,10 @@
     "ticketmaster_discovery_event_id": "1kFOv047GAG6Hdu",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7752713/CeCe-Winans-tickets-Fri-Oct-30-2026-VyStar-Veterans-Memorial-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7752713/CeCe-Winans-tickets-Fri-Oct-30-2026-VyStar-Veterans-Memorial-Arena",
+    "organizer_names": [
+      "TRANSPARENT PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-cece-winans-2026-seattle-vvg1hz_c5fehuk",
@@ -381,7 +384,7 @@
     "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-seattle-wamu-theater---seattle-12-10-2026/production/7267182",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/christmas-with-cece-winans-featuring-angie-seattle-washington-12-10-2026/event/0F0064E2D49DBD86",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424,7 +427,10 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_C5fEhUk",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8121702/CeCe-Winans-tickets-Thu-Dec-10-2026-Wamu-Theater-At-Lumen-Field-Event-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8121702/CeCe-Winans-tickets-Thu-Dec-10-2026-Wamu-Theater-At-Lumen-Field-Event-Center",
+    "organizer_names": [
+      "TRANSPARENT PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-cece-winans-2026-portland-z7r9jz1a7j6jj",
@@ -503,7 +509,7 @@
     "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-phoenix-arizona-financial-theatre-12-15-2026/production/7267186",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/christmas-with-cece-winans-featuring-angie-phoenix-arizona-12-15-2026/event/190064E6D5666C29",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -546,7 +552,10 @@
     "ticketmaster_discovery_event_id": "17k8v0G6Ch4_JYt",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8121699/CeCe-Winans-tickets-Tue-Dec-15-2026-Arizona-Financial-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8121699/CeCe-Winans-tickets-Tue-Dec-15-2026-Arizona-Financial-Theatre",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-cece-winans-2026-bakersfield-z7r9jz1a7jfpa",
@@ -678,7 +687,7 @@
     "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-sacramento-sacramento-memorial-auditorium-12-18-2026/production/7267180",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/christmas-with-cece-winans-featuring-angie-sacramento-california-12-18-2026/event/1C0064E78AB778D8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -721,7 +730,10 @@
     "ticketmaster_discovery_event_id": "G5vYZ_Cr1cMNb",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8124362/CeCe-Winans-tickets-Fri-Dec-18-2026-Sacramento-Memorial-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8124362/CeCe-Winans-tickets-Fri-Dec-18-2026-Sacramento-Memorial-Auditorium",
+    "organizer_names": [
+      "TRANSPARENT PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-cece-winans-2027-nashville-z7r9jz1aaebzs",

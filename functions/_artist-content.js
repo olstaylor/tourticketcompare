@@ -329,7 +329,7 @@ export function artistTicketHelp() {
     intro: "TourTicketCompare doesn't sell tickets. Each button opens a ticket site, and you buy there.",
     points: [
       "Pick your date first. A button on a date card opens that exact date.",
-      "When two sites list a price for the same date, the lower listed price is marked. That's a like-for-like check on one date, so it never compares different dates and doesn't mean a site is cheaper overall.",
+      "When two sites list a price for the same date, the lower listed price is marked. That's a like-for-like check on one date, never different dates, and it doesn't mean a site is cheaper overall.",
       "No button on a date? It usually isn't on sale yet, or its link is still waiting to be checked."
     ]
   };

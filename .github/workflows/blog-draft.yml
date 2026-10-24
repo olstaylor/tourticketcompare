@@ -1,11 +1,14 @@
 name: Blog article draft
 
 # Trusted main only. Discovery remains unchanged. No issue/comment/PR triggers.
+# Live by default: after each Weekly blog opportunities run (Monday, Thursday).
+# Each run drafts at most 2 articles as draft PRs and none while 4 automated
+# drafts wait for review. Kill switch: repository variable BLOG_DRAFT_ENABLED=false.
 on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'Preview (no spend), historical mock test, or one live Claude draft PR'
+        description: 'Preview (no spend), historical mock test, or live Claude draft PRs'
         type: choice
         options: [preview, mock, live]
         default: preview
@@ -30,14 +33,14 @@ jobs:
     if: >-
       github.repository == 'olstaylor/tourticketcompare' &&
       (github.event_name == 'workflow_dispatch' ||
-       (vars.BLOG_DRAFT_ENABLED == 'true' && vars.BLOG_DRAFT_LIVE_PROVEN == 'true' &&
+       (vars.BLOG_DRAFT_ENABLED != 'false' &&
         github.event.workflow_run.conclusion == 'success' &&
         github.event.workflow_run.head_branch == 'main' &&
         github.event.workflow_run.head_repository.full_name == github.repository &&
         github.event.workflow_run.run_attempt == 1))
     runs-on: ubuntu-latest
-    # The canonical suite + schema renderer scan the whole current route set.
-    # Model requests themselves remain capped at 90 seconds each.
+    # Up to two articles, each with the content checks; the full suite runs on
+    # each PR. Model requests are capped at 4 minutes each.
     timeout-minutes: 50
     permissions:
       contents: write
@@ -60,9 +63,9 @@ jobs:
       - name: Test drafting safeguards
         # The full publication fixture runs again in test:mvp before any PR.
         run: |
-          node --test --test-name-pattern='issue #1538 selects|expired events|missing Anthropic|weekly ref reservation|API failures|workflow is opt-in' scripts/blog-drafting.test.mjs
+          node --test --test-name-pattern='issue #1538 selects|expired events|missing Anthropic|topic ref reservation|API failures|workflow runs live' scripts/blog-drafting.test.mjs
       - name: Prepare existing repository publishing identity
-        if: github.event_name == 'workflow_run' || inputs.mode == 'live'
+        if: github.event_name != 'workflow_dispatch' || inputs.mode == 'live'
         id: identity
         uses: ./.github/actions/automation-identity
         with:
@@ -77,6 +80,9 @@ jobs:
           GITHUB_TOKEN: ${{ steps.identity.outputs.token || secrets.GITHUB_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+          # Read-only show_priority lookup; drafting works without it.
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: node scripts/draft-blog-article.mjs
       - name: Retain evidence, editorial checks and API usage
         if: always()

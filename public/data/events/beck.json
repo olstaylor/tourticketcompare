@@ -1,0 +1,479 @@
+[
+  {
+    "id": "tm-beck-2026-washington-1avfz_fgkdleutu",
+    "artist_slug": "beck",
+    "artist_name": "Beck",
+    "event_name": "Beck - RIDE LONESOME TOUR",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "The Anthem",
+    "datetime_iso": "2026-10-25T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500648EEB08DA76",
+    "ticketmaster_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-washington-district-of-columbia-10-25-2026/event/1500648EEB08DA76",
+    "seatgeek_url": "https://seatgeek.com/beck-tickets/washington-district-of-columbia-the-anthem-dc-2026-10-25-7-30-pm/concert/18194417",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-washington-district-of-columbia-10-25-2026/event/1500648EEB08DA76",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500648EEB08DA76",
+        "discovery_event_id": "1AvfZ_FGkDleutU",
+        "url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-washington-district-of-columbia-10-25-2026/event/1500648EEB08DA76",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvfZ_FGkDleutU",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beck-2026-durham-g5evz_fbugjju",
+    "artist_slug": "beck",
+    "artist_name": "Beck",
+    "event_name": "BECK: RIDE LONESOME TOUR",
+    "city": "Durham",
+    "country": "United States Of America",
+    "venue": "DPAC",
+    "datetime_iso": "2026-10-27T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00648EB6D6670D",
+    "ticketmaster_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-durham-north-carolina-10-27-2026/event/2D00648EB6D6670D",
+    "seatgeek_url": "https://seatgeek.com/beck-tickets/durham-north-carolina-dpac-durham-performing-arts-center-2026-10-27-8-pm/concert/18194420",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-durham-north-carolina-10-27-2026/event/2D00648EB6D6670D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00648EB6D6670D",
+        "discovery_event_id": "G5eVZ_FBUgJju",
+        "url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-durham-north-carolina-10-27-2026/event/2D00648EB6D6670D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_FBUgJju",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beck-2026-asheville-g5evz_ftjugdd",
+    "artist_slug": "beck",
+    "artist_name": "Beck",
+    "event_name": "BECK: RIDE LONESOME TOUR",
+    "city": "Asheville",
+    "country": "United States Of America",
+    "venue": "Harrah's Cherokee Center - Asheville",
+    "datetime_iso": "2026-10-29T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00648FDC34CEFB",
+    "ticketmaster_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-asheville-north-carolina-10-28-2026/event/2D00648FDC34CEFB",
+    "seatgeek_url": "https://seatgeek.com/beck-tickets/asheville-north-carolina-harrah-s-cherokee-center-asheville-2026-10-28-8-pm/concert/18194423",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-asheville-north-carolina-10-28-2026/event/2D00648FDC34CEFB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00648FDC34CEFB",
+        "discovery_event_id": "G5eVZ_FTjuGDD",
+        "url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-asheville-north-carolina-10-28-2026/event/2D00648FDC34CEFB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_FTjuGDD",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beck-2026-atlanta-vvg1zz_fbor4w0",
+    "artist_slug": "beck",
+    "artist_name": "Beck",
+    "event_name": "BECK: RIDE LONESOME TOUR",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Coca-Cola Roxy",
+    "datetime_iso": "2026-10-30T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00648E91795CA4",
+    "ticketmaster_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-atlanta-georgia-10-30-2026/event/0E00648E91795CA4",
+    "seatgeek_url": "https://seatgeek.com/beck-tickets/atlanta-georgia-coca-cola-roxy-theatre-2026-10-30-8-pm/concert/18194424",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-atlanta-georgia-10-30-2026/event/0E00648E91795CA4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00648E91795CA4",
+        "discovery_event_id": "vvG1zZ_FBor4w0",
+        "url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-atlanta-georgia-10-30-2026/event/0E00648E91795CA4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_FBor4w0",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beck-2026-nashville-g5viz_kspxnlj",
+    "artist_slug": "beck",
+    "artist_name": "Beck",
+    "event_name": "BECK: RIDE LONESOME TOUR",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2026-11-01T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00646CD68A37DC",
+    "ticketmaster_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-nashville-tennessee-10-31-2026/event/1B00646CD68A37DC",
+    "seatgeek_url": "https://seatgeek.com/beck-tickets/nashville-tennessee-the-truth-nashville-2026-10-31-8-pm/concert/18126028",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-nashville-tennessee-10-31-2026/event/1B00646CD68A37DC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00646CD68A37DC",
+        "discovery_event_id": "G5viZ_kSpxNLj",
+        "url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-nashville-tennessee-10-31-2026/event/1B00646CD68A37DC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_kSpxNLj",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beck-2026-spokane-z7r9jz1aae87y",
+    "artist_slug": "beck",
+    "artist_name": "Beck",
+    "event_name": "Beck",
+    "city": "Spokane",
+    "country": "United States Of America",
+    "venue": "First Interstate Center for the Arts",
+    "datetime_iso": "2026-11-07T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe87Y",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe87Y",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe87Y",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe87Y",
+        "discovery_event_id": "Z7r9jZ1AAe87Y",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe87Y",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe87Y",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beck-2026-seattle-vvg1hz_3rxx2pm",
+    "artist_slug": "beck",
+    "artist_name": "Beck",
+    "event_name": "BECK:  RIDE LONESOME TOUR",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Benaroya Hall - S. Mark Taper Auditorium",
+    "datetime_iso": "2026-11-09T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00652BE288F5B7",
+    "ticketmaster_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-seattle-washington-11-08-2026/event/0F00652BE288F5B7",
+    "seatgeek_url": "https://seatgeek.com/beck-tickets/seattle-washington-benaroya-hall-2026-11-08-7-pm/concert/18590355",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-seattle-washington-11-08-2026/event/0F00652BE288F5B7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00652BE288F5B7",
+        "discovery_event_id": "vvG1HZ_3Rxx2pM",
+        "url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-seattle-washington-11-08-2026/event/0F00652BE288F5B7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_3Rxx2pM",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beck-2026-vancouver-1aozk3a0babze8k",
+    "artist_slug": "beck",
+    "artist_name": "Beck",
+    "event_name": "BECK: RIDE LONESOME TOUR",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Queen Elizabeth Theatre",
+    "datetime_iso": "2026-11-10T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006489918258F5",
+    "ticketmaster_url": "https://www.ticketmaster.ca/beck-ride-lonesome-tour-vancouver-british-columbia-11-09-2026/event/11006489918258F5",
+    "seatgeek_url": "https://seatgeek.com/beck-tickets/vancouver-canada-queen-elizabeth-theatre-vancouver-2026-11-09-8-pm/concert/18194425",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/beck-ride-lonesome-tour-vancouver-british-columbia-11-09-2026/event/11006489918258F5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006489918258F5",
+        "discovery_event_id": "1aoZk3a0babZe8k",
+        "url": "https://www.ticketmaster.ca/beck-ride-lonesome-tour-vancouver-british-columbia-11-09-2026/event/11006489918258F5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1aoZk3a0babZe8k",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-beck-2026-portland-z7r9jz1a7xffk",
+    "artist_slug": "beck",
+    "artist_name": "Beck",
+    "event_name": "Beck",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Keller Auditorium",
+    "datetime_iso": "2026-11-11T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7xfFk",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xfFk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xfFk",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7xfFk",
+        "discovery_event_id": "Z7r9jZ1A7xfFk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xfFk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xfFk",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

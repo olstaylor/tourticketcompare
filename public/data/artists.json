@@ -2446,5 +2446,61 @@
     "last_verified_at": "2026-10-23",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-23"
+  },
+  {
+    "slug": "u2",
+    "name": "U2",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-24",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-24"
+  },
+  {
+    "slug": "beck",
+    "name": "Beck",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-24",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-24"
+  },
+  {
+    "slug": "dermot-kennedy",
+    "name": "Dermot Kennedy",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-24",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-24"
+  },
+  {
+    "slug": "turnpike-troubadours",
+    "name": "Turnpike Troubadours",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-24",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-24"
   }
 ]

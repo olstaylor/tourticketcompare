@@ -1,0 +1,426 @@
+[
+  {
+    "id": "tm-dermot-kennedy-2026-west-perth-1avgz_agkmqzbyp",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy - The Weight Of The Woods Tour",
+    "city": "West Perth",
+    "country": "Australia",
+    "venue": "Kings Park",
+    "datetime_iso": "2026-11-14T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300649DDDE18C16",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/dermot-kennedy-the-weight-of-the-west-perth-14-11-2026/event/1300649DDDE18C16",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/dermot-kennedy-the-weight-of-the-west-perth-14-11-2026/event/1300649DDDE18C16",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300649DDDE18C16",
+        "discovery_event_id": "1AvGZ_aGkMqzbYp",
+        "url": "https://www.ticketmaster.com.au/dermot-kennedy-the-weight-of-the-west-perth-14-11-2026/event/1300649DDDE18C16",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_aGkMqzbYp",
+    "timezone": "Australia/Perth",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dermot-kennedy-2026-brisbane-1avgz_agksulpj1",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy - The Weight Of The Woods Tour",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "Riverstage",
+    "datetime_iso": "2026-11-17T08:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300649CCD7D698A",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/dermot-kennedy-the-weight-of-the-brisbane-17-11-2026/event/1300649CCD7D698A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/dermot-kennedy-the-weight-of-the-brisbane-17-11-2026/event/1300649CCD7D698A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300649CCD7D698A",
+        "discovery_event_id": "1AvGZ_aGkSuLpJ1",
+        "url": "https://www.ticketmaster.com.au/dermot-kennedy-the-weight-of-the-brisbane-17-11-2026/event/1300649CCD7D698A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_aGkSuLpJ1",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dermot-kennedy-2026-christchurch-1ae8z_agkm57djw",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy - The Weight Of The Woods Tour",
+    "city": "Christchurch",
+    "country": "New Zealand",
+    "venue": "Christchurch Town Hall",
+    "datetime_iso": "2026-11-25T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2400649DCB103732",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/dermot-kennedy-the-weight-of-the-christchurch-25-11-2026/event/2400649DCB103732",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/dermot-kennedy-the-weight-of-the-christchurch-25-11-2026/event/2400649DCB103732",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2400649DCB103732",
+        "discovery_event_id": "1Ae8Z_aGkM57djw",
+        "url": "https://www.ticketmaster.co.nz/dermot-kennedy-the-weight-of-the-christchurch-25-11-2026/event/2400649DCB103732",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae8Z_aGkM57djw",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dermot-kennedy-2026-wellington-1ae8z_agkmdax8r",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy - The Weight Of The Woods Tour",
+    "city": "Wellington",
+    "country": "New Zealand",
+    "venue": "TSB Arena",
+    "datetime_iso": "2026-11-27T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2400649BBB16241E",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/dermot-kennedy-the-weight-of-the-wellington-27-11-2026/event/2400649BBB16241E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/dermot-kennedy-the-weight-of-the-wellington-27-11-2026/event/2400649BBB16241E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2400649BBB16241E",
+        "discovery_event_id": "1Ae8Z_aGkmDAx8r",
+        "url": "https://www.ticketmaster.co.nz/dermot-kennedy-the-weight-of-the-wellington-27-11-2026/event/2400649BBB16241E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae8Z_aGkmDAx8r",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dermot-kennedy-2026-auckland-1ae8z_agkranxjl",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy - The Weight Of The Woods Tour",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Spark Arena",
+    "datetime_iso": "2026-11-28T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2400649BC98E299F",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/dermot-kennedy-the-weight-of-the-auckland-28-11-2026/event/2400649BC98E299F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/dermot-kennedy-the-weight-of-the-auckland-28-11-2026/event/2400649BC98E299F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2400649BC98E299F",
+        "discovery_event_id": "1Ae8Z_aGkRaNxJL",
+        "url": "https://www.ticketmaster.co.nz/dermot-kennedy-the-weight-of-the-auckland-28-11-2026/event/2400649BC98E299F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae8Z_aGkRaNxJL",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-tramore-rd-cork-1kkzvpozga5u0fg",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy",
+    "city": "Tramore Rd Cork",
+    "country": "Ireland",
+    "venue": "Virgin Media Park",
+    "datetime_iso": "2027-06-23T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180065478BDA420C",
+    "ticketmaster_url": "https://www.ticketmaster.ie/dermot-kennedy-tramore-rd-cork-23-06-2027/event/180065478BDA420C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/dermot-kennedy-tramore-rd-cork-23-06-2027/event/180065478BDA420C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180065478BDA420C",
+        "discovery_event_id": "1kkZvPozGA5U0FG",
+        "url": "https://www.ticketmaster.ie/dermot-kennedy-tramore-rd-cork-23-06-2027/event/180065478BDA420C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kkZvPozGA5U0FG",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-tramore-rd-cork-1kkzvpozga5mff_",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy",
+    "city": "Tramore Rd Cork",
+    "country": "Ireland",
+    "venue": "Virgin Media Park",
+    "datetime_iso": "2027-06-24T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180065478BDD4219",
+    "ticketmaster_url": "https://www.ticketmaster.ie/dermot-kennedy-tramore-rd-cork-24-06-2027/event/180065478BDD4219",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/dermot-kennedy-tramore-rd-cork-24-06-2027/event/180065478BDD4219",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180065478BDD4219",
+        "discovery_event_id": "1kkZvPozGA5MfF_",
+        "url": "https://www.ticketmaster.ie/dermot-kennedy-tramore-rd-cork-24-06-2027/event/180065478BDD4219",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kkZvPozGA5MfF_",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-belfast-1azzk4kgkeju-cx",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy",
+    "city": "Belfast",
+    "country": "Great Britain",
+    "venue": "Ormeau Park",
+    "datetime_iso": "2027-06-26T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "38006546A6DA13BE",
+    "ticketmaster_url": "https://www.ticketmaster.ie/dermot-kennedy-belfast-26-06-2027/event/38006546A6DA13BE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/dermot-kennedy-belfast-26-06-2027/event/38006546A6DA13BE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "38006546A6DA13BE",
+        "discovery_event_id": "1AzZk4kGkeJU-CX",
+        "url": "https://www.ticketmaster.ie/dermot-kennedy-belfast-26-06-2027/event/38006546A6DA13BE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AzZk4kGkeJU-CX",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

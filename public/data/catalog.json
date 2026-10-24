@@ -5804,6 +5804,110 @@
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
       ]
+    },
+    {
+      "slug": "u2",
+      "name": "U2",
+      "short_description": "Rock act listed on Ticketmaster.",
+      "image_alt": "U2 artist ticket information",
+      "factual_summary": "U2 is listed by Ticketmaster under Rock. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the U2 page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "U2 Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "U2 tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find U2 tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "beck",
+      "name": "Beck",
+      "short_description": "Rock act listed on Ticketmaster.",
+      "image_alt": "Beck artist ticket information",
+      "factual_summary": "Beck is listed by Ticketmaster under Rock. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Beck page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Beck Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Beck tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Beck tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "dermot-kennedy",
+      "name": "Dermot Kennedy",
+      "short_description": "Rock act listed on Ticketmaster.",
+      "image_alt": "Dermot Kennedy artist ticket information",
+      "factual_summary": "Dermot Kennedy is listed by Ticketmaster under Rock. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Dermot Kennedy page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Dermot Kennedy Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Dermot Kennedy tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Dermot Kennedy tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "turnpike-troubadours",
+      "name": "Turnpike Troubadours",
+      "short_description": "Country act listed on Ticketmaster.",
+      "image_alt": "Turnpike Troubadours artist ticket information",
+      "factual_summary": "Turnpike Troubadours is listed by Ticketmaster under Country. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Turnpike Troubadours page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Turnpike Troubadours Tickets & Dates | TourTicketCompare",
+      "meta_description": "Turnpike Troubadours tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Turnpike Troubadours tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
     }
   ],
   "tours": [],
@@ -11255,6 +11359,118 @@
       "last_checked_at": "2026-10-23",
       "disclosure_required": true,
       "url": "https://seatgeek.com/gavin-adcock-tickets"
+    },
+    {
+      "link_id": "tm-artist-u2",
+      "artist_slug": "u2",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-24",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/u2-tickets/artist/736365"
+    },
+    {
+      "link_id": "sg-artist-u2",
+      "artist_slug": "u2",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-24",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/u2-tickets"
+    },
+    {
+      "link_id": "tm-artist-beck",
+      "artist_slug": "beck",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-24",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/beck-tickets/artist/765320"
+    },
+    {
+      "link_id": "sg-artist-beck",
+      "artist_slug": "beck",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-24",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/beck-tickets"
+    },
+    {
+      "link_id": "tm-artist-dermot-kennedy",
+      "artist_slug": "dermot-kennedy",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-24",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/dermot-kennedy-tickets/artist/2089473"
+    },
+    {
+      "link_id": "sg-artist-dermot-kennedy",
+      "artist_slug": "dermot-kennedy",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-24",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/dermot-kennedy-tickets"
+    },
+    {
+      "link_id": "tm-artist-turnpike-troubadours",
+      "artist_slug": "turnpike-troubadours",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-24",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/turnpike-troubadours-tickets/artist/1551842"
+    },
+    {
+      "link_id": "sg-artist-turnpike-troubadours",
+      "artist_slug": "turnpike-troubadours",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-24",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/turnpike-troubadours-tickets"
     }
   ],
   "safety_rules": [

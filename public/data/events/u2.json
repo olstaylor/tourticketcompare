@@ -1,0 +1,215 @@
+[
+  {
+    "id": "tm-u2-2027-ciudad-de-mexico-1afzk4agkeysi-t",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2 The Greatest Show On Earth World Tour",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2027-02-24T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006549B9C6C87F",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-23-02-2027/event/14006549B9C6C87F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-23-02-2027/event/14006549B9C6C87F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006549B9C6C87F",
+        "discovery_event_id": "1AfZk4aGkeysi-T",
+        "url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-23-02-2027/event/14006549B9C6C87F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZk4aGkeysi-T",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-u2-2027-ciudad-de-mexico-1afzk4agkebeind",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2 The Greatest Show On Earth World Tour",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2027-02-27T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006549BA9ECA83",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-26-02-2027/event/14006549BA9ECA83",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-26-02-2027/event/14006549BA9ECA83",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006549BA9ECA83",
+        "discovery_event_id": "1AfZk4aGkeBEind",
+        "url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-26-02-2027/event/14006549BA9ECA83",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZk4aGkeBEind",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-u2-2027-ciudad-de-mexico-1afzk4agkebeina",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2 The Greatest Show On Earth World Tour",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2027-03-01T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006549BA9ECA85",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-28-02-2027/event/14006549BA9ECA85",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-28-02-2027/event/14006549BA9ECA85",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006549BA9ECA85",
+        "discovery_event_id": "1AfZk4aGkeBEinA",
+        "url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-28-02-2027/event/14006549BA9ECA85",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZk4aGkeBEinA",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-u2-2027-ciudad-de-mexico-1afzk4agkebign2",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2 The Greatest Show On Earth World Tour",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2027-03-03T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006549BAA0CA8F",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-02-03-2027/event/14006549BAA0CA8F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-02-03-2027/event/14006549BAA0CA8F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006549BAA0CA8F",
+        "discovery_event_id": "1AfZk4aGkeBIGn2",
+        "url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-02-03-2027/event/14006549BAA0CA8F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZk4aGkeBIGn2",
+    "timezone": "America/Mexico_City",
+    "status": "announced",
+    "public_onsale_at": "2026-10-28T16:00:00Z"
+  }
+]

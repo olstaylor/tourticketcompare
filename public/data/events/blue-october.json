@@ -55,18 +55,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7828050",
-        "url": "https://www.ticketliquidator.com/tickets/7828050/Blue-October-tickets-Thu-Oct-22-2026-Paramount-Theatre-Abilene",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-V0N",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828050",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7828050/Blue-October-tickets-Thu-Oct-22-2026-Paramount-Theatre-Abilene"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-blue-october-2026-lubbock-z7r9jz1a70v8t",

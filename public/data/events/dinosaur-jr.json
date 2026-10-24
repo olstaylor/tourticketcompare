@@ -592,18 +592,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8105619",
-        "url": "https://www.ticketliquidator.com/tickets/8105619/Dinosaur-Jr-tickets-Thu-Oct-22-2026-Revolution-Hall-Portland",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PU-M",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8105619",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8105619/Dinosaur-Jr-tickets-Thu-Oct-22-2026-Revolution-Hall-Portland"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-dinosaur-jr-2026-seattle-vvg1hz_ul9tuc_",

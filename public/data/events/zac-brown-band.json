@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7703269",
+        "url": "https://www.ticketliquidator.com/tickets/7703269/Zac-Brown-Band-tickets-Fri-Oct-23-2026-Target-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OwqO",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7703269/Zac-Brown-Band-tickets-Fri-Oct-23-2026-Target-Center"
   },
   {
     "id": "tm-zac-brown-band-2026-sioux-falls-z7r9jz1a7owq_",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7703270",
+        "url": "https://www.ticketliquidator.com/tickets/7703270/Zac-Brown-Band-tickets-Sat-Oct-24-2026-Denny-Sanford-Premier-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Owq_",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7703270/Zac-Brown-Band-tickets-Sat-Oct-24-2026-Denny-Sanford-Premier-Center"
   },
   {
     "id": "tm-zac-brown-band-2026-buffalo-k7vgf_dh65dyo",
@@ -159,12 +175,20 @@
         "verified": true,
         "last_verified_at": "2026-10-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7703260",
+        "url": "https://www.ticketliquidator.com/tickets/7703260/Zac-Brown-Band-tickets-Thu-Nov-5-2026-KeyBank-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_dh65dyO",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/zac-brown-band-buffalo-tickets-11-5-2026/event/107136161"
+    "stubhub_international_url": "https://www.stubhub.ie/zac-brown-band-buffalo-tickets-11-5-2026/event/107136161",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7703260/Zac-Brown-Band-tickets-Thu-Nov-5-2026-KeyBank-Center"
   },
   {
     "id": "tm-zac-brown-band-2026-detroit-vv1afzk8vgkdi6e86",
@@ -220,12 +244,20 @@
         "verified": true,
         "last_verified_at": "2026-10-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7703261",
+        "url": "https://www.ticketliquidator.com/tickets/7703261/Zac-Brown-Band-tickets-Fri-Nov-6-2026-Little-Caesars-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk8VGkdI6E86",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/zac-brown-band-detroit-tickets-11-6-2026/event/107138124"
+    "stubhub_international_url": "https://www.stubhub.ie/zac-brown-band-detroit-tickets-11-6-2026/event/107138124",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7703261/Zac-Brown-Band-tickets-Fri-Nov-6-2026-Little-Caesars-Arena"
   },
   {
     "id": "tm-zac-brown-band-2026-lincoln-vv16kzk8wakzacfeeu",
@@ -274,11 +306,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7703262",
+        "url": "https://www.ticketliquidator.com/tickets/7703262/Zac-Brown-Band-tickets-Thu-Nov-19-2026-Pinnacle-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16kZk8wakZACFeeu",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7703262/Zac-Brown-Band-tickets-Thu-Nov-19-2026-Pinnacle-Bank-Arena"
   },
   {
     "id": "tm-zac-brown-band-2026-des-moines-z7r9jz1a7osk3",
@@ -327,11 +367,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7705909",
+        "url": "https://www.ticketliquidator.com/tickets/7705909/Zac-Brown-Band-tickets-Fri-Nov-20-2026-Caseys-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OSk3",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7705909/Zac-Brown-Band-tickets-Fri-Nov-20-2026-Caseys-Center"
   },
   {
     "id": "tm-zac-brown-band-2026-rosemont-vv1a7zk8sgkdldbon",
@@ -387,12 +435,20 @@
         "verified": true,
         "last_verified_at": "2026-10-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7703263",
+        "url": "https://www.ticketliquidator.com/tickets/7703263/Zac-Brown-Band-tickets-Sat-Nov-21-2026-Allstate-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk8sGkdLdbON",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/zac-brown-band-rosemont-tickets-11-21-2026/event/107138123"
+    "stubhub_international_url": "https://www.stubhub.ie/zac-brown-band-rosemont-tickets-11-21-2026/event/107138123",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7703263/Zac-Brown-Band-tickets-Sat-Nov-21-2026-Allstate-Arena"
   },
   {
     "id": "tm-zac-brown-band-2027-milwaukee-vv1a6zkf0gkdpf9tr",

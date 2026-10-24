@@ -382,7 +382,7 @@
         "event_id": 18259792,
         "url": "https://seatgeek.com/morat-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-03-12-8-pm/concert/18259792",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -451,7 +451,7 @@
         "event_id": 18259793,
         "url": "https://seatgeek.com/morat-tickets/sugar-land-texas-smart-financial-centre-2027-03-13-8-pm/concert/18259793",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1704,17 +1704,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107019165",
-        "url": "https://www.stubhub.ie/morat-tickets-valencia-roig-arena-23-10-2026/event/107019165",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1Aofa18",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-valencia-roig-arena-23-10-2026/event/107019165",
+    "stubhub_international_url": "",
     "organizer_names": [
       "Tú lo haces posible, A.I.E."
     ]
@@ -1941,7 +1941,7 @@
         "event_id": 6461623,
         "url": "https://www.vividseats.com/morat-tickets-madrid-movistar-arena---madrid-10-30-2026/production/6461623",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "stubhub": {

@@ -245,6 +245,106 @@ Three machine-owned files sit beside the sources and are never hand-edited:
 
 The browser editor is served from a **separate origin**, `admin.tourticketcompare.com` (`ADMIN_HOST` in `functions/_route-metadata.js`), because the CMS keeps the signed-in user's GitHub token in `localStorage` and `localStorage` is shared across an origin — the apex runs GTM and GA, so an editor there would expose a repository-write credential to any third-party tag or XSS. `functions/_middleware.js` enforces the boundary both ways: the admin host serves only `/admin`, `/admin/*` and `/api/admin/*` (everything else 301s to the apex, and it serves its own `Disallow: /` robots), and every other host 404s those paths. `functions/admin.js` restates the host check at the handler. The OAuth handshake in `functions/api/admin/` exchanges a code for a `public_repo`-scoped user token server-side and fails closed with setup instructions when unconfigured; the editor holds no site credential. It edits two collections, blog posts and buying guides, both of which compile through `content-build.yml`. Authoring reference and one-time setup: `docs/BLOG.md`.
 
+## Internal UK concert activity research
+
+The first research milestone is an offline, internal-only **UK cities with the
+most announced concerts for 2027** report. It does not create a public route,
+blog post, dashboard, scheduled collector or outreach workflow. The existing
+touring-map story stays separate: its publication gates are not reused as
+evidence of national coverage or research rights.
+
+`scripts/lib/uk-concert-activity.mjs` adapts the reviewed event and artist
+catalogues, reusing `_event-local-date.js`, `_cities.js`, the lifecycle hold and
+non-performance filters. It accepts both `human_verified` and
+`machine_high_confidence` event evidence; `needs_recheck` stays excluded.
+Provider-link CTA verification is a separate field and is not treated as the
+event's observation date. The adapter also requires consistent source and
+provider event IDs and URLs. It does not read prices, inventory or D1.
+
+The calculation accepts plain observations and explicit source permissions:
+source/record/event IDs, source URL, original observation date and its precision,
+verification, country, raw/grouped city, venue, artist, event title, exact start,
+venue-local date, concert classification and lifecycle status. A future
+permitted source can map to that shape without changing the production event
+catalogue. Only this report type is implemented. The TTC source permission
+allows internal analysis of existing reviewed records; it grants no new feed,
+public research or archival rights.
+
+Run from a checkout containing the chosen commit:
+
+```bash
+npm run research:uk-concerts -- --revision 04d67ee63ebcc1f69bc629ca093bb0fd80cf0434 --snapshot-at 2026-10-23T18:08:39Z
+npm run test:uk-concert-activity
+```
+
+Supply the actual intended snapshot instant; it must not precede the input
+commit. The command reads committed inputs with `git show`, ignoring dirty
+working-tree data, and records the full revision and SHA-256 input hashes.
+Missing local commits fail without fetching or querying a provider. The pilot's
+exact reproduction command is above.
+Optional `--output /tmp/ttc-uk-review` writes a separate local review copy.
+Output inside the repository is restricted to `reports/`; symlinks into site
+content are refused. The readable `report.md` is internal working copy and is not
+committed: a run writes it beside `report.json`, which contains
+all counted events, source evidence, rankings and excluded-record decisions.
+`replay-inputs.json.gz` contains the exact already-committed input bytes, revision
+and snapshot instant. Each decompressed input must match its recorded SHA-256.
+The consistency test reruns both the adapter and calculations from this fixture
+and compares the entire report, so shallow CI checkouts need no history fetch.
+Git subprocesses set `GIT_NO_LAZY_FETCH=1`; missing partial-clone objects fail
+locally rather than triggering an automatic promisor-remote download.
+Nothing in `reports/` is served by Cloudflare Pages.
+
+Each observation must be no more than 14 days old at the snapshot; a fresh row
+does not refresh older rows. Day-precision dates retain that precision and are
+aged conservatively from the start of that day. Invalid/future observations,
+unknown or held statuses, missing provenance/location/artist/date, unresolved
+times and uncertain concert products are excluded. Classification is based on
+the existing music-artist catalogue with conservative title exclusions, not a
+provider concert taxonomy. Every exclusion has one disposition; outside-UK and
+outside-year rows have summary counts, while other excluded IDs are reviewable.
+Recognized English country labels from the existing TTC inputs form an explicit
+MVP allowlist; missing or new labels have an `unresolved_country` decision until
+reviewed, never an assumed outside-UK classification. Reviewed `ticketmaster.ie`
+links are accepted for Northern Ireland; the recorded country, not the ticket
+domain, determines whether a performance belongs to the UK sample.
+
+Repeated source IDs resolve to the latest observation before filtering; equal
+time conflicts are withheld, and invalid dates block fallback to old evidence.
+Eligible listings then deduplicate by normalized city, venue and exact start
+instant, retaining the eligible source evidence. Different start times count
+separately. Ties use competition ranks and fixed code-point city ordering. No
+AI, estimates, population weighting or market extrapolation enters a figure.
+Venue aliases and uncertain geography remain disclosed limitations, not inferred
+merges. Missing cities are unobserved, never zero-concert cities.
+
+The committed pilot is an internal review artifact over existing repository
+facts, including an exact compressed input fixture, not a fresh provider archive.
+Regeneration keeps its explicit snapshot and source dates; do not describe an
+older report as current. On a source removal
+request, remove the affected projection and regenerate review outputs and their
+input fixture as well as following the existing source-removal process. No new feed payload is kept
+in Git, D1 or artifacts. Research retention and public release must be settled
+before any collector or public asset is enabled; see the
+[research source assessment](PROVIDER_DATA_POLICY.md#research-source-assessment).
+
+An editor can independently group `supporting_events` by city, count rows,
+compare with `rankings`, and open source URLs or the pinned input records. Check
+the exclusion reconciliation, oldest/newest observations, classification and
+geography before using a headline. Regional angles are explicitly withheld
+internal candidates. Publication remains blocked by selected-artist coverage,
+unsettled research rights and the classification/geography review.
+
+For the next milestone, first establish source-specific research, redistribution,
+retention/removal and attribution terms, then obtain and validate a complete
+dated permitted country extract. Record raw/excluded/deduplicated totals and
+country/artist/venue coverage; neither an API key nor a larger row count proves
+representativeness. Success for this MVP is exact reproducibility, reconciliation
+of every input row and independent editorial verification. If later cleared for
+publication, measure earned relevant referring domains, referral visits and
+assisted provider clicks with the existing funnel; there is no public SEO or PR
+performance result to claim from this internal prototype.
+
 ## Data and rendering flow
 
 1. Source records live in `public/data/artists.json`, `catalog.json`, and `events.json` (hand-reviewed, or machine-matched by the gated Ticketmaster lane).

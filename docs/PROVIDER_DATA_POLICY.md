@@ -33,6 +33,43 @@ Only plain `ticketmaster.com` (and allowlisted country-TLD) URLs pass `validateC
 
 ---
 
+## Research source assessment
+
+The internal [UK concert activity prototype](ARCHITECTURE.md#internal-uk-concert-activity-research)
+uses only existing reviewed TTC event facts. The selected-artist catalogue
+cannot establish national market coverage. Its public research, redistribution
+and archival rights have not been established; production event-link permissions
+do not establish those rights.
+
+Feasibility reviewed **2026-10-23** against Ticketmaster's official
+[Discovery Feed 2.0 documentation](https://developer.ticketmaster.com/products-and-docs/apis/discovery-feed/):
+country files include GB in JSON/CSV, accessed with a developer API key. Metadata
+includes update time, event count and checksum. Event IDs, location, dates,
+status and classifications could support a source-scoped extract without TTC's
+artist-roster selection. This remains Ticketmaster ecosystem coverage, not all
+UK concerts. A future adapter must filter music/concerts, reject ancillary and
+multi-day products, resolve duplicate listings and validate geography.
+
+The [General Terms of Use](https://developer.ticketmaster.com/support/terms-of-use/)
+(page dated 2023-06-27, reviewed 2026-10-23) constrain commercial use and caching
+to reasonable service periods, and require requested content removal within
+24 hours. They do not establish TTC's specific research/press redistribution or
+durable snapshot retention rights. Do not infer a fixed 24-hour retention limit
+from the removal deadline. Obtain applicable confirmation before collecting a
+research archive or releasing a report, including attribution and removal terms.
+
+**Owner confirmation, 2026-10-23.** The owner confirmed that research publication, redistribution and archive rights are established, with no issues. That records the owner's statement; it does not test feed entitlement or add approved hosts.
+
+No feed request, download or entitlement test was made for this milestone.
+Runtime key presence does not prove feed entitlement. The documented host is
+`app.ticketmaster.com`, while this task's runtime allows `api.ticketmaster.com`;
+feed metadata may also direct downloads to storage hosts. A permitted collector
+would need the documented host and actual returned download hosts approved in
+the environment configuration, with checksums and complete-extract validation.
+It must stay separate from artist ingestion and must not change affiliate links.
+The MVP therefore ships the internal prototype; source collection and publication
+remain blocked, with no fresh feed data retained.
+
 ## SeatGeek
 
 **Role:** Primary affiliate provider (Impact network). Artist-level and event-level.
@@ -119,7 +156,9 @@ The request set these conditions, and they bind every off-site use:
 
 SeatGeek was also asked and said yes, but it has no numeric price lane, so there is nothing to use. Ticket Liquidator was not asked and stays excluded. As everywhere else, confirmation is never inferred between StubHub International and StubHub US/Canada.
 
-**One site, across cities, in a data story (owner decision 2026-10-18).** The request above named this use in a published data story ("across [N] shows, [provider]'s lowest listed price was ..."), which each programme approved, and the owner confirmed the scope on 2026-10-18. Only in the "same tour, different city" data story (`--story city-prices`, docs/BLOG.md) may one site's figures for different dates of one tour be set side by side, with its highest and lowest city named and the gap between them. Conditions: each figure is the next date in its city on that one site, never a minimum across a city's dates; it passes the live display gate, including that site's buttons rendering in production; it is under 72 hours old and carries its capture time; one country and one currency per tour; no conversion; sites are never compared or ranked. This does not allow on-site "<city> tickets from <price>" claims, which "Ranking stays same-event" below still forbids.
+**One site, across cities, in a data story (owner decision 2026-10-18).** The request above named this use in a published data story ("across [N] shows, [provider]'s lowest listed price was ..."), which each programme approved, and the owner confirmed the scope on 2026-10-18. Only in the "same tour, different city" data story (`--story city-prices`, docs/BLOG.md) and in the single-artist city report below may one site's figures for different dates of one tour be set side by side, with its highest and lowest city named and the gap between them. Conditions: each figure is the next date in its city on that one site, never a minimum across a city's dates; it passes the live display gate, including that site's buttons rendering in production; it is under 72 hours old and carries its capture time; one country and one currency per tour; no conversion; sites are never compared or ranked. This does not allow on-site "<city> tickets from <price>" claims, which "Ranking stays same-event" below still forbids.
+
+**Single-artist city report (owner decision 2026-10-23).** The owner approved the same use for one artist's tour in the artist city research (`--story artist-cities`, docs/BLOG.md), published as `/blog/<artist>-tour-ticket-prices-by-city`. Every condition above applies unchanged, and the build also refuses the report unless 8 or more cities are priced and more than half of the tour's cities in that country are priced; cities left out and other countries' dates are named on the page. It does not allow ranking the dates inside one city, comparing sites, or on-site "<city> tickets from <price>" claims.
 
 This grant covers rights only. A claim about price behaviour, such as prices falling before a show, still needs evidence that meets its own bar, and every automated publish path stays under `SAFE_PUBLISHING_RULES.md`.
 

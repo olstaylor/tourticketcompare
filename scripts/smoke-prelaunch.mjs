@@ -68,10 +68,10 @@ const expectedTitle = new Map([
 ]);
 const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total.";
 const APP_ASSET_VERSION = "20261018a";
-const TTC_HOME_ASSET_VERSION = "20261010a";
+const TTC_HOME_ASSET_VERSION = "20261023b";
 const TTC_HOME_JS_ASSET_VERSION = "20261010a";
-const TTC_SHELL_ASSET_VERSION = "20261010a";
-const SHELL_SCRIPT_ASSET_VERSION = "20261016a";
+const TTC_SHELL_ASSET_VERSION = "20261023b";
+const SHELL_SCRIPT_ASSET_VERSION = "20261023b";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-kHeWCj29Ws6APptXbU360N2/swJwl7jTRo//eaLVdFc=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
@@ -92,15 +92,15 @@ const routeMarkers = new Map([
   ["/artists", "Choose an artist, then pick the date you want to compare ticket prices for."],
   ["/cities", "at least four upcoming shows from at least two artists"],
   ["/on-sale", "Presales from Ticketmaster"],
-  ["/guides", "Compare the total at checkout for that exact ticket"],
+  ["/guides", "Compare the final checkout total, including fees and taxes"],
   ["/guides/vivid-seats-vs-ticketmaster", "A like-for-like purchase checklist"],
   ["/blog", "what a price snapshot does and does not claim"],
   ["/compare-concert-ticket-prices", "open the ones that look good, then check the seats and the final total before you pay"],
-  ["/how-it-works", "A button only goes up when its destination can be confirmed"],
+  ["/how-it-works", "A link must pass the same checks whether it earns a commission or not"],
   ["/currency-converter", "European Central Bank daily reference rates"],
   ["/editorial-policy", "the link has to pass the site's outbound safety checks"],
   ["/affiliate-disclosure", "Whether a link pays has nothing to do with whether it's shown"],
-  ["/about", "it has no say in what gets published"],
+  ["/about", "Earning a commission does not decide whether a checked link is published"],
   ["/contact", "hello@tourticketcompare.com"],
   ["/privacy", "TourTicketCompare sets no cookies of its own"],
   ["/terms", "TourTicketCompare publishes checked artist and event links"]
@@ -1273,7 +1273,7 @@ assert(
   seoGuide.text.includes(`By <a class="text-link" href="/about">TourTicketCompare</a> · Reviewed by <a class="text-link" href="/about/ollie-taylor">Ollie Taylor</a>`),
   "guide raw HTML should expose the site byline and the reviewer, linked to the creator page"
 );
-assert(seoGuide.text.includes("<h2>Sources</h2>"), "guide raw HTML should expose primary sources");
+assert(/<h2\b[^>]*>Sources<\/h2>/.test(seoGuide.text), "guide raw HTML should expose primary sources");
 const seoGuideLd = extractJsonLd(seoGuide.text);
 const seoGuideArticle = seoGuideLd?.["@graph"]?.find((node) => node?.["@type"] === "Article");
 assert(
@@ -1310,15 +1310,15 @@ assert(
 // minus any the body already links, so a new provider guide is not reachable
 // from /guides alone. Guides about no ticket site get no such block.
 const providerLinkedGuide = await routeResponse("/guides/is-vivid-seats-legit");
-assert(providerLinkedGuide.text.includes("<h2>More on Vivid Seats</h2>"), "a single-provider guide should render its More on <provider> block");
+assert(/<h2\b[^>]*>More on Vivid Seats<\/h2>/.test(providerLinkedGuide.text), "a single-provider guide should render its More on <provider> block");
 assert(
   providerLinkedGuide.text.includes('href="/guides/vivid-seats-vs-seatgeek"'),
   "the More on Vivid Seats block should link a Vivid Seats guide the body does not"
 );
 const trioGuide = await routeResponse("/guides/ticketmaster-vs-seatgeek-vs-vivid-seats");
-assert(trioGuide.text.includes("<h2>More on Ticketmaster, SeatGeek and Vivid Seats</h2>"), "a multi-provider guide should name every provider in its block");
+assert(/<h2\b[^>]*>More on Ticketmaster, SeatGeek and Vivid Seats<\/h2>/.test(trioGuide.text), "a multi-provider guide should name every provider in its block");
 const noProviderGuide = await routeResponse("/guides/how-to-avoid-ticket-scams");
-assert(!/<h2>More on /.test(noProviderGuide.text), "a guide about no ticket site should not render a More on <provider> block");
+assert(!/<h2\b[^>]*>More on /.test(noProviderGuide.text), "a guide about no ticket site should not render a More on <provider> block");
 
 // An artist named by published posts links them back (up to three, newest first).
 const smokeBlogContent = JSON.parse(await read("public/data/blog-content.json"));
@@ -1401,7 +1401,7 @@ for (const expectedCopy of [
 ]) {
   assert(pairwiseGuide.text.includes(expectedCopy), `focused guide should cover AI-answer intent: ${expectedCopy}`);
 }
-assert(pairwiseGuide.text.includes("<h2>Sources</h2>"), "focused guide should expose visible primary sources");
+assert(/<h2\b[^>]*>Sources<\/h2>/.test(pairwiseGuide.text), "focused guide should expose visible primary sources");
 const pairwiseLd = extractJsonLd(pairwiseGuide.text);
 const pairwiseArticle = pairwiseLd?.["@graph"]?.find((node) => node?.["@type"] === "Article");
 const pairwiseFaq = pairwiseLd?.["@graph"]?.find((node) => node?.["@type"] === "FAQPage");
@@ -1955,7 +1955,7 @@ const lightweightGuide = await routeResponse("/guides/seatgeek-vs-ticketmaster")
 assert(lightweightGuide.text.includes(`/shell.js?v=${SHELL_SCRIPT_ASSET_VERSION}`), "guide routes must load the shared shell");
 assert(!lightweightGuide.text.includes("/app.js?v="), "guide routes must not load the universal app bundle");
 assert(!lightweightGuide.text.includes("/ttc-home.css?v="), "guide routes must not download homepage presentation CSS");
-assert(serverMorganWithSeatGeek.text.includes("/artist-board.js?v=20261002m"), "artist routes must load only the artist-board route module");
+assert(serverMorganWithSeatGeek.text.includes("/artist-board.js?v=20261023a"), "artist routes must load only the artist-board route module");
 assert(!serverMorganWithSeatGeek.text.includes("/app.js?v="), "artist routes must not load the universal app bundle");
 const converterAssets = await routeResponse("/currency-converter");
 assert(converterAssets.text.includes("/currency-converter.js?v=20260821a"), "currency converter must load its route module");

@@ -179,6 +179,9 @@ export const WATCHED_LANES = [
   // Weekly read-only D1 report against the revenue plan's targets; writes only
   // its rolling issue and runs no validation against main.
   { file: "plan-scoreboard.yml", name: "Plan scoreboard", cadence: "weekly Mon 07:20", maxAgeHours: 8 * 24 + 6, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
+  // Nightly read-only funnel check: D1 SELECTs, Impact Actions GETs and its
+  // rolling issue only; runs no validation against main.
+  { file: "funnel-daily.yml", name: "Nightly funnel check", cadence: "daily 06:40", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
   // Daily show-priority ranking: one D1 table and its rolling issue. Every
   // reader is fail-open, so it validates nothing against main.
   { file: "show-priority.yml", name: "Show priority", cadence: "daily 17:40", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
@@ -728,8 +731,8 @@ if (SELF_TEST) {
   );
   assert.deepEqual(
     WATCHED_LANES.filter((lane) => !lane.sharesMainGate).map((lane) => lane.file).sort(),
-    ["automation-health.yml", "autopublish-digest.yml", "blog-ideas.yml", "generated-freshness.yml", "plan-scoreboard.yml", "pr-validation-head-guard.yml", "price-coverage-report.yml", "price-guide-candidates.yml", "seo-opportunities.yml", "show-priority.yml", "site-health.yml"],
-    "the sensors, digest, editorial screen, coverage report, site health, scoreboard, show-priority ranking and SEO report are excluded from writer correlation"
+    ["automation-health.yml", "autopublish-digest.yml", "blog-ideas.yml", "funnel-daily.yml", "generated-freshness.yml", "plan-scoreboard.yml", "pr-validation-head-guard.yml", "price-coverage-report.yml", "price-guide-candidates.yml", "seo-opportunities.yml", "show-priority.yml", "site-health.yml"],
+    "the sensors, digest, editorial screen, coverage report, site health, scoreboard, funnel check, show-priority ranking and SEO report are excluded from writer correlation"
   );
   // GitHub accepts either extension for a workflow file, so the coverage scan
   // below must recognise both or a scheduled `.yaml` lane slips past it.

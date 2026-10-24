@@ -1,0 +1,6208 @@
+{
+  "schema_version": 1,
+  "report_id": "uk-concert-activity-2027",
+  "title": "UK cities with the most announced concerts for 2027 — TTC catalogue sample (internal prototype)",
+  "snapshot_at": "2026-10-23T18:08:39Z",
+  "snapshot_basis": "Repository inspection; not a simultaneous live provider check",
+  "scope": {
+    "country": "United Kingdom",
+    "venue_local_year": 2027,
+    "counting_unit": "Distinct scheduled concert performance",
+    "max_observation_age_days": 14
+  },
+  "publication": {
+    "status": "internal_only",
+    "blockers": [
+      "Insufficient UK geographic and artist coverage",
+      "Research publication and retention rights not established",
+      "Concert classification and city boundaries require editorial validation"
+    ]
+  },
+  "sources": [
+    {
+      "id": "ttc-reviewed-catalogue",
+      "attribution": "TTC reviewed catalogue; original event evidence: Ticketmaster",
+      "allowed_hosts": [
+        "www.ticketmaster.co.uk",
+        "www.ticketmaster.com",
+        "ticketmaster.co.uk",
+        "ticketmaster.com",
+        "www.ticketmaster.ie",
+        "ticketmaster.ie"
+      ],
+      "internal_analysis_permitted": true,
+      "public_research_rights": "not_established",
+      "coverage": "Selected TTC music artists and reviewed events, not a country-wide feed.",
+      "observation_basis": "Stored event last_verified_at (day precision), not a fresh API check. Record verification is separate from provider-link CTA flags."
+    }
+  ],
+  "coverage": {
+    "input_observations": 4025,
+    "uk_input_observations": 327,
+    "uk_2027_dated_observations": 218,
+    "uk_unresolved_date_observations": 9,
+    "counted_concerts": 206,
+    "represented_cities": 15,
+    "represented_artists": 43,
+    "represented_venues": 64,
+    "oldest_counted_observation": "2026-10-15",
+    "newest_counted_observation": "2026-10-21",
+    "uk_market_coverage_percent": null,
+    "excluded_observations": {
+      "invalid_observation_date": 9,
+      "outside_2027": 100,
+      "outside_uk": 3698,
+      "stale_observation": 9,
+      "unconfirmed_or_non_concert": 1,
+      "unverified": 2
+    }
+  },
+  "headline": "Within this TTC catalogue sample, London leads with 70 recorded 2027 concerts.",
+  "rankings": [
+    {
+      "city": "London",
+      "concert_count": 70,
+      "venue_count": 16,
+      "artist_count": 37,
+      "rank": 1
+    },
+    {
+      "city": "Manchester",
+      "concert_count": 48,
+      "venue_count": 12,
+      "artist_count": 30,
+      "rank": 2
+    },
+    {
+      "city": "Glasgow",
+      "concert_count": 35,
+      "venue_count": 11,
+      "artist_count": 27,
+      "rank": 3
+    },
+    {
+      "city": "Birmingham",
+      "concert_count": 18,
+      "venue_count": 5,
+      "artist_count": 18,
+      "rank": 4
+    },
+    {
+      "city": "Cardiff",
+      "concert_count": 7,
+      "venue_count": 4,
+      "artist_count": 7,
+      "rank": 5
+    },
+    {
+      "city": "Stevenage",
+      "concert_count": 6,
+      "venue_count": 1,
+      "artist_count": 1,
+      "rank": 6
+    },
+    {
+      "city": "Belfast",
+      "concert_count": 4,
+      "venue_count": 3,
+      "artist_count": 4,
+      "rank": 7
+    },
+    {
+      "city": "Edinburgh",
+      "concert_count": 4,
+      "venue_count": 2,
+      "artist_count": 3,
+      "rank": 7
+    },
+    {
+      "city": "Leeds",
+      "concert_count": 4,
+      "venue_count": 2,
+      "artist_count": 4,
+      "rank": 7
+    },
+    {
+      "city": "Newcastle Upon Tyne",
+      "concert_count": 4,
+      "venue_count": 3,
+      "artist_count": 4,
+      "rank": 7
+    },
+    {
+      "city": "Nottingham",
+      "concert_count": 2,
+      "venue_count": 1,
+      "artist_count": 2,
+      "rank": 11
+    },
+    {
+      "city": "Brighton",
+      "concert_count": 1,
+      "venue_count": 1,
+      "artist_count": 1,
+      "rank": 12
+    },
+    {
+      "city": "Bristol",
+      "concert_count": 1,
+      "venue_count": 1,
+      "artist_count": 1,
+      "rank": 12
+    },
+    {
+      "city": "Exeter",
+      "concert_count": 1,
+      "venue_count": 1,
+      "artist_count": 1,
+      "rank": 12
+    },
+    {
+      "city": "Liverpool",
+      "concert_count": 1,
+      "venue_count": 1,
+      "artist_count": 1,
+      "rank": 12
+    }
+  ],
+  "methodology": [
+    "Read the pinned repository revision and record SHA-256 hashes of both inputs. Keep the snapshot time separate from original observation dates.",
+    "Resolve repeated source IDs using the latest observation before eligibility; conflicting equal-time observations are withheld. An invalid observation date blocks fallback to an older row.",
+    "Count only permitted, verified UK concert observations with complete provenance, artist, venue, city, exact start and venue-local 2027 date; exclude held/unknown statuses and each stale or future-dated observation.",
+    "Collapse identical city/venue/start performances, retaining all eligible source evidence. Count separate dates and same-day performances with different start instants separately.",
+    "Rank by distinct concert count descending; ties share competition rank (1, 1, 3) and sort by city using fixed code-point order. All supporting events and exclusions are supplied for verification."
+  ],
+  "limitations": [
+    "Selected TTC artist coverage is not the UK concert market. Unrepresented cities are unobserved, not zero-concert cities.",
+    "Counts describe recorded scheduled performances in 2027, known at the repository snapshot; they are not announcements made during 2027, attendance, demand, inventory or affordability.",
+    "Classification uses the reviewed music-artist catalogue and conservative title exclusions, not a provider concert taxonomy. Festivals, multi-day and uncertain products are excluded; manual classification review is still needed.",
+    "City labels reuse TTC location normalization, not official city boundaries or population areas. No new geographic or regional assignments are inferred.",
+    "Deduplication uses source IDs, then normalized city, venue and exact start instant. Venue aliases and differing doors/start times can leave duplicates; same-time listings at a venue collapse conservatively.",
+    "Stored verification dates are day precision and are not current live API checks. Every counted observation must be at most 14 days old at the snapshot; time-TBA and unresolved dates are excluded.",
+    "Research publication, redistribution and archive rights are not established. Output is for internal review only; no feed data was collected or retained."
+  ],
+  "regional_pr_angles": [
+    {
+      "city": "London",
+      "status": "internal_candidate_do_not_pitch",
+      "angle": "London: a local 2027 concert-planning story could examine the 70 recorded performances from 37 artists across 16 venues in this TTC sample. Verify the programme with those venues.",
+      "caveat": "No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required."
+    },
+    {
+      "city": "Manchester",
+      "status": "internal_candidate_do_not_pitch",
+      "angle": "Manchester: a local 2027 concert-planning story could examine the 48 recorded performances from 30 artists across 12 venues in this TTC sample. Verify the programme with those venues.",
+      "caveat": "No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required."
+    },
+    {
+      "city": "Glasgow",
+      "status": "internal_candidate_do_not_pitch",
+      "angle": "Glasgow: a local 2027 concert-planning story could examine the 35 recorded performances from 27 artists across 11 venues in this TTC sample. Verify the programme with those venues.",
+      "caveat": "No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required."
+    },
+    {
+      "city": "Birmingham",
+      "status": "internal_candidate_do_not_pitch",
+      "angle": "Birmingham: a local 2027 concert-planning story could examine the 18 recorded performances from 18 artists across 5 venues in this TTC sample. Verify the programme with those venues.",
+      "caveat": "No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required."
+    },
+    {
+      "city": "Cardiff",
+      "status": "internal_candidate_do_not_pitch",
+      "angle": "Cardiff: a local 2027 concert-planning story could examine the 7 recorded performances from 7 artists across 4 venues in this TTC sample. Verify the programme with those venues.",
+      "caveat": "No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required."
+    },
+    {
+      "city": "Stevenage",
+      "status": "internal_candidate_do_not_pitch",
+      "angle": "Stevenage: one tracked artist accounts for this sample's 6 performances. Explore the confirmed run of dates with the venue before developing a local programme story.",
+      "caveat": "No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required."
+    },
+    {
+      "city": "Belfast",
+      "status": "internal_candidate_do_not_pitch",
+      "angle": "Belfast: a local 2027 concert-planning story could examine the 4 recorded performances from 4 artists across 3 venues in this TTC sample. Verify the programme with those venues.",
+      "caveat": "No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required."
+    },
+    {
+      "city": "Edinburgh",
+      "status": "internal_candidate_do_not_pitch",
+      "angle": "Edinburgh: a local 2027 concert-planning story could examine the 4 recorded performances from 3 artists across 2 venues in this TTC sample. Verify the programme with those venues.",
+      "caveat": "No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required."
+    },
+    {
+      "city": "Leeds",
+      "status": "internal_candidate_do_not_pitch",
+      "angle": "Leeds: a local 2027 concert-planning story could examine the 4 recorded performances from 4 artists across 2 venues in this TTC sample. Verify the programme with those venues.",
+      "caveat": "No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required."
+    },
+    {
+      "city": "Newcastle Upon Tyne",
+      "status": "internal_candidate_do_not_pitch",
+      "angle": "Newcastle Upon Tyne: a local 2027 concert-planning story could examine the 4 recorded performances from 4 artists across 3 venues in this TTC sample. Verify the programme with those venues.",
+      "caveat": "No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required."
+    },
+    {
+      "city": "Nottingham",
+      "status": "internal_candidate_do_not_pitch",
+      "angle": "Nottingham: a local 2027 concert-planning story could examine the 2 recorded performances from 2 artists across 1 venues in this TTC sample. Verify the programme with those venues.",
+      "caveat": "No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required."
+    },
+    {
+      "city": "Brighton",
+      "status": "internal_candidate_do_not_pitch",
+      "angle": "Brighton: one tracked artist accounts for this sample's 1 performances. Explore the confirmed run of dates with the venue before developing a local programme story.",
+      "caveat": "No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required."
+    },
+    {
+      "city": "Bristol",
+      "status": "internal_candidate_do_not_pitch",
+      "angle": "Bristol: one tracked artist accounts for this sample's 1 performances. Explore the confirmed run of dates with the venue before developing a local programme story.",
+      "caveat": "No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required."
+    },
+    {
+      "city": "Exeter",
+      "status": "internal_candidate_do_not_pitch",
+      "angle": "Exeter: one tracked artist accounts for this sample's 1 performances. Explore the confirmed run of dates with the venue before developing a local programme story.",
+      "caveat": "No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required."
+    },
+    {
+      "city": "Liverpool",
+      "status": "internal_candidate_do_not_pitch",
+      "angle": "Liverpool: one tracked artist accounts for this sample's 1 performances. Explore the confirmed run of dates with the venue before developing a local programme story.",
+      "caveat": "No regional winner, national superlative or popularity claim is supported. Broader coverage and publication rights are required."
+    }
+  ],
+  "supporting_events": [
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "AO Arena",
+      "local_date": "2027-01-16",
+      "starts_at": "2027-01-16T18:00:00.000Z",
+      "artists": [
+        "Five Finger Death Punch"
+      ],
+      "artist_ids": [
+        "five-finger-death-punch"
+      ],
+      "event_names": [
+        "Five Finger Death Punch - 20th Anniversary World Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-five-finger-death-punch-2027-manchester-g5vhz_gnh6q4f",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F0064CABC1DA554",
+          "source_url": "https://www.ticketmaster.co.uk/five-finger-death-punch-20th-anniversary-manchester-16-01-2027/event/1F0064CABC1DA554",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "OVO Hydro",
+      "local_date": "2027-01-17",
+      "starts_at": "2027-01-17T18:30:00.000Z",
+      "artists": [
+        "Five Finger Death Punch"
+      ],
+      "artist_ids": [
+        "five-finger-death-punch"
+      ],
+      "event_names": [
+        "Five Finger Death Punch"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-five-finger-death-punch-2027-glasgow-1adbz_agkuc9oes",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3600649D8E5D19F1",
+          "source_url": "https://www.ticketmaster.co.uk/five-finger-death-punch-glasgow-17-01-2027/event/3600649D8E5D19F1",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "Galvanizers SWG3",
+      "local_date": "2027-01-18",
+      "starts_at": "2027-01-18T19:00:00.000Z",
+      "artists": [
+        "Saint Levant"
+      ],
+      "artist_ids": [
+        "saint-levant"
+      ],
+      "event_names": [
+        "Saint Levant - AFANDI WORLD TOUR"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-saint-levant-2027-glasgow-1adbz_fgkb_vncq",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3600654E99D23B5D",
+          "source_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-glasgow-18-01-2027/event/3600654E99D23B5D",
+          "observed_at": "2026-10-21",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "O2 Ritz Manchester",
+      "local_date": "2027-01-20",
+      "starts_at": "2027-01-20T19:00:00.000Z",
+      "artists": [
+        "Saint Levant"
+      ],
+      "artist_ids": [
+        "saint-levant"
+      ],
+      "event_names": [
+        "Saint Levant - AFANDI WORLD TOUR"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-saint-levant-2027-manchester-g5dzz_fbnzksb",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00654EA3E13C7A",
+          "source_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-manchester-20-01-2027/event/3E00654EA3E13C7A",
+          "observed_at": "2026-10-20",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "Eventim Apollo",
+      "local_date": "2027-01-21",
+      "starts_at": "2027-01-21T19:00:00.000Z",
+      "artists": [
+        "Saint Levant"
+      ],
+      "artist_ids": [
+        "saint-levant"
+      ],
+      "event_names": [
+        "Saint Levant - AFANDI WORLD TOUR"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-saint-levant-2027-london-1auzk48gkdxoa9q",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "36006550E24495DA",
+          "source_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-london-21-01-2027/event/36006550E24495DA",
+          "observed_at": "2026-10-21",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Birmingham",
+      "raw_city_labels": [
+        "Birmingham"
+      ],
+      "venue": "bp pulse LIVE",
+      "local_date": "2027-01-22",
+      "starts_at": "2027-01-22T18:00:00.000Z",
+      "artists": [
+        "Five Finger Death Punch"
+      ],
+      "artist_ids": [
+        "five-finger-death-punch"
+      ],
+      "event_names": [
+        "Five Finger Death Punch"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-five-finger-death-punch-2027-birmingham-1anzk3bgkev6s0s",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "23006498B41F1933",
+          "source_url": "https://www.ticketmaster.co.uk/five-finger-death-punch-birmingham-22-01-2027/event/23006498B41F1933",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-01-23",
+      "starts_at": "2027-01-23T18:30:00.000Z",
+      "artists": [
+        "Five Finger Death Punch"
+      ],
+      "artist_ids": [
+        "five-finger-death-punch"
+      ],
+      "event_names": [
+        "Five Finger Death Punch"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-five-finger-death-punch-2027-london-1agzk3bgkdreu6-",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "35006498EF9F61E1",
+          "source_url": "https://www.ticketmaster.co.uk/five-finger-death-punch-london-23-01-2027/event/35006498EF9F61E1",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Birmingham",
+      "raw_city_labels": [
+        "Birmingham"
+      ],
+      "venue": "O2 Academy Birmingham",
+      "local_date": "2027-01-26",
+      "starts_at": "2027-01-26T19:00:00.000Z",
+      "artists": [
+        "The Psychedelic Furs"
+      ],
+      "artist_ids": [
+        "the-psychedelic-furs"
+      ],
+      "event_names": [
+        "The Psychedelic Furs + The Jesus & Mary Chain"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-the-psychedelic-furs-2027-birmingham-g5dzz_kk-v07y",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E006531A1D24130",
+          "source_url": "https://www.ticketmaster.co.uk/the-psychedelic-furs-the-jesus-mary-birmingham-26-01-2027/event/3E006531A1D24130",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Albert Hall",
+      "local_date": "2027-01-28",
+      "starts_at": "2027-01-28T19:00:00.000Z",
+      "artists": [
+        "Sylvan Esso"
+      ],
+      "artist_ids": [
+        "sylvan-esso"
+      ],
+      "event_names": [
+        "Sylvan Esso"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-sylvan-esso-2027-manchester-g5vhz_fudi7pq",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F00654DBBB0495D",
+          "source_url": "https://www.ticketmaster.co.uk/sylvan-esso-manchester-28-01-2027/event/1F00654DBBB0495D",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "British Airways ARC",
+      "local_date": "2027-01-29",
+      "starts_at": "2027-01-29T18:30:00.000Z",
+      "artists": [
+        "The Psychedelic Furs"
+      ],
+      "artist_ids": [
+        "the-psychedelic-furs"
+      ],
+      "event_names": [
+        "The Psychedelic Furs + The Jesus & Mary Chain"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-the-psychedelic-furs-2027-london-1amzkfwgkeiysgf",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "37006532ACE73314",
+          "source_url": "https://www.ticketmaster.co.uk/the-psychedelic-furs-the-jesus-mary-london-29-01-2027/event/37006532ACE73314",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "Troxy",
+      "local_date": "2027-01-29",
+      "starts_at": "2027-01-29T19:00:00.000Z",
+      "artists": [
+        "Sylvan Esso"
+      ],
+      "artist_ids": [
+        "sylvan-esso"
+      ],
+      "event_names": [
+        "Sylvan Esso"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-sylvan-esso-2027-london-g5dzz_fua9vy_",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00654D895C1C19",
+          "source_url": "https://www.ticketmaster.co.uk/sylvan-esso-london-29-01-2027/event/3E00654D895C1C19",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "Glasgow Garage",
+      "local_date": "2027-02-01",
+      "starts_at": "2027-02-01T19:00:00.000Z",
+      "artists": [
+        "VNV Nation"
+      ],
+      "artist_ids": [
+        "vnv-nation"
+      ],
+      "event_names": [
+        "VNV Nation"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-vnv-nation-2027-glasgow-16dbzbuq4g7ljkl",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3600636695AE61AB",
+          "source_url": "https://www.ticketmaster.co.uk/vnv-nation-glasgow-01-02-2027/event/3600636695AE61AB",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Manchester Academy",
+      "local_date": "2027-02-01",
+      "starts_at": "2027-02-01T19:00:00.000Z",
+      "artists": [
+        "Mico"
+      ],
+      "artist_ids": [
+        "mico"
+      ],
+      "event_names": [
+        "MICO"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-mico-2027-manchester-g5vhz_flmnkjc",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F006547F78C69AD",
+          "source_url": "https://www.ticketmaster.co.uk/mico-manchester-01-02-2027/event/1F006547F78C69AD",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Nottingham",
+      "raw_city_labels": [
+        "Nottingham"
+      ],
+      "venue": "Motorpoint Arena Nottingham",
+      "local_date": "2027-02-04",
+      "starts_at": "2027-02-04T18:30:00.000Z",
+      "artists": [
+        "Nothing But Thieves"
+      ],
+      "artist_ids": [
+        "nothing-but-thieves"
+      ],
+      "event_names": [
+        "Nothing But Thieves"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-nothing-but-thieves-2027-nottingham-17u8v0g65hxepmr",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "350064B6E20A5DEF",
+          "source_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-nottingham-04-02-2027/event/350064B6E20A5DEF",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "Roundhouse",
+      "local_date": "2027-02-04",
+      "starts_at": "2027-02-04T19:00:00.000Z",
+      "artists": [
+        "Mico"
+      ],
+      "artist_ids": [
+        "mico"
+      ],
+      "event_names": [
+        "MICO"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-mico-2027-london-g5vhz_fjlqa3s",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F0065472B6894B1",
+          "source_url": "https://www.ticketmaster.co.uk/mico-london-04-02-2027/event/1F0065472B6894B1",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-02-05",
+      "starts_at": "2027-02-05T18:30:00.000Z",
+      "artists": [
+        "Nothing But Thieves"
+      ],
+      "artist_ids": [
+        "nothing-but-thieves"
+      ],
+      "event_names": [
+        "Nothing But Thieves"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-nothing-but-thieves-2027-london-17u8v0g65h5y7dp",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "350064B6CBC04ED6",
+          "source_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-london-05-02-2027/event/350064B6CBC04ED6",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Cardiff",
+      "raw_city_labels": [
+        "Cardiff"
+      ],
+      "venue": "Utilita Arena Cardiff",
+      "local_date": "2027-02-08",
+      "starts_at": "2027-02-08T18:30:00.000Z",
+      "artists": [
+        "Nothing But Thieves"
+      ],
+      "artist_ids": [
+        "nothing-but-thieves"
+      ],
+      "event_names": [
+        "Nothing But Thieves: THE STRAY DOGS WORLD TOUR"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-nothing-but-thieves-2027-cardiff-17uov0g65qps55o",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "360064B6A5CCB2E0",
+          "source_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-the-stray-dogs-cardiff-08-02-2027/event/360064B6A5CCB2E0",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "OVO Hydro",
+      "local_date": "2027-02-10",
+      "starts_at": "2027-02-10T18:30:00.000Z",
+      "artists": [
+        "Nothing But Thieves"
+      ],
+      "artist_ids": [
+        "nothing-but-thieves"
+      ],
+      "event_names": [
+        "Nothing But Thieves - The Stray Dogs World Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-nothing-but-thieves-2027-glasgow-17uov0g65qojiik",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "360064B691728A06",
+          "source_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-the-stray-dogs-glasgow-10-02-2027/event/360064B691728A06",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Co-op Live",
+      "local_date": "2027-02-12",
+      "starts_at": "2027-02-12T19:30:00.000Z",
+      "artists": [
+        "Nothing But Thieves"
+      ],
+      "artist_ids": [
+        "nothing-but-thieves"
+      ],
+      "event_names": [
+        "Nothing But Thieves"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-nothing-but-thieves-2027-manchester-17uyv0g65hofvrj",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "370064B6E02347A6",
+          "source_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-manchester-12-02-2027/event/370064B6E02347A6",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Birmingham",
+      "raw_city_labels": [
+        "Birmingham"
+      ],
+      "venue": "bp pulse LIVE",
+      "local_date": "2027-02-13",
+      "starts_at": "2027-02-13T19:00:00.000Z",
+      "artists": [
+        "Nothing But Thieves"
+      ],
+      "artist_ids": [
+        "nothing-but-thieves"
+      ],
+      "event_names": [
+        "Nothing But Thieves"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-nothing-but-thieves-2027-birmingham-17fyv0g65h43oux",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "230064B6D5491DBE",
+          "source_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-birmingham-13-02-2027/event/230064B6D5491DBE",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Co-op Live",
+      "local_date": "2027-02-17",
+      "starts_at": "2027-02-17T19:30:00.000Z",
+      "artists": [
+        "Charli xcx"
+      ],
+      "artist_ids": [
+        "charli-xcx"
+      ],
+      "event_names": [
+        "Charli xcx - Music, Fashion, Film Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-charli-xcx-2027-manchester-1amzkfegkdf5asp",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "37006527D42C5C65",
+          "source_url": "https://www.ticketmaster.co.uk/charli-xcx-music-fashion-film-tour-manchester-17-02-2027/event/37006527D42C5C65",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "O2 Academy Brixton",
+      "local_date": "2027-02-18",
+      "starts_at": "2027-02-18T19:00:00.000Z",
+      "artists": [
+        "Dylan Gossett"
+      ],
+      "artist_ids": [
+        "dylan-gossett"
+      ],
+      "event_names": [
+        "Dylan Gossett"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-dylan-gossett-2027-london-g5dzz_8kn_3tz",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E006504EA652A78",
+          "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-london-18-02-2027/event/3E006504EA652A78",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-02-19",
+      "starts_at": "2027-02-19T18:30:00.000Z",
+      "artists": [
+        "Charli xcx"
+      ],
+      "artist_ids": [
+        "charli-xcx"
+      ],
+      "event_names": [
+        "Charli xcx - Music, Fashion, Film Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-charli-xcx-2027-london-1agzkfigkenre1t",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "35006528AA7822A9",
+          "source_url": "https://www.ticketmaster.co.uk/charli-xcx-music-fashion-film-tour-london-19-02-2027/event/35006528AA7822A9",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "O2 Victoria Warehouse Manchester",
+      "local_date": "2027-02-19",
+      "starts_at": "2027-02-19T19:00:00.000Z",
+      "artists": [
+        "Dylan Gossett"
+      ],
+      "artist_ids": [
+        "dylan-gossett"
+      ],
+      "event_names": [
+        "Dylan Gossett - Ramblin' Eu/Uk Tour 2027"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-dylan-gossett-2027-manchester-g5dzz_8hqwevt",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E006506DDF4207F",
+          "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-manchester-19-02-2027/event/3E006506DDF4207F",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-02-20",
+      "starts_at": "2027-02-20T18:30:00.000Z",
+      "artists": [
+        "Charli xcx"
+      ],
+      "artist_ids": [
+        "charli-xcx"
+      ],
+      "event_names": [
+        "Charli xcx - Music, Fashion, Film Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-charli-xcx-2027-london-1adfz_3gknni7-u",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500652AA3A04876",
+          "source_url": "https://www.ticketmaster.co.uk/charli-xcx-music-fashion-film-tour-london-20-02-2027/event/3500652AA3A04876",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Birmingham",
+      "raw_city_labels": [
+        "Birmingham"
+      ],
+      "venue": "O2 Academy Birmingham",
+      "local_date": "2027-02-21",
+      "starts_at": "2027-02-21T19:00:00.000Z",
+      "artists": [
+        "Dylan Gossett"
+      ],
+      "artist_ids": [
+        "dylan-gossett"
+      ],
+      "event_names": [
+        "Dylan Gossett"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-dylan-gossett-2027-birmingham-g5dzz_83l8ohz",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E006504AB4116C0",
+          "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-birmingham-21-02-2027/event/3E006504AB4116C0",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Manchester Academy 2",
+      "local_date": "2027-02-21",
+      "starts_at": "2027-02-21T19:00:00.000Z",
+      "artists": [
+        "Haiden Henderson"
+      ],
+      "artist_ids": [
+        "haiden-henderson"
+      ],
+      "event_names": [
+        "Haiden Henderson - The Dumblond Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-haiden-henderson-2027-manchester-g5vhz_kduqskh",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F006530CD6B31BC",
+          "source_url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-manchester-21-02-2027/event/1F006530CD6B31BC",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "OVO Hydro",
+      "local_date": "2027-02-22",
+      "starts_at": "2027-02-22T18:30:00.000Z",
+      "artists": [
+        "Kacey Musgraves"
+      ],
+      "artist_ids": [
+        "kacey-musgraves"
+      ],
+      "event_names": [
+        "Kacey Musgraves"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-kacey-musgraves-2027-glasgow-1adbz_agkdqknt2",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3600649EDD1A3FCF",
+          "source_url": "https://www.ticketmaster.co.uk/kacey-musgraves-glasgow-22-02-2027/event/3600649EDD1A3FCF",
+          "observed_at": "2026-10-20",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Edinburgh",
+      "raw_city_labels": [
+        "Edinburgh"
+      ],
+      "venue": "Edinburgh Corn Exchange",
+      "local_date": "2027-02-22",
+      "starts_at": "2027-02-22T19:00:00.000Z",
+      "artists": [
+        "Sienna Spiro"
+      ],
+      "artist_ids": [
+        "sienna-spiro"
+      ],
+      "event_names": [
+        "SIENNA SPIRO"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-sienna-spiro-2027-edinburgh-g5dzz_g3xlvct",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E0064C4A2AF43A9",
+          "source_url": "https://www.ticketmaster.co.uk/sienna-spiro-edinburgh-22-02-2027/event/3E0064C4A2AF43A9",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Edinburgh",
+      "raw_city_labels": [
+        "Edinburgh"
+      ],
+      "venue": "Edinburgh Corn Exchange",
+      "local_date": "2027-02-23",
+      "starts_at": "2027-02-23T19:00:00.000Z",
+      "artists": [
+        "Sienna Spiro"
+      ],
+      "artist_ids": [
+        "sienna-spiro"
+      ],
+      "event_names": [
+        "SIENNA SPIRO"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-sienna-spiro-2027-edinburgh-g5dzz_g3jtvqc",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E0064C4A6FF476D",
+          "source_url": "https://www.ticketmaster.co.uk/sienna-spiro-edinburgh-23-02-2027/event/3E0064C4A6FF476D",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "O2 Academy Glasgow",
+      "local_date": "2027-02-23",
+      "starts_at": "2027-02-23T19:00:00.000Z",
+      "artists": [
+        "Dylan Gossett"
+      ],
+      "artist_ids": [
+        "dylan-gossett"
+      ],
+      "event_names": [
+        "Dylan Gossett - Ramblin' Eu/Uk Tour 2027"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-dylan-gossett-2027-glasgow-g5dzz_8pg5sb3",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E006505B52F1612",
+          "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-23-02-2027/event/3E006505B52F1612",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "Electric Ballroom",
+      "local_date": "2027-02-23",
+      "starts_at": "2027-02-23T19:00:00.000Z",
+      "artists": [
+        "Haiden Henderson"
+      ],
+      "artist_ids": [
+        "haiden-henderson"
+      ],
+      "event_names": [
+        "Haiden Henderson - The Dumblond Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-haiden-henderson-2027-london-g5vhz_kew3xpo",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F006530BD4A2960",
+          "source_url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-london-23-02-2027/event/1F006530BD4A2960",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "AO Arena",
+      "local_date": "2027-02-24",
+      "starts_at": "2027-02-24T18:00:00.000Z",
+      "artists": [
+        "Kacey Musgraves"
+      ],
+      "artist_ids": [
+        "kacey-musgraves"
+      ],
+      "event_names": [
+        "Kacey Musgraves"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-kacey-musgraves-2027-manchester-g5vhz_gkaityt",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F0064C4C9B29E69",
+          "source_url": "https://www.ticketmaster.co.uk/kacey-musgraves-manchester-24-02-2027/event/1F0064C4C9B29E69",
+          "observed_at": "2026-10-20",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Cardiff",
+      "raw_city_labels": [
+        "Cardiff"
+      ],
+      "venue": "Tramshed",
+      "local_date": "2027-02-24",
+      "starts_at": "2027-02-24T19:00:00.000Z",
+      "artists": [
+        "Haiden Henderson"
+      ],
+      "artist_ids": [
+        "haiden-henderson"
+      ],
+      "event_names": [
+        "Haiden Henderson - The Dumblond Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-haiden-henderson-2027-cardiff-g5vhz_kdajwvp",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F006530C5732D16",
+          "source_url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-cardiff-24-02-2027/event/1F006530C5732D16",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "O2 Academy Glasgow",
+      "local_date": "2027-02-24",
+      "starts_at": "2027-02-24T19:00:00.000Z",
+      "artists": [
+        "Dylan Gossett"
+      ],
+      "artist_ids": [
+        "dylan-gossett"
+      ],
+      "event_names": [
+        "Dylan Gossett - Ramblin' Eu/Uk Tour 2027"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-dylan-gossett-2027-glasgow-g5dzz_8qwdoqp",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E006506B20D1765",
+          "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-24-02-2027/event/3E006506B20D1765",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Birmingham",
+      "raw_city_labels": [
+        "Birmingham"
+      ],
+      "venue": "O2 Institute2 Birmingham",
+      "local_date": "2027-02-25",
+      "starts_at": "2027-02-25T19:00:00.000Z",
+      "artists": [
+        "Haiden Henderson"
+      ],
+      "artist_ids": [
+        "haiden-henderson"
+      ],
+      "event_names": [
+        "Haiden Henderson - The Dumblond Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-haiden-henderson-2027-birmingham-g5dzz_ke9h3b2",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E006530976D260F",
+          "source_url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-birmingham-25-02-2027/event/3E006530976D260F",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "Barrowland Ballroom",
+      "local_date": "2027-02-25",
+      "starts_at": "2027-02-25T19:00:00.000Z",
+      "artists": [
+        "Malcolm Todd"
+      ],
+      "artist_ids": [
+        "malcolm-todd"
+      ],
+      "event_names": [
+        "Malcolm Todd: Do That Again Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-malcolm-todd-2027-glasgow-1adbz_3gknizpvr",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3600652AA8E1605E",
+          "source_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-glasgow-25-02-2027/event/3600652AA8E1605E",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "OVO Arena Wembley",
+      "local_date": "2027-02-26",
+      "starts_at": "2027-02-26T18:30:00.000Z",
+      "artists": [
+        "Kacey Musgraves"
+      ],
+      "artist_ids": [
+        "kacey-musgraves"
+      ],
+      "event_names": [
+        "Kacey Musgraves"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-kacey-musgraves-2027-london-1adjz_agkmwrf6s",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3700649DF2BC81F3",
+          "source_url": "https://www.ticketmaster.co.uk/kacey-musgraves-london-26-02-2027/event/3700649DF2BC81F3",
+          "observed_at": "2026-10-20",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-02-27",
+      "starts_at": "2027-02-27T18:30:00.000Z",
+      "artists": [
+        "John Summit"
+      ],
+      "artist_ids": [
+        "john-summit"
+      ],
+      "event_names": [
+        "JOHN SUMMIT - EUROPE CTRL ESCAPE ARENA TOUR"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-john-summit-2027-london-1agzk4egkdwrmjf",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "35006542F27AE994",
+          "source_url": "https://www.ticketmaster.co.uk/john-summit-europe-ctrl-escape-arena-london-27-02-2027/event/35006542F27AE994",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Birmingham",
+      "raw_city_labels": [
+        "Birmingham"
+      ],
+      "venue": "O2 Academy Birmingham",
+      "local_date": "2027-02-27",
+      "starts_at": "2027-02-27T19:00:00.000Z",
+      "artists": [
+        "Malcolm Todd"
+      ],
+      "artist_ids": [
+        "malcolm-todd"
+      ],
+      "event_names": [
+        "Malcolm Todd: Do That Again Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-malcolm-todd-2027-birmingham-g5dzz_3nh3wrn",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00652A9B4B2BE3",
+          "source_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-birmingham-27-02-2027/event/3E00652A9B4B2BE3",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "O2 Apollo Manchester",
+      "local_date": "2027-02-28",
+      "starts_at": "2027-02-28T19:00:00.000Z",
+      "artists": [
+        "Malcolm Todd"
+      ],
+      "artist_ids": [
+        "malcolm-todd"
+      ],
+      "event_names": [
+        "Malcolm Todd: Do That Again Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-malcolm-todd-2027-manchester-1adbz_3gknvr9ad",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3600652AB4BD7243",
+          "source_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-manchester-28-02-2027/event/3600652AB4BD7243",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "O2 Apollo Manchester",
+      "local_date": "2027-03-01",
+      "starts_at": "2027-03-01T19:00:00.000Z",
+      "artists": [
+        "Sienna Spiro"
+      ],
+      "artist_ids": [
+        "sienna-spiro"
+      ],
+      "event_names": [
+        "Sienna Spiro: My House Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-sienna-spiro-2027-manchester-17uov0g6ghevqqt",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "360064C6E7D1D769",
+          "source_url": "https://www.ticketmaster.co.uk/sienna-spiro-my-house-tour-manchester-01-03-2027/event/360064C6E7D1D769",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "O2 Academy Brixton",
+      "local_date": "2027-03-02",
+      "starts_at": "2027-03-02T19:00:00.000Z",
+      "artists": [
+        "Malcolm Todd"
+      ],
+      "artist_ids": [
+        "malcolm-todd"
+      ],
+      "event_names": [
+        "Malcolm Todd: Do That Again Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-malcolm-todd-2027-london-g5dzz_3lpy7hq",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00652AD6E44F1A",
+          "source_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-london-02-03-2027/event/3E00652AD6E44F1A",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "O2 Apollo Manchester",
+      "local_date": "2027-03-02",
+      "starts_at": "2027-03-02T19:00:00.000Z",
+      "artists": [
+        "Sienna Spiro"
+      ],
+      "artist_ids": [
+        "sienna-spiro"
+      ],
+      "event_names": [
+        "Sienna Spiro: My House Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-sienna-spiro-2027-manchester-17uov0g6gnyji_e",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "360064C8F09AC667",
+          "source_url": "https://www.ticketmaster.co.uk/sienna-spiro-my-house-tour-manchester-02-03-2027/event/360064C8F09AC667",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "O2 Academy Brixton",
+      "local_date": "2027-03-03",
+      "starts_at": "2027-03-03T19:00:00.000Z",
+      "artists": [
+        "Malcolm Todd"
+      ],
+      "artist_ids": [
+        "malcolm-todd"
+      ],
+      "event_names": [
+        "Malcolm Todd - Do That Again Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-malcolm-todd-2027-london-g5dzz_3rjik2s",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00652BE6A063F3",
+          "source_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-london-03-03-2027/event/3E00652BE6A063F3",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "O2 Academy Brixton",
+      "local_date": "2027-03-04",
+      "starts_at": "2027-03-04T19:00:00.000Z",
+      "artists": [
+        "Malcolm Todd"
+      ],
+      "artist_ids": [
+        "malcolm-todd"
+      ],
+      "event_names": [
+        "Malcolm Todd - Do That Again Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-malcolm-todd-2027-london-g5dzz_3rsuku2",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00652BF1D86D8F",
+          "source_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-london-04-03-2027/event/3E00652BF1D86D8F",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "Queen Margaret Union",
+      "local_date": "2027-03-16",
+      "starts_at": "2027-03-16T19:00:00.000Z",
+      "artists": [
+        "Hazlett"
+      ],
+      "artist_ids": [
+        "hazlett"
+      ],
+      "event_names": [
+        "Hazlett"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-hazlett-2027-glasgow-1auzkfggkeyhp7l",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "36006535B06E511F",
+          "source_url": "https://www.ticketmaster.co.uk/hazlett-glasgow-16-03-2027/event/36006535B06E511F",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Manchester Academy 2",
+      "local_date": "2027-03-17",
+      "starts_at": "2027-03-17T19:30:00.000Z",
+      "artists": [
+        "Hazlett"
+      ],
+      "artist_ids": [
+        "hazlett"
+      ],
+      "event_names": [
+        "Hazlett"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-hazlett-2027-manchester-g5vhz_klkyfqd",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F006537C6C146BB",
+          "source_url": "https://www.ticketmaster.co.uk/hazlett-manchester-17-03-2027/event/1F006537C6C146BB",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "O2 Ritz Manchester",
+      "local_date": "2027-03-19",
+      "starts_at": "2027-03-19T19:00:00.000Z",
+      "artists": [
+        "Stella Lefty"
+      ],
+      "artist_ids": [
+        "stella-lefty"
+      ],
+      "event_names": [
+        "Stella Lefty"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-stella-lefty-2027-manchester-g5dzz_36uppzk",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E006521F6956E13",
+          "source_url": "https://www.ticketmaster.co.uk/stella-lefty-manchester-19-03-2027/event/3E006521F6956E13",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "O2 Shepherds Bush Empire",
+      "local_date": "2027-03-20",
+      "starts_at": "2027-03-20T19:00:00.000Z",
+      "artists": [
+        "Hazlett"
+      ],
+      "artist_ids": [
+        "hazlett"
+      ],
+      "event_names": [
+        "Hazlett"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-hazlett-2027-london-g5dzz_3nl_fgq",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E006528EB654D5A",
+          "source_url": "https://www.ticketmaster.co.uk/hazlett-london-20-03-2027/event/3E006528EB654D5A",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Birmingham",
+      "raw_city_labels": [
+        "Birmingham"
+      ],
+      "venue": "O2 Institute Birmingham",
+      "local_date": "2027-03-22",
+      "starts_at": "2027-03-22T19:00:00.000Z",
+      "artists": [
+        "Stella Lefty"
+      ],
+      "artist_ids": [
+        "stella-lefty"
+      ],
+      "event_names": [
+        "Stella Lefty"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-stella-lefty-2027-birmingham-g5dzz_o1n7vhc",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E006512AA1016ED",
+          "source_url": "https://www.ticketmaster.co.uk/stella-lefty-birmingham-22-03-2027/event/3E006512AA1016ED",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Birmingham",
+      "raw_city_labels": [
+        "Birmingham"
+      ],
+      "venue": "O2 Academy Birmingham",
+      "local_date": "2027-03-29",
+      "starts_at": "2027-03-29T18:00:00.000Z",
+      "artists": [
+        "The Warning"
+      ],
+      "artist_ids": [
+        "the-warning"
+      ],
+      "event_names": [
+        "The Warning"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-the-warning-2027-birmingham-g5dzz_3jthdkp",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E006529A9F03196",
+          "source_url": "https://www.ticketmaster.co.uk/the-warning-birmingham-29-03-2027/event/3E006529A9F03196",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "O2 Academy Glasgow",
+      "local_date": "2027-03-30",
+      "starts_at": "2027-03-30T18:00:00.000Z",
+      "artists": [
+        "The Warning"
+      ],
+      "artist_ids": [
+        "the-warning"
+      ],
+      "event_names": [
+        "The Warning"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-the-warning-2027-glasgow-g5dzz_3cmwwj3",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E006523AECB2992",
+          "source_url": "https://www.ticketmaster.co.uk/the-warning-glasgow-30-03-2027/event/3E006523AECB2992",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "OVO Hydro",
+      "local_date": "2027-03-31",
+      "starts_at": "2027-03-31T16:45:00.000Z",
+      "artists": [
+        "Trivium"
+      ],
+      "artist_ids": [
+        "trivium"
+      ],
+      "event_names": [
+        "Trivium"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-trivium-2027-glasgow-1auzkfpgken_hpc",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "36006516A365B96D",
+          "source_url": "https://www.ticketmaster.co.uk/trivium-glasgow-31-03-2027/event/36006516A365B96D",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "O2 Academy Brixton",
+      "local_date": "2027-03-31",
+      "starts_at": "2027-03-31T17:00:00.000Z",
+      "artists": [
+        "Lizzy McAlpine"
+      ],
+      "artist_ids": [
+        "lizzy-mcalpine"
+      ],
+      "event_names": [
+        "Lizzy McAlpine THE OVER COUNTRY TOUR"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-lizzy-mcalpine-2027-london-g5dzz_krvbn6w",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E006537B4EA31F2",
+          "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-31-03-2027/event/3E006537B4EA31F2",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "O2 Academy Brixton",
+      "local_date": "2027-04-01",
+      "starts_at": "2027-04-01T17:00:00.000Z",
+      "artists": [
+        "Lizzy McAlpine"
+      ],
+      "artist_ids": [
+        "lizzy-mcalpine"
+      ],
+      "event_names": [
+        "Lizzy McAlpine THE OVER COUNTRY TOUR"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-lizzy-mcalpine-2027-london-g5dzz_kslx95p",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00653CDFF972D6",
+          "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-01-04-2027/event/3E00653CDFF972D6",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "O2 Victoria Warehouse Manchester",
+      "local_date": "2027-04-01",
+      "starts_at": "2027-04-01T18:00:00.000Z",
+      "artists": [
+        "The Warning"
+      ],
+      "artist_ids": [
+        "the-warning"
+      ],
+      "event_names": [
+        "The Warning"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-the-warning-2027-manchester-g5dzz_3jr_df6",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E006529AF643507",
+          "source_url": "https://www.ticketmaster.co.uk/the-warning-manchester-01-04-2027/event/3E006529AF643507",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Co-op Live",
+      "local_date": "2027-04-02",
+      "starts_at": "2027-04-02T16:00:00.000Z",
+      "artists": [
+        "Trivium"
+      ],
+      "artist_ids": [
+        "trivium"
+      ],
+      "event_names": [
+        "Trivium"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-trivium-2027-manchester-1amzkffgkdkmgfp",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "37006514C6DCC225",
+          "source_url": "https://www.ticketmaster.co.uk/trivium-manchester-02-04-2027/event/37006514C6DCC225",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "O2 Academy Brixton",
+      "local_date": "2027-04-02",
+      "starts_at": "2027-04-02T17:00:00.000Z",
+      "artists": [
+        "Lizzy McAlpine"
+      ],
+      "artist_ids": [
+        "lizzy-mcalpine"
+      ],
+      "event_names": [
+        "Lizzy McAlpine THE OVER COUNTRY TOUR"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-lizzy-mcalpine-2027-london-g5dzz_kscgmsk",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00653CED337C46",
+          "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-02-04-2027/event/3E00653CED337C46",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "OVO Arena Wembley",
+      "local_date": "2027-04-02",
+      "starts_at": "2027-04-02T17:00:00.000Z",
+      "artists": [
+        "The Warning"
+      ],
+      "artist_ids": [
+        "the-warning"
+      ],
+      "event_names": [
+        "The Warning"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-the-warning-2027-london-1adjz_3gknpoval",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3700652A9683415F",
+          "source_url": "https://www.ticketmaster.co.uk/the-warning-london-02-04-2027/event/3700652A9683415F",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "Alexandra Palace",
+      "local_date": "2027-04-03",
+      "starts_at": "2027-04-03T16:00:00.000Z",
+      "artists": [
+        "Trivium"
+      ],
+      "artist_ids": [
+        "trivium"
+      ],
+      "event_names": [
+        "Trivium"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-trivium-2027-london-g5vhz_o63ceuv",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F006511D23A7DB4",
+          "source_url": "https://www.ticketmaster.co.uk/trivium-london-03-04-2027/event/1F006511D23A7DB4",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Cardiff",
+      "raw_city_labels": [
+        "Cardiff"
+      ],
+      "venue": "Utilita Arena Cardiff",
+      "local_date": "2027-04-04",
+      "starts_at": "2027-04-04T16:45:00.000Z",
+      "artists": [
+        "Trivium"
+      ],
+      "artist_ids": [
+        "trivium"
+      ],
+      "event_names": [
+        "Trivium"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-trivium-2027-cardiff-1kuovpa6gacrw-h",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "360065147E7B287C",
+          "source_url": "https://www.ticketmaster.co.uk/trivium-cardiff-04-04-2027/event/360065147E7B287C",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-04-05",
+      "starts_at": "2027-04-05T17:00:00.000Z",
+      "artists": [
+        "Olivia Rodrigo"
+      ],
+      "artist_ids": [
+        "olivia-rodrigo"
+      ],
+      "event_names": [
+        "Olivia Rodrigo: The Unraveled Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-olivia-rodrigo-2027-london-1adfz_agkuyj7ah",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500649DB098427C",
+          "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-05-04-2027/event/3500649DB098427C",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-04-06",
+      "starts_at": "2027-04-06T17:00:00.000Z",
+      "artists": [
+        "Olivia Rodrigo"
+      ],
+      "artist_ids": [
+        "olivia-rodrigo"
+      ],
+      "event_names": [
+        "Olivia Rodrigo: The Unraveled Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-olivia-rodrigo-2027-london-1adfz_agkusg7f3",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500649DB3304512",
+          "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-06-04-2027/event/3500649DB3304512",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Birmingham",
+      "raw_city_labels": [
+        "Birmingham"
+      ],
+      "venue": "O2 Academy Birmingham",
+      "local_date": "2027-04-07",
+      "starts_at": "2027-04-07T18:00:00.000Z",
+      "artists": [
+        "Lizzy McAlpine"
+      ],
+      "artist_ids": [
+        "lizzy-mcalpine"
+      ],
+      "event_names": [
+        "Lizzy McAlpine - the Over Country Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-lizzy-mcalpine-2027-birmingham-g5dzz_kkek096",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E006531A74E45C7",
+          "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-birmingham-07-04-2027/event/3E006531A74E45C7",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-04-08",
+      "starts_at": "2027-04-08T17:00:00.000Z",
+      "artists": [
+        "Olivia Rodrigo"
+      ],
+      "artist_ids": [
+        "olivia-rodrigo"
+      ],
+      "event_names": [
+        "Olivia Rodrigo: The Unraveled Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-olivia-rodrigo-2027-london-1adfz_agkusmfph",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500649DB3DD459B",
+          "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-08-04-2027/event/3500649DB3DD459B",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "O2 Academy Glasgow",
+      "local_date": "2027-04-09",
+      "starts_at": "2027-04-09T17:00:00.000Z",
+      "artists": [
+        "Lizzy McAlpine"
+      ],
+      "artist_ids": [
+        "lizzy-mcalpine"
+      ],
+      "event_names": [
+        "Lizzy McAlpine - the Over Country Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-lizzy-mcalpine-2027-glasgow-g5dzz_krfm-83",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00653788BA1412",
+          "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-glasgow-09-04-2027/event/3E00653788BA1412",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "OVO Hydro",
+      "local_date": "2027-04-09",
+      "starts_at": "2027-04-09T17:00:00.000Z",
+      "artists": [
+        "Sabaton"
+      ],
+      "artist_ids": [
+        "sabaton"
+      ],
+      "event_names": [
+        "Sabaton  The Legendary Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-sabaton-2027-glasgow-17uov0g6g3si1v4",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "360064C4B1A0A055",
+          "source_url": "https://www.ticketmaster.co.uk/sabaton-the-legendary-tour-glasgow-09-04-2027/event/360064C4B1A0A055",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-04-09",
+      "starts_at": "2027-04-09T17:00:00.000Z",
+      "artists": [
+        "Olivia Rodrigo"
+      ],
+      "artist_ids": [
+        "olivia-rodrigo"
+      ],
+      "event_names": [
+        "Olivia Rodrigo: The Unraveled Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-olivia-rodrigo-2027-london-1adfz_agkug10qr",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500649DB52A469E",
+          "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-09-04-2027/event/3500649DB52A469E",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Birmingham",
+      "raw_city_labels": [
+        "Birmingham"
+      ],
+      "venue": "bp pulse LIVE",
+      "local_date": "2027-04-10",
+      "starts_at": "2027-04-10T17:00:00.000Z",
+      "artists": [
+        "Sabaton"
+      ],
+      "artist_ids": [
+        "sabaton"
+      ],
+      "event_names": [
+        "Sabaton - The Legendary Tour + The Legendary Orchestra"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-sabaton-2027-birmingham-17fyv0g6gp8gytu",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "230064C590D70A76",
+          "source_url": "https://www.ticketmaster.co.uk/sabaton-the-legendary-tour-the-legendary-birmingham-10-04-2027/event/230064C590D70A76",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "O2 Academy Glasgow",
+      "local_date": "2027-04-10",
+      "starts_at": "2027-04-10T17:00:00.000Z",
+      "artists": [
+        "Lizzy McAlpine"
+      ],
+      "artist_ids": [
+        "lizzy-mcalpine"
+      ],
+      "event_names": [
+        "Lizzy McAlpine - the Over Country Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-lizzy-mcalpine-2027-glasgow-g5dzz_kwtjarb",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00653CBF9857BA",
+          "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-glasgow-10-04-2027/event/3E00653CBF9857BA",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-04-12",
+      "starts_at": "2027-04-12T17:00:00.000Z",
+      "artists": [
+        "Olivia Rodrigo"
+      ],
+      "artist_ids": [
+        "olivia-rodrigo"
+      ],
+      "event_names": [
+        "Olivia Rodrigo: The Unraveled Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-olivia-rodrigo-2027-london-1adfz_agkdf5uep",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500649ED42F6096",
+          "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-12-04-2027/event/3500649ED42F6096",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "OVO Hydro",
+      "local_date": "2027-04-13",
+      "starts_at": "2027-04-13T17:30:00.000Z",
+      "artists": [
+        "Teddy Swims"
+      ],
+      "artist_ids": [
+        "teddy-swims"
+      ],
+      "event_names": [
+        "Teddy Swims - The UGLY Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-teddy-swims-2027-glasgow-17uov0g62qlspvu",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "360064F69FC65D0D",
+          "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-glasgow-13-04-2027/event/360064F69FC65D0D",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-04-14",
+      "starts_at": "2027-04-14T17:00:00.000Z",
+      "artists": [
+        "Olivia Rodrigo"
+      ],
+      "artist_ids": [
+        "olivia-rodrigo"
+      ],
+      "event_names": [
+        "Olivia Rodrigo: The Unraveled Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-olivia-rodrigo-2027-london-1adfz_agkdbfuff",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500649ED8236514",
+          "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-14-04-2027/event/3500649ED8236514",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-04-15",
+      "starts_at": "2027-04-15T17:00:00.000Z",
+      "artists": [
+        "Olivia Rodrigo"
+      ],
+      "artist_ids": [
+        "olivia-rodrigo"
+      ],
+      "event_names": [
+        "Olivia Rodrigo: The Unraveled Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-olivia-rodrigo-2027-london-1adfz_agkdqyuqd",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500649EDAC36683",
+          "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-15-04-2027/event/3500649EDAC36683",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Co-op Live",
+      "local_date": "2027-04-16",
+      "starts_at": "2027-04-16T17:30:00.000Z",
+      "artists": [
+        "Teddy Swims"
+      ],
+      "artist_ids": [
+        "teddy-swims"
+      ],
+      "event_names": [
+        "Teddy Swims - The UGLY Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-teddy-swims-2027-manchester-17uyv0g62pcoosz",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "370064F5AD451CF8",
+          "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-manchester-16-04-2027/event/370064F5AD451CF8",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Co-op Live",
+      "local_date": "2027-04-17",
+      "starts_at": "2027-04-17T17:30:00.000Z",
+      "artists": [
+        "Teddy Swims"
+      ],
+      "artist_ids": [
+        "teddy-swims"
+      ],
+      "event_names": [
+        "Teddy Swims - The UGLY Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-teddy-swims-2027-manchester-17uyv0g62m2z8vc",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "370064FB8FE10D2D",
+          "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-manchester-17-04-2027/event/370064FB8FE10D2D",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Co-op Live",
+      "local_date": "2027-04-18",
+      "starts_at": "2027-04-18T17:30:00.000Z",
+      "artists": [
+        "Teddy Swims"
+      ],
+      "artist_ids": [
+        "teddy-swims"
+      ],
+      "event_names": [
+        "Teddy Swims - The UGLY Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-teddy-swims-2027-manchester-17uyv0g62mo98gp",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "370064FB915D0D56",
+          "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-manchester-18-04-2027/event/370064FB915D0D56",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-04-19",
+      "starts_at": "2027-04-19T17:00:00.000Z",
+      "artists": [
+        "Olivia Rodrigo"
+      ],
+      "artist_ids": [
+        "olivia-rodrigo"
+      ],
+      "event_names": [
+        "Olivia Rodrigo: The Unraveled Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-olivia-rodrigo-2027-london-1adfz_agkdjmpol",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500649EDCB9682B",
+          "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-19-04-2027/event/3500649EDCB9682B",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-04-20",
+      "starts_at": "2027-04-20T17:00:00.000Z",
+      "artists": [
+        "Olivia Rodrigo"
+      ],
+      "artist_ids": [
+        "olivia-rodrigo"
+      ],
+      "event_names": [
+        "Olivia Rodrigo: The Unraveled Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-olivia-rodrigo-2027-london-1adfz_agkdj-m1i",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500649EE68772AC",
+          "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-20-04-2027/event/3500649EE68772AC",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-04-21",
+      "starts_at": "2027-04-21T17:30:00.000Z",
+      "artists": [
+        "Teddy Swims"
+      ],
+      "artist_ids": [
+        "teddy-swims"
+      ],
+      "event_names": [
+        "Teddy Swims - The UGLY Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-teddy-swims-2027-london-17u8v0g6253xeaz",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "350064F2D28A7140",
+          "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-21-04-2027/event/350064F2D28A7140",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-04-22",
+      "starts_at": "2027-04-22T17:30:00.000Z",
+      "artists": [
+        "Teddy Swims"
+      ],
+      "artist_ids": [
+        "teddy-swims"
+      ],
+      "event_names": [
+        "Teddy Swims - The UGLY Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-teddy-swims-2027-london-17u8v0g623cnnvk",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "350064F4AD8E3046",
+          "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-22-04-2027/event/350064F4AD8E3046",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Co-op Live",
+      "local_date": "2027-04-22",
+      "starts_at": "2027-04-22T17:30:00.000Z",
+      "artists": [
+        "Gracie Abrams"
+      ],
+      "artist_ids": [
+        "gracie-abrams"
+      ],
+      "event_names": [
+        "Gracie Abrams: The Look at My Life Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-gracie-abrams-2027-manchester-17uyv0g65rbpnzf",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "370064BBD8963014",
+          "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-22-04-2027/event/370064BBD8963014",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-04-24",
+      "starts_at": "2027-04-24T17:30:00.000Z",
+      "artists": [
+        "Teddy Swims"
+      ],
+      "artist_ids": [
+        "teddy-swims"
+      ],
+      "event_names": [
+        "Teddy Swims - The UGLY Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-teddy-swims-2027-london-17u8v0g623yvkkm",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "350064F4B00531B7",
+          "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-24-04-2027/event/350064F4B00531B7",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Co-op Live",
+      "local_date": "2027-04-24",
+      "starts_at": "2027-04-24T17:30:00.000Z",
+      "artists": [
+        "Gracie Abrams"
+      ],
+      "artist_ids": [
+        "gracie-abrams"
+      ],
+      "event_names": [
+        "Gracie Abrams: The Look at My Life Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-gracie-abrams-2027-manchester-17uyv0g6gk_vkhl",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "370064C199D13F1F",
+          "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-24-04-2027/event/370064C199D13F1F",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-04-25",
+      "starts_at": "2027-04-25T17:30:00.000Z",
+      "artists": [
+        "Teddy Swims"
+      ],
+      "artist_ids": [
+        "teddy-swims"
+      ],
+      "event_names": [
+        "Teddy Swims - The UGLY Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-teddy-swims-2027-london-17u8v0g623nj3ov",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "350064F4A3712441",
+          "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-25-04-2027/event/350064F4A3712441",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Co-op Live",
+      "local_date": "2027-04-25",
+      "starts_at": "2027-04-25T17:30:00.000Z",
+      "artists": [
+        "Gracie Abrams"
+      ],
+      "artist_ids": [
+        "gracie-abrams"
+      ],
+      "event_names": [
+        "Gracie Abrams: The Look at My Life Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-gracie-abrams-2027-manchester-17uyv0g6gkp6vc5",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "370064C1A51F4B4B",
+          "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-25-04-2027/event/370064C1A51F4B4B",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "OVO Hydro",
+      "local_date": "2027-04-27",
+      "starts_at": "2027-04-27T17:30:00.000Z",
+      "artists": [
+        "Gracie Abrams"
+      ],
+      "artist_ids": [
+        "gracie-abrams"
+      ],
+      "event_names": [
+        "Gracie Abrams: The Look at My Life Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-gracie-abrams-2027-glasgow-17uov0g65lvesak",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "360064BAF49F1146",
+          "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-glasgow-27-04-2027/event/360064BAF49F1146",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Belfast",
+      "raw_city_labels": [
+        "Belfast"
+      ],
+      "venue": "The O2 Belfast",
+      "local_date": "2027-04-27",
+      "starts_at": "2027-04-27T18:00:00.000Z",
+      "artists": [
+        "Rod Stewart"
+      ],
+      "artist_ids": [
+        "rod-stewart"
+      ],
+      "event_names": [
+        "Rod Stewart"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-rod-stewart-2027-belfast-1azzkfugkd15ooi",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "38006536CA2D1468",
+          "source_url": "https://www.ticketmaster.ie/rod-stewart-belfast-27-04-2027/event/38006536CA2D1468",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "OVO Hydro",
+      "local_date": "2027-04-28",
+      "starts_at": "2027-04-28T17:30:00.000Z",
+      "artists": [
+        "Gracie Abrams"
+      ],
+      "artist_ids": [
+        "gracie-abrams"
+      ],
+      "event_names": [
+        "Gracie Abrams: The Look at My Life Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-gracie-abrams-2027-glasgow-17uov0g65vd1fhq",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "360064BD032946DD",
+          "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-glasgow-28-04-2027/event/360064BD032946DD",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-04-28",
+      "starts_at": "2027-04-28T17:30:00.000Z",
+      "artists": [
+        "Thirty Seconds to Mars"
+      ],
+      "artist_ids": [
+        "thirty-seconds-to-mars"
+      ],
+      "event_names": [
+        "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-thirty-seconds-to-mars-2027-london-1agzk3agkdevn9u",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "35006489E7D2A5CD",
+          "source_url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-london-28-04-2027/event/35006489E7D2A5CD",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Co-op Live",
+      "local_date": "2027-04-29",
+      "starts_at": "2027-04-29T17:00:00.000Z",
+      "artists": [
+        "Thirty Seconds to Mars"
+      ],
+      "artist_ids": [
+        "thirty-seconds-to-mars"
+      ],
+      "event_names": [
+        "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-thirty-seconds-to-mars-2027-manchester-1amzk3agkeyexfs",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "37006489B09E2233",
+          "source_url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-manchester-29-04-2027/event/37006489B09E2233",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "OVO Hydro",
+      "local_date": "2027-04-29",
+      "starts_at": "2027-04-29T17:30:00.000Z",
+      "artists": [
+        "Rod Stewart"
+      ],
+      "artist_ids": [
+        "rod-stewart"
+      ],
+      "event_names": [
+        "Rod Stewart - The Final Encore"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-rod-stewart-2027-glasgow-1auzkfmgkehwkob",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "36006537BCF4683A",
+          "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-glasgow-29-04-2027/event/36006537BCF4683A",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-04-30",
+      "starts_at": "2027-04-30T17:30:00.000Z",
+      "artists": [
+        "Gracie Abrams"
+      ],
+      "artist_ids": [
+        "gracie-abrams"
+      ],
+      "event_names": [
+        "Gracie Abrams: The Look at My Life Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-gracie-abrams-2027-london-17u8v0g65wthjl9",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "350064BCA96E67D7",
+          "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-30-04-2027/event/350064BCA96E67D7",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "OVO Hydro",
+      "local_date": "2027-05-01",
+      "starts_at": "2027-05-01T17:30:00.000Z",
+      "artists": [
+        "Rod Stewart"
+      ],
+      "artist_ids": [
+        "rod-stewart"
+      ],
+      "event_names": [
+        "Rod Stewart - The Final Encore"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-rod-stewart-2027-glasgow-1auzkfygkdhvxxd",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "36006539FC07E883",
+          "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-glasgow-01-05-2027/event/36006539FC07E883",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-05-01",
+      "starts_at": "2027-05-01T17:30:00.000Z",
+      "artists": [
+        "Gracie Abrams"
+      ],
+      "artist_ids": [
+        "gracie-abrams"
+      ],
+      "event_names": [
+        "Gracie Abrams: The Look at My Life Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-gracie-abrams-2027-london-17u8v0g65wi6peh",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "350064BCAC1D69DB",
+          "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-01-05-2027/event/350064BCAC1D69DB",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-05-03",
+      "starts_at": "2027-05-03T17:00:00.000Z",
+      "artists": [
+        "Gracie Abrams"
+      ],
+      "artist_ids": [
+        "gracie-abrams"
+      ],
+      "event_names": [
+        "Gracie Abrams: The Look at My Life Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-gracie-abrams-2027-london-17u8v0g65wcbpi1",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "350064BCAD616B0A",
+          "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-03-05-2027/event/350064BCAD616B0A",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Birmingham",
+      "raw_city_labels": [
+        "Birmingham"
+      ],
+      "venue": "Utilita Arena Birmingham",
+      "local_date": "2027-05-04",
+      "starts_at": "2027-05-04T17:00:00.000Z",
+      "artists": [
+        "Rod Stewart"
+      ],
+      "artist_ids": [
+        "rod-stewart"
+      ],
+      "event_names": [
+        "Rod Stewart - The Final Encore"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-rod-stewart-2027-birmingham-1kfyvpcfga2dzlv",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "230065388F0C0AC1",
+          "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-birmingham-04-05-2027/event/230065388F0C0AC1",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-05-04",
+      "starts_at": "2027-05-04T17:30:00.000Z",
+      "artists": [
+        "Gracie Abrams"
+      ],
+      "artist_ids": [
+        "gracie-abrams"
+      ],
+      "event_names": [
+        "Gracie Abrams: The Look at My Life Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-gracie-abrams-2027-london-17u8v0g65wm9us5",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "350064BCAE5F6C4B",
+          "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-04-05-2027/event/350064BCAE5F6C4B",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Co-op Live",
+      "local_date": "2027-05-06",
+      "starts_at": "2027-05-06T17:00:00.000Z",
+      "artists": [
+        "Rod Stewart"
+      ],
+      "artist_ids": [
+        "rod-stewart"
+      ],
+      "event_names": [
+        "Rod Stewart"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-rod-stewart-2027-manchester-1amzkfugkesbky7",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "37006536B3613C04",
+          "source_url": "https://www.ticketmaster.co.uk/rod-stewart-manchester-06-05-2027/event/37006536B3613C04",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-05-06",
+      "starts_at": "2027-05-06T17:30:00.000Z",
+      "artists": [
+        "Simple Minds"
+      ],
+      "artist_ids": [
+        "simple-minds"
+      ],
+      "event_names": [
+        "Simple Minds"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-simple-minds-2027-london-16dfz_313g7wgmr",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500652292F75B9E",
+          "source_url": "https://www.ticketmaster.co.uk/simple-minds-london-06-05-2027/event/3500652292F75B9E",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Co-op Live",
+      "local_date": "2027-05-07",
+      "starts_at": "2027-05-07T17:30:00.000Z",
+      "artists": [
+        "Simple Minds"
+      ],
+      "artist_ids": [
+        "simple-minds"
+      ],
+      "event_names": [
+        "Simple Minds"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-simple-minds-2027-manchester-1amzkfxgkdzwjhm",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "37006522C0F666EE",
+          "source_url": "https://www.ticketmaster.co.uk/simple-minds-manchester-07-05-2027/event/37006522C0F666EE",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Birmingham",
+      "raw_city_labels": [
+        "Birmingham"
+      ],
+      "venue": "Utilita Arena Birmingham",
+      "local_date": "2027-05-08",
+      "starts_at": "2027-05-08T17:00:00.000Z",
+      "artists": [
+        "Simple Minds"
+      ],
+      "artist_ids": [
+        "simple-minds"
+      ],
+      "event_names": [
+        "Simple Minds"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-simple-minds-2027-birmingham-1aegz_31ka4zdg5d",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "2300652293155BA2",
+          "source_url": "https://www.ticketmaster.co.uk/simple-minds-birmingham-08-05-2027/event/2300652293155BA2",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Co-op Live",
+      "local_date": "2027-05-08",
+      "starts_at": "2027-05-08T17:00:00.000Z",
+      "artists": [
+        "Rod Stewart"
+      ],
+      "artist_ids": [
+        "rod-stewart"
+      ],
+      "event_names": [
+        "Rod Stewart"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-rod-stewart-2027-manchester-1amzkfzgkdjwz0v",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "37006538E6F78934",
+          "source_url": "https://www.ticketmaster.co.uk/rod-stewart-manchester-08-05-2027/event/37006538E6F78934",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Cardiff",
+      "raw_city_labels": [
+        "Cardiff"
+      ],
+      "venue": "Principality Stadium",
+      "local_date": "2027-05-08",
+      "starts_at": "2027-05-08T18:00:00.000Z",
+      "artists": [
+        "Andrea Bocelli"
+      ],
+      "artist_ids": [
+        "andrea-bocelli"
+      ],
+      "event_names": [
+        "Andrea Bocelli - FT Welsh National Opera Orchestra & Massed Choirs"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-andrea-bocelli-2027-cardiff-1agzkfkgkejnxkj",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "35006506A68E21A6",
+          "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-ft-welsh-national-opera-cardiff-08-05-2027/event/35006506A68E21A6",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-05-09",
+      "starts_at": "2027-05-09T17:00:00.000Z",
+      "artists": [
+        "Olivia Rodrigo"
+      ],
+      "artist_ids": [
+        "olivia-rodrigo"
+      ],
+      "event_names": [
+        "Olivia Rodrigo: The Unraveled Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-olivia-rodrigo-2027-london-1adfz_agkdz-z3p",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500649EF88784A5",
+          "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-09-05-2027/event/3500649EF88784A5",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-05-10",
+      "starts_at": "2027-05-10T17:00:00.000Z",
+      "artists": [
+        "Olivia Rodrigo"
+      ],
+      "artist_ids": [
+        "olivia-rodrigo"
+      ],
+      "event_names": [
+        "Olivia Rodrigo: The Unraveled Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-olivia-rodrigo-2027-london-1adfz_agkdd-fh3",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500649EFB8486D2",
+          "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-10-05-2027/event/3500649EFB8486D2",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Nottingham",
+      "raw_city_labels": [
+        "Nottingham"
+      ],
+      "venue": "Motorpoint Arena Nottingham",
+      "local_date": "2027-05-10",
+      "starts_at": "2027-05-10T17:30:00.000Z",
+      "artists": [
+        "Simple Minds"
+      ],
+      "artist_ids": [
+        "simple-minds"
+      ],
+      "event_names": [
+        "Simple Minds"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-simple-minds-2027-nottingham-1adfz_31k14zduv5",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500652293295C0A",
+          "source_url": "https://www.ticketmaster.co.uk/simple-minds-nottingham-10-05-2027/event/3500652293295C0A",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Bristol",
+      "raw_city_labels": [
+        "Bristol"
+      ],
+      "venue": "Thekla",
+      "local_date": "2027-05-10",
+      "starts_at": "2027-05-10T18:00:00.000Z",
+      "artists": [
+        "Valley"
+      ],
+      "artist_ids": [
+        "valley"
+      ],
+      "event_names": [
+        "Valley: Do You Need To Be Entertained? the Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-valley-2027-bristol-g5vhz_3zkbafq",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F00652E06E8551D",
+          "source_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-bristol-10-05-2027/event/1F00652E06E8551D",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Leeds",
+      "raw_city_labels": [
+        "Leeds"
+      ],
+      "venue": "Leeds First Direct Bank Arena",
+      "local_date": "2027-05-11",
+      "starts_at": "2027-05-11T17:00:00.000Z",
+      "artists": [
+        "Simple Minds"
+      ],
+      "artist_ids": [
+        "simple-minds"
+      ],
+      "event_names": [
+        "Simple Minds"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-simple-minds-2027-leeds-g5vhz_31k8si9",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F00652293431A17",
+          "source_url": "https://www.ticketmaster.co.uk/simple-minds-leeds-11-05-2027/event/1F00652293431A17",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-05-11",
+      "starts_at": "2027-05-11T17:30:00.000Z",
+      "artists": [
+        "Rod Stewart"
+      ],
+      "artist_ids": [
+        "rod-stewart"
+      ],
+      "event_names": [
+        "Rod Stewart - The Final Encore"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-rod-stewart-2027-london-1agzkfzgkdv3zff",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "35006538C14B8214",
+          "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-london-11-05-2027/event/35006538C14B8214",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Birmingham",
+      "raw_city_labels": [
+        "Birmingham"
+      ],
+      "venue": "O2 Institute2 Birmingham",
+      "local_date": "2027-05-11",
+      "starts_at": "2027-05-11T18:00:00.000Z",
+      "artists": [
+        "Valley"
+      ],
+      "artist_ids": [
+        "valley"
+      ],
+      "event_names": [
+        "Valley - Do You Need To Be Entertained? the Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-valley-2027-birmingham-g5dzz_36osp2q",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E006521D1CE53DD",
+          "source_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-birmingham-11-05-2027/event/3E006521D1CE53DD",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Manchester Club Academy",
+      "local_date": "2027-05-12",
+      "starts_at": "2027-05-12T18:30:00.000Z",
+      "artists": [
+        "Valley"
+      ],
+      "artist_ids": [
+        "valley"
+      ],
+      "event_names": [
+        "Valley: Do You Need To Be Entertained? the Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-valley-2027-manchester-g5vhz_ohdx77o",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F00651F3B884120",
+          "source_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-manchester-12-05-2027/event/1F00651F3B884120",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Newcastle Upon Tyne",
+      "raw_city_labels": [
+        "Newcastle Upon Tyne"
+      ],
+      "venue": "Utilita Arena Newcastle",
+      "local_date": "2027-05-13",
+      "starts_at": "2027-05-13T17:00:00.000Z",
+      "artists": [
+        "Simple Minds"
+      ],
+      "artist_ids": [
+        "simple-minds"
+      ],
+      "event_names": [
+        "Simple Minds"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-simple-minds-2027-newcastle-upon-tyne-g5vhz_31k4viz",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F00652293541A38",
+          "source_url": "https://www.ticketmaster.co.uk/simple-minds-newcastle-upon-tyne-13-05-2027/event/1F00652293541A38",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Newcastle Upon Tyne",
+      "raw_city_labels": [
+        "Newcastle Upon Tyne"
+      ],
+      "venue": "Utilita Arena Newcastle",
+      "local_date": "2027-05-14",
+      "starts_at": "2027-05-14T17:00:00.000Z",
+      "artists": [
+        "Weezer"
+      ],
+      "artist_ids": [
+        "weezer"
+      ],
+      "event_names": [
+        "Weezer"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-weezer-2027-newcastle-upon-tyne-g5vhz_8kkspwo",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F006504D3CD6C91",
+          "source_url": "https://www.ticketmaster.co.uk/weezer-newcastle-upon-tyne-14-05-2027/event/1F006504D3CD6C91",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "OVO Hydro",
+      "local_date": "2027-05-14",
+      "starts_at": "2027-05-14T17:30:00.000Z",
+      "artists": [
+        "Simple Minds"
+      ],
+      "artist_ids": [
+        "simple-minds"
+      ],
+      "event_names": [
+        "Simple Minds"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-simple-minds-2027-glasgow-1auzkfxgkd0xdr8",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "36006522E48BBBD0",
+          "source_url": "https://www.ticketmaster.co.uk/simple-minds-glasgow-14-05-2027/event/36006522E48BBBD0",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-05-14",
+      "starts_at": "2027-05-14T17:30:00.000Z",
+      "artists": [
+        "Rod Stewart"
+      ],
+      "artist_ids": [
+        "rod-stewart"
+      ],
+      "event_names": [
+        "Rod Stewart - The Final Encore"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-rod-stewart-2027-london-1agzkfzgkdvmnjo",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "35006538F4DEA720",
+          "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-london-14-05-2027/event/35006538F4DEA720",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "O2 Forum Kentish Town",
+      "local_date": "2027-05-14",
+      "starts_at": "2027-05-14T18:00:00.000Z",
+      "artists": [
+        "Valley"
+      ],
+      "artist_ids": [
+        "valley"
+      ],
+      "event_names": [
+        "Valley - Do You Need To Be Entertained? the Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-valley-2027-london-g5dzz_3vpsj3z",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00652D16C664B8",
+          "source_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-london-14-05-2027/event/3E00652D16C664B8",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Co-op Live",
+      "local_date": "2027-05-15",
+      "starts_at": "2027-05-15T17:30:00.000Z",
+      "artists": [
+        "Weezer"
+      ],
+      "artist_ids": [
+        "weezer"
+      ],
+      "event_names": [
+        "Weezer"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-weezer-2027-manchester-1amzkf7gkderotz",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "37006504C2791A78",
+          "source_url": "https://www.ticketmaster.co.uk/weezer-manchester-15-05-2027/event/37006504C2791A78",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Leeds",
+      "raw_city_labels": [
+        "Leeds"
+      ],
+      "venue": "Brudenell Social Club",
+      "local_date": "2027-05-16",
+      "starts_at": "2027-05-16T18:30:00.000Z",
+      "artists": [
+        "Valley"
+      ],
+      "artist_ids": [
+        "valley"
+      ],
+      "event_names": [
+        "Valley: Do You Need To Be Entertained? the Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-valley-2027-leeds-1adfz_3gkihrzjf",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500652A3CBC0988",
+          "source_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-leeds-16-05-2027/event/3500652A3CBC0988",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Leeds",
+      "raw_city_labels": [
+        "Leeds"
+      ],
+      "venue": "Leeds First Direct Bank Arena",
+      "local_date": "2027-05-17",
+      "starts_at": "2027-05-17T17:00:00.000Z",
+      "artists": [
+        "Weezer"
+      ],
+      "artist_ids": [
+        "weezer"
+      ],
+      "event_names": [
+        "Weezer"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-weezer-2027-leeds-g5vhz_8pmm7nv",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F006505AEB848C1",
+          "source_url": "https://www.ticketmaster.co.uk/weezer-leeds-17-05-2027/event/1F006505AEB848C1",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "OVO Hydro",
+      "local_date": "2027-05-19",
+      "starts_at": "2027-05-19T17:30:00.000Z",
+      "artists": [
+        "Weezer"
+      ],
+      "artist_ids": [
+        "weezer"
+      ],
+      "event_names": [
+        "Weezer"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-weezer-2027-glasgow-1auzkf7gkdxjsmu",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "36006504E29B3DF6",
+          "source_url": "https://www.ticketmaster.co.uk/weezer-glasgow-19-05-2027/event/36006504E29B3DF6",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "Celtic Park",
+      "local_date": "2027-05-21",
+      "starts_at": "2027-05-21T16:00:00.000Z",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "oasis"
+      ],
+      "event_names": [
+        "Oasis Live '27"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-oasis-2027-glasgow-1adfz_3gknft-og",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500652A88FE1835",
+          "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-21-05-2027/event/3500652A88FE1835",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Birmingham",
+      "raw_city_labels": [
+        "Birmingham"
+      ],
+      "venue": "Utilita Arena Birmingham",
+      "local_date": "2027-05-21",
+      "starts_at": "2027-05-21T17:00:00.000Z",
+      "artists": [
+        "Weezer"
+      ],
+      "artist_ids": [
+        "weezer"
+      ],
+      "event_names": [
+        "Weezer"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-weezer-2027-birmingham-1anzkf7gkdaoymm",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "23006504C9470BAE",
+          "source_url": "https://www.ticketmaster.co.uk/weezer-birmingham-21-05-2027/event/23006504C9470BAE",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Leeds",
+      "raw_city_labels": [
+        "Leeds"
+      ],
+      "venue": "Leeds First Direct Bank Arena",
+      "local_date": "2027-05-22",
+      "starts_at": "2027-05-22T16:30:00.000Z",
+      "artists": [
+        "Nickelback"
+      ],
+      "artist_ids": [
+        "nickelback"
+      ],
+      "event_names": [
+        "Nickelback: Everything Under The Sun Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-nickelback-2027-leeds-g5vhz_flmspew",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F006547F7CD69F2",
+          "source_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-leeds-22-05-2027/event/1F006547F7CD69F2",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "Alexandra Palace",
+      "local_date": "2027-05-22",
+      "starts_at": "2027-05-22T17:30:00.000Z",
+      "artists": [
+        "Weezer"
+      ],
+      "artist_ids": [
+        "weezer"
+      ],
+      "event_names": [
+        "Weezer"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-weezer-2027-london-g5vhz_83wtacz",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F006504BDA453B8",
+          "source_url": "https://www.ticketmaster.co.uk/weezer-london-22-05-2027/event/1F006504BDA453B8",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "Celtic Park",
+      "local_date": "2027-05-23",
+      "starts_at": "2027-05-23T16:00:00.000Z",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "oasis"
+      ],
+      "event_names": [
+        "Oasis Live '27"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-oasis-2027-glasgow-1agzkfwgkd1ybno",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "35006532CAE588E0",
+          "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-23-05-2027/event/35006532CAE588E0",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Cardiff",
+      "raw_city_labels": [
+        "Cardiff"
+      ],
+      "venue": "Utilita Arena Cardiff",
+      "local_date": "2027-05-23",
+      "starts_at": "2027-05-23T17:30:00.000Z",
+      "artists": [
+        "Weezer"
+      ],
+      "artist_ids": [
+        "weezer"
+      ],
+      "event_names": [
+        "Weezer"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-weezer-2027-cardiff-1auzkf7gkevbx3b",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "36006504B4EA24BA",
+          "source_url": "https://www.ticketmaster.co.uk/weezer-cardiff-23-05-2027/event/36006504B4EA24BA",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-05-24",
+      "starts_at": "2027-05-24T16:30:00.000Z",
+      "artists": [
+        "Nickelback"
+      ],
+      "artist_ids": [
+        "nickelback"
+      ],
+      "event_names": [
+        "Nickelback: Everything Under The Sun Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-nickelback-2027-london-1agzk46gkddli7z",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "35006547C37E8138",
+          "source_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-london-24-05-2027/event/35006547C37E8138",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "Celtic Park",
+      "local_date": "2027-05-25",
+      "starts_at": "2027-05-25T16:00:00.000Z",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "oasis"
+      ],
+      "event_names": [
+        "Oasis Live '27"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-oasis-2027-glasgow-1agzkfwgkd5kfpx",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "35006532CB4C8962",
+          "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-25-05-2027/event/35006532CB4C8962",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-05-25",
+      "starts_at": "2027-05-25T16:30:00.000Z",
+      "artists": [
+        "Nickelback"
+      ],
+      "artist_ids": [
+        "nickelback"
+      ],
+      "event_names": [
+        "Nickelback: Everything Under The Sun Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-nickelback-2027-london-1agzk46gkdjr1bv",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "35006547E6BCA601",
+          "source_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-london-25-05-2027/event/35006547E6BCA601",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "Celtic Park",
+      "local_date": "2027-05-28",
+      "starts_at": "2027-05-28T16:00:00.000Z",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "oasis"
+      ],
+      "event_names": [
+        "Oasis Live '27"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-oasis-2027-glasgow-1agzkfwgkd5pben",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "35006532CB9589E3",
+          "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-28-05-2027/event/35006532CB9589E3",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Birmingham",
+      "raw_city_labels": [
+        "Birmingham"
+      ],
+      "venue": "Utilita Arena Birmingham",
+      "local_date": "2027-05-28",
+      "starts_at": "2027-05-28T16:30:00.000Z",
+      "artists": [
+        "Nickelback"
+      ],
+      "artist_ids": [
+        "nickelback"
+      ],
+      "event_names": [
+        "Nickelback: Everything Under The Sun Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-nickelback-2027-birmingham-1kfyvp3_gagcomu",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "230065499CB60DF6",
+          "source_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-birmingham-28-05-2027/event/230065499CB60DF6",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Co-op Live",
+      "local_date": "2027-05-28",
+      "starts_at": "2027-05-28T17:00:00.000Z",
+      "artists": [
+        "Tame Impala"
+      ],
+      "artist_ids": [
+        "tame-impala"
+      ],
+      "event_names": [
+        "Tame Impala - Deadbeat EU/UK Tour 2027"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-tame-impala-2027-manchester-1amzkf4gkemyn8u",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "37006515B7C2A40D",
+          "source_url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-manchester-28-05-2027/event/37006515B7C2A40D",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-05-28",
+      "starts_at": "2027-05-28T17:30:00.000Z",
+      "artists": [
+        "Greta Van Fleet"
+      ],
+      "artist_ids": [
+        "greta-van-fleet"
+      ],
+      "event_names": [
+        "Greta Van Fleet - Into the Beginning"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-greta-van-fleet-2027-london-1adfz_kgkmuet5g",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500653DF69FF2F5",
+          "source_url": "https://www.ticketmaster.co.uk/greta-van-fleet-into-the-beginning-london-28-05-2027/event/3500653DF69FF2F5",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "Celtic Park",
+      "local_date": "2027-05-29",
+      "starts_at": "2027-05-29T16:00:00.000Z",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "oasis"
+      ],
+      "event_names": [
+        "Oasis Live '27"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-oasis-2027-glasgow-1agzkfwgkdu5imb",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "35006532CD2E8B98",
+          "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-29-05-2027/event/35006532CD2E8B98",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Co-op Live",
+      "local_date": "2027-05-29",
+      "starts_at": "2027-05-29T17:00:00.000Z",
+      "artists": [
+        "Tame Impala"
+      ],
+      "artist_ids": [
+        "tame-impala"
+      ],
+      "event_names": [
+        "Tame Impala - Deadbeat EU/UK Tour 2027"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-tame-impala-2027-manchester-1amzkf_gkdr-2ec",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "37006519DE84F9ED",
+          "source_url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-manchester-29-05-2027/event/37006519DE84F9ED",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Birmingham",
+      "raw_city_labels": [
+        "Birmingham"
+      ],
+      "venue": "Utilita Arena Birmingham",
+      "local_date": "2027-05-30",
+      "starts_at": "2027-05-30T17:00:00.000Z",
+      "artists": [
+        "Greta Van Fleet"
+      ],
+      "artist_ids": [
+        "greta-van-fleet"
+      ],
+      "event_names": [
+        "Greta Van Fleet - Into the Beginning"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-greta-van-fleet-2027-birmingham-1aegz_kgkmz0sov",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "2300653DF8931441",
+          "source_url": "https://www.ticketmaster.co.uk/greta-van-fleet-into-the-beginning-birmingham-30-05-2027/event/2300653DF8931441",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "OVO Hydro",
+      "local_date": "2027-06-01",
+      "starts_at": "2027-06-01T16:30:00.000Z",
+      "artists": [
+        "Nickelback"
+      ],
+      "artist_ids": [
+        "nickelback"
+      ],
+      "event_names": [
+        "Nickelback: Everything Under The Sun Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-nickelback-2027-glasgow-1auzk46gkexekqz",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "36006547BE9C6740",
+          "source_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-glasgow-01-06-2027/event/36006547BE9C6740",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-06-01",
+      "starts_at": "2027-06-01T17:00:00.000Z",
+      "artists": [
+        "Tame Impala"
+      ],
+      "artist_ids": [
+        "tame-impala"
+      ],
+      "event_names": [
+        "Tame Impala - Deadbeat EU/UK Tour 2027"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-tame-impala-2027-london-16dfz_ofpg7t8j2",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500651525FD098F",
+          "source_url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-london-01-06-2027/event/3500651525FD098F",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Co-op Live",
+      "local_date": "2027-06-01",
+      "starts_at": "2027-06-01T18:30:00.000Z",
+      "artists": [
+        "Greta Van Fleet"
+      ],
+      "artist_ids": [
+        "greta-van-fleet"
+      ],
+      "event_names": [
+        "Greta Van Fleet - Into the Beginning"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-greta-van-fleet-2027-manchester-1adjz_kgkbyud70",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3700653EB0D83124",
+          "source_url": "https://www.ticketmaster.co.uk/greta-van-fleet-into-the-beginning-manchester-01-06-2027/event/3700653EB0D83124",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-06-02",
+      "starts_at": "2027-06-02T17:00:00.000Z",
+      "artists": [
+        "Tame Impala"
+      ],
+      "artist_ids": [
+        "tame-impala"
+      ],
+      "event_names": [
+        "Tame Impala - Deadbeat EU/UK Tour 2027"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-tame-impala-2027-london-16dfz_ofjg7iyih",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500651526A30A1B",
+          "source_url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-london-02-06-2027/event/3500651526A30A1B",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "OVO Hydro",
+      "local_date": "2027-06-02",
+      "starts_at": "2027-06-02T17:30:00.000Z",
+      "artists": [
+        "Greta Van Fleet"
+      ],
+      "artist_ids": [
+        "greta-van-fleet"
+      ],
+      "event_names": [
+        "Greta Van Fleet - Into the Beginning"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-greta-van-fleet-2027-glasgow-1auzkfugkd_hipm",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "36006536D9F285AE",
+          "source_url": "https://www.ticketmaster.co.uk/greta-van-fleet-into-the-beginning-glasgow-02-06-2027/event/36006536D9F285AE",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Co-op Live",
+      "local_date": "2027-06-02",
+      "starts_at": "2027-06-02T18:30:00.000Z",
+      "artists": [
+        "Nickelback"
+      ],
+      "artist_ids": [
+        "nickelback"
+      ],
+      "event_names": [
+        "Nickelback: Everything Under The Sun Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-nickelback-2027-manchester-1amzk46gkdgpim1",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "37006547CC5A8DCA",
+          "source_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-manchester-02-06-2027/event/37006547CC5A8DCA",
+          "observed_at": "2026-10-18",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-06-03",
+      "starts_at": "2027-06-03T17:00:00.000Z",
+      "artists": [
+        "Tame Impala"
+      ],
+      "artist_ids": [
+        "tame-impala"
+      ],
+      "event_names": [
+        "Tame Impala - Deadbeat EU/UK Tour 2027"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-tame-impala-2027-london-1agzkfbgkdvvzlq",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "35006518F4D387DA",
+          "source_url": "https://www.ticketmaster.co.uk/tame-impala-deadbeat-euuk-tour-2027-london-03-06-2027/event/35006518F4D387DA",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Etihad Stadium",
+      "local_date": "2027-06-04",
+      "starts_at": "2027-06-04T16:00:00.000Z",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "oasis"
+      ],
+      "event_names": [
+        "Oasis Live '27"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-oasis-2027-manchester-g5dzz_3lwzpdp",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00652AF20160D6",
+          "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-04-06-2027/event/3E00652AF20160D6",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Etihad Stadium",
+      "local_date": "2027-06-06",
+      "starts_at": "2027-06-06T16:00:00.000Z",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "oasis"
+      ],
+      "event_names": [
+        "Oasis Live '27"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-oasis-2027-manchester-g5dzz_3lmyj87",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00652AF7E66404",
+          "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-06-06-2027/event/3E00652AF7E66404",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Etihad Stadium",
+      "local_date": "2027-06-08",
+      "starts_at": "2027-06-08T16:00:00.000Z",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "oasis"
+      ],
+      "event_names": [
+        "Oasis Live '27"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-oasis-2027-manchester-g5dzz_3lbuu4c",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00652AFA37656D",
+          "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-08-06-2027/event/3E00652AFA37656D",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Etihad Stadium",
+      "local_date": "2027-06-11",
+      "starts_at": "2027-06-11T16:00:00.000Z",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "oasis"
+      ],
+      "event_names": [
+        "Oasis Live '27"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-oasis-2027-manchester-g5dzz_3lwcjqy",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00652AFD3A6770",
+          "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-11-06-2027/event/3E00652AFD3A6770",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Etihad Stadium",
+      "local_date": "2027-06-12",
+      "starts_at": "2027-06-12T16:00:00.000Z",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "oasis"
+      ],
+      "event_names": [
+        "Oasis Live '27"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-oasis-2027-manchester-g5dzz_3lxmu-j",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00652AFEBB6866",
+          "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-12-06-2027/event/3E00652AFEBB6866",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Etihad Stadium",
+      "local_date": "2027-06-15",
+      "starts_at": "2027-06-15T16:00:00.000Z",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "oasis"
+      ],
+      "event_names": [
+        "Oasis Live '27"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-oasis-2027-manchester-g5dzz_3nq9ecb",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00652A9A5C2B58",
+          "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-15-06-2027/event/3E00652A9A5C2B58",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Belfast",
+      "raw_city_labels": [
+        "Belfast"
+      ],
+      "venue": "Ormeau Park",
+      "local_date": "2027-06-17",
+      "starts_at": "2027-06-17T17:00:00.000Z",
+      "artists": [
+        "Sombr"
+      ],
+      "artist_ids": [
+        "sombr"
+      ],
+      "event_names": [
+        "SOMBR // You Are The Reason Tour // Belfast"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-sombr-2027-belfast-16doz_oxfg7tv55",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3800651894A412CB",
+          "source_url": "https://www.ticketmaster.ie/sombr-you-are-the-reason-tour-belfast-17-06-2027/event/3800651894A412CB",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Etihad Stadium",
+      "local_date": "2027-06-18",
+      "starts_at": "2027-06-18T16:00:00.000Z",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "oasis"
+      ],
+      "event_names": [
+        "Oasis Live '27"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-oasis-2027-manchester-g5dzz_3lv67ao",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00652AC11C4260",
+          "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-18-06-2027/event/3E00652AC11C4260",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "Bellahouston Park",
+      "local_date": "2027-06-19",
+      "starts_at": "2027-06-19T15:00:00.000Z",
+      "artists": [
+        "Sombr"
+      ],
+      "artist_ids": [
+        "sombr"
+      ],
+      "event_names": [
+        "Glasgow Summer Sessions - SOMBR // You Are The Reason Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-sombr-2027-glasgow-1auzkfbgkeiqyo0",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "36006518AC6B9824",
+          "source_url": "https://www.ticketmaster.co.uk/glasgow-summer-sessions-sombr-you-are-glasgow-19-06-2027/event/36006518AC6B9824",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Etihad Stadium",
+      "local_date": "2027-06-19",
+      "starts_at": "2027-06-19T16:00:00.000Z",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "oasis"
+      ],
+      "event_names": [
+        "Oasis Live '27"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-oasis-2027-manchester-g5dzz_3l--ppl",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00652AE186559F",
+          "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-19-06-2027/event/3E00652AE186559F",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-06-21",
+      "starts_at": "2027-06-21T17:30:00.000Z",
+      "artists": [
+        "Sombr"
+      ],
+      "artist_ids": [
+        "sombr"
+      ],
+      "event_names": [
+        "SOMBR // You Are The Reason Tour // London"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-sombr-2027-london-1adfz_ogkwyrfux",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500651CB0788DBE",
+          "source_url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-21-06-2027/event/3500651CB0788DBE",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Etihad Stadium",
+      "local_date": "2027-06-22",
+      "starts_at": "2027-06-22T16:00:00.000Z",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "oasis"
+      ],
+      "event_names": [
+        "Oasis Live '27"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-oasis-2027-manchester-g5dzz_3l0pglg",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00652AE49757CC",
+          "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-22-06-2027/event/3E00652AE49757CC",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-06-22",
+      "starts_at": "2027-06-22T17:30:00.000Z",
+      "artists": [
+        "Sombr"
+      ],
+      "artist_ids": [
+        "sombr"
+      ],
+      "event_names": [
+        "SOMBR // You Are The Reason Tour // London"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-sombr-2027-london-1adfz_ogklwvhfa",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500651AF207C509",
+          "source_url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-22-06-2027/event/3500651AF207C509",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Belfast",
+      "raw_city_labels": [
+        "Belfast"
+      ],
+      "venue": "Ormeau Park",
+      "local_date": "2027-06-23",
+      "starts_at": "2027-06-23T17:00:00.000Z",
+      "artists": [
+        "Amble"
+      ],
+      "artist_ids": [
+        "amble"
+      ],
+      "event_names": [
+        "Amble"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-amble-2027-belfast-17czv0g62qetzl-",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "380064F682FC0AE1",
+          "source_url": "https://www.ticketmaster.ie/amble-belfast-23-06-2027/event/380064F682FC0AE1",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "OVO Hydro",
+      "local_date": "2027-06-23",
+      "starts_at": "2027-06-23T17:30:00.000Z",
+      "artists": [
+        "Hayley Williams"
+      ],
+      "artist_ids": [
+        "hayley-williams"
+      ],
+      "event_names": [
+        "The Hayley Williams Show"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-hayley-williams-2027-glasgow-1auzkf-gkd-5zto",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "36006521E12F8A60",
+          "source_url": "https://www.ticketmaster.co.uk/the-hayley-williams-show-glasgow-23-06-2027/event/36006521E12F8A60",
+          "observed_at": "2026-10-16",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-06-24",
+      "starts_at": "2027-06-24T17:30:00.000Z",
+      "artists": [
+        "Sombr"
+      ],
+      "artist_ids": [
+        "sombr"
+      ],
+      "event_names": [
+        "SOMBR // You Are The Reason Tour // London"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-sombr-2027-london-1adfz_ogkwskt7w",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500651CB34E913D",
+          "source_url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-24-06-2027/event/3500651CB34E913D",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Etihad Stadium",
+      "local_date": "2027-06-25",
+      "starts_at": "2027-06-25T16:00:00.000Z",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "oasis"
+      ],
+      "event_names": [
+        "Oasis Live '27"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-oasis-2027-manchester-g5dzz_3ljog0t",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00652AE6835929",
+          "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-25-06-2027/event/3E00652AE6835929",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-06-25",
+      "starts_at": "2027-06-25T17:30:00.000Z",
+      "artists": [
+        "Sombr"
+      ],
+      "artist_ids": [
+        "sombr"
+      ],
+      "event_names": [
+        "SOMBR // You Are The Reason Tour // London"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-sombr-2027-london-1adfz_ogkwy2ti0",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500651CB93E9B24",
+          "source_url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-25-06-2027/event/3500651CB93E9B24",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Etihad Stadium",
+      "local_date": "2027-06-26",
+      "starts_at": "2027-06-26T16:00:00.000Z",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "oasis"
+      ],
+      "event_names": [
+        "Oasis Live '27"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-oasis-2027-manchester-g5dzz_3lnpprv",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00652AEA965BC1",
+          "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-26-06-2027/event/3E00652AEA965BC1",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Cardiff",
+      "raw_city_labels": [
+        "Cardiff"
+      ],
+      "venue": "Blackweir Fields, Cardiff",
+      "local_date": "2027-06-29",
+      "starts_at": "2027-06-29T16:00:00.000Z",
+      "artists": [
+        "Fontaines D.C."
+      ],
+      "artist_ids": [
+        "fontaines-d-c"
+      ],
+      "event_names": [
+        "Fontaines D.C."
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-fontaines-d-c-2027-cardiff-g5vhz_oiinrjk",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F00651B2C8DE986",
+          "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-cardiff-29-06-2027/event/1F00651B2C8DE986",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "Galvanizers Yard SWG3",
+      "local_date": "2027-06-29",
+      "starts_at": "2027-06-29T17:00:00.000Z",
+      "artists": [
+        "Amble"
+      ],
+      "artist_ids": [
+        "amble"
+      ],
+      "event_names": [
+        "Amble - Love And All Its Wares"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-amble-2027-glasgow-17uov0g62brrf6b",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "360064FE9EBD41FA",
+          "source_url": "https://www.ticketmaster.co.uk/amble-love-and-all-its-wares-glasgow-29-06-2027/event/360064FE9EBD41FA",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-06-29",
+      "starts_at": "2027-06-29T17:30:00.000Z",
+      "artists": [
+        "Sombr"
+      ],
+      "artist_ids": [
+        "sombr"
+      ],
+      "event_names": [
+        "SOMBR // You Are The Reason Tour // London"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-sombr-2027-london-1adfz_ogkwwynfm",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500651CBDE6A237",
+          "source_url": "https://www.ticketmaster.co.uk/sombr-you-are-the-reason-tour-london-29-06-2027/event/3500651CBDE6A237",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Cardiff",
+      "raw_city_labels": [
+        "Cardiff"
+      ],
+      "venue": "Utilita Arena Cardiff",
+      "local_date": "2027-06-30",
+      "starts_at": "2027-06-30T17:30:00.000Z",
+      "artists": [
+        "Hayley Williams"
+      ],
+      "artist_ids": [
+        "hayley-williams"
+      ],
+      "event_names": [
+        "The Hayley Williams Show"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-hayley-williams-2027-cardiff-1adbz_ogkwuumuk",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3600651C8DDB7D86",
+          "source_url": "https://www.ticketmaster.co.uk/the-hayley-williams-show-cardiff-30-06-2027/event/3600651C8DDB7D86",
+          "observed_at": "2026-10-16",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Newcastle Upon Tyne",
+      "raw_city_labels": [
+        "Newcastle Upon Tyne"
+      ],
+      "venue": "St James Park",
+      "local_date": "2027-07-01",
+      "starts_at": "2027-07-01T15:00:00.000Z",
+      "artists": [
+        "Fontaines D.C."
+      ],
+      "artist_ids": [
+        "fontaines-d-c"
+      ],
+      "event_names": [
+        "Fontaines D.C."
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-fontaines-d-c-2027-newcastle-upon-tyne-1adfz_ogkm3hlfk",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500651DD2F2B513",
+          "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-newcastle-upon-tyne-01-07-2027/event/3500651DD2F2B513",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "Royal Albert Hall",
+      "local_date": "2027-07-02",
+      "starts_at": "2027-07-02T18:30:00.000Z",
+      "artists": [
+        "Pink Martini"
+      ],
+      "artist_ids": [
+        "pink-martini"
+      ],
+      "event_names": [
+        "Pink Martini"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-pink-martini-2027-london-g5vhz_fqbbwez",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F00654698EB20B8",
+          "source_url": "https://www.ticketmaster.co.uk/pink-martini-london-02-07-2027/event/1F00654698EB20B8",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Heaton Park",
+      "local_date": "2027-07-03",
+      "starts_at": "2027-07-03T14:00:00.000Z",
+      "artists": [
+        "Fontaines D.C."
+      ],
+      "artist_ids": [
+        "fontaines-d-c"
+      ],
+      "event_names": [
+        "Fontaines D.C."
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-fontaines-d-c-2027-manchester-g5dzz_omjzv0z",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00651BA6E01938",
+          "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-manchester-03-07-2027/event/3E00651BA6E01938",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "Wembley Stadium",
+      "local_date": "2027-07-03",
+      "starts_at": "2027-07-03T14:30:00.000Z",
+      "artists": [
+        "Slipknot"
+      ],
+      "artist_ids": [
+        "slipknot"
+      ],
+      "event_names": [
+        "Slipknot - (sic)est Stadium Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-slipknot-2027-london-1anzkfggkdhuzzd",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "23006535DBD80E3B",
+          "source_url": "https://www.ticketmaster.co.uk/slipknot-sicest-stadium-tour-london-03-07-2027/event/23006535DBD80E3B",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Liverpool",
+      "raw_city_labels": [
+        "Liverpool"
+      ],
+      "venue": "Liverpool Philharmonic Hall",
+      "local_date": "2027-07-03",
+      "starts_at": "2027-07-03T18:30:00.000Z",
+      "artists": [
+        "Pink Martini"
+      ],
+      "artist_ids": [
+        "pink-martini"
+      ],
+      "event_names": [
+        "Pink Martini"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-pink-martini-2027-liverpool-g5vhz_fpr6w_w",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F0065459E1F267D",
+          "source_url": "https://www.ticketmaster.co.uk/pink-martini-liverpool-03-07-2027/event/1F0065459E1F267D",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Heaton Park",
+      "local_date": "2027-07-04",
+      "starts_at": "2027-07-04T14:00:00.000Z",
+      "artists": [
+        "Fontaines D.C."
+      ],
+      "artist_ids": [
+        "fontaines-d-c"
+      ],
+      "event_names": [
+        "Fontaines D.C."
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-fontaines-d-c-2027-manchester-g5dzz_osdpprt",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00651CC35A57A9",
+          "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-manchester-04-07-2027/event/3E00651CC35A57A9",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Edinburgh",
+      "raw_city_labels": [
+        "Edinburgh"
+      ],
+      "venue": "Usher Hall",
+      "local_date": "2027-07-04",
+      "starts_at": "2027-07-04T18:30:00.000Z",
+      "artists": [
+        "Pink Martini"
+      ],
+      "artist_ids": [
+        "pink-martini"
+      ],
+      "event_names": [
+        "Pink Martini"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-pink-martini-2027-edinburgh-1auzk4agkdmo6dj",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "36006545EE447EE6",
+          "source_url": "https://www.ticketmaster.co.uk/pink-martini-edinburgh-04-07-2027/event/36006545EE447EE6",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "Glasgow Green",
+      "local_date": "2027-07-06",
+      "starts_at": "2027-07-06T16:00:00.000Z",
+      "artists": [
+        "Fontaines D.C."
+      ],
+      "artist_ids": [
+        "fontaines-d-c"
+      ],
+      "event_names": [
+        "Fontaines D.C."
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-fontaines-d-c-2027-glasgow-1adbz_ogkrs74cl",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3600651BF31153AB",
+          "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-glasgow-06-07-2027/event/3600651BF31153AB",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "Tottenham Hotspur Stadium",
+      "local_date": "2027-07-06",
+      "starts_at": "2027-07-06T16:30:00.000Z",
+      "artists": [
+        "Karol G"
+      ],
+      "artist_ids": [
+        "karol-g"
+      ],
+      "event_names": [
+        "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-karol-g-2027-london-1agzk3ogkddbuhf",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "35006491FBEB66D4",
+          "source_url": "https://www.ticketmaster.co.uk/karol-g-viajando-por-el-mundo-london-06-07-2027/event/35006491FBEB66D4",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Castlefield Bowl",
+      "local_date": "2027-07-08",
+      "starts_at": "2027-07-08T16:30:00.000Z",
+      "artists": [
+        "Amble"
+      ],
+      "artist_ids": [
+        "amble"
+      ],
+      "event_names": [
+        "Amble - Love And All Its Wares"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-amble-2027-manchester-g5vhz_8upt3w4",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F00650D96FD2F55",
+          "source_url": "https://www.ticketmaster.co.uk/amble-love-and-all-its-wares-manchester-08-07-2027/event/1F00650D96FD2F55",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "Alexandra Palace Park",
+      "local_date": "2027-07-09",
+      "starts_at": "2027-07-09T16:00:00.000Z",
+      "artists": [
+        "Amble"
+      ],
+      "artist_ids": [
+        "amble"
+      ],
+      "event_names": [
+        "Amble - Love And All Its Wares"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-amble-2027-london-g5vhz_8sflgki",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F00650CC87F51A8",
+          "source_url": "https://www.ticketmaster.co.uk/amble-love-and-all-its-wares-london-09-07-2027/event/1F00650CC87F51A8",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "London Stadium",
+      "local_date": "2027-07-09",
+      "starts_at": "2027-07-09T16:00:00.000Z",
+      "artists": [
+        "Fontaines D.C."
+      ],
+      "artist_ids": [
+        "fontaines-d-c"
+      ],
+      "event_names": [
+        "Fontaines D.C."
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-fontaines-d-c-2027-london-1ku8vpf_ga19knu",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "350065219A5D38CD",
+          "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-london-09-07-2027/event/350065219A5D38CD",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "Barclays Hampden",
+      "local_date": "2027-07-13",
+      "starts_at": "2027-07-13T16:00:00.000Z",
+      "artists": [
+        "Noah Kahan"
+      ],
+      "artist_ids": [
+        "noah-kahan"
+      ],
+      "event_names": [
+        "Noah Kahan: The Last of the Bugs Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-noah-kahan-2027-glasgow-1adbz_8gkufqoce",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3600650D94751B67",
+          "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-glasgow-13-07-2027/event/3600650D94751B67",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "Wembley Stadium",
+      "local_date": "2027-07-23",
+      "starts_at": "2027-07-23T16:00:00.000Z",
+      "artists": [
+        "Noah Kahan"
+      ],
+      "artist_ids": [
+        "noah-kahan"
+      ],
+      "event_names": [
+        "Noah Kahan - The Last of the Bugs Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-noah-kahan-2027-london-1anzkf3gkd7-b4s",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "23006512C487A573",
+          "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-23-07-2027/event/23006512C487A573",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "Wembley Stadium",
+      "local_date": "2027-07-24",
+      "starts_at": "2027-07-24T16:00:00.000Z",
+      "artists": [
+        "Noah Kahan"
+      ],
+      "artist_ids": [
+        "noah-kahan"
+      ],
+      "event_names": [
+        "Noah Kahan - The Last of the Bugs Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-noah-kahan-2027-london-1anzkf4gkexwogg",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "23006515BECA0D4C",
+          "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-24-07-2027/event/23006515BECA0D4C",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "Wembley Stadium",
+      "local_date": "2027-07-25",
+      "starts_at": "2027-07-25T15:30:00.000Z",
+      "artists": [
+        "Noah Kahan"
+      ],
+      "artist_ids": [
+        "noah-kahan"
+      ],
+      "event_names": [
+        "Noah Kahan - The Last of the Bugs Tour"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-noah-kahan-2027-london-1anzkf4gkddlzu_",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "23006515C37C0D99",
+          "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-25-07-2027/event/23006515C37C0D99",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "Wembley Stadium",
+      "local_date": "2027-08-25",
+      "starts_at": "2027-08-25T16:00:00.000Z",
+      "artists": [
+        "Harry Styles"
+      ],
+      "artist_ids": [
+        "harry-styles"
+      ],
+      "event_names": [
+        "Harry Styles: Together, Together"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-harry-styles-2027-london-1aegz_8gkdalwdz",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "2300650EC5AF20F8",
+          "source_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-25-08-2027/event/2300650EC5AF20F8",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "Wembley Stadium",
+      "local_date": "2027-08-27",
+      "starts_at": "2027-08-27T16:00:00.000Z",
+      "artists": [
+        "Harry Styles"
+      ],
+      "artist_ids": [
+        "harry-styles"
+      ],
+      "event_names": [
+        "Harry Styles: Together, Together"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-harry-styles-2027-london-1anzkfigkew9djd",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "23006528B25C373B",
+          "source_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-27-08-2027/event/23006528B25C373B",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "Wembley Stadium",
+      "local_date": "2027-08-28",
+      "starts_at": "2027-08-28T16:00:00.000Z",
+      "artists": [
+        "Harry Styles"
+      ],
+      "artist_ids": [
+        "harry-styles"
+      ],
+      "event_names": [
+        "Harry Styles: Together, Together"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-harry-styles-2027-london-1anzkfigkeycdjb",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "23006528B9383998",
+          "source_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-28-08-2027/event/23006528B9383998",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Belfast",
+      "raw_city_labels": [
+        "Belfast"
+      ],
+      "venue": "Ulster Hall Belfast",
+      "local_date": "2027-09-08",
+      "starts_at": "2027-09-08T18:45:00.000Z",
+      "artists": [
+        "Passenger"
+      ],
+      "artist_ids": [
+        "passenger"
+      ],
+      "event_names": [
+        "Passenger"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-passenger-2027-belfast-16zzkfkojzage16c",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "38006513826B196D",
+          "source_url": "https://www.ticketmaster.ie/passenger-belfast-08-09-2027/event/38006513826B196D",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Stevenage",
+      "raw_city_labels": [
+        "Stevenage"
+      ],
+      "venue": "Knebworth",
+      "local_date": "2027-09-11",
+      "starts_at": "2027-09-11T13:00:00.000Z",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "oasis"
+      ],
+      "event_names": [
+        "Oasis Live '27"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-oasis-2027-stevenage-1adjz_3gklfny3e",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3700652AD4AB9482",
+          "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-11-09-2027/event/3700652AD4AB9482",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "O2 Academy Glasgow",
+      "local_date": "2027-09-11",
+      "starts_at": "2027-09-11T18:00:00.000Z",
+      "artists": [
+        "Passenger"
+      ],
+      "artist_ids": [
+        "passenger"
+      ],
+      "event_names": [
+        "Passenger"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-passenger-2027-glasgow-g5dzz_8wyqwf1",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E00650CB077220A",
+          "source_url": "https://www.ticketmaster.co.uk/passenger-glasgow-11-09-2027/event/3E00650CB077220A",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Stevenage",
+      "raw_city_labels": [
+        "Stevenage"
+      ],
+      "venue": "Knebworth",
+      "local_date": "2027-09-12",
+      "starts_at": "2027-09-12T13:00:00.000Z",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "oasis"
+      ],
+      "event_names": [
+        "Oasis Live '27"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-oasis-2027-stevenage-1adjz_3gkrrmy7n",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3700652BDEBB9123",
+          "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-12-09-2027/event/3700652BDEBB9123",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Edinburgh",
+      "raw_city_labels": [
+        "Edinburgh"
+      ],
+      "venue": "Usher Hall",
+      "local_date": "2027-09-12",
+      "starts_at": "2027-09-12T18:00:00.000Z",
+      "artists": [
+        "Passenger"
+      ],
+      "artist_ids": [
+        "passenger"
+      ],
+      "event_names": [
+        "Passenger"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-passenger-2027-edinburgh-1adbz_8gks0vdnw",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3600650CE407B8FD",
+          "source_url": "https://www.ticketmaster.co.uk/passenger-edinburgh-12-09-2027/event/3600650CE407B8FD",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Newcastle Upon Tyne",
+      "raw_city_labels": [
+        "Newcastle Upon Tyne"
+      ],
+      "venue": "O2 City Hall Newcastle",
+      "local_date": "2027-09-14",
+      "starts_at": "2027-09-14T18:00:00.000Z",
+      "artists": [
+        "Passenger"
+      ],
+      "artist_ids": [
+        "passenger"
+      ],
+      "event_names": [
+        "Passenger"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-passenger-2027-newcastle-upon-tyne-g5dzz_o6adefx",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E006511C90C223E",
+          "source_url": "https://www.ticketmaster.co.uk/passenger-newcastle-upon-tyne-14-09-2027/event/3E006511C90C223E",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "O2 Apollo Manchester",
+      "local_date": "2027-09-15",
+      "starts_at": "2027-09-15T18:00:00.000Z",
+      "artists": [
+        "Passenger"
+      ],
+      "artist_ids": [
+        "passenger"
+      ],
+      "event_names": [
+        "Passenger"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-passenger-2027-manchester-17uov0g62wjanur",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "360064FC9C26336F",
+          "source_url": "https://www.ticketmaster.co.uk/passenger-manchester-15-09-2027/event/360064FC9C26336F",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "Eventim Apollo",
+      "local_date": "2027-09-17",
+      "starts_at": "2027-09-17T18:00:00.000Z",
+      "artists": [
+        "Passenger"
+      ],
+      "artist_ids": [
+        "passenger"
+      ],
+      "event_names": [
+        "Passenger"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-passenger-2027-london-1auzkf3gkd0sykm",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "36006512E4CF91AE",
+          "source_url": "https://www.ticketmaster.co.uk/passenger-london-17-09-2027/event/36006512E4CF91AE",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Stevenage",
+      "raw_city_labels": [
+        "Stevenage"
+      ],
+      "venue": "Knebworth",
+      "local_date": "2027-09-18",
+      "starts_at": "2027-09-18T13:00:00.000Z",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "oasis"
+      ],
+      "event_names": [
+        "Oasis Live '27"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-oasis-2027-stevenage-1adjz_3gkrnjt4_",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3700652BE39A9559",
+          "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-18-09-2027/event/3700652BE39A9559",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Stevenage",
+      "raw_city_labels": [
+        "Stevenage"
+      ],
+      "venue": "Knebworth",
+      "local_date": "2027-09-19",
+      "starts_at": "2027-09-19T13:00:00.000Z",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "oasis"
+      ],
+      "event_names": [
+        "Oasis Live '27"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-oasis-2027-stevenage-1adjz_3gkreiyj0",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3700652BE7A399A4",
+          "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-19-09-2027/event/3700652BE7A399A4",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Exeter",
+      "raw_city_labels": [
+        "Exeter"
+      ],
+      "venue": "The Great Hall, Exeter",
+      "local_date": "2027-09-21",
+      "starts_at": "2027-09-21T18:00:00.000Z",
+      "artists": [
+        "Passenger"
+      ],
+      "artist_ids": [
+        "passenger"
+      ],
+      "event_names": [
+        "Passenger"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-passenger-2027-exeter-g5vhz_o2o0irs",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F006513E0928BF1",
+          "source_url": "https://www.ticketmaster.co.uk/passenger-exeter-21-09-2027/event/1F006513E0928BF1",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Birmingham",
+      "raw_city_labels": [
+        "Birmingham"
+      ],
+      "venue": "O2 Academy Birmingham",
+      "local_date": "2027-09-24",
+      "starts_at": "2027-09-24T18:00:00.000Z",
+      "artists": [
+        "Passenger"
+      ],
+      "artist_ids": [
+        "passenger"
+      ],
+      "event_names": [
+        "Passenger"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-passenger-2027-birmingham-g5dzz_2wg0-vu",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3E0064FC8C92104D",
+          "source_url": "https://www.ticketmaster.co.uk/passenger-birmingham-24-09-2027/event/3E0064FC8C92104D",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Stevenage",
+      "raw_city_labels": [
+        "Stevenage"
+      ],
+      "venue": "Knebworth",
+      "local_date": "2027-09-25",
+      "starts_at": "2027-09-25T13:00:00.000Z",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "oasis"
+      ],
+      "event_names": [
+        "Oasis Live '27"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-oasis-2027-stevenage-1adjz_3gkrs3n_k",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3700652BF34AA653",
+          "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-25-09-2027/event/3700652BF34AA653",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Brighton",
+      "raw_city_labels": [
+        "Brighton"
+      ],
+      "venue": "Brighton Dome",
+      "local_date": "2027-09-25",
+      "starts_at": "2027-09-25T18:00:00.000Z",
+      "artists": [
+        "Passenger"
+      ],
+      "artist_ids": [
+        "passenger"
+      ],
+      "event_names": [
+        "Passenger"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-passenger-2027-brighton-g5vhz_o5oziab",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "1F006512E002817A",
+          "source_url": "https://www.ticketmaster.co.uk/passenger-brighton-25-09-2027/event/1F006512E002817A",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Stevenage",
+      "raw_city_labels": [
+        "Stevenage"
+      ],
+      "venue": "Knebworth",
+      "local_date": "2027-09-26",
+      "starts_at": "2027-09-26T13:00:00.000Z",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "oasis"
+      ],
+      "event_names": [
+        "Oasis Live '27"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-oasis-2027-stevenage-1adjz_3gkrz1qva",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3700652BF829AD09",
+          "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-26-09-2027/event/3700652BF829AD09",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Birmingham",
+      "raw_city_labels": [
+        "Birmingham"
+      ],
+      "venue": "Utilita Arena Birmingham",
+      "local_date": "2027-09-29",
+      "starts_at": "2027-09-29T17:00:00.000Z",
+      "artists": [
+        "Andrea Bocelli"
+      ],
+      "artist_ids": [
+        "andrea-bocelli"
+      ],
+      "event_names": [
+        "Andrea Bocelli"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-andrea-bocelli-2027-birmingham-1aegz_kgkwagold",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "2300653C85D60AC3",
+          "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-birmingham-29-09-2027/event/2300653C85D60AC3",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "raw_city_labels": [
+        "London"
+      ],
+      "venue": "The O2",
+      "local_date": "2027-10-01",
+      "starts_at": "2027-10-01T17:30:00.000Z",
+      "artists": [
+        "Andrea Bocelli"
+      ],
+      "artist_ids": [
+        "andrea-bocelli"
+      ],
+      "event_names": [
+        "Andrea Bocelli"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-andrea-bocelli-2027-london-1adfz_kgkbcpkr9",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3500653E8E593797",
+          "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-london-01-10-2027/event/3500653E8E593797",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "raw_city_labels": [
+        "Manchester"
+      ],
+      "venue": "Co-op Live",
+      "local_date": "2027-10-05",
+      "starts_at": "2027-10-05T17:30:00.000Z",
+      "artists": [
+        "Andrea Bocelli"
+      ],
+      "artist_ids": [
+        "andrea-bocelli"
+      ],
+      "event_names": [
+        "Andrea Bocelli: Romanza - 30th Anniversary"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-andrea-bocelli-2027-manchester-1amzkfzgkd7qkyk",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "37006538C4746C13",
+          "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-romanza-30th-anniversary-manchester-05-10-2027/event/37006538C4746C13",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "raw_city_labels": [
+        "Glasgow"
+      ],
+      "venue": "OVO Hydro",
+      "local_date": "2027-10-09",
+      "starts_at": "2027-10-09T17:30:00.000Z",
+      "artists": [
+        "Andrea Bocelli"
+      ],
+      "artist_ids": [
+        "andrea-bocelli"
+      ],
+      "event_names": [
+        "Andrea Bocelli: Romanza - 30th Anniversary"
+      ],
+      "evidence": [
+        {
+          "record_id": "tm-andrea-bocelli-2027-glasgow-1adbz_k03jdzd5av",
+          "source": "ttc-reviewed-catalogue",
+          "source_event_id": "3600653912983A40",
+          "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-romanza-30th-anniversary-glasgow-09-10-2027/event/3600653912983A40",
+          "observed_at": "2026-10-15",
+          "observation_precision": "day"
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "record_id": "tm-ariana-grande-2026-london-3500631c8ea13055",
+      "source": "ttc-reviewed-catalogue",
+      "source_event_id": "3500631C8EA13055",
+      "observed_at": "2026-05-07",
+      "reason": "stale_observation"
+    },
+    {
+      "record_id": "tm-ariana-grande-2026-london-3500631c950d310b",
+      "source": "ttc-reviewed-catalogue",
+      "source_event_id": "3500631C950D310B",
+      "observed_at": "2026-05-07",
+      "reason": "stale_observation"
+    },
+    {
+      "record_id": "tm-ariana-grande-2026-london-3500631c97193144",
+      "source": "ttc-reviewed-catalogue",
+      "source_event_id": "3500631C97193144",
+      "observed_at": "2026-05-07",
+      "reason": "stale_observation"
+    },
+    {
+      "record_id": "tm-ariana-grande-2026-london-35006324f4e94ebb",
+      "source": "ttc-reviewed-catalogue",
+      "source_event_id": "35006324F4E94EBB",
+      "observed_at": "2026-05-07",
+      "reason": "stale_observation"
+    },
+    {
+      "record_id": "tm-ariana-grande-2026-london-35006324f4fe4f2a",
+      "source": "ttc-reviewed-catalogue",
+      "source_event_id": "35006324F4FE4F2A",
+      "observed_at": "2026-05-07",
+      "reason": "stale_observation"
+    },
+    {
+      "record_id": "tm-ariana-grande-2026-london-35006324f5075024",
+      "source": "ttc-reviewed-catalogue",
+      "source_event_id": "35006324F5075024",
+      "observed_at": "2026-05-07",
+      "reason": "stale_observation"
+    },
+    {
+      "record_id": "tm-ariana-grande-2026-london-35006324f50f50d8",
+      "source": "ttc-reviewed-catalogue",
+      "source_event_id": "35006324F50F50D8",
+      "observed_at": "2026-05-07",
+      "reason": "stale_observation"
+    },
+    {
+      "record_id": "tm-bad-bunny-2026-london-3500629efc0c8bc1",
+      "source": "ttc-reviewed-catalogue",
+      "source_event_id": "3500629EFC0C8BC1",
+      "observed_at": "2026-05-07",
+      "reason": "stale_observation"
+    },
+    {
+      "record_id": "tm-bad-bunny-2026-london-350062a39074101f",
+      "source": "ttc-reviewed-catalogue",
+      "source_event_id": "350062A39074101F",
+      "observed_at": "2026-05-07",
+      "reason": "stale_observation"
+    },
+    {
+      "record_id": "tm-charli-xcx-2027-glasgow-1auzkftgkez7jxt",
+      "source": "ttc-reviewed-catalogue",
+      "source_event_id": "36006529B81268A9",
+      "observed_at": "2026-10-15",
+      "reason": "unconfirmed_or_non_concert"
+    },
+    {
+      "record_id": "tm-jack-johnson-2027-london-16dfz_4ebg7va-j",
+      "source": "ttc-reviewed-catalogue",
+      "source_event_id": "3500655098D05866",
+      "observed_at": "",
+      "reason": "invalid_observation_date"
+    },
+    {
+      "record_id": "tm-jack-johnson-2027-st-austell-g5vhz_4d63ah_",
+      "source": "ttc-reviewed-catalogue",
+      "source_event_id": "1F006550C7485F19",
+      "observed_at": "",
+      "reason": "invalid_observation_date"
+    },
+    {
+      "record_id": "tm-jack-johnson-2027-st-austell-g5vhz_4eimdn_",
+      "source": "ttc-reviewed-catalogue",
+      "source_event_id": "1F006550A8B838D9",
+      "observed_at": "",
+      "reason": "invalid_observation_date"
+    },
+    {
+      "record_id": "tm-role-model-2027-london-17uyv0g6ueic0m_",
+      "source": "ttc-reviewed-catalogue",
+      "source_event_id": "370064D0AC3A4B99",
+      "observed_at": "",
+      "reason": "invalid_observation_date"
+    },
+    {
+      "record_id": "tm-sleeping-with-sirens-2027-birmingham-g5dzz_5wuo0od",
+      "source": "ttc-reviewed-catalogue",
+      "source_event_id": "3E0064BCB6824443",
+      "observed_at": "",
+      "reason": "invalid_observation_date"
+    },
+    {
+      "record_id": "tm-sleeping-with-sirens-2027-bristol-17u8v0g6gfkrxfj",
+      "source": "ttc-reviewed-catalogue",
+      "source_event_id": "350064C206BFE21C",
+      "observed_at": "",
+      "reason": "invalid_observation_date"
+    },
+    {
+      "record_id": "tm-sleeping-with-sirens-2027-glasgow-g5dzz_g5isp0f",
+      "source": "ttc-reviewed-catalogue",
+      "source_event_id": "3E0064C2E8CD6908",
+      "observed_at": "",
+      "reason": "invalid_observation_date"
+    },
+    {
+      "record_id": "tm-sleeping-with-sirens-2027-london-g5dzz_g5cip1i",
+      "source": "ttc-reviewed-catalogue",
+      "source_event_id": "3E0064C2CEA252AC",
+      "observed_at": "",
+      "reason": "invalid_observation_date"
+    },
+    {
+      "record_id": "tm-sleeping-with-sirens-2027-manchester-g5vhz_gfgtq6v",
+      "source": "ttc-reviewed-catalogue",
+      "source_event_id": "1F0064C20CA5D1F4",
+      "observed_at": "",
+      "reason": "invalid_observation_date"
+    },
+    {
+      "record_id": "tm-teddy-swims-2027-greenwich-z7r9jz1aav0v4",
+      "source": "ttc-reviewed-catalogue",
+      "source_event_id": "Z7r9jZ1AAv0v4",
+      "observed_at": "",
+      "reason": "unverified"
+    },
+    {
+      "record_id": "tm-teddy-swims-2027-greenwich-z7r9jz1aav0vp",
+      "source": "ttc-reviewed-catalogue",
+      "source_event_id": "Z7r9jZ1AAv0vp",
+      "observed_at": "",
+      "reason": "unverified"
+    }
+  ],
+  "inputs": {
+    "revision": "04d67ee63ebcc1f69bc629ca093bb0fd80cf0434",
+    "files": [
+      {
+        "path": "public/data/events.json",
+        "sha256": "97aae3ae5ac1dbe8a494e43b68d1ad66934b9efc88852e77936a3d6248b08e83"
+      },
+      {
+        "path": "public/data/artists.json",
+        "sha256": "e0b32db6aa7d6eab154f187e960077eba14ad97aaadd3a108d648cc270cb05b5"
+      }
+    ]
+  }
+}

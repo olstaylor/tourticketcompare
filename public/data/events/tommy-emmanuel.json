@@ -2083,7 +2083,7 @@
         "event_id": 7729000,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-grand-junction-avalon-theatre---co-2-24-2027/production/7729000",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2176,7 +2176,7 @@
         "event_id": 7728901,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-virginia-beach-sandler-center-for-the-performing-arts-6-2-2027/production/7728901",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2230,5 +2230,58 @@
         "end": "2027-05-27T02:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-loveland-z7r9jz1aa791k",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP - Living In the Light Tour",
+    "city": "Loveland",
+    "country": "United States Of America",
+    "venue": "Rialto Theater - Loveland",
+    "datetime_iso": "2027-02-26T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA791k",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA791k",
+    "seatgeek_url": "https://seatgeek.com/tommy-emmanuel-tickets/loveland-colorado-rialto-theater-center-2027-02-25-7-30-pm/concert/18704552",
+    "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-loveland-rialto-theater-center-2-25-2027/production/7728937",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA791k",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA791k",
+        "discovery_event_id": "Z7r9jZ1AA791k",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA791k",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18704552,
+        "url": "https://seatgeek.com/tommy-emmanuel-tickets/loveland-colorado-rialto-theater-center-2027-02-25-7-30-pm/concert/18704552",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7728937,
+        "url": "https://www.vividseats.com/tommy-emmanuel-tickets-loveland-rialto-theater-center-2-25-2027/production/7728937",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA791k",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

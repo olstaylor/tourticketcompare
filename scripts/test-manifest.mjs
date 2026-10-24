@@ -16,6 +16,7 @@
 //   npm run test:units -- --only blog
 
 export const STEPS = [
+  { id: "test:reading-layout", lane: "quick", run: "node scripts/reading-layout.test.mjs" },
   { id: "test:event-metadata", lane: "units", run: "node scripts/event-metadata.test.mjs" },
   { id: "automation:identity:self-test", lane: "units", run: "node scripts/configure-automation-identity.mjs --self-test" },
   { id: "docs:check",                             lane: "quick",  run: "npm run docs:check" },
@@ -91,6 +92,8 @@ export const STEPS = [
   { id: "test:onsale-calendar",                   lane: "quick",  run: "npm run test:onsale-calendar" },
   { id: "test:tours-hub",                         lane: "quick",  run: "npm run test:tours-hub" },
   { id: "test:data-stories",                      lane: "units",  run: "npm run test:data-stories" },
+  { id: "test:artist-city-research",               lane: "units",  run: "npm run test:artist-city-research" },
+  { id: "test:uk-concert-activity",                lane: "units",  run: "npm run test:uk-concert-activity" },
   { id: "test:presales",                          lane: "quick",  run: "npm run test:presales" },
   { id: "test:price-guides",                      lane: "quick",  run: "npm run test:price-guides" },
   { id: "price-guides:propose:self-test",         lane: "units",  run: "node scripts/propose-price-guides.mjs --self-test" },
@@ -108,6 +111,7 @@ export const STEPS = [
   { id: "test:funnel-analytics",                  lane: "quick",  run: "npm run test:funnel-analytics" },
   { id: "report:commercial-funnel:self-test",     lane: "units",  run: "npm run report:commercial-funnel:self-test" },
   { id: "report:plan-scoreboard:self-test",       lane: "units",  run: "npm run report:plan-scoreboard:self-test" },
+  { id: "report:funnel-daily:self-test",          lane: "units",  run: "npm run report:funnel-daily:self-test" },
   { id: "report:show-priority:self-test",         lane: "units",  run: "npm run report:show-priority:self-test" },
   { id: "report:seo-opportunities:self-test",    lane: "units",  run: "npm run report:seo-opportunities:self-test" },
   { id: "test:affiliate-attribution", lane: "units", run: "npm run test:affiliate-attribution" },

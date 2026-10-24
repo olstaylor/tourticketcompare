@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-10-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7892306",
+        "url": "https://www.ticketliquidator.com/tickets/7892306/Chayanne-tickets-Sat-Oct-24-2026-Kaseya-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_kt0YoDW",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/chayanne-miami-tickets-10-24-2026/event/107165161"
+    "stubhub_international_url": "https://www.stubhub.ie/chayanne-miami-tickets-10-24-2026/event/107165161",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7892306/Chayanne-tickets-Sat-Oct-24-2026-Kaseya-Center"
   },
   {
     "id": "tm-chayanne-2026-tampa-vvg1vz_km8pku0",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-10-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7892339",
+        "url": "https://www.ticketliquidator.com/tickets/7892339/Chayanne-tickets-Fri-Oct-30-2026-Benchmark-International-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_km8pku0",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/chayanne-tampa-tickets-10-30-2026/event/107165162"
+    "stubhub_international_url": "https://www.stubhub.ie/chayanne-tampa-tickets-10-30-2026/event/107165162",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7892339/Chayanne-tickets-Fri-Oct-30-2026-Benchmark-International-Arena"
   },
   {
     "id": "tm-chayanne-2026-orlando-1aefz_kgkwoqkla",
@@ -175,11 +191,19 @@
         "verified": true,
         "last_verified_at": "2026-10-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7892340",
+        "url": "https://www.ticketliquidator.com/tickets/7892340/Chayanne-tickets-Sat-Oct-31-2026-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_kGkwOQklA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/chayanne-orlando-tickets-10-31-2026/event/107164100"
+    "stubhub_international_url": "https://www.stubhub.ie/chayanne-orlando-tickets-10-31-2026/event/107164100",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7892340/Chayanne-tickets-Sat-Oct-31-2026-Kia-Center"
   }
 ]

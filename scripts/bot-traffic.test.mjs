@@ -4,6 +4,7 @@ import { readFileSync } from 'node:fs';
 import { DatabaseSync } from 'node:sqlite';
 import { describeNavigation, isLikelyBot } from '../functions/_bot-detection.js';
 import { onRequestGet } from '../functions/api/out.js';
+import { onRequest as middleware } from '../functions/_middleware.js';
 import { humanRedirectSql, pageBackedSql } from './lib/human-clicks.mjs';
 
 const event = {
@@ -96,4 +97,29 @@ test('reports count a redirect only when its visitor sent a page event that day'
     assert.equal(db.prepare(`SELECT COUNT(*) AS n FROM analytics_events click WHERE ${humanRedirectSql('click')}`).get().n, 2);
     assert.equal(db.prepare(`SELECT COUNT(*) AS n FROM analytics_events WHERE event_name = 'outbound_click' AND NOT (${pageBackedSql()})`).get().n, 21);
   } finally { db.close(); }
+});
+
+test('/api/out is not served on *.pages.dev hosts, where the WAF rules do not apply', async () => {
+  const query = '/api/out?provider=vivid-seats&artistSlug=test-artist&showId=x';
+  const headers = { 'Sec-Fetch-Site': 'none', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-User': '?1' };
+  for (const host of ['tourticketcompare.pages.dev', 'claude-project-thread.tourticketcompare.pages.dev', 'TOURTICKETCOMPARE.PAGES.DEV']) {
+    for (const pathAndQuery of [query, query.replace('/api/out?', '/api/out/?')]) {
+      let reachedFunction = false;
+      const response = await middleware({
+        request: new Request(`https://${host}${pathAndQuery}`, { headers }),
+        env: {},
+        next: async () => { reachedFunction = true; return new Response('redirect'); }
+      });
+      assert.equal(response.status, 404, `${host}${pathAndQuery}`);
+      assert.equal(reachedFunction, false, 'the redirect function never runs');
+      assert.equal(response.headers.get('Cache-Control'), 'no-store');
+    }
+  }
+  // The canonical host and other API paths on pages.dev are untouched.
+  for (const url of ['https://tourticketcompare.com/api/out?x=1', 'https://tourticketcompare.pages.dev/api/health', 'https://tourticketcompare.pages.dev/api/analytics']) {
+    let reached = false;
+    const response = await middleware({ request: new Request(url), env: {}, next: async () => { reached = true; return new Response('ok'); } });
+    assert.equal(reached, true, url);
+    assert.equal(response.status, 200, url);
+  }
 });

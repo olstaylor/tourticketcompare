@@ -105,6 +105,14 @@ Event-level buttons must additionally have a reviewed local event ID, the provid
 
 ---
 
+## Richer Event Pages (pilot, owner go 2026-10-23)
+
+Ten event pages (`RICHER_EVENT_PILOT_IDS` in `functions/_event-price-range.js`) carry two extra sections. Widening the list is a reviewed change, not an automation.
+
+- **Price range:** each displayable site's lowest and highest daily listed price since tracking began, from `provider_pricing_daily`, with site, currency and days covered, plus the spread across sites today. Same currency only, isolated spikes dropped, no timing or buying advice, no fee or total claims.
+- **Venue facts:** `functions/_venue-facts.js` holds door rules (bags, re-entry, payment, age) paraphrased from the venue's own page, each venue with its source URL and the date it was read. No record means nothing renders. Never add a venue from a third-party site, and re-read the source when refreshing a date.
+- Commentary is templated from these numbers; there is no generated prose.
+
 ## Guides
 
 - Guide content should answer practical, search-intent questions fans have before buying tickets.

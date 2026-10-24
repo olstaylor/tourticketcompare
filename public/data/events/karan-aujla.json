@@ -1,0 +1,416 @@
+[
+  {
+    "id": "tm-karan-aujla-2026-sacramento-g5vyz_3m-gnbm",
+    "artist_slug": "karan-aujla",
+    "artist_name": "Karan Aujla",
+    "event_name": "Karan Aujla",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Golden 1 Center",
+    "datetime_iso": "2026-11-08T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00652BA1D6AEB7",
+    "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-sacramento-california-11-07-2026/event/1C00652BA1D6AEB7",
+    "seatgeek_url": "https://seatgeek.com/karan-aujla-tickets/sacramento-california-golden-1-center-2026-11-07-8-pm/concert/18592286",
+    "vividseats_url": "https://www.vividseats.com/karan-aujla-tickets-sacramento-golden-1-center-11-7-2026/production/7557612",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/karan-aujla-sacramento-california-11-07-2026/event/1C00652BA1D6AEB7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00652BA1D6AEB7",
+        "discovery_event_id": "G5vYZ_3m-gnBM",
+        "url": "https://www.ticketmaster.com/karan-aujla-sacramento-california-11-07-2026/event/1C00652BA1D6AEB7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18592286,
+        "url": "https://seatgeek.com/karan-aujla-tickets/sacramento-california-golden-1-center-2026-11-07-8-pm/concert/18592286",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7557612,
+        "url": "https://www.vividseats.com/karan-aujla-tickets-sacramento-golden-1-center-11-7-2026/production/7557612",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8267874",
+        "url": "https://www.ticketliquidator.com/tickets/8267874/Karan-Aujla-tickets-Sat-Nov-7-2026-Golden-1-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668612",
+        "url": "https://www.stubhub.ie/karan-aujla-sacramento-tickets-11-7-2026/event/107668612",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_3m-gnBM",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267874/Karan-Aujla-tickets-Sat-Nov-7-2026-Golden-1-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-sacramento-tickets-11-7-2026/event/107668612"
+  },
+  {
+    "id": "tm-karan-aujla-2026-los-angeles-g5eyz_3lgqzvb",
+    "artist_slug": "karan-aujla",
+    "artist_name": "Karan Aujla",
+    "event_name": "Karan Aujla",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Crypto.com Arena",
+    "datetime_iso": "2026-11-10T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2C00652AF5740D18",
+    "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-los-angeles-california-11-09-2026/event/2C00652AF5740D18",
+    "seatgeek_url": "https://seatgeek.com/karan-aujla-tickets/los-angeles-california-crypto-com-arena-2026-11-09-8-pm/concert/18592285",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/karan-aujla-los-angeles-california-11-09-2026/event/2C00652AF5740D18",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2C00652AF5740D18",
+        "discovery_event_id": "G5eYZ_3lgqZVb",
+        "url": "https://www.ticketmaster.com/karan-aujla-los-angeles-california-11-09-2026/event/2C00652AF5740D18",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18592285,
+        "url": "https://seatgeek.com/karan-aujla-tickets/los-angeles-california-crypto-com-arena-2026-11-09-8-pm/concert/18592285",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8267866",
+        "url": "https://www.ticketliquidator.com/tickets/8267866/Karan-Aujla-tickets-Mon-Nov-9-2026-Cryptocom-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668616",
+        "url": "https://www.stubhub.ie/karan-aujla-los-angeles-tickets-11-9-2026/event/107668616",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eYZ_3lgqZVb",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267866/Karan-Aujla-tickets-Mon-Nov-9-2026-Cryptocom-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-los-angeles-tickets-11-9-2026/event/107668616"
+  },
+  {
+    "id": "tm-karan-aujla-2026-dallas-vvg1yz_3r_e2at",
+    "artist_slug": "karan-aujla",
+    "artist_name": "Karan Aujla",
+    "event_name": "Karan Aujla",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "American Airlines Center",
+    "datetime_iso": "2026-11-14T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00652BD99CF27F",
+    "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-dallas-texas-11-13-2026/event/0C00652BD99CF27F",
+    "seatgeek_url": "https://seatgeek.com/karan-aujla-tickets/dallas-texas-american-airlines-center-2026-11-13-8-pm/concert/18592287",
+    "vividseats_url": "https://www.vividseats.com/karan-aujla-tickets-dallas-american-airlines-center---tx-11-13-2026/production/7557614",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/karan-aujla-dallas-texas-11-13-2026/event/0C00652BD99CF27F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00652BD99CF27F",
+        "discovery_event_id": "vvG1YZ_3R_E2aT",
+        "url": "https://www.ticketmaster.com/karan-aujla-dallas-texas-11-13-2026/event/0C00652BD99CF27F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18592287,
+        "url": "https://seatgeek.com/karan-aujla-tickets/dallas-texas-american-airlines-center-2026-11-13-8-pm/concert/18592287",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7557614,
+        "url": "https://www.vividseats.com/karan-aujla-tickets-dallas-american-airlines-center---tx-11-13-2026/production/7557614",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8267876",
+        "url": "https://www.ticketliquidator.com/tickets/8267876/Karan-Aujla-tickets-Fri-Nov-13-2026-American-Airlines-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669422",
+        "url": "https://www.stubhub.ie/karan-aujla-dallas-tickets-11-13-2026/event/107669422",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_3R_E2aT",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267876/Karan-Aujla-tickets-Fri-Nov-13-2026-American-Airlines-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-dallas-tickets-11-13-2026/event/107669422"
+  },
+  {
+    "id": "tm-karan-aujla-2026-atlanta-vvg1zz_3myjgwo",
+    "artist_slug": "karan-aujla",
+    "artist_name": "Karan Aujla",
+    "event_name": "Karan Aujla",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "State Farm Arena",
+    "datetime_iso": "2026-11-17T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00652BB098CCA0",
+    "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-atlanta-georgia-11-16-2026/event/0E00652BB098CCA0",
+    "seatgeek_url": "https://seatgeek.com/karan-aujla-tickets/atlanta-georgia-state-farm-arena-1-2026-11-16-8-pm/concert/18592290",
+    "vividseats_url": "https://www.vividseats.com/karan-aujla-tickets-atlanta-state-farm-arena-11-16-2026/production/7557616",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/karan-aujla-atlanta-georgia-11-16-2026/event/0E00652BB098CCA0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00652BB098CCA0",
+        "discovery_event_id": "vvG1zZ_3mYJGwO",
+        "url": "https://www.ticketmaster.com/karan-aujla-atlanta-georgia-11-16-2026/event/0E00652BB098CCA0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18592290,
+        "url": "https://seatgeek.com/karan-aujla-tickets/atlanta-georgia-state-farm-arena-1-2026-11-16-8-pm/concert/18592290",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7557616,
+        "url": "https://www.vividseats.com/karan-aujla-tickets-atlanta-state-farm-arena-11-16-2026/production/7557616",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8267877",
+        "url": "https://www.ticketliquidator.com/tickets/8267877/Karan-Aujla-tickets-Mon-Nov-16-2026-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668599",
+        "url": "https://www.stubhub.ie/karan-aujla-atlanta-tickets-11-16-2026/event/107668599",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_3mYJGwO",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267877/Karan-Aujla-tickets-Mon-Nov-16-2026-State-Farm-Arena-GA",
+    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-atlanta-tickets-11-16-2026/event/107668599"
+  },
+  {
+    "id": "tm-karan-aujla-2026-new-york-g5diz_3ivacnr",
+    "artist_slug": "karan-aujla",
+    "artist_name": "Karan Aujla",
+    "event_name": "Karan Aujla",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Madison Square Garden",
+    "datetime_iso": "2026-11-19T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3B00652A0114E8EF",
+    "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-new-york-new-york-11-18-2026/event/3B00652A0114E8EF",
+    "seatgeek_url": "https://seatgeek.com/karan-aujla-tickets/new-york-new-york-madison-square-garden-2026-11-18-8-pm/concert/18592288",
+    "vividseats_url": "https://www.vividseats.com/karan-aujla-tickets-new-york-madison-square-garden-11-18-2026/production/7557632",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/karan-aujla-new-york-new-york-11-18-2026/event/3B00652A0114E8EF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00652A0114E8EF",
+        "discovery_event_id": "G5diZ_3IvACNR",
+        "url": "https://www.ticketmaster.com/karan-aujla-new-york-new-york-11-18-2026/event/3B00652A0114E8EF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18592288,
+        "url": "https://seatgeek.com/karan-aujla-tickets/new-york-new-york-madison-square-garden-2026-11-18-8-pm/concert/18592288",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7557632,
+        "url": "https://www.vividseats.com/karan-aujla-tickets-new-york-madison-square-garden-11-18-2026/production/7557632",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8267865",
+        "url": "https://www.ticketliquidator.com/tickets/8267865/Karan-Aujla-tickets-Wed-Nov-18-2026-Madison-Square-Garden",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669421",
+        "url": "https://www.stubhub.ie/karan-aujla-new-york-tickets-11-18-2026/event/107669421",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5diZ_3IvACNR",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267865/Karan-Aujla-tickets-Wed-Nov-18-2026-Madison-Square-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-new-york-tickets-11-18-2026/event/107669421"
+  },
+  {
+    "id": "tm-karan-aujla-2026-washington-1a4zkftgkdhkud5",
+    "artist_slug": "karan-aujla",
+    "artist_name": "Karan Aujla",
+    "event_name": "Karan Aujla",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Capital One Arena",
+    "datetime_iso": "2026-11-21T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006529DB4CD0CB",
+    "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-washington-district-of-columbia-11-20-2026/event/15006529DB4CD0CB",
+    "seatgeek_url": "https://seatgeek.com/karan-aujla-tickets/washington-district-of-columbia-capital-one-arena-2026-11-20-8-pm/concert/18592289",
+    "vividseats_url": "https://www.vividseats.com/karan-aujla-tickets-washington-capital-one-arena-11-20-2026/production/7557628",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/karan-aujla-washington-district-of-columbia-11-20-2026/event/15006529DB4CD0CB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006529DB4CD0CB",
+        "discovery_event_id": "1A4ZkftGkdhKud5",
+        "url": "https://www.ticketmaster.com/karan-aujla-washington-district-of-columbia-11-20-2026/event/15006529DB4CD0CB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18592289,
+        "url": "https://seatgeek.com/karan-aujla-tickets/washington-district-of-columbia-capital-one-arena-2026-11-20-8-pm/concert/18592289",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7557628,
+        "url": "https://www.vividseats.com/karan-aujla-tickets-washington-capital-one-arena-11-20-2026/production/7557628",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8267878",
+        "url": "https://www.ticketliquidator.com/tickets/8267878/Karan-Aujla-tickets-Fri-Nov-20-2026-Capital-One-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668604",
+        "url": "https://www.stubhub.ie/karan-aujla-washington-tickets-11-20-2026/event/107668604",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4ZkftGkdhKud5",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267878/Karan-Aujla-tickets-Fri-Nov-20-2026-Capital-One-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-washington-tickets-11-20-2026/event/107668604"
+  }
+]

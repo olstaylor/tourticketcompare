@@ -297,7 +297,7 @@ export const TRUST_ROUTES = {
     description:
       "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total.",
     indexable: true,
-    lastmod: "2026-10-15"
+    lastmod: "2026-10-23"
   },
   "/compare-concert-ticket-prices": {
     title: "Compare Concert Ticket Prices by Site | TourTicketCompare",
@@ -321,7 +321,7 @@ export const TRUST_ROUTES = {
       "Practical concert-ticket guides on matching listings, checking final totals, choosing primary or resale, timing a purchase, and confirming provider terms.",
     indexable: true,
     breadcrumb: [{ name: "Guides", path: "/guides" }],
-    lastmod: "2026-10-11"
+    lastmod: "2026-10-23"
   },
   "/how-it-works": {
     title: "How TourTicketCompare Works",
@@ -330,7 +330,7 @@ export const TRUST_ROUTES = {
     indexable: true,
     faq: true,
     breadcrumb: [{ name: "How it works", path: "/how-it-works" }],
-    lastmod: "2026-10-06"
+    lastmod: "2026-10-23"
   },
   "/currency-converter": {
     title: "Currency Converter for Concert Tickets | TourTicketCompare",
@@ -346,7 +346,7 @@ export const TRUST_ROUTES = {
       "TourTicketCompare is an independent, unofficial ticket research site for major live music tours and verified links where available.",
     indexable: true,
     breadcrumb: [{ name: "About", path: "/about" }],
-    lastmod: "2026-10-09"
+    lastmod: "2026-10-23"
   },
   // The creator's standalone page, linked from /about only (owner direction
   // 2026-09-24). Bylines credit TourTicketCompare; this page alone carries the
@@ -367,7 +367,7 @@ export const TRUST_ROUTES = {
     description: "Contact TourTicketCompare about broken ticket links, incorrect event details, provider-link issues, or general site feedback.",
     indexable: true,
     breadcrumb: [{ name: "Contact", path: "/contact" }],
-    lastmod: "2026-09-24"
+    lastmod: "2026-10-23"
   },
   "/press": {
     title: "Press | TourTicketCompare",

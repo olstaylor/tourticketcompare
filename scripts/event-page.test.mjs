@@ -36,7 +36,7 @@ const load = (relativePath) => import(pathToFileURL(path.join(root, relativePath
 const middlewareModule = await load("functions/_middleware.js");
 const eventPages = await load("functions/_event-pages.js");
 const { resolveEventLocalDate } = await load("functions/_event-local-date.js");
-const { classifyPageType } = await load("functions/_funnel.js");
+const { classifyPageType, CTA_LOCATIONS } = await load("functions/_funnel.js");
 
 // ─── fixture ────────────────────────────────────────────────────────────────
 
@@ -143,6 +143,22 @@ const SERIES_ROWS = [
   { event_id: NEAR.id, provider: "vivid-seats", currency: "USD", low_price: 182, observed_at: "2026-08-09T09:00:00Z" }
 ];
 
+// Richer-page pilot (functions/_event-price-range.js): a pilot date with daily
+// rollup rows, and one without.
+const PILOT = fixtureEvent("tm-doja-cat-2026-toronto-1k7zvncbgagve_c", "2026-11-20T01:00:00Z", { city: "Toronto", country: "Canada", venue: "Scotiabank Arena", timezone: "America/Toronto" });
+const PILOT_NO_HISTORY = fixtureEvent("tm-doja-cat-2026-orlando-1aefzbsgklnlnmt", "2026-11-21T01:00:00Z", { city: "Orlando", country: "United States", venue: "Kia Center", timezone: "America/New_York" });
+const NON_PILOT_AT_PILOT_VENUE = fixtureEvent("fixture-not-pilot", "2026-11-22T01:00:00Z", { city: "Toronto", country: "Canada", venue: "Scotiabank Arena", timezone: "America/Toronto" });
+PRICE_ROWS.push(
+  cacheRow(PILOT, "vivid-seats", 182, "vividseats_impact_marketplace_api"),
+  cacheRow(PILOT, "ticketnetwork", 190, "ticketnetwork_impact_marketplace_api"),
+  cacheRow(PILOT_NO_HISTORY, "vivid-seats", 182, "vividseats_impact_marketplace_api"),
+  cacheRow(NON_PILOT_AT_PILOT_VENUE, "vivid-seats", 182, "vividseats_impact_marketplace_api")
+);
+const DAILY_RANGE_ROWS = [
+  { event_id: PILOT.id, provider: "vivid-seats", currency: "USD", low: 150, high: 210, days: 40, first_day: "2026-07-01", last_day: "2026-08-09" },
+  { event_id: PILOT.id, provider: "ticketnetwork", currency: "USD", low: 190, high: 260, days: 3, first_day: "2026-08-07", last_day: "2026-08-09" }
+];
+
 const queriedIds = [];
 function fakeDb() {
   return {
@@ -156,6 +172,7 @@ function fakeDb() {
                 queriedIds.push(...bindings.map(String).filter((b) => b.startsWith("fixture-")));
                 return { results: PRICE_ROWS.filter((row) => wanted.has(String(row.event_id))) };
               }
+              if (/provider_pricing_daily/.test(sql)) return { results: DAILY_RANGE_ROWS.filter((row) => wanted.has(row.event_id)) };
               if (/ROW_NUMBER/.test(sql)) return { results: SERIES_ROWS.filter((row) => wanted.has(row.event_id)) };
               if (/MIN\(low_price\)/.test(sql)) return { results: WINDOW_MIN_ROWS.filter((row) => wanted.has(row.event_id)) };
               return { results: [] };
@@ -263,6 +280,16 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
   const lead = text(meta(page.html, /<\/h1>(<p class="lead">[\s\S]*?<\/p>)/));
   assert(/ plays Fixture Arena in Springfield on .*8:00 PM local time\. Ticket links for this date: .*Ticketmaster\./.test(lead), `the lead answers who, where, when and which sites (got ${lead})`);
   assert(text(mainOf(page.html)).split(" plays Fixture Arena").length === 2, "the when-and-where sentence is stated once");
+  // Revenue-per-visitor test 1 (2026-10-23): the cheapest listed price as a
+  // button right under the lead, above the card, with its own cta_location.
+  const answer = meta(page.html, /(<section[^>]*aria-labelledby="eventAnswerTitle"[\s\S]*?<\/section>)/);
+  assert(answer && mainOf(page.html).indexOf("eventAnswerTitle") < mainOf(page.html).indexOf("eventTicketsTitle"), "a priced date opens with its cheapest-price answer, above the card");
+  assert(/Cheapest listed price for this date/.test(answer) && /USD\s+182/.test(text(answer)) && /Vivid Seats/.test(text(answer)), `the answer's button is the card's cheapest lane (got ${text(answer).slice(0, 200)})`);
+  const answerOut = [...answer.matchAll(/href="(\/api\/out\?[^"]+)"/g)].map((m) => m[1]);
+  assert(answerOut.length === 1 && answerOut[0].includes("ctaLocation=event_answer"), "the answer has one ticket button, reported as event_answer");
+  assert(CTA_LOCATIONS.includes("event_answer"), "event_answer is in the allowlist, or /api/out discards it");
+  assert(answer.includes(`href="#show-${PRICED.id}"`) && page.html.includes(`id="show-${PRICED.id}"`), "its all-sites link points at the card on the same page");
+  assert(page.html.split("How this site makes money").length === 2, "still one money disclosure");
   const pageGraph = graphOf(page.html);
   const webPage = pageGraph.find((node) => node["@type"] === "WebPage");
   assert(webPage && /#event$/.test(webPage.about?.["@id"] || ""), "the event page carries a WebPage node about its MusicEvent");
@@ -634,6 +661,54 @@ const detailsLinkOf = (cardHtml) => cardHtml.match(/<a class="text-link show-det
 
   const untoured = deriveEventContext(list, { ...WITH_SALES, tour_name: "" }, { now: NOW_MS, artists: artistsMeta, nonPerformanceMarkers: eventPages.nonPerformanceMarkers });
   assert(untoured.schedule.tourName === "", "a date with no tour name is never given one");
+}
+
+// ─── richer-page pilot ──────────────────────────────────────────────────────
+
+{
+  const list = [...EVENTS, PILOT, PILOT_NO_HISTORY, NON_PILOT_AT_PILOT_VENUE];
+  const page = await render(pathOf(PILOT), list);
+  assert(page.status === 200, "a pilot date renders");
+  const body = text(mainOf(page.html));
+  assert(body.includes("How listed prices for this date have ranged"), "a pilot date states how its listed prices have ranged");
+  assert(body.includes("Vivid Seats: USD 150 to USD 210 across 40 days tracked between Jul 1, 2026 and Aug 9, 2026."), "each site's range names the site, the currency and the days it covers");
+  assert(!/TicketNetwork: USD 190 to/.test(body), "a site with fewer than 7 tracked days has no range");
+  assert(body.includes("Right now the sites checked list this date between USD 182 on Vivid Seats and USD 190 on TicketNetwork, a gap of USD 8."), "the spread names both sites and the gap");
+  assert(body.includes("not final totals"), "the range is qualified as listed prices, not totals");
+  assert(body.includes("Getting in at Scotiabank Arena"), "a pilot date at a sourced venue shows the venue's door rules");
+  assert(body.includes("Bag check costs $25"), "the venue facts carry the venue's own figures");
+  assert(page.html.includes('href="https://www.scotiabankarena.com/plan-your-visit/bag-policy"'), "the venue facts link their source");
+  assert(!/\bfrom \$/.test(body), "the new copy never uses the 'from $' wording");
+  assert(!/\b(best time|cheaper later|will drop|should buy)\b/i.test(body), "the range makes no timing claim");
+  assert(!/href="\/events\//.test(mainOf(page.html).replace(/<link[^>]*>/g, "")), "the pilot sections add no event-to-event links");
+
+  const noHistory = await render(pathOf(PILOT_NO_HISTORY), list);
+  assert(!text(mainOf(noHistory.html)).includes("have ranged"), "a pilot date with no daily rows states no range");
+  assert(text(mainOf(noHistory.html)).includes("Getting in at Kia Center"), "its venue facts still render");
+
+  const notPilot = await render(pathOf(NON_PILOT_AT_PILOT_VENUE), list);
+  const notPilotBody = text(mainOf(notPilot.html));
+  assert(!notPilotBody.includes("have ranged") && !notPilotBody.includes("Getting in at"), "a date outside the pilot gets neither section, even at a sourced venue");
+
+  const ordinary = await render(pathOf(PRICED));
+  assert(!text(mainOf(ordinary.html)).includes("have ranged"), "an ordinary event page is unchanged");
+}
+
+{
+  // The pilot is fixed data: each id is a real event at a venue with sourced facts.
+  const { RICHER_EVENT_PILOT_IDS } = await load("functions/_event-price-range.js");
+  const { venueFactsFor, VENUE_FACTS } = await load("functions/_venue-facts.js");
+  const { venueSlug } = await load("functions/_venues.js");
+  const realEvents = JSON.parse(await read("public/data/events.json"));
+  const realList = Array.isArray(realEvents) ? realEvents : realEvents.events;
+  for (const id of RICHER_EVENT_PILOT_IDS) {
+    const event = realList.find((candidate) => candidate.id === id);
+    assert(Boolean(event), `pilot event ${id} exists in events.json`);
+    assert(Boolean(venueFactsFor(venueSlug(event.venue, event.city))), `pilot event ${id} is at a venue with sourced facts`);
+  }
+  for (const [slug, record] of Object.entries(VENUE_FACTS)) {
+    assert(/^https:\/\//.test(record.sourceUrl) && /^\d{4}-\d{2}-\d{2}$/.test(record.checked) && record.facts.length > 0, `venue facts ${slug} carry a source, a check date and facts`);
+  }
 }
 
 // ─── analytics page type ────────────────────────────────────────────────────

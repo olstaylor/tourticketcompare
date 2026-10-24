@@ -3722,7 +3722,7 @@ function priceGuideFaqEntries(route, view) {
   ]);
   entries.push([
     `Where can I find the cheapest ${name} tickets?`,
-    `Pick your date and city in the table on this page. For each date it shows the cheapest listed price among the ticket sites that had one, which site lists it and when it was checked. Fees can change the order once you reach checkout, so compare the final total and the seats on each ticket site before you pay.`
+    `Pick your date and city in the table on this page. For each date it shows the lowest listed price among the ticket sites that had one, which site lists it and when it was checked. Fees can change the order once you reach checkout, so open the date on each site and compare the final total and the seats before you pay.`
   ]);
   // Searchers ask whether the figures include fees and whether resale costs
   // more than face value (Search Console, 2026-10: "<artist> fee",
@@ -3861,11 +3861,11 @@ function renderPriceGuideBody(route, events, env) {
   const tablesHtml = `<section class="nested-panel artist-city-price-answer" aria-labelledby="priceGuideDatesTitle"><h2 id="priceGuideDatesTitle">${escapeHtml(
     artist.name
   )} resale prices by date</h2><p>${escapeHtml(
-    `Each date's lowest listed price and the site listing it, in date order. "Sites priced" is how many ticket sites had a price for that date.`
+    `Find your city and date. Each row shows the lowest listed price and the site listing it. "Sites priced" is how many ticket sites had a price for that date.`
   )}</p>${renderPriceGuideCityTables(artist, guide, rowById, lowByShowId, route.indexableCitySlugs || new Set())}</section>`;
 
   const movesHtml = renderPriceGuideMoves(artist, moves, priceAnswer.pricedRowCount, guideShowsById);
-  const missingPricesHtml = `<section class="nested-panel" aria-labelledby="priceGuideMissingTitle"><h2 id="priceGuideMissingTitle">Why a date may have no displayed price</h2><p>Only some ticket sites share price snapshots with this site. A fresh, verified SeatGeek price may be shown with its source and check time; Ticketmaster and Ticket Liquidator links don’t include a price here. Stale or unavailable prices are hidden, so a date with no displayed price can still have tickets. Use “Compare this show” to check that date on each site.</p></section>`;
+  const missingPricesHtml = `<section class="nested-panel" aria-labelledby="priceGuideMissingTitle"><h2 id="priceGuideMissingTitle">Why a date may have no displayed price</h2><p>Not every ticket site shares its prices with this site. A fresh, verified SeatGeek price may be shown with its source and check time, but Ticketmaster and Ticket Liquidator links don’t include a price here. Stale or unavailable prices are hidden rather than guessed, so a date with no displayed price can still have tickets. Use “Compare this show” to check that date on each site.</p></section>`;
 
   const linkItems = [...linkCounts.entries()]
     .map(([name, count]) => `<li>${escapeHtml(`${name}: linked for ${count} of ${guide.showCount} ${guide.showCount === 1 ? "date" : "dates"}`)}</li>`)

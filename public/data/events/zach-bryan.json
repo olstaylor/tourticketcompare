@@ -2369,12 +2369,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8338720",
+        "url": "https://www.ticketliquidator.com/tickets/8338720/Zach-Bryan-tickets-Tue-Jul-27-2027-BC-Place-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vP4FGACgpjm",
     "timezone": "America/Vancouver",
     "status": "announced",
-    "public_onsale_at": "2026-10-23T17:00:00Z"
+    "public_onsale_at": "2026-10-23T17:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338720/Zach-Bryan-tickets-Tue-Jul-27-2027-BC-Place-Stadium"
   },
   {
     "id": "tm-zach-bryan-2027-edmonton-16v7z_43bg7l9tm",
@@ -2530,11 +2538,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8338574",
+        "url": "https://www.ticketliquidator.com/tickets/8338574/Zach-Bryan-tickets-Fri-May-7-2027-Soldier-Field",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7PvJ",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338574/Zach-Bryan-tickets-Fri-May-7-2027-Soldier-Field"
   },
   {
     "id": "tm-zach-bryan-2027-chicago-z7r9jz1aa7ka-",
@@ -2583,11 +2599,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8322381",
+        "url": "https://www.ticketliquidator.com/tickets/8322381/Zach-Bryan-tickets-Sat-May-8-2027-Soldier-Field",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7Ka-",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322381/Zach-Bryan-tickets-Sat-May-8-2027-Soldier-Field"
   },
   {
     "id": "tm-zach-bryan-2027-baltimore-z7r9jz1aa7kav",
@@ -2636,11 +2660,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8322382",
+        "url": "https://www.ticketliquidator.com/tickets/8322382/Zach-Bryan-tickets-Tue-May-18-2027-MT-Bank-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7KaV",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322382/Zach-Bryan-tickets-Tue-May-18-2027-MT-Bank-Stadium"
   },
   {
     "id": "tm-zach-bryan-2027-nashville-z7r9jz1aa7k17",
@@ -2689,10 +2721,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8322383",
+        "url": "https://www.ticketliquidator.com/tickets/8322383/Zach-Bryan-tickets-Sat-May-22-2027-New-Nissan-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7K17",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322383/Zach-Bryan-tickets-Sat-May-22-2027-New-Nissan-Stadium"
   }
 ]

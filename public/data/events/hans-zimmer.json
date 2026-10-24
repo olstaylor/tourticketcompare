@@ -30,7 +30,7 @@
         "event_id": 18601921,
         "url": "https://seatgeek.com/hans-zimmer-tickets/elmont-new-york-ubs-arena-2027-02-19-7-30-pm/concert/18601921",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -398,7 +398,7 @@
     "tour_name": "Hans Zimmer Live – The Next Level",
     "ticketmaster_event_id": "310065284244CD1F",
     "ticketmaster_url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-quebec-quebec-02-28-2027/event/310065284244CD1F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hans-zimmer-tickets/quebec-canada-videotron-centre-2027-02-28-7-30-pm/concert/18601958",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/hans-zimmer-live-the-next-level-quebec-quebec-02-28-2027/event/310065284244CD1F",
@@ -414,11 +414,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18601958,
+        "url": "https://seatgeek.com/hans-zimmer-tickets/quebec-canada-videotron-centre-2027-02-28-7-30-pm/concert/18601958",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

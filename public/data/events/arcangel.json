@@ -139,7 +139,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "300064ADA23D61BB",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-brooklyn-new-york-10-23-2026/event/300064ADA23D61BB",
-    "seatgeek_url": "https://seatgeek.com/arcangel-tickets/brooklyn-new-york-barclays-center-2026-10-23-8-pm/concert/18266317",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/arcangel-tickets-brooklyn-barclays-center-10-23-2026--concerts-rap-hip-hop/production/7079492",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-brooklyn-new-york-10-23-2026/event/300064ADA23D61BB",
@@ -155,11 +155,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18266317,
-        "url": "https://seatgeek.com/arcangel-tickets/brooklyn-new-york-barclays-center-2026-10-23-8-pm/concert/18266317",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7079492,
@@ -286,7 +286,7 @@
         "event_id": 18266319,
         "url": "https://seatgeek.com/arcangel-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-10-28-8-pm/concert/18266319",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -357,7 +357,7 @@
         "event_id": 18266320,
         "url": "https://seatgeek.com/arcangel-tickets/rosemont-illinois-rosemont-theatre-2026-10-31-8-pm/concert/18266320",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -428,7 +428,7 @@
         "event_id": 18266325,
         "url": "https://seatgeek.com/arcangel-tickets/houston-texas-713-music-hall-2026-11-05-8-pm/concert/18266325",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -499,7 +499,7 @@
         "event_id": 18266326,
         "url": "https://seatgeek.com/arcangel-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-11-06-8-pm/concert/18266326",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -570,7 +570,7 @@
         "event_id": 18266329,
         "url": "https://seatgeek.com/arcangel-tickets/denver-colorado-paramount-theatre-co-2026-11-15-8-pm/concert/18266329",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -641,7 +641,7 @@
         "event_id": 18266330,
         "url": "https://seatgeek.com/arcangel-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-11-18-8-pm/concert/18266330",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -712,7 +712,7 @@
         "event_id": 18266331,
         "url": "https://seatgeek.com/arcangel-tickets/inglewood-california-youtube-theater-2026-11-20-8-pm/concert/18266331",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -783,7 +783,7 @@
         "event_id": 18266334,
         "url": "https://seatgeek.com/arcangel-tickets/san-jose-california-san-jose-civic-2026-11-21-8-pm/concert/18266334",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {

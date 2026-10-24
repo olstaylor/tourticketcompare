@@ -419,7 +419,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "31006545B1D957B2",
     "ticketmaster_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-quebec-quebec-03-11-2027/event/31006545B1D957B2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/quebec-canada-videotron-centre-2027-03-11-7-30-pm/concert/18662458",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-quebec-quebec-03-11-2027/event/31006545B1D957B2",
@@ -435,11 +435,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662458,
+        "url": "https://seatgeek.com/def-leppard-tickets/quebec-canada-videotron-centre-2027-03-11-7-30-pm/concert/18662458",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

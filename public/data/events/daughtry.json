@@ -525,7 +525,7 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "010064CC19A2E7B8",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-danville-virginia-10-23-2026/event/010064CC19A2E7B8",
-    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/danville-virginia-the-pantheon-at-caesars-virginia-2026-10-23-8-pm/concert/18316789",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-danville-the-pantheon-at-caesars-virginia-10-23-2026--concerts-rock/production/7170003",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-danville-virginia-10-23-2026/event/010064CC19A2E7B8",
@@ -541,11 +541,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18316789,
-        "url": "https://seatgeek.com/daughtry-tickets/danville-virginia-the-pantheon-at-caesars-virginia-2026-10-23-8-pm/concert/18316789",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7170003,
@@ -613,7 +613,7 @@
         "event_id": 18300508,
         "url": "https://seatgeek.com/daughtry-tickets/florence-kentucky-turfway-park-2026-10-24-8-30-pm/concert/18300508",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1435,7 +1435,7 @@
         "event_id": 18316813,
         "url": "https://seatgeek.com/daughtry-tickets/san-antonio-texas-aztec-theatre-2026-11-13-8-pm/concert/18316813",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1519,7 +1519,7 @@
         "event_id": 18316816,
         "url": "https://seatgeek.com/daughtry-tickets/dallas-texas-majestic-theatre-dallas-2026-11-14-7-pm/concert/18316816",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1603,7 +1603,7 @@
         "event_id": 18632893,
         "url": "https://seatgeek.com/daughtry-tickets/pine-bluff-arkansas-saracen-casino-resort-2027-01-23-7-pm/concert/18632893",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1679,7 +1679,7 @@
         "event_id": 18632895,
         "url": "https://seatgeek.com/daughtry-tickets/orlando-florida-hard-rock-live-orlando-2027-01-27-7-pm/concert/18632895",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1755,7 +1755,7 @@
         "event_id": 18632898,
         "url": "https://seatgeek.com/daughtry-tickets/biloxi-mississippi-hard-rock-hotel-casino-biloxi-2027-01-30-7-pm/concert/18632898",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1815,7 +1815,7 @@
         "event_id": 18632897,
         "url": "https://seatgeek.com/daughtry-tickets/houston-texas-bayou-music-center-2027-01-31-8-pm/concert/18632897",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1894,7 +1894,7 @@
         "event_id": 18632905,
         "url": "https://seatgeek.com/daughtry-tickets/corpus-christi-texas-selena-auditorium-at-the-american-bank-center-2027-02-02-7-pm/concert/18632905",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2131,7 +2131,7 @@
         "event_id": 18632912,
         "url": "https://seatgeek.com/daughtry-tickets/durant-oklahoma-choctaw-grand-theater-2027-02-12-7-pm/concert/18632912",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2254,7 +2254,7 @@
         "event_id": 18632920,
         "url": "https://seatgeek.com/daughtry-tickets/duluth-minnesota-decc-symphony-hall-2027-02-16-7-pm/concert/18632920",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {

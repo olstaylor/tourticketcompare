@@ -195,7 +195,7 @@
     "ticketmaster_event_id": "2D006454B193A854",
     "ticketmaster_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-north-charleston-south-carolina-10-28-2026/event/2D006454B193A854",
     "seatgeek_url": "https://seatgeek.com/cece-winans-tickets/north-charleston-south-carolina-north-charleston-coliseum-2026-10-28-7-pm/concert/18089897",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-north-charleston-north-charleston-coliseum-10-28-2026/production/6699189",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-north-charleston-south-carolina-10-28-2026/event/2D006454B193A854",
     "last_verified_at": null,
@@ -217,11 +217,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6699189,
+        "url": "https://www.vividseats.com/cece-winans-tickets-north-charleston-north-charleston-coliseum-10-28-2026/production/6699189",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -470,7 +470,7 @@
     "ticketmaster_event_id": "0B006332CBDF3996",
     "ticketmaster_url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-hollywood-california-10-23-2026/event/0B006332CBDF3996",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/my-chemical-romance-tickets-los-angeles-hollywood-bowl-10-23-2026--concerts-rock/production/6062332",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/my-chemical-romance-the-black-parade-hollywood-california-10-23-2026/event/0B006332CBDF3996",
     "last_verified_at": "2026-10-15",
@@ -492,11 +492,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 6062332,
-        "url": "https://www.vividseats.com/my-chemical-romance-tickets-los-angeles-hollywood-bowl-10-23-2026--concerts-rock/production/6062332",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -576,7 +576,7 @@
         "event_id": 6062333,
         "url": "https://www.vividseats.com/my-chemical-romance-tickets-los-angeles-hollywood-bowl-10-24-2026--concerts-rock/production/6062333",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -657,7 +657,7 @@
         "event_id": 6314708,
         "url": "https://www.vividseats.com/my-chemical-romance-tickets-los-angeles-hollywood-bowl-10-30-2026--concerts-rock/production/6314708",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -738,7 +738,7 @@
         "event_id": 6314710,
         "url": "https://www.vividseats.com/my-chemical-romance-tickets-los-angeles-hollywood-bowl-10-31-2026--concerts-rock/production/6314710",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {

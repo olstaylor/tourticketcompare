@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "05006472CA8CB335",
     "ticketmaster_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-evansville-indiana-10-23-2026/event/05006472CA8CB335",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/ty-myers-tickets-evansville-ford-center-evansville-10-23-2026--concerts-country-and-folk/production/6828452",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-evansville-indiana-10-23-2026/event/05006472CA8CB335",
     "last_verified_at": "2026-10-22",
@@ -34,11 +34,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 6828452,
-        "url": "https://www.vividseats.com/ty-myers-tickets-evansville-ford-center-evansville-10-23-2026--concerts-country-and-folk/production/6828452",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -158,7 +158,7 @@
         "event_id": 6828458,
         "url": "https://www.vividseats.com/ty-myers-tickets-austin-moody-center-atx-11-20-2026--concerts-country-and-folk/production/6828458",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -237,7 +237,7 @@
         "event_id": 6828460,
         "url": "https://www.vividseats.com/ty-myers-tickets-fort-worth-dickies-arena-11-21-2026--concerts-country-and-folk/production/6828460",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {

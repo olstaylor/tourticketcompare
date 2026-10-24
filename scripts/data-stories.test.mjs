@@ -230,7 +230,7 @@ assert(stalePrices.tours.length === 0, "snapshots older than the freshness windo
 const cityPost = renderCityPricesPost(cityFigures);
 assert(/^status: draft$/m.test(cityPost), "a new city-prices post is a draft");
 assert(cityPost.includes("$40") && cityPost.includes("16 October, 10:00 UTC") && cityPost.includes("| Vivid Seats |"), "each printed price names its site and capture time");
-assert(cityPost.includes("Some prices may already include fees") && !/before fees/i.test(cityPost), "the fee caveat is the site's own disclosure");
+assert(cityPost.includes("included fees may differ") && !/before fees/i.test(cityPost), "the fee caveat is the site's own disclosure");
 assert(cityPost.includes("one tour per artist"), "the method states the one-tour-per-artist rule");
 assert(!cityPost.includes("TicketNetwork") && !cityPost.includes("StubHub"), "sites are never set against each other");
 assert(!/\b(cheapest|lowest price|will (?:fall|drop|rise)|best time|sold out)\b/i.test(cityPost), "the city-prices post makes no banned claim");

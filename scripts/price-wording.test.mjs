@@ -11,11 +11,11 @@ function assert(condition, message) {
 }
 
 const appJs = await readFile(new URL("../public/app.js", import.meta.url), "utf8");
-for (const name of ["PRICE_DISCLOSURE", "NO_PRICE_NOTE", "PRICE_HISTORY_LABEL", "CARD_PRICE_TAIL", "MONEY_DISCLOSURE"]) {
+for (const name of ["PRICE_SUMMARY", "PRICE_DISCLOSURE", "NO_PRICE_NOTE", "PRICE_HISTORY_LABEL", "CARD_PRICE_TAIL", "MONEY_DISCLOSURE"]) {
   assert(appJs.includes(JSON.stringify(wording[name])), `public/app.js mirrors ${name} (${JSON.stringify(wording[name])})`);
 }
-assert(appJs.includes('"Lowest listed price"') && appJs.includes('"Lowest listed prices"'), "public/app.js mirrors lowestPriceLabel");
-assert(wording.lowestPriceLabel(0) === "" && wording.lowestPriceLabel(1) === "Lowest listed price" && wording.lowestPriceLabel(3) === "Lowest listed prices", "lowestPriceLabel");
+assert(appJs.includes('"Provider starting price"') && appJs.includes('"Separate provider starting prices"'), "public/app.js mirrors lowestPriceLabel");
+assert(wording.lowestPriceLabel(0) === "" && wording.lowestPriceLabel(1) === "Provider starting price" && wording.lowestPriceLabel(3) === "Separate provider starting prices", "lowestPriceLabel");
 const now = Date.parse("2026-10-06T12:00:00Z");
 assert(wording.relativeCheckAge("2026-10-06T11:30:00Z", now) === "under an hour ago", "age under an hour");
 assert(wording.relativeCheckAge("2026-10-06T07:00:00Z", now) === "5 hours ago", "age in hours");

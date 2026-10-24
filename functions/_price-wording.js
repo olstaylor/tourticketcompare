@@ -22,14 +22,17 @@
 
 /** The one per-page caveat, rendered in the money disclosure line. */
 export const PRICE_DISCLOSURE =
-  "Prices are each ticket site's listed price when it was last checked, at the time shown. They change often and aren't your final total. Some prices may already include fees. You'll see the full price, with taxes and delivery, on the ticket site before you pay.";
+  "Starting prices are recorded separately from each ticket site, in its source currency. Seats, ticket quantities and included fees may differ, so these are not like-for-like totals. Check the full order total, delivery and terms on the ticket site.";
+
+/** Compact context above options; the full explanation remains expandable. */
+export const PRICE_SUMMARY = "Starting prices only. Seats, quantities and included fees may differ.";
 
 /** The short tail on each priced card, after "Checked <age>". */
 export const CARD_PRICE_TAIL = "not the final total";
 
 /** How this site makes money, stated the same way wherever ticket buttons show. */
 export const MONEY_DISCLOSURE =
-  "Some ticket sites pay TourTicketCompare a commission if you buy through their links, at no extra cost to you. Those sites are listed first, and Ticketmaster last.";
+  "Some links earn TTC a commission at no extra cost to you. The primary ticket site appears first, then marketplaces in alphabetical order. Commission does not determine the order.";
 
 /** A card or row whose price lanes were checked and none had a price. */
 export const NO_PRICE_NOTE = "No listed price yet.";
@@ -40,7 +43,7 @@ export const PRICE_HISTORY_LABEL = "Show price history";
 /** The label above a card's provider buttons when at least one shows a price. */
 export function lowestPriceLabel(pricedCount) {
   if (!pricedCount) return "";
-  return pricedCount === 1 ? "Lowest listed price" : "Lowest listed prices";
+  return pricedCount === 1 ? "Provider starting price" : "Separate provider starting prices";
 }
 
 // "Cheapest" (owner decision, 2026-10-17: the old blanket ban is lifted).

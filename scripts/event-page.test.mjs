@@ -270,16 +270,16 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
   assert(!/Sep 11/.test(h1(page.html) + title(page.html)), "the UTC date never appears in the H1 or title");
   assert(/Sep 10, 2026/.test(title(page.html)) && / Tickets/.test(title(page.html)), `the title is factual (got ${title(page.html)})`);
   assert(!/(?:\$|USD\s+)/.test(title(page.html)), "the title stays stable as prices change");
-  assert(/Cheapest listed of 2 sites: US\$182\.00 at Vivid Seats/.test(description(page.html)), `the event snippet names the cheaper of the two priced sites (got ${description(page.html)})`);
+  assert(/Starting from US\$182\.00 listed at Vivid Seats/.test(description(page.html)), `the event snippet names the cheaper of the two priced sites (got ${description(page.html)})`);
   assert(/Sep 10, 2026/.test(description(page.html)) && /checked .* UTC\. Check fees\./.test(description(page.html)), "the event snippet dates and qualifies its price");
   assert(!/Starting from|Cheapest listed/.test(JSON.stringify(graphOf(page.html))), "the price snippet is excluded from JSON-LD");
   assert(/Event details/.test(page.html) && /Fixture Arena/.test(text(mainOf(page.html))) && /Springfield, United States/.test(text(mainOf(page.html))), "the page states venue, city and country");
   assert(/8:00 PM local time/.test(text(mainOf(page.html))), "the page states the local start time");
-  assert(/How this site makes money/.test(page.html), "the money disclosure sits with the buttons");
+  assert(/About prices, seller order/.test(page.html), "the money disclosure sits with the buttons");
   // Answer-first lead: who, where, when and the linked sites, directly under the title, said once.
   const lead = text(meta(page.html, /<\/h1>(<p class="lead">[\s\S]*?<\/p>)/));
-  assert(/ plays Fixture Arena in Springfield on .*8:00 PM local time\. Ticket links for this date: .*Ticketmaster\./.test(lead), `the lead answers who, where, when and which sites (got ${lead})`);
-  assert(text(mainOf(page.html)).split(" plays Fixture Arena").length === 2, "the when-and-where sentence is stated once");
+  assert(/Listed start time: 8:00 PM local time\. Explore \d+ ticket sites below/.test(lead), `the lead states local time and the next action (got ${lead})`);
+  assert(!/plays Fixture Arena/.test(lead), "the lead does not repeat the title's venue and date");
   // Revenue-per-visitor test 1 (2026-10-23): the cheapest listed price as a
   // button right under the lead, above the card, with its own cta_location.
   const answer = meta(page.html, /(<section[^>]*aria-labelledby="eventAnswerTitle"[\s\S]*?<\/section>)/);
@@ -289,7 +289,7 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
   assert(answerOut.length === 1 && answerOut[0].includes("ctaLocation=event_answer"), "the answer has one ticket button, reported as event_answer");
   assert(CTA_LOCATIONS.includes("event_answer"), "event_answer is in the allowlist, or /api/out discards it");
   assert(answer.includes(`href="#show-${PRICED.id}"`) && page.html.includes(`id="show-${PRICED.id}"`), "its all-sites link points at the card on the same page");
-  assert(page.html.split("How this site makes money").length === 2, "still one money disclosure");
+  assert(page.html.split("About prices, seller order").length === 2, "still one money disclosure");
   const pageGraph = graphOf(page.html);
   const webPage = pageGraph.find((node) => node["@type"] === "WebPage");
   assert(webPage && /#event$/.test(webPage.about?.["@id"] || ""), "the event page carries a WebPage node about its MusicEvent");
@@ -308,7 +308,7 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
 
   // Recorded prices: the same figures the artist-city price answer states.
   const prices = text(meta(page.html, /(<section[^>]*aria-labelledby="eventPricesTitle"[\s\S]*?<\/section>)/));
-  assert(/Cheapest listed price of the 2 ticket sites checked: USD\s+182 on Vivid Seats, checked Aug 9, 2026, 9:00 AM UTC/.test(prices), `the cheapest listed price matches the button, counts the sites and states its capture time (got ${prices.slice(0, 200)})`);
+  assert(/From USD\s+182 on Vivid Seats, checked Aug 9, 2026, 9:00 AM UTC/.test(prices), `the cheapest listed price matches the button, counts the sites and states its capture time (got ${prices.slice(0, 200)})`);
   assert(!/\bnow:/.test(prices), "a cached price is never labelled as current");
   assert(/30-day low USD\s+150 · Vivid Seats/.test(prices), "the recorded 30-day low is stated");
   assert(text(parent.html).includes("30-day low USD 150 · Vivid Seats"), "the parent price answer states the same low");
@@ -410,7 +410,7 @@ for (const event of HELD) {
   assert(page.status === 200, `${event.id}: a held future date keeps its page (got ${page.status})`);
   assert(robots(page.html) === "noindex,follow", `${event.id}: noindex,follow`);
   assert(outLinks(page.html, event.id) === 0 && !/\/api\/out/.test(mainOf(page.html)), `${event.id}: no ticket button`);
-  assert(!/(?:\$|USD\s+)\d/.test(mainOf(page.html)) && !/price-history|eventPricesTitle|How this site makes money/.test(page.html), `${event.id}: no price, price history or buying disclosure`);
+  assert(!/(?:\$|USD\s+)\d/.test(mainOf(page.html)) && !/price-history|eventPricesTitle|About prices, seller order/.test(page.html), `${event.id}: no price, price history or buying disclosure`);
   assert(/Ticket status/.test(page.html) && !/ Tickets/.test(title(page.html)), `${event.id}: no ticket-buying framing in the heading or title (got ${title(page.html)})`);
   assert(!/ plays /.test(mainOf(page.html)) && !/before you travel/.test(mainOf(page.html)), `${event.id}: the buying notes never say the held show goes ahead`);
   // Structured data agrees with the hold: a factual cancelled or postponed
@@ -516,7 +516,7 @@ const detailsLinkOf = (cardHtml) => cardHtml.match(/<a class="text-link show-det
       const eventCard = card(page.html, event.id);
       assert(Boolean(eventCard), `${parent}: ${event.id} has a card`);
       assert(detailsLinkOf(eventCard) === pathOf(event), `${parent}: ${event.id} links its canonical event page (got "${detailsLinkOf(eventCard)}")`);
-      assert(/>Show details<span class="sr-only">/.test(eventCard), `${parent}: the link reads "Show details"`);
+      assert(/>Compare ticket options<span class="sr-only">/.test(eventCard), `${parent}: the link reads "Show details"`);
       // The fragment anchor stays the card's id, whatever else links to it.
       assert(eventCard.includes(`id="show-${event.id}"`), `${parent}: ${event.id} keeps its #show- anchor`);
     }
@@ -566,7 +566,7 @@ const detailsLinkOf = (cardHtml) => cardHtml.match(/<a class="text-link show-det
   // City cards: one "details" link. The artist-page link keeps its fragment
   // and is named for what it adds.
   const cityCard = card(pages.get(CITY_PATH).html, PRICED.id);
-  assert((text(cityCard).match(/details/gi) || []).length === 1, "a city card carries a single details link");
+  assert((text(cityCard).match(/Compare ticket options/gi) || []).length === 1, "a city card carries a single details link");
   // A single-date city has no indexable artist-city page, so its card keeps the
   // artist-page link, deep-linked to the date, now named "All <artist> dates".
   const { citySlug } = await load("functions/_cities.js");
@@ -574,7 +574,7 @@ const detailsLinkOf = (cardHtml) => cardHtml.match(/<a class="text-link show-det
   const singleCard = card(single.html, DUSSELDORF.id);
   assert(single.status === 200 && detailsLinkOf(singleCard) === pathOf(DUSSELDORF), "a single-date city card links its event page");
   assert(singleCard.includes(`href="/artists/${ARTIST.slug}#show-${DUSSELDORF.id}">All ${ARTIST.name} dates</a>`), "and keeps its artist-page deep link, renamed");
-  assert((text(singleCard).match(/details/gi) || []).length === 1, "with a single details link");
+  assert((text(singleCard).match(/Compare ticket options/gi) || []).length === 1, "with a single details link");
 
   // Every link any parent emits renders 200 and is noindex,follow.
   for (const link of new Set([...pages.values()].flatMap((page) => detailsLinks(page.html)))) {

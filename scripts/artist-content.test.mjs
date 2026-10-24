@@ -126,20 +126,20 @@ assertCopySafe(noCtaIntro, "no-cta intro");
 const emptyStatus = deriveArtistBoardStatus([]);
 assert(emptyStatus.showCount === 0 && emptyStatus.next === null, "an empty board has no counts and no next date");
 const emptyIntro = artistSearchIntro({ name: "Latto" }, emptyStatus, options);
-assert(emptyIntro === "No Latto dates yet.", "the never-dated intro states the position once, plainly (P11)");
+assert(emptyIntro === "TTC has not verified any upcoming Latto dates yet.", "the never-dated intro states the position once, plainly (P11)");
 // Owner-approved wording (2026-09-23): dates and buttons are added automatically,
 // so empty-board copy must never claim a person followed a link by hand.
 assert(!/ourselves|we've followed/i.test(emptyIntro), "the empty intro must not claim a manual link check");
 assertCopySafe(emptyIntro, "empty intro");
 const emptyCopy = artistEmptyBoardCopy({ name: "Latto" }, { pastShowCount: 0 });
-assert(emptyCopy.heading === "No dates yet", "empty heading should not imply dates are pending");
-assert(emptyCopy.body.includes("When Ticketmaster lists a Latto date") && emptyCopy.compact === true, "never-dated copy names where dates come from, once (P11)");
+assert(emptyCopy.heading === "No upcoming dates verified on TTC", "empty heading should not imply dates are pending");
+assert(emptyCopy.body.includes("does not mean no shows have been announced") && emptyCopy.compact === true, "never-dated copy names where dates come from, once (P11)");
 assert(!/soon|expected|any day/i.test(emptyCopy.body), "empty copy must not imply an announcement is imminent");
 assert(!/ourselves|we've followed/i.test(emptyCopy.next), "the next-step copy must not claim a manual link check");
 assertCopySafe(emptyCopy.body, "empty body");
 assertCopySafe(emptyCopy.next, "empty next-step");
 assert(
-  artistEmptyBoardCopy({ name: "Post Malone" }, { pastShowCount: 3 }).body.includes("recent dates have passed"),
+  artistEmptyBoardCopy({ name: "Post Malone" }, { pastShowCount: 3 }).body.includes("dates tracked by TTC have passed"),
   "an empty board with past dates should acknowledge them"
 );
 

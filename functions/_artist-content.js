@@ -328,9 +328,9 @@ export function artistTicketHelp() {
   return {
     intro: "TourTicketCompare doesn't sell tickets. Each button opens a ticket site, and you buy there.",
     points: [
-      "A button on a date card opens that exact date.",
-      "When two sites list a price for the same date, the lower listed price is marked. That compares one date only, never different dates, and doesn't mean a site is cheaper overall.",
-      "A date with no button usually isn't on sale yet, or its link hasn't been checked yet."
+      "Pick your date first. A button on a date card opens that exact date.",
+      "When two sites list a price for the same date, the lower listed price is marked. That's a like-for-like check on one date, never different dates, and it doesn't mean a site is cheaper overall.",
+      "No button on a date? It usually isn't on sale yet, or its link is still waiting to be checked."
     ]
   };
 }
@@ -410,6 +410,20 @@ export function artistFaqEntries(artist, status, options = {}) {
     entries.push([
       `Are there upcoming ${name} dates?`,
       `Not right now. New dates show up on this page as soon as they're listed.`
+    ]);
+  }
+
+  // The question a fan with several dates to choose from is actually asking.
+  // Built only from this board's own cities and runs, so it names nothing the
+  // cards below don't show and says nothing about availability or price.
+  if (status && status.cityCount > 1) {
+    const runs = status.multiNightRuns.slice(0, 3).map((run) => `${run.city} (${run.venue}, ${run.count} dates)`);
+    const runsNote = runs.length
+      ? ` ${joinList(runs)} ${runs.length === 1 ? "has" : "have"} more than one date, so if one night doesn't suit you there's another at the same venue.`
+      : "";
+    entries.push([
+      `Which ${name} date should I pick?`,
+      `Start with the city you can get to and the night that fits your plans, then compare ticket sites for that date.${runsNote} Each date is listed separately, so check the date on the ticket site matches the one you chose before you pay.`
     ]);
   }
 

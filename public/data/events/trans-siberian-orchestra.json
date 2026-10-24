@@ -1076,7 +1076,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-nashville-bridgestone-arena-12-2-2026/production/7536635",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-nashville-tennessee-12-02-2026/event/1B00651B2A7F1795",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1155,7 +1155,7 @@
       },
       {
         "name": "Lowe's Discount Ticket Offer",
-        "start": "2026-10-15T19:30:00Z",
+        "start": "2026-11-10T15:00:00Z",
         "end": "2026-12-01T01:30:00Z"
       }
     ],

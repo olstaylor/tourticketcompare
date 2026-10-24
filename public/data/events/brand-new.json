@@ -190,7 +190,7 @@
     "vividseats_url": "https://www.vividseats.com/brand-new-tickets-atlanta-fox-theatre---atlanta-10-22-2026/production/7183545",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PYrK",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -241,7 +241,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062595/Brand-New-tickets-Thu-Oct-22-2026-Fabulous-Fox-Theatre-Atlanta",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062595"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062595",
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-brand-new-2026-hollywood-vvg1vz_gl6rgiu",

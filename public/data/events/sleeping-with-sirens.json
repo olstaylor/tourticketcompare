@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-grand-rapids-glc-live-at-20-monroe-10-24-2026/production/7163775",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-grand-rapids-michigan-10-24-2026/event/080064C8BDBE6F9C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -58,7 +58,10 @@
     "ticketmaster_discovery_event_id": "vvG1OZ_GxWRJXj",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053935/Sleeping-With-Sirens-tickets-Sat-Oct-24-2026-GLC-Live-at-20-Monroe"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053935/Sleeping-With-Sirens-tickets-Sat-Oct-24-2026-GLC-Live-at-20-Monroe",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-sleeping-with-sirens-2026-chicago-vvg18z_gr6ix5f",
@@ -251,7 +254,7 @@
     "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-montreal-mtelus-10-30-2026/production/7163755",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sleeping-with-sirens-an-ending-in-montreal-quebec-10-30-2026/event/310064C8A7E64124",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -302,7 +305,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-montreal-mtelus-10-30-2026/event/107417249",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053967/Sleeping-With-Sirens-tickets-Fri-Oct-30-2026-MTelus"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053967/Sleeping-With-Sirens-tickets-Fri-Oct-30-2026-MTelus",
+    "organizer_names": [
+      "EVENKO CO-PRO NON-LN"
+    ]
   },
   {
     "id": "tm-sleeping-with-sirens-2026-ottawa-17g8v0g6gwupswm",
@@ -320,7 +326,7 @@
     "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-ottawa-history-ottawa-10-31-2026/production/7163682",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sleeping-with-sirens-an-ending-in-ottawa-ontario-10-31-2026/event/310064CC8D973CAE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -355,7 +361,20 @@
     },
     "ticketmaster_discovery_event_id": "17G8v0G6GwuPSwm",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-18T14:00:00Z",
+        "end": "2026-10-25T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sleeping-with-sirens-2026-toronto-177zv0g6gwdvb1r",
@@ -373,7 +392,7 @@
     "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-toronto-history-toronto-11-1-2026/production/7163857",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sleeping-with-sirens-an-ending-in-toronto-ontario-11-01-2026/event/100064CC83D182AF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -408,7 +427,20 @@
     },
     "ticketmaster_discovery_event_id": "177Zv0G6GwdVb1R",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-18T14:00:00Z",
+        "end": "2026-10-26T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sleeping-with-sirens-2026-boston-vvg17z_gmbz9_j",
@@ -426,7 +458,7 @@
     "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-boston-citizens-house-of-blues-boston-11-3-2026/production/7163678",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-boston-massachusetts-11-03-2026/event/010064CBBA017666",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -477,7 +509,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/sleeping-with-sirens-boston-tickets-11-3-2026/event/107417251",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053941/Sleeping-With-Sirens-tickets-Tue-Nov-3-2026-Citizens-House-Of-Blues-Boston"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053941/Sleeping-With-Sirens-tickets-Tue-Nov-3-2026-Citizens-House-Of-Blues-Boston",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-18T14:00:00Z",
+        "end": "2026-10-28T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sleeping-with-sirens-2026-sayreville-z7r9jz1a7p_a7",
@@ -556,7 +598,7 @@
     "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-philadelphia-the-fillmore-philadelphia-11-6-2026/production/7163761",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-philadelphia-pennsylvania-11-06-2026/event/020064CB97B5A882",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -599,7 +641,17 @@
     "ticketmaster_discovery_event_id": "vvG1FZ_Gm9cQxe",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053942/Sleeping-With-Sirens-tickets-Fri-Nov-6-2026-The-Fillmore-Philadelphia"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053942/Sleeping-With-Sirens-tickets-Fri-Nov-6-2026-The-Fillmore-Philadelphia",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-18T14:00:00Z",
+        "end": "2026-10-31T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sleeping-with-sirens-2026-new-york-k7vgf_gnebmkt",
@@ -617,7 +669,7 @@
     "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-new-york-manhattan-center-hammerstein-ballroom-11-7-2026/production/7163785",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-new-york-new-york-11-07-2026/event/000064CAA762E1A9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -652,7 +704,17 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_GnEbmkt",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-18T14:00:00Z",
+        "end": "2026-11-01T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sleeping-with-sirens-2026-baltimore-17a8v0g6gxtb5eg",
@@ -670,7 +732,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-baltimore-maryland-11-08-2026/event/150064C8BFE8B9F5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -713,7 +775,17 @@
     "ticketmaster_discovery_event_id": "17A8v0G6GxTB5Eg",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053963/Sleeping-With-Sirens-tickets-Sun-Nov-8-2026-Nevermore-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053963/Sleeping-With-Sirens-tickets-Sun-Nov-8-2026-Nevermore-Hall",
+    "organizer_names": [
+      "LIVE NATION - NO LN CONCERTS BRANDING"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-18T14:00:00Z",
+        "end": "2026-11-02T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sleeping-with-sirens-2026-charlotte-g5evz_gnuzybg",
@@ -731,7 +803,7 @@
     "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-charlotte-the-fillmore-charlotte-11-11-2026/production/7163534",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-charlotte-north-carolina-11-11-2026/event/2D0064CA8DE39EB5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -774,7 +846,17 @@
     "ticketmaster_discovery_event_id": "G5eVZ_GnuzyBg",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053964/Sleeping-With-Sirens-tickets-Wed-Nov-11-2026-The-Fillmore-Charlotte"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053964/Sleeping-With-Sirens-tickets-Wed-Nov-11-2026-The-Fillmore-Charlotte",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-18T14:00:00Z",
+        "end": "2026-11-05T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sleeping-with-sirens-2026-atlanta-z7r9jz1a7p_aa",
@@ -853,7 +935,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-bristol-02-03-2027/event/350064C206BFE21C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -896,7 +978,10 @@
     "ticketmaster_discovery_event_id": "17u8v0G6GFkRXFj",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-bristol-the-prospect-building-2-3-2027/event/107300077"
+    "stubhub_international_url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-bristol-the-prospect-building-2-3-2027/event/107300077",
+    "organizer_names": [
+      "KMJ ENTERTAINMENT LTD"
+    ]
   },
   {
     "id": "tm-sleeping-with-sirens-2027-glasgow-g5dzz_g5isp0f",
@@ -914,7 +999,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-glasgow-03-03-2027/event/3E0064C2E8CD6908",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -957,7 +1042,12 @@
     "ticketmaster_discovery_event_id": "G5dzZ_G5ISp0F",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-glasgow-o2-academy-glasgow-3-3-2027/event/107301077"
+    "stubhub_international_url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-glasgow-o2-academy-glasgow-3-3-2027/event/107301077",
+    "organizer_names": [
+      "KILIMANJARO",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY GLASGOW)",
+      "TRIPLE G MUSIC LTD"
+    ]
   },
   {
     "id": "tm-sleeping-with-sirens-2027-manchester-g5vhz_gfgtq6v",
@@ -975,7 +1065,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-manchester-05-03-2027/event/1F0064C20CA5D1F4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1018,7 +1108,10 @@
     "ticketmaster_discovery_event_id": "G5vHZ_GFGtq6V",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-manchester-manchester-academy-5-3-2027/event/107301078"
+    "stubhub_international_url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-manchester-manchester-academy-5-3-2027/event/107301078",
+    "organizer_names": [
+      "KMJ ENTERTAINMENT LTD"
+    ]
   },
   {
     "id": "tm-sleeping-with-sirens-2027-birmingham-g5dzz_5wuo0od",
@@ -1036,7 +1129,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-birmingham-06-03-2027/event/3E0064BCB6824443",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1087,7 +1180,10 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-birmingham-o2-academy-birmingham-6-3-2027/event/107302077",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8127272/Sleeping-With-Sirens-tickets-Sat-Mar-6-2027-O2-Academy-Birmingham"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8127272/Sleeping-With-Sirens-tickets-Sat-Mar-6-2027-O2-Academy-Birmingham",
+    "organizer_names": [
+      "ACADEMY MUSIC GROUP (O2 ACADEMY BIRMINGHAM)"
+    ]
   },
   {
     "id": "tm-sleeping-with-sirens-2027-london-g5dzz_g5cip1i",
@@ -1105,7 +1201,7 @@
     "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-london-o2-academy-brixton-3-7-2027/production/7131884",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-london-07-03-2027/event/3E0064C2CEA252AC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1156,7 +1252,11 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-london-o2-academy-brixton-7-3-2027/event/107258746",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8050887/Sleeping-With-Sirens-tickets-Sun-Mar-7-2027-O2-Academy-Brixton"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8050887/Sleeping-With-Sirens-tickets-Sun-Mar-7-2027-O2-Academy-Brixton",
+    "organizer_names": [
+      "KILIMANJARO",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY BRIXTON)"
+    ]
   },
   {
     "id": "tm-sleeping-with-sirens-2027-brisbane-1akzkfygkeprtzf",
@@ -1174,7 +1274,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/an-ending-in-itself-tour-sleeping-brisbane-03-04-2027/event/13006539A57A9E14",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1209,7 +1309,10 @@
     },
     "ticketmaster_discovery_event_id": "1AKZkfyGkePrtzf",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "DESTROY ALL LINES"
+    ]
   },
   {
     "id": "tm-sleeping-with-sirens-2027-west-melbourne-1avgz_kgkwtduwz",
@@ -1227,7 +1330,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/an-ending-in-itself-tour-sleeping-west-melbourne-06-04-2027/event/1300653CBFEF6F40",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1262,6 +1365,9 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_KGkwTDUWZ",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "DESTROY ALL LINES"
+    ]
   }
 ]

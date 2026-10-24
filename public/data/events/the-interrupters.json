@@ -1708,7 +1708,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-san-diego-california-05-01-2027/event/0A0065500C5C200B",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1743,19 +1743,8 @@
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_4ZG9eZ5",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-10-23T17:00:00Z",
+    "status": "on-sale",
     "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-22T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-10-22T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-10-23T17:00:00Z",

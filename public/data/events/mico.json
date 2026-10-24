@@ -789,7 +789,7 @@
     "vividseats_url": "https://www.vividseats.com/mico-tickets-nashville-brooklyn-bowl---nashville-10-26-2026/production/7049234",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-nashville-tennessee-10-26-2026/event/1B0064ADD4A2160E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -841,13 +841,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977769",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977769/Mico-tickets-Mon-Oct-26-2026-Brooklyn-Bowl-Nashville",
-    "presales": [
-      {
-        "name": "T-Mobile® Concert Perks",
-        "start": "2026-05-21T15:00:00Z",
-        "end": "2026-10-24T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

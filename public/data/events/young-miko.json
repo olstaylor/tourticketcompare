@@ -68,7 +68,7 @@
     "vividseats_url": "https://www.vividseats.com/young-miko-tickets-houston-toyota-center---tx-10-24-2026--concerts-latin-music/production/6872920",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x73v",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -111,7 +111,10 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x73v",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860529/Young-Miko-tickets-Sat-Oct-24-2026-Toyota-Center-TX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860529/Young-Miko-tickets-Sat-Oct-24-2026-Toyota-Center-TX",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-young-miko-2026-miami-vvg1vz_fchiqhv",
@@ -129,7 +132,7 @@
     "vividseats_url": "https://www.vividseats.com/young-miko-tickets-miami-kaseya-center-10-28-2026--concerts-latin-music/production/6872922",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-miami-florida-10-28-2026/event/0D006483BCB1D6C1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -180,7 +183,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/young-miko-miami-tickets-10-28-2026/event/107155210",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860530/Young-Miko-tickets-Wed-Oct-28-2026-Kaseya-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860530/Young-Miko-tickets-Wed-Oct-28-2026-Kaseya-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-10T14:00:00Z",
+        "end": "2026-10-24T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-young-miko-2026-orlando-1axzk3dgkeha7uv",
@@ -198,7 +211,7 @@
     "vividseats_url": "https://www.vividseats.com/young-miko-tickets-orlando-kia-center-10-29-2026--concerts-latin-music/production/6872924",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-orlando-florida-10-29-2026/event/22006483BC244DB4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -249,7 +262,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/young-miko-orlando-tickets-10-29-2026/event/107154368",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860531/Young-Miko-tickets-Thu-Oct-29-2026-Kia-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860531/Young-Miko-tickets-Thu-Oct-29-2026-Kia-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-10T14:00:00Z",
+        "end": "2026-10-25T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-young-miko-2026-atlanta-vvg1zz_f1gfmts",
@@ -267,7 +290,7 @@
     "vividseats_url": "https://www.vividseats.com/young-miko-tickets-atlanta-state-farm-arena-10-31-2026--concerts-latin-music/production/6872926",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-atlanta-georgia-10-31-2026/event/0E006482B522EA73",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -318,7 +341,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/young-miko-atlanta-tickets-10-31-2026/event/107154369",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860532/Young-Miko-tickets-Sat-Oct-31-2026-State-Farm-Arena-GA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860532/Young-Miko-tickets-Sat-Oct-31-2026-State-Farm-Arena-GA",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-10T14:00:00Z",
+        "end": "2026-10-27T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-young-miko-2026-charlotte-g5evz_fffmq2n",
@@ -336,7 +369,7 @@
     "vividseats_url": "https://www.vividseats.com/young-miko-tickets-charlotte-spectrum-center-11-1-2026--concerts-latin-music/production/6872928",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-charlotte-north-carolina-11-01-2026/event/2D00648208B9A3EA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -379,7 +412,17 @@
     "ticketmaster_discovery_event_id": "G5eVZ_FFFmQ2n",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860533/Young-Miko-tickets-Sun-Nov-1-2026-Spectrum-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860533/Young-Miko-tickets-Sun-Nov-1-2026-Spectrum-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-10T14:00:00Z",
+        "end": "2026-10-28T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-young-miko-2026-philadelphia-1ayzk3egkdcdzmm",
@@ -397,7 +440,7 @@
     "vividseats_url": "https://www.vividseats.com/young-miko-tickets-philadelphia-xfinity-mobile-arena-11-4-2026--concerts-latin-music/production/6872930",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-philadelphia-pennsylvania-11-04-2026/event/30006482ED0C0DEE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448,7 +491,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/young-miko-philadelphia-tickets-11-4-2026/event/107155211",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860534/Young-Miko-tickets-Wed-Nov-4-2026-Xfinity-Mobile-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860534/Young-Miko-tickets-Wed-Nov-4-2026-Xfinity-Mobile-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-10T14:00:00Z",
+        "end": "2026-10-31T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-young-miko-2026-brooklyn-16dzz_f13g7dsys",
@@ -466,7 +519,7 @@
     "vividseats_url": "https://www.vividseats.com/young-miko-tickets-brooklyn-barclays-center-11-5-2026--concerts-latin-music/production/6872936",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-brooklyn-new-york-11-05-2026/event/3000648292EF3C31",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -517,6 +570,16 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/young-miko-brooklyn-tickets-11-5-2026/event/107154370",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860535/Young-Miko-tickets-Thu-Nov-5-2026-Barclays-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860535/Young-Miko-tickets-Thu-Nov-5-2026-Barclays-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-10T14:00:00Z",
+        "end": "2026-11-01T17:00:00Z"
+      }
+    ]
   }
 ]

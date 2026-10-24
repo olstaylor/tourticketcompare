@@ -1649,7 +1649,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-denver-ball-arena-11-1-2026--concerts-rb/production/6912000",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-denver-colorado-11-01-2026/event/1E00648D91186395",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1710,11 +1710,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883112/Teddy-Swims-tickets-Sun-Nov-1-2026-Ball-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-denver-tickets-11-1-2026/event/107168139",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-04-24T16:00:00Z",
-        "end": "2026-10-23T04:00:00Z"
-      },
       {
         "name": "T-Mobile Reserved Tickets",
         "start": "2026-10-02T00:00:00Z",
@@ -1818,7 +1813,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-seattle-climate-pledge-arena-11-5-2026--concerts-rb/production/6911995",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-seattle-washington-11-05-2026/event/0F00648DA6968E56",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1880,11 +1875,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-seattle-tickets-11-5-2026/event/107158275",
     "presales": [
       {
-        "name": "Chime Visa Post-Sale",
-        "start": "2026-04-24T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-04-24T17:00:00Z",
         "end": "2026-10-27T05:00:00Z"
@@ -1915,7 +1905,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-vancouver-rogers-arena-11-6-2026--concerts-rb/production/6912128",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/teddy-swims-the-ugly-tour-vancouver-british-columbia-11-06-2026/event/1100648EBB8598B4",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1976,11 +1966,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883116/Teddy-Swims-tickets-Fri-Nov-6-2026-Rogers-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-vancouver-rogers-arena-11-6-2026/event/107158276",
     "presales": [
-      {
-        "name": "Chime Visa Post-Sale",
-        "start": "2026-04-24T17:00:00Z",
-        "end": "2026-10-24T05:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-04-24T17:00:00Z",

@@ -682,7 +682,7 @@
     "city": "Munich",
     "country": "Germany",
     "venue": "Olympiahalle",
-    "datetime_iso": "2026-12-04T19:00:00Z",
+    "datetime_iso": "2026-12-04T18:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "488042471",
     "ticketmaster_url": "https://www.ticketmaster.de/event/noah-kahan-the-great-divide-tour-tickets/488042471?language=en-us",
@@ -690,7 +690,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/noah-kahan-the-great-divide-tour-tickets/488042471?language=en-us",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-24",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {

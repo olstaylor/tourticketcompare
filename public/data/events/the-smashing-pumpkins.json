@@ -934,7 +934,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-smashing-pumpkins-the-rats-in-vancouver-british-columbia-11-05-2026/event/110064AE89EF3F6F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -979,11 +979,6 @@
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-tickets-vancouver-rogers-arena-11-5-2026/event/107185115",
     "presales": [
-      {
-        "name": "Amex Reserved Tickets",
-        "start": "2026-05-21T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-05-21T17:00:00Z",

@@ -216,11 +216,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7919152",
-        "url": "https://www.ticketnetwork.com/en/p/7919152",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70kkF",
@@ -228,7 +228,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7919152/Kacey-Musgraves-tickets-Fri-Oct-23-2026-Oakland-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-oakland-tickets-10-23-2026/event/107164501",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7919152"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-kacey-musgraves-2026-seattle-vvg1hz_al3e8eo",
@@ -615,6 +615,13 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7964279",
+        "url": "https://www.ticketnetwork.com/en/p/7964279",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_aGkMwRF6S",
@@ -624,6 +631,7 @@
     "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-tickets-london-ovo-arena-wembley-26-2-2027/event/107162746",
     "organizer_names": [
       "AEG PRESENTS"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7964279"
   }
 ]

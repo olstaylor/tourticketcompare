@@ -1481,11 +1481,19 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8266226",
+        "url": "https://www.ticketnetwork.com/en/p/8266226",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA79u7",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266226/The-Lemonheads-tickets-Thu-Mar-11-2027-El-Corazon"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266226/The-Lemonheads-tickets-Thu-Mar-11-2027-El-Corazon",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266226"
   }
 ]

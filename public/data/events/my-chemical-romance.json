@@ -506,11 +506,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7424941",
-        "url": "https://www.ticketnetwork.com/en/p/7424941",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7424941",
@@ -530,7 +530,7 @@
     "ticketmaster_discovery_event_id": "vvG1iZbS55MSJp",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424941",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424941/My-Chemical-Romance-tickets-Fri-Oct-23-2026-Hollywood-Bowl",
     "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-23-2026/event/106964080",
     "organizer_names": [

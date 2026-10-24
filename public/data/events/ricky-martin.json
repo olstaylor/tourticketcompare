@@ -106,6 +106,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8130658",
+        "url": "https://www.ticketnetwork.com/en/p/8130658",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6uBm5h5l",
@@ -114,7 +121,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8130658/Ricky-Martin-tickets-Fri-Oct-30-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8130658"
   },
   {
     "id": "tm-ricky-martin-2026-las-vegas-17ayv0g6ubmuh5y",
@@ -170,6 +178,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8130659",
+        "url": "https://www.ticketnetwork.com/en/p/8130659",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6uBmuh5Y",
@@ -178,7 +193,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8130659/Ricky-Martin-tickets-Sat-Oct-31-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8130659"
   },
   {
     "id": "tm-ricky-martin-2026-lincoln-g5vyz_grrfawg",
@@ -234,12 +250,20 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8057196",
+        "url": "https://www.ticketnetwork.com/en/p/8057196",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_GRrfaWg",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8057196/Ricky-Martin-tickets-Fri-Nov-6-2026-The-Venue-At-Thunder-Valley-Casino-Resort"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8057196/Ricky-Martin-tickets-Fri-Nov-6-2026-The-Venue-At-Thunder-Valley-Casino-Resort",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8057196"
   },
   {
     "id": "tm-ricky-martin-2026-temecula-vvg1iz_g21wliz",

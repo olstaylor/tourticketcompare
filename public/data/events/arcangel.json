@@ -245,6 +245,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7997045",
+        "url": "https://www.ticketnetwork.com/en/p/7997045",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_1SKMms5",
@@ -253,7 +260,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997045/Arcangel-tickets-Sat-Oct-24-2026-The-Met-Presented-by-Highmark",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997045"
   },
   {
     "id": "tm-arcangel-2026-boston-vvg17z_1mzt4ek",
@@ -309,6 +317,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7977638",
+        "url": "https://www.ticketnetwork.com/en/p/7977638",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1MZT4EK",
@@ -324,7 +339,8 @@
         "start": "2026-05-28T14:00:00Z",
         "end": "2026-10-24T16:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977638"
   },
   {
     "id": "tm-arcangel-2026-rosemont-vvg18z_1u8np3l",
@@ -380,6 +396,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7997047",
+        "url": "https://www.ticketnetwork.com/en/p/7997047",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1U8Np3L",
@@ -395,7 +418,8 @@
         "start": "2026-05-28T15:00:00Z",
         "end": "2026-10-27T17:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997047"
   },
   {
     "id": "tm-arcangel-2026-houston-g5diz_53je_pf",
@@ -451,6 +475,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7997050",
+        "url": "https://www.ticketnetwork.com/en/p/7997050",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_53je_pf",
@@ -466,7 +497,8 @@
         "start": "2026-05-28T15:00:00Z",
         "end": "2026-11-01T18:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997050"
   },
   {
     "id": "tm-arcangel-2026-irving-vvg1yz_5kyqgxt",
@@ -522,6 +554,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7997053",
+        "url": "https://www.ticketnetwork.com/en/p/7997053",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_5KyqgxT",
@@ -537,7 +576,8 @@
         "start": "2026-05-28T15:00:00Z",
         "end": "2026-11-02T18:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997053"
   },
   {
     "id": "tm-arcangel-2026-denver-g5vzz_1bwrqu_",
@@ -593,6 +633,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7997054",
+        "url": "https://www.ticketnetwork.com/en/p/7997054",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1BwrQu_",
@@ -608,7 +655,8 @@
         "start": "2026-05-28T16:00:00Z",
         "end": "2026-11-11T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997054"
   },
   {
     "id": "tm-arcangel-2026-salt-lake-city-g5vzz_5343iam",
@@ -664,6 +712,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7997055",
+        "url": "https://www.ticketnetwork.com/en/p/7997055",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_5343IAM",
@@ -679,7 +734,8 @@
         "start": "2026-05-28T16:00:00Z",
         "end": "2026-11-14T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997055"
   },
   {
     "id": "tm-arcangel-2026-inglewood-vvg1iz_1r3weok",
@@ -735,6 +791,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7997056",
+        "url": "https://www.ticketnetwork.com/en/p/7997056",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_1r3wEOk",
@@ -750,7 +813,8 @@
         "start": "2026-05-28T17:00:00Z",
         "end": "2026-11-16T20:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997056"
   },
   {
     "id": "tm-arcangel-2026-san-jose-g5vyz_1s5ejmh",
@@ -806,6 +870,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7997057",
+        "url": "https://www.ticketnetwork.com/en/p/7997057",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1S5eJmh",
@@ -821,6 +892,7 @@
         "start": "2026-05-28T17:00:00Z",
         "end": "2026-11-17T20:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997057"
   }
 ]

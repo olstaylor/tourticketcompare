@@ -843,18 +843,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8043798",
-        "url": "https://www.ticketnetwork.com/en/p/8043798",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PfOY",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043798/Sylvan-Esso-tickets-Fri-Oct-23-2026-First-Avenue",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8043798"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-sylvan-esso-2027-seattle-vvg1hz_g92don0",

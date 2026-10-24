@@ -262,6 +262,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8028495",
+        "url": "https://www.ticketnetwork.com/en/p/8028495",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G6G1ql6eK",
@@ -272,7 +279,8 @@
     "organizer_names": [
       "THE MESSINA GROUP (TMG)",
       "AEG LIVE (CANADA)"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8028495"
   },
   {
     "id": "tm-phoebe-bridgers-2026-san-francisco-g5vyz_5ehic8t",
@@ -335,6 +343,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8028491",
+        "url": "https://www.ticketnetwork.com/en/p/8028491",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5EhIC8T",
@@ -344,7 +359,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-san-francisco-tickets-10-27-2026/event/107360078",
     "organizer_names": [
       "CONCERTS WEST (AEG)"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8028491"
   },
   {
     "id": "tm-phoebe-bridgers-2026-san-francisco-g5vyz_gpqjtlc",
@@ -407,6 +423,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8034548",
+        "url": "https://www.ticketnetwork.com/en/p/8034548",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_GpQJTlc",
@@ -416,7 +439,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-san-francisco-tickets-10-28-2026/event/107259003",
     "organizer_names": [
       "CONCERTS WEST (AEG)"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034548"
   },
   {
     "id": "tm-phoebe-bridgers-2026-inglewood-vvg10z_5eplbfx",
@@ -479,6 +503,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8028492",
+        "url": "https://www.ticketnetwork.com/en/p/8028492",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_5EPLBfx",
@@ -488,7 +519,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-inglewood-tickets-10-30-2026/event/107259004",
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8028492"
   },
   {
     "id": "tm-phoebe-bridgers-2026-inglewood-vvg10z_goubfs2",
@@ -551,6 +583,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8028493",
+        "url": "https://www.ticketnetwork.com/en/p/8028493",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GoUbfs2",
@@ -560,7 +599,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-inglewood-tickets-10-31-2026/event/107259005",
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8028493"
   },
   {
     "id": "tm-phoebe-bridgers-2026-inglewood-vvg10z_gomyvhe",
@@ -623,6 +663,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8034546",
+        "url": "https://www.ticketnetwork.com/en/p/8034546",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GoMYVHe",
@@ -632,7 +679,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-inglewood-tickets-11-1-2026/event/107259006",
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034546"
   },
   {
     "id": "tm-phoebe-bridgers-2026-dublin-17kzv0g65ra4cgv",
@@ -688,6 +736,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8134619",
+        "url": "https://www.ticketnetwork.com/en/p/8134619",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17kZv0G65Ra4Cgv",
@@ -697,7 +752,8 @@
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8134619"
   },
   {
     "id": "tm-phoebe-bridgers-2026-dublin-17kzv0g65ra4mgk",
@@ -753,6 +809,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8329498",
+        "url": "https://www.ticketnetwork.com/en/p/8329498",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17kZv0G65Ra4mgk",
@@ -762,7 +825,8 @@
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329498"
   },
   {
     "id": "tm-phoebe-bridgers-2026-manchester-17uyv0g6gcqzprx",
@@ -825,6 +889,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8028496",
+        "url": "https://www.ticketnetwork.com/en/p/8028496",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G6GCqzPrX",
@@ -835,7 +906,8 @@
     "organizer_names": [
       "COMMUNION ONE LTD",
       "WHATEVER MOM MUSIC, INC ON BEHALF OF PHOEBE BRIDGERS"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8028496"
   },
   {
     "id": "tm-phoebe-bridgers-2026-glasgow-17uov0g6gor33_x",
@@ -898,6 +970,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8090638",
+        "url": "https://www.ticketnetwork.com/en/p/8090638",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G6GoR33_X",
@@ -908,7 +987,8 @@
     "organizer_names": [
       "SCOTTISH EVENT CAMPUS LIMITED",
       "WHATEVER MOM MUSIC, INC ON BEHALF OF PHOEBE BRIDGERS"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090638"
   },
   {
     "id": "tm-phoebe-bridgers-2026-birmingham-17fyv0g6g2_ps5a",
@@ -971,6 +1051,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8090634",
+        "url": "https://www.ticketnetwork.com/en/p/8090634",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FYv0G6G2_Ps5A",
@@ -981,7 +1068,8 @@
     "organizer_names": [
       "COMMUNION ONE LTD",
       "WHATEVER MOM MUSIC, INC ON BEHALF OF PHOEBE BRIDGERS"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090634"
   },
   {
     "id": "tm-phoebe-bridgers-2026-london-17u8v0g6gpqo1c-",

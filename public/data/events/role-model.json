@@ -301,12 +301,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8074604",
+        "url": "https://www.ticketnetwork.com/en/p/8074604",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G6ueiC0m_",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8074604/Role-Model-tickets-Wed-Feb-24-2027-OVO-Arena-Wembley",
-    "stubhub_international_url": "https://www.stubhub.ie/role-model-tickets-london-ovo-arena-wembley-24-2-2027/event/107447294"
+    "stubhub_international_url": "https://www.stubhub.ie/role-model-tickets-london-ovo-arena-wembley-24-2-2027/event/107447294",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8074604"
   }
 ]

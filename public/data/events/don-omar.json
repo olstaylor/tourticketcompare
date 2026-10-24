@@ -1024,11 +1024,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7976497",
-        "url": "https://www.ticketnetwork.com/en/p/7976497",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7976497",
@@ -1041,7 +1041,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70E_w",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976497",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976497/Don-Omar-tickets-Fri-Oct-23-2026-Toyota-Center-TX"
   },
   {

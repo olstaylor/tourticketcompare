@@ -193,6 +193,13 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8252668",
+        "url": "https://www.ticketnetwork.com/en/p/8252668",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16v78ZOvO",
@@ -202,7 +209,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-hannover-zag-arena-24-10-2026/event/107667152",
     "organizer_names": [
       "Live Nation GmbH"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252668"
   },
   {
     "id": "tm-stevie-wonder-2026-amsterdam-z698xzbpz16vcpofak",
@@ -265,6 +273,13 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8252672",
+        "url": "https://www.ticketnetwork.com/en/p/8252672",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vCpOFak",
@@ -274,7 +289,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-amsterdam-ziggo-dome-28-10-2026/event/107667149",
     "organizer_names": [
       "Mojo Concerts"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252672"
   },
   {
     "id": "tm-stevie-wonder-2026-dublin-1avoz_ogkmfynew",
@@ -522,6 +538,13 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8252674",
+        "url": "https://www.ticketnetwork.com/en/p/8252674",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_oGklbY6m_",
@@ -531,7 +554,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-manchester-co-op-live-8-11-2026/event/107667154",
     "organizer_names": [
       "LNM - VIP NATION UK"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252674"
   },
   {
     "id": "tm-stevie-wonder-2026-glasgow-1adbz_ogkw2mz1l",
@@ -594,6 +618,13 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8252675",
+        "url": "https://www.ticketnetwork.com/en/p/8252675",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdbZ_oGkw2mz1l",
@@ -604,7 +635,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD",
       "SCOTTISH EVENT CAMPUS LIMITED"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252675"
   },
   {
     "id": "tm-stevie-wonder-2026-new-york-g5diz_gpossvv",
@@ -667,6 +699,13 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8252655",
+        "url": "https://www.ticketnetwork.com/en/p/8252655",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_GpOSSVv",
@@ -683,7 +722,8 @@
         "start": "2026-09-10T14:00:00Z",
         "end": "2026-11-20T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252655"
   },
   {
     "id": "tm-stevie-wonder-2026-chicago-vv1a7zkfngkd8ke_p",
@@ -746,6 +786,13 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8252656",
+        "url": "https://www.ticketnetwork.com/en/p/8252656",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfNGkd8KE_P",
@@ -755,7 +802,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-chicago-tickets-11-21-2026/event/107665890",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252656"
   },
   {
     "id": "tm-stevie-wonder-2026-washington-1a4zkfxgkdptcca",
@@ -818,6 +866,13 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8252657",
+        "url": "https://www.ticketnetwork.com/en/p/8252657",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfxGkdPTCCa",
@@ -827,7 +882,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-washington-tickets-11-23-2026/event/107667143",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252657"
   },
   {
     "id": "tm-stevie-wonder-2026-detroit-vv1kezvpa-gaukuph",
@@ -890,6 +946,13 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8252658",
+        "url": "https://www.ticketnetwork.com/en/p/8252658",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1keZvPa-GAukupH",
@@ -899,7 +962,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-detroit-tickets-12-8-2026/event/107667145",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252658"
   },
   {
     "id": "tm-stevie-wonder-2026-detroit-vv1koz_3bxg7sqna",
@@ -962,6 +1026,13 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8252659",
+        "url": "https://www.ticketnetwork.com/en/p/8252659",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kOZ_3bxG7sqnA",
@@ -971,7 +1042,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-detroit-tickets-12-9-2026/event/107667146",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252659"
   },
   {
     "id": "tm-stevie-wonder-2026-inglewood-vv1aazkf0onvvzeug",
@@ -1034,6 +1106,13 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8252660",
+        "url": "https://www.ticketnetwork.com/en/p/8252660",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1aaZkf0ONvvZeuG",
@@ -1043,6 +1122,7 @@
     "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-inglewood-tickets-12-19-2026/event/107667148",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252660"
   }
 ]

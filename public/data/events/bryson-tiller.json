@@ -269,6 +269,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8011575",
+        "url": "https://www.ticketnetwork.com/en/p/8011575",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_5QDPyT3",
@@ -278,7 +285,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-chula-vista-tickets-10-24-2026/event/107258872",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8011575"
   },
   {
     "id": "tm-bryson-tiller-2026-inglewood-vvg10z_5eio1ci",
@@ -341,6 +349,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8011577",
+        "url": "https://www.ticketnetwork.com/en/p/8011577",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_5Eio1cI",
@@ -350,7 +365,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-inglewood-tickets-10-25-2026/event/107394139",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8011577"
   },
   {
     "id": "tm-bryson-tiller-2026-concord-g5vyz_5ix0y73",
@@ -413,6 +429,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8011579",
+        "url": "https://www.ticketnetwork.com/en/p/8011579",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5IX0y73",
@@ -422,7 +445,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-concord-tickets-10-27-2026/event/107258873",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8011579"
   },
   {
     "id": "tm-bryson-tiller-2026-portland-vvg1hz_5po9bdo",
@@ -478,6 +502,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8011580",
+        "url": "https://www.ticketnetwork.com/en/p/8011580",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_5pO9BdO",
@@ -498,7 +529,8 @@
         "start": "2026-06-17T19:00:00Z",
         "end": "2026-10-25T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8011580"
   },
   {
     "id": "tm-bryson-tiller-2026-vancouver-1778v0g65sqi5ae",
@@ -561,6 +593,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8011583",
+        "url": "https://www.ticketnetwork.com/en/p/8011583",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G65SqI5aE",
@@ -585,7 +624,8 @@
         "start": "2026-06-17T19:00:00Z",
         "end": "2026-10-26T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8011583"
   },
   {
     "id": "tm-bryson-tiller-2026-seattle-vvg1hz_5llgxaj",
@@ -648,6 +688,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8011581",
+        "url": "https://www.ticketnetwork.com/en/p/8011581",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_5lLgXaJ",
@@ -669,7 +716,8 @@
         "start": "2026-06-17T19:00:00Z",
         "end": "2026-10-28T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8011581"
   },
   {
     "id": "tm-bryson-tiller-2026-zurich-z698xzu3z16v7d03_k",
@@ -1029,6 +1077,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8090585",
+        "url": "https://www.ticketnetwork.com/en/p/8090585",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G65whosMD",
@@ -1038,7 +1093,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-tickets-manchester-co-op-live-3-12-2026/event/107258136",
     "organizer_names": [
       "LNM - VIP NATION UK"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090585"
   },
   {
     "id": "tm-bryson-tiller-2026-leeds-g5vhz_5siv57-",
@@ -1287,6 +1343,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8090582",
+        "url": "https://www.ticketnetwork.com/en/p/8090582",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FYv0G65U9_ewp",
@@ -1296,7 +1359,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-tickets-birmingham-bp-pulse-live-9-12-2026/event/107265080",
     "organizer_names": [
       "LNM - VIP NATION UK"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090582"
   },
   {
     "id": "tm-bryson-tiller-2027-linlithgow-ave-177yv0g65m3hnkk",
@@ -1408,6 +1472,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8173262",
+        "url": "https://www.ticketnetwork.com/en/p/8173262",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17aZv0G65QclfNt",
@@ -1416,6 +1487,7 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173262/Bryson-Tiller-tickets-Wed-Jan-27-2027-Spark-Arena",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173262"
   }
 ]

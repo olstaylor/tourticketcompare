@@ -430,11 +430,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8168764",
-        "url": "https://www.ticketnetwork.com/en/p/8168764",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8168764",
@@ -454,7 +454,7 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vq4jJGN",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8168764",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8168764/Tyla-tickets-Sat-Oct-24-2026-Mitsubishi-Electric-Halle",
     "stubhub_international_url": "https://www.stubhub.ie/tyla-tickets-dusseldorf-mitsubishi-electric-halle-24-10-2026/event/107461079",
     "organizer_names": [

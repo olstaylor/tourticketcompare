@@ -365,7 +365,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "160064D1B956C130",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-pittsburgh-pennsylvania-10-23-2026/event/160064D1B956C130",
-    "seatgeek_url": "https://seatgeek.com/rod-wave-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-10-23-8-30-pm/concert/18320056",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-pittsburgh-ppg-paints-arena-10-23-2026--concerts-rap-hip-hop/production/7185759",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-pittsburgh-pennsylvania-10-23-2026/event/160064D1B956C130",
@@ -381,11 +381,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18320056,
-        "url": "https://seatgeek.com/rod-wave-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-10-23-8-30-pm/concert/18320056",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7185759,
@@ -1369,7 +1369,7 @@
         "event_id": 18320070,
         "url": "https://seatgeek.com/rod-wave-tickets/atlanta-georgia-state-farm-arena-1-2026-11-18-8-30-pm/concert/18320070",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1456,7 +1456,7 @@
         "event_id": 18414834,
         "url": "https://seatgeek.com/rod-wave-tickets/atlanta-georgia-state-farm-arena-1-2026-11-19-8-pm/concert/18414834",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {

@@ -30,7 +30,7 @@
         "event_id": 18267277,
         "url": "https://seatgeek.com/pink-martini-tickets/reno-nevada-grand-sierra-resort-2026-12-03-7-30-pm/concert/18267277",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -419,7 +419,7 @@
         "event_id": 18325734,
         "url": "https://seatgeek.com/pink-martini-tickets/red-bank-new-jersey-hackensack-meridian-health-theatre-at-count-basie-center-2026-12-16-7-30-pm/concert/18325734",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -819,7 +819,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "050064DE0D44F8CC",
     "ticketmaster_url": "https://www.ticketmaster.com/pink-martini-cleveland-ohio-02-10-2027/event/050064DE0D44F8CC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pink-martini-tickets/cleveland-ohio-gartner-auditorium-2027-02-10-7-pm/concert/18358276",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-cleveland-ohio-02-10-2027/event/050064DE0D44F8CC",
@@ -835,11 +835,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18358276,
+        "url": "https://seatgeek.com/pink-martini-tickets/cleveland-ohio-gartner-auditorium-2027-02-10-7-pm/concert/18358276",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

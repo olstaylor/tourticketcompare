@@ -263,7 +263,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "17006465DF2C2547",
     "ticketmaster_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-23-2026/event/17006465DF2C2547",
-    "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-23-8-30-pm/concert/18138585",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-10-23-2026/production/6818308",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-las-vegas-nevada-10-23-2026/event/17006465DF2C2547",
@@ -279,11 +279,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18138585,
-        "url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-23-8-30-pm/concert/18138585",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6818308,
@@ -345,7 +345,7 @@
         "event_id": 18138587,
         "url": "https://seatgeek.com/earth-wind-fire-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2026-10-24-8-30-pm/concert/18138587",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {

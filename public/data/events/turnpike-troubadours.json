@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-V0a",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0a",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/turnpike-troubadours-tickets/saint-augustine-florida-st-augustine-amphitheatre-2026-10-24-6-30-pm/concert/18141040",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0a",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18141040,
+        "url": "https://seatgeek.com/turnpike-troubadours-tickets/saint-augustine-florida-st-augustine-amphitheatre-2026-10-24-6-30-pm/concert/18141040",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -64,7 +64,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-gA_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-gA_",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/turnpike-troubadours-tickets/clearwater-florida-the-baycare-sound-at-coachman-park-2026-10-25-6-pm/concert/18141064",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-gA_",
@@ -80,11 +80,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18141064,
+        "url": "https://seatgeek.com/turnpike-troubadours-tickets/clearwater-florida-the-baycare-sound-at-coachman-park-2026-10-25-6-pm/concert/18141064",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -133,11 +133,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18424535,
+        "url": "https://seatgeek.com/turnpike-troubadours-tickets/las-vegas-nevada-brooklyn-bowl-las-vegas-2026-12-11-9-pm/concert/18424535",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

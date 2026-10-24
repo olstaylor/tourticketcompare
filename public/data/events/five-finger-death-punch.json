@@ -1514,7 +1514,7 @@
     "tour_name": "20th Anniversary World Tour",
     "ticketmaster_event_id": "1500642B15A6A89A",
     "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-bristow-virginia-10-23-2026/event/1500642B15A6A89A",
-    "seatgeek_url": "https://seatgeek.com/five-finger-death-punch-tickets/bristow-virginia-jiffy-lube-live-2026-10-23-6-45-pm/concert/18010608",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-bristow-jiffy-lube-live-10-23-2026/production/6517189",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/five-finger-death-punch-bristow-virginia-10-23-2026/event/1500642B15A6A89A",
@@ -1530,11 +1530,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18010608,
-        "url": "https://seatgeek.com/five-finger-death-punch-tickets/bristow-virginia-jiffy-lube-live-2026-10-23-6-45-pm/concert/18010608",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6517189,

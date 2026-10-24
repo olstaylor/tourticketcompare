@@ -125,7 +125,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D0064699C68A753",
     "ticketmaster_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-charlotte-north-carolina-10-29-2026/event/2D0064699C68A753",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gavin-adcock-tickets/charlotte-north-carolina-bojangles-coliseum-2026-10-29-7-pm/concert/18126519",
     "vividseats_url": "https://www.vividseats.com/gavin-adcock-tickets-charlotte-bojangles-coliseum-10-29-2026--concerts-country-and-folk/production/6789019",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-charlotte-north-carolina-10-29-2026/event/2D0064699C68A753",
@@ -141,11 +141,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18126519,
+        "url": "https://seatgeek.com/gavin-adcock-tickets/charlotte-north-carolina-bojangles-coliseum-2026-10-29-7-pm/concert/18126519",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6789019,
@@ -189,7 +189,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E006469A20B7F32",
     "ticketmaster_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-savannah-georgia-10-30-2026/event/0E006469A20B7F32",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gavin-adcock-tickets/savannah-georgia-enmarket-arena-2026-10-30-6-pm/concert/18127641",
     "vividseats_url": "https://www.vividseats.com/gavin-adcock-tickets-savannah-enmarket-arena-10-30-2026--concerts-country-and-folk/production/6789021",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-savannah-georgia-10-30-2026/event/0E006469A20B7F32",
@@ -205,11 +205,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18127641,
+        "url": "https://seatgeek.com/gavin-adcock-tickets/savannah-georgia-enmarket-arena-2026-10-30-6-pm/concert/18127641",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6789021,
@@ -253,7 +253,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D00646981D54771",
     "ticketmaster_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-estero-florida-10-31-2026/event/0D00646981D54771",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gavin-adcock-tickets/estero-florida-hertz-arena-2026-10-31-8-pm/concert/18126382",
     "vividseats_url": "https://www.vividseats.com/gavin-adcock-tickets-estero-hertz-arena-10-31-2026--concerts-country-and-folk/production/6789023",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-estero-florida-10-31-2026/event/0D00646981D54771",
@@ -269,11 +269,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18126382,
+        "url": "https://seatgeek.com/gavin-adcock-tickets/estero-florida-hertz-arena-2026-10-31-8-pm/concert/18126382",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6789023,

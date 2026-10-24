@@ -260,7 +260,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "010064CB7D2278AD",
     "ticketmaster_url": "https://www.ticketmaster.com/hazlett-charlottesville-virginia-04-20-2027/event/010064CB7D2278AD",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hazlett-tickets/charlottesville-virginia-jefferson-theater-charlottesville-va-2027-04-20-8-pm/concert/18311798",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-charlottesville-virginia-04-20-2027/event/010064CB7D2278AD",
@@ -276,11 +276,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18311798,
+        "url": "https://seatgeek.com/hazlett-tickets/charlottesville-virginia-jefferson-theater-charlottesville-va-2027-04-20-8-pm/concert/18311798",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -399,7 +399,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "160064CCA14D7851",
     "ticketmaster_url": "https://www.ticketmaster.com/hazlett-pittsburgh-pennsylvania-04-25-2027/event/160064CCA14D7851",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hazlett-tickets/pittsburgh-pennsylvania-spirit-hall-pittsburgh-2027-04-25-7-pm/concert/18312117",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-pittsburgh-pennsylvania-04-25-2027/event/160064CCA14D7851",
@@ -415,11 +415,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18312117,
+        "url": "https://seatgeek.com/hazlett-tickets/pittsburgh-pennsylvania-spirit-hall-pittsburgh-2027-04-25-7-pm/concert/18312117",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -529,7 +529,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "010064CBF20371F3",
     "ticketmaster_url": "https://www.ticketmaster.com/hazlett-portland-maine-04-30-2027/event/010064CBF20371F3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hazlett-tickets/portland-maine-state-theatre-portland-me-2027-04-30-8-pm/concert/18649786",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-portland-maine-04-30-2027/event/010064CBF20371F3",
@@ -545,11 +545,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18649786,
+        "url": "https://seatgeek.com/hazlett-tickets/portland-maine-state-theatre-portland-me-2027-04-30-8-pm/concert/18649786",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

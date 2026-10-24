@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-Yuw",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Yuw",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gavin-adcock-tickets/knoxville-tennessee-knoxville-civic-auditorium-and-coliseum-2026-10-23-7-pm/concert/18131595",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Yuw",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18131595,
+        "url": "https://seatgeek.com/gavin-adcock-tickets/knoxville-tennessee-knoxville-civic-auditorium-and-coliseum-2026-10-23-7-pm/concert/18131595",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -64,8 +64,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-Y8f",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Y8f",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/gavin-adcock-tickets/cary-north-carolina-koka-booth-amphitheatre-2026-10-24-7-pm/concert/18131597",
+    "vividseats_url": "https://www.vividseats.com/gavin-adcock-tickets-cary-koka-booth-amphitheatre-at-regency-park-10-24-2026--concerts-country-and-folk/production/6789058",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Y8f",
     "last_verified_at": null,
@@ -80,18 +80,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18131597,
+        "url": "https://seatgeek.com/gavin-adcock-tickets/cary-north-carolina-koka-booth-amphitheatre-2026-10-24-7-pm/concert/18131597",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6789058,
+        "url": "https://www.vividseats.com/gavin-adcock-tickets-cary-koka-booth-amphitheatre-at-regency-park-10-24-2026--concerts-country-and-folk/production/6789058",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -99,11 +99,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7808188",
+        "url": "https://www.ticketliquidator.com/tickets/7808188/Gavin-Adcock-tickets-Sat-Oct-24-2026-Koka-Booth-Amphitheatre-At-Regency-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Y8f",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808188/Gavin-Adcock-tickets-Sat-Oct-24-2026-Koka-Booth-Amphitheatre-At-Regency-Park"
   },
   {
     "id": "tm-gavin-adcock-2026-charlotte-g5evz_kjjq1qk",
@@ -118,7 +126,7 @@
     "ticketmaster_event_id": "2D0064699C68A753",
     "ticketmaster_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-charlotte-north-carolina-10-29-2026/event/2D0064699C68A753",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gavin-adcock-tickets-charlotte-bojangles-coliseum-10-29-2026--concerts-country-and-folk/production/6789019",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-charlotte-north-carolina-10-29-2026/event/2D0064699C68A753",
     "last_verified_at": null,
@@ -140,11 +148,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6789019,
+        "url": "https://www.vividseats.com/gavin-adcock-tickets-charlotte-bojangles-coliseum-10-29-2026--concerts-country-and-folk/production/6789019",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -152,11 +160,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7806866",
+        "url": "https://www.ticketliquidator.com/tickets/7806866/Gavin-Adcock-tickets-Thu-Oct-29-2026-Bojangles-Coliseum",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_kJjQ1qK",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7806866/Gavin-Adcock-tickets-Thu-Oct-29-2026-Bojangles-Coliseum"
   },
   {
     "id": "tm-gavin-adcock-2026-savannah-vvg1zz_kjxemhw",
@@ -171,7 +187,7 @@
     "ticketmaster_event_id": "0E006469A20B7F32",
     "ticketmaster_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-savannah-georgia-10-30-2026/event/0E006469A20B7F32",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gavin-adcock-tickets-savannah-enmarket-arena-10-30-2026--concerts-country-and-folk/production/6789021",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-savannah-georgia-10-30-2026/event/0E006469A20B7F32",
     "last_verified_at": null,
@@ -193,11 +209,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6789021,
+        "url": "https://www.vividseats.com/gavin-adcock-tickets-savannah-enmarket-arena-10-30-2026--concerts-country-and-folk/production/6789021",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -205,11 +221,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7806867",
+        "url": "https://www.ticketliquidator.com/tickets/7806867/Gavin-Adcock-tickets-Fri-Oct-30-2026-Enmarket-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_kJxeMHw",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7806867/Gavin-Adcock-tickets-Fri-Oct-30-2026-Enmarket-Arena"
   },
   {
     "id": "tm-gavin-adcock-2026-estero-vvg1vz_kjvgfqs",
@@ -224,7 +248,7 @@
     "ticketmaster_event_id": "0D00646981D54771",
     "ticketmaster_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-estero-florida-10-31-2026/event/0D00646981D54771",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gavin-adcock-tickets-estero-hertz-arena-10-31-2026--concerts-country-and-folk/production/6789023",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-estero-florida-10-31-2026/event/0D00646981D54771",
     "last_verified_at": null,
@@ -246,11 +270,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6789023,
+        "url": "https://www.vividseats.com/gavin-adcock-tickets-estero-hertz-arena-10-31-2026--concerts-country-and-folk/production/6789023",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -258,11 +282,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7806868",
+        "url": "https://www.ticketliquidator.com/tickets/7806868/Gavin-Adcock-tickets-Sat-Oct-31-2026-Hertz-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_kJvgfqs",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7806868/Gavin-Adcock-tickets-Sat-Oct-31-2026-Hertz-Arena"
   },
   {
     "id": "tm-gavin-adcock-2026-boston-vv177z_kgkmr1ooo",
@@ -277,7 +309,7 @@
     "ticketmaster_event_id": "0100646BAF2A0820",
     "ticketmaster_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-boston-massachusetts-11-06-2026/event/0100646BAF2A0820",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gavin-adcock-tickets-boston-mgm-music-hall-at-fenway-11-6-2026--concerts-country-and-folk/production/6789025",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-boston-massachusetts-11-06-2026/event/0100646BAF2A0820",
     "last_verified_at": null,
@@ -299,11 +331,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6789025,
+        "url": "https://www.vividseats.com/gavin-adcock-tickets-boston-mgm-music-hall-at-fenway-11-6-2026--concerts-country-and-folk/production/6789025",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -311,11 +343,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7806869",
+        "url": "https://www.ticketliquidator.com/tickets/7806869/Gavin-Adcock-tickets-Fri-Nov-6-2026-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107449616",
+        "url": "https://www.stubhub.ie/gavin-adcock-boston-tickets-11-6-2026/event/107449616",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_kGkmR1OOO",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7806869/Gavin-Adcock-tickets-Fri-Nov-6-2026-MGM-Music-Hall-at-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/gavin-adcock-boston-tickets-11-6-2026/event/107449616"
   },
   {
     "id": "tm-gavin-adcock-2026-reading-vv1aezkotgkeivbwv",
@@ -382,7 +430,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-Yus",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Yus",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gavin-adcock-tickets/detroit-michigan-the-masonic-temple-theatre-detroit-2026-11-13-6-pm/concert/18131599",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Yus",
@@ -398,11 +446,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18131599,
+        "url": "https://seatgeek.com/gavin-adcock-tickets/detroit-michigan-the-masonic-temple-theatre-detroit-2026-11-13-6-pm/concert/18131599",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -435,8 +483,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-Yut",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Yut",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/gavin-adcock-tickets/grand-rapids-michigan-van-andel-arena-2026-11-14-7-pm/concert/18131598",
+    "vividseats_url": "https://www.vividseats.com/gavin-adcock-tickets-grand-rapids-van-andel-arena-11-14-2026--concerts-country-and-folk/production/6789048",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Yut",
     "last_verified_at": null,
@@ -451,18 +499,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18131598,
+        "url": "https://seatgeek.com/gavin-adcock-tickets/grand-rapids-michigan-van-andel-arena-2026-11-14-7-pm/concert/18131598",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6789048,
+        "url": "https://www.vividseats.com/gavin-adcock-tickets-grand-rapids-van-andel-arena-11-14-2026--concerts-country-and-folk/production/6789048",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -470,11 +518,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7806928",
+        "url": "https://www.ticketliquidator.com/tickets/7806928/Gavin-Adcock-tickets-Sat-Nov-14-2026-Van-Andel-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Yut",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7806928/Gavin-Adcock-tickets-Sat-Nov-14-2026-Van-Andel-Arena"
   },
   {
     "id": "tm-gavin-adcock-2026-houston-g5diz_3mqabzl",
@@ -541,8 +597,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7PaaS",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PaaS",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/gavin-adcock-tickets/las-vegas-nevada-the-theater-at-virgin-hotels-2026-12-10-8-30-pm/concert/18293611",
+    "vividseats_url": "https://www.vividseats.com/gavin-adcock-tickets-las-vegas-the-theater-at-virgin-hotels-las-vegas-12-10-2026/production/6976694",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PaaS",
     "last_verified_at": null,
@@ -557,18 +613,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18293611,
+        "url": "https://seatgeek.com/gavin-adcock-tickets/las-vegas-nevada-the-theater-at-virgin-hotels-2026-12-10-8-30-pm/concert/18293611",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6976694,
+        "url": "https://www.vividseats.com/gavin-adcock-tickets-las-vegas-the-theater-at-virgin-hotels-las-vegas-12-10-2026/production/6976694",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -576,11 +632,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7927241",
+        "url": "https://www.ticketliquidator.com/tickets/7927241/Gavin-Adcock-tickets-Thu-Dec-10-2026-The-Theater-at-Virgin-Hotels-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PaaS",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7927241/Gavin-Adcock-tickets-Thu-Dec-10-2026-The-Theater-at-Virgin-Hotels-Las-Vegas"
   },
   {
     "id": "tm-gavin-adcock-2027-lexington-1apzk4egkdqsq_b",
@@ -594,8 +658,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "16006542DACDD67A",
     "ticketmaster_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-lexington-kentucky-04-01-2027/event/16006542DACDD67A",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/gavin-adcock-tickets/lexington-kentucky-gatton-park-1-2027-04-01-7-30-pm/concert/18674497",
+    "vividseats_url": "https://www.vividseats.com/gavin-adcock-tickets-lexington-commonspirit-health-stage-at-gatton-park-4-1-2027--concerts-country-and-folk/production/7688256",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-lexington-kentucky-04-01-2027/event/16006542DACDD67A",
     "last_verified_at": null,
@@ -610,18 +674,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18674497,
+        "url": "https://seatgeek.com/gavin-adcock-tickets/lexington-kentucky-gatton-park-1-2027-04-01-7-30-pm/concert/18674497",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7688256,
+        "url": "https://www.vividseats.com/gavin-adcock-tickets-lexington-commonspirit-health-stage-at-gatton-park-4-1-2027--concerts-country-and-folk/production/7688256",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -629,11 +693,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8318410",
+        "url": "https://www.ticketliquidator.com/tickets/8318410/Gavin-Adcock-tickets-Thu-Apr-1-2027-Gatton-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZk4eGkdQSq_B",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318410/Gavin-Adcock-tickets-Thu-Apr-1-2027-Gatton-Park"
   },
   {
     "id": "tm-gavin-adcock-2027-saint-louis-1a-zk46gkdfwuei",
@@ -788,11 +860,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7807220",
+        "url": "https://www.ticketliquidator.com/tickets/7807220/Gavin-Adcock-tickets-Sat-Apr-10-2027-The-Sandy-and-John-Black-Pavilion-at-Ole-Miss",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Y8-",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7807220/Gavin-Adcock-tickets-Sat-Apr-10-2027-The-Sandy-and-John-Black-Pavilion-at-Ole-Miss"
   },
   {
     "id": "tm-gavin-adcock-2027-salem-vv1avzk4kgkdddflu",
@@ -806,8 +886,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "01006546C30C87CD",
     "ticketmaster_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-salem-virginia-04-29-2027/event/01006546C30C87CD",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/gavin-adcock-tickets/salem-virginia-salem-civic-center-2027-04-29-7-30-pm/concert/18672827",
+    "vividseats_url": "https://www.vividseats.com/gavin-adcock-tickets-salem-salem-civic-center-4-29-2027/production/7688278",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-salem-virginia-04-29-2027/event/01006546C30C87CD",
     "last_verified_at": null,
@@ -822,18 +902,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18672827,
+        "url": "https://seatgeek.com/gavin-adcock-tickets/salem-virginia-salem-civic-center-2027-04-29-7-30-pm/concert/18672827",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7688278,
+        "url": "https://www.vividseats.com/gavin-adcock-tickets-salem-salem-civic-center-4-29-2027/production/7688278",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -841,11 +921,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8318413",
+        "url": "https://www.ticketliquidator.com/tickets/8318413/Gavin-Adcock-tickets-Thu-Apr-29-2027-Salem-Civic-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4kGkdddFLu",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318413/Gavin-Adcock-tickets-Thu-Apr-29-2027-Salem-Civic-Center"
   },
   {
     "id": "tm-gavin-adcock-2027-saint-augustine-z7r9jz1aa76gg",
@@ -859,7 +947,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA76Gg",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76Gg",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gavin-adcock-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-05-01-7-pm/concert/18676336",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76Gg",
@@ -875,11 +963,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18676336,
+        "url": "https://seatgeek.com/gavin-adcock-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-05-01-7-pm/concert/18676336",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -912,8 +1000,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA76GU",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76GU",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/gavin-adcock-tickets/oklahoma-city-oklahoma-the-zoo-amphitheatre-2027-05-07-7-30-pm/concert/18676332",
+    "vividseats_url": "https://www.vividseats.com/gavin-adcock-tickets-oklahoma-city-okc-zoo-amphitheatre-5-7-2027--concerts-country-and-folk/production/7688335",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76GU",
     "last_verified_at": null,
@@ -928,18 +1016,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18676332,
+        "url": "https://seatgeek.com/gavin-adcock-tickets/oklahoma-city-oklahoma-the-zoo-amphitheatre-2027-05-07-7-30-pm/concert/18676332",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7688335,
+        "url": "https://www.vividseats.com/gavin-adcock-tickets-oklahoma-city-okc-zoo-amphitheatre-5-7-2027--concerts-country-and-folk/production/7688335",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -966,7 +1054,7 @@
     "ticketmaster_event_id": "3A006545EAACD432",
     "ticketmaster_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-houston-texas-05-08-2027/event/3A006545EAACD432",
     "seatgeek_url": "https://seatgeek.com/gavin-adcock-tickets/houston-texas-white-oak-music-hall-lawn-2027-05-08-6-pm/concert/18674403",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gavin-adcock-tickets-houston-the-lawn-at-white-oak-music-hall-5-8-2027/production/7688229",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-houston-texas-05-08-2027/event/3A006545EAACD432",
     "last_verified_at": null,
@@ -981,18 +1069,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18674403,
+        "url": "https://seatgeek.com/gavin-adcock-tickets/houston-texas-white-oak-music-hall-lawn-2027-05-08-6-pm/concert/18674403",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7688229,
+        "url": "https://www.vividseats.com/gavin-adcock-tickets-houston-the-lawn-at-white-oak-music-hall-5-8-2027/production/7688229",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1000,11 +1088,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8318414",
+        "url": "https://www.ticketliquidator.com/tickets/8318414/Gavin-Adcock-tickets-Sat-May-8-2027-White-Oak-Music-Hall-Lawn",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_f9nlu8w",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318414/Gavin-Adcock-tickets-Sat-May-8-2027-White-Oak-Music-Hall-Lawn"
   },
   {
     "id": "tm-gavin-adcock-2027-richmond-z7r9jz1aa76gm",
@@ -1018,8 +1114,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA76GM",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76GM",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/gavin-adcock-tickets/richmond-virginia-virginia-credit-union-live-at-richmond-raceway-2027-05-13-7-30-pm/concert/18676334",
+    "vividseats_url": "https://www.vividseats.com/gavin-adcock-tickets-richmond-virginia-credit-union-live-at-richmond-raceway-5-13-2027/production/7691232",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76GM",
     "last_verified_at": null,
@@ -1034,18 +1130,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18676334,
+        "url": "https://seatgeek.com/gavin-adcock-tickets/richmond-virginia-virginia-credit-union-live-at-richmond-raceway-2027-05-13-7-30-pm/concert/18676334",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7691232,
+        "url": "https://www.vividseats.com/gavin-adcock-tickets-richmond-virginia-credit-union-live-at-richmond-raceway-5-13-2027/production/7691232",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1053,11 +1149,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8319557",
+        "url": "https://www.ticketliquidator.com/tickets/8319557/Gavin-Adcock-tickets-Thu-May-13-2027-Virginia-Credit-Union-LIVE-at-Richmond-Raceway",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA76GM",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319557/Gavin-Adcock-tickets-Thu-May-13-2027-Virginia-Credit-Union-LIVE-at-Richmond-Raceway"
   },
   {
     "id": "tm-gavin-adcock-2027-atlantic-city-vv17fz_fgkbsdawx",
@@ -1072,7 +1176,7 @@
     "ticketmaster_event_id": "0200654EB3EC9CA2",
     "ticketmaster_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-atlantic-city-new-jersey-05-14-2027/event/0200654EB3EC9CA2",
     "seatgeek_url": "https://seatgeek.com/gavin-adcock-tickets/atlantic-city-new-jersey-hard-rock-live-at-etess-arena-2027-05-14-7-pm/concert/18672973",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gavin-adcock-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-5-14-2027/production/7688058",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-atlantic-city-new-jersey-05-14-2027/event/0200654EB3EC9CA2",
     "last_verified_at": null,
@@ -1087,18 +1191,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18672973,
+        "url": "https://seatgeek.com/gavin-adcock-tickets/atlantic-city-new-jersey-hard-rock-live-at-etess-arena-2027-05-14-7-pm/concert/18672973",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7688058,
+        "url": "https://www.vividseats.com/gavin-adcock-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-5-14-2027/production/7688058",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1106,11 +1210,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8318415",
+        "url": "https://www.ticketliquidator.com/tickets/8318415/Gavin-Adcock-tickets-Fri-May-14-2027-Hard-Rock-Live-At-Etess-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_fGkBSDawx",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318415/Gavin-Adcock-tickets-Fri-May-14-2027-Hard-Rock-Live-At-Etess-Arena"
   },
   {
     "id": "tm-gavin-adcock-2027-baltimore-z7r9jz1aa76ue",
@@ -1124,8 +1236,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA76ue",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76ue",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/gavin-adcock-tickets/baltimore-maryland-pier-six-pavilion-2027-05-15-7-30-pm/concert/18676333",
+    "vividseats_url": "https://www.vividseats.com/gavin-adcock-tickets-baltimore-pier-six-pavilion-5-15-2027/production/7688530",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76ue",
     "last_verified_at": null,
@@ -1140,18 +1252,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18676333,
+        "url": "https://seatgeek.com/gavin-adcock-tickets/baltimore-maryland-pier-six-pavilion-2027-05-15-7-30-pm/concert/18676333",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7688530,
+        "url": "https://www.vividseats.com/gavin-adcock-tickets-baltimore-pier-six-pavilion-5-15-2027/production/7688530",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1159,11 +1271,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8319558",
+        "url": "https://www.ticketliquidator.com/tickets/8319558/Gavin-Adcock-tickets-Sat-May-15-2027-Pier-Six-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA76ue",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319558/Gavin-Adcock-tickets-Sat-May-15-2027-Pier-Six-Pavilion"
   },
   {
     "id": "tm-gavin-adcock-2027-helotes-z7r9jz1aa76gz",
@@ -1177,8 +1297,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA76Gz",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76Gz",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/gavin-adcock-tickets/helotes-texas-floores-country-store-2027-05-27-7-30-pm/concert/18676335",
+    "vividseats_url": "https://www.vividseats.com/gavin-adcock-tickets-helotes-john-t-floores-country-store---outdoor-5-27-2027/production/7699918",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76Gz",
     "last_verified_at": null,
@@ -1193,18 +1313,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18676335,
+        "url": "https://seatgeek.com/gavin-adcock-tickets/helotes-texas-floores-country-store-2027-05-27-7-30-pm/concert/18676335",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7699918,
+        "url": "https://www.vividseats.com/gavin-adcock-tickets-helotes-john-t-floores-country-store---outdoor-5-27-2027/production/7699918",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1212,11 +1332,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8319559",
+        "url": "https://www.ticketliquidator.com/tickets/8319559/Gavin-Adcock-tickets-Thu-May-27-2027-John-T-Floore-Country-Store",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA76Gz",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319559/Gavin-Adcock-tickets-Thu-May-27-2027-John-T-Floore-Country-Store"
   },
   {
     "id": "tm-gavin-adcock-2027-helotes-z7r9jz1aa76gy",
@@ -1230,7 +1358,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA76Gy",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76Gy",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gavin-adcock-tickets/helotes-texas-floores-country-store-2027-05-28-7-30-pm/concert/18676344",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76Gy",
@@ -1246,11 +1374,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18676344,
+        "url": "https://seatgeek.com/gavin-adcock-tickets/helotes-texas-floores-country-store-2027-05-28-7-30-pm/concert/18676344",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1265,10 +1393,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8319560",
+        "url": "https://www.ticketliquidator.com/tickets/8319560/Gavin-Adcock-tickets-Fri-May-28-2027-John-T-Floore-Country-Store",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA76Gy",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319560/Gavin-Adcock-tickets-Fri-May-28-2027-John-T-Floore-Country-Store"
   }
 ]

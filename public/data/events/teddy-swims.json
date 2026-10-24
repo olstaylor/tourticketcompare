@@ -1291,11 +1291,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107155510",
-        "url": "https://www.stubhub.ie/teddy-swims-sunrise-tickets-10-23-2026/event/107155510",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70v8I",
@@ -1303,7 +1303,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883108",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883108/Teddy-Swims-tickets-Fri-Oct-23-2026-Amerant-Bank-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-sunrise-tickets-10-23-2026/event/107155510"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-teddy-swims-2026-tampa-vvg1vz_fdr-qk6",

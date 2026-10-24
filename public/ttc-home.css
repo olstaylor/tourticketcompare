@@ -461,3 +461,40 @@
   .ttc-home .home-artist__meta{font-size:12px}
   .ttc-home .home-link-list{grid-template-columns:1fr}
 }
+
+/* The homepage leads with one clear action, followed by quiet browse lists. */
+.ttc-home .hero-panel {
+  position: relative;
+  padding: clamp(28px, 5vw, 64px);
+  border: 0;
+  border-radius: 14px;
+  background: #214034;
+  box-shadow: none;
+}
+.ttc-home .hero-title {
+  max-width: 22ch;
+  color: #fbfaf8;
+  font-size: clamp(2.4rem, 5vw, 4.4rem);
+  line-height: 1.02;
+  letter-spacing: -.045em;
+  text-wrap: balance;
+}
+.ttc-home .hero-subcopy { max-width: 60ch; color: #e1e8e2; font-size: 1.08rem; line-height: 1.65; }
+.ttc-home .hero-search-form { max-width: 800px; margin-top: 28px; }
+.ttc-home .hero-search-input { border: 1px solid #fff; border-radius: 8px; box-shadow: none; }
+.ttc-home .hero-search-submit { border-radius: 8px; box-shadow: none; }
+.ttc-home .home-section { margin-top: 0; padding: 36px 20px; border: 0; border-bottom: 1px solid var(--ttc-border-strong); border-radius: 0; background: transparent; box-shadow: none; }
+.ttc-home .home-section__head h2 { font-size: 1.65rem; letter-spacing: -.03em; }
+.ttc-home .tile { background: #fff; }
+.ttc-home .tile-list { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.ttc-home .home-trust-line { padding-inline: 20px; }
+@media(max-width:620px) {
+  .ttc-home .hero-title { font-size: clamp(2.3rem, 10vw, 3.2rem); }
+  .ttc-home .hero-subcopy { font-size: 1rem; }
+  .ttc-home .home-section { padding: 28px 10px; }
+  .ttc-home .tile-list { grid-template-columns: minmax(0, 1fr); }
+}
+@media(min-width:621px) and (max-width:920px) { .ttc-home .tile-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.ttc-hd__in { height: 72px; }
+.ttc-home .hero-search-input:focus-visible, .ttc-home .hero-search-submit:focus-visible { outline: 3px solid #e8ba87; outline-offset: 4px; }
+@media(max-width:620px) { .ttc-hd__in { height: 64px; } }

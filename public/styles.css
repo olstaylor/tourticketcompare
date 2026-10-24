@@ -3133,3 +3133,107 @@ code {
 .artist-page .show-filter-bar { margin: 0; }
 .show-board .section-intro .price-disclosure { font-size: .82rem; line-height: 1.45; }
 .artist-page .artist-dates-jump { margin-top: 10px; font-size: .95rem; font-weight: 700; }
+/* Long-form pages have a reading column and quiet section navigation. Ticket
+   boards keep their wide comparison layout. */
+.reading-page {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0;
+  gap: 40px;
+  padding: 28px 20px 64px;
+}
+
+.reading-heading {
+  display: grid;
+  gap: 18px;
+  max-width: 840px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--line-strong);
+}
+
+.reading-heading h1 { max-width: 22ch; margin: 0; text-wrap: balance; }
+.reading-heading .lead { max-width: 65ch; margin: 0; color: var(--ink-soft); font-size: 1.15rem; line-height: 1.65; }
+.reading-heading .guide-provenance { font-size: .85rem; line-height: 1.6; color: var(--muted); }
+.reading-heading .guide-provenance p { margin: 0 0 6px; }
+.reading-heading .guide-provenance .disclosure-note { max-width: 78ch; font-size: .82rem; }
+
+.reading-layout {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 720px);
+  align-items: start;
+  gap: 56px;
+}
+
+.reading-layout--single { grid-template-columns: minmax(0, 720px); }
+.reading-contents { position: sticky; top: 88px; max-height: calc(100vh - 112px); overflow-y: auto; }
+.reading-contents > summary { margin: 0 0 14px; color: var(--green); font-size: .78rem; font-weight: 700; letter-spacing: .06em; cursor: pointer; }
+.reading-contents:not([open]) > summary { margin-bottom: 0; }
+.reading-contents ol { display: grid; gap: 4px; margin: 0; padding: 0; list-style: none; border-left: 1px solid var(--line-strong); }
+.reading-contents a { display: block; padding: 8px 16px; color: var(--muted); text-decoration: none; font-size: .88rem; line-height: 1.45; }
+.reading-contents a:hover, .reading-contents a:focus-visible { color: var(--green); background: var(--green-soft); }
+.reading-body { display: grid; gap: 30px; min-width: 0; }
+.reading-body > .nested-panel { display: block; margin: 0; padding: 0 0 30px; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; background: transparent; box-shadow: none; }
+.reading-body h2 { margin: 0 0 16px; font-size: clamp(1.4rem, 2.6vw, 1.85rem); line-height: 1.2; letter-spacing: -.025em; scroll-margin-top: 90px; }
+.reading-body h3 { margin: 24px 0 10px; font-size: 1.15rem; line-height: 1.35; }
+.reading-body p, .reading-body li { color: var(--ink-soft); font-size: 1rem; line-height: 1.8; }
+.reading-body .nested-panel > p + p { margin-top: 16px; }
+.reading-body ul, .reading-body ol { margin-block: 16px; }
+.reading-body .check-list { gap: 10px; }
+.reading-body .action-row { margin-top: 0; gap: 10px; }
+.reading-body .action-row .button { min-height: 44px; padding: 10px 18px; font-size: .9rem; }
+.reading-body .guide-grid .info-card { min-height: 0; }
+.reading-body .guide-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.reading-body .faq-panel details + details { border-top: 1px solid var(--line); }
+.reading-body .faq-panel summary { padding-block: 12px; }
+
+.guide-directory { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.guide-directory > .nested-panel { align-content: start; padding: 26px; box-shadow: none; gap: 12px; border-top: 3px solid var(--green); }
+.guide-directory h2 { font-size: 1.4rem; line-height: 1.25; }
+.guide-directory p { font-size: .95rem; line-height: 1.6; }
+.guide-directory .link-list { grid-template-columns: minmax(0, 1fr); margin: 0; padding: 0; list-style: none; }
+.guide-directory .link-list li { border-top: 1px solid var(--line); }
+.guide-directory .guide-card-link { display: block; padding: 12px 0; color: var(--ink); font-size: .98rem; line-height: 1.5; text-decoration: none; }
+.guide-directory .guide-card-link:hover { color: var(--accent-dark); text-decoration: underline; text-underline-offset: 3px; }
+
+/* Clearer rhythm for the wider browse and ticket pages, too. */
+.content-page:not(.reading-page) > .breadcrumbs { margin-bottom: 0; }
+.content-page:not(.reading-page) > .section-grid { padding: 24px 0; }
+.content-page > .nested-panel > h2 { font-size: clamp(1.4rem, 2.6vw, 1.9rem); line-height: 1.2; }
+.ttc-ft > .ttc-wrap > p { max-width: 78ch; color: var(--ttc-muted); font-size: .85rem; line-height: 1.65; }
+
+.content-page:not(.reading-page) { background: transparent; border: 0; border-radius: 0; box-shadow: none; padding: 32px 20px 56px; }
+.content-page:not(.reading-page) > .section-grid { background: transparent; border: 0; border-radius: 0; box-shadow: none; }
+.content-page h1 { text-wrap: balance; }
+.content-page > .lead { max-width: 66ch; color: var(--ink-soft); }
+.guides-index > h1 { max-width: none; font-size: clamp(2.4rem, 5.5vw, 4.5rem); }
+.guides-index > .lead { margin-bottom: 12px; }
+.guides-index .guide-directory > .nested-panel { background: var(--paper); }
+.button { border-radius: 8px; font-weight: 700; box-shadow: none; }
+.show-board { border-top: 1px solid var(--line-strong); }
+.tile { padding: 14px 16px; gap: 6px; }
+.tile__name { font-weight: 700; }
+.tile-list { gap: 10px; }
+.artist-page [data-artist-lead] > .lead { max-width: 65ch; color: var(--ink-soft); }
+.artist-page .price-guide-link { font-size: .95rem; }
+
+@media (max-width: 640px) {
+  .content-page:not(.reading-page) { padding: 20px 10px 40px; }
+}
+
+@media (max-width: 800px) {
+  .reading-page { gap: 24px; padding: 20px 10px 40px; }
+  .reading-heading { gap: 14px; padding-bottom: 24px; }
+  .reading-layout { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .reading-contents { position: static; max-height: none; padding: 18px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); }
+  .reading-contents ol { grid-template-columns: repeat(2, minmax(0, 1fr)); border: 0; gap: 4px 12px; }
+  .reading-contents a { padding: 8px 0; }
+  .reading-body { gap: 24px; }
+  .reading-body > .nested-panel { padding-bottom: 24px; }
+  .reading-body p, .reading-body li { line-height: 1.7; }
+  .guide-directory { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media (max-width: 440px) {
+  .reading-contents ol, .reading-body .guide-grid { grid-template-columns: minmax(0, 1fr); }
+}

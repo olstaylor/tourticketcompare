@@ -7,7 +7,7 @@ import { execFileSync } from 'node:child_process';
 import { pathToFileURL, fileURLToPath } from 'node:url';
 import { parse as parseYaml } from 'yaml';
 import { selectArticle, buildEvidence, checkArticle, generateArticle, anthropicClient, researchEvidence, verifyRemoteEvent,
-  reserveWeek, listEditorialPrs, MODEL, OUTPUT_LIMITS, MAX_ESTIMATED_USD } from './lib/blog-drafting.mjs';
+  reserveTopic, listEditorialPrs, MODEL, EFFORT, OUTPUT_LIMITS, MAX_ESTIMATED_USD, MAX_OPEN_DRAFTS, prBody } from './lib/blog-drafting.mjs';
 import { draftOnce, prepareContent, readDraftRules } from './draft-blog-article.mjs';
 import { createMockClient, mockMarkdown } from './fixtures/blog-draft-model.mjs';
 import { githubClient } from './propose-blog-ideas.mjs';
@@ -28,9 +28,43 @@ test('issue #1538 selects one durable buying guide rather than short sale window
   assert.equal(selected.topic, 'greta-van-fleet:ticket-options');
   assert.equal(selected.originalKey, 'greta-van-fleet:presale');
   assert(!selected.links.some((l) => l.endsWith('/presale')));
+  assert.equal(selected.kind, 'options', 'presale windows opening today fall back to the durable guide');
   assert(selection.rejected.some((r) => r.key === 'mico:presale'));
-  assert(selection.rejected.some((r) => r.key === 'malcolm-todd:nights'));
+  assert.equal(selection.candidates.find((c) => c.artist === 'malcolm-todd')?.kind, 'nights');
   assert.match(selected.commercialPurpose, /unmeasured/);
+});
+
+// Def Leppard's windows moved three days out: now there is time to review a presale post.
+const presaleFixture = clone(fixture);
+const shift = (v) => new Date(Date.parse(v) + 3 * 86400000).toISOString().replace('.000Z', 'Z');
+for (const e of presaleFixture.events) if (e.artist_slug === 'def-leppard' && e.presales) e.presales = e.presales.map((w) => ({ ...w, start: shift(w.start), end: shift(w.end) }));
+const presaleSelected = selectArticle(presaleFixture, issue, { now }).candidates.find((c) => c.kind === 'presale');
+const presaleEvidence = buildEvidence(presaleSelected, { now, snapshot });
+
+function presaleMarkdown(ev, extra = '') {
+  const e = ev.events[0];
+  const w = e.presales[0];
+  const base = mockMarkdown({ evidence: ev, artistSlug: presaleSelected.artist, date: '2026-10-12' });
+  return base.replace('## A practical final check', `## The listed presale window\n\nTicketmaster listed the ${w.name} for ${e.venue} from ${w.startLocal} to ${w.endLocal}, with the public on-sale at ${e.publicOnsaleLocal}. Confirm both on the [event page](${e.sourceUrl}) before the day, because organisers can move them.${extra}\n\n## A practical final check`);
+}
+
+test('a presale far enough ahead becomes a presale article with listed local times', () => {
+  assert.equal(presaleSelected.topic, 'def-leppard:presale-dates');
+  assert(presaleSelected.links.some((l) => l.endsWith('/presale')));
+  const e = presaleEvidence.events[0];
+  assert.equal(e.presales[0].startLocal, 'Thursday 15 October 2026, 10:00 EDT');
+  assert.equal(e.publicOnsaleLocal, 'Friday 16 October 2026, 10:00 EDT');
+  assert(presaleEvidence.requireCurrent);
+  assert.equal(checkArticle(presaleMarkdown(presaleEvidence), presaleSelected, presaleEvidence, fixture.documents, now).status, 'draft');
+  // A time the evidence does not list is a derived claim.
+  assert.throws(() => checkArticle(presaleMarkdown(presaleEvidence, ' Doors open at 19:30.'), presaleSelected, presaleEvidence, fixture.documents, now), /numeric/);
+});
+
+test('show priority reorders candidates but never makes an idea eligible', () => {
+  const ranked = selectArticle(fixture, issue, { now, priority: new Map([['nickelback', 1], ['not-in-issue', 1]]) });
+  assert.equal(ranked.selected.artist, 'nickelback');
+  assert.equal(ranked.selected.priorityRank, 1);
+  assert(!ranked.candidates.some((c) => c.artist === 'not-in-issue'));
 });
 
 test('empty recommendations issue is a valid no-generation outcome', async () => {
@@ -67,21 +101,23 @@ test('existing drafts and all-state editorial PRs reject duplicate topics', () =
   assert.notEqual(result.selected?.artist, selected.artist);
 });
 
-test('weekly ref reservation is atomic and collisions abort before spend', async () => {
+test('topic ref reservation is atomic and collisions abort before spend', async () => {
   const calls = [];
   const gh = async (method, url, data) => { calls.push([method, url, data]); if (method === 'GET') throw Object.assign(new Error('missing'), { status: 404 }); return {}; };
-  const branch = await reserveWeek(gh, { now, baseSha: snapshot, prs: [] });
-  assert.equal(branch, 'automation/blog-draft-2026-10-12');
+  const branch = await reserveTopic(gh, { slug: selected.slug, baseSha: snapshot });
+  assert.equal(branch, `automation/blog-draft-${selected.slug}`);
   assert.equal(calls[1][2].sha, snapshot);
-  assert.equal(await reserveWeek(async () => ({}), { now, baseSha: snapshot, prs: [] }), null);
-  await assert.rejects(reserveWeek(async (m) => { throw Object.assign(new Error('collision'), { status: m === 'GET' ? 404 : 422 }); },
-    { now, baseSha: snapshot, prs: [] }), /collision/);
+  assert.equal(await reserveTopic(async () => ({}), { slug: selected.slug, baseSha: snapshot }), null);
+  await assert.rejects(reserveTopic(async (m) => { throw Object.assign(new Error('collision'), { status: m === 'GET' ? 404 : 422 }); },
+    { slug: selected.slug, baseSha: snapshot }), /collision/);
+  await assert.rejects(reserveTopic(noNetwork, { slug: '../main', baseSha: snapshot }), /slug/);
 });
 
-test('open, closed-recent and merged-recent PRs block a second weekly PR', async () => {
-  for (const pr of [{ state: 'open', created_at: '2025-01-01' }, { state: 'closed', created_at: '2026-10-11' }, { state: 'closed', merged_at: '2026-10-12', created_at: '2026-10-11' }]) {
-    assert.equal(await reserveWeek(noNetwork, { now, baseSha: snapshot, prs: [pr] }), null);
-  }
+test('unreviewed automated drafts stop new spend at the open-draft limit', async () => {
+  const open = Array.from({ length: MAX_OPEN_DRAFTS }, (_, i) => ({ state: 'open', number: i + 1, head: { ref: `automation/blog-draft-x${i}` } }));
+  const result = await draftOnce({ source: fixture, issue, mode: 'live', apiKey: 'mock', now, snapshot, fetchImpl: noNetwork,
+    gh: async (_m, url) => { if (url.startsWith('/pulls?')) return open; throw new Error('No reservation at the limit'); } });
+  assert.equal(result.outcome, 'open-draft-limit-reached');
 });
 
 test('PR inventory paginates all states and fails on API errors', async () => {
@@ -92,15 +128,17 @@ test('PR inventory paginates all states and fails on API errors', async () => {
   await assert.rejects(listEditorialPrs(noNetwork), /network/);
 });
 
-test('open human Markdown PRs pause drafting; unrelated code PRs do not', async () => {
+test('open human Markdown PRs block their artist only; unrelated code PRs do not', async () => {
   const found = await listEditorialPrs(async (_method, url) => {
     if (url.startsWith('/pulls?')) return [{ number: 8, state: 'open', head: { ref: 'human/article' } }, { number: 9, state: 'open', head: { ref: 'fix/code' } }];
-    if (url.startsWith('/pulls/8/files')) return [{ filename: 'content/blog/another-buying-guide.md' }];
+    if (url.startsWith('/pulls/8/files')) return [{ filename: `content/blog/${selected.artist}-tour-notes.md` }];
     if (url.startsWith('/pulls/9/files')) return [{ filename: 'scripts/example.mjs' }];
     throw new Error('Unexpected PR lookup');
   });
   assert.deepEqual(found.map((p) => p.number), [8]);
-  assert.equal(await reserveWeek(noNetwork, { now, baseSha: snapshot, prs: found }), null);
+  const result = selectArticle(fixture, issue, { now, prs: found });
+  assert(result.rejected.some((r) => r.key === selected.originalKey && /open PR/.test(r.reason)));
+  assert(result.selected && result.selected.artist !== selected.artist);
 });
 
 test('supported draft passes without treating mock review as external verification', async () => {
@@ -122,6 +160,11 @@ test('reject unsupported facts, expired presales, fabricated citations and unsaf
     markdown.replace(selected.artist, 'wrong-artist'),
     markdown + '\nPrices will drop.',
     markdown + '\nOur guide can help.',
+    markdown + '\nThis could be your last chance to see them.',
+    markdown + '\nWhether you\'re a long-time fan or new, look no further.',
+    markdown + '\n## Which night is best?\n',
+    markdown + '\nGrab them now!',
+    markdown.replace(`](${evidence.events[0].sourceUrl})`, '](/artists/x)'),
     markdown + '\n```html\n<script>bad</script>\n```'
   ]) assert.throws(() => checkArticle(body, selected, evidence, fixture.documents, now), /Blog drafting/);
 });
@@ -190,8 +233,37 @@ test('preview checks current external evidence without reserving a week or calli
     const data = remote(evidence.events[0]); data.url = 'https://example.com/?apikey=never-log-this';
     return { ok: true, json: async () => data };
   } }), error => error.message.includes('sourceUrl') && !error.message.includes('never-log-this'));
+  // One changed date is left out and reported; the rest still make the article.
+  const one = await draftOnce({ ...options, fetchImpl: async (url) => {
+    const id = new URL(url).pathname.split('/').at(-1).replace('.json', '');
+    const data = remote(evidence.events.find(e => e.discoveryId === id));
+    if (id === evidence.events[0].discoveryId) data.dates.start.localDate = '2027-12-31';
+    return { ok: true, json: async () => data };
+  } });
+  assert.equal(one.evidence.events.length, evidence.events.length - 1);
+  assert.deepEqual(one.evidence.dropped, [{ id: evidence.events[0].id, fields: ['localDate'] }]);
   const skipped = await draftOnce({ ...options, tmKey: null, fetchImpl: noNetwork });
   assert(skipped.evidence.events.every(e => e.external.kind === 'not-checked'));
+});
+
+test('listed sale and presale times must match the official API exactly', () => {
+  const e = presaleEvidence.events[0];
+  const data = remote(e);
+  data.dates.status.code = 'offsale';
+  data.sales = { public: { startDateTime: e.publicOnsaleAt }, presales: e.presales.map((w) => ({ name: w.name, startDateTime: w.start, endDateTime: w.end })) };
+  assert(verifyRemoteEvent(e, data, now).fields.includes('presales'));
+  data.sales.presales[0].startDateTime = '2026-10-15T15:00:00Z';
+  assert.throws(() => verifyRemoteEvent(e, data, now), /presales/);
+  data.sales.presales[0].startDateTime = e.presales[0].start; data.sales.public.startDateTime = '2026-10-17T14:00:00Z';
+  assert.throws(() => verifyRemoteEvent(e, data, now), /publicOnsale/);
+  // Offsale is only expected before a sale; a buying guide needs onsale.
+  const plain = remote(evidence.events[0]); plain.dates.status.code = 'offsale';
+  assert.throws(() => verifyRemoteEvent(evidence.events[0], plain, now), /status/);
+});
+
+test('sale articles without a current Ticketmaster check are not written', async () => {
+  const noIdentity = clone(presaleEvidence); noIdentity.events.forEach((e) => { e.discoveryId = null; });
+  await assert.rejects(researchEvidence(noIdentity, { apiKey: 'mock', now, fetchImpl: noNetwork }), /too few dates survive/);
 });
 
 test('remote mismatch diagnostics identify fields and safely handle missing venues', () => {
@@ -231,11 +303,13 @@ test('official Anthropic Messages request uses bounded model/tokens and reports 
     assert.equal(options.headers['anthropic-version'], '2023-06-01'); assert.equal(options.redirect, 'error');
     const body = JSON.parse(options.body);
     assert.equal(body.model, MODEL); assert.equal(body.max_tokens, OUTPUT_LIMITS[calls - 1]); assert.equal(body.tools, undefined);
-    return { ok: true, json: async () => ({ stop_reason: 'end_turn', usage: { input_tokens: 100, output_tokens: 50 }, content: [{ type: 'text', text: '{"ok":true}' }] }) };
+    assert.deepEqual(body.output_config, { effort: EFFORT }); assert.equal(body.temperature, undefined);
+    return { ok: true, json: async () => ({ stop_reason: 'end_turn', usage: { input_tokens: 100, output_tokens: 50 },
+      content: [{ type: 'thinking', thinking: '' }, { type: 'text', text: '{"ok":true}' }] }) };
   } });
   await client.request('system', { task: 'one' }, OUTPUT_LIMITS[0]);
   await client.request('system', { task: 'two' }, OUTPUT_LIMITS[1]);
-  assert.equal(client.usage[0].estimatedUsd, 0.00035);
+  assert.equal(client.usage[0].estimatedUsd, 0.0014);
   assert(client.usage.reduce((n, u) => n + u.reservedUsd, 0) < MAX_ESTIMATED_USD);
   await assert.rejects(client.request('s', {}, 100), /two-call/); assert.equal(calls, 2);
 });
@@ -249,7 +323,9 @@ test('API failures never retry or leak response/error credentials; truncation/ma
   }
   const client = anthropicClient({ apiKey: 'mock', fetchImpl: async () => { throw new Error('mock-secret'); } });
   await assert.rejects(client.request('s', {}, 100), (e) => !e.message.includes('mock-secret'));
-  for (const data of [{ stop_reason: 'max_tokens' }, { stop_reason: 'end_turn', content: [{ type: 'text', text: '{bad' }] }]) {
+  for (const data of [{ stop_reason: 'max_tokens' }, { stop_reason: 'end_turn', content: [{ type: 'text', text: '{bad' }] },
+    { stop_reason: 'refusal', content: [] }, { stop_reason: 'end_turn', content: [{ type: 'thinking', thinking: '' }] },
+    { stop_reason: 'end_turn', content: [{ type: 'tool_use' }, { type: 'text', text: '{}' }] }]) {
     const c = anthropicClient({ apiKey: 'mock', fetchImpl: async () => ({ ok: true, json: async () => ({ usage: { input_tokens: 1, output_tokens: 1 }, ...data }) }) });
     await assert.rejects(c.request('s', {}, 100));
   }
@@ -257,45 +333,74 @@ test('API failures never retry or leak response/error credentials; truncation/ma
   await assert.rejects(anthropicClient({ apiKey: 'mock', fetchImpl: noNetwork }).request('s', {}, 100000), /budget/);
 });
 
-test('mocked APIs in live-mode orchestration create exactly one DRAFT PR; blocked retries spend nothing', async () => {
-  const calls = []; let hasRef = false; let modelCalls = 0; let published = 0;
-  const gh = async (method, url) => {
-    calls.push([method, url]);
+function liveHarness() {
+  const refs = new Set(); const state = { modelCalls: 0, published: 0, resets: 0, calls: [] };
+  const gh = async (method, url, data) => {
+    state.calls.push([method, url]);
     if (url.startsWith('/pulls?')) return [];
-    if (method === 'GET') { if (hasRef) return {}; throw Object.assign(new Error('missing'), { status: 404 }); }
-    hasRef = true; return {};
+    if (method === 'GET') { if (refs.has(url.replace('/git/ref/', 'refs/'))) return {}; throw Object.assign(new Error('missing'), { status: 404 }); }
+    refs.add(data.ref); return {};
   };
+  return { refs, state, gh };
+}
+
+test('mocked APIs in live-mode orchestration create up to two DRAFT PRs; reserved topics never spend twice', async () => {
+  const { state, gh } = liveHarness();
   const fetchImpl = async (url, options) => {
     if (url.includes('ticketmaster')) throw new Error('No credential => no request');
-    modelCalls++;
+    state.modelCalls++;
     const payload = JSON.parse(JSON.parse(options.body).messages[0].content);
     const answer = payload.task === 'draft' ? { markdown: mockMarkdown(payload) }
-      : { supported: true, issues: [], claims: [{ claim: 'Mock claim', sourceUrl: evidence.events[0].sourceUrl, basis: 'repository' }] };
-    return { ok: true, json: async () => ({ stop_reason: 'end_turn', usage: { input_tokens: 100, output_tokens: 100 }, content: [{ type: 'text', text: JSON.stringify(answer) }] }) };
+      : { supported: true, issues: [], claims: [{ claim: 'Mock claim', sourceUrl: payload.evidence.events[0].sourceUrl, basis: 'repository' }] };
+    return { ok: true, json: async () => ({ stop_reason: 'end_turn', usage: { input_tokens: 10000, output_tokens: 5000 }, content: [{ type: 'text', text: JSON.stringify(answer) }] }) };
   };
   const options = { source: fixture, issue, mode: 'live', gh, apiKey: 'mock-key', now, snapshot, rules: await readDraftRules(), fetchImpl,
-    compile: async () => ['mock compiler passed'], publish: async ({ body }) => { published++; assert.match(body, /status: draft/); return { draft: true, html_url: 'https://github.com/mock/pr/1' }; } };
-  assert.equal((await draftOnce(options)).outcome, 'draft-pr-created');
-  assert.equal((await draftOnce(options)).outcome, 'weekly-slot-or-open-pr-already-exists');
-  assert.equal(modelCalls, 2); assert.equal(published, 1);
-  assert(!calls.some(([, p]) => /merge|reviews/.test(p)));
+    reset: async () => { state.resets++; },
+    compile: async () => ['mock compiler passed'], publish: async ({ body }) => { state.published++; assert.match(body, /status: draft/); assert.match(body, /Estimated API cost: \$0\.\d\d/);
+      return { draft: true, html_url: `https://github.com/mock/pr/${state.published}` }; } };
+  const first = await draftOnce(options);
+  assert.equal(first.outcome, 'draft-prs-created'); assert.equal(first.created, 2);
+  assert.equal(first.costUsd, 0.56, 'two articles, each 2 calls of 10k in + 5k out at $4/$20 per M');
+  const second = await draftOnce(options);
+  assert(second.drafts.slice(0, 2).every((d) => d.outcome === 'skipped-branch-exists'));
+  assert.equal(state.modelCalls, 4 + second.drafts.filter((d) => d.outcome === 'draft-pr-created').length * 2);
+  assert.equal(state.resets, state.published);
+  assert(!state.calls.some(([, p]) => /merge|reviews/.test(p)));
 });
 
-test('failed paid run retains lock and records usage; no new PR or retry', async () => {
-  let reserved = false; let spent = 0;
-  const gh = async (m, p) => { if (p.startsWith('/pulls?')) return []; if (m === 'GET') { if (reserved) return {}; throw Object.assign(new Error('missing'), { status: 404 }); } reserved = true; return {}; };
+test('failed paid drafts keep their branch, record usage and are never retried', async () => {
+  const { refs, gh } = liveHarness(); let spent = 0;
   const options = { source: fixture, issue, mode: 'live', gh, apiKey: 'mock', now, snapshot, rules: '',
     fetchImpl: async () => { spent++; return { ok: false, status: 503 }; }, compile: noNetwork, publish: noNetwork };
-  await assert.rejects(draftOnce(options), e => e.draftReport.branch && e.draftReport.usage.length === 1);
-  assert.equal((await draftOnce(options)).outcome, 'weekly-slot-or-open-pr-already-exists'); assert.equal(spent, 1);
+  const first = await draftOnce(options);
+  assert.equal(first.outcome, 'drafts-failed');
+  assert(first.drafts.every((d) => d.outcome === 'failed-no-retry' && d.branch && d.usage.length === 1));
+  assert.equal(spent, 2, 'at most two paid attempts per run');
+  await draftOnce(options);
+  assert.equal(spent, 4, 'the next run moves on to untried topics');
+  const third = await draftOnce(options);
+  assert(third.drafts.every((d) => d.outcome === 'skipped-branch-exists')); assert.equal(spent, 4);
+  assert(refs.size === 4);
 });
 
-test('workflow is opt-in, trusted main, serial, bounded and never auto-merges', async () => {
+test('PR body states the kind, listed sale times and real cost for review', () => {
+  const article = { validation: { markdownSha256: 'x' }, outstanding: ['Human: read it'], model: MODEL, usage: [{ estimatedUsd: 0.12 }, { estimatedUsd: 0.05 }] };
+  const body = prBody({ selected: presaleSelected, issueNumber: 1538, repository: 'olstaylor/tourticketcompare', evidence: presaleEvidence, article, tests: ['ok'] });
+  assert.match(body, /Estimated API cost: \$0\.17/);
+  assert.match(body, /Def Leppard Fan Club Presale: Thursday 15 October 2026, 10:00 EDT/);
+  assert.match(body, /"kind":"presale"/);
+  assert.match(body, /Reviewed by Ollie Taylor/);
+});
+
+test('workflow runs live on trusted main twice a week, has a kill switch, is serial and never auto-merges', async () => {
   const raw = await fs.readFile(path.join(root, '.github/workflows/blog-draft.yml'), 'utf8');
   const wf = parseYaml(raw);
   assert(wf.on.workflow_dispatch); assert.equal(wf.on.workflow_dispatch.inputs.mode.default, 'preview');
   assert.equal(wf.on.pull_request_target, undefined); assert.equal(wf.on.issue_comment, undefined);
-  assert.match(wf.jobs.draft.if, /BLOG_DRAFT_ENABLED == 'true'/); assert.match(wf.jobs.draft.if, /BLOG_DRAFT_LIVE_PROVEN == 'true'/);
+  assert.deepEqual(wf.on.workflow_run.workflows, ['Weekly blog opportunities']); assert.equal(wf.on.schedule, undefined);
+  assert.match(wf.jobs.draft.if, /BLOG_DRAFT_ENABLED != 'false'/);
+  const ideas = parseYaml(await fs.readFile(path.join(root, '.github/workflows/blog-ideas.yml'), 'utf8'));
+  assert.deepEqual(ideas.on.schedule.map((s) => s.cron), ['20 11 * * 1', '20 11 * * 4']);
   assert.equal(wf.concurrency['cancel-in-progress'], false); assert.equal(wf.jobs.draft['timeout-minutes'], 50);
   assert.equal(wf.jobs.draft.steps[0].with.ref, 'main'); assert(!/auto.merge|gh pr merge/.test(raw));
   assert.match(wf.jobs.draft.steps.find((s) => s.name === 'Test drafting safeguards').run, /issue #1538 selects.*scripts\/blog-drafting\.test\.mjs/);

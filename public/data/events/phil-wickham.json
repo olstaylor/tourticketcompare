@@ -11,8 +11,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "14344784",
     "ticketmaster_url": "https://www.ticketweb.com/event/southern-california-christmas-tour-with-water-of-life-church-tickets/14344784",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/phil-wickham-tickets/fontana-california-water-of-life-community-church-2026-11-30-7-pm/concert/18694094",
+    "vividseats_url": "https://www.vividseats.com/phil-wickham-tickets-fontana-water-of-life-community-church-11-30-2026/production/7699420",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/southern-california-christmas-tour-with-water-of-life-church-tickets/14344784",
     "last_verified_at": null,
@@ -27,18 +27,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18694094,
+        "url": "https://seatgeek.com/phil-wickham-tickets/fontana-california-water-of-life-community-church-2026-11-30-7-pm/concert/18694094",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7699420,
+        "url": "https://www.vividseats.com/phil-wickham-tickets-fontana-water-of-life-community-church-11-30-2026/production/7699420",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -64,8 +64,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "14344824",
     "ticketmaster_url": "https://www.ticketweb.com/event/southern-california-christmas-tour-with-water-of-life-church-tickets/14344824",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/phil-wickham-tickets/fontana-california-water-of-life-community-church-2026-12-01-7-pm/concert/18694095",
+    "vividseats_url": "https://www.vividseats.com/phil-wickham-tickets-fontana-water-of-life-community-church-12-1-2026/production/7699426",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/southern-california-christmas-tour-with-water-of-life-church-tickets/14344824",
     "last_verified_at": null,
@@ -80,18 +80,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18694095,
+        "url": "https://seatgeek.com/phil-wickham-tickets/fontana-california-water-of-life-community-church-2026-12-01-7-pm/concert/18694095",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7699426,
+        "url": "https://www.vividseats.com/phil-wickham-tickets-fontana-water-of-life-community-church-12-1-2026/production/7699426",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -117,7 +117,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "14344834",
     "ticketmaster_url": "https://www.ticketweb.com/event/southern-california-christmas-tour-with-maranatha-chapel-tickets/14344834",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/phil-wickham-tickets/san-diego-california-maranatha-chapel-2026-12-03-7-pm/concert/18694097",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/southern-california-christmas-tour-with-maranatha-chapel-tickets/14344834",
@@ -133,11 +133,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18694097,
+        "url": "https://seatgeek.com/phil-wickham-tickets/san-diego-california-maranatha-chapel-2026-12-03-7-pm/concert/18694097",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -152,11 +152,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8324868",
+        "url": "https://www.ticketliquidator.com/tickets/8324868/Phil-Wickham-tickets-Thu-Dec-3-2026-Maranatha-Chapel",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1Afu7OV",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8324868/Phil-Wickham-tickets-Thu-Dec-3-2026-Maranatha-Chapel"
   },
   {
     "id": "tm-phil-wickham-2026-san-diego-rz7hnez1afu7x7",
@@ -170,7 +178,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "14344884",
     "ticketmaster_url": "https://www.ticketweb.com/event/sold-out-southern-california-christmas-maranatha-chapel-tickets/14344884",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/phil-wickham-tickets/san-diego-california-maranatha-chapel-2026-12-04-7-pm/concert/18694096",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/sold-out-southern-california-christmas-maranatha-chapel-tickets/14344884",
@@ -186,11 +194,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18694096,
+        "url": "https://seatgeek.com/phil-wickham-tickets/san-diego-california-maranatha-chapel-2026-12-04-7-pm/concert/18694096",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -205,11 +213,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8324869",
+        "url": "https://www.ticketliquidator.com/tickets/8324869/Phil-Wickham-tickets-Fri-Dec-4-2026-Maranatha-Chapel",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1Afu7x7",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8324869/Phil-Wickham-tickets-Fri-Dec-4-2026-Maranatha-Chapel"
   },
   {
     "id": "tm-phil-wickham-2026-downey-rz7hnez1afu7xf",
@@ -223,8 +239,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "14344894",
     "ticketmaster_url": "https://www.ticketweb.com/event/sold-out-southern-california-christmas-calvary-chapel-downey-tickets/14344894",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/phil-wickham-tickets/downey-california-calvary-chapel-of-downey-2026-12-06-6-pm/concert/18694098",
+    "vividseats_url": "https://www.vividseats.com/phil-wickham-tickets-downey-calvary-chapel---downey-12-6-2026--concerts-adult-contemporary/production/7700067",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/sold-out-southern-california-christmas-calvary-chapel-downey-tickets/14344894",
     "last_verified_at": null,
@@ -239,18 +255,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18694098,
+        "url": "https://seatgeek.com/phil-wickham-tickets/downey-california-calvary-chapel-of-downey-2026-12-06-6-pm/concert/18694098",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7700067,
+        "url": "https://www.vividseats.com/phil-wickham-tickets-downey-calvary-chapel---downey-12-6-2026--concerts-adult-contemporary/production/7700067",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -258,10 +274,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8324870",
+        "url": "https://www.ticketliquidator.com/tickets/8324870/Phil-Wickham-tickets-Sun-Dec-6-2026-Calvary-Chapel-Downey",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1Afu7xf",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8324870/Phil-Wickham-tickets-Sun-Dec-6-2026-Calvary-Chapel-Downey"
   }
 ]

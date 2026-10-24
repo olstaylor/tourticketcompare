@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107417498",
+        "url": "https://www.stubhub.ie/role-model-tickets-berlin-tempodrom-11-2-2027/event/107417498",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vjt07ba",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/role-model-tickets-berlin-tempodrom-11-2-2027/event/107417498"
   },
   {
     "id": "tm-role-model-2027-forest-brussels-z698xzg2z1k8kjzbp",
@@ -152,11 +160,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107417499",
+        "url": "https://www.stubhub.ie/role-model-tickets-dusseldorf-mitsubishi-electric-halle-17-2-2027/event/107417499",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kA6aaOI",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/role-model-tickets-dusseldorf-mitsubishi-electric-halle-17-2-2027/event/107417499"
   },
   {
     "id": "tm-role-model-2027-dublin-17kzv0g6uvbpba3",
@@ -224,7 +240,7 @@
     "ticketmaster_event_id": "370064D0AC3A4B99",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/role-model-presents-chuck-on-tour-london-24-02-2027/event/370064D0AC3A4B99",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/role-model-tickets-london-ovo-arena-wembley-2-24-2027--concerts-rb/production/7183428",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/role-model-presents-chuck-on-tour-london-24-02-2027/event/370064D0AC3A4B99",
     "last_verified_at": null,
@@ -246,11 +262,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7183428,
+        "url": "https://www.vividseats.com/role-model-tickets-london-ovo-arena-wembley-2-24-2027--concerts-rb/production/7183428",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -258,10 +274,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8074604",
+        "url": "https://www.ticketliquidator.com/tickets/8074604/Role-Model-tickets-Wed-Feb-24-2027-OVO-Arena-Wembley",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447294",
+        "url": "https://www.stubhub.ie/role-model-tickets-london-ovo-arena-wembley-24-2-2027/event/107447294",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G6ueiC0m_",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8074604/Role-Model-tickets-Wed-Feb-24-2027-OVO-Arena-Wembley",
+    "stubhub_international_url": "https://www.stubhub.ie/role-model-tickets-london-ovo-arena-wembley-24-2-2027/event/107447294"
   }
 ]

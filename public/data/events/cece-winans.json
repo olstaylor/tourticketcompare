@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "0E006454A758C390",
     "ticketmaster_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-duluth-georgia-10-23-2026/event/0E006454A758C390",
     "seatgeek_url": "https://seatgeek.com/cece-winans-tickets/duluth-georgia-gas-south-arena-2026-10-23-7-pm/concert/18089916",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-duluth-gas-south-arena-10-23-2026/production/6699124",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-duluth-georgia-10-23-2026/event/0E006454A758C390",
     "last_verified_at": null,
@@ -27,18 +27,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18089916,
+        "url": "https://seatgeek.com/cece-winans-tickets/duluth-georgia-gas-south-arena-2026-10-23-7-pm/concert/18089916",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6699124,
+        "url": "https://www.vividseats.com/cece-winans-tickets-duluth-gas-south-arena-10-23-2026/production/6699124",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7752706",
+        "url": "https://www.ticketliquidator.com/tickets/7752706/CeCe-Winans-tickets-Fri-Oct-23-2026-Gas-South-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_A3EpGC8",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7752706/CeCe-Winans-tickets-Fri-Oct-23-2026-Gas-South-Arena"
   },
   {
     "id": "tm-cece-winans-2026-new-orleans-g5viz_a29lq83",
@@ -65,7 +73,7 @@
     "ticketmaster_event_id": "1B006453D77DA412",
     "ticketmaster_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-new-orleans-louisiana-10-24-2026/event/1B006453D77DA412",
     "seatgeek_url": "https://seatgeek.com/cece-winans-tickets/new-orleans-louisiana-smoothie-king-center-2026-10-24-7-pm/concert/18089898",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-new-orleans-smoothie-king-center-10-24-2026/production/6699116",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-new-orleans-louisiana-10-24-2026/event/1B006453D77DA412",
     "last_verified_at": null,
@@ -80,18 +88,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18089898,
+        "url": "https://seatgeek.com/cece-winans-tickets/new-orleans-louisiana-smoothie-king-center-2026-10-24-7-pm/concert/18089898",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6699116,
+        "url": "https://www.vividseats.com/cece-winans-tickets-new-orleans-smoothie-king-center-10-24-2026/production/6699116",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7752708",
+        "url": "https://www.ticketliquidator.com/tickets/7752708/CeCe-Winans-tickets-Sat-Oct-24-2026-Smoothie-King-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_A29LQ83",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7752708/CeCe-Winans-tickets-Sat-Oct-24-2026-Smoothie-King-Center"
   },
   {
     "id": "tm-cece-winans-2026-orlando-16xzkokj9za57fca",
@@ -118,7 +134,7 @@
     "ticketmaster_event_id": "22006453997A37D4",
     "ticketmaster_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-orlando-florida-10-27-2026/event/22006453997A37D4",
     "seatgeek_url": "https://seatgeek.com/cece-winans-tickets/orlando-florida-addition-financial-arena-2026-10-27-7-pm/concert/18090034",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-orlando-addition-financial-arena-10-27-2026/production/6699118",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-orlando-florida-10-27-2026/event/22006453997A37D4",
     "last_verified_at": null,
@@ -133,18 +149,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18090034,
+        "url": "https://seatgeek.com/cece-winans-tickets/orlando-florida-addition-financial-arena-2026-10-27-7-pm/concert/18090034",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6699118,
+        "url": "https://www.vividseats.com/cece-winans-tickets-orlando-addition-financial-arena-10-27-2026/production/6699118",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -152,11 +168,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7752709",
+        "url": "https://www.ticketliquidator.com/tickets/7752709/CeCe-Winans-tickets-Tue-Oct-27-2026-Addition-Financial-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16xZkoKJ9ZA57FCA",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7752709/CeCe-Winans-tickets-Tue-Oct-27-2026-Addition-Financial-Arena"
   },
   {
     "id": "tm-cece-winans-2026-north-charleston-g5evz_a3s0b-f",
@@ -186,11 +210,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18089897,
+        "url": "https://seatgeek.com/cece-winans-tickets/north-charleston-south-carolina-north-charleston-coliseum-2026-10-28-7-pm/concert/18089897",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -205,11 +229,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7752710",
+        "url": "https://www.ticketliquidator.com/tickets/7752710/CeCe-Winans-tickets-Wed-Oct-28-2026-North-Charleston-Coliseum",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_A3s0B-f",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7752710/CeCe-Winans-tickets-Wed-Oct-28-2026-North-Charleston-Coliseum"
   },
   {
     "id": "tm-cece-winans-2026-tampa-vvg1vz_a3ceusx",
@@ -224,7 +256,7 @@
     "ticketmaster_event_id": "0D0064548E9F6C62",
     "ticketmaster_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-tampa-florida-10-29-2026/event/0D0064548E9F6C62",
     "seatgeek_url": "https://seatgeek.com/cece-winans-tickets/tampa-florida-yuengling-center-2026-10-29-7-pm/concert/18090040",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-tampa-yuengling-center-10-29-2026/production/6699112",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-tampa-florida-10-29-2026/event/0D0064548E9F6C62",
     "last_verified_at": null,
@@ -239,18 +271,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18090040,
+        "url": "https://seatgeek.com/cece-winans-tickets/tampa-florida-yuengling-center-2026-10-29-7-pm/concert/18090040",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6699112,
+        "url": "https://www.vividseats.com/cece-winans-tickets-tampa-yuengling-center-10-29-2026/production/6699112",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -258,11 +290,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7752712",
+        "url": "https://www.ticketliquidator.com/tickets/7752712/CeCe-Winans-tickets-Thu-Oct-29-2026-The-Yuengling-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_A3CEUsx",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7752712/CeCe-Winans-tickets-Thu-Oct-29-2026-The-Yuengling-Center"
   },
   {
     "id": "tm-cece-winans-2026-jacksonville-1kfov047gag6hdu",
@@ -277,7 +317,7 @@
     "ticketmaster_event_id": "220064544C1FC0CD",
     "ticketmaster_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-jacksonville-florida-10-30-2026/event/220064544C1FC0CD",
     "seatgeek_url": "https://seatgeek.com/cece-winans-tickets/jacksonville-florida-vystar-veterans-memorial-arena-2026-10-30-7-pm/concert/18089908",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-jacksonville-vystar-veterans-memorial-arena-10-30-2026/production/6699106",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cece-winans-come-worship-tour-jacksonville-florida-10-30-2026/event/220064544C1FC0CD",
     "last_verified_at": null,
@@ -292,18 +332,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18089908,
+        "url": "https://seatgeek.com/cece-winans-tickets/jacksonville-florida-vystar-veterans-memorial-arena-2026-10-30-7-pm/concert/18089908",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6699106,
+        "url": "https://www.vividseats.com/cece-winans-tickets-jacksonville-vystar-veterans-memorial-arena-10-30-2026/production/6699106",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -311,11 +351,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7752713",
+        "url": "https://www.ticketliquidator.com/tickets/7752713/CeCe-Winans-tickets-Fri-Oct-30-2026-VyStar-Veterans-Memorial-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kFOv047GAG6Hdu",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7752713/CeCe-Winans-tickets-Fri-Oct-30-2026-VyStar-Veterans-Memorial-Arena"
   },
   {
     "id": "tm-cece-winans-2026-seattle-vvg1hz_c5fehuk",
@@ -330,7 +378,7 @@
     "ticketmaster_event_id": "0F0064E2D49DBD86",
     "ticketmaster_url": "https://www.ticketmaster.com/christmas-with-cece-winans-featuring-angie-seattle-washington-12-10-2026/event/0F0064E2D49DBD86",
     "seatgeek_url": "https://seatgeek.com/cece-winans-tickets/seattle-washington-wamu-theater-2026-12-10-7-pm/concert/18361599",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-seattle-wamu-theater---seattle-12-10-2026/production/7267182",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/christmas-with-cece-winans-featuring-angie-seattle-washington-12-10-2026/event/0F0064E2D49DBD86",
     "last_verified_at": null,
@@ -345,18 +393,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18361599,
+        "url": "https://seatgeek.com/cece-winans-tickets/seattle-washington-wamu-theater-2026-12-10-7-pm/concert/18361599",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7267182,
+        "url": "https://www.vividseats.com/cece-winans-tickets-seattle-wamu-theater---seattle-12-10-2026/production/7267182",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -364,11 +412,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8121702",
+        "url": "https://www.ticketliquidator.com/tickets/8121702/CeCe-Winans-tickets-Thu-Dec-10-2026-Wamu-Theater-At-Lumen-Field-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_C5fEhUk",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8121702/CeCe-Winans-tickets-Thu-Dec-10-2026-Wamu-Theater-At-Lumen-Field-Event-Center"
   },
   {
     "id": "tm-cece-winans-2026-portland-z7r9jz1a7j6jj",
@@ -382,8 +438,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7J6jJ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J6jJ",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/cece-winans-tickets/portland-oregon-arlene-schnitzer-concert-hall-2026-12-11-8-pm/concert/18499845",
+    "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-portland-arlene-schnitzer-concert-hall-12-11-2026/production/7273254",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J6jJ",
     "last_verified_at": null,
@@ -398,18 +454,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18499845,
+        "url": "https://seatgeek.com/cece-winans-tickets/portland-oregon-arlene-schnitzer-concert-hall-2026-12-11-8-pm/concert/18499845",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7273254,
+        "url": "https://www.vividseats.com/cece-winans-tickets-portland-arlene-schnitzer-concert-hall-12-11-2026/production/7273254",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -417,11 +473,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8121635",
+        "url": "https://www.ticketliquidator.com/tickets/8121635/CeCe-Winans-tickets-Fri-Dec-11-2026-Arlene-Schnitzer-Concert-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7J6jJ",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8121635/CeCe-Winans-tickets-Fri-Dec-11-2026-Arlene-Schnitzer-Concert-Hall"
   },
   {
     "id": "tm-cece-winans-2026-phoenix-17k8v0g6ch4_jyt",
@@ -436,7 +500,7 @@
     "ticketmaster_event_id": "190064E6D5666C29",
     "ticketmaster_url": "https://www.ticketmaster.com/christmas-with-cece-winans-featuring-angie-phoenix-arizona-12-15-2026/event/190064E6D5666C29",
     "seatgeek_url": "https://seatgeek.com/cece-winans-tickets/phoenix-arizona-arizona-financial-theatre-2026-12-15-7-pm/concert/18361639",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-phoenix-arizona-financial-theatre-12-15-2026/production/7267186",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/christmas-with-cece-winans-featuring-angie-phoenix-arizona-12-15-2026/event/190064E6D5666C29",
     "last_verified_at": null,
@@ -451,18 +515,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18361639,
+        "url": "https://seatgeek.com/cece-winans-tickets/phoenix-arizona-arizona-financial-theatre-2026-12-15-7-pm/concert/18361639",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7267186,
+        "url": "https://www.vividseats.com/cece-winans-tickets-phoenix-arizona-financial-theatre-12-15-2026/production/7267186",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -470,11 +534,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8121699",
+        "url": "https://www.ticketliquidator.com/tickets/8121699/CeCe-Winans-tickets-Tue-Dec-15-2026-Arizona-Financial-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G6Ch4_JYt",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8121699/CeCe-Winans-tickets-Tue-Dec-15-2026-Arizona-Financial-Theatre"
   },
   {
     "id": "tm-cece-winans-2026-bakersfield-z7r9jz1a7jfpa",
@@ -488,8 +560,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7JFpA",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JFpA",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/cece-winans-tickets/bakersfield-california-dignity-health-theater-2026-12-16-7-pm/concert/18598785",
+    "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-bakersfield-dignity-health-theater-12-16-2026/production/7274191",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JFpA",
     "last_verified_at": null,
@@ -504,18 +576,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18598785,
+        "url": "https://seatgeek.com/cece-winans-tickets/bakersfield-california-dignity-health-theater-2026-12-16-7-pm/concert/18598785",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7274191,
+        "url": "https://www.vividseats.com/cece-winans-tickets-bakersfield-dignity-health-theater-12-16-2026/production/7274191",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -523,11 +595,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8124361",
+        "url": "https://www.ticketliquidator.com/tickets/8124361/CeCe-Winans-tickets-Wed-Dec-16-2026-Dignity-Health-Theater",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JFpA",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8124361/CeCe-Winans-tickets-Wed-Dec-16-2026-Dignity-Health-Theater"
   },
   {
     "id": "tm-cece-winans-2026-los-angeles-z7r9jz1a7jfjs",
@@ -541,8 +621,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7JFjS",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JFjS",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/cece-winans-tickets/los-angeles-california-peacock-theater-2026-12-17-7-pm/concert/18499823",
+    "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-los-angeles-peacock-theater-12-17-2026/production/7268026",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JFjS",
     "last_verified_at": null,
@@ -557,18 +637,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18499823,
+        "url": "https://seatgeek.com/cece-winans-tickets/los-angeles-california-peacock-theater-2026-12-17-7-pm/concert/18499823",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7268026,
+        "url": "https://www.vividseats.com/cece-winans-tickets-los-angeles-peacock-theater-12-17-2026/production/7268026",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +675,7 @@
     "ticketmaster_event_id": "1C0064E78AB778D8",
     "ticketmaster_url": "https://www.ticketmaster.com/christmas-with-cece-winans-featuring-angie-sacramento-california-12-18-2026/event/1C0064E78AB778D8",
     "seatgeek_url": "https://seatgeek.com/cece-winans-tickets/sacramento-california-sacramento-memorial-auditorium-2026-12-18-7-pm/concert/18361612",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-sacramento-sacramento-memorial-auditorium-12-18-2026/production/7267180",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/christmas-with-cece-winans-featuring-angie-sacramento-california-12-18-2026/event/1C0064E78AB778D8",
     "last_verified_at": null,
@@ -610,18 +690,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18361612,
+        "url": "https://seatgeek.com/cece-winans-tickets/sacramento-california-sacramento-memorial-auditorium-2026-12-18-7-pm/concert/18361612",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7267180,
+        "url": "https://www.vividseats.com/cece-winans-tickets-sacramento-sacramento-memorial-auditorium-12-18-2026/production/7267180",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -629,11 +709,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8124362",
+        "url": "https://www.ticketliquidator.com/tickets/8124362/CeCe-Winans-tickets-Fri-Dec-18-2026-Sacramento-Memorial-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_Cr1cMNb",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8124362/CeCe-Winans-tickets-Fri-Dec-18-2026-Sacramento-Memorial-Auditorium"
   },
   {
     "id": "tm-cece-winans-2027-nashville-z7r9jz1aaebzs",
@@ -647,8 +735,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAebZS",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebZS",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/cece-winans-tickets/nashville-tennessee-grand-ole-opry-house-2027-03-21-7-30-pm/concert/18237649",
+    "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-nashville-grand-ole-opry-house-3-21-2027/production/6862286",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebZS",
     "last_verified_at": null,
@@ -663,18 +751,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18237649,
+        "url": "https://seatgeek.com/cece-winans-tickets/nashville-tennessee-grand-ole-opry-house-2027-03-21-7-30-pm/concert/18237649",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6862286,
+        "url": "https://www.vividseats.com/cece-winans-tickets-nashville-grand-ole-opry-house-3-21-2027/production/6862286",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -682,11 +770,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7854204",
+        "url": "https://www.ticketliquidator.com/tickets/7854204/CeCe-Winans-tickets-Sun-Mar-21-2027-Grand-Ole-Opry-House",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAebZS",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "9999-12-31T06:00:00Z"
+    "public_onsale_at": "9999-12-31T06:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7854204/CeCe-Winans-tickets-Sun-Mar-21-2027-Grand-Ole-Opry-House"
   }
 ]

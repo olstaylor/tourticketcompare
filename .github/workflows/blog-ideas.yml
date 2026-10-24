@@ -1,10 +1,13 @@
 name: Weekly blog opportunities
 
 # Propose-only. Read committed facts and Markdown; update one rolling issue.
-# Monday 11:20 UTC follows the morning ingestion jobs. No production access.
+# Monday and Thursday 11:20 UTC follow the morning ingestion jobs. Thursday
+# refreshes the same week's issue so Blog article draft sees sale and presale
+# moments that appeared since Monday. No production access.
 on:
   schedule:
     - cron: '20 11 * * 1'
+    - cron: '20 11 * * 4'
   workflow_dispatch:
 
 permissions:

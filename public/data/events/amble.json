@@ -654,7 +654,7 @@
         "event_id": 18222764,
         "url": "https://seatgeek.com/amble-tickets/vancouver-canada-orpheum-theatre-vancouver-2026-10-27-8-pm/concert/18222764",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -729,7 +729,7 @@
         "event_id": 18222450,
         "url": "https://seatgeek.com/amble-tickets/detroit-michigan-saint-andrews-hall-2026-11-01-7-pm/concert/18222450",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -792,7 +792,7 @@
         "event_id": 18223885,
         "url": "https://seatgeek.com/amble-tickets/toronto-canada-history-2026-11-02-7-pm/concert/18223885",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -851,7 +851,7 @@
         "event_id": 18222746,
         "url": "https://seatgeek.com/amble-tickets/ottawa-canada-bronson-centre-2026-11-03-7-pm/concert/18222746",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -910,7 +910,7 @@
         "event_id": 18222463,
         "url": "https://seatgeek.com/amble-tickets/boston-massachusetts-citizens-house-of-blues-boston-2026-11-06-7-pm/concert/18222463",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -982,7 +982,7 @@
         "event_id": 18223366,
         "url": "https://seatgeek.com/amble-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-07-7-pm/concert/18223366",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1062,7 +1062,7 @@
         "event_id": 18222479,
         "url": "https://seatgeek.com/amble-tickets/philadelphia-pennsylvania-theatre-of-living-arts-2026-11-10-8-pm/concert/18222479",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1118,7 +1118,7 @@
         "event_id": 18222468,
         "url": "https://seatgeek.com/amble-tickets/washington-district-of-columbia-9-30-club-2026-11-11-7-pm/concert/18222468",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2490,18 +2490,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8056126",
-        "url": "https://www.ticketliquidator.com/tickets/8056126/Amble-tickets-Thu-Oct-22-2026-The-Crescent-Ballroom-Phoenix",
-        "verified": true,
-        "last_verified_at": "2026-10-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1Afk4vf",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056126",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056126/Amble-tickets-Thu-Oct-22-2026-The-Crescent-Ballroom-Phoenix"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-amble-2027-vienna-z698xz5rz1kburk7p",

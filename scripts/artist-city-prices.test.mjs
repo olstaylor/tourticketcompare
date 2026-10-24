@@ -802,10 +802,40 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
 {
   const artistPath = `/artists/${ARTIST.slug}`;
   const page = await render(artistPath);
-  assert(!page.main.includes("artistNextDatesTitle"), "the landing avoids repeating dates above its board");
-  assert(page.main.includes('href="#artistShowBoard"') && page.main.includes('id="artistShowBoard"'), "date navigation targets the real board");
-  assert(page.main.indexOf('id="artistShowBoard"') < page.main.indexOf('data-artist-ticket-help'), "dates precede supporting help");
-  assert(page.main.includes('data-cta-price-snapshot="present"'), "eligible prices remain on date cards");
+  assert(page.status === 200, "the artist page renders");
+  const lead = (page.main.match(/<div data-artist-lead>[\s\S]*?<\/section><\/div>/) || [])[0] || "";
+  assert(lead.includes('id="artistNextDatesTitle"'), "the next-dates table sits inside the transplanted lead");
+  assert(page.main.indexOf("artistNextDatesTitle") < page.main.indexOf(`id="artistShowBoard"`), "the next-dates table renders above the board");
+  const body = text(lead);
+  assert(body.includes(`Next ${ARTIST.name} dates`), "the table names what it lists");
+  assert(!body.includes("(all listed countries)"), "single-country boards need no country-scope qualifier");
+  const international = await render(artistPath, { events: EVENTS.map((event, index) => index === EVENTS.length - 1 ? { ...event, country: "United Kingdom" } : event) });
+  assert(international.main.includes(`Next ${ARTIST.name} dates (all listed countries)`), "multi-country previews state their global scope even when a later country is outside the preview");
+  assert(body.includes("USD 182") && body.includes("USD 240"), "each of the next dates shows its own lowest listed price");
+  assert(!/\bfrom (?:\$|USD\s+)\d/i.test(text(lead.replace(/<a class="provider-cta[^>]*>[\s\S]*?<\/a>/g, ""))) && !/cheapest/i.test(body), "no cross-event 'from' or cheapest claim");
+  const rows = (lead.match(/<tr><th scope="row">/g) || []).length;
+  assert(rows === 3, `the table lists the next three dates only: ${rows}`);
+  const outHrefs = [...lead.matchAll(/href="([^"]+)"/g)].map((m) => m[1]).filter((href) => href.startsWith("/api/out?"));
+  assert(outHrefs.length >= 2 && outHrefs.every((href) => href.includes("ctaLocation=artist_city_answer")), "next-date CTAs report as the answer component");
+  assert(!/href="https?:\/\/(?!tourticketcompare)/.test(lead), "no raw provider URL appears in the table");
+  assert(page.main.includes("About prices, seller order"), "the priced artist page keeps the money disclosure");
+  function checkOptionsTargets(page, expectedCounts) {
+    const preview = page.main.match(/<section[^>]*aria-labelledby="artistNextDatesTitle"[\s\S]*?<\/section>/)?.[0] || "";
+    const links = [...preview.matchAll(/href="#([^"]+)"[^>]*>(See (?:all \d+ ticket sites|ticket site))<\/a>/g)];
+    assert(links.length === expectedCounts.length, `every eligible preview date links its full ticket options: ${links.length} links, expected ${expectedCounts.length}`);
+    links.forEach(([, target, label], index) => {
+      const card = [...page.main.matchAll(/<article\b[^>]*class="[^"]*\bshow-card\b[^>]*>[\s\S]*?<\/article>/g)]
+        .map((match) => match[0]).find((html) => html.includes(`id="${target}"`));
+      assert(Boolean(card), `preview link resolves to an actual date card: ${target}`);
+      const count = [...card.matchAll(/class="provider-cta[ "]/g)].length;
+      assert(count === expectedCounts[index], `preview and card agree on eligible provider count: ${count}`);
+      assert(label === (count === 1 ? "See ticket site" : `See all ${count} ticket sites`), "ticket-site count is not the price-snapshot count");
+      assert(card.includes("/api/out?") && card.includes("provider=ticketmaster"), "options retain the tracked redirects and plain Ticketmaster lane");
+    });
+    return preview;
+  }
+  const pricedPreview = checkOptionsTargets(page, [6, 6, 6]);
+  assert(text(pricedPreview).includes("2 sites priced"), "a price comparison count is separate from the six valid ticket links");
   const unpriced = await render(artistPath, { withDb: false });
   assert(unpriced.main.includes('href="#artistShowBoard"') && !unpriced.main.includes('provider-cta-priced'), "an outage keeps the date selector without inventing prices");
   assert(unpriced.robots === page.robots && page.html.includes(`rel="canonical" href="${ORIGIN}${artistPath}"`), "pricing does not change artist SEO policy");

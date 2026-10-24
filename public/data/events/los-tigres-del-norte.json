@@ -53,13 +53,21 @@
         "verified": true,
         "last_verified_at": "2026-10-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7759906",
+        "url": "https://www.ticketliquidator.com/tickets/7759906/Los-Tigres-del-Norte-tickets-Sat-Oct-24-2026-Desert-Diamond-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Fk8v0p7atZ785Ae",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/los-tigres-del-norte-glendale-tickets-10-24-2026/event/107162969",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7759906/Los-Tigres-del-Norte-tickets-Sat-Oct-24-2026-Desert-Diamond-Arena"
   },
   {
     "id": "tm-los-tigres-del-norte-2026-palm-desert-vvg1iz_axk_2p-",
@@ -161,11 +169,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7761203",
+        "url": "https://www.ticketliquidator.com/tickets/7761203/Los-Tigres-del-Norte-tickets-Sat-Nov-14-2026-Pechanga-Arena-San-Diego",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-p4F",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7761203/Los-Tigres-del-Norte-tickets-Sat-Nov-14-2026-Pechanga-Arena-San-Diego"
   },
   {
     "id": "tm-los-tigres-del-norte-2026-columbus-z7r9jz1a7ofo9",
@@ -221,12 +237,20 @@
         "verified": true,
         "last_verified_at": "2026-10-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7467758",
+        "url": "https://www.ticketliquidator.com/tickets/7467758/Los-Tigres-del-Norte-tickets-Fri-Nov-20-2026-Palace-Theatre-Columbus",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OfO9",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/los-tigres-del-norte-columbus-tickets-11-20-2026/event/107162973"
+    "stubhub_international_url": "https://www.stubhub.ie/los-tigres-del-norte-columbus-tickets-11-20-2026/event/107162973",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7467758/Los-Tigres-del-Norte-tickets-Fri-Nov-20-2026-Palace-Theatre-Columbus"
   },
   {
     "id": "tm-los-tigres-del-norte-2026-detroit-vv1kezv0jiga2jpfm",
@@ -282,12 +306,20 @@
         "verified": true,
         "last_verified_at": "2026-10-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7935104",
+        "url": "https://www.ticketliquidator.com/tickets/7935104/Los-Tigres-del-Norte-tickets-Sat-Nov-21-2026-Fox-Theatre-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1keZv0jIGA2jPfm",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/los-tigres-del-norte-detroit-tickets-11-21-2026/event/107162966"
+    "stubhub_international_url": "https://www.stubhub.ie/los-tigres-del-norte-detroit-tickets-11-21-2026/event/107162966",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7935104/Los-Tigres-del-Norte-tickets-Sat-Nov-21-2026-Fox-Theatre-Detroit"
   },
   {
     "id": "tm-los-tigres-del-norte-2026-baltimore-164zko9e6zackudg",
@@ -343,12 +375,20 @@
         "verified": true,
         "last_verified_at": "2026-10-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7759914",
+        "url": "https://www.ticketliquidator.com/tickets/7759914/Los-Tigres-del-Norte-tickets-Fri-Nov-27-2026-CFG-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "164Zko9e6ZACkudG",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/los-tigres-del-norte-baltimore-tickets-11-27-2026/event/107168094"
+    "stubhub_international_url": "https://www.stubhub.ie/los-tigres-del-norte-baltimore-tickets-11-27-2026/event/107168094",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7759914/Los-Tigres-del-Norte-tickets-Fri-Nov-27-2026-CFG-Bank-Arena"
   },
   {
     "id": "tm-los-tigres-del-norte-2026-belmont-park-1kgzv0pfgagsn5l",
@@ -457,12 +497,20 @@
         "verified": true,
         "last_verified_at": "2026-10-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7759916",
+        "url": "https://www.ticketliquidator.com/tickets/7759916/Los-Tigres-del-Norte-tickets-Fri-Dec-4-2026-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_AN5hWEq",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/los-tigres-del-norte-nashville-tickets-12-4-2026/event/107168095"
+    "stubhub_international_url": "https://www.stubhub.ie/los-tigres-del-norte-nashville-tickets-12-4-2026/event/107168095",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7759916/Los-Tigres-del-Norte-tickets-Fri-Dec-4-2026-Bridgestone-Arena"
   },
   {
     "id": "tm-los-tigres-del-norte-2026-birmingham-1aozkobgkdkxmhh",
@@ -625,10 +673,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8309342",
+        "url": "https://www.ticketliquidator.com/tickets/8309342/Los-Tigres-del-Norte-tickets-Sat-Mar-13-2027-Summit-At-Pechanga-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_KM0aEy4",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8309342/Los-Tigres-del-Norte-tickets-Sat-Mar-13-2027-Summit-At-Pechanga-Resort-Casino"
   }
 ]

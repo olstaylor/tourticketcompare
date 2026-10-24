@@ -139,7 +139,10 @@
     var count = document.createElement("p");
     count.className = "muted show-filter-count";
     count.setAttribute("role", "status");
-    // Country, city, sort and the two utility buttons sit behind one "Filters"
+    // Keep country visible on multi-country artist boards. City, sort and the
+    // utility buttons stay behind "Filters"; grouped boards keep their layout.
+    var visibleCountry = !grouped && country;
+    // Remaining controls sit behind one "Filters"
     // toggle, so the first date is not pushed a screen down by six controls.
     // It opens on load when the URL already carries a country or city filter.
     var hasExtra = Boolean(country || city || sort);

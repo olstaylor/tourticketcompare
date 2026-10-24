@@ -19,6 +19,7 @@ Owner direction, 2026-09-24.
 - **No first-person voice.** Public copy never speaks as "we", "us" or "our". Name the site ("TourTicketCompare", "the site", "this site") or use a plain construction ("Prices are checked every few hours"). The reader's own voice is fine: FAQ questions ("How do I…?") and buttons ("Notify me"). Quoted provider wording keeps its own voice.
 - **Bylines credit the site.** Guides, blog posts, artist, city and venue pages carry "By TourTicketCompare", linked to `/about`, and their Article/BlogPosting/HowTo `author` is the Organization node. `/about/ollie-taylor` is the one page carrying the full Person node.
 - **Guides and blog posts name their reviewer** (owner direction, 2026-10-23). Their byline adds "Reviewed by Ollie Taylor", linked to `/about/ollie-taylor`, and their Article/BlogPosting carries him as `editor` by the creator page's Person `@id`. This is true only because he reads each guide and post before it publishes, so keep it that way: nothing reaches `content/guides` or `content/blog` as published without his review. Automated pages (artist, artist-city, city, venue, event, price guide, presale) never carry a reviewer, because nobody reviews them by hand.
+- **Blog posts read like a person who checked the listings wrote them** (owner direction, 2026-10-23: "high quality, sourced and human sounding"). Lead with the answer to the reader's buying question in the first two sentences. Use the specific dates, venues, cities and listed sale times from the sources, each linked inline to the page it came from, and say what the site's own data does and does not show. Plain second person, short paragraphs, sentences of mixed length, one idea per heading. No throat-clearing intros, no recap conclusions, no stock phrases ("whether you're", "look no further", "it's worth noting", "navigate", "seamless", "delve", "in today's", "game-changer", "unlock", "embark"), no rhetorical questions as headings, no exclamation marks. A post with nothing specific to say is not written. Claude-drafted posts (`scripts/draft-blog-article.mjs`) are held to this mechanically and then by Ollie's review; they carry the same byline as any post and no AI note (owner decision 2026-10-23).
 - **Enforced.** `scripts/check-site-voice.mjs` fails `test:content` and `test:mvp` on first-person-plural words in `content/guides` and `content/blog`; `scripts/smoke-prelaunch.mjs` applies the same rule to the rendered `<main>` of every public route and artist page.
 
 ---
@@ -103,6 +104,14 @@ Event-level buttons must additionally have a reviewed local event ID, the provid
 - Provider-specific sources and restrictions are authoritative in `docs/PROVIDER_DATA_POLICY.md`; current activation belongs in `PROJECT_STATUS.md`.
 
 ---
+
+## Richer Event Pages (pilot, owner go 2026-10-23)
+
+Ten event pages (`RICHER_EVENT_PILOT_IDS` in `functions/_event-price-range.js`) carry two extra sections. Widening the list is a reviewed change, not an automation.
+
+- **Price range:** each displayable site's lowest and highest daily listed price since tracking began, from `provider_pricing_daily`, with site, currency and days covered, plus the spread across sites today. Same currency only, isolated spikes dropped, no timing or buying advice, no fee or total claims.
+- **Venue facts:** `functions/_venue-facts.js` holds door rules (bags, re-entry, payment, age) paraphrased from the venue's own page, each venue with its source URL and the date it was read. No record means nothing renders. Never add a venue from a third-party site, and re-read the source when refreshing a date.
+- Commentary is templated from these numbers; there is no generated prose.
 
 ## Guides
 

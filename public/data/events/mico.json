@@ -573,7 +573,7 @@
     "ticketmaster_event_id": "0C0064AFD1EBCAE7",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-dallas-texas-10-22-2026/event/0C0064AFD1EBCAE7",
     "seatgeek_url": "https://seatgeek.com/mico-tickets/dallas-texas-the-echo-lounge-music-hall-2026-10-22-7-pm/concert/18252764",
-    "vividseats_url": "https://www.vividseats.com/mico-tickets-dallas-the-echo-lounge-and-music-hall-10-22-2026/production/7049206",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-dallas-texas-10-22-2026/event/0C0064AFD1EBCAE7",
     "last_verified_at": "2026-10-15",
@@ -595,11 +595,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7049206,
-        "url": "https://www.vividseats.com/mico-tickets-dallas-the-echo-lounge-and-music-hall-10-22-2026/production/7049206",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -670,7 +670,7 @@
         "event_id": 7049125,
         "url": "https://www.vividseats.com/mico-tickets-austin-scoot-inn-10-23-2026/production/7049125",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -742,7 +742,7 @@
         "event_id": 7049246,
         "url": "https://www.vividseats.com/mico-tickets-houston-white-oak-music-hall---downstairs-10-24-2026/production/7049246",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -804,14 +804,14 @@
         "event_id": 18252761,
         "url": "https://seatgeek.com/mico-tickets/nashville-tennessee-brooklyn-bowl-nashville-2026-10-26-8-pm/concert/18252761",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7049234,
         "url": "https://www.vividseats.com/mico-tickets-nashville-brooklyn-bowl---nashville-10-26-2026/production/7049234",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -883,14 +883,14 @@
         "event_id": 18252688,
         "url": "https://seatgeek.com/mico-tickets/atlanta-georgia-the-masquerade-heaven-2026-10-27-7-pm/concert/18252688",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7049202,
         "url": "https://www.vividseats.com/mico-tickets-atlanta-the-masquerade---heaven-10-27-2026/production/7049202",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1012,7 +1012,7 @@
         "event_id": 7049299,
         "url": "https://www.vividseats.com/mico-tickets-new-york-webster-hall-10-30-2026--concerts-rock/production/7049299",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1081,7 +1081,7 @@
         "event_id": 7049601,
         "url": "https://www.vividseats.com/mico-tickets-brooklyn-music-hall-of-williamsburg-10-31-2026/production/7049601",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1125,7 +1125,7 @@
     "ticketmaster_event_id": "010064ADC6946F0F",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-boston-massachusetts-11-02-2026/event/010064ADC6946F0F",
     "seatgeek_url": "https://seatgeek.com/mico-tickets/boston-massachusetts-paradise-rock-club-2026-11-02-7-pm/concert/18251753",
-    "vividseats_url": "https://www.vividseats.com/mico-tickets-boston-paradise-rock-club-11-2-2026/production/7049127",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-boston-massachusetts-11-02-2026/event/010064ADC6946F0F",
     "last_verified_at": "2026-10-15",
@@ -1143,15 +1143,15 @@
         "event_id": 18251753,
         "url": "https://seatgeek.com/mico-tickets/boston-massachusetts-paradise-rock-club-2026-11-02-7-pm/concert/18251753",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7049127,
-        "url": "https://www.vividseats.com/mico-tickets-boston-paradise-rock-club-11-2-2026/production/7049127",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1222,7 +1222,7 @@
         "event_id": 7165689,
         "url": "https://www.vividseats.com/mico-tickets-providence-fete-music-hall-11-3-2026/production/7165689",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1268,14 +1268,14 @@
         "event_id": 18472169,
         "url": "https://seatgeek.com/mico-tickets/montreal-canada-mtelus-2026-11-05-8-pm/concert/18472169",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7411491,
         "url": "https://www.vividseats.com/mico-tickets-montreal-mtelus-11-5-2026/production/7411491",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1340,7 +1340,7 @@
         "event_id": 18252202,
         "url": "https://seatgeek.com/mico-tickets/toronto-canada-the-danforth-music-hall-2026-11-06-7-pm/concert/18252202",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1399,14 +1399,14 @@
         "event_id": 18260543,
         "url": "https://seatgeek.com/mico-tickets/toronto-canada-the-danforth-music-hall-2026-11-07-7-pm/concert/18260543",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7069445,
         "url": "https://www.vividseats.com/mico-tickets-toronto-the-danforth-music-hall-11-7-2026/production/7069445",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1758,7 +1758,7 @@
         "event_id": 7679627,
         "url": "https://www.vividseats.com/mico-tickets-charlotte-the-underground-at-the-fillmore-charlotte-2-20-2027--concerts-rock/production/7679627",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1837,7 +1837,7 @@
         "event_id": 7679097,
         "url": "https://www.vividseats.com/mico-tickets-charleston-charleston-music-hall-2-21-2027/production/7679097",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2023,7 +2023,7 @@
         "event_id": 7679204,
         "url": "https://www.vividseats.com/mico-tickets-lake-buena-vista-house-of-blues-orlando-2-27-2027/production/7679204",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2096,7 +2096,7 @@
         "event_id": 7679258,
         "url": "https://www.vividseats.com/mico-tickets-birmingham-iron-city-birmingham-3-1-2027/production/7679258",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2165,7 +2165,7 @@
         "event_id": 7679270,
         "url": "https://www.vividseats.com/mico-tickets-new-orleans-house-of-blues-new-orleans-3-2-2027/production/7679270",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2244,7 +2244,7 @@
         "event_id": 7679637,
         "url": "https://www.vividseats.com/mico-tickets-indianapolis-deluxe-at-old-national-centre-3-9-2027--concerts-rock/production/7679637",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2503,7 +2503,7 @@
         "event_id": 7679641,
         "url": "https://www.vividseats.com/mico-tickets-cleveland-globe-iron-3-13-2027--concerts-rock/production/7679641",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2565,14 +2565,14 @@
         "event_id": 18685771,
         "url": "https://seatgeek.com/mico-tickets/jacksonville-florida-five-jacksonville-2027-02-23-8-pm/concert/18685771",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7687343,
         "url": "https://www.vividseats.com/mico-tickets-jacksonville-five-2-23-2027/production/7687343",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "stubhub": {

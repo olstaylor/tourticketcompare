@@ -81,7 +81,7 @@
     "ticketmaster_event_id": "0A00650B8F9579D4",
     "ticketmaster_url": "https://www.ticketmaster.com/missio-san-diego-california-10-30-2026/event/0A00650B8F9579D4",
     "seatgeek_url": "https://seatgeek.com/missio-tickets/san-diego-california-voodoo-room-at-the-house-of-blues-san-diego-2-2026-10-30-6-30-pm/concert/18493234",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/missio-tickets-san-diego-voodoo-room-at-the-house-of-blues-san-diego-10-30-2026/production/7424701",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/missio-san-diego-california-10-30-2026/event/0A00650B8F9579D4",
     "last_verified_at": "2026-10-15",
@@ -99,15 +99,15 @@
         "event_id": 18493234,
         "url": "https://seatgeek.com/missio-tickets/san-diego-california-voodoo-room-at-the-house-of-blues-san-diego-2-2026-10-30-6-30-pm/concert/18493234",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7424701,
+        "url": "https://www.vividseats.com/missio-tickets-san-diego-voodoo-room-at-the-house-of-blues-san-diego-10-30-2026/production/7424701",
+        "verified": true,
+        "last_verified_at": "2026-10-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -178,7 +178,7 @@
         "event_id": 18492941,
         "url": "https://seatgeek.com/missio-tickets/los-angeles-california-teragram-ballroom-2026-11-01-7-30-pm/concert/18492941",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -322,7 +322,7 @@
         "event_id": 18492221,
         "url": "https://seatgeek.com/missio-tickets/denver-colorado-marquis-theater-denver-2026-11-11-7-pm/concert/18492221",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-23",
         "availability_status": "listed"
       },
       "vivid-seats": {

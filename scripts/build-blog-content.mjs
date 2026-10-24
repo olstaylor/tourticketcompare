@@ -99,6 +99,9 @@ const INTERNAL_LINK_SHAPES = [
   // Shape-checked only: city and venue pages move with the calendar, so
   // resolving them would fail the build on ordinary event expiry.
   { pattern: /^\/cities\/[a-z0-9-]+$/, kind: "location" },
+  // An artist's dates in one city: shape-checked for the same reason, with the
+  // artist resolved because that slug does not move.
+  { pattern: /^\/artists\/[a-z0-9-]+\/tickets\/[a-z0-9-]+$/, kind: "artist-city" },
   { pattern: /^\/venues\/[a-z0-9-]+$/, kind: "location" }
 ];
 const INTERNAL_LINK_EXACT = new Set([
@@ -265,7 +268,7 @@ function validatePost(post, context) {
     if (shape?.kind === "guide" && !context.guidePaths.has(clean)) {
       problems.push(`${where}: internal link "${href}" points at a guide that does not exist`);
     }
-    if (shape?.kind === "artist" && !context.artistSlugs.has(clean.split("/")[2])) {
+    if ((shape?.kind === "artist" || shape?.kind === "artist-city") && !context.artistSlugs.has(clean.split("/")[2])) {
       problems.push(`${where}: internal link "${href}" points at an unknown artist slug`);
     }
     if (shape?.kind === "price-guide" && (!context.artistSlugs.has(clean.split("/")[2]) || !context.priceGuideArtists.has(clean.split("/")[2]))) {
@@ -624,6 +627,13 @@ function selfTest() {
 
   const offSite = validatePost({ ...base, sections: [{ type: "section", title: "H", content: "See [this](/nope/path)." }] }, context);
   assert(offSite.some((problem) => /does not match a route this site serves/.test(problem)), "a link outside the published routes fails validation");
+
+  // base's context knows the artist slug used by its other links; read it back.
+  const knownArtist = [...context.artistSlugs][0];
+  const artistCity = validatePost({ ...base, sections: [{ type: "section", title: "H", content: `See [it](/artists/${knownArtist}/tickets/some-city-united-states).` }] }, context);
+  assert(artistCity.length === 0, "a link to an artist's city page validates");
+  const strangerCity = validatePost({ ...base, sections: [{ type: "section", title: "H", content: "See [it](/artists/not-an-artist/tickets/some-city-united-states)." }] }, context);
+  assert(strangerCity.some((problem) => /unknown artist slug/.test(problem)), "a city page link for an unknown artist fails validation");
 
   const longTitle = validatePost({ ...base, seoTitle: `${"x".repeat(60)}${TITLE_SUFFIX}` }, context);
   assert(longTitle.some((problem) => /search title/.test(problem)), "an over-budget search title fails validation");

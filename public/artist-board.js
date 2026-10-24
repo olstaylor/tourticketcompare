@@ -150,7 +150,7 @@
     var filtersToggle = document.createElement("button");
     filtersToggle.type = "button";
     filtersToggle.className = "show-filter-reset show-filter-toggle";
-    filtersToggle.textContent = "Sort & share";
+    filtersToggle.textContent = "Filters";
     filtersToggle.setAttribute("aria-controls", filtersId);
     var extra = document.createElement("div");
     extra.className = "show-filter-extra";
@@ -314,9 +314,9 @@
       });
     });
     if (hasExtra) {
-      [sort, reset, share].forEach(function (node) { if (node) extra.appendChild(node); });
+      [visibleCountry ? null : country, city, sort, reset, share].forEach(function (node) { if (node) extra.appendChild(node); });
       bar.append(query);
-      [country, city].forEach(function (node) { if (node) bar.appendChild(node); });
+      if (visibleCountry) bar.append(country);
       bar.append(filtersToggle, extra);
       setFiltersOpen(Boolean(state.country || state.city));
       filtersToggle.addEventListener("click", function () { setFiltersOpen(extra.hidden); });

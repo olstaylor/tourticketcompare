@@ -2627,6 +2627,62 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-gavin-adcock",
     redirectUrl: "https://seatgeek.com/gavin-adcock-tickets",
     verified: true
+  },
+  "u2:ticketmaster": {
+    artistSlug: "u2",
+    provider: "ticketmaster",
+    linkId: "tm-artist-u2",
+    redirectUrl: "https://www.ticketmaster.com/u2-tickets/artist/736365",
+    verified: true
+  },
+  "u2:seatgeek": {
+    artistSlug: "u2",
+    provider: "seatgeek",
+    linkId: "sg-artist-u2",
+    redirectUrl: "https://seatgeek.com/u2-tickets",
+    verified: true
+  },
+  "beck:ticketmaster": {
+    artistSlug: "beck",
+    provider: "ticketmaster",
+    linkId: "tm-artist-beck",
+    redirectUrl: "https://www.ticketmaster.com/beck-tickets/artist/765320",
+    verified: true
+  },
+  "beck:seatgeek": {
+    artistSlug: "beck",
+    provider: "seatgeek",
+    linkId: "sg-artist-beck",
+    redirectUrl: "https://seatgeek.com/beck-tickets",
+    verified: true
+  },
+  "dermot-kennedy:ticketmaster": {
+    artistSlug: "dermot-kennedy",
+    provider: "ticketmaster",
+    linkId: "tm-artist-dermot-kennedy",
+    redirectUrl: "https://www.ticketmaster.com/dermot-kennedy-tickets/artist/2089473",
+    verified: true
+  },
+  "dermot-kennedy:seatgeek": {
+    artistSlug: "dermot-kennedy",
+    provider: "seatgeek",
+    linkId: "sg-artist-dermot-kennedy",
+    redirectUrl: "https://seatgeek.com/dermot-kennedy-tickets",
+    verified: true
+  },
+  "turnpike-troubadours:ticketmaster": {
+    artistSlug: "turnpike-troubadours",
+    provider: "ticketmaster",
+    linkId: "tm-artist-turnpike-troubadours",
+    redirectUrl: "https://www.ticketmaster.com/turnpike-troubadours-tickets/artist/1551842",
+    verified: true
+  },
+  "turnpike-troubadours:seatgeek": {
+    artistSlug: "turnpike-troubadours",
+    provider: "seatgeek",
+    linkId: "sg-artist-turnpike-troubadours",
+    redirectUrl: "https://seatgeek.com/turnpike-troubadours-tickets",
+    verified: true
   }
 };
 

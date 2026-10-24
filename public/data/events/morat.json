@@ -1704,17 +1704,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107019165",
-        "url": "https://www.stubhub.ie/morat-tickets-valencia-roig-arena-23-10-2026/event/107019165",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1Aofa18",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-valencia-roig-arena-23-10-2026/event/107019165",
+    "stubhub_international_url": "",
     "organizer_names": [
       "Tú lo haces posible, A.I.E."
     ]

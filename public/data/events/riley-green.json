@@ -2915,7 +2915,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/boots-ballots-featuring-riley-green-manchester-new-hampshire-11-02-2026/event/0100654CA36C7668",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2951,6 +2951,13 @@
     "ticketmaster_discovery_event_id": "vv177Z_fGkwNh6_I",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-26T16:00:00Z"
+    "public_onsale_at": "2026-10-26T16:00:00Z",
+    "presales": [
+      {
+        "name": "Internet Presale",
+        "start": "2026-10-23T20:00:00Z",
+        "end": "2026-10-26T15:45:00Z"
+      }
+    ]
   }
 ]

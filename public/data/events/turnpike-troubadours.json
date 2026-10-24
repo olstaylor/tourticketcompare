@@ -1,0 +1,161 @@
+[
+  {
+    "id": "tm-turnpike-troubadours-2026-saint-augustine-z7r9jz1a7-v0a",
+    "artist_slug": "turnpike-troubadours",
+    "artist_name": "Turnpike Troubadours",
+    "event_name": "Turnpike Troubadours",
+    "city": "Saint Augustine",
+    "country": "United States Of America",
+    "venue": "St Augustine Amphitheatre",
+    "datetime_iso": "2026-10-24T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-V0a",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0a",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0a",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-V0a",
+        "discovery_event_id": "Z7r9jZ1A7-V0a",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0a",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-V0a",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-turnpike-troubadours-2026-clearwater-z7r9jz1a7-ga_",
+    "artist_slug": "turnpike-troubadours",
+    "artist_name": "Turnpike Troubadours",
+    "event_name": "Turnpike Troubadours",
+    "city": "Clearwater",
+    "country": "United States Of America",
+    "venue": "The BayCare Sound",
+    "datetime_iso": "2026-10-25T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-gA_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-gA_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-gA_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-gA_",
+        "discovery_event_id": "Z7r9jZ1A7-gA_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-gA_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-gA_",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-turnpike-troubadours-2026-las-vegas-17ayv0g62soqkki",
+    "artist_slug": "turnpike-troubadours",
+    "artist_name": "Turnpike Troubadours",
+    "event_name": "Hooey Presents: Turnpike Troubadours",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Brooklyn Bowl Las Vegas",
+    "datetime_iso": "2026-12-12T05:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064FCD16931A8",
+    "ticketmaster_url": "https://www.ticketmaster.com/hooey-presents-turnpike-troubadours-las-vegas-nevada-12-11-2026/event/170064FCD16931A8",
+    "seatgeek_url": "https://seatgeek.com/turnpike-troubadours-tickets/las-vegas-nevada-brooklyn-bowl-las-vegas-2026-12-11-9-pm/concert/18424535",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hooey-presents-turnpike-troubadours-las-vegas-nevada-12-11-2026/event/170064FCD16931A8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064FCD16931A8",
+        "discovery_event_id": "17AYv0G62SoQKkI",
+        "url": "https://www.ticketmaster.com/hooey-presents-turnpike-troubadours-las-vegas-nevada-12-11-2026/event/170064FCD16931A8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G62SoQKkI",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

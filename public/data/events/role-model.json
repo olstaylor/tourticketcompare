@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/role-model-presents-chuck-on-tour-tickets/1729904609?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -58,7 +58,10 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vjt07ba",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/role-model-tickets-berlin-tempodrom-11-2-2027/event/107417498"
+    "stubhub_international_url": "https://www.stubhub.ie/role-model-tickets-berlin-tempodrom-11-2-2027/event/107417498",
+    "organizer_names": [
+      "Trinity Music GmbH"
+    ]
   },
   {
     "id": "tm-role-model-2027-forest-brussels-z698xzg2z1k8kjzbp",
@@ -76,7 +79,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/role-model-presents-chuck-on-tour-tickets/413738616",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -111,7 +114,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1k8Kjzbp",
     "timezone": "Europe/Brussels",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation"
+    ]
   },
   {
     "id": "tm-role-model-2027-dusseldorf-z698xzc2z1ka6aaoi",
@@ -129,7 +135,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/role-model-presents-chuck-on-tour-tickets/147249828?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -172,7 +178,10 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kA6aaOI",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/role-model-tickets-dusseldorf-mitsubishi-electric-halle-17-2-2027/event/107417499"
+    "stubhub_international_url": "https://www.stubhub.ie/role-model-tickets-dusseldorf-mitsubishi-electric-halle-17-2-2027/event/107417499",
+    "organizer_names": [
+      "prime entertainment GmbH"
+    ]
   },
   {
     "id": "tm-role-model-2027-dublin-17kzv0g6uvbpba3",
@@ -190,7 +199,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/role-model-presents-chuck-on-tour-dublin-22-02-2027/event/180064D07A5BA252",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -225,7 +234,11 @@
     },
     "ticketmaster_discovery_event_id": "17kZv0G6uvBpBa3",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AMPHITHEATRE IRELAND",
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-role-model-2027-london-17uyv0g6ueic0m_",

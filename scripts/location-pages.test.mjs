@@ -426,7 +426,7 @@ assert(venuePage.main.includes(`href="/cities/${CITY_SLUG}"`), "venue page links
 // the date board's header, directly above the first date (2026-09-25).
 for (const [label, page] of [["city", cityPage], ["venue", venuePage]]) {
   assert(
-    page.main.includes("<strong>How this site makes money:</strong>") && page.main.includes('href="/affiliate-disclosure"'),
+    page.main.includes("About prices, seller order") && page.main.includes('href="/affiliate-disclosure"'),
     `${label} page carries the how-this-site-makes-money disclosure with its link`
   );
   assert(page.main.includes("Dates checked daily"), `${label} page states the daily re-check (P8)`);
@@ -437,9 +437,9 @@ for (const [label, page] of [["city", cityPage], ["venue", venuePage]]) {
   const firstCardAt = page.main.indexOf('class="show-card', listAt);
   assert(listAt !== -1 && notesAt > listAt, `${label} page renders its summary and coverage note after the date list`);
   assert(page.main.indexOf("Checked tour dates only") > listAt, `${label} page has no coverage note above the date list`);
-  const moneyAt = page.main.indexOf("How this site makes money");
+  const moneyAt = page.main.indexOf("About prices, seller order");
   assert(moneyAt > listAt && moneyAt < firstCardAt, `${label} page states how the site makes money in the board header, above the first date`);
-  assert(occurrences(page.main, "How this site makes money") === 1, `${label} page states how the site makes money once`);
+  assert(occurrences(page.main, "About prices, seller order") === 1, `${label} page states how the site makes money once`);
   assert(page.main.includes("<h2>Upcoming dates</h2>"), `${label} page's board heading does not repeat the page title`);
 }
 assert(venueText.includes("By TourTicketCompare"), "venue page carries the site byline");

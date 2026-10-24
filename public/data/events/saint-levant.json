@@ -2840,7 +2840,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-glasgow-18-01-2027/event/3600654E99D23B5D",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2875,34 +2875,11 @@
     },
     "ticketmaster_discovery_event_id": "1AdbZ_fGkB_VNcq",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-23T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD",
       "SWG3 LTD",
       "LNM - VIP NATION UK"
-    ],
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-21T09:00:00Z",
-        "end": "2026-10-23T08:00:00Z"
-      },
-      {
-        "name": "Priority from O2",
-        "start": "2026-10-21T09:00:00Z",
-        "end": "2026-10-23T08:00:00Z"
-      },
-      {
-        "name": "Promoter Presale",
-        "start": "2026-10-22T09:00:00Z",
-        "end": "2026-10-23T08:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-10-22T11:00:00Z",
-        "end": "2026-10-23T08:00:00Z"
-      }
     ]
   },
   {
@@ -2921,7 +2898,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-manchester-20-01-2027/event/3E00654EA3E13C7A",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2963,34 +2940,11 @@
     },
     "ticketmaster_discovery_event_id": "G5dzZ_fBNzKsB",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-23T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD",
       "ACADEMY MUSIC GROUP (O2 RITZ MANCHESTER)",
       "LNM - VIP NATION UK"
-    ],
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-21T09:00:00Z",
-        "end": "2026-10-23T08:00:00Z"
-      },
-      {
-        "name": "Priority from O2",
-        "start": "2026-10-21T09:00:00Z",
-        "end": "2026-10-23T08:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-10-22T09:00:00Z",
-        "end": "2026-10-23T08:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-10-22T11:00:00Z",
-        "end": "2026-10-23T08:00:00Z"
-      }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/saint-levant-tickets-manchester-o2-ritz-manchester-20-1-2027/event/107677729"
   },
@@ -3010,7 +2964,7 @@
     "vividseats_url": "https://www.vividseats.com/saint-levant-tickets-london-eventim-apollo-1-21-2027/production/7740086",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-london-21-01-2027/event/36006550E24495DA",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3052,15 +3006,7 @@
     },
     "ticketmaster_discovery_event_id": "1AUZk48Gkdxoa9Q",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-23T09:00:00Z",
-    "presales": [
-      {
-        "name": "Priority from O2",
-        "start": "2026-10-21T09:00:00Z",
-        "end": "2026-10-23T08:00:00Z"
-      }
-    ],
+    "status": "on-sale",
     "organizer_names": [
       "LNM - VIP NATION UK"
     ],

@@ -148,7 +148,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-oakland-oakland-arena-10-26-2026/production/7212204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-oakland-california-10-26-2026/event/1C0064D21665E06B",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -202,13 +202,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-oakland-tickets-10-26-2026/event/107447659",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-07-02T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      }
     ]
   },
   {

@@ -138,9 +138,12 @@ const STALE_CHECK = fixtureEvent("fixture-stale-check", "2026-09-15T01:00:00Z", 
 // Before the public on-sale: verified resale lanes render, Ticketmaster does not.
 const PENDING_RESALE = fixtureEvent("fixture-pending-resale", "2026-09-16T01:00:00Z", { lanes: ["vivid-seats"], seatgeek: false, onsaleAt: "2026-08-20T15:00:00Z" });
 const PENDING_BARE = fixtureEvent("fixture-pending-bare", "2026-09-17T01:00:00Z", { lanes: [], seatgeek: false, onsaleAt: "2026-08-20T15:00:00Z" });
-const EVENTS = [PRICED, CHECKED, UNMAPPED, UNCHECKED, STALE_CHECK, PENDING_RESALE, PENDING_BARE];
+const UK_USD = { ...fixtureEvent("fixture-uk-usd", "2026-09-18T19:00:00Z"), city: "London", country: "Great Britain", timezone: "Europe/London" };
+const UK_GBP = { ...fixtureEvent("fixture-uk-gbp", "2026-09-19T19:00:00Z"), city: "London", country: "Great Britain", timezone: "Europe/London" };
+const EVENTS = [PRICED, CHECKED, UNMAPPED, UNCHECKED, STALE_CHECK, PENDING_RESALE, PENDING_BARE, UK_USD, UK_GBP];
 
 const PRICE_ROWS = [
+  ...[UK_USD, UK_GBP].map((event, index) => ({ event_id: event.id, provider: "vivid-seats", low_price: 125, currency: index ? "GBP" : "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source: "vividseats_impact_marketplace_api" })),
   { event_id: PRICED.id, provider: "vivid-seats", low_price: 182, currency: "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source: "vividseats_impact_marketplace_api" },
   { event_id: PENDING_RESALE.id, provider: "vivid-seats", low_price: 240, currency: "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source: "vividseats_impact_marketplace_api" },
   { event_id: PRICED.id, provider: "ticketnetwork", low_price: 190, currency: "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source: "ticketnetwork_impact_marketplace_api" }
@@ -253,7 +256,7 @@ for (const pathname of [`/cities/${CITY_SLUG}`, `/venues/${VENUE_SLUG}`, `/artis
 
   const checked = text(card(html, CHECKED.id));
   assert(
-    checked.includes("No listed price from Vivid Seats and TicketNetwork at the last check (Aug 9, 2026, 10:05 AM UTC)."),
+    checked.includes("No listed price from TicketNetwork and Vivid Seats at the last check (Aug 9, 2026, 10:05 AM UTC)."),
     `${pathname}: an unpriced date names the checked lanes and the latest check time — got: ${checked.slice(-260)}`
   );
   assert(!/available|sold out/i.test(checked.replace(PRICE_UNAVAILABLE_NOTE, "")), `${pathname}: the checked note makes no availability claim`);
@@ -292,6 +295,16 @@ for (const pathname of [`/cities/${CITY_SLUG}`, `/venues/${VENUE_SLUG}`, `/artis
   const { html } = await render(`/cities/${CITY_SLUG}`, fakeDb({ failChecks: true }));
   assert(/provider-cta-priced/.test(card(html, PRICED.id)), "prices still render when the check table is missing");
   assert(text(card(html, CHECKED.id)).includes(PRICE_UNAVAILABLE_NOTE), "without the check table the note is the undated one");
+}
+
+{
+  const { html } = await render(`/artists/${ARTIST.slug}`, fakeDb());
+  const foreign = card(html, UK_USD.id);
+  const local = card(html, UK_GBP.id);
+  assert(/From USD\s+125/.test(text(foreign)), "a UK event preserves USD without converting it");
+  assert(foreign.includes("This UK event has prices in a foreign currency"), "the UK buyer sees currency context beside the actual price");
+  assert(/From GBP\s+125/.test(text(local)) && !local.includes("foreign currency"), "a GBP price gets no foreign-currency warning");
+  assert(!/fees are added at checkout/.test(html), "shared copy does not invent missing fee treatment");
 }
 
 console.log(`price-notes: ${passed} assertions passed`);

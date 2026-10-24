@@ -1140,7 +1140,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-ontario-toyota-arena---ca-10-29-2026/production/7047716",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-ontario-california-10-29-2026/event/090064AFE55AB260",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1199,14 +1199,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976488",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976488/Don-Omar-tickets-Thu-Oct-29-2026-Toyota-Arena-Ontario",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-ontario-tickets-10-29-2026/event/107484094",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-05-22T17:00:00Z",
-        "end": "2026-10-23T00:00:00Z"
-      }
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/don-omar-ontario-tickets-10-29-2026/event/107484094"
   },
   {
     "id": "tm-don-omar-2026-las-vegas-z7r9jz1a70eqs",
@@ -1430,7 +1423,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-inglewood-kia-forum-11-6-2026/production/7047724",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-inglewood-california-11-06-2026/event/090064B1D40799CD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1490,13 +1483,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976490",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976490/Don-Omar-tickets-Fri-Nov-6-2026-The-Kia-Forum",
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-inglewood-tickets-11-6-2026/event/107198486",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-05-22T17:00:00Z",
-        "end": "2026-10-23T00:00:00Z"
-      }
-    ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ]

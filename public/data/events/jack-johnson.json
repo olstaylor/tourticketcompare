@@ -190,7 +190,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-west-perth-10-11-2026/event/130064778F0E21E1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -225,7 +225,10 @@
     },
     "ticketmaster_discovery_event_id": "1k7Yv0qzGA2dx6-",
     "timezone": "Australia/Perth",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MELLEN EVENTS"
+    ]
   },
   {
     "id": "tm-jack-johnson-2026-west-perth-1akzkomgkd_zu0i",
@@ -243,7 +246,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-west-perth-11-11-2026/event/13006477D9E3692C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -278,7 +281,10 @@
     },
     "ticketmaster_discovery_event_id": "1AKZkoMGkd_zU0i",
     "timezone": "Australia/Perth",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MELLEN EVENTS"
+    ]
   },
   {
     "id": "tm-jack-johnson-2026-west-perth-1akzkomgkd_bj0s",
@@ -296,7 +302,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-west-perth-12-11-2026/event/13006477D9EA6931",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -331,7 +337,10 @@
     },
     "ticketmaster_discovery_event_id": "1AKZkoMGkd_BJ0s",
     "timezone": "Australia/Perth",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MELLEN EVENTS"
+    ]
   },
   {
     "id": "tm-jack-johnson-2026-sydney-1akzkosgkdq3fwf",
@@ -349,7 +358,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-sydney-14-11-2026/event/13006473DA488C88",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -384,7 +393,11 @@
     },
     "ticketmaster_discovery_event_id": "1AKZkoSGkdQ3FwF",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA",
+      "FACE TO FACE TOURING"
+    ]
   },
   {
     "id": "tm-jack-johnson-2026-linlithgow-ave-1avgz_6cppkzd52a",
@@ -402,7 +415,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-linlithgow-ave-17-11-2026/event/1300647396593AE4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -437,7 +450,10 @@
     },
     "ticketmaster_discovery_event_id": "1avGZ_6CppKZd52A",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-jack-johnson-2026-linlithgow-ave-1avgz_6gkbxcfqh",
@@ -455,7 +471,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-linlithgow-ave-18-11-2026/event/1300647EA2B5469B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -490,7 +506,10 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_6GkBxcfQh",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-jack-johnson-2026-auckland-1a0zkowgkdch7lq",
@@ -508,7 +527,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/jack-johnson-surfilmusic-tour-australia-new-auckland-20-11-2026/event/24006472CE6C4ADA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -551,7 +570,10 @@
     "ticketmaster_discovery_event_id": "1A0ZkowGkdCh7lQ",
     "timezone": "Pacific/Auckland",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8127248/Jack-Johnson-tickets-Fri-Nov-20-2026-Spark-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8127248/Jack-Johnson-tickets-Fri-Nov-20-2026-Spark-Arena",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-jack-johnson-2026-waipara-1kazv0jzgaua-ts",
@@ -569,7 +591,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/jack-johnson-surfilmusic-tour-australia-new-waipara-22-11-2026/event/240064738D261FF1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -604,7 +626,10 @@
     },
     "ticketmaster_discovery_event_id": "1kaZv0jzGAua-Ts",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-jack-johnson-2027-forest-brussels-z698xzg2z1koeez-t",
@@ -622,7 +647,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/jack-johnson-tickets/802080869",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -657,7 +682,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1kOeeZ-t",
     "timezone": "Europe/Brussels",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation"
+    ]
   },
   {
     "id": "tm-jack-johnson-2027-amsterdam-z698xzbpz16v8kg7fn",
@@ -675,7 +703,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/jack-johnson-surfilmusic-tour-2027-tickets/1406304223?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -718,7 +746,10 @@
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v8kG7FN",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/jack-johnson-tickets-amsterdam-ziggo-dome-27-6-2027/event/107675651"
+    "stubhub_international_url": "https://www.stubhub.ie/jack-johnson-tickets-amsterdam-ziggo-dome-27-6-2027/event/107675651",
+    "organizer_names": [
+      "Greenhouse Talent"
+    ]
   },
   {
     "id": "tm-jack-johnson-2027-st-austell-g5vhz_4eimdn_",
@@ -736,7 +767,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jack-johnson-eden-sessions-st-austell-02-07-2027/event/1F006550A8B838D9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -771,7 +802,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_4eImdN_",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ]
   },
   {
     "id": "tm-jack-johnson-2027-st-austell-g5vhz_4d63ah_",
@@ -789,7 +823,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jack-johnson-eden-sessions-st-austell-03-07-2027/event/1F006550C7485F19",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -824,7 +858,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_4d63AH_",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ]
   },
   {
     "id": "tm-jack-johnson-2027-london-16dfz_4ebg7va-j",
@@ -842,7 +879,7 @@
     "vividseats_url": "https://www.vividseats.com/jack-johnson-tickets-london-the-o2---london-7-4-2027/production/7725840",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jack-johnson-london-04-07-2027/event/3500655098D05866",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -885,6 +922,9 @@
     "ticketmaster_discovery_event_id": "16dfZ_4ebG7VA-J",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/jack-johnson-tickets-london-the-o2-arena-4-7-2027/event/107675350"
+    "stubhub_international_url": "https://www.stubhub.ie/jack-johnson-tickets-london-the-o2-arena-4-7-2027/event/107675350",
+    "organizer_names": [
+      "KMJ ENTERTAINMENT LTD"
+    ]
   }
 ]

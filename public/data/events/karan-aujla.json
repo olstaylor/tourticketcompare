@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/karan-aujla-tickets-sacramento-golden-1-center-11-7-2026/production/7557612",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-sacramento-california-11-07-2026/event/1C00652BA1D6AEB7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,17 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267874/Karan-Aujla-tickets-Sat-Nov-7-2026-Golden-1-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-sacramento-tickets-11-7-2026/event/107668612"
+    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-sacramento-tickets-11-7-2026/event/107668612",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-18T17:00:00Z",
+        "end": "2026-11-03T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-karan-aujla-2026-los-angeles-g5eyz_3lgqzvb",
@@ -84,7 +94,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-los-angeles-california-11-09-2026/event/2C00652AF5740D18",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -135,7 +145,17 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267866/Karan-Aujla-tickets-Mon-Nov-9-2026-Cryptocom-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-los-angeles-tickets-11-9-2026/event/107668616"
+    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-los-angeles-tickets-11-9-2026/event/107668616",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T17:00:00Z",
+        "end": "2026-11-05T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-karan-aujla-2026-dallas-vvg1yz_3r_e2at",
@@ -153,7 +173,7 @@
     "vividseats_url": "https://www.vividseats.com/karan-aujla-tickets-dallas-american-airlines-center---tx-11-13-2026/production/7557614",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-dallas-texas-11-13-2026/event/0C00652BD99CF27F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -204,7 +224,17 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267876/Karan-Aujla-tickets-Fri-Nov-13-2026-American-Airlines-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-dallas-tickets-11-13-2026/event/107669422"
+    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-dallas-tickets-11-13-2026/event/107669422",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T15:00:00Z",
+        "end": "2026-11-09T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-karan-aujla-2026-atlanta-vvg1zz_3myjgwo",
@@ -222,7 +252,7 @@
     "vividseats_url": "https://www.vividseats.com/karan-aujla-tickets-atlanta-state-farm-arena-11-16-2026/production/7557616",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-atlanta-georgia-11-16-2026/event/0E00652BB098CCA0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -273,7 +303,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267877/Karan-Aujla-tickets-Mon-Nov-16-2026-State-Farm-Arena-GA",
-    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-atlanta-tickets-11-16-2026/event/107668599"
+    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-atlanta-tickets-11-16-2026/event/107668599",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2026-11-12T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-karan-aujla-2026-new-york-g5diz_3ivacnr",
@@ -291,7 +331,7 @@
     "vividseats_url": "https://www.vividseats.com/karan-aujla-tickets-new-york-madison-square-garden-11-18-2026/production/7557632",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-new-york-new-york-11-18-2026/event/3B00652A0114E8EF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -342,7 +382,22 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267865/Karan-Aujla-tickets-Wed-Nov-18-2026-Madison-Square-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-new-york-tickets-11-18-2026/event/107669421"
+    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-new-york-tickets-11-18-2026/event/107669421",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2026-11-14T17:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2026-11-19T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-karan-aujla-2026-washington-1a4zkftgkdhkud5",
@@ -360,7 +415,7 @@
     "vividseats_url": "https://www.vividseats.com/karan-aujla-tickets-washington-capital-one-arena-11-20-2026/production/7557628",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-washington-district-of-columbia-11-20-2026/event/15006529DB4CD0CB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -411,6 +466,16 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267878/Karan-Aujla-tickets-Fri-Nov-20-2026-Capital-One-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-washington-tickets-11-20-2026/event/107668604"
+    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-washington-tickets-11-20-2026/event/107668604",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2026-11-16T17:00:00Z"
+      }
+    ]
   }
 ]

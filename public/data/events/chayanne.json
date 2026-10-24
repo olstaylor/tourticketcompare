@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/chayanne-tickets-miami-kaseya-center-10-24-2026/production/6924889",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-miami-florida-10-24-2026/event/0D00646A64C11EFD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/chayanne-miami-tickets-10-24-2026/event/107165161",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7892306/Chayanne-tickets-Sat-Oct-24-2026-Kaseya-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7892306/Chayanne-tickets-Sat-Oct-24-2026-Kaseya-Center",
+    "organizer_names": [
+      "CMN - CARDENAS MARKETING NETWORK"
+    ]
   },
   {
     "id": "tm-chayanne-2026-tampa-vvg1vz_km8pku0",
@@ -84,7 +87,7 @@
     "vividseats_url": "https://www.vividseats.com/chayanne-tickets-tampa-benchmark-international-arena-10-30-2026/production/6924881",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-tampa-florida-10-30-2026/event/0D00646B90586364",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -135,7 +138,22 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/chayanne-tampa-tickets-10-30-2026/event/107165162",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7892339/Chayanne-tickets-Fri-Oct-30-2026-Benchmark-International-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7892339/Chayanne-tickets-Fri-Oct-30-2026-Benchmark-International-Arena",
+    "organizer_names": [
+      "CMN - CARDENAS MARKETING NETWORK"
+    ],
+    "presales": [
+      {
+        "name": "20% OFF LIMITED TIME OFFER",
+        "start": "2026-10-23T14:00:00Z",
+        "end": "2026-10-26T02:00:00Z"
+      },
+      {
+        "name": "25% OFF LIMITED TIME OFFER!",
+        "start": "2026-10-28T14:00:00Z",
+        "end": "2026-10-30T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-chayanne-2026-orlando-1aefz_kgkwoqkla",
@@ -153,7 +171,7 @@
     "vividseats_url": "https://www.vividseats.com/chayanne-tickets-orlando-kia-center-10-31-2026/production/6924903",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-orlando-florida-10-31-2026/event/2200646CA0686AC5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -204,6 +222,26 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/chayanne-orlando-tickets-10-31-2026/event/107164100",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7892340/Chayanne-tickets-Sat-Oct-31-2026-Kia-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7892340/Chayanne-tickets-Sat-Oct-31-2026-Kia-Center",
+    "organizer_names": [
+      "CMN - CARDENAS MARKETING NETWORK"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-24T14:00:00Z",
+        "end": "2026-10-24T21:00:00Z"
+      },
+      {
+        "name": "Flash Sale #7",
+        "start": "2026-10-23T14:00:00Z",
+        "end": "2026-10-26T02:00:00Z"
+      },
+      {
+        "name": "Flash Sale #8",
+        "start": "2026-10-28T14:00:00Z",
+        "end": "2026-10-30T02:00:00Z"
+      }
+    ]
   }
 ]

@@ -1,0 +1,241 @@
+{
+  "storyType": "artist-cities",
+  "asOf": "2026-10-24",
+  "artistSlug": "doja-cat",
+  "artist": "Doja Cat",
+  "artistPageIndexable": true,
+  "tourName": "Tour Ma Vie World Tour",
+  "path": "/artists/doja-cat",
+  "pricePath": "/artists/doja-cat/ticket-prices",
+  "site": "ticketnetwork",
+  "siteLabel": "TicketNetwork",
+  "country": "United States",
+  "currency": "USD",
+  "capturedFrom": "2026-10-23T19:15:28.831Z",
+  "capturedTo": "2026-10-23T19:15:34.550Z",
+  "tourDates": 19,
+  "coverage": {
+    "marketCities": 17,
+    "pricedCities": 17,
+    "share": 1,
+    "unpricedCities": [],
+    "otherCountries": [
+      {
+        "country": "Canada",
+        "cities": 2,
+        "dates": 2
+      }
+    ]
+  },
+  "low": {
+    "city": "Miami",
+    "country": "United States",
+    "venue": "Kaseya Center",
+    "eventId": "tm-doja-cat-2026-miami-vvg1vzbs0fdfw5",
+    "localDate": "2026-11-11",
+    "price": 43.7,
+    "currency": "USD",
+    "capturedAt": "2026-10-23T19:15:31.403Z"
+  },
+  "high": {
+    "city": "New York",
+    "country": "United States",
+    "venue": "Madison Square Garden",
+    "eventId": "tm-doja-cat-2026-new-york-g5dizbsintkzt",
+    "localDate": "2026-12-01",
+    "price": 196.65,
+    "currency": "USD",
+    "capturedAt": "2026-10-23T19:15:34.550Z"
+  },
+  "median": 69,
+  "ratio": 4.5,
+  "cities": [
+    {
+      "city": "Miami",
+      "country": "United States",
+      "venue": "Kaseya Center",
+      "eventId": "tm-doja-cat-2026-miami-vvg1vzbs0fdfw5",
+      "localDate": "2026-11-11",
+      "price": 43.7,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T19:15:31.403Z",
+      "path": "/artists/doja-cat/tickets/miami-united-states"
+    },
+    {
+      "city": "Austin",
+      "country": "United States",
+      "venue": "Moody Center ATX",
+      "eventId": "tm-doja-cat-2026-austin-g5dizbsl2m6xd",
+      "localDate": "2026-11-03",
+      "price": 51.75,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T19:15:30.686Z",
+      "path": "/artists/doja-cat/tickets/austin-united-states"
+    },
+    {
+      "city": "San Antonio",
+      "country": "United States",
+      "venue": "Frost Bank Center",
+      "eventId": "tm-doja-cat-2026-san-antonio-g5dizbsnv5jt4",
+      "localDate": "2026-11-06",
+      "price": 59.8,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T19:15:31.051Z",
+      "path": "/artists/doja-cat/tickets/san-antonio-united-states"
+    },
+    {
+      "city": "Orlando",
+      "country": "United States",
+      "venue": "Kia Center",
+      "eventId": "tm-doja-cat-2026-orlando-1aefzbsgklnlnmt",
+      "localDate": "2026-11-14",
+      "price": 62.1,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T19:15:31.823Z",
+      "path": "/artists/doja-cat/tickets/orlando-united-states"
+    },
+    {
+      "city": "Dallas",
+      "country": "United States",
+      "venue": "American Airlines Center",
+      "eventId": "tm-doja-cat-2026-dallas-vvg1yzbstqyohd",
+      "localDate": "2026-11-04",
+      "price": 63.25,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T19:15:30.881Z",
+      "path": "/artists/doja-cat/tickets/dallas-united-states"
+    },
+    {
+      "city": "Philadelphia",
+      "country": "United States",
+      "venue": "Xfinity Mobile Arena",
+      "eventId": "tm-doja-cat-2026-philadelphia-1adzzbsgkldzvua",
+      "localDate": "2026-11-29",
+      "price": 63.25,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T19:15:34.303Z",
+      "path": "/artists/doja-cat/tickets/philadelphia-united-states"
+    },
+    {
+      "city": "Washington",
+      "country": "United States",
+      "venue": "Capital One Arena",
+      "eventId": "tm-doja-cat-2026-washington-1a4zkgygkdpgprp",
+      "localDate": "2026-11-21",
+      "price": 63.25,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T19:15:33.232Z",
+      "path": "/artists/doja-cat/tickets/washington-united-states"
+    },
+    {
+      "city": "Charlotte",
+      "country": "United States",
+      "venue": "Spectrum Center",
+      "eventId": "tm-doja-cat-2026-charlotte-g5evzbsemdalv",
+      "localDate": "2026-11-18",
+      "price": 67.85,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T19:15:32.866Z",
+      "path": "/artists/doja-cat/tickets/charlotte-united-states"
+    },
+    {
+      "city": "Tampa",
+      "country": "United States",
+      "venue": "Benchmark International Arena",
+      "eventId": "tm-doja-cat-2026-tampa-vvg1vzbslmpvjz",
+      "localDate": "2026-11-13",
+      "price": 69,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T19:15:31.626Z",
+      "path": "/artists/doja-cat/tickets/tampa-united-states"
+    },
+    {
+      "city": "San Francisco",
+      "country": "United States",
+      "venue": "Chase Center",
+      "eventId": "tm-doja-cat-2026-san-francisco-g5vyzbs0ua9tw",
+      "localDate": "2026-10-25",
+      "price": 70.15,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T19:15:28.831Z",
+      "path": "/artists/doja-cat/tickets/san-francisco-united-states"
+    },
+    {
+      "city": "Phoenix",
+      "country": "United States",
+      "venue": "Mortgage Matchup Center",
+      "eventId": "tm-doja-cat-2026-phoenix-1av0zbsgknh-n_z",
+      "localDate": "2026-10-29",
+      "price": 81.65,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T19:15:30.464Z",
+      "path": "/artists/doja-cat/tickets/phoenix-united-states"
+    },
+    {
+      "city": "Houston",
+      "country": "United States",
+      "venue": "Toyota Center - TX",
+      "eventId": "tm-doja-cat-2026-houston-z7r9jz1a7js4g",
+      "localDate": "2026-11-07",
+      "price": 88.55,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T19:15:31.228Z",
+      "path": "/artists/doja-cat/tickets/houston-united-states"
+    },
+    {
+      "city": "Atlanta",
+      "country": "United States",
+      "venue": "State Farm Arena",
+      "eventId": "tm-doja-cat-2026-atlanta-vvg1zzbsle3ugd",
+      "localDate": "2026-11-17",
+      "price": 92,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T19:15:32.693Z",
+      "path": "/artists/doja-cat/tickets/atlanta-united-states"
+    },
+    {
+      "city": "Baltimore",
+      "country": "United States",
+      "venue": "CFG Bank Arena",
+      "eventId": "tm-doja-cat-2026-baltimore-1avfzbsgknfre1x",
+      "localDate": "2026-11-20",
+      "price": 101.2,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T19:15:33.060Z",
+      "path": "/artists/doja-cat/tickets/baltimore-united-states"
+    },
+    {
+      "city": "San Diego",
+      "country": "United States",
+      "venue": "Viejas Arena at Aztec Bowl San Diego State University",
+      "eventId": "tm-doja-cat-2026-san-diego-vvg1izbsi8_kno",
+      "localDate": "2026-10-27",
+      "price": 132.25,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T19:15:29.655Z",
+      "path": "/artists/doja-cat/tickets/san-diego-united-states"
+    },
+    {
+      "city": "Boston",
+      "country": "United States",
+      "venue": "TD Garden",
+      "eventId": "tm-doja-cat-2026-boston-vv1f7zbs09vyzd227",
+      "localDate": "2026-11-23",
+      "price": 148.35,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T19:15:33.713Z",
+      "path": "/artists/doja-cat/tickets/boston-united-states"
+    },
+    {
+      "city": "New York",
+      "country": "United States",
+      "venue": "Madison Square Garden",
+      "eventId": "tm-doja-cat-2026-new-york-g5dizbsintkzt",
+      "localDate": "2026-12-01",
+      "price": 196.65,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T19:15:34.550Z",
+      "path": "/artists/doja-cat/tickets/new-york-united-states"
+    }
+  ]
+}

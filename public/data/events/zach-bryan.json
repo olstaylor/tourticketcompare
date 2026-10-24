@@ -1050,7 +1050,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-indianapolis-lucas-oil-stadium-5-1-2027/production/7706921",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-indianapolis-indiana-05-01-2027/event/0500654CA98964E0",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1106,24 +1106,11 @@
     },
     "ticketmaster_discovery_event_id": "vv17fZ_fGkwtxpKO",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322365",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322365/Zach-Bryan-tickets-Sat-May-1-2027-Lucas-Oil-Stadium",
     "organizer_names": [
       "AEG LIVE"
-    ],
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-21T14:00:00Z",
-        "end": "2026-10-23T02:00:00Z"
-      },
-      {
-        "name": "Local Presale",
-        "start": "2026-10-22T14:00:00Z",
-        "end": "2026-10-23T02:00:00Z"
-      }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-indianapolis-tickets-5-1-2027/event/107675676"
   },
@@ -1143,7 +1130,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-green-bay-lambeau-field-5-4-2027--concerts-country-and-folk/production/7706945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-green-bay-wisconsin-05-04-2027/event/0700654CDB0C6B27",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1199,29 +1186,11 @@
     },
     "ticketmaster_discovery_event_id": "vv17jZ_fGkShdkiE",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-23T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322366",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322366/Zach-Bryan-tickets-Tue-May-4-2027-Lambeau-Field",
     "organizer_names": [
       "AEG LIVE"
-    ],
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-21T15:00:00Z",
-        "end": "2026-10-23T03:00:00Z"
-      },
-      {
-        "name": "Private Presale",
-        "start": "2026-10-22T13:00:00Z",
-        "end": "2026-10-22T14:30:00Z"
-      },
-      {
-        "name": "Local Presale",
-        "start": "2026-10-22T15:00:00Z",
-        "end": "2026-10-23T03:00:00Z"
-      }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-green-bay-tickets-5-4-2027/event/107675677"
   },
@@ -1241,7 +1210,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-east-rutherford-metlife-stadium-5-14-2027/production/7706905",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-east-rutherford-new-jersey-05-14-2027/event/0000654CE2BEAC96",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1297,22 +1266,9 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_fSxRnwp",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322367",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322367/Zach-Bryan-tickets-Fri-May-14-2027-MetLife-Stadium",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-21T14:00:00Z",
-        "end": "2026-10-23T02:00:00Z"
-      },
-      {
-        "name": "Local Presale",
-        "start": "2026-10-22T14:00:00Z",
-        "end": "2026-10-23T02:00:00Z"
-      }
-    ],
     "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-east-rutherford-tickets-5-14-2027/event/107674278",
     "organizer_names": [
       "AEG LIVE"
@@ -1334,7 +1290,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-east-rutherford-metlife-stadium-5-15-2027/production/7706909",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-east-rutherford-new-jersey-05-15-2027/event/0000654CE4B7AF3B",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1390,22 +1346,9 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_fS0cBHD",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322368",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322368/Zach-Bryan-tickets-Sat-May-15-2027-MetLife-Stadium",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-21T14:00:00Z",
-        "end": "2026-10-23T02:00:00Z"
-      },
-      {
-        "name": "Local Presale",
-        "start": "2026-10-22T14:00:00Z",
-        "end": "2026-10-23T02:00:00Z"
-      }
-    ],
     "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-east-rutherford-tickets-5-15-2027/event/107674279",
     "organizer_names": [
       "AEG LIVE"
@@ -1427,7 +1370,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-philadelphia-lincoln-financial-field-5-25-2027/production/7706915",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-philadelphia-pennsylvania-05-25-2027/event/0200654CE8E4ABC0",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1483,34 +1426,11 @@
     },
     "ticketmaster_discovery_event_id": "vv17FZ_fGkSIy1RZ",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322370",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322370/Zach-Bryan-tickets-Tue-May-25-2027-Lincoln-Financial-Field",
     "organizer_names": [
       "AEG LIVE"
-    ],
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-21T14:00:00Z",
-        "end": "2026-10-23T02:00:00Z"
-      },
-      {
-        "name": "Eagles Presale",
-        "start": "2026-10-22T14:00:00Z",
-        "end": "2026-10-23T02:00:00Z"
-      },
-      {
-        "name": "Radio Presale",
-        "start": "2026-10-22T14:00:00Z",
-        "end": "2026-10-23T02:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-10-22T14:00:00Z",
-        "end": "2026-10-23T02:00:00Z"
-      }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-philadelphia-tickets-5-25-2027/event/107674280"
   },
@@ -1530,7 +1450,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-atlanta-mercedes-benz-stadium-5-29-2027/production/7706911",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-atlanta-georgia-05-29-2027/event/0E00654CB92CB473",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1586,27 +1506,9 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_fwy55oS",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322371",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322371/Zach-Bryan-tickets-Sat-May-29-2027-Mercedes-Benz-Stadium",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-21T14:00:00Z",
-        "end": "2026-10-23T02:00:00Z"
-      },
-      {
-        "name": "Local Presale",
-        "start": "2026-10-22T14:00:00Z",
-        "end": "2026-10-23T02:00:00Z"
-      },
-      {
-        "name": "Support Presale",
-        "start": "2026-10-22T14:00:00Z",
-        "end": "2026-10-23T02:00:00Z"
-      }
-    ],
     "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-atlanta-tickets-5-29-2027/event/107674281",
     "organizer_names": [
       "AEG LIVE"
@@ -1628,7 +1530,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-orchard-park-highmark-stadium-6-2-2027--concerts-country-and-folk/production/7706949",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-orchard-park-new-york-06-02-2027/event/0300654CE8C52226",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1684,34 +1586,11 @@
     },
     "ticketmaster_discovery_event_id": "vv17GZ_fGkSIs3FJ",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-23T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322372",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322372/Zach-Bryan-tickets-Wed-Jun-2-2027-New-Highmark-Stadium",
     "organizer_names": [
       "AEG LIVE"
-    ],
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-21T14:00:00Z",
-        "end": "2026-10-23T02:00:00Z"
-      },
-      {
-        "name": "Buffalo Bills STM Presale",
-        "start": "2026-10-22T14:00:00Z",
-        "end": "2026-10-23T02:00:00Z"
-      },
-      {
-        "name": "Radio Presale",
-        "start": "2026-10-22T14:00:00Z",
-        "end": "2026-10-23T02:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-22T16:00:00Z",
-        "end": "2026-10-23T02:00:00Z"
-      }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-orchard-park-tickets-6-2-2027/event/107674282"
   },
@@ -1731,7 +1610,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-las-vegas-allegiant-stadium-7-16-2027--concerts-country-and-folk/production/7706953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-las-vegas-nevada-07-16-2027/event/1700654C987B8307",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1787,29 +1666,11 @@
     },
     "ticketmaster_discovery_event_id": "1AvjZ_fGkwbrzG6",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-10-23T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322373",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322373/Zach-Bryan-tickets-Fri-Jul-16-2027-Allegiant-Stadium",
     "organizer_names": [
       "AEG LIVE"
-    ],
-    "presales": [
-      {
-        "name": "ARTIST PRESALE",
-        "start": "2026-10-21T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      },
-      {
-        "name": "LOCAL PRESALE",
-        "start": "2026-10-22T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      },
-      {
-        "name": "RYAN BINGHAM & TEXAS GENTLEMEN PRESALE",
-        "start": "2026-10-22T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-las-vegas-tickets-7-16-2027/event/107674226"
   },
@@ -1829,7 +1690,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-inglewood-sofi-stadium-7-20-2027--concerts-country-and-folk/production/7706957",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-inglewood-california-07-20-2027/event/0A0065479BA57D07",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1885,39 +1746,11 @@
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_frht9V6",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-10-23T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322374",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322374/Zach-Bryan-tickets-Tue-Jul-20-2027-SoFi-Stadium",
     "organizer_names": [
       "AEG - TICKETING"
-    ],
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-21T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      },
-      {
-        "name": "Goldenvoice Presale",
-        "start": "2026-10-22T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      },
-      {
-        "name": "Ryan Bingham and The Texas Gentlemen Pre",
-        "start": "2026-10-22T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      },
-      {
-        "name": "Support Presale",
-        "start": "2026-10-22T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-22T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-inglewood-tickets-7-20-2027/event/107674901"
   },
@@ -1937,7 +1770,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-seattle-lumen-field-7-24-2027/production/7706907",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-seattle-washington-07-24-2027/event/0F00654C3F7D1083",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1993,44 +1826,13 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_fYTLoed",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-10-23T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322375",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322375/Zach-Bryan-tickets-Sat-Jul-24-2027-Lumen-Field",
     "organizer_names": [
       "AEG LIVE"
     ],
     "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-21T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      },
-      {
-        "name": "General Admission Early Entry Presale",
-        "start": "2026-10-21T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      },
-      {
-        "name": "Radio Presale",
-        "start": "2026-10-22T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      },
-      {
-        "name": "Ryan Bingham and Texas Gentlemen Presale",
-        "start": "2026-10-22T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-10-22T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-22T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      },
       {
         "name": "General Admission Early Entry Onsale",
         "start": "2026-10-23T17:00:00Z",
@@ -2055,7 +1857,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-vancouver-bc-place-stadium-7-28-2027--concerts-country-and-folk/production/7706961",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/zach-bryan-vancouver-british-columbia-07-28-2027/event/1100654CD040BC8B",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2111,39 +1913,11 @@
     },
     "ticketmaster_discovery_event_id": "1Av7Z_fGkS885w5",
     "timezone": "America/Vancouver",
-    "status": "announced",
-    "public_onsale_at": "2026-10-23T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322377",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322377/Zach-Bryan-tickets-Wed-Jul-28-2027-BC-Place-Stadium",
     "organizer_names": [
       "AEG LIVE (CANADA)"
-    ],
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-21T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      },
-      {
-        "name": "Radio Presale",
-        "start": "2026-10-22T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      },
-      {
-        "name": "Ryan Bingham and Texas Gentlemen Presale",
-        "start": "2026-10-22T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-10-22T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-22T17:00:00Z",
-        "end": "2026-10-23T05:00:00Z"
-      }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-tickets-vancouver-bc-place-stadium-7-28-2027/event/107675680"
   },
@@ -2163,7 +1937,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/zach-bryan-edmonton-alberta-08-01-2027/event/1100654C8F234ADB",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2198,38 +1972,10 @@
     },
     "ticketmaster_discovery_event_id": "1Av7Z_fGkw2FVlh",
     "timezone": "America/Edmonton",
-    "status": "announced",
-    "public_onsale_at": "2026-10-23T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AEG LIVE (CANADA)",
       "AEG LIVE"
-    ],
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-21T16:00:00Z",
-        "end": "2026-10-23T04:00:00Z"
-      },
-      {
-        "name": "Radio Presale",
-        "start": "2026-10-22T16:00:00Z",
-        "end": "2026-10-23T04:00:00Z"
-      },
-      {
-        "name": "Ryan Bingham and Texas Gentlemen Presale",
-        "start": "2026-10-22T16:00:00Z",
-        "end": "2026-10-23T04:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-10-22T16:00:00Z",
-        "end": "2026-10-23T04:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-22T16:00:00Z",
-        "end": "2026-10-23T04:00:00Z"
-      }
     ]
   },
   {
@@ -2248,7 +1994,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-boise-albertsons-stadium-8-6-2027--concerts-country-and-folk/production/7706959",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-boise-idaho-08-06-2027/event/1E00654CFAA9B55B",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2297,29 +2043,11 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_fSBnh4h",
     "timezone": "America/Denver",
-    "status": "announced",
-    "public_onsale_at": "2026-10-23T16:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322376",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322376/Zach-Bryan-tickets-Fri-Aug-6-2027-Albertsons-Stadium",
     "organizer_names": [
       "AEG LIVE"
-    ],
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-21T16:00:00Z",
-        "end": "2026-10-23T04:00:00Z"
-      },
-      {
-        "name": "Local Presales",
-        "start": "2026-10-22T16:00:00Z",
-        "end": "2026-10-23T04:00:00Z"
-      },
-      {
-        "name": "Support Presale",
-        "start": "2026-10-22T16:00:00Z",
-        "end": "2026-10-23T04:00:00Z"
-      }
     ]
   },
   {
@@ -2338,7 +2066,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/zach-bryan-vancouver-british-columbia-07-27-2027/event/110065548ED5672E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2380,9 +2108,11 @@
     },
     "ticketmaster_discovery_event_id": "1k78vP4FGACgpjm",
     "timezone": "America/Vancouver",
-    "status": "announced",
-    "public_onsale_at": "2026-10-23T17:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338720/Zach-Bryan-tickets-Tue-Jul-27-2027-BC-Place-Stadium"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338720/Zach-Bryan-tickets-Tue-Jul-27-2027-BC-Place-Stadium",
+    "organizer_names": [
+      "AEG LIVE (CANADA)"
+    ]
   },
   {
     "id": "tm-zach-bryan-2027-edmonton-16v7z_43bg7l9tm",
@@ -2400,7 +2130,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/zach-bryan-edmonton-alberta-07-31-2027/event/1100655498AD7FF7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2435,8 +2165,11 @@
     },
     "ticketmaster_discovery_event_id": "16v7Z_43bG7l9TM",
     "timezone": "America/Edmonton",
-    "status": "announced",
-    "public_onsale_at": "2026-10-23T16:00:00Z"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG LIVE (CANADA)",
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-zach-bryan-2027-minneapolis-z7r9jz1aa7kad",

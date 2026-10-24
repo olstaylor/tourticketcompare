@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-brooklyn-brooklyn-bowl---ny-10-30-2026/production/7479392",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/too-many-zooz-brooklyn-new-york-10-30-2026/event/000065159C471E82",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -74,7 +74,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235574",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235574/Too-Many-Zooz-tickets-Fri-Oct-30-2026-Brooklyn-Bowl-NY",
-    "stubhub_international_url": "https://www.stubhub.ie/too-many-zooz-brooklyn-tickets-10-30-2026/event/107667087"
+    "stubhub_international_url": "https://www.stubhub.ie/too-many-zooz-brooklyn-tickets-10-30-2026/event/107667087",
+    "presales": [
+      {
+        "name": "Sweet Promo",
+        "start": "2026-10-26T14:00:00Z",
+        "end": "2026-10-30T14:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-too-many-zooz-2027-wroclaw-z698xzqpz1kcapprk",

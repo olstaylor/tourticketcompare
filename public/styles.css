@@ -3052,6 +3052,87 @@ code {
   overflow-wrap: anywhere;
 }
 
+/* Buyer journey: dates lead, primary ticketing is distinct from marketplaces. */
+.artist-page > .show-board,
+.event-page > .show-board {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+}
+.artist-page h1,
+.event-page h1 {
+  max-width: 30ch;
+  font-size: clamp(1.7rem, 3vw, 2.55rem);
+  line-height: 1.12;
+  letter-spacing: -0.035em;
+}
+.artist-dates-jump { margin: 0; }
+.artist-page .price-guide-link { font-size: .9rem; }
+.money-disclosure { margin: 0; font-size: .85rem; color: var(--ink-soft); }
+.money-disclosure summary { cursor: pointer; padding: 8px 0; }
+.price-disclosure { max-width: 85ch; margin: 0; line-height: 1.5; }
+.show-card .provider-cta,
+.price-answer-table .provider-cta {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 3px 12px;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+.provider-cta .provider-cta-name { grid-column: 1; font-weight: 750; }
+.provider-cta .provider-cta-role {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  color: var(--muted);
+  font-size: .75rem;
+  font-weight: 400;
+  line-height: 1.4;
+  white-space: normal;
+}
+.provider-cta .provider-cta-value { grid-column: 2; grid-row: 1; }
+.show-card .provider-cta-primary,
+.show-card .provider-cta-primary:last-child {
+  grid-column: 1 / -1;
+  border-color: #b8ccbf;
+  background: var(--green-soft);
+  color: var(--green);
+}
+.show-card .provider-cta-primary .provider-cta-role { color: var(--green); }
+.show-card .provider-cta-group { grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 0; gap: 8px; }
+.show-card .show-details-link { min-height: 44px; display: inline-flex; align-items: center; font-weight: 750; }
+.show-card .copy-show-link { font-size: .8rem; }
+.event-page .show-card-grid { grid-template-columns: minmax(0, 1fr); }
+.event-page .show-card { max-width: 900px; }
+.guide-page .editorial-section {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+  max-width: 78ch;
+  gap: 14px;
+}
+.guide-page .editorial-section h2 { font-size: clamp(1.3rem, 2vw, 1.65rem); line-height: 1.25; }
+.guide-page .editorial-section p { font-size: 1rem; line-height: 1.7; }
+.guide-page .guide-provenance { font-size: .85rem; }
+@media (max-width: 640px) {
+  .artist-page, .event-page { padding: 18px; gap: 22px; }
+  .show-card .provider-cta-group { grid-template-columns: minmax(0, 1fr); }
+  .show-card .provider-cta { min-height: 62px; }
+  .show-card .show-card-actions { gap: 8px 14px; }
+  .event-page .show-card { padding: 12px; }
+  .show-filter-bar input, .show-filter-bar select, .show-filter-bar button { min-height: 44px; }
+  .show-filter-extra { grid-template-columns: minmax(0, 1fr); }
+}
+.artist-page .show-board,
+.event-page .show-board { gap: 16px; }
+.artist-page .show-board .section-intro,
+.event-page .show-board .section-intro { gap: 6px; }
+.artist-page .show-board h2,
+.event-page .show-board h2 { font-size: clamp(1.3rem, 2.2vw, 1.75rem); }
+.artist-page .show-filter-bar { margin: 0; }
+.show-board .section-intro .price-disclosure { font-size: .82rem; line-height: 1.45; }
+.artist-page .artist-dates-jump { margin-top: 10px; font-size: .95rem; font-weight: 700; }
 /* Long-form pages have a reading column and quiet section navigation. Ticket
    boards keep their wide comparison layout. */
 .reading-page {

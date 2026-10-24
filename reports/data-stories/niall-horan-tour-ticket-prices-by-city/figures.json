@@ -1,0 +1,323 @@
+{
+  "storyType": "artist-cities",
+  "asOf": "2026-10-24",
+  "artistSlug": "niall-horan",
+  "artist": "Niall Horan",
+  "artistPageIndexable": true,
+  "tourName": "Dinner Party Live On Tour",
+  "path": "/artists/niall-horan",
+  "pricePath": "/artists/niall-horan/ticket-prices",
+  "site": "vivid-seats",
+  "siteLabel": "Vivid Seats",
+  "country": "United States",
+  "currency": "USD",
+  "capturedFrom": "2026-10-23T20:40:35.958Z",
+  "capturedTo": "2026-10-23T20:40:35.958Z",
+  "tourDates": 36,
+  "coverage": {
+    "marketCities": 23,
+    "pricedCities": 21,
+    "share": 0.9130434782608695,
+    "unpricedCities": [
+      "Saint Louis",
+      "West Valley City"
+    ],
+    "otherCountries": [
+      {
+        "country": "Canada",
+        "cities": 3,
+        "dates": 3
+      },
+      {
+        "country": "Ireland",
+        "cities": 1,
+        "dates": 2
+      },
+      {
+        "country": "Italy",
+        "cities": 2,
+        "dates": 2
+      },
+      {
+        "country": "United Kingdom",
+        "cities": 1,
+        "dates": 2
+      },
+      {
+        "country": "Belgium",
+        "cities": 1,
+        "dates": 1
+      },
+      {
+        "country": "Germany",
+        "cities": 1,
+        "dates": 1
+      },
+      {
+        "country": "Poland",
+        "cities": 1,
+        "dates": 1
+      },
+      {
+        "country": "Spain",
+        "cities": 1,
+        "dates": 1
+      }
+    ]
+  },
+  "low": {
+    "city": "Atlanta",
+    "country": "United States",
+    "venue": "State Farm Arena",
+    "eventId": "tm-niall-horan-2027-atlanta-vvg1zz_1hoxudt",
+    "localDate": "2027-04-28",
+    "price": 61,
+    "currency": "USD",
+    "capturedAt": "2026-10-23T20:40:35.958Z"
+  },
+  "high": {
+    "city": "Austin",
+    "country": "United States",
+    "venue": "Moody Center ATX",
+    "eventId": "tm-niall-horan-2027-austin-g5diz_1lpaglw",
+    "localDate": "2027-05-14",
+    "price": 95,
+    "currency": "USD",
+    "capturedAt": "2026-10-23T20:40:35.958Z"
+  },
+  "median": 83,
+  "ratio": 1.5,
+  "cities": [
+    {
+      "city": "Atlanta",
+      "country": "United States",
+      "venue": "State Farm Arena",
+      "eventId": "tm-niall-horan-2027-atlanta-vvg1zz_1hoxudt",
+      "localDate": "2027-04-28",
+      "price": 61,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T20:40:35.958Z",
+      "path": "/artists/niall-horan/tickets/atlanta-united-states"
+    },
+    {
+      "city": "Fort Worth",
+      "country": "United States",
+      "venue": "Dickies Arena",
+      "eventId": "tm-niall-horan-2027-fort-worth-vvg1yz_1r1jeer",
+      "localDate": "2027-05-02",
+      "price": 61,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T20:40:35.958Z",
+      "path": "/artists/niall-horan/tickets/fort-worth-united-states"
+    },
+    {
+      "city": "Detroit",
+      "country": "United States",
+      "venue": "Little Caesars Arena",
+      "eventId": "tm-niall-horan-2027-detroit-vvg1oz_1rv4ast",
+      "localDate": "2027-03-19",
+      "price": 62,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T20:40:35.958Z",
+      "path": "/artists/niall-horan/tickets/detroit-united-states"
+    },
+    {
+      "city": "Orlando",
+      "country": "United States",
+      "venue": "Kia Center",
+      "eventId": "tm-niall-horan-2027-orlando-17fov0g61xk1ezu",
+      "localDate": "2027-04-17",
+      "price": 64,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T20:40:35.958Z",
+      "path": "/artists/niall-horan/tickets/orlando-united-states"
+    },
+    {
+      "city": "Columbus",
+      "country": "United States",
+      "venue": "Nationwide Arena",
+      "eventId": "tm-niall-horan-2027-columbus-vvg1fz_1x9ig7q",
+      "localDate": "2027-03-20",
+      "price": 65,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T20:40:35.958Z",
+      "path": "/artists/niall-horan/tickets/columbus-united-states"
+    },
+    {
+      "city": "Saint Paul",
+      "country": "United States",
+      "venue": "Grand Casino Arena",
+      "eventId": "tm-niall-horan-2027-saint-paul-z7r9jz1a704vb",
+      "localDate": "2027-03-17",
+      "price": 73,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T20:40:35.958Z",
+      "path": "/artists/niall-horan/tickets/saint-paul-united-states"
+    },
+    {
+      "city": "Brooklyn",
+      "country": "United States",
+      "venue": "Barclays Center",
+      "eventId": "tm-niall-horan-2027-brooklyn-17gzv0g61hpqmr1",
+      "localDate": "2027-04-04",
+      "price": 74,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T20:40:35.958Z",
+      "path": "/artists/niall-horan/tickets/brooklyn-united-states"
+    },
+    {
+      "city": "Chicago",
+      "country": "United States",
+      "venue": "United Center",
+      "eventId": "tm-niall-horan-2027-chicago-vvg18z_1llyajb",
+      "localDate": "2027-03-23",
+      "price": 78,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T20:40:35.958Z",
+      "path": "/artists/niall-horan/tickets/chicago-united-states"
+    },
+    {
+      "city": "Indianapolis",
+      "country": "United States",
+      "venue": "Gainbridge Fieldhouse",
+      "eventId": "tm-niall-horan-2027-indianapolis-vvg1fz_1htnybv",
+      "localDate": "2027-03-26",
+      "price": 78,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T20:40:35.958Z",
+      "path": "/artists/niall-horan/tickets/indianapolis-united-states"
+    },
+    {
+      "city": "Seattle",
+      "country": "United States",
+      "venue": "Climate Pledge Arena",
+      "eventId": "tm-niall-horan-2027-seattle-vvg1hz_1hqc03-",
+      "localDate": "2027-05-27",
+      "price": 81,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T20:40:35.958Z",
+      "path": "/artists/niall-horan/tickets/seattle-united-states"
+    },
+    {
+      "city": "Denver",
+      "country": "United States",
+      "venue": "Ball Arena",
+      "eventId": "tm-niall-horan-2027-denver-g5vzz_1lspoiu",
+      "localDate": "2027-05-16",
+      "price": 83,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T20:40:35.958Z",
+      "path": "/artists/niall-horan/tickets/denver-united-states"
+    },
+    {
+      "city": "Inglewood",
+      "country": "United States",
+      "venue": "Kia Forum",
+      "eventId": "tm-niall-horan-2027-inglewood-vvg10z_1jzwise",
+      "localDate": "2027-05-22",
+      "price": 85,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T20:40:35.958Z",
+      "path": "/artists/niall-horan/tickets/inglewood-united-states"
+    },
+    {
+      "city": "San Francisco",
+      "country": "United States",
+      "venue": "Chase Center",
+      "eventId": "tm-niall-horan-2027-san-francisco-g5vyz_195tivo",
+      "localDate": "2027-05-25",
+      "price": 85,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T20:40:35.958Z",
+      "path": "/artists/niall-horan/tickets/san-francisco-united-states"
+    },
+    {
+      "city": "Boston",
+      "country": "United States",
+      "venue": "TD Garden",
+      "eventId": "tm-niall-horan-2027-boston-vvg17z_1qxbhwy",
+      "localDate": "2027-04-12",
+      "price": 88,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T20:40:35.958Z",
+      "path": "/artists/niall-horan/tickets/boston-united-states"
+    },
+    {
+      "city": "Phoenix",
+      "country": "United States",
+      "venue": "Mortgage Matchup Center",
+      "eventId": "tm-niall-horan-2027-phoenix-17k8v0g61ruofyr",
+      "localDate": "2027-05-20",
+      "price": 90,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T20:40:35.958Z",
+      "path": "/artists/niall-horan/tickets/phoenix-united-states"
+    },
+    {
+      "city": "Houston",
+      "country": "United States",
+      "venue": "Toyota Center - TX",
+      "eventId": "tm-niall-horan-2027-houston-z7r9jz1a709uy",
+      "localDate": "2027-05-01",
+      "price": 91,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T20:40:35.958Z",
+      "path": "/artists/niall-horan/tickets/houston-united-states"
+    },
+    {
+      "city": "Baltimore",
+      "country": "United States",
+      "venue": "CFG Bank Arena",
+      "eventId": "tm-niall-horan-2027-baltimore-17a8v0g61lfcmsv",
+      "localDate": "2027-04-08",
+      "price": 92,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T20:40:35.958Z",
+      "path": "/artists/niall-horan/tickets/baltimore-united-states"
+    },
+    {
+      "city": "Hartford",
+      "country": "United States",
+      "venue": "PeoplesBank Arena",
+      "eventId": "tm-niall-horan-2027-hartford-z7r9jz1a709uz",
+      "localDate": "2027-04-13",
+      "price": 92,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T20:40:35.958Z",
+      "path": "/artists/niall-horan/tickets/hartford-united-states"
+    },
+    {
+      "city": "New Orleans",
+      "country": "United States",
+      "venue": "Smoothie King Center",
+      "eventId": "tm-niall-horan-2027-new-orleans-g5viz_1xkcnon",
+      "localDate": "2027-04-29",
+      "price": 92,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T20:40:35.958Z",
+      "path": "/artists/niall-horan/tickets/new-orleans-united-states"
+    },
+    {
+      "city": "Raleigh",
+      "country": "United States",
+      "venue": "Lenovo Center",
+      "eventId": "tm-niall-horan-2027-raleigh-g5evz_1r802la",
+      "localDate": "2027-04-15",
+      "price": 93,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T20:40:35.958Z",
+      "path": "/artists/niall-horan/tickets/raleigh-united-states"
+    },
+    {
+      "city": "Austin",
+      "country": "United States",
+      "venue": "Moody Center ATX",
+      "eventId": "tm-niall-horan-2027-austin-g5diz_1lpaglw",
+      "localDate": "2027-05-14",
+      "price": 95,
+      "currency": "USD",
+      "capturedAt": "2026-10-23T20:40:35.958Z",
+      "path": "/artists/niall-horan/tickets/austin-united-states"
+    }
+  ]
+}

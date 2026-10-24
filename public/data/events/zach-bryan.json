@@ -1879,7 +1879,7 @@
         "event_id": 7706961,
         "url": "https://www.vividseats.com/zach-bryan-tickets-vancouver-bc-place-stadium-7-28-2027--concerts-country-and-folk/production/7706961",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2063,7 +2063,7 @@
     "ticketmaster_event_id": "110065548ED5672E",
     "ticketmaster_url": "https://www.ticketmaster.ca/zach-bryan-vancouver-british-columbia-07-27-2027/event/110065548ED5672E",
     "seatgeek_url": "https://seatgeek.com/zach-bryan-tickets/vancouver-canada-bc-place-stadium-2027-07-27-7-pm/concert/18711212",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-vancouver-bc-place-stadium-7-27-2027--concerts-country-and-folk/production/7746559",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/zach-bryan-vancouver-british-columbia-07-27-2027/event/110065548ED5672E",
     "last_verified_at": "2026-10-24",
@@ -2085,11 +2085,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7746559,
+        "url": "https://www.vividseats.com/zach-bryan-tickets-vancouver-bc-place-stadium-7-27-2027--concerts-country-and-folk/production/7746559",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

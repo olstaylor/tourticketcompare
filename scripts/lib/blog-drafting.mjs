@@ -200,6 +200,21 @@ export function localSaleTime(iso, timeZone) {
   } catch { return null; }
 }
 
+// Existing articles are context only. A cap on their combined size keeps
+// artists with many posts inside the input limit.
+const OVERLAP_TOTAL_CHARS = 12000;
+function boundedOverlap(docs) {
+  let left = OVERLAP_TOTAL_CHARS;
+  const out = [];
+  for (const d of docs) {
+    if (left <= 0) break;
+    const body = d.body.slice(0, Math.min(6500, left));
+    left -= body.length;
+    out.push({ file: d.file, title: d.title, body });
+  }
+  return out;
+}
+
 export function buildEvidence(selected, { now = Date.now(), snapshot }) {
   if (!/^[a-f0-9]{40}$/.test(snapshot || '')) fail('missing trusted source commit');
   const kind = selected.kind || 'options';
@@ -225,7 +240,7 @@ export function buildEvidence(selected, { now = Date.now(), snapshot }) {
     limitations: ['Repository verification is not a current external check.', 'Provider records are not live inventory, checkout totals or proof of production credentials.',
       ...(saleKind ? ['Sale and presale times are what Ticketmaster listed when checked. Organisers can change them; readers must confirm on the official event page.'] : []),
       'No codes, eligibility rules, cheapest claims, prices, scarcity or last-chance claims, tour branding or price predictions are authorised.'],
-    overlap: selected.overlap.map((d) => ({ file: d.file, title: d.title, body: d.body.slice(0, 6500) })) };
+    overlap: boundedOverlap(selected.overlap) };
 }
 
 // Discovery returns its own URL slug and, for affiliate-enabled keys, wraps the
@@ -380,7 +395,11 @@ export function checkArticle(markdown, selected, evidence, documents, now = Date
   const text = `${fm.title}\n${fm.description}\n${fm.summary}\n${body.replace(/\[[^\]]*\]\(([^)]+)\)/g, (m) => m.slice(0, m.indexOf('](') + 1))}`;
   // Aggressive fail-closed guard; rephrase even negated claims. Semantics are
   // also reviewed below and always remain a human editorial check.
-  if (/\b(?:cheapest|lowest.price|sold.out|selling.fast|guaranteed|available.now|tickets.are.available|on.sale.now|presale.code|eligibility|will.(?:rise|fall|drop)|we|our|us)\b|[£$€]\s*\d|\b\d+(?:\.\d+)?\s*%/i.test(text)) fail('unsupported factual/commercial claim or voice');
+  // First-person plural is matched case-sensitively so the country "US" is not
+  // mistaken for "us". The matched phrase is named so a rejection is diagnosable.
+  const banned = text.match(/\b(?:cheapest|lowest.price|sold.out|selling.fast|guaranteed|available.now|tickets.are.available|on.sale.now|presale.code|eligibility|will.(?:rise|fall|drop))\b|[£$€]\s*\d|\b\d+(?:\.\d+)?\s*%/i)
+    || text.match(/\b(?:[Ww]e|[Oo]ur|us)\b/);
+  if (banned) fail(`unsupported factual/commercial claim or voice ("${banned[0]}")`);
   if (SCARCITY.test(text)) fail('scarcity or last-chance claim');
   if (STOCK.test(text)) fail('stock or machine-sounding phrasing');
   if (/^#{2,3} [^\n]*\?\s*$/m.test(body)) fail('rhetorical question heading');
@@ -476,15 +495,22 @@ export async function listEditorialPrs(gh) {
   fail('PR pagination exceeded safe limit');
 }
 
-export async function reserveTopic(gh, { slug, baseSha }) {
+export async function reserveTopic(gh, { slug, baseSha, retries = false }) {
   if (!SLUG_PATTERN.test(slug || '')) fail('invalid article slug');
   const branch = `${PREFIX}${slug}`;
-  try { await gh('GET', `/git/ref/heads/${branch}`); return null; }
-  catch (error) { if (error.status !== 404) throw error; }
-  // GitHub atomically creates a unique ref. Any collision/failure aborts before
-  // model spend. A failed paid draft keeps its branch, so it is never retried.
-  await gh('POST', '/git/refs', { ref: `refs/heads/${branch}`, sha: baseSha });
-  return branch;
+  // Named tour guides are an owner request, so a retained branch with no PR
+  // (an earlier failed run) may be followed by -2 and -3 attempts. Scheduled
+  // drafts never retry: a failed paid draft keeps its branch.
+  for (let attempt = 1; attempt <= (retries ? 3 : 1); attempt++) {
+    const name = attempt === 1 ? branch : `${branch}-${attempt}`;
+    try { await gh('GET', `/git/ref/heads/${name}`); continue; }
+    catch (error) { if (error.status !== 404) throw error; }
+    // GitHub atomically creates a unique ref. Any collision/failure aborts before
+    // model spend.
+    await gh('POST', '/git/refs', { ref: `refs/heads/${name}`, sha: baseSha });
+    return name;
+  }
+  return null;
 }
 
 export function prBody({ selected, issueNumber, repository, evidence, article, tests, mocked = false }) {

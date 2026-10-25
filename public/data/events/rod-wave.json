@@ -601,7 +601,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-brooklyn-barclays-center-10-28-2026/production/7367116",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-brooklyn-new-york-10-28-2026/event/300064D6DF405755",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -661,13 +661,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173375",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173375/Rod-Wave-tickets-Wed-Oct-28-2026-Barclays-Center",
     "stubhub_international_url": "https://www.stubhub.ie/rod-wave-brooklyn-tickets-10-28-2026/event/107469130",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-07-31T04:00:00Z",
-        "end": "2026-10-25T02:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

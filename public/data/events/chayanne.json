@@ -187,7 +187,7 @@
     "vividseats_url": "https://www.vividseats.com/chayanne-tickets-orlando-kia-center-10-31-2026/production/6924903",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-orlando-florida-10-31-2026/event/2200646CA0686AC5",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -250,11 +250,6 @@
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-24T14:00:00Z",
-        "end": "2026-10-24T21:00:00Z"
-      },
       {
         "name": "Flash Sale #7",
         "start": "2026-10-23T14:00:00Z",

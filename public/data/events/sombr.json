@@ -1290,7 +1290,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-nashville-bridgestone-arena-10-28-2026--concerts-alternative/production/6897932",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-nashville-tennessee-10-28-2026/event/1B006489894AA690",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1342,13 +1342,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874870",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874870/sombr-tickets-Wed-Oct-28-2026-Bridgestone-Arena",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-17T15:00:00Z",
-        "end": "2026-10-24T17:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

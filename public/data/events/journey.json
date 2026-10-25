@@ -1263,7 +1263,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-greenville-bon-secours-wellness-arena-11-14-2026--concerts-rock/production/7022065",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-greenville-south-carolina-11-14-2026/event/2D0064A4CA04DC98",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1313,13 +1313,6 @@
     "ticketmaster_discovery_event_id": "G5eVZ_1K1vuwb",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-15T14:00:00Z",
-        "end": "2026-10-24T21:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956782/Journey-tickets-Sat-Nov-14-2026-Bon-Secours-Wellness-Arena",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956782",
     "organizer_names": [

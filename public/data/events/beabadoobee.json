@@ -236,7 +236,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-vancouver-rogers-arena-10-28-2026--concerts-pop/production/7212205",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/beabadoobee-the-powerlines-tour-vancouver-british-columbia-10-28-2026/event/110064D2E525D7A1",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -292,13 +292,6 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-07-02T17:00:00Z",
-        "end": "2026-10-25T05:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8081057"
   },

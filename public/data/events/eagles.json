@@ -1051,7 +1051,7 @@
     "city": "Las Vegas",
     "country": "United States Of America",
     "venue": "Sphere",
-    "datetime_iso": "2027-01-09T03:00:00Z",
+    "datetime_iso": "2027-01-09T04:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "17006542EDDFB8F3",
     "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-08-2027/event/17006542EDDFB8F3",
@@ -1059,7 +1059,7 @@
     "vividseats_url": "https://www.vividseats.com/the-eagles-tickets-las-vegas-sphere-1-8-2027--concerts-adult-contemporary/production/7726271",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-08-2027/event/17006542EDDFB8F3",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

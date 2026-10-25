@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-23-02-2027/event/14006549B9C6C87F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,17 @@
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329176",
-    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-23-2-2027/event/107674938"
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-23-2-2027/event/107674938",
+    "organizer_names": [
+      "OCESA"
+    ],
+    "presales": [
+      {
+        "name": "Venta General Paquetes VIP",
+        "start": "2026-10-23T16:00:00Z",
+        "end": "2027-02-24T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-ciudad-de-mexico-1afzk4agkebeind",
@@ -84,7 +94,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-26-02-2027/event/14006549BA9ECA83",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -135,7 +145,17 @@
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329177",
-    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-26-2-2027/event/107674939"
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-26-2-2027/event/107674939",
+    "organizer_names": [
+      "OCESA"
+    ],
+    "presales": [
+      {
+        "name": "Venta General Paquetes VIP",
+        "start": "2026-10-23T16:00:00Z",
+        "end": "2027-02-27T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-ciudad-de-mexico-1afzk4agkebeina",
@@ -153,7 +173,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-28-02-2027/event/14006549BA9ECA85",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -204,7 +224,17 @@
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337104",
-    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-28-2-2027/event/107677953"
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-28-2-2027/event/107677953",
+    "organizer_names": [
+      "OCESA"
+    ],
+    "presales": [
+      {
+        "name": "Venta General Paquetes VIP",
+        "start": "2026-10-23T16:00:00Z",
+        "end": "2027-03-01T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-ciudad-de-mexico-1afzk4agkebign2",
@@ -222,7 +252,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-02-03-2027/event/14006549BAA0CA8F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -258,6 +288,26 @@
     "ticketmaster_discovery_event_id": "1AfZk4aGkeBIGn2",
     "timezone": "America/Mexico_City",
     "status": "announced",
-    "public_onsale_at": "2026-10-28T16:00:00Z"
+    "public_onsale_at": "2026-10-28T16:00:00Z",
+    "organizer_names": [
+      "OCESA"
+    ],
+    "presales": [
+      {
+        "name": "Preventa Banamex",
+        "start": "2026-10-27T16:00:00Z",
+        "end": "2026-10-28T04:00:00Z"
+      },
+      {
+        "name": "Preventa Banamex Paquetes VIP",
+        "start": "2026-10-27T16:00:00Z",
+        "end": "2026-10-28T04:00:00Z"
+      },
+      {
+        "name": "Venta General Paquetes VIP",
+        "start": "2026-10-28T16:00:00Z",
+        "end": "2027-03-03T03:00:00Z"
+      }
+    ]
   }
 ]

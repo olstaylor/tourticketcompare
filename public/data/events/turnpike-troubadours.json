@@ -129,7 +129,7 @@
     "vividseats_url": "https://www.vividseats.com/turnpike-troubadours-tickets-las-vegas-brooklyn-bowl---las-vegas-12-11-2026/production/7382778",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hooey-presents-turnpike-troubadours-las-vegas-nevada-12-11-2026/event/170064FCD16931A8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -180,6 +180,9 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8182281",
-    "stubhub_international_url": "https://www.stubhub.ie/turnpike-troubadours-las-vegas-tickets-12-11-2026/event/107501081"
+    "stubhub_international_url": "https://www.stubhub.ie/turnpike-troubadours-las-vegas-tickets-12-11-2026/event/107501081",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   }
 ]

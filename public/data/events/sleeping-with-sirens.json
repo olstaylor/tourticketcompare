@@ -358,7 +358,7 @@
     "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-ottawa-history-ottawa-10-31-2026/production/7163682",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sleeping-with-sirens-an-ending-in-ottawa-ontario-10-31-2026/event/310064CC8D973CAE",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -399,13 +399,6 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-18T14:00:00Z",
-        "end": "2026-10-25T02:00:00Z"
-      }
     ]
   },
   {

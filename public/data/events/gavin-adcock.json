@@ -281,7 +281,7 @@
     "vividseats_url": "https://www.vividseats.com/gavin-adcock-tickets-estero-hertz-arena-10-31-2026--concerts-country-and-folk/production/6789023",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-estero-florida-10-31-2026/event/0D00646981D54771",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -334,13 +334,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7806868/Gavin-Adcock-tickets-Sat-Oct-31-2026-Hertz-Arena",
     "organizer_names": [
       "AEG LIVE"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-03-20T14:00:00Z",
-        "end": "2026-10-25T02:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7806868"
   },

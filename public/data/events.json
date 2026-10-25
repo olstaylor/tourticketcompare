@@ -3017,13 +3017,13 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-28-2026--concerts-pop/production/6564706",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-28-2026/event/3B00643506BF83B6",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3B00643506BF83B6",
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-28-2026/event/3B00643506BF83B6",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-25",
         "availability_status": "on_sale",
         "discovery_event_id": "G5diZ_dfkRzCU"
       },
@@ -3075,13 +3075,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695893",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-28-2026/event/107083224",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695893/Harry-Styles-tickets-Wed-Oct-28-2026-Madison-Square-Garden",
-    "presales": [
-      {
-        "name": "VIP Packages",
-        "start": "2026-02-04T16:00:00Z",
-        "end": "2026-10-24T16:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -21738,7 +21731,7 @@
     "vividseats_url": "https://www.vividseats.com/ed-sheeran-tickets-tampa-raymond-james-stadium-11-7-2026--concerts-pop/production/6049744",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-tampa-florida-11-07-2026/event/0D006331D60A3A7A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0D006331D60A3A7A",
@@ -21798,13 +21791,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418601",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418601/Ed-Sheeran-tickets-Sat-Nov-7-2026-Raymond-James-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-tampa-tickets-11-7-2026/event/106957108",
-    "presales": [
-      {
-        "name": "Amex Reserved Tickets",
-        "start": "2025-09-26T14:00:00Z",
-        "end": "2026-10-25T02:00:00Z"
-      }
-    ],
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -39275,7 +39261,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-nashville-bridgestone-arena-10-28-2026--concerts-alternative/production/6897932",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-nashville-tennessee-10-28-2026/event/1B006489894AA690",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -39327,13 +39313,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874870",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874870/sombr-tickets-Wed-Oct-28-2026-Bridgestone-Arena",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-17T15:00:00Z",
-        "end": "2026-10-24T17:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -47829,7 +47808,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-tampa-benchmark-international-arena-10-25-2026--concerts-rb/production/6911979",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-tampa-florida-10-25-2026/event/0D00648EDE85D4C7",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -47894,11 +47873,6 @@
         "name": "$30 All-In Offer",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-10-26T00:00:00Z"
-      },
-      {
-        "name": "T-Mobile Reserved Seats",
-        "start": "2026-09-25T16:00:00Z",
-        "end": "2026-10-25T02:00:00Z"
       }
     ],
     "organizer_names": [
@@ -60888,7 +60862,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-vancouver-rogers-arena-11-7-2026/production/7394177",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/pentatonix-christmas-in-the-city-tour-vancouver-british-columbia-11-07-2026/event/110065058A055491",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -60949,11 +60923,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184455/Pentatonix-tickets-Sat-Nov-7-2026-Rogers-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/pentatonix-tickets-vancouver-rogers-arena-11-7-2026/event/107476100",
     "presales": [
-      {
-        "name": "Amex Reserved Tickets",
-        "start": "2026-08-14T17:00:00Z",
-        "end": "2026-10-25T05:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-08-14T17:00:00Z",
@@ -68160,7 +68129,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-chicago-aragon-ballroom-11-21-2026--concerts-rock/production/7325332",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-chicago-illinois-11-21-2026/event/040064E8F7D59A10",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -68213,11 +68182,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151249",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151249/Trivium-tickets-Sat-Nov-21-2026-Byline-Bank-Aragon-Ballroom",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-07-24T15:00:00Z",
-        "end": "2026-10-25T03:00:00Z"
-      },
       {
         "name": "In Flames VIP Packages Onsale",
         "start": "2026-07-24T15:00:00Z",
@@ -101202,7 +101166,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-cincinnati-ohio-11-21-2026/event/16006514CCD7E77F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -101247,11 +101211,6 @@
     "status": "on-sale",
     "presales": [
       {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T14:00:00Z",
-        "end": "2026-10-25T02:00:00Z"
-      },
-      {
         "name": "T-Mobile Concert Perks",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-11-08T03:00:00Z"
@@ -101283,7 +101242,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-denver-colorado-11-21-2026/event/1E006511C7C2B996",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -101327,11 +101286,6 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T16:00:00Z",
-        "end": "2026-10-25T04:00:00Z"
-      },
       {
         "name": "T-Mobile® Concert Perks",
         "start": "2026-09-18T16:00:00Z",
@@ -129541,7 +129495,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-los-angeles-greek-theatre---los-angeles-10-28-2026/production/7132602",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-28-2026/event/090064C3B5A6FC88",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -129601,13 +129555,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034349",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034349/Malcolm-Todd-tickets-Wed-Oct-28-2026-Greek-Theatre-Los-Angeles-CA",
     "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-los-angeles-tickets-10-28-2026/event/107417991",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-11T17:00:00Z",
-        "end": "2026-10-24T19:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -137877,7 +137824,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-10-31-2026--concerts-hard-rock/production/6709909",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-31-2026/event/170064550781E865",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -137937,13 +137884,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7759027",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7759027/Metallica-tickets-Sat-Oct-31-2026-Sphere",
     "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-31-2026/event/107120358",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-03-06T20:00:00Z",
-        "end": "2026-10-25T05:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -158101,7 +158041,7 @@
     "id": "tm-a-perfect-circle-2027-detroit-vv16fzkfma3zac8uka",
     "artist_slug": "a-perfect-circle",
     "artist_name": "A Perfect Circle",
-    "event_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle with special guest Puscifer",
     "city": "Detroit",
     "country": "United States Of America",
     "venue": "Fox Theatre Detroit",
@@ -158113,7 +158053,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-detroit-fox-theatre-detroit-4-25-2027/production/7623527",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-detroit-michigan-04-25-2027/event/08006537152DFC58",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -158180,7 +158120,7 @@
     "id": "tm-a-perfect-circle-2027-boston-vv1k7z_kr_g7rccc",
     "artist_slug": "a-perfect-circle",
     "artist_name": "A Perfect Circle",
-    "event_name": "A Perfect Circle with special guests The Cult",
+    "event_name": "A Perfect Circle with Special Guest The Cult",
     "city": "Boston",
     "country": "United States Of America",
     "venue": "MGM Music Hall at Fenway",
@@ -158192,7 +158132,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-boston-mgm-music-hall-at-fenway-4-27-2027/production/7623545",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-boston-massachusetts-04-27-2027/event/0100653799BEDB6D",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -158267,7 +158207,7 @@
     "id": "tm-a-perfect-circle-2027-uncasville-g5vvz_khq_fxg",
     "artist_slug": "a-perfect-circle",
     "artist_name": "A Perfect Circle",
-    "event_name": "A Perfect Circle w/ The Cult",
+    "event_name": "A Perfect Circle with special guests The Cult",
     "city": "Uncasville",
     "country": "United States Of America",
     "venue": "Mohegan Sun Arena",
@@ -158279,7 +158219,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-uncasville-mohegan-sun-arena-ct-4-28-2027/production/7623547",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-uncasville-connecticut-04-28-2027/event/1D006536DA648FB5",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -158422,7 +158362,7 @@
     "id": "tm-a-perfect-circle-2027-newark-vv1aezkfzgkecfwzd",
     "artist_slug": "a-perfect-circle",
     "artist_name": "A Perfect Circle",
-    "event_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle with Special Guest The Cult",
     "city": "Newark",
     "country": "United States Of America",
     "venue": "Prudential Center",
@@ -158434,7 +158374,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-newark-prudential-center-5-1-2027/production/7623553",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-newark-new-jersey-05-01-2027/event/02006538AD53DE3B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -159567,7 +159507,7 @@
     "id": "tm-a-perfect-circle-2027-chula-vista-vvg1iz_kl8jvkq",
     "artist_slug": "a-perfect-circle",
     "artist_name": "A Perfect Circle",
-    "event_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle with special guests The Cult",
     "city": "Chula Vista",
     "country": "United States Of America",
     "venue": "North Island Credit Union Amphitheatre",
@@ -159579,7 +159519,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-chula-vista-north-island-credit-union-amphitheatre-6-8-2027--concerts-alternative/production/7623607",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-chula-vista-california-06-08-2027/event/0A006537D09814DD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -161815,7 +161755,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-birmingham-legacy-arena-at-the-bjcc-10-31-2026--concerts-country-and-folk/production/6948985",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-birmingham-alabama-10-31-2026/event/20006490E5055B4E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -161866,13 +161806,6 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906852",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-01T14:00:00Z",
-        "end": "2026-10-25T03:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7906852/The-Red-Clay-Strays-tickets-Sat-Oct-31-2026-Legacy-Arena-at-The-BJCC",
     "organizer_names": [
       "AEG PRESENTS"
@@ -165215,7 +165148,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-la-vista-nebraska-10-31-2026/event/200064CA896016AD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -165252,11 +165185,6 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-19T15:00:00Z",
-        "end": "2026-10-25T03:00:00Z"
-      },
       {
         "name": "$20 Ticket Offer",
         "start": "2026-10-07T15:00:00Z",
@@ -183465,7 +183393,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-brooklyn-barclays-center-11-21-2026--concerts-rock/production/6690367",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-21-2026/event/30006449D4A6700C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -183522,13 +183450,6 @@
     "ticketmaster_discovery_event_id": "1AYZkoaGkdftEZG",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-02-26T16:00:00Z",
-        "end": "2026-10-25T02:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748321",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748321/The-Neighbourhood-tickets-Sat-Nov-21-2026-Barclays-Center",
     "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-brooklyn-tickets-11-21-2026/event/107121128",
@@ -217378,7 +217299,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-detroit-michigan-05-25-2027/event/0800649DE0392D8C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -217415,13 +217336,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-05-22T14:00:00Z",
-        "end": "2026-10-25T02:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -228505,7 +228419,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-brooklyn-barclays-center-10-28-2026/production/7367116",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-brooklyn-new-york-10-28-2026/event/300064D6DF405755",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -228565,13 +228479,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173375",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173375/Rod-Wave-tickets-Wed-Oct-28-2026-Barclays-Center",
     "stubhub_international_url": "https://www.stubhub.ie/rod-wave-brooklyn-tickets-10-28-2026/event/107469130",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-07-31T04:00:00Z",
-        "end": "2026-10-25T02:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -240473,7 +240380,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-greenville-bon-secours-wellness-arena-11-14-2026--concerts-rock/production/7022065",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-greenville-south-carolina-11-14-2026/event/2D0064A4CA04DC98",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -240523,13 +240430,6 @@
     "ticketmaster_discovery_event_id": "G5eVZ_1K1vuwb",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-15T14:00:00Z",
-        "end": "2026-10-24T21:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956782/Journey-tickets-Sat-Nov-14-2026-Bon-Secours-Wellness-Arena",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956782",
     "organizer_names": [
@@ -255364,7 +255264,7 @@
     "vividseats_url": "https://www.vividseats.com/gorillaz-tickets-oakland-oakland-arena-10-28-2026/production/6740703",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/live-105-presents-gorillaz-the-mountain-oakland-california-10-28-2026/event/1C00645AEBF3C46B",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -255424,13 +255324,6 @@
     "organizer_names": [
       "LIVE NATION MUSIC",
       "ANOTHER PLANET"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-03-09T17:00:00Z",
-        "end": "2026-10-24T19:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774765",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774765/Gorillaz-tickets-Wed-Oct-28-2026-Oakland-Arena",
@@ -270937,7 +270830,7 @@
     "vividseats_url": "https://www.vividseats.com/arcangel-tickets-boston-mgm-music-hall-at-fenway-10-28-2026--concerts-rap-hip-hop/production/7079496",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-boston-massachusetts-10-28-2026/event/010064ADC0FD59D3",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -270990,13 +270883,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977638/Arcangel-tickets-Wed-Oct-28-2026-MGM-Music-Hall-at-Fenway-Park",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-28T14:00:00Z",
-        "end": "2026-10-24T16:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977638"
   },
@@ -277409,7 +277295,7 @@
     "city": "Las Vegas",
     "country": "United States Of America",
     "venue": "Sphere",
-    "datetime_iso": "2027-01-09T03:00:00Z",
+    "datetime_iso": "2027-01-09T04:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "17006542EDDFB8F3",
     "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-08-2027/event/17006542EDDFB8F3",
@@ -277417,7 +277303,7 @@
     "vividseats_url": "https://www.vividseats.com/the-eagles-tickets-las-vegas-sphere-1-8-2027--concerts-adult-contemporary/production/7726271",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-08-2027/event/17006542EDDFB8F3",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -280638,7 +280524,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-vancouver-rogers-arena-10-28-2026--concerts-pop/production/7212205",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/beabadoobee-the-powerlines-tour-vancouver-british-columbia-10-28-2026/event/110064D2E525D7A1",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -280694,13 +280580,6 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-07-02T17:00:00Z",
-        "end": "2026-10-25T05:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8081057"
   },
@@ -283497,7 +283376,7 @@
     "vividseats_url": "https://www.vividseats.com/young-miko-tickets-miami-kaseya-center-10-28-2026--concerts-latin-music/production/6872922",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-miami-florida-10-28-2026/event/0D006483BCB1D6C1",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -283558,13 +283437,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860530/Young-Miko-tickets-Wed-Oct-28-2026-Kaseya-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-10T14:00:00Z",
-        "end": "2026-10-24T16:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7860530"
   },
@@ -284960,7 +284832,7 @@
     "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-ottawa-history-ottawa-10-31-2026/production/7163682",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sleeping-with-sirens-an-ending-in-ottawa-ontario-10-31-2026/event/310064CC8D973CAE",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -285001,13 +284873,6 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-18T14:00:00Z",
-        "end": "2026-10-25T02:00:00Z"
-      }
     ]
   },
   {
@@ -286256,7 +286121,7 @@
     "vividseats_url": "https://www.vividseats.com/chayanne-tickets-orlando-kia-center-10-31-2026/production/6924903",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-orlando-florida-10-31-2026/event/2200646CA0686AC5",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -286319,11 +286184,6 @@
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-24T14:00:00Z",
-        "end": "2026-10-24T21:00:00Z"
-      },
       {
         "name": "Flash Sale #7",
         "start": "2026-10-23T14:00:00Z",
@@ -289882,7 +289742,7 @@
     "vividseats_url": "https://www.vividseats.com/gavin-adcock-tickets-estero-hertz-arena-10-31-2026--concerts-country-and-folk/production/6789023",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-estero-florida-10-31-2026/event/0D00646981D54771",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -289935,13 +289795,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7806868/Gavin-Adcock-tickets-Sat-Oct-31-2026-Hertz-Arena",
     "organizer_names": [
       "AEG LIVE"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-03-20T14:00:00Z",
-        "end": "2026-10-25T02:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7806868"
   },
@@ -292006,7 +291859,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-23-02-2027/event/14006549B9C6C87F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -292057,7 +291910,17 @@
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329176",
-    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-23-2-2027/event/107674938"
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-23-2-2027/event/107674938",
+    "organizer_names": [
+      "OCESA"
+    ],
+    "presales": [
+      {
+        "name": "Venta General Paquetes VIP",
+        "start": "2026-10-23T16:00:00Z",
+        "end": "2027-02-24T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-ciudad-de-mexico-1afzk4agkebeind",
@@ -292075,7 +291938,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-26-02-2027/event/14006549BA9ECA83",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -292126,7 +291989,17 @@
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329177",
-    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-26-2-2027/event/107674939"
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-26-2-2027/event/107674939",
+    "organizer_names": [
+      "OCESA"
+    ],
+    "presales": [
+      {
+        "name": "Venta General Paquetes VIP",
+        "start": "2026-10-23T16:00:00Z",
+        "end": "2027-02-27T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-ciudad-de-mexico-1afzk4agkebeina",
@@ -292144,7 +292017,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-28-02-2027/event/14006549BA9ECA85",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -292195,7 +292068,17 @@
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337104",
-    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-28-2-2027/event/107677953"
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-28-2-2027/event/107677953",
+    "organizer_names": [
+      "OCESA"
+    ],
+    "presales": [
+      {
+        "name": "Venta General Paquetes VIP",
+        "start": "2026-10-23T16:00:00Z",
+        "end": "2027-03-01T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-ciudad-de-mexico-1afzk4agkebign2",
@@ -292213,7 +292096,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-02-03-2027/event/14006549BAA0CA8F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -292249,7 +292132,27 @@
     "ticketmaster_discovery_event_id": "1AfZk4aGkeBIGn2",
     "timezone": "America/Mexico_City",
     "status": "announced",
-    "public_onsale_at": "2026-10-28T16:00:00Z"
+    "public_onsale_at": "2026-10-28T16:00:00Z",
+    "organizer_names": [
+      "OCESA"
+    ],
+    "presales": [
+      {
+        "name": "Preventa Banamex",
+        "start": "2026-10-27T16:00:00Z",
+        "end": "2026-10-28T04:00:00Z"
+      },
+      {
+        "name": "Preventa Banamex Paquetes VIP",
+        "start": "2026-10-27T16:00:00Z",
+        "end": "2026-10-28T04:00:00Z"
+      },
+      {
+        "name": "Venta General Paquetes VIP",
+        "start": "2026-10-28T16:00:00Z",
+        "end": "2027-03-03T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beck-2026-washington-1avfz_fgkdleutu",
@@ -292267,7 +292170,7 @@
     "vividseats_url": "https://www.vividseats.com/beck-tickets-washington-dc-the-anthem-10-25-2026--concerts-alternative/production/6928697",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-washington-district-of-columbia-10-25-2026/event/1500648EEB08DA76",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -292318,7 +292221,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896088",
-    "stubhub_international_url": "https://www.stubhub.ie/beck-washington-tickets-10-25-2026/event/107671847"
+    "stubhub_international_url": "https://www.stubhub.ie/beck-washington-tickets-10-25-2026/event/107671847",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-beck-2026-durham-g5evz_fbugjju",
@@ -292336,7 +292242,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-durham-north-carolina-10-27-2026/event/2D00648EB6D6670D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -292371,7 +292277,17 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_FBUgJju",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-04-24T14:00:00Z",
+        "end": "2026-10-28T00:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beck-2026-asheville-g5evz_ftjugdd",
@@ -292389,7 +292305,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-asheville-north-carolina-10-28-2026/event/2D00648FDC34CEFB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -292424,7 +292340,10 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_FTjuGDD",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-beck-2026-atlanta-vvg1zz_fbor4w0",
@@ -292442,7 +292361,7 @@
     "vividseats_url": "https://www.vividseats.com/beck-tickets-atlanta-coca-cola-roxy-theatre-10-30-2026--concerts-alternative/production/6928703",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-atlanta-georgia-10-30-2026/event/0E00648E91795CA4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -292485,7 +292404,10 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_FBor4w0",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896100"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896100",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-beck-2026-nashville-g5viz_kspxnlj",
@@ -292503,7 +292425,7 @@
     "vividseats_url": "https://www.vividseats.com/beck-tickets-nashville-the-truth-10-31-2026--concerts-alternative/production/6789923",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-nashville-tennessee-10-31-2026/event/1B00646CD68A37DC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -292546,7 +292468,10 @@
     "ticketmaster_discovery_event_id": "G5viZ_kSpxNLj",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808848"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808848",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-beck-2026-spokane-z7r9jz1aae87y",
@@ -292564,7 +292489,7 @@
     "vividseats_url": "https://www.vividseats.com/beck-tickets-spokane-first-interstate-center-for-the-arts-11-6-2026/production/7622671",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe87Y",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -292607,7 +292532,10 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe87Y",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301187"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301187",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-beck-2026-seattle-vvg1hz_3rxx2pm",
@@ -292625,7 +292553,7 @@
     "vividseats_url": "https://www.vividseats.com/beck-tickets-seattle-benaroya-hall---taper-auditorium-11-8-2026/production/7558616",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-seattle-washington-11-08-2026/event/0F00652BE288F5B7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -292668,7 +292596,10 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_3Rxx2pM",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265867"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265867",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-beck-2026-vancouver-1aozk3a0babze8k",
@@ -292686,7 +292617,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/beck-ride-lonesome-tour-vancouver-british-columbia-11-09-2026/event/11006489918258F5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -292729,7 +292660,12 @@
     "ticketmaster_discovery_event_id": "1aoZk3a0babZe8k",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896101"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896101",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-beck-2026-portland-z7r9jz1a7xffk",
@@ -292747,7 +292683,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xfFk",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -292790,7 +292726,11 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xfFk",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896028"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896028",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dermot-kennedy-2026-west-perth-1avgz_agkmqzbyp",
@@ -292808,7 +292748,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/dermot-kennedy-the-weight-of-the-west-perth-14-11-2026/event/1300649DDDE18C16",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -292843,7 +292783,10 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_aGkMqzbYp",
     "timezone": "Australia/Perth",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MELLEN EVENTS"
+    ]
   },
   {
     "id": "tm-dermot-kennedy-2026-brisbane-1avgz_agksulpj1",
@@ -292861,7 +292804,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/dermot-kennedy-the-weight-of-the-brisbane-17-11-2026/event/1300649CCD7D698A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -292896,7 +292839,10 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_aGkSuLpJ1",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-dermot-kennedy-2026-christchurch-1ae8z_agkm57djw",
@@ -292914,7 +292860,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/dermot-kennedy-the-weight-of-the-christchurch-25-11-2026/event/2400649DCB103732",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -292957,7 +292903,10 @@
     "ticketmaster_discovery_event_id": "1Ae8Z_aGkM57djw",
     "timezone": "Pacific/Auckland",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326048"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326048",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-dermot-kennedy-2026-wellington-1ae8z_agkmdax8r",
@@ -292975,7 +292924,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/dermot-kennedy-the-weight-of-the-wellington-27-11-2026/event/2400649BBB16241E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -293010,7 +292959,10 @@
     },
     "ticketmaster_discovery_event_id": "1Ae8Z_aGkmDAx8r",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-dermot-kennedy-2026-auckland-1ae8z_agkranxjl",
@@ -293028,7 +292980,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/dermot-kennedy-the-weight-of-the-auckland-28-11-2026/event/2400649BC98E299F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -293071,7 +293023,10 @@
     "ticketmaster_discovery_event_id": "1Ae8Z_aGkRaNxJL",
     "timezone": "Pacific/Auckland",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173279"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173279",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-dermot-kennedy-2027-tramore-rd-cork-1kkzvpozga5u0fg",
@@ -293089,7 +293044,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/dermot-kennedy-tramore-rd-cork-23-06-2027/event/180065478BDA420C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -293124,7 +293079,10 @@
     },
     "ticketmaster_discovery_event_id": "1kkZvPozGA5U0FG",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-dermot-kennedy-2027-tramore-rd-cork-1kkzvpozga5mff_",
@@ -293142,7 +293100,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/dermot-kennedy-tramore-rd-cork-24-06-2027/event/180065478BDD4219",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -293177,7 +293135,10 @@
     },
     "ticketmaster_discovery_event_id": "1kkZvPozGA5MfF_",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-dermot-kennedy-2027-belfast-1azzk4kgkeju-cx",
@@ -293195,7 +293156,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/dermot-kennedy-belfast-26-06-2027/event/38006546A6DA13BE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -293238,7 +293199,10 @@
     "ticketmaster_discovery_event_id": "1AzZk4kGkeJU-CX",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/dermot-kennedy-tickets-belfast-ormeau-park-26-6-2027/event/107673343"
+    "stubhub_international_url": "https://www.stubhub.ie/dermot-kennedy-tickets-belfast-ormeau-park-26-6-2027/event/107673343",
+    "organizer_names": [
+      "BELSONIC LTD"
+    ]
   },
   {
     "id": "tm-turnpike-troubadours-2026-saint-augustine-z7r9jz1a7-v0a",
@@ -293370,7 +293334,7 @@
     "vividseats_url": "https://www.vividseats.com/turnpike-troubadours-tickets-las-vegas-brooklyn-bowl---las-vegas-12-11-2026/production/7382778",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hooey-presents-turnpike-troubadours-las-vegas-nevada-12-11-2026/event/170064FCD16931A8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -293421,6 +293385,9 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8182281",
-    "stubhub_international_url": "https://www.stubhub.ie/turnpike-troubadours-las-vegas-tickets-12-11-2026/event/107501081"
+    "stubhub_international_url": "https://www.stubhub.ie/turnpike-troubadours-las-vegas-tickets-12-11-2026/event/107501081",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   }
 ]

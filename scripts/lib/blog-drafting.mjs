@@ -179,6 +179,8 @@ export function buildEvidence(selected, { now = Date.now(), snapshot }) {
     overlap: selected.overlap.map((d) => ({ file: d.file, title: d.title, body: d.body.slice(0, 6500) })) };
 }
 
+// Discovery returns its own URL slug; the trailing /event/<ID> is what identifies the event.
+const eventUrlId = (u) => String(u || '').match(/\/event\/([0-9A-Za-z]+)\/?(?:[?#].*)?$/)?.[1]?.toLowerCase() || null;
 const sameInstant = (a, b) => Number.isFinite(Date.parse(a)) && Date.parse(a) === Date.parse(b);
 
 export function remoteMismatches(event, data, now) {
@@ -195,7 +197,7 @@ export function remoteMismatches(event, data, now) {
     ['venue', normalize(venue?.[0]?.name) !== normalize(event.venue)],
     ['city', normalize(venue?.[0]?.city?.name) !== normalize(event.city)],
     ['localDate', data?.dates?.start?.localDate !== event.date],
-    ['sourceUrl', data?.url !== event.sourceUrl],
+    ['sourceUrl', data?.url !== event.sourceUrl && (!eventUrlId(event.sourceUrl) || eventUrlId(data?.url) !== eventUrlId(event.sourceUrl))],
     ['status', !statuses.includes(data?.dates?.status?.code)],
     ['expiredDate', event.date < new Date(now).toISOString().slice(0, 10)],
     ['timezone', Boolean(event.timezone) && (data?.dates?.timezone || venue?.[0]?.timezone) !== event.timezone],

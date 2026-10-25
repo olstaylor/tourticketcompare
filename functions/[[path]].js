@@ -29,6 +29,7 @@ import { deriveArtistCities, deriveIndexableArtistCities, findArtistCity, artist
 import { deriveCityDatePrices } from "./_artist-city-prices.js";
 import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js";
 import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } from "./_artist-indexability.js";
+import { relatedArtistsBySharedCity } from "./_related-artists.js";
 import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, eventPriceComparable, EVENT_LIFECYCLE, PRESALE_PAGE_FRESH_DAYS, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
 import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_MAX_HORIZON_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
 import { deriveToursHub, TOURS_HUB_PATH, TOURS_HUB_YEAR } from "./_tours-hub.js";
@@ -1021,9 +1022,23 @@ async function resolveRoute(pathname, env) {
     const priced = artistEvents.some(
       (event) => event?.artist_slug === artist.slug && isUpcomingShow(event, nowMs) && eventPriceComparable(event, nowMs)
     );
+    // Sibling artists playing the same indexable cities (real shared cities
+    // only), so artist pages link to each other.
+    let relatedArtists = [];
+    if (hasUpcoming && artistPageIndexable(enrichedArtist, artistEvents, artist.slug)) {
+      const allEvents = await loadEvents(env);
+      const linkable = new Map();
+      for (const meta of artistsMeta) {
+        const slug = slugify(meta?.slug);
+        const name = findArtist(catalog, slug)?.name || meta?.name;
+        if (slug && name && artistPageIndexable(meta, allEvents) && artistHasUpcomingShow(allEvents, slug)) linkable.set(slug, name);
+      }
+      relatedArtists = relatedArtistsBySharedCity(allEvents, artist.slug, linkable);
+    }
     return {
       type: "artist",
       path,
+      relatedArtists,
       indexable: artistPageIndexable(enrichedArtist, artistEvents, artist.slug),
       title: artistPageTitle(artist, yearLabel, tourLabel, { priced }),
       // The authored description promises dates, which is right while the board
@@ -3132,10 +3147,22 @@ function renderArtistLocationLinksHtml(events, artist, lowestByShowId) {
 // [data-artist-extra-content] container so public/app.js can transplant the
 // server-rendered markup unchanged during hydration (guaranteeing parity)
 // instead of rebuilding it client-side.
-function renderArtistExtraContentHtml(model, events, artist, lowestByShowId) {
+function renderRelatedArtistsHtml(related, artist) {
+  if (!Array.isArray(related) || !related.length) return "";
+  const items = related
+    .map((item) => {
+      const cities = item.cities.slice(0, 3).map((city) => city.label).join(", ");
+      return `<li>${anchor(`${item.name} tickets`, `/artists/${item.slug}`)} <span class="muted">(${escapeHtml(cities)})</span></li>`;
+    })
+    .join("");
+  return `<section class="nested-panel related-artists"><h2>Also playing ${escapeHtml(artist.name)}'s cities</h2><p class="muted">Other artists with tracked dates in the same cities.</p><ul class="guide-link-list">${items}</ul></section>`;
+}
+
+function renderArtistExtraContentHtml(model, events, artist, lowestByShowId, related = []) {
   const inner = [
     renderArtistTourSummariesHtml(model.tours, artist),
-    renderArtistLocationLinksHtml(events, artist, lowestByShowId)
+    renderArtistLocationLinksHtml(events, artist, lowestByShowId),
+    renderRelatedArtistsHtml(related, artist)
   ].join("");
   return `<div data-artist-extra-content>${inner}</div>`;
 }
@@ -7598,7 +7625,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
         .filter((row) => row.lowest)
         .map((row) => [row.showId, row.lowest])
     );
-    const artistExtraContentHtml = renderArtistExtraContentHtml(contentModel, events, artist, artistLowestByShowId);
+    const artistExtraContentHtml = renderArtistExtraContentHtml(contentModel, events, artist, artistLowestByShowId, route.relatedArtists);
     const reviewNoticeHtml = isIndexableArtist || !shows.length
       ? ""
       : `<section class="nested-panel review-notice"><p class="disclosure-note">This artist page is currently under review. Event details are shown for reference while ticket links are checked.</p></section>`;

@@ -2358,6 +2358,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7759026",
+        "url": "https://www.ticketnetwork.com/en/p/7759026",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1FAYv048rvZ72a6e",
@@ -2365,7 +2372,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7759026"
   },
   {
     "id": "tm-metallica-2026-las-vegas-1fayv048rvz72a6k",

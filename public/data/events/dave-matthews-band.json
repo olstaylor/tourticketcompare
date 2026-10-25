@@ -53,6 +53,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8195877",
+        "url": "https://www.ticketnetwork.com/en/p/8195877",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZJ8x",
@@ -61,7 +68,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195877/Dave-Matthews-Band-tickets-Wed-Nov-4-2026-Kohl-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8195877"
   },
   {
     "id": "tm-dave-matthews-band-2026-nashville-g5viz_2znwmqm",
@@ -117,6 +125,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8195878",
+        "url": "https://www.ticketnetwork.com/en/p/8195878",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_2ZnWmQM",
@@ -125,7 +140,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195878/Dave-Matthews-Band-tickets-Fri-Nov-6-2026-Bridgestone-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8195878"
   },
   {
     "id": "tm-dave-matthews-band-2026-chicago-vvg18z_cde9wdz",
@@ -188,6 +204,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8195879",
+        "url": "https://www.ticketnetwork.com/en/p/8195879",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_CDE9wdz",
@@ -197,7 +220,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/dave-matthews-band-chicago-tickets-11-7-2026/event/107482398",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8195879"
   },
   {
     "id": "tm-dave-matthews-band-2026-providence-vvg17z_2piw04c",
@@ -253,6 +277,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8195880",
+        "url": "https://www.ticketnetwork.com/en/p/8195880",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_2pIw04C",
@@ -261,7 +292,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195880/Dave-Matthews-Band-tickets-Mon-Nov-9-2026-Amica-Mutual-Pavilion",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8195880"
   },
   {
     "id": "tm-dave-matthews-band-2026-baltimore-1ka8vpevgauw1qw",
@@ -317,6 +349,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8195881",
+        "url": "https://www.ticketnetwork.com/en/p/8195881",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kA8vPevGAuW1qW",
@@ -325,7 +364,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195881/Dave-Matthews-Band-tickets-Tue-Nov-10-2026-CFG-Bank-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8195881"
   },
   {
     "id": "tm-dave-matthews-band-2026-new-york-g5diz_2njwaf8",
@@ -388,6 +428,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8195882",
+        "url": "https://www.ticketnetwork.com/en/p/8195882",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_2NJWaf8",
@@ -397,7 +444,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/dave-matthews-band-new-york-tickets-11-12-2026/event/107482399",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8195882"
   },
   {
     "id": "tm-dave-matthews-band-2026-new-york-g5diz_2njdtfa",
@@ -460,6 +508,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8195883",
+        "url": "https://www.ticketnetwork.com/en/p/8195883",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_2NJDtfA",
@@ -469,6 +524,7 @@
     "stubhub_international_url": "https://www.stubhub.ie/dave-matthews-band-new-york-tickets-11-13-2026/event/107490083",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8195883"
   }
 ]

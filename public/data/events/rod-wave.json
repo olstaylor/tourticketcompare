@@ -402,11 +402,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8063451",
-        "url": "https://www.ticketnetwork.com/en/p/8063451",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8063451",
@@ -419,7 +419,7 @@
     "ticketmaster_discovery_event_id": "17AOv0G6uky4i7Y",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8063451",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8063451/Rod-Wave-tickets-Fri-Oct-23-2026-PPG-Paints-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"

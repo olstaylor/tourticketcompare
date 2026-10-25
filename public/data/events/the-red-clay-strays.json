@@ -673,11 +673,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7599586",
-        "url": "https://www.ticketnetwork.com/en/p/7599586",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107130358",
@@ -697,7 +697,7 @@
     "ticketmaster_discovery_event_id": "G5viZbUBiwctj",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7599586",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/the-red-clay-strays-nashville-tickets-10-23-2026/event/107130358",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7599586/The-Red-Clay-Strays-tickets-Fri-Oct-23-2026-Bridgestone-Arena",
     "organizer_names": [

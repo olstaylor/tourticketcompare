@@ -1143,12 +1143,20 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8310576",
+        "url": "https://www.ticketnetwork.com/en/p/8310576",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7oAM",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310576/Yacht-Rock-Revue-tickets-Fri-Feb-26-2027-Georgia-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310576/Yacht-Rock-Revue-tickets-Fri-Feb-26-2027-Georgia-Theatre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310576"
   },
   {
     "id": "tm-yacht-rock-revue-2027-atlanta-z7r9jz1aa7oau",
@@ -1204,11 +1212,19 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8312038",
+        "url": "https://www.ticketnetwork.com/en/p/8312038",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7oAU",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312038/Yacht-Rock-Revue-tickets-Sat-Feb-27-2027-The-Eastern-GA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312038/Yacht-Rock-Revue-tickets-Sat-Feb-27-2027-The-Eastern-GA",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312038"
   }
 ]

@@ -1868,6 +1868,13 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8090606",
+        "url": "https://www.ticketnetwork.com/en/p/8090606",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17a8v0G65QFKdO_",
@@ -1876,7 +1883,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090606/BTS-tickets-Sat-Feb-20-2027-Accor-Stadium",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090606"
   },
   {
     "id": "tm-bts-2027-sydney-olympic-park-17a8v0g65qfik-s",

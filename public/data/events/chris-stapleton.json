@@ -53,6 +53,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7668749",
+        "url": "https://www.ticketnetwork.com/en/p/7668749",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk8PGkdQLn9V",
@@ -62,7 +69,8 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668749"
   },
   {
     "id": "tm-chris-stapleton-2026-nashville-g5viz_kleeols",

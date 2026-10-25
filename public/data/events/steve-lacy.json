@@ -498,11 +498,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8199799",
-        "url": "https://www.ticketnetwork.com/en/p/8199799",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8199799",
@@ -515,7 +515,7 @@
     "ticketmaster_discovery_event_id": "G5eVZ_8CI0_um",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199799",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199799/Steve-Lacy-tickets-Fri-Oct-23-2026-Red-Hat-Amphitheater",
     "organizer_names": [
       "LIVE NATION MUSIC"

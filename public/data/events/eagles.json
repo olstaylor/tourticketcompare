@@ -1097,6 +1097,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8332074",
+        "url": "https://www.ticketnetwork.com/en/p/8332074",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk4eGkdcMDNS",
@@ -1138,7 +1145,8 @@
         "start": "2026-10-30T17:00:00Z",
         "end": "2026-12-30T06:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332074"
   },
   {
     "id": "tm-eagles-2027-las-vegas-1a9zk4egkdmahp8",
@@ -1194,6 +1202,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8332075",
+        "url": "https://www.ticketnetwork.com/en/p/8332075",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk4eGkdmAhP8",
@@ -1235,6 +1250,7 @@
         "start": "2026-10-30T17:00:00Z",
         "end": "2026-12-31T06:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332075"
   }
 ]

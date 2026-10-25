@@ -114,12 +114,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7752708",
+        "url": "https://www.ticketnetwork.com/en/p/7752708",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_A29LQ83",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7752708/CeCe-Winans-tickets-Sat-Oct-24-2026-Smoothie-King-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7752708/CeCe-Winans-tickets-Sat-Oct-24-2026-Smoothie-King-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7752708"
   },
   {
     "id": "tm-cece-winans-2026-orlando-16xzkokj9za57fca",
@@ -175,12 +183,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7752709",
+        "url": "https://www.ticketnetwork.com/en/p/7752709",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16xZkoKJ9ZA57FCA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7752709/CeCe-Winans-tickets-Tue-Oct-27-2026-Addition-Financial-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7752709/CeCe-Winans-tickets-Tue-Oct-27-2026-Addition-Financial-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7752709"
   },
   {
     "id": "tm-cece-winans-2026-north-charleston-g5evz_a3s0b-f",
@@ -236,12 +252,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7752710",
+        "url": "https://www.ticketnetwork.com/en/p/7752710",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_A3s0B-f",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7752710/CeCe-Winans-tickets-Wed-Oct-28-2026-North-Charleston-Coliseum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7752710/CeCe-Winans-tickets-Wed-Oct-28-2026-North-Charleston-Coliseum",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7752710"
   },
   {
     "id": "tm-cece-winans-2026-tampa-vvg1vz_a3ceusx",
@@ -297,12 +321,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7752712",
+        "url": "https://www.ticketnetwork.com/en/p/7752712",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_A3CEUsx",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7752712/CeCe-Winans-tickets-Thu-Oct-29-2026-The-Yuengling-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7752712/CeCe-Winans-tickets-Thu-Oct-29-2026-The-Yuengling-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7752712"
   },
   {
     "id": "tm-cece-winans-2026-jacksonville-1kfov047gag6hdu",
@@ -358,6 +390,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7752713",
+        "url": "https://www.ticketnetwork.com/en/p/7752713",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kFOv047GAG6Hdu",
@@ -366,7 +405,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7752713/CeCe-Winans-tickets-Fri-Oct-30-2026-VyStar-Veterans-Memorial-Arena",
     "organizer_names": [
       "TRANSPARENT PRODUCTIONS"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7752713"
   },
   {
     "id": "tm-cece-winans-2026-seattle-vvg1hz_c5fehuk",
@@ -422,6 +462,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8121702",
+        "url": "https://www.ticketnetwork.com/en/p/8121702",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_C5fEhUk",
@@ -430,7 +477,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8121702/CeCe-Winans-tickets-Thu-Dec-10-2026-Wamu-Theater-At-Lumen-Field-Event-Center",
     "organizer_names": [
       "TRANSPARENT PRODUCTIONS"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8121702"
   },
   {
     "id": "tm-cece-winans-2026-portland-z7r9jz1a7j6jj",
@@ -486,12 +534,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8121635",
+        "url": "https://www.ticketnetwork.com/en/p/8121635",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7J6jJ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8121635/CeCe-Winans-tickets-Fri-Dec-11-2026-Arlene-Schnitzer-Concert-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8121635/CeCe-Winans-tickets-Fri-Dec-11-2026-Arlene-Schnitzer-Concert-Hall",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8121635"
   },
   {
     "id": "tm-cece-winans-2026-phoenix-17k8v0g6ch4_jyt",
@@ -547,6 +603,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8121699",
+        "url": "https://www.ticketnetwork.com/en/p/8121699",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G6Ch4_JYt",
@@ -555,7 +618,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8121699/CeCe-Winans-tickets-Tue-Dec-15-2026-Arizona-Financial-Theatre",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8121699"
   },
   {
     "id": "tm-cece-winans-2026-bakersfield-z7r9jz1a7jfpa",
@@ -611,12 +675,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8124361",
+        "url": "https://www.ticketnetwork.com/en/p/8124361",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JFpA",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8124361/CeCe-Winans-tickets-Wed-Dec-16-2026-Dignity-Health-Theater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8124361/CeCe-Winans-tickets-Wed-Dec-16-2026-Dignity-Health-Theater",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8124361"
   },
   {
     "id": "tm-cece-winans-2026-los-angeles-z7r9jz1a7jfjs",
@@ -725,6 +797,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8124362",
+        "url": "https://www.ticketnetwork.com/en/p/8124362",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_Cr1cMNb",
@@ -733,7 +812,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8124362/CeCe-Winans-tickets-Fri-Dec-18-2026-Sacramento-Memorial-Auditorium",
     "organizer_names": [
       "TRANSPARENT PRODUCTIONS"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8124362"
   },
   {
     "id": "tm-cece-winans-2027-nashville-z7r9jz1aaebzs",
@@ -789,12 +869,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7854204",
+        "url": "https://www.ticketnetwork.com/en/p/7854204",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAebZS",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "9999-12-31T06:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7854204/CeCe-Winans-tickets-Sun-Mar-21-2027-Grand-Ole-Opry-House"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7854204/CeCe-Winans-tickets-Sun-Mar-21-2027-Grand-Ole-Opry-House",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7854204"
   }
 ]

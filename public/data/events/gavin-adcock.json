@@ -106,12 +106,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7808188",
+        "url": "https://www.ticketnetwork.com/en/p/7808188",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Y8f",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808188/Gavin-Adcock-tickets-Sat-Oct-24-2026-Koka-Booth-Amphitheatre-At-Regency-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808188/Gavin-Adcock-tickets-Sat-Oct-24-2026-Koka-Booth-Amphitheatre-At-Regency-Park",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808188"
   },
   {
     "id": "tm-gavin-adcock-2026-charlotte-g5evz_kjjq1qk",
@@ -167,6 +175,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7806866",
+        "url": "https://www.ticketnetwork.com/en/p/7806866",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_kJjQ1qK",
@@ -175,7 +190,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7806866/Gavin-Adcock-tickets-Thu-Oct-29-2026-Bojangles-Coliseum",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7806866"
   },
   {
     "id": "tm-gavin-adcock-2026-savannah-vvg1zz_kjxemhw",
@@ -231,6 +247,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7806867",
+        "url": "https://www.ticketnetwork.com/en/p/7806867",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_kJxeMHw",
@@ -239,7 +262,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7806867/Gavin-Adcock-tickets-Fri-Oct-30-2026-Enmarket-Arena",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7806867"
   },
   {
     "id": "tm-gavin-adcock-2026-estero-vvg1vz_kjvgfqs",
@@ -295,6 +319,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7806868",
+        "url": "https://www.ticketnetwork.com/en/p/7806868",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_kJvgfqs",
@@ -310,7 +341,8 @@
         "start": "2026-03-20T14:00:00Z",
         "end": "2026-10-25T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7806868"
   },
   {
     "id": "tm-gavin-adcock-2026-boston-vv177z_kgkmr1ooo",
@@ -373,6 +405,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7806869",
+        "url": "https://www.ticketnetwork.com/en/p/7806869",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_kGkmR1OOO",
@@ -382,7 +421,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/gavin-adcock-boston-tickets-11-6-2026/event/107449616",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7806869"
   },
   {
     "id": "tm-gavin-adcock-2026-reading-vv1aezkotgkeivbwv",
@@ -554,12 +594,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7806928",
+        "url": "https://www.ticketnetwork.com/en/p/7806928",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Yut",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7806928/Gavin-Adcock-tickets-Sat-Nov-14-2026-Van-Andel-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7806928/Gavin-Adcock-tickets-Sat-Nov-14-2026-Van-Andel-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7806928"
   },
   {
     "id": "tm-gavin-adcock-2026-houston-g5diz_3mqabzl",
@@ -671,12 +719,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7927241",
+        "url": "https://www.ticketnetwork.com/en/p/7927241",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PaaS",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7927241/Gavin-Adcock-tickets-Thu-Dec-10-2026-The-Theater-at-Virgin-Hotels-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7927241/Gavin-Adcock-tickets-Thu-Dec-10-2026-The-Theater-at-Virgin-Hotels-Las-Vegas",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7927241"
   },
   {
     "id": "tm-gavin-adcock-2027-lexington-1apzk4egkdqsq_b",
@@ -732,6 +788,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8318410",
+        "url": "https://www.ticketnetwork.com/en/p/8318410",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZk4eGkdQSq_B",
@@ -747,7 +810,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-26T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318410"
   },
   {
     "id": "tm-gavin-adcock-2027-saint-louis-1a-zk46gkdfwuei",
@@ -929,13 +993,21 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7807220",
+        "url": "https://www.ticketnetwork.com/en/p/7807220",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Y8-",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7807220/Gavin-Adcock-tickets-Sat-Apr-10-2027-The-Sandy-and-John-Black-Pavilion-at-Ole-Miss",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7807220"
   },
   {
     "id": "tm-gavin-adcock-2027-salem-vv1avzk4kgkdddflu",
@@ -991,6 +1063,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8318413",
+        "url": "https://www.ticketnetwork.com/en/p/8318413",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4kGkdddFLu",
@@ -1006,7 +1085,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-04-23T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318413"
   },
   {
     "id": "tm-gavin-adcock-2027-saint-augustine-z7r9jz1aa76gg",
@@ -1168,6 +1248,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8318414",
+        "url": "https://www.ticketnetwork.com/en/p/8318414",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_f9nlu8w",
@@ -1188,7 +1275,8 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-05-08T17:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318414"
   },
   {
     "id": "tm-gavin-adcock-2027-richmond-z7r9jz1aa76gm",
@@ -1244,12 +1332,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8319557",
+        "url": "https://www.ticketnetwork.com/en/p/8319557",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA76GM",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319557/Gavin-Adcock-tickets-Thu-May-13-2027-Virginia-Credit-Union-LIVE-at-Richmond-Raceway"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319557/Gavin-Adcock-tickets-Thu-May-13-2027-Virginia-Credit-Union-LIVE-at-Richmond-Raceway",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319557"
   },
   {
     "id": "tm-gavin-adcock-2027-atlantic-city-vv17fz_fgkbsdawx",
@@ -1305,6 +1401,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8318415",
+        "url": "https://www.ticketnetwork.com/en/p/8318415",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_fGkBSDawx",
@@ -1317,7 +1420,8 @@
         "start": "2026-10-15T19:00:00Z",
         "end": "2027-05-08T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318415"
   },
   {
     "id": "tm-gavin-adcock-2027-baltimore-z7r9jz1aa76ue",
@@ -1373,12 +1477,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8319558",
+        "url": "https://www.ticketnetwork.com/en/p/8319558",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA76ue",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319558/Gavin-Adcock-tickets-Sat-May-15-2027-Pier-Six-Pavilion"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319558/Gavin-Adcock-tickets-Sat-May-15-2027-Pier-Six-Pavilion",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319558"
   },
   {
     "id": "tm-gavin-adcock-2027-helotes-z7r9jz1aa76gz",
@@ -1434,12 +1546,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8319559",
+        "url": "https://www.ticketnetwork.com/en/p/8319559",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA76Gz",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319559/Gavin-Adcock-tickets-Thu-May-27-2027-John-T-Floore-Country-Store"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319559/Gavin-Adcock-tickets-Thu-May-27-2027-John-T-Floore-Country-Store",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319559"
   },
   {
     "id": "tm-gavin-adcock-2027-helotes-z7r9jz1aa76gy",
@@ -1495,11 +1615,19 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8319560",
+        "url": "https://www.ticketnetwork.com/en/p/8319560",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA76Gy",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319560/Gavin-Adcock-tickets-Fri-May-28-2027-John-T-Floore-Country-Store"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319560/Gavin-Adcock-tickets-Fri-May-28-2027-John-T-Floore-Country-Store",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319560"
   }
 ]

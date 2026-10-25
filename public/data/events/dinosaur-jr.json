@@ -652,11 +652,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8105620",
+        "url": "https://www.ticketnetwork.com/en/p/8105620",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_ul9tuc_",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8105620"
   },
   {
     "id": "tm-dinosaur-jr-2026-seattle-vvg1hz_ul9nqcx",

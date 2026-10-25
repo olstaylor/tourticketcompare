@@ -2104,6 +2104,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8338720",
+        "url": "https://www.ticketnetwork.com/en/p/8338720",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vP4FGACgpjm",
@@ -2112,7 +2119,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338720/Zach-Bryan-tickets-Tue-Jul-27-2027-BC-Place-Stadium",
     "organizer_names": [
       "AEG LIVE (CANADA)"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338720"
   },
   {
     "id": "tm-zach-bryan-2027-edmonton-16v7z_43bg7l9tm",
@@ -2278,12 +2286,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8338574",
+        "url": "https://www.ticketnetwork.com/en/p/8338574",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7PvJ",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338574/Zach-Bryan-tickets-Fri-May-7-2027-Soldier-Field"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338574/Zach-Bryan-tickets-Fri-May-7-2027-Soldier-Field",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338574"
   },
   {
     "id": "tm-zach-bryan-2027-chicago-z7r9jz1aa7ka-",
@@ -2339,12 +2355,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8322381",
+        "url": "https://www.ticketnetwork.com/en/p/8322381",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7Ka-",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322381/Zach-Bryan-tickets-Sat-May-8-2027-Soldier-Field"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322381/Zach-Bryan-tickets-Sat-May-8-2027-Soldier-Field",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322381"
   },
   {
     "id": "tm-zach-bryan-2027-baltimore-z7r9jz1aa7kav",
@@ -2400,12 +2424,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8322382",
+        "url": "https://www.ticketnetwork.com/en/p/8322382",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7KaV",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322382/Zach-Bryan-tickets-Tue-May-18-2027-MT-Bank-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322382/Zach-Bryan-tickets-Tue-May-18-2027-MT-Bank-Stadium",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322382"
   },
   {
     "id": "tm-zach-bryan-2027-nashville-z7r9jz1aa7k17",
@@ -2461,11 +2493,19 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8322383",
+        "url": "https://www.ticketnetwork.com/en/p/8322383",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7K17",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322383/Zach-Bryan-tickets-Sat-May-22-2027-New-Nissan-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322383/Zach-Bryan-tickets-Sat-May-22-2027-New-Nissan-Stadium",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322383"
   }
 ]

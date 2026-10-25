@@ -106,6 +106,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7860529",
+        "url": "https://www.ticketnetwork.com/en/p/7860529",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x73v",
@@ -114,7 +121,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860529/Young-Miko-tickets-Sat-Oct-24-2026-Toyota-Center-TX",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7860529"
   },
   {
     "id": "tm-young-miko-2026-miami-vvg1vz_fchiqhv",
@@ -177,6 +185,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7860530",
+        "url": "https://www.ticketnetwork.com/en/p/7860530",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_FCHiqhv",
@@ -193,7 +208,8 @@
         "start": "2026-04-10T14:00:00Z",
         "end": "2026-10-24T16:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7860530"
   },
   {
     "id": "tm-young-miko-2026-orlando-1axzk3dgkeha7uv",
@@ -256,6 +272,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7860531",
+        "url": "https://www.ticketnetwork.com/en/p/7860531",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk3dGkeHa7UV",
@@ -272,7 +295,8 @@
         "start": "2026-04-10T14:00:00Z",
         "end": "2026-10-25T16:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7860531"
   },
   {
     "id": "tm-young-miko-2026-atlanta-vvg1zz_f1gfmts",
@@ -335,6 +359,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7860532",
+        "url": "https://www.ticketnetwork.com/en/p/7860532",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_F1gFmtS",
@@ -351,7 +382,8 @@
         "start": "2026-04-10T14:00:00Z",
         "end": "2026-10-27T16:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7860532"
   },
   {
     "id": "tm-young-miko-2026-charlotte-g5evz_fffmq2n",
@@ -407,6 +439,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7860533",
+        "url": "https://www.ticketnetwork.com/en/p/7860533",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_FFFmQ2n",
@@ -422,7 +461,8 @@
         "start": "2026-04-10T14:00:00Z",
         "end": "2026-10-28T16:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7860533"
   },
   {
     "id": "tm-young-miko-2026-philadelphia-1ayzk3egkdcdzmm",
@@ -485,6 +525,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7860534",
+        "url": "https://www.ticketnetwork.com/en/p/7860534",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk3eGkdcdZMm",
@@ -501,7 +548,8 @@
         "start": "2026-04-10T14:00:00Z",
         "end": "2026-10-31T16:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7860534"
   },
   {
     "id": "tm-young-miko-2026-brooklyn-16dzz_f13g7dsys",
@@ -564,6 +612,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7860535",
+        "url": "https://www.ticketnetwork.com/en/p/7860535",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dZZ_F13G7DSYs",
@@ -580,6 +635,7 @@
         "start": "2026-04-10T14:00:00Z",
         "end": "2026-11-01T17:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7860535"
   }
 ]

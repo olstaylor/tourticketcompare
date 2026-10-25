@@ -1,5 +1,7 @@
-// Artists who are playing the same indexable cities as a given artist.
+// Artists who are playing the same cities as a given artist.
 //
+// Takes the lightweight events-index.json rows (city, country and date fields
+// only; no provider fields), so it never needs the multi-megabyte dataset.
 // Derived only from tracked events and the editorial indexable-artist set, so
 // every link is a real shared city, never an invented "fans also like". Used
 // for the artist page's "Also playing these cities" block, which gives each
@@ -18,7 +20,7 @@ const norm = (value) => String(value || "").toLowerCase().trim().replace(/[^a-z0
  */
 export function relatedArtistsBySharedCity(events, artistSlug, linkable, limit = 6) {
   const self = norm(artistSlug);
-  const cities = deriveCities(events).filter((city) => city.indexable && city.artistSlugs.includes(self));
+  const cities = deriveCities(events).filter((city) => city.artistSlugs.includes(self));
   const byArtist = new Map();
   for (const city of cities) {
     for (const slug of city.artistSlugs) {

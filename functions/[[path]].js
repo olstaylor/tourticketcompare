@@ -1026,7 +1026,9 @@ async function resolveRoute(pathname, env) {
     // only), so artist pages link to each other.
     let relatedArtists = [];
     if (hasUpcoming && artistPageIndexable(enrichedArtist, artistEvents, artist.slug)) {
-      const allEvents = await loadEvents(env);
+      // The 1.5MB search index, not the full dataset: artist routes stay off
+      // events.json (scripts/renderer-asset-cache.test.mjs).
+      const allEvents = await loadJsonAsset(env, "/data/events-index.json", Array.isArray, []);
       const linkable = new Map();
       for (const meta of artistsMeta) {
         const slug = slugify(meta?.slug);

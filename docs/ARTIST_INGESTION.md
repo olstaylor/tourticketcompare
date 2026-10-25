@@ -53,9 +53,11 @@ ignored, so the file doubles as a record of what was asked for.
   with no tour on sale: rumoured tours (`reason: "rumoured"`, with the report
   in `source_url`) and big names between tours. They get no page while they
   have no dates. Each day `scripts/artist-watchlist.mjs` asks Ticketmaster how
-  many upcoming events each open entry has; one with 8 or more (a tour, not a
-  festival slot) goes **first** in the day's list, ahead of requests, and must
-  pass the full screen (no relaxed thresholds). Check with
+  many upcoming events each open entry has; one with 3 or more (a first
+  announcement, not a one-off festival slot) goes **first** in the day's list,
+  ahead of requests, flagged as requested: identity, denylist, music
+  classification and page checks apply, the 8-event volume floor does not
+  (a fresh stadium run lists only 3-6 dates). Check with
   `npm run artists:watchlist:check`. A name sits in the watchlist or in the
   requests file, never both.
 - **Automatic discovery.** The same two jobs build the day's list in this

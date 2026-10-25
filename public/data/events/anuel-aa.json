@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "30006514D50084DC",
     "ticketmaster_url": "https://www.ticketmaster.com/anuel-aa-belmont-park-new-york-11-06-2026/event/30006514D50084DC",
     "seatgeek_url": "https://seatgeek.com/anuel-aa-tickets/elmont-new-york-ubs-arena-2026-11-06-8-pm/concert/18579489",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/anuel-aa-tickets-elmont-ubs-arena-11-6-2026/production/7537927",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/anuel-aa-belmont-park-new-york-11-06-2026/event/30006514D50084DC",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7537927,
+        "url": "https://www.vividseats.com/anuel-aa-tickets-elmont-ubs-arena-11-6-2026/production/7537927",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

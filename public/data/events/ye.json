@@ -37,7 +37,7 @@
         "event_id": 7507742,
         "url": "https://www.vividseats.com/kanye-west-tickets-houston-reliant-stadium-10-31-2026/production/7507742",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -198,7 +198,7 @@
         "event_id": 7507748,
         "url": "https://www.vividseats.com/kanye-west-tickets-glendale-state-farm-stadium-11-21-2026/production/7507748",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -221,12 +221,20 @@
         "verified": true,
         "last_verified_at": "2026-10-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8244532",
+        "url": "https://www.ticketnetwork.com/en/p/8244532",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv08U",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244532/Kanye-West-tickets-Sat-Nov-21-2026-State-Farm-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/ye-glendale-tickets-11-21-2026/event/107666750"
+    "stubhub_international_url": "https://www.stubhub.ie/ye-glendale-tickets-11-21-2026/event/107666750",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244532"
   }
 ]

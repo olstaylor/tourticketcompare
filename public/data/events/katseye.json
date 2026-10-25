@@ -109,7 +109,7 @@
         "event_id": 7027947,
         "url": "https://www.vividseats.com/katseye-tickets-elmont-ubs-arena-10-24-2026--concerts-pop/production/7027947",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -165,7 +165,7 @@
         "event_id": 7061391,
         "url": "https://www.vividseats.com/katseye-tickets-elmont-ubs-arena-10-25-2026/production/7061391",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -221,7 +221,7 @@
         "event_id": 7027949,
         "url": "https://www.vividseats.com/katseye-tickets-boston-td-garden-10-28-2026--concerts-pop/production/7027949",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -244,6 +244,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7961636",
+        "url": "https://www.ticketnetwork.com/en/p/7961636",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1EilXli",
@@ -253,7 +260,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/katseye-boston-tickets-10-28-2026/event/107169128",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961636"
   },
   {
     "id": "tm-katseye-2026-montreal-17g8v0g61xoe95k",
@@ -309,6 +317,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7961852",
+        "url": "https://www.ticketnetwork.com/en/p/7961852",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G61xOe95K",
@@ -319,7 +334,8 @@
       "EVENKO CO-PRO WITH LIVE NATION",
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961852"
   },
   {
     "id": "tm-katseye-2026-hamilton-177zv0g61i6mwwe",
@@ -359,7 +375,7 @@
         "event_id": 7027991,
         "url": "https://www.vividseats.com/katseye-tickets-hamilton-td-coliseum-11-1-2026--concerts-pop/production/7027991",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -418,7 +434,7 @@
         "event_id": 7027953,
         "url": "https://www.vividseats.com/katseye-tickets-detroit-little-caesars-arena-11-3-2026--concerts-pop/production/7027953",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -441,6 +457,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7961637",
+        "url": "https://www.ticketnetwork.com/en/p/7961637",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_1EFShc4",
@@ -450,7 +473,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/katseye-detroit-tickets-11-3-2026/event/107169130",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961637"
   },
   {
     "id": "tm-katseye-2026-chicago-vvg18z_1mip6i3",
@@ -490,7 +514,7 @@
         "event_id": 7027955,
         "url": "https://www.vividseats.com/katseye-tickets-chicago-united-center-11-5-2026--concerts-pop/production/7027955",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -513,6 +537,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7961638",
+        "url": "https://www.ticketnetwork.com/en/p/7961638",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1miP6i3",
@@ -522,7 +553,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/katseye-chicago-tickets-11-5-2026/event/107169132",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961638"
   },
   {
     "id": "tm-katseye-2026-minneapolis-vvg1bz_1syoq0j",
@@ -562,7 +594,7 @@
         "event_id": 7027957,
         "url": "https://www.vividseats.com/katseye-tickets-minneapolis-target-center-11-7-2026--concerts-pop/production/7027957",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -585,6 +617,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7961641",
+        "url": "https://www.ticketnetwork.com/en/p/7961641",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_1SyOq0j",
@@ -594,7 +633,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/katseye-minneapolis-tickets-11-7-2026/event/107169133",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961641"
   },
   {
     "id": "tm-katseye-2026-austin-g5diz_1lv8_jd",
@@ -634,7 +674,7 @@
         "event_id": 7027959,
         "url": "https://www.vividseats.com/katseye-tickets-austin-moody-center-atx-11-10-2026--concerts-pop/production/7027959",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -657,6 +697,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7961642",
+        "url": "https://www.ticketnetwork.com/en/p/7961642",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1lv8_jd",
@@ -673,7 +720,8 @@
         "start": "2026-05-21T20:00:00Z",
         "end": "2026-11-11T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961642"
   },
   {
     "id": "tm-katseye-2026-dallas-vvg1yz_1jrlmao",
@@ -706,14 +754,14 @@
         "event_id": 18240151,
         "url": "https://seatgeek.com/katseye-tickets/dallas-texas-american-airlines-center-2026-11-11-8-pm/concert/18240151",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7027961,
         "url": "https://www.vividseats.com/katseye-tickets-dallas-american-airlines-center---tx-11-11-2026--concerts-pop/production/7027961",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -736,6 +784,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7961644",
+        "url": "https://www.ticketnetwork.com/en/p/7961644",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1JrlMao",
@@ -745,7 +800,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/katseye-dallas-tickets-11-11-2026/event/107170283",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961644"
   },
   {
     "id": "tm-katseye-2026-las-vegas-z7r9jz1a70ouv",
@@ -785,7 +841,7 @@
         "event_id": 7027963,
         "url": "https://www.vividseats.com/katseye-tickets-las-vegas-mgm-grand-garden-arena-11-14-2026--concerts-pop/production/7027963",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -808,6 +864,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7961834",
+        "url": "https://www.ticketnetwork.com/en/p/7961834",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70OuV",
@@ -817,7 +880,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/katseye-las-vegas-tickets-11-14-2026/event/107170285",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961834"
   },
   {
     "id": "tm-katseye-2026-seattle-vvg1hz_1e8gggs",
@@ -850,14 +914,14 @@
         "event_id": 18240158,
         "url": "https://seatgeek.com/katseye-tickets/seattle-washington-climate-pledge-arena-2026-11-17-8-pm/concert/18240158",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7027965,
         "url": "https://www.vividseats.com/katseye-tickets-seattle-climate-pledge-arena-11-17-2026--concerts-pop/production/7027965",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -880,6 +944,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7961840",
+        "url": "https://www.ticketnetwork.com/en/p/7961840",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_1E8GGGS",
@@ -889,7 +960,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/katseye-seattle-tickets-11-17-2026/event/107170286",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961840"
   },
   {
     "id": "tm-katseye-2026-oakland-g5vyz_1m-ew1q",
@@ -922,14 +994,14 @@
         "event_id": 18240159,
         "url": "https://seatgeek.com/katseye-tickets/oakland-california-oakland-arena-2026-11-19-8-pm/concert/18240159",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7027967,
         "url": "https://www.vividseats.com/katseye-tickets-oakland-oakland-arena-11-19-2026--concerts-pop/production/7027967",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -952,6 +1024,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7961842",
+        "url": "https://www.ticketnetwork.com/en/p/7961842",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1m-eW1q",
@@ -961,7 +1040,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/katseye-oakland-tickets-11-19-2026/event/107170287",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961842"
   },
   {
     "id": "tm-katseye-2026-los-angeles-g5eyz_1rkf-rx",
@@ -994,7 +1074,7 @@
         "event_id": 18240162,
         "url": "https://seatgeek.com/katseye-tickets/los-angeles-california-crypto-com-arena-2026-11-21-8-pm/concert/18240162",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1024,6 +1104,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7961846",
+        "url": "https://www.ticketnetwork.com/en/p/7961846",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eYZ_1RkF-rX",
@@ -1033,7 +1120,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/katseye-los-angeles-tickets-11-21-2026/event/107170288",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961846"
   },
   {
     "id": "tm-katseye-2026-los-angeles-g5eyz_52cssfl",
@@ -1066,7 +1154,7 @@
         "event_id": 18258420,
         "url": "https://seatgeek.com/katseye-tickets/los-angeles-california-crypto-com-arena-2026-11-22-8-pm/concert/18258420",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1096,6 +1184,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7984757",
+        "url": "https://www.ticketnetwork.com/en/p/7984757",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eYZ_52CssfL",
@@ -1105,7 +1200,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/katseye-los-angeles-tickets-11-22-2026/event/107188077",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7984757"
   },
   {
     "id": "tm-katseye-2026-phoenix-17k8v0g61m4tf9t",
@@ -1138,14 +1234,14 @@
         "event_id": 18240163,
         "url": "https://seatgeek.com/katseye-tickets/phoenix-arizona-mortgage-matchup-center-2026-11-24-8-pm/concert/18240163",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7027973,
         "url": "https://www.vividseats.com/katseye-tickets-phoenix-mortgage-matchup-center-11-24-2026--concerts-pop/production/7027973",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1168,6 +1264,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7961848",
+        "url": "https://www.ticketnetwork.com/en/p/7961848",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G61m4tf9t",
@@ -1177,7 +1280,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/katseye-phoenix-tickets-11-24-2026/event/107170289",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961848"
   },
   {
     "id": "tm-katseye-2026-ciudad-de-mexico-17azv0g61mujevj",
@@ -1240,6 +1344,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7983201",
+        "url": "https://www.ticketnetwork.com/en/p/7983201",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AZv0G61muJeVj",
@@ -1249,7 +1360,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-27-11-2026/event/107165672",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7983201"
   },
   {
     "id": "tm-katseye-2026-ciudad-de-mexico-17azv0g61m2a3xe",
@@ -1312,6 +1424,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7990930",
+        "url": "https://www.ticketnetwork.com/en/p/7990930",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AZv0G61m2A3XE",
@@ -1321,6 +1440,7 @@
     "stubhub_international_url": "https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-28-11-2026/event/107187078",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7990930"
   }
 ]

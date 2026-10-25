@@ -843,18 +843,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8043798",
-        "url": "https://www.ticketnetwork.com/en/p/8043798",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PfOY",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043798/Sylvan-Esso-tickets-Fri-Oct-23-2026-First-Avenue",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8043798"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-sylvan-esso-2027-seattle-vvg1hz_g92don0",
@@ -894,7 +894,7 @@
         "event_id": 7144222,
         "url": "https://www.vividseats.com/sylvan-esso-tickets-seattle-paramount-theatre-seattle-2-19-2027--concerts-dance-electronica/production/7144222",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -970,7 +970,7 @@
         "event_id": 7144230,
         "url": "https://www.vividseats.com/sylvan-esso-tickets-vancouver-vogue-theatre---bc-2-20-2027--concerts-dance-electronica/production/7144230",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1039,7 +1039,7 @@
         "event_id": 7144322,
         "url": "https://www.vividseats.com/sylvan-esso-tickets-portland-mcmenamins-crystal-ballroom-2-22-2027--concerts-dance-electronica/production/7144322",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1108,7 +1108,7 @@
         "event_id": 7144324,
         "url": "https://www.vividseats.com/sylvan-esso-tickets-portland-mcmenamins-crystal-ballroom-2-23-2027--concerts-dance-electronica/production/7144324",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1177,7 +1177,7 @@
         "event_id": 7144122,
         "url": "https://www.vividseats.com/sylvan-esso-tickets-oakland-fox-theater-oakland-2-25-2027--concerts-dance-electronica/production/7144122",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1256,7 +1256,7 @@
         "event_id": 7144130,
         "url": "https://www.vividseats.com/sylvan-esso-tickets-los-angeles-the-wiltern-2-26-2027--concerts-dance-electronica/production/7144130",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1335,7 +1335,7 @@
         "event_id": 7327236,
         "url": "https://www.vividseats.com/sylvan-esso-tickets-santa-ana-the-observatory-santa-ana-2-27-2027/production/7327236",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1414,7 +1414,7 @@
         "event_id": 7144132,
         "url": "https://www.vividseats.com/sylvan-esso-tickets-del-mar-the-sound---del-mar-3-1-2027--concerts-dance-electronica/production/7144132",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1483,7 +1483,7 @@
         "event_id": 7144134,
         "url": "https://www.vividseats.com/sylvan-esso-tickets-phoenix-the-van-buren-3-2-2027--concerts-dance-electronica/production/7144134",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1562,7 +1562,7 @@
         "event_id": 7144191,
         "url": "https://www.vividseats.com/sylvan-esso-tickets-denver-ogden-theatre-3-5-2027--concerts-dance-electronica/production/7144191",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1700,7 +1700,7 @@
         "event_id": 7144194,
         "url": "https://www.vividseats.com/sylvan-esso-tickets-austin-austin-city-limits-live-at-the-moody-theater-3-8-2027--concerts-dance-electronica/production/7144194",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1761,7 +1761,7 @@
         "event_id": 7144136,
         "url": "https://www.vividseats.com/sylvan-esso-tickets-dallas-house-of-blues-dallas-3-9-2027--concerts-dance-electronica/production/7144136",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1840,7 +1840,7 @@
         "event_id": 7144150,
         "url": "https://www.vividseats.com/sylvan-esso-tickets-birmingham-iron-city-birmingham-3-12-2027--concerts-dance-electronica/production/7144150",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1912,7 +1912,7 @@
         "event_id": 7144326,
         "url": "https://www.vividseats.com/sylvan-esso-tickets-nashville-brooklyn-bowl---nashville-3-13-2027--concerts-dance-electronica/production/7144326",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {

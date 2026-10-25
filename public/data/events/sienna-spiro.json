@@ -522,14 +522,14 @@
         "event_id": 18297290,
         "url": "https://seatgeek.com/sienna-spiro-tickets/toronto-canada-history-2026-10-25-6-pm/concert/18297290",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7139286,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-toronto-history-toronto-10-25-2026--concerts-pop/production/7139286",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -586,7 +586,7 @@
         "event_id": 7139288,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-chicago-riviera-theatre---il-10-27-2026--concerts-pop/production/7139288",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -724,7 +724,7 @@
         "event_id": 7139294,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-englewood-gothic-theatre-10-30-2026--concerts-pop/production/7139294",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -837,7 +837,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PK0e",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7PK0e",
     "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/vancouver-canada-vogue-theatre-bc-1-2026-11-04-8-pm/concert/18297302",
-    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-vancouver-vogue-theatre---bc-11-4-2026/production/7139489",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7PK0e",
     "last_verified_at": null,
@@ -859,11 +859,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7139489,
-        "url": "https://www.vividseats.com/sienna-spiro-tickets-vancouver-vogue-theatre---bc-11-4-2026/production/7139489",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -931,7 +931,7 @@
         "event_id": 7139491,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-vancouver-vogue-theatre---bc-11-5-2026/production/7139491",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1000,7 +1000,7 @@
         "event_id": 7143026,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-portland-mcmenamins-crystal-ballroom-11-7-2026/production/7143026",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1069,7 +1069,7 @@
         "event_id": 7139535,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-san-francisco-castro-theatre-11-9-2026/production/7139535",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1125,7 +1125,7 @@
         "event_id": 7139420,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-los-angeles-the-wiltern-11-10-2026/production/7139420",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1190,14 +1190,14 @@
         "event_id": 18317534,
         "url": "https://seatgeek.com/sienna-spiro-tickets/los-angeles-california-orpheum-theatre-los-angeles-2026-11-12-8-pm/concert/18317534",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7175301,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-los-angeles-orpheum-theatre---los-angeles-11-12-2026--concerts-pop/production/7175301",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1432,7 +1432,7 @@
         "event_id": 7166302,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-edinburgh-edinburgh-corn-exchange-2-22-2027--concerts-pop/production/7166302",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1594,7 +1594,7 @@
         "event_id": 7146243,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-manchester-o2-apollo-manchester-3-1-2027--concerts-pop/production/7146243",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1677,7 +1677,7 @@
         "event_id": 7175309,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-manchester-o2-apollo-manchester-3-2-2027--concerts-pop/production/7175309",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1816,7 +1816,7 @@
         "event_id": 7168401,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-berlin-tempodrom-3-24-2027/production/7168401",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2290,6 +2290,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8332299",
+        "url": "https://www.ticketnetwork.com/en/p/8332299",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_47YTEkn",
@@ -2299,7 +2306,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC",
       "WME AGENCY"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332299"
   },
   {
     "id": "tm-sienna-spiro-2027-washington-1avfz_fgksa-bdm",
@@ -2355,12 +2363,20 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8332313",
+        "url": "https://www.ticketnetwork.com/en/p/8332313",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_fGkSA-bDM",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332313/Sienna-Spiro-tickets-Thu-Aug-12-2027-The-Anthem-DC"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332313/Sienna-Spiro-tickets-Thu-Aug-12-2027-The-Anthem-DC",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332313"
   },
   {
     "id": "tm-sienna-spiro-2027-philadelphia-vv17fz_fgkuhzdr4",
@@ -2416,6 +2432,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8332317",
+        "url": "https://www.ticketnetwork.com/en/p/8332317",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_fGkUHzDR4",
@@ -2424,7 +2447,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332317/Sienna-Spiro-tickets-Sat-Aug-14-2027-The-Met-Presented-by-Highmark",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332317"
   },
   {
     "id": "tm-sienna-spiro-2027-boston-vv177z_fgkd_e0km",
@@ -2480,6 +2504,20 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8332320",
+        "url": "https://www.ticketnetwork.com/en/p/8332320",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675899",
+        "url": "https://www.stubhub.ie/sienna-spiro-boston-tickets-8-15-2027/event/107675899",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_fGkD_e0KM",
@@ -2488,7 +2526,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332320/Sienna-Spiro-tickets-Sun-Aug-15-2027-MGM-Music-Hall-at-Fenway-Park",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332320",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-boston-tickets-8-15-2027/event/107675899"
   },
   {
     "id": "tm-sienna-spiro-2027-new-york-g5dyz_46da3nv",
@@ -2544,6 +2584,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8332325",
+        "url": "https://www.ticketnetwork.com/en/p/8332325",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dYZ_46DA3Nv",
@@ -2569,7 +2616,8 @@
         "start": "2026-10-23T14:00:00Z",
         "end": "2027-08-18T01:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332325"
   },
   {
     "id": "tm-sienna-spiro-2027-detroit-vv1afzk48gkebo40x",
@@ -2625,6 +2673,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8332344",
+        "url": "https://www.ticketnetwork.com/en/p/8332344",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk48GkeBO40X",
@@ -2633,7 +2688,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332344/Sienna-Spiro-tickets-Mon-Aug-23-2027-Fox-Theatre-Detroit",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332344"
   },
   {
     "id": "tm-sienna-spiro-2027-chicago-vv17jz_fgkxlgu6j",
@@ -2689,6 +2745,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8332347",
+        "url": "https://www.ticketnetwork.com/en/p/8332347",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_fGkXlGU6j",
@@ -2709,7 +2772,8 @@
         "start": "2026-10-23T15:00:00Z",
         "end": "2027-08-26T01:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332347"
   },
   {
     "id": "tm-sienna-spiro-2027-chicago-vv17jz_fgkxlcj6o",
@@ -2765,6 +2829,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8332348",
+        "url": "https://www.ticketnetwork.com/en/p/8332348",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_fGkXlCJ6O",
@@ -2785,7 +2856,8 @@
         "start": "2026-10-23T15:00:00Z",
         "end": "2027-08-27T01:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332348"
   },
   {
     "id": "tm-sienna-spiro-2027-minneapolis-vv17bz_fgktexhi7",
@@ -2841,6 +2913,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8332354",
+        "url": "https://www.ticketnetwork.com/en/p/8332354",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_fGkTeXHi7",
@@ -2849,7 +2928,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332354/Sienna-Spiro-tickets-Sat-Aug-28-2027-The-Armory-Minneapolis",
     "organizer_names": [
       "FIRST AVENUE"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332354"
   },
   {
     "id": "tm-sienna-spiro-2027-seattle-vvg1hz_4ediyof",
@@ -2905,6 +2985,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8332362",
+        "url": "https://www.ticketnetwork.com/en/p/8332362",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_4eDiyOf",
@@ -2913,7 +3000,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332362/Sienna-Spiro-tickets-Thu-Sep-2-2027-Wamu-Theater-At-Lumen-Field-Event-Center",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332362"
   },
   {
     "id": "tm-sienna-spiro-2027-vancouver-1av7z_fgkxqzaez",
@@ -2969,6 +3057,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8332368",
+        "url": "https://www.ticketnetwork.com/en/p/8332368",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_fGkXQZaEz",
@@ -2978,7 +3073,8 @@
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332368"
   },
   {
     "id": "tm-sienna-spiro-2027-berkeley-g5vyz_fbwbrn7",
@@ -3034,6 +3130,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8332372",
+        "url": "https://www.ticketnetwork.com/en/p/8332372",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_fBWbrN7",
@@ -3042,7 +3145,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332372/Sienna-Spiro-tickets-Tue-Sep-7-2027-Greek-Theatre-UC-Berkeley",
     "organizer_names": [
       "ANOTHER PLANET"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332372"
   },
   {
     "id": "tm-sienna-spiro-2027-mexico-1afzk4ogkeyuq9e",
@@ -3146,7 +3250,7 @@
         "event_id": 7729242,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-new-york-radio-city-music-hall-8-18-2027/production/7729242",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3161,6 +3265,13 @@
         "url": "https://www.ticketliquidator.com/tickets/8333456/Sienna-Spiro-tickets-Wed-Aug-18-2027-Radio-City-Music-Hall",
         "verified": true,
         "last_verified_at": "2026-10-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8333456",
+        "url": "https://www.ticketnetwork.com/en/p/8333456",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       }
     },
@@ -3187,6 +3298,7 @@
         "end": "2027-08-19T01:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333456/Sienna-Spiro-tickets-Wed-Aug-18-2027-Radio-City-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333456/Sienna-Spiro-tickets-Wed-Aug-18-2027-Radio-City-Music-Hall",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333456"
   }
 ]

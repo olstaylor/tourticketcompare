@@ -11,8 +11,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "05006472CA8CB335",
     "ticketmaster_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-evansville-indiana-10-23-2026/event/05006472CA8CB335",
-    "seatgeek_url": "https://seatgeek.com/ty-myers-tickets/evansville-indiana-ford-center-in-2026-10-23-7-30-pm/concert/18142342",
-    "vividseats_url": "https://www.vividseats.com/ty-myers-tickets-evansville-ford-center-evansville-10-23-2026--concerts-country-and-folk/production/6828452",
+    "seatgeek_url": "",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-evansville-indiana-10-23-2026/event/05006472CA8CB335",
     "last_verified_at": "2026-10-22",
@@ -27,18 +27,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18142342,
-        "url": "https://seatgeek.com/ty-myers-tickets/evansville-indiana-ford-center-in-2026-10-23-7-30-pm/concert/18142342",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 6828452,
-        "url": "https://www.vividseats.com/ty-myers-tickets-evansville-ford-center-evansville-10-23-2026--concerts-country-and-folk/production/6828452",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -95,7 +95,7 @@
         "event_id": 18142343,
         "url": "https://seatgeek.com/ty-myers-tickets/pikeville-kentucky-appalachian-wireless-arena-2026-10-24-7-30-pm/concert/18142343",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -151,14 +151,14 @@
         "event_id": 18142345,
         "url": "https://seatgeek.com/ty-myers-tickets/austin-texas-moody-center-atx-2026-11-20-7-30-pm/concert/18142345",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6828458,
         "url": "https://www.vividseats.com/ty-myers-tickets-austin-moody-center-atx-11-20-2026--concerts-country-and-folk/production/6828458",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -181,6 +181,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7830817",
+        "url": "https://www.ticketnetwork.com/en/p/7830817",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_kUOPazl",
@@ -197,7 +204,8 @@
         "start": "2026-04-03T15:00:00Z",
         "end": "2026-11-10T23:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7830817"
   },
   {
     "id": "tm-ty-myers-2026-fort-worth-vvg1yz_61djqel",
@@ -230,14 +238,14 @@
         "event_id": 18142347,
         "url": "https://seatgeek.com/ty-myers-tickets/fort-worth-texas-dickies-arena-2026-11-21-7-30-pm/concert/18142347",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6828460,
         "url": "https://www.vividseats.com/ty-myers-tickets-fort-worth-dickies-arena-11-21-2026--concerts-country-and-folk/production/6828460",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -260,6 +268,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7830819",
+        "url": "https://www.ticketnetwork.com/en/p/7830819",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_61DJQEl",
@@ -276,6 +291,7 @@
         "start": "2026-04-03T15:00:00Z",
         "end": "2026-11-11T23:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7830819"
   }
 ]

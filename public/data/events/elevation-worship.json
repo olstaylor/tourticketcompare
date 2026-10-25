@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8272430",
+        "url": "https://www.ticketnetwork.com/en/p/8272430",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvwuS",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272430/Elevation-Worship-tickets-Thu-Feb-25-2027-Numerica-Veterans-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272430/Elevation-Worship-tickets-Thu-Feb-25-2027-Numerica-Veterans-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272430"
   },
   {
     "id": "tm-elevation-worship-2027-tacoma-vvg1hz_35ckwg5",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8264722",
+        "url": "https://www.ticketnetwork.com/en/p/8264722",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_35cKwG5",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264722/Elevation-Worship-tickets-Fri-Feb-26-2027-Tacoma-Dome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264722/Elevation-Worship-tickets-Fri-Feb-26-2027-Tacoma-Dome",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264722"
   },
   {
     "id": "tm-elevation-worship-2027-sacramento-g5vyz_38zvlqx",
@@ -182,13 +198,21 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8264723",
+        "url": "https://www.ticketnetwork.com/en/p/8264723",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_38ZVlQx",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264723/Elevation-Worship-tickets-Mon-Mar-1-2027-Golden-1-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/elevation-worship-sacramento-tickets-3-1-2027/event/107668142"
+    "stubhub_international_url": "https://www.stubhub.ie/elevation-worship-sacramento-tickets-3-1-2027/event/107668142",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264723"
   },
   {
     "id": "tm-elevation-worship-2027-oakland-g5vyz_3npydie",
@@ -244,12 +268,20 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8264724",
+        "url": "https://www.ticketnetwork.com/en/p/8264724",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_3NpydIE",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264724/Elevation-Worship-tickets-Tue-Mar-2-2027-Oakland-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264724/Elevation-Worship-tickets-Tue-Mar-2-2027-Oakland-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264724"
   },
   {
     "id": "tm-elevation-worship-2027-anaheim-vv16azkfivpza5vug5",
@@ -312,13 +344,21 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8264725",
+        "url": "https://www.ticketnetwork.com/en/p/8264725",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16aZkfIvPZA5vuG5",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264725/Elevation-Worship-tickets-Wed-Mar-3-2027-Honda-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/elevation-worship-anaheim-tickets-3-3-2027/event/107668144"
+    "stubhub_international_url": "https://www.stubhub.ie/elevation-worship-anaheim-tickets-3-3-2027/event/107668144",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264725"
   },
   {
     "id": "tm-elevation-worship-2027-san-diego-vvg1iz_37k-njg",
@@ -374,6 +414,13 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8264726",
+        "url": "https://www.ticketnetwork.com/en/p/8264726",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_37k-njG",
@@ -382,7 +429,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264726/Elevation-Worship-tickets-Fri-Mar-5-2027-Viejas-Arena-At-Aztec-Bowl",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264726"
   },
   {
     "id": "tm-elevation-worship-2027-phoenix-1a_zkf0gkdcjit6",
@@ -438,6 +486,13 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8264727",
+        "url": "https://www.ticketnetwork.com/en/p/8264727",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_Zkf0GkdCJIt6",
@@ -446,7 +501,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264727/Elevation-Worship-tickets-Sat-Mar-6-2027-Mortgage-Matchup-Center",
     "organizer_names": [
       "TRANSPARENT PRODUCTIONS"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264727"
   },
   {
     "id": "tm-elevation-worship-2027-inglewood-vv1aazkfigkdewunn",
@@ -509,6 +565,13 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8264728",
+        "url": "https://www.ticketnetwork.com/en/p/8264728",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZkfIGkdEWunN",
@@ -522,6 +585,7 @@
         "start": "2026-09-18T17:00:00Z",
         "end": "2027-03-08T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264728"
   }
 ]

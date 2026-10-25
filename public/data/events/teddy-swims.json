@@ -1241,7 +1241,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70v8I",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v8I",
     "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/sunrise-florida-amerant-bank-arena-2026-10-23-7-pm/concert/18175691",
-    "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-sunrise-amerant-bank-arena-10-23-2026--concerts-rb/production/6911975",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70v8I",
     "last_verified_at": null,
@@ -1263,11 +1263,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 6911975,
-        "url": "https://www.vividseats.com/teddy-swims-tickets-sunrise-amerant-bank-arena-10-23-2026--concerts-rb/production/6911975",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1343,7 +1343,7 @@
         "event_id": 6911979,
         "url": "https://www.vividseats.com/teddy-swims-tickets-tampa-benchmark-international-arena-10-25-2026--concerts-rb/production/6911979",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1435,7 +1435,7 @@
         "event_id": 6911983,
         "url": "https://www.vividseats.com/teddy-swims-tickets-houston-toyota-center---tx-10-27-2026--concerts-rb/production/6911983",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1504,7 +1504,7 @@
         "event_id": 6911989,
         "url": "https://www.vividseats.com/teddy-swims-tickets-austin-moody-center-atx-10-28-2026--concerts-rb/production/6911989",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1591,7 +1591,7 @@
         "event_id": 6911922,
         "url": "https://www.vividseats.com/teddy-swims-tickets-fort-worth-dickies-arena-10-30-2026/production/6911922",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1671,7 +1671,7 @@
         "event_id": 6912000,
         "url": "https://www.vividseats.com/teddy-swims-tickets-denver-ball-arena-11-1-2026--concerts-rb/production/6912000",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1758,7 +1758,7 @@
         "event_id": 6912126,
         "url": "https://www.vividseats.com/teddy-swims-tickets-salt-lake-city-delta-center-11-3-2026--concerts-rb/production/6912126",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1835,7 +1835,7 @@
         "event_id": 6911995,
         "url": "https://www.vividseats.com/teddy-swims-tickets-seattle-climate-pledge-arena-11-5-2026--concerts-rb/production/6911995",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1927,7 +1927,7 @@
         "event_id": 6912128,
         "url": "https://www.vividseats.com/teddy-swims-tickets-vancouver-rogers-arena-11-6-2026--concerts-rb/production/6912128",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2014,7 +2014,7 @@
         "event_id": 6912006,
         "url": "https://www.vividseats.com/teddy-swims-tickets-portland-moda-center-11-8-2026--concerts-rb/production/6912006",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2111,7 +2111,7 @@
         "event_id": 6912010,
         "url": "https://www.vividseats.com/teddy-swims-tickets-san-francisco-chase-center-11-10-2026--concerts-rb/production/6912010",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2209,7 +2209,7 @@
         "event_id": 6912016,
         "url": "https://www.vividseats.com/teddy-swims-tickets-sacramento-golden-1-center-11-11-2026--concerts-rb/production/6912016",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2375,7 +2375,7 @@
         "event_id": 6912149,
         "url": "https://www.vividseats.com/teddy-swims-tickets-las-vegas-t-mobile-arena-11-14-2026--concerts-rb/production/6912149",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2452,7 +2452,7 @@
         "event_id": 6912020,
         "url": "https://www.vividseats.com/teddy-swims-tickets-phoenix-mortgage-matchup-center-11-16-2026--concerts-rb/production/6912020",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2544,7 +2544,7 @@
         "event_id": 6912024,
         "url": "https://www.vividseats.com/teddy-swims-tickets-inglewood-kia-forum-11-18-2026--concerts-rb/production/6912024",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2641,7 +2641,7 @@
         "event_id": 7348582,
         "url": "https://www.vividseats.com/teddy-swims-tickets-berlin-uber-arena-3-11-2027--concerts-rb/production/7348582",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3057,7 +3057,7 @@
         "event_id": 7347709,
         "url": "https://www.vividseats.com/teddy-swims-tickets-glasgow-ovo-hydro-4-13-2027/production/7347709",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3138,7 +3138,7 @@
         "event_id": 7346474,
         "url": "https://www.vividseats.com/teddy-swims-tickets-manchester-co-op-live-4-16-2027/production/7346474",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3218,7 +3218,7 @@
         "event_id": 7367121,
         "url": "https://www.vividseats.com/teddy-swims-tickets-manchester-co-op-live-4-17-2027/production/7367121",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3298,7 +3298,7 @@
         "event_id": 7346470,
         "url": "https://www.vividseats.com/teddy-swims-tickets-london-the-o2---london-4-21-2027/production/7346470",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3359,7 +3359,7 @@
         "event_id": 7367117,
         "url": "https://www.vividseats.com/teddy-swims-tickets-london-the-o2---london-4-22-2027/production/7367117",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3420,7 +3420,7 @@
         "event_id": 7393273,
         "url": "https://www.vividseats.com/teddy-swims-tickets-london-the-o2---london-4-24-2027--concerts-rb/production/7393273",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3481,7 +3481,7 @@
         "event_id": 7473826,
         "url": "https://www.vividseats.com/teddy-swims-tickets-manchester-co-op-live-4-18-2027--concerts-rb/production/7473826",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3813,7 +3813,7 @@
         "event_id": 7598530,
         "url": "https://www.vividseats.com/teddy-swims-tickets-london-the-o2---london-4-25-2027/production/7598530",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {

@@ -30,7 +30,7 @@
         "event_id": 18219945,
         "url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-11-13-8-30-pm/concert/18219945",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -117,7 +117,7 @@
         "event_id": 18219946,
         "url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-11-14-8-30-pm/concert/18219946",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -204,7 +204,7 @@
         "event_id": 18219952,
         "url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-11-27-8-30-pm/concert/18219952",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -291,7 +291,7 @@
         "event_id": 18219951,
         "url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-11-28-8-30-pm/concert/18219951",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -378,7 +378,7 @@
         "event_id": 18355049,
         "url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-12-04-8-30-pm/concert/18355049",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -465,7 +465,7 @@
         "event_id": 18355050,
         "url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-12-05-8-30-pm/concert/18355050",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -552,7 +552,7 @@
         "event_id": 18355052,
         "url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-12-11-8-30-pm/concert/18355052",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -639,7 +639,7 @@
         "event_id": 18355051,
         "url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-12-12-8-30-pm/concert/18355051",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -726,7 +726,7 @@
         "event_id": 18421044,
         "url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2027-01-15-8-30-pm/concert/18421044",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -813,7 +813,7 @@
         "event_id": 18421045,
         "url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2027-01-16-8-30-pm/concert/18421045",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1097,6 +1097,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8332074",
+        "url": "https://www.ticketnetwork.com/en/p/8332074",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk4eGkdcMDNS",
@@ -1138,7 +1145,8 @@
         "start": "2026-10-30T17:00:00Z",
         "end": "2026-12-30T06:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332074"
   },
   {
     "id": "tm-eagles-2027-las-vegas-1a9zk4egkdmahp8",
@@ -1194,6 +1202,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8332075",
+        "url": "https://www.ticketnetwork.com/en/p/8332075",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk4eGkdmAhP8",
@@ -1235,6 +1250,7 @@
         "start": "2026-10-30T17:00:00Z",
         "end": "2026-12-31T06:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332075"
   }
 ]

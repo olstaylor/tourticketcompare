@@ -99,7 +99,7 @@
         "event_id": 18329621,
         "url": "https://seatgeek.com/beabadoobee-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-10-24-8-pm/concert/18329621",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -122,6 +122,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8081071",
+        "url": "https://www.ticketnetwork.com/en/p/8081071",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_u3MYFkF",
@@ -130,7 +137,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8081071/beabadoobee-tickets-Sat-Oct-24-2026-Viejas-Arena-At-Aztec-Bowl",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8081071"
   },
   {
     "id": "tm-beabadoobee-2026-oakland-g5vyz_ufp_rvl",
@@ -163,14 +171,14 @@
         "event_id": 18329620,
         "url": "https://seatgeek.com/beabadoobee-tickets/oakland-california-oakland-arena-2026-10-26-8-pm/concert/18329620",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7212204,
         "url": "https://www.vividseats.com/beabadoobee-tickets-oakland-oakland-arena-10-26-2026/production/7212204",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -193,6 +201,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8081072",
+        "url": "https://www.ticketnetwork.com/en/p/8081072",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_uFp_rvl",
@@ -202,7 +217,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-oakland-tickets-10-26-2026/event/107447659",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8081072"
   },
   {
     "id": "tm-beabadoobee-2026-vancouver-1778v0g6u5paqr-",
@@ -235,14 +251,14 @@
         "event_id": 18329623,
         "url": "https://seatgeek.com/beabadoobee-tickets/vancouver-canada-rogers-arena-2026-10-28-8-pm/concert/18329623",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7212205,
         "url": "https://www.vividseats.com/beabadoobee-tickets-vancouver-rogers-arena-10-28-2026--concerts-pop/production/7212205",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -257,6 +273,13 @@
         "url": "https://www.ticketliquidator.com/tickets/8081057/beabadoobee-tickets-Wed-Oct-28-2026-Rogers-Arena",
         "verified": true,
         "last_verified_at": "2026-10-22",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8081057",
+        "url": "https://www.ticketnetwork.com/en/p/8081057",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       }
     },
@@ -276,7 +299,8 @@
         "start": "2026-07-02T17:00:00Z",
         "end": "2026-10-25T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8081057"
   },
   {
     "id": "tm-beabadoobee-2026-seattle-vvg1hz_u_uadg3",
@@ -309,14 +333,14 @@
         "event_id": 18329624,
         "url": "https://seatgeek.com/beabadoobee-tickets/seattle-washington-climate-pledge-arena-2026-10-29-8-pm/concert/18329624",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7212200,
         "url": "https://www.vividseats.com/beabadoobee-tickets-seattle-climate-pledge-arena-10-29-2026/production/7212200",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -339,6 +363,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8081075",
+        "url": "https://www.ticketnetwork.com/en/p/8081075",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_u_UAdG3",
@@ -355,7 +386,8 @@
         "start": "2026-07-02T17:00:00Z",
         "end": "2026-10-26T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8081075"
   },
   {
     "id": "tm-beabadoobee-2026-glasgow-17uov0g6uryba3u",
@@ -395,7 +427,7 @@
         "event_id": 7212648,
         "url": "https://www.vividseats.com/beabadoobee-tickets-glasgow-ovo-hydro-11-14-2026--concerts-pop/production/7212648",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -418,6 +450,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8090672",
+        "url": "https://www.ticketnetwork.com/en/p/8090672",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G6urYBa3U",
@@ -428,7 +467,8 @@
     "organizer_names": [
       "DF CONCERTS LIMITED",
       "SCOTTISH EVENT CAMPUS LIMITED"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090672"
   },
   {
     "id": "tm-beabadoobee-2026-cardiff-17uov0g6uhod1tg",
@@ -468,7 +508,7 @@
         "event_id": 7227164,
         "url": "https://www.vividseats.com/beabadoobee-tickets-cardiff-utilita-arena-cardiff-11-16-2026/production/7227164",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -533,7 +573,7 @@
         "event_id": 7212650,
         "url": "https://www.vividseats.com/beabadoobee-tickets-manchester-ao-arena-11-17-2026--concerts-pop/production/7212650",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -556,6 +596,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8090671",
+        "url": "https://www.ticketnetwork.com/en/p/8090671",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_u1gUca1",
@@ -567,7 +614,8 @@
       "METROPOLIS MUSIC",
       "ASM T-A AO ARENA",
       "S.J.M. LTD"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090671"
   },
   {
     "id": "tm-beabadoobee-2026-greenwich-z7r9jz1a7ps_a",
@@ -739,6 +787,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8094857",
+        "url": "https://www.ticketnetwork.com/en/p/8094857",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z16v38kfe3",
@@ -748,7 +803,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-oslo-oslo-spektrum-27-11-2026/event/107417938",
     "organizer_names": [
       "Live Nation Norway AS"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8094857"
   },
   {
     "id": "tm-beabadoobee-2026-forest-brussels-z698xzg2z16vovadfj",
@@ -844,7 +900,7 @@
         "event_id": 7212678,
         "url": "https://www.vividseats.com/beabadoobee-tickets-berlin-tempodrom-12-6-2026--concerts-pop/production/7212678",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -867,6 +923,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8094855",
+        "url": "https://www.ticketnetwork.com/en/p/8094855",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vPMFp_a",
@@ -876,7 +939,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-berlin-tempodrom-6-12-2026/event/107417969",
     "organizer_names": [
       "Trinity Music GmbH"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8094855"
   },
   {
     "id": "tm-beabadoobee-2026-dusseldorf-z698xzc2z1k09qy83",
@@ -916,7 +980,7 @@
         "event_id": 7212682,
         "url": "https://www.vividseats.com/beabadoobee-tickets-dusseldorf-mitsubishi-electric-halle-12-7-2026--concerts-pop/production/7212682",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -939,6 +1003,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8094856",
+        "url": "https://www.ticketnetwork.com/en/p/8094856",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1k09qY83",
@@ -948,6 +1019,7 @@
     "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-dusseldorf-mitsubishi-electric-halle-7-12-2026/event/107417970",
     "organizer_names": [
       "prime entertainment GmbH"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8094856"
   }
 ]

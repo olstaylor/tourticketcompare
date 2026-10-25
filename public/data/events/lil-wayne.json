@@ -117,6 +117,13 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7810664",
+        "url": "https://www.ticketnetwork.com/en/p/7810664",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_6d5sNgF",
@@ -126,7 +133,8 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7810664"
   },
   {
     "id": "tm-lil-wayne-2026-lexington-1avbz_kgkyr04kw",
@@ -159,7 +167,7 @@
         "event_id": 18128388,
         "url": "https://seatgeek.com/lil-wayne-tickets/lexington-kentucky-rupp-arena-2026-12-04-8-30-pm/concert/18128388",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -182,6 +190,13 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7810684",
+        "url": "https://www.ticketnetwork.com/en/p/7810684",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_kGkYR04Kw",
@@ -198,7 +213,8 @@
         "start": "2026-03-20T14:00:00Z",
         "end": "2026-11-07T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7810684"
   },
   {
     "id": "tm-lil-wayne-2026-savannah-vvg1zz_3n_vz4w",
@@ -231,7 +247,7 @@
         "event_id": 18649583,
         "url": "https://seatgeek.com/lil-wayne-tickets/savannah-georgia-enmarket-arena-2026-12-05-7-pm/concert/18649583",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -254,6 +270,13 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8307423",
+        "url": "https://www.ticketnetwork.com/en/p/8307423",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3n_Vz4w",
@@ -274,7 +297,8 @@
         "start": "2026-10-09T14:00:00Z",
         "end": "2026-12-03T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307423"
   },
   {
     "id": "tm-lil-wayne-2027-reading-vv17fz_kgkwwyiai",

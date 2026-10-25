@@ -170,8 +170,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "0A0064C8CED8B734",
     "ticketmaster_url": "https://www.ticketmaster.com/jayz30-inglewood-california-10-23-2026/event/0A0064C8CED8B734",
-    "seatgeek_url": "https://seatgeek.com/jay-z-tickets/inglewood-california-sofi-stadium-2026-10-23-8-pm/concert/18296599",
-    "vividseats_url": "https://www.vividseats.com/jay-z-shawn-carter-tickets-inglewood-sofi-stadium-10-23-2026--concerts-rap-hip-hop/production/7137531",
+    "seatgeek_url": "",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jayz30-inglewood-california-10-23-2026/event/0A0064C8CED8B734",
     "last_verified_at": "2026-10-20",
@@ -186,18 +186,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18296599,
-        "url": "https://seatgeek.com/jay-z-tickets/inglewood-california-sofi-stadium-2026-10-23-8-pm/concert/18296599",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 7137531,
-        "url": "https://www.vividseats.com/jay-z-shawn-carter-tickets-inglewood-sofi-stadium-10-23-2026--concerts-rap-hip-hop/production/7137531",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -207,11 +207,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8038358",
-        "url": "https://www.ticketnetwork.com/en/p/8038358",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8038358",
@@ -221,19 +221,19 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107327078",
-        "url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-23-2026/event/107327078",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_GNCU5jV",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038358",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038358/Jay-Z-tickets-Fri-Oct-23-2026-SoFi-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-23-2026/event/107327078",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -398,7 +398,7 @@
         "event_id": 7348557,
         "url": "https://www.vividseats.com/jay-z-shawn-carter-tickets-inglewood-sofi-stadium-10-24-2026--concerts-rap-hip-hop/production/7348557",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {

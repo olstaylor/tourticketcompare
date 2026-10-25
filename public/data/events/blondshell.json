@@ -395,7 +395,7 @@
         "event_id": 7625188,
         "url": "https://www.vividseats.com/blondshell-tickets-vancouver-commodore-ballroom-3-6-2027/production/7625188",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -477,7 +477,7 @@
         "event_id": 7625132,
         "url": "https://www.vividseats.com/blondshell-tickets-asbury-park-stone-pony-3-23-2027/production/7625132",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -540,7 +540,7 @@
         "event_id": 7626132,
         "url": "https://www.vividseats.com/blondshell-tickets-madison-majestic-theatre---madison-5-15-2027/production/7626132",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -725,7 +725,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0B0064ACB4434752",
     "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-san-diego-california-02-28-2027/event/0B0064ACB4434752",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blondshell-tickets/san-diego-california-the-observatory-north-park-2027-02-28-7-pm/concert/18251038",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-san-diego-california-02-28-2027/event/0B0064ACB4434752",
@@ -741,11 +741,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18251038,
+        "url": "https://seatgeek.com/blondshell-tickets/san-diego-california-the-observatory-north-park-2027-02-28-7-pm/concert/18251038",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -798,7 +798,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "090064AEDEA69445",
     "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-los-angeles-california-03-02-2027/event/090064AEDEA69445",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blondshell-tickets/los-angeles-california-the-wiltern-2027-03-02-7-pm/concert/18251040",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-los-angeles-california-03-02-2027/event/090064AEDEA69445",
@@ -814,11 +814,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18251040,
+        "url": "https://seatgeek.com/blondshell-tickets/los-angeles-california-the-wiltern-2027-03-02-7-pm/concert/18251040",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1012,7 +1012,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "060064AED1ED37AC",
     "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-minneapolis-minnesota-03-11-2027/event/060064AED1ED37AC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blondshell-tickets/minneapolis-minnesota-varsity-theater-minneapolis-2027-03-11-7-pm/concert/18251039",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-minneapolis-minnesota-03-11-2027/event/060064AED1ED37AC",
@@ -1028,11 +1028,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18251039,
+        "url": "https://seatgeek.com/blondshell-tickets/minneapolis-minnesota-varsity-theater-minneapolis-2027-03-11-7-pm/concert/18251039",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1237,7 +1237,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "150064ACA6AE6F8C",
     "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-washington-district-of-columbia-03-15-2027/event/150064ACA6AE6F8C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blondshell-tickets/washington-district-of-columbia-9-30-club-2027-03-15-7-pm/concert/18251055",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-washington-district-of-columbia-03-15-2027/event/150064ACA6AE6F8C",
@@ -1253,11 +1253,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18251055,
+        "url": "https://seatgeek.com/blondshell-tickets/washington-district-of-columbia-9-30-club-2027-03-15-7-pm/concert/18251055",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1314,7 +1314,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "010064AD9D04D950",
     "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-boston-massachusetts-03-18-2027/event/010064AD9D04D950",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blondshell-tickets/boston-massachusetts-citizens-house-of-blues-boston-2027-03-18-7-pm/concert/18251060",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-boston-massachusetts-03-18-2027/event/010064AD9D04D950",
@@ -1330,11 +1330,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18251060,
+        "url": "https://seatgeek.com/blondshell-tickets/boston-massachusetts-citizens-house-of-blues-boston-2027-03-18-7-pm/concert/18251060",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1394,7 +1394,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "310064ADE596E764",
     "ticketmaster_url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-montreal-quebec-03-19-2027/event/310064ADE596E764",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blondshell-tickets/montreal-canada-beanfield-theatre-2027-03-19-8-pm/concert/18251053",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-montreal-quebec-03-19-2027/event/310064ADE596E764",
@@ -1410,11 +1410,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18251053,
+        "url": "https://seatgeek.com/blondshell-tickets/montreal-canada-beanfield-theatre-2027-03-19-8-pm/concert/18251053",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

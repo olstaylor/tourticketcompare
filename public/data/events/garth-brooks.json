@@ -55,11 +55,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107677822",
-        "url": "https://www.stubhub.ie/garth-brooks-tulsa-tickets-10-23-2026/event/107677822",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfUGkd8C0EN",
@@ -69,7 +69,7 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-tulsa-tickets-10-23-2026/event/107677822"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-garth-brooks-2026-tulsa-1aozkfugkdlv4l0",
@@ -132,6 +132,13 @@
         "verified": true,
         "last_verified_at": "2026-10-23",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8284849",
+        "url": "https://www.ticketnetwork.com/en/p/8284849",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfUGkdlv4L0",
@@ -141,7 +148,8 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-tulsa-tickets-10-24-2026/event/107677823"
+    "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-tulsa-tickets-10-24-2026/event/107677823",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284849"
   },
   {
     "id": "tm-garth-brooks-2026-tulsa-1aozkfugkdlmpx_",
@@ -204,6 +212,13 @@
         "verified": true,
         "last_verified_at": "2026-10-23",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8284850",
+        "url": "https://www.ticketnetwork.com/en/p/8284850",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfUGkdlMPx_",
@@ -213,7 +228,8 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-tulsa-tickets-10-25-2026/event/107677824"
+    "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-tulsa-tickets-10-25-2026/event/107677824",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284850"
   },
   {
     "id": "tm-garth-brooks-2026-seattle-vvg1hz_fstanbp",
@@ -246,7 +262,7 @@
         "event_id": 18686081,
         "url": "https://seatgeek.com/garth-brooks-tickets/seattle-washington-climate-pledge-arena-2026-11-13-8-pm/concert/18686081",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -276,6 +292,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8321626",
+        "url": "https://www.ticketnetwork.com/en/p/8321626",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_fStanbP",
@@ -285,7 +308,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-seattle-tickets-11-13-2026/event/107674823",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8321626"
   },
   {
     "id": "tm-garth-brooks-2026-seattle-vvg1hz_fghqxgl",
@@ -318,7 +342,7 @@
         "event_id": 18686083,
         "url": "https://seatgeek.com/garth-brooks-tickets/seattle-washington-climate-pledge-arena-2026-11-14-8-pm/concert/18686083",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -348,6 +372,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8321627",
+        "url": "https://www.ticketnetwork.com/en/p/8321627",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_fgHQxgl",
@@ -357,7 +388,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-seattle-tickets-11-14-2026/event/107674140",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8321627"
   },
   {
     "id": "tm-garth-brooks-2026-seattle-vvg1hz_4dkzhpm",
@@ -397,7 +429,7 @@
         "event_id": 7740302,
         "url": "https://www.vividseats.com/garth-brooks-tickets-seattle-climate-pledge-arena-11-15-2026--concerts-country-and-folk/production/7740302",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -413,6 +445,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8335342",
+        "url": "https://www.ticketnetwork.com/en/p/8335342",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_4dKZhpM",
@@ -421,7 +460,8 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8335342/Garth-Brooks-tickets-Sun-Nov-15-2026-Climate-Pledge-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8335342/Garth-Brooks-tickets-Sun-Nov-15-2026-Climate-Pledge-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8335342"
   },
   {
     "id": "tm-garth-brooks-2026-seattle-vvg1hz_4dkkd9j",
@@ -435,7 +475,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F006550D31BB5DC",
     "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-seattle-washington-11-12-2026/event/0F006550D31BB5DC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/garth-brooks-tickets/seattle-washington-climate-pledge-arena-2026-11-12-7-30-pm/concert/18715553",
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-seattle-climate-pledge-arena-11-12-2026--concerts-country-and-folk/production/7748436",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-seattle-washington-11-12-2026/event/0F006550D31BB5DC",
@@ -451,11 +491,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18715553,
+        "url": "https://seatgeek.com/garth-brooks-tickets/seattle-washington-climate-pledge-arena-2026-11-12-7-30-pm/concert/18715553",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7748436,
@@ -477,6 +517,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8338947",
+        "url": "https://www.ticketnetwork.com/en/p/8338947",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_4dKkD9j",
@@ -485,6 +532,7 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338947/Garth-Brooks-tickets-Thu-Nov-12-2026-Climate-Pledge-Arena",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338947"
   }
 ]

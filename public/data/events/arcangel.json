@@ -139,7 +139,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "300064ADA23D61BB",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-brooklyn-new-york-10-23-2026/event/300064ADA23D61BB",
-    "seatgeek_url": "https://seatgeek.com/arcangel-tickets/brooklyn-new-york-barclays-center-2026-10-23-8-pm/concert/18266317",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/arcangel-tickets-brooklyn-barclays-center-10-23-2026--concerts-rap-hip-hop/production/7079492",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-brooklyn-new-york-10-23-2026/event/300064ADA23D61BB",
@@ -155,11 +155,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18266317,
-        "url": "https://seatgeek.com/arcangel-tickets/brooklyn-new-york-barclays-center-2026-10-23-8-pm/concert/18266317",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7079492,
@@ -245,6 +245,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7997045",
+        "url": "https://www.ticketnetwork.com/en/p/7997045",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_1SKMms5",
@@ -253,7 +260,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997045/Arcangel-tickets-Sat-Oct-24-2026-The-Met-Presented-by-Highmark",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997045"
   },
   {
     "id": "tm-arcangel-2026-boston-vvg17z_1mzt4ek",
@@ -286,7 +294,7 @@
         "event_id": 18266319,
         "url": "https://seatgeek.com/arcangel-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-10-28-8-pm/concert/18266319",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -309,6 +317,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7977638",
+        "url": "https://www.ticketnetwork.com/en/p/7977638",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1MZT4EK",
@@ -324,7 +339,8 @@
         "start": "2026-05-28T14:00:00Z",
         "end": "2026-10-24T16:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977638"
   },
   {
     "id": "tm-arcangel-2026-rosemont-vvg18z_1u8np3l",
@@ -357,7 +373,7 @@
         "event_id": 18266320,
         "url": "https://seatgeek.com/arcangel-tickets/rosemont-illinois-rosemont-theatre-2026-10-31-8-pm/concert/18266320",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -380,6 +396,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7997047",
+        "url": "https://www.ticketnetwork.com/en/p/7997047",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1U8Np3L",
@@ -395,7 +418,8 @@
         "start": "2026-05-28T15:00:00Z",
         "end": "2026-10-27T17:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997047"
   },
   {
     "id": "tm-arcangel-2026-houston-g5diz_53je_pf",
@@ -428,7 +452,7 @@
         "event_id": 18266325,
         "url": "https://seatgeek.com/arcangel-tickets/houston-texas-713-music-hall-2026-11-05-8-pm/concert/18266325",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -451,6 +475,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7997050",
+        "url": "https://www.ticketnetwork.com/en/p/7997050",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_53je_pf",
@@ -466,7 +497,8 @@
         "start": "2026-05-28T15:00:00Z",
         "end": "2026-11-01T18:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997050"
   },
   {
     "id": "tm-arcangel-2026-irving-vvg1yz_5kyqgxt",
@@ -499,7 +531,7 @@
         "event_id": 18266326,
         "url": "https://seatgeek.com/arcangel-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-11-06-8-pm/concert/18266326",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -522,6 +554,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7997053",
+        "url": "https://www.ticketnetwork.com/en/p/7997053",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_5KyqgxT",
@@ -537,7 +576,8 @@
         "start": "2026-05-28T15:00:00Z",
         "end": "2026-11-02T18:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997053"
   },
   {
     "id": "tm-arcangel-2026-denver-g5vzz_1bwrqu_",
@@ -570,7 +610,7 @@
         "event_id": 18266329,
         "url": "https://seatgeek.com/arcangel-tickets/denver-colorado-paramount-theatre-co-2026-11-15-8-pm/concert/18266329",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -593,6 +633,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7997054",
+        "url": "https://www.ticketnetwork.com/en/p/7997054",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1BwrQu_",
@@ -608,7 +655,8 @@
         "start": "2026-05-28T16:00:00Z",
         "end": "2026-11-11T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997054"
   },
   {
     "id": "tm-arcangel-2026-salt-lake-city-g5vzz_5343iam",
@@ -641,7 +689,7 @@
         "event_id": 18266330,
         "url": "https://seatgeek.com/arcangel-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-11-18-8-pm/concert/18266330",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -664,6 +712,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7997055",
+        "url": "https://www.ticketnetwork.com/en/p/7997055",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_5343IAM",
@@ -679,7 +734,8 @@
         "start": "2026-05-28T16:00:00Z",
         "end": "2026-11-14T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997055"
   },
   {
     "id": "tm-arcangel-2026-inglewood-vvg1iz_1r3weok",
@@ -712,7 +768,7 @@
         "event_id": 18266331,
         "url": "https://seatgeek.com/arcangel-tickets/inglewood-california-youtube-theater-2026-11-20-8-pm/concert/18266331",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -735,6 +791,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7997056",
+        "url": "https://www.ticketnetwork.com/en/p/7997056",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_1r3wEOk",
@@ -750,7 +813,8 @@
         "start": "2026-05-28T17:00:00Z",
         "end": "2026-11-16T20:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997056"
   },
   {
     "id": "tm-arcangel-2026-san-jose-g5vyz_1s5ejmh",
@@ -783,7 +847,7 @@
         "event_id": 18266334,
         "url": "https://seatgeek.com/arcangel-tickets/san-jose-california-san-jose-civic-2026-11-21-8-pm/concert/18266334",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -806,6 +870,13 @@
         "verified": true,
         "last_verified_at": "2026-10-20",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7997057",
+        "url": "https://www.ticketnetwork.com/en/p/7997057",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1S5eJmh",
@@ -821,6 +892,7 @@
         "start": "2026-05-28T17:00:00Z",
         "end": "2026-11-17T20:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997057"
   }
 ]

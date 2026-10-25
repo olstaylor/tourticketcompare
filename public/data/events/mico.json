@@ -644,7 +644,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A0064ACBB5CC7DF",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-austin-texas-10-23-2026/event/3A0064ACBB5CC7DF",
-    "seatgeek_url": "https://seatgeek.com/mico-tickets/austin-texas-scoot-inn-2026-10-23-6-pm/concert/18252102",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/mico-tickets-austin-scoot-inn-10-23-2026/production/7049125",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-austin-texas-10-23-2026/event/3A0064ACBB5CC7DF",
@@ -660,11 +660,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18252102,
-        "url": "https://seatgeek.com/mico-tickets/austin-texas-scoot-inn-2026-10-23-6-pm/concert/18252102",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7049125,
@@ -735,7 +735,7 @@
         "event_id": 18252623,
         "url": "https://seatgeek.com/mico-tickets/houston-texas-white-oak-music-hall-downstairs-2026-10-24-7-pm/concert/18252623",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -929,7 +929,7 @@
         "event_id": 18251761,
         "url": "https://seatgeek.com/mico-tickets/washington-district-of-columbia-9-30-club-2026-10-29-7-pm/concert/18251761",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1823,7 +1823,7 @@
         "event_id": 18665962,
         "url": "https://seatgeek.com/mico-tickets/charleston-south-carolina-charleston-music-hall-2027-02-21-8-pm/concert/18665962",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {

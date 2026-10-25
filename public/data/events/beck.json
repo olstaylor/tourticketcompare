@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "1500648EEB08DA76",
     "ticketmaster_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-washington-district-of-columbia-10-25-2026/event/1500648EEB08DA76",
     "seatgeek_url": "https://seatgeek.com/beck-tickets/washington-district-of-columbia-the-anthem-dc-2026-10-25-7-30-pm/concert/18194417",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beck-tickets-washington-dc-the-anthem-10-25-2026--concerts-alternative/production/6928697",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-washington-district-of-columbia-10-25-2026/event/1500648EEB08DA76",
     "last_verified_at": null,
@@ -27,18 +27,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18194417,
+        "url": "https://seatgeek.com/beck-tickets/washington-district-of-columbia-the-anthem-dc-2026-10-25-7-30-pm/concert/18194417",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6928697,
+        "url": "https://www.vividseats.com/beck-tickets-washington-dc-the-anthem-10-25-2026--concerts-alternative/production/6928697",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -46,11 +46,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7896088",
+        "url": "https://www.ticketnetwork.com/en/p/7896088",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671847",
+        "url": "https://www.stubhub.ie/beck-washington-tickets-10-25-2026/event/107671847",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_FGkDleutU",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896088",
+    "stubhub_international_url": "https://www.stubhub.ie/beck-washington-tickets-10-25-2026/event/107671847"
   },
   {
     "id": "tm-beck-2026-durham-g5evz_fbugjju",
@@ -80,11 +96,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18194420,
+        "url": "https://seatgeek.com/beck-tickets/durham-north-carolina-dpac-durham-performing-arts-center-2026-10-27-8-pm/concert/18194420",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -133,11 +149,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18194423,
+        "url": "https://seatgeek.com/beck-tickets/asheville-north-carolina-harrah-s-cherokee-center-asheville-2026-10-28-8-pm/concert/18194423",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -171,7 +187,7 @@
     "ticketmaster_event_id": "0E00648E91795CA4",
     "ticketmaster_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-atlanta-georgia-10-30-2026/event/0E00648E91795CA4",
     "seatgeek_url": "https://seatgeek.com/beck-tickets/atlanta-georgia-coca-cola-roxy-theatre-2026-10-30-8-pm/concert/18194424",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beck-tickets-atlanta-coca-cola-roxy-theatre-10-30-2026--concerts-alternative/production/6928703",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-atlanta-georgia-10-30-2026/event/0E00648E91795CA4",
     "last_verified_at": null,
@@ -186,18 +202,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18194424,
+        "url": "https://seatgeek.com/beck-tickets/atlanta-georgia-coca-cola-roxy-theatre-2026-10-30-8-pm/concert/18194424",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6928703,
+        "url": "https://www.vividseats.com/beck-tickets-atlanta-coca-cola-roxy-theatre-10-30-2026--concerts-alternative/production/6928703",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -205,11 +221,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7896100",
+        "url": "https://www.ticketnetwork.com/en/p/7896100",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_FBor4w0",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896100"
   },
   {
     "id": "tm-beck-2026-nashville-g5viz_kspxnlj",
@@ -224,7 +248,7 @@
     "ticketmaster_event_id": "1B00646CD68A37DC",
     "ticketmaster_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-nashville-tennessee-10-31-2026/event/1B00646CD68A37DC",
     "seatgeek_url": "https://seatgeek.com/beck-tickets/nashville-tennessee-the-truth-nashville-2026-10-31-8-pm/concert/18126028",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beck-tickets-nashville-the-truth-10-31-2026--concerts-alternative/production/6789923",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-nashville-tennessee-10-31-2026/event/1B00646CD68A37DC",
     "last_verified_at": null,
@@ -239,18 +263,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18126028,
+        "url": "https://seatgeek.com/beck-tickets/nashville-tennessee-the-truth-nashville-2026-10-31-8-pm/concert/18126028",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6789923,
+        "url": "https://www.vividseats.com/beck-tickets-nashville-the-truth-10-31-2026--concerts-alternative/production/6789923",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -258,11 +282,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7808848",
+        "url": "https://www.ticketnetwork.com/en/p/7808848",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_kSpxNLj",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808848"
   },
   {
     "id": "tm-beck-2026-spokane-z7r9jz1aae87y",
@@ -276,8 +308,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAe87Y",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe87Y",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/beck-tickets/spokane-washington-first-interstate-center-for-the-arts-2026-11-06-7-30-pm/concert/18629796",
+    "vividseats_url": "https://www.vividseats.com/beck-tickets-spokane-first-interstate-center-for-the-arts-11-6-2026/production/7622671",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe87Y",
     "last_verified_at": null,
@@ -292,18 +324,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18629796,
+        "url": "https://seatgeek.com/beck-tickets/spokane-washington-first-interstate-center-for-the-arts-2026-11-06-7-30-pm/concert/18629796",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7622671,
+        "url": "https://www.vividseats.com/beck-tickets-spokane-first-interstate-center-for-the-arts-11-6-2026/production/7622671",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -311,11 +343,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301187",
+        "url": "https://www.ticketnetwork.com/en/p/8301187",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe87Y",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301187"
   },
   {
     "id": "tm-beck-2026-seattle-vvg1hz_3rxx2pm",
@@ -330,7 +370,7 @@
     "ticketmaster_event_id": "0F00652BE288F5B7",
     "ticketmaster_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-seattle-washington-11-08-2026/event/0F00652BE288F5B7",
     "seatgeek_url": "https://seatgeek.com/beck-tickets/seattle-washington-benaroya-hall-2026-11-08-7-pm/concert/18590355",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beck-tickets-seattle-benaroya-hall---taper-auditorium-11-8-2026/production/7558616",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-seattle-washington-11-08-2026/event/0F00652BE288F5B7",
     "last_verified_at": null,
@@ -345,18 +385,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18590355,
+        "url": "https://seatgeek.com/beck-tickets/seattle-washington-benaroya-hall-2026-11-08-7-pm/concert/18590355",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7558616,
+        "url": "https://www.vividseats.com/beck-tickets-seattle-benaroya-hall---taper-auditorium-11-8-2026/production/7558616",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -364,11 +404,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265867",
+        "url": "https://www.ticketnetwork.com/en/p/8265867",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3Rxx2pM",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265867"
   },
   {
     "id": "tm-beck-2026-vancouver-1aozk3a0babze8k",
@@ -398,11 +446,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18194425,
+        "url": "https://seatgeek.com/beck-tickets/vancouver-canada-queen-elizabeth-theatre-vancouver-2026-11-09-8-pm/concert/18194425",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -417,11 +465,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7896101",
+        "url": "https://www.ticketnetwork.com/en/p/7896101",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aoZk3a0babZe8k",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896101"
   },
   {
     "id": "tm-beck-2026-portland-z7r9jz1a7xffk",
@@ -435,7 +491,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7xfFk",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xfFk",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/beck-tickets/portland-oregon-keller-auditorium-2026-11-10-8-pm/concert/18194387",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xfFk",
@@ -451,11 +507,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18194387,
+        "url": "https://seatgeek.com/beck-tickets/portland-oregon-keller-auditorium-2026-11-10-8-pm/concert/18194387",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -470,10 +526,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7896028",
+        "url": "https://www.ticketnetwork.com/en/p/7896028",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xfFk",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896028"
   }
 ]

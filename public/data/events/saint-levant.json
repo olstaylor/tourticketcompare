@@ -271,7 +271,7 @@
         "event_id": 7505760,
         "url": "https://www.vividseats.com/saint-levant-tickets-ottawa-history-ottawa-3-19-2027--concerts-pop/production/7505760",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -335,7 +335,7 @@
         "event_id": 7505762,
         "url": "https://www.vividseats.com/saint-levant-tickets-london-london-music-hall---ontario-3-20-2027--concerts-pop/production/7505762",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -400,7 +400,7 @@
         "event_id": 7505840,
         "url": "https://www.vividseats.com/saint-levant-tickets-toronto-history-toronto-3-25-2027--concerts-pop/production/7505840",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -464,7 +464,7 @@
         "event_id": 7505633,
         "url": "https://www.vividseats.com/saint-levant-tickets-brooklyn-brooklyn-paramount-4-1-2027--concerts-pop/production/7505633",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -551,7 +551,7 @@
         "event_id": 7506246,
         "url": "https://www.vividseats.com/saint-levant-tickets-chicago-aragon-ballroom-4-3-2027--concerts-pop/production/7506246",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -623,7 +623,7 @@
         "event_id": 7505714,
         "url": "https://www.vividseats.com/saint-levant-tickets-detroit-the-fillmore-detroit-4-7-2027--concerts-pop/production/7505714",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -702,7 +702,7 @@
         "event_id": 7505732,
         "url": "https://www.vividseats.com/saint-levant-tickets-silver-spring-the-fillmore-silver-spring-4-10-2027--concerts-pop/production/7505732",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -781,7 +781,7 @@
         "event_id": 7505676,
         "url": "https://www.vividseats.com/saint-levant-tickets-los-angeles-the-wiltern-5-2-2027--concerts-pop/production/7505676",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -860,7 +860,7 @@
         "event_id": 7505754,
         "url": "https://www.vividseats.com/saint-levant-tickets-seattle-paramount-theatre-seattle-5-10-2027--concerts-pop/production/7505754",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1431,7 +1431,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "010064E89AEEC559",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-boston-massachusetts-03-27-2027/event/010064E89AEEC559",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/boston-massachusetts-citizens-house-of-blues-boston-2027-03-27-7-pm/concert/18386180",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-boston-massachusetts-03-27-2027/event/010064E89AEEC559",
@@ -1447,11 +1447,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18386180,
+        "url": "https://seatgeek.com/saint-levant-tickets/boston-massachusetts-citizens-house-of-blues-boston-2027-03-27-7-pm/concert/18386180",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1744,7 +1744,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "080064E8A90B6296",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-detroit-michigan-04-06-2027/event/080064E8A90B6296",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/detroit-michigan-the-fillmore-detroit-2027-04-06-7-pm/concert/18386182",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-detroit-michigan-04-06-2027/event/080064E8A90B6296",
@@ -1760,11 +1760,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18386182,
+        "url": "https://seatgeek.com/saint-levant-tickets/detroit-michigan-the-fillmore-detroit-2027-04-06-7-pm/concert/18386182",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1824,7 +1824,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "150064E99DBE63F8",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-silver-spring-maryland-04-09-2027/event/150064E99DBE63F8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/silver-spring-maryland-the-fillmore-silver-spring-2027-04-09-8-pm/concert/18386183",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-silver-spring-maryland-04-09-2027/event/150064E99DBE63F8",
@@ -1840,11 +1840,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18386183,
+        "url": "https://seatgeek.com/saint-levant-tickets/silver-spring-maryland-the-fillmore-silver-spring-2027-04-09-8-pm/concert/18386183",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1904,7 +1904,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D0064E8A000B41A",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-charlotte-north-carolina-04-13-2027/event/2D0064E8A000B41A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/charlotte-north-carolina-the-underground-at-the-fillmore-charlotte-2027-04-13-8-pm/concert/18386194",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-charlotte-north-carolina-04-13-2027/event/2D0064E8A000B41A",
@@ -1920,11 +1920,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18386194,
+        "url": "https://seatgeek.com/saint-levant-tickets/charlotte-north-carolina-the-underground-at-the-fillmore-charlotte-2027-04-13-8-pm/concert/18386194",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1984,7 +1984,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D0064E7EC73EC3C",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-miami-beach-florida-04-16-2027/event/0D0064E7EC73EC3C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/miami-beach-florida-the-fillmore-miami-beach-at-jackie-gleason-theater-2027-04-16-8-pm/concert/18384604",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-miami-beach-florida-04-16-2027/event/0D0064E7EC73EC3C",
@@ -2000,11 +2000,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18384604,
+        "url": "https://seatgeek.com/saint-levant-tickets/miami-beach-florida-the-fillmore-miami-beach-at-jackie-gleason-theater-2027-04-16-8-pm/concert/18384604",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2064,7 +2064,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E0064E702995937",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-atlanta-georgia-04-18-2027/event/0E0064E702995937",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/atlanta-georgia-buckhead-theatre-2027-04-18-8-pm/concert/18386193",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-atlanta-georgia-04-18-2027/event/0E0064E702995937",
@@ -2080,11 +2080,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18386193,
+        "url": "https://seatgeek.com/saint-levant-tickets/atlanta-georgia-buckhead-theatre-2027-04-18-8-pm/concert/18386193",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2208,7 +2208,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A0064E7DC2FAA49",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-houston-texas-04-21-2027/event/3A0064E7DC2FAA49",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/houston-texas-bayou-music-center-2027-04-21-8-pm/concert/18386202",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-houston-texas-04-21-2027/event/3A0064E7DC2FAA49",
@@ -2224,11 +2224,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18386202,
+        "url": "https://seatgeek.com/saint-levant-tickets/houston-texas-bayou-music-center-2027-04-21-8-pm/concert/18386202",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2288,7 +2288,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C0064E8BEA7857E",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-dallas-texas-04-22-2027/event/0C0064E8BEA7857E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2027-04-22-8-pm/concert/18386201",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-dallas-texas-04-22-2027/event/0C0064E8BEA7857E",
@@ -2304,11 +2304,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18386201,
+        "url": "https://seatgeek.com/saint-levant-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2027-04-22-8-pm/concert/18386201",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2368,7 +2368,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1E0064E7C7DB9803",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-denver-colorado-04-25-2027/event/1E0064E7C7DB9803",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/denver-colorado-summit-music-hall-denver-2027-04-25-8-pm/concert/18386203",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-denver-colorado-04-25-2027/event/1E0064E7C7DB9803",
@@ -2384,11 +2384,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18386203,
+        "url": "https://seatgeek.com/saint-levant-tickets/denver-colorado-summit-music-hall-denver-2027-04-25-8-pm/concert/18386203",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2506,7 +2506,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "090064E7A47A5FF4",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-anaheim-california-04-29-2027/event/090064E7A47A5FF4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/anaheim-california-house-of-blues-anaheim-2027-04-29-7-pm/concert/18386213",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-anaheim-california-04-29-2027/event/090064E7A47A5FF4",
@@ -2522,11 +2522,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18386213,
+        "url": "https://seatgeek.com/saint-levant-tickets/anaheim-california-house-of-blues-anaheim-2027-04-29-7-pm/concert/18386213",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2986,7 +2986,7 @@
         "event_id": 7740086,
         "url": "https://www.vividseats.com/saint-levant-tickets-london-eventim-apollo-1-21-2027/production/7740086",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {

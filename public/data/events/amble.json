@@ -438,7 +438,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0900649BEB091EC7",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-los-angeles-california-10-23-2026/event/0900649BEB091EC7",
-    "seatgeek_url": "https://seatgeek.com/amble-tickets/los-angeles-california-the-belasco-los-angeles-2026-10-23-7-pm/concert/18223144",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-los-angeles-california-10-23-2026/event/0900649BEB091EC7",
@@ -454,11 +454,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18223144,
-        "url": "https://seatgeek.com/amble-tickets/los-angeles-california-the-belasco-los-angeles-2026-10-23-7-pm/concert/18223144",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -513,7 +513,7 @@
         "event_id": 18311697,
         "url": "https://seatgeek.com/amble-tickets/san-francisco-california-the-fillmore-san-francisco-2026-10-24-8-pm/concert/18311697",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -661,7 +661,7 @@
         "event_id": 6982424,
         "url": "https://www.vividseats.com/amble-tickets-vancouver-orpheum-theatre---vancouver-10-27-2026--concerts-alternative/production/6982424",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -799,7 +799,7 @@
         "event_id": 6982426,
         "url": "https://www.vividseats.com/amble-tickets-toronto-history-toronto-11-2-2026--concerts-alternative/production/6982426",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -917,7 +917,7 @@
         "event_id": 6982394,
         "url": "https://www.vividseats.com/amble-tickets-boston-citizens-house-of-blues-boston-11-6-2026--concerts-alternative/production/6982394",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -989,7 +989,7 @@
         "event_id": 6982398,
         "url": "https://www.vividseats.com/amble-tickets-brooklyn-brooklyn-paramount-11-7-2026--concerts-alternative/production/6982398",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1069,7 +1069,7 @@
         "event_id": 6982400,
         "url": "https://www.vividseats.com/amble-tickets-philadelphia-theatre-of-living-arts-11-10-2026--concerts-alternative/production/6982400",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1256,7 +1256,7 @@
         "event_id": 18312209,
         "url": "https://seatgeek.com/amble-tickets/nashville-tennessee-brooklyn-bowl-nashville-2026-11-14-8-pm/concert/18312209",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1335,14 +1335,14 @@
         "event_id": 18222773,
         "url": "https://seatgeek.com/amble-tickets/new-orleans-louisiana-house-of-blues-new-orleans-2026-11-16-7-pm/concert/18222773",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6982406,
         "url": "https://www.vividseats.com/amble-tickets-new-orleans-house-of-blues-new-orleans-11-16-2026--concerts-alternative/production/6982406",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1414,7 +1414,7 @@
         "event_id": 18222798,
         "url": "https://seatgeek.com/amble-tickets/austin-texas-emo-s-austin-2026-11-17-7-pm/concert/18222798",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1470,14 +1470,14 @@
         "event_id": 18223872,
         "url": "https://seatgeek.com/amble-tickets/dallas-texas-the-echo-lounge-music-hall-2026-11-18-7-pm/concert/18223872",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6982420,
         "url": "https://www.vividseats.com/amble-tickets-dallas-the-echo-lounge-and-music-hall-11-18-2026--concerts-alternative/production/6982420",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {

@@ -172,6 +172,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8298499",
+        "url": "https://www.ticketnetwork.com/en/p/8298499",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPGbGAuMyrW",
@@ -181,7 +188,8 @@
     "organizer_names": [
       "THE TOURING CO"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-boston-tickets-11-6-2026/event/107675658"
+    "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-boston-tickets-11-6-2026/event/107675658",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8298499"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-boston-vv1a8vpgbgauu_ra",
@@ -244,6 +252,13 @@
         "verified": true,
         "last_verified_at": "2026-10-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8293621",
+        "url": "https://www.ticketnetwork.com/en/p/8293621",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPGbGAuU_ra",
@@ -253,7 +268,8 @@
     "organizer_names": [
       "THE TOURING CO"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-boston-tickets-11-7-2026/event/107677507"
+    "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-boston-tickets-11-7-2026/event/107677507",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293621"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-philadelphia-vv1aezkfygkeinqmd",
@@ -286,7 +302,7 @@
         "event_id": 18645455,
         "url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/philadelphia-pennsylvania-liacouras-center-2026-11-13-8-pm/concert/18645455",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -339,7 +355,7 @@
         "event_id": 18629507,
         "url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/philadelphia-pennsylvania-liacouras-center-2026-11-14-8-pm/concert/18629507",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -392,7 +408,7 @@
         "event_id": 18629264,
         "url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/toronto-canada-scotiabank-arena-2026-11-28-8-pm/concert/18629264",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -481,12 +497,20 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8293991",
+        "url": "https://www.ticketnetwork.com/en/p/8293991",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAef4E",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293991/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Dec-5-2026-Orlando-Amphitheater-at-Central-Florida-Fairgrounds"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293991/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Dec-5-2026-Orlando-Amphitheater-at-Central-Florida-Fairgrounds",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293991"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-minneapolis-vv1akzkfygkd_ao6r",
@@ -519,7 +543,7 @@
         "event_id": 18631720,
         "url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/minneapolis-minnesota-the-armory-minneapolis-2026-12-12-8-pm/concert/18631720",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -542,6 +566,13 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8294956",
+        "url": "https://www.ticketnetwork.com/en/p/8294956",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfYGkd_ao6R",
@@ -550,7 +581,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294956/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Dec-12-2026-The-Armory-Minneapolis",
     "organizer_names": [
       "THE TOURING CO"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294956"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-hartford-z7r9jz1aaea_k",
@@ -606,11 +638,19 @@
         "verified": true,
         "last_verified_at": "2026-10-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8293968",
+        "url": "https://www.ticketnetwork.com/en/p/8293968",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAea_K",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293968/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Dec-19-2026-PeoplesBank-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293968/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Dec-19-2026-PeoplesBank-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293968"
   }
 ]

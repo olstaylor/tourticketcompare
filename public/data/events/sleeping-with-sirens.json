@@ -53,6 +53,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8053935",
+        "url": "https://www.ticketnetwork.com/en/p/8053935",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_GxWRJXj",
@@ -61,7 +68,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053935/Sleeping-With-Sirens-tickets-Sat-Oct-24-2026-GLC-Live-at-20-Monroe",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8053935"
   },
   {
     "id": "tm-sleeping-with-sirens-2026-chicago-vvg18z_gr6ix5f",
@@ -170,12 +178,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8053970",
+        "url": "https://www.ticketnetwork.com/en/p/8053970",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P_Ae",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053970/Sleeping-With-Sirens-tickets-Tue-Oct-27-2026-Stage-AE"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053970/Sleeping-With-Sirens-tickets-Tue-Oct-27-2026-Stage-AE",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8053970"
   },
   {
     "id": "tm-sleeping-with-sirens-2026-royal-oak-z7r9jz1a7p_ad",
@@ -231,12 +247,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8053969",
+        "url": "https://www.ticketnetwork.com/en/p/8053969",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P_Ad",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053969/Sleeping-With-Sirens-tickets-Wed-Oct-28-2026-Royal-Oak-Music-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053969/Sleeping-With-Sirens-tickets-Wed-Oct-28-2026-Royal-Oak-Music-Theatre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8053969"
   },
   {
     "id": "tm-sleeping-with-sirens-2026-montreal-17g8v0g6gxey070",
@@ -299,6 +323,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8053967",
+        "url": "https://www.ticketnetwork.com/en/p/8053967",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G6GxEy070",
@@ -308,7 +339,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053967/Sleeping-With-Sirens-tickets-Fri-Oct-30-2026-MTelus",
     "organizer_names": [
       "EVENKO CO-PRO NON-LN"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8053967"
   },
   {
     "id": "tm-sleeping-with-sirens-2026-ottawa-17g8v0g6gwupswm",
@@ -503,6 +535,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8053941",
+        "url": "https://www.ticketnetwork.com/en/p/8053941",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_GmBZ9_J",
@@ -519,7 +558,8 @@
         "start": "2026-06-18T14:00:00Z",
         "end": "2026-10-28T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8053941"
   },
   {
     "id": "tm-sleeping-with-sirens-2026-sayreville-z7r9jz1a7p_a7",
@@ -575,12 +615,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8053971",
+        "url": "https://www.ticketnetwork.com/en/p/8053971",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P_A7",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053971/Sleeping-With-Sirens-tickets-Wed-Nov-4-2026-Starland-Ballroom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053971/Sleeping-With-Sirens-tickets-Wed-Nov-4-2026-Starland-Ballroom",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8053971"
   },
   {
     "id": "tm-sleeping-with-sirens-2026-philadelphia-vvg1fz_gm9cqxe",
@@ -636,6 +684,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8053942",
+        "url": "https://www.ticketnetwork.com/en/p/8053942",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_Gm9cQxe",
@@ -651,7 +706,8 @@
         "start": "2026-06-18T14:00:00Z",
         "end": "2026-10-31T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8053942"
   },
   {
     "id": "tm-sleeping-with-sirens-2026-new-york-k7vgf_gnebmkt",
@@ -729,7 +785,7 @@
     "ticketmaster_event_id": "150064C8BFE8B9F5",
     "ticketmaster_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-baltimore-maryland-11-08-2026/event/150064C8BFE8B9F5",
     "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/baltimore-maryland-nevermore-hall-2026-11-08-7-pm/concert/18312278",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-baltimore-nevermore-hall-11-8-2026/production/7163672",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-baltimore-maryland-11-08-2026/event/150064C8BFE8B9F5",
     "last_verified_at": "2026-10-24",
@@ -751,11 +807,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7163672,
+        "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-baltimore-nevermore-hall-11-8-2026/production/7163672",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -767,6 +823,13 @@
       "ticket-liquidator": {
         "event_id": "8053963",
         "url": "https://www.ticketliquidator.com/tickets/8053963/Sleeping-With-Sirens-tickets-Sun-Nov-8-2026-Nevermore-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8053963",
+        "url": "https://www.ticketnetwork.com/en/p/8053963",
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
@@ -785,7 +848,8 @@
         "start": "2026-06-18T14:00:00Z",
         "end": "2026-11-02T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8053963"
   },
   {
     "id": "tm-sleeping-with-sirens-2026-charlotte-g5evz_gnuzybg",
@@ -841,6 +905,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8053964",
+        "url": "https://www.ticketnetwork.com/en/p/8053964",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_GnuzyBg",
@@ -856,7 +927,8 @@
         "start": "2026-06-18T14:00:00Z",
         "end": "2026-11-05T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8053964"
   },
   {
     "id": "tm-sleeping-with-sirens-2026-atlanta-z7r9jz1a7p_aa",
@@ -912,12 +984,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8053972",
+        "url": "https://www.ticketnetwork.com/en/p/8053972",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P_AA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053972/Sleeping-With-Sirens-tickets-Thu-Nov-12-2026-The-Eastern-GA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053972/Sleeping-With-Sirens-tickets-Thu-Nov-12-2026-The-Eastern-GA",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8053972"
   },
   {
     "id": "tm-sleeping-with-sirens-2027-bristol-17u8v0g6gfkrxfj",
@@ -1174,6 +1254,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8127272",
+        "url": "https://www.ticketnetwork.com/en/p/8127272",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_5wUO0od",
@@ -1183,7 +1270,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8127272/Sleeping-With-Sirens-tickets-Sat-Mar-6-2027-O2-Academy-Birmingham",
     "organizer_names": [
       "ACADEMY MUSIC GROUP (O2 ACADEMY BIRMINGHAM)"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127272"
   },
   {
     "id": "tm-sleeping-with-sirens-2027-london-g5dzz_g5cip1i",
@@ -1246,6 +1334,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8050887",
+        "url": "https://www.ticketnetwork.com/en/p/8050887",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_G5CIP1i",
@@ -1256,7 +1351,8 @@
     "organizer_names": [
       "KILIMANJARO",
       "ACADEMY MUSIC GROUP (O2 ACADEMY BRIXTON)"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8050887"
   },
   {
     "id": "tm-sleeping-with-sirens-2027-brisbane-1akzkfygkeprtzf",

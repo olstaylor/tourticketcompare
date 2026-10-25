@@ -60,6 +60,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7892306",
+        "url": "https://www.ticketnetwork.com/en/p/7892306",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_kt0YoDW",
@@ -69,7 +76,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7892306/Chayanne-tickets-Sat-Oct-24-2026-Kaseya-Center",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7892306"
   },
   {
     "id": "tm-chayanne-2026-tampa-vvg1vz_km8pku0",
@@ -132,6 +140,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7892339",
+        "url": "https://www.ticketnetwork.com/en/p/7892339",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_km8pku0",
@@ -153,7 +168,8 @@
         "start": "2026-10-28T14:00:00Z",
         "end": "2026-10-30T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7892339"
   },
   {
     "id": "tm-chayanne-2026-orlando-1aefz_kgkwoqkla",
@@ -216,6 +232,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7892340",
+        "url": "https://www.ticketnetwork.com/en/p/7892340",
+        "verified": true,
+        "last_verified_at": "2026-10-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_kGkwOQklA",
@@ -242,6 +265,7 @@
         "start": "2026-10-28T14:00:00Z",
         "end": "2026-10-30T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7892340"
   }
 ]

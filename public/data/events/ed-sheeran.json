@@ -1635,11 +1635,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106954384",
-        "url": "https://www.stubhub.ie/ed-sheeran-arlington-tickets-10-24-2026/event/106954384",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7j-_w",
@@ -1648,7 +1648,7 @@
     "timezone": "America/Chicago",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418618",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418618/Ed-Sheeran-tickets-Sat-Oct-24-2026-ATT-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-arlington-tickets-10-24-2026/event/106954384"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ed-sheeran-2026-hollywood-0d006331a7d91aff",
@@ -1687,7 +1687,7 @@
         "event_id": 6049741,
         "url": "https://www.vividseats.com/ed-sheeran-tickets-hollywood-hard-rock-live---hollywood-10-29-2026--concerts-pop/production/6049741",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1764,7 +1764,7 @@
         "event_id": 6049743,
         "url": "https://www.vividseats.com/ed-sheeran-tickets-hollywood-hard-rock-live---hollywood-10-30-2026--concerts-pop/production/6049743",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1841,7 +1841,7 @@
         "event_id": 6049744,
         "url": "https://www.vividseats.com/ed-sheeran-tickets-tampa-raymond-james-stadium-11-7-2026--concerts-pop/production/6049744",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-24",
         "availability_status": "listed"
       },
       "stubhub": {

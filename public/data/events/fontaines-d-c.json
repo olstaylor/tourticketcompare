@@ -112,17 +112,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107554701",
-        "url": "https://www.stubhub.ie/fontaines-d-c-tickets-barcelona-sant-jordi-club-24-10-2026/event/107554701",
-        "verified": true,
-        "last_verified_at": "2026-10-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vvp4SPs",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-barcelona-sant-jordi-club-24-10-2026/event/107554701",
+    "stubhub_international_url": "",
     "organizer_names": [
       "Live Nation España Red Path SL"
     ]

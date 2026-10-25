@@ -444,6 +444,12 @@ async function readJsonIfPresent(absolutePath) {
   }
 }
 
+// Keep the router, the crawl and every expected record on one clock: a show that
+// starts mid-crawl must not drop off the rendered pages while the route list
+// still names it (same fix as audit-internal-links.mjs).
+const AUDIT_NOW = Date.now();
+Date.now = () => AUDIT_NOW;
+
 // One crawler, shared with scripts/audit-internal-links.mjs, so the two audits
 // cannot disagree about which routes exist or how a page parses.
 const site = await loadSiteFixture(root);

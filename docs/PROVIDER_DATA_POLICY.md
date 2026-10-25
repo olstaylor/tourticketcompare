@@ -137,7 +137,9 @@ The implementation includes:
 
 Campaign/catalog IDs and credential routing are server-side configuration and must not be copied into public or stable documentation. Verify them through the provider workflow and record only non-secret current activation in `PROJECT_STATUS.md`.
 
-No inventory/scarcity claim, final-price claim, scraping, generic search link, cross-provider event guess, or untracked affiliate fallback is permitted.
+No inventory/scarcity claim, final-price claim, scraping, cross-provider event guess, or untracked affiliate fallback is permitted. Generic search links are permitted only as the "Check prices" button below.
+
+**"Check prices" on dates with no matched resale link (owner-approved 2026-10-25).** An artist-page show card with no matched link on a resale site offers one "Check prices" button for that site, always through `/api/out` and Impact-wrapped with the Sub ID, and always captioned as not this date. SeatGeek goes to the artist's verified performer page. TicketNetwork and Ticket Liquidator go to a search for the artist's name, built server-side by `/api/out` from `artists.json` (`SEARCH_CHECK_URL_BUILDERS`; the request carries no destination). A provider gets a search link only after its URL shape is confirmed live; Vivid Seats and StubHub International have none yet. These buttons make no price claim, carry no `showId`, never replace a matched button, never appear on held or on-sale-pending dates, and report `cta_location = event_card_check`.
 
 ---
 

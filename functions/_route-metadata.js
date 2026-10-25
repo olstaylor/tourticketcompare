@@ -321,7 +321,7 @@ export const TRUST_ROUTES = {
       "Practical concert-ticket guides on matching listings, checking final totals, choosing primary or resale, timing a purchase, and confirming provider terms.",
     indexable: true,
     breadcrumb: [{ name: "Guides", path: "/guides" }],
-    lastmod: "2026-10-23"
+    lastmod: "2026-10-25"
   },
   "/how-it-works": {
     title: "How TourTicketCompare Works",

@@ -285,9 +285,17 @@
       input.value = query;
       renderResults(query);
     }
-    var prepare = function () { buildLinkIndex(); loadEventIndex(); };
+    // The event index (about 1.5 MB of JSON, mapped on the main thread) is only
+    // needed once someone searches, so it loads on first interaction with the
+    // field, not at idle: eagerly it was the page's main blocking-time cost
+    // (Lighthouse TBT 10 s on mobile settings, 2026-10-25). The cheap link index
+    // still warms at idle.
+    var prepare = function () { buildLinkIndex(); };
     if ("requestIdleCallback" in window) window.requestIdleCallback(prepare, { timeout: 2000 });
     else window.setTimeout(prepare, 1200);
+    var warmEvents = function () { loadEventIndex(); };
+    input.addEventListener("focus", warmEvents, { once: true });
+    input.addEventListener("pointerdown", warmEvents, { once: true });
     // Keeps the parity contract live without rewriting server-rendered copy.
     if (!proposition.headline || proposition.steps.length !== 3) throw new Error("Homepage proposition unavailable");
   }

@@ -12,6 +12,10 @@ on:
         type: choice
         options: [preview, mock, live]
         default: preview
+      artists:
+        description: 'Optional: up to 4 artist slugs, comma separated (e.g. harry-styles,oasis). Drafts a 2027-style tour guide for each instead of the weekly ideas.'
+        type: string
+        default: ''
       issue_number:
         description: 'Managed weekly recommendations issue (first integration test: 1538)'
         type: string
@@ -76,6 +80,7 @@ jobs:
       - name: Select, research, draft, validate and open draft PR
         env:
           BLOG_DRAFT_MODE: ${{ inputs.mode || 'live' }}
+          BLOG_DRAFT_ARTISTS: ${{ inputs.artists }}
           BLOG_IDEAS_ISSUE: ${{ inputs.issue_number || vars.BLOG_IDEAS_ISSUE || '1538' }}
           GITHUB_TOKEN: ${{ steps.identity.outputs.token || secrets.GITHUB_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

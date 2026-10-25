@@ -124,11 +124,10 @@ export function rankCandidates(candidates) {
   return [...candidates].sort((a, b) => b.score - a.score || a.deadline - b.deadline || a.key.localeCompare(b.key));
 }
 
-export function buildReport(source, { now = Date.now(), history = [] } = {}) {
+// Fresh, verified, Ticketmaster-evidenced upcoming events of indexable artists.
+export function eligibleEvents(source, { now = Date.now() } = {}) {
   validateSources(source, now);
-  validateHistory(history, now);
-  const { events, artists, catalog, documents } = source;
-  const week = weekOf(now);
+  const { events, artists, catalog } = source;
   const providers = new Map(catalog.providers.map((provider) => [provider.slug, provider.public_enabled === true]));
   const allowedHosts = catalog.providers.find((provider) => provider.slug === "ticketmaster")?.allowed_destination_hosts;
   if (!Array.isArray(allowedHosts) || !allowedHosts.length) fail("missing Ticketmaster host allowlist");
@@ -150,6 +149,14 @@ export function buildReport(source, { now = Date.now(), history = [] } = {}) {
   // Ordinary expiry is a valid empty result. An active corpus with no fresh,
   // verified source is an outage, not a quiet week; leave the issue untouched.
   if (upcoming && !eligible.length) fail("no fresh, verified upcoming events; source evidence cannot be trusted");
+  return { indexable, eligible, upcoming };
+}
+
+export function buildReport(source, { now = Date.now(), history = [] } = {}) {
+  validateHistory(history, now);
+  const { documents } = source;
+  const week = weekOf(now);
+  const { indexable, eligible, upcoming } = eligibleEvents(source, { now });
   const candidates = [];
   let duplicateCount = 0;
   for (const artist of indexable.values()) {

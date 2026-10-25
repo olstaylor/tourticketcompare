@@ -101,6 +101,14 @@ marks ready or merges an editorial PR. Every generated article explicitly has
 `status: draft`, even after automated review passes. A human must decide whether
 it is useful and substantiated before publication.
 
+### Named tour guides
+
+A manual run can take `artists` (up to four artist slugs, comma separated) and
+drafts a tour guide for each instead of the weekly ideas: the earliest fresh,
+verified date in each city (up to 12), rechecked against Ticketmaster, with the
+same content checks and budget as other drafts. Artists that already have a tour
+guide, are not indexable or have fewer than three eligible cities are skipped.
+
 ### Integration and budget
 
 The [official Claude Code Action v1](https://github.com/anthropics/claude-code-action)

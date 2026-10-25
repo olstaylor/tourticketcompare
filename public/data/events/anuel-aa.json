@@ -1,0 +1,161 @@
+[
+  {
+    "id": "tm-anuel-aa-2026-belmont-park-1ayzkffgkd4zfkj",
+    "artist_slug": "anuel-aa",
+    "artist_name": "Anuel AA",
+    "event_name": "Anuel AA",
+    "city": "Belmont Park",
+    "country": "United States Of America",
+    "venue": "UBS Arena",
+    "datetime_iso": "2026-11-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "30006514D50084DC",
+    "ticketmaster_url": "https://www.ticketmaster.com/anuel-aa-belmont-park-new-york-11-06-2026/event/30006514D50084DC",
+    "seatgeek_url": "https://seatgeek.com/anuel-aa-tickets/elmont-new-york-ubs-arena-2026-11-06-8-pm/concert/18579489",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/anuel-aa-belmont-park-new-york-11-06-2026/event/30006514D50084DC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "30006514D50084DC",
+        "discovery_event_id": "1AYZkffGkd4ZFKj",
+        "url": "https://www.ticketmaster.com/anuel-aa-belmont-park-new-york-11-06-2026/event/30006514D50084DC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AYZkffGkd4ZFKj",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-anuel-aa-2027-monterrey-g5dvz_6rcdk4r",
+    "artist_slug": "anuel-aa",
+    "artist_name": "Anuel AA",
+    "event_name": "Anuel AA",
+    "city": "Monterrey",
+    "country": "Mexico",
+    "venue": "Estadio Borregos",
+    "datetime_iso": "2027-04-09T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D0064778E0D356F",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/anuel-aa-monterrey-08-04-2027/event/3D0064778E0D356F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/anuel-aa-monterrey-08-04-2027/event/3D0064778E0D356F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D0064778E0D356F",
+        "discovery_event_id": "G5dVZ_6rCdK4R",
+        "url": "https://www.ticketmaster.com.mx/anuel-aa-monterrey-08-04-2027/event/3D0064778E0D356F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_6rCdK4R",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-anuel-aa-2027-zapopan-g5dvz_6raf6md",
+    "artist_slug": "anuel-aa",
+    "artist_name": "Anuel AA",
+    "event_name": "Anuel AA",
+    "city": "Zapopan",
+    "country": "Mexico",
+    "venue": "Coliseo GNP Seguros",
+    "datetime_iso": "2027-04-16T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D00647BC5207BBB",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/anuel-aa-zapopan-15-04-2027/event/3D00647BC5207BBB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/anuel-aa-zapopan-15-04-2027/event/3D00647BC5207BBB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D00647BC5207BBB",
+        "discovery_event_id": "G5dVZ_6RAF6mD",
+        "url": "https://www.ticketmaster.com.mx/anuel-aa-zapopan-15-04-2027/event/3D00647BC5207BBB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_6RAF6mD",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  }
+]

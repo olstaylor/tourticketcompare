@@ -1,0 +1,108 @@
+[
+  {
+    "id": "tm-luke-bryan-2026-mescalero-vvg1yz_gw6bfly",
+    "artist_slug": "luke-bryan",
+    "artist_name": "Luke Bryan",
+    "event_name": "Luke Bryan",
+    "city": "Mescalero",
+    "country": "United States Of America",
+    "venue": "Inn of the Mountain Gods Resort and Casino",
+    "datetime_iso": "2026-12-06T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064CC87E94AF0",
+    "ticketmaster_url": "https://www.ticketmaster.com/luke-bryan-mescalero-new-mexico-12-05-2026/event/0C0064CC87E94AF0",
+    "seatgeek_url": "https://seatgeek.com/luke-bryan-tickets/mescalero-new-mexico-inn-of-the-mountain-gods-resort-and-casino-2026-12-05-8-pm/concert/18571831",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/luke-bryan-mescalero-new-mexico-12-05-2026/event/0C0064CC87E94AF0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064CC87E94AF0",
+        "discovery_event_id": "vvG1YZ_Gw6BflY",
+        "url": "https://www.ticketmaster.com/luke-bryan-mescalero-new-mexico-12-05-2026/event/0C0064CC87E94AF0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_Gw6BflY",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-luke-bryan-2026-las-vegas-1avjz_agkws6gfv",
+    "artist_slug": "luke-bryan",
+    "artist_name": "Luke Bryan",
+    "event_name": "Luke Bryan & Jason Aldean: Double Down Tour 2026",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Allegiant Stadium",
+    "datetime_iso": "2026-12-12T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700649CB11CC234",
+    "ticketmaster_url": "https://www.ticketmaster.com/luke-bryan-jason-aldean-double-down-las-vegas-nevada-12-11-2026/event/1700649CB11CC234",
+    "seatgeek_url": "https://seatgeek.com/luke-bryan-tickets/las-vegas-nevada-allegiant-stadium-2026-12-11-3-30-am/concert/18211763",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/luke-bryan-jason-aldean-double-down-las-vegas-nevada-12-11-2026/event/1700649CB11CC234",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700649CB11CC234",
+        "discovery_event_id": "1AvjZ_aGkws6GFV",
+        "url": "https://www.ticketmaster.com/luke-bryan-jason-aldean-double-down-las-vegas-nevada-12-11-2026/event/1700649CB11CC234",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_aGkws6GFV",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

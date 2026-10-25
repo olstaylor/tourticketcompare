@@ -1,0 +1,271 @@
+[
+  {
+    "id": "tm-bon-jovi-2027-docklands-1aefz_fgkxe60v9",
+    "artist_slug": "bon-jovi",
+    "artist_name": "Bon Jovi",
+    "event_name": "Bon Jovi - The Forever Tour 2027",
+    "city": "Docklands",
+    "country": "Australia",
+    "venue": "Marvel Stadium",
+    "datetime_iso": "2027-03-04T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500654F821E4057",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bon-jovi-the-forever-tour-2027-docklands-04-03-2027/event/2500654F821E4057",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bon-jovi-the-forever-tour-2027-docklands-04-03-2027/event/2500654F821E4057",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500654F821E4057",
+        "discovery_event_id": "1AefZ_fGkXe60v9",
+        "url": "https://www.ticketmaster.com.au/bon-jovi-the-forever-tour-2027-docklands-04-03-2027/event/2500654F821E4057",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZ_fGkXe60v9",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bon-jovi-2027-east-rutherford-k7vgf_4evgqwy",
+    "artist_slug": "bon-jovi",
+    "artist_name": "Bon Jovi",
+    "event_name": "Bon Jovi: Forever Tour",
+    "city": "East Rutherford",
+    "country": "United States Of America",
+    "venue": "MetLife Stadium",
+    "datetime_iso": "2027-07-15T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006550B4D5AF70",
+    "ticketmaster_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-east-rutherford-new-jersey-07-15-2027/event/00006550B4D5AF70",
+    "seatgeek_url": "https://seatgeek.com/bon-jovi-tickets/east-rutherford-new-jersey-metlife-stadium-2027-07-15-6-30-pm/concert/18696568",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-east-rutherford-new-jersey-07-15-2027/event/00006550B4D5AF70",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006550B4D5AF70",
+        "discovery_event_id": "k7vGF_4eVgQWY",
+        "url": "https://www.ticketmaster.com/bon-jovi-forever-tour-east-rutherford-new-jersey-07-15-2027/event/00006550B4D5AF70",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_4eVgQWY",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T14:00:00Z"
+  },
+  {
+    "id": "tm-bon-jovi-2027-chicago-vv178z_fgkh_n5td",
+    "artist_slug": "bon-jovi",
+    "artist_name": "Bon Jovi",
+    "event_name": "Bon Jovi: Forever Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Soldier Field",
+    "datetime_iso": "2027-07-21T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400654F198CBFFB",
+    "ticketmaster_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-chicago-illinois-07-21-2027/event/0400654F198CBFFB",
+    "seatgeek_url": "https://seatgeek.com/bon-jovi-tickets/chicago-illinois-soldier-field-2027-07-21-6-30-pm/concert/18696570",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-chicago-illinois-07-21-2027/event/0400654F198CBFFB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400654F198CBFFB",
+        "discovery_event_id": "vv178Z_fGkH_N5TD",
+        "url": "https://www.ticketmaster.com/bon-jovi-forever-tour-chicago-illinois-07-21-2027/event/0400654F198CBFFB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv178Z_fGkH_N5TD",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T15:00:00Z"
+  },
+  {
+    "id": "tm-bon-jovi-2027-foxborough-vv1avzk48gke-15d8",
+    "artist_slug": "bon-jovi",
+    "artist_name": "Bon Jovi",
+    "event_name": "Bon Jovi: Forever Tour",
+    "city": "Foxborough",
+    "country": "United States Of America",
+    "venue": "Gillette Stadium",
+    "datetime_iso": "2027-07-28T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006550A128B0D0",
+    "ticketmaster_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-foxborough-massachusetts-07-28-2027/event/01006550A128B0D0",
+    "seatgeek_url": "https://seatgeek.com/bon-jovi-tickets/foxborough-massachusetts-gillette-stadium-2027-07-28-7-pm/concert/18696567",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-foxborough-massachusetts-07-28-2027/event/01006550A128B0D0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006550A128B0D0",
+        "discovery_event_id": "vv1AvZk48Gke-15d8",
+        "url": "https://www.ticketmaster.com/bon-jovi-forever-tour-foxborough-massachusetts-07-28-2027/event/01006550A128B0D0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk48Gke-15d8",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T14:00:00Z"
+  },
+  {
+    "id": "tm-bon-jovi-2027-toronto-1a8zk48je1zze8k",
+    "artist_slug": "bon-jovi",
+    "artist_name": "Bon Jovi",
+    "event_name": "Bon Jovi",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Stadium",
+    "datetime_iso": "2027-08-04T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006550982280F5",
+    "ticketmaster_url": "https://www.ticketmaster.ca/bon-jovi-toronto-ontario-08-04-2027/event/10006550982280F5",
+    "seatgeek_url": "https://seatgeek.com/bon-jovi-tickets/toronto-canada-rogers-stadium-toronto-2027-08-04-6-30-pm/concert/18696569",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/bon-jovi-toronto-ontario-08-04-2027/event/10006550982280F5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006550982280F5",
+        "discovery_event_id": "1a8Zk48Je1ZZe8k",
+        "url": "https://www.ticketmaster.ca/bon-jovi-toronto-ontario-08-04-2027/event/10006550982280F5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1a8Zk48Je1ZZe8k",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T14:00:00Z"
+  }
+]

@@ -1,0 +1,488 @@
+[
+  {
+    "id": "tm-sam-fender-2027-newcastle-upon-tyne-1agzk4fgkd88g8t",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender - Proper Massive Stadium Tour '27",
+    "city": "Newcastle Upon Tyne",
+    "country": "Great Britain",
+    "venue": "St James Park",
+    "datetime_iso": "2027-06-03T15:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006554D0435429",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-newcastle-upon-tyne-03-06-2027/event/35006554D0435429",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-newcastle-upon-tyne-03-06-2027/event/35006554D0435429",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006554D0435429",
+        "discovery_event_id": "1AgZk4fGkd88g8t",
+        "url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-newcastle-upon-tyne-03-06-2027/event/35006554D0435429",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk4fGkd88g8t",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
+  },
+  {
+    "id": "tm-sam-fender-2027-newcastle-upon-tyne-1adfz_fgktpp_oj",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender - Proper Massive Stadium Tour '27",
+    "city": "Newcastle Upon Tyne",
+    "country": "Great Britain",
+    "venue": "St James Park",
+    "datetime_iso": "2027-06-05T15:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500654FD659945C",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-newcastle-upon-tyne-05-06-2027/event/3500654FD659945C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-newcastle-upon-tyne-05-06-2027/event/3500654FD659945C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500654FD659945C",
+        "discovery_event_id": "1AdfZ_fGkTpp_oj",
+        "url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-newcastle-upon-tyne-05-06-2027/event/3500654FD659945C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_fGkTpp_oj",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
+  },
+  {
+    "id": "tm-sam-fender-2027-cardiff-16gzk4fpszage5ca",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender - Proper Massive Stadium Tour '27",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Principality Stadium",
+    "datetime_iso": "2027-06-10T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006554971B1AD4",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-cardiff-10-06-2027/event/35006554971B1AD4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-cardiff-10-06-2027/event/35006554971B1AD4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006554971B1AD4",
+        "discovery_event_id": "16gZk4fPsZAGe5CA",
+        "url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-cardiff-10-06-2027/event/35006554971B1AD4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16gZk4fPsZAGe5CA",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
+  },
+  {
+    "id": "tm-sam-fender-2027-london-16nzk4f00zauv12c",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender - Proper Massive Stadium Tour '27",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2027-06-18T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "23006554924C09ED",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-18-06-2027/event/23006554924C09ED",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-18-06-2027/event/23006554924C09ED",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "23006554924C09ED",
+        "discovery_event_id": "16NZk4f00ZAuv12C",
+        "url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-18-06-2027/event/23006554924C09ED",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16NZk4f00ZAuv12C",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
+  },
+  {
+    "id": "tm-sam-fender-2027-london-1anzk4fgkdp88g6",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender - Proper Massive Stadium Tour '27",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2027-06-20T15:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "23006554D6410D47",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-20-06-2027/event/23006554D6410D47",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-20-06-2027/event/23006554D6410D47",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "23006554D6410D47",
+        "discovery_event_id": "1ANZk4fGkdp88g6",
+        "url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-20-06-2027/event/23006554D6410D47",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ANZk4fGkdp88g6",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
+  },
+  {
+    "id": "tm-sam-fender-2027-dublin-1avoz_fgkxvywdt",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender - Proper Massive Stadium Tour '27",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "Marlay Park",
+    "datetime_iso": "2027-07-01T15:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800654F81E72EE9",
+    "ticketmaster_url": "https://www.ticketmaster.ie/sam-fender-proper-massive-stadium-tour-dublin-01-07-2027/event/1800654F81E72EE9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/sam-fender-proper-massive-stadium-tour-dublin-01-07-2027/event/1800654F81E72EE9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800654F81E72EE9",
+        "discovery_event_id": "1AvOZ_fGkXvywDt",
+        "url": "https://www.ticketmaster.ie/sam-fender-proper-massive-stadium-tour-dublin-01-07-2027/event/1800654F81E72EE9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_fGkXvywDt",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
+  },
+  {
+    "id": "tm-sam-fender-2027-edinburgh-1auzk4fgkd4qebt",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender - Proper Massive Stadium Tour '27",
+    "city": "Edinburgh",
+    "country": "Great Britain",
+    "venue": "Scottish Gas Murrayfield",
+    "datetime_iso": "2027-07-08T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006554D56A7629",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-edinburgh-08-07-2027/event/36006554D56A7629",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-edinburgh-08-07-2027/event/36006554D56A7629",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006554D56A7629",
+        "discovery_event_id": "1AUZk4fGkd4QEbt",
+        "url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-edinburgh-08-07-2027/event/36006554D56A7629",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZk4fGkd4QEbt",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
+  },
+  {
+    "id": "tm-sam-fender-2027-manchester-g5dzz_42lyjlw",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender - Proper Massive Stadium Tour '27",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Etihad Stadium",
+    "datetime_iso": "2027-07-15T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006553EBE66AFD",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-manchester-15-07-2027/event/3E006553EBE66AFD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-manchester-15-07-2027/event/3E006553EBE66AFD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006553EBE66AFD",
+        "discovery_event_id": "G5dzZ_42lyJlW",
+        "url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-manchester-15-07-2027/event/3E006553EBE66AFD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_42lyJlW",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
+  },
+  {
+    "id": "tm-sam-fender-2027-manchester-g5dzz_4k4turs",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender - Proper Massive Stadium Tour '27",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Etihad Stadium",
+    "datetime_iso": "2027-07-17T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006554D5FF67B3",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-manchester-17-07-2027/event/3E006554D5FF67B3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-manchester-17-07-2027/event/3E006554D5FF67B3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006554D5FF67B3",
+        "discovery_event_id": "G5dzZ_4K4TUrS",
+        "url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-manchester-17-07-2027/event/3E006554D5FF67B3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_4K4TUrS",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
+  }
+]

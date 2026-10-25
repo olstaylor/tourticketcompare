@@ -337,7 +337,13 @@ export function anthropicClient({ apiKey, fetchImpl = fetch } = {}) {
         headers: { 'x-api-key': apiKey, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
         body: JSON.stringify({ model: MODEL, max_tokens: limit, output_config: { effort: EFFORT }, system, messages: [{ role: 'user', content: serialized }] }) });
     } catch { fail('Anthropic request failed (details withheld); no retry'); }
-    if (!response.ok) fail(`Anthropic HTTP ${response.status}; no retry`);
+    if (!response.ok) {
+      // A rejected request is not billed. Surface Anthropic's own error type and message (never headers or the key).
+      record.estimatedUsd = 0;
+      let detail = '';
+      try { const body = await response.json(); detail = ` ${String(body?.error?.type || '').slice(0, 60)}: ${String(body?.error?.message || '').replace(/sk-[A-Za-z0-9_-]+/g, '[key]').slice(0, 300)}`; } catch { /* no body */ }
+      fail(`Anthropic HTTP ${response.status};${detail} no retry`);
+    }
     let data;
     try { data = await response.json(); } catch { fail('invalid Anthropic response'); }
     if (!Number.isInteger(data.usage?.input_tokens) || !Number.isInteger(data.usage?.output_tokens)) fail('missing API usage');

@@ -6,7 +6,7 @@ import os from 'node:os';
 import { execFileSync } from 'node:child_process';
 import { pathToFileURL, fileURLToPath } from 'node:url';
 import { parse as parseYaml } from 'yaml';
-import { selectArticle, selectTourGuides, remoteMismatches, buildEvidence, checkArticle, generateArticle, anthropicClient, researchEvidence, verifyRemoteEvent,
+import { selectArticle, spentUsd, selectTourGuides, remoteMismatches, buildEvidence, checkArticle, generateArticle, anthropicClient, researchEvidence, verifyRemoteEvent,
   reserveTopic, listEditorialPrs, MODEL, EFFORT, OUTPUT_LIMITS, MAX_ESTIMATED_USD, MAX_OPEN_DRAFTS, prBody } from './lib/blog-drafting.mjs';
 import { draftOnce, prepareContent, readDraftRules } from './draft-blog-article.mjs';
 import { createMockClient, mockMarkdown } from './fixtures/blog-draft-model.mjs';
@@ -490,4 +490,11 @@ test('named tour guides cite one date per city, skip unknown artists and never u
     assert(c.links.includes(`/artists/${c.artist}`));
   }
   assert.equal(selectTourGuides(fixture, ['not-a-real-artist'], { now }).selected, null);
+});
+
+test('a rejected Anthropic request reports its error type and message, costs nothing and never echoes the key', async () => {
+  const client = anthropicClient({ apiKey: 'sk-ant-secret-123', fetchImpl: async () => ({ ok: false, status: 400,
+    json: async () => ({ error: { type: 'invalid_request_error', message: 'Your credit balance is too low (sk-ant-secret-123)' } }) }) });
+  await assert.rejects(client.request('s', { a: 1 }, 100), (error) => /HTTP 400; invalid_request_error: Your credit balance is too low/.test(error.message) && !error.message.includes('sk-ant-secret-123'));
+  assert.equal(spentUsd(client.usage), 0);
 });

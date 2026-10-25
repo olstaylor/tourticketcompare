@@ -30,6 +30,7 @@
     "test:uk-concert-activity": "node --test scripts/uk-concert-activity.test.mjs",
     "report:price-coverage:self-test": "node scripts/report-price-coverage.mjs --self-test",
     "test:artist-city-prices": "node scripts/artist-city-prices.test.mjs",
+    "test:artist-check-prices": "node scripts/artist-check-prices.test.mjs",
     "test:event-price-low": "node scripts/event-price-low.test.mjs",
     "test:price-outliers": "node --no-warnings scripts/price-outliers.test.mjs",
     "test:route-indexability": "node scripts/route-indexability.test.mjs",

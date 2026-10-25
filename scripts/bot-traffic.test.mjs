@@ -123,3 +123,32 @@ test('/api/out is not served on *.pages.dev hosts, where the WAF rules do not ap
     assert.equal(response.status, 200, url);
   }
 });
+
+test('/api/out refuses requests whose Sec-Fetch-Site is present and not same-origin', async () => {
+  const run = async (headers, path = '/api/out?provider=seatgeek&showId=x') => {
+    let reached = false;
+    const response = await middleware({
+      request: new Request(`https://tourticketcompare.com${path}`, { headers }),
+      env: {},
+      next: async () => { reached = true; return new Response('redirect'); }
+    });
+    return { response, reached };
+  };
+  for (const site of ['none', 'cross-site', 'same-site', ' None ']) {
+    const { response, reached } = await run({ 'Sec-Fetch-Site': site });
+    assert.equal(response.status, 403, site);
+    assert.equal(reached, false, `${site} never reaches the redirect`);
+    assert.equal(response.headers.get('Cache-Control'), 'no-store');
+  }
+  // Trailing-slash spelling is refused too.
+  assert.equal((await run({ 'Sec-Fetch-Site': 'none' }, '/api/out/?provider=seatgeek')).response.status, 403);
+  // Real clicks (same-origin) and browsers that send no Sec-Fetch header pass.
+  for (const headers of [{ 'Sec-Fetch-Site': 'same-origin' }, { 'Sec-Fetch-Site': 'SAME-ORIGIN' }, {}]) {
+    const { response, reached } = await run(headers);
+    assert.equal(reached, true, JSON.stringify(headers));
+    assert.equal(response.status, 200);
+  }
+  // Other API paths are not affected by a cross-site header.
+  const analytics = await run({ 'Sec-Fetch-Site': 'cross-site' }, '/api/analytics');
+  assert.equal(analytics.reached, true);
+});

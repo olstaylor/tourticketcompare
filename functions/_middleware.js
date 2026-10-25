@@ -82,6 +82,26 @@ export async function onRequest(context) {
     });
   }
 
+  // A browser following one of our buttons always sends Sec-Fetch-Site:
+  // same-origin. A request that names any other origin (the crawler sends
+  // "none" with no Referer) is not a click on our page, so it is refused here
+  // however it reached the site, without relying on a WAF rule or a hostname.
+  // Browsers too old to send the header are unaffected: only a header that is
+  // present and not same-origin is refused.
+  if (pathname === "/api/out") {
+    const fetchSite = context.request.headers.get("Sec-Fetch-Site");
+    if (fetchSite && fetchSite.trim().toLowerCase() !== "same-origin") {
+      return new Response("Forbidden.\n", {
+        status: 403,
+        headers: {
+          "Content-Type": "text/plain; charset=UTF-8",
+          "Cache-Control": "no-store",
+          "X-Robots-Tag": "noindex, nofollow"
+        }
+      });
+    }
+  }
+
   // /admin/ must normalize before the pass-through below, which matches on the
   // normalized path and would otherwise hand "/admin/" to asset serving as-is
   // and 404. Scoped to this one route so no /api/ path changes behaviour.

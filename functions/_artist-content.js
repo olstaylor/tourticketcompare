@@ -330,7 +330,7 @@ export function artistTicketHelp() {
     points: [
       "A button on a date card opens that exact date.",
       "Starting prices can cover different seats, quantities and fees. Match the ticket details and full order totals before choosing.",
-      "A date without a ticket link has no checked destination on TTC. Availability must be confirmed with the seller."
+      "If a date has no ticket button, no link has been checked for it yet. Ask the seller whether tickets are available."
     ]
   };
 }
@@ -355,7 +355,7 @@ export function artistEmptyBoardCopy(artist, options = {}) {
     return {
       heading: "No upcoming dates verified on TTC",
       body: `TTC has not verified any upcoming ${name} dates. This does not mean no shows have been announced.`,
-      next: "Check the artist’s official website or venue for the latest announcements.",
+      next: "For the latest announcements, check the artist’s official website or the venue.",
       compact: true
     };
   }
@@ -364,7 +364,7 @@ export function artistEmptyBoardCopy(artist, options = {}) {
     body: pastShowCount
       ? `The ${name} dates tracked by TTC have passed. TTC has not verified any new upcoming dates.`
       : `No ${name} dates are listed yet.`,
-    next: `New dates show up here once they're listed, and ticket buttons once their links are checked.`
+    next: `New dates appear here once they're listed, and ticket buttons once their links are checked.`
   };
 }
 
@@ -445,7 +445,7 @@ export function artistFaqEntries(artist, status, options = {}) {
         : `${status.showsWithPrice} of the ${plural(status.showCount, "upcoming date")} on this page show a listed price right now.`;
     entries.push([
       `How much are ${name} tickets?`,
-      `It depends on the date, city and seat. ${priced} Each figure is one ticket site's listed price for that date, with the time it was checked; it isn't face value or a final total, and included fees vary by provider. Compare the same date and seat type across sites before you buy.`
+      `It depends on the date, city and seat. ${priced} Each figure is one ticket site's listed price for that date, with the time it was checked. It isn't face value or a final total, and fees vary by site. Compare the same date and seat type across sites before you pay.`
     ]);
   }
   for (const entry of authored) {
@@ -460,7 +460,7 @@ export function artistFaqEntries(artist, status, options = {}) {
   if (entries.length === 1) {
     entries.push([
       "Does TourTicketCompare sell tickets?",
-      "No. TourTicketCompare links out to checked ticket sites, and the sale, price, fees, delivery and refund terms are all theirs."
+      "No. TourTicketCompare links out to checked ticket sites, and the sale, price, fees, delivery and refunds are all handled by them."
     ]);
   }
   return entries;

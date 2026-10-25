@@ -8327,7 +8327,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
       '<link rel="preload" as="style" href="/ttc-home.css?v=20261023b" />\n    <link rel="stylesheet" href="/styles.css?v=20261023c" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20261023b" /></head>');
-    next = next.replace("</body>", '<script src="/ttc-home.js?v=20261010a" defer></script></body>');
+    next = next.replace("</body>", '<script src="/ttc-home.js?v=20261025a" defer></script></body>');
   }
   return next;
 }

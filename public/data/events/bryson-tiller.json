@@ -271,11 +271,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8011575",
-        "url": "https://www.ticketnetwork.com/en/p/8011575",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_5QDPyT3",
@@ -286,7 +286,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8011575"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-bryson-tiller-2026-inglewood-vvg10z_5eio1ci",

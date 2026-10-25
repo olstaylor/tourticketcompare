@@ -421,11 +421,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7774762",
-        "url": "https://www.ticketnetwork.com/en/p/7774762",
-        "verified": true,
-        "last_verified_at": "2026-10-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7774762",
@@ -448,7 +448,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774762",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774762/Gorillaz-tickets-Sat-Oct-24-2026-The-Kia-Forum",
     "stubhub_international_url": "https://www.stubhub.ie/gorillaz-inglewood-tickets-10-24-2026/event/107129381"
   },

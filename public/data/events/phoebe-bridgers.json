@@ -264,11 +264,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8028495",
-        "url": "https://www.ticketnetwork.com/en/p/8028495",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G6G1ql6eK",
@@ -280,7 +280,7 @@
       "THE MESSINA GROUP (TMG)",
       "AEG LIVE (CANADA)"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8028495"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-phoebe-bridgers-2026-san-francisco-g5vyz_5ehic8t",

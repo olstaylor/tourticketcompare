@@ -247,11 +247,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7997045",
-        "url": "https://www.ticketnetwork.com/en/p/7997045",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_1SKMms5",
@@ -261,7 +261,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997045"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-arcangel-2026-boston-vvg17z_1mzt4ek",

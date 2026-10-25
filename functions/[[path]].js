@@ -651,7 +651,8 @@ async function resolveRoute(pathname, env) {
     return { type: "comparison-hub", path, ...TRUST_ROUTES[path], priceGuideDirectory: await loadPriceGuideDirectory(env) };
   }
   if (path === "/guides") return { type: "static", path, ...TRUST_ROUTES[path], priceGuideDirectory: await loadPriceGuideDirectory(env) };
-  if (path === "/" || PUBLIC_HTML_ROUTES.has(path)) return { type: "static", path, ...TRUST_ROUTES[path] };
+  if (path === "/") return { type: "static", path, ...TRUST_ROUTES[path], priceGuideDirectory: await loadPriceGuideDirectory(env) };
+  if (PUBLIC_HTML_ROUTES.has(path)) return { type: "static", path, ...TRUST_ROUTES[path] };
   // PRICE_GUIDE_FALLBACK keeps the highest-value guide routable (not a 404 or
   // noindex) if an edge deploy briefly serves stale route metadata. It is a
   // separate generated binding, so a bad GUIDE_ROUTES entry leaves it intact.
@@ -4421,6 +4422,24 @@ function renderHomepageOnsaleStrip(events, now = Date.now()) {
   )}</div><ul class="home-artist-list">${items}</ul></section>`;
 }
 
+// Links only (2026-10-25): price guides convert far better than the pages
+// Google shows for single shows, and the homepage linked none of them. Same
+// directory and ordering as the comparison hub, so a link appears exactly when
+// the guide is indexable.
+const HOMEPAGE_PRICE_GUIDE_LINKS = 8;
+
+function renderHomepagePriceGuideLinks(directory) {
+  const entries = [...(directory || [])]
+    .sort((a, b) => b.showCount - a.showCount || a.name.localeCompare(b.name))
+    .slice(0, HOMEPAGE_PRICE_GUIDE_LINKS);
+  return renderPriceGuideLinksHtml(entries, {
+    id: "home-price-guides",
+    heading: "Ticket prices by artist",
+    intro: "Every upcoming date for one artist on a single page, with each ticket site's listed price and when it was checked.",
+    footer: `<p>${anchor("All artist price pages", "/guides#artist-price-guides", "text-link")}</p>`
+  });
+}
+
 function renderHomepageGuideLinks() {
   const priorityPaths = [
     "/guides/vivid-seats-vs-ticketmaster",
@@ -8094,7 +8113,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     "Browse cities",
     "/cities",
     "text-link"
-  )} or ${anchor("venues", "/venues", "text-link")}. Waiting for a sale? ${anchor("See what goes on sale next", ONSALE_CALENDAR_PATH, "text-link")}.</p></section><section class="section-grid home-section" aria-labelledby="homeBuyingGuidesTitle"><div class="home-section__head"><h2 id="homeBuyingGuidesTitle">Buying guides</h2>${anchor(
+  )} or ${anchor("venues", "/venues", "text-link")}. Waiting for a sale? ${anchor("See what goes on sale next", ONSALE_CALENDAR_PATH, "text-link")}.</p></section>${renderHomepagePriceGuideLinks(route.priceGuideDirectory)}<section class="section-grid home-section" aria-labelledby="homeBuyingGuidesTitle"><div class="home-section__head"><h2 id="homeBuyingGuidesTitle">Buying guides</h2>${anchor(
     "All guides",
     "/guides",
     "text-link"

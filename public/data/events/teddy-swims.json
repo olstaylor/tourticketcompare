@@ -1321,7 +1321,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-tampa-benchmark-international-arena-10-25-2026--concerts-rb/production/6911979",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-tampa-florida-10-25-2026/event/0D00648EDE85D4C7",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1386,11 +1386,6 @@
         "name": "$30 All-In Offer",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-10-26T00:00:00Z"
-      },
-      {
-        "name": "T-Mobile Reserved Seats",
-        "start": "2026-09-25T16:00:00Z",
-        "end": "2026-10-25T02:00:00Z"
       }
     ],
     "organizer_names": [

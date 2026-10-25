@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/beck-tickets-washington-dc-the-anthem-10-25-2026--concerts-alternative/production/6928697",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-washington-district-of-columbia-10-25-2026/event/1500648EEB08DA76",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896088",
-    "stubhub_international_url": "https://www.stubhub.ie/beck-washington-tickets-10-25-2026/event/107671847"
+    "stubhub_international_url": "https://www.stubhub.ie/beck-washington-tickets-10-25-2026/event/107671847",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-beck-2026-durham-g5evz_fbugjju",
@@ -84,7 +87,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-durham-north-carolina-10-27-2026/event/2D00648EB6D6670D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -119,7 +122,17 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_FBUgJju",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-04-24T14:00:00Z",
+        "end": "2026-10-28T00:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beck-2026-asheville-g5evz_ftjugdd",
@@ -137,7 +150,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-asheville-north-carolina-10-28-2026/event/2D00648FDC34CEFB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -172,7 +185,10 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_FTjuGDD",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-beck-2026-atlanta-vvg1zz_fbor4w0",
@@ -190,7 +206,7 @@
     "vividseats_url": "https://www.vividseats.com/beck-tickets-atlanta-coca-cola-roxy-theatre-10-30-2026--concerts-alternative/production/6928703",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-atlanta-georgia-10-30-2026/event/0E00648E91795CA4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -233,7 +249,10 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_FBor4w0",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896100"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896100",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-beck-2026-nashville-g5viz_kspxnlj",
@@ -251,7 +270,7 @@
     "vividseats_url": "https://www.vividseats.com/beck-tickets-nashville-the-truth-10-31-2026--concerts-alternative/production/6789923",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-nashville-tennessee-10-31-2026/event/1B00646CD68A37DC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -294,7 +313,10 @@
     "ticketmaster_discovery_event_id": "G5viZ_kSpxNLj",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808848"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808848",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-beck-2026-spokane-z7r9jz1aae87y",
@@ -312,7 +334,7 @@
     "vividseats_url": "https://www.vividseats.com/beck-tickets-spokane-first-interstate-center-for-the-arts-11-6-2026/production/7622671",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe87Y",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -355,7 +377,10 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe87Y",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301187"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301187",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-beck-2026-seattle-vvg1hz_3rxx2pm",
@@ -373,7 +398,7 @@
     "vividseats_url": "https://www.vividseats.com/beck-tickets-seattle-benaroya-hall---taper-auditorium-11-8-2026/production/7558616",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-seattle-washington-11-08-2026/event/0F00652BE288F5B7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416,7 +441,10 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_3Rxx2pM",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265867"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265867",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-beck-2026-vancouver-1aozk3a0babze8k",
@@ -434,7 +462,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/beck-ride-lonesome-tour-vancouver-british-columbia-11-09-2026/event/11006489918258F5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -477,7 +505,12 @@
     "ticketmaster_discovery_event_id": "1aoZk3a0babZe8k",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896101"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896101",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-beck-2026-portland-z7r9jz1a7xffk",
@@ -495,7 +528,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xfFk",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-25",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -538,6 +571,10 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xfFk",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896028"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896028",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   }
 ]

@@ -160,7 +160,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-cincinnati-ohio-11-21-2026/event/16006514CCD7E77F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -205,11 +205,6 @@
     "status": "on-sale",
     "presales": [
       {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T14:00:00Z",
-        "end": "2026-10-25T02:00:00Z"
-      },
-      {
         "name": "T-Mobile Concert Perks",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-11-08T03:00:00Z"
@@ -241,7 +236,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-denver-colorado-11-21-2026/event/1E006511C7C2B996",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -285,11 +280,6 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T16:00:00Z",
-        "end": "2026-10-25T04:00:00Z"
-      },
       {
         "name": "T-Mobile® Concert Perks",
         "start": "2026-09-18T16:00:00Z",

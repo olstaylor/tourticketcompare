@@ -1967,13 +1967,13 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-28-2026--concerts-pop/production/6564706",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-28-2026/event/3B00643506BF83B6",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-25",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3B00643506BF83B6",
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-28-2026/event/3B00643506BF83B6",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-25",
         "availability_status": "on_sale",
         "discovery_event_id": "G5diZ_dfkRzCU"
       },
@@ -2025,13 +2025,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695893",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-28-2026/event/107083224",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695893/Harry-Styles-tickets-Wed-Oct-28-2026-Madison-Square-Garden",
-    "presales": [
-      {
-        "name": "VIP Packages",
-        "start": "2026-02-04T16:00:00Z",
-        "end": "2026-10-24T16:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

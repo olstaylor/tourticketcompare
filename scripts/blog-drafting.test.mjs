@@ -473,6 +473,8 @@ test('a different Discovery URL slug still matches when the event id is the same
   const data = remote(e);
   data.url = 'https://www.ticketmaster.com/artist-tickets/event/170064e18a2b80f1';
   assert(!remoteMismatches(e, data, now).includes('sourceUrl'));
+  data.url = 'https://ticketmaster.evyy.net/c/1/2/3?u=' + encodeURIComponent('https://www.ticketmaster.com/some-slug/event/170064E18A2B80F1') + '&utm_medium=affiliate';
+  assert(!remoteMismatches(e, data, now).includes('sourceUrl'));
   data.url = 'https://www.ticketmaster.com/artist-tickets/event/170064E18A2B80F2';
   assert(remoteMismatches(e, data, now).includes('sourceUrl'));
 });

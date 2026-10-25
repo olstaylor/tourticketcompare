@@ -25,29 +25,29 @@ export const GUIDE_ROUTES = {
   "/guides/vivid-seats-vs-ticketmaster": {
     title: "Vivid Seats vs Ticketmaster: Which Is Better?",
     h1: "Vivid Seats vs Ticketmaster: Which Is Better?",
-    description: "Ticketmaster and Vivid Seats are separate. Ticketmaster often sells primary tickets; Vivid Seats is resale. Compare prices, seats and fees.",
+    description: "Neither is better for every event. Ticketmaster often sells primary tickets; Vivid Seats is resale. What differs in seats, fees, delivery and protection.",
     fullContent: true,
     comparisonProviders: ["ticketmaster","vivid-seats"],
     datePublished: "2026-08-20",
-    lastmod: "2026-10-23"
+    lastmod: "2026-10-25"
   },
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
     title: "Ticketmaster, SeatGeek & Vivid Seats: How to Compare Tickets",
     h1: "Ticketmaster, SeatGeek & Vivid Seats: How to Compare Tickets",
-    description: "Compare Ticketmaster, SeatGeek and Vivid Seats by ticket type, current total, delivery and buyer protection before choosing a provider.",
+    description: "Ticketmaster, SeatGeek and Vivid Seats play different roles. Which sells primary or resale, and what to compare in total, delivery and buyer protection.",
     fullContent: true,
     comparisonProviders: ["seatgeek","vivid-seats"],
     datePublished: "2026-06-11",
-    lastmod: "2026-10-23"
+    lastmod: "2026-10-25"
   },
   "/guides/seatgeek-vs-ticketmaster": {
     title: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
     h1: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
-    description: "SeatGeek and Ticketmaster are separate companies. Compare primary and resale tickets, fees, delivery, buyer protection, and options for your exact concert.",
+    description: "Ticketmaster sells primary tickets and some resale; SeatGeek is a resale marketplace and primary seller for some venues. How fees and protection differ.",
     fullContent: true,
     comparisonProviders: ["ticketmaster","seatgeek"],
     datePublished: "2026-07-13",
-    lastmod: "2026-10-23"
+    lastmod: "2026-10-25"
   },
   "/guides/ticketnetwork-vs-ticketmaster": {
     title: "TicketNetwork vs Ticketmaster: Which Should You Use?",

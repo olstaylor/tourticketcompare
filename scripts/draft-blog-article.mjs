@@ -82,7 +82,7 @@ export async function draftOnce({ source, issue, gh, mode, snapshot, rules, apiK
       drafts.push({ topic: selected.topic, outcome: 'skipped-evidence', reason: error.message });
       continue;
     }
-    const branch = await reserveTopic(gh, { slug: selected.slug, baseSha: snapshot });
+    const branch = await reserveTopic(gh, { slug: selected.slug, baseSha: snapshot, retries: Boolean(artists?.length) });
     if (!branch) { drafts.push({ topic: selected.topic, outcome: 'skipped-branch-exists' }); continue; }
     paid += 1;
     const client = anthropicClient({ apiKey, fetchImpl });

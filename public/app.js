@@ -2317,6 +2317,26 @@ function showCtaCountLabel(count, priced = 0) {
   return priced === 1 ? "Provider starting price" : "Separate provider starting prices";
 }
 
+// The artist's verified SeatGeek page, offered on a date with no matched
+// SeatGeek link. The server publishes the /api/out link on the board
+// (data-artist-check-href) only when that artist-level link is verified. Never
+// on a held or public-on-sale-pending date. Keep in sync with
+// artistSeatGeekCheckHref in functions/[[path]].js.
+function artistCheckHrefFor(show, ctaSpecs, options = {}) {
+  const href = String(options.artistCheckHref || "");
+  if (!href || !show?.id || options.reviewGated) return "";
+  if (eventLifecycleHeld(show) || publicOnsalePending(show)) return "";
+  return ctaSpecs.some((spec) => spec.provider === "seatgeek") ? "" : href;
+}
+
+function artistCheckNote(options = {}) {
+  const note = document.createElement("p");
+  note.className = "disclosure-note";
+  note.dataset.artistCheckNote = "";
+  note.textContent = `Opens ${String(options.artistName || "").trim() || "the artist"}\u2019s page on SeatGeek, not this date.`;
+  return note;
+}
+
 function renderShowCard(show, options = {}) {
   const article = document.createElement("article");
   article.className = "info-card show-card";
@@ -2441,6 +2461,11 @@ function renderShowCard(show, options = {}) {
       for (const spec of ctaSpecs) {
         ctaGroup.append(renderProviderCtaButton(spec.name, spec.href, spec.priceAmount || "", { ...analyticsBase, provider: spec.provider }));
       }
+      // A date with no matched SeatGeek link still offers the artist's own
+      // SeatGeek page as a generic "Check prices" button. Keep in sync with
+      // checkButtonHtml in renderShowCardServerHtml (functions/[[path]].js).
+      const checkHref = artistCheckHrefFor(show, ctaSpecs, options);
+      if (checkHref) ctaGroup.append(renderProviderCtaButton("SeatGeek", checkHref, "", { ...analyticsBase, provider: "seatgeek", ctaLocation: "event_card_check" }));
       body.append(ctaGroup);
 
       const notes = renderShowCardPriceNotes(ctaSpecs, pricesWereChecked(show), show);
@@ -2453,6 +2478,7 @@ function renderShowCard(show, options = {}) {
         const historyPanel = renderPriceHistoryPanel(show, options);
         if (historyPanel) body.append(historyPanel);
       }
+      if (checkHref) body.append(artistCheckNote(options));
     } else {
       text(
         body,
@@ -2464,6 +2490,18 @@ function renderShowCard(show, options = {}) {
             : "No ticket link for this date yet.",
         "disclosure-note"
       );
+      const onlyCheckHref = artistCheckHrefFor(show, ctaSpecs, options);
+      if (onlyCheckHref) {
+        const checkGroup = document.createElement("div");
+        checkGroup.className = "provider-cta-group";
+        checkGroup.append(renderProviderCtaButton("SeatGeek", onlyCheckHref, "", {
+          artistSlug: String(options.artistSlug || show.artist_slug || "").trim(),
+          showId: String(show.id || "").trim(),
+          provider: "seatgeek",
+          ctaLocation: "event_card_check"
+        }));
+        body.append(checkGroup, artistCheckNote(options));
+      }
     }
   } else if (show.artist_slug) {
     body.append(link("Open artist page", `/artists/${slugify(show.artist_slug)}`, "text-link"));
@@ -3218,6 +3256,8 @@ async function hydrateShowBoard(section, filters = {}) {
       // Lets price hydration request one bulk approved-marketplaces payload
       // for the whole board instead of per-card lookups.
       artistSlug: String(filters.artistSlug || ""),
+      // The verified artist-level SeatGeek link the server rendered for this board.
+      artistCheckHref: String(filters.artistCheckHref || ""),
       // Full-board multi-night numbering stays stable across filter re-renders.
       venueRuns: filters.artistSlug ? venueRunIndex(shows) : {}
     };
@@ -3494,6 +3534,7 @@ function renderArtist(artist) {
   // rather than a loading state while the hydration fetch is in-flight.
   const existingGrid = main.querySelector("[data-show-grid]");
   const serverCards = existingGrid ? Array.from(existingGrid.querySelectorAll("article.show-card")) : [];
+  const artistCheckHref = main.querySelector("[data-artist-check-href]")?.dataset.artistCheckHref || "";
   if (serverCards.length) {
     const newGrid = showBoard.querySelector("[data-show-grid]");
     if (newGrid) newGrid.replaceChildren(...serverCards);
@@ -3508,7 +3549,8 @@ function renderArtist(artist) {
     filterable: true,
     showEventCta: !isReviewRequired,
     reviewGated: isReviewRequired,
-    artistName: artist.name
+    artistName: artist.name,
+    artistCheckHref
   });
 }
 

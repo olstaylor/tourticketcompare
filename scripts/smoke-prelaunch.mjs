@@ -1524,7 +1524,10 @@ assert(
 );
 const serverMorganWithSeatGeek = await routeResponse("/artists/morgan-wallen", seatGeekBaseTrackingEnv);
 const expectedMorganSeatGeekCtas = baseTrackingShowsJson.shows.filter((show) => show.provider_ctas?.seatgeek === true).length;
-const renderedMorganSeatGeekCtas = (serverMorganWithSeatGeek.text.match(/provider-cta-name">SeatGeek</g) || []).length;
+// The "Check prices" artist-page buttons (event_card_check) are SeatGeek-named
+// but are not event-level CTAs; they are counted separately.
+const renderedMorganSeatGeekCheckCtas = (serverMorganWithSeatGeek.text.match(/data-cta-location="event_card_check"/g) || []).length;
+const renderedMorganSeatGeekCtas = (serverMorganWithSeatGeek.text.match(/provider-cta-name">SeatGeek</g) || []).length - renderedMorganSeatGeekCheckCtas;
 assert(renderedMorganSeatGeekCtas > 0 && renderedMorganSeatGeekCtas <= expectedMorganSeatGeekCtas, "server-rendered Morgan Wallen page should show SeatGeek CTAs only for rendered shows with event-level SeatGeek URLs when configured");
 assert(serverMorganWithSeatGeek.text.includes(RENDERED_SG_EVENT_OUT_HREF), "server-rendered SeatGeek CTA should route the controlled show through /api/out");
 assert(!serverMorganWithSeatGeek.text.includes(CONTROLLED_SEATGEEK_URL), "server-rendered SeatGeek CTA must not expose the raw affiliate URL; it routes through /api/out");

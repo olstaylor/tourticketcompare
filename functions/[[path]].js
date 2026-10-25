@@ -4982,6 +4982,16 @@ function availableArtistProviderLinks(catalog, artist, providerAvailability = {}
     .sort((a, b) => providerDisplayRank(slugify(a.provider)) - providerDisplayRank(slugify(b.provider)));
 }
 
+// The artist's verified SeatGeek page as an /api/out link, for a show card
+// that has no matched SeatGeek link of its own. Null unless that artist-level
+// link is verified, enabled and SeatGeek is configured, so a card never offers
+// a button /api/out would refuse.
+// Keep in sync with the artistCheckHref handling in renderShowCard in public/app.js.
+function artistSeatGeekCheckHref(catalog, artist, providerAvailability = {}) {
+  const item = availableArtistProviderLinks(catalog, artist, providerAvailability).find((link) => slugify(link.provider) === "seatgeek");
+  return item ? artistProviderHref(artist, item, "artist_page") : null;
+}
+
 function renderProviderFallback(catalog, artist, surface, providerAvailability = {}) {
   const links = availableArtistProviderLinks(catalog, artist, providerAvailability);
   if (!links.length) {
@@ -6409,6 +6419,17 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
     }
   } else if (show.id) {
     const ctaSpecs = serverShowCtaSpecs(show, { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability });
+    // A date with no matched SeatGeek link still offers the artist's own
+    // SeatGeek page as a generic "Check prices" button (owner request
+    // 2026-10-25). It says plainly that it is not this date, makes no price
+    // claim and never replaces a matched button.
+    const checkHref = presentation.artistCheckHref && !ctaSpecs.some((spec) => spec.provider === "seatgeek") ? presentation.artistCheckHref : "";
+    const checkButtonHtml = checkHref
+      ? renderProviderCtaButtonHtml("SeatGeek", checkHref, "", { provider: "seatgeek", artistSlug, showId: String(show.id || ""), ctaLocation: "event_card_check" })
+      : "";
+    const checkNoteHtml = checkHref
+      ? `<p class="disclosure-note" data-artist-check-note>Opens ${escapeHtml(artistName || "the artist")}\u2019s page on SeatGeek, not this date.</p>`
+      : "";
     if (ctaSpecs.length) {
       // Keep every provider in one fixed-order list. A fresh approved snapshot
       // replaces "Check prices" with the amount, without moving the provider or
@@ -6428,7 +6449,9 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
       const historyHtml = hasApprovedServerPriceSnapshot(show)
         ? renderPriceHistoryPanelHtml(artistSlug, show.id)
         : "";
-      ctaHtml = `${countHtml}<div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show), show)}${historyHtml}`;
+      ctaHtml = `${countHtml}<div class="provider-cta-group">${buttonsHtml}${checkButtonHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show), show)}${historyHtml}${checkNoteHtml}`;
+    } else if (checkButtonHtml) {
+      ctaHtml = `<p class="disclosure-note">No ticket link for this date yet.</p><div class="provider-cta-group">${checkButtonHtml}</div>${checkNoteHtml}`;
     }
   }
 
@@ -6650,13 +6673,14 @@ function showDetailsLinkHtml(eventPagePath, show, artistName = "") {
   return `<a class="text-link show-details-link" href="${escapeAttr(eventPagePath)}" data-event-page-link>Compare ticket options<span class="sr-only">: ${escapeHtml(label)}</span></a>`;
 }
 
-function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexableArtist = true, artistName = "", vividSeatsAvailable = false, emptyStateProviderCta = null, marketplaceAvailability = {}, artistSlug = "", pastShows = [], emptyCopy = null, eventPageLinkFor = null) {
+function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexableArtist = true, artistName = "", vividSeatsAvailable = false, emptyStateProviderCta = null, marketplaceAvailability = {}, artistSlug = "", pastShows = [], emptyCopy = null, eventPageLinkFor = null, artistCheckHref = "") {
   const venueRuns = venueRunIndex(shows);
   const gridContent = shows.length
     ? shows
         .map((show) =>
           renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist, vividSeatsAvailable, artistName, marketplaceAvailability, artistSlug, venueRuns, {
-            supplementalHtml: showDetailsLinkHtml(eventPageLinkFor ? eventPageLinkFor(show.id) : "", show)
+            supplementalHtml: showDetailsLinkHtml(eventPageLinkFor ? eventPageLinkFor(show.id) : "", show),
+            artistCheckHref: artistCheckHref || ""
           })
         )
         .join("")
@@ -6674,7 +6698,7 @@ function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexable
   // Empty boards (2026-10-06): no intro either. The empty box directly under
   // it already says there are no dates, and the line repeated the page lead.
   const boardIntro = "";
-  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Upcoming dates</h2>${boardIntro}${shows.length ? renderMoneyDisclosureHtml({ prices: shows.some(hasApprovedServerPriceSnapshot) }) : ""}</div>${filterIntro}<div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
+  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"${artistCheckHref ? ` data-artist-check-href="${escapeAttr(artistCheckHref)}"` : ""}><div class="section-intro"><h2 id="artistShowBoard">Upcoming dates</h2>${boardIntro}${shows.length ? renderMoneyDisclosureHtml({ prices: shows.some(hasApprovedServerPriceSnapshot) }) : ""}</div>${filterIntro}<div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
 
 function safeTicketmasterGuideEventUrl(event) {
@@ -7519,7 +7543,8 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       contentModel.emptyBoard,
       // route.events is the isolate's cached partition, so the key index the
       // router's decision builds is reused across requests.
-      eventPageLinker(route.events || events, [artist])
+      eventPageLinker(route.events || events, [artist]),
+      isIndexableArtist ? artistSeatGeekCheckHref(catalog, artist, providerAvailability) || "" : ""
     );
     const providerPanelHtml = shows.length
       ? renderProviderFallback(catalog, artist, "artist_page", providerAvailability)

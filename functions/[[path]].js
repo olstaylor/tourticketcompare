@@ -5871,9 +5871,9 @@ export function renderRumouredToursBody(route) {
     route
   )}<h1 id="rumouredToursTitle">${escapeHtml(`Rumoured ${year} tours`)}</h1><p class="lead">${escapeHtml(
     lead
-  )}</p>${rumoured.entryCount ? `<section class="section-grid"><div class="section-intro"><h2>Unconfirmed reports</h2><p>Rumours are not announcements. We link no tickets for these artists until a tour is confirmed and its dates are on sale.</p></div><div class="card-grid">${items}</div></section>` : ""}${collapsedGroupHtml(
+  )}</p>${rumoured.entryCount ? `<section class="section-grid"><div class="section-intro"><h2>Unconfirmed reports</h2><p>Rumours are not announcements. No tickets are linked for these artists until a tour is confirmed and its dates are on sale.</p></div><div class="card-grid">${items}</div></section>` : ""}${collapsedGroupHtml(
     "About this list",
-    `<section class="nested-panel"><h2>How this list works</h2><div class="card-grid"><article class="info-card"><h3>Sourced, not guessed</h3><p>Each entry links to the report it comes from. We add no dates, venues or prices of our own.</p></article><article class="info-card"><h3>Leaves the list when real</h3><p>Once a tour is announced and has dates on sale, the artist gets a page and drops off this list.</p></article></div></section>`
+    `<section class="nested-panel"><h2>How this list works</h2><div class="card-grid"><article class="info-card"><h3>Sourced, not guessed</h3><p>Each entry links to the report it comes from. No dates, venues or prices are added on this site.</p></article><article class="info-card"><h3>Leaves the list when real</h3><p>Once a tour is announced and has dates on sale, the artist gets a page and drops off this list.</p></article></div></section>`
   )}<div class="action-row">${anchor(`${year} confirmed tours`, TOURS_HUB_PATH, "button button-secondary")}${anchor("On sale soon", ONSALE_CALENDAR_PATH, "button button-secondary")}${anchor("Browse artists", "/artists", "button button-secondary")}</div></section></main>`;
 }
 

@@ -185,18 +185,18 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107259002",
-        "url": "https://www.stubhub.ie/phoebe-bridgers-seattle-tickets-10-23-2026/event/107259002",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_Gkt8bhJ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8028490/Phoebe-Bridgers-tickets-Fri-Oct-23-2026-Climate-Pledge-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-seattle-tickets-10-23-2026/event/107259002",
+    "stubhub_international_url": "",
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"
     ]

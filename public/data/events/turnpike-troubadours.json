@@ -167,11 +167,19 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107501081",
+        "url": "https://www.stubhub.ie/turnpike-troubadours-las-vegas-tickets-12-11-2026/event/107501081",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62SoQKkI",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8182281"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8182281",
+    "stubhub_international_url": "https://www.stubhub.ie/turnpike-troubadours-las-vegas-tickets-12-11-2026/event/107501081"
   }
 ]

@@ -433,10 +433,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107673343",
+        "url": "https://www.stubhub.ie/dermot-kennedy-tickets-belfast-ormeau-park-26-6-2027/event/107673343",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AzZk4kGkeJU-CX",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/dermot-kennedy-tickets-belfast-ormeau-park-26-6-2027/event/107673343"
   }
 ]

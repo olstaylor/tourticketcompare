@@ -21553,11 +21553,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106954384",
-        "url": "https://www.stubhub.ie/ed-sheeran-arlington-tickets-10-24-2026/event/106954384",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7j-_w",
@@ -21566,7 +21566,7 @@
     "timezone": "America/Chicago",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418618",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418618/Ed-Sheeran-tickets-Sat-Oct-24-2026-ATT-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-arlington-tickets-10-24-2026/event/106954384"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ed-sheeran-2026-hollywood-0d006331a7d91aff",
@@ -23610,11 +23610,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107327078",
-        "url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-23-2026/event/107327078",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_GNCU5jV",
@@ -23622,7 +23622,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038358/Jay-Z-tickets-Fri-Oct-23-2026-SoFi-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-23-2026/event/107327078",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -39093,11 +39093,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107158195",
-        "url": "https://www.stubhub.ie/sombr-sunrise-tickets-10-24-2026/event/107158195",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8vw",
@@ -39105,7 +39105,7 @@
     "timezone": "America/New_York",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874867",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874867/sombr-tickets-Sat-Oct-24-2026-Amerant-Bank-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-sunrise-tickets-10-24-2026/event/107158195"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-sombr-2026-orlando-1aefz_fgkn1mew3",
@@ -46193,11 +46193,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106964080",
-        "url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-23-2026/event/106964080",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZbS55MSJp",
@@ -46205,7 +46205,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424941/My-Chemical-Romance-tickets-Fri-Oct-23-2026-Hollywood-Bowl",
-    "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-23-2026/event/106964080",
+    "stubhub_international_url": "",
     "organizer_names": [
       "ANDREW HEWITT & BILL SILVA PRESENTS",
       "LIVE NATION MUSIC"
@@ -63532,11 +63532,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107461079",
-        "url": "https://www.stubhub.ie/tyla-tickets-dusseldorf-mitsubishi-electric-halle-24-10-2026/event/107461079",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vq4jJGN",
@@ -63544,7 +63544,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8168764/Tyla-tickets-Sat-Oct-24-2026-Mitsubishi-Electric-Halle",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-tickets-dusseldorf-mitsubishi-electric-halle-24-10-2026/event/107461079",
+    "stubhub_international_url": "",
     "organizer_names": [
       "Nur2 Productions GmbH"
     ],
@@ -136791,11 +136791,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107258884",
-        "url": "https://www.stubhub.ie/charli-xcx-las-vegas-tickets-10-23-2026/event/107258884",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P8v-",
@@ -136803,7 +136803,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034408/Charli-XCX-tickets-Fri-Oct-23-2026-MGM-Grand-Garden-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-las-vegas-tickets-10-23-2026/event/107258884",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -175057,17 +175057,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107554701",
-        "url": "https://www.stubhub.ie/fontaines-d-c-tickets-barcelona-sant-jordi-club-24-10-2026/event/107554701",
-        "verified": true,
-        "last_verified_at": "2026-10-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vvp4SPs",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-barcelona-sant-jordi-club-24-10-2026/event/107554701",
+    "stubhub_international_url": "",
     "organizer_names": [
       "Live Nation España Red Path SL"
     ]
@@ -255179,11 +255179,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107131096",
-        "url": "https://www.stubhub.ie/gorillaz-phoenix-tickets-10-23-2026/event/107131096",
-        "verified": true,
-        "last_verified_at": "2026-10-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_AGknirbye",
@@ -255194,7 +255194,7 @@
     ],
     "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774761/Gorillaz-tickets-Fri-Oct-23-2026-Mortgage-Matchup-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/gorillaz-phoenix-tickets-10-23-2026/event/107131096"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-gorillaz-2026-inglewood-vv170z_agkmi0jmt",
@@ -256115,11 +256115,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107151241",
-        "url": "https://www.stubhub.ie/weezer-las-vegas-tickets-10-23-2026/event/107151241",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-MuY",
@@ -256127,7 +256127,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7833741/Weezer-tickets-Fri-Oct-23-2026-T-Mobile-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/weezer-las-vegas-tickets-10-23-2026/event/107151241",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -266714,11 +266714,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107164501",
-        "url": "https://www.stubhub.ie/kacey-musgraves-oakland-tickets-10-23-2026/event/107164501",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -266732,7 +266732,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7919152/Kacey-Musgraves-tickets-Fri-Oct-23-2026-Oakland-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-oakland-tickets-10-23-2026/event/107164501",
+    "stubhub_international_url": "",
     "ticketnetwork_url": ""
   },
   {
@@ -268094,18 +268094,18 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107259002",
-        "url": "https://www.stubhub.ie/phoebe-bridgers-seattle-tickets-10-23-2026/event/107259002",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_Gkt8bhJ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8028490/Phoebe-Bridgers-tickets-Fri-Oct-23-2026-Climate-Pledge-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-seattle-tickets-10-23-2026/event/107259002",
+    "stubhub_international_url": "",
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"
     ]
@@ -271609,11 +271609,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107677822",
-        "url": "https://www.stubhub.ie/garth-brooks-tulsa-tickets-10-23-2026/event/107677822",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfUGkd8C0EN",
@@ -271623,7 +271623,7 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-tulsa-tickets-10-23-2026/event/107677822"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-garth-brooks-2026-tulsa-1aozkfugkdlv4l0",
@@ -273348,11 +273348,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107667152",
-        "url": "https://www.stubhub.ie/stevie-wonder-tickets-hannover-zag-arena-24-10-2026/event/107667152",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "8252668",
@@ -273366,7 +273366,7 @@
     "timezone": "Europe/Berlin",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252668/Stevie-Wonder-tickets-Sat-Oct-24-2026-ZAG-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-hannover-zag-arena-24-10-2026/event/107667152",
+    "stubhub_international_url": "",
     "organizer_names": [
       "Live Nation GmbH"
     ],
@@ -276408,6 +276408,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675899",
+        "url": "https://www.stubhub.ie/sienna-spiro-boston-tickets-8-15-2027/event/107675899",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_fGkD_e0KM",
@@ -276417,7 +276424,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332320"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332320",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-boston-tickets-8-15-2027/event/107675899"
   },
   {
     "id": "tm-sienna-spiro-2027-new-york-g5dyz_46da3nv",
@@ -292036,12 +292044,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674938",
+        "url": "https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-23-2-2027/event/107674938",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk4aGkeysi-T",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329176"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329176",
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-23-2-2027/event/107674938"
   },
   {
     "id": "tm-u2-2027-ciudad-de-mexico-1afzk4agkebeind",
@@ -292097,12 +292113,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674939",
+        "url": "https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-26-2-2027/event/107674939",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk4aGkeBEind",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329177"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329177",
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-26-2-2027/event/107674939"
   },
   {
     "id": "tm-u2-2027-ciudad-de-mexico-1afzk4agkebeina",
@@ -292158,12 +292182,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677953",
+        "url": "https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-28-2-2027/event/107677953",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk4aGkeBEinA",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337104"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337104",
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-28-2-2027/event/107677953"
   },
   {
     "id": "tm-u2-2027-ciudad-de-mexico-1afzk4agkebign2",
@@ -292273,12 +292305,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671847",
+        "url": "https://www.stubhub.ie/beck-washington-tickets-10-25-2026/event/107671847",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_FGkDleutU",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896088"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896088",
+    "stubhub_international_url": "https://www.stubhub.ie/beck-washington-tickets-10-25-2026/event/107671847"
   },
   {
     "id": "tm-beck-2026-durham-g5evz_fbugjju",
@@ -293186,11 +293226,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107673343",
+        "url": "https://www.stubhub.ie/dermot-kennedy-tickets-belfast-ormeau-park-26-6-2027/event/107673343",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AzZk4kGkeJU-CX",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/dermot-kennedy-tickets-belfast-ormeau-park-26-6-2027/event/107673343"
   },
   {
     "id": "tm-turnpike-troubadours-2026-saint-augustine-z7r9jz1a7-v0a",
@@ -293360,11 +293408,19 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107501081",
+        "url": "https://www.stubhub.ie/turnpike-troubadours-las-vegas-tickets-12-11-2026/event/107501081",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62SoQKkI",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8182281"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8182281",
+    "stubhub_international_url": "https://www.stubhub.ie/turnpike-troubadours-las-vegas-tickets-12-11-2026/event/107501081"
   }
 ]

@@ -188,11 +188,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107667152",
-        "url": "https://www.stubhub.ie/stevie-wonder-tickets-hannover-zag-arena-24-10-2026/event/107667152",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "8252668",
@@ -206,7 +206,7 @@
     "timezone": "Europe/Berlin",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252668/Stevie-Wonder-tickets-Sat-Oct-24-2026-ZAG-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-hannover-zag-arena-24-10-2026/event/107667152",
+    "stubhub_international_url": "",
     "organizer_names": [
       "Live Nation GmbH"
     ],

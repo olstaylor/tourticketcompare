@@ -1,6 +1,7 @@
 // AI is an untrusted author/reviewer, never a publishing authority.
 import { createHash } from 'node:crypto';
-import { buildReport, parseHistory, weekOf } from './blog-opportunities.mjs';
+import { buildReport, parseHistory, weekOf, eligibleEvents } from './blog-opportunities.mjs';
+import { priceGuideRegistered } from '../../functions/_price-guides.js';
 import { splitDocument, SLUG_PATTERN, countWords } from './content-markdown.mjs';
 import { eventLocalDateIso, eventInstantMs } from '../../functions/_event-local-date.js';
 import { discoveryIdFor } from '../audit-tm-events.mjs';
@@ -33,6 +34,7 @@ const ANGLES = {
   'sale-upcoming': { slug: 'tickets-on-sale', topicRule: /on.sale|onsale|ticket.sale|general.sale|public.sale/i, base: 30 },
   'sale-recent': { slug: 'tickets-after-the-on-sale', topicRule: /on.sale|onsale|ticket.sale|general.sale|public.sale/i, base: 20 },
   nights: { slug: 'choosing-a-night', topicRule: /choos|which.night|exact.date|residency/i, base: 25 },
+  tour: { slug: 'tour-guide', topicRule: /tour.guide|tour.dates|dates.and.cities|\b2027\b.*tour|tour.*\b2027\b/i, base: 25 },
   options: { slug: 'ticket-options', topicRule: /ticket.options|buying.guide|before.buying|choos/i, base: 20 },
 };
 // Review + merge time before a sale moment. A post that lands after the window
@@ -41,6 +43,10 @@ const SALE_LEAD_DAYS = 2;
 const SALE_EVENT_RUNWAY_DAYS = 21;
 const NIGHTS_RUNWAY_DAYS = 10;
 const OPTIONS_RUNWAY_DAYS = 60;
+const TOUR_RUNWAY_DAYS = 30;
+// A tour guide cites at most this many dates, one per city, so the prompt stays bounded.
+export const TOUR_MAX_DATES = 12;
+const TOUR_MIN_CITIES = 3;
 
 export function selectArticle(source, issue, { now = Date.now(), prs = [], priority = new Map() } = {}) {
   if (issue.title !== 'Weekly blog opportunities' || !issue.labels?.some((l) => (l.name || l) === 'automation:blog-ideas')) fail('not the managed recommendations issue');
@@ -127,6 +133,49 @@ export function selectArticle(source, issue, { now = Date.now(), prs = [], prior
   }
   candidates.sort((a, b) => b.merit - a.merit || a.topic.localeCompare(b.topic));
   return { selected: candidates[0] || null, candidates, rejected, week };
+}
+
+// Owner-requested tour guides for named artists, bypassing the weekly ideas
+// issue. Same eligibility as the ideas report (fresh, verified, Ticketmaster
+// evidenced); the guide cites one date per city, the earliest, up to TOUR_MAX_DATES.
+export function selectTourGuides(source, artistSlugs, { now = Date.now(), prs = [], priority = new Map() } = {}) {
+  const { indexable, eligible } = eligibleEvents(source, { now });
+  const markers = prs.map((p) => draftMarker(p.body)).filter(Boolean);
+  const rejected = [];
+  const candidates = [];
+  const guidePaths = ['/guides/how-to-read-a-ticket-listing', '/guides/primary-vs-resale-concert-tickets', '/guides/ticket-delivery-and-transfer-timing'];
+  for (const slug of [...new Set(artistSlugs)]) {
+    const reject = (reason) => rejected.push({ key: `${slug}:tour`, reason });
+    const artist = indexable.get(slug);
+    if (!artist) { reject('Artist is unknown, not indexable or demoted.'); continue; }
+    const topic = `${slug}:${ANGLES.tour.slug}`;
+    const artistDocs = source.documents.filter((d) => d.file.startsWith('content/blog/')
+      && (d.relatedArtists.includes(slug) || d.file.includes(slug) || normalize(d.title).includes(normalize(artist.name))));
+    if (artistDocs.some((d) => ANGLES.tour.topicRule.test(`${d.title} ${d.file}`))) { reject('Artist already has a tour guide.'); continue; }
+    if (markers.some((m) => m.topic === topic || (m.artist === slug && m.kind === 'tour'))) { reject('This tour guide already has an editorial PR.'); continue; }
+    if (prs.some((p) => p.state === 'open' && !p.head?.ref?.startsWith(PREFIX) && (p.blogFiles || []).some((f) => f.includes(slug)))) { reject('An open PR already edits an article for this artist.'); continue; }
+    const own = eligible.filter((e) => e.artist_slug === slug && e.at >= now + TOUR_RUNWAY_DAYS * DAY && eventLocalDateIso(e))
+      .sort((a, b) => b.lanes.length - a.lanes.length || a.at - b.at || a.id.localeCompare(b.id));
+    const byCity = new Map();
+    for (const event of own) { const key = `${event.city}|${event.country}`; if (!byCity.has(key)) byCity.set(key, event); }
+    const picked = [...byCity.values()].sort((a, b) => a.at - b.at || a.id.localeCompare(b.id)).slice(0, TOUR_MAX_DATES);
+    if (picked.length < TOUR_MIN_CITIES) { reject('Fewer than three fresh, verified cities to write a tour guide about.'); continue; }
+    const rows = picked.map((event) => ({ event, evidence: { id: event.id, date: eventLocalDateIso(event), venue: event.venue, city: event.city,
+      verified: event.last_verified_at, checkedProviders: event.lanes } }));
+    const links = [`/artists/${slug}`];
+    if (priceGuideRegistered(slug)) links.push(`/artists/${slug}/ticket-prices`);
+    for (const link of guidePaths) if (source.documents.some((d) => d.path === link && d.status === 'published')) links.push(link);
+    const rank = priority.get(slug);
+    const title = `${artist.name} tour: dates, cities and how to choose`;
+    candidates.push({ topic, kind: 'tour', artist: slug, artistName: artist.name, originalKey: `${slug}:tour`, originalTitle: title, title,
+      slug: `${slug}-${ANGLES.tour.slug}`, links, rows, overlap: artistDocs.map((d) => ({ file: d.file, title: d.title, body: d.body })),
+      merit: ANGLES.tour.base + rows.length * 5 + (rank ? 40 - Math.min(rank, 25) : 0), priorityRank: rank || null,
+      decision: 'Choose which city and date of the tour to go to, and compare listings for the exact date before paying.',
+      commercialPurpose: 'Send fans choosing a tour date to the artist comparison board and price guide so they can compare listed prices across sites. Search demand and revenue are unmeasured.',
+      runwayDays: TOUR_RUNWAY_DAYS });
+  }
+  candidates.sort((a, b) => b.merit - a.merit || a.topic.localeCompare(b.topic));
+  return { selected: candidates[0] || null, candidates, rejected, week: weekOf(now) };
 }
 
 export function draftMarker(body) {
@@ -357,6 +406,7 @@ const SALE_FORMAT = {
   'sale-upcoming': 'Public on-sale: give each date\'s sale time exactly as its publicOnsaleLocal string, as listed by Ticketmaster when checked; a compact date/sale-time table helps. Explain how to prepare (exact event, primary versus resale listings, comparing totals) without saying when tickets will run out. Tell readers to confirm on the official event page.',
   'sale-recent': 'The public on-sale has passed: you may say when it was listed (exactly as publicOnsaleLocal), never that tickets remain, are gone or are limited. Focus on choosing between primary and resale listings for an exact date now.',
   nights: 'Omit all sale windows and presale claims.',
+  tour: 'Omit all sale windows and presale claims.',
   options: 'Omit all sale windows and presale claims.',
 };
 
@@ -364,7 +414,7 @@ export async function generateArticle({ selected, evidence, documents, rules, cl
   const result = await client.request(SYSTEM, { task: 'draft', rules,
     brief: { title: selected.title, decision: selected.decision, commercialPurpose: selected.commercialPurpose }, evidence,
     date: new Date(now).toISOString().slice(0, 10),
-    format: `Return {"markdown": "..."}. Existing blog YAML: title <=70 chars, seo_title <=40, description 50–160 chars, summary, date, status: draft, tags: [tour-buying], related_artists: [supplied artist slug], related_guides: [allowed published guide slugs], sources: [{label,url}]. Include at least 350 useful words, normally 600–1000. No images/H1/HTML. Body links must use the allowed paths/URLs. Dates only ISO venue-local dates from evidence. ${SALE_FORMAT[evidence.kind] || SALE_FORMAT.options} No other numeric claims. Never state a price: where a /ticket-prices link is allowed, send readers there for listed resale snapshots with each site and its check time shown, and to the artist board for the ticket buttons. Do not use tour names, packages, seat/venue rules or provider policies absent from evidence. Explain useful differences between the supplied dates/cities and derived weekdays, with a compact cited date table if helpful, without inventing travel distances or venue features. Tie those differences to the reader decision, listing equivalence and a practical checklist. Do not merely restate generic buying guides. Cite event-specific facts inline by linking the exact source URL where the fact appears. Do not copy supplied articles. Voice: follow the blog voice rule in the content rules. Write as a plain-spoken person who has just checked these listings: answer the buying question in the first two sentences, then use the specific dates, venues and times; mixed sentence lengths; no stock phrases, no recap ending, no exclamation marks, no question headings.`,
+    format: `Return {"markdown": "..."}. Existing blog YAML: title <=70 chars, seo_title <=40, description 50–160 chars, summary, date, status: draft, tags: [tour-buying], related_artists: [supplied artist slug], related_guides: [allowed published guide slugs], sources: [{label,url}]. Include at least 350 useful words, normally 600–1000. No images/H1/HTML. Body links must use the allowed paths/URLs. Dates only ISO venue-local dates from evidence. ${SALE_FORMAT[evidence.kind] || SALE_FORMAT.options}${evidence.kind === 'tour' ? ' Tour guide: write for fans deciding which city and date to attend. Cover the supplied cities by region in a compact cited date table, say what differs between them only from the evidence, and close by inviting readers to compare listed prices for their date on TourTicketCompare through the artist board and price-guide links, so they find the best deal for themselves. Fan-first, warm and plain: no hype, no claims about the artist beyond the evidence.' : ''} No other numeric claims. Never state a price: where a /ticket-prices link is allowed, send readers there for listed resale snapshots with each site and its check time shown, and to the artist board for the ticket buttons. Do not use tour names, packages, seat/venue rules or provider policies absent from evidence. Explain useful differences between the supplied dates/cities and derived weekdays, with a compact cited date table if helpful, without inventing travel distances or venue features. Tie those differences to the reader decision, listing equivalence and a practical checklist. Do not merely restate generic buying guides. Cite event-specific facts inline by linking the exact source URL where the fact appears. Do not copy supplied articles. Voice: follow the blog voice rule in the content rules. Write as a plain-spoken person who has just checked these listings: answer the buying question in the first two sentences, then use the specific dates, venues and times; mixed sentence lengths; no stock phrases, no recap ending, no exclamation marks, no question headings.`,
     artistSlug: selected.artist }, OUTPUT_LIMITS[0]);
   if (!result || Object.keys(result).join(',') !== 'markdown') fail('invalid draft response shape');
   const validation = checkArticle(result.markdown, selected, evidence, documents, now);
@@ -424,5 +474,5 @@ export function prBody({ selected, issueNumber, repository, evidence, article, t
   if (!SLUG_PATTERN.test(selected.slug)) fail('invalid article slug');
   const marker = { artist: selected.artist, topic: selected.topic, kind: selected.kind || 'options', recommendation: selected.originalKey,
     issue: issueNumber, week: weekOf(Date.parse(evidence.capturedAt)), markdownSha256: article.validation.markdownSha256 };
-  return `This ${mocked ? 'MOCKED integration fixture' : 'Claude-generated editorial draft'} helps readers ${selected.decision}\n\n${selected.commercialPurpose}\n\nRecommendation: https://github.com/${repository}/issues/${issueNumber} — ${selected.originalTitle}\nSource commit: ${evidence.snapshot}\n\n## Evidence\n${evidence.events.map((e) => `- ${e.date}: ${e.venue}, ${e.city}. ${e.sourceUrl}. Repository verified ${e.repositoryVerified}; external: ${e.external?.kind || 'not-checked'}.${e.publicOnsaleLocal ? ` Public on-sale listed: ${e.publicOnsaleLocal}.` : ''}${(e.presales || []).map((w) => ` ${w.name}: ${w.startLocal} to ${w.endLocal}.`).join('')}`).join('\n')}${evidence.dropped?.length ? `\n\nLeft out after the current Ticketmaster check: ${evidence.dropped.map((d) => `${d.id} (${d.fields.join(', ')})`).join('; ')}.` : ''}\n\nThe current Ticketmaster API recheck is independent of the stored snapshot, not independent corroboration by another publisher. No scraping, live inventory, checkout totals or provider enablement verification. AI review is fallible.\n\n## Editorial checks before publication\n${article.outstanding.map((s) => `- ${s}`).join('\n')}\n\n## Validation\n${tests.map((s) => `- ${s}`).join('\n')}\n\nModel: ${mocked ? 'MOCK ONLY — no API request' : `${article.model} (effort ${EFFORT})`}. Estimated API cost: $${spentUsd(article.usage).toFixed(2)}. API usage: ${JSON.stringify(article.usage)}\nArticle remains status: draft. This PR must remain draft until the owner reviews it. No auto-merge. Once published it carries the normal byline (By TourTicketCompare · Reviewed by Ollie Taylor), so publish only after reading it.\n\n<!-- ttc-blog-draft:v1 ${JSON.stringify(marker)} -->\n`;
+  return `This ${mocked ? 'MOCKED integration fixture' : 'Claude-generated editorial draft'} helps readers ${selected.decision}\n\n${selected.commercialPurpose}\n\n${selected.kind === 'tour' ? `Requested tour guide: ${selected.originalTitle}` : `Recommendation: https://github.com/${repository}/issues/${issueNumber} — ${selected.originalTitle}`}\nSource commit: ${evidence.snapshot}\n\n## Evidence\n${evidence.events.map((e) => `- ${e.date}: ${e.venue}, ${e.city}. ${e.sourceUrl}. Repository verified ${e.repositoryVerified}; external: ${e.external?.kind || 'not-checked'}.${e.publicOnsaleLocal ? ` Public on-sale listed: ${e.publicOnsaleLocal}.` : ''}${(e.presales || []).map((w) => ` ${w.name}: ${w.startLocal} to ${w.endLocal}.`).join('')}`).join('\n')}${evidence.dropped?.length ? `\n\nLeft out after the current Ticketmaster check: ${evidence.dropped.map((d) => `${d.id} (${d.fields.join(', ')})`).join('; ')}.` : ''}\n\nThe current Ticketmaster API recheck is independent of the stored snapshot, not independent corroboration by another publisher. No scraping, live inventory, checkout totals or provider enablement verification. AI review is fallible.\n\n## Editorial checks before publication\n${article.outstanding.map((s) => `- ${s}`).join('\n')}\n\n## Validation\n${tests.map((s) => `- ${s}`).join('\n')}\n\nModel: ${mocked ? 'MOCK ONLY — no API request' : `${article.model} (effort ${EFFORT})`}. Estimated API cost: $${spentUsd(article.usage).toFixed(2)}. API usage: ${JSON.stringify(article.usage)}\nArticle remains status: draft. This PR must remain draft until the owner reviews it. No auto-merge. Once published it carries the normal byline (By TourTicketCompare · Reviewed by Ollie Taylor), so publish only after reading it.\n\n<!-- ttc-blog-draft:v1 ${JSON.stringify(marker)} -->\n`;
 }

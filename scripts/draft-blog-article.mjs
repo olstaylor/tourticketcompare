@@ -6,7 +6,7 @@ import { execFileSync } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { readSource, githubClient } from './propose-blog-ideas.mjs';
 import { splitDocument } from './lib/content-markdown.mjs';
-import { selectArticle, buildEvidence, researchEvidence, anthropicClient, generateArticle, listEditorialPrs, reserveTopic, prBody, spentUsd,
+import { selectArticle, selectTourGuides, buildEvidence, researchEvidence, anthropicClient, generateArticle, listEditorialPrs, reserveTopic, prBody, spentUsd,
   MAX_DRAFTS_PER_RUN, MAX_OPEN_DRAFTS, PREFIX } from './lib/blog-drafting.mjs';
 import { readPriorityRows } from './lib/show-priority-store.mjs';
 
@@ -45,10 +45,10 @@ export async function prepareContent(root, slug) {
 
 export async function draftOnce({ source, issue, gh, mode, snapshot, rules, apiKey, tmKey, now = Date.now(),
   repository = 'olstaylor/tourticketcompare', compile, publish, reset = async () => {}, fetchImpl = fetch, mockClient,
-  priority = new Map(), maxDrafts = MAX_DRAFTS_PER_RUN }) {
+  priority = new Map(), maxDrafts = MAX_DRAFTS_PER_RUN, artists = null }) {
   if (!['preview', 'mock', 'live'].includes(mode)) throw new Error('Invalid drafting mode');
   const prs = mode === 'live' ? await listEditorialPrs(gh) : [];
-  const selection = selectArticle(source, issue, { now, prs, priority });
+  const selection = artists?.length ? selectTourGuides(source, artists, { now, prs, priority }) : selectArticle(source, issue, { now, prs, priority });
   if (!selection.selected) return { mode, outcome: 'no-worthy-opportunity', ...selection };
   if (mode === 'preview') {
     const evidence = await researchEvidence(buildEvidence(selection.selected, { now, snapshot }), { apiKey: tmKey, fetchImpl, now });
@@ -60,7 +60,7 @@ export async function draftOnce({ source, issue, gh, mode, snapshot, rules, apiK
     const evidence = await researchEvidence(buildEvidence(selection.selected, { now, snapshot }), { apiKey: null, fetchImpl, now });
     const article = await generateArticle({ selected: selection.selected, evidence, documents: source.documents, rules, client: mockClient, now });
     const tests = await compile({ selected: selection.selected, article });
-    const body = prBody({ selected: selection.selected, issueNumber: issue.number || issue.issue_number, repository, evidence, article, tests, mocked: true });
+    const body = prBody({ selected: selection.selected, issueNumber: issue?.number || issue?.issue_number, repository, evidence, article, tests, mocked: true });
     return { mode, outcome: 'mocked-draft-validated-no-pr', branch: null, selected: selection.selected, rejected: selection.rejected, evidence, article, tests, body, pr: null };
   }
   // Missing credentials must not reserve a branch or make a provider call.
@@ -89,7 +89,7 @@ export async function draftOnce({ source, issue, gh, mode, snapshot, rules, apiK
     try {
       const article = await generateArticle({ selected, evidence, documents: source.documents, rules, client, now });
       const tests = await compile({ selected, article });
-      const body = prBody({ selected, issueNumber: issue.number || issue.issue_number, repository, evidence, article, tests });
+      const body = prBody({ selected, issueNumber: issue?.number || issue?.issue_number, repository, evidence, article, tests });
       // Final idempotency check before the irreversible API operation. A timeout
       // creating a PR is ambiguous; no retry, and the reserved ref prevents spend.
       const existing = await listEditorialPrs(gh);
@@ -120,6 +120,10 @@ async function main() {
   const mode = process.env.BLOG_DRAFT_MODE || 'preview';
   const issueNumber = Number(process.env.BLOG_IDEAS_ISSUE || '1538');
   if (!Number.isSafeInteger(issueNumber) || issueNumber <= 0) throw new Error('Invalid recommendations issue number');
+  // Named tour guides (manual dispatch): comma-separated artist slugs, at most four.
+  const artists = (process.env.BLOG_DRAFT_ARTISTS || '').split(',').map((a) => a.trim()).filter(Boolean);
+  if (artists.length > 4 || artists.some((a) => !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(a))) throw new Error('BLOG_DRAFT_ARTISTS must be up to four artist slugs');
+  if (artists.length && mode === 'mock') throw new Error('Named artists are not supported in mock mode');
   const repository = process.env.GITHUB_REPOSITORY || 'olstaylor/tourticketcompare';
   if (repository !== 'olstaylor/tourticketcompare') throw new Error('Drafting restricted to the reviewed upstream repository');
   const now = mode === 'mock' ? Date.parse('2026-10-12T13:00:00Z') : Date.now();
@@ -139,7 +143,7 @@ async function main() {
     mockClient = createMockClient();
   } else {
     gh = githubClient(repository, process.env.GITHUB_TOKEN);
-    issue = await gh('GET', `/issues/${issueNumber}`);
+    issue = artists.length ? null : await gh('GET', `/issues/${issueNumber}`);
     const main = await gh('GET', '/commits/main');
     if (main.sha !== snapshot) throw new Error('Live/preview drafting must check out current trusted main');
   }
@@ -151,7 +155,7 @@ async function main() {
   }
   let result;
   try {
-    result = await draftOnce({ source, issue, gh, mode, snapshot, rules, now, repository, mockClient, priority,
+    result = await draftOnce({ source, issue, gh, mode, snapshot, rules, now, repository, mockClient, priority, artists,
       apiKey: process.env.ANTHROPIC_API_KEY, tmKey: process.env.TICKETMASTER_API_KEY,
       // Each article starts again from the trusted snapshot.
       reset: async () => {

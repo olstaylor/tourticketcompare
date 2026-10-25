@@ -6,7 +6,7 @@ import os from 'node:os';
 import { execFileSync } from 'node:child_process';
 import { pathToFileURL, fileURLToPath } from 'node:url';
 import { parse as parseYaml } from 'yaml';
-import { selectArticle, remoteMismatches, buildEvidence, checkArticle, generateArticle, anthropicClient, researchEvidence, verifyRemoteEvent,
+import { selectArticle, selectTourGuides, remoteMismatches, buildEvidence, checkArticle, generateArticle, anthropicClient, researchEvidence, verifyRemoteEvent,
   reserveTopic, listEditorialPrs, MODEL, EFFORT, OUTPUT_LIMITS, MAX_ESTIMATED_USD, MAX_OPEN_DRAFTS, prBody } from './lib/blog-drafting.mjs';
 import { draftOnce, prepareContent, readDraftRules } from './draft-blog-article.mjs';
 import { createMockClient, mockMarkdown } from './fixtures/blog-draft-model.mjs';
@@ -475,4 +475,17 @@ test('a different Discovery URL slug still matches when the event id is the same
   assert(!remoteMismatches(e, data, now).includes('sourceUrl'));
   data.url = 'https://www.ticketmaster.com/artist-tickets/event/170064E18A2B80F2';
   assert(remoteMismatches(e, data, now).includes('sourceUrl'));
+});
+
+test('named tour guides cite one date per city, skip unknown artists and never use the ideas issue', () => {
+  const slugs = [...new Set(fixture.events.map((e) => e.artist_slug))].concat('not-a-real-artist');
+  const result = selectTourGuides(fixture, slugs, { now });
+  assert(result.rejected.some((r) => r.key === 'not-a-real-artist:tour'));
+  for (const c of result.candidates) {
+    assert.equal(c.kind, 'tour');
+    assert(c.rows.length >= 3 && c.rows.length <= 12);
+    assert.equal(new Set(c.rows.map((r) => r.event.city)).size, c.rows.length);
+    assert(c.links.includes(`/artists/${c.artist}`));
+  }
+  assert.equal(selectTourGuides(fixture, ['not-a-real-artist'], { now }).selected, null);
 });

@@ -42,6 +42,8 @@
     "test:tours-hub": "node scripts/tours-hub.test.mjs",
     "test:rumoured-tours": "node scripts/rumoured-tours.test.mjs",
     "test:data-stories": "node scripts/data-stories.test.mjs",
+    "test:price-drops": "node scripts/price-drop-posts.test.mjs",
+    "report:price-drops": "node scripts/report-price-drops.mjs",
     "test:artist-city-research": "node scripts/artist-city-research.test.mjs",
     "stories:build": "node scripts/build-data-story.mjs",
     "stories:check": "node scripts/build-data-story.mjs --check",

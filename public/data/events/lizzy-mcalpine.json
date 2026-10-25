@@ -180,7 +180,7 @@
     "ticketmaster_event_id": "3E00653788BA1412",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-glasgow-09-04-2027/event/3E00653788BA1412",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-glasgow-o2-academy-glasgow-4-9-2027--concerts-alternative/production/7606722",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-glasgow-09-04-2027/event/3E00653788BA1412",
     "last_verified_at": "2026-10-15",
@@ -202,11 +202,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7606722,
+        "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-glasgow-o2-academy-glasgow-4-9-2027--concerts-alternative/production/7606722",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

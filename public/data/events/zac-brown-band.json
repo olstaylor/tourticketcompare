@@ -73,7 +73,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7Owq_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Owq_",
     "seatgeek_url": "https://seatgeek.com/zac-brown-band-tickets/sioux-falls-south-dakota-denny-sanford-premier-center-2026-10-24-7-pm/concert/18032025",
-    "vividseats_url": "https://www.vividseats.com/zac-brown-band-tickets-sioux-falls-denny-sanford-premier-center-10-24-2026--concerts-country-and-folk/production/6578998",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Owq_",
     "last_verified_at": null,
@@ -95,11 +95,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 6578998,
-        "url": "https://www.vividseats.com/zac-brown-band-tickets-sioux-falls-denny-sanford-premier-center-10-24-2026--concerts-country-and-folk/production/6578998",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -167,7 +167,7 @@
         "event_id": 6579002,
         "url": "https://www.vividseats.com/zac-brown-band-tickets-buffalo-keybank-center-11-5-2026--concerts-country-and-folk/production/6579002",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -247,7 +247,7 @@
         "event_id": 6579006,
         "url": "https://www.vividseats.com/zac-brown-band-tickets-detroit-little-caesars-arena-11-6-2026--concerts-country-and-folk/production/6579006",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -335,7 +335,7 @@
         "event_id": 6579008,
         "url": "https://www.vividseats.com/zac-brown-band-tickets-lincoln-pinnacle-bank-arena-11-19-2026--concerts-country-and-folk/production/6579008",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -493,7 +493,7 @@
         "event_id": 6579013,
         "url": "https://www.vividseats.com/zac-brown-band-tickets-rosemont-allstate-arena-11-21-2026--concerts-country-and-folk/production/6579013",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "stubhub": {

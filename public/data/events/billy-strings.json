@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "1500647B93A75283",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-baltimore-maryland-10-31-2026/event/1500647B93A75283",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-baltimore-cfg-bank-arena-10-31-2026--concerts-country-and-folk/production/6850516",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-baltimore-maryland-10-31-2026/event/1500647B93A75283",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6850516,
+        "url": "https://www.vividseats.com/billy-strings-tickets-baltimore-cfg-bank-arena-10-31-2026--concerts-country-and-folk/production/6850516",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "1B00647AA462ED67",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-new-orleans-louisiana-12-05-2026/event/1B00647AA462ED67",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-new-orleans-smoothie-king-center-12-5-2026/production/6850482",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-new-orleans-louisiana-12-05-2026/event/1B00647AA462ED67",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6850482,
+        "url": "https://www.vividseats.com/billy-strings-tickets-new-orleans-smoothie-king-center-12-5-2026/production/6850482",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "0C00647BAD4B9754",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-fort-worth-texas-12-11-2026/event/0C00647BAD4B9754",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-fort-worth-dickies-arena-12-11-2026/production/6850486",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-fort-worth-texas-12-11-2026/event/0C00647BAD4B9754",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6850486,
+        "url": "https://www.vividseats.com/billy-strings-tickets-fort-worth-dickies-arena-12-11-2026/production/6850486",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "3A0064DE8BE85BE9",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-austin-texas-12-12-2026/event/3A0064DE8BE85BE9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-austin-moody-center-atx-12-12-2026/production/7250307",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-austin-texas-12-12-2026/event/3A0064DE8BE85BE9",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7250307,
+        "url": "https://www.vividseats.com/billy-strings-tickets-austin-moody-center-atx-12-12-2026/production/7250307",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -648,7 +648,7 @@
     "ticketmaster_event_id": "0E00651B23F97408",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-duluth-georgia-02-12-2027/event/0E00651B23F97408",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-duluth-gas-south-arena-2-12-2027/production/7490339",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-duluth-georgia-02-12-2027/event/0E00651B23F97408",
     "last_verified_at": null,
@@ -670,11 +670,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7490339,
+        "url": "https://www.vividseats.com/billy-strings-tickets-duluth-gas-south-arena-2-12-2027/production/7490339",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -701,7 +701,7 @@
     "ticketmaster_event_id": "0E00651B23FE741F",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-duluth-georgia-02-13-2027/event/0E00651B23FE741F",
     "seatgeek_url": "https://seatgeek.com/billy-strings-tickets/duluth-georgia-gas-south-arena-2027-02-13-7-30-pm/concert/18540092",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-duluth-gas-south-arena-2-13-2027--concerts-country-and-folk/production/7490211",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-duluth-georgia-02-13-2027/event/0E00651B23FE741F",
     "last_verified_at": null,
@@ -723,11 +723,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7490211,
+        "url": "https://www.vividseats.com/billy-strings-tickets-duluth-gas-south-arena-2-13-2027--concerts-country-and-folk/production/7490211",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -807,7 +807,7 @@
     "ticketmaster_event_id": "1B00651A8B1575AF",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-nashville-tennessee-02-20-2027/event/1B00651A8B1575AF",
     "seatgeek_url": "https://seatgeek.com/billy-strings-tickets/nashville-tennessee-bridgestone-arena-2027-02-20-7-30-pm/concert/18540094",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-nashville-bridgestone-arena-2-20-2027--concerts-country-and-folk/production/7490217",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-nashville-tennessee-02-20-2027/event/1B00651A8B1575AF",
     "last_verified_at": null,
@@ -829,11 +829,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7490217,
+        "url": "https://www.vividseats.com/billy-strings-tickets-nashville-bridgestone-arena-2-20-2027--concerts-country-and-folk/production/7490217",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

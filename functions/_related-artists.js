@@ -28,6 +28,7 @@ export function relatedArtistsBySharedCity(events, artistSlug, linkable, limit =
     }
   }
   return [...byArtist.entries()]
+    .filter(([, shared]) => shared.length > 1)
     .map(([slug, shared]) => ({ slug, name: linkable.get(slug), cities: shared }))
     .sort((a, b) => b.cities.length - a.cities.length || a.name.localeCompare(b.name))
     .slice(0, limit);

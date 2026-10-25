@@ -330,7 +330,7 @@ export function artistTicketHelp() {
     points: [
       "A button on a date card opens that exact date.",
       "Starting prices can cover different seats, quantities and fees. Match the ticket details and full order totals before choosing.",
-      "If a date has no ticket button, we haven't checked a link for it yet. Ask the seller whether tickets are available."
+      "If a date has no ticket button, no link has been checked for it yet. Ask the seller whether tickets are available."
     ]
   };
 }
@@ -364,7 +364,7 @@ export function artistEmptyBoardCopy(artist, options = {}) {
     body: pastShowCount
       ? `The ${name} dates tracked by TTC have passed. TTC has not verified any new upcoming dates.`
       : `No ${name} dates are listed yet.`,
-    next: `New dates appear here once they're listed, and ticket buttons once we've checked their links.`
+    next: `New dates appear here once they're listed, and ticket buttons once their links are checked.`
   };
 }
 
@@ -445,7 +445,7 @@ export function artistFaqEntries(artist, status, options = {}) {
         : `${status.showsWithPrice} of the ${plural(status.showCount, "upcoming date")} on this page show a listed price right now.`;
     entries.push([
       `How much are ${name} tickets?`,
-      `It depends on the date, city and seat. ${priced} Each figure is one ticket site's listed price for that date, with the time we checked it. It isn't face value or a final total, and fees vary by site. Compare the same date and seat type across sites before you pay.`
+      `It depends on the date, city and seat. ${priced} Each figure is one ticket site's listed price for that date, with the time it was checked. It isn't face value or a final total, and fees vary by site. Compare the same date and seat type across sites before you pay.`
     ]);
   }
   for (const entry of authored) {

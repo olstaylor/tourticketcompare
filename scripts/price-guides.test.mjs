@@ -355,9 +355,16 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert(page.status === 200, "an approved guide renders");
   assert(page.robots.startsWith("index,follow"), "a guide passing its gate is indexable");
   assert(page.title.startsWith("Oasis Ticket Prices 2026"), "the title carries the year read off the upcoming dates");
-  assert(!/(?:[£$€]\s?|\b(?:USD|CAD|AUD|GBP|EUR)\s+)\d/.test(page.title + page.description), "no figure in the title or description");
+  assert(!/(?:[£$€]\s?|\b(?:USD|CAD|AUD|GBP|EUR)\s+)\d/.test(page.title), "no figure in the title");
+  // 2026-10-25 (owner OK): the HTML snippet may carry the lead's one chronological,
+  // attributed example, in the same shape as the artist-city snippet.
+  assert(
+    /soonest Sep 11, 2026, Manchester, GBP\s182 on Vivid Seats, checked 2026-08-09 09:00 UTC\. Check fees\./.test(page.description) && page.description.length <= 160,
+    `the snippet answers how much with one dated, attributed, timestamped example (got ${page.description})`
+  );
+  assert(!/\b182\b/.test(page.title) && !/minimum|cheapest/i.test(page.description), "the snippet never claims a minimum across dates");
   assert(text(page.title).includes("How Much Are Tickets?"), "the title answers the price question rather than describing a generic tour board");
-  assert(/date and (provider|ticket site)/.test(page.description) && page.description.startsWith("How much are Oasis tickets?") && !page.description.includes("face value"), "metadata describes the sourced listed prices");
+  assert(page.description.startsWith("Oasis 2026 ticket prices:") && !page.description.includes("face value"), "metadata leads with the artist and year and describes the sourced listed prices");
   const lead = text(page.main.match(/<p class="lead">([\s\S]*?)<\/p>/)?.[1]);
   assert(lead.includes("Fri, Sep 11, 2026 in Manchester (Heaton Park)") && lead.includes("GBP 182 on Vivid Seats") && lead.includes("Aug 9, 2026"), "the first answer ties one chronological example to its venue, date, provider and check time");
   assert(lead.startsWith("2 of 6 dates show a listed resale price right now."), "the lead opens with the answer: how many dates have a price");

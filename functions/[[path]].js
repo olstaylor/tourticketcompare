@@ -6939,7 +6939,34 @@ function eventPageDescription(artistName, venue, city, dateLabel, state) {
 // quote their next tracked date, never a minimum across different shows. Keep
 // the event, provider, currency, capture time and fee caveat together; if they
 // cannot fit, retain the price-free fallback rather than truncate attribution.
+// A price guide's search snippet answers "how much" with the same chronological
+// example its lead prints: one date, one attributed, timestamped lane, never a
+// tour-wide minimum. Anything the page would not show (no checked price) falls
+// back to the route's price-free description.
+function priceGuideSnippet(route, events, env) {
+  const view = derivePriceGuideView(route, events, env);
+  const row = view.priceAnswer.rows.find((candidate) => candidate.lowest && candidate.checked);
+  const show = row ? view.guideShowsById.get(row.showId) : null;
+  if (!row || !show) return "";
+  const lane = row.lowest;
+  const captured = new Date(lane.fetchedAt);
+  if (!Number.isFinite(captured.getTime())) return "";
+  const year = route.yearLabel ? ` ${route.yearLabel}` : "";
+  const date = formatShortDateServer(row.datetimeISO, row.timezone);
+  const price = formatServerPrice(lane.price, lane.currency);
+  const checked = captured.toISOString().slice(0, 16).replace("T", " ");
+  const head = `${route.artist.name}${year} ticket prices: soonest ${date}, ${show.city}, ${price} on ${lane.name}, checked ${checked} UTC. Check fees.`;
+  // Policy: if the full attribution (provider, currency, capture time, fee
+  // caveat) cannot fit, omit the price and keep the price-free description.
+  const candidates = [
+    `${head} ${view.priceAnswer.pricedRowCount} of ${route.guide.showCount} dates priced.`,
+    head
+  ];
+  return candidates.find((candidate) => candidate.length <= META_DESCRIPTION_LENGTH_LIMIT) || "";
+}
+
 function startingPriceMetaDescription(route, events, env) {
+  if (route.type === "price-guide") return priceGuideSnippet(route, events, env);
   if (route.type !== "artist-city" && route.type !== "event") return "";
   if (route.type === "event" && !route.eventState?.commerciallyLive) return "";
   const ids = route.type === "event"

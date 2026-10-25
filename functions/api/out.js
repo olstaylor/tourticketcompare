@@ -103,6 +103,28 @@ const PROVIDERS = {
   }
 };
 
+// Search URL shapes confirmed live on 2026-10-25 (each returned the named
+// artist's results). Providers not listed here, such as Vivid Seats and
+// StubHub International, have no search link until their format is confirmed.
+// Keep in sync with SEARCH_CHECK_PROVIDERS in functions/[[path]].js.
+const SEARCH_CHECK_URL_BUILDERS = {
+  ticketnetwork: (name) => `https://www.ticketnetwork.com/results-general?kwds=${encodeURIComponent(name)}`,
+  "ticket-liquidator": (name) => `https://www.ticketliquidator.com/search?q=${encodeURIComponent(name)}`
+};
+
+function searchCheckLink(artistSlug, provider, artistName) {
+  const build = SEARCH_CHECK_URL_BUILDERS[provider];
+  const name = clean(artistName, 120);
+  if (!build || !name) return null;
+  return {
+    artistSlug,
+    provider,
+    linkId: `search-${provider}-${artistSlug}`,
+    redirectUrl: build(name),
+    verified: true
+  };
+}
+
 const VERIFIED_TICKET_LINKS = {
   "beyonce:ticketmaster": {
     artistSlug: "beyonce",
@@ -2905,7 +2927,7 @@ async function artistRedirectState(env, artistSlug) {
   if (!artists) return { ok: false, status: "artist_state_unavailable", httpStatus: 503 };
   const record = artists.find((candidate) => slugify(candidate?.slug) === slugify(artistSlug));
   if (record?.demoted && typeof record.demoted === "object") return { ok: false, status: "artist_demoted", httpStatus: 410 };
-  return { ok: true };
+  return { ok: true, artistName: clean(record?.name, 120) };
 }
 
 function eventUrlContainsTicketmasterId(redirect, eventId) {
@@ -4071,7 +4093,14 @@ async function handleOut(request, env, mode) {
   const artistState = await artistRedirectState(env, artistSlug);
   if (!artistState.ok) return json({ ok: false, status: artistState.status }, artistState.httpStatus);
 
-  const link = VERIFIED_TICKET_LINKS[`${artistSlug}:${provider}`];
+  // "Check prices" search link (owner-approved 2026-10-25): a search for the
+  // artist's name on a resale site with no verified artist page. The
+  // destination is built here from artists.json, never taken from the request,
+  // and only for providers in SEARCH_CHECK_URL_BUILDERS.
+  const searchRequested = clean(body.linkType || url.searchParams.get("linkType"), 20) === "search";
+  const link = searchRequested
+    ? searchCheckLink(artistSlug, provider, artistState.artistName)
+    : VERIFIED_TICKET_LINKS[`${artistSlug}:${provider}`];
   if (!link || !link.verified) {
     return json({ ok: false, status: "provider_not_configured" }, 400);
   }

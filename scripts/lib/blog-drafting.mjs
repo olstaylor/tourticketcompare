@@ -228,8 +228,16 @@ export function buildEvidence(selected, { now = Date.now(), snapshot }) {
     overlap: selected.overlap.map((d) => ({ file: d.file, title: d.title, body: d.body.slice(0, 6500) })) };
 }
 
-// Discovery returns its own URL slug; the trailing /event/<ID> is what identifies the event.
-const eventUrlId = (u) => String(u || '').match(/\/event\/([0-9A-Za-z]+)\/?(?:[?#].*)?$/)?.[1]?.toLowerCase() || null;
+// Discovery returns its own URL slug and, for affiliate-enabled keys, wraps the
+// event page in a tracking redirect whose u= parameter holds the plain page.
+// Only that read is compared here; no wrapped link is ever stored or published.
+const eventUrlId = (value) => {
+  try {
+    let url = new URL(String(value || ''));
+    if (/(^|\.)evyy\.net$/i.test(url.hostname) && url.searchParams.get('u')) url = new URL(url.searchParams.get('u'));
+    return /(^|\.)ticketmaster\.[a-z.]+$/i.test(url.hostname) ? url.pathname.match(/\/event\/([0-9A-Za-z]+)\/?$/)?.[1]?.toLowerCase() || null : null;
+  } catch { return null; }
+};
 const sameInstant = (a, b) => Number.isFinite(Date.parse(a)) && Date.parse(a) === Date.parse(b);
 
 export function remoteMismatches(event, data, now) {
@@ -267,7 +275,9 @@ export function verifyRemoteEvent(event, data, now) {
     limitation: 'A fresh official API check independent of the repository snapshot, not a second publisher or an inventory check.' };
 }
 
-export async function researchEvidence(evidence, { apiKey, fetchImpl = fetch, now = Date.now() } = {}) {
+// Discovery allows about five requests a second; a tour guide checks up to 12 dates.
+const PAUSE_MS = 250;
+export async function researchEvidence(evidence, { apiKey, fetchImpl = fetch, now = Date.now(), pauseMs = PAUSE_MS } = {}) {
   const result = structuredClone(evidence);
   const kept = [];
   result.dropped = result.dropped || [];
@@ -280,6 +290,7 @@ export async function researchEvidence(evidence, { apiKey, fetchImpl = fetch, no
       continue;
     }
     // Official API only. No crawlers or external paid research tools.
+    if (pauseMs) await new Promise((resolve) => setTimeout(resolve, pauseMs));
     let response;
     try {
       response = await fetchImpl(`https://app.ticketmaster.com/discovery/v2/events/${encodeURIComponent(event.discoveryId)}.json?apikey=${encodeURIComponent(apiKey)}`,

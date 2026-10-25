@@ -9,6 +9,7 @@ import { deriveIndexablePriceGuides } from "./_price-guides.js";
 import { deriveIndexablePresalePages } from "./_presales.js";
 import { isUpcomingShow } from "./_upcoming.js";
 import { deriveToursHub, TOURS_HUB_PATH } from "./_tours-hub.js";
+import { deriveRumouredTours, RUMOURED_TOURS_PATH } from "./_rumoured-tours.js";
 import { eventIndexingPilotFor } from "./[[path]].js";
 
 // Derived from _route-metadata.js (single source of truth) so the sitemap
@@ -270,6 +271,9 @@ async function buildSegments(env, only = SITEMAP_SEGMENTS, origin = "") {
     const hub = catalog ? deriveToursHub(events, catalog, undefined, undefined, indexableArtists.map((artist) => artist.slug)) : null;
     if (hub?.indexable) {
       staticEntries.push({ path: TOURS_HUB_PATH, lastmod: newestArtistLastmod });
+    }
+    if (catalog && deriveRumouredTours(catalog).indexable) {
+      staticEntries.push({ path: RUMOURED_TOURS_PATH, lastmod: newestArtistLastmod });
     }
   }
   const artistEntries = indexableArtists.map(({ slug, lastmod }) => ({

@@ -32,6 +32,7 @@ import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } fr
 import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, eventPriceComparable, EVENT_LIFECYCLE, PRESALE_PAGE_FRESH_DAYS, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
 import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_MAX_HORIZON_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
 import { deriveToursHub, TOURS_HUB_PATH, TOURS_HUB_YEAR } from "./_tours-hub.js";
+import { deriveRumouredTours, RUMOURED_TOURS_PATH } from "./_rumoured-tours.js";
 import { deriveArtistPresales, deriveUpcomingPresales, presalePath, PRESALE_SEGMENT, PRESALE_LOOKAHEAD_DAYS } from "./_presales.js";
 import {
   PRICE_GUIDE_SEGMENT,
@@ -781,6 +782,22 @@ async function resolveRoute(pathname, env) {
       description: `Every tracked artist with ${TOURS_HUB_YEAR} tour dates, with how many dates, cities and months each tour covers. Open an artist for every date and its checked ticket links.`,
       hub,
       breadcrumb: [{ name: `${TOURS_HUB_YEAR} tours`, path }]
+    };
+  }
+
+  // Rumoured 2027 tours: unconfirmed, sourced, no dates or ticket links
+  // (functions/_rumoured-tours.js).
+  if (path === RUMOURED_TOURS_PATH) {
+    const catalog = await loadCatalog(env);
+    const rumoured = deriveRumouredTours(catalog);
+    return {
+      type: "rumoured-tours",
+      path,
+      indexable: rumoured.indexable,
+      title: `Rumoured ${TOURS_HUB_YEAR} Tours (Unconfirmed) | TourTicketCompare`,
+      description: `Artists rumoured to be planning a ${TOURS_HUB_YEAR} tour, each with the report it comes from. None of these tours is confirmed, and there are no dates or tickets yet.`,
+      rumoured,
+      breadcrumb: [{ name: `${TOURS_HUB_YEAR} tours`, path: TOURS_HUB_PATH }, { name: "Rumoured", path }]
     };
   }
 
@@ -5835,7 +5852,29 @@ export function renderToursHubBody(route) {
     "On sale soon",
     ONSALE_CALENDAR_PATH,
     "button button-secondary"
-  )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
+  )}${anchor("Rumoured tours", RUMOURED_TOURS_PATH, "button button-secondary")}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
+}
+
+export function renderRumouredToursBody(route) {
+  const rumoured = route.rumoured || { entries: [], entryCount: 0 };
+  const year = TOURS_HUB_YEAR;
+  const lead = rumoured.entryCount
+    ? `${rumoured.entryCount} ${rumoured.entryCount === 1 ? "artist is" : "artists are"} rumoured to be planning a ${year} tour. None of these tours is confirmed: there are no dates, venues or tickets yet, and every claim below is from the report linked beside it.`
+    : `No ${year} tour rumours are being tracked right now. Confirmed tours are on the ${year} tours page.`;
+  const items = rumoured.entries
+    .map(
+      (entry) =>
+        `<article class="info-card"><h3>${escapeHtml(entry.name)}</h3><p><strong>Unconfirmed.</strong> ${escapeHtml(entry.note)}</p><p>Source: <a class="text-link" href="${escapeHtml(entry.sourceUrl)}" rel="noopener nofollow" target="_blank">${escapeHtml(entry.sourceName)}</a></p></article>`
+    )
+    .join("");
+  return `<main id="mainContent"><section class="content-page" aria-labelledby="rumouredToursTitle">${renderBreadcrumbHtml(
+    route
+  )}<h1 id="rumouredToursTitle">${escapeHtml(`Rumoured ${year} tours`)}</h1><p class="lead">${escapeHtml(
+    lead
+  )}</p>${rumoured.entryCount ? `<section class="section-grid"><div class="section-intro"><h2>Unconfirmed reports</h2><p>Rumours are not announcements. We link no tickets for these artists until a tour is confirmed and its dates are on sale.</p></div><div class="card-grid">${items}</div></section>` : ""}${collapsedGroupHtml(
+    "About this list",
+    `<section class="nested-panel"><h2>How this list works</h2><div class="card-grid"><article class="info-card"><h3>Sourced, not guessed</h3><p>Each entry links to the report it comes from. We add no dates, venues or prices of our own.</p></article><article class="info-card"><h3>Leaves the list when real</h3><p>Once a tour is announced and has dates on sale, the artist gets a page and drops off this list.</p></article></div></section>`
+  )}<div class="action-row">${anchor(`${year} confirmed tours`, TOURS_HUB_PATH, "button button-secondary")}${anchor("On sale soon", ONSALE_CALENDAR_PATH, "button button-secondary")}${anchor("Browse artists", "/artists", "button button-secondary")}</div></section></main>`;
 }
 
 function eventLinkPublishable(event) {
@@ -7832,6 +7871,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
 
   if (route.type === "onsale-calendar") return renderOnsaleCalendarBody(route);
   if (route.type === "tours-hub") return renderToursHubBody(route);
+  if (route.type === "rumoured-tours") return renderRumouredToursBody(route);
   if (route.type === "presale") return renderPresalePageBody(route, events, env);
 
   if (route.type === "cities-index") {

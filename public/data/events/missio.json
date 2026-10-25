@@ -30,7 +30,7 @@
         "event_id": 18708911,
         "url": "https://seatgeek.com/missio-tickets/phoenix-arizona-the-rebel-lounge-phoenix-2026-10-29-8-pm/concert/18708911",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -713,7 +713,7 @@
         "event_id": 18646946,
         "url": "https://seatgeek.com/missio-tickets/vancouver-canada-the-pearl-bc-2026-12-12-6-pm/concert/18646946",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1330,7 +1330,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0200650A90496D32",
     "ticketmaster_url": "https://www.ticketmaster.com/missio-philadelphia-pennsylvania-02-13-2027/event/0200650A90496D32",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/philadelphia-pennsylvania-the-foundry-philadelphia-2027-02-13-8-pm/concert/18492961",
     "vividseats_url": "https://www.vividseats.com/missio-tickets-philadelphia-the-foundry-philadelphia-2-13-2027/production/7424474",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/missio-philadelphia-pennsylvania-02-13-2027/event/0200650A90496D32",
@@ -1502,7 +1502,7 @@
         "event_id": 18492631,
         "url": "https://seatgeek.com/missio-tickets/atlanta-georgia-the-loft-at-center-stage-2027-03-11-8-pm/concert/18492631",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1907,7 +1907,7 @@
         "event_id": 18492778,
         "url": "https://seatgeek.com/missio-tickets/san-francisco-california-brick-and-mortar-music-hall-2026-11-03-8-30-pm/concert/18492778",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {

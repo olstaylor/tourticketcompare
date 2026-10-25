@@ -148,7 +148,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3000654789193741",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-allentown-pennsylvania-02-08-2027/event/3000654789193741",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nickelback-tickets/allentown-pennsylvania-ppl-center-2027-02-08-6-30-pm/concert/18664577",
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-allentown-ppl-center-2-8-2027/production/7678907",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-allentown-pennsylvania-02-08-2027/event/3000654789193741",
@@ -232,7 +232,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "08006545D5525CC2",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-grand-rapids-michigan-02-10-2027/event/08006545D5525CC2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nickelback-tickets/grand-rapids-michigan-van-andel-arena-2027-02-10-6-30-pm/concert/18664576",
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-grand-rapids-van-andel-arena-2-10-2027--concerts-rock/production/7678960",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-grand-rapids-michigan-02-10-2027/event/08006545D5525CC2",
@@ -316,7 +316,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "05006545F66BD91B",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-columbus-ohio-02-13-2027/event/05006545F66BD91B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nickelback-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2027-02-13-6-30-pm/concert/18664574",
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-columbus-value-city-arena-at-schottenstein-center-2-13-2027/production/7678938",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-columbus-ohio-02-13-2027/event/05006545F66BD91B",
@@ -400,7 +400,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "05006545C08C7E3B",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-indianapolis-indiana-02-16-2027/event/05006545C08C7E3B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nickelback-tickets/indianapolis-indiana-gainbridge-fieldhouse-2027-02-16-6-30-pm/concert/18664572",
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-indianapolis-gainbridge-fieldhouse-2-16-2027--concerts-rock/production/7678964",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-indianapolis-indiana-02-16-2027/event/05006545C08C7E3B",
@@ -755,7 +755,7 @@
         "event_id": 18664589,
         "url": "https://seatgeek.com/nickelback-tickets/knoxville-tennessee-thompson-boling-arena-at-food-city-center-2027-02-24-6-30-pm/concert/18664589",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1388,7 +1388,7 @@
         "event_id": 18664626,
         "url": "https://seatgeek.com/nickelback-tickets/montreal-canada-centre-bell-2027-03-12-6-30-pm/concert/18664626",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1470,7 +1470,7 @@
         "event_id": 18664627,
         "url": "https://seatgeek.com/nickelback-tickets/hamilton-canada-td-coliseum-2027-03-20-6-30-pm/concert/18664627",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1541,7 +1541,7 @@
         "event_id": 18664630,
         "url": "https://seatgeek.com/nickelback-tickets/toronto-canada-scotiabank-arena-2027-03-21-6-30-pm/concert/18664630",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1791,7 +1791,7 @@
         "event_id": 18664601,
         "url": "https://seatgeek.com/nickelback-tickets/milwaukee-wisconsin-fiserv-forum-2027-03-27-6-30-pm/concert/18664601",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1876,7 +1876,7 @@
         "event_id": 18664632,
         "url": "https://seatgeek.com/nickelback-tickets/saskatoon-canada-sasktel-centre-2027-04-02-6-30-pm/concert/18664632",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2698,7 +2698,7 @@
         "event_id": 18664618,
         "url": "https://seatgeek.com/nickelback-tickets/dallas-texas-american-airlines-center-2027-04-27-6-30-pm/concert/18664618",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2790,7 +2790,7 @@
         "event_id": 18664624,
         "url": "https://seatgeek.com/nickelback-tickets/san-antonio-texas-frost-bank-center-2027-05-01-6-30-pm/concert/18664624",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4202,7 +4202,7 @@
         "event_id": 18604483,
         "url": "https://seatgeek.com/nickelback-tickets/cleveland-ohio-rocket-arena-2027-02-12-6-30-pm/concert/18604483",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {

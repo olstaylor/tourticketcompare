@@ -46,7 +46,7 @@ sources:
     last_checked: 2026-09-21
 ---
 
-**Short verdict:** Neither is better for every event. Ticketmaster is often the authorised primary seller and also lists clearly labelled resale tickets; Vivid Seats is a resale marketplace. For an official onsale, start with the seller named by the artist, venue or promoter. For resale, compare the exact event, ticket type, quantity, seat details, complete current total, delivery and buyer protection.
+**Short answer:** Vivid Seats isn't owned by Ticketmaster, and neither is better for every event. Ticketmaster is often the official primary seller and also lists labelled resale tickets. Vivid Seats is a resale marketplace. For an official on-sale, start with the seller named by the artist, venue or promoter. For resale, compare the exact event, ticket type, quantity, seats, full total, delivery and buyer protection.
 
 ## What is the difference between Ticketmaster and Vivid Seats?
 

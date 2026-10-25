@@ -413,6 +413,20 @@ export function artistFaqEntries(artist, status, options = {}) {
     ]);
   }
 
+  // The question a fan with several dates to choose from is actually asking.
+  // Built only from this board's own cities and runs, so it names nothing the
+  // cards below don't show and says nothing about availability or price.
+  if (status && status.cityCount > 1) {
+    const runs = status.multiNightRuns.slice(0, 3).map((run) => `${run.city} (${run.venue}, ${run.count} dates)`);
+    const runsNote = runs.length
+      ? ` ${joinList(runs)} ${runs.length === 1 ? "has" : "have"} more than one date, so if one night doesn't suit you there's another at the same venue.`
+      : "";
+    entries.push([
+      `Which ${name} date should I pick?`,
+      `Start with the city you can get to and the night that fits your plans, then compare ticket sites for that date.${runsNote} Each date is listed separately, so check the date on the ticket site matches the one you chose before you pay.`
+    ]);
+  }
+
   // Questions the visible page now answers directly are dropped rather than
   // repeated in the FAQ.
   const SUPERSEDED = [/tour dates\?/i, /prices can i see/i, /prices shown here/i];

@@ -232,6 +232,14 @@ assert(
 assert(faq.some(([question]) => question === "Is TourTicketCompare official?"), "authored questions the page does not answer are kept");
 faq.forEach(([question, answer]) => assertCopySafe(`${question} ${answer}`, "faq entry"));
 
+const pickEntry = faq.find(([question]) => question === "Which Harry Styles date should I pick?");
+assert(pickEntry, "a multi-city board answers which-date-to-pick from its own cities");
+assert(pickEntry[1].includes("London"), "the pick answer names a venue run from this board when one exists");
+assert(
+  !artistFaqEntries({ name: "Solo" }, oneStatus, options).some(([question]) => /which .* date should i pick/i.test(question)),
+  "a single-date board has nothing to pick between"
+);
+
 const emptyFaq = artistFaqEntries({ name: "Latto", faq: authoredFaq }, emptyStatus, options);
 assert(emptyFaq[0][0] === "Are there upcoming Latto dates?", "an empty board asks (and answers) the question a visitor actually has");
 assert(emptyFaq[0][1].startsWith("Not right now."), "the empty-board answer should be direct");

@@ -1,7 +1,7 @@
 ---
 title: 'Ticketmaster, SeatGeek & Vivid Seats: How to Compare Tickets'
 h1: 'Ticketmaster, SeatGeek & Vivid Seats: How to Compare Tickets'
-description: Compare Ticketmaster, SeatGeek and Vivid Seats by ticket type, current total, delivery and buyer protection before choosing a provider.
+description: Ticketmaster, SeatGeek and Vivid Seats play different roles. Which sells primary or resale, and what to compare in total, delivery and buyer protection.
 status: published
 date_published: 2026-06-11
 comparison_providers:

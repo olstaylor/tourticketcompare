@@ -2502,5 +2502,89 @@
     "last_verified_at": "2026-10-24",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-24"
+  },
+  {
+    "slug": "sam-fender",
+    "name": "Sam Fender",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-25",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-25"
+  },
+  {
+    "slug": "bon-jovi",
+    "name": "Bon Jovi",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-25",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-25"
+  },
+  {
+    "slug": "logic",
+    "name": "Logic",
+    "short_description": "Hip-Hop/Rap act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-25",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-25"
+  },
+  {
+    "slug": "anuel-aa",
+    "name": "Anuel AA",
+    "short_description": "Hip-Hop/Rap act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-25",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-25"
+  },
+  {
+    "slug": "luke-bryan",
+    "name": "Luke Bryan",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-25",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-25"
+  },
+  {
+    "slug": "billy-strings",
+    "name": "Billy Strings",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-25",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-25"
   }
 ]

@@ -2683,6 +2683,90 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-turnpike-troubadours",
     redirectUrl: "https://seatgeek.com/turnpike-troubadours-tickets",
     verified: true
+  },
+  "sam-fender:ticketmaster": {
+    artistSlug: "sam-fender",
+    provider: "ticketmaster",
+    linkId: "tm-artist-sam-fender",
+    redirectUrl: "https://www.ticketmaster.com/sam-fender-tickets/artist/2417706",
+    verified: true
+  },
+  "sam-fender:seatgeek": {
+    artistSlug: "sam-fender",
+    provider: "seatgeek",
+    linkId: "sg-artist-sam-fender",
+    redirectUrl: "https://seatgeek.com/sam-fender-tickets",
+    verified: true
+  },
+  "bon-jovi:ticketmaster": {
+    artistSlug: "bon-jovi",
+    provider: "ticketmaster",
+    linkId: "tm-artist-bon-jovi",
+    redirectUrl: "https://www.ticketmaster.com/bon-jovi-tickets/artist/734608",
+    verified: true
+  },
+  "bon-jovi:seatgeek": {
+    artistSlug: "bon-jovi",
+    provider: "seatgeek",
+    linkId: "sg-artist-bon-jovi",
+    redirectUrl: "https://seatgeek.com/bon-jovi-tickets",
+    verified: true
+  },
+  "logic:ticketmaster": {
+    artistSlug: "logic",
+    provider: "ticketmaster",
+    linkId: "tm-artist-logic",
+    redirectUrl: "https://www.ticketmaster.com/logic-tickets/artist/1604590",
+    verified: true
+  },
+  "logic:seatgeek": {
+    artistSlug: "logic",
+    provider: "seatgeek",
+    linkId: "sg-artist-logic",
+    redirectUrl: "https://seatgeek.com/logic-1-tickets",
+    verified: true
+  },
+  "anuel-aa:ticketmaster": {
+    artistSlug: "anuel-aa",
+    provider: "ticketmaster",
+    linkId: "tm-artist-anuel-aa",
+    redirectUrl: "https://www.ticketmaster.com/anuel-aa-tickets/artist/2553245",
+    verified: true
+  },
+  "anuel-aa:seatgeek": {
+    artistSlug: "anuel-aa",
+    provider: "seatgeek",
+    linkId: "sg-artist-anuel-aa",
+    redirectUrl: "https://seatgeek.com/anuel-aa-tickets",
+    verified: true
+  },
+  "luke-bryan:ticketmaster": {
+    artistSlug: "luke-bryan",
+    provider: "ticketmaster",
+    linkId: "tm-artist-luke-bryan",
+    redirectUrl: "https://www.ticketmaster.com/luke-bryan-tickets/artist/1044173",
+    verified: true
+  },
+  "luke-bryan:seatgeek": {
+    artistSlug: "luke-bryan",
+    provider: "seatgeek",
+    linkId: "sg-artist-luke-bryan",
+    redirectUrl: "https://seatgeek.com/luke-bryan-tickets",
+    verified: true
+  },
+  "billy-strings:ticketmaster": {
+    artistSlug: "billy-strings",
+    provider: "ticketmaster",
+    linkId: "tm-artist-billy-strings",
+    redirectUrl: "https://www.ticketmaster.com/billy-strings-tickets/artist/2253625",
+    verified: true
+  },
+  "billy-strings:seatgeek": {
+    artistSlug: "billy-strings",
+    provider: "seatgeek",
+    linkId: "sg-artist-billy-strings",
+    redirectUrl: "https://seatgeek.com/billy-strings-tickets",
+    verified: true
   }
 };
 

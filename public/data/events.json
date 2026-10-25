@@ -293389,5 +293389,1873 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
+  },
+  {
+    "id": "tm-sam-fender-2027-newcastle-upon-tyne-1agzk4fgkd88g8t",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender - Proper Massive Stadium Tour '27",
+    "city": "Newcastle Upon Tyne",
+    "country": "Great Britain",
+    "venue": "St James Park",
+    "datetime_iso": "2027-06-03T15:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006554D0435429",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-newcastle-upon-tyne-03-06-2027/event/35006554D0435429",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-newcastle-upon-tyne-03-06-2027/event/35006554D0435429",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006554D0435429",
+        "discovery_event_id": "1AgZk4fGkd88g8t",
+        "url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-newcastle-upon-tyne-03-06-2027/event/35006554D0435429",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk4fGkd88g8t",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
+  },
+  {
+    "id": "tm-sam-fender-2027-newcastle-upon-tyne-1adfz_fgktpp_oj",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender - Proper Massive Stadium Tour '27",
+    "city": "Newcastle Upon Tyne",
+    "country": "Great Britain",
+    "venue": "St James Park",
+    "datetime_iso": "2027-06-05T15:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500654FD659945C",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-newcastle-upon-tyne-05-06-2027/event/3500654FD659945C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-newcastle-upon-tyne-05-06-2027/event/3500654FD659945C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500654FD659945C",
+        "discovery_event_id": "1AdfZ_fGkTpp_oj",
+        "url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-newcastle-upon-tyne-05-06-2027/event/3500654FD659945C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_fGkTpp_oj",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
+  },
+  {
+    "id": "tm-sam-fender-2027-cardiff-16gzk4fpszage5ca",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender - Proper Massive Stadium Tour '27",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Principality Stadium",
+    "datetime_iso": "2027-06-10T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006554971B1AD4",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-cardiff-10-06-2027/event/35006554971B1AD4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-cardiff-10-06-2027/event/35006554971B1AD4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006554971B1AD4",
+        "discovery_event_id": "16gZk4fPsZAGe5CA",
+        "url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-cardiff-10-06-2027/event/35006554971B1AD4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16gZk4fPsZAGe5CA",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
+  },
+  {
+    "id": "tm-sam-fender-2027-london-16nzk4f00zauv12c",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender - Proper Massive Stadium Tour '27",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2027-06-18T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "23006554924C09ED",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-18-06-2027/event/23006554924C09ED",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-18-06-2027/event/23006554924C09ED",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "23006554924C09ED",
+        "discovery_event_id": "16NZk4f00ZAuv12C",
+        "url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-18-06-2027/event/23006554924C09ED",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16NZk4f00ZAuv12C",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
+  },
+  {
+    "id": "tm-sam-fender-2027-london-1anzk4fgkdp88g6",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender - Proper Massive Stadium Tour '27",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2027-06-20T15:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "23006554D6410D47",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-20-06-2027/event/23006554D6410D47",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-20-06-2027/event/23006554D6410D47",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "23006554D6410D47",
+        "discovery_event_id": "1ANZk4fGkdp88g6",
+        "url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-20-06-2027/event/23006554D6410D47",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ANZk4fGkdp88g6",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
+  },
+  {
+    "id": "tm-sam-fender-2027-dublin-1avoz_fgkxvywdt",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender - Proper Massive Stadium Tour '27",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "Marlay Park",
+    "datetime_iso": "2027-07-01T15:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800654F81E72EE9",
+    "ticketmaster_url": "https://www.ticketmaster.ie/sam-fender-proper-massive-stadium-tour-dublin-01-07-2027/event/1800654F81E72EE9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/sam-fender-proper-massive-stadium-tour-dublin-01-07-2027/event/1800654F81E72EE9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800654F81E72EE9",
+        "discovery_event_id": "1AvOZ_fGkXvywDt",
+        "url": "https://www.ticketmaster.ie/sam-fender-proper-massive-stadium-tour-dublin-01-07-2027/event/1800654F81E72EE9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_fGkXvywDt",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
+  },
+  {
+    "id": "tm-sam-fender-2027-edinburgh-1auzk4fgkd4qebt",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender - Proper Massive Stadium Tour '27",
+    "city": "Edinburgh",
+    "country": "Great Britain",
+    "venue": "Scottish Gas Murrayfield",
+    "datetime_iso": "2027-07-08T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006554D56A7629",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-edinburgh-08-07-2027/event/36006554D56A7629",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-edinburgh-08-07-2027/event/36006554D56A7629",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006554D56A7629",
+        "discovery_event_id": "1AUZk4fGkd4QEbt",
+        "url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-edinburgh-08-07-2027/event/36006554D56A7629",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZk4fGkd4QEbt",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
+  },
+  {
+    "id": "tm-sam-fender-2027-manchester-g5dzz_42lyjlw",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender - Proper Massive Stadium Tour '27",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Etihad Stadium",
+    "datetime_iso": "2027-07-15T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006553EBE66AFD",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-manchester-15-07-2027/event/3E006553EBE66AFD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-manchester-15-07-2027/event/3E006553EBE66AFD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006553EBE66AFD",
+        "discovery_event_id": "G5dzZ_42lyJlW",
+        "url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-manchester-15-07-2027/event/3E006553EBE66AFD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_42lyJlW",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
+  },
+  {
+    "id": "tm-sam-fender-2027-manchester-g5dzz_4k4turs",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender - Proper Massive Stadium Tour '27",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Etihad Stadium",
+    "datetime_iso": "2027-07-17T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006554D5FF67B3",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-manchester-17-07-2027/event/3E006554D5FF67B3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-manchester-17-07-2027/event/3E006554D5FF67B3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006554D5FF67B3",
+        "discovery_event_id": "G5dzZ_4K4TUrS",
+        "url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-manchester-17-07-2027/event/3E006554D5FF67B3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_4K4TUrS",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
+  },
+  {
+    "id": "tm-bon-jovi-2027-docklands-1aefz_fgkxe60v9",
+    "artist_slug": "bon-jovi",
+    "artist_name": "Bon Jovi",
+    "event_name": "Bon Jovi - The Forever Tour 2027",
+    "city": "Docklands",
+    "country": "Australia",
+    "venue": "Marvel Stadium",
+    "datetime_iso": "2027-03-04T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500654F821E4057",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/bon-jovi-the-forever-tour-2027-docklands-04-03-2027/event/2500654F821E4057",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/bon-jovi-the-forever-tour-2027-docklands-04-03-2027/event/2500654F821E4057",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500654F821E4057",
+        "discovery_event_id": "1AefZ_fGkXe60v9",
+        "url": "https://www.ticketmaster.com.au/bon-jovi-the-forever-tour-2027-docklands-04-03-2027/event/2500654F821E4057",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZ_fGkXe60v9",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bon-jovi-2027-east-rutherford-k7vgf_4evgqwy",
+    "artist_slug": "bon-jovi",
+    "artist_name": "Bon Jovi",
+    "event_name": "Bon Jovi: Forever Tour",
+    "city": "East Rutherford",
+    "country": "United States Of America",
+    "venue": "MetLife Stadium",
+    "datetime_iso": "2027-07-15T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006550B4D5AF70",
+    "ticketmaster_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-east-rutherford-new-jersey-07-15-2027/event/00006550B4D5AF70",
+    "seatgeek_url": "https://seatgeek.com/bon-jovi-tickets/east-rutherford-new-jersey-metlife-stadium-2027-07-15-6-30-pm/concert/18696568",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-east-rutherford-new-jersey-07-15-2027/event/00006550B4D5AF70",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006550B4D5AF70",
+        "discovery_event_id": "k7vGF_4eVgQWY",
+        "url": "https://www.ticketmaster.com/bon-jovi-forever-tour-east-rutherford-new-jersey-07-15-2027/event/00006550B4D5AF70",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_4eVgQWY",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T14:00:00Z"
+  },
+  {
+    "id": "tm-bon-jovi-2027-chicago-vv178z_fgkh_n5td",
+    "artist_slug": "bon-jovi",
+    "artist_name": "Bon Jovi",
+    "event_name": "Bon Jovi: Forever Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Soldier Field",
+    "datetime_iso": "2027-07-21T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400654F198CBFFB",
+    "ticketmaster_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-chicago-illinois-07-21-2027/event/0400654F198CBFFB",
+    "seatgeek_url": "https://seatgeek.com/bon-jovi-tickets/chicago-illinois-soldier-field-2027-07-21-6-30-pm/concert/18696570",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-chicago-illinois-07-21-2027/event/0400654F198CBFFB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400654F198CBFFB",
+        "discovery_event_id": "vv178Z_fGkH_N5TD",
+        "url": "https://www.ticketmaster.com/bon-jovi-forever-tour-chicago-illinois-07-21-2027/event/0400654F198CBFFB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv178Z_fGkH_N5TD",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T15:00:00Z"
+  },
+  {
+    "id": "tm-bon-jovi-2027-foxborough-vv1avzk48gke-15d8",
+    "artist_slug": "bon-jovi",
+    "artist_name": "Bon Jovi",
+    "event_name": "Bon Jovi: Forever Tour",
+    "city": "Foxborough",
+    "country": "United States Of America",
+    "venue": "Gillette Stadium",
+    "datetime_iso": "2027-07-28T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006550A128B0D0",
+    "ticketmaster_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-foxborough-massachusetts-07-28-2027/event/01006550A128B0D0",
+    "seatgeek_url": "https://seatgeek.com/bon-jovi-tickets/foxborough-massachusetts-gillette-stadium-2027-07-28-7-pm/concert/18696567",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-foxborough-massachusetts-07-28-2027/event/01006550A128B0D0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006550A128B0D0",
+        "discovery_event_id": "vv1AvZk48Gke-15d8",
+        "url": "https://www.ticketmaster.com/bon-jovi-forever-tour-foxborough-massachusetts-07-28-2027/event/01006550A128B0D0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk48Gke-15d8",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T14:00:00Z"
+  },
+  {
+    "id": "tm-bon-jovi-2027-toronto-1a8zk48je1zze8k",
+    "artist_slug": "bon-jovi",
+    "artist_name": "Bon Jovi",
+    "event_name": "Bon Jovi",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Stadium",
+    "datetime_iso": "2027-08-04T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006550982280F5",
+    "ticketmaster_url": "https://www.ticketmaster.ca/bon-jovi-toronto-ontario-08-04-2027/event/10006550982280F5",
+    "seatgeek_url": "https://seatgeek.com/bon-jovi-tickets/toronto-canada-rogers-stadium-toronto-2027-08-04-6-30-pm/concert/18696569",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/bon-jovi-toronto-ontario-08-04-2027/event/10006550982280F5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006550982280F5",
+        "discovery_event_id": "1a8Zk48Je1ZZe8k",
+        "url": "https://www.ticketmaster.ca/bon-jovi-toronto-ontario-08-04-2027/event/10006550982280F5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1a8Zk48Je1ZZe8k",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T14:00:00Z"
+  },
+  {
+    "id": "tm-anuel-aa-2026-belmont-park-1ayzkffgkd4zfkj",
+    "artist_slug": "anuel-aa",
+    "artist_name": "Anuel AA",
+    "event_name": "Anuel AA",
+    "city": "Belmont Park",
+    "country": "United States Of America",
+    "venue": "UBS Arena",
+    "datetime_iso": "2026-11-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "30006514D50084DC",
+    "ticketmaster_url": "https://www.ticketmaster.com/anuel-aa-belmont-park-new-york-11-06-2026/event/30006514D50084DC",
+    "seatgeek_url": "https://seatgeek.com/anuel-aa-tickets/elmont-new-york-ubs-arena-2026-11-06-8-pm/concert/18579489",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/anuel-aa-belmont-park-new-york-11-06-2026/event/30006514D50084DC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "30006514D50084DC",
+        "discovery_event_id": "1AYZkffGkd4ZFKj",
+        "url": "https://www.ticketmaster.com/anuel-aa-belmont-park-new-york-11-06-2026/event/30006514D50084DC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AYZkffGkd4ZFKj",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-anuel-aa-2027-monterrey-g5dvz_6rcdk4r",
+    "artist_slug": "anuel-aa",
+    "artist_name": "Anuel AA",
+    "event_name": "Anuel AA",
+    "city": "Monterrey",
+    "country": "Mexico",
+    "venue": "Estadio Borregos",
+    "datetime_iso": "2027-04-09T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D0064778E0D356F",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/anuel-aa-monterrey-08-04-2027/event/3D0064778E0D356F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/anuel-aa-monterrey-08-04-2027/event/3D0064778E0D356F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D0064778E0D356F",
+        "discovery_event_id": "G5dVZ_6rCdK4R",
+        "url": "https://www.ticketmaster.com.mx/anuel-aa-monterrey-08-04-2027/event/3D0064778E0D356F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_6rCdK4R",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-anuel-aa-2027-zapopan-g5dvz_6raf6md",
+    "artist_slug": "anuel-aa",
+    "artist_name": "Anuel AA",
+    "event_name": "Anuel AA",
+    "city": "Zapopan",
+    "country": "Mexico",
+    "venue": "Coliseo GNP Seguros",
+    "datetime_iso": "2027-04-16T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D00647BC5207BBB",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/anuel-aa-zapopan-15-04-2027/event/3D00647BC5207BBB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/anuel-aa-zapopan-15-04-2027/event/3D00647BC5207BBB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D00647BC5207BBB",
+        "discovery_event_id": "G5dVZ_6RAF6mD",
+        "url": "https://www.ticketmaster.com.mx/anuel-aa-zapopan-15-04-2027/event/3D00647BC5207BBB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_6RAF6mD",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-luke-bryan-2026-mescalero-vvg1yz_gw6bfly",
+    "artist_slug": "luke-bryan",
+    "artist_name": "Luke Bryan",
+    "event_name": "Luke Bryan",
+    "city": "Mescalero",
+    "country": "United States Of America",
+    "venue": "Inn of the Mountain Gods Resort and Casino",
+    "datetime_iso": "2026-12-06T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064CC87E94AF0",
+    "ticketmaster_url": "https://www.ticketmaster.com/luke-bryan-mescalero-new-mexico-12-05-2026/event/0C0064CC87E94AF0",
+    "seatgeek_url": "https://seatgeek.com/luke-bryan-tickets/mescalero-new-mexico-inn-of-the-mountain-gods-resort-and-casino-2026-12-05-8-pm/concert/18571831",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/luke-bryan-mescalero-new-mexico-12-05-2026/event/0C0064CC87E94AF0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064CC87E94AF0",
+        "discovery_event_id": "vvG1YZ_Gw6BflY",
+        "url": "https://www.ticketmaster.com/luke-bryan-mescalero-new-mexico-12-05-2026/event/0C0064CC87E94AF0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_Gw6BflY",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-luke-bryan-2026-las-vegas-1avjz_agkws6gfv",
+    "artist_slug": "luke-bryan",
+    "artist_name": "Luke Bryan",
+    "event_name": "Luke Bryan & Jason Aldean: Double Down Tour 2026",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Allegiant Stadium",
+    "datetime_iso": "2026-12-12T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700649CB11CC234",
+    "ticketmaster_url": "https://www.ticketmaster.com/luke-bryan-jason-aldean-double-down-las-vegas-nevada-12-11-2026/event/1700649CB11CC234",
+    "seatgeek_url": "https://seatgeek.com/luke-bryan-tickets/las-vegas-nevada-allegiant-stadium-2026-12-11-3-30-am/concert/18211763",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/luke-bryan-jason-aldean-double-down-las-vegas-nevada-12-11-2026/event/1700649CB11CC234",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700649CB11CC234",
+        "discovery_event_id": "1AvjZ_aGkws6GFV",
+        "url": "https://www.ticketmaster.com/luke-bryan-jason-aldean-double-down-las-vegas-nevada-12-11-2026/event/1700649CB11CC234",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_aGkws6GFV",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2026-baltimore-1avfz_6gkm3naew",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Baltimore",
+    "country": "United States Of America",
+    "venue": "CFG Bank Arena",
+    "datetime_iso": "2026-10-30T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500647B92A850B2",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-baltimore-maryland-10-30-2026/event/1500647B92A850B2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-baltimore-maryland-10-30-2026/event/1500647B92A850B2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500647B92A850B2",
+        "discovery_event_id": "1AvfZ_6Gkm3nAew",
+        "url": "https://www.ticketmaster.com/billy-strings-baltimore-maryland-10-30-2026/event/1500647B92A850B2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvfZ_6Gkm3nAew",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2026-baltimore-1avfz_6gkmktg1d",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Baltimore",
+    "country": "United States Of America",
+    "venue": "CFG Bank Arena",
+    "datetime_iso": "2026-10-31T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500647B93A75283",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-baltimore-maryland-10-31-2026/event/1500647B93A75283",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-baltimore-maryland-10-31-2026/event/1500647B93A75283",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500647B93A75283",
+        "discovery_event_id": "1AvfZ_6GkmKtg1d",
+        "url": "https://www.ticketmaster.com/billy-strings-baltimore-maryland-10-31-2026/event/1500647B93A75283",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvfZ_6GkmKtg1d",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2026-new-orleans-g5viz_fhsj6zp",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "New Orleans",
+    "country": "United States Of America",
+    "venue": "Saenger Theatre New Orleans",
+    "datetime_iso": "2026-12-05T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006486F1987016",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-new-orleans-louisiana-12-04-2026/event/1B006486F1987016",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-new-orleans-louisiana-12-04-2026/event/1B006486F1987016",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006486F1987016",
+        "discovery_event_id": "G5viZ_FhsJ6Zp",
+        "url": "https://www.ticketmaster.com/billy-strings-new-orleans-louisiana-12-04-2026/event/1B006486F1987016",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_FhsJ6Zp",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2026-new-orleans-g5viz_6n0bmge",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "New Orleans",
+    "country": "United States Of America",
+    "venue": "Smoothie King Center",
+    "datetime_iso": "2026-12-06T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00647AA462ED67",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-new-orleans-louisiana-12-05-2026/event/1B00647AA462ED67",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-new-orleans-louisiana-12-05-2026/event/1B00647AA462ED67",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00647AA462ED67",
+        "discovery_event_id": "G5viZ_6n0bmgE",
+        "url": "https://www.ticketmaster.com/billy-strings-new-orleans-louisiana-12-05-2026/event/1B00647AA462ED67",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_6n0bmgE",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2026-sugar-land-z7r9jz1a7xvj-",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Sugar Land",
+    "country": "United States Of America",
+    "venue": "Smart Financial Centre at Sugar Land",
+    "datetime_iso": "2026-12-10T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7xvj-",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xvj-",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xvj-",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7xvj-",
+        "discovery_event_id": "Z7r9jZ1A7xvj-",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xvj-",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xvj-",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2026-fort-worth-vvg1yz_6mc3yqf",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Dickies Arena",
+    "datetime_iso": "2026-12-12T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00647BAD4B9754",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-fort-worth-texas-12-11-2026/event/0C00647BAD4B9754",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-fort-worth-texas-12-11-2026/event/0C00647BAD4B9754",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00647BAD4B9754",
+        "discovery_event_id": "vvG1YZ_6mc3yqf",
+        "url": "https://www.ticketmaster.com/billy-strings-fort-worth-texas-12-11-2026/event/0C00647BAD4B9754",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_6mc3yqf",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2026-austin-g5diz_ub5bart",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2026-12-13T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064DE8BE85BE9",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-austin-texas-12-12-2026/event/3A0064DE8BE85BE9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-austin-texas-12-12-2026/event/3A0064DE8BE85BE9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064DE8BE85BE9",
+        "discovery_event_id": "G5dIZ_uB5BARt",
+        "url": "https://www.ticketmaster.com/billy-strings-austin-texas-12-12-2026/event/3A0064DE8BE85BE9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_uB5BARt",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2027-asheville-g5evz_omwlg3b",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Asheville",
+    "country": "United States Of America",
+    "venue": "Harrah's Cherokee Center - Asheville",
+    "datetime_iso": "2027-02-05T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00651BB2ACC498",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-asheville-north-carolina-02-04-2027/event/2D00651BB2ACC498",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-asheville-north-carolina-02-04-2027/event/2D00651BB2ACC498",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00651BB2ACC498",
+        "discovery_event_id": "G5eVZ_omwlG3b",
+        "url": "https://www.ticketmaster.com/billy-strings-asheville-north-carolina-02-04-2027/event/2D00651BB2ACC498",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_omwlG3b",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2027-asheville-g5evz_omwlh3-",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Asheville",
+    "country": "United States Of America",
+    "venue": "Harrah's Cherokee Center - Asheville",
+    "datetime_iso": "2027-02-06T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00651BB2AFC4A1",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-asheville-north-carolina-02-05-2027/event/2D00651BB2AFC4A1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-asheville-north-carolina-02-05-2027/event/2D00651BB2AFC4A1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00651BB2AFC4A1",
+        "discovery_event_id": "G5eVZ_omwlH3-",
+        "url": "https://www.ticketmaster.com/billy-strings-asheville-north-carolina-02-05-2027/event/2D00651BB2AFC4A1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_omwlH3-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2027-asheville-g5evz_omwig3e",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Asheville",
+    "country": "United States Of America",
+    "venue": "Harrah's Cherokee Center - Asheville",
+    "datetime_iso": "2027-02-07T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00651BB2B0C4A7",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-asheville-north-carolina-02-06-2027/event/2D00651BB2B0C4A7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-asheville-north-carolina-02-06-2027/event/2D00651BB2B0C4A7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00651BB2B0C4A7",
+        "discovery_event_id": "G5eVZ_omwiG3E",
+        "url": "https://www.ticketmaster.com/billy-strings-asheville-north-carolina-02-06-2027/event/2D00651BB2B0C4A7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_omwiG3E",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2027-asheville-g5evz_omwii3v",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Asheville",
+    "country": "United States Of America",
+    "venue": "Harrah's Cherokee Center - Asheville",
+    "datetime_iso": "2027-02-09T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00651BB2B2C4B4",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-asheville-north-carolina-02-08-2027/event/2D00651BB2B2C4B4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-asheville-north-carolina-02-08-2027/event/2D00651BB2B2C4B4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00651BB2B2C4B4",
+        "discovery_event_id": "G5eVZ_omwii3V",
+        "url": "https://www.ticketmaster.com/billy-strings-asheville-north-carolina-02-08-2027/event/2D00651BB2B2C4B4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_omwii3V",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2027-asheville-g5evz_omwcg3b",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Asheville",
+    "country": "United States Of America",
+    "venue": "Harrah's Cherokee Center - Asheville",
+    "datetime_iso": "2027-02-10T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00651BB2B4C4BA",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-asheville-north-carolina-02-09-2027/event/2D00651BB2B4C4BA",
+    "seatgeek_url": "https://seatgeek.com/billy-strings-tickets/asheville-north-carolina-harrah-s-cherokee-center-asheville-2027-02-09-7-30-pm/concert/18540083",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-asheville-north-carolina-02-09-2027/event/2D00651BB2B4C4BA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00651BB2B4C4BA",
+        "discovery_event_id": "G5eVZ_omwcG3B",
+        "url": "https://www.ticketmaster.com/billy-strings-asheville-north-carolina-02-09-2027/event/2D00651BB2B4C4BA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_omwcG3B",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2027-duluth-vvg1zz_oinx98f",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Duluth",
+    "country": "United States Of America",
+    "venue": "Gas South Arena",
+    "datetime_iso": "2027-02-13T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00651B23F97408",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-duluth-georgia-02-12-2027/event/0E00651B23F97408",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-duluth-georgia-02-12-2027/event/0E00651B23F97408",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00651B23F97408",
+        "discovery_event_id": "vvG1zZ_oiNX98F",
+        "url": "https://www.ticketmaster.com/billy-strings-duluth-georgia-02-12-2027/event/0E00651B23F97408",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_oiNX98F",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2027-duluth-vvg1zz_ointe8l",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Duluth",
+    "country": "United States Of America",
+    "venue": "Gas South Arena",
+    "datetime_iso": "2027-02-14T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00651B23FE741F",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-duluth-georgia-02-13-2027/event/0E00651B23FE741F",
+    "seatgeek_url": "https://seatgeek.com/billy-strings-tickets/duluth-georgia-gas-south-arena-2027-02-13-7-30-pm/concert/18540092",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-duluth-georgia-02-13-2027/event/0E00651B23FE741F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00651B23FE741F",
+        "discovery_event_id": "vvG1zZ_oiNTE8L",
+        "url": "https://www.ticketmaster.com/billy-strings-duluth-georgia-02-13-2027/event/0E00651B23FE741F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_oiNTE8L",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2027-nashville-g5viz_on579po",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2027-02-20T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00651A8B1175A0",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-nashville-tennessee-02-19-2027/event/1B00651A8B1175A0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-nashville-tennessee-02-19-2027/event/1B00651A8B1175A0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00651A8B1175A0",
+        "discovery_event_id": "G5viZ_on579pO",
+        "url": "https://www.ticketmaster.com/billy-strings-nashville-tennessee-02-19-2027/event/1B00651A8B1175A0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_on579pO",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2027-nashville-g5viz_on5a9pr",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2027-02-21T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00651A8B1575AF",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-nashville-tennessee-02-20-2027/event/1B00651A8B1575AF",
+    "seatgeek_url": "https://seatgeek.com/billy-strings-tickets/nashville-tennessee-bridgestone-arena-2027-02-20-7-30-pm/concert/18540094",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-nashville-tennessee-02-20-2027/event/1B00651A8B1575AF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00651A8B1575AF",
+        "discovery_event_id": "G5viZ_on5A9pR",
+        "url": "https://www.ticketmaster.com/billy-strings-nashville-tennessee-02-20-2027/event/1B00651A8B1575AF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_on5A9pR",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

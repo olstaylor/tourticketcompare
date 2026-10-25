@@ -121,7 +121,7 @@ async function main() {
   const issueNumber = Number(process.env.BLOG_IDEAS_ISSUE || '1538');
   if (!Number.isSafeInteger(issueNumber) || issueNumber <= 0) throw new Error('Invalid recommendations issue number');
   // Named tour guides (manual dispatch): comma-separated artist slugs, at most four.
-  const artists = (process.env.BLOG_DRAFT_ARTISTS || '').split(',').map((a) => a.trim()).filter(Boolean);
+  const artists = (process.env.BLOG_DRAFT_ARTISTS || '').split(',').map((a) => a.trim().toLowerCase().replace(/[\s_]+/g, '-')).filter(Boolean);
   if (artists.length > 4 || artists.some((a) => !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(a))) throw new Error('BLOG_DRAFT_ARTISTS must be up to four artist slugs');
   if (artists.length && mode === 'mock') throw new Error('Named artists are not supported in mock mode');
   const repository = process.env.GITHUB_REPOSITORY || 'olstaylor/tourticketcompare';

@@ -6,7 +6,7 @@ import os from 'node:os';
 import { execFileSync } from 'node:child_process';
 import { pathToFileURL, fileURLToPath } from 'node:url';
 import { parse as parseYaml } from 'yaml';
-import { selectArticle, buildEvidence, checkArticle, generateArticle, anthropicClient, researchEvidence, verifyRemoteEvent,
+import { selectArticle, remoteMismatches, buildEvidence, checkArticle, generateArticle, anthropicClient, researchEvidence, verifyRemoteEvent,
   reserveTopic, listEditorialPrs, MODEL, EFFORT, OUTPUT_LIMITS, MAX_ESTIMATED_USD, MAX_OPEN_DRAFTS, prBody } from './lib/blog-drafting.mjs';
 import { draftOnce, prepareContent, readDraftRules } from './draft-blog-article.mjs';
 import { createMockClient, mockMarkdown } from './fixtures/blog-draft-model.mjs';
@@ -466,4 +466,13 @@ test('mock issue #1538 compiles as hidden draft; human publication regenerates i
     await fs.appendFile(path.join(temporary, `content/blog/${selected.slug}.md`), '\nGuaranteed availability and cheapest tickets.\n');
     assert.throws(() => execute('build-blog-content.mjs'), /failed/);
   } finally { await fs.rm(temporary, { recursive: true, force: true }); }
+});
+
+test('a different Discovery URL slug still matches when the event id is the same', () => {
+  const e = { ...evidence.events[0], sourceUrl: 'https://www.ticketmaster.com/some-long-slug-las-vegas-nevada-11-04-2026/event/170064E18A2B80F1' };
+  const data = remote(e);
+  data.url = 'https://www.ticketmaster.com/artist-tickets/event/170064e18a2b80f1';
+  assert(!remoteMismatches(e, data, now).includes('sourceUrl'));
+  data.url = 'https://www.ticketmaster.com/artist-tickets/event/170064E18A2B80F2';
+  assert(remoteMismatches(e, data, now).includes('sourceUrl'));
 });

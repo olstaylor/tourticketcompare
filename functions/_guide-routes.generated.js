@@ -25,7 +25,7 @@ export const GUIDE_ROUTES = {
   "/guides/vivid-seats-vs-ticketmaster": {
     title: "Vivid Seats vs Ticketmaster: Which Is Better?",
     h1: "Vivid Seats vs Ticketmaster: Which Is Better?",
-    description: "Neither is better for every event. Ticketmaster often sells primary tickets; Vivid Seats is resale. What differs in seats, fees, delivery and protection.",
+    description: "Separate businesses, not the same one. Ticketmaster often sells primary tickets; Vivid Seats is resale. What differs in seats, fees, delivery and protection.",
     fullContent: true,
     comparisonProviders: ["ticketmaster","vivid-seats"],
     datePublished: "2026-08-20",
@@ -43,7 +43,7 @@ export const GUIDE_ROUTES = {
   "/guides/seatgeek-vs-ticketmaster": {
     title: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
     h1: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
-    description: "Ticketmaster sells primary tickets and some resale; SeatGeek is a resale marketplace and primary seller for some venues. How fees and protection differ.",
+    description: "Separate companies, not the same one. Ticketmaster often sells primary tickets; SeatGeek is a resale marketplace. How fees, delivery and protection differ.",
     fullContent: true,
     comparisonProviders: ["ticketmaster","seatgeek"],
     datePublished: "2026-07-13",

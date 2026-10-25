@@ -3326,7 +3326,7 @@ function artistCityFaqEntries(artist, artistCity) {
     ...(artistCity.comparableCount > 0
       ? [[
           `How do I find the cheapest ${artist.name} tickets in ${artistCity.city}?`,
-          `Pick your date in the price table on this page. It shows the cheapest listed price for that date among the ticket sites that had one, which site lists it and when it was checked. Then open the same date on each site and compare the final total, with fees, before you buy.`
+          `Pick your date in the price table on this page. It shows the lowest listed price for that date, which site has it and when it was checked, but only from the sites that shared a price. Then open the same date on each site and compare the final total, with fees, before you pay.`
         ]]
       : []),
     [
@@ -3484,12 +3484,12 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
     .join("");
 
   const heading = surface?.heading || `How much are ${artist.name} tickets in ${artistCity.city}?`;
-  const intro = surface?.intro || "A recorded provider starting price for each date";
+  const intro = surface?.intro || "The lowest listed price for each date";
   const caption = surface?.caption || `Provider starting price by date for ${artist.name} in ${artistCity.city}`;
   const titleId = surface?.titleId || "artistCityPriceTitle";
   const summary = ticketOptions
-    ? `Choose a date to see its checked ticket links${singleVenue ? `, all at ${singleVenue}` : ""}. ${showPrices ? 'Prices were recorded at the times shown; "sites priced" counts sites with a recorded starting price. ' : ""}Compare seats, fees and delivery on each ticket site.`
-    : `${intro}${singleVenue ? `, all at ${singleVenue}` : ""}, and the site offering it, in date order. Seats, quantities and included fees may differ. "Sites priced" counts ticket sites with a recorded starting price for that date.${surface?.note ? ` ${surface.note}` : ""}`;
+    ? `Pick a date to see its checked ticket links${singleVenue ? `, all at ${singleVenue}` : ""}. ${showPrices ? 'Prices are as of the times shown, and "sites priced" is how many sites had a price for that date. ' : ""}Compare seats, fees and delivery on each ticket site before you pay.`
+    : `${intro}${singleVenue ? `, all at ${singleVenue}` : ""}, and the site listing it, in date order. Seats, quantities and fees can differ between sites. "Sites priced" is how many ticket sites had a price for that date.${surface?.note ? ` ${surface.note}` : ""}`;
   return `<section class="nested-panel artist-city-price-answer" aria-labelledby="${escapeAttr(titleId)}"><h2 id="${escapeAttr(titleId)}">${escapeHtml(
     heading
   )}</h2><p>${escapeHtml(summary)}</p><div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">${escapeHtml(caption)}</caption><thead><tr><th scope="col">Date</th>${
@@ -5634,7 +5634,7 @@ function renderPresaleResaleTable(route, events, env) {
   const placeById = new Map(shows.map((show) => [String(show.id || ""), [show.city, show.venue].filter(Boolean).join(" · ")]));
   return renderArtistCityPriceAnswer(artist, { city: "" }, priceAnswer, new Map(), new Map(), {
     heading: `${artist.name} resale prices for these dates`,
-    intro: "A recorded resale starting price for each date above",
+    intro: "The lowest listed resale price for each date above",
     note: "Resale listings are not face value and can sit well above it.",
     caption: `Lowest listed resale price by date for ${artist.name}`,
     titleId: "presaleResaleTitle",
@@ -5710,9 +5710,9 @@ export function renderPresalePageBody(route, events = [], env = {}) {
   const upcoming = presales.windows.filter((window) => !window.open);
   let lead;
   if (!presales.windowCount) {
-    lead = `There's no upcoming presale for ${artist.name}'s dates right now. When a new tour's presales are announced, their names and times appear here for each date.`;
+    lead = `There's no upcoming presale for ${artist.name}'s dates right now. When presales are announced, their names and times will show up here for each date.`;
   } else {
-    const parts = [`Ticketmaster lists ${presalePlural(presales.windowCount, "presale", "presales")} for ${presalePlural(presales.coveredShowCount, "upcoming date", "upcoming dates")} of ${artist.name}.`];
+    const parts = [`${artist.name} has ${presalePlural(presales.windowCount, "presale", "presales")} listed on Ticketmaster, covering ${presalePlural(presales.coveredShowCount, "upcoming date", "upcoming dates")}.`];
     if (open.length) parts.push(open.length === 1 ? "One is open now." : `${open.length} are open now.`);
     if (presales.nextWindow) parts.push(`The next opens ${presaleTimeLabel(presales.nextWindow.startMs, presaleWindowZone(presales.nextWindow))}.`);
     // The public on-sale is the other half of "when can I buy": the earliest
@@ -5768,7 +5768,7 @@ export function renderPresalePageBody(route, events = [], env = {}) {
   const resaleTable = renderPresaleResaleTable(route, events, env);
   // One money disclosure, beside the first ticket buttons on the page.
   const resaleHtml = resaleTable ? `${resaleTable}${nextDatesHtml ? "" : renderMoneyDisclosureHtml()}` : "";
-  const howHtml = `<section class="nested-panel" aria-labelledby="presaleHowTitle"><h2 id="presaleHowTitle">How presales work</h2><div class="card-grid"><article class="info-card"><h3>Who gets in</h3><p>Each presale is for a group named in its title, such as an artist fan club, a card issuer or a venue list. The group running it sends any code or sign-up link. This site never shows codes.</p></article><article class="info-card"><h3>Times can move</h3><p>These times are Ticketmaster's listing for each date when it was last checked, once a day. Promoters do move them, so confirm on Ticketmaster and be signed in a few minutes early.</p></article><article class="info-card"><h3>Resale before the sale</h3><p>Resale sites can list tickets before a presale or public on-sale opens. Those listings can sit well above face value.</p></article></div><div class="mini-link-grid">${anchor(
+  const howHtml = `<section class="nested-panel" aria-labelledby="presaleHowTitle"><h2 id="presaleHowTitle">How presales work</h2><div class="card-grid"><article class="info-card"><h3>Who gets in</h3><p>Each presale is for the group named in its title, like an artist fan club, a card issuer or a venue list. That group sends the code or sign-up link, so check your email. This site never shows codes.</p></article><article class="info-card"><h3>Times can move</h3><p>These are Ticketmaster's times for each date, checked once a day. Promoters do move them, so confirm on Ticketmaster and be signed in a few minutes early.</p></article><article class="info-card"><h3>Resale before the sale</h3><p>Resale sites can list tickets before a presale or on-sale opens. Those listings can cost a lot more than face value, so you don't have to buy there.</p></article></div><div class="mini-link-grid">${anchor(
     "How to prepare for a ticket on-sale",
     "/guides/how-to-prepare-for-a-ticket-onsale",
     "mini-link"

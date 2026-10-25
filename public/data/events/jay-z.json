@@ -221,11 +221,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107327078",
-        "url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-23-2026/event/107327078",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_GNCU5jV",
@@ -233,7 +233,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038358/Jay-Z-tickets-Fri-Oct-23-2026-SoFi-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-23-2026/event/107327078",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

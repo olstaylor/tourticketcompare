@@ -1108,11 +1108,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107158195",
-        "url": "https://www.stubhub.ie/sombr-sunrise-tickets-10-24-2026/event/107158195",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8vw",
@@ -1120,7 +1120,7 @@
     "timezone": "America/New_York",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874867",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874867/sombr-tickets-Sat-Oct-24-2026-Amerant-Bank-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-sunrise-tickets-10-24-2026/event/107158195"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-sombr-2026-orlando-1aefz_fgkn1mew3",

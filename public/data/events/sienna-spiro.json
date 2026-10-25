@@ -2511,6 +2511,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675899",
+        "url": "https://www.stubhub.ie/sienna-spiro-boston-tickets-8-15-2027/event/107675899",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_fGkD_e0KM",
@@ -2520,7 +2527,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332320"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332320",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-boston-tickets-8-15-2027/event/107675899"
   },
   {
     "id": "tm-sienna-spiro-2027-new-york-g5dyz_46da3nv",

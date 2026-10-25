@@ -55,11 +55,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107677822",
-        "url": "https://www.stubhub.ie/garth-brooks-tulsa-tickets-10-23-2026/event/107677822",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfUGkd8C0EN",
@@ -69,7 +69,7 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-tulsa-tickets-10-23-2026/event/107677822"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-garth-brooks-2026-tulsa-1aozkfugkdlv4l0",

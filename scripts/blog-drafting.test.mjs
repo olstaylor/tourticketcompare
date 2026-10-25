@@ -521,3 +521,28 @@ test('a rejected Anthropic request reports its error type and message, costs not
   await assert.rejects(client.request('s', { a: 1 }, 100), (error) => /HTTP 400; invalid_request_error: Your credit balance is too low/.test(error.message) && !error.message.includes('sk-ant-secret-123'));
   assert.equal(spentUsd(client.usage), 0);
 });
+
+test('offline replay: a tour guide runs the whole drafting path with no API call', async () => {
+  const slugs = [...new Set(fixture.events.map((e) => e.artist_slug))];
+  const tour = selectTourGuides(fixture, slugs, { now }).selected;
+  assert(tour, 'fixture should yield a tour guide');
+  const evidence = buildEvidence(tour, { now, snapshot });
+  for (const event of evidence.events) event.external = { kind: 'current-ticketmaster-api' };
+  const article = await generateArticle({ selected: tour, evidence, documents: fixture.documents, rules: 'rules', client: createMockClient(), now });
+  assert.equal(article.validation.status, 'draft');
+  assert(JSON.stringify({ evidence, rules: 'rules' }).length < 48000);
+});
+
+test('a paid draft that fails a check is kept and the stray date is named', async () => {
+  const slugs = [...new Set(fixture.events.map((e) => e.artist_slug))];
+  const tour = selectTourGuides(fixture, slugs, { now }).selected;
+  const evidence = buildEvidence(tour, { now, snapshot });
+  for (const event of evidence.events) event.external = { kind: 'current-ticketmaster-api' };
+  const mock = createMockClient();
+  const client = { usage: [], request: async (system, payload) => {
+    const out = await mock.request(system, payload);
+    return out.markdown ? { markdown: `${out.markdown}\nA second night follows on 2031-01-02.\n` } : out;
+  } };
+  await assert.rejects(generateArticle({ selected: tour, evidence, documents: fixture.documents, rules: 'rules', client, now }),
+    (error) => /unsupported event date \(2031-01-02\)/.test(error.message) && error.rejectedMarkdown.includes('2031-01-02'));
+});

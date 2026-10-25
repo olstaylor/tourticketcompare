@@ -31,6 +31,7 @@ import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js"
 import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } from "./_artist-indexability.js";
 import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, eventPriceComparable, EVENT_LIFECYCLE, PRESALE_PAGE_FRESH_DAYS, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
 import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_MAX_HORIZON_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
+import { deriveThisWeek, renderThisWeekHtml, THIS_WEEK_GUIDE_PATHS } from "./_this-week.js";
 import { deriveToursHub, TOURS_HUB_PATH, TOURS_HUB_YEAR } from "./_tours-hub.js";
 import { deriveRumouredTours, RUMOURED_TOURS_PATH } from "./_rumoured-tours.js";
 import { deriveArtistPresales, deriveUpcomingPresales, presalePath, PRESALE_SEGMENT, PRESALE_LOOKAHEAD_DAYS } from "./_presales.js";
@@ -7878,7 +7879,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       route
     )}<h1 id="guideTitle">${escapeHtml(route.h1 || route.title.replace(" | TourTicketCompare", ""))}</h1><p class="lead">${escapeHtml(
       route.description
-    )}</p>${renderGuideProvenance(route)}${contentHtml}${providerPairHtml}${renderGuideProviderLinks(route, contentHtml)}${renderGuideBlogLinks(route, contentHtml)}${renderGuideSources(
+    )}</p>${renderGuideProvenance(route)}${route.thisWeekHtml || ""}${contentHtml}${providerPairHtml}${renderGuideProviderLinks(route, contentHtml)}${renderGuideBlogLinks(route, contentHtml)}${renderGuideSources(
       guideContent[route.path]?.sources
     )}<div class="action-row">${
       route.path === "/guides/how-to-compare-concert-ticket-prices"
@@ -8077,7 +8078,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   }
 
   if (route.path === "/guides") {
-    return `<main id="mainContent"><section class="content-page guides-index" aria-labelledby="guidesTitle">${renderBreadcrumbHtml(route)}<h1 id="guidesTitle">Ticket buying guides</h1><p class="lead">Understand the fees, compare ticket sites, and know what to check before you buy. Choose the question you need answered.</p>${renderGuideClusters()}${renderPriceGuideLinksHtml(
+    return `<main id="mainContent"><section class="content-page guides-index" aria-labelledby="guidesTitle">${renderBreadcrumbHtml(route)}<h1 id="guidesTitle">Ticket buying guides</h1><p class="lead">Understand the fees, compare ticket sites, and know what to check before you buy. Choose the question you need answered.</p>${route.thisWeekHtml || ""}${renderGuideClusters()}${renderPriceGuideLinksHtml(
       route.priceGuideDirectory,
       {
         id: "artist-price-guides",
@@ -8245,7 +8246,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     "All artists",
     HOME_PRIMARY_CTA_HREF,
     "text-link"
-  )}</div>${renderHomepageArtistLinks(catalog, events)}${renderHomepageOnsaleStrip(events)}<p class="home-browse">Planning around a place? ${anchor(
+  )}</div>${renderHomepageArtistLinks(catalog, events)}${renderHomepageOnsaleStrip(events)}${route.thisWeekHtml || ""}<p class="home-browse">Planning around a place? ${anchor(
     "Browse cities",
     "/cities",
     "text-link"
@@ -8880,7 +8881,7 @@ async function renderRequest(context) {
   const demotedSlugs = listsOnly ? await loadDemotedArtistSlugs(env) : new Set();
   const catalog = withoutDemotedArtists(route.catalog || await loadCatalog(env), demotedSlugs);
   const needsGuideEvents = route.type === "guide" && ((Array.isArray(route.comparisonProviders) && route.comparisonProviders.length === 2) || GUIDE_UPCOMING_ARTIST_PATHS.has(route.path));
-  const needsEvents = route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || needsGuideEvents || route.path === "/artists" || route.path === "/";
+  const needsEvents = route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || needsGuideEvents || THIS_WEEK_GUIDE_PATHS.has(route.path) || route.path === "/artists" || route.path === "/";
   const events = withoutDemotedEvents(route.events || (needsEvents ? await loadEvents(env) : []), demotedSlugs);
   timer.mark("data");
   let priceLowSeries = new Map();
@@ -8993,6 +8994,20 @@ async function renderRequest(context) {
     blogIndexIndexable(deriveBlogPosts(await loadBlogContent(env)));
   let renderRoute = promotesBlog ? { ...route, blogPromotable: true } : route;
   if (homePickSlugs) renderRoute = { ...renderRoute, homePickSlugs };
+  // Links to artists with an on-sale or presale in the next 7 days (home:
+  // presales only, since the "Going on sale soon" strip already lists on-sales).
+  if (events.length && (route.path === "/" || THIS_WEEK_GUIDE_PATHS.has(route.path))) {
+    const meta = await loadArtistsMeta(env);
+    const linkable = new Set(
+      meta
+        .filter((artist) => artist && !artist.demoted && artistPageIndexable(artist, events, slugify(artist.slug)))
+        .map((artist) => slugify(artist.slug))
+    );
+    const thisWeekHtml = renderThisWeekHtml(
+      deriveThisWeek(events, linkable, Date.now(), route.path === "/" ? { kinds: ["presale"] } : {})
+    );
+    if (thisWeekHtml) renderRoute = { ...renderRoute, thisWeekHtml };
+  }
   if (route.type === "artist") {
     const artistBlogPosts = postsForArtist(deriveBlogPosts(await loadBlogContent(env)), route.artist.slug);
     if (artistBlogPosts.length) renderRoute = { ...renderRoute, artistBlogPosts };

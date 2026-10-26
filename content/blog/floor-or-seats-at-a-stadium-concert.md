@@ -1,7 +1,7 @@
 ---
 title: "Floor or seats at a stadium concert: how to choose"
 seo_title: "Stadium concert: floor or seats?"
-description: A floor ticket and a seat at the same stadium show are different products. How to choose between them, and what to check on a listing before paying.
+description: Floor can mean standing, reserved chairs or early entry, and a seat is a different deal. How to choose, and what to check on a listing before you pay.
 summary: At a stadium show, the choice between the floor and a seat decides more than the view. It sets when you need to arrive, how long you stand, what an early-entry add-on is worth and how to read a resale listing. Here is how to weigh it before you compare prices.
 date: 2026-09-25
 updated: 2026-10-05

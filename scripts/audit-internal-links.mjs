@@ -43,6 +43,14 @@ import {
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CHECK_MODE = process.argv.includes("--check");
 
+// Keep the router, the crawl and every expected record on one clock. This audit
+// crawls for minutes; a show that starts mid-crawl (the 00:00-01:00 UTC run
+// window is when US evening shows start) must not drop off the rendered pages
+// while the route list still names it (Impact sync run 40139328473 failed with
+// "served by the router but rendered 301" for two 24 Oct shows).
+const AUDIT_NOW = Date.now();
+Date.now = () => AUDIT_NOW;
+
 // One crawler, shared with scripts/audit-indexable-surface.mjs, so the two
 // audits can never disagree about which routes exist or how a page parses.
 const site = await loadSiteFixture(root);

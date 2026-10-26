@@ -300,11 +300,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107417867",
-        "url": "https://www.stubhub.ie/brand-new-hollywood-tickets-10-25-2026/event/107417867",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "8062714",
@@ -318,7 +318,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062714/Brand-New-tickets-Sun-Oct-25-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
-    "stubhub_international_url": "https://www.stubhub.ie/brand-new-hollywood-tickets-10-25-2026/event/107417867",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062714"
   },
   {
@@ -333,7 +333,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "060064D088E559A8",
     "ticketmaster_url": "https://www.ticketmaster.com/brand-new-independence-missouri-10-28-2026/event/060064D088E559A8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/brand-new-tickets/independence-missouri-cable-dahmer-arena-2026-10-28-8-pm/concert/18319848",
     "vividseats_url": "https://www.vividseats.com/brand-new-tickets-independence-cable-dahmer-arena-10-28-2026/production/7183639",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brand-new-independence-missouri-10-28-2026/event/060064D088E559A8",
@@ -431,7 +431,7 @@
         "event_id": 18319849,
         "url": "https://seatgeek.com/brand-new-tickets/grand-prairie-texas-texas-trust-cu-theatre-2026-10-30-8-pm/concert/18319849",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -500,7 +500,7 @@
         "event_id": 18319855,
         "url": "https://seatgeek.com/brand-new-tickets/denver-colorado-mission-ballroom-2026-11-02-8-pm/concert/18319855",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -569,7 +569,7 @@
         "event_id": 18319859,
         "url": "https://seatgeek.com/brand-new-tickets/las-vegas-nevada-the-theater-at-virgin-hotels-2026-11-06-8-pm/concert/18319859",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {

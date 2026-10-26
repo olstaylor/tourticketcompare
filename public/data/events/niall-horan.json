@@ -714,11 +714,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107148171",
-        "url": "https://www.stubhub.ie/niall-horan-tickets-barcelona-palau-sant-jordi-25-10-2026/event/107148171",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7843958",
@@ -732,7 +732,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843958",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-barcelona-palau-sant-jordi-25-10-2026/event/107148171",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7843958/Niall-Horan-tickets-Sun-Oct-25-2026-Palau-Sant-Jordi",
     "organizer_names": [
       "Live Nation España Blue Lane, SL"
@@ -1139,7 +1139,7 @@
         "event_id": 18235522,
         "url": "https://seatgeek.com/niall-horan-tickets/detroit-michigan-little-caesars-arena-2027-03-19-7-30-pm/concert/18235522",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1231,7 +1231,7 @@
         "event_id": 18235520,
         "url": "https://seatgeek.com/niall-horan-tickets/columbus-ohio-nationwide-arena-2027-03-20-7-30-pm/concert/18235520",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1315,7 +1315,7 @@
         "event_id": 18235524,
         "url": "https://seatgeek.com/niall-horan-tickets/chicago-illinois-united-center-2027-03-23-7-30-pm/concert/18235524",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1407,7 +1407,7 @@
         "event_id": 18235521,
         "url": "https://seatgeek.com/niall-horan-tickets/indianapolis-indiana-gainbridge-fieldhouse-2027-03-26-7-30-pm/concert/18235521",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1491,7 +1491,7 @@
         "event_id": 18235528,
         "url": "https://seatgeek.com/niall-horan-tickets/saint-louis-missouri-enterprise-center-2027-03-27-7-30-pm/concert/18235528",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1559,7 +1559,7 @@
         "event_id": 18235565,
         "url": "https://seatgeek.com/niall-horan-tickets/toronto-canada-scotiabank-arena-2027-03-30-7-30-pm/concert/18235565",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1625,7 +1625,7 @@
         "event_id": 18235567,
         "url": "https://seatgeek.com/niall-horan-tickets/montreal-canada-centre-bell-2027-04-02-7-30-pm/concert/18235567",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1707,7 +1707,7 @@
         "event_id": 18235519,
         "url": "https://seatgeek.com/niall-horan-tickets/brooklyn-new-york-barclays-center-2027-04-04-7-30-pm/concert/18235519",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1799,7 +1799,7 @@
         "event_id": 18235529,
         "url": "https://seatgeek.com/niall-horan-tickets/baltimore-maryland-cfg-bank-arena-2027-04-08-7-30-pm/concert/18235529",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1883,7 +1883,7 @@
         "event_id": 18235530,
         "url": "https://seatgeek.com/niall-horan-tickets/boston-massachusetts-td-garden-2027-04-12-7-30-pm/concert/18235530",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1970,7 +1970,7 @@
         "event_id": 18235538,
         "url": "https://seatgeek.com/niall-horan-tickets/raleigh-north-carolina-lenovo-center-2027-04-15-7-30-pm/concert/18235538",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2054,7 +2054,7 @@
         "event_id": 18235541,
         "url": "https://seatgeek.com/niall-horan-tickets/orlando-florida-kia-center-2027-04-17-7-30-pm/concert/18235541",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2494,7 +2494,7 @@
         "event_id": 18235548,
         "url": "https://seatgeek.com/niall-horan-tickets/austin-texas-moody-center-atx-2027-05-14-7-30-pm/concert/18235548",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {

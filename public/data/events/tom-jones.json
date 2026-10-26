@@ -160,11 +160,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7997397",
-        "url": "https://www.ticketnetwork.com/en/p/7997397",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G61XU61B0",
@@ -173,7 +173,7 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997397"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-tom-jones-2026-los-angeles-vvg10z_58xadko",
@@ -366,7 +366,7 @@
         "event_id": 18266705,
         "url": "https://seatgeek.com/tom-jones-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2026-10-29-8-pm/concert/18266705",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {

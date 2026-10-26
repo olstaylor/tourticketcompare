@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7843520",
+        "url": "https://www.ticketnetwork.com/en/p/7843520",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_6Gkm3nAew",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843520"
   },
   {
     "id": "tm-billy-strings-2026-baltimore-1avfz_6gkmktg1d",
@@ -65,7 +73,7 @@
     "ticketmaster_event_id": "1500647B93A75283",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-baltimore-maryland-10-31-2026/event/1500647B93A75283",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-baltimore-cfg-bank-arena-10-31-2026--concerts-country-and-folk/production/6850516",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-baltimore-maryland-10-31-2026/event/1500647B93A75283",
     "last_verified_at": null,
@@ -87,11 +95,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6850516,
+        "url": "https://www.vividseats.com/billy-strings-tickets-baltimore-cfg-bank-arena-10-31-2026--concerts-country-and-folk/production/6850516",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -99,11 +107,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7843522",
+        "url": "https://www.ticketnetwork.com/en/p/7843522",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7843522",
+        "url": "https://www.ticketliquidator.com/tickets/7843522/Billy-Strings-tickets-Sat-Oct-31-2026-CFG-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_6GkmKtg1d",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843522",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7843522/Billy-Strings-tickets-Sat-Oct-31-2026-CFG-Bank-Arena"
   },
   {
     "id": "tm-billy-strings-2026-new-orleans-g5viz_fhsj6zp",
@@ -152,11 +176,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7843538",
+        "url": "https://www.ticketnetwork.com/en/p/7843538",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7843538",
+        "url": "https://www.ticketliquidator.com/tickets/7843538/Billy-Strings-tickets-Fri-Dec-4-2026-Saenger-Theatre-New-Orleans",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_FhsJ6Zp",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843538",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7843538/Billy-Strings-tickets-Fri-Dec-4-2026-Saenger-Theatre-New-Orleans"
   },
   {
     "id": "tm-billy-strings-2026-new-orleans-g5viz_6n0bmge",
@@ -171,7 +211,7 @@
     "ticketmaster_event_id": "1B00647AA462ED67",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-new-orleans-louisiana-12-05-2026/event/1B00647AA462ED67",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-new-orleans-smoothie-king-center-12-5-2026/production/6850482",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-new-orleans-louisiana-12-05-2026/event/1B00647AA462ED67",
     "last_verified_at": null,
@@ -193,11 +233,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6850482,
+        "url": "https://www.vividseats.com/billy-strings-tickets-new-orleans-smoothie-king-center-12-5-2026/production/6850482",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -205,11 +245,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7843524",
+        "url": "https://www.ticketnetwork.com/en/p/7843524",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7843524",
+        "url": "https://www.ticketliquidator.com/tickets/7843524/Billy-Strings-tickets-Sat-Dec-5-2026-Smoothie-King-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_6n0bmgE",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843524",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7843524/Billy-Strings-tickets-Sat-Dec-5-2026-Smoothie-King-Center"
   },
   {
     "id": "tm-billy-strings-2026-sugar-land-z7r9jz1a7xvj-",
@@ -258,11 +314,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7843540",
+        "url": "https://www.ticketnetwork.com/en/p/7843540",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xvj-",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843540"
   },
   {
     "id": "tm-billy-strings-2026-fort-worth-vvg1yz_6mc3yqf",
@@ -277,7 +341,7 @@
     "ticketmaster_event_id": "0C00647BAD4B9754",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-fort-worth-texas-12-11-2026/event/0C00647BAD4B9754",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-fort-worth-dickies-arena-12-11-2026/production/6850486",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-fort-worth-texas-12-11-2026/event/0C00647BAD4B9754",
     "last_verified_at": null,
@@ -299,11 +363,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6850486,
+        "url": "https://www.vividseats.com/billy-strings-tickets-fort-worth-dickies-arena-12-11-2026/production/6850486",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -311,11 +375,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7843525",
+        "url": "https://www.ticketnetwork.com/en/p/7843525",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7843525",
+        "url": "https://www.ticketliquidator.com/tickets/7843525/Billy-Strings-tickets-Fri-Dec-11-2026-Dickies-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155188",
+        "url": "https://www.stubhub.ie/billy-strings-fort-worth-tickets-12-11-2026/event/107155188",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_6mc3yqf",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843525",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7843525/Billy-Strings-tickets-Fri-Dec-11-2026-Dickies-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/billy-strings-fort-worth-tickets-12-11-2026/event/107155188"
   },
   {
     "id": "tm-billy-strings-2026-austin-g5diz_ub5bart",
@@ -330,7 +418,7 @@
     "ticketmaster_event_id": "3A0064DE8BE85BE9",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-austin-texas-12-12-2026/event/3A0064DE8BE85BE9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-austin-moody-center-atx-12-12-2026/production/7250307",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-austin-texas-12-12-2026/event/3A0064DE8BE85BE9",
     "last_verified_at": null,
@@ -352,11 +440,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7250307,
+        "url": "https://www.vividseats.com/billy-strings-tickets-austin-moody-center-atx-12-12-2026/production/7250307",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -364,11 +452,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8108535",
+        "url": "https://www.ticketnetwork.com/en/p/8108535",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8108535",
+        "url": "https://www.ticketliquidator.com/tickets/8108535/Billy-Strings-tickets-Sat-Dec-12-2026-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107452001",
+        "url": "https://www.stubhub.ie/billy-strings-austin-tickets-12-12-2026/event/107452001",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_uB5BARt",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8108535",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8108535/Billy-Strings-tickets-Sat-Dec-12-2026-Moody-Center-ATX",
+    "stubhub_international_url": "https://www.stubhub.ie/billy-strings-austin-tickets-12-12-2026/event/107452001"
   },
   {
     "id": "tm-billy-strings-2027-asheville-g5evz_omwlg3b",
@@ -648,7 +760,7 @@
     "ticketmaster_event_id": "0E00651B23F97408",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-duluth-georgia-02-12-2027/event/0E00651B23F97408",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-duluth-gas-south-arena-2-12-2027/production/7490339",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-duluth-georgia-02-12-2027/event/0E00651B23F97408",
     "last_verified_at": null,
@@ -670,11 +782,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7490339,
+        "url": "https://www.vividseats.com/billy-strings-tickets-duluth-gas-south-arena-2-12-2027/production/7490339",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -682,11 +794,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238819",
+        "url": "https://www.ticketnetwork.com/en/p/8238819",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_oiNX98F",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238819"
   },
   {
     "id": "tm-billy-strings-2027-duluth-vvg1zz_ointe8l",
@@ -701,7 +821,7 @@
     "ticketmaster_event_id": "0E00651B23FE741F",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-duluth-georgia-02-13-2027/event/0E00651B23FE741F",
     "seatgeek_url": "https://seatgeek.com/billy-strings-tickets/duluth-georgia-gas-south-arena-2027-02-13-7-30-pm/concert/18540092",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-duluth-gas-south-arena-2-13-2027--concerts-country-and-folk/production/7490211",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-duluth-georgia-02-13-2027/event/0E00651B23FE741F",
     "last_verified_at": null,
@@ -723,11 +843,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7490211,
+        "url": "https://www.vividseats.com/billy-strings-tickets-duluth-gas-south-arena-2-13-2027--concerts-country-and-folk/production/7490211",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -735,11 +855,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238820",
+        "url": "https://www.ticketnetwork.com/en/p/8238820",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8238820",
+        "url": "https://www.ticketliquidator.com/tickets/8238820/Billy-Strings-tickets-Sat-Feb-13-2027-Gas-South-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_oiNTE8L",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238820",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238820/Billy-Strings-tickets-Sat-Feb-13-2027-Gas-South-Arena"
   },
   {
     "id": "tm-billy-strings-2027-nashville-g5viz_on579po",
@@ -788,11 +924,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238823",
+        "url": "https://www.ticketnetwork.com/en/p/8238823",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_on579pO",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238823"
   },
   {
     "id": "tm-billy-strings-2027-nashville-g5viz_on5a9pr",
@@ -807,7 +951,7 @@
     "ticketmaster_event_id": "1B00651A8B1575AF",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-nashville-tennessee-02-20-2027/event/1B00651A8B1575AF",
     "seatgeek_url": "https://seatgeek.com/billy-strings-tickets/nashville-tennessee-bridgestone-arena-2027-02-20-7-30-pm/concert/18540094",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-nashville-bridgestone-arena-2-20-2027--concerts-country-and-folk/production/7490217",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-nashville-tennessee-02-20-2027/event/1B00651A8B1575AF",
     "last_verified_at": null,
@@ -829,11 +973,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7490217,
+        "url": "https://www.vividseats.com/billy-strings-tickets-nashville-bridgestone-arena-2-20-2027--concerts-country-and-folk/production/7490217",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -841,10 +985,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238824",
+        "url": "https://www.ticketnetwork.com/en/p/8238824",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8238824",
+        "url": "https://www.ticketliquidator.com/tickets/8238824/Billy-Strings-tickets-Sat-Feb-20-2027-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_on5A9pR",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238824",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238824/Billy-Strings-tickets-Sat-Feb-20-2027-Bridgestone-Arena"
   }
 ]

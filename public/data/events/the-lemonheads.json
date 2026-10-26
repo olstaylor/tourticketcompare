@@ -319,7 +319,7 @@
     "tour_name": "The Love Chant Tour",
     "ticketmaster_event_id": "3A00652BB95B1FC2",
     "ticketmaster_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-houston-texas-02-22-2027/event/3A00652BB95B1FC2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-lemonheads-tickets/houston-texas-white-oak-music-hall-upstairs-2027-02-22-7-30-pm/concert/18594767",
     "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-houston-white-oak-music-hall---upstairs-2-22-2027--concerts-rock/production/7561053",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-houston-texas-02-22-2027/event/3A00652BB95B1FC2",
@@ -407,7 +407,7 @@
         "event_id": 18594474,
         "url": "https://seatgeek.com/the-lemonheads-tickets/los-angeles-california-teragram-ballroom-2027-03-04-7-30-pm/concert/18594474",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -476,7 +476,7 @@
         "event_id": 18594148,
         "url": "https://seatgeek.com/the-lemonheads-tickets/san-francisco-california-august-hall-2027-03-07-8-30-pm/concert/18594148",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -555,7 +555,7 @@
         "event_id": 18593821,
         "url": "https://seatgeek.com/the-lemonheads-tickets/madison-wisconsin-majestic-theatre-wi-2027-03-19-8-pm/concert/18593821",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -628,7 +628,7 @@
         "event_id": 18593750,
         "url": "https://seatgeek.com/the-lemonheads-tickets/detroit-michigan-saint-andrews-hall-2027-03-25-7-pm/concert/18593750",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -691,7 +691,7 @@
         "event_id": 18594482,
         "url": "https://seatgeek.com/the-lemonheads-tickets/cincinnati-ohio-live-at-the-ludlow-garage-2027-03-26-7-30-pm/concert/18594482",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -744,7 +744,7 @@
         "event_id": 18595315,
         "url": "https://seatgeek.com/the-lemonheads-tickets/tampa-florida-the-orpheum-tampa-2027-02-18-7-pm/concert/18595315",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -848,7 +848,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvV7w",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvV7w",
     "seatgeek_url": "https://seatgeek.com/the-lemonheads-tickets/omaha-nebraska-the-waiting-room-omaha-2027-03-16-7-pm/concert/18595344",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-omaha-the-waiting-room---ne-3-16-2027/production/7564845",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvV7w",
     "last_verified_at": null,
@@ -870,11 +870,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7564845,
+        "url": "https://www.vividseats.com/the-lemonheads-tickets-omaha-the-waiting-room---ne-3-16-2027/production/7564845",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -919,7 +919,7 @@
         "event_id": 18595314,
         "url": "https://seatgeek.com/the-lemonheads-tickets/miami-florida-las-rosas-2027-02-17-7-pm/concert/18595314",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -988,7 +988,7 @@
         "event_id": 18595318,
         "url": "https://seatgeek.com/the-lemonheads-tickets/orlando-florida-the-abbey-orlando-2027-02-19-7-pm/concert/18595318",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1465,7 +1465,7 @@
         "event_id": 7561061,
         "url": "https://www.vividseats.com/the-lemonheads-tickets-seattle-el-corazon-3-11-2027--concerts-rock/production/7561061",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "stubhub": {

@@ -113,6 +113,29 @@ test('topic ref reservation is atomic and collisions abort before spend', async 
   await assert.rejects(reserveTopic(noNetwork, { slug: '../main', baseSha: snapshot }), /slug/);
 });
 
+test('named tour guides may follow a retained branch with a numbered one; scheduled drafts may not', async () => {
+  const taken = new Set([`automation/blog-draft-${selected.slug}`]);
+  const gh = async (method, url, data) => {
+    if (method === 'GET') { if (taken.has(url.replace('/git/ref/heads/', ''))) return {}; throw Object.assign(new Error('missing'), { status: 404 }); }
+    taken.add(data.ref.replace('refs/heads/', '')); return {};
+  };
+  assert.equal(await reserveTopic(gh, { slug: selected.slug, baseSha: snapshot }), null);
+  assert.equal(await reserveTopic(gh, { slug: selected.slug, baseSha: snapshot, retries: true }), `automation/blog-draft-${selected.slug}-2`);
+});
+
+test('the country US is not first-person plural, and a rejection names the phrase', () => {
+  const e = presaleEvidence;
+  const withUs = presaleMarkdown(e, ' Most dates are in the US.');
+  assert.equal(checkArticle(withUs, presaleSelected, e, fixture.documents, now).status, 'draft');
+  assert.throws(() => checkArticle(presaleMarkdown(e, ' Let us know.'), presaleSelected, e, fixture.documents, now), /voice \("us"\)/);
+});
+
+test('existing articles are bounded so artists with many posts fit the input limit', () => {
+  const docs = Array.from({ length: 8 }, (_, i) => ({ file: `content/blog/${i}.md`, title: String(i), body: 'x'.repeat(9000) }));
+  const ev = buildEvidence({ ...presaleSelected, overlap: docs }, { now, snapshot });
+  assert(ev.overlap.reduce((n, d) => n + d.body.length, 0) <= 12000);
+});
+
 test('unreviewed automated drafts stop new spend at the open-draft limit', async () => {
   const open = Array.from({ length: MAX_OPEN_DRAFTS }, (_, i) => ({ state: 'open', number: i + 1, head: { ref: `automation/blog-draft-x${i}` } }));
   const result = await draftOnce({ source: fixture, issue, mode: 'live', apiKey: 'mock', now, snapshot, fetchImpl: noNetwork,
@@ -497,4 +520,29 @@ test('a rejected Anthropic request reports its error type and message, costs not
     json: async () => ({ error: { type: 'invalid_request_error', message: 'Your credit balance is too low (sk-ant-secret-123)' } }) }) });
   await assert.rejects(client.request('s', { a: 1 }, 100), (error) => /HTTP 400; invalid_request_error: Your credit balance is too low/.test(error.message) && !error.message.includes('sk-ant-secret-123'));
   assert.equal(spentUsd(client.usage), 0);
+});
+
+test('offline replay: a tour guide runs the whole drafting path with no API call', async () => {
+  const slugs = [...new Set(fixture.events.map((e) => e.artist_slug))];
+  const tour = selectTourGuides(fixture, slugs, { now }).selected;
+  assert(tour, 'fixture should yield a tour guide');
+  const evidence = buildEvidence(tour, { now, snapshot });
+  for (const event of evidence.events) event.external = { kind: 'current-ticketmaster-api' };
+  const article = await generateArticle({ selected: tour, evidence, documents: fixture.documents, rules: 'rules', client: createMockClient(), now });
+  assert.equal(article.validation.status, 'draft');
+  assert(JSON.stringify({ evidence, rules: 'rules' }).length < 48000);
+});
+
+test('a paid draft that fails a check is kept and the stray date is named', async () => {
+  const slugs = [...new Set(fixture.events.map((e) => e.artist_slug))];
+  const tour = selectTourGuides(fixture, slugs, { now }).selected;
+  const evidence = buildEvidence(tour, { now, snapshot });
+  for (const event of evidence.events) event.external = { kind: 'current-ticketmaster-api' };
+  const mock = createMockClient();
+  const client = { usage: [], request: async (system, payload) => {
+    const out = await mock.request(system, payload);
+    return out.markdown ? { markdown: `${out.markdown}\nA second night follows on 2031-01-02.\n` } : out;
+  } };
+  await assert.rejects(generateArticle({ selected: tour, evidence, documents: fixture.documents, rules: 'rules', client, now }),
+    (error) => /unsupported event date \(2031-01-02\)/.test(error.message) && error.rejectedMarkdown.includes('2031-01-02'));
 });

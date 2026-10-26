@@ -116,18 +116,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7752708",
-        "url": "https://www.ticketnetwork.com/en/p/7752708",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_A29LQ83",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7752708/CeCe-Winans-tickets-Sat-Oct-24-2026-Smoothie-King-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7752708"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-cece-winans-2026-orlando-16xzkokj9za57fca",

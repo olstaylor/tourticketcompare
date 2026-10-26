@@ -25,7 +25,7 @@ Run `npm run artists:requests:check` (it is also in `test:quick` and
 
 | When (UTC) | Workflow | What it does with the request |
 |---|---|---|
-| 10:45 | `auto-promote.yml` | Puts open requests first in the day's candidate list. Captures the SeatGeek performer and Ticketmaster attraction from their APIs by exact name, runs the D1–D5 screen and posts the verdict (marked "owner-requested") in the `automation:roster-candidates` issue, then promotes up to 6 artists a day (40 a week). Requests come first. It creates the artist record, catalog entry, registry entry and artist-level links, ingests the artist's Ticketmaster dates and SeatGeek event links, runs `test:mvp` and `test:providers`, and auto-merges one PR. Runs only while the repo variable `AUTOPROMOTE_ENABLED` is `true`. |
+| 10:45 | `auto-promote.yml` | Puts open requests first in the day's candidate list. Captures the SeatGeek performer and Ticketmaster attraction from their APIs by exact name, runs the D1–D5 screen and posts the verdict (marked "owner-requested") in the `automation:roster-candidates` issue, then promotes up to 8 artists a day (56 a week). Requests come first. It creates the artist record, catalog entry, registry entry and artist-level links, ingests the artist's Ticketmaster dates and SeatGeek event links, runs `test:mvp` and `test:providers`, and auto-merges one PR. Runs only while the repo variable `AUTOPROMOTE_ENABLED` is `true`. |
 
 **The screen for a request.** Identity must match exactly on both APIs (D1).
 The name must not be on `data/artist-denylist.json`, must not match the
@@ -53,9 +53,11 @@ ignored, so the file doubles as a record of what was asked for.
   with no tour on sale: rumoured tours (`reason: "rumoured"`, with the report
   in `source_url`) and big names between tours. They get no page while they
   have no dates. Each day `scripts/artist-watchlist.mjs` asks Ticketmaster how
-  many upcoming events each open entry has; one with 8 or more (a tour, not a
-  festival slot) goes **first** in the day's list, ahead of requests, and must
-  pass the full screen (no relaxed thresholds). Check with
+  many upcoming events each open entry has; one with 3 or more (a first
+  announcement, not a one-off festival slot) goes **first** in the day's list,
+  ahead of requests, flagged as requested: identity, denylist, music
+  classification and page checks apply, the 8-event volume floor does not
+  (a fresh stadium run lists only 3-6 dates). Check with
   `npm run artists:watchlist:check`. A name sits in the watchlist or in the
   requests file, never both.
 - **Automatic discovery.** The same two jobs build the day's list in this

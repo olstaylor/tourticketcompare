@@ -165,6 +165,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8326048",
+        "url": "https://www.ticketliquidator.com/tickets/8326048/Dermot-Kennedy-tickets-Wed-Nov-25-2026-Christchurch-Town-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae8Z_aGkM57djw",
@@ -173,7 +180,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326048",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326048/Dermot-Kennedy-tickets-Wed-Nov-25-2026-Christchurch-Town-Hall"
   },
   {
     "id": "tm-dermot-kennedy-2026-wellington-1ae8z_agkmdax8r",
@@ -285,6 +293,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8173279",
+        "url": "https://www.ticketliquidator.com/tickets/8173279/Dermot-Kennedy-tickets-Sat-Nov-28-2026-Spark-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae8Z_aGkRaNxJL",
@@ -293,7 +308,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173279",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173279/Dermot-Kennedy-tickets-Sat-Nov-28-2026-Spark-Arena"
   },
   {
     "id": "tm-dermot-kennedy-2027-tramore-rd-cork-1kkzvpozga5u0fg",

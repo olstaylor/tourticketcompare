@@ -1368,11 +1368,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107158272",
-        "url": "https://www.stubhub.ie/teddy-swims-tampa-tickets-10-25-2026/event/107158272",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_FDr-qK6",
@@ -1380,7 +1380,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883109",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883109/Teddy-Swims-tickets-Sun-Oct-25-2026-Benchmark-International-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tampa-tickets-10-25-2026/event/107158272",
+    "stubhub_international_url": "",
     "presales": [
       {
         "name": "$30 All-In Offer",
@@ -1492,7 +1492,7 @@
         "event_id": 18185161,
         "url": "https://seatgeek.com/teddy-swims-tickets/austin-texas-moody-center-atx-2026-10-28-7-pm/concert/18185161",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1579,7 +1579,7 @@
         "event_id": 18185162,
         "url": "https://seatgeek.com/teddy-swims-tickets/fort-worth-texas-dickies-arena-2026-10-30-7-pm/concert/18185162",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1746,7 +1746,7 @@
         "event_id": 18143695,
         "url": "https://seatgeek.com/teddy-swims-tickets/salt-lake-city-utah-delta-center-1-2026-11-03-7-pm/concert/18143695",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2294,7 +2294,7 @@
         "event_id": 18185177,
         "url": "https://seatgeek.com/teddy-swims-tickets/san-diego-california-pechanga-arena-san-diego-2026-11-13-7-pm/concert/18185177",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2363,7 +2363,7 @@
         "event_id": 18185180,
         "url": "https://seatgeek.com/teddy-swims-tickets/las-vegas-nevada-t-mobile-arena-2026-11-14-7-pm/concert/18185180",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {

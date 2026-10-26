@@ -54,7 +54,9 @@ sources:
     last_checked: 2026-09-21
 ---
 
-Start with the seller linked by the artist or venue. That may be Ticketmaster, SeatGeek or another ticket site. If you need resale tickets, compare the seats and full order total: neither brand is always the cheaper choice.
+No, SeatGeek isn't owned by Ticketmaster. They're two separate companies, and Ticketmaster is part of Live Nation.
+
+So which should you use? Start with the seller linked by the artist or venue. That may be Ticketmaster, SeatGeek or another ticket site. If you're buying resale, compare the seats and the full order total, because neither brand is always cheaper.
 
 Ticketmaster sells primary tickets for many events and also offers labelled resale tickets. SeatGeek is a resale marketplace and the primary ticketing partner for some venues and teams. The distinction matters more than the logo on the checkout page.
 

@@ -261,8 +261,8 @@
     "tour_name": "Tyber Tour",
     "ticketmaster_event_id": "110064B98B113F04",
     "ticketmaster_url": "https://www.ticketmaster.ca/fkj-tyber-tour-vancouver-british-columbia-04-25-2027/event/110064B98B113F04",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/fkj-tickets/vancouver-canada-commodore-ballroom-2027-04-25-7-pm/concert/18272744",
+    "vividseats_url": "https://www.vividseats.com/fkj-tickets-vancouver-commodore-ballroom-4-25-2027/production/7092911",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fkj-tyber-tour-vancouver-british-columbia-04-25-2027/event/110064B98B113F04",
     "last_verified_at": "2026-10-15",
@@ -284,11 +284,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7092911,
+        "url": "https://www.vividseats.com/fkj-tickets-vancouver-commodore-ballroom-4-25-2027/production/7092911",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -361,7 +361,7 @@
         "event_id": 18290231,
         "url": "https://seatgeek.com/fkj-tickets/vancouver-canada-commodore-ballroom-2027-04-26-7-pm/concert/18290231",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {

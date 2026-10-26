@@ -753,11 +753,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7977767",
-        "url": "https://www.ticketnetwork.com/en/p/7977767",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7977767",
@@ -770,7 +770,7 @@
     "ticketmaster_discovery_event_id": "G5dIZ_1UcYlhw",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977767",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977767/Mico-tickets-Sat-Oct-24-2026-White-Oak-Music-Hall-Downstairs"
   },
   {
@@ -998,7 +998,7 @@
         "event_id": 18259847,
         "url": "https://seatgeek.com/mico-tickets/new-york-new-york-webster-hall-2026-10-30-7-30-pm/concert/18259847",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1067,7 +1067,7 @@
         "event_id": 18259849,
         "url": "https://seatgeek.com/mico-tickets/brooklyn-new-york-music-hall-of-williamsburg-2026-10-31-8-pm/concert/18259849",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1118,7 +1118,7 @@
     "ticketmaster_event_id": "010064ADC6946F0F",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-boston-massachusetts-11-02-2026/event/010064ADC6946F0F",
     "seatgeek_url": "https://seatgeek.com/mico-tickets/boston-massachusetts-paradise-rock-club-2026-11-02-7-pm/concert/18251753",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mico-tickets-boston-paradise-rock-club-11-2-2026/production/7049127",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-boston-massachusetts-11-02-2026/event/010064ADC6946F0F",
     "last_verified_at": "2026-10-15",
@@ -1140,11 +1140,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7049127,
+        "url": "https://www.vividseats.com/mico-tickets-boston-paradise-rock-club-11-2-2026/production/7049127",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1208,7 +1208,7 @@
         "event_id": 18345103,
         "url": "https://seatgeek.com/mico-tickets/providence-rhode-island-fete-music-hall-2026-11-03-8-pm/concert/18345103",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1725,7 +1725,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D0065469A2791D3",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-inbetween-tour-charlotte-north-carolina-02-20-2027/event/2D0065469A2791D3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mico-tickets/charlotte-north-carolina-the-underground-at-the-fillmore-charlotte-2027-02-20-8-pm/concert/18667445",
     "vividseats_url": "https://www.vividseats.com/mico-tickets-charlotte-the-underground-at-the-fillmore-charlotte-2-20-2027--concerts-rock/production/7679627",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-charlotte-north-carolina-02-20-2027/event/2D0065469A2791D3",
@@ -2009,7 +2009,7 @@
         "event_id": 18666323,
         "url": "https://seatgeek.com/mico-tickets/orlando-florida-house-of-blues-orlando-2027-02-27-7-pm/concert/18666323",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2082,7 +2082,7 @@
         "event_id": 18667195,
         "url": "https://seatgeek.com/mico-tickets/birmingham-alabama-iron-city-2027-03-01-8-pm/concert/18667195",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2151,7 +2151,7 @@
         "event_id": 18666337,
         "url": "https://seatgeek.com/mico-tickets/new-orleans-louisiana-house-of-blues-new-orleans-2027-03-02-7-pm/concert/18666337",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2230,7 +2230,7 @@
         "event_id": 18666757,
         "url": "https://seatgeek.com/mico-tickets/indianapolis-indiana-the-deluxe-at-old-national-centre-2027-03-09-8-pm/concert/18666757",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "vivid-seats": {

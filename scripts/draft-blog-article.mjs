@@ -6,7 +6,7 @@ import { execFileSync } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { readSource, githubClient } from './propose-blog-ideas.mjs';
 import { splitDocument } from './lib/content-markdown.mjs';
-import { selectArticle, selectTourGuides, buildEvidence, researchEvidence, anthropicClient, generateArticle, listEditorialPrs, reserveTopic, prBody, spentUsd,
+import { MAX_RUN_USD, selectArticle, selectTourGuides, buildEvidence, researchEvidence, anthropicClient, generateArticle, listEditorialPrs, reserveTopic, prBody, spentUsd,
   MAX_DRAFTS_PER_RUN, MAX_OPEN_DRAFTS, PREFIX } from './lib/blog-drafting.mjs';
 import { readPriorityRows } from './lib/show-priority-store.mjs';
 
@@ -72,6 +72,8 @@ export async function draftOnce({ source, issue, gh, mode, snapshot, rules, apiK
   let paid = 0;
   for (const selected of selection.candidates) {
     if (paid >= slots) break;
+    // Stop paying once the run has spent its budget, whatever the slots say.
+    if (drafts.reduce((sum, d) => sum + (d.costUsd || 0), 0) >= MAX_RUN_USD) { drafts.push({ topic: selected.topic, outcome: 'skipped-run-budget' }); continue; }
     // Free checks first: a candidate whose dates fail the official recheck
     // costs nothing and does not use a slot.
     let evidence;
@@ -82,7 +84,7 @@ export async function draftOnce({ source, issue, gh, mode, snapshot, rules, apiK
       drafts.push({ topic: selected.topic, outcome: 'skipped-evidence', reason: error.message });
       continue;
     }
-    const branch = await reserveTopic(gh, { slug: selected.slug, baseSha: snapshot });
+    const branch = await reserveTopic(gh, { slug: selected.slug, baseSha: snapshot, retries: Boolean(artists?.length) });
     if (!branch) { drafts.push({ topic: selected.topic, outcome: 'skipped-branch-exists' }); continue; }
     paid += 1;
     const client = anthropicClient({ apiKey, fetchImpl });
@@ -99,7 +101,7 @@ export async function draftOnce({ source, issue, gh, mode, snapshot, rules, apiK
       drafts.push({ topic: selected.topic, outcome: 'draft-pr-created', branch, pr: pr.html_url, usage: client.usage, costUsd: spentUsd(client.usage) });
     } catch (error) {
       // Keep a machine-readable cost record even when generation/validation fails.
-      drafts.push({ topic: selected.topic, outcome: 'failed-no-retry', branch, reason: error.message, usage: client.usage, costUsd: spentUsd(client.usage),
+      drafts.push({ topic: selected.topic, slug: selected.slug, outcome: 'failed-no-retry', branch, reason: error.message, rejectedMarkdown: error.rejectedMarkdown, usage: client.usage, costUsd: spentUsd(client.usage),
         warning: 'The reserved branch is retained. Do not delete it to retry without reviewing potential spend.' });
     } finally { await reset(); }
   }
@@ -206,6 +208,12 @@ async function main() {
   } catch (error) {
     await fs.writeFile(path.join(reportDir, 'report.json'), JSON.stringify(error.draftReport || { outcome: 'preflight-failed' }, null, 2));
     throw error;
+  }
+  // Rejected paid drafts are saved beside the report so the spend is never wasted.
+  for (const d of result.drafts || []) {
+    if (!d.rejectedMarkdown) continue;
+    await fs.writeFile(path.join(reportDir, `REJECTED-${d.slug}.md`), `<!-- Rejected: ${d.reason} -->\n${d.rejectedMarkdown}`);
+    delete d.rejectedMarkdown;
   }
   await fs.writeFile(path.join(reportDir, 'report.json'), JSON.stringify(result, null, 2));
   if (result.body) await fs.writeFile(path.join(reportDir, 'editorial-review.md'), result.body);

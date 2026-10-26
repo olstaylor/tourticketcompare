@@ -108,11 +108,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7860529",
-        "url": "https://www.ticketnetwork.com/en/p/7860529",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x73v",
@@ -122,7 +122,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7860529"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-young-miko-2026-miami-vvg1vz_fchiqhv",

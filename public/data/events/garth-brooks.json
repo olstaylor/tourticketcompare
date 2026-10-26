@@ -134,11 +134,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8284849",
-        "url": "https://www.ticketnetwork.com/en/p/8284849",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfUGkdlv4L0",
@@ -149,7 +149,7 @@
       "AEG LIVE"
     ],
     "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-tulsa-tickets-10-24-2026/event/107677823",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284849"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-garth-brooks-2026-tulsa-1aozkfugkdlmpx_",
@@ -214,11 +214,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8284850",
-        "url": "https://www.ticketnetwork.com/en/p/8284850",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfUGkdlMPx_",
@@ -229,7 +229,7 @@
       "AEG LIVE"
     ],
     "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-tulsa-tickets-10-25-2026/event/107677824",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284850"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-garth-brooks-2026-seattle-vvg1hz_fstanbp",

@@ -2969,11 +2969,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7695892",
-        "url": "https://www.ticketnetwork.com/en/p/7695892",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107082341",
@@ -2992,7 +2992,7 @@
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_dfklICx",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695892",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-24-2026/event/107082341",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695892/Harry-Styles-tickets-Sat-Oct-24-2026-Madison-Square-Garden",
     "organizer_names": [
@@ -28035,11 +28035,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8164947",
-        "url": "https://www.ticketnetwork.com/en/p/8164947",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107460143",
@@ -28059,7 +28059,7 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_GNtjqqM",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164947",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-24-2026/event/107460143",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164947/Jay-Z-tickets-Sat-Oct-24-2026-SoFi-Stadium",
     "organizer_names": [
@@ -46239,11 +46239,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7424942",
-        "url": "https://www.ticketnetwork.com/en/p/7424942",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7424942",
@@ -46263,7 +46263,7 @@
     "ticketmaster_discovery_event_id": "vvG1iZbS55zNJb",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424942",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424942/My-Chemical-Romance-tickets-Sat-Oct-24-2026-Hollywood-Bowl",
     "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-24-2026/event/106964081",
     "organizer_names": [
@@ -56463,11 +56463,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7828052",
-        "url": "https://www.ticketnetwork.com/en/p/7828052",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7828052",
@@ -56480,7 +56480,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-V0_",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828052",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7828052/Blue-October-tickets-Sat-Oct-24-2026-Tulsa-Theater"
   },
   {
@@ -129376,11 +129376,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8034309",
-        "url": "https://www.ticketnetwork.com/en/p/8034309",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8034309",
@@ -129400,7 +129400,7 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_GCicI-d",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034309",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034309/Malcolm-Todd-tickets-Sat-Oct-24-2026-Gallagher-Square-at-Petco-Park",
     "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-san-diego-tickets-10-24-2026/event/107554708",
     "organizer_names": [
@@ -134906,11 +134906,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8103953",
-        "url": "https://www.ticketnetwork.com/en/p/8103953",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8103953",
@@ -134923,7 +134923,7 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_ul9nqcx",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8103953",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8103953/Dinosaur-Jr-tickets-Sat-Oct-24-2026-The-Neptune-Theatre"
   },
   {
@@ -137713,11 +137713,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7758712",
-        "url": "https://www.ticketnetwork.com/en/p/7758712",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7758712",
@@ -137737,7 +137737,7 @@
     "ticketmaster_discovery_event_id": "1A9Zko4GkdTfc4g",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7758712",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7758712/Metallica-tickets-Sat-Oct-24-2026-Sphere",
     "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-24-2026/event/107126149",
     "organizer_names": [
@@ -153838,11 +153838,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8056125",
-        "url": "https://www.ticketnetwork.com/en/p/8056125",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8056125",
@@ -153855,7 +153855,7 @@
     "ticketmaster_discovery_event_id": "G5vYZ_GnTwbU0",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056125",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056125/Amble-tickets-Sat-Oct-24-2026-The-Fillmore-San-Francisco",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -164927,11 +164927,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8044153",
-        "url": "https://www.ticketnetwork.com/en/p/8044153",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8044153",
@@ -164944,7 +164944,7 @@
     "ticketmaster_discovery_event_id": "17AOv0G6GJ3vrxt",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8044153",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8044153/Daughtry-tickets-Sat-Oct-24-2026-Turfway-Park"
   },
   {
@@ -186518,11 +186518,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8111328",
-        "url": "https://www.ticketnetwork.com/en/p/8111328",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8111328",
@@ -186535,7 +186535,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JdAk",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8111328",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8111328/Dylan-Gossett-tickets-Sat-Oct-24-2026-Magnolia-Market-At-The-Silos"
   },
   {
@@ -205640,11 +205640,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7977767",
-        "url": "https://www.ticketnetwork.com/en/p/7977767",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7977767",
@@ -205657,7 +205657,7 @@
     "ticketmaster_discovery_event_id": "G5dIZ_1UcYlhw",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977767",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977767/Mico-tickets-Sat-Oct-24-2026-White-Oak-Music-Hall-Downstairs"
   },
   {
@@ -233176,11 +233176,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8194524",
-        "url": "https://www.ticketnetwork.com/en/p/8194524",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8194524",
@@ -233193,7 +233193,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZPuU",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194524",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194524/Fuerza-Regida-tickets-Sat-Oct-24-2026-Dignity-Health-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -239678,18 +239678,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7956775",
-        "url": "https://www.ticketnetwork.com/en/p/7956775",
-        "verified": true,
-        "last_verified_at": "2026-10-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61Kp2rIs",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956775/Journey-tickets-Sat-Oct-24-2026-CFG-Bank-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956775",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -255145,11 +255145,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7774762",
-        "url": "https://www.ticketnetwork.com/en/p/7774762",
-        "verified": true,
-        "last_verified_at": "2026-10-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7774762",
@@ -255172,7 +255172,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774762",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774762/Gorillaz-tickets-Sat-Oct-24-2026-The-Kia-Forum",
     "stubhub_international_url": "https://www.stubhub.ie/gorillaz-inglewood-tickets-10-24-2026/event/107129381"
   },
@@ -256074,11 +256074,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7833742",
-        "url": "https://www.ticketnetwork.com/en/p/7833742",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7833742",
@@ -256098,7 +256098,7 @@
     "ticketmaster_discovery_event_id": "G5eYZ_kU9s8XI",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833742",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7833742/Weezer-tickets-Sat-Oct-24-2026-Cryptocom-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/weezer-los-angeles-tickets-10-24-2026/event/107151242",
     "organizer_names": [
@@ -265541,18 +265541,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7808845",
-        "url": "https://www.ticketnetwork.com/en/p/7808845",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_kUQ0G54",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808845/Kevin-Gates-tickets-Sat-Oct-24-2026-The-Truth",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808845",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -268066,11 +268066,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8028495",
-        "url": "https://www.ticketnetwork.com/en/p/8028495",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G6G1ql6eK",
@@ -268082,7 +268082,7 @@
       "THE MESSINA GROUP (TMG)",
       "AEG LIVE (CANADA)"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8028495"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-phoebe-bridgers-2026-san-francisco-g5vyz_5ehic8t",
@@ -269331,11 +269331,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8011575",
-        "url": "https://www.ticketnetwork.com/en/p/8011575",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_5QDPyT3",
@@ -269346,7 +269346,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8011575"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-bryson-tiller-2026-inglewood-vvg10z_5eio1ci",
@@ -270798,11 +270798,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7997045",
-        "url": "https://www.ticketnetwork.com/en/p/7997045",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_1SKMms5",
@@ -270812,7 +270812,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997045"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-arcangel-2026-boston-vvg17z_1mzt4ek",
@@ -271574,11 +271574,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8284849",
-        "url": "https://www.ticketnetwork.com/en/p/8284849",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfUGkdlv4L0",
@@ -271589,7 +271589,7 @@
       "AEG LIVE"
     ],
     "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-tulsa-tickets-10-24-2026/event/107677823",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284849"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-garth-brooks-2026-tulsa-1aozkfugkdlmpx_",
@@ -271654,11 +271654,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8284850",
-        "url": "https://www.ticketnetwork.com/en/p/8284850",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfUGkdlMPx_",
@@ -271669,7 +271669,7 @@
       "AEG LIVE"
     ],
     "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-tulsa-tickets-10-25-2026/event/107677824",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284850"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-garth-brooks-2026-seattle-vvg1hz_fstanbp",
@@ -274291,11 +274291,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7810664",
-        "url": "https://www.ticketnetwork.com/en/p/7810664",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_6d5sNgF",
@@ -274306,7 +274306,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7810664"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-lil-wayne-2026-lexington-1avbz_kgkyr04kw",
@@ -274690,11 +274690,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7997397",
-        "url": "https://www.ticketnetwork.com/en/p/7997397",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G61XU61B0",
@@ -274703,7 +274703,7 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997397"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-tom-jones-2026-los-angeles-vvg10z_58xadko",
@@ -275859,11 +275859,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8130219",
-        "url": "https://www.ticketnetwork.com/en/p/8130219",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_5UlWXBq",
@@ -275873,7 +275873,7 @@
     "organizer_names": [
       "AEG - TICKETING"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8130219"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-zach-top-2026-duluth-vvg1zz_5pbvq93",
@@ -280412,11 +280412,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8081071",
-        "url": "https://www.ticketnetwork.com/en/p/8081071",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_u3MYFkF",
@@ -280426,7 +280426,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8081071"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-beabadoobee-2026-oakland-g5vyz_ufp_rvl",
@@ -281966,11 +281966,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7759906",
-        "url": "https://www.ticketnetwork.com/en/p/7759906",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Fk8v0p7atZ785Ae",
@@ -281979,7 +281979,7 @@
     "stubhub_international_url": "https://www.stubhub.ie/los-tigres-del-norte-glendale-tickets-10-24-2026/event/107162969",
     "ticketmaster_status_code": "rescheduled",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7759906/Los-Tigres-del-Norte-tickets-Sat-Oct-24-2026-Desert-Diamond-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7759906"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-los-tigres-del-norte-2026-palm-desert-vvg1iz_axk_2p-",
@@ -283344,11 +283344,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7860529",
-        "url": "https://www.ticketnetwork.com/en/p/7860529",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x73v",
@@ -283358,7 +283358,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7860529"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-young-miko-2026-miami-vvg1vz_fchiqhv",
@@ -283984,18 +283984,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7703270",
-        "url": "https://www.ticketnetwork.com/en/p/7703270",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Owq_",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7703270/Zac-Brown-Band-tickets-Sat-Oct-24-2026-Denny-Sanford-Premier-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7703270"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-zac-brown-band-2026-buffalo-k7vgf_dh65dyo",
@@ -285996,11 +285996,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7892306",
-        "url": "https://www.ticketnetwork.com/en/p/7892306",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_kt0YoDW",
@@ -286011,7 +286011,7 @@
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7892306"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-chayanne-2026-tampa-vvg1vz_km8pku0",
@@ -286581,18 +286581,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7752708",
-        "url": "https://www.ticketnetwork.com/en/p/7752708",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_A29LQ83",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7752708/CeCe-Winans-tickets-Sat-Oct-24-2026-Smoothie-King-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7752708"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-cece-winans-2026-orlando-16xzkokj9za57fca",
@@ -293599,12 +293599,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8334269",
+        "url": "https://www.ticketnetwork.com/en/p/8334269",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16NZk4f00ZAuv12C",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:30:00Z"
+    "public_onsale_at": "2026-10-30T09:30:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334269"
   },
   {
     "id": "tm-sam-fender-2027-london-1anzk4fgkdp88g6",
@@ -293653,12 +293661,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8334270",
+        "url": "https://www.ticketnetwork.com/en/p/8334270",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZk4fGkdp88g6",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:30:00Z"
+    "public_onsale_at": "2026-10-30T09:30:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334270"
   },
   {
     "id": "tm-sam-fender-2027-dublin-1avoz_fgkxvywdt",
@@ -293976,12 +293992,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8329063",
+        "url": "https://www.ticketnetwork.com/en/p/8329063",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_4eVgQWY",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T14:00:00Z"
+    "public_onsale_at": "2026-10-30T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329063"
   },
   {
     "id": "tm-bon-jovi-2027-chicago-vv178z_fgkh_n5td",
@@ -294030,12 +294054,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8329064",
+        "url": "https://www.ticketnetwork.com/en/p/8329064",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_fGkH_N5TD",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T15:00:00Z"
+    "public_onsale_at": "2026-10-30T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329064"
   },
   {
     "id": "tm-bon-jovi-2027-foxborough-vv1avzk48gke-15d8",
@@ -294084,12 +294116,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8329065",
+        "url": "https://www.ticketnetwork.com/en/p/8329065",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk48Gke-15d8",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T14:00:00Z"
+    "public_onsale_at": "2026-10-30T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329065"
   },
   {
     "id": "tm-bon-jovi-2027-toronto-1a8zk48je1zze8k",
@@ -294351,11 +294391,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8259472",
+        "url": "https://www.ticketnetwork.com/en/p/8259472",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_Gw6BflY",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259472"
   },
   {
     "id": "tm-luke-bryan-2026-las-vegas-1avjz_agkws6gfv",
@@ -294404,11 +294452,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7922101",
+        "url": "https://www.ticketnetwork.com/en/p/7922101",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_aGkws6GFV",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7922101"
   },
   {
     "id": "tm-billy-strings-2026-baltimore-1avfz_6gkm3naew",
@@ -294457,11 +294513,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7843520",
+        "url": "https://www.ticketnetwork.com/en/p/7843520",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_6Gkm3nAew",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843520"
   },
   {
     "id": "tm-billy-strings-2026-baltimore-1avfz_6gkmktg1d",
@@ -294510,11 +294574,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7843522",
+        "url": "https://www.ticketnetwork.com/en/p/7843522",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_6GkmKtg1d",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843522"
   },
   {
     "id": "tm-billy-strings-2026-new-orleans-g5viz_fhsj6zp",
@@ -294563,11 +294635,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7843538",
+        "url": "https://www.ticketnetwork.com/en/p/7843538",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_FhsJ6Zp",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843538"
   },
   {
     "id": "tm-billy-strings-2026-new-orleans-g5viz_6n0bmge",
@@ -294616,11 +294696,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7843524",
+        "url": "https://www.ticketnetwork.com/en/p/7843524",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_6n0bmgE",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843524"
   },
   {
     "id": "tm-billy-strings-2026-sugar-land-z7r9jz1a7xvj-",
@@ -294669,11 +294757,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7843540",
+        "url": "https://www.ticketnetwork.com/en/p/7843540",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xvj-",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843540"
   },
   {
     "id": "tm-billy-strings-2026-fort-worth-vvg1yz_6mc3yqf",
@@ -294722,11 +294818,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7843525",
+        "url": "https://www.ticketnetwork.com/en/p/7843525",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_6mc3yqf",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843525"
   },
   {
     "id": "tm-billy-strings-2026-austin-g5diz_ub5bart",
@@ -294775,11 +294879,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8108535",
+        "url": "https://www.ticketnetwork.com/en/p/8108535",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_uB5BARt",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8108535"
   },
   {
     "id": "tm-billy-strings-2027-asheville-g5evz_omwlg3b",
@@ -295093,11 +295205,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238819",
+        "url": "https://www.ticketnetwork.com/en/p/8238819",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_oiNX98F",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238819"
   },
   {
     "id": "tm-billy-strings-2027-duluth-vvg1zz_ointe8l",
@@ -295146,11 +295266,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238820",
+        "url": "https://www.ticketnetwork.com/en/p/8238820",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_oiNTE8L",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238820"
   },
   {
     "id": "tm-billy-strings-2027-nashville-g5viz_on579po",
@@ -295199,11 +295327,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238823",
+        "url": "https://www.ticketnetwork.com/en/p/8238823",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_on579pO",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238823"
   },
   {
     "id": "tm-billy-strings-2027-nashville-g5viz_on5a9pr",
@@ -295252,10 +295388,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238824",
+        "url": "https://www.ticketnetwork.com/en/p/8238824",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_on5A9pR",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238824"
   }
 ]

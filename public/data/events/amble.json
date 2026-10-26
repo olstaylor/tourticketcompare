@@ -531,11 +531,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8056125",
-        "url": "https://www.ticketnetwork.com/en/p/8056125",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8056125",
@@ -548,7 +548,7 @@
     "ticketmaster_discovery_event_id": "G5vYZ_GnTwbU0",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056125",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056125/Amble-tickets-Sat-Oct-24-2026-The-Fillmore-San-Francisco",
     "organizer_names": [
       "LIVE NATION MUSIC"

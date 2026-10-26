@@ -62,11 +62,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7759906",
-        "url": "https://www.ticketnetwork.com/en/p/7759906",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Fk8v0p7atZ785Ae",
@@ -75,7 +75,7 @@
     "stubhub_international_url": "https://www.stubhub.ie/los-tigres-del-norte-glendale-tickets-10-24-2026/event/107162969",
     "ticketmaster_status_code": "rescheduled",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7759906/Los-Tigres-del-Norte-tickets-Sat-Oct-24-2026-Desert-Diamond-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7759906"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-los-tigres-del-norte-2026-palm-desert-vvg1iz_axk_2p-",

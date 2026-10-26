@@ -497,7 +497,7 @@
     "vividseats_url": "https://www.vividseats.com/fuerza-regida-tickets-fresno-save-mart-center-10-28-2026/production/7412141",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fuerza-regida-this-is-our-dream-fresno-california-10-28-2026/event/1C006504F0CE1D4C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -549,13 +549,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194525",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194525/Fuerza-Regida-tickets-Wed-Oct-28-2026-Save-Mart-Center",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-14T17:00:00Z",
-        "end": "2026-10-25T19:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

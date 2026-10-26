@@ -915,7 +915,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-des-moines-hoyt-sherman-place-11-1-2026--concerts-rock/production/7170017",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-des-moines-iowa-11-01-2026/event/060064CC86788469",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -968,11 +968,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056805",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056805/Daughtry-tickets-Sun-Nov-1-2026-Hoyt-Sherman-Place-Theater",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-19T15:00:00Z",
-        "end": "2026-10-26T03:00:00Z"
-      },
       {
         "name": "Special Offer",
         "start": "2026-10-07T15:00:00Z",

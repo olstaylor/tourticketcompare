@@ -1642,7 +1642,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-nashville-the-truth-11-25-2026/production/6789854",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-nashville-tennessee-11-25-2026/event/1B00646CC67FFC74",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1693,13 +1693,6 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808857",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-03-27T15:00:00Z",
-        "end": "2026-10-26T03:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808857/Blue-October-tickets-Wed-Nov-25-2026-The-Truth",
     "organizer_names": [
       "LIVE NATION MUSIC"

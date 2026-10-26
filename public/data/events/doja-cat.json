@@ -981,7 +981,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-phoenix-arizona-10-29-2026/event/1900633A9B863640",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1041,13 +1041,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457632",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-phoenix-tickets-10-29-2026/event/107202113",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457632/Doja-Cat-tickets-Thu-Oct-29-2026-Mortgage-Matchup-Center",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2025-10-10T17:00:00Z",
-        "end": "2026-10-25T19:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

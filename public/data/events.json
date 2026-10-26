@@ -9515,13 +9515,13 @@
     "vividseats_url": "https://www.vividseats.com/olivia-rodrigo-tickets-columbus-value-city-arena-at-schottenstein-center-10-29-2026--concerts-pop/production/6969263",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-columbus-ohio-10-29-2026/event/0500649DFF8CFA1C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-26",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0500649DFF8CFA1C",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-columbus-ohio-10-29-2026/event/0500649DFF8CFA1C",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-26",
         "availability_status": "not_checked",
         "discovery_event_id": "vv17fZ_aGkMTN2Ij"
       },
@@ -9575,13 +9575,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921659",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921659/Olivia-Rodrigo-tickets-Thu-Oct-29-2026-Value-City-Arena-at-The-Schottenstein-Center",
     "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-columbus-tickets-10-29-2026/event/107165568",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-05-07T16:00:00Z",
-        "end": "2026-10-25T16:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -36556,7 +36549,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-phoenix-arizona-10-29-2026/event/1900633A9B863640",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -36616,13 +36609,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457632",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-phoenix-tickets-10-29-2026/event/107202113",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457632/Doja-Cat-tickets-Thu-Oct-29-2026-Mortgage-Matchup-Center",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2025-10-10T17:00:00Z",
-        "end": "2026-10-25T19:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -48474,7 +48460,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-portland-moda-center-11-8-2026--concerts-rb/production/6912006",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-portland-oregon-11-08-2026/event/0F00648E91EC6BD7",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -48535,11 +48521,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883117/Teddy-Swims-tickets-Sun-Nov-8-2026-Moda-Center-at-the-Rose-Quarter",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-portland-tickets-11-8-2026/event/107168140",
     "presales": [
-      {
-        "name": "Visa Post-Sale",
-        "start": "2026-04-24T17:00:00Z",
-        "end": "2026-10-26T05:00:00Z"
-      },
       {
         "name": "VIP Onsale",
         "start": "2026-04-24T17:00:00Z",
@@ -57919,7 +57900,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-nashville-the-truth-11-25-2026/production/6789854",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-nashville-tennessee-11-25-2026/event/1B00646CC67FFC74",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -57970,13 +57951,6 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808857",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-03-27T15:00:00Z",
-        "end": "2026-10-26T03:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808857/Blue-October-tickets-Wed-Nov-25-2026-The-Truth",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -71524,7 +71498,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-omaha-nebraska-11-22-2026/event/200064ACDD1C59CE",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -71576,13 +71550,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980217",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980217/Beartooth-tickets-Sun-Nov-22-2026-Steelhouse-Omaha",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-05-22T15:00:00Z",
-        "end": "2026-10-26T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -81751,7 +81718,7 @@
     "vividseats_url": "https://www.vividseats.com/missio-tickets-los-angeles-teragram-ballroom-11-1-2026/production/7425741",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sean-healy-presents-missio-love-heartbreak-los-angeles-california-11-01-2026/event/0900650B02842801",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -81804,11 +81771,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8200526/Missio-tickets-Sun-Nov-1-2026-Teragram-Ballroom",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200526",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-08-14T16:00:00Z",
-        "end": "2026-10-26T05:00:00Z"
-      },
       {
         "name": "season",
         "start": "2026-10-20T17:00:00Z",
@@ -101318,7 +101280,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-youngstown-ohio-11-22-2026/event/05006505CF0325BF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -101362,11 +101324,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T14:00:00Z",
-        "end": "2026-10-25T14:00:00Z"
-      },
       {
         "name": "T-Mobile Offer",
         "start": "2026-09-18T14:00:00Z",
@@ -129575,7 +129532,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-los-angeles-greek-theatre---los-angeles-10-29-2026--concerts-pop/production/7139097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-los-angeles-california-10-29-2026/event/090064C591D293A2",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -129635,13 +129592,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038273",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038273/Malcolm-Todd-tickets-Thu-Oct-29-2026-Greek-Theatre-Los-Angeles-CA",
     "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-los-angeles-tickets-10-29-2026/event/107417992",
-    "presales": [
-      {
-        "name": "VIP Onsale",
-        "start": "2026-06-11T17:00:00Z",
-        "end": "2026-10-25T19:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -165211,7 +165161,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-des-moines-hoyt-sherman-place-11-1-2026--concerts-rock/production/7170017",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-des-moines-iowa-11-01-2026/event/060064CC86788469",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -165264,11 +165214,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056805",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056805/Daughtry-tickets-Sun-Nov-1-2026-Hoyt-Sherman-Place-Theater",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-19T15:00:00Z",
-        "end": "2026-10-26T03:00:00Z"
-      },
       {
         "name": "Special Offer",
         "start": "2026-10-07T15:00:00Z",
@@ -212658,7 +212603,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-minneapolis-minnesota-11-22-2026/event/06006329CFD13F06",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -212710,16 +212655,6 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-03-05T15:00:00Z",
-        "end": "2026-10-26T02:00:00Z"
-      },
-      {
-        "name": "Verizon Access Select Seats",
-        "start": "2026-03-05T15:00:00Z",
-        "end": "2026-10-26T02:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-03-05T15:00:00Z",
@@ -212822,7 +212757,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-waukee-iowa-11-25-2026/event/21006329DC0F0C3D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -212874,11 +212809,6 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2025-09-19T15:00:00Z",
-        "end": "2026-10-26T03:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2025-09-19T15:00:00Z",
@@ -232398,7 +232328,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-smashing-pumpkins-the-rats-in-portland-oregon-11-01-2026/event/0F0064ADE70B38BC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -232434,13 +232364,6 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_1MEeSxH",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-21T17:00:00Z",
-        "end": "2026-10-26T05:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -233359,7 +233282,7 @@
     "vividseats_url": "https://www.vividseats.com/fuerza-regida-tickets-fresno-save-mart-center-10-28-2026/production/7412141",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fuerza-regida-this-is-our-dream-fresno-california-10-28-2026/event/1C006504F0CE1D4C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -233411,13 +233334,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194525",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194525/Fuerza-Regida-tickets-Wed-Oct-28-2026-Save-Mart-Center",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-14T17:00:00Z",
-        "end": "2026-10-25T19:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -269524,7 +269440,7 @@
     "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-portland-veterans-memorial-coliseum---portland-10-29-2026--concerts-rb/production/7104571",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-portland-oregon-10-29-2026/event/0F0064B5A05FA0E0",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -269577,18 +269493,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8011580/Bryson-Tiller-tickets-Thu-Oct-29-2026-Portland-Veterans-Memorial-Coliseum",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-05T19:00:00Z",
-        "end": "2026-10-25T19:00:00Z"
-      },
-      {
-        "name": "Meet & Greet VIP Package",
-        "start": "2026-06-17T19:00:00Z",
-        "end": "2026-10-25T19:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8011580"
   },
@@ -279977,7 +279881,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-denver-colorado-10-29-2026/event/1E0064AEC203C212",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -280017,11 +279921,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-22T16:00:00Z",
-        "end": "2026-10-25T18:00:00Z"
-      },
       {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-05-22T16:00:00Z",
@@ -280599,7 +280498,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-seattle-climate-pledge-arena-10-29-2026/production/7212200",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-seattle-washington-10-29-2026/event/0F0064D676143312",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -280660,13 +280559,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-seattle-tickets-10-29-2026/event/107522082",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-07-02T17:00:00Z",
-        "end": "2026-10-26T05:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8081075"
   },
@@ -283456,7 +283348,7 @@
     "vividseats_url": "https://www.vividseats.com/young-miko-tickets-orlando-kia-center-10-29-2026--concerts-latin-music/production/6872924",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-orlando-florida-10-29-2026/event/22006483BC244DB4",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -283517,13 +283409,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860531/Young-Miko-tickets-Thu-Oct-29-2026-Kia-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-10T14:00:00Z",
-        "end": "2026-10-25T16:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7860531"
   },
@@ -284891,7 +284776,7 @@
     "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-toronto-history-toronto-11-1-2026/production/7163857",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sleeping-with-sirens-an-ending-in-toronto-ontario-11-01-2026/event/100064CC83D182AF",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -284932,13 +284817,6 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-18T14:00:00Z",
-        "end": "2026-10-26T02:00:00Z"
-      }
     ]
   },
   {
@@ -286029,7 +285907,7 @@
     "vividseats_url": "https://www.vividseats.com/chayanne-tickets-tampa-benchmark-international-arena-10-30-2026/production/6924881",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-tampa-florida-10-30-2026/event/0D00646B90586364",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -286093,11 +285971,6 @@
     ],
     "presales": [
       {
-        "name": "20% OFF LIMITED TIME OFFER",
-        "start": "2026-10-23T14:00:00Z",
-        "end": "2026-10-26T02:00:00Z"
-      },
-      {
         "name": "25% OFF LIMITED TIME OFFER!",
         "start": "2026-10-28T14:00:00Z",
         "end": "2026-10-30T02:00:00Z"
@@ -286121,7 +285994,7 @@
     "vividseats_url": "https://www.vividseats.com/chayanne-tickets-orlando-kia-center-10-31-2026/production/6924903",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-orlando-florida-10-31-2026/event/2200646CA0686AC5",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -286184,11 +286057,6 @@
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "presales": [
-      {
-        "name": "Flash Sale #7",
-        "start": "2026-10-23T14:00:00Z",
-        "end": "2026-10-26T02:00:00Z"
-      },
       {
         "name": "Flash Sale #8",
         "start": "2026-10-28T14:00:00Z",
@@ -293518,7 +293386,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-newcastle-upon-tyne-st-james-park-6-3-2027--concerts-alternative/production/7732014",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-newcastle-upon-tyne-03-06-2027/event/35006554D0435429",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -293554,7 +293422,10 @@
     "ticketmaster_discovery_event_id": "1AgZk4fGkd88g8t",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:30:00Z"
+    "public_onsale_at": "2026-10-30T09:30:00Z",
+    "organizer_names": [
+      "KMJ ENTERTAINMENT LTD"
+    ]
   },
   {
     "id": "tm-sam-fender-2027-newcastle-upon-tyne-1adfz_fgktpp_oj",
@@ -293626,7 +293497,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-cardiff-principality-stadium---cardiff-6-10-2027--concerts-alternative/production/7732028",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-cardiff-10-06-2027/event/35006554971B1AD4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -293662,7 +293533,17 @@
     "ticketmaster_discovery_event_id": "16gZk4fPsZAGe5CA",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:30:00Z"
+    "public_onsale_at": "2026-10-30T09:30:00Z",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ],
+    "presales": [
+      {
+        "name": "Album Presale",
+        "start": "2026-10-28T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sam-fender-2027-london-16nzk4f00zauv12c",
@@ -293680,7 +293561,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-london-wembley-stadium-6-18-2027--concerts-alternative/production/7732036",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-18-06-2027/event/23006554924C09ED",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -293732,7 +293613,19 @@
     "status": "announced",
     "public_onsale_at": "2026-10-30T09:30:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334269",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334269/Sam-Fender-tickets-Fri-Jun-18-2027-Wembley-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334269/Sam-Fender-tickets-Fri-Jun-18-2027-Wembley-Stadium",
+    "organizer_names": [
+      "UNIVERSAL MUSIC ON BEHALF OF SAM FENDER",
+      "SJM LIMITED (NEW)",
+      "COMMUNION ONE LTD"
+    ],
+    "presales": [
+      {
+        "name": "Album Presale",
+        "start": "2026-10-28T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sam-fender-2027-london-1anzk4fgkdp88g6",
@@ -293750,7 +293643,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-london-wembley-stadium-6-20-2027--concerts-alternative/production/7732042",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-20-06-2027/event/23006554D6410D47",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -293802,7 +293695,14 @@
     "status": "announced",
     "public_onsale_at": "2026-10-30T09:30:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334270",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334270/Sam-Fender-tickets-Sun-Jun-20-2027-Wembley-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334270/Sam-Fender-tickets-Sun-Jun-20-2027-Wembley-Stadium",
+    "presales": [
+      {
+        "name": "Album Presale",
+        "start": "2026-10-28T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sam-fender-2027-dublin-1avoz_fgkxvywdt",
@@ -293820,7 +293720,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/sam-fender-proper-massive-stadium-tour-dublin-01-07-2027/event/1800654F81E72EE9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -293856,7 +293756,23 @@
     "ticketmaster_discovery_event_id": "1AvOZ_fGkXvywDt",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:30:00Z"
+    "public_onsale_at": "2026-10-30T09:30:00Z",
+    "organizer_names": [
+      "MCD PRODUCTIONS",
+      "UNIVERSAL MUSIC ON BEHALF OF SAM FENDER"
+    ],
+    "presales": [
+      {
+        "name": "Album Presale",
+        "start": "2026-10-28T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      },
+      {
+        "name": "MCD Presale",
+        "start": "2026-10-29T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sam-fender-2027-edinburgh-1auzk4fgkd4qebt",
@@ -293874,7 +293790,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-edinburgh-scottish-gas-murrayfield-stadium-7-8-2027--concerts-alternative/production/7732058",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-edinburgh-08-07-2027/event/36006554D56A7629",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -293910,7 +293826,29 @@
     "ticketmaster_discovery_event_id": "1AUZk4fGkd4QEbt",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:30:00Z"
+    "public_onsale_at": "2026-10-30T09:30:00Z",
+    "organizer_names": [
+      "DF CONCERTS LIMITED",
+      "UNIVERSAL MUSIC ON BEHALF OF SAM FENDER",
+      "GIGS IN SCOTLAND"
+    ],
+    "presales": [
+      {
+        "name": "Album Presale",
+        "start": "2026-10-28T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      },
+      {
+        "name": "Gigs in Scotland Presale",
+        "start": "2026-10-29T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-10-29T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sam-fender-2027-manchester-g5dzz_42lyjlw",
@@ -293928,7 +293866,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-manchester-etihad-stadium-7-15-2027--concerts-alternative/production/7732072",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-manchester-15-07-2027/event/3E006553EBE66AFD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -293964,7 +293902,22 @@
     "ticketmaster_discovery_event_id": "G5dzZ_42lyJlW",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:30:00Z"
+    "public_onsale_at": "2026-10-30T09:30:00Z",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ],
+    "presales": [
+      {
+        "name": "Album Presale",
+        "start": "2026-10-28T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-28T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sam-fender-2027-manchester-g5dzz_4k4turs",
@@ -293982,7 +293935,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-manchester-etihad-stadium-7-17-2027--concerts-alternative/production/7732086",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-manchester-17-07-2027/event/3E006554D5FF67B3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -294018,7 +293971,22 @@
     "ticketmaster_discovery_event_id": "G5dzZ_4K4TUrS",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:30:00Z"
+    "public_onsale_at": "2026-10-30T09:30:00Z",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ],
+    "presales": [
+      {
+        "name": "Album Presale",
+        "start": "2026-10-28T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-28T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-bon-jovi-2027-docklands-1aefz_fgkxe60v9",
@@ -294089,7 +294057,7 @@
     "vividseats_url": "https://www.vividseats.com/bon-jovi-tickets-east-rutherford-metlife-stadium-7-15-2027/production/7720574",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-east-rutherford-new-jersey-07-15-2027/event/00006550B4D5AF70",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -294149,7 +294117,32 @@
     "public_onsale_at": "2026-10-30T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329063",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329063/Bon-Jovi-tickets-Thu-Jul-15-2027-MetLife-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/bon-jovi-east-rutherford-tickets-7-15-2027/event/107675286"
+    "stubhub_international_url": "https://www.stubhub.ie/bon-jovi-east-rutherford-tickets-7-15-2027/event/107675286",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Bon Jovi Presale",
+        "start": "2026-10-28T14:00:00Z",
+        "end": "2026-10-30T02:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-10-29T14:00:00Z",
+        "end": "2026-10-30T02:00:00Z"
+      },
+      {
+        "name": "Sirius XM Presale",
+        "start": "2026-10-29T14:00:00Z",
+        "end": "2026-10-30T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-29T14:00:00Z",
+        "end": "2026-10-30T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-bon-jovi-2027-chicago-vv178z_fgkh_n5td",
@@ -294167,7 +294160,7 @@
     "vividseats_url": "https://www.vividseats.com/bon-jovi-tickets-chicago-soldier-field-7-21-2027/production/7720572",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-chicago-illinois-07-21-2027/event/0400654F198CBFFB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -294227,7 +294220,32 @@
     "public_onsale_at": "2026-10-30T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329064",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329064/Bon-Jovi-tickets-Wed-Jul-21-2027-Soldier-Field",
-    "stubhub_international_url": "https://www.stubhub.ie/bon-jovi-chicago-tickets-7-21-2027/event/107675287"
+    "stubhub_international_url": "https://www.stubhub.ie/bon-jovi-chicago-tickets-7-21-2027/event/107675287",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale (Seated)",
+        "start": "2026-10-28T15:00:00Z",
+        "end": "2026-10-30T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-29T15:00:00Z",
+        "end": "2026-10-30T03:00:00Z"
+      },
+      {
+        "name": "SiriusXM Presale",
+        "start": "2026-10-29T15:00:00Z",
+        "end": "2026-10-30T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-29T15:00:00Z",
+        "end": "2026-10-30T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-bon-jovi-2027-foxborough-vv1avzk48gke-15d8",
@@ -294245,7 +294263,7 @@
     "vividseats_url": "https://www.vividseats.com/bon-jovi-tickets-foxborough-gillette-stadium-7-28-2027/production/7720570",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-foxborough-massachusetts-07-28-2027/event/01006550A128B0D0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -294305,7 +294323,37 @@
     "public_onsale_at": "2026-10-30T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329065",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329065/Bon-Jovi-tickets-Wed-Jul-28-2027-Gillette-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/bon-jovi-foxborough-tickets-7-28-2027/event/107675288"
+    "stubhub_international_url": "https://www.stubhub.ie/bon-jovi-foxborough-tickets-7-28-2027/event/107675288",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Bon Jovi Presale",
+        "start": "2026-10-28T14:00:00Z",
+        "end": "2026-10-30T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-29T14:00:00Z",
+        "end": "2026-10-30T02:00:00Z"
+      },
+      {
+        "name": "Radio Presale",
+        "start": "2026-10-29T14:00:00Z",
+        "end": "2026-10-30T02:00:00Z"
+      },
+      {
+        "name": "Sirius XM Presale",
+        "start": "2026-10-29T14:00:00Z",
+        "end": "2026-10-30T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-29T14:00:00Z",
+        "end": "2026-10-30T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-bon-jovi-2027-toronto-1a8zk48je1zze8k",
@@ -294323,7 +294371,7 @@
     "vividseats_url": "https://www.vividseats.com/bon-jovi-tickets-toronto-rogers-stadium---toronto-8-4-2027/production/7720693",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bon-jovi-toronto-ontario-08-04-2027/event/10006550982280F5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -294359,7 +294407,30 @@
     "ticketmaster_discovery_event_id": "1a8Zk48Je1ZZe8k",
     "timezone": "America/Toronto",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T14:00:00Z"
+    "public_onsale_at": "2026-10-30T14:00:00Z",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-28T14:00:00Z",
+        "end": "2026-10-30T02:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-10-28T16:00:00Z",
+        "end": "2026-10-30T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-29T14:00:00Z",
+        "end": "2026-10-30T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-anuel-aa-2026-belmont-park-1ayzkffgkd4zfkj",
@@ -294377,7 +294448,7 @@
     "vividseats_url": "https://www.vividseats.com/anuel-aa-tickets-elmont-ubs-arena-11-6-2026/production/7537927",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/anuel-aa-belmont-park-new-york-11-06-2026/event/30006514D50084DC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -294412,7 +294483,10 @@
     },
     "ticketmaster_discovery_event_id": "1AYZkffGkd4ZFKj",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "ZAMORA LIVE"
+    ]
   },
   {
     "id": "tm-anuel-aa-2027-monterrey-g5dvz_6rcdk4r",
@@ -294491,7 +294565,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/anuel-aa-zapopan-15-04-2027/event/3D00647BC5207BBB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -294534,7 +294608,10 @@
     "ticketmaster_discovery_event_id": "G5dVZ_6RAF6mD",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/anuel-aa-tickets-guadalajara-coliseo-gnp-seguros-estadio-3-de-marzo-15-4-2027/event/107162864"
+    "stubhub_international_url": "https://www.stubhub.ie/anuel-aa-tickets-guadalajara-coliseo-gnp-seguros-estadio-3-de-marzo-15-4-2027/event/107162864",
+    "organizer_names": [
+      "OCESA"
+    ]
   },
   {
     "id": "tm-luke-bryan-2026-mescalero-vvg1yz_gw6bfly",
@@ -294621,7 +294698,7 @@
     "vividseats_url": "https://www.vividseats.com/jason-aldean-tickets-las-vegas-allegiant-stadium-12-11-2026--concerts-country-and-folk/production/6969561",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-bryan-jason-aldean-double-down-las-vegas-nevada-12-11-2026/event/1700649CB11CC234",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -294672,7 +294749,27 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7922101",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7922101/Luke-Bryan-tickets-Fri-Dec-11-2026-Allegiant-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7922101/Luke-Bryan-tickets-Fri-Dec-11-2026-Allegiant-Stadium",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-08T17:00:00Z",
+        "end": "2026-12-08T06:00:00Z"
+      },
+      {
+        "name": "Preferred Seating Onsale",
+        "start": "2026-05-08T17:00:00Z",
+        "end": "2026-12-12T06:00:00Z"
+      },
+      {
+        "name": "Official Platinum Onsale",
+        "start": "2026-05-08T17:00:00Z",
+        "end": "2026-12-12T11:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-billy-strings-2026-baltimore-1avfz_6gkm3naew",
@@ -294820,7 +294917,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-new-orleans-louisiana-12-04-2026/event/1B006486F1987016",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -294871,7 +294968,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843538",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7843538/Billy-Strings-tickets-Fri-Dec-4-2026-Saenger-Theatre-New-Orleans"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7843538/Billy-Strings-tickets-Fri-Dec-4-2026-Saenger-Theatre-New-Orleans",
+    "organizer_names": [
+      "MARCHONE MUSIC"
+    ]
   },
   {
     "id": "tm-billy-strings-2026-new-orleans-g5viz_6n0bmge",
@@ -295698,7 +295798,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1691238050?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -295734,7 +295834,37 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vQoFzv8",
     "timezone": "Europe/Berlin",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:00:00Z"
+    "public_onsale_at": "2026-10-30T09:00:00Z",
+    "organizer_names": [
+      "Live Nation GmbH"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-27T09:00:00Z",
+        "end": "2026-10-30T09:00:00Z"
+      },
+      {
+        "name": "PayPal Prio Tickets",
+        "start": "2026-10-28T09:00:00Z",
+        "end": "2026-10-30T09:00:00Z"
+      },
+      {
+        "name": "Telekom Prio Tickets",
+        "start": "2026-10-28T09:00:00Z",
+        "end": "2026-10-30T09:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-29T09:00:00Z",
+        "end": "2026-10-30T09:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-29T09:00:00Z",
+        "end": "2026-10-30T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-casalecchio-di-reno-bologna-zg9rmiynyzffde",
@@ -295806,7 +295936,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/110430840?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -295842,7 +295972,10 @@
     "ticketmaster_discovery_event_id": "Z698xZu0Z1k788Y-Z",
     "timezone": "Europe/Prague",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:00:00Z"
+    "public_onsale_at": "2026-10-30T09:00:00Z",
+    "organizer_names": [
+      "LIVE NATION CZECH REPUBLIC s.r.o."
+    ]
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-helsinki-z698xz8kz16v7so3fa",
@@ -295860,7 +295993,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-%7C-vip-tickets/1131452209?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -295896,6 +296029,9 @@
     "ticketmaster_discovery_event_id": "Z698xZ8KZ16v7so3Fa",
     "timezone": "Europe/Helsinki",
     "status": "announced",
-    "public_onsale_at": "2026-10-27T08:00:00Z"
+    "public_onsale_at": "2026-10-27T08:00:00Z",
+    "organizer_names": [
+      "Live Nation Finland Oy"
+    ]
   }
 ]

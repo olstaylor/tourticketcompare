@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-newcastle-upon-tyne-st-james-park-6-3-2027--concerts-alternative/production/7732014",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-newcastle-upon-tyne-03-06-2027/event/35006554D0435429",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -51,7 +51,10 @@
     "ticketmaster_discovery_event_id": "1AgZk4fGkd88g8t",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:30:00Z"
+    "public_onsale_at": "2026-10-30T09:30:00Z",
+    "organizer_names": [
+      "KMJ ENTERTAINMENT LTD"
+    ]
   },
   {
     "id": "tm-sam-fender-2027-newcastle-upon-tyne-1adfz_fgktpp_oj",
@@ -123,7 +126,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-cardiff-principality-stadium---cardiff-6-10-2027--concerts-alternative/production/7732028",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-cardiff-10-06-2027/event/35006554971B1AD4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -159,7 +162,17 @@
     "ticketmaster_discovery_event_id": "16gZk4fPsZAGe5CA",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:30:00Z"
+    "public_onsale_at": "2026-10-30T09:30:00Z",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ],
+    "presales": [
+      {
+        "name": "Album Presale",
+        "start": "2026-10-28T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sam-fender-2027-london-16nzk4f00zauv12c",
@@ -177,7 +190,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-london-wembley-stadium-6-18-2027--concerts-alternative/production/7732036",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-18-06-2027/event/23006554924C09ED",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -229,7 +242,19 @@
     "status": "announced",
     "public_onsale_at": "2026-10-30T09:30:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334269",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334269/Sam-Fender-tickets-Fri-Jun-18-2027-Wembley-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334269/Sam-Fender-tickets-Fri-Jun-18-2027-Wembley-Stadium",
+    "organizer_names": [
+      "UNIVERSAL MUSIC ON BEHALF OF SAM FENDER",
+      "SJM LIMITED (NEW)",
+      "COMMUNION ONE LTD"
+    ],
+    "presales": [
+      {
+        "name": "Album Presale",
+        "start": "2026-10-28T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sam-fender-2027-london-1anzk4fgkdp88g6",
@@ -247,7 +272,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-london-wembley-stadium-6-20-2027--concerts-alternative/production/7732042",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-20-06-2027/event/23006554D6410D47",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -299,7 +324,14 @@
     "status": "announced",
     "public_onsale_at": "2026-10-30T09:30:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334270",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334270/Sam-Fender-tickets-Sun-Jun-20-2027-Wembley-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334270/Sam-Fender-tickets-Sun-Jun-20-2027-Wembley-Stadium",
+    "presales": [
+      {
+        "name": "Album Presale",
+        "start": "2026-10-28T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sam-fender-2027-dublin-1avoz_fgkxvywdt",
@@ -317,7 +349,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/sam-fender-proper-massive-stadium-tour-dublin-01-07-2027/event/1800654F81E72EE9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -353,7 +385,23 @@
     "ticketmaster_discovery_event_id": "1AvOZ_fGkXvywDt",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:30:00Z"
+    "public_onsale_at": "2026-10-30T09:30:00Z",
+    "organizer_names": [
+      "MCD PRODUCTIONS",
+      "UNIVERSAL MUSIC ON BEHALF OF SAM FENDER"
+    ],
+    "presales": [
+      {
+        "name": "Album Presale",
+        "start": "2026-10-28T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      },
+      {
+        "name": "MCD Presale",
+        "start": "2026-10-29T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sam-fender-2027-edinburgh-1auzk4fgkd4qebt",
@@ -371,7 +419,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-edinburgh-scottish-gas-murrayfield-stadium-7-8-2027--concerts-alternative/production/7732058",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-edinburgh-08-07-2027/event/36006554D56A7629",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -407,7 +455,29 @@
     "ticketmaster_discovery_event_id": "1AUZk4fGkd4QEbt",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:30:00Z"
+    "public_onsale_at": "2026-10-30T09:30:00Z",
+    "organizer_names": [
+      "DF CONCERTS LIMITED",
+      "UNIVERSAL MUSIC ON BEHALF OF SAM FENDER",
+      "GIGS IN SCOTLAND"
+    ],
+    "presales": [
+      {
+        "name": "Album Presale",
+        "start": "2026-10-28T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      },
+      {
+        "name": "Gigs in Scotland Presale",
+        "start": "2026-10-29T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-10-29T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sam-fender-2027-manchester-g5dzz_42lyjlw",
@@ -425,7 +495,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-manchester-etihad-stadium-7-15-2027--concerts-alternative/production/7732072",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-manchester-15-07-2027/event/3E006553EBE66AFD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -461,7 +531,22 @@
     "ticketmaster_discovery_event_id": "G5dzZ_42lyJlW",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:30:00Z"
+    "public_onsale_at": "2026-10-30T09:30:00Z",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ],
+    "presales": [
+      {
+        "name": "Album Presale",
+        "start": "2026-10-28T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-28T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sam-fender-2027-manchester-g5dzz_4k4turs",
@@ -479,7 +564,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-manchester-etihad-stadium-7-17-2027--concerts-alternative/production/7732086",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-manchester-17-07-2027/event/3E006554D5FF67B3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -515,6 +600,21 @@
     "ticketmaster_discovery_event_id": "G5dzZ_4K4TUrS",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:30:00Z"
+    "public_onsale_at": "2026-10-30T09:30:00Z",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ],
+    "presales": [
+      {
+        "name": "Album Presale",
+        "start": "2026-10-28T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-28T09:30:00Z",
+        "end": "2026-10-30T08:30:00Z"
+      }
+    ]
   }
 ]

@@ -311,7 +311,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-seattle-climate-pledge-arena-10-29-2026/production/7212200",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-seattle-washington-10-29-2026/event/0F0064D676143312",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -372,13 +372,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-seattle-tickets-10-29-2026/event/107522082",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-07-02T17:00:00Z",
-        "end": "2026-10-26T05:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8081075"
   },

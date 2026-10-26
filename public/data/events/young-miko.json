@@ -220,7 +220,7 @@
     "vividseats_url": "https://www.vividseats.com/young-miko-tickets-orlando-kia-center-10-29-2026--concerts-latin-music/production/6872924",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-orlando-florida-10-29-2026/event/22006483BC244DB4",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -281,13 +281,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860531/Young-Miko-tickets-Thu-Oct-29-2026-Kia-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-10T14:00:00Z",
-        "end": "2026-10-25T16:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7860531"
   },

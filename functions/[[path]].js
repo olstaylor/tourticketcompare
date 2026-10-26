@@ -5060,9 +5060,10 @@ function artistSeatGeekCheckHref(catalog, artist, providerAvailability = {}) {
 // Resale sites with no verified artist page get a search for the artist's name
 // instead (owner-approved 2026-10-25). /api/out builds the search URL itself
 // from artists.json, so the link carries no destination. Only providers whose
-// search URL shape was confirmed live: TicketNetwork and Ticket Liquidator.
+// search URL shape was confirmed live: TicketNetwork, Ticket Liquidator, Vivid
+// Seats and StubHub International.
 // Keep in sync with SEARCH_CHECK_URL_BUILDERS in functions/api/out.js.
-const SEARCH_CHECK_PROVIDERS = ["ticketnetwork", "ticket-liquidator"];
+const SEARCH_CHECK_PROVIDERS = ["ticketnetwork", "ticket-liquidator", "vivid-seats", "stubhub-international"];
 
 // "Check prices" buttons for a date with no matched resale link: SeatGeek's
 // artist page first, then a search on each enabled search-check provider.

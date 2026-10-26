@@ -336,6 +336,10 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert(artist.html.indexOf(answer.split(" The soonest:")[0]) < artist.html.indexOf('id="artistShowBoard"'), "the answer appears before the date board");
   assert(artist.html.includes('href="/artists/lizzy-mcalpine/ticket-prices"'), "the existing guide remains the detailed price destination");
   assert(!/GBP|395|50/.test(artist.title + artist.description), "the pilot adds no live figure to title or description");
+  const reportHref = 'href="/blog/lizzy-mcalpine-tour-ticket-prices-by-city"';
+  assert(artist.html.includes(reportHref) && artist.html.indexOf(reportHref) < artist.html.indexOf('id="artistShowBoard"'), "the artist page links its city-by-city report before the date board");
+  assert(guide.main.includes(reportHref) && guide.main.indexOf(reportHref) < guide.main.indexOf('id="priceGuideDatesTitle"'), "the price guide links the city report above the tables");
+  assert(!lead.includes("GBP 50") && !text(artist.html.match(/<p class="artist-city-report-link">([\s\S]*?)<\/p>/)?.[1]).match(/[$£]\s?\d/), "the city report link carries no price");
   for (const [withDb, dbOptions, expected] of [
     [true, { priceRows: [] }, "No listed resale price is showing"],
     [true, { priceRows: priceRows.map((row) => ({ ...row, expires_at: "2026-08-08T09:00:00Z" })) }, "No listed resale price is showing"],

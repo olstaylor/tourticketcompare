@@ -1185,9 +1185,11 @@ async function resolveRoute(pathname, env) {
     );
     // Editorial posts about this artist, the sourced place for what a price
     // table cannot say (sale mechanics, face-value rules). Indexable ones only.
-    const relatedPosts = deriveBlogPosts(await loadBlogContent(env))
+    const guideBlogPosts = deriveBlogPosts(await loadBlogContent(env));
+    const relatedPosts = guideBlogPosts
       .filter((post) => post.relatedArtists.includes(artist.slug) && blogPostIndexable(post))
       .slice(0, 4);
+    const cityReport = findArtistCityReport(guideBlogPosts, artist.slug);
     return {
       type: "price-guide",
       path,
@@ -1201,6 +1203,7 @@ async function resolveRoute(pathname, env) {
       yearLabel,
       indexableCitySlugs,
       relatedPosts,
+      cityReport,
       relatedGuides: relatedPriceGuides(await loadPriceGuideDirectory(env), artist.slug, guide.cities.map((city) => city.slug)),
       catalog,
       events: artistEvents,
@@ -3620,6 +3623,17 @@ function priceGuidePriceCell(artist, row, low) {
   return anchor("See ticket options", cardHref, "text-link");
 }
 
+// The artist's city-by-city price report (a published data story), when one
+// exists. Found by its stable slug so a busy blog never crowds it out.
+function findArtistCityReport(posts, artistSlug) {
+  return (posts || []).find((post) => post.path === `/blog/${artistSlug}-tour-ticket-prices-by-city` && blogPostIndexable(post)) || null;
+}
+
+function renderCityReportLinkHtml(artist, report) {
+  if (!report) return "";
+  return `<p class="artist-city-report-link">${anchor(`Which ${artist.name} city has the lowest listed price? Compare the tour city by city`, report.path, "text-link")}</p>`;
+}
+
 function renderPriceGuideCityTables(artist, guide, rowById, lowByShowId, indexableCitySlugs) {
   return guide.cities
     .map((city) => {
@@ -3845,7 +3859,7 @@ function renderPriceGuideBody(route, events, env) {
     route.yearLabel ? ` for ${escapeHtml(route.yearLabel)}` : ""
   }</h1><p class="lead">${escapeHtml(
     currentAnswer
-  )}</p>${nextDatesHtml}<p>${escapeHtml(
+  )}</p>${nextDatesHtml}${renderCityReportLinkHtml(artist, route.cityReport)}<p>${escapeHtml(
     `${guide.showCount} upcoming ${guide.showCount === 1 ? "date" : "dates"} in ${guide.cityCount} ${guide.cityCount === 1 ? "city" : "cities"}${
       range ? ` (${range})` : ""
     }. These are resale listings, not face value.`
@@ -7689,7 +7703,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     const nextDatesHtml = `${shows.length ? `<p class="artist-dates-jump">${anchor(`Find your date · ${shows.length} listed`, "#artistShowBoard", "text-link")}</p>` : ""}${nextDatesTableHtml}`;
     const leadHtml = `<div data-artist-lead><h1 id="artistTitle">${escapeHtml(
       shows.length ? `${artist.name} tickets and tour dates` : `${artist.name} tickets`
-    )}</h1><p class="lead">${escapeHtml(contentModel.intro)}</p>${priceGuideLinkHtml}${presaleLinkHtml}${nextDatesHtml}</div>`;
+    )}</h1><p class="lead">${escapeHtml(contentModel.intro)}</p>${priceGuideLinkHtml}${presaleLinkHtml}${renderCityReportLinkHtml(artist, route.cityReport)}${nextDatesHtml}</div>`;
     const showBoardHtml = renderShowBoardServerHtml(
       shows,
       seatGeekAvailable,
@@ -9039,8 +9053,11 @@ async function renderRequest(context) {
     if (thisWeekHtml) renderRoute = { ...renderRoute, thisWeekHtml };
   }
   if (route.type === "artist") {
-    const artistBlogPosts = postsForArtist(deriveBlogPosts(await loadBlogContent(env)), route.artist.slug);
+    const allBlogPosts = deriveBlogPosts(await loadBlogContent(env));
+    const artistBlogPosts = postsForArtist(allBlogPosts, route.artist.slug);
     if (artistBlogPosts.length) renderRoute = { ...renderRoute, artistBlogPosts };
+    const cityReport = findArtistCityReport(allBlogPosts, route.artist.slug);
+    if (cityReport) renderRoute = { ...renderRoute, cityReport };
   }
   if (route.type === "guide") {
     const guideBlogPosts = postsForGuide(deriveBlogPosts(await loadBlogContent(env)), route.path.split("/").at(-1));

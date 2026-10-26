@@ -426,7 +426,6 @@ export const OG_CARDS = {
   "/artists/ricky-martin": {"url":"/og/artists-ricky-martin.png","alt":"Tickets & tour dates: Ricky Martin"},
   "/artists/ricky-martin/tickets/las-vegas-united-states": {"url":"/og/artists-ricky-martin-tickets-las-vegas-united-states.png","alt":"Tickets: Ricky Martin in Las Vegas"},
   "/artists/riley-green": {"url":"/og/artists-riley-green.png","alt":"Tickets & tour dates: Riley Green"},
-  "/artists/riley-green/presale": {"url":"/og/artists-riley-green-presale.png","alt":"Presale: Riley Green"},
   "/artists/riley-green/ticket-prices": {"url":"/og/artists-riley-green-ticket-prices.png","alt":"Ticket prices: Riley Green"},
   "/artists/riley-green/tickets/clarkston-united-states": {"url":"/og/artists-riley-green-tickets-clarkston-united-states.png","alt":"Tickets: Riley Green in Clarkston"},
   "/artists/riley-green/tickets/gilford-united-states": {"url":"/og/artists-riley-green-tickets-gilford-united-states.png","alt":"Tickets: Riley Green in Gilford"},

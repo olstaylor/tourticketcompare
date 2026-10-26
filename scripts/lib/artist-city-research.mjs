@@ -236,6 +236,8 @@ export function renderArtistCityPost(figures, existing = null) {
     `status: ${status}`,
     "tags:",
     "  - tour-data",
+    "related_artists:",
+    `  - ${figures.artistSlug}`,
     "related_guides:",
     "  - primary-vs-resale-concert-tickets",
     "---"

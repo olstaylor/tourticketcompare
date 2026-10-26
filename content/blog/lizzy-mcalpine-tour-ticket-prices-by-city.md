@@ -7,6 +7,8 @@ date: 2026-10-26
 status: published
 tags:
   - tour-data
+related_artists:
+  - lizzy-mcalpine
 related_guides:
   - primary-vs-resale-concert-tickets
 ---

@@ -7,6 +7,8 @@ date: 2026-10-23
 status: published
 tags:
   - tour-data
+related_artists:
+  - gracie-abrams
 related_guides:
   - primary-vs-resale-concert-tickets
 ---

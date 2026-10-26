@@ -8,6 +8,8 @@ status: published
 updated: 2026-10-26
 tags:
   - tour-data
+related_artists:
+  - doja-cat
 related_guides:
   - primary-vs-resale-concert-tickets
 ---

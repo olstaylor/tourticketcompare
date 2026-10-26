@@ -175,7 +175,7 @@
       "summary": "Pick the Metallica city and date that fits your week and travel, then compare listings for that exact date. Saturday dates suit weekend trips. Tuesday, Wednesday and Thursday dates mean planning around work.",
       "datePublished": "2026-10-26",
       "dateModified": "2026-10-26",
-      "status": "draft",
+      "status": "published",
       "author": "TourTicketCompare",
       "tags": [
         "tour-buying"
@@ -1952,14 +1952,14 @@
   ],
   "tags": [
     {
-      "slug": "tour-data",
-      "label": "Tour Data",
+      "slug": "tour-buying",
+      "label": "Tour Buying",
       "postCount": 15
     },
     {
-      "slug": "tour-buying",
-      "label": "Tour Buying",
-      "postCount": 14
+      "slug": "tour-data",
+      "label": "Tour Data",
+      "postCount": 15
     },
     {
       "slug": "how-we-work",

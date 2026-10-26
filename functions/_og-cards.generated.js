@@ -633,6 +633,7 @@ export const OG_CARDS = {
   "/blog/how-resale-ticket-prices-moved-this-month": {"url":"/og/blog-how-resale-ticket-prices-moved-this-month.png","alt":"Blog: How resale ticket prices moved in the last 30 days"},
   "/blog/lizzy-mcalpine-tour-ticket-prices-by-city": {"url":"/og/blog-lizzy-mcalpine-tour-ticket-prices-by-city.png","alt":"Blog: Lizzy McAlpine tour tickets: listed prices city by city"},
   "/blog/metallica-m72-2027-stadium-dates-on-sale": {"url":"/og/blog-metallica-m72-2027-stadium-dates-on-sale.png","alt":"Blog: Metallica's 2027 M72 stadium dates: resale listed first"},
+  "/blog/metallica-tour-guide": {"url":"/og/blog-metallica-tour-guide.png","alt":"Blog: Metallica tour: dates, cities and how to choose"},
   "/blog/my-chemical-romance-hollywood-bowl-2026-which-night": {"url":"/og/blog-my-chemical-romance-hollywood-bowl-2026-which-night.png","alt":"Blog: My Chemical Romance at Hollywood Bowl: which 2026 night?"},
   "/blog/niall-horan-tour-ticket-prices-by-city": {"url":"/og/blog-niall-horan-tour-ticket-prices-by-city.png","alt":"Blog: Niall Horan tour tickets: listed prices city by city"},
   "/blog/oasis-live-27-code-only-ticket-sale": {"url":"/og/blog-oasis-live-27-code-only-ticket-sale.png","alt":"Blog: Oasis Live '27: what a code-only ticket sale changes"},

@@ -4,7 +4,7 @@ seo_title: "Metallica tour dates: pick a city"
 description: "The first listed Metallica date in each city, grouped by region and weekday, with a checklist for comparing listings for your exact date."
 summary: "Pick the Metallica city and date that fits your week and travel, then compare listings for that exact date. Saturday dates suit weekend trips. Tuesday, Wednesday and Thursday dates mean planning around work."
 date: 2026-10-26
-status: draft
+status: published
 tags: [tour-buying]
 related_artists: [metallica]
 related_guides: [how-to-read-a-ticket-listing, primary-vs-resale-concert-tickets, ticket-delivery-and-transfer-timing]

@@ -551,5 +551,323 @@
     "organizer_names": [
       "OCESA"
     ]
+  },
+  {
+    "id": "tm-mana-2027-highland-z7r9jz1aa7ngx",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "event_name": "Man?? - La Residencia - Ages 21+",
+    "city": "Highland",
+    "country": "United States Of America",
+    "venue": "Yaamava Theater",
+    "datetime_iso": "2027-04-07T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7NGx",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NGx",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NGx",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7NGx",
+        "discovery_event_id": "Z7r9jZ1AA7NGx",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NGx",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7NGx",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2027-highland-z7r9jz1aa7x_k",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "event_name": "Man?? - La Residencia - Ages 21+",
+    "city": "Highland",
+    "country": "United States Of America",
+    "venue": "Yaamava Theater",
+    "datetime_iso": "2027-04-09T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7x_k",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_k",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_k",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7x_k",
+        "discovery_event_id": "Z7r9jZ1AA7x_k",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_k",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7x_k",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2027-highland-z7r9jz1aa7x_7",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "event_name": "Man?? - La Residencia - Ages 21+",
+    "city": "Highland",
+    "country": "United States Of America",
+    "venue": "Yaamava Theater",
+    "datetime_iso": "2027-04-12T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7x_7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7x_7",
+        "discovery_event_id": "Z7r9jZ1AA7x_7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7x_7",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2027-highland-z7r9jz1aa7x_6",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "event_name": "Man?? - La Residencia - Ages 21+",
+    "city": "Highland",
+    "country": "United States Of America",
+    "venue": "Yaamava Theater",
+    "datetime_iso": "2027-09-02T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7x_6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7x_6",
+        "discovery_event_id": "Z7r9jZ1AA7x_6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7x_6",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2027-highland-z7r9jz1aa7ng-",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "event_name": "Man?? - La Residencia - Ages 21+",
+    "city": "Highland",
+    "country": "United States Of America",
+    "venue": "Yaamava Theater",
+    "datetime_iso": "2027-09-03T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7NG-",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NG-",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NG-",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7NG-",
+        "discovery_event_id": "Z7r9jZ1AA7NG-",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NG-",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7NG-",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2027-highland-z7r9jz1aa7x_a",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "event_name": "Man?? - La Residencia - Ages 21+",
+    "city": "Highland",
+    "country": "United States Of America",
+    "venue": "Yaamava Theater",
+    "datetime_iso": "2027-09-07T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7x_A",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_A",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7x_A",
+        "discovery_event_id": "Z7r9jZ1AA7x_A",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7x_A",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

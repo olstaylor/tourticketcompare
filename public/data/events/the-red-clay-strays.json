@@ -3928,5 +3928,59 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301039",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301039/The-Red-Clay-Strays-tickets-Thu-Sep-16-2027-Paycom-Center"
+  },
+  {
+    "id": "tm-the-red-clay-strays-2027-bend-vvg1hz_kwvcqcl",
+    "artist_slug": "the-red-clay-strays",
+    "artist_name": "The Red Clay Strays",
+    "event_name": "The Red Clay Strays",
+    "city": "Bend",
+    "country": "United States Of America",
+    "venue": "Hayden Homes Amphitheater",
+    "datetime_iso": "2027-08-21T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00653CB439A3AB",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-red-clay-strays-bend-oregon-08-20-2027/event/0F00653CB439A3AB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-red-clay-strays-bend-oregon-08-20-2027/event/0F00653CB439A3AB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00653CB439A3AB",
+        "discovery_event_id": "vvG1HZ_KwVCQCl",
+        "url": "https://www.ticketmaster.com/the-red-clay-strays-bend-oregon-08-20-2027/event/0F00653CB439A3AB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_KwVCQCl",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T17:00:00Z"
   }
 ]

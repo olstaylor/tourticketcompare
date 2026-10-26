@@ -303192,5 +303192,858 @@
     "ticketmaster_discovery_event_id": "16UZkf6-7ZA5ev8a",
     "timezone": "Europe/London",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-andrea-bocelli-2027-praha-9-z698xzu0z1k3k74-f",
+    "artist_slug": "andrea-bocelli",
+    "artist_name": "Andrea Bocelli",
+    "event_name": "Andrea Bocelli",
+    "city": "Praha 9",
+    "country": "Czech Republic",
+    "venue": "O2 Arena",
+    "datetime_iso": "2027-05-27T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "493115848",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/andrea-bocelli-tickets/493115848?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/andrea-bocelli-tickets/493115848?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "493115848",
+        "discovery_event_id": "Z698xZu0Z1k3K74-F",
+        "url": "https://www.ticketmaster.cz/event/andrea-bocelli-tickets/493115848?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z1k3K74-F",
+    "timezone": "Europe/Prague",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:00:00Z"
+  },
+  {
+    "id": "tm-blondshell-2027-columbus-z7r9jz1aaeogk",
+    "artist_slug": "blondshell",
+    "artist_name": "Blondshell",
+    "event_name": "Blondshell - Scaring Strangers Tour",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Newport Music Hall",
+    "datetime_iso": "2027-05-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeoGk",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeoGk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeoGk",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeoGk",
+        "discovery_event_id": "Z7r9jZ1AAeoGk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeoGk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeoGk",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2027-morrison-z7r9jz1aa7-1d",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-08-31T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7-1d",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-1d",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-1d",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7-1d",
+        "discovery_event_id": "Z7r9jZ1AA7-1d",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-1d",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7-1d",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-red-clay-strays-2027-bend-vvg1hz_kwvcqcl",
+    "artist_slug": "the-red-clay-strays",
+    "artist_name": "The Red Clay Strays",
+    "event_name": "The Red Clay Strays",
+    "city": "Bend",
+    "country": "United States Of America",
+    "venue": "Hayden Homes Amphitheater",
+    "datetime_iso": "2027-08-21T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00653CB439A3AB",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-red-clay-strays-bend-oregon-08-20-2027/event/0F00653CB439A3AB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-red-clay-strays-bend-oregon-08-20-2027/event/0F00653CB439A3AB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00653CB439A3AB",
+        "discovery_event_id": "vvG1HZ_KwVCQCl",
+        "url": "https://www.ticketmaster.com/the-red-clay-strays-bend-oregon-08-20-2027/event/0F00653CB439A3AB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_KwVCQCl",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T17:00:00Z"
+  },
+  {
+    "id": "tm-mico-2027-columbus-z7r9jz1aa7_pz",
+    "artist_slug": "mico",
+    "artist_name": "Mico",
+    "event_name": "MICO - IN:BETWEEN TOUR",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Newport Music Hall",
+    "datetime_iso": "2027-03-11T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7_pZ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_pZ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_pZ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7_pZ",
+        "discovery_event_id": "Z7r9jZ1AA7_pZ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_pZ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7_pZ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2027-london-1agzk4pgkemmuru",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana Planet of Free Will Global Tour 2027",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-06-30T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006556AEDF6BF6",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/santana-planet-of-free-will-global-london-30-06-2027/event/35006556AEDF6BF6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/santana-planet-of-free-will-global-london-30-06-2027/event/35006556AEDF6BF6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006556AEDF6BF6",
+        "discovery_event_id": "1AgZk4pGkemMURU",
+        "url": "https://www.ticketmaster.co.uk/santana-planet-of-free-will-global-london-30-06-2027/event/35006556AEDF6BF6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk4pGkemMURU",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
+  },
+  {
+    "id": "tm-santana-2027-krakow-z698xzqpz16va4pvo4",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana - Planet of Free Will Tour 2027",
+    "city": "Krakow",
+    "country": "Poland",
+    "venue": "TAURON Arena Kraków",
+    "datetime_iso": "2027-07-24T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1255941455",
+    "ticketmaster_url": "https://www.ticketmaster.pl/event/santana-planet-of-free-will-tour-2027-tickets/1255941455?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.pl/event/santana-planet-of-free-will-tour-2027-tickets/1255941455?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1255941455",
+        "discovery_event_id": "Z698xZQpZ16va4Pvo4",
+        "url": "https://www.ticketmaster.pl/event/santana-planet-of-free-will-tour-2027-tickets/1255941455?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZQpZ16va4Pvo4",
+    "timezone": "Europe/Warsaw",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T11:00:00Z"
+  },
+  {
+    "id": "tm-santana-2027-oslo-z698xzb_z16v43vmbv",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana - Planet of Free Will Global Tour 2027",
+    "city": "Oslo",
+    "country": "Norway",
+    "venue": "Oslo Spektrum",
+    "datetime_iso": "2027-07-28T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1552077634",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/santana-planet-of-free-will-global-tour-2027-tickets/1552077634?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/santana-planet-of-free-will-global-tour-2027-tickets/1552077634?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1552077634",
+        "discovery_event_id": "Z698xZb_Z16v43vMbV",
+        "url": "https://www.ticketmaster.no/event/santana-planet-of-free-will-global-tour-2027-tickets/1552077634?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z16v43vMbV",
+    "timezone": "Europe/Oslo",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:00:00Z"
+  },
+  {
+    "id": "tm-mana-2027-highland-z7r9jz1aa7ngx",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "event_name": "Man?? - La Residencia - Ages 21+",
+    "city": "Highland",
+    "country": "United States Of America",
+    "venue": "Yaamava Theater",
+    "datetime_iso": "2027-04-07T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7NGx",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NGx",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NGx",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7NGx",
+        "discovery_event_id": "Z7r9jZ1AA7NGx",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NGx",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7NGx",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2027-highland-z7r9jz1aa7x_k",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "event_name": "Man?? - La Residencia - Ages 21+",
+    "city": "Highland",
+    "country": "United States Of America",
+    "venue": "Yaamava Theater",
+    "datetime_iso": "2027-04-09T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7x_k",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_k",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_k",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7x_k",
+        "discovery_event_id": "Z7r9jZ1AA7x_k",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_k",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7x_k",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2027-highland-z7r9jz1aa7x_7",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "event_name": "Man?? - La Residencia - Ages 21+",
+    "city": "Highland",
+    "country": "United States Of America",
+    "venue": "Yaamava Theater",
+    "datetime_iso": "2027-04-12T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7x_7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7x_7",
+        "discovery_event_id": "Z7r9jZ1AA7x_7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7x_7",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2027-highland-z7r9jz1aa7x_6",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "event_name": "Man?? - La Residencia - Ages 21+",
+    "city": "Highland",
+    "country": "United States Of America",
+    "venue": "Yaamava Theater",
+    "datetime_iso": "2027-09-02T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7x_6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7x_6",
+        "discovery_event_id": "Z7r9jZ1AA7x_6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7x_6",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2027-highland-z7r9jz1aa7ng-",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "event_name": "Man?? - La Residencia - Ages 21+",
+    "city": "Highland",
+    "country": "United States Of America",
+    "venue": "Yaamava Theater",
+    "datetime_iso": "2027-09-03T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7NG-",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NG-",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NG-",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7NG-",
+        "discovery_event_id": "Z7r9jZ1AA7NG-",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NG-",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7NG-",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mana-2027-highland-z7r9jz1aa7x_a",
+    "artist_slug": "mana",
+    "artist_name": "MANA",
+    "event_name": "Man?? - La Residencia - Ages 21+",
+    "city": "Highland",
+    "country": "United States Of America",
+    "venue": "Yaamava Theater",
+    "datetime_iso": "2027-09-07T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7x_A",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_A",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7x_A",
+        "discovery_event_id": "Z7r9jZ1AA7x_A",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7x_A",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-turnpike-troubadours-2027-morrison-z7r9jz1aa7_ae",
+    "artist_slug": "turnpike-troubadours",
+    "artist_name": "Turnpike Troubadours",
+    "event_name": "Turnpike Troubadours w/ Amble",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-05-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7_ae",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_ae",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_ae",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7_ae",
+        "discovery_event_id": "Z7r9jZ1AA7_ae",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_ae",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7_ae",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-turnpike-troubadours-2027-morrison-z7r9jz1aa7_av",
+    "artist_slug": "turnpike-troubadours",
+    "artist_name": "Turnpike Troubadours",
+    "event_name": "Turnpike Troubadours w/ Amble",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-05-15T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7_av",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_av",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_av",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7_av",
+        "discovery_event_id": "Z7r9jZ1AA7_av",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_av",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7_av",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

@@ -1605,5 +1605,58 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976582",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976582/Blondshell-tickets-Mon-Mar-22-2027-Brooklyn-Steel",
     "stubhub_international_url": "https://www.stubhub.ie/blondshell-brooklyn-tickets-3-22-2027/event/107672785"
+  },
+  {
+    "id": "tm-blondshell-2027-columbus-z7r9jz1aaeogk",
+    "artist_slug": "blondshell",
+    "artist_name": "Blondshell",
+    "event_name": "Blondshell - Scaring Strangers Tour",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Newport Music Hall",
+    "datetime_iso": "2027-05-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeoGk",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeoGk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeoGk",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeoGk",
+        "discovery_event_id": "Z7r9jZ1AAeoGk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeoGk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeoGk",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

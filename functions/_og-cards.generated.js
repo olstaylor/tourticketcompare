@@ -474,6 +474,7 @@ export const OG_CARDS = {
   "/artists/sam-fender/tickets/newcastle-upon-tyne-united-kingdom": {"url":"/og/artists-sam-fender-tickets-newcastle-upon-tyne-united-kingdom.png","alt":"Tickets: Sam Fender in Newcastle Upon Tyne"},
   "/artists/santana": {"url":"/og/artists-santana.png","alt":"Tickets & tour dates: Santana"},
   "/artists/santana/ticket-prices": {"url":"/og/artists-santana-ticket-prices.png","alt":"Ticket prices: Santana"},
+  "/artists/santana/tickets/las-vegas-united-states": {"url":"/og/artists-santana-tickets-las-vegas-united-states.png","alt":"Tickets: Santana in Las Vegas"},
   "/artists/shakira": {"url":"/og/artists-shakira.png","alt":"Tickets & tour dates: Shakira"},
   "/artists/sienna-spiro": {"url":"/og/artists-sienna-spiro.png","alt":"Tickets & tour dates: Sienna Spiro"},
   "/artists/sienna-spiro/presale": {"url":"/og/artists-sienna-spiro-presale.png","alt":"Presale: Sienna Spiro"},

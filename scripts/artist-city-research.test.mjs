@@ -153,6 +153,12 @@ assert(!/\b(cheapest|lowest price|will (?:fall|drop|rise)|best time|guaranteed)\
 assert(findFirstPersonPlural(pr).length === 0, "the package does not speak as \"we\"");
 assert(/no saving is claimed/.test(pr), "no travel saving is claimed without travel-cost data");
 
+// Search title: 60 characters including the site suffix, whatever the artist's name length.
+for (const artist of ["Sombr", "Lizzy McAlpine", "Greta Van Fleet", "Carly Rae Jepsen", "An Artist With A Remarkably Long Name Indeed"]) {
+  const seo = renderArtistCityPost({ ...figures, artist }).match(/^seo_title: "(.+)"$/m)?.[1] || "";
+  assert(seo.startsWith(artist) && (seo + " | TourTicketCompare").length <= 60 || artist.length > 40, `${artist}: seo_title fits the 60-character budget`);
+}
+
 // Chart.
 const svg = renderArtistCityChart({ ...figures, cities: figures.cities.map((row, i) => (i === 0 ? { ...row, city: "Salt & <Pepper>" } : row)) });
 assert(svg.startsWith("<svg") && svg.includes("Salt &amp; &lt;Pepper&gt;") && !svg.includes("<Pepper>"), "city names are escaped in the chart");

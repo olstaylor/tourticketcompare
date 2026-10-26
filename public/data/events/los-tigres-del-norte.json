@@ -48,34 +48,34 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107162969",
-        "url": "https://www.stubhub.ie/los-tigres-del-norte-glendale-tickets-10-24-2026/event/107162969",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7759906",
-        "url": "https://www.ticketliquidator.com/tickets/7759906/Los-Tigres-del-Norte-tickets-Sat-Oct-24-2026-Desert-Diamond-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "7759906",
-        "url": "https://www.ticketnetwork.com/en/p/7759906",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Fk8v0p7atZ785Ae",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/los-tigres-del-norte-glendale-tickets-10-24-2026/event/107162969",
+    "stubhub_international_url": "",
     "ticketmaster_status_code": "rescheduled",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7759906/Los-Tigres-del-Norte-tickets-Sat-Oct-24-2026-Desert-Diamond-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7759906"
+    "ticketliquidator_url": "",
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-los-tigres-del-norte-2026-palm-desert-vvg1iz_axk_2p-",
@@ -324,7 +324,7 @@
         "event_id": 6819576,
         "url": "https://www.vividseats.com/los-tigres-del-norte-tickets-detroit-fox-theatre-detroit-11-21-2026/production/6819576",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -411,7 +411,7 @@
         "event_id": 6711208,
         "url": "https://www.vividseats.com/los-tigres-del-norte-tickets-baltimore-cfg-bank-arena-11-27-2026--concerts-latin-music/production/6711208",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -498,7 +498,7 @@
         "event_id": 6711198,
         "url": "https://www.vividseats.com/los-tigres-del-norte-tickets-elmont-ubs-arena-11-28-2026--concerts-latin-music/production/6711198",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -561,7 +561,7 @@
         "event_id": 6711183,
         "url": "https://www.vividseats.com/los-tigres-del-norte-tickets-nashville-bridgestone-arena-12-4-2026--concerts-latin-music/production/6711183",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -648,7 +648,7 @@
         "event_id": 6711178,
         "url": "https://www.vividseats.com/los-tigres-del-norte-tickets-birmingham-bjcc-concert-hall-12-5-2026--concerts-latin-music/production/6711178",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -777,7 +777,7 @@
         "event_id": 7654801,
         "url": "https://www.vividseats.com/los-tigres-del-norte-tickets-temecula-pechanga-resort-casino-3-13-2027/production/7654801",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "stubhub": {

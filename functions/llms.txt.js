@@ -340,6 +340,10 @@ Key facts:
 - [Editorial policy](${origin}/editorial-policy): See what the site publishes, withholds, and corrects.
 - [Affiliate disclosure](${origin}/affiliate-disclosure): Understand which links may earn commission and why that does not alter the verification standard.
 
+## About the site
+
+${trustLines.join("\n")}
+
 ## Buying guides
 
 ${guideLines.join("\n")}
@@ -379,11 +383,7 @@ ${eventLines.length ? `
 ## Individual event pages
 
 ${eventLines.join("\n")}
-` : ""}
-## About the site
-
-${trustLines.join("\n")}
-`;
+` : ""}`;
 
   return new Response(body, {
     headers: {

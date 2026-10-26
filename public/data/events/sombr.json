@@ -1178,11 +1178,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107154726",
-        "url": "https://www.stubhub.ie/sombr-orlando-tickets-10-25-2026/event/107154726",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7874868",
@@ -1196,7 +1196,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874868",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-orlando-tickets-10-25-2026/event/107154726",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874868/sombr-tickets-Sun-Oct-25-2026-Kia-Center",
     "organizer_names": [
       "AEG LIVE"

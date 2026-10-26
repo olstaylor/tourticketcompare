@@ -2953,6 +2953,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8339188",
+        "url": "https://www.ticketliquidator.com/tickets/8339188/Riley-Green-tickets-Mon-Nov-2-2026-SNHU-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_fGkwNh6_I",
@@ -2966,6 +2973,7 @@
         "end": "2026-10-26T15:45:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8339188"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8339188",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8339188/Riley-Green-tickets-Mon-Nov-2-2026-SNHU-Arena"
   }
 ]

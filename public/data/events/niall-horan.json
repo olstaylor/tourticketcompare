@@ -714,11 +714,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107148171",
-        "url": "https://www.stubhub.ie/niall-horan-tickets-barcelona-palau-sant-jordi-25-10-2026/event/107148171",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7843958",
@@ -732,7 +732,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843958",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-barcelona-palau-sant-jordi-25-10-2026/event/107148171",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7843958/Niall-Horan-tickets-Sun-Oct-25-2026-Palau-Sant-Jordi",
     "organizer_names": [
       "Live Nation España Blue Lane, SL"

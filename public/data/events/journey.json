@@ -561,18 +561,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7956775",
-        "url": "https://www.ticketnetwork.com/en/p/7956775",
-        "verified": true,
-        "last_verified_at": "2026-10-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61Kp2rIs",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956775/Journey-tickets-Sat-Oct-24-2026-CFG-Bank-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956775",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -633,11 +633,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107170302",
-        "url": "https://www.stubhub.ie/journey-newark-tickets-10-25-2026/event/107170302",
-        "verified": true,
-        "last_verified_at": "2026-10-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7956776",
@@ -651,7 +651,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956776/Journey-tickets-Sun-Oct-25-2026-Prudential-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/journey-newark-tickets-10-25-2026/event/107170302",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956776",
     "organizer_names": [
       "AEG LIVE"

@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "0C0064CC87E94AF0",
     "ticketmaster_url": "https://www.ticketmaster.com/luke-bryan-mescalero-new-mexico-12-05-2026/event/0C0064CC87E94AF0",
     "seatgeek_url": "https://seatgeek.com/luke-bryan-tickets/mescalero-new-mexico-inn-of-the-mountain-gods-resort-and-casino-2026-12-05-8-pm/concert/18571831",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/luke-bryan-tickets-mescalero-inn-of-the-mountain-gods-resort-12-5-2026--concerts-country-and-folk/production/7533482",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-bryan-mescalero-new-mexico-12-05-2026/event/0C0064CC87E94AF0",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7533482,
+        "url": "https://www.vividseats.com/luke-bryan-tickets-mescalero-inn-of-the-mountain-gods-resort-12-5-2026--concerts-country-and-folk/production/7533482",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -46,11 +46,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8259472",
+        "url": "https://www.ticketnetwork.com/en/p/8259472",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8259472",
+        "url": "https://www.ticketliquidator.com/tickets/8259472/Luke-Bryan-tickets-Sat-Dec-5-2026-Inn-Of-The-Mountain-Gods-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_Gw6BflY",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259472",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259472/Luke-Bryan-tickets-Sat-Dec-5-2026-Inn-Of-The-Mountain-Gods-Resort-Casino"
   },
   {
     "id": "tm-luke-bryan-2026-las-vegas-1avjz_agkws6gfv",
@@ -65,7 +81,7 @@
     "ticketmaster_event_id": "1700649CB11CC234",
     "ticketmaster_url": "https://www.ticketmaster.com/luke-bryan-jason-aldean-double-down-las-vegas-nevada-12-11-2026/event/1700649CB11CC234",
     "seatgeek_url": "https://seatgeek.com/luke-bryan-tickets/las-vegas-nevada-allegiant-stadium-2026-12-11-3-30-am/concert/18211763",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jason-aldean-tickets-las-vegas-allegiant-stadium-12-11-2026--concerts-country-and-folk/production/6969561",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-bryan-jason-aldean-double-down-las-vegas-nevada-12-11-2026/event/1700649CB11CC234",
     "last_verified_at": null,
@@ -87,11 +103,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6969561,
+        "url": "https://www.vividseats.com/jason-aldean-tickets-las-vegas-allegiant-stadium-12-11-2026--concerts-country-and-folk/production/6969561",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -99,10 +115,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7922101",
+        "url": "https://www.ticketnetwork.com/en/p/7922101",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7922101",
+        "url": "https://www.ticketliquidator.com/tickets/7922101/Luke-Bryan-tickets-Fri-Dec-11-2026-Allegiant-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_aGkws6GFV",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7922101",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7922101/Luke-Bryan-tickets-Fri-Dec-11-2026-Allegiant-Stadium"
   }
 ]

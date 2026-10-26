@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "00006550B4D5AF70",
     "ticketmaster_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-east-rutherford-new-jersey-07-15-2027/event/00006550B4D5AF70",
     "seatgeek_url": "https://seatgeek.com/bon-jovi-tickets/east-rutherford-new-jersey-metlife-stadium-2027-07-15-6-30-pm/concert/18696568",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bon-jovi-tickets-east-rutherford-metlife-stadium-7-15-2027/production/7720574",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-east-rutherford-new-jersey-07-15-2027/event/00006550B4D5AF70",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7720574,
+        "url": "https://www.vividseats.com/bon-jovi-tickets-east-rutherford-metlife-stadium-7-15-2027/production/7720574",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -99,12 +99,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8329063",
+        "url": "https://www.ticketnetwork.com/en/p/8329063",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8329063",
+        "url": "https://www.ticketliquidator.com/tickets/8329063/Bon-Jovi-tickets-Thu-Jul-15-2027-MetLife-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675286",
+        "url": "https://www.stubhub.ie/bon-jovi-east-rutherford-tickets-7-15-2027/event/107675286",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_4eVgQWY",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T14:00:00Z"
+    "public_onsale_at": "2026-10-30T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329063",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329063/Bon-Jovi-tickets-Thu-Jul-15-2027-MetLife-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bon-jovi-east-rutherford-tickets-7-15-2027/event/107675286"
   },
   {
     "id": "tm-bon-jovi-2027-chicago-vv178z_fgkh_n5td",
@@ -119,7 +143,7 @@
     "ticketmaster_event_id": "0400654F198CBFFB",
     "ticketmaster_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-chicago-illinois-07-21-2027/event/0400654F198CBFFB",
     "seatgeek_url": "https://seatgeek.com/bon-jovi-tickets/chicago-illinois-soldier-field-2027-07-21-6-30-pm/concert/18696570",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bon-jovi-tickets-chicago-soldier-field-7-21-2027/production/7720572",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-chicago-illinois-07-21-2027/event/0400654F198CBFFB",
     "last_verified_at": null,
@@ -141,11 +165,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7720572,
+        "url": "https://www.vividseats.com/bon-jovi-tickets-chicago-soldier-field-7-21-2027/production/7720572",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -153,12 +177,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8329064",
+        "url": "https://www.ticketnetwork.com/en/p/8329064",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8329064",
+        "url": "https://www.ticketliquidator.com/tickets/8329064/Bon-Jovi-tickets-Wed-Jul-21-2027-Soldier-Field",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675287",
+        "url": "https://www.stubhub.ie/bon-jovi-chicago-tickets-7-21-2027/event/107675287",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_fGkH_N5TD",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T15:00:00Z"
+    "public_onsale_at": "2026-10-30T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329064",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329064/Bon-Jovi-tickets-Wed-Jul-21-2027-Soldier-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/bon-jovi-chicago-tickets-7-21-2027/event/107675287"
   },
   {
     "id": "tm-bon-jovi-2027-foxborough-vv1avzk48gke-15d8",
@@ -173,7 +221,7 @@
     "ticketmaster_event_id": "01006550A128B0D0",
     "ticketmaster_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-foxborough-massachusetts-07-28-2027/event/01006550A128B0D0",
     "seatgeek_url": "https://seatgeek.com/bon-jovi-tickets/foxborough-massachusetts-gillette-stadium-2027-07-28-7-pm/concert/18696567",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bon-jovi-tickets-foxborough-gillette-stadium-7-28-2027/production/7720570",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-foxborough-massachusetts-07-28-2027/event/01006550A128B0D0",
     "last_verified_at": null,
@@ -195,11 +243,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7720570,
+        "url": "https://www.vividseats.com/bon-jovi-tickets-foxborough-gillette-stadium-7-28-2027/production/7720570",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -207,12 +255,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8329065",
+        "url": "https://www.ticketnetwork.com/en/p/8329065",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8329065",
+        "url": "https://www.ticketliquidator.com/tickets/8329065/Bon-Jovi-tickets-Wed-Jul-28-2027-Gillette-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675288",
+        "url": "https://www.stubhub.ie/bon-jovi-foxborough-tickets-7-28-2027/event/107675288",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk48Gke-15d8",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T14:00:00Z"
+    "public_onsale_at": "2026-10-30T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329065",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329065/Bon-Jovi-tickets-Wed-Jul-28-2027-Gillette-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bon-jovi-foxborough-tickets-7-28-2027/event/107675288"
   },
   {
     "id": "tm-bon-jovi-2027-toronto-1a8zk48je1zze8k",
@@ -227,7 +299,7 @@
     "ticketmaster_event_id": "10006550982280F5",
     "ticketmaster_url": "https://www.ticketmaster.ca/bon-jovi-toronto-ontario-08-04-2027/event/10006550982280F5",
     "seatgeek_url": "https://seatgeek.com/bon-jovi-tickets/toronto-canada-rogers-stadium-toronto-2027-08-04-6-30-pm/concert/18696569",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bon-jovi-tickets-toronto-rogers-stadium---toronto-8-4-2027/production/7720693",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bon-jovi-toronto-ontario-08-04-2027/event/10006550982280F5",
     "last_verified_at": null,
@@ -249,11 +321,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7720693,
+        "url": "https://www.vividseats.com/bon-jovi-tickets-toronto-rogers-stadium---toronto-8-4-2027/production/7720693",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

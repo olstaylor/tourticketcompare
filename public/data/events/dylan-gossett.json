@@ -48,25 +48,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8111328",
-        "url": "https://www.ticketnetwork.com/en/p/8111328",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8111328",
-        "url": "https://www.ticketliquidator.com/tickets/8111328/Dylan-Gossett-tickets-Sat-Oct-24-2026-Magnolia-Market-At-The-Silos",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JdAk",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8111328",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8111328/Dylan-Gossett-tickets-Sat-Oct-24-2026-Magnolia-Market-At-The-Silos"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-dylan-gossett-2026-chicago-vvg18z_u5xbtr6",

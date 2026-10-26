@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7x73v",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x73v",
     "seatgeek_url": "https://seatgeek.com/young-miko-tickets/houston-texas-toyota-center-2026-10-24-8-pm/concert/18164304",
-    "vividseats_url": "https://www.vividseats.com/young-miko-tickets-houston-toyota-center---tx-10-24-2026--concerts-latin-music/production/6872920",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x73v",
     "last_verified_at": "2026-10-24",
@@ -87,11 +87,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 6872920,
-        "url": "https://www.vividseats.com/young-miko-tickets-houston-toyota-center---tx-10-24-2026--concerts-latin-music/production/6872920",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -101,28 +101,28 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7860529",
-        "url": "https://www.ticketliquidator.com/tickets/7860529/Young-Miko-tickets-Sat-Oct-24-2026-Toyota-Center-TX",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "7860529",
-        "url": "https://www.ticketnetwork.com/en/p/7860529",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x73v",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860529/Young-Miko-tickets-Sat-Oct-24-2026-Toyota-Center-TX",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7860529"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-young-miko-2026-miami-vvg1vz_fchiqhv",
@@ -162,7 +162,7 @@
         "event_id": 6872922,
         "url": "https://www.vividseats.com/young-miko-tickets-miami-kaseya-center-10-28-2026--concerts-latin-music/production/6872922",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -242,7 +242,7 @@
         "event_id": 6872924,
         "url": "https://www.vividseats.com/young-miko-tickets-orlando-kia-center-10-29-2026--concerts-latin-music/production/6872924",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -329,7 +329,7 @@
         "event_id": 6872926,
         "url": "https://www.vividseats.com/young-miko-tickets-atlanta-state-farm-arena-10-31-2026--concerts-latin-music/production/6872926",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -416,7 +416,7 @@
         "event_id": 6872928,
         "url": "https://www.vividseats.com/young-miko-tickets-charlotte-spectrum-center-11-1-2026--concerts-latin-music/production/6872928",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -495,7 +495,7 @@
         "event_id": 6872930,
         "url": "https://www.vividseats.com/young-miko-tickets-philadelphia-xfinity-mobile-arena-11-4-2026--concerts-latin-music/production/6872930",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -582,7 +582,7 @@
         "event_id": 6872936,
         "url": "https://www.vividseats.com/young-miko-tickets-brooklyn-barclays-center-11-5-2026--concerts-latin-music/production/6872936",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "stubhub": {

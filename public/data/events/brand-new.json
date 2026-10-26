@@ -300,11 +300,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107417867",
-        "url": "https://www.stubhub.ie/brand-new-hollywood-tickets-10-25-2026/event/107417867",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "8062714",
@@ -318,7 +318,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062714/Brand-New-tickets-Sun-Oct-25-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
-    "stubhub_international_url": "https://www.stubhub.ie/brand-new-hollywood-tickets-10-25-2026/event/107417867",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062714"
   },
   {

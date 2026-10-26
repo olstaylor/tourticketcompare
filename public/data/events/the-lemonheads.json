@@ -848,7 +848,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvV7w",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvV7w",
     "seatgeek_url": "https://seatgeek.com/the-lemonheads-tickets/omaha-nebraska-the-waiting-room-omaha-2027-03-16-7-pm/concert/18595344",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-omaha-the-waiting-room---ne-3-16-2027/production/7564845",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvV7w",
     "last_verified_at": null,
@@ -870,11 +870,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7564845,
+        "url": "https://www.vividseats.com/the-lemonheads-tickets-omaha-the-waiting-room---ne-3-16-2027/production/7564845",
+        "verified": true,
+        "last_verified_at": "2026-10-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1465,7 +1465,7 @@
         "event_id": 7561061,
         "url": "https://www.vividseats.com/the-lemonheads-tickets-seattle-el-corazon-3-11-2027--concerts-rock/production/7561061",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-25",
         "availability_status": "listed"
       },
       "stubhub": {

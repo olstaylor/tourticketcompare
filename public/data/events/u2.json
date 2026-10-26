@@ -60,6 +60,13 @@
         "verified": true,
         "last_verified_at": "2026-10-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8329176",
+        "url": "https://www.ticketliquidator.com/tickets/8329176/U2-tickets-Tue-Feb-23-2027-Estadio-GNP-Seguros-Mexico-City",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk4aGkeysi-T",
@@ -76,7 +83,8 @@
         "start": "2026-10-23T16:00:00Z",
         "end": "2027-02-24T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329176/U2-tickets-Tue-Feb-23-2027-Estadio-GNP-Seguros-Mexico-City"
   },
   {
     "id": "tm-u2-2027-ciudad-de-mexico-1afzk4agkebeind",
@@ -139,6 +147,13 @@
         "verified": true,
         "last_verified_at": "2026-10-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8329177",
+        "url": "https://www.ticketliquidator.com/tickets/8329177/U2-tickets-Fri-Feb-26-2027-Estadio-GNP-Seguros-Mexico-City",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk4aGkeBEind",
@@ -155,7 +170,8 @@
         "start": "2026-10-23T16:00:00Z",
         "end": "2027-02-27T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329177/U2-tickets-Fri-Feb-26-2027-Estadio-GNP-Seguros-Mexico-City"
   },
   {
     "id": "tm-u2-2027-ciudad-de-mexico-1afzk4agkebeina",
@@ -218,6 +234,13 @@
         "verified": true,
         "last_verified_at": "2026-10-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8337104",
+        "url": "https://www.ticketliquidator.com/tickets/8337104/U2-tickets-Sun-Feb-28-2027-Estadio-GNP-Seguros-Mexico-City",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk4aGkeBEinA",
@@ -234,7 +257,8 @@
         "start": "2026-10-23T16:00:00Z",
         "end": "2027-03-01T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337104/U2-tickets-Sun-Feb-28-2027-Estadio-GNP-Seguros-Mexico-City"
   },
   {
     "id": "tm-u2-2027-ciudad-de-mexico-1afzk4agkebign2",

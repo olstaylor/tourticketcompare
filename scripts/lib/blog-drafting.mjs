@@ -20,6 +20,8 @@ export const MAX_ESTIMATED_USD = 1;
 // At most this many paid articles per run, and no new ones while this many
 // automated drafts wait for review: unreviewed drafts stop the spend.
 export const MAX_DRAFTS_PER_RUN = 2;
+// Actual spend after which a run starts no further paid draft.
+export const MAX_RUN_USD = 0.5;
 export const MAX_OPEN_DRAFTS = 4;
 export const PREFIX = 'automation/blog-draft-';
 const DAY = 86400000;
@@ -200,6 +202,21 @@ export function localSaleTime(iso, timeZone) {
   } catch { return null; }
 }
 
+// Existing articles are context only. A cap on their combined size keeps
+// artists with many posts inside the input limit.
+const OVERLAP_TOTAL_CHARS = 12000;
+function boundedOverlap(docs) {
+  let left = OVERLAP_TOTAL_CHARS;
+  const out = [];
+  for (const d of docs) {
+    if (left <= 0) break;
+    const body = d.body.slice(0, Math.min(6500, left));
+    left -= body.length;
+    out.push({ file: d.file, title: d.title, body });
+  }
+  return out;
+}
+
 export function buildEvidence(selected, { now = Date.now(), snapshot }) {
   if (!/^[a-f0-9]{40}$/.test(snapshot || '')) fail('missing trusted source commit');
   const kind = selected.kind || 'options';
@@ -225,7 +242,7 @@ export function buildEvidence(selected, { now = Date.now(), snapshot }) {
     limitations: ['Repository verification is not a current external check.', 'Provider records are not live inventory, checkout totals or proof of production credentials.',
       ...(saleKind ? ['Sale and presale times are what Ticketmaster listed when checked. Organisers can change them; readers must confirm on the official event page.'] : []),
       'No codes, eligibility rules, cheapest claims, prices, scarcity or last-chance claims, tour branding or price predictions are authorised.'],
-    overlap: selected.overlap.map((d) => ({ file: d.file, title: d.title, body: d.body.slice(0, 6500) })) };
+    overlap: boundedOverlap(selected.overlap) };
 }
 
 // Discovery returns its own URL slug and, for affiliate-enabled keys, wraps the
@@ -380,14 +397,19 @@ export function checkArticle(markdown, selected, evidence, documents, now = Date
   const text = `${fm.title}\n${fm.description}\n${fm.summary}\n${body.replace(/\[[^\]]*\]\(([^)]+)\)/g, (m) => m.slice(0, m.indexOf('](') + 1))}`;
   // Aggressive fail-closed guard; rephrase even negated claims. Semantics are
   // also reviewed below and always remain a human editorial check.
-  if (/\b(?:cheapest|lowest.price|sold.out|selling.fast|guaranteed|available.now|tickets.are.available|on.sale.now|presale.code|eligibility|will.(?:rise|fall|drop)|we|our|us)\b|[£$€]\s*\d|\b\d+(?:\.\d+)?\s*%/i.test(text)) fail('unsupported factual/commercial claim or voice');
+  // First-person plural is matched case-sensitively so the country "US" is not
+  // mistaken for "us". The matched phrase is named so a rejection is diagnosable.
+  const banned = text.match(/\b(?:cheapest|lowest.price|sold.out|selling.fast|guaranteed|available.now|tickets.are.available|on.sale.now|presale.code|eligibility|will.(?:rise|fall|drop))\b|[£$€]\s*\d|\b\d+(?:\.\d+)?\s*%/i)
+    || text.match(/\b(?:[Ww]e|[Oo]ur|us)\b/);
+  if (banned) fail(`unsupported factual/commercial claim or voice ("${banned[0]}")`);
   if (SCARCITY.test(text)) fail('scarcity or last-chance claim');
   if (STOCK.test(text)) fail('stock or machine-sounding phrasing');
   if (/^#{2,3} [^\n]*\?\s*$/m.test(body)) fail('rhetorical question heading');
   const saleKind = ['presale', 'sale-upcoming', 'sale-recent'].includes(evidence.kind);
   if (!saleKind && /\b(?:presale|pre-sale|on-sale|onsale)\b/i.test(text)) fail('time-sensitive sale claims are outside this buying-guide pilot');
   const dates = [...text.matchAll(/\b\d{4}-\d{2}-\d{2}\b/g)].map((m) => m[0]);
-  if (dates.some((d) => !evidence.events.some((e) => e.date === d))) fail('unsupported event date');
+  const strayDate = dates.find((d) => !evidence.events.some((e) => e.date === d));
+  if (strayDate) fail(`unsupported event date (${strayDate})`);
   // Every other number must come from the evidence: names, event dates and the
   // supplied local sale-time strings. No counts, prices or derived times.
   const knownNames = [selected.artistName, ...evidence.events.flatMap((e) => [e.venue, e.city, ...(e.presales || []).map((w) => w.name)])].filter((name) => /\d/.test(name));
@@ -431,15 +453,20 @@ export async function generateArticle({ selected, evidence, documents, rules, cl
   const result = await client.request(SYSTEM, { task: 'draft', rules,
     brief: { title: selected.title, decision: selected.decision, commercialPurpose: selected.commercialPurpose }, evidence,
     date: new Date(now).toISOString().slice(0, 10),
-    format: `Return {"markdown": "..."}. Existing blog YAML: title <=70 chars, seo_title <=40, description 50–160 chars, summary, date, status: draft, tags: [tour-buying], related_artists: [supplied artist slug], related_guides: [allowed published guide slugs], sources: [{label,url}]. Include at least 350 useful words, normally 600–1000. No images/H1/HTML. Body links must use the allowed paths/URLs. Dates only ISO venue-local dates from evidence. ${SALE_FORMAT[evidence.kind] || SALE_FORMAT.options}${evidence.kind === 'tour' ? ' Tour guide: write for fans deciding which city and date to attend. Cover the supplied cities by region in a compact cited date table, say what differs between them only from the evidence, and close by inviting readers to compare listed prices for their date on TourTicketCompare through the artist board and price-guide links, so they find the best deal for themselves. Fan-first, warm and plain: no hype, no claims about the artist beyond the evidence.' : ''} No other numeric claims. Never state a price: where a /ticket-prices link is allowed, send readers there for listed resale snapshots with each site and its check time shown, and to the artist board for the ticket buttons. Do not use tour names, packages, seat/venue rules or provider policies absent from evidence. Explain useful differences between the supplied dates/cities and derived weekdays, with a compact cited date table if helpful, without inventing travel distances or venue features. Tie those differences to the reader decision, listing equivalence and a practical checklist. Do not merely restate generic buying guides. Cite event-specific facts inline by linking the exact source URL where the fact appears. Do not copy supplied articles. Voice: follow the blog voice rule in the content rules. Write as a plain-spoken person who has just checked these listings: answer the buying question in the first two sentences, then use the specific dates, venues and times; mixed sentence lengths; no stock phrases, no recap ending, no exclamation marks, no question headings.`,
+    format: `Return {"markdown": "..."}. Existing blog YAML: title <=70 chars, seo_title <=40, description 50–160 chars, summary, date, status: draft, tags: [tour-buying], related_artists: [supplied artist slug], related_guides: [allowed published guide slugs], sources: [{label,url}]. Include at least 350 useful words, normally 600–1000. No images/H1/HTML. Body links must use the allowed paths/URLs. Dates only ISO venue-local dates from evidence. ${SALE_FORMAT[evidence.kind] || SALE_FORMAT.options}${evidence.kind === 'tour' ? ' Tour guide: write for fans deciding which city and date to attend. Cover the supplied cities by region in a compact cited date table, say what differs between them only from the evidence, and close by inviting readers to compare listed prices for their date on TourTicketCompare through the artist board and price-guide links, so they find the best deal for themselves. Fan-first, warm and plain: no hype, no claims about the artist beyond the evidence. The evidence lists only the earliest verified date for each city: never write any other date, extra nights, a tour start or end date or a run length, and send readers to the artist board for every date.' : ''} No other numeric claims. Never state a price: where a /ticket-prices link is allowed, send readers there for listed resale snapshots with each site and its check time shown, and to the artist board for the ticket buttons. Do not use tour names, packages, seat/venue rules or provider policies absent from evidence. Explain useful differences between the supplied dates/cities and derived weekdays, with a compact cited date table if helpful, without inventing travel distances or venue features. Tie those differences to the reader decision, listing equivalence and a practical checklist. Do not merely restate generic buying guides. Cite event-specific facts inline by linking the exact source URL where the fact appears. Do not copy supplied articles. Voice: follow the blog voice rule in the content rules. Write as a plain-spoken person who has just checked these listings: answer the buying question in the first two sentences, then use the specific dates, venues and times; mixed sentence lengths; no stock phrases, no recap ending, no exclamation marks, no question headings.`,
     artistSlug: selected.artist }, OUTPUT_LIMITS[0]);
   if (!result || Object.keys(result).join(',') !== 'markdown') fail('invalid draft response shape');
-  const validation = checkArticle(result.markdown, selected, evidence, documents, now);
+  // A paid draft that fails a check is kept for inspection, never discarded.
+  let validation;
+  try { validation = checkArticle(result.markdown, selected, evidence, documents, now); }
+  catch (error) { error.rejectedMarkdown = result.markdown; throw error; }
   const review = await client.request(SYSTEM, { task: 'fact-check', rules, evidence, markdown: result.markdown,
     format: 'Return {"supported": boolean, "issues": [strings], "claims": [{"claim": string, "sourceUrl": string, "basis": "repository" or "current-ticketmaster-api"}]}. Audit EVERY material claim in title, summary, description and body including names, dates, venues/cities, status, schedules, policies, eligibility, packages, links, comparisons and unsupported predictions. Reject any unsupported assertion. Advice to check a listing is not an assertion about that listing. Source URLs must be in evidence. Current basis only for fields explicitly verified in external evidence. Never infer availability from API onsale. Review originality and decision usefulness. A supported verdict does not authorise publication.' }, OUTPUT_LIMITS[1]);
-  if (review?.supported !== true || !Array.isArray(review.issues) || review.issues.length || !Array.isArray(review.claims) || !review.claims.length) fail('evidence review rejected article or returned incomplete claim audit');
+  try {
+  if (review?.supported !== true || !Array.isArray(review.issues) || review.issues.length || !Array.isArray(review.claims) || !review.claims.length) fail(`evidence review rejected article or returned incomplete claim audit${Array.isArray(review?.issues) && review.issues.length ? `: ${review.issues.join('; ').slice(0, 400)}` : ''}`);
   if (review.claims.some((c) => !c || typeof c.claim !== 'string' || !c.claim.trim() || !evidence.events.some((e) => e.sourceUrl === c.sourceUrl
     && (c.basis === 'repository' || (c.basis === 'current-ticketmaster-api' && e.external?.kind === c.basis))))) fail('review contains invented verification or citation');
+  } catch (error) { error.rejectedMarkdown = result.markdown; throw error; }
   return { markdown: result.markdown, validation, review, usage: client.usage, model: MODEL,
     outstanding: ['Human: check every factual claim against cited pages, originality, search intent and practical value.',
       'Human: verify date/options overlap, current event status, comparison routes and affiliate operation before publication.',
@@ -476,15 +503,22 @@ export async function listEditorialPrs(gh) {
   fail('PR pagination exceeded safe limit');
 }
 
-export async function reserveTopic(gh, { slug, baseSha }) {
+export async function reserveTopic(gh, { slug, baseSha, retries = false }) {
   if (!SLUG_PATTERN.test(slug || '')) fail('invalid article slug');
   const branch = `${PREFIX}${slug}`;
-  try { await gh('GET', `/git/ref/heads/${branch}`); return null; }
-  catch (error) { if (error.status !== 404) throw error; }
-  // GitHub atomically creates a unique ref. Any collision/failure aborts before
-  // model spend. A failed paid draft keeps its branch, so it is never retried.
-  await gh('POST', '/git/refs', { ref: `refs/heads/${branch}`, sha: baseSha });
-  return branch;
+  // Named tour guides are an owner request, so a retained branch with no PR
+  // (an earlier failed run) may be followed by -2 and -3 attempts. Scheduled
+  // drafts never retry: a failed paid draft keeps its branch.
+  for (let attempt = 1; attempt <= (retries ? 3 : 1); attempt++) {
+    const name = attempt === 1 ? branch : `${branch}-${attempt}`;
+    try { await gh('GET', `/git/ref/heads/${name}`); continue; }
+    catch (error) { if (error.status !== 404) throw error; }
+    // GitHub atomically creates a unique ref. Any collision/failure aborts before
+    // model spend.
+    await gh('POST', '/git/refs', { ref: `refs/heads/${name}`, sha: baseSha });
+    return name;
+  }
+  return null;
 }
 
 export function prBody({ selected, issueNumber, repository, evidence, article, tests, mocked = false }) {

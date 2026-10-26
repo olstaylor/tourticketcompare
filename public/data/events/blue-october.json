@@ -186,25 +186,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7828052",
-        "url": "https://www.ticketnetwork.com/en/p/7828052",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7828052",
-        "url": "https://www.ticketliquidator.com/tickets/7828052/Blue-October-tickets-Sat-Oct-24-2026-Tulsa-Theater",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-V0_",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828052",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7828052/Blue-October-tickets-Sat-Oct-24-2026-Tulsa-Theater"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-blue-october-2026-wichita-z7r9jz1a7-v0p",

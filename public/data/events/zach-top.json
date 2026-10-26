@@ -111,28 +111,28 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8130219",
-        "url": "https://www.ticketliquidator.com/tickets/8130219/Zach-Top-tickets-Sat-Oct-24-2026-Walmart-AMP",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "8130219",
-        "url": "https://www.ticketnetwork.com/en/p/8130219",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_5UlWXBq",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8130219/Zach-Top-tickets-Sat-Oct-24-2026-Walmart-AMP",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "AEG - TICKETING"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8130219"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-zach-top-2026-duluth-vvg1zz_5pbvq93",

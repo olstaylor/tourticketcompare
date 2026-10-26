@@ -409,33 +409,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8164947",
-        "url": "https://www.ticketnetwork.com/en/p/8164947",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107460143",
-        "url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-24-2026/event/107460143",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8164947",
-        "url": "https://www.ticketliquidator.com/tickets/8164947/Jay-Z-tickets-Sat-Oct-24-2026-SoFi-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_GNtjqqM",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164947",
-    "stubhub_international_url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-24-2026/event/107460143",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164947/Jay-Z-tickets-Sat-Oct-24-2026-SoFi-Stadium",
+    "ticketnetwork_url": "",
+    "stubhub_international_url": "",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

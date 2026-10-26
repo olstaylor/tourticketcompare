@@ -1265,33 +1265,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8034309",
-        "url": "https://www.ticketnetwork.com/en/p/8034309",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8034309",
-        "url": "https://www.ticketliquidator.com/tickets/8034309/Malcolm-Todd-tickets-Sat-Oct-24-2026-Gallagher-Square-at-Petco-Park",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107554708",
-        "url": "https://www.stubhub.ie/malcolm-todd-san-diego-tickets-10-24-2026/event/107554708",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_GCicI-d",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034309",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034309/Malcolm-Todd-tickets-Sat-Oct-24-2026-Gallagher-Square-at-Petco-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-san-diego-tickets-10-24-2026/event/107554708",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

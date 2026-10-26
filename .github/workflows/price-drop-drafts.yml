@@ -1,0 +1,56 @@
+name: Price-drop drafts
+
+# Daily ready-to-post price-drop drafts for the owner (owner request 2026-10-26;
+# rules in scripts/lib/price-drop-posts.mjs, docs/OPERATIONS.md "Price-drop post
+# drafts"). Reads the daily price rollup from D1 for the stored top-priority
+# shows (SELECT only), and adds one comment to the rolling
+# `automation:price-drops` issue when there is a new drop. Posts nothing to any
+# social account and writes nothing to the repository or D1.
+#
+# 18:15 UTC, after show-priority (17:40) has refreshed the ranking it reads and
+# alongside the 18:00-21:00 resale syncs, which it does not need to queue behind
+# because it writes no event data. GitHub starts these evening crons late but in
+# order, so the day's snapshots are in by the time it runs.
+
+on:
+  schedule:
+    - cron: '15 18 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: price-drop-drafts
+  cancel-in-progress: false
+
+jobs:
+  drafts:
+    if: github.repository == 'olstaylor/tourticketcompare'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Self-test
+        run: |
+          node scripts/publish-price-drop-issue.mjs --self-test
+          npm run test:price-drops
+
+      - name: Draft price-drop posts
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/publish-price-drop-issue.mjs

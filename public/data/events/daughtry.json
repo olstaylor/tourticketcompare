@@ -631,25 +631,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8044153",
-        "url": "https://www.ticketnetwork.com/en/p/8044153",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8044153",
-        "url": "https://www.ticketliquidator.com/tickets/8044153/Daughtry-tickets-Sat-Oct-24-2026-Turfway-Park",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AOv0G6GJ3vrxt",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8044153",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8044153/Daughtry-tickets-Sat-Oct-24-2026-Turfway-Park"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-daughtry-2026-greensburg-z7r9jz1aazman",

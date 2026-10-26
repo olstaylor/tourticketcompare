@@ -4,7 +4,7 @@ seo_title: "Carly Rae Jepsen ticket prices by city"
 description: "Carly Rae Jepsen tour: the next date in 19 cities, $69 in Charlotte at the low end, $273.70 in Chicago at the high end."
 summary: "TicketNetwork's lowest listed price for the next Carly Rae Jepsen date in each of 19 cities, each figure with the time it was captured. Snapshots 26 October 2026."
 date: 2026-10-26
-status: draft
+status: published
 tags:
   - tour-data
 related_guides:

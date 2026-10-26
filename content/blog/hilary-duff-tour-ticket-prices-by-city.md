@@ -4,7 +4,7 @@ seo_title: "Hilary Duff tour ticket prices by city"
 description: "Hilary Duff tour: the next date in 19 cities, $56.35 in San Antonio at the low end, $193.20 in Uncasville at the high end."
 summary: "TicketNetwork's lowest listed price for the next Hilary Duff date in each of 19 cities, each figure with the time it was captured. Snapshots 26 October 2026."
 date: 2026-10-26
-status: draft
+status: published
 tags:
   - tour-data
 related_guides:

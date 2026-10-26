@@ -246,10 +246,16 @@ function actionsFromPayload(payload) {
   return [];
 }
 
+// Impact's Actions API rejects a bare date (HTTP 400, "invalid value") and
+// wants an ISO 8601 date-time such as 2026-09-11T00:00:00Z.
+export function impactActionDateParam(iso) {
+  return new Date(iso).toISOString().replace(/\.\d{3}Z$/, "Z");
+}
+
 async function fetchActionsChunk(credentials, chunk) {
   const params = new URLSearchParams({
-    ActionDateStart: chunk.start.slice(0, 10),
-    ActionDateEnd: chunk.end.slice(0, 10)
+    ActionDateStart: impactActionDateParam(chunk.start),
+    ActionDateEnd: impactActionDateParam(chunk.end)
   });
   const endpoint = `${credentials.apiBase}/Mediapartners/${encodeURIComponent(credentials.accountSid)}/Actions?${params.toString()}`;
   const response = await fetch(endpoint, {
@@ -650,6 +656,11 @@ function selfTest() {
 
   check(() => {
     assert.deepEqual(chunkDateWindow("2026-03-01T00:00:00.000Z", "2026-01-01T00:00:00.000Z"), []);
+  });
+
+  check(() => {
+    assert.equal(impactActionDateParam("2026-09-11T00:00:00.000Z"), "2026-09-11T00:00:00Z");
+    assert.match(impactActionDateParam("2026-10-26T15:31:02.123Z"), /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/);
   });
 
   check(() => {

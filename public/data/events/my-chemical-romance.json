@@ -601,11 +601,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "106964081",
-        "url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-24-2026/event/106964081",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZbS55zNJb",
@@ -613,7 +613,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-24-2026/event/106964081",
+    "stubhub_international_url": "",
     "organizer_names": [
       "ANDREW HEWITT & BILL SILVA PRESENTS",
       "LIVE NATION MUSIC"

@@ -520,11 +520,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107151242",
-        "url": "https://www.stubhub.ie/weezer-los-angeles-tickets-10-24-2026/event/107151242",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eYZ_kU9s8XI",
@@ -532,7 +532,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/weezer-los-angeles-tickets-10-24-2026/event/107151242",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

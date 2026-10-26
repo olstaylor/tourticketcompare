@@ -546,3 +546,30 @@ test('a paid draft that fails a check is kept and the stray date is named', asyn
   await assert.rejects(generateArticle({ selected: tour, evidence, documents: fixture.documents, rules: 'rules', client, now }),
     (error) => /unsupported event date \(2031-01-02\)/.test(error.message) && error.rejectedMarkdown.includes('2031-01-02'));
 });
+
+test('worst case: a 12-city guide with a 1,150-word draft and the real rules fits both model calls', async () => {
+  const slugs = [...new Set(fixture.events.map((e) => e.artist_slug))];
+  const tour = selectTourGuides(fixture, slugs, { now }).selected;
+  const evidence = buildEvidence(tour, { now, snapshot });
+  const template = evidence.events[0];
+  evidence.events = Array.from({ length: 12 }, (_, i) => ({ ...template, id: `e${i}`, city: `City ${i}`, venue: `Venue ${i}`, date: `2027-06-${String(i + 1).padStart(2, '0')}`,
+    sourceUrl: `${template.sourceUrl.replace(/\/?$/, '')}-${i}`, external: { kind: 'current-ticketmaster-api', checkedFields: ['name', 'date', 'venue', 'city', 'url', 'status'] } }));
+  evidence.overlap = Array.from({ length: 8 }, (_, i) => ({ file: `content/blog/${i}.md`, title: String(i), body: 'x'.repeat(9000) })).slice(0, 2);
+  evidence.overlap = [{ file: 'a', title: 'a', body: 'y'.repeat(6500) }, { file: 'b', title: 'b', body: 'y'.repeat(5500) }];
+  const rules = await readDraftRules();
+  const bodies = [];
+  const fetchImpl = async (_url, init) => {
+    const body = JSON.parse(init.body);
+    bodies.push(Buffer.byteLength(body.system + body.messages[0].content));
+    const task = JSON.parse(body.messages[0].content).task;
+    const out = task === 'draft'
+      ? { markdown: mockMarkdown({ evidence, artistSlug: tour.artist, date: new Date(now).toISOString().slice(0, 10) }) + ` ${'Check each listing against the exact event page before you decide. '.repeat(25)}\n` }
+      : { supported: true, issues: [], claims: [{ claim: 'x', sourceUrl: evidence.events[0].sourceUrl, basis: 'current-ticketmaster-api' }] };
+    return { ok: true, status: 200, json: async () => ({ stop_reason: 'end_turn', usage: { input_tokens: 1000, output_tokens: 1000 }, content: [{ type: 'text', text: JSON.stringify(out) }] }) };
+  };
+  const client = anthropicClient({ apiKey: 'sk-ant-test', fetchImpl });
+  const article = await generateArticle({ selected: tour, evidence, documents: fixture.documents, rules, client, now });
+  assert.equal(article.validation.status, 'draft');
+  assert.equal(bodies.length, 2);
+  assert(bodies.every((n) => n < 48000), `payload bytes ${bodies}`);
+});

@@ -460,9 +460,11 @@ export async function generateArticle({ selected, evidence, documents, rules, cl
   let validation;
   try { validation = checkArticle(result.markdown, selected, evidence, documents, now); }
   catch (error) { error.rejectedMarkdown = result.markdown; throw error; }
-  const review = await client.request(SYSTEM, { task: 'fact-check', rules, evidence, markdown: result.markdown,
+  // The fact-check needs the evidence and the draft only: the full content rules
+  // and the existing-article context would push a 12-city guide over the input cap.
+  let review;
+  try { review = await client.request(SYSTEM, { task: 'fact-check', evidence: { ...evidence, overlap: [] }, markdown: result.markdown,
     format: 'Return {"supported": boolean, "issues": [strings], "claims": [{"claim": string, "sourceUrl": string, "basis": "repository" or "current-ticketmaster-api"}]}. Audit EVERY material claim in title, summary, description and body including names, dates, venues/cities, status, schedules, policies, eligibility, packages, links, comparisons and unsupported predictions. Reject any unsupported assertion. Advice to check a listing is not an assertion about that listing. Source URLs must be in evidence. Current basis only for fields explicitly verified in external evidence. Never infer availability from API onsale. Review originality and decision usefulness. A supported verdict does not authorise publication.' }, OUTPUT_LIMITS[1]);
-  try {
   if (review?.supported !== true || !Array.isArray(review.issues) || review.issues.length || !Array.isArray(review.claims) || !review.claims.length) fail(`evidence review rejected article or returned incomplete claim audit${Array.isArray(review?.issues) && review.issues.length ? `: ${review.issues.join('; ').slice(0, 400)}` : ''}`);
   if (review.claims.some((c) => !c || typeof c.claim !== 'string' || !c.claim.trim() || !evidence.events.some((e) => e.sourceUrl === c.sourceUrl
     && (c.basis === 'repository' || (c.basis === 'current-ticketmaster-api' && e.external?.kind === c.basis))))) fail('review contains invented verification or citation');

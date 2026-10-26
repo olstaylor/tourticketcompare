@@ -5,6 +5,7 @@ description: "Sombr's tour in the United States: the lowest listed price for the
 summary: "Vivid Seats' lowest listed price for the next Sombr date in each of 19 cities, each figure with the time it was captured. Snapshots 23 October 2026."
 date: 2026-10-24
 status: published
+updated: 2026-10-26
 tags:
   - tour-data
 related_artists:
@@ -29,7 +30,7 @@ Sombr's You Are The Reason Tour has 42 dates that TourTicketCompare tracks. In t
 | [Pittsburgh](/artists/sombr/tickets/pittsburgh-united-states) | 12 November 2026 | PPG Paints Arena | $61 | Vivid Seats | 23 October, 20:40 UTC |
 | [Minneapolis](/artists/sombr/tickets/minneapolis-united-states) | 1 November 2026 | Target Center | $66 | Vivid Seats | 23 October, 20:40 UTC |
 | [Columbus](/artists/sombr/tickets/columbus-united-states) | 8 November 2026 | Nationwide Arena | $68 | Vivid Seats | 23 October, 20:40 UTC |
-| [Orlando](/artists/sombr/tickets/orlando-united-states) | 25 October 2026 | Kia Center | $75 | Vivid Seats | 23 October, 20:40 UTC |
+| [Orlando](/artists/sombr/tickets/orlando-united-states) | 25 October 2026 (has passed) | Kia Center | $75 | Vivid Seats | 23 October, 20:40 UTC |
 | [Cleveland](/artists/sombr/tickets/cleveland-united-states) | 13 November 2026 | Rocket Arena | $77 | Vivid Seats | 23 October, 20:40 UTC |
 | [Philadelphia](/artists/sombr/tickets/philadelphia-united-states) | 19 November 2026 | Xfinity Mobile Arena | $81 | Vivid Seats | 23 October, 20:40 UTC |
 | [Washington](/artists/sombr/tickets/washington-united-states) | 10 November 2026 | Capital One Arena | $84 | Vivid Seats | 23 October, 20:40 UTC |

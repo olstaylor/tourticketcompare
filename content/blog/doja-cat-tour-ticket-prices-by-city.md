@@ -5,6 +5,7 @@ description: "Doja Cat tour: the next date in 17 cities, $43.70 in Miami at the 
 summary: "TicketNetwork's lowest listed price for the next Doja Cat date in each of 17 cities, each figure with the time it was captured. Snapshots 23 October 2026."
 date: 2026-10-24
 status: published
+updated: 2026-10-26
 tags:
   - tour-data
 related_artists:
@@ -28,7 +29,7 @@ Doja Cat's Tour Ma Vie World Tour has 19 dates that TourTicketCompare tracks. In
 | [Washington](/artists/doja-cat/tickets/washington-united-states) | 21 November 2026 | Capital One Arena | $63.25 | TicketNetwork | 23 October, 19:15 UTC |
 | [Charlotte](/artists/doja-cat/tickets/charlotte-united-states) | 18 November 2026 | Spectrum Center | $67.85 | TicketNetwork | 23 October, 19:15 UTC |
 | [Tampa](/artists/doja-cat/tickets/tampa-united-states) | 13 November 2026 | Benchmark International Arena | $69 | TicketNetwork | 23 October, 19:15 UTC |
-| [San Francisco](/artists/doja-cat/tickets/san-francisco-united-states) | 25 October 2026 | Chase Center | $70.15 | TicketNetwork | 23 October, 19:15 UTC |
+| [San Francisco](/artists/doja-cat/tickets/san-francisco-united-states) | 25 October 2026 (has passed) | Chase Center | $70.15 | TicketNetwork | 23 October, 19:15 UTC |
 | [Phoenix](/artists/doja-cat/tickets/phoenix-united-states) | 29 October 2026 | Mortgage Matchup Center | $81.65 | TicketNetwork | 23 October, 19:15 UTC |
 | [Houston](/artists/doja-cat/tickets/houston-united-states) | 7 November 2026 | Toyota Center - TX | $88.55 | TicketNetwork | 23 October, 19:15 UTC |
 | [Atlanta](/artists/doja-cat/tickets/atlanta-united-states) | 17 November 2026 | State Farm Arena | $92 | TicketNetwork | 23 October, 19:15 UTC |

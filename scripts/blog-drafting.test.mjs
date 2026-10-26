@@ -121,6 +121,8 @@ test('named tour guides may follow a retained branch with a numbered one; schedu
   };
   assert.equal(await reserveTopic(gh, { slug: selected.slug, baseSha: snapshot }), null);
   assert.equal(await reserveTopic(gh, { slug: selected.slug, baseSha: snapshot, retries: true }), `automation/blog-draft-${selected.slug}-2`);
+  for (let i = 3; i <= 9; i++) taken.add(`automation/blog-draft-${selected.slug}-${i}`);
+  assert.equal(await reserveTopic(gh, { slug: selected.slug, baseSha: snapshot, retries: true }), null, 'attempts are bounded');
 });
 
 test('the country US is not first-person plural, and a rejection names the phrase', () => {

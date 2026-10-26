@@ -509,9 +509,9 @@ export async function reserveTopic(gh, { slug, baseSha, retries = false }) {
   if (!SLUG_PATTERN.test(slug || '')) fail('invalid article slug');
   const branch = `${PREFIX}${slug}`;
   // Named tour guides are an owner request, so a retained branch with no PR
-  // (an earlier failed run) may be followed by -2 and -3 attempts. Scheduled
+  // (an earlier failed run) may be followed by numbered (-2 to -9) attempts. Scheduled
   // drafts never retry: a failed paid draft keeps its branch.
-  for (let attempt = 1; attempt <= (retries ? 3 : 1); attempt++) {
+  for (let attempt = 1; attempt <= (retries ? 9 : 1); attempt++) {
     const name = attempt === 1 ? branch : `${branch}-${attempt}`;
     try { await gh('GET', `/git/ref/heads/${name}`); continue; }
     catch (error) { if (error.status !== 404) throw error; }

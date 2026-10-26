@@ -103,13 +103,16 @@ const PROVIDERS = {
   }
 };
 
-// Search URL shapes confirmed live on 2026-10-25 (each returned the named
-// artist's results). Providers not listed here, such as Vivid Seats and
-// StubHub International, have no search link until their format is confirmed.
+// Search URL shapes confirmed live (each returned the named artist's results):
+// TicketNetwork and Ticket Liquidator on 2026-10-25, Vivid Seats and StubHub
+// International on 2026-10-26 (StubHub goes to stubhub.ie, owner rule). A
+// provider not listed here has no search link until its format is confirmed.
 // Keep in sync with SEARCH_CHECK_PROVIDERS in functions/[[path]].js.
 const SEARCH_CHECK_URL_BUILDERS = {
   ticketnetwork: (name) => `https://www.ticketnetwork.com/results-general?kwds=${encodeURIComponent(name)}`,
-  "ticket-liquidator": (name) => `https://www.ticketliquidator.com/search?q=${encodeURIComponent(name)}`
+  "ticket-liquidator": (name) => `https://www.ticketliquidator.com/search?q=${encodeURIComponent(name)}`,
+  "vivid-seats": (name) => `https://www.vividseats.com/search?searchTerm=${encodeURIComponent(name)}`,
+  "stubhub-international": (name) => `https://www.stubhub.ie/find/s/?q=${encodeURIComponent(name)}`
 };
 
 function searchCheckLink(artistSlug, provider, artistName) {

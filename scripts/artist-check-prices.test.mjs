@@ -145,20 +145,22 @@ assert(checkLinks(heldPage.board).length === 0, "a cancelled date gets no check 
 // TicketNetwork and Ticket Liquidator add a search button each when enabled.
 const MARKETPLACE_ENV = {
   TICKETNETWORK_PUBLIC_ENABLED: "true", IMPACT_TICKETNETWORK_BASE_TRACKING_URL: "https://goto.ticketnetwork.com/c/1/2/3",
-  TICKETLIQUIDATOR_PUBLIC_ENABLED: "true", IMPACT_TICKETLIQUIDATOR_BASE_TRACKING_URL: "https://auhm.net/c/1/2/3"
+  TICKETLIQUIDATOR_PUBLIC_ENABLED: "true", IMPACT_TICKETLIQUIDATOR_BASE_TRACKING_URL: "https://auhm.net/c/1/2/3",
+  VIVIDSEATS_PUBLIC_ENABLED: "true", IMPACT_VIVIDSEATS_BASE_TRACKING_URL: "https://vivid-seats.pxf.io/c/1/2/3",
+  STUBHUB_INTERNATIONAL_PUBLIC_ENABLED: "true", IMPACT_STUBHUB_INTERNATIONAL_BASE_TRACKING_URL: "https://stubhub.sjv.io/c/1/2/3"
 };
 const multi = await render(`/artists/${withSg.slug}`, [UNMATCHED, MATCHED], MARKETPLACE_ENV);
 const [multiUnmatched, multiMatched] = cards(multi.board).sort((a, b) => (a.includes("fixture-unmatched") ? -1 : 1) - (b.includes("fixture-unmatched") ? -1 : 1));
 const multiLinks = checkLinks(multiUnmatched).map((href) => new URL(href, ORIGIN));
-assert(multiLinks.length === 3, "SeatGeek, TicketNetwork and Ticket Liquidator each get one button");
-assert(multiLinks.map((u) => u.searchParams.get("provider")).join() === "seatgeek,ticketnetwork,ticket-liquidator", "buttons are in a fixed order");
+assert(multiLinks.length === 5, "SeatGeek and each search provider get one button");
+assert(multiLinks.map((u) => u.searchParams.get("provider")).join() === "seatgeek,ticketnetwork,ticket-liquidator,vivid-seats,stubhub-international", "buttons are in a fixed order");
 for (const link of multiLinks.slice(1)) {
   assert(link.searchParams.get("linkType") === "search" && !link.searchParams.has("showId") && !link.searchParams.has("destinationUrl"), "a search button names no show and carries no destination");
 }
-assert(new RegExp(`a search for ${withSg.name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} on TicketNetwork and Ticket Liquidator, not this date`).test(multiUnmatched), "the note says it opens a search, not this date");
-assert(checkLinks(multiMatched).length === 2 && !/SeatGeek, /.test(multiMatched), "a matched SeatGeek date still gets the two search buttons but not SeatGeek's");
+assert(new RegExp(`a search for ${withSg.name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} on TicketNetwork, Ticket Liquidator, Vivid Seats and StubHub International, not this date`).test(multiUnmatched), "the note says it opens a search, not this date");
+assert(checkLinks(multiMatched).length === 4 && !/SeatGeek, /.test(multiMatched), "a matched SeatGeek date still gets the four search buttons but not SeatGeek's");
 const published = JSON.parse((multi.board.match(/data-artist-checks="([^"]*)"/)[1]).replace(/&quot;/g, '"').replace(/&amp;/g, "&"));
-assert(published.length === 3 && published.every((check) => check.href.startsWith("/api/out?")), "the board publishes all three links for hydration");
+assert(published.length === 5 && published.every((check) => check.href.startsWith("/api/out?")), "the board publishes all five links for hydration");
 
 // /api/out builds the search destination itself and wraps it with Impact.
 const outEnv = { ...MARKETPLACE_ENV, ASSETS: { fetch: async (req) => new URL(req.url).pathname === "/data/artists.json" ? Response.json(artistList) : new Response("nf", { status: 404 }) } };
@@ -170,10 +172,14 @@ assert(tnTarget.hostname === "goto.ticketnetwork.com", "it goes through the Impa
 assert(tnTarget.searchParams.get("u") === `https://www.ticketnetwork.com/results-general?kwds=${encodeURIComponent(withSg.name)}`, "the destination is the artist-name search on ticketnetwork.com");
 const tl = await search("ticket-liquidator");
 assert(tl.status === 302 && new URL(tl.headers.get("Location")).searchParams.get("u") === `https://www.ticketliquidator.com/search?q=${encodeURIComponent(withSg.name)}`, "Ticket Liquidator redirects to its artist-name search");
-// A caller cannot steer it: a supplied destination is ignored, other providers have no search link.
+// A caller cannot steer it: a supplied destination is ignored, SeatGeek has no search link.
 const steered = await search("ticketnetwork", "&destinationUrl=https%3A%2F%2Fwww.ticketnetwork.com%2Fother");
 assert(new URL(steered.headers.get("Location")).searchParams.get("u") === tnTarget.searchParams.get("u"), "a supplied destination does not change the search link");
-for (const provider of ["vivid-seats", "stubhub-international", "seatgeek"]) {
+const vs = await search("vivid-seats");
+assert(vs.status === 302 && new URL(vs.headers.get("Location")).searchParams.get("u") === `https://www.vividseats.com/search?searchTerm=${encodeURIComponent(withSg.name)}`, "Vivid Seats redirects to its artist-name search");
+const sh = await search("stubhub-international");
+assert(sh.status === 302 && new URL(sh.headers.get("Location")).searchParams.get("u") === `https://www.stubhub.ie/find/s/?q=${encodeURIComponent(withSg.name)}`, "StubHub International redirects to its stubhub.ie artist-name search");
+for (const provider of ["seatgeek"]) {
   assert((await search(provider)).status === 400, `no search link exists for ${provider}`);
 }
 assert((await outGet({ request: new Request(`${ORIGIN}/api/out?artistSlug=not-an-artist&provider=ticketnetwork&linkType=search`), env: outEnv })).status === 400, "an unknown artist gets no search link");

@@ -232,10 +232,15 @@ export function renderArtistCityPost(figures, existing = null) {
     ? `The tour also has dates in ${coverage.otherCountries.map((row) => `${countryName(row.country)} (${row.dates})`).join(", ")}. They are left out, because comparing across countries would mix markets and currencies.`
     : "";
 
+  // Search title budget: 60 characters including the " | TourTicketCompare" suffix.
+  const seoTitle = (name) => ["tour ticket prices by city", "ticket prices by city", "ticket prices"]
+    .map((tail) => `${name} ${tail}`)
+    .find((candidate) => candidate.length + " | TourTicketCompare".length <= 60) || `${name} ticket prices`;
+
   const front = [
     "---",
     `title: "${artist} tour tickets: listed prices city by city"`,
-    `seo_title: "${artist} tour ticket prices by city"`,
+    `seo_title: "${seoTitle(artist)}"`,
     `description: "${description(figures)}"`,
     `summary: "${possessive(siteLabel)} lowest listed price for the next ${artist} date in each of ${cities.length} cities, each figure with the time it was captured. Snapshots ${capturedSpan(figures)}."`,
     `date: ${date}`,

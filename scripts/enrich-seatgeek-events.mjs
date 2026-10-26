@@ -5,9 +5,11 @@
 // Adds event-level SeatGeek URLs to Ticketmaster-anchored events that are
 // missing one, on high-confidence matches only (see SAFE_PUBLISHING_RULES.md
 // "SeatGeek event CTAs"). Zero, weak, or ambiguous candidates never write.
-// Eligible: Ticketmaster-verified rows, and machine_high_confidence rows that
+// Eligible: Ticketmaster-verified rows, machine_high_confidence rows that
 // carry the same Ticketmaster identity (source, event id, https storefront
-// URL). needs_recheck rows (broken Ticketmaster storefront) stay excluded.
+// URL), and needs_recheck rows (broken Ticketmaster storefront) that still
+// carry the Ticketmaster source and event id: the recheck flag tracks the
+// storefront URL, not the event, and the SeatGeek matcher does not use it.
 //
 // Scheduling contract (this is what stops the run starving events):
 //
@@ -274,6 +276,10 @@ function eventHasTicketmasterAnchor(event) {
   return source === "ticketmaster" && Boolean(tmId) && /^https:\/\//i.test(tmUrl);
 }
 
+function eventHasTicketmasterIdentity(event) {
+  return clean(event.source_type).toLowerCase() === "ticketmaster" && Boolean(clean(event.ticketmaster_event_id));
+}
+
 function eventIsTicketmasterVerified(event) {
   return eventHasTicketmasterAnchor(event) && event.provider_links?.ticketmaster?.verified === true;
 }
@@ -283,7 +289,8 @@ function eventIsTicketmasterVerified(event) {
 // are unchanged; only which rows are offered to it widened.
 function eventIsEnrichmentEligible(event) {
   if (eventIsTicketmasterVerified(event)) return true;
-  return eventHasTicketmasterAnchor(event) && clean(event.verification_status).toLowerCase() === "machine_high_confidence";
+  if (eventHasTicketmasterAnchor(event) && clean(event.verification_status).toLowerCase() === "machine_high_confidence") return true;
+  return eventHasTicketmasterIdentity(event) && clean(event.verification_status).toLowerCase() === "needs_recheck";
 }
 
 async function resumeShowIdFromLog(logPath) {
@@ -1227,15 +1234,18 @@ function selfTest() {
   assert("past events are reported with a reason", pastRun.skipped.filter((row) => row.reason === "past_event").length === 2);
 
   // Eligibility: Ticketmaster-verified rows, plus machine_high_confidence rows
-  // that carry the Ticketmaster identity. needs_recheck and unanchored rows stay out.
+  // that carry the Ticketmaster identity, plus needs_recheck rows that keep the
+  // Ticketmaster source and event id. Rows with no Ticketmaster identity stay out.
   const pool = eligibleEvents([
     tmVerified("verified"),
     tmVerified("machine", { verification_status: "machine_high_confidence", provider_links: {} }),
     tmVerified("recheck", { verification_status: "needs_recheck", provider_links: {} }),
+    tmVerified("recheck-no-id", { verification_status: "needs_recheck", provider_links: {}, ticketmaster_event_id: "" }),
+    tmVerified("recheck-other-source", { verification_status: "needs_recheck", provider_links: {}, source_type: "manual" }),
     tmVerified("no-anchor", { verification_status: "machine_high_confidence", provider_links: {}, ticketmaster_url: "" }),
     tmVerified("other-source", { verification_status: "machine_high_confidence", provider_links: {}, source_type: "manual" })
   ], baseOptions, now).eligible.map((row) => row.event.id).sort().join(",");
-  assert("machine_high_confidence rows with a Ticketmaster identity are eligible; needs_recheck and unanchored rows are not", pool === "machine,verified");
+  assert("machine_high_confidence and needs_recheck rows with a Ticketmaster identity are eligible; unanchored rows are not", pool === "machine,recheck,verified");
   assert(
     "no attempt is ever built for a skipped past event",
     // The run loop only ever calls buildAttempts on eligible rows, so proving

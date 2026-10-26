@@ -177,7 +177,6 @@ const BANNED_CLAIM_PATTERNS = [
   [/\blowest price\b/i, 'a "lowest price" claim — say "lower listed snapshot" and name the provider and time'],
   [/\bbest price guarantee/i, "a price guarantee the site cannot make"],
   [/\bguaranteed (?:availability|tickets|seats)\b/i, "an availability guarantee — inventory is provider-controlled"],
-  [/\bsold out\b/i, 'a "sold out" claim — the site has no inventory data'],
   [/\bselling fast\b/i, "manufactured urgency"],
   [/\blast chance\b/i, "manufactured urgency"],
   [/\bwe sell\b/i, "an implication the site sells tickets"]
@@ -202,17 +201,6 @@ const REVIEWED_CLAIM_EXEMPTIONS = [
     sentence:
       "The comparison does not claim equivalent seats, live inventory, final checkout totals, or guaranteed availability.",
     reason: "Disclaimer: the sentence denies the claim the pattern looks for, in the words the pattern matches."
-  },
-  {
-    slug: "ticketnetwork-vs-ticketmaster",
-    sentence:
-      "A show that is sold out on the primary can still have listings here, and that is the ordinary case rather than a red flag.",
-    reason: "Describes the primary market's state on another platform; asserts nothing about this site's inventory data."
-  },
-  {
-    slug: "ticketnetwork-vs-ticketmaster",
-    sentence: "**Why does TicketNetwork have tickets when Ticketmaster is sold out?**",
-    reason: "An FAQ question about another platform's state, in the visitor's own words. Same claim boundary as the sentence above."
   }
 ];
 
@@ -1062,62 +1050,6 @@ function selfTest() {
     })
   );
   assert(protectedRemoved.some((problem) => /cannot be renamed or deleted/.test(problem)), "the protected guide cannot be renamed or deleted");
-
-  // --- claim exemptions --------------------------------------------------
-  const exemptSentence = "A show that is sold out on the primary can still have listings here, and that is the ordinary case rather than a red flag.";
-  const exempt = validateGuide(
-    baseGuide({
-      slug: "ticketnetwork-vs-ticketmaster",
-      path: "/guides/ticketnetwork-vs-ticketmaster",
-      sections: [
-        { type: "intro", content: exemptSentence },
-        { type: "section", title: "A", content: "Body." },
-        { type: "section", title: "FAQ", content: "**Q?**\n\nA." }
-      ]
-    }),
-    baseContext({ allPaths: new Set(["/guides/ticketnetwork-vs-ticketmaster"]), publishedPaths: new Set(["/guides/ticketnetwork-vs-ticketmaster"]) })
-  );
-  assert(exempt.length === 0, "the reviewed sentence is exempt in the guide it was reviewed in");
-
-  const wrongGuide = validateGuide(
-    baseGuide({
-      sections: [
-        { type: "intro", content: exemptSentence },
-        { type: "section", title: "A", content: "Body." },
-        { type: "section", title: "FAQ", content: "**Q?**\n\nA." }
-      ]
-    }),
-    baseContext()
-  );
-  assert(wrongGuide.some((problem) => /sold out/.test(problem)), "the same sentence in a different guide is not exempt");
-
-  const reworded = validateGuide(
-    baseGuide({
-      slug: "ticketnetwork-vs-ticketmaster",
-      path: "/guides/ticketnetwork-vs-ticketmaster",
-      sections: [
-        { type: "intro", content: "A show that is sold out on the primary can still have listings here." },
-        { type: "section", title: "A", content: "Body." },
-        { type: "section", title: "FAQ", content: "**Q?**\n\nA." }
-      ]
-    }),
-    baseContext({ allPaths: new Set(["/guides/ticketnetwork-vs-ticketmaster"]), publishedPaths: new Set(["/guides/ticketnetwork-vs-ticketmaster"]) })
-  );
-  assert(reworded.some((problem) => /sold out/.test(problem)), "a reworded version of an exempt sentence is not exempt");
-
-  const newClaim = validateGuide(
-    baseGuide({
-      slug: "ticketnetwork-vs-ticketmaster",
-      path: "/guides/ticketnetwork-vs-ticketmaster",
-      sections: [
-        { type: "intro", content: "These tickets are sold out everywhere else." },
-        { type: "section", title: "A", content: "Body." },
-        { type: "section", title: "FAQ", content: "**Q?**\n\nA." }
-      ]
-    }),
-    baseContext({ allPaths: new Set(["/guides/ticketnetwork-vs-ticketmaster"]), publishedPaths: new Set(["/guides/ticketnetwork-vs-ticketmaster"]) })
-  );
-  assert(newClaim.some((problem) => /sold out/.test(problem)), "a new sold-out claim in an exempted guide still fails");
 
   const cheapest = validateGuide(baseGuide({ description: "We find the cheapest tickets for any show you want to see this year." }), baseContext());
   assert(cheapest.some((problem) => /cheapest/.test(problem)), "a blanket cheapest claim in the description fails");

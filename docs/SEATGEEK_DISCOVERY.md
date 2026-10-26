@@ -91,7 +91,9 @@ Anything short of that is skipped (proposal: `needs_review` / `reject`) and left
 for human verification. The apply path only touches events that currently lack
 a valid `seatgeek_url` and are either Ticketmaster-verified or
 `machine_high_confidence` with a Ticketmaster identity (source, event id, https
-storefront URL); `needs_recheck` rows are excluded (owner-approved 2026-10-06).
+storefront URL), or `needs_recheck` with the Ticketmaster source and event id
+(owner-approved 2026-10-25; the flag tracks the broken storefront URL, not the
+event).
 
 ## Verification & standalone SeatGeek CTAs (`verify-seatgeek-events.mjs`)
 

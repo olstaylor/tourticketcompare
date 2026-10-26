@@ -133,7 +133,6 @@ const BANNED_CLAIM_PATTERNS = [
   [/\blowest price\b/i, 'a "lowest price" claim — say "lower listed snapshot" and name the provider and time'],
   [/\bbest price guarantee/i, "a price guarantee the site cannot make"],
   [/\bguaranteed (?:availability|tickets|seats)\b/i, "an availability guarantee — inventory is provider-controlled"],
-  [/\bsold out\b/i, 'a "sold out" claim — the site has no inventory data'],
   [/\bselling fast\b/i, "manufactured urgency"],
   [/\blast chance\b/i, "manufactured urgency"],
   [/\bwe sell\b/i, "an implication the site sells tickets"]

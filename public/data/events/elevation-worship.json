@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvwuS",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwuS",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/elevation-worship-tickets/spokane-washington-numerica-veterans-arena-2027-02-25-7-pm/concert/18723495",
     "vividseats_url": "https://www.vividseats.com/elevation-nights-tickets-spokane-numerica-veterans-arena-2-25-2027/production/7558876",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwuS",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18723495,
+        "url": "https://seatgeek.com/elevation-worship-tickets/spokane-washington-numerica-veterans-arena-2027-02-25-7-pm/concert/18723495",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7558876,

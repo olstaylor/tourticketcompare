@@ -349,7 +349,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvaxk",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvaxk",
-    "seatgeek_url": "https://seatgeek.com/fuerza-regida-tickets/bakersfield-california-dignity-health-arena-2026-10-25-8-pm/concert/18543019",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/fuerza-regida-tickets-bakersfield-dignity-health-arena-10-25-2026/production/7487798",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvaxk",
@@ -365,11 +365,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18543019,
-        "url": "https://seatgeek.com/fuerza-regida-tickets/bakersfield-california-dignity-health-arena-2026-10-25-8-pm/concert/18543019",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7487798,
@@ -440,7 +440,7 @@
         "event_id": 18553061,
         "url": "https://seatgeek.com/fuerza-regida-tickets/fresno-california-save-mart-center-2026-10-27-8-pm/concert/18553061",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -512,7 +512,7 @@
         "event_id": 18470197,
         "url": "https://seatgeek.com/fuerza-regida-tickets/fresno-california-save-mart-center-2026-10-28-8-30-pm/concert/18470197",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {

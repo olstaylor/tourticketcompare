@@ -1134,7 +1134,7 @@
     "tour_name": "You Are The Reason Tour",
     "ticketmaster_event_id": "2200648A8ADC2C92",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-orlando-florida-10-25-2026/event/2200648A8ADC2C92",
-    "seatgeek_url": "https://seatgeek.com/sombr-tickets/orlando-florida-kia-center-2026-10-25-7-pm/concert/18175580",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-orlando-kia-center-10-25-2026--concerts-alternative/production/6897905",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-orlando-florida-10-25-2026/event/2200648A8ADC2C92",
@@ -1150,11 +1150,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18175580,
-        "url": "https://seatgeek.com/sombr-tickets/orlando-florida-kia-center-2026-10-25-7-pm/concert/18175580",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6897905,
@@ -1233,7 +1233,7 @@
         "event_id": 18175581,
         "url": "https://seatgeek.com/sombr-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-10-27-7-30-pm/concert/18175581",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1305,7 +1305,7 @@
         "event_id": 18175584,
         "url": "https://seatgeek.com/sombr-tickets/nashville-tennessee-bridgestone-arena-2026-10-28-7-pm/concert/18175584",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1440,7 +1440,7 @@
         "event_id": 18175588,
         "url": "https://seatgeek.com/sombr-tickets/kansas-city-missouri-t-mobile-center-2026-10-31-7-pm/concert/18175588",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1519,7 +1519,7 @@
         "event_id": 18175591,
         "url": "https://seatgeek.com/sombr-tickets/minneapolis-minnesota-target-center-2026-11-01-7-pm/concert/18175591",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1603,7 +1603,7 @@
         "event_id": 18175592,
         "url": "https://seatgeek.com/sombr-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-03-7-pm/concert/18175592",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1770,7 +1770,7 @@
         "event_id": 18175596,
         "url": "https://seatgeek.com/sombr-tickets/indianapolis-indiana-gainbridge-fieldhouse-2026-11-06-7-pm/concert/18175596",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1936,7 +1936,7 @@
         "event_id": 18175600,
         "url": "https://seatgeek.com/sombr-tickets/columbus-ohio-nationwide-arena-2026-11-08-7-pm/concert/18175600",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2102,7 +2102,7 @@
         "event_id": 18175603,
         "url": "https://seatgeek.com/sombr-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-11-12-7-pm/concert/18175603",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {

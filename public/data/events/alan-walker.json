@@ -72,7 +72,7 @@
     "tour_name": "Legend of Atlantis Tour",
     "ticketmaster_event_id": "0C006528D83FB866",
     "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-irving-texas-01-22-2027/event/0C006528D83FB866",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/alan-walker-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2027-01-22-7-pm/concert/18591363",
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-irving-pavilion-at-toyota-music-factory-1-22-2027--concerts-dance-electronica/production/7554678",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-irving-texas-01-22-2027/event/0C006528D83FB866",
@@ -88,11 +88,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18591363,
+        "url": "https://seatgeek.com/alan-walker-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2027-01-22-7-pm/concert/18591363",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7554678,
@@ -159,7 +159,7 @@
     "tour_name": "Legend of Atlantis Tour",
     "ticketmaster_event_id": "3A006528D157D499",
     "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-houston-texas-01-23-2027/event/3A006528D157D499",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/alan-walker-tickets/houston-texas-713-music-hall-2027-01-23-7-pm/concert/18591361",
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-houston-713-music-hall-1-23-2027--concerts-dance-electronica/production/7554680",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-houston-texas-01-23-2027/event/3A006528D157D499",
@@ -175,11 +175,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18591361,
+        "url": "https://seatgeek.com/alan-walker-tickets/houston-texas-713-music-hall-2027-01-23-7-pm/concert/18591361",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7554680,
@@ -502,7 +502,7 @@
     "tour_name": "Legend of Atlantis Tour",
     "ticketmaster_event_id": "15006529C9FCAAD3",
     "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-washington-district-of-columbia-02-06-2027/event/15006529C9FCAAD3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/alan-walker-tickets/washington-district-of-columbia-the-anthem-dc-2027-02-06-8-pm/concert/18591378",
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-washington-dc-the-anthem-2-6-2027--concerts-dance-electronica/production/7554676",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-washington-district-of-columbia-02-06-2027/event/15006529C9FCAAD3",
@@ -518,11 +518,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18591378,
+        "url": "https://seatgeek.com/alan-walker-tickets/washington-district-of-columbia-the-anthem-dc-2027-02-06-8-pm/concert/18591378",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7554676,
@@ -602,11 +602,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18591283,
+        "url": "https://seatgeek.com/alan-walker-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2027-02-09-8-pm/concert/18591283",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7553129,
@@ -670,7 +670,7 @@
     "tour_name": "Legend of Atlantis Tour",
     "ticketmaster_event_id": "010065238D249734",
     "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-boston-massachusetts-02-10-2027/event/010065238D249734",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/alan-walker-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-02-10-7-pm/concert/18591763",
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-boston-mgm-music-hall-at-fenway-2-10-2027--concerts-dance-electronica/production/7554695",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-boston-massachusetts-02-10-2027/event/010065238D249734",
@@ -686,11 +686,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18591763,
+        "url": "https://seatgeek.com/alan-walker-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-02-10-7-pm/concert/18591763",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7554695,
@@ -895,7 +895,7 @@
     "tour_name": "Legend of Atlantis Tour",
     "ticketmaster_event_id": "31006523ABBD7874",
     "ticketmaster_url": "https://www.ticketmaster.ca/alan-walker-montreal-quebec-02-16-2027/event/31006523ABBD7874",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/alan-walker-tickets/montreal-canada-mtelus-2027-02-16-8-pm/concert/18590510",
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-montreal-mtelus-2-16-2027--concerts-dance-electronica/production/7554703",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alan-walker-montreal-quebec-02-16-2027/event/31006523ABBD7874",
@@ -911,11 +911,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18590510,
+        "url": "https://seatgeek.com/alan-walker-tickets/montreal-canada-mtelus-2027-02-16-8-pm/concert/18590510",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7554703,
@@ -1262,7 +1262,7 @@
         "event_id": 18595141,
         "url": "https://seatgeek.com/alan-walker-tickets/columbus-ohio-kemba-live-2027-02-24-8-pm/concert/18595141",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1391,7 +1391,7 @@
     "tour_name": "Legend of Atlantis Tour",
     "ticketmaster_event_id": "0400652330E20F3E",
     "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-chicago-illinois-02-26-2027/event/0400652330E20F3E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/alan-walker-tickets/chicago-illinois-byline-bank-aragon-ballroom-2027-02-26-6-pm/concert/18590319",
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-chicago-aragon-ballroom-2-26-2027--concerts-dance-electronica/production/7554699",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-chicago-illinois-02-26-2027/event/0400652330E20F3E",
@@ -1407,11 +1407,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18590319,
+        "url": "https://seatgeek.com/alan-walker-tickets/chicago-illinois-byline-bank-aragon-ballroom-2027-02-26-6-pm/concert/18590319",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7554699,
@@ -1502,7 +1502,7 @@
         "event_id": 18595143,
         "url": "https://seatgeek.com/alan-walker-tickets/seattle-washington-showbox-sodo-2027-03-03-8-pm/concert/18595143",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1571,7 +1571,7 @@
         "event_id": 18595145,
         "url": "https://seatgeek.com/alan-walker-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-03-04-8-pm/concert/18595145",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1700,11 +1700,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18684023,
+        "url": "https://seatgeek.com/alan-walker-tickets/montreal-canada-mtelus-2027-02-17-8-pm/concert/18684023",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7699411,

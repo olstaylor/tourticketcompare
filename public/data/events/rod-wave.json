@@ -437,7 +437,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "010064D0AF18F3E7",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-boston-massachusetts-10-25-2026/event/010064D0AF18F3E7",
-    "seatgeek_url": "https://seatgeek.com/rod-wave-tickets/boston-massachusetts-td-garden-2026-10-25-8-30-pm/concert/18320058",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-boston-td-garden-10-25-2026--concerts-rap-hip-hop/production/7185765",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-boston-massachusetts-10-25-2026/event/010064D0AF18F3E7",
@@ -453,11 +453,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18320058,
-        "url": "https://seatgeek.com/rod-wave-tickets/boston-massachusetts-td-garden-2026-10-25-8-30-pm/concert/18320058",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7185765,
@@ -536,7 +536,7 @@
         "event_id": 18320059,
         "url": "https://seatgeek.com/rod-wave-tickets/brooklyn-new-york-barclays-center-2026-10-27-8-30-pm/concert/18320059",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -783,7 +783,7 @@
         "event_id": 18414825,
         "url": "https://seatgeek.com/rod-wave-tickets/chicago-illinois-united-center-2026-11-01-8-pm/concert/18414825",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -870,7 +870,7 @@
         "event_id": 18320066,
         "url": "https://seatgeek.com/rod-wave-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-11-03-8-30-pm/concert/18320066",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -949,7 +949,7 @@
         "event_id": 18320065,
         "url": "https://seatgeek.com/rod-wave-tickets/columbia-south-carolina-colonial-life-arena-2026-11-06-8-30-pm/concert/18320065",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1028,7 +1028,7 @@
         "event_id": 18320069,
         "url": "https://seatgeek.com/rod-wave-tickets/orlando-florida-kia-center-2026-11-09-8-30-pm/concert/18320069",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1115,7 +1115,7 @@
         "event_id": 18414835,
         "url": "https://seatgeek.com/rod-wave-tickets/orlando-florida-kia-center-2026-11-10-8-pm/concert/18414835",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {

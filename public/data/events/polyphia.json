@@ -748,11 +748,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18536013,
+        "url": "https://seatgeek.com/polyphia-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-02-06-6-30-pm/concert/18536013",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7483184,
@@ -902,11 +902,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18536016,
+        "url": "https://seatgeek.com/polyphia-tickets/seattle-washington-paramount-theatre-wa-2027-02-17-7-30-pm/concert/18536016",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7484847,
@@ -986,11 +986,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18312320,
+        "url": "https://seatgeek.com/polyphia-tickets/salt-lake-city-utah-the-depot-salt-lake-city-2027-02-19-7-30-pm/concert/18312320",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7485681,
@@ -1812,11 +1812,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18312311,
+        "url": "https://seatgeek.com/polyphia-tickets/anaheim-california-house-of-blues-anaheim-2027-02-11-6-30-pm/concert/18312311",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1905,11 +1905,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18312310,
+        "url": "https://seatgeek.com/polyphia-tickets/san-francisco-california-the-masonic-san-francisco-2027-02-14-7-30-pm/concert/18312310",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2468,7 +2468,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "000064CCF0DFEBBF",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-brooklyn-new-york-03-06-2027/event/000064CCF0DFEBBF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/polyphia-tickets/brooklyn-new-york-brooklyn-paramount-2027-03-06-7-30-pm/concert/18312312",
     "vividseats_url": "https://www.vividseats.com/polyphia-tickets-brooklyn-brooklyn-paramount-3-6-2027/production/7486334",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-brooklyn-new-york-03-06-2027/event/000064CCF0DFEBBF",
@@ -2484,11 +2484,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18312312,
+        "url": "https://seatgeek.com/polyphia-tickets/brooklyn-new-york-brooklyn-paramount-2027-03-06-7-30-pm/concert/18312312",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7486334,

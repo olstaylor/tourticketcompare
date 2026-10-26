@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAea4M",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAea4M",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/brandi-carlile-tickets/portland-oregon-revolution-hall-portland-2026-11-05-8-pm/concert/18626682",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAea4M",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18626682,
+        "url": "https://seatgeek.com/brandi-carlile-tickets/portland-oregon-revolution-hall-portland-2026-11-05-8-pm/concert/18626682",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -223,7 +223,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAeajv",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeajv",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/brandi-carlile-tickets/milwaukee-wisconsin-pabst-theater-2026-11-14-8-pm/concert/18626684",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeajv",
@@ -239,11 +239,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18626684,
+        "url": "https://seatgeek.com/brandi-carlile-tickets/milwaukee-wisconsin-pabst-theater-2026-11-14-8-pm/concert/18626684",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -276,7 +276,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAeaje",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaje",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/brandi-carlile-tickets/milwaukee-wisconsin-pabst-theater-2026-11-15-8-pm/concert/18626686",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaje",
@@ -292,11 +292,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18626686,
+        "url": "https://seatgeek.com/brandi-carlile-tickets/milwaukee-wisconsin-pabst-theater-2026-11-15-8-pm/concert/18626686",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -345,11 +345,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18626663,
+        "url": "https://seatgeek.com/brandi-carlile-tickets/minneapolis-minnesota-state-theatre-minneapolis-2026-11-17-8-pm/concert/18626663",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -398,11 +398,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18626661,
+        "url": "https://seatgeek.com/brandi-carlile-tickets/minneapolis-minnesota-state-theatre-minneapolis-2026-11-18-8-pm/concert/18626661",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -451,11 +451,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18626665,
+        "url": "https://seatgeek.com/brandi-carlile-tickets/louisville-kentucky-louisville-palace-2026-11-20-8-pm/concert/18626665",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -504,11 +504,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18626671,
+        "url": "https://seatgeek.com/brandi-carlile-tickets/louisville-kentucky-louisville-palace-2026-11-21-8-pm/concert/18626671",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -557,11 +557,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18626672,
+        "url": "https://seatgeek.com/brandi-carlile-tickets/kansas-city-missouri-uptown-theater-kc-2026-11-22-8-pm/concert/18626672",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -610,11 +610,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18626674,
+        "url": "https://seatgeek.com/brandi-carlile-tickets/port-chester-new-york-the-capitol-theatre-port-chester-2026-12-15-8-pm/concert/18626674",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -663,11 +663,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18626676,
+        "url": "https://seatgeek.com/brandi-carlile-tickets/port-chester-new-york-the-capitol-theatre-port-chester-2026-12-16-8-pm/concert/18626676",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -716,11 +716,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18626680,
+        "url": "https://seatgeek.com/brandi-carlile-tickets/port-chester-new-york-the-capitol-theatre-port-chester-2026-12-17-8-pm/concert/18626680",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

@@ -405,7 +405,6 @@ export const OG_CARDS = {
   "/artists/olivia-rodrigo/tickets/sacramento-united-states": {"url":"/og/artists-olivia-rodrigo-tickets-sacramento-united-states.png","alt":"Tickets: Olivia Rodrigo in Sacramento"},
   "/artists/olivia-rodrigo/tickets/seattle-united-states": {"url":"/og/artists-olivia-rodrigo-tickets-seattle-united-states.png","alt":"Tickets: Olivia Rodrigo in Seattle"},
   "/artists/olivia-rodrigo/tickets/sunrise-united-states": {"url":"/og/artists-olivia-rodrigo-tickets-sunrise-united-states.png","alt":"Tickets: Olivia Rodrigo in Sunrise"},
-  "/artists/olivia-rodrigo/tickets/toronto-canada": {"url":"/og/artists-olivia-rodrigo-tickets-toronto-canada.png","alt":"Tickets: Olivia Rodrigo in Toronto"},
   "/artists/olivia-rodrigo/tickets/vancouver-canada": {"url":"/og/artists-olivia-rodrigo-tickets-vancouver-canada.png","alt":"Tickets: Olivia Rodrigo in Vancouver"},
   "/artists/passenger": {"url":"/og/artists-passenger.png","alt":"Tickets & tour dates: Passenger"},
   "/artists/passenger/ticket-prices": {"url":"/og/artists-passenger-ticket-prices.png","alt":"Ticket prices: Passenger"},

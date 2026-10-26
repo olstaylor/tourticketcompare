@@ -74,7 +74,7 @@
     "tour_name": "Hans Zimmer Live – The Next Level",
     "ticketmaster_event_id": "02006530A59BCBC2",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-newark-new-jersey-02-21-2027/event/02006530A59BCBC2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hans-zimmer-tickets/newark-new-jersey-prudential-center-2027-02-21-7-30-pm/concert/18601919",
     "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-newark-prudential-center-2-21-2027--concerts-classical/production/7569927",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-newark-new-jersey-02-21-2027/event/02006530A59BCBC2",
@@ -90,11 +90,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18601919,
+        "url": "https://seatgeek.com/hans-zimmer-tickets/newark-new-jersey-prudential-center-2027-02-21-7-30-pm/concert/18601919",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7569927,
@@ -161,7 +161,7 @@
     "tour_name": "Hans Zimmer Live – The Next Level",
     "ticketmaster_event_id": "300065309A7C2B70",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-philadelphia-pennsylvania-02-23-2027/event/300065309A7C2B70",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hans-zimmer-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2027-02-23-7-30-pm/concert/18601920",
     "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-philadelphia-xfinity-mobile-arena-2-23-2027--concerts-classical/production/7569931",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-philadelphia-pennsylvania-02-23-2027/event/300065309A7C2B70",
@@ -177,11 +177,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18601920,
+        "url": "https://seatgeek.com/hans-zimmer-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2027-02-23-7-30-pm/concert/18601920",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7569931,
@@ -248,7 +248,7 @@
     "tour_name": "Hans Zimmer Live – The Next Level",
     "ticketmaster_event_id": "01006529DCD008AF",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-boston-massachusetts-02-24-2027/event/01006529DCD008AF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hans-zimmer-tickets/boston-massachusetts-td-garden-2027-02-24-7-30-pm/concert/18601922",
     "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-boston-td-garden-2-24-2027--concerts-classical/production/7569936",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-boston-massachusetts-02-24-2027/event/01006529DCD008AF",
@@ -264,11 +264,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18601922,
+        "url": "https://seatgeek.com/hans-zimmer-tickets/boston-massachusetts-td-garden-2027-02-24-7-30-pm/concert/18601922",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7569936,
@@ -545,7 +545,7 @@
     "tour_name": "Hans Zimmer Live – The Next Level",
     "ticketmaster_event_id": "0800652C2147DE3D",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-detroit-michigan-03-03-2027/event/0800652C2147DE3D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hans-zimmer-tickets/detroit-michigan-little-caesars-arena-2027-03-03-7-30-pm/concert/18601918",
     "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-detroit-little-caesars-arena-3-3-2027--concerts-classical/production/7569940",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-detroit-michigan-03-03-2027/event/0800652C2147DE3D",
@@ -561,11 +561,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18601918,
+        "url": "https://seatgeek.com/hans-zimmer-tickets/detroit-michigan-little-caesars-arena-2027-03-03-7-30-pm/concert/18601918",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7569940,

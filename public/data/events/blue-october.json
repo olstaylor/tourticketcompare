@@ -218,7 +218,7 @@
     "tour_name": "The Foiled 20th Anniversary World Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7-V0p",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0p",
-    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/wichita-kansas-orpheum-theatre-wichita-2026-10-25-7-pm/concert/18147864",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0p",
@@ -234,11 +234,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18147864,
-        "url": "https://seatgeek.com/blue-october-tickets/wichita-kansas-orpheum-theatre-wichita-2026-10-25-7-pm/concert/18147864",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -359,7 +359,7 @@
         "event_id": 18141892,
         "url": "https://seatgeek.com/blue-october-tickets/grand-rapids-michigan-glc-live-at-20-monroe-2026-10-29-7-pm/concert/18141892",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -431,7 +431,7 @@
         "event_id": 18141081,
         "url": "https://seatgeek.com/blue-october-tickets/detroit-michigan-the-fillmore-detroit-2026-10-30-7-pm/concert/18141081",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -510,7 +510,7 @@
         "event_id": 18141400,
         "url": "https://seatgeek.com/blue-october-tickets/toronto-canada-the-danforth-music-hall-2026-10-31-7-pm/concert/18141400",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -647,7 +647,7 @@
         "event_id": 18140945,
         "url": "https://seatgeek.com/blue-october-tickets/portland-maine-state-theatre-portland-me-2026-11-03-8-pm/concert/18140945",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -907,7 +907,7 @@
         "event_id": 18141852,
         "url": "https://seatgeek.com/blue-october-tickets/nashville-indiana-brown-county-music-center-2026-11-08-7-30-pm/concert/18141852",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1032,7 +1032,7 @@
         "event_id": 18141374,
         "url": "https://seatgeek.com/blue-october-tickets/red-bank-new-jersey-hackensack-meridian-health-theatre-at-count-basie-center-2026-11-12-8-pm/concert/18141374",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2398,7 +2398,7 @@
     "tour_name": "The Foiled 20th Anniversary World Tour",
     "ticketmaster_event_id": "3A006472EBBE0F2C",
     "ticketmaster_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-houston-texas-12-18-2026/event/3A006472EBBE0F2C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/houston-texas-713-music-hall-2026-12-18-8-pm/concert/18141897",
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-houston-713-music-hall-12-18-2026--concerts-rock/production/6823304",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-houston-texas-12-18-2026/event/3A006472EBBE0F2C",
@@ -2414,11 +2414,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18141897,
+        "url": "https://seatgeek.com/blue-october-tickets/houston-texas-713-music-hall-2026-12-18-8-pm/concert/18141897",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6823304,
@@ -2478,7 +2478,7 @@
     "tour_name": "The Foiled 20th Anniversary World Tour",
     "ticketmaster_event_id": "3A006472EBC20F31",
     "ticketmaster_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-houston-texas-12-19-2026/event/3A006472EBC20F31",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/houston-texas-713-music-hall-2026-12-19-8-pm/concert/18141898",
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-houston-713-music-hall-12-19-2026--concerts-rock/production/6823310",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-houston-texas-12-19-2026/event/3A006472EBC20F31",
@@ -2494,11 +2494,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18141898,
+        "url": "https://seatgeek.com/blue-october-tickets/houston-texas-713-music-hall-2026-12-19-8-pm/concert/18141898",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6823310,
@@ -2558,7 +2558,7 @@
     "tour_name": "The Foiled 20th Anniversary World Tour",
     "ticketmaster_event_id": "3A0064ACC55FD9C3",
     "ticketmaster_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-houston-texas-12-20-2026/event/3A0064ACC55FD9C3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/houston-texas-713-music-hall-2026-12-20-8-pm/concert/18248695",
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-houston-713-music-hall-12-20-2026/production/7037148",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-houston-texas-12-20-2026/event/3A0064ACC55FD9C3",
@@ -2574,11 +2574,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18248695,
+        "url": "https://seatgeek.com/blue-october-tickets/houston-texas-713-music-hall-2026-12-20-8-pm/concert/18248695",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7037148,
@@ -2996,11 +2996,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18239522,
+        "url": "https://seatgeek.com/blue-october-tickets/phoenix-arizona-the-van-buren-2027-02-06-8-pm/concert/18239522",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7022740,
@@ -3075,11 +3075,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18238353,
+        "url": "https://seatgeek.com/blue-october-tickets/los-angeles-california-the-wiltern-2027-02-07-7-pm/concert/18238353",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7022438,
@@ -3260,7 +3260,7 @@
     "tour_name": "The Foiled 20th Anniversary World Tour",
     "ticketmaster_event_id": "170064A5A535D62D",
     "ticketmaster_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-las-vegas-nevada-02-13-2027/event/170064A5A535D62D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/las-vegas-nevada-brooklyn-bowl-las-vegas-2027-02-13-7-pm/concert/18239352",
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-las-vegas-brooklyn-bowl---las-vegas-2-13-2027/production/7023410",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-las-vegas-nevada-02-13-2027/event/170064A5A535D62D",
@@ -3276,11 +3276,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18239352,
+        "url": "https://seatgeek.com/blue-october-tickets/las-vegas-nevada-brooklyn-bowl-las-vegas-2027-02-13-7-pm/concert/18239352",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7023410,
@@ -3501,11 +3501,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18261216,
+        "url": "https://seatgeek.com/blue-october-tickets/sacramento-channel-24-sacramento-2027-02-19-8-pm/concert/18261216",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7064297,
@@ -3573,11 +3573,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18239942,
+        "url": "https://seatgeek.com/blue-october-tickets/sacramento-channel-24-sacramento-2027-02-20-8-pm/concert/18239942",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7023376,
@@ -3925,7 +3925,7 @@
         "event_id": 18704137,
         "url": "https://seatgeek.com/blue-october-tickets/portland-oregon-roseland-theater-2027-02-27-8-pm/concert/18704137",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {

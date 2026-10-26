@@ -424,7 +424,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0800650CC36572A2",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-detroit-michigan-10-25-2026/event/0800650CC36572A2",
-    "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/detroit-michigan-little-caesars-arena-2026-10-25-7-30-pm/concert/18503885",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-detroit-little-caesars-arena-10-25-2026--concerts-pop/production/7446260",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-detroit-michigan-10-25-2026/event/0800650CC36572A2",
@@ -440,11 +440,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18503885,
-        "url": "https://seatgeek.com/jonas-brothers-tickets/detroit-michigan-little-caesars-arena-2026-10-25-7-30-pm/concert/18503885",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7446260,
@@ -595,7 +595,7 @@
         "event_id": 18503891,
         "url": "https://seatgeek.com/jonas-brothers-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-01-7-30-pm/concert/18503891",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -747,7 +747,7 @@
         "event_id": 18503893,
         "url": "https://seatgeek.com/jonas-brothers-tickets/kansas-city-missouri-t-mobile-center-2026-11-03-7-30-pm/concert/18503893",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -826,7 +826,7 @@
         "event_id": 18503892,
         "url": "https://seatgeek.com/jonas-brothers-tickets/nashville-tennessee-bridgestone-arena-2026-11-05-7-30-pm/concert/18503892",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1057,7 +1057,7 @@
         "event_id": 18503896,
         "url": "https://seatgeek.com/jonas-brothers-tickets/oklahoma-city-oklahoma-paycom-center-2026-11-09-7-30-pm/concert/18503896",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2802,7 +2802,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0200650E11422CE2",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-newark-new-jersey-12-22-2026/event/0200650E11422CE2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/newark-new-jersey-prudential-center-2026-12-22-7-30-pm/concert/18532484",
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-newark-prudential-center-12-22-2026/production/7480311",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-newark-new-jersey-12-22-2026/event/0200650E11422CE2",
@@ -2818,11 +2818,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18532484,
+        "url": "https://seatgeek.com/jonas-brothers-tickets/newark-new-jersey-prudential-center-2026-12-22-7-30-pm/concert/18532484",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7480311,

@@ -1290,7 +1290,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70EfV",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EfV",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/don-omar-tickets/salt-lake-city-utah-delta-center-1-2026-11-01-8-pm/concert/18240069",
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-salt-lake-city-delta-center-11-1-2026/production/7047578",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EfV",
@@ -1306,11 +1306,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18240069,
+        "url": "https://seatgeek.com/don-omar-tickets/salt-lake-city-utah-delta-center-1-2026-11-01-8-pm/concert/18240069",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047578,
@@ -1665,7 +1665,7 @@
     "tour_name": "The Last King World Tour",
     "ticketmaster_event_id": "1C0064D2B152E93A",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-sacramento-california-02-05-2027/event/1C0064D2B152E93A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/don-omar-tickets/sacramento-california-golden-1-center-2027-02-05-8-pm/concert/18326389",
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-sacramento-golden-1-center-2-5-2027/production/7198548",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-sacramento-california-02-05-2027/event/1C0064D2B152E93A",
@@ -1681,11 +1681,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18326389,
+        "url": "https://seatgeek.com/don-omar-tickets/sacramento-california-golden-1-center-2027-02-05-8-pm/concert/18326389",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7198548,
@@ -1752,7 +1752,7 @@
     "tour_name": "The Last King World Tour",
     "ticketmaster_event_id": "0F0064D566E22386",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-seattle-washington-02-07-2027/event/0F0064D566E22386",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/don-omar-tickets/seattle-washington-climate-pledge-arena-2027-02-07-8-pm/concert/18325125",
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-seattle-climate-pledge-arena-2-7-2027/production/7198538",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-seattle-washington-02-07-2027/event/0F0064D566E22386",
@@ -1768,11 +1768,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18325125,
+        "url": "https://seatgeek.com/don-omar-tickets/seattle-washington-climate-pledge-arena-2027-02-07-8-pm/concert/18325125",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7198538,
@@ -1908,7 +1908,7 @@
     "tour_name": "The Last King World Tour",
     "ticketmaster_event_id": "1C0064D2C6132CC4",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-fresno-california-02-11-2027/event/1C0064D2C6132CC4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/don-omar-tickets/fresno-california-save-mart-center-2027-02-11-8-pm/concert/18325133",
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-fresno-save-mart-center-2-11-2027/production/7198544",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-fresno-california-02-11-2027/event/1C0064D2C6132CC4",
@@ -1924,11 +1924,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18325133,
+        "url": "https://seatgeek.com/don-omar-tickets/fresno-california-save-mart-center-2027-02-11-8-pm/concert/18325133",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7198544,
@@ -1995,7 +1995,7 @@
     "tour_name": "The Last King World Tour",
     "ticketmaster_event_id": "090064D3C948DAD2",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-inglewood-california-02-12-2027/event/090064D3C948DAD2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/don-omar-tickets/inglewood-california-intuit-dome-2027-02-12-8-pm/concert/18326622",
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-inglewood-intuit-dome-2-12-2027/production/7198550",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-inglewood-california-02-12-2027/event/090064D3C948DAD2",
@@ -2011,11 +2011,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18326622,
+        "url": "https://seatgeek.com/don-omar-tickets/inglewood-california-intuit-dome-2027-02-12-8-pm/concert/18326622",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7198550,
@@ -2161,11 +2161,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18325136,
+        "url": "https://seatgeek.com/don-omar-tickets/montreal-canada-centre-bell-2027-02-21-8-pm/concert/18325136",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7198935,
@@ -2224,7 +2224,7 @@
     "tour_name": "The Last King World Tour",
     "ticketmaster_event_id": "040064D2F74DED5B",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-rosemont-illinois-02-26-2027/event/040064D2F74DED5B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/don-omar-tickets/rosemont-illinois-allstate-arena-2027-02-26-8-pm/concert/18325237",
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-rosemont-allstate-arena-2-26-2027/production/7198546",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-rosemont-illinois-02-26-2027/event/040064D2F74DED5B",
@@ -2240,11 +2240,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18325237,
+        "url": "https://seatgeek.com/don-omar-tickets/rosemont-illinois-allstate-arena-2027-02-26-8-pm/concert/18325237",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7198546,
@@ -2374,7 +2374,7 @@
     "tour_name": "The Last King World Tour",
     "ticketmaster_event_id": "020064D2FE182E30",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-newark-new-jersey-03-03-2027/event/020064D2FE182E30",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/don-omar-tickets/newark-new-jersey-prudential-center-2027-03-03-8-pm/concert/18325178",
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-newark-prudential-center-3-3-2027/production/7198530",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-newark-new-jersey-03-03-2027/event/020064D2FE182E30",
@@ -2390,11 +2390,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18325178,
+        "url": "https://seatgeek.com/don-omar-tickets/newark-new-jersey-prudential-center-2027-03-03-8-pm/concert/18325178",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7198530,

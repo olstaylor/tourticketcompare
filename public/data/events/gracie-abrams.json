@@ -620,7 +620,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "090064BBE484EE0D",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-18-2026/event/090064BBE484EE0D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/inglewood-california-kia-forum-2026-12-18-8-pm/concert/18270524",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-18-2026--concerts-alternative/production/7091535",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-18-2026/event/090064BBE484EE0D",
@@ -636,11 +636,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270524,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/inglewood-california-kia-forum-2026-12-18-8-pm/concert/18270524",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091535,
@@ -707,7 +707,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "090064BBE48FEE25",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-19-2026/event/090064BBE48FEE25",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/inglewood-california-kia-forum-2026-12-19-8-pm/concert/18270527",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-19-2026--concerts-alternative/production/7091539",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-19-2026/event/090064BBE48FEE25",
@@ -723,11 +723,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270527,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/inglewood-california-kia-forum-2026-12-19-8-pm/concert/18270527",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091539,
@@ -794,7 +794,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "090064BBE49DEE4D",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-20-2026/event/090064BBE49DEE4D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/inglewood-california-kia-forum-2026-12-20-8-pm/concert/18270529",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-20-2026--concerts-alternative/production/7091543",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-20-2026/event/090064BBE49DEE4D",
@@ -810,11 +810,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270529,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/inglewood-california-kia-forum-2026-12-20-8-pm/concert/18270529",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091543,
@@ -881,7 +881,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "0F0064AEAA9AA408",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-26-2027/event/0F0064AEAA9AA408",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/seattle-washington-climate-pledge-arena-2027-01-26-8-pm/concert/18270533",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-seattle-climate-pledge-arena-1-26-2027--concerts-alternative/production/7091546",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-26-2027/event/0F0064AEAA9AA408",
@@ -897,11 +897,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270533,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/seattle-washington-climate-pledge-arena-2027-01-26-8-pm/concert/18270533",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091546,
@@ -968,7 +968,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "0F0064BBF94F49AA",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-27-2027/event/0F0064BBF94F49AA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/seattle-washington-climate-pledge-arena-2027-01-27-8-pm/concert/18270531",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-seattle-climate-pledge-arena-1-27-2027--concerts-alternative/production/7091550",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-27-2027/event/0F0064BBF94F49AA",
@@ -984,11 +984,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270531,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/seattle-washington-climate-pledge-arena-2027-01-27-8-pm/concert/18270531",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091550,
@@ -1055,7 +1055,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "0F0064BBF95C49C8",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-29-2027/event/0F0064BBF95C49C8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/seattle-washington-climate-pledge-arena-2027-01-29-8-pm/concert/18270535",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-seattle-climate-pledge-arena-1-29-2027--concerts-alternative/production/7091554",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-29-2027/event/0F0064BBF95C49C8",
@@ -1071,11 +1071,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270535,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/seattle-washington-climate-pledge-arena-2027-01-29-8-pm/concert/18270535",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091554,
@@ -1142,7 +1142,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "0F0064AEB974BB75",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-portland-oregon-01-31-2027/event/0F0064AEB974BB75",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/portland-oregon-moda-center-2027-01-31-8-pm/concert/18270537",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-portland-moda-center-1-31-2027--concerts-alternative/production/7091557",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-portland-oregon-01-31-2027/event/0F0064AEB974BB75",
@@ -1158,11 +1158,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270537,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/portland-oregon-moda-center-2027-01-31-8-pm/concert/18270537",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091557,
@@ -1229,7 +1229,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "0F0064AEB977BB7B",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-portland-oregon-02-01-2027/event/0F0064AEB977BB7B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/portland-oregon-moda-center-2027-02-01-8-pm/concert/18270540",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-portland-moda-center-2-1-2027--concerts-alternative/production/7091559",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-portland-oregon-02-01-2027/event/0F0064AEB977BB7B",
@@ -1245,11 +1245,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270540,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/portland-oregon-moda-center-2027-02-01-8-pm/concert/18270540",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091559,
@@ -1316,7 +1316,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "040064970383E8B6",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-chicago-illinois-02-11-2027/event/040064970383E8B6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/chicago-illinois-united-center-2027-02-11-8-pm/concert/18270541",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-chicago-united-center-2-11-2027--concerts-alternative/production/7091486",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-chicago-illinois-02-11-2027/event/040064970383E8B6",
@@ -1332,11 +1332,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270541,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/chicago-illinois-united-center-2027-02-11-8-pm/concert/18270541",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091486,
@@ -1403,7 +1403,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "040064BBFB87B15B",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-chicago-illinois-02-12-2027/event/040064BBFB87B15B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/chicago-illinois-united-center-2027-02-12-8-pm/concert/18270544",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-chicago-united-center-2-12-2027--concerts-alternative/production/7091483",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-chicago-illinois-02-12-2027/event/040064BBFB87B15B",
@@ -1419,11 +1419,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270544,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/chicago-illinois-united-center-2027-02-12-8-pm/concert/18270544",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091483,
@@ -1490,7 +1490,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "1B0064B2A09F92BD",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-nashville-tennessee-02-14-2027/event/1B0064B2A09F92BD",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/nashville-tennessee-bridgestone-arena-2027-02-14-8-pm/concert/18270545",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-nashville-bridgestone-arena-2-14-2027--concerts-alternative/production/7091489",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-nashville-tennessee-02-14-2027/event/1B0064B2A09F92BD",
@@ -1506,11 +1506,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270545,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/nashville-tennessee-bridgestone-arena-2027-02-14-8-pm/concert/18270545",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091489,
@@ -1577,7 +1577,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "1B0064BBCCD04785",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-nashville-tennessee-02-15-2027/event/1B0064BBCCD04785",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/nashville-tennessee-bridgestone-arena-2027-02-15-8-pm/concert/18270546",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-nashville-bridgestone-arena-2-15-2027--concerts-alternative/production/7091493",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-nashville-tennessee-02-15-2027/event/1B0064BBCCD04785",
@@ -1593,11 +1593,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270546,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/nashville-tennessee-bridgestone-arena-2027-02-15-8-pm/concert/18270546",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091493,
@@ -1792,7 +1792,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "0E0064BA9D9E8164",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-atlanta-georgia-02-23-2027/event/0E0064BA9D9E8164",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/atlanta-georgia-state-farm-arena-1-2027-02-23-8-pm/concert/18270553",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-atlanta-state-farm-arena-2-23-2027--concerts-alternative/production/7091569",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-atlanta-georgia-02-23-2027/event/0E0064BA9D9E8164",
@@ -1808,11 +1808,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270553,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/atlanta-georgia-state-farm-arena-1-2027-02-23-8-pm/concert/18270553",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091569,
@@ -1879,7 +1879,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "0E0064BA9DA2816C",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-atlanta-georgia-02-24-2027/event/0E0064BA9DA2816C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/atlanta-georgia-state-farm-arena-1-2027-02-24-8-pm/concert/18270554",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-atlanta-state-farm-arena-2-24-2027--concerts-alternative/production/7091571",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-atlanta-georgia-02-24-2027/event/0E0064BA9DA2816C",
@@ -1895,11 +1895,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270554,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/atlanta-georgia-state-farm-arena-1-2027-02-24-8-pm/concert/18270554",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091571,
@@ -1966,7 +1966,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "2D00649BA4C9FC8D",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-charlotte-north-carolina-02-26-2027/event/2D00649BA4C9FC8D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-02-26-8-pm/concert/18270558",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-charlotte-spectrum-center-2-26-2027--concerts-alternative/production/7091573",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-charlotte-north-carolina-02-26-2027/event/2D00649BA4C9FC8D",
@@ -1982,11 +1982,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270558,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-02-26-8-pm/concert/18270558",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091573,
@@ -2053,7 +2053,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "2D0064BBF9018C34",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-charlotte-north-carolina-02-27-2027/event/2D0064BBF9018C34",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-02-27-8-pm/concert/18270559",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-charlotte-spectrum-center-2-27-2027--concerts-alternative/production/7091579",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-charlotte-north-carolina-02-27-2027/event/2D0064BBF9018C34",
@@ -2069,11 +2069,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270559,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-02-27-8-pm/concert/18270559",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091579,
@@ -2140,7 +2140,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "0100649CA566E8DF",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-boston-massachusetts-03-01-2027/event/0100649CA566E8DF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/boston-massachusetts-td-garden-2027-03-01-8-pm/concert/18270560",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-boston-td-garden-3-1-2027--concerts-alternative/production/7091585",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-boston-massachusetts-03-01-2027/event/0100649CA566E8DF",
@@ -2156,11 +2156,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270560,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/boston-massachusetts-td-garden-2027-03-01-8-pm/concert/18270560",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091585,
@@ -2227,7 +2227,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "010064BBCD30F3BA",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-boston-massachusetts-03-02-2027/event/010064BBCD30F3BA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/boston-massachusetts-td-garden-2027-03-02-8-pm/concert/18270564",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-boston-td-garden-3-2-2027--concerts-alternative/production/7091587",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-boston-massachusetts-03-02-2027/event/010064BBCD30F3BA",
@@ -2243,11 +2243,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270564,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/boston-massachusetts-td-garden-2027-03-02-8-pm/concert/18270564",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091587,
@@ -2314,7 +2314,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "1500649CD409C9DA",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-washington-district-of-columbia-03-04-2027/event/1500649CD409C9DA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/washington-district-of-columbia-capital-one-arena-2027-03-04-8-pm/concert/18270566",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-washington-capital-one-arena-3-4-2027--concerts-alternative/production/7091591",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-washington-district-of-columbia-03-04-2027/event/1500649CD409C9DA",
@@ -2330,11 +2330,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270566,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/washington-district-of-columbia-capital-one-arena-2027-03-04-8-pm/concert/18270566",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091591,

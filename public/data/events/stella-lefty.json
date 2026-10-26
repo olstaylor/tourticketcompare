@@ -290,7 +290,7 @@
         "event_id": 18252621,
         "url": "https://seatgeek.com/stella-lefty-tickets/dallas-texas-cambridge-room-at-house-of-blues-dallas-1-2026-11-06-7-pm/concert/18252621",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -362,7 +362,7 @@
         "event_id": 18252613,
         "url": "https://seatgeek.com/stella-lefty-tickets/houston-texas-the-bronze-peacock-at-house-of-blues-houston-2026-11-07-7-pm/concert/18252613",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -434,7 +434,7 @@
         "event_id": 18251775,
         "url": "https://seatgeek.com/stella-lefty-tickets/atlanta-georgia-the-masquerade-hell-2026-11-10-7-pm/concert/18251775",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -487,7 +487,7 @@
         "event_id": 18252162,
         "url": "https://seatgeek.com/stella-lefty-tickets/toronto-canada-the-opera-house-toronto-2026-11-12-7-pm/concert/18252162",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1172,7 +1172,7 @@
     "tour_name": "Long Way Home Tour",
     "ticketmaster_event_id": "010065139846C5C8",
     "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-boston-massachusetts-01-17-2027/event/010065139846C5C8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stella-lefty-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-01-17-8-pm/concert/18527914",
     "vividseats_url": "https://www.vividseats.com/stella-lefty-tickets-boston-mgm-music-hall-at-fenway-1-17-2027--concerts-pop/production/7473899",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-boston-massachusetts-01-17-2027/event/010065139846C5C8",
@@ -1188,11 +1188,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18527914,
+        "url": "https://seatgeek.com/stella-lefty-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-01-17-8-pm/concert/18527914",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473899,
@@ -1259,7 +1259,7 @@
     "tour_name": "Long Way Home Tour",
     "ticketmaster_event_id": "000065139E73BC73",
     "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-brooklyn-new-york-01-19-2027/event/000065139E73BC73",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stella-lefty-tickets/brooklyn-new-york-brooklyn-paramount-2027-01-19-7-pm/concert/18527915",
     "vividseats_url": "https://www.vividseats.com/stella-lefty-tickets-brooklyn-brooklyn-paramount-1-19-2027--concerts-pop/production/7473901",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-brooklyn-new-york-01-19-2027/event/000065139E73BC73",
@@ -1275,11 +1275,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18527915,
+        "url": "https://seatgeek.com/stella-lefty-tickets/brooklyn-new-york-brooklyn-paramount-2027-01-19-7-pm/concert/18527915",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473901,
@@ -1346,7 +1346,7 @@
     "tour_name": "Long Way Home Tour",
     "ticketmaster_event_id": "000065139E77BC7D",
     "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-brooklyn-new-york-01-20-2027/event/000065139E77BC7D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stella-lefty-tickets/brooklyn-new-york-brooklyn-paramount-2027-01-20-7-pm/concert/18539681",
     "vividseats_url": "https://www.vividseats.com/stella-lefty-tickets-brooklyn-brooklyn-paramount-1-20-2027--concerts-pop/production/7488065",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-brooklyn-new-york-01-20-2027/event/000065139E77BC7D",
@@ -1362,11 +1362,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18539681,
+        "url": "https://seatgeek.com/stella-lefty-tickets/brooklyn-new-york-brooklyn-paramount-2027-01-20-7-pm/concert/18539681",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7488065,
@@ -1512,7 +1512,7 @@
     "tour_name": "Long Way Home Tour",
     "ticketmaster_event_id": "15006514D442D878",
     "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-washington-district-of-columbia-01-23-2027/event/15006514D442D878",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stella-lefty-tickets/washington-district-of-columbia-the-anthem-dc-2027-01-23-8-pm/concert/18527882",
     "vividseats_url": "https://www.vividseats.com/stella-lefty-tickets-washington-dc-the-anthem-1-23-2027--concerts-pop/production/7473907",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-washington-district-of-columbia-01-23-2027/event/15006514D442D878",
@@ -1528,11 +1528,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18527882,
+        "url": "https://seatgeek.com/stella-lefty-tickets/washington-district-of-columbia-the-anthem-dc-2027-01-23-8-pm/concert/18527882",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473907,
@@ -2000,11 +2000,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18527918,
+        "url": "https://seatgeek.com/stella-lefty-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2027-02-12-8-pm/concert/18527918",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473943,
@@ -2142,11 +2142,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18527904,
+        "url": "https://seatgeek.com/stella-lefty-tickets/chicago-illinois-byline-bank-aragon-ballroom-2027-02-20-8-pm/concert/18527904",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473949,

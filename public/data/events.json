@@ -295681,5 +295681,221 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238824",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238824/Billy-Strings-tickets-Sat-Feb-20-2027-Bridgestone-Arena"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-nurnberg-z698xzc2z16vqofzv8",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Nürnberg",
+    "country": "Germany",
+    "venue": "PSD Bank Nürnberg ARENA",
+    "datetime_iso": "2027-05-05T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1691238050",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1691238050?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1691238050?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1691238050",
+        "discovery_event_id": "Z698xZC2Z16vQoFzv8",
+        "url": "https://www.ticketmaster.de/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1691238050?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vQoFzv8",
+    "timezone": "Europe/Berlin",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:00:00Z"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-casalecchio-di-reno-bologna-zg9rmiynyzffde",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Casalecchio di Reno (Bologna)",
+    "country": "Italy",
+    "venue": "Unipol Arena",
+    "datetime_iso": "2027-05-08T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "59jdmitw5833",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-casalecchio-di-reno-bologna-08-05-2027/event/59jdmitw5833",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-casalecchio-di-reno-bologna-08-05-2027/event/59jdmitw5833",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "59jdmitw5833",
+        "discovery_event_id": "ZG9rmIYnyZFFde",
+        "url": "https://www.ticketmaster.it/biglietti/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-casalecchio-di-reno-bologna-08-05-2027/event/59jdmitw5833",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZFFde",
+    "timezone": "Europe/Rome",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:00:00Z"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-praha-9-z698xzu0z1k788y-z",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+    "city": "Praha 9",
+    "country": "Czech Republic",
+    "venue": "O2 Arena",
+    "datetime_iso": "2027-05-18T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110430840",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/110430840?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/110430840?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110430840",
+        "discovery_event_id": "Z698xZu0Z1k788Y-Z",
+        "url": "https://www.ticketmaster.cz/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/110430840?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z1k788Y-Z",
+    "timezone": "Europe/Prague",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:00:00Z"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-helsinki-z698xz8kz16v7so3fa",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War | VIP",
+    "city": "Helsinki",
+    "country": "Finland",
+    "venue": "Veikkaus Arena",
+    "datetime_iso": "2027-05-24T15:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1131452209",
+    "ticketmaster_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-%7C-vip-tickets/1131452209?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-%7C-vip-tickets/1131452209?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1131452209",
+        "discovery_event_id": "Z698xZ8KZ16v7so3Fa",
+        "url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-%7C-vip-tickets/1131452209?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ8KZ16v7so3Fa",
+    "timezone": "Europe/Helsinki",
+    "status": "announced",
+    "public_onsale_at": "2026-10-27T08:00:00Z"
   }
 ]

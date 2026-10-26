@@ -117,18 +117,19 @@ mixed.shows = mixed.shows.map((show) => (["Austin", "Boston", "Chicago"].include
 const mixedFigures = build({}, mixed);
 assert(mixedFigures.currency === "USD" && mixedFigures.cities.length === 7, "dates priced in another currency are left out, not converted");
 
-// More than 20 cities: the ends are tabled, the middle is not.
+// More than 20 cities: every priced city is tabled, so the headline count and the table rows always agree.
 const big = fixture(wideNames.concat(["CityU", "CityV", "CityW", "CityX"]));
 const bigFigures = build({}, big);
 const bigPost = renderArtistCityPost(bigFigures);
 assert(bigFigures.cities.length === 24, "24 priced cities");
-assert((bigPost.match(/^\| \[/gm) || []).length === ARTIST_CITY_GATE.rowsEachEnd * 2 && /The 4 cities in between are on the/.test(bigPost), "ten from each end are tabled, with a pointer to the rest");
+assert((bigPost.match(/^\| \[/gm) || []).length === bigFigures.cities.length && !/cities in between/.test(bigPost), "every priced city is tabled, none hidden");
+assert(bigPost.includes(`the lowest listed price for the next date in ${bigFigures.cities.length} cities`) && bigPost.includes(`${bigFigures.cities.length} cities had a recent listed price`), "headline, summary and intro use the table's row count");
 
 // Post.
 const post = renderArtistCityPost(figures);
 assert(/^status: draft$/m.test(post), "a new post is a draft");
 assert(/^date: 2026-10-16$/m.test(post) && !/^updated:/m.test(post), "a new post carries today's date");
-assert((post.match(/^\| \[/gm) || []).length === 10, "a result of 20 cities or fewer tables every city");
+assert((post.match(/^\| \[/gm) || []).length === 10, "every city is tabled");
 assert(post.includes("16 October, 10:00 UTC") && post.includes("Vivid Seats"), "each figure carries its site and capture time");
 assert(post.includes(PRICE_DISCLOSURE), "the shared price disclosure is printed");
 assert(post.includes("(/artists/artist-a/ticket-prices)") && post.includes("/artists/artist-a/tickets/austin-united-states"), "the post links the price guide and the city pages");

@@ -41,11 +41,7 @@ export const ARTIST_CITY_GATE = {
   // Share of the market country's cities (those with a publishable next date)
   // that must have a fresh price on the chosen site. A ranking that leaves out
   // half the tour's cities would mislead.
-  minCoverage: 0.5,
-  // At or under this many priced cities every city is tabled; above it, the
-  // lowest and highest `rowsEachEnd`.
-  fullTableMax: 20,
-  rowsEachEnd: 10
+  minCoverage: 0.5
 };
 
 export const artistCitySlug = (artistSlug) => `${artistSlug}-tour-ticket-prices-by-city`;
@@ -155,13 +151,6 @@ export function artistCityGate(figures) {
   return reasons;
 }
 
-function tableRows(figures) {
-  const { cities } = figures;
-  const each = ARTIST_CITY_GATE.rowsEachEnd;
-  const full = cities.length <= ARTIST_CITY_GATE.fullTableMax;
-  return { full, rows: full ? cities : [...cities.slice(0, each), ...cities.slice(-each)], hidden: cities.length - each * 2 };
-}
-
 function cityLabel(row) {
   return row.path ? `[${row.city}](${row.path})` : row.city;
 }
@@ -222,7 +211,6 @@ export function renderArtistCityPost(figures, existing = null) {
   const date = existing?.date || figures.asOf;
   const status = existing?.status === "published" ? "published" : "draft";
   const updated = date !== figures.asOf ? figures.asOf : "";
-  const { full, rows, hidden } = tableRows(figures);
   const guide = figures.pricePath ? `[${artist} ticket price guide](${figures.pricePath})` : `[${artist} page](${figures.path})`;
   const unpriced = coverage.unpricedCities.length
     ? `${plural(coverage.unpricedCities.length, "city", "cities")} in ${place(figures)} had no recent listed price on ${siteLabel} and ${coverage.unpricedCities.length === 1 ? "is" : "are"} left out: ${coverage.unpricedCities.join(", ")}.`
@@ -258,7 +246,7 @@ export function renderArtistCityPost(figures, existing = null) {
 ## ${artist} ticket prices by city
 
 ${TABLE_HEAD}
-${rows.map((row) => tableLine(row, siteLabel)).join("\n")}${full ? "" : `\n\nThe ${hidden} cities in between are on the ${guide}.`}
+${cities.map((row) => tableLine(row, siteLabel)).join("\n")}
 
 Each figure is the lowest listed price on ${siteLabel} for the next date in that city, so a city with several dates shows only its first. Cities are ordered from the lowest listed price to the highest. Open a city to see every date there.
 
@@ -287,7 +275,7 @@ function esc(text) {
 
 /** A horizontal bar chart of the tabled cities, ready to share. */
 export function renderArtistCityChart(figures) {
-  const { rows } = tableRows(figures);
+  const rows = figures.cities;
   const width = 760;
   const left = 190;
   const rowHeight = 26;

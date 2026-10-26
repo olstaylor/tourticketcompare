@@ -4,7 +4,7 @@ seo_title: "Riley Green tour ticket prices by city"
 description: "Riley Green tour: the next date in 23 cities, $66 in Clarkston at the low end, $153 in Brandon at the high end."
 summary: "Vivid Seats' lowest listed price for the next Riley Green date in each of 23 cities, each figure with the time it was captured. Snapshots 26 October 2026."
 date: 2026-10-26
-status: draft
+status: published
 tags:
   - tour-data
 related_guides:

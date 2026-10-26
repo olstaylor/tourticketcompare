@@ -4,7 +4,7 @@ seo_title: "Trivium tour ticket prices by city"
 description: "Trivium tour: the next date in 23 cities, $29.90 in Inglewood at the low end, $110.40 in New York at the high end."
 summary: "TicketNetwork's lowest listed price for the next Trivium date in each of 23 cities, each figure with the time it was captured. Snapshots 25 October to 26 October 2026."
 date: 2026-10-26
-status: draft
+status: published
 tags:
   - tour-data
 related_guides:

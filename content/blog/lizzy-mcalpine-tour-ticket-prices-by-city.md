@@ -4,7 +4,7 @@ seo_title: "Lizzy McAlpine ticket prices by city"
 description: "Lizzy McAlpine tour: the next date in 22 cities, $45 in San Francisco at the low end, $313 in Columbus at the high end."
 summary: "Vivid Seats' lowest listed price for the next Lizzy McAlpine date in each of 22 cities, each figure with the time it was captured. Snapshots 26 October 2026."
 date: 2026-10-26
-status: draft
+status: published
 tags:
   - tour-data
 related_guides:

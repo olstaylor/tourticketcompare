@@ -4,7 +4,7 @@ seo_title: "Greta Van Fleet ticket prices by city"
 description: "Greta Van Fleet tour: the next date in 35 cities, $53 in Grand Rapids at the low end, $112 in Uncasville at the high end."
 summary: "Vivid Seats' lowest listed price for the next Greta Van Fleet date in each of 35 cities, each figure with the time it was captured. Snapshots 26 October 2026."
 date: 2026-10-26
-status: draft
+status: published
 tags:
   - tour-data
 related_guides:

@@ -1,0 +1,797 @@
+[
+  {
+    "id": "tm-boyz-ii-men-2026-waurn-ponds-177yv0g6cqczn9y",
+    "artist_slug": "boyz-ii-men",
+    "artist_name": "Boyz II Men",
+    "event_name": "a day on the green - Boyz II Men (Reserved/GA)",
+    "city": "Waurn Ponds",
+    "country": "Australia",
+    "venue": "Mount Duneed Estate",
+    "datetime_iso": "2026-11-28T05:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130064E6ADE235F9",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/a-day-on-the-green-boyz-waurn-ponds-28-11-2026/event/130064E6ADE235F9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/a-day-on-the-green-boyz-waurn-ponds-28-11-2026/event/130064E6ADE235F9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130064E6ADE235F9",
+        "discovery_event_id": "177Yv0G6CQczN9y",
+        "url": "https://www.ticketmaster.com.au/a-day-on-the-green-boyz-waurn-ponds-28-11-2026/event/130064E6ADE235F9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Yv0G6CQczN9y",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-boyz-ii-men-2026-auckland-17azv0g6c2evn3t",
+    "artist_slug": "boyz-ii-men",
+    "artist_name": "Boyz II Men",
+    "event_name": "Boyz II Men",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Spark Arena",
+    "datetime_iso": "2026-12-01T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "240064E3C20634BF",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/boyz-ii-men-auckland-01-12-2026/event/240064E3C20634BF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/boyz-ii-men-auckland-01-12-2026/event/240064E3C20634BF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "240064E3C20634BF",
+        "discovery_event_id": "17aZv0G6C2evN3T",
+        "url": "https://www.ticketmaster.co.nz/boyz-ii-men-auckland-01-12-2026/event/240064E3C20634BF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17aZv0G6C2evN3T",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-boyz-ii-men-2026-pokolbin-177yv0g6cro9xjr",
+    "artist_slug": "boyz-ii-men",
+    "artist_name": "Boyz II Men",
+    "event_name": "a day on the green - Boyz II Men (Reserved/GA)",
+    "city": "Pokolbin",
+    "country": "Australia",
+    "venue": "Bimbadgen",
+    "datetime_iso": "2026-12-05T05:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130064E7A05E299E",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/a-day-on-the-green-boyz-pokolbin-05-12-2026/event/130064E7A05E299E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/a-day-on-the-green-boyz-pokolbin-05-12-2026/event/130064E7A05E299E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130064E7A05E299E",
+        "discovery_event_id": "177Yv0G6CrO9xJr",
+        "url": "https://www.ticketmaster.com.au/a-day-on-the-green-boyz-pokolbin-05-12-2026/event/130064E7A05E299E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Yv0G6CrO9xJr",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-boyz-ii-men-2026-mount-cotton-177yv0g6chtbuni",
+    "artist_slug": "boyz-ii-men",
+    "artist_name": "Boyz II Men",
+    "event_name": "a day on the green - Boyz II Men (Reserved & GA)",
+    "city": "Mount Cotton",
+    "country": "Australia",
+    "venue": "Sirromet",
+    "datetime_iso": "2026-12-06T05:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130064E6E9EB6AAC",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/a-day-on-the-green-boyz-mount-cotton-06-12-2026/event/130064E6E9EB6AAC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/a-day-on-the-green-boyz-mount-cotton-06-12-2026/event/130064E6E9EB6AAC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130064E6E9EB6AAC",
+        "discovery_event_id": "177Yv0G6ChtBUni",
+        "url": "https://www.ticketmaster.com.au/a-day-on-the-green-boyz-mount-cotton-06-12-2026/event/130064E6E9EB6AAC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Yv0G6ChtBUni",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-boyz-ii-men-2026-norman-z7r9jz1aaed_y",
+    "artist_slug": "boyz-ii-men",
+    "artist_name": "Boyz II Men",
+    "event_name": "Boyz II Men",
+    "city": "Norman",
+    "country": "United States Of America",
+    "venue": "Showplace Theatre at Riverwind Casino",
+    "datetime_iso": "2026-12-19T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAed_y",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed_y",
+    "seatgeek_url": "https://seatgeek.com/boyz-ii-men-tickets/norman-oklahoma-riverwind-casino-2026-12-18-8-pm/concert/18320946",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed_y",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAed_y",
+        "discovery_event_id": "Z7r9jZ1AAed_y",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed_y",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAed_y",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-boyz-ii-men-2026-thackerville-z7r9jz1a70-f8",
+    "artist_slug": "boyz-ii-men",
+    "artist_name": "Boyz II Men",
+    "event_name": "Boyz II Men",
+    "city": "Thackerville",
+    "country": "United States Of America",
+    "venue": "WinStar World Casino",
+    "datetime_iso": "2026-12-20T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70-f8",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70-f8",
+    "seatgeek_url": "https://seatgeek.com/boyz-ii-men-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-12-19-8-pm/concert/18211756",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70-f8",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70-f8",
+        "discovery_event_id": "Z7r9jZ1A70-f8",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70-f8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70-f8",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-boyz-ii-men-2027-boston-vv1avzk4egkdp6cdw",
+    "artist_slug": "boyz-ii-men",
+    "artist_name": "Boyz II Men",
+    "event_name": "Boyz II Men",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-02-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006542E51CE0F2",
+    "ticketmaster_url": "https://www.ticketmaster.com/boyz-ii-men-boston-massachusetts-02-05-2027/event/01006542E51CE0F2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/boyz-ii-men-boston-massachusetts-02-05-2027/event/01006542E51CE0F2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006542E51CE0F2",
+        "discovery_event_id": "vv1AvZk4eGkdP6Cdw",
+        "url": "https://www.ticketmaster.com/boyz-ii-men-boston-massachusetts-02-05-2027/event/01006542E51CE0F2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk4eGkdP6Cdw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-boyz-ii-men-2027-atlantic-city-vv1kfz_fbxg7mvlj",
+    "artist_slug": "boyz-ii-men",
+    "artist_name": "Boyz II Men",
+    "event_name": "Boyz II Men",
+    "city": "Atlantic City",
+    "country": "United States Of America",
+    "venue": "Borgata Event Center",
+    "datetime_iso": "2027-02-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200654622DF4ADC",
+    "ticketmaster_url": "https://www.ticketmaster.com/boyz-ii-men-atlantic-city-new-jersey-02-06-2027/event/0200654622DF4ADC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/boyz-ii-men-atlantic-city-new-jersey-02-06-2027/event/0200654622DF4ADC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200654622DF4ADC",
+        "discovery_event_id": "vv1kFZ_fbxG7MVlj",
+        "url": "https://www.ticketmaster.com/boyz-ii-men-atlantic-city-new-jersey-02-06-2027/event/0200654622DF4ADC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kFZ_fbxG7MVlj",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-boyz-ii-men-2027-national-harbor-1ka8vp3aga5lj2s",
+    "artist_slug": "boyz-ii-men",
+    "artist_name": "Boyz II Men",
+    "event_name": "Boyz II Men",
+    "city": "National Harbor",
+    "country": "United States Of America",
+    "venue": "The Theater at MGM National Harbor",
+    "datetime_iso": "2027-02-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150065489BAE63F1",
+    "ticketmaster_url": "https://www.ticketmaster.com/boyz-ii-men-national-harbor-maryland-02-11-2027/event/150065489BAE63F1",
+    "seatgeek_url": "https://seatgeek.com/boyz-ii-men-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2027-02-11-8-pm/concert/18697996",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/boyz-ii-men-national-harbor-maryland-02-11-2027/event/150065489BAE63F1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150065489BAE63F1",
+        "discovery_event_id": "1kA8vP3aGA5lJ2s",
+        "url": "https://www.ticketmaster.com/boyz-ii-men-national-harbor-maryland-02-11-2027/event/150065489BAE63F1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kA8vP3aGA5lJ2s",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-boyz-ii-men-2027-national-harbor-1ka8vp3aga5ij2m",
+    "artist_slug": "boyz-ii-men",
+    "artist_name": "Boyz II Men",
+    "event_name": "Boyz II Men",
+    "city": "National Harbor",
+    "country": "United States Of America",
+    "venue": "The Theater at MGM National Harbor",
+    "datetime_iso": "2027-02-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150065489BB263F7",
+    "ticketmaster_url": "https://www.ticketmaster.com/boyz-ii-men-national-harbor-maryland-02-12-2027/event/150065489BB263F7",
+    "seatgeek_url": "https://seatgeek.com/boyz-ii-men-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2027-02-12-8-pm/concert/18697998",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/boyz-ii-men-national-harbor-maryland-02-12-2027/event/150065489BB263F7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150065489BB263F7",
+        "discovery_event_id": "1kA8vP3aGA5iJ2M",
+        "url": "https://www.ticketmaster.com/boyz-ii-men-national-harbor-maryland-02-12-2027/event/150065489BB263F7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kA8vP3aGA5iJ2M",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-boyz-ii-men-2027-national-harbor-1ka8vp3aga5cu2t",
+    "artist_slug": "boyz-ii-men",
+    "artist_name": "Boyz II Men",
+    "event_name": "Boyz II Men",
+    "city": "National Harbor",
+    "country": "United States Of America",
+    "venue": "The Theater at MGM National Harbor",
+    "datetime_iso": "2027-02-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150065489BB763FF",
+    "ticketmaster_url": "https://www.ticketmaster.com/boyz-ii-men-national-harbor-maryland-02-13-2027/event/150065489BB763FF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/boyz-ii-men-national-harbor-maryland-02-13-2027/event/150065489BB763FF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150065489BB763FF",
+        "discovery_event_id": "1kA8vP3aGA5cU2T",
+        "url": "https://www.ticketmaster.com/boyz-ii-men-national-harbor-maryland-02-13-2027/event/150065489BB763FF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kA8vP3aGA5cU2T",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-boyz-ii-men-2027-las-vegas-1kayvp7mgaglg6h",
+    "artist_slug": "boyz-ii-men",
+    "artist_name": "Boyz II Men",
+    "event_name": "Boyz II Men",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Cosmopolitan of Las Vegas",
+    "datetime_iso": "2027-03-13T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065137C7F51FC",
+    "ticketmaster_url": "https://www.ticketmaster.com/boyz-ii-men-las-vegas-nevada-03-12-2027/event/170065137C7F51FC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/boyz-ii-men-las-vegas-nevada-03-12-2027/event/170065137C7F51FC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065137C7F51FC",
+        "discovery_event_id": "1kAYvP7MGAGLg6H",
+        "url": "https://www.ticketmaster.com/boyz-ii-men-las-vegas-nevada-03-12-2027/event/170065137C7F51FC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvP7MGAGLg6H",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-boyz-ii-men-2027-las-vegas-1kayvp7mgag-4fc",
+    "artist_slug": "boyz-ii-men",
+    "artist_name": "Boyz II Men",
+    "event_name": "Boyz II Men",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Cosmopolitan of Las Vegas",
+    "datetime_iso": "2027-03-14T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065137C85520E",
+    "ticketmaster_url": "https://www.ticketmaster.com/boyz-ii-men-las-vegas-nevada-03-13-2027/event/170065137C85520E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/boyz-ii-men-las-vegas-nevada-03-13-2027/event/170065137C85520E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065137C85520E",
+        "discovery_event_id": "1kAYvP7MGAG-4FC",
+        "url": "https://www.ticketmaster.com/boyz-ii-men-las-vegas-nevada-03-13-2027/event/170065137C85520E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvP7MGAG-4FC",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-boyz-ii-men-2027-las-vegas-1kayvp7mgagn4f9",
+    "artist_slug": "boyz-ii-men",
+    "artist_name": "Boyz II Men",
+    "event_name": "Boyz II Men",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Cosmopolitan of Las Vegas",
+    "datetime_iso": "2027-03-20T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065137C8D5217",
+    "ticketmaster_url": "https://www.ticketmaster.com/boyz-ii-men-las-vegas-nevada-03-19-2027/event/170065137C8D5217",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/boyz-ii-men-las-vegas-nevada-03-19-2027/event/170065137C8D5217",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065137C8D5217",
+        "discovery_event_id": "1kAYvP7MGAGN4F9",
+        "url": "https://www.ticketmaster.com/boyz-ii-men-las-vegas-nevada-03-19-2027/event/170065137C8D5217",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvP7MGAGN4F9",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-boyz-ii-men-2027-las-vegas-1kayvp7mgag0pfj",
+    "artist_slug": "boyz-ii-men",
+    "artist_name": "Boyz II Men",
+    "event_name": "Boyz II Men",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Cosmopolitan of Las Vegas",
+    "datetime_iso": "2027-03-21T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065137C925226",
+    "ticketmaster_url": "https://www.ticketmaster.com/boyz-ii-men-las-vegas-nevada-03-20-2027/event/170065137C925226",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/boyz-ii-men-las-vegas-nevada-03-20-2027/event/170065137C925226",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065137C925226",
+        "discovery_event_id": "1kAYvP7MGAG0PFJ",
+        "url": "https://www.ticketmaster.com/boyz-ii-men-las-vegas-nevada-03-20-2027/event/170065137C925226",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvP7MGAG0PFJ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

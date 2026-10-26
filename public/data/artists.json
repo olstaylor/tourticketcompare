@@ -2586,5 +2586,117 @@
     "last_verified_at": "2026-10-25",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-25"
+  },
+  {
+    "slug": "cristian-castro",
+    "name": "Cristian Castro",
+    "short_description": "World act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-26",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-26"
+  },
+  {
+    "slug": "treaty-oak-revival",
+    "name": "Treaty Oak Revival",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-26",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-26"
+  },
+  {
+    "slug": "boyz-ii-men",
+    "name": "Boyz II Men",
+    "short_description": "R&B act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-26",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-26"
+  },
+  {
+    "slug": "barry-manilow",
+    "name": "Barry Manilow",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-26",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-26"
+  },
+  {
+    "slug": "koe-wetzel",
+    "name": "Koe Wetzel",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-26",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-26"
+  },
+  {
+    "slug": "victoria-monet",
+    "name": "Victoria Monet",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-26",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-26"
+  },
+  {
+    "slug": "jon-pardi",
+    "name": "Jon Pardi",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-26",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-26"
+  },
+  {
+    "slug": "brandi-carlile",
+    "name": "Brandi Carlile",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-26",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-26"
   }
 ]

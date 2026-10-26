@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-25",
+  "updated_at": "2026-10-26",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -2097,6 +2097,94 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-10-25 (sanctioned path D): SeatGeek performer 299503 and Ticketmaster attraction K8vZ9174G2V captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "cristian-castro",
+      "ticketmaster_attraction_id": "K8vZ9175rm0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/cristian-castro-tickets/artist/844826",
+      "seatgeek_performer_id": 512,
+      "seatgeek_artist_url": "https://seatgeek.com/cristian-castro-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-26 (sanctioned path D): SeatGeek performer 512 and Ticketmaster attraction K8vZ9175rm0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "treaty-oak-revival",
+      "ticketmaster_attraction_id": "K8vZ917Qyyf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/treaty-oak-revival-tickets/artist/2951358",
+      "seatgeek_performer_id": 800864,
+      "seatgeek_artist_url": "https://seatgeek.com/treaty-oak-revival-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-26 (sanctioned path D): SeatGeek performer 800864 and Ticketmaster attraction K8vZ917Qyyf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "boyz-ii-men",
+      "ticketmaster_attraction_id": "K8vZ91715If",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/boyz-ii-men-tickets/artist/734632",
+      "seatgeek_performer_id": 359,
+      "seatgeek_artist_url": "https://seatgeek.com/boyz-ii-men-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-26 (sanctioned path D): SeatGeek performer 359 and Ticketmaster attraction K8vZ91715If captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "barry-manilow",
+      "ticketmaster_attraction_id": "K8vZ9171u5V",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/barry-manilow-tickets/artist/735585",
+      "seatgeek_performer_id": 261,
+      "seatgeek_artist_url": "https://seatgeek.com/barry-manilow-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-26 (sanctioned path D): SeatGeek performer 261 and Ticketmaster attraction K8vZ9171u5V captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "koe-wetzel",
+      "ticketmaster_attraction_id": "K8vZ917pldV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/koe-wetzel-tickets/artist/2453935",
+      "seatgeek_performer_id": 571455,
+      "seatgeek_artist_url": "https://seatgeek.com/koe-wetzel-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-26 (sanctioned path D): SeatGeek performer 571455 and Ticketmaster attraction K8vZ917pldV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "victoria-monet",
+      "ticketmaster_attraction_id": "K8vZ917fYD7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/victoria-monet-tickets/artist/2247197",
+      "seatgeek_performer_id": 555130,
+      "seatgeek_artist_url": "https://seatgeek.com/victoria-monet-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-26 (sanctioned path D): SeatGeek performer 555130 and Ticketmaster attraction K8vZ917fYD7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "jon-pardi",
+      "ticketmaster_attraction_id": "K8vZ917ugvf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/jon-pardi-tickets/artist/1541267",
+      "seatgeek_performer_id": 21629,
+      "seatgeek_artist_url": "https://seatgeek.com/jon-pardi-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-26 (sanctioned path D): SeatGeek performer 21629 and Ticketmaster attraction K8vZ917ugvf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "brandi-carlile",
+      "ticketmaster_attraction_id": "K8vZ9175z3V",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/brandi-carlile-tickets/artist/974048",
+      "seatgeek_performer_id": 363,
+      "seatgeek_artist_url": "https://seatgeek.com/brandi-carlile-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-26 (sanctioned path D): SeatGeek performer 363 and Ticketmaster attraction K8vZ9175z3V captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

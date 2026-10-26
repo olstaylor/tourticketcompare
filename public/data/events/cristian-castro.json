@@ -1,0 +1,638 @@
+[
+  {
+    "id": "tm-cristian-castro-2026-glendale-1a_zko8gkebja4t",
+    "artist_slug": "cristian-castro",
+    "artist_name": "Cristian Castro",
+    "event_name": "Cristian Castro: Nada Solo Exitos Tour 2026",
+    "city": "Glendale",
+    "country": "United States Of America",
+    "venue": "Desert Diamond Arena",
+    "datetime_iso": "2026-11-07T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "19006450BA98557F",
+    "ticketmaster_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-glendale-arizona-11-06-2026/event/19006450BA98557F",
+    "seatgeek_url": "https://seatgeek.com/cristian-castro-tickets/glendale-arizona-desert-diamond-arena-2026-11-06-8-pm/concert/18078145",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-glendale-arizona-11-06-2026/event/19006450BA98557F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006450BA98557F",
+        "discovery_event_id": "1A_Zko8GkeBJA4T",
+        "url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-glendale-arizona-11-06-2026/event/19006450BA98557F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A_Zko8GkeBJA4T",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cristian-castro-2026-el-paso-vvg1yz_adzeyjf",
+    "artist_slug": "cristian-castro",
+    "artist_name": "Cristian Castro",
+    "event_name": "Cristian Castro Nada Solo Exitos Tour",
+    "city": "El Paso",
+    "country": "United States Of America",
+    "venue": "El Paso County Coliseum",
+    "datetime_iso": "2026-11-08T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006450F89F9988",
+    "ticketmaster_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-el-paso-texas-11-07-2026/event/0C006450F89F9988",
+    "seatgeek_url": "https://seatgeek.com/cristian-castro-tickets/el-paso-texas-el-paso-county-coliseum-2026-11-07-8-pm/concert/18078276",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-el-paso-texas-11-07-2026/event/0C006450F89F9988",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006450F89F9988",
+        "discovery_event_id": "vvG1YZ_AdzEyJF",
+        "url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-el-paso-texas-11-07-2026/event/0C006450F89F9988",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_AdzEyJF",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cristian-castro-2026-san-diego-z7r9jz1a7-80a",
+    "artist_slug": "cristian-castro",
+    "artist_name": "Cristian Castro",
+    "event_name": "Cristian Castro",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Pechanga Arena San Diego",
+    "datetime_iso": "2026-11-28T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-80A",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-80A",
+    "seatgeek_url": "https://seatgeek.com/cristian-castro-tickets/san-diego-california-pechanga-arena-san-diego-2026-11-27-8-pm/concert/18082276",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-80A",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-80A",
+        "discovery_event_id": "Z7r9jZ1A7-80A",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-80A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-80A",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cristian-castro-2026-los-angeles-z7r9jz1a7-f4v",
+    "artist_slug": "cristian-castro",
+    "artist_name": "Cristian Castro",
+    "event_name": "Cristian Castro",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Peacock Theater - LA",
+    "datetime_iso": "2026-11-29T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-f4V",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-f4V",
+    "seatgeek_url": "https://seatgeek.com/cristian-castro-tickets/los-angeles-california-peacock-theater-2026-11-28-8-pm/concert/18077764",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-f4V",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-f4V",
+        "discovery_event_id": "Z7r9jZ1A7-f4V",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-f4V",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-f4V",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cristian-castro-2027-denver-z7r9jz1a7-boz",
+    "artist_slug": "cristian-castro",
+    "artist_name": "Cristian Castro",
+    "event_name": "Cristian Castro",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Bellco Theatre",
+    "datetime_iso": "2027-01-30T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-boZ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-boZ",
+    "seatgeek_url": "https://seatgeek.com/cristian-castro-tickets/denver-colorado-bellco-theatre-2027-01-29-8-pm/concert/18103535",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-boZ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-boZ",
+        "discovery_event_id": "Z7r9jZ1A7-boZ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-boZ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-boZ",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cristian-castro-2027-west-valley-city-g5vzz_aklolqq",
+    "artist_slug": "cristian-castro",
+    "artist_name": "Cristian Castro",
+    "event_name": "Cristian Castro: Nada Solo Exitos Tour 2027",
+    "city": "West Valley City",
+    "country": "United States Of America",
+    "venue": "Canyon View Credit Union Stage at Maverik Center",
+    "datetime_iso": "2027-01-31T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006454DF81F75D",
+    "ticketmaster_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-west-valley-city-utah-01-30-2027/event/1E006454DF81F75D",
+    "seatgeek_url": "https://seatgeek.com/cristian-castro-tickets/west-valley-city-utah-maverik-center-2027-01-30-8-pm/concert/18091097",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-west-valley-city-utah-01-30-2027/event/1E006454DF81F75D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006454DF81F75D",
+        "discovery_event_id": "G5vzZ_AKLOLqq",
+        "url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-west-valley-city-utah-01-30-2027/event/1E006454DF81F75D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_AKLOLqq",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cristian-castro-2027-anaheim-vv1aazkofgkeidrym",
+    "artist_slug": "cristian-castro",
+    "artist_name": "Cristian Castro",
+    "event_name": "Cristian Castro: Nada Solo Exitos Tour 2027",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "Honda Center",
+    "datetime_iso": "2027-02-13T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006454A8EDEE77",
+    "ticketmaster_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-anaheim-california-02-12-2027/event/09006454A8EDEE77",
+    "seatgeek_url": "https://seatgeek.com/cristian-castro-tickets/anaheim-california-honda-center-2027-02-12-8-pm/concert/18091093",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-anaheim-california-02-12-2027/event/09006454A8EDEE77",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006454A8EDEE77",
+        "discovery_event_id": "vv1AaZkofGkeIDryM",
+        "url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-anaheim-california-02-12-2027/event/09006454A8EDEE77",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AaZkofGkeIDryM",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cristian-castro-2027-palm-desert-vvg1iz_1h-rylv",
+    "artist_slug": "cristian-castro",
+    "artist_name": "Cristian Castro",
+    "event_name": "Cristian Castro: Nada Solo Éxitos Tour 2027",
+    "city": "Palm Desert",
+    "country": "United States Of America",
+    "venue": "Acrisure Arena at Greater Palm Springs",
+    "datetime_iso": "2027-02-14T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0064AF217B07C1",
+    "ticketmaster_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-palm-desert-california-02-13-2027/event/0A0064AF217B07C1",
+    "seatgeek_url": "https://seatgeek.com/cristian-castro-tickets/thousand-palms-california-acrisure-arena-2027-02-13-8-pm/concert/18295570",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-palm-desert-california-02-13-2027/event/0A0064AF217B07C1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0064AF217B07C1",
+        "discovery_event_id": "vvG1IZ_1H-rYLv",
+        "url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-palm-desert-california-02-13-2027/event/0A0064AF217B07C1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_1H-rYLv",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cristian-castro-2027-hidalgo-g5diz_a2dt_o4",
+    "artist_slug": "cristian-castro",
+    "artist_name": "Cristian Castro",
+    "event_name": "Cristian Castro: Nada Solo Exitos Tour 2027",
+    "city": "Hidalgo",
+    "country": "United States Of America",
+    "venue": "Payne Arena",
+    "datetime_iso": "2027-02-28T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006453FBA59815",
+    "ticketmaster_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-hidalgo-texas-02-27-2027/event/3A006453FBA59815",
+    "seatgeek_url": "https://seatgeek.com/cristian-castro-tickets/hidalgo-texas-payne-arena-2027-02-27-8-pm/concert/18091132",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-hidalgo-texas-02-27-2027/event/3A006453FBA59815",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006453FBA59815",
+        "discovery_event_id": "G5dIZ_A2Dt_O4",
+        "url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-hidalgo-texas-02-27-2027/event/3A006453FBA59815",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_A2Dt_O4",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cristian-castro-2027-cedar-park-g5diz_ak4-aew",
+    "artist_slug": "cristian-castro",
+    "artist_name": "Cristian Castro",
+    "event_name": "Cristian Castro: Nada Solo Exitos Tour 2027",
+    "city": "Cedar Park",
+    "country": "United States Of America",
+    "venue": "H-E-B Center at Cedar Park",
+    "datetime_iso": "2027-03-01T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006454D58490B2",
+    "ticketmaster_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-cedar-park-texas-02-28-2027/event/3A006454D58490B2",
+    "seatgeek_url": "https://seatgeek.com/cristian-castro-tickets/cedar-park-texas-h-e-b-center-at-cedar-park-2027-02-28-7-pm/concert/18091442",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-cedar-park-texas-02-28-2027/event/3A006454D58490B2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006454D58490B2",
+        "discovery_event_id": "G5dIZ_AK4-aew",
+        "url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-cedar-park-texas-02-28-2027/event/3A006454D58490B2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_AK4-aew",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cristian-castro-2027-orlando-1kfov0fzgac5wgd",
+    "artist_slug": "cristian-castro",
+    "artist_name": "Cristian Castro",
+    "event_name": "Cristian Castro: Nada Solo Exitos Tour 2027",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Addition Financial Arena",
+    "datetime_iso": "2027-03-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "220064538E2F2D7B",
+    "ticketmaster_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-orlando-florida-03-12-2027/event/220064538E2F2D7B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-orlando-florida-03-12-2027/event/220064538E2F2D7B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "220064538E2F2D7B",
+        "discovery_event_id": "1kFOv0fzGAC5wgD",
+        "url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-orlando-florida-03-12-2027/event/220064538E2F2D7B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kFOv0fzGAC5wgD",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cristian-castro-2027-miami-vvg1vz_aphhc62",
+    "artist_slug": "cristian-castro",
+    "artist_name": "Cristian Castro",
+    "event_name": "Cristian Castro: Nada Solo Exitos Tour 2027",
+    "city": "Miami",
+    "country": "United States Of America",
+    "venue": "James L Knight Center",
+    "datetime_iso": "2027-03-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006455BC6ED1CF",
+    "ticketmaster_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-miami-florida-03-13-2027/event/0D006455BC6ED1CF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-miami-florida-03-13-2027/event/0D006455BC6ED1CF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006455BC6ED1CF",
+        "discovery_event_id": "vvG1VZ_ApHhc62",
+        "url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-miami-florida-03-13-2027/event/0D006455BC6ED1CF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_ApHhc62",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

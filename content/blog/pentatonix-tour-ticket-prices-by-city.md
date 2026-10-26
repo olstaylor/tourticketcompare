@@ -7,6 +7,8 @@ date: 2026-10-24
 status: published
 tags:
   - tour-data
+related_artists:
+  - pentatonix
 related_guides:
   - primary-vs-resale-concert-tickets
 ---

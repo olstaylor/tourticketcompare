@@ -112,7 +112,7 @@ Run one artist at a time: a run starts no further paid draft once it has spent
 $0.50, and a draft that fails a check after the model call is saved in the run's
 `blog-draft-report` artifact as `REJECTED-<slug>.md` with the reason, so the
 spend can be inspected. A failed manual run may use a numbered branch
-(`-2`, `-3`) for the next attempt.
+(`-2` up to `-9`) for the next attempt.
 
 ### Integration and budget
 

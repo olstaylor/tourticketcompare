@@ -577,7 +577,7 @@ test('worst case: a 12-city guide with a 1,150-word draft and the real rules fit
 });
 
 test('replay: the real Metallica draft that run 17 rejected now passes every check', async () => {
-  const markdown = await fs.readFile(path.join(root, 'scripts/fixtures/blog-draft-rejected-metallica.md'), 'utf8');
+  const markdown = await fs.readFile(path.join(root, 'scripts/fixtures/blog-draft-rejected-metallica.txt'), 'utf8');
   const rows = [...markdown.matchAll(/^\| [^|]+ \| \[(\d{4}-\d{2}-\d{2})\]\(([^)]+)\) \| [^|]+ \| ([^|]+) \| ([^|]+) \|$/gm)];
   assert.equal(rows.length, 11);
   const evidence = { version: 2, kind: 'tour', capturedAt: '2026-10-26T14:23:40.000Z', artist: 'Metallica', minimumEvents: 2,

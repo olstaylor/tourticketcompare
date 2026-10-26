@@ -1,6 +1,6 @@
 name: Artist city reports
 
-# Dispatch only. Builds the single-artist city price reports
+# Dispatch, plus one scheduled refresh a day. Builds the single-artist city price reports
 # (`npm run stories:build -- --story artist-cities`, docs/BLOG.md "Automated
 # data stories") for the artists named in `artists`, or refreshes every report
 # already in content/blog when `artists` is empty, and opens one PR with the
@@ -13,11 +13,20 @@ name: Artist city reports
 # refused artist is left exactly as it is on main and listed in the run summary
 # as held. Only the files named in the allowlist below can be committed.
 #
+# The scheduled run (13:10 UTC, between the morning lanes and the 16:20 new-shows
+# run) refreshes every report so a city whose next date has passed rolls to its
+# next show, or drops out of the table, from the current provider snapshots
+# (72-hour freshness and one-site-per-report rules live in the builder). It stands
+# down while an earlier refresh PR is still open, so reviews never stack; it is
+# never auto-merged.
+#
 # Reads production D1 through wrangler with the same read token the blog-draft
 # lane uses, and provider availability from the live /api/shows. Writes no event
 # data, so it does not queue behind the shared-data writers.
 
 on:
+  schedule:
+    - cron: '10 13 * * *'
   workflow_dispatch:
     inputs:
       artists:
@@ -37,8 +46,37 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  gate:
     if: github.repository == 'olstaylor/tourticketcompare'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      pull-requests: read
+    outputs:
+      proceed: ${{ steps.open.outputs.proceed }}
+    steps:
+      - name: Stand down while a refresh PR is open
+        id: open
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          open=$(gh pr list --repo "$GITHUB_REPOSITORY" --state open --limit 100 --json headRefName \
+            --jq '[.[] | select(.headRefName | startswith("automation/artist-city-reports-"))] | length')
+          if [ "$open" -gt 0 ]; then
+            echo "proceed=false" >> "$GITHUB_OUTPUT"
+            echo "An earlier city report refresh PR is still open: skipped." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  build:
+    needs: gate
+    if: github.repository == 'olstaylor/tourticketcompare' && needs.gate.outputs.proceed == 'true'
     runs-on: ubuntu-latest
     # Up to 20 reports and the og/provenance rebuild, then the publish step
     # (head check up to 35 minutes inside the App token's hour).

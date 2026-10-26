@@ -1,0 +1,183 @@
+name: Artist city reports
+
+# Dispatch only. Builds the single-artist city price reports
+# (`npm run stories:build -- --story artist-cities`, docs/BLOG.md "Automated
+# data stories") for the artists named in `artists`, or refreshes every report
+# already in content/blog when `artists` is empty, and opens one PR with the
+# result for a person to review and merge. It never merges and never publishes:
+# a new report arrives as `status: draft` (no page, no sitemap entry) until a
+# person sets `status: published`; a report that is already published stays so.
+#
+# Fails closed per artist. The build refuses (exit 1, nothing written) when the
+# coverage or display gate fails or its D1 / availability reads fail, so a
+# refused artist is left exactly as it is on main and listed in the run summary
+# as held. Only the files named in the allowlist below can be committed.
+#
+# Reads production D1 through wrangler with the same read token the blog-draft
+# lane uses, and provider availability from the live /api/shows. Writes no event
+# data, so it does not queue behind the shared-data writers.
+
+on:
+  workflow_dispatch:
+    inputs:
+      artists:
+        description: 'Artist slugs, comma separated (up to 20), e.g. lizzy-mcalpine,trivium. Empty refreshes every published or drafted city report.'
+        type: string
+        default: ''
+      dry_run:
+        description: 'Build and check without opening a PR'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: artist-city-reports
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.repository == 'olstaylor/tourticketcompare'
+    runs-on: ubuntu-latest
+    # Up to 20 reports and the og/provenance rebuild, then the publish step
+    # (head check up to 35 minutes inside the App token's hour).
+    timeout-minutes: 80
+    permissions:
+      contents: write
+      pull-requests: write
+      actions: write
+    steps:
+      - name: Checkout trusted main
+        uses: actions/checkout@v5
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Build the reports
+        id: build
+        env:
+          ARTISTS: ${{ inputs.artists }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -uo pipefail
+          if [ -n "${ARTISTS// /}" ]; then
+            slugs=$(printf '%s' "$ARTISTS" | tr ',' '\n' | tr -d ' ' | sed '/^$/d' | sort -u)
+          else
+            slugs=$(ls content/blog | sed -n 's/-tour-ticket-prices-by-city\.md$//p')
+          fi
+          count=$(printf '%s\n' "$slugs" | sed '/^$/d' | wc -l)
+          if [ "$count" -eq 0 ] || [ "$count" -gt 20 ]; then
+            echo "::error::need between 1 and 20 artist slugs, got $count"
+            exit 1
+          fi
+          built=""
+          held=""
+          for slug in $slugs; do
+            if ! printf '%s' "$slug" | grep -Eq '^[a-z0-9]+(-[a-z0-9]+)*$'; then
+              echo "::error::'$slug' is not an artist slug"
+              exit 1
+            fi
+            echo "::group::$slug"
+            if npm run stories:build -- --story artist-cities --artist "$slug"; then
+              built="$built $slug"
+            else
+              held="$held $slug"
+              echo "::warning::$slug held: the build refused and wrote nothing"
+            fi
+            echo "::endgroup::"
+          done
+          echo "built=${built# }" >> "$GITHUB_OUTPUT"
+          echo "held=${held# }" >> "$GITHUB_OUTPUT"
+          {
+            echo "### Artist city reports"
+            echo "- Built: ${built:-none}"
+            echo "- Held (gate or data read refused, left as on main): ${held:-none}"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Compile content and refresh provenance
+        id: compile
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain --untracked-files=all)" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Nothing changed: every built report matches main." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          npm run blog:build
+          npm run og:build
+          npm run content:provenance
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # Everything the job changed must be a city report, its figures and chart,
+      # or a file compiled from them. Anything else stops the run before commit.
+      - name: Assert the diff contains only city report files
+        if: steps.compile.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          bad=$(git status --porcelain=v1 --untracked-files=all | cut -c4- | grep -Ev \
+            '^(content/blog/[a-z0-9-]+-tour-ticket-prices-by-city\.md|reports/data-stories/[a-z0-9-]+-tour-ticket-prices-by-city/(figures\.json|chart\.svg)|public/data/blog-content\.json|data/content-provenance\.json|functions/_og-cards\.generated\.js|public/og/blog-[a-z0-9-]+-tour-ticket-prices-by-city\.png)$' || true)
+          if [ -n "$bad" ]; then
+            echo "::error::unexpected changes, nothing committed:"
+            printf '%s\n' "$bad"
+            exit 1
+          fi
+          echo "diff allowlist OK"
+
+      - name: Validate the content
+        if: steps.compile.outputs.changed == 'true'
+        run: |
+          npm run blog:check
+          npm run content:provenance:check
+          git diff --check
+
+      - name: Prepare publishing identity
+        id: identity
+        if: steps.compile.outputs.changed == 'true' && inputs.dry_run != true
+        uses: ./.github/actions/automation-identity
+        with:
+          enabled: ${{ vars.AUTOMATION_APP_ENABLED }}
+          client-id: ${{ vars.AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Open the report PR
+        if: steps.compile.outputs.changed == 'true' && inputs.dry_run != true
+        timeout-minutes: 45
+        env:
+          GITHUB_TOKEN: ${{ steps.identity.outputs.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          BUILT: ${{ steps.build.outputs.built }}
+          HELD: ${{ steps.build.outputs.held }}
+        run: |
+          set -euo pipefail
+          BRANCH="automation/artist-city-reports-$(date -u +%Y-%m-%d)-${GITHUB_RUN_ID}"
+          git config user.name "tourticketcompare-bot"
+          git config user.email "tourticketcompare-bot@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add -A content/blog reports/data-stories public/data/blog-content.json data/content-provenance.json functions/_og-cards.generated.js public/og
+          git commit -m "content: artist city price reports (${BUILT:-none})"
+          node scripts/push-automation-branch.mjs "$BRANCH"
+          BRANCH="$BRANCH" \
+          PR_TITLE="Artist city price reports" \
+          PR_BODY="$(printf '## Artist city price reports\nBuilt from the current provider price snapshots by `npm run stories:build -- --story artist-cities`, behind the coverage and display gates: %s\n\nHeld (build refused, left as on main): %s\n\nA new report is `status: draft` and has no page until a person sets `status: published`. Not auto-merged.\n' "${BUILT:-none}" "${HELD:-none}")" \
+          node scripts/open-automation-pr.mjs
+
+      - name: Keep the built files for review
+        if: always() && inputs.dry_run == true
+        uses: actions/upload-artifact@v4
+        with:
+          name: artist-city-reports
+          path: |
+            content/blog/*-tour-ticket-prices-by-city.md
+            reports/data-stories/*-tour-ticket-prices-by-city/
+          retention-days: 14
+          if-no-files-found: ignore

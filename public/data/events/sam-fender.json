@@ -215,13 +215,21 @@
         "verified": true,
         "last_verified_at": "2026-10-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8334269",
+        "url": "https://www.ticketliquidator.com/tickets/8334269/Sam-Fender-tickets-Fri-Jun-18-2027-Wembley-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16NZk4f00ZAuv12C",
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-10-30T09:30:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334269"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334269",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334269/Sam-Fender-tickets-Fri-Jun-18-2027-Wembley-Stadium"
   },
   {
     "id": "tm-sam-fender-2027-london-1anzk4fgkdp88g6",
@@ -277,13 +285,21 @@
         "verified": true,
         "last_verified_at": "2026-10-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8334270",
+        "url": "https://www.ticketliquidator.com/tickets/8334270/Sam-Fender-tickets-Sun-Jun-20-2027-Wembley-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZk4fGkdp88g6",
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-10-30T09:30:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334270"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334270",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334270/Sam-Fender-tickets-Sun-Jun-20-2027-Wembley-Stadium"
   },
   {
     "id": "tm-sam-fender-2027-dublin-1avoz_fgkxvywdt",

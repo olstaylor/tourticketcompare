@@ -156,7 +156,7 @@
     "vividseats_url": "https://www.vividseats.com/missio-tickets-los-angeles-teragram-ballroom-11-1-2026/production/7425741",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sean-healy-presents-missio-love-heartbreak-los-angeles-california-11-01-2026/event/0900650B02842801",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -209,11 +209,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8200526/Missio-tickets-Sun-Nov-1-2026-Teragram-Ballroom",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200526",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-08-14T16:00:00Z",
-        "end": "2026-10-26T05:00:00Z"
-      },
       {
         "name": "season",
         "start": "2026-10-20T17:00:00Z",

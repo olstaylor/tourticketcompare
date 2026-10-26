@@ -1287,13 +1287,13 @@
     "vividseats_url": "https://www.vividseats.com/olivia-rodrigo-tickets-columbus-value-city-arena-at-schottenstein-center-10-29-2026--concerts-pop/production/6969263",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-columbus-ohio-10-29-2026/event/0500649DFF8CFA1C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-26",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0500649DFF8CFA1C",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-columbus-ohio-10-29-2026/event/0500649DFF8CFA1C",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-26",
         "availability_status": "not_checked",
         "discovery_event_id": "vv17fZ_aGkMTN2Ij"
       },
@@ -1347,13 +1347,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921659",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921659/Olivia-Rodrigo-tickets-Thu-Oct-29-2026-Value-City-Arena-at-The-Schottenstein-Center",
     "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-columbus-tickets-10-29-2026/event/107165568",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-05-07T16:00:00Z",
-        "end": "2026-10-25T16:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

@@ -84,7 +84,7 @@
     "vividseats_url": "https://www.vividseats.com/jason-aldean-tickets-las-vegas-allegiant-stadium-12-11-2026--concerts-country-and-folk/production/6969561",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-bryan-jason-aldean-double-down-las-vegas-nevada-12-11-2026/event/1700649CB11CC234",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -135,6 +135,26 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7922101",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7922101/Luke-Bryan-tickets-Fri-Dec-11-2026-Allegiant-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7922101/Luke-Bryan-tickets-Fri-Dec-11-2026-Allegiant-Stadium",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-08T17:00:00Z",
+        "end": "2026-12-08T06:00:00Z"
+      },
+      {
+        "name": "Preferred Seating Onsale",
+        "start": "2026-05-08T17:00:00Z",
+        "end": "2026-12-12T06:00:00Z"
+      },
+      {
+        "name": "Official Platinum Onsale",
+        "start": "2026-05-08T17:00:00Z",
+        "end": "2026-12-12T11:59:00Z"
+      }
+    ]
   }
 ]

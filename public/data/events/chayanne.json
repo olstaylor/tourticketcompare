@@ -95,7 +95,7 @@
     "vividseats_url": "https://www.vividseats.com/chayanne-tickets-tampa-benchmark-international-arena-10-30-2026/production/6924881",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-tampa-florida-10-30-2026/event/0D00646B90586364",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -159,11 +159,6 @@
     ],
     "presales": [
       {
-        "name": "20% OFF LIMITED TIME OFFER",
-        "start": "2026-10-23T14:00:00Z",
-        "end": "2026-10-26T02:00:00Z"
-      },
-      {
         "name": "25% OFF LIMITED TIME OFFER!",
         "start": "2026-10-28T14:00:00Z",
         "end": "2026-10-30T02:00:00Z"
@@ -187,7 +182,7 @@
     "vividseats_url": "https://www.vividseats.com/chayanne-tickets-orlando-kia-center-10-31-2026/production/6924903",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-orlando-florida-10-31-2026/event/2200646CA0686AC5",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-10-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -250,11 +245,6 @@
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "presales": [
-      {
-        "name": "Flash Sale #7",
-        "start": "2026-10-23T14:00:00Z",
-        "end": "2026-10-26T02:00:00Z"
-      },
       {
         "name": "Flash Sale #8",
         "start": "2026-10-28T14:00:00Z",

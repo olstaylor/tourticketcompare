@@ -1902,5 +1902,167 @@
         "end": "2027-01-01T06:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-santana-2027-london-1agzk4pgkemmuru",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana Planet of Free Will Global Tour 2027",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-06-30T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006556AEDF6BF6",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/santana-planet-of-free-will-global-london-30-06-2027/event/35006556AEDF6BF6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/santana-planet-of-free-will-global-london-30-06-2027/event/35006556AEDF6BF6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006556AEDF6BF6",
+        "discovery_event_id": "1AgZk4pGkemMURU",
+        "url": "https://www.ticketmaster.co.uk/santana-planet-of-free-will-global-london-30-06-2027/event/35006556AEDF6BF6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk4pGkemMURU",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
+  },
+  {
+    "id": "tm-santana-2027-krakow-z698xzqpz16va4pvo4",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana - Planet of Free Will Tour 2027",
+    "city": "Krakow",
+    "country": "Poland",
+    "venue": "TAURON Arena Kraków",
+    "datetime_iso": "2027-07-24T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1255941455",
+    "ticketmaster_url": "https://www.ticketmaster.pl/event/santana-planet-of-free-will-tour-2027-tickets/1255941455?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.pl/event/santana-planet-of-free-will-tour-2027-tickets/1255941455?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1255941455",
+        "discovery_event_id": "Z698xZQpZ16va4Pvo4",
+        "url": "https://www.ticketmaster.pl/event/santana-planet-of-free-will-tour-2027-tickets/1255941455?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZQpZ16va4Pvo4",
+    "timezone": "Europe/Warsaw",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T11:00:00Z"
+  },
+  {
+    "id": "tm-santana-2027-oslo-z698xzb_z16v43vmbv",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana - Planet of Free Will Global Tour 2027",
+    "city": "Oslo",
+    "country": "Norway",
+    "venue": "Oslo Spektrum",
+    "datetime_iso": "2027-07-28T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1552077634",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/santana-planet-of-free-will-global-tour-2027-tickets/1552077634?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/santana-planet-of-free-will-global-tour-2027-tickets/1552077634?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1552077634",
+        "discovery_event_id": "Z698xZb_Z16v43vMbV",
+        "url": "https://www.ticketmaster.no/event/santana-planet-of-free-will-global-tour-2027-tickets/1552077634?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z16v43vMbV",
+    "timezone": "Europe/Oslo",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:00:00Z"
   }
 ]

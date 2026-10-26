@@ -3300,5 +3300,58 @@
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333456/Sienna-Spiro-tickets-Wed-Aug-18-2027-Radio-City-Music-Hall",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333456"
+  },
+  {
+    "id": "tm-sienna-spiro-2027-morrison-z7r9jz1aa7-1d",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-08-31T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7-1d",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-1d",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-1d",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7-1d",
+        "discovery_event_id": "Z7r9jZ1AA7-1d",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-1d",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7-1d",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

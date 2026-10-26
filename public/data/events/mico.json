@@ -2704,5 +2704,58 @@
     "ticketmaster_discovery_event_id": "rZ7HnEZ1AfCpa7",
     "timezone": "America/New_York",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-mico-2027-columbus-z7r9jz1aa7_pz",
+    "artist_slug": "mico",
+    "artist_name": "Mico",
+    "event_name": "MICO - IN:BETWEEN TOUR",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Newport Music Hall",
+    "datetime_iso": "2027-03-11T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7_pZ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_pZ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_pZ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7_pZ",
+        "discovery_event_id": "Z7r9jZ1AA7_pZ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_pZ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7_pZ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

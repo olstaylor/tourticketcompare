@@ -200,5 +200,111 @@
       "LIVE NATION MUSIC"
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8182281/Turnpike-Troubadours-tickets-Fri-Dec-11-2026-Brooklyn-Bowl-Las-Vegas"
+  },
+  {
+    "id": "tm-turnpike-troubadours-2027-morrison-z7r9jz1aa7_ae",
+    "artist_slug": "turnpike-troubadours",
+    "artist_name": "Turnpike Troubadours",
+    "event_name": "Turnpike Troubadours w/ Amble",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-05-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7_ae",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_ae",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_ae",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7_ae",
+        "discovery_event_id": "Z7r9jZ1AA7_ae",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_ae",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7_ae",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-turnpike-troubadours-2027-morrison-z7r9jz1aa7_av",
+    "artist_slug": "turnpike-troubadours",
+    "artist_name": "Turnpike Troubadours",
+    "event_name": "Turnpike Troubadours w/ Amble",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-05-15T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7_av",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_av",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_av",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7_av",
+        "discovery_event_id": "Z7r9jZ1AA7_av",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_av",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7_av",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

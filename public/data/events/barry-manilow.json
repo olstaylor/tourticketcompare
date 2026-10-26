@@ -1,0 +1,1698 @@
+[
+  {
+    "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dw4juo",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2026-11-06T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD566360",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-05-2026/event/170062F0FD566360",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-11-05-7-pm/concert/17637144",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-05-2026/event/170062F0FD566360",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD566360",
+        "discovery_event_id": "17AYvxG62dW4JuO",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-05-2026/event/170062F0FD566360",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dW4JuO",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwppux",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2026-11-07T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD596362",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-06-2026/event/170062F0FD596362",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-11-06-8-pm/concert/17637145",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-06-2026/event/170062F0FD596362",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD596362",
+        "discovery_event_id": "17AYvxG62dWppux",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-06-2026/event/170062F0FD596362",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dWppux",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwpuu0",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2026-11-08T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD5B6364",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-07-2026/event/170062F0FD5B6364",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-11-07-7-pm/concert/17637146",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-07-2026/event/170062F0FD5B6364",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD5B6364",
+        "discovery_event_id": "17AYvxG62dWpUu0",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-07-2026/event/170062F0FD5B6364",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dWpUu0",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dw9jut",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2026-11-13T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD5E6369",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-12-2026/event/170062F0FD5E6369",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-11-12-7-pm/concert/17637148",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-12-2026/event/170062F0FD5E6369",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD5E6369",
+        "discovery_event_id": "17AYvxG62dW9Jut",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-12-2026/event/170062F0FD5E6369",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dW9Jut",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwbkui",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2026-11-14T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD60636C",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-13-2026/event/170062F0FD60636C",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-11-13-8-pm/concert/17637150",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-13-2026/event/170062F0FD60636C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD60636C",
+        "discovery_event_id": "17AYvxG62dWbkui",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-13-2026/event/170062F0FD60636C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dWbkui",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwbuur",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2026-11-15T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD63636F",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-14-2026/event/170062F0FD63636F",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-11-14-7-pm/concert/17637151",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-14-2026/event/170062F0FD63636F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD63636F",
+        "discovery_event_id": "17AYvxG62dWbUuR",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-14-2026/event/170062F0FD63636F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dWbUuR",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dw_pus",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2026-12-04T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD656371",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-03-2026/event/170062F0FD656371",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-12-03-7-pm/concert/17637156",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-03-2026/event/170062F0FD656371",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD656371",
+        "discovery_event_id": "17AYvxG62dW_pus",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-03-2026/event/170062F0FD656371",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dW_pus",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwqkuv",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2026-12-05T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD686374",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-04-2026/event/170062F0FD686374",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-12-04-8-pm/concert/17637157",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-04-2026/event/170062F0FD686374",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD686374",
+        "discovery_event_id": "17AYvxG62dWQkuV",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-04-2026/event/170062F0FD686374",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dWQkuV",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwqjuu",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2026-12-06T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD6A6376",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-05-2026/event/170062F0FD6A6376",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-12-05-7-pm/concert/17637159",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-05-2026/event/170062F0FD6A6376",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD6A6376",
+        "discovery_event_id": "17AYvxG62dWQJuU",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-05-2026/event/170062F0FD6A6376",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dWQJuU",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwhpuz",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2026-12-11T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD6D6378",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-10-2026/event/170062F0FD6D6378",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-12-10-7-pm/concert/17637161",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-10-2026/event/170062F0FD6D6378",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD6D6378",
+        "discovery_event_id": "17AYvxG62dWhpuz",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-10-2026/event/170062F0FD6D6378",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dWhpuz",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwhuub",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2026-12-12T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD6F637A",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-11-2026/event/170062F0FD6F637A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-11-2026/event/170062F0FD6F637A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD6F637A",
+        "discovery_event_id": "17AYvxG62dWhUuB",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-11-2026/event/170062F0FD6F637A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dWhUuB",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwjjc1",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2026-12-13T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD72638A",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-12-2026/event/170062F0FD72638A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-12-2026/event/170062F0FD72638A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD72638A",
+        "discovery_event_id": "17AYvxG62dWjJC1",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-12-2026/event/170062F0FD72638A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dWjJC1",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwqpcc",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2026-12-18T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD75638E",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-17-2026/event/170062F0FD75638E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-17-2026/event/170062F0FD75638E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD75638E",
+        "discovery_event_id": "17AYvxG62dWqpCC",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-17-2026/event/170062F0FD75638E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dWqpCC",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwrkco",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2026-12-19T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD786391",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-18-2026/event/170062F0FD786391",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-18-2026/event/170062F0FD786391",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD786391",
+        "discovery_event_id": "17AYvxG62dWrkCo",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-18-2026/event/170062F0FD786391",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dWrkCo",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwlkck",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2026-12-20T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD7C6393",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-19-2026/event/170062F0FD7C6393",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-19-2026/event/170062F0FD7C6393",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD7C6393",
+        "discovery_event_id": "17AYvxG62dWLkCK",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-19-2026/event/170062F0FD7C6393",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dWLkCK",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2027-sunrise-z7r9jz1a7ji0e",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Sunrise",
+    "country": "United States Of America",
+    "venue": "Amerant Bank Arena",
+    "datetime_iso": "2027-01-16T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7jI0E",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jI0E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jI0E",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7jI0E",
+        "discovery_event_id": "Z7r9jZ1A7jI0E",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jI0E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7jI0E",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2027-estero-vvg1vzbwhe6k-q",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Manilow: The Last Estero Concerts",
+    "city": "Estero",
+    "country": "United States Of America",
+    "venue": "Hertz Arena",
+    "datetime_iso": "2027-01-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00632F271D385A",
+    "ticketmaster_url": "https://www.ticketmaster.com/manilow-the-last-estero-concerts-estero-florida-01-16-2027/event/0D00632F271D385A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/manilow-the-last-estero-concerts-estero-florida-01-16-2027/event/0D00632F271D385A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00632F271D385A",
+        "discovery_event_id": "vvG1VZbwHE6K-Q",
+        "url": "https://www.ticketmaster.com/manilow-the-last-estero-concerts-estero-florida-01-16-2027/event/0D00632F271D385A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZbwHE6K-Q",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2027-estero-vvg1vzbwhe6n-j",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Manilow: The Last Estero Concerts",
+    "city": "Estero",
+    "country": "United States Of America",
+    "venue": "Hertz Arena",
+    "datetime_iso": "2027-01-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00632F271E385C",
+    "ticketmaster_url": "https://www.ticketmaster.com/manilow-the-last-estero-concerts-estero-florida-01-17-2027/event/0D00632F271E385C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/manilow-the-last-estero-concerts-estero-florida-01-17-2027/event/0D00632F271E385C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00632F271E385C",
+        "discovery_event_id": "vvG1VZbwHE6N-j",
+        "url": "https://www.ticketmaster.com/manilow-the-last-estero-concerts-estero-florida-01-17-2027/event/0D00632F271E385C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZbwHE6N-j",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2027-tampa-vvg1vzbsept-t8",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "MANILOW: The Last Tampa Concert",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Benchmark International Arena",
+    "datetime_iso": "2027-01-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006330A5FE1A50",
+    "ticketmaster_url": "https://www.ticketmaster.com/manilow-the-last-tampa-concert-tampa-florida-01-20-2027/event/0D006330A5FE1A50",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/manilow-the-last-tampa-concert-tampa-florida-01-20-2027/event/0D006330A5FE1A50",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006330A5FE1A50",
+        "discovery_event_id": "vvG1VZbSePT-t8",
+        "url": "https://www.ticketmaster.com/manilow-the-last-tampa-concert-tampa-florida-01-20-2027/event/0D006330A5FE1A50",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZbSePT-t8",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2027-orlando-1aefzbwgksczswf",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "MANILOW: The Last Orlando Concert",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Kia Center",
+    "datetime_iso": "2027-01-22T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2200632CCE031F54",
+    "ticketmaster_url": "https://www.ticketmaster.com/manilow-the-last-orlando-concert-orlando-florida-01-21-2027/event/2200632CCE031F54",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/manilow-the-last-orlando-concert-orlando-florida-01-21-2027/event/2200632CCE031F54",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2200632CCE031F54",
+        "discovery_event_id": "1AeFZbwGkSCZsWf",
+        "url": "https://www.ticketmaster.com/manilow-the-last-orlando-concert-orlando-florida-01-21-2027/event/2200632CCE031F54",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeFZbwGkSCZsWf",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dw5kgq",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2027-02-19T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD2C631D",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-18-2027/event/170062F0FD2C631D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-18-2027/event/170062F0FD2C631D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD2C631D",
+        "discovery_event_id": "17AYvxG62dW5kGq",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-18-2027/event/170062F0FD2C631D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dW5kGq",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dw5ugn",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2027-02-20T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD2F632A",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-19-2027/event/170062F0FD2F632A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-19-2027/event/170062F0FD2F632A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD2F632A",
+        "discovery_event_id": "17AYvxG62dW5UGn",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-19-2027/event/170062F0FD2F632A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dW5UGn",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dwupgi",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2027-02-21T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD35632C",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-20-2027/event/170062F0FD35632C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-20-2027/event/170062F0FD35632C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD35632C",
+        "discovery_event_id": "17AYvxG62dWupGi",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-20-2027/event/170062F0FD35632C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dWupGi",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dwuugv",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2027-02-26T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD376334",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-25-2027/event/170062F0FD376334",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-25-2027/event/170062F0FD376334",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD376334",
+        "discovery_event_id": "17AYvxG62dWuUGV",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-25-2027/event/170062F0FD376334",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dWuUGV",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dwcjgy",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2027-02-27T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD3A6339",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-26-2027/event/170062F0FD3A6339",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-26-2027/event/170062F0FD3A6339",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD3A6339",
+        "discovery_event_id": "17AYvxG62dWCJGy",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-26-2027/event/170062F0FD3A6339",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dWCJGy",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dw2kgd",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2027-02-28T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD3C633B",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-27-2027/event/170062F0FD3C633B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-27-2027/event/170062F0FD3C633B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD3C633B",
+        "discovery_event_id": "17AYvxG62dW2kGD",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-27-2027/event/170062F0FD3C633B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dW2kGD",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dw2ugw",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2027-03-26T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD3F633D",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-03-25-2027/event/170062F0FD3F633D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-03-25-2027/event/170062F0FD3F633D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD3F633D",
+        "discovery_event_id": "17AYvxG62dW2UGW",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-03-25-2027/event/170062F0FD3F633D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dW2UGW",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dw8pgt",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2027-03-27T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD41633F",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-03-26-2027/event/170062F0FD41633F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-03-26-2027/event/170062F0FD41633F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD41633F",
+        "discovery_event_id": "17AYvxG62dW8pGT",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-03-26-2027/event/170062F0FD41633F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dW8pGT",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dwokuv",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2027-03-28T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170062F0FD446341",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-03-27-2027/event/170062F0FD446341",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-03-27-2027/event/170062F0FD446341",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170062F0FD446341",
+        "discovery_event_id": "17AYvxG62dWokuv",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-03-27-2027/event/170062F0FD446341",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYvxG62dWokuv",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2027-las-vegas-1avjz_3gkroi64s",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2027-04-02T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700652BD1B07571",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-04-01-2027/event/1700652BD1B07571",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-04-01-2027/event/1700652BD1B07571",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700652BD1B07571",
+        "discovery_event_id": "1AvjZ_3GkRoi64s",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-04-01-2027/event/1700652BD1B07571",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_3GkRoi64s",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2027-las-vegas-1avjz_3gkrocmpa",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2027-04-03T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700652BD1B77585",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-04-02-2027/event/1700652BD1B77585",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-04-02-2027/event/1700652BD1B77585",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700652BD1B77585",
+        "discovery_event_id": "1AvjZ_3GkRocMpA",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-04-02-2027/event/1700652BD1B77585",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_3GkRocMpA",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-barry-manilow-2027-las-vegas-1avjz_3gkrorept",
+    "artist_slug": "barry-manilow",
+    "artist_name": "Barry Manilow",
+    "event_name": "Barry Manilow",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Westgate Las Vegas International Theater",
+    "datetime_iso": "2027-04-04T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700652BD1BE75BF",
+    "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-04-03-2027/event/1700652BD1BE75BF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-04-03-2027/event/1700652BD1BE75BF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700652BD1BE75BF",
+        "discovery_event_id": "1AvjZ_3GkRoREpT",
+        "url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-04-03-2027/event/1700652BD1BE75BF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_3GkRoREpT",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

@@ -1,0 +1,426 @@
+[
+  {
+    "id": "tm-koe-wetzel-2026-morrison-z7r9jz1a7-0gf",
+    "artist_slug": "koe-wetzel",
+    "artist_name": "Koe Wetzel",
+    "event_name": "Koe Wetzel w/ Wade Bowen",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2026-10-29T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-0GF",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-0GF",
+    "seatgeek_url": "https://seatgeek.com/koe-wetzel-tickets/morrison-colorado-red-rocks-amphitheatre-2026-10-28-6-45-pm/concert/18095493",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-0GF",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-0GF",
+        "discovery_event_id": "Z7r9jZ1A7-0GF",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-0GF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-0GF",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-koe-wetzel-2026-lubbock-z7r9jz1a7-jaw",
+    "artist_slug": "koe-wetzel",
+    "artist_name": "Koe Wetzel",
+    "event_name": "Koe Wetzel",
+    "city": "Lubbock",
+    "country": "United States Of America",
+    "venue": "Cook's Garage",
+    "datetime_iso": "2026-10-30T23:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-JAw",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-JAw",
+    "seatgeek_url": "https://seatgeek.com/koe-wetzel-tickets/lubbock-texas-cook-s-garage-2026-10-30-6-45-pm/concert/18095494",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-JAw",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-JAw",
+        "discovery_event_id": "Z7r9jZ1A7-JAw",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-JAw",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-JAw",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-koe-wetzel-2026-helotes-z7r9jz1aaebqp",
+    "artist_slug": "koe-wetzel",
+    "artist_name": "Koe Wetzel",
+    "event_name": "Koe Wetzel and Parker McCollum (17 and Under Admitted with Parent or Guardian Only)",
+    "city": "Helotes",
+    "country": "United States Of America",
+    "venue": "John T Floore Country Store",
+    "datetime_iso": "2026-12-03T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAebQp",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebQp",
+    "seatgeek_url": "https://seatgeek.com/koe-wetzel-tickets/helotes-texas-john-t-floore-country-store-2026-12-02-7-pm/concert/18649773",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebQp",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAebQp",
+        "discovery_event_id": "Z7r9jZ1AAebQp",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebQp",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAebQp",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-koe-wetzel-2026-corpus-christi-z7r9jz1aaebqk",
+    "artist_slug": "koe-wetzel",
+    "artist_name": "Koe Wetzel",
+    "event_name": "Koe Wetzel & Parker McCollum - Naughty or Nice Tour",
+    "city": "Corpus Christi",
+    "country": "United States Of America",
+    "venue": "Concrete Street Amphitheater",
+    "datetime_iso": "2026-12-05T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAebqk",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebqk",
+    "seatgeek_url": "https://seatgeek.com/koe-wetzel-tickets/corpus-christi-texas-concrete-street-amphitheater-2026-12-04-7-pm/concert/18649774",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebqk",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAebqk",
+        "discovery_event_id": "Z7r9jZ1AAebqk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebqk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAebqk",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-koe-wetzel-2026-round-rock-z7r9jz1aaeb-n",
+    "artist_slug": "koe-wetzel",
+    "artist_name": "Koe Wetzel",
+    "event_name": "Koe Wetzel and Parker McCollum: Naughty or Nice Tour",
+    "city": "Round Rock",
+    "country": "United States Of America",
+    "venue": "Round Rock Amp",
+    "datetime_iso": "2026-12-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeb-N",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb-N",
+    "seatgeek_url": "https://seatgeek.com/koe-wetzel-tickets/round-rock-texas-round-rock-amp-2026-12-05-7-pm/concert/18649776",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb-N",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeb-N",
+        "discovery_event_id": "Z7r9jZ1AAeb-N",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb-N",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeb-N",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-koe-wetzel-2026-fort-worth-z7r9jz1aa7evf",
+    "artist_slug": "koe-wetzel",
+    "artist_name": "Koe Wetzel",
+    "event_name": "Koe Wetzel w/ Parker McCollum",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Billy Bob's",
+    "datetime_iso": "2026-12-10T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7evf",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7evf",
+    "seatgeek_url": "https://seatgeek.com/koe-wetzel-tickets/fort-worth-texas-billy-bob-s-texas-2026-12-09-9-pm/concert/18665100",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7evf",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7evf",
+        "discovery_event_id": "Z7r9jZ1AA7evf",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7evf",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7evf",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-koe-wetzel-2026-fort-worth-z7r9jz1aa7vfe",
+    "artist_slug": "koe-wetzel",
+    "artist_name": "Koe Wetzel",
+    "event_name": "Koe Wetzel w/ Parker McCollum",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Billy Bob's",
+    "datetime_iso": "2026-12-11T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7vfE",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7vfE",
+    "seatgeek_url": "https://seatgeek.com/koe-wetzel-tickets/fort-worth-texas-billy-bob-s-texas-2026-12-10-9-pm/concert/18649775",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7vfE",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7vfE",
+        "discovery_event_id": "Z7r9jZ1AA7vfE",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7vfE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7vfE",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-koe-wetzel-2026-las-vegas-1ayzkfkgkdtup_a",
+    "artist_slug": "koe-wetzel",
+    "artist_name": "Koe Wetzel",
+    "event_name": "Koe Wetzel",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "PH Live at Planet Hollywood",
+    "datetime_iso": "2026-12-12T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "39006506E9356649",
+    "ticketmaster_url": "https://www.ticketmaster.com/koe-wetzel-las-vegas-nevada-12-11-2026/event/39006506E9356649",
+    "seatgeek_url": "https://seatgeek.com/koe-wetzel-tickets/las-vegas-nevada-ph-live-at-planet-hollywood-2026-12-11-8-pm/concert/18471843",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/koe-wetzel-las-vegas-nevada-12-11-2026/event/39006506E9356649",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "39006506E9356649",
+        "discovery_event_id": "1AyZkfkGkdtup_a",
+        "url": "https://www.ticketmaster.com/koe-wetzel-las-vegas-nevada-12-11-2026/event/39006506E9356649",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AyZkfkGkdtup_a",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

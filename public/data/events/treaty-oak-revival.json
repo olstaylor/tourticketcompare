@@ -1,0 +1,214 @@
+[
+  {
+    "id": "tm-treaty-oak-revival-2026-corpus-christi-z7r9jz1a70e78",
+    "artist_slug": "treaty-oak-revival",
+    "artist_name": "Treaty Oak Revival",
+    "event_name": "Treaty Oak Revival",
+    "city": "Corpus Christi",
+    "country": "United States Of America",
+    "venue": "Concrete Street Amphitheater",
+    "datetime_iso": "2026-10-30T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70E78",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E78",
+    "seatgeek_url": "https://seatgeek.com/treaty-oak-revival-tickets/corpus-christi-texas-concrete-street-amphitheater-2026-10-29-7-pm/concert/18230902",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E78",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70E78",
+        "discovery_event_id": "Z7r9jZ1A70E78",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E78",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70E78",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-treaty-oak-revival-2026-austin-g5diz_19twyeh",
+    "artist_slug": "treaty-oak-revival",
+    "artist_name": "Treaty Oak Revival",
+    "event_name": "Treaty Oak Revival - West Texas Degenerate Tour",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2026-11-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064A5E9CB90BC",
+    "ticketmaster_url": "https://www.ticketmaster.com/treaty-oak-revival-west-texas-degenerate-austin-texas-11-12-2026/event/3A0064A5E9CB90BC",
+    "seatgeek_url": "https://seatgeek.com/treaty-oak-revival-tickets/austin-texas-moody-center-atx-2026-11-12-7-pm/concert/18229329",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/treaty-oak-revival-west-texas-degenerate-austin-texas-11-12-2026/event/3A0064A5E9CB90BC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064A5E9CB90BC",
+        "discovery_event_id": "G5dIZ_19twyeH",
+        "url": "https://www.ticketmaster.com/treaty-oak-revival-west-texas-degenerate-austin-texas-11-12-2026/event/3A0064A5E9CB90BC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_19twyeH",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-treaty-oak-revival-2026-the-woodlands-g5diz_1panpuq",
+    "artist_slug": "treaty-oak-revival",
+    "artist_name": "Treaty Oak Revival",
+    "event_name": "Treaty Oak Revival: West Texas Degenerate Tour",
+    "city": "The Woodlands",
+    "country": "United States Of America",
+    "venue": "The Cynthia Woods Mitchell Pavilion sponsored by Huntsman",
+    "datetime_iso": "2026-11-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064A5858D635A",
+    "ticketmaster_url": "https://www.ticketmaster.com/treaty-oak-revival-west-texas-degenerate-the-woodlands-texas-11-13-2026/event/3A0064A5858D635A",
+    "seatgeek_url": "https://seatgeek.com/treaty-oak-revival-tickets/the-woodlands-texas-the-cynthia-woods-mitchell-pavilion-presented-by-huntsman-2026-11-13-7-pm/concert/18229327",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/treaty-oak-revival-west-texas-degenerate-the-woodlands-texas-11-13-2026/event/3A0064A5858D635A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064A5858D635A",
+        "discovery_event_id": "G5dIZ_1pANpuQ",
+        "url": "https://www.ticketmaster.com/treaty-oak-revival-west-texas-degenerate-the-woodlands-texas-11-13-2026/event/3A0064A5858D635A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_1pANpuQ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-treaty-oak-revival-2026-tulsa-1aezz_3x88ozdgea",
+    "artist_slug": "treaty-oak-revival",
+    "artist_name": "Treaty Oak Revival",
+    "event_name": "Treaty Oak Revival Extreme Rodeo",
+    "city": "Tulsa",
+    "country": "United States Of America",
+    "venue": "BOK Center",
+    "datetime_iso": "2026-11-22T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2000652890411B18",
+    "ticketmaster_url": "https://www.ticketmaster.com/treaty-oak-revival-extreme-rodeo-tulsa-oklahoma-11-21-2026/event/2000652890411B18",
+    "seatgeek_url": "https://seatgeek.com/treaty-oak-revival-tickets/tulsa-oklahoma-bok-center-2026-11-21-6-pm/concert/18590276",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/treaty-oak-revival-extreme-rodeo-tulsa-oklahoma-11-21-2026/event/2000652890411B18",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000652890411B18",
+        "discovery_event_id": "1aeZZ_3x88oZdGea",
+        "url": "https://www.ticketmaster.com/treaty-oak-revival-extreme-rodeo-tulsa-oklahoma-11-21-2026/event/2000652890411B18",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1aeZZ_3x88oZdGea",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  }
+]

@@ -2792,6 +2792,118 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-billy-strings",
     redirectUrl: "https://seatgeek.com/billy-strings-tickets",
     verified: true
+  },
+  "cristian-castro:ticketmaster": {
+    artistSlug: "cristian-castro",
+    provider: "ticketmaster",
+    linkId: "tm-artist-cristian-castro",
+    redirectUrl: "https://www.ticketmaster.com/cristian-castro-tickets/artist/844826",
+    verified: true
+  },
+  "cristian-castro:seatgeek": {
+    artistSlug: "cristian-castro",
+    provider: "seatgeek",
+    linkId: "sg-artist-cristian-castro",
+    redirectUrl: "https://seatgeek.com/cristian-castro-tickets",
+    verified: true
+  },
+  "treaty-oak-revival:ticketmaster": {
+    artistSlug: "treaty-oak-revival",
+    provider: "ticketmaster",
+    linkId: "tm-artist-treaty-oak-revival",
+    redirectUrl: "https://www.ticketmaster.com/treaty-oak-revival-tickets/artist/2951358",
+    verified: true
+  },
+  "treaty-oak-revival:seatgeek": {
+    artistSlug: "treaty-oak-revival",
+    provider: "seatgeek",
+    linkId: "sg-artist-treaty-oak-revival",
+    redirectUrl: "https://seatgeek.com/treaty-oak-revival-tickets",
+    verified: true
+  },
+  "boyz-ii-men:ticketmaster": {
+    artistSlug: "boyz-ii-men",
+    provider: "ticketmaster",
+    linkId: "tm-artist-boyz-ii-men",
+    redirectUrl: "https://www.ticketmaster.com/boyz-ii-men-tickets/artist/734632",
+    verified: true
+  },
+  "boyz-ii-men:seatgeek": {
+    artistSlug: "boyz-ii-men",
+    provider: "seatgeek",
+    linkId: "sg-artist-boyz-ii-men",
+    redirectUrl: "https://seatgeek.com/boyz-ii-men-tickets",
+    verified: true
+  },
+  "barry-manilow:ticketmaster": {
+    artistSlug: "barry-manilow",
+    provider: "ticketmaster",
+    linkId: "tm-artist-barry-manilow",
+    redirectUrl: "https://www.ticketmaster.com/barry-manilow-tickets/artist/735585",
+    verified: true
+  },
+  "barry-manilow:seatgeek": {
+    artistSlug: "barry-manilow",
+    provider: "seatgeek",
+    linkId: "sg-artist-barry-manilow",
+    redirectUrl: "https://seatgeek.com/barry-manilow-tickets",
+    verified: true
+  },
+  "koe-wetzel:ticketmaster": {
+    artistSlug: "koe-wetzel",
+    provider: "ticketmaster",
+    linkId: "tm-artist-koe-wetzel",
+    redirectUrl: "https://www.ticketmaster.com/koe-wetzel-tickets/artist/2453935",
+    verified: true
+  },
+  "koe-wetzel:seatgeek": {
+    artistSlug: "koe-wetzel",
+    provider: "seatgeek",
+    linkId: "sg-artist-koe-wetzel",
+    redirectUrl: "https://seatgeek.com/koe-wetzel-tickets",
+    verified: true
+  },
+  "victoria-monet:ticketmaster": {
+    artistSlug: "victoria-monet",
+    provider: "ticketmaster",
+    linkId: "tm-artist-victoria-monet",
+    redirectUrl: "https://www.ticketmaster.com/victoria-monet-tickets/artist/2247197",
+    verified: true
+  },
+  "victoria-monet:seatgeek": {
+    artistSlug: "victoria-monet",
+    provider: "seatgeek",
+    linkId: "sg-artist-victoria-monet",
+    redirectUrl: "https://seatgeek.com/victoria-monet-tickets",
+    verified: true
+  },
+  "jon-pardi:ticketmaster": {
+    artistSlug: "jon-pardi",
+    provider: "ticketmaster",
+    linkId: "tm-artist-jon-pardi",
+    redirectUrl: "https://www.ticketmaster.com/jon-pardi-tickets/artist/1541267",
+    verified: true
+  },
+  "jon-pardi:seatgeek": {
+    artistSlug: "jon-pardi",
+    provider: "seatgeek",
+    linkId: "sg-artist-jon-pardi",
+    redirectUrl: "https://seatgeek.com/jon-pardi-tickets",
+    verified: true
+  },
+  "brandi-carlile:ticketmaster": {
+    artistSlug: "brandi-carlile",
+    provider: "ticketmaster",
+    linkId: "tm-artist-brandi-carlile",
+    redirectUrl: "https://www.ticketmaster.com/brandi-carlile-tickets/artist/974048",
+    verified: true
+  },
+  "brandi-carlile:seatgeek": {
+    artistSlug: "brandi-carlile",
+    provider: "seatgeek",
+    linkId: "sg-artist-brandi-carlile",
+    redirectUrl: "https://seatgeek.com/brandi-carlile-tickets",
+    verified: true
   }
 };
 

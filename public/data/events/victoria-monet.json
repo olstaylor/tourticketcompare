@@ -1,0 +1,1327 @@
+[
+  {
+    "id": "tm-victoria-monet-2026-houston-g5diz_33ccqfw",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monét: Frequency Of Love Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "713 Music Hall",
+    "datetime_iso": "2026-11-01T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006524ADB5A232",
+    "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-houston-texas-10-31-2026/event/3A006524ADB5A232",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-houston-texas-10-31-2026/event/3A006524ADB5A232",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006524ADB5A232",
+        "discovery_event_id": "G5dIZ_33ccQFw",
+        "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-houston-texas-10-31-2026/event/3A006524ADB5A232",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_33ccQFw",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-dallas-vvg1yz_3n9clqe",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monét: Frequency Of Love Tour",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "South Side Ballroom",
+    "datetime_iso": "2026-11-03T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006528D73AB742",
+    "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-dallas-texas-11-02-2026/event/0C006528D73AB742",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-dallas-texas-11-02-2026/event/0C006528D73AB742",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006528D73AB742",
+        "discovery_event_id": "vvG1YZ_3N9Clqe",
+        "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-dallas-texas-11-02-2026/event/0C006528D73AB742",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_3N9Clqe",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-atlanta-z7r9jz1aavpbj",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monet - Frequency Of Love Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Fox Theatre - Atlanta",
+    "datetime_iso": "2026-11-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvPbJ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPbJ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPbJ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvPbJ",
+        "discovery_event_id": "Z7r9jZ1AAvPbJ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPbJ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvPbJ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-charlotte-g5evz_3nkdbni",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monét-MOVED TO OVENS AUDITORIUM",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Skyla Credit Union Amphitheatre",
+    "datetime_iso": "2026-11-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006528D30D8AA8",
+    "ticketmaster_url": "https://www.ticketmaster.com/victoria-monetmoved-to-ovens-auditorium-charlotte-north-carolina-11-05-2026/event/2D006528D30D8AA8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/victoria-monetmoved-to-ovens-auditorium-charlotte-north-carolina-11-05-2026/event/2D006528D30D8AA8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006528D30D8AA8",
+        "discovery_event_id": "G5eVZ_3NKdbnI",
+        "url": "https://www.ticketmaster.com/victoria-monetmoved-to-ovens-auditorium-charlotte-north-carolina-11-05-2026/event/2D006528D30D8AA8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_3NKdbnI",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-fort-lauderdale-z7r9jz1aavpbe",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monet - Frequency Of Love Tour",
+    "city": "Fort Lauderdale",
+    "country": "United States Of America",
+    "venue": "War Memorial Auditorium-FL",
+    "datetime_iso": "2026-11-08T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvPbE",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPbE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPbE",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvPbE",
+        "discovery_event_id": "Z7r9jZ1AAvPbE",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPbE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvPbE",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-tampa-vvg1vz_3nvhqgr",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monét: Frequency Of Love Tour",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Yuengling Center",
+    "datetime_iso": "2026-11-09T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006528C1F1AD5E",
+    "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-tampa-florida-11-08-2026/event/0D006528C1F1AD5E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-tampa-florida-11-08-2026/event/0D006528C1F1AD5E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006528C1F1AD5E",
+        "discovery_event_id": "vvG1VZ_3NvHQgr",
+        "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-tampa-florida-11-08-2026/event/0D006528C1F1AD5E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_3NvHQgr",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-philadelphia-vv1aezkfxgkegbvoj",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monét: Frequency Of Love Tour",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Met Presented by Highmark",
+    "datetime_iso": "2026-11-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006522B5634466",
+    "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-philadelphia-pennsylvania-11-12-2026/event/02006522B5634466",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-philadelphia-pennsylvania-11-12-2026/event/02006522B5634466",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006522B5634466",
+        "discovery_event_id": "vv1AeZkfxGkegbVoJ",
+        "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-philadelphia-pennsylvania-11-12-2026/event/02006522B5634466",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkfxGkegbVoJ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-boston-vv1avzkfpgkdybxe-",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monét: Frequency Of Love Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2026-11-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006525F9EBE9E1",
+    "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-boston-massachusetts-11-13-2026/event/01006525F9EBE9E1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-boston-massachusetts-11-13-2026/event/01006525F9EBE9E1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006525F9EBE9E1",
+        "discovery_event_id": "vv1AvZkfPGkdyBXE-",
+        "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-boston-massachusetts-11-13-2026/event/01006525F9EBE9E1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkfPGkdyBXE-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-detroit-vv1afzkfegkdcyvij",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monét: Frequency Of Love Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Fox Theatre Detroit",
+    "datetime_iso": "2026-11-16T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006527CEC34B26",
+    "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-detroit-michigan-11-15-2026/event/08006527CEC34B26",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-detroit-michigan-11-15-2026/event/08006527CEC34B26",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006527CEC34B26",
+        "discovery_event_id": "vv1AFZkfEGkdCYViJ",
+        "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-detroit-michigan-11-15-2026/event/08006527CEC34B26",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkfEGkdCYViJ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-milwaukee-vv1kjz_3f4g7vnwv",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monét: Frequency Of Love Tour",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Landmark Credit Union Live",
+    "datetime_iso": "2026-11-17T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700652515D2AF74",
+    "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-milwaukee-wisconsin-11-16-2026/event/0700652515D2AF74",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-milwaukee-wisconsin-11-16-2026/event/0700652515D2AF74",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700652515D2AF74",
+        "discovery_event_id": "vv1kjZ_3f4G7VnWV",
+        "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-milwaukee-wisconsin-11-16-2026/event/0700652515D2AF74",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kjZ_3f4G7VnWV",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-chicago-vv1k8z_3bag7xjoo",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monét: Frequency Of Love Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Aragon Ballroom",
+    "datetime_iso": "2026-11-19T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400652605FA6451",
+    "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-chicago-illinois-11-18-2026/event/0400652605FA6451",
+    "seatgeek_url": "https://seatgeek.com/victoria-monet-tickets/chicago-illinois-byline-bank-aragon-ballroom-2026-11-18-7-pm/concert/18579778",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-chicago-illinois-11-18-2026/event/0400652605FA6451",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400652605FA6451",
+        "discovery_event_id": "vv1k8Z_3bAG7XJoo",
+        "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-chicago-illinois-11-18-2026/event/0400652605FA6451",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1k8Z_3bAG7XJoo",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-toronto-1a8zkf-gkdrpzii",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monét: Frequency Of Love Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Coca-Cola Coliseum",
+    "datetime_iso": "2026-11-22T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006521DE5B8A2C",
+    "ticketmaster_url": "https://www.ticketmaster.ca/victoria-monet-frequency-of-love-tour-toronto-ontario-11-21-2026/event/10006521DE5B8A2C",
+    "seatgeek_url": "https://seatgeek.com/victoria-monet-tickets/toronto-canada-coca-cola-coliseum-2026-11-21-8-pm/concert/18579799",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/victoria-monet-frequency-of-love-tour-toronto-ontario-11-21-2026/event/10006521DE5B8A2C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006521DE5B8A2C",
+        "discovery_event_id": "1A8Zkf-GkdrpzIi",
+        "url": "https://www.ticketmaster.ca/victoria-monet-frequency-of-love-tour-toronto-ontario-11-21-2026/event/10006521DE5B8A2C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zkf-GkdrpzIi",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-pittsburgh-1apzkftgkexngtr",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monét: Frequency Of Love Tour",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Citizens Live at The Wylie",
+    "datetime_iso": "2026-11-23T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006529A28F5FEF",
+    "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-pittsburgh-pennsylvania-11-22-2026/event/16006529A28F5FEF",
+    "seatgeek_url": "https://seatgeek.com/victoria-monet-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2026-11-22-8-pm/concert/18579779",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-pittsburgh-pennsylvania-11-22-2026/event/16006529A28F5FEF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006529A28F5FEF",
+        "discovery_event_id": "1ApZkftGkexNgTR",
+        "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-pittsburgh-pennsylvania-11-22-2026/event/16006529A28F5FEF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ApZkftGkexNgTR",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-new-york-g5diz_3c1vwav",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monét: Frequency Of Love Tour",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Infosys Theater at Madison Square Garden",
+    "datetime_iso": "2026-11-25T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3B0065238AD32241",
+    "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-new-york-new-york-11-24-2026/event/3B0065238AD32241",
+    "seatgeek_url": "https://seatgeek.com/victoria-monet-tickets/new-york-new-york-the-theater-at-msg-1-2026-11-24-8-pm/concert/18579782",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-new-york-new-york-11-24-2026/event/3B0065238AD32241",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B0065238AD32241",
+        "discovery_event_id": "G5diZ_3C1Vwav",
+        "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-new-york-new-york-11-24-2026/event/3B0065238AD32241",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5diZ_3C1Vwav",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-washington-1a4zkfigkeu6i0b",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monét: Frequency Of Love Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "The Anthem",
+    "datetime_iso": "2026-11-28T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006528B61E893A",
+    "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-washington-district-of-columbia-11-27-2026/event/15006528B61E893A",
+    "seatgeek_url": "https://seatgeek.com/victoria-monet-tickets/washington-district-of-columbia-the-anthem-dc-2026-11-27-8-pm/concert/18579783",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-washington-district-of-columbia-11-27-2026/event/15006528B61E893A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006528B61E893A",
+        "discovery_event_id": "1A4ZkfIGkeU6I0B",
+        "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-washington-district-of-columbia-11-27-2026/event/15006528B61E893A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4ZkfIGkeU6I0B",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-nashville-g5viz_3rdnbd2",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monét: Frequency Of Love Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2026-12-01T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006527BBA98ECF",
+    "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-nashville-tennessee-11-30-2026/event/1B006527BBA98ECF",
+    "seatgeek_url": "https://seatgeek.com/victoria-monet-tickets/nashville-tennessee-the-truth-nashville-2026-11-30-8-pm/concert/18579785",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-nashville-tennessee-11-30-2026/event/1B006527BBA98ECF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006527BBA98ECF",
+        "discovery_event_id": "G5viZ_3rDnbD2",
+        "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-nashville-tennessee-11-30-2026/event/1B006527BBA98ECF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_3rDnbD2",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-austin-z7r9jz1aavpbs",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monet - Frequency Of Love Tour",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Austin City Limits Live at The Moody Theater",
+    "datetime_iso": "2026-12-03T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvPbs",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPbs",
+    "seatgeek_url": "https://seatgeek.com/victoria-monet-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2026-12-02-8-pm/concert/18579809",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPbs",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvPbs",
+        "discovery_event_id": "Z7r9jZ1AAvPbs",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPbs",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvPbs",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-phoenix-1fk8vpadufz7ccuc",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monét: Frequency Of Love Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Arizona Financial Theatre",
+    "datetime_iso": "2026-12-06T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190065243354DDCD",
+    "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-phoenix-arizona-12-05-2026/event/190065243354DDCD",
+    "seatgeek_url": "https://seatgeek.com/victoria-monet-tickets/phoenix-arizona-arizona-financial-theatre-2026-12-05-8-pm/concert/18579787",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-phoenix-arizona-12-05-2026/event/190065243354DDCD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190065243354DDCD",
+        "discovery_event_id": "1Fk8vPadufZ7CCuC",
+        "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-phoenix-arizona-12-05-2026/event/190065243354DDCD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Fk8vPadufZ7CCuC",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-san-diego-vvg1iz_32hzdgh",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monét: Frequency Of Love Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Cal Coast Credit Union Open Air Theatre at SDSU",
+    "datetime_iso": "2026-12-07T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A006523FC003D7C",
+    "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-san-diego-california-12-06-2026/event/0A006523FC003D7C",
+    "seatgeek_url": "https://seatgeek.com/victoria-monet-tickets/san-diego-california-cal-coast-credit-union-open-air-theatre-at-sdsu-2026-12-06-8-pm/concert/18579790",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-san-diego-california-12-06-2026/event/0A006523FC003D7C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006523FC003D7C",
+        "discovery_event_id": "vvG1IZ_32HZdgH",
+        "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-san-diego-california-12-06-2026/event/0A006523FC003D7C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_32HZdgH",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-inglewood-vvg1iz_3xv_aba",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monét: Frequency Of Love Tour",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "YouTube Theater",
+    "datetime_iso": "2026-12-09T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A006528B4649609",
+    "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-inglewood-california-12-08-2026/event/0A006528B4649609",
+    "seatgeek_url": "https://seatgeek.com/victoria-monet-tickets/inglewood-california-youtube-theater-2026-12-08-8-pm/concert/18579791",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-inglewood-california-12-08-2026/event/0A006528B4649609",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006528B4649609",
+        "discovery_event_id": "vvG1IZ_3xV_aba",
+        "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-inglewood-california-12-08-2026/event/0A006528B4649609",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_3xV_aba",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-las-vegas-1avjz_38nr4zdcac",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monét: Frequency Of Love Tour",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2026-12-10T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700652423795D4D",
+    "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-las-vegas-nevada-12-09-2026/event/1700652423795D4D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-las-vegas-nevada-12-09-2026/event/1700652423795D4D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700652423795D4D",
+        "discovery_event_id": "1avjZ_38Nr4ZdCAC",
+        "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-las-vegas-nevada-12-09-2026/event/1700652423795D4D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1avjZ_38Nr4ZdCAC",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-vancouver-1aozkf0gkdm521c",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monét: Frequency Of Love Tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "UBC - Doug Mitchell Thunderbird Sports Centre",
+    "datetime_iso": "2026-12-13T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006524EE2CF2AD",
+    "ticketmaster_url": "https://www.ticketmaster.ca/victoria-monet-frequency-of-love-tour-vancouver-british-columbia-12-12-2026/event/11006524EE2CF2AD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/victoria-monet-frequency-of-love-tour-vancouver-british-columbia-12-12-2026/event/11006524EE2CF2AD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006524EE2CF2AD",
+        "discovery_event_id": "1AoZkf0Gkdm521c",
+        "url": "https://www.ticketmaster.ca/victoria-monet-frequency-of-love-tour-vancouver-british-columbia-12-12-2026/event/11006524EE2CF2AD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkf0Gkdm521c",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-seattle-vvg1hz_31fteps",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monét: Frequency Of Love Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "WAMU Theater",
+    "datetime_iso": "2026-12-15T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00652294FE75B1",
+    "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-seattle-washington-12-14-2026/event/0F00652294FE75B1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-seattle-washington-12-14-2026/event/0F00652294FE75B1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00652294FE75B1",
+        "discovery_event_id": "vvG1HZ_31fTEps",
+        "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-seattle-washington-12-14-2026/event/0F00652294FE75B1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_31fTEps",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-sacramento-g5vyz_3xulwgw",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monét: Frequency Of Love Tour",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "SACRAMENTO MEMORIAL AUDITORIUM",
+    "datetime_iso": "2026-12-17T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006528B6AFDD72",
+    "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-sacramento-california-12-16-2026/event/1C006528B6AFDD72",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-sacramento-california-12-16-2026/event/1C006528B6AFDD72",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006528B6AFDD72",
+        "discovery_event_id": "G5vYZ_3xUlWgw",
+        "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-sacramento-california-12-16-2026/event/1C006528B6AFDD72",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_3xUlWgw",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-victoria-monet-2026-san-francisco-g5vyz_320sgvq",
+    "artist_slug": "victoria-monet",
+    "artist_name": "Victoria Monet",
+    "event_name": "Victoria Monét: Frequency Of Love Tour",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Bill Graham Civic Auditorium",
+    "datetime_iso": "2026-12-18T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006523E4C75D1A",
+    "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-san-francisco-california-12-17-2026/event/1C006523E4C75D1A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-san-francisco-california-12-17-2026/event/1C006523E4C75D1A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006523E4C75D1A",
+        "discovery_event_id": "G5vYZ_320sgVQ",
+        "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-san-francisco-california-12-17-2026/event/1C006523E4C75D1A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_320sgVQ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

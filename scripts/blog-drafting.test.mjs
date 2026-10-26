@@ -575,3 +575,19 @@ test('worst case: a 12-city guide with a 1,150-word draft and the real rules fit
   assert.equal(bodies.length, 2);
   assert(bodies.every((n) => n < 48000), `payload bytes ${bodies}`);
 });
+
+test('replay: the real Metallica draft that run 17 rejected now passes every check', async () => {
+  const markdown = await fs.readFile(path.join(root, 'scripts/fixtures/blog-draft-rejected-metallica.txt'), 'utf8');
+  const rows = [...markdown.matchAll(/^\| [^|]+ \| \[(\d{4}-\d{2}-\d{2})\]\(([^)]+)\) \| [^|]+ \| ([^|]+) \| ([^|]+) \|$/gm)];
+  assert.equal(rows.length, 11);
+  const evidence = { version: 2, kind: 'tour', capturedAt: '2026-10-26T14:23:40.000Z', artist: 'Metallica', minimumEvents: 2,
+    events: rows.map((m, i) => ({ id: `m${i}`, date: m[1], sourceUrl: m[2], city: m[3].trim(), venue: m[4].trim(), repositoryVerified: '2026-10-15',
+      external: { kind: 'current-ticketmaster-api' } })) };
+  const selected = { artist: 'metallica', artistName: 'Metallica', slug: 'metallica-tour-guide', kind: 'tour',
+    links: ['/artists/metallica', '/artists/metallica/ticket-prices', '/guides/how-to-read-a-ticket-listing',
+      '/guides/primary-vs-resale-concert-tickets', '/guides/ticket-delivery-and-transfer-timing'] };
+  const checked = checkArticle(markdown, selected, evidence, fixture.documents, Date.parse('2026-10-26T14:23:40Z'));
+  assert.equal(checked.status, 'draft');
+  // A date that is neither an event date nor a provenance day is still refused.
+  assert.throws(() => checkArticle(markdown.replace('2026-10-15', '2026-09-30'), selected, evidence, fixture.documents, Date.parse('2026-10-26T14:23:40Z')), /unsupported event date \(2026-09-30\)/);
+});

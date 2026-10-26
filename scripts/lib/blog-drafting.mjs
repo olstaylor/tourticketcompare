@@ -408,12 +408,17 @@ export function checkArticle(markdown, selected, evidence, documents, now = Date
   const saleKind = ['presale', 'sale-upcoming', 'sale-recent'].includes(evidence.kind);
   if (!saleKind && /\b(?:presale|pre-sale|on-sale|onsale)\b/i.test(text)) fail('time-sensitive sale claims are outside this buying-guide pilot');
   const dates = [...text.matchAll(/\b\d{4}-\d{2}-\d{2}\b/g)].map((m) => m[0]);
-  const strayDate = dates.find((d) => !evidence.events.some((e) => e.date === d));
+  // The day the evidence was captured and the days its records were verified are
+  // provenance the article may state ("checked on ..."); they are not event dates.
+  const provenance = new Set([evidence.capturedAt, ...evidence.events.map((e) => e.repositoryVerified)]
+    .map((d) => String(d || '').slice(0, 10)).filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(d)));
+  const strayDate = dates.find((d) => !evidence.events.some((e) => e.date === d) && !provenance.has(d));
   if (strayDate) fail(`unsupported event date (${strayDate})`);
   // Every other number must come from the evidence: names, event dates and the
   // supplied local sale-time strings. No counts, prices or derived times.
   const knownNames = [selected.artistName, ...evidence.events.flatMap((e) => [e.venue, e.city, ...(e.presales || []).map((w) => w.name)])].filter((name) => /\d/.test(name));
   let numericText = text.toLowerCase();
+  for (const day of provenance) numericText = numericText.split(day).join('');
   for (const name of knownNames) numericText = numericText.split(name.toLowerCase()).join('');
   const saleStrings = evidence.events.flatMap((e) => [e.publicOnsaleLocal, ...(e.presales || []).flatMap((w) => [w.startLocal, w.endLocal])]).filter(Boolean);
   const years = new Set([...evidence.events.map((e) => e.date.slice(0, 4)), ...saleStrings.flatMap((t) => t.match(/\b20\d{2}\b/g) || [])]);

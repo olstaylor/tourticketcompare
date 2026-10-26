@@ -49134,5 +49134,53 @@
     "timezone": "America/Chicago",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-nurnberg-z698xzc2z16vqofzv8",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "country": "Germany",
+    "city": "Nürnberg",
+    "venue": "PSD Bank Nürnberg ARENA",
+    "datetime_iso": "2027-05-05T18:00:00Z",
+    "timezone": "Europe/Berlin",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-casalecchio-di-reno-bologna-zg9rmiynyzffde",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "country": "Italy",
+    "city": "Casalecchio di Reno (Bologna)",
+    "venue": "Unipol Arena",
+    "datetime_iso": "2027-05-08T18:30:00Z",
+    "timezone": "Europe/Rome",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-praha-9-z698xzu0z1k788y-z",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "country": "Czech Republic",
+    "city": "Praha 9",
+    "venue": "O2 Arena",
+    "datetime_iso": "2027-05-18T18:00:00Z",
+    "timezone": "Europe/Prague",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-helsinki-z698xz8kz16v7so3fa",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "country": "Finland",
+    "city": "Helsinki",
+    "venue": "Veikkaus Arena",
+    "datetime_iso": "2027-05-24T15:30:00Z",
+    "timezone": "Europe/Helsinki",
+    "tour_name": "",
+    "status": "announced"
   }
 ]

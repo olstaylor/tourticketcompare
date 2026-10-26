@@ -539,7 +539,6 @@ export const OG_CARDS = {
   "/artists/the-chicks/ticket-prices": {"url":"/og/artists-the-chicks-ticket-prices.png","alt":"Ticket prices: The Chicks"},
   "/artists/the-chicks/tickets/hollywood-united-states": {"url":"/og/artists-the-chicks-tickets-hollywood-united-states.png","alt":"Tickets: The Chicks in Hollywood"},
   "/artists/the-chicks/tickets/san-francisco-united-states": {"url":"/og/artists-the-chicks-tickets-san-francisco-united-states.png","alt":"Tickets: The Chicks in San Francisco"},
-  "/artists/the-chicks/tickets/seattle-united-states": {"url":"/og/artists-the-chicks-tickets-seattle-united-states.png","alt":"Tickets: The Chicks in Seattle"},
   "/artists/the-interrupters": {"url":"/og/artists-the-interrupters.png","alt":"Tickets & tour dates: The Interrupters"},
   "/artists/the-interrupters/presale": {"url":"/og/artists-the-interrupters-presale.png","alt":"Presale: The Interrupters"},
   "/artists/the-interrupters/ticket-prices": {"url":"/og/artists-the-interrupters-ticket-prices.png","alt":"Ticket prices: The Interrupters"},

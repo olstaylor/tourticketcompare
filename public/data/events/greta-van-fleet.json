@@ -90,7 +90,7 @@
     "tour_name": "Into The Beginning Tour",
     "ticketmaster_event_id": "0D00653DEDCBFA2B",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-tampa-florida-02-05-2027/event/0D00653DEDCBFA2B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/greta-van-fleet-tickets/tampa-florida-benchmark-international-arena-2027-02-05-7-pm/concert/18641947",
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-tampa-benchmark-international-arena-2-5-2027/production/7642170",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-tampa-florida-02-05-2027/event/0D00653DEDCBFA2B",
@@ -106,11 +106,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641947,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/tampa-florida-benchmark-international-arena-2027-02-05-7-pm/concert/18641947",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642170,
@@ -177,7 +177,7 @@
     "tour_name": "Into The Beginning Tour",
     "ticketmaster_event_id": "2200653EF0D8953E",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-jacksonville-florida-02-06-2027/event/2200653EF0D8953E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/greta-van-fleet-tickets/jacksonville-florida-vystar-veterans-memorial-arena-2027-02-06-7-pm/concert/18641952",
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-jacksonville-vystar-veterans-memorial-arena-2-6-2027/production/7642110",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-jacksonville-florida-02-06-2027/event/2200653EF0D8953E",
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641952,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/jacksonville-florida-vystar-veterans-memorial-arena-2027-02-06-7-pm/concert/18641952",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642110,
@@ -264,7 +264,7 @@
     "tour_name": "Into The Beginning Tour",
     "ticketmaster_event_id": "0E00653DEA089A25",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-atlanta-georgia-02-09-2027/event/0E00653DEA089A25",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/greta-van-fleet-tickets/atlanta-georgia-state-farm-arena-1-2027-02-09-7-pm/concert/18641951",
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-atlanta-state-farm-arena-2-9-2027/production/7642152",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-atlanta-georgia-02-09-2027/event/0E00653DEA089A25",
@@ -280,11 +280,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641951,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/atlanta-georgia-state-farm-arena-1-2027-02-09-7-pm/concert/18641951",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642152,
@@ -351,7 +351,7 @@
     "tour_name": "Into The Beginning Tour",
     "ticketmaster_event_id": "1B00653E3C980F70",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-nashville-tennessee-02-10-2027/event/1B00653E3C980F70",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/greta-van-fleet-tickets/nashville-tennessee-bridgestone-arena-2027-02-10-7-pm/concert/18641949",
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-nashville-bridgestone-arena-2-10-2027/production/7642172",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-nashville-tennessee-02-10-2027/event/1B00653E3C980F70",
@@ -367,11 +367,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641949,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/nashville-tennessee-bridgestone-arena-2027-02-10-7-pm/concert/18641949",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642172,
@@ -438,7 +438,7 @@
     "tour_name": "Into The Beginning Tour",
     "ticketmaster_event_id": "0400653DDE98EA5E",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-rosemont-illinois-02-12-2027/event/0400653DDE98EA5E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/greta-van-fleet-tickets/rosemont-illinois-allstate-arena-2027-02-12-7-pm/concert/18641950",
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-rosemont-allstate-arena-2-12-2027/production/7642180",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-rosemont-illinois-02-12-2027/event/0400653DDE98EA5E",
@@ -454,11 +454,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641950,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/rosemont-illinois-allstate-arena-2027-02-12-7-pm/concert/18641950",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642180,
@@ -541,11 +541,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641959,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/omaha-nebraska-chi-health-center-omaha-2027-02-13-7-pm/concert/18641959",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642102,
@@ -604,7 +604,7 @@
     "tour_name": "Into The Beginning Tour",
     "ticketmaster_event_id": "0600653DA4808031",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-minneapolis-minnesota-02-15-2027/event/0600653DA4808031",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/greta-van-fleet-tickets/minneapolis-minnesota-target-center-2027-02-15-7-pm/concert/18641960",
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-minneapolis-target-center-2-15-2027/production/7642158",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-minneapolis-minnesota-02-15-2027/event/0600653DA4808031",
@@ -620,11 +620,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641960,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/minneapolis-minnesota-target-center-2027-02-15-7-pm/concert/18641960",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642158,
@@ -707,11 +707,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641962,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/louisville-kentucky-kfc-yum-center-2027-02-19-7-pm/concert/18641962",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642122,
@@ -786,11 +786,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641964,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2027-02-20-7-pm/concert/18641964",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642136,
@@ -928,7 +928,7 @@
     "tour_name": "Into The Beginning Tour",
     "ticketmaster_event_id": "0100653AB7917C1E",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-boston-massachusetts-03-05-2027/event/0100653AB7917C1E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/greta-van-fleet-tickets/boston-massachusetts-td-garden-2027-03-05-7-pm/concert/18641971",
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-boston-td-garden-3-5-2027/production/7642108",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-boston-massachusetts-03-05-2027/event/0100653AB7917C1E",
@@ -944,11 +944,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641971,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/boston-massachusetts-td-garden-2027-03-05-7-pm/concert/18641971",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642108,
@@ -1094,7 +1094,7 @@
     "tour_name": "Into The Beginning Tour",
     "ticketmaster_event_id": "3000653AE6DC9BB1",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-brooklyn-new-york-03-08-2027/event/3000653AE6DC9BB1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/greta-van-fleet-tickets/brooklyn-new-york-barclays-center-2027-03-08-7-pm/concert/18641973",
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-brooklyn-barclays-center-3-8-2027/production/7642146",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-brooklyn-new-york-03-08-2027/event/3000653AE6DC9BB1",
@@ -1110,11 +1110,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641973,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/brooklyn-new-york-barclays-center-2027-03-08-7-pm/concert/18641973",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642146,
@@ -1181,7 +1181,7 @@
     "tour_name": "Into The Beginning Tour",
     "ticketmaster_event_id": "3000653D190391F0",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-philadelphia-pennsylvania-03-10-2027/event/3000653D190391F0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/greta-van-fleet-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2027-03-10-7-pm/concert/18641974",
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-philadelphia-xfinity-mobile-arena-3-10-2027/production/7642134",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-philadelphia-pennsylvania-03-10-2027/event/3000653D190391F0",
@@ -1197,11 +1197,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641974,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2027-03-10-7-pm/concert/18641974",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642134,
@@ -1426,7 +1426,7 @@
     "tour_name": "Into The Beginning Tour",
     "ticketmaster_event_id": "0C006541C1B6C11E",
     "ticketmaster_url": "https://www.ticketmaster.com/971-the-eagle-presents-greta-van-fort-worth-texas-03-15-2027/event/0C006541C1B6C11E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/greta-van-fleet-tickets/fort-worth-texas-dickies-arena-2027-03-15-7-pm/concert/18641983",
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-fort-worth-dickies-arena-3-15-2027/production/7642182",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/971-the-eagle-presents-greta-van-fort-worth-texas-03-15-2027/event/0C006541C1B6C11E",
@@ -1442,11 +1442,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641983,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/fort-worth-texas-dickies-arena-2027-03-15-7-pm/concert/18641983",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642182,
@@ -1592,7 +1592,7 @@
     "tour_name": "Into The Beginning Tour",
     "ticketmaster_event_id": "0900653DC495E09B",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-anaheim-california-03-19-2027/event/0900653DC495E09B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/greta-van-fleet-tickets/anaheim-california-honda-center-2027-03-19-7-pm/concert/18641986",
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-anaheim-honda-center-3-19-2027/production/7642130",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-anaheim-california-03-19-2027/event/0900653DC495E09B",
@@ -1608,11 +1608,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641986,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/anaheim-california-honda-center-2027-03-19-7-pm/concert/18641986",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642130,
@@ -1837,7 +1837,7 @@
     "tour_name": "Into The Beginning Tour",
     "ticketmaster_event_id": "0F00653DE1E2F0DB",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-seattle-washington-03-24-2027/event/0F00653DE1E2F0DB",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/greta-van-fleet-tickets/seattle-washington-climate-pledge-arena-2027-03-24-7-pm/concert/18641992",
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-seattle-climate-pledge-arena-3-24-2027/production/7642094",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-seattle-washington-03-24-2027/event/0F00653DE1E2F0DB",
@@ -1853,11 +1853,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641992,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/seattle-washington-climate-pledge-arena-2027-03-24-7-pm/concert/18641992",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642094,
@@ -2082,7 +2082,7 @@
     "tour_name": "Into The Beginning Tour",
     "ticketmaster_event_id": "1E00653EA6A68470",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-denver-colorado-03-30-2027/event/1E00653EA6A68470",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/greta-van-fleet-tickets/denver-colorado-ball-arena-2027-03-30-7-pm/concert/18641999",
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-denver-ball-arena-3-30-2027/production/7642098",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-denver-colorado-03-30-2027/event/1E00653EA6A68470",
@@ -2098,11 +2098,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641999,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/denver-colorado-ball-arena-2027-03-30-7-pm/concert/18641999",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7642098,

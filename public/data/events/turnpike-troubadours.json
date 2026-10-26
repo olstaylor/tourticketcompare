@@ -213,7 +213,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7_ae",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_ae",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/turnpike-troubadours-tickets/morrison-colorado-red-rocks-amphitheatre-2027-05-13-7-pm/concert/18709207",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_ae",
@@ -229,11 +229,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18709207,
+        "url": "https://seatgeek.com/turnpike-troubadours-tickets/morrison-colorado-red-rocks-amphitheatre-2027-05-13-7-pm/concert/18709207",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -266,7 +266,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7_av",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_av",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/turnpike-troubadours-tickets/morrison-colorado-red-rocks-amphitheatre-2027-05-14-7-pm/concert/18706629",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_av",
@@ -282,11 +282,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18706629,
+        "url": "https://seatgeek.com/turnpike-troubadours-tickets/morrison-colorado-red-rocks-amphitheatre-2027-05-14-7-pm/concert/18706629",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

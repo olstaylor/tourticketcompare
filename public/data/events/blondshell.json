@@ -1618,7 +1618,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAeoGk",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeoGk",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blondshell-tickets/columbus-ohio-newport-music-hall-2027-05-20-8-pm/concert/18633503",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeoGk",
@@ -1634,11 +1634,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633503,
+        "url": "https://seatgeek.com/blondshell-tickets/columbus-ohio-newport-music-hall-2027-05-20-8-pm/concert/18633503",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

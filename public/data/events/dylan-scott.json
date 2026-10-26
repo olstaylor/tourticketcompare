@@ -153,7 +153,7 @@
         "event_id": 18529124,
         "url": "https://seatgeek.com/dylan-scott-tickets/westbury-new-york-flagstar-at-westbury-music-fair-2026-11-06-8-pm/concert/18529124",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -849,7 +849,7 @@
     "tour_name": "Dear Big City Tour",
     "ticketmaster_event_id": "01006529B9C35B4C",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-boston-massachusetts-02-06-2027/event/01006529B9C35B4C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dylan-scott-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-02-06-8-pm/concert/18601525",
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-boston-mgm-music-hall-at-fenway-2-6-2027--concerts-country-and-folk/production/7564213",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-boston-massachusetts-02-06-2027/event/01006529B9C35B4C",
@@ -865,11 +865,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18601525,
+        "url": "https://seatgeek.com/dylan-scott-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-02-06-8-pm/concert/18601525",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7564213,

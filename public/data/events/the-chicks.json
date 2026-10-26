@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F0064B3EA45109C",
     "ticketmaster_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-seattle-washington-10-25-2026/event/0F0064B3EA45109C",
-    "seatgeek_url": "https://seatgeek.com/the-chicks-tickets/seattle-washington-benaroya-hall-2026-10-25-8-30-pm/concert/18268866",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/the-chicks-tickets-seattle-benaroya-hall---taper-auditorium-10-25-2026--concerts-country-and-folk/production/7084763",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-seattle-washington-10-25-2026/event/0F0064B3EA45109C",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18268866,
-        "url": "https://seatgeek.com/the-chicks-tickets/seattle-washington-benaroya-hall-2026-10-25-8-30-pm/concert/18268866",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7084763,
@@ -94,7 +94,7 @@
         "event_id": 18268868,
         "url": "https://seatgeek.com/the-chicks-tickets/seattle-washington-benaroya-hall-2026-10-26-8-30-pm/concert/18268868",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {

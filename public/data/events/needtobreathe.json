@@ -106,11 +106,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18621527,
+        "url": "https://seatgeek.com/needtobreathe-tickets/waukee-iowa-vibrant-music-hall-2027-02-19-7-30-pm/concert/18621527",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7611476,
@@ -195,11 +195,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18621530,
+        "url": "https://seatgeek.com/needtobreathe-tickets/minneapolis-minnesota-the-armory-minneapolis-2027-02-20-7-pm/concert/18621530",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7611470,
@@ -504,7 +504,7 @@
         "event_id": 18621538,
         "url": "https://seatgeek.com/needtobreathe-tickets/cincinnati-ohio-andrew-j-brady-music-center-2027-02-27-7-pm/concert/18621538",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -548,7 +548,7 @@
     "tour_name": "The Long Surrender Tour",
     "ticketmaster_event_id": "00006538B4ABEE89",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-brooklyn-new-york-03-04-2027/event/00006538B4ABEE89",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/needtobreathe-tickets/brooklyn-new-york-brooklyn-paramount-2027-03-04-6-pm/concert/18621542",
     "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-brooklyn-brooklyn-paramount-3-4-2027/production/7611490",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-brooklyn-new-york-03-04-2027/event/00006538B4ABEE89",
@@ -564,11 +564,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18621542,
+        "url": "https://seatgeek.com/needtobreathe-tickets/brooklyn-new-york-brooklyn-paramount-2027-03-04-6-pm/concert/18621542",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7611490,
@@ -640,7 +640,7 @@
     "tour_name": "The Long Surrender Tour",
     "ticketmaster_event_id": "0100652A1103BD3F",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-boston-massachusetts-03-05-2027/event/0100652A1103BD3F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/needtobreathe-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-03-05-7-pm/concert/18621543",
     "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-boston-mgm-music-hall-at-fenway-3-5-2027/production/7611492",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-boston-massachusetts-03-05-2027/event/0100652A1103BD3F",
@@ -656,11 +656,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18621543,
+        "url": "https://seatgeek.com/needtobreathe-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-03-05-7-pm/concert/18621543",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7611492,
@@ -1595,7 +1595,7 @@
         "event_id": 18621528,
         "url": "https://seatgeek.com/needtobreathe-tickets/kansas-city-missouri-the-midland-theatre-mo-2027-02-23-7-pm/concert/18621528",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1664,7 +1664,7 @@
         "event_id": 18621540,
         "url": "https://seatgeek.com/needtobreathe-tickets/lancaster-pennsylvania-american-music-theatre-2027-03-01-7-pm/concert/18621540",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {

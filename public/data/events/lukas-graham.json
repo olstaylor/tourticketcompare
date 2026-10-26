@@ -174,7 +174,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D006535B2B76A74",
     "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-tampa-florida-03-05-2027/event/0D006535B2B76A74",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lukas-graham-tickets/tampa-florida-the-ritz-ybor-2027-03-05-6-pm/concert/18617618",
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-tampa-the-ritz-theater---ybor-city-3-5-2027--concerts-pop/production/7600476",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-tampa-florida-03-05-2027/event/0D006535B2B76A74",
@@ -190,11 +190,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18617618,
+        "url": "https://seatgeek.com/lukas-graham-tickets/tampa-florida-the-ritz-ybor-2027-03-05-6-pm/concert/18617618",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7600476,

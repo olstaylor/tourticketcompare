@@ -553,7 +553,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A0064AFFE9A5864",
     "ticketmaster_url": "https://www.ticketmaster.com/the-smashing-pumpkins-the-rats-in-austin-texas-10-25-2026/event/3A0064AFFE9A5864",
-    "seatgeek_url": "https://seatgeek.com/the-smashing-pumpkins-tickets/austin-texas-moody-center-atx-2026-10-25-8-pm/concert/18250160",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-smashing-pumpkins-the-rats-in-austin-texas-10-25-2026/event/3A0064AFFE9A5864",
@@ -569,11 +569,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18250160,
-        "url": "https://seatgeek.com/the-smashing-pumpkins-tickets/austin-texas-moody-center-atx-2026-10-25-8-pm/concert/18250160",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -636,7 +636,7 @@
         "event_id": 18250161,
         "url": "https://seatgeek.com/the-smashing-pumpkins-tickets/denver-colorado-ball-arena-2026-10-27-8-pm/concert/18250161",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -700,7 +700,7 @@
         "event_id": 18235908,
         "url": "https://seatgeek.com/the-smashing-pumpkins-tickets/salt-lake-city-utah-delta-center-1-2026-10-29-8-pm/concert/18235908",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -876,7 +876,7 @@
         "event_id": 18250182,
         "url": "https://seatgeek.com/the-smashing-pumpkins-tickets/calgary-canada-scotiabank-saddledome-2026-11-03-8-pm/concert/18250182",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -942,7 +942,7 @@
         "event_id": 18250183,
         "url": "https://seatgeek.com/the-smashing-pumpkins-tickets/vancouver-canada-rogers-arena-2026-11-05-8-pm/concert/18250183",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1016,7 +1016,7 @@
         "event_id": 18250170,
         "url": "https://seatgeek.com/the-smashing-pumpkins-tickets/seattle-washington-climate-pledge-arena-2026-11-06-8-pm/concert/18250170",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1087,7 +1087,7 @@
         "event_id": 18250171,
         "url": "https://seatgeek.com/the-smashing-pumpkins-tickets/san-jose-california-sap-center-at-san-jose-2026-11-08-8-pm/concert/18250171",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1150,7 +1150,7 @@
         "event_id": 18250172,
         "url": "https://seatgeek.com/the-smashing-pumpkins-tickets/phoenix-arizona-mortgage-matchup-center-2026-11-11-8-pm/concert/18250172",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {

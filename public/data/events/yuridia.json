@@ -299,7 +299,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "19006522AD0560AD",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-phoenix-arizona-02-13-2027/event/19006522AD0560AD",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yuridia-tickets/phoenix-arizona-arizona-financial-theatre-2027-02-13-8-pm/concert/18570386",
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-phoenix-arizona-financial-theatre-2-13-2027/production/7531084",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-phoenix-arizona-02-13-2027/event/19006522AD0560AD",
@@ -315,11 +315,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18570386,
+        "url": "https://seatgeek.com/yuridia-tickets/phoenix-arizona-arizona-financial-theatre-2027-02-13-8-pm/concert/18570386",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7531084,
@@ -455,7 +455,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "39006523DDACBD18",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-las-vegas-nevada-02-18-2027/event/39006523DDACBD18",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yuridia-tickets/las-vegas-nevada-ph-live-at-planet-hollywood-2027-02-18-8-pm/concert/18570391",
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-las-vegas-ph-live-at-planet-hollywood-2-18-2027/production/7531056",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-las-vegas-nevada-02-18-2027/event/39006523DDACBD18",
@@ -471,11 +471,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18570391,
+        "url": "https://seatgeek.com/yuridia-tickets/las-vegas-nevada-ph-live-at-planet-hollywood-2027-02-18-8-pm/concert/18570391",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7531056,
@@ -544,7 +544,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0A006521AE4654FC",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-inglewood-california-02-20-2027/event/0A006521AE4654FC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yuridia-tickets/inglewood-california-youtube-theater-2027-02-20-8-pm/concert/18570397",
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-inglewood-youtube-theater-2-20-2027/production/7531076",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-inglewood-california-02-20-2027/event/0A006521AE4654FC",
@@ -560,11 +560,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18570397,
+        "url": "https://seatgeek.com/yuridia-tickets/inglewood-california-youtube-theater-2027-02-20-8-pm/concert/18570397",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7531076,
@@ -636,7 +636,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0A006524AD56A71F",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-inglewood-california-02-21-2027/event/0A006524AD56A71F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yuridia-tickets/inglewood-california-youtube-theater-2027-02-21-8-pm/concert/18584334",
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-inglewood-youtube-theater-2-21-2027/production/7545945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-inglewood-california-02-21-2027/event/0A006524AD56A71F",
@@ -652,11 +652,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18584334,
+        "url": "https://seatgeek.com/yuridia-tickets/inglewood-california-youtube-theater-2027-02-21-8-pm/concert/18584334",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7545945,
@@ -728,7 +728,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C006522C16EE722",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-fresno-california-02-25-2027/event/1C006522C16EE722",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yuridia-tickets/fresno-california-save-mart-center-2027-02-25-8-pm/concert/18570392",
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-fresno-save-mart-center-2-25-2027/production/7531046",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-fresno-california-02-25-2027/event/1C006522C16EE722",
@@ -744,11 +744,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18570392,
+        "url": "https://seatgeek.com/yuridia-tickets/fresno-california-save-mart-center-2027-02-25-8-pm/concert/18570392",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7531046,

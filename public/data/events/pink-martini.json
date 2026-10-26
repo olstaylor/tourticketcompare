@@ -1010,11 +1010,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18472526,
+        "url": "https://seatgeek.com/pink-martini-tickets/minneapolis-minnesota-pantages-theatre-minneapolis-2027-02-13-8-pm/concert/18472526",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7411457,
@@ -1082,11 +1082,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18472525,
+        "url": "https://seatgeek.com/pink-martini-tickets/minneapolis-minnesota-pantages-theatre-minneapolis-2027-02-14-2-pm/concert/18472525",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7411461,

@@ -880,7 +880,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3B00643BDED7955D",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-new-york-new-york-12-17-2026/event/3B00643BDED7955D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/andrea-bocelli-tickets/new-york-new-york-madison-square-garden-2026-12-17-8-pm/concert/18039167",
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-new-york-madison-square-garden-12-17-2026/production/6594488",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-new-york-new-york-12-17-2026/event/3B00643BDED7955D",
@@ -896,11 +896,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18039167,
+        "url": "https://seatgeek.com/andrea-bocelli-tickets/new-york-new-york-madison-square-garden-2026-12-17-8-pm/concert/18039167",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6594488,
@@ -1045,7 +1045,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "16006434C643809E",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-pittsburgh-pennsylvania-12-21-2026/event/16006434C643809E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/andrea-bocelli-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-12-21-8-pm/concert/18039186",
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-pittsburgh-ppg-paints-arena-12-21-2026--theater-opera/production/6594362",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-pittsburgh-pennsylvania-12-21-2026/event/16006434C643809E",
@@ -1061,11 +1061,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18039186,
+        "url": "https://seatgeek.com/andrea-bocelli-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-12-21-8-pm/concert/18039186",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6594362,
@@ -1137,7 +1137,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "30006439F2D5709C",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-philadelphia-pennsylvania-12-22-2026/event/30006439F2D5709C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/andrea-bocelli-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-12-22-8-pm/concert/18039187",
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-philadelphia-xfinity-mobile-arena-12-22-2026--theater-opera/production/6594366",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-philadelphia-pennsylvania-12-22-2026/event/30006439F2D5709C",
@@ -1153,11 +1153,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18039187,
+        "url": "https://seatgeek.com/andrea-bocelli-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-12-22-8-pm/concert/18039187",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6594366,
@@ -1309,7 +1309,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D00650B8DFF6C11",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-charlotte-north-carolina-01-29-2027/event/2D00650B8DFF6C11",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/andrea-bocelli-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-01-29-8-pm/concert/18581438",
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-charlotte-spectrum-center-1-29-2027/production/7540260",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-charlotte-north-carolina-01-29-2027/event/2D00650B8DFF6C11",
@@ -1325,11 +1325,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18581438,
+        "url": "https://seatgeek.com/andrea-bocelli-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-01-29-8-pm/concert/18581438",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540260,
@@ -1401,7 +1401,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "15006514A5CC828F",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-baltimore-maryland-01-31-2027/event/15006514A5CC828F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/andrea-bocelli-tickets/baltimore-maryland-cfg-bank-arena-2027-01-31-8-pm/concert/18581441",
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-baltimore-cfg-bank-arena-1-31-2027/production/7536247",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-baltimore-maryland-01-31-2027/event/15006514A5CC828F",
@@ -1417,11 +1417,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18581441,
+        "url": "https://seatgeek.com/andrea-bocelli-tickets/baltimore-maryland-cfg-bank-arena-2027-01-31-8-pm/concert/18581441",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536247,
@@ -1493,7 +1493,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E006521D8611637",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-atlanta-georgia-02-02-2027/event/0E006521D8611637",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/andrea-bocelli-tickets/atlanta-georgia-state-farm-arena-1-2027-02-02-8-pm/concert/18581439",
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-atlanta-state-farm-arena-2-2-2027/production/7540264",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-atlanta-georgia-02-02-2027/event/0E006521D8611637",
@@ -1509,11 +1509,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18581439,
+        "url": "https://seatgeek.com/andrea-bocelli-tickets/atlanta-georgia-state-farm-arena-1-2027-02-02-8-pm/concert/18581439",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540264,
@@ -1585,7 +1585,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A006521A5AD9867",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-austin-texas-02-04-2027/event/3A006521A5AD9867",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/andrea-bocelli-tickets/austin-texas-moody-center-atx-2027-02-04-8-pm/concert/18581440",
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-austin-moody-center-atx-2-4-2027/production/7540254",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-austin-texas-02-04-2027/event/3A006521A5AD9867",
@@ -1601,11 +1601,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18581440,
+        "url": "https://seatgeek.com/andrea-bocelli-tickets/austin-texas-moody-center-atx-2027-02-04-8-pm/concert/18581440",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540254,
@@ -1677,7 +1677,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C00652499FE648E",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-dallas-texas-02-05-2027/event/0C00652499FE648E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/andrea-bocelli-tickets/dallas-texas-american-airlines-center-2027-02-05-8-pm/concert/18581442",
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-dallas-american-airlines-center---tx-2-5-2027/production/7540262",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-dallas-texas-02-05-2027/event/0C00652499FE648E",
@@ -1693,11 +1693,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18581442,
+        "url": "https://seatgeek.com/andrea-bocelli-tickets/dallas-texas-american-airlines-center-2027-02-05-8-pm/concert/18581442",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540262,
@@ -1838,7 +1838,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "22006528DECF597D",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-orlando-florida-02-10-2027/event/22006528DECF597D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/andrea-bocelli-tickets/orlando-florida-kia-center-2027-02-10-8-pm/concert/18581443",
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-orlando-kia-center-2-10-2027/production/7540258",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-orlando-florida-02-10-2027/event/22006528DECF597D",
@@ -1854,11 +1854,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18581443,
+        "url": "https://seatgeek.com/andrea-bocelli-tickets/orlando-florida-kia-center-2027-02-10-8-pm/concert/18581443",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540258,
@@ -1930,7 +1930,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D006528F490172E",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-hollywood-florida-02-12-2027/event/0D006528F490172E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/andrea-bocelli-tickets/hollywood-florida-hard-rock-live-hollywood-2027-02-12-8-pm/concert/18581450",
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-2-12-2027/production/7540266",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-hollywood-florida-02-12-2027/event/0D006528F490172E",
@@ -1946,11 +1946,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18581450,
+        "url": "https://seatgeek.com/andrea-bocelli-tickets/hollywood-florida-hard-rock-live-hollywood-2027-02-12-8-pm/concert/18581450",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540266,
@@ -2022,7 +2022,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D006529EF053884",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-hollywood-florida-02-13-2027/event/0D006529EF053884",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/andrea-bocelli-tickets/hollywood-florida-hard-rock-live-hollywood-2027-02-13-8-pm/concert/18581451",
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-2-13-2027/production/7540248",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-hollywood-florida-02-13-2027/event/0D006529EF053884",
@@ -2038,11 +2038,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18581451,
+        "url": "https://seatgeek.com/andrea-bocelli-tickets/hollywood-florida-hard-rock-live-hollywood-2027-02-13-8-pm/concert/18581451",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540248,

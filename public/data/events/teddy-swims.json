@@ -1317,7 +1317,7 @@
     "tour_name": "The Ugly Tour",
     "ticketmaster_event_id": "0D00648EDE85D4C7",
     "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-tampa-florida-10-25-2026/event/0D00648EDE85D4C7",
-    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/tampa-florida-benchmark-international-arena-2026-10-25-7-pm/concert/18185159",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-tampa-benchmark-international-arena-10-25-2026--concerts-rb/production/6911979",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-tampa-florida-10-25-2026/event/0D00648EDE85D4C7",
@@ -1333,11 +1333,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18185159,
-        "url": "https://seatgeek.com/teddy-swims-tickets/tampa-florida-benchmark-international-arena-2026-10-25-7-pm/concert/18185159",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6911979,
@@ -1423,7 +1423,7 @@
         "event_id": 18185160,
         "url": "https://seatgeek.com/teddy-swims-tickets/houston-texas-toyota-center-2026-10-27-7-pm/concert/18185160",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {

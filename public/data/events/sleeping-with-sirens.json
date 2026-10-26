@@ -83,7 +83,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "040064CBC7A3E2C8",
     "ticketmaster_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-chicago-illinois-10-25-2026/event/040064CBC7A3E2C8",
-    "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/chicago-illinois-the-salt-shed-indoors-2026-10-25-7-pm/concert/18312229",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-chicago-illinois-10-25-2026/event/040064CBC7A3E2C8",
@@ -99,11 +99,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18312229,
-        "url": "https://seatgeek.com/sleeping-with-sirens-tickets/chicago-illinois-the-salt-shed-indoors-2026-10-25-7-pm/concert/18312229",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -155,7 +155,7 @@
         "event_id": 18336796,
         "url": "https://seatgeek.com/sleeping-with-sirens-tickets/pittsburgh-pennsylvania-stage-ae-2026-10-27-7-pm/concert/18336796",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {

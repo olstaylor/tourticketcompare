@@ -139,7 +139,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "300064AB9AB930F5",
     "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-belmont-park-new-york-10-25-2026/event/300064AB9AB930F5",
-    "seatgeek_url": "https://seatgeek.com/katseye-tickets/elmont-new-york-ubs-arena-2026-10-25-8-pm/concert/18259103",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-elmont-ubs-arena-10-25-2026/production/7061391",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-belmont-park-new-york-10-25-2026/event/300064AB9AB930F5",
@@ -155,11 +155,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18259103,
-        "url": "https://seatgeek.com/katseye-tickets/elmont-new-york-ubs-arena-2026-10-25-8-pm/concert/18259103",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7061391,
@@ -294,7 +294,7 @@
         "event_id": 18240166,
         "url": "https://seatgeek.com/katseye-tickets/montreal-canada-centre-bell-2026-10-30-8-pm/concert/18240166",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -368,7 +368,7 @@
         "event_id": 18240168,
         "url": "https://seatgeek.com/katseye-tickets/hamilton-canada-td-coliseum-2026-11-01-8-pm/concert/18240168",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {

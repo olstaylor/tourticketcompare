@@ -259,7 +259,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D006529970A6595",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-stewart-hollywood-florida-03-12-2027/event/0D006529970A6595",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/rod-stewart-tickets/hollywood-florida-hard-rock-live-hollywood-2027-03-12-8-pm/concert/18591364",
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-3-12-2027/production/7553115",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-hollywood-florida-03-12-2027/event/0D006529970A6595",
@@ -275,11 +275,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18591364,
+        "url": "https://seatgeek.com/rod-stewart-tickets/hollywood-florida-hard-rock-live-hollywood-2027-03-12-8-pm/concert/18591364",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7553115,

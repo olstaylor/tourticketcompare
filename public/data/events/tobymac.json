@@ -83,7 +83,7 @@
         "event_id": 18238532,
         "url": "https://seatgeek.com/tobymac-tickets/columbia-missouri-mizzou-arena-2026-11-05-7-pm/concert/18238532",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -152,7 +152,7 @@
         "event_id": 18239020,
         "url": "https://seatgeek.com/tobymac-tickets/evansville-indiana-ford-center-in-2026-11-06-7-pm/concert/18239020",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -224,7 +224,7 @@
         "event_id": 18238371,
         "url": "https://seatgeek.com/tobymac-tickets/cleveland-ohio-wolstein-center-2026-11-07-7-pm/concert/18238371",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -280,7 +280,7 @@
         "event_id": 18238331,
         "url": "https://seatgeek.com/tobymac-tickets/greensboro-north-carolina-first-horizon-coliseum-2026-11-08-7-pm/concert/18238331",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -596,7 +596,7 @@
     "tour_name": "Hits Deep Tour",
     "ticketmaster_event_id": "0D006519D92EA2FC",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-tampa-florida-02-04-2027/event/0D006519D92EA2FC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/tampa-florida-benchmark-international-arena-2027-02-04-7-pm/concert/18542762",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-tampa-benchmark-international-arena-2-4-2027/production/7491804",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-tampa-florida-02-04-2027/event/0D006519D92EA2FC",
@@ -612,11 +612,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18542762,
+        "url": "https://seatgeek.com/tobymac-tickets/tampa-florida-benchmark-international-arena-2027-02-04-7-pm/concert/18542762",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7491804,
@@ -753,7 +753,7 @@
     "tour_name": "Hits Deep Tour",
     "ticketmaster_event_id": "22006519E94F5941",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-orlando-florida-02-06-2027/event/22006519E94F5941",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/orlando-florida-kia-center-2027-02-06-7-pm/concert/18542768",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-orlando-kia-center-2-6-2027--concerts-adult-contemporary/production/7492512",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-orlando-florida-02-06-2027/event/22006519E94F5941",
@@ -769,11 +769,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18542768,
+        "url": "https://seatgeek.com/tobymac-tickets/orlando-florida-kia-center-2027-02-06-7-pm/concert/18542768",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7492512,
@@ -833,7 +833,7 @@
     "tour_name": "Hits Deep Tour",
     "ticketmaster_event_id": "0D006518CDC6A6D0",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-estero-florida-02-07-2027/event/0D006518CDC6A6D0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/estero-florida-hertz-arena-2027-02-07-6-30-pm/concert/18542782",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-estero-hertz-arena-2-7-2027/production/7491829",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-estero-florida-02-07-2027/event/0D006518CDC6A6D0",
@@ -849,11 +849,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18542782,
+        "url": "https://seatgeek.com/tobymac-tickets/estero-florida-hertz-arena-2027-02-07-6-30-pm/concert/18542782",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7491829,
@@ -929,11 +929,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18542754,
+        "url": "https://seatgeek.com/tobymac-tickets/pensacola-florida-pensacola-bay-center-2027-02-11-7-pm/concert/18542754",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7492515,
@@ -1123,11 +1123,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18542766,
+        "url": "https://seatgeek.com/tobymac-tickets/columbus-ohio-nationwide-arena-2027-02-18-7-pm/concert/18542766",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7491821,
@@ -2128,11 +2128,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18542848,
+        "url": "https://seatgeek.com/tobymac-tickets/fairfax-virginia-eaglebank-arena-2027-02-19-7-pm/concert/18542848",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7491817,
@@ -2200,11 +2200,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18542849,
+        "url": "https://seatgeek.com/tobymac-tickets/fairfax-virginia-eaglebank-arena-2027-02-20-7-pm/concert/18542849",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7491825,

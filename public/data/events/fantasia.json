@@ -11,7 +11,7 @@
     "tour_name": "The Love of Soul Tour",
     "ticketmaster_event_id": "150065360DEA4BAF",
     "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-washington-district-of-columbia-02-05-2027/event/150065360DEA4BAF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fantasia-tickets/washington-district-of-columbia-capital-one-arena-2027-02-05-8-pm/concert/18629248",
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-washington-capital-one-arena-2-5-2027--concerts-rb/production/7621348",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-washington-district-of-columbia-02-05-2027/event/150065360DEA4BAF",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18629248,
+        "url": "https://seatgeek.com/fantasia-tickets/washington-district-of-columbia-capital-one-arena-2027-02-05-8-pm/concert/18629248",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7621348,
@@ -235,11 +235,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18629442,
+        "url": "https://seatgeek.com/fantasia-tickets/atlantic-city-new-jersey-boardwalk-hall-2027-02-13-8-pm/concert/18629442",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620565,
@@ -295,7 +295,7 @@
     "tour_name": "The Love of Soul Tour",
     "ticketmaster_event_id": "1B006531CEC733D3",
     "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-new-orleans-louisiana-02-19-2027/event/1B006531CEC733D3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fantasia-tickets/new-orleans-louisiana-smoothie-king-center-2027-02-19-8-pm/concert/18629243",
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-new-orleans-smoothie-king-center-2-19-2027/production/7620697",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-new-orleans-louisiana-02-19-2027/event/1B006531CEC733D3",
@@ -311,11 +311,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18629243,
+        "url": "https://seatgeek.com/fantasia-tickets/new-orleans-louisiana-smoothie-king-center-2027-02-19-8-pm/concert/18629243",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620697,
@@ -391,11 +391,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18629249,
+        "url": "https://seatgeek.com/fantasia-tickets/biloxi-mississippi-mississippi-coast-coliseum-2027-02-20-8-pm/concert/18629249",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7621374,

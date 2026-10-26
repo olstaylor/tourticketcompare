@@ -101,11 +101,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7860529",
-        "url": "https://www.ticketliquidator.com/tickets/7860529/Young-Miko-tickets-Sat-Oct-24-2026-Toyota-Center-TX",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x73v",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860529/Young-Miko-tickets-Sat-Oct-24-2026-Toyota-Center-TX",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

@@ -106,12 +106,20 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7831487",
+        "url": "https://www.ticketliquidator.com/tickets/7831487/Turnpike-Troubadours-tickets-Sun-Oct-25-2026-The-BayCare-Sound",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-gA_",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831487"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831487",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831487/Turnpike-Troubadours-tickets-Sun-Oct-25-2026-The-BayCare-Sound"
   },
   {
     "id": "tm-turnpike-troubadours-2026-las-vegas-17ayv0g62soqkki",
@@ -174,6 +182,13 @@
         "verified": true,
         "last_verified_at": "2026-10-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8182281",
+        "url": "https://www.ticketliquidator.com/tickets/8182281/Turnpike-Troubadours-tickets-Fri-Dec-11-2026-Brooklyn-Bowl-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62SoQKkI",
@@ -183,6 +198,7 @@
     "stubhub_international_url": "https://www.stubhub.ie/turnpike-troubadours-las-vegas-tickets-12-11-2026/event/107501081",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8182281/Turnpike-Troubadours-tickets-Fri-Dec-11-2026-Brooklyn-Bowl-Las-Vegas"
   }
 ]

@@ -257,11 +257,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8011575",
-        "url": "https://www.ticketliquidator.com/tickets/8011575/Bryson-Tiller-tickets-Sat-Oct-24-2026-North-Island-Credit-Union-Amphitheatre",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107258872",
@@ -281,7 +281,7 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_5QDPyT3",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8011575/Bryson-Tiller-tickets-Sat-Oct-24-2026-North-Island-Credit-Union-Amphitheatre",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-chula-vista-tickets-10-24-2026/event/107258872",
     "organizer_names": [
       "LIVE NATION MUSIC"

@@ -60,6 +60,13 @@
         "verified": true,
         "last_verified_at": "2026-10-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896088",
+        "url": "https://www.ticketliquidator.com/tickets/7896088/Beck-tickets-Sun-Oct-25-2026-The-Anthem-DC",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_FGkDleutU",
@@ -69,7 +76,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/beck-washington-tickets-10-25-2026/event/107671847",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896088/Beck-tickets-Sun-Oct-25-2026-The-Anthem-DC"
   },
   {
     "id": "tm-beck-2026-durham-g5evz_fbugjju",
@@ -244,6 +252,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896100",
+        "url": "https://www.ticketliquidator.com/tickets/7896100/Beck-tickets-Fri-Oct-30-2026-Coca-Cola-Roxy",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_FBor4w0",
@@ -252,7 +267,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896100",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896100/Beck-tickets-Fri-Oct-30-2026-Coca-Cola-Roxy"
   },
   {
     "id": "tm-beck-2026-nashville-g5viz_kspxnlj",
@@ -308,6 +324,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7808848",
+        "url": "https://www.ticketliquidator.com/tickets/7808848/Beck-tickets-Sat-Oct-31-2026-The-Truth",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_kSpxNLj",
@@ -316,7 +339,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808848",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808848/Beck-tickets-Sat-Oct-31-2026-The-Truth"
   },
   {
     "id": "tm-beck-2026-spokane-z7r9jz1aae87y",
@@ -372,6 +396,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301187",
+        "url": "https://www.ticketliquidator.com/tickets/8301187/Beck-tickets-Fri-Nov-6-2026-First-Interstate-Center-for-the-Arts",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe87Y",
@@ -380,7 +411,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301187",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301187/Beck-tickets-Fri-Nov-6-2026-First-Interstate-Center-for-the-Arts"
   },
   {
     "id": "tm-beck-2026-seattle-vvg1hz_3rxx2pm",
@@ -500,6 +532,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896101",
+        "url": "https://www.ticketliquidator.com/tickets/7896101/Beck-tickets-Mon-Nov-9-2026-Queen-Elizabeth-Theatre-Vancouver",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aoZk3a0babZe8k",
@@ -510,7 +549,8 @@
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896101/Beck-tickets-Mon-Nov-9-2026-Queen-Elizabeth-Theatre-Vancouver"
   },
   {
     "id": "tm-beck-2026-portland-z7r9jz1a7xffk",
@@ -566,6 +606,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896028",
+        "url": "https://www.ticketliquidator.com/tickets/7896028/Beck-tickets-Tue-Nov-10-2026-Keller-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xfFk",
@@ -575,6 +622,7 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896028/Beck-tickets-Tue-Nov-10-2026-Keller-Auditorium"
   }
 ]

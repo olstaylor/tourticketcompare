@@ -106,13 +106,21 @@
         "verified": true,
         "last_verified_at": "2026-10-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8329063",
+        "url": "https://www.ticketliquidator.com/tickets/8329063/Bon-Jovi-tickets-Thu-Jul-15-2027-MetLife-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_4eVgQWY",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329063"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329063",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329063/Bon-Jovi-tickets-Thu-Jul-15-2027-MetLife-Stadium"
   },
   {
     "id": "tm-bon-jovi-2027-chicago-vv178z_fgkh_n5td",
@@ -168,13 +176,21 @@
         "verified": true,
         "last_verified_at": "2026-10-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8329064",
+        "url": "https://www.ticketliquidator.com/tickets/8329064/Bon-Jovi-tickets-Wed-Jul-21-2027-Soldier-Field",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_fGkH_N5TD",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-30T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329064"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329064",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329064/Bon-Jovi-tickets-Wed-Jul-21-2027-Soldier-Field"
   },
   {
     "id": "tm-bon-jovi-2027-foxborough-vv1avzk48gke-15d8",
@@ -230,13 +246,21 @@
         "verified": true,
         "last_verified_at": "2026-10-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8329065",
+        "url": "https://www.ticketliquidator.com/tickets/8329065/Bon-Jovi-tickets-Wed-Jul-28-2027-Gillette-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk48Gke-15d8",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329065"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329065",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329065/Bon-Jovi-tickets-Wed-Jul-28-2027-Gillette-Stadium"
   },
   {
     "id": "tm-bon-jovi-2027-toronto-1a8zk48je1zze8k",

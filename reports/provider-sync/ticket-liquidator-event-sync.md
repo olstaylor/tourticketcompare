@@ -1,6 +1,6 @@
 # Ticket Liquidator event sync log
 
-Generated: 2026-10-24T00:12:57.406Z
+Generated: 2026-10-26T00:25:07.506Z
 
 Written by `scripts/sync-impact-marketplace-events.mjs`. One Impact catalog
 fetch per registry-verified artist; a link is written only for one
@@ -10,23 +10,21 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 ## Run summary
 
 - Mode: apply
-- Events selected: 3335
-- API calls made: 478
+- Events selected: 3321
+- API calls made: 512
 - Verified provenance written: 0
-- URLs added: 91
+- URLs added: 28
 - URLs corrected: 0
 - URLs cleared: 0
-- Provenance un-verified: 8
-- Conflicts (ambiguous, untouched): 49
-- No qualifying listing (complete catalog): 994
+- Provenance un-verified: 22
+- Conflicts (ambiguous, untouched): 51
+- No qualifying listing (complete catalog): 1011
 - Not checked (catalog incomplete): 0
 
 ## Outcomes
 
 | showId | artist | action | Ticket Liquidator id | url | notes |
 | --- | --- | --- | --- | --- | --- |
-| tm-harry-styles-2026-new-york-3b006435069e8398 | Harry Styles | none | 7695891 | https://www.ticketliquidator.com/tickets/7695891/Harry-Styles-tickets-Fri-Oct-23-2026-Madison-Square-Garden | - |
-| tm-harry-styles-2026-new-york-3b00643506ae83a2 | Harry Styles | none | 7695892 | https://www.ticketliquidator.com/tickets/7695892/Harry-Styles-tickets-Sat-Oct-24-2026-Madison-Square-Garden | - |
 | tm-harry-styles-2026-new-york-3b00643506bf83b6 | Harry Styles | none | 7695893 | https://www.ticketliquidator.com/tickets/7695893/Harry-Styles-tickets-Wed-Oct-28-2026-Madison-Square-Garden | - |
 | tm-harry-styles-2026-new-york-3b00643506cf83cb | Harry Styles | none | 7695894 | https://www.ticketliquidator.com/tickets/7695894/Harry-Styles-tickets-Fri-Oct-30-2026-Madison-Square-Garden | - |
 | tm-harry-styles-2026-new-york-3b00643506da83de | Harry Styles | none | 7695895 | https://www.ticketliquidator.com/tickets/7695895/Harry-Styles-tickets-Sat-Oct-31-2026-Madison-Square-Garden | - |
@@ -95,12 +93,10 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8ffjf_ | Olivia Rodrigo | none | 8127307 | https://www.ticketliquidator.com/tickets/8127307/Olivia-Rodrigo-tickets-Thu-May-6-2027-Palau-Sant-Jordi | - |
 | tm-olivia-rodrigo-2027-london-1adfz_agkdz-z3p | Olivia Rodrigo | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-olivia-rodrigo-2027-london-1adfz_agkdd-fh3 | Olivia Rodrigo | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-ed-sheeran-2026-arlington-z7r9jz1a7jw | Ed Sheeran | none | 7418618 | https://www.ticketliquidator.com/tickets/7418618/Ed-Sheeran-tickets-Sat-Oct-24-2026-ATT-Stadium | - |
 | tm-ed-sheeran-2026-hollywood-0d006331a7d91aff | Ed Sheeran | none | 7418599 | https://www.ticketliquidator.com/tickets/7418599/Ed-Sheeran-tickets-Thu-Oct-29-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood | - |
 | tm-ed-sheeran-2026-hollywood-0d006331f45e4089 | Ed Sheeran | none | 7418600 | https://www.ticketliquidator.com/tickets/7418600/Ed-Sheeran-tickets-Fri-Oct-30-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood | - |
 | tm-ed-sheeran-2026-tampa-0d006331d60a3a7a | Ed Sheeran | none | 7418601 | https://www.ticketliquidator.com/tickets/7418601/Ed-Sheeran-tickets-Sat-Nov-7-2026-Raymond-James-Stadium | - |
-| tm-jay-z-2026-inglewood-vvg1iz_gncu5jv | JAY-Z | none | 8038358 | https://www.ticketliquidator.com/tickets/8038358/Jay-Z-tickets-Fri-Oct-23-2026-SoFi-Stadium | - |
-| tm-jay-z-2026-inglewood-vvg1iz_gntjqqm | JAY-Z | none | 8164947 | https://www.ticketliquidator.com/tickets/8164947/Jay-Z-tickets-Sat-Oct-24-2026-SoFi-Stadium | - |
+| tm-jay-z-2026-inglewood-vvg1iz_gntjqqm | JAY-Z | unverify (applied) | 8164947 | https://www.ticketliquidator.com/tickets/8164947/Jay-Z-tickets-Sat-Oct-24-2026-SoFi-Stadium | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-gracie-abrams-2026-denver-g5vzz_55eui2w | Gracie Abrams | none | 8002235 | https://www.ticketliquidator.com/tickets/8002235/Gracie-Abrams-tickets-Wed-Dec-2-2026-Ball-Arena | - |
 | tm-gracie-abrams-2026-denver-g5vzz_5lhxedg | Gracie Abrams | none | 8002236 | https://www.ticketliquidator.com/tickets/8002236/Gracie-Abrams-tickets-Thu-Dec-3-2026-Ball-Arena | - |
 | tm-gracie-abrams-2026-oakland-g5vyz_1udxfhx | Gracie Abrams | none | 8002237 | https://www.ticketliquidator.com/tickets/8002237/Gracie-Abrams-tickets-Sun-Dec-6-2026-Oakland-Arena | - |
@@ -186,7 +182,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-niall-horan-2027-seattle-vvg1hz_1hqc03- | Niall Horan | none | 7954237 | https://www.ticketliquidator.com/tickets/7954237/Niall-Horan-tickets-Thu-May-27-2027-Climate-Pledge-Arena | - |
 | tm-niall-horan-2027-vancouver-1778v0g61qodyye | Niall Horan | none | 7954249 | https://www.ticketliquidator.com/tickets/7954249/Niall-Horan-tickets-Sat-May-29-2027-Rogers-Arena | - |
 | tm-doja-cat-2026-san-francisco-g5vyzbs0ua9tw | Doja Cat | none | 7457622 | https://www.ticketliquidator.com/tickets/7457622/Doja-Cat-tickets-Sun-Oct-25-2026-Chase-Center | - |
-| tm-doja-cat-2026-inglewood-vv170zbsgkihfzey | Doja Cat | unverify (applied) | 7457628 | https://www.ticketliquidator.com/tickets/7457628/Doja-Cat-tickets-Thu-Oct-22-2026-The-Kia-Forum | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-doja-cat-2026-san-diego-vvg1izbsi8_kno | Doja Cat | none | 7457630 | https://www.ticketliquidator.com/tickets/7457630/Doja-Cat-tickets-Tue-Oct-27-2026-Viejas-Arena-At-Aztec-Bowl | - |
 | tm-doja-cat-2026-phoenix-1av0zbsgknh-n_z | Doja Cat | none | 7457632 | https://www.ticketliquidator.com/tickets/7457632/Doja-Cat-tickets-Thu-Oct-29-2026-Mortgage-Matchup-Center | - |
 | tm-doja-cat-2026-austin-g5dizbsl2m6xd | Doja Cat | none | 7457635 | https://www.ticketliquidator.com/tickets/7457635/Doja-Cat-tickets-Tue-Nov-3-2026-Moody-Center-ATX | - |
@@ -205,7 +200,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-doja-cat-2026-montreal-1aszkgygkemvjjt | Doja Cat | none | 7457664 | https://www.ticketliquidator.com/tickets/7457664/Doja-Cat-tickets-Fri-Nov-27-2026-Centre-Bell | - |
 | tm-doja-cat-2026-philadelphia-1adzzbsgkldzvua | Doja Cat | none | 7457657 | https://www.ticketliquidator.com/tickets/7457657/Doja-Cat-tickets-Sun-Nov-29-2026-Xfinity-Mobile-Arena | - |
 | tm-doja-cat-2026-new-york-g5dizbsintkzt | Doja Cat | none | 7457486 | https://www.ticketliquidator.com/tickets/7457486/Doja-Cat-tickets-Tue-Dec-1-2026-Madison-Square-Garden | - |
-| tm-sombr-2026-sunrise-z7r9jz1a7x8vw | Sombr | none | 7874867 | https://www.ticketliquidator.com/tickets/7874867/sombr-tickets-Sat-Oct-24-2026-Amerant-Bank-Arena | - |
 | tm-sombr-2026-orlando-1aefz_fgkn1mew3 | Sombr | none | 7874868 | https://www.ticketliquidator.com/tickets/7874868/sombr-tickets-Sun-Oct-25-2026-Kia-Center | - |
 | tm-sombr-2026-charlotte-g5evz_fneqevn | Sombr | none | 7874869 | https://www.ticketliquidator.com/tickets/7874869/sombr-tickets-Tue-Oct-27-2026-Spectrum-Center | - |
 | tm-sombr-2026-nashville-g5viz_fja3nq8 | Sombr | none | 7874870 | https://www.ticketliquidator.com/tickets/7874870/sombr-tickets-Wed-Oct-28-2026-Bridgestone-Arena | - |
@@ -227,8 +221,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-sombr-2026-newark-vv1aezk3fgkdhlmuf | Sombr | none | 7874886 | https://www.ticketliquidator.com/tickets/7874886/sombr-tickets-Sat-Nov-21-2026-Prudential-Center | - |
 | tm-sombr-2026-new-york-g5diz_flfogz- | Sombr | none | 7874887 | https://www.ticketliquidator.com/tickets/7874887/sombr-tickets-Mon-Nov-23-2026-Madison-Square-Garden | - |
 | tm-sombr-2026-new-york-g5diz_flffpzi | Sombr | none | 7877722 | https://www.ticketliquidator.com/tickets/7877722/sombr-tickets-Tue-Nov-24-2026-Madison-Square-Garden | - |
-| tm-john-summit-2026-montreal-17g8v0g652qqblc | John Summit | none | 7982969 | https://www.ticketliquidator.com/tickets/7982969/John-Summit-tickets-Fri-Oct-23-2026-Centre-Bell | - |
-| tm-john-summit-2026-hamilton-177zv0g65247nfx | John Summit | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-john-summit-2026-toronto-177zv0g65ctmbsj | John Summit | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-john-summit-2026-boston-vvg17z_51ivlnd | John Summit | none | 7982946 | https://www.ticketliquidator.com/tickets/7982946/John-Summit-tickets-Thu-Oct-29-2026-TD-Garden | - |
 | tm-john-summit-2026-university-park-vvg1fz_55aanmw | John Summit | none | 7982947 | https://www.ticketliquidator.com/tickets/7982947/John-Summit-tickets-Fri-Oct-30-2026-Bryce-Jordan-Center | - |
@@ -270,12 +262,10 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-metallica-2027-las-vegas-1a9zko-gkepzr6g | Metallica | none | 7785089 | https://www.ticketliquidator.com/tickets/7785089/Metallica-tickets-Sat-Feb-20-2027-Sphere | - |
 | tm-metallica-2027-las-vegas-1a9zko-gke0buti | Metallica | conflict | - | - | ambiguous: missing or conflicting performance start evidence |
 | tm-metallica-2027-las-vegas-1a9zko-gkepzxff | Metallica | none | 7785871 | https://www.ticketliquidator.com/tickets/7785871/Metallica-tickets-Sat-Mar-13-2027-Sphere | - |
-| tm-my-chemical-romance-2026-hollywood-vvg1izbs55msjp | My Chemical Romance | none | 7424941 | https://www.ticketliquidator.com/tickets/7424941/My-Chemical-Romance-tickets-Fri-Oct-23-2026-Hollywood-Bowl | - |
-| tm-my-chemical-romance-2026-hollywood-vvg1izbs55znjb | My Chemical Romance | none | 7424942 | https://www.ticketliquidator.com/tickets/7424942/My-Chemical-Romance-tickets-Sat-Oct-24-2026-Hollywood-Bowl | - |
+| tm-my-chemical-romance-2026-hollywood-vvg1izbs55znjb | My Chemical Romance | unverify (applied) | 7424942 | https://www.ticketliquidator.com/tickets/7424942/My-Chemical-Romance-tickets-Sat-Oct-24-2026-Hollywood-Bowl | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-my-chemical-romance-2026-hollywood-vvg1izbs55ykjr | My Chemical Romance | none | 7570185 | https://www.ticketliquidator.com/tickets/7570185/My-Chemical-Romance-tickets-Fri-Oct-30-2026-Hollywood-Bowl | - |
 | tm-my-chemical-romance-2026-hollywood-vvg1izbs55bdjv | My Chemical Romance | none | 7570377 | https://www.ticketliquidator.com/tickets/7570377/My-Chemical-Romance-tickets-Sat-Oct-31-2026-Hollywood-Bowl | - |
 | tm-my-chemical-romance-2026-singapore-z7r9jz1a7oup6 | My Chemical Romance | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-teddy-swims-2026-sunrise-z7r9jz1a70v8i | Teddy Swims | none | 7883108 | https://www.ticketliquidator.com/tickets/7883108/Teddy-Swims-tickets-Fri-Oct-23-2026-Amerant-Bank-Arena | - |
 | tm-teddy-swims-2026-tampa-vvg1vz_fdr-qk6 | Teddy Swims | none | 7883109 | https://www.ticketliquidator.com/tickets/7883109/Teddy-Swims-tickets-Sun-Oct-25-2026-Benchmark-International-Arena | - |
 | tm-teddy-swims-2026-houston-z7r9jz1a7x4fs | Teddy Swims | none | 7892526 | https://www.ticketliquidator.com/tickets/7892526/Teddy-Swims-tickets-Tue-Oct-27-2026-Toyota-Center-TX | - |
 | tm-teddy-swims-2026-austin-g5diz_fxgrqaf | Teddy Swims | none | 7883110 | https://www.ticketliquidator.com/tickets/7883110/Teddy-Swims-tickets-Wed-Oct-28-2026-Moody-Center-ATX | - |
@@ -303,7 +293,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-teddy-swims-2027-london-17u8v0g6253xeaz | Teddy Swims | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-teddy-swims-2027-london-17u8v0g623cnnvk | Teddy Swims | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-teddy-swims-2027-london-17u8v0g623yvkkm | Teddy Swims | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-five-finger-death-punch-2026-bristow-1avfz_egki4tnxq | Five Finger Death Punch | none | 7676550 | https://www.ticketliquidator.com/tickets/7676550/Five-Finger-Death-Punch-tickets-Fri-Oct-23-2026-Jiffy-Lube-Live | - |
 | tm-five-finger-death-punch-2027-manchester-g5vhz_gnh6q4f | Five Finger Death Punch | none | 7987816 | https://www.ticketliquidator.com/tickets/7987816/Five-Finger-Death-Punch-tickets-Sat-Jan-16-2027-AO-Arena | - |
 | tm-five-finger-death-punch-2027-birmingham-1anzk3bgkev6s0s | Five Finger Death Punch | none | 8090419 | https://www.ticketliquidator.com/tickets/8090419/Five-Finger-Death-Punch-tickets-Fri-Jan-22-2027-bp-pulse-LIVE | - |
 | tm-five-finger-death-punch-2027-london-1agzk3bgkdreu6- | Five Finger Death Punch | none | - | - | no qualifying listing (complete catalog checked) |
@@ -318,8 +307,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-tame-impala-2027-rotterdam-z698xzbpz1kppan3z | Tame Impala | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-tame-impala-2027-rotterdam-z698xzbpz1k_yjz0i | Tame Impala | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-tame-impala-2027-rotterdam-z698xzbpz1k3e07a0 | Tame Impala | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-don-omar-2026-san-antonio-g5diz_1dg8uln | Don Omar | unverify (applied) | 7976486 | https://www.ticketliquidator.com/tickets/7976486/Don-Omar-tickets-Thu-Oct-22-2026-Frost-Bank-Center | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-don-omar-2026-houston-z7r9jz1a70e_w | Don Omar | none | 7976497 | https://www.ticketliquidator.com/tickets/7976497/Don-Omar-tickets-Fri-Oct-23-2026-Toyota-Center-TX | - |
 | tm-don-omar-2026-el-paso-vvg1yz_1hpge4r | Don Omar | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-don-omar-2026-ontario-vvg10z_1tpplao | Don Omar | none | 7976488 | https://www.ticketliquidator.com/tickets/7976488/Don-Omar-tickets-Thu-Oct-29-2026-Toyota-Arena-Ontario | - |
 | tm-don-omar-2026-las-vegas-z7r9jz1a70eqs | Don Omar | none | 7976499 | https://www.ticketliquidator.com/tickets/7976499/Don-Omar-tickets-Fri-Oct-30-2026-Michelob-ULTRA-Arena-At-Mandalay-Bay | - |
@@ -355,9 +342,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-luke-combs-2027-boise-g5vzz_8lfjx4v | Luke Combs | none | 8203732 | https://www.ticketliquidator.com/tickets/8203732/Luke-Combs-tickets-Sat-Jun-12-2027-Albertsons-Stadium | - |
 | tm-luke-combs-2027-denver-g5vzz_8l39sxz | Luke Combs | none | 8203733 | https://www.ticketliquidator.com/tickets/8203733/Luke-Combs-tickets-Sat-Jun-19-2027-Empower-Field-At-Mile-High | - |
 | tm-luke-combs-2027-san-diego-vvg1iz_8l9y-6a | Luke Combs | none | 8203734 | https://www.ticketliquidator.com/tickets/8203734/Luke-Combs-tickets-Sat-Jun-26-2027-Petco-Park | - |
-| tm-blue-october-2026-abilene-z7r9jz1a7-v0n | Blue October | unverify (applied) | 7828050 | https://www.ticketliquidator.com/tickets/7828050/Blue-October-tickets-Thu-Oct-22-2026-Paramount-Theatre-Abilene | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-blue-october-2026-lubbock-z7r9jz1a70v8t | Blue October | none | 7828051 | https://www.ticketliquidator.com/tickets/7828051/Blue-October-tickets-Fri-Oct-23-2026-Helen-DeVitt-Jones-Theater-At-The-Buddy-Holly-Hall | - |
-| tm-blue-october-2026-tulsa-z7r9jz1a7-v0_ | Blue October | none | 7828052 | https://www.ticketliquidator.com/tickets/7828052/Blue-October-tickets-Sat-Oct-24-2026-Tulsa-Theater | - |
+| tm-blue-october-2026-tulsa-z7r9jz1a7-v0_ | Blue October | unverify (applied) | 7828052 | https://www.ticketliquidator.com/tickets/7828052/Blue-October-tickets-Sat-Oct-24-2026-Tulsa-Theater | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-blue-october-2026-wichita-z7r9jz1a7-v0p | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blue-october-2026-milwaukee-z7r9jz1a7-v04 | Blue October | none | 7828054 | https://www.ticketliquidator.com/tickets/7828054/Blue-October-tickets-Wed-Oct-28-2026-Pabst-Theater | - |
 | tm-blue-october-2026-grand-rapids-vv1kezv0_8ga1aqp6 | Blue October | none | 7827963 | https://www.ticketliquidator.com/tickets/7827963/Blue-October-tickets-Thu-Oct-29-2026-GLC-Live-at-20-Monroe | - |
@@ -448,7 +433,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-pentatonix-2026-glendale-16_zkfdauzauuafa | Pentatonix | none | 8184445 | https://www.ticketliquidator.com/tickets/8184445/Pentatonix-tickets-Sat-Dec-19-2026-Desert-Diamond-Arena | - |
 | tm-pentatonix-2026-san-diego-vvg1iz_2i-g3fb | Pentatonix | none | 8184448 | https://www.ticketliquidator.com/tickets/8184448/Pentatonix-tickets-Sun-Dec-20-2026-Viejas-Arena-At-Aztec-Bowl | - |
 | tm-pentatonix-2026-inglewood-vv1aazkf7gkdi1gsn | Pentatonix | none | 8184452 | https://www.ticketliquidator.com/tickets/8184452/Pentatonix-tickets-Tue-Dec-22-2026-The-Kia-Forum | - |
-| tm-tyla-2026-dusseldorf-z698xzc2z16vq4jjgn | Tyla | none | 8168764 | https://www.ticketliquidator.com/tickets/8168764/Tyla-tickets-Sat-Oct-24-2026-Mitsubishi-Electric-Halle | - |
 | tm-tyla-2026-berlin-z698xzc2z16vfognfa | Tyla | none | 8168766 | https://www.ticketliquidator.com/tickets/8168766/Tyla-tickets-Tue-Oct-27-2026-Uber-Eats-Music-Hall | - |
 | tm-tyla-2026-wheatland-g5vyz_2qphiow | Tyla | none | 8164815 | https://www.ticketliquidator.com/tickets/8164815/Tyla-tickets-Thu-Nov-12-2026-Hard-Rock-Live-Sacramento | - |
 | tm-tyla-2026-san-francisco-g5vyz_2fimqin | Tyla | none | - | - | no qualifying listing (complete catalog checked) |
@@ -746,8 +730,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-fkj-2027-houston-g5diz_5msvufk | FKJ | none | 8012943 | https://www.ticketliquidator.com/tickets/8012943/FKJ-tickets-Fri-Jun-11-2027-Bayou-Music-Center | - |
 | tm-fkj-2027-austin-z7r9jz1a7pdvn | FKJ | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fkj-2027-dallas-vvg1yz_5ry7uyw | FKJ | none | 8012963 | https://www.ticketliquidator.com/tickets/8012963/FKJ-tickets-Mon-Jun-14-2027-South-Side-Ballroom-at-Gilleys | - |
-| tm-sylvan-esso-2026-chicago-vv178z_agksv90pf | Sylvan Esso | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-sylvan-esso-2026-minneapolis-z7r9jz1a7pfoy | Sylvan Esso | none | 8043798 | https://www.ticketliquidator.com/tickets/8043798/Sylvan-Esso-tickets-Fri-Oct-23-2026-First-Avenue | - |
 | tm-sylvan-esso-2027-seattle-vvg1hz_g92don0 | Sylvan Esso | none | 8043891 | https://www.ticketliquidator.com/tickets/8043891/Sylvan-Esso-tickets-Fri-Feb-19-2027-Paramount-Theatre-Seattle | - |
 | tm-sylvan-esso-2027-vancouver-z7r9jz1a7pffp | Sylvan Esso | none | 8043820 | https://www.ticketliquidator.com/tickets/8043820/Sylvan-Esso-tickets-Sat-Feb-20-2027-Vogue-Theatre-BC | - |
 | tm-sylvan-esso-2027-portland-z7r9jz1a7pf-d | Sylvan Esso | none | 8043821 | https://www.ticketliquidator.com/tickets/8043821/Sylvan-Esso-tickets-Mon-Feb-22-2027-McMenamins-Crystal-Ballroom | - |
@@ -1256,7 +1238,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-oasis-2027-barcelona-z698xz2qz1kvz7a4m | Oasis | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-oasis-2027-amsterdam-z698xzbpz16vrdz-8b | Oasis | none | 8264772 | https://www.ticketliquidator.com/tickets/8264772/Oasis-tickets-Fri-Jul-16-2027-Johan-Cruijff-Arena | - |
 | tm-oasis-2027-amsterdam-z698xzbpz1kodp337 | Oasis | none | 8264773 | https://www.ticketliquidator.com/tickets/8264773/Oasis-tickets-Sat-Jul-17-2027-Johan-Cruijff-Arena | - |
-| tm-sienna-spiro-2026-montreal-17g8v0g6gp5n0pn | Sienna Spiro | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sienna-spiro-2026-toronto-177zv0g6g9hzrkw | Sienna Spiro | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sienna-spiro-2026-chicago-z7r9jz1a7pxq8 | Sienna Spiro | none | 8038348 | https://www.ticketliquidator.com/tickets/8038348/Sienna-Spiro-tickets-Tue-Oct-27-2026-Riviera-Theatre-IL | - |
 | tm-sienna-spiro-2026-minneapolis-z7r9jz1a7pko4 | Sienna Spiro | none | 8038349 | https://www.ticketliquidator.com/tickets/8038349/Sienna-Spiro-tickets-Wed-Oct-28-2026-First-Avenue | - |
@@ -1281,8 +1262,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-sienna-spiro-2027-barcelona-z698xz2qz16evg76uk | Sienna Spiro | none | 8058056 | https://www.ticketliquidator.com/tickets/8058056/Sienna-Spiro-tickets-Mon-Mar-29-2027-Main-Hall-At-Parallel-62 | - |
 | tm-sienna-spiro-2027-madrid-z698xz2qz16v4sjdu3 | Sienna Spiro | none | 8058057 | https://www.ticketliquidator.com/tickets/8058057/Sienna-Spiro-tickets-Tue-Mar-30-2027-La-Riviera-Spain | - |
 | tm-sienna-spiro-2027-dublin-17kzv0g6gpq41un | Sienna Spiro | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-malcolm-todd-2026-oakland-g5vyz_gfww-6g | Malcolm Todd | unverify (applied) | 8038477 | https://www.ticketliquidator.com/tickets/8038477/Malcolm-Todd-tickets-Thu-Oct-22-2026-Fox-Theater-Oakland | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-malcolm-todd-2026-san-diego-vvg1iz_gcici-d | Malcolm Todd | none | 8034309 | https://www.ticketliquidator.com/tickets/8034309/Malcolm-Todd-tickets-Sat-Oct-24-2026-Gallagher-Square-at-Petco-Park | - |
+| tm-malcolm-todd-2026-san-diego-vvg1iz_gcici-d | Malcolm Todd | unverify (applied) | 8034309 | https://www.ticketliquidator.com/tickets/8034309/Malcolm-Todd-tickets-Sat-Oct-24-2026-Gallagher-Square-at-Petco-Park | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-malcolm-todd-2026-phoenix-17k8v0g6g538qi9 | Malcolm Todd | none | 8035370 | https://www.ticketliquidator.com/tickets/8035370/Malcolm-Todd-tickets-Sun-Oct-25-2026-Arizona-Financial-Theatre | - |
 | tm-malcolm-todd-2026-los-angeles-vvg10z_gcgtrwf | Malcolm Todd | none | 8034349 | https://www.ticketliquidator.com/tickets/8034349/Malcolm-Todd-tickets-Wed-Oct-28-2026-Greek-Theatre-Los-Angeles-CA | - |
 | tm-malcolm-todd-2026-los-angeles-vvg10z_gpovtcx | Malcolm Todd | none | 8038273 | https://www.ticketliquidator.com/tickets/8038273/Malcolm-Todd-tickets-Thu-Oct-29-2026-Greek-Theatre-Los-Angeles-CA | - |
@@ -1347,9 +1327,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-the-interrupters-2027-salt-lake-city-g5vzz_3nsybuv | The Interrupters | none | 8284381 | https://www.ticketliquidator.com/tickets/8284381/The-Interrupters-tickets-Sat-Apr-24-2027-The-Union-Event-Center | - |
 | tm-the-interrupters-2027-los-angeles-vv1ke8vpgbgautgrg | The Interrupters | none | 8284386 | https://www.ticketliquidator.com/tickets/8284386/The-Interrupters-tickets-Fri-Apr-30-2027-The-Wiltern | - |
 | tm-the-interrupters-2027-anaheim-vv1fe8vpg33pz72fk7 | The Interrupters | none | 8284387 | https://www.ticketliquidator.com/tickets/8284387/The-Interrupters-tickets-Sun-May-2-2027-House-Of-Blues-Anaheim | - |
-| tm-dinosaur-jr-2026-portland-z7r9jz1a7pu-m | Dinosaur Jr. | unverify (applied) | 8105619 | https://www.ticketliquidator.com/tickets/8105619/Dinosaur-Jr-tickets-Thu-Oct-22-2026-Revolution-Hall-Portland | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-dinosaur-jr-2026-seattle-vvg1hz_ul9tuc_ | Dinosaur Jr. | conflict | - | - | ambiguous: missing or conflicting performance start evidence |
-| tm-dinosaur-jr-2026-seattle-vvg1hz_ul9nqcx | Dinosaur Jr. | none | 8103953 | https://www.ticketliquidator.com/tickets/8103953/Dinosaur-Jr-tickets-Sat-Oct-24-2026-The-Neptune-Theatre | - |
+| tm-dinosaur-jr-2026-seattle-vvg1hz_ul9nqcx | Dinosaur Jr. | unverify (applied) | 8103953 | https://www.ticketliquidator.com/tickets/8103953/Dinosaur-Jr-tickets-Sat-Oct-24-2026-The-Neptune-Theatre | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-dinosaur-jr-2026-salt-lake-city-z7r9jz1a7pmzv | Dinosaur Jr. | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dinosaur-jr-2026-denver-z7r9jz1a7pu0p | Dinosaur Jr. | none | 8099079 | https://www.ticketliquidator.com/tickets/8099079/Dinosaur-Jr-tickets-Thu-Oct-29-2026-Ogden-Theatre | - |
 | tm-dinosaur-jr-2026-houston-g5diz_uj-6tws | Dinosaur Jr. | none | 8099101 | https://www.ticketliquidator.com/tickets/8099101/Dinosaur-Jr-tickets-Wed-Nov-4-2026-House-Of-Blues-Houston | - |
@@ -1375,15 +1353,13 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-oasis-2027-las-vegas-1kayvp7_ga2u_jk | Oasis | none | 8264691 | https://www.ticketliquidator.com/tickets/8264691/Oasis-tickets-Tue-Aug-24-2027-Allegiant-Stadium | - |
 | tm-harry-styles-2027-glendale-z7r9jz1aavp4_ | Harry Styles | none | 8257669 | https://www.ticketliquidator.com/tickets/8257669/Harry-Styles-tickets-Fri-Apr-2-2027-State-Farm-Stadium | - |
 | tm-harry-styles-2027-glendale-z7r9jz1aavp4b | Harry Styles | none | 8257670 | https://www.ticketliquidator.com/tickets/8257670/Harry-Styles-tickets-Sat-Apr-3-2027-State-Farm-Stadium | - |
-| tm-charli-xcx-2026-las-vegas-z7r9jz1a7p8v- | Charli xcx | none | 8034408 | https://www.ticketliquidator.com/tickets/8034408/Charli-XCX-tickets-Fri-Oct-23-2026-MGM-Grand-Garden-Arena | - |
 | tm-gracie-abrams-2027-glasgow-17uov0g65lvesak | Gracie Abrams | none | 8002348 | https://www.ticketliquidator.com/tickets/8002348/Gracie-Abrams-tickets-Tue-Apr-27-2027-OVO-Hydro | - |
 | tm-gracie-abrams-2027-glasgow-17uov0g65vd1fhq | Gracie Abrams | none | 8018186 | https://www.ticketliquidator.com/tickets/8018186/Gracie-Abrams-tickets-Wed-Apr-28-2027-OVO-Hydro | - |
 | tm-niall-horan-2026-belfast-1adoz_kgkuhawcy | Niall Horan | none | 7831757 | https://www.ticketliquidator.com/tickets/7831757/Niall-Horan-tickets-Sun-Nov-15-2026-The-O2-Belfast | - |
 | tm-niall-horan-2026-belfast-1adoz_6gkmwqvwh | Niall Horan | none | 7846501 | https://www.ticketliquidator.com/tickets/7846501/Niall-Horan-tickets-Mon-Nov-16-2026-The-O2-Belfast | - |
 | tm-niall-horan-2027-hartford-z7r9jz1a709uz | Niall Horan | none | 7954214 | https://www.ticketliquidator.com/tickets/7954214/Niall-Horan-tickets-Tue-Apr-13-2027-PeoplesBank-Arena | - |
 | tm-doja-cat-2026-las-vegas-z7r9jz1a7js4u | Doja Cat | none | 7457634 | https://www.ticketliquidator.com/tickets/7457634/Doja-Cat-tickets-Sat-Oct-31-2026-T-Mobile-Arena | - |
-| tm-metallica-2026-las-vegas-1a9zko4gkdtfc4w | Metallica | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-metallica-2026-las-vegas-1a9zko4gkdtfc4g | Metallica | none | 7758712 | https://www.ticketliquidator.com/tickets/7758712/Metallica-tickets-Sat-Oct-24-2026-Sphere | - |
+| tm-metallica-2026-las-vegas-1a9zko4gkdtfc4g | Metallica | unverify (applied) | 7758712 | https://www.ticketliquidator.com/tickets/7758712/Metallica-tickets-Sat-Oct-24-2026-Sphere | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-metallica-2026-las-vegas-1fayv048rvz72a6e | Metallica | conflict | - | - | ambiguous: missing or conflicting performance start evidence |
 | tm-metallica-2026-las-vegas-1fayv048rvz72a6k | Metallica | none | 7759027 | https://www.ticketliquidator.com/tickets/7759027/Metallica-tickets-Sat-Oct-31-2026-Sphere | - |
 | tm-metallica-2026-las-vegas-1fayv048rez72a62 | Metallica | conflict | - | - | ambiguous: missing or conflicting performance start evidence |
@@ -1452,8 +1428,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-needtobreathe-2027-memphis-g5viz_k1tpwrf | NEEDTOBREATHE | none | 8290986 | https://www.ticketliquidator.com/tickets/8290986/Needtobreathe-tickets-Thu-Mar-18-2027-Satellite-Music-Hall | - |
 | tm-needtobreathe-2027-new-orleans-g5viz_ocxa2ai | NEEDTOBREATHE | none | 8290987 | https://www.ticketliquidator.com/tickets/8290987/Needtobreathe-tickets-Fri-Mar-19-2027-The-Fillmore-New-Orleans | - |
 | tm-needtobreathe-2027-houston-g5diz_kkbawh- | NEEDTOBREATHE | none | 8290988 | https://www.ticketliquidator.com/tickets/8290988/Needtobreathe-tickets-Sat-Mar-20-2027-713-Music-Hall | - |
-| tm-foy-vance-2026-london-g5dzz_akto7o5 | Foy Vance | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-foy-vance-2026-london-g5dzz_a5f7udr | Foy Vance | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-foy-vance-2026-manchester-g5vhz_3kr3ers | Foy Vance | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-foy-vance-2026-wexford-1avoz_7gksprdxw | Foy Vance | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-foy-vance-2026-dublin-1abzko8gkdu8sqd | Foy Vance | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1578,7 +1552,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-valley-2027-manchester-g5vhz_ohdx77o | Valley | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-valley-2027-london-g5dzz_3vpsj3z | Valley | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-valley-2027-leeds-1adfz_3gkihrzjf | Valley | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-yacht-rock-revue-2026-huntsville-17fzv0g62kqgox0 | Yacht Rock Revue | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-yacht-rock-revue-2026-atlanta-vvg1zz_oecocx5 | Yacht Rock Revue | none | 8244362 | https://www.ticketliquidator.com/tickets/8244362/Yacht-Rock-Revue-tickets-Sat-Dec-19-2026-Coca-Cola-Roxy | - |
 | tm-yacht-rock-revue-2027-englewood-k7vgf_k9ovli- | Yacht Rock Revue | none | 8284472 | https://www.ticketliquidator.com/tickets/8284472/Yacht-Rock-Revue-tickets-Thu-Jan-7-2027-Bergen-Performing-Arts-Center | - |
 | tm-yacht-rock-revue-2027-huntington-k7vgf_31y4afw | Yacht Rock Revue | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1600,8 +1573,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-too-many-zooz-2027-houston-g5diz_kf4niru | Too Many Zooz | none | 8284721 | https://www.ticketliquidator.com/tickets/8284721/Too-Many-Zooz-tickets-Fri-Apr-30-2027-White-Oak-Music-Hall-Downstairs | - |
 | tm-too-many-zooz-2027-tucson-z7r9jz1aavmvf | Too Many Zooz | none | 8284723 | https://www.ticketliquidator.com/tickets/8284723/Too-Many-Zooz-tickets-Thu-May-6-2027-La-Rosa-Tucson | - |
 | tm-too-many-zooz-2027-seattle-vvg1hz_3tamn7s | Too Many Zooz | none | 8284730 | https://www.ticketliquidator.com/tickets/8284730/Too-Many-Zooz-tickets-Fri-May-14-2027-The-Neptune-Theatre | - |
-| tm-amble-2026-los-angeles-vv170z_agkrleod6 | Amble | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-amble-2026-san-francisco-g5vyz_gntwbu0 | Amble | none | 8056125 | https://www.ticketliquidator.com/tickets/8056125/Amble-tickets-Sat-Oct-24-2026-The-Fillmore-San-Francisco | - |
+| tm-amble-2026-san-francisco-g5vyz_gntwbu0 | Amble | unverify (applied) | 8056125 | https://www.ticketliquidator.com/tickets/8056125/Amble-tickets-Sat-Oct-24-2026-The-Fillmore-San-Francisco | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-amble-2026-seattle-z7r9jz1a70p_0 | Amble | none | 7930662 | https://www.ticketliquidator.com/tickets/7930662/Amble-tickets-Mon-Oct-26-2026-The-Showbox | - |
 | tm-amble-2026-vancouver-1av7z_agkmsrf76 | Amble | none | 7936748 | https://www.ticketliquidator.com/tickets/7936748/Amble-tickets-Tue-Oct-27-2026-Orpheum-Theatre-Vancouver | - |
 | tm-amble-2026-detroit-vv1afzk39gkeeybaa | Amble | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1701,7 +1673,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-chelsea-cutler-2027-los-angeles-vv1aazkfzgkdgncya | Chelsea Cutler | none | 8301010 | https://www.ticketliquidator.com/tickets/8301010/Chelsea-Cutler-tickets-Thu-Mar-4-2027-The-Bellwether | - |
 | tm-chelsea-cutler-2027-san-diego-vvg1iz_ks1c6a3 | Chelsea Cutler | none | 8301011 | https://www.ticketliquidator.com/tickets/8301011/Chelsea-Cutler-tickets-Fri-Mar-5-2027-The-Observatory-North-Park | - |
 | tm-chelsea-cutler-2027-boise-g5vzz_ksxzvbs | Chelsea Cutler | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-red-clay-strays-2026-nashville-g5vizbubiwctj | The Red Clay Strays | none | 7599586 | https://www.ticketliquidator.com/tickets/7599586/The-Red-Clay-Strays-tickets-Fri-Oct-23-2026-Bridgestone-Arena | - |
 | tm-the-red-clay-strays-2026-knoxville-g5viz_ae91dt_ | The Red Clay Strays | none | 7906851 | https://www.ticketliquidator.com/tickets/7906851/The-Red-Clay-Strays-tickets-Wed-Oct-28-2026-Thompson-Boling-Arena-at-Food-City-Center | - |
 | tm-the-red-clay-strays-2026-birmingham-1aozk38gkdpv4cc | The Red Clay Strays | none | 7906852 | https://www.ticketliquidator.com/tickets/7906852/The-Red-Clay-Strays-tickets-Sat-Oct-31-2026-Legacy-Arena-at-The-BJCC | - |
 | tm-the-red-clay-strays-2026-baton-rouge-z7r9jz1a70vj6 | The Red Clay Strays | none | 7906853 | https://www.ticketliquidator.com/tickets/7906853/The-Red-Clay-Strays-tickets-Thu-Nov-5-2026-Raising-Canes-River-Center-Arena | - |
@@ -1735,8 +1706,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-the-red-clay-strays-2027-rogers-g5viz_kuooawu | The Red Clay Strays | none | 8300910 | https://www.ticketliquidator.com/tickets/8300910/The-Red-Clay-Strays-tickets-Thu-Sep-9-2027-Walmart-AMP | - |
 | tm-the-red-clay-strays-2027-corpus-christi-g5diz_ksvr9iw | The Red Clay Strays | none | 8300911 | https://www.ticketliquidator.com/tickets/8300911/The-Red-Clay-Strays-tickets-Sat-Sep-18-2027-Hilliard-Center-Arena | - |
 | tm-the-red-clay-strays-2027-austin-g5diz_kmbauv1 | The Red Clay Strays | none | 8300912 | https://www.ticketliquidator.com/tickets/8300912/The-Red-Clay-Strays-tickets-Sun-Sep-19-2027-Moody-Center-ATX | - |
-| tm-daughtry-2026-danville-vvg17z_gy_imrz | Daughtry | none | 8056801 | https://www.ticketliquidator.com/tickets/8056801/Daughtry-tickets-Fri-Oct-23-2026-The-Pantheon-at-Caesars-Virginia | - |
-| tm-daughtry-2026-florence-17aov0g6gj3vrxt | Daughtry | none | 8044153 | https://www.ticketliquidator.com/tickets/8044153/Daughtry-tickets-Sat-Oct-24-2026-Turfway-Park | - |
+| tm-daughtry-2026-florence-17aov0g6gj3vrxt | Daughtry | unverify (applied) | 8044153 | https://www.ticketliquidator.com/tickets/8044153/Daughtry-tickets-Sat-Oct-24-2026-Turfway-Park | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-daughtry-2026-greensburg-z7r9jz1aazman | Daughtry | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-daughtry-2026-wheeling-z7r9jz1aav9u8 | Daughtry | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-daughtry-2026-nashville-vvg1fz_gmyo5fy | Daughtry | none | 8056802 | https://www.ticketliquidator.com/tickets/8056802/Daughtry-tickets-Thu-Oct-29-2026-Brown-County-Music-Center | - |
@@ -1873,7 +1843,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-greta-van-fleet-2027-laval-1ad7z_kgksakup4 | Greta Van Fleet | none | 8303391 | https://www.ticketliquidator.com/tickets/8303391/Greta-Van-Fleet-tickets-Wed-Jul-28-2027-Place-Bell | - |
 | tm-greta-van-fleet-2027-toronto-1avzz_kgkswyehx | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-greta-van-fleet-2027-grand-rapids-vv17oz_kgkwlsfog | Greta Van Fleet | none | 8303382 | https://www.ticketliquidator.com/tickets/8303382/Greta-Van-Fleet-tickets-Sat-Jul-31-2027-Acrisure-Amphitheater | - |
-| tm-fontaines-d-c-2026-barcelona-z698xz2qz16vvp4sps | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fontaines-d-c-2026-casalecchio-di-reno-bologna-zg9rmiynyzdk1k | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fontaines-d-c-2026-merksem-antwerpen-z698xzg2z16ve_oz7v | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fontaines-d-c-2026-liverpool-1adjz_8gkv_dtbp | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2008,7 +1977,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-staind-2027-moline-vv1fbz_fkec7zdga1 | Staind | none | 8308789 | https://www.ticketliquidator.com/tickets/8308789/Staind-tickets-Sun-Apr-11-2027-Vibrant-Arena-at-The-MARK | - |
 | tm-staind-2027-grand-rapids-vv17oz_kgkmqeain | Staind | none | 8308790 | https://www.ticketliquidator.com/tickets/8308790/Staind-tickets-Tue-Apr-13-2027-Van-Andel-Arena | - |
 | tm-staind-2027-evansville-vv17fz_kgkd3hr7l | Staind | none | 8308791 | https://www.ticketliquidator.com/tickets/8308791/Staind-tickets-Wed-Apr-14-2027-Ford-Center-IN | - |
-| tm-dylan-gossett-2026-waco-z7r9jz1a7jdak | Dylan Gossett | none | 8111328 | https://www.ticketliquidator.com/tickets/8111328/Dylan-Gossett-tickets-Sat-Oct-24-2026-Magnolia-Market-At-The-Silos | - |
+| tm-dylan-gossett-2026-waco-z7r9jz1a7jdak | Dylan Gossett | unverify (applied) | 8111328 | https://www.ticketliquidator.com/tickets/8111328/Dylan-Gossett-tickets-Sat-Oct-24-2026-Magnolia-Market-At-The-Silos | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-dylan-gossett-2026-chicago-vvg18z_u5xbtr6 | Dylan Gossett | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dylan-gossett-2026-pittsburgh-17aov0g6u5ijrxe | Dylan Gossett | none | 8073983 | https://www.ticketliquidator.com/tickets/8073983/Dylan-Gossett-tickets-Fri-Oct-30-2026-Citizens-Live-at-The-Wylie | - |
 | tm-dylan-gossett-2026-apopka-z7r9jz1a7ps7y | Dylan Gossett | none | 8073985 | https://www.ticketliquidator.com/tickets/8073985/Dylan-Gossett-tickets-Sat-Nov-21-2026-Apopka-Amphitheater | - |
@@ -2242,8 +2211,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-jay-wheeler-2027-houston-g5diz_f62ij1f | Jay Wheeler | none | 8307367 | https://www.ticketliquidator.com/tickets/8307367/Jay-Wheeler-tickets-Wed-Apr-7-2027-713-Music-Hall | - |
 | tm-jay-wheeler-2027-inglewood-vvg1iz_f8af9cn | Jay Wheeler | none | 8307369 | https://www.ticketliquidator.com/tickets/8307369/Jay-Wheeler-tickets-Sat-Apr-10-2027-YouTube-Theater-at-Hollywood-Park | - |
 | tm-jay-wheeler-2027-orlando-1axzk4vgkd6tfj5 | Jay Wheeler | none | 8307371 | https://www.ticketliquidator.com/tickets/8307371/Jay-Wheeler-tickets-Thu-Apr-15-2027-Kia-Center | - |
-| tm-mico-2026-austin-g5diz_1wd9gll | Mico | none | 7977765 | https://www.ticketliquidator.com/tickets/7977765/Mico-tickets-Fri-Oct-23-2026-Scoot-Inn | - |
-| tm-mico-2026-houston-g5diz_1ucylhw | Mico | none | 7977767 | https://www.ticketliquidator.com/tickets/7977767/Mico-tickets-Sat-Oct-24-2026-White-Oak-Music-Hall-Downstairs | - |
 | tm-mico-2026-nashville-g5viz_1mfi-bc | Mico | none | 7977769 | https://www.ticketliquidator.com/tickets/7977769/Mico-tickets-Mon-Oct-26-2026-Brooklyn-Bowl-Nashville | - |
 | tm-mico-2026-atlanta-vvg1zz_1d2p0tb | Mico | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mico-2026-washington-17a8v0g61sa7y8c | Mico | none | 7977761 | https://www.ticketliquidator.com/tickets/7977761/Mico-tickets-Thu-Oct-29-2026-930-Club | - |
@@ -2447,7 +2414,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-vnv-nation-2027-baltimore-1avfzbvgklmrqky | VNV Nation | none | 7665363 | https://www.ticketliquidator.com/tickets/7665363/VNV-Nation-tickets-Sat-Apr-10-2027-Baltimore-Soundstage | - |
 | tm-vnv-nation-2027-millvale-rz7hnez1afbaps | VNV Nation | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-yuridia-2026-zapopan-g5dvz_aia5kvd | Yuridia | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fkj-2026-praha-1-z698xzu0z16v7kp8r6 | FKJ | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fkj-2027-auckland-17azv0g6cklgovf | FKJ | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sylvan-esso-2027-new-orleans-rz7hnez1afqk8n | Sylvan Esso | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blondshell-2027-san-diego-vvg1iz_1wv8vq3 | Blondshell | none | 7976571 | https://www.ticketliquidator.com/tickets/7976571/Blondshell-tickets-Sun-Feb-28-2027-The-Observatory-North-Park | - |
@@ -2516,7 +2482,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-too-many-zooz-2027-san-diego-rz7hnez1afgpof | Too Many Zooz | none | 8284725 | https://www.ticketliquidator.com/tickets/8284725/Too-Many-Zooz-tickets-Fri-May-7-2027-Music-Box-San-Diego | - |
 | tm-too-many-zooz-2027-san-francisco-rz7hnez1afgsv7 | Too Many Zooz | none | 8284728 | https://www.ticketliquidator.com/tickets/8284728/Too-Many-Zooz-tickets-Sun-May-9-2027-The-Independent | - |
 | tm-too-many-zooz-2027-vancouver-rz7hnez1afgyg0 | Too Many Zooz | none | 8284731 | https://www.ticketliquidator.com/tickets/8284731/Too-Many-Zooz-tickets-Sat-May-15-2027-The-Pearl-BC | - |
-| tm-amble-2026-phoenix-rz7hnez1afk4vf | Amble | unverify (applied) | 8056126 | https://www.ticketliquidator.com/tickets/8056126/Amble-tickets-Thu-Oct-22-2026-The-Crescent-Ballroom-Phoenix | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-amble-2027-vienna-z698xz5rz1kburk7p | Amble | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-amble-2027-praha-5-z698xzu0z1kje4u8k | Amble | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-a-perfect-circle-2026-auckland-1ae8z_kgkr16koz | A Perfect Circle | none | 8173268 | https://www.ticketliquidator.com/tickets/8173268/A-Perfect-Circle-tickets-Sun-Dec-13-2026-Spark-Arena | - |
@@ -2559,7 +2524,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-mico-2027-praha-1-z698xzu0z16vxkonfi | Mico | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mico-2027-k-benhavn-v-z698xzc4z16vj9j7ev | Mico | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mico-2027-cleveland-rz7hnez1afut40 | Mico | none | 8315361 | https://www.ticketliquidator.com/tickets/8315361/Mico-tickets-Sat-Mar-13-2027-Globe-Iron | - |
-| tm-rod-wave-2026-pittsburgh-17aov0g6uky4i7y | Rod Wave | none | 8063451 | https://www.ticketliquidator.com/tickets/8063451/Rod-Wave-tickets-Fri-Oct-23-2026-PPG-Paints-Arena | - |
 | tm-rod-wave-2026-boston-vvg17z_uerk22e | Rod Wave | none | 8063452 | https://www.ticketliquidator.com/tickets/8063452/Rod-Wave-tickets-Sun-Oct-25-2026-TD-Garden | - |
 | tm-rod-wave-2026-brooklyn-17gzv0g6uz2i9rf | Rod Wave | none | 8063453 | https://www.ticketliquidator.com/tickets/8063453/Rod-Wave-tickets-Tue-Oct-27-2026-Barclays-Center | - |
 | tm-rod-wave-2026-brooklyn-17gzv0g6uhl8aq4 | Rod Wave | none | 8173375 | https://www.ticketliquidator.com/tickets/8173375/Rod-Wave-tickets-Wed-Oct-28-2026-Barclays-Center | - |
@@ -2573,7 +2537,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-rod-wave-2026-sunrise-z7r9jz1aazfq4 | Rod Wave | none | 8173479 | https://www.ticketliquidator.com/tickets/8173479/Rod-Wave-tickets-Sun-Nov-15-2026-Amerant-Bank-Arena | - |
 | tm-rod-wave-2026-atlanta-vvg1zz_uzryhlw | Rod Wave | none | 8063459 | https://www.ticketliquidator.com/tickets/8063459/Rod-Wave-tickets-Wed-Nov-18-2026-State-Farm-Arena-GA | - |
 | tm-rod-wave-2026-atlanta-vvg1zz_uqszfce | Rod Wave | none | 8172951 | https://www.ticketliquidator.com/tickets/8172951/Rod-Wave-tickets-Thu-Nov-19-2026-State-Farm-Arena-GA | - |
-| tm-steve-lacy-2026-raleigh-g5evz_8ci0_um | Steve Lacy | none | 8199799 | https://www.ticketliquidator.com/tickets/8199799/Steve-Lacy-tickets-Fri-Oct-23-2026-Red-Hat-Amphitheater | - |
 | tm-steve-lacy-2026-miami-vvg1vz_8pw-pfe | Steve Lacy | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-steve-lacy-2026-tampa-vvg1vz_8uxpnex | Steve Lacy | none | 8199801 | https://www.ticketliquidator.com/tickets/8199801/Steve-Lacy-tickets-Wed-Oct-28-2026-The-Yuengling-Center | - |
 | tm-steve-lacy-2026-atlanta-vvg1zz_2x4siub | Steve Lacy | none | 8199802 | https://www.ticketliquidator.com/tickets/8199802/Steve-Lacy-tickets-Fri-Oct-30-2026-Synovus-Bank-Amphitheater-at-Chastain-Park | - |
@@ -2591,7 +2554,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-steve-lacy-2026-san-francisco-g5vyz_8bk7kme | Steve Lacy | none | 8286236 | https://www.ticketliquidator.com/tickets/8286236/Steve-Lacy-tickets-Wed-Nov-25-2026-Bill-Graham-Civic-Auditorium | - |
 | tm-steve-lacy-2026-seattle-vvg1hz_8pk8e2l | Steve Lacy | none | 8199813 | https://www.ticketliquidator.com/tickets/8199813/Steve-Lacy-tickets-Sat-Nov-28-2026-Wamu-Theater-At-Lumen-Field-Event-Center | - |
 | tm-steve-lacy-2026-vancouver-1aozkf7gkepzmxx | Steve Lacy | none | 8199816 | https://www.ticketliquidator.com/tickets/8199816/Steve-Lacy-tickets-Mon-Nov-30-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre | - |
-| tm-the-smashing-pumpkins-2026-nashville-g5viz_1bbgqqs | The Smashing Pumpkins | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-smashing-pumpkins-2026-oklahoma-city-vvg1yz_1hjjehy | The Smashing Pumpkins | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-smashing-pumpkins-2026-austin-g5diz_1txjp-0 | The Smashing Pumpkins | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-smashing-pumpkins-2026-denver-g5vzz_1xqviwv | The Smashing Pumpkins | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2604,8 +2566,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-the-smashing-pumpkins-2026-san-jose-g5vyz_1dhcziz | The Smashing Pumpkins | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-smashing-pumpkins-2026-phoenix-17k8v0g61xa1k9d | The Smashing Pumpkins | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-smashing-pumpkins-2026-inglewood-vvg10z_1t5e4o_ | The Smashing Pumpkins | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fuerza-regida-2026-wheatland-g5vyz_81rrfk3 | Fuerza Regida | none | 8194523 | https://www.ticketliquidator.com/tickets/8194523/Fuerza-Regida-tickets-Fri-Oct-23-2026-Toyota-Amphitheatre | - |
-| tm-fuerza-regida-2026-bakersfield-z7r9jz1aazpuu | Fuerza Regida | none | 8194524 | https://www.ticketliquidator.com/tickets/8194524/Fuerza-Regida-tickets-Sat-Oct-24-2026-Dignity-Health-Arena | - |
+| tm-fuerza-regida-2026-bakersfield-z7r9jz1aazpuu | Fuerza Regida | unverify (applied) | 8194524 | https://www.ticketliquidator.com/tickets/8194524/Fuerza-Regida-tickets-Sat-Oct-24-2026-Dignity-Health-Arena | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-fuerza-regida-2026-bakersfield-z7r9jz1aavaxk | Fuerza Regida | none | 8237408 | https://www.ticketliquidator.com/tickets/8237408/Fuerza-Regida-tickets-Sun-Oct-25-2026-Dignity-Health-Arena | - |
 | tm-fuerza-regida-2026-fresno-g5vyz_89-ysvr | Fuerza Regida | none | 8247043 | https://www.ticketliquidator.com/tickets/8247043/Fuerza-Regida-tickets-Tue-Oct-27-2026-Save-Mart-Center | - |
 | tm-fuerza-regida-2026-fresno-g5vyz_8kys-gg | Fuerza Regida | none | 8194525 | https://www.ticketliquidator.com/tickets/8194525/Fuerza-Regida-tickets-Wed-Oct-28-2026-Save-Mart-Center | - |
@@ -2685,7 +2646,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-eagles-2027-las-vegas-1a9zk3dgkdpxtsj | Eagles | none | 8180170 | https://www.ticketliquidator.com/tickets/8180170/The-Eagles-tickets-Sat-Jan-16-2027-Sphere | - |
 | tm-eagles-2027-las-vegas-1a9zk3dgkdpxtsi | Eagles | none | 8180171 | https://www.ticketliquidator.com/tickets/8180171/The-Eagles-tickets-Fri-Jan-22-2027-Sphere | - |
 | tm-eagles-2027-las-vegas-1a9zk3dgkdpt2sm | Eagles | none | 8180172 | https://www.ticketliquidator.com/tickets/8180172/The-Eagles-tickets-Sat-Jan-23-2027-Sphere | - |
-| tm-journey-2026-baltimore-17a8v0g61kp2ris | Journey | none | 7956775 | https://www.ticketliquidator.com/tickets/7956775/Journey-tickets-Sat-Oct-24-2026-CFG-Bank-Arena | - |
 | tm-journey-2026-newark-vvg1fz_197dnkr | Journey | none | 7956776 | https://www.ticketliquidator.com/tickets/7956776/Journey-tickets-Sun-Oct-25-2026-Prudential-Center | - |
 | tm-journey-2026-philadelphia-17gzv0g61p0-ppk | Journey | none | 7956777 | https://www.ticketliquidator.com/tickets/7956777/Journey-tickets-Wed-Oct-28-2026-Xfinity-Mobile-Arena | - |
 | tm-journey-2026-providence-vvg17z_1fuwpyc | Journey | none | 7956778 | https://www.ticketliquidator.com/tickets/7956778/Journey-tickets-Thu-Oct-29-2026-Amica-Mutual-Pavilion | - |
@@ -2802,7 +2762,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-lionel-richie-2027-las-vegas-17ayv0g62k5uqjk | Lionel Richie | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lionel-richie-2027-las-vegas-17ayv0g62k5muj2 | Lionel Richie | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lionel-richie-2027-thackerville-z7r9jz1aav_-z | Lionel Richie | none | 8237289 | https://www.ticketliquidator.com/tickets/8237289/Lionel-Richie-tickets-Sat-Jan-30-2027-Lucas-Oil-Live-At-WinStar-Casino | - |
-| tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdl5e46 | Earth, Wind & Fire | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdlge4b | Earth, Wind & Fire | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdlu34n | Earth, Wind & Fire | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdlc34z | Earth, Wind & Fire | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2882,15 +2841,13 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-hayley-williams-2027-cardiff-1adbz_ogkwuumuk | Hayley Williams | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blink-182-2027-milano-zg9rmiynyzefk6 | blink-182 | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-janet-jackson-2026-sunrise-z7r9jz1aazz43 | Janet Jackson | none | 8225038 | https://www.ticketliquidator.com/tickets/8225038/Janet-Jackson-tickets-Sat-Dec-12-2026-Amerant-Bank-Arena | - |
-| tm-gorillaz-2026-phoenix-1av0z_agknirbye | Gorillaz | none | 7774761 | https://www.ticketliquidator.com/tickets/7774761/Gorillaz-tickets-Fri-Oct-23-2026-Mortgage-Matchup-Center | - |
-| tm-gorillaz-2026-inglewood-vv170z_agkmi0jmt | Gorillaz | none | 7774762 | https://www.ticketliquidator.com/tickets/7774762/Gorillaz-tickets-Sat-Oct-24-2026-The-Kia-Forum | - |
+| tm-gorillaz-2026-inglewood-vv170z_agkmi0jmt | Gorillaz | unverify (applied) | 7774762 | https://www.ticketliquidator.com/tickets/7774762/Gorillaz-tickets-Sat-Oct-24-2026-The-Kia-Forum | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-gorillaz-2026-san-diego-vvg1iz_ai_rrcv | Gorillaz | none | 7774764 | https://www.ticketliquidator.com/tickets/7774764/Gorillaz-tickets-Sun-Oct-25-2026-Pechanga-Arena-San-Diego | - |
 | tm-gorillaz-2026-oakland-g5vyz_allhhol | Gorillaz | none | 7774765 | https://www.ticketliquidator.com/tickets/7774765/Gorillaz-tickets-Wed-Oct-28-2026-Oakland-Arena | - |
 | tm-gorillaz-2026-portland-vvg1hz_anwqdfp | Gorillaz | none | 7774766 | https://www.ticketliquidator.com/tickets/7774766/Gorillaz-tickets-Fri-Oct-30-2026-Moda-Center-at-the-Rose-Quarter | - |
 | tm-gorillaz-2026-seattle-vvg1hz_aeloqv3 | Gorillaz | none | 7774767 | https://www.ticketliquidator.com/tickets/7774767/Gorillaz-tickets-Sat-Oct-31-2026-Climate-Pledge-Arena | - |
 | tm-gorillaz-2026-zapopan-g5dvz_8mtgfu6 | Gorillaz | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-weezer-2026-las-vegas-z7r9jz1a7-muy | Weezer | none | 7833741 | https://www.ticketliquidator.com/tickets/7833741/Weezer-tickets-Fri-Oct-23-2026-T-Mobile-Arena | - |
-| tm-weezer-2026-los-angeles-g5eyz_ku9s8xi | Weezer | none | 7833742 | https://www.ticketliquidator.com/tickets/7833742/Weezer-tickets-Sat-Oct-24-2026-Cryptocom-Arena | - |
+| tm-weezer-2026-los-angeles-g5eyz_ku9s8xi | Weezer | unverify (applied) | 7833742 | https://www.ticketliquidator.com/tickets/7833742/Weezer-tickets-Sat-Oct-24-2026-Cryptocom-Arena | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-weezer-2027-dublin-17kzv0g62rlynaf | Weezer | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-weezer-2027-newcastle-upon-tyne-g5vhz_8kkspwo | Weezer | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-weezer-2027-manchester-1amzkf7gkderotz | Weezer | none | 8182169 | https://www.ticketliquidator.com/tickets/8182169/Weezer-tickets-Sat-May-15-2027-Co-Op-Live | - |
@@ -2912,8 +2869,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-mana-2026-austin-g5dizbmoaqckm | MANA | none | 7594543 | https://www.ticketliquidator.com/tickets/7594543/Mana-tickets-Sun-Nov-8-2026-Moody-Center-ATX | - |
 | tm-mana-2026-ciudad-de-mexico-17azv0g6glh8hre | MANA | none | 8178327 | https://www.ticketliquidator.com/tickets/8178327/Mana-tickets-Wed-Dec-16-2026-Estadio-GNP-Seguros-Mexico-City | - |
 | tm-mana-2026-ciudad-de-mexico-17azv0g6gcz4ax4 | MANA | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-jonas-brothers-2026-rosemont-vv178z_8gkymmwt7 | Jonas Brothers | unverify (applied) | 8214347 | https://www.ticketliquidator.com/tickets/8214347/Jonas-Brothers-tickets-Thu-Oct-22-2026-Allstate-Arena | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-jonas-brothers-2026-toronto-1avzz_ogkui9hto | Jonas Brothers | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jonas-brothers-2026-detroit-vv17oz_8gksd_91x | Jonas Brothers | none | 8214348 | https://www.ticketliquidator.com/tickets/8214348/Jonas-Brothers-tickets-Sun-Oct-25-2026-Little-Caesars-Arena | - |
 | tm-jonas-brothers-2026-pittsburgh-1avbz_8gky0yxyy | Jonas Brothers | none | 8214349 | https://www.ticketliquidator.com/tickets/8214349/Jonas-Brothers-tickets-Mon-Oct-26-2026-PPG-Paints-Arena | - |
 | tm-jonas-brothers-2026-milwaukee-vv17jz_8gkmhf3ll | Jonas Brothers | none | 8214350 | https://www.ticketliquidator.com/tickets/8214350/Jonas-Brothers-tickets-Sun-Nov-1-2026-Fiserv-Forum | - |
@@ -2947,7 +2902,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-brent-faiyaz-2026-chicago-vv1a7zkfwgkda-klv | Brent Faiyaz | none | 8287394 | https://www.ticketliquidator.com/tickets/8287394/Brent-Faiyaz-tickets-Mon-Nov-30-2026-United-Center | - |
 | tm-brent-faiyaz-2026-brooklyn-1adzz_3gkxkyvwj | Brent Faiyaz | none | 8287393 | https://www.ticketliquidator.com/tickets/8287393/Brent-Faiyaz-tickets-Thu-Dec-3-2026-Barclays-Center | - |
 | tm-brent-faiyaz-2026-los-angeles-z7r9jz1aae7ub | Brent Faiyaz | none | 8287395 | https://www.ticketliquidator.com/tickets/8287395/Brent-Faiyaz-tickets-Fri-Dec-11-2026-Cryptocom-Arena | - |
-| tm-raye-2026-london-g5vhz_frai-ph | RAYE | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-zach-bryan-2027-indianapolis-vv17fz_fgkwtxpko | Zach Bryan | none | 8322365 | https://www.ticketliquidator.com/tickets/8322365/Zach-Bryan-tickets-Sat-May-1-2027-Lucas-Oil-Stadium | - |
 | tm-zach-bryan-2027-green-bay-vv17jz_fgkshdkie | Zach Bryan | none | 8322366 | https://www.ticketliquidator.com/tickets/8322366/Zach-Bryan-tickets-Tue-May-4-2027-Lambeau-Field | - |
 | tm-zach-bryan-2027-east-rutherford-k7vgf_fsxrnwp | Zach Bryan | none | 8322367 | https://www.ticketliquidator.com/tickets/8322367/Zach-Bryan-tickets-Fri-May-14-2027-MetLife-Stadium | - |
@@ -2962,7 +2916,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-zach-bryan-2027-edmonton-1av7z_fgkw2fvlh | Zach Bryan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-zach-bryan-2027-boise-g5vzz_fsbnh4h | Zach Bryan | none | 8322376 | https://www.ticketliquidator.com/tickets/8322376/Zach-Bryan-tickets-Fri-Aug-6-2027-Albertsons-Stadium | - |
 | tm-five-finger-death-punch-2027-helsinki-z698xz8kz16evk7gay | Five Finger Death Punch | none | 8090422 | https://www.ticketliquidator.com/tickets/8090422/Five-Finger-Death-Punch-tickets-Mon-Feb-22-2027-Veikkaus-Arena | - |
-| tm-morat-2026-valencia-z698xz2qz1aofa18 | Morat | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-morat-2026-sevilla-z698xz2qz16vb7goa0 | Morat | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-morat-2026-madrid-z698xz2qz1kv97no3 | Morat | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-morat-2026-madrid-z698xz2qz16vao-oox | Morat | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3012,7 +2965,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-ye-2026-houston-g5diz_osqzjfe | Ye | none | 8244550 | https://www.ticketliquidator.com/tickets/8244550/Kanye-West-tickets-Sat-Oct-31-2026-Reliant-Stadium | - |
 | tm-ye-2026-arlington-z7r9jz1aav0vv | Ye | none | 8245565 | https://www.ticketliquidator.com/tickets/8245565/Kanye-West-tickets-Sat-Nov-7-2026-ATT-Stadium | - |
 | tm-ye-2026-glendale-z7r9jz1aav08u | Ye | none | 8244532 | https://www.ticketliquidator.com/tickets/8244532/Kanye-West-tickets-Sat-Nov-21-2026-State-Farm-Stadium | - |
-| tm-kevin-gates-2026-nashville-g5viz_kuq0g54 | Kevin Gates | none | 7808845 | https://www.ticketliquidator.com/tickets/7808845/Kevin-Gates-tickets-Sat-Oct-24-2026-The-Truth | - |
+| tm-kevin-gates-2026-nashville-g5viz_kuq0g54 | Kevin Gates | unverify (applied) | 7808845 | https://www.ticketliquidator.com/tickets/7808845/Kevin-Gates-tickets-Sat-Oct-24-2026-The-Truth | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-brand-new-2026-hollywood-vvg1vz_gl6rgiu | Brand New | none | 8062714 | https://www.ticketliquidator.com/tickets/8062714/Brand-New-tickets-Sun-Oct-25-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood | - |
 | tm-brand-new-2026-independence-vvg1bz_uefy4ji | Brand New | none | 8062597 | https://www.ticketliquidator.com/tickets/8062597/Brand-New-tickets-Wed-Oct-28-2026-Cable-Dahmer-Arena | - |
 | tm-brand-new-2026-grand-prairie-z7r9jz1a7pijy | Brand New | none | 8062598 | https://www.ticketliquidator.com/tickets/8062598/Brand-New-tickets-Fri-Oct-30-2026-Texas-Trust-CU-Theatre-at-Grand-Prairie | - |
@@ -3021,7 +2974,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-brand-new-2026-anaheim-vvg10z_ueuvpcr | Brand New | none | 8062601 | https://www.ticketliquidator.com/tickets/8062601/Brand-New-tickets-Sat-Nov-7-2026-Honda-Center | - |
 | tm-brand-new-2026-san-francisco-g5vyz_ghzwhnz | Brand New | none | 8062602 | https://www.ticketliquidator.com/tickets/8062602/Brand-New-tickets-Wed-Nov-11-2026-Bill-Graham-Civic-Auditorium | - |
 | tm-brand-new-2026-phoenix-17k8v0g6gh6bhfj | Brand New | none | 8062603 | https://www.ticketliquidator.com/tickets/8062603/Brand-New-tickets-Sat-Nov-14-2026-Arizona-Financial-Theatre | - |
-| tm-kacey-musgraves-2026-oakland-z7r9jz1a70kkf | Kacey Musgraves | none | 7919152 | https://www.ticketliquidator.com/tickets/7919152/Kacey-Musgraves-tickets-Fri-Oct-23-2026-Oakland-Arena | - |
 | tm-kacey-musgraves-2026-seattle-vvg1hz_al3e8eo | Kacey Musgraves | none | 7919153 | https://www.ticketliquidator.com/tickets/7919153/Kacey-Musgraves-tickets-Mon-Oct-26-2026-Climate-Pledge-Arena | - |
 | tm-kacey-musgraves-2026-seattle-vvg1hz_awrtnmb | Kacey Musgraves | none | 7919155 | https://www.ticketliquidator.com/tickets/7919155/Kacey-Musgraves-tickets-Tue-Oct-27-2026-Climate-Pledge-Arena | - |
 | tm-kacey-musgraves-2027-glasgow-1adbz_agkdqknt2 | Kacey Musgraves | none | 7964274 | https://www.ticketliquidator.com/tickets/7964274/Kacey-Musgraves-tickets-Mon-Feb-22-2027-OVO-Hydro | - |
@@ -3036,8 +2988,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-knocked-loose-2026-austin-g5diz_5qpgquo | Knocked Loose | none | 8002990 | https://www.ticketliquidator.com/tickets/8002990/Knocked-Loose-tickets-Thu-Nov-5-2026-Moody-Amphitheater | - |
 | tm-chris-stapleton-2026-lincoln-vv1akzk8pgkdqln9v | Chris Stapleton | none | 7668749 | https://www.ticketliquidator.com/tickets/7668749/Chris-Stapletons-All-American-Road-Show-tickets-Mon-Oct-26-2026-Pinnacle-Bank-Arena | - |
 | tm-chris-stapleton-2026-nashville-g5viz_kleeols | Chris Stapleton | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-phoebe-bridgers-2026-seattle-vvg1hz_gkt8bhj | Phoebe Bridgers | none | 8028490 | https://www.ticketliquidator.com/tickets/8028490/Phoebe-Bridgers-tickets-Fri-Oct-23-2026-Climate-Pledge-Arena | - |
-| tm-phoebe-bridgers-2026-vancouver-1778v0g6g1ql6ek | Phoebe Bridgers | none | 8028495 | https://www.ticketliquidator.com/tickets/8028495/Phoebe-Bridgers-tickets-Sat-Oct-24-2026-Rogers-Arena | - |
+| tm-phoebe-bridgers-2026-vancouver-1778v0g6g1ql6ek | Phoebe Bridgers | unverify (applied) | 8028495 | https://www.ticketliquidator.com/tickets/8028495/Phoebe-Bridgers-tickets-Sat-Oct-24-2026-Rogers-Arena | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-phoebe-bridgers-2026-san-francisco-g5vyz_5ehic8t | Phoebe Bridgers | none | 8028491 | https://www.ticketliquidator.com/tickets/8028491/Phoebe-Bridgers-tickets-Tue-Oct-27-2026-Chase-Center | - |
 | tm-phoebe-bridgers-2026-san-francisco-g5vyz_gpqjtlc | Phoebe Bridgers | none | 8034548 | https://www.ticketliquidator.com/tickets/8034548/Phoebe-Bridgers-tickets-Wed-Oct-28-2026-Chase-Center | - |
 | tm-phoebe-bridgers-2026-inglewood-vvg10z_5eplbfx | Phoebe Bridgers | none | 8028492 | https://www.ticketliquidator.com/tickets/8028492/Phoebe-Bridgers-tickets-Fri-Oct-30-2026-Intuit-Dome | - |
@@ -3051,8 +3002,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-phoebe-bridgers-2026-london-17u8v0g6gpqo1c- | Phoebe Bridgers | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-phoebe-bridgers-2026-london-17u8v0g6gnyjt5y | Phoebe Bridgers | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-phoebe-bridgers-2026-forest-brussels-z698xzg2z16ezpgzqe | Phoebe Bridgers | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-bryson-tiller-2026-anaheim-vvg10z_59jfknv | Bryson Tiller | unverify (applied) | 8011574 | https://www.ticketliquidator.com/tickets/8011574/Bryson-Tiller-tickets-Thu-Oct-22-2026-Honda-Center | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-bryson-tiller-2026-chula-vista-vvg1iz_5qdpyt3 | Bryson Tiller | none | 8011575 | https://www.ticketliquidator.com/tickets/8011575/Bryson-Tiller-tickets-Sat-Oct-24-2026-North-Island-Credit-Union-Amphitheatre | - |
+| tm-bryson-tiller-2026-chula-vista-vvg1iz_5qdpyt3 | Bryson Tiller | unverify (applied) | 8011575 | https://www.ticketliquidator.com/tickets/8011575/Bryson-Tiller-tickets-Sat-Oct-24-2026-North-Island-Credit-Union-Amphitheatre | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-bryson-tiller-2026-inglewood-vvg10z_5eio1ci | Bryson Tiller | none | 8011577 | https://www.ticketliquidator.com/tickets/8011577/Bryson-Tiller-tickets-Sun-Oct-25-2026-Intuit-Dome | - |
 | tm-bryson-tiller-2026-concord-g5vyz_5ix0y73 | Bryson Tiller | none | 8011579 | https://www.ticketliquidator.com/tickets/8011579/Bryson-Tiller-tickets-Tue-Oct-27-2026-Toyota-Pavilion-At-Concord | - |
 | tm-bryson-tiller-2026-portland-vvg1hz_5po9bdo | Bryson Tiller | none | 8011580 | https://www.ticketliquidator.com/tickets/8011580/Bryson-Tiller-tickets-Thu-Oct-29-2026-Portland-Veterans-Memorial-Coliseum | - |
@@ -3070,8 +3020,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-bryson-tiller-2026-birmingham-17fyv0g65u9_ewp | Bryson Tiller | none | 8090582 | https://www.ticketliquidator.com/tickets/8090582/Bryson-Tiller-tickets-Wed-Dec-9-2026-bp-pulse-LIVE | - |
 | tm-bryson-tiller-2027-linlithgow-ave-177yv0g65m3hnkk | Bryson Tiller | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-bryson-tiller-2027-auckland-17azv0g65qclfnt | Bryson Tiller | none | 8173262 | https://www.ticketliquidator.com/tickets/8173262/Bryson-Tiller-tickets-Wed-Jan-27-2027-Spark-Arena | - |
-| tm-arcangel-2026-brooklyn-17gzv0g61ux2pkd | Arcangel | none | 7997044 | https://www.ticketliquidator.com/tickets/7997044/Arcangel-tickets-Fri-Oct-23-2026-Barclays-Center | - |
-| tm-arcangel-2026-philadelphia-vvg1fz_1skmms5 | Arcangel | none | 7997045 | https://www.ticketliquidator.com/tickets/7997045/Arcangel-tickets-Sat-Oct-24-2026-The-Met-Presented-by-Highmark | - |
 | tm-arcangel-2026-boston-vvg17z_1mzt4ek | Arcangel | none | 7977638 | https://www.ticketliquidator.com/tickets/7977638/Arcangel-tickets-Wed-Oct-28-2026-MGM-Music-Hall-at-Fenway-Park | - |
 | tm-arcangel-2026-rosemont-vvg18z_1u8np3l | Arcangel | none | 7997047 | https://www.ticketliquidator.com/tickets/7997047/Arcangel-tickets-Sat-Oct-31-2026-Rosemont-Theatre | - |
 | tm-arcangel-2026-houston-g5diz_53je_pf | Arcangel | none | 7997050 | https://www.ticketliquidator.com/tickets/7997050/Arcangel-tickets-Thu-Nov-5-2026-713-Music-Hall | - |
@@ -3080,9 +3028,8 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-arcangel-2026-salt-lake-city-g5vzz_5343iam | Arcangel | none | 7997055 | https://www.ticketliquidator.com/tickets/7997055/Arcangel-tickets-Wed-Nov-18-2026-The-Union-Event-Center | - |
 | tm-arcangel-2026-inglewood-vvg1iz_1r3weok | Arcangel | none | 7997056 | https://www.ticketliquidator.com/tickets/7997056/Arcangel-tickets-Fri-Nov-20-2026-YouTube-Theater-at-Hollywood-Park | - |
 | tm-arcangel-2026-san-jose-g5vyz_1s5ejmh | Arcangel | none | 7997057 | https://www.ticketliquidator.com/tickets/7997057/Arcangel-tickets-Sat-Nov-21-2026-San-Jose-Civic | - |
-| tm-garth-brooks-2026-tulsa-1aozkfugkd8c0en | Garth Brooks | none | 8284848 | https://www.ticketliquidator.com/tickets/8284848/Garth-Brooks-tickets-Fri-Oct-23-2026-BOK-Center | - |
-| tm-garth-brooks-2026-tulsa-1aozkfugkdlv4l0 | Garth Brooks | none | 8284849 | https://www.ticketliquidator.com/tickets/8284849/Garth-Brooks-tickets-Sat-Oct-24-2026-BOK-Center | - |
-| tm-garth-brooks-2026-tulsa-1aozkfugkdlmpx_ | Garth Brooks | none | 8284850 | https://www.ticketliquidator.com/tickets/8284850/Garth-Brooks-tickets-Sun-Oct-25-2026-BOK-Center | - |
+| tm-garth-brooks-2026-tulsa-1aozkfugkdlv4l0 | Garth Brooks | unverify (applied) | 8284849 | https://www.ticketliquidator.com/tickets/8284849/Garth-Brooks-tickets-Sat-Oct-24-2026-BOK-Center | no qualifying listing (the complete catalog no longer lists the stored link) |
+| tm-garth-brooks-2026-tulsa-1aozkfugkdlmpx_ | Garth Brooks | unverify (applied) | 8284850 | https://www.ticketliquidator.com/tickets/8284850/Garth-Brooks-tickets-Sun-Oct-25-2026-BOK-Center | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-garth-brooks-2026-seattle-vvg1hz_fstanbp | Garth Brooks | none | 8321626 | https://www.ticketliquidator.com/tickets/8321626/Garth-Brooks-tickets-Fri-Nov-13-2026-Climate-Pledge-Arena | - |
 | tm-garth-brooks-2026-seattle-vvg1hz_fghqxgl | Garth Brooks | none | 8321627 | https://www.ticketliquidator.com/tickets/8321627/Garth-Brooks-tickets-Sat-Nov-14-2026-Climate-Pledge-Arena | - |
 | tm-saint-levant-2027-glasgow-1adbz_fgkb_vncq | Saint Levant | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3102,7 +3049,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-elevation-worship-2027-san-diego-vvg1iz_37k-njg | Elevation Worship | none | 8264726 | https://www.ticketliquidator.com/tickets/8264726/Elevation-Worship-tickets-Fri-Mar-5-2027-Viejas-Arena-At-Aztec-Bowl | - |
 | tm-elevation-worship-2027-phoenix-1a_zkf0gkdcjit6 | Elevation Worship | none | 8264727 | https://www.ticketliquidator.com/tickets/8264727/Elevation-Worship-tickets-Sat-Mar-6-2027-Mortgage-Matchup-Center | - |
 | tm-elevation-worship-2027-inglewood-vv1aazkfigkdewunn | Elevation Worship | none | 8264728 | https://www.ticketliquidator.com/tickets/8264728/Elevation-Worship-tickets-Sun-Mar-7-2027-The-Kia-Forum | - |
-| tm-stevie-wonder-2026-hannover-z698xzc2z16v78zovo | Stevie Wonder | none | 8252668 | https://www.ticketliquidator.com/tickets/8252668/Stevie-Wonder-tickets-Sat-Oct-24-2026-ZAG-Arena | - |
 | tm-stevie-wonder-2026-amsterdam-z698xzbpz16vcpofak | Stevie Wonder | none | 8252672 | https://www.ticketliquidator.com/tickets/8252672/Stevie-Wonder-tickets-Wed-Oct-28-2026-Ziggo-Dome | - |
 | tm-stevie-wonder-2026-dublin-1avoz_ogkmfynew | Stevie Wonder | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-stevie-wonder-2026-london-1adfz_ogkluzbfe | Stevie Wonder | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3115,12 +3061,10 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-stevie-wonder-2026-detroit-vv1kezvpa-gaukuph | Stevie Wonder | none | 8252658 | https://www.ticketliquidator.com/tickets/8252658/Stevie-Wonder-tickets-Tue-Dec-8-2026-Fox-Theatre-Detroit | - |
 | tm-stevie-wonder-2026-detroit-vv1koz_3bxg7sqna | Stevie Wonder | none | 8252659 | https://www.ticketliquidator.com/tickets/8252659/Stevie-Wonder-tickets-Wed-Dec-9-2026-Fox-Theatre-Detroit | - |
 | tm-stevie-wonder-2026-inglewood-vv1aazkf0onvvzeug | Stevie Wonder | none | 8252660 | https://www.ticketliquidator.com/tickets/8252660/Stevie-Wonder-tickets-Sat-Dec-19-2026-Intuit-Dome | - |
-| tm-lil-wayne-2026-knoxville-g5viz_kqar_ob | Lil Wayne | none | 7810689 | https://www.ticketliquidator.com/tickets/7810689/Lil-Wayne-tickets-Fri-Oct-23-2026-Thompson-Boling-Arena-at-Food-City-Center | - |
-| tm-lil-wayne-2026-greenville-g5evz_6d5sngf | Lil Wayne | none | 7810664 | https://www.ticketliquidator.com/tickets/7810664/Lil-Wayne-tickets-Sat-Oct-24-2026-Bon-Secours-Wellness-Arena | - |
+| tm-lil-wayne-2026-greenville-g5evz_6d5sngf | Lil Wayne | unverify (applied) | 7810664 | https://www.ticketliquidator.com/tickets/7810664/Lil-Wayne-tickets-Sat-Oct-24-2026-Bon-Secours-Wellness-Arena | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-lil-wayne-2026-lexington-1avbz_kgkyr04kw | Lil Wayne | none | 7810684 | https://www.ticketliquidator.com/tickets/7810684/Lil-Wayne-tickets-Fri-Dec-4-2026-Rupp-Arena-At-Central-Bank-Center | - |
 | tm-lil-wayne-2026-savannah-vvg1zz_3n_vz4w | Lil Wayne | none | 8307423 | https://www.ticketliquidator.com/tickets/8307423/Lil-Wayne-tickets-Sat-Dec-5-2026-Enmarket-Arena | - |
 | tm-lil-wayne-2027-reading-vv17fz_kgkwwyiai | Lil Wayne | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-tom-jones-2026-las-vegas-17ayv0g61xukqbd | Tom Jones | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-tom-jones-2026-las-vegas-17ayv0g61xu61b0 | Tom Jones | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-tom-jones-2026-los-angeles-vvg10z_58xadko | Tom Jones | none | 7997398 | https://www.ticketliquidator.com/tickets/7997398/Tom-Jones-tickets-Mon-Oct-26-2026-Greek-Theatre-Los-Angeles-CA | - |
 | tm-tom-jones-2026-san-diego-vvg1iz_5gqcfyd | Tom Jones | none | 7997399 | https://www.ticketliquidator.com/tickets/7997399/Tom-Jones-tickets-Tue-Oct-27-2026-The-Rady-Shell-at-Jacobs-Park | - |
@@ -3137,8 +3081,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-a-boogie-wit-da-hoodie-2026-orlando-z7r9jz1aaef4e | A Boogie Wit Da Hoodie | none | 8293991 | https://www.ticketliquidator.com/tickets/8293991/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Dec-5-2026-Orlando-Amphitheater-at-Central-Florida-Fairgrounds | - |
 | tm-a-boogie-wit-da-hoodie-2026-minneapolis-vv1akzkfygkd_ao6r | A Boogie Wit Da Hoodie | none | 8294956 | https://www.ticketliquidator.com/tickets/8294956/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Dec-12-2026-The-Armory-Minneapolis | - |
 | tm-a-boogie-wit-da-hoodie-2026-hartford-z7r9jz1aaea_k | A Boogie Wit Da Hoodie | none | 8293968 | https://www.ticketliquidator.com/tickets/8293968/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Dec-19-2026-PeoplesBank-Arena | - |
-| tm-zach-top-2026-lafayette-g5viz_52-gfk2 | Zach Top | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-zach-top-2026-rogers-g5viz_5ulwxbq | Zach Top | none | 8130219 | https://www.ticketliquidator.com/tickets/8130219/Zach-Top-tickets-Sat-Oct-24-2026-Walmart-AMP | - |
+| tm-zach-top-2026-rogers-g5viz_5ulwxbq | Zach Top | unverify (applied) | 8130219 | https://www.ticketliquidator.com/tickets/8130219/Zach-Top-tickets-Sat-Oct-24-2026-Walmart-AMP | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-zach-top-2026-duluth-vvg1zz_5pbvq93 | Zach Top | none | 8026607 | https://www.ticketliquidator.com/tickets/8026607/Zach-Top-tickets-Thu-Oct-29-2026-Gas-South-Arena | - |
 | tm-zach-top-2026-nashville-g5viz_g6sznnj | Zach Top | none | 8026602 | https://www.ticketliquidator.com/tickets/8026602/Zach-Top-tickets-Fri-Oct-30-2026-Bridgestone-Arena | - |
 | tm-sienna-spiro-2027-austin-g5diz_47ytekn | Sienna Spiro | none | 8332299 | https://www.ticketliquidator.com/tickets/8332299/Sienna-Spiro-tickets-Thu-Aug-5-2027-Moody-Amphitheater | - |
@@ -3163,7 +3106,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-sienna-spiro-2027-new-york-g5dyz_46d6wnd | Sienna Spiro | none | 8333456 | https://www.ticketliquidator.com/tickets/8333456/Sienna-Spiro-tickets-Wed-Aug-18-2027-Radio-City-Music-Hall | - |
 | tm-yacht-rock-revue-2027-atlanta-z7r9jz1aa7oau | Yacht Rock Revue | none | 8312038 | https://www.ticketliquidator.com/tickets/8312038/Yacht-Rock-Revue-tickets-Sat-Feb-27-2027-The-Eastern-GA | - |
 | tm-earth-wind-fire-2027-saint-augustine-z7r9jz1aaeb-p | Earth, Wind & Fire | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-katseye-2026-belmont-park-17gzv0g61mqcddn | KATSEYE | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-katseye-2026-belmont-park-17gzv0g61mqmkdg | KATSEYE | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-katseye-2026-boston-vvg17z_1eilxli | KATSEYE | none | 7961636 | https://www.ticketliquidator.com/tickets/7961636/Katseye-tickets-Wed-Oct-28-2026-TD-Garden | - |
 | tm-katseye-2026-montreal-17g8v0g61xoe95k | KATSEYE | none | 7961852 | https://www.ticketliquidator.com/tickets/7961852/Katseye-tickets-Fri-Oct-30-2026-Centre-Bell | - |
@@ -3181,23 +3123,18 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-katseye-2026-phoenix-17k8v0g61m4tf9t | KATSEYE | none | 7961848 | https://www.ticketliquidator.com/tickets/7961848/Katseye-tickets-Tue-Nov-24-2026-Mortgage-Matchup-Center | - |
 | tm-katseye-2026-ciudad-de-mexico-17azv0g61mujevj | KATSEYE | none | 7983201 | https://www.ticketliquidator.com/tickets/7983201/Katseye-tickets-Fri-Nov-27-2026-Palacio-De-Los-Deportes-Mexico-City | - |
 | tm-katseye-2026-ciudad-de-mexico-17azv0g61m2a3xe | KATSEYE | none | 7990930 | https://www.ticketliquidator.com/tickets/7990930/Katseye-tickets-Sat-Nov-28-2026-Palacio-De-Los-Deportes-Mexico-City | - |
-| tm-ricky-martin-2026-thackerville-z7r9jz1a7jax9 | Ricky Martin | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-ricky-martin-2026-las-vegas-17ayv0g6ubm5h5l | Ricky Martin | none | 8130658 | https://www.ticketliquidator.com/tickets/8130658/Ricky-Martin-tickets-Fri-Oct-30-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas | - |
 | tm-ricky-martin-2026-las-vegas-17ayv0g6ubmuh5y | Ricky Martin | none | 8130659 | https://www.ticketliquidator.com/tickets/8130659/Ricky-Martin-tickets-Sat-Oct-31-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas | - |
 | tm-ricky-martin-2026-lincoln-g5vyz_grrfawg | Ricky Martin | none | 8057196 | https://www.ticketliquidator.com/tickets/8057196/Ricky-Martin-tickets-Fri-Nov-6-2026-The-Venue-At-Thunder-Valley-Casino-Resort | - |
 | tm-ricky-martin-2026-temecula-vvg1iz_g21wliz | Ricky Martin | none | 8072742 | https://www.ticketliquidator.com/tickets/8072742/Ricky-Martin-tickets-Sun-Nov-8-2026-Summit-At-Pechanga-Resort-Casino | - |
-| tm-ty-myers-2026-evansville-vv1aazkowgkd1n5gg | Ty Myers | none | 7830814 | https://www.ticketliquidator.com/tickets/7830814/Ty-Myers-tickets-Fri-Oct-23-2026-Ford-Center-IN | - |
-| tm-ty-myers-2026-pikeville-1apzkovgkdxnmip | Ty Myers | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-ty-myers-2026-austin-g5diz_kuopazl | Ty Myers | none | 7830817 | https://www.ticketliquidator.com/tickets/7830817/Ty-Myers-tickets-Fri-Nov-20-2026-Moody-Center-ATX | - |
 | tm-ty-myers-2026-fort-worth-vvg1yz_61djqel | Ty Myers | none | 7830819 | https://www.ticketliquidator.com/tickets/7830819/Ty-Myers-tickets-Sat-Nov-21-2026-Dickies-Arena | - |
-| tm-dan-shay-2026-rogers-g5viz_1x8yivv | Dan + Shay | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-dan-shay-2026-maryland-heights-vvg1bz_1udxnrk | Dan + Shay | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dan-shay-2026-denver-g5vzz_1dezhf3 | Dan + Shay | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dan-shay-2026-salt-lake-city-z7r9jz1a70jp0 | Dan + Shay | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dan-shay-2026-phoenix-17k8v0g61dxzizm | Dan + Shay | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dan-shay-2026-anaheim-vvg10z_1damnyd | Dan + Shay | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dan-shay-2026-mountain-view-g5vyz_1wl9ah6 | Dan + Shay | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-beabadoobee-2026-san-diego-vvg1iz_u3myfkf | beabadoobee | none | 8081071 | https://www.ticketliquidator.com/tickets/8081071/beabadoobee-tickets-Sat-Oct-24-2026-Viejas-Arena-At-Aztec-Bowl | - |
+| tm-beabadoobee-2026-san-diego-vvg1iz_u3myfkf | beabadoobee | unverify (applied) | 8081071 | https://www.ticketliquidator.com/tickets/8081071/beabadoobee-tickets-Sat-Oct-24-2026-Viejas-Arena-At-Aztec-Bowl | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-beabadoobee-2026-oakland-g5vyz_ufp_rvl | beabadoobee | none | 8081072 | https://www.ticketliquidator.com/tickets/8081072/beabadoobee-tickets-Mon-Oct-26-2026-Oakland-Arena | - |
 | tm-beabadoobee-2026-vancouver-1778v0g6u5paqr- | beabadoobee | none | 8081057 | https://www.ticketliquidator.com/tickets/8081057/beabadoobee-tickets-Wed-Oct-28-2026-Rogers-Arena | - |
 | tm-beabadoobee-2026-seattle-vvg1hz_u_uadg3 | beabadoobee | none | 8081075 | https://www.ticketliquidator.com/tickets/8081075/beabadoobee-tickets-Thu-Oct-29-2026-Climate-Pledge-Arena | - |
@@ -3217,103 +3154,96 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-dave-matthews-band-2026-baltimore-1ka8vpevgauw1qw | Dave Matthews Band | none | 8195881 | https://www.ticketliquidator.com/tickets/8195881/Dave-Matthews-Band-tickets-Tue-Nov-10-2026-CFG-Bank-Arena | - |
 | tm-dave-matthews-band-2026-new-york-g5diz_2njwaf8 | Dave Matthews Band | none | 8195882 | https://www.ticketliquidator.com/tickets/8195882/Dave-Matthews-Band-tickets-Thu-Nov-12-2026-Madison-Square-Garden | - |
 | tm-dave-matthews-band-2026-new-york-g5diz_2njdtfa | Dave Matthews Band | none | 8195883 | https://www.ticketliquidator.com/tickets/8195883/Dave-Matthews-Band-tickets-Fri-Nov-13-2026-Madison-Square-Garden | - |
-| tm-garth-brooks-2026-seattle-vvg1hz_4dkzhpm | Garth Brooks | add (applied) | 8335342 | https://www.ticketliquidator.com/tickets/8335342/Garth-Brooks-tickets-Sun-Nov-15-2026-Climate-Pledge-Arena | - |
-| tm-los-tigres-del-norte-2026-glendale-1fk8v0p7atz785ae | Los Tigres del Norte | add (applied) | 7759906 | https://www.ticketliquidator.com/tickets/7759906/Los-Tigres-del-Norte-tickets-Sat-Oct-24-2026-Desert-Diamond-Arena | - |
+| tm-garth-brooks-2026-seattle-vvg1hz_4dkzhpm | Garth Brooks | none | 8335342 | https://www.ticketliquidator.com/tickets/8335342/Garth-Brooks-tickets-Sun-Nov-15-2026-Climate-Pledge-Arena | - |
+| tm-los-tigres-del-norte-2026-glendale-1fk8v0p7atz785ae | Los Tigres del Norte | unverify (applied) | 7759906 | https://www.ticketliquidator.com/tickets/7759906/Los-Tigres-del-Norte-tickets-Sat-Oct-24-2026-Desert-Diamond-Arena | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-los-tigres-del-norte-2026-palm-desert-vvg1iz_axk_2p- | Los Tigres del Norte | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-los-tigres-del-norte-2026-san-diego-z7r9jz1a7-p4f | Los Tigres del Norte | add (applied) | 7761203 | https://www.ticketliquidator.com/tickets/7761203/Los-Tigres-del-Norte-tickets-Sat-Nov-14-2026-Pechanga-Arena-San-Diego | - |
-| tm-los-tigres-del-norte-2026-columbus-z7r9jz1a7ofo9 | Los Tigres del Norte | add (applied) | 7467758 | https://www.ticketliquidator.com/tickets/7467758/Los-Tigres-del-Norte-tickets-Fri-Nov-20-2026-Palace-Theatre-Columbus | - |
-| tm-los-tigres-del-norte-2026-detroit-vv1kezv0jiga2jpfm | Los Tigres del Norte | add (applied) | 7935104 | https://www.ticketliquidator.com/tickets/7935104/Los-Tigres-del-Norte-tickets-Sat-Nov-21-2026-Fox-Theatre-Detroit | - |
-| tm-los-tigres-del-norte-2026-baltimore-164zko9e6zackudg | Los Tigres del Norte | add (applied) | 7759914 | https://www.ticketliquidator.com/tickets/7759914/Los-Tigres-del-Norte-tickets-Fri-Nov-27-2026-CFG-Bank-Arena | - |
+| tm-los-tigres-del-norte-2026-san-diego-z7r9jz1a7-p4f | Los Tigres del Norte | none | 7761203 | https://www.ticketliquidator.com/tickets/7761203/Los-Tigres-del-Norte-tickets-Sat-Nov-14-2026-Pechanga-Arena-San-Diego | - |
+| tm-los-tigres-del-norte-2026-columbus-z7r9jz1a7ofo9 | Los Tigres del Norte | none | 7467758 | https://www.ticketliquidator.com/tickets/7467758/Los-Tigres-del-Norte-tickets-Fri-Nov-20-2026-Palace-Theatre-Columbus | - |
+| tm-los-tigres-del-norte-2026-detroit-vv1kezv0jiga2jpfm | Los Tigres del Norte | none | 7935104 | https://www.ticketliquidator.com/tickets/7935104/Los-Tigres-del-Norte-tickets-Sat-Nov-21-2026-Fox-Theatre-Detroit | - |
+| tm-los-tigres-del-norte-2026-baltimore-164zko9e6zackudg | Los Tigres del Norte | none | 7759914 | https://www.ticketliquidator.com/tickets/7759914/Los-Tigres-del-Norte-tickets-Fri-Nov-27-2026-CFG-Bank-Arena | - |
 | tm-los-tigres-del-norte-2026-belmont-park-1kgzv0pfgagsn5l | Los Tigres del Norte | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-los-tigres-del-norte-2026-nashville-g5viz_an5hweq | Los Tigres del Norte | add (applied) | 7759916 | https://www.ticketliquidator.com/tickets/7759916/Los-Tigres-del-Norte-tickets-Fri-Dec-4-2026-Bridgestone-Arena | - |
+| tm-los-tigres-del-norte-2026-nashville-g5viz_an5hweq | Los Tigres del Norte | none | 7759916 | https://www.ticketliquidator.com/tickets/7759916/Los-Tigres-del-Norte-tickets-Fri-Dec-4-2026-Bridgestone-Arena | - |
 | tm-los-tigres-del-norte-2026-birmingham-1aozkobgkdkxmhh | Los Tigres del Norte | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-los-tigres-del-norte-2027-san-jose-g5vyz_k6cidvv | Los Tigres del Norte | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-los-tigres-del-norte-2027-temecula-vvg1iz_km0aey4 | Los Tigres del Norte | add (applied) | 8309342 | https://www.ticketliquidator.com/tickets/8309342/Los-Tigres-del-Norte-tickets-Sat-Mar-13-2027-Summit-At-Pechanga-Resort-Casino | - |
+| tm-los-tigres-del-norte-2027-temecula-vvg1iz_km0aey4 | Los Tigres del Norte | none | 8309342 | https://www.ticketliquidator.com/tickets/8309342/Los-Tigres-del-Norte-tickets-Sat-Mar-13-2027-Summit-At-Pechanga-Resort-Casino | - |
 | tm-the-chicks-2026-seattle-vvg1hz_52nooej | The Chicks | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-chicks-2026-seattle-vvg1hz_52n3-el | The Chicks | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-chicks-2026-san-francisco-g5vyz_5k9t5fo | The Chicks | add (applied) | 7999837 | https://www.ticketliquidator.com/tickets/7999837/The-Chicks-tickets-Thu-Oct-29-2026-The-Masonic-San-Francisco | - |
-| tm-the-chicks-2026-san-francisco-g5vyz_5kbz5fl | The Chicks | add (applied) | 7999839 | https://www.ticketliquidator.com/tickets/7999839/The-Chicks-tickets-Fri-Oct-30-2026-The-Masonic-San-Francisco | - |
-| tm-the-chicks-2026-hollywood-vvg10z_5ljdml9 | The Chicks | add (applied) | 7999840 | https://www.ticketliquidator.com/tickets/7999840/The-Chicks-tickets-Sun-Nov-1-2026-Dolby-Theatre | - |
-| tm-the-chicks-2026-hollywood-vvg10z_5ra8fba | The Chicks | add (applied) | 7999841 | https://www.ticketliquidator.com/tickets/7999841/The-Chicks-tickets-Mon-Nov-2-2026-Dolby-Theatre | - |
-| tm-the-chicks-2026-hollywood-vvg10z_5rao7bc | The Chicks | add (applied) | 8193502 | https://www.ticketliquidator.com/tickets/8193502/The-Chicks-tickets-Tue-Nov-3-2026-Dolby-Theatre | - |
-| tm-young-miko-2026-san-antonio-g5diz_f5slxer | Young Miko | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-young-miko-2026-houston-z7r9jz1a7x73v | Young Miko | add (applied) | 7860529 | https://www.ticketliquidator.com/tickets/7860529/Young-Miko-tickets-Sat-Oct-24-2026-Toyota-Center-TX | - |
-| tm-young-miko-2026-miami-vvg1vz_fchiqhv | Young Miko | add (applied) | 7860530 | https://www.ticketliquidator.com/tickets/7860530/Young-Miko-tickets-Wed-Oct-28-2026-Kaseya-Center | - |
-| tm-young-miko-2026-orlando-1axzk3dgkeha7uv | Young Miko | add (applied) | 7860531 | https://www.ticketliquidator.com/tickets/7860531/Young-Miko-tickets-Thu-Oct-29-2026-Kia-Center | - |
-| tm-young-miko-2026-atlanta-vvg1zz_f1gfmts | Young Miko | add (applied) | 7860532 | https://www.ticketliquidator.com/tickets/7860532/Young-Miko-tickets-Sat-Oct-31-2026-State-Farm-Arena-GA | - |
-| tm-young-miko-2026-charlotte-g5evz_fffmq2n | Young Miko | add (applied) | 7860533 | https://www.ticketliquidator.com/tickets/7860533/Young-Miko-tickets-Sun-Nov-1-2026-Spectrum-Center | - |
-| tm-young-miko-2026-philadelphia-1ayzk3egkdcdzmm | Young Miko | add (applied) | 7860534 | https://www.ticketliquidator.com/tickets/7860534/Young-Miko-tickets-Wed-Nov-4-2026-Xfinity-Mobile-Arena | - |
-| tm-young-miko-2026-brooklyn-16dzz_f13g7dsys | Young Miko | add (applied) | 7860535 | https://www.ticketliquidator.com/tickets/7860535/Young-Miko-tickets-Thu-Nov-5-2026-Barclays-Center | - |
-| tm-zac-brown-band-2026-minneapolis-z7r9jz1a7owqo | Zac Brown Band | add (applied) | 7703269 | https://www.ticketliquidator.com/tickets/7703269/Zac-Brown-Band-tickets-Fri-Oct-23-2026-Target-Center | - |
-| tm-zac-brown-band-2026-sioux-falls-z7r9jz1a7owq_ | Zac Brown Band | add (applied) | 7703270 | https://www.ticketliquidator.com/tickets/7703270/Zac-Brown-Band-tickets-Sat-Oct-24-2026-Denny-Sanford-Premier-Center | - |
-| tm-zac-brown-band-2026-buffalo-k7vgf_dh65dyo | Zac Brown Band | add (applied) | 7703260 | https://www.ticketliquidator.com/tickets/7703260/Zac-Brown-Band-tickets-Thu-Nov-5-2026-KeyBank-Center | - |
-| tm-zac-brown-band-2026-detroit-vv1afzk8vgkdi6e86 | Zac Brown Band | add (applied) | 7703261 | https://www.ticketliquidator.com/tickets/7703261/Zac-Brown-Band-tickets-Fri-Nov-6-2026-Little-Caesars-Arena | - |
-| tm-zac-brown-band-2026-lincoln-vv16kzk8wakzacfeeu | Zac Brown Band | add (applied) | 7703262 | https://www.ticketliquidator.com/tickets/7703262/Zac-Brown-Band-tickets-Thu-Nov-19-2026-Pinnacle-Bank-Arena | - |
-| tm-zac-brown-band-2026-des-moines-z7r9jz1a7osk3 | Zac Brown Band | add (applied) | 7705909 | https://www.ticketliquidator.com/tickets/7705909/Zac-Brown-Band-tickets-Fri-Nov-20-2026-Caseys-Center | - |
-| tm-zac-brown-band-2026-rosemont-vv1a7zk8sgkdldbon | Zac Brown Band | add (applied) | 7703263 | https://www.ticketliquidator.com/tickets/7703263/Zac-Brown-Band-tickets-Sat-Nov-21-2026-Allstate-Arena | - |
+| tm-the-chicks-2026-san-francisco-g5vyz_5k9t5fo | The Chicks | none | 7999837 | https://www.ticketliquidator.com/tickets/7999837/The-Chicks-tickets-Thu-Oct-29-2026-The-Masonic-San-Francisco | - |
+| tm-the-chicks-2026-san-francisco-g5vyz_5kbz5fl | The Chicks | none | 7999839 | https://www.ticketliquidator.com/tickets/7999839/The-Chicks-tickets-Fri-Oct-30-2026-The-Masonic-San-Francisco | - |
+| tm-the-chicks-2026-hollywood-vvg10z_5ljdml9 | The Chicks | none | 7999840 | https://www.ticketliquidator.com/tickets/7999840/The-Chicks-tickets-Sun-Nov-1-2026-Dolby-Theatre | - |
+| tm-the-chicks-2026-hollywood-vvg10z_5ra8fba | The Chicks | none | 7999841 | https://www.ticketliquidator.com/tickets/7999841/The-Chicks-tickets-Mon-Nov-2-2026-Dolby-Theatre | - |
+| tm-the-chicks-2026-hollywood-vvg10z_5rao7bc | The Chicks | none | 8193502 | https://www.ticketliquidator.com/tickets/8193502/The-Chicks-tickets-Tue-Nov-3-2026-Dolby-Theatre | - |
+| tm-young-miko-2026-houston-z7r9jz1a7x73v | Young Miko | unverify (applied) | 7860529 | https://www.ticketliquidator.com/tickets/7860529/Young-Miko-tickets-Sat-Oct-24-2026-Toyota-Center-TX | no qualifying listing (the complete catalog no longer lists the stored link) |
+| tm-young-miko-2026-miami-vvg1vz_fchiqhv | Young Miko | none | 7860530 | https://www.ticketliquidator.com/tickets/7860530/Young-Miko-tickets-Wed-Oct-28-2026-Kaseya-Center | - |
+| tm-young-miko-2026-orlando-1axzk3dgkeha7uv | Young Miko | none | 7860531 | https://www.ticketliquidator.com/tickets/7860531/Young-Miko-tickets-Thu-Oct-29-2026-Kia-Center | - |
+| tm-young-miko-2026-atlanta-vvg1zz_f1gfmts | Young Miko | none | 7860532 | https://www.ticketliquidator.com/tickets/7860532/Young-Miko-tickets-Sat-Oct-31-2026-State-Farm-Arena-GA | - |
+| tm-young-miko-2026-charlotte-g5evz_fffmq2n | Young Miko | none | 7860533 | https://www.ticketliquidator.com/tickets/7860533/Young-Miko-tickets-Sun-Nov-1-2026-Spectrum-Center | - |
+| tm-young-miko-2026-philadelphia-1ayzk3egkdcdzmm | Young Miko | none | 7860534 | https://www.ticketliquidator.com/tickets/7860534/Young-Miko-tickets-Wed-Nov-4-2026-Xfinity-Mobile-Arena | - |
+| tm-young-miko-2026-brooklyn-16dzz_f13g7dsys | Young Miko | none | 7860535 | https://www.ticketliquidator.com/tickets/7860535/Young-Miko-tickets-Thu-Nov-5-2026-Barclays-Center | - |
+| tm-zac-brown-band-2026-buffalo-k7vgf_dh65dyo | Zac Brown Band | none | 7703260 | https://www.ticketliquidator.com/tickets/7703260/Zac-Brown-Band-tickets-Thu-Nov-5-2026-KeyBank-Center | - |
+| tm-zac-brown-band-2026-detroit-vv1afzk8vgkdi6e86 | Zac Brown Band | none | 7703261 | https://www.ticketliquidator.com/tickets/7703261/Zac-Brown-Band-tickets-Fri-Nov-6-2026-Little-Caesars-Arena | - |
+| tm-zac-brown-band-2026-lincoln-vv16kzk8wakzacfeeu | Zac Brown Band | none | 7703262 | https://www.ticketliquidator.com/tickets/7703262/Zac-Brown-Band-tickets-Thu-Nov-19-2026-Pinnacle-Bank-Arena | - |
+| tm-zac-brown-band-2026-des-moines-z7r9jz1a7osk3 | Zac Brown Band | none | 7705909 | https://www.ticketliquidator.com/tickets/7705909/Zac-Brown-Band-tickets-Fri-Nov-20-2026-Caseys-Center | - |
+| tm-zac-brown-band-2026-rosemont-vv1a7zk8sgkdldbon | Zac Brown Band | none | 7703263 | https://www.ticketliquidator.com/tickets/7703263/Zac-Brown-Band-tickets-Sat-Nov-21-2026-Allstate-Arena | - |
 | tm-zac-brown-band-2027-milwaukee-vv1a6zkf0gkdpf9tr | Zac Brown Band | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-sleeping-with-sirens-2026-grand-rapids-vvg1oz_gxwrjxj | Sleeping With Sirens | add (applied) | 8053935 | https://www.ticketliquidator.com/tickets/8053935/Sleeping-With-Sirens-tickets-Sat-Oct-24-2026-GLC-Live-at-20-Monroe | - |
 | tm-sleeping-with-sirens-2026-chicago-vvg18z_gr6ix5f | Sleeping With Sirens | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-sleeping-with-sirens-2026-pittsburgh-z7r9jz1a7p_ae | Sleeping With Sirens | add (applied) | 8053970 | https://www.ticketliquidator.com/tickets/8053970/Sleeping-With-Sirens-tickets-Tue-Oct-27-2026-Stage-AE | - |
-| tm-sleeping-with-sirens-2026-royal-oak-z7r9jz1a7p_ad | Sleeping With Sirens | add (applied) | 8053969 | https://www.ticketliquidator.com/tickets/8053969/Sleeping-With-Sirens-tickets-Wed-Oct-28-2026-Royal-Oak-Music-Theatre | - |
-| tm-sleeping-with-sirens-2026-montreal-17g8v0g6gxey070 | Sleeping With Sirens | add (applied) | 8053967 | https://www.ticketliquidator.com/tickets/8053967/Sleeping-With-Sirens-tickets-Fri-Oct-30-2026-MTelus | - |
+| tm-sleeping-with-sirens-2026-pittsburgh-z7r9jz1a7p_ae | Sleeping With Sirens | none | 8053970 | https://www.ticketliquidator.com/tickets/8053970/Sleeping-With-Sirens-tickets-Tue-Oct-27-2026-Stage-AE | - |
+| tm-sleeping-with-sirens-2026-royal-oak-z7r9jz1a7p_ad | Sleeping With Sirens | none | 8053969 | https://www.ticketliquidator.com/tickets/8053969/Sleeping-With-Sirens-tickets-Wed-Oct-28-2026-Royal-Oak-Music-Theatre | - |
+| tm-sleeping-with-sirens-2026-montreal-17g8v0g6gxey070 | Sleeping With Sirens | none | 8053967 | https://www.ticketliquidator.com/tickets/8053967/Sleeping-With-Sirens-tickets-Fri-Oct-30-2026-MTelus | - |
 | tm-sleeping-with-sirens-2026-ottawa-17g8v0g6gwupswm | Sleeping With Sirens | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sleeping-with-sirens-2026-toronto-177zv0g6gwdvb1r | Sleeping With Sirens | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-sleeping-with-sirens-2026-boston-vvg17z_gmbz9_j | Sleeping With Sirens | add (applied) | 8053941 | https://www.ticketliquidator.com/tickets/8053941/Sleeping-With-Sirens-tickets-Tue-Nov-3-2026-Citizens-House-Of-Blues-Boston | - |
-| tm-sleeping-with-sirens-2026-sayreville-z7r9jz1a7p_a7 | Sleeping With Sirens | add (applied) | 8053971 | https://www.ticketliquidator.com/tickets/8053971/Sleeping-With-Sirens-tickets-Wed-Nov-4-2026-Starland-Ballroom | - |
-| tm-sleeping-with-sirens-2026-philadelphia-vvg1fz_gm9cqxe | Sleeping With Sirens | add (applied) | 8053942 | https://www.ticketliquidator.com/tickets/8053942/Sleeping-With-Sirens-tickets-Fri-Nov-6-2026-The-Fillmore-Philadelphia | - |
+| tm-sleeping-with-sirens-2026-boston-vvg17z_gmbz9_j | Sleeping With Sirens | none | 8053941 | https://www.ticketliquidator.com/tickets/8053941/Sleeping-With-Sirens-tickets-Tue-Nov-3-2026-Citizens-House-Of-Blues-Boston | - |
+| tm-sleeping-with-sirens-2026-sayreville-z7r9jz1a7p_a7 | Sleeping With Sirens | none | 8053971 | https://www.ticketliquidator.com/tickets/8053971/Sleeping-With-Sirens-tickets-Wed-Nov-4-2026-Starland-Ballroom | - |
+| tm-sleeping-with-sirens-2026-philadelphia-vvg1fz_gm9cqxe | Sleeping With Sirens | none | 8053942 | https://www.ticketliquidator.com/tickets/8053942/Sleeping-With-Sirens-tickets-Fri-Nov-6-2026-The-Fillmore-Philadelphia | - |
 | tm-sleeping-with-sirens-2026-new-york-k7vgf_gnebmkt | Sleeping With Sirens | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-sleeping-with-sirens-2026-baltimore-17a8v0g6gxtb5eg | Sleeping With Sirens | add (applied) | 8053963 | https://www.ticketliquidator.com/tickets/8053963/Sleeping-With-Sirens-tickets-Sun-Nov-8-2026-Nevermore-Hall | - |
-| tm-sleeping-with-sirens-2026-charlotte-g5evz_gnuzybg | Sleeping With Sirens | add (applied) | 8053964 | https://www.ticketliquidator.com/tickets/8053964/Sleeping-With-Sirens-tickets-Wed-Nov-11-2026-The-Fillmore-Charlotte | - |
-| tm-sleeping-with-sirens-2026-atlanta-z7r9jz1a7p_aa | Sleeping With Sirens | add (applied) | 8053972 | https://www.ticketliquidator.com/tickets/8053972/Sleeping-With-Sirens-tickets-Thu-Nov-12-2026-The-Eastern-GA | - |
+| tm-sleeping-with-sirens-2026-baltimore-17a8v0g6gxtb5eg | Sleeping With Sirens | none | 8053963 | https://www.ticketliquidator.com/tickets/8053963/Sleeping-With-Sirens-tickets-Sun-Nov-8-2026-Nevermore-Hall | - |
+| tm-sleeping-with-sirens-2026-charlotte-g5evz_gnuzybg | Sleeping With Sirens | none | 8053964 | https://www.ticketliquidator.com/tickets/8053964/Sleeping-With-Sirens-tickets-Wed-Nov-11-2026-The-Fillmore-Charlotte | - |
+| tm-sleeping-with-sirens-2026-atlanta-z7r9jz1a7p_aa | Sleeping With Sirens | none | 8053972 | https://www.ticketliquidator.com/tickets/8053972/Sleeping-With-Sirens-tickets-Thu-Nov-12-2026-The-Eastern-GA | - |
 | tm-sleeping-with-sirens-2027-bristol-17u8v0g6gfkrxfj | Sleeping With Sirens | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sleeping-with-sirens-2027-glasgow-g5dzz_g5isp0f | Sleeping With Sirens | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sleeping-with-sirens-2027-manchester-g5vhz_gfgtq6v | Sleeping With Sirens | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-sleeping-with-sirens-2027-birmingham-g5dzz_5wuo0od | Sleeping With Sirens | add (applied) | 8127272 | https://www.ticketliquidator.com/tickets/8127272/Sleeping-With-Sirens-tickets-Sat-Mar-6-2027-O2-Academy-Birmingham | - |
-| tm-sleeping-with-sirens-2027-london-g5dzz_g5cip1i | Sleeping With Sirens | add (applied) | 8050887 | https://www.ticketliquidator.com/tickets/8050887/Sleeping-With-Sirens-tickets-Sun-Mar-7-2027-O2-Academy-Brixton | - |
+| tm-sleeping-with-sirens-2027-birmingham-g5dzz_5wuo0od | Sleeping With Sirens | none | 8127272 | https://www.ticketliquidator.com/tickets/8127272/Sleeping-With-Sirens-tickets-Sat-Mar-6-2027-O2-Academy-Birmingham | - |
+| tm-sleeping-with-sirens-2027-london-g5dzz_g5cip1i | Sleeping With Sirens | none | 8050887 | https://www.ticketliquidator.com/tickets/8050887/Sleeping-With-Sirens-tickets-Sun-Mar-7-2027-O2-Academy-Brixton | - |
 | tm-sleeping-with-sirens-2027-brisbane-1akzkfygkeprtzf | Sleeping With Sirens | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sleeping-with-sirens-2027-west-melbourne-1avgz_kgkwtduwz | Sleeping With Sirens | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-chayanne-2026-miami-vvg1vz_kt0yodw | Chayanne | add (applied) | 7892306 | https://www.ticketliquidator.com/tickets/7892306/Chayanne-tickets-Sat-Oct-24-2026-Kaseya-Center | - |
-| tm-chayanne-2026-tampa-vvg1vz_km8pku0 | Chayanne | add (applied) | 7892339 | https://www.ticketliquidator.com/tickets/7892339/Chayanne-tickets-Fri-Oct-30-2026-Benchmark-International-Arena | - |
-| tm-chayanne-2026-orlando-1aefz_kgkwoqkla | Chayanne | add (applied) | 7892340 | https://www.ticketliquidator.com/tickets/7892340/Chayanne-tickets-Sat-Oct-31-2026-Kia-Center | - |
+| tm-chayanne-2026-tampa-vvg1vz_km8pku0 | Chayanne | none | 7892339 | https://www.ticketliquidator.com/tickets/7892339/Chayanne-tickets-Fri-Oct-30-2026-Benchmark-International-Arena | - |
+| tm-chayanne-2026-orlando-1aefz_kgkwoqkla | Chayanne | none | 7892340 | https://www.ticketliquidator.com/tickets/7892340/Chayanne-tickets-Sat-Oct-31-2026-Kia-Center | - |
 | tm-dinosaur-jr-2027-brisbane-1k7yvp4bgacdnzm | Dinosaur Jr. | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-zach-bryan-2027-vancouver-1k78vp4fgacgpjm | Zach Bryan | add (applied) | 8338720 | https://www.ticketliquidator.com/tickets/8338720/Zach-Bryan-tickets-Tue-Jul-27-2027-BC-Place-Stadium | - |
+| tm-zach-bryan-2027-vancouver-1k78vp4fgacgpjm | Zach Bryan | none | 8338720 | https://www.ticketliquidator.com/tickets/8338720/Zach-Bryan-tickets-Tue-Jul-27-2027-BC-Place-Stadium | - |
 | tm-zach-bryan-2027-edmonton-16v7z_43bg7l9tm | Zach Bryan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dinosaur-jr-2027-auckland-1a0zk4fgkei-ffe | Dinosaur Jr. | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-cece-winans-2026-duluth-vvg1zz_a3epgc8 | CeCe Winans | add (applied) | 7752706 | https://www.ticketliquidator.com/tickets/7752706/CeCe-Winans-tickets-Fri-Oct-23-2026-Gas-South-Arena | - |
-| tm-cece-winans-2026-new-orleans-g5viz_a29lq83 | CeCe Winans | add (applied) | 7752708 | https://www.ticketliquidator.com/tickets/7752708/CeCe-Winans-tickets-Sat-Oct-24-2026-Smoothie-King-Center | - |
-| tm-cece-winans-2026-orlando-16xzkokj9za57fca | CeCe Winans | add (applied) | 7752709 | https://www.ticketliquidator.com/tickets/7752709/CeCe-Winans-tickets-Tue-Oct-27-2026-Addition-Financial-Arena | - |
-| tm-cece-winans-2026-north-charleston-g5evz_a3s0b-f | CeCe Winans | add (applied) | 7752710 | https://www.ticketliquidator.com/tickets/7752710/CeCe-Winans-tickets-Wed-Oct-28-2026-North-Charleston-Coliseum | - |
-| tm-cece-winans-2026-tampa-vvg1vz_a3ceusx | CeCe Winans | add (applied) | 7752712 | https://www.ticketliquidator.com/tickets/7752712/CeCe-Winans-tickets-Thu-Oct-29-2026-The-Yuengling-Center | - |
-| tm-cece-winans-2026-jacksonville-1kfov047gag6hdu | CeCe Winans | add (applied) | 7752713 | https://www.ticketliquidator.com/tickets/7752713/CeCe-Winans-tickets-Fri-Oct-30-2026-VyStar-Veterans-Memorial-Arena | - |
-| tm-cece-winans-2026-seattle-vvg1hz_c5fehuk | CeCe Winans | add (applied) | 8121702 | https://www.ticketliquidator.com/tickets/8121702/CeCe-Winans-tickets-Thu-Dec-10-2026-Wamu-Theater-At-Lumen-Field-Event-Center | - |
-| tm-cece-winans-2026-portland-z7r9jz1a7j6jj | CeCe Winans | add (applied) | 8121635 | https://www.ticketliquidator.com/tickets/8121635/CeCe-Winans-tickets-Fri-Dec-11-2026-Arlene-Schnitzer-Concert-Hall | - |
-| tm-cece-winans-2026-phoenix-17k8v0g6ch4_jyt | CeCe Winans | add (applied) | 8121699 | https://www.ticketliquidator.com/tickets/8121699/CeCe-Winans-tickets-Tue-Dec-15-2026-Arizona-Financial-Theatre | - |
-| tm-cece-winans-2026-bakersfield-z7r9jz1a7jfpa | CeCe Winans | add (applied) | 8124361 | https://www.ticketliquidator.com/tickets/8124361/CeCe-Winans-tickets-Wed-Dec-16-2026-Dignity-Health-Theater | - |
+| tm-cece-winans-2026-orlando-16xzkokj9za57fca | CeCe Winans | none | 7752709 | https://www.ticketliquidator.com/tickets/7752709/CeCe-Winans-tickets-Tue-Oct-27-2026-Addition-Financial-Arena | - |
+| tm-cece-winans-2026-north-charleston-g5evz_a3s0b-f | CeCe Winans | none | 7752710 | https://www.ticketliquidator.com/tickets/7752710/CeCe-Winans-tickets-Wed-Oct-28-2026-North-Charleston-Coliseum | - |
+| tm-cece-winans-2026-tampa-vvg1vz_a3ceusx | CeCe Winans | none | 7752712 | https://www.ticketliquidator.com/tickets/7752712/CeCe-Winans-tickets-Thu-Oct-29-2026-The-Yuengling-Center | - |
+| tm-cece-winans-2026-jacksonville-1kfov047gag6hdu | CeCe Winans | none | 7752713 | https://www.ticketliquidator.com/tickets/7752713/CeCe-Winans-tickets-Fri-Oct-30-2026-VyStar-Veterans-Memorial-Arena | - |
+| tm-cece-winans-2026-seattle-vvg1hz_c5fehuk | CeCe Winans | none | 8121702 | https://www.ticketliquidator.com/tickets/8121702/CeCe-Winans-tickets-Thu-Dec-10-2026-Wamu-Theater-At-Lumen-Field-Event-Center | - |
+| tm-cece-winans-2026-portland-z7r9jz1a7j6jj | CeCe Winans | none | 8121635 | https://www.ticketliquidator.com/tickets/8121635/CeCe-Winans-tickets-Fri-Dec-11-2026-Arlene-Schnitzer-Concert-Hall | - |
+| tm-cece-winans-2026-phoenix-17k8v0g6ch4_jyt | CeCe Winans | none | 8121699 | https://www.ticketliquidator.com/tickets/8121699/CeCe-Winans-tickets-Tue-Dec-15-2026-Arizona-Financial-Theatre | - |
+| tm-cece-winans-2026-bakersfield-z7r9jz1a7jfpa | CeCe Winans | none | 8124361 | https://www.ticketliquidator.com/tickets/8124361/CeCe-Winans-tickets-Wed-Dec-16-2026-Dignity-Health-Theater | - |
 | tm-cece-winans-2026-los-angeles-z7r9jz1a7jfjs | CeCe Winans | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-cece-winans-2026-sacramento-g5vyz_cr1cmnb | CeCe Winans | add (applied) | 8124362 | https://www.ticketliquidator.com/tickets/8124362/CeCe-Winans-tickets-Fri-Dec-18-2026-Sacramento-Memorial-Auditorium | - |
-| tm-cece-winans-2027-nashville-z7r9jz1aaebzs | CeCe Winans | add (applied) | 7854204 | https://www.ticketliquidator.com/tickets/7854204/CeCe-Winans-tickets-Sun-Mar-21-2027-Grand-Ole-Opry-House | - |
+| tm-cece-winans-2026-sacramento-g5vyz_cr1cmnb | CeCe Winans | none | 8124362 | https://www.ticketliquidator.com/tickets/8124362/CeCe-Winans-tickets-Fri-Dec-18-2026-Sacramento-Memorial-Auditorium | - |
+| tm-cece-winans-2027-nashville-z7r9jz1aaebzs | CeCe Winans | none | 7854204 | https://www.ticketliquidator.com/tickets/7854204/CeCe-Winans-tickets-Sun-Mar-21-2027-Grand-Ole-Opry-House | - |
 | tm-role-model-2027-berlin-z698xzc2z16vjt07ba | Role Model | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-role-model-2027-forest-brussels-z698xzg2z1k8kjzbp | Role Model | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-role-model-2027-dusseldorf-z698xzc2z1ka6aaoi | Role Model | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-role-model-2027-dublin-17kzv0g6uvbpba3 | Role Model | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-role-model-2027-london-17uyv0g6ueic0m_ | Role Model | add (applied) | 8074604 | https://www.ticketliquidator.com/tickets/8074604/Role-Model-tickets-Wed-Feb-24-2027-OVO-Arena-Wembley | - |
-| tm-karan-aujla-2026-sacramento-g5vyz_3m-gnbm | Karan Aujla | add (applied) | 8267874 | https://www.ticketliquidator.com/tickets/8267874/Karan-Aujla-tickets-Sat-Nov-7-2026-Golden-1-Center | - |
-| tm-karan-aujla-2026-los-angeles-g5eyz_3lgqzvb | Karan Aujla | add (applied) | 8267866 | https://www.ticketliquidator.com/tickets/8267866/Karan-Aujla-tickets-Mon-Nov-9-2026-Cryptocom-Arena | - |
-| tm-karan-aujla-2026-dallas-vvg1yz_3r_e2at | Karan Aujla | add (applied) | 8267876 | https://www.ticketliquidator.com/tickets/8267876/Karan-Aujla-tickets-Fri-Nov-13-2026-American-Airlines-Center | - |
-| tm-karan-aujla-2026-atlanta-vvg1zz_3myjgwo | Karan Aujla | add (applied) | 8267877 | https://www.ticketliquidator.com/tickets/8267877/Karan-Aujla-tickets-Mon-Nov-16-2026-State-Farm-Arena-GA | - |
-| tm-karan-aujla-2026-new-york-g5diz_3ivacnr | Karan Aujla | add (applied) | 8267865 | https://www.ticketliquidator.com/tickets/8267865/Karan-Aujla-tickets-Wed-Nov-18-2026-Madison-Square-Garden | - |
-| tm-karan-aujla-2026-washington-1a4zkftgkdhkud5 | Karan Aujla | add (applied) | 8267878 | https://www.ticketliquidator.com/tickets/8267878/Karan-Aujla-tickets-Fri-Nov-20-2026-Capital-One-Arena | - |
+| tm-role-model-2027-london-17uyv0g6ueic0m_ | Role Model | none | 8074604 | https://www.ticketliquidator.com/tickets/8074604/Role-Model-tickets-Wed-Feb-24-2027-OVO-Arena-Wembley | - |
+| tm-karan-aujla-2026-sacramento-g5vyz_3m-gnbm | Karan Aujla | none | 8267874 | https://www.ticketliquidator.com/tickets/8267874/Karan-Aujla-tickets-Sat-Nov-7-2026-Golden-1-Center | - |
+| tm-karan-aujla-2026-los-angeles-g5eyz_3lgqzvb | Karan Aujla | none | 8267866 | https://www.ticketliquidator.com/tickets/8267866/Karan-Aujla-tickets-Mon-Nov-9-2026-Cryptocom-Arena | - |
+| tm-karan-aujla-2026-dallas-vvg1yz_3r_e2at | Karan Aujla | none | 8267876 | https://www.ticketliquidator.com/tickets/8267876/Karan-Aujla-tickets-Fri-Nov-13-2026-American-Airlines-Center | - |
+| tm-karan-aujla-2026-atlanta-vvg1zz_3myjgwo | Karan Aujla | none | 8267877 | https://www.ticketliquidator.com/tickets/8267877/Karan-Aujla-tickets-Mon-Nov-16-2026-State-Farm-Arena-GA | - |
+| tm-karan-aujla-2026-new-york-g5diz_3ivacnr | Karan Aujla | none | 8267865 | https://www.ticketliquidator.com/tickets/8267865/Karan-Aujla-tickets-Wed-Nov-18-2026-Madison-Square-Garden | - |
+| tm-karan-aujla-2026-washington-1a4zkftgkdhkud5 | Karan Aujla | none | 8267878 | https://www.ticketliquidator.com/tickets/8267878/Karan-Aujla-tickets-Fri-Nov-20-2026-Capital-One-Arena | - |
 | tm-jack-johnson-2026-brisbane-1k7yv0jtgaugdpl | Jack Johnson | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-jack-johnson-2026-brisbane-1akzkosgkdpve0m | Jack Johnson | add (applied) | 8237263 | https://www.ticketliquidator.com/tickets/8237263/Jack-Johnson-tickets-Sat-Nov-7-2026-Riverstage-Brisbane | - |
-| tm-jack-johnson-2026-brisbane-1k7yv0jtgaudsje | Jack Johnson | add (applied) | 8237264 | https://www.ticketliquidator.com/tickets/8237264/Jack-Johnson-tickets-Sun-Nov-8-2026-Riverstage-Brisbane | - |
+| tm-jack-johnson-2026-brisbane-1akzkosgkdpve0m | Jack Johnson | none | 8237263 | https://www.ticketliquidator.com/tickets/8237263/Jack-Johnson-tickets-Sat-Nov-7-2026-Riverstage-Brisbane | - |
+| tm-jack-johnson-2026-brisbane-1k7yv0jtgaudsje | Jack Johnson | none | 8237264 | https://www.ticketliquidator.com/tickets/8237264/Jack-Johnson-tickets-Sun-Nov-8-2026-Riverstage-Brisbane | - |
 | tm-jack-johnson-2026-west-perth-1k7yv0qzga2dx6- | Jack Johnson | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jack-johnson-2026-west-perth-1akzkomgkd_zu0i | Jack Johnson | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jack-johnson-2026-west-perth-1akzkomgkd_bj0s | Jack Johnson | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jack-johnson-2026-sydney-1akzkosgkdq3fwf | Jack Johnson | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jack-johnson-2026-linlithgow-ave-1avgz_6cppkzd52a | Jack Johnson | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jack-johnson-2026-linlithgow-ave-1avgz_6gkbxcfqh | Jack Johnson | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-jack-johnson-2026-auckland-1a0zkowgkdch7lq | Jack Johnson | add (applied) | 8127248 | https://www.ticketliquidator.com/tickets/8127248/Jack-Johnson-tickets-Fri-Nov-20-2026-Spark-Arena | - |
+| tm-jack-johnson-2026-auckland-1a0zkowgkdch7lq | Jack Johnson | none | 8127248 | https://www.ticketliquidator.com/tickets/8127248/Jack-Johnson-tickets-Fri-Nov-20-2026-Spark-Arena | - |
 | tm-jack-johnson-2026-waipara-1kazv0jzgaua-ts | Jack Johnson | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jack-johnson-2027-forest-brussels-z698xzg2z1koeez-t | Jack Johnson | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jack-johnson-2027-amsterdam-z698xzbpz16v8kg7fn | Jack Johnson | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3322,41 +3252,97 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-jack-johnson-2027-london-16dfz_4ebg7va-j | Jack Johnson | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-phil-wickham-2026-fontana-rz7hnez1afu7r7 | Phil Wickham | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-phil-wickham-2026-fontana-rz7hnez1afu7o0 | Phil Wickham | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-phil-wickham-2026-san-diego-rz7hnez1afu7ov | Phil Wickham | add (applied) | 8324868 | https://www.ticketliquidator.com/tickets/8324868/Phil-Wickham-tickets-Thu-Dec-3-2026-Maranatha-Chapel | - |
-| tm-phil-wickham-2026-san-diego-rz7hnez1afu7x7 | Phil Wickham | add (applied) | 8324869 | https://www.ticketliquidator.com/tickets/8324869/Phil-Wickham-tickets-Fri-Dec-4-2026-Maranatha-Chapel | - |
-| tm-phil-wickham-2026-downey-rz7hnez1afu7xf | Phil Wickham | add (applied) | 8324870 | https://www.ticketliquidator.com/tickets/8324870/Phil-Wickham-tickets-Sun-Dec-6-2026-Calvary-Chapel-Downey | - |
-| tm-gavin-adcock-2026-knoxville-z7r9jz1a7-yuw | Gavin Adcock | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-gavin-adcock-2026-cary-z7r9jz1a7-y8f | Gavin Adcock | add (applied) | 7808188 | https://www.ticketliquidator.com/tickets/7808188/Gavin-Adcock-tickets-Sat-Oct-24-2026-Koka-Booth-Amphitheatre-At-Regency-Park | - |
-| tm-gavin-adcock-2026-charlotte-g5evz_kjjq1qk | Gavin Adcock | add (applied) | 7806866 | https://www.ticketliquidator.com/tickets/7806866/Gavin-Adcock-tickets-Thu-Oct-29-2026-Bojangles-Coliseum | - |
-| tm-gavin-adcock-2026-savannah-vvg1zz_kjxemhw | Gavin Adcock | add (applied) | 7806867 | https://www.ticketliquidator.com/tickets/7806867/Gavin-Adcock-tickets-Fri-Oct-30-2026-Enmarket-Arena | - |
-| tm-gavin-adcock-2026-estero-vvg1vz_kjvgfqs | Gavin Adcock | add (applied) | 7806868 | https://www.ticketliquidator.com/tickets/7806868/Gavin-Adcock-tickets-Sat-Oct-31-2026-Hertz-Arena | - |
-| tm-gavin-adcock-2026-boston-vv177z_kgkmr1ooo | Gavin Adcock | add (applied) | 7806869 | https://www.ticketliquidator.com/tickets/7806869/Gavin-Adcock-tickets-Fri-Nov-6-2026-MGM-Music-Hall-at-Fenway-Park | - |
+| tm-phil-wickham-2026-san-diego-rz7hnez1afu7ov | Phil Wickham | none | 8324868 | https://www.ticketliquidator.com/tickets/8324868/Phil-Wickham-tickets-Thu-Dec-3-2026-Maranatha-Chapel | - |
+| tm-phil-wickham-2026-san-diego-rz7hnez1afu7x7 | Phil Wickham | none | 8324869 | https://www.ticketliquidator.com/tickets/8324869/Phil-Wickham-tickets-Fri-Dec-4-2026-Maranatha-Chapel | - |
+| tm-phil-wickham-2026-downey-rz7hnez1afu7xf | Phil Wickham | none | 8324870 | https://www.ticketliquidator.com/tickets/8324870/Phil-Wickham-tickets-Sun-Dec-6-2026-Calvary-Chapel-Downey | - |
+| tm-gavin-adcock-2026-charlotte-g5evz_kjjq1qk | Gavin Adcock | none | 7806866 | https://www.ticketliquidator.com/tickets/7806866/Gavin-Adcock-tickets-Thu-Oct-29-2026-Bojangles-Coliseum | - |
+| tm-gavin-adcock-2026-savannah-vvg1zz_kjxemhw | Gavin Adcock | none | 7806867 | https://www.ticketliquidator.com/tickets/7806867/Gavin-Adcock-tickets-Fri-Oct-30-2026-Enmarket-Arena | - |
+| tm-gavin-adcock-2026-estero-vvg1vz_kjvgfqs | Gavin Adcock | none | 7806868 | https://www.ticketliquidator.com/tickets/7806868/Gavin-Adcock-tickets-Sat-Oct-31-2026-Hertz-Arena | - |
+| tm-gavin-adcock-2026-boston-vv177z_kgkmr1ooo | Gavin Adcock | none | 7806869 | https://www.ticketliquidator.com/tickets/7806869/Gavin-Adcock-tickets-Fri-Nov-6-2026-MGM-Music-Hall-at-Fenway-Park | - |
 | tm-gavin-adcock-2026-reading-vv1aezkotgkeivbwv | Gavin Adcock | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-gavin-adcock-2026-detroit-z7r9jz1a7-yus | Gavin Adcock | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-gavin-adcock-2026-grand-rapids-z7r9jz1a7-yut | Gavin Adcock | add (applied) | 7806928 | https://www.ticketliquidator.com/tickets/7806928/Gavin-Adcock-tickets-Sat-Nov-14-2026-Van-Andel-Arena | - |
+| tm-gavin-adcock-2026-grand-rapids-z7r9jz1a7-yut | Gavin Adcock | none | 7806928 | https://www.ticketliquidator.com/tickets/7806928/Gavin-Adcock-tickets-Sat-Nov-14-2026-Van-Andel-Arena | - |
 | tm-gavin-adcock-2026-houston-g5diz_3mqabzl | Gavin Adcock | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-gavin-adcock-2026-las-vegas-z7r9jz1a7paas | Gavin Adcock | add (applied) | 7927241 | https://www.ticketliquidator.com/tickets/7927241/Gavin-Adcock-tickets-Thu-Dec-10-2026-The-Theater-at-Virgin-Hotels-Las-Vegas | - |
-| tm-gavin-adcock-2027-lexington-1apzk4egkdqsq_b | Gavin Adcock | add (applied) | 8318410 | https://www.ticketliquidator.com/tickets/8318410/Gavin-Adcock-tickets-Thu-Apr-1-2027-Gatton-Park | - |
+| tm-gavin-adcock-2026-las-vegas-z7r9jz1a7paas | Gavin Adcock | none | 7927241 | https://www.ticketliquidator.com/tickets/7927241/Gavin-Adcock-tickets-Thu-Dec-10-2026-The-Theater-at-Virgin-Hotels-Las-Vegas | - |
+| tm-gavin-adcock-2027-lexington-1apzk4egkdqsq_b | Gavin Adcock | none | 8318410 | https://www.ticketliquidator.com/tickets/8318410/Gavin-Adcock-tickets-Thu-Apr-1-2027-Gatton-Park | - |
 | tm-gavin-adcock-2027-saint-louis-1a-zk46gkdfwuei | Gavin Adcock | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-gavin-adcock-2027-saint-louis-1a-zk46gkdfsjen | Gavin Adcock | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-gavin-adcock-2027-university-z7r9jz1a7-y8- | Gavin Adcock | add (applied) | 7807220 | https://www.ticketliquidator.com/tickets/7807220/Gavin-Adcock-tickets-Sat-Apr-10-2027-The-Sandy-and-John-Black-Pavilion-at-Ole-Miss | - |
-| tm-gavin-adcock-2027-salem-vv1avzk4kgkdddflu | Gavin Adcock | add (applied) | 8318413 | https://www.ticketliquidator.com/tickets/8318413/Gavin-Adcock-tickets-Thu-Apr-29-2027-Salem-Civic-Center | - |
+| tm-gavin-adcock-2027-university-z7r9jz1a7-y8- | Gavin Adcock | none | 7807220 | https://www.ticketliquidator.com/tickets/7807220/Gavin-Adcock-tickets-Sat-Apr-10-2027-The-Sandy-and-John-Black-Pavilion-at-Ole-Miss | - |
+| tm-gavin-adcock-2027-salem-vv1avzk4kgkdddflu | Gavin Adcock | none | 8318413 | https://www.ticketliquidator.com/tickets/8318413/Gavin-Adcock-tickets-Thu-Apr-29-2027-Salem-Civic-Center | - |
 | tm-gavin-adcock-2027-saint-augustine-z7r9jz1aa76gg | Gavin Adcock | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-gavin-adcock-2027-oklahoma-city-z7r9jz1aa76gu | Gavin Adcock | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-gavin-adcock-2027-houston-g5diz_f9nlu8w | Gavin Adcock | add (applied) | 8318414 | https://www.ticketliquidator.com/tickets/8318414/Gavin-Adcock-tickets-Sat-May-8-2027-White-Oak-Music-Hall-Lawn | - |
-| tm-gavin-adcock-2027-richmond-z7r9jz1aa76gm | Gavin Adcock | add (applied) | 8319557 | https://www.ticketliquidator.com/tickets/8319557/Gavin-Adcock-tickets-Thu-May-13-2027-Virginia-Credit-Union-LIVE-at-Richmond-Raceway | - |
-| tm-gavin-adcock-2027-atlantic-city-vv17fz_fgkbsdawx | Gavin Adcock | add (applied) | 8318415 | https://www.ticketliquidator.com/tickets/8318415/Gavin-Adcock-tickets-Fri-May-14-2027-Hard-Rock-Live-At-Etess-Arena | - |
-| tm-gavin-adcock-2027-baltimore-z7r9jz1aa76ue | Gavin Adcock | add (applied) | 8319558 | https://www.ticketliquidator.com/tickets/8319558/Gavin-Adcock-tickets-Sat-May-15-2027-Pier-Six-Pavilion | - |
-| tm-gavin-adcock-2027-helotes-z7r9jz1aa76gz | Gavin Adcock | add (applied) | 8319559 | https://www.ticketliquidator.com/tickets/8319559/Gavin-Adcock-tickets-Thu-May-27-2027-John-T-Floore-Country-Store | - |
-| tm-gavin-adcock-2027-helotes-z7r9jz1aa76gy | Gavin Adcock | add (applied) | 8319560 | https://www.ticketliquidator.com/tickets/8319560/Gavin-Adcock-tickets-Fri-May-28-2027-John-T-Floore-Country-Store | - |
+| tm-gavin-adcock-2027-houston-g5diz_f9nlu8w | Gavin Adcock | none | 8318414 | https://www.ticketliquidator.com/tickets/8318414/Gavin-Adcock-tickets-Sat-May-8-2027-White-Oak-Music-Hall-Lawn | - |
+| tm-gavin-adcock-2027-richmond-z7r9jz1aa76gm | Gavin Adcock | none | 8319557 | https://www.ticketliquidator.com/tickets/8319557/Gavin-Adcock-tickets-Thu-May-13-2027-Virginia-Credit-Union-LIVE-at-Richmond-Raceway | - |
+| tm-gavin-adcock-2027-atlantic-city-vv17fz_fgkbsdawx | Gavin Adcock | none | 8318415 | https://www.ticketliquidator.com/tickets/8318415/Gavin-Adcock-tickets-Fri-May-14-2027-Hard-Rock-Live-At-Etess-Arena | - |
+| tm-gavin-adcock-2027-baltimore-z7r9jz1aa76ue | Gavin Adcock | none | 8319558 | https://www.ticketliquidator.com/tickets/8319558/Gavin-Adcock-tickets-Sat-May-15-2027-Pier-Six-Pavilion | - |
+| tm-gavin-adcock-2027-helotes-z7r9jz1aa76gz | Gavin Adcock | none | 8319559 | https://www.ticketliquidator.com/tickets/8319559/Gavin-Adcock-tickets-Thu-May-27-2027-John-T-Floore-Country-Store | - |
+| tm-gavin-adcock-2027-helotes-z7r9jz1aa76gy | Gavin Adcock | none | 8319560 | https://www.ticketliquidator.com/tickets/8319560/Gavin-Adcock-tickets-Fri-May-28-2027-John-T-Floore-Country-Store | - |
 | tm-zach-bryan-2027-minneapolis-z7r9jz1aa7kad | Zach Bryan | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-zach-bryan-2027-chicago-z7r9jz1aa7pvj | Zach Bryan | add (applied) | 8338574 | https://www.ticketliquidator.com/tickets/8338574/Zach-Bryan-tickets-Fri-May-7-2027-Soldier-Field | - |
-| tm-zach-bryan-2027-chicago-z7r9jz1aa7ka- | Zach Bryan | add (applied) | 8322381 | https://www.ticketliquidator.com/tickets/8322381/Zach-Bryan-tickets-Sat-May-8-2027-Soldier-Field | - |
-| tm-zach-bryan-2027-baltimore-z7r9jz1aa7kav | Zach Bryan | add (applied) | 8322382 | https://www.ticketliquidator.com/tickets/8322382/Zach-Bryan-tickets-Tue-May-18-2027-MT-Bank-Stadium | - |
-| tm-zach-bryan-2027-nashville-z7r9jz1aa7k17 | Zach Bryan | add (applied) | 8322383 | https://www.ticketliquidator.com/tickets/8322383/Zach-Bryan-tickets-Sat-May-22-2027-New-Nissan-Stadium | - |
-| tm-death-cab-for-cutie-2027-columbus-vv1aazk4fgkd90ltp | Death Cab for Cutie | add (applied) | 8338611 | https://www.ticketliquidator.com/tickets/8338611/Death-Cab-for-Cutie-tickets-Mon-Mar-29-2027-Mershon-Auditorium-At-Wexner-Center-For-The-Arts | - |
-| tm-death-cab-for-cutie-2027-charlottesville-vv1a8vp46ga2dsp3 | Death Cab for Cutie | add (applied) | 8338610 | https://www.ticketliquidator.com/tickets/8338610/Death-Cab-for-Cutie-tickets-Wed-Apr-14-2027-Ting-Pavilion | - |
+| tm-zach-bryan-2027-chicago-z7r9jz1aa7pvj | Zach Bryan | none | 8338574 | https://www.ticketliquidator.com/tickets/8338574/Zach-Bryan-tickets-Fri-May-7-2027-Soldier-Field | - |
+| tm-zach-bryan-2027-chicago-z7r9jz1aa7ka- | Zach Bryan | none | 8322381 | https://www.ticketliquidator.com/tickets/8322381/Zach-Bryan-tickets-Sat-May-8-2027-Soldier-Field | - |
+| tm-zach-bryan-2027-baltimore-z7r9jz1aa7kav | Zach Bryan | none | 8322382 | https://www.ticketliquidator.com/tickets/8322382/Zach-Bryan-tickets-Tue-May-18-2027-MT-Bank-Stadium | - |
+| tm-zach-bryan-2027-nashville-z7r9jz1aa7k17 | Zach Bryan | none | 8322383 | https://www.ticketliquidator.com/tickets/8322383/Zach-Bryan-tickets-Sat-May-22-2027-New-Nissan-Stadium | - |
+| tm-death-cab-for-cutie-2027-columbus-vv1aazk4fgkd90ltp | Death Cab for Cutie | none | 8338611 | https://www.ticketliquidator.com/tickets/8338611/Death-Cab-for-Cutie-tickets-Mon-Mar-29-2027-Mershon-Auditorium-At-Wexner-Center-For-The-Arts | - |
+| tm-death-cab-for-cutie-2027-charlottesville-vv1a8vp46ga2dsp3 | Death Cab for Cutie | none | 8338610 | https://www.ticketliquidator.com/tickets/8338610/Death-Cab-for-Cutie-tickets-Wed-Apr-14-2027-Ting-Pavilion | - |
 | tm-tommy-emmanuel-2027-loveland-z7r9jz1aa791k | Tommy Emmanuel | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-riley-green-2026-manchester-vv177z_fgkwnh6_i | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-riley-green-2026-manchester-vv177z_fgkwnh6_i | Riley Green | add (applied) | 8339188 | https://www.ticketliquidator.com/tickets/8339188/Riley-Green-tickets-Mon-Nov-2-2026-SNHU-Arena | - |
 | tm-mico-2026-brooklyn-rz7hnez1afcpa7 | Mico | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-garth-brooks-2026-seattle-vvg1hz_4dkkd9j | Garth Brooks | add (applied) | 8338947 | https://www.ticketliquidator.com/tickets/8338947/Garth-Brooks-tickets-Thu-Nov-12-2026-Climate-Pledge-Arena | - |
+| tm-garth-brooks-2026-seattle-vvg1hz_4dkkd9j | Garth Brooks | none | 8338947 | https://www.ticketliquidator.com/tickets/8338947/Garth-Brooks-tickets-Thu-Nov-12-2026-Climate-Pledge-Arena | - |
+| tm-u2-2027-ciudad-de-mexico-1afzk4agkeysi-t | U2 | add (applied) | 8329176 | https://www.ticketliquidator.com/tickets/8329176/U2-tickets-Tue-Feb-23-2027-Estadio-GNP-Seguros-Mexico-City | - |
+| tm-u2-2027-ciudad-de-mexico-1afzk4agkebeind | U2 | add (applied) | 8329177 | https://www.ticketliquidator.com/tickets/8329177/U2-tickets-Fri-Feb-26-2027-Estadio-GNP-Seguros-Mexico-City | - |
+| tm-u2-2027-ciudad-de-mexico-1afzk4agkebeina | U2 | add (applied) | 8337104 | https://www.ticketliquidator.com/tickets/8337104/U2-tickets-Sun-Feb-28-2027-Estadio-GNP-Seguros-Mexico-City | - |
+| tm-u2-2027-ciudad-de-mexico-1afzk4agkebign2 | U2 | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-beck-2026-washington-1avfz_fgkdleutu | Beck | add (applied) | 7896088 | https://www.ticketliquidator.com/tickets/7896088/Beck-tickets-Sun-Oct-25-2026-The-Anthem-DC | - |
+| tm-beck-2026-durham-g5evz_fbugjju | Beck | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-beck-2026-asheville-g5evz_ftjugdd | Beck | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-beck-2026-atlanta-vvg1zz_fbor4w0 | Beck | add (applied) | 7896100 | https://www.ticketliquidator.com/tickets/7896100/Beck-tickets-Fri-Oct-30-2026-Coca-Cola-Roxy | - |
+| tm-beck-2026-nashville-g5viz_kspxnlj | Beck | add (applied) | 7808848 | https://www.ticketliquidator.com/tickets/7808848/Beck-tickets-Sat-Oct-31-2026-The-Truth | - |
+| tm-beck-2026-spokane-z7r9jz1aae87y | Beck | add (applied) | 8301187 | https://www.ticketliquidator.com/tickets/8301187/Beck-tickets-Fri-Nov-6-2026-First-Interstate-Center-for-the-Arts | - |
+| tm-beck-2026-seattle-vvg1hz_3rxx2pm | Beck | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-beck-2026-vancouver-1aozk3a0babze8k | Beck | add (applied) | 7896101 | https://www.ticketliquidator.com/tickets/7896101/Beck-tickets-Mon-Nov-9-2026-Queen-Elizabeth-Theatre-Vancouver | - |
+| tm-beck-2026-portland-z7r9jz1a7xffk | Beck | add (applied) | 7896028 | https://www.ticketliquidator.com/tickets/7896028/Beck-tickets-Tue-Nov-10-2026-Keller-Auditorium | - |
+| tm-dermot-kennedy-2026-west-perth-1avgz_agkmqzbyp | Dermot Kennedy | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-dermot-kennedy-2026-brisbane-1avgz_agksulpj1 | Dermot Kennedy | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-dermot-kennedy-2026-christchurch-1ae8z_agkm57djw | Dermot Kennedy | add (applied) | 8326048 | https://www.ticketliquidator.com/tickets/8326048/Dermot-Kennedy-tickets-Wed-Nov-25-2026-Christchurch-Town-Hall | - |
+| tm-dermot-kennedy-2026-wellington-1ae8z_agkmdax8r | Dermot Kennedy | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-dermot-kennedy-2026-auckland-1ae8z_agkranxjl | Dermot Kennedy | add (applied) | 8173279 | https://www.ticketliquidator.com/tickets/8173279/Dermot-Kennedy-tickets-Sat-Nov-28-2026-Spark-Arena | - |
+| tm-dermot-kennedy-2027-tramore-rd-cork-1kkzvpozga5u0fg | Dermot Kennedy | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-dermot-kennedy-2027-tramore-rd-cork-1kkzvpozga5mff_ | Dermot Kennedy | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-dermot-kennedy-2027-belfast-1azzk4kgkeju-cx | Dermot Kennedy | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-turnpike-troubadours-2026-clearwater-z7r9jz1a7-ga_ | Turnpike Troubadours | add (applied) | 7831487 | https://www.ticketliquidator.com/tickets/7831487/Turnpike-Troubadours-tickets-Sun-Oct-25-2026-The-BayCare-Sound | - |
+| tm-turnpike-troubadours-2026-las-vegas-17ayv0g62soqkki | Turnpike Troubadours | add (applied) | 8182281 | https://www.ticketliquidator.com/tickets/8182281/Turnpike-Troubadours-tickets-Fri-Dec-11-2026-Brooklyn-Bowl-Las-Vegas | - |
+| tm-sam-fender-2027-newcastle-upon-tyne-1agzk4fgkd88g8t | Sam Fender | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-sam-fender-2027-newcastle-upon-tyne-1adfz_fgktpp_oj | Sam Fender | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-sam-fender-2027-cardiff-16gzk4fpszage5ca | Sam Fender | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-sam-fender-2027-london-16nzk4f00zauv12c | Sam Fender | add (applied) | 8334269 | https://www.ticketliquidator.com/tickets/8334269/Sam-Fender-tickets-Fri-Jun-18-2027-Wembley-Stadium | - |
+| tm-sam-fender-2027-london-1anzk4fgkdp88g6 | Sam Fender | add (applied) | 8334270 | https://www.ticketliquidator.com/tickets/8334270/Sam-Fender-tickets-Sun-Jun-20-2027-Wembley-Stadium | - |
+| tm-sam-fender-2027-dublin-1avoz_fgkxvywdt | Sam Fender | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-sam-fender-2027-edinburgh-1auzk4fgkd4qebt | Sam Fender | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-sam-fender-2027-manchester-g5dzz_42lyjlw | Sam Fender | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-sam-fender-2027-manchester-g5dzz_4k4turs | Sam Fender | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-bon-jovi-2027-docklands-1aefz_fgkxe60v9 | Bon Jovi | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-bon-jovi-2027-east-rutherford-k7vgf_4evgqwy | Bon Jovi | add (applied) | 8329063 | https://www.ticketliquidator.com/tickets/8329063/Bon-Jovi-tickets-Thu-Jul-15-2027-MetLife-Stadium | - |
+| tm-bon-jovi-2027-chicago-vv178z_fgkh_n5td | Bon Jovi | add (applied) | 8329064 | https://www.ticketliquidator.com/tickets/8329064/Bon-Jovi-tickets-Wed-Jul-21-2027-Soldier-Field | - |
+| tm-bon-jovi-2027-foxborough-vv1avzk48gke-15d8 | Bon Jovi | add (applied) | 8329065 | https://www.ticketliquidator.com/tickets/8329065/Bon-Jovi-tickets-Wed-Jul-28-2027-Gillette-Stadium | - |
+| tm-bon-jovi-2027-toronto-1a8zk48je1zze8k | Bon Jovi | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-anuel-aa-2026-belmont-park-1ayzkffgkd4zfkj | Anuel AA | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-anuel-aa-2027-monterrey-g5dvz_6rcdk4r | Anuel AA | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-anuel-aa-2027-zapopan-g5dvz_6raf6md | Anuel AA | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-luke-bryan-2026-mescalero-vvg1yz_gw6bfly | Luke Bryan | add (applied) | 8259472 | https://www.ticketliquidator.com/tickets/8259472/Luke-Bryan-tickets-Sat-Dec-5-2026-Inn-Of-The-Mountain-Gods-Resort-Casino | - |
+| tm-luke-bryan-2026-las-vegas-1avjz_agkws6gfv | Luke Bryan | add (applied) | 7922101 | https://www.ticketliquidator.com/tickets/7922101/Luke-Bryan-tickets-Fri-Dec-11-2026-Allegiant-Stadium | - |
+| tm-billy-strings-2026-baltimore-1avfz_6gkm3naew | Billy Strings | conflict | - | - | ambiguous: missing or conflicting performance start evidence |
+| tm-billy-strings-2026-baltimore-1avfz_6gkmktg1d | Billy Strings | add (applied) | 7843522 | https://www.ticketliquidator.com/tickets/7843522/Billy-Strings-tickets-Sat-Oct-31-2026-CFG-Bank-Arena | - |
+| tm-billy-strings-2026-new-orleans-g5viz_fhsj6zp | Billy Strings | add (applied) | 7843538 | https://www.ticketliquidator.com/tickets/7843538/Billy-Strings-tickets-Fri-Dec-4-2026-Saenger-Theatre-New-Orleans | - |
+| tm-billy-strings-2026-new-orleans-g5viz_6n0bmge | Billy Strings | add (applied) | 7843524 | https://www.ticketliquidator.com/tickets/7843524/Billy-Strings-tickets-Sat-Dec-5-2026-Smoothie-King-Center | - |
+| tm-billy-strings-2026-sugar-land-z7r9jz1a7xvj- | Billy Strings | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-billy-strings-2026-fort-worth-vvg1yz_6mc3yqf | Billy Strings | add (applied) | 7843525 | https://www.ticketliquidator.com/tickets/7843525/Billy-Strings-tickets-Fri-Dec-11-2026-Dickies-Arena | - |
+| tm-billy-strings-2026-austin-g5diz_ub5bart | Billy Strings | add (applied) | 8108535 | https://www.ticketliquidator.com/tickets/8108535/Billy-Strings-tickets-Sat-Dec-12-2026-Moody-Center-ATX | - |
+| tm-billy-strings-2027-asheville-g5evz_omwlg3b | Billy Strings | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-billy-strings-2027-asheville-g5evz_omwlh3- | Billy Strings | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-billy-strings-2027-asheville-g5evz_omwig3e | Billy Strings | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-billy-strings-2027-asheville-g5evz_omwii3v | Billy Strings | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-billy-strings-2027-asheville-g5evz_omwcg3b | Billy Strings | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-billy-strings-2027-duluth-vvg1zz_oinx98f | Billy Strings | conflict | - | - | ambiguous: missing or conflicting performance start evidence |
+| tm-billy-strings-2027-duluth-vvg1zz_ointe8l | Billy Strings | add (applied) | 8238820 | https://www.ticketliquidator.com/tickets/8238820/Billy-Strings-tickets-Sat-Feb-13-2027-Gas-South-Arena | - |
+| tm-billy-strings-2027-nashville-g5viz_on579po | Billy Strings | conflict | - | - | ambiguous: missing or conflicting performance start evidence |
+| tm-billy-strings-2027-nashville-g5viz_on5a9pr | Billy Strings | add (applied) | 8238824 | https://www.ticketliquidator.com/tickets/8238824/Billy-Strings-tickets-Sat-Feb-20-2027-Bridgestone-Arena | - |

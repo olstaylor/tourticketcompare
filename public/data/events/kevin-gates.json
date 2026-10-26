@@ -48,11 +48,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7808845",
-        "url": "https://www.ticketliquidator.com/tickets/7808845/Kevin-Gates-tickets-Sat-Oct-24-2026-The-Truth",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_discovery_event_id": "G5viZ_kUQ0G54",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808845/Kevin-Gates-tickets-Sat-Oct-24-2026-The-Truth",
+    "ticketliquidator_url": "",
     "ticketnetwork_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"

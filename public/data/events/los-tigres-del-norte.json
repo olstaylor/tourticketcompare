@@ -48,11 +48,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107162969",
-        "url": "https://www.stubhub.ie/los-tigres-del-norte-glendale-tickets-10-24-2026/event/107162969",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -72,7 +72,7 @@
     "ticketmaster_discovery_event_id": "1Fk8v0p7atZ785Ae",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/los-tigres-del-norte-glendale-tickets-10-24-2026/event/107162969",
+    "stubhub_international_url": "",
     "ticketmaster_status_code": "rescheduled",
     "ticketliquidator_url": "",
     "ticketnetwork_url": ""

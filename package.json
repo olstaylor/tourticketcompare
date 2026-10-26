@@ -39,6 +39,7 @@
     "test:renderer-assets": "node scripts/renderer-asset-cache.test.mjs",
     "test:location-pages": "node scripts/location-pages.test.mjs",
     "test:onsale-calendar": "node scripts/onsale-calendar.test.mjs",
+    "test:this-week": "node scripts/this-week.test.mjs",
     "test:tours-hub": "node scripts/tours-hub.test.mjs",
     "test:rumoured-tours": "node scripts/rumoured-tours.test.mjs",
     "test:data-stories": "node scripts/data-stories.test.mjs",

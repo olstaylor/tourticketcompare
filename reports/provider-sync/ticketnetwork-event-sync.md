@@ -1,6 +1,6 @@
 # TicketNetwork event sync log
 
-Generated: 2026-10-25T23:22:53.140Z
+Generated: 2026-10-27T00:28:09.433Z
 
 Written by `scripts/sync-impact-marketplace-events.mjs`. One Impact catalog
 fetch per registry-verified artist; a link is written only for one
@@ -10,22 +10,21 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 ## Run summary
 
 - Mode: apply
-- Events selected: 3332
-- API calls made: 260
+- Events selected: 3434
+- API calls made: 262
 - Verified provenance written: 0
-- URLs added: 18
+- URLs added: 86
 - URLs corrected: 0
 - URLs cleared: 0
-- Provenance un-verified: 30
+- Provenance un-verified: 23
 - Conflicts (ambiguous, untouched): 0
-- No qualifying listing (complete catalog): 1013
+- No qualifying listing (complete catalog): 1061
 - Not checked (catalog incomplete): 0
 
 ## Outcomes
 
 | showId | artist | action | TicketNetwork id | url | notes |
 | --- | --- | --- | --- | --- | --- |
-| tm-harry-styles-2026-new-york-3b00643506ae83a2 | Harry Styles | unverify (applied) | 7695892 | https://www.ticketnetwork.com/en/p/7695892 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-harry-styles-2026-new-york-3b00643506bf83b6 | Harry Styles | none | 7695893 | https://www.ticketnetwork.com/en/p/7695893 | - |
 | tm-harry-styles-2026-new-york-3b00643506cf83cb | Harry Styles | none | 7695894 | https://www.ticketnetwork.com/en/p/7695894 | - |
 | tm-harry-styles-2026-new-york-3b00643506da83de | Harry Styles | none | 7695895 | https://www.ticketnetwork.com/en/p/7695895 | - |
@@ -97,7 +96,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-ed-sheeran-2026-hollywood-0d006331a7d91aff | Ed Sheeran | none | 7418599 | https://www.ticketnetwork.com/en/p/7418599 | - |
 | tm-ed-sheeran-2026-hollywood-0d006331f45e4089 | Ed Sheeran | none | 7418600 | https://www.ticketnetwork.com/en/p/7418600 | - |
 | tm-ed-sheeran-2026-tampa-0d006331d60a3a7a | Ed Sheeran | none | 7418601 | https://www.ticketnetwork.com/en/p/7418601 | - |
-| tm-jay-z-2026-inglewood-vvg1iz_gntjqqm | JAY-Z | unverify (applied) | 8164947 | https://www.ticketnetwork.com/en/p/8164947 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-gracie-abrams-2026-denver-g5vzz_55eui2w | Gracie Abrams | none | 8002235 | https://www.ticketnetwork.com/en/p/8002235 | - |
 | tm-gracie-abrams-2026-denver-g5vzz_5lhxedg | Gracie Abrams | none | 8002236 | https://www.ticketnetwork.com/en/p/8002236 | - |
 | tm-gracie-abrams-2026-oakland-g5vyz_1udxfhx | Gracie Abrams | none | 8002237 | https://www.ticketnetwork.com/en/p/8002237 | - |
@@ -151,7 +149,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-gracie-abrams-2027-berlin-z698xzc2z16vfef4pp | Gracie Abrams | none | 8018175 | https://www.ticketnetwork.com/en/p/8018175 | - |
 | tm-gracie-abrams-2027-barcelona-z698xz2qz16vav0xgz | Gracie Abrams | none | 8018168 | https://www.ticketnetwork.com/en/p/8018168 | - |
 | tm-gracie-abrams-2027-barcelona-z698xz2qz16vpsaikv | Gracie Abrams | none | 8018169 | https://www.ticketnetwork.com/en/p/8018169 | - |
-| tm-niall-horan-2026-barcelona-z698xz2qz16va-q_8k | Niall Horan | none | 7843958 | https://www.ticketnetwork.com/en/p/7843958 | - |
 | tm-niall-horan-2026-assago-zg9rmiynyzedfa | Niall Horan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-niall-horan-2026-casalecchio-di-reno-bologna-zg9rmiynyzedff | Niall Horan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-niall-horan-2026-munich-z698xzc2z1kaaofap | Niall Horan | none | 7831764 | https://www.ticketnetwork.com/en/p/7831764 | - |
@@ -173,7 +170,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-niall-horan-2027-atlanta-vvg1zz_1hoxudt | Niall Horan | none | 7954216 | https://www.ticketnetwork.com/en/p/7954216 | - |
 | tm-niall-horan-2027-new-orleans-g5viz_1xkcnon | Niall Horan | none | 7954217 | https://www.ticketnetwork.com/en/p/7954217 | - |
 | tm-niall-horan-2027-houston-z7r9jz1a709uy | Niall Horan | none | 7954218 | https://www.ticketnetwork.com/en/p/7954218 | - |
-| tm-niall-horan-2027-fort-worth-vvg1yz_1r1jeer | Niall Horan | none | 7954219 | https://www.ticketnetwork.com/en/p/7954219 | - |
+| tm-niall-horan-2027-fort-worth-vvg1yz_1r1jeer | Niall Horan | unverify (applied) | 7954219 | https://www.ticketnetwork.com/en/p/7954219 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-niall-horan-2027-austin-g5diz_1lpaglw | Niall Horan | none | 7954220 | https://www.ticketnetwork.com/en/p/7954220 | - |
 | tm-niall-horan-2027-denver-g5vzz_1lspoiu | Niall Horan | none | 7954221 | https://www.ticketnetwork.com/en/p/7954221 | - |
 | tm-niall-horan-2027-west-valley-city-g5vzz_1xafaiw | Niall Horan | none | - | - | no qualifying listing (complete catalog checked) |
@@ -182,7 +179,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-niall-horan-2027-san-francisco-g5vyz_195tivo | Niall Horan | none | 7954234 | https://www.ticketnetwork.com/en/p/7954234 | - |
 | tm-niall-horan-2027-seattle-vvg1hz_1hqc03- | Niall Horan | none | 7954237 | https://www.ticketnetwork.com/en/p/7954237 | - |
 | tm-niall-horan-2027-vancouver-1778v0g61qodyye | Niall Horan | none | 7954249 | https://www.ticketnetwork.com/en/p/7954249 | - |
-| tm-doja-cat-2026-san-francisco-g5vyzbs0ua9tw | Doja Cat | none | 7457622 | https://www.ticketnetwork.com/en/p/7457622 | - |
+| tm-doja-cat-2026-san-francisco-g5vyzbs0ua9tw | Doja Cat | unverify (applied) | 7457622 | https://www.ticketnetwork.com/en/p/7457622 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-doja-cat-2026-san-diego-vvg1izbsi8_kno | Doja Cat | none | 7457630 | https://www.ticketnetwork.com/en/p/7457630 | - |
 | tm-doja-cat-2026-phoenix-1av0zbsgknh-n_z | Doja Cat | none | 7457632 | https://www.ticketnetwork.com/en/p/7457632 | - |
 | tm-doja-cat-2026-austin-g5dizbsl2m6xd | Doja Cat | none | 7457635 | https://www.ticketnetwork.com/en/p/7457635 | - |
@@ -201,7 +198,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-doja-cat-2026-montreal-1aszkgygkemvjjt | Doja Cat | none | 7457664 | https://www.ticketnetwork.com/en/p/7457664 | - |
 | tm-doja-cat-2026-philadelphia-1adzzbsgkldzvua | Doja Cat | none | 7457657 | https://www.ticketnetwork.com/en/p/7457657 | - |
 | tm-doja-cat-2026-new-york-g5dizbsintkzt | Doja Cat | none | 7457486 | https://www.ticketnetwork.com/en/p/7457486 | - |
-| tm-sombr-2026-orlando-1aefz_fgkn1mew3 | Sombr | none | 7874868 | https://www.ticketnetwork.com/en/p/7874868 | - |
 | tm-sombr-2026-charlotte-g5evz_fneqevn | Sombr | none | 7874869 | https://www.ticketnetwork.com/en/p/7874869 | - |
 | tm-sombr-2026-nashville-g5viz_fja3nq8 | Sombr | none | 7874870 | https://www.ticketnetwork.com/en/p/7874870 | - |
 | tm-sombr-2026-saint-louis-vv1akzk3fgkey5tam | Sombr | none | - | - | no qualifying listing (complete catalog checked) |
@@ -222,14 +218,13 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-sombr-2026-newark-vv1aezk3fgkdhlmuf | Sombr | none | 7874886 | https://www.ticketnetwork.com/en/p/7874886 | - |
 | tm-sombr-2026-new-york-g5diz_flfogz- | Sombr | none | 7874887 | https://www.ticketnetwork.com/en/p/7874887 | - |
 | tm-sombr-2026-new-york-g5diz_flffpzi | Sombr | none | 7877722 | https://www.ticketnetwork.com/en/p/7877722 | - |
-| tm-john-summit-2026-toronto-177zv0g65ctmbsj | John Summit | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-john-summit-2026-boston-vvg17z_51ivlnd | John Summit | none | 7982946 | https://www.ticketnetwork.com/en/p/7982946 | - |
 | tm-john-summit-2026-university-park-vvg1fz_55aanmw | John Summit | none | 7982947 | https://www.ticketnetwork.com/en/p/7982947 | - |
 | tm-john-summit-2026-washington-1avfz_agklgjntv | John Summit | none | 7982948 | https://www.ticketnetwork.com/en/p/7982948 | - |
 | tm-john-summit-2026-houston-z7r9jz1a70t74 | John Summit | none | 7982952 | https://www.ticketnetwork.com/en/p/7982952 | - |
 | tm-john-summit-2026-austin-g5diz_52qgtuz | John Summit | none | 7982953 | https://www.ticketnetwork.com/en/p/7982953 | - |
-| tm-john-summit-2026-fort-worth-vvg1yz_522ahqk | John Summit | none | 7982955 | https://www.ticketnetwork.com/en/p/7982955 | - |
-| tm-john-summit-2026-fort-worth-vvg1yz_53r5bha | John Summit | none | 8005641 | https://www.ticketnetwork.com/en/p/8005641 | - |
+| tm-john-summit-2026-fort-worth-vvg1yz_522ahqk | John Summit | unverify (applied) | 7982955 | https://www.ticketnetwork.com/en/p/7982955 | no qualifying listing (the complete catalog no longer lists the stored link) |
+| tm-john-summit-2026-fort-worth-vvg1yz_53r5bha | John Summit | unverify (applied) | 8005641 | https://www.ticketnetwork.com/en/p/8005641 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-john-summit-2026-columbus-vvg1fz_52gqiba | John Summit | none | 7982957 | https://www.ticketnetwork.com/en/p/7982957 | - |
 | tm-john-summit-2026-charlotte-g5evz_52qpkue | John Summit | none | 7982959 | https://www.ticketnetwork.com/en/p/7982959 | - |
 | tm-john-summit-2026-atlanta-vvg1zz_527ymui | John Summit | none | 7982960 | https://www.ticketnetwork.com/en/p/7982960 | - |
@@ -263,14 +258,12 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-metallica-2027-las-vegas-1a9zko-gkepzr6g | Metallica | none | 7785089 | https://www.ticketnetwork.com/en/p/7785089 | - |
 | tm-metallica-2027-las-vegas-1a9zko-gke0buti | Metallica | none | 7785090 | https://www.ticketnetwork.com/en/p/7785090 | - |
 | tm-metallica-2027-las-vegas-1a9zko-gkepzxff | Metallica | none | 7785871 | https://www.ticketnetwork.com/en/p/7785871 | - |
-| tm-my-chemical-romance-2026-hollywood-vvg1izbs55znjb | My Chemical Romance | unverify (applied) | 7424942 | https://www.ticketnetwork.com/en/p/7424942 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-my-chemical-romance-2026-hollywood-vvg1izbs55ykjr | My Chemical Romance | none | 7570185 | https://www.ticketnetwork.com/en/p/7570185 | - |
 | tm-my-chemical-romance-2026-hollywood-vvg1izbs55bdjv | My Chemical Romance | none | 7570377 | https://www.ticketnetwork.com/en/p/7570377 | - |
 | tm-my-chemical-romance-2026-singapore-z7r9jz1a7oup6 | My Chemical Romance | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-teddy-swims-2026-tampa-vvg1vz_fdr-qk6 | Teddy Swims | none | 7883109 | https://www.ticketnetwork.com/en/p/7883109 | - |
 | tm-teddy-swims-2026-houston-z7r9jz1a7x4fs | Teddy Swims | none | 7892526 | https://www.ticketnetwork.com/en/p/7892526 | - |
 | tm-teddy-swims-2026-austin-g5diz_fxgrqaf | Teddy Swims | none | 7883110 | https://www.ticketnetwork.com/en/p/7883110 | - |
-| tm-teddy-swims-2026-fort-worth-vvg1yz_flxlbcf | Teddy Swims | none | 7883111 | https://www.ticketnetwork.com/en/p/7883111 | - |
+| tm-teddy-swims-2026-fort-worth-vvg1yz_flxlbcf | Teddy Swims | unverify (applied) | 7883111 | https://www.ticketnetwork.com/en/p/7883111 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-teddy-swims-2026-denver-g5vzz_fuokkc4 | Teddy Swims | none | 7883112 | https://www.ticketnetwork.com/en/p/7883112 | - |
 | tm-teddy-swims-2026-salt-lake-city-z7r9jz1a7x_ag | Teddy Swims | none | 7883114 | https://www.ticketnetwork.com/en/p/7883114 | - |
 | tm-teddy-swims-2026-seattle-vvg1hz_fujpiyp | Teddy Swims | none | 7883115 | https://www.ticketnetwork.com/en/p/7883115 | - |
@@ -327,7 +320,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-don-omar-2027-belmont-park-17gzv0g6u15uw7e | Don Omar | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-don-omar-2027-newark-vvg1fz_u5xkezy | Don Omar | none | 8071964 | https://www.ticketnetwork.com/en/p/8071964 | - |
 | tm-don-omar-2027-baltimore-17a8v0g6ukar9g1 | Don Omar | none | 8071965 | https://www.ticketnetwork.com/en/p/8071965 | - |
-| tm-don-omar-2027-fort-worth-vvg1yz_u1_ouro | Don Omar | none | 8071966 | https://www.ticketnetwork.com/en/p/8071966 | - |
+| tm-don-omar-2027-fort-worth-vvg1yz_u1_ouro | Don Omar | unverify (applied) | 8071966 | https://www.ticketnetwork.com/en/p/8071966 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-don-omar-2027-austin-g5diz_u3mkhzt | Don Omar | none | 8073019 | https://www.ticketnetwork.com/en/p/8073019 | - |
 | tm-don-omar-2027-tampa-vvg1vz_uc-buha | Don Omar | none | 8071967 | https://www.ticketnetwork.com/en/p/8071967 | - |
 | tm-don-omar-2027-miami-vvg1vz_uk8ovtf | Don Omar | none | 8071968 | https://www.ticketnetwork.com/en/p/8071968 | - |
@@ -343,7 +336,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-luke-combs-2027-boise-g5vzz_8lfjx4v | Luke Combs | none | 8203732 | https://www.ticketnetwork.com/en/p/8203732 | - |
 | tm-luke-combs-2027-denver-g5vzz_8l39sxz | Luke Combs | none | 8203733 | https://www.ticketnetwork.com/en/p/8203733 | - |
 | tm-luke-combs-2027-san-diego-vvg1iz_8l9y-6a | Luke Combs | none | 8203734 | https://www.ticketnetwork.com/en/p/8203734 | - |
-| tm-blue-october-2026-tulsa-z7r9jz1a7-v0_ | Blue October | unverify (applied) | 7828052 | https://www.ticketnetwork.com/en/p/7828052 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-blue-october-2026-wichita-z7r9jz1a7-v0p | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blue-october-2026-milwaukee-z7r9jz1a7-v04 | Blue October | none | 7828054 | https://www.ticketnetwork.com/en/p/7828054 | - |
 | tm-blue-october-2026-grand-rapids-vv1kezv0_8ga1aqp6 | Blue October | none | 7827963 | https://www.ticketnetwork.com/en/p/7827963 | - |
@@ -429,7 +421,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-pentatonix-2026-north-little-rock-g5viz_2r0054y | Pentatonix | none | 8184433 | https://www.ticketnetwork.com/en/p/8184433 | - |
 | tm-pentatonix-2026-bossier-city-g5viz_2gyyd_m | Pentatonix | none | 8184435 | https://www.ticketnetwork.com/en/p/8184435 | - |
 | tm-pentatonix-2026-austin-g5diz_8kmjslp | Pentatonix | none | 8184790 | https://www.ticketnetwork.com/en/p/8184790 | - |
-| tm-pentatonix-2026-fort-worth-vvg1yz_cn4la0m | Pentatonix | none | 8184443 | https://www.ticketnetwork.com/en/p/8184443 | - |
+| tm-pentatonix-2026-fort-worth-vvg1yz_cn4la0m | Pentatonix | unverify (applied) | 8184443 | https://www.ticketnetwork.com/en/p/8184443 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-pentatonix-2026-lubbock-z7r9jz1aaz-j6 | Pentatonix | none | 8193304 | https://www.ticketnetwork.com/en/p/8193304 | - |
 | tm-pentatonix-2026-glendale-16_zkfdauzauuafa | Pentatonix | none | 8184445 | https://www.ticketnetwork.com/en/p/8184445 | - |
 | tm-pentatonix-2026-san-diego-vvg1iz_2i-g3fb | Pentatonix | none | 8184448 | https://www.ticketnetwork.com/en/p/8184448 | - |
@@ -1060,7 +1052,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-hans-zimmer-2027-tampa-vvg1vz_3xhwnhj | Hans Zimmer | none | 8270987 | https://www.ticketnetwork.com/en/p/8270987 | - |
 | tm-hans-zimmer-2027-atlanta-vvg1zz_3ebknkc | Hans Zimmer | none | 8270989 | https://www.ticketnetwork.com/en/p/8270989 | - |
 | tm-hans-zimmer-2027-nashville-g5viz_3pzfvfc | Hans Zimmer | none | 8270990 | https://www.ticketnetwork.com/en/p/8270990 | - |
-| tm-hans-zimmer-2027-fort-worth-vvg1yz_8uydbmt | Hans Zimmer | none | 8270991 | https://www.ticketnetwork.com/en/p/8270991 | - |
+| tm-hans-zimmer-2027-fort-worth-vvg1yz_8uydbmt | Hans Zimmer | unverify (applied) | 8270991 | https://www.ticketnetwork.com/en/p/8270991 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-hans-zimmer-2027-denver-g5vzz_keile5w | Hans Zimmer | none | 8270993 | https://www.ticketnetwork.com/en/p/8270993 | - |
 | tm-hans-zimmer-2027-phoenix-1av0z_3gktywjdb | Hans Zimmer | none | 8270994 | https://www.ticketnetwork.com/en/p/8270994 | - |
 | tm-hans-zimmer-2027-anaheim-vv170z_3gkwtdbyn | Hans Zimmer | none | 8270996 | https://www.ticketnetwork.com/en/p/8270996 | - |
@@ -1142,7 +1134,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-hilary-duff-2027-columbus-vv1kv8vpu8ga1ilbe | Hilary Duff | none | 8284550 | https://www.ticketnetwork.com/en/p/8284550 | - |
 | tm-hilary-duff-2027-pittsburgh-1apzkfsgkdqpqgi | Hilary Duff | none | 8284583 | https://www.ticketnetwork.com/en/p/8284583 | - |
 | tm-hilary-duff-2027-san-antonio-g5diz_kh8lc6s | Hilary Duff | none | 8284551 | https://www.ticketnetwork.com/en/p/8284551 | - |
-| tm-hilary-duff-2027-fort-worth-vvg1yz_3lpl3yg | Hilary Duff | none | 8284554 | https://www.ticketnetwork.com/en/p/8284554 | - |
+| tm-hilary-duff-2027-fort-worth-vvg1yz_3lpl3yg | Hilary Duff | unverify (applied) | 8284554 | https://www.ticketnetwork.com/en/p/8284554 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-hilary-duff-2027-tulsa-1aozkfggkd6ydle | Hilary Duff | none | 8284555 | https://www.ticketnetwork.com/en/p/8284555 | - |
 | tm-hilary-duff-2027-omaha-vv1akzkfggkdletyo | Hilary Duff | none | 8284567 | https://www.ticketnetwork.com/en/p/8284567 | - |
 | tm-hilary-duff-2027-milwaukee-vv1a6zkfggkdrdjze | Hilary Duff | none | 8284568 | https://www.ticketnetwork.com/en/p/8284568 | - |
@@ -1162,9 +1154,9 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-josiah-queen-2027-anaheim-vv16azkf00fza5k85a | Josiah Queen | none | 8255323 | https://www.ticketnetwork.com/en/p/8255323 | - |
 | tm-josiah-queen-2027-san-diego-vvg1iz_33lzbne | Josiah Queen | none | 8255324 | https://www.ticketnetwork.com/en/p/8255324 | - |
 | tm-josiah-queen-2027-glendale-1fk8vpavkaz7g1ee | Josiah Queen | none | 8255325 | https://www.ticketnetwork.com/en/p/8255325 | - |
-| tm-josiah-queen-2027-fort-worth-vvg1yz_kebfbqm | Josiah Queen | none | 8272507 | https://www.ticketnetwork.com/en/p/8272507 | - |
+| tm-josiah-queen-2027-fort-worth-vvg1yz_kebfbqm | Josiah Queen | unverify (applied) | 8272507 | https://www.ticketnetwork.com/en/p/8272507 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-josiah-queen-2027-cedar-park-g5diz_32hchtd | Josiah Queen | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-josiah-queen-2027-fort-worth-vvg1yz_35oahaq | Josiah Queen | none | 8255327 | https://www.ticketnetwork.com/en/p/8255327 | - |
+| tm-josiah-queen-2027-fort-worth-vvg1yz_35oahaq | Josiah Queen | unverify (applied) | 8255327 | https://www.ticketnetwork.com/en/p/8255327 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-ha-ash-2027-toronto-1a8zkfwgkedyh_t | Ha*Ash | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-ha-ash-2027-indianapolis-vv1kv8vpg3ga1gw8k | Ha*Ash | none | 8277079 | https://www.ticketnetwork.com/en/p/8277079 | - |
 | tm-ha-ash-2027-rosemont-vv1fvzvpg_o4z7ueuv | Ha*Ash | none | 8278251 | https://www.ticketnetwork.com/en/p/8278251 | - |
@@ -1239,7 +1231,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-oasis-2027-barcelona-z698xz2qz1kvz7a4m | Oasis | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-oasis-2027-amsterdam-z698xzbpz16vrdz-8b | Oasis | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-oasis-2027-amsterdam-z698xzbpz1kodp337 | Oasis | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-sienna-spiro-2026-toronto-177zv0g6g9hzrkw | Sienna Spiro | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sienna-spiro-2026-chicago-z7r9jz1a7pxq8 | Sienna Spiro | none | 8038348 | https://www.ticketnetwork.com/en/p/8038348 | - |
 | tm-sienna-spiro-2026-minneapolis-z7r9jz1a7pko4 | Sienna Spiro | none | 8038349 | https://www.ticketnetwork.com/en/p/8038349 | - |
 | tm-sienna-spiro-2026-englewood-z7r9jz1a7p-ji | Sienna Spiro | none | 8038350 | https://www.ticketnetwork.com/en/p/8038350 | - |
@@ -1263,8 +1254,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-sienna-spiro-2027-barcelona-z698xz2qz16evg76uk | Sienna Spiro | none | 8058056 | https://www.ticketnetwork.com/en/p/8058056 | - |
 | tm-sienna-spiro-2027-madrid-z698xz2qz16v4sjdu3 | Sienna Spiro | none | 8058057 | https://www.ticketnetwork.com/en/p/8058057 | - |
 | tm-sienna-spiro-2027-dublin-17kzv0g6gpq41un | Sienna Spiro | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-malcolm-todd-2026-san-diego-vvg1iz_gcici-d | Malcolm Todd | unverify (applied) | 8034309 | https://www.ticketnetwork.com/en/p/8034309 | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-malcolm-todd-2026-phoenix-17k8v0g6g538qi9 | Malcolm Todd | none | 8035370 | https://www.ticketnetwork.com/en/p/8035370 | - |
+| tm-malcolm-todd-2026-phoenix-17k8v0g6g538qi9 | Malcolm Todd | unverify (applied) | 8035370 | https://www.ticketnetwork.com/en/p/8035370 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-malcolm-todd-2026-los-angeles-vvg10z_gcgtrwf | Malcolm Todd | none | 8034349 | https://www.ticketnetwork.com/en/p/8034349 | - |
 | tm-malcolm-todd-2026-los-angeles-vvg10z_gpovtcx | Malcolm Todd | none | 8038273 | https://www.ticketnetwork.com/en/p/8038273 | - |
 | tm-malcolm-todd-2026-los-angeles-vvg10z_gpomy2y | Malcolm Todd | none | 8038476 | https://www.ticketnetwork.com/en/p/8038476 | - |
@@ -1328,7 +1318,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-the-interrupters-2027-salt-lake-city-g5vzz_3nsybuv | The Interrupters | none | 8284381 | https://www.ticketnetwork.com/en/p/8284381 | - |
 | tm-the-interrupters-2027-los-angeles-vv1ke8vpgbgautgrg | The Interrupters | none | 8284386 | https://www.ticketnetwork.com/en/p/8284386 | - |
 | tm-the-interrupters-2027-anaheim-vv1fe8vpg33pz72fk7 | The Interrupters | none | 8284387 | https://www.ticketnetwork.com/en/p/8284387 | - |
-| tm-dinosaur-jr-2026-seattle-vvg1hz_ul9nqcx | Dinosaur Jr. | unverify (applied) | 8103953 | https://www.ticketnetwork.com/en/p/8103953 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-dinosaur-jr-2026-salt-lake-city-z7r9jz1a7pmzv | Dinosaur Jr. | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dinosaur-jr-2026-denver-z7r9jz1a7pu0p | Dinosaur Jr. | none | 8099079 | https://www.ticketnetwork.com/en/p/8099079 | - |
 | tm-dinosaur-jr-2026-houston-g5diz_uj-6tws | Dinosaur Jr. | none | 8099101 | https://www.ticketnetwork.com/en/p/8099101 | - |
@@ -1360,7 +1349,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-niall-horan-2026-belfast-1adoz_6gkmwqvwh | Niall Horan | none | 7846501 | https://www.ticketnetwork.com/en/p/7846501 | - |
 | tm-niall-horan-2027-hartford-z7r9jz1a709uz | Niall Horan | none | 7954214 | https://www.ticketnetwork.com/en/p/7954214 | - |
 | tm-doja-cat-2026-las-vegas-z7r9jz1a7js4u | Doja Cat | none | 7457634 | https://www.ticketnetwork.com/en/p/7457634 | - |
-| tm-metallica-2026-las-vegas-1a9zko4gkdtfc4g | Metallica | unverify (applied) | 7758712 | https://www.ticketnetwork.com/en/p/7758712 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-metallica-2026-las-vegas-1fayv048rvz72a6e | Metallica | none | 7759026 | https://www.ticketnetwork.com/en/p/7759026 | - |
 | tm-metallica-2026-las-vegas-1fayv048rvz72a6k | Metallica | none | 7759027 | https://www.ticketnetwork.com/en/p/7759027 | - |
 | tm-metallica-2026-las-vegas-1fayv048rez72a62 | Metallica | none | 7775510 | https://www.ticketnetwork.com/en/p/7775510 | - |
@@ -1429,7 +1417,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-needtobreathe-2027-memphis-g5viz_k1tpwrf | NEEDTOBREATHE | none | 8290986 | https://www.ticketnetwork.com/en/p/8290986 | - |
 | tm-needtobreathe-2027-new-orleans-g5viz_ocxa2ai | NEEDTOBREATHE | none | 8290987 | https://www.ticketnetwork.com/en/p/8290987 | - |
 | tm-needtobreathe-2027-houston-g5diz_kkbawh- | NEEDTOBREATHE | none | 8290988 | https://www.ticketnetwork.com/en/p/8290988 | - |
-| tm-foy-vance-2026-manchester-g5vhz_3kr3ers | Foy Vance | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-foy-vance-2026-wexford-1avoz_7gksprdxw | Foy Vance | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-foy-vance-2026-dublin-1abzko8gkdu8sqd | Foy Vance | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-foy-vance-2026-los-angeles-z7r9jz1a7-9fp | Foy Vance | none | 7748033 | https://www.ticketnetwork.com/en/p/7748033 | - |
@@ -1498,7 +1485,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-haiden-henderson-2027-boston-vv1avzkfygkegtmcp | Haiden Henderson | none | 8284328 | https://www.ticketnetwork.com/en/p/8284328 | - |
 | tm-haiden-henderson-2027-toronto-1a8zkfggkd2jp9d | Haiden Henderson | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-haiden-henderson-2027-milwaukee-z7r9jz1aaeea6 | Haiden Henderson | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-dylan-scott-2026-milwaukee-z7r9jz1aavse9 | Dylan Scott | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dylan-scott-2026-westbury-k7vgf_oh3fr0h | Dylan Scott | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dylan-scott-2027-detroit-vv1afzkfigkddz4or | Dylan Scott | none | 8268802 | https://www.ticketnetwork.com/en/p/8268802 | - |
 | tm-dylan-scott-2027-grand-rapids-vv1afzkfigker90br | Dylan Scott | none | 8268806 | https://www.ticketnetwork.com/en/p/8268806 | - |
@@ -1574,7 +1560,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-too-many-zooz-2027-houston-g5diz_kf4niru | Too Many Zooz | none | 8284721 | https://www.ticketnetwork.com/en/p/8284721 | - |
 | tm-too-many-zooz-2027-tucson-z7r9jz1aavmvf | Too Many Zooz | none | 8284723 | https://www.ticketnetwork.com/en/p/8284723 | - |
 | tm-too-many-zooz-2027-seattle-vvg1hz_3tamn7s | Too Many Zooz | none | 8284730 | https://www.ticketnetwork.com/en/p/8284730 | - |
-| tm-amble-2026-san-francisco-g5vyz_gntwbu0 | Amble | unverify (applied) | 8056125 | https://www.ticketnetwork.com/en/p/8056125 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-amble-2026-seattle-z7r9jz1a70p_0 | Amble | none | 7930662 | https://www.ticketnetwork.com/en/p/7930662 | - |
 | tm-amble-2026-vancouver-1av7z_agkmsrf76 | Amble | none | 7936748 | https://www.ticketnetwork.com/en/p/7936748 | - |
 | tm-amble-2026-detroit-vv1afzk39gkeeybaa | Amble | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1613,7 +1598,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-fantasia-2027-biloxi-g5viz_kxokyjj | Fantasia | none | 8293969 | https://www.ticketnetwork.com/en/p/8293969 | - |
 | tm-fantasia-2027-ontario-vv1aazkfzgketkqbz | Fantasia | none | 8294732 | https://www.ticketnetwork.com/en/p/8294732 | - |
 | tm-fantasia-2027-oakland-g5vyz_krz5jaf | Fantasia | none | 8294733 | https://www.ticketnetwork.com/en/p/8294733 | - |
-| tm-fantasia-2027-fort-worth-vvg1yz_kbtlwh3 | Fantasia | none | 8293970 | https://www.ticketnetwork.com/en/p/8293970 | - |
+| tm-fantasia-2027-fort-worth-vvg1yz_kbtlwh3 | Fantasia | unverify (applied) | 8293970 | https://www.ticketnetwork.com/en/p/8293970 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-fantasia-2027-atlanta-vvg1zz_kqs5ty6 | Fantasia | none | 8293971 | https://www.ticketnetwork.com/en/p/8293971 | - |
 | tm-fantasia-2027-orlando-1aefz_3gkx--7oo | Fantasia | none | 8293972 | https://www.ticketnetwork.com/en/p/8293972 | - |
 | tm-fantasia-2027-saint-louis-vv17bz_3gktv8xq0 | Fantasia | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1707,7 +1692,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-the-red-clay-strays-2027-rogers-g5viz_kuooawu | The Red Clay Strays | none | 8300910 | https://www.ticketnetwork.com/en/p/8300910 | - |
 | tm-the-red-clay-strays-2027-corpus-christi-g5diz_ksvr9iw | The Red Clay Strays | none | 8300911 | https://www.ticketnetwork.com/en/p/8300911 | - |
 | tm-the-red-clay-strays-2027-austin-g5diz_kmbauv1 | The Red Clay Strays | none | 8300912 | https://www.ticketnetwork.com/en/p/8300912 | - |
-| tm-daughtry-2026-florence-17aov0g6gj3vrxt | Daughtry | unverify (applied) | 8044153 | https://www.ticketnetwork.com/en/p/8044153 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-daughtry-2026-greensburg-z7r9jz1aazman | Daughtry | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-daughtry-2026-wheeling-z7r9jz1aav9u8 | Daughtry | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-daughtry-2026-nashville-vvg1fz_gmyo5fy | Daughtry | none | 8056802 | https://www.ticketnetwork.com/en/p/8056802 | - |
@@ -1809,7 +1793,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-greta-van-fleet-2027-philadelphia-1adzz_kgkv_zy6y | Greta Van Fleet | none | 8303360 | https://www.ticketnetwork.com/en/p/8303360 | - |
 | tm-greta-van-fleet-2027-charlotte-g5evz_kd5pkxs | Greta Van Fleet | none | 8303361 | https://www.ticketnetwork.com/en/p/8303361 | - |
 | tm-greta-van-fleet-2027-knoxville-g5viz_fat50pa | Greta Van Fleet | none | 8303362 | https://www.ticketnetwork.com/en/p/8303362 | - |
-| tm-greta-van-fleet-2027-fort-worth-vvg1yz_f6vci7r | Greta Van Fleet | none | 8303363 | https://www.ticketnetwork.com/en/p/8303363 | - |
+| tm-greta-van-fleet-2027-fort-worth-vvg1yz_f6vci7r | Greta Van Fleet | unverify (applied) | 8303363 | https://www.ticketnetwork.com/en/p/8303363 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-greta-van-fleet-2027-tulsa-1aezz_kgkdnv4sg | Greta Van Fleet | none | 8303364 | https://www.ticketnetwork.com/en/p/8303364 | - |
 | tm-greta-van-fleet-2027-anaheim-vv170z_kgkm7preh | Greta Van Fleet | none | 8303365 | https://www.ticketnetwork.com/en/p/8303365 | - |
 | tm-greta-van-fleet-2027-phoenix-1av0z_kgkbck9ok | Greta Van Fleet | none | 8303366 | https://www.ticketnetwork.com/en/p/8303366 | - |
@@ -1827,7 +1811,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-greta-van-fleet-2027-london-1adfz_kgkmuet5g | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-greta-van-fleet-2027-birmingham-1aegz_kgkmz0sov | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-greta-van-fleet-2027-manchester-1adjz_kgkbyud70 | Greta Van Fleet | none | 8303348 | https://www.ticketnetwork.com/en/p/8303348 | - |
-| tm-greta-van-fleet-2027-dublin-1abzkfmgkes3wyd | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-greta-van-fleet-2027-dublin-1abzkfmgkes3wyd | Greta Van Fleet | add (applied) | 8341562 | https://www.ticketnetwork.com/en/p/8341562 | - |
 | tm-greta-van-fleet-2027-vancouver-1av7z_kgkw_ogty | Greta Van Fleet | none | 8303387 | https://www.ticketnetwork.com/en/p/8303387 | - |
 | tm-greta-van-fleet-2027-edmonton-1av7z_kgkmfujae | Greta Van Fleet | none | 8303388 | https://www.ticketnetwork.com/en/p/8303388 | - |
 | tm-greta-van-fleet-2027-calgary-1av7z_kgkum7iwv | Greta Van Fleet | none | 8303389 | https://www.ticketnetwork.com/en/p/8303389 | - |
@@ -1885,7 +1869,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-riley-green-2027-raleigh-g5evz_ke-2cfw | Riley Green | none | 8293125 | https://www.ticketnetwork.com/en/p/8293125 | - |
 | tm-riley-green-2027-knoxville-g5viz_3wie3-p | Riley Green | none | 8293127 | https://www.ticketnetwork.com/en/p/8293127 | - |
 | tm-riley-green-2027-greenville-g5evz_k14klik | Riley Green | none | 8293128 | https://www.ticketnetwork.com/en/p/8293128 | - |
-| tm-riley-green-2027-fort-worth-vvg1yz_kepbp4s | Riley Green | none | 8293130 | https://www.ticketnetwork.com/en/p/8293130 | - |
+| tm-riley-green-2027-fort-worth-vvg1yz_kepbp4s | Riley Green | unverify (applied) | 8293130 | https://www.ticketnetwork.com/en/p/8293130 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-riley-green-2027-wichita-vv1akzkfwgkdilqfv | Riley Green | none | 8293131 | https://www.ticketnetwork.com/en/p/8293131 | - |
 | tm-riley-green-2027-rogers-g5viz_k5ft6hv | Riley Green | none | 8293132 | https://www.ticketnetwork.com/en/p/8293132 | - |
 | tm-riley-green-2027-tulsa-1aozkfsgkexhv7n | Riley Green | none | 8293133 | https://www.ticketnetwork.com/en/p/8293133 | - |
@@ -1978,7 +1962,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-staind-2027-moline-vv1fbz_fkec7zdga1 | Staind | none | 8308789 | https://www.ticketnetwork.com/en/p/8308789 | - |
 | tm-staind-2027-grand-rapids-vv17oz_kgkmqeain | Staind | none | 8308790 | https://www.ticketnetwork.com/en/p/8308790 | - |
 | tm-staind-2027-evansville-vv17fz_kgkd3hr7l | Staind | none | 8308791 | https://www.ticketnetwork.com/en/p/8308791 | - |
-| tm-dylan-gossett-2026-waco-z7r9jz1a7jdak | Dylan Gossett | unverify (applied) | 8111328 | https://www.ticketnetwork.com/en/p/8111328 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-dylan-gossett-2026-chicago-vvg18z_u5xbtr6 | Dylan Gossett | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dylan-gossett-2026-pittsburgh-17aov0g6u5ijrxe | Dylan Gossett | none | 8073983 | https://www.ticketnetwork.com/en/p/8073983 | - |
 | tm-dylan-gossett-2026-apopka-z7r9jz1a7ps7y | Dylan Gossett | none | 8073985 | https://www.ticketnetwork.com/en/p/8073985 | - |
@@ -2122,7 +2105,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-def-leppard-2027-denver-g5vzz_frfov07 | Def Leppard | none | 8312069 | https://www.ticketnetwork.com/en/p/8312069 | - |
 | tm-def-leppard-2027-austin-g5diz_f1_s12h | Def Leppard | none | 8312071 | https://www.ticketnetwork.com/en/p/8312071 | - |
 | tm-def-leppard-2027-north-little-rock-g5viz_f5gacpb | Def Leppard | none | 8312072 | https://www.ticketnetwork.com/en/p/8312072 | - |
-| tm-def-leppard-2027-fort-worth-vvg1yz_fhfmaat | Def Leppard | none | 8312073 | https://www.ticketnetwork.com/en/p/8312073 | - |
+| tm-def-leppard-2027-fort-worth-vvg1yz_fhfmaat | Def Leppard | unverify (applied) | 8312073 | https://www.ticketnetwork.com/en/p/8312073 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-def-leppard-2027-mobile-g5viz_fptcweu | Def Leppard | none | 8312074 | https://www.ticketnetwork.com/en/p/8312074 | - |
 | tm-def-leppard-2027-wichita-vv1akzk4kgkexoysl | Def Leppard | none | 8312075 | https://www.ticketnetwork.com/en/p/8312075 | - |
 | tm-def-leppard-2027-lincoln-vv1akzk4vgkel3utc | Def Leppard | none | 8312076 | https://www.ticketnetwork.com/en/p/8312076 | - |
@@ -2212,7 +2195,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-jay-wheeler-2027-houston-g5diz_f62ij1f | Jay Wheeler | none | 8307367 | https://www.ticketnetwork.com/en/p/8307367 | - |
 | tm-jay-wheeler-2027-inglewood-vvg1iz_f8af9cn | Jay Wheeler | none | 8307369 | https://www.ticketnetwork.com/en/p/8307369 | - |
 | tm-jay-wheeler-2027-orlando-1axzk4vgkd6tfj5 | Jay Wheeler | none | 8307371 | https://www.ticketnetwork.com/en/p/8307371 | - |
-| tm-mico-2026-houston-g5diz_1ucylhw | Mico | unverify (applied) | 7977767 | https://www.ticketnetwork.com/en/p/7977767 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-mico-2026-nashville-g5viz_1mfi-bc | Mico | none | 7977769 | https://www.ticketnetwork.com/en/p/7977769 | - |
 | tm-mico-2026-atlanta-vvg1zz_1d2p0tb | Mico | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mico-2026-washington-17a8v0g61sa7y8c | Mico | none | 7977761 | https://www.ticketnetwork.com/en/p/7977761 | - |
@@ -2458,7 +2440,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-hilary-duff-2027-ciudad-de-mexico-1afzko6gkdoa5fw | Hilary Duff | none | 7744482 | https://www.ticketnetwork.com/en/p/7744482 | - |
 | tm-hilary-duff-2027-ciudad-de-mexico-1afzko6gkdomhcz | Hilary Duff | none | 8174253 | https://www.ticketnetwork.com/en/p/8174253 | - |
 | tm-hilary-duff-2027-zapopan-1av8z_fgknzgqjq | Hilary Duff | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-josiah-queen-2026-westlake-village-rz7hnez1afuekf | Josiah Queen | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-josiah-queen-2026-trinity-rz7hnez1afuea0 | Josiah Queen | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-passenger-2027-zurich-z698xzu3z1kg0bbov | Passenger | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-passenger-2027-praha-1-z698xzu0z16v4-_k4a | Passenger | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2526,7 +2507,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-mico-2027-praha-1-z698xzu0z16vxkonfi | Mico | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mico-2027-k-benhavn-v-z698xzc4z16vj9j7ev | Mico | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mico-2027-cleveland-rz7hnez1afut40 | Mico | none | 8315361 | https://www.ticketnetwork.com/en/p/8315361 | - |
-| tm-rod-wave-2026-boston-vvg17z_uerk22e | Rod Wave | none | 8063452 | https://www.ticketnetwork.com/en/p/8063452 | - |
 | tm-rod-wave-2026-brooklyn-17gzv0g6uz2i9rf | Rod Wave | none | 8063453 | https://www.ticketnetwork.com/en/p/8063453 | - |
 | tm-rod-wave-2026-brooklyn-17gzv0g6uhl8aq4 | Rod Wave | none | 8173375 | https://www.ticketnetwork.com/en/p/8173375 | - |
 | tm-rod-wave-2026-chicago-vvg18z_udha5ep | Rod Wave | none | 8063454 | https://www.ticketnetwork.com/en/p/8063454 | - |
@@ -2556,7 +2536,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-steve-lacy-2026-san-francisco-g5vyz_8bk7kme | Steve Lacy | none | 8286236 | https://www.ticketnetwork.com/en/p/8286236 | - |
 | tm-steve-lacy-2026-seattle-vvg1hz_8pk8e2l | Steve Lacy | none | 8199813 | https://www.ticketnetwork.com/en/p/8199813 | - |
 | tm-steve-lacy-2026-vancouver-1aozkf7gkepzmxx | Steve Lacy | none | 8199816 | https://www.ticketnetwork.com/en/p/8199816 | - |
-| tm-the-smashing-pumpkins-2026-oklahoma-city-vvg1yz_1hjjehy | The Smashing Pumpkins | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-smashing-pumpkins-2026-austin-g5diz_1txjp-0 | The Smashing Pumpkins | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-smashing-pumpkins-2026-denver-g5vzz_1xqviwv | The Smashing Pumpkins | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-smashing-pumpkins-2026-salt-lake-city-z7r9jz1a70x_g | The Smashing Pumpkins | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2568,8 +2547,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-the-smashing-pumpkins-2026-san-jose-g5vyz_1dhcziz | The Smashing Pumpkins | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-smashing-pumpkins-2026-phoenix-17k8v0g61xa1k9d | The Smashing Pumpkins | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-smashing-pumpkins-2026-inglewood-vvg10z_1t5e4o_ | The Smashing Pumpkins | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fuerza-regida-2026-bakersfield-z7r9jz1aazpuu | Fuerza Regida | unverify (applied) | 8194524 | https://www.ticketnetwork.com/en/p/8194524 | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-fuerza-regida-2026-bakersfield-z7r9jz1aavaxk | Fuerza Regida | none | 8237408 | https://www.ticketnetwork.com/en/p/8237408 | - |
+| tm-fuerza-regida-2026-bakersfield-z7r9jz1aavaxk | Fuerza Regida | unverify (applied) | 8237408 | https://www.ticketnetwork.com/en/p/8237408 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-fuerza-regida-2026-fresno-g5vyz_89-ysvr | Fuerza Regida | none | 8247043 | https://www.ticketnetwork.com/en/p/8247043 | - |
 | tm-fuerza-regida-2026-fresno-g5vyz_8kys-gg | Fuerza Regida | none | 8194525 | https://www.ticketnetwork.com/en/p/8194525 | - |
 | tm-fuerza-regida-2026-west-valley-city-g5vzz_8qlaba8 | Fuerza Regida | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2648,8 +2626,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-eagles-2027-las-vegas-1a9zk3dgkdpxtsj | Eagles | none | 8180170 | https://www.ticketnetwork.com/en/p/8180170 | - |
 | tm-eagles-2027-las-vegas-1a9zk3dgkdpxtsi | Eagles | none | 8180171 | https://www.ticketnetwork.com/en/p/8180171 | - |
 | tm-eagles-2027-las-vegas-1a9zk3dgkdpt2sm | Eagles | none | 8180172 | https://www.ticketnetwork.com/en/p/8180172 | - |
-| tm-journey-2026-baltimore-17a8v0g61kp2ris | Journey | unverify (applied) | 7956775 | https://www.ticketnetwork.com/en/p/7956775 | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-journey-2026-newark-vvg1fz_197dnkr | Journey | none | 7956776 | https://www.ticketnetwork.com/en/p/7956776 | - |
 | tm-journey-2026-philadelphia-17gzv0g61p0-ppk | Journey | none | 7956777 | https://www.ticketnetwork.com/en/p/7956777 | - |
 | tm-journey-2026-providence-vvg17z_1fuwpyc | Journey | none | 7956778 | https://www.ticketnetwork.com/en/p/7956778 | - |
 | tm-journey-2026-detroit-vvg1oz_13slngw | Journey | none | 7956779 | https://www.ticketnetwork.com/en/p/7956779 | - |
@@ -2736,7 +2712,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-leon-bridges-2027-south-yarra-1avgz_3gkmvg9lb | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-leon-bridges-2027-south-yarra-1avgz_3gkrjiqf8 | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-leon-bridges-2027-las-vegas-1a9zkfsgkex2qfe | Leon Bridges | none | 8313659 | https://www.ticketnetwork.com/en/p/8313659 | - |
-| tm-leon-bridges-2027-fort-worth-vvg1yz_f9mdndc | Leon Bridges | none | 8313660 | https://www.ticketnetwork.com/en/p/8313660 | - |
+| tm-leon-bridges-2027-fort-worth-vvg1yz_f9mdndc | Leon Bridges | unverify (applied) | 8313660 | https://www.ticketnetwork.com/en/p/8313660 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-leon-bridges-2027-toronto-1a8zk46gkesn6zx | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-leon-bridges-2027-new-york-g5diz_fqi50fg | Leon Bridges | none | 8313661 | https://www.ticketnetwork.com/en/p/8313661 | - |
 | tm-leon-bridges-2027-charlotte-g5evz_ks2c2jb | Leon Bridges | none | 8313662 | https://www.ticketnetwork.com/en/p/8313662 | - |
@@ -2765,7 +2741,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-lionel-richie-2027-las-vegas-17ayv0g62k5uqjk | Lionel Richie | none | 8165325 | https://www.ticketnetwork.com/en/p/8165325 | - |
 | tm-lionel-richie-2027-las-vegas-17ayv0g62k5muj2 | Lionel Richie | none | 8165326 | https://www.ticketnetwork.com/en/p/8165326 | - |
 | tm-lionel-richie-2027-thackerville-z7r9jz1aav_-z | Lionel Richie | none | 8237289 | https://www.ticketnetwork.com/en/p/8237289 | - |
-| tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdlge4b | Earth, Wind & Fire | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdlu34n | Earth, Wind & Fire | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdlc34z | Earth, Wind & Fire | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdl23po | Earth, Wind & Fire | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2823,7 +2798,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-simple-minds-2027-leeds-g5vhz_31k8si9 | Simple Minds | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-simple-minds-2027-newcastle-upon-tyne-g5vhz_31k4viz | Simple Minds | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-simple-minds-2027-glasgow-1auzkfxgkd0xdr8 | Simple Minds | none | 8272591 | https://www.ticketnetwork.com/en/p/8272591 | - |
-| tm-simple-minds-2027-dublin-1kkzvpk_ga2vkuc | Simple Minds | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-simple-minds-2027-dublin-1kkzvpk_ga2vkuc | Simple Minds | add (applied) | 8341561 | https://www.ticketnetwork.com/en/p/8341561 | - |
 | tm-thirty-seconds-to-mars-2027-madrid-z698xz2qz1kvp4xag | Thirty Seconds to Mars | none | 7877280 | https://www.ticketnetwork.com/en/p/7877280 | - |
 | tm-thirty-seconds-to-mars-2027-valencia-z698xz2qz16vuf8kq4 | Thirty Seconds to Mars | none | 7877281 | https://www.ticketnetwork.com/en/p/7877281 | - |
 | tm-thirty-seconds-to-mars-2027-assago-zg9rmiynyzeadk | Thirty Seconds to Mars | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2844,13 +2819,11 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-hayley-williams-2027-cardiff-1adbz_ogkwuumuk | Hayley Williams | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blink-182-2027-milano-zg9rmiynyzefk6 | blink-182 | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-janet-jackson-2026-sunrise-z7r9jz1aazz43 | Janet Jackson | none | 8225038 | https://www.ticketnetwork.com/en/p/8225038 | - |
-| tm-gorillaz-2026-inglewood-vv170z_agkmi0jmt | Gorillaz | unverify (applied) | 7774762 | https://www.ticketnetwork.com/en/p/7774762 | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-gorillaz-2026-san-diego-vvg1iz_ai_rrcv | Gorillaz | none | 7774764 | https://www.ticketnetwork.com/en/p/7774764 | - |
+| tm-gorillaz-2026-san-diego-vvg1iz_ai_rrcv | Gorillaz | unverify (applied) | 7774764 | https://www.ticketnetwork.com/en/p/7774764 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-gorillaz-2026-oakland-g5vyz_allhhol | Gorillaz | none | 7774765 | https://www.ticketnetwork.com/en/p/7774765 | - |
 | tm-gorillaz-2026-portland-vvg1hz_anwqdfp | Gorillaz | none | 7774766 | https://www.ticketnetwork.com/en/p/7774766 | - |
 | tm-gorillaz-2026-seattle-vvg1hz_aeloqv3 | Gorillaz | none | 7774767 | https://www.ticketnetwork.com/en/p/7774767 | - |
 | tm-gorillaz-2026-zapopan-g5dvz_8mtgfu6 | Gorillaz | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-weezer-2026-los-angeles-g5eyz_ku9s8xi | Weezer | unverify (applied) | 7833742 | https://www.ticketnetwork.com/en/p/7833742 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-weezer-2027-dublin-17kzv0g62rlynaf | Weezer | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-weezer-2027-newcastle-upon-tyne-g5vhz_8kkspwo | Weezer | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-weezer-2027-manchester-1amzkf7gkderotz | Weezer | none | 8182169 | https://www.ticketnetwork.com/en/p/8182169 | - |
@@ -2872,8 +2845,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-mana-2026-austin-g5dizbmoaqckm | MANA | none | 7594543 | https://www.ticketnetwork.com/en/p/7594543 | - |
 | tm-mana-2026-ciudad-de-mexico-17azv0g6glh8hre | MANA | none | 8178327 | https://www.ticketnetwork.com/en/p/8178327 | - |
 | tm-mana-2026-ciudad-de-mexico-17azv0g6gcz4ax4 | MANA | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-jonas-brothers-2026-toronto-1avzz_ogkui9hto | Jonas Brothers | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-jonas-brothers-2026-detroit-vv17oz_8gksd_91x | Jonas Brothers | none | 8214348 | https://www.ticketnetwork.com/en/p/8214348 | - |
 | tm-jonas-brothers-2026-pittsburgh-1avbz_8gky0yxyy | Jonas Brothers | none | 8214349 | https://www.ticketnetwork.com/en/p/8214349 | - |
 | tm-jonas-brothers-2026-milwaukee-vv17jz_8gkmhf3ll | Jonas Brothers | none | 8214350 | https://www.ticketnetwork.com/en/p/8214350 | - |
 | tm-jonas-brothers-2026-saint-paul-z7r9jz1aazwba | Jonas Brothers | none | 8214351 | https://www.ticketnetwork.com/en/p/8214351 | - |
@@ -2920,7 +2891,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-zach-bryan-2027-edmonton-1av7z_fgkw2fvlh | Zach Bryan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-zach-bryan-2027-boise-g5vzz_fsbnh4h | Zach Bryan | none | 8322376 | https://www.ticketnetwork.com/en/p/8322376 | - |
 | tm-five-finger-death-punch-2027-helsinki-z698xz8kz16evk7gay | Five Finger Death Punch | none | 8090422 | https://www.ticketnetwork.com/en/p/8090422 | - |
-| tm-morat-2026-sevilla-z698xz2qz16vb7goa0 | Morat | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-morat-2026-madrid-z698xz2qz1kv97no3 | Morat | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-morat-2026-madrid-z698xz2qz16vao-oox | Morat | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-morat-2026-madrid-z698xz2qz16v0v0ypz | Morat | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2934,7 +2904,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-the-lemonheads-2027-portland-z7r9jz1aavv7i | The Lemonheads | none | 8266225 | https://www.ticketnetwork.com/en/p/8266225 | - |
 | tm-haiden-henderson-2027-portland-z7r9jz1aaeekk | Haiden Henderson | none | 8284338 | https://www.ticketnetwork.com/en/p/8284338 | - |
 | tm-fantasia-2027-houston-z7r9jz1aa74o6 | Fantasia | none | 8297853 | https://www.ticketnetwork.com/en/p/8297853 | - |
-| tm-greta-van-fleet-2027-glasgow-1auzkfugkd_hipm | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-greta-van-fleet-2027-glasgow-1auzkfugkd_hipm | Greta Van Fleet | add (applied) | 8341908 | https://www.ticketnetwork.com/en/p/8341908 | - |
 | tm-fontaines-d-c-2026-manchester-g5vhz_okyh0m1 | Fontaines D.C. | none | 8243932 | https://www.ticketnetwork.com/en/p/8243932 | - |
 | tm-fontaines-d-c-2026-glasgow-1adbz_8gkucuwyw | Fontaines D.C. | none | 8243933 | https://www.ticketnetwork.com/en/p/8243933 | - |
 | tm-fontaines-d-c-2027-nashville-z7r9jz1aa7vxe | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2969,8 +2939,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-ye-2026-houston-g5diz_osqzjfe | Ye | none | 8244550 | https://www.ticketnetwork.com/en/p/8244550 | - |
 | tm-ye-2026-arlington-z7r9jz1aav0vv | Ye | none | 8245565 | https://www.ticketnetwork.com/en/p/8245565 | - |
 | tm-ye-2026-glendale-z7r9jz1aav08u | Ye | none | 8244532 | https://www.ticketnetwork.com/en/p/8244532 | - |
-| tm-kevin-gates-2026-nashville-g5viz_kuq0g54 | Kevin Gates | unverify (applied) | 7808845 | https://www.ticketnetwork.com/en/p/7808845 | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-brand-new-2026-hollywood-vvg1vz_gl6rgiu | Brand New | none | 8062714 | https://www.ticketnetwork.com/en/p/8062714 | - |
 | tm-brand-new-2026-independence-vvg1bz_uefy4ji | Brand New | none | 8062597 | https://www.ticketnetwork.com/en/p/8062597 | - |
 | tm-brand-new-2026-grand-prairie-z7r9jz1a7pijy | Brand New | none | 8062598 | https://www.ticketnetwork.com/en/p/8062598 | - |
 | tm-brand-new-2026-denver-z7r9jz1a7ptjo | Brand New | none | 8062599 | https://www.ticketnetwork.com/en/p/8062599 | - |
@@ -2992,7 +2960,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-knocked-loose-2026-austin-g5diz_5qpgquo | Knocked Loose | none | 8002990 | https://www.ticketnetwork.com/en/p/8002990 | - |
 | tm-chris-stapleton-2026-lincoln-vv1akzk8pgkdqln9v | Chris Stapleton | none | 7668749 | https://www.ticketnetwork.com/en/p/7668749 | - |
 | tm-chris-stapleton-2026-nashville-g5viz_kleeols | Chris Stapleton | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-phoebe-bridgers-2026-vancouver-1778v0g6g1ql6ek | Phoebe Bridgers | unverify (applied) | 8028495 | https://www.ticketnetwork.com/en/p/8028495 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-phoebe-bridgers-2026-san-francisco-g5vyz_5ehic8t | Phoebe Bridgers | none | 8028491 | https://www.ticketnetwork.com/en/p/8028491 | - |
 | tm-phoebe-bridgers-2026-san-francisco-g5vyz_gpqjtlc | Phoebe Bridgers | none | 8034548 | https://www.ticketnetwork.com/en/p/8034548 | - |
 | tm-phoebe-bridgers-2026-inglewood-vvg10z_5eplbfx | Phoebe Bridgers | none | 8028492 | https://www.ticketnetwork.com/en/p/8028492 | - |
@@ -3006,8 +2973,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-phoebe-bridgers-2026-london-17u8v0g6gpqo1c- | Phoebe Bridgers | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-phoebe-bridgers-2026-london-17u8v0g6gnyjt5y | Phoebe Bridgers | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-phoebe-bridgers-2026-forest-brussels-z698xzg2z16ezpgzqe | Phoebe Bridgers | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-bryson-tiller-2026-chula-vista-vvg1iz_5qdpyt3 | Bryson Tiller | unverify (applied) | 8011575 | https://www.ticketnetwork.com/en/p/8011575 | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-bryson-tiller-2026-inglewood-vvg10z_5eio1ci | Bryson Tiller | none | 8011577 | https://www.ticketnetwork.com/en/p/8011577 | - |
+| tm-bryson-tiller-2026-inglewood-vvg10z_5eio1ci | Bryson Tiller | unverify (applied) | 8011577 | https://www.ticketnetwork.com/en/p/8011577 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-bryson-tiller-2026-concord-g5vyz_5ix0y73 | Bryson Tiller | none | 8011579 | https://www.ticketnetwork.com/en/p/8011579 | - |
 | tm-bryson-tiller-2026-portland-vvg1hz_5po9bdo | Bryson Tiller | none | 8011580 | https://www.ticketnetwork.com/en/p/8011580 | - |
 | tm-bryson-tiller-2026-vancouver-1778v0g65sqi5ae | Bryson Tiller | none | 8011583 | https://www.ticketnetwork.com/en/p/8011583 | - |
@@ -3024,7 +2990,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-bryson-tiller-2026-birmingham-17fyv0g65u9_ewp | Bryson Tiller | none | 8090582 | https://www.ticketnetwork.com/en/p/8090582 | - |
 | tm-bryson-tiller-2027-linlithgow-ave-177yv0g65m3hnkk | Bryson Tiller | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-bryson-tiller-2027-auckland-17azv0g65qclfnt | Bryson Tiller | none | 8173262 | https://www.ticketnetwork.com/en/p/8173262 | - |
-| tm-arcangel-2026-philadelphia-vvg1fz_1skmms5 | Arcangel | unverify (applied) | 7997045 | https://www.ticketnetwork.com/en/p/7997045 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-arcangel-2026-boston-vvg17z_1mzt4ek | Arcangel | none | 7977638 | https://www.ticketnetwork.com/en/p/7977638 | - |
 | tm-arcangel-2026-rosemont-vvg18z_1u8np3l | Arcangel | none | 7997047 | https://www.ticketnetwork.com/en/p/7997047 | - |
 | tm-arcangel-2026-houston-g5diz_53je_pf | Arcangel | none | 7997050 | https://www.ticketnetwork.com/en/p/7997050 | - |
@@ -3033,8 +2998,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-arcangel-2026-salt-lake-city-g5vzz_5343iam | Arcangel | none | 7997055 | https://www.ticketnetwork.com/en/p/7997055 | - |
 | tm-arcangel-2026-inglewood-vvg1iz_1r3weok | Arcangel | none | 7997056 | https://www.ticketnetwork.com/en/p/7997056 | - |
 | tm-arcangel-2026-san-jose-g5vyz_1s5ejmh | Arcangel | none | 7997057 | https://www.ticketnetwork.com/en/p/7997057 | - |
-| tm-garth-brooks-2026-tulsa-1aozkfugkdlv4l0 | Garth Brooks | unverify (applied) | 8284849 | https://www.ticketnetwork.com/en/p/8284849 | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-garth-brooks-2026-tulsa-1aozkfugkdlmpx_ | Garth Brooks | unverify (applied) | 8284850 | https://www.ticketnetwork.com/en/p/8284850 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-garth-brooks-2026-seattle-vvg1hz_fstanbp | Garth Brooks | none | 8321626 | https://www.ticketnetwork.com/en/p/8321626 | - |
 | tm-garth-brooks-2026-seattle-vvg1hz_fghqxgl | Garth Brooks | none | 8321627 | https://www.ticketnetwork.com/en/p/8321627 | - |
 | tm-saint-levant-2027-glasgow-1adbz_fgkb_vncq | Saint Levant | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3066,11 +3029,9 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-stevie-wonder-2026-detroit-vv1kezvpa-gaukuph | Stevie Wonder | none | 8252658 | https://www.ticketnetwork.com/en/p/8252658 | - |
 | tm-stevie-wonder-2026-detroit-vv1koz_3bxg7sqna | Stevie Wonder | none | 8252659 | https://www.ticketnetwork.com/en/p/8252659 | - |
 | tm-stevie-wonder-2026-inglewood-vv1aazkf0onvvzeug | Stevie Wonder | none | 8252660 | https://www.ticketnetwork.com/en/p/8252660 | - |
-| tm-lil-wayne-2026-greenville-g5evz_6d5sngf | Lil Wayne | unverify (applied) | 7810664 | https://www.ticketnetwork.com/en/p/7810664 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-lil-wayne-2026-lexington-1avbz_kgkyr04kw | Lil Wayne | none | 7810684 | https://www.ticketnetwork.com/en/p/7810684 | - |
 | tm-lil-wayne-2026-savannah-vvg1zz_3n_vz4w | Lil Wayne | none | 8307423 | https://www.ticketnetwork.com/en/p/8307423 | - |
 | tm-lil-wayne-2027-reading-vv17fz_kgkwwyiai | Lil Wayne | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-tom-jones-2026-las-vegas-17ayv0g61xu61b0 | Tom Jones | unverify (applied) | 7997397 | https://www.ticketnetwork.com/en/p/7997397 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-tom-jones-2026-los-angeles-vvg10z_58xadko | Tom Jones | none | 7997398 | https://www.ticketnetwork.com/en/p/7997398 | - |
 | tm-tom-jones-2026-san-diego-vvg1iz_5gqcfyd | Tom Jones | none | 7997399 | https://www.ticketnetwork.com/en/p/7997399 | - |
 | tm-tom-jones-2026-highland-z7r9jz1a7p6r4 | Tom Jones | none | 8003601 | https://www.ticketnetwork.com/en/p/8003601 | - |
@@ -3086,7 +3047,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-a-boogie-wit-da-hoodie-2026-orlando-z7r9jz1aaef4e | A Boogie Wit Da Hoodie | none | 8293991 | https://www.ticketnetwork.com/en/p/8293991 | - |
 | tm-a-boogie-wit-da-hoodie-2026-minneapolis-vv1akzkfygkd_ao6r | A Boogie Wit Da Hoodie | none | 8294956 | https://www.ticketnetwork.com/en/p/8294956 | - |
 | tm-a-boogie-wit-da-hoodie-2026-hartford-z7r9jz1aaea_k | A Boogie Wit Da Hoodie | none | 8293968 | https://www.ticketnetwork.com/en/p/8293968 | - |
-| tm-zach-top-2026-rogers-g5viz_5ulwxbq | Zach Top | unverify (applied) | 8130219 | https://www.ticketnetwork.com/en/p/8130219 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-zach-top-2026-duluth-vvg1zz_5pbvq93 | Zach Top | none | 8026607 | https://www.ticketnetwork.com/en/p/8026607 | - |
 | tm-zach-top-2026-nashville-g5viz_g6sznnj | Zach Top | none | 8026602 | https://www.ticketnetwork.com/en/p/8026602 | - |
 | tm-sienna-spiro-2027-austin-g5diz_47ytekn | Sienna Spiro | none | 8332299 | https://www.ticketnetwork.com/en/p/8332299 | - |
@@ -3111,8 +3071,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-sienna-spiro-2027-new-york-g5dyz_46d6wnd | Sienna Spiro | none | 8333456 | https://www.ticketnetwork.com/en/p/8333456 | - |
 | tm-yacht-rock-revue-2027-atlanta-z7r9jz1aa7oau | Yacht Rock Revue | none | 8312038 | https://www.ticketnetwork.com/en/p/8312038 | - |
 | tm-earth-wind-fire-2027-saint-augustine-z7r9jz1aaeb-p | Earth, Wind & Fire | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-katseye-2026-belmont-park-17gzv0g61mqcddn | KATSEYE | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-katseye-2026-belmont-park-17gzv0g61mqmkdg | KATSEYE | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-katseye-2026-boston-vvg17z_1eilxli | KATSEYE | none | 7961636 | https://www.ticketnetwork.com/en/p/7961636 | - |
 | tm-katseye-2026-montreal-17g8v0g61xoe95k | KATSEYE | none | 7961852 | https://www.ticketnetwork.com/en/p/7961852 | - |
 | tm-katseye-2026-hamilton-177zv0g61i6mwwe | KATSEYE | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3133,16 +3091,13 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-ricky-martin-2026-las-vegas-17ayv0g6ubmuh5y | Ricky Martin | none | 8130659 | https://www.ticketnetwork.com/en/p/8130659 | - |
 | tm-ricky-martin-2026-lincoln-g5vyz_grrfawg | Ricky Martin | none | 8057196 | https://www.ticketnetwork.com/en/p/8057196 | - |
 | tm-ricky-martin-2026-temecula-vvg1iz_g21wliz | Ricky Martin | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-ty-myers-2026-pikeville-1apzkovgkdxnmip | Ty Myers | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-ty-myers-2026-austin-g5diz_kuopazl | Ty Myers | none | 7830817 | https://www.ticketnetwork.com/en/p/7830817 | - |
-| tm-ty-myers-2026-fort-worth-vvg1yz_61djqel | Ty Myers | none | 7830819 | https://www.ticketnetwork.com/en/p/7830819 | - |
-| tm-dan-shay-2026-maryland-heights-vvg1bz_1udxnrk | Dan + Shay | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-ty-myers-2026-fort-worth-vvg1yz_61djqel | Ty Myers | unverify (applied) | 7830819 | https://www.ticketnetwork.com/en/p/7830819 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-dan-shay-2026-denver-g5vzz_1dezhf3 | Dan + Shay | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dan-shay-2026-salt-lake-city-z7r9jz1a70jp0 | Dan + Shay | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dan-shay-2026-phoenix-17k8v0g61dxzizm | Dan + Shay | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dan-shay-2026-anaheim-vvg10z_1damnyd | Dan + Shay | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dan-shay-2026-mountain-view-g5vyz_1wl9ah6 | Dan + Shay | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-beabadoobee-2026-san-diego-vvg1iz_u3myfkf | beabadoobee | unverify (applied) | 8081071 | https://www.ticketnetwork.com/en/p/8081071 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-beabadoobee-2026-oakland-g5vyz_ufp_rvl | beabadoobee | none | 8081072 | https://www.ticketnetwork.com/en/p/8081072 | - |
 | tm-beabadoobee-2026-vancouver-1778v0g6u5paqr- | beabadoobee | none | 8081057 | https://www.ticketnetwork.com/en/p/8081057 | - |
 | tm-beabadoobee-2026-seattle-vvg1hz_u_uadg3 | beabadoobee | none | 8081075 | https://www.ticketnetwork.com/en/p/8081075 | - |
@@ -3163,7 +3118,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-dave-matthews-band-2026-new-york-g5diz_2njwaf8 | Dave Matthews Band | none | 8195882 | https://www.ticketnetwork.com/en/p/8195882 | - |
 | tm-dave-matthews-band-2026-new-york-g5diz_2njdtfa | Dave Matthews Band | none | 8195883 | https://www.ticketnetwork.com/en/p/8195883 | - |
 | tm-garth-brooks-2026-seattle-vvg1hz_4dkzhpm | Garth Brooks | none | 8335342 | https://www.ticketnetwork.com/en/p/8335342 | - |
-| tm-los-tigres-del-norte-2026-glendale-1fk8v0p7atz785ae | Los Tigres del Norte | unverify (applied) | 7759906 | https://www.ticketnetwork.com/en/p/7759906 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-los-tigres-del-norte-2026-palm-desert-vvg1iz_axk_2p- | Los Tigres del Norte | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-los-tigres-del-norte-2026-san-diego-z7r9jz1a7-p4f | Los Tigres del Norte | none | 7761203 | https://www.ticketnetwork.com/en/p/7761203 | - |
 | tm-los-tigres-del-norte-2026-columbus-z7r9jz1a7ofo9 | Los Tigres del Norte | none | 7467758 | https://www.ticketnetwork.com/en/p/7467758 | - |
@@ -3174,28 +3128,25 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-los-tigres-del-norte-2026-birmingham-1aozkobgkdkxmhh | Los Tigres del Norte | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-los-tigres-del-norte-2027-san-jose-g5vyz_k6cidvv | Los Tigres del Norte | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-los-tigres-del-norte-2027-temecula-vvg1iz_km0aey4 | Los Tigres del Norte | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-chicks-2026-seattle-vvg1hz_52nooej | The Chicks | none | 7999773 | https://www.ticketnetwork.com/en/p/7999773 | - |
+| tm-the-chicks-2026-seattle-vvg1hz_52nooej | The Chicks | unverify (applied) | 7999773 | https://www.ticketnetwork.com/en/p/7999773 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-the-chicks-2026-seattle-vvg1hz_52n3-el | The Chicks | none | 7999836 | https://www.ticketnetwork.com/en/p/7999836 | - |
 | tm-the-chicks-2026-san-francisco-g5vyz_5k9t5fo | The Chicks | none | 7999837 | https://www.ticketnetwork.com/en/p/7999837 | - |
 | tm-the-chicks-2026-san-francisco-g5vyz_5kbz5fl | The Chicks | none | 7999839 | https://www.ticketnetwork.com/en/p/7999839 | - |
 | tm-the-chicks-2026-hollywood-vvg10z_5ljdml9 | The Chicks | none | 7999840 | https://www.ticketnetwork.com/en/p/7999840 | - |
 | tm-the-chicks-2026-hollywood-vvg10z_5ra8fba | The Chicks | none | 7999841 | https://www.ticketnetwork.com/en/p/7999841 | - |
 | tm-the-chicks-2026-hollywood-vvg10z_5rao7bc | The Chicks | none | 8193502 | https://www.ticketnetwork.com/en/p/8193502 | - |
-| tm-young-miko-2026-houston-z7r9jz1a7x73v | Young Miko | unverify (applied) | 7860529 | https://www.ticketnetwork.com/en/p/7860529 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-young-miko-2026-miami-vvg1vz_fchiqhv | Young Miko | none | 7860530 | https://www.ticketnetwork.com/en/p/7860530 | - |
 | tm-young-miko-2026-orlando-1axzk3dgkeha7uv | Young Miko | none | 7860531 | https://www.ticketnetwork.com/en/p/7860531 | - |
 | tm-young-miko-2026-atlanta-vvg1zz_f1gfmts | Young Miko | none | 7860532 | https://www.ticketnetwork.com/en/p/7860532 | - |
 | tm-young-miko-2026-charlotte-g5evz_fffmq2n | Young Miko | none | 7860533 | https://www.ticketnetwork.com/en/p/7860533 | - |
 | tm-young-miko-2026-philadelphia-1ayzk3egkdcdzmm | Young Miko | none | 7860534 | https://www.ticketnetwork.com/en/p/7860534 | - |
 | tm-young-miko-2026-brooklyn-16dzz_f13g7dsys | Young Miko | none | 7860535 | https://www.ticketnetwork.com/en/p/7860535 | - |
-| tm-zac-brown-band-2026-sioux-falls-z7r9jz1a7owq_ | Zac Brown Band | unverify (applied) | 7703270 | https://www.ticketnetwork.com/en/p/7703270 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-zac-brown-band-2026-buffalo-k7vgf_dh65dyo | Zac Brown Band | none | 7703260 | https://www.ticketnetwork.com/en/p/7703260 | - |
 | tm-zac-brown-band-2026-detroit-vv1afzk8vgkdi6e86 | Zac Brown Band | none | 7703261 | https://www.ticketnetwork.com/en/p/7703261 | - |
 | tm-zac-brown-band-2026-lincoln-vv16kzk8wakzacfeeu | Zac Brown Band | none | 7703262 | https://www.ticketnetwork.com/en/p/7703262 | - |
 | tm-zac-brown-band-2026-des-moines-z7r9jz1a7osk3 | Zac Brown Band | none | 7705909 | https://www.ticketnetwork.com/en/p/7705909 | - |
 | tm-zac-brown-band-2026-rosemont-vv1a7zk8sgkdldbon | Zac Brown Band | none | 7703263 | https://www.ticketnetwork.com/en/p/7703263 | - |
 | tm-zac-brown-band-2027-milwaukee-vv1a6zkf0gkdpf9tr | Zac Brown Band | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-sleeping-with-sirens-2026-chicago-vvg18z_gr6ix5f | Sleeping With Sirens | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sleeping-with-sirens-2026-pittsburgh-z7r9jz1a7p_ae | Sleeping With Sirens | none | 8053970 | https://www.ticketnetwork.com/en/p/8053970 | - |
 | tm-sleeping-with-sirens-2026-royal-oak-z7r9jz1a7p_ad | Sleeping With Sirens | none | 8053969 | https://www.ticketnetwork.com/en/p/8053969 | - |
 | tm-sleeping-with-sirens-2026-montreal-17g8v0g6gxey070 | Sleeping With Sirens | none | 8053967 | https://www.ticketnetwork.com/en/p/8053967 | - |
@@ -3215,14 +3166,12 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-sleeping-with-sirens-2027-london-g5dzz_g5cip1i | Sleeping With Sirens | none | 8050887 | https://www.ticketnetwork.com/en/p/8050887 | - |
 | tm-sleeping-with-sirens-2027-brisbane-1akzkfygkeprtzf | Sleeping With Sirens | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sleeping-with-sirens-2027-west-melbourne-1avgz_kgkwtduwz | Sleeping With Sirens | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-chayanne-2026-miami-vvg1vz_kt0yodw | Chayanne | unverify (applied) | 7892306 | https://www.ticketnetwork.com/en/p/7892306 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-chayanne-2026-tampa-vvg1vz_km8pku0 | Chayanne | none | 7892339 | https://www.ticketnetwork.com/en/p/7892339 | - |
 | tm-chayanne-2026-orlando-1aefz_kgkwoqkla | Chayanne | none | 7892340 | https://www.ticketnetwork.com/en/p/7892340 | - |
 | tm-dinosaur-jr-2027-brisbane-1k7yvp4bgacdnzm | Dinosaur Jr. | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-zach-bryan-2027-vancouver-1k78vp4fgacgpjm | Zach Bryan | none | 8338720 | https://www.ticketnetwork.com/en/p/8338720 | - |
 | tm-zach-bryan-2027-edmonton-16v7z_43bg7l9tm | Zach Bryan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dinosaur-jr-2027-auckland-1a0zk4fgkei-ffe | Dinosaur Jr. | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-cece-winans-2026-new-orleans-g5viz_a29lq83 | CeCe Winans | unverify (applied) | 7752708 | https://www.ticketnetwork.com/en/p/7752708 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-cece-winans-2026-orlando-16xzkokj9za57fca | CeCe Winans | none | 7752709 | https://www.ticketnetwork.com/en/p/7752709 | - |
 | tm-cece-winans-2026-north-charleston-g5evz_a3s0b-f | CeCe Winans | none | 7752710 | https://www.ticketnetwork.com/en/p/7752710 | - |
 | tm-cece-winans-2026-tampa-vvg1vz_a3ceusx | CeCe Winans | none | 7752712 | https://www.ticketnetwork.com/en/p/7752712 | - |
@@ -3303,7 +3252,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-u2-2027-ciudad-de-mexico-1afzk4agkebeind | U2 | none | 8329177 | https://www.ticketnetwork.com/en/p/8329177 | - |
 | tm-u2-2027-ciudad-de-mexico-1afzk4agkebeina | U2 | none | 8337104 | https://www.ticketnetwork.com/en/p/8337104 | - |
 | tm-u2-2027-ciudad-de-mexico-1afzk4agkebign2 | U2 | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-beck-2026-washington-1avfz_fgkdleutu | Beck | none | 7896088 | https://www.ticketnetwork.com/en/p/7896088 | - |
 | tm-beck-2026-durham-g5evz_fbugjju | Beck | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-beck-2026-asheville-g5evz_ftjugdd | Beck | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-beck-2026-atlanta-vvg1zz_fbor4w0 | Beck | none | 7896100 | https://www.ticketnetwork.com/en/p/7896100 | - |
@@ -3320,40 +3268,194 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-dermot-kennedy-2027-tramore-rd-cork-1kkzvpozga5u0fg | Dermot Kennedy | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dermot-kennedy-2027-tramore-rd-cork-1kkzvpozga5mff_ | Dermot Kennedy | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dermot-kennedy-2027-belfast-1azzk4kgkeju-cx | Dermot Kennedy | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-turnpike-troubadours-2026-clearwater-z7r9jz1a7-ga_ | Turnpike Troubadours | none | 7831487 | https://www.ticketnetwork.com/en/p/7831487 | - |
 | tm-turnpike-troubadours-2026-las-vegas-17ayv0g62soqkki | Turnpike Troubadours | none | 8182281 | https://www.ticketnetwork.com/en/p/8182281 | - |
 | tm-sam-fender-2027-newcastle-upon-tyne-1agzk4fgkd88g8t | Sam Fender | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sam-fender-2027-newcastle-upon-tyne-1adfz_fgktpp_oj | Sam Fender | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sam-fender-2027-cardiff-16gzk4fpszage5ca | Sam Fender | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-sam-fender-2027-london-16nzk4f00zauv12c | Sam Fender | add (applied) | 8334269 | https://www.ticketnetwork.com/en/p/8334269 | - |
-| tm-sam-fender-2027-london-1anzk4fgkdp88g6 | Sam Fender | add (applied) | 8334270 | https://www.ticketnetwork.com/en/p/8334270 | - |
+| tm-sam-fender-2027-london-16nzk4f00zauv12c | Sam Fender | none | 8334269 | https://www.ticketnetwork.com/en/p/8334269 | - |
+| tm-sam-fender-2027-london-1anzk4fgkdp88g6 | Sam Fender | none | 8334270 | https://www.ticketnetwork.com/en/p/8334270 | - |
 | tm-sam-fender-2027-dublin-1avoz_fgkxvywdt | Sam Fender | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sam-fender-2027-edinburgh-1auzk4fgkd4qebt | Sam Fender | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sam-fender-2027-manchester-g5dzz_42lyjlw | Sam Fender | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sam-fender-2027-manchester-g5dzz_4k4turs | Sam Fender | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-bon-jovi-2027-docklands-1aefz_fgkxe60v9 | Bon Jovi | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-bon-jovi-2027-east-rutherford-k7vgf_4evgqwy | Bon Jovi | add (applied) | 8329063 | https://www.ticketnetwork.com/en/p/8329063 | - |
-| tm-bon-jovi-2027-chicago-vv178z_fgkh_n5td | Bon Jovi | add (applied) | 8329064 | https://www.ticketnetwork.com/en/p/8329064 | - |
-| tm-bon-jovi-2027-foxborough-vv1avzk48gke-15d8 | Bon Jovi | add (applied) | 8329065 | https://www.ticketnetwork.com/en/p/8329065 | - |
+| tm-bon-jovi-2027-east-rutherford-k7vgf_4evgqwy | Bon Jovi | none | 8329063 | https://www.ticketnetwork.com/en/p/8329063 | - |
+| tm-bon-jovi-2027-chicago-vv178z_fgkh_n5td | Bon Jovi | none | 8329064 | https://www.ticketnetwork.com/en/p/8329064 | - |
+| tm-bon-jovi-2027-foxborough-vv1avzk48gke-15d8 | Bon Jovi | none | 8329065 | https://www.ticketnetwork.com/en/p/8329065 | - |
 | tm-bon-jovi-2027-toronto-1a8zk48je1zze8k | Bon Jovi | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-anuel-aa-2026-belmont-park-1ayzkffgkd4zfkj | Anuel AA | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-anuel-aa-2027-monterrey-g5dvz_6rcdk4r | Anuel AA | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-anuel-aa-2027-zapopan-g5dvz_6raf6md | Anuel AA | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-luke-bryan-2026-mescalero-vvg1yz_gw6bfly | Luke Bryan | add (applied) | 8259472 | https://www.ticketnetwork.com/en/p/8259472 | - |
-| tm-luke-bryan-2026-las-vegas-1avjz_agkws6gfv | Luke Bryan | add (applied) | 7922101 | https://www.ticketnetwork.com/en/p/7922101 | - |
-| tm-billy-strings-2026-baltimore-1avfz_6gkm3naew | Billy Strings | add (applied) | 7843520 | https://www.ticketnetwork.com/en/p/7843520 | - |
-| tm-billy-strings-2026-baltimore-1avfz_6gkmktg1d | Billy Strings | add (applied) | 7843522 | https://www.ticketnetwork.com/en/p/7843522 | - |
-| tm-billy-strings-2026-new-orleans-g5viz_fhsj6zp | Billy Strings | add (applied) | 7843538 | https://www.ticketnetwork.com/en/p/7843538 | - |
-| tm-billy-strings-2026-new-orleans-g5viz_6n0bmge | Billy Strings | add (applied) | 7843524 | https://www.ticketnetwork.com/en/p/7843524 | - |
-| tm-billy-strings-2026-sugar-land-z7r9jz1a7xvj- | Billy Strings | add (applied) | 7843540 | https://www.ticketnetwork.com/en/p/7843540 | - |
-| tm-billy-strings-2026-fort-worth-vvg1yz_6mc3yqf | Billy Strings | add (applied) | 7843525 | https://www.ticketnetwork.com/en/p/7843525 | - |
-| tm-billy-strings-2026-austin-g5diz_ub5bart | Billy Strings | add (applied) | 8108535 | https://www.ticketnetwork.com/en/p/8108535 | - |
+| tm-luke-bryan-2026-mescalero-vvg1yz_gw6bfly | Luke Bryan | none | 8259472 | https://www.ticketnetwork.com/en/p/8259472 | - |
+| tm-luke-bryan-2026-las-vegas-1avjz_agkws6gfv | Luke Bryan | none | 7922101 | https://www.ticketnetwork.com/en/p/7922101 | - |
+| tm-billy-strings-2026-baltimore-1avfz_6gkm3naew | Billy Strings | none | 7843520 | https://www.ticketnetwork.com/en/p/7843520 | - |
+| tm-billy-strings-2026-baltimore-1avfz_6gkmktg1d | Billy Strings | none | 7843522 | https://www.ticketnetwork.com/en/p/7843522 | - |
+| tm-billy-strings-2026-new-orleans-g5viz_fhsj6zp | Billy Strings | none | 7843538 | https://www.ticketnetwork.com/en/p/7843538 | - |
+| tm-billy-strings-2026-new-orleans-g5viz_6n0bmge | Billy Strings | none | 7843524 | https://www.ticketnetwork.com/en/p/7843524 | - |
+| tm-billy-strings-2026-sugar-land-z7r9jz1a7xvj- | Billy Strings | none | 7843540 | https://www.ticketnetwork.com/en/p/7843540 | - |
+| tm-billy-strings-2026-fort-worth-vvg1yz_6mc3yqf | Billy Strings | unverify (applied) | 7843525 | https://www.ticketnetwork.com/en/p/7843525 | no qualifying listing (the complete catalog no longer lists the stored link) |
+| tm-billy-strings-2026-austin-g5diz_ub5bart | Billy Strings | none | 8108535 | https://www.ticketnetwork.com/en/p/8108535 | - |
 | tm-billy-strings-2027-asheville-g5evz_omwlg3b | Billy Strings | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-billy-strings-2027-asheville-g5evz_omwlh3- | Billy Strings | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-billy-strings-2027-asheville-g5evz_omwig3e | Billy Strings | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-billy-strings-2027-asheville-g5evz_omwii3v | Billy Strings | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-billy-strings-2027-asheville-g5evz_omwcg3b | Billy Strings | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-billy-strings-2027-duluth-vvg1zz_oinx98f | Billy Strings | add (applied) | 8238819 | https://www.ticketnetwork.com/en/p/8238819 | - |
-| tm-billy-strings-2027-duluth-vvg1zz_ointe8l | Billy Strings | add (applied) | 8238820 | https://www.ticketnetwork.com/en/p/8238820 | - |
-| tm-billy-strings-2027-nashville-g5viz_on579po | Billy Strings | add (applied) | 8238823 | https://www.ticketnetwork.com/en/p/8238823 | - |
-| tm-billy-strings-2027-nashville-g5viz_on5a9pr | Billy Strings | add (applied) | 8238824 | https://www.ticketnetwork.com/en/p/8238824 | - |
+| tm-billy-strings-2027-duluth-vvg1zz_oinx98f | Billy Strings | none | 8238819 | https://www.ticketnetwork.com/en/p/8238819 | - |
+| tm-billy-strings-2027-duluth-vvg1zz_ointe8l | Billy Strings | none | 8238820 | https://www.ticketnetwork.com/en/p/8238820 | - |
+| tm-billy-strings-2027-nashville-g5viz_on579po | Billy Strings | none | 8238823 | https://www.ticketnetwork.com/en/p/8238823 | - |
+| tm-billy-strings-2027-nashville-g5viz_on5a9pr | Billy Strings | none | 8238824 | https://www.ticketnetwork.com/en/p/8238824 | - |
+| tm-thirty-seconds-to-mars-2027-nurnberg-z698xzc2z16vqofzv8 | Thirty Seconds to Mars | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-thirty-seconds-to-mars-2027-casalecchio-di-reno-bologna-zg9rmiynyzffde | Thirty Seconds to Mars | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-thirty-seconds-to-mars-2027-praha-9-z698xzu0z1k788y-z | Thirty Seconds to Mars | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-thirty-seconds-to-mars-2027-helsinki-z698xz8kz16v7so3fa | Thirty Seconds to Mars | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-cristian-castro-2026-glendale-1a_zko8gkebja4t | Cristian Castro | add (applied) | 7744413 | https://www.ticketnetwork.com/en/p/7744413 | - |
+| tm-cristian-castro-2026-el-paso-vvg1yz_adzeyjf | Cristian Castro | add (applied) | 7744415 | https://www.ticketnetwork.com/en/p/7744415 | - |
+| tm-cristian-castro-2026-san-diego-z7r9jz1a7-80a | Cristian Castro | add (applied) | 7746197 | https://www.ticketnetwork.com/en/p/7746197 | - |
+| tm-cristian-castro-2026-los-angeles-z7r9jz1a7-f4v | Cristian Castro | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-cristian-castro-2027-denver-z7r9jz1a7-boz | Cristian Castro | add (applied) | 7757487 | https://www.ticketnetwork.com/en/p/7757487 | - |
+| tm-cristian-castro-2027-west-valley-city-g5vzz_aklolqq | Cristian Castro | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-cristian-castro-2027-anaheim-vv1aazkofgkeidrym | Cristian Castro | add (applied) | 7757473 | https://www.ticketnetwork.com/en/p/7757473 | - |
+| tm-cristian-castro-2027-palm-desert-vvg1iz_1h-rylv | Cristian Castro | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-cristian-castro-2027-hidalgo-g5diz_a2dt_o4 | Cristian Castro | add (applied) | 7756937 | https://www.ticketnetwork.com/en/p/7756937 | - |
+| tm-cristian-castro-2027-cedar-park-g5diz_ak4-aew | Cristian Castro | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-cristian-castro-2027-orlando-1kfov0fzgac5wgd | Cristian Castro | add (applied) | 7756941 | https://www.ticketnetwork.com/en/p/7756941 | - |
+| tm-cristian-castro-2027-miami-vvg1vz_aphhc62 | Cristian Castro | add (applied) | 7756942 | https://www.ticketnetwork.com/en/p/7756942 | - |
+| tm-treaty-oak-revival-2026-corpus-christi-z7r9jz1a70e78 | Treaty Oak Revival | add (applied) | 7944777 | https://www.ticketnetwork.com/en/p/7944777 | - |
+| tm-treaty-oak-revival-2026-austin-g5diz_19twyeh | Treaty Oak Revival | add (applied) | 7944768 | https://www.ticketnetwork.com/en/p/7944768 | - |
+| tm-treaty-oak-revival-2026-the-woodlands-g5diz_1panpuq | Treaty Oak Revival | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-treaty-oak-revival-2026-tulsa-1aezz_3x88ozdgea | Treaty Oak Revival | add (applied) | 8264458 | https://www.ticketnetwork.com/en/p/8264458 | - |
+| tm-boyz-ii-men-2026-waurn-ponds-177yv0g6cqczn9y | Boyz II Men | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-boyz-ii-men-2026-auckland-17azv0g6c2evn3t | Boyz II Men | add (applied) | 8173275 | https://www.ticketnetwork.com/en/p/8173275 | - |
+| tm-boyz-ii-men-2026-pokolbin-177yv0g6cro9xjr | Boyz II Men | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-boyz-ii-men-2026-mount-cotton-177yv0g6chtbuni | Boyz II Men | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-boyz-ii-men-2026-norman-z7r9jz1aaed_y | Boyz II Men | add (applied) | 8234392 | https://www.ticketnetwork.com/en/p/8234392 | - |
+| tm-boyz-ii-men-2026-thackerville-z7r9jz1a70-f8 | Boyz II Men | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-boyz-ii-men-2027-boston-vv1avzk4egkdp6cdw | Boyz II Men | add (applied) | 8318130 | https://www.ticketnetwork.com/en/p/8318130 | - |
+| tm-boyz-ii-men-2027-atlantic-city-vv1kfz_fbxg7mvlj | Boyz II Men | add (applied) | 8318131 | https://www.ticketnetwork.com/en/p/8318131 | - |
+| tm-boyz-ii-men-2027-national-harbor-1ka8vp3aga5lj2s | Boyz II Men | add (applied) | 8318132 | https://www.ticketnetwork.com/en/p/8318132 | - |
+| tm-boyz-ii-men-2027-national-harbor-1ka8vp3aga5ij2m | Boyz II Men | add (applied) | 8318133 | https://www.ticketnetwork.com/en/p/8318133 | - |
+| tm-boyz-ii-men-2027-national-harbor-1ka8vp3aga5cu2t | Boyz II Men | add (applied) | 8318134 | https://www.ticketnetwork.com/en/p/8318134 | - |
+| tm-boyz-ii-men-2027-las-vegas-1kayvp7mgaglg6h | Boyz II Men | add (applied) | 8231600 | https://www.ticketnetwork.com/en/p/8231600 | - |
+| tm-boyz-ii-men-2027-las-vegas-1kayvp7mgag-4fc | Boyz II Men | add (applied) | 8231601 | https://www.ticketnetwork.com/en/p/8231601 | - |
+| tm-boyz-ii-men-2027-las-vegas-1kayvp7mgagn4f9 | Boyz II Men | add (applied) | 8231602 | https://www.ticketnetwork.com/en/p/8231602 | - |
+| tm-boyz-ii-men-2027-las-vegas-1kayvp7mgag0pfj | Boyz II Men | add (applied) | 8231603 | https://www.ticketnetwork.com/en/p/8231603 | - |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dw4juo | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwppux | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwpuu0 | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dw9jut | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwbkui | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwbuur | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dw_pus | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwqkuv | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwqjuu | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwhpuz | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwhuub | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwjjc1 | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwqpcc | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwrkco | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwlkck | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2027-sunrise-z7r9jz1a7ji0e | Barry Manilow | add (applied) | 7425008 | https://www.ticketnetwork.com/en/p/7425008 | - |
+| tm-barry-manilow-2027-estero-vvg1vzbwhe6k-q | Barry Manilow | add (applied) | 7425011 | https://www.ticketnetwork.com/en/p/7425011 | - |
+| tm-barry-manilow-2027-estero-vvg1vzbwhe6n-j | Barry Manilow | add (applied) | 7425012 | https://www.ticketnetwork.com/en/p/7425012 | - |
+| tm-barry-manilow-2027-tampa-vvg1vzbsept-t8 | Barry Manilow | add (applied) | 7425010 | https://www.ticketnetwork.com/en/p/7425010 | - |
+| tm-barry-manilow-2027-orlando-1aefzbwgksczswf | Barry Manilow | add (applied) | 7425009 | https://www.ticketnetwork.com/en/p/7425009 | - |
+| tm-barry-manilow-2027-las-vegas-17ayvxg62dw5kgq | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2027-las-vegas-17ayvxg62dw5ugn | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2027-las-vegas-17ayvxg62dwupgi | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2027-las-vegas-17ayvxg62dwuugv | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2027-las-vegas-17ayvxg62dwcjgy | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2027-las-vegas-17ayvxg62dw2kgd | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2027-las-vegas-17ayvxg62dw2ugw | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2027-las-vegas-17ayvxg62dw8pgt | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2027-las-vegas-17ayvxg62dwokuv | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2027-las-vegas-1avjz_3gkroi64s | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2027-las-vegas-1avjz_3gkrocmpa | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-barry-manilow-2027-las-vegas-1avjz_3gkrorept | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-koe-wetzel-2026-morrison-z7r9jz1a7-0gf | Koe Wetzel | add (applied) | 7764123 | https://www.ticketnetwork.com/en/p/7764123 | - |
+| tm-koe-wetzel-2026-lubbock-z7r9jz1a7-jaw | Koe Wetzel | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-koe-wetzel-2026-helotes-z7r9jz1aaebqp | Koe Wetzel | add (applied) | 8307857 | https://www.ticketnetwork.com/en/p/8307857 | - |
+| tm-koe-wetzel-2026-corpus-christi-z7r9jz1aaebqk | Koe Wetzel | add (applied) | 8307858 | https://www.ticketnetwork.com/en/p/8307858 | - |
+| tm-koe-wetzel-2026-round-rock-z7r9jz1aaeb-n | Koe Wetzel | add (applied) | 8307859 | https://www.ticketnetwork.com/en/p/8307859 | - |
+| tm-koe-wetzel-2026-fort-worth-z7r9jz1aa7evf | Koe Wetzel | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-koe-wetzel-2026-fort-worth-z7r9jz1aa7vfe | Koe Wetzel | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-koe-wetzel-2026-las-vegas-1ayzkfkgkdtup_a | Koe Wetzel | add (applied) | 8194341 | https://www.ticketnetwork.com/en/p/8194341 | - |
+| tm-victoria-monet-2026-houston-g5diz_33ccqfw | Victoria Monet | add (applied) | 8258101 | https://www.ticketnetwork.com/en/p/8258101 | - |
+| tm-victoria-monet-2026-dallas-vvg1yz_3n9clqe | Victoria Monet | add (applied) | 8258102 | https://www.ticketnetwork.com/en/p/8258102 | - |
+| tm-victoria-monet-2026-atlanta-z7r9jz1aavpbj | Victoria Monet | add (applied) | 8258103 | https://www.ticketnetwork.com/en/p/8258103 | - |
+| tm-victoria-monet-2026-charlotte-g5evz_3nkdbni | Victoria Monet | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-victoria-monet-2026-fort-lauderdale-z7r9jz1aavpbe | Victoria Monet | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-victoria-monet-2026-tampa-vvg1vz_3nvhqgr | Victoria Monet | add (applied) | 8258105 | https://www.ticketnetwork.com/en/p/8258105 | - |
+| tm-victoria-monet-2026-philadelphia-vv1aezkfxgkegbvoj | Victoria Monet | add (applied) | 8258106 | https://www.ticketnetwork.com/en/p/8258106 | - |
+| tm-victoria-monet-2026-boston-vv1avzkfpgkdybxe- | Victoria Monet | add (applied) | 8258107 | https://www.ticketnetwork.com/en/p/8258107 | - |
+| tm-victoria-monet-2026-detroit-vv1afzkfegkdcyvij | Victoria Monet | add (applied) | 8258108 | https://www.ticketnetwork.com/en/p/8258108 | - |
+| tm-victoria-monet-2026-milwaukee-vv1kjz_3f4g7vnwv | Victoria Monet | add (applied) | 8258109 | https://www.ticketnetwork.com/en/p/8258109 | - |
+| tm-victoria-monet-2026-chicago-vv1k8z_3bag7xjoo | Victoria Monet | add (applied) | 8258110 | https://www.ticketnetwork.com/en/p/8258110 | - |
+| tm-victoria-monet-2026-toronto-1a8zkf-gkdrpzii | Victoria Monet | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-victoria-monet-2026-pittsburgh-1apzkftgkexngtr | Victoria Monet | add (applied) | 8258111 | https://www.ticketnetwork.com/en/p/8258111 | - |
+| tm-victoria-monet-2026-new-york-g5diz_3c1vwav | Victoria Monet | add (applied) | 8258112 | https://www.ticketnetwork.com/en/p/8258112 | - |
+| tm-victoria-monet-2026-washington-1a4zkfigkeu6i0b | Victoria Monet | add (applied) | 8258113 | https://www.ticketnetwork.com/en/p/8258113 | - |
+| tm-victoria-monet-2026-nashville-g5viz_3rdnbd2 | Victoria Monet | add (applied) | 8258114 | https://www.ticketnetwork.com/en/p/8258114 | - |
+| tm-victoria-monet-2026-austin-z7r9jz1aavpbs | Victoria Monet | add (applied) | 8258115 | https://www.ticketnetwork.com/en/p/8258115 | - |
+| tm-victoria-monet-2026-phoenix-1fk8vpadufz7ccuc | Victoria Monet | add (applied) | 8258116 | https://www.ticketnetwork.com/en/p/8258116 | - |
+| tm-victoria-monet-2026-san-diego-vvg1iz_32hzdgh | Victoria Monet | add (applied) | 8258117 | https://www.ticketnetwork.com/en/p/8258117 | - |
+| tm-victoria-monet-2026-inglewood-vvg1iz_3xv_aba | Victoria Monet | add (applied) | 8258118 | https://www.ticketnetwork.com/en/p/8258118 | - |
+| tm-victoria-monet-2026-las-vegas-1avjz_38nr4zdcac | Victoria Monet | add (applied) | 8258119 | https://www.ticketnetwork.com/en/p/8258119 | - |
+| tm-victoria-monet-2026-vancouver-1aozkf0gkdm521c | Victoria Monet | add (applied) | 8258123 | https://www.ticketnetwork.com/en/p/8258123 | - |
+| tm-victoria-monet-2026-seattle-vvg1hz_31fteps | Victoria Monet | add (applied) | 8258120 | https://www.ticketnetwork.com/en/p/8258120 | - |
+| tm-victoria-monet-2026-sacramento-g5vyz_3xulwgw | Victoria Monet | add (applied) | 8258121 | https://www.ticketnetwork.com/en/p/8258121 | - |
+| tm-victoria-monet-2026-san-francisco-g5vyz_320sgvq | Victoria Monet | add (applied) | 8259524 | https://www.ticketnetwork.com/en/p/8259524 | - |
+| tm-jon-pardi-2026-biloxi-g5viz_ctexxwa | Jon Pardi | add (applied) | 8149211 | https://www.ticketnetwork.com/en/p/8149211 | - |
+| tm-jon-pardi-2026-macon-vvg1zz_cbiziyi | Jon Pardi | add (applied) | 8149210 | https://www.ticketnetwork.com/en/p/8149210 | - |
+| tm-jon-pardi-2026-laredo-g5diz_ctprcyh | Jon Pardi | add (applied) | 8149214 | https://www.ticketnetwork.com/en/p/8149214 | - |
+| tm-jon-pardi-2026-corpus-christi-z7r9jz1aazdpk | Jon Pardi | add (applied) | 8149243 | https://www.ticketnetwork.com/en/p/8149243 | - |
+| tm-jon-pardi-2026-round-rock-z7r9jz1aazd8o | Jon Pardi | add (applied) | 8149248 | https://www.ticketnetwork.com/en/p/8149248 | - |
+| tm-jon-pardi-2026-cedar-rapids-vvg1bz_ctazgrx | Jon Pardi | add (applied) | 8149215 | https://www.ticketnetwork.com/en/p/8149215 | - |
+| tm-jon-pardi-2026-peoria-vvg1jz_cjyd3ia | Jon Pardi | add (applied) | 8149216 | https://www.ticketnetwork.com/en/p/8149216 | - |
+| tm-jon-pardi-2026-independence-vvg1bz_cu03zzw | Jon Pardi | add (applied) | 8149217 | https://www.ticketnetwork.com/en/p/8149217 | - |
+| tm-jon-pardi-2026-saint-louis-16e7z_obyg7v9-3 | Jon Pardi | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-jon-pardi-2027-durant-vvg1yz_ksrbiue | Jon Pardi | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-jon-pardi-2027-nampa-z7r9jz1aazeqe | Jon Pardi | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-jon-pardi-2027-loveland-z7r9jz1aazeb3 | Jon Pardi | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-jon-pardi-2027-west-valley-city-g5vzz_2evjpcf | Jon Pardi | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-brandi-carlile-2026-portland-z7r9jz1aaea4m | Brandi Carlile | add (applied) | 8293661 | https://www.ticketnetwork.com/en/p/8293661 | - |
+| tm-brandi-carlile-2026-oakland-g5vyz_k55sumi | Brandi Carlile | add (applied) | 8293180 | https://www.ticketnetwork.com/en/p/8293180 | - |
+| tm-brandi-carlile-2026-tucson-1a_zkfygkdorlne | Brandi Carlile | add (applied) | 8293181 | https://www.ticketnetwork.com/en/p/8293181 | - |
+| tm-brandi-carlile-2026-tucson-1a_zkfygkdoyl04 | Brandi Carlile | add (applied) | 8293182 | https://www.ticketnetwork.com/en/p/8293182 | - |
+| tm-brandi-carlile-2026-milwaukee-z7r9jz1aaeajv | Brandi Carlile | add (applied) | 8293191 | https://www.ticketnetwork.com/en/p/8293191 | - |
+| tm-brandi-carlile-2026-milwaukee-z7r9jz1aaeaje | Brandi Carlile | add (applied) | 8293192 | https://www.ticketnetwork.com/en/p/8293192 | - |
+| tm-brandi-carlile-2026-minneapolis-vv1akzkfmgkdnqpgx | Brandi Carlile | add (applied) | 8293183 | https://www.ticketnetwork.com/en/p/8293183 | - |
+| tm-brandi-carlile-2026-minneapolis-vv1akzkfmgkdnrguf | Brandi Carlile | add (applied) | 8293184 | https://www.ticketnetwork.com/en/p/8293184 | - |
+| tm-brandi-carlile-2026-louisville-1apzkfugkdjvl2t | Brandi Carlile | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-brandi-carlile-2026-louisville-1apzkfugkdjal8x | Brandi Carlile | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-brandi-carlile-2026-kansas-city-vv1akzkfzgkd6vlxs | Brandi Carlile | add (applied) | 8293193 | https://www.ticketnetwork.com/en/p/8293193 | - |
+| tm-brandi-carlile-2026-port-chester-g5vvz_kx-skxh | Brandi Carlile | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-brandi-carlile-2026-port-chester-g5vvz_kx-vnxl | Brandi Carlile | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-brandi-carlile-2026-port-chester-g5vvz_kx-gsxn | Brandi Carlile | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-brandi-carlile-2027-seattle-vvg1hz_44goz5b | Brandi Carlile | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-brandi-carlile-2027-seattle-vvg1hz_44gxf5- | Brandi Carlile | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-brandi-carlile-2027-seattle-vvg1hz_44gnb5t | Brandi Carlile | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-brandi-carlile-2027-seattle-vvg1hz_44g0z5w | Brandi Carlile | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-brandi-carlile-2027-dublin-1abzku4gkdpubm4 | Brandi Carlile | add (applied) | 8248298 | https://www.ticketnetwork.com/en/p/8248298 | - |
+| tm-brandi-carlile-2027-glasgow-16dbz_8p8g7is9u | Brandi Carlile | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-brandi-carlile-2027-glasgow-1auzkfagkeeywvx | Brandi Carlile | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-brandi-carlile-2027-manchester-16dbz_8qkg7xvln | Brandi Carlile | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-brandi-carlile-2027-manchester-1auzkfkgkd0yvnl | Brandi Carlile | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-brandi-carlile-2027-wolverhampton-g5vhz_8ni4sv1 | Brandi Carlile | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-brandi-carlile-2027-london-16dbz_8rdg7g-dj | Brandi Carlile | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-brandi-carlile-2027-london-16uzkf6-7za5ev8a | Brandi Carlile | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-andrea-bocelli-2027-praha-9-z698xzu0z1k3k74-f | Andrea Bocelli | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-blondshell-2027-columbus-z7r9jz1aaeogk | Blondshell | add (applied) | 8295790 | https://www.ticketnetwork.com/en/p/8295790 | - |
+| tm-sienna-spiro-2027-morrison-z7r9jz1aa7-1d | Sienna Spiro | add (applied) | 8332358 | https://www.ticketnetwork.com/en/p/8332358 | - |
+| tm-the-red-clay-strays-2027-bend-vvg1hz_kwvcqcl | The Red Clay Strays | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-mico-2027-columbus-z7r9jz1aa7_pz | Mico | add (applied) | 8315360 | https://www.ticketnetwork.com/en/p/8315360 | - |
+| tm-santana-2027-london-1agzk4pgkemmuru | Santana | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-santana-2027-krakow-z698xzqpz16va4pvo4 | Santana | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-santana-2027-oslo-z698xzb_z16v43vmbv | Santana | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-mana-2027-highland-z7r9jz1aa7ngx | MANA | add (applied) | 8334766 | https://www.ticketnetwork.com/en/p/8334766 | - |
+| tm-mana-2027-highland-z7r9jz1aa7x_k | MANA | add (applied) | 8334767 | https://www.ticketnetwork.com/en/p/8334767 | - |
+| tm-mana-2027-highland-z7r9jz1aa7x_7 | MANA | add (applied) | 8334768 | https://www.ticketnetwork.com/en/p/8334768 | - |
+| tm-mana-2027-highland-z7r9jz1aa7x_6 | MANA | add (applied) | 8334769 | https://www.ticketnetwork.com/en/p/8334769 | - |
+| tm-mana-2027-highland-z7r9jz1aa7ng- | MANA | add (applied) | 8334770 | https://www.ticketnetwork.com/en/p/8334770 | - |
+| tm-mana-2027-highland-z7r9jz1aa7x_a | MANA | add (applied) | 8334771 | https://www.ticketnetwork.com/en/p/8334771 | - |
+| tm-turnpike-troubadours-2027-morrison-z7r9jz1aa7_ae | Turnpike Troubadours | add (applied) | 8329462 | https://www.ticketnetwork.com/en/p/8329462 | - |
+| tm-turnpike-troubadours-2027-morrison-z7r9jz1aa7_av | Turnpike Troubadours | add (applied) | 8329463 | https://www.ticketnetwork.com/en/p/8329463 | - |

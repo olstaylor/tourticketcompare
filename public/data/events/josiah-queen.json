@@ -975,11 +975,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8272507",
-        "url": "https://www.ticketnetwork.com/en/p/8272507",
-        "verified": true,
-        "last_verified_at": "2026-09-25",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8272507",
@@ -993,7 +993,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-5-2027/event/107669692",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272507",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272507/Josiah-Queen-tickets-Wed-May-5-2027-Dickies-Arena",
     "organizer_names": [
       "TRANSPARENT PRODUCTIONS"
@@ -1119,11 +1119,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8255327",
-        "url": "https://www.ticketnetwork.com/en/p/8255327",
-        "verified": true,
-        "last_verified_at": "2026-09-25",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8255327",
@@ -1137,7 +1137,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-8-2027/event/107666052",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255327",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255327/Josiah-Queen-tickets-Sat-May-8-2027-Dickies-Arena",
     "organizer_names": [
       "TRANSPARENT PRODUCTIONS"

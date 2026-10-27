@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7944777",
+        "url": "https://www.ticketliquidator.com/tickets/7944777/Treaty-Oak-Revival-tickets-Thu-Oct-29-2026-Concrete-Street-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70E78",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7944777"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7944777",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7944777/Treaty-Oak-Revival-tickets-Thu-Oct-29-2026-Concrete-Street-Amphitheater"
   },
   {
     "id": "tm-treaty-oak-revival-2026-austin-g5diz_19twyeh",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7944768",
+        "url": "https://www.ticketliquidator.com/tickets/7944768/Treaty-Oak-Revival-tickets-Thu-Nov-12-2026-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_19twyeH",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7944768"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7944768",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7944768/Treaty-Oak-Revival-tickets-Thu-Nov-12-2026-Moody-Center-ATX"
   },
   {
     "id": "tm-treaty-oak-revival-2026-the-woodlands-g5diz_1panpuq",
@@ -228,11 +244,19 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264458",
+        "url": "https://www.ticketliquidator.com/tickets/8264458/Treaty-Oak-Revival-tickets-Sat-Nov-21-2026-BOK-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aeZZ_3x88oZdGea",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264458"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264458",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264458/Treaty-Oak-Revival-tickets-Sat-Nov-21-2026-BOK-Center"
   }
 ]

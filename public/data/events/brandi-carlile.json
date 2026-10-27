@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293661",
+        "url": "https://www.ticketliquidator.com/tickets/8293661/Brandi-Carlile-tickets-Thu-Nov-5-2026-Revolution-Hall-Portland",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAea4M",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293661"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293661",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293661/Brandi-Carlile-tickets-Thu-Nov-5-2026-Revolution-Hall-Portland"
   },
   {
     "id": "tm-brandi-carlile-2026-oakland-g5vyz_k55sumi",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293180",
+        "url": "https://www.ticketliquidator.com/tickets/8293180/Brandi-Carlile-tickets-Sat-Nov-7-2026-Fox-Theater-Oakland",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_K55sUmI",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293180"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293180",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293180/Brandi-Carlile-tickets-Sat-Nov-7-2026-Fox-Theater-Oakland"
   },
   {
     "id": "tm-brandi-carlile-2026-tucson-1a_zkfygkdorlne",
@@ -175,12 +191,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293181",
+        "url": "https://www.ticketliquidator.com/tickets/8293181/Brandi-Carlile-tickets-Mon-Nov-9-2026-Rialto-Theatre-Tucson",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkfyGkdOrlNe",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293181"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293181",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293181/Brandi-Carlile-tickets-Mon-Nov-9-2026-Rialto-Theatre-Tucson"
   },
   {
     "id": "tm-brandi-carlile-2026-tucson-1a_zkfygkdoyl04",
@@ -236,12 +260,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293182",
+        "url": "https://www.ticketliquidator.com/tickets/8293182/Brandi-Carlile-tickets-Tue-Nov-10-2026-Rialto-Theatre-Tucson",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkfyGkdOyl04",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293182"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293182",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293182/Brandi-Carlile-tickets-Tue-Nov-10-2026-Rialto-Theatre-Tucson"
   },
   {
     "id": "tm-brandi-carlile-2026-milwaukee-z7r9jz1aaeajv",
@@ -297,12 +329,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293191",
+        "url": "https://www.ticketliquidator.com/tickets/8293191/Brandi-Carlile-tickets-Sat-Nov-14-2026-Pabst-Theater",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeajv",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293191"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293191",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293191/Brandi-Carlile-tickets-Sat-Nov-14-2026-Pabst-Theater"
   },
   {
     "id": "tm-brandi-carlile-2026-milwaukee-z7r9jz1aaeaje",
@@ -358,12 +398,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293192",
+        "url": "https://www.ticketliquidator.com/tickets/8293192/Brandi-Carlile-tickets-Sun-Nov-15-2026-Pabst-Theater",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeaje",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293192"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293192",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293192/Brandi-Carlile-tickets-Sun-Nov-15-2026-Pabst-Theater"
   },
   {
     "id": "tm-brandi-carlile-2026-minneapolis-vv1akzkfmgkdnqpgx",
@@ -419,12 +467,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293183",
+        "url": "https://www.ticketliquidator.com/tickets/8293183/Brandi-Carlile-tickets-Tue-Nov-17-2026-State-Theatre-MN",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfMGkdNqPGX",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293183"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293183",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293183/Brandi-Carlile-tickets-Tue-Nov-17-2026-State-Theatre-MN"
   },
   {
     "id": "tm-brandi-carlile-2026-minneapolis-vv1akzkfmgkdnrguf",
@@ -480,12 +536,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293184",
+        "url": "https://www.ticketliquidator.com/tickets/8293184/Brandi-Carlile-tickets-Wed-Nov-18-2026-State-Theatre-MN",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfMGkdNrguF",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293184"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293184",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293184/Brandi-Carlile-tickets-Wed-Nov-18-2026-State-Theatre-MN"
   },
   {
     "id": "tm-brandi-carlile-2026-louisville-1apzkfugkdjvl2t",
@@ -647,12 +711,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293193",
+        "url": "https://www.ticketliquidator.com/tickets/8293193/Brandi-Carlile-tickets-Sun-Nov-22-2026-Uptown-Theater-KC",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfzGkd6Vlxs",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293193"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293193",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293193/Brandi-Carlile-tickets-Sun-Nov-22-2026-Uptown-Theater-KC"
   },
   {
     "id": "tm-brandi-carlile-2026-port-chester-g5vvz_kx-skxh",
@@ -1083,12 +1155,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8248298",
+        "url": "https://www.ticketliquidator.com/tickets/8248298/Brandi-Carlile-tickets-Sun-Apr-4-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AbZku4GkdpuBm4",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8248298"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8248298",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8248298/Brandi-Carlile-tickets-Sun-Apr-4-2027-3Arena-Dublin"
   },
   {
     "id": "tm-brandi-carlile-2027-glasgow-16dbz_8p8g7is9u",

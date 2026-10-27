@@ -848,12 +848,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7425008",
+        "url": "https://www.ticketliquidator.com/tickets/7425008/Barry-Manilow-tickets-Fri-Jan-15-2027-Amerant-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7jI0E",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425008"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425008",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425008/Barry-Manilow-tickets-Fri-Jan-15-2027-Amerant-Bank-Arena"
   },
   {
     "id": "tm-barry-manilow-2027-estero-vvg1vzbwhe6k-q",
@@ -909,12 +917,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7425011",
+        "url": "https://www.ticketliquidator.com/tickets/7425011/Barry-Manilow-tickets-Sat-Jan-16-2027-Hertz-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbwHE6K-Q",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425011"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425011",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425011/Barry-Manilow-tickets-Sat-Jan-16-2027-Hertz-Arena"
   },
   {
     "id": "tm-barry-manilow-2027-estero-vvg1vzbwhe6n-j",
@@ -970,12 +986,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7425012",
+        "url": "https://www.ticketliquidator.com/tickets/7425012/Barry-Manilow-tickets-Sun-Jan-17-2027-Hertz-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbwHE6N-j",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425012"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425012",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425012/Barry-Manilow-tickets-Sun-Jan-17-2027-Hertz-Arena"
   },
   {
     "id": "tm-barry-manilow-2027-tampa-vvg1vzbsept-t8",
@@ -1031,12 +1055,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7425010",
+        "url": "https://www.ticketliquidator.com/tickets/7425010/Barry-Manilow-tickets-Wed-Jan-20-2027-Benchmark-International-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbSePT-t8",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425010"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425010",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425010/Barry-Manilow-tickets-Wed-Jan-20-2027-Benchmark-International-Arena"
   },
   {
     "id": "tm-barry-manilow-2027-orlando-1aefzbwgksczswf",
@@ -1092,12 +1124,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7425009",
+        "url": "https://www.ticketliquidator.com/tickets/7425009/Barry-Manilow-tickets-Thu-Jan-21-2027-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZbwGkSCZsWf",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425009"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425009",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425009/Barry-Manilow-tickets-Thu-Jan-21-2027-Kia-Center"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dw5kgq",

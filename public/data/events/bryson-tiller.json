@@ -337,11 +337,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8011577",
-        "url": "https://www.ticketliquidator.com/tickets/8011577/Bryson-Tiller-tickets-Sun-Oct-25-2026-Intuit-Dome",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107394139",
@@ -361,7 +361,7 @@
     "ticketmaster_discovery_event_id": "vvG10Z_5Eio1cI",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8011577/Bryson-Tiller-tickets-Sun-Oct-25-2026-Intuit-Dome",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-inglewood-tickets-10-25-2026/event/107394139",
     "organizer_names": [
       "LIVE NATION MUSIC"

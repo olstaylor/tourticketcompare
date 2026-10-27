@@ -34828,11 +34828,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7954219",
-        "url": "https://www.ticketliquidator.com/tickets/7954219/Niall-Horan-tickets-Sun-May-2-2027-Dickies-Arena",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1r1jEer",
@@ -34840,7 +34840,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-fort-worth-tickets-5-2-2027/event/107166118",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954219/Niall-Horan-tickets-Sun-May-2-2027-Dickies-Arena",
+    "ticketliquidator_url": "",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -36281,11 +36281,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7457622",
-        "url": "https://www.ticketliquidator.com/tickets/7457622/Doja-Cat-tickets-Sun-Oct-25-2026-Chase-Center",
-        "verified": true,
-        "last_verified_at": "2026-10-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbS0uA9TW",
@@ -36293,7 +36293,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-san-francisco-tickets-10-19-2026/event/106972097",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457622/Doja-Cat-tickets-Sun-Oct-25-2026-Chase-Center",
+    "ticketliquidator_url": "",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-10-20T02:30:00Z",
     "previous_start_timezone": "America/Los_Angeles",
@@ -41551,11 +41551,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7982955",
-        "url": "https://www.ticketliquidator.com/tickets/7982955/John-Summit-tickets-Sat-Nov-7-2026-Dickies-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_522AhQK",
@@ -41563,7 +41563,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/john-summit-fort-worth-tickets-11-7-2026/event/107185233",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7982955/John-Summit-tickets-Sat-Nov-7-2026-Dickies-Arena",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -41631,11 +41631,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8005641",
-        "url": "https://www.ticketliquidator.com/tickets/8005641/John-Summit-tickets-Sun-Nov-8-2026-Dickies-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_53r5bhA",
@@ -41643,7 +41643,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/john-summit-fort-worth-tickets-11-8-2026/event/107289082",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8005641/John-Summit-tickets-Sun-Nov-8-2026-Dickies-Arena",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -48077,11 +48077,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7883111",
-        "url": "https://www.ticketliquidator.com/tickets/7883111/Teddy-Swims-tickets-Fri-Oct-30-2026-Dickies-Arena",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107158274",
@@ -48095,7 +48095,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883111/Teddy-Swims-tickets-Fri-Oct-30-2026-Dickies-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-fort-worth-tickets-10-30-2026/event/107158274",
     "organizer_names": [
       "AEG LIVE"
@@ -55034,11 +55034,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8071966",
-        "url": "https://www.ticketliquidator.com/tickets/8071966/Don-Omar-tickets-Sat-Mar-6-2027-Dickies-Arena",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107447678",
@@ -55052,7 +55052,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071966/Don-Omar-tickets-Sat-Mar-6-2027-Dickies-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-fort-worth-tickets-3-6-2027/event/107447678",
     "presales": [
       {
@@ -62672,11 +62672,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8184443",
-        "url": "https://www.ticketliquidator.com/tickets/8184443/Pentatonix-tickets-Wed-Dec-16-2026-Dickies-Arena",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107469566",
@@ -62690,7 +62690,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184443/Pentatonix-tickets-Wed-Dec-16-2026-Dickies-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/pentatonix-fort-worth-tickets-12-16-2026/event/107469566",
     "presales": [
       {
@@ -88672,11 +88672,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "8042799",
+        "url": "https://www.ticketliquidator.com/tickets/8042799/Sylvan-Esso-tickets-Mon-Mar-1-2027-The-Sound-At-The-Del-Mar-Fairgrounds",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8042799",
@@ -88689,7 +88689,7 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_G9535-X",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042799/Sylvan-Esso-tickets-Mon-Mar-1-2027-The-Sound-At-The-Del-Mar-Fairgrounds",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042799"
   },
   {
@@ -112399,11 +112399,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8270991",
-        "url": "https://www.ticketliquidator.com/tickets/8270991/Hans-Zimmer-tickets-Mon-Mar-22-2027-Dickies-Arena",
-        "verified": true,
-        "last_verified_at": "2026-09-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107669471",
@@ -112417,7 +112417,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270991/Hans-Zimmer-tickets-Mon-Mar-22-2027-Dickies-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-fort-worth-tickets-3-22-2027/event/107669471",
     "presales": [
       {
@@ -118746,11 +118746,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8284554",
-        "url": "https://www.ticketliquidator.com/tickets/8284554/Hilary-Duff-tickets-Sat-Nov-6-2027-Dickies-Arena",
-        "verified": true,
-        "last_verified_at": "2026-09-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -118770,7 +118770,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_3lPl3yg",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284554/Hilary-Duff-tickets-Sat-Nov-6-2027-Dickies-Arena",
+    "ticketliquidator_url": "",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-fort-worth-tickets-11-6-2027/event/107669002",
     "presales": [
@@ -120352,11 +120352,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8272507",
-        "url": "https://www.ticketliquidator.com/tickets/8272507/Josiah-Queen-tickets-Wed-May-5-2027-Dickies-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KeBfBqm",
@@ -120364,7 +120364,7 @@
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-5-2027/event/107669692",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272507/Josiah-Queen-tickets-Wed-May-5-2027-Dickies-Arena",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "TRANSPARENT PRODUCTIONS"
     ]
@@ -120496,11 +120496,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8255327",
-        "url": "https://www.ticketliquidator.com/tickets/8255327/Josiah-Queen-tickets-Sat-May-8-2027-Dickies-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_35oAhaq",
@@ -120508,7 +120508,7 @@
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-8-2027/event/107666052",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255327/Josiah-Queen-tickets-Sat-May-8-2027-Dickies-Arena",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "TRANSPARENT PRODUCTIONS"
     ]
@@ -129420,18 +129420,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8035370",
-        "url": "https://www.ticketliquidator.com/tickets/8035370/Malcolm-Todd-tickets-Sun-Oct-25-2026-Arizona-Financial-Theatre",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G6G538qi9",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8035370/Malcolm-Todd-tickets-Sun-Oct-25-2026-Arizona-Financial-Theatre",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -156365,11 +156365,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8293970",
-        "url": "https://www.ticketliquidator.com/tickets/8293970/The-Love-of-Soul-Tour-tickets-Sat-Mar-13-2027-Dickies-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107671384",
@@ -156383,7 +156383,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293970/The-Love-of-Soul-Tour-tickets-Sat-Mar-13-2027-Dickies-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-fort-worth-tickets-3-13-2027/event/107671384",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
@@ -172241,11 +172241,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8303363",
-        "url": "https://www.ticketliquidator.com/tickets/8303363/Greta-Van-Fleet-tickets-Mon-Mar-15-2027-Dickies-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107671871",
@@ -172259,7 +172259,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303363/Greta-Van-Fleet-tickets-Mon-Mar-15-2027-Dickies-Arena",
+    "ticketliquidator_url": "",
     "presales": [
       {
         "name": "VIP Packages Onsale",
@@ -173565,6 +173565,13 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8341562",
+        "url": "https://www.ticketliquidator.com/tickets/8341562/Greta-Van-Fleet-tickets-Fri-Jun-4-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AbZkfMGkeS3WYd",
@@ -173574,7 +173581,8 @@
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8341562"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8341562",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8341562/Greta-Van-Fleet-tickets-Fri-Jun-4-2027-3Arena-Dublin"
   },
   {
     "id": "tm-greta-van-fleet-2027-vancouver-1av7z_kgkw_ogty",
@@ -177961,11 +177969,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8293130",
-        "url": "https://www.ticketliquidator.com/tickets/8293130/Riley-Green-tickets-Thu-May-6-2027-Dickies-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_Kepbp4s",
@@ -177973,7 +177981,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/riley-green-fort-worth-tickets-5-6-2027/event/107671387",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293130/Riley-Green-tickets-Thu-May-6-2027-Dickies-Arena",
+    "ticketliquidator_url": "",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -197477,11 +197485,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8312073",
-        "url": "https://www.ticketliquidator.com/tickets/8312073/Def-Leppard-tickets-Sun-Apr-18-2027-Dickies-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107672239",
@@ -197495,7 +197503,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312073/Def-Leppard-tickets-Sun-Apr-18-2027-Dickies-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/def-leppard-fort-worth-tickets-4-18-2027/event/107672239",
     "presales": [
       {
@@ -219910,6 +219918,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307103",
+        "url": "https://www.ticketliquidator.com/tickets/8307103/Yuridia-tickets-Sat-Dec-5-2026-Coliseo-GNP-Seguros",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dVZ_aiA5kvD",
@@ -219918,7 +219933,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/yuridia-tickets-guadalajara-coliseo-gnp-seguros-estadio-3-de-marzo-5-12-2026/event/107165422",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307103/Yuridia-tickets-Sat-Dec-5-2026-Coliseo-GNP-Seguros"
   },
   {
     "id": "tm-fkj-2026-k-benhavn-v-z698xzc4z16vvpef0i",
@@ -233186,18 +233202,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8237408",
-        "url": "https://www.ticketliquidator.com/tickets/8237408/Fuerza-Regida-tickets-Sun-Oct-25-2026-Dignity-Health-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvaxk",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8237408/Fuerza-Regida-tickets-Sun-Oct-25-2026-Dignity-Health-Arena",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -246582,11 +246598,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8313660",
-        "url": "https://www.ticketliquidator.com/tickets/8313660/Leon-Bridges-tickets-Fri-Apr-23-2027-Dickies-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-14",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -246599,7 +246615,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_f9mdnDC",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313660/Leon-Bridges-tickets-Fri-Apr-23-2027-Dickies-Arena",
+    "ticketliquidator_url": "",
     "ticketnetwork_url": "",
     "organizer_names": [
       "AEG LIVE"
@@ -253257,6 +253273,13 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8341561",
+        "url": "https://www.ticketliquidator.com/tickets/8341561/Simple-Minds-tickets-Mon-May-17-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kkZvPk_GA2vkUC",
@@ -253266,7 +253289,8 @@
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8341561"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8341561",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8341561/Simple-Minds-tickets-Mon-May-17-2027-3Arena-Dublin"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-madrid-z698xz2qz1kvp4xag",
@@ -255164,11 +255188,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7774764",
-        "url": "https://www.ticketliquidator.com/tickets/7774764/Gorillaz-tickets-Sun-Oct-25-2026-Pechanga-Arena-San-Diego",
-        "verified": true,
-        "last_verified_at": "2026-10-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_Ai_rrcV",
@@ -255178,7 +255202,7 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774764/Gorillaz-tickets-Sun-Oct-25-2026-Pechanga-Arena-San-Diego"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-gorillaz-2026-oakland-g5vyz_allhhol",
@@ -262959,6 +262983,13 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8341908",
+        "url": "https://www.ticketliquidator.com/tickets/8341908/Greta-Van-Fleet-tickets-Wed-Jun-2-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkfUGkd_HIpm",
@@ -262969,7 +263000,8 @@
       "DF CONCERTS LIMITED",
       "SCOTTISH EVENT CAMPUS LIMITED"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8341908"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8341908",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8341908/Greta-Van-Fleet-tickets-Wed-Jun-2-2027-OVO-Hydro"
   },
   {
     "id": "tm-fontaines-d-c-2026-manchester-g5vhz_okyh0m1",
@@ -269337,11 +269369,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8011577",
-        "url": "https://www.ticketliquidator.com/tickets/8011577/Bryson-Tiller-tickets-Sun-Oct-25-2026-Intuit-Dome",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107394139",
@@ -269361,7 +269393,7 @@
     "ticketmaster_discovery_event_id": "vvG10Z_5Eio1cI",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8011577/Bryson-Tiller-tickets-Sun-Oct-25-2026-Intuit-Dome",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-inglewood-tickets-10-25-2026/event/107394139",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -274682,11 +274714,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7997398",
-        "url": "https://www.ticketliquidator.com/tickets/7997398/Tom-Jones-tickets-Mon-Oct-26-2026-Greek-Theatre-Los-Angeles-CA",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107448275",
@@ -274706,7 +274738,7 @@
     "ticketmaster_discovery_event_id": "vvG10Z_58XADKo",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997398/Tom-Jones-tickets-Mon-Oct-26-2026-Greek-Theatre-Los-Angeles-CA",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/tom-jones-los-angeles-tickets-10-26-2026/event/107448275",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -274762,11 +274794,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7997399",
-        "url": "https://www.ticketliquidator.com/tickets/7997399/Tom-Jones-tickets-Tue-Oct-27-2026-The-Rady-Shell-at-Jacobs-Park",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107447921",
@@ -274786,7 +274818,7 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_5GQCfyd",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997399/Tom-Jones-tickets-Tue-Oct-27-2026-The-Rady-Shell-at-Jacobs-Park",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/tom-jones-san-diego-tickets-10-27-2026/event/107447921",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -279675,11 +279707,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7830819",
-        "url": "https://www.ticketliquidator.com/tickets/7830819/Ty-Myers-tickets-Sat-Nov-21-2026-Dickies-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107167142",
@@ -279699,7 +279731,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_61DJQEl",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7830819/Ty-Myers-tickets-Sat-Nov-21-2026-Dickies-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/ty-myers-fort-worth-tickets-11-21-2026/event/107167142",
     "organizer_names": [
       "AEG LIVE"
@@ -295183,11 +295215,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7843525",
-        "url": "https://www.ticketliquidator.com/tickets/7843525/Billy-Strings-tickets-Fri-Dec-11-2026-Dickies-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107155188",
@@ -295201,7 +295233,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7843525/Billy-Strings-tickets-Fri-Dec-11-2026-Dickies-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/billy-strings-fort-worth-tickets-12-11-2026/event/107155188"
   },
   {
@@ -296112,12 +296144,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7744413",
+        "url": "https://www.ticketliquidator.com/tickets/7744413/Cristian-Castro-tickets-Fri-Nov-6-2026-Desert-Diamond-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_Zko8GkeBJA4T",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7744413"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7744413",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7744413/Cristian-Castro-tickets-Fri-Nov-6-2026-Desert-Diamond-Arena"
   },
   {
     "id": "tm-cristian-castro-2026-el-paso-vvg1yz_adzeyjf",
@@ -296173,12 +296213,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7744415",
+        "url": "https://www.ticketliquidator.com/tickets/7744415/Cristian-Castro-tickets-Sat-Nov-7-2026-El-Paso-County-Coliseum",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_AdzEyJF",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7744415"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7744415",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7744415/Cristian-Castro-tickets-Sat-Nov-7-2026-El-Paso-County-Coliseum"
   },
   {
     "id": "tm-cristian-castro-2026-san-diego-z7r9jz1a7-80a",
@@ -296234,12 +296282,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7746197",
+        "url": "https://www.ticketliquidator.com/tickets/7746197/Cristian-Castro-tickets-Fri-Nov-27-2026-Pechanga-Arena-San-Diego",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-80A",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746197"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746197",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7746197/Cristian-Castro-tickets-Fri-Nov-27-2026-Pechanga-Arena-San-Diego"
   },
   {
     "id": "tm-cristian-castro-2026-los-angeles-z7r9jz1a7-f4v",
@@ -296348,12 +296404,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7757487",
+        "url": "https://www.ticketliquidator.com/tickets/7757487/Cristian-Castro-tickets-Fri-Jan-29-2027-Bellco-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-boZ",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7757487"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7757487",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7757487/Cristian-Castro-tickets-Fri-Jan-29-2027-Bellco-Theatre"
   },
   {
     "id": "tm-cristian-castro-2027-west-valley-city-g5vzz_aklolqq",
@@ -296462,12 +296526,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7757473",
+        "url": "https://www.ticketliquidator.com/tickets/7757473/Cristian-Castro-tickets-Fri-Feb-12-2027-Honda-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZkofGkeIDryM",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7757473"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7757473",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7757473/Cristian-Castro-tickets-Fri-Feb-12-2027-Honda-Center"
   },
   {
     "id": "tm-cristian-castro-2027-palm-desert-vvg1iz_1h-rylv",
@@ -296576,12 +296648,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7756937",
+        "url": "https://www.ticketliquidator.com/tickets/7756937/Cristian-Castro-tickets-Sat-Feb-27-2027-Payne-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_A2Dt_O4",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7756937"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7756937",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7756937/Cristian-Castro-tickets-Sat-Feb-27-2027-Payne-Arena"
   },
   {
     "id": "tm-cristian-castro-2027-cedar-park-g5diz_ak4-aew",
@@ -296690,12 +296770,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7756941",
+        "url": "https://www.ticketliquidator.com/tickets/7756941/Cristian-Castro-tickets-Fri-Mar-12-2027-Addition-Financial-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kFOv0fzGAC5wgD",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7756941"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7756941",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7756941/Cristian-Castro-tickets-Fri-Mar-12-2027-Addition-Financial-Arena"
   },
   {
     "id": "tm-cristian-castro-2027-miami-vvg1vz_aphhc62",
@@ -296751,12 +296839,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7756942",
+        "url": "https://www.ticketliquidator.com/tickets/7756942/Cristian-Castro-tickets-Sat-Mar-13-2027-James-L-Knight-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_ApHhc62",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7756942"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7756942",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7756942/Cristian-Castro-tickets-Sat-Mar-13-2027-James-L-Knight-Center"
   },
   {
     "id": "tm-treaty-oak-revival-2026-corpus-christi-z7r9jz1a70e78",
@@ -296812,12 +296908,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7944777",
+        "url": "https://www.ticketliquidator.com/tickets/7944777/Treaty-Oak-Revival-tickets-Thu-Oct-29-2026-Concrete-Street-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70E78",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7944777"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7944777",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7944777/Treaty-Oak-Revival-tickets-Thu-Oct-29-2026-Concrete-Street-Amphitheater"
   },
   {
     "id": "tm-treaty-oak-revival-2026-austin-g5diz_19twyeh",
@@ -296873,12 +296977,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7944768",
+        "url": "https://www.ticketliquidator.com/tickets/7944768/Treaty-Oak-Revival-tickets-Thu-Nov-12-2026-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_19twyeH",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7944768"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7944768",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7944768/Treaty-Oak-Revival-tickets-Thu-Nov-12-2026-Moody-Center-ATX"
   },
   {
     "id": "tm-treaty-oak-revival-2026-the-woodlands-g5diz_1panpuq",
@@ -296987,12 +297099,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264458",
+        "url": "https://www.ticketliquidator.com/tickets/8264458/Treaty-Oak-Revival-tickets-Sat-Nov-21-2026-BOK-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aeZZ_3x88oZdGea",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264458"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264458",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264458/Treaty-Oak-Revival-tickets-Sat-Nov-21-2026-BOK-Center"
   },
   {
     "id": "tm-boyz-ii-men-2026-waurn-ponds-177yv0g6cqczn9y",
@@ -297101,12 +297221,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8173275",
+        "url": "https://www.ticketliquidator.com/tickets/8173275/Boyz-II-Men-tickets-Tue-Dec-1-2026-Spark-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17aZv0G6C2evN3T",
     "timezone": "Pacific/Auckland",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173275"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173275",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173275/Boyz-II-Men-tickets-Tue-Dec-1-2026-Spark-Arena"
   },
   {
     "id": "tm-boyz-ii-men-2026-pokolbin-177yv0g6cro9xjr",
@@ -297268,12 +297396,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8234392",
+        "url": "https://www.ticketliquidator.com/tickets/8234392/Boyz-II-Men-tickets-Fri-Dec-18-2026-Showplace-Theatre-At-Riverwind-Casino",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAed_y",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8234392"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8234392",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8234392/Boyz-II-Men-tickets-Fri-Dec-18-2026-Showplace-Theatre-At-Riverwind-Casino"
   },
   {
     "id": "tm-boyz-ii-men-2026-thackerville-z7r9jz1a70-f8",
@@ -297382,12 +297518,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8318130",
+        "url": "https://www.ticketliquidator.com/tickets/8318130/Boyz-II-Men-tickets-Fri-Feb-5-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4eGkdP6Cdw",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318130"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318130",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318130/Boyz-II-Men-tickets-Fri-Feb-5-2027-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-boyz-ii-men-2027-atlantic-city-vv1kfz_fbxg7mvlj",
@@ -297443,12 +297587,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8318131",
+        "url": "https://www.ticketliquidator.com/tickets/8318131/Boyz-II-Men-tickets-Sat-Feb-6-2027-Borgata-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kFZ_fbxG7MVlj",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318131"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318131",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318131/Boyz-II-Men-tickets-Sat-Feb-6-2027-Borgata-Event-Center"
   },
   {
     "id": "tm-boyz-ii-men-2027-national-harbor-1ka8vp3aga5lj2s",
@@ -297504,12 +297656,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8318132",
+        "url": "https://www.ticketliquidator.com/tickets/8318132/Boyz-II-Men-tickets-Thu-Feb-11-2027-The-Theater-at-MGM-National-Harbor",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kA8vP3aGA5lJ2s",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318132"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318132",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318132/Boyz-II-Men-tickets-Thu-Feb-11-2027-The-Theater-at-MGM-National-Harbor"
   },
   {
     "id": "tm-boyz-ii-men-2027-national-harbor-1ka8vp3aga5ij2m",
@@ -297565,12 +297725,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8318133",
+        "url": "https://www.ticketliquidator.com/tickets/8318133/Boyz-II-Men-tickets-Fri-Feb-12-2027-The-Theater-at-MGM-National-Harbor",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kA8vP3aGA5iJ2M",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318133"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318133",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318133/Boyz-II-Men-tickets-Fri-Feb-12-2027-The-Theater-at-MGM-National-Harbor"
   },
   {
     "id": "tm-boyz-ii-men-2027-national-harbor-1ka8vp3aga5cu2t",
@@ -297626,12 +297794,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8318134",
+        "url": "https://www.ticketliquidator.com/tickets/8318134/Boyz-II-Men-tickets-Sat-Feb-13-2027-The-Theater-at-MGM-National-Harbor",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kA8vP3aGA5cU2T",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318134"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318134",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318134/Boyz-II-Men-tickets-Sat-Feb-13-2027-The-Theater-at-MGM-National-Harbor"
   },
   {
     "id": "tm-boyz-ii-men-2027-las-vegas-1kayvp7mgaglg6h",
@@ -297687,12 +297863,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8231600",
+        "url": "https://www.ticketliquidator.com/tickets/8231600/Boyz-II-Men-tickets-Fri-Mar-12-2027-The-Chelsea-The-Cosmopolitan-of-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvP7MGAGLg6H",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231600"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231600",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231600/Boyz-II-Men-tickets-Fri-Mar-12-2027-The-Chelsea-The-Cosmopolitan-of-Las-Vegas"
   },
   {
     "id": "tm-boyz-ii-men-2027-las-vegas-1kayvp7mgag-4fc",
@@ -297748,12 +297932,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8231601",
+        "url": "https://www.ticketliquidator.com/tickets/8231601/Boyz-II-Men-tickets-Sat-Mar-13-2027-The-Chelsea-The-Cosmopolitan-of-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvP7MGAG-4FC",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231601"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231601",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231601/Boyz-II-Men-tickets-Sat-Mar-13-2027-The-Chelsea-The-Cosmopolitan-of-Las-Vegas"
   },
   {
     "id": "tm-boyz-ii-men-2027-las-vegas-1kayvp7mgagn4f9",
@@ -297809,12 +298001,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8231602",
+        "url": "https://www.ticketliquidator.com/tickets/8231602/Boyz-II-Men-tickets-Fri-Mar-19-2027-The-Chelsea-The-Cosmopolitan-of-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvP7MGAGN4F9",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231602"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231602",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231602/Boyz-II-Men-tickets-Fri-Mar-19-2027-The-Chelsea-The-Cosmopolitan-of-Las-Vegas"
   },
   {
     "id": "tm-boyz-ii-men-2027-las-vegas-1kayvp7mgag0pfj",
@@ -297870,12 +298070,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8231603",
+        "url": "https://www.ticketliquidator.com/tickets/8231603/Boyz-II-Men-tickets-Sat-Mar-20-2027-The-Chelsea-The-Cosmopolitan-of-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvP7MGAG0PFJ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231603"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231603",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231603/Boyz-II-Men-tickets-Sat-Mar-20-2027-The-Chelsea-The-Cosmopolitan-of-Las-Vegas"
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dw4juo",
@@ -298726,12 +298934,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7425008",
+        "url": "https://www.ticketliquidator.com/tickets/7425008/Barry-Manilow-tickets-Fri-Jan-15-2027-Amerant-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7jI0E",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425008"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425008",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425008/Barry-Manilow-tickets-Fri-Jan-15-2027-Amerant-Bank-Arena"
   },
   {
     "id": "tm-barry-manilow-2027-estero-vvg1vzbwhe6k-q",
@@ -298787,12 +299003,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7425011",
+        "url": "https://www.ticketliquidator.com/tickets/7425011/Barry-Manilow-tickets-Sat-Jan-16-2027-Hertz-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbwHE6K-Q",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425011"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425011",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425011/Barry-Manilow-tickets-Sat-Jan-16-2027-Hertz-Arena"
   },
   {
     "id": "tm-barry-manilow-2027-estero-vvg1vzbwhe6n-j",
@@ -298848,12 +299072,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7425012",
+        "url": "https://www.ticketliquidator.com/tickets/7425012/Barry-Manilow-tickets-Sun-Jan-17-2027-Hertz-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbwHE6N-j",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425012"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425012",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425012/Barry-Manilow-tickets-Sun-Jan-17-2027-Hertz-Arena"
   },
   {
     "id": "tm-barry-manilow-2027-tampa-vvg1vzbsept-t8",
@@ -298909,12 +299141,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7425010",
+        "url": "https://www.ticketliquidator.com/tickets/7425010/Barry-Manilow-tickets-Wed-Jan-20-2027-Benchmark-International-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbSePT-t8",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425010"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425010",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425010/Barry-Manilow-tickets-Wed-Jan-20-2027-Benchmark-International-Arena"
   },
   {
     "id": "tm-barry-manilow-2027-orlando-1aefzbwgksczswf",
@@ -298970,12 +299210,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7425009",
+        "url": "https://www.ticketliquidator.com/tickets/7425009/Barry-Manilow-tickets-Thu-Jan-21-2027-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZbwGkSCZsWf",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425009"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425009",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425009/Barry-Manilow-tickets-Thu-Jan-21-2027-Kia-Center"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dw5kgq",
@@ -299667,12 +299915,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7764123",
+        "url": "https://www.ticketliquidator.com/tickets/7764123/Koe-Wetzel-tickets-Wed-Oct-28-2026-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-0GF",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7764123"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7764123",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7764123/Koe-Wetzel-tickets-Wed-Oct-28-2026-Red-Rocks-Amphitheatre"
   },
   {
     "id": "tm-koe-wetzel-2026-lubbock-z7r9jz1a7-jaw",
@@ -299781,12 +300037,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307857",
+        "url": "https://www.ticketliquidator.com/tickets/8307857/Koe-Wetzel-tickets-Wed-Dec-2-2026-John-T-Floore-Country-Store",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAebQp",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307857"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307857",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307857/Koe-Wetzel-tickets-Wed-Dec-2-2026-John-T-Floore-Country-Store"
   },
   {
     "id": "tm-koe-wetzel-2026-corpus-christi-z7r9jz1aaebqk",
@@ -299842,12 +300106,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307858",
+        "url": "https://www.ticketliquidator.com/tickets/8307858/Koe-Wetzel-tickets-Fri-Dec-4-2026-Concrete-Street-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAebqk",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307858"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307858",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307858/Koe-Wetzel-tickets-Fri-Dec-4-2026-Concrete-Street-Amphitheater"
   },
   {
     "id": "tm-koe-wetzel-2026-round-rock-z7r9jz1aaeb-n",
@@ -299903,12 +300175,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307859",
+        "url": "https://www.ticketliquidator.com/tickets/8307859/Koe-Wetzel-tickets-Sat-Dec-5-2026-Round-Rock-Amp",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeb-N",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307859"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307859",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307859/Koe-Wetzel-tickets-Sat-Dec-5-2026-Round-Rock-Amp"
   },
   {
     "id": "tm-koe-wetzel-2026-fort-worth-z7r9jz1aa7evf",
@@ -300070,12 +300350,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8194341",
+        "url": "https://www.ticketliquidator.com/tickets/8194341/Koe-Wetzel-tickets-Fri-Dec-11-2026-PH-Live-At-Planet-Hollywood",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZkfkGkdtup_a",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194341"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194341",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194341/Koe-Wetzel-tickets-Fri-Dec-11-2026-PH-Live-At-Planet-Hollywood"
   },
   {
     "id": "tm-victoria-monet-2026-houston-g5diz_33ccqfw",
@@ -300131,12 +300419,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258101",
+        "url": "https://www.ticketliquidator.com/tickets/8258101/Victoria-Monet-tickets-Sat-Oct-31-2026-713-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_33ccQFw",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258101"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258101",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258101/Victoria-Monet-tickets-Sat-Oct-31-2026-713-Music-Hall"
   },
   {
     "id": "tm-victoria-monet-2026-dallas-vvg1yz_3n9clqe",
@@ -300192,12 +300488,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258102",
+        "url": "https://www.ticketliquidator.com/tickets/8258102/Victoria-Monet-tickets-Mon-Nov-2-2026-South-Side-Ballroom-at-Gilleys",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3N9Clqe",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258102"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258102",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258102/Victoria-Monet-tickets-Mon-Nov-2-2026-South-Side-Ballroom-at-Gilleys"
   },
   {
     "id": "tm-victoria-monet-2026-atlanta-z7r9jz1aavpbj",
@@ -300253,12 +300557,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258103",
+        "url": "https://www.ticketliquidator.com/tickets/8258103/Victoria-Monet-tickets-Wed-Nov-4-2026-Fabulous-Fox-Theatre-Atlanta",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvPbJ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258103"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258103",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258103/Victoria-Monet-tickets-Wed-Nov-4-2026-Fabulous-Fox-Theatre-Atlanta"
   },
   {
     "id": "tm-victoria-monet-2026-charlotte-g5evz_3nkdbni",
@@ -300420,12 +300732,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258105",
+        "url": "https://www.ticketliquidator.com/tickets/8258105/Victoria-Monet-tickets-Sun-Nov-8-2026-The-Yuengling-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3NvHQgr",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258105"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258105",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258105/Victoria-Monet-tickets-Sun-Nov-8-2026-The-Yuengling-Center"
   },
   {
     "id": "tm-victoria-monet-2026-philadelphia-vv1aezkfxgkegbvoj",
@@ -300481,12 +300801,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258106",
+        "url": "https://www.ticketliquidator.com/tickets/8258106/Victoria-Monet-tickets-Thu-Nov-12-2026-The-Met-Presented-by-Highmark",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfxGkegbVoJ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258106"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258106",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258106/Victoria-Monet-tickets-Thu-Nov-12-2026-The-Met-Presented-by-Highmark"
   },
   {
     "id": "tm-victoria-monet-2026-boston-vv1avzkfpgkdybxe-",
@@ -300542,12 +300870,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258107",
+        "url": "https://www.ticketliquidator.com/tickets/8258107/Victoria-Monet-tickets-Fri-Nov-13-2026-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfPGkdyBXE-",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258107"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258107",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258107/Victoria-Monet-tickets-Fri-Nov-13-2026-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-victoria-monet-2026-detroit-vv1afzkfegkdcyvij",
@@ -300603,12 +300939,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258108",
+        "url": "https://www.ticketliquidator.com/tickets/8258108/Victoria-Monet-tickets-Sun-Nov-15-2026-Fox-Theatre-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfEGkdCYViJ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258108"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258108",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258108/Victoria-Monet-tickets-Sun-Nov-15-2026-Fox-Theatre-Detroit"
   },
   {
     "id": "tm-victoria-monet-2026-milwaukee-vv1kjz_3f4g7vnwv",
@@ -300664,12 +301008,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258109",
+        "url": "https://www.ticketliquidator.com/tickets/8258109/Victoria-Monet-tickets-Mon-Nov-16-2026-Landmark-Credit-Union-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kjZ_3f4G7VnWV",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258109"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258109",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258109/Victoria-Monet-tickets-Mon-Nov-16-2026-Landmark-Credit-Union-Live"
   },
   {
     "id": "tm-victoria-monet-2026-chicago-vv1k8z_3bag7xjoo",
@@ -300725,12 +301077,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258110",
+        "url": "https://www.ticketliquidator.com/tickets/8258110/Victoria-Monet-tickets-Wed-Nov-18-2026-Byline-Bank-Aragon-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k8Z_3bAG7XJoo",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258110"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258110",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258110/Victoria-Monet-tickets-Wed-Nov-18-2026-Byline-Bank-Aragon-Ballroom"
   },
   {
     "id": "tm-victoria-monet-2026-toronto-1a8zkf-gkdrpzii",
@@ -300839,12 +301199,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258111",
+        "url": "https://www.ticketliquidator.com/tickets/8258111/Victoria-Monet-tickets-Sun-Nov-22-2026-Citizens-Live-at-The-Wylie",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkftGkexNgTR",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258111"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258111",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258111/Victoria-Monet-tickets-Sun-Nov-22-2026-Citizens-Live-at-The-Wylie"
   },
   {
     "id": "tm-victoria-monet-2026-new-york-g5diz_3c1vwav",
@@ -300900,12 +301268,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258112",
+        "url": "https://www.ticketliquidator.com/tickets/8258112/Victoria-Monet-tickets-Tue-Nov-24-2026-Infosys-Theater-at-Madison-Square-Garden",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_3C1Vwav",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258112"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258112",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258112/Victoria-Monet-tickets-Tue-Nov-24-2026-Infosys-Theater-at-Madison-Square-Garden"
   },
   {
     "id": "tm-victoria-monet-2026-washington-1a4zkfigkeu6i0b",
@@ -300961,12 +301337,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258113",
+        "url": "https://www.ticketliquidator.com/tickets/8258113/Victoria-Monet-tickets-Fri-Nov-27-2026-The-Anthem-DC",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfIGkeU6I0B",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258113"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258113",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258113/Victoria-Monet-tickets-Fri-Nov-27-2026-The-Anthem-DC"
   },
   {
     "id": "tm-victoria-monet-2026-nashville-g5viz_3rdnbd2",
@@ -301022,12 +301406,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258114",
+        "url": "https://www.ticketliquidator.com/tickets/8258114/Victoria-Monet-tickets-Mon-Nov-30-2026-The-Truth",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_3rDnbD2",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258114"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258114",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258114/Victoria-Monet-tickets-Mon-Nov-30-2026-The-Truth"
   },
   {
     "id": "tm-victoria-monet-2026-austin-z7r9jz1aavpbs",
@@ -301144,12 +301536,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258116",
+        "url": "https://www.ticketliquidator.com/tickets/8258116/Victoria-Monet-tickets-Sat-Dec-5-2026-Arizona-Financial-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Fk8vPadufZ7CCuC",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258116"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258116",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258116/Victoria-Monet-tickets-Sat-Dec-5-2026-Arizona-Financial-Theatre"
   },
   {
     "id": "tm-victoria-monet-2026-san-diego-vvg1iz_32hzdgh",
@@ -301205,12 +301605,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258117",
+        "url": "https://www.ticketliquidator.com/tickets/8258117/Victoria-Monet-tickets-Sun-Dec-6-2026-Cal-Coast-Credit-Union-Open-Air-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_32HZdgH",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258117"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258117",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258117/Victoria-Monet-tickets-Sun-Dec-6-2026-Cal-Coast-Credit-Union-Open-Air-Theatre"
   },
   {
     "id": "tm-victoria-monet-2026-inglewood-vvg1iz_3xv_aba",
@@ -301266,12 +301674,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258118",
+        "url": "https://www.ticketliquidator.com/tickets/8258118/Victoria-Monet-tickets-Tue-Dec-8-2026-YouTube-Theater-at-Hollywood-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_3xV_aba",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258118"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258118",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258118/Victoria-Monet-tickets-Tue-Dec-8-2026-YouTube-Theater-at-Hollywood-Park"
   },
   {
     "id": "tm-victoria-monet-2026-las-vegas-1avjz_38nr4zdcac",
@@ -301327,12 +301743,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258119",
+        "url": "https://www.ticketliquidator.com/tickets/8258119/Victoria-Monet-tickets-Wed-Dec-9-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1avjZ_38Nr4ZdCAC",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258119"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258119",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258119/Victoria-Monet-tickets-Wed-Dec-9-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
   },
   {
     "id": "tm-victoria-monet-2026-vancouver-1aozkf0gkdm521c",
@@ -301388,12 +301812,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258123",
+        "url": "https://www.ticketliquidator.com/tickets/8258123/Victoria-Monet-tickets-Sat-Dec-12-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkf0Gkdm521c",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258123"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258123",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258123/Victoria-Monet-tickets-Sat-Dec-12-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre"
   },
   {
     "id": "tm-victoria-monet-2026-seattle-vvg1hz_31fteps",
@@ -301449,12 +301881,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258120",
+        "url": "https://www.ticketliquidator.com/tickets/8258120/Victoria-Monet-tickets-Mon-Dec-14-2026-Wamu-Theater-At-Lumen-Field-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_31fTEps",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258120"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258120",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258120/Victoria-Monet-tickets-Mon-Dec-14-2026-Wamu-Theater-At-Lumen-Field-Event-Center"
   },
   {
     "id": "tm-victoria-monet-2026-sacramento-g5vyz_3xulwgw",
@@ -301510,12 +301950,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258121",
+        "url": "https://www.ticketliquidator.com/tickets/8258121/Victoria-Monet-tickets-Wed-Dec-16-2026-Sacramento-Memorial-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_3xUlWgw",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258121"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258121",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258121/Victoria-Monet-tickets-Wed-Dec-16-2026-Sacramento-Memorial-Auditorium"
   },
   {
     "id": "tm-victoria-monet-2026-san-francisco-g5vyz_320sgvq",
@@ -301571,12 +302019,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8259524",
+        "url": "https://www.ticketliquidator.com/tickets/8259524/Victoria-Monet-tickets-Thu-Dec-17-2026-Bill-Graham-Civic-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_320sgVQ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259524"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259524",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259524/Victoria-Monet-tickets-Thu-Dec-17-2026-Bill-Graham-Civic-Auditorium"
   },
   {
     "id": "tm-jon-pardi-2026-biloxi-g5viz_ctexxwa",
@@ -301632,12 +302088,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8149211",
+        "url": "https://www.ticketliquidator.com/tickets/8149211/Jon-Pardi-tickets-Thu-Oct-29-2026-Mississippi-Coast-Coliseum",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_CTeXXWa",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149211"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149211",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149211/Jon-Pardi-tickets-Thu-Oct-29-2026-Mississippi-Coast-Coliseum"
   },
   {
     "id": "tm-jon-pardi-2026-macon-vvg1zz_cbiziyi",
@@ -301693,12 +302157,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8149210",
+        "url": "https://www.ticketliquidator.com/tickets/8149210/Jon-Pardi-tickets-Fri-Oct-30-2026-Atrium-Health-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_CBIzIYi",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149210"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149210",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149210/Jon-Pardi-tickets-Fri-Oct-30-2026-Atrium-Health-Amphitheater"
   },
   {
     "id": "tm-jon-pardi-2026-laredo-g5diz_ctprcyh",
@@ -301754,12 +302226,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8149214",
+        "url": "https://www.ticketliquidator.com/tickets/8149214/Jon-Pardi-tickets-Thu-Nov-5-2026-Sames-Auto-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_CTpRcYh",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149214"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149214",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149214/Jon-Pardi-tickets-Thu-Nov-5-2026-Sames-Auto-Arena"
   },
   {
     "id": "tm-jon-pardi-2026-corpus-christi-z7r9jz1aazdpk",
@@ -301815,12 +302295,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8149243",
+        "url": "https://www.ticketliquidator.com/tickets/8149243/Jon-Pardi-tickets-Fri-Nov-6-2026-Concrete-Street-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdpK",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149243"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149243",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149243/Jon-Pardi-tickets-Fri-Nov-6-2026-Concrete-Street-Amphitheater"
   },
   {
     "id": "tm-jon-pardi-2026-round-rock-z7r9jz1aazd8o",
@@ -301876,12 +302364,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8149248",
+        "url": "https://www.ticketliquidator.com/tickets/8149248/Jon-Pardi-tickets-Sat-Nov-7-2026-Round-Rock-Amp",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZd8O",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149248"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149248",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149248/Jon-Pardi-tickets-Sat-Nov-7-2026-Round-Rock-Amp"
   },
   {
     "id": "tm-jon-pardi-2026-cedar-rapids-vvg1bz_ctazgrx",
@@ -301937,12 +302433,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8149215",
+        "url": "https://www.ticketliquidator.com/tickets/8149215/Jon-Pardi-tickets-Thu-Nov-12-2026-Alliant-Energy-PowerHouse",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_CTAZgRx",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149215"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149215",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149215/Jon-Pardi-tickets-Thu-Nov-12-2026-Alliant-Energy-PowerHouse"
   },
   {
     "id": "tm-jon-pardi-2026-peoria-vvg1jz_cjyd3ia",
@@ -301998,12 +302502,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8149216",
+        "url": "https://www.ticketliquidator.com/tickets/8149216/Jon-Pardi-tickets-Fri-Nov-13-2026-Carver-Arena-At-Peoria-Civic-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1jZ_CJyd3ia",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149216"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149216",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149216/Jon-Pardi-tickets-Fri-Nov-13-2026-Carver-Arena-At-Peoria-Civic-Center"
   },
   {
     "id": "tm-jon-pardi-2026-independence-vvg1bz_cu03zzw",
@@ -302059,12 +302571,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8149217",
+        "url": "https://www.ticketliquidator.com/tickets/8149217/Jon-Pardi-tickets-Sat-Nov-14-2026-Cable-Dahmer-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_CU03zzW",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149217"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149217",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149217/Jon-Pardi-tickets-Sat-Nov-14-2026-Cable-Dahmer-Arena"
   },
   {
     "id": "tm-jon-pardi-2026-saint-louis-16e7z_obyg7v9-3",
@@ -302385,12 +302905,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293661",
+        "url": "https://www.ticketliquidator.com/tickets/8293661/Brandi-Carlile-tickets-Thu-Nov-5-2026-Revolution-Hall-Portland",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAea4M",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293661"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293661",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293661/Brandi-Carlile-tickets-Thu-Nov-5-2026-Revolution-Hall-Portland"
   },
   {
     "id": "tm-brandi-carlile-2026-oakland-g5vyz_k55sumi",
@@ -302446,12 +302974,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293180",
+        "url": "https://www.ticketliquidator.com/tickets/8293180/Brandi-Carlile-tickets-Sat-Nov-7-2026-Fox-Theater-Oakland",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_K55sUmI",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293180"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293180",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293180/Brandi-Carlile-tickets-Sat-Nov-7-2026-Fox-Theater-Oakland"
   },
   {
     "id": "tm-brandi-carlile-2026-tucson-1a_zkfygkdorlne",
@@ -302507,12 +303043,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293181",
+        "url": "https://www.ticketliquidator.com/tickets/8293181/Brandi-Carlile-tickets-Mon-Nov-9-2026-Rialto-Theatre-Tucson",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkfyGkdOrlNe",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293181"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293181",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293181/Brandi-Carlile-tickets-Mon-Nov-9-2026-Rialto-Theatre-Tucson"
   },
   {
     "id": "tm-brandi-carlile-2026-tucson-1a_zkfygkdoyl04",
@@ -302568,12 +303112,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293182",
+        "url": "https://www.ticketliquidator.com/tickets/8293182/Brandi-Carlile-tickets-Tue-Nov-10-2026-Rialto-Theatre-Tucson",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkfyGkdOyl04",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293182"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293182",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293182/Brandi-Carlile-tickets-Tue-Nov-10-2026-Rialto-Theatre-Tucson"
   },
   {
     "id": "tm-brandi-carlile-2026-milwaukee-z7r9jz1aaeajv",
@@ -302629,12 +303181,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293191",
+        "url": "https://www.ticketliquidator.com/tickets/8293191/Brandi-Carlile-tickets-Sat-Nov-14-2026-Pabst-Theater",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeajv",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293191"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293191",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293191/Brandi-Carlile-tickets-Sat-Nov-14-2026-Pabst-Theater"
   },
   {
     "id": "tm-brandi-carlile-2026-milwaukee-z7r9jz1aaeaje",
@@ -302690,12 +303250,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293192",
+        "url": "https://www.ticketliquidator.com/tickets/8293192/Brandi-Carlile-tickets-Sun-Nov-15-2026-Pabst-Theater",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeaje",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293192"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293192",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293192/Brandi-Carlile-tickets-Sun-Nov-15-2026-Pabst-Theater"
   },
   {
     "id": "tm-brandi-carlile-2026-minneapolis-vv1akzkfmgkdnqpgx",
@@ -302751,12 +303319,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293183",
+        "url": "https://www.ticketliquidator.com/tickets/8293183/Brandi-Carlile-tickets-Tue-Nov-17-2026-State-Theatre-MN",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfMGkdNqPGX",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293183"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293183",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293183/Brandi-Carlile-tickets-Tue-Nov-17-2026-State-Theatre-MN"
   },
   {
     "id": "tm-brandi-carlile-2026-minneapolis-vv1akzkfmgkdnrguf",
@@ -302812,12 +303388,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293184",
+        "url": "https://www.ticketliquidator.com/tickets/8293184/Brandi-Carlile-tickets-Wed-Nov-18-2026-State-Theatre-MN",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfMGkdNrguF",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293184"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293184",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293184/Brandi-Carlile-tickets-Wed-Nov-18-2026-State-Theatre-MN"
   },
   {
     "id": "tm-brandi-carlile-2026-louisville-1apzkfugkdjvl2t",
@@ -302979,12 +303563,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293193",
+        "url": "https://www.ticketliquidator.com/tickets/8293193/Brandi-Carlile-tickets-Sun-Nov-22-2026-Uptown-Theater-KC",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfzGkd6Vlxs",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293193"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293193",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293193/Brandi-Carlile-tickets-Sun-Nov-22-2026-Uptown-Theater-KC"
   },
   {
     "id": "tm-brandi-carlile-2026-port-chester-g5vvz_kx-skxh",
@@ -303415,12 +304007,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8248298",
+        "url": "https://www.ticketliquidator.com/tickets/8248298/Brandi-Carlile-tickets-Sun-Apr-4-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AbZku4GkdpuBm4",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8248298"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8248298",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8248298/Brandi-Carlile-tickets-Sun-Apr-4-2027-3Arena-Dublin"
   },
   {
     "id": "tm-brandi-carlile-2027-glasgow-16dbz_8p8g7is9u",
@@ -303901,12 +304501,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295790",
+        "url": "https://www.ticketliquidator.com/tickets/8295790/Blondshell-tickets-Thu-May-20-2027-Newport-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeoGk",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295790"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295790",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295790/Blondshell-tickets-Thu-May-20-2027-Newport-Music-Hall"
   },
   {
     "id": "tm-sienna-spiro-2027-morrison-z7r9jz1aa7-1d",
@@ -303962,12 +304570,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332358",
+        "url": "https://www.ticketliquidator.com/tickets/8332358/Sienna-Spiro-tickets-Mon-Aug-30-2027-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7-1d",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332358"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332358",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332358/Sienna-Spiro-tickets-Mon-Aug-30-2027-Red-Rocks-Amphitheatre"
   },
   {
     "id": "tm-the-red-clay-strays-2027-bend-vvg1hz_kwvcqcl",
@@ -304077,12 +304693,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8315360",
+        "url": "https://www.ticketliquidator.com/tickets/8315360/Mico-tickets-Wed-Mar-10-2027-Newport-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7_pZ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315360"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315360",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315360/Mico-tickets-Wed-Mar-10-2027-Newport-Music-Hall"
   },
   {
     "id": "tm-santana-2027-london-1agzk4pgkemmuru",
@@ -304300,12 +304924,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8334766",
+        "url": "https://www.ticketliquidator.com/tickets/8334766/Mana-tickets-Tue-Apr-6-2027-Yaamava-Theater-at-Yaamava-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7NGx",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334766"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334766",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334766/Mana-tickets-Tue-Apr-6-2027-Yaamava-Theater-at-Yaamava-Resort-Casino"
   },
   {
     "id": "tm-mana-2027-highland-z7r9jz1aa7x_k",
@@ -304361,12 +304993,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8334767",
+        "url": "https://www.ticketliquidator.com/tickets/8334767/Mana-tickets-Thu-Apr-8-2027-Yaamava-Theater-at-Yaamava-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7x_k",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334767"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334767",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334767/Mana-tickets-Thu-Apr-8-2027-Yaamava-Theater-at-Yaamava-Resort-Casino"
   },
   {
     "id": "tm-mana-2027-highland-z7r9jz1aa7x_7",
@@ -304422,12 +305062,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8334768",
+        "url": "https://www.ticketliquidator.com/tickets/8334768/Mana-tickets-Sun-Apr-11-2027-Yaamava-Theater-at-Yaamava-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7x_7",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334768"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334768",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334768/Mana-tickets-Sun-Apr-11-2027-Yaamava-Theater-at-Yaamava-Resort-Casino"
   },
   {
     "id": "tm-mana-2027-highland-z7r9jz1aa7x_6",
@@ -304483,12 +305131,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8334769",
+        "url": "https://www.ticketliquidator.com/tickets/8334769/Mana-tickets-Wed-Sep-1-2027-Yaamava-Theater-at-Yaamava-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7x_6",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334769"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334769",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334769/Mana-tickets-Wed-Sep-1-2027-Yaamava-Theater-at-Yaamava-Resort-Casino"
   },
   {
     "id": "tm-mana-2027-highland-z7r9jz1aa7ng-",
@@ -304544,12 +305200,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8334770",
+        "url": "https://www.ticketliquidator.com/tickets/8334770/Mana-tickets-Thu-Sep-2-2027-Yaamava-Theater-at-Yaamava-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7NG-",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334770"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334770",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334770/Mana-tickets-Thu-Sep-2-2027-Yaamava-Theater-at-Yaamava-Resort-Casino"
   },
   {
     "id": "tm-mana-2027-highland-z7r9jz1aa7x_a",
@@ -304605,12 +305269,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8334771",
+        "url": "https://www.ticketliquidator.com/tickets/8334771/Mana-tickets-Mon-Sep-6-2027-Yaamava-Theater-at-Yaamava-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7x_A",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334771"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334771",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334771/Mana-tickets-Mon-Sep-6-2027-Yaamava-Theater-at-Yaamava-Resort-Casino"
   },
   {
     "id": "tm-turnpike-troubadours-2027-morrison-z7r9jz1aa7_ae",
@@ -304666,12 +305338,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8329462",
+        "url": "https://www.ticketliquidator.com/tickets/8329462/Turnpike-Troubadours-tickets-Thu-May-13-2027-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7_ae",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329462"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329462",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329462/Turnpike-Troubadours-tickets-Thu-May-13-2027-Red-Rocks-Amphitheatre"
   },
   {
     "id": "tm-turnpike-troubadours-2027-morrison-z7r9jz1aa7_av",
@@ -304727,11 +305407,19 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8329463",
+        "url": "https://www.ticketliquidator.com/tickets/8329463/Turnpike-Troubadours-tickets-Fri-May-14-2027-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7_av",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329463"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329463",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329463/Turnpike-Troubadours-tickets-Fri-May-14-2027-Red-Rocks-Amphitheatre"
   }
 ]

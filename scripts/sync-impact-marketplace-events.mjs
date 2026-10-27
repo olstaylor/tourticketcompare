@@ -160,12 +160,14 @@ function dateMatches(text, date) {
 
 // The performance dates a provider URL states unambiguously in its own path:
 // a month-name date ("Fri-Mar-5-2027", "5-March-2027") or an ISO date
-// ("2027-03-05"). Numeric day/month forms ("7-10-2026") are skipped — their
-// order differs between storefronts, so they prove nothing either way.
+// ("2027-03-05"). Numeric day/month forms are usable when one part exceeds
+// 12 ("10-26-2026" or "26-10-2026"). Ambiguous forms ("7-10-2026") are
+// skipped: their order differs between storefronts.
 const URL_MONTHS = ["jan(?:uary)?", "feb(?:ruary)?", "mar(?:ch)?", "apr(?:il)?", "may", "june?", "july?", "aug(?:ust)?", "sep(?:t(?:ember)?)?", "oct(?:ober)?", "nov(?:ember)?", "dec(?:ember)?"];
 const URL_MONTH_RE = new RegExp(`(?:^|[^a-z])(${URL_MONTHS.join("|")})[-_ ](\\d{1,2})[-_ ](\\d{4})(?!\\d)`, "gi");
 const URL_DAY_MONTH_RE = new RegExp(`(?:^|[^0-9])(\\d{1,2})[-_ ](${URL_MONTHS.join("|")})[-_ ](\\d{4})(?!\\d)`, "gi");
 const URL_ISO_RE = /(?:^|[^0-9])(\d{4})-(\d{2})-(\d{2})(?!\d)/g;
+const URL_NUMERIC_RE = /(?:^|[^0-9])(\d{1,2})-(\d{1,2})-(20\d{2})(?!\d)/g;
 
 function monthIndex(name) {
   return URL_MONTHS.findIndex((pattern) => new RegExp(`^(?:${pattern})$`, "i").test(name)) + 1;
@@ -173,11 +175,27 @@ function monthIndex(name) {
 
 function urlStatedDates(url) {
   let pathname = "";
-  try { pathname = decodeURIComponent(new URL(url).pathname); } catch { return []; }
+  let officialEvent = false;
+  try {
+    const parsed = new URL(url);
+    pathname = decodeURIComponent(parsed.pathname);
+    // Ticketmaster's canonical /event/<id> destination follows the event ID
+    // through a reschedule, while its original numeric date slug can remain.
+    officialEvent = ["ticketmaster.com", "www.ticketmaster.com"].includes(parsed.hostname) && /\/event\/[a-z0-9]+\/?$/i.test(pathname);
+  } catch { return []; }
   const dates = [];
   for (const match of pathname.matchAll(URL_MONTH_RE)) dates.push({ year: Number(match[3]), month: monthIndex(match[1]), day: Number(match[2]) });
   for (const match of pathname.matchAll(URL_DAY_MONTH_RE)) dates.push({ year: Number(match[3]), month: monthIndex(match[2]), day: Number(match[1]) });
   for (const match of pathname.matchAll(URL_ISO_RE)) dates.push({ year: Number(match[1]), month: Number(match[2]), day: Number(match[3]) });
+  for (const match of officialEvent ? [] : pathname.matchAll(URL_NUMERIC_RE)) {
+    const first = Number(match[1]);
+    const second = Number(match[2]);
+    const year = Number(match[3]);
+    const month = first > 12 ? second : second > 12 ? first : 0;
+    const day = first > 12 ? first : second;
+    const parsed = new Date(Date.UTC(year, month - 1, day));
+    if (month >= 1 && month <= 12 && parsed.getUTCMonth() === month - 1 && parsed.getUTCDate() === day) dates.push({ year, month, day });
+  }
   return dates.filter((date) => date.month >= 1 && date.month <= 12 && date.day >= 1 && date.day <= 31);
 }
 
@@ -843,6 +861,13 @@ async function selfTest() {
   assert.deepEqual(urlStatedDates("https://x.example/tickets/1/Act-5-March-2027-Hall"), [{ year: 2027, month: 3, day: 5 }]);
   assert.deepEqual(urlStatedDates("https://x.example/raye-2027-07-09-7-pm/concert/1"), [{ year: 2027, month: 7, day: 9 }]);
   assert.deepEqual(urlStatedDates("https://x.example/bruno-mars-tickets-7-10-2026/event/1"), []);
+  assert.deepEqual(urlStatedDates("https://www.stubhub.ie/tom-jones-los-angeles-tickets-10-26-2026/event/107448275"), [{ year: 2026, month: 10, day: 26 }]);
+  assert.deepEqual(urlStatedDates("https://www.stubhub.ie/act-tickets-26-10-2026/event/1"), [{ year: 2026, month: 10, day: 26 }]);
+  assert.deepEqual(urlStatedDates("https://www.stubhub.ie/act-tickets-2-30-2026/event/1"), []);
+  assert.equal(urlDateConflicts("https://www.stubhub.ie/act-tickets-10-26-2026/event/1", { year: 2026, month: 11, day: 4 }), true);
+  assert.equal(urlDateConflicts("https://www.ticketmaster.com/ariana-grande-boston-07-22-2026/event/0100631AAEF23EE8", { year: 2026, month: 7, day: 23 }), false);
+  assert.equal(urlDateConflicts("https://www.ticketmaster.com.example/act-07-22-2026/event/1", { year: 2026, month: 7, day: 23 }), true);
+  assert.equal(urlDateConflicts("https://www.vividseats.com/ariana-grande-7-22-2026/production/5973685", { year: 2026, month: 7, day: 23 }), true);
   assert.deepEqual(urlStatedDates("https://x.example/tickets/1/Bruno-Mars-tickets-Accor"), []);
   const nightData = (events) => [events, [{ slug: "stadium-act", name: "Stadium Act" }], [{ slug: "stadium-act", review_status: "verified" }]];
   const runWith = (provider, events, candidates) => run({ provider, artist: "", limit: null, maxApiCalls: null, delayMs: 0, apply: false, json: false }, {
@@ -995,7 +1020,7 @@ async function selfTest() {
   // A row logged under an old display name is still the artist's, by id.
   const renamed = renderLog({ ...unlisted, results: [row("old", "Old Stage Name", "no qualifying listing (complete catalog checked)"), row("o1", "Other Act", "-")] });
   assert.deepEqual(mergeOutcomeRows(renamed, [], new Set(["old"])).rows.map((line) => line.slice(2).split(" | ")[0]), ["o1"]);
-  return 116;
+  return 123;
 }
 
 async function main() {

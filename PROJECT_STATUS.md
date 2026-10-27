@@ -15,13 +15,13 @@ Current-state snapshot: data counts, per-artist status and the generated route s
 - `public/data/events.json`: **4249 events** — 285 `human_verified`, 3032 `machine_high_confidence`, 932 `needs_recheck`. Verified event-level provider provenance is pinned one provider per line below, each separated by a blank line. Keep both properties: git needs an unchanged line between two edits to merge them as separate hunks, so without the blank lines two lanes editing adjacent providers still conflict. This makes any two provider lanes merge cleanly, except on the shared no-resale figure at the end of the list.
   - SeatGeek 2373 (2432 rows carry a stored `seatgeek_url`); 542 `needs_recheck` rows retain a standalone SeatGeek CTA.
 
-  - Vivid Seats 2619; 450 `needs_recheck` rows retain a standalone Vivid Seats CTA.
+  - Vivid Seats 2616; 450 `needs_recheck` rows retain a standalone Vivid Seats CTA.
 
   - TicketNetwork 2608.
 
   - Ticket Liquidator 2458.
 
-  - StubHub International 1311.
+  - StubHub International 1309.
 
   - Across all lanes, 169 `needs_recheck` rows have no independently verified resale provider. Every lane recomputes this, so two lanes running the same night still conflict here and no layout can fix that — the two values genuinely disagree. It is now the only such line; regenerate it with `npm run status:validate:write` instead of hand-merging.
 
@@ -32,7 +32,7 @@ Current-state snapshot: data counts, per-artist status and the generated route s
 - `functions/_guide-routes.generated.js`: **28 guide routes** (published guides only), re-exported by `functions/_route-metadata.js`, which still owns the trust/static route metadata and `OLD_GUIDE_REDIRECTS`.
 - Route surface — **generated, do not hand-edit.** `npm run status:surface:write` refreshes this line from the audit's own render of every route (robots meta as served, not as inferred), and `npm run audit:indexable-surface:check` — which runs in `test:mvp` — warns when it goes stale. Exclusion reasons, expiry horizon and the stored baseline live in `reports/indexable-surface/`.
   <!-- generated:route-surface -->
-  Generated 2026-10-27: **4775 rendered / 956 indexable**. By type (rendered/indexable): home 1/1 · index 6/6 · static 13/13 · guide 28/28 · blog-post 34/34 · blog-tag 5/5 · artist 205/175 · city 404/84 · venue 1022/174 · artist-city 2791/259 · price-guide 140/137 · presale 126/40.
+  Generated 2026-10-27: **4775 rendered / 955 indexable**. By type (rendered/indexable): home 1/1 · index 6/6 · static 13/13 · guide 28/28 · blog-post 34/34 · blog-tag 5/5 · artist 205/175 · city 404/84 · venue 1022/173 · artist-city 2791/259 · price-guide 140/137 · presale 126/40.
   <!-- /generated:route-surface -->
 - `functions/api/out.js` `VERIFIED_TICKET_LINKS`: **396 artist-level entries** — one plain `<slug>:ticketmaster` and one Impact-wrapped `<slug>:seatgeek` per indexable artist (103 artists). There are no artist-level Vivid Seats entries; live event-level Vivid redirects resolve from verified event data.
 - `data/provider-identities.json`: all **198 entries** verified with `ticketmaster_attraction_id`, `ticketmaster_artist_url`, `seatgeek_performer_id`, and `seatgeek_artist_url` (the 7 remaining `review_required` shells have no registry entry yet — added at Promote). The onboarding manifest lives in gitignored `artifacts/` and does not survive environment recycling; regenerate it with `npm run artists:onboard:propose -- --names <names> --allow-existing-shells`.

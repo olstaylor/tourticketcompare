@@ -1624,7 +1624,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZdbz",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAZdbz",
     "seatgeek_url": "https://seatgeek.com/trivium-tickets/penticton-canada-penticton-trade-convention-centre-2026-12-07-6-35-pm/concert/18391977",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/trivium-tickets-penticton-penticton-trade-and-convention-centre-12-7-2026--concerts-rock/production/7325711",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAZdbz",
     "last_verified_at": null,
@@ -1646,11 +1646,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7325711,
+        "url": "https://www.vividseats.com/trivium-tickets-penticton-penticton-trade-and-convention-centre-12-7-2026--concerts-rock/production/7325711",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

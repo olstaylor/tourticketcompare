@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "19006450BA98557F",
     "ticketmaster_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-glendale-arizona-11-06-2026/event/19006450BA98557F",
     "seatgeek_url": "https://seatgeek.com/cristian-castro-tickets/glendale-arizona-desert-diamond-arena-2026-11-06-8-pm/concert/18078145",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cristian-castro-tickets-glendale-desert-diamond-arena-11-6-2026/production/6674212",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-glendale-arizona-11-06-2026/event/19006450BA98557F",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6674212,
+        "url": "https://www.vividseats.com/cristian-castro-tickets-glendale-desert-diamond-arena-11-6-2026/production/6674212",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "0C006450F89F9988",
     "ticketmaster_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-el-paso-texas-11-07-2026/event/0C006450F89F9988",
     "seatgeek_url": "https://seatgeek.com/cristian-castro-tickets/el-paso-texas-el-paso-county-coliseum-2026-11-07-8-pm/concert/18078276",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cristian-castro-tickets-el-paso-el-paso-county-coliseum-11-7-2026/production/6674215",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-el-paso-texas-11-07-2026/event/0C006450F89F9988",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6674215,
+        "url": "https://www.vividseats.com/cristian-castro-tickets-el-paso-el-paso-county-coliseum-11-7-2026/production/6674215",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7-f4V",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-f4V",
     "seatgeek_url": "https://seatgeek.com/cristian-castro-tickets/los-angeles-california-peacock-theater-2026-11-28-8-pm/concert/18077764",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cristian-castro-tickets-los-angeles-peacock-theater-11-28-2026/production/6673016",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-f4V",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6673016,
+        "url": "https://www.vividseats.com/cristian-castro-tickets-los-angeles-peacock-theater-11-28-2026/production/6673016",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7-boZ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-boZ",
     "seatgeek_url": "https://seatgeek.com/cristian-castro-tickets/denver-colorado-bellco-theatre-2027-01-29-8-pm/concert/18103535",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cristian-castro-tickets-denver-bellco-theatre-at-colorado-convention-center-1-29-2027--concerts-latin-music/production/6707169",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-boZ",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6707169,
+        "url": "https://www.vividseats.com/cristian-castro-tickets-denver-bellco-theatre-at-colorado-convention-center-1-29-2027--concerts-latin-music/production/6707169",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "09006454A8EDEE77",
     "ticketmaster_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-anaheim-california-02-12-2027/event/09006454A8EDEE77",
     "seatgeek_url": "https://seatgeek.com/cristian-castro-tickets/anaheim-california-honda-center-2027-02-12-8-pm/concert/18091093",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cristian-castro-tickets-anaheim-honda-center-2-12-2027--concerts-latin-music/production/6707152",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-anaheim-california-02-12-2027/event/09006454A8EDEE77",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6707152,
+        "url": "https://www.vividseats.com/cristian-castro-tickets-anaheim-honda-center-2-12-2027--concerts-latin-music/production/6707152",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "3A006453FBA59815",
     "ticketmaster_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-hidalgo-texas-02-27-2027/event/3A006453FBA59815",
     "seatgeek_url": "https://seatgeek.com/cristian-castro-tickets/hidalgo-texas-payne-arena-2027-02-27-8-pm/concert/18091132",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cristian-castro-tickets-hidalgo-payne-arena-2-27-2027--concerts-latin-music/production/6707155",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-hidalgo-texas-02-27-2027/event/3A006453FBA59815",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6707155,
+        "url": "https://www.vividseats.com/cristian-castro-tickets-hidalgo-payne-arena-2-27-2027--concerts-latin-music/production/6707155",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "3A006454D58490B2",
     "ticketmaster_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-cedar-park-texas-02-28-2027/event/3A006454D58490B2",
     "seatgeek_url": "https://seatgeek.com/cristian-castro-tickets/cedar-park-texas-h-e-b-center-at-cedar-park-2027-02-28-7-pm/concert/18091442",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cristian-castro-tickets-cedar-park-heb-center-at-cedar-park-2-28-2027--concerts-latin-music/production/6707157",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-cedar-park-texas-02-28-2027/event/3A006454D58490B2",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6707157,
+        "url": "https://www.vividseats.com/cristian-castro-tickets-cedar-park-heb-center-at-cedar-park-2-28-2027--concerts-latin-music/production/6707157",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "220064538E2F2D7B",
     "ticketmaster_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-orlando-florida-03-12-2027/event/220064538E2F2D7B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cristian-castro-tickets-orlando-addition-financial-arena-3-12-2027/production/6708112",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-orlando-florida-03-12-2027/event/220064538E2F2D7B",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6708112,
+        "url": "https://www.vividseats.com/cristian-castro-tickets-orlando-addition-financial-arena-3-12-2027/production/6708112",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "0D006455BC6ED1CF",
     "ticketmaster_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-miami-florida-03-13-2027/event/0D006455BC6ED1CF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cristian-castro-tickets-miami-james-knight-center-3-13-2027--concerts-latin-music/production/6707164",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-miami-florida-03-13-2027/event/0D006455BC6ED1CF",
     "last_verified_at": null,
@@ -617,11 +617,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6707164,
+        "url": "https://www.vividseats.com/cristian-castro-tickets-miami-james-knight-center-3-13-2027--concerts-latin-music/production/6707164",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

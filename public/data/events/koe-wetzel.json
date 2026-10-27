@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7-0GF",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-0GF",
     "seatgeek_url": "https://seatgeek.com/koe-wetzel-tickets/morrison-colorado-red-rocks-amphitheatre-2026-10-28-6-45-pm/concert/18095493",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/koe-wetzel-tickets-morrison-red-rocks-amphitheatre-10-28-2026--concerts-country-and-folk/production/6715416",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-0GF",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6715416,
+        "url": "https://www.vividseats.com/koe-wetzel-tickets-morrison-red-rocks-amphitheatre-10-28-2026--concerts-country-and-folk/production/6715416",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAebqk",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebqk",
     "seatgeek_url": "https://seatgeek.com/koe-wetzel-tickets/corpus-christi-texas-concrete-street-amphitheater-2026-12-04-7-pm/concert/18649774",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/koe-wetzel-tickets-corpus-christi-concrete-street-amphitheater-12-4-2026--concerts-country-and-folk/production/7654020",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebqk",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7654020,
+        "url": "https://www.vividseats.com/koe-wetzel-tickets-corpus-christi-concrete-street-amphitheater-12-4-2026--concerts-country-and-folk/production/7654020",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAeb-N",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb-N",
     "seatgeek_url": "https://seatgeek.com/koe-wetzel-tickets/round-rock-texas-round-rock-amp-2026-12-05-7-pm/concert/18649776",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/koe-wetzel-tickets-round-rock-round-rock-amp-12-5-2026--concerts-country-and-folk/production/7654036",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb-N",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7654036,
+        "url": "https://www.vividseats.com/koe-wetzel-tickets-round-rock-round-rock-amp-12-5-2026--concerts-country-and-folk/production/7654036",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "39006506E9356649",
     "ticketmaster_url": "https://www.ticketmaster.com/koe-wetzel-las-vegas-nevada-12-11-2026/event/39006506E9356649",
     "seatgeek_url": "https://seatgeek.com/koe-wetzel-tickets/las-vegas-nevada-ph-live-at-planet-hollywood-2026-12-11-8-pm/concert/18471843",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/koe-wetzel-tickets-las-vegas-ph-live-at-planet-hollywood-12-11-2026/production/7410841",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/koe-wetzel-las-vegas-nevada-12-11-2026/event/39006506E9356649",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7410841,
+        "url": "https://www.vividseats.com/koe-wetzel-tickets-las-vegas-ph-live-at-planet-hollywood-12-11-2026/production/7410841",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

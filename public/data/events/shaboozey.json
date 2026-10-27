@@ -1,0 +1,55 @@
+[
+  {
+    "id": "tm-shaboozey-2026-los-angeles-z7r9jz1a70kpt",
+    "artist_slug": "shaboozey",
+    "artist_name": "Shaboozey",
+    "event_name": "Shaboozey w/ Carter Faith",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Greek Theatre-Los Angeles",
+    "datetime_iso": "2026-10-28T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70kPt",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kPt",
+    "seatgeek_url": "https://seatgeek.com/shaboozey-tickets/los-angeles-california-the-greek-theatre-los-angeles-2026-10-27-7-30-pm/concert/18208375",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kPt",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70kPt",
+        "discovery_event_id": "Z7r9jZ1A70kPt",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kPt",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70kPt",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

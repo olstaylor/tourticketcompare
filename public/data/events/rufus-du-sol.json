@@ -1,0 +1,55 @@
+[
+  {
+    "id": "tm-rufus-du-sol-2027-san-francisco-z7r9jz1aae3qg",
+    "artist_slug": "rufus-du-sol",
+    "artist_name": "RUFUS DU SOL",
+    "event_name": "Rufus Du Sol (21 and Over)",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Pier 80 - San Francisco",
+    "datetime_iso": "2027-01-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe3qg",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe3qg",
+    "seatgeek_url": "https://seatgeek.com/rufus-du-sol-tickets/san-francisco-california-pier-80-2027-01-03-4-pm/concert/18639575",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe3qg",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe3qg",
+        "discovery_event_id": "Z7r9jZ1AAe3qg",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe3qg",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe3qg",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

@@ -2698,5 +2698,117 @@
     "last_verified_at": "2026-10-26",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-26"
+  },
+  {
+    "slug": "keith-urban",
+    "name": "Keith Urban",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-27",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-27"
+  },
+  {
+    "slug": "interpol",
+    "name": "Interpol",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-27",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-27"
+  },
+  {
+    "slug": "little-big-town",
+    "name": "Little Big Town",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-27",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-27"
+  },
+  {
+    "slug": "shaboozey",
+    "name": "Shaboozey",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-27",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-27"
+  },
+  {
+    "slug": "carin-leon",
+    "name": "Carin Leon",
+    "short_description": "Latin act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-27",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-27"
+  },
+  {
+    "slug": "phish",
+    "name": "Phish",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-27",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-27"
+  },
+  {
+    "slug": "imagine-dragons",
+    "name": "Imagine Dragons",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-27",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-27"
+  },
+  {
+    "slug": "rufus-du-sol",
+    "name": "RUFUS DU SOL",
+    "short_description": "Dance/Electronic act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-27",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-27"
   }
 ]

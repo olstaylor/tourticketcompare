@@ -2904,6 +2904,118 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-brandi-carlile",
     redirectUrl: "https://seatgeek.com/brandi-carlile-tickets",
     verified: true
+  },
+  "keith-urban:ticketmaster": {
+    artistSlug: "keith-urban",
+    provider: "ticketmaster",
+    linkId: "tm-artist-keith-urban",
+    redirectUrl: "https://www.ticketmaster.com/keith-urban-tickets/artist/821096",
+    verified: true
+  },
+  "keith-urban:seatgeek": {
+    artistSlug: "keith-urban",
+    provider: "seatgeek",
+    linkId: "sg-artist-keith-urban",
+    redirectUrl: "https://seatgeek.com/keith-urban-tickets",
+    verified: true
+  },
+  "interpol:ticketmaster": {
+    artistSlug: "interpol",
+    provider: "ticketmaster",
+    linkId: "tm-artist-interpol",
+    redirectUrl: "https://www.ticketmaster.com/interpol-tickets/artist/836507",
+    verified: true
+  },
+  "interpol:seatgeek": {
+    artistSlug: "interpol",
+    provider: "seatgeek",
+    linkId: "sg-artist-interpol",
+    redirectUrl: "https://seatgeek.com/interpol-tickets",
+    verified: true
+  },
+  "little-big-town:ticketmaster": {
+    artistSlug: "little-big-town",
+    provider: "ticketmaster",
+    linkId: "tm-artist-little-big-town",
+    redirectUrl: "https://www.ticketmaster.com/little-big-town-tickets/artist/960074",
+    verified: true
+  },
+  "little-big-town:seatgeek": {
+    artistSlug: "little-big-town",
+    provider: "seatgeek",
+    linkId: "sg-artist-little-big-town",
+    redirectUrl: "https://seatgeek.com/little-big-town-tickets",
+    verified: true
+  },
+  "shaboozey:ticketmaster": {
+    artistSlug: "shaboozey",
+    provider: "ticketmaster",
+    linkId: "tm-artist-shaboozey",
+    redirectUrl: "https://www.ticketmaster.com/shaboozey-tickets/artist/2194370",
+    verified: true
+  },
+  "shaboozey:seatgeek": {
+    artistSlug: "shaboozey",
+    provider: "seatgeek",
+    linkId: "sg-artist-shaboozey",
+    redirectUrl: "https://seatgeek.com/shaboozey-tickets",
+    verified: true
+  },
+  "carin-leon:ticketmaster": {
+    artistSlug: "carin-leon",
+    provider: "ticketmaster",
+    linkId: "tm-artist-carin-leon",
+    redirectUrl: "https://www.ticketmaster.com/carin-leon-tickets/artist/2826519",
+    verified: true
+  },
+  "carin-leon:seatgeek": {
+    artistSlug: "carin-leon",
+    provider: "seatgeek",
+    linkId: "sg-artist-carin-leon",
+    redirectUrl: "https://seatgeek.com/carin-leon-tickets",
+    verified: true
+  },
+  "phish:ticketmaster": {
+    artistSlug: "phish",
+    provider: "ticketmaster",
+    linkId: "tm-artist-phish",
+    redirectUrl: "https://www.ticketmaster.com/phish-tickets/artist/748766",
+    verified: true
+  },
+  "phish:seatgeek": {
+    artistSlug: "phish",
+    provider: "seatgeek",
+    linkId: "sg-artist-phish",
+    redirectUrl: "https://seatgeek.com/phish-tickets",
+    verified: true
+  },
+  "imagine-dragons:ticketmaster": {
+    artistSlug: "imagine-dragons",
+    provider: "ticketmaster",
+    linkId: "tm-artist-imagine-dragons",
+    redirectUrl: "https://www.ticketmaster.com/imagine-dragons-tickets/artist/1435919",
+    verified: true
+  },
+  "imagine-dragons:seatgeek": {
+    artistSlug: "imagine-dragons",
+    provider: "seatgeek",
+    linkId: "sg-artist-imagine-dragons",
+    redirectUrl: "https://seatgeek.com/imagine-dragons-tickets",
+    verified: true
+  },
+  "rufus-du-sol:ticketmaster": {
+    artistSlug: "rufus-du-sol",
+    provider: "ticketmaster",
+    linkId: "tm-artist-rufus-du-sol",
+    redirectUrl: "https://www.ticketmaster.com/rufus-du-sol-tickets/artist/1957114",
+    verified: true
+  },
+  "rufus-du-sol:seatgeek": {
+    artistSlug: "rufus-du-sol",
+    provider: "seatgeek",
+    linkId: "sg-artist-rufus-du-sol",
+    redirectUrl: "https://seatgeek.com/rufus-du-sol-tickets",
+    verified: true
   }
 };
 

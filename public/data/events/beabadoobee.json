@@ -153,7 +153,7 @@
     "ticketmaster_event_id": "1C0064D21665E06B",
     "ticketmaster_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-oakland-california-10-26-2026/event/1C0064D21665E06B",
     "seatgeek_url": "https://seatgeek.com/beabadoobee-tickets/oakland-california-oakland-arena-2026-10-26-8-pm/concert/18329620",
-    "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-oakland-oakland-arena-10-26-2026/production/7212204",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-oakland-california-10-26-2026/event/1C0064D21665E06B",
     "last_verified_at": "2026-10-24",
@@ -175,11 +175,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7212204,
-        "url": "https://www.vividseats.com/beabadoobee-tickets-oakland-oakland-arena-10-26-2026/production/7212204",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -258,7 +258,7 @@
         "event_id": 7212205,
         "url": "https://www.vividseats.com/beabadoobee-tickets-vancouver-rogers-arena-10-28-2026--concerts-pop/production/7212205",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -333,7 +333,7 @@
         "event_id": 7212200,
         "url": "https://www.vividseats.com/beabadoobee-tickets-seattle-climate-pledge-arena-10-29-2026/production/7212200",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -413,7 +413,7 @@
         "event_id": 7212648,
         "url": "https://www.vividseats.com/beabadoobee-tickets-glasgow-ovo-hydro-11-14-2026--concerts-pop/production/7212648",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -494,7 +494,7 @@
         "event_id": 7227164,
         "url": "https://www.vividseats.com/beabadoobee-tickets-cardiff-utilita-arena-cardiff-11-16-2026/production/7227164",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -559,7 +559,7 @@
         "event_id": 7212650,
         "url": "https://www.vividseats.com/beabadoobee-tickets-manchester-ao-arena-11-17-2026--concerts-pop/production/7212650",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -886,7 +886,7 @@
         "event_id": 7212678,
         "url": "https://www.vividseats.com/beabadoobee-tickets-berlin-tempodrom-12-6-2026--concerts-pop/production/7212678",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -966,7 +966,7 @@
         "event_id": 7212682,
         "url": "https://www.vividseats.com/beabadoobee-tickets-dusseldorf-mitsubishi-electric-halle-12-7-2026--concerts-pop/production/7212682",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {

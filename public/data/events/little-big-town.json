@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7P8A_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P8A_",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-san-antonio-majestic-theatre-san-antonio-10-29-2026--concerts-country-and-folk/production/7132479",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P8A_",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132479,
+        "url": "https://www.vividseats.com/little-big-town-tickets-san-antonio-majestic-theatre-san-antonio-10-29-2026--concerts-country-and-folk/production/7132479",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "3A0064C3EDDC20C9",
     "ticketmaster_url": "https://www.ticketmaster.com/little-big-town-for-the-art-houston-texas-10-30-2026/event/3A0064C3EDDC20C9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-houston-sarofim-hall---hobby-center-10-30-2026--concerts-country-and-folk/production/7132495",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-houston-texas-10-30-2026/event/3A0064C3EDDC20C9",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132495,
+        "url": "https://www.vividseats.com/little-big-town-tickets-houston-sarofim-hall---hobby-center-10-30-2026--concerts-country-and-folk/production/7132495",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "0C0064C2A3FC7232",
     "ticketmaster_url": "https://www.ticketmaster.com/little-big-town-for-the-art-dallas-texas-10-31-2026/event/0C0064C2A3FC7232",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-dallas-music-hall-at-fair-park-10-31-2026--concerts-country-and-folk/production/7132501",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-dallas-texas-10-31-2026/event/0C0064C2A3FC7232",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132501,
+        "url": "https://www.vividseats.com/little-big-town-tickets-dallas-music-hall-at-fair-park-10-31-2026--concerts-country-and-folk/production/7132501",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "2D0064C2DB2CCA17",
     "ticketmaster_url": "https://www.ticketmaster.com/little-big-town-for-the-art-charlotte-north-carolina-11-07-2026/event/2D0064C2DB2CCA17",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-charlotte-ovens-auditorium-11-7-2026--concerts-country-and-folk/production/7132527",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-charlotte-north-carolina-11-07-2026/event/2D0064C2DB2CCA17",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132527,
+        "url": "https://www.vividseats.com/little-big-town-tickets-charlotte-ovens-auditorium-11-7-2026--concerts-country-and-folk/production/7132527",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "050064C6E5B53592",
     "ticketmaster_url": "https://www.ticketmaster.com/little-big-town-for-the-art-akron-ohio-11-12-2026/event/050064C6E5B53592",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-akron-akron-civic-theatre-11-12-2026/production/7130405",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-akron-ohio-11-12-2026/event/050064C6E5B53592",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7130405,
+        "url": "https://www.vividseats.com/little-big-town-tickets-akron-akron-civic-theatre-11-12-2026/production/7130405",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "050064C5A9BED087",
     "ticketmaster_url": "https://www.ticketmaster.com/little-big-town-for-the-art-columbus-ohio-11-13-2026/event/050064C5A9BED087",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-columbus-wexner-center-for-the-arts---mershon-auditorium-11-13-2026--concerts-country-and-folk/production/7132535",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-columbus-ohio-11-13-2026/event/050064C5A9BED087",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132535,
+        "url": "https://www.vividseats.com/little-big-town-tickets-columbus-wexner-center-for-the-arts---mershon-auditorium-11-13-2026--concerts-country-and-folk/production/7132535",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "050064C2CEBEF02E",
     "ticketmaster_url": "https://www.ticketmaster.com/little-big-town-for-the-art-indianapolis-indiana-11-14-2026/event/050064C2CEBEF02E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-indianapolis-murat-theatre-at-old-national-centre-11-14-2026--concerts-country-and-folk/production/7132543",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-indianapolis-indiana-11-14-2026/event/050064C2CEBEF02E",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132543,
+        "url": "https://www.vividseats.com/little-big-town-tickets-indianapolis-murat-theatre-at-old-national-centre-11-14-2026--concerts-country-and-folk/production/7132543",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "080064C5EA9DD19D",
     "ticketmaster_url": "https://www.ticketmaster.com/little-big-town-for-the-art-detroit-michigan-11-20-2026/event/080064C5EA9DD19D",
     "seatgeek_url": "https://seatgeek.com/little-big-town-tickets/detroit-michigan-fox-theatre-detroit-2026-11-20-7-30-pm/concert/18292640",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-detroit-fox-theatre-detroit-11-20-2026--concerts-country-and-folk/production/7132557",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-detroit-michigan-11-20-2026/event/080064C5EA9DD19D",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132557,
+        "url": "https://www.vividseats.com/little-big-town-tickets-detroit-fox-theatre-detroit-11-20-2026--concerts-country-and-folk/production/7132557",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "100064C3D9B86796",
     "ticketmaster_url": "https://www.ticketmaster.ca/little-big-town-for-the-art-toronto-ontario-11-22-2026/event/100064C3D9B86796",
     "seatgeek_url": "https://seatgeek.com/little-big-town-tickets/toronto-canada-massey-hall-2026-11-22-8-pm/concert/18292641",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-toronto-massey-hall---allied-music-centre-11-22-2026--concerts-country-and-folk/production/7132573",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/little-big-town-for-the-art-toronto-ontario-11-22-2026/event/100064C3D9B86796",
     "last_verified_at": null,
@@ -617,11 +617,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132573,
+        "url": "https://www.vividseats.com/little-big-town-tickets-toronto-massey-hall---allied-music-centre-11-22-2026--concerts-country-and-folk/production/7132573",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -648,7 +648,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7J8rA",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J8rA",
     "seatgeek_url": "https://seatgeek.com/little-big-town-tickets/nashville-tennessee-ryman-auditorium-2026-12-08-7-30-pm/concert/18385970",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-nashville-ryman-auditorium-12-8-2026--concerts-country-and-folk/production/7282997",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J8rA",
     "last_verified_at": null,
@@ -670,11 +670,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7282997,
+        "url": "https://www.vividseats.com/little-big-town-tickets-nashville-ryman-auditorium-12-8-2026--concerts-country-and-folk/production/7282997",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -701,7 +701,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7J8_7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J8_7",
     "seatgeek_url": "https://seatgeek.com/little-big-town-tickets/nashville-tennessee-ryman-auditorium-2026-12-09-7-30-pm/concert/18385972",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-nashville-ryman-auditorium-12-9-2026--concerts-country-and-folk/production/7283003",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J8_7",
     "last_verified_at": null,
@@ -723,11 +723,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7283003,
+        "url": "https://www.vividseats.com/little-big-town-tickets-nashville-ryman-auditorium-12-9-2026--concerts-country-and-folk/production/7283003",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -754,7 +754,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7J_4x",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J_4x",
     "seatgeek_url": "https://seatgeek.com/little-big-town-tickets/nashville-tennessee-ryman-auditorium-2026-12-10-7-30-pm/concert/18385974",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-nashville-ryman-auditorium-12-10-2026--concerts-country-and-folk/production/7283005",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J_4x",
     "last_verified_at": null,
@@ -776,11 +776,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7283005,
+        "url": "https://www.vividseats.com/little-big-town-tickets-nashville-ryman-auditorium-12-10-2026--concerts-country-and-folk/production/7283005",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

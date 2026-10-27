@@ -243,7 +243,7 @@
     "ticketmaster_event_id": "0F006497D20909E0",
     "ticketmaster_url": "https://www.ticketmaster.com/kacey-musgraves-middle-of-nowhere-tour-seattle-washington-10-26-2026/event/0F006497D20909E0",
     "seatgeek_url": "https://seatgeek.com/kacey-musgraves-tickets/seattle-washington-climate-pledge-arena-2026-10-26-7-30-pm/concert/18210169",
-    "vividseats_url": "https://www.vividseats.com/kacey-musgraves-tickets-seattle-climate-pledge-arena-10-26-2026--concerts-country-and-folk/production/6965659",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kacey-musgraves-middle-of-nowhere-tour-seattle-washington-10-26-2026/event/0F006497D20909E0",
     "last_verified_at": "2026-10-20",
@@ -265,11 +265,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 6965659,
-        "url": "https://www.vividseats.com/kacey-musgraves-tickets-seattle-climate-pledge-arena-10-26-2026--concerts-country-and-folk/production/6965659",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -348,7 +348,7 @@
         "event_id": 6965661,
         "url": "https://www.vividseats.com/kacey-musgraves-tickets-seattle-climate-pledge-arena-10-27-2026--concerts-country-and-folk/production/6965661",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -428,7 +428,7 @@
         "event_id": 7021538,
         "url": "https://www.vividseats.com/kacey-musgraves-tickets-glasgow-ovo-hydro-2-22-2027--concerts-country-and-folk/production/7021538",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -510,7 +510,7 @@
         "event_id": 7021540,
         "url": "https://www.vividseats.com/kacey-musgraves-tickets-manchester-ao-arena-2-24-2027--concerts-country-and-folk/production/7021540",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -592,7 +592,7 @@
         "event_id": 7021542,
         "url": "https://www.vividseats.com/kacey-musgraves-tickets-london-ovo-arena-wembley-2-26-2027--concerts-country-and-folk/production/7021542",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {

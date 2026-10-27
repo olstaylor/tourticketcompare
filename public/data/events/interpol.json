@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "36006363A8207024",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/interpol-bloc-party-coheadline-tour-cardiff-21-11-2026/event/36006363A8207024",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/interpol-tickets-cardiff-utilita-arena-cardiff-11-21-2026--concerts-rock/production/6274790",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/interpol-bloc-party-coheadline-tour-cardiff-21-11-2026/event/36006363A8207024",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6274790,
+        "url": "https://www.vividseats.com/interpol-tickets-cardiff-utilita-arena-cardiff-11-21-2026--concerts-rock/production/6274790",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "3A006554F23A7AF3",
     "ticketmaster_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-hidalgo-texas-03-19-2027/event/3A006554F23A7AF3",
     "seatgeek_url": "https://seatgeek.com/interpol-tickets/hidalgo-texas-payne-arena-2027-03-19-8-pm/concert/18710343",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/interpol-tickets-hidalgo-payne-arena-3-19-2027/production/7745164",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-hidalgo-texas-03-19-2027/event/3A006554F23A7AF3",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7745164,
+        "url": "https://www.vividseats.com/interpol-tickets-hidalgo-payne-arena-3-19-2027/production/7745164",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -331,7 +331,7 @@
     "ticketmaster_event_id": "1B0065524CDCC79E",
     "ticketmaster_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-memphis-tennessee-03-22-2027/event/1B0065524CDCC79E",
     "seatgeek_url": "https://seatgeek.com/interpol-tickets/memphis-tennessee-satellite-music-hall-2027-03-22-7-pm/concert/18710346",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/interpol-tickets-memphis-satellite-music-hall-3-22-2027--concerts-rock/production/7745553",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-memphis-tennessee-03-22-2027/event/1B0065524CDCC79E",
     "last_verified_at": null,
@@ -353,11 +353,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7745553,
+        "url": "https://www.vividseats.com/interpol-tickets-memphis-satellite-music-hall-3-22-2027--concerts-rock/production/7745553",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -385,7 +385,7 @@
     "ticketmaster_event_id": "2D00655440543977",
     "ticketmaster_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-asheville-north-carolina-03-23-2027/event/2D00655440543977",
     "seatgeek_url": "https://seatgeek.com/interpol-tickets/asheville-north-carolina-thomas-wolfe-auditorium-at-harrah-s-cherokee-center-2027-03-23-8-pm/concert/18710348",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/interpol-tickets-asheville-harrahs-cherokee-center-asheville-3-23-2027--concerts-rock/production/7745555",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-asheville-north-carolina-03-23-2027/event/2D00655440543977",
     "last_verified_at": null,
@@ -407,11 +407,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7745555,
+        "url": "https://www.vividseats.com/interpol-tickets-asheville-harrahs-cherokee-center-asheville-3-23-2027--concerts-rock/production/7745555",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -439,7 +439,7 @@
     "ticketmaster_event_id": "15006553CB38890C",
     "ticketmaster_url": "https://www.ticketmaster.com/interpol-washington-district-of-columbia-03-24-2027/event/15006553CB38890C",
     "seatgeek_url": "https://seatgeek.com/interpol-tickets/washington-district-of-columbia-the-anthem-dc-2027-03-24-7-30-pm/concert/18710355",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/interpol-tickets-washington-dc-the-anthem-3-24-2027--concerts-rock/production/7745557",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/interpol-washington-district-of-columbia-03-24-2027/event/15006553CB38890C",
     "last_verified_at": null,
@@ -461,11 +461,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7745557,
+        "url": "https://www.vividseats.com/interpol-tickets-washington-dc-the-anthem-3-24-2027--concerts-rock/production/7745557",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

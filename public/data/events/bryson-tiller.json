@@ -351,11 +351,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8011577",
-        "url": "https://www.ticketnetwork.com/en/p/8011577",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_5Eio1cI",
@@ -366,7 +366,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8011577"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-bryson-tiller-2026-concord-g5vyz_5ix0y73",

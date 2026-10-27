@@ -570,17 +570,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107486078",
-        "url": "https://www.stubhub.ie/steve-lacy-miami-tickets-10-26-2026/event/107486078",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_8pW-pfe",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-miami-tickets-10-26-2026/event/107486078",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

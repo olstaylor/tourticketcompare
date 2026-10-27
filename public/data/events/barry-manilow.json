@@ -855,13 +855,21 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189127",
+        "url": "https://www.stubhub.ie/barry-manilow-sunrise-tickets-1-15-2027/event/107189127",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7jI0E",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425008",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425008/Barry-Manilow-tickets-Fri-Jan-15-2027-Amerant-Bank-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425008/Barry-Manilow-tickets-Fri-Jan-15-2027-Amerant-Bank-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-sunrise-tickets-1-15-2027/event/107189127"
   },
   {
     "id": "tm-barry-manilow-2027-estero-vvg1vzbwhe6k-q",
@@ -1062,13 +1070,21 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107185225",
+        "url": "https://www.stubhub.ie/barry-manilow-tampa-tickets-1-20-2027/event/107185225",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbSePT-t8",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425010",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425010/Barry-Manilow-tickets-Wed-Jan-20-2027-Benchmark-International-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425010/Barry-Manilow-tickets-Wed-Jan-20-2027-Benchmark-International-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-tampa-tickets-1-20-2027/event/107185225"
   },
   {
     "id": "tm-barry-manilow-2027-orlando-1aefzbwgksczswf",
@@ -1131,13 +1147,21 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189128",
+        "url": "https://www.stubhub.ie/barry-manilow-orlando-tickets-1-21-2027/event/107189128",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZbwGkSCZsWf",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425009",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425009/Barry-Manilow-tickets-Thu-Jan-21-2027-Kia-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425009/Barry-Manilow-tickets-Thu-Jan-21-2027-Kia-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-orlando-tickets-1-21-2027/event/107189128"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dw5kgq",

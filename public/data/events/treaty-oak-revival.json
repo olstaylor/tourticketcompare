@@ -129,13 +129,21 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107167136",
+        "url": "https://www.stubhub.ie/treaty-oak-revival-austin-tickets-11-12-2026/event/107167136",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_19twyeH",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7944768",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7944768/Treaty-Oak-Revival-tickets-Thu-Nov-12-2026-Moody-Center-ATX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7944768/Treaty-Oak-Revival-tickets-Thu-Nov-12-2026-Moody-Center-ATX",
+    "stubhub_international_url": "https://www.stubhub.ie/treaty-oak-revival-austin-tickets-11-12-2026/event/107167136"
   },
   {
     "id": "tm-treaty-oak-revival-2026-the-woodlands-g5diz_1panpuq",

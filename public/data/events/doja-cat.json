@@ -706,11 +706,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "106972097",
-        "url": "https://www.stubhub.ie/doja-cat-san-francisco-tickets-10-19-2026/event/106972097",
-        "verified": true,
-        "last_verified_at": "2026-10-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -724,7 +724,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-san-francisco-tickets-10-19-2026/event/106972097",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-10-20T02:30:00Z",

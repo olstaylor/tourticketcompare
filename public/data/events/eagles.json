@@ -1104,6 +1104,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675877",
+        "url": "https://www.stubhub.ie/eagles-las-vegas-tickets-1-8-2027/event/107675877",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk4eGkdcMDNS",
@@ -1146,7 +1153,8 @@
         "end": "2026-12-30T06:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332074"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332074",
+    "stubhub_international_url": "https://www.stubhub.ie/eagles-las-vegas-tickets-1-8-2027/event/107675877"
   },
   {
     "id": "tm-eagles-2027-las-vegas-1a9zk4egkdmahp8",
@@ -1209,6 +1217,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678064",
+        "url": "https://www.stubhub.ie/eagles-las-vegas-tickets-1-9-2027/event/107678064",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk4eGkdmAhP8",
@@ -1251,6 +1266,7 @@
         "end": "2026-12-31T06:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332075"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332075",
+    "stubhub_international_url": "https://www.stubhub.ie/eagles-las-vegas-tickets-1-9-2027/event/107678064"
   }
 ]

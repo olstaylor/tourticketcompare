@@ -788,9 +788,12 @@ export function planEventSync(event, remote, discoveryId) {
 // date, or the new one, is kept. Ticketmaster's own link follows its record.
 export function wrongNightLinkChanges(event, changes) {
   const dateChange = changes.find((change) => change.field === 'datetime_iso');
-  if (!dateChange) return [];
+  // A prior sync may already have recorded the reschedule while leaving a
+  // provider URL its old date parser could not read. Reconcile those links on
+  // later identity-safe syncs too, without needing another date move.
+  if (!dateChange && clean(event?.ticketmaster_status_code).toLowerCase() !== 'rescheduled') return [];
   const tzChange = changes.find((change) => change.field === 'timezone');
-  const moved = { ...event, datetime_iso: dateChange.to, timezone: tzChange ? tzChange.to : event.timezone };
+  const moved = { ...event, datetime_iso: dateChange ? dateChange.to : event.datetime_iso, timezone: tzChange ? tzChange.to : event.timezone };
   const newDate = eventLocalDate(moved);
   if (!newDate) return [];
   const out = [];
@@ -1005,6 +1008,9 @@ async function runSelfTest() {
       row.ticketliquidator_url === '' && row.provider_links['ticket-liquidator'].verified === false);
     assert('a resale URL naming no date is kept', row.ticketnetwork_url && row.provider_links.ticketnetwork.verified === true);
     assert('no link is withdrawn without a date move', wrongNightLinkChanges(clean_({ ticketliquidator_url: row.ticketnetwork_url }), []).length === 0);
+    const recorded = { ...row, datetime_iso: '2026-11-05T04:00:00Z', timezone: 'America/Los_Angeles', ticketmaster_status_code: 'rescheduled', stubhub_international_url: 'https://www.stubhub.ie/tom-jones-los-angeles-tickets-10-26-2026/event/107448275' };
+    assert('a recorded reschedule withdraws a numeric old-night URL on a later sync', wrongNightLinkChanges(recorded, []).some((c) => c.field === 'provider_link:stubhub-international'));
+    assert('a matching numeric date is retained', !wrongNightLinkChanges({ ...recorded, stubhub_international_url: 'https://www.stubhub.ie/tom-jones-los-angeles-tickets-11-14-2026/event/1', datetime_iso: '2026-11-15T04:00:00Z' }, []).some((c) => c.field === 'provider_link:stubhub-international'));
   }
   assert('a recorded status is no longer a review blocker', !plan(clean_(), full('cancelled')).blocked &&
     !kinds(clean_(), full('postponed')).includes('status'));

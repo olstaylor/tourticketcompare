@@ -848,7 +848,6 @@ export const OG_CARDS = {
   "/venues/golden-1-center-sacramento": {"url":"/og/venues-golden-1-center-sacramento.png","alt":"Concerts at: Golden 1 Center"},
   "/venues/gothic-theatre-englewood": {"url":"/og/venues-gothic-theatre-englewood.png","alt":"Concerts at: Gothic Theatre"},
   "/venues/grand-casino-arena-saint-paul": {"url":"/og/venues-grand-casino-arena-saint-paul.png","alt":"Concerts at: Grand Casino Arena"},
-  "/venues/greek-theatre-los-angeles": {"url":"/og/venues-greek-theatre-los-angeles.png","alt":"Concerts at: Greek Theatre"},
   "/venues/hard-rock-live-at-etess-arena-atlantic-city": {"url":"/og/venues-hard-rock-live-at-etess-arena-atlantic-city.png","alt":"Concerts at: Hard Rock Live at Etess Arena"},
   "/venues/hard-rock-live-hollywood": {"url":"/og/venues-hard-rock-live-hollywood.png","alt":"Concerts at: Hard Rock Live"},
   "/venues/hard-rock-live-orlando-orlando": {"url":"/og/venues-hard-rock-live-orlando-orlando.png","alt":"Concerts at: Hard Rock Live Orlando"},

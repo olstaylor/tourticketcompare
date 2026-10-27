@@ -38,6 +38,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+        with:
+          # This sensor judges production now, including current source copy.
+          # A retry must not reopen findings against a pre-fix checkout.
+          ref: main
 
       - name: Setup Node.js
         uses: actions/setup-node@v5

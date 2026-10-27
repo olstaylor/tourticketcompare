@@ -2070,5 +2070,58 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338610"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-calgary-z7r9jz1aa7k3a",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie",
+    "city": "Calgary",
+    "country": "Canada",
+    "venue": "Spruce Meadows",
+    "datetime_iso": "2027-07-03T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7K3A",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7K3A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7K3A",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7K3A",
+        "discovery_event_id": "Z7r9jZ1AA7K3A",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7K3A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7K3A",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

@@ -51414,5 +51414,53 @@
     "timezone": "America/Los_Angeles",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-calgary-z7r9jz1aa7k3a",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "country": "Canada",
+    "city": "Calgary",
+    "venue": "Spruce Meadows",
+    "datetime_iso": "2027-07-03T01:00:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2027-nashville-z7r9jz1aa7bjy",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "country": "United States Of America",
+    "city": "Nashville",
+    "venue": "Grand Ole Opry House",
+    "datetime_iso": "2027-08-09T00:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-atlantic-city-vv1aezk49gkddvprj",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "country": "United States Of America",
+    "city": "Atlantic City",
+    "venue": "Hard Rock Live at Etess Arena",
+    "datetime_iso": "2027-03-07T01:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-rod-stewart-2027-lincoln-g5vyz_4ho4bgw",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "country": "United States Of America",
+    "city": "Lincoln",
+    "venue": "The Venue at Thunder Valley Casino Resort",
+    "datetime_iso": "2027-08-15T03:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "announced"
   }
 ]

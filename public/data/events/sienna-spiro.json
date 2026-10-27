@@ -3385,5 +3385,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332358",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332358/Sienna-Spiro-tickets-Mon-Aug-30-2027-Red-Rocks-Amphitheatre"
+  },
+  {
+    "id": "tm-sienna-spiro-2027-nashville-z7r9jz1aa7bjy",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Grand Ole Opry House",
+    "datetime_iso": "2027-08-09T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7bjy",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7bjy",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7bjy",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7bjy",
+        "discovery_event_id": "Z7r9jZ1AA7bjy",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7bjy",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7bjy",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

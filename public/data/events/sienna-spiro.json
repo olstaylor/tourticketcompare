@@ -2992,6 +2992,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678118",
+        "url": "https://www.stubhub.ie/sienna-spiro-seattle-tickets-9-2-2027/event/107678118",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_4eDiyOf",
@@ -3001,7 +3008,8 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332362"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332362",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-seattle-tickets-9-2-2027/event/107678118"
   },
   {
     "id": "tm-sienna-spiro-2027-vancouver-1av7z_fgkxqzaez",
@@ -3273,6 +3281,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675974",
+        "url": "https://www.stubhub.ie/sienna-spiro-new-york-tickets-8-18-2027/event/107675974",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dYZ_46D6wNd",
@@ -3299,7 +3314,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333456/Sienna-Spiro-tickets-Wed-Aug-18-2027-Radio-City-Music-Hall",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333456"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333456",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-new-york-tickets-8-18-2027/event/107675974"
   },
   {
     "id": "tm-sienna-spiro-2027-morrison-z7r9jz1aa7-1d",

@@ -255,12 +255,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8329462",
+        "url": "https://www.ticketliquidator.com/tickets/8329462/Turnpike-Troubadours-tickets-Thu-May-13-2027-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7_ae",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329462"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329462",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329462/Turnpike-Troubadours-tickets-Thu-May-13-2027-Red-Rocks-Amphitheatre"
   },
   {
     "id": "tm-turnpike-troubadours-2027-morrison-z7r9jz1aa7_av",
@@ -316,11 +324,19 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8329463",
+        "url": "https://www.ticketliquidator.com/tickets/8329463/Turnpike-Troubadours-tickets-Fri-May-14-2027-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7_av",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329463"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329463",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329463/Turnpike-Troubadours-tickets-Fri-May-14-2027-Red-Rocks-Amphitheatre"
   }
 ]

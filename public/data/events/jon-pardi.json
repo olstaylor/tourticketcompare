@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8149211",
+        "url": "https://www.ticketliquidator.com/tickets/8149211/Jon-Pardi-tickets-Thu-Oct-29-2026-Mississippi-Coast-Coliseum",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_CTeXXWa",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149211"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149211",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149211/Jon-Pardi-tickets-Thu-Oct-29-2026-Mississippi-Coast-Coliseum"
   },
   {
     "id": "tm-jon-pardi-2026-macon-vvg1zz_cbiziyi",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8149210",
+        "url": "https://www.ticketliquidator.com/tickets/8149210/Jon-Pardi-tickets-Fri-Oct-30-2026-Atrium-Health-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_CBIzIYi",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149210"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149210",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149210/Jon-Pardi-tickets-Fri-Oct-30-2026-Atrium-Health-Amphitheater"
   },
   {
     "id": "tm-jon-pardi-2026-laredo-g5diz_ctprcyh",
@@ -175,12 +191,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8149214",
+        "url": "https://www.ticketliquidator.com/tickets/8149214/Jon-Pardi-tickets-Thu-Nov-5-2026-Sames-Auto-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_CTpRcYh",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149214"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149214",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149214/Jon-Pardi-tickets-Thu-Nov-5-2026-Sames-Auto-Arena"
   },
   {
     "id": "tm-jon-pardi-2026-corpus-christi-z7r9jz1aazdpk",
@@ -236,12 +260,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8149243",
+        "url": "https://www.ticketliquidator.com/tickets/8149243/Jon-Pardi-tickets-Fri-Nov-6-2026-Concrete-Street-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdpK",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149243"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149243",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149243/Jon-Pardi-tickets-Fri-Nov-6-2026-Concrete-Street-Amphitheater"
   },
   {
     "id": "tm-jon-pardi-2026-round-rock-z7r9jz1aazd8o",
@@ -297,12 +329,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8149248",
+        "url": "https://www.ticketliquidator.com/tickets/8149248/Jon-Pardi-tickets-Sat-Nov-7-2026-Round-Rock-Amp",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZd8O",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149248"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149248",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149248/Jon-Pardi-tickets-Sat-Nov-7-2026-Round-Rock-Amp"
   },
   {
     "id": "tm-jon-pardi-2026-cedar-rapids-vvg1bz_ctazgrx",
@@ -358,12 +398,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8149215",
+        "url": "https://www.ticketliquidator.com/tickets/8149215/Jon-Pardi-tickets-Thu-Nov-12-2026-Alliant-Energy-PowerHouse",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_CTAZgRx",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149215"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149215",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149215/Jon-Pardi-tickets-Thu-Nov-12-2026-Alliant-Energy-PowerHouse"
   },
   {
     "id": "tm-jon-pardi-2026-peoria-vvg1jz_cjyd3ia",
@@ -419,12 +467,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8149216",
+        "url": "https://www.ticketliquidator.com/tickets/8149216/Jon-Pardi-tickets-Fri-Nov-13-2026-Carver-Arena-At-Peoria-Civic-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1jZ_CJyd3ia",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149216"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149216",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149216/Jon-Pardi-tickets-Fri-Nov-13-2026-Carver-Arena-At-Peoria-Civic-Center"
   },
   {
     "id": "tm-jon-pardi-2026-independence-vvg1bz_cu03zzw",
@@ -480,12 +536,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8149217",
+        "url": "https://www.ticketliquidator.com/tickets/8149217/Jon-Pardi-tickets-Sat-Nov-14-2026-Cable-Dahmer-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_CU03zzW",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149217"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149217",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149217/Jon-Pardi-tickets-Sat-Nov-14-2026-Cable-Dahmer-Arena"
   },
   {
     "id": "tm-jon-pardi-2026-saint-louis-16e7z_obyg7v9-3",

@@ -1972,11 +1972,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8284554",
-        "url": "https://www.ticketliquidator.com/tickets/8284554/Hilary-Duff-tickets-Sat-Nov-6-2027-Dickies-Arena",
-        "verified": true,
-        "last_verified_at": "2026-09-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -1996,7 +1996,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_3lPl3yg",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284554/Hilary-Duff-tickets-Sat-Nov-6-2027-Dickies-Arena",
+    "ticketliquidator_url": "",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-fort-worth-tickets-11-6-2027/event/107669002",
     "presales": [

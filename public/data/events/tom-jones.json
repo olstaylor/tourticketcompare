@@ -224,11 +224,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7997398",
-        "url": "https://www.ticketliquidator.com/tickets/7997398/Tom-Jones-tickets-Mon-Oct-26-2026-Greek-Theatre-Los-Angeles-CA",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107448275",
@@ -248,7 +248,7 @@
     "ticketmaster_discovery_event_id": "vvG10Z_58XADKo",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997398/Tom-Jones-tickets-Mon-Oct-26-2026-Greek-Theatre-Los-Angeles-CA",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/tom-jones-los-angeles-tickets-10-26-2026/event/107448275",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -304,11 +304,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7997399",
-        "url": "https://www.ticketliquidator.com/tickets/7997399/Tom-Jones-tickets-Tue-Oct-27-2026-The-Rady-Shell-at-Jacobs-Park",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107447921",
@@ -328,7 +328,7 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_5GQCfyd",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997399/Tom-Jones-tickets-Tue-Oct-27-2026-The-Rady-Shell-at-Jacobs-Park",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/tom-jones-san-diego-tickets-10-27-2026/event/107447921",
     "organizer_names": [
       "LIVE NATION MUSIC"

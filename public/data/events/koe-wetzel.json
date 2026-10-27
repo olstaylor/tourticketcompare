@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7764123",
+        "url": "https://www.ticketliquidator.com/tickets/7764123/Koe-Wetzel-tickets-Wed-Oct-28-2026-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-0GF",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7764123"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7764123",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7764123/Koe-Wetzel-tickets-Wed-Oct-28-2026-Red-Rocks-Amphitheatre"
   },
   {
     "id": "tm-koe-wetzel-2026-lubbock-z7r9jz1a7-jaw",
@@ -167,12 +175,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307857",
+        "url": "https://www.ticketliquidator.com/tickets/8307857/Koe-Wetzel-tickets-Wed-Dec-2-2026-John-T-Floore-Country-Store",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAebQp",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307857"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307857",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307857/Koe-Wetzel-tickets-Wed-Dec-2-2026-John-T-Floore-Country-Store"
   },
   {
     "id": "tm-koe-wetzel-2026-corpus-christi-z7r9jz1aaebqk",
@@ -228,12 +244,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307858",
+        "url": "https://www.ticketliquidator.com/tickets/8307858/Koe-Wetzel-tickets-Fri-Dec-4-2026-Concrete-Street-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAebqk",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307858"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307858",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307858/Koe-Wetzel-tickets-Fri-Dec-4-2026-Concrete-Street-Amphitheater"
   },
   {
     "id": "tm-koe-wetzel-2026-round-rock-z7r9jz1aaeb-n",
@@ -289,12 +313,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307859",
+        "url": "https://www.ticketliquidator.com/tickets/8307859/Koe-Wetzel-tickets-Sat-Dec-5-2026-Round-Rock-Amp",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeb-N",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307859"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307859",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307859/Koe-Wetzel-tickets-Sat-Dec-5-2026-Round-Rock-Amp"
   },
   {
     "id": "tm-koe-wetzel-2026-fort-worth-z7r9jz1aa7evf",
@@ -456,11 +488,19 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8194341",
+        "url": "https://www.ticketliquidator.com/tickets/8194341/Koe-Wetzel-tickets-Fri-Dec-11-2026-PH-Live-At-Planet-Hollywood",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZkfkGkdtup_a",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194341"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194341",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194341/Koe-Wetzel-tickets-Fri-Dec-11-2026-PH-Live-At-Planet-Hollywood"
   }
 ]

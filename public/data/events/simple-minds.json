@@ -1143,6 +1143,13 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8341561",
+        "url": "https://www.ticketliquidator.com/tickets/8341561/Simple-Minds-tickets-Mon-May-17-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kkZvPk_GA2vkUC",
@@ -1152,6 +1159,7 @@
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8341561"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8341561",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8341561/Simple-Minds-tickets-Mon-May-17-2027-3Arena-Dublin"
   }
 ]

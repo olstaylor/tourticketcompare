@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258101",
+        "url": "https://www.ticketliquidator.com/tickets/8258101/Victoria-Monet-tickets-Sat-Oct-31-2026-713-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_33ccQFw",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258101"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258101",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258101/Victoria-Monet-tickets-Sat-Oct-31-2026-713-Music-Hall"
   },
   {
     "id": "tm-victoria-monet-2026-dallas-vvg1yz_3n9clqe",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258102",
+        "url": "https://www.ticketliquidator.com/tickets/8258102/Victoria-Monet-tickets-Mon-Nov-2-2026-South-Side-Ballroom-at-Gilleys",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3N9Clqe",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258102"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258102",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258102/Victoria-Monet-tickets-Mon-Nov-2-2026-South-Side-Ballroom-at-Gilleys"
   },
   {
     "id": "tm-victoria-monet-2026-atlanta-z7r9jz1aavpbj",
@@ -175,12 +191,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258103",
+        "url": "https://www.ticketliquidator.com/tickets/8258103/Victoria-Monet-tickets-Wed-Nov-4-2026-Fabulous-Fox-Theatre-Atlanta",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvPbJ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258103"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258103",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258103/Victoria-Monet-tickets-Wed-Nov-4-2026-Fabulous-Fox-Theatre-Atlanta"
   },
   {
     "id": "tm-victoria-monet-2026-charlotte-g5evz_3nkdbni",
@@ -342,12 +366,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258105",
+        "url": "https://www.ticketliquidator.com/tickets/8258105/Victoria-Monet-tickets-Sun-Nov-8-2026-The-Yuengling-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3NvHQgr",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258105"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258105",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258105/Victoria-Monet-tickets-Sun-Nov-8-2026-The-Yuengling-Center"
   },
   {
     "id": "tm-victoria-monet-2026-philadelphia-vv1aezkfxgkegbvoj",
@@ -403,12 +435,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258106",
+        "url": "https://www.ticketliquidator.com/tickets/8258106/Victoria-Monet-tickets-Thu-Nov-12-2026-The-Met-Presented-by-Highmark",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfxGkegbVoJ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258106"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258106",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258106/Victoria-Monet-tickets-Thu-Nov-12-2026-The-Met-Presented-by-Highmark"
   },
   {
     "id": "tm-victoria-monet-2026-boston-vv1avzkfpgkdybxe-",
@@ -464,12 +504,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258107",
+        "url": "https://www.ticketliquidator.com/tickets/8258107/Victoria-Monet-tickets-Fri-Nov-13-2026-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfPGkdyBXE-",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258107"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258107",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258107/Victoria-Monet-tickets-Fri-Nov-13-2026-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-victoria-monet-2026-detroit-vv1afzkfegkdcyvij",
@@ -525,12 +573,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258108",
+        "url": "https://www.ticketliquidator.com/tickets/8258108/Victoria-Monet-tickets-Sun-Nov-15-2026-Fox-Theatre-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfEGkdCYViJ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258108"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258108",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258108/Victoria-Monet-tickets-Sun-Nov-15-2026-Fox-Theatre-Detroit"
   },
   {
     "id": "tm-victoria-monet-2026-milwaukee-vv1kjz_3f4g7vnwv",
@@ -586,12 +642,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258109",
+        "url": "https://www.ticketliquidator.com/tickets/8258109/Victoria-Monet-tickets-Mon-Nov-16-2026-Landmark-Credit-Union-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kjZ_3f4G7VnWV",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258109"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258109",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258109/Victoria-Monet-tickets-Mon-Nov-16-2026-Landmark-Credit-Union-Live"
   },
   {
     "id": "tm-victoria-monet-2026-chicago-vv1k8z_3bag7xjoo",
@@ -647,12 +711,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258110",
+        "url": "https://www.ticketliquidator.com/tickets/8258110/Victoria-Monet-tickets-Wed-Nov-18-2026-Byline-Bank-Aragon-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k8Z_3bAG7XJoo",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258110"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258110",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258110/Victoria-Monet-tickets-Wed-Nov-18-2026-Byline-Bank-Aragon-Ballroom"
   },
   {
     "id": "tm-victoria-monet-2026-toronto-1a8zkf-gkdrpzii",
@@ -761,12 +833,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258111",
+        "url": "https://www.ticketliquidator.com/tickets/8258111/Victoria-Monet-tickets-Sun-Nov-22-2026-Citizens-Live-at-The-Wylie",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkftGkexNgTR",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258111"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258111",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258111/Victoria-Monet-tickets-Sun-Nov-22-2026-Citizens-Live-at-The-Wylie"
   },
   {
     "id": "tm-victoria-monet-2026-new-york-g5diz_3c1vwav",
@@ -822,12 +902,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258112",
+        "url": "https://www.ticketliquidator.com/tickets/8258112/Victoria-Monet-tickets-Tue-Nov-24-2026-Infosys-Theater-at-Madison-Square-Garden",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_3C1Vwav",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258112"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258112",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258112/Victoria-Monet-tickets-Tue-Nov-24-2026-Infosys-Theater-at-Madison-Square-Garden"
   },
   {
     "id": "tm-victoria-monet-2026-washington-1a4zkfigkeu6i0b",
@@ -883,12 +971,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258113",
+        "url": "https://www.ticketliquidator.com/tickets/8258113/Victoria-Monet-tickets-Fri-Nov-27-2026-The-Anthem-DC",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfIGkeU6I0B",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258113"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258113",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258113/Victoria-Monet-tickets-Fri-Nov-27-2026-The-Anthem-DC"
   },
   {
     "id": "tm-victoria-monet-2026-nashville-g5viz_3rdnbd2",
@@ -944,12 +1040,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258114",
+        "url": "https://www.ticketliquidator.com/tickets/8258114/Victoria-Monet-tickets-Mon-Nov-30-2026-The-Truth",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_3rDnbD2",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258114"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258114",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258114/Victoria-Monet-tickets-Mon-Nov-30-2026-The-Truth"
   },
   {
     "id": "tm-victoria-monet-2026-austin-z7r9jz1aavpbs",
@@ -1066,12 +1170,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258116",
+        "url": "https://www.ticketliquidator.com/tickets/8258116/Victoria-Monet-tickets-Sat-Dec-5-2026-Arizona-Financial-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Fk8vPadufZ7CCuC",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258116"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258116",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258116/Victoria-Monet-tickets-Sat-Dec-5-2026-Arizona-Financial-Theatre"
   },
   {
     "id": "tm-victoria-monet-2026-san-diego-vvg1iz_32hzdgh",
@@ -1127,12 +1239,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258117",
+        "url": "https://www.ticketliquidator.com/tickets/8258117/Victoria-Monet-tickets-Sun-Dec-6-2026-Cal-Coast-Credit-Union-Open-Air-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_32HZdgH",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258117"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258117",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258117/Victoria-Monet-tickets-Sun-Dec-6-2026-Cal-Coast-Credit-Union-Open-Air-Theatre"
   },
   {
     "id": "tm-victoria-monet-2026-inglewood-vvg1iz_3xv_aba",
@@ -1188,12 +1308,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258118",
+        "url": "https://www.ticketliquidator.com/tickets/8258118/Victoria-Monet-tickets-Tue-Dec-8-2026-YouTube-Theater-at-Hollywood-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_3xV_aba",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258118"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258118",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258118/Victoria-Monet-tickets-Tue-Dec-8-2026-YouTube-Theater-at-Hollywood-Park"
   },
   {
     "id": "tm-victoria-monet-2026-las-vegas-1avjz_38nr4zdcac",
@@ -1249,12 +1377,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258119",
+        "url": "https://www.ticketliquidator.com/tickets/8258119/Victoria-Monet-tickets-Wed-Dec-9-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1avjZ_38Nr4ZdCAC",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258119"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258119",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258119/Victoria-Monet-tickets-Wed-Dec-9-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
   },
   {
     "id": "tm-victoria-monet-2026-vancouver-1aozkf0gkdm521c",
@@ -1310,12 +1446,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258123",
+        "url": "https://www.ticketliquidator.com/tickets/8258123/Victoria-Monet-tickets-Sat-Dec-12-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkf0Gkdm521c",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258123"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258123",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258123/Victoria-Monet-tickets-Sat-Dec-12-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre"
   },
   {
     "id": "tm-victoria-monet-2026-seattle-vvg1hz_31fteps",
@@ -1371,12 +1515,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258120",
+        "url": "https://www.ticketliquidator.com/tickets/8258120/Victoria-Monet-tickets-Mon-Dec-14-2026-Wamu-Theater-At-Lumen-Field-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_31fTEps",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258120"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258120",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258120/Victoria-Monet-tickets-Mon-Dec-14-2026-Wamu-Theater-At-Lumen-Field-Event-Center"
   },
   {
     "id": "tm-victoria-monet-2026-sacramento-g5vyz_3xulwgw",
@@ -1432,12 +1584,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258121",
+        "url": "https://www.ticketliquidator.com/tickets/8258121/Victoria-Monet-tickets-Wed-Dec-16-2026-Sacramento-Memorial-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_3xUlWgw",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258121"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258121",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258121/Victoria-Monet-tickets-Wed-Dec-16-2026-Sacramento-Memorial-Auditorium"
   },
   {
     "id": "tm-victoria-monet-2026-san-francisco-g5vyz_320sgvq",
@@ -1493,11 +1653,19 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8259524",
+        "url": "https://www.ticketliquidator.com/tickets/8259524/Victoria-Monet-tickets-Thu-Dec-17-2026-Bill-Graham-Civic-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_320sgVQ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259524"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259524",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259524/Victoria-Monet-tickets-Thu-Dec-17-2026-Bill-Graham-Civic-Auditorium"
   }
 ]

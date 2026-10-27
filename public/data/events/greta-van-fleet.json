@@ -1470,11 +1470,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8303363",
-        "url": "https://www.ticketliquidator.com/tickets/8303363/Greta-Van-Fleet-tickets-Mon-Mar-15-2027-Dickies-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107671871",
@@ -1488,7 +1488,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303363/Greta-Van-Fleet-tickets-Mon-Mar-15-2027-Dickies-Arena",
+    "ticketliquidator_url": "",
     "presales": [
       {
         "name": "VIP Packages Onsale",
@@ -2794,6 +2794,13 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8341562",
+        "url": "https://www.ticketliquidator.com/tickets/8341562/Greta-Van-Fleet-tickets-Fri-Jun-4-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AbZkfMGkeS3WYd",
@@ -2803,7 +2810,8 @@
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8341562"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8341562",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8341562/Greta-Van-Fleet-tickets-Fri-Jun-4-2027-3Arena-Dublin"
   },
   {
     "id": "tm-greta-van-fleet-2027-vancouver-1av7z_kgkw_ogty",
@@ -4171,6 +4179,13 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8341908",
+        "url": "https://www.ticketliquidator.com/tickets/8341908/Greta-Van-Fleet-tickets-Wed-Jun-2-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkfUGkd_HIpm",
@@ -4181,6 +4196,7 @@
       "DF CONCERTS LIMITED",
       "SCOTTISH EVENT CAMPUS LIMITED"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8341908"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8341908",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8341908/Greta-Van-Fleet-tickets-Wed-Jun-2-2027-OVO-Hydro"
   }
 ]

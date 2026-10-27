@@ -306651,5 +306651,1918 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329463",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329463/Turnpike-Troubadours-tickets-Fri-May-14-2027-Red-Rocks-Amphitheatre"
+  },
+  {
+    "id": "tm-interpol-2026-cardiff-1auzkungkeif6z0",
+    "artist_slug": "interpol",
+    "artist_name": "Interpol",
+    "event_name": "Interpol & Bloc Party Co-Headline Tour",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Cardiff",
+    "datetime_iso": "2026-11-21T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006363A8207024",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/interpol-bloc-party-coheadline-tour-cardiff-21-11-2026/event/36006363A8207024",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/interpol-bloc-party-coheadline-tour-cardiff-21-11-2026/event/36006363A8207024",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006363A8207024",
+        "discovery_event_id": "1AUZkuNGkeIF6Z0",
+        "url": "https://www.ticketmaster.co.uk/interpol-bloc-party-coheadline-tour-cardiff-21-11-2026/event/36006363A8207024",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkuNGkeIF6Z0",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-interpol-2026-manchester-1adfzbggkdjtldr",
+    "artist_slug": "interpol",
+    "artist_name": "Interpol",
+    "event_name": "Interpol & Bloc Party Co-Headline Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Aviva Studios - Warehouse",
+    "datetime_iso": "2026-11-24T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500635EDCFEBEDE",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/interpol-bloc-party-coheadline-tour-manchester-24-11-2026/event/3500635EDCFEBEDE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/interpol-bloc-party-coheadline-tour-manchester-24-11-2026/event/3500635EDCFEBEDE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500635EDCFEBEDE",
+        "discovery_event_id": "1AdfZbgGkDjTlDr",
+        "url": "https://www.ticketmaster.co.uk/interpol-bloc-party-coheadline-tour-manchester-24-11-2026/event/3500635EDCFEBEDE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZbgGkDjTlDr",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-interpol-2026-brighton-g5dzzbgwdgxyl",
+    "artist_slug": "interpol",
+    "artist_name": "Interpol",
+    "event_name": "Interpol & Bloc Party Co-Headline Tour",
+    "city": "Brighton",
+    "country": "Great Britain",
+    "venue": "The Brighton Centre",
+    "datetime_iso": "2026-11-27T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00635F7BD62C2B",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/interpol-bloc-party-coheadline-tour-brighton-27-11-2026/event/3E00635F7BD62C2B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/interpol-bloc-party-coheadline-tour-brighton-27-11-2026/event/3E00635F7BD62C2B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00635F7BD62C2B",
+        "discovery_event_id": "G5dzZbgWDgxYl",
+        "url": "https://www.ticketmaster.co.uk/interpol-bloc-party-coheadline-tour-brighton-27-11-2026/event/3E00635F7BD62C2B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZbgWDgxYl",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-interpol-2026-dublin-1abzkuogkdez9hd",
+    "artist_slug": "interpol",
+    "artist_name": "Interpol",
+    "event_name": "Interpol & Bloc Party Co-Headline Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2026-11-30T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006351C20176C3",
+    "ticketmaster_url": "https://www.ticketmaster.ie/interpol-bloc-party-coheadline-tour-dublin-30-11-2026/event/18006351C20176C3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/interpol-bloc-party-coheadline-tour-dublin-30-11-2026/event/18006351C20176C3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006351C20176C3",
+        "discovery_event_id": "1AbZkuoGkdeZ9hd",
+        "url": "https://www.ticketmaster.ie/interpol-bloc-party-coheadline-tour-dublin-30-11-2026/event/18006351C20176C3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkuoGkdeZ9hd",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-interpol-2026-san-diego-vvg1iz_4dkyacm",
+    "artist_slug": "interpol",
+    "artist_name": "Interpol",
+    "event_name": "Interpol",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "SOMA",
+    "datetime_iso": "2026-12-12T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A006550C6E493B7",
+    "ticketmaster_url": "https://www.ticketmaster.com/interpol-san-diego-california-12-11-2026/event/0A006550C6E493B7",
+    "seatgeek_url": "https://seatgeek.com/interpol-tickets/san-diego-california-soma-san-diego-2026-12-11-8-pm/concert/18700629",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/interpol-san-diego-california-12-11-2026/event/0A006550C6E493B7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006550C6E493B7",
+        "discovery_event_id": "vvG1IZ_4dkyaCM",
+        "url": "https://www.ticketmaster.com/interpol-san-diego-california-12-11-2026/event/0A006550C6E493B7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_4dkyaCM",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-interpol-2027-hidalgo-g5diz_4kwcels",
+    "artist_slug": "interpol",
+    "artist_name": "Interpol",
+    "event_name": "Interpol - North America Tour 2027",
+    "city": "Hidalgo",
+    "country": "United States Of America",
+    "venue": "Payne Arena",
+    "datetime_iso": "2027-03-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006554F23A7AF3",
+    "ticketmaster_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-hidalgo-texas-03-19-2027/event/3A006554F23A7AF3",
+    "seatgeek_url": "https://seatgeek.com/interpol-tickets/hidalgo-texas-payne-arena-2027-03-19-8-pm/concert/18710343",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-hidalgo-texas-03-19-2027/event/3A006554F23A7AF3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006554F23A7AF3",
+        "discovery_event_id": "G5dIZ_4KwCElS",
+        "url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-hidalgo-texas-03-19-2027/event/3A006554F23A7AF3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_4KwCElS",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T15:00:00Z"
+  },
+  {
+    "id": "tm-interpol-2027-memphis-g5viz_4agmgrr",
+    "artist_slug": "interpol",
+    "artist_name": "Interpol",
+    "event_name": "Interpol - North America Tour 2027",
+    "city": "Memphis",
+    "country": "United States Of America",
+    "venue": "Satellite Music Hall",
+    "datetime_iso": "2027-03-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0065524CDCC79E",
+    "ticketmaster_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-memphis-tennessee-03-22-2027/event/1B0065524CDCC79E",
+    "seatgeek_url": "https://seatgeek.com/interpol-tickets/memphis-tennessee-satellite-music-hall-2027-03-22-7-pm/concert/18710346",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-memphis-tennessee-03-22-2027/event/1B0065524CDCC79E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0065524CDCC79E",
+        "discovery_event_id": "G5viZ_4aGMGrr",
+        "url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-memphis-tennessee-03-22-2027/event/1B0065524CDCC79E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_4aGMGrr",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T15:00:00Z"
+  },
+  {
+    "id": "tm-interpol-2027-asheville-g5evz_4oz4dpm",
+    "artist_slug": "interpol",
+    "artist_name": "Interpol",
+    "event_name": "Interpol - North America Tour 2027",
+    "city": "Asheville",
+    "country": "United States Of America",
+    "venue": "Harrah's Cherokee Center - Asheville",
+    "datetime_iso": "2027-03-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00655440543977",
+    "ticketmaster_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-asheville-north-carolina-03-23-2027/event/2D00655440543977",
+    "seatgeek_url": "https://seatgeek.com/interpol-tickets/asheville-north-carolina-thomas-wolfe-auditorium-at-harrah-s-cherokee-center-2027-03-23-8-pm/concert/18710348",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-asheville-north-carolina-03-23-2027/event/2D00655440543977",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00655440543977",
+        "discovery_event_id": "G5eVZ_4oZ4dPM",
+        "url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-asheville-north-carolina-03-23-2027/event/2D00655440543977",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_4oZ4dPM",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T14:00:00Z"
+  },
+  {
+    "id": "tm-interpol-2027-washington-1a4zk4kgkd5cf0g",
+    "artist_slug": "interpol",
+    "artist_name": "Interpol",
+    "event_name": "Interpol",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "The Anthem",
+    "datetime_iso": "2027-03-24T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006553CB38890C",
+    "ticketmaster_url": "https://www.ticketmaster.com/interpol-washington-district-of-columbia-03-24-2027/event/15006553CB38890C",
+    "seatgeek_url": "https://seatgeek.com/interpol-tickets/washington-district-of-columbia-the-anthem-dc-2027-03-24-7-30-pm/concert/18710355",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/interpol-washington-district-of-columbia-03-24-2027/event/15006553CB38890C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006553CB38890C",
+        "discovery_event_id": "1A4Zk4KGkd5CF0G",
+        "url": "https://www.ticketmaster.com/interpol-washington-district-of-columbia-03-24-2027/event/15006553CB38890C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4Zk4KGkd5CF0G",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T14:00:00Z"
+  },
+  {
+    "id": "tm-interpol-2027-philadelphia-vv1aezk4fgkevbabi",
+    "artist_slug": "interpol",
+    "artist_name": "Interpol",
+    "event_name": "Interpol - North America Tour 2027",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Met Presented by Highmark",
+    "datetime_iso": "2027-03-27T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006554B460962C",
+    "ticketmaster_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-philadelphia-pennsylvania-03-26-2027/event/02006554B460962C",
+    "seatgeek_url": "https://seatgeek.com/interpol-tickets/philadelphia-pennsylvania-the-met-philadelphia-2027-03-26-8-pm/concert/18710357",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-philadelphia-pennsylvania-03-26-2027/event/02006554B460962C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006554B460962C",
+        "discovery_event_id": "vv1AeZk4fGkeVbabi",
+        "url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-philadelphia-pennsylvania-03-26-2027/event/02006554B460962C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZk4fGkeVbabi",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T14:00:00Z"
+  },
+  {
+    "id": "tm-little-big-town-2026-san-antonio-z7r9jz1a7p8a_",
+    "artist_slug": "little-big-town",
+    "artist_name": "Little Big Town",
+    "event_name": "Little Big Town - For The Art Of It Tour",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Majestic Theatre San Antonio",
+    "datetime_iso": "2026-10-30T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P8A_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P8A_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P8A_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P8A_",
+        "discovery_event_id": "Z7r9jZ1A7P8A_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P8A_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P8A_",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-little-big-town-2026-houston-g5diz_g2cmeda",
+    "artist_slug": "little-big-town",
+    "artist_name": "Little Big Town",
+    "event_name": "Little Big Town - For The Art Of It Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Hobby Center",
+    "datetime_iso": "2026-10-31T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064C3EDDC20C9",
+    "ticketmaster_url": "https://www.ticketmaster.com/little-big-town-for-the-art-houston-texas-10-30-2026/event/3A0064C3EDDC20C9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-houston-texas-10-30-2026/event/3A0064C3EDDC20C9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064C3EDDC20C9",
+        "discovery_event_id": "G5dIZ_G2cMeda",
+        "url": "https://www.ticketmaster.com/little-big-town-for-the-art-houston-texas-10-30-2026/event/3A0064C3EDDC20C9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_G2cMeda",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-little-big-town-2026-dallas-vvg1yz_g1nt6fw",
+    "artist_slug": "little-big-town",
+    "artist_name": "Little Big Town",
+    "event_name": "Little Big Town - For The Art Of It Tour",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "Music Hall At Fair Park",
+    "datetime_iso": "2026-11-01T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064C2A3FC7232",
+    "ticketmaster_url": "https://www.ticketmaster.com/little-big-town-for-the-art-dallas-texas-10-31-2026/event/0C0064C2A3FC7232",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-dallas-texas-10-31-2026/event/0C0064C2A3FC7232",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064C2A3FC7232",
+        "discovery_event_id": "vvG1YZ_G1NT6Fw",
+        "url": "https://www.ticketmaster.com/little-big-town-for-the-art-dallas-texas-10-31-2026/event/0C0064C2A3FC7232",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_G1NT6Fw",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-little-big-town-2026-virginia-beach-vvg17z_gg7kjfl",
+    "artist_slug": "little-big-town",
+    "artist_name": "Little Big Town",
+    "event_name": "Little Big Town - For The Art Of It Tour",
+    "city": "Virginia Beach",
+    "country": "United States Of America",
+    "venue": "The Dome by Rutter Mills",
+    "datetime_iso": "2026-11-06T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064C3044DC52B",
+    "ticketmaster_url": "https://www.ticketmaster.com/little-big-town-for-the-art-virginia-beach-virginia-11-05-2026/event/010064C3044DC52B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-virginia-beach-virginia-11-05-2026/event/010064C3044DC52B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064C3044DC52B",
+        "discovery_event_id": "vvG17Z_GG7Kjfl",
+        "url": "https://www.ticketmaster.com/little-big-town-for-the-art-virginia-beach-virginia-11-05-2026/event/010064C3044DC52B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_GG7Kjfl",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-little-big-town-2026-durham-g5evz_gplfpyl",
+    "artist_slug": "little-big-town",
+    "artist_name": "Little Big Town",
+    "event_name": "Little Big Town - For The Art Of It Tour",
+    "city": "Durham",
+    "country": "United States Of America",
+    "venue": "DPAC",
+    "datetime_iso": "2026-11-07T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0064C5AB216E6B",
+    "ticketmaster_url": "https://www.ticketmaster.com/little-big-town-for-the-art-durham-north-carolina-11-06-2026/event/2D0064C5AB216E6B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-durham-north-carolina-11-06-2026/event/2D0064C5AB216E6B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0064C5AB216E6B",
+        "discovery_event_id": "G5eVZ_GplFpyl",
+        "url": "https://www.ticketmaster.com/little-big-town-for-the-art-durham-north-carolina-11-06-2026/event/2D0064C5AB216E6B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_GplFpyl",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-little-big-town-2026-charlotte-g5evz_g5h5gi9",
+    "artist_slug": "little-big-town",
+    "artist_name": "Little Big Town",
+    "event_name": "Little Big Town - For The Art Of It Tour",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Ovens Auditorium",
+    "datetime_iso": "2026-11-08T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0064C2DB2CCA17",
+    "ticketmaster_url": "https://www.ticketmaster.com/little-big-town-for-the-art-charlotte-north-carolina-11-07-2026/event/2D0064C2DB2CCA17",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-charlotte-north-carolina-11-07-2026/event/2D0064C2DB2CCA17",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0064C2DB2CCA17",
+        "discovery_event_id": "G5eVZ_G5h5GI9",
+        "url": "https://www.ticketmaster.com/little-big-town-for-the-art-charlotte-north-carolina-11-07-2026/event/2D0064C2DB2CCA17",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_G5h5GI9",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-little-big-town-2026-akron-vvg1fz_ghpckp3",
+    "artist_slug": "little-big-town",
+    "artist_name": "Little Big Town",
+    "event_name": "Little Big Town - For The Art Of It Tour",
+    "city": "Akron",
+    "country": "United States Of America",
+    "venue": "Akron Civic Theatre",
+    "datetime_iso": "2026-11-13T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050064C6E5B53592",
+    "ticketmaster_url": "https://www.ticketmaster.com/little-big-town-for-the-art-akron-ohio-11-12-2026/event/050064C6E5B53592",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-akron-ohio-11-12-2026/event/050064C6E5B53592",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050064C6E5B53592",
+        "discovery_event_id": "vvG1fZ_GhPcKp3",
+        "url": "https://www.ticketmaster.com/little-big-town-for-the-art-akron-ohio-11-12-2026/event/050064C6E5B53592",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1fZ_GhPcKp3",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-little-big-town-2026-columbus-vvg1fz_gptrce6",
+    "artist_slug": "little-big-town",
+    "artist_name": "Little Big Town",
+    "event_name": "Little Big Town - For The Art Of It Tour",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Mershon Auditorium",
+    "datetime_iso": "2026-11-14T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050064C5A9BED087",
+    "ticketmaster_url": "https://www.ticketmaster.com/little-big-town-for-the-art-columbus-ohio-11-13-2026/event/050064C5A9BED087",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-columbus-ohio-11-13-2026/event/050064C5A9BED087",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050064C5A9BED087",
+        "discovery_event_id": "vvG1fZ_GptRce6",
+        "url": "https://www.ticketmaster.com/little-big-town-for-the-art-columbus-ohio-11-13-2026/event/050064C5A9BED087",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1fZ_GptRce6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-little-big-town-2026-indianapolis-vvg1fz_g5crrzm",
+    "artist_slug": "little-big-town",
+    "artist_name": "Little Big Town",
+    "event_name": "Little Big Town - For The Art Of It Tour",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Old National Centre",
+    "datetime_iso": "2026-11-15T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050064C2CEBEF02E",
+    "ticketmaster_url": "https://www.ticketmaster.com/little-big-town-for-the-art-indianapolis-indiana-11-14-2026/event/050064C2CEBEF02E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-indianapolis-indiana-11-14-2026/event/050064C2CEBEF02E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050064C2CEBEF02E",
+        "discovery_event_id": "vvG1fZ_G5CRRZm",
+        "url": "https://www.ticketmaster.com/little-big-town-for-the-art-indianapolis-indiana-11-14-2026/event/050064C2CEBEF02E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1fZ_G5CRRZm",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-little-big-town-2026-chicago-vvg1jz_gohfssb",
+    "artist_slug": "little-big-town",
+    "artist_name": "Little Big Town",
+    "event_name": "Little Big Town - For The Art Of It Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "The Chicago Theatre",
+    "datetime_iso": "2026-11-20T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "070064C47C531CFA",
+    "ticketmaster_url": "https://www.ticketmaster.com/little-big-town-for-the-art-chicago-illinois-11-19-2026/event/070064C47C531CFA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-chicago-illinois-11-19-2026/event/070064C47C531CFA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "070064C47C531CFA",
+        "discovery_event_id": "vvG1jZ_GoHfsSB",
+        "url": "https://www.ticketmaster.com/little-big-town-for-the-art-chicago-illinois-11-19-2026/event/070064C47C531CFA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1jZ_GoHfsSB",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-little-big-town-2026-detroit-vvg1oz_g9neqkq",
+    "artist_slug": "little-big-town",
+    "artist_name": "Little Big Town",
+    "event_name": "Little Big Town - For The Art Of It Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Fox Theatre Detroit",
+    "datetime_iso": "2026-11-21T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "080064C5EA9DD19D",
+    "ticketmaster_url": "https://www.ticketmaster.com/little-big-town-for-the-art-detroit-michigan-11-20-2026/event/080064C5EA9DD19D",
+    "seatgeek_url": "https://seatgeek.com/little-big-town-tickets/detroit-michigan-fox-theatre-detroit-2026-11-20-7-30-pm/concert/18292640",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-detroit-michigan-11-20-2026/event/080064C5EA9DD19D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "080064C5EA9DD19D",
+        "discovery_event_id": "vvG1OZ_G9nEqkq",
+        "url": "https://www.ticketmaster.com/little-big-town-for-the-art-detroit-michigan-11-20-2026/event/080064C5EA9DD19D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1OZ_G9nEqkq",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-little-big-town-2026-toronto-177zv0g6g2_mkrp",
+    "artist_slug": "little-big-town",
+    "artist_name": "Little Big Town",
+    "event_name": "Little Big Town - For The Art Of It Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Massey Hall",
+    "datetime_iso": "2026-11-23T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100064C3D9B86796",
+    "ticketmaster_url": "https://www.ticketmaster.ca/little-big-town-for-the-art-toronto-ontario-11-22-2026/event/100064C3D9B86796",
+    "seatgeek_url": "https://seatgeek.com/little-big-town-tickets/toronto-canada-massey-hall-2026-11-22-8-pm/concert/18292641",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/little-big-town-for-the-art-toronto-ontario-11-22-2026/event/100064C3D9B86796",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100064C3D9B86796",
+        "discovery_event_id": "177Zv0G6G2_mkrp",
+        "url": "https://www.ticketmaster.ca/little-big-town-for-the-art-toronto-ontario-11-22-2026/event/100064C3D9B86796",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Zv0G6G2_mkrp",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-little-big-town-2026-nashville-z7r9jz1a7j8ra",
+    "artist_slug": "little-big-town",
+    "artist_name": "Little Big Town",
+    "event_name": "Little Big Town",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Ryman Auditorium",
+    "datetime_iso": "2026-12-09T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7J8rA",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J8rA",
+    "seatgeek_url": "https://seatgeek.com/little-big-town-tickets/nashville-tennessee-ryman-auditorium-2026-12-08-7-30-pm/concert/18385970",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J8rA",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7J8rA",
+        "discovery_event_id": "Z7r9jZ1A7J8rA",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J8rA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7J8rA",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-little-big-town-2026-nashville-z7r9jz1a7j8_7",
+    "artist_slug": "little-big-town",
+    "artist_name": "Little Big Town",
+    "event_name": "Little Big Town",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Ryman Auditorium",
+    "datetime_iso": "2026-12-10T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7J8_7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J8_7",
+    "seatgeek_url": "https://seatgeek.com/little-big-town-tickets/nashville-tennessee-ryman-auditorium-2026-12-09-7-30-pm/concert/18385972",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J8_7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7J8_7",
+        "discovery_event_id": "Z7r9jZ1A7J8_7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J8_7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7J8_7",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-little-big-town-2026-nashville-z7r9jz1a7j_4x",
+    "artist_slug": "little-big-town",
+    "artist_name": "Little Big Town",
+    "event_name": "Little Big Town",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Ryman Auditorium",
+    "datetime_iso": "2026-12-11T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7J_4x",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J_4x",
+    "seatgeek_url": "https://seatgeek.com/little-big-town-tickets/nashville-tennessee-ryman-auditorium-2026-12-10-7-30-pm/concert/18385974",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J_4x",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7J_4x",
+        "discovery_event_id": "Z7r9jZ1A7J_4x",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J_4x",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7J_4x",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-shaboozey-2026-los-angeles-z7r9jz1a70kpt",
+    "artist_slug": "shaboozey",
+    "artist_name": "Shaboozey",
+    "event_name": "Shaboozey w/ Carter Faith",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Greek Theatre-Los Angeles",
+    "datetime_iso": "2026-10-28T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70kPt",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kPt",
+    "seatgeek_url": "https://seatgeek.com/shaboozey-tickets/los-angeles-california-the-greek-theatre-los-angeles-2026-10-27-7-30-pm/concert/18208375",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kPt",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70kPt",
+        "discovery_event_id": "Z7r9jZ1A70kPt",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kPt",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70kPt",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-carin-leon-2027-las-vegas-1avjzbwgkrtxpef",
+    "artist_slug": "carin-leon",
+    "artist_name": "Carin Leon",
+    "event_name": "Carin Leon",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-09-16T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700632BE9F96094",
+    "ticketmaster_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-15-2027/event/1700632BE9F96094",
+    "seatgeek_url": "https://seatgeek.com/carin-leon-tickets/las-vegas-nevada-sphere-2027-09-15-8-pm/concert/17838557",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-15-2027/event/1700632BE9F96094",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700632BE9F96094",
+        "discovery_event_id": "1AvjZbwGkRtXpef",
+        "url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-15-2027/event/1700632BE9F96094",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZbwGkRtXpef",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-carin-leon-2027-las-vegas-1a9zkfpgkdqtn6j",
+    "artist_slug": "carin-leon",
+    "artist_name": "Carin Leon",
+    "event_name": "Carin Leon",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-09-17T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006525DDFE31E6",
+    "ticketmaster_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-16-2027/event/17006525DDFE31E6",
+    "seatgeek_url": "https://seatgeek.com/carin-leon-tickets/las-vegas-nevada-sphere-2027-09-16-8-pm/concert/18583758",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-16-2027/event/17006525DDFE31E6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006525DDFE31E6",
+        "discovery_event_id": "1A9ZkfPGkdqTN6J",
+        "url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-16-2027/event/17006525DDFE31E6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9ZkfPGkdqTN6J",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-carin-leon-2027-las-vegas-1a9zkfpgkdrskjz",
+    "artist_slug": "carin-leon",
+    "artist_name": "Carin Leon",
+    "event_name": "Carin Leon",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-09-18T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006525DECD3700",
+    "ticketmaster_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-17-2027/event/17006525DECD3700",
+    "seatgeek_url": "https://seatgeek.com/carin-leon-tickets/las-vegas-nevada-sphere-2027-09-17-8-pm/concert/18583757",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-17-2027/event/17006525DECD3700",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006525DECD3700",
+        "discovery_event_id": "1A9ZkfPGkdrSKjZ",
+        "url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-17-2027/event/17006525DECD3700",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9ZkfPGkdrSKjZ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-carin-leon-2027-las-vegas-1a9zkfpgkdrgsj0",
+    "artist_slug": "carin-leon",
+    "artist_name": "Carin Leon",
+    "event_name": "Carin Leon",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-09-19T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006525DED73724",
+    "ticketmaster_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-18-2027/event/17006525DED73724",
+    "seatgeek_url": "https://seatgeek.com/carin-leon-tickets/las-vegas-nevada-sphere-2027-09-18-8-pm/concert/18583756",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-18-2027/event/17006525DED73724",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006525DED73724",
+        "discovery_event_id": "1A9ZkfPGkdrgSj0",
+        "url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-18-2027/event/17006525DED73724",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9ZkfPGkdrgSj0",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-phish-2026-new-york-g5diz_kv3gvwh",
+    "artist_slug": "phish",
+    "artist_name": "Phish",
+    "event_name": "Phish",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Madison Square Garden",
+    "datetime_iso": "2026-12-31T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3B00653D12D41F7C",
+    "ticketmaster_url": "https://www.ticketmaster.com/phish-new-york-new-york-12-30-2026/event/3B00653D12D41F7C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/phish-new-york-new-york-12-30-2026/event/3B00653D12D41F7C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00653D12D41F7C",
+        "discovery_event_id": "G5diZ_KV3gvWH",
+        "url": "https://www.ticketmaster.com/phish-new-york-new-york-12-30-2026/event/3B00653D12D41F7C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5diZ_KV3gvWH",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-phish-2027-new-york-g5diz_kv3mvxa",
+    "artist_slug": "phish",
+    "artist_name": "Phish",
+    "event_name": "Phish",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Madison Square Garden",
+    "datetime_iso": "2027-01-01T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3B00653D12DC1F89",
+    "ticketmaster_url": "https://www.ticketmaster.com/phish-new-york-new-york-12-31-2026/event/3B00653D12DC1F89",
+    "seatgeek_url": "https://seatgeek.com/phish-tickets/new-york-new-york-madison-square-garden-2026-12-31-7-30-pm/concert/18659385",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/phish-new-york-new-york-12-31-2026/event/3B00653D12DC1F89",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00653D12DC1F89",
+        "discovery_event_id": "G5diZ_KV3MvXa",
+        "url": "https://www.ticketmaster.com/phish-new-york-new-york-12-31-2026/event/3B00653D12DC1F89",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5diZ_KV3MvXa",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-phish-2027-new-york-g5diz_kv3yvxl",
+    "artist_slug": "phish",
+    "artist_name": "Phish",
+    "event_name": "Phish",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Madison Square Garden",
+    "datetime_iso": "2027-01-02T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3B00653D12E41F9F",
+    "ticketmaster_url": "https://www.ticketmaster.com/phish-new-york-new-york-01-01-2027/event/3B00653D12E41F9F",
+    "seatgeek_url": "https://seatgeek.com/phish-tickets/new-york-new-york-madison-square-garden-2027-01-01-7-30-pm/concert/18659382",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/phish-new-york-new-york-01-01-2027/event/3B00653D12E41F9F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00653D12E41F9F",
+        "discovery_event_id": "G5diZ_KV3yvXL",
+        "url": "https://www.ticketmaster.com/phish-new-york-new-york-01-01-2027/event/3B00653D12E41F9F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5diZ_KV3yvXL",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-phish-2027-new-york-g5diz_kv3dvxt",
+    "artist_slug": "phish",
+    "artist_name": "Phish",
+    "event_name": "Phish",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Madison Square Garden",
+    "datetime_iso": "2027-01-03T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3B00653D12EC1FA9",
+    "ticketmaster_url": "https://www.ticketmaster.com/phish-new-york-new-york-01-02-2027/event/3B00653D12EC1FA9",
+    "seatgeek_url": "https://seatgeek.com/phish-tickets/new-york-new-york-madison-square-garden-2027-01-02-7-30-pm/concert/18659384",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/phish-new-york-new-york-01-02-2027/event/3B00653D12EC1FA9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00653D12EC1FA9",
+        "discovery_event_id": "G5diZ_KV3DvXt",
+        "url": "https://www.ticketmaster.com/phish-new-york-new-york-01-02-2027/event/3B00653D12EC1FA9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5diZ_KV3DvXt",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-imagine-dragons-2026-abu-dhabi-z698xz52z16vb3ooc_",
+    "artist_slug": "imagine-dragons",
+    "artist_name": "Imagine Dragons",
+    "event_name": "Imagine Dragons - Saturday",
+    "city": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "venue": "Etihad Live, Yas Island",
+    "datetime_iso": "2026-12-05T14:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1612820399",
+    "ticketmaster_url": "https://www.ticketmaster.ae/event/imagine-dragons-saturday-tickets/1612820399",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ae/event/imagine-dragons-saturday-tickets/1612820399",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1612820399",
+        "discovery_event_id": "Z698xZ52Z16vb3OOC_",
+        "url": "https://www.ticketmaster.ae/event/imagine-dragons-saturday-tickets/1612820399",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ52Z16vb3OOC_",
+    "timezone": "Asia/Dubai",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rufus-du-sol-2027-san-francisco-z7r9jz1aae3qg",
+    "artist_slug": "rufus-du-sol",
+    "artist_name": "RUFUS DU SOL",
+    "event_name": "Rufus Du Sol (21 and Over)",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Pier 80 - San Francisco",
+    "datetime_iso": "2027-01-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe3qg",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe3qg",
+    "seatgeek_url": "https://seatgeek.com/rufus-du-sol-tickets/san-francisco-california-pier-80-2027-01-03-4-pm/concert/18639575",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe3qg",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe3qg",
+        "discovery_event_id": "Z7r9jZ1AAe3qg",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe3qg",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe3qg",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

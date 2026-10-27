@@ -1,0 +1,214 @@
+[
+  {
+    "id": "tm-carin-leon-2027-las-vegas-1avjzbwgkrtxpef",
+    "artist_slug": "carin-leon",
+    "artist_name": "Carin Leon",
+    "event_name": "Carin Leon",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-09-16T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700632BE9F96094",
+    "ticketmaster_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-15-2027/event/1700632BE9F96094",
+    "seatgeek_url": "https://seatgeek.com/carin-leon-tickets/las-vegas-nevada-sphere-2027-09-15-8-pm/concert/17838557",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-15-2027/event/1700632BE9F96094",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700632BE9F96094",
+        "discovery_event_id": "1AvjZbwGkRtXpef",
+        "url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-15-2027/event/1700632BE9F96094",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZbwGkRtXpef",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-carin-leon-2027-las-vegas-1a9zkfpgkdqtn6j",
+    "artist_slug": "carin-leon",
+    "artist_name": "Carin Leon",
+    "event_name": "Carin Leon",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-09-17T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006525DDFE31E6",
+    "ticketmaster_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-16-2027/event/17006525DDFE31E6",
+    "seatgeek_url": "https://seatgeek.com/carin-leon-tickets/las-vegas-nevada-sphere-2027-09-16-8-pm/concert/18583758",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-16-2027/event/17006525DDFE31E6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006525DDFE31E6",
+        "discovery_event_id": "1A9ZkfPGkdqTN6J",
+        "url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-16-2027/event/17006525DDFE31E6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9ZkfPGkdqTN6J",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-carin-leon-2027-las-vegas-1a9zkfpgkdrskjz",
+    "artist_slug": "carin-leon",
+    "artist_name": "Carin Leon",
+    "event_name": "Carin Leon",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-09-18T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006525DECD3700",
+    "ticketmaster_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-17-2027/event/17006525DECD3700",
+    "seatgeek_url": "https://seatgeek.com/carin-leon-tickets/las-vegas-nevada-sphere-2027-09-17-8-pm/concert/18583757",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-17-2027/event/17006525DECD3700",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006525DECD3700",
+        "discovery_event_id": "1A9ZkfPGkdrSKjZ",
+        "url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-17-2027/event/17006525DECD3700",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9ZkfPGkdrSKjZ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-carin-leon-2027-las-vegas-1a9zkfpgkdrgsj0",
+    "artist_slug": "carin-leon",
+    "artist_name": "Carin Leon",
+    "event_name": "Carin Leon",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-09-19T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006525DED73724",
+    "ticketmaster_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-18-2027/event/17006525DED73724",
+    "seatgeek_url": "https://seatgeek.com/carin-leon-tickets/las-vegas-nevada-sphere-2027-09-18-8-pm/concert/18583756",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-18-2027/event/17006525DED73724",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006525DED73724",
+        "discovery_event_id": "1A9ZkfPGkdrgSj0",
+        "url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-18-2027/event/17006525DED73724",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9ZkfPGkdrgSj0",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

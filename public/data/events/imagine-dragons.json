@@ -1,0 +1,55 @@
+[
+  {
+    "id": "tm-imagine-dragons-2026-abu-dhabi-z698xz52z16vb3ooc_",
+    "artist_slug": "imagine-dragons",
+    "artist_name": "Imagine Dragons",
+    "event_name": "Imagine Dragons - Saturday",
+    "city": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "venue": "Etihad Live, Yas Island",
+    "datetime_iso": "2026-12-05T14:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1612820399",
+    "ticketmaster_url": "https://www.ticketmaster.ae/event/imagine-dragons-saturday-tickets/1612820399",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ae/event/imagine-dragons-saturday-tickets/1612820399",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1612820399",
+        "discovery_event_id": "Z698xZ52Z16vb3OOC_",
+        "url": "https://www.ticketmaster.ae/event/imagine-dragons-saturday-tickets/1612820399",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ52Z16vb3OOC_",
+    "timezone": "Asia/Dubai",
+    "status": "on-sale"
+  }
+]

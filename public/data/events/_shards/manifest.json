@@ -1,5 +1,5 @@
 {
-  "count": 4249,
+  "count": 4285,
   "shards": [
     {
       "path": "/data/events/_shards/000.json",
@@ -87,7 +87,7 @@
     },
     {
       "path": "/data/events/_shards/021.json",
-      "count": 49
+      "count": 85
     }
   ]
 }

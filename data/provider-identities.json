@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-10-27",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -2185,6 +2185,94 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-10-26 (sanctioned path D): SeatGeek performer 363 and Ticketmaster attraction K8vZ9175z3V captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "keith-urban",
+      "ticketmaster_attraction_id": "K8vZ91710df",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/keith-urban-tickets/artist/821096",
+      "seatgeek_performer_id": 86,
+      "seatgeek_artist_url": "https://seatgeek.com/keith-urban-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-27 (sanctioned path D): SeatGeek performer 86 and Ticketmaster attraction K8vZ91710df captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "interpol",
+      "ticketmaster_attraction_id": "K8vZ91753Nf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/interpol-tickets/artist/836507",
+      "seatgeek_performer_id": 4939,
+      "seatgeek_artist_url": "https://seatgeek.com/interpol-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-27 (sanctioned path D): SeatGeek performer 4939 and Ticketmaster attraction K8vZ91753Nf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "little-big-town",
+      "ticketmaster_attraction_id": "K8vZ9175ykf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/little-big-town-tickets/artist/960074",
+      "seatgeek_performer_id": 1119,
+      "seatgeek_artist_url": "https://seatgeek.com/little-big-town-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-27 (sanctioned path D): SeatGeek performer 1119 and Ticketmaster attraction K8vZ9175ykf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "shaboozey",
+      "ticketmaster_attraction_id": "K8vZ917f2P7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/shaboozey-tickets/artist/2194370",
+      "seatgeek_performer_id": 809672,
+      "seatgeek_artist_url": "https://seatgeek.com/shaboozey-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-27 (sanctioned path D): SeatGeek performer 809672 and Ticketmaster attraction K8vZ917f2P7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "carin-leon",
+      "ticketmaster_attraction_id": "K8vZ917_m_f",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/carin-leon-tickets/artist/2826519",
+      "seatgeek_performer_id": 788493,
+      "seatgeek_artist_url": "https://seatgeek.com/carin-leon-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-27 (sanctioned path D): SeatGeek performer 788493 and Ticketmaster attraction K8vZ917_m_f captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "phish",
+      "ticketmaster_attraction_id": "K8vZ9171FAV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/phish-tickets/artist/748766",
+      "seatgeek_performer_id": 1436,
+      "seatgeek_artist_url": "https://seatgeek.com/phish-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-27 (sanctioned path D): SeatGeek performer 1436 and Ticketmaster attraction K8vZ9171FAV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "imagine-dragons",
+      "ticketmaster_attraction_id": "K8vZ917GSz7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/imagine-dragons-tickets/artist/1435919",
+      "seatgeek_performer_id": 15150,
+      "seatgeek_artist_url": "https://seatgeek.com/imagine-dragons-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-27 (sanctioned path D): SeatGeek performer 15150 and Ticketmaster attraction K8vZ917GSz7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "rufus-du-sol",
+      "ticketmaster_attraction_id": "K8vZ9173ujV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/rufus-du-sol-tickets/artist/1957114",
+      "seatgeek_performer_id": 267482,
+      "seatgeek_artist_url": "https://seatgeek.com/rufus-du-sol-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-27 (sanctioned path D): SeatGeek performer 267482 and Ticketmaster attraction K8vZ9173ujV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

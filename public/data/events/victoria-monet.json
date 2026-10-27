@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-houston-713-music-hall-10-31-2026--concerts-pop/production/7540272",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-houston-texas-10-31-2026/event/3A006524ADB5A232",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -74,7 +74,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258101",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258101/Victoria-Monet-tickets-Sat-Oct-31-2026-713-Music-Hall",
-    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-houston-tickets-10-31-2026/event/107667740"
+    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-houston-tickets-10-31-2026/event/107667740",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-dallas-vvg1yz_3n9clqe",
@@ -92,7 +95,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-dallas-south-side-ballroom-11-2-2026--concerts-pop/production/7540274",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-dallas-texas-11-02-2026/event/0C006528D73AB742",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -143,7 +146,22 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258102",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258102/Victoria-Monet-tickets-Mon-Nov-2-2026-South-Side-Ballroom-at-Gilleys"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258102/Victoria-Monet-tickets-Mon-Nov-2-2026-South-Side-Ballroom-at-Gilleys",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "2 for $50 (Taxes on top)",
+        "start": "2026-10-23T17:00:00Z",
+        "end": "2026-11-02T23:00:00Z"
+      },
+      {
+        "name": "Global Poverty Project",
+        "start": "2026-10-24T01:00:00Z",
+        "end": "2026-10-27T14:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-atlanta-z7r9jz1aavpbj",
@@ -161,7 +179,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-atlanta-fox-theatre---atlanta-11-4-2026--concerts-pop/production/7540422",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPbJ",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -212,7 +230,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258103",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258103/Victoria-Monet-tickets-Wed-Nov-4-2026-Fabulous-Fox-Theatre-Atlanta"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258103/Victoria-Monet-tickets-Wed-Nov-4-2026-Fabulous-Fox-Theatre-Atlanta",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-charlotte-g5evz_3nkdbni",
@@ -230,7 +251,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monetmoved-to-ovens-auditorium-charlotte-north-carolina-11-05-2026/event/2D006528D30D8AA8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -265,7 +286,11 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_3NKdbnI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-fort-lauderdale-z7r9jz1aavpbe",
@@ -283,7 +308,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-fort-lauderdale-war-memorial-auditorium-fl-11-7-2026--concerts-pop/production/7540433",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPbE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -318,7 +343,10 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvPbE",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-tampa-vvg1vz_3nvhqgr",
@@ -336,7 +364,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-tampa-yuengling-center-11-8-2026--concerts-pop/production/7540276",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-tampa-florida-11-08-2026/event/0D006528C1F1AD5E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -395,7 +423,22 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258105",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258105/Victoria-Monet-tickets-Sun-Nov-8-2026-The-Yuengling-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-tampa-tickets-11-8-2026/event/107668353"
+    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-tampa-tickets-11-8-2026/event/107668353",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-16T14:00:00Z",
+        "end": "2026-11-02T03:00:00Z"
+      },
+      {
+        "name": "2 for $50",
+        "start": "2026-10-23T14:00:00Z",
+        "end": "2026-11-08T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-philadelphia-vv1aezkfxgkegbvoj",
@@ -413,7 +456,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-philadelphia-pennsylvania-11-12-2026/event/02006522B5634466",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -464,7 +507,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258106",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258106/Victoria-Monet-tickets-Thu-Nov-12-2026-The-Met-Presented-by-Highmark"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258106/Victoria-Monet-tickets-Thu-Nov-12-2026-The-Met-Presented-by-Highmark",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-09-16T14:00:00Z",
+        "end": "2026-11-06T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-boston-vv1avzkfpgkdybxe-",
@@ -482,7 +535,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-boston-mgm-music-hall-at-fenway-11-13-2026--concerts-pop/production/7540280",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-boston-massachusetts-11-13-2026/event/01006525F9EBE9E1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -541,7 +594,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258107",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258107/Victoria-Monet-tickets-Fri-Nov-13-2026-MGM-Music-Hall-at-Fenway-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-boston-tickets-11-13-2026/event/107667742"
+    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-boston-tickets-11-13-2026/event/107667742",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-09-16T14:00:00Z",
+        "end": "2026-11-07T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-detroit-vv1afzkfegkdcyvij",
@@ -559,7 +622,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-detroit-fox-theatre-detroit-11-15-2026--concerts-pop/production/7540283",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-detroit-michigan-11-15-2026/event/08006527CEC34B26",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -618,7 +681,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258108",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258108/Victoria-Monet-tickets-Sun-Nov-15-2026-Fox-Theatre-Detroit",
-    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-detroit-tickets-11-15-2026/event/107668356"
+    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-detroit-tickets-11-15-2026/event/107668356",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-09-16T14:00:00Z",
+        "end": "2026-11-09T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-milwaukee-vv1kjz_3f4g7vnwv",
@@ -636,7 +709,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-milwaukee-landmark-credit-union-live-11-16-2026--concerts-pop/production/7540285",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-milwaukee-wisconsin-11-16-2026/event/0700652515D2AF74",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -687,7 +760,22 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258109",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258109/Victoria-Monet-tickets-Mon-Nov-16-2026-Landmark-Credit-Union-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258109/Victoria-Monet-tickets-Mon-Nov-16-2026-Landmark-Credit-Union-Live",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-09-16T15:00:00Z",
+        "end": "2026-11-10T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-16T15:00:00Z",
+        "end": "2026-11-17T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-chicago-vv1k8z_3bag7xjoo",
@@ -705,7 +793,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-chicago-aragon-ballroom-11-18-2026/production/7540297",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-chicago-illinois-11-18-2026/event/0400652605FA6451",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -756,7 +844,27 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258110",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258110/Victoria-Monet-tickets-Wed-Nov-18-2026-Byline-Bank-Aragon-Ballroom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258110/Victoria-Monet-tickets-Wed-Nov-18-2026-Byline-Bank-Aragon-Ballroom",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-09-16T15:00:00Z",
+        "end": "2026-11-12T04:00:00Z"
+      },
+      {
+        "name": "Global Citizens/Global Poverty Project",
+        "start": "2026-10-23T15:00:00Z",
+        "end": "2026-11-18T15:00:00Z"
+      },
+      {
+        "name": "2 for $50.52",
+        "start": "2026-10-23T17:00:00Z",
+        "end": "2026-11-19T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-toronto-1a8zkf-gkdrpzii",
@@ -774,7 +882,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-toronto-coca-cola-coliseum-11-21-2026/production/7540337",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/victoria-monet-frequency-of-love-tour-toronto-ontario-11-21-2026/event/10006521DE5B8A2C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -809,7 +917,25 @@
     },
     "ticketmaster_discovery_event_id": "1A8Zkf-GkdrpzIi",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-16T14:00:00Z",
+        "end": "2026-11-15T03:00:00Z"
+      },
+      {
+        "name": "2 for $50 all-in Offer",
+        "start": "2026-10-23T17:00:00Z",
+        "end": "2026-11-22T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-pittsburgh-1apzkftgkexngtr",
@@ -827,7 +953,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-pittsburgh-citizens-live-at-the-wylie-11-22-2026--concerts-pop/production/7540319",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-pittsburgh-pennsylvania-11-22-2026/event/16006529A28F5FEF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -878,7 +1004,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258111",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258111/Victoria-Monet-tickets-Sun-Nov-22-2026-Citizens-Live-at-The-Wylie"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258111/Victoria-Monet-tickets-Sun-Nov-22-2026-Citizens-Live-at-The-Wylie",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-09-16T14:00:00Z",
+        "end": "2026-11-16T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-new-york-g5diz_3c1vwav",
@@ -896,7 +1032,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-new-york-infosys-theater-at-madison-square-garden-11-24-2026--concerts-pop/production/7540333",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-new-york-new-york-11-24-2026/event/3B0065238AD32241",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -955,7 +1091,32 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258112",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258112/Victoria-Monet-tickets-Tue-Nov-24-2026-Infosys-Theater-at-Madison-Square-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-new-york-tickets-11-24-2026/event/107667966"
+    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-new-york-tickets-11-24-2026/event/107667966",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-16T14:00:00Z",
+        "end": "2026-10-28T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-16T14:00:00Z",
+        "end": "2026-10-28T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages",
+        "start": "2026-09-16T14:00:00Z",
+        "end": "2026-11-18T03:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-09-16T14:00:00Z",
+        "end": "2026-11-25T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-washington-1a4zkfigkeu6i0b",
@@ -973,7 +1134,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-washington-dc-the-anthem-11-27-2026--concerts-pop/production/7540341",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-washington-district-of-columbia-11-27-2026/event/15006528B61E893A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1032,7 +1193,22 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258113",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258113/Victoria-Monet-tickets-Fri-Nov-27-2026-The-Anthem-DC",
-    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-washington-tickets-11-27-2026/event/107668328"
+    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-washington-tickets-11-27-2026/event/107668328",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-16T14:00:00Z",
+        "end": "2026-10-31T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-09-16T14:00:00Z",
+        "end": "2026-11-21T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-nashville-g5viz_3rdnbd2",
@@ -1050,7 +1226,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-nashville-the-truth-11-30-2026--concerts-pop/production/7540349",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-nashville-tennessee-11-30-2026/event/1B006527BBA98ECF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1101,7 +1277,32 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258114",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258114/Victoria-Monet-tickets-Mon-Nov-30-2026-The-Truth"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258114/Victoria-Monet-tickets-Mon-Nov-30-2026-The-Truth",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-16T15:00:00Z",
+        "end": "2026-10-31T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-16T15:00:00Z",
+        "end": "2026-11-03T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-16T15:00:00Z",
+        "end": "2026-11-24T04:00:00Z"
+      },
+      {
+        "name": "2 For 50",
+        "start": "2026-10-23T17:00:00Z",
+        "end": "2026-12-01T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-austin-z7r9jz1aavpbs",
@@ -1119,7 +1320,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-austin-austin-city-limits-live-at-the-moody-theater-12-2-2026/production/7540345",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPbs",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1162,7 +1363,10 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvPbs",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258115"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258115",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-phoenix-1fk8vpadufz7ccuc",
@@ -1180,7 +1384,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-phoenix-arizona-financial-theatre-12-5-2026--concerts-pop/production/7540357",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-phoenix-arizona-12-05-2026/event/190065243354DDCD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1231,7 +1435,22 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258116",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258116/Victoria-Monet-tickets-Sat-Dec-5-2026-Arizona-Financial-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258116/Victoria-Monet-tickets-Sat-Dec-5-2026-Arizona-Financial-Theatre",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-16T17:00:00Z",
+        "end": "2026-11-08T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-09-16T17:00:00Z",
+        "end": "2026-11-29T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-san-diego-vvg1iz_32hzdgh",
@@ -1249,7 +1468,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-san-diego-cal-coast-credit-union-open-air-theatre-at-sdsu-12-6-2026--concerts-pop/production/7540371",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-san-diego-california-12-06-2026/event/0A006523FC003D7C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1308,7 +1527,27 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258117",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258117/Victoria-Monet-tickets-Sun-Dec-6-2026-Cal-Coast-Credit-Union-Open-Air-Theatre",
-    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-san-diego-tickets-12-6-2026/event/107668352"
+    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-san-diego-tickets-12-6-2026/event/107668352",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-16T17:00:00Z",
+        "end": "2026-11-09T06:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-16T17:00:00Z",
+        "end": "2026-11-09T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-09-16T17:00:00Z",
+        "end": "2026-11-30T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-inglewood-vvg1iz_3xv_aba",
@@ -1326,7 +1565,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-inglewood-youtube-theater-12-8-2026--concerts-pop/production/7540377",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-inglewood-california-12-08-2026/event/0A006528B4649609",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1385,7 +1624,27 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258118",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258118/Victoria-Monet-tickets-Tue-Dec-8-2026-YouTube-Theater-at-Hollywood-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-inglewood-tickets-12-8-2026/event/107667948"
+    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-inglewood-tickets-12-8-2026/event/107667948",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-16T17:00:00Z",
+        "end": "2026-11-11T06:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-16T17:00:00Z",
+        "end": "2026-11-11T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-09-16T17:00:00Z",
+        "end": "2026-12-02T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-las-vegas-1avjz_38nr4zdcac",
@@ -1403,7 +1662,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-las-vegas-fontainebleau-las-vegas-12-9-2026/production/7540359",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-las-vegas-nevada-12-09-2026/event/1700652423795D4D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1454,7 +1713,27 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258119",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258119/Victoria-Monet-tickets-Wed-Dec-9-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258119/Victoria-Monet-tickets-Wed-Dec-9-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-16T17:00:00Z",
+        "end": "2026-11-12T06:00:00Z"
+      },
+      {
+        "name": "Verizon Access Select Seats",
+        "start": "2026-09-16T17:00:00Z",
+        "end": "2026-11-12T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-16T17:00:00Z",
+        "end": "2026-12-03T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-vancouver-1aozkf0gkdm521c",
@@ -1472,7 +1751,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-12-12-2026/production/7540317",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/victoria-monet-frequency-of-love-tour-vancouver-british-columbia-12-12-2026/event/11006524EE2CF2AD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1523,7 +1802,30 @@
     "timezone": "America/Vancouver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258123",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258123/Victoria-Monet-tickets-Sat-Dec-12-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258123/Victoria-Monet-tickets-Sat-Dec-12-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-09-16T17:00:00Z",
+        "end": "2026-11-29T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-16T17:00:00Z",
+        "end": "2026-12-06T05:00:00Z"
+      },
+      {
+        "name": "2 for $50 all-in (tax will be on top)",
+        "start": "2026-10-23T17:00:00Z",
+        "end": "2026-12-13T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-seattle-vvg1hz_31fteps",
@@ -1541,7 +1843,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-seattle-wamu-theater---seattle-12-14-2026/production/7540335",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-seattle-washington-12-14-2026/event/0F00652294FE75B1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1600,7 +1902,27 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258120",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258120/Victoria-Monet-tickets-Mon-Dec-14-2026-Wamu-Theater-At-Lumen-Field-Event-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-seattle-tickets-12-14-2026/event/107667943"
+    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-seattle-tickets-12-14-2026/event/107667943",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-16T17:00:00Z",
+        "end": "2026-11-17T06:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-16T17:00:00Z",
+        "end": "2026-11-17T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-09-16T17:00:00Z",
+        "end": "2026-12-08T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-sacramento-g5vyz_3xulwgw",
@@ -1618,7 +1940,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-sacramento-sacramento-memorial-auditorium-12-16-2026--concerts-pop/production/7540381",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-sacramento-california-12-16-2026/event/1C006528B6AFDD72",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1669,7 +1991,27 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258121",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258121/Victoria-Monet-tickets-Wed-Dec-16-2026-Sacramento-Memorial-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258121/Victoria-Monet-tickets-Wed-Dec-16-2026-Sacramento-Memorial-Auditorium",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-16T17:00:00Z",
+        "end": "2026-11-19T06:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-16T17:00:00Z",
+        "end": "2026-11-19T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-09-16T17:00:00Z",
+        "end": "2026-12-07T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-victoria-monet-2026-san-francisco-g5vyz_320sgvq",
@@ -1687,7 +2029,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-san-francisco-bill-graham-civic-auditorium-12-17-2026--concerts-pop/production/7540497",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-san-francisco-california-12-17-2026/event/1C006523E4C75D1A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1746,6 +2088,27 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259524",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259524/Victoria-Monet-tickets-Thu-Dec-17-2026-Bill-Graham-Civic-Auditorium",
-    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-san-francisco-tickets-12-17-2026/event/107667972"
+    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-san-francisco-tickets-12-17-2026/event/107667972",
+    "organizer_names": [
+      "ANOTHER PLANET",
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-16T17:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-16T17:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-16T17:00:00Z",
+        "end": "2026-12-11T06:00:00Z"
+      }
+    ]
   }
 ]

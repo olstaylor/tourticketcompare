@@ -7,7 +7,7 @@
     "city": "Uncasville",
     "country": "United States Of America",
     "venue": "Mohegan Sun Arena",
-    "datetime_iso": "2026-11-20T01:00:00Z",
+    "datetime_iso": "2026-11-20T00:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1D00647A9EA3547F",
     "ticketmaster_url": "https://www.ticketmaster.com/metallica-uncasville-connecticut-11-19-2026/event/1D00647A9EA3547F",
@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-uncasville-connecticut-11-19-2026/event/1D00647A9EA3547F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -68,7 +68,7 @@
     "city": "Uncasville",
     "country": "United States Of America",
     "venue": "Mohegan Sun Arena",
-    "datetime_iso": "2026-11-22T01:00:00Z",
+    "datetime_iso": "2026-11-22T00:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1D00647AA1E25998",
     "ticketmaster_url": "https://www.ticketmaster.com/metallica-uncasville-connecticut-11-21-2026/event/1D00647AA1E25998",
@@ -76,7 +76,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-uncasville-mohegan-sun-arena-ct-11-21-2026--concerts-hard-rock/production/6872634",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-uncasville-connecticut-11-21-2026/event/1D00647AA1E25998",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

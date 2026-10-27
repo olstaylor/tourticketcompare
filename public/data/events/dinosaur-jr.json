@@ -1893,7 +1893,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/dinosaur-jr-brisbane-19-01-2027/event/130065558E0E302E",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1928,22 +1928,9 @@
     },
     "ticketmaster_discovery_event_id": "1k7YvP4bGACdNZm",
     "timezone": "Australia/Brisbane",
-    "status": "announced",
-    "public_onsale_at": "2026-10-27T02:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "FRONTIER TOURING COMPANY"
-    ],
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-23T05:00:00Z",
-        "end": "2026-10-27T01:00:00Z"
-      },
-      {
-        "name": "Frontier Member Presale",
-        "start": "2026-10-23T05:00:00Z",
-        "end": "2026-10-27T01:00:00Z"
-      }
     ]
   },
   {
@@ -1962,7 +1949,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/dinosaur-jr-auckland-16-01-2027/event/24006554A8854527",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1997,22 +1984,9 @@
     },
     "ticketmaster_discovery_event_id": "1A0Zk4fGkeI-ffE",
     "timezone": "Pacific/Auckland",
-    "status": "announced",
-    "public_onsale_at": "2026-10-26T23:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AUCKLAND LIVE"
-    ],
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-23T02:00:00Z",
-        "end": "2026-10-26T22:00:00Z"
-      },
-      {
-        "name": "Frontier Member Presale",
-        "start": "2026-10-23T02:00:00Z",
-        "end": "2026-10-26T22:00:00Z"
-      }
     ]
   }
 ]

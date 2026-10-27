@@ -410,7 +410,7 @@
     "vividseats_url": "https://www.vividseats.com/john-summit-tickets-university-park-bryce-jordan-center-10-30-2026--concerts-dance-electronica/production/7058772",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-university-park-pennsylvania-10-30-2026/event/020064B2C916ABB2",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -462,13 +462,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982947",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7982947/John-Summit-tickets-Fri-Oct-30-2026-Bryce-Jordan-Center",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-29T14:00:00Z",
-        "end": "2026-10-26T16:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -712,7 +705,7 @@
     "event_name": "JOHN SUMMIT - CTRL ESCAPE ARENA TOUR",
     "city": "Fort Worth",
     "country": "United States Of America",
-    "venue": "Dickies Arena",
+    "venue": "Ariat Arena",
     "datetime_iso": "2026-11-08T01:00:00Z",
     "tour_name": "CTRL ESCAPE ARENA TOUR",
     "ticketmaster_event_id": "0C0064B3CF15B693",
@@ -721,7 +714,7 @@
     "vividseats_url": "https://www.vividseats.com/john-summit-tickets-fort-worth-dickies-arena-11-7-2026--concerts-dance-electronica/production/7058790",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-fort-worth-texas-11-07-2026/event/0C0064B3CF15B693",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -792,7 +785,7 @@
     "event_name": "JOHN SUMMIT - CTRL ESCAPE ARENA TOUR",
     "city": "Fort Worth",
     "country": "United States Of America",
-    "venue": "Dickies Arena",
+    "venue": "Ariat Arena",
     "datetime_iso": "2026-11-09T01:00:00Z",
     "tour_name": "CTRL ESCAPE ARENA TOUR",
     "ticketmaster_event_id": "0C0064B49E2D86C5",
@@ -801,7 +794,7 @@
     "vividseats_url": "https://www.vividseats.com/john-summit-tickets-fort-worth-dickies-arena-11-8-2026/production/7096323",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-fort-worth-texas-11-08-2026/event/0C0064B49E2D86C5",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

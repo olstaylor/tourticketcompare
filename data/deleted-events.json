@@ -282,6 +282,19 @@
       "ticketmaster_event_id": "36006537F733A9B3",
       "reason": "Ticketmaster venue-premium listing (\"Venue Premium - Rod Stewart - The Final Encore\" at OVO Hydro, 2027-04-29), not the standard concert listing. Ingested by Auto-promote #1563 on 2026-10-13, a day before the recogniser filter (#1458) merged. Tombstoned by Ticketmaster id only (no venue/date key) so the standard concert listing for the same venue and night can still be ingested. Removed per the owner decision of 2026-10-09 (list standard concert listings only).",
       "deleted_at": "2026-10-17"
+    },
+    {
+      "artist_slug": "the-airborne-toxic-event",
+      "id": "tm-the-airborne-toxic-event-2026-chicago-z7r9jz1a70iqs",
+      "ticketmaster_discovery_event_id": "Z7r9jZ1A70IqS",
+      "ticketmaster_event_id": "Z7r9jZ1A70IqS",
+      "venue": "Vic Theatre",
+      "datetime_iso": "2026-10-30T00:30:00Z",
+      "timezone": "America/Chicago",
+      "local_date": "2026-10-29",
+      "canonical_id": "tm-the-airborne-toxic-event-2027-chicago-z7r9jz1aazbfj",
+      "reason": "Discovery now reschedules this October record to 26 May 2027 at Vic Theatre, duplicating the retained May record for the same artist and venue (source times differ by one minute). Verified from the 27 October 2026 audit snapshot consumed by nightly run 40479483975; the old record has no verified provider links. Retain the existing May record and its verified SeatGeek, TicketNetwork and Ticket Liquidator identities. Removing and tombstoning the duplicate unblocks nightly integrity validation.",
+      "deleted_at": "2026-10-27"
     }
   ]
 }

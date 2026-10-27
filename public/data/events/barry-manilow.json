@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-05-2026/event/170062F0FD566360",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,7 +50,14 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dW4JuO",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Official Platinum Onsale",
+        "start": "2025-07-25T17:00:00Z",
+        "end": "2026-11-06T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwppux",
@@ -68,7 +75,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-06-2026/event/170062F0FD596362",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -103,7 +110,14 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWppux",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Official Platinum Onsale",
+        "start": "2025-07-25T17:00:00Z",
+        "end": "2026-11-07T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwpuu0",
@@ -121,7 +135,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-07-2026/event/170062F0FD5B6364",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156,7 +170,14 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWpUu0",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Official Platinum Onsale",
+        "start": "2025-07-25T17:00:00Z",
+        "end": "2026-11-08T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dw9jut",
@@ -174,7 +195,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-12-2026/event/170062F0FD5E6369",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -209,7 +230,14 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dW9Jut",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Official Platinum Onsale",
+        "start": "2025-07-25T17:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwbkui",
@@ -227,7 +255,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-13-2026/event/170062F0FD60636C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -262,7 +290,14 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWbkui",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Official Platinum Onsale",
+        "start": "2025-07-25T17:00:00Z",
+        "end": "2026-11-14T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwbuur",
@@ -280,7 +315,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-14-2026/event/170062F0FD63636F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -315,7 +350,14 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWbUuR",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Official Platinum Onsale",
+        "start": "2025-07-25T17:00:00Z",
+        "end": "2026-11-15T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dw_pus",
@@ -333,7 +375,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-03-2026/event/170062F0FD656371",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -368,7 +410,14 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dW_pus",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Official Platinum Onsale",
+        "start": "2025-07-25T17:00:00Z",
+        "end": "2026-12-04T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwqkuv",
@@ -386,7 +435,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-04-2026/event/170062F0FD686374",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421,7 +470,14 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWQkuV",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Official Platinum Onsale",
+        "start": "2025-07-25T17:00:00Z",
+        "end": "2026-11-14T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwqjuu",
@@ -439,7 +495,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-05-2026/event/170062F0FD6A6376",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -474,7 +530,14 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWQJuU",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Official Platinum Onsale",
+        "start": "2025-07-25T17:00:00Z",
+        "end": "2026-12-06T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwhpuz",
@@ -492,7 +555,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-10-2026/event/170062F0FD6D6378",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -527,7 +590,14 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWhpuz",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Official Platinum Onsale",
+        "start": "2025-07-25T17:00:00Z",
+        "end": "2026-12-11T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwhuub",
@@ -545,7 +615,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-11-2026/event/170062F0FD6F637A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -580,7 +650,14 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWhUuB",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Official Platinum Onsale",
+        "start": "2025-07-25T17:00:00Z",
+        "end": "2026-12-12T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwjjc1",
@@ -598,7 +675,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-12-2026/event/170062F0FD72638A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -633,7 +710,14 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWjJC1",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Official Platinum Onsale",
+        "start": "2025-07-25T17:00:00Z",
+        "end": "2026-12-13T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwqpcc",
@@ -651,7 +735,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-17-2026/event/170062F0FD75638E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -686,7 +770,14 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWqpCC",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Official Platinum Onsale",
+        "start": "2025-07-25T17:00:00Z",
+        "end": "2026-12-18T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwrkco",
@@ -704,7 +795,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-18-2026/event/170062F0FD786391",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -739,7 +830,14 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWrkCo",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Official Platinum Onsale",
+        "start": "2025-07-25T17:00:00Z",
+        "end": "2026-12-19T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwlkck",
@@ -757,7 +855,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-19-2026/event/170062F0FD7C6393",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -792,7 +890,14 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWLkCK",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Official Platinum Onsale",
+        "start": "2025-07-25T17:00:00Z",
+        "end": "2026-12-13T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-barry-manilow-2027-sunrise-z7r9jz1a7ji0e",
@@ -810,7 +915,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jI0E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -869,7 +974,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425008",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425008/Barry-Manilow-tickets-Fri-Jan-15-2027-Amerant-Bank-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-sunrise-tickets-1-15-2027/event/107189127"
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-sunrise-tickets-1-15-2027/event/107189127",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-barry-manilow-2027-estero-vvg1vzbwhe6k-q",
@@ -887,7 +993,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/manilow-the-last-estero-concerts-estero-florida-01-16-2027/event/0D00632F271D385A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -938,7 +1044,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425011",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425011/Barry-Manilow-tickets-Sat-Jan-16-2027-Hertz-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425011/Barry-Manilow-tickets-Sat-Jan-16-2027-Hertz-Arena",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-barry-manilow-2027-estero-vvg1vzbwhe6n-j",
@@ -956,7 +1063,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/manilow-the-last-estero-concerts-estero-florida-01-17-2027/event/0D00632F271E385C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1007,7 +1114,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425012",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425012/Barry-Manilow-tickets-Sun-Jan-17-2027-Hertz-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425012/Barry-Manilow-tickets-Sun-Jan-17-2027-Hertz-Arena",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-barry-manilow-2027-tampa-vvg1vzbsept-t8",
@@ -1025,7 +1133,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/manilow-the-last-tampa-concert-tampa-florida-01-20-2027/event/0D006330A5FE1A50",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1084,7 +1192,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425010",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425010/Barry-Manilow-tickets-Wed-Jan-20-2027-Benchmark-International-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-tampa-tickets-1-20-2027/event/107185225"
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-tampa-tickets-1-20-2027/event/107185225",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "OUTBACK CONCERTS"
+    ]
   },
   {
     "id": "tm-barry-manilow-2027-orlando-1aefzbwgksczswf",
@@ -1102,7 +1214,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/manilow-the-last-orlando-concert-orlando-florida-01-21-2027/event/2200632CCE031F54",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1161,7 +1273,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7425009",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7425009/Barry-Manilow-tickets-Thu-Jan-21-2027-Kia-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-orlando-tickets-1-21-2027/event/107189128"
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-orlando-tickets-1-21-2027/event/107189128",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "OUTBACK CONCERTS"
+    ]
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dw5kgq",
@@ -1179,7 +1295,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-18-2027/event/170062F0FD2C631D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1214,7 +1330,8 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dW5kGq",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dw5ugn",
@@ -1232,7 +1349,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-19-2027/event/170062F0FD2F632A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1267,7 +1384,8 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dW5UGn",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dwupgi",
@@ -1285,7 +1403,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-20-2027/event/170062F0FD35632C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1320,7 +1438,8 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWupGi",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dwuugv",
@@ -1338,7 +1457,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-25-2027/event/170062F0FD376334",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1373,7 +1492,8 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWuUGV",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dwcjgy",
@@ -1391,7 +1511,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-26-2027/event/170062F0FD3A6339",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1426,7 +1546,8 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWCJGy",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dw2kgd",
@@ -1444,7 +1565,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-27-2027/event/170062F0FD3C633B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1479,7 +1600,8 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dW2kGD",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dw2ugw",
@@ -1497,7 +1619,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-03-25-2027/event/170062F0FD3F633D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1532,7 +1654,8 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dW2UGW",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dw8pgt",
@@ -1550,7 +1673,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-03-26-2027/event/170062F0FD41633F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1585,7 +1708,8 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dW8pGT",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dwokuv",
@@ -1603,7 +1727,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-03-27-2027/event/170062F0FD446341",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1638,7 +1762,8 @@
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWokuv",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-1avjz_3gkroi64s",

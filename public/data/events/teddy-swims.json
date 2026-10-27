@@ -1555,7 +1555,7 @@
     "event_name": "Teddy Swims: The UGLY Tour",
     "city": "Fort Worth",
     "country": "United States Of America",
-    "venue": "Dickies Arena",
+    "venue": "Ariat Arena",
     "datetime_iso": "2026-10-31T00:00:00Z",
     "tour_name": "The Ugly Tour",
     "ticketmaster_event_id": "0C00648AFEAFAB54",
@@ -1564,7 +1564,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-fort-worth-dickies-arena-10-30-2026/production/6911922",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-fort-worth-texas-10-30-2026/event/0C00648AFEAFAB54",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1808,7 +1808,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-seattle-climate-pledge-arena-11-5-2026--concerts-rb/production/6911995",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-seattle-washington-11-05-2026/event/0F00648DA6968E56",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1869,11 +1869,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883115/Teddy-Swims-tickets-Thu-Nov-5-2026-Climate-Pledge-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-seattle-tickets-11-5-2026/event/107158275",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-04-24T17:00:00Z",
-        "end": "2026-10-27T05:00:00Z"
-      },
       {
         "name": "T-Mobile Reserved",
         "start": "2026-10-05T16:00:00Z",

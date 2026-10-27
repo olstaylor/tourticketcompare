@@ -2535,7 +2535,7 @@
     "event_name": "Don Omar \"The Last King World Tour\"",
     "city": "Fort Worth",
     "country": "United States Of America",
-    "venue": "Dickies Arena",
+    "venue": "Ariat Arena",
     "datetime_iso": "2027-03-07T02:00:00Z",
     "tour_name": "The Last King World Tour",
     "ticketmaster_event_id": "0C0064D2994767A0",
@@ -2544,7 +2544,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-fort-worth-dickies-arena-3-6-2027/production/7198522",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-fort-worth-texas-03-06-2027/event/0C0064D2994767A0",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

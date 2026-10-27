@@ -183,15 +183,15 @@
     "city": "Los Angeles",
     "country": "United States Of America",
     "venue": "Greek Theatre",
-    "datetime_iso": "2026-10-27T03:00:00Z",
+    "datetime_iso": "2026-11-05T04:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "090064B43E17B4D1",
     "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-los-angeles-california-10-26-2026/event/090064B43E17B4D1",
-    "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/los-angeles-california-the-greek-theatre-los-angeles-2026-10-26-8-pm/concert/18266701",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-los-angeles-greek-theatre---los-angeles-10-26-2026--concerts-pop/production/7079614",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-los-angeles-california-10-26-2026/event/090064B43E17B4D1",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -203,11 +203,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18266701,
-        "url": "https://seatgeek.com/tom-jones-tickets/los-angeles-california-the-greek-theatre-los-angeles-2026-10-26-8-pm/concert/18266701",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "vivid-seats": {
         "event_id": 7079614,
@@ -253,7 +253,10 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997398"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997398",
+    "ticketmaster_status_code": "rescheduled",
+    "previous_start_date": "2026-10-27T03:00:00Z",
+    "previous_start_timezone": "America/Los_Angeles"
   },
   {
     "id": "tm-tom-jones-2026-san-diego-vvg1iz_5gqcfyd",
@@ -263,15 +266,15 @@
     "city": "San Diego",
     "country": "United States Of America",
     "venue": "The Rady Shell at Jacobs Park",
-    "datetime_iso": "2026-10-28T03:00:00Z",
+    "datetime_iso": "2026-11-04T04:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0A0064B31A394E43",
     "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-diego-california-10-27-2026/event/0A0064B31A394E43",
-    "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/san-diego-california-the-rady-shell-at-jacobs-park-2026-10-27-8-pm/concert/18266703",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-san-diego-the-rady-shell-at-jacobs-park-10-27-2026/production/7079864",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-diego-california-10-27-2026/event/0A0064B31A394E43",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -283,11 +286,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18266703,
-        "url": "https://seatgeek.com/tom-jones-tickets/san-diego-california-the-rady-shell-at-jacobs-park-2026-10-27-8-pm/concert/18266703",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "vivid-seats": {
         "event_id": 7079864,
@@ -333,7 +336,10 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997399"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997399",
+    "ticketmaster_status_code": "rescheduled",
+    "previous_start_date": "2026-10-28T03:00:00Z",
+    "previous_start_timezone": "America/Los_Angeles"
   },
   {
     "id": "tm-tom-jones-2026-highland-z7r9jz1a7p6r4",

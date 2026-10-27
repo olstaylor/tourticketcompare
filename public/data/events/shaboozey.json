@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70kPt",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kPt",
     "seatgeek_url": "https://seatgeek.com/shaboozey-tickets/los-angeles-california-the-greek-theatre-los-angeles-2026-10-27-7-30-pm/concert/18208375",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/shaboozey-tickets-los-angeles-greek-theatre---los-angeles-10-27-2026/production/6963988",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kPt",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6963988,
+        "url": "https://www.vividseats.com/shaboozey-tickets-los-angeles-greek-theatre---los-angeles-10-27-2026/production/6963988",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

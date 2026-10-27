@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "3B00653D12DC1F89",
     "ticketmaster_url": "https://www.ticketmaster.com/phish-new-york-new-york-12-31-2026/event/3B00653D12DC1F89",
     "seatgeek_url": "https://seatgeek.com/phish-tickets/new-york-new-york-madison-square-garden-2026-12-31-7-30-pm/concert/18659385",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/phish-tickets-new-york-madison-square-garden-12-31-2026--concerts-rock/production/7666269",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phish-new-york-new-york-12-31-2026/event/3B00653D12DC1F89",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7666269,
+        "url": "https://www.vividseats.com/phish-tickets-new-york-madison-square-garden-12-31-2026--concerts-rock/production/7666269",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "3B00653D12E41F9F",
     "ticketmaster_url": "https://www.ticketmaster.com/phish-new-york-new-york-01-01-2027/event/3B00653D12E41F9F",
     "seatgeek_url": "https://seatgeek.com/phish-tickets/new-york-new-york-madison-square-garden-2027-01-01-7-30-pm/concert/18659382",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/phish-tickets-new-york-madison-square-garden-1-1-2027--concerts-rock/production/7666271",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phish-new-york-new-york-01-01-2027/event/3B00653D12E41F9F",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7666271,
+        "url": "https://www.vividseats.com/phish-tickets-new-york-madison-square-garden-1-1-2027--concerts-rock/production/7666271",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "3B00653D12EC1FA9",
     "ticketmaster_url": "https://www.ticketmaster.com/phish-new-york-new-york-01-02-2027/event/3B00653D12EC1FA9",
     "seatgeek_url": "https://seatgeek.com/phish-tickets/new-york-new-york-madison-square-garden-2027-01-02-7-30-pm/concert/18659384",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/phish-tickets-new-york-madison-square-garden-1-2-2027--concerts-rock/production/7666273",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phish-new-york-new-york-01-02-2027/event/3B00653D12EC1FA9",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7666273,
+        "url": "https://www.vividseats.com/phish-tickets-new-york-madison-square-garden-1-2-2027--concerts-rock/production/7666273",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

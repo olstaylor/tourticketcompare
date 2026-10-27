@@ -5485,16 +5485,16 @@
     "ticketmaster_event_id": "0100631AAEF23EE8",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-22-2026/event/0100631AAEF23EE8",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-22-2026--concerts-pop/production/5973685",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-22-2026/event/0100631AAEF23EE8",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-27",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0100631AAEF23EE8",
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-22-2026/event/0100631AAEF23EE8",
         "verified": true,
-        "last_verified_at": "2026-10-15",
+        "last_verified_at": "2026-10-27",
         "availability_status": "on_sale",
         "discovery_event_id": "vv177ZbsGknmHNDI"
       },
@@ -5506,11 +5506,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 5973685,
-        "url": "https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-22-2026--concerts-pop/production/5973685",
-        "verified": true,
-        "last_verified_at": "2026-07-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "stubhub": {
         "event_id": null,

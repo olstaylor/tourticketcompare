@@ -38,7 +38,7 @@ export const GUIDE_ROUTES = {
     fullContent: true,
     comparisonProviders: ["seatgeek","vivid-seats"],
     datePublished: "2026-06-11",
-    lastmod: "2026-10-26"
+    lastmod: "2026-10-27"
   },
   "/guides/seatgeek-vs-ticketmaster": {
     title: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
@@ -47,7 +47,7 @@ export const GUIDE_ROUTES = {
     fullContent: true,
     comparisonProviders: ["ticketmaster","seatgeek"],
     datePublished: "2026-07-13",
-    lastmod: "2026-10-26"
+    lastmod: "2026-10-27"
   },
   "/guides/ticketnetwork-vs-ticketmaster": {
     title: "TicketNetwork vs Ticketmaster: Which Should You Use?",
@@ -178,7 +178,7 @@ export const GUIDE_ROUTES = {
     fullContent: true,
     comparisonProviders: ["vivid-seats","seatgeek"],
     datePublished: "2026-09-25",
-    lastmod: "2026-10-26"
+    lastmod: "2026-10-27"
   },
   "/guides/vivid-seats-vs-stubhub": {
     title: "Vivid Seats vs StubHub: Fees, Guarantees, Delivery",

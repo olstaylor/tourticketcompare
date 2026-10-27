@@ -218,6 +218,26 @@ needed for this review.
 
 ### SEO opportunity report
 
+For a third-party rank export, use `npm run report:seo-opportunities --
+--keyword-file <csv> --json <output.json> --markdown <output.md>`. The CSV
+must contain `Keyword,Rank,Volume,URL`; additional vendor columns are ignored.
+This local baseline groups keywords by URL and checks each URL through the
+same renderer used by the route audits. Redirects, nonindexable pages and
+canonical mismatches are HOLD. Eligible pages are bucketed as near-term
+(a keyword at 4–20), defend (top three), or longer-term; this is a review order,
+not a second commercial score. The complete JSON preserves every keyword.
+Vendor volumes are not summed across variants, and estimated traffic and
+vendor scores never become GSC impressions, measured visits or revenue.
+Country and export date remain unknown. Local rendering has no production
+provider credentials, so it does not prove live CTA availability.
+
+`--keyword-file` may also supplement a Search Console run; it does not change
+the existing scorer. Without Search Console, issue publication and commercial
+inputs are rejected. Keep generated baselines in the shared project folder,
+outside the repository. Establish query×page×country and conversion evidence
+before selecting a revenue experiment; do not widen indexing gates to rescue
+a keyword export's stale URL.
+
 `npm run report:seo-opportunities -- --search-console <dir>` turns one unzipped
 Search Console Performance export (`Pages.csv` + `Queries.csv`) into a ranked
 list where every candidate gets exactly one action: CREATE, IMPROVE, REFRESH,

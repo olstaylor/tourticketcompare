@@ -213,9 +213,28 @@ async function fetchArtistCatalog(config, artistName, env = process.env, fetchIm
       // Every failed fetch here already sets a non-zero exit via summary.failed,
       // so this only has to name the cause rather than change the outcome.
       if (!response.ok) {
-        return isCatalogProxyRejection(response.status, env)
-          ? { ok: false, reason: `Impact Catalogs returned HTTP 404 — ${CATALOG_PROXY_REJECTION_HINT}` }
-          : { ok: false, reason: `Impact Catalogs returned HTTP ${response.status}` };
+        if (isCatalogProxyRejection(response.status, env)) {
+          return { ok: false, reason: `Impact Catalogs returned HTTP 404 — ${CATALOG_PROXY_REJECTION_HINT}` };
+        }
+        // The Pages proxy maps upstream refusals and transport errors to 502.
+        // Keep its bounded status fields so an outage can be distinguished
+        // from quota or configuration failures. Never log its free-form body,
+        // message, URLs or headers, which may contain credentials.
+        let detail = "";
+        if (env?.IMPACT_CATALOG_PROXY_URL) {
+          try {
+            const body = await response.json();
+            const statuses = new Set(["invalid_credentials", "missing_scope_or_approval", "request_rejected", "request_failed", "unexpected_response", "missing_credentials"]);
+            const status = statuses.has(body?.status) ? body.status : "";
+            const upstream = Number.isInteger(body?.httpStatus) && body.httpStatus >= 100 && body.httpStatus <= 599
+              ? `upstream HTTP ${body.httpStatus}` : "";
+            const parts = [status, upstream].filter(Boolean);
+            if (parts.length) detail = ` (${parts.join(", ")})`;
+          } catch {
+            // An HTML gateway error still reports its actual HTTP status.
+          }
+        }
+        return { ok: false, reason: `Impact Catalogs returned HTTP ${response.status}${detail}` };
       }
       const payload = await response.json();
       const items = catalogItems(payload);
@@ -565,6 +584,20 @@ async function selfTest() {
   });
   assert.equal(recoveredSummary.failed, 0, "a retried 503 must not count as a failed event");
   assert.equal(recoveredSummary.errors.length, 0);
+  const proxyEnv = { IMPACT_CATALOG_PROXY_URL: "https://example.test/api/impact/products", IMPACT_CATALOG_PROXY_TOKEN: "secret-token" };
+  for (const [body, expected] of [
+    [{ status: "request_rejected", httpStatus: 429, error: "secret-token", message: "secret-token" }, " (request_rejected, upstream HTTP 429)"],
+    [{ status: "request_failed", message: "secret-token" }, " (request_failed)"],
+    [{ status: "secret-token", httpStatus: "secret-token", error: "secret-token" }, ""]
+  ]) {
+    const failure = await fetchArtistCatalog(config, "tl-1", proxyEnv,
+      async () => new Response(JSON.stringify(body), { status: 502 }), noSleep);
+    assert.equal(failure.reason, `Impact Catalogs returned HTTP 502${expected}`);
+    assert.doesNotMatch(failure.reason, /secret-token/);
+  }
+  const gatewayFailure = await fetchArtistCatalog(config, "tl-1", proxyEnv,
+    async () => new Response("<html>gateway failure</html>", { status: 502 }), noSleep);
+  assert.equal(gatewayFailure.reason, "Impact Catalogs returned HTTP 502");
   assert.equal(summary.proposed_rows[0].source, config.priceSource);
   assert.equal(summary.proposed_rows[0].event_date, "2027-07-09T19:00:00Z");
   const sql = buildSql([{ id: "x", artist_slug: "raye", event_id: "e1", provider: config.slug, low_price: 60, avg_price: null, high_price: null, currency: "GBP", inventory_count: 4, verified_at: "2026-07-13T00:00:00.000Z", expires_at: "2026-07-13T06:00:00.000Z", source: config.priceSource, event_date: "2027-07-09T19:00:00Z" }]);
@@ -693,7 +726,7 @@ async function selfTest() {
   assert.equal(failuresAreUnhealthy({ eligible: 40, usable: 30, failed: 5 }), true, "more than 5% failing fails the run");
   assert.equal(failuresAreUnhealthy({ eligible: 10, usable: 0, failed: 1 }), true, "failure with nothing usable fails the run");
   assert.equal(failuresAreUnhealthy({ eligible: 10, usable: 10, failed: 0 }), false);
-  return 81;
+  return 88;
 }
 
 async function main() {

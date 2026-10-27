@@ -271,7 +271,7 @@
     "city": "Boston",
     "country": "United States Of America",
     "venue": "MGM Music Hall at Fenway",
-    "datetime_iso": "2026-10-29T00:00:00Z",
+    "datetime_iso": "2026-10-29T00:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "010064ADC0FD59D3",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-boston-massachusetts-10-28-2026/event/010064ADC0FD59D3",
@@ -279,7 +279,7 @@
     "vividseats_url": "https://www.vividseats.com/arcangel-tickets-boston-mgm-music-hall-at-fenway-10-28-2026--concerts-rap-hip-hop/production/7079496",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-boston-massachusetts-10-28-2026/event/010064ADC0FD59D3",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

@@ -1335,7 +1335,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-saint-louis-missouri-11-16-2026/event/060064A69A4EC226",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1371,13 +1371,6 @@
     "ticketmaster_discovery_event_id": "vvG1bZ_1QQKiFJ",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-05-15T15:00:00Z",
-        "end": "2026-10-26T22:00:00Z"
-      }
-    ],
     "organizer_names": [
       "AEG LIVE"
     ]

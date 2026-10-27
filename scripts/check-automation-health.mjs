@@ -349,15 +349,16 @@ export const needsWorkflowAge = (runs) => !runs.some((run) => run.status === "co
  * `updated_at` in preference to `created_at`, because the case `created_at`
  * gets wrong is a long-standing manual workflow given a `schedule:` for the
  * first time: the workflow record is old while the scheduled lane is new.
- * Editing the file moves `updated_at`, so it tracks when the schedule could
- * have appeared. `needsWorkflowAge` keeps this to lanes with no completed run,
+ * The latest file commit is preferred: GitHub's workflow metadata can retain
+ * the original manual workflow's timestamp after a schedule is added.
+ * `needsWorkflowAge` keeps this to lanes with no completed run,
  * so an unrelated edit cannot grant grace to a lane that is running normally.
  *
  * Returns null when neither timestamp parses, which classifies as `never` —
  * the fail-closed side.
  */
-export function workflowAgeHoursFrom(meta, now) {
-  const changed = Date.parse(meta?.updated_at ?? meta?.created_at ?? "");
+export function workflowAgeHoursFrom(meta, now, fileChangedAt) {
+  const changed = Date.parse(fileChangedAt ?? meta?.updated_at ?? meta?.created_at ?? "");
   return Number.isFinite(changed) ? (now - changed) / 3_600_000 : null;
 }
 
@@ -537,6 +538,8 @@ if (SELF_TEST) {
   assert.equal(Math.round(workflowAgeHoursFrom({ created_at: new Date(now - 5 * 3_600_000).toISOString() }, now)), 5);
   assert.equal(workflowAgeHoursFrom({}, now), null);
   assert.equal(workflowAgeHoursFrom({ updated_at: "not a date" }, now), null);
+  assert.equal(workflowAgeHoursFrom({ created_at: new Date(now - 400 * day).toISOString(), updated_at: new Date(now - 40 * 3_600_000).toISOString() }, now, new Date(now - 16 * 3_600_000).toISOString()), 16,
+    "a recently scheduled manual workflow uses its file commit, not stale workflow metadata");
   // A null age is the fail-closed side, and classifies as `never`.
   assert.equal(classifyLane([], { now, maxAgeHours: 30, workflowAgeHours: workflowAgeHoursFrom({}, now) }).status, "never");
 
@@ -895,7 +898,9 @@ for (const lane of WATCHED_LANES) {
   let workflowAgeHours = null;
   if (needsWorkflowAge(runs)) {
     try {
-      workflowAgeHours = workflowAgeHoursFrom(await github(`/actions/workflows/${encodeURIComponent(lane.file)}`), now);
+      const meta = await github(`/actions/workflows/${encodeURIComponent(lane.file)}`);
+      const changes = await github(`/commits?path=${encodeURIComponent(`.github/workflows/${lane.file}`)}&per_page=1`);
+      workflowAgeHours = workflowAgeHoursFrom(meta, now, changes[0]?.commit?.committer?.date);
     } catch (error) {
       // Unknown age falls through as `never`, which is the fail-closed side:
       // a lane that really has stopped still gets reported.

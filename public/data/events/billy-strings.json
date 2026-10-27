@@ -338,7 +338,7 @@
     "event_name": "Billy Strings",
     "city": "Fort Worth",
     "country": "United States Of America",
-    "venue": "Dickies Arena",
+    "venue": "Ariat Arena",
     "datetime_iso": "2026-12-12T01:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0C00647BAD4B9754",
@@ -347,7 +347,7 @@
     "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-fort-worth-dickies-arena-12-11-2026/production/6850486",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-fort-worth-texas-12-11-2026/event/0C00647BAD4B9754",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

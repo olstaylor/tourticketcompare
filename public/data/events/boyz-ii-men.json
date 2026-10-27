@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/a-day-on-the-green-boyz-waurn-ponds-28-11-2026/event/130064E6ADE235F9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,7 +50,10 @@
     },
     "ticketmaster_discovery_event_id": "177Yv0G6CQczN9y",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "ROUNDHOUSE ENTERTAINMENT P.L"
+    ]
   },
   {
     "id": "tm-boyz-ii-men-2026-auckland-17azv0g6c2evn3t",
@@ -137,7 +140,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/a-day-on-the-green-boyz-pokolbin-05-12-2026/event/130064E7A05E299E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -172,7 +175,10 @@
     },
     "ticketmaster_discovery_event_id": "177Yv0G6CrO9xJr",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "ROUNDHOUSE ENTERTAINMENT P.L"
+    ]
   },
   {
     "id": "tm-boyz-ii-men-2026-mount-cotton-177yv0g6chtbuni",
@@ -190,7 +196,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/a-day-on-the-green-boyz-mount-cotton-06-12-2026/event/130064E6E9EB6AAC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -225,7 +231,10 @@
     },
     "ticketmaster_discovery_event_id": "177Yv0G6ChtBUni",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "ROUNDHOUSE ENTERTAINMENT P.L"
+    ]
   },
   {
     "id": "tm-boyz-ii-men-2026-norman-z7r9jz1aaed_y",
@@ -365,7 +374,7 @@
     "vividseats_url": "https://www.vividseats.com/boyz-ii-men-tickets-boston-mgm-music-hall-at-fenway-2-5-2027/production/7688472",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/boyz-ii-men-boston-massachusetts-02-05-2027/event/01006542E51CE0F2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424,7 +433,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318130",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318130/Boyz-II-Men-tickets-Fri-Feb-5-2027-MGM-Music-Hall-at-Fenway-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/boyz-ii-men-boston-tickets-2-5-2027/event/107672946"
+    "stubhub_international_url": "https://www.stubhub.ie/boyz-ii-men-boston-tickets-2-5-2027/event/107672946",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-boyz-ii-men-2027-atlantic-city-vv1kfz_fbxg7mvlj",
@@ -511,7 +523,7 @@
     "vividseats_url": "https://www.vividseats.com/boyz-ii-men-tickets-oxon-hill-the-theater-at-mgm-national-harbor-2-11-2027/production/7688462",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/boyz-ii-men-national-harbor-maryland-02-11-2027/event/150065489BAE63F1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -562,7 +574,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318132",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318132/Boyz-II-Men-tickets-Thu-Feb-11-2027-The-Theater-at-MGM-National-Harbor"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318132/Boyz-II-Men-tickets-Thu-Feb-11-2027-The-Theater-at-MGM-National-Harbor",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-boyz-ii-men-2027-national-harbor-1ka8vp3aga5ij2m",
@@ -580,7 +595,7 @@
     "vividseats_url": "https://www.vividseats.com/boyz-ii-men-tickets-oxon-hill-the-theater-at-mgm-national-harbor-2-12-2027/production/7688510",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/boyz-ii-men-national-harbor-maryland-02-12-2027/event/150065489BB263F7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -631,7 +646,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318133",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318133/Boyz-II-Men-tickets-Fri-Feb-12-2027-The-Theater-at-MGM-National-Harbor"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318133/Boyz-II-Men-tickets-Fri-Feb-12-2027-The-Theater-at-MGM-National-Harbor",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-boyz-ii-men-2027-national-harbor-1ka8vp3aga5cu2t",
@@ -649,7 +667,7 @@
     "vividseats_url": "https://www.vividseats.com/boyz-ii-men-tickets-oxon-hill-the-theater-at-mgm-national-harbor-2-13-2027/production/7688476",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/boyz-ii-men-national-harbor-maryland-02-13-2027/event/150065489BB763FF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -700,7 +718,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318134",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318134/Boyz-II-Men-tickets-Sat-Feb-13-2027-The-Theater-at-MGM-National-Harbor"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318134/Boyz-II-Men-tickets-Sat-Feb-13-2027-The-Theater-at-MGM-National-Harbor",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-boyz-ii-men-2027-las-vegas-1kayvp7mgaglg6h",
@@ -718,7 +739,7 @@
     "vividseats_url": "https://www.vividseats.com/boyz-ii-men-tickets-las-vegas-cosmopolitan-of-las-vegas-3-12-2027/production/7474213",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/boyz-ii-men-las-vegas-nevada-03-12-2027/event/170065137C7F51FC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -777,7 +798,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231600",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231600/Boyz-II-Men-tickets-Fri-Mar-12-2027-The-Chelsea-The-Cosmopolitan-of-Las-Vegas",
-    "stubhub_international_url": "https://www.stubhub.ie/boyz-ii-men-las-vegas-tickets-3-12-2027/event/107666791"
+    "stubhub_international_url": "https://www.stubhub.ie/boyz-ii-men-las-vegas-tickets-3-12-2027/event/107666791",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-28T17:00:00Z",
+        "end": "2027-02-13T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-boyz-ii-men-2027-las-vegas-1kayvp7mgag-4fc",
@@ -795,7 +826,7 @@
     "vividseats_url": "https://www.vividseats.com/boyz-ii-men-tickets-las-vegas-cosmopolitan-of-las-vegas-3-13-2027/production/7474153",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/boyz-ii-men-las-vegas-nevada-03-13-2027/event/170065137C85520E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -854,7 +885,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231601",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231601/Boyz-II-Men-tickets-Sat-Mar-13-2027-The-Chelsea-The-Cosmopolitan-of-Las-Vegas",
-    "stubhub_international_url": "https://www.stubhub.ie/boyz-ii-men-las-vegas-tickets-3-13-2027/event/107666792"
+    "stubhub_international_url": "https://www.stubhub.ie/boyz-ii-men-las-vegas-tickets-3-13-2027/event/107666792",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-28T17:00:00Z",
+        "end": "2027-02-14T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-boyz-ii-men-2027-las-vegas-1kayvp7mgagn4f9",
@@ -872,7 +913,7 @@
     "vividseats_url": "https://www.vividseats.com/boyz-ii-men-tickets-las-vegas-cosmopolitan-of-las-vegas-3-19-2027/production/7474187",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/boyz-ii-men-las-vegas-nevada-03-19-2027/event/170065137C8D5217",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -931,7 +972,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231602",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231602/Boyz-II-Men-tickets-Fri-Mar-19-2027-The-Chelsea-The-Cosmopolitan-of-Las-Vegas",
-    "stubhub_international_url": "https://www.stubhub.ie/boyz-ii-men-las-vegas-tickets-3-19-2027/event/107665818"
+    "stubhub_international_url": "https://www.stubhub.ie/boyz-ii-men-las-vegas-tickets-3-19-2027/event/107665818",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-28T17:00:00Z",
+        "end": "2027-02-20T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-boyz-ii-men-2027-las-vegas-1kayvp7mgag0pfj",
@@ -949,7 +1000,7 @@
     "vividseats_url": "https://www.vividseats.com/boyz-ii-men-tickets-las-vegas-cosmopolitan-of-las-vegas-3-20-2027/production/7474194",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/boyz-ii-men-las-vegas-nevada-03-20-2027/event/170065137C925226",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1008,6 +1059,16 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231603",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231603/Boyz-II-Men-tickets-Sat-Mar-20-2027-The-Chelsea-The-Cosmopolitan-of-Las-Vegas",
-    "stubhub_international_url": "https://www.stubhub.ie/boyz-ii-men-las-vegas-tickets-3-20-2027/event/107666793"
+    "stubhub_international_url": "https://www.stubhub.ie/boyz-ii-men-las-vegas-tickets-3-20-2027/event/107666793",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-28T17:00:00Z",
+        "end": "2027-02-21T06:00:00Z"
+      }
+    ]
   }
 ]

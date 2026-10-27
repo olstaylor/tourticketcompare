@@ -3945,7 +3945,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-bend-oregon-08-20-2027/event/0F00653CB439A3AB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3981,6 +3981,51 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_KwVCQCl",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T17:00:00Z"
+    "public_onsale_at": "2026-10-30T17:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-27T17:00:00Z",
+        "end": "2026-10-28T19:00:00Z"
+      },
+      {
+        "name": "Verified Diehards Presale",
+        "start": "2026-10-27T17:00:00Z",
+        "end": "2026-10-30T05:00:00Z"
+      },
+      {
+        "name": "Verified Strays Presale",
+        "start": "2026-10-27T20:00:00Z",
+        "end": "2026-10-30T05:00:00Z"
+      },
+      {
+        "name": "RCS App User Presale",
+        "start": "2026-10-28T17:00:00Z",
+        "end": "2026-10-30T05:00:00Z"
+      },
+      {
+        "name": "Hayden Homes Sponsor Presale",
+        "start": "2026-10-29T17:00:00Z",
+        "end": "2026-10-30T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-29T17:00:00Z",
+        "end": "2026-10-30T05:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-29T17:00:00Z",
+        "end": "2026-10-30T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-08-16T05:00:00Z"
+      }
+    ]
   }
 ]

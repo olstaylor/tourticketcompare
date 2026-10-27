@@ -302,7 +302,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-detroit-fox-theatre-detroit-11-21-2026/production/6819576",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-mundo-detroit-michigan-11-21-2026/event/080064728F72552E",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -365,6 +365,11 @@
       "ZAMORA LIVE"
     ],
     "presales": [
+      {
+        "name": "Student Discount",
+        "start": "2026-10-26T16:00:00Z",
+        "end": "2026-11-16T22:00:00Z"
+      },
       {
         "name": "Dia De Muertos",
         "start": "2026-10-30T16:00:00Z",

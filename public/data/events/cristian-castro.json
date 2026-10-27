@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/cristian-castro-tickets-glendale-desert-diamond-arena-11-6-2026/production/6674212",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-glendale-arizona-11-06-2026/event/19006450BA98557F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,10 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7744413",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7744413/Cristian-Castro-tickets-Fri-Nov-6-2026-Desert-Diamond-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7744413/Cristian-Castro-tickets-Fri-Nov-6-2026-Desert-Diamond-Arena",
+    "organizer_names": [
+      "AMPLIFY ENTERTAINMENT"
+    ]
   },
   {
     "id": "tm-cristian-castro-2026-el-paso-vvg1yz_adzeyjf",
@@ -352,7 +355,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-west-valley-city-utah-01-30-2027/event/1E006454DF81F75D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -387,7 +390,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_AKLOLqq",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AMPLIFY ENTERTAINMENT"
+    ]
   },
   {
     "id": "tm-cristian-castro-2027-anaheim-vv1aazkofgkeidrym",
@@ -405,7 +411,7 @@
     "vividseats_url": "https://www.vividseats.com/cristian-castro-tickets-anaheim-honda-center-2-12-2027--concerts-latin-music/production/6707152",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-anaheim-california-02-12-2027/event/09006454A8EDEE77",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -464,7 +470,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7757473",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7757473/Cristian-Castro-tickets-Fri-Feb-12-2027-Honda-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/cristian-castro-anaheim-tickets-2-12-2027/event/107417431"
+    "stubhub_international_url": "https://www.stubhub.ie/cristian-castro-anaheim-tickets-2-12-2027/event/107417431",
+    "organizer_names": [
+      "AMPLIFY ENTERTAINMENT"
+    ]
   },
   {
     "id": "tm-cristian-castro-2027-palm-desert-vvg1iz_1h-rylv",

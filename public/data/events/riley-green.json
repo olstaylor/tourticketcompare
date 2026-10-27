@@ -1016,7 +1016,7 @@
     "event_name": "Riley Green: That's Just Me Tour",
     "city": "Fort Worth",
     "country": "United States Of America",
-    "venue": "Dickies Arena",
+    "venue": "Ariat Arena",
     "datetime_iso": "2027-05-07T00:00:00Z",
     "tour_name": "That's Just Me Tour",
     "ticketmaster_event_id": "0C00653096616571",
@@ -1025,7 +1025,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-fort-worth-dickies-arena-5-6-2027/production/7618146",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-fort-worth-texas-05-06-2027/event/0C00653096616571",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2915,7 +2915,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-manchester-snhu-arena-11-2-2026/production/7748357",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/boots-ballots-featuring-riley-green-manchester-new-hampshire-11-02-2026/event/0100654CA36C7668",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2964,15 +2964,7 @@
     },
     "ticketmaster_discovery_event_id": "vv177Z_fGkwNh6_I",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-26T16:00:00Z",
-    "presales": [
-      {
-        "name": "Internet Presale",
-        "start": "2026-10-23T20:00:00Z",
-        "end": "2026-10-26T15:45:00Z"
-      }
-    ],
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8339188",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8339188/Riley-Green-tickets-Mon-Nov-2-2026-SNHU-Arena"
   }

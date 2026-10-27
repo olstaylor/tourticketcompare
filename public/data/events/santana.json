@@ -1919,7 +1919,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/santana-planet-of-free-will-global-london-30-06-2027/event/35006556AEDF6BF6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1955,7 +1955,10 @@
     "ticketmaster_discovery_event_id": "1AgZk4pGkemMURU",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:30:00Z"
+    "public_onsale_at": "2026-10-30T09:30:00Z",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-santana-2027-krakow-z698xzqpz16va4pvo4",
@@ -1973,7 +1976,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/santana-planet-of-free-will-tour-2027-tickets/1255941455?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2009,7 +2012,27 @@
     "ticketmaster_discovery_event_id": "Z698xZQpZ16va4Pvo4",
     "timezone": "Europe/Warsaw",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T11:00:00Z"
+    "public_onsale_at": "2026-10-30T11:00:00Z",
+    "organizer_names": [
+      "Live Nation sp. z o.o."
+    ],
+    "presales": [
+      {
+        "name": "Fan Club Presale",
+        "start": "2026-10-27T11:00:00Z",
+        "end": "2026-10-30T11:00:00Z"
+      },
+      {
+        "name": "Pekao Mastercard® Presale",
+        "start": "2026-10-28T11:00:00Z",
+        "end": "2026-10-30T11:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-29T11:00:00Z",
+        "end": "2026-10-30T10:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-oslo-z698xzb_z16v43vmbv",
@@ -2027,7 +2050,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.no/event/santana-planet-of-free-will-global-tour-2027-tickets/1552077634?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2063,6 +2086,31 @@
     "ticketmaster_discovery_event_id": "Z698xZb_Z16v43vMbV",
     "timezone": "Europe/Oslo",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:00:00Z"
+    "public_onsale_at": "2026-10-30T09:00:00Z",
+    "organizer_names": [
+      "Live Nation Norway AS"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-27T09:00:00Z",
+        "end": "2026-10-30T08:00:00Z"
+      },
+      {
+        "name": "Mastercard® Presale",
+        "start": "2026-10-28T09:00:00Z",
+        "end": "2026-10-30T08:00:00Z"
+      },
+      {
+        "name": "Aftenposten Presale",
+        "start": "2026-10-29T09:00:00Z",
+        "end": "2026-10-30T08:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-10-29T09:00:00Z",
+        "end": "2026-10-30T08:00:00Z"
+      }
+    ]
   }
 ]

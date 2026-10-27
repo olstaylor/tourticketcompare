@@ -928,7 +928,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/110430840?language=en-us",
-    "last_verified_at": "2026-10-26",
+    "last_verified_at": "2026-10-27",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -967,6 +967,23 @@
     "public_onsale_at": "2026-10-30T09:00:00Z",
     "organizer_names": [
       "LIVE NATION CZECH REPUBLIC s.r.o."
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-27T09:00:00Z",
+        "end": "2026-10-30T07:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-10-29T09:00:00Z",
+        "end": "2026-10-30T07:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-29T09:00:00Z",
+        "end": "2026-10-30T07:00:00Z"
+      }
     ]
   },
   {
@@ -985,7 +1002,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-%7C-vip-tickets/1131452209?language=en-us",
-    "last_verified_at": "2026-10-26",
+    "last_verified_at": "2026-10-27",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1020,8 +1037,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ8KZ16v7so3Fa",
     "timezone": "Europe/Helsinki",
-    "status": "announced",
-    "public_onsale_at": "2026-10-27T08:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Live Nation Finland Oy"
     ]

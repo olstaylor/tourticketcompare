@@ -84,7 +84,7 @@
     "vividseats_url": "https://www.vividseats.com/treaty-oak-revival-tickets-austin-moody-center-atx-11-12-2026--concerts-country-and-folk/production/7006221",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/treaty-oak-revival-west-texas-degenerate-austin-texas-11-12-2026/event/3A0064A5E9CB90BC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -143,7 +143,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7944768",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7944768/Treaty-Oak-Revival-tickets-Thu-Nov-12-2026-Moody-Center-ATX",
-    "stubhub_international_url": "https://www.stubhub.ie/treaty-oak-revival-austin-tickets-11-12-2026/event/107167136"
+    "stubhub_international_url": "https://www.stubhub.ie/treaty-oak-revival-austin-tickets-11-12-2026/event/107167136",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-15T15:00:00Z",
+        "end": "2026-11-02T23:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-treaty-oak-revival-2026-the-woodlands-g5diz_1panpuq",
@@ -161,7 +171,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/treaty-oak-revival-west-texas-degenerate-the-woodlands-texas-11-13-2026/event/3A0064A5858D635A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -196,7 +206,17 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1pANpuQ",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-05-15T15:00:00Z",
+        "end": "2026-11-03T23:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-treaty-oak-revival-2026-tulsa-1aezz_3x88ozdgea",
@@ -214,7 +234,7 @@
     "vividseats_url": "https://www.vividseats.com/treaty-oak-revival-tickets-tulsa-bok-center-11-21-2026/production/7553279",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/treaty-oak-revival-extreme-rodeo-tulsa-oklahoma-11-21-2026/event/2000652890411B18",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -265,6 +285,9 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264458",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264458/Treaty-Oak-Revival-tickets-Sat-Nov-21-2026-BOK-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264458/Treaty-Oak-Revival-tickets-Sat-Nov-21-2026-BOK-Center",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   }
 ]

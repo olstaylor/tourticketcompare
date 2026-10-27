@@ -1323,7 +1323,7 @@
     "event_name": "HANS ZIMMER LIVE - THE NEXT LEVEL",
     "city": "Fort Worth",
     "country": "United States Of America",
-    "venue": "Dickies Arena",
+    "venue": "Ariat Arena",
     "datetime_iso": "2027-03-23T00:30:00Z",
     "tour_name": "Hans Zimmer Live – The Next Level",
     "ticketmaster_event_id": "0C00650DB0ED8DE9",
@@ -1332,7 +1332,7 @@
     "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-fort-worth-dickies-arena-3-22-2027--concerts-classical/production/7569919",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-fort-worth-texas-03-22-2027/event/0C00650DB0ED8DE9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

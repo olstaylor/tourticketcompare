@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-biloxi-mississippi-10-29-2026/event/1B0064EFC2FBEF49",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149211",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149211/Jon-Pardi-tickets-Thu-Oct-29-2026-Mississippi-Coast-Coliseum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149211/Jon-Pardi-tickets-Thu-Oct-29-2026-Mississippi-Coast-Coliseum",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-jon-pardi-2026-macon-vvg1zz_cbiziyi",
@@ -84,7 +85,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-macon-georgia-10-30-2026/event/0E0064EEA8E28C2C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -135,7 +136,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149210",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149210/Jon-Pardi-tickets-Fri-Oct-30-2026-Atrium-Health-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149210/Jon-Pardi-tickets-Fri-Oct-30-2026-Atrium-Health-Amphitheater",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-jon-pardi-2026-laredo-g5diz_ctprcyh",
@@ -360,7 +362,7 @@
     "vividseats_url": "https://www.vividseats.com/jon-pardi-tickets-cedar-rapids-alliant-energy-powerhouse-11-12-2026--concerts-country-and-folk/production/7320585",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-cedar-rapids-iowa-11-12-2026/event/060064EFC5035BE2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -411,7 +413,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149215",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149215/Jon-Pardi-tickets-Thu-Nov-12-2026-Alliant-Energy-PowerHouse"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149215/Jon-Pardi-tickets-Thu-Nov-12-2026-Alliant-Energy-PowerHouse",
+    "organizer_names": [
+      "VENUWORKS CORPORATE"
+    ]
   },
   {
     "id": "tm-jon-pardi-2026-peoria-vvg1jz_cjyd3ia",
@@ -673,7 +678,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZeQe",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -708,7 +713,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZeQe",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-jon-pardi-2027-loveland-z7r9jz1aazeb3",
@@ -726,7 +732,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZeb3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -761,7 +767,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZeb3",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-jon-pardi-2027-west-valley-city-g5vzz_2evjpcf",
@@ -779,7 +786,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-west-valley-city-utah-05-20-2027/event/1E0064F081725388",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -814,6 +821,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_2evjPCF",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   }
 ]

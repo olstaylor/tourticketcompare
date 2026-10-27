@@ -994,7 +994,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-kansas-city-uptown-theater-kansas-city-11-3-2026--concerts-rock/production/7170019",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-kansas-city-missouri-11-03-2026/event/060064CCC8FF6CBF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1051,11 +1051,6 @@
         "name": "VIP Packages Onsale",
         "start": "2026-06-19T15:00:00Z",
         "end": "2026-10-28T03:00:00Z"
-      },
-      {
-        "name": "$20 Ticket Offer",
-        "start": "2026-10-07T15:00:00Z",
-        "end": "2026-10-27T03:00:00Z"
       }
     ],
     "organizer_names": [

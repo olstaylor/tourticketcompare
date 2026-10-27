@@ -536,7 +536,7 @@
     "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-vancouver-rogers-arena-10-30-2026--concerts-rb/production/7104577",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bryson-tiller-presents-the-neo-trapsoul-vancouver-british-columbia-10-30-2026/event/110064BCDDA0B267",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-10-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -600,18 +600,6 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-05T19:00:00Z",
-        "end": "2026-10-26T19:00:00Z"
-      },
-      {
-        "name": "Meet & Greet VIP Package",
-        "start": "2026-06-17T19:00:00Z",
-        "end": "2026-10-26T19:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8011583"
   },

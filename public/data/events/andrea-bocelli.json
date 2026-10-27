@@ -2535,7 +2535,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/andrea-bocelli-tickets/493115848?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2571,6 +2571,16 @@
     "ticketmaster_discovery_event_id": "Z698xZu0Z1k3K74-F",
     "timezone": "Europe/Prague",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:00:00Z"
+    "public_onsale_at": "2026-10-30T09:00:00Z",
+    "organizer_names": [
+      "Bestsport, a.s."
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-28T09:00:00Z",
+        "end": "2026-10-30T08:00:00Z"
+      }
+    ]
   }
 ]

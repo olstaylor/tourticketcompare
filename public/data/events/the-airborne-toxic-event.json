@@ -53,59 +53,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-the-airborne-toxic-event-2026-chicago-z7r9jz1a70iqs",
-    "artist_slug": "the-airborne-toxic-event",
-    "artist_name": "The Airborne Toxic Event",
-    "event_name": "The Airborne Toxic Event",
-    "city": "Chicago",
-    "country": "United States Of America",
-    "venue": "Vic Theatre",
-    "datetime_iso": "2026-10-30T00:30:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "Z7r9jZ1A70IqS",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70IqS",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70IqS",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "Z7r9jZ1A70IqS",
-        "discovery_event_id": "Z7r9jZ1A70IqS",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70IqS",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A70IqS",
-    "timezone": "America/Chicago",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-the-airborne-toxic-event-2027-chicago-z7r9jz1aazbfj",
     "artist_slug": "the-airborne-toxic-event",
     "artist_name": "The Airborne Toxic Event",
@@ -113,7 +60,7 @@
     "city": "Chicago",
     "country": "United States Of America",
     "venue": "Vic Theatre",
-    "datetime_iso": "2027-05-27T00:30:00Z",
+    "datetime_iso": "2027-05-27T00:31:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZbfJ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbfJ",
@@ -121,7 +68,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbfJ",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-27",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {

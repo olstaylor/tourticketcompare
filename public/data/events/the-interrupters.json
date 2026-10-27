@@ -871,7 +871,7 @@
     "ticketmaster_event_id": "10006531EF199858",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-interrupters-toronto-ontario-04-10-2027/event/10006531EF199858",
     "seatgeek_url": "https://seatgeek.com/the-interrupters-tickets/toronto-canada-history-2027-04-10-6-pm/concert/18613159",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-toronto-history-toronto-4-10-2027--concerts-rock/production/7592484",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-interrupters-toronto-ontario-04-10-2027/event/10006531EF199858",
     "last_verified_at": "2026-10-15",
@@ -893,11 +893,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7592484,
+        "url": "https://www.vividseats.com/the-interrupters-tickets-toronto-history-toronto-4-10-2027--concerts-rock/production/7592484",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

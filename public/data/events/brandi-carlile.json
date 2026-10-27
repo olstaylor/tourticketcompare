@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAea4M",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAea4M",
     "seatgeek_url": "https://seatgeek.com/brandi-carlile-tickets/portland-oregon-revolution-hall-portland-2026-11-05-8-pm/concert/18626682",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-portland-revolution-hall-portland-11-5-2026/production/7618692",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAea4M",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618692,
+        "url": "https://www.vividseats.com/brandi-carlile-tickets-portland-revolution-hall-portland-11-5-2026/production/7618692",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "1C006532CBC76BA8",
     "ticketmaster_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-oakland-california-11-07-2026/event/1C006532CBC76BA8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-oakland-fox-theater-oakland-11-7-2026/production/7618182",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-oakland-california-11-07-2026/event/1C006532CBC76BA8",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618182,
+        "url": "https://www.vividseats.com/brandi-carlile-tickets-oakland-fox-theater-oakland-11-7-2026/production/7618182",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "19006539E07AB8C2",
     "ticketmaster_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-tucson-arizona-11-09-2026/event/19006539E07AB8C2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-tucson-rialto-theatre-tucson-11-9-2026/production/7618216",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-tucson-arizona-11-09-2026/event/19006539E07AB8C2",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618216,
+        "url": "https://www.vividseats.com/brandi-carlile-tickets-tucson-rialto-theatre-tucson-11-9-2026/production/7618216",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "19006539E0E6B915",
     "ticketmaster_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-tucson-arizona-11-10-2026/event/19006539E0E6B915",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-tucson-rialto-theatre-tucson-11-10-2026/production/7618214",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-tucson-arizona-11-10-2026/event/19006539E0E6B915",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618214,
+        "url": "https://www.vividseats.com/brandi-carlile-tickets-tucson-rialto-theatre-tucson-11-10-2026/production/7618214",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAeajv",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeajv",
     "seatgeek_url": "https://seatgeek.com/brandi-carlile-tickets/milwaukee-wisconsin-pabst-theater-2026-11-14-8-pm/concert/18626684",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-milwaukee-pabst-theater-11-14-2026/production/7618676",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeajv",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618676,
+        "url": "https://www.vividseats.com/brandi-carlile-tickets-milwaukee-pabst-theater-11-14-2026/production/7618676",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAeaje",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaje",
     "seatgeek_url": "https://seatgeek.com/brandi-carlile-tickets/milwaukee-wisconsin-pabst-theater-2026-11-15-8-pm/concert/18626686",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-milwaukee-pabst-theater-11-15-2026/production/7618672",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaje",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618672,
+        "url": "https://www.vividseats.com/brandi-carlile-tickets-milwaukee-pabst-theater-11-15-2026/production/7618672",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "06006537E376533E",
     "ticketmaster_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-minneapolis-minnesota-11-17-2026/event/06006537E376533E",
     "seatgeek_url": "https://seatgeek.com/brandi-carlile-tickets/minneapolis-minnesota-state-theatre-minneapolis-2026-11-17-8-pm/concert/18626663",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-minneapolis-state-theatre-minneapolis-11-17-2026/production/7618208",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-minneapolis-minnesota-11-17-2026/event/06006537E376533E",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618208,
+        "url": "https://www.vividseats.com/brandi-carlile-tickets-minneapolis-state-theatre-minneapolis-11-17-2026/production/7618208",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "06006537E37B5348",
     "ticketmaster_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-minneapolis-minnesota-11-18-2026/event/06006537E37B5348",
     "seatgeek_url": "https://seatgeek.com/brandi-carlile-tickets/minneapolis-minnesota-state-theatre-minneapolis-2026-11-18-8-pm/concert/18626661",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-minneapolis-state-theatre-minneapolis-11-18-2026/production/7618206",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-minneapolis-minnesota-11-18-2026/event/06006537E37B5348",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618206,
+        "url": "https://www.vividseats.com/brandi-carlile-tickets-minneapolis-state-theatre-minneapolis-11-18-2026/production/7618206",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "16006536E606B3FF",
     "ticketmaster_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-louisville-kentucky-11-20-2026/event/16006536E606B3FF",
     "seatgeek_url": "https://seatgeek.com/brandi-carlile-tickets/louisville-kentucky-louisville-palace-2026-11-20-8-pm/concert/18626665",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-louisville-louisville-palace-11-20-2026/production/7618184",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-louisville-kentucky-11-20-2026/event/16006536E606B3FF",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618184,
+        "url": "https://www.vividseats.com/brandi-carlile-tickets-louisville-louisville-palace-11-20-2026/production/7618184",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "16006536E616B422",
     "ticketmaster_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-louisville-kentucky-11-21-2026/event/16006536E616B422",
     "seatgeek_url": "https://seatgeek.com/brandi-carlile-tickets/louisville-kentucky-louisville-palace-2026-11-21-8-pm/concert/18626671",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-louisville-louisville-palace-11-21-2026/production/7618174",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-louisville-kentucky-11-21-2026/event/16006536E616B422",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618174,
+        "url": "https://www.vividseats.com/brandi-carlile-tickets-louisville-louisville-palace-11-21-2026/production/7618174",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "06006538C7D2B8B1",
     "ticketmaster_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-tour-kansas-city-missouri-11-22-2026/event/06006538C7D2B8B1",
     "seatgeek_url": "https://seatgeek.com/brandi-carlile-tickets/kansas-city-missouri-uptown-theater-kc-2026-11-22-8-pm/concert/18626672",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-kansas-city-uptown-theater-kansas-city-11-22-2026/production/7618230",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-tour-kansas-city-missouri-11-22-2026/event/06006538C7D2B8B1",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618230,
+        "url": "https://www.vividseats.com/brandi-carlile-tickets-kansas-city-uptown-theater-kansas-city-11-22-2026/production/7618230",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1023,7 +1023,7 @@
     "ticketmaster_event_id": "3600650590B315CD",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/brandi-carlile-glasgow-06-04-2027/event/3600650590B315CD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-glasgow-sec-armadillo-4-6-2027--concerts-rock/production/7418155",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/brandi-carlile-glasgow-06-04-2027/event/3600650590B315CD",
     "last_verified_at": null,
@@ -1045,11 +1045,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7418155,
+        "url": "https://www.vividseats.com/brandi-carlile-tickets-glasgow-sec-armadillo-4-6-2027--concerts-rock/production/7418155",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1076,7 +1076,7 @@
     "ticketmaster_event_id": "36006505A7C3207E",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/brandi-carlile-glasgow-07-04-2027/event/36006505A7C3207E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-glasgow-sec-armadillo-4-7-2027--concerts-rock/production/7418157",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/brandi-carlile-glasgow-07-04-2027/event/36006505A7C3207E",
     "last_verified_at": null,
@@ -1098,11 +1098,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7418157,
+        "url": "https://www.vividseats.com/brandi-carlile-tickets-glasgow-sec-armadillo-4-7-2027--concerts-rock/production/7418157",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1129,7 +1129,7 @@
     "ticketmaster_event_id": "3600650693F81AEA",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/brandi-carlile-manchester-09-04-2027/event/3600650693F81AEA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-manchester-o2-apollo-manchester-4-9-2027--concerts-rock/production/7418163",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/brandi-carlile-manchester-09-04-2027/event/3600650693F81AEA",
     "last_verified_at": null,
@@ -1151,11 +1151,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7418163,
+        "url": "https://www.vividseats.com/brandi-carlile-tickets-manchester-o2-apollo-manchester-4-9-2027--concerts-rock/production/7418163",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1182,7 +1182,7 @@
     "ticketmaster_event_id": "36006506E4E74AAB",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/brandi-carlile-manchester-10-04-2027/event/36006506E4E74AAB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-manchester-o2-apollo-manchester-4-10-2027--concerts-rock/production/7418169",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/brandi-carlile-manchester-10-04-2027/event/36006506E4E74AAB",
     "last_verified_at": null,
@@ -1204,11 +1204,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7418169,
+        "url": "https://www.vividseats.com/brandi-carlile-tickets-manchester-o2-apollo-manchester-4-10-2027--concerts-rock/production/7418169",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1288,7 +1288,7 @@
     "ticketmaster_event_id": "3600650783D610DC",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/brandi-carlile-london-13-04-2027/event/3600650783D610DC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-london-eventim-apollo-4-13-2027--concerts-rock/production/7416240",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/brandi-carlile-london-13-04-2027/event/3600650783D610DC",
     "last_verified_at": null,
@@ -1310,11 +1310,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7416240,
+        "url": "https://www.vividseats.com/brandi-carlile-tickets-london-eventim-apollo-4-13-2027--concerts-rock/production/7416240",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1341,7 +1341,7 @@
     "ticketmaster_event_id": "36006507844A10F8",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/brandi-carlile-london-14-04-2027/event/36006507844A10F8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-london-eventim-apollo-4-14-2027--concerts-rock/production/7416247",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/brandi-carlile-london-14-04-2027/event/36006507844A10F8",
     "last_verified_at": null,
@@ -1363,11 +1363,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7416247,
+        "url": "https://www.vividseats.com/brandi-carlile-tickets-london-eventim-apollo-4-14-2027--concerts-rock/production/7416247",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

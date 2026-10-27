@@ -159,7 +159,7 @@
         "event_id": 6361521,
         "url": "https://www.vividseats.com/mana-tickets-rosemont-allstate-arena-10-30-2026--concerts-latin-music/production/6361521",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -318,7 +318,7 @@
         "event_id": 6361549,
         "url": "https://www.vividseats.com/mana-tickets-houston-toyota-center---tx-11-6-2026--concerts-latin-music/production/6361549",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -390,7 +390,7 @@
         "event_id": 6361403,
         "url": "https://www.vividseats.com/mana-tickets-austin-moody-center-atx-11-8-2026--concerts-latin-music/production/6361403",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -565,7 +565,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7NGx",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NGx",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mana-tickets-highland-yaamava-resort-and-casino-at-san-manuel---yaamava-theater-4-6-2027/production/7730506",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NGx",
     "last_verified_at": null,
@@ -587,11 +587,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7730506,
+        "url": "https://www.vividseats.com/mana-tickets-highland-yaamava-resort-and-casino-at-san-manuel---yaamava-theater-4-6-2027/production/7730506",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -777,7 +777,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7NG-",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NG-",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mana-tickets-highland-yaamava-resort-and-casino-at-san-manuel---yaamava-theater-9-2-2027/production/7730502",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NG-",
     "last_verified_at": null,
@@ -799,11 +799,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7730502,
+        "url": "https://www.vividseats.com/mana-tickets-highland-yaamava-resort-and-casino-at-san-manuel---yaamava-theater-9-2-2027/production/7730502",
+        "verified": true,
+        "last_verified_at": "2026-10-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

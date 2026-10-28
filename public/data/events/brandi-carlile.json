@@ -994,6 +994,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343664",
+        "url": "https://www.ticketnetwork.com/en/p/8343664",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_44GOz5b",
@@ -1021,7 +1028,8 @@
         "start": "2026-10-28T17:00:00Z",
         "end": "2026-10-30T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343664"
   },
   {
     "id": "tm-brandi-carlile-2027-seattle-vvg1hz_44gxf5-",
@@ -1070,6 +1078,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343665",
+        "url": "https://www.ticketnetwork.com/en/p/8343665",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_44GxF5-",
@@ -1097,7 +1112,8 @@
         "start": "2026-10-28T17:00:00Z",
         "end": "2026-10-30T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343665"
   },
   {
     "id": "tm-brandi-carlile-2027-seattle-vvg1hz_44gnb5t",
@@ -1146,6 +1162,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343666",
+        "url": "https://www.ticketnetwork.com/en/p/8343666",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_44GNb5t",
@@ -1173,7 +1196,8 @@
         "start": "2026-10-28T17:00:00Z",
         "end": "2026-10-30T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343666"
   },
   {
     "id": "tm-brandi-carlile-2027-seattle-vvg1hz_44g0z5w",
@@ -1222,6 +1246,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343667",
+        "url": "https://www.ticketnetwork.com/en/p/8343667",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_44G0z5w",
@@ -1249,7 +1280,8 @@
         "start": "2026-10-28T17:00:00Z",
         "end": "2026-10-30T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343667"
   },
   {
     "id": "tm-brandi-carlile-2027-dublin-1abzku4gkdpubm4",

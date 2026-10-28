@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8311023",
+        "url": "https://www.ticketnetwork.com/en/p/8311023",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_KV3gvWH",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311023"
   },
   {
     "id": "tm-phish-2027-new-york-g5diz_kv3mvxa",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8311024",
+        "url": "https://www.ticketnetwork.com/en/p/8311024",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_KV3MvXa",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311024"
   },
   {
     "id": "tm-phish-2027-new-york-g5diz_kv3yvxl",
@@ -152,11 +168,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8311025",
+        "url": "https://www.ticketnetwork.com/en/p/8311025",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_KV3yvXL",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311025"
   },
   {
     "id": "tm-phish-2027-new-york-g5diz_kv3dvxt",
@@ -205,10 +229,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8311027",
+        "url": "https://www.ticketnetwork.com/en/p/8311027",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_KV3DvXt",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311027"
   }
 ]

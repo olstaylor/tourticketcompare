@@ -48,17 +48,17 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7859973",
-        "url": "https://www.ticketnetwork.com/en/p/7859973",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_6nrIgoT",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7859973"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-metallica-2026-uncasville-g5vvz_6n-zpjb",

@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034493",
+        "url": "https://www.ticketnetwork.com/en/p/8034493",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P8A_",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034493"
   },
   {
     "id": "tm-little-big-town-2026-houston-g5diz_g2cmeda",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034494",
+        "url": "https://www.ticketnetwork.com/en/p/8034494",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_G2cMeda",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034494"
   },
   {
     "id": "tm-little-big-town-2026-dallas-vvg1yz_g1nt6fw",
@@ -152,11 +168,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034495",
+        "url": "https://www.ticketnetwork.com/en/p/8034495",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_G1NT6Fw",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034495"
   },
   {
     "id": "tm-little-big-town-2026-virginia-beach-vvg17z_gg7kjfl",
@@ -205,11 +229,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034496",
+        "url": "https://www.ticketnetwork.com/en/p/8034496",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_GG7Kjfl",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034496"
   },
   {
     "id": "tm-little-big-town-2026-durham-g5evz_gplfpyl",
@@ -311,11 +343,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034499",
+        "url": "https://www.ticketnetwork.com/en/p/8034499",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_G5h5GI9",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034499"
   },
   {
     "id": "tm-little-big-town-2026-akron-vvg1fz_ghpckp3",
@@ -364,11 +404,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034501",
+        "url": "https://www.ticketnetwork.com/en/p/8034501",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_GhPcKp3",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034501"
   },
   {
     "id": "tm-little-big-town-2026-columbus-vvg1fz_gptrce6",
@@ -417,11 +465,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034503",
+        "url": "https://www.ticketnetwork.com/en/p/8034503",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_GptRce6",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034503"
   },
   {
     "id": "tm-little-big-town-2026-indianapolis-vvg1fz_g5crrzm",
@@ -470,11 +526,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034507",
+        "url": "https://www.ticketnetwork.com/en/p/8034507",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_G5CRRZm",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034507"
   },
   {
     "id": "tm-little-big-town-2026-chicago-vvg1jz_gohfssb",
@@ -523,11 +587,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034509",
+        "url": "https://www.ticketnetwork.com/en/p/8034509",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1jZ_GoHfsSB",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034509"
   },
   {
     "id": "tm-little-big-town-2026-detroit-vvg1oz_g9neqkq",
@@ -576,11 +648,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034511",
+        "url": "https://www.ticketnetwork.com/en/p/8034511",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_G9nEqkq",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034511"
   },
   {
     "id": "tm-little-big-town-2026-toronto-177zv0g6g2_mkrp",
@@ -682,11 +762,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8130730",
+        "url": "https://www.ticketnetwork.com/en/p/8130730",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7J8rA",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8130730"
   },
   {
     "id": "tm-little-big-town-2026-nashville-z7r9jz1a7j8_7",
@@ -735,11 +823,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8130732",
+        "url": "https://www.ticketnetwork.com/en/p/8130732",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7J8_7",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8130732"
   },
   {
     "id": "tm-little-big-town-2026-nashville-z7r9jz1a7j_4x",
@@ -788,10 +884,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8130733",
+        "url": "https://www.ticketnetwork.com/en/p/8130733",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7J_4x",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8130733"
   }
 ]

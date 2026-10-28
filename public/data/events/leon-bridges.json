@@ -291,18 +291,18 @@
         "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "8313660",
+        "url": "https://www.ticketnetwork.com/en/p/8313660",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_f9mdnDC",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "ticketnetwork_url": "",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313660",
     "organizer_names": [
       "AEG LIVE"
     ]

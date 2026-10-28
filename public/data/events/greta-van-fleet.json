@@ -1463,11 +1463,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "8303363",
+        "url": "https://www.ticketnetwork.com/en/p/8303363",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -1487,7 +1487,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_f6vci7r",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303363",
     "ticketliquidator_url": "",
     "presales": [
       {

@@ -822,11 +822,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7977769",
-        "url": "https://www.ticketnetwork.com/en/p/7977769",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7977769",
@@ -839,7 +839,7 @@
     "ticketmaster_discovery_event_id": "G5viZ_1MfI-bC",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977769",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977769/Mico-tickets-Mon-Oct-26-2026-Brooklyn-Bowl-Nashville",
     "organizer_names": [
       "LIVE NATION MUSIC"

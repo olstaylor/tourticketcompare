@@ -314,6 +314,13 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8344350",
+        "url": "https://www.ticketnetwork.com/en/p/8344350",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk4aGkeBIGn2",
@@ -340,6 +347,7 @@
         "end": "2027-03-03T03:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-2-3-2027/event/107678105"
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-2-3-2027/event/107678105",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344350"
   }
 ]

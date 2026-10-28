@@ -1,0 +1,268 @@
+[
+  {
+    "id": "tm-illenium-2026-las-vegas-z7r9jz1aaz7qs",
+    "artist_slug": "illenium",
+    "artist_name": "ILLENIUM",
+    "event_name": "Illenium",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Marquee Nightclub & Dayclub",
+    "datetime_iso": "2026-10-31T05:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZ7qS",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ7qS",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ7qS",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZ7qS",
+        "discovery_event_id": "Z7r9jZ1AAZ7qS",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ7qS",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZ7qS",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-illenium-2026-las-vegas-z7r9jz1aavupe",
+    "artist_slug": "illenium",
+    "artist_name": "ILLENIUM",
+    "event_name": "Illenium",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Omnia Las Vegas",
+    "datetime_iso": "2026-12-20T06:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvUPE",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUPE",
+    "seatgeek_url": "https://seatgeek.com/illenium-tickets/las-vegas-nevada-omnia-las-vegas-2026-12-19-10-30-pm/concert/18643550",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUPE",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvUPE",
+        "discovery_event_id": "Z7r9jZ1AAvUPE",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUPE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvUPE",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-illenium-2026-san-francisco-g5vyz_kj0ltb6",
+    "artist_slug": "illenium",
+    "artist_name": "ILLENIUM",
+    "event_name": "ILLENIUM (18+)",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Bill Graham Civic Auditorium",
+    "datetime_iso": "2026-12-31T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006537247E9E87",
+    "ticketmaster_url": "https://www.ticketmaster.com/illenium-18-san-francisco-california-12-30-2026/event/1C006537247E9E87",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/illenium-18-san-francisco-california-12-30-2026/event/1C006537247E9E87",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006537247E9E87",
+        "discovery_event_id": "G5vYZ_Kj0LtB6",
+        "url": "https://www.ticketmaster.com/illenium-18-san-francisco-california-12-30-2026/event/1C006537247E9E87",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_Kj0LtB6",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-illenium-2027-san-francisco-g5vyz_kjpaqe2",
+    "artist_slug": "illenium",
+    "artist_name": "ILLENIUM",
+    "event_name": "ILLENIUM (18+)",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Bill Graham Civic Auditorium",
+    "datetime_iso": "2027-01-01T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0065372525A08F",
+    "ticketmaster_url": "https://www.ticketmaster.com/illenium-18-san-francisco-california-12-31-2026/event/1C0065372525A08F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/illenium-18-san-francisco-california-12-31-2026/event/1C0065372525A08F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0065372525A08F",
+        "discovery_event_id": "G5vYZ_KjPaQe2",
+        "url": "https://www.ticketmaster.com/illenium-18-san-francisco-california-12-31-2026/event/1C0065372525A08F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_KjPaQe2",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-illenium-2027-san-francisco-g5vyz_kuqzndv",
+    "artist_slug": "illenium",
+    "artist_name": "ILLENIUM",
+    "event_name": "ILLENIUM (18+)",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Bill Graham Civic Auditorium",
+    "datetime_iso": "2027-01-02T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00653D9D023EF4",
+    "ticketmaster_url": "https://www.ticketmaster.com/illenium-18-san-francisco-california-01-01-2027/event/1C00653D9D023EF4",
+    "seatgeek_url": "https://seatgeek.com/illenium-tickets/san-francisco-california-bill-graham-civic-auditorium-2027-01-01-8-pm/concert/18723868",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/illenium-18-san-francisco-california-01-01-2027/event/1C00653D9D023EF4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00653D9D023EF4",
+        "discovery_event_id": "G5vYZ_KUqZNDV",
+        "url": "https://www.ticketmaster.com/illenium-18-san-francisco-california-01-01-2027/event/1C00653D9D023EF4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_KUqZNDV",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-29T17:00:00Z"
+  }
+]

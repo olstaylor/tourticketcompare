@@ -1,0 +1,1274 @@
+[
+  {
+    "id": "tm-bryan-adams-2026-las-vegas-17ayv0g62mrffoe",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams - Bare Bones Acoustic Solo Show",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Encore Theater at Wynn Las Vegas",
+    "datetime_iso": "2026-10-29T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064FDDE214442",
+    "ticketmaster_url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-28-2026/event/170064FDDE214442",
+    "seatgeek_url": "https://seatgeek.com/bryan-adams-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-10-28-8-pm/concert/18424321",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-28-2026/event/170064FDDE214442",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064FDDE214442",
+        "discovery_event_id": "17AYv0G62MrFfoe",
+        "url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-28-2026/event/170064FDDE214442",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G62MrFfoe",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2026-las-vegas-17ayv0g62mraf38",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams - Bare Bones Acoustic Solo Show",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Encore Theater at Wynn Las Vegas",
+    "datetime_iso": "2026-10-30T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064FDDE254490",
+    "ticketmaster_url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-29-2026/event/170064FDDE254490",
+    "seatgeek_url": "https://seatgeek.com/bryan-adams-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-10-29-8-pm/concert/18424320",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-29-2026/event/170064FDDE254490",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064FDDE254490",
+        "discovery_event_id": "17AYv0G62Mraf38",
+        "url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-29-2026/event/170064FDDE254490",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G62Mraf38",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2026-las-vegas-17ayv0g62mr173-",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams - Bare Bones Acoustic Solo Show",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Encore Theater at Wynn Las Vegas",
+    "datetime_iso": "2026-10-31T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064FDDE2844A1",
+    "ticketmaster_url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-30-2026/event/170064FDDE2844A1",
+    "seatgeek_url": "https://seatgeek.com/bryan-adams-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-10-30-8-pm/concert/18424322",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-30-2026/event/170064FDDE2844A1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064FDDE2844A1",
+        "discovery_event_id": "17AYv0G62Mr173-",
+        "url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-30-2026/event/170064FDDE2844A1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G62Mr173-",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2026-las-vegas-17ayv0g62mr1v3m",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams - Bare Bones Acoustic Solo Show",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Encore Theater at Wynn Las Vegas",
+    "datetime_iso": "2026-11-01T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064FDDE2B44B7",
+    "ticketmaster_url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-31-2026/event/170064FDDE2B44B7",
+    "seatgeek_url": "https://seatgeek.com/bryan-adams-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-10-31-8-pm/concert/18424324",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-31-2026/event/170064FDDE2B44B7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064FDDE2B44B7",
+        "discovery_event_id": "17AYv0G62Mr1V3M",
+        "url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-31-2026/event/170064FDDE2B44B7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G62Mr1V3M",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2026-las-vegas-17ayv0g62mr5fkv",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams - Bare Bones Acoustic Solo Show",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Encore Theater at Wynn Las Vegas",
+    "datetime_iso": "2026-11-02T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064FDDE2D44C1",
+    "ticketmaster_url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-11-01-2026/event/170064FDDE2D44C1",
+    "seatgeek_url": "https://seatgeek.com/bryan-adams-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-11-01-8-pm/concert/18424326",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-11-01-2026/event/170064FDDE2D44C1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064FDDE2D44C1",
+        "discovery_event_id": "17AYv0G62Mr5fKv",
+        "url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-11-01-2026/event/170064FDDE2D44C1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G62Mr5fKv",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2026-praha-9-z698xzu0z16vu4-e_a",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams: Roll with the Punches",
+    "city": "Praha 9",
+    "country": "Czech Republic",
+    "venue": "O2 Arena",
+    "datetime_iso": "2026-12-13T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1355842649",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/bryan-adams-roll-with-the-punches-tickets/1355842649?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/bryan-adams-roll-with-the-punches-tickets/1355842649?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1355842649",
+        "discovery_event_id": "Z698xZu0Z16vu4-e_a",
+        "url": "https://www.ticketmaster.cz/event/bryan-adams-roll-with-the-punches-tickets/1355842649?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z16vu4-e_a",
+    "timezone": "Europe/Prague",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2027-brescia-zg9rmiynyzffda",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams: Bare Bones",
+    "city": "Brescia",
+    "country": "Italy",
+    "venue": "Teatro Clerici",
+    "datetime_iso": "2027-01-31T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "znstrpbw7lkb",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/bryan-adams-bare-bones-brescia-31-01-2027/event/znstrpbw7lkb",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/bryan-adams-bare-bones-brescia-31-01-2027/event/znstrpbw7lkb",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "znstrpbw7lkb",
+        "discovery_event_id": "ZG9rmIYnyZFFdA",
+        "url": "https://www.ticketmaster.it/biglietti/bryan-adams-bare-bones-brescia-31-01-2027/event/znstrpbw7lkb",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZFFdA",
+    "timezone": "Europe/Rome",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2027-padova-zg9rmiynyzffdv",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams: Bare Bones",
+    "city": "Padova",
+    "country": "Italy",
+    "venue": "Gran Teatro GEOX",
+    "datetime_iso": "2027-02-05T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01xtkx4g45oc",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/bryan-adams-bare-bones-padova-05-02-2027/event/01xtkx4g45oc",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/bryan-adams-bare-bones-padova-05-02-2027/event/01xtkx4g45oc",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01xtkx4g45oc",
+        "discovery_event_id": "ZG9rmIYnyZFFdv",
+        "url": "https://www.ticketmaster.it/biglietti/bryan-adams-bare-bones-padova-05-02-2027/event/01xtkx4g45oc",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZFFdv",
+    "timezone": "Europe/Rome",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2027-auckland-17azv0g6cjvbo_i",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams - Roll With The Punches",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Spark Arena",
+    "datetime_iso": "2027-03-10T06:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "240064E981E9166C",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/bryan-adams-roll-with-the-punches-auckland-10-03-2027/event/240064E981E9166C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/bryan-adams-roll-with-the-punches-auckland-10-03-2027/event/240064E981E9166C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "240064E981E9166C",
+        "discovery_event_id": "17aZv0G6CJvBo_i",
+        "url": "https://www.ticketmaster.co.nz/bryan-adams-roll-with-the-punches-auckland-10-03-2027/event/240064E981E9166C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17aZv0G6CJvBo_i",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2027-christchurch-17azv0g6cuuuvxf",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams - Roll With The Punches",
+    "city": "Christchurch",
+    "country": "New Zealand",
+    "venue": "Wolfbrook Arena",
+    "datetime_iso": "2027-03-12T06:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "240064EDB6D81F88",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/bryan-adams-roll-with-the-punches-christchurch-12-03-2027/event/240064EDB6D81F88",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/bryan-adams-roll-with-the-punches-christchurch-12-03-2027/event/240064EDB6D81F88",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "240064EDB6D81F88",
+        "discovery_event_id": "17aZv0G6CUUUvXF",
+        "url": "https://www.ticketmaster.co.nz/bryan-adams-roll-with-the-punches-christchurch-12-03-2027/event/240064EDB6D81F88",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17aZv0G6CUUUvXF",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2027-wellington-central-1ae8z_fgkxwzsx6",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams - Bare Bones",
+    "city": "Wellington Central",
+    "country": "New Zealand",
+    "venue": "Te Whare Whakarauika Wellington Town Hall",
+    "datetime_iso": "2027-03-15T05:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2400654FB2033F87",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/bryan-adams-bare-bones-wellington-central-15-03-2027/event/2400654FB2033F87",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/bryan-adams-bare-bones-wellington-central-15-03-2027/event/2400654FB2033F87",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2400654FB2033F87",
+        "discovery_event_id": "1Ae8Z_fGkXwZSX6",
+        "url": "https://www.ticketmaster.co.nz/bryan-adams-bare-bones-wellington-central-15-03-2027/event/2400654FB2033F87",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae8Z_fGkXwZSX6",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2027-malmo-z698xzq2z1k-ga_fv",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams - Roll with the punches",
+    "city": "Malmö",
+    "country": "Sweden",
+    "venue": "Malmö Arena",
+    "datetime_iso": "2027-04-30T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "875259501",
+    "ticketmaster_url": "https://www.ticketmaster.se/event/bryan-adams-roll-with-the-punches-tickets/875259501?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.se/event/bryan-adams-roll-with-the-punches-tickets/875259501?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "875259501",
+        "discovery_event_id": "Z698xZq2Z1k-ga_fv",
+        "url": "https://www.ticketmaster.se/event/bryan-adams-roll-with-the-punches-tickets/875259501?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZq2Z1k-ga_fv",
+    "timezone": "Europe/Stockholm",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2027-oslo-z698xzb_z16vq6qw4z",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams: Roll with the Punches",
+    "city": "Oslo",
+    "country": "Norway",
+    "venue": "Oslo Spektrum",
+    "datetime_iso": "2027-05-03T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1687772540",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/bryan-adams-roll-with-the-punches-tickets/1687772540?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/bryan-adams-roll-with-the-punches-tickets/1687772540?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1687772540",
+        "discovery_event_id": "Z698xZb_Z16vQ6qw4Z",
+        "url": "https://www.ticketmaster.no/event/bryan-adams-roll-with-the-punches-tickets/1687772540?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z16vQ6qw4Z",
+    "timezone": "Europe/Oslo",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2027-helsinki-z698xz8kz1kuaq6jf",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams - Roll With The Punches Tour | Legazy Seat Ticket",
+    "city": "Helsinki",
+    "country": "Finland",
+    "venue": "Veikkaus Arena",
+    "datetime_iso": "2027-05-07T15:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "345687708",
+    "ticketmaster_url": "https://www.ticketmaster.fi/event/bryan-adams-roll-with-the-punches-tour-%7C-legazy-seat-ticket-tickets/345687708?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.fi/event/bryan-adams-roll-with-the-punches-tour-%7C-legazy-seat-ticket-tickets/345687708?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "345687708",
+        "discovery_event_id": "Z698xZ8KZ1kuAQ6jF",
+        "url": "https://www.ticketmaster.fi/event/bryan-adams-roll-with-the-punches-tour-%7C-legazy-seat-ticket-tickets/345687708?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ8KZ1kuAQ6jF",
+    "timezone": "Europe/Helsinki",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2027-nurnberg-z698xzc2z16vv6jt_f",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams: Roll with the Punches",
+    "city": "Nürnberg",
+    "country": "Germany",
+    "venue": "Stadionpark Nürnberg",
+    "datetime_iso": "2027-06-27T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1047729654",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/1047729654?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/1047729654?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1047729654",
+        "discovery_event_id": "Z698xZC2Z16vv6jt_f",
+        "url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/1047729654?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vv6jt_f",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2027-fulda-z698xzc2z1k86g-_z",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams: Roll with the Punches",
+    "city": "Fulda",
+    "country": "Germany",
+    "venue": "Domplatz Fulda",
+    "datetime_iso": "2027-06-29T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "407321678",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/407321678?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/407321678?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "407321678",
+        "discovery_event_id": "Z698xZC2Z1k86G-_z",
+        "url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/407321678?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1k86G-_z",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2027-halle-westfalen-z698xzc2z16voo4puj",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams: Roll with the Punches",
+    "city": "Halle (Westfalen)",
+    "country": "Germany",
+    "venue": "heristo-arena",
+    "datetime_iso": "2027-07-02T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1460556366",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/1460556366?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/1460556366?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1460556366",
+        "discovery_event_id": "Z698xZC2Z16voO4puJ",
+        "url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/1460556366?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16voO4puJ",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2027-hemer-z698xzc2z1k_buyvn",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams: Roll with the Punches",
+    "city": "Hemer",
+    "country": "Germany",
+    "venue": "Sauerlandpark",
+    "datetime_iso": "2027-07-04T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "658370063",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/658370063?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/658370063?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "658370063",
+        "discovery_event_id": "Z698xZC2Z1k_buYvN",
+        "url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/658370063?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1k_buYvN",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2027-bonn-z698xzc2z16v89qo0p",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams: Roll with the Punches",
+    "city": "Bonn",
+    "country": "Germany",
+    "venue": "Kunst!Rasen Bonn/Gronau",
+    "datetime_iso": "2027-07-06T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1417751916",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/1417751916?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/1417751916?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1417751916",
+        "discovery_event_id": "Z698xZC2Z16v89qo0p",
+        "url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/1417751916?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16v89qo0p",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2027-rosenheim-z698xzc2z16eva4pqp",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams: Roll with the Punches",
+    "city": "Rosenheim",
+    "country": "Germany",
+    "venue": "Rosenheim Sommerfestival",
+    "datetime_iso": "2027-07-08T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2049556696",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/2049556696?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/2049556696?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2049556696",
+        "discovery_event_id": "Z698xZC2Z16eva4pQp",
+        "url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/2049556696?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16eva4pQp",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2027-baunatal-z698xzc2z1kxv_kf3",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams: Roll with the Punches",
+    "city": "Baunatal",
+    "country": "Germany",
+    "venue": "Sommer im Park",
+    "datetime_iso": "2027-08-10T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "881653212",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/881653212?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/881653212?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "881653212",
+        "discovery_event_id": "Z698xZC2Z1kxv_KF3",
+        "url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/881653212?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1kxv_KF3",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2027-erfurt-z698xzc2z1kczab8v",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams: Roll with the Punches",
+    "city": "Erfurt",
+    "country": "Germany",
+    "venue": "Platz an der Messe",
+    "datetime_iso": "2027-08-11T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "380158434",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/380158434?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/380158434?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "380158434",
+        "discovery_event_id": "Z698xZC2Z1kCZAb8V",
+        "url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/380158434?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1kCZAb8V",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2027-magdeburg-z698xzc2z16vb8r7pg",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams: Roll with the Punches",
+    "city": "Magdeburg",
+    "country": "Germany",
+    "venue": "Domplatz",
+    "datetime_iso": "2027-08-13T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1610784975",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/1610784975?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/1610784975?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1610784975",
+        "discovery_event_id": "Z698xZC2Z16vb8r7Pg",
+        "url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/1610784975?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vb8r7Pg",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2027-deggendorf-z698xzc2z1kaap_ay",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams: Roll with the Punches",
+    "city": "Deggendorf",
+    "country": "Germany",
+    "venue": "Donau-Festival",
+    "datetime_iso": "2027-08-15T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "249599279",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/249599279?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/249599279?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "249599279",
+        "discovery_event_id": "Z698xZC2Z1kaap_ay",
+        "url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/249599279?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1kaap_ay",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  }
+]

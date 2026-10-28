@@ -2810,5 +2810,117 @@
     "last_verified_at": "2026-10-27",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-27"
+  },
+  {
+    "slug": "usher",
+    "name": "Usher",
+    "short_description": "R&B act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-28",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-28"
+  },
+  {
+    "slug": "illenium",
+    "name": "ILLENIUM",
+    "short_description": "Dance/Electronic act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-28",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-28"
+  },
+  {
+    "slug": "lola-young",
+    "name": "Lola Young",
+    "short_description": "R&B act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-28",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-28"
+  },
+  {
+    "slug": "james-blunt",
+    "name": "James Blunt",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-28",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-28"
+  },
+  {
+    "slug": "bryan-adams",
+    "name": "Bryan Adams",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-28",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-28"
+  },
+  {
+    "slug": "megadeth",
+    "name": "Megadeth",
+    "short_description": "Metal act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-28",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-28"
+  },
+  {
+    "slug": "simple-plan",
+    "name": "Simple Plan",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-28",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-28"
+  },
+  {
+    "slug": "simply-red",
+    "name": "Simply Red",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-28",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-28"
   }
 ]

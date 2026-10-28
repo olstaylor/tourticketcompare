@@ -1968,13 +1968,21 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8343668",
+        "url": "https://www.ticketliquidator.com/tickets/8343668/Rod-Stewart-tickets-Sat-Mar-6-2027-Hard-Rock-Live-At-Etess-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk49GkdDVpRj",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343668"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343668",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343668/Rod-Stewart-tickets-Sat-Mar-6-2027-Hard-Rock-Live-At-Etess-Arena"
   },
   {
     "id": "tm-rod-stewart-2027-lincoln-g5vyz_4ho4bgw",
@@ -2030,12 +2038,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8343679",
+        "url": "https://www.ticketliquidator.com/tickets/8343679/Rod-Stewart-tickets-Sat-Aug-14-2027-The-Venue-At-Thunder-Valley-Casino-Resort",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4ho4Bgw",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-30T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343679"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343679",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343679/Rod-Stewart-tickets-Sat-Aug-14-2027-The-Venue-At-Thunder-Valley-Casino-Resort"
   }
 ]

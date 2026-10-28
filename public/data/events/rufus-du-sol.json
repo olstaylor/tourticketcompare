@@ -53,11 +53,19 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8300560",
+        "url": "https://www.ticketliquidator.com/tickets/8300560/Rufus-Du-Sol-tickets-Sun-Jan-3-2027-Pier-80-San-Francisco",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe3qg",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300560"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300560",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300560/Rufus-Du-Sol-tickets-Sun-Jan-3-2027-Pier-80-San-Francisco"
   }
 ]

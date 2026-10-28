@@ -212,12 +212,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7540070",
+        "url": "https://www.ticketliquidator.com/tickets/7540070/Bloc-Party-tickets-Mon-Nov-30-2026-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AbZkuoGkdeZ9hd",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7540070"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7540070",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7540070/Bloc-Party-tickets-Mon-Nov-30-2026-3Arena-Dublin"
   },
   {
     "id": "tm-interpol-2026-san-diego-vvg1iz_4dkyacm",
@@ -273,12 +281,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8330265",
+        "url": "https://www.ticketliquidator.com/tickets/8330265/Interpol-tickets-Fri-Dec-11-2026-SOMA",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_4dkyaCM",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8330265"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8330265",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8330265/Interpol-tickets-Fri-Dec-11-2026-SOMA"
   },
   {
     "id": "tm-interpol-2027-hidalgo-g5diz_4kwcels",
@@ -334,13 +350,21 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8337023",
+        "url": "https://www.ticketliquidator.com/tickets/8337023/Interpol-tickets-Fri-Mar-19-2027-Payne-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_4KwCElS",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-30T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337023"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337023",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337023/Interpol-tickets-Fri-Mar-19-2027-Payne-Arena"
   },
   {
     "id": "tm-interpol-2027-memphis-g5viz_4agmgrr",
@@ -396,13 +420,21 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8337024",
+        "url": "https://www.ticketliquidator.com/tickets/8337024/Interpol-tickets-Mon-Mar-22-2027-Satellite-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_4aGMGrr",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-30T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337024"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337024",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337024/Interpol-tickets-Mon-Mar-22-2027-Satellite-Music-Hall"
   },
   {
     "id": "tm-interpol-2027-asheville-g5evz_4oz4dpm",
@@ -512,13 +544,21 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8337026",
+        "url": "https://www.ticketliquidator.com/tickets/8337026/Interpol-tickets-Wed-Mar-24-2027-The-Anthem-DC",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zk4KGkd5CF0G",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337026"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337026",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337026/Interpol-tickets-Wed-Mar-24-2027-The-Anthem-DC"
   },
   {
     "id": "tm-interpol-2027-philadelphia-vv1aezk4fgkevbabi",
@@ -574,12 +614,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8337027",
+        "url": "https://www.ticketliquidator.com/tickets/8337027/Interpol-tickets-Fri-Mar-26-2027-The-Met-Presented-by-Highmark",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk4fGkeVbabi",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337027"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337027",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337027/Interpol-tickets-Fri-Mar-26-2027-The-Met-Presented-by-Highmark"
   }
 ]

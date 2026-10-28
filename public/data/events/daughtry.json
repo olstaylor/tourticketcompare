@@ -716,7 +716,7 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAv9u8",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9u8",
-    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/wheeling-west-virginia-capitol-theatre-wheeling-2026-10-27-8-pm/concert/18316793",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9u8",
@@ -732,11 +732,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18316793,
-        "url": "https://seatgeek.com/daughtry-tickets/wheeling-west-virginia-capitol-theatre-wheeling-2026-10-27-8-pm/concert/18316793",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -848,7 +848,7 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "200064CA896016AD",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-la-vista-nebraska-10-31-2026/event/200064CA896016AD",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/la-vista-nebraska-the-astro-theater-la-vista-2026-10-31-8-pm/concert/18316795",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-la-vista-nebraska-10-31-2026/event/200064CA896016AD",
@@ -1069,7 +1069,7 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7Px8p",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Px8p",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/oklahoma-city-oklahoma-the-criterion-okc-2026-11-04-7-pm/concert/18316804",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Px8p",
@@ -2749,7 +2749,7 @@
         "event_id": 18632939,
         "url": "https://seatgeek.com/daughtry-tickets/nashville-tennessee-the-truth-nashville-2027-03-06-7-pm/concert/18632939",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2833,7 +2833,7 @@
         "event_id": 18632941,
         "url": "https://seatgeek.com/daughtry-tickets/atlanta-georgia-the-tabernacle-atlanta-2027-03-07-7-pm/concert/18632941",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3344,7 +3344,7 @@
         "event_id": 18632936,
         "url": "https://seatgeek.com/daughtry-tickets/charlottesville-virginia-paramount-theater-charlottesville-2027-03-03-7-pm/concert/18632936",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {

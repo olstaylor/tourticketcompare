@@ -89,7 +89,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0A0064588664F5A1",
     "ticketmaster_url": "https://www.ticketmaster.com/los-tigres-del-norte-palm-desert-california-11-13-2026/event/0A0064588664F5A1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/los-tigres-del-norte-tickets/thousand-palms-california-acrisure-arena-2026-11-13-8-pm/concert/18093245",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-palm-desert-california-11-13-2026/event/0A0064588664F5A1",
@@ -775,7 +775,7 @@
         "event_id": 18652912,
         "url": "https://seatgeek.com/los-tigres-del-norte-tickets/temecula-california-pechanga-resort-casino-2027-03-13-8-pm/concert/18652912",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {

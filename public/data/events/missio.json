@@ -423,7 +423,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1000650AF4CE612B",
     "ticketmaster_url": "https://www.ticketmaster.ca/missio-toronto-ontario-11-20-2026/event/1000650AF4CE612B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/toronto-canada-the-garrison-toronto-2026-11-20-6-30-pm/concert/18492369",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/missio-toronto-ontario-11-20-2026/event/1000650AF4CE612B",
@@ -488,7 +488,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0100650AF0979959",
     "ticketmaster_url": "https://www.ticketmaster.com/missio-18-boston-massachusetts-11-22-2026/event/0100650AF0979959",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/boston-massachusetts-brighton-music-hall-2026-11-22-7-pm/concert/18492289",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/missio-18-boston-massachusetts-11-22-2026/event/0100650AF0979959",
@@ -1497,7 +1497,7 @@
         "event_id": 18492631,
         "url": "https://seatgeek.com/missio-tickets/atlanta-georgia-the-loft-at-center-stage-2027-03-11-8-pm/concert/18492631",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {

@@ -1404,7 +1404,7 @@
     "tour_name": "The Ugly Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7x4FS",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x4FS",
-    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/houston-texas-toyota-center-2026-10-27-7-pm/concert/18185160",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-houston-toyota-center---tx-10-27-2026--concerts-rb/production/6911983",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x4FS",
@@ -1420,11 +1420,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18185160,
-        "url": "https://seatgeek.com/teddy-swims-tickets/houston-texas-toyota-center-2026-10-27-7-pm/concert/18185160",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6911983,

@@ -1,6 +1,6 @@
 {
   "storyType": "artist-cities",
-  "asOf": "2026-10-26",
+  "asOf": "2026-10-28",
   "artistSlug": "greta-van-fleet",
   "artist": "Greta Van Fleet",
   "artistPageIndexable": true,
@@ -11,14 +11,15 @@
   "siteLabel": "Vivid Seats",
   "country": "United States",
   "currency": "USD",
-  "capturedFrom": "2026-10-26T08:10:44.543Z",
-  "capturedTo": "2026-10-26T08:10:44.544Z",
+  "capturedFrom": "2026-10-28T13:36:14.342Z",
+  "capturedTo": "2026-10-28T13:36:14.343Z",
   "tourDates": 52,
   "coverage": {
     "marketCities": 36,
-    "pricedCities": 35,
-    "share": 0.9722222222222222,
+    "pricedCities": 34,
+    "share": 0.9444444444444444,
     "unpricedCities": [
+      "Fort Worth",
       "Saint Louis"
     ],
     "otherCountries": [
@@ -67,7 +68,7 @@
     "localDate": "2027-07-31",
     "price": 53,
     "currency": "USD",
-    "capturedAt": "2026-10-26T08:10:44.544Z"
+    "capturedAt": "2026-10-28T13:36:14.343Z"
   },
   "high": {
     "city": "Uncasville",
@@ -75,9 +76,9 @@
     "venue": "Mohegan Sun Arena",
     "eventId": "tm-greta-van-fleet-2027-uncasville-g5vvz_kwzs711",
     "localDate": "2027-07-24",
-    "price": 112,
+    "price": 115,
     "currency": "USD",
-    "capturedAt": "2026-10-26T08:10:44.544Z"
+    "capturedAt": "2026-10-28T13:36:14.343Z"
   },
   "median": 67,
   "ratio": 2.1,
@@ -90,7 +91,7 @@
       "localDate": "2027-07-31",
       "price": 53,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
+      "capturedAt": "2026-10-28T13:36:14.343Z",
       "path": "/artists/greta-van-fleet/tickets/grand-rapids-united-states"
     },
     {
@@ -99,9 +100,9 @@
       "venue": "VyStar Veterans Memorial Arena",
       "eventId": "tm-greta-van-fleet-2027-jacksonville-1aefz_kgkdyuafx",
       "localDate": "2027-02-06",
-      "price": 56,
+      "price": 54,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.543Z",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
       "path": "/artists/greta-van-fleet/tickets/jacksonville-united-states"
     },
     {
@@ -112,7 +113,7 @@
       "localDate": "2027-07-17",
       "price": 56,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
+      "capturedAt": "2026-10-28T13:36:14.343Z",
       "path": "/artists/greta-van-fleet/tickets/noblesville-united-states"
     },
     {
@@ -123,19 +124,8 @@
       "localDate": "2027-03-08",
       "price": 59,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
       "path": "/artists/greta-van-fleet/tickets/brooklyn-united-states"
-    },
-    {
-      "city": "Rosemont",
-      "country": "United States",
-      "venue": "Allstate Arena",
-      "eventId": "tm-greta-van-fleet-2027-rosemont-vv178z_kgkmrjctr",
-      "localDate": "2027-02-12",
-      "price": 60,
-      "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.543Z",
-      "path": "/artists/greta-van-fleet/tickets/rosemont-united-states"
     },
     {
       "city": "Louisville",
@@ -145,7 +135,7 @@
       "localDate": "2027-02-19",
       "price": 61,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.543Z",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
       "path": "/artists/greta-van-fleet/tickets/louisville-united-states"
     },
     {
@@ -156,8 +146,19 @@
       "localDate": "2027-02-20",
       "price": 61,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.543Z",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
       "path": "/artists/greta-van-fleet/tickets/pittsburgh-united-states"
+    },
+    {
+      "city": "Albany",
+      "country": "United States",
+      "venue": "MVP Arena",
+      "eventId": "tm-greta-van-fleet-2027-albany-k7vgf_kbmaa9o",
+      "localDate": "2027-03-06",
+      "price": 62,
+      "currency": "USD",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
+      "path": "/artists/greta-van-fleet/tickets/albany-united-states"
     },
     {
       "city": "Columbia",
@@ -167,7 +168,7 @@
       "localDate": "2027-07-21",
       "price": 62,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
+      "capturedAt": "2026-10-28T13:36:14.343Z",
       "path": "/artists/greta-van-fleet/tickets/columbia-united-states"
     },
     {
@@ -178,7 +179,7 @@
       "localDate": "2027-07-16",
       "price": 63,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
+      "capturedAt": "2026-10-28T13:36:14.343Z",
       "path": "/artists/greta-van-fleet/tickets/columbus-united-states"
     },
     {
@@ -189,19 +190,19 @@
       "localDate": "2027-03-20",
       "price": 63,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
       "path": "/artists/greta-van-fleet/tickets/phoenix-united-states"
     },
     {
-      "city": "Fort Worth",
+      "city": "Rosemont",
       "country": "United States",
-      "venue": "Dickies Arena",
-      "eventId": "tm-greta-van-fleet-2027-fort-worth-vvg1yz_f6vci7r",
-      "localDate": "2027-03-15",
-      "price": 64,
+      "venue": "Allstate Arena",
+      "eventId": "tm-greta-van-fleet-2027-rosemont-vv178z_kgkmrjctr",
+      "localDate": "2027-02-12",
+      "price": 63,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
-      "path": "/artists/greta-van-fleet/tickets/fort-worth-united-states"
+      "capturedAt": "2026-10-28T13:36:14.342Z",
+      "path": "/artists/greta-van-fleet/tickets/rosemont-united-states"
     },
     {
       "city": "Nashville",
@@ -211,19 +212,8 @@
       "localDate": "2027-02-10",
       "price": 64,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.543Z",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
       "path": "/artists/greta-van-fleet/tickets/nashville-united-states"
-    },
-    {
-      "city": "Albany",
-      "country": "United States",
-      "venue": "MVP Arena",
-      "eventId": "tm-greta-van-fleet-2027-albany-k7vgf_kbmaa9o",
-      "localDate": "2027-03-06",
-      "price": 65,
-      "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
-      "path": "/artists/greta-van-fleet/tickets/albany-united-states"
     },
     {
       "city": "Detroit",
@@ -233,7 +223,7 @@
       "localDate": "2027-03-02",
       "price": 65,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
       "path": "/artists/greta-van-fleet/tickets/detroit-united-states"
     },
     {
@@ -244,7 +234,7 @@
       "localDate": "2027-02-15",
       "price": 65,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.543Z",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
       "path": "/artists/greta-van-fleet/tickets/minneapolis-united-states"
     },
     {
@@ -255,7 +245,7 @@
       "localDate": "2027-03-25",
       "price": 65,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
       "path": "/artists/greta-van-fleet/tickets/portland-united-states"
     },
     {
@@ -266,7 +256,7 @@
       "localDate": "2027-03-16",
       "price": 65,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
       "path": "/artists/greta-van-fleet/tickets/tulsa-united-states"
     },
     {
@@ -277,7 +267,7 @@
       "localDate": "2027-07-13",
       "price": 67,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
+      "capturedAt": "2026-10-28T13:36:14.343Z",
       "path": "/artists/greta-van-fleet/tickets/kansas-city-united-states"
     },
     {
@@ -288,7 +278,7 @@
       "localDate": "2027-03-24",
       "price": 67,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
       "path": "/artists/greta-van-fleet/tickets/seattle-united-states"
     },
     {
@@ -299,7 +289,7 @@
       "localDate": "2027-07-26",
       "price": 69,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
+      "capturedAt": "2026-10-28T13:36:14.343Z",
       "path": "/artists/greta-van-fleet/tickets/gilford-united-states"
     },
     {
@@ -310,19 +300,8 @@
       "localDate": "2027-03-13",
       "price": 69,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
       "path": "/artists/greta-van-fleet/tickets/knoxville-united-states"
-    },
-    {
-      "city": "Philadelphia",
-      "country": "United States",
-      "venue": "Xfinity Mobile Arena",
-      "eventId": "tm-greta-van-fleet-2027-philadelphia-1adzz_kgkv_zy6y",
-      "localDate": "2027-03-10",
-      "price": 69,
-      "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
-      "path": "/artists/greta-van-fleet/tickets/philadelphia-united-states"
     },
     {
       "city": "Raleigh",
@@ -332,8 +311,30 @@
       "localDate": "2027-07-20",
       "price": 69,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
+      "capturedAt": "2026-10-28T13:36:14.343Z",
       "path": "/artists/greta-van-fleet/tickets/raleigh-united-states"
+    },
+    {
+      "city": "Atlanta",
+      "country": "United States",
+      "venue": "State Farm Arena",
+      "eventId": "tm-greta-van-fleet-2027-atlanta-vvg1zz_kmneaip",
+      "localDate": "2027-02-09",
+      "price": 70,
+      "currency": "USD",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
+      "path": "/artists/greta-van-fleet/tickets/atlanta-united-states"
+    },
+    {
+      "city": "Philadelphia",
+      "country": "United States",
+      "venue": "Xfinity Mobile Arena",
+      "eventId": "tm-greta-van-fleet-2027-philadelphia-1adzz_kgkv_zy6y",
+      "localDate": "2027-03-10",
+      "price": 70,
+      "currency": "USD",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
+      "path": "/artists/greta-van-fleet/tickets/philadelphia-united-states"
     },
     {
       "city": "Charlotte",
@@ -343,7 +344,7 @@
       "localDate": "2027-03-12",
       "price": 71,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
       "path": "/artists/greta-van-fleet/tickets/charlotte-united-states"
     },
     {
@@ -354,8 +355,19 @@
       "localDate": "2027-02-05",
       "price": 72,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.543Z",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
       "path": "/artists/greta-van-fleet/tickets/tampa-united-states"
+    },
+    {
+      "city": "Anaheim",
+      "country": "United States",
+      "venue": "Honda Center",
+      "eventId": "tm-greta-van-fleet-2027-anaheim-vv170z_kgkm7preh",
+      "localDate": "2027-03-19",
+      "price": 73,
+      "currency": "USD",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
+      "path": "/artists/greta-van-fleet/tickets/anaheim-united-states"
     },
     {
       "city": "Omaha",
@@ -365,30 +377,8 @@
       "localDate": "2027-02-13",
       "price": 74,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.543Z",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
       "path": "/artists/greta-van-fleet/tickets/omaha-united-states"
-    },
-    {
-      "city": "Anaheim",
-      "country": "United States",
-      "venue": "Honda Center",
-      "eventId": "tm-greta-van-fleet-2027-anaheim-vv170z_kgkm7preh",
-      "localDate": "2027-03-19",
-      "price": 75,
-      "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
-      "path": "/artists/greta-van-fleet/tickets/anaheim-united-states"
-    },
-    {
-      "city": "Atlanta",
-      "country": "United States",
-      "venue": "State Farm Arena",
-      "eventId": "tm-greta-van-fleet-2027-atlanta-vvg1zz_kmneaip",
-      "localDate": "2027-02-09",
-      "price": 77,
-      "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.543Z",
-      "path": "/artists/greta-van-fleet/tickets/atlanta-united-states"
     },
     {
       "city": "Boise",
@@ -398,7 +388,7 @@
       "localDate": "2027-03-27",
       "price": 80,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
       "path": "/artists/greta-van-fleet/tickets/boise-united-states"
     },
     {
@@ -409,7 +399,7 @@
       "localDate": "2027-03-05",
       "price": 80,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
       "path": "/artists/greta-van-fleet/tickets/boston-united-states"
     },
     {
@@ -420,7 +410,7 @@
       "localDate": "2027-03-30",
       "price": 82,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
       "path": "/artists/greta-van-fleet/tickets/denver-united-states"
     },
     {
@@ -431,7 +421,7 @@
       "localDate": "2027-07-23",
       "price": 84,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
+      "capturedAt": "2026-10-28T13:36:14.343Z",
       "path": "/artists/greta-van-fleet/tickets/hershey-united-states"
     },
     {
@@ -442,7 +432,7 @@
       "localDate": "2027-02-03",
       "price": 89,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.543Z",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
       "path": "/artists/greta-van-fleet/tickets/savannah-united-states"
     },
     {
@@ -453,7 +443,7 @@
       "localDate": "2027-03-22",
       "price": 104,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
+      "capturedAt": "2026-10-28T13:36:14.342Z",
       "path": "/artists/greta-van-fleet/tickets/reno-united-states"
     },
     {
@@ -462,9 +452,9 @@
       "venue": "Mohegan Sun Arena",
       "eventId": "tm-greta-van-fleet-2027-uncasville-g5vvz_kwzs711",
       "localDate": "2027-07-24",
-      "price": 112,
+      "price": 115,
       "currency": "USD",
-      "capturedAt": "2026-10-26T08:10:44.544Z",
+      "capturedAt": "2026-10-28T13:36:14.343Z",
       "path": "/artists/greta-van-fleet/tickets/uncasville-united-states"
     }
   ]

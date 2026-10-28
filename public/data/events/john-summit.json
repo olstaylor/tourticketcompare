@@ -754,11 +754,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107185233",
-        "url": "https://www.stubhub.ie/john-summit-fort-worth-tickets-11-7-2026/event/107185233",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7982955",
@@ -772,7 +772,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982955",
-    "stubhub_international_url": "https://www.stubhub.ie/john-summit-fort-worth-tickets-11-7-2026/event/107185233",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7982955/John-Summit-tickets-Sat-Nov-7-2026-Ariat-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -834,11 +834,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107289082",
-        "url": "https://www.stubhub.ie/john-summit-fort-worth-tickets-11-8-2026/event/107289082",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8005641",
@@ -852,7 +852,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8005641",
-    "stubhub_international_url": "https://www.stubhub.ie/john-summit-fort-worth-tickets-11-8-2026/event/107289082",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8005641/John-Summit-tickets-Sun-Nov-8-2026-Ariat-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"

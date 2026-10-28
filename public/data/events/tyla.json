@@ -551,11 +551,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107460121",
-        "url": "https://www.stubhub.ie/tyla-tickets-berlin-uber-eats-music-hall-27-10-2026/event/107460121",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vFOGNfA",
@@ -563,7 +563,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-tickets-berlin-uber-eats-music-hall-27-10-2026/event/107460121",
+    "stubhub_international_url": "",
     "organizer_names": [
       "Trinity Music GmbH"
     ]

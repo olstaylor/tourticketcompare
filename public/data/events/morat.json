@@ -1809,17 +1809,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107016756",
-        "url": "https://www.stubhub.ie/morat-tickets-madrid-movistar-arena-palacio-de-los-deportes-27-10-2026/event/107016756",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kv97NO3",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-madrid-movistar-arena-palacio-de-los-deportes-27-10-2026/event/107016756",
+    "stubhub_international_url": "",
     "organizer_names": [
       "Alcanzando Metas, A.I.E."
     ]

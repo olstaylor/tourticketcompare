@@ -60,12 +60,20 @@
         "verified": true,
         "last_verified_at": "2026-10-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107165652",
+        "url": "https://www.stubhub.ie/shaboozey-los-angeles-tickets-10-27-2026/event/107165652",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70kPt",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7919007",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7919007/Shaboozey-tickets-Tue-Oct-27-2026-Greek-Theatre-Los-Angeles-CA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7919007/Shaboozey-tickets-Tue-Oct-27-2026-Greek-Theatre-Los-Angeles-CA",
+    "stubhub_international_url": "https://www.stubhub.ie/shaboozey-los-angeles-tickets-10-27-2026/event/107165652"
   }
 ]

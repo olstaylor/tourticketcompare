@@ -34807,11 +34807,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107166118",
-        "url": "https://www.stubhub.ie/niall-horan-fort-worth-tickets-5-2-2027/event/107166118",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7954219",
@@ -34825,7 +34825,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954219",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-fort-worth-tickets-5-2-2027/event/107166118",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954219/Niall-Horan-tickets-Sun-May-2-2027-Ariat-Arena",
     "presales": [
       {
@@ -41516,11 +41516,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107185233",
-        "url": "https://www.stubhub.ie/john-summit-fort-worth-tickets-11-7-2026/event/107185233",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7982955",
@@ -41534,7 +41534,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982955",
-    "stubhub_international_url": "https://www.stubhub.ie/john-summit-fort-worth-tickets-11-7-2026/event/107185233",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7982955/John-Summit-tickets-Sat-Nov-7-2026-Ariat-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -41596,11 +41596,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107289082",
-        "url": "https://www.stubhub.ie/john-summit-fort-worth-tickets-11-8-2026/event/107289082",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8005641",
@@ -41614,7 +41614,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8005641",
-    "stubhub_international_url": "https://www.stubhub.ie/john-summit-fort-worth-tickets-11-8-2026/event/107289082",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8005641/John-Summit-tickets-Sun-Nov-8-2026-Ariat-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -48056,11 +48056,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107158274",
-        "url": "https://www.stubhub.ie/teddy-swims-fort-worth-tickets-10-30-2026/event/107158274",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_FlXlBcf",
@@ -48068,7 +48068,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883111",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883111/Teddy-Swims-tickets-Fri-Oct-30-2026-Ariat-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-fort-worth-tickets-10-30-2026/event/107158274",
+    "stubhub_international_url": "",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -55008,11 +55008,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107447678",
-        "url": "https://www.stubhub.ie/don-omar-fort-worth-tickets-3-6-2027/event/107447678",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_u1_oUrO",
@@ -55020,7 +55020,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071966",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071966/Don-Omar-tickets-Sat-Mar-6-2027-Ariat-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-fort-worth-tickets-3-6-2027/event/107447678",
+    "stubhub_international_url": "",
     "presales": [
       {
         "name": "VIP Packages Onsale",
@@ -62646,11 +62646,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107469566",
-        "url": "https://www.stubhub.ie/pentatonix-fort-worth-tickets-12-16-2026/event/107469566",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_Cn4lA0M",
@@ -62658,7 +62658,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184443",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184443/Pentatonix-tickets-Wed-Dec-16-2026-Ariat-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/pentatonix-fort-worth-tickets-12-16-2026/event/107469566",
+    "stubhub_international_url": "",
     "presales": [
       {
         "name": "VIP Packages Public Onsale",
@@ -63549,11 +63549,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107460121",
-        "url": "https://www.stubhub.ie/tyla-tickets-berlin-uber-eats-music-hall-27-10-2026/event/107460121",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vFOGNfA",
@@ -63561,7 +63561,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-tickets-berlin-uber-eats-music-hall-27-10-2026/event/107460121",
+    "stubhub_international_url": "",
     "organizer_names": [
       "Trinity Music GmbH"
     ]
@@ -90961,6 +90961,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107082955",
+        "url": "https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-27-11-2026/event/107082955",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1APZk8UGkd2sm8u",
@@ -90968,7 +90975,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-27-11-2026/event/107082955"
   },
   {
     "id": "tm-harry-styles-2026-docklands-16efz_dckg7slsc",
@@ -92475,6 +92483,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107258450",
+        "url": "https://www.stubhub.ie/bts-tickets-melbourne-marvel-stadium-docklands-12-2-2027/event/107258450",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17a8v0G659_gUMR",
@@ -92482,7 +92497,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/bts-tickets-melbourne-marvel-stadium-docklands-12-2-2027/event/107258450"
   },
   {
     "id": "tm-bts-2027-docklands-17a8v0g65r_ew8m",
@@ -92869,17 +92885,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "107666002",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-19-2-2027/event/107666002",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aefZ_o37vvZdCkk",
     "timezone": "Australia/Melbourne",
     "status": "on-sale",
-    "stubhub_international_url": "",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-19-2-2027/event/107666002",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
     ]
@@ -92933,17 +92949,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "107666003",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-20-2-2027/event/107666003",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_oGknWW0xk",
     "timezone": "Australia/Melbourne",
     "status": "on-sale",
-    "stubhub_international_url": "",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-20-2-2027/event/107666003",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
     ]
@@ -92997,17 +93013,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "107666004",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-23-2-2027/event/107666004",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_oGknWX7x5",
     "timezone": "Australia/Melbourne",
     "status": "on-sale",
-    "stubhub_international_url": "",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-23-2-2027/event/107666004",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
     ]
@@ -93059,6 +93075,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107667338",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-24-2-2027/event/107667338",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_oGknWX0x2",
@@ -93066,7 +93089,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-24-2-2027/event/107667338"
   },
   {
     "id": "tm-bruno-mars-2027-milton-1akzkf3gkdacg5v",
@@ -112295,11 +112319,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107669471",
-        "url": "https://www.stubhub.ie/hans-zimmer-fort-worth-tickets-3-22-2027/event/107669471",
-        "verified": true,
-        "last_verified_at": "2026-09-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_8UYDbMt",
@@ -112307,7 +112331,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270991",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270991/Hans-Zimmer-tickets-Mon-Mar-22-2027-Ariat-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-fort-worth-tickets-3-22-2027/event/107669471",
+    "stubhub_international_url": "",
     "presales": [
       {
         "name": "VIP Packages Public Onsale",
@@ -118644,11 +118668,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107669002",
-        "url": "https://www.stubhub.ie/hilary-duff-fort-worth-tickets-11-6-2027/event/107669002",
-        "verified": true,
-        "last_verified_at": "2026-09-25",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3lPl3yg",
@@ -118656,7 +118680,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284554/Hilary-Duff-tickets-Sat-Nov-6-2027-Ariat-Arena",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284554",
-    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-fort-worth-tickets-11-6-2027/event/107669002",
+    "stubhub_international_url": "",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -120222,11 +120246,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107669692",
-        "url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-5-2027/event/107669692",
-        "verified": true,
-        "last_verified_at": "2026-09-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "8272507",
@@ -120246,7 +120270,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_KeBfBqm",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-5-2027/event/107669692",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272507",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272507/Josiah-Queen-tickets-Wed-May-5-2027-Ariat-Arena",
     "organizer_names": [
@@ -120366,11 +120390,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107666052",
-        "url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-8-2027/event/107666052",
-        "verified": true,
-        "last_verified_at": "2026-09-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "8255327",
@@ -120390,7 +120414,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_35oAhaq",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-8-2027/event/107666052",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255327",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255327/Josiah-Queen-tickets-Sat-May-8-2027-Ariat-Arena",
     "organizer_names": [
@@ -156249,11 +156273,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107671384",
-        "url": "https://www.stubhub.ie/fantasia-fort-worth-tickets-3-13-2027/event/107671384",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KbTLWH3",
@@ -156261,7 +156285,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293970",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293970/The-Love-of-Soul-Tour-tickets-Sat-Mar-13-2027-Ariat-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/fantasia-fort-worth-tickets-3-13-2027/event/107671384",
+    "stubhub_international_url": "",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
     ]
@@ -172120,11 +172144,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107671871",
-        "url": "https://www.stubhub.ie/greta-van-fleet-fort-worth-tickets-3-15-2027/event/107671871",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_f6vci7r",
@@ -172139,7 +172163,7 @@
         "end": "2027-03-08T05:55:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-fort-worth-tickets-3-15-2027/event/107671871",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -177834,11 +177858,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107671387",
-        "url": "https://www.stubhub.ie/riley-green-fort-worth-tickets-5-6-2027/event/107671387",
-        "verified": true,
-        "last_verified_at": "2026-10-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8293130",
@@ -177852,7 +177876,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293130",
-    "stubhub_international_url": "https://www.stubhub.ie/riley-green-fort-worth-tickets-5-6-2027/event/107671387",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293130/Riley-Green-tickets-Thu-May-6-2027-Ariat-Arena",
     "presales": [
       {
@@ -197452,11 +197476,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107672239",
-        "url": "https://www.stubhub.ie/def-leppard-fort-worth-tickets-4-18-2027/event/107672239",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_fhfmaat",
@@ -197464,7 +197488,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312073",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312073/Def-Leppard-tickets-Sun-Apr-18-2027-Ariat-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-fort-worth-tickets-4-18-2027/event/107672239",
+    "stubhub_international_url": "",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -209776,6 +209800,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667645",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-13-3-2027/event/107667645",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A0ZkfKGkeslw-y",
@@ -209785,7 +209816,8 @@
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244830"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244830",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-13-3-2027/event/107667645"
   },
   {
     "id": "tm-bruno-mars-2027-auckland-1ae8z_ogkiuunsj",
@@ -209848,6 +209880,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666025",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-14-3-2027/event/107666025",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae8Z_oGkiuuNSJ",
@@ -209857,7 +209896,8 @@
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244848"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244848",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-14-3-2027/event/107666025"
   },
   {
     "id": "tm-bruno-mars-2027-auckland-1ae8z_ogksqr0wn",
@@ -233879,11 +233919,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107671609",
-        "url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-1-2-2027/event/107671609",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk4vGkdN9bgH",
@@ -233892,7 +233932,7 @@
     "organizer_names": [
       "OCESA"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-1-2-2027/event/107671609"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacn3ld",
@@ -262084,17 +262124,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107016756",
-        "url": "https://www.stubhub.ie/morat-tickets-madrid-movistar-arena-palacio-de-los-deportes-27-10-2026/event/107016756",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kv97NO3",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-madrid-movistar-arena-palacio-de-los-deportes-27-10-2026/event/107016756",
+    "stubhub_international_url": "",
     "organizer_names": [
       "Alcanzando Metas, A.I.E."
     ]
@@ -266618,11 +266658,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107165502",
-        "url": "https://www.stubhub.ie/kacey-musgraves-seattle-tickets-10-26-2026/event/107165502",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -266636,7 +266676,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-seattle-tickets-10-26-2026/event/107165502",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "",
     "organizer_names": [
       "AEG LIVE"
@@ -275996,6 +276036,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678123",
+        "url": "https://www.stubhub.ie/sienna-spiro-austin-tickets-8-5-2027/event/107678123",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_47YTEkn",
@@ -276006,7 +276053,8 @@
       "LIVE NATION MUSIC",
       "WME AGENCY"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332299"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332299",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-austin-tickets-8-5-2027/event/107678123"
   },
   {
     "id": "tm-sienna-spiro-2027-washington-1avfz_fgksa-bdm",
@@ -276379,6 +276427,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678127",
+        "url": "https://www.stubhub.ie/sienna-spiro-detroit-tickets-8-23-2027/event/107678127",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk48GkeBO40X",
@@ -276388,7 +276443,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332344"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332344",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-detroit-tickets-8-23-2027/event/107678127"
   },
   {
     "id": "tm-sienna-spiro-2027-chicago-vv17jz_fgkxlgu6j",
@@ -279702,11 +279758,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107167142",
-        "url": "https://www.stubhub.ie/ty-myers-fort-worth-tickets-11-21-2026/event/107167142",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7830819",
@@ -279720,7 +279776,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7830819/Ty-Myers-tickets-Sat-Nov-21-2026-Ariat-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/ty-myers-fort-worth-tickets-11-21-2026/event/107167142",
+    "stubhub_international_url": "",
     "organizer_names": [
       "AEG LIVE"
     ],
@@ -280427,11 +280483,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107447659",
-        "url": "https://www.stubhub.ie/beabadoobee-oakland-tickets-10-26-2026/event/107447659",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -280445,7 +280501,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-oakland-tickets-10-26-2026/event/107447659",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -295333,11 +295389,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107155188",
-        "url": "https://www.stubhub.ie/billy-strings-fort-worth-tickets-12-11-2026/event/107155188",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_6mc3yqf",
@@ -295345,7 +295401,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843525",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7843525/Billy-Strings-tickets-Fri-Dec-11-2026-Ariat-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/billy-strings-fort-worth-tickets-12-11-2026/event/107155188"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-billy-strings-2026-austin-g5diz_ub5bart",
@@ -306787,11 +306843,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107009230",
+        "url": "https://www.stubhub.ie/interpol-tickets-cardiff-utilita-arena-cardiff-21-11-2026/event/107009230",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkuNGkeIF6Z0",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/interpol-tickets-cardiff-utilita-arena-cardiff-21-11-2026/event/107009230"
   },
   {
     "id": "tm-interpol-2026-manchester-1adfzbggkdjtldr",
@@ -306893,11 +306957,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107009231",
+        "url": "https://www.stubhub.ie/interpol-tickets-brighton-brighton-centre-27-11-2026/event/107009231",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbgWDgxYl",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/interpol-tickets-brighton-brighton-centre-27-11-2026/event/107009231"
   },
   {
     "id": "tm-interpol-2026-dublin-1abzkuogkdez9hd",
@@ -307029,13 +307101,21 @@
         "verified": true,
         "last_verified_at": "2026-10-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675935",
+        "url": "https://www.stubhub.ie/interpol-san-diego-tickets-12-11-2026/event/107675935",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_4dkyaCM",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8330265",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8330265/Interpol-tickets-Fri-Dec-11-2026-SOMA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8330265/Interpol-tickets-Fri-Dec-11-2026-SOMA",
+    "stubhub_international_url": "https://www.stubhub.ie/interpol-san-diego-tickets-12-11-2026/event/107675935"
   },
   {
     "id": "tm-interpol-2027-hidalgo-g5diz_4kwcels",
@@ -307098,6 +307178,13 @@
         "verified": true,
         "last_verified_at": "2026-10-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675936",
+        "url": "https://www.stubhub.ie/interpol-hidalgo-tickets-3-19-2027/event/107675936",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_4KwCElS",
@@ -307105,7 +307192,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-30T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337023",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337023/Interpol-tickets-Fri-Mar-19-2027-Payne-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337023/Interpol-tickets-Fri-Mar-19-2027-Payne-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/interpol-hidalgo-tickets-3-19-2027/event/107675936"
   },
   {
     "id": "tm-interpol-2027-memphis-g5viz_4agmgrr",
@@ -307292,6 +307380,13 @@
         "verified": true,
         "last_verified_at": "2026-10-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675937",
+        "url": "https://www.stubhub.ie/interpol-washington-tickets-3-24-2027/event/107675937",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zk4KGkd5CF0G",
@@ -307299,7 +307394,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337026",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337026/Interpol-tickets-Wed-Mar-24-2027-The-Anthem-DC"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337026/Interpol-tickets-Wed-Mar-24-2027-The-Anthem-DC",
+    "stubhub_international_url": "https://www.stubhub.ie/interpol-washington-tickets-3-24-2027/event/107675937"
   },
   {
     "id": "tm-interpol-2027-philadelphia-vv1aezk4fgkevbabi",
@@ -308435,13 +308531,21 @@
         "verified": true,
         "last_verified_at": "2026-10-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107165652",
+        "url": "https://www.stubhub.ie/shaboozey-los-angeles-tickets-10-27-2026/event/107165652",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70kPt",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7919007",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7919007/Shaboozey-tickets-Tue-Oct-27-2026-Greek-Theatre-Los-Angeles-CA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7919007/Shaboozey-tickets-Tue-Oct-27-2026-Greek-Theatre-Los-Angeles-CA",
+    "stubhub_international_url": "https://www.stubhub.ie/shaboozey-los-angeles-tickets-10-27-2026/event/107165652"
   },
   {
     "id": "tm-carin-leon-2027-las-vegas-1avjzbwgkrtxpef",
@@ -308773,12 +308877,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672199",
+        "url": "https://www.stubhub.ie/phish-new-york-tickets-12-30-2026/event/107672199",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_KV3gvWH",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311023"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311023",
+    "stubhub_international_url": "https://www.stubhub.ie/phish-new-york-tickets-12-30-2026/event/107672199"
   },
   {
     "id": "tm-phish-2027-new-york-g5diz_kv3mvxa",
@@ -308841,13 +308953,21 @@
         "verified": true,
         "last_verified_at": "2026-10-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672200",
+        "url": "https://www.stubhub.ie/phish-new-york-tickets-12-31-2026/event/107672200",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_KV3MvXa",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311024",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311024/Phish-tickets-Thu-Dec-31-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311024/Phish-tickets-Thu-Dec-31-2026-Madison-Square-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/phish-new-york-tickets-12-31-2026/event/107672200"
   },
   {
     "id": "tm-phish-2027-new-york-g5diz_kv3yvxl",
@@ -308910,13 +309030,21 @@
         "verified": true,
         "last_verified_at": "2026-10-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672780",
+        "url": "https://www.stubhub.ie/phish-new-york-tickets-1-1-2027/event/107672780",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_KV3yvXL",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311025",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311025/Phish-tickets-Fri-Jan-1-2027-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311025/Phish-tickets-Fri-Jan-1-2027-Madison-Square-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/phish-new-york-tickets-1-1-2027/event/107672780"
   },
   {
     "id": "tm-phish-2027-new-york-g5diz_kv3dvxt",
@@ -308979,13 +309107,21 @@
         "verified": true,
         "last_verified_at": "2026-10-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672781",
+        "url": "https://www.stubhub.ie/phish-new-york-tickets-1-2-2027/event/107672781",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_KV3DvXt",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311027",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311027/Phish-tickets-Sat-Jan-2-2027-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311027/Phish-tickets-Sat-Jan-2-2027-Madison-Square-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/phish-new-york-tickets-1-2-2027/event/107672781"
   },
   {
     "id": "tm-imagine-dragons-2026-abu-dhabi-z698xz52z16vb3ooc_",
@@ -309239,13 +309375,21 @@
         "verified": true,
         "last_verified_at": "2026-10-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675966",
+        "url": "https://www.stubhub.ie/sienna-spiro-nashville-tickets-8-8-2027/event/107675966",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7bjy",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332305",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332305/Sienna-Spiro-tickets-Sun-Aug-8-2027-Grand-Ole-Opry-House"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332305/Sienna-Spiro-tickets-Sun-Aug-8-2027-Grand-Ole-Opry-House",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-nashville-tickets-8-8-2027/event/107675966"
   },
   {
     "id": "tm-rod-stewart-2027-atlantic-city-vv1aezk49gkddvprj",

@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107009230",
+        "url": "https://www.stubhub.ie/interpol-tickets-cardiff-utilita-arena-cardiff-21-11-2026/event/107009230",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkuNGkeIF6Z0",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/interpol-tickets-cardiff-utilita-arena-cardiff-21-11-2026/event/107009230"
   },
   {
     "id": "tm-interpol-2026-manchester-1adfzbggkdjtldr",
@@ -152,11 +160,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107009231",
+        "url": "https://www.stubhub.ie/interpol-tickets-brighton-brighton-centre-27-11-2026/event/107009231",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbgWDgxYl",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/interpol-tickets-brighton-brighton-centre-27-11-2026/event/107009231"
   },
   {
     "id": "tm-interpol-2026-dublin-1abzkuogkdez9hd",
@@ -288,13 +304,21 @@
         "verified": true,
         "last_verified_at": "2026-10-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675935",
+        "url": "https://www.stubhub.ie/interpol-san-diego-tickets-12-11-2026/event/107675935",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_4dkyaCM",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8330265",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8330265/Interpol-tickets-Fri-Dec-11-2026-SOMA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8330265/Interpol-tickets-Fri-Dec-11-2026-SOMA",
+    "stubhub_international_url": "https://www.stubhub.ie/interpol-san-diego-tickets-12-11-2026/event/107675935"
   },
   {
     "id": "tm-interpol-2027-hidalgo-g5diz_4kwcels",
@@ -357,6 +381,13 @@
         "verified": true,
         "last_verified_at": "2026-10-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675936",
+        "url": "https://www.stubhub.ie/interpol-hidalgo-tickets-3-19-2027/event/107675936",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_4KwCElS",
@@ -364,7 +395,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-30T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337023",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337023/Interpol-tickets-Fri-Mar-19-2027-Payne-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337023/Interpol-tickets-Fri-Mar-19-2027-Payne-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/interpol-hidalgo-tickets-3-19-2027/event/107675936"
   },
   {
     "id": "tm-interpol-2027-memphis-g5viz_4agmgrr",
@@ -551,6 +583,13 @@
         "verified": true,
         "last_verified_at": "2026-10-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675937",
+        "url": "https://www.stubhub.ie/interpol-washington-tickets-3-24-2027/event/107675937",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zk4KGkd5CF0G",
@@ -558,7 +597,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337026",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337026/Interpol-tickets-Wed-Mar-24-2027-The-Anthem-DC"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337026/Interpol-tickets-Wed-Mar-24-2027-The-Anthem-DC",
+    "stubhub_international_url": "https://www.stubhub.ie/interpol-washington-tickets-3-24-2027/event/107675937"
   },
   {
     "id": "tm-interpol-2027-philadelphia-vv1aezk4fgkevbabi",

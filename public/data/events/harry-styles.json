@@ -2720,6 +2720,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107082955",
+        "url": "https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-27-11-2026/event/107082955",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1APZk8UGkd2sm8u",
@@ -2727,7 +2734,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-27-11-2026/event/107082955"
   },
   {
     "id": "tm-harry-styles-2026-docklands-16efz_dckg7slsc",

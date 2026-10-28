@@ -20,6 +20,8 @@
 //   beacon_gap                many beacons never became a redirect receipt
 //   no_sales                  no Impact action for 14 days
 //   impact_unavailable        Impact could not be read, so sales are unknown
+//   attribution_gap           orders cannot all be joined to recorded clicks
+//   attribution_unavailable   orders were read but the click lookup failed
 //
 // Read-only: D1 SELECTs through `wrangler d1 execute --command` and GETs on
 // Impact's Actions API (via report-affiliate-performance.mjs). Its only write
@@ -103,7 +105,7 @@ export function buildStatements({ since, until }) {
 // Impact side: actions by state over the lookback, last action date, and how
 // many join a retained TTC click by SubId1. Never estimated: when Impact cannot
 // be read, `available` is false and the report says sales are unknown.
-export function summarizeImpact(actions, matched, { error = null, configured = true } = {}) {
+export function summarizeImpact(actions, matched, { error = null, configured = true, coverage = null, attributionError = null } = {}) {
   if (!configured || error) return { available: false, reason: error || "Impact credentials are not configured" };
   const states = { APPROVED: { count: 0, payout: 0 }, PENDING: { count: 0, payout: 0 }, REVERSED: { count: 0, payout: 0 }, UNKNOWN: { count: 0, payout: 0 } };
   let lastDay = null;
@@ -115,7 +117,8 @@ export function summarizeImpact(actions, matched, { error = null, configured = t
     if (a.currency) currencies.add(a.currency);
     if (a.day && (!lastDay || a.day > lastDay)) lastDay = a.day;
   }
-  return { available: true, total: actions.length, states, lastDay, currency: [...currencies].join("/") || null, matched: matched.length,
+  return { available: true, total: actions.length, states, lastDay, currency: [...currencies].join("/") || null,
+    coverage, attributionError, matched: attributionError ? null : matched.length,
     matchedByProvider: matched.reduce((m, o) => ({ ...m, [o.provider]: (m[o.provider] || 0) + 1 }), {}) };
 }
 
@@ -166,6 +169,11 @@ export function evaluateFlags(funnel, t = THRESHOLDS) {
   if (!impact?.available) {
     add("impact_unavailable", "amber", `Impact could not be read (${impact?.reason || "unknown"}), so orders and commission are unknown, not zero.`);
   } else {
+    if (impact.attributionError) {
+      add("attribution_unavailable", "amber", "Impact orders were read, but the retained-click lookup failed. Order attribution is unknown; retry the read before diagnosing missing clicks.");
+    } else if (impact.total > impact.matched) {
+      add("attribution_gap", "amber", `${impact.total - impact.matched} of ${impact.total} Impact orders could not be tied to a TTC click by Sub ID. Their originating pages remain unknown; inspect the attribution breakdown below.`);
+    }
     const since = impact.lastDay ? Math.round((Date.parse(funnel.generatedAt) - Date.parse(impact.lastDay)) / DAY_MS) : null;
     if (since === null || since >= t.noSalesDays) {
       add("no_sales", "amber", since === null ? `No Impact action in the last ${ACTION_LOOKBACK_DAYS} days.` : `No Impact action for ${since} days (last ${impact.lastDay}).`);
@@ -213,8 +221,26 @@ export function renderFunnel(funnel, flags) {
       "|---|---:|---:|",
       ...["APPROVED", "PENDING", "REVERSED", "UNKNOWN"].filter((k) => s[k].count || k !== "UNKNOWN").map((k) => `| ${k.toLowerCase()} | ${s[k].count} | ${s[k].payout.toFixed(2)}${cur} |`),
       "",
-      `Last order: ${impact.lastDay || "none"}. Orders tied to a TTC click by Sub ID: ${impact.matched} of ${impact.total}${impact.matched ? ` (${Object.entries(impact.matchedByProvider).map(([p, n]) => `${p} ${n}`).join(", ")})` : ""}. Only approved payout is earned.`
+      `Last order: ${impact.lastDay || "none"}. Orders tied to a TTC click by Sub ID: ${impact.matched === null ? "unknown" : impact.matched} of ${impact.total}${impact.matched ? ` (${Object.entries(impact.matchedByProvider).map(([p, n]) => `${p} ${n}`).join(", ")})` : ""}. Only approved payout is earned.`
     );
+    if (impact.attributionError) {
+      lines.push("", "Attribution lookup unavailable. Order states and payouts above still come from Impact; no zero-match result is claimed.");
+    } else if (impact.coverage) {
+      const reasons = {
+        no_sub_id: "No Sub ID returned by Impact",
+        invalid_sub_id: "Sub ID does not have the TTC click-ID format",
+        click_not_found: "No matching click in retained history",
+        ambiguous_click_id: "Multiple receipts share the click ID",
+        not_eligible: "Receipt was not recorded as reconciliation-eligible",
+        campaign_unmapped: "Order campaign has no configured provider mapping",
+        provider_mismatch: "Order campaign and click provider disagree"
+      };
+      lines.push("", "### Unmatched order breakdown", "", "| Reason | Orders |", "|---|---:|");
+      for (const [key, label] of Object.entries(reasons)) {
+        if (impact.coverage[key]) lines.push(`| ${label} | ${impact.coverage[key]} |`);
+      }
+      lines.push("", "Missing Sub IDs do not establish when tracking was enabled. A missing retained click may reflect retention or a different source; it does not prove a broken redirect. No unmatched commission is assigned to a page. Raw Sub IDs and order IDs are omitted.");
+    }
   }
   lines.push(
     "",
@@ -256,9 +282,14 @@ async function readImpact(range, local) {
     const since = new Date(Date.parse(range.until) - ACTION_LOOKBACK_DAYS * DAY_MS).toISOString();
     const actions = await fetchAllActions(credentials, { since, until: range.until });
     const statements = buildAttributionStatements(actions);
-    const rows = statements.length ? Object.values(await d1(statements, local)).flat() : [];
-    const { matched } = matchSubIdAttribution(actions, indexClickRows(rows), resolveCampaignProviderMap());
-    return summarizeImpact(actions, matched);
+    let rows;
+    try {
+      rows = statements.length ? Object.values(await d1(statements, local)).flat() : [];
+    } catch {
+      return summarizeImpact(actions, [], { attributionError: true });
+    }
+    const { matched, coverage } = matchSubIdAttribution(actions, indexClickRows(rows), resolveCampaignProviderMap());
+    return summarizeImpact(actions, matched, { coverage });
   } catch (err) {
     return summarizeImpact([], [], { error: err.message });
   }
@@ -332,12 +363,49 @@ function selfTest() {
   assert.deepEqual(quiet.map((f) => f.id).sort(), ["beacon_gap", "impact_unavailable", "no_clicks"]);
 
   const md = renderFunnel(funnel, flags);
-  assert.ok(md.includes("<!-- flags:no_sales,provider_redirect_missing,redirect_leak,sub_id_gap -->"));
+  assert.ok(md.includes("<!-- flags:attribution_gap,no_sales,provider_redirect_missing,redirect_leak,sub_id_gap -->"));
   assert.ok(md.includes("| 2026-10-22 | 134 | 46 | 24 | 33 | 1,769 |"));
   assert.ok(md.includes("| ticketmaster | 0 | 4 | n/a |"));
   assert.ok(md.includes("| pending | 1 | 26.86 GBP |"));
   assert.ok(md.includes("tied to a TTC click by Sub ID: 1 of 2 (vivid-seats 1)"));
   assert.ok(renderFunnel(funnel, quiet).length && renderFunnel({ ...funnel, impact: summarizeImpact([], [], { configured: false }) }, []).includes("Unknown: Impact credentials are not configured"));
+
+  // Healthy click delivery must not hide unmatched recent orders. These
+  // fixtures exercise the actual retained-click matcher used by the run.
+  const clickId = "0123456789abcdef01234567";
+  const actions = [
+    { id: "private-order-a", state: "APPROVED", payout: 1.44, currency: "GBP", day: "2026-10-22", subId1: null },
+    { id: "private-order-b", state: "PENDING", payout: 10, currency: "GBP", day: "2026-10-22", subId1: "legacy-value" },
+    { id: "private-order-c", state: "PENDING", payout: 20, currency: "GBP", day: "2026-10-22", subId1: clickId, campaignId: "2322" }
+  ];
+  const matchedResult = matchSubIdAttribution(actions, indexClickRows([]), resolveCampaignProviderMap({}));
+  const gapImpact = summarizeImpact(actions, matchedResult.matched, { coverage: matchedResult.coverage });
+  const healthyResults = { daily: [{ day: "2026-10-22", visitors: 50, beacons: 4, redirects: 4 }],
+    realRedirects: [{ day: "2026-10-22", provider: "ticketnetwork", clicks: 4, with_sub_id: 4 }], beacons: [] };
+  const gapFunnel = buildFunnel(healthyResults, range, gapImpact);
+  const gapFlags = evaluateFlags(gapFunnel);
+  assert.deepEqual(gapFlags.map(f => f.id), ["attribution_gap"]);
+  const gapMd = renderFunnel(gapFunnel, gapFlags);
+  assert.ok(!gapMd.includes("All checks passed"));
+  assert.ok(gapMd.includes("| No Sub ID returned by Impact | 1 |"));
+  assert.ok(gapMd.includes("| Sub ID does not have the TTC click-ID format | 1 |"));
+  assert.ok(gapMd.includes("| No matching click in retained history | 1 |"));
+  for (const value of [clickId, "legacy-value", ...actions.map(a => a.id)]) assert.ok(!gapMd.includes(value), "identifiers stay out of the issue");
+
+  // A D1 lookup failure preserves known sales, without claiming zero matches.
+  const unavailable = buildFunnel(healthyResults, range, summarizeImpact(actions, [], { attributionError: true }));
+  assert.deepEqual(evaluateFlags(unavailable).map(f => f.id), ["attribution_unavailable"]);
+  const unavailableMd = renderFunnel(unavailable, evaluateFlags(unavailable));
+  assert.ok(unavailableMd.includes("| approved | 1 | 1.44 GBP |"));
+  assert.ok(unavailableMd.includes("by Sub ID: unknown of 3"));
+  assert.ok(!unavailableMd.includes("by Sub ID: 0 of 3"));
+
+  const matchedRow = { click_id: clickId, provider: "ticketnetwork", impact_reconciliation_eligible: 1 };
+  const exact = matchSubIdAttribution([actions[2]], indexClickRows([matchedRow]), resolveCampaignProviderMap({}));
+  const exactFunnel = buildFunnel(healthyResults, range, summarizeImpact([actions[2]], exact.matched, { coverage: exact.coverage }));
+  assert.deepEqual(evaluateFlags(exactFunnel), []);
+  assert.ok(renderFunnel(exactFunnel, []).includes("by Sub ID: 1 of 1"));
+  assert.deepEqual(evaluateFlags(buildFunnel(healthyResults, range, summarizeImpact([], []))).map(f => f.id), ["no_sales"]);
 
   // Notify once per new red flag, not nightly.
   assert.deepEqual(newRedFlags(md, flags).map((f) => f.id), []);

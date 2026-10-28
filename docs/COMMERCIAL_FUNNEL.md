@@ -652,6 +652,17 @@ from recorded receipts (a provider with button clicks but no receipts), never by
 firing test redirects, because Impact would count those as clicks. Thresholds
 live in `THRESHOLDS` in the script.
 
+An unmatched Impact order raises an amber `attribution_gap`, even when click
+delivery is healthy. The report reuses the performance report's retained-click
+matcher and shows aggregate reasons: missing or invalid Sub IDs, missing or
+ambiguous receipts, ineligible receipts, unmapped campaigns and provider
+mismatches. It exposes no raw order IDs or Sub IDs and does not assign unmatched
+commission to pages. Missing receipts do not establish a broken redirect or
+prove that an order predates tracking. If the click lookup fails after Impact
+was read, order states and payouts remain available, attribution is **unknown**,
+and `attribution_unavailable` replaces a misleading zero-match result. These
+amber findings stay in the rolling report; only new red flags trigger comments.
+
 ## What cannot be measured
 
 **Checkout happens on the provider's site. We never see it directly.** The

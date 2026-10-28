@@ -51462,5 +51462,17 @@
     "timezone": "America/Los_Angeles",
     "tour_name": "",
     "status": "announced"
+  },
+  {
+    "id": "tm-weezer-2027-auckland-1fazvp4sz3z7g15d",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "country": "New Zealand",
+    "city": "Auckland",
+    "venue": "Spark Arena",
+    "datetime_iso": "2027-03-07T04:00:00Z",
+    "timezone": "Pacific/Auckland",
+    "tour_name": "",
+    "status": "announced"
   }
 ]

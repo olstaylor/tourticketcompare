@@ -472,7 +472,6 @@ export const OG_CARDS = {
   "/artists/rod-wave": {"url":"/og/artists-rod-wave.png","alt":"Tickets & tour dates: Rod Wave"},
   "/artists/rod-wave/ticket-prices": {"url":"/og/artists-rod-wave-ticket-prices.png","alt":"Ticket prices: Rod Wave"},
   "/artists/rod-wave/tickets/atlanta-united-states": {"url":"/og/artists-rod-wave-tickets-atlanta-united-states.png","alt":"Tickets: Rod Wave in Atlanta"},
-  "/artists/rod-wave/tickets/brooklyn-united-states": {"url":"/og/artists-rod-wave-tickets-brooklyn-united-states.png","alt":"Tickets: Rod Wave in Brooklyn"},
   "/artists/rod-wave/tickets/chicago-united-states": {"url":"/og/artists-rod-wave-tickets-chicago-united-states.png","alt":"Tickets: Rod Wave in Chicago"},
   "/artists/rod-wave/tickets/orlando-united-states": {"url":"/og/artists-rod-wave-tickets-orlando-united-states.png","alt":"Tickets: Rod Wave in Orlando"},
   "/artists/rod-wave/tickets/sunrise-united-states": {"url":"/og/artists-rod-wave-tickets-sunrise-united-states.png","alt":"Tickets: Rod Wave in Sunrise"},

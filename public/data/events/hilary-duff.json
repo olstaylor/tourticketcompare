@@ -1972,11 +1972,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "8284554",
+        "url": "https://www.ticketliquidator.com/tickets/8284554/Hilary-Duff-tickets-Sat-Nov-6-2027-Ariat-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8284554",
@@ -1996,7 +1996,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_3lPl3yg",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284554/Hilary-Duff-tickets-Sat-Nov-6-2027-Ariat-Arena",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284554",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-fort-worth-tickets-11-6-2027/event/107669002",
     "presales": [

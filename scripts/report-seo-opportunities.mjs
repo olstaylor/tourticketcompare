@@ -15,6 +15,10 @@
 //        [--priority-file <json>]    report-show-priority.mjs --json output instead of D1
 //        [--days 14] [--top 15] [--json <file>] [--markdown <file>]
 //   node scripts/report-seo-opportunities.mjs --self-test
+//   node scripts/report-seo-opportunities.mjs --keyword-file <vendor.csv>
+//        [--json <file>] [--markdown <file>]
+// --keyword-file also supplements either Search Console source; standalone it
+// produces a local review baseline without conversion or revenue estimates.
 //
 // <dir> is an unzipped Search Console "Performance" export holding Pages.csv
 // and Queries.csv (the format Ollie uploads to the project). --gsc-api reads
@@ -33,6 +37,7 @@ import { deriveRenderedPriceGuides } from "../functions/_price-guides.js";
 import { parseCsv } from "./report-event-indexing-pilot.mjs";
 import { splitDocument } from "./lib/content-markdown.mjs";
 import { buildD1ReadArgs } from "./lib/d1-read.mjs";
+import { keywordRows, buildKeywordBaseline, renderKeywordBaseline } from "./lib/keyword-baseline.mjs";
 import { readPriorityRows } from "./lib/show-priority-store.mjs";
 import {
   conversionByPageType, matchArtist, artistMatchers, queryIntent, renderMarkdown,
@@ -153,6 +158,7 @@ function parseArgs(argv) {
       return argv[++i];
     };
     if (arg === "--search-console") options.searchConsole = value();
+    else if (arg === "--keyword-file") options.keywordFile = value();
     else if (arg === "--gsc-api") options.gscApi = true;
     else if (arg === "--issue") options.issue = true;
     else if (arg === "--conversion-file") options.conversionFile = value();
@@ -178,8 +184,25 @@ async function main(argv) {
     console.log(`SEO opportunities self-test passed (${await selfTest()} checks).`);
     return;
   }
-  if (!options.searchConsole && !options.gscApi) throw new Error("--search-console <dir> or --gsc-api is required");
+  if (!options.searchConsole && !options.gscApi && !options.keywordFile) throw new Error("--search-console <dir>, --gsc-api or --keyword-file <csv> is required");
+  if (options.keywordFile && !options.searchConsole && !options.gscApi && (options.issue || options.d1 || options.conversionFile || options.priorityFile)) {
+    throw new Error("Keyword-only mode is a local baseline: commercial inputs and --issue need Search Console evidence");
+  }
   const now = Date.now();
+  let keywordBaseline;
+  if (options.keywordFile) {
+    const rows = keywordRows(readFileSync(options.keywordFile, "utf8"));
+    const { loadSiteFixture, crawlRoutes } = await import("./lib/route-crawl.mjs");
+    const site = await loadSiteFixture(ROOT);
+    keywordBaseline = buildKeywordBaseline(rows, await crawlRoutes([...new Set(rows.map((row) => row.path))], site.renderRoute));
+    if (!options.searchConsole && !options.gscApi) {
+      const markdown = renderKeywordBaseline(keywordBaseline);
+      if (options.json) writeFileSync(options.json, `${JSON.stringify({ generated_at: new Date(now).toISOString(), source: options.keywordFile, keyword_baseline: keywordBaseline }, null, 2)}\n`);
+      if (options.markdown) writeFileSync(options.markdown, markdown);
+      console.log(markdown);
+      return;
+    }
+  }
   let pages;
   let queries;
   const sources = [];
@@ -232,8 +255,8 @@ async function main(argv) {
     titleFreeze: TITLE_FREEZE,
     linkedPaths: readLinkedPaths()
   });
-  const markdown = renderMarkdown(result, { top: options.top, generatedAt: new Date(now).toISOString(), sources });
-  if (options.json) writeFileSync(options.json, `${JSON.stringify({ generated_at: new Date(now).toISOString(), sources, ...result }, null, 2)}\n`);
+  const markdown = renderMarkdown(result, { top: options.top, generatedAt: new Date(now).toISOString(), sources }) + (keywordBaseline ? `\n${renderKeywordBaseline(keywordBaseline)}` : "");
+  if (options.json) writeFileSync(options.json, `${JSON.stringify({ generated_at: new Date(now).toISOString(), sources, ...result, ...(keywordBaseline ? { keyword_baseline: keywordBaseline } : {}) }, null, 2)}\n`);
   if (options.markdown) writeFileSync(options.markdown, markdown);
   console.log(markdown);
   if (options.issue) {
@@ -254,6 +277,32 @@ async function selfTest() {
     checks += 1;
   };
   const now = Date.parse("2026-10-16T12:00:00Z");
+  const keywordCsv = 'Keyword,Rank,Volume,Traffic,URL,Score\n"ticket, comparison",12,100,999,https://tourticketcompare.com/,100\nprice guide,8,50,88,https://tourticketcompare.com/artists/test/ticket-prices,100';
+  const baselineRows = keywordRows(keywordCsv);
+  const baseline = buildKeywordBaseline(baselineRows, new Map([
+    ["/", { status: 200, indexable: true, canonical: "https://tourticketcompare.com/" }],
+    ["/artists/test/ticket-prices", { status: 301, indexable: false, location: "/artists/test" }]
+  ]));
+  check(baselineRows[0].keyword === "ticket, comparison" && !("Traffic" in baselineRows[0]), "keyword CSV preserves quoted fields without promoting vendor traffic to measured visits");
+  check(baseline[0].bucket === "NEAR_TERM" && baseline[1].bucket === "HOLD" && baseline[0].country === null && baseline[0].approved_commission === null, "keyword baseline preserves unknown commercial evidence and holds redirects");
+  for (const invalid of [keywordCsv.replace(',12,100,', ',,100,'), keywordCsv.replace('https://tourticketcompare.com/', 'https://example.com/'), `${keywordCsv}\nprice guide,8,50,88,https://tourticketcompare.com/artists/test/ticket-prices,100`]) {
+    assert.throws(() => keywordRows(invalid));
+    checks += 1;
+  }
+  check(renderKeywordBaseline(baseline).includes("not commercial scores"), "baseline labels its evidence limits");
+  const trailingSlashRows = keywordRows('Keyword,Rank,Volume,URL\ncomparison,10,100,https://tourticketcompare.com/guides/vivid-seats-vs-seatgeek/');
+  const trailingSlashPath = "/guides/vivid-seats-vs-seatgeek/";
+  check(trailingSlashRows[0].path === trailingSlashPath, "keyword parsing preserves the exported trailing slash for the actual crawl");
+  check(buildKeywordBaseline(trailingSlashRows, new Map([[trailingSlashPath, { status: 301, indexable: false, location: trailingSlashPath.slice(0, -1) }]]))[0].bucket === "HOLD", "exported redirect is held rather than classified using its canonical destination");
+  for (const page of [
+    { status: 200, indexable: false, canonical: "https://tourticketcompare.com/" },
+    { status: 200, indexable: true, canonical: "https://tourticketcompare.com/artists" },
+    { status: 404, indexable: false }
+  ]) {
+    check(buildKeywordBaseline([baselineRows[0]], new Map([["/", page]]))[0].bucket === "HOLD", "keyword baseline holds excluded, noncanonical and missing pages");
+  }
+  const variants = buildKeywordBaseline([{ ...baselineRows[0], rank: 2 }, { ...baselineRows[0], keyword: "other phrase", rank: 50 }], new Map([["/", { status: 200, indexable: true, canonical: "https://tourticketcompare.com/" }]]));
+  check(variants[0].bucket === "DEFEND" && variants[0].keywords.length === 2 && !("volume" in variants[0]), "top-three wins are retained without adding overlapping volumes");
   const show = (artist_slug, date) => ({ id: `${artist_slug}-${date}`, artist_slug, datetime_iso: `${date}T20:00:00`, timezone: "America/New_York", status: "onsale" });
   const indexable = "indexable_with_substantial_content";
   const artists = [

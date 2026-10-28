@@ -4505,6 +4505,7 @@ function renderHomepageGuideLinks() {
   const priorityPaths = [
     "/guides/vivid-seats-vs-ticketmaster",
     "/guides/seatgeek-vs-ticketmaster",
+    "/guides/vivid-seats-vs-seatgeek",
     "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats",
     "/guides/how-to-compare-concert-ticket-prices"
   ];
@@ -7598,6 +7599,10 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "/guides/seatgeek-vs-ticketmaster",
       "button button-secondary"
     )}${anchor(
+      "Vivid Seats and SeatGeek buying guide",
+      "/guides/vivid-seats-vs-seatgeek",
+      "button button-secondary"
+    )}${anchor(
       "Currency converter",
       "/currency-converter",
       "button button-secondary"
@@ -7894,7 +7899,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       [],
       null,
       eventPageLinker(route.events || events, [artist])
-    )}${renderArtistCityAnswerSummary(artist, artistCity, { datesTabled })}${priceGuideHtml}${relatedLinksHtml}${collapsedGroupHtml(
+    )}<p class="disclosure-note">Before choosing a ticket link, match the local date, venue, seats and quantity. Check the seller's currency, final total and delivery terms. ${anchor("Compare SeatGeek and Ticketmaster", "/guides/seatgeek-vs-ticketmaster", "text-link")} or ${anchor("compare SeatGeek and Vivid Seats", "/guides/vivid-seats-vs-seatgeek", "text-link")} for buying guidance.</p>${renderArtistCityAnswerSummary(artist, artistCity, { datesTabled })}${priceGuideHtml}${relatedLinksHtml}${collapsedGroupHtml(
       "How prices and links work, and useful links",
       `${renderArtistTicketHelpHtml(artistTicketHelp())}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       `All ${artist.name} tickets and dates`,

@@ -162,7 +162,7 @@ jobs:
         run: |
           set -euo pipefail
           bad=$(git status --porcelain=v1 --untracked-files=all | cut -c4- | grep -Ev \
-            '^(content/blog/[a-z0-9-]+-tour-ticket-prices-by-city\.md|reports/data-stories/[a-z0-9-]+-tour-ticket-prices-by-city/(figures\.json|chart\.svg)|public/data/blog-content\.json|data/content-provenance\.json|functions/_og-cards\.generated\.js|public/og/blog-[a-z0-9-]+-tour-ticket-prices-by-city\.png)$' || true)
+            '^(content/blog/[a-z0-9-]+-tour-ticket-prices-by-city\.md|reports/data-stories/[a-z0-9-]+-tour-ticket-prices-by-city/(figures\.json|chart\.svg)|public/data/blog-content\.json|data/content-provenance\.json|functions/_og-cards\.generated\.js|public/og/[a-z0-9-]+\.png)$' || true)
           if [ -n "$bad" ]; then
             echo "::error::unexpected changes, nothing committed:"
             printf '%s\n' "$bad"

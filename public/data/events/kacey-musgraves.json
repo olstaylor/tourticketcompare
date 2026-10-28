@@ -286,11 +286,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107165502",
-        "url": "https://www.stubhub.ie/kacey-musgraves-seattle-tickets-10-26-2026/event/107165502",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -304,7 +304,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-seattle-tickets-10-26-2026/event/107165502",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "",
     "organizer_names": [
       "AEG LIVE"

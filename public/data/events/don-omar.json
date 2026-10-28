@@ -2591,11 +2591,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107447678",
-        "url": "https://www.stubhub.ie/don-omar-fort-worth-tickets-3-6-2027/event/107447678",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_u1_oUrO",
@@ -2603,7 +2603,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071966",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071966/Don-Omar-tickets-Sat-Mar-6-2027-Ariat-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-fort-worth-tickets-3-6-2027/event/107447678",
+    "stubhub_international_url": "",
     "presales": [
       {
         "name": "VIP Packages Onsale",

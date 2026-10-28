@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672199",
+        "url": "https://www.stubhub.ie/phish-new-york-tickets-12-30-2026/event/107672199",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_KV3gvWH",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311023"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311023",
+    "stubhub_international_url": "https://www.stubhub.ie/phish-new-york-tickets-12-30-2026/event/107672199"
   },
   {
     "id": "tm-phish-2027-new-york-g5diz_kv3mvxa",
@@ -121,13 +129,21 @@
         "verified": true,
         "last_verified_at": "2026-10-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672200",
+        "url": "https://www.stubhub.ie/phish-new-york-tickets-12-31-2026/event/107672200",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_KV3MvXa",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311024",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311024/Phish-tickets-Thu-Dec-31-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311024/Phish-tickets-Thu-Dec-31-2026-Madison-Square-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/phish-new-york-tickets-12-31-2026/event/107672200"
   },
   {
     "id": "tm-phish-2027-new-york-g5diz_kv3yvxl",
@@ -190,13 +206,21 @@
         "verified": true,
         "last_verified_at": "2026-10-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672780",
+        "url": "https://www.stubhub.ie/phish-new-york-tickets-1-1-2027/event/107672780",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_KV3yvXL",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311025",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311025/Phish-tickets-Fri-Jan-1-2027-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311025/Phish-tickets-Fri-Jan-1-2027-Madison-Square-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/phish-new-york-tickets-1-1-2027/event/107672780"
   },
   {
     "id": "tm-phish-2027-new-york-g5diz_kv3dvxt",
@@ -259,12 +283,20 @@
         "verified": true,
         "last_verified_at": "2026-10-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672781",
+        "url": "https://www.stubhub.ie/phish-new-york-tickets-1-2-2027/event/107672781",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_KV3DvXt",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311027",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311027/Phish-tickets-Sat-Jan-2-2027-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311027/Phish-tickets-Sat-Jan-2-2027-Madison-Square-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/phish-new-york-tickets-1-2-2027/event/107672781"
   }
 ]

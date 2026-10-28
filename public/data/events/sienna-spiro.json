@@ -2297,6 +2297,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678123",
+        "url": "https://www.stubhub.ie/sienna-spiro-austin-tickets-8-5-2027/event/107678123",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_47YTEkn",
@@ -2307,7 +2314,8 @@
       "LIVE NATION MUSIC",
       "WME AGENCY"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332299"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332299",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-austin-tickets-8-5-2027/event/107678123"
   },
   {
     "id": "tm-sienna-spiro-2027-washington-1avfz_fgksa-bdm",
@@ -2680,6 +2688,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678127",
+        "url": "https://www.stubhub.ie/sienna-spiro-detroit-tickets-8-23-2027/event/107678127",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk48GkeBO40X",
@@ -2689,7 +2704,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332344"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332344",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-detroit-tickets-8-23-2027/event/107678127"
   },
   {
     "id": "tm-sienna-spiro-2027-chicago-vv17jz_fgkxlgu6j",
@@ -3447,12 +3463,20 @@
         "verified": true,
         "last_verified_at": "2026-10-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675966",
+        "url": "https://www.stubhub.ie/sienna-spiro-nashville-tickets-8-8-2027/event/107675966",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7bjy",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332305",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332305/Sienna-Spiro-tickets-Sun-Aug-8-2027-Grand-Ole-Opry-House"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332305/Sienna-Spiro-tickets-Sun-Aug-8-2027-Grand-Ole-Opry-House",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-nashville-tickets-8-8-2027/event/107675966"
   }
 ]

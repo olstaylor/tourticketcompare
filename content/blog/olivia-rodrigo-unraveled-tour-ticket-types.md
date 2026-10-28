@@ -2,7 +2,7 @@
 title: Three kinds of Olivia Rodrigo ticket, and what each one means
 seo_title: Olivia Rodrigo Ticket Types Explained
 description: Compare Olivia Rodrigo ticket types before choosing a date. Check standard tickets, VIP extras, Silver Star terms and delivery before buying resale.
-summary: An Unraveled Tour ticket is not one product. The tour sells standard tickets, VIP packages and a request-based fixed-price ticket, and the rules attached to each — transferability, delivery timing, identity checks — decide what a second-hand listing is actually worth buying.
+summary: Standard, VIP and Silver Star tickets have different terms. Check what a resale listing includes, when the ticket transfers and which date it covers before comparing prices.
 date: 2026-09-25
 updated: 2026-10-28
 status: published

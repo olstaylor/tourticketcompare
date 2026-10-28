@@ -542,5 +542,113 @@
       "AEG LIVE"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338947"
+  },
+  {
+    "id": "tm-garth-brooks-2026-hamilton-1avzz_4gkrzxgxw",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "event_name": "Garth Brooks - Blame It All On My Roots Arena Tour",
+    "city": "Hamilton",
+    "country": "Canada",
+    "venue": "TD Coliseum",
+    "datetime_iso": "2026-12-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000655BC088C8B2",
+    "ticketmaster_url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-04-2026/event/1000655BC088C8B2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-04-2026/event/1000655BC088C8B2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000655BC088C8B2",
+        "discovery_event_id": "1AvZZ_4GkRZxGxw",
+        "url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-04-2026/event/1000655BC088C8B2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_4GkRZxGxw",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T15:00:00Z"
+  },
+  {
+    "id": "tm-garth-brooks-2026-hamilton-1avzz_4gkre8jcm",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "event_name": "Garth Brooks - Blame It All On My Roots Arena Tour",
+    "city": "Hamilton",
+    "country": "Canada",
+    "venue": "TD Coliseum",
+    "datetime_iso": "2026-12-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000655BC241CB77",
+    "ticketmaster_url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-05-2026/event/1000655BC241CB77",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-05-2026/event/1000655BC241CB77",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000655BC241CB77",
+        "discovery_event_id": "1AvZZ_4GkRe8jcM",
+        "url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-05-2026/event/1000655BC241CB77",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_4GkRe8jcM",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T15:00:00Z"
   }
 ]

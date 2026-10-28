@@ -194,6 +194,8 @@ export const OG_CARDS = {
   "/artists/fuerza-regida/tickets/ciudad-de-m-xico-mexico": {"url":"/og/artists-fuerza-regida-tickets-ciudad-de-m-xico-mexico.png","alt":"Tickets: Fuerza Regida in Ciudad de México"},
   "/artists/fuerza-regida/tickets/morrison-united-states": {"url":"/og/artists-fuerza-regida-tickets-morrison-united-states.png","alt":"Tickets: Fuerza Regida in Morrison"},
   "/artists/garth-brooks": {"url":"/og/artists-garth-brooks.png","alt":"Tickets & tour dates: Garth Brooks"},
+  "/artists/garth-brooks/ticket-prices": {"url":"/og/artists-garth-brooks-ticket-prices.png","alt":"Ticket prices: Garth Brooks"},
+  "/artists/garth-brooks/tickets/seattle-united-states": {"url":"/og/artists-garth-brooks-tickets-seattle-united-states.png","alt":"Tickets: Garth Brooks in Seattle"},
   "/artists/gavin-adcock": {"url":"/og/artists-gavin-adcock.png","alt":"Tickets & tour dates: Gavin Adcock"},
   "/artists/gavin-adcock/presale": {"url":"/og/artists-gavin-adcock-presale.png","alt":"Presale: Gavin Adcock"},
   "/artists/gavin-adcock/ticket-prices": {"url":"/og/artists-gavin-adcock-ticket-prices.png","alt":"Ticket prices: Gavin Adcock"},

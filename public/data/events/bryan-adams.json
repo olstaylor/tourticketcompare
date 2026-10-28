@@ -1270,5 +1270,59 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kaap_ay",
     "timezone": "Europe/Berlin",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-bryan-adams-2027-wellington-central-1ae8z_fgktxpjky",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams - Bare Bones",
+    "city": "Wellington Central",
+    "country": "New Zealand",
+    "venue": "Te Whare Whakarauika Wellington Town Hall",
+    "datetime_iso": "2027-03-16T05:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2400654FFE5A64F0",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/bryan-adams-bare-bones-wellington-central-16-03-2027/event/2400654FFE5A64F0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/bryan-adams-bare-bones-wellington-central-16-03-2027/event/2400654FFE5A64F0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2400654FFE5A64F0",
+        "discovery_event_id": "1Ae8Z_fGkTXpJKY",
+        "url": "https://www.ticketmaster.co.nz/bryan-adams-bare-bones-wellington-central-16-03-2027/event/2400654FFE5A64F0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae8Z_fGkTXpJKY",
+    "timezone": "Pacific/Auckland",
+    "status": "announced",
+    "public_onsale_at": "2026-10-29T22:00:00Z"
   }
 ]

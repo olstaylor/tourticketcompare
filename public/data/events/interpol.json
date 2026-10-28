@@ -669,5 +669,58 @@
     "public_onsale_at": "2026-10-30T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337027",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337027/Interpol-tickets-Fri-Mar-26-2027-The-Met-Presented-by-Highmark"
+  },
+  {
+    "id": "tm-interpol-2027-dallas-z7r9jz1aa7sce",
+    "artist_slug": "interpol",
+    "artist_name": "Interpol",
+    "event_name": "Interpol",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "The Bomb Factory",
+    "datetime_iso": "2027-03-21T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7sCe",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7sCe",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7sCe",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7sCe",
+        "discovery_event_id": "Z7r9jZ1AA7sCe",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7sCe",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7sCe",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

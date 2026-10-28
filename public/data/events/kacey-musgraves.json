@@ -293,11 +293,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7919153",
-        "url": "https://www.ticketnetwork.com/en/p/7919153",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_aL3e8EO",
@@ -305,7 +305,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7919153/Kacey-Musgraves-tickets-Mon-Oct-26-2026-Climate-Pledge-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-seattle-tickets-10-26-2026/event/107165502",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7919153",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "AEG LIVE"
     ]

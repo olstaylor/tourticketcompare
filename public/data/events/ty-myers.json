@@ -270,11 +270,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "7830819",
+        "url": "https://www.ticketnetwork.com/en/p/7830819",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_61DJQEl",
@@ -292,6 +292,6 @@
         "end": "2026-11-11T23:00:00Z"
       }
     ],
-    "ticketnetwork_url": ""
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7830819"
   }
 ]

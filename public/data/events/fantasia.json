@@ -633,11 +633,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "8293970",
+        "url": "https://www.ticketnetwork.com/en/p/8293970",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -657,7 +657,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_KbTLWH3",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293970",
     "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-fort-worth-tickets-3-13-2027/event/107671384",
     "organizer_names": [

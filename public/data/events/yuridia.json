@@ -1735,6 +1735,13 @@
         "verified": true,
         "last_verified_at": "2026-10-27",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8307103",
+        "url": "https://www.ticketnetwork.com/en/p/8307103",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dVZ_aiA5kvD",
@@ -1744,6 +1751,7 @@
     "organizer_names": [
       "OCESA"
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307103/Yuridia-tickets-Sat-Dec-5-2026-Coliseo-GNP-Seguros"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307103/Yuridia-tickets-Sat-Dec-5-2026-Coliseo-GNP-Seguros",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307103"
   }
 ]
